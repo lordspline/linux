@@ -5,11 +5,11 @@
  * Copyright 2009 Freescale Semiconductor Inc.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/threads.h>
-#include <linux/hardirq.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/smp.h>
+#include <robux/threads.h>
+#include <robux/hardirq.h>
 
 #include <asm/dbell.h>
 #include <asm/interrupt.h>

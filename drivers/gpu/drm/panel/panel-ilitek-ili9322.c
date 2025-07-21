@@ -19,14 +19,14 @@
  * Derived from drivers/drm/gpu/panel/panel-samsung-ld9040.c
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <robux/bitops.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spi/spi.h>
 
 #include <video/mipi_display.h>
 #include <video/of_videomode.h>

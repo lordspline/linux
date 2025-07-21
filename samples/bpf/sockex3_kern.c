@@ -4,14 +4,14 @@
  * modify it under the terms of version 2 of the GNU General Public
  * License as published by the Free Software Foundation.
  */
-#include <uapi/linux/bpf.h>
-#include <uapi/linux/in.h>
-#include <uapi/linux/if.h>
-#include <uapi/linux/if_ether.h>
-#include <uapi/linux/ip.h>
-#include <uapi/linux/ipv6.h>
-#include <uapi/linux/if_tunnel.h>
-#include <uapi/linux/mpls.h>
+#include <uapi/robux/bpf.h>
+#include <uapi/robux/in.h>
+#include <uapi/robux/if.h>
+#include <uapi/robux/if_ether.h>
+#include <uapi/robux/ip.h>
+#include <uapi/robux/ipv6.h>
+#include <uapi/robux/if_tunnel.h>
+#include <uapi/robux/mpls.h>
 #include <bpf/bpf_helpers.h>
 #include "bpf_legacy.h"
 #define IP_MF		0x2000

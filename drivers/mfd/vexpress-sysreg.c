@@ -4,15 +4,15 @@
  * Copyright (C) 2012 ARM Limited
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
+#include <robux/gpio/driver.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/stat.h>
 
 #define SYS_ID			0x000
 #define SYS_SW			0x004

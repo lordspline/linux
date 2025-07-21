@@ -8,12 +8,12 @@
 #ifndef _V4L2_TPG_H_
 #define _V4L2_TPG_H_
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/videodev2.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/random.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/videodev2.h>
 
 struct tpg_rbg_color8 {
 	unsigned char r, g, b;

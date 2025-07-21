@@ -6,7 +6,7 @@
 #ifndef _AMDXDNA_GEM_H_
 #define _AMDXDNA_GEM_H_
 
-#include <linux/hmm.h>
+#include <robux/hmm.h>
 
 struct amdxdna_umap {
 	struct vm_area_struct		*vma;

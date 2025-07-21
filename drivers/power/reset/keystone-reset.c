@@ -7,14 +7,14 @@
  * Author: Ivan Khoronzhuk <ivan.khoronzhuk@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
 
 #define RSCTRL_RG			0x4
 #define RSCFG_RG			0x8

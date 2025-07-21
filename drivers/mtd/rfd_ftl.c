@@ -12,14 +12,14 @@
  * based on ftl.c
  */
 
-#include <linux/hdreg.h>
-#include <linux/init.h>
-#include <linux/mtd/blktrans.h>
-#include <linux/mtd/mtd.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
+#include <robux/hdreg.h>
+#include <robux/init.h>
+#include <robux/mtd/blktrans.h>
+#include <robux/mtd/mtd.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
 
 #include <asm/types.h>
 

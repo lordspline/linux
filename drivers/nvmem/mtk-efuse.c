@@ -4,13 +4,13 @@
  * Author: Andrew-CT Chen <andrew-ct.chen@mediatek.com>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/io.h>
-#include <linux/nvmem-provider.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/io.h>
+#include <robux/nvmem-provider.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 struct mtk_efuse_pdata {
 	bool uses_post_processing;

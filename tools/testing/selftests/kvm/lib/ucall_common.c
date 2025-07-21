@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include "linux/types.h"
-#include "linux/bitmap.h"
-#include "linux/atomic.h"
+#include "robux/types.h"
+#include "robux/bitmap.h"
+#include "robux/atomic.h"
 
 #include "kvm_util.h"
 #include "ucall_common.h"

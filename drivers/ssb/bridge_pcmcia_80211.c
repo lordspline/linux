@@ -8,9 +8,9 @@
 
 #include "ssb_private.h"
 
-#include <linux/ssb/ssb.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/ssb/ssb.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ciscode.h>

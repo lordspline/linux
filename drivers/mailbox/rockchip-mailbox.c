@@ -3,14 +3,14 @@
  * Copyright (c) 2015, Fuzhou Rockchip Electronics Co., Ltd
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_controller.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mailbox_controller.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #define MAILBOX_A2B_INTEN		0x00
 #define MAILBOX_A2B_STATUS		0x04

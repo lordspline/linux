@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2017-2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2017-2019, The Robux Foundation. All rights reserved.
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/llcc-qcom.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/soc/qcom/llcc-qcom.h>
 
 #define ACTIVATE                      BIT(0)
 #define DEACTIVATE                    BIT(1)

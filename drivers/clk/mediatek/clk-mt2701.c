@@ -4,9 +4,9 @@
  * Author: Shunli Wang <shunli.wang@mediatek.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
 
 #include "clk-cpumux.h"
 #include "clk-gate.h"

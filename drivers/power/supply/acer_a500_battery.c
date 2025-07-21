@@ -10,14 +10,14 @@
  * Copyright (c) 2010, NVIDIA Corporation.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/property.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/property.h>
 
 enum {
 	REG_CAPACITY,

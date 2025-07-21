@@ -11,21 +11,21 @@
  *  Rajan Vaja <rajanv@xilinx.com>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/compiler.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/hashtable.h>
+#include <robux/arm-smccc.h>
+#include <robux/compiler.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/hashtable.h>
 
-#include <linux/firmware/xlnx-zynqmp.h>
-#include <linux/firmware/xlnx-event-manager.h>
+#include <robux/firmware/xlnx-zynqmp.h>
+#include <robux/firmware/xlnx-event-manager.h>
 #include "zynqmp-debug.h"
 
 /* Max HashMap Order for PM API feature check (1<<7 = 128) */
@@ -78,10 +78,10 @@ static const struct mfd_cell firmware_devs[] = {
 };
 
 /**
- * zynqmp_pm_ret_code() - Convert PMU-FW error codes to Linux error codes
+ * zynqmp_pm_ret_code() - Convert PMU-FW error codes to Robux error codes
  * @ret_status:		PMUFW return code
  *
- * Return: corresponding Linux error code
+ * Return: corresponding Robux error code
  */
 static int zynqmp_pm_ret_code(u32 ret_status)
 {
@@ -1473,7 +1473,7 @@ EXPORT_SYMBOL_GPL(zynqmp_pm_set_requirement);
  * @src:	Source device where PDI is located
  * @address:	PDI src address
  *
- * This function provides support to load PDI from linux
+ * This function provides support to load PDI from robux
  *
  * Return: Returns status, either success or error+reason
  */

@@ -10,21 +10,21 @@
 
 #define pr_fmt(fmt) "acpi/hmat: " fmt
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/platform_device.h>
-#include <linux/list_sort.h>
-#include <linux/memregion.h>
-#include <linux/memory.h>
-#include <linux/mutex.h>
-#include <linux/node.h>
-#include <linux/sysfs.h>
-#include <linux/dax.h>
-#include <linux/memory-tiers.h>
+#include <robux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/mm.h>
+#include <robux/platform_device.h>
+#include <robux/list_sort.h>
+#include <robux/memregion.h>
+#include <robux/memory.h>
+#include <robux/mutex.h>
+#include <robux/node.h>
+#include <robux/sysfs.h>
+#include <robux/dax.h>
+#include <robux/memory-tiers.h>
 
 static u8 hmat_revision;
 static int hmat_disable __initdata;

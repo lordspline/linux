@@ -13,18 +13,18 @@
  * Dynamic DMA mapping support, Apple U3, U4 & IBM CPC925 "DART" iommu.
  */
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/vmalloc.h>
-#include <linux/suspend.h>
-#include <linux/memblock.h>
-#include <linux/gfp.h>
-#include <linux/of_address.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/vmalloc.h>
+#include <robux/suspend.h>
+#include <robux/memblock.h>
+#include <robux/gfp.h>
+#include <robux/of_address.h>
 #include <asm/io.h>
 #include <asm/iommu.h>
 #include <asm/pci-bridge.h>

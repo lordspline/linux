@@ -5,15 +5,15 @@
  * Copyright (C) 2020 Jernej Skrabec <jernej.skrabec@siol.net>
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 
 #include <media/v4l2-device.h>
 #include <media/v4l2-event.h>

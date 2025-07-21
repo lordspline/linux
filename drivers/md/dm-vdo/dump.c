@@ -5,7 +5,7 @@
 
 #include "dump.h"
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 #include "memory-alloc.h"
 #include "string-utils.h"

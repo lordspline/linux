@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/mm.h>
-#include <linux/rmap.h>
-#include <linux/hugetlb.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
+#include <robux/mm.h>
+#include <robux/rmap.h>
+#include <robux/hugetlb.h>
+#include <robux/swap.h>
+#include <robux/swapops.h>
 
 #include "internal.h"
 
@@ -60,7 +60,7 @@ again:
 		 * page mapping ie lock CPU page table and return true.
 		 *
 		 * For more details on device private memory see HMM
-		 * (include/linux/hmm.h or mm/hmm.c).
+		 * (include/robux/hmm.h or mm/hmm.c).
 		 */
 		entry = pte_to_swp_entry(ptent);
 		if (!is_device_private_entry(entry) &&

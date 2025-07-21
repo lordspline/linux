@@ -12,10 +12,10 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/acpi.h>
+#include <robux/dmi.h>
 
 #include "../internal.h"
 

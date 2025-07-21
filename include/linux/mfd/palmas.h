@@ -11,12 +11,12 @@
 #ifndef __LINUX_MFD_PALMAS_H
 #define __LINUX_MFD_PALMAS_H
 
-#include <linux/usb/otg.h>
-#include <linux/leds.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/extcon-provider.h>
-#include <linux/usb/phy_companion.h>
+#include <robux/usb/otg.h>
+#include <robux/leds.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/extcon-provider.h>
+#include <robux/usb/phy_companion.h>
 
 #define PALMAS_NUM_CLIENTS		3
 

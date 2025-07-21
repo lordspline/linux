@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/device.h>
-#include <linux/pci.h>
+#include <robux/device.h>
+#include <robux/pci.h>
 #include "pci.h"
 
 /*

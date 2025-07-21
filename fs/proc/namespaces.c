@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/proc_fs.h>
-#include <linux/nsproxy.h>
-#include <linux/ptrace.h>
-#include <linux/namei.h>
-#include <linux/file.h>
-#include <linux/utsname.h>
+#include <robux/proc_fs.h>
+#include <robux/nsproxy.h>
+#include <robux/ptrace.h>
+#include <robux/namei.h>
+#include <robux/file.h>
+#include <robux/utsname.h>
 #include <net/net_namespace.h>
-#include <linux/ipc_namespace.h>
-#include <linux/pid_namespace.h>
-#include <linux/user_namespace.h>
+#include <robux/ipc_namespace.h>
+#include <robux/pid_namespace.h>
+#include <robux/user_namespace.h>
 #include "internal.h"
 
 

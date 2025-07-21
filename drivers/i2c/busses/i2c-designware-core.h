@@ -9,13 +9,13 @@
  * Copyright (C) 2009 Provigent Ltd.
  */
 
-#include <linux/bits.h>
-#include <linux/completion.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/completion.h>
+#include <robux/errno.h>
+#include <robux/i2c.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 #define DW_IC_DEFAULT_FUNCTIONALITY		(I2C_FUNC_I2C | \
 						 I2C_FUNC_SMBUS_BYTE | \

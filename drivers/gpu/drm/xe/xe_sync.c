@@ -5,10 +5,10 @@
 
 #include "xe_sync.h"
 
-#include <linux/dma-fence-array.h>
-#include <linux/kthread.h>
-#include <linux/sched/mm.h>
-#include <linux/uaccess.h>
+#include <robux/dma-fence-array.h>
+#include <robux/kthread.h>
+#include <robux/sched/mm.h>
+#include <robux/uaccess.h>
 
 #include <drm/drm_print.h>
 #include <drm/drm_syncobj.h>

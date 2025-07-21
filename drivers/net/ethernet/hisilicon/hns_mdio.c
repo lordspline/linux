@@ -3,22 +3,22 @@
  * Copyright (c) 2014-2015 Hisilicon Limited.
  */
 
-#include <linux/acpi.h>
-#include <linux/errno.h>
-#include <linux/etherdevice.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_platform.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/acpi.h>
+#include <robux/errno.h>
+#include <robux/etherdevice.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/netdevice.h>
+#include <robux/of_address.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/of_platform.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define MDIO_DRV_NAME "Hi-HNS_MDIO"
 #define MDIO_BUS_NAME "Hisilicon MII Bus"

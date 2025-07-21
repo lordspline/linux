@@ -4,8 +4,8 @@
  */
 
 #include <drm/ttm/ttm_backup.h>
-#include <linux/page-flags.h>
-#include <linux/swap.h>
+#include <robux/page-flags.h>
+#include <robux/swap.h>
 
 /*
  * Need to map shmem indices to handle since a handle value

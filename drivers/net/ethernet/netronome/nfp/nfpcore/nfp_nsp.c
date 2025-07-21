@@ -7,15 +7,15 @@
  *         Jason McMullan <jason.mcmullan@netronome.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/overflow.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
+#include <robux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/overflow.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
 
 #define NFP_SUBSYS "nfp_nsp"
 

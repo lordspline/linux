@@ -6,15 +6,15 @@
  * Based on w1_therm.c copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/mutex.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 #define W1_FAMILY_DS2405	0x05
 

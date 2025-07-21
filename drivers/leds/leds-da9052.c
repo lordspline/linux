@@ -7,15 +7,15 @@
  * Author: David Dajun Chen <dchen@diasemi.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/leds.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/leds.h>
+#include <robux/slab.h>
 
-#include <linux/mfd/da9052/reg.h>
-#include <linux/mfd/da9052/da9052.h>
-#include <linux/mfd/da9052/pdata.h>
+#include <robux/mfd/da9052/reg.h>
+#include <robux/mfd/da9052/da9052.h>
+#include <robux/mfd/da9052/pdata.h>
 
 #define DA9052_OPENDRAIN_OUTPUT	2
 #define DA9052_SET_HIGH_LVL_OUTPUT	(1 << 3)

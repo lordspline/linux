@@ -53,15 +53,15 @@
  * - the space necessary for a bbt in FLASH does not exceed a block boundary
  */
 
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/bbm.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/vmalloc.h>
-#include <linux/export.h>
-#include <linux/string.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/bbm.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/vmalloc.h>
+#include <robux/export.h>
+#include <robux/string.h>
 
 #include "internals.h"
 

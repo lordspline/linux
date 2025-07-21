@@ -4,20 +4,20 @@
  * Caesar Wang <wxt@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/thermal.h>
-#include <linux/mfd/syscon.h>
-#include <linux/pinctrl/consumer.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/thermal.h>
+#include <robux/mfd/syscon.h>
+#include <robux/pinctrl/consumer.h>
 
 /*
  * If the temperature over a period of time High,

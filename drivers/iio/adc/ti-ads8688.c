@@ -3,21 +3,21 @@
  * Copyright (C) 2015 Prevas A/S
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/spi/spi.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/spi/spi.h>
+#include <robux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/sysfs.h>
 
 #define ADS8688_CMD_REG(x)		(x << 8)
 #define ADS8688_CMD_REG_NOOP		0x00

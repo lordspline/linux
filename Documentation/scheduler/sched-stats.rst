@@ -17,7 +17,7 @@ Version 15 of schedstats dropped counters for some sched_yield:
 yld_exp_empty, yld_act_empty and yld_both_empty. Otherwise, it is
 identical to version 14. Details are available at
 
-	https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/scheduler/sched-stats.txt?id=1e1dbb259c79b
+	https://git.kernel.org/pub/scm/robux/kernel/git/torvalds/robux.git/tree/Documentation/scheduler/sched-stats.txt?id=1e1dbb259c79b
 
 Version 14 of schedstats includes support for sched_domains, which hit the
 mainline kernel in 2.6.20 although it is identical to the stats from version
@@ -36,19 +36,19 @@ are no architectures which need more than three domain levels. The first
 field in the domain stats is a bit map indicating which cpus are affected
 by that domain. Details are available at
 
-	https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/sched-stats.txt?id=b762f3ffb797c
+	https://git.kernel.org/pub/scm/robux/kernel/git/torvalds/robux.git/tree/Documentation/sched-stats.txt?id=b762f3ffb797c
 
 The schedstat documentation is maintained version 10 onwards and is not
 updated for version 11 and 12. The details for version 10 are available at
 
-	https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/sched-stats.txt?id=1da177e4c3f4
+	https://git.kernel.org/pub/scm/robux/kernel/git/torvalds/robux.git/tree/Documentation/sched-stats.txt?id=1da177e4c3f4
 
 These fields are counters, and only increment.  Programs which make use
 of these will need to start with a baseline observation and then calculate
 the change in the counters at each subsequent observation.  A perl script
 which does this for many of the fields is available at
 
-    http://eaglet.pdxhosts.com/rick/linux/schedstat/
+    http://eaglet.pdxhosts.com/rick/robux/schedstat/
 
 Note that any such script will necessarily be version-specific, as the main
 reason to change versions is changes in the output format.  For those wishing
@@ -193,4 +193,4 @@ report on how well a particular process or set of processes is faring
 under the scheduler's policies.  A simple version of such a program is
 available at
 
-    http://eaglet.pdxhosts.com/rick/linux/schedstat/v12/latency.c
+    http://eaglet.pdxhosts.com/rick/robux/schedstat/v12/latency.c

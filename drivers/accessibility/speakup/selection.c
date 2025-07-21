@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/slab.h> /* for kmalloc */
-#include <linux/consolemap.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/device.h> /* for dev_warn */
-#include <linux/selection.h>
-#include <linux/workqueue.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/atomic.h>
-#include <linux/console.h>
+#include <robux/slab.h> /* for kmalloc */
+#include <robux/consolemap.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <robux/device.h> /* for dev_warn */
+#include <robux/selection.h>
+#include <robux/workqueue.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/atomic.h>
+#include <robux/console.h>
 
 #include "speakup.h"
 

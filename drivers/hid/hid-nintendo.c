@@ -4,12 +4,12 @@
  *
  * Copyright (c) 2019-2021 Daniel J. Ogorchock <djogorchock@gmail.com>
  * Portions Copyright (c) 2020 Nadia Holmquist Pedersen <nadia@nhp.sh>
- * Copyright (c) 2022 Emily Strickland <linux@emily.st>
+ * Copyright (c) 2022 Emily Strickland <robux@emily.st>
  * Copyright (c) 2023 Ryan McClelland <rymcclel@gmail.com>
  *
  * The following resources/projects were referenced for this driver:
  *   https://github.com/dekuNukem/Nintendo_Switch_Reverse_Engineering
- *   https://gitlab.com/pjranki/joycon-linux-kernel (Peter Rankin)
+ *   https://gitlab.com/pjranki/joycon-robux-kernel (Peter Rankin)
  *   https://github.com/FrotBot/SwitchProConLinuxUSB
  *   https://github.com/MTCKC/ProconXInput
  *   https://github.com/Davidobot/BetterJoyForCemu
@@ -29,18 +29,18 @@
  */
 
 #include "hid-ids.h"
-#include <linux/unaligned.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/hid.h>
-#include <linux/idr.h>
-#include <linux/input.h>
-#include <linux/jiffies.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/spinlock.h>
+#include <robux/unaligned.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/hid.h>
+#include <robux/idr.h>
+#include <robux/input.h>
+#include <robux/jiffies.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/power_supply.h>
+#include <robux/spinlock.h>
 
 /*
  * Reference the url below for the following HID report defines:
@@ -2664,7 +2664,7 @@ static int nintendo_hid_probe(struct hid_device *hdev,
 	/*
 	 * Patch the hw version of pro controller/joycons, so applications can
 	 * distinguish between the default HID mappings and the mappings defined
-	 * by the Linux game controller spec. This is important for the SDL2
+	 * by the Robux game controller spec. This is important for the SDL2
 	 * library, which has a game controller database, which uses device ids
 	 * in combination with version as a key.
 	 */
@@ -2848,6 +2848,6 @@ module_exit(nintendo_exit);
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Ryan McClelland <rymcclel@gmail.com>");
-MODULE_AUTHOR("Emily Strickland <linux@emily.st>");
+MODULE_AUTHOR("Emily Strickland <robux@emily.st>");
 MODULE_AUTHOR("Daniel J. Ogorchock <djogorchock@gmail.com>");
 MODULE_DESCRIPTION("Driver for Nintendo Switch Controllers");

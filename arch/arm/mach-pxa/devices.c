@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/gpio-pxa.h>
-#include <linux/platform_data/i2c-pxa.h>
-#include <linux/soc/pxa/cpu.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/gpio-pxa.h>
+#include <robux/platform_data/i2c-pxa.h>
+#include <robux/soc/pxa/cpu.h>
 
 #include "udc.h"
-#include <linux/platform_data/video-pxafb.h>
-#include <linux/platform_data/mmc-pxamci.h>
+#include <robux/platform_data/video-pxafb.h>
+#include <robux/platform_data/mmc-pxamci.h>
 #include "irqs.h"
-#include <linux/platform_data/usb-ohci-pxa27x.h>
-#include <linux/platform_data/mmp_dma.h>
+#include <robux/platform_data/usb-ohci-pxa27x.h>
+#include <robux/platform_data/mmp_dma.h>
 
 #include "mfp-pxa2xx.h"
 #include "regs-ost.h"

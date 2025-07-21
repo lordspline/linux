@@ -3,14 +3,14 @@
  * Copyright (C) 2023 ARM Ltd.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/cc_platform.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/smp.h>
-#include <linux/tsm.h>
-#include <linux/types.h>
+#include <robux/arm-smccc.h>
+#include <robux/cc_platform.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/smp.h>
+#include <robux/tsm.h>
+#include <robux/types.h>
 
 #include <asm/rsi.h>
 

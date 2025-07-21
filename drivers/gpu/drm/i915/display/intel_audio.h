@@ -6,7 +6,7 @@
 #ifndef __INTEL_AUDIO_H__
 #define __INTEL_AUDIO_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct drm_connector_state;
 struct intel_crtc_state;

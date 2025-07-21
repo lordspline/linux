@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 /*
  * Copyright (c) 2018, Mellanox Technologies inc.  All rights reserved.
  */
@@ -13,10 +13,10 @@
 #include <rdma/ib_hdrs.h>
 #include <rdma/ib_umem.h>
 #include <rdma/ib_ucaps.h>
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/fs.h>
-#include <linux/mlx5/fs_helpers.h>
-#include <linux/mlx5/eswitch.h>
+#include <robux/mlx5/driver.h>
+#include <robux/mlx5/fs.h>
+#include <robux/mlx5/fs_helpers.h>
+#include <robux/mlx5/eswitch.h>
 #include <net/inet_ecn.h>
 #include "mlx5_ib.h"
 #include "counters.h"

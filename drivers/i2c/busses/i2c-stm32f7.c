@@ -14,26 +14,26 @@
  * This driver is based on i2c-stm32f4.c
  *
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/i2c-smbus.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
 
 #include "i2c-stm32.h"
 

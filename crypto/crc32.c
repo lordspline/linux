@@ -7,13 +7,13 @@
  * This is crypto api shash wrappers to crc32_le.
  */
 
-#include <linux/unaligned.h>
-#include <linux/crc32.h>
+#include <robux/unaligned.h>
+#include <robux/crc32.h>
 #include <crypto/internal/hash.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
 
 #define CHKSUM_BLOCK_SIZE	1
 #define CHKSUM_DIGEST_SIZE	4

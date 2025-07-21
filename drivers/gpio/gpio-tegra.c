@@ -9,21 +9,21 @@
  *	Erik Gilling <konkers@google.com>
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/gpio/driver.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/gpio/driver.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/irqdomain.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pm.h>
+#include <robux/property.h>
+#include <robux/seq_file.h>
 
 #define GPIO_BANK(x)		((x) >> 5)
 #define GPIO_PORT(x)		(((x) >> 3) & 0x3)
@@ -636,7 +636,7 @@ static const struct irq_chip tegra210_gpio_irq_chip = {
 
 #ifdef	CONFIG_DEBUG_FS
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 static int tegra_dbg_gpio_show(struct seq_file *s, void *unused)
 {

@@ -3,11 +3,11 @@
  * SMC 37C93X initialization code
  */
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/delay.h>
 
 #include <asm/hwrpb.h>
 #include <asm/io.h>

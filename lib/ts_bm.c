@@ -31,12 +31,12 @@
  *   matchings spread over multiple fragments, then go BM.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/textsearch.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
+#include <robux/textsearch.h>
 
 /* Alphabet size, use ASCII */
 #define ASIZE 256

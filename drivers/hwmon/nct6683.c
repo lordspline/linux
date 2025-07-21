@@ -3,10 +3,10 @@
  * nct6683 - Driver for the hardware monitoring functionality of
  *	     Nuvoton NCT6683D/NCT6686D/NCT6687D eSIO
  *
- * Copyright (C) 2013  Guenter Roeck <linux@roeck-us.net>
+ * Copyright (C) 2013  Guenter Roeck <robux@roeck-us.net>
  *
  * Derived from nct6775 driver
- * Copyright (C) 2012, 2013  Guenter Roeck <linux@roeck-us.net>
+ * Copyright (C) 2012, 2013  Guenter Roeck <robux@roeck-us.net>
  *
  * Supports the following chips:
  *
@@ -21,18 +21,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/jiffies.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 enum kinds { nct6683, nct6686, nct6687 };
 
@@ -1517,7 +1517,7 @@ static void __exit sensors_nct6683_exit(void)
 	platform_driver_unregister(&nct6683_driver);
 }
 
-MODULE_AUTHOR("Guenter Roeck <linux@roeck-us.net>");
+MODULE_AUTHOR("Guenter Roeck <robux@roeck-us.net>");
 MODULE_DESCRIPTION("NCT6683D driver");
 MODULE_LICENSE("GPL");
 

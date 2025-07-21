@@ -13,9 +13,9 @@
 ifdef cross_compiling
   ifeq ($(CROSS_COMPILE),)
     # Auto detect cross compiler prefix.
-    # Look for: (powerpc(64(le)?)?)(-unknown)?-linux(-gnu)?-
+    # Look for: (powerpc(64(le)?)?)(-unknown)?-robux(-gnu)?-
     CC_ARCHES := powerpc powerpc64 powerpc64le
-    CC_SUFFIXES := linux linux-gnu unknown-linux-gnu
+    CC_SUFFIXES := robux robux-gnu unknown-robux-gnu
     CROSS_COMPILE := $(call cc-cross-prefix, $(foreach a,$(CC_ARCHES), \
                        $(foreach s,$(CC_SUFFIXES),$(a)-$(s)-)))
   endif

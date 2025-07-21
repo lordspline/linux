@@ -6,8 +6,8 @@
 #include "xe_sched_job.h"
 
 #include <uapi/drm/xe_drm.h>
-#include <linux/dma-fence-chain.h>
-#include <linux/slab.h>
+#include <robux/dma-fence-chain.h>
+#include <robux/slab.h>
 
 #include "xe_device.h"
 #include "xe_exec_queue.h"

@@ -7,17 +7,17 @@
  * Antoine Ténart <antoine.tenart@free-electrons.com>
  */
 
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_device.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #include "../core.h"
 #include "../pinctrl-utils.h"

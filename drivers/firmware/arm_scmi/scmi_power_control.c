@@ -17,7 +17,7 @@
  * events.
  *
  * Direct forceful requests are not supported since are not meant to be sent
- * by the SCMI platform to an OSPM like Linux.
+ * by the SCMI platform to an OSPM like Robux.
  *
  * Additionally, graceful request notifications can carry an optional timeout
  * field stating the maximum amount of time allowed by the platform for
@@ -43,21 +43,21 @@
  * possibly emitted by the platform will be ignored.
  */
 
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/printk.h>
-#include <linux/reboot.h>
-#include <linux/scmi_protocol.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/time64.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/printk.h>
+#include <robux/reboot.h>
+#include <robux/scmi_protocol.h>
+#include <robux/slab.h>
+#include <robux/suspend.h>
+#include <robux/time64.h>
+#include <robux/timer.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #ifndef MODULE
-#include <linux/fs.h>
+#include <robux/fs.h>
 #endif
 
 enum scmi_syspower_state {

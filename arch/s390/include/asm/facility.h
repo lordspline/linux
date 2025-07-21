@@ -10,10 +10,10 @@
 
 #include <asm/facility-defs.h>
 
-#include <linux/minmax.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/preempt.h>
+#include <robux/minmax.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/preempt.h>
 #include <asm/alternative.h>
 #include <asm/lowcore.h>
 

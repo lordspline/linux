@@ -5,14 +5,14 @@
  *  Copyright (C) 2016 Bluecherry, LLC <maintainers@bluecherrydvr.com>
  */
 
-#include <linux/pci.h>
-#include <linux/videodev2.h>
-#include <linux/notifier.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
+#include <robux/pci.h>
+#include <robux/videodev2.h>
+#include <robux/notifier.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>

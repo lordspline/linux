@@ -14,7 +14,7 @@
 
 	configurations {
 		conf-ni169445 {
-			description = "NI 169445 Linux Kernel";
+			description = "NI 169445 Robux Kernel";
 			kernel = "kernel";
 			fdt = "fdt-ni169445";
 		};

@@ -9,14 +9,14 @@
  *  Copyright (c) 2010 Istvan Varga <istvan_v@mailbox.hu>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/videodev2.h>
-#include <linux/delay.h>
-#include <linux/dvb/frontend.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/videodev2.h>
+#include <robux/delay.h>
+#include <robux/dvb/frontend.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
+#include <robux/unaligned.h>
 
 #include <media/dvb_frontend.h>
 

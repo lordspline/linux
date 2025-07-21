@@ -6,10 +6,10 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/serio.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/serio.h>
 
 MODULE_AUTHOR("Dmitry Eremin-Solenikov <dbaryshkov@gmail.com>");
 MODULE_DESCRIPTION("TQC PS/2 Multiplexer driver");

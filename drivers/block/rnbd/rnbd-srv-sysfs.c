@@ -9,12 +9,12 @@
 #undef pr_fmt
 #define pr_fmt(fmt) KBUILD_MODNAME " L" __stringify(__LINE__) ": " fmt
 
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
-#include <linux/stat.h>
-#include <linux/list.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
+#include <robux/kobject.h>
+#include <robux/sysfs.h>
+#include <robux/stat.h>
+#include <robux/list.h>
+#include <robux/moduleparam.h>
+#include <robux/device.h>
 
 #include "rnbd-srv.h"
 

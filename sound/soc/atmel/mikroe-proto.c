@@ -6,8 +6,8 @@
  *	      Copyright 2013
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

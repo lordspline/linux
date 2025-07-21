@@ -8,30 +8,30 @@
  *	    Peter Griffin <peter.griffin@linaro.org>
  *
  */
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dvb/dmx.h>
-#include <linux/dvb/frontend.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/usb.h>
-#include <linux/wait.h>
+#include <robux/atomic.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/dvb/dmx.h>
+#include <robux/dvb/frontend.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/firmware.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/usb.h>
+#include <robux/wait.h>
 
 #include "c8sectpfe-common.h"
 #include "c8sectpfe-core.h"

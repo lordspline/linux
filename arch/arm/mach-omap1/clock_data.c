@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-omap1/clock_data.c
+ *  robux/arch/arm/mach-omap1/clock_data.c
  *
  *  Copyright (C) 2004 - 2005, 2009-2010 Nokia Corporation
  *  Written by Tuukka Tikkanen <tuukka.tikkanen@elektrobit.com>
@@ -11,14 +11,14 @@
  *   chips that they are present on.
  */
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/cpufreq.h>
-#include <linux/delay.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/cpufreq.h>
+#include <robux/delay.h>
+#include <robux/soc/ti/omap1-io.h>
 
 #include <asm/mach-types.h>  /* for machine_is_* */
 

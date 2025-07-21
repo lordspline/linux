@@ -3,17 +3,17 @@
  * Author: Jerome Brunet <jbrunet@baylibre.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mdio-mux.h>
-#include <linux/module.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/mdio-mux.h>
+#include <robux/module.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
 
 #define ETH_PLL_STS		0x40
 #define ETH_PLL_CTL0		0x44

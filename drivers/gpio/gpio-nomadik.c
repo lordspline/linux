@@ -18,22 +18,22 @@
  *   Rewritten based on work by Prafulla WADASKAR <prafulla.wadaskar@st.com>
  * Copyright (C) 2011-2013 Linus Walleij <linus.walleij@linaro.org>
  */
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reset.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/reset.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/types.h>
 
-#include <linux/gpio/gpio-nomadik.h>
+#include <robux/gpio/gpio-nomadik.h>
 
 #ifndef CONFIG_PINCTRL_NOMADIK
 static DEFINE_SPINLOCK(nmk_gpio_slpm_lock);

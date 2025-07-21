@@ -5,20 +5,20 @@
  *
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/mmzone.h>
-#include <linux/export.h>
-#include <linux/nodemask.h>
-#include <linux/numa_memblks.h>
-#include <linux/swap.h>
-#include <linux/memblock.h>
-#include <linux/pfn.h>
-#include <linux/acpi.h>
-#include <linux/efi.h>
-#include <linux/irq.h>
-#include <linux/pci.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/mmzone.h>
+#include <robux/export.h>
+#include <robux/nodemask.h>
+#include <robux/numa_memblks.h>
+#include <robux/swap.h>
+#include <robux/memblock.h>
+#include <robux/pfn.h>
+#include <robux/acpi.h>
+#include <robux/efi.h>
+#include <robux/irq.h>
+#include <robux/pci.h>
 #include <asm/bootinfo.h>
 #include <asm/loongson.h>
 #include <asm/numa.h>

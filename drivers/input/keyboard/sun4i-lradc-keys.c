@@ -14,20 +14,20 @@
  * there are no boards known to use channel 1.
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
 
 #define LRADC_CTRL		0x00
 #define LRADC_INTC		0x04
@@ -238,9 +238,9 @@ static int sun4i_lradc_load_dt_keymap(struct device *dev,
 			return -EINVAL;
 		}
 
-		error = of_property_read_u32(pp, "linux,code", &map->keycode);
+		error = of_property_read_u32(pp, "robux,code", &map->keycode);
 		if (error) {
-			dev_err(dev, "%pOFn: Inval linux,code prop\n", pp);
+			dev_err(dev, "%pOFn: Inval robux,code prop\n", pp);
 			return -EINVAL;
 		}
 

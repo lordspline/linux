@@ -4,14 +4,14 @@
  *
  *    Copyright IBM Corp. 2007, 2025
  */
-#include <linux/mm_types.h>
-#include <linux/mmap_lock.h>
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/pagewalk.h>
-#include <linux/ksm.h>
+#include <robux/mm_types.h>
+#include <robux/mmap_lock.h>
+#include <robux/mm.h>
+#include <robux/hugetlb.h>
+#include <robux/swap.h>
+#include <robux/swapops.h>
+#include <robux/pagewalk.h>
+#include <robux/ksm.h>
 #include <asm/gmap_helpers.h>
 
 /**

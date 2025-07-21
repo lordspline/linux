@@ -5,34 +5,34 @@
  * Copyright (c) 2012, Intel Corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/dma-mapping.h>
-#include <linux/compiler.h>
-#include <linux/stddef.h>
-#include <linux/bitops.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/acpi.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
+#include <robux/bitfield.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/platform_device.h>
+#include <robux/ioport.h>
+#include <robux/io.h>
+#include <robux/dma-mapping.h>
+#include <robux/compiler.h>
+#include <robux/stddef.h>
+#include <robux/bitops.h>
+#include <robux/types.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/acpi.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/pm.h>
-#include <linux/mmc/slot-gpio.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/pm.h>
+#include <robux/mmc/slot-gpio.h>
 
 #ifdef CONFIG_X86
-#include <linux/platform_data/x86/soc.h>
+#include <robux/platform_data/x86/soc.h>
 #include <asm/iosf_mbi.h>
 #endif
 

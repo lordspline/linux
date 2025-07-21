@@ -5,14 +5,14 @@
  * Copyright (C) 2011 Sascha Hauer, Pengutronix
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #include <video/imx-ipu-v3.h>
 

@@ -8,17 +8,17 @@
 //
 // This driver is based on max8997.c
 
-#include <linux/kernel.h>
-#include <linux/bug.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/max77686.h>
-#include <linux/mfd/max77686-private.h>
+#include <robux/kernel.h>
+#include <robux/bug.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/mfd/max77686.h>
+#include <robux/mfd/max77686-private.h>
 
 #define MAX77686_LDO_MINUV	800000
 #define MAX77686_LDO_UVSTEP	50000

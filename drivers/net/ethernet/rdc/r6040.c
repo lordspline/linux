@@ -8,28 +8,28 @@
  * Copyright (C) 2007-2012 Florian Fainelli <f.fainelli@gmail.com>
 */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/crc32.h>
-#include <linux/spinlock.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/uaccess.h>
-#include <linux/phy.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/delay.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/crc32.h>
+#include <robux/spinlock.h>
+#include <robux/bitops.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/uaccess.h>
+#include <robux/phy.h>
 
 #include <asm/processor.h>
 

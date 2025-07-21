@@ -9,16 +9,16 @@
  * Copyright (C) 2008 Wind River Systems
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/libata.h>
-#include <linux/hrtimer.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/libata.h>
+#include <robux/hrtimer.h>
+#include <robux/slab.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 #include <scsi/scsi_host.h>
 #include <trace/events/libata.h>
 #include <asm/byteorder.h>

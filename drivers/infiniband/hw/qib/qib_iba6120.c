@@ -37,9 +37,9 @@
  * QLogic_IB 6120 PCIe chip.
  */
 
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
 #include <rdma/ib_verbs.h>
 
 #include "qib.h"

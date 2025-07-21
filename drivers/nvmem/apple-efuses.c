@@ -2,14 +2,14 @@
 /*
  * Apple SoC eFuse driver
  *
- * Copyright (C) The Asahi Linux Contributors
+ * Copyright (C) The Asahi Robux Contributors
  */
 
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/nvmem-provider.h>
+#include <robux/platform_device.h>
 
 struct apple_efuses_priv {
 	void __iomem *fuses;

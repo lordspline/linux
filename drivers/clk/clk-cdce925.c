@@ -10,15 +10,15 @@
  * Copyright (C) 2014, Topic Embedded Products
  * Licenced under GPL
  */
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/gcd.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/gcd.h>
 
 /* Each chip has different number of PLLs and outputs, for example:
  * The CECE925 has 2 PLLs which can be routed through dividers to 5 outputs.

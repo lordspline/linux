@@ -8,17 +8,17 @@
  *	    Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-#include <linux/export.h>
-#include <linux/ioctl.h>
-#include <linux/leds.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/version.h>
-#include <linux/videodev2.h>
+#include <robux/export.h>
+#include <robux/ioctl.h>
+#include <robux/leds.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/overflow.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/version.h>
+#include <robux/videodev2.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

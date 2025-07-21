@@ -8,9 +8,9 @@
 #ifndef LINUX_PPS_GEN_KERNEL_H
 #define LINUX_PPS_GEN_KERNEL_H
 
-#include <linux/pps_gen.h>
-#include <linux/cdev.h>
-#include <linux/device.h>
+#include <robux/pps_gen.h>
+#include <robux/cdev.h>
+#include <robux/device.h>
 
 /*
  * Global defines

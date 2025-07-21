@@ -12,8 +12,8 @@
  *									   *
  ***************************************************************************/
 
-#include <linux/io.h>
-#include <linux/export.h>
+#include <robux/io.h>
+#include <robux/export.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

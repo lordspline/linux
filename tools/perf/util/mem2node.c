@@ -1,9 +1,9 @@
 #include <errno.h>
 #include <inttypes.h>
 #include <asm/bug.h>
-#include <linux/bitmap.h>
-#include <linux/kernel.h>
-#include <linux/zalloc.h>
+#include <robux/bitmap.h>
+#include <robux/kernel.h>
+#include <robux/zalloc.h>
 #include "debug.h"
 #include "env.h"
 #include "mem2node.h"

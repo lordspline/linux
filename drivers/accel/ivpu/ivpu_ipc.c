@@ -3,10 +3,10 @@
  * Copyright (C) 2020-2024 Intel Corporation
  */
 
-#include <linux/genalloc.h>
-#include <linux/highmem.h>
-#include <linux/pm_runtime.h>
-#include <linux/wait.h>
+#include <robux/genalloc.h>
+#include <robux/highmem.h>
+#include <robux/pm_runtime.h>
+#include <robux/wait.h>
 
 #include "ivpu_drv.h"
 #include "ivpu_gem.h"

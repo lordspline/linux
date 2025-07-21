@@ -16,9 +16,9 @@
 #include <asm/imr.h>
 #include <asm/io.h>
 
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/types.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/types.h>
 
 #define SELFTEST KBUILD_MODNAME ": "
 /**

@@ -10,23 +10,23 @@
  *  Ksenija Stanojevic <ksenija.stanojevic@gmail.com>
  */
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/mxs-lradc.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/sysfs.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/mxs-lradc.h>
+#include <robux/module.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/sysfs.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/sysfs.h>
 
 /*
  * Make this runtime configurable if necessary. Currently, if the buffered mode

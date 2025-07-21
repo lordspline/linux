@@ -30,12 +30,12 @@
  * SOFTWARE.
  */
 
-#include <linux/file.h>
-#include <linux/anon_inodes.h>
-#include <linux/sched/mm.h>
+#include <robux/file.h>
+#include <robux/anon_inodes.h>
+#include <robux/sched/mm.h>
 #include <rdma/ib_verbs.h>
 #include <rdma/uverbs_types.h>
-#include <linux/rcupdate.h>
+#include <robux/rcupdate.h>
 #include <rdma/uverbs_ioctl.h>
 #include <rdma/rdma_user_ioctl.h>
 #include "uverbs.h"

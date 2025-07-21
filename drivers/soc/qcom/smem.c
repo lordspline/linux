@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2015, Sony Mobile Communications AB.
- * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2013, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/hwspinlock.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/soc/qcom/socinfo.h>
+#include <robux/hwspinlock.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/soc/qcom/smem.h>
+#include <robux/soc/qcom/socinfo.h>
 
 /*
  * The Qualcomm shared memory system is a allocate only heap structure that

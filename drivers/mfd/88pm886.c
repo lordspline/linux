@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/i2c.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/88pm886.h>
+#include <robux/mfd/88pm886.h>
 
 static const struct regmap_config pm886_regmap_config = {
 	.reg_bits = 8,

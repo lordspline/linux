@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/errname.h>
+#include <robux/errname.h>
 
 const char *rust_helper_errname(int err)
 {

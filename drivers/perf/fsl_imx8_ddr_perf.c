@@ -4,16 +4,16 @@
  * Copyright 2016 Freescale Semiconductor, Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/perf_event.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #define COUNTER_CNTL		0x0
 #define COUNTER_READ		0x20

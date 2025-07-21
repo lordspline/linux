@@ -3,13 +3,13 @@
  * Copyright (C) 2005-2006 Micronas USA Inc.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/videodev2.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-device.h>
 #include <media/i2c/uda1342.h>
-#include <linux/slab.h>
+#include <robux/slab.h>
 
 static int write_reg(struct i2c_client *client, int reg, int value)
 {

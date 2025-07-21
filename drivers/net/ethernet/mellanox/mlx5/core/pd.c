@@ -30,8 +30,8 @@
  * SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/mlx5/driver.h>
+#include <robux/kernel.h>
+#include <robux/mlx5/driver.h>
 #include "mlx5_core.h"
 
 int mlx5_core_alloc_pd(struct mlx5_core_dev *dev, u32 *pdn)

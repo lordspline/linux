@@ -2,9 +2,9 @@
 #ifndef DSA_LOOP_H
 #define DSA_LOOP_H
 
-#include <linux/if_vlan.h>
-#include <linux/types.h>
-#include <linux/ethtool.h>
+#include <robux/if_vlan.h>
+#include <robux/types.h>
+#include <robux/ethtool.h>
 #include <net/dsa.h>
 
 struct dsa_loop_vlan {

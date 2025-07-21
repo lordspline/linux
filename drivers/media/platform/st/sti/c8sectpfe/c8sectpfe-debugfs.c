@@ -7,14 +7,14 @@
  * Author: Peter Griffin <peter.griffin@linaro.org>
  *
  */
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "c8sectpfe-debugfs.h"
 

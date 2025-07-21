@@ -9,16 +9,16 @@
  *	Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kthread.h>
-#include <linux/irq.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/bitops.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kthread.h>
+#include <robux/irq.h>
+#include <robux/gpio/driver.h>
+#include <robux/platform_device.h>
+#include <robux/bitops.h>
+#include <robux/of.h>
 
-#include <linux/mfd/twl6040.h>
+#include <robux/mfd/twl6040.h>
 
 static int twl6040gpo_get(struct gpio_chip *chip, unsigned offset)
 {

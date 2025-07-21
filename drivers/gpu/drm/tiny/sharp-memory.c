@@ -17,15 +17,15 @@
 #include <drm/drm_modes.h>
 #include <drm/drm_probe_helper.h>
 #include <drm/drm_rect.h>
-#include <linux/bitrev.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kthread.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pwm.h>
-#include <linux/spi/spi.h>
+#include <robux/bitrev.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kthread.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pwm.h>
+#include <robux/spi/spi.h>
 
 #define SHARP_MODE_PERIOD 8
 #define SHARP_ADDR_PERIOD 8

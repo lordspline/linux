@@ -2,9 +2,9 @@
 /* Copyright(c) Martin Blumenstingl <martin.blumenstingl@googlemail.com>
  */
 
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/sdio_ids.h>
-#include <linux/module.h>
+#include <robux/mmc/sdio_func.h>
+#include <robux/mmc/sdio_ids.h>
+#include <robux/module.h>
 #include "main.h"
 #include "rtw8821c.h"
 #include "sdio.h"

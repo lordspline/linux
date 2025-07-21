@@ -7,10 +7,10 @@
  * functionality:
  */
 
-#include <linux/rcupdate.h>
-#include <linux/refcount.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
+#include <robux/rcupdate.h>
+#include <robux/refcount.h>
+#include <robux/sched.h>
+#include <robux/uaccess.h>
 
 struct task_struct;
 struct rusage;

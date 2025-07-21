@@ -2,10 +2,10 @@
 /*
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/smp.h>
-#include <linux/timex.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/smp.h>
+#include <robux/timex.h>
 
 #include <asm/processor.h>
 

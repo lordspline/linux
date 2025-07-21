@@ -3,22 +3,22 @@
  * IIO driver for the Apex Embedded Systems STX104
  * Copyright (C) 2016 William Breathitt Gray
  */
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/regmap.h>
-#include <linux/i8254.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
-#include <linux/isa.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gpio/regmap.h>
+#include <robux/i8254.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/types.h>
+#include <robux/isa.h>
+#include <robux/kernel.h>
+#include <robux/limits.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 #define STX104_OUT_CHAN(chan) {				\
 	.type = IIO_VOLTAGE,				\

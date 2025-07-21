@@ -3,14 +3,14 @@
 // Copyright (c) 2013-2014 Freescale Semiconductor, Inc
 // Copyright (c) 2017 Sysam, Angelo Dureghello  <angelo@sysam.it>
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/dmapool.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/dmapool.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_domain.h>
 
 #include "fsl-edma-common.h"
 

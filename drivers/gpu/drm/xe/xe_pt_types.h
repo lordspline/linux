@@ -6,7 +6,7 @@
 #ifndef _XE_PT_TYPES_H_
 #define _XE_PT_TYPES_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include "xe_pt_walk.h"
 

@@ -22,8 +22,8 @@
  * Authors: Andres Rodriguez <andresx7@gmail.com>
  */
 
-#include <linux/file.h>
-#include <linux/pid.h>
+#include <robux/file.h>
+#include <robux/pid.h>
 
 #include <drm/amdgpu_drm.h>
 

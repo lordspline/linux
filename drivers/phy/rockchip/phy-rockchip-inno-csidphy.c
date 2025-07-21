@@ -5,20 +5,20 @@
  * Copyright (C) 2021 Fuzhou Rockchip Electronics Co., Ltd.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/phy/phy.h>
-#include <linux/phy/phy-mipi-dphy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/phy/phy.h>
+#include <robux/phy/phy-mipi-dphy.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 
 /* GRF */
 #define RK1808_GRF_PD_VI_CON_OFFSET	0x0430

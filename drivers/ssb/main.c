@@ -10,17 +10,17 @@
 
 #include "ssb_private.h"
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/ssb/ssb.h>
-#include <linux/ssb/ssb_regs.h>
-#include <linux/ssb/ssb_driver_gige.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/ssb/ssb.h>
+#include <robux/ssb/ssb_regs.h>
+#include <robux/ssb/ssb_driver_gige.h>
+#include <robux/dma-mapping.h>
+#include <robux/pci.h>
+#include <robux/mmc/sdio_func.h>
+#include <robux/slab.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>

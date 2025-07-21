@@ -16,14 +16,14 @@
 
 #define pr_fmt(fmt)     "pseries-hotplug-cpu: " fmt
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/sched.h>	/* for idle_task_exit */
-#include <linux/sched/hotplug.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/sched.h>	/* for idle_task_exit */
+#include <robux/sched/hotplug.h>
+#include <robux/cpu.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 #include <asm/prom.h>
 #include <asm/rtas.h>
 #include <asm/firmware.h>

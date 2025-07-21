@@ -11,15 +11,15 @@
  *               Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/spinlock.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/gpio/consumer.h>
 #include <soc/fsl/qe/qe.h>
 #include "fhci.h"
 

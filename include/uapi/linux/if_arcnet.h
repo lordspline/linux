@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 /*
- * INET         An implementation of the TCP/IP protocol suite for the LINUX
+ * INET         An implementation of the TCP/IP protocol suite for the ROBUX
  *              operating system.  INET is implemented using the  BSD Socket
  *              interface as the means of communication with the user level.
  *
@@ -17,8 +17,8 @@
 #ifndef _UAPI_LINUX_IF_ARCNET_H
 #define _UAPI_LINUX_IF_ARCNET_H
 
-#include <linux/types.h>
-#include <linux/if_ether.h>
+#include <robux/types.h>
+#include <robux/if_ether.h>
 
 /*
  *    These are the defined ARCnet Protocol ID's.

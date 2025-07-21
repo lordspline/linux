@@ -6,9 +6,9 @@
 #ifndef __I915_DRM_CLIENT_H__
 #define __I915_DRM_CLIENT_H__
 
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
 
 #include <uapi/drm/i915_drm.h>
 

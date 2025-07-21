@@ -6,14 +6,14 @@
  * Copyright 2007-2009 HV Sistemas S.L.
  */
 
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 struct opencores_kbd {
 	struct input_dev *input;

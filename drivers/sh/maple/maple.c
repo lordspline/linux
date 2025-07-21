@@ -10,17 +10,17 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/maple.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/maple.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/module.h>
 #include <asm/cacheflush.h>
 #include <asm/dma.h>
 #include <asm/io.h>

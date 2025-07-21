@@ -8,24 +8,24 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/proc_fs.h>
-#include <linux/mii.h>
-#include <linux/platform_device.h>
-#include <linux/ethtool.h>
-#include <linux/etherdevice.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/if_vlan.h>
-#include <linux/crc32.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/micrel_phy.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/pci.h>
+#include <robux/proc_fs.h>
+#include <robux/mii.h>
+#include <robux/platform_device.h>
+#include <robux/ethtool.h>
+#include <robux/etherdevice.h>
+#include <robux/in.h>
+#include <robux/ip.h>
+#include <robux/if_vlan.h>
+#include <robux/crc32.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/micrel_phy.h>
 
 
 /* DMA Registers */
@@ -4924,7 +4924,7 @@ static irqreturn_t netdev_intr(int irq, void *dev_id)
 }
 
 /*
- * Linux network device functions
+ * Robux network device functions
  */
 
 
@@ -6347,7 +6347,7 @@ static void dev_monitor(struct timer_list *t)
 }
 
 /*
- * Linux network device interface functions
+ * Robux network device interface functions
  */
 
 /* Driver exported variables */

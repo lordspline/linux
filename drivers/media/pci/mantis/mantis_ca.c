@@ -6,10 +6,10 @@
 
 */
 
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
+#include <robux/signal.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
 #include <asm/io.h>
 
 #include <media/dmxdev.h>

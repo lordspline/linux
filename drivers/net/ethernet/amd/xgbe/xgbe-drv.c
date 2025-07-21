@@ -5,15 +5,15 @@
  * All rights reserved
  */
 
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/tcp.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/if_ether.h>
-#include <linux/net_tstamp.h>
-#include <linux/phy.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/tcp.h>
+#include <robux/if_vlan.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/if_ether.h>
+#include <robux/net_tstamp.h>
+#include <robux/phy.h>
 #include <net/vxlan.h>
 
 #include "xgbe.h"

@@ -11,7 +11,7 @@
 #include <err.h>
 #include <signal.h>
 #include <asm/unistd.h>
-#include "linux/ptrace.h"
+#include "robux/ptrace.h"
 
 static int
 kill_tracee(pid_t pid)

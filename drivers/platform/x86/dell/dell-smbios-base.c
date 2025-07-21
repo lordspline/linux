@@ -11,15 +11,15 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/container_of.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/capability.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/container_of.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/capability.h>
+#include <robux/dmi.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 #include "dell-smbios.h"
 
 static u32 da_supported_commands;

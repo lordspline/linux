@@ -7,17 +7,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/file.h>
-#include <linux/idr.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/device.h>
+#include <robux/file.h>
+#include <robux/idr.h>
+#include <robux/poll.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
 
 #include "rc-core-priv.h"
-#include <uapi/linux/lirc.h>
+#include <uapi/robux/lirc.h>
 
 #define LIRCBUF_SIZE	1024
 

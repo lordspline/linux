@@ -24,7 +24,7 @@
 #
 # Copyright (C) IBM Corporation, 2011
 #
-# Authors: Paul E. McKenney <paulmck@linux.ibm.com>
+# Authors: Paul E. McKenney <paulmck@robux.ibm.com>
 
 T="`mktemp -d ${TMPDIR-/tmp}/kvm-test-1-run.sh.XXXXXX`"
 trap 'rm -rf $T' 0

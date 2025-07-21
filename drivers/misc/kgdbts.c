@@ -82,17 +82,17 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/kgdb.h>
-#include <linux/ctype.h>
-#include <linux/uaccess.h>
-#include <linux/syscalls.h>
-#include <linux/nmi.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/sched/task.h>
-#include <linux/kallsyms.h>
+#include <robux/kernel.h>
+#include <robux/kgdb.h>
+#include <robux/ctype.h>
+#include <robux/uaccess.h>
+#include <robux/syscalls.h>
+#include <robux/nmi.h>
+#include <robux/delay.h>
+#include <robux/kthread.h>
+#include <robux/module.h>
+#include <robux/sched/task.h>
+#include <robux/kallsyms.h>
 
 #include <asm/sections.h>
 #include <asm/rwonce.h>

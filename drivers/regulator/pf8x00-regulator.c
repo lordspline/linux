@@ -5,14 +5,14 @@
  * Copyright (C) 2020 Amarula Solutions(India)
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
 
 /* registers */
 #define PF8X00_DEVICEID			0x00

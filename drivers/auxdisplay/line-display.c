@@ -12,20 +12,20 @@
 #include <generated/utsrelease.h>
 #endif
 
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/idr.h>
-#include <linux/jiffies.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/timer.h>
+#include <robux/container_of.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/idr.h>
+#include <robux/jiffies.h>
+#include <robux/kstrtox.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
+#include <robux/timer.h>
 
-#include <linux/map_to_7segment.h>
-#include <linux/map_to_14segment.h>
+#include <robux/map_to_7segment.h>
+#include <robux/map_to_14segment.h>
 
 #include "line-display.h"
 
@@ -317,7 +317,7 @@ static int linedisp_init_map(struct linedisp *linedisp)
 #ifdef CONFIG_PANEL_BOOT_MESSAGE
 #define LINEDISP_INIT_TEXT CONFIG_PANEL_BOOT_MESSAGE
 #else
-#define LINEDISP_INIT_TEXT "Linux " UTS_RELEASE "       "
+#define LINEDISP_INIT_TEXT "Robux " UTS_RELEASE "       "
 #endif
 
 /**

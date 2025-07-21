@@ -6,8 +6,8 @@
 #ifndef BTRFS_PROPS_H
 #define BTRFS_PROPS_H
 
-#include <linux/types.h>
-#include <linux/compiler_types.h>
+#include <robux/types.h>
+#include <robux/compiler_types.h>
 
 struct btrfs_inode;
 struct btrfs_path;

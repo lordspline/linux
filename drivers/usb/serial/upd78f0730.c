@@ -18,11 +18,11 @@
  * - signals: DTR, RTS and BREAK
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/usb.h>
+#include <robux/usb/serial.h>
 
 #define DRIVER_DESC "Renesas uPD78F0730 USB to serial converter driver"
 

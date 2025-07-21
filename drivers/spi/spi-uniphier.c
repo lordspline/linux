@@ -3,19 +3,19 @@
 // Copyright 2012      Panasonic Corporation
 // Copyright 2016-2018 Socionext Inc.
 
-#include <linux/kernel.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
+#include <robux/kernel.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dmaengine.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/spi/spi.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define SSI_TIMEOUT_MS		2000
 #define SSI_POLL_TIMEOUT_US	200

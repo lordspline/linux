@@ -14,9 +14,9 @@
 #include <time.h>
 #include <poll.h>
 #include <pthread.h>
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/userfaultfd.h>
+#include <robux/bitmap.h>
+#include <robux/bitops.h>
+#include <robux/userfaultfd.h>
 
 #include "memstress.h"
 #include "processor.h"

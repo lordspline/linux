@@ -5,16 +5,16 @@
  * Copyright (C) 2016  David Lechner
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/platform_device.h>
 
 #define DA850_PUPD_ENA		0x00
 #define DA850_PUPD_SEL		0x04

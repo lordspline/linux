@@ -12,19 +12,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/capability.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/list.h>
-#include <linux/mtd/mtd.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/vfs.h>
-#include <linux/crc32.h>
+#include <robux/capability.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/cred.h>
+#include <robux/fs.h>
+#include <robux/fs_context.h>
+#include <robux/list.h>
+#include <robux/mtd/mtd.h>
+#include <robux/pagemap.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/vfs.h>
+#include <robux/crc32.h>
 #include "nodelist.h"
 
 static int jffs2_flash_setup(struct jffs2_sb_info *c);

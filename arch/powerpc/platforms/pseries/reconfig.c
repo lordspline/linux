@@ -7,15 +7,15 @@
  * Copyright (C) 2005 IBM Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/notifier.h>
-#include <linux/proc_fs.h>
-#include <linux/security.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/notifier.h>
+#include <robux/proc_fs.h>
+#include <robux/security.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
 #include <asm/machdep.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/mmu.h>
 
 #include "of_helpers.h"

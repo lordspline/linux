@@ -5,12 +5,12 @@
  * Cleaned up by substantially rewriting, and converted to DT by
  * Russell King.  Origin is not known.
  */
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include "dove-divider.h"
 

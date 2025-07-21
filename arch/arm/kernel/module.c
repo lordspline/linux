@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/module.c
+ *  robux/arch/arm/kernel/module.c
  *
  *  Copyright (C) 2002 Russell King.
  *  Modified for nommu by Hyok S. Choi
  *
  * Module allocation method suggested by Andi Kleen.
  */
-#include <linux/module.h>
-#include <linux/moduleloader.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/elf.h>
-#include <linux/fs.h>
-#include <linux/string.h>
+#include <robux/module.h>
+#include <robux/moduleloader.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/elf.h>
+#include <robux/fs.h>
+#include <robux/string.h>
 
 #include <asm/sections.h>
 #include <asm/smp_plat.h>

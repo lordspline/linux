@@ -7,9 +7,9 @@
 
 #include "emu8000_local.h"
 
-#include <linux/sched/signal.h>
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <robux/sched/signal.h>
+#include <robux/init.h>
+#include <robux/slab.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>
 

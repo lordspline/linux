@@ -5,12 +5,12 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/sched/signal.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/sched/signal.h>
 #include "internal.h"
 #include "afs_fs.h"
 #include "protocol_uae.h"

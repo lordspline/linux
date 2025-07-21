@@ -16,9 +16,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/nl80211.h>
-#include <linux/pci.h>
-#include <linux/module.h>
+#include <robux/nl80211.h>
+#include <robux/pci.h>
+#include <robux/module.h>
 #include "ath9k.h"
 
 static const struct pci_device_id ath_pci_id_table[] = {
@@ -907,7 +907,7 @@ static int ath_pci_probe(struct pci_dev *pdev, const struct pci_device_id *id)
 	pci_read_config_byte(pdev, PCI_CACHE_LINE_SIZE, &csz);
 	if (csz == 0) {
 		/*
-		 * Linux 2.4.18 (at least) writes the cache line size
+		 * Robux 2.4.18 (at least) writes the cache line size
 		 * register as a 16-bit wide register which is wrong.
 		 * We must have this setup properly for rx buffer
 		 * DMA to work so force a reasonable value here if it

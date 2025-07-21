@@ -28,7 +28,7 @@
 
 		button-recovery {
 			label = "recovery";
-			linux,code = <KEY_VENDOR>;
+			robux,code = <KEY_VENDOR>;
 			press-threshold-microvolt = <17000>;
 		};
 	};
@@ -73,7 +73,7 @@
 	};
 
 	spdif_out: spdif-out {
-		compatible = "linux,spdif-dit";
+		compatible = "robux,spdif-dit";
 		#sound-dai-cells = <0>;
 	};
 

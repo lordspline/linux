@@ -7,18 +7,18 @@
 
 #define pr_fmt(fmt) "CRED: " fmt
 
-#include <linux/export.h>
-#include <linux/cred.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/sched/coredump.h>
-#include <linux/key.h>
-#include <linux/keyctl.h>
-#include <linux/init_task.h>
-#include <linux/security.h>
-#include <linux/binfmts.h>
-#include <linux/cn_proc.h>
-#include <linux/uidgid.h>
+#include <robux/export.h>
+#include <robux/cred.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/sched/coredump.h>
+#include <robux/key.h>
+#include <robux/keyctl.h>
+#include <robux/init_task.h>
+#include <robux/security.h>
+#include <robux/binfmts.h>
+#include <robux/cn_proc.h>
+#include <robux/uidgid.h>
 
 #if 0
 #define kdebug(FMT, ...)						\

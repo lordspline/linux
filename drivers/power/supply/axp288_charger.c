@@ -7,21 +7,21 @@
  * Author: Ramakrishna Pallala <ramakrishna.pallala@intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/regmap.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/usb/otg.h>
-#include <linux/notifier.h>
-#include <linux/power_supply.h>
-#include <linux/property.h>
-#include <linux/mfd/axp20x.h>
-#include <linux/extcon.h>
-#include <linux/dmi.h>
+#include <robux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/regmap.h>
+#include <robux/workqueue.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/usb/otg.h>
+#include <robux/notifier.h>
+#include <robux/power_supply.h>
+#include <robux/property.h>
+#include <robux/mfd/axp20x.h>
+#include <robux/extcon.h>
+#include <robux/dmi.h>
 #include <asm/iosf_mbi.h>
 
 #define PS_STAT_VBUS_TRIGGER		BIT(0)

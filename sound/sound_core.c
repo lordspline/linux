@@ -8,11 +8,11 @@
 /*
  * First, the common part.
  */
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/kdev_t.h>
-#include <linux/major.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/kdev_t.h>
+#include <robux/major.h>
 #include <sound/core.h>
 
 #ifdef CONFIG_SOUND_OSS_CORE
@@ -98,12 +98,12 @@ module_exit(cleanup_soundcore);
  *	locking at some point in 2.3.x.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sound.h>
-#include <linux/kmod.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/sound.h>
+#include <robux/kmod.h>
 
 #define SOUND_STEP 16
 

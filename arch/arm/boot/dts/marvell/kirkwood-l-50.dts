@@ -110,7 +110,7 @@
 		led-wifi {
 			label = "l-50:green:wifi";
 			gpios = <&gpio2 7 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "phy0tpt";
+			robux,default-trigger = "phy0tpt";
 		};
 
 		led-internet-green {
@@ -126,7 +126,7 @@
 		led-usb1-green {
 			label = "l-50:green:usb1";
 			gpios = <&gpio2 0 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "usbport";
+			robux,default-trigger = "usbport";
 			trigger-sources = <&hub_port3>;
 		};
 
@@ -138,7 +138,7 @@
 		led-usb2-green {
 			label = "l-50:green:usb2";
 			gpios = <&gpio2 2 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "usbport";
+			robux,default-trigger = "usbport";
 			trigger-sources = <&hub_port1>;
 		};
 
@@ -196,7 +196,7 @@
 		button-factory-defaults {
 			label = "factory_defaults";
 			gpios = <&gpio0 29 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_RESTART>;
+			robux,code = <KEY_RESTART>;
 		};
 	};
 };

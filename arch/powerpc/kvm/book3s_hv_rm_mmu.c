@@ -4,14 +4,14 @@
  * Copyright 2010-2011 Paul Mackerras, IBM Corp. <paulus@au1.ibm.com>
  */
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/hugetlb.h>
-#include <linux/module.h>
-#include <linux/log2.h>
-#include <linux/sizes.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/kvm.h>
+#include <robux/kvm_host.h>
+#include <robux/hugetlb.h>
+#include <robux/module.h>
+#include <robux/log2.h>
+#include <robux/sizes.h>
 
 #include <asm/trace.h>
 #include <asm/kvm_ppc.h>

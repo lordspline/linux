@@ -8,11 +8,11 @@
  * Copyright (C) 2011, 2012 Renesas Solutions Corp.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/clkdev.h>
-#include <linux/delay.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/clkdev.h>
+#include <robux/delay.h>
 #include <asm/clock.h>
 #include <asm/freq.h>
 

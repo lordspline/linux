@@ -5,11 +5,11 @@
  * Copyright (C) 2015 Intel Corporation. All rights reserved.
  */
 
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/regmap.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/acpi.h>
+#include <robux/mfd/intel_soc_pmic.h>
+#include <robux/regmap.h>
+#include <robux/platform_device.h>
 #include "intel_pmic.h"
 
 #define WHISKEY_COVE_ALRT_HIGH_BIT_MASK 0x0F

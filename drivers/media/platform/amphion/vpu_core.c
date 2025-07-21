@@ -3,21 +3,21 @@
  * Copyright 2020-2021 NXP
  */
 
-#include <linux/init.h>
-#include <linux/interconnect.h>
-#include <linux/ioctl.h>
-#include <linux/list.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
-#include <linux/firmware.h>
-#include <linux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/interconnect.h>
+#include <robux/ioctl.h>
+#include <robux/list.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_domain.h>
+#include <robux/firmware.h>
+#include <robux/vmalloc.h>
 #include "vpu.h"
 #include "vpu_defs.h"
 #include "vpu_core.h"

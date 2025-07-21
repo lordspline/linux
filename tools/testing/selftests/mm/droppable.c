@@ -11,7 +11,7 @@
 #include <unistd.h>
 #include <signal.h>
 #include <sys/mman.h>
-#include <linux/mman.h>
+#include <robux/mman.h>
 
 #include "../kselftest.h"
 

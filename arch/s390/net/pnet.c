@@ -5,10 +5,10 @@
  *    Copyright IBM Corp. 2018
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/types.h>
 #include <asm/ccwgroup.h>
 #include <asm/ccwdev.h>
 #include <asm/pnet.h>

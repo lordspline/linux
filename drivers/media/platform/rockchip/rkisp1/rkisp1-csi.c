@@ -9,11 +9,11 @@
  * Copyright (C) 2017 Rockchip Electronics Co., Ltd.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/lockdep.h>
-#include <linux/phy/phy.h>
-#include <linux/phy/phy-mipi-dphy.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/lockdep.h>
+#include <robux/phy/phy.h>
+#include <robux/phy/phy-mipi-dphy.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-fwnode.h>

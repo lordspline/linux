@@ -3,7 +3,7 @@
  * Copyright © 2020 Intel Corporation
  */
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 #include "i915_config.h"
 #include "i915_utils.h"

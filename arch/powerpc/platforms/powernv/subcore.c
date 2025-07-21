@@ -5,13 +5,13 @@
 
 #define pr_fmt(fmt)	"powernv: " fmt
 
-#include <linux/kernel.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/gfp.h>
-#include <linux/smp.h>
-#include <linux/stop_machine.h>
+#include <robux/kernel.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/device.h>
+#include <robux/gfp.h>
+#include <robux/smp.h>
+#include <robux/stop_machine.h>
 
 #include <asm/cputhreads.h>
 #include <asm/cpuidle.h>

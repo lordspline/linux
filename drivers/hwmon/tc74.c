@@ -10,16 +10,16 @@
  *	Copyright 2008 Frank Edelhaeuser, Spansion Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <robux/bitops.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/i2c.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
 
 /* TC74 registers */
 #define TC74_REG_TEMP		0x00

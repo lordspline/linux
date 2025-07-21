@@ -4,11 +4,11 @@
 #ifndef _GPIO_PCI1XXXX_H
 #define _GPIO_PCI1XXXX_H
 
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/kthread.h>
-#include <linux/types.h>
-#include <linux/auxiliary_bus.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/kthread.h>
+#include <robux/types.h>
+#include <robux/auxiliary_bus.h>
 
 /* Perform operations like variable length write, read and write with read back for OTP / EEPROM
  * Perform bit mode write in OTP

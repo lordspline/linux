@@ -12,16 +12,16 @@
  * Author: Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/gpio.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps6105x.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/gpio.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/tps6105x.h>
 
 static const struct regmap_config tps6105x_regmap_config = {
 	.reg_bits = 8,

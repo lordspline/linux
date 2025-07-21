@@ -1,13 +1,13 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI__LINUX_FUNCTIONFS_H__
 #define _UAPI__LINUX_FUNCTIONFS_H__
 
 
-#include <linux/const.h>
-#include <linux/types.h>
-#include <linux/ioctl.h>
+#include <robux/const.h>
+#include <robux/types.h>
+#include <robux/ioctl.h>
 
-#include <linux/usb/ch9.h>
+#include <robux/usb/ch9.h>
 
 
 enum {

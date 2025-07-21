@@ -8,11 +8,11 @@
  * Author: Noboru Iwamatsu <n_iwamatsu@jp.fujitsu.com>
  */
 
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/list.h>
-#include <linux/usb/hcd.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/list.h>
+#include <robux/usb/hcd.h>
+#include <robux/io.h>
 
 #include <xen/xen.h>
 #include <xen/xenbus.h>

@@ -7,14 +7,14 @@
  *
  *  With cleanup by Paul van Gool <pvangool@mimotech.com>, 2003.
  */
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/io.h>
 #include "pci-sh4.h"
 #include <asm/addrspace.h>
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 
 static int __init __area_sdram_check(struct pci_channel *chan,
 				     unsigned int area)

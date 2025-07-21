@@ -23,8 +23,8 @@
 #ifndef __DRM_DISPLAYID_INTERNAL_H__
 #define __DRM_DISPLAYID_INTERNAL_H__
 
-#include <linux/types.h>
-#include <linux/bits.h>
+#include <robux/types.h>
+#include <robux/bits.h>
 
 struct drm_edid;
 

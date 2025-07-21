@@ -6,11 +6,11 @@
  */
 
 #include <kunit/test.h>
-#include <linux/audit.h>
-#include <linux/bitops.h>
-#include <linux/lsm_audit.h>
-#include <linux/pid.h>
-#include <uapi/linux/landlock.h>
+#include <robux/audit.h>
+#include <robux/bitops.h>
+#include <robux/lsm_audit.h>
+#include <robux/pid.h>
+#include <uapi/robux/landlock.h>
 
 #include "access.h"
 #include "audit.h"

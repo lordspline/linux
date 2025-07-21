@@ -2,8 +2,8 @@
 /* Copyright (c) 2019 Facebook */
 #include <stdbool.h>
 #include <stddef.h>
-#include <linux/bpf.h>
-#include <linux/ptrace.h>
+#include <robux/bpf.h>
+#include <robux/ptrace.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_tracing.h>
 

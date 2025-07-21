@@ -2,10 +2,10 @@
 /*
  * Copyright (C) 2006 Chris Dearman (chris@mips.com),
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
 
 #include <asm/cpu-type.h>
 #include <asm/mipsregs.h>

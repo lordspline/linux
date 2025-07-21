@@ -5,20 +5,20 @@
  * Copyright (C) 2021 Texas Instruments Incorporated - http://www.ti.com/
  */
 
-#include <linux/math.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/err.h>
-#include <linux/types.h>
-#include <linux/io.h>
-#include <linux/thermal.h>
-#include <linux/of.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <robux/math.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/err.h>
+#include <robux/types.h>
+#include <robux/io.h>
+#include <robux/thermal.h>
+#include <robux/of.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
 
 #define K3_VTM_DEVINFO_PWR0_OFFSET		0x4
 #define K3_VTM_DEVINFO_PWR0_TEMPSENS_CT_MASK	0xf0

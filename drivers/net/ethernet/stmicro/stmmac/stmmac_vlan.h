@@ -7,7 +7,7 @@
 #ifndef __STMMAC_VLAN_H__
 #define __STMMAC_VLAN_H__
 
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 #include "dwxgmac2.h"
 
 #define VLAN_TAG			0x00000050

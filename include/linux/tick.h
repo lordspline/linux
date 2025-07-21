@@ -5,14 +5,14 @@
 #ifndef _LINUX_TICK_H
 #define _LINUX_TICK_H
 
-#include <linux/clockchips.h>
-#include <linux/irqflags.h>
-#include <linux/percpu.h>
-#include <linux/context_tracking_state.h>
-#include <linux/cpumask.h>
-#include <linux/sched.h>
-#include <linux/rcupdate.h>
-#include <linux/static_key.h>
+#include <robux/clockchips.h>
+#include <robux/irqflags.h>
+#include <robux/percpu.h>
+#include <robux/context_tracking_state.h>
+#include <robux/cpumask.h>
+#include <robux/sched.h>
+#include <robux/rcupdate.h>
+#include <robux/static_key.h>
 
 #ifdef CONFIG_GENERIC_CLOCKEVENTS
 extern void __init tick_init(void);

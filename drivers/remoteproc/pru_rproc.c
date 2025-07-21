@@ -12,16 +12,16 @@
  *	Md Danish Anwar <danishanwar@ti.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/debugfs.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc/pruss.h>
-#include <linux/pruss_driver.h>
-#include <linux/remoteproc.h>
+#include <robux/bitops.h>
+#include <robux/debugfs.h>
+#include <robux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/remoteproc/pruss.h>
+#include <robux/pruss_driver.h>
+#include <robux/remoteproc.h>
 
 #include "remoteproc_internal.h"
 #include "remoteproc_elf_helpers.h"

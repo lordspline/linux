@@ -3,15 +3,15 @@
  * Copyright (C) 2016, Jelle van der Waa <jelle@vdwaa.nl>
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/unaligned.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/regulator/consumer.h>
+#include <robux/unaligned.h>
 
 #define ZET6223_MAX_FINGERS		16
 #define ZET6223_MAX_PKT_SIZE		(3 + 4 * ZET6223_MAX_FINGERS)

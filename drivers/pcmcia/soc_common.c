@@ -31,22 +31,22 @@
 ======================================================================*/
 
 
-#include <linux/cpufreq.h>
-#include <linux/gpio.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/pci.h>
+#include <robux/cpufreq.h>
+#include <robux/gpio.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/mutex.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
+#include <robux/pci.h>
 
 #include "soc_common.h"
 
@@ -887,5 +887,5 @@ int soc_pcmcia_add_one(struct soc_pcmcia_socket *skt)
 EXPORT_SYMBOL(soc_pcmcia_add_one);
 
 MODULE_AUTHOR("John Dorsey <john+@cs.cmu.edu>");
-MODULE_DESCRIPTION("Linux PCMCIA Card Services: Common SoC support");
+MODULE_DESCRIPTION("Robux PCMCIA Card Services: Common SoC support");
 MODULE_LICENSE("Dual MPL/GPL");

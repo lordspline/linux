@@ -6,8 +6,8 @@
  * HEVC, VP9
  */
 
-#include <linux/firmware.h>
-#include <linux/clk.h>
+#include <robux/firmware.h>
+#include <robux/clk.h>
 
 #include "vdec_1.h"
 #include "vdec_helpers.h"

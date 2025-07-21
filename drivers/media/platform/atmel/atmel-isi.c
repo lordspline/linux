@@ -8,21 +8,21 @@
  * Based on the bttv driver for Bt848 with respective copyright holders
  */
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
-#include <linux/videodev2.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-dev.h>
@@ -1367,5 +1367,5 @@ static struct platform_driver atmel_isi_driver = {
 module_platform_driver(atmel_isi_driver);
 
 MODULE_AUTHOR("Josh Wu <josh.wu@atmel.com>");
-MODULE_DESCRIPTION("The V4L2 driver for Atmel Linux");
+MODULE_DESCRIPTION("The V4L2 driver for Atmel Robux");
 MODULE_LICENSE("GPL");

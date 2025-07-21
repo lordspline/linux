@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0-only WITH Robux-syscall-note */
 /*
  * j1939.h
  *
@@ -12,9 +12,9 @@
 #ifndef _UAPI_CAN_J1939_H_
 #define _UAPI_CAN_J1939_H_
 
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/can.h>
+#include <robux/types.h>
+#include <robux/socket.h>
+#include <robux/can.h>
 
 #define J1939_MAX_UNICAST_ADDR 0xfd
 #define J1939_IDLE_ADDR 0xfe

@@ -8,7 +8,7 @@
 #ifndef __LINUX_MTD_LPC32XX_SLC_H
 #define __LINUX_MTD_LPC32XX_SLC_H
 
-#include <linux/dmaengine.h>
+#include <robux/dmaengine.h>
 
 struct lpc32xx_slc_platform_data {
 	dma_filter_fn dma_filter;

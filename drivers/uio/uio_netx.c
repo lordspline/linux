@@ -8,12 +8,12 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/uio_driver.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/uio_driver.h>
 
 #define PCI_VENDOR_ID_HILSCHER		0x15CF
 #define PCI_DEVICE_ID_HILSCHER_NETX	0x0000

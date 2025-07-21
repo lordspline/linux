@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI_LINUX_FD_H
 #define _UAPI_LINUX_FD_H
 
-#include <linux/ioctl.h>
-#include <linux/compiler.h>
+#include <robux/ioctl.h>
+#include <robux/compiler.h>
 
 /* New file layout: Now the ioctl definitions immediately follow the
  * definitions of the structures that they use */

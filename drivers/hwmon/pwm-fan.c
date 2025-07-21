@@ -7,19 +7,19 @@
  * Author: Kamil Debski <k.debski@samsung.com>
  */
 
-#include <linux/delay.h>
-#include <linux/hwmon.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sysfs.h>
-#include <linux/thermal.h>
-#include <linux/timer.h>
+#include <robux/delay.h>
+#include <robux/hwmon.h>
+#include <robux/interrupt.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/pwm.h>
+#include <robux/regulator/consumer.h>
+#include <robux/sysfs.h>
+#include <robux/thermal.h>
+#include <robux/timer.h>
 
 #define MAX_PWM 255
 

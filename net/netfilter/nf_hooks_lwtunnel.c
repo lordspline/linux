@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/sysctl.h>
+#include <robux/sysctl.h>
 #include <net/lwtunnel.h>
 #include <net/netfilter/nf_hooks_lwtunnel.h>
-#include <linux/netfilter.h>
+#include <robux/netfilter.h>
 
 #include "nf_internals.h"
 

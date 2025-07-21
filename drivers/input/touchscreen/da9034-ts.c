@@ -8,14 +8,14 @@
  *	Eric Miao <eric.miao@marvell.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/workqueue.h>
-#include <linux/mfd/da903x.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/input.h>
+#include <robux/workqueue.h>
+#include <robux/mfd/da903x.h>
+#include <robux/slab.h>
 
 #define DA9034_MANUAL_CTRL	0x50
 #define DA9034_LDO_ADC_EN	(1 << 4)

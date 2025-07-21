@@ -5,15 +5,15 @@
  * Copyright (c) 2011 Analog Devices Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/videodev2.h>
 
 #include <media/i2c/adv7183.h>
 #include <media/v4l2-ctrls.h>
@@ -637,5 +637,5 @@ static struct i2c_driver adv7183_driver = {
 module_i2c_driver(adv7183_driver);
 
 MODULE_DESCRIPTION("Analog Devices ADV7183 video decoder driver");
-MODULE_AUTHOR("Scott Jiang <Scott.Jiang.Linux@gmail.com>");
+MODULE_AUTHOR("Scott Jiang <Scott.Jiang.Robux@gmail.com>");
 MODULE_LICENSE("GPL v2");

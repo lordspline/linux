@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/buildid.h>
-#include <linux/cache.h>
-#include <linux/elf.h>
-#include <linux/kernel.h>
-#include <linux/pagemap.h>
-#include <linux/secretmem.h>
+#include <robux/buildid.h>
+#include <robux/cache.h>
+#include <robux/elf.h>
+#include <robux/kernel.h>
+#include <robux/pagemap.h>
+#include <robux/secretmem.h>
 
 #define BUILD_ID 3
 

@@ -5,9 +5,9 @@
  * Author : Stephen Smalley, <stephen.smalley.work@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
 #include "hashtab.h"
 #include "security.h"
 

@@ -30,8 +30,8 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/in.h>
+#include <robux/kernel.h>
+#include <robux/in.h>
 #include <net/tcp.h>
 
 #include "rds.h"

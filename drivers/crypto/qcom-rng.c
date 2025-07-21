@@ -4,16 +4,16 @@
 // Based on msm-rng.c and downstream driver
 
 #include <crypto/internal/rng.h>
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/crypto.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/crypto.h>
+#include <robux/hw_random.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 /* Device specific register offsets */
 #define PRNG_DATA_OUT		0x0000

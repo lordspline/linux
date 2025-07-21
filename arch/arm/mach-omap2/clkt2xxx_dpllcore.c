@@ -17,11 +17,11 @@
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/clk.h>
-#include <linux/clk/ti.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/clk.h>
+#include <robux/clk/ti.h>
+#include <robux/io.h>
 
 #include "clock.h"
 #include "clock2xxx.h"

@@ -7,16 +7,16 @@
  * Author: WingMan Kwok <w-kwok2@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/phy/phy.h>
-#include <linux/pm_runtime.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/phy/phy.h>
+#include <robux/pm_runtime.h>
 
 /* USBSS register offsets */
 #define USBSS_REVISION		0x0000

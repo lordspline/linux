@@ -4,9 +4,9 @@
  * Copyright 2015 Joachim Eastwood <manabian@gmail.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
 #include "mma7455.h"
 

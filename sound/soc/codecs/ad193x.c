@@ -5,11 +5,11 @@
  * Copyright 2010 Analog Devices Inc.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

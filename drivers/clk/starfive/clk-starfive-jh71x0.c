@@ -5,10 +5,10 @@
  * Copyright (C) 2021-2022 Emil Renner Berthing <kernel@esmil.dk>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/io.h>
+#include <robux/clk-provider.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/io.h>
 
 #include "clk-starfive-jh71x0.h"
 

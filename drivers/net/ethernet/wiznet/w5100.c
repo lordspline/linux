@@ -6,24 +6,24 @@
  * Copyright (C) 2012 Mike Sinkovsky <msink@permonline.ru>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/wiznet.h>
-#include <linux/ethtool.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/gpio.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/wiznet.h>
+#include <robux/ethtool.h>
+#include <robux/skbuff.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/gpio.h>
 
 #include "w5100.h"
 

@@ -11,14 +11,14 @@
 
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/uaccess.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/drbd.h>
+#include <robux/uaccess.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/drbd.h>
 #include "drbd_int.h"
 
 struct proc_dir_entry *drbd_proc;

@@ -15,8 +15,8 @@
 #ifndef __LINUX_USB_EHCI_DBGP_H
 #define __LINUX_USB_EHCI_DBGP_H
 
-#include <linux/console.h>
-#include <linux/types.h>
+#include <robux/console.h>
+#include <robux/types.h>
 
 /* Appendix C, Debug port ... intended for use with special "debug devices"
  * that can help if there's no serial console.  (nonstandard enumeration.)

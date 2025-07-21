@@ -13,10 +13,10 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/list.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/list.h>
 #include "ibmphp.h"
 
 

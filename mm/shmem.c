@@ -1,5 +1,5 @@
 /*
- * Resizable virtual memory filesystem for Linux.
+ * Resizable virtual memory filesystem for Robux.
  *
  * Copyright (C) 2000 Linus Torvalds.
  *		 2000 Transmeta Corp.
@@ -21,26 +21,26 @@
  * This file is released under the GPL.
  */
 
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/vfs.h>
-#include <linux/mount.h>
-#include <linux/ramfs.h>
-#include <linux/pagemap.h>
-#include <linux/file.h>
-#include <linux/fileattr.h>
-#include <linux/mm.h>
-#include <linux/random.h>
-#include <linux/sched/signal.h>
-#include <linux/export.h>
-#include <linux/shmem_fs.h>
-#include <linux/swap.h>
-#include <linux/uio.h>
-#include <linux/hugetlb.h>
-#include <linux/fs_parser.h>
-#include <linux/swapfile.h>
-#include <linux/iversion.h>
-#include <linux/unicode.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/vfs.h>
+#include <robux/mount.h>
+#include <robux/ramfs.h>
+#include <robux/pagemap.h>
+#include <robux/file.h>
+#include <robux/fileattr.h>
+#include <robux/mm.h>
+#include <robux/random.h>
+#include <robux/sched/signal.h>
+#include <robux/export.h>
+#include <robux/shmem_fs.h>
+#include <robux/swap.h>
+#include <robux/uio.h>
+#include <robux/hugetlb.h>
+#include <robux/fs_parser.h>
+#include <robux/swapfile.h>
+#include <robux/iversion.h>
+#include <robux/unicode.h>
 #include "swap.h"
 
 static struct vfsmount *shm_mnt __ro_after_init;
@@ -52,37 +52,37 @@ static struct vfsmount *shm_mnt __ro_after_init;
  * which makes it a completely usable filesystem.
  */
 
-#include <linux/xattr.h>
-#include <linux/exportfs.h>
-#include <linux/posix_acl.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/mman.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/backing-dev.h>
-#include <linux/writeback.h>
-#include <linux/pagevec.h>
-#include <linux/percpu_counter.h>
-#include <linux/falloc.h>
-#include <linux/splice.h>
-#include <linux/security.h>
-#include <linux/swapops.h>
-#include <linux/mempolicy.h>
-#include <linux/namei.h>
-#include <linux/ctype.h>
-#include <linux/migrate.h>
-#include <linux/highmem.h>
-#include <linux/seq_file.h>
-#include <linux/magic.h>
-#include <linux/syscalls.h>
-#include <linux/fcntl.h>
-#include <uapi/linux/memfd.h>
-#include <linux/rmap.h>
-#include <linux/uuid.h>
-#include <linux/quotaops.h>
-#include <linux/rcupdate_wait.h>
+#include <robux/xattr.h>
+#include <robux/exportfs.h>
+#include <robux/posix_acl.h>
+#include <robux/posix_acl_xattr.h>
+#include <robux/mman.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/backing-dev.h>
+#include <robux/writeback.h>
+#include <robux/pagevec.h>
+#include <robux/percpu_counter.h>
+#include <robux/falloc.h>
+#include <robux/splice.h>
+#include <robux/security.h>
+#include <robux/swapops.h>
+#include <robux/mempolicy.h>
+#include <robux/namei.h>
+#include <robux/ctype.h>
+#include <robux/migrate.h>
+#include <robux/highmem.h>
+#include <robux/seq_file.h>
+#include <robux/magic.h>
+#include <robux/syscalls.h>
+#include <robux/fcntl.h>
+#include <uapi/robux/memfd.h>
+#include <robux/rmap.h>
+#include <robux/uuid.h>
+#include <robux/quotaops.h>
+#include <robux/rcupdate_wait.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "internal.h"
 

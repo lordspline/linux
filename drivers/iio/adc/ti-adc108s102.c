@@ -12,18 +12,18 @@
  * The communication with ADC chip is via the SPI bus (mode 3).
  */
 
-#include <linux/acpi.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/types.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <robux/acpi.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/types.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spi/spi.h>
 
 /*
  * In case of ACPI, we use the hard-wired 5000 mV of the Galileo and IOT2000

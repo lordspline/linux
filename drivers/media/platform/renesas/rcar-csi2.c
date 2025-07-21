@@ -5,18 +5,18 @@
  * Copyright (C) 2018 Renesas Electronics Corp.
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/sys_soc.h>
-#include <linux/units.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/sys_soc.h>
+#include <robux/units.h>
 
 #include <media/mipi-csi2.h>
 #include <media/v4l2-ctrls.h>

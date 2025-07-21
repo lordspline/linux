@@ -8,17 +8,17 @@
  *	    Sebastian Andrzej Siewior <bigeasy@linutronix.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/ptrace.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/ptrace.h>
+#include <robux/types.h>
+#include <robux/spinlock.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/delay.h>
+#include <robux/uaccess.h>
 
-#include <linux/usb/ch9.h>
+#include <robux/usb/ch9.h>
 
 #include "core.h"
 #include "gadget.h"

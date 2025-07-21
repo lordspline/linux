@@ -28,17 +28,17 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/bitfield.h>
-#include <linux/byteorder/generic.h>
-#include <linux/cec.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/seq_buf.h>
-#include <linux/slab.h>
-#include <linux/vga_switcheroo.h>
+#include <robux/bitfield.h>
+#include <robux/byteorder/generic.h>
+#include <robux/cec.h>
+#include <robux/hdmi.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/seq_buf.h>
+#include <robux/slab.h>
+#include <robux/vga_switcheroo.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_edid.h>

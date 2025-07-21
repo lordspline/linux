@@ -5,8 +5,8 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/export.h>
-#include <linux/security.h>
+#include <robux/export.h>
+#include <robux/security.h>
 #include "internal.h"
 
 /**

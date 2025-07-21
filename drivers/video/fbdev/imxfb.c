@@ -8,32 +8,32 @@
  * Please direct your questions and comments on this driver to the following
  * email address:
  *
- *	linux-arm-kernel@lists.arm.linux.org.uk
+ *	robux-arm-kernel@lists.arm.robux.org.uk
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/cpufreq.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/lcd.h>
-#include <linux/math64.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/bitfield.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/fb.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/cpufreq.h>
+#include <robux/clk.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/lcd.h>
+#include <robux/math64.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/bitfield.h>
 
-#include <linux/regulator/consumer.h>
+#include <robux/regulator/consumer.h>
 
 #include <video/of_display_timing.h>
 #include <video/of_videomode.h>

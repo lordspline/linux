@@ -10,15 +10,15 @@
  *          Brad Petrus <brad.petrus@netronome.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/ethtool.h>
-#include <linux/firmware.h>
-#include <linux/sfp.h>
+#include <robux/bitfield.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/ethtool.h>
+#include <robux/firmware.h>
+#include <robux/sfp.h>
 
 #include "nfpcore/nfp.h"
 #include "nfpcore/nfp_dev.h"

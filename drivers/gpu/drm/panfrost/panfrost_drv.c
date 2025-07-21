@@ -7,11 +7,11 @@
 #include <asm/arch_timer.h>
 #endif
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pagemap.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pagemap.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 #include <drm/panfrost_drm.h>
 #include <drm/drm_drv.h>
 #include <drm/drm_ioctl.h>

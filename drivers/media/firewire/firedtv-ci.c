@@ -6,10 +6,10 @@
  * Copyright (C) 2008 Henrik Kurelid <henrik@kurelid.se>
  */
 
-#include <linux/device.h>
-#include <linux/dvb/ca.h>
-#include <linux/fs.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/dvb/ca.h>
+#include <robux/fs.h>
+#include <robux/module.h>
 
 #include <media/dvbdev.h>
 

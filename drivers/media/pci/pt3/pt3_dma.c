@@ -4,9 +4,9 @@
  *
  * Copyright (C) 2014 Akihiro Tsukada <tskd08@gmail.com>
  */
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
 
 #include "pt3.h"
 

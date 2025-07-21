@@ -6,15 +6,15 @@
  * ARM Mali DP500/DP550/DP650 KMS/DRM driver
  */
 
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/of_device.h>
-#include <linux/of_graph.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/debugfs.h>
+#include <robux/module.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/of_device.h>
+#include <robux/of_graph.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/debugfs.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

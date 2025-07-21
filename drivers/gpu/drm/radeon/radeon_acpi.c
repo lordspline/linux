@@ -21,12 +21,12 @@
  *
  */
 
-#include <linux/acpi.h>
-#include <linux/backlight.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/backlight.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/power_supply.h>
+#include <robux/slab.h>
 
 #include <acpi/acpi_bus.h>
 #include <acpi/video.h>

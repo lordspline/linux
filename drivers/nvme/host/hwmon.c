@@ -4,9 +4,9 @@
  * Copyright (c) 2019, Guenter Roeck
  */
 
-#include <linux/hwmon.h>
-#include <linux/units.h>
-#include <linux/unaligned.h>
+#include <robux/hwmon.h>
+#include <robux/units.h>
+#include <robux/unaligned.h>
 
 #include "nvme.h"
 

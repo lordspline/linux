@@ -6,11 +6,11 @@
 #ifndef _XE_HW_FENCE_TYPES_H_
 #define _XE_HW_FENCE_TYPES_H_
 
-#include <linux/dma-fence.h>
-#include <linux/iosys-map.h>
-#include <linux/irq_work.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <robux/dma-fence.h>
+#include <robux/iosys-map.h>
+#include <robux/irq_work.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
 
 struct xe_device;
 struct xe_gt;

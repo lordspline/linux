@@ -3,19 +3,19 @@
 // Copyright (c) 2019 MediaTek Inc.
 
 #include <asm/barrier.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc.h>
-#include <linux/remoteproc/mtk_scp.h>
-#include <linux/rpmsg/mtk_rpmsg.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/remoteproc.h>
+#include <robux/remoteproc/mtk_scp.h>
+#include <robux/rpmsg/mtk_rpmsg.h>
 
 #include "mtk_common.h"
 #include "remoteproc_internal.h"

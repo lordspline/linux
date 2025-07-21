@@ -2,17 +2,17 @@
 /*
  * Signal support for Hexagon processor
  *
- * Copyright (c) 2010-2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2012, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/linkage.h>
-#include <linux/syscalls.h>
-#include <linux/sched/task_stack.h>
+#include <robux/linkage.h>
+#include <robux/syscalls.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/registers.h>
 #include <asm/thread_info.h>
 #include <asm/unistd.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/ucontext.h>
 #include <asm/cacheflush.h>
 #include <asm/signal.h>

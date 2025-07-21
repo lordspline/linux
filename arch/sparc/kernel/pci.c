@@ -3,28 +3,28 @@
  *
  * Copyright (C) 1997, 1998, 1999 David S. Miller (davem@redhat.com)
  * Copyright (C) 1998, 1999 Eddie C. Dost   (ecd@skynet.be)
- * Copyright (C) 1999 Jakub Jelinek   (jj@ultra.linux.cz)
+ * Copyright (C) 1999 Jakub Jelinek   (jj@ultra.robux.cz)
  *
  * OF tree based PCI bus probing taken from the PowerPC port
  * with minor modifications, see there for credits.
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/sched.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/msi.h>
-#include <linux/irq.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pgtable.h>
-#include <linux/platform_device.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/sched.h>
+#include <robux/capability.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/msi.h>
+#include <robux/irq.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/pgtable.h>
+#include <robux/platform_device.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/irq.h>
 #include <asm/prom.h>
 #include <asm/apb.h>

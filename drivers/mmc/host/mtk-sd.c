@@ -4,34 +4,34 @@
  * Author: Chaotian.Jing <chaotian.jing@mediatek.com>
  */
 
-#include <linux/module.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/reset.h>
+#include <robux/module.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/iopoll.h>
+#include <robux/ioport.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/reset.h>
 
-#include <linux/mmc/card.h>
-#include <linux/mmc/core.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/slot-gpio.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/core.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/sd.h>
+#include <robux/mmc/sdio.h>
+#include <robux/mmc/slot-gpio.h>
 
 #include "cqhci.h"
 #include "mmc_hsq.h"

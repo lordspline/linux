@@ -3,12 +3,12 @@
  * Copyright (C) 2004-2016 Synopsys, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/usb/of.h>
-#include <linux/pci_ids.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/usb/of.h>
+#include <robux/pci_ids.h>
+#include <robux/pci.h>
 
 #include "core.h"
 

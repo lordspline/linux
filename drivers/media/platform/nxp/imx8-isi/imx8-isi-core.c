@@ -3,20 +3,20 @@
  * Copyright 2019-2020 NXP
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #include <media/media-device.h>
 #include <media/v4l2-async.h>

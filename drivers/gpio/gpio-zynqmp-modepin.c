@@ -5,15 +5,15 @@
  * Copyright (c) 2021 Xilinx, Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/firmware/xlnx-zynqmp.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/firmware/xlnx-zynqmp.h>
 
 /* 4-bit boot mode pins */
 #define MODE_PINS			4

@@ -4,18 +4,18 @@
  * Copyright (c) 2019, Intel Corporation.
  * All rights reserved.
  *
- * Author: Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>
+ * Author: Srinivas Pandruvada <srinivas.pandruvada@robux.intel.com>
  */
 
-#include <linux/module.h>
-#include <linux/cpuhotplug.h>
-#include <linux/pci.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/topology.h>
-#include <linux/uaccess.h>
-#include <uapi/linux/isst_if.h>
+#include <robux/module.h>
+#include <robux/cpuhotplug.h>
+#include <robux/pci.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/suspend.h>
+#include <robux/topology.h>
+#include <robux/uaccess.h>
+#include <uapi/robux/isst_if.h>
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>
 #include <asm/msr.h>

@@ -2,19 +2,19 @@
 /*
  * Common SMP CPU bringup/teardown functions
  */
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/smp.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/export.h>
-#include <linux/percpu.h>
-#include <linux/kthread.h>
-#include <linux/smpboot.h>
+#include <robux/cpu.h>
+#include <robux/err.h>
+#include <robux/smp.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/sched/task.h>
+#include <robux/export.h>
+#include <robux/percpu.h>
+#include <robux/kthread.h>
+#include <robux/smpboot.h>
 
 #include "smpboot.h"
 

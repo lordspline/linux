@@ -13,17 +13,17 @@
  * from Florian Echtler, Henrik Bjerregaard Pedersen, and others.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/usb.h>
-#include <linux/uaccess.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/usb.h>
+#include <robux/uaccess.h>
+#include <robux/mm.h>
+#include <robux/fb.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/unaligned.h>
 #include <video/udlfb.h>
 #include "edid.h"
 

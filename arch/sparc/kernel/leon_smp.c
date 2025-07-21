@@ -9,29 +9,29 @@
 
 #include <asm/head.h>
 
-#include <linux/kernel.h>
-#include <linux/sched/mm.h>
-#include <linux/threads.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/of.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/profile.h>
-#include <linux/pm.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/cpu.h>
-#include <linux/clockchips.h>
+#include <robux/kernel.h>
+#include <robux/sched/mm.h>
+#include <robux/threads.h>
+#include <robux/smp.h>
+#include <robux/interrupt.h>
+#include <robux/kernel_stat.h>
+#include <robux/of.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/mm.h>
+#include <robux/swap.h>
+#include <robux/profile.h>
+#include <robux/pm.h>
+#include <robux/delay.h>
+#include <robux/gfp.h>
+#include <robux/cpu.h>
+#include <robux/clockchips.h>
 
 #include <asm/cacheflush.h>
 #include <asm/tlbflush.h>
 
 #include <asm/ptrace.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/irq_regs.h>
 #include <asm/traps.h>
 

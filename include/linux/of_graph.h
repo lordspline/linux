@@ -11,9 +11,9 @@
 #ifndef __LINUX_OF_GRAPH_H
 #define __LINUX_OF_GRAPH_H
 
-#include <linux/cleanup.h>
-#include <linux/types.h>
-#include <linux/errno.h>
+#include <robux/cleanup.h>
+#include <robux/types.h>
+#include <robux/errno.h>
 
 /**
  * struct of_endpoint - the OF graph endpoint data structure

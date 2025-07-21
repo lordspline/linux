@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright 2024 Cisco Systems, Inc.  All rights reserved.
 
-#include <linux/skbuff.h>
-#include <linux/if_vlan.h>
+#include <robux/skbuff.h>
+#include <robux/if_vlan.h>
 #include <net/busy_poll.h>
 #include "enic.h"
 #include "enic_res.h"

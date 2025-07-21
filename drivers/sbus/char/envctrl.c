@@ -19,18 +19,18 @@
  *              Daniele Bellucci <bellucda@tiscali.it>
  */
 
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/miscdevice.h>
-#include <linux/kmod.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/kthread.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/miscdevice.h>
+#include <robux/kmod.h>
+#include <robux/reboot.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/envctrl.h>
 #include <asm/io.h>
 

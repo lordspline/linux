@@ -26,9 +26,9 @@
 #ifndef _AGP_H
 #define _AGP_H 1
 
-#include <linux/mutex.h>
-#include <linux/agp_backend.h>
-#include <uapi/linux/agpgart.h>
+#include <robux/mutex.h>
+#include <robux/agp_backend.h>
+#include <uapi/robux/agpgart.h>
 
 struct agp_info {
 	struct agp_version version;	/* version of the driver        */

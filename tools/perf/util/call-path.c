@@ -4,9 +4,9 @@
  * Copyright (c) 2014, Intel Corporation.
  */
 
-#include <linux/rbtree.h>
-#include <linux/list.h>
-#include <linux/zalloc.h>
+#include <robux/rbtree.h>
+#include <robux/list.h>
+#include <robux/zalloc.h>
 #include <stdlib.h>
 
 #include "call-path.h"

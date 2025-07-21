@@ -2,13 +2,13 @@
 /*
  * Copyright © 2023 Intel Corporation
  */
-#include <linux/dma-resv.h>
-#include <linux/kthread.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/ww_mutex.h>
+#include <robux/dma-resv.h>
+#include <robux/kthread.h>
+#include <robux/delay.h>
+#include <robux/timer.h>
+#include <robux/jiffies.h>
+#include <robux/mutex.h>
+#include <robux/ww_mutex.h>
 
 #include <drm/ttm/ttm_resource.h>
 #include <drm/ttm/ttm_placement.h>

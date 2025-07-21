@@ -4,9 +4,9 @@
  * Mostly copied from arch/x86/lib/delay.c
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
 #include <asm/param.h>
 
 void __delay(unsigned long loops)

@@ -7,12 +7,12 @@
  *               2009 Johannes Dickgreber <tanzy@gmx.de>
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/percpu.h>
-#include <linux/memblock.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/percpu.h>
+#include <robux/memblock.h>
 
 #include <asm/bootinfo.h>
 #include <asm/smp-ops.h>

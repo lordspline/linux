@@ -9,14 +9,14 @@
  *        Date: 2006-10-31
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/mm.h>
-#include <linux/platform_device.h>
-#include <linux/cfag12864b.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/fb.h>
+#include <robux/mm.h>
+#include <robux/platform_device.h>
+#include <robux/cfag12864b.h>
 
 #define CFAG12864BFB_NAME "cfag12864bfb"
 

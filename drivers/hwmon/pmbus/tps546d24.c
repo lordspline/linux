@@ -3,12 +3,12 @@
  * Hardware monitoring driver for TEXAS TPS546D24 buck converter
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pmbus.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pmbus.h>
 #include "pmbus.h"
 
 static struct pmbus_driver_info tps546d24_info = {

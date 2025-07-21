@@ -7,11 +7,11 @@
  * Authors: Felipe Balbi <balbi@ti.com>,
  */
 
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
 
 #include "../host/xhci-port.h"
 #include "../host/xhci-ext-caps.h"

@@ -3,13 +3,13 @@
  *   Clock domain and sample rate management functions
  */
 
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/usb.h>
-#include <linux/usb/audio.h>
-#include <linux/usb/audio-v2.h>
-#include <linux/usb/audio-v3.h>
+#include <robux/bitops.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/usb.h>
+#include <robux/usb/audio.h>
+#include <robux/usb/audio-v2.h>
+#include <robux/usb/audio-v3.h>
 
 #include <sound/core.h>
 #include <sound/info.h>

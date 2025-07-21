@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Hangzhou C-SKY Microsystems co.,ltd.
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/module.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/smp.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/module.h>
+#include <robux/irqdomain.h>
+#include <robux/irqchip.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/smp.h>
+#include <robux/io.h>
 #include <asm/irq.h>
 #include <asm/traps.h>
 #include <asm/reg_ops.h>

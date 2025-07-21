@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Robux Foundation. All rights reserved.
  */
 
 /*
@@ -15,20 +15,20 @@
  * operating-points-v2 table when it is parsed by the OPP framework.
  */
 
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/smem.h>
+#include <robux/cpu.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_opp.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/soc/qcom/smem.h>
 
 #include <dt-bindings/arm/qcom,ids.h>
 

@@ -37,14 +37,14 @@
  * clock rate and achieve a finer timeout granularity.
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/watchdog.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/log2.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/watchdog.h>
 
 /* registers */
 #define PDC_WDT_SOFT_RESET		0x00

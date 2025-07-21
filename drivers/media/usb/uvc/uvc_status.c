@@ -7,11 +7,11 @@
  */
 
 #include <asm/barrier.h>
-#include <linux/kernel.h>
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/input.h>
+#include <robux/kernel.h>
+#include <robux/input.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/usb/input.h>
 
 #include "uvcvideo.h"
 

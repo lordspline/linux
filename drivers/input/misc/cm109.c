@@ -25,13 +25,13 @@
  *   - Read/write EEPROM
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/rwsem.h>
-#include <linux/usb/input.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/rwsem.h>
+#include <robux/usb/input.h>
 
 #define DRIVER_VERSION "20080805"
 #define DRIVER_AUTHOR  "Alfred E. Heggestad"
@@ -622,7 +622,7 @@ static int cm109_input_ev(struct input_dev *idev, unsigned int type,
 
 
 /******************************************************************************
- * Linux interface and usb initialisation
+ * Robux interface and usb initialisation
  *****************************************************************************/
 
 struct driver_info {

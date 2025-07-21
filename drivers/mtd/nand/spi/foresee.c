@@ -5,9 +5,9 @@
  * Author: Martin Kurbanov <mmkurbanov@salutedevices.com>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mtd/spinand.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/mtd/spinand.h>
 
 #define SPINAND_MFR_FORESEE		0xCD
 

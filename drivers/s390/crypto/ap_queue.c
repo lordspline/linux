@@ -9,8 +9,8 @@
 #define KMSG_COMPONENT "ap"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/slab.h>
 #include <asm/facility.h>
 
 #include "ap_bus.h"

@@ -10,16 +10,16 @@
  *  Ksenija Stanojevic <ksenija.stanojevic@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/mxs-lradc.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/mxs-lradc.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
 
 static const char * const mxs_lradc_ts_irq_names[] = {
 	"mxs-lradc-touchscreen",

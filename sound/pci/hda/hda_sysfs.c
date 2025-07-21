@@ -7,13 +7,13 @@
  * split from hda_hwdep.c
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/compat.h>
-#include <linux/mutex.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/export.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/compat.h>
+#include <robux/mutex.h>
+#include <robux/ctype.h>
+#include <robux/string.h>
+#include <robux/export.h>
 #include <sound/core.h>
 #include <sound/hda_codec.h>
 #include "hda_local.h"

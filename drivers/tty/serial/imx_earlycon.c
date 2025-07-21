@@ -3,14 +3,14 @@
  * Copyright 2020 NXP
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/serial_core.h>
+#include <robux/serial.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/io.h>
 
 #define URTX0 0x40 /* Transmitter Register */
 #define UTS_TXFULL (1<<4) /* TxFIFO full */

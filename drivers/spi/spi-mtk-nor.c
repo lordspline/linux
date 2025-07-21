@@ -4,21 +4,21 @@
 //
 // Copyright (C) 2020 Chuanhong Guo <gch981213@gmail.com>
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/string.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
+#include <robux/string.h>
 
 #define DRIVER_NAME "mtk-spi-nor"
 

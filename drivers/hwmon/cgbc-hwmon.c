@@ -5,12 +5,12 @@
  * Copyright (C) 2024 Thomas Richard <thomas.richard@bootlin.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/mfd/cgbc.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/hwmon.h>
+#include <robux/mfd/cgbc.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #define CGBC_HWMON_CMD_SENSOR		0x77
 #define CGBC_HWMON_CMD_SENSOR_DATA_SIZE	0x05

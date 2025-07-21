@@ -20,8 +20,8 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-#include <linux/firmware.h>
-#include <linux/module.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
 
 #include "amdgpu.h"
 #include "amdgpu_ih.h"

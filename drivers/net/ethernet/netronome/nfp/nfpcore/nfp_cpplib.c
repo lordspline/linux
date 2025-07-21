@@ -9,13 +9,13 @@
  *          Rolf Neugebauer <rolf.neugebauer@netronome.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
+#include <robux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
 
 #include "nfp_cpp.h"
 #include "nfp6000/nfp6000.h"

@@ -8,14 +8,14 @@
 #ifndef _LINUX_CRED_H
 #define _LINUX_CRED_H
 
-#include <linux/capability.h>
-#include <linux/init.h>
-#include <linux/key.h>
-#include <linux/atomic.h>
-#include <linux/refcount.h>
-#include <linux/uidgid.h>
-#include <linux/sched.h>
-#include <linux/sched/user.h>
+#include <robux/capability.h>
+#include <robux/init.h>
+#include <robux/key.h>
+#include <robux/atomic.h>
+#include <robux/refcount.h>
+#include <robux/uidgid.h>
+#include <robux/sched.h>
+#include <robux/sched/user.h>
 
 struct cred;
 struct inode;

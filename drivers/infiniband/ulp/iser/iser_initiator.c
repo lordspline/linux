@@ -30,11 +30,11 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/scatterlist.h>
-#include <linux/kfifo.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/scatterlist.h>
+#include <robux/kfifo.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_host.h>
 

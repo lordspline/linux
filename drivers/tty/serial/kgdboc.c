@@ -11,18 +11,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/kgdb.h>
-#include <linux/kdb.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/vt_kern.h>
-#include <linux/input.h>
-#include <linux/irq_work.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/serial_core.h>
+#include <robux/kernel.h>
+#include <robux/ctype.h>
+#include <robux/kgdb.h>
+#include <robux/kdb.h>
+#include <robux/tty.h>
+#include <robux/console.h>
+#include <robux/vt_kern.h>
+#include <robux/input.h>
+#include <robux/irq_work.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/serial_core.h>
 
 #define MAX_CONFIG_LEN		40
 

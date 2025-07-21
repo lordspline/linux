@@ -5,34 +5,34 @@
  *
  * Derived from MIPS:
  * Copyright (C) 1994 - 1999, 2000 by Ralf Baechle and others.
- * Copyright (C) 2005, 2006 by Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 2005, 2006 by Ralf Baechle (ralf@robux-mips.org)
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  * Copyright (C) 2004 Thiemo Seufer
  * Copyright (C) 2013  Imagination Technologies Ltd.
  */
-#include <linux/cpu.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/entry-common.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/export.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/personality.h>
-#include <linux/sys.h>
-#include <linux/completion.h>
-#include <linux/kallsyms.h>
-#include <linux/random.h>
-#include <linux/prctl.h>
-#include <linux/nmi.h>
+#include <robux/cpu.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/entry-common.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task.h>
+#include <robux/sched/task_stack.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/mm.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/export.h>
+#include <robux/ptrace.h>
+#include <robux/mman.h>
+#include <robux/personality.h>
+#include <robux/sys.h>
+#include <robux/completion.h>
+#include <robux/kallsyms.h>
+#include <robux/random.h>
+#include <robux/prctl.h>
+#include <robux/nmi.h>
 
 #include <asm/asm.h>
 #include <asm/asm-prototypes.h>
@@ -54,7 +54,7 @@
 #include <asm/vdso.h>
 
 #ifdef CONFIG_STACKPROTECTOR
-#include <linux/stackprotector.h>
+#include <robux/stackprotector.h>
 unsigned long __stack_chk_guard __read_mostly;
 EXPORT_SYMBOL(__stack_chk_guard);
 #endif

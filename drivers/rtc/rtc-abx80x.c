@@ -10,14 +10,14 @@
  *
  */
 
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/rtc.h>
-#include <linux/watchdog.h>
+#include <robux/bcd.h>
+#include <robux/bitfield.h>
+#include <robux/i2c.h>
+#include <robux/kstrtox.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/rtc.h>
+#include <robux/watchdog.h>
 
 #define ABX8XX_REG_HTH		0x00
 #define ABX8XX_REG_SC		0x01

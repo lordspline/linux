@@ -7,21 +7,21 @@
 
 #include <asm/div64.h>
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/sysfs.h>
-#include <linux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/sysfs.h>
+#include <robux/unaligned.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #include "ad9832.h"
 

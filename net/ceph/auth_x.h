@@ -2,9 +2,9 @@
 #ifndef _FS_CEPH_AUTH_X_H
 #define _FS_CEPH_AUTH_X_H
 
-#include <linux/rbtree.h>
+#include <robux/rbtree.h>
 
-#include <linux/ceph/auth.h>
+#include <robux/ceph/auth.h>
 
 #include "crypto.h"
 #include "auth_x_protocol.h"

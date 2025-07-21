@@ -5,10 +5,10 @@
  * Maintainer: Kumar Gala <galak@kernel.crashing.org>
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/of_platform.h>
+#include <robux/pci.h>
 
 #include <asm/debug.h>
 #include <asm/io.h>

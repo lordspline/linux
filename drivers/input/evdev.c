@@ -12,17 +12,17 @@
 #define EVDEV_MIN_BUFFER_SIZE	64U
 #define EVDEV_BUF_PACKETS	8
 
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input/mt.h>
-#include <linux/major.h>
-#include <linux/device.h>
-#include <linux/cdev.h>
+#include <robux/poll.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/input/mt.h>
+#include <robux/major.h>
+#include <robux/device.h>
+#include <robux/cdev.h>
 #include "input-compat.h"
 
 struct evdev {

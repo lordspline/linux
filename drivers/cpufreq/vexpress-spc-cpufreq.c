@@ -11,18 +11,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/slab.h>
-#include <linux/topology.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/cpu.h>
+#include <robux/cpufreq.h>
+#include <robux/cpumask.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/slab.h>
+#include <robux/topology.h>
+#include <robux/types.h>
 
 /* Currently we support only two clusters */
 #define A15_CLUSTER	0

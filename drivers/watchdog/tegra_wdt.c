@@ -3,13 +3,13 @@
  * Copyright (c) 2014, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/watchdog.h>
 
 /* minimum and maximum watchdog trigger timeout, in seconds */
 #define MIN_WDT_TIMEOUT			1

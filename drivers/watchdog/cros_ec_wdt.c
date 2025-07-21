@@ -4,14 +4,14 @@
  * Author: Lukasz Majczak <lma@chromium.com>
  */
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/watchdog.h>
 
 #define CROS_EC_WATCHDOG_DEFAULT_TIME	30 /* seconds */
 #define DRV_NAME	"cros-ec-wdt"

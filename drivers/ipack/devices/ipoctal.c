@@ -7,16 +7,16 @@
  * Author: Samuel Iglesias Gonsalvez <siglesias@igalia.com>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/tty.h>
-#include <linux/serial.h>
-#include <linux/tty_flip.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/ipack.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <robux/tty.h>
+#include <robux/serial.h>
+#include <robux/tty_flip.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/ipack.h>
 #include "ipoctal.h"
 #include "scc2698.h"
 

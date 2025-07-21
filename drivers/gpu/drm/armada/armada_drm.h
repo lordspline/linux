@@ -5,9 +5,9 @@
 #ifndef ARMADA_DRM_H
 #define ARMADA_DRM_H
 
-#include <linux/kfifo.h>
-#include <linux/io.h>
-#include <linux/workqueue.h>
+#include <robux/kfifo.h>
+#include <robux/io.h>
+#include <robux/workqueue.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_mm.h>

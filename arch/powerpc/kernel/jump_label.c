@@ -3,8 +3,8 @@
  * Copyright 2010 Michael Ellerman, IBM Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/jump_label.h>
+#include <robux/kernel.h>
+#include <robux/jump_label.h>
 #include <asm/text-patching.h>
 #include <asm/inst.h>
 

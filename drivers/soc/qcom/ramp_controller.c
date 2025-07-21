@@ -5,14 +5,14 @@
  *                     <angelogioacchino.delregno@collabora.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 #define RC_UPDATE_EN		BIT(0)
 #define RC_ROOT_EN		BIT(1)

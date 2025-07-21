@@ -5,13 +5,13 @@
  * Copyright (C) 2014 Digital Devices GmbH
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/i2c.h>
 #include <asm/div64.h>
 
 #include "stv6111.h"

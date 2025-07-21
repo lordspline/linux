@@ -6,21 +6,21 @@
  * Author: <andrew.hepp@ahepp.dev>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/bits.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/math.h>
+#include <robux/minmax.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
 
 /* MCP9600 registers */
 #define MCP9600_HOT_JUNCTION 0x0

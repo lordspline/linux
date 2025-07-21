@@ -5,18 +5,18 @@
  * Copyright (C) 2024-2025 Pengyu Luo <mitltlatltl@gmail.com>
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/notifier.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_data/huawei-gaokun-ec.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/notifier.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_data/huawei-gaokun-ec.h>
 
 #define EC_EVENT		0x06
 

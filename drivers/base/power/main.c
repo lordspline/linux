@@ -18,22 +18,22 @@
 #define pr_fmt(fmt) "PM: " fmt
 #define dev_fmt pr_fmt
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm-trace.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/async.h>
-#include <linux/suspend.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/mutex.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm-trace.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/async.h>
+#include <robux/suspend.h>
 #include <trace/events/power.h>
-#include <linux/cpufreq.h>
-#include <linux/devfreq.h>
-#include <linux/timer.h>
+#include <robux/cpufreq.h>
+#include <robux/devfreq.h>
+#include <robux/timer.h>
 
 #include "../base.h"
 #include "power.h"

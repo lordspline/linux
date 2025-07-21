@@ -7,12 +7,12 @@
  * Author: Milo(Woogyom) Kim <milo.kim@ti.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/mfd/lp8788.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/backlight.h>
+#include <robux/err.h>
+#include <robux/mfd/lp8788.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 /* Register address */
 #define LP8788_BL_CONFIG		0x96

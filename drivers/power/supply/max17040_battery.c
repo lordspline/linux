@@ -6,19 +6,19 @@
 //  Copyright (C) 2009 Samsung Electronics
 //  Minkyu Kang <mk7.kang@samsung.com>
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/power_supply.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/iio/consumer.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/power_supply.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/iio/consumer.h>
 
 #define MAX17040_VCELL	0x02
 #define MAX17040_SOC	0x04

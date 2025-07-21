@@ -7,8 +7,8 @@
 #ifndef _CCU_DDN_H_
 #define _CCU_DDN_H_
 
-#include <linux/bitops.h>
-#include <linux/clk-provider.h>
+#include <robux/bitops.h>
+#include <robux/clk-provider.h>
 
 #include "ccu_common.h"
 

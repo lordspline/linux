@@ -8,13 +8,13 @@
 #ifndef TEGRA_VDE_H
 #define TEGRA_VDE_H
 
-#include <linux/completion.h>
-#include <linux/dma-direction.h>
-#include <linux/iova.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/completion.h>
+#include <robux/dma-direction.h>
+#include <robux/iova.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include <media/media-device.h>
 #include <media/videobuf2-dma-contig.h>

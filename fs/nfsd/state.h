@@ -35,9 +35,9 @@
 #ifndef _NFSD4_STATE_H
 #define _NFSD4_STATE_H
 
-#include <linux/idr.h>
-#include <linux/refcount.h>
-#include <linux/sunrpc/svc_xprt.h>
+#include <robux/idr.h>
+#include <robux/refcount.h>
+#include <robux/sunrpc/svc_xprt.h>
 #include "nfsfh.h"
 #include "nfsd.h"
 

@@ -41,17 +41,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/platform/cc770.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/netdevice.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/can.h>
+#include <robux/can/dev.h>
+#include <robux/can/platform/cc770.h>
 
 #include "cc770.h"
 

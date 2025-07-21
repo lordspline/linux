@@ -10,13 +10,13 @@
 #ifndef _LINUX_PSTORE_H
 #define _LINUX_PSTORE_H
 
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/kmsg_dump.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/time.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/errno.h>
+#include <robux/kmsg_dump.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/time.h>
+#include <robux/types.h>
 
 struct module;
 

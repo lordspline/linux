@@ -7,9 +7,9 @@
 #ifndef _KEYS_TRUSTED_TYPE_H
 #define _KEYS_TRUSTED_TYPE_H
 
-#include <linux/key.h>
-#include <linux/rcupdate.h>
-#include <linux/tpm.h>
+#include <robux/key.h>
+#include <robux/rcupdate.h>
+#include <robux/tpm.h>
 
 #ifdef pr_fmt
 #undef pr_fmt

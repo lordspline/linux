@@ -7,18 +7,18 @@
  * Author: Kishon Vijay Abraham I <kishon@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/idr.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/idr.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
 
 static void phy_release(struct device *dev);
 static const struct class phy_class = {

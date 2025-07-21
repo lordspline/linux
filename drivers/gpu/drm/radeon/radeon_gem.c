@@ -26,9 +26,9 @@
  *          Jerome Glisse
  */
 
-#include <linux/debugfs.h>
-#include <linux/iosys-map.h>
-#include <linux/pci.h>
+#include <robux/debugfs.h>
+#include <robux/iosys-map.h>
+#include <robux/pci.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_file.h>

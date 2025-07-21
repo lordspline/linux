@@ -5,17 +5,17 @@
 
 #define pr_fmt(fmt) "vas: " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/of_platform.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/irqdomain.h>
-#include <linux/interrupt.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/of_platform.h>
+#include <robux/of_address.h>
+#include <robux/of.h>
+#include <robux/irqdomain.h>
+#include <robux/interrupt.h>
 #include <asm/prom.h>
 #include <asm/xive.h>
 

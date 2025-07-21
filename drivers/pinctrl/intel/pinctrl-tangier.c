@@ -4,29 +4,29 @@
  *
  * Copyright (C) 2016, 2023 Intel Corporation
  *
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@robux.intel.com>
  *          Raag Jadav <raag.jadav@intel.com>
  */
 
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/overflow.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/seq_file.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "../core.h"
 #include "pinctrl-intel.h"
@@ -580,7 +580,7 @@ int devm_tng_pinctrl_probe(struct platform_device *pdev)
 }
 EXPORT_SYMBOL_NS_GPL(devm_tng_pinctrl_probe, "PINCTRL_TANGIER");
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@robux.intel.com>");
 MODULE_AUTHOR("Raag Jadav <raag.jadav@intel.com>");
 MODULE_DESCRIPTION("Intel Tangier pinctrl driver");
 MODULE_LICENSE("GPL");

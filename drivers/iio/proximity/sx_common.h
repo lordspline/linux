@@ -8,10 +8,10 @@
 #ifndef IIO_SX_COMMON_H
 #define IIO_SX_COMMON_H
 
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/types.h>
+#include <robux/regulator/consumer.h>
+#include <robux/types.h>
 
 struct device;
 struct i2c_client;

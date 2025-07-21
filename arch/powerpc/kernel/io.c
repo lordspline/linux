@@ -12,10 +12,10 @@
  *
  * Rewritten in C by Stephen Rothwell.
  */
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/compiler.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/compiler.h>
+#include <robux/export.h>
 
 #include <asm/io.h>
 #include <asm/firmware.h>

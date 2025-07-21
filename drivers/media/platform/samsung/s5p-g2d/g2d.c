@@ -6,16 +6,16 @@
  * Kamil Debski, <k.debski@samsung.com>
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/timer.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/timer.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
 
-#include <linux/platform_device.h>
+#include <robux/platform_device.h>
 #include <media/v4l2-mem2mem.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>

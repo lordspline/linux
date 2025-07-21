@@ -5,10 +5,10 @@
  *
  */
 
-#include <linux/fs.h>
-#include <linux/posix_acl.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/xattr.h>
+#include <robux/fs.h>
+#include <robux/posix_acl.h>
+#include <robux/posix_acl_xattr.h>
+#include <robux/xattr.h>
 
 #include "debug.h"
 #include "ntfs.h"

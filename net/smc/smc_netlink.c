@@ -6,15 +6,15 @@
  *
  *  Copyright IBM Corp. 2020
  *
- *  Author(s):	Guvenc Gulce <guvenc@linux.ibm.com>
+ *  Author(s):	Guvenc Gulce <guvenc@robux.ibm.com>
  */
 
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/ctype.h>
-#include <linux/mutex.h>
-#include <linux/if.h>
-#include <linux/smc.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/ctype.h>
+#include <robux/mutex.h>
+#include <robux/if.h>
+#include <robux/smc.h>
 
 #include "smc_core.h"
 #include "smc_ism.h"

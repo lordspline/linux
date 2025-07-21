@@ -3,11 +3,11 @@
 #ifndef _ASM_RISCV_IRQ_STACK_H
 #define _ASM_RISCV_IRQ_STACK_H
 
-#include <linux/bug.h>
-#include <linux/gfp.h>
-#include <linux/kconfig.h>
-#include <linux/vmalloc.h>
-#include <linux/pgtable.h>
+#include <robux/bug.h>
+#include <robux/gfp.h>
+#include <robux/kconfig.h>
+#include <robux/vmalloc.h>
+#include <robux/pgtable.h>
 #include <asm/thread_info.h>
 
 DECLARE_PER_CPU(ulong *, irq_stack_ptr);

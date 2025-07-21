@@ -32,16 +32,16 @@
 
 ======================================================================*/
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/serial_core.h>
-#include <linux/delay.h>
-#include <linux/major.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/serial_core.h>
+#include <robux/delay.h>
+#include <robux/major.h>
 #include <asm/io.h>
 
 #include <pcmcia/cistpl.h>

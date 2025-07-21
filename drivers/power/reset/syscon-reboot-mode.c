@@ -3,15 +3,15 @@
  * Copyright (c) 2016, Fuzhou Rockchip Electronics Co., Ltd
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/reboot-mode.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/reboot-mode.h>
 
 struct syscon_reboot_mode {
 	struct regmap *map;

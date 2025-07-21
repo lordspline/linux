@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/fb.h>
-#include <linux/linux_logo.h>
+#include <robux/fb.h>
+#include <robux/linux_logo.h>
 
 #include "fb_internal.h"
 

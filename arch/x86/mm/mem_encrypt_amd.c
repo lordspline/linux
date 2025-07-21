@@ -7,17 +7,17 @@
  * Author: Tom Lendacky <thomas.lendacky@amd.com>
  */
 
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/dma-direct.h>
-#include <linux/swiotlb.h>
-#include <linux/mem_encrypt.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/cc_platform.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/dma-direct.h>
+#include <robux/swiotlb.h>
+#include <robux/mem_encrypt.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/bitops.h>
+#include <robux/dma-mapping.h>
+#include <robux/cc_platform.h>
 
 #include <asm/tlbflush.h>
 #include <asm/fixmap.h>

@@ -9,14 +9,14 @@
  * Copyright (C) 2008 Wolfram Sang, Pengutronix
  */
 
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nvmem-provider.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/nvmem-provider.h>
 
 /*
  * DDR4 memory modules use special EEPROMs following the Jedec EE1004

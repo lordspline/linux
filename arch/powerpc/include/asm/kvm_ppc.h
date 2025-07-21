@@ -12,12 +12,12 @@
 /* This file exists just so we can dereference kvm_vcpu, avoiding nested header
  * dependencies. */
 
-#include <linux/mutex.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/kvm_types.h>
-#include <linux/kvm_host.h>
-#include <linux/bug.h>
+#include <robux/mutex.h>
+#include <robux/timer.h>
+#include <robux/types.h>
+#include <robux/kvm_types.h>
+#include <robux/kvm_host.h>
+#include <robux/bug.h>
 #ifdef CONFIG_PPC_BOOK3S
 #include <asm/kvm_book3s.h>
 #else

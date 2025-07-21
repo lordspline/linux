@@ -23,15 +23,15 @@
  *  at once.
  */
 
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/usb.h>
+#include <robux/module.h>
+#include <robux/firmware.h>
+#include <robux/kernel.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/usb.h>
 #include <media/videobuf2-v4l2.h>
 #include <media/videobuf2-vmalloc.h>
 #include <media/v4l2-common.h>
@@ -510,7 +510,7 @@ static void s2255_fwchunk_complete(struct urb *urb)
 	}
 #define CHUNK_SIZE 512
 	/* all USB transfers must be done with continuous kernel memory.
-	   can't allocate more than 128k in current linux kernel, so
+	   can't allocate more than 128k in current robux kernel, so
 	   upload the firmware in chunks
 	 */
 	if (data->fw_loaded < data->fw_size) {
@@ -1590,7 +1590,7 @@ static int s2255_probe_v4l(struct s2255_dev *dev)
 	ret = v4l2_device_register(&dev->interface->dev, &dev->v4l2_dev);
 	if (ret)
 		return ret;
-	/* initialize all video 4 linux */
+	/* initialize all video 4 robux */
 	/* register 4 video devices */
 	for (i = 0; i < MAX_CHANNELS; i++) {
 		vc = &dev->vc[i];
@@ -2371,7 +2371,7 @@ static struct usb_driver s2255_driver = {
 
 module_usb_driver(s2255_driver);
 
-MODULE_DESCRIPTION("Sensoray 2255 Video for Linux driver");
+MODULE_DESCRIPTION("Sensoray 2255 Video for Robux driver");
 MODULE_AUTHOR("Dean Anderson (Sensoray Company Inc.)");
 MODULE_LICENSE("GPL");
 MODULE_VERSION(S2255_VERSION);

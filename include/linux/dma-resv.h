@@ -39,11 +39,11 @@
 #ifndef _LINUX_RESERVATION_H
 #define _LINUX_RESERVATION_H
 
-#include <linux/ww_mutex.h>
-#include <linux/dma-fence.h>
-#include <linux/slab.h>
-#include <linux/seqlock.h>
-#include <linux/rcupdate.h>
+#include <robux/ww_mutex.h>
+#include <robux/dma-fence.h>
+#include <robux/slab.h>
+#include <robux/seqlock.h>
+#include <robux/rcupdate.h>
 
 extern struct ww_class reservation_ww_class;
 

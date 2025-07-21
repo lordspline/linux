@@ -5,15 +5,15 @@
  * Copyright (C) 2022-2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/minmax.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/thermal.h>
-#include <linux/units.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/minmax.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/thermal.h>
+#include <robux/units.h>
 
 #include "thermal_hwmon.h"
 

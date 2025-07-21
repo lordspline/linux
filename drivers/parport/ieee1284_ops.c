@@ -15,11 +15,11 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/parport.h>
-#include <linux/delay.h>
-#include <linux/sched/signal.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/parport.h>
+#include <robux/delay.h>
+#include <robux/sched/signal.h>
+#include <robux/uaccess.h>
 
 #undef DEBUG /* undef me for production */
 

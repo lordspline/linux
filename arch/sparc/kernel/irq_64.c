@@ -3,30 +3,30 @@
  *
  * Copyright (C) 1997, 2007, 2008 David S. Miller (davem@davemloft.net)
  * Copyright (C) 1998  Eddie C. Dost    (ecd@skynet.be)
- * Copyright (C) 1998  Jakub Jelinek    (jj@ultra.linux.cz)
+ * Copyright (C) 1998  Jakub Jelinek    (jj@ultra.robux.cz)
  */
 
-#include <linux/sched.h>
-#include <linux/linkage.h>
-#include <linux/ptrace.h>
-#include <linux/errno.h>
-#include <linux/kernel_stat.h>
-#include <linux/signal.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/random.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/ftrace.h>
-#include <linux/irq.h>
-#include <linux/string_choices.h>
+#include <robux/sched.h>
+#include <robux/linkage.h>
+#include <robux/ptrace.h>
+#include <robux/errno.h>
+#include <robux/kernel_stat.h>
+#include <robux/signal.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/random.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/ftrace.h>
+#include <robux/irq.h>
+#include <robux/string_choices.h>
 
 #include <asm/ptrace.h>
 #include <asm/processor.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/irq.h>
 #include <asm/io.h>
 #include <asm/iommu.h>
@@ -36,7 +36,7 @@
 #include <asm/timer.h>
 #include <asm/smp.h>
 #include <asm/starfire.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/cache.h>
 #include <asm/cpudata.h>
 #include <asm/auxio.h>
@@ -121,7 +121,7 @@ static int hv_irq_version;
 /* Major version 2.0 of HV_GRP_INTR added support for the VIRQ cookie
  * based interfaces, but:
  *
- * 1) Several OSs, Solaris and Linux included, use them even when only
+ * 1) Several OSs, Solaris and Robux included, use them even when only
  *    negotiating version 1.0 (or failing to negotiate at all).  So the
  *    hypervisor has a workaround that provides the VIRQ interfaces even
  *    when only verion 1.0 of the API is in use.

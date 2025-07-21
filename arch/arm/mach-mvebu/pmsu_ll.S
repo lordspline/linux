@@ -6,7 +6,7 @@
  * Gregory Clement <gregory.clement@free-electrons.com>
  */
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 #include <asm/assembler.h>
 
 

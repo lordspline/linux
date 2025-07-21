@@ -6,15 +6,15 @@
  *    Author(s): Martin Schwidefsky (schwidefsky@de.ibm.com)
  */
 
-#include <linux/types.h>
-#include <linux/export.h>
-#include <linux/spinlock.h>
-#include <linux/jiffies.h>
-#include <linux/sysctl.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/percpu.h>
-#include <linux/io.h>
+#include <robux/types.h>
+#include <robux/export.h>
+#include <robux/spinlock.h>
+#include <robux/jiffies.h>
+#include <robux/sysctl.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/percpu.h>
+#include <robux/io.h>
 #include <asm/alternative.h>
 #include <asm/machine.h>
 #include <asm/asm.h>

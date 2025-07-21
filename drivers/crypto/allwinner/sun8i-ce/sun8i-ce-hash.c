@@ -14,13 +14,13 @@
 #include <crypto/md5.h>
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>
-#include <linux/bottom_half.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/bottom_half.h>
+#include <robux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/pm_runtime.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 #include "sun8i-ce.h"
 
 static void sun8i_ce_hash_stat_fb_inc(struct crypto_ahash *tfm)

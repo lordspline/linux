@@ -6,14 +6,14 @@
  * Author: Boris BREZILLON <boris.brezillon@free-electrons.com>
  */
 
-#include <linux/clk.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/atmel-hlcdc.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/iopoll.h>
+#include <robux/mfd/atmel-hlcdc.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define ATMEL_HLCDC_REG_MAX		(0x4000 - 0x4)
 

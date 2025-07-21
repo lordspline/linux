@@ -7,14 +7,14 @@
  * Author: Alexander Shishkin
  */
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/chipidea.h>
-#include <linux/regulator/consumer.h>
-#include <linux/string_choices.h>
-#include <linux/pinctrl/consumer.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/chipidea.h>
+#include <robux/regulator/consumer.h>
+#include <robux/string_choices.h>
+#include <robux/pinctrl/consumer.h>
 
 #include "../host/ehci.h"
 

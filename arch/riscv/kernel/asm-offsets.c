@@ -4,11 +4,11 @@
  * Copyright (C) 2017 SiFive
  */
 
-#include <linux/kbuild.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/ftrace.h>
-#include <linux/suspend.h>
+#include <robux/kbuild.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/ftrace.h>
+#include <robux/suspend.h>
 #include <asm/kvm_host.h>
 #include <asm/thread_info.h>
 #include <asm/ptrace.h>

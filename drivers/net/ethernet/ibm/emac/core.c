@@ -19,32 +19,32 @@
  * 	Johnnie Peters <jpeters@mvista.com>
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/crc32.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/bitops.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/crc32.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/bitops.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_net.h>
+#include <robux/of_mdio.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include <asm/processor.h>
 #include <asm/io.h>
 #include <asm/dma.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/dcr.h>
 #include <asm/dcr-regs.h>
 

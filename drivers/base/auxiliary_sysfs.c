@@ -3,8 +3,8 @@
  * Copyright (c) 2024, NVIDIA CORPORATION & AFFILIATES
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/slab.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/slab.h>
 
 #define AUXILIARY_MAX_IRQ_NAME 11
 

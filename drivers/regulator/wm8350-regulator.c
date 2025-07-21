@@ -5,19 +5,19 @@
 // Copyright 2007, 2008 Wolfson Microelectronics PLC.
 //
 // Author: Liam Girdwood
-//         linux@wolfsonmicro.com
+//         robux@wolfsonmicro.com
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mfd/wm8350/core.h>
-#include <linux/mfd/wm8350/pmic.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/bitops.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/mfd/wm8350/core.h>
+#include <robux/mfd/wm8350/pmic.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
 
 /* Maximum value possible for VSEL */
 #define WM8350_DCDC_MAX_VSEL 0x66

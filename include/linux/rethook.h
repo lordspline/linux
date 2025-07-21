@@ -5,11 +5,11 @@
 #ifndef _LINUX_RETHOOK_H
 #define _LINUX_RETHOOK_H
 
-#include <linux/compiler.h>
-#include <linux/objpool.h>
-#include <linux/kallsyms.h>
-#include <linux/llist.h>
-#include <linux/rcupdate.h>
+#include <robux/compiler.h>
+#include <robux/objpool.h>
+#include <robux/kallsyms.h>
+#include <robux/llist.h>
+#include <robux/rcupdate.h>
 
 struct rethook_node;
 

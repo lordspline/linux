@@ -3,15 +3,15 @@
  * Copyright 2020-2021 NXP
  */
 
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/ioctl.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/types.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/ioctl.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/types.h>
 #include <media/v4l2-device.h>
 #include "vpu.h"
 #include "vpu_helpers.h"

@@ -13,11 +13,11 @@
  * Copyright (C) 2025 Renesas Electronics Corporation
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
 
 #include "stmmac_platform.h"
 

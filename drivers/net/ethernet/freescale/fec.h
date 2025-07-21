@@ -14,14 +14,14 @@
 #define	FEC_H
 /****************************************************************************/
 
-#include <linux/clocksource.h>
-#include <linux/net_tstamp.h>
-#include <linux/pm_qos.h>
-#include <linux/bpf.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/timecounter.h>
+#include <robux/clocksource.h>
+#include <robux/net_tstamp.h>
+#include <robux/pm_qos.h>
+#include <robux/bpf.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/timecounter.h>
 #include <dt-bindings/firmware/imx/rsrc.h>
-#include <linux/firmware/imx/sci.h>
+#include <robux/firmware/imx/sci.h>
 #include <net/xdp.h>
 
 #if defined(CONFIG_M523x) || defined(CONFIG_M527x) || defined(CONFIG_M528x) || \

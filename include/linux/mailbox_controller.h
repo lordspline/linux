@@ -3,11 +3,11 @@
 #ifndef __MAILBOX_CONTROLLER_H
 #define __MAILBOX_CONTROLLER_H
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/hrtimer.h>
-#include <linux/of.h>
-#include <linux/types.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/hrtimer.h>
+#include <robux/of.h>
+#include <robux/types.h>
 
 struct mbox_chan;
 

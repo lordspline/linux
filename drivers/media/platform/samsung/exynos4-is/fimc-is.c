@@ -9,24 +9,24 @@
  */
 #define pr_fmt(fmt) "%s:%d " fmt, __func__, __LINE__
 
-#include <linux/device.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/of_graph.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <robux/device.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/firmware.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/of_graph.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/videodev2.h>
 #include <media/videobuf2-dma-contig.h>
 
 #include "media-dev.h"

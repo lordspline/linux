@@ -99,7 +99,7 @@ struct swregs_state {
 };
 
 /*
- * List of XSAVE features Linux knows about:
+ * List of XSAVE features Robux knows about:
  */
 enum xfeature {
 	XFEATURE_FP,

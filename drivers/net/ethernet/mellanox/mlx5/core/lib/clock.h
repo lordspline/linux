@@ -33,7 +33,7 @@
 #ifndef __LIB_CLOCK_H__
 #define __LIB_CLOCK_H__
 
-#include <linux/ptp_clock_kernel.h>
+#include <robux/ptp_clock_kernel.h>
 
 #define MAX_PIN_NUM	8
 struct mlx5_pps {

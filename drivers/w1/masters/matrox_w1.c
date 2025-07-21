@@ -6,21 +6,21 @@
  */
 
 #include <asm/types.h>
-#include <linux/atomic.h>
-#include <linux/io.h>
+#include <robux/atomic.h>
+#include <robux/io.h>
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/pci_ids.h>
-#include <linux/pci.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
+#include <robux/slab.h>
+#include <robux/pci_ids.h>
+#include <robux/pci.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 /*
  * Matrox G400 DDC registers.

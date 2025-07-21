@@ -4,13 +4,13 @@
  * Author: Fabien Dessenne <fabien.dessenne@st.com> for STMicroelectronics.
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

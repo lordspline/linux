@@ -7,25 +7,25 @@
  * Copyright (C) 2010 Google, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/clk/tegra.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/of_fdt.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/serial_8250.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/usb/tegra_usb_phy.h>
+#include <robux/clk.h>
+#include <robux/clk/tegra.h>
+#include <robux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/of_address.h>
+#include <robux/of_fdt.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/serial_8250.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
+#include <robux/usb/tegra_usb_phy.h>
 
-#include <linux/firmware/trusted_foundations.h>
+#include <robux/firmware/trusted_foundations.h>
 
 #include <soc/tegra/fuse.h>
 #include <soc/tegra/pmc.h>

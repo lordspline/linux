@@ -6,7 +6,7 @@
  */
 #define COMPILE_OFFSETS
 
-#include <linux/kbuild.h>
+#include <robux/kbuild.h>
 #include "vmx/vmx.h"
 #include "svm/svm.h"
 

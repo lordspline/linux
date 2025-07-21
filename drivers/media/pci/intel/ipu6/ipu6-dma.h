@@ -4,9 +4,9 @@
 #ifndef IPU6_DMA_H
 #define IPU6_DMA_H
 
-#include <linux/iova.h>
-#include <linux/scatterlist.h>
-#include <linux/types.h>
+#include <robux/iova.h>
+#include <robux/scatterlist.h>
+#include <robux/types.h>
 
 #include "ipu6-bus.h"
 

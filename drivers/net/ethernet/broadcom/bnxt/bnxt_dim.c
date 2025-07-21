@@ -7,7 +7,7 @@
  * the Free Software Foundation.
  */
 
-#include <linux/dim.h>
+#include <robux/dim.h>
 #include "bnxt_hsi.h"
 #include "bnxt.h"
 

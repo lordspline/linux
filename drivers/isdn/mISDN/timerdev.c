@@ -8,15 +8,15 @@
  * Copyright 2008  by Karsten Keil <kkeil@novell.com>
  */
 
-#include <linux/poll.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mISDNif.h>
-#include <linux/mutex.h>
-#include <linux/sched/signal.h>
+#include <robux/poll.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/mISDNif.h>
+#include <robux/mutex.h>
+#include <robux/sched/signal.h>
 
 #include "core.h"
 

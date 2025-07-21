@@ -12,21 +12,21 @@
 **
 */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/console.h>
-#include <linux/delay.h> /* for udelay */
-#include <linux/device.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/serial.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/console.h>
+#include <robux/delay.h> /* for udelay */
+#include <robux/device.h>
+#include <robux/io.h>
 #include <asm/irq.h>
 #include <asm/parisc-device.h>
 
-#include <linux/sysrq.h>
-#include <linux/serial_core.h>
+#include <robux/sysrq.h>
+#include <robux/serial_core.h>
 
 #define MUX_OFFSET 0x800
 #define MUX_LINE_OFFSET 0x80

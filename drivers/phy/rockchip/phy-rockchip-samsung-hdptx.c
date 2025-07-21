@@ -6,20 +6,20 @@
  * Author: Algea Cao <algea.cao@rock-chips.com>
  * Author: Cristian Ciocaltea <cristian.ciocaltea@collabora.com>
  */
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/rational.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/rational.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 
 #define GRF_HDPTX_CON0			0x00
 #define HDPTX_I_PLL_EN			BIT(7)

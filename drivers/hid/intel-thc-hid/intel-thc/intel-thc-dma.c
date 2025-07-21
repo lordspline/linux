@@ -1,11 +1,11 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /* Copyright (c) 2024 Intel Corporation */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/overflow.h>
-#include <linux/regmap.h>
-#include <linux/scatterlist.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/overflow.h>
+#include <robux/regmap.h>
+#include <robux/scatterlist.h>
 
 #include "intel-thc-dev.h"
 #include "intel-thc-dma.h"

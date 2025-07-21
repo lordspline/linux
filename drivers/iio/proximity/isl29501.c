@@ -8,17 +8,17 @@
  * 7-bit I2C slave address: 0x57
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/mod_devicetable.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
+#include <robux/mod_devicetable.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/triggered_buffer.h>
 
 /* Control, setting and status registers */
 #define ISL29501_DEVICE_ID			0x00

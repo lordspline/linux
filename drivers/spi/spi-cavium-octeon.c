@@ -6,11 +6,11 @@
  * Copyright (C) 2011, 2012 Cavium, Inc.
  */
 
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <robux/platform_device.h>
+#include <robux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/of.h>
 
 #include <asm/octeon/octeon.h>
 

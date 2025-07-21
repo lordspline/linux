@@ -7,15 +7,15 @@
  * Contact: Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
 
 #include "clk-div6.h"
 

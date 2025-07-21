@@ -46,13 +46,13 @@
 #ifndef __PVRDMA_H__
 #define __PVRDMA_H__
 
-#include <linux/compiler.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/semaphore.h>
-#include <linux/workqueue.h>
+#include <robux/compiler.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/semaphore.h>
+#include <robux/workqueue.h>
 #include <rdma/ib_umem.h>
 #include <rdma/ib_verbs.h>
 #include <rdma/vmw_pvrdma-abi.h>

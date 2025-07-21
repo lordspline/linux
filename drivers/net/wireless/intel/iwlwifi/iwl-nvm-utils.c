@@ -3,9 +3,9 @@
  * Copyright (C) 2005-2014, 2018-2021, 2023, 2025 Intel Corporation
  * Copyright (C) 2015 Intel Mobile Communications GmbH
  */
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/export.h>
 #include "iwl-drv.h"
 #include "iwl-modparams.h"
 #include "iwl-nvm-utils.h"

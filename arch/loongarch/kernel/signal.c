@@ -10,25 +10,25 @@
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  * Copyright (C) 2014, Imagination Technologies Ltd.
  */
-#include <linux/audit.h>
-#include <linux/cache.h>
-#include <linux/context_tracking.h>
-#include <linux/entry-common.h>
-#include <linux/irqflags.h>
-#include <linux/rseq.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/personality.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/ptrace.h>
-#include <linux/unistd.h>
-#include <linux/compiler.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
+#include <robux/audit.h>
+#include <robux/cache.h>
+#include <robux/context_tracking.h>
+#include <robux/entry-common.h>
+#include <robux/irqflags.h>
+#include <robux/rseq.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/personality.h>
+#include <robux/smp.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/errno.h>
+#include <robux/wait.h>
+#include <robux/ptrace.h>
+#include <robux/unistd.h>
+#include <robux/compiler.h>
+#include <robux/syscalls.h>
+#include <robux/uaccess.h>
 
 #include <asm/asm.h>
 #include <asm/cacheflush.h>

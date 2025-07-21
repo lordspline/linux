@@ -5,12 +5,12 @@
  * Copyright (C) 2014 Renesas Electronics Corporation
  */
 
-#include <linux/firmware.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/usb/phy.h>
+#include <robux/firmware.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/usb/phy.h>
 
 #include "xhci.h"
 #include "xhci-plat.h"

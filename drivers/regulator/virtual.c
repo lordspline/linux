@@ -7,13 +7,13 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 struct virtual_consumer_data {
 	struct mutex lock;

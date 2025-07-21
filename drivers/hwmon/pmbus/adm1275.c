@@ -7,15 +7,15 @@
  * Copyright (c) 2018 Guenter Roeck
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
-#include <linux/log2.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/bitops.h>
+#include <robux/bitfield.h>
+#include <robux/log2.h>
 #include "pmbus.h"
 
 enum chips { adm1075, adm1272, adm1273, adm1275, adm1276, adm1278, adm1281, adm1293, adm1294 };

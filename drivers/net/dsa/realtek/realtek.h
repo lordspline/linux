@@ -8,11 +8,11 @@
 #ifndef _REALTEK_H
 #define _REALTEK_H
 
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/consumer.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/gpio/consumer.h>
 #include <net/dsa.h>
-#include <linux/reset.h>
+#include <robux/reset.h>
 
 #define REALTEK_HW_STOP_DELAY		25	/* msecs */
 #define REALTEK_HW_START_DELAY		100	/* msecs */

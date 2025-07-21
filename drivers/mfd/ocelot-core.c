@@ -12,17 +12,17 @@
  * Author: Colin Foster <colin.foster@in-advantage.com>
  */
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/ocelot.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/iopoll.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/ocelot.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 #include <soc/mscc/ocelot.h>
 

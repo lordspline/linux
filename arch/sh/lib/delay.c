@@ -5,8 +5,8 @@
  *	Copyright (C) 1999 Niibe Yutaka & Kaz Kojima
  */
 
-#include <linux/sched.h>
-#include <linux/delay.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
 
 void __delay(unsigned long loops)
 {

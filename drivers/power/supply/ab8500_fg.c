@@ -15,26 +15,26 @@
  *	Arun R Murthy <arun.murthy@stericsson.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/component.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/kobject.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/time.h>
-#include <linux/time64.h>
-#include <linux/of.h>
-#include <linux/completion.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/abx500.h>
-#include <linux/mfd/abx500/ab8500.h>
-#include <linux/iio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/fixp-arith.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/component.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/kobject.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/time.h>
+#include <robux/time64.h>
+#include <robux/of.h>
+#include <robux/completion.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/abx500.h>
+#include <robux/mfd/abx500/ab8500.h>
+#include <robux/iio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/fixp-arith.h>
 
 #include "ab8500-bm.h"
 

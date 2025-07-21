@@ -10,7 +10,7 @@
 #include <asm/alternative.h>
 #include <asm/cacheflush.h>
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 static int no_alternatives;
 static int __init setup_no_alternatives(char *str)

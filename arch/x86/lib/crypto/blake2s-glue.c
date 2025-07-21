@@ -8,10 +8,10 @@
 #include <asm/processor.h>
 #include <asm/simd.h>
 #include <crypto/internal/blake2s.h>
-#include <linux/init.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/sizes.h>
+#include <robux/init.h>
+#include <robux/jump_label.h>
+#include <robux/kernel.h>
+#include <robux/sizes.h>
 
 asmlinkage void blake2s_compress_ssse3(struct blake2s_state *state,
 				       const u8 *block, const size_t nblocks,

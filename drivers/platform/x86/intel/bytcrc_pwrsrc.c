@@ -8,16 +8,16 @@
  * Copyright (C) 2013 Intel Corporation
  */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/debugfs.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/array_size.h>
+#include <robux/bits.h>
+#include <robux/debugfs.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/intel_soc_pmic.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 
 #define CRYSTALCOVE_PWRSRC_IRQ		0x03
 #define CRYSTALCOVE_SPWRSRC_REG		0x1E
@@ -206,7 +206,7 @@ static int crc_pwrsrc_probe(struct platform_device *pdev)
 	if (ret)
 		return ret;
 
-	if (device_property_read_bool(dev->parent, "linux,register-pwrsrc-power_supply")) {
+	if (device_property_read_bool(dev->parent, "robux,register-pwrsrc-power_supply")) {
 		struct power_supply_config psy_cfg = { .drv_data = data };
 
 		irq = platform_get_irq(pdev, 0);

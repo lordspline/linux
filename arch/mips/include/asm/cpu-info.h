@@ -12,8 +12,8 @@
 #ifndef __ASM_CPU_INFO_H
 #define __ASM_CPU_INFO_H
 
-#include <linux/cache.h>
-#include <linux/types.h>
+#include <robux/cache.h>
+#include <robux/types.h>
 
 #include <asm/mipsregs.h>
 

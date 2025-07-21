@@ -5,19 +5,19 @@
  *  Copyright (C) 2016 Bluecherry, LLC <maintainers@bluecherrydvr.com>
  */
 
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/kmod.h>
-#include <linux/sound.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm.h>
-#include <linux/pci_ids.h>
-#include <linux/jiffies.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/kmod.h>
+#include <robux/sound.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/pm.h>
+#include <robux/pci_ids.h>
+#include <robux/jiffies.h>
 #include <asm/dma.h>
 #include <media/v4l2-dev.h>
 

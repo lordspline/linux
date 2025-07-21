@@ -12,20 +12,20 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/dma-mapping.h>
-#include <linux/ethtool.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/crc32.h>
-#include <linux/crc32c.h>
-#include <linux/circ_buf.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/dma-mapping.h>
+#include <robux/ethtool.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/crc32.h>
+#include <robux/crc32c.h>
+#include <robux/circ_buf.h>
 
 #include "moxart_ether.h"
 

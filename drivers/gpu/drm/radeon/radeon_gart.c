@@ -26,8 +26,8 @@
  *          Jerome Glisse
  */
 
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
+#include <robux/pci.h>
+#include <robux/vmalloc.h>
 
 #include <drm/radeon_drm.h>
 #ifdef CONFIG_X86

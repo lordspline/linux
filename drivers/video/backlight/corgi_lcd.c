@@ -11,16 +11,16 @@
  *	by Eric Miao <eric.miao@marvell.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/lcd.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/corgi_lcd.h>
-#include <linux/slab.h>
+#include <robux/backlight.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/lcd.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/corgi_lcd.h>
+#include <robux/slab.h>
 #include <asm/mach/sharpsl_param.h>
 
 #define POWER_IS_ON(pwr)	((pwr) <= LCD_POWER_REDUCED)

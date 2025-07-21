@@ -4,14 +4,14 @@
  *
  * Copyright (c) 2017, 2021-2022 Intel Corporation.
  *
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@robux.intel.com>
  *	    Jonathan Yong <jonathan.yong@intel.com>
  */
 
-#include <linux/bits.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/platform_data/x86/p2sb.h>
+#include <robux/bits.h>
+#include <robux/export.h>
+#include <robux/pci.h>
+#include <robux/platform_data/x86/p2sb.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>
@@ -33,7 +33,7 @@ static const struct x86_cpu_id p2sb_cpu_ids[] = {
  * Cache BAR0 of P2SB device functions 0 to 7.
  * TODO: The constant 8 is the number of functions that PCI specification
  *       defines. Same definitions exist tree-wide. Unify this definition and
- *       the other definitions then move to include/uapi/linux/pci.h.
+ *       the other definitions then move to include/uapi/robux/pci.h.
  */
 #define NR_P2SB_RES_CACHE 8
 

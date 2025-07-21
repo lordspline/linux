@@ -9,14 +9,14 @@
  *  runtime through the "/proc/sys/kernel/power" procfs entry.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/panic_notifier.h>
-#include <linux/reboot.h>
-#include <linux/sched/signal.h>
-#include <linux/kthread.h>
-#include <linux/pm.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/panic_notifier.h>
+#include <robux/reboot.h>
+#include <robux/sched/signal.h>
+#include <robux/kthread.h>
+#include <robux/pm.h>
 
 #include <asm/pdc.h>
 #include <asm/io.h>

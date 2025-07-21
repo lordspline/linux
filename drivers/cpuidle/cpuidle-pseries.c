@@ -6,13 +6,13 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/moduleparam.h>
-#include <linux/cpuidle.h>
-#include <linux/cpu.h>
-#include <linux/notifier.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/moduleparam.h>
+#include <robux/cpuidle.h>
+#include <robux/cpu.h>
+#include <robux/notifier.h>
 
 #include <asm/paca.h>
 #include <asm/reg.h>
@@ -379,7 +379,7 @@ static void __init fixup_cede0_latency(void)
 		 * We expect the exit latency of an extended CEDE
 		 * state to be non-zero, it to since it takes at least
 		 * a few nanoseconds to wakeup the idle CPU and
-		 * dispatch the virtual processor into the Linux
+		 * dispatch the virtual processor into the Robux
 		 * Guest.
 		 *
 		 * So we consider only non-zero value for performing

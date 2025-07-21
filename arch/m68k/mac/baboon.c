@@ -7,9 +7,9 @@
  * Nubus slot $C interrupt.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/irq.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/irq.h>
 
 #include <asm/macintosh.h>
 #include <asm/macints.h>

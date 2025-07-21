@@ -5,18 +5,18 @@
  * Copyright (C) 2018 Joel Fernandes (Google) <joel@joelfernandes.org>
  */
 
-#include <linux/trace_clock.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/kobject.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/completion.h>
+#include <robux/trace_clock.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/kobject.h>
+#include <robux/kthread.h>
+#include <robux/module.h>
+#include <robux/printk.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
+#include <robux/completion.h>
 
 static ulong delay = 100;
 static char test_mode[12] = "irq";

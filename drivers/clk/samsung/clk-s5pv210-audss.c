@@ -10,14 +10,14 @@
  * Driver for Audio Subsystem Clock Controller of S5PV210-compatible SoCs.
  */
 
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_address.h>
-#include <linux/syscore_ops.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of_address.h>
+#include <robux/syscore_ops.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
 
 #include <dt-bindings/clock/s5pv210-audss.h>
 

@@ -175,7 +175,7 @@ only add a symbolic link from ``/sbin/init`` to ``/bin/sh``. Alternatively, you
 can try the experimental newlib environment [#f2]_ to create a small
 initrd.
 
-Finally, you have to boot the kernel and load initrd. Almost all Linux
+Finally, you have to boot the kernel and load initrd. Almost all Robux
 boot loaders support initrd. Since the boot process is still compatible
 with an older mechanism, the following boot command line parameters
 have to be given::
@@ -190,7 +190,7 @@ With LOADLIN, you simply execute::
 
 e.g.::
 
-	LOADLIN C:\LINUX\BZIMAGE initrd=C:\LINUX\INITRD.GZ root=/dev/ram0 rw
+	LOADLIN C:\ROBUX\BZIMAGE initrd=C:\ROBUX\INITRD.GZ root=/dev/ram0 rw
 
 With LILO, you add the option ``INITRD=<path>`` to either the global section
 or to the section of the respective kernel in ``/etc/lilo.conf``, and pass
@@ -211,7 +211,7 @@ Changing the root device
 ------------------------
 
 When finished with its duties, init typically changes the root device
-and proceeds with starting the Linux system on the "real" root device.
+and proceeds with starting the Robux system on the "real" root device.
 
 The procedure involves the following steps:
  - mounting the new root file system
@@ -227,7 +227,7 @@ a directory under the current root. Example::
 
 The root change is accomplished with the pivot_root system call, which
 is also available via the ``pivot_root`` utility (see :manpage:`pivot_root(8)`
-man page; ``pivot_root`` is distributed with util-linux version 2.10h or higher
+man page; ``pivot_root`` is distributed with util-robux version 2.10h or higher
 [#f3]_). ``pivot_root`` moves the current root to a directory under the new
 root, and puts the new root at its place. The directory for the old root
 must exist before calling ``pivot_root``. Example::
@@ -301,7 +301,7 @@ The key role of initrd here is to re-use the configuration data during
 normal system operation without requiring the use of a bloated "generic"
 kernel or re-compiling or re-linking the kernel.
 
-A second scenario is for installations where Linux runs on systems with
+A second scenario is for installations where Robux runs on systems with
 different hardware configurations in a single administrative domain. In
 such cases, it is desirable to generate only a small set of kernels
 (ideally only one) and to keep the system-specific part of configuration
@@ -375,9 +375,9 @@ the cmdline) before the final execution of the real ``/sbin/init``.
 Resources
 ---------
 
-.. [#f1] Almesberger, Werner; "Booting Linux: The History and the Future"
+.. [#f1] Almesberger, Werner; "Booting Robux: The History and the Future"
     https://www.almesberger.net/cv/papers/ols2k-9.ps.gz
 .. [#f2] newlib package (experimental), with initrd example
     https://www.sourceware.org/newlib/
-.. [#f3] util-linux: Miscellaneous utilities for Linux
-    https://www.kernel.org/pub/linux/utils/util-linux/
+.. [#f3] util-robux: Miscellaneous utilities for Robux
+    https://www.kernel.org/pub/robux/utils/util-robux/

@@ -6,16 +6,16 @@
 #ifndef _MSHV_ROOT_H_
 #define _MSHV_ROOT_H_
 
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/semaphore.h>
-#include <linux/sched.h>
-#include <linux/srcu.h>
-#include <linux/wait.h>
-#include <linux/hashtable.h>
-#include <linux/dev_printk.h>
-#include <linux/build_bug.h>
-#include <uapi/linux/mshv.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/semaphore.h>
+#include <robux/sched.h>
+#include <robux/srcu.h>
+#include <robux/wait.h>
+#include <robux/hashtable.h>
+#include <robux/dev_printk.h>
+#include <robux/build_bug.h>
+#include <uapi/robux/mshv.h>
 
 /*
  * Hypervisor must be between these version numbers (inclusive)

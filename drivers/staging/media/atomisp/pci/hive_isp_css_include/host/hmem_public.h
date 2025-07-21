@@ -7,7 +7,7 @@
 #ifndef __HMEM_PUBLIC_H_INCLUDED__
 #define __HMEM_PUBLIC_H_INCLUDED__
 
-#include <linux/types.h>		/* size_t */
+#include <robux/types.h>		/* size_t */
 
 /*! Return the size of HMEM[ID]
 

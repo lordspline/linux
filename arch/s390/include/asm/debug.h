@@ -7,13 +7,13 @@
 #ifndef _ASM_S390_DEBUG_H
 #define _ASM_S390_DEBUG_H
 
-#include <linux/string.h>
-#include <linux/spinlock.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/refcount.h>
-#include <linux/fs.h>
-#include <linux/init.h>
+#include <robux/string.h>
+#include <robux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/time.h>
+#include <robux/refcount.h>
+#include <robux/fs.h>
+#include <robux/init.h>
 
 #define DEBUG_MAX_LEVEL		   6  /* debug levels range from 0 to 6 */
 #define DEBUG_OFF_LEVEL		   -1 /* level where debug is switched off */

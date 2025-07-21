@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/lib/uaccess_with_memcpy.c
+ *  robux/arch/arm/lib/uaccess_with_memcpy.c
  *
  *  Written by: Lennert Buytenhek and Nicolas Pitre
  *  Copyright (C) 2009 Marvell Semiconductor
  */
 
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/uaccess.h>
-#include <linux/rwsem.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/hardirq.h> /* for in_atomic() */
-#include <linux/gfp.h>
-#include <linux/highmem.h>
-#include <linux/hugetlb.h>
+#include <robux/kernel.h>
+#include <robux/ctype.h>
+#include <robux/uaccess.h>
+#include <robux/rwsem.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/hardirq.h> /* for in_atomic() */
+#include <robux/gfp.h>
+#include <robux/highmem.h>
+#include <robux/hugetlb.h>
 #include <asm/current.h>
 #include <asm/page.h>
 
@@ -223,7 +223,7 @@ unsigned long arm_clear_user(void __user *addr, unsigned long n)
  * for results to make some sense.
  */
 
-#include <linux/vmalloc.h>
+#include <robux/vmalloc.h>
 
 static int __init test_size_treshold(void)
 {

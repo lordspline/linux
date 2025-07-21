@@ -4,15 +4,15 @@
  * Copyright (C) 2025 Yixun Lan <dlan@gentoo.org>
  */
 
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
+#include <robux/clk.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
 
 /* register offset */
 #define SPACEMIT_GPLR		0x00 /* port level - R */

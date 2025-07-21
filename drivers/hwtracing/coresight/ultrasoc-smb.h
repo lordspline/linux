@@ -7,8 +7,8 @@
 #ifndef _ULTRASOC_SMB_H
 #define _ULTRASOC_SMB_H
 
-#include <linux/miscdevice.h>
-#include <linux/spinlock.h>
+#include <robux/miscdevice.h>
+#include <robux/spinlock.h>
 
 /* Offset of SMB global registers */
 #define SMB_GLB_CFG_REG		0x00

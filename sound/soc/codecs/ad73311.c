@@ -6,11 +6,11 @@
  * Author:	Cliff Cai <cliff.cai@analog.com>
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/ac97_codec.h>

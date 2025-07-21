@@ -7,15 +7,15 @@
  * Author: Benjamin Gaignard <benjamin.gaignard@st.com>
  *
  */
-#include <linux/counter.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/stm32-timers.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/counter.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/stm32-timers.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
 #define TIM_CCMR_CCXS	(BIT(8) | BIT(0))
 #define TIM_CCMR_MASK	(TIM_CCMR_CC1S | TIM_CCMR_CC2S | \

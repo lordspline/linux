@@ -7,19 +7,19 @@
  * Copyright (c) 2010-2010 Analog Devices Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/spi/spi.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/spi/spi.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #define DRV_NAME "ad2s1200"
 

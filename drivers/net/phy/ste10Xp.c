@@ -9,16 +9,16 @@
  * Copyright (c) 2008 STMicroelectronics Limited
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/moduleparam.h>
+#include <robux/interrupt.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/phy.h>
 
 #define MII_XCIIS	0x11	/* Configuration Info IRQ & Status Reg */
 #define MII_XIE		0x12	/* Interrupt Enable Register */

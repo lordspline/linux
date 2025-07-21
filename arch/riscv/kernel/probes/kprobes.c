@@ -2,13 +2,13 @@
 
 #define pr_fmt(fmt) "kprobes: " fmt
 
-#include <linux/kprobes.h>
-#include <linux/extable.h>
-#include <linux/slab.h>
-#include <linux/stop_machine.h>
-#include <linux/vmalloc.h>
+#include <robux/kprobes.h>
+#include <robux/extable.h>
+#include <robux/slab.h>
+#include <robux/stop_machine.h>
+#include <robux/vmalloc.h>
 #include <asm/ptrace.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/sections.h>
 #include <asm/cacheflush.h>
 #include <asm/bug.h>

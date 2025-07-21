@@ -6,17 +6,17 @@
  * (C) Copyright TOSHIBA CORPORATION 2004-2007
  * All Rights Reserved.
  */
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/io.h>
-#include <linux/platform_data/txx9/ndfmc.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
+#include <robux/io.h>
+#include <robux/platform_data/txx9/ndfmc.h>
 
 /* TXX9 NDFMC Registers */
 #define TXX9_NDFDTR	0x00

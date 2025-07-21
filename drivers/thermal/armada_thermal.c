@@ -4,20 +4,20 @@
  *
  * Copyright (C) 2013 Marvell
  */
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/of_device.h>
-#include <linux/thermal.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/interrupt.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/of_device.h>
+#include <robux/thermal.h>
+#include <robux/iopoll.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/interrupt.h>
 
 /* Thermal Manager Control and Status Register */
 #define PMU_TDC0_SW_RST_MASK		(0x1 << 1)

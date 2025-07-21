@@ -6,13 +6,13 @@
 //
 // Author: Shenghao Ding <shenghao-ding@ti.com>
 
-#include <linux/component.h>
-#include <linux/crc8.h>
-#include <linux/crc32.h>
-#include <linux/efi.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/pm_runtime.h>
+#include <robux/component.h>
+#include <robux/crc8.h>
+#include <robux/crc32.h>
+#include <robux/efi.h>
+#include <robux/firmware.h>
+#include <robux/i2c.h>
+#include <robux/pm_runtime.h>
 #include <sound/soc.h>
 #include <sound/tas2781.h>
 

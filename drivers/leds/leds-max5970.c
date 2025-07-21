@@ -7,16 +7,16 @@
  * Author: Patrick Rudolph <patrick.rudolph@9elements.com>
  */
 
-#include <linux/bits.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/leds.h>
-#include <linux/mfd/max5970.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/bits.h>
+#include <robux/container_of.h>
+#include <robux/device.h>
+#include <robux/leds.h>
+#include <robux/mfd/max5970.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 
 #define ldev_to_maxled(c)       container_of(c, struct max5970_led, cdev)
 

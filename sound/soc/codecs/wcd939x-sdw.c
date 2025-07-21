@@ -3,20 +3,20 @@
  * Copyright (c) 2023, Linaro Limited
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/component.h>
-#include <linux/pm_runtime.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/component.h>
+#include <robux/pm_runtime.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/soundwire/sdw_type.h>
+#include <robux/soundwire/sdw_registers.h>
+#include <robux/regmap.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
 #include "wcd939x.h"

@@ -6,20 +6,20 @@
  */
 #define pr_fmt(fmt) "PCI: " fmt
 
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/async.h>
-#include <linux/delay.h>
-#include <linux/dma-map-ops.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/sh_clk.h>
-#include <linux/sh_intc.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/async.h>
+#include <robux/delay.h>
+#include <robux/dma-map-ops.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/sh_clk.h>
+#include <robux/sh_intc.h>
 #include <cpu/sh7786.h>
 #include "pcie-sh7786.h"
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 
 struct sh7786_pcie_port {
 	struct pci_channel	*hose;

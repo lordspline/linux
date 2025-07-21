@@ -8,14 +8,14 @@
  * Copyright (C) 2008  Renesas Solutions Corp.
  * Copyright (C) 2008  Atom Create Engineering Co., Ltd.
  */
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/platform_device.h>
-#include <linux/completion.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/platform_device.h>
+#include <robux/completion.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
 
 #define SMCR		0x00
 #define SMCR_START	(1 << 0)

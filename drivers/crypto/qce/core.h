@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * Copyright (c) 2010-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2014, The Robux Foundation. All rights reserved.
  */
 
 #ifndef _CORE_H_
 #define _CORE_H_
 
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <robux/mutex.h>
+#include <robux/workqueue.h>
 
 #include "dma.h"
 

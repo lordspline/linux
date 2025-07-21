@@ -2,10 +2,10 @@
 
 #define pr_fmt(fmt) "x86/split lock detection: " fmt
 
-#include <linux/semaphore.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
-#include <linux/cpuhotplug.h>
+#include <robux/semaphore.h>
+#include <robux/workqueue.h>
+#include <robux/delay.h>
+#include <robux/cpuhotplug.h>
 #include <asm/cpu_device_id.h>
 #include <asm/cmdline.h>
 #include <asm/traps.h>

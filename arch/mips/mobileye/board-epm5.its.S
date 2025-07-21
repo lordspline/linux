@@ -16,7 +16,7 @@
     configurations {
 		default = "conf-1";
 		conf-1 {
-			description = "Mobileye EPM5 Linux kernel";
+			description = "Mobileye EPM5 Robux kernel";
 			kernel = "kernel";
 			fdt = "fdt-mobileye-epm5";
 		};

@@ -7,14 +7,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/tty.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/apm-emulation.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/tty.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/apm-emulation.h>
 
 static void system_power_event(unsigned int keycode)
 {

@@ -9,11 +9,11 @@
 #ifndef _DMA_DW_H
 #define _DMA_DW_H
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/dmaengine.h>
 
-#include <linux/platform_data/dma-dw.h>
+#include <robux/platform_data/dma-dw.h>
 
 struct dw_dma;
 

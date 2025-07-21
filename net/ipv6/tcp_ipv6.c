@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	TCP over IPv6
- *	Linux INET6 implementation
+ *	Robux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
  *
  *	Based on:
- *	linux/net/ipv4/tcp.c
- *	linux/net/ipv4/tcp_input.c
- *	linux/net/ipv4/tcp_output.c
+ *	robux/net/ipv4/tcp.c
+ *	robux/net/ipv4/tcp_input.c
+ *	robux/net/ipv4/tcp_output.c
  *
  *	Fixes:
  *	Hideaki YOSHIFUJI	:	sin6_scope_id support
@@ -19,27 +19,27 @@
  *	YOSHIFUJI Hideaki @USAGI:	convert /proc/net/tcp6 to seq_file.
  */
 
-#include <linux/bottom_half.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/jiffies.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/netdevice.h>
-#include <linux/init.h>
-#include <linux/jhash.h>
-#include <linux/ipsec.h>
-#include <linux/times.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/ipv6.h>
-#include <linux/icmpv6.h>
-#include <linux/random.h>
-#include <linux/indirect_call_wrapper.h>
+#include <robux/bottom_half.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/socket.h>
+#include <robux/sockios.h>
+#include <robux/net.h>
+#include <robux/jiffies.h>
+#include <robux/in.h>
+#include <robux/in6.h>
+#include <robux/netdevice.h>
+#include <robux/init.h>
+#include <robux/jhash.h>
+#include <robux/ipsec.h>
+#include <robux/times.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/ipv6.h>
+#include <robux/icmpv6.h>
+#include <robux/random.h>
+#include <robux/indirect_call_wrapper.h>
 
 #include <net/tcp.h>
 #include <net/ndisc.h>
@@ -62,11 +62,11 @@
 #include <net/busy_poll.h>
 #include <net/rstreason.h>
 
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
 
 #include <crypto/hash.h>
-#include <linux/scatterlist.h>
+#include <robux/scatterlist.h>
 
 #include <trace/events/tcp.h>
 
@@ -457,7 +457,7 @@ static int tcp_v6_err(struct sk_buff *skb, struct inet6_skb_parm *opt,
 		u32 mtu = ntohl(info);
 
 		/* We are not interested in TCP_LISTEN and open_requests
-		 * (SYN-ACKs send out by Linux are always <576bytes so
+		 * (SYN-ACKs send out by Robux are always <576bytes so
 		 * they should go through unfragmented).
 		 */
 		if (sk->sk_state == TCP_LISTEN)

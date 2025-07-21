@@ -2,7 +2,7 @@
 #ifndef _ALPHA_PAGE_H
 #define _ALPHA_PAGE_H
 
-#include <linux/const.h>
+#include <robux/const.h>
 #include <asm/pal.h>
 #include <vdso/page.h>
 

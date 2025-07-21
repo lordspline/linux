@@ -8,11 +8,11 @@
  * (c) 2002 Wolfgang Scherr <scherr@net4you.at>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/slab.h>
 
 #include "videocodec.h"
 

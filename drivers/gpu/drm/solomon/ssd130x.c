@@ -9,14 +9,14 @@
  * Copyright 2012 Free Electrons
  */
 
-#include <linux/backlight.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/regulator/consumer.h>
+#include <robux/backlight.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/property.h>
+#include <robux/pwm.h>
+#include <robux/regulator/consumer.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

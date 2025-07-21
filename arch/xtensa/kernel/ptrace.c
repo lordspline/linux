@@ -12,21 +12,21 @@
  * Marc Gauthier<marc@tensilica.com> <marc@alumni.uwaterloo.ca>
  */
 
-#include <linux/audit.h>
-#include <linux/errno.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/perf_event.h>
-#include <linux/ptrace.h>
-#include <linux/regset.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/seccomp.h>
-#include <linux/security.h>
-#include <linux/signal.h>
-#include <linux/smp.h>
-#include <linux/uaccess.h>
+#include <robux/audit.h>
+#include <robux/errno.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/perf_event.h>
+#include <robux/ptrace.h>
+#include <robux/regset.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/seccomp.h>
+#include <robux/security.h>
+#include <robux/signal.h>
+#include <robux/smp.h>
+#include <robux/uaccess.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/syscalls.h>

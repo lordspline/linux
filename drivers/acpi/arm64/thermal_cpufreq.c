@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/acpi.h>
-#include <linux/export.h>
+#include <robux/acpi.h>
+#include <robux/export.h>
 
 #include "../internal.h"
 

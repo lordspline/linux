@@ -167,8 +167,8 @@
 		key-volume-up {
 			label = "Volume Up";
 			gpios = <&pm7325_gpios 6 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
-			linux,can-disable;
+			robux,code = <KEY_VOLUMEUP>;
+			robux,can-disable;
 		};
 	};
 
@@ -890,7 +890,7 @@
 		color = <LED_COLOR_ID_GREEN>;
 		function = LED_FUNCTION_INDICATOR;
 		function-enumerator = <3>;
-		linux,default-trigger = "none";
+		robux,default-trigger = "none";
 		default-state = "off";
 		panic-indicator;
 	};
@@ -900,7 +900,7 @@
 		color = <LED_COLOR_ID_GREEN>;
 		function = LED_FUNCTION_INDICATOR;
 		function-enumerator = <2>;
-		linux,default-trigger = "none";
+		robux,default-trigger = "none";
 		default-state = "off";
 	};
 
@@ -909,7 +909,7 @@
 		color = <LED_COLOR_ID_GREEN>;
 		function = LED_FUNCTION_INDICATOR;
 		function-enumerator = <1>;
-		linux,default-trigger = "none";
+		robux,default-trigger = "none";
 		default-state = "off";
 	};
 };
@@ -961,7 +961,7 @@
 };
 
 &pon_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	robux,code = <KEY_VOLUMEDOWN>;
 
 	status = "okay";
 };

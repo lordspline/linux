@@ -4,11 +4,11 @@
  * Author: Hongzhou.Yang <hongzhou.yang@mediatek.com>
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/regmap.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/regmap.h>
 #include <dt-bindings/pinctrl/mt65xx.h>
 
 #include "pinctrl-mtk-common.h"

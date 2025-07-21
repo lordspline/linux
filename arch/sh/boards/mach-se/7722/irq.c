@@ -8,13 +8,13 @@
 #define DRV_NAME "SE7722-FPGA"
 #define pr_fmt(fmt) DRV_NAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/sizes.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/sizes.h>
 #include <mach-se/mach/se7722.h>
 
 #define IRQ01_BASE_ADDR	0x11800000

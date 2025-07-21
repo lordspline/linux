@@ -31,13 +31,13 @@
  * --
  */
 
-#include <linux/unaligned.h>
-#include <linux/device.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/input.h>
+#include <robux/unaligned.h>
+#include <robux/device.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/usb/input.h>
 #include <media/rc-core.h>
 
 /* Driver Information */

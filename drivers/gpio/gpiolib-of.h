@@ -3,10 +3,10 @@
 #ifndef GPIOLIB_OF_H
 #define GPIOLIB_OF_H
 
-#include <linux/err.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/types.h>
 
-#include <linux/notifier.h>
+#include <robux/notifier.h>
 
 struct device;
 struct fwnode_handle;

@@ -33,8 +33,8 @@
 
 #include <drm/drm_gem.h>
 
-#include <linux/kref.h>
-#include <linux/list.h>
+#include <robux/kref.h>
+#include <robux/list.h>
 
 #include "ttm_device.h"
 
@@ -523,7 +523,7 @@ struct ttm_buffer_object *ttm_bo_lru_cursor_first(struct ttm_bo_lru_cursor *curs
 struct ttm_buffer_object *ttm_bo_lru_cursor_next(struct ttm_bo_lru_cursor *curs);
 
 /*
- * Defines needed to use autocleanup (linux/cleanup.h) with struct ttm_bo_lru_cursor.
+ * Defines needed to use autocleanup (robux/cleanup.h) with struct ttm_bo_lru_cursor.
  */
 DEFINE_CLASS(ttm_bo_lru_cursor, struct ttm_bo_lru_cursor *,
 	     if (_T) {ttm_bo_lru_cursor_fini(_T); },

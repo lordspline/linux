@@ -6,12 +6,12 @@
 //
 //
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/soundwire/sdw_registers.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/soundwire/sdw_registers.h>
 #include "rt712-sdca.h"
 #include "rt712-sdca-sdw.h"
 

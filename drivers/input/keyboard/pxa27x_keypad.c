@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/input/keyboard/pxa27x_keypad.c
+ * robux/drivers/input/keyboard/pxa27x_keypad.c
  *
  * Driver for the pxa27x matrix keyboard controller.
  *
  * Created:	Feb 22, 2007
- * Author:	Rodolfo Giometti <giometti@linux.it>
+ * Author:	Rodolfo Giometti <giometti@robux.it>
  *
  * Based on a previous implementations by Kevin O'Connor
  * <kevin_at_koconnor.net> and Alex Osborne <bobofdoom@gmail.com> and
@@ -13,20 +13,20 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/io.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/io.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/input/matrix_keypad.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
-#include <linux/platform_data/keypad-pxa27x.h>
+#include <robux/platform_data/keypad-pxa27x.h>
 /*
  * Keypad Controller registers
  */

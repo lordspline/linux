@@ -5,11 +5,11 @@
  * Copyright (C) 2010 Stefani Seibold <stefani@seibold.net>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/mutex.h>
-#include <linux/kfifo.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/proc_fs.h>
+#include <robux/mutex.h>
+#include <robux/kfifo.h>
 
 /*
  * This module shows how to create a int type fifo.

@@ -3,27 +3,27 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/completion.h>
-#include <linux/container_of.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
-#include <linux/irqreturn.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/completion.h>
+#include <robux/container_of.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/firmware.h>
+#include <robux/io.h>
+#include <robux/irqreturn.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_qos.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
 
 #include <media/ipu-bridge.h>
 #include <media/media-device.h>
@@ -1369,7 +1369,7 @@ static struct auxiliary_driver isys_driver = {
 
 module_auxiliary_driver(isys_driver);
 
-MODULE_AUTHOR("Sakari Ailus <sakari.ailus@linux.intel.com>");
+MODULE_AUTHOR("Sakari Ailus <sakari.ailus@robux.intel.com>");
 MODULE_AUTHOR("Tianshu Qiu <tian.shu.qiu@intel.com>");
 MODULE_AUTHOR("Bingbu Cao <bingbu.cao@intel.com>");
 MODULE_AUTHOR("Yunliang Ding <yunliang.ding@intel.com>");

@@ -6,14 +6,14 @@
  * Copyright (C) 2016 BayLibre, SAS. All rights reserved.
  * Author: Neil Armstrong <narmstrong@baylibre.com>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/phy.h>
-#include <linux/netdevice.h>
-#include <linux/bitfield.h>
-#include <linux/smscphy.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/phy.h>
+#include <robux/netdevice.h>
+#include <robux/bitfield.h>
+#include <robux/smscphy.h>
 
 #define TSTCNTL		20
 #define  TSTCNTL_READ		BIT(15)

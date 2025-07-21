@@ -3,20 +3,20 @@
  * Cirrus Logic CLPS711X FB driver
  *
  * Copyright (C) 2014 Alexander Shiyan <shc_work@mail.ru>
- * Based on driver by Russell King <rmk@arm.linux.org.uk>
+ * Based on driver by Russell King <rmk@arm.robux.org.uk>
  */
 
-#include <linux/clk.h>
-#include <linux/fb.h>
-#include <linux/io.h>
-#include <linux/lcd.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/clps711x.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/fb.h>
+#include <robux/io.h>
+#include <robux/lcd.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mfd/syscon/clps711x.h>
+#include <robux/regulator/consumer.h>
 #include <video/of_display_timing.h>
 
 #define CLPS711X_FB_NAME	"clps711x-fb"

@@ -11,16 +11,16 @@
  * SDW AMD ACPI scan helper function
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/fwnode.h>
-#include <linux/module.h>
-#include <linux/soundwire/sdw_amd.h>
-#include <linux/string.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/fwnode.h>
+#include <robux/module.h>
+#include <robux/soundwire/sdw_amd.h>
+#include <robux/string.h>
 
 int amd_sdw_scan_controller(struct sdw_amd_acpi_info *info)
 {

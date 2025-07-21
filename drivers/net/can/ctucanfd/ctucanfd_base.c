@@ -17,20 +17,20 @@
  * Czech Technical University        (http://www.cvut.cz/)
  ******************************************************************************/
 
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/init.h>
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/can/error.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/errno.h>
+#include <robux/ethtool.h>
+#include <robux/init.h>
+#include <robux/bitfield.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/skbuff.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/can/error.h>
+#include <robux/pm_runtime.h>
 
 #include "ctucanfd.h"
 #include "ctucanfd_kregs.h"

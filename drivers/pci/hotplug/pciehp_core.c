@@ -20,12 +20,12 @@
 #define pr_fmt(fmt) "pciehp: " fmt
 #define dev_fmt pr_fmt
 
-#include <linux/bitfield.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/pci.h>
+#include <robux/bitfield.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/pci.h>
 #include "pciehp.h"
 
 #include "../pci.h"

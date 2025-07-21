@@ -7,14 +7,14 @@
  * Based on w1-ds2780 driver
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/types.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 #include "w1_ds2781.h"
 

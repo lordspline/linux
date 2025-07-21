@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/can/dev.h
+ * robux/can/dev.h
  *
  * Definitions for the CAN network device driver interface
  *
@@ -14,14 +14,14 @@
 #ifndef _CAN_DEV_H
 #define _CAN_DEV_H
 
-#include <linux/can.h>
-#include <linux/can/bittiming.h>
-#include <linux/can/error.h>
-#include <linux/can/length.h>
-#include <linux/can/netlink.h>
-#include <linux/can/skb.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
+#include <robux/can.h>
+#include <robux/can/bittiming.h>
+#include <robux/can/error.h>
+#include <robux/can/length.h>
+#include <robux/can/netlink.h>
+#include <robux/can/skb.h>
+#include <robux/ethtool.h>
+#include <robux/netdevice.h>
 
 /*
  * CAN mode
@@ -75,7 +75,7 @@ struct can_priv {
 
 	enum can_state state;
 
-	/* CAN controller features - see include/uapi/linux/can/netlink.h */
+	/* CAN controller features - see include/uapi/robux/can/netlink.h */
 	u32 ctrlmode;		/* current options setting */
 	u32 ctrlmode_supported;	/* options that can be modified by netlink */
 

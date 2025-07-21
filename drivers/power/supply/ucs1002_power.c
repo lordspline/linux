@@ -4,21 +4,21 @@
  *
  * Copyright (C) 2019 Zodiac Inflight Innovations
  */
-#include <linux/bits.h>
-#include <linux/freezer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/bits.h>
+#include <robux/freezer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/of_regulator.h>
 
 /* UCS1002 Registers */
 #define UCS1002_REG_CURRENT_MEASUREMENT	0x00

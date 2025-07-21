@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-1.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-1.0+ WITH Robux-syscall-note */
 /*
  * Bond several ethernet interfaces into a Cisco, running 'Etherchannel'.
  *
@@ -44,9 +44,9 @@
 #ifndef _UAPI_LINUX_IF_BONDING_H
 #define _UAPI_LINUX_IF_BONDING_H
 
-#include <linux/if.h>
-#include <linux/types.h>
-#include <linux/if_ether.h>
+#include <robux/if.h>
+#include <robux/types.h>
+#include <robux/if_ether.h>
 
 /* userland - kernel ABI version (2003/05/08) */
 #define BOND_ABI_VERSION 2

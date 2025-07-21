@@ -7,17 +7,17 @@
  * License version 2. This program is licensed "as is" without any
  * warranty of any kind, whether express or implied.
  */
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/imx6q-iomuxc-gpr.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mfd/syscon/imx6q-iomuxc-gpr.h>
+#include <robux/regmap.h>
 
 struct imx_weim_devtype {
 	unsigned int	cs_count;

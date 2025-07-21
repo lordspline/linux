@@ -5,13 +5,13 @@
 #include "ixgbe_common.h"
 #include "ixgbe_type.h"
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/sysfs.h>
-#include <linux/kobject.h>
-#include <linux/device.h>
-#include <linux/netdevice.h>
-#include <linux/hwmon.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/sysfs.h>
+#include <robux/kobject.h>
+#include <robux/device.h>
+#include <robux/netdevice.h>
+#include <robux/hwmon.h>
 
 /* hwmon callback functions */
 static ssize_t ixgbe_hwmon_show_location(struct device *dev,

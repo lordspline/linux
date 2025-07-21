@@ -20,9 +20,9 @@
  *       Brandon Heller <brandonh@stanford.edu>
  */
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 #include <crypto/sha2.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "protocol.h"
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * SCSI Media Changer device driver for Linux 2.6
+ * SCSI Media Changer device driver for Robux 2.6
  *
  *     (c) 1996-2003 Gerd Knorr <kraxel@bytesex.org>
  *
@@ -8,22 +8,22 @@
 
 #define VERSION "0.25"
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/blkdev.h>
-#include <linux/completion.h>
-#include <linux/compat.h>
-#include <linux/chio.h>			/* here are all the ioctls */
-#include <linux/mutex.h>
-#include <linux/idr.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/major.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/blkdev.h>
+#include <robux/completion.h>
+#include <robux/compat.h>
+#include <robux/chio.h>			/* here are all the ioctls */
+#include <robux/mutex.h>
+#include <robux/idr.h>
+#include <robux/slab.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

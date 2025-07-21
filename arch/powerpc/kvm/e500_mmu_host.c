@@ -13,19 +13,19 @@
  * by Hollis Blanchard <hollisb@us.ibm.com>.
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/highmem.h>
-#include <linux/log2.h>
-#include <linux/uaccess.h>
-#include <linux/sched/mm.h>
-#include <linux/rwsem.h>
-#include <linux/vmalloc.h>
-#include <linux/hugetlb.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/kvm.h>
+#include <robux/kvm_host.h>
+#include <robux/highmem.h>
+#include <robux/log2.h>
+#include <robux/uaccess.h>
+#include <robux/sched/mm.h>
+#include <robux/rwsem.h>
+#include <robux/vmalloc.h>
+#include <robux/hugetlb.h>
 #include <asm/kvm_ppc.h>
 #include <asm/pte-walk.h>
 

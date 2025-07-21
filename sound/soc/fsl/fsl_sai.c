@@ -4,22 +4,22 @@
 //
 // Copyright 2012-2015 Freescale Semiconductor, Inc.
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_qos.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/time.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dmaengine.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pm_qos.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/time.h>
 #include <sound/core.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/pcm_params.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/imx6q-iomuxc-gpr.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mfd/syscon/imx6q-iomuxc-gpr.h>
 
 #include "fsl_sai.h"
 #include "fsl_utils.h"

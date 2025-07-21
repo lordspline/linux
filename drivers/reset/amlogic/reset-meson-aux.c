@@ -6,11 +6,11 @@
  * Author: Jerome Brunet <jbrunet@baylibre.com>
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/regmap.h>
+#include <robux/reset-controller.h>
 
 #include "reset-meson.h"
 

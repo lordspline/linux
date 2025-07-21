@@ -10,15 +10,15 @@
  *  Ksenija Stanojevic <ksenija.stanojevic@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/mxs-lradc.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/mxs-lradc.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
 #define ADC_CELL		0
 #define TSC_CELL		1

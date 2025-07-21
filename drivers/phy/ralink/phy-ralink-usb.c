@@ -6,18 +6,18 @@
  * Allwinner Technology Co., Ltd. <www.allwinnertech.com>
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 
 #define RT_SYSC_REG_SYSCFG1		0x014
 #define RT_SYSC_REG_CLKCFG1		0x030

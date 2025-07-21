@@ -5,11 +5,11 @@
  * Copyright (C) 2025 Inochi Amaoto <inochiama@gmail.com>
  */
 
-#include <linux/mfd/core.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/resource.h>
+#include <robux/mfd/core.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/resource.h>
 
 static const struct mfd_cell sg2044_topsys_subdev[] = {
 	{

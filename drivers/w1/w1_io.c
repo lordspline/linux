@@ -5,9 +5,9 @@
 
 #include <asm/io.h>
 
-#include <linux/delay.h>
-#include <linux/moduleparam.h>
-#include <linux/module.h>
+#include <robux/delay.h>
+#include <robux/moduleparam.h>
+#include <robux/module.h>
 
 #include "w1_internal.h"
 

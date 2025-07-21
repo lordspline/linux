@@ -15,10 +15,10 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include <media/v4l2-ioctl.h>
 

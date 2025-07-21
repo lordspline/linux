@@ -10,11 +10,11 @@
  *          Francois H. Theron <francois.theron@netronome.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
+#include <robux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/io-64-nonatomic-hi-lo.h>
 
 #include "nfp.h"
 #include "nfp_cpp.h"

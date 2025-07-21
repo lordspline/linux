@@ -8,10 +8,10 @@
  * Author: Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/of_platform.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/of_platform.h>
+#include <robux/io.h>
 #include <asm/time.h>
 #include <asm/ipic.h>
 #include <asm/udbg.h>

@@ -5,11 +5,11 @@
  *
  */
 
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 #include <acpi/processor.h>
-#include <linux/cpu_pm.h>
-#include <linux/cpuidle.h>
-#include <linux/suspend.h>
+#include <robux/cpu_pm.h>
+#include <robux/cpuidle.h>
+#include <robux/suspend.h>
 #include <asm/cpuidle.h>
 #include <asm/sbi.h>
 #include <asm/suspend.h>

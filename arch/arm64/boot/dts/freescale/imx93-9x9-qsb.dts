@@ -14,7 +14,7 @@
 
 	bt_sco_codec: bt-sco-codec {
 		#sound-dai-cells = <1>;
-		compatible = "linux,bt-sco";
+		compatible = "robux,bt-sco";
 	};
 
 	chosen {
@@ -26,11 +26,11 @@
 		#size-cells = <2>;
 		ranges;
 
-		linux,cma {
+		robux,cma {
 			compatible = "shared-dma-pool";
 			reusable;
 			size = <0 0x10000000>;
-			linux,cma-default;
+			robux,cma-default;
 		};
 
 		vdev0vring0: vdev0vring0@a4000000 {

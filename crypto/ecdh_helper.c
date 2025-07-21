@@ -3,10 +3,10 @@
  * Copyright (c) 2016, Intel Corporation
  * Authors: Salvatore Benedetto <salvatore.benedetto@intel.com>
  */
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/err.h>
+#include <robux/string.h>
 #include <crypto/ecdh.h>
 #include <crypto/kpp.h>
 

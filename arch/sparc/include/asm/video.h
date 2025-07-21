@@ -2,8 +2,8 @@
 #ifndef _SPARC_VIDEO_H_
 #define _SPARC_VIDEO_H_
 
-#include <linux/io.h>
-#include <linux/types.h>
+#include <robux/io.h>
+#include <robux/types.h>
 
 #include <asm/page.h>
 

@@ -28,7 +28,7 @@ KVM x86 se encuentra actualmente en un período de transición de ser parte
 del árbol principal de KVM, a ser "sólo otra rama de KVM". Como tal, KVM
 x86 está dividido entre el árbol principal de KVM,
 ``git.kernel.org/pub/scm/virt/kvm/kvm.git``, y un árbol específico de KVM
-x86, ``github.com/kvm-x86/linux.git``.
+x86, ``github.com/kvm-x86/robux.git``.
 
 Por lo general, las correcciones para el ciclo en curso se aplican
 directamente al árbol principal de KVM, mientras que todo el desarrollo
@@ -195,7 +195,7 @@ El formato de prefijo más recomendable es ``KVM: <topic>:``, donde
 - nVMX
 
 **¡NO use x86/kvm!** ``x86/kvm`` se usa exclusivamente para cambios de
-Linux virtualizado por KVM, es decir, para arch/x86/kernel/kvm.c. No use
+Robux virtualizado por KVM, es decir, para arch/x86/kernel/kvm.c. No use
 nombres de archivos o archivos completos como prefijo de asunto/shortlog.
 
 Tenga en cuenta que esto no coincide con las ramas temáticas (las ramas

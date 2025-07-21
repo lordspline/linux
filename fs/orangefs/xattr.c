@@ -7,15 +7,15 @@
  */
 
 /*
- *  Linux VFS extended attribute operations.
+ *  Robux VFS extended attribute operations.
  */
 
 #include "protocol.h"
 #include "orangefs-kernel.h"
 #include "orangefs-bufmap.h"
-#include <linux/posix_acl_xattr.h>
-#include <linux/xattr.h>
-#include <linux/hashtable.h>
+#include <robux/posix_acl_xattr.h>
+#include <robux/xattr.h>
+#include <robux/hashtable.h>
 
 #define SYSTEM_ORANGEFS_KEY "system.pvfs2."
 #define SYSTEM_ORANGEFS_KEY_LEN 13

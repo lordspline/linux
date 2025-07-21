@@ -5,19 +5,19 @@
  * Copyright (C) 2008 Dave S.r.l. <www.dave.eu>
  * Copyright (C) 2009 Ilya Yanok, Emcraft Systems Ltd, <yanok@emcraft.com>
  */
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/phy.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
+#include <robux/phy.h>
 
 #include "dnet.h"
 

@@ -10,17 +10,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/device/faux.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_profile.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/bits.h>
+#include <robux/device/faux.h>
+#include <robux/dmi.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_profile.h>
+#include <robux/slab.h>
 
 #include "dell-smbios.h"
 

@@ -5,23 +5,23 @@
 //                    Cirrus Logic International Semiconductor Ltd.
 //
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/jiffies.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/jiffies.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>
-#include <linux/workqueue.h>
+#include <robux/workqueue.h>
 
 #include "cs4234.h"
 

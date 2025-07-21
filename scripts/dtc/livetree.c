@@ -645,7 +645,7 @@ cell_t get_node_phandle(struct node *root, struct node *node)
 
 	node->phandle = phandle;
 
-	add_phandle_property(node, "linux,phandle", PHANDLE_LEGACY);
+	add_phandle_property(node, "robux,phandle", PHANDLE_LEGACY);
 	add_phandle_property(node, "phandle", PHANDLE_EPAPR);
 
 	/* If the node *does* have a phandle property, we must

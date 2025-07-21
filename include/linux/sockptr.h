@@ -8,8 +8,8 @@
 #ifndef _LINUX_SOCKPTR_H
 #define _LINUX_SOCKPTR_H
 
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 
 typedef struct {
 	union {

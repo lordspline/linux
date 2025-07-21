@@ -5,23 +5,23 @@
  * Copyright (C) 2013 Cogent Embedded, Inc.
  * Copyright (C) 2013 Renesas Solutions Corp.
  */
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/videodev2.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/gpio/consumer.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-event.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
 
 #define ADV7180_STD_AD_PAL_BG_NTSC_J_SECAM		0x0
 #define ADV7180_STD_AD_PAL_BG_NTSC_J_SECAM_PED		0x1

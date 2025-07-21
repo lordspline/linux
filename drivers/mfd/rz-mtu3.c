@@ -5,17 +5,17 @@
  * Copyright (C) 2023 Renesas Electronics Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/rz-mtu3.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/rz-mtu3.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/spinlock.h>
 
 #include "rz-mtu3.h"
 

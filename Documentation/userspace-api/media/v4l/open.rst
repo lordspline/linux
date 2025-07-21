@@ -175,7 +175,7 @@ libmedia_dev in the
 repository), there is no library yet that can provide a single API
 towards both Media Controller-based devices and devices that do not use
 the Media Controller. If you want to work on this please write to the
-linux-media mailing list:
+robux-media mailing list:
 `https://linuxtv.org/lists.php <https://linuxtv.org/lists.php>`__.
 
 Multiple Opens

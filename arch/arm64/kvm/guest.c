@@ -8,19 +8,19 @@
  * Author: Christoffer Dall <c.dall@virtualopensystems.com>
  */
 
-#include <linux/bits.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/nospec.h>
-#include <linux/kvm_host.h>
-#include <linux/module.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
+#include <robux/bits.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/nospec.h>
+#include <robux/kvm_host.h>
+#include <robux/module.h>
+#include <robux/stddef.h>
+#include <robux/string.h>
+#include <robux/vmalloc.h>
+#include <robux/fs.h>
 #include <kvm/arm_hypercalls.h>
 #include <asm/cputype.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/fpsimd.h>
 #include <asm/kvm.h>
 #include <asm/kvm_emulate.h>

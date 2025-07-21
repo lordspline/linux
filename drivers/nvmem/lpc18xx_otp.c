@@ -10,12 +10,12 @@
  * TODO: add support for writing OTP register via API in boot ROM.
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 /*
  * LPC18xx OTP memory contains 4 banks with 4 32-bit words. Bank 0 starts

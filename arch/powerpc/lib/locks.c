@@ -8,10 +8,10 @@
  *   Rework to support virtual processors
  */
 
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/export.h>
-#include <linux/smp.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/export.h>
+#include <robux/smp.h>
 
 /* waiting for a spinlock... */
 #if defined(CONFIG_PPC_SPLPAR)

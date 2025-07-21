@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0-only WITH Robux-syscall-note */
 /*
  * RP1 PiSP Front End statistics definitions
  *
@@ -8,7 +8,7 @@
 #ifndef _UAPI_PISP_FE_STATISTICS_H_
 #define _UAPI_PISP_FE_STATISTICS_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define PISP_FLOATING_STATS_NUM_ZONES 4
 #define PISP_AGC_STATS_NUM_BINS 1024

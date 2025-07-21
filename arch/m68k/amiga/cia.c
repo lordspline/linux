@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/amiga/cia.c - CIA support
+ *  robux/arch/m68k/amiga/cia.c - CIA support
  *
  *  Copyright (C) 1996 Roman Zippel
  *
@@ -10,15 +10,15 @@
  * for more details.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/kernel_stat.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/errno.h>
+#include <robux/kernel_stat.h>
+#include <robux/init.h>
+#include <robux/seq_file.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
 
 #include <asm/irq.h>
 #include <asm/amigahw.h>

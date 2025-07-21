@@ -2,20 +2,20 @@
 //
 // Apple SoC SPI device driver
 //
-// Copyright The Asahi Linux Contributors
+// Copyright The Asahi Robux Contributors
 //
 // Based on spi-sifive.c, Copyright 2018 SiFive, Inc.
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/spi/spi.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/spi/spi.h>
 
 #define APPLE_SPI_CTRL			0x000
 #define APPLE_SPI_CTRL_RUN		BIT(0)

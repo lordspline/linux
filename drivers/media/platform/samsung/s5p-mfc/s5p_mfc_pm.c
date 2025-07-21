@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * linux/drivers/media/platform/samsung/s5p-mfc/s5p_mfc_pm.c
+ * robux/drivers/media/platform/samsung/s5p-mfc/s5p_mfc_pm.c
  *
  * Copyright (c) 2010 Samsung Electronics Co., Ltd.
  *		http://www.samsung.com/
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 #include "s5p_mfc_common.h"
 #include "s5p_mfc_debug.h"
 #include "s5p_mfc_pm.h"

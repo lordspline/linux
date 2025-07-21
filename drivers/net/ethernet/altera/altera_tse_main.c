@@ -17,27 +17,27 @@
  * Major updates contributed by GlobalLogic
  */
 
-#include <linux/atomic.h>
-#include <linux/delay.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/mdio/mdio-regmap.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/pcs-lynx.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/skbuff.h>
+#include <robux/atomic.h>
+#include <robux/delay.h>
+#include <robux/etherdevice.h>
+#include <robux/if_vlan.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mii.h>
+#include <robux/mdio/mdio-regmap.h>
+#include <robux/netdevice.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
+#include <robux/pcs-lynx.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/skbuff.h>
 #include <asm/cacheflush.h>
 
 #include "altera_utils.h"

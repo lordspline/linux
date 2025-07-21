@@ -4,9 +4,9 @@
  * Copyright (C) 2021 Samuel Holland <samuel@sholland.org>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #include "ccu_common.h"
 #include "ccu_reset.h"

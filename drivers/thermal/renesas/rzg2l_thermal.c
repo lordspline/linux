@@ -4,18 +4,18 @@
  *
  * Copyright (C) 2021 Renesas Electronics Corporation
  */
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/math.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/thermal.h>
-#include <linux/units.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/math.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/thermal.h>
+#include <robux/units.h>
 
 #include "../thermal_hwmon.h"
 

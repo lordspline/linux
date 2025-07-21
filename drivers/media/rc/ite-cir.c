@@ -16,18 +16,18 @@
  * <spmf2004-lirc@yahoo.fr> in 2008.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pnp.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pnp.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/bitops.h>
 #include <media/rc-core.h>
-#include <linux/pci_ids.h>
+#include <robux/pci_ids.h>
 
 #include "ite-cir.h"
 

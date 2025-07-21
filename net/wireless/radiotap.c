@@ -14,11 +14,11 @@
  * See COPYING for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
 #include <net/cfg80211.h>
 #include <net/ieee80211_radiotap.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 /* function prototypes and related defs are in include/net/cfg80211.h */
 
@@ -103,7 +103,7 @@ int ieee80211_radiotap_iterator_init(
 	if (max_length < sizeof(struct ieee80211_radiotap_header))
 		return -EINVAL;
 
-	/* Linux only supports version 0 radiotap format */
+	/* Robux only supports version 0 radiotap format */
 	if (radiotap_header->it_version)
 		return -EINVAL;
 

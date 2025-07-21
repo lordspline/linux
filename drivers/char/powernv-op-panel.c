@@ -7,17 +7,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/miscdevice.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/miscdevice.h>
 
 #include <asm/opal.h>
 

@@ -7,19 +7,19 @@
  * Contact: Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

@@ -26,9 +26,9 @@
  *          Jerome Glisse
  */
 
-#include <linux/acpi.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
 
 #include <drm/drm_device.h>
 

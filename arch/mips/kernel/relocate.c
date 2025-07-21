@@ -14,15 +14,15 @@
 #include <asm/sections.h>
 #include <asm/setup.h>
 #include <asm/timex.h>
-#include <linux/elf.h>
-#include <linux/kernel.h>
-#include <linux/libfdt.h>
-#include <linux/of_fdt.h>
-#include <linux/panic_notifier.h>
-#include <linux/sched/task.h>
-#include <linux/start_kernel.h>
-#include <linux/string.h>
-#include <linux/printk.h>
+#include <robux/elf.h>
+#include <robux/kernel.h>
+#include <robux/libfdt.h>
+#include <robux/of_fdt.h>
+#include <robux/panic_notifier.h>
+#include <robux/sched/task.h>
+#include <robux/start_kernel.h>
+#include <robux/string.h>
+#include <robux/printk.h>
 
 #define RELOCATED(x) ((void *)((long)x + offset))
 

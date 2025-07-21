@@ -3,15 +3,15 @@
  * Copyright 2019 NXP
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/devfreq.h>
-#include <linux/pm_opp.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/arm-smccc.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/devfreq.h>
+#include <robux/pm_opp.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/arm-smccc.h>
 
 #define IMX_SIP_DDR_DVFS			0xc2000004
 

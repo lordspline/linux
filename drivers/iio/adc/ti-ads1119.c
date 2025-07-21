@@ -5,28 +5,28 @@
  * Copyright 2024 Toradex
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/units.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/dev_printk.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
+#include <robux/units.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
 
 #define ADS1119_CMD_RESET		0x06
 #define ADS1119_CMD_POWERDOWN		0x02

@@ -18,10 +18,10 @@
 #include <asm/cputable.h>
 #include <asm/cacheflush.h>
 #include <asm/smp.h>
-#include <linux/compiler.h>
-#include <linux/context_tracking.h>
-#include <linux/mm_types.h>
-#include <linux/pgtable.h>
+#include <robux/compiler.h>
+#include <robux/context_tracking.h>
+#include <robux/mm_types.h>
+#include <robux/pgtable.h>
 
 #include <asm/udbg.h>
 #include <asm/text-patching.h>

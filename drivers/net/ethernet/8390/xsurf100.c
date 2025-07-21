@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/zorro.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/platform_device.h>
+#include <robux/zorro.h>
 #include <net/ax88796.h>
 #include <asm/amigaints.h>
 

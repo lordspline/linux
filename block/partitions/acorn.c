@@ -7,8 +7,8 @@
  *  every single manufacturer of SCSI and IDE cards created their own
  *  method.
  */
-#include <linux/buffer_head.h>
-#include <linux/adfs_fs.h>
+#include <robux/buffer_head.h>
+#include <robux/adfs_fs.h>
 
 #include "check.h"
 
@@ -130,7 +130,7 @@ static int linux_partition(struct parsed_partitions *state,
 	struct linux_part *linuxp;
 	unsigned long size = nr_sects > 2 ? 2 : nr_sects;
 
-	strlcat(state->pp_buf, " [Linux]", PAGE_SIZE);
+	strlcat(state->pp_buf, " [Robux]", PAGE_SIZE);
 
 	put_partition(state, slot++, first_sect, size);
 

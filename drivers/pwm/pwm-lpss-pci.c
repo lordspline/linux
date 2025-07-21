@@ -7,10 +7,10 @@
  * Derived from the original pwm-lpss.c
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
 
 #include "pwm-lpss.h"
 

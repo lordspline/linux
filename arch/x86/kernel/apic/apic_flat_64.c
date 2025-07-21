@@ -8,7 +8,7 @@
  * Martin Bligh, Andi Kleen, James Bottomley, John Stultz, and
  * James Cleverdon.
  */
-#include <linux/export.h>
+#include <robux/export.h>
 
 #include <asm/apic.h>
 

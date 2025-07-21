@@ -28,8 +28,8 @@
 #ifndef __AST_DRV_H__
 #define __AST_DRV_H__
 
-#include <linux/io.h>
-#include <linux/types.h>
+#include <robux/io.h>
+#include <robux/types.h>
 
 #include <drm/drm_connector.h>
 #include <drm/drm_crtc.h>

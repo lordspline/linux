@@ -54,14 +54,14 @@
 			color = <LED_COLOR_ID_GREEN>;
 			function = LED_FUNCTION_STATUS;
 			gpios = <&gpio0 RK_PB7 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 		};
 
 		led_red: led-1 {
 			color = <LED_COLOR_ID_RED>;
 			function = LED_FUNCTION_STATUS;
 			gpios = <&gpio4 RK_PC5 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "none";
+			robux,default-trigger = "none";
 		};
 	};
 

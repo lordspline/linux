@@ -5,9 +5,9 @@
  * Copyright (C) 2014-2015 Intel Corporation.
  */
 
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/debugfs.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/debugfs.h>
 
 #include "intel_th.h"
 #include "debug.h"

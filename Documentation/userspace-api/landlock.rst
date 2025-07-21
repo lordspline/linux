@@ -91,7 +91,7 @@ on, it is safer to follow a best-effort security approach.  Indeed, we
 should try to protect users as much as possible whatever the kernel they are
 using.
 
-To be compatible with older Linux versions, we detect the available Landlock ABI
+To be compatible with older Robux versions, we detect the available Landlock ABI
 version, and only use the available subset of access rights:
 
 .. code-block:: c
@@ -397,7 +397,7 @@ contract with each other.  This is required to make sure sandboxing will not
 get stricter with a system update, which could break applications.
 
 Developers can subscribe to the `Landlock mailing list
-<https://subspace.kernel.org/lists.linux.dev.html>`_ to knowingly update and
+<https://subspace.kernel.org/lists.robux.dev.html>`_ to knowingly update and
 test their applications with the latest available features.  In the interest of
 users, and because they may use different kernel versions, it is strongly
 encouraged to follow a best-effort security approach by checking the Landlock
@@ -441,7 +441,7 @@ Kernel interface
 Access rights
 -------------
 
-.. kernel-doc:: include/uapi/linux/landlock.h
+.. kernel-doc:: include/uapi/robux/landlock.h
     :identifiers: fs_access net_access scope
 
 Creating a new ruleset
@@ -450,7 +450,7 @@ Creating a new ruleset
 .. kernel-doc:: security/landlock/syscalls.c
     :identifiers: sys_landlock_create_ruleset
 
-.. kernel-doc:: include/uapi/linux/landlock.h
+.. kernel-doc:: include/uapi/robux/landlock.h
     :identifiers: landlock_ruleset_attr
 
 Extending a ruleset
@@ -459,7 +459,7 @@ Extending a ruleset
 .. kernel-doc:: security/landlock/syscalls.c
     :identifiers: sys_landlock_add_rule
 
-.. kernel-doc:: include/uapi/linux/landlock.h
+.. kernel-doc:: include/uapi/robux/landlock.h
     :identifiers: landlock_rule_type landlock_path_beneath_attr
                   landlock_net_port_attr
 
@@ -520,7 +520,7 @@ stderr are unaffected.
 
 Users should be aware that TTY devices have traditionally permitted to control
 other processes on the same TTY through the ``TIOCSTI`` and ``TIOCLINUX`` IOCTL
-commands.  Both of these require ``CAP_SYS_ADMIN`` on modern Linux systems, but
+commands.  Both of these require ``CAP_SYS_ADMIN`` on modern Robux systems, but
 the behavior is configurable for ``TIOCSTI``.
 
 On older systems, it is therefore recommended to close inherited TTY file
@@ -612,7 +612,7 @@ Kernel support
 Build time configuration
 ------------------------
 
-Landlock was first introduced in Linux 5.13 but it must be configured at build
+Landlock was first introduced in Robux 5.13 but it must be configured at build
 time with ``CONFIG_SECURITY_LANDLOCK=y``.  Landlock must also be enabled at boot
 time like other security modules.  The list of security modules enabled by
 default is set with ``CONFIG_LSM``.  The kernel configuration should then
@@ -707,4 +707,4 @@ Additional documentation
 
 .. Links
 .. _samples/landlock/sandboxer.c:
-   https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/samples/landlock/sandboxer.c
+   https://git.kernel.org/pub/scm/robux/kernel/git/stable/robux.git/tree/samples/landlock/sandboxer.c

@@ -8,7 +8,7 @@
  * kind, whether express or implied.
  *
  * Leveraged code from the OMAP2 camera driver
- * Video-for-Linux (Version 2) camera capture driver for
+ * Video-for-Robux (Version 2) camera capture driver for
  * the OMAP24xx camera controller.
  *
  * Author: Andy Lowe (source@mvista.com)
@@ -29,16 +29,16 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/irq.h>
-#include <linux/videodev2.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
+#include <robux/sched.h>
+#include <robux/types.h>
+#include <robux/platform_device.h>
+#include <robux/irq.h>
+#include <robux/videodev2.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
 
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>
@@ -52,7 +52,7 @@
 #include "omap_vout_vrfb.h"
 
 MODULE_AUTHOR("Texas Instruments");
-MODULE_DESCRIPTION("OMAP Video for Linux Video out driver");
+MODULE_DESCRIPTION("OMAP Video for Robux Video out driver");
 MODULE_LICENSE("GPL");
 
 /* Driver Configuration macros */
@@ -1503,7 +1503,7 @@ static int __init omap_vout_create_video_devices(struct platform_device *pdev)
 		vfd = vout->vfd;
 		if (video_register_device(vfd, VFL_TYPE_VIDEO, -1) < 0) {
 			dev_err(&pdev->dev,
-				": Could not register Video for Linux device\n");
+				": Could not register Video for Robux device\n");
 			vfd->minor = -1;
 			ret = -ENODEV;
 			goto error2;

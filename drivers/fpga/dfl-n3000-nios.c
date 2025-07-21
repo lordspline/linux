@@ -9,19 +9,19 @@
  *   Wu Hao <hao.wu@intel.com>
  *   Xu Yilun <yilun.xu@intel.com>
  */
-#include <linux/bitfield.h>
-#include <linux/dfl.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/stddef.h>
-#include <linux/spi/altera.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/dfl.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/stddef.h>
+#include <robux/spi/altera.h>
+#include <robux/spi/spi.h>
+#include <robux/types.h>
 
 /*
  * N3000 Nios private feature registers, named as NIOS_SPI_XX on spec.

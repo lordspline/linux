@@ -26,10 +26,10 @@
  * Authors: Dave Airlie <airlied@redhat.com>
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pci.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pci.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

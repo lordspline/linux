@@ -21,18 +21,18 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/mutex.h>
-#include <linux/log2.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task.h>
-#include <linux/mmu_context.h>
-#include <linux/slab.h>
-#include <linux/notifier.h>
-#include <linux/compat.h>
-#include <linux/mman.h>
-#include <linux/file.h>
-#include <linux/pm_runtime.h>
+#include <robux/mutex.h>
+#include <robux/log2.h>
+#include <robux/sched.h>
+#include <robux/sched/mm.h>
+#include <robux/sched/task.h>
+#include <robux/mmu_context.h>
+#include <robux/slab.h>
+#include <robux/notifier.h>
+#include <robux/compat.h>
+#include <robux/mman.h>
+#include <robux/file.h>
+#include <robux/pm_runtime.h>
 #include "amdgpu_amdkfd.h"
 #include "amdgpu.h"
 #include "amdgpu_reset.h"

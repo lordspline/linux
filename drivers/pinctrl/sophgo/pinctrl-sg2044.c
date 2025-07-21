@@ -5,12 +5,12 @@
  * Copyright (C) 2024 Inochi Amaoto <inochiama@outlook.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
 
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include <dt-bindings/pinctrl/pinctrl-sg2044.h>
 

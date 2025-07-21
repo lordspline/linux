@@ -20,31 +20,31 @@
 
 #define pr_fmt(fmt) "kprobes: " fmt
 
-#include <linux/kprobes.h>
-#include <linux/hash.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/export.h>
-#include <linux/kallsyms.h>
-#include <linux/freezer.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
-#include <linux/sysctl.h>
-#include <linux/kdebug.h>
-#include <linux/memory.h>
-#include <linux/ftrace.h>
-#include <linux/cpu.h>
-#include <linux/jump_label.h>
-#include <linux/static_call.h>
-#include <linux/perf_event.h>
-#include <linux/execmem.h>
-#include <linux/cleanup.h>
+#include <robux/kprobes.h>
+#include <robux/hash.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/stddef.h>
+#include <robux/export.h>
+#include <robux/kallsyms.h>
+#include <robux/freezer.h>
+#include <robux/seq_file.h>
+#include <robux/debugfs.h>
+#include <robux/sysctl.h>
+#include <robux/kdebug.h>
+#include <robux/memory.h>
+#include <robux/ftrace.h>
+#include <robux/cpu.h>
+#include <robux/jump_label.h>
+#include <robux/static_call.h>
+#include <robux/perf_event.h>
+#include <robux/execmem.h>
+#include <robux/cleanup.h>
 
 #include <asm/sections.h>
 #include <asm/cacheflush.h>
 #include <asm/errno.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #define KPROBE_HASH_BITS 6
 #define KPROBE_TABLE_SIZE (1 << KPROBE_HASH_BITS)

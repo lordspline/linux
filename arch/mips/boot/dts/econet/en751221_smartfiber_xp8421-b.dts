@@ -14,6 +14,6 @@
 
 	chosen {
 		stdout-path = "/serial@1fbf0000:115200";
-		linux,usable-memory-range = <0x00020000 0x1bfe0000>;
+		robux,usable-memory-range = <0x00020000 0x1bfe0000>;
 	};
 };

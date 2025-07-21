@@ -6,7 +6,7 @@
 #ifndef __ASM_MACH_LOONGSON32_PLATFORM_H
 #define __ASM_MACH_LOONGSON32_PLATFORM_H
 
-#include <linux/platform_device.h>
+#include <robux/platform_device.h>
 
 extern struct platform_device ls1x_uart_pdev;
 extern struct platform_device ls1x_eth0_pdev;

@@ -11,16 +11,16 @@
  * by Subbaraya Sundeep Bhatta <subbaraya.sundeep.bhatta@xilinx.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 
 struct dwc3_of_simple {
 	struct device		*dev;

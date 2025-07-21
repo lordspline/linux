@@ -9,22 +9,22 @@
  * firmware with the help of the Platform Firmware Runtime Telemetry
  * interface.
  */
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/uio.h>
-#include <linux/uuid.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
+#include <robux/uaccess.h>
+#include <robux/uio.h>
+#include <robux/uuid.h>
 
-#include <uapi/linux/pfrut.h>
+#include <uapi/robux/pfrut.h>
 
 #define PFRT_LOG_EXEC_IDX	0
 #define PFRT_LOG_HISTORY_IDX	1

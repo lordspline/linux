@@ -8,16 +8,16 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pm.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mfd/ipaq-micro.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/pm.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/input.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/mfd/ipaq-micro.h>
 
 struct touchscreen_data {
 	struct input_dev *input;

@@ -2,11 +2,11 @@
 // Copyright (C) 2023 Cirrus Logic, Inc. and
 //                    Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/device.h>
-#include <linux/fwnode.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/soundwire/sdw.h>
+#include <robux/device.h>
+#include <robux/fwnode.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/soundwire/sdw.h>
 #include "irq.h"
 
 static int sdw_irq_map(struct irq_domain *h, unsigned int virq,

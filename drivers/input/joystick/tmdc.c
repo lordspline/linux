@@ -7,16 +7,16 @@
  */
 
 /*
- * ThrustMaster DirectConnect (BSP) joystick family driver for Linux
+ * ThrustMaster DirectConnect (BSP) joystick family driver for Robux
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/gameport.h>
-#include <linux/input.h>
-#include <linux/jiffies.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/gameport.h>
+#include <robux/input.h>
+#include <robux/jiffies.h>
 
 #define DRIVER_DESC	"ThrustMaster DirectConnect joystick driver"
 

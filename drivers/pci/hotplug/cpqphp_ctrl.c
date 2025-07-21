@@ -12,17 +12,17 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/wait.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/kthread.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/wait.h>
+#include <robux/pci.h>
+#include <robux/pci_hotplug.h>
+#include <robux/kthread.h>
 #include "cpqphp.h"
 
 static u32 configure_new_device(struct controller *ctrl, struct pci_func *func,
@@ -1559,9 +1559,9 @@ static u32 board_added(struct pci_func *func, struct controller *ctrl)
 		func->switch_save = 0x10;
 		func->is_a_board = 0x01;
 
-		/* next, we will instantiate the linux pci_dev structures (with
+		/* next, we will instantiate the robux pci_dev structures (with
 		 * appropriate driver notification, if already present) */
-		dbg("%s: configure linux pci_dev structure\n", __func__);
+		dbg("%s: configure robux pci_dev structure\n", __func__);
 		index = 0;
 		do {
 			new_slot = cpqhp_slot_find(ctrl->bus, func->device, index++);

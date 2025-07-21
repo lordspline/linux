@@ -6,15 +6,15 @@
  * Copyright (C) 2009 Daniel Ribeiro <drwyrm@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/mfd/ezx-pcap.h>
-#include <linux/spi/spi.h>
-#include <linux/gpio.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/mfd/ezx-pcap.h>
+#include <robux/spi/spi.h>
+#include <robux/gpio.h>
+#include <robux/slab.h>
 
 #define PCAP_ADC_MAXQ		8
 struct pcap_adc_request {

@@ -5,16 +5,16 @@
  * Copyright (c) 2017, General Electric Company
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/spi/spi.h>
-#include <linux/string_choices.h>
-#include <linux/regmap.h>
+#include <robux/bitops.h>
+#include <robux/gpio/driver.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/seq_file.h>
+#include <robux/spi/spi.h>
+#include <robux/string_choices.h>
+#include <robux/regmap.h>
 
 /* XRA1403 registers */
 #define XRA_GSR   0x00 /* GPIO State */

@@ -56,7 +56,7 @@
 			gpios = <&gpio ASPEED_GPIO(H, 6) GPIO_ACTIVE_LOW>;
 			color = <LED_COLOR_ID_GREEN>;
 			function = LED_FUNCTION_HEARTBEAT;
-			linux,default-trigger = "timer";
+			robux,default-trigger = "timer";
 		};
 
 		led-1 {

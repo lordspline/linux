@@ -5,14 +5,14 @@
  * Copyright (c) 2016 Andrew Worsley amworsley@gmail.com
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/device.h>
+#include <robux/types.h>
+#include <robux/delay.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 #define W1_EEPROM_DS2805       0x0D
 

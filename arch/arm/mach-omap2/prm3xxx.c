@@ -9,12 +9,12 @@
  * Rajendra Nayak <rnayak@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/of_irq.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/of_irq.h>
 
 #include "soc.h"
 #include "common.h"

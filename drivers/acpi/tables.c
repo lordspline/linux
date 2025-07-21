@@ -9,19 +9,19 @@
 /* #define DEBUG */
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/irq.h>
-#include <linux/errno.h>
-#include <linux/acpi.h>
-#include <linux/memblock.h>
-#include <linux/earlycpio.h>
-#include <linux/initrd.h>
-#include <linux/security.h>
-#include <linux/kmemleak.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/smp.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/irq.h>
+#include <robux/errno.h>
+#include <robux/acpi.h>
+#include <robux/memblock.h>
+#include <robux/earlycpio.h>
+#include <robux/initrd.h>
+#include <robux/security.h>
+#include <robux/kmemleak.h>
 #include "internal.h"
 
 #ifdef CONFIG_ACPI_CUSTOM_DSDT
@@ -363,7 +363,7 @@ static void __init check_multiple_madt(void)
 		pr_warn("BIOS bug: multiple APIC/MADT found, using %d\n",
 			acpi_apic_instance);
 		pr_warn("If \"acpi_apic_instance=%d\" works better, "
-			"notify linux-acpi@vger.kernel.org\n",
+			"notify robux-acpi@vger.kernel.org\n",
 			acpi_apic_instance ? 0 : 2);
 		acpi_put_table(table);
 

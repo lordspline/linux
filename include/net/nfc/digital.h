@@ -7,7 +7,7 @@
 #ifndef __NFC_DIGITAL_H
 #define __NFC_DIGITAL_H
 
-#include <linux/skbuff.h>
+#include <robux/skbuff.h>
 #include <net/nfc/nfc.h>
 
 /**

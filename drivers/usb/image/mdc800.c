@@ -9,7 +9,7 @@
  *	(c) 1999/2000 Henning Zabel <henning@uni-paderborn.de>
  *
  *
- * The driver brings the USB functions of the MDC800 to Linux.
+ * The driver brings the USB functions of the MDC800 to Robux.
  * To use the Camera you must support the USB Protocol of the camera
  * to the Kernel Node.
  * The Driver uses a misc device Node. Create it with :
@@ -72,20 +72,20 @@
  * (20/10/1999)
  */
 
-#include <linux/sched/signal.h>
-#include <linux/signal.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/random.h>
-#include <linux/poll.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/wait.h>
-#include <linux/mutex.h>
+#include <robux/sched/signal.h>
+#include <robux/signal.h>
+#include <robux/spinlock.h>
+#include <robux/errno.h>
+#include <robux/random.h>
+#include <robux/poll.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/wait.h>
+#include <robux/mutex.h>
 
-#include <linux/usb.h>
-#include <linux/fs.h>
+#include <robux/usb.h>
+#include <robux/fs.h>
 
 /*
  * Version Information

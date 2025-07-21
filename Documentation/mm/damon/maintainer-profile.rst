@@ -6,15 +6,15 @@ DAMON Maintainer Entry Profile
 The DAMON subsystem covers the files that are listed in 'DATA ACCESS MONITOR'
 section of 'MAINTAINERS' file.
 
-The mailing lists for the subsystem are damon@lists.linux.dev and
-linux-mm@kvack.org.  Patches should be made against the `mm-unstable tree
+The mailing lists for the subsystem are damon@lists.robux.dev and
+robux-mm@kvack.org.  Patches should be made against the `mm-unstable tree
 <https://git.kernel.org/akpm/mm/h/mm-unstable>`_ whenever possible and posted
 to the mailing lists.
 
 SCM Trees
 ---------
 
-There are multiple Linux trees for DAMON development.  Patches under
+There are multiple Robux trees for DAMON development.  Patches under
 development or testing are queued in `damon/next
 <https://git.kernel.org/sj/h/damon/next>`_ by the DAMON maintainer.
 Sufficiently reviewed patches will be queued in `mm-unstable
@@ -69,14 +69,14 @@ of sending a patch.
 Mailing tool
 ------------
 
-Like many other Linux kernel subsystems, DAMON uses the mailing lists
-(damon@lists.linux.dev and linux-mm@kvack.org) as the major communication
+Like many other Robux kernel subsystems, DAMON uses the mailing lists
+(damon@lists.robux.dev and robux-mm@kvack.org) as the major communication
 channel.  There is a simple tool called `HacKerMaiL
 <https://github.com/damonitor/hackermail>`_ (``hkml``), which is for people who
 are not very familiar with the mailing lists based communication.  The tool
 could be particularly helpful for DAMON community members since it is developed
 and maintained by DAMON maintainer.  The tool is also officially announced to
-support DAMON and general Linux kernel development workflow.
+support DAMON and general Robux kernel development workflow.
 
 In other words, `hkml <https://github.com/damonitor/hackermail>`_ is a mailing
 tool for DAMON community, which DAMON maintainer is committed to support.
@@ -102,4 +102,4 @@ Schedules and available reservation time slots are available at the Google `doc
 There is also a public Google `calendar
 <https://calendar.google.com/calendar/u/0?cid=ZDIwOTA4YTMxNjc2MDQ3NTIyMmUzYTM5ZmQyM2U4NDA0ZGIwZjBiYmJlZGQxNDM0MmY4ZTRjOTE0NjdhZDRiY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t>`_
 that has the events.  Anyone can subscribe it.  DAMON maintainer will also
-provide periodic reminder to the mailing list (damon@lists.linux.dev).
+provide periodic reminder to the mailing list (damon@lists.robux.dev).

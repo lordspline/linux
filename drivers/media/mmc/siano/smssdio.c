@@ -29,14 +29,14 @@
 
 #include "smscoreapi.h"
 
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/firmware.h>
-#include <linux/delay.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/sdio_ids.h>
-#include <linux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/slab.h>
+#include <robux/firmware.h>
+#include <robux/delay.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/sdio_func.h>
+#include <robux/mmc/sdio_ids.h>
+#include <robux/module.h>
 
 #include "sms-cards.h"
 #include "smsendian.h"

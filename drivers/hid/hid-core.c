@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  HID support for Linux
+ *  HID support for Robux
  *
  *  Copyright (c) 1999 Andreas Gal
  *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
@@ -13,25 +13,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/spinlock.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/mm.h>
+#include <robux/spinlock.h>
+#include <robux/unaligned.h>
 #include <asm/byteorder.h>
-#include <linux/input.h>
-#include <linux/wait.h>
-#include <linux/vmalloc.h>
-#include <linux/sched.h>
-#include <linux/semaphore.h>
+#include <robux/input.h>
+#include <robux/wait.h>
+#include <robux/vmalloc.h>
+#include <robux/sched.h>
+#include <robux/semaphore.h>
 
-#include <linux/hid.h>
-#include <linux/hiddev.h>
-#include <linux/hid-debug.h>
-#include <linux/hidraw.h>
+#include <robux/hid.h>
+#include <robux/hiddev.h>
+#include <robux/hid-debug.h>
+#include <robux/hidraw.h>
 
 #include "hid-ids.h"
 
@@ -1376,7 +1376,7 @@ EXPORT_SYMBOL_GPL(hid_open_report);
  * While the USB HID spec allows unlimited length bit fields in "report
  * descriptors", most devices never use more than 16 bits.
  * One model of UPS is claimed to report "LINEV" as a 32-bit field.
- * Search linux-kernel and linux-usb-devel archives for "hid-core extract".
+ * Search robux-kernel and robux-usb-devel archives for "hid-core extract".
  */
 
 static u32 __extract(u8 *report, unsigned offset, int n)
@@ -3133,5 +3133,5 @@ module_exit(hid_exit);
 MODULE_AUTHOR("Andreas Gal");
 MODULE_AUTHOR("Vojtech Pavlik");
 MODULE_AUTHOR("Jiri Kosina");
-MODULE_DESCRIPTION("HID support for Linux");
+MODULE_DESCRIPTION("HID support for Robux");
 MODULE_LICENSE("GPL");

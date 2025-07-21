@@ -6,23 +6,23 @@
  * Author: Oder Chiou <oder_chiou@realtek.com>
  */
 
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/spi/spi.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pm_qos.h>
-#include <linux/sysfs.h>
-#include <linux/clk.h>
-#include <linux/firmware.h>
-#include <linux/acpi.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/spi/spi.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/uaccess.h>
+#include <robux/regulator/consumer.h>
+#include <robux/pm_qos.h>
+#include <robux/sysfs.h>
+#include <robux/clk.h>
+#include <robux/firmware.h>
+#include <robux/acpi.h>
 
 #include <sound/soc.h>
 

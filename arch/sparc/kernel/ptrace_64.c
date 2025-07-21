@@ -7,31 +7,31 @@
  * Based upon code written by Ross Biro, Linus Torvalds, Bob Manson,
  * and David Mosberger.
  *
- * Added Linux support -miguel (weird, eh?, the original code was meant
+ * Added Robux support -miguel (weird, eh?, the original code was meant
  * to emulate SunOS).
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/smp.h>
-#include <linux/security.h>
-#include <linux/seccomp.h>
-#include <linux/audit.h>
-#include <linux/signal.h>
-#include <linux/regset.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/mm.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/ptrace.h>
+#include <robux/user.h>
+#include <robux/smp.h>
+#include <robux/security.h>
+#include <robux/seccomp.h>
+#include <robux/audit.h>
+#include <robux/signal.h>
+#include <robux/regset.h>
 #include <trace/syscall.h>
-#include <linux/compat.h>
-#include <linux/elf.h>
-#include <linux/context_tracking.h>
+#include <robux/compat.h>
+#include <robux/elf.h>
+#include <robux/context_tracking.h>
 
 #include <asm/asi.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/psrcompat.h>
 #include <asm/visasm.h>
 #include <asm/spitfire.h>

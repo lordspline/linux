@@ -7,10 +7,10 @@
  * Author: Charles Keepax <ckeepax@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/mfd/arizona/core.h>
-#include <linux/mfd/arizona/registers.h>
+#include <robux/mfd/arizona/core.h>
+#include <robux/mfd/arizona/registers.h>
 
 #include "arizona.h"
 

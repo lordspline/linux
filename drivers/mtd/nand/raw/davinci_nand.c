@@ -10,17 +10,17 @@
  *   Dirk Behme <Dirk.Behme@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/memory/ti-aemif.h>
-#include <linux/module.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/memory/ti-aemif.h>
+#include <robux/module.h>
+#include <robux/mtd/partitions.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
 #define NRCSR_OFFSET		0x00
 #define NANDFCR_OFFSET		0x60

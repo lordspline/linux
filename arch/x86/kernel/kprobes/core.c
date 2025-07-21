@@ -26,31 +26,31 @@
  *		<arjan@infradead.org> and Jim Keniston <jkenisto@us.ibm.com>
  *		unified x86 kprobes code.
  */
-#include <linux/kprobes.h>
-#include <linux/ptrace.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/hardirq.h>
-#include <linux/preempt.h>
-#include <linux/sched/debug.h>
-#include <linux/perf_event.h>
-#include <linux/extable.h>
-#include <linux/kdebug.h>
-#include <linux/kallsyms.h>
-#include <linux/kgdb.h>
-#include <linux/ftrace.h>
-#include <linux/kasan.h>
-#include <linux/objtool.h>
-#include <linux/vmalloc.h>
-#include <linux/pgtable.h>
-#include <linux/set_memory.h>
-#include <linux/cfi.h>
-#include <linux/execmem.h>
+#include <robux/kprobes.h>
+#include <robux/ptrace.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/hardirq.h>
+#include <robux/preempt.h>
+#include <robux/sched/debug.h>
+#include <robux/perf_event.h>
+#include <robux/extable.h>
+#include <robux/kdebug.h>
+#include <robux/kallsyms.h>
+#include <robux/kgdb.h>
+#include <robux/ftrace.h>
+#include <robux/kasan.h>
+#include <robux/objtool.h>
+#include <robux/vmalloc.h>
+#include <robux/pgtable.h>
+#include <robux/set_memory.h>
+#include <robux/cfi.h>
+#include <robux/execmem.h>
 
 #include <asm/text-patching.h>
 #include <asm/cacheflush.h>
 #include <asm/desc.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/alternative.h>
 #include <asm/insn.h>
 #include <asm/debugreg.h>

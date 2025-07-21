@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/xtensa/kernel/irq.c
+ * robux/arch/xtensa/kernel/irq.c
  *
  * Xtensa built-in interrupt controller and some generic functions copied
  * from i386.
@@ -14,19 +14,19 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel_stat.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/xtensa-mx.h>
-#include <linux/irqchip/xtensa-pic.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/seq_file.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel_stat.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/xtensa-mx.h>
+#include <robux/irqchip/xtensa-pic.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
 
 #include <asm/mxregs.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/platform.h>
 #include <asm/traps.h>
 

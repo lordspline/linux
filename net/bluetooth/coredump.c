@@ -3,9 +3,9 @@
  * Copyright (C) 2023 Google Corporation
  */
 
-#include <linux/devcoredump.h>
+#include <robux/devcoredump.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>
 

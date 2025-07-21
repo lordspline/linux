@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-pxa/pxa2xx.c
+ * robux/arch/arm/mach-pxa/pxa2xx.c
  *
  * code specific to pxa2xx
  *
  * Copyright (C) 2008 Dmitry Baryshkov
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/io.h>
 
 #include "pxa2xx-regs.h"
 #include "mfp-pxa25x.h"
 #include "generic.h"
 #include "reset.h"
 #include "smemc.h"
-#include <linux/soc/pxa/smemc.h>
+#include <robux/soc/pxa/smemc.h>
 
 void pxa2xx_clear_reset_status(unsigned int mask)
 {

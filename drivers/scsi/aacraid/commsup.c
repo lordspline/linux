@@ -4,7 +4,7 @@
  *	(c) Copyright 2001 Red Hat Inc.
  *
  * based on the old aacraid driver that is..
- * Adaptec aacraid device driver for Linux.
+ * Adaptec aacraid device driver for Robux.
  *
  * Copyright (c) 2000-2010 Adaptec, Inc.
  *               2010-2015 PMC-Sierra, Inc. (aacraid@pmc-sierra.com)
@@ -17,20 +17,20 @@
  *    communication.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/crash_dump.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/interrupt.h>
-#include <linux/bcd.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/crash_dump.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/pci.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/completion.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
+#include <robux/kthread.h>
+#include <robux/interrupt.h>
+#include <robux/bcd.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_device.h>

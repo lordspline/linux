@@ -8,15 +8,15 @@
  * Author: Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/stw481x.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/stw481x.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
 
 /*
  * This driver can only access the non-USB portions of STw4811, the register

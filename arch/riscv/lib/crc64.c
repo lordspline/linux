@@ -7,8 +7,8 @@
 
 #include <asm/hwcap.h>
 #include <asm/alternative-macros.h>
-#include <linux/crc64.h>
-#include <linux/module.h>
+#include <robux/crc64.h>
+#include <robux/module.h>
 
 #include "crc-clmul.h"
 

@@ -31,14 +31,14 @@
  * SOFTWARE.
  */
 
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/mm.h>
+#include <robux/dma-mapping.h>
 
-#include <linux/mlx4/cmd.h>
-#include <linux/cpu_rmap.h>
+#include <robux/mlx4/cmd.h>
+#include <robux/cpu_rmap.h>
 
 #include "mlx4.h"
 #include "fw.h"

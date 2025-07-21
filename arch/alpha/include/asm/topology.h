@@ -2,9 +2,9 @@
 #ifndef _ASM_ALPHA_TOPOLOGY_H
 #define _ASM_ALPHA_TOPOLOGY_H
 
-#include <linux/smp.h>
-#include <linux/threads.h>
-#include <linux/numa.h>
+#include <robux/smp.h>
+#include <robux/threads.h>
+#include <robux/numa.h>
 #include <asm/machvec.h>
 
 # include <asm-generic/topology.h>

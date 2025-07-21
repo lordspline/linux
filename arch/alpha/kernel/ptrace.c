@@ -5,19 +5,19 @@
 /* mangled further by Bob Manson (manson@santafe.edu) */
 /* more mutilation by David Mosberger (davidm@azstarnet.com) */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/security.h>
-#include <linux/signal.h>
-#include <linux/audit.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/errno.h>
+#include <robux/ptrace.h>
+#include <robux/user.h>
+#include <robux/security.h>
+#include <robux/signal.h>
+#include <robux/audit.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/fpu.h>
 
 #include "proto.h"

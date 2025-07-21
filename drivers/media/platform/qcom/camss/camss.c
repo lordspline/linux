@@ -4,22 +4,22 @@
  *
  * Qualcomm MSM Camera Subsystem - Core
  *
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Robux Foundation. All rights reserved.
  * Copyright (C) 2015-2018 Linaro Ltd.
  */
-#include <linux/clk.h>
-#include <linux/interconnect.h>
-#include <linux/media-bus-format.h>
-#include <linux/media.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_graph.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <robux/clk.h>
+#include <robux/interconnect.h>
+#include <robux/media-bus-format.h>
+#include <robux/media.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/of_graph.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_domain.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
 
 #include <media/media-device.h>
 #include <media/v4l2-async.h>

@@ -13,15 +13,15 @@
  * Trademarks are the property of their respective owners.
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/unaligned.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/unaligned.h>
 
 #include "elan_i2c.h"
 

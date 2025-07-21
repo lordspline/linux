@@ -6,10 +6,10 @@
  * Viresh Kumar <vireshk@kernel.org>
  */
 
-#include <linux/clkdev.h>
-#include <linux/clk/spear.h>
-#include <linux/io.h>
-#include <linux/spinlock_types.h>
+#include <robux/clkdev.h>
+#include <robux/clk/spear.h>
+#include <robux/io.h>
+#include <robux/spinlock_types.h>
 #include "clk.h"
 
 static DEFINE_SPINLOCK(_lock);

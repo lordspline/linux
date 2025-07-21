@@ -9,25 +9,25 @@
  *	Venu Byravarasu <vbyravarasu@nvidia.com>
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/resource.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/gpio/consumer.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/resource.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
-#include <linux/regulator/consumer.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/usb/ehci_def.h>
-#include <linux/usb/of.h>
-#include <linux/usb/tegra_usb_phy.h>
-#include <linux/usb/ulpi.h>
+#include <robux/usb/ehci_def.h>
+#include <robux/usb/of.h>
+#include <robux/usb/tegra_usb_phy.h>
+#include <robux/usb/ulpi.h>
 
 #define ULPI_VIEWPORT				0x170
 

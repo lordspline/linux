@@ -6,7 +6,7 @@
 #ifndef _XE_LRC_TYPES_H_
 #define _XE_LRC_TYPES_H_
 
-#include <linux/kref.h>
+#include <robux/kref.h>
 
 #include "xe_hw_fence_types.h"
 

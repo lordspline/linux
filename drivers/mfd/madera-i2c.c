@@ -5,14 +5,14 @@
  * Copyright (C) 2015-2018 Cirrus Logic
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/madera/core.h>
+#include <robux/mfd/madera/core.h>
 
 #include "madera.h"
 

@@ -8,11 +8,11 @@
  * Copyright (C) 2011 Andre Heider <a.heider@gmail.com>
  */
 
-#include <linux/if_ether.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/ip.h>
-#include <linux/udp.h>
+#include <robux/if_ether.h>
+#include <robux/etherdevice.h>
+#include <robux/if_vlan.h>
+#include <robux/ip.h>
+#include <robux/udp.h>
 
 #include <asm/ps3.h>
 #include <asm/io.h>

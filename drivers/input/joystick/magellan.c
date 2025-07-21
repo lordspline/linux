@@ -4,14 +4,14 @@
  */
 
 /*
- * Magellan and Space Mouse 6dof controller driver for Linux
+ * Magellan and Space Mouse 6dof controller driver for Robux
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/serio.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/serio.h>
 
 #define DRIVER_DESC	"Magellan and SpaceMouse 6dof controller driver"
 

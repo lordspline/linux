@@ -6,9 +6,9 @@
 #ifndef __INTEL_WAKELOCK_H__
 #define __INTEL_WAKELOCK_H__
 
-#include <linux/types.h>
-#include <linux/workqueue.h>
-#include <linux/refcount.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
+#include <robux/refcount.h>
 
 #include "i915_reg_defs.h"
 

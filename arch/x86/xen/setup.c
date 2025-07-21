@@ -5,17 +5,17 @@
  * Jeremy Fitzhardinge <jeremy@xensource.com>, XenSource Inc, 2007
  */
 
-#include <linux/init.h>
-#include <linux/iscsi_ibft.h>
-#include <linux/sched.h>
-#include <linux/kstrtox.h>
-#include <linux/mm.h>
-#include <linux/pm.h>
-#include <linux/memblock.h>
-#include <linux/cpuidle.h>
-#include <linux/cpufreq.h>
-#include <linux/memory_hotplug.h>
-#include <linux/acpi.h>
+#include <robux/init.h>
+#include <robux/iscsi_ibft.h>
+#include <robux/sched.h>
+#include <robux/kstrtox.h>
+#include <robux/mm.h>
+#include <robux/pm.h>
+#include <robux/memblock.h>
+#include <robux/cpuidle.h>
+#include <robux/cpufreq.h>
+#include <robux/memory_hotplug.h>
+#include <robux/acpi.h>
 
 #include <asm/elf.h>
 #include <asm/vdso.h>

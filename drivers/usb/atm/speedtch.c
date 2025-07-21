@@ -10,18 +10,18 @@
  ******************************************************************************/
 
 #include <asm/page.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/usb/ch9.h>
-#include <linux/workqueue.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/firmware.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/slab.h>
+#include <robux/stat.h>
+#include <robux/timer.h>
+#include <robux/types.h>
+#include <robux/usb/ch9.h>
+#include <robux/workqueue.h>
 
 #include "usbatm.h"
 

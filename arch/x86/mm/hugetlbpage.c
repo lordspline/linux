@@ -5,15 +5,15 @@
  * Copyright (C) 2002, Rohit Seth <rohit.seth@intel.com>
  */
 
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/sched/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/pagemap.h>
-#include <linux/err.h>
-#include <linux/sysctl.h>
-#include <linux/compat.h>
+#include <robux/init.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/sched/mm.h>
+#include <robux/hugetlb.h>
+#include <robux/pagemap.h>
+#include <robux/err.h>
+#include <robux/sysctl.h>
+#include <robux/compat.h>
 #include <asm/mman.h>
 #include <asm/tlb.h>
 #include <asm/tlbflush.h>

@@ -5,12 +5,12 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/asn1_decoder.h>
-#include <linux/asn1_ber_bytecode.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/asn1_decoder.h>
+#include <robux/asn1_ber_bytecode.h>
 
 static const unsigned char asn1_op_lengths[ASN1_OP__NR] = {
 	/*					OPC TAG JMP ACT */

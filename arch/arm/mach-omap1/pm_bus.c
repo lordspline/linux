@@ -6,15 +6,15 @@
  *
  * Copyright (C) 2010 Texas Instruments, Inc.
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_clock.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/clk.h>
-#include <linux/err.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_clock.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/clk.h>
+#include <robux/err.h>
 
 #include "soc.h"
 

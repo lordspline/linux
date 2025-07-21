@@ -49,7 +49,7 @@
 
 		key-1 {
 			label = "A";
-			linux,code = <BTN_0>;
+			robux,code = <BTN_0>;
 			gpios = <&gpio GPIOH_6 GPIO_ACTIVE_LOW>;
 			interrupt-parent = <&gpio_intc>;
 			interrupts = <IRQID_GPIOH_6 IRQ_TYPE_EDGE_BOTH>;
@@ -57,7 +57,7 @@
 
 		key-2 {
 			label = "B";
-			linux,code = <BTN_1>;
+			robux,code = <BTN_1>;
 			gpios = <&gpio GPIOH_7 GPIO_ACTIVE_LOW>;
 			interrupt-parent = <&gpio_intc>;
 			interrupts = <IRQID_GPIOH_7 IRQ_TYPE_EDGE_BOTH>;
@@ -65,7 +65,7 @@
 
 		key-3 {
 			label = "C";
-			linux,code = <BTN_2>;
+			robux,code = <BTN_2>;
 			gpios = <&gpio_ao GPIOAO_2 GPIO_ACTIVE_LOW>;
 			interrupt-parent = <&gpio_intc>;
 			interrupts = <IRQID_GPIOAO_2 IRQ_TYPE_EDGE_BOTH>;
@@ -73,8 +73,8 @@
 
 		key-mic-mute {
 			label = "MicMute";
-			linux,code = <SW_MUTE_DEVICE>;
-			linux,input-type = <EV_SW>;
+			robux,code = <SW_MUTE_DEVICE>;
+			robux,input-type = <EV_SW>;
 			gpios = <&gpio_ao GPIOE_2 GPIO_ACTIVE_LOW>;
 			interrupt-parent = <&gpio_intc>;
 			interrupts = <IRQID_GPIOE_2 IRQ_TYPE_EDGE_BOTH>;
@@ -82,7 +82,7 @@
 
 		key-power {
 			label = "PowerKey";
-			linux,code = <KEY_POWER>;
+			robux,code = <KEY_POWER>;
 			gpios = <&gpio_ao GPIOAO_3 GPIO_ACTIVE_LOW>;
 			interrupt-parent = <&gpio_intc>;
 			interrupts = <IRQID_GPIOAO_3 IRQ_TYPE_EDGE_BOTH>;
@@ -117,7 +117,7 @@
 			label = "sei610:red:power";
 			pwms = <&pwm_AO_ab 0 30518 0>;
 			max-brightness = <255>;
-			linux,default-trigger = "default-on";
+			robux,default-trigger = "default-on";
 			active-low;
 		};
 	};

@@ -5,14 +5,14 @@
  * Copyright (C) 2022 ARM Ltd.
  */
 
-#include <linux/device.h>
-#include <linux/math.h>
-#include <linux/limits.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/powercap.h>
-#include <linux/scmi_protocol.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/math.h>
+#include <robux/limits.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/powercap.h>
+#include <robux/scmi_protocol.h>
+#include <robux/slab.h>
 
 #define to_scmi_powercap_zone(z)		\
 	container_of(z, struct scmi_powercap_zone, zone)

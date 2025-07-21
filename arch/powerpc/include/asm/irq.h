@@ -6,12 +6,12 @@
 /*
  */
 
-#include <linux/threads.h>
-#include <linux/list.h>
-#include <linux/radix-tree.h>
+#include <robux/threads.h>
+#include <robux/list.h>
+#include <robux/radix-tree.h>
 
 #include <asm/types.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 
 
 extern atomic_t ppc_n_lost_interrupts;

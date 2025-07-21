@@ -12,13 +12,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/types.h>
-#include <linux/integrity.h>
+#include <robux/types.h>
+#include <robux/integrity.h>
 #include <crypto/sha1.h>
 #include <crypto/hash.h>
-#include <linux/key.h>
-#include <linux/audit.h>
-#include <linux/lsm_hooks.h>
+#include <robux/key.h>
+#include <robux/audit.h>
+#include <robux/lsm_hooks.h>
 
 enum evm_ima_xattr_type {
 	IMA_XATTR_DIGEST = 0x01,

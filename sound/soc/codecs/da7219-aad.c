@@ -7,15 +7,15 @@
  * Author: Adam Thomson <Adam.Thomson.Opensource@diasemi.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/property.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/i2c.h>
+#include <robux/property.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/workqueue.h>
 #include <sound/soc.h>
 #include <sound/jack.h>
 #include <sound/da7219.h>

@@ -10,23 +10,23 @@
  *  Based on the ia64, i386, and alpha versions.
  */
 
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/ptrace.h>
-#include <linux/resume_user_mode.h>
-#include <linux/unistd.h>
-#include <linux/stddef.h>
-#include <linux/compat.h>
-#include <linux/elf.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/errno.h>
+#include <robux/wait.h>
+#include <robux/ptrace.h>
+#include <robux/resume_user_mode.h>
+#include <robux/unistd.h>
+#include <robux/stddef.h>
+#include <robux/compat.h>
+#include <robux/elf.h>
 #include <asm/ucontext.h>
 #include <asm/rt_sigframe.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/cacheflush.h>
 #include <asm/asm-offsets.h>
 #include <asm/vdso.h>

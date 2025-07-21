@@ -4,7 +4,7 @@
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include <linux/slab.h>
+#include <robux/slab.h>
 #include <ia_css_host_data.h>
 #include <sh_css_internal.h>
 

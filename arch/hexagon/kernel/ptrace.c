@@ -2,19 +2,19 @@
 /*
  * Ptrace support for Hexagon
  *
- * Copyright (c) 2010-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2013, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/regset.h>
-#include <linux/user.h>
-#include <linux/elf.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/errno.h>
+#include <robux/ptrace.h>
+#include <robux/regset.h>
+#include <robux/user.h>
+#include <robux/elf.h>
 
 #include <asm/user.h>
 

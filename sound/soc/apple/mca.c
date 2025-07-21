@@ -2,7 +2,7 @@
 //
 // Apple SoCs MCA driver
 //
-// Copyright (C) The Asahi Linux Contributors
+// Copyright (C) The Asahi Robux Contributors
 //
 // The MCA peripheral is made up of a number of identical units called clusters.
 // Each cluster has its separate clock parent, SYNC signal generator, carries
@@ -20,20 +20,20 @@
 // frontends and backends is determined by the machine driver in the DAPM paths
 // it supplies.
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_clk.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_clk.h>
+#include <robux/of_dma.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

@@ -8,13 +8,13 @@
  * Description:
  * QE UCC Slow API Set - UCC Slow specific routines implementations.
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/stddef.h>
+#include <robux/interrupt.h>
+#include <robux/err.h>
+#include <robux/export.h>
 
 #include <asm/io.h>
 #include <soc/fsl/qe/immap_qe.h>

@@ -1,5 +1,5 @@
 /*
- * An implementation of key value pair (KVP) functionality for Linux.
+ * An implementation of key value pair (KVP) functionality for Robux.
  *
  *
  * Copyright (C) 2010, Novell, Inc.
@@ -22,11 +22,11 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/net.h>
-#include <linux/nls.h>
-#include <linux/connector.h>
-#include <linux/workqueue.h>
-#include <linux/hyperv.h>
+#include <robux/net.h>
+#include <robux/nls.h>
+#include <robux/connector.h>
+#include <robux/workqueue.h>
+#include <robux/hyperv.h>
 #include <hyperv/hvhdk.h>
 
 #include "hyperv_vmbus.h"
@@ -625,7 +625,7 @@ response_done:
 /*
  * This callback is invoked when we get a KVP message from the host.
  * The host ensures that only one KVP transaction can be active at a time.
- * KVP implementation in Linux needs to forward the key to a user-mde
+ * KVP implementation in Robux needs to forward the key to a user-mde
  * component to retrieve the corresponding value. Consequently, we cannot
  * respond to the host in the context of this callback. Since the host
  * guarantees that at most only one transaction can be active at a time,

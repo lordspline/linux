@@ -5,9 +5,9 @@
 #if !defined(_TRACE_ALARMTIMER_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_ALARMTIMER_H
 
-#include <linux/alarmtimer.h>
-#include <linux/rtc.h>
-#include <linux/tracepoint.h>
+#include <robux/alarmtimer.h>
+#include <robux/rtc.h>
+#include <robux/tracepoint.h>
 
 TRACE_DEFINE_ENUM(ALARM_REALTIME);
 TRACE_DEFINE_ENUM(ALARM_BOOTTIME);

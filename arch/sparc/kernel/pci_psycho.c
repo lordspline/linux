@@ -6,16 +6,16 @@
  * Copyright (C) 1999 Jakub Jelinek   (jakub@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 
 #include <asm/iommu.h>
 #include <asm/irq.h>

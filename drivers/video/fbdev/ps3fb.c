@@ -1,12 +1,12 @@
 /*
- *  linux/drivers/video/ps3fb.c -- PS3 GPU frame buffer device
+ *  robux/drivers/video/ps3fb.c -- PS3 GPU frame buffer device
  *
  *	Copyright (C) 2006 Sony Computer Entertainment Inc.
  *	Copyright 2006, 2007 Sony Corporation
  *
  *  This file is based on :
  *
- *  linux/drivers/video/vfb.c -- Virtual frame buffer device
+ *  robux/drivers/video/vfb.c -- Virtual frame buffer device
  *
  *	Copyright (C) 2002 James Simmons
  *
@@ -17,20 +17,20 @@
  *  more details.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/console.h>
-#include <linux/ioctl.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/uaccess.h>
-#include <linux/fb.h>
-#include <linux/fbcon.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/console.h>
+#include <robux/ioctl.h>
+#include <robux/kthread.h>
+#include <robux/freezer.h>
+#include <robux/uaccess.h>
+#include <robux/fb.h>
+#include <robux/fbcon.h>
+#include <robux/init.h>
 
 #include <asm/cell-regs.h>
 #include <asm/lv1call.h>

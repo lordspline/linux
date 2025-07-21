@@ -3,11 +3,11 @@
  * Userspace indexing of printk formats
  */
 
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/string_helpers.h>
 
 #include "internal.h"
 

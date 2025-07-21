@@ -2,13 +2,13 @@
 #ifndef __SHARED_H__
 #define __SHARED_H__
 
-#include <linux/types.h>
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
+#include <robux/types.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
+#include <robux/bitops.h>
 
-#include <linux/gfp.h>
-#include <linux/rcupdate.h>
+#include <robux/gfp.h>
+#include <robux/rcupdate.h>
 
 #ifndef module_init
 #define module_init(x)

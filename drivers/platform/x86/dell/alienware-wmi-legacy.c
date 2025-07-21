@@ -7,7 +7,7 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/wmi.h>
+#include <robux/wmi.h>
 #include "alienware-wmi.h"
 
 struct legacy_led_args {

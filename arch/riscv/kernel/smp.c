@@ -8,21 +8,21 @@
  * Copyright (C) 2017 SiFive
  */
 
-#include <linux/cpu.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kexec.h>
-#include <linux/kgdb.h>
-#include <linux/percpu.h>
-#include <linux/profile.h>
-#include <linux/smp.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/irq_work.h>
-#include <linux/nmi.h>
+#include <robux/cpu.h>
+#include <robux/clockchips.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/kexec.h>
+#include <robux/kgdb.h>
+#include <robux/percpu.h>
+#include <robux/profile.h>
+#include <robux/smp.h>
+#include <robux/sched.h>
+#include <robux/seq_file.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/irq_work.h>
+#include <robux/nmi.h>
 
 #include <asm/tlbflush.h>
 #include <asm/cacheflush.h>
@@ -49,7 +49,7 @@ void __init smp_setup_processor_id(void)
 {
 	cpuid_to_hartid_map(0) = boot_cpu_hartid;
 
-	pr_info("Booting Linux on hartid %lu\n", boot_cpu_hartid);
+	pr_info("Booting Robux on hartid %lu\n", boot_cpu_hartid);
 }
 
 static DEFINE_PER_CPU_READ_MOSTLY(int, ipi_dummy_dev);

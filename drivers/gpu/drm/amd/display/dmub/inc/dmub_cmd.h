@@ -27,9 +27,9 @@
 #define DMUB_CMD_H
 
 #include <asm/byteorder.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/delay.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/delay.h>
 
 #include "atomfirmware.h"
 

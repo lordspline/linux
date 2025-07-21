@@ -5,13 +5,13 @@
  * All rights reserved
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/io.h>
-#include <linux/notifier.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/spinlock.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/io.h>
+#include <robux/notifier.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

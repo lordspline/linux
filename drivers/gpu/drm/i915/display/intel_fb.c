@@ -3,8 +3,8 @@
  * Copyright © 2021 Intel Corporation
  */
 
-#include <linux/dma-fence.h>
-#include <linux/dma-resv.h>
+#include <robux/dma-fence.h>
+#include <robux/dma-resv.h>
 
 #include <drm/drm_blend.h>
 #include <drm/drm_gem.h>

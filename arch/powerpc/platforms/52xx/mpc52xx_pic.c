@@ -31,7 +31,7 @@
  *
  * virqs
  * -----
- * The Linux IRQ subsystem requires that each irq source be assigned a
+ * The Robux IRQ subsystem requires that each irq source be assigned a
  * system wide unique IRQ number starting at 1 (0 means no irq).  Since
  * systems can have multiple interrupt controllers, the virtual IRQ (virq)
  * infrastructure lets each interrupt controller to define a local set
@@ -98,11 +98,11 @@
  */
 #undef DEBUG
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 #include <asm/io.h>
 #include <asm/mpc52xx.h>
 
@@ -444,7 +444,7 @@ void __init mpc52xx_init_irq(void)
 
 	/*
 	 * As last step, add an irq host to translate the real
-	 * hw irq information provided by the ofw to linux virq
+	 * hw irq information provided by the ofw to robux virq
 	 */
 	mpc52xx_irqhost = irq_domain_create_linear(of_fwnode_handle(picnode),
 	                                 MPC52xx_IRQ_HIGHTESTHWIRQ,

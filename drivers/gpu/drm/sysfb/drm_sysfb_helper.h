@@ -3,8 +3,8 @@
 #ifndef DRM_SYSFB_HELPER_H
 #define DRM_SYSFB_HELPER_H
 
-#include <linux/container_of.h>
-#include <linux/iosys-map.h>
+#include <robux/container_of.h>
+#include <robux/iosys-map.h>
 
 #include <video/pixel_format.h>
 

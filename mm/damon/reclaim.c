@@ -7,9 +7,9 @@
 
 #define pr_fmt(fmt) "damon-reclaim: " fmt
 
-#include <linux/damon.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
+#include <robux/damon.h>
+#include <robux/kstrtox.h>
+#include <robux/module.h>
 
 #include "modules-common.h"
 

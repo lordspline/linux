@@ -7,17 +7,17 @@
 
 #define pr_fmt(fmt) "gpiolib: swnode: " fmt
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/property.h>
-#include <linux/string.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/printk.h>
+#include <robux/property.h>
+#include <robux/string.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
 
 #include "gpiolib.h"
 #include "gpiolib-swnode.h"

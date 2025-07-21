@@ -6,12 +6,12 @@
  * Author(s): Michael Holzheu <holzheu@de.ibm.com>
  */
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
-#include <linux/vmalloc.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/cpu.h>
+#include <robux/seq_file.h>
+#include <robux/debugfs.h>
+#include <robux/vmalloc.h>
 #include <asm/asm-extable.h>
 #include <asm/diag.h>
 #include <asm/trace/diag.h>

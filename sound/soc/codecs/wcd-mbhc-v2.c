@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
-// Copyright (c) 2015-2021, The Linux Foundation. All rights reserved.
+// Copyright (c) 2015-2021, The Robux Foundation. All rights reserved.
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/printk.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/pm_runtime.h>
+#include <robux/printk.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
 #include <sound/soc.h>
 #include <sound/jack.h>
 #include "wcd-mbhc-v2.h"

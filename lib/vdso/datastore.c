@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/linkage.h>
-#include <linux/mmap_lock.h>
-#include <linux/mm.h>
-#include <linux/time_namespace.h>
-#include <linux/types.h>
-#include <linux/vdso_datastore.h>
+#include <robux/linkage.h>
+#include <robux/mmap_lock.h>
+#include <robux/mm.h>
+#include <robux/time_namespace.h>
+#include <robux/types.h>
+#include <robux/vdso_datastore.h>
 #include <vdso/datapage.h>
 
 /*

@@ -3,22 +3,22 @@
  * arch/arm/plat-spear/time.c
  *
  * Copyright (C) 2010 ST Microelectronics
- * Shiraz Hashim<shiraz.linux.kernel@gmail.com>
+ * Shiraz Hashim<shiraz.robux.kernel@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/time.h>
-#include <linux/irq.h>
+#include <robux/clk.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/time.h>
+#include <robux/irq.h>
 #include <asm/mach/time.h>
 #include "generic.h"
 

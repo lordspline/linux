@@ -4,8 +4,8 @@
  * Copyright (C) 2000, 2007 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/export.h>
-#include <linux/linkage.h>
+#include <robux/export.h>
+#include <robux/linkage.h>
 #include <asm/asi.h>
 #include <asm/backoff.h>
 

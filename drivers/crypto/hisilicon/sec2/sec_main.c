@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2019 HiSilicon Limited. */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/debugfs.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/iommu.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/seq_file.h>
-#include <linux/topology.h>
-#include <linux/uacce.h>
+#include <robux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/debugfs.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/iommu.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/seq_file.h>
+#include <robux/topology.h>
+#include <robux/uacce.h>
 #include "sec.h"
 
 #define CAP_FILE_PERMISSION		0444

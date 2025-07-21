@@ -4,11 +4,11 @@
 #ifndef __IPU3_CIO2_H
 #define __IPU3_CIO2_H
 
-#include <linux/bits.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
 
 #include <asm/page.h>
 

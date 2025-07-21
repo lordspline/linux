@@ -7,20 +7,20 @@
  *         Tai Nguyen <ttnguyen@apm.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpumask.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/cpuhotplug.h>
+#include <robux/cpumask.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/perf_event.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #define CSW_CSWCR                       0x0000
 #define  CSW_CSWCR_DUALMCB_MASK         BIT(0)

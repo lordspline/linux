@@ -7,12 +7,12 @@
  *
  * Based on goodix_ts_berlin driver.
  */
-#include <linux/unaligned.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/input.h>
+#include <robux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
+#include <robux/input.h>
 
 #include "goodix_berlin.h"
 

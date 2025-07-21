@@ -2,16 +2,16 @@
 /*
  * Copyright (c) 2015 Pengutronix, Sascha Hauer <kernel@pengutronix.de>
  */
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/regulator/consumer.h>
-#include <linux/soc/mediatek/infracfg.h>
+#include <robux/clk.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/regulator/consumer.h>
+#include <robux/soc/mediatek/infracfg.h>
 
 #include <dt-bindings/power/mt2701-power.h>
 #include <dt-bindings/power/mt2712-power.h>

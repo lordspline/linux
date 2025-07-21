@@ -3,7 +3,7 @@
  * Copyright (C) 2012 Red Hat
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_drv.h>

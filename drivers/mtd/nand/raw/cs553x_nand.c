@@ -12,15 +12,15 @@
  *   where 0-3 reflects the chip select for NAND.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
+#include <robux/iopoll.h>
 
 #include <asm/msr.h>
 

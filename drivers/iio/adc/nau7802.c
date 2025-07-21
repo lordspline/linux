@@ -5,17 +5,17 @@
  * Copyright 2013 Free Electrons
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/wait.h>
-#include <linux/log2.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/wait.h>
+#include <robux/log2.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #define NAU7802_REG_PUCTRL	0x00
 #define NAU7802_PUCTRL_RR(x)		(x << 0)

@@ -9,7 +9,7 @@
 
 #define pr_fmt(fmt) "CRB_FFA: " fmt
 
-#include <linux/arm_ffa.h>
+#include <robux/arm_ffa.h>
 #include "tpm_crb_ffa.h"
 
 /* TPM service function status codes */

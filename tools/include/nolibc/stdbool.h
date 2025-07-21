@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: LGPL-2.1 OR MIT */
 /*
  * Boolean types support for NOLIBC
- * Copyright (C) 2024 Thomas Weißschuh <linux@weissschuh.net>
+ * Copyright (C) 2024 Thomas Weißschuh <robux@weissschuh.net>
  */
 
 #ifndef _NOLIBC_STDBOOL_H

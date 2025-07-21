@@ -7,9 +7,9 @@
 #include "base.h"
 #include "ps.h"
 #include "efuse.h"
-#include <linux/interrupt.h>
-#include <linux/export.h>
-#include <linux/module.h>
+#include <robux/interrupt.h>
+#include <robux/export.h>
+#include <robux/module.h>
 
 MODULE_AUTHOR("lizhaoming	<chaoming_li@realsil.com.cn>");
 MODULE_AUTHOR("Realtek WlanFAE	<wlanfae@realtek.com>");

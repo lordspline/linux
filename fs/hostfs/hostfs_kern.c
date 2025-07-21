@@ -1,24 +1,24 @@
 /*
- * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  * Licensed under the GPL
  *
  * Ported the filesystem routines to 2.5.
  * 2003-02-10 Petr Baudis <pasky@ucw.cz>
  */
 
-#include <linux/fs.h>
-#include <linux/magic.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/statfs.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
-#include <linux/writeback.h>
-#include <linux/mount.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/namei.h>
+#include <robux/fs.h>
+#include <robux/magic.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/pagemap.h>
+#include <robux/statfs.h>
+#include <robux/slab.h>
+#include <robux/seq_file.h>
+#include <robux/writeback.h>
+#include <robux/mount.h>
+#include <robux/fs_context.h>
+#include <robux/fs_parser.h>
+#include <robux/namei.h>
 #include "hostfs.h"
 #include <init.h>
 #include <kern.h>
@@ -181,7 +181,7 @@ static char *follow_link(char *link)
 static int hostfs_statfs(struct dentry *dentry, struct kstatfs *sf)
 {
 	/*
-	 * do_statfs uses struct statfs64 internally, but the linux kernel
+	 * do_statfs uses struct statfs64 internally, but the robux kernel
 	 * struct statfs still has 32-bit versions for most of these fields,
 	 * so we convert them here
 	 */
@@ -1083,5 +1083,5 @@ static void __exit exit_hostfs(void)
 
 module_init(init_hostfs)
 module_exit(exit_hostfs)
-MODULE_DESCRIPTION("User-Mode Linux Host filesystem");
+MODULE_DESCRIPTION("User-Mode Robux Host filesystem");
 MODULE_LICENSE("GPL");

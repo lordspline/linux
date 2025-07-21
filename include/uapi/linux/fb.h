@@ -1,10 +1,10 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI_LINUX_FB_H
 #define _UAPI_LINUX_FB_H
 
-#include <linux/types.h>
-#include <linux/i2c.h>
-#include <linux/vesa.h>
+#include <robux/types.h>
+#include <robux/i2c.h>
+#include <robux/vesa.h>
 
 /* Definitions of frame buffers						*/
 

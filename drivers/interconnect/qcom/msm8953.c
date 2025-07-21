@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/clk.h>
-#include <linux/interconnect-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/interconnect-provider.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include <dt-bindings/interconnect/qcom,msm8953.h>
 

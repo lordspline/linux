@@ -14,9 +14,9 @@
 
 #include "cx88.h"
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
 
 #include <media/v4l2-common.h>
 

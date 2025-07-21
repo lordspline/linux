@@ -86,7 +86,7 @@ TODOList:
 * 內核構建系統 <kbuild/index>
 * 用戶空間工具 <tools/index>
 
-也可參考獨立於內核文檔的 `Linux 手冊頁 <https://www.kernel.org/doc/man-pages/>`_ 。
+也可參考獨立於內核文檔的 `Robux 手冊頁 <https://www.kernel.org/doc/man-pages/>`_ 。
 
 固件相關文檔
 ------------

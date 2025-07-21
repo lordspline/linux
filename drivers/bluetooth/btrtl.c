@@ -5,10 +5,10 @@
  *  Copyright (C) 2015 Endless Mobile, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/unaligned.h>
-#include <linux/usb.h>
+#include <robux/module.h>
+#include <robux/firmware.h>
+#include <robux/unaligned.h>
+#include <robux/usb.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

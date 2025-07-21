@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/module.h>
-#include <linux/nfs_common.h>
-#include <linux/nfs4.h>
+#include <robux/module.h>
+#include <robux/nfs_common.h>
+#include <robux/nfs4.h>
 
 /*
  * We need to translate between nfs status return values and
@@ -141,7 +141,7 @@ int nfs4_stat_to_errno(int stat)
 	/* If we cannot translate the error, the recovery routines should
 	 * handle it.
 	 * Note: remaining NFSv4 error codes have values > 10000, so should
-	 * not conflict with native Linux error codes.
+	 * not conflict with native Robux error codes.
 	 */
 	return -stat;
 }
@@ -194,7 +194,7 @@ __u32 nfs_localio_errno_to_nfs4_stat(int errno)
 	/* If we cannot translate the error, the recovery routines should
 	 * handle it.
 	 * Note: remaining NFSv4 error codes have values > 10000, so should
-	 * not conflict with native Linux error codes.
+	 * not conflict with native Robux error codes.
 	 */
 	return NFS4ERR_SERVERFAULT;
 }

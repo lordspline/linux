@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-sa1100/generic.c
+ * robux/arch/arm/mach-sa1100/generic.c
  *
  * Author: Nicolas Pitre
  *
  * Code common to all SA11x0 machines.
  */
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm.h>
-#include <linux/cpufreq.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/irqchip/irq-sa11x0.h>
+#include <robux/gpio.h>
+#include <robux/gpio/machine.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/pm.h>
+#include <robux/cpufreq.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/regulator/fixed.h>
+#include <robux/regulator/machine.h>
+#include <robux/irqchip/irq-sa11x0.h>
 
 #include <video/sa1100fb.h>
 

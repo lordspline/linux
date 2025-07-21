@@ -3,9 +3,9 @@
 
 #define pr_fmt(x) KBUILD_MODNAME ": " x
 
-#include <linux/module.h>
-#include <linux/tsm-mr.h>
-#include <linux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/tsm-mr.h>
+#include <robux/miscdevice.h>
 #include <crypto/hash.h>
 
 static struct {

@@ -4,24 +4,24 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/sched/signal.h>
-#include <linux/anon_inodes.h>
-#include <linux/idr.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/mutex.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/sched/signal.h>
+#include <robux/anon_inodes.h>
+#include <robux/idr.h>
 #include <sound/core.h>
 #include <sound/timer.h>
 #include <sound/control.h>
 #include <sound/info.h>
 #include <sound/minors.h>
 #include <sound/initval.h>
-#include <linux/kmod.h>
+#include <robux/kmod.h>
 
 /* internal flags */
 #define SNDRV_TIMER_IFLG_PAUSED		0x00010000

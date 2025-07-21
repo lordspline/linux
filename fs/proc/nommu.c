@@ -5,22 +5,22 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/mman.h>
-#include <linux/proc_fs.h>
-#include <linux/mm.h>
-#include <linux/mmzone.h>
-#include <linux/pagemap.h>
-#include <linux/swap.h>
-#include <linux/smp.h>
-#include <linux/seq_file.h>
-#include <linux/hugetlb.h>
-#include <linux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/time.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/mman.h>
+#include <robux/proc_fs.h>
+#include <robux/mm.h>
+#include <robux/mmzone.h>
+#include <robux/pagemap.h>
+#include <robux/swap.h>
+#include <robux/smp.h>
+#include <robux/seq_file.h>
+#include <robux/hugetlb.h>
+#include <robux/vmalloc.h>
 #include <asm/tlb.h>
 #include <asm/div64.h>
 #include "internal.h"

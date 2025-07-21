@@ -13,19 +13,19 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/acpi.h>
-#include <linux/errno.h>
-#include <linux/irq.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/axp20x.h>
-#include <linux/module.h>
-#include <linux/platform_data/x86/soc.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/errno.h>
+#include <robux/irq.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mfd/axp20x.h>
+#include <robux/module.h>
+#include <robux/platform_data/x86/soc.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #define AXP20X_PEK_STARTUP_MASK		(0xc0)
 #define AXP20X_PEK_SHUTDOWN_MASK	(0x03)

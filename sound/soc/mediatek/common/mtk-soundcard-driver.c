@@ -6,9 +6,9 @@
  * Author: Trevor Wu <trevor.wu@mediatek.com>
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
 #include <sound/soc.h>
 
 #include "mtk-dsp-sof-common.h"

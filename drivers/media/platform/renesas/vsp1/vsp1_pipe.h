@@ -9,11 +9,11 @@
 #ifndef __VSP1_PIPE_H__
 #define __VSP1_PIPE_H__
 
-#include <linux/dynamic_debug.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
+#include <robux/dynamic_debug.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/wait.h>
 
 #include <media/media-entity.h>
 

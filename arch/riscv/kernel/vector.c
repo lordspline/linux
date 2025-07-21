@@ -3,13 +3,13 @@
  * Copyright (C) 2023 SiFive
  * Author: Andy Chiu <andy.chiu@sifive.com>
  */
-#include <linux/export.h>
-#include <linux/sched/signal.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
-#include <linux/prctl.h>
+#include <robux/export.h>
+#include <robux/sched/signal.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/uaccess.h>
+#include <robux/prctl.h>
 
 #include <asm/thread_info.h>
 #include <asm/processor.h>

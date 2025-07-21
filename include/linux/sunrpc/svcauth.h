@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/include/linux/sunrpc/svcauth.h
+ * robux/include/robux/sunrpc/svcauth.h
  *
  * RPC server-side authentication stuff.
  *
@@ -10,14 +10,14 @@
 #ifndef _LINUX_SUNRPC_SVCAUTH_H_
 #define _LINUX_SUNRPC_SVCAUTH_H_
 
-#include <linux/string.h>
-#include <linux/sunrpc/msg_prot.h>
-#include <linux/sunrpc/cache.h>
-#include <linux/sunrpc/gss_api.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/hash.h>
-#include <linux/stringhash.h>
-#include <linux/cred.h>
+#include <robux/string.h>
+#include <robux/sunrpc/msg_prot.h>
+#include <robux/sunrpc/cache.h>
+#include <robux/sunrpc/gss_api.h>
+#include <robux/sunrpc/clnt.h>
+#include <robux/hash.h>
+#include <robux/stringhash.h>
+#include <robux/cred.h>
 
 struct svc_cred {
 	kuid_t			cr_uid;

@@ -5,7 +5,7 @@
 #if !defined(_TRACE_SCMI_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_SCMI_H
 
-#include <linux/tracepoint.h>
+#include <robux/tracepoint.h>
 
 #define TRACE_SCMI_MAX_TAG_LEN	6
 

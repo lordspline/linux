@@ -21,10 +21,10 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/backlight.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 #include <drm/drm_crtc.h>
 #include <drm/drm_panel.h>

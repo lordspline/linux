@@ -9,7 +9,7 @@
 #ifndef LINUX_PCIE_DWC_H
 #define LINUX_PCIE_DWC_H
 
-#include <linux/pci_ids.h>
+#include <robux/pci_ids.h>
 
 struct dwc_pcie_vsec_id {
 	u16 vendor_id;

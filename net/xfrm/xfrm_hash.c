@@ -4,12 +4,12 @@
  * Copyright (C) 2006 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/xfrm.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/memblock.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/xfrm.h>
 
 #include "xfrm_hash.h"
 

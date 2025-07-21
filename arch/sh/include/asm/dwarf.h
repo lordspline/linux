@@ -191,10 +191,10 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/compiler.h>
-#include <linux/bug.h>
-#include <linux/list.h>
-#include <linux/module.h>
+#include <robux/compiler.h>
+#include <robux/bug.h>
+#include <robux/list.h>
+#include <robux/module.h>
 
 /*
  * Read either the frame pointer (r14) or the stack pointer (r15).

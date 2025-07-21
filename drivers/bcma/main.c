@@ -6,16 +6,16 @@
  */
 
 #include "bcma_private.h"
-#include <linux/module.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/bcma/bcma.h>
-#include <linux/slab.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
+#include <robux/module.h>
+#include <robux/mmc/sdio_func.h>
+#include <robux/platform_device.h>
+#include <robux/pci.h>
+#include <robux/bcma/bcma.h>
+#include <robux/slab.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_device.h>
+#include <robux/of_platform.h>
 
 MODULE_DESCRIPTION("Broadcom's specific AMBA driver");
 MODULE_LICENSE("GPL");

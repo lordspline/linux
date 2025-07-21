@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kexec.h>
-#include <linux/memblock.h>
-#include <linux/pgtable.h>
-#include <linux/sched/hotplug.h>
+#include <robux/acpi.h>
+#include <robux/cpu.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/kexec.h>
+#include <robux/memblock.h>
+#include <robux/pgtable.h>
+#include <robux/sched/hotplug.h>
 #include <asm/apic.h>
 #include <asm/barrier.h>
 #include <asm/init.h>
@@ -199,7 +199,7 @@ static void acpi_mp_disable_offlining(struct acpi_madt_multiproc_wakeup *mp_wake
 	 * already and acpi_wakeup_cpu() uses the cached value to bring up the
 	 * secondary CPUs.
 	 *
-	 * Note: This is a Linux specific convention and not covered by the
+	 * Note: This is a Robux specific convention and not covered by the
 	 *       ACPI specification.
 	 */
 	mp_wake->mailbox_address = 0;

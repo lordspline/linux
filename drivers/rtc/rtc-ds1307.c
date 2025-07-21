@@ -8,27 +8,27 @@
  *  Copyright (C) 2012 Bertrand Achard (nvram access fixes)
  */
 
-#include <linux/bcd.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kstrtox.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/rtc/ds1307.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
-#include <linux/watchdog.h>
+#include <robux/bcd.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kstrtox.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/rtc/ds1307.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/clk-provider.h>
+#include <robux/regmap.h>
+#include <robux/watchdog.h>
 
 /*
- * We can't determine type by probing, but if we expect pre-Linux code
+ * We can't determine type by probing, but if we expect pre-Robux code
  * to have set the chip up as a clock (turning on the oscillator and
- * setting the date and time), Linux can ignore the non-clock features.
+ * setting the date and time), Robux can ignore the non-clock features.
  * That's a natural job for a factory or repair bench.
  */
 enum ds_type {

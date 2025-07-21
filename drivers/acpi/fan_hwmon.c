@@ -5,13 +5,13 @@
  * Copyright (C) 2024 Armin Wolf <W_Armin@gmx.de>
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/limits.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/limits.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
 #include "fan.h"
 

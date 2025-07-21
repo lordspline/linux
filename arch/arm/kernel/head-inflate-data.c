@@ -6,8 +6,8 @@
  * Copyright:	(C) 2017  Linaro Limited
  */
 
-#include <linux/init.h>
-#include <linux/zutil.h>
+#include <robux/init.h>
+#include <robux/zutil.h>
 #include "head.h"
 
 /* for struct inflate_state */

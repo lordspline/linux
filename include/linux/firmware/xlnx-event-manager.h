@@ -8,7 +8,7 @@
 #ifndef _FIRMWARE_XLNX_EVENT_MANAGER_H_
 #define _FIRMWARE_XLNX_EVENT_MANAGER_H_
 
-#include <linux/firmware/xlnx-zynqmp.h>
+#include <robux/firmware/xlnx-zynqmp.h>
 
 #define CB_MAX_PAYLOAD_SIZE	(4U) /*In payload maximum 32bytes */
 

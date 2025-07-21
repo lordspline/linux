@@ -5,14 +5,14 @@
  *  Bjorn Andersson
  *  Dmitry Baryshkov
  */
-#include <linux/auxiliary_bus.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/container_of.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/string.h>
-#include <linux/platform_data/lenovo-yoga-c630.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bitops.h>
+#include <robux/completion.h>
+#include <robux/container_of.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/string.h>
+#include <robux/platform_data/lenovo-yoga-c630.h>
 
 #include "ucsi.h"
 

@@ -5,18 +5,18 @@
  * Copyright (C) 2016 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/usb/of.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/usb/of.h>
 
 #define REG_CONFIG					0x00
 	#define REG_CONFIG_CLK_EN			BIT(0)

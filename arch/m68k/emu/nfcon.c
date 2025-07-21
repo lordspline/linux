@@ -6,16 +6,16 @@
  * for more details.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/tty.h>
+#include <robux/tty_driver.h>
+#include <robux/tty_flip.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/uaccess.h>
+#include <robux/io.h>
 
 #include <asm/natfeat.h>
 

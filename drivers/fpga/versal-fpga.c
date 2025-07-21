@@ -3,14 +3,14 @@
  * Copyright (C) 2019-2021 Xilinx, Inc.
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/string.h>
-#include <linux/firmware/xlnx-zynqmp.h>
+#include <robux/dma-mapping.h>
+#include <robux/fpga/fpga-mgr.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/string.h>
+#include <robux/firmware/xlnx-zynqmp.h>
 
 static int versal_fpga_ops_write_init(struct fpga_manager *mgr,
 				      struct fpga_image_info *info,

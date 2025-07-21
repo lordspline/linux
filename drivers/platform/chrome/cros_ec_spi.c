@@ -3,16 +3,16 @@
 //
 // Copyright (C) 2012 Google, Inc
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <uapi/linux/sched/types.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <uapi/robux/sched/types.h>
 
 #include "cros_ec.h"
 

@@ -8,12 +8,12 @@
 #ifndef __ASM_MACH_GENERIC_FLOPPY_H
 #define __ASM_MACH_GENERIC_FLOPPY_H
 
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/linkage.h>
-#include <linux/types.h>
-#include <linux/mm.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/sched.h>
+#include <robux/linkage.h>
+#include <robux/types.h>
+#include <robux/mm.h>
 
 #include <asm/bootinfo.h>
 #include <asm/cachectl.h>

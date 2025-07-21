@@ -7,8 +7,8 @@
  * Author: Parthiban Veerasooran <parthiban.veerasooran@microchip.com>
  */
 
-#include <linux/etherdevice.h>
-#include <linux/spi/spi.h>
+#include <robux/etherdevice.h>
+#include <robux/spi/spi.h>
 
 struct oa_tc6;
 

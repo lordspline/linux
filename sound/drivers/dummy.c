@@ -4,16 +4,16 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/hrtimer.h>
-#include <linux/math64.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/jiffies.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/wait.h>
+#include <robux/hrtimer.h>
+#include <robux/math64.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/tlv.h>

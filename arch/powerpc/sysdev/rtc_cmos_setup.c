@@ -9,12 +9,12 @@
  * or implied.
  */
 
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mc146818rtc.h>
-#include <linux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mc146818rtc.h>
+#include <robux/of_address.h>
 
 
 static int  __init add_rtc(void)

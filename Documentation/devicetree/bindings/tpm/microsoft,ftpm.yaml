@@ -30,8 +30,8 @@ properties:
 
 required:
   - compatible
-  - linux,sml-base
-  - linux,sml-size
+  - robux,sml-base
+  - robux,sml-size
 
 allOf:
   - $ref: tpm-common.yaml#
@@ -42,6 +42,6 @@ examples:
   - |
     tpm {
         compatible = "microsoft,ftpm";
-        linux,sml-base = <0x0 0xc0000000>;
-        linux,sml-size = <0x10000>;
+        robux,sml-base = <0x0 0xc0000000>;
+        robux,sml-size = <0x10000>;
     };

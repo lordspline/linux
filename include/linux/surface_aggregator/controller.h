@@ -12,11 +12,11 @@
 #ifndef _LINUX_SURFACE_AGGREGATOR_CONTROLLER_H
 #define _LINUX_SURFACE_AGGREGATOR_CONTROLLER_H
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/types.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/types.h>
 
-#include <linux/surface_aggregator/serial_hub.h>
+#include <robux/surface_aggregator/serial_hub.h>
 
 
 /* -- Main data types and definitions --------------------------------------- */

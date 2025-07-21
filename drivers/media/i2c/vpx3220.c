@@ -5,14 +5,14 @@
  * Copyright (C) 2001 Laurent Pinchart <lpinchart@freegates.be>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/i2c.h>
-#include <linux/videodev2.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/i2c.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>
 

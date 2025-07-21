@@ -8,8 +8,8 @@
 #ifndef __PINCTRL_STARFIVE_JH7110_H__
 #define __PINCTRL_STARFIVE_JH7110_H__
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinmux.h>
 
 struct jh7110_pinctrl {
 	struct device *dev;

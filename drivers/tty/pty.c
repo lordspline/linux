@@ -7,28 +7,28 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/fcntl.h>
-#include <linux/sched/signal.h>
-#include <linux/string.h>
-#include <linux/major.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/uaccess.h>
-#include <linux/bitops.h>
-#include <linux/devpts_fs.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/mount.h>
-#include <linux/file.h>
-#include <linux/ioctl.h>
-#include <linux/compat.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/fcntl.h>
+#include <robux/sched/signal.h>
+#include <robux/string.h>
+#include <robux/major.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/uaccess.h>
+#include <robux/bitops.h>
+#include <robux/devpts_fs.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/poll.h>
+#include <robux/mount.h>
+#include <robux/file.h>
+#include <robux/ioctl.h>
+#include <robux/compat.h>
 #include "tty.h"
 
 #undef TTY_DEBUG_HANGUP

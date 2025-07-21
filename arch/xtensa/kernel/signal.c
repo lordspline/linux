@@ -15,15 +15,15 @@
  * Joe Taylor <joe@tensilica.com>
  */
 
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/personality.h>
-#include <linux/resume_user_mode.h>
-#include <linux/sched/task_stack.h>
+#include <robux/signal.h>
+#include <robux/errno.h>
+#include <robux/ptrace.h>
+#include <robux/personality.h>
+#include <robux/resume_user_mode.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/ucontext.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/cacheflush.h>
 #include <asm/coprocessor.h>
 #include <asm/processor.h>

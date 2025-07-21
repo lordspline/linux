@@ -50,7 +50,7 @@
 		led0 {
 			gpios = <&gpio1 23 1>;
 			default-state = "on";
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 		};
 	};
 };

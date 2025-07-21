@@ -40,8 +40,8 @@ iwlmei_sap_data_offset(enum iwl_sap_data_trace_type trace_type)
 
 #define __IWLWIFI_DEVICE_TRACE_IWLWIFI_SAP_DATA
 
-#include <linux/tracepoint.h>
-#include <linux/skbuff.h>
+#include <robux/tracepoint.h>
+#include <robux/skbuff.h>
 #include "sap.h"
 
 #undef TRACE_SYSTEM

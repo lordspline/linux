@@ -3,25 +3,25 @@
  * adummy.c: a dummy ATM driver
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/skbuff.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
 #include <asm/io.h>
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
-#include <linux/atmdev.h>
-#include <linux/atm.h>
-#include <linux/sonet.h>
+#include <robux/atmdev.h>
+#include <robux/atm.h>
+#include <robux/sonet.h>
 
 /* version definition */
 

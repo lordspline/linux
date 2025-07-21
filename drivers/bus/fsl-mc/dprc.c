@@ -4,8 +4,8 @@
  * Copyright 2020 NXP
  *
  */
-#include <linux/kernel.h>
-#include <linux/fsl/mc.h>
+#include <robux/kernel.h>
+#include <robux/fsl/mc.h>
 
 #include "fsl-mc-private.h"
 

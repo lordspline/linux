@@ -7,12 +7,12 @@
 #ifndef LINUX_CB710_DRIVER_H
 #define LINUX_CB710_DRIVER_H
 
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/mmc/host.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/mmc/host.h>
 
 struct cb710_slot;
 
@@ -130,8 +130,8 @@ void cb710_dump_regs(struct cb710_chip *chip, unsigned dump);
 #ifndef LINUX_CB710_SG_H
 #define LINUX_CB710_SG_H
 
-#include <linux/highmem.h>
-#include <linux/scatterlist.h>
+#include <robux/highmem.h>
+#include <robux/scatterlist.h>
 
 /*
  * 32-bit PIO mapping sg iterator

@@ -6,8 +6,8 @@
 #ifndef __KSMBD_WORK_H__
 #define __KSMBD_WORK_H__
 
-#include <linux/ctype.h>
-#include <linux/workqueue.h>
+#include <robux/ctype.h>
+#include <robux/workqueue.h>
 
 struct ksmbd_conn;
 struct ksmbd_session;

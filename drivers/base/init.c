@@ -4,11 +4,11 @@
  * Copyright (c) 2002-3 Open Source Development Labs
  */
 
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/memory.h>
-#include <linux/of.h>
-#include <linux/backing-dev.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/memory.h>
+#include <robux/of.h>
+#include <robux/backing-dev.h>
 
 #include "base.h"
 

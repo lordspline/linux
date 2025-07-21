@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 /* audit.h -- Auditing support
  *
  * Copyright 2003-2004 Red Hat Inc., Durham, North Carolina.
@@ -25,8 +25,8 @@
 #ifndef _UAPI_LINUX_AUDIT_H_
 #define _UAPI_LINUX_AUDIT_H_
 
-#include <linux/types.h>
-#include <linux/elf-em.h>
+#include <robux/types.h>
+#include <robux/elf-em.h>
 
 /* The netlink messages for the audit system is divided into blocks:
  * 1000 - 1099 are for commanding the audit system
@@ -123,8 +123,8 @@
 #define AUDIT_DM_CTRL		1338	/* Device Mapper target control */
 #define AUDIT_DM_EVENT		1339	/* Device Mapper events */
 
-#define AUDIT_AVC		1400	/* SE Linux avc denial or grant */
-#define AUDIT_SELINUX_ERR	1401	/* Internal SE Linux Errors */
+#define AUDIT_AVC		1400	/* SE Robux avc denial or grant */
+#define AUDIT_SELINUX_ERR	1401	/* Internal SE Robux Errors */
 #define AUDIT_AVC_PATH		1402	/* dentry, vfsmount pair from avc */
 #define AUDIT_MAC_POLICY_LOAD	1403	/* Policy file load */
 #define AUDIT_MAC_STATUS	1404	/* Changed enforcing,permissive,off */

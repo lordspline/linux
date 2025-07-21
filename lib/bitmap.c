@@ -4,12 +4,12 @@
  * Helper functions for bitmap.h.
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <robux/bitmap.h>
+#include <robux/bitops.h>
+#include <robux/ctype.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/slab.h>
 
 /**
  * DOC: bitmap introduction

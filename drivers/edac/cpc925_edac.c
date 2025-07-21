@@ -7,13 +7,13 @@
  * Authors:	Cao Qingtao <qingtao.cao@windriver.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/edac.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/gfp.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/edac.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/gfp.h>
 
 #include "edac_module.h"
 

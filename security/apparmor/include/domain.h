@@ -8,8 +8,8 @@
  * Copyright 2009-2010 Canonical Ltd.
  */
 
-#include <linux/binfmts.h>
-#include <linux/types.h>
+#include <robux/binfmts.h>
+#include <robux/types.h>
 
 #include "label.h"
 

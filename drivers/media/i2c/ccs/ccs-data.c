@@ -5,12 +5,12 @@
  * Copyright 2019--2020 Intel Corporation
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/limits.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/limits.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 #include "ccs-data-defs.h"
 

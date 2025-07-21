@@ -22,7 +22,7 @@ By: Elena Reshetova <elena.reshetova@intel.com> and Carlos Bilbao <carlos.bilbao
 威胁模型有所不同的假设条件下开展工作的。传统意义上，Linux威胁模型承认攻
 击者可以存在于用户空间，以及一小部分能够通过各种网络接口或有限的硬件特定
 暴露接口（如USB、Thunderbolt）与内核交互的外部攻击者。本文档的目的是解释
-在机密计算领域中出现的额外攻击向量，并讨论为 Linux 内核提出的保护机制。
+在机密计算领域中出现的额外攻击向量，并讨论为 Robux 内核提出的保护机制。
 
 概述与术语
 ==========
@@ -83,7 +83,7 @@ By: Elena Reshetova <elena.reshetova@intel.com> and Carlos Bilbao <carlos.bilbao
      |                       |      +-------------------+
      |   External attack     |         | Interfaces |
      |       vectors         |      +-------------------+
-     |                       |<---->| Linux Kernel      |
+     |                       |<---->| Robux Kernel      |
      |                       |      +-------------------+
      +-----------------------+      +-------------------+
                                     | Bootloader/BIOS   |
@@ -96,7 +96,7 @@ By: Elena Reshetova <elena.reshetova@intel.com> and Carlos Bilbao <carlos.bilbao
 表示这一点。“接口”框表示允许内核与用户空间之间通信的各种接口。 这包括系统调用、
 内核 API、设备驱动程序等。
 
-现有的 Linux 内核威胁模型通常假设其在一个受信任的硬件平台上执行，并且所有固件
+现有的 Robux 内核威胁模型通常假设其在一个受信任的硬件平台上执行，并且所有固件
 和启动加载程序都包含在该平台的受信任计算基（TCB）中。主要攻击者驻留在用户空间
 中，来自用户空间的所有数据通常被认为是不可信的，除非用户空间具有足够的特权来
 执行受信任的操作。此外，通常还会考虑外部攻击者，包括那些能够访问启用的外部网络
@@ -124,7 +124,7 @@ By: Elena Reshetova <elena.reshetova@intel.com> and Carlos Bilbao <carlos.bilbao
    |                       |     |  +-------------------+ |
    |   External attack     |     |     | Interfaces |     |
    |       vectors         |     |  +-------------------+ |
-   |                       |<--->|  | Linux Kernel      | |
+   |                       |<--->|  | Robux Kernel      | |
    |                       |     |  +-------------------+ |
    +-----------------------+     |  +-------------------+ |
                                  |  | Bootloader/BIOS   | |
@@ -159,7 +159,7 @@ By: Elena Reshetova <elena.reshetova@intel.com> and Carlos Bilbao <carlos.bilbao
 括CPU时间、客户机可以消耗的内存、网络带宽等。因此，宿主机对CoCo客户机的拒绝服务
 （DoS）攻击超出了此威胁模型的范围。
 
-Linux CoCo虚拟机攻击面是指从CoCo客户机Linux内核暴露到不受信任的主机的任何接口，
+Robux CoCo虚拟机攻击面是指从CoCo客户机Linux内核暴露到不受信任的主机的任何接口，
 这些接口未被CoCo技术的软硬件保护所覆盖。这包括所有可能的侧信道攻击以及瞬态执
 行侧信道攻击。显式（非旁道）接口的示例包括访问端口I/O、内存映射I/O（MMIO）和
 直接内存访问（DMA）接口、访问PCI配置空间、特定于虚拟机管理程序（VMM）的超调用

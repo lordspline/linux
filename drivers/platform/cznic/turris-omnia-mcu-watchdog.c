@@ -5,15 +5,15 @@
  * 2024 by Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/units.h>
-#include <linux/watchdog.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/units.h>
+#include <robux/watchdog.h>
 
-#include <linux/turris-omnia-mcu-interface.h>
+#include <robux/turris-omnia-mcu-interface.h>
 #include "turris-omnia-mcu.h"
 
 #define WATCHDOG_TIMEOUT		120

@@ -6,13 +6,13 @@
  * Author:
  *   Roger Tseng <rogerable@realtek.com>
  */
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/usb.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/core.h>
-#include <linux/rtsx_usb.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/usb.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/core.h>
+#include <robux/rtsx_usb.h>
 
 static int polling_pipe = 1;
 module_param(polling_pipe, int, S_IRUGO | S_IWUSR);

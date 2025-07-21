@@ -11,10 +11,10 @@
 #ifndef __ASM_SMP_H
 #define __ASM_SMP_H
 
-#include <linux/compiler.h>
-#include <linux/linkage.h>
-#include <linux/threads.h>
-#include <linux/cpumask.h>
+#include <robux/compiler.h>
+#include <robux/linkage.h>
+#include <robux/threads.h>
+#include <robux/cpumask.h>
 
 #include <asm/smp-ops.h>
 
@@ -109,7 +109,7 @@ static inline void *kexec_nonboot_cpu_func(void)
 #endif
 
 /*
- * This function will set up the necessary IPIs for Linux to communicate
+ * This function will set up the necessary IPIs for Robux to communicate
  * with the CPUs in mask.
  * Return 0 on success.
  */

@@ -3,8 +3,8 @@
  * Copyright (C) 2020-2021 Intel Corporation.
  */
 
-#include <linux/debugfs.h>
-#include <linux/wwan.h>
+#include <robux/debugfs.h>
+#include <robux/wwan.h>
 
 #include "iosm_ipc_imem.h"
 #include "iosm_ipc_trace.h"

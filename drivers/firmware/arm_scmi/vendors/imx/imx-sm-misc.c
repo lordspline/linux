@@ -7,13 +7,13 @@
 
 #define pr_fmt(fmt) "SCMI Notifications MISC - " fmt
 
-#include <linux/bits.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/scmi_protocol.h>
-#include <linux/scmi_imx_protocol.h>
+#include <robux/bits.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/scmi_protocol.h>
+#include <robux/scmi_imx_protocol.h>
 
 #include "../../protocols.h"
 #include "../../notify.h"

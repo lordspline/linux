@@ -14,17 +14,17 @@
  * This driver is based on dw_dmac and amba-pl08x drivers.
  */
 
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_dma.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of_dma.h>
+#include <robux/overflow.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "dmaengine.h"
 

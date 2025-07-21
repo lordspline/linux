@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/memory.h>
-#include <linux/static_call.h>
+#include <robux/memory.h>
+#include <robux/static_call.h>
 
 #include <asm/text-patching.h>
 

@@ -51,7 +51,7 @@ typedef unsigned long long	ullong;
 #endif
 
 #define __force
-/* This is defined in linux/compiler_types.h and is left for backward
+/* This is defined in robux/compiler_types.h and is left for backward
  * compatibility.
  */
 #ifndef __user

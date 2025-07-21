@@ -8,9 +8,9 @@
 #ifndef _KERNEL_KCSAN_ENCODING_H
 #define _KERNEL_KCSAN_ENCODING_H
 
-#include <linux/bits.h>
-#include <linux/log2.h>
-#include <linux/mm.h>
+#include <robux/bits.h>
+#include <robux/log2.h>
+#include <robux/mm.h>
 
 #include "kcsan.h"
 

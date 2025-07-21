@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * inftlcore.c -- Linux driver for Inverse Flash Translation Layer (INFTL)
+ * inftlcore.c -- Robux driver for Inverse Flash Translation Layer (INFTL)
  *
  * Copyright © 2002, Greg Ungerer (gerg@snapgear.com)
  *
@@ -9,19 +9,19 @@
  * Copyright © 1999 David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/kmod.h>
-#include <linux/hdreg.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/nftl.h>
-#include <linux/mtd/inftl.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/kmod.h>
+#include <robux/hdreg.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/nftl.h>
+#include <robux/mtd/inftl.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/uaccess.h>
 #include <asm/errno.h>
 #include <asm/io.h>
 

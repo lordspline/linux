@@ -3,8 +3,8 @@
 #define _NAMESPACE_H_
 #ifdef __KERNEL__
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
 
 struct mnt_namespace;
 struct fs_struct;

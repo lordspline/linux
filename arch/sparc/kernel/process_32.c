@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-/*  linux/arch/sparc/kernel/process.c
+/*  robux/arch/sparc/kernel/process.c
  *
  *  Copyright (C) 1995, 2008 David S. Miller (davem@davemloft.net)
  *  Copyright (C) 1996 Eddie C. Dost   (ecd@skynet.be)
@@ -8,28 +8,28 @@
 /*
  * This file handles the architecture-dependent parts of process handling..
  */
-#include <linux/elfcore.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/smp.h>
-#include <linux/reboot.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
+#include <robux/elfcore.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task.h>
+#include <robux/sched/task_stack.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/stddef.h>
+#include <robux/ptrace.h>
+#include <robux/user.h>
+#include <robux/smp.h>
+#include <robux/reboot.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
+#include <robux/cpu.h>
 
 #include <asm/auxio.h>
 #include <asm/oplib.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/page.h>
 #include <asm/delay.h>
 #include <asm/processor.h>

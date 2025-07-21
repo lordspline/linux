@@ -9,20 +9,20 @@
 #ifndef SOUND_DICE_H_INCLUDED
 #define SOUND_DICE_H_INCLUDED
 
-#include <linux/compat.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/sched/signal.h>
+#include <robux/compat.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/firewire.h>
+#include <robux/firewire-constants.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/wait.h>
+#include <robux/sched/signal.h>
 
 #include <sound/control.h>
 #include <sound/core.h>

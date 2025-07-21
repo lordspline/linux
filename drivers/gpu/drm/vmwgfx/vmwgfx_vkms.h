@@ -29,8 +29,8 @@
 #ifndef VMWGFX_VKMS_H_
 #define VMWGFX_VKMS_H_
 
-#include <linux/hrtimer_types.h>
-#include <linux/types.h>
+#include <robux/hrtimer_types.h>
+#include <robux/types.h>
 
 struct drm_atomic_state;
 struct drm_crtc;

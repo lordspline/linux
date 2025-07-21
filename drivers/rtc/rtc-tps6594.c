@@ -5,22 +5,22 @@
  * Copyright (C) 2023 BayLibre Incorporated - https://www.baylibre.com/
  */
 
-#include <linux/bcd.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/rtc.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/bcd.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/limits.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/rtc.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
-#include <linux/mfd/tps6594.h>
+#include <robux/mfd/tps6594.h>
 
 // Total number of RTC registers needed to set time
 #define NUM_TIME_REGS (TPS6594_REG_RTC_WEEKS - TPS6594_REG_RTC_SECONDS + 1)

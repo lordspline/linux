@@ -17,19 +17,19 @@
  *   For further TODOs check also belkin_sa.c.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
-#include <linux/unaligned.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
-#include <linux/serial.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/tty_driver.h>
+#include <robux/tty_flip.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/uaccess.h>
+#include <robux/unaligned.h>
+#include <robux/usb.h>
+#include <robux/usb/serial.h>
+#include <robux/serial.h>
 #include "mct_u232.h"
 
 #define DRIVER_AUTHOR "Wolfgang Grandegger <wolfgang@ces.ch>"

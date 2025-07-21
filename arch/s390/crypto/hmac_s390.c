@@ -12,11 +12,11 @@
 #include <crypto/internal/hash.h>
 #include <crypto/hmac.h>
 #include <crypto/sha2.h>
-#include <linux/cpufeature.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <robux/cpufeature.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
 
 /*
  * KMAC param block layout for sha2 function codes:

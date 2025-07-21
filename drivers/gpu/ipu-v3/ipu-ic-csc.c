@@ -3,11 +3,11 @@
  * Copyright (C) 2019 Mentor Graphics Inc.
  */
 
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/sizes.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/sizes.h>
 #include "ipu-prv.h"
 
 #define QUANT_MAP(q)					\

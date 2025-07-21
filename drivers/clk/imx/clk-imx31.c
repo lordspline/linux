@@ -3,13 +3,13 @@
  * Copyright (C) 2012 Sascha Hauer <kernel@pengutronix.de>
  */
 
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/module.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 #include <soc/imx/revision.h>
 #include <asm/irq.h>
 

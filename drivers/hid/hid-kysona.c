@@ -6,9 +6,9 @@
  *  Copyright (c) 2024 Lode Willems <me@lodewillems.com>
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/usb.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/usb.h>
 
 #include "hid-ids.h"
 

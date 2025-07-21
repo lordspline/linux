@@ -14,9 +14,9 @@
  *  arch/arm/boot/compressed/string.c
  */
 
-#include <linux/export.h>
+#include <robux/export.h>
 
-#include <linux/string.h>
+#include <robux/string.h>
 
 #ifdef CONFIG_OR1K_1200
 /*

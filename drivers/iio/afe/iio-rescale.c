@@ -8,16 +8,16 @@
  * Author: Peter Rosin <peda@axentia.se>
  */
 
-#include <linux/err.h>
-#include <linux/gcd.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/err.h>
+#include <robux/gcd.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
-#include <linux/iio/afe/rescale.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/afe/rescale.h>
+#include <robux/iio/consumer.h>
+#include <robux/iio/iio.h>
 
 int rescale_process_scale(struct rescale *rescale, int scale_type,
 			  int *val, int *val2)

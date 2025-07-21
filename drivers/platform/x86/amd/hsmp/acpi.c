@@ -11,18 +11,18 @@
 
 #include <asm/amd/hsmp.h>
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/dev_printk.h>
-#include <linux/ioport.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sysfs.h>
-#include <linux/uuid.h>
+#include <robux/acpi.h>
+#include <robux/array_size.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/dev_printk.h>
+#include <robux/ioport.h>
+#include <robux/kstrtox.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/sysfs.h>
+#include <robux/uuid.h>
 
 #include <uapi/asm-generic/errno-base.h>
 

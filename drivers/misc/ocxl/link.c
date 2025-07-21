@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright 2017 IBM Corp.
-#include <linux/sched/mm.h>
-#include <linux/mutex.h>
-#include <linux/mm.h>
-#include <linux/mm_types.h>
-#include <linux/mmu_context.h>
-#include <linux/mmu_notifier.h>
-#include <linux/irqdomain.h>
+#include <robux/sched/mm.h>
+#include <robux/mutex.h>
+#include <robux/mm.h>
+#include <robux/mm_types.h>
+#include <robux/mmu_context.h>
+#include <robux/mmu_notifier.h>
+#include <robux/irqdomain.h>
 #include <asm/copro.h>
 #include <asm/pnv-ocxl.h>
 #include <asm/xive.h>

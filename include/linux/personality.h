@@ -2,7 +2,7 @@
 #ifndef _LINUX_PERSONALITY_H
 #define _LINUX_PERSONALITY_H
 
-#include <uapi/linux/personality.h>
+#include <uapi/robux/personality.h>
 
 /*
  * Return the base personality without flags.

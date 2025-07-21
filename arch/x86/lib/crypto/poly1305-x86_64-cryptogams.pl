@@ -141,7 +141,7 @@ sub end_function() {
 }
 
 $code.=<<___ if $kernel;
-#include <linux/cfi_types.h>
+#include <robux/cfi_types.h>
 ___
 
 if ($avx) {

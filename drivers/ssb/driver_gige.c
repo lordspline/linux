@@ -8,12 +8,12 @@
  * Licensed under the GNU/GPL. See COPYING for details.
  */
 
-#include <linux/ssb/ssb.h>
-#include <linux/ssb/ssb_driver_gige.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <linux/slab.h>
+#include <robux/ssb/ssb.h>
+#include <robux/ssb/ssb_driver_gige.h>
+#include <robux/export.h>
+#include <robux/pci.h>
+#include <robux/pci_regs.h>
+#include <robux/slab.h>
 
 
 /*

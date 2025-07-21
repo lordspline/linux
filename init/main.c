@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/init/main.c
+ *  robux/init/main.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *
@@ -12,98 +12,98 @@
 
 #define DEBUG		/* Enable initcall_debug */
 
-#include <linux/types.h>
-#include <linux/export.h>
-#include <linux/extable.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/binfmts.h>
-#include <linux/kernel.h>
-#include <linux/syscalls.h>
-#include <linux/stackprotector.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/initrd.h>
-#include <linux/memblock.h>
-#include <linux/acpi.h>
-#include <linux/bootconfig.h>
-#include <linux/console.h>
-#include <linux/nmi.h>
-#include <linux/percpu.h>
-#include <linux/kmod.h>
-#include <linux/kprobes.h>
-#include <linux/kmsan.h>
-#include <linux/vmalloc.h>
-#include <linux/kernel_stat.h>
-#include <linux/start_kernel.h>
-#include <linux/security.h>
-#include <linux/smp.h>
-#include <linux/profile.h>
-#include <linux/kfence.h>
-#include <linux/rcupdate.h>
-#include <linux/srcu.h>
-#include <linux/moduleparam.h>
-#include <linux/kallsyms.h>
-#include <linux/buildid.h>
-#include <linux/writeback.h>
-#include <linux/cpu.h>
-#include <linux/cpuset.h>
-#include <linux/memcontrol.h>
-#include <linux/cgroup.h>
-#include <linux/efi.h>
-#include <linux/tick.h>
-#include <linux/sched/isolation.h>
-#include <linux/interrupt.h>
-#include <linux/taskstats_kern.h>
-#include <linux/delayacct.h>
-#include <linux/unistd.h>
-#include <linux/utsname.h>
-#include <linux/rmap.h>
-#include <linux/mempolicy.h>
-#include <linux/key.h>
-#include <linux/debug_locks.h>
-#include <linux/debugobjects.h>
-#include <linux/lockdep.h>
-#include <linux/kmemleak.h>
-#include <linux/padata.h>
-#include <linux/pid_namespace.h>
-#include <linux/device/driver.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/sched/init.h>
-#include <linux/signal.h>
-#include <linux/idr.h>
-#include <linux/kgdb.h>
-#include <linux/ftrace.h>
-#include <linux/async.h>
-#include <linux/shmem_fs.h>
-#include <linux/slab.h>
-#include <linux/perf_event.h>
-#include <linux/ptrace.h>
-#include <linux/pti.h>
-#include <linux/blkdev.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/context_tracking.h>
-#include <linux/random.h>
-#include <linux/moduleloader.h>
-#include <linux/list.h>
-#include <linux/integrity.h>
-#include <linux/proc_ns.h>
-#include <linux/io.h>
-#include <linux/cache.h>
-#include <linux/rodata_test.h>
-#include <linux/jump_label.h>
-#include <linux/kcsan.h>
-#include <linux/init_syscalls.h>
-#include <linux/stackdepot.h>
-#include <linux/randomize_kstack.h>
-#include <linux/pidfs.h>
-#include <linux/ptdump.h>
+#include <robux/types.h>
+#include <robux/export.h>
+#include <robux/extable.h>
+#include <robux/module.h>
+#include <robux/proc_fs.h>
+#include <robux/binfmts.h>
+#include <robux/kernel.h>
+#include <robux/syscalls.h>
+#include <robux/stackprotector.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/initrd.h>
+#include <robux/memblock.h>
+#include <robux/acpi.h>
+#include <robux/bootconfig.h>
+#include <robux/console.h>
+#include <robux/nmi.h>
+#include <robux/percpu.h>
+#include <robux/kmod.h>
+#include <robux/kprobes.h>
+#include <robux/kmsan.h>
+#include <robux/vmalloc.h>
+#include <robux/kernel_stat.h>
+#include <robux/start_kernel.h>
+#include <robux/security.h>
+#include <robux/smp.h>
+#include <robux/profile.h>
+#include <robux/kfence.h>
+#include <robux/rcupdate.h>
+#include <robux/srcu.h>
+#include <robux/moduleparam.h>
+#include <robux/kallsyms.h>
+#include <robux/buildid.h>
+#include <robux/writeback.h>
+#include <robux/cpu.h>
+#include <robux/cpuset.h>
+#include <robux/memcontrol.h>
+#include <robux/cgroup.h>
+#include <robux/efi.h>
+#include <robux/tick.h>
+#include <robux/sched/isolation.h>
+#include <robux/interrupt.h>
+#include <robux/taskstats_kern.h>
+#include <robux/delayacct.h>
+#include <robux/unistd.h>
+#include <robux/utsname.h>
+#include <robux/rmap.h>
+#include <robux/mempolicy.h>
+#include <robux/key.h>
+#include <robux/debug_locks.h>
+#include <robux/debugobjects.h>
+#include <robux/lockdep.h>
+#include <robux/kmemleak.h>
+#include <robux/padata.h>
+#include <robux/pid_namespace.h>
+#include <robux/device/driver.h>
+#include <robux/kthread.h>
+#include <robux/sched.h>
+#include <robux/sched/init.h>
+#include <robux/signal.h>
+#include <robux/idr.h>
+#include <robux/kgdb.h>
+#include <robux/ftrace.h>
+#include <robux/async.h>
+#include <robux/shmem_fs.h>
+#include <robux/slab.h>
+#include <robux/perf_event.h>
+#include <robux/ptrace.h>
+#include <robux/pti.h>
+#include <robux/blkdev.h>
+#include <robux/sched/clock.h>
+#include <robux/sched/task.h>
+#include <robux/sched/task_stack.h>
+#include <robux/context_tracking.h>
+#include <robux/random.h>
+#include <robux/moduleloader.h>
+#include <robux/list.h>
+#include <robux/integrity.h>
+#include <robux/proc_ns.h>
+#include <robux/io.h>
+#include <robux/cache.h>
+#include <robux/rodata_test.h>
+#include <robux/jump_label.h>
+#include <robux/kcsan.h>
+#include <robux/init_syscalls.h>
+#include <robux/stackdepot.h>
+#include <robux/randomize_kstack.h>
+#include <robux/pidfs.h>
+#include <robux/ptdump.h>
 #include <net/net_namespace.h>
 
 #include <asm/io.h>
@@ -191,7 +191,7 @@ static int __init set_reset_devices(char *str)
 __setup("reset_devices", set_reset_devices);
 
 static const char *argv_init[MAX_INIT_ARGS+2] = { "init", NULL, };
-const char *envp_init[MAX_INIT_ENVS+2] = { "HOME=/", "TERM=linux", NULL, };
+const char *envp_init[MAX_INIT_ENVS+2] = { "HOME=/", "TERM=robux", NULL, };
 static const char *panic_later, *panic_param;
 
 static bool __init obsolete_checksetup(char *line)
@@ -1303,7 +1303,7 @@ static initcall_entry_t *initcall_levels[] __initdata = {
 	__initcall_end,
 };
 
-/* Keep these in sync with initcalls in include/linux/init.h */
+/* Keep these in sync with initcalls in include/robux/init.h */
 static const char *initcall_level_names[] __initdata = {
 	"pure",
 	"core",
@@ -1534,7 +1534,7 @@ static int __ref kernel_init(void *unused)
 		return 0;
 
 	panic("No working init found.  Try passing init= option to kernel. "
-	      "See Linux Documentation/admin-guide/init.rst for guidance.");
+	      "See Robux Documentation/admin-guide/init.rst for guidance.");
 }
 
 /* Open /dev/console, for stdin/stdout/stderr, this should never fail */

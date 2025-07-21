@@ -6,9 +6,9 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/fsl/mc.h>
+#include <robux/module.h>
+#include <robux/msi.h>
+#include <robux/fsl/mc.h>
 
 #include "fsl-mc-private.h"
 

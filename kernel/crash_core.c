@@ -6,21 +6,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/buildid.h>
-#include <linux/init.h>
-#include <linux/utsname.h>
-#include <linux/vmalloc.h>
-#include <linux/sizes.h>
-#include <linux/kexec.h>
-#include <linux/memory.h>
-#include <linux/mm.h>
-#include <linux/cpuhotplug.h>
-#include <linux/memblock.h>
-#include <linux/kmemleak.h>
-#include <linux/crash_core.h>
-#include <linux/reboot.h>
-#include <linux/btf.h>
-#include <linux/objtool.h>
+#include <robux/buildid.h>
+#include <robux/init.h>
+#include <robux/utsname.h>
+#include <robux/vmalloc.h>
+#include <robux/sizes.h>
+#include <robux/kexec.h>
+#include <robux/memory.h>
+#include <robux/mm.h>
+#include <robux/cpuhotplug.h>
+#include <robux/memblock.h>
+#include <robux/kmemleak.h>
+#include <robux/crash_core.h>
+#include <robux/reboot.h>
+#include <robux/btf.h>
+#include <robux/objtool.h>
 
 #include <asm/page.h>
 #include <asm/sections.h>

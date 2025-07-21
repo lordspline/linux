@@ -4,14 +4,14 @@
  * Copyright (c) 2012, Intel Corporation.
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/mfd/core.h>
-#include <linux/list.h>
-#include <linux/hid-sensor-ids.h>
-#include <linux/hid-sensor-hub.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/mfd/core.h>
+#include <robux/list.h>
+#include <robux/hid-sensor-ids.h>
+#include <robux/hid-sensor-hub.h>
 #include "hid-ids.h"
 
 #define HID_SENSOR_HUB_ENUM_QUIRK	0x01

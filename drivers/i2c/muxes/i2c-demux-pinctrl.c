@@ -9,15 +9,15 @@
  * (look for filenames containing 'i2c-demux-pinctrl' in Documentation/)
  */
 
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
 
 struct i2c_demux_pinctrl_chan {
 	struct device_node *parent_np;

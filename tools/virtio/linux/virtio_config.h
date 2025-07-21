@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef LINUX_VIRTIO_CONFIG_H
 #define LINUX_VIRTIO_CONFIG_H
-#include <linux/virtio_byteorder.h>
-#include <linux/virtio.h>
-#include <uapi/linux/virtio_config.h>
+#include <robux/virtio_byteorder.h>
+#include <robux/virtio.h>
+#include <uapi/robux/virtio_config.h>
 
 struct virtio_config_ops {
 	int (*disable_vq_and_reset)(struct virtqueue *vq);

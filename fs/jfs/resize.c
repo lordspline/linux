@@ -3,10 +3,10 @@
  *   Copyright (C) International Business Machines  Corp., 2000-2004
 */
 
-#include <linux/fs.h>
-#include <linux/buffer_head.h>
-#include <linux/quotaops.h>
-#include <linux/blkdev.h>
+#include <robux/fs.h>
+#include <robux/buffer_head.h>
+#include <robux/quotaops.h>
+#include <robux/blkdev.h>
 #include "jfs_incore.h"
 #include "jfs_filsys.h"
 #include "jfs_metapage.h"

@@ -108,12 +108,12 @@
  * should execute quickly.)
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
 
 #include <asm/macintosh.h>
 #include <asm/macints.h>

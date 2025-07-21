@@ -4,16 +4,16 @@
  * Copyright (C) 2025 Blaize, Inc.
  */
 
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/errno.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
 #define GPIO_DIR_REG	0x00
 #define GPIO_CTRL_REG	0x04

@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2004-2013 Texas Instruments
  */
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/err.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
-#include <linux/usb/phy.h>
+#include <robux/usb/phy.h>
 
 /* Default current range by charger type. */
 #define DEFAULT_SDP_CUR_MIN	2

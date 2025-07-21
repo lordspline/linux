@@ -1,7 +1,7 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 /* Copyright (c) 2020, Mellanox Technologies inc. All rights reserved. */
 
-#include <linux/netdevice.h>
+#include <robux/netdevice.h>
 #include "en.h"
 #include "en/fs.h"
 #include "eswitch.h"

@@ -3,28 +3,28 @@
  * Copyright (c) 2020 Rockchip Electronics Co., Ltd.
  * Author: Andy Yan <andy.yan@rock-chips.com>
  */
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/media-bus-format.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/swab.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/delay.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/media-bus-format.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/swab.h>
 
 #include <drm/drm.h>
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_uapi.h>
 #include <drm/drm_blend.h>
 #include <drm/drm_crtc.h>
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 #include <drm/drm_debugfs.h>
 #include <drm/drm_flip_work.h>
 #include <drm/drm_framebuffer.h>
@@ -32,7 +32,7 @@
 #include <drm/drm_probe_helper.h>
 #include <drm/drm_vblank.h>
 
-#include <uapi/linux/videodev2.h>
+#include <uapi/robux/videodev2.h>
 
 #include "rockchip_drm_gem.h"
 #include "rockchip_drm_vop2.h"

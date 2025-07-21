@@ -3,15 +3,15 @@
  * Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
  */
 
-#include <linux/ptrace.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/kdev_t.h>
-#include <linux/proc_fs.h>
-#include <linux/file.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/debug.h>
+#include <robux/ptrace.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/fs.h>
+#include <robux/kdev_t.h>
+#include <robux/proc_fs.h>
+#include <robux/file.h>
+#include <robux/sched/mm.h>
+#include <robux/sched/debug.h>
 
 #include <asm/arcregs.h>
 #include <asm/irqflags.h>

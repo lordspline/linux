@@ -5,12 +5,12 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/pci.h>
-#include <linux/sysfs.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/pci.h>
+#include <robux/sysfs.h>
 
 #include "cgx.h"
 #include "rvu.h"

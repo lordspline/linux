@@ -7,11 +7,11 @@
  * Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/clk.h>
-#include <linux/media-bus-format.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/media-bus-format.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/pm_runtime.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

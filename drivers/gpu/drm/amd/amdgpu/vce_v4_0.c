@@ -24,7 +24,7 @@
  *
  */
 
-#include <linux/firmware.h>
+#include <robux/firmware.h>
 #include <drm/drm_drv.h>
 
 #include "amdgpu.h"

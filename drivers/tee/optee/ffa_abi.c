@@ -5,15 +5,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/arm_ffa.h>
-#include <linux/errno.h>
-#include <linux/rpmb.h>
-#include <linux/scatterlist.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/tee_core.h>
-#include <linux/types.h>
+#include <robux/arm_ffa.h>
+#include <robux/errno.h>
+#include <robux/rpmb.h>
+#include <robux/scatterlist.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/tee_core.h>
+#include <robux/types.h>
 #include "optee_private.h"
 #include "optee_ffa.h"
 #include "optee_rpc_cmd.h"

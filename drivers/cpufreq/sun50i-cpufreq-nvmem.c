@@ -10,14 +10,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/arm-smccc.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/slab.h>
+#include <robux/arm-smccc.h>
+#include <robux/cpu.h>
+#include <robux/module.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/slab.h>
 
 #define NVMEM_MASK	0x7
 #define NVMEM_SHIFT	5

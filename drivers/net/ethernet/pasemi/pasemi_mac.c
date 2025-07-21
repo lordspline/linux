@@ -5,22 +5,22 @@
  * Driver for the PA Semi PWRficient onchip 1G/10G Ethernet MACs
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/dmaengine.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/of_mdio.h>
-#include <linux/etherdevice.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/dmaengine.h>
+#include <robux/delay.h>
+#include <robux/netdevice.h>
+#include <robux/of_mdio.h>
+#include <robux/etherdevice.h>
 #include <asm/dma-mapping.h>
-#include <linux/in.h>
-#include <linux/skbuff.h>
+#include <robux/in.h>
+#include <robux/skbuff.h>
 
-#include <linux/ip.h>
+#include <robux/ip.h>
 #include <net/checksum.h>
-#include <linux/prefetch.h>
+#include <robux/prefetch.h>
 
 #include <asm/irq.h>
 #include <asm/firmware.h>

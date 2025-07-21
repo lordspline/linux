@@ -12,14 +12,14 @@
 
 #include "bcma_private.h"
 
-#include <linux/bcma/bcma.h>
+#include <robux/bcma/bcma.h>
 
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/time.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/serial_reg.h>
+#include <robux/time.h>
 #ifdef CONFIG_BCM47XX
-#include <linux/bcm47xx_nvram.h>
+#include <robux/bcm47xx_nvram.h>
 #endif
 
 enum bcma_boot_dev {

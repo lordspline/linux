@@ -15,7 +15,7 @@
 #include "types.h"
 #include "sys.h"
 #include "string.h"
-#include <linux/auxvec.h>
+#include <robux/auxvec.h>
 
 struct nolibc_heap {
 	size_t	len;

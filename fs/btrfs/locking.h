@@ -6,10 +6,10 @@
 #ifndef BTRFS_LOCKING_H
 #define BTRFS_LOCKING_H
 
-#include <linux/atomic.h>
-#include <linux/wait.h>
-#include <linux/lockdep.h>
-#include <linux/percpu_counter.h>
+#include <robux/atomic.h>
+#include <robux/wait.h>
+#include <robux/lockdep.h>
+#include <robux/percpu_counter.h>
 #include "extent_io.h"
 
 struct extent_buffer;

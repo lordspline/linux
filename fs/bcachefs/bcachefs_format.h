@@ -74,9 +74,9 @@
 
 #include <asm/types.h>
 #include <asm/byteorder.h>
-#include <linux/kernel.h>
-#include <linux/uuid.h>
-#include <uapi/linux/magic.h>
+#include <robux/kernel.h>
+#include <robux/uuid.h>
+#include <uapi/robux/magic.h>
 #include "vstructs.h"
 
 #ifdef __KERNEL__

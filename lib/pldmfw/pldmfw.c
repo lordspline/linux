@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2018-2019, Intel Corporation. */
 
-#include <linux/unaligned.h>
-#include <linux/crc32.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pldmfw.h>
-#include <linux/slab.h>
-#include <linux/uuid.h>
+#include <robux/unaligned.h>
+#include <robux/crc32.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pldmfw.h>
+#include <robux/slab.h>
+#include <robux/uuid.h>
 
 #include "pldmfw_private.h"
 
@@ -526,7 +526,7 @@ static int pldm_verify_header_crc(struct pldmfw_priv *data)
 	size_t length;
 
 	/* Calculate the 32-bit CRC of the header header contents up to but
-	 * not including the checksum. Note that the Linux crc32_le function
+	 * not including the checksum. Note that the Robux crc32_le function
 	 * does not perform an expected final XOR.
 	 */
 	length = data->offset - sizeof(data->header_crc);

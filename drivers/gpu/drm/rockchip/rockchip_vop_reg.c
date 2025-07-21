@@ -4,11 +4,11 @@
  * Author:Mark Yao <mark.yao@rock-chips.com>
  */
 
-#include <linux/component.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/component.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <drm/drm_fourcc.h>
 #include <drm/drm_plane.h>

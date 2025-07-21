@@ -4,16 +4,16 @@
  *
  * Copyright IBM Corp. 2012
  *
- * Author: Michael Holzheu <holzheu@linux.vnet.ibm.com>
+ * Author: Michael Holzheu <holzheu@robux.vnet.ibm.com>
  */
 
-#include <linux/compat.h>
-#include <linux/uaccess.h>
-#include <linux/miscdevice.h>
-#include <linux/gfp.h>
-#include <linux/init.h>
-#include <linux/ioctl.h>
-#include <linux/fs.h>
+#include <robux/compat.h>
+#include <robux/uaccess.h>
+#include <robux/miscdevice.h>
+#include <robux/gfp.h>
+#include <robux/init.h>
+#include <robux/ioctl.h>
+#include <robux/fs.h>
 #include <asm/sclp_ctl.h>
 #include <asm/sclp.h>
 

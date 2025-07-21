@@ -14,15 +14,15 @@
  * Copyright (C) 2008 Nokia Corporation
  * Mikko Ylinen <mikko.k.ylinen@nokia.com>
  */
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/mfd/twl.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/mfd/twl.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #define DRIVER_NAME		"twl6030_gpadc"
 

@@ -2,8 +2,8 @@
 #ifndef __LINUX_DEBUG_LOCKING_H
 #define __LINUX_DEBUG_LOCKING_H
 
-#include <linux/atomic.h>
-#include <linux/cache.h>
+#include <robux/atomic.h>
+#include <robux/cache.h>
 
 struct task_struct;
 

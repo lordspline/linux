@@ -19,13 +19,13 @@
  * values to it, unless there's only one channel requested.
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
 
 /* LPC18xx SCT registers */
 #define LPC18XX_PWM_CONFIG		0x000

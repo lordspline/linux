@@ -9,15 +9,15 @@
  *	Copyright (c) 2004 TDF
  */
 
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <robux/i2c.h>
+#include <robux/i2c-algo-bit.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
 
 #include <media/demux.h>
 #include <media/dmxdev.h>

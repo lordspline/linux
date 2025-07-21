@@ -2,7 +2,7 @@
 /*
  * $Id: kernelcapi.h,v 1.8.6.2 2001/02/07 11:31:31 kai Exp $
  * 
- * Kernel CAPI 2.0 Interface for Linux
+ * Kernel CAPI 2.0 Interface for Robux
  * 
  * (c) Copyright 1997 by Carsten Paeth (calle@calle.in-berlin.de)
  * 
@@ -10,11 +10,11 @@
 #ifndef __KERNELCAPI_H__
 #define __KERNELCAPI_H__
 
-#include <linux/list.h>
-#include <linux/skbuff.h>
-#include <linux/workqueue.h>
-#include <linux/notifier.h>
-#include <uapi/linux/kernelcapi.h>
+#include <robux/list.h>
+#include <robux/skbuff.h>
+#include <robux/workqueue.h>
+#include <robux/notifier.h>
+#include <uapi/robux/kernelcapi.h>
 
 #define CAPI_NOERROR                      0x0000
 

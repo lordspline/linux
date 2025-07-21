@@ -7,8 +7,8 @@
  * Paul Walmsley
  */
 
-#include <linux/dmaengine.h>
-#include <linux/omap-dma.h>
+#include <robux/dmaengine.h>
+#include <robux/omap-dma.h>
 
 #include "omap_hwmod.h"
 #include "hdq1w.h"

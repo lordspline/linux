@@ -27,9 +27,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  * IN THE SOFTWARE.
  */
-#include <linux/compat.h>
-#include <linux/ratelimit.h>
-#include <linux/export.h>
+#include <robux/compat.h>
+#include <robux/ratelimit.h>
+#include <robux/export.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_file.h>

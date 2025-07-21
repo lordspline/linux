@@ -4,20 +4,20 @@
  *  Copyright 2023-2025 NXP
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
 
-#include <linux/serdev.h>
-#include <linux/of.h>
-#include <linux/skbuff.h>
-#include <linux/unaligned.h>
-#include <linux/firmware.h>
-#include <linux/string.h>
-#include <linux/crc8.h>
-#include <linux/crc32.h>
-#include <linux/string_helpers.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of_irq.h>
+#include <robux/serdev.h>
+#include <robux/of.h>
+#include <robux/skbuff.h>
+#include <robux/unaligned.h>
+#include <robux/firmware.h>
+#include <robux/string.h>
+#include <robux/crc8.h>
+#include <robux/crc32.h>
+#include <robux/string_helpers.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of_irq.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

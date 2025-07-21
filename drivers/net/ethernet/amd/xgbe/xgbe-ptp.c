@@ -5,10 +5,10 @@
  * All rights reserved
  */
 
-#include <linux/clk.h>
-#include <linux/clocksource.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/net_tstamp.h>
+#include <robux/clk.h>
+#include <robux/clocksource.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/net_tstamp.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

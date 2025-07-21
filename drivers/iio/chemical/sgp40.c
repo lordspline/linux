@@ -29,12 +29,12 @@
  * by writing to the out values of temp and humidityrelative.
  */
 
-#include <linux/delay.h>
-#include <linux/crc8.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
+#include <robux/delay.h>
+#include <robux/crc8.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/i2c.h>
+#include <robux/iio/iio.h>
 
 /*
  * floating point calculation of voc is done as integer

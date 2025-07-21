@@ -5,17 +5,17 @@
  * Copyright 2020 Google LLC.
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
-#include <linux/stringify.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/slab.h>
+#include <robux/stringify.h>
+#include <robux/types.h>
+#include <robux/unaligned.h>
 
 #define DRV_NAME		"cros-ec-pchg"
 #define PCHG_DIR_PREFIX		"peripheral"

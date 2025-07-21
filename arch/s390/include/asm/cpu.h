@@ -11,8 +11,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/types.h>
-#include <linux/jump_label.h>
+#include <robux/types.h>
+#include <robux/jump_label.h>
 
 struct cpuid
 {

@@ -11,7 +11,7 @@
 #ifndef __ASM_S390_SYSINFO_H
 #define __ASM_S390_SYSINFO_H
 
-#include <linux/uuid.h>
+#include <robux/uuid.h>
 #include <asm/bitsperlong.h>
 #include <asm/asm.h>
 

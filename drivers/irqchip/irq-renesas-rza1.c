@@ -5,16 +5,16 @@
  * Copyright (C) 2019 Glider bvba
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irqdomain.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include <dt-bindings/interrupt-controller/arm-gic.h>
 

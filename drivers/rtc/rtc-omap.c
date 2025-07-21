@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0+
 /*
- * TI OMAP Real Time Clock interface for Linux
+ * TI OMAP Real Time Clock interface for Robux
  *
  * Copyright (C) 2003 MontaVista Software, Inc.
  * Author: George G. Davis <gdavis@mvista.com> or <source@mvista.com>
@@ -9,23 +9,23 @@
  * Copyright (C) 2014 Johan Hovold <johan@kernel.org>
  */
 
-#include <linux/bcd.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/rtc.h>
-#include <linux/rtc/rtc-omap.h>
+#include <robux/bcd.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/rtc.h>
+#include <robux/rtc/rtc-omap.h>
 
 /*
  * The OMAP RTC is a year/month/day/hours/minutes/seconds BCD clock

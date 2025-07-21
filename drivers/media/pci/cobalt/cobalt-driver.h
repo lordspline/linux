@@ -11,14 +11,14 @@
 #ifndef COBALT_DRIVER_H
 #define COBALT_DRIVER_H
 
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/i2c.h>
-#include <linux/list.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/spinlock.h>
+#include <robux/i2c.h>
+#include <robux/list.h>
+#include <robux/workqueue.h>
+#include <robux/mutex.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>

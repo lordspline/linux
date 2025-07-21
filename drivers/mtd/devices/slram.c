@@ -30,21 +30,21 @@
 ======================================================================*/
 
 
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/major.h>
-#include <linux/fs.h>
-#include <linux/ioctl.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/major.h>
+#include <robux/fs.h>
+#include <robux/ioctl.h>
+#include <robux/init.h>
+#include <robux/io.h>
 
-#include <linux/mtd/mtd.h>
+#include <robux/mtd/mtd.h>
 
 #define SLRAM_MAX_DEVICES_PARAMS 6		/* 3 parameters / device */
 #define SLRAM_BLK_SZ 0x4000

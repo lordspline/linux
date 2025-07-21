@@ -5,14 +5,14 @@
  * Author:	 Misael Lopez Cruz <x0052729@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mfd/twl6040.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/mfd/twl6040.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

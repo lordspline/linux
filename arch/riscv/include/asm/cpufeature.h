@@ -6,12 +6,12 @@
 #ifndef _ASM_CPUFEATURE_H
 #define _ASM_CPUFEATURE_H
 
-#include <linux/bitmap.h>
-#include <linux/jump_label.h>
-#include <linux/workqueue.h>
-#include <linux/kconfig.h>
-#include <linux/percpu-defs.h>
-#include <linux/threads.h>
+#include <robux/bitmap.h>
+#include <robux/jump_label.h>
+#include <robux/workqueue.h>
+#include <robux/kconfig.h>
+#include <robux/percpu-defs.h>
+#include <robux/threads.h>
 #include <asm/hwcap.h>
 #include <asm/cpufeature-macros.h>
 

@@ -6,18 +6,18 @@
  * Copyright (C) 2021 HiSilicon Limited
  * Author: Qi Liu <liuqi115@huawei.com>
  */
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/perf_event.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/bug.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/perf_event.h>
 
 #define DRV_NAME "hisi_pcie_pmu"
 /* Define registers */

@@ -6,7 +6,7 @@
 #ifndef ASM_X86_FRED_H
 #define ASM_X86_FRED_H
 
-#include <linux/const.h>
+#include <robux/const.h>
 
 #include <asm/asm.h>
 #include <asm/msr.h>
@@ -36,8 +36,8 @@
 #ifndef __ASSEMBLER__
 
 #ifdef CONFIG_X86_FRED
-#include <linux/kernel.h>
-#include <linux/sched/task_stack.h>
+#include <robux/kernel.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/ptrace.h>
 

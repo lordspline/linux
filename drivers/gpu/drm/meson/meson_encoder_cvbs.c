@@ -9,8 +9,8 @@
  *     Jasper St. Pierre <jstpierre@mecheye.net>
  */
 
-#include <linux/export.h>
-#include <linux/of_graph.h>
+#include <robux/export.h>
+#include <robux/of_graph.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

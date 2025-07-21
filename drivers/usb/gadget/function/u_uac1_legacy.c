@@ -6,14 +6,14 @@
  * Copyright (C) 2008 Analog Devices, Inc
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/ctype.h>
-#include <linux/random.h>
-#include <linux/syscalls.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/ctype.h>
+#include <robux/random.h>
+#include <robux/syscalls.h>
 
 #include "u_uac1_legacy.h"
 

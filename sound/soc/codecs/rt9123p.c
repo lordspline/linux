@@ -4,16 +4,16 @@
 //
 // Author: ChiYuan Huang <cy_huang@richtek.com>
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
 #include <sound/soc-dai.h>

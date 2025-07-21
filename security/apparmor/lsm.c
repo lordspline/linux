@@ -8,23 +8,23 @@
  * Copyright 2009-2010 Canonical Ltd.
  */
 
-#include <linux/lsm_hooks.h>
-#include <linux/moduleparam.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/ptrace.h>
-#include <linux/ctype.h>
-#include <linux/sysctl.h>
-#include <linux/audit.h>
-#include <linux/user_namespace.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/netfilter_ipv6.h>
-#include <linux/zstd.h>
+#include <robux/lsm_hooks.h>
+#include <robux/moduleparam.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
+#include <robux/mount.h>
+#include <robux/namei.h>
+#include <robux/ptrace.h>
+#include <robux/ctype.h>
+#include <robux/sysctl.h>
+#include <robux/audit.h>
+#include <robux/user_namespace.h>
+#include <robux/netfilter_ipv4.h>
+#include <robux/netfilter_ipv6.h>
+#include <robux/zstd.h>
 #include <net/sock.h>
-#include <uapi/linux/mount.h>
-#include <uapi/linux/lsm.h>
+#include <uapi/robux/mount.h>
+#include <uapi/robux/lsm.h>
 
 #include "include/apparmor.h"
 #include "include/apparmorfs.h"

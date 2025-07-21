@@ -9,12 +9,12 @@
  *   http://www.si-en.com/product.asp?parentid=890
  */
 
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 /* Used to indicate a device has no such register */
 #define IS31FL32XX_REG_NONE 0xFF

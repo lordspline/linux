@@ -5,15 +5,15 @@
  * Copyright 2017-2019, 2021-2025 NXP.
  *
  */
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/watchdog.h>
 
 #define DRIVER_NAME "s32g-swt"
 

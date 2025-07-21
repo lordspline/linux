@@ -22,15 +22,15 @@
  * Authors: Ben Skeggs
  */
 
-#include <linux/aperture.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/vga_switcheroo.h>
-#include <linux/mmu_notifier.h>
-#include <linux/dynamic_debug.h>
-#include <linux/debugfs.h>
+#include <robux/aperture.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/vga_switcheroo.h>
+#include <robux/mmu_notifier.h>
+#include <robux/dynamic_debug.h>
+#include <robux/debugfs.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_drv.h>

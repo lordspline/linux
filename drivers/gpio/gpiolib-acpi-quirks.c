@@ -5,14 +5,14 @@
  * Author: Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/dmi.h>
-#include <linux/kstrtox.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/printk.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/dmi.h>
+#include <robux/kstrtox.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/printk.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #include "gpiolib-acpi.h"
 

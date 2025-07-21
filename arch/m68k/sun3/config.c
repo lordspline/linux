@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/sun3/config.c
+ *  robux/arch/m68k/sun3/config.c
  *
  *  Copyright (C) 1996,1997 Pekka Pietik{inen
  *
@@ -8,16 +8,16 @@
  * for more details.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/platform_device.h>
-#include <linux/linkage.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/seq_file.h>
+#include <robux/tty.h>
+#include <robux/console.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
+#include <robux/platform_device.h>
+#include <robux/linkage.h>
 
 #include <asm/oplib.h>
 #include <asm/setup.h>

@@ -7,21 +7,21 @@
  * Copied and modified from arch/i386/kernel/time.c
  *
  */
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/kernel_stat.h>
-#include <linux/mc146818rtc.h>
-#include <linux/init.h>
-#include <linux/bcd.h>
-#include <linux/ioport.h>
-#include <linux/of_address.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/param.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/time.h>
+#include <robux/timex.h>
+#include <robux/kernel_stat.h>
+#include <robux/mc146818rtc.h>
+#include <robux/init.h>
+#include <robux/bcd.h>
+#include <robux/ioport.h>
+#include <robux/of_address.h>
 
 #include <asm/io.h>
 #include <asm/nvram.h>

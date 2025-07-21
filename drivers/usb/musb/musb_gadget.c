@@ -8,16 +8,16 @@
  * Copyright (C) 2009 MontaVista Software, Inc. <source@mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/timer.h>
-#include <linux/module.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/string_choices.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/timer.h>
+#include <robux/module.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
+#include <robux/string_choices.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
 
 #include "musb_core.h"
 #include "musb_trace.h"

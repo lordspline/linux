@@ -6,13 +6,13 @@
  * Copyright (C) 2006, Red Hat, Inc., Ingo Molnar
  */
 
-#include <linux/kernel.h>
-#include <linux/irqflags.h>
-#include <linux/cpumask.h>
-#include <linux/atomic.h>
-#include <linux/nmi.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/irqflags.h>
+#include <robux/cpumask.h>
+#include <robux/atomic.h>
+#include <robux/nmi.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
 
 #include <asm/r4k-timer.h>
 #include <asm/mipsregs.h>

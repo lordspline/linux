@@ -23,17 +23,17 @@
  * matching, so you need to enable IFF_PROMISC when using it.
  */
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/crc32.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/crc32.h>
 
 #include <asm/irq.h>
 

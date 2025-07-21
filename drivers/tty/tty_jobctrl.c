@@ -3,14 +3,14 @@
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task.h>
-#include <linux/tty.h>
-#include <linux/fcntl.h>
-#include <linux/uaccess.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/signal.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/task.h>
+#include <robux/tty.h>
+#include <robux/fcntl.h>
+#include <robux/uaccess.h>
 #include "tty.h"
 
 static int is_ignored(int sig)

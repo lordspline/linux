@@ -94,7 +94,7 @@ static inline bool xe_svm_range_has_dma_mapping(struct xe_svm_range *range)
 void xe_svm_flush(struct xe_vm *vm);
 
 #else
-#include <linux/interval_tree.h>
+#include <robux/interval_tree.h>
 
 struct drm_pagemap_device_addr;
 struct xe_bo;

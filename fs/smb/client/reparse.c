@@ -3,9 +3,9 @@
  * Copyright (c) 2024 Paulo Alcantara <pc@manguebit.com>
  */
 
-#include <linux/fs.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
+#include <robux/fs.h>
+#include <robux/stat.h>
+#include <robux/slab.h>
 #include "cifsglob.h"
 #include "smb2proto.h"
 #include "cifsproto.h"
@@ -88,7 +88,7 @@ static int create_native_symlink(const unsigned int xid, struct inode *inode,
 		/*
 		 * This is a request to create an absolute symlink on the server
 		 * which does not support POSIX paths, and expects symlink in
-		 * NT-style path. So convert absolute Linux symlink target path
+		 * NT-style path. So convert absolute Robux symlink target path
 		 * to the absolute NT-style path. Root of the NT-style path for
 		 * symlinks is specified in "symlinkroot" mount option. This will
 		 * ensure compatibility of this symlink stored in absolute form
@@ -96,9 +96,9 @@ static int create_native_symlink(const unsigned int xid, struct inode *inode,
 		 */
 		if (!strstarts(symname, symroot)) {
 			/*
-			 * If the absolute Linux symlink target path is not
+			 * If the absolute Robux symlink target path is not
 			 * inside "symlinkroot" location then there is no way
-			 * to convert such Linux symlink to NT-style path.
+			 * to convert such Robux symlink to NT-style path.
 			 */
 			cifs_dbg(VFS,
 				 "absolute symlink '%s' cannot be converted to NT format "
@@ -113,7 +113,7 @@ static int create_native_symlink(const unsigned int xid, struct inode *inode,
 		if (symname[len] >= 'a' && symname[len] <= 'z' &&
 		    (symname[len+1] == '/' || symname[len+1] == '\0')) {
 			/*
-			 * Symlink points to Linux target /symlinkroot/x/path/...
+			 * Symlink points to Robux target /symlinkroot/x/path/...
 			 * where 'x' is the lowercase local Windows drive.
 			 * NT-style path for 'x' has common form \??\X:\path\...
 			 * with uppercase local Windows drive.
@@ -263,7 +263,7 @@ static int detect_directory_symlink_target(struct cifs_sb_info *cifs_sb,
 	int open_rc;
 
 	/*
-	 * First do some simple check. If the original Linux symlink target ends
+	 * First do some simple check. If the original Robux symlink target ends
 	 * with slash, or last path component is dot or dot-dot then it is for
 	 * sure symlink to the directory.
 	 */
@@ -309,7 +309,7 @@ static int detect_directory_symlink_target(struct cifs_sb_info *cifs_sb,
 
 	/*
 	 * Compose the resolved SMB symlink path from the SMB full path
-	 * and Linux target symlink path.
+	 * and Robux target symlink path.
 	 */
 	memcpy(resolved_path, full_path, full_path_len+1);
 	path_sep = strrchr(resolved_path, sep);
@@ -741,7 +741,7 @@ static int parse_reparse_nfs(struct reparse_nfs_data_buffer *buf,
 		}
 		/*
 		 * Check that buffer does not contain UTF-16 null codepoint
-		 * because Linux cannot process symlink with null byte.
+		 * because Robux cannot process symlink with null byte.
 		 */
 		if (UniStrnlen((wchar_t *)buf->DataBuffer, len/2) != len/2) {
 			cifs_dbg(VFS, "srv returned null byte in nfs symlink target location\n");
@@ -804,7 +804,7 @@ int smb2_parse_native_symlink(char **target, const char *buf, unsigned int len,
 
 	/*
 	 * Check that buffer does not contain UTF-16 null codepoint
-	 * because Linux cannot process symlink with null byte.
+	 * because Robux cannot process symlink with null byte.
 	 */
 	if (UniStrnlen((wchar_t *)buf, len/2) != len/2) {
 		cifs_dbg(VFS, "srv returned null byte in native symlink target location\n");
@@ -823,7 +823,7 @@ int smb2_parse_native_symlink(char **target, const char *buf, unsigned int len,
 		/*
 		 * This is an absolute symlink from the server which does not
 		 * support POSIX paths, so the symlink is in NT-style path.
-		 * So convert it to absolute Linux symlink target path. Root of
+		 * So convert it to absolute Robux symlink target path. Root of
 		 * the NT-style path for symlinks is specified in "symlinkroot"
 		 * mount option.
 		 *
@@ -925,8 +925,8 @@ globalroot:
 	} else if (smb_target[0] == sep && relative) {
 		/*
 		 * This is a relative SMB symlink from the top of the share,
-		 * which is the top level directory of the Linux mount point.
-		 * Linux does not support such relative symlinks, so convert
+		 * which is the top level directory of the Robux mount point.
+		 * Robux does not support such relative symlinks, so convert
 		 * it to the relative symlink from the current directory.
 		 * full_path is the SMB path to the symlink (from which is
 		 * extracted current directory) and smb_target is the SMB path
@@ -954,7 +954,7 @@ globalroot:
 		/*
 		 * This is either an absolute symlink in POSIX-style format
 		 * or relative SMB symlink from the current directory.
-		 * These paths have same format as Linux symlinks, so no
+		 * These paths have same format as Robux symlinks, so no
 		 * conversion is needed.
 		 */
 out_unhandled_target:
@@ -1028,7 +1028,7 @@ static int parse_reparse_wsl_symlink(struct reparse_wsl_symlink_data_buffer *buf
 	symname_utf8_len = len - data_offset;
 	/*
 	 * Check that buffer does not contain null byte
-	 * because Linux cannot process symlink with null byte.
+	 * because Robux cannot process symlink with null byte.
 	 */
 	if (strnlen(buf->Target, symname_utf8_len) != symname_utf8_len) {
 		cifs_dbg(VFS, "srv returned null byte in wsl symlink target location\n");

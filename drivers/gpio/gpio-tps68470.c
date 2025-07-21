@@ -11,11 +11,11 @@
  *	Yuning Pu <yuning.pu@intel.com>
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/mfd/tps68470.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/gpio/driver.h>
+#include <robux/mfd/tps68470.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define TPS68470_N_LOGIC_OUTPUT	3
 #define TPS68470_N_REGULAR_GPIO	7

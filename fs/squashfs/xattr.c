@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Squashfs - a compressed read only filesystem for Linux
+ * Squashfs - a compressed read only filesystem for Robux
  *
  * Copyright (c) 2010
  * Phillip Lougher <phillip@squashfs.org.uk>
@@ -8,13 +8,13 @@
  * xattr.c
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/fs.h>
-#include <linux/vfs.h>
-#include <linux/xattr.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/fs.h>
+#include <robux/vfs.h>
+#include <robux/xattr.h>
+#include <robux/slab.h>
 
 #include "squashfs_fs.h"
 #include "squashfs_fs_sb.h"

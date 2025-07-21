@@ -24,10 +24,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
-#include <linux/unaligned.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/sort.h>
+#include <robux/unaligned.h>
 
 #include "ath5k.h"
 #include "reg.h"

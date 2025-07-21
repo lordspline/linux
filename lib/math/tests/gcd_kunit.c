@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
 #include <kunit/test.h>
-#include <linux/gcd.h>
-#include <linux/limits.h>
+#include <robux/gcd.h>
+#include <robux/limits.h>
 
 struct test_case_params {
 	unsigned long val1;

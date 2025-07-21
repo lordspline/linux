@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI_ASM_KVM_PARA_H
 #define _UAPI_ASM_KVM_PARA_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /*
  * CPUCFG index area: 0x40000000 -- 0x400000ff

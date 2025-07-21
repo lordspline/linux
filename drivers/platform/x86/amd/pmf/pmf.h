@@ -11,10 +11,10 @@
 #ifndef PMF_H
 #define PMF_H
 
-#include <linux/acpi.h>
-#include <linux/input.h>
-#include <linux/platform_device.h>
-#include <linux/platform_profile.h>
+#include <robux/acpi.h>
+#include <robux/input.h>
+#include <robux/platform_device.h>
+#include <robux/platform_profile.h>
 
 #define POLICY_BUF_MAX_SZ		0x4b000
 #define POLICY_SIGN_COOKIE		0x31535024

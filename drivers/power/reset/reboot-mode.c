@@ -3,13 +3,13 @@
  * Copyright (c) 2016, Fuzhou Rockchip Electronics Co., Ltd
  */
 
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/reboot.h>
-#include <linux/reboot-mode.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/reboot.h>
+#include <robux/reboot-mode.h>
 
 #define PREFIX "mode-"
 

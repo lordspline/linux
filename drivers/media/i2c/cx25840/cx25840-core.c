@@ -26,13 +26,13 @@
  * Copyright (C) 2011 Maciej S. Szmigiero <mail@maciej.szmigiero.name>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/math64.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/math64.h>
 #include <media/v4l2-common.h>
 #include <media/drv-intf/cx25840.h>
 

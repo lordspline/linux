@@ -5,23 +5,23 @@
  * Author: Thomas Petazzoni <thomas.petazzoni@free-electrons.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/mbus.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/mbus.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_pci.h>
+#include <robux/of_platform.h>
 
 #include "../pci.h"
 #include "../pci-bridge-emul.h"

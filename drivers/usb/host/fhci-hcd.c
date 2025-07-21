@@ -11,23 +11,23 @@
  *               Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/gpio/consumer.h>
 #include <soc/fsl/qe/qe.h>
 #include <asm/fsl_gtm.h>
 #include "fhci.h"

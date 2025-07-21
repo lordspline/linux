@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
-**  linux/amiga/chipram.c
+**  robux/amiga/chipram.c
 **
-**      Modified 03-May-94 by Geert Uytterhoeven <geert@linux-m68k.org>
+**      Modified 03-May-94 by Geert Uytterhoeven <geert@robux-m68k.org>
 **          - 64-bit aligned allocations for full AGA compatibility
 **
 **	Rewritten 15/9/2000 by Geert to use resource management
 */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/module.h>
 
 #include <asm/atomic.h>
 #include <asm/page.h>

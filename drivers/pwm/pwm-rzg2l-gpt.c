@@ -21,17 +21,17 @@
  *   must be same (for now).
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/reset.h>
-#include <linux/time.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/limits.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
+#include <robux/reset.h>
+#include <robux/time.h>
+#include <robux/units.h>
 
 #define RZG2L_GET_CH(hwpwm)	((hwpwm) / 2)
 #define RZG2L_GET_CH_OFFS(ch)	(0x100 * (ch))

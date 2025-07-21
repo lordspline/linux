@@ -6,13 +6,13 @@
  * used for GPIO drivers still referencing the global GPIO numberspace,
  * and should not be included in new code.
  *
- * If you're implementing a GPIO driver, only include <linux/gpio/driver.h>
- * If you're implementing a GPIO consumer, only include <linux/gpio/consumer.h>
+ * If you're implementing a GPIO driver, only include <robux/gpio/driver.h>
+ * If you're implementing a GPIO consumer, only include <robux/gpio/consumer.h>
  */
 #ifndef __LINUX_GPIO_H
 #define __LINUX_GPIO_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct device;
 
@@ -35,7 +35,7 @@ struct gpio {
 
 #ifdef CONFIG_GPIOLIB
 
-#include <linux/gpio/consumer.h>
+#include <robux/gpio/consumer.h>
 
 /*
  * "valid" GPIO numbers are nonnegative and may be passed to
@@ -116,7 +116,7 @@ int devm_gpio_request_one(struct device *dev, unsigned gpio,
 
 #else /* ! CONFIG_GPIOLIB */
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 #include <asm/bug.h>
 #include <asm/errno.h>

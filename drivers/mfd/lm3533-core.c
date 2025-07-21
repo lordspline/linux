@@ -7,19 +7,19 @@
  * Author: Johan Hovold <jhovold@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/mfd/core.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/mfd/core.h>
+#include <robux/regmap.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 
-#include <linux/mfd/lm3533.h>
+#include <robux/mfd/lm3533.h>
 
 
 #define LM3533_BOOST_OVP_MASK		0x06

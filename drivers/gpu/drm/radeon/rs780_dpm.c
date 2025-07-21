@@ -22,8 +22,8 @@
  * Authors: Alex Deucher
  */
 
-#include <linux/pci.h>
-#include <linux/seq_file.h>
+#include <robux/pci.h>
+#include <robux/seq_file.h>
 
 #include "atom.h"
 #include "r600_dpm.h"

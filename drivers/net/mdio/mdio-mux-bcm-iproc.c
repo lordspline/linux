@@ -2,17 +2,17 @@
 /*
  * Copyright 2016 Broadcom
  */
-#include <linux/align.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/mdio-mux.h>
-#include <linux/module.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
+#include <robux/align.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/iopoll.h>
+#include <robux/mdio-mux.h>
+#include <robux/module.h>
+#include <robux/of_mdio.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/sizes.h>
 
 #define MDIO_RATE_ADJ_EXT_OFFSET	0x000
 #define MDIO_RATE_ADJ_INT_OFFSET	0x004

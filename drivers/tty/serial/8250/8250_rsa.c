@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
 
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
+#include <robux/serial.h>
+#include <robux/serial_8250.h>
 
 #include "8250.h"
 

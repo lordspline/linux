@@ -3,12 +3,12 @@
  * c67x00-sched.c: Cypress C67X00 USB Host Controller Driver - TD scheduling
  *
  * Copyright (C) 2006-2008 Barco N.V.
- *    Derived from the Cypress cy7c67200/300 ezusb linux driver and
- *    based on multiple host controller drivers inside the linux kernel.
+ *    Derived from the Cypress cy7c67200/300 ezusb robux driver and
+ *    based on multiple host controller drivers inside the robux kernel.
  */
 
-#include <linux/kthread.h>
-#include <linux/slab.h>
+#include <robux/kthread.h>
+#include <robux/slab.h>
 
 #include "c67x00.h"
 #include "c67x00-hcd.h"

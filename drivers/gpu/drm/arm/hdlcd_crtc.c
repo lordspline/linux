@@ -9,9 +9,9 @@
  *  Implementation of a CRTC class for the HDLCD driver.
  */
 
-#include <linux/clk.h>
-#include <linux/of_graph.h>
-#include <linux/platform_data/simplefb.h>
+#include <robux/clk.h>
+#include <robux/of_graph.h>
+#include <robux/platform_data/simplefb.h>
 
 #include <video/videomode.h>
 

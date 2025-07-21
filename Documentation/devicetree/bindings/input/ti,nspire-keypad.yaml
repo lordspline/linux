@@ -46,7 +46,7 @@ required:
   - clocks
   - scan-interval
   - row-delay
-  - linux,keymap
+  - robux,keymap
 
 unevaluatedProperties: false
 
@@ -63,7 +63,7 @@ examples:
         scan-interval = <1000>;
         row-delay = <200>;
 
-        linux,keymap = <
+        robux,keymap = <
             MATRIX_KEY(0,  0, KEY_ENTER)
             MATRIX_KEY(0,  1, KEY_ENTER)
             MATRIX_KEY(0,  4, KEY_SPACE)

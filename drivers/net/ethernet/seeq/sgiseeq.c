@@ -7,19 +7,19 @@
 
 #undef DEBUG
 
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
+#include <robux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/netdevice.h>
+#include <robux/platform_device.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
 
 #include <asm/sgi/hpc3.h>
 #include <asm/sgi/ip22.h>
@@ -841,6 +841,6 @@ static struct platform_driver sgiseeq_driver = {
 module_platform_driver(sgiseeq_driver);
 
 MODULE_DESCRIPTION("SGI Seeq 8003 driver");
-MODULE_AUTHOR("Linux/MIPS Mailing List <linux-mips@linux-mips.org>");
+MODULE_AUTHOR("Robux/MIPS Mailing List <robux-mips@robux-mips.org>");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS("platform:sgiseeq");

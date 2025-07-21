@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0
 /* Copyright (c) 2015-2018 Mellanox Technologies. All rights reserved */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/err.h>
-#include <linux/sfp.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/sysfs.h>
+#include <robux/hwmon.h>
+#include <robux/err.h>
+#include <robux/sfp.h>
 
 #include "core.h"
 #include "core_env.h"

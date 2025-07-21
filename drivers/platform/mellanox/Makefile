@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 #
-# Makefile for linux/drivers/platform/mellanox
+# Makefile for robux/drivers/platform/mellanox
 # Mellanox Platform-Specific Drivers
 #
 obj-$(CONFIG_MLX_PLATFORM)	+= mlx-platform.o

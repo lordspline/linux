@@ -9,17 +9,17 @@
  * based on pm-sh7372.c
  *  Copyright (C) 2011 Magnus Damm
  */
-#include <linux/clk/renesas.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pm.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_domain.h>
-#include <linux/slab.h>
+#include <robux/clk/renesas.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/pm.h>
+#include <robux/pm_clock.h>
+#include <robux/pm_domain.h>
+#include <robux/slab.h>
 
 /* SYSC */
 #define SPDCR		0x08	/* SYS Power Down Control Register */

@@ -9,14 +9,14 @@
  *              future expansion to five letters.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/parport.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/blkdev.h>
+#include <robux/parport.h>
+#include <robux/workqueue.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
 #include <asm/io.h>
 
 #include <scsi/scsi.h>
@@ -227,7 +227,7 @@ static int imm_negotiate(imm_struct * tmp)
 	 * sequence. I have yet to obtain a copy of the above standard
 	 * so this is a bit of a guess...
 	 *
-	 * A fair chunk of this is based on the Linux parport implementation
+	 * A fair chunk of this is based on the Robux parport implementation
 	 * of IEEE 1284.
 	 *
 	 * Return 0 if data available

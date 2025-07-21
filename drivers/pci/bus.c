@@ -6,16 +6,16 @@
  *	David Miller (davem@redhat.com)
  *	Ivan Kokshaysky (ink@jurassic.park.msu.ru)
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/proc_fs.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/proc_fs.h>
+#include <robux/slab.h>
 
 #include "pci.h"
 

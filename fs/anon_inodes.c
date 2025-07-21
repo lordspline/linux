@@ -9,20 +9,20 @@
  *
  */
 
-#include <linux/cred.h>
-#include <linux/file.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/magic.h>
-#include <linux/anon_inodes.h>
-#include <linux/pseudo_fs.h>
+#include <robux/cred.h>
+#include <robux/file.h>
+#include <robux/poll.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/fs.h>
+#include <robux/mount.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/magic.h>
+#include <robux/anon_inodes.h>
+#include <robux/pseudo_fs.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "internal.h"
 

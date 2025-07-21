@@ -13,18 +13,18 @@
 //
 // Copyright (C) 2020 Dialog Semiconductor
 
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/driver.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/regulator/da9121.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
+#include <robux/of.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/driver.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/regulator/da9121.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
 
 #include "da9121-regulator.h"
 

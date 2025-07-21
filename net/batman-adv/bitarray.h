@@ -9,10 +9,10 @@
 
 #include "main.h"
 
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/compiler.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
 
 /**
  * batadv_test_bit() - check if bit is set in the current window

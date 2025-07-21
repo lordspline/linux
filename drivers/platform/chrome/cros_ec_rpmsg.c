@@ -2,16 +2,16 @@
 //
 // Copyright 2018 Google LLC.
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/rpmsg.h>
-#include <linux/slab.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/rpmsg.h>
+#include <robux/slab.h>
 
 #include "cros_ec.h"
 

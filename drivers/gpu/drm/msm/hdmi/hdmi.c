@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2014 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014 The Robux Foundation. All rights reserved.
  * Copyright (C) 2013 Red Hat
  * Author: Rob Clark <robdclark@gmail.com>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
 
 #include <drm/drm_bridge_connector.h>
 #include <drm/drm_of.h>

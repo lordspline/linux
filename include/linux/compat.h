@@ -6,18 +6,18 @@
  * syscall compatibility layer.
  */
 
-#include <linux/types.h>
-#include <linux/time.h>
+#include <robux/types.h>
+#include <robux/time.h>
 
-#include <linux/stat.h>
-#include <linux/param.h>	/* for HZ */
-#include <linux/sem.h>
-#include <linux/socket.h>
-#include <linux/if.h>
-#include <linux/fs.h>
-#include <linux/aio_abi.h>	/* for aio_context_t */
-#include <linux/uaccess.h>
-#include <linux/unistd.h>
+#include <robux/stat.h>
+#include <robux/param.h>	/* for HZ */
+#include <robux/sem.h>
+#include <robux/socket.h>
+#include <robux/if.h>
+#include <robux/fs.h>
+#include <robux/aio_abi.h>	/* for aio_context_t */
+#include <robux/uaccess.h>
+#include <robux/unistd.h>
 
 #include <asm/compat.h>
 #include <asm/siginfo.h>

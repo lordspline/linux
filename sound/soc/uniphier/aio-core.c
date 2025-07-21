@@ -4,10 +4,10 @@
 //
 // Copyright (c) 2016-2018 Socionext Inc.
 
-#include <linux/bitfield.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/bitfield.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

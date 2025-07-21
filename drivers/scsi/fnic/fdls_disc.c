@@ -4,13 +4,13 @@
  * Copyright 2007 Nuova Systems, Inc.  All rights reserved.
  */
 
-#include <linux/workqueue.h>
+#include <robux/workqueue.h>
 #include "fnic.h"
 #include "fdls_fc.h"
 #include "fnic_fdls.h"
 #include <scsi/fc/fc_fcp.h>
 #include <scsi/scsi_transport_fc.h>
-#include <linux/utsname.h>
+#include <robux/utsname.h>
 
 #define FC_FC4_TYPE_SCSI 0x08
 #define PORT_SPEED_BIT_8 8

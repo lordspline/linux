@@ -2,25 +2,25 @@
 /*
  * Copyright (C) 2003 Broadcom Corporation
  */
-#include <linux/cache.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/ptrace.h>
-#include <linux/unistd.h>
-#include <linux/compat.h>
-#include <linux/bitops.h>
+#include <robux/cache.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/errno.h>
+#include <robux/wait.h>
+#include <robux/ptrace.h>
+#include <robux/unistd.h>
+#include <robux/compat.h>
+#include <robux/bitops.h>
 
 #include <asm/abi.h>
 #include <asm/asm.h>
 #include <asm/cacheflush.h>
 #include <asm/compat-signal.h>
 #include <asm/sim.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/ucontext.h>
 #include <asm/fpu.h>
 #include <asm/cpu-features.h>

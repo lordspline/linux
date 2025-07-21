@@ -5,20 +5,20 @@
  * Copyright (c) 2020 Intel Corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/sizes.h>
-#include <linux/uaccess.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/sizes.h>
+#include <robux/uaccess.h>
 
 #define SSO_DEV_NAME			"lgm-sso"
 
@@ -645,7 +645,7 @@ __sso_led_dt_parse(struct sso_led_priv *priv, struct fwnode_handle *fw_ssoled)
 		}
 
 		fwnode_property_read_string(fwnode_child,
-					    "linux,default-trigger",
+					    "robux,default-trigger",
 					    &desc->default_trigger);
 
 		if (fwnode_property_present(fwnode_child,

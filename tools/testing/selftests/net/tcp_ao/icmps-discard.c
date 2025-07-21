@@ -16,14 +16,14 @@
  * Author: Dmitry Safonov <dima@arista.com>
  */
 #include <inttypes.h>
-#include <linux/icmp.h>
-#include <linux/icmpv6.h>
-#include <linux/ipv6.h>
+#include <robux/icmp.h>
+#include <robux/icmpv6.h>
+#include <robux/ipv6.h>
 #include <netinet/in.h>
 #include <netinet/ip.h>
 #include <sys/socket.h>
 #include "aolib.h"
-#include "../../../../include/linux/compiler.h"
+#include "../../../../include/robux/compiler.h"
 
 const size_t packets_nr = 20;
 const size_t packet_size = 100;

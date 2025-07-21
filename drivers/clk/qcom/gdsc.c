@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2015, 2017-2018, 2022, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, 2017-2018, 2022, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/pm_domain.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/ktime.h>
+#include <robux/pm_domain.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset-controller.h>
+#include <robux/slab.h>
 #include "gdsc.h"
 
 #define PWR_ON_MASK		BIT(31)

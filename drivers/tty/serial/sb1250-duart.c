@@ -15,26 +15,26 @@
  *	"BCM1250/BCM1125/BCM1125H User Manual", Broadcom Corporation
  */
 
-#include <linux/compiler.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/major.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/spinlock.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/major.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/spinlock.h>
+#include <robux/sysrq.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/types.h>
 
-#include <linux/refcount.h>
-#include <linux/io.h>
+#include <robux/refcount.h>
+#include <robux/io.h>
 
 #include <asm/sibyte/sb1250.h>
 #include <asm/sibyte/sb1250_uart.h>
@@ -69,7 +69,7 @@
 #endif
 
 
-MODULE_AUTHOR("Maciej W. Rozycki <macro@linux-mips.org>");
+MODULE_AUTHOR("Maciej W. Rozycki <macro@robux-mips.org>");
 MODULE_DESCRIPTION("BCM1xxx on-chip DUART serial driver");
 MODULE_LICENSE("GPL");
 

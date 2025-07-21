@@ -9,13 +9,13 @@
  *  All rights reserved.
  */
 
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/time.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/time.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
 #include <sound/core.h>
 #include <sound/ac97_codec.h>
 #include <sound/initval.h>

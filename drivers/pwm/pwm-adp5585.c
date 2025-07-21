@@ -14,18 +14,18 @@
 
 #include <asm/byteorder.h>
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/math64.h>
-#include <linux/mfd/adp5585.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/time.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/math64.h>
+#include <robux/mfd/adp5585.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
+#include <robux/regmap.h>
+#include <robux/time.h>
+#include <robux/types.h>
 
 #define ADP5585_PWM_CHAN_NUM		1
 

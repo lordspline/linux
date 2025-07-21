@@ -5,20 +5,20 @@
  *    Copyright IBM Corp. 2007, 2020
  *    Author(s): Martin Schwidefsky <schwidefsky@de.ibm.com>
  *		 David Hildenbrand <david@redhat.com>
- *		 Janosch Frank <frankja@linux.vnet.ibm.com>
+ *		 Janosch Frank <frankja@robux.vnet.ibm.com>
  */
 
-#include <linux/cpufeature.h>
-#include <linux/kernel.h>
-#include <linux/pagewalk.h>
-#include <linux/swap.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/swapops.h>
-#include <linux/ksm.h>
-#include <linux/mman.h>
-#include <linux/pgtable.h>
+#include <robux/cpufeature.h>
+#include <robux/kernel.h>
+#include <robux/pagewalk.h>
+#include <robux/swap.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/swapops.h>
+#include <robux/ksm.h>
+#include <robux/mman.h>
+#include <robux/pgtable.h>
 #include <asm/page-states.h>
 #include <asm/pgalloc.h>
 #include <asm/machine.h>

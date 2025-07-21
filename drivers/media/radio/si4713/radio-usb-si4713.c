@@ -5,21 +5,21 @@
  */
 
 /* kernel includes */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/mutex.h>
-#include <linux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/mutex.h>
+#include <robux/i2c.h>
 /* V4l includes */
-#include <linux/videodev2.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-event.h>
-#include <linux/platform_data/media/si4713.h>
+#include <robux/platform_data/media/si4713.h>
 
 #include "si4713.h"
 

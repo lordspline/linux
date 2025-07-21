@@ -6,8 +6,8 @@
 #ifndef VDO_INT_MAP_H
 #define VDO_INT_MAP_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/types.h>
 
 /**
  * DOC: int_map

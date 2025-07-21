@@ -2,9 +2,9 @@
 //
 // Copyright(c) 2022 Intel Corporation
 
-#include <linux/debugfs.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/clock.h>
+#include <robux/debugfs.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/clock.h>
 #include <sound/sof/ipc4/header.h>
 #include "sof-priv.h"
 #include "ipc4-priv.h"

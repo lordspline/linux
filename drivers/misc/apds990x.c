@@ -8,17 +8,17 @@
  * Contact: Samu Onkalo <samu.p.onkalo@nokia.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/delay.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/platform_data/apds990x.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
+#include <robux/regulator/consumer.h>
+#include <robux/pm_runtime.h>
+#include <robux/delay.h>
+#include <robux/wait.h>
+#include <robux/slab.h>
+#include <robux/platform_data/apds990x.h>
 
 /* Register map */
 #define APDS990X_ENABLE	 0x00 /* Enable of states and interrupts */

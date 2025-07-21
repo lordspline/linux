@@ -14,20 +14,20 @@
  * Copyright 2021 Linaro, Rui Miguel Silva <rui.silva@linaro.org>
  *
  */
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mm.h>
-#include <linux/timer.h>
-#include <linux/unaligned.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/debugfs.h>
+#include <robux/uaccess.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/mm.h>
+#include <robux/timer.h>
+#include <robux/unaligned.h>
 #include <asm/cacheflush.h>
 
 #include "isp1760-core.h"

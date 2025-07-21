@@ -6,20 +6,20 @@
  *
  * Copyright 2005 Freescale Semiconductor, Inc.
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/sched.h>
-#include <linux/signal.h>
-#include <linux/syscore_ops.h>
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/fsl_devices.h>
-#include <linux/irqdomain.h>
-#include <linux/of_address.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/reboot.h>
+#include <robux/slab.h>
+#include <robux/stddef.h>
+#include <robux/sched.h>
+#include <robux/signal.h>
+#include <robux/syscore_ops.h>
+#include <robux/device.h>
+#include <robux/spinlock.h>
+#include <robux/fsl_devices.h>
+#include <robux/irqdomain.h>
+#include <robux/of_address.h>
 #include <asm/irq.h>
 #include <asm/io.h>
 #include <asm/ipic.h>

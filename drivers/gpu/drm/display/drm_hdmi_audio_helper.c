@@ -3,9 +3,9 @@
  * Copyright (c) 2024 Linaro Ltd
  */
 
-#include <linux/mutex.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
 
 #include <drm/drm_connector.h>
 #include <drm/drm_device.h>

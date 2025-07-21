@@ -8,15 +8,15 @@
  *		 Andrzej Hajda <a.hajda@samsung.com>
  */
 
-#include <linux/led-class-flash.h>
-#include <linux/mfd/max77693.h>
-#include <linux/mfd/max77693-common.h>
-#include <linux/mfd/max77693-private.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/led-class-flash.h>
+#include <robux/mfd/max77693.h>
+#include <robux/mfd/max77693-common.h>
+#include <robux/mfd/max77693-private.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 #include <media/v4l2-flash-led-class.h>
 
 #define MODE_OFF		0

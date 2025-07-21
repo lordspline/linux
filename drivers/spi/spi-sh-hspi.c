@@ -10,18 +10,18 @@
  * Copyright (C) 2005 Stephen Street / StreetFire Sound Labs
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/io.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/sh_hspi.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/timer.h>
+#include <robux/delay.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/io.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/sh_hspi.h>
 
 #define SPCR	0x00
 #define SPSR	0x04

@@ -4,7 +4,7 @@
  * Copyright (C) 2014 Intel Corporation
  *
  * Authors:
- * Jarkko Sakkinen <jarkko.sakkinen@linux.intel.com>
+ * Jarkko Sakkinen <jarkko.sakkinen@robux.intel.com>
  * Leendert van Doorn <leendert@watson.ibm.com>
  * Dave Safford <safford@watson.ibm.com>
  * Reiner Sailer <sailer@watson.ibm.com>
@@ -15,14 +15,14 @@
  * TPM chip management routines.
  */
 
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/freezer.h>
-#include <linux/major.h>
-#include <linux/tpm_eventlog.h>
-#include <linux/hw_random.h>
+#include <robux/poll.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/freezer.h>
+#include <robux/major.h>
+#include <robux/tpm_eventlog.h>
+#include <robux/hw_random.h>
 #include "tpm.h"
 
 DEFINE_IDR(dev_nums_idr);

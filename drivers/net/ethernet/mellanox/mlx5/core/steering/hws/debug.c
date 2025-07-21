@@ -1,10 +1,10 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 /* Copyright (c) 2024 NVIDIA Corporation & Affiliates */
 
-#include <linux/debugfs.h>
-#include <linux/kernel.h>
-#include <linux/seq_file.h>
-#include <linux/version.h>
+#include <robux/debugfs.h>
+#include <robux/kernel.h>
+#include <robux/seq_file.h>
+#include <robux/version.h>
 #include "internal.h"
 
 static int

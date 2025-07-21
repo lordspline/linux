@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /* Copyright (C) 2019 IBM Corp. */
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #include "../core.h"
 #include "../pinctrl-utils.h"

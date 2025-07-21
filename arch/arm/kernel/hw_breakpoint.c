@@ -12,14 +12,14 @@
  */
 #define pr_fmt(fmt) "hw-breakpoint: " fmt
 
-#include <linux/errno.h>
-#include <linux/hardirq.h>
-#include <linux/perf_event.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/smp.h>
-#include <linux/cfi.h>
-#include <linux/cpu_pm.h>
-#include <linux/coresight.h>
+#include <robux/errno.h>
+#include <robux/hardirq.h>
+#include <robux/perf_event.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/smp.h>
+#include <robux/cfi.h>
+#include <robux/cpu_pm.h>
+#include <robux/coresight.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cputype.h>

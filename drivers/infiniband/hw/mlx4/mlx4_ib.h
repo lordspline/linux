@@ -34,21 +34,21 @@
 #ifndef MLX4_IB_H
 #define MLX4_IB_H
 
-#include <linux/compiler.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/idr.h>
-#include <linux/notifier.h>
+#include <robux/compiler.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/idr.h>
+#include <robux/notifier.h>
 
 #include <rdma/ib_verbs.h>
 #include <rdma/ib_umem.h>
 #include <rdma/ib_mad.h>
 #include <rdma/ib_sa.h>
 
-#include <linux/mlx4/device.h>
-#include <linux/mlx4/doorbell.h>
-#include <linux/mlx4/qp.h>
-#include <linux/mlx4/cq.h>
+#include <robux/mlx4/device.h>
+#include <robux/mlx4/doorbell.h>
+#include <robux/mlx4/qp.h>
+#include <robux/mlx4/cq.h>
 
 #define MLX4_IB_DRV_NAME	"mlx4_ib"
 

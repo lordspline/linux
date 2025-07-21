@@ -6,11 +6,11 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>

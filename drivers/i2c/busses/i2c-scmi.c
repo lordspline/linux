@@ -5,13 +5,13 @@
  * Copyright (C) 2009 Crane Cai <crane.cai@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/i2c.h>
-#include <linux/acpi.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/stddef.h>
+#include <robux/i2c.h>
+#include <robux/acpi.h>
 
 struct smbus_methods_t {
 	char *mt_info;

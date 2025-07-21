@@ -22,12 +22,12 @@
  * Windows-Media-Center-RC-IR-Collection-Green-Button-Specification-03-08-2011-V2.pdf
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/usb.h>
-#include <linux/usb/input.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/usb.h>
+#include <robux/usb/input.h>
 #include <media/rc-core.h>
 
 #define DRIVER_VERSION	"1.95"

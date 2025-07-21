@@ -14,12 +14,12 @@
  * and delete this driver.
  */
 
-#include <linux/gpio/machine.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_gpio.h>
+#include <robux/gpio/machine.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi_gpio.h>
 
 #define GPIO_EEPROM_CLK		216
 #define GPIO_EEPROM_CS		210

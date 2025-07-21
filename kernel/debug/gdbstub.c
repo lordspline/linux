@@ -25,15 +25,15 @@
  * Tigran Aivazian <tigran@sco.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/kgdb.h>
-#include <linux/kdb.h>
-#include <linux/serial_core.h>
-#include <linux/reboot.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/sched/signal.h>
+#include <robux/kgdb.h>
+#include <robux/kdb.h>
+#include <robux/serial_core.h>
+#include <robux/reboot.h>
+#include <robux/uaccess.h>
 #include <asm/cacheflush.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include "debug_core.h"
 
 #define KGDB_MAX_THREAD_QUERY 17
@@ -396,7 +396,7 @@ static void error_packet(char *pkt, int error)
 
 /*
  * Thread ID accessors. We represent a flat TID space to GDB, where
- * the per CPU idle threads (which under Linux all have PID 0) are
+ * the per CPU idle threads (which under Robux all have PID 0) are
  * remapped to negative TIDs.
  */
 

@@ -45,15 +45,15 @@
  * PERFORMANCE OF THE SOFTWARE LIES WITH YOU.
  */
 
-#include <linux/usb.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/usb/hcd.h>
-#include <linux/prefetch.h>
-#include <linux/irqdomain.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <robux/usb.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/usb/hcd.h>
+#include <robux/prefetch.h>
+#include <robux/irqdomain.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
 
 #include <asm/octeon/octeon.h>
 

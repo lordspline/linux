@@ -3,9 +3,9 @@
 #define _LINUX_RANDOMIZE_KSTACK_H
 
 #ifdef CONFIG_RANDOMIZE_KSTACK_OFFSET
-#include <linux/kernel.h>
-#include <linux/jump_label.h>
-#include <linux/percpu-defs.h>
+#include <robux/kernel.h>
+#include <robux/jump_label.h>
+#include <robux/percpu-defs.h>
 
 DECLARE_STATIC_KEY_MAYBE(CONFIG_RANDOMIZE_KSTACK_OFFSET_DEFAULT,
 			 randomize_kstack_offset);

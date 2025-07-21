@@ -5,10 +5,10 @@
  * Copyright (c) 2004 James Simmons <jsimmons@infradead.org>
  */
 
-#include <linux/console.h>
-#include <linux/fb.h>
-#include <linux/fbcon.h>
-#include <linux/major.h>
+#include <robux/console.h>
+#include <robux/fb.h>
+#include <robux/fbcon.h>
+#include <robux/major.h>
 
 #include "fb_internal.h"
 

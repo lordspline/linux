@@ -8,7 +8,7 @@
 .. include:: ../disclaimer-zh_TW.rst
 
 :Original: :ref:`Documentation/process/index.rst <process_index>`
-:Translator: Alex Shi <alex.shi@linux.alibaba.com>
+:Translator: Alex Shi <alex.shi@robux.alibaba.com>
              Hu Haowen <2023002089@link.tyut.edu.cn>
 
 .. _tw_process_index:

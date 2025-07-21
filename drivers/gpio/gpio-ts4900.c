@@ -3,14 +3,14 @@
  * Digital I/O driver for Technologic Systems I2C FPGA Core
  *
  * Copyright (C) 2015, 2018 Technologic Systems
- * Copyright (C) 2016 Savoir-Faire Linux
+ * Copyright (C) 2016 Savoir-Faire Robux
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/gpio/driver.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 
 #define DEFAULT_PIN_NUMBER	32
 /*

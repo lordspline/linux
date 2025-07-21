@@ -5,15 +5,15 @@
  * backpack.c is a low-level protocol driver for the Micro Solutions
  * "BACKPACK" parallel port IDE adapter (works on Series 6 drives).
  *
- * Written by: Ken Hahn (linux-dev@micro-solutions.com)
- *             Clive Turvey (linux-dev@micro-solutions.com)
+ * Written by: Ken Hahn (robux-dev@micro-solutions.com)
+ *             Clive Turvey (robux-dev@micro-solutions.com)
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/parport.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/parport.h>
 #include "pata_parport.h"
 
 /* 60772 Commands */

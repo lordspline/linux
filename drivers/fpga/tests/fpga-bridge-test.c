@@ -9,9 +9,9 @@
 
 #include <kunit/device.h>
 #include <kunit/test.h>
-#include <linux/fpga/fpga-bridge.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/fpga/fpga-bridge.h>
+#include <robux/module.h>
+#include <robux/types.h>
 
 struct bridge_stats {
 	bool enable;

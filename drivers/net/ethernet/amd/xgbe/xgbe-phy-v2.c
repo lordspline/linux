@@ -5,12 +5,12 @@
  * All rights reserved
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/kmod.h>
-#include <linux/mdio.h>
-#include <linux/phy.h>
-#include <linux/ethtool.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/kmod.h>
+#include <robux/mdio.h>
+#include <robux/phy.h>
+#include <robux/ethtool.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

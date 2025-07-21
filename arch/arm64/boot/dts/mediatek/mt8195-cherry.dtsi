@@ -1607,7 +1607,7 @@
 		MATRIX_KEY(0x03, 0x05, 0)	/* T13 */
 	>;
 
-	linux,keymap = <
+	robux,keymap = <
 		MATRIX_KEY(0x00, 0x02, KEY_BACK)
 		MATRIX_KEY(0x03, 0x02, KEY_REFRESH)
 		MATRIX_KEY(0x02, 0x02, KEY_ZOOM)

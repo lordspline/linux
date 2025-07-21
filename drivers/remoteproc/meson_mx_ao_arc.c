@@ -3,20 +3,20 @@
  * Copyright (C) 2020 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/genalloc.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
-#include <linux/sizes.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/genalloc.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/remoteproc.h>
+#include <robux/reset.h>
+#include <robux/sizes.h>
 
 #include "remoteproc_internal.h"
 

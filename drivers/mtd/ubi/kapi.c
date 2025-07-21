@@ -7,11 +7,11 @@
 
 /* This file mostly implements UBI kernel API functions */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/namei.h>
-#include <linux/fs.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/namei.h>
+#include <robux/fs.h>
 #include <asm/div64.h>
 #include "ubi.h"
 

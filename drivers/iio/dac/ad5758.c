@@ -6,17 +6,17 @@
  *
  * TODO: Currently CRC is not supported in this driver
  */
-#include <linux/bsearch.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
-#include <linux/gpio/consumer.h>
+#include <robux/bsearch.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/spi/spi.h>
+#include <robux/gpio/consumer.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 /* AD5758 registers definition */
 #define AD5758_NOP				0x00

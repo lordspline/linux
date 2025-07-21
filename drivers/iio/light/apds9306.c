@@ -7,28 +7,28 @@
  * Copyright (C) 2024 Subhajit Ghosh <subhajit.ghosh@tweaklogic.com>
  */
 
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/iio-gts-helper.h>
-#include <linux/iio/events.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/iio-gts-helper.h>
+#include <robux/iio/events.h>
+#include <robux/iio/sysfs.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define APDS9306_MAIN_CTRL_REG		0x00
 #define APDS9306_ALS_MEAS_RATE_REG	0x04

@@ -3,11 +3,11 @@
  * Copyright (c) 2015, Christoph Hellwig.
  * Copyright (c) 2015, Intel Corporation.
  */
-#include <linux/platform_device.h>
-#include <linux/memory_hotplug.h>
-#include <linux/libnvdimm.h>
-#include <linux/module.h>
-#include <linux/numa.h>
+#include <robux/platform_device.h>
+#include <robux/memory_hotplug.h>
+#include <robux/libnvdimm.h>
+#include <robux/module.h>
+#include <robux/numa.h>
 
 static void e820_pmem_remove(struct platform_device *pdev)
 {

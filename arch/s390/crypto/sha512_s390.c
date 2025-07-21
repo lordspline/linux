@@ -10,10 +10,10 @@
 #include <asm/cpacf.h>
 #include <crypto/internal/hash.h>
 #include <crypto/sha2.h>
-#include <linux/cpufeature.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/cpufeature.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #include "sha.h"
 

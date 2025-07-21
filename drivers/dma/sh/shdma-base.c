@@ -10,15 +10,15 @@
  * Copyright (C) 2007 Freescale Semiconductor, Inc. All rights reserved.
  */
 
-#include <linux/delay.h>
-#include <linux/shdma-base.h>
-#include <linux/dmaengine.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/delay.h>
+#include <robux/shdma-base.h>
+#include <robux/dmaengine.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
 #include "../dmaengine.h"
 

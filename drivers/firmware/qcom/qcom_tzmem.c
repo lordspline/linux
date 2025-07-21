@@ -5,20 +5,20 @@
  * Copyright (C) 2023-2024 Linaro Ltd.
  */
 
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/firmware/qcom/qcom_tzmem.h>
-#include <linux/genalloc.h>
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/radix-tree.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/bug.h>
+#include <robux/cleanup.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/firmware/qcom/qcom_tzmem.h>
+#include <robux/genalloc.h>
+#include <robux/gfp.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/mm.h>
+#include <robux/radix-tree.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 #include "qcom_tzmem.h"
 
@@ -67,8 +67,8 @@ static void qcom_tzmem_cleanup_area(struct qcom_tzmem_area *area)
 
 #elif IS_ENABLED(CONFIG_QCOM_TZMEM_MODE_SHMBRIDGE)
 
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/of.h>
+#include <robux/firmware/qcom/qcom_scm.h>
+#include <robux/of.h>
 
 #define QCOM_SHM_BRIDGE_NUM_VM_SHIFT 9
 

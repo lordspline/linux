@@ -6,19 +6,19 @@
  * *       Jacky Huang <ychuang3@nuvoton.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/gpio/driver.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
 #include "../core.h"
 #include "../pinconf.h"
 #include "pinctrl-ma35.h"

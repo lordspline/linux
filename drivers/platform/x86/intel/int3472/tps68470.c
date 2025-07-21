@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Author: Dan Scally <djrscally@gmail.com> */
 
-#include <linux/acpi.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps68470.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/tps68470.h>
-#include <linux/platform_data/x86/int3472.h>
-#include <linux/regmap.h>
-#include <linux/string.h>
+#include <robux/acpi.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/tps68470.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/tps68470.h>
+#include <robux/platform_data/x86/int3472.h>
+#include <robux/regmap.h>
+#include <robux/string.h>
 
 #include "tps68470.h"
 

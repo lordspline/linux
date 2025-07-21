@@ -4,7 +4,7 @@
 
 #include <asm/cpufeatures.h>
 #include <asm/alternative.h>
-#include <linux/stringify.h>
+#include <robux/stringify.h>
 
 /*
  * VMware hypercall ABI.

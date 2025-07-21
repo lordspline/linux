@@ -3,7 +3,7 @@
  *  comedi/drivers/ni_routes.c
  *  Route information for NI boards.
  *
- *  COMEDI - Linux Control and Measurement Device Interface
+ *  COMEDI - Robux Control and Measurement Device Interface
  *  Copyright (C) 2016 Spencer E. Olson <olsonse@umich.edu>
  *
  *  This program is free software; you can redistribute it and/or modify
@@ -17,11 +17,11 @@
  *  GNU General Public License for more details.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/bsearch.h>
-#include <linux/sort.h>
-#include <linux/comedi.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/bsearch.h>
+#include <robux/sort.h>
+#include <robux/comedi.h>
 
 #include "ni_routes.h"
 #include "ni_routing/ni_route_values.h"

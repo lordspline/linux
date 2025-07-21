@@ -6,15 +6,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/crash_dump.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/rpmb.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/tee_core.h>
-#include <linux/types.h>
+#include <robux/crash_dump.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/rpmb.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/tee_core.h>
+#include <robux/types.h>
 #include "optee_private.h"
 
 struct blocking_notifier_head optee_rpmb_intf_added =

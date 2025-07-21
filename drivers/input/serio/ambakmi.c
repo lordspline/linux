@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/drivers/input/serio/ambakmi.c
+ *  robux/drivers/input/serio/ambakmi.c
  *
  *  Copyright (C) 2000-2003 Deep Blue Solutions Ltd.
  *  Copyright (C) 2002 Russell King.
  */
-#include <linux/module.h>
-#include <linux/serio.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/amba/bus.h>
-#include <linux/amba/kmi.h>
-#include <linux/clk.h>
+#include <robux/module.h>
+#include <robux/serio.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/amba/bus.h>
+#include <robux/amba/kmi.h>
+#include <robux/clk.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
@@ -204,6 +204,6 @@ static struct amba_driver ambakmi_driver = {
 
 module_amba_driver(ambakmi_driver);
 
-MODULE_AUTHOR("Russell King <rmk@arm.linux.org.uk>");
+MODULE_AUTHOR("Russell King <rmk@arm.robux.org.uk>");
 MODULE_DESCRIPTION("AMBA KMI controller driver");
 MODULE_LICENSE("GPL");

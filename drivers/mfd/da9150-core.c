@@ -7,17 +7,17 @@
  * Author: Adam Thomson <Adam.Thomson.Opensource@diasemi.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/da9150/core.h>
-#include <linux/mfd/da9150/registers.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/da9150/core.h>
+#include <robux/mfd/da9150/registers.h>
 
 /* Raw device access, used for QIF */
 static int da9150_i2c_read_device(struct i2c_client *client, u8 addr, int count,

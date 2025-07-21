@@ -5,22 +5,22 @@
  * Copyright (C) 2016-2018 Cirrus Logic
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
 
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/machine.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
-#include <linux/mfd/madera/core.h>
-#include <linux/mfd/madera/registers.h>
+#include <robux/mfd/madera/core.h>
+#include <robux/mfd/madera/registers.h>
 
 #include "../pinctrl-utils.h"
 

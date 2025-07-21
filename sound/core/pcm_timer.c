@@ -4,8 +4,8 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/time.h>
-#include <linux/gcd.h>
+#include <robux/time.h>
+#include <robux/gcd.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/timer.h>

@@ -6,9 +6,9 @@
 #ifndef _XE_REG_DEFS_H_
 #define _XE_REG_DEFS_H_
 
-#include <linux/build_bug.h>
-#include <linux/log2.h>
-#include <linux/sizes.h>
+#include <robux/build_bug.h>
+#include <robux/log2.h>
+#include <robux/sizes.h>
 
 #include "compat-i915-headers/i915_reg_defs.h"
 

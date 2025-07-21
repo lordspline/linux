@@ -5,19 +5,19 @@
  * All rights reserved.
  */
 
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/interrupt.h>
 #include "netxen_nic_hw.h"
 
 #include "netxen_nic.h"
 
-#include <linux/dma-mapping.h>
-#include <linux/if_vlan.h>
+#include <robux/dma-mapping.h>
+#include <robux/if_vlan.h>
 #include <net/ip.h>
-#include <linux/ipv6.h>
-#include <linux/inetdevice.h>
-#include <linux/sysfs.h>
+#include <robux/ipv6.h>
+#include <robux/inetdevice.h>
+#include <robux/sysfs.h>
 
 MODULE_DESCRIPTION("QLogic/NetXen (1/10) GbE Intelligent Ethernet Driver");
 MODULE_LICENSE("GPL");

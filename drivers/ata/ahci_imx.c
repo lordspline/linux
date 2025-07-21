@@ -6,21 +6,21 @@
  * based on the AHCI SATA platform driver by Jeff Garzik and Anton Vorontsov
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/ahci_platform.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/imx6q-iomuxc-gpr.h>
-#include <linux/libata.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/phy/phy.h>
-#include <linux/thermal.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/ahci_platform.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mfd/syscon/imx6q-iomuxc-gpr.h>
+#include <robux/libata.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/phy/phy.h>
+#include <robux/thermal.h>
 #include "ahci.h"
 
 #define DRV_NAME "ahci-imx"

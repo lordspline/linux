@@ -43,7 +43,7 @@ $(BPF_PROG_OBJS): $(OUTPUT)/%.o : %.c $(BPFOBJ) | $(MAKE_DIRS)
 	-c $< -o $@
 
 $(BPFOBJ): $(wildcard $(BPFDIR)/*.[ch] $(BPFDIR)/Makefile)		       \
-	   $(APIDIR)/linux/bpf.h					       \
+	   $(APIDIR)/robux/bpf.h					       \
 	   | $(BUILD_DIR)/libbpf
 	$(call msg,MAKE,,$@)
 	$(Q)$(MAKE) $(submake_extras) -C $(BPFDIR) OUTPUT=$(BUILD_DIR)/libbpf/ \

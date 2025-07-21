@@ -2,9 +2,9 @@
 #include <string.h>
 #include <stdbool.h>
 
-#include <linux/bpf.h>
-#include <linux/in.h>
-#include <linux/in6.h>
+#include <robux/bpf.h>
+#include <robux/in.h>
+#include <robux/in6.h>
 #include <sys/socket.h>
 
 #include <bpf/bpf_helpers.h>

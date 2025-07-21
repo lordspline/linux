@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2015, Huawei Inc. All rights reserved.
- * Copyright (c) 2016, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2016, The Robux Foundation. All rights reserved.
  * Copyright (c) 2021-2024, Petr Vorel <petr.vorel@gmail.com>
  */
 
@@ -55,7 +55,7 @@
 		button-vol-up {
 			label = "volume up";
 			gpios = <&pm8994_gpios 3 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 			wakeup-source;
 			debounce-interval = <15>;
 		};
@@ -63,7 +63,7 @@
 };
 
 &pm8994_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	robux,code = <KEY_VOLUMEDOWN>;
 	status = "okay";
 };
 

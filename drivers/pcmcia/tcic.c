@@ -31,20 +31,20 @@
     
 ======================================================================*/
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/platform_device.h>
-#include <linux/bitops.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/timer.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/workqueue.h>
+#include <robux/platform_device.h>
+#include <robux/bitops.h>
 
 #include <asm/io.h>
 
@@ -285,7 +285,7 @@ static u_int __init irq_scan(u_int mask0)
 /*======================================================================
 
     See if a card is present, powered up, in IO mode, and already
-    bound to a (non-PCMCIA) Linux driver.
+    bound to a (non-PCMCIA) Robux driver.
 
     We make an exception for cards that look like serial devices.
     

@@ -33,9 +33,9 @@
 		event-hall-sensor {
 			label = "Hall Effect Sensor";
 			gpios = <&tlmm 50 GPIO_ACTIVE_LOW>;
-			linux,input-type = <EV_SW>;
-			linux,code = <SW_LID>;
-			linux,can-disable;
+			robux,input-type = <EV_SW>;
+			robux,code = <SW_LID>;
+			robux,can-disable;
 		};
 	};
 
@@ -50,19 +50,19 @@
 		button-volume-up {
 			label = "Volume Up";
 			gpios = <&tlmm 106 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 		};
 
 		button-volume-down {
 			label = "Volume Down";
 			gpios = <&tlmm 107 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEDOWN>;
+			robux,code = <KEY_VOLUMEDOWN>;
 		};
 
 		button-home {
 			label = "Home Key";
 			gpios = <&tlmm 108 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_HOMEPAGE>;
+			robux,code = <KEY_HOMEPAGE>;
 		};
 	};
 

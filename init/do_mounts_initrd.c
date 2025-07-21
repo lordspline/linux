@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/unistd.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/minix_fs.h>
-#include <linux/romfs_fs.h>
-#include <linux/initrd.h>
-#include <linux/sched.h>
-#include <linux/freezer.h>
-#include <linux/kmod.h>
-#include <uapi/linux/mount.h>
+#include <robux/unistd.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/minix_fs.h>
+#include <robux/romfs_fs.h>
+#include <robux/initrd.h>
+#include <robux/sched.h>
+#include <robux/freezer.h>
+#include <robux/kmod.h>
+#include <uapi/robux/mount.h>
 
 #include "do_mounts.h"
 

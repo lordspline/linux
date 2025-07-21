@@ -4,19 +4,19 @@
  * Author: Moritz Fischer <mdf@kernel.org>
  */
 
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/skbuff.h>
-#include <linux/phy.h>
-#include <linux/mii.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/ethtool.h>
-#include <linux/iopoll.h>
+#include <robux/etherdevice.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
+#include <robux/platform_device.h>
+#include <robux/skbuff.h>
+#include <robux/phy.h>
+#include <robux/mii.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/ethtool.h>
+#include <robux/iopoll.h>
 
 #define TX_BD_NUM		64
 #define RX_BD_NUM		128

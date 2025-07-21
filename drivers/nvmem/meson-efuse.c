@@ -6,13 +6,13 @@
  * Author: Carlo Caione <carlo@endlessm.com>
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
-#include <linux/firmware/meson/meson_sm.h>
+#include <robux/firmware/meson/meson_sm.h>
 
 static int meson_efuse_read(void *context, unsigned int offset,
 			    void *val, size_t bytes)

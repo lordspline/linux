@@ -2,7 +2,7 @@
 #ifndef _LINUX_RCU_PENDING_H
 #define _LINUX_RCU_PENDING_H
 
-#include <linux/rcupdate.h>
+#include <robux/rcupdate.h>
 
 struct rcu_pending;
 typedef void (*rcu_pending_process_fn)(struct rcu_pending *, struct rcu_head *);

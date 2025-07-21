@@ -4,15 +4,15 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/align.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/errno.h>
-#include <linux/find.h>
-#include <linux/limits.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/bitmap-str.h>
+#include <robux/align.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/errno.h>
+#include <robux/find.h>
+#include <robux/limits.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/bitmap-str.h>
 
 struct device;
 
@@ -120,7 +120,7 @@ struct device;
 
 /**
  * DOC: declare bitmap
- * The DECLARE_BITMAP(name,bits) macro, in linux/types.h, can be used
+ * The DECLARE_BITMAP(name,bits) macro, in robux/types.h, can be used
  * to declare an array named 'name' of just enough unsigned longs to
  * contain all bit positions from 0 to 'bits' - 1.
  */
@@ -709,10 +709,10 @@ int bitmap_find_free_region(unsigned long *bitmap, unsigned int bits, int order)
  * BITMAP_FROM_U64() - Represent u64 value in the format suitable for bitmap.
  * @n: u64 value
  *
- * Linux bitmaps are internally arrays of unsigned longs, i.e. 32-bit
+ * Robux bitmaps are internally arrays of unsigned longs, i.e. 32-bit
  * integers in 32-bit environment, and 64-bit integers in 64-bit one.
  *
- * There are four combinations of endianness and length of the word in linux
+ * There are four combinations of endianness and length of the word in robux
  * ABIs: LE64, BE64, LE32 and BE32.
  *
  * On 64-bit kernels 64-bit LE and BE numbers are naturally ordered in

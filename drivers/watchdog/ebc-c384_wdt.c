@@ -3,17 +3,17 @@
  * Watchdog timer driver for the WinSystems EBC-C384
  * Copyright (C) 2016 William Breathitt Gray
  */
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/isa.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <robux/device.h>
+#include <robux/dmi.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/isa.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/watchdog.h>
 
 #define MODULE_NAME		"ebc-c384_wdt"
 #define WATCHDOG_TIMEOUT	60

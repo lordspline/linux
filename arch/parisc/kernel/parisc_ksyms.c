@@ -2,24 +2,24 @@
 /*
  *    Architecture-specific kernel symbols
  *
- *    Copyright (C) 2000-2001 Richard Hirst <rhirst with parisc-linux.org>
+ *    Copyright (C) 2000-2001 Richard Hirst <rhirst with parisc-robux.org>
  *    Copyright (C) 2001 Dave Kennedy
- *    Copyright (C) 2001 Paul Bame <bame at parisc-linux.org>
- *    Copyright (C) 2001-2003 Grant Grundler <grundler with parisc-linux.org>
- *    Copyright (C) 2002-2003 Matthew Wilcox <willy at parisc-linux.org>
- *    Copyright (C) 2002 Randolph Chung <tausq at parisc-linux.org>
- *    Copyright (C) 2002-2007 Helge Deller <deller with parisc-linux.org>
+ *    Copyright (C) 2001 Paul Bame <bame at parisc-robux.org>
+ *    Copyright (C) 2001-2003 Grant Grundler <grundler with parisc-robux.org>
+ *    Copyright (C) 2002-2003 Matthew Wilcox <willy at parisc-robux.org>
+ *    Copyright (C) 2002 Randolph Chung <tausq at parisc-robux.org>
+ *    Copyright (C) 2002-2007 Helge Deller <deller with parisc-robux.org>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/syscalls.h>
-#include <linux/libgcc.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/syscalls.h>
+#include <robux/libgcc.h>
 
-#include <linux/string.h>
+#include <robux/string.h>
 EXPORT_SYMBOL(memset);
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 EXPORT_SYMBOL(__xchg8);
 EXPORT_SYMBOL(__xchg32);
 EXPORT_SYMBOL(__cmpxchg_u8);
@@ -33,7 +33,7 @@ EXPORT_SYMBOL(__atomic_hash);
 EXPORT_SYMBOL(__xchg64);
 #endif
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 EXPORT_SYMBOL(lclear_user);
 
 #ifndef CONFIG_64BIT

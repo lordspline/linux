@@ -5,18 +5,18 @@
  * Copyright (C) 2022 Julien Panis <jpanis@baylibre.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/counter.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <robux/atomic.h>
+#include <robux/clk.h>
+#include <robux/counter.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
 
 #define ECAP_DRV_NAME "ecap"
 

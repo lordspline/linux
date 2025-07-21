@@ -6,11 +6,11 @@
  * Copyright (C) 2012-2013 Samsung Electronics Co., Ltd.
  */
 
-#include <linux/time.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/buffer_head.h>
-#include <linux/blk_types.h>
+#include <robux/time.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/buffer_head.h>
+#include <robux/blk_types.h>
 
 #include "exfat_raw.h"
 #include "exfat_fs.h"

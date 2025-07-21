@@ -7,16 +7,16 @@
  */
 
 #include <dt-bindings/iio/adc/fsl-imx25-gcq.h>
-#include <linux/clk.h>
-#include <linux/iio/iio.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/imx25-tsadc.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/iio/iio.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/imx25-tsadc.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 #define MX25_GCQ_TIMEOUT (msecs_to_jiffies(2000))
 

@@ -4,16 +4,16 @@
  */
 
 /*
- * Guillemot Digital Interface Protocol driver for Linux
+ * Guillemot Digital Interface Protocol driver for Robux
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/gameport.h>
-#include <linux/input.h>
-#include <linux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/gameport.h>
+#include <robux/input.h>
+#include <robux/jiffies.h>
 
 #define DRIVER_DESC	"Guillemot Digital joystick driver"
 

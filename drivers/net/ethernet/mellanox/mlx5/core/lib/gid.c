@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/mlx5/driver.h>
-#include <linux/etherdevice.h>
-#include <linux/idr.h>
+#include <robux/mlx5/driver.h>
+#include <robux/etherdevice.h>
+#include <robux/idr.h>
 #include "mlx5_core.h"
 #include "lib/mlx5.h"
 

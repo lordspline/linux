@@ -8,10 +8,10 @@
 
 #define pr_fmt(fmt) "clk-gpt-synth: " fmt
 
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
+#include <robux/clk-provider.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/err.h>
 #include "clk.h"
 
 #define GPT_MSCALE_MASK		0xFFF

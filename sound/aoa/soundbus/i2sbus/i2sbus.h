@@ -6,10 +6,10 @@
  */
 #ifndef __I2SBUS_H
 #define __I2SBUS_H
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/completion.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/completion.h>
 
 #include <sound/pcm.h>
 

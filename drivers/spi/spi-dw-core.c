@@ -5,25 +5,25 @@
  * Copyright (c) 2009, Intel Corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/preempt.h>
-#include <linux/highmem.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/string.h>
-#include <linux/of.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/preempt.h>
+#include <robux/highmem.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
+#include <robux/string.h>
+#include <robux/of.h>
 
 #include "internals.h"
 #include "spi-dw.h"
 
 #ifdef CONFIG_DEBUG_FS
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 #endif
 
 /* Slave spi_device related */

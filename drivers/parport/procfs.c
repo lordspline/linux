@@ -10,21 +10,21 @@
  * based on work by Grant Guenther <grant@torque.net>
  *              and Philip Blundell
  *
- * Cleaned up include files - Russell King <linux@arm.uk.linux.org>
+ * Cleaned up include files - Russell King <robux@arm.uk.robux.org>
  */
 
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/parport.h>
-#include <linux/ctype.h>
-#include <linux/sysctl.h>
-#include <linux/device.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/parport.h>
+#include <robux/ctype.h>
+#include <robux/sysctl.h>
+#include <robux/device.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #if defined(CONFIG_SYSCTL) && defined(CONFIG_PROC_FS)
 

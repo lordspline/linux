@@ -3,17 +3,17 @@
  * Copyright (c) 2022 MediaTek Inc.
  * Copyright (c) 2022 BayLibre, SAS
  */
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/types.h>
-#include <linux/units.h>
-#include <linux/nvmem-consumer.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/types.h>
+#include <robux/units.h>
+#include <robux/nvmem-consumer.h>
 
 #include "phy-mtk-io.h"
 #include "phy-mtk-hdmi.h"

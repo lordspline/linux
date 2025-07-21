@@ -10,14 +10,14 @@
  * Copyright (C) 2004-2010   Dominik Brodowski
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/device.h>
+#include <robux/netdevice.h>
+#include <robux/slab.h>
 
 #include <asm/irq.h>
 

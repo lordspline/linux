@@ -8,8 +8,8 @@
   Author: Giuseppe Cavallaro <peppe.cavallaro@st.com>
 *******************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
 #include "hwif.h"
 #include "mmc.h"
 

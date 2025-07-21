@@ -7,15 +7,15 @@
  *	Dave Gerlach <d-gerlach@ti.com>
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_qos.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/soc/ti/ti_sci_protocol.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_qos.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/soc/ti/ti_sci_protocol.h>
 #include <dt-bindings/soc/ti,sci_pm_domain.h>
 
 /**

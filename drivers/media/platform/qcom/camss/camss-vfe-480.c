@@ -8,9 +8,9 @@
  * Copyright (C) 2021 Jonathan Marek
  */
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
 
 #include "camss.h"
 #include "camss-vfe.h"

@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/usb/pd.h>
-#include <linux/usb/role.h>
-#include <linux/usb/typec.h>
+#include <robux/bitfield.h>
+#include <robux/completion.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
+#include <robux/usb/pd.h>
+#include <robux/usb/role.h>
+#include <robux/usb/typec.h>
 
 #define RT1719_REG_TXCTRL1	0x03
 #define RT1719_REG_TXCTRL2	0x04

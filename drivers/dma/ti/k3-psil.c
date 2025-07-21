@@ -4,13 +4,13 @@
  *  Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/sys_soc.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/sys_soc.h>
 
 #include "k3-psil-priv.h"
 

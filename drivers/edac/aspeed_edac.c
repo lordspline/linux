@@ -3,15 +3,15 @@
  * Copyright 2018, 2019 Cisco Systems
  */
 
-#include <linux/edac.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/stop_machine.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
+#include <robux/edac.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/stop_machine.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/regmap.h>
 #include "edac_module.h"
 
 

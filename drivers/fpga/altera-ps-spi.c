@@ -13,14 +13,14 @@
  * May work on other Altera FPGAs.
  */
 
-#include <linux/bitrev.h>
-#include <linux/delay.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/spi/spi.h>
-#include <linux/sizes.h>
+#include <robux/bitrev.h>
+#include <robux/delay.h>
+#include <robux/fpga/fpga-mgr.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/spi/spi.h>
+#include <robux/sizes.h>
 
 enum altera_ps_devtype {
 	CYCLONE5,

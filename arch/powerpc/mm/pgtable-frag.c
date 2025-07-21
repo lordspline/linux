@@ -5,12 +5,12 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/mm.h>
-#include <linux/percpu.h>
-#include <linux/hardirq.h>
-#include <linux/hugetlb.h>
+#include <robux/kernel.h>
+#include <robux/gfp.h>
+#include <robux/mm.h>
+#include <robux/percpu.h>
+#include <robux/hardirq.h>
+#include <robux/hugetlb.h>
 #include <asm/pgalloc.h>
 #include <asm/tlbflush.h>
 #include <asm/tlb.h>

@@ -13,20 +13,20 @@
  *  Copyright (C) 2000 Philip Edelbrock <phil@stimpy.netroedge.com>
  */
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/string_choices.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/string_choices.h>
 
 #include "i2c-at91.h"
 

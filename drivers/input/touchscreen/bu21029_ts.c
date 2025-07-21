@@ -9,16 +9,16 @@
  * published by the Free Software Foundation.
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/timer.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/touchscreen.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/regulator/consumer.h>
+#include <robux/timer.h>
 
 /*
  * HW_ID1 Register (PAGE=0, ADDR=0x0E, Reset value=0x02, Read only)

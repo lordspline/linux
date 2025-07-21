@@ -3,12 +3,12 @@
  * Copyright (c) 2021 MediaTek Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/soc/mediatek/mtk-cmdq.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/soc/mediatek/mtk-cmdq.h>
 
 #include "mtk_ddp_comp.h"
 #include "mtk_drm_drv.h"

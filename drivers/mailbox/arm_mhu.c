@@ -5,14 +5,14 @@
  * Author: Jassi Brar <jaswinder.singh@linaro.org>
  */
 
-#include <linux/amba/bus.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/amba/bus.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/mailbox_controller.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 #define INTR_STAT_OFS	0x0
 #define INTR_SET_OFS	0x8

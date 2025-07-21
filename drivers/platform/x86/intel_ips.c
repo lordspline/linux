@@ -45,27 +45,27 @@
  *   - ref 26921 - Ibex Peak BIOS Specification
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/sched.h>
-#include <linux/sched/loadavg.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/tick.h>
-#include <linux/timer.h>
-#include <linux/dmi.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/sched.h>
+#include <robux/sched/loadavg.h>
+#include <robux/seq_file.h>
+#include <robux/string.h>
+#include <robux/tick.h>
+#include <robux/timer.h>
+#include <robux/dmi.h>
 #include <drm/intel/i915_drm.h>
 #include <asm/msr.h>
 #include <asm/processor.h>
 #include <asm/cpu_device_id.h>
 #include "intel_ips.h"
 
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
 
 #define PCI_DEVICE_ID_INTEL_THERMAL_SENSOR 0x3b32
 

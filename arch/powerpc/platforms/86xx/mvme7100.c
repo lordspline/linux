@@ -17,10 +17,10 @@
  *	Copyright 2008 GE Intelligent Platforms Embedded Systems, Inc.
  */
 
-#include <linux/pci.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_address.h>
+#include <robux/pci.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
+#include <robux/of_address.h>
 #include <asm/udbg.h>
 #include <asm/mpic.h>
 #include <sysdev/fsl_soc.h>

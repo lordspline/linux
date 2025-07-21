@@ -8,8 +8,8 @@
  * XXX What about pad muxing?
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
 
 #include "prm.h"
 #include "common.h"

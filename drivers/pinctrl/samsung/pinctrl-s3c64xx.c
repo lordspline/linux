@@ -10,16 +10,16 @@
 // the Samsung pinctrl/gpiolib driver. It also includes the implementation of
 // external gpio and wakeup interrupt support.
 
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/of_irq.h>
-#include <linux/io.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/slab.h>
-#include <linux/err.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/irq.h>
+#include <robux/of_irq.h>
+#include <robux/io.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/slab.h>
+#include <robux/err.h>
 
 #include "pinctrl-samsung.h"
 

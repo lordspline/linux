@@ -11,7 +11,7 @@
  *    root at danielinux.net
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 #include <net/tcp.h>
 
 /* Tcp Hybla structure. */

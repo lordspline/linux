@@ -25,10 +25,10 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/dma-resv.h>
-#include <linux/list.h>
-#include <linux/rbtree.h>
-#include <linux/types.h>
+#include <robux/dma-resv.h>
+#include <robux/list.h>
+#include <robux/rbtree.h>
+#include <robux/types.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_gem.h>

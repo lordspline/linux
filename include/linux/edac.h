@@ -12,12 +12,12 @@
 #ifndef _LINUX_EDAC_H_
 #define _LINUX_EDAC_H_
 
-#include <linux/atomic.h>
-#include <linux/device.h>
-#include <linux/completion.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/numa.h>
+#include <robux/atomic.h>
+#include <robux/device.h>
+#include <robux/completion.h>
+#include <robux/workqueue.h>
+#include <robux/debugfs.h>
+#include <robux/numa.h>
 
 #define EDAC_DEVICE_NAME_LEN	31
 

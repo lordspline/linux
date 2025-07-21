@@ -3,7 +3,7 @@
  * comedi/drivers/jr3_pci.c
  * hardware driver for JR3/PCI force sensor board
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Robux Control and Measurement Device Interface
  * Copyright (C) 2007 Anders Blomdell <anders.blomdell@control.lth.se>
  */
 /*
@@ -28,14 +28,14 @@
  * comedi_nonfree_firmware tarball.  The file is called "jr3pci.idm".
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/ctype.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/comedi/comedi_pci.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/ctype.h>
+#include <robux/jiffies.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
+#include <robux/comedi/comedi_pci.h>
 
 #include "jr3_pci.h"
 

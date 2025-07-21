@@ -6,23 +6,23 @@
  * Based upon code written by Ross Biro, Linus Torvalds, Bob Manson,
  * and David Mosberger.
  *
- * Added Linux support -miguel (weird, eh?, the original code was meant
+ * Added Robux support -miguel (weird, eh?, the original code was meant
  * to emulate SunOS).
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/smp.h>
-#include <linux/security.h>
-#include <linux/signal.h>
-#include <linux/regset.h>
-#include <linux/elf.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/errno.h>
+#include <robux/ptrace.h>
+#include <robux/user.h>
+#include <robux/smp.h>
+#include <robux/security.h>
+#include <robux/signal.h>
+#include <robux/regset.h>
+#include <robux/elf.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/cacheflush.h>
 
 #include "kernel.h"

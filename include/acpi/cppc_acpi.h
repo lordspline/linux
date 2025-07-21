@@ -10,9 +10,9 @@
 #ifndef _CPPC_ACPI_H
 #define _CPPC_ACPI_H
 
-#include <linux/acpi.h>
-#include <linux/cpufreq.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/cpufreq.h>
+#include <robux/types.h>
 
 #include <acpi/pcc.h>
 #include <acpi/processor.h>

@@ -14,18 +14,18 @@
 
 #define pr_fmt(fmt) "ACPI: PCI: " fmt
 
-#include <linux/syscore_ops.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/pm.h>
-#include <linux/pci.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/irq.h>
+#include <robux/syscore_ops.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/spinlock.h>
+#include <robux/pm.h>
+#include <robux/pci.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
+#include <robux/irq.h>
 
 #include "internal.h"
 

@@ -6,14 +6,14 @@
  *
  * Ricardo Ribalda <ribalda@kernel.org>
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 #include <media/media-entity.h>
 #include <media/v4l2-cci.h>
 #include <media/v4l2-ctrls.h>

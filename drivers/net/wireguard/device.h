@@ -11,12 +11,12 @@
 #include "peerlookup.h"
 #include "cookie.h"
 
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
-#include <linux/net.h>
-#include <linux/ptr_ring.h>
+#include <robux/types.h>
+#include <robux/netdevice.h>
+#include <robux/workqueue.h>
+#include <robux/mutex.h>
+#include <robux/net.h>
+#include <robux/ptr_ring.h>
 
 struct wg_device;
 

@@ -11,21 +11,21 @@
  * Sebastian Andrzej Siewior < sebastian at breakpoint dot cc >
  */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/genalloc.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kthread.h>
-#include <linux/mbus.h>
-#include <linux/platform_device.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_irq.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/genalloc.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kthread.h>
+#include <robux/mbus.h>
+#include <robux/platform_device.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/of_irq.h>
 
 #include "cesa.h"
 

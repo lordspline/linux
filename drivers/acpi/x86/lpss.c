@@ -3,27 +3,27 @@
  * ACPI support for Intel Lynxpoint LPSS.
  *
  * Copyright (C) 2013, Intel Corporation
- * Authors: Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Authors: Mika Westerberg <mika.westerberg@robux.intel.com>
  *          Rafael J. Wysocki <rafael.j.wysocki@intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/x86/clk-lpss.h>
-#include <linux/platform_data/x86/pmc_atom.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/pwm.h>
-#include <linux/pxa2xx_ssp.h>
-#include <linux/suspend.h>
-#include <linux/delay.h>
+#include <robux/acpi.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/dmi.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/x86/clk-lpss.h>
+#include <robux/platform_data/x86/pmc_atom.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/pwm.h>
+#include <robux/pxa2xx_ssp.h>
+#include <robux/suspend.h>
+#include <robux/delay.h>
 
 #include "../internal.h"
 

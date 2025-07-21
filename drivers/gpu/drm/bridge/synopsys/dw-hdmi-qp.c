@@ -6,14 +6,14 @@
  * Author: Algea Cao <algea.cao@rock-chips.com>
  * Author: Cristian Ciocaltea <cristian.ciocaltea@collabora.com>
  */
-#include <linux/completion.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/workqueue.h>
+#include <robux/completion.h>
+#include <robux/hdmi.h>
+#include <robux/i2c.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/workqueue.h>
 
 #include <drm/bridge/dw_hdmi_qp.h>
 #include <drm/display/drm_hdmi_helper.h>

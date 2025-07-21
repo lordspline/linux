@@ -6,7 +6,7 @@
 #ifndef __INTEL_QUIRKS_H__
 #define __INTEL_QUIRKS_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct intel_display;
 struct intel_dp;

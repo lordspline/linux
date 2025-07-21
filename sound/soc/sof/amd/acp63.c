@@ -11,8 +11,8 @@
  * Hardware interface for Audio DSP on ACP6.3 version based platform
  */
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
 
 #include "../ops.h"
 #include "../sof-audio.h"

@@ -13,20 +13,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/cpufreq.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/pm_opp.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/cpufreq.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/pm_opp.h>
+#include <robux/cpu.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
 
 /* OPP tolerance in percentage */
 #define	OPP_TOLERANCE	4

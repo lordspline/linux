@@ -6,20 +6,20 @@
  *  Copyright (C) 2013 Magnus Damm
  */
 
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
 
 struct gpio_rcar_bank_info {
 	u32 iointsel;

@@ -4,15 +4,15 @@
  */
 
 /*
- *  Serial mouse driver for Linux
+ *  Serial mouse driver for Robux
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/serio.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/serio.h>
 
 #define DRIVER_DESC	"Serial mouse driver"
 

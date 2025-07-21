@@ -7,13 +7,13 @@
  * Copyright (C) 1999, 2000 by Silicon Graphics
  * Copyright (C) 2002  Maciej W. Rozycki
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/signal.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/signal.h>
 #include <asm/traps.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/addrspace.h>
 #include <asm/ptrace.h>
 #include <asm/tlbdebug.h>

@@ -43,21 +43,21 @@
  *   This improvement can disable/enable through PWM_ASPEED_CTRL_DUTY_SYNC_DISABLE.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/hwmon.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/reset.h>
-#include <linux/sysfs.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/hwmon.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
+#include <robux/reset.h>
+#include <robux/sysfs.h>
 
 /* The channel number of Aspeed pwm controller */
 #define PWM_ASPEED_NR_PWMS			16

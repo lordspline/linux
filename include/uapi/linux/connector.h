@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 /*
  * 	connector.h
  * 
@@ -23,7 +23,7 @@
 #ifndef _UAPI__CONNECTOR_H
 #define _UAPI__CONNECTOR_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /*
  * Process Events connector unique ids -- used for message routing

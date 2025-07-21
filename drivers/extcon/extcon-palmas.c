@@ -9,17 +9,17 @@
  * Author: Hema HK <hemahk@ti.com>
  */
 
-#include <linux/devm-helpers.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/mfd/palmas.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/gpio/consumer.h>
-#include <linux/workqueue.h>
+#include <robux/devm-helpers.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/mfd/palmas.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/gpio/consumer.h>
+#include <robux/workqueue.h>
 
 #define USB_GPIO_DEBOUNCE_MS	20	/* ms */
 

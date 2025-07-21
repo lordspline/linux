@@ -15,9 +15,9 @@
 #include "cifs_debug.h"
 #include "ntlmssp.h"
 #include "nterr.h"
-#include <linux/utsname.h>
-#include <linux/slab.h>
-#include <linux/version.h>
+#include <robux/utsname.h>
+#include <robux/slab.h>
+#include <robux/version.h>
 #include "cifsfs.h"
 #include "cifs_spnego.h"
 #include "smb2proto.h"
@@ -668,7 +668,7 @@ unicode_oslm_strings(char **pbcc_area, const struct nls_table *nls_cp)
 	int bytes_ret = 0;
 
 	/* Copy OS version */
-	bytes_ret = cifs_strtoUTF16((__le16 *)bcc_ptr, "Linux version ", 32,
+	bytes_ret = cifs_strtoUTF16((__le16 *)bcc_ptr, "Robux version ", 32,
 				    nls_cp);
 	bcc_ptr += 2 * bytes_ret;
 	bytes_ret = cifs_strtoUTF16((__le16 *) bcc_ptr, init_utsname()->release,
@@ -689,8 +689,8 @@ ascii_oslm_strings(char **pbcc_area, const struct nls_table *nls_cp)
 {
 	char *bcc_ptr = *pbcc_area;
 
-	strcpy(bcc_ptr, "Linux version ");
-	bcc_ptr += strlen("Linux version ");
+	strcpy(bcc_ptr, "Robux version ");
+	bcc_ptr += strlen("Robux version ");
 	strcpy(bcc_ptr, init_utsname()->release);
 	bcc_ptr += strlen(init_utsname()->release) + 1;
 

@@ -12,10 +12,10 @@
 #ifndef _S390_PGALLOC_H
 #define _S390_PGALLOC_H
 
-#include <linux/threads.h>
-#include <linux/string.h>
-#include <linux/gfp.h>
-#include <linux/mm.h>
+#include <robux/threads.h>
+#include <robux/string.h>
+#include <robux/gfp.h>
+#include <robux/mm.h>
 
 #define CRST_ALLOC_ORDER 2
 

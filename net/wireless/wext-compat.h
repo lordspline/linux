@@ -3,7 +3,7 @@
 #define __WEXT_COMPAT
 
 #include <net/iw_handler.h>
-#include <linux/wireless.h>
+#include <robux/wireless.h>
 
 int cfg80211_ibss_wext_siwfreq(struct net_device *dev,
 			       struct iw_request_info *info,

@@ -10,13 +10,13 @@
  * Copyright (C) 2020 Daniel W. S. Almeida
  */
 
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/ratelimit.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/printk.h>
+#include <robux/ratelimit.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include <media/dvb_frontend.h>
 

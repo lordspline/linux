@@ -12,13 +12,13 @@
  * Kevin Chea
  */
 
-#include <linux/bits.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/xtensa-pic.h>
-#include <linux/of.h>
+#include <robux/bits.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/xtensa-pic.h>
+#include <robux/of.h>
 
 /*
  * Device Tree IRQ specifier translation function which works with one or

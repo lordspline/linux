@@ -18,22 +18,22 @@
  *   Ben Williamson <ben.williamson@greyinnovation.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/kfifo.h>
-#include <linux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/kfifo.h>
+#include <robux/spinlock.h>
 
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/rawmidi.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/func_utils.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/audio.h>
-#include <linux/usb/midi.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/func_utils.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/audio.h>
+#include <robux/usb/midi.h>
 
 #include "u_midi.h"
 

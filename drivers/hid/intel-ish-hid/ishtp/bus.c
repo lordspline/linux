@@ -5,12 +5,12 @@
  * Copyright (c) 2012-2016, Intel Corporation.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 #include "bus.h"
 #include "ishtp-dev.h"
 #include "client.h"

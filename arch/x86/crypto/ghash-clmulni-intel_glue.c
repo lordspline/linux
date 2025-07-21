@@ -13,11 +13,11 @@
 #include <crypto/ghash.h>
 #include <crypto/internal/hash.h>
 #include <crypto/utils.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/unaligned.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/unaligned.h>
 
 asmlinkage void clmul_ghash_mul(char *dst, const le128 *shash);
 

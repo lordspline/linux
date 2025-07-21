@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/cpufreq/freq_table.c
+ * robux/drivers/cpufreq/freq_table.c
  *
  * Copyright (C) 2002 - 2003 Dominik Brodowski
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cpufreq.h>
-#include <linux/module.h>
+#include <robux/cpufreq.h>
+#include <robux/module.h>
 
 /*********************************************************************
  *                     FREQUENCY TABLE HELPERS                       *
@@ -365,5 +365,5 @@ int cpufreq_table_validate_and_sort(struct cpufreq_policy *policy)
 	return set_freq_table_sorted(policy);
 }
 
-MODULE_AUTHOR("Dominik Brodowski <linux@brodo.de>");
+MODULE_AUTHOR("Dominik Brodowski <robux@brodo.de>");
 MODULE_DESCRIPTION("CPUfreq frequency table helpers");

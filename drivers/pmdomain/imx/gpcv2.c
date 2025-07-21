@@ -8,15 +8,15 @@
  * Copyright 2015-2017 Pengutronix, Lucas Stach <kernel@pengutronix.de>
  */
 
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/sizes.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
+#include <robux/sizes.h>
 #include <dt-bindings/power/imx7-power.h>
 #include <dt-bindings/power/imx8mq-power.h>
 #include <dt-bindings/power/imx8mm-power.h>

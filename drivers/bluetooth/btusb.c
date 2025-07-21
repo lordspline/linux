@@ -6,18 +6,18 @@
  *  Copyright (C) 2005-2008  Marcel Holtmann <marcel@holtmann.org>
  */
 
-#include <linux/dmi.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/quirks.h>
-#include <linux/firmware.h>
-#include <linux/iopoll.h>
-#include <linux/of_device.h>
-#include <linux/of_irq.h>
-#include <linux/suspend.h>
-#include <linux/gpio/consumer.h>
-#include <linux/debugfs.h>
-#include <linux/unaligned.h>
+#include <robux/dmi.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/usb/quirks.h>
+#include <robux/firmware.h>
+#include <robux/iopoll.h>
+#include <robux/of_device.h>
+#include <robux/of_irq.h>
+#include <robux/suspend.h>
+#include <robux/gpio/consumer.h>
+#include <robux/debugfs.h>
+#include <robux/unaligned.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

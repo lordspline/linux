@@ -5,11 +5,11 @@
  * Copyright (C) 2008 Atsushi Nemoto <anemo@mba.ocn.ne.jp>
  */
 
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/gpio/driver.h>
-#include <linux/errno.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/gpio/driver.h>
+#include <robux/errno.h>
+#include <robux/io.h>
 #include <asm/txx9pio.h>
 
 static DEFINE_SPINLOCK(txx9_gpio_lock);

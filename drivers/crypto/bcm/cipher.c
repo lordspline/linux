@@ -3,22 +3,22 @@
  * Copyright 2016 Broadcom
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/scatterlist.h>
-#include <linux/crypto.h>
-#include <linux/kthread.h>
-#include <linux/rtnetlink.h>
-#include <linux/sched.h>
-#include <linux/string_choices.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/scatterlist.h>
+#include <robux/crypto.h>
+#include <robux/kthread.h>
+#include <robux/rtnetlink.h>
+#include <robux/sched.h>
+#include <robux/string_choices.h>
+#include <robux/of.h>
+#include <robux/io.h>
+#include <robux/bitops.h>
 
 #include <crypto/algapi.h>
 #include <crypto/aead.h>

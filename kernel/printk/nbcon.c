@@ -2,23 +2,23 @@
 // Copyright (C) 2022 Linutronix GmbH, John Ogness
 // Copyright (C) 2022 Intel, Thomas Gleixner
 
-#include <linux/atomic.h>
-#include <linux/bug.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/irqflags.h>
-#include <linux/kthread.h>
-#include <linux/minmax.h>
-#include <linux/percpu.h>
-#include <linux/preempt.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/atomic.h>
+#include <robux/bug.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/irqflags.h>
+#include <robux/kthread.h>
+#include <robux/minmax.h>
+#include <robux/percpu.h>
+#include <robux/preempt.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
+#include <robux/stddef.h>
+#include <robux/string.h>
+#include <robux/types.h>
 #include "internal.h"
 #include "printk_ringbuffer.h"
 /*

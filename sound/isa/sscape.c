@@ -7,15 +7,15 @@
  *   the OSS/Free SoundScape driver, written by Hannu Savolainen.
  */
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/isa.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/pnp.h>
-#include <linux/spinlock.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/isa.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/pnp.h>
+#include <robux/spinlock.h>
+#include <robux/module.h>
 #include <asm/dma.h>
 #include <sound/core.h>
 #include <sound/wss.h>

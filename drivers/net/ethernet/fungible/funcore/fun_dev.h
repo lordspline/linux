@@ -3,9 +3,9 @@
 #ifndef _FUNDEV_H
 #define _FUNDEV_H
 
-#include <linux/sbitmap.h>
-#include <linux/spinlock_types.h>
-#include <linux/workqueue.h>
+#include <robux/sbitmap.h>
+#include <robux/spinlock_types.h>
+#include <robux/workqueue.h>
 #include "fun_hci.h"
 
 struct pci_dev;

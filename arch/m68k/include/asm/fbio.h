@@ -2,8 +2,8 @@
 #ifndef __LINUX_FBIO_H
 #define __LINUX_FBIO_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/types.h>
 
 /* Constants used for fbio SunOS compatibility */
 /* (C) 1996 Miguel de Icaza */

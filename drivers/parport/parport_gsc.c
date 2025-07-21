@@ -16,22 +16,22 @@
 
 #undef DEBUG	/* undef for production */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/sysctl.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/sysctl.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/superio.h>
 
-#include <linux/parport.h>
+#include <robux/parport.h>
 #include <asm/pdc.h>
 #include <asm/parisc-device.h>
 #include <asm/hardware.h>

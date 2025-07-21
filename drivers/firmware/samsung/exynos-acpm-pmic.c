@@ -4,10 +4,10 @@
  * Copyright 2020 Google LLC.
  * Copyright 2024 Linaro Ltd.
  */
-#include <linux/bitfield.h>
-#include <linux/firmware/samsung/exynos-acpm-protocol.h>
-#include <linux/ktime.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/firmware/samsung/exynos-acpm-protocol.h>
+#include <robux/ktime.h>
+#include <robux/types.h>
 
 #include "exynos-acpm.h"
 #include "exynos-acpm-pmic.h"

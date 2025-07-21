@@ -5,39 +5,39 @@
  *
  * 		Author: 	Alan Cox <alan@lxorguk.ukuu.org.uk>
  * 
- *              Adapted to become the Linux 2.0 Coda pseudo device
+ *              Adapted to become the Robux 2.0 Coda pseudo device
  *              Peter  Braam  <braam@maths.ox.ac.uk> 
  *              Michael Callahan <mjc@emmy.smith.edu>           
  *
- *              Changes for Linux 2.1
+ *              Changes for Robux 2.1
  *              Copyright (c) 1997 Carnegie-Mellon University
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/major.h>
-#include <linux/time.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/fcntl.h>
-#include <linux/delay.h>
-#include <linux/skbuff.h>
-#include <linux/proc_fs.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/poll.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/pid_namespace.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/major.h>
+#include <robux/time.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/ioport.h>
+#include <robux/fcntl.h>
+#include <robux/delay.h>
+#include <robux/skbuff.h>
+#include <robux/proc_fs.h>
+#include <robux/vmalloc.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/poll.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/device.h>
+#include <robux/pid_namespace.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
-#include <linux/coda.h>
+#include <robux/coda.h>
 #include "coda_psdev.h"
 #include "coda_linux.h"
 

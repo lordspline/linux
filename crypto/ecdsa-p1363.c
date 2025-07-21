@@ -5,8 +5,8 @@
  * Copyright (c) 2024 Intel Corporation
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
+#include <robux/err.h>
+#include <robux/module.h>
 #include <crypto/algapi.h>
 #include <crypto/sig.h>
 #include <crypto/internal/ecc.h>

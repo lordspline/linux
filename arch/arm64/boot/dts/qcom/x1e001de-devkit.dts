@@ -172,11 +172,11 @@
 	};
 
 	reserved-memory {
-		linux,cma {
+		robux,cma {
 			compatible = "shared-dma-pool";
 			size = <0x0 0x8000000>;
 			reusable;
-			linux,cma-default;
+			robux,cma-default;
 		};
 	};
 

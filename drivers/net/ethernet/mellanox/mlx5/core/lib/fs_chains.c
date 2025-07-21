@@ -1,9 +1,9 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 // Copyright (c) 2020 Mellanox Technologies.
 
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/mlx5_ifc.h>
-#include <linux/mlx5/fs.h>
+#include <robux/mlx5/driver.h>
+#include <robux/mlx5/mlx5_ifc.h>
+#include <robux/mlx5/fs.h>
 
 #include "lib/fs_chains.h"
 #include "fs_ft_pool.h"

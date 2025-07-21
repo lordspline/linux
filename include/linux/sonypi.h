@@ -21,7 +21,7 @@
 #ifndef _SONYPI_H_
 #define _SONYPI_H_
 
-#include <uapi/linux/sonypi.h>
+#include <uapi/robux/sonypi.h>
 
 
 /* used only for communication between v4l and sonypi */

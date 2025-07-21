@@ -7,11 +7,11 @@
  * Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/hwdep.h>
 #include <sound/vx_core.h>

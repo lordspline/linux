@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/devm-helpers.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/extcon.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_graph.h>
-#include <linux/property.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/devm-helpers.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/extcon.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of_graph.h>
+#include <robux/property.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 #define MAX8971_REG_CHGINT		0x0f
 #define   MAX8971_REG_CHG_RST		BIT(0)

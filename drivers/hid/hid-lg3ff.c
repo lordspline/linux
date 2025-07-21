@@ -9,8 +9,8 @@
  */
 
 
-#include <linux/input.h>
-#include <linux/hid.h>
+#include <robux/input.h>
+#include <robux/hid.h>
 
 #include "hid-lg.h"
 

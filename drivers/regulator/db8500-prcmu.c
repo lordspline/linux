@@ -8,18 +8,18 @@
  * Power domain regulators on DB8500
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/dbx500-prcmu.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/db8500-prcmu.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/of.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/spinlock.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/dbx500-prcmu.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/db8500-prcmu.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/of.h>
+#include <robux/module.h>
 #include "dbx500-prcmu.h"
 
 static int db8500_regulator_enable(struct regulator_dev *rdev)

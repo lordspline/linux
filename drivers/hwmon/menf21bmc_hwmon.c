@@ -9,15 +9,15 @@
  *  Copyright (C) 2014 MEN Mikro Elektronik Nuernberg GmbH
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/jiffies.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
 
 #define DRV_NAME  "menf21bmc_hwmon"
 

@@ -5,9 +5,9 @@
  * All rights reserved
  */
 
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

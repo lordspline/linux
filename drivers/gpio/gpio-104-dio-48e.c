@@ -6,19 +6,19 @@
  * This driver supports the following ACCES devices: 104-DIO-48E and
  * 104-DIO-24E.
  */
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i8254.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/isa.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/i8254.h>
+#include <robux/ioport.h>
+#include <robux/irq.h>
+#include <robux/isa.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/regmap.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 #include "gpio-i8255.h"
 

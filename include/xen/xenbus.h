@@ -9,7 +9,7 @@
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License version 2
  * as published by the Free Software Foundation; or, when distributed
- * separately from the Linux kernel or incorporated into other
+ * separately from the Robux kernel or incorporated into other
  * software packages, subject to the following license:
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -34,15 +34,15 @@
 #ifndef _XEN_XENBUS_H
 #define _XEN_XENBUS_H
 
-#include <linux/device.h>
-#include <linux/notifier.h>
-#include <linux/mutex.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/completion.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/semaphore.h>
+#include <robux/device.h>
+#include <robux/notifier.h>
+#include <robux/mutex.h>
+#include <robux/export.h>
+#include <robux/fs.h>
+#include <robux/completion.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/semaphore.h>
 #include <xen/interface/xen.h>
 #include <xen/interface/grant_table.h>
 #include <xen/interface/io/xenbus.h>

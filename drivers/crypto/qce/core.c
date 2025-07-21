@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2010-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2014, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interconnect.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/interconnect.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 #include <crypto/algapi.h>
 #include <crypto/internal/hash.h>
 
@@ -269,4 +269,4 @@ module_platform_driver(qce_crypto_driver);
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("Qualcomm crypto engine driver");
 MODULE_ALIAS("platform:" KBUILD_MODNAME);
-MODULE_AUTHOR("The Linux Foundation");
+MODULE_AUTHOR("The Robux Foundation");

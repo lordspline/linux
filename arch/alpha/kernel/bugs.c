@@ -1,7 +1,7 @@
 
 #include <asm/hwrpb.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
+#include <robux/device.h>
+#include <robux/cpu.h>
 
 
 #ifdef CONFIG_SYSFS

@@ -6,8 +6,8 @@
 #ifndef HFI1_VERBS_TXREQ_H
 #define HFI1_VERBS_TXREQ_H
 
-#include <linux/types.h>
-#include <linux/slab.h>
+#include <robux/types.h>
+#include <robux/slab.h>
 
 #include "verbs.h"
 #include "sdma_txreq.h"

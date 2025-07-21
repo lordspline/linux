@@ -6,13 +6,13 @@
  * Copyright (C) 2005 Luben Tuikov <luben_tuikov@adaptec.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/slab.h>
 
 #include <scsi/sas_ata.h>
 #include <scsi/scsi_host.h>

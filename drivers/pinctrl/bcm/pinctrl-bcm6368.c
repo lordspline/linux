@@ -6,13 +6,13 @@
  * Copyright (C) 2016 Jonas Gorski <jonas.gorski@gmail.com>
  */
 
-#include <linux/bits.h>
-#include <linux/gpio/driver.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/bits.h>
+#include <robux/gpio/driver.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/pinctrl/pinmux.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include "../pinctrl-utils.h"
 

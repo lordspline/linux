@@ -14,9 +14,9 @@
 //#include "adreno/adreno_gpu.h"
 
 #include <generated/utsrelease.h>
-#include <linux/string_helpers.h>
-#include <linux/devcoredump.h>
-#include <linux/sched/task.h>
+#include <robux/string_helpers.h>
+#include <robux/devcoredump.h>
+#include <robux/sched/task.h>
 
 /*
  * Power Management:

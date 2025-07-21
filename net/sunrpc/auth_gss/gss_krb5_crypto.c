@@ -1,5 +1,5 @@
 /*
- *  linux/net/sunrpc/gss_krb5_crypto.c
+ *  robux/net/sunrpc/gss_krb5_crypto.c
  *
  *  Copyright (c) 2000-2008 The Regents of the University of Michigan.
  *  All rights reserved.
@@ -37,15 +37,15 @@
 #include <crypto/hash.h>
 #include <crypto/skcipher.h>
 #include <crypto/utils.h>
-#include <linux/err.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/scatterlist.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/random.h>
-#include <linux/sunrpc/gss_krb5.h>
-#include <linux/sunrpc/xdr.h>
+#include <robux/err.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/scatterlist.h>
+#include <robux/highmem.h>
+#include <robux/pagemap.h>
+#include <robux/random.h>
+#include <robux/sunrpc/gss_krb5.h>
+#include <robux/sunrpc/xdr.h>
 #include <kunit/visibility.h>
 
 #include "gss_krb5_internal.h"

@@ -10,10 +10,10 @@
 	Abstract: rt2x00 generic mmio device routines.
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include "rt2x00.h"
 #include "rt2x00mmio.h"

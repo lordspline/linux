@@ -16,12 +16,12 @@
  */
 
 #include "au88x0.h"
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/dma-mapping.h>
 #include <sound/initval.h>
 
 // module parameters (see "Module Parameters")

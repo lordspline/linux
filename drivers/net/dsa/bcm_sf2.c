@@ -5,27 +5,27 @@
  * Copyright (C) 2014, Broadcom Corporation
  */
 
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/phylink.h>
-#include <linux/mii.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/phy.h>
+#include <robux/phy_fixed.h>
+#include <robux/phylink.h>
+#include <robux/mii.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/of_net.h>
+#include <robux/of_mdio.h>
 #include <net/dsa.h>
-#include <linux/ethtool.h>
-#include <linux/if_bridge.h>
-#include <linux/brcmphy.h>
-#include <linux/etherdevice.h>
-#include <linux/platform_data/b53.h>
+#include <robux/ethtool.h>
+#include <robux/if_bridge.h>
+#include <robux/brcmphy.h>
+#include <robux/etherdevice.h>
+#include <robux/platform_data/b53.h>
 
 #include "bcm_sf2.h"
 #include "bcm_sf2_regs.h"
@@ -655,7 +655,7 @@ static int bcm_sf2_mdio_register(struct dsa_switch *ds)
 	priv->user_mii_bus->phy_mask = ~priv->indir_phy_mask;
 
 	/* We need to make sure that of_phy_connect() will not work by
-	 * removing the 'phandle' and 'linux,phandle' properties and
+	 * removing the 'phandle' and 'robux,phandle' properties and
 	 * unregister the existing PHY device that was already registered.
 	 */
 	for_each_available_child_of_node(dn, child) {
@@ -670,7 +670,7 @@ static int bcm_sf2_mdio_register(struct dsa_switch *ds)
 		if (prop)
 			of_remove_property(child, prop);
 
-		prop = of_find_property(child, "linux,phandle", NULL);
+		prop = of_find_property(child, "robux,phandle", NULL);
 		if (prop)
 			of_remove_property(child, prop);
 

@@ -9,20 +9,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/miscdevice.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/atomic.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/miscdevice.h>
+#include <robux/notifier.h>
+#include <robux/reboot.h>
+#include <robux/types.h>
+#include <robux/watchdog.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
+#include <robux/atomic.h>
 
 #define SBC7240_ENABLE_PORT		0x443
 #define SBC7240_DISABLE_PORT		0x043

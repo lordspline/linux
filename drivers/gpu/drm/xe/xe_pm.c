@@ -5,9 +5,9 @@
 
 #include "xe_pm.h"
 
-#include <linux/fault-inject.h>
-#include <linux/pm_runtime.h>
-#include <linux/suspend.h>
+#include <robux/fault-inject.h>
+#include <robux/pm_runtime.h>
+#include <robux/suspend.h>
 
 #include <drm/drm_managed.h>
 #include <drm/ttm/ttm_placement.h>
@@ -53,7 +53,7 @@
  * suspend. It will be based on runtime conditions such as VRAM usage for a
  * quick and low latency resume for instance.
  *
- * Runtime PM - This infrastructure provided by the Linux kernel allows the
+ * Runtime PM - This infrastructure provided by the Robux kernel allows the
  * device drivers to indicate when the can be runtime suspended, so the device
  * could be put at D3 (if supported), or allow deeper package sleep states
  * (PC-states), and/or other low level power states. Xe PM component provides

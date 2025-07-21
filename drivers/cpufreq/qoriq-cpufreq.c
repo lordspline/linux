@@ -7,18 +7,18 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/cpufreq.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/cpufreq.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
+#include <robux/platform_device.h>
 
 /**
  * struct cpu_data

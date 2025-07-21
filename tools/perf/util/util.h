@@ -10,7 +10,7 @@
 #include <fcntl.h>
 #include <stdbool.h>
 #include <stddef.h>
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 #include <sys/types.h>
 #ifndef __cplusplus
 #include <internal/cpumap.h>

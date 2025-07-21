@@ -92,7 +92,7 @@
 
 #else
 
-#include <linux/stringify.h>
+#include <robux/stringify.h>
 #include <asm/gpr-num.h>
 
 #define DEFINE_INSN_R							\

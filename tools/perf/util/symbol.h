@@ -2,12 +2,12 @@
 #ifndef __PERF_SYMBOL
 #define __PERF_SYMBOL 1
 
-#include <linux/types.h>
-#include <linux/refcount.h>
+#include <robux/types.h>
+#include <robux/refcount.h>
 #include <stdbool.h>
 #include <stdint.h>
-#include <linux/list.h>
-#include <linux/rbtree.h>
+#include <robux/list.h>
+#include <robux/rbtree.h>
 #include <stdio.h>
 #include "addr_location.h"
 #include "path.h"

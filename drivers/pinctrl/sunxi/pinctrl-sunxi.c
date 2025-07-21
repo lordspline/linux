@@ -10,25 +10,25 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/clk.h>
-#include <linux/export.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_clk.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/export.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
+#include <robux/of_clk.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/machine.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include <dt-bindings/pinctrl/sun4i-a10.h>
 

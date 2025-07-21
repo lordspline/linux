@@ -5,11 +5,11 @@
  * Copyright (C) 2018-2021 ARM Ltd.
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pm_domain.h>
-#include <linux/scmi_protocol.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/pm_domain.h>
+#include <robux/scmi_protocol.h>
 
 static const struct scmi_power_proto_ops *power_ops;
 

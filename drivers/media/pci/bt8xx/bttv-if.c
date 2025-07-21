@@ -14,9 +14,9 @@
 
 */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/delay.h>
 #include <asm/io.h>
 
 #include "bttvp.h"

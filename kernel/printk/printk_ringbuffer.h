@@ -3,11 +3,11 @@
 #ifndef _KERNEL_PRINTK_RINGBUFFER_H
 #define _KERNEL_PRINTK_RINGBUFFER_H
 
-#include <linux/atomic.h>
-#include <linux/bits.h>
-#include <linux/dev_printk.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <robux/atomic.h>
+#include <robux/bits.h>
+#include <robux/dev_printk.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
 
 /*
  * Meta information about each stored message.

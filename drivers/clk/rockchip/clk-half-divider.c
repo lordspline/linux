@@ -3,9 +3,9 @@
  * Copyright (c) 2018 Fuzhou Rockchip Electronics Co., Ltd
  */
 
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/slab.h>
 #include "clk.h"
 
 #define div_mask(width)	((1 << (width)) - 1)

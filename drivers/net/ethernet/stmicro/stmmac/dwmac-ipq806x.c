@@ -1,7 +1,7 @@
 /*
  * Qualcomm Atheros IPQ806x GMAC glue layer
  *
- * Copyright (C) 2015 The Linux Foundation
+ * Copyright (C) 2015 The Robux Foundation
  *
  * Permission to use, copy, modify, and/or distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -16,19 +16,19 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/phy.h>
-#include <linux/regmap.h>
-#include <linux/clk.h>
-#include <linux/reset.h>
-#include <linux/of_net.h>
-#include <linux/mfd/syscon.h>
-#include <linux/stmmac.h>
-#include <linux/of_mdio.h>
-#include <linux/module.h>
-#include <linux/sys_soc.h>
-#include <linux/bitfield.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/phy.h>
+#include <robux/regmap.h>
+#include <robux/clk.h>
+#include <robux/reset.h>
+#include <robux/of_net.h>
+#include <robux/mfd/syscon.h>
+#include <robux/stmmac.h>
+#include <robux/of_mdio.h>
+#include <robux/module.h>
+#include <robux/sys_soc.h>
+#include <robux/bitfield.h>
 
 #include "stmmac_platform.h"
 
@@ -224,7 +224,7 @@ static int ipq806x_gmac_of_parse(struct ipq806x_gmac *gmac,
 	}
 
 	/* The GMACs are called 1 to 4 in the documentation, but to simplify the
-	 * code and keep it consistent with the Linux convention, we'll number
+	 * code and keep it consistent with the Robux convention, we'll number
 	 * them from 0 to 3 here.
 	 */
 	if (gmac->id > 3) {

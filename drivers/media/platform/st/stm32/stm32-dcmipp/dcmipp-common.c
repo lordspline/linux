@@ -8,8 +8,8 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/module.h>
 
 #include "dcmipp-common.h"
 

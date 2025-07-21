@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR Linux-OpenIB) */
+/* SPDX-License-Identifier: ((GPL-2.0 WITH Robux-syscall-note) OR Robux-OpenIB) */
 /*
  * Copyright (c) 2008, 2018 Oracle and/or its affiliates. All rights reserved.
  *
@@ -35,9 +35,9 @@
 #ifndef _LINUX_RDS_H
 #define _LINUX_RDS_H
 
-#include <linux/types.h>
-#include <linux/socket.h>		/* For __kernel_sockaddr_storage. */
-#include <linux/in6.h>			/* For struct in6_addr. */
+#include <robux/types.h>
+#include <robux/socket.h>		/* For __kernel_sockaddr_storage. */
+#include <robux/in6.h>			/* For struct in6_addr. */
 
 #define RDS_IB_ABI_VERSION		0x301
 

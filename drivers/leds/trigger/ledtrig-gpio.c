@@ -6,13 +6,13 @@
  * Copyright 2023 Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/leds.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/leds.h>
+#include <robux/slab.h>
 #include "../leds.h"
 
 struct gpio_trig_data {

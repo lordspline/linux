@@ -9,19 +9,19 @@
  * 1999-07-31 (jmt) - First working version.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/init.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/init.h>
 
 #include <asm/macintosh.h>
 #include <asm/macints.h>
 #include <asm/mac_iop.h>
 #include <asm/adb_iop.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <linux/adb.h>
+#include <robux/adb.h>
 
 static struct adb_request *current_req;
 static struct adb_request *last_req;

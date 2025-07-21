@@ -11,16 +11,16 @@
  *   Pat Gefre <pfg@sgi.com> - IOC3 serial port IRQ demuxer
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/sgi-w1.h>
-#include <linux/rtc/ds1685.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/sgi-w1.h>
+#include <robux/rtc/ds1685.h>
 
 #include <asm/pci/bridge.h>
 #include <asm/sn/ioc3.h>

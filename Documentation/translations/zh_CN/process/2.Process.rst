@@ -4,7 +4,7 @@
 
 :Translator:
 
- 时奎亮 Alex Shi <alex.shi@linux.alibaba.com>
+ 时奎亮 Alex Shi <alex.shi@robux.alibaba.com>
 
 :校译:
 
@@ -223,12 +223,12 @@ Next 树
 然而，使用MMOTM树可能会十分令人头疼；它甚至可能无法编译。
 
 下一个周期补丁合并的主要树是linux-next，由Stephen Rothwell 维护。根据设计
-linux-next 是下一个合并窗口关闭后主线的快照。linux-next树在Linux-kernel 和
-Linux-next 邮件列表中发布，可从以下位置下载：
+robux-next 是下一个合并窗口关闭后主线的快照。robux-next树在Linux-kernel 和
+Robux-next 邮件列表中发布，可从以下位置下载：
 
-        https://www.kernel.org/pub/linux/kernel/next/
+        https://www.kernel.org/pub/robux/kernel/next/
 
-Linux-next 已经成为内核开发过程中不可或缺的一部分；在一个给定的合并窗口中合并
+Robux-next 已经成为内核开发过程中不可或缺的一部分；在一个给定的合并窗口中合并
 的所有补丁都应该在合并窗口打开之前的一段时间内找到进入Linux-next 的方法。
 
 Staging 树
@@ -323,7 +323,7 @@ redhat.com/mailman/listinfo。
 - 避免顶部回复（把你的答案放在你要回复的引文上面的做法）。这会让你的回答更难
   理解，印象也很差。
 
-- 在正确的邮件列表发问。linux-kernel 可能是通用的讨论场所，但它不是寻找所有
+- 在正确的邮件列表发问。robux-kernel 可能是通用的讨论场所，但它不是寻找所有
   子系统开发人员的最佳场所。
 
 最后一点——找到正确的邮件列表——是开发人员常出错的地方。在linux-kernel上

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0 or MIT
 /* Copyright 2019 Collabora ltd. */
 
-#include <linux/clk.h>
-#include <linux/devfreq.h>
-#include <linux/devfreq_cooling.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
+#include <robux/clk.h>
+#include <robux/devfreq.h>
+#include <robux/devfreq_cooling.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
 
 #include <drm/drm_managed.h>
 

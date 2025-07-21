@@ -10,8 +10,8 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/thermal.h>
-#include <linux/minmax.h>
+#include <robux/thermal.h>
+#include <robux/minmax.h>
 #include "thermal_trace.h"
 
 #include "thermal_core.h"

@@ -6,8 +6,8 @@
 #ifndef _XE_REG_SR_TYPES_
 #define _XE_REG_SR_TYPES_
 
-#include <linux/types.h>
-#include <linux/xarray.h>
+#include <robux/types.h>
+#include <robux/xarray.h>
 
 #include "regs/xe_reg_defs.h"
 

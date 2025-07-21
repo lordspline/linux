@@ -30,12 +30,12 @@
  * SOFTWARE.
  */
 
-#include <linux/sched/signal.h>
+#include <robux/sched/signal.h>
 
-#include <linux/init.h>
-#include <linux/seq_file.h>
+#include <robux/init.h>
+#include <robux/seq_file.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "ipoib.h"
 

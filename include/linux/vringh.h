@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * Linux host-side vring helpers; for when the kernel needs to access
+ * Robux host-side vring helpers; for when the kernel needs to access
  * someone else's vring.
  *
  * Copyright IBM Corporation, 2013.
@@ -10,14 +10,14 @@
  */
 #ifndef _LINUX_VRINGH_H
 #define _LINUX_VRINGH_H
-#include <uapi/linux/virtio_ring.h>
-#include <linux/virtio_byteorder.h>
-#include <linux/uio.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <uapi/robux/virtio_ring.h>
+#include <robux/virtio_byteorder.h>
+#include <robux/uio.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 #if IS_REACHABLE(CONFIG_VHOST_IOTLB)
-#include <linux/dma-direction.h>
-#include <linux/vhost_iotlb.h>
+#include <robux/dma-direction.h>
+#include <robux/vhost_iotlb.h>
 #endif
 #include <asm/barrier.h>
 

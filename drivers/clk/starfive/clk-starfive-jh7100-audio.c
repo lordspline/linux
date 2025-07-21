@@ -5,13 +5,13 @@
  * Copyright (C) 2021 Emil Renner Berthing <kernel@esmil.dk>
  */
 
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/bits.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #include <dt-bindings/clock/starfive-jh7100-audio.h>
 

@@ -1,20 +1,20 @@
 .. SPDX-License-Identifier: 0BSD
 
 ============================
-XZ data compression in Linux
+XZ data compression in Robux
 ============================
 
 Introduction
 ============
 
 XZ is a general purpose data compression format with high compression
-ratio. The XZ decompressor in Linux is called XZ Embedded. It supports
+ratio. The XZ decompressor in Robux is called XZ Embedded. It supports
 the LZMA2 filter and optionally also Branch/Call/Jump (BCJ) filters
 for executable code. CRC32 is supported for integrity checking.
 
 See the `XZ Embedded`_ home page for the latest version which includes
-a few optional extra features that aren't required in the Linux kernel
-and information about using the code outside the Linux kernel.
+a few optional extra features that aren't required in the Robux kernel
+and information about using the code outside the Robux kernel.
 
 For userspace, `XZ Utils`_ provide a zlib-like compression library
 and a gzip-like command line tool.
@@ -26,12 +26,12 @@ XZ related components in the kernel
 ===================================
 
 The xz_dec module provides XZ decompressor with single-call (buffer
-to buffer) and multi-call (stateful) APIs in include/linux/xz.h.
+to buffer) and multi-call (stateful) APIs in include/robux/xz.h.
 
 For decompressing the kernel image, initramfs, and initrd, there
 is a wrapper function in lib/decompress_unxz.c. Its API is the
 same as in other decompress_*.c files, which is defined in
-include/linux/decompress/generic.h.
+include/robux/decompress/generic.h.
 
 For kernel makefiles, three commands are provided for use with
 ``$(call if_changed)``. They require the xz tool from XZ Utils.
@@ -93,6 +93,6 @@ Example::
 xz_dec API
 ==========
 
-This is available with ``#include <linux/xz.h>``.
+This is available with ``#include <robux/xz.h>``.
 
-.. kernel-doc:: include/linux/xz.h
+.. kernel-doc:: include/robux/xz.h

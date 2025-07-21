@@ -99,7 +99,7 @@
 };
 
 &ir {
-	linux,rc-map-name = "rc-beelink-gs1";
+	robux,rc-map-name = "rc-beelink-gs1";
 };
 
 &tdmif_b {

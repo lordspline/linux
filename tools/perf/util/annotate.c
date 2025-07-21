@@ -43,10 +43,10 @@
 #include "hashmap.h"
 #include "strbuf.h"
 #include <regex.h>
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/zalloc.h>
 #include <subcmd/parse-options.h>
 #include <subcmd/run-command.h>
 #include <math.h>
@@ -63,7 +63,7 @@
 #define DARROW_CHAR	((unsigned char)'.')
 #define UARROW_CHAR	((unsigned char)'-')
 
-#include <linux/ctype.h>
+#include <robux/ctype.h>
 
 /* global annotation options */
 struct annotation_options annotate_opts;

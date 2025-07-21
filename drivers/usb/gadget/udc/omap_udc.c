@@ -11,41 +11,41 @@
 #undef	DEBUG
 #undef	VERBOSE
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/ioport.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/mm.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/dma-mapping.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/prefetch.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/ioport.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/timer.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/proc_fs.h>
+#include <robux/mm.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/otg.h>
+#include <robux/dma-mapping.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/prefetch.h>
+#include <robux/io.h>
 
 #include <asm/byteorder.h>
 #include <asm/irq.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <asm/mach-types.h>
 
-#include <linux/omap-dma.h>
-#include <linux/platform_data/usb-omap1.h>
+#include <robux/omap-dma.h>
+#include <robux/platform_data/usb-omap1.h>
 
-#include <linux/soc/ti/omap1-usb.h>
-#include <linux/soc/ti/omap1-soc.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <robux/soc/ti/omap1-usb.h>
+#include <robux/soc/ti/omap1-soc.h>
+#include <robux/soc/ti/omap1-io.h>
 
 #include "omap_udc.h"
 
@@ -2130,7 +2130,7 @@ static int omap_udc_stop(struct usb_gadget *g)
 
 #ifdef CONFIG_USB_GADGET_DEBUG_FILES
 
-#include <linux/seq_file.h>
+#include <robux/seq_file.h>
 
 static const char proc_filename[] = "driver/udc";
 

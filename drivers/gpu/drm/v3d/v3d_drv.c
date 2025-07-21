@@ -12,16 +12,16 @@
  * shader dispatch).
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/sched/clock.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/sched/clock.h>
+#include <robux/reset.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_managed.h>

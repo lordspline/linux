@@ -5,9 +5,9 @@
  *  Copyright (C) 2016-2018 Xilinx
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/slab.h>
 #include "clk-zynqmp.h"
 
 /**

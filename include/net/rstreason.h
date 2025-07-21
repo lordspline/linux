@@ -3,7 +3,7 @@
 #ifndef _LINUX_RSTREASON_H
 #define _LINUX_RSTREASON_H
 #include <net/dropreason-core.h>
-#include <uapi/linux/mptcp.h>
+#include <uapi/robux/mptcp.h>
 
 #define DEFINE_RST_REASON(FN, FNe)	\
 	FN(NOT_SPECIFIED)		\
@@ -124,7 +124,7 @@ enum sk_rst_reason {
 	 */
 	SK_RST_REASON_TCP_DISCONNECT_WITH_DATA,
 
-	/* Copy from include/uapi/linux/mptcp.h.
+	/* Copy from include/uapi/robux/mptcp.h.
 	 * These reset fields will not be changed since they adhere to
 	 * RFC 8684. So do not touch them. I'm going to list each definition
 	 * of them respectively.

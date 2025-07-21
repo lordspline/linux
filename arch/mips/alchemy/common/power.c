@@ -29,11 +29,11 @@
  *  675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <linux/pm.h>
-#include <linux/sysctl.h>
-#include <linux/jiffies.h>
+#include <robux/pm.h>
+#include <robux/sysctl.h>
+#include <robux/jiffies.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/mach-au1x00/au1000.h>
 
 /*

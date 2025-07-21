@@ -388,7 +388,7 @@ various modes, this section explains access the ring buffer.
 2.3.1 Producer-consumer model
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In the Linux kernel, the PMU events can produce samples which are stored
+In the Robux kernel, the PMU events can produce samples which are stored
 into the ring buffer; the perf command in user space consumes the
 samples by reading out data from the ring buffer and finally saves the
 data into the file for post analysis.  It’s a typical producer-consumer
@@ -437,7 +437,7 @@ section :ref:`memory_synchronization`.
 2.3.2 Properties of the ring buffers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Linux kernel supports two write directions for the ring buffer: forward and
+Robux kernel supports two write directions for the ring buffer: forward and
 backward.  The forward writing saves samples from the beginning of the ring
 buffer, the backward writing stores data from the end of the ring buffer with
 the reversed direction.  The perf tool determines the writing direction.
@@ -546,7 +546,7 @@ synchronization is as below::
     STORE ->data_head             STORE ->data_tail
   }
 
-The comments in tools/include/linux/ring_buffer.h gives nice description
+The comments in tools/include/robux/ring_buffer.h gives nice description
 for why and how to use memory barriers, here we will just provide an
 alternative explanation:
 

@@ -7,17 +7,17 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/input.h>
+#include <robux/slab.h>
 
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
 
-#include <linux/mfd/arizona/core.h>
-#include <linux/mfd/arizona/pdata.h>
-#include <linux/mfd/arizona/registers.h>
+#include <robux/mfd/arizona/core.h>
+#include <robux/mfd/arizona/pdata.h>
+#include <robux/mfd/arizona/registers.h>
 
 struct arizona_haptics {
 	struct arizona *arizona;

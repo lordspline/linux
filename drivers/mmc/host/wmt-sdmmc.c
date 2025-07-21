@@ -6,25 +6,25 @@
  *  Copyright (C) 2008 WonderMedia Technologies, Inc.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/errno.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/ioport.h>
+#include <robux/errno.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
 
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/sd.h>
 
 #include <asm/byteorder.h>
 

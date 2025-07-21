@@ -4,11 +4,11 @@
  * Copyright (C) 2015 Jakub Kicinski <kubakici@wp.pl>
  */
 
-#include <linux/of.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/etherdevice.h>
-#include <linux/unaligned.h>
+#include <robux/of.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/etherdevice.h>
+#include <robux/unaligned.h>
 #include "mt7601u.h"
 #include "eeprom.h"
 #include "mac.h"

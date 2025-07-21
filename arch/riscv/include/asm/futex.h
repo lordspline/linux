@@ -1,15 +1,15 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (c) 2006  Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (c) 2006  Ralf Baechle (ralf@robux-mips.org)
  * Copyright (c) 2018  Jim Wilson (jimw@sifive.com)
  */
 
 #ifndef _ASM_RISCV_FUTEX_H
 #define _ASM_RISCV_FUTEX_H
 
-#include <linux/futex.h>
-#include <linux/uaccess.h>
-#include <linux/errno.h>
+#include <robux/futex.h>
+#include <robux/uaccess.h>
+#include <robux/errno.h>
 #include <asm/asm.h>
 #include <asm/asm-extable.h>
 

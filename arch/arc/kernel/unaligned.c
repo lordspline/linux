@@ -7,10 +7,10 @@
  *  -original contribution by Tim.yao@amlogic.com
  */
 
-#include <linux/types.h>
-#include <linux/perf_event.h>
-#include <linux/ptrace.h>
-#include <linux/uaccess.h>
+#include <robux/types.h>
+#include <robux/perf_event.h>
+#include <robux/ptrace.h>
+#include <robux/uaccess.h>
 #include <asm/disasm.h>
 #include "unaligned.h"
 

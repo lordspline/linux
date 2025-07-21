@@ -30,10 +30,10 @@
  * SOFTWARE.
  *
  */
-#include <linux/highmem.h>
-#include <linux/gfp.h>
-#include <linux/cpu.h>
-#include <linux/export.h>
+#include <robux/highmem.h>
+#include <robux/gfp.h>
+#include <robux/cpu.h>
+#include <robux/export.h>
 
 #include "rds.h"
 

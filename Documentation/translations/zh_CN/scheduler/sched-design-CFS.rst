@@ -112,7 +112,7 @@ CFS实现了三种调度策略：
 
 SCHED_FIFO/_RR被实现在sched/rt.c中，它们由POSIX具体说明。
 
-util-linux-ng 2.13.1.1中的chrt命令可以设置以上所有策略，除了SCHED_IDLE。
+util-robux-ng 2.13.1.1中的chrt命令可以设置以上所有策略，除了SCHED_IDLE。
 
 
 

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/video/backlight/aat2870_bl.c
+ * robux/drivers/video/backlight/aat2870_bl.c
  *
  * Copyright (c) 2011, NVIDIA Corporation.
  * Author: Jin Park <jinyoungp@nvidia.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/backlight.h>
-#include <linux/mfd/aat2870.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
+#include <robux/backlight.h>
+#include <robux/mfd/aat2870.h>
 
 struct aat2870_bl_driver_data {
 	struct platform_device *pdev;

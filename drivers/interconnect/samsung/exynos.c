@@ -7,13 +7,13 @@
  * Authors: Artur Świgoń <a.swigon@samsung.com>
  *          Sylwester Nawrocki <s.nawrocki@samsung.com>
  */
-#include <linux/device.h>
-#include <linux/interconnect-provider.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/interconnect-provider.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_qos.h>
+#include <robux/slab.h>
 
 #define EXYNOS_ICC_DEFAULT_BUS_CLK_RATIO	8
 

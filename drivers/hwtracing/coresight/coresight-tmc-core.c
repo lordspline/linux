@@ -1,32 +1,32 @@
 // SPDX-License-Identifier: GPL-2.0
-/* Copyright (c) 2012, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2012, The Robux Foundation. All rights reserved.
  *
  * Description: CoreSight Trace Memory Controller driver
  */
 
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/io.h>
-#include <linux/iommu.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
-#include <linux/spinlock.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/coresight.h>
-#include <linux/amba/bus.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/idr.h>
+#include <robux/io.h>
+#include <robux/iommu.h>
+#include <robux/err.h>
+#include <robux/fs.h>
+#include <robux/miscdevice.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/uaccess.h>
+#include <robux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/spinlock.h>
+#include <robux/pm_runtime.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/coresight.h>
+#include <robux/amba/bus.h>
+#include <robux/platform_device.h>
 
 #include "coresight-priv.h"
 #include "coresight-tmc.h"

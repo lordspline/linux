@@ -4,15 +4,15 @@
  * Author: Sergio Paracuellos <sergio.paracuellos@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/clk-provider.h>
+#include <robux/clk.h>
+#include <robux/mfd/syscon.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset-controller.h>
+#include <robux/slab.h>
 #include <dt-bindings/clock/mt7621-clk.h>
 #include <dt-bindings/reset/mt7621-reset.h>
 

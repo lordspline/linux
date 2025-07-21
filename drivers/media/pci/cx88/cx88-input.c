@@ -11,11 +11,11 @@
 
 #include "cx88.h"
 
-#include <linux/init.h>
-#include <linux/hrtimer.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/hrtimer.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 
 #include <media/rc-core.h>
 

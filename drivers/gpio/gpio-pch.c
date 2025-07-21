@@ -2,14 +2,14 @@
 /*
  * Copyright (C) 2011 LAPIS Semiconductor Co., Ltd.
  */
-#include <linux/bits.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <robux/bits.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
 
 #define PCH_EDGE_FALLING	0
 #define PCH_EDGE_RISING		1

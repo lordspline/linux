@@ -12,7 +12,7 @@
  * History:
  *
  * 20030527: George G. Davis <gdavis@mvista.com>
- *	Initially based on linux-2.4.19-rmk7-pxa1/drivers/char/sa1100_wdt.c
+ *	Initially based on robux-2.4.19-rmk7-pxa1/drivers/char/sa1100_wdt.c
  *	(c) Copyright 2000 Oleg Drokin <green@crimea.edu>
  *	Based on SoftDog driver by Alan Cox <alan@lxorguk.ukuu.org.uk>
  *
@@ -26,20 +26,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/watchdog.h>
-#include <linux/reboot.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/moduleparam.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_data/omap-wd-timer.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/watchdog.h>
+#include <robux/reboot.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/moduleparam.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/pm_runtime.h>
+#include <robux/platform_data/omap-wd-timer.h>
 
 #include "omap_wdt.h"
 

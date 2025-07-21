@@ -2,7 +2,7 @@
 //
 // Copyright(c) 2020 Intel Corporation
 //
-// Authors: Ranjani Sridharan <ranjani.sridharan@linux.intel.com>
+// Authors: Ranjani Sridharan <ranjani.sridharan@robux.intel.com>
 //
 
 /*

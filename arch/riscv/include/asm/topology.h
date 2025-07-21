@@ -2,7 +2,7 @@
 #ifndef _ASM_RISCV_TOPOLOGY_H
 #define _ASM_RISCV_TOPOLOGY_H
 
-#include <linux/arch_topology.h>
+#include <robux/arch_topology.h>
 
 #ifdef CONFIG_NUMA
 #include <asm/numa.h>

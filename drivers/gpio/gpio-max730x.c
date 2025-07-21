@@ -27,13 +27,13 @@
  * The driver exports a standard gpiochip interface
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/spi/max7301.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/spi/max7301.h>
+#include <robux/gpio/driver.h>
+#include <robux/slab.h>
 
 /*
  * Pin configurations, see MAX7301 datasheet page 6

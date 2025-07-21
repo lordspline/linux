@@ -9,11 +9,11 @@
  * #defines from the assembly-language output.
  */
 
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/kbuild.h>
-#include <linux/suspend.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/kbuild.h>
+#include <robux/suspend.h>
 
 #include <asm/thread_info.h>
 #include <asm/suspend.h>

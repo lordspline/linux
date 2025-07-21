@@ -3,10 +3,10 @@
  * Copyright (C) 2023 Inochi Amaoto <inochiama@outlook.com>
  */
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/spinlock.h>
-#include <linux/bug.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/spinlock.h>
+#include <robux/bug.h>
 
 #include "clk-cv18xx-common.h"
 

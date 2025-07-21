@@ -7,18 +7,18 @@
  *  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
 
-#include <linux/usb.h>
-#include <linux/iio/iio.h>
+#include <robux/usb.h>
+#include <robux/iio/iio.h>
 
-#include <linux/mfd/viperboard.h>
+#include <robux/mfd/viperboard.h>
 
 #define VPRBRD_ADC_CMD_GET		0x00
 

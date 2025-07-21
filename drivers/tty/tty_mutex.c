@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/tty.h>
-#include <linux/module.h>
-#include <linux/kallsyms.h>
-#include <linux/semaphore.h>
-#include <linux/sched.h>
+#include <robux/tty.h>
+#include <robux/module.h>
+#include <robux/kallsyms.h>
+#include <robux/semaphore.h>
+#include <robux/sched.h>
 #include "tty.h"
 
 /* Legacy tty mutex glue */

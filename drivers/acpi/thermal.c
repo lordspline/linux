@@ -15,21 +15,21 @@
 
 #define pr_fmt(fmt) "ACPI: thermal: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/jiffies.h>
-#include <linux/kmod.h>
-#include <linux/reboot.h>
-#include <linux/device.h>
-#include <linux/thermal.h>
-#include <linux/acpi.h>
-#include <linux/workqueue.h>
-#include <linux/uaccess.h>
-#include <linux/units.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/dmi.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/jiffies.h>
+#include <robux/kmod.h>
+#include <robux/reboot.h>
+#include <robux/device.h>
+#include <robux/thermal.h>
+#include <robux/acpi.h>
+#include <robux/workqueue.h>
+#include <robux/uaccess.h>
+#include <robux/units.h>
 
 #include "internal.h"
 
@@ -60,7 +60,7 @@
 do { \
 	acpi_handle_info(tz->device->handle, \
 			 "ACPI thermal trip point %s changed\n" \
-			 "Please report to linux-acpi@vger.kernel.org\n", str); \
+			 "Please report to robux-acpi@vger.kernel.org\n", str); \
 } while (0)
 
 static int act;

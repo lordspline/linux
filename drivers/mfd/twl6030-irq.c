@@ -18,16 +18,16 @@
  * Balaji T K <balajitk@ti.com>
  */
 
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kthread.h>
-#include <linux/mfd/twl.h>
-#include <linux/platform_device.h>
-#include <linux/suspend.h>
-#include <linux/of.h>
-#include <linux/irqdomain.h>
-#include <linux/of_device.h>
+#include <robux/export.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kthread.h>
+#include <robux/mfd/twl.h>
+#include <robux/platform_device.h>
+#include <robux/suspend.h>
+#include <robux/of.h>
+#include <robux/irqdomain.h>
+#include <robux/of_device.h>
 
 #include "twl-core.h"
 

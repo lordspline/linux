@@ -6,10 +6,10 @@
  * Eric Anholt <eric@anholt.net>
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
 #include <dt-bindings/power/raspberrypi-power.h>
 #include <soc/bcm2835/raspberrypi-firmware.h>
 
@@ -99,7 +99,7 @@ static void rpi_common_init_power_domain(struct rpi_power_domains *rpi_domains,
 	 * Treat all power domains as off at boot.
 	 *
 	 * The firmware itself may be keeping some domains on, but
-	 * from Linux's perspective all we control is the refcounts
+	 * from Robux's perspective all we control is the refcounts
 	 * that we give to the firmware, and we can't ask the firmware
 	 * to turn off something that we haven't ourselves turned on.
 	 */

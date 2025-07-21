@@ -10,14 +10,14 @@
  * Richard Woodruff <r-woodruff2@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/io.h>
 
 #include "soc.h"
 #include "iomap.h"

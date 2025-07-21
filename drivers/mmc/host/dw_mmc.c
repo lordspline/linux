@@ -7,35 +7,35 @@
  * Copyright (C) 2009, 2010 Imagination Technologies Ltd.
  */
 
-#include <linux/blkdev.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/ktime.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/prandom.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
-#include <linux/mmc/sdio.h>
-#include <linux/bitops.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
-#include <linux/mmc/slot-gpio.h>
+#include <robux/blkdev.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/ioport.h>
+#include <robux/ktime.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/prandom.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/stat.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/sd.h>
+#include <robux/mmc/sdio.h>
+#include <robux/bitops.h>
+#include <robux/regulator/consumer.h>
+#include <robux/of.h>
+#include <robux/mmc/slot-gpio.h>
 
 #include "dw_mmc.h"
 

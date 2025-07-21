@@ -4,20 +4,20 @@
  * Author: Mathieu Poirier <mathieu.poirier@linaro.org>
  */
 
-#include <linux/bitfield.h>
-#include <linux/coresight.h>
-#include <linux/coresight-pmu.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/perf_event.h>
-#include <linux/percpu-defs.h>
-#include <linux/slab.h>
-#include <linux/stringhash.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/bitfield.h>
+#include <robux/coresight.h>
+#include <robux/coresight-pmu.h>
+#include <robux/cpumask.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/perf_event.h>
+#include <robux/percpu-defs.h>
+#include <robux/slab.h>
+#include <robux/stringhash.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include "coresight-config.h"
 #include "coresight-etm-perf.h"

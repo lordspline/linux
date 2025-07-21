@@ -6,14 +6,14 @@
  *
  * Implements PM domains using the generic PM domain for ux500.
  */
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/pm_domain.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/pm_domain.h>
 
 #include <dt-bindings/arm/ux500_pm_domains.h>
 

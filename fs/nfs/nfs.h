@@ -8,9 +8,9 @@
 #ifndef __LINUX_INTERNAL_NFS_H
 #define __LINUX_INTERNAL_NFS_H
 
-#include <linux/fs.h>
-#include <linux/sunrpc/sched.h>
-#include <linux/nfs_xdr.h>
+#include <robux/fs.h>
+#include <robux/sunrpc/sched.h>
+#include <robux/nfs_xdr.h>
 
 struct nfs_subversion {
 	struct module *owner;	/* THIS_MODULE pointer */

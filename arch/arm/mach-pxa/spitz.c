@@ -8,30 +8,30 @@
  * Based on Sharp's 2.4 kernel patches/lubbock.c
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/gpio_keys.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/property.h>
-#include <linux/leds.h>
-#include <linux/i2c.h>
-#include <linux/platform_data/i2c-pxa.h>
-#include <linux/platform_data/pca953x.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/ads7846.h>
-#include <linux/spi/corgi_lcd.h>
-#include <linux/mtd/sharpsl.h>
-#include <linux/mtd/physmap.h>
-#include <linux/input-event-codes.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/regulator/machine.h>
-#include <linux/io.h>
-#include <linux/property.h>
-#include <linux/reboot.h>
-#include <linux/memblock.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/gpio_keys.h>
+#include <robux/gpio.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/property.h>
+#include <robux/leds.h>
+#include <robux/i2c.h>
+#include <robux/platform_data/i2c-pxa.h>
+#include <robux/platform_data/pca953x.h>
+#include <robux/property.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/ads7846.h>
+#include <robux/spi/corgi_lcd.h>
+#include <robux/mtd/sharpsl.h>
+#include <robux/mtd/physmap.h>
+#include <robux/input-event-codes.h>
+#include <robux/input/matrix_keypad.h>
+#include <robux/regulator/machine.h>
+#include <robux/io.h>
+#include <robux/property.h>
+#include <robux/reboot.h>
+#include <robux/memblock.h>
 
 #include <asm/setup.h>
 #include <asm/mach-types.h>
@@ -42,9 +42,9 @@
 #include "pxa27x.h"
 #include "pxa27x-udc.h"
 #include "reset.h"
-#include <linux/platform_data/mmc-pxamci.h>
-#include <linux/platform_data/usb-ohci-pxa27x.h>
-#include <linux/platform_data/video-pxafb.h>
+#include <robux/platform_data/mmc-pxamci.h>
+#include <robux/platform_data/usb-ohci-pxa27x.h>
+#include <robux/platform_data/video-pxafb.h>
 #include "spitz.h"
 #include "sharpsl_pm.h"
 #include "smemc.h"
@@ -403,7 +403,7 @@ static const struct software_node_ref_args spitz_mkp_col_gpios[] = {
 };
 
 static const struct property_entry spitz_mkp_properties[] = {
-	PROPERTY_ENTRY_U32_ARRAY("linux,keymap", spitz_keymap),
+	PROPERTY_ENTRY_U32_ARRAY("robux,keymap", spitz_keymap),
 	PROPERTY_ENTRY_REF_ARRAY("row-gpios", spitz_mkp_row_gpios),
 	PROPERTY_ENTRY_REF_ARRAY("col-gpios", spitz_mkp_col_gpios),
 	PROPERTY_ENTRY_U32("col-scan-delay-us", 10),
@@ -442,8 +442,8 @@ static const struct software_node spitz_gpio_keys_node = {
 };
 
 static const struct property_entry spitz_suspend_key_props[] = {
-	PROPERTY_ENTRY_U32("linux,input-type", EV_PWR),
-	PROPERTY_ENTRY_U32("linux,code", KEY_SUSPEND),
+	PROPERTY_ENTRY_U32("robux,input-type", EV_PWR),
+	PROPERTY_ENTRY_U32("robux,code", KEY_SUSPEND),
 	PROPERTY_ENTRY_GPIO("gpios", &pxa2xx_gpiochip_node,
 			    SPITZ_GPIO_ON_KEY, GPIO_ACTIVE_HIGH),
 	PROPERTY_ENTRY_STRING("label", "On Off"),
@@ -457,8 +457,8 @@ static const struct software_node spitz_suspend_key_node = {
 };
 
 static const struct property_entry spitz_sw1_props[] = {
-	PROPERTY_ENTRY_U32("linux,input-type", EV_SW),
-	PROPERTY_ENTRY_U32("linux,code", 0),
+	PROPERTY_ENTRY_U32("robux,input-type", EV_SW),
+	PROPERTY_ENTRY_U32("robux,code", 0),
 	PROPERTY_ENTRY_GPIO("gpios", &pxa2xx_gpiochip_node,
 			    SPITZ_GPIO_SWA, GPIO_ACTIVE_HIGH),
 	PROPERTY_ENTRY_STRING("label", "Display Down"),
@@ -471,8 +471,8 @@ static const struct software_node spitz_sw1_node = {
 };
 
 static const struct property_entry spitz_sw2_props[] = {
-	PROPERTY_ENTRY_U32("linux,input-type", EV_SW),
-	PROPERTY_ENTRY_U32("linux,code", 1),
+	PROPERTY_ENTRY_U32("robux,input-type", EV_SW),
+	PROPERTY_ENTRY_U32("robux,code", 1),
 	PROPERTY_ENTRY_GPIO("gpios", &pxa2xx_gpiochip_node,
 			    SPITZ_GPIO_SWB, GPIO_ACTIVE_HIGH),
 	PROPERTY_ENTRY_STRING("label", "Lid Closed"),
@@ -527,7 +527,7 @@ static const struct software_node spitz_gpio_leds_node = {
 };
 
 static const struct property_entry spitz_orange_led_props[] = {
-	PROPERTY_ENTRY_STRING("linux,default-trigger", "sharpsl-charge"),
+	PROPERTY_ENTRY_STRING("robux,default-trigger", "sharpsl-charge"),
 	PROPERTY_ENTRY_GPIO("gpios",
 			    &spitz_scoop_1_gpiochip_node, 6, GPIO_ACTIVE_HIGH),
 	{ }
@@ -540,7 +540,7 @@ static const struct software_node spitz_orange_led_node = {
 };
 
 static const struct property_entry spitz_green_led_props[] = {
-	PROPERTY_ENTRY_STRING("linux,default-trigger", "disk-activity"),
+	PROPERTY_ENTRY_STRING("robux,default-trigger", "disk-activity"),
 	PROPERTY_ENTRY_GPIO("gpios",
 			    &spitz_scoop_1_gpiochip_node, 0, GPIO_ACTIVE_HIGH),
 	{ }

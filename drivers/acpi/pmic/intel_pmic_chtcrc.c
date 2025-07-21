@@ -5,11 +5,11 @@
  * Copyright (C) 2019 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/init.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/acpi.h>
+#include <robux/init.h>
+#include <robux/mfd/intel_soc_pmic.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 #include "intel_pmic.h"
 
 /*

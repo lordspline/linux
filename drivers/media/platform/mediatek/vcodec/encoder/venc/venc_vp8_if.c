@@ -5,9 +5,9 @@
  *         PoChun Lin <pochun.lin@mediatek.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
 
 #include "../mtk_vcodec_enc_drv.h"
 #include "../../common/mtk_vcodec_intr.h"

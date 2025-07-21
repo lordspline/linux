@@ -7,12 +7,12 @@
  * Based on Sharp's 2.4 kernel patches and pxa2xx_mainstone.c
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
 
 #include <asm/mach-types.h>
 #include <asm/irq.h>

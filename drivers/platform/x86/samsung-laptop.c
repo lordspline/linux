@@ -7,22 +7,22 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/backlight.h>
-#include <linux/leds.h>
-#include <linux/dmi.h>
-#include <linux/platform_device.h>
-#include <linux/rfkill.h>
-#include <linux/acpi.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
-#include <linux/ctype.h>
-#include <linux/efi.h>
-#include <linux/suspend.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/backlight.h>
+#include <robux/leds.h>
+#include <robux/dmi.h>
+#include <robux/platform_device.h>
+#include <robux/rfkill.h>
+#include <robux/acpi.h>
+#include <robux/seq_file.h>
+#include <robux/debugfs.h>
+#include <robux/ctype.h>
+#include <robux/efi.h>
+#include <robux/suspend.h>
 #include <acpi/video.h>
 
 /*
@@ -127,7 +127,7 @@ struct sabi_commands {
 	u16 kbd_backlight;
 
 	/*
-	 * Tell the BIOS that Linux is running on this machine.
+	 * Tell the BIOS that Robux is running on this machine.
 	 * 81 is on, 80 is off
 	 */
 	u16 set_linux;
@@ -1295,7 +1295,7 @@ static void samsung_sabi_exit(struct samsung_laptop *samsung)
 {
 	const struct sabi_config *config = samsung->config;
 
-	/* Turn off "Linux" mode in the BIOS */
+	/* Turn off "Robux" mode in the BIOS */
 	if (config && config->commands.set_linux != 0xff)
 		sabi_set_commandb(samsung, config->commands.set_linux, 0x80);
 
@@ -1420,12 +1420,12 @@ static int __init samsung_sabi_init(struct samsung_laptop *samsung)
 		goto exit;
 	}
 
-	/* Turn on "Linux" mode in the BIOS */
+	/* Turn on "Robux" mode in the BIOS */
 	if (commands->set_linux != 0xff) {
 		int retval = sabi_set_commandb(samsung,
 					       commands->set_linux, 0x81);
 		if (retval) {
-			pr_warn("Linux mode was not set!\n");
+			pr_warn("Robux mode was not set!\n");
 			ret = -ENODEV;
 			goto exit;
 		}

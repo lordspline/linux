@@ -5,8 +5,8 @@
  * Copyright (C) 2015 Cadence Design Systems Inc.
  */
 
-#include <linux/io.h>
-#include <linux/pgtable.h>
+#include <robux/io.h>
+#include <robux/pgtable.h>
 #include <asm/cacheflush.h>
 #include <asm/io.h>
 

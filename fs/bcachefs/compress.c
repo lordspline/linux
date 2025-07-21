@@ -8,9 +8,9 @@
 #include "opts.h"
 #include "super-io.h"
 
-#include <linux/lz4.h>
-#include <linux/zlib.h>
-#include <linux/zstd.h>
+#include <robux/lz4.h>
+#include <robux/zlib.h>
+#include <robux/zstd.h>
 
 static inline enum bch_compression_opts bch2_compression_type_to_opt(enum bch_compression_type type)
 {

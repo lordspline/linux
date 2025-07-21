@@ -3,11 +3,11 @@
  *
  * Copyright (C) 2008 David S. Miller <davem@davemloft.net>
  */
-#include <linux/kernel.h>
-#include <linux/reboot.h>
-#include <linux/export.h>
-#include <linux/pm.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/reboot.h>
+#include <robux/export.h>
+#include <robux/pm.h>
+#include <robux/of.h>
 
 #include <asm/oplib.h>
 #include <asm/prom.h>

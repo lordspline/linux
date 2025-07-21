@@ -10,8 +10,8 @@
  * for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/rtc.h>
+#include <robux/kernel.h>
+#include <robux/rtc.h>
 
 #include <asm/errno.h>
 #include <asm/intersil.h>

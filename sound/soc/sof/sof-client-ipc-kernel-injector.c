@@ -5,11 +5,11 @@
 // Author: Curtis Malainey <cujomalainey@chromium.org>
 //
 
-#include <linux/auxiliary_bus.h>
-#include <linux/debugfs.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/debugfs.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
 #include <sound/sof/header.h>
 
 #include "sof-client.h"

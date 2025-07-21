@@ -6,13 +6,13 @@
  * If any of these modules are configured to build, this file is built and just
  * statically linked in.
  *
- * Authors: Microsoft Linux virtualization team
+ * Authors: Microsoft Robux virtualization team
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
 #include <asm/mshyperv.h>
-#include <linux/resume_user_mode.h>
+#include <robux/resume_user_mode.h>
 
 #include "mshv.h"
 

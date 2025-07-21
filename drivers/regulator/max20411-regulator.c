@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2021, The Robux Foundation. All rights reserved.
  * Copyright (c) 2022, Linaro Ltd.
  */
 
-#include <linux/bitfield.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/bitfield.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/of_regulator.h>
 
 #define MAX20411_UV_STEP		6250
 #define MAX20411_BASE_UV		243750

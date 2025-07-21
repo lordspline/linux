@@ -5,16 +5,16 @@
  * Copyright (C) 2015-2016 Smart Energy Instruments, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/sched_clock.h>
-#include <linux/cpu.h>
-#include <linux/cpuhotplug.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/sched_clock.h>
+#include <robux/cpu.h>
+#include <robux/cpuhotplug.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 #define PIT_IRQ_SHIFT		12
 #define PIT_PRIO_SHIFT		20

@@ -11,18 +11,18 @@
  *  Copyright (c) 2008-2014 Silicon Graphics, Inc.  All Rights Reserved.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
+#include <robux/device.h>
+#include <robux/miscdevice.h>
+#include <robux/interrupt.h>
+#include <robux/proc_fs.h>
+#include <robux/uaccess.h>
 #ifdef CONFIG_X86_64
 #include <asm/uv/uv_irq.h>
 #endif

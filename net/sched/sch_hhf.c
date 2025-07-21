@@ -5,11 +5,11 @@
  * Copyright (C) 2013 Nandita Dukkipati <nanditad@google.com>
  */
 
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/vmalloc.h>
-#include <linux/siphash.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/skbuff.h>
+#include <robux/vmalloc.h>
+#include <robux/siphash.h>
 #include <net/pkt_sched.h>
 #include <net/sock.h>
 

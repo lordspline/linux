@@ -6,13 +6,13 @@
  * Author: Tomi Valkeinen <tomi.valkeinen@ti.com>
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/consumer.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/gpio/consumer.h>
 
 #include <video/omapfb_dss.h>
 

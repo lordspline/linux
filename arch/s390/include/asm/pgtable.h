@@ -12,12 +12,12 @@
 #ifndef _ASM_S390_PGTABLE_H
 #define _ASM_S390_PGTABLE_H
 
-#include <linux/sched.h>
-#include <linux/mm_types.h>
-#include <linux/cpufeature.h>
-#include <linux/page-flags.h>
-#include <linux/radix-tree.h>
-#include <linux/atomic.h>
+#include <robux/sched.h>
+#include <robux/mm_types.h>
+#include <robux/cpufeature.h>
+#include <robux/page-flags.h>
+#include <robux/radix-tree.h>
+#include <robux/atomic.h>
 #include <asm/ctlreg.h>
 #include <asm/bug.h>
 #include <asm/page.h>

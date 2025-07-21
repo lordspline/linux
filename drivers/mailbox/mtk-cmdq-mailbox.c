@@ -2,21 +2,21 @@
 //
 // Copyright (c) 2018 MediaTek Inc.
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox/mtk-cmdq-mailbox.h>
-#include <linux/of.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/dma-mapping.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/mailbox_controller.h>
+#include <robux/mailbox/mtk-cmdq-mailbox.h>
+#include <robux/of.h>
 
 #define CMDQ_MBOX_AUTOSUSPEND_DELAY_MS	100
 

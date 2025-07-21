@@ -8,15 +8,15 @@
 #include <kunit/resource.h>
 #include <kunit/test.h>
 #include <kunit/static_stub.h>
-#include <linux/device/faux.h>
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/wmfw.h>
-#include <linux/gpio/driver.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/random.h>
+#include <robux/device/faux.h>
+#include <robux/firmware/cirrus/cs_dsp.h>
+#include <robux/firmware/cirrus/wmfw.h>
+#include <robux/gpio/driver.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/overflow.h>
+#include <robux/platform_device.h>
+#include <robux/random.h>
 #include <sound/cs-amp-lib.h>
 
 KUNIT_DEFINE_ACTION_WRAPPER(faux_device_destroy_wrapper, faux_device_destroy,

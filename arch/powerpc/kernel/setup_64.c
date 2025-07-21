@@ -6,33 +6,33 @@
  * Copyright (C) 2001 PPC64 Team, IBM Corp
  */
 
-#include <linux/export.h>
-#include <linux/string.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/reboot.h>
-#include <linux/delay.h>
-#include <linux/initrd.h>
-#include <linux/seq_file.h>
-#include <linux/ioport.h>
-#include <linux/console.h>
-#include <linux/utsname.h>
-#include <linux/tty.h>
-#include <linux/root_dev.h>
-#include <linux/notifier.h>
-#include <linux/cpu.h>
-#include <linux/unistd.h>
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
-#include <linux/memblock.h>
-#include <linux/pci.h>
-#include <linux/lockdep.h>
-#include <linux/memory.h>
-#include <linux/nmi.h>
-#include <linux/pgtable.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
+#include <robux/export.h>
+#include <robux/string.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/reboot.h>
+#include <robux/delay.h>
+#include <robux/initrd.h>
+#include <robux/seq_file.h>
+#include <robux/ioport.h>
+#include <robux/console.h>
+#include <robux/utsname.h>
+#include <robux/tty.h>
+#include <robux/root_dev.h>
+#include <robux/notifier.h>
+#include <robux/cpu.h>
+#include <robux/unistd.h>
+#include <robux/serial.h>
+#include <robux/serial_8250.h>
+#include <robux/memblock.h>
+#include <robux/pci.h>
+#include <robux/lockdep.h>
+#include <robux/memory.h>
+#include <robux/nmi.h>
+#include <robux/pgtable.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
 
 #include <asm/asm-prototypes.h>
 #include <asm/kvm_guest.h>
@@ -293,7 +293,7 @@ static void cpu_ready_for_interrupts(void)
 
 	/*
 	 * Set HFSCR:TM based on CPU features:
-	 * In the special case of TM no suspend (P9N DD2.1), Linux is
+	 * In the special case of TM no suspend (P9N DD2.1), Robux is
 	 * told TM is off via the dt-ftrs but told to (partially) use
 	 * it via OPAL_REINIT_CPUS_TM_SUSPEND_DISABLED. So HFSCR[TM]
 	 * will be off from dt-ftrs but we need to turn it on for the
@@ -506,7 +506,7 @@ static bool use_spinloop(void)
 	 * When book3e boots from kexec, the ePAPR spin table does
 	 * not get used.
 	 */
-	return of_property_read_bool(of_chosen, "linux,booted-from-kexec");
+	return of_property_read_bool(of_chosen, "robux,booted-from-kexec");
 }
 
 void smp_release_cpus(void)

@@ -5,16 +5,16 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/moduleparam.h>
-#include <linux/cpuidle.h>
-#include <linux/cpu.h>
-#include <linux/notifier.h>
-#include <linux/clockchips.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/moduleparam.h>
+#include <robux/cpuidle.h>
+#include <robux/cpu.h>
+#include <robux/notifier.h>
+#include <robux/clockchips.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 
 #include <asm/machdep.h>
 #include <asm/firmware.h>

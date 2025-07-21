@@ -11,8 +11,8 @@
  * Hardware interface for Audio DSP on Vangogh platform
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
+#include <robux/delay.h>
+#include <robux/module.h>
 
 #include "acp.h"
 

@@ -9,14 +9,14 @@
  * - Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/of_graph.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

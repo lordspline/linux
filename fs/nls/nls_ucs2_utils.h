@@ -23,9 +23,9 @@
 #define _NLS_UCS2_UTILS_H
 
 #include <asm/byteorder.h>
-#include <linux/types.h>
-#include <linux/nls.h>
-#include <linux/unicode.h>
+#include <robux/types.h>
+#include <robux/nls.h>
+#include <robux/unicode.h>
 #include "nls_ucs2_data.h"
 
 /*

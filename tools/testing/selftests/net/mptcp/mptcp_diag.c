@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2025, Kylin Software */
 
-#include <linux/sock_diag.h>
-#include <linux/rtnetlink.h>
-#include <linux/inet_diag.h>
-#include <linux/netlink.h>
+#include <robux/sock_diag.h>
+#include <robux/rtnetlink.h>
+#include <robux/inet_diag.h>
+#include <robux/netlink.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
-#include <linux/tcp.h>
+#include <robux/tcp.h>
 #include <arpa/inet.h>
 
 #include <unistd.h>

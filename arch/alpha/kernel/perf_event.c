@@ -10,15 +10,15 @@
  * ARM code, which are copyright by their respective authors.
  */
 
-#include <linux/perf_event.h>
-#include <linux/kprobes.h>
-#include <linux/kernel.h>
-#include <linux/kdebug.h>
-#include <linux/mutex.h>
-#include <linux/init.h>
+#include <robux/perf_event.h>
+#include <robux/kprobes.h>
+#include <robux/kernel.h>
+#include <robux/kdebug.h>
+#include <robux/mutex.h>
+#include <robux/init.h>
 
 #include <asm/hwrpb.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/irq.h>
 #include <asm/irq_regs.h>
 #include <asm/pal.h>

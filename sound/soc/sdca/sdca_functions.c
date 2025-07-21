@@ -8,15 +8,15 @@
 
 #define dev_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/acpi.h>
-#include <linux/byteorder/generic.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/dev_printk.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/byteorder/generic.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/dev_printk.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/types.h>
 #include <sound/sdca.h>
 #include <sound/sdca_function.h>
 

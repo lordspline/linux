@@ -3,7 +3,7 @@
  * dt282x.c
  * Comedi driver for Data Translation DT2821 series
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Robux Control and Measurement Device Interface
  * Copyright (C) 1997-8 David A. Schleef <ds@schleef.org>
  */
 
@@ -46,13 +46,13 @@
  *     range that is selected.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/comedi/comedi_isadma.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/gfp.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/comedi/comedidev.h>
+#include <robux/comedi/comedi_isadma.h>
 
 /*
  * Register map

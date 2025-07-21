@@ -4,16 +4,16 @@
  *
  * Based on drivers/char/serial.c
  */
-#include <linux/module.h>
-#include <linux/tty.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/device.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/tty.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/device.h>
+#include <robux/tty_flip.h>
+#include <robux/serial_core.h>
+#include <robux/serial.h>
+#include <robux/io.h>
 
 #include <asm/irq.h>
 #include <asm/mach-types.h>

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
     A Davicom DM9102/DM9102A/DM9102A+DM9801/DM9102A+DM9802 NIC fast
-    ethernet driver for Linux.
+    ethernet driver for Robux.
     Copyright (C) 1997  Sten Wang
 
 
@@ -57,34 +57,34 @@
 
 #define DRV_NAME	"dmfe"
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/ptrace.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/crc32.h>
-#include <linux/bitops.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/ptrace.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/skbuff.h>
+#include <robux/delay.h>
+#include <robux/spinlock.h>
+#include <robux/crc32.h>
+#include <robux/bitops.h>
 
 #include <asm/processor.h>
 #include <asm/io.h>
 #include <asm/dma.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/irq.h>
 
 #ifdef CONFIG_TULIP_DM910X
-#include <linux/of.h>
+#include <robux/of.h>
 #endif
 
 

@@ -5,7 +5,7 @@
  * Copyright (C) 2008 Intel Corp.
  *
  * Author: Sarah Sharp
- * Some code borrowed from the Linux EHCI driver.
+ * Some code borrowed from the Robux EHCI driver.
  */
 
 /*
@@ -52,11 +52,11 @@
  *   endpoint rings; it generates events on the event ring for these.
  */
 
-#include <linux/jiffies.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/dma-mapping.h>
+#include <robux/jiffies.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/dma-mapping.h>
 #include "xhci.h"
 #include "xhci-trace.h"
 

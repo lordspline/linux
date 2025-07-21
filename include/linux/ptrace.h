@@ -2,14 +2,14 @@
 #ifndef _LINUX_PTRACE_H
 #define _LINUX_PTRACE_H
 
-#include <linux/compiler.h>		/* For unlikely.  */
-#include <linux/sched.h>		/* For struct task_struct.  */
-#include <linux/sched/signal.h>		/* For send_sig(), same_thread_group(), etc. */
-#include <linux/err.h>			/* for IS_ERR_VALUE */
-#include <linux/bug.h>			/* For BUG_ON.  */
-#include <linux/pid_namespace.h>	/* For task_active_pid_ns.  */
-#include <uapi/linux/ptrace.h>
-#include <linux/seccomp.h>
+#include <robux/compiler.h>		/* For unlikely.  */
+#include <robux/sched.h>		/* For struct task_struct.  */
+#include <robux/sched/signal.h>		/* For send_sig(), same_thread_group(), etc. */
+#include <robux/err.h>			/* for IS_ERR_VALUE */
+#include <robux/bug.h>			/* For BUG_ON.  */
+#include <robux/pid_namespace.h>	/* For task_active_pid_ns.  */
+#include <uapi/robux/ptrace.h>
+#include <robux/seccomp.h>
 
 /* Add sp to seccomp_data, as seccomp is user API, we don't want to modify it */
 struct syscall_info {

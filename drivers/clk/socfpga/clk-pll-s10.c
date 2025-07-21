@@ -2,9 +2,9 @@
 /*
  * Copyright (C) 2017, Intel Corporation
  */
-#include <linux/slab.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
+#include <robux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
 
 #include "stratix10-clk.h"
 #include "clk.h"

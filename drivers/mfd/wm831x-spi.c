@@ -7,15 +7,15 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/spi/spi.h>
-#include <linux/regmap.h>
-#include <linux/err.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/pm.h>
+#include <robux/spi/spi.h>
+#include <robux/regmap.h>
+#include <robux/err.h>
 
-#include <linux/mfd/wm831x/core.h>
+#include <robux/mfd/wm831x/core.h>
 
 static int wm831x_spi_probe(struct spi_device *spi)
 {

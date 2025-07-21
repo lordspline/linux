@@ -6,13 +6,13 @@
  * Author: David Dajun Chen <dchen@diasemi.com>
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
+#include <robux/of.h>
 
-#include <linux/mfd/da9055/core.h>
+#include <robux/mfd/da9055/core.h>
 
 static int da9055_i2c_probe(struct i2c_client *i2c)
 {

@@ -11,15 +11,15 @@
  */
 #include <crypto/internal/acompress.h>
 #include <crypto/scatterwalk.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/percpu.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/zlib.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/percpu.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/zlib.h>
 
 #define DEFLATE_DEF_LEVEL		Z_DEFAULT_COMPRESSION
 #define DEFLATE_DEF_WINBITS		11

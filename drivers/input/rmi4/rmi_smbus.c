@@ -5,16 +5,16 @@
  * Copyright (c) 2011 Unixphere
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kconfig.h>
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/rmi.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kconfig.h>
+#include <robux/lockdep.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/rmi.h>
+#include <robux/slab.h>
 #include "rmi_driver.h"
 
 #define SMB_PROTOCOL_VERSION_ADDRESS	0xfd

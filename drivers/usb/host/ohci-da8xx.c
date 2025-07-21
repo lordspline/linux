@@ -8,21 +8,21 @@
  * Copyright (C) 2008-2009 MontaVista Software, Inc. <source@mvista.com>
  */
 
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_data/usb-davinci.h>
-#include <linux/regulator/consumer.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/unaligned.h>
+#include <robux/clk.h>
+#include <robux/gpio/consumer.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_data/usb-davinci.h>
+#include <robux/regulator/consumer.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/unaligned.h>
 
 #include "ohci.h"
 

@@ -8,9 +8,9 @@
  */
 #ifndef _LINUX_HUGETLB_VMEMMAP_H
 #define _LINUX_HUGETLB_VMEMMAP_H
-#include <linux/hugetlb.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
+#include <robux/hugetlb.h>
+#include <robux/io.h>
+#include <robux/memblock.h>
 
 /*
  * Reserve one vmemmap page, all vmemmap addresses are mapped to it. See

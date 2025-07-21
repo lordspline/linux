@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/export.h>
-#include <linux/percpu.h>
-#include <linux/preempt.h>
+#include <robux/export.h>
+#include <robux/percpu.h>
+#include <robux/preempt.h>
 #include <asm/msr.h>
 #define CREATE_TRACE_POINTS
 #include <asm/msr-trace.h>

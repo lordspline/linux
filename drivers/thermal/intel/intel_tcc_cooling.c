@@ -6,10 +6,10 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/intel_tcc.h>
-#include <linux/module.h>
-#include <linux/thermal.h>
+#include <robux/device.h>
+#include <robux/intel_tcc.h>
+#include <robux/module.h>
+#include <robux/thermal.h>
 #include <asm/cpu_device_id.h>
 #include <asm/msr.h>
 

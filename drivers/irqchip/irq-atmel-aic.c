@@ -13,20 +13,20 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/bitmap.h>
-#include <linux/types.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/bitmap.h>
+#include <robux/types.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/io.h>
 
 #include <asm/exception.h>
 #include <asm/mach/irq.h>

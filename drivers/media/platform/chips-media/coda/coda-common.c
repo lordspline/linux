@@ -7,26 +7,26 @@
  *    Xavier Duret
  */
 
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/gcd.h>
-#include <linux/genalloc.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kfifo.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
-#include <linux/ratelimit.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/gcd.h>
+#include <robux/genalloc.h>
+#include <robux/idr.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kfifo.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
+#include <robux/ratelimit.h>
+#include <robux/reset.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

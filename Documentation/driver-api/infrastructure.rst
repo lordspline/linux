@@ -4,17 +4,17 @@ Device drivers infrastructure
 The Basic Device Driver-Model Structures
 ----------------------------------------
 
-.. kernel-doc:: include/linux/device.h
+.. kernel-doc:: include/robux/device.h
    :internal:
    :no-identifiers: device_link_state
 
-.. kernel-doc:: include/linux/device/bus.h
+.. kernel-doc:: include/robux/device/bus.h
    :identifiers: bus_type bus_notifier_event
 
-.. kernel-doc:: include/linux/device/class.h
+.. kernel-doc:: include/robux/device/class.h
    :identifiers: class
 
-.. kernel-doc:: include/linux/device/driver.h
+.. kernel-doc:: include/robux/device/driver.h
    :identifiers: probe_type device_driver
 
 Device Drivers Base
@@ -23,7 +23,7 @@ Device Drivers Base
 .. kernel-doc:: drivers/base/init.c
    :internal:
 
-.. kernel-doc:: include/linux/device/driver.h
+.. kernel-doc:: include/robux/device/driver.h
    :no-identifiers: probe_type device_driver
 
 .. kernel-doc:: drivers/base/driver.c
@@ -35,13 +35,13 @@ Device Drivers Base
 .. kernel-doc:: drivers/base/syscore.c
    :export:
 
-.. kernel-doc:: include/linux/device/class.h
+.. kernel-doc:: include/robux/device/class.h
    :no-identifiers: class
 
 .. kernel-doc:: drivers/base/class.c
    :export:
 
-.. kernel-doc:: include/linux/device/faux.h
+.. kernel-doc:: include/robux/device/faux.h
    :internal:
 
 .. kernel-doc:: drivers/base/faux.c
@@ -56,13 +56,13 @@ Device Drivers Base
 .. kernel-doc:: drivers/base/dd.c
    :export:
 
-.. kernel-doc:: include/linux/platform_device.h
+.. kernel-doc:: include/robux/platform_device.h
    :internal:
 
 .. kernel-doc:: drivers/base/platform.c
    :export:
 
-.. kernel-doc:: include/linux/device/bus.h
+.. kernel-doc:: include/robux/device/bus.h
    :no-identifiers: bus_type bus_notifier_event
 
 .. kernel-doc:: drivers/base/bus.c
@@ -98,6 +98,6 @@ Userspace IO devices
 .. kernel-doc:: drivers/uio/uio.c
    :export:
 
-.. kernel-doc:: include/linux/uio_driver.h
+.. kernel-doc:: include/robux/uio_driver.h
    :internal:
 

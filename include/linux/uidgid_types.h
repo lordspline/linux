@@ -2,7 +2,7 @@
 #ifndef _LINUX_UIDGID_TYPES_H
 #define _LINUX_UIDGID_TYPES_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 typedef struct {
 	uid_t val;

@@ -16,10 +16,10 @@
  * Copyright 1999-2001 Jeff Garzik <jgarzik@pobox.com>
  */
 
-#include <linux/aperture.h>
-#include <linux/iosys-map.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/aperture.h>
+#include <robux/iosys-map.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include <video/cirrus.h>
 #include <video/vga.h>

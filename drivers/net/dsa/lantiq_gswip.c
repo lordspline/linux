@@ -25,23 +25,23 @@
  * between all LAN ports by default.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/etherdevice.h>
-#include <linux/firmware.h>
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/of_platform.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/etherdevice.h>
+#include <robux/firmware.h>
+#include <robux/if_bridge.h>
+#include <robux/if_vlan.h>
+#include <robux/iopoll.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
+#include <robux/of_platform.h>
+#include <robux/phy.h>
+#include <robux/phylink.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 #include <net/dsa.h>
 #include <dt-bindings/mips/lantiq_rcu_gphy.h>
 

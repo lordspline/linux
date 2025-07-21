@@ -66,11 +66,11 @@
  * This implies waiting for previously executed jobs.
  */
 
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/completion.h>
-#include <linux/dma-resv.h>
-#include <uapi/linux/sched/types.h>
+#include <robux/wait.h>
+#include <robux/sched.h>
+#include <robux/completion.h>
+#include <robux/dma-resv.h>
+#include <uapi/robux/sched/types.h>
 
 #include <drm/drm_print.h>
 #include <drm/drm_gem.h>

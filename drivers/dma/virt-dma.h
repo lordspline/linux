@@ -7,8 +7,8 @@
 #ifndef VIRT_DMA_H
 #define VIRT_DMA_H
 
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
+#include <robux/dmaengine.h>
+#include <robux/interrupt.h>
 
 #include "dmaengine.h"
 

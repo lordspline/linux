@@ -6,10 +6,10 @@
 #ifndef __LINUX_USB_OF_H
 #define __LINUX_USB_OF_H
 
-#include <linux/usb.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/phy.h>
+#include <robux/usb.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/otg.h>
+#include <robux/usb/phy.h>
 
 struct usb_device;
 

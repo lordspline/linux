@@ -14,7 +14,7 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/minmax.h>
+#include <robux/minmax.h>
 
 #define CRC_BITS	(8 * sizeof(crc_t))	/* a.k.a. 'n' */
 

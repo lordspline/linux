@@ -24,7 +24,7 @@
 #include "smuio_v14_0_2.h"
 #include "smuio/smuio_14_0_2_offset.h"
 #include "smuio/smuio_14_0_2_sh_mask.h"
-#include <linux/preempt.h>
+#include <robux/preempt.h>
 
 static u32 smuio_v14_0_2_get_rom_index_offset(struct amdgpu_device *adev)
 {

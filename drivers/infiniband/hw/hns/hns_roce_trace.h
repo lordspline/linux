@@ -9,8 +9,8 @@
 #if !defined(__HNS_ROCE_TRACE_H) || defined(TRACE_HEADER_MULTI_READ)
 #define __HNS_ROCE_TRACE_H
 
-#include <linux/tracepoint.h>
-#include <linux/string_choices.h>
+#include <robux/tracepoint.h>
+#include <robux/string_choices.h>
 #include "hns_roce_device.h"
 #include "hns_roce_hw_v2.h"
 

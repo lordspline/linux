@@ -10,13 +10,13 @@
 #define DISABLE_BRANCH_PROFILING
 
 #define __NO_FORTIFY
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/libfdt.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/libfdt.h>
 
 #include <asm/addrspace.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <asm-generic/vmlinux.lds.h>
 
 #include "decompress.h"
@@ -94,8 +94,8 @@ void decompress_kernel(unsigned long boot_heap_start)
 	free_mem_ptr = boot_heap_start;
 	free_mem_end_ptr = boot_heap_start + BOOT_HEAP_SIZE;
 
-	/* Display standard Linux/MIPS boot prompt */
-	puts("Uncompressing Linux at load address ");
+	/* Display standard Robux/MIPS boot prompt */
+	puts("Uncompressing Robux at load address ");
 	puthex(VMLINUX_LOAD_ADDRESS_ULL);
 	puts("\n");
 

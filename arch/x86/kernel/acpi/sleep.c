@@ -6,11 +6,11 @@
  *  Copyright (C) 2001-2003 Pavel Machek <pavel@ucw.cz>
  */
 
-#include <linux/acpi.h>
-#include <linux/memblock.h>
-#include <linux/dmi.h>
-#include <linux/cpumask.h>
-#include <linux/pgtable.h>
+#include <robux/acpi.h>
+#include <robux/memblock.h>
+#include <robux/dmi.h>
+#include <robux/cpumask.h>
+#include <robux/pgtable.h>
 #include <asm/segment.h>
 #include <asm/desc.h>
 #include <asm/cacheflush.h>
@@ -19,7 +19,7 @@
 #include <asm/msr.h>
 #include <asm/smp.h>
 
-#include <linux/ftrace.h>
+#include <robux/ftrace.h>
 #include "../../realmode/rm/wakeup.h"
 #include "sleep.h"
 

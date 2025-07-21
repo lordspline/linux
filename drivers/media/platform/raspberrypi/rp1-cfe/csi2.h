@@ -9,9 +9,9 @@
 #ifndef _RP1_CSI2_
 #define _RP1_CSI2_
 
-#include <linux/debugfs.h>
-#include <linux/io.h>
-#include <linux/types.h>
+#include <robux/debugfs.h>
+#include <robux/io.h>
+#include <robux/types.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-subdev.h>
 

@@ -22,12 +22,12 @@
  * Author: Stanislaw Skowronek
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/string_helpers.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_util.h>

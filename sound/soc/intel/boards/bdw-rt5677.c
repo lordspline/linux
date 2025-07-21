@@ -5,11 +5,11 @@
  * Copyright (c) 2014, The Chromium OS Authors.  All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/delay.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>

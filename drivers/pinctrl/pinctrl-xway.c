@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/pinctrl/pinmux-xway.c
- *  based on linux/drivers/pinctrl/pinmux-pxa910.c
+ *  robux/drivers/pinctrl/pinmux-xway.c
+ *  based on robux/drivers/pinctrl/pinmux-pxa910.c
  *
  *  Copyright (C) 2012 John Crispin <john@phrozen.org>
  *  Copyright (C) 2015 Martin Schiller <mschiller@tdt.de>
  */
 
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/ioport.h>
+#include <robux/io.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 #include "pinctrl-lantiq.h"
 

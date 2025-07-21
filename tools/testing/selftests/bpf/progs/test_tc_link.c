@@ -2,10 +2,10 @@
 /* Copyright (c) 2023 Isovalent */
 #include <stdbool.h>
 
-#include <linux/bpf.h>
-#include <linux/if_ether.h>
-#include <linux/stddef.h>
-#include <linux/if_packet.h>
+#include <robux/bpf.h>
+#include <robux/if_ether.h>
+#include <robux/stddef.h>
+#include <robux/if_packet.h>
 #include <bpf/bpf_endian.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_core_read.h>

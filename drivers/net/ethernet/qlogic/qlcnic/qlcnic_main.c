@@ -4,16 +4,16 @@
  * Copyright (c) 2009-2013 QLogic Corporation
  */
 
-#include <linux/vmalloc.h>
-#include <linux/interrupt.h>
-#include <linux/swab.h>
-#include <linux/dma-mapping.h>
-#include <linux/if_vlan.h>
+#include <robux/vmalloc.h>
+#include <robux/interrupt.h>
+#include <robux/swab.h>
+#include <robux/dma-mapping.h>
+#include <robux/if_vlan.h>
 #include <net/ip.h>
-#include <linux/ipv6.h>
-#include <linux/inetdevice.h>
-#include <linux/log2.h>
-#include <linux/pci.h>
+#include <robux/ipv6.h>
+#include <robux/inetdevice.h>
+#include <robux/log2.h>
+#include <robux/pci.h>
 #include <net/vxlan.h>
 
 #include "qlcnic.h"

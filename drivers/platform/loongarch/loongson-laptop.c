@@ -10,17 +10,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/backlight.h>
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/acpi.h>
+#include <robux/backlight.h>
+#include <robux/device.h>
+#include <robux/input.h>
+#include <robux/input/sparse-keymap.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
+#include <robux/types.h>
 #include <acpi/video.h>
 
 /* 1. Driver-wide structs and misc. variables */

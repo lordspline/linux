@@ -1,29 +1,29 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Driver for the EP93xx pin controller
- * based on linux/drivers/pinctrl/pinmux-gemini.c
+ * based on robux/drivers/pinctrl/pinmux-gemini.c
  *
  * Copyright (C) 2022 Nikita Shubin <nikita.shubin@maquefel.me>
  *
  * This is a group-only pin controller.
  */
-#include <linux/array_size.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <robux/array_size.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
 
-#include <linux/soc/cirrus/ep93xx.h>
+#include <robux/soc/cirrus/ep93xx.h>
 
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/machine.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "pinctrl-utils.h"
 

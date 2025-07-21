@@ -2,16 +2,16 @@
 
 #define pr_fmt(fmt)	"rtas-work-area: " fmt
 
-#include <linux/genalloc.h>
-#include <linux/log2.h>
-#include <linux/kernel.h>
-#include <linux/memblock.h>
-#include <linux/mempool.h>
-#include <linux/minmax.h>
-#include <linux/mutex.h>
-#include <linux/numa.h>
-#include <linux/sizes.h>
-#include <linux/wait.h>
+#include <robux/genalloc.h>
+#include <robux/log2.h>
+#include <robux/kernel.h>
+#include <robux/memblock.h>
+#include <robux/mempool.h>
+#include <robux/minmax.h>
+#include <robux/mutex.h>
+#include <robux/numa.h>
+#include <robux/sizes.h>
+#include <robux/wait.h>
 
 #include <asm/machdep.h>
 #include <asm/rtas-work-area.h>

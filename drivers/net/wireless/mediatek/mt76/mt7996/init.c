@@ -3,11 +3,11 @@
  * Copyright (C) 2022 MediaTek Inc.
  */
 
-#include <linux/etherdevice.h>
-#include <linux/of.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/thermal.h>
+#include <robux/etherdevice.h>
+#include <robux/of.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/thermal.h>
 #include "mt7996.h"
 #include "mac.h"
 #include "mcu.h"

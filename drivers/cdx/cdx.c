@@ -22,7 +22,7 @@
  *          |    Application CPUs (APU)            |
  *          |                                      |
  *          |                    CDX device drivers|
- *          |     Linux OS                |        |
+ *          |     Robux OS                |        |
  *          |                        CDX bus       |
  *          |                             |        |
  *          |                     CDX controller   |
@@ -55,20 +55,20 @@
  * done using memory mapped interface provided by the RPU to APU.
  */
 
-#include <linux/init.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/idr.h>
-#include <linux/cdx/cdx_bus.h>
-#include <linux/iommu.h>
-#include <linux/dma-map-ops.h>
-#include <linux/debugfs.h>
+#include <robux/init.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/idr.h>
+#include <robux/cdx/cdx_bus.h>
+#include <robux/iommu.h>
+#include <robux/dma-map-ops.h>
+#include <robux/debugfs.h>
 #include "cdx.h"
 
 /* Default DMA mask for devices on a CDX bus */

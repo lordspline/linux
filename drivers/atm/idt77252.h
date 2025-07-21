@@ -30,10 +30,10 @@
 #define _IDT77252_H 1
 
 
-#include <linux/ptrace.h>
-#include <linux/skbuff.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
+#include <robux/ptrace.h>
+#include <robux/skbuff.h>
+#include <robux/workqueue.h>
+#include <robux/mutex.h>
 
 /*****************************************************************************/
 /*                                                                           */

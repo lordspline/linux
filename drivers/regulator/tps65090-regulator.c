@@ -6,18 +6,18 @@
 
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/tps65090.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/gpio/consumer.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/mfd/tps65090.h>
 
 #define MAX_CTRL_READ_TRIES	5
 #define MAX_FET_ENABLE_TRIES	1000

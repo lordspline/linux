@@ -4,7 +4,7 @@
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include <linux/log2.h>
+#include <robux/log2.h>
 
 #include "type_support.h"
 #include "math_support.h"

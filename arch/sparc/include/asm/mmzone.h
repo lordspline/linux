@@ -4,7 +4,7 @@
 
 #ifdef CONFIG_NUMA
 
-#include <linux/cpumask.h>
+#include <robux/cpumask.h>
 
 extern int numa_cpu_lookup_table[];
 extern cpumask_t numa_cpumask_lookup_table[];

@@ -6,18 +6,18 @@
  *
  * Copyright (C) 2007 - 2010  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/smc91x.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/usb/r8a66597.h>
-#include <linux/usb/m66592.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio_keys.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/smc91x.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/usb/r8a66597.h>
+#include <robux/usb/m66592.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio_keys.h>
 #include <mach/ilsel.h>
 #include <mach/hardware.h>
 #include <asm/smp-ops.h>

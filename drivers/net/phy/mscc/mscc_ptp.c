@@ -7,15 +7,15 @@
  * Copyright (c) 2020 Microsemi Corporation
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/ip.h>
-#include <linux/net_tstamp.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/ptp_classify.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/udp.h>
-#include <linux/unaligned.h>
+#include <robux/gpio/consumer.h>
+#include <robux/ip.h>
+#include <robux/net_tstamp.h>
+#include <robux/mii.h>
+#include <robux/phy.h>
+#include <robux/ptp_classify.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/udp.h>
+#include <robux/unaligned.h>
 
 #include "../phylib.h"
 #include "mscc.h"

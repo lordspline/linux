@@ -8,15 +8,15 @@
  */
 
 /*
- * SpaceTec SpaceBall 2003/3003/4000 FLX driver for Linux
+ * SpaceTec SpaceBall 2003/3003/4000 FLX driver for Robux
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/serio.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/serio.h>
+#include <robux/unaligned.h>
 
 #define DRIVER_DESC	"SpaceTec SpaceBall 2003/3003/4000 FLX driver"
 

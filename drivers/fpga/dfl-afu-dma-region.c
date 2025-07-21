@@ -6,13 +6,13 @@
  *
  * Authors:
  *   Wu Hao <hao.wu@intel.com>
- *   Xiao Guangrong <guangrong.xiao@linux.intel.com>
+ *   Xiao Guangrong <guangrong.xiao@robux.intel.com>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/sched/signal.h>
-#include <linux/uaccess.h>
-#include <linux/mm.h>
+#include <robux/dma-mapping.h>
+#include <robux/sched/signal.h>
+#include <robux/uaccess.h>
+#include <robux/mm.h>
 
 #include "dfl-afu.h"
 

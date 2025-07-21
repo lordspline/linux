@@ -8,20 +8,20 @@
  * Copyright (C) 1998 Harald Koerfgen
  * Copyright (C) 2000, 2001, 2002, 2003, 2005, 2020  Maciej W. Rozycki
  */
-#include <linux/console.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/irqnr.h>
-#include <linux/memblock.h>
-#include <linux/param.h>
-#include <linux/percpu-defs.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/pm.h>
+#include <robux/console.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/irq.h>
+#include <robux/irqnr.h>
+#include <robux/memblock.h>
+#include <robux/param.h>
+#include <robux/percpu-defs.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/pm.h>
 
 #include <asm/addrspace.h>
 #include <asm/bootinfo.h>

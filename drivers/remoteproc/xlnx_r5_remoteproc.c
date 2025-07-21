@@ -5,17 +5,17 @@
  */
 
 #include <dt-bindings/power/xlnx-zynqmp-power.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware/xlnx-zynqmp.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_client.h>
-#include <linux/mailbox/zynqmp-ipi-message.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc.h>
+#include <robux/dma-mapping.h>
+#include <robux/firmware/xlnx-zynqmp.h>
+#include <robux/kernel.h>
+#include <robux/mailbox_client.h>
+#include <robux/mailbox/zynqmp-ipi-message.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/remoteproc.h>
 
 #include "remoteproc_internal.h"
 

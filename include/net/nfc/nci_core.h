@@ -17,9 +17,9 @@
 #ifndef __NCI_CORE_H
 #define __NCI_CORE_H
 
-#include <linux/interrupt.h>
-#include <linux/skbuff.h>
-#include <linux/tty.h>
+#include <robux/interrupt.h>
+#include <robux/skbuff.h>
+#include <robux/tty.h>
 
 #include <net/nfc/nfc.h>
 #include <net/nfc/nci.h>

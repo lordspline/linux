@@ -8,8 +8,8 @@
  * Copyright (C) 2014 Cadence Design Systems Inc.
  */
 
-#include <linux/export.h>
-#include <linux/highmem.h>
+#include <robux/export.h>
+#include <robux/highmem.h>
 #include <asm/tlbflush.h>
 
 #if DCACHE_WAY_SIZE > PAGE_SIZE

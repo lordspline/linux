@@ -8,11 +8,11 @@
  * Copyright 2009-2010 Canonical Ltd.
  */
 
-#include <linux/tty.h>
-#include <linux/fdtable.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
+#include <robux/tty.h>
+#include <robux/fdtable.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/mount.h>
 
 #include "include/apparmor.h"
 #include "include/audit.h"

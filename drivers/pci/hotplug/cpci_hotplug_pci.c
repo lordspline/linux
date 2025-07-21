@@ -9,11 +9,11 @@
  * Send feedback to <scottm@somanetworks.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/proc_fs.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/pci_hotplug.h>
+#include <robux/proc_fs.h>
 #include "../pci.h"
 #include "cpci_hotplug.h"
 

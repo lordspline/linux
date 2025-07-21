@@ -5,9 +5,9 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/tea6330t.h>

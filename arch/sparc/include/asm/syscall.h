@@ -2,10 +2,10 @@
 #ifndef __ASM_SPARC_SYSCALL_H
 #define __ASM_SPARC_SYSCALL_H
 
-#include <uapi/linux/audit.h>
-#include <linux/kernel.h>
-#include <linux/compat.h>
-#include <linux/sched.h>
+#include <uapi/robux/audit.h>
+#include <robux/kernel.h>
+#include <robux/compat.h>
+#include <robux/sched.h>
 #include <asm/ptrace.h>
 #include <asm/thread_info.h>
 

@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2017-2018, The Linux foundation. All rights reserved.
+// Copyright (c) 2017-2018, The Robux foundation. All rights reserved.
 
 /* Disable MMIO tracing to prevent excessive logging of unwanted MMIO traces */
 #define __DISABLE_TRACE_MMIO__
 
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_opp.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/soc/qcom/geni-se.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <robux/clk.h>
+#include <robux/console.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm_opp.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/soc/qcom/geni-se.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
 #include <dt-bindings/interconnect/qcom,icc.h>
 
 /* UART specific GENI registers */

@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2016-2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2016-2019, The Robux Foundation. All rights reserved.
  * Copyright (c) 2020 Linaro Ltd.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/gpio/driver.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "../pinctrl-utils.h"
 

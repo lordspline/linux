@@ -16,16 +16,16 @@
  * Copyright 2005 Openedhand Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/clk.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
 
-#include <linux/atmel-ssc.h>
+#include <robux/atmel-ssc.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

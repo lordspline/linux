@@ -33,14 +33,14 @@
  *   it will automatically switch back to GPIO mode.
  */
 
-#include <linux/bitfield.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/pwm.h>
+#include <robux/regmap.h>
 
 /*
  * PWM timer block registers.

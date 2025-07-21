@@ -15,9 +15,9 @@
 #ifndef _TPM_SVSM_H_
 #define _TPM_SVSM_H_
 
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #define SVSM_VTPM_MAX_BUFFER		4096 /* max req/resp buffer size */
 

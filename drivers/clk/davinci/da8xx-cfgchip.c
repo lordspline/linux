@@ -5,18 +5,18 @@
  * Copyright (C) 2018 David Lechner <david@lechnology.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/init.h>
-#include <linux/mfd/da8xx-cfgchip.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_data/clk-da8xx-cfgchip.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/init.h>
+#include <robux/mfd/da8xx-cfgchip.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/platform_data/clk-da8xx-cfgchip.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 /* --- Gate clocks --- */
 

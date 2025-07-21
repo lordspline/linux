@@ -14,11 +14,11 @@
 #include <string.h>
 #include <errno.h>
 #include <limits.h>
-#include <linux/capability.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/time64.h>
-#include <linux/overflow.h>
+#include <robux/capability.h>
+#include <robux/kernel.h>
+#include <robux/log2.h>
+#include <robux/time64.h>
+#include <robux/overflow.h>
 #include <unistd.h>
 #include "cap.h"
 #include "strlist.h"

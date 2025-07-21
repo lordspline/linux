@@ -11,14 +11,14 @@
  * legacy nodes instead.
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/platform_data/simplefb.h>
-#include <linux/platform_device.h>
-#include <linux/screen_info.h>
-#include <linux/sysfb.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/platform_data/simplefb.h>
+#include <robux/platform_device.h>
+#include <robux/screen_info.h>
+#include <robux/sysfb.h>
 
 static const char simplefb_resname[] = "BOOTFB";
 static const struct simplefb_format formats[] = SIMPLEFB_FORMATS;

@@ -9,15 +9,15 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/gcd.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/gcd.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 
 /* 0x000 - 0x00d System Functions */
 #define LMK04832_REG_RST3W		0x000

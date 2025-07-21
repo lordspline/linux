@@ -5,11 +5,11 @@
  * (c) 2007 Michael Krufky
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 #include <asm/types.h>
-#include <linux/dvb/frontend.h>
-#include <linux/videodev2.h>
+#include <robux/dvb/frontend.h>
+#include <robux/videodev2.h>
 
 #include "tda827x.h"
 

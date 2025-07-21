@@ -3,13 +3,13 @@
 #ifndef __LAN966X_MAIN_H__
 #define __LAN966X_MAIN_H__
 
-#include <linux/debugfs.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/jiffies.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/ptp_clock_kernel.h>
+#include <robux/debugfs.h>
+#include <robux/etherdevice.h>
+#include <robux/if_vlan.h>
+#include <robux/jiffies.h>
+#include <robux/phy.h>
+#include <robux/phylink.h>
+#include <robux/ptp_clock_kernel.h>
 #include <net/page_pool/types.h>
 #include <net/pkt_cls.h>
 #include <net/pkt_sched.h>

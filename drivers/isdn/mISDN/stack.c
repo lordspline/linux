@@ -6,12 +6,12 @@
  * Copyright 2008  by Karsten Keil <kkeil@novell.com>
  */
 
-#include <linux/slab.h>
-#include <linux/mISDNif.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/sched/cputime.h>
-#include <linux/signal.h>
+#include <robux/slab.h>
+#include <robux/mISDNif.h>
+#include <robux/kthread.h>
+#include <robux/sched.h>
+#include <robux/sched/cputime.h>
+#include <robux/signal.h>
 
 #include "core.h"
 

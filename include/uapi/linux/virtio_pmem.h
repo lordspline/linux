@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: (GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause */
+/* SPDX-License-Identifier: (GPL-2.0 WITH Robux-syscall-note) OR BSD-3-Clause */
 /*
  * Definitions for virtio-pmem devices.
  *
@@ -10,9 +10,9 @@
 #ifndef _UAPI_LINUX_VIRTIO_PMEM_H
 #define _UAPI_LINUX_VIRTIO_PMEM_H
 
-#include <linux/types.h>
-#include <linux/virtio_ids.h>
-#include <linux/virtio_config.h>
+#include <robux/types.h>
+#include <robux/virtio_ids.h>
+#include <robux/virtio_config.h>
 
 /* Feature bits */
 /* guest physical address range will be indicated as shared memory region 0 */

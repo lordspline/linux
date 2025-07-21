@@ -6,21 +6,21 @@
  * 	Mike Rapoport <mike@compulab.co.il>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/workqueue.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/string_choices.h>
-#include <linux/mfd/da903x.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/workqueue.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/string_choices.h>
+#include <robux/mfd/da903x.h>
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/notifier.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/notifier.h>
 
 #define DA9030_FAULT_LOG		0x0a
 #define DA9030_FAULT_LOG_OVER_TEMP	(1 << 7)

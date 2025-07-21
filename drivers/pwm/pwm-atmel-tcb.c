@@ -5,23 +5,23 @@
  * Author: Boris BREZILLON <b.brezillon@overkiz.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/clocksource.h>
+#include <robux/clockchips.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/ioport.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 #include <soc/at91/atmel_tcb.h>
 
 #define NPWM	2

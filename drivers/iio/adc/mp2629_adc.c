@@ -7,15 +7,15 @@
  * Author: Saravanan Sekar <sravanhome@gmail.com>
  */
 
-#include <linux/iio/driver.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/machine.h>
-#include <linux/mfd/mp2629.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/iio/driver.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/machine.h>
+#include <robux/mfd/mp2629.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define	MP2629_REG_ADC_CTRL		0x03
 #define	MP2629_REG_BATT_VOLT		0x0e

@@ -7,11 +7,11 @@
 #include "pvr_fw_trace.h"
 #include "pvr_params.h"
 
-#include <linux/dcache.h>
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <robux/dcache.h>
+#include <robux/debugfs.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_file.h>

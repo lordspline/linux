@@ -4,18 +4,18 @@
  * Author:Mark Yao <mark.yao@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/delay.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/log2.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/overflow.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 
 #include <drm/drm.h>
 #include <drm/drm_atomic.h>

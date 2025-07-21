@@ -4,13 +4,13 @@
  * Author: Gregory CLEMENT <gregory.clement@free-electrons.com>
  */
 
-#include <linux/io.h>
-#include <linux/mbus.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/mbus.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
 
 #include "xhci-mvebu.h"
 #include "xhci.h"

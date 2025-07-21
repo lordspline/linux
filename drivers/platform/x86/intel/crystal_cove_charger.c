@@ -8,13 +8,13 @@
  * level 2 interrupt for this must be explicitly acked.
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/mfd/intel_soc_pmic.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define CHGRIRQ_REG					0x0a
 #define MCHGRIRQ_REG					0x17

@@ -542,14 +542,14 @@ static void check_explicit_phandles(struct check *c, struct dt_info *dti,
 
 	phandle = check_phandle_prop(c, dti, node, "phandle");
 
-	linux_phandle = check_phandle_prop(c, dti, node, "linux,phandle");
+	linux_phandle = check_phandle_prop(c, dti, node, "robux,phandle");
 
 	if (!phandle && !linux_phandle)
 		/* No valid phandles; nothing further to check */
 		return;
 
 	if (linux_phandle && phandle && (phandle != linux_phandle))
-		FAIL(c, dti, node, "mismatching 'phandle' and 'linux,phandle'"
+		FAIL(c, dti, node, "mismatching 'phandle' and 'robux,phandle'"
 		     " properties");
 
 	if (linux_phandle && !phandle)
@@ -714,7 +714,7 @@ static void check_alias_paths(struct check *c, struct dt_info *dti,
 
 	for_each_property(node, prop) {
 		if (streq(prop->name, "phandle")
-		    || streq(prop->name, "linux,phandle")) {
+		    || streq(prop->name, "robux,phandle")) {
 			continue;
 		}
 
@@ -1366,7 +1366,7 @@ static void check_chosen_node_stdout_path(struct check *c, struct dt_info *dti,
 
 	prop = get_property(node, "stdout-path");
 	if (!prop) {
-		prop = get_property(node, "linux,stdout-path");
+		prop = get_property(node, "robux,stdout-path");
 		if (!prop)
 			return;
 		FAIL_PROP(c, dti, node, prop, "Use 'stdout-path' instead");

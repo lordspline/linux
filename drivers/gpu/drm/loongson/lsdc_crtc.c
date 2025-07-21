@@ -3,8 +3,8 @@
  * Copyright (C) 2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

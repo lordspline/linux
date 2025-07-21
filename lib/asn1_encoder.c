@@ -5,10 +5,10 @@
  * Copyright (C) 2019 James.Bottomley@HansenPartnership.com
  */
 
-#include <linux/asn1_encoder.h>
-#include <linux/bug.h>
-#include <linux/string.h>
-#include <linux/module.h>
+#include <robux/asn1_encoder.h>
+#include <robux/bug.h>
+#include <robux/string.h>
+#include <robux/module.h>
 
 /**
  * asn1_encode_integer() - encode positive integer to ASN.1

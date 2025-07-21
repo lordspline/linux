@@ -8,9 +8,9 @@
 #ifndef _RP1_CFE_
 #define _RP1_CFE_
 
-#include <linux/media-bus-format.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <robux/media-bus-format.h>
+#include <robux/types.h>
+#include <robux/videodev2.h>
 
 extern bool cfe_debug_verbose;
 

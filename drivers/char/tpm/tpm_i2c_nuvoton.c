@@ -12,15 +12,15 @@
  * Nuvoton contact information: APC.Support@nuvoton.com
  *****************************************************************************/
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/wait.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/property.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/wait.h>
+#include <robux/i2c.h>
+#include <robux/of.h>
+#include <robux/property.h>
 #include "tpm.h"
 
 /* I2C interface offsets */

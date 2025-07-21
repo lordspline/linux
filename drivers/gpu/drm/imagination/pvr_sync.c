@@ -5,8 +5,8 @@
 
 #include <drm/drm_syncobj.h>
 #include <drm/gpu_scheduler.h>
-#include <linux/xarray.h>
-#include <linux/dma-fence-unwrap.h>
+#include <robux/xarray.h>
+#include <robux/dma-fence-unwrap.h>
 
 #include "pvr_device.h"
 #include "pvr_queue.h"

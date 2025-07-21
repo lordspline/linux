@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2018-2019 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019 The Robux Foundation. All rights reserved.
  * Copyright (c) 2021-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/elf.h>
+#include <robux/elf.h>
 
 #include "qmi.h"
 #include "core.h"
 #include "debug.h"
 #include "hif.h"
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/ioport.h>
-#include <linux/firmware.h>
-#include <linux/of_irq.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/ioport.h>
+#include <robux/firmware.h>
+#include <robux/of_irq.h>
 
 #define SLEEP_CLOCK_SELECT_INTERNAL_BIT	0x02
 #define HOST_CSTATE_BIT			0x04

@@ -8,16 +8,16 @@
  *
  */
 
-#include <linux/slab.h>
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/mtd/mtd.h>
-#include <linux/spi/spi.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/mailbox_client.h>
-#include <linux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/kref.h>
+#include <robux/module.h>
+#include <robux/jiffies.h>
+#include <robux/mtd/mtd.h>
+#include <robux/spi/spi.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/mailbox_client.h>
+#include <robux/platform_device.h>
 #include <soc/microchip/mpfs.h>
 
 /*

@@ -1,19 +1,19 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (c) 2018-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2020, The Robux Foundation. All rights reserved.
  *
  */
 #ifndef _MHI_H_
 #define _MHI_H_
 
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/mutex.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <robux/device.h>
+#include <robux/dma-direction.h>
+#include <robux/mutex.h>
+#include <robux/skbuff.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
 
 #define MHI_MAX_OEM_PK_HASH_SEGMENTS 16
 

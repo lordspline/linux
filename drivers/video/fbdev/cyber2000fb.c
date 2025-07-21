@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/video/cyber2000fb.c
+ *  robux/drivers/video/cyber2000fb.c
  *
  *  Copyright (C) 1998-2002 Russell King
  *
@@ -33,20 +33,20 @@
  * (which, incidentally, is about the same saving as a 2.5in hard disk
  * entering standby mode.)
  */
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/fb.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/i2c.h>
+#include <robux/i2c-algo-bit.h>
 
 #ifdef __arm__
 #include <asm/mach-types.h>

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Written for linux by Johan Myreen as a translation from
+ * Written for robux by Johan Myreen as a translation from
  * the assembly version by Linus (with diacriticals added)
  *
  * Some additional features added by Christoph Niemann (ChN), March 1993
@@ -25,27 +25,27 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/consolemap.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/jiffies.h>
-#include <linux/kbd_diacr.h>
-#include <linux/kbd_kern.h>
-#include <linux/leds.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/nospec.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/tty_flip.h>
-#include <linux/tty.h>
-#include <linux/uaccess.h>
-#include <linux/vt_kern.h>
+#include <robux/consolemap.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/jiffies.h>
+#include <robux/kbd_diacr.h>
+#include <robux/kbd_kern.h>
+#include <robux/leds.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/nospec.h>
+#include <robux/notifier.h>
+#include <robux/reboot.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/tty_flip.h>
+#include <robux/tty.h>
+#include <robux/uaccess.h>
+#include <robux/vt_kern.h>
 
 #include <asm/irq_regs.h>
 

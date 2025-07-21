@@ -1,5 +1,5 @@
 /*
- * Generic linux-input device driver for keyboard devices
+ * Generic robux-input device driver for keyboard devices
  *
  * Copyright (c) 2001 Brian S. Julin
  * All rights reserved.
@@ -31,14 +31,14 @@
  *
  */
 
-#include <linux/hil.h>
-#include <linux/input.h>
-#include <linux/serio.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/completion.h>
-#include <linux/slab.h>
-#include <linux/pci_ids.h>
+#include <robux/hil.h>
+#include <robux/input.h>
+#include <robux/serio.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/completion.h>
+#include <robux/slab.h>
+#include <robux/pci_ids.h>
 
 #define PREFIX "HIL: "
 

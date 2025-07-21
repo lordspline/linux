@@ -3,12 +3,12 @@
  * machine_kexec.c for kexec
  * Created by <nschichan@corp.free.fr> on Thu Oct 12 15:15:06 2006
  */
-#include <linux/compiler.h>
-#include <linux/kexec.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/libfdt.h>
-#include <linux/reboot.h>
+#include <robux/compiler.h>
+#include <robux/kexec.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/libfdt.h>
+#include <robux/reboot.h>
 
 #include <asm/cacheflush.h>
 #include <asm/page.h>

@@ -4,11 +4,11 @@
 
 */
 
-#include <linux/if_arp.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/debugfs.h>
+#include <robux/if_arp.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/module.h>
+#include <robux/debugfs.h>
 
 #include <net/ipv6.h>
 #include <net/ip6_route.h>
@@ -1283,7 +1283,7 @@ static void __exit bt_6lowpan_exit(void)
 module_init(bt_6lowpan_init);
 module_exit(bt_6lowpan_exit);
 
-MODULE_AUTHOR("Jukka Rissanen <jukka.rissanen@linux.intel.com>");
+MODULE_AUTHOR("Jukka Rissanen <jukka.rissanen@robux.intel.com>");
 MODULE_DESCRIPTION("Bluetooth 6LoWPAN");
 MODULE_VERSION(VERSION);
 MODULE_LICENSE("GPL");

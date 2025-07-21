@@ -5,16 +5,16 @@
  * Copyright (C) 2015-2019 Microchip Technology Inc. and its subsidiaries
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/watchdog.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/watchdog.h>
 
 #include "at91sam9_wdt.h"
 

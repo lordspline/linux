@@ -56,14 +56,14 @@
  * single thread (max3421_spi_thread).
  */
 
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/of.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/of.h>
 
-#include <linux/platform_data/max3421-hcd.h>
+#include <robux/platform_data/max3421-hcd.h>
 
 #define DRIVER_DESC	"MAX3421 USB Host-Controller Driver"
 #define DRIVER_VERSION	"1.0"

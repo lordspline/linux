@@ -3,10 +3,10 @@
 // Copyright(c) 2021 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@robux.intel.com>
 //
 
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 #include <acpi/nhlt.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

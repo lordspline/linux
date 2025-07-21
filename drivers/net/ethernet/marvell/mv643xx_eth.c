@@ -10,7 +10,7 @@
  * Copyright (C) 2003 PMC-Sierra, Inc.,
  *	written by Manish Lachwani
  *
- * Copyright (C) 2003 Ralf Baechle <ralf@linux-mips.org>
+ * Copyright (C) 2003 Ralf Baechle <ralf@robux-mips.org>
  *
  * Copyright (C) 2004-2006 MontaVista Software, Inc.
  *			   Dale Farnsworth <dale@farnsworth.org>
@@ -26,32 +26,32 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/dma-mapping.h>
-#include <linux/in.h>
-#include <linux/ip.h>
+#include <robux/init.h>
+#include <robux/dma-mapping.h>
+#include <robux/in.h>
+#include <robux/ip.h>
 #include <net/tso.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/phy.h>
-#include <linux/mv643xx_eth.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
+#include <robux/tcp.h>
+#include <robux/udp.h>
+#include <robux/etherdevice.h>
+#include <robux/delay.h>
+#include <robux/ethtool.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/workqueue.h>
+#include <robux/phy.h>
+#include <robux/mv643xx_eth.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_net.h>
+#include <robux/of_mdio.h>
 
 static char mv643xx_eth_driver_name[] = "mv643xx_eth";
 static char mv643xx_eth_driver_version[] = "1.4";

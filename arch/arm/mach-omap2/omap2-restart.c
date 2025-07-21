@@ -5,10 +5,10 @@
  * Copyright (C) 2012 Texas Instruments
  * Paul Walmsley
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/clk.h>
+#include <robux/io.h>
 
 #include "soc.h"
 #include "common.h"

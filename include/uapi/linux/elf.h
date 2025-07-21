@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI_LINUX_ELF_H
 #define _UAPI_LINUX_ELF_H
 
-#include <linux/types.h>
-#include <linux/elf-em.h>
+#include <robux/types.h>
+#include <robux/elf-em.h>
 
 /* 32-bit ELF base types. */
 typedef __u32	Elf32_Addr;
@@ -414,150 +414,150 @@ typedef struct elf64_shdr {
 #define NT_SIGINFO      0x53494749
 #define NN_FILE         "CORE"
 #define NT_FILE         0x46494c45
-#define NN_PRXFPREG     "LINUX"
+#define NN_PRXFPREG     "ROBUX"
 #define NT_PRXFPREG     0x46e62b7f      /* copied from gdb5.1/include/elf/common.h */
-#define NN_PPC_VMX	"LINUX"
+#define NN_PPC_VMX	"ROBUX"
 #define NT_PPC_VMX	0x100		/* PowerPC Altivec/VMX registers */
-#define NN_PPC_SPE	"LINUX"
+#define NN_PPC_SPE	"ROBUX"
 #define NT_PPC_SPE	0x101		/* PowerPC SPE/EVR registers */
-#define NN_PPC_VSX	"LINUX"
+#define NN_PPC_VSX	"ROBUX"
 #define NT_PPC_VSX	0x102		/* PowerPC VSX registers */
-#define NN_PPC_TAR	"LINUX"
+#define NN_PPC_TAR	"ROBUX"
 #define NT_PPC_TAR	0x103		/* Target Address Register */
-#define NN_PPC_PPR	"LINUX"
+#define NN_PPC_PPR	"ROBUX"
 #define NT_PPC_PPR	0x104		/* Program Priority Register */
-#define NN_PPC_DSCR	"LINUX"
+#define NN_PPC_DSCR	"ROBUX"
 #define NT_PPC_DSCR	0x105		/* Data Stream Control Register */
-#define NN_PPC_EBB	"LINUX"
+#define NN_PPC_EBB	"ROBUX"
 #define NT_PPC_EBB	0x106		/* Event Based Branch Registers */
-#define NN_PPC_PMU	"LINUX"
+#define NN_PPC_PMU	"ROBUX"
 #define NT_PPC_PMU	0x107		/* Performance Monitor Registers */
-#define NN_PPC_TM_CGPR	"LINUX"
+#define NN_PPC_TM_CGPR	"ROBUX"
 #define NT_PPC_TM_CGPR	0x108		/* TM checkpointed GPR Registers */
-#define NN_PPC_TM_CFPR	"LINUX"
+#define NN_PPC_TM_CFPR	"ROBUX"
 #define NT_PPC_TM_CFPR	0x109		/* TM checkpointed FPR Registers */
-#define NN_PPC_TM_CVMX	"LINUX"
+#define NN_PPC_TM_CVMX	"ROBUX"
 #define NT_PPC_TM_CVMX	0x10a		/* TM checkpointed VMX Registers */
-#define NN_PPC_TM_CVSX	"LINUX"
+#define NN_PPC_TM_CVSX	"ROBUX"
 #define NT_PPC_TM_CVSX	0x10b		/* TM checkpointed VSX Registers */
-#define NN_PPC_TM_SPR	"LINUX"
+#define NN_PPC_TM_SPR	"ROBUX"
 #define NT_PPC_TM_SPR	0x10c		/* TM Special Purpose Registers */
-#define NN_PPC_TM_CTAR	"LINUX"
+#define NN_PPC_TM_CTAR	"ROBUX"
 #define NT_PPC_TM_CTAR	0x10d		/* TM checkpointed Target Address Register */
-#define NN_PPC_TM_CPPR	"LINUX"
+#define NN_PPC_TM_CPPR	"ROBUX"
 #define NT_PPC_TM_CPPR	0x10e		/* TM checkpointed Program Priority Register */
-#define NN_PPC_TM_CDSCR	"LINUX"
+#define NN_PPC_TM_CDSCR	"ROBUX"
 #define NT_PPC_TM_CDSCR	0x10f		/* TM checkpointed Data Stream Control Register */
-#define NN_PPC_PKEY	"LINUX"
+#define NN_PPC_PKEY	"ROBUX"
 #define NT_PPC_PKEY	0x110		/* Memory Protection Keys registers */
-#define NN_PPC_DEXCR	"LINUX"
+#define NN_PPC_DEXCR	"ROBUX"
 #define NT_PPC_DEXCR	0x111		/* PowerPC DEXCR registers */
-#define NN_PPC_HASHKEYR	"LINUX"
+#define NN_PPC_HASHKEYR	"ROBUX"
 #define NT_PPC_HASHKEYR	0x112		/* PowerPC HASHKEYR register */
-#define NN_386_TLS	"LINUX"
+#define NN_386_TLS	"ROBUX"
 #define NT_386_TLS	0x200		/* i386 TLS slots (struct user_desc) */
-#define NN_386_IOPERM	"LINUX"
+#define NN_386_IOPERM	"ROBUX"
 #define NT_386_IOPERM	0x201		/* x86 io permission bitmap (1=deny) */
-#define NN_X86_XSTATE	"LINUX"
+#define NN_X86_XSTATE	"ROBUX"
 #define NT_X86_XSTATE	0x202		/* x86 extended state using xsave */
 /* Old binutils treats 0x203 as a CET state */
-#define NN_X86_SHSTK	"LINUX"
+#define NN_X86_SHSTK	"ROBUX"
 #define NT_X86_SHSTK	0x204		/* x86 SHSTK state */
-#define NN_X86_XSAVE_LAYOUT	"LINUX"
+#define NN_X86_XSAVE_LAYOUT	"ROBUX"
 #define NT_X86_XSAVE_LAYOUT	0x205	/* XSAVE layout description */
-#define NN_S390_HIGH_GPRS	"LINUX"
+#define NN_S390_HIGH_GPRS	"ROBUX"
 #define NT_S390_HIGH_GPRS	0x300	/* s390 upper register halves */
-#define NN_S390_TIMER	"LINUX"
+#define NN_S390_TIMER	"ROBUX"
 #define NT_S390_TIMER	0x301		/* s390 timer register */
-#define NN_S390_TODCMP	"LINUX"
+#define NN_S390_TODCMP	"ROBUX"
 #define NT_S390_TODCMP	0x302		/* s390 TOD clock comparator register */
-#define NN_S390_TODPREG	"LINUX"
+#define NN_S390_TODPREG	"ROBUX"
 #define NT_S390_TODPREG	0x303		/* s390 TOD programmable register */
-#define NN_S390_CTRS	"LINUX"
+#define NN_S390_CTRS	"ROBUX"
 #define NT_S390_CTRS	0x304		/* s390 control registers */
-#define NN_S390_PREFIX	"LINUX"
+#define NN_S390_PREFIX	"ROBUX"
 #define NT_S390_PREFIX	0x305		/* s390 prefix register */
-#define NN_S390_LAST_BREAK	"LINUX"
+#define NN_S390_LAST_BREAK	"ROBUX"
 #define NT_S390_LAST_BREAK	0x306	/* s390 breaking event address */
-#define NN_S390_SYSTEM_CALL	"LINUX"
+#define NN_S390_SYSTEM_CALL	"ROBUX"
 #define NT_S390_SYSTEM_CALL	0x307	/* s390 system call restart data */
-#define NN_S390_TDB	"LINUX"
+#define NN_S390_TDB	"ROBUX"
 #define NT_S390_TDB	0x308		/* s390 transaction diagnostic block */
-#define NN_S390_VXRS_LOW	"LINUX"
+#define NN_S390_VXRS_LOW	"ROBUX"
 #define NT_S390_VXRS_LOW	0x309	/* s390 vector registers 0-15 upper half */
-#define NN_S390_VXRS_HIGH	"LINUX"
+#define NN_S390_VXRS_HIGH	"ROBUX"
 #define NT_S390_VXRS_HIGH	0x30a	/* s390 vector registers 16-31 */
-#define NN_S390_GS_CB	"LINUX"
+#define NN_S390_GS_CB	"ROBUX"
 #define NT_S390_GS_CB	0x30b		/* s390 guarded storage registers */
-#define NN_S390_GS_BC	"LINUX"
+#define NN_S390_GS_BC	"ROBUX"
 #define NT_S390_GS_BC	0x30c		/* s390 guarded storage broadcast control block */
-#define NN_S390_RI_CB	"LINUX"
+#define NN_S390_RI_CB	"ROBUX"
 #define NT_S390_RI_CB	0x30d		/* s390 runtime instrumentation */
-#define NN_S390_PV_CPU_DATA	"LINUX"
+#define NN_S390_PV_CPU_DATA	"ROBUX"
 #define NT_S390_PV_CPU_DATA	0x30e	/* s390 protvirt cpu dump data */
-#define NN_ARM_VFP	"LINUX"
+#define NN_ARM_VFP	"ROBUX"
 #define NT_ARM_VFP	0x400		/* ARM VFP/NEON registers */
-#define NN_ARM_TLS	"LINUX"
+#define NN_ARM_TLS	"ROBUX"
 #define NT_ARM_TLS	0x401		/* ARM TLS register */
-#define NN_ARM_HW_BREAK	"LINUX"
+#define NN_ARM_HW_BREAK	"ROBUX"
 #define NT_ARM_HW_BREAK	0x402		/* ARM hardware breakpoint registers */
-#define NN_ARM_HW_WATCH	"LINUX"
+#define NN_ARM_HW_WATCH	"ROBUX"
 #define NT_ARM_HW_WATCH	0x403		/* ARM hardware watchpoint registers */
-#define NN_ARM_SYSTEM_CALL	"LINUX"
+#define NN_ARM_SYSTEM_CALL	"ROBUX"
 #define NT_ARM_SYSTEM_CALL	0x404	/* ARM system call number */
-#define NN_ARM_SVE	"LINUX"
+#define NN_ARM_SVE	"ROBUX"
 #define NT_ARM_SVE	0x405		/* ARM Scalable Vector Extension registers */
-#define NN_ARM_PAC_MASK		"LINUX"
+#define NN_ARM_PAC_MASK		"ROBUX"
 #define NT_ARM_PAC_MASK		0x406	/* ARM pointer authentication code masks */
-#define NN_ARM_PACA_KEYS	"LINUX"
+#define NN_ARM_PACA_KEYS	"ROBUX"
 #define NT_ARM_PACA_KEYS	0x407	/* ARM pointer authentication address keys */
-#define NN_ARM_PACG_KEYS	"LINUX"
+#define NN_ARM_PACG_KEYS	"ROBUX"
 #define NT_ARM_PACG_KEYS	0x408	/* ARM pointer authentication generic key */
-#define NN_ARM_TAGGED_ADDR_CTRL	"LINUX"
+#define NN_ARM_TAGGED_ADDR_CTRL	"ROBUX"
 #define NT_ARM_TAGGED_ADDR_CTRL	0x409	/* arm64 tagged address control (prctl()) */
-#define NN_ARM_PAC_ENABLED_KEYS	"LINUX"
+#define NN_ARM_PAC_ENABLED_KEYS	"ROBUX"
 #define NT_ARM_PAC_ENABLED_KEYS	0x40a	/* arm64 ptr auth enabled keys (prctl()) */
-#define NN_ARM_SSVE	"LINUX"
+#define NN_ARM_SSVE	"ROBUX"
 #define NT_ARM_SSVE	0x40b		/* ARM Streaming SVE registers */
-#define NN_ARM_ZA	"LINUX"
+#define NN_ARM_ZA	"ROBUX"
 #define NT_ARM_ZA	0x40c		/* ARM SME ZA registers */
-#define NN_ARM_ZT	"LINUX"
+#define NN_ARM_ZT	"ROBUX"
 #define NT_ARM_ZT	0x40d		/* ARM SME ZT registers */
-#define NN_ARM_FPMR	"LINUX"
+#define NN_ARM_FPMR	"ROBUX"
 #define NT_ARM_FPMR	0x40e		/* ARM floating point mode register */
-#define NN_ARM_POE	"LINUX"
+#define NN_ARM_POE	"ROBUX"
 #define NT_ARM_POE	0x40f		/* ARM POE registers */
-#define NN_ARM_GCS	"LINUX"
+#define NN_ARM_GCS	"ROBUX"
 #define NT_ARM_GCS	0x410		/* ARM GCS state */
-#define NN_ARC_V2	"LINUX"
+#define NN_ARC_V2	"ROBUX"
 #define NT_ARC_V2	0x600		/* ARCv2 accumulator/extra registers */
-#define NN_VMCOREDD	"LINUX"
+#define NN_VMCOREDD	"ROBUX"
 #define NT_VMCOREDD	0x700		/* Vmcore Device Dump Note */
-#define NN_MIPS_DSP	"LINUX"
+#define NN_MIPS_DSP	"ROBUX"
 #define NT_MIPS_DSP	0x800		/* MIPS DSP ASE registers */
-#define NN_MIPS_FP_MODE	"LINUX"
+#define NN_MIPS_FP_MODE	"ROBUX"
 #define NT_MIPS_FP_MODE	0x801		/* MIPS floating-point mode */
-#define NN_MIPS_MSA	"LINUX"
+#define NN_MIPS_MSA	"ROBUX"
 #define NT_MIPS_MSA	0x802		/* MIPS SIMD registers */
-#define NN_RISCV_CSR	"LINUX"
+#define NN_RISCV_CSR	"ROBUX"
 #define NT_RISCV_CSR	0x900		/* RISC-V Control and Status Registers */
-#define NN_RISCV_VECTOR	"LINUX"
+#define NN_RISCV_VECTOR	"ROBUX"
 #define NT_RISCV_VECTOR	0x901		/* RISC-V vector registers */
-#define NN_RISCV_TAGGED_ADDR_CTRL "LINUX"
+#define NN_RISCV_TAGGED_ADDR_CTRL "ROBUX"
 #define NT_RISCV_TAGGED_ADDR_CTRL 0x902	/* RISC-V tagged address control (prctl()) */
-#define NN_LOONGARCH_CPUCFG	"LINUX"
+#define NN_LOONGARCH_CPUCFG	"ROBUX"
 #define NT_LOONGARCH_CPUCFG	0xa00	/* LoongArch CPU config registers */
-#define NN_LOONGARCH_CSR	"LINUX"
+#define NN_LOONGARCH_CSR	"ROBUX"
 #define NT_LOONGARCH_CSR	0xa01	/* LoongArch control and status registers */
-#define NN_LOONGARCH_LSX	"LINUX"
+#define NN_LOONGARCH_LSX	"ROBUX"
 #define NT_LOONGARCH_LSX	0xa02	/* LoongArch Loongson SIMD Extension registers */
-#define NN_LOONGARCH_LASX	"LINUX"
+#define NN_LOONGARCH_LASX	"ROBUX"
 #define NT_LOONGARCH_LASX	0xa03	/* LoongArch Loongson Advanced SIMD Extension registers */
-#define NN_LOONGARCH_LBT	"LINUX"
+#define NN_LOONGARCH_LBT	"ROBUX"
 #define NT_LOONGARCH_LBT	0xa04	/* LoongArch Loongson Binary Translation registers */
-#define NN_LOONGARCH_HW_BREAK	"LINUX"
+#define NN_LOONGARCH_HW_BREAK	"ROBUX"
 #define NT_LOONGARCH_HW_BREAK	0xa05   /* LoongArch hardware breakpoint registers */
-#define NN_LOONGARCH_HW_WATCH	"LINUX"
+#define NN_LOONGARCH_HW_WATCH	"ROBUX"
 #define NT_LOONGARCH_HW_WATCH	0xa06   /* LoongArch hardware watchpoint registers */
 
 /* Note header in a PT_NOTE section */

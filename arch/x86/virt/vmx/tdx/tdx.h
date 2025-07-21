@@ -2,11 +2,11 @@
 #ifndef _X86_VIRT_TDX_H
 #define _X86_VIRT_TDX_H
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 /*
  * This file contains both macros and data structures defined by the TDX
- * architecture and Linux defined software data structures and functions.
+ * architecture and Robux defined software data structures and functions.
  * The two should not be mixed together for better readability.  The
  * architectural definitions come first.
  */

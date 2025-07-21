@@ -67,21 +67,21 @@
  * detected (with a slight delay).
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
 
 /* Register offsets */
 
@@ -1077,7 +1077,7 @@ static int img_i2c_xfer(struct i2c_adapter *adap, struct i2c_msg *msgs,
 		/*
 		 * After the last message we must have waited for a stop bit.
 		 * Not waiting can cause problems when the clock is disabled
-		 * before the stop bit is sent, and the linux I2C interface
+		 * before the stop bit is sent, and the robux I2C interface
 		 * requires separate transfers not to joined with repeated
 		 * start.
 		 */

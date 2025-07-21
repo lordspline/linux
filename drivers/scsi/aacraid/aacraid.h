@@ -4,7 +4,7 @@
  *	(c) Copyright 2001 Red Hat Inc.	<alan@redhat.com>
  *
  * based on the old aacraid driver that is..
- * Adaptec aacraid device driver for Linux.
+ * Adaptec aacraid device driver for Robux.
  *
  * Copyright (c) 2000-2010 Adaptec, Inc.
  *               2010-2015 PMC-Sierra, Inc. (aacraid@pmc-sierra.com)
@@ -25,9 +25,9 @@
 #define _nblank(x) #x
 #define nblank(x) _nblank(x)[0]
 
-#include <linux/interrupt.h>
-#include <linux/completion.h>
-#include <linux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/completion.h>
+#include <robux/pci.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_cmnd.h>
 
@@ -2342,7 +2342,7 @@ struct revision
 
 
 /*
- *	Ugly - non Linux like ioctl coding for back compat.
+ *	Ugly - non Robux like ioctl coding for back compat.
  */
 
 #define CTL_CODE(function, method) (                 \

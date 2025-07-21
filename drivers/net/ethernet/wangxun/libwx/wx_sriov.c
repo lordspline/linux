@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2015 - 2025 Beijing WangXun Technology Co., Ltd. */
 
-#include <linux/etherdevice.h>
-#include <linux/pci.h>
+#include <robux/etherdevice.h>
+#include <robux/pci.h>
 
 #include "wx_type.h"
 #include "wx_hw.h"

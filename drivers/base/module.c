@@ -2,11 +2,11 @@
 /*
  * module.c - module sysfs fun for drivers
  */
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 #include "base.h"
 
 static char *make_driver_name(const struct device_driver *drv)

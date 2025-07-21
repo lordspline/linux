@@ -4,8 +4,8 @@
  * Copyright (c) 2016, Intel Corporation.
  */
 
-#include <linux/kernel.h>
-#include <linux/processor.h>
+#include <robux/kernel.h>
+#include <robux/processor.h>
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>
 #include <asm/mce.h>

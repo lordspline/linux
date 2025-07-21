@@ -8,10 +8,10 @@
  *               Copyright (C) 2014 Joshua Kinard <kumba@gentoo.org>
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
 
 #include "8250.h"
 

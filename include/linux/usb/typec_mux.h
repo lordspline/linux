@@ -3,8 +3,8 @@
 #ifndef __USB_TYPEC_MUX
 #define __USB_TYPEC_MUX
 
-#include <linux/property.h>
-#include <linux/usb/typec.h>
+#include <robux/property.h>
+#include <robux/usb/typec.h>
 
 struct device;
 struct typec_mux;

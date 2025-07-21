@@ -10,22 +10,22 @@
  * Many thanks to all socketcan devs!
  */
 
-#include <linux/bitfield.h>
-#include <linux/clocksource.h>
-#include <linux/ethtool.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/signal.h>
-#include <linux/timecounter.h>
-#include <linux/units.h>
-#include <linux/usb.h>
-#include <linux/workqueue.h>
+#include <robux/bitfield.h>
+#include <robux/clocksource.h>
+#include <robux/ethtool.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/signal.h>
+#include <robux/timecounter.h>
+#include <robux/units.h>
+#include <robux/usb.h>
+#include <robux/workqueue.h>
 
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
-#include <linux/can/rx-offload.h>
+#include <robux/can.h>
+#include <robux/can/dev.h>
+#include <robux/can/error.h>
+#include <robux/can/rx-offload.h>
 
 /* Device specific constants */
 #define USB_GS_USB_1_VENDOR_ID 0x1d50
@@ -280,7 +280,7 @@ struct gs_host_frame {
 	};
 } __packed;
 /* The GS USB devices make use of the same flags and masks as in
- * linux/can.h and linux/can/error.h, and no additional mapping is necessary.
+ * robux/can.h and robux/can/error.h, and no additional mapping is necessary.
  */
 
 /* Only send a max of GS_MAX_TX_URBS frames per channel at a time. */

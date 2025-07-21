@@ -5,7 +5,7 @@
  *
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 #include "otx2_common.h"
 #include "otx2_ptp.h"

@@ -4,8 +4,8 @@
  *
  */
 
-#include <linux/io.h>
-#include <linux/fsl/mc.h>
+#include <robux/io.h>
+#include <robux/fsl/mc.h>
 
 #include "fsl-mc-private.h"
 

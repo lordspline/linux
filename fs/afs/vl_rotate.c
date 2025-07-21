@@ -5,9 +5,9 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/signal.h>
 #include "internal.h"
 #include "afs_vl.h"
 

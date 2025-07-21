@@ -5,12 +5,12 @@
  * Copyright (C) 2022 Google, Inc
  */
 
-#include <linux/export.h>
-#include <linux/hid.h>
-#include <linux/input/vivaldi-fmap.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/export.h>
+#include <robux/hid.h>
+#include <robux/input/vivaldi-fmap.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
 
 #include "hid-vivaldi-common.h"
 

@@ -6,14 +6,14 @@
 // Author: Shane Chien <shane.chien@mediatek.com>
 //
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 #include <sound/soc.h>
 
 #include "../common/mtk-afe-fe-dai.h"

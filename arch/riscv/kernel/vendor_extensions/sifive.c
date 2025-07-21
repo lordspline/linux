@@ -4,10 +4,10 @@
 #include <asm/vendor_extensions.h>
 #include <asm/vendor_extensions/sifive.h>
 
-#include <linux/array_size.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/types.h>
 
-/* All SiFive vendor extensions supported in Linux */
+/* All SiFive vendor extensions supported in Robux */
 static const struct riscv_isa_ext_data riscv_isa_vendor_ext_sifive[] = {
 	__RISCV_ISA_EXT_DATA(xsfvfnrclipxfqf, RISCV_ISA_VENDOR_EXT_XSFVFNRCLIPXFQF),
 	__RISCV_ISA_EXT_DATA(xsfvfwmaccqqq, RISCV_ISA_VENDOR_EXT_XSFVFWMACCQQQ),

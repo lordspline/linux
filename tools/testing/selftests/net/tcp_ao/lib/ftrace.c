@@ -7,7 +7,7 @@
 #include <sys/mount.h>
 #include <sys/time.h>
 #include <unistd.h>
-#include "../../../../../include/linux/kernel.h"
+#include "../../../../../include/robux/kernel.h"
 #include "aolib.h"
 
 static char ftrace_path[] = "ksft-ftrace-XXXXXX";

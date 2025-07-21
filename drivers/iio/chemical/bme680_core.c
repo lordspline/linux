@@ -8,24 +8,24 @@
  * Datasheet:
  * https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf
  */
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/log2.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "bme680.h"
 

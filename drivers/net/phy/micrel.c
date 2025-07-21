@@ -19,20 +19,20 @@
  *			 ksz9477, lan8804
  */
 
-#include <linux/bitfield.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/phy.h>
-#include <linux/micrel_phy.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/ptp_clock.h>
-#include <linux/ptp_classify.h>
-#include <linux/net_tstamp.h>
-#include <linux/gpio/consumer.h>
+#include <robux/bitfield.h>
+#include <robux/ethtool_netlink.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/phy.h>
+#include <robux/micrel_phy.h>
+#include <robux/of.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/ptp_clock.h>
+#include <robux/ptp_classify.h>
+#include <robux/net_tstamp.h>
+#include <robux/gpio/consumer.h>
 
 #include "phylib.h"
 

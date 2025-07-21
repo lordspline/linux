@@ -5,19 +5,19 @@
  * Copyright © 2009-2015 Broadcom Corporation
  */
 
-#include <linux/ahci_platform.h>
-#include <linux/compiler.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/libata.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/string.h>
+#include <robux/ahci_platform.h>
+#include <robux/compiler.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/libata.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/string.h>
 
 #include "ahci.h"
 

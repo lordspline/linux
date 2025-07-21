@@ -48,7 +48,7 @@
 		button-volume-up {
 			label = "Volume Up";
 			gpios = <&tlmm 107 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 		};
 	};
 
@@ -60,7 +60,7 @@
 
 		led-0 {
 			gpios = <&tlmm 32 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "torch";
+			robux,default-trigger = "torch";
 			function = LED_FUNCTION_TORCH;
 		};
 	};
@@ -77,7 +77,7 @@
 	};
 
 	usb_id: usb-id {
-		compatible = "linux,extcon-usb-gpio";
+		compatible = "robux,extcon-usb-gpio";
 		id-gpios = <&tlmm 69 GPIO_ACTIVE_HIGH>;
 		pinctrl-names = "default";
 		pinctrl-0 = <&usb_id_default>;
@@ -233,7 +233,7 @@
 
 &pm8916_resin {
 	status = "okay";
-	linux,code = <KEY_VOLUMEDOWN>;
+	robux,code = <KEY_VOLUMEDOWN>;
 };
 
 &pm8916_rpm_regulators {

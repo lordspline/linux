@@ -6,14 +6,14 @@
  * Author: Boris BREZILLON <boris.brezillon@free-electrons.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/mfd/atmel-hlcdc.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/mfd/atmel-hlcdc.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
+#include <robux/regmap.h>
 
 #define ATMEL_HLCDC_PWMCVAL_MASK	GENMASK(15, 8)
 #define ATMEL_HLCDC_PWMCVAL(x)		(((x) << 8) & ATMEL_HLCDC_PWMCVAL_MASK)

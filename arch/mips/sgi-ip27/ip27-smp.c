@@ -6,11 +6,11 @@
  * Copyright (C) 2000 - 2001 by Kanoj Sarcar (kanoj@sgi.com)
  * Copyright (C) 2000 - 2001 by Silicon Graphics, Inc.
  */
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/topology.h>
-#include <linux/nodemask.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/topology.h>
+#include <robux/nodemask.h>
 
 #include <asm/page.h>
 #include <asm/processor.h>

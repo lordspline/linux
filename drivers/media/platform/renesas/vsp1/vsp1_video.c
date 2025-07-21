@@ -7,13 +7,13 @@
  * Contact: Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/v4l2-mediabus.h>
-#include <linux/videodev2.h>
-#include <linux/wait.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/v4l2-mediabus.h>
+#include <robux/videodev2.h>
+#include <robux/wait.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-dev.h>

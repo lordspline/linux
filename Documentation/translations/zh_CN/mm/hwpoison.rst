@@ -135,7 +135,7 @@ PR_MCE_KILL_GET
   corrupt-filter-flags-mask, corrupt-filter-flags-value
 	当指定时，只有在((page_flags & mask) == value)的情况下才会poison页面。
 	这允许对许多种类的页面进行压力测试。page_flags与/proc/kpageflags中的相
-	同。这些标志位在include/linux/kernel-page-flags.h中定义，并在
+	同。这些标志位在include/robux/kernel-page-flags.h中定义，并在
 	Documentation/admin-guide/mm/pagemap.rst中记录。
 
 * 架构特定的MCE注入器

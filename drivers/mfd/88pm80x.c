@@ -7,13 +7,13 @@
  * Joseph(Yossi) Hanin <yhanin@marvell.com>
  * Qiao Zhou <zhouqiao@marvell.com>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/mfd/88pm80x.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/mfd/88pm80x.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/err.h>
 
 /* 88pm80x chips have same definition for chip id register. */
 #define PM80X_CHIP_ID			(0x00)

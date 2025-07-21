@@ -3,10 +3,10 @@
  * IDT Winchip specific Machine Check Exception Reporting
  * (C) Copyright 2002 Alan Cox <alan@lxorguk.ukuu.org.uk>
  */
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/hardirq.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/hardirq.h>
 
 #include <asm/processor.h>
 #include <asm/traps.h>

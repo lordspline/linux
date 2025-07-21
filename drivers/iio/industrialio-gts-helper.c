@@ -4,19 +4,19 @@
  * Copyright (c) 2023 Matti Vaittinen <mazziesaccount@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/overflow.h>
+#include <robux/slab.h>
+#include <robux/sort.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
-#include <linux/iio/iio-gts-helper.h>
-#include <linux/iio/types.h>
+#include <robux/iio/iio-gts-helper.h>
+#include <robux/iio/types.h>
 
 /**
  * iio_gts_get_gain - Convert scale to total gain

@@ -82,7 +82,7 @@ a session, invoking commands and closing session with TA.
 References
 ==========
 
-[1] include/linux/psp-tee.h
+[1] include/robux/psp-tee.h
 
 [2] drivers/tee/amdtee/amdtee_if.h
 

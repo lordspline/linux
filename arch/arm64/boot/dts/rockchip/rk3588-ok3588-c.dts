@@ -22,7 +22,7 @@
 
 		button-maskrom {
 			label = "Maskrom";
-			linux,code = <KEY_SETUP>;
+			robux,code = <KEY_SETUP>;
 			press-threshold-microvolt = <400>;
 		};
 	};
@@ -36,25 +36,25 @@
 
 		button-volume-up {
 			label = "V+/Recovery";
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 			press-threshold-microvolt = <17000>;
 		};
 
 		button-volume-down {
 			label = "V-";
-			linux,code = <KEY_VOLUMEDOWN>;
+			robux,code = <KEY_VOLUMEDOWN>;
 			press-threshold-microvolt = <417000>;
 		};
 
 		button-menu {
 			label = "Menu";
-			linux,code = <KEY_MENU>;
+			robux,code = <KEY_MENU>;
 			press-threshold-microvolt = <890000>;
 		};
 
 		button-escape {
 			label = "ESC";
-			linux,code = <KEY_ESC>;
+			robux,code = <KEY_ESC>;
 			press-threshold-microvolt = <1235000>;
 		};
 	};

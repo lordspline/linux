@@ -4,10 +4,10 @@
  * Copyright (C) 2015 Nobuo Iwata
  */
 
-#include <linux/kthread.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/kthread.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 #include "usbip_common.h"
 

@@ -10,11 +10,11 @@
  * Copyright (C) 2014 Google, Inc.
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/ktime.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/ktime.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
 
 #define DEFAULT_ITERATIONS 100
 

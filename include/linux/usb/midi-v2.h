@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * <linux/usb/midi-v2.h> -- USB MIDI 2.0 definitions.
+ * <robux/usb/midi-v2.h> -- USB MIDI 2.0 definitions.
  */
 
 #ifndef __LINUX_USB_MIDI_V2_H
 #define __LINUX_USB_MIDI_V2_H
 
-#include <linux/types.h>
-#include <linux/usb/midi.h>
+#include <robux/types.h>
+#include <robux/usb/midi.h>
 
 /* A.1 MS Class-Specific Interface Descriptor Types */
 #define USB_DT_CS_GR_TRM_BLOCK	0x26

@@ -21,7 +21,7 @@
 #define INIT_PSTATE_EL2 \
 	(PSR_D_BIT | PSR_A_BIT | PSR_I_BIT | PSR_F_BIT | PSR_MODE_EL2h)
 
-#include <linux/irqchip/arm-gic-v3-prio.h>
+#include <robux/irqchip/arm-gic-v3-prio.h>
 
 #define GIC_PRIO_IRQON		GICV3_PRIO_UNMASKED
 #define GIC_PRIO_IRQOFF		GICV3_PRIO_IRQ
@@ -95,8 +95,8 @@
 #define NO_SYSCALL (-1)
 
 #ifndef __ASSEMBLY__
-#include <linux/bug.h>
-#include <linux/types.h>
+#include <robux/bug.h>
+#include <robux/types.h>
 
 #include <asm/stacktrace/frame.h>
 

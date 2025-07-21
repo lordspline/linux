@@ -7,14 +7,14 @@
  *         for ST-Ericsson.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mfd/dbx500-prcmu.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/bitops.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
+#include <robux/mfd/dbx500-prcmu.h>
 
 #include <sound/soc.h>
 #include <sound/soc-dai.h>

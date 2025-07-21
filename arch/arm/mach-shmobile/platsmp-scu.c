@@ -4,11 +4,11 @@
  *
  * Copyright (C) 2013  Magnus Damm
  */
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/smp.h>
+#include <robux/cpu.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/smp.h>
 #include <asm/cacheflush.h>
 #include <asm/smp_plat.h>
 #include <asm/smp_scu.h>

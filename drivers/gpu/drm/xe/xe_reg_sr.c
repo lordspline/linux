@@ -6,9 +6,9 @@
 #include "xe_reg_sr.h"
 
 #include <kunit/visibility.h>
-#include <linux/align.h>
-#include <linux/string_helpers.h>
-#include <linux/xarray.h>
+#include <robux/align.h>
+#include <robux/string_helpers.h>
+#include <robux/xarray.h>
 
 #include <drm/drm_managed.h>
 #include <drm/drm_print.h>

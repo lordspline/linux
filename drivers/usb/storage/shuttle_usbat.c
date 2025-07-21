@@ -19,7 +19,7 @@
  * SCM Microsystems (www.scmmicro.com) makes a device, sold to OEM's only, 
  * which does the USB-to-ATAPI conversion.  By obtaining the data sheet on
  * their device under nondisclosure agreement, I have been able to write
- * this driver for Linux.
+ * this driver for Robux.
  *
  * The chip used in the device can also be used for EPP and ISA translation
  * as well. This driver is only guaranteed to work with the ATAPI
@@ -29,11 +29,11 @@
  * this driver.
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/cdrom.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/cdrom.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
@@ -1317,7 +1317,7 @@ static int usbat_hp8200e_handle_read10(struct us_data *us,
 	 * a single read command (max is 64k-1), we will perform
 	 * multiple reads, but each read must be in multiples of
 	 * a sector.  Luckily the sector size is in srb->transfersize
-	 * (see linux/drivers/scsi/sr.c).
+	 * (see robux/drivers/scsi/sr.c).
 	 */
 
 	if (data[7+0] == GPCMD_READ_CD) {

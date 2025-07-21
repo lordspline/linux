@@ -4,15 +4,15 @@
  */
 
 /*
- * Gunze AHL-51S touchscreen driver for Linux
+ * Gunze AHL-51S touchscreen driver for Robux
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/serio.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/serio.h>
 
 #define DRIVER_DESC	"Gunze AHL-51S touchscreen driver"
 

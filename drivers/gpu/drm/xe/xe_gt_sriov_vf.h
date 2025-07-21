@@ -6,7 +6,7 @@
 #ifndef _XE_GT_SRIOV_VF_H_
 #define _XE_GT_SRIOV_VF_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct drm_printer;
 struct xe_gt;

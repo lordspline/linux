@@ -8,11 +8,11 @@
 #ifndef _SURFACE_AGGREGATOR_SSH_MSGB_H
 #define _SURFACE_AGGREGATOR_SSH_MSGB_H
 
-#include <linux/unaligned.h>
-#include <linux/types.h>
+#include <robux/unaligned.h>
+#include <robux/types.h>
 
-#include <linux/surface_aggregator/controller.h>
-#include <linux/surface_aggregator/serial_hub.h>
+#include <robux/surface_aggregator/controller.h>
+#include <robux/surface_aggregator/serial_hub.h>
 
 /**
  * struct msgbuf - Buffer struct to construct SSH messages.

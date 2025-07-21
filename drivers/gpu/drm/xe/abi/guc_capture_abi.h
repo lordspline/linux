@@ -6,7 +6,7 @@
 #ifndef _ABI_GUC_CAPTURE_ABI_H
 #define _ABI_GUC_CAPTURE_ABI_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /* Capture List Index */
 enum guc_capture_list_index_type {

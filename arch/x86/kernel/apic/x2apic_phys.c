@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/cpumask.h>
-#include <linux/acpi.h>
+#include <robux/cpumask.h>
+#include <robux/acpi.h>
 
 #include "local.h"
 

@@ -8,8 +8,8 @@
 #ifndef _VMCI_DATAGRAM_H_
 #define _VMCI_DATAGRAM_H_
 
-#include <linux/types.h>
-#include <linux/list.h>
+#include <robux/types.h>
+#include <robux/list.h>
 
 #include "vmci_context.h"
 

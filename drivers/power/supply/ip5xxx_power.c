@@ -2,10 +2,10 @@
 //
 // Copyright (C) 2021 Samuel Holland <samuel@sholland.org>
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
 
 #define IP5XXX_BAT_TYPE_4_2V			0x0
 #define IP5XXX_BAT_TYPE_4_3V			0x1

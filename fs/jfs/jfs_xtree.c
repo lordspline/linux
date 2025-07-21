@@ -6,10 +6,10 @@
  *	jfs_xtree.c: extent allocation descriptor B+-tree manager
  */
 
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/quotaops.h>
-#include <linux/seq_file.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/quotaops.h>
+#include <robux/seq_file.h>
 #include "jfs_incore.h"
 #include "jfs_filsys.h"
 #include "jfs_metapage.h"

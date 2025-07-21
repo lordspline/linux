@@ -25,13 +25,13 @@
  *						// array passed in
  */
 
-#include <linux/export.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/export.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_device.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "pinctrl-sunxi.h"
 

@@ -9,21 +9,21 @@
  *   serial converter;
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/etherdevice.h>
-#include <linux/if_arp.h>
-#include <linux/if_ether.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/sched.h>
-#include <linux/serdev.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/etherdevice.h>
+#include <robux/if_arp.h>
+#include <robux/if_ether.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/sched.h>
+#include <robux/serdev.h>
+#include <robux/skbuff.h>
+#include <robux/types.h>
 
 #include "qca_7k_common.h"
 

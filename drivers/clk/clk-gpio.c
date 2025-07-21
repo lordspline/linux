@@ -9,15 +9,15 @@
  * Gpio controlled clock implementation
  */
 
-#include <linux/clk-provider.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/gpio/consumer.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk-provider.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/gpio/consumer.h>
+#include <robux/err.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
 
 /**
  * DOC: basic gpio gated clock which can be enabled and disabled

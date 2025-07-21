@@ -6,16 +6,16 @@
  * Author: Jingoo Han <jg1.han@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/phy/phy.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
 
 #include "ohci.h"
 

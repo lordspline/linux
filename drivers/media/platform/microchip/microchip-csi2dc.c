@@ -8,13 +8,13 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/videodev2.h>
+#include <robux/clk.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/videodev2.h>
 
 #include <media/v4l2-fwnode.h>
 #include <media/v4l2-subdev.h>

@@ -44,19 +44,19 @@
 #define DASD_STATE_READY  4
 #define DASD_STATE_ONLINE 5
 
-#include <linux/module.h>
-#include <linux/wait.h>
-#include <linux/blkdev.h>
-#include <linux/hdreg.h>
-#include <linux/interrupt.h>
-#include <linux/log2.h>
+#include <robux/module.h>
+#include <robux/wait.h>
+#include <robux/blkdev.h>
+#include <robux/hdreg.h>
+#include <robux/interrupt.h>
+#include <robux/log2.h>
 #include <asm/ccwdev.h>
-#include <linux/workqueue.h>
+#include <robux/workqueue.h>
 #include <asm/debug.h>
 #include <asm/dasd.h>
 #include <asm/idals.h>
-#include <linux/bitops.h>
-#include <linux/blk-mq.h>
+#include <robux/bitops.h>
+#include <robux/blk-mq.h>
 
 /* DASD discipline magic */
 #define DASD_ECKD_MAGIC 0xC5C3D2C4

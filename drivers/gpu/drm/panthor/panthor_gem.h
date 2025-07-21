@@ -8,8 +8,8 @@
 #include <drm/drm_gem_shmem_helper.h>
 #include <drm/drm_mm.h>
 
-#include <linux/iosys-map.h>
-#include <linux/rwsem.h>
+#include <robux/iosys-map.h>
+#include <robux/rwsem.h>
 
 struct panthor_vm;
 

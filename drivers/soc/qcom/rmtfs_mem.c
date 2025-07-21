@@ -3,18 +3,18 @@
  * Copyright (c) 2017 Linaro Ltd.
  */
 
-#include <linux/kernel.h>
-#include <linux/cdev.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/firmware/qcom/qcom_scm.h>
+#include <robux/kernel.h>
+#include <robux/cdev.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/io.h>
+#include <robux/firmware/qcom/qcom_scm.h>
 
 #define QCOM_RMTFS_MEM_DEV_MAX	(MINORMASK + 1)
 #define NUM_MAX_VMIDS		2

@@ -5,11 +5,11 @@
  * Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/tlv.h>

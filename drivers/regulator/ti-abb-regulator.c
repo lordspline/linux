@@ -9,16 +9,16 @@
  * Andrii Tseglytskyi <andrii.tseglytskyi@ti.com>
  * Nishanth Menon <nm@ti.com>
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/of_regulator.h>
 
 /*
  * ABB LDO operating states:
@@ -335,7 +335,7 @@ static int ti_abb_set_voltage_sel(struct regulator_dev *rdev, unsigned int sel)
 
 	info = &abb->info[sel];
 	/*
-	 * When Linux kernel is starting up, we aren't sure of the
+	 * When Robux kernel is starting up, we aren't sure of the
 	 * Bias configuration that bootloader has configured.
 	 * So, we get to know the actual setting the first time
 	 * we are asked to transition.

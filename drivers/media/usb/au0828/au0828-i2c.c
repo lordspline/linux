@@ -7,11 +7,11 @@
 
 #include "au0828.h"
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/io.h>
 
 #include "media/tuner.h"
 #include <media/v4l2-common.h>

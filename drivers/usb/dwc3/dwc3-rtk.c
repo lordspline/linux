@@ -6,17 +6,17 @@
  *
  */
 
-#include <linux/cleanup.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/suspend.h>
-#include <linux/sys_soc.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/of.h>
-#include <linux/usb/role.h>
+#include <robux/cleanup.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/suspend.h>
+#include <robux/sys_soc.h>
+#include <robux/usb/otg.h>
+#include <robux/usb/of.h>
+#include <robux/usb/role.h>
 
 #include "core.h"
 

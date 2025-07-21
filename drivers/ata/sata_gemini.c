@@ -4,17 +4,17 @@
  * Copyright (C) 2017 Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/bitops.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/pinctrl/consumer.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/bitops.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/pinctrl/consumer.h>
 #include "sata_gemini.h"
 
 #define DRV_NAME "gemini_sata_bridge"

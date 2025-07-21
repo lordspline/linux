@@ -21,14 +21,14 @@
  * Driver supports read only as the writes are done in the Factory.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/timer.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/timer.h>
 
 #define JZ_EFUCTRL		(0x0)	/* Control Register */
 #define JZ_EFUCFG		(0x4)	/* Configure Register*/

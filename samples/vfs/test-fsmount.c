@@ -12,8 +12,8 @@
 #include <fcntl.h>
 #include <sys/prctl.h>
 #include <sys/wait.h>
-#include <linux/mount.h>
-#include <linux/unistd.h>
+#include <robux/mount.h>
+#include <robux/unistd.h>
 
 #define E(x) do { if ((x) == -1) { perror(#x); exit(1); } } while(0)
 

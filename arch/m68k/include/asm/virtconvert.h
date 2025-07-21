@@ -8,8 +8,8 @@
 
 #ifdef __KERNEL__
 
-#include <linux/compiler.h>
-#include <linux/mmzone.h>
+#include <robux/compiler.h>
+#include <robux/mmzone.h>
 #include <asm/setup.h>
 #include <asm/page.h>
 

@@ -6,20 +6,20 @@
  * Copyright (c) 2017 Microsemi Corporation
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mdio/mdio-mscc-miim.h>
-#include <linux/mfd/ocelot.h>
-#include <linux/module.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/mdio/mdio-mscc-miim.h>
+#include <robux/mfd/ocelot.h>
+#include <robux/module.h>
+#include <robux/of_mdio.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 
 #define MSCC_MIIM_REG_STATUS		0x0
 #define		MSCC_MIIM_STATUS_STAT_PENDING	BIT(2)

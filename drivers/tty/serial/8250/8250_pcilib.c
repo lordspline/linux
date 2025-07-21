@@ -4,10 +4,10 @@
  *
  * Copyright (C) 2001 Russell King, All Rights Reserved.
  */
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/pci.h>
+#include <robux/types.h>
 
 #include "8250.h"
 #include "8250_pcilib.h"

@@ -11,17 +11,17 @@
  * Copyright 2023 Hans de Goede <hansg@kernel.org>
  */
 
-#include <linux/acpi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/wmi.h>
-#include <linux/workqueue.h>
+#include <robux/acpi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/machine.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
+#include <robux/wmi.h>
+#include <robux/workqueue.h>
 
 #define YB_MBTN_EVENT_GUID	"243FEC1D-1963-41C1-8100-06A9D82A94B4"
 

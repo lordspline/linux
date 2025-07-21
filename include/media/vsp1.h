@@ -9,9 +9,9 @@
 #ifndef __MEDIA_VSP1_H__
 #define __MEDIA_VSP1_H__
 
-#include <linux/scatterlist.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <robux/scatterlist.h>
+#include <robux/types.h>
+#include <robux/videodev2.h>
 
 struct device;
 

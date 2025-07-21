@@ -5,15 +5,15 @@
  * Declarations for Reverse Mapping functions in mm/rmap.c
  */
 
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/rwsem.h>
-#include <linux/memcontrol.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/memremap.h>
-#include <linux/bit_spinlock.h>
+#include <robux/list.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/rwsem.h>
+#include <robux/memcontrol.h>
+#include <robux/highmem.h>
+#include <robux/pagemap.h>
+#include <robux/memremap.h>
+#include <robux/bit_spinlock.h>
 
 /*
  * The anon_vma heads a list of private "related" vmas, to scan if

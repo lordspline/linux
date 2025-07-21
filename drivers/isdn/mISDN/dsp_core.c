@@ -151,12 +151,12 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/mISDNif.h>
-#include <linux/mISDNdsp.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
+#include <robux/delay.h>
+#include <robux/gfp.h>
+#include <robux/mISDNif.h>
+#include <robux/mISDNdsp.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
 #include "core.h"
 #include "dsp.h"
 

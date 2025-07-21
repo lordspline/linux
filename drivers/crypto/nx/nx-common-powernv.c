@@ -10,7 +10,7 @@
 #include "nx-842.h"
 
 #include <crypto/internal/scompress.h>
-#include <linux/timer.h>
+#include <robux/timer.h>
 
 #include <asm/prom.h>
 #include <asm/icswx.h>

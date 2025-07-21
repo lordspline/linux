@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/* DVB compliant Linux driver for the DVB-S si2109/2110 demodulator
+/* DVB compliant Robux driver for the DVB-S si2109/2110 demodulator
 *
 * Copyright (C) 2008 Igor M. Liplianin (liplianin@me.by)
 */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
 #include <asm/div64.h>
 
 #include <media/dvb_frontend.h>

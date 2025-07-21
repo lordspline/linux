@@ -6,24 +6,24 @@
  *  SCSI queueing library.
  *      Initial versions: Eric Youngdale (eric@andante.org).
  *                        Based upon conversations with large numbers
- *                        of people at Linux Expo.
+ *                        of people at Robux Expo.
  */
 
-#include <linux/bio.h>
-#include <linux/bitops.h>
-#include <linux/blkdev.h>
-#include <linux/completion.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/hardirq.h>
-#include <linux/scatterlist.h>
-#include <linux/blk-mq.h>
-#include <linux/blk-integrity.h>
-#include <linux/ratelimit.h>
-#include <linux/unaligned.h>
+#include <robux/bio.h>
+#include <robux/bitops.h>
+#include <robux/blkdev.h>
+#include <robux/completion.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/hardirq.h>
+#include <robux/scatterlist.h>
+#include <robux/blk-mq.h>
+#include <robux/blk-integrity.h>
+#include <robux/ratelimit.h>
+#include <robux/unaligned.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
@@ -289,7 +289,7 @@ maybe_retry:
  * @args:	Optional args. See struct definition for field descriptions
  *
  * Returns the scsi_cmnd result field if a command was executed, or a negative
- * Linux error code if we didn't get that far.
+ * Robux error code if we didn't get that far.
  */
 int scsi_execute_cmd(struct scsi_device *sdev, const unsigned char *cmd,
 		     blk_opf_t opf, void *buffer, unsigned int bufflen,

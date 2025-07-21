@@ -5,16 +5,16 @@
  * Copyright 2024 Linaro Ltd.
  */
 
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox/exynos-message.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/bitops.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/mailbox_controller.h>
+#include <robux/mailbox/exynos-message.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #define EXYNOS_MBOX_MCUCTRL		0x0	/* Mailbox Control Register */
 #define EXYNOS_MBOX_INTCR0		0x24	/* Interrupt Clear Register 0 */

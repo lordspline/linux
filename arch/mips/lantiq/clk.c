@@ -4,15 +4,15 @@
  * Copyright (C) 2010 Thomas Langer <thomas.langer@lantiq.com>
  * Copyright (C) 2010 John Crispin <john@phrozen.org>
  */
-#include <linux/io.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/err.h>
-#include <linux/list.h>
+#include <robux/io.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/err.h>
+#include <robux/list.h>
 
 #include <asm/time.h>
 #include <asm/irq.h>

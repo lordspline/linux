@@ -4,20 +4,20 @@
 //
 // Copyright (C) 2015 Freescale Semiconductor, Inc.
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/log2.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/gpio/consumer.h>
+#include <robux/input.h>
+#include <robux/slab.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/log2.h>
 
 /* ADC configuration registers field define */
 #define ADC_AIEN		(0x1 << 7)

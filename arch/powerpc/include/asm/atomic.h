@@ -7,7 +7,7 @@
  */
 
 #ifdef __KERNEL__
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/cmpxchg.h>
 #include <asm/barrier.h>
 #include <asm/asm-const.h>

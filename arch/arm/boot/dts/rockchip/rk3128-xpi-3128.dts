@@ -33,7 +33,7 @@
 
 		button-recovery {
 			label = "Recovery";
-			linux,code = <KEY_VENDOR>;
+			robux,code = <KEY_VENDOR>;
 			press-threshold-microvolt = <0>;
 		};
 	};
@@ -104,7 +104,7 @@
 			 * https://www.kernel.org/doc/Documentation/devicetree/bindings/leds/common.yaml
 			 * and needs to set in userspace:
 			 *
-			 * linux,default-trigger = "netdev";
+			 * robux,default-trigger = "netdev";
 			 */
 			pinctrl-names = "default";
 			pinctrl-0 = <&spd_led>;

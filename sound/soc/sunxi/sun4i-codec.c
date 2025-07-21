@@ -10,16 +10,16 @@
  * Based on the Allwinner SDK driver, released under the GPL.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/gpio/consumer.h>
 
 #include <sound/core.h>
 #include <sound/jack.h>

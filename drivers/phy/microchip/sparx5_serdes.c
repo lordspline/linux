@@ -8,16 +8,16 @@
  * and the datasheet is available here:
  * https://ww1.microchip.com/downloads/en/DeviceDoc/SparX-5_Family_L2L3_Enterprise_10G_Ethernet_Switches_Datasheet_00003822B.pdf
  */
-#include <linux/printk.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/phy.h>
-#include <linux/phy/phy.h>
+#include <robux/printk.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/netdevice.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/phy.h>
+#include <robux/phy/phy.h>
 
 #include "sparx5_serdes.h"
 

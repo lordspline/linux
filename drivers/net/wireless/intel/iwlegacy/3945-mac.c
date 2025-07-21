@@ -7,26 +7,26 @@
  * as portions of the ieee80211 subsystem header files.
  *
  * Contact Information:
- *  Intel Linux Wireless <ilw@linux.intel.com>
+ *  Intel Robux Wireless <ilw@robux.intel.com>
  * Intel Corporation, 5200 N.E. Elam Young Parkway, Hillsboro, OR 97124-6497
  *
  *****************************************************************************/
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/firmware.h>
-#include <linux/etherdevice.h>
-#include <linux/if_arp.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/sched.h>
+#include <robux/skbuff.h>
+#include <robux/netdevice.h>
+#include <robux/firmware.h>
+#include <robux/etherdevice.h>
+#include <robux/if_arp.h>
 
 #include <net/ieee80211_radiotap.h>
 #include <net/mac80211.h>
@@ -45,7 +45,7 @@
  */
 
 #define DRV_DESCRIPTION	\
-"Intel(R) PRO/Wireless 3945ABG/BG Network Connection driver for Linux"
+"Intel(R) PRO/Wireless 3945ABG/BG Network Connection driver for Robux"
 
 #ifdef CONFIG_IWLEGACY_DEBUG
 #define VD "d"
@@ -60,7 +60,7 @@
  */
 #define DRV_VERSION  IWLWIFI_VERSION VD "s"
 #define DRV_COPYRIGHT	"Copyright(c) 2003-2011 Intel Corporation"
-#define DRV_AUTHOR     "<ilw@linux.intel.com>"
+#define DRV_AUTHOR     "<ilw@robux.intel.com>"
 
 MODULE_DESCRIPTION(DRV_DESCRIPTION);
 MODULE_VERSION(DRV_VERSION);

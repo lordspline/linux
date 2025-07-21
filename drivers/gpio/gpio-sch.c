@@ -6,17 +6,17 @@
  *  Author: Denis Turischev <denis@compulab.co.il>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci_ids.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/errno.h>
+#include <robux/gpio/driver.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci_ids.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
 #define GEN	0x00
 #define GIO	0x04

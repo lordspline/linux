@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Copyright (C) 2018 Canonical Ltd.
  *
@@ -7,9 +7,9 @@
 #ifndef _UAPI_LINUX_BINDERFS_H
 #define _UAPI_LINUX_BINDERFS_H
 
-#include <linux/android/binder.h>
-#include <linux/types.h>
-#include <linux/ioctl.h>
+#include <robux/android/binder.h>
+#include <robux/types.h>
+#include <robux/ioctl.h>
 
 #define BINDERFS_MAX_NAME 255
 

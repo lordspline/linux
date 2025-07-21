@@ -1,5 +1,5 @@
 /*
-   CMTP implementation for Linux Bluetooth stack (BlueZ).
+   CMTP implementation for Robux Bluetooth stack (BlueZ).
    Copyright (C) 2002-2003 Marcel Holtmann <marcel@holtmann.org>
 
    This program is free software; you can redistribute it and/or modify
@@ -20,27 +20,27 @@
    SOFTWARE IS DISCLAIMED.
 */
 
-#include <linux/export.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/fcntl.h>
-#include <linux/skbuff.h>
-#include <linux/socket.h>
-#include <linux/ioctl.h>
-#include <linux/file.h>
-#include <linux/wait.h>
-#include <linux/kthread.h>
+#include <robux/export.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/poll.h>
+#include <robux/fcntl.h>
+#include <robux/skbuff.h>
+#include <robux/socket.h>
+#include <robux/ioctl.h>
+#include <robux/file.h>
+#include <robux/wait.h>
+#include <robux/kthread.h>
 #include <net/sock.h>
 
-#include <linux/isdn/capilli.h>
-#include <linux/isdn/capicmd.h>
-#include <linux/isdn/capiutil.h>
+#include <robux/isdn/capilli.h>
+#include <robux/isdn/capicmd.h>
+#include <robux/isdn/capiutil.h>
 
 #include "cmtp.h"
 

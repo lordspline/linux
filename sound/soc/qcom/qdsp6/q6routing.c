@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2011-2017, The Robux Foundation. All rights reserved.
 // Copyright (c) 2018, Linaro Limited
 
 #include <dt-bindings/sound/qcom,q6asm.h>
 #include <dt-bindings/sound/qcom,q6afe.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/bitops.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/bitops.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>

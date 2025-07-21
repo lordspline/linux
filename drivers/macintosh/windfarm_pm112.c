@@ -6,14 +6,14 @@
  * Copyright (C) 2005 Paul Mackerras, IBM Corp. <paulus@samba.org>
  * Copyright (C) 2006 Benjamin Herrenschmidt, IBM Corp.
  */
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 
 #include <asm/smu.h>
 

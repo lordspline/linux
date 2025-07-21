@@ -2,10 +2,10 @@
 /*
  * Copyright (c) 2016 HGST, a Western Digital Company.
  */
-#include <linux/memremap.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/pci-p2pdma.h>
+#include <robux/memremap.h>
+#include <robux/moduleparam.h>
+#include <robux/slab.h>
+#include <robux/pci-p2pdma.h>
 #include <rdma/mr_pool.h>
 #include <rdma/rw.h>
 

@@ -6,28 +6,28 @@
  * Author: Fabrice Gasnier <fabrice.gasnier@st.com>.
  */
 
-#include <linux/array_size.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/timer/stm32-lptim-trigger.h>
-#include <linux/iio/timer/stm32-timer-trigger.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <robux/array_size.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/timer/stm32-lptim-trigger.h>
+#include <robux/iio/timer/stm32-timer-trigger.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
 
 #include "stm32-adc-core.h"
 

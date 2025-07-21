@@ -10,17 +10,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
-#include <linux/kref.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/mutex.h>
-#include <linux/usb.h>
-#include <linux/compat.h>
-#include <linux/usb/tmc.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/uaccess.h>
+#include <robux/kref.h>
+#include <robux/slab.h>
+#include <robux/poll.h>
+#include <robux/mutex.h>
+#include <robux/usb.h>
+#include <robux/compat.h>
+#include <robux/usb/tmc.h>
 
 /* Increment API VERSION when changing tmc.h with new flags or ioctls
  * or when changing a significant behavior of the driver.

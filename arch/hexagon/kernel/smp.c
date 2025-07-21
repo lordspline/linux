@@ -2,21 +2,21 @@
 /*
  * SMP support for Hexagon
  *
- * Copyright (c) 2010-2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2012, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/percpu.h>
-#include <linux/sched/mm.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/cpu.h>
-#include <linux/mm_types.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/percpu.h>
+#include <robux/sched/mm.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
+#include <robux/cpu.h>
+#include <robux/mm_types.h>
 
 #include <asm/time.h>    /*  timer_interrupt  */
 #include <asm/hexagon_vm.h>

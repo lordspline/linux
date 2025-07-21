@@ -17,9 +17,9 @@
 #ifndef DFS_PATTERN_DETECTOR_H
 #define DFS_PATTERN_DETECTOR_H
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/nl80211.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/nl80211.h>
 
 /* tolerated deviation of radar time stamp in usecs on both sides
  * TODO: this might need to be HW-dependent

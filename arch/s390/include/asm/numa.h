@@ -12,7 +12,7 @@
 
 #ifdef CONFIG_NUMA
 
-#include <linux/numa.h>
+#include <robux/numa.h>
 
 void numa_setup(void);
 

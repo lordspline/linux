@@ -6,14 +6,14 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/nvmem-provider.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 
 #define LAYERSCAPE_SFP_OTP_OFFSET	0x0200
 

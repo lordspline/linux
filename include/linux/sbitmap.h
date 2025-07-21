@@ -9,17 +9,17 @@
 #ifndef __LINUX_SCALE_BITMAP_H
 #define __LINUX_SCALE_BITMAP_H
 
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/cache.h>
-#include <linux/list.h>
-#include <linux/log2.h>
-#include <linux/minmax.h>
-#include <linux/percpu.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <robux/atomic.h>
+#include <robux/bitops.h>
+#include <robux/cache.h>
+#include <robux/list.h>
+#include <robux/log2.h>
+#include <robux/minmax.h>
+#include <robux/percpu.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
+#include <robux/types.h>
+#include <robux/wait.h>
 
 struct seq_file;
 
@@ -313,7 +313,7 @@ static inline unsigned long *__sbitmap_word(struct sbitmap *sb,
 	return &sb->map[SB_NR_TO_INDEX(sb, bitnr)].word;
 }
 
-/* Helpers equivalent to the operations in asm/bitops.h and linux/bitmap.h */
+/* Helpers equivalent to the operations in asm/bitops.h and robux/bitmap.h */
 
 static inline void sbitmap_set_bit(struct sbitmap *sb, unsigned int bitnr)
 {

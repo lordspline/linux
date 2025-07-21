@@ -1,37 +1,37 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
-/*  D-Link DL2000-based Gigabit Ethernet Adapter Linux driver */
+/*  D-Link DL2000-based Gigabit Ethernet Adapter Robux driver */
 /*
     Copyright (c) 2001, 2002 by D-Link Corporation
     Written by Edward Peng.<edward_peng@dlink.com.tw>
-    Created 03-May-2001, base on Linux' sundance.c.
+    Created 03-May-2001, base on Robux' sundance.c.
 
 */
 
 #ifndef __DL2K_H__
 #define __DL2K_H__
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/crc32.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/bitops.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/crc32.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/bitops.h>
 #include <asm/processor.h>	/* Processor type for cache alignment. */
 #include <asm/io.h>
-#include <linux/uaccess.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/time.h>
+#include <robux/uaccess.h>
+#include <robux/delay.h>
+#include <robux/spinlock.h>
+#include <robux/time.h>
 #define TX_RING_SIZE	256
 #define TX_QUEUE_LEN	(TX_RING_SIZE - 1) /* Limit ring entries actually used.*/
 #define RX_RING_SIZE 	256

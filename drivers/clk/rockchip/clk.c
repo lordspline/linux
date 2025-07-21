@@ -14,14 +14,14 @@
  * Author: Thomas Abraham <thomas.ab@samsung.com>
  */
 
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reboot.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reboot.h>
 
 #include "../clk-fractional-divider.h"
 #include "clk.h"

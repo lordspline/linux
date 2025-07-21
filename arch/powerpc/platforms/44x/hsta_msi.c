@@ -6,14 +6,14 @@
  * Copyright © 2013 Alistair Popple <alistair@popple.id.au> IBM Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/semaphore.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/msi.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/pci.h>
+#include <robux/semaphore.h>
 #include <asm/msi_bitmap.h>
 #include <asm/ppc-pci.h>
 

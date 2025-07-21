@@ -6,18 +6,18 @@
  *  Copyright (C) 2015  Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/wait.h>
-#include <linux/tty.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/skbuff.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/wait.h>
+#include <robux/tty.h>
+#include <robux/platform_device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/acpi.h>
+#include <robux/interrupt.h>
+#include <robux/pm_runtime.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

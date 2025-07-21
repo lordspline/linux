@@ -5,7 +5,7 @@
  * Copyright (C) 2018, 2023 Intel Corporation
  *****************************************************************************/
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 /* sparse doesn't like tracepoint macros */
 #ifndef __CHECKER__

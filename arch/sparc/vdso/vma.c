@@ -8,14 +8,14 @@
  * Copyright (c) 2017 Oracle and/or its affiliates. All rights reserved.
  */
 
-#include <linux/mm.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/random.h>
-#include <linux/elf.h>
+#include <robux/mm.h>
+#include <robux/err.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
+#include <robux/random.h>
+#include <robux/elf.h>
 #include <asm/cacheflush.h>
 #include <asm/spitfire.h>
 #include <asm/vdso.h>

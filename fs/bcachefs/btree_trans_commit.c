@@ -20,8 +20,8 @@
 #include "replicas.h"
 #include "snapshot.h"
 
-#include <linux/prefetch.h>
-#include <linux/string_helpers.h>
+#include <robux/prefetch.h>
+#include <robux/string_helpers.h>
 
 static const char * const trans_commit_flags_strs[] = {
 #define x(n, ...) #n,

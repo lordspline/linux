@@ -4,16 +4,16 @@
  * Adopted from dwmac-sti.c
  */
 
-#include <linux/mfd/altera-sysmgr.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_net.h>
-#include <linux/phy.h>
-#include <linux/regmap.h>
-#include <linux/mdio/mdio-regmap.h>
-#include <linux/pcs-lynx.h>
-#include <linux/reset.h>
-#include <linux/stmmac.h>
+#include <robux/mfd/altera-sysmgr.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_net.h>
+#include <robux/phy.h>
+#include <robux/regmap.h>
+#include <robux/mdio/mdio-regmap.h>
+#include <robux/pcs-lynx.h>
+#include <robux/reset.h>
+#include <robux/stmmac.h>
 
 #include "stmmac.h"
 #include "stmmac_platform.h"

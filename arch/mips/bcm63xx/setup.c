@@ -6,12 +6,12 @@
  * Copyright (C) 2008 Maxime Bizon <mbizon@freebox.fr>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/memblock.h>
-#include <linux/ioport.h>
-#include <linux/pm.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/memblock.h>
+#include <robux/ioport.h>
+#include <robux/pm.h>
 #include <asm/bmips.h>
 #include <asm/bootinfo.h>
 #include <asm/time.h>

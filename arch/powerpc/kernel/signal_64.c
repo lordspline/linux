@@ -8,24 +8,24 @@
  *    1997-11-28  Modified for POSIX.1b signals by Richard Henderson
  */
 
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/unistd.h>
-#include <linux/stddef.h>
-#include <linux/elf.h>
-#include <linux/ptrace.h>
-#include <linux/ratelimit.h>
-#include <linux/syscalls.h>
-#include <linux/pagemap.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/errno.h>
+#include <robux/wait.h>
+#include <robux/unistd.h>
+#include <robux/stddef.h>
+#include <robux/elf.h>
+#include <robux/ptrace.h>
+#include <robux/ratelimit.h>
+#include <robux/syscalls.h>
+#include <robux/pagemap.h>
 
 #include <asm/sigcontext.h>
 #include <asm/ucontext.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/unistd.h>
 #include <asm/cacheflush.h>
 #include <asm/syscalls.h>

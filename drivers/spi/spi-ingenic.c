@@ -6,16 +6,16 @@
  * Copyright (c) 2022 周琰杰 (Zhou Yanjie) <zhouyanjie@wanyeetech.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 #include "internals.h"
 
 #define REG_SSIDR	0x0

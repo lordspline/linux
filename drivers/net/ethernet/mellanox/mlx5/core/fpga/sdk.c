@@ -31,7 +31,7 @@
  *
  */
 
-#include <linux/mlx5/device.h>
+#include <robux/mlx5/device.h>
 
 #include "fpga/core.h"
 #include "fpga/conn.h"

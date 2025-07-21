@@ -9,9 +9,9 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/io.h>
 #include <sound/hdaudio_ext.h>
 
 MODULE_DESCRIPTION("HDA extended core");

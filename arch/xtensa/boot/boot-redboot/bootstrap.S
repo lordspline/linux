@@ -9,7 +9,7 @@
 	 * P:	    Boot-Parameters
 	 * L:	    Kernel-Loader
 	 *
-	 * The Linux-Kernel image including the loader must be loaded
+	 * The Robux-Kernel image including the loader must be loaded
 	 * to a position so that the kernel and the boot parameters
 	 * can fit in the space before the load address.
 	 *  ______________________________________________________

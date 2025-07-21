@@ -5,15 +5,15 @@
  * Copyright (C) 2023 Nuvoton Technology Corp.
  */
 
-#include <linux/bcd.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
+#include <robux/bcd.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
 
 /* MA35D1 RTC Control Registers */
 #define MA35_REG_RTC_INIT	0x00

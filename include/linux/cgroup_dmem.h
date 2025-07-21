@@ -6,8 +6,8 @@
 #ifndef _CGROUP_DMEM_H
 #define _CGROUP_DMEM_H
 
-#include <linux/types.h>
-#include <linux/llist.h>
+#include <robux/types.h>
+#include <robux/llist.h>
 
 struct dmem_cgroup_pool_state;
 

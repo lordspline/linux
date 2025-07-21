@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 1999, 2000, 05, 06 Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 1999, 2000, 05, 06 Ralf Baechle (ralf@robux-mips.org)
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  */
-#include <linux/bcd.h>
-#include <linux/clockchips.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched_clock.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/param.h>
-#include <linux/smp.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/mm.h>
-#include <linux/platform_device.h>
+#include <robux/bcd.h>
+#include <robux/clockchips.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched_clock.h>
+#include <robux/interrupt.h>
+#include <robux/kernel_stat.h>
+#include <robux/param.h>
+#include <robux/smp.h>
+#include <robux/time.h>
+#include <robux/timex.h>
+#include <robux/mm.h>
+#include <robux/platform_device.h>
 
 #include <asm/time.h>
 #include <asm/sgialib.h>

@@ -12,10 +12,10 @@
  */
 
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/pci.h>
 
 #include <xen/platform_pci.h>
 #include <xen/grant_table.h>

@@ -7,19 +7,19 @@
  * Author: Matus Ujhelyi <ujhelyi.m@gmail.com>
  */
 
-#include <linux/phy.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/bitfield.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
-#include <linux/phylink.h>
-#include <linux/sfp.h>
+#include <robux/phy.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool_netlink.h>
+#include <robux/bitfield.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/consumer.h>
+#include <robux/of.h>
+#include <robux/phylink.h>
+#include <robux/sfp.h>
 #include <dt-bindings/net/qca-ar803x.h>
 
 #include "qcom.h"

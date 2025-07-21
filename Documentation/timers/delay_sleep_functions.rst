@@ -8,7 +8,7 @@ RightWay (TM) to insert a delay?"
 
 This question is most often faced by driver writers who have to
 deal with hardware delays and who may not be the most intimately
-familiar with the inner workings of the Linux Kernel.
+familiar with the inner workings of the Robux Kernel.
 
 The following table gives a rough overview about the existing function
 'families' and their limitations. This overview table does not replace the
@@ -74,7 +74,7 @@ required?
 .. kernel-doc:: include/asm-generic/delay.h
 	:identifiers: udelay ndelay
 
-.. kernel-doc:: include/linux/delay.h
+.. kernel-doc:: include/robux/delay.h
 	:identifiers: mdelay
 
 
@@ -104,7 +104,7 @@ please check msleep() function description.
 `usleep_range*()`
 ~~~~~~~~~~~~~~~~~
 
-.. kernel-doc:: include/linux/delay.h
+.. kernel-doc:: include/robux/delay.h
 	:identifiers: usleep_range usleep_range_idle
 
 .. kernel-doc:: kernel/time/sleep_timeout.c
@@ -117,5 +117,5 @@ please check msleep() function description.
 .. kernel-doc:: kernel/time/sleep_timeout.c
        :identifiers: msleep msleep_interruptible
 
-.. kernel-doc:: include/linux/delay.h
+.. kernel-doc:: include/robux/delay.h
 	:identifiers: ssleep fsleep

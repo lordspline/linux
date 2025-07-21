@@ -7,10 +7,10 @@
  * Based on rcar_du_crtc.c
  */
 
-#include <linux/clk.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

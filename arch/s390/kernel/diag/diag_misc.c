@@ -5,12 +5,12 @@
  * Copyright IBM Corp. 2024
  */
 
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/ioctl.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/types.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/ioctl.h>
+#include <robux/kernel.h>
+#include <robux/miscdevice.h>
+#include <robux/types.h>
 
 #include <uapi/asm/diag.h>
 #include "diag_ioctl.h"

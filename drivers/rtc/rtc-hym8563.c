@@ -9,11 +9,11 @@
  * Copyright (C) 2010 ROCKCHIP, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/clk-provider.h>
-#include <linux/i2c.h>
-#include <linux/bcd.h>
-#include <linux/rtc.h>
+#include <robux/module.h>
+#include <robux/clk-provider.h>
+#include <robux/i2c.h>
+#include <robux/bcd.h>
+#include <robux/rtc.h>
 
 #define HYM8563_CTL1		0x00
 #define HYM8563_CTL1_TEST	BIT(7)

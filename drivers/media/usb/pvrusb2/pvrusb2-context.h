@@ -6,9 +6,9 @@
 #ifndef __PVRUSB2_CONTEXT_H
 #define __PVRUSB2_CONTEXT_H
 
-#include <linux/mutex.h>
-#include <linux/usb.h>
-#include <linux/workqueue.h>
+#include <robux/mutex.h>
+#include <robux/usb.h>
+#include <robux/workqueue.h>
 
 struct pvr2_hdw;     /* hardware interface - defined elsewhere */
 struct pvr2_stream;  /* stream interface - defined elsewhere */

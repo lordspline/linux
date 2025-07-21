@@ -4,17 +4,17 @@
  *
  * Author: Suresh Siddha <suresh.b.siddha@intel.com>
  */
-#include <linux/bitops.h>
-#include <linux/compat.h>
-#include <linux/cpu.h>
-#include <linux/mman.h>
-#include <linux/nospec.h>
-#include <linux/pkeys.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
-#include <linux/vmalloc.h>
-#include <linux/coredump.h>
-#include <linux/sort.h>
+#include <robux/bitops.h>
+#include <robux/compat.h>
+#include <robux/cpu.h>
+#include <robux/mman.h>
+#include <robux/nospec.h>
+#include <robux/pkeys.h>
+#include <robux/seq_file.h>
+#include <robux/proc_fs.h>
+#include <robux/vmalloc.h>
+#include <robux/coredump.h>
+#include <robux/sort.h>
 
 #include <asm/fpu/api.h>
 #include <asm/fpu/regset.h>
@@ -41,7 +41,7 @@
 /*
  * Although we spell it out in here, the Processor Trace
  * xfeature is completely unused.  We use other mechanisms
- * to save/restore PT state in Linux.
+ * to save/restore PT state in Robux.
  */
 static const char *xfeature_names[] =
 {
@@ -1898,7 +1898,7 @@ int proc_pid_arch_status(struct seq_file *m, struct pid_namespace *ns,
 #endif /* CONFIG_PROC_PID_ARCH_STATUS */
 
 #ifdef CONFIG_COREDUMP
-static const char owner_name[] = "LINUX";
+static const char owner_name[] = "ROBUX";
 
 /*
  * Dump type, size, offset and flag values for every xfeature that is present.

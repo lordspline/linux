@@ -7,19 +7,19 @@
  * Author: Will Deacon <will.deacon@arm.com>
  */
 
-#include <linux/cache.h>
-#include <linux/clocksource.h>
-#include <linux/elf.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/vdso_datastore.h>
-#include <linux/vmalloc.h>
+#include <robux/cache.h>
+#include <robux/clocksource.h>
+#include <robux/elf.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/gfp.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/signal.h>
+#include <robux/slab.h>
+#include <robux/vdso_datastore.h>
+#include <robux/vmalloc.h>
 #include <vdso/datapage.h>
 #include <vdso/helpers.h>
 #include <vdso/vsyscall.h>

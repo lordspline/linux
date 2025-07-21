@@ -4,35 +4,35 @@
  *
  * Copyright (C) 2015, Intel Corporation
  *
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
- *          Heikki Krogerus <heikki.krogerus@linux.intel.com>
- *          Jarkko Nikula <jarkko.nikula@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@robux.intel.com>
+ *          Mika Westerberg <mika.westerberg@robux.intel.com>
+ *          Heikki Krogerus <heikki.krogerus@robux.intel.com>
+ *          Jarkko Nikula <jarkko.nikula@robux.intel.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/clkdev.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gfp_types.h>
-#include <linux/idr.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/pm_qos.h>
-#include <linux/pm_runtime.h>
-#include <linux/sprintf.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/bits.h>
+#include <robux/clkdev.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gfp_types.h>
+#include <robux/idr.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/pm_qos.h>
+#include <robux/pm_runtime.h>
+#include <robux/sprintf.h>
+#include <robux/types.h>
 
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
 
-#include <linux/dma/idma64.h>
+#include <robux/dma/idma64.h>
 
 #include "intel-lpss.h"
 
@@ -550,10 +550,10 @@ static void __exit intel_lpss_exit(void)
 }
 module_exit(intel_lpss_exit);
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
-MODULE_AUTHOR("Mika Westerberg <mika.westerberg@linux.intel.com>");
-MODULE_AUTHOR("Heikki Krogerus <heikki.krogerus@linux.intel.com>");
-MODULE_AUTHOR("Jarkko Nikula <jarkko.nikula@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@robux.intel.com>");
+MODULE_AUTHOR("Mika Westerberg <mika.westerberg@robux.intel.com>");
+MODULE_AUTHOR("Heikki Krogerus <heikki.krogerus@robux.intel.com>");
+MODULE_AUTHOR("Jarkko Nikula <jarkko.nikula@robux.intel.com>");
 MODULE_DESCRIPTION("Intel LPSS core driver");
 MODULE_LICENSE("GPL v2");
 /*

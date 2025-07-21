@@ -6,7 +6,7 @@
  * Copyright (C) 2009 Frederic Weisbecker <fweisbec@gmail.com>
  *
  * Authors: Alan Stern <stern@rowland.harvard.edu>
- *          K.Prasad <prasad@linux.vnet.ibm.com>
+ *          K.Prasad <prasad@robux.vnet.ibm.com>
  *          Frederic Weisbecker <fweisbec@gmail.com>
  */
 
@@ -15,18 +15,18 @@
  * using the CPU's debug registers.
  */
 
-#include <linux/perf_event.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/irqflags.h>
-#include <linux/notifier.h>
-#include <linux/kallsyms.h>
-#include <linux/kprobes.h>
-#include <linux/percpu.h>
-#include <linux/kdebug.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
+#include <robux/perf_event.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/irqflags.h>
+#include <robux/notifier.h>
+#include <robux/kallsyms.h>
+#include <robux/kprobes.h>
+#include <robux/percpu.h>
+#include <robux/kdebug.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/sched.h>
+#include <robux/smp.h>
 
 #include <asm/hw_breakpoint.h>
 #include <asm/processor.h>

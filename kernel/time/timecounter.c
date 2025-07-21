@@ -2,8 +2,8 @@
 /*
  * Based on clocksource code. See commit 74d23cc704d1
  */
-#include <linux/export.h>
-#include <linux/timecounter.h>
+#include <robux/export.h>
+#include <robux/timecounter.h>
 
 void timecounter_init(struct timecounter *tc,
 		      const struct cyclecounter *cc,

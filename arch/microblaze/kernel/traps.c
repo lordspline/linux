@@ -8,13 +8,13 @@
  * for more details.
  */
 
-#include <linux/cpu.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/kallsyms.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/debug_locks.h>
+#include <robux/cpu.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/kallsyms.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/debug_locks.h>
 
 #include <asm/exceptions.h>
 #include <asm/unwind.h>

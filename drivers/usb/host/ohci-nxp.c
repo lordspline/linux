@@ -16,16 +16,16 @@
  *
  * 2005-2006 (c) MontaVista Software, Inc.
  */
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/usb/isp1301.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/usb/isp1301.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
 
 #include "ohci.h"
 

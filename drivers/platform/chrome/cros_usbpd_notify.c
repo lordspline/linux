@@ -5,12 +5,12 @@
  * This driver serves as the receiver of cros_ec PD host events.
  */
 
-#include <linux/acpi.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_data/cros_usbpd_notify.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_data/cros_usbpd_notify.h>
+#include <robux/platform_device.h>
 
 #define DRV_NAME "cros-usbpd-notify"
 #define DRV_NAME_PLAT_ACPI "cros-usbpd-notify-acpi"

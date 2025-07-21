@@ -6,12 +6,12 @@
 #ifndef _LINUX_XDRGEN_NFS4_1_DECL_H
 #define _LINUX_XDRGEN_NFS4_1_DECL_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/xdrgen/_defs.h>
-#include <linux/sunrpc/xdrgen/_builtins.h>
-#include <linux/sunrpc/xdrgen/nfs4_1.h>
+#include <robux/sunrpc/xdr.h>
+#include <robux/sunrpc/xdrgen/_defs.h>
+#include <robux/sunrpc/xdrgen/_builtins.h>
+#include <robux/sunrpc/xdrgen/nfs4_1.h>
 
 bool xdrgen_decode_fattr4_open_arguments(struct xdr_stream *xdr, fattr4_open_arguments *ptr);
 bool xdrgen_encode_fattr4_open_arguments(struct xdr_stream *xdr, const fattr4_open_arguments *value);

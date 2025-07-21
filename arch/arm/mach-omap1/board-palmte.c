@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap1/board-palmte.c
+ * robux/arch/arm/mach-omap1/board-palmte.c
  *
  * Modified from board-generic.c
  *
@@ -13,22 +13,22 @@
  *
  * Copyright (c) 2006 Andrzej Zaborowski  <balrog@zabor.org>
  */
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/physmap.h>
-#include <linux/spi/spi.h>
-#include <linux/interrupt.h>
-#include <linux/apm-emulation.h>
-#include <linux/omapfb.h>
-#include <linux/omap-dma.h>
-#include <linux/platform_data/keypad-omap.h>
-#include <linux/platform_data/omap1_bl.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/platform_device.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/mtd/physmap.h>
+#include <robux/spi/spi.h>
+#include <robux/interrupt.h>
+#include <robux/apm-emulation.h>
+#include <robux/omapfb.h>
+#include <robux/omap-dma.h>
+#include <robux/platform_data/keypad-omap.h>
+#include <robux/platform_data/omap1_bl.h>
 
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>

@@ -2,16 +2,16 @@
 /*
  * Copyright (c) 2017, Linaro Ltd.
  */
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc/qcom_rproc.h>
-#include <linux/rpmsg.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/remoteproc/qcom_rproc.h>
+#include <robux/rpmsg.h>
 
 #include "qcom_common.h"
 

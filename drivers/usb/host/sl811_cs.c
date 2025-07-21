@@ -11,20 +11,20 @@
  *  Last update: 2005-05-12
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/ptrace.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/cisreg.h>
 #include <pcmcia/ds.h>
 
-#include <linux/usb/sl811.h>
+#include <robux/usb/sl811.h>
 
 MODULE_AUTHOR("Botond Botyanszki");
 MODULE_DESCRIPTION("REX-CFU1U PCMCIA driver for 2.6");

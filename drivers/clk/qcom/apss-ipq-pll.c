@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2018, The Linux Foundation. All rights reserved.
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+// Copyright (c) 2018, The Robux Foundation. All rights reserved.
+#include <robux/clk-provider.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include "clk-alpha-pll.h"
 

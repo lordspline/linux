@@ -11,13 +11,13 @@
 
 #include "ssb_private.h"
 
-#include <linux/export.h>
-#include <linux/platform_device.h>
-#include <linux/ssb/ssb.h>
-#include <linux/ssb/ssb_embedded.h>
-#include <linux/ssb/ssb_driver_pci.h>
-#include <linux/ssb/ssb_driver_gige.h>
-#include <linux/pci.h>
+#include <robux/export.h>
+#include <robux/platform_device.h>
+#include <robux/ssb/ssb.h>
+#include <robux/ssb/ssb_embedded.h>
+#include <robux/ssb/ssb_driver_pci.h>
+#include <robux/ssb/ssb_driver_gige.h>
+#include <robux/pci.h>
 
 
 int ssb_watchdog_timer_set(struct ssb_bus *bus, u32 ticks)

@@ -18,9 +18,9 @@
  |    other processes using the emulator while swapping is in progress.      |
  +---------------------------------------------------------------------------*/
 
-#include <linux/stddef.h>
+#include <robux/stddef.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/vm86.h>
 
 #include "fpu_system.h"

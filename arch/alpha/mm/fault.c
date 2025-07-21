@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/alpha/mm/fault.c
+ *  robux/arch/alpha/mm/fault.c
  *
  *  Copyright (C) 1995  Linus Torvalds
  */
 
-#include <linux/sched/signal.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
+#include <robux/sched/signal.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
 #include <asm/io.h>
 
 #define __EXTERN_INLINE inline
@@ -15,17 +15,17 @@
 #include <asm/tlbflush.h>
 #undef  __EXTERN_INLINE
 
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/extable.h>
-#include <linux/uaccess.h>
-#include <linux/perf_event.h>
+#include <robux/signal.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/ptrace.h>
+#include <robux/mman.h>
+#include <robux/smp.h>
+#include <robux/interrupt.h>
+#include <robux/extable.h>
+#include <robux/uaccess.h>
+#include <robux/perf_event.h>
 
 extern void die_if_kernel(char *,struct pt_regs *,long, unsigned long *);
 

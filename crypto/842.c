@@ -4,8 +4,8 @@
  *
  * Copyright (C) IBM Corporation, 2011-2015
  *
- * Original Authors: Robert Jennings <rcj@linux.vnet.ibm.com>
- *                   Seth Jennings <sjenning@linux.vnet.ibm.com>
+ * Original Authors: Robert Jennings <rcj@robux.vnet.ibm.com>
+ *                   Seth Jennings <sjenning@robux.vnet.ibm.com>
  *
  * Rewrite: Dan Streetman <ddstreet@ieee.org>
  *
@@ -19,9 +19,9 @@
  */
 
 #include <crypto/internal/scompress.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/sw842.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/sw842.h>
 
 static void *crypto842_alloc_ctx(void)
 {

@@ -3,10 +3,10 @@
  * Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
  */
 
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/thermal.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/thermal.h>
 
 struct thermal_mmio {
 	void __iomem *mmio_base;

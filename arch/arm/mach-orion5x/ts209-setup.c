@@ -4,20 +4,20 @@
  *
  * Maintainer: Byron Bradley <byron.bbradley@gmail.com>
  */
-#include <linux/gpio.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/irq.h>
-#include <linux/mtd/physmap.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mv643xx_eth.h>
-#include <linux/gpio_keys.h>
-#include <linux/input.h>
-#include <linux/i2c.h>
-#include <linux/serial_reg.h>
-#include <linux/ata_platform.h>
+#include <robux/gpio.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/pci.h>
+#include <robux/irq.h>
+#include <robux/mtd/physmap.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mv643xx_eth.h>
+#include <robux/gpio_keys.h>
+#include <robux/input.h>
+#include <robux/i2c.h>
+#include <robux/serial_reg.h>
+#include <robux/ata_platform.h>
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/pci.h>

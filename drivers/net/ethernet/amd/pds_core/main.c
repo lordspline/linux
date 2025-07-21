@@ -3,9 +3,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 
-#include <linux/pds/pds_common.h>
+#include <robux/pds/pds_common.h>
 
 #include "core.h"
 

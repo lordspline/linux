@@ -8,9 +8,9 @@
  * Author: Oleksandr Andrushchenko <oleksandr_andrushchenko@epam.com>
  */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_drv.h>

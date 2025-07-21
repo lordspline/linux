@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 void rust_helper_pci_set_drvdata(struct pci_dev *pdev, void *data)
 {

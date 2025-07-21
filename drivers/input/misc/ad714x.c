@@ -5,12 +5,12 @@
  * Copyright 2009-2011 Analog Devices Inc.
  */
 
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/input/ad714x.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/input/ad714x.h>
+#include <robux/module.h>
 #include "ad714x.h"
 
 #define AD714X_PWR_CTRL           0x0

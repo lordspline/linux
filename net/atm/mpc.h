@@ -2,11 +2,11 @@
 #ifndef _MPC_H_
 #define _MPC_H_
 
-#include <linux/types.h>
-#include <linux/atm.h>
-#include <linux/atmmpc.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
+#include <robux/types.h>
+#include <robux/atm.h>
+#include <robux/atmmpc.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
 #include "mpoa_caches.h"
 
 /* kernel -> mpc-daemon */

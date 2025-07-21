@@ -7,7 +7,7 @@
 	.global kernel_info
 
 kernel_info:
-	/* Header, Linux top (structure). */
+	/* Header, Robux top (structure). */
 	.ascii	"LToP"
 	/* Size. */
 	.long	kernel_info_var_len_data - kernel_info

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap2/io.c
+ * robux/arch/arm/mach-omap2/io.c
  *
  * OMAP2 I/O mapping code
  *
@@ -13,16 +13,16 @@
  *
  * Added OMAP4 support - Santosh Shilimkar <santosh.shilimkar@ti.com>
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/clk.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/clk.h>
 
 #include <asm/tlb.h>
 #include <asm/mach/map.h>
 
-#include <linux/omap-dma.h>
+#include <robux/omap-dma.h>
 
 #include "omap_hwmod.h"
 #include "soc.h"

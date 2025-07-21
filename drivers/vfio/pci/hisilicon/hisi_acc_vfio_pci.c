@@ -3,16 +3,16 @@
  * Copyright (c) 2021, HiSilicon Ltd.
  */
 
-#include <linux/device.h>
-#include <linux/eventfd.h>
-#include <linux/file.h>
-#include <linux/hisi_acc_qm.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/vfio.h>
-#include <linux/vfio_pci_core.h>
-#include <linux/anon_inodes.h>
+#include <robux/device.h>
+#include <robux/eventfd.h>
+#include <robux/file.h>
+#include <robux/hisi_acc_qm.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/vfio.h>
+#include <robux/vfio_pci_core.h>
+#include <robux/anon_inodes.h>
 
 #include "hisi_acc_vfio_pci.h"
 

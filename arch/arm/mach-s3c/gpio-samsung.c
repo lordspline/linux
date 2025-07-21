@@ -10,19 +10,19 @@
 //
 // Samsung - GPIOlib support
 
-#include <linux/kernel.h>
-#include <linux/gpio/driver.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/of_address.h>
+#include <robux/kernel.h>
+#include <robux/gpio/driver.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
+#include <robux/ioport.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/of_address.h>
 
 #include <asm/irq.h>
 

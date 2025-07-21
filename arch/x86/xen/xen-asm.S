@@ -18,9 +18,9 @@
 
 #include <xen/interface/xen.h>
 
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/objtool.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
+#include <robux/objtool.h>
 #include <../entry/calling.h>
 
 .pushsection .noinstr.text, "ax"

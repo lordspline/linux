@@ -28,21 +28,21 @@
 		key-power {
 			label = "Power";
 			gpios = <&tlmm 106 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_POWER>;
+			robux,code = <KEY_POWER>;
 			debounce-interval = <15>;
 		};
 
 		key-volume-down {
 			label = "Volume Down";
 			gpios = <&tlmm 107 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEDOWN>;
+			robux,code = <KEY_VOLUMEDOWN>;
 			debounce-interval = <15>;
 		};
 
 		key-volume-up {
 			label = "Volume Up";
 			gpios = <&tlmm 108 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 			debounce-interval = <15>;
 		};
 	};

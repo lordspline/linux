@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 
 #include "lkdtm.h"
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 #include <asm/mmu.h>
 
 /* Inserts new slb entries */

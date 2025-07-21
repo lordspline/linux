@@ -8,13 +8,13 @@
  *
  * Based on the gpio-poweroff driver.
  */
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/reboot.h>
-#include <linux/regulator/consumer.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/reboot.h>
+#include <robux/regulator/consumer.h>
 
 #define TIMEOUT_MS 3000
 

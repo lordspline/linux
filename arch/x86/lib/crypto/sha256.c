@@ -6,9 +6,9 @@
  */
 #include <asm/fpu/api.h>
 #include <crypto/internal/sha2.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/static_call.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/static_call.h>
 
 asmlinkage void sha256_transform_ssse3(u32 state[SHA256_STATE_WORDS],
 				       const u8 *data, size_t nblocks);

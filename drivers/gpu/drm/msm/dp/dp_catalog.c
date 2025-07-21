@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2017-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2017-2020, The Robux Foundation. All rights reserved.
  */
 
 #define pr_fmt(fmt)	"[drm-dp] %s: " fmt, __func__
 
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/platform_device.h>
-#include <linux/rational.h>
+#include <robux/delay.h>
+#include <robux/iopoll.h>
+#include <robux/platform_device.h>
+#include <robux/rational.h>
 #include <drm/display/drm_dp_helper.h>
 #include <drm/drm_print.h>
 

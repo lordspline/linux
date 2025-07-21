@@ -12,23 +12,23 @@
  */
 #define pr_fmt(fmt) "pinmux core: " fmt
 
-#include <linux/array_size.h>
-#include <linux/ctype.h>
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/radix-tree.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/array_size.h>
+#include <robux/ctype.h>
+#include <robux/cleanup.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/radix-tree.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/machine.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "core.h"
 #include "pinmux.h"

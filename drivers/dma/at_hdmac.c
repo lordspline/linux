@@ -11,19 +11,19 @@
  */
 
 #include <dt-bindings/dma/at91.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/overflow.h>
-#include <linux/of_platform.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/dmaengine.h>
+#include <robux/dmapool.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/overflow.h>
+#include <robux/of_platform.h>
+#include <robux/of_dma.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "dmaengine.h"
 #include "virt-dma.h"

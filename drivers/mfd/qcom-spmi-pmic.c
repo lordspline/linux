@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/spmi.h>
-#include <linux/types.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/gfp.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/of_platform.h>
+#include <robux/spmi.h>
+#include <robux/types.h>
+#include <robux/regmap.h>
 #include <soc/qcom/qcom-spmi-pmic.h>
 
 #define PMIC_REV2		0x101

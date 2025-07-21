@@ -3,13 +3,13 @@
  * Copyright (C) 2020 Intel Corporation
  * Author: Johannes Berg <johannes@sipsolutions.net>
  */
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/logic_iomem.h>
-#include <linux/of_platform.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/logic_iomem.h>
+#include <robux/of_platform.h>
+#include <robux/irqdomain.h>
+#include <robux/msi.h>
+#include <robux/unaligned.h>
 #include <irq_kern.h>
 
 #include "virt-pci.h"

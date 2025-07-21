@@ -6,9 +6,9 @@
  * of the registers indicated by operands.
  */
 
-#include <linux/compiler.h>
-#include <linux/bug.h>
-#include <linux/err.h>
+#include <robux/compiler.h>
+#include <robux/bug.h>
+#include <robux/err.h>
 #include <asm/ptrace.h>
 
 #define INSN_CODE_SEG_ADDR_SZ(params) ((params >> 4) & 0xf)

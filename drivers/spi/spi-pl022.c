@@ -8,31 +8,31 @@
  * Author: Linus Walleij <linus.walleij@stericsson.com>
  *
  * Initial version inspired by:
- *	linux-2.6.17-rc3-mm1/drivers/spi/pxa2xx_spi.c
+ *	robux-2.6.17-rc3-mm1/drivers/spi/pxa2xx_spi.c
  * Initial adoption to PL022 by:
  *      Sachin Verma <sachin.verma@st.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/ioport.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/spi/spi.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/amba/bus.h>
-#include <linux/amba/pl022.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/scatterlist.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/ioport.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/spi/spi.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/amba/bus.h>
+#include <robux/amba/pl022.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/scatterlist.h>
+#include <robux/pm_runtime.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
 
 /*
  * This macro is used to define some register default values.

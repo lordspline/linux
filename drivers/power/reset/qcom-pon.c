@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2017-18 Linaro Limited
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/reboot-mode.h>
-#include <linux/regmap.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/reboot-mode.h>
+#include <robux/regmap.h>
 
 #define PON_SOFT_RB_SPARE		0x8f
 

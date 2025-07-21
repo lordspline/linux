@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  * Copyright (C) 2013 Richard Weinberger <richrd@nod.at>
  */
 
-#include <linux/kallsyms.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
+#include <robux/kallsyms.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/stacktrace.h>
 #include <os.h>

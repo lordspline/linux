@@ -56,9 +56,9 @@
 #define _ISCI_PROBE_ROMS_H_
 
 #ifdef __KERNEL__
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/efi.h>
+#include <robux/firmware.h>
+#include <robux/pci.h>
+#include <robux/efi.h>
 #include "isci.h"
 
 #define SCIC_SDS_PARM_NO_SPEED   0

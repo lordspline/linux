@@ -6,13 +6,13 @@
  * Gated clock implementation
  */
 
-#include <linux/clk-provider.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/string.h>
+#include <robux/clk-provider.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/string.h>
 #include "clk.h"
 
 /**

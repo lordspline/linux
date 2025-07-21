@@ -6,12 +6,12 @@
 #ifndef __USBIP_STUB_H
 #define __USBIP_STUB_H
 
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/usb.h>
-#include <linux/wait.h>
+#include <robux/list.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/usb.h>
+#include <robux/wait.h>
 
 #define STUB_BUSID_OTHER 0
 #define STUB_BUSID_REMOV 1

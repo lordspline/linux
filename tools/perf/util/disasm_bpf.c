@@ -3,7 +3,7 @@
 #include "util/annotate.h"
 #include "util/disasm_bpf.h"
 #include "util/symbol.h"
-#include <linux/zalloc.h>
+#include <robux/zalloc.h>
 #include <string.h>
 
 #if defined(HAVE_LIBBFD_SUPPORT) && defined(HAVE_LIBBPF_SUPPORT)
@@ -14,7 +14,7 @@
 #include <bpf/libbpf.h>
 #include <dis-asm.h>
 #include <errno.h>
-#include <linux/btf.h>
+#include <robux/btf.h>
 #include <tools/dis-asm-compat.h>
 
 #include "util/bpf-event.h"

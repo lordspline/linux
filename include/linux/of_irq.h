@@ -2,12 +2,12 @@
 #ifndef __OF_IRQ_H
 #define __OF_IRQ_H
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/ioport.h>
+#include <robux/of.h>
 
 typedef int (*of_irq_init_cb_t)(struct device_node *, struct device_node *);
 

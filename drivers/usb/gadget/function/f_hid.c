@@ -5,20 +5,20 @@
  * Copyright (C) 2010 Fabien Chouteau <fabien.chouteau@barco.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/hid.h>
-#include <linux/idr.h>
-#include <linux/cdev.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/workqueue.h>
-#include <linux/usb/func_utils.h>
-#include <linux/usb/g_hid.h>
-#include <uapi/linux/usb/g_hid.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/hid.h>
+#include <robux/idr.h>
+#include <robux/cdev.h>
+#include <robux/mutex.h>
+#include <robux/poll.h>
+#include <robux/uaccess.h>
+#include <robux/wait.h>
+#include <robux/sched.h>
+#include <robux/workqueue.h>
+#include <robux/usb/func_utils.h>
+#include <robux/usb/g_hid.h>
+#include <uapi/robux/usb/g_hid.h>
 
 #include "u_hid.h"
 

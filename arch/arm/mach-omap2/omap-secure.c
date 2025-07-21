@@ -8,13 +8,13 @@
  * Copyright (C) 2013 Pali Rohár <pali@kernel.org>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/cpu_pm.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
+#include <robux/arm-smccc.h>
+#include <robux/cpu_pm.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/memblock.h>
+#include <robux/of.h>
 
 #include <asm/cacheflush.h>
 #include <asm/memblock.h>

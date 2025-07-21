@@ -6,20 +6,20 @@
  * Copyright (C) 2023 Niklas Söderlund <niklas.soderlund@ragnatech.se>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/module.h>
-#include <linux/net_tstamp.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/module.h>
+#include <robux/net_tstamp.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/spinlock.h>
 
 #include "rtsn.h"
 #include "rcar_gen4_ptp.h"

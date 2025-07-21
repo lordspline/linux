@@ -2,18 +2,18 @@
 
 #define pr_fmt(fmt) "papr-vpd: " fmt
 
-#include <linux/build_bug.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/lockdep.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/string_helpers.h>
-#include <linux/uaccess.h>
+#include <robux/build_bug.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/lockdep.h>
+#include <robux/kernel.h>
+#include <robux/miscdevice.h>
+#include <robux/signal.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/string_helpers.h>
+#include <robux/uaccess.h>
 #include <asm/machdep.h>
 #include <asm/papr-vpd.h>
 #include <asm/rtas-work-area.h>

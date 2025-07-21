@@ -6,17 +6,17 @@
  * Copyright (C) 2018 Nicolas Saenz Julienne <nsaenzjulienne@suse.de>
  */
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/bitops.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
 #include <soc/bcm2835/raspberrypi-firmware.h>
 
 #define RPI_TS_DEFAULT_WIDTH	800

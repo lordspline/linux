@@ -7,25 +7,25 @@
  *	Jaswinder Singh <jassi.brar@samsung.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/amba/bus.h>
-#include <linux/scatterlist.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/err.h>
-#include <linux/pm_runtime.h>
-#include <linux/bug.h>
-#include <linux/reset.h>
+#include <robux/debugfs.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/amba/bus.h>
+#include <robux/scatterlist.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/err.h>
+#include <robux/pm_runtime.h>
+#include <robux/bug.h>
+#include <robux/reset.h>
 
 #include "dmaengine.h"
 #define PL330_MAX_CHAN		8

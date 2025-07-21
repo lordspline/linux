@@ -2,9 +2,9 @@
 #ifndef _LINUX_LINKAGE_H
 #define _LINUX_LINKAGE_H
 
-#include <linux/compiler_types.h>
-#include <linux/stringify.h>
-#include <linux/export.h>
+#include <robux/compiler_types.h>
+#include <robux/stringify.h>
+#include <robux/export.h>
 #include <asm/linkage.h>
 
 /* Some toolchains use other characters (e.g. '`') to mark new line in macro */

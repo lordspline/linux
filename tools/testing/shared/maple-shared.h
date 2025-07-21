@@ -8,6 +8,6 @@
 #include "shared.h"
 #include <stdlib.h>
 #include <time.h>
-#include "linux/init.h"
+#include "robux/init.h"
 
 #endif /* __MAPLE_SHARED_H__ */

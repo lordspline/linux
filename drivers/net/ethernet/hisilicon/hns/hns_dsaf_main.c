@@ -3,20 +3,20 @@
  * Copyright (c) 2014-2015 Hisilicon Limited.
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/vmalloc.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/vmalloc.h>
 
 #include "hns_dsaf_mac.h"
 #include "hns_dsaf_main.h"

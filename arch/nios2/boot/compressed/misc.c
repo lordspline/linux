@@ -3,7 +3,7 @@
  * Copyright (C) 2009 Thomas Chou <thomas@wytron.com.tw>
  *
  * This is a collection of several routines from gzip-1.0.3
- * adapted for Linux.
+ * adapted for Robux.
  *
  * malloc by Hannu Savolainen 1993 and Matthias Urlichs 1994
  *
@@ -14,7 +14,7 @@
  * Based on arch/sh/boot/compressed/misc.c
  */
 
-#include <linux/string.h>
+#include <robux/string.h>
 
 /*
  * gzip declarations
@@ -168,7 +168,7 @@ void decompress_kernel(void)
 
 	console_init();
 	makecrc();
-	puts("Uncompressing Linux... ");
+	puts("Uncompressing Robux... ");
 	gunzip();
 	puts("Ok, booting the kernel.\n");
 }

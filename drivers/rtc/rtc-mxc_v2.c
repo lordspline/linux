@@ -5,13 +5,13 @@
  * Copyright (c) 2017 Beckhoff Automation GmbH & Co. KG
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/rtc.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/rtc.h>
 
 #define SRTC_LPPDR_INIT       0x41736166	/* init for glitch detect */
 

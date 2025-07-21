@@ -5,7 +5,7 @@
 #if !defined(_TRACE_THERMAL_POWER_ALLOCATOR_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_THERMAL_POWER_ALLOCATOR_H
 
-#include <linux/tracepoint.h>
+#include <robux/tracepoint.h>
 
 #include "thermal_core.h"
 

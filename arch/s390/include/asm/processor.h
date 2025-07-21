@@ -12,7 +12,7 @@
 #ifndef __ASM_S390_PROCESSOR_H
 #define __ASM_S390_PROCESSOR_H
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 #define CIF_NOHZ_DELAY		2	/* delay HZ disable for a tick */
 #define CIF_ENABLED_WAIT	5	/* in enabled wait state */
@@ -28,10 +28,10 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/cpumask.h>
-#include <linux/linkage.h>
-#include <linux/irqflags.h>
-#include <linux/bitops.h>
+#include <robux/cpumask.h>
+#include <robux/linkage.h>
+#include <robux/irqflags.h>
+#include <robux/bitops.h>
 #include <asm/fpu-types.h>
 #include <asm/cpu.h>
 #include <asm/page.h>

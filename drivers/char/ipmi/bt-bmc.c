@@ -3,18 +3,18 @@
  * Copyright (c) 2015-2016, IBM Corporation.
  */
 
-#include <linux/atomic.h>
-#include <linux/bt-bmc.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
+#include <robux/atomic.h>
+#include <robux/bt-bmc.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/poll.h>
+#include <robux/sched.h>
+#include <robux/timer.h>
 
 /*
  * This is a BMC device used to communicate to the host
@@ -489,4 +489,4 @@ module_platform_driver(bt_bmc_driver);
 MODULE_DEVICE_TABLE(of, bt_bmc_match);
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Alistair Popple <alistair@popple.id.au>");
-MODULE_DESCRIPTION("Linux device interface to the IPMI BT interface");
+MODULE_DESCRIPTION("Robux device interface to the IPMI BT interface");

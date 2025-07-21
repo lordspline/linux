@@ -5,7 +5,7 @@
  * Copyright © 2014 Jussi Kivilinna <jussi.kivilinna@iki.fi>
  */
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 .file "des3_ede-asm_64.S"
 .text

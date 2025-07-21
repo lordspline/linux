@@ -3,9 +3,9 @@
 #include <inttypes.h>
 #include <stdlib.h>
 #include <string.h>
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>

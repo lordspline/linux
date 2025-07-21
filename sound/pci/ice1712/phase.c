@@ -28,11 +28,11 @@
  *   Digital receiver: CS8414-CS (supported in this release)
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
 
 #include <sound/core.h>
 

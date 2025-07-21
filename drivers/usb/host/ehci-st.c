@@ -9,21 +9,21 @@
  * Derived from ehci-platform.c
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/hrtimer.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/ehci_pdriver.h>
-#include <linux/pinctrl/consumer.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/hrtimer.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/ehci_pdriver.h>
+#include <robux/pinctrl/consumer.h>
 
 #include "ehci.h"
 

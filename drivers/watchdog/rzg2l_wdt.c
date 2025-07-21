@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2021 Renesas Electronics Corporation
  */
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/units.h>
-#include <linux/watchdog.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/units.h>
+#include <robux/watchdog.h>
 
 #define WDTCNT		0x00
 #define WDTSET		0x04

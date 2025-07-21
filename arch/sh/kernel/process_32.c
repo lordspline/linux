@@ -10,19 +10,19 @@
  *		     Copyright (C) 2006 Lineo Solutions Inc. support SH4A UBC
  *		     Copyright (C) 2002 - 2008  Paul Mundt
  */
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/slab.h>
-#include <linux/elfcore.h>
-#include <linux/fs.h>
-#include <linux/ftrace.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/prefetch.h>
-#include <linux/stackprotector.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task.h>
+#include <robux/sched/task_stack.h>
+#include <robux/slab.h>
+#include <robux/elfcore.h>
+#include <robux/fs.h>
+#include <robux/ftrace.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/prefetch.h>
+#include <robux/stackprotector.h>
+#include <robux/uaccess.h>
 #include <asm/mmu_context.h>
 #include <asm/fpu.h>
 #include <asm/syscalls.h>

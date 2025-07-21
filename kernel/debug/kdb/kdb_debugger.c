@@ -8,11 +8,11 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/kgdb.h>
-#include <linux/kdb.h>
-#include <linux/kdebug.h>
-#include <linux/export.h>
-#include <linux/hardirq.h>
+#include <robux/kgdb.h>
+#include <robux/kdb.h>
+#include <robux/kdebug.h>
+#include <robux/export.h>
+#include <robux/hardirq.h>
 #include "kdb_private.h"
 #include "../debug_core.h"
 

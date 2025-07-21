@@ -3,16 +3,16 @@
  * Copyright (C) 2003 David Brownell
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/device.h>
-#include <linux/nls.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/string.h>
+#include <robux/device.h>
+#include <robux/nls.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
 
 
 /**

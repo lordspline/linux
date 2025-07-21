@@ -1,34 +1,34 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/smp.c
+ *  robux/arch/arm/kernel/smp.c
  *
  *  Copyright (C) 2002 ARM Limited, All Rights Reserved.
  */
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/interrupt.h>
-#include <linux/cache.h>
-#include <linux/profile.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/err.h>
-#include <linux/cpu.h>
-#include <linux/seq_file.h>
-#include <linux/irq.h>
-#include <linux/nmi.h>
-#include <linux/percpu.h>
-#include <linux/clockchips.h>
-#include <linux/completion.h>
-#include <linux/cpufreq.h>
-#include <linux/irq_work.h>
-#include <linux/kernel_stat.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/sched/mm.h>
+#include <robux/sched/hotplug.h>
+#include <robux/sched/task_stack.h>
+#include <robux/interrupt.h>
+#include <robux/cache.h>
+#include <robux/profile.h>
+#include <robux/errno.h>
+#include <robux/mm.h>
+#include <robux/err.h>
+#include <robux/cpu.h>
+#include <robux/seq_file.h>
+#include <robux/irq.h>
+#include <robux/nmi.h>
+#include <robux/percpu.h>
+#include <robux/clockchips.h>
+#include <robux/completion.h>
+#include <robux/cpufreq.h>
+#include <robux/irq_work.h>
+#include <robux/kernel_stat.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/bugs.h>
 #include <asm/smp.h>
 #include <asm/cacheflush.h>

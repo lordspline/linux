@@ -3,9 +3,9 @@
 // Authors: Ard Biesheuvel <ardb@google.com>
 //          Peter Collingbourne <pcc@google.com>
 
-#include <linux/elf.h>
-#include <linux/init.h>
-#include <linux/types.h>
+#include <robux/elf.h>
+#include <robux/init.h>
+#include <robux/types.h>
 
 #include "pi.h"
 

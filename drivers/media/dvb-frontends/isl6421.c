@@ -7,13 +7,13 @@
  *
  * the project's page is at https://linuxtv.org
  */
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/slab.h>
 
 #include <media/dvb_frontend.h>
 #include "isl6421.h"

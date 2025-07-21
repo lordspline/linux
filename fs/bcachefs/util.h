@@ -2,24 +2,24 @@
 #ifndef _BCACHEFS_UTIL_H
 #define _BCACHEFS_UTIL_H
 
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/closure.h>
-#include <linux/errno.h>
-#include <linux/freezer.h>
-#include <linux/kernel.h>
-#include <linux/min_heap.h>
-#include <linux/sched/clock.h>
-#include <linux/llist.h>
-#include <linux/log2.h>
-#include <linux/percpu.h>
-#include <linux/preempt.h>
-#include <linux/random.h>
-#include <linux/ratelimit.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
-#include <linux/vmalloc.h>
-#include <linux/workqueue.h>
+#include <robux/bio.h>
+#include <robux/blkdev.h>
+#include <robux/closure.h>
+#include <robux/errno.h>
+#include <robux/freezer.h>
+#include <robux/kernel.h>
+#include <robux/min_heap.h>
+#include <robux/sched/clock.h>
+#include <robux/llist.h>
+#include <robux/log2.h>
+#include <robux/percpu.h>
+#include <robux/preempt.h>
+#include <robux/random.h>
+#include <robux/ratelimit.h>
+#include <robux/slab.h>
+#include <robux/sort.h>
+#include <robux/vmalloc.h>
+#include <robux/workqueue.h>
 
 #include "mean_and_variance.h"
 
@@ -683,7 +683,7 @@ static inline int cmp_le32(__le32 l, __le32 r)
 	return cmp_int(le32_to_cpu(l), le32_to_cpu(r));
 }
 
-#include <linux/uuid.h>
+#include <robux/uuid.h>
 
 static inline bool qstr_eq(const struct qstr l, const struct qstr r)
 {

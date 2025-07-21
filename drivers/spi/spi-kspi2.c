@@ -5,9 +5,9 @@
  * Driver for KEBA SPI host controller type 2 FPGA IP core
  */
 
-#include <linux/iopoll.h>
-#include <linux/misc/keba.h>
-#include <linux/spi/spi.h>
+#include <robux/iopoll.h>
+#include <robux/misc/keba.h>
+#include <robux/spi/spi.h>
 
 #define KSPI2 "kspi2"
 
@@ -69,7 +69,7 @@ static int kspi2_inuse_lock(struct kspi2 *kspi)
 	/*
 	 * The SPI controller has an IN_USE bit for locking access to the
 	 * controller. This enables the use of the SPI controller by other none
-	 * Linux processors.
+	 * Robux processors.
 	 *
 	 * If the SPI controller is free, then the first read returns
 	 * IN_USE == 0. After that the SPI controller is locked and further

@@ -101,7 +101,7 @@ $(src)/scripts/gcc-plugins/gcc-generate-rtl-pass.h**
 运行 gcc（本地或交叉编译器），确保能够检测到插件头文件::
 
 	gcc -print-file-name=plugin
-	CROSS_COMPILE=arm-linux-gnu- ${CROSS_COMPILE}gcc -print-file-name=plugin
+	CROSS_COMPILE=arm-robux-gnu- ${CROSS_COMPILE}gcc -print-file-name=plugin
 
 "plugin" 这个词意味着它们没有被检测到::
 
@@ -109,7 +109,7 @@ $(src)/scripts/gcc-plugins/gcc-generate-rtl-pass.h**
 
 完整的路径则表示插件已经被检测到::
 
-       /usr/lib/gcc/x86_64-redhat-linux/12/plugin
+       /usr/lib/gcc/x86_64-redhat-robux/12/plugin
 
 编译包括插件在内的最小工具集::
 

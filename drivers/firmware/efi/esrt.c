@@ -13,17 +13,17 @@
  */
 #define pr_fmt(fmt) "esrt: " fmt
 
-#include <linux/capability.h>
-#include <linux/device.h>
-#include <linux/efi.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/kobject.h>
-#include <linux/list.h>
-#include <linux/memblock.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/capability.h>
+#include <robux/device.h>
+#include <robux/efi.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/kobject.h>
+#include <robux/list.h>
+#include <robux/memblock.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include <asm/io.h>
 #include <asm/early_ioremap.h>

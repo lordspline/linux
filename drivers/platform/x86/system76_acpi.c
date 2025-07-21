@@ -9,18 +9,18 @@
  * published by the Free Software Foundation.
  */
 
-#include <linux/acpi.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/pci_ids.h>
-#include <linux/power_supply.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/pci_ids.h>
+#include <robux/power_supply.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 #include <acpi/battery.h>
 

@@ -5,22 +5,22 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/acpi.h>
-#include <linux/acpi_iort.h>
-#include <linux/acpi_viot.h>
-#include <linux/iommu.h>
-#include <linux/signal.h>
-#include <linux/kthread.h>
-#include <linux/dmi.h>
-#include <linux/dma-map-ops.h>
-#include <linux/platform_data/x86/apple.h>
-#include <linux/pgtable.h>
-#include <linux/crc32.h>
-#include <linux/dma-direct.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/acpi.h>
+#include <robux/acpi_iort.h>
+#include <robux/acpi_viot.h>
+#include <robux/iommu.h>
+#include <robux/signal.h>
+#include <robux/kthread.h>
+#include <robux/dmi.h>
+#include <robux/dma-map-ops.h>
+#include <robux/platform_data/x86/apple.h>
+#include <robux/pgtable.h>
+#include <robux/crc32.h>
+#include <robux/dma-direct.h>
 
 #include "internal.h"
 #include "sleep.h"
@@ -1286,7 +1286,7 @@ acpi_backlight_cap_match(acpi_handle handle, u32 level, void *context,
 
 /* Returns true if the ACPI object is a video device which can be
  * handled by video.ko.
- * The device will get a Linux specific CID added in scan.c to
+ * The device will get a Robux specific CID added in scan.c to
  * identify the device as an ACPI graphics device
  * Be aware that the graphics device may not be physically present
  * Use acpi_video_get_capabilities() to detect general ACPI video

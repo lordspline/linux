@@ -8,14 +8,14 @@
  * Datasheet: https://www.allsensors.com/cad/DS-0355_Rev_B.PDF
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/unaligned.h>
 
 /* Commands */
 #define DLH_START_SINGLE    0xAA

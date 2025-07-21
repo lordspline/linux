@@ -13,18 +13,18 @@
  * Based on lasi700.c
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/mm.h>
-#include <linux/blkdev.h>
-#include <linux/sched.h>
-#include <linux/ioport.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/stat.h>
+#include <robux/mm.h>
+#include <robux/blkdev.h>
+#include <robux/sched.h>
+#include <robux/ioport.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
 
 #include <asm/page.h>
 #include <asm/irq.h>

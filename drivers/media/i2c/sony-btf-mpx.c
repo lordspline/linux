@@ -3,15 +3,15 @@
  * Copyright (C) 2005-2006 Micronas USA Inc.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/videodev2.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/videodev2.h>
 #include <media/tuner.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-device.h>
-#include <linux/slab.h>
+#include <robux/slab.h>
 
 MODULE_DESCRIPTION("sony-btf-mpx driver");
 MODULE_LICENSE("GPL v2");

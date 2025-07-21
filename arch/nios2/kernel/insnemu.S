@@ -5,7 +5,7 @@
  */
 
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 #include <asm/entry.h>
 
 .set noat

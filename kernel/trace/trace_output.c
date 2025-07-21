@@ -6,16 +6,16 @@
  *
  */
 #include "trace.h"
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/ftrace.h>
-#include <linux/kprobes.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/mm.h>
-#include <linux/idr.h>
-#include <linux/btf.h>
-#include <linux/bpf.h>
-#include <linux/hashtable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/ftrace.h>
+#include <robux/kprobes.h>
+#include <robux/sched/clock.h>
+#include <robux/sched/mm.h>
+#include <robux/idr.h>
+#include <robux/btf.h>
+#include <robux/bpf.h>
+#include <robux/hashtable.h>
 
 #include "trace_output.h"
 #include "trace_btf.h"

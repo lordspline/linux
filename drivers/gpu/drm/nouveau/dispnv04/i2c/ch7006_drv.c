@@ -24,7 +24,7 @@
  *
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 #include <drm/drm_crtc_helper.h>
 

@@ -30,16 +30,16 @@
  * SOFTWARE.
  */
 
-#include <linux/highmem.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/random.h>
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/eq.h>
-#include <linux/debugfs.h>
+#include <robux/highmem.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/random.h>
+#include <robux/mlx5/driver.h>
+#include <robux/mlx5/eq.h>
+#include <robux/debugfs.h>
 
 #include "mlx5_core.h"
 #include "lib/eq.h"

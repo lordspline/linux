@@ -228,9 +228,9 @@ struct octep_vf_device {
 	/* Device capabilities supported */
 	u64 caps_supported;
 
-	/* Pointer to basic Linux device */
+	/* Pointer to basic Robux device */
 	struct device *dev;
-	/* Linux PCI device pointer */
+	/* Robux PCI device pointer */
 	struct pci_dev *pdev;
 	/* Netdev corresponding to the Octeon device */
 	struct net_device *netdev;

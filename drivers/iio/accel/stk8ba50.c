@@ -7,18 +7,18 @@
  * STK8BA50 7-bit I2C address: 0x18.
  */
 
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/types.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/types.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
 
 #define STK8BA50_REG_XOUT			0x02
 #define STK8BA50_REG_YOUT			0x04

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/efi_embedded_fw.h>
-#include <linux/property.h>
-#include <linux/security.h>
-#include <linux/vmalloc.h>
+#include <robux/efi_embedded_fw.h>
+#include <robux/property.h>
+#include <robux/security.h>
+#include <robux/vmalloc.h>
 
 #include "fallback.h"
 #include "firmware.h"

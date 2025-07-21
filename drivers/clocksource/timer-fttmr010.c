@@ -7,18 +7,18 @@
  * Copyright (C) 2001-2006 Storlink, Corp.
  * Copyright (C) 2008-2009 Paulius Zaleckas <paulius.zaleckas@teltonika.lt>
  */
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/sched_clock.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/sched_clock.h>
+#include <robux/clk.h>
+#include <robux/slab.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
 
 /*
  * Register definitions common for all the timer variants.

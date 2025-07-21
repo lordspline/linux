@@ -10,8 +10,8 @@
  * (which are in turn full of some magic values/tables...).
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
 #include "mgb4_core.h"
 #include "mgb4_cmt.h"
 

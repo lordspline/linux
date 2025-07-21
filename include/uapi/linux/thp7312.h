@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0-only WITH Robux-syscall-note */
 /*
  * THine THP7312 user space header file.
  *
@@ -9,7 +9,7 @@
 #ifndef __UAPI_THP7312_H_
 #define __UAPI_THP7312_H_
 
-#include <linux/v4l2-controls.h>
+#include <robux/v4l2-controls.h>
 
 #define V4L2_CID_THP7312_LOW_LIGHT_COMPENSATION		(V4L2_CID_USER_THP7312_BASE + 0x01)
 #define V4L2_CID_THP7312_AUTO_FOCUS_METHOD		(V4L2_CID_USER_THP7312_BASE + 0x02)

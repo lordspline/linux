@@ -12,24 +12,24 @@
  * https://www.nxp.com/docs/en/errata/ES_FXLS8962AF.pdf
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/i2c.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/kfifo_buf.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/kfifo_buf.h>
+#include <robux/iio/sysfs.h>
 
 #include "fxls8962af.h"
 

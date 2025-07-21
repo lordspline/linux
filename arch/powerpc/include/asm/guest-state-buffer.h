@@ -6,8 +6,8 @@
 #define _ASM_POWERPC_GUEST_STATE_BUFFER_H
 
 #include "asm/hvcall.h"
-#include <linux/gfp.h>
-#include <linux/bitmap.h>
+#include <robux/gfp.h>
+#include <robux/bitmap.h>
 #include <asm/plpar_wrappers.h>
 
 /**************************************************************************

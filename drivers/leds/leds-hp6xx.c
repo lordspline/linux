@@ -7,10 +7,10 @@
  *     this driver is based on leds-spitz.c by Richard Purdie.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/leds.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/leds.h>
 #include <asm/hd64461.h>
 #include <mach/hp6xx.h>
 

@@ -5,7 +5,7 @@
 #include <asm/sparsemem.h>
 
 #ifndef __ASSEMBLER__
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/kaslr.h>
 
 /*

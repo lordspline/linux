@@ -7,11 +7,11 @@
  */
 #include "cros_ec_typec.h"
 
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_tbt.h>
-#include <linux/usb/pd_vdo.h>
+#include <robux/mutex.h>
+#include <robux/workqueue.h>
+#include <robux/usb/typec_dp.h>
+#include <robux/usb/typec_tbt.h>
+#include <robux/usb/pd_vdo.h>
 
 #include "cros_typec_altmode.h"
 

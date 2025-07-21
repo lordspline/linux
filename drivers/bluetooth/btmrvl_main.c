@@ -5,12 +5,12 @@
  * Copyright (C) 2009, Marvell International Ltd.
  **/
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/string_choices.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/string_choices.h>
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>
-#include <linux/mmc/sdio_func.h>
+#include <robux/mmc/sdio_func.h>
 
 #include "btmrvl_drv.h"
 #include "btmrvl_sdio.h"

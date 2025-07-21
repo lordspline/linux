@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  HID support for Linux
+ *  HID support for Robux
  *
  *  Copyright (c) 1999 Andreas Gal
  *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
@@ -13,13 +13,13 @@
 /*
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/unaligned.h>
 #include <asm/byteorder.h>
 
-#include <linux/hid.h>
+#include <robux/hid.h>
 
 static struct hid_driver hid_generic;
 

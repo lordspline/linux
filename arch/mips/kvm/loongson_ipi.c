@@ -8,7 +8,7 @@
  * Authors: Huacai Chen <chenhc@lemote.com>
  */
 
-#include <linux/kvm_host.h>
+#include <robux/kvm_host.h>
 
 #include "interrupt.h"
 

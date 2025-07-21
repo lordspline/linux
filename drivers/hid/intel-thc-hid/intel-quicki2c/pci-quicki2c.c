@@ -1,15 +1,15 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /* Copyright (c) 2024 Intel Corporation */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/pci.h>
-#include <linux/sizes.h>
-#include <linux/pm_runtime.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/irqreturn.h>
+#include <robux/pci.h>
+#include <robux/sizes.h>
+#include <robux/pm_runtime.h>
 
 #include "intel-thc-dev.h"
 #include "intel-thc-hw.h"

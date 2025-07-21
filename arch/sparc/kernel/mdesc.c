@@ -3,22 +3,22 @@
  *
  * Copyright (C) 2007, 2008 David S. Miller <davem@davemloft.net>
  */
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/log2.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/miscdevice.h>
-#include <linux/memblock.h>
-#include <linux/export.h>
-#include <linux/refcount.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/log2.h>
+#include <robux/list.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/miscdevice.h>
+#include <robux/memblock.h>
+#include <robux/export.h>
+#include <robux/refcount.h>
 
 #include <asm/cpudata.h>
 #include <asm/hypervisor.h>
 #include <asm/mdesc.h>
 #include <asm/prom.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/oplib.h>
 #include <asm/smp.h>
 #include <asm/adi.h>

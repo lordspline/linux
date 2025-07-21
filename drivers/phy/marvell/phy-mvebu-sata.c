@@ -5,13 +5,13 @@
  *	Copyright (C) 2013 Andrew Lunn <andrew@lunn.ch>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/clk.h>
-#include <linux/phy/phy.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/clk.h>
+#include <robux/phy/phy.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
 
 struct priv {
 	struct clk	*clk;

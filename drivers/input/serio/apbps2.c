@@ -13,20 +13,20 @@
  *
  * Contributors: Daniel Hellstrom <daniel@gaisler.com>
  */
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/serio.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/serio.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
 
 struct apbps2_regs {
 	u32 __iomem data;	/* 0x00 */

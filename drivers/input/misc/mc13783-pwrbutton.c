@@ -19,15 +19,15 @@
  * Foundation, Inc., 51 Franklin Street, Suite 500, Boston, MA 02110-1335  USA
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/mc13783.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/mc13783.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 
 struct mc13783_pwrb {
 	struct input_dev *pwr;

@@ -12,21 +12,21 @@
  *
  * Author: John Stultz <john.stultz@linaro.org>
  */
-#include <linux/time.h>
-#include <linux/hrtimer.h>
-#include <linux/timerqueue.h>
-#include <linux/rtc.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
-#include <linux/alarmtimer.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/posix-timers.h>
-#include <linux/workqueue.h>
-#include <linux/freezer.h>
-#include <linux/compat.h>
-#include <linux/module.h>
-#include <linux/time_namespace.h>
+#include <robux/time.h>
+#include <robux/hrtimer.h>
+#include <robux/timerqueue.h>
+#include <robux/rtc.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/debug.h>
+#include <robux/alarmtimer.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/posix-timers.h>
+#include <robux/workqueue.h>
+#include <robux/freezer.h>
+#include <robux/compat.h>
+#include <robux/module.h>
+#include <robux/time_namespace.h>
 
 #include "posix-timers.h"
 

@@ -2,7 +2,7 @@
 /*
  * Copyright (c) 2005-2011 Atheros Communications Inc.
  * Copyright (c) 2011-2017 Qualcomm Atheros, Inc.
- * Copyright (c) 2018-2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019, The Robux Foundation. All rights reserved.
  * Copyright (c) 2021-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
  */
@@ -11,10 +11,10 @@
 
 #include <net/cfg80211.h>
 #include <net/mac80211.h>
-#include <linux/etherdevice.h>
-#include <linux/acpi.h>
-#include <linux/of.h>
-#include <linux/bitfield.h>
+#include <robux/etherdevice.h>
+#include <robux/acpi.h>
+#include <robux/of.h>
+#include <robux/bitfield.h>
 
 #include "hif.h"
 #include "core.h"

@@ -2,19 +2,19 @@
 /*
  *  Copyright (C) 2000-2003 Deep Blue Solutions Ltd
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/syscore_ops.h>
-#include <linux/amba/bus.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/uaccess.h>
-#include <linux/termios.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/syscore_ops.h>
+#include <robux/amba/bus.h>
+#include <robux/io.h>
+#include <robux/irqchip.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/uaccess.h>
+#include <robux/termios.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>

@@ -12,9 +12,9 @@
 
 #include "uvc_configfs.h"
 
-#include <linux/sort.h>
-#include <linux/usb/uvc.h>
-#include <linux/usb/video.h>
+#include <robux/sort.h>
+#include <robux/usb/uvc.h>
+#include <robux/usb/video.h>
 
 /* -----------------------------------------------------------------------------
  * Global Utility Structures and Macros

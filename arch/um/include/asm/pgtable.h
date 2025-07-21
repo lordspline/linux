@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  * Copyright 2003 PathScale, Inc.
  * Derived from include/asm-i386/pgtable.h
  */
@@ -9,7 +9,7 @@
 #define __UM_PGTABLE_H
 
 #include <asm/page.h>
-#include <linux/mm_types.h>
+#include <robux/mm_types.h>
 
 #define _PAGE_PRESENT	0x001
 #define _PAGE_NEEDSYNC	0x002

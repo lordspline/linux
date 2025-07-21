@@ -7,23 +7,23 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/bcd.h>
-#include <linux/delay.h>
-#include <linux/mfd/core.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/mod_devicetable.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/bcd.h>
+#include <robux/delay.h>
+#include <robux/mfd/core.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/mod_devicetable.h>
 
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/pdata.h>
-#include <linux/mfd/wm831x/irq.h>
-#include <linux/mfd/wm831x/auxadc.h>
-#include <linux/mfd/wm831x/otp.h>
-#include <linux/mfd/wm831x/pmu.h>
-#include <linux/mfd/wm831x/regulator.h>
+#include <robux/mfd/wm831x/core.h>
+#include <robux/mfd/wm831x/pdata.h>
+#include <robux/mfd/wm831x/irq.h>
+#include <robux/mfd/wm831x/auxadc.h>
+#include <robux/mfd/wm831x/otp.h>
+#include <robux/mfd/wm831x/pmu.h>
+#include <robux/mfd/wm831x/regulator.h>
 
 /* Current settings - values are 2*2^(reg_val/4) microamps.  These are
  * exported since they are used by multiple drivers.

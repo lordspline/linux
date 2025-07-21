@@ -25,7 +25,7 @@
  *
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 MODULE_AUTHOR("David Airlie, Jesse Barnes");
 MODULE_DESCRIPTION("DRM KMS helper");

@@ -7,11 +7,11 @@
  *
  * Copyright (c) 2016, Intel Corporation.
  */
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
 #include "bmc150_magn.h"
 

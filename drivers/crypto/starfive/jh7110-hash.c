@@ -10,16 +10,16 @@
 #include <crypto/internal/hash.h>
 #include <crypto/scatterwalk.h>
 #include "jh7110-cryp.h"
-#include <linux/amba/pl080.h>
-#include <linux/clk.h>
-#include <linux/dma-direct.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/amba/pl080.h>
+#include <robux/clk.h>
+#include <robux/dma-direct.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 
 #define STARFIVE_HASH_REGS_OFFSET	0x300
 #define STARFIVE_HASH_SHACSR		(STARFIVE_HASH_REGS_OFFSET + 0x0)

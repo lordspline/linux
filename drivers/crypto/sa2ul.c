@@ -8,17 +8,17 @@
  *		Vitaly Andrianov
  *		Tero Kristo
  */
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/dmapool.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 
 #include <crypto/aes.h>
 #include <crypto/authenc.h>
@@ -153,7 +153,7 @@ struct algo_data {
  * @registered: Flag indicating if the crypto algorithm is already registered
  */
 struct sa_alg_tmpl {
-	u32 type;		/* CRYPTO_ALG_TYPE from <linux/crypto.h> */
+	u32 type;		/* CRYPTO_ALG_TYPE from <robux/crypto.h> */
 	union {
 		struct skcipher_alg skcipher;
 		struct ahash_alg ahash;

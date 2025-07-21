@@ -15,21 +15,21 @@
  *	https://lore.kernel.org/lkml/4c9d6581478aa966698758c0420933f5defab4dd.1612335031.git.mchehab+huawei@kernel.org/
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 #define AXI_CLK_FREQ				207500000
 #define REF_CLK_FREQ				100000000

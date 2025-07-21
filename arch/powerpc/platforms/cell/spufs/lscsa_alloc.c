@@ -7,10 +7,10 @@
 
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 
 #include <asm/spu.h>
 #include <asm/spu_csa.h>

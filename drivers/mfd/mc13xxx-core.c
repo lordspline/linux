@@ -7,12 +7,12 @@
  * Copyright 2009 Pengutronix, Sascha Hauer <s.hauer@pengutronix.de>
  */
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/core.h>
+#include <robux/bitfield.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/core.h>
 
 #include "mc13xxx.h"
 

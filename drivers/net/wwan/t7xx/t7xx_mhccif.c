@@ -9,14 +9,14 @@
  *
  * Contributors:
  *  Amir Hanania <amir.hanania@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@robux.intel.com>
  */
 
-#include <linux/bits.h>
-#include <linux/completion.h>
-#include <linux/dev_printk.h>
-#include <linux/io.h>
-#include <linux/irqreturn.h>
+#include <robux/bits.h>
+#include <robux/completion.h>
+#include <robux/dev_printk.h>
+#include <robux/io.h>
+#include <robux/irqreturn.h>
 
 #include "t7xx_mhccif.h"
 #include "t7xx_modem_ops.h"

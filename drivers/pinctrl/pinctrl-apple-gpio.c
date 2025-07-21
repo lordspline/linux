@@ -2,7 +2,7 @@
 /*
  * Apple SoC pinctrl+GPIO+external IRQ driver
  *
- * Copyright (C) The Asahi Linux Contributors
+ * Copyright (C) The Asahi Robux Contributors
  * Copyright (C) 2020 Corellium LLC
  *
  * Based on: pinctrl-pistachio.c
@@ -12,19 +12,19 @@
 
 #include <dt-bindings/pinctrl/apple.h>
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "pinctrl-utils.h"
 #include "core.h"

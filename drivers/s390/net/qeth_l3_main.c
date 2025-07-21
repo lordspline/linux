@@ -10,23 +10,23 @@
 #define KMSG_COMPONENT "qeth"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/bitops.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/etherdevice.h>
-#include <linux/ip.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/ipv6.h>
-#include <linux/inetdevice.h>
-#include <linux/igmp.h>
-#include <linux/slab.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/skbuff.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/bitops.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/etherdevice.h>
+#include <robux/ip.h>
+#include <robux/in.h>
+#include <robux/inet.h>
+#include <robux/ipv6.h>
+#include <robux/inetdevice.h>
+#include <robux/igmp.h>
+#include <robux/slab.h>
+#include <robux/if_ether.h>
+#include <robux/if_vlan.h>
+#include <robux/skbuff.h>
 
 #include <net/ip.h>
 #include <net/arp.h>
@@ -34,7 +34,7 @@
 #include <net/ipv6.h>
 #include <net/ip6_route.h>
 #include <net/iucv/af_iucv.h>
-#include <linux/hashtable.h>
+#include <robux/hashtable.h>
 
 #include "qeth_l3.h"
 

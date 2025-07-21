@@ -8,10 +8,10 @@
 #ifndef __LINUX_MFD_WM8400_PRIV_H
 #define __LINUX_MFD_WM8400_PRIV_H
 
-#include <linux/mfd/wm8400.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/mfd/wm8400.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define WM8400_REGISTER_COUNT 0x55
 

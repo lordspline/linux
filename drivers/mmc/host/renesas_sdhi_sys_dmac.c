@@ -8,19 +8,19 @@
  * Copyright (C) 2010-2011 Guennadi Liakhovetski
  */
 
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/mmc/host.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pagemap.h>
-#include <linux/platform_data/tmio.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
-#include <linux/sys_soc.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/mmc/host.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pagemap.h>
+#include <robux/platform_data/tmio.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/scatterlist.h>
+#include <robux/sys_soc.h>
 
 #include "renesas_sdhi.h"
 #include "tmio_mmc.h"

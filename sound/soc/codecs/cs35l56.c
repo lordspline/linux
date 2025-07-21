@@ -5,25 +5,25 @@
 // Copyright (C) 2023 Cirrus Logic, Inc. and
 //                    Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/completion.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/acpi.h>
+#include <robux/array_size.h>
+#include <robux/completion.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 #include <sound/cs-amp-lib.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

@@ -5,13 +5,13 @@
  *	Copyright (C) 2013 Andrew Lunn <andrew@lunn.ch>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/cpufreq.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/clk.h>
+#include <robux/cpufreq.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
 #include <asm/proc-fns.h>
 
 #define CPU_SW_INT_BLK BIT(28)

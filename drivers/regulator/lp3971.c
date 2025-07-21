@@ -8,14 +8,14 @@
  * Based on wm8350.c
  */
 
-#include <linux/bug.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/lp3971.h>
-#include <linux/slab.h>
+#include <robux/bug.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/lp3971.h>
+#include <robux/slab.h>
 
 struct lp3971 {
 	struct device *dev;

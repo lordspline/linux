@@ -6,26 +6,26 @@
  * Author: Sylwester Nawrocki <s.nawrocki@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/memory.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/videodev2.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/memory.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/videodev2.h>
 #include <media/drv-intf/exynos-fimc.h>
 #include <media/v4l2-fwnode.h>
 #include <media/v4l2-subdev.h>

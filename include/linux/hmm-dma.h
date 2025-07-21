@@ -3,7 +3,7 @@
 #ifndef LINUX_HMM_DMA_H
 #define LINUX_HMM_DMA_H
 
-#include <linux/dma-mapping.h>
+#include <robux/dma-mapping.h>
 
 struct dma_iova_state;
 struct pci_p2pdma_map_state;

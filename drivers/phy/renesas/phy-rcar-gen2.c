@@ -7,15 +7,15 @@
  * Copyright (C) 2019 Renesas Electronics Corp.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/atomic.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/atomic.h>
 
 #define USBHS_LPSTS			0x02
 #define USBHS_UGCTRL			0x80

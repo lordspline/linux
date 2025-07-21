@@ -9,10 +9,10 @@
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
 #include <crypto/chacha.h>
-#include <linux/cpufeature.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sizes.h>
+#include <robux/cpufeature.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sizes.h>
 #include <asm/fpu.h>
 #include "chacha-s390.h"
 

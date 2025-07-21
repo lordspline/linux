@@ -6,18 +6,18 @@
  * Copyright (c) 2024, Vivax-Metrotech Ltd
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/util_macros.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/util_macros.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

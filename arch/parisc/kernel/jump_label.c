@@ -4,9 +4,9 @@
  *
  * Based on arch/arm64/kernel/jump_label.c
  */
-#include <linux/kernel.h>
-#include <linux/jump_label.h>
-#include <linux/bug.h>
+#include <robux/kernel.h>
+#include <robux/jump_label.h>
+#include <robux/bug.h>
 #include <asm/alternative.h>
 #include <asm/text-patching.h>
 

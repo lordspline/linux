@@ -2,13 +2,13 @@
 /*
  * Handling of a conduit device, switching frames via its switch fabric CPU port
  *
- * Copyright (c) 2017 Savoir-faire Linux Inc.
+ * Copyright (c) 2017 Savoir-faire Robux Inc.
  *	Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  */
 
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/netlink.h>
+#include <robux/ethtool.h>
+#include <robux/netdevice.h>
+#include <robux/netlink.h>
 #include <net/dsa.h>
 #include <net/netdev_lock.h>
 

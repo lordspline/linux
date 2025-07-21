@@ -4,15 +4,15 @@
  *
  *  Copyright (C) 2013-2015 Altera Corporation
  */
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/pm.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/fpga/fpga-mgr.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/pm.h>
 
 /* Register offsets */
 #define SOCFPGA_FPGMGR_STAT_OFST				0x0

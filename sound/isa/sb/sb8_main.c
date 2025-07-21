@@ -16,11 +16,11 @@
  *   Cleaned up and rewrote lowlevel routines.
  */
 
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/dma.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/time.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/sb.h>
 

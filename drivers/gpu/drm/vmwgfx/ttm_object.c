@@ -47,12 +47,12 @@
 #include "ttm_object.h"
 #include "vmwgfx_drv.h"
 
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/atomic.h>
-#include <linux/module.h>
-#include <linux/hashtable.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/atomic.h>
+#include <robux/module.h>
+#include <robux/hashtable.h>
 
 MODULE_IMPORT_NS("DMA_BUF");
 

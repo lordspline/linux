@@ -39,19 +39,19 @@
 #ifndef __CARL9170_H
 #define __CARL9170_H
 
-#include <linux/kernel.h>
-#include <linux/firmware.h>
-#include <linux/completion.h>
-#include <linux/spinlock.h>
-#include <linux/hw_random.h>
+#include <robux/kernel.h>
+#include <robux/firmware.h>
+#include <robux/completion.h>
+#include <robux/spinlock.h>
+#include <robux/hw_random.h>
 #include <net/cfg80211.h>
 #include <net/mac80211.h>
-#include <linux/usb.h>
+#include <robux/usb.h>
 #ifdef CONFIG_CARL9170_LEDS
-#include <linux/leds.h>
+#include <robux/leds.h>
 #endif /* CONFIG_CARL9170_LEDS */
 #ifdef CONFIG_CARL9170_WPC
-#include <linux/input.h>
+#include <robux/input.h>
 #endif /* CONFIG_CARL9170_WPC */
 #include "eeprom.h"
 #include "wlan.h"

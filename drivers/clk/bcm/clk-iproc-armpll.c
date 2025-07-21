@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (C) 2014 Broadcom Corporation
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/clkdev.h>
-#include <linux/of_address.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/clkdev.h>
+#include <robux/of_address.h>
 
 #include "clk-iproc.h"
 

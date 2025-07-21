@@ -5,19 +5,19 @@
  * Copyright (C) 2017 Fuzhou Rockchip Electronics Co., Ltd.
  */
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-async.h>

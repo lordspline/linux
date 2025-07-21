@@ -9,17 +9,17 @@
  *			     and Philip Edelbrock <phil@netroedge.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mutex.h>
-#include <linux/bitops.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/err.h>
+#include <robux/regulator/consumer.h>
+#include <robux/mutex.h>
+#include <robux/bitops.h>
+#include <robux/of.h>
 
 /* Addresses to scan
  * The chip also supports addresses 0x35..0x37. Don't scan those addresses

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
 #include <asm/io.h>
 #include <asm/delay.h>
 #include <asm/adc.h>

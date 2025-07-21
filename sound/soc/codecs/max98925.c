@@ -3,12 +3,12 @@
  * max98925.c -- ALSA SoC Stereo MAX98925 driver
  * Copyright 2013-15 Maxim Integrated Products
  */
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/cdev.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/cdev.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

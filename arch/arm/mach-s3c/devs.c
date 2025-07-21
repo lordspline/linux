@@ -5,25 +5,25 @@
 //
 // Base Samsung platform device definitions
 
-#include <linux/gpio.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/timer.h>
-#include <linux/init.h>
-#include <linux/serial_core.h>
-#include <linux/serial_s3c.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/dma-mapping.h>
-#include <linux/gfp.h>
-#include <linux/mmc/host.h>
-#include <linux/ioport.h>
-#include <linux/sizes.h>
-#include <linux/platform_data/s3c-hsotg.h>
+#include <robux/gpio.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/timer.h>
+#include <robux/init.h>
+#include <robux/serial_core.h>
+#include <robux/serial_s3c.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/dma-mapping.h>
+#include <robux/gfp.h>
+#include <robux/mmc/host.h>
+#include <robux/ioport.h>
+#include <robux/sizes.h>
+#include <robux/platform_data/s3c-hsotg.h>
 
 #include <asm/irq.h>
 #include <asm/mach/arch.h>
@@ -38,13 +38,13 @@
 #include "cpu.h"
 #include "devs.h"
 #include "fb.h"
-#include <linux/platform_data/i2c-s3c2410.h>
+#include <robux/platform_data/i2c-s3c2410.h>
 #include "keypad.h"
 #include "pwm-core.h"
 #include "sdhci.h"
 #include "usb-phy.h"
-#include <linux/platform_data/asoc-s3c.h>
-#include <linux/platform_data/spi-s3c64xx.h>
+#include <robux/platform_data/asoc-s3c.h>
+#include <robux/platform_data/spi-s3c64xx.h>
 
 #define samsung_device_dma_mask (*((u64[]) { DMA_BIT_MASK(32) }))
 

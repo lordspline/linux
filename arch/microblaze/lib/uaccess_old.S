@@ -8,8 +8,8 @@
  * for more details.
  */
 
-#include <linux/errno.h>
-#include <linux/linkage.h>
+#include <robux/errno.h>
+#include <robux/linkage.h>
 #include <asm/page.h>
 
 /* Loop unrolling for __copy_tofrom_user */

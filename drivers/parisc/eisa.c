@@ -22,14 +22,14 @@
  * irq levels 10 and 11.
  */
 
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/eisa.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/spinlock.h>
+#include <robux/eisa.h>
 
 #include <asm/byteorder.h>
 #include <asm/io.h>

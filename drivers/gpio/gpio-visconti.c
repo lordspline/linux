@@ -8,16 +8,16 @@
  * Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
+#include <robux/bitops.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/seq_file.h>
 
 /* register offset */
 #define GPIO_DIR	0x00

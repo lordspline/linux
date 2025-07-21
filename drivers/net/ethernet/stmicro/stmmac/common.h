@@ -11,15 +11,15 @@
 #ifndef __COMMON_H__
 #define __COMMON_H__
 
-#include <linux/etherdevice.h>
-#include <linux/netdevice.h>
-#include <linux/stmmac.h>
-#include <linux/phy.h>
-#include <linux/pcs/pcs-xpcs.h>
-#include <linux/module.h>
+#include <robux/etherdevice.h>
+#include <robux/netdevice.h>
+#include <robux/stmmac.h>
+#include <robux/phy.h>
+#include <robux/pcs/pcs-xpcs.h>
+#include <robux/module.h>
 #if IS_ENABLED(CONFIG_VLAN_8021Q)
 #define STMMAC_VLAN_TAG_USED
-#include <linux/if_vlan.h>
+#include <robux/if_vlan.h>
 #endif
 
 #include "descs.h"

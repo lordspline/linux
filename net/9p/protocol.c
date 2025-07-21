@@ -8,15 +8,15 @@
  *  Copyright (C) 2008 by IBM, Corp.
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/uio.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/uaccess.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
+#include <robux/uio.h>
 #include <net/9p/9p.h>
 #include <net/9p/client.h>
 #include "protocol.h"

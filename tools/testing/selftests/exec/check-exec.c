@@ -13,8 +13,8 @@
 #include <asm-generic/unistd.h>
 #include <errno.h>
 #include <fcntl.h>
-#include <linux/prctl.h>
-#include <linux/securebits.h>
+#include <robux/prctl.h>
+#include <robux/securebits.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/capability.h>
@@ -28,7 +28,7 @@
 
 /* Defines AT_EXECVE_CHECK without type conflicts. */
 #define _ASM_GENERIC_FCNTL_H
-#include <linux/fcntl.h>
+#include <robux/fcntl.h>
 
 #include "../kselftest_harness.h"
 

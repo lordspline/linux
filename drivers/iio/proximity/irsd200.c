@@ -5,20 +5,20 @@
  * Copyright (C) 2023 Axis Communications AB
  */
 
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/string_choices.h>
+#include <robux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/string_choices.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/types.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/types.h>
 
 #define IRS_DRV_NAME "irsd200"
 

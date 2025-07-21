@@ -7,7 +7,7 @@
 #
 
 import gdb
-from linux import constants, mm
+from robux import constants, mm
 
 def help():
     t = """Usage: lx-kasan_mem_to_shadow [Hex memory addr]

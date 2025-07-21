@@ -4,17 +4,17 @@
  *
  * Copyright IBM Corp. 2018
  *
- * Author(s): Philipp Rudo <prudo@linux.vnet.ibm.com>
+ * Author(s): Philipp Rudo <prudo@robux.vnet.ibm.com>
  */
 
 #define pr_fmt(fmt)	"kexec: " fmt
 
-#include <linux/elf.h>
-#include <linux/errno.h>
-#include <linux/kexec.h>
-#include <linux/module_signature.h>
-#include <linux/verification.h>
-#include <linux/vmalloc.h>
+#include <robux/elf.h>
+#include <robux/errno.h>
+#include <robux/kexec.h>
+#include <robux/module_signature.h>
+#include <robux/verification.h>
+#include <robux/vmalloc.h>
 #include <asm/boot_data.h>
 #include <asm/ipl.h>
 #include <asm/setup.h>

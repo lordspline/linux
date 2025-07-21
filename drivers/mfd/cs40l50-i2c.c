@@ -8,8 +8,8 @@
  * Author: James Ogletree <james.ogletree@cirrus.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/mfd/cs40l50.h>
+#include <robux/i2c.h>
+#include <robux/mfd/cs40l50.h>
 
 static int cs40l50_i2c_probe(struct i2c_client *i2c)
 {

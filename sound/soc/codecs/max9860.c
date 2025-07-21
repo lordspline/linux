@@ -10,14 +10,14 @@
 // Author: Peter Rosin <peda@axentia.s>
 //         Copyright 2016 Axentia Technologies
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/i2c.h>
-#include <linux/regulator/consumer.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/clk.h>
+#include <robux/kernel.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/regulator/consumer.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
 #include <sound/pcm_params.h>

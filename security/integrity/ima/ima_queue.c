@@ -15,9 +15,9 @@
  *       ever removed or changed during the boot-cycle.
  */
 
-#include <linux/rculist.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
+#include <robux/rculist.h>
+#include <robux/reboot.h>
+#include <robux/slab.h>
 #include "ima.h"
 
 #define AUDIT_CAUSE_LEN_MAX 32

@@ -6,9 +6,9 @@
  */
 
 #define FSCACHE_DEBUG_LEVEL CACHE
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <robux/module.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
 #include "internal.h"
 
 /*

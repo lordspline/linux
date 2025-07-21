@@ -8,18 +8,18 @@
  *
  */
 /* NOTE: Will not work on level 15 */
-#include <linux/ptrace.h>
-#include <linux/errno.h>
-#include <linux/kernel_stat.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/spinlock.h>
-#include <linux/cache.h>
-#include <linux/irq.h>
-#include <linux/bitmap.h>
+#include <robux/ptrace.h>
+#include <robux/errno.h>
+#include <robux/kernel_stat.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/bitops.h>
+#include <robux/spinlock.h>
+#include <robux/cache.h>
+#include <robux/irq.h>
+#include <robux/bitmap.h>
 #include <asm/irq.h>
 
 /* Bitmap of IRQ masked */

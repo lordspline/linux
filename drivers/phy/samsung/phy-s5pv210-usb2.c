@@ -6,9 +6,9 @@
  * Authors: Kamil Debski <k.debski@samsung.com>
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/phy/phy.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/phy/phy.h>
 #include "phy-samsung-usb2.h"
 
 /* Exynos USB PHY registers */

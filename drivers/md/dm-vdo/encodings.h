@@ -6,10 +6,10 @@
 #ifndef VDO_ENCODINGS_H
 #define VDO_ENCODINGS_H
 
-#include <linux/blk_types.h>
-#include <linux/crc32.h>
-#include <linux/limits.h>
-#include <linux/uuid.h>
+#include <robux/blk_types.h>
+#include <robux/crc32.h>
+#include <robux/limits.h>
+#include <robux/uuid.h>
 
 #include "numeric.h"
 

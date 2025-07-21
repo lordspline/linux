@@ -9,9 +9,9 @@
 #ifndef __MALIDP_DRV_H__
 #define __MALIDP_DRV_H__
 
-#include <linux/mutex.h>
-#include <linux/wait.h>
-#include <linux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/wait.h>
+#include <robux/spinlock.h>
 
 #include <drm/drm_writeback.h>
 #include <drm/drm_encoder.h>

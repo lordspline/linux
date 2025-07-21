@@ -25,13 +25,13 @@
 #ifndef AMDGPU_AMDKFD_H_INCLUDED
 #define AMDGPU_AMDKFD_H_INCLUDED
 
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/kthread.h>
-#include <linux/workqueue.h>
-#include <linux/mmu_notifier.h>
-#include <linux/memremap.h>
+#include <robux/list.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/kthread.h>
+#include <robux/workqueue.h>
+#include <robux/mmu_notifier.h>
+#include <robux/memremap.h>
 #include <kgd_kfd_interface.h>
 #include <drm/drm_client.h>
 #include "amdgpu_sync.h"

@@ -3,9 +3,9 @@
  * Copyright (C) 2023 Rivos Inc.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
 #include <kunit/test.h>
 
 MODULE_LICENSE("GPL");

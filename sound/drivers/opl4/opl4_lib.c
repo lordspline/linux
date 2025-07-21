@@ -6,11 +6,11 @@
 
 #include "opl4_local.h"
 #include <sound/initval.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/io.h>
 
 MODULE_AUTHOR("Clemens Ladisch <clemens@ladisch.de>");
 MODULE_DESCRIPTION("OPL4 driver");

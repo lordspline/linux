@@ -10,8 +10,8 @@
 #ifndef __PLAT_SAMSUNG_PM_COMMON_H
 #define __PLAT_SAMSUNG_PM_COMMON_H __FILE__
 
-#include <linux/irq.h>
-#include <linux/soc/samsung/s3c-pm.h>
+#include <robux/irq.h>
+#include <robux/soc/samsung/s3c-pm.h>
 
 /* sleep save info */
 

@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/platform_device.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/genalloc.h>
-#include <linux/vmalloc.h>
-#include <linux/dma-mapping.h>
-#include <linux/list_sort.h>
-#include <linux/libnvdimm.h>
-#include <linux/ndctl.h>
+#include <robux/platform_device.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/genalloc.h>
+#include <robux/vmalloc.h>
+#include <robux/dma-mapping.h>
+#include <robux/list_sort.h>
+#include <robux/libnvdimm.h>
+#include <robux/ndctl.h>
 #include <nd-core.h>
-#include <linux/printk.h>
-#include <linux/seq_buf.h>
-#include <linux/papr_scm.h>
-#include <uapi/linux/papr_pdsm.h>
+#include <robux/printk.h>
+#include <robux/seq_buf.h>
+#include <robux/papr_scm.h>
+#include <uapi/robux/papr_pdsm.h>
 
 #include "../watermark.h"
 #include "nfit_test.h"

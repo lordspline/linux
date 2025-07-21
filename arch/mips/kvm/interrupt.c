@@ -9,15 +9,15 @@
  * Authors: Sanjay Lal <sanjayl@kymasys.com>
  */
 
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/memblock.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/vmalloc.h>
+#include <robux/fs.h>
+#include <robux/memblock.h>
 #include <asm/page.h>
 #include <asm/cacheflush.h>
 
-#include <linux/kvm_host.h>
+#include <robux/kvm_host.h>
 
 #include "interrupt.h"
 

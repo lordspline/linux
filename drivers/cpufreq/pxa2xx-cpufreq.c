@@ -17,15 +17,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/err.h>
-#include <linux/regulator/consumer.h>
-#include <linux/soc/pxa/cpu.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/cpufreq.h>
+#include <robux/err.h>
+#include <robux/regulator/consumer.h>
+#include <robux/soc/pxa/cpu.h>
+#include <robux/io.h>
 
 #ifdef DEBUG
 static unsigned int freq_debug;

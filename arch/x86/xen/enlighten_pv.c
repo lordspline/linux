@@ -12,28 +12,28 @@
  * Jeremy Fitzhardinge <jeremy@xensource.com>, XenSource Inc, 2007
  */
 
-#include <linux/cpu.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/preempt.h>
-#include <linux/hardirq.h>
-#include <linux/percpu.h>
-#include <linux/delay.h>
-#include <linux/start_kernel.h>
-#include <linux/sched.h>
-#include <linux/kprobes.h>
-#include <linux/kstrtox.h>
-#include <linux/memblock.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/page-flags.h>
-#include <linux/pci.h>
-#include <linux/gfp.h>
-#include <linux/edd.h>
-#include <linux/reboot.h>
-#include <linux/virtio_anchor.h>
-#include <linux/stackprotector.h>
+#include <robux/cpu.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/preempt.h>
+#include <robux/hardirq.h>
+#include <robux/percpu.h>
+#include <robux/delay.h>
+#include <robux/start_kernel.h>
+#include <robux/sched.h>
+#include <robux/kprobes.h>
+#include <robux/kstrtox.h>
+#include <robux/memblock.h>
+#include <robux/export.h>
+#include <robux/mm.h>
+#include <robux/page-flags.h>
+#include <robux/pci.h>
+#include <robux/gfp.h>
+#include <robux/edd.h>
+#include <robux/reboot.h>
+#include <robux/virtio_anchor.h>
+#include <robux/stackprotector.h>
 
 #include <xen/xen.h>
 #include <xen/events.h>
@@ -80,7 +80,7 @@
 #endif
 
 #ifdef CONFIG_ACPI
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 #include <asm/acpi.h>
 #include <acpi/proc_cap_intel.h>
 #include <acpi/processor.h>

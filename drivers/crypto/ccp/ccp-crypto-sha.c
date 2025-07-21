@@ -8,11 +8,11 @@
  * Author: Gary R Hook <gary.hook@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/scatterlist.h>
-#include <linux/crypto.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/scatterlist.h>
+#include <robux/crypto.h>
 #include <crypto/algapi.h>
 #include <crypto/hash.h>
 #include <crypto/hmac.h>
@@ -20,7 +20,7 @@
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>
 #include <crypto/scatterwalk.h>
-#include <linux/string.h>
+#include <robux/string.h>
 
 #include "ccp-crypto.h"
 

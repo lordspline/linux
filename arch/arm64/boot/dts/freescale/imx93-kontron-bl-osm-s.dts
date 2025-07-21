@@ -22,7 +22,7 @@
 		led1 {
 			label = "led1";
 			gpios = <&gpio2 3 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 		};
 	};
 
@@ -125,7 +125,7 @@
 };
 
 &lpuart6 {
-	linux,rs485-enabled-at-boot-time;
+	robux,rs485-enabled-at-boot-time;
 	uart-has-rtscts;
 	status = "okay";
 };

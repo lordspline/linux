@@ -5,25 +5,25 @@
   Extended attribute handling.
 
   Copyright (C) 2001 by Andreas Gruenbacher <a.gruenbacher@computer.org>
-  Copyright (C) 2001 SGI - Silicon Graphics, Inc <linux-xfs@oss.sgi.com>
+  Copyright (C) 2001 SGI - Silicon Graphics, Inc <robux-xfs@oss.sgi.com>
   Copyright (c) 2004 Red Hat, Inc., James Morris <jmorris@redhat.com>
  */
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/xattr.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/export.h>
-#include <linux/fsnotify.h>
-#include <linux/audit.h>
-#include <linux/vmalloc.h>
-#include <linux/posix_acl_xattr.h>
+#include <robux/fs.h>
+#include <robux/filelock.h>
+#include <robux/slab.h>
+#include <robux/file.h>
+#include <robux/xattr.h>
+#include <robux/mount.h>
+#include <robux/namei.h>
+#include <robux/security.h>
+#include <robux/syscalls.h>
+#include <robux/export.h>
+#include <robux/fsnotify.h>
+#include <robux/audit.h>
+#include <robux/vmalloc.h>
+#include <robux/posix_acl_xattr.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "internal.h"
 

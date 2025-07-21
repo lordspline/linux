@@ -8,7 +8,7 @@ struct btrfs_inode;
 
 #ifdef CONFIG_FS_VERITY
 
-#include <linux/fsverity.h>
+#include <robux/fsverity.h>
 
 extern const struct fsverity_operations btrfs_verityops;
 
@@ -17,7 +17,7 @@ int btrfs_get_verity_descriptor(struct inode *inode, void *buf, size_t buf_size)
 
 #else
 
-#include <linux/errno.h>
+#include <robux/errno.h>
 
 static inline int btrfs_drop_verity_items(struct btrfs_inode *inode)
 {

@@ -4,14 +4,14 @@
  * This file handles the architecture independent parts of process handling..
  */
 
-#include <linux/compat.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/signal.h>
+#include <robux/compat.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/sched.h>
+#include <robux/sched/task.h>
+#include <robux/sched/task_stack.h>
+#include <robux/signal.h>
 
 #include "kernel.h"
 

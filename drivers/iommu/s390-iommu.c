@@ -6,12 +6,12 @@
  * Author(s): Gerald Schaefer <gerald.schaefer@de.ibm.com>
  */
 
-#include <linux/pci.h>
-#include <linux/iommu.h>
-#include <linux/iommu-helper.h>
-#include <linux/sizes.h>
-#include <linux/rculist.h>
-#include <linux/rcupdate.h>
+#include <robux/pci.h>
+#include <robux/iommu.h>
+#include <robux/iommu-helper.h>
+#include <robux/sizes.h>
+#include <robux/rculist.h>
+#include <robux/rcupdate.h>
 #include <asm/pci_dma.h>
 
 #include "dma-iommu.h"

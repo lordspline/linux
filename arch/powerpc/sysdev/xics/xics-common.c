@@ -2,21 +2,21 @@
 /*
  * Copyright 2011 IBM Corporation.
  */
-#include <linux/types.h>
-#include <linux/threads.h>
-#include <linux/kernel.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/debugfs.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
+#include <robux/types.h>
+#include <robux/threads.h>
+#include <robux/kernel.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/debugfs.h>
+#include <robux/smp.h>
+#include <robux/interrupt.h>
+#include <robux/seq_file.h>
+#include <robux/init.h>
+#include <robux/cpu.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/delay.h>
 
 #include <asm/io.h>
 #include <asm/smp.h>

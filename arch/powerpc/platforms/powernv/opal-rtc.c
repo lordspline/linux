@@ -6,14 +6,14 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/bcd.h>
-#include <linux/rtc.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/time.h>
+#include <robux/bcd.h>
+#include <robux/rtc.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 
 #include <asm/opal.h>
 #include <asm/firmware.h>

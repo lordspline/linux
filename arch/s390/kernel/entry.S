@@ -8,9 +8,9 @@
  *		 Denis Joseph Barrow (djbarrow@de.ibm.com,barrow_dj@yahoo.com),
  */
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/linkage.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
 #include <asm/asm-extable.h>
 #include <asm/alternative.h>
 #include <asm/processor.h>

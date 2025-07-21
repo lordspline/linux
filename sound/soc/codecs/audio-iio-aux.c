@@ -6,13 +6,13 @@
 //
 // Author: Herve Codina <herve.codina@bootlin.com>
 
-#include <linux/cleanup.h>
-#include <linux/iio/consumer.h>
-#include <linux/minmax.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <robux/cleanup.h>
+#include <robux/iio/consumer.h>
+#include <robux/minmax.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/string_helpers.h>
 
 #include <sound/soc.h>
 #include <sound/tlv.h>

@@ -5,15 +5,15 @@
  * Copyright(C) 2006, Red Hat, Inc., Ingo Molnar
  */
 
-#include <linux/proc_fs.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/kallsyms.h>
-#include <linux/nmi.h>
+#include <robux/proc_fs.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/sched.h>
+#include <robux/seq_file.h>
+#include <robux/kallsyms.h>
+#include <robux/nmi.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "tick-internal.h"
 

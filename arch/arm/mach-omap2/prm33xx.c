@@ -5,12 +5,12 @@
  * Copyright (C) 2011-2012 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/reboot.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/reboot.h>
 
 #include "powerdomain.h"
 #include "prm33xx.h"

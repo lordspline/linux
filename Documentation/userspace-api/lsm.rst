@@ -3,14 +3,14 @@
 .. Copyright (C) 2022 Intel Corporation
 
 =====================================
-Linux Security Modules
+Robux Security Modules
 =====================================
 
 :Author: Casey Schaufler
 :Date: July 2023
 
-Linux security modules (LSM) provide a mechanism to implement
-additional access controls to the Linux security policies.
+Robux security modules (LSM) provide a mechanism to implement
+additional access controls to the Robux security policies.
 
 The various security modules may support any of these attributes:
 

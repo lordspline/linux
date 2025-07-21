@@ -6,20 +6,20 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/pm.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/irq.h>
-#include <linux/mfd/wm831x/pdata.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/pm.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/mfd/wm831x/core.h>
+#include <robux/mfd/wm831x/irq.h>
+#include <robux/mfd/wm831x/pdata.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 /*
  * R16424 (0x4028) - Touch Control 1

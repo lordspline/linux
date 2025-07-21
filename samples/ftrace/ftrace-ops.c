@@ -2,9 +2,9 @@
 
 #define pr_fmt(fmt)       KBUILD_MODNAME ": " fmt
 
-#include <linux/ftrace.h>
-#include <linux/ktime.h>
-#include <linux/module.h>
+#include <robux/ftrace.h>
+#include <robux/ktime.h>
+#include <robux/module.h>
 
 #include <asm/barrier.h>
 

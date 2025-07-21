@@ -3,14 +3,14 @@
  *  Copyright (C) 2014 ARM Limited
  */
 
-#include <linux/cpu.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/perf_event.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/sysctl.h>
-#include <linux/uaccess.h>
+#include <robux/cpu.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/perf_event.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/sysctl.h>
+#include <robux/uaccess.h>
 
 #include <asm/cpufeature.h>
 #include <asm/insn.h>

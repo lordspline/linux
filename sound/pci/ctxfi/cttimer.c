@@ -3,9 +3,9 @@
  * PCM timer handling on ctxfi
  */
 
-#include <linux/slab.h>
-#include <linux/math64.h>
-#include <linux/moduleparam.h>
+#include <robux/slab.h>
+#include <robux/math64.h>
+#include <robux/moduleparam.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include "ctatc.h"

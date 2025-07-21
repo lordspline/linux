@@ -4,14 +4,14 @@
 #ifndef _PINCTRL_SPACEMIT_K1_H
 #define _PINCTRL_SPACEMIT_K1_H
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/platform_device.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinconf.h>
 
 enum spacemit_pin_io_type {
 	IO_TYPE_NONE = 0,

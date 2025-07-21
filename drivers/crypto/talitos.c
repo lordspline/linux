@@ -12,21 +12,21 @@
  * All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/crypto.h>
-#include <linux/hw_random.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/rtnetlink.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/crypto.h>
+#include <robux/hw_random.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
+#include <robux/rtnetlink.h>
+#include <robux/slab.h>
 
 #include <crypto/algapi.h>
 #include <crypto/aes.h>

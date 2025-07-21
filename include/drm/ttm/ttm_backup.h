@@ -6,8 +6,8 @@
 #ifndef _TTM_BACKUP_H_
 #define _TTM_BACKUP_H_
 
-#include <linux/mm_types.h>
-#include <linux/shmem_fs.h>
+#include <robux/mm_types.h>
+#include <robux/shmem_fs.h>
 
 /**
  * ttm_backup_handle_to_page_ptr() - Convert handle to struct page pointer

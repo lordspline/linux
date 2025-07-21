@@ -2,10 +2,10 @@
 /*
  * x86 single-step support code, common to 32-bit and 64-bit.
  */
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/ptrace.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/mm.h>
+#include <robux/ptrace.h>
 
 #include <asm/desc.h>
 #include <asm/debugreg.h>

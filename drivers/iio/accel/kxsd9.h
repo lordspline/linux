@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/device.h>
-#include <linux/kernel.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
 
 #define KXSD9_STATE_RX_SIZE 2
 #define KXSD9_STATE_TX_SIZE 2

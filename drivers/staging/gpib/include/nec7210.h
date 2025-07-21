@@ -8,10 +8,10 @@
 #define _NEC7210_H
 
 #include "gpib_state_machines.h"
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/interrupt.h>
+#include <robux/types.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/interrupt.h>
 
 #include "gpib_types.h"
 #include "nec7210_registers.h"

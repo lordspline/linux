@@ -6,13 +6,13 @@
 
 #include "fuse_i.h"
 
-#include <linux/delay.h>
-#include <linux/dax.h>
-#include <linux/uio.h>
-#include <linux/pagemap.h>
-#include <linux/pfn_t.h>
-#include <linux/iomap.h>
-#include <linux/interval_tree.h>
+#include <robux/delay.h>
+#include <robux/dax.h>
+#include <robux/uio.h>
+#include <robux/pagemap.h>
+#include <robux/pfn_t.h>
+#include <robux/iomap.h>
+#include <robux/interval_tree.h>
 
 /*
  * Default memory range size.  A power of 2 so it agrees with common FUSE_INIT

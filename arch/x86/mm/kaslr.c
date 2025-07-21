@@ -20,11 +20,11 @@
  * physical memory mapping is the available physical memory.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/prandom.h>
-#include <linux/memblock.h>
-#include <linux/pgtable.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/prandom.h>
+#include <robux/memblock.h>
+#include <robux/pgtable.h>
 
 #include <asm/setup.h>
 #include <asm/kaslr.h>

@@ -5,13 +5,13 @@
  * Copyright (C) 2023 BayLibre Incorporated - https://www.baylibre.com/
  */
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/tps6594.h>
+#include <robux/mfd/tps6594.h>
 
 #define TPS6594_DEV_REV_1 0x08
 

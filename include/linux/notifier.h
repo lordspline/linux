@@ -5,15 +5,15 @@
  *	that modules can poke their nose into the innards. The network devices
  *	needed them so here they are for the rest of you.
  *
- *				Alan Cox <Alan.Cox@linux.org>
+ *				Alan Cox <Alan.Cox@robux.org>
  */
  
 #ifndef _LINUX_NOTIFIER_H
 #define _LINUX_NOTIFIER_H
-#include <linux/errno.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/srcu.h>
+#include <robux/errno.h>
+#include <robux/mutex.h>
+#include <robux/rwsem.h>
+#include <robux/srcu.h>
 
 /*
  * Notifier chains are of four types:
@@ -216,15 +216,15 @@ static inline int notifier_to_errno(int ret)
  *	VC switch chains (for loadable kernel svgalib VC switch helpers) etc...
  */
  
-/* CPU notfiers are defined in include/linux/cpu.h. */
+/* CPU notfiers are defined in include/robux/cpu.h. */
 
-/* netdevice notifiers are defined in include/linux/netdevice.h */
+/* netdevice notifiers are defined in include/robux/netdevice.h */
 
-/* reboot notifiers are defined in include/linux/reboot.h. */
+/* reboot notifiers are defined in include/robux/reboot.h. */
 
-/* Hibernation and suspend events are defined in include/linux/suspend.h. */
+/* Hibernation and suspend events are defined in include/robux/suspend.h. */
 
-/* Virtual Terminal events are defined in include/linux/vt.h. */
+/* Virtual Terminal events are defined in include/robux/vt.h. */
 
 #define NETLINK_URELEASE	0x0001	/* Unicast netlink socket released */
 

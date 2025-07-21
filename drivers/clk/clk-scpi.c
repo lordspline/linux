@@ -5,13 +5,13 @@
  * Copyright (C) 2015 ARM Ltd.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/scpi_protocol.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/scpi_protocol.h>
 
 struct scpi_clk {
 	u32 id;

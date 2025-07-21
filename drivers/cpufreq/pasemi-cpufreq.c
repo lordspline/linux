@@ -11,10 +11,10 @@
  * (C) Copyright IBM Deutschland Entwicklung GmbH 2005
  */
 
-#include <linux/cpufreq.h>
-#include <linux/timer.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
+#include <robux/cpufreq.h>
+#include <robux/timer.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
 
 #include <asm/hw_irq.h>
 #include <asm/io.h>

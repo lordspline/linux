@@ -10,11 +10,11 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <asm/div64.h>
-#include <linux/kernel.h>
-#include <linux/dvb/frontend.h>
-#include <linux/int_log.h>
+#include <robux/kernel.h>
+#include <robux/dvb/frontend.h>
+#include <robux/int_log.h>
 #include "lgdt3306a.h"
-#include <linux/i2c-mux.h>
+#include <robux/i2c-mux.h>
 
 
 static int debug;

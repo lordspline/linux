@@ -3,13 +3,13 @@
  * Copyright (C) 2020 Nicolas Saenz Julienne <nsaenzjulienne@suse.de>
  */
 
-#include <linux/crc32.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/crc32.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 struct rmem {
 	struct device *dev;

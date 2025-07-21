@@ -5,14 +5,14 @@
  * Author: Mark Nutter <mnutter@us.ibm.com>
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/poll.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/poll.h>
+#include <robux/smp.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
 
 #include <asm/io.h>
 #include <asm/spu.h>

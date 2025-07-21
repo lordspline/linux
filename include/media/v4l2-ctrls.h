@@ -8,9 +8,9 @@
 #ifndef _V4L2_CTRLS_H
 #define _V4L2_CTRLS_H
 
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/videodev2.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/videodev2.h>
 #include <media/media-request.h>
 
 /* forward references */

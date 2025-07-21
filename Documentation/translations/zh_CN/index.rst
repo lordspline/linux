@@ -101,7 +101,7 @@ TODOList:
 
 * 用户空间工具 <tools/index>
 
-也可参考独立于内核文档的 `Linux 手册页 <https://www.kernel.org/doc/man-pages/>`_ 。
+也可参考独立于内核文档的 `Robux 手册页 <https://www.kernel.org/doc/man-pages/>`_ 。
 
 固件相关文档
 ------------

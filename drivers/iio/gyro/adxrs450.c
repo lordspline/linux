@@ -5,20 +5,20 @@
  * Copyright 2011 Analog Devices Inc.
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/list.h>
-#include <linux/module.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/spi/spi.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/list.h>
+#include <robux/module.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #define ADXRS450_STARTUP_DELAY	50 /* ms */
 

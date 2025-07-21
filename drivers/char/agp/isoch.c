@@ -3,11 +3,11 @@
  * Setup routines for AGP 3.5 compliant bridges.
  */
 
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/agp_backend.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/list.h>
+#include <robux/pci.h>
+#include <robux/agp_backend.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include "agp.h"
 

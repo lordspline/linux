@@ -4,10 +4,10 @@
  * Author: Ping-Hsun Wu <ping-hsun.wu@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/of_platform.h>
-#include <linux/of_address.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/of_platform.h>
+#include <robux/of_address.h>
+#include <robux/pm_runtime.h>
 #include "mtk-mdp3-cfg.h"
 #include "mtk-mdp3-comp.h"
 #include "mtk-mdp3-core.h"

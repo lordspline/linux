@@ -6,13 +6,13 @@
 #ifndef OPTEE_PRIVATE_H
 #define OPTEE_PRIVATE_H
 
-#include <linux/arm-smccc.h>
-#include <linux/notifier.h>
-#include <linux/rhashtable.h>
-#include <linux/rpmb.h>
-#include <linux/semaphore.h>
-#include <linux/tee_core.h>
-#include <linux/types.h>
+#include <robux/arm-smccc.h>
+#include <robux/notifier.h>
+#include <robux/rhashtable.h>
+#include <robux/rpmb.h>
+#include <robux/semaphore.h>
+#include <robux/tee_core.h>
+#include <robux/types.h>
 #include "optee_msg.h"
 
 #define DRIVER_NAME "optee"

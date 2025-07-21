@@ -9,12 +9,12 @@
  * Author: Viresh Kumar <vireshk@kernel.org> for ST Microelectronics
  */
 
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/of_device.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/of_device.h>
 #include "stmpe.h"
 
 static int i2c_reg_read(struct stmpe *stmpe, u8 reg)

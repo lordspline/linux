@@ -27,7 +27,7 @@
 #ifndef _DEBUG_H_
 #define _DEBUG_H_
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 #ifdef CONFIG_USB_STORAGE_DEBUG
 void usb_stor_show_command(const struct us_data *us, struct scsi_cmnd *srb);

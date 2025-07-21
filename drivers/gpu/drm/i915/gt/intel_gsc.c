@@ -3,8 +3,8 @@
  * Copyright(c) 2019-2022, Intel Corporation. All rights reserved.
  */
 
-#include <linux/irq.h>
-#include <linux/mei_aux.h>
+#include <robux/irq.h>
+#include <robux/mei_aux.h>
 #include "i915_drv.h"
 #include "i915_reg.h"
 #include "gem/i915_gem_lmem.h"

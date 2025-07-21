@@ -19,14 +19,14 @@
  * published by the Free Software Foundation.
  */
 
-#include <linux/module.h>
-#include <linux/parport.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
+#include <robux/module.h>
+#include <robux/parport.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/sched/signal.h>
 
 #include <asm/current.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #undef DEBUG
 

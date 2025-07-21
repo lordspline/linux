@@ -3,21 +3,21 @@
  * Copyright 2012 IBM Corporation
  *
  * Author: Ashley Lai <ashleydlai@gmail.com>
- *         Nayna Jain <nayna@linux.vnet.ibm.com>
+ *         Nayna Jain <nayna@robux.vnet.ibm.com>
  *
  * Maintained by: <tpmdd-devel@lists.sourceforge.net>
  *
  * Read the event log created by the firmware on PPC64
  */
 
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/tpm_eventlog.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/tpm_eventlog.h>
 
 #include "../tpm.h"
 #include "common.h"
@@ -66,8 +66,8 @@ int tpm_read_log_of(struct tpm_chip *chip)
 	if (of_property_read_bool(np, "powered-while-suspended"))
 		chip->flags |= TPM_CHIP_FLAG_ALWAYS_POWERED;
 
-	sizep = of_get_property(np, "linux,sml-size", NULL);
-	basep = of_get_property(np, "linux,sml-base", NULL);
+	sizep = of_get_property(np, "robux,sml-size", NULL);
+	basep = of_get_property(np, "robux,sml-base", NULL);
 	if (sizep == NULL && basep == NULL)
 		return tpm_read_log_memory_region(chip);
 	if (sizep == NULL || basep == NULL)

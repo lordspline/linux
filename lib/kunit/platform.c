@@ -3,10 +3,10 @@
  * Test managed platform driver
  */
 
-#include <linux/completion.h>
-#include <linux/device/bus.h>
-#include <linux/device/driver.h>
-#include <linux/platform_device.h>
+#include <robux/completion.h>
+#include <robux/device/bus.h>
+#include <robux/device/driver.h>
+#include <robux/platform_device.h>
 
 #include <kunit/platform_device.h>
 #include <kunit/resource.h>

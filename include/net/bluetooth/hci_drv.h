@@ -6,7 +6,7 @@
 #ifndef __HCI_DRV_H
 #define __HCI_DRV_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci.h>

@@ -8,9 +8,9 @@
 #ifndef __LINUX_TI_AM335X_TSCADC_MFD_H
 #define __LINUX_TI_AM335X_TSCADC_MFD_H
 
-#include <linux/bitfield.h>
-#include <linux/mfd/core.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/mfd/core.h>
+#include <robux/units.h>
 
 #define REG_RAWIRQSTATUS	0x024
 #define REG_IRQSTATUS		0x028

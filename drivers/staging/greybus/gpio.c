@@ -6,14 +6,14 @@
  * Copyright 2014 Linaro Ltd.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/gpio/driver.h>
-#include <linux/mutex.h>
-#include <linux/greybus.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/gpio/driver.h>
+#include <robux/mutex.h>
+#include <robux/greybus.h>
 
 #include "gbphy.h"
 

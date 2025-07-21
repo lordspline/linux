@@ -5,16 +5,16 @@
 // Author: Sugar Zhang <sugar.zhang@rock-chips.com>
 // Author: Nicolas Frattaroli <frattaroli.nicolas@gmail.com>
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/spinlock.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/pcm_params.h>
 

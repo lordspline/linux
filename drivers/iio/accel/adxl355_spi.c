@@ -5,11 +5,11 @@
  * Copyright (c) 2021 Puranjay Mohan <puranjay12@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/property.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
+#include <robux/property.h>
 
 #include "adxl355.h"
 

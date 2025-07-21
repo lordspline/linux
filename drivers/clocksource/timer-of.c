@@ -4,12 +4,12 @@
  *
  * Author: Daniel Lezcano <daniel.lezcano@linaro.org>
  */
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/slab.h>
 
 #include "timer-of.h"
 

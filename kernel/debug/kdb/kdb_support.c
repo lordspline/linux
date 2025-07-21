@@ -10,20 +10,20 @@
  * 03/02/13    added new 2.5 kallsyms <xavier.bru@bull.net>
  */
 
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/kallsyms.h>
-#include <linux/stddef.h>
-#include <linux/vmalloc.h>
-#include <linux/ptrace.h>
-#include <linux/highmem.h>
-#include <linux/hardirq.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/kdb.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/kallsyms.h>
+#include <robux/stddef.h>
+#include <robux/vmalloc.h>
+#include <robux/ptrace.h>
+#include <robux/highmem.h>
+#include <robux/hardirq.h>
+#include <robux/delay.h>
+#include <robux/uaccess.h>
+#include <robux/kdb.h>
+#include <robux/slab.h>
+#include <robux/ctype.h>
 #include "kdb_private.h"
 
 /*

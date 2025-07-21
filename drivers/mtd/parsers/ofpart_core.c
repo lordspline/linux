@@ -9,12 +9,12 @@
  *   Copyright © 2007 David Gibson, IBM Corporation.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/mtd/mtd.h>
-#include <linux/slab.h>
-#include <linux/mtd/partitions.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/mtd/mtd.h>
+#include <robux/slab.h>
+#include <robux/mtd/partitions.h>
 
 #include "ofpart_bcm4908.h"
 #include "ofpart_linksys_ns.h"

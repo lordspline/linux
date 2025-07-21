@@ -13,20 +13,20 @@
  *   actually do.
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/ctype.h>
-#include <linux/time.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/bitops.h>
-#include <linux/rtc.h>
-#include <linux/of.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/proc_fs.h>
+#include <robux/stat.h>
+#include <robux/ctype.h>
+#include <robux/time.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/seq_file.h>
+#include <robux/bitops.h>
+#include <robux/rtc.h>
+#include <robux/of.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/processor.h>
 #include <asm/io.h>
 #include <asm/rtas.h>

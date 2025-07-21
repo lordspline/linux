@@ -9,11 +9,11 @@
  */
 
 #include "cx231xx.h"
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 #include <media/v4l2-common.h>
 #include <media/tuner.h>
 

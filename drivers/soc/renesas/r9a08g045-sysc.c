@@ -5,8 +5,8 @@
  * Copyright (C) 2024 Renesas Electronics Corp.
  */
 
-#include <linux/bits.h>
-#include <linux/init.h>
+#include <robux/bits.h>
+#include <robux/init.h>
 
 #include "rz-sysc.h"
 

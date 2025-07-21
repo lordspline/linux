@@ -9,16 +9,16 @@
  * Copyright (C) 1998-99 Frodo Looijaard <frodol@dds.nl>
  */
 
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/jiffies.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
 
 #include "lm75.h"
 

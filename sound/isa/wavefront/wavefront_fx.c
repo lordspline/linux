@@ -3,13 +3,13 @@
  *  Copyright (c) 1998-2002 by Paul Davis <pbd@op.net>
  */
 
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/time.h>
+#include <robux/wait.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/firmware.h>
 #include <sound/core.h>
 #include <sound/snd_wavefront.h>
 #include <sound/initval.h>

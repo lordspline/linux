@@ -8,11 +8,11 @@
  * Copyright (c) 2019 Baylibre SAS.
  * Author: Neil Armstrong <narmstrong@baylibre.com>
  */
-#include <linux/clk-provider.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
+#include <robux/clk-provider.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
 #include "meson-aoclk.h"
 
 #include "clk-regmap.h"

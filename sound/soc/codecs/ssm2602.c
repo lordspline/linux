@@ -11,10 +11,10 @@
 //
 // Bugs:         Enter bugs at http://blackfin.uclinux.org/
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

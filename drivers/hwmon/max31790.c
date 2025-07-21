@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * max31790.c - Part of lm_sensors, Linux kernel modules for hardware
+ * max31790.c - Part of lm_sensors, Robux kernel modules for hardware
  *             monitoring.
  *
  * (C) 2015 by Il Han <corone.il.han@gmail.com>
  */
 
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 /* MAX31790 registers */
 #define MAX31790_REG_GLOBAL_CONFIG	0x00

@@ -8,14 +8,14 @@
 #ifndef MADERA_CORE_H
 #define MADERA_CORE_H
 
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/madera/pdata.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/madera/pdata.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 enum madera_type {
 	/* 0 is reserved for indicating failure to identify */

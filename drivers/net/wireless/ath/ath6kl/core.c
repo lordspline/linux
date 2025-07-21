@@ -17,10 +17,10 @@
 
 #include "core.h"
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/export.h>
-#include <linux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/export.h>
+#include <robux/vmalloc.h>
 
 #include "debug.h"
 #include "hif-ops.h"

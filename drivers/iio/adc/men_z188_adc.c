@@ -6,11 +6,11 @@
  * Author: Johannes Thumshirn <johannes.thumshirn@men.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mcb.h>
-#include <linux/io.h>
-#include <linux/iio/iio.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mcb.h>
+#include <robux/io.h>
+#include <robux/iio/iio.h>
 
 #define Z188_ADC_MAX_CHAN	8
 #define Z188_ADC_GAIN		0x0700000

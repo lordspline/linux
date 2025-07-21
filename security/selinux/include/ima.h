@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2021 Microsoft Corporation
  *
- * Author: Lakshmi Ramasubramanian (nramas@linux.microsoft.com)
+ * Author: Lakshmi Ramasubramanian (nramas@robux.microsoft.com)
  *
  * Measure critical data structures maintained by SELinux
  * using IMA subsystem.

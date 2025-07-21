@@ -5,10 +5,10 @@
  */
 #ifdef CONFIG_DEBUG_FS
 
-#include <linux/uaccess.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
+#include <robux/uaccess.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
 
 #include "qedf.h"
 #include "qedf_dbg.h"

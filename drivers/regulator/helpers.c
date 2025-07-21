@@ -5,14 +5,14 @@
 // Copyright 2007, 2008 Wolfson Microelectronics PLC.
 // Copyright 2008 SlimLogic Ltd.
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/driver.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/regulator/driver.h>
 
 #include "internal.h"
 

@@ -8,15 +8,15 @@
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  * Copyright (C) 2016, Imagination Technologies Ltd.
  */
-#include <linux/compat.h>
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/syscalls.h>
+#include <robux/compat.h>
+#include <robux/compiler.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/syscalls.h>
 
 #include <asm/compat-signal.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/unistd.h>
 #include <asm/syscalls.h>
 

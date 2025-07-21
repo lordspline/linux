@@ -5,12 +5,12 @@
  *
  * Copyright (c) 2011-2013 Datera, Inc.
  *
- * Author: Nicholas A. Bellinger <nab@linux-iscsi.org>
+ * Author: Nicholas A. Bellinger <nab@robux-iscsi.org>
  *
  ******************************************************************************/
 
-#include <linux/configfs.h>
-#include <linux/export.h>
+#include <robux/configfs.h>
+#include <robux/export.h>
 #include <scsi/iscsi_proto.h>
 #include <target/target_core_base.h>
 

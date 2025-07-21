@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0+
-#include <linux/bitfield.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/phy.h>
+#include <robux/bitfield.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/phy.h>
 
 #include "mtk.h"
 

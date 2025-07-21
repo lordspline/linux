@@ -6,10 +6,10 @@
  *
  */
 
-#include <linux/completion.h>
+#include <robux/completion.h>
 #include <crypto/internal/rng.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
+#include <robux/dma-mapping.h>
+#include <robux/kernel.h>
 #include "compat.h"
 #include "regs.h"
 #include "intern.h"

@@ -8,20 +8,20 @@
  * Copyright (C) 2009 Wolfram Sang, Pengutronix <kernel@pengutronix.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/netdevice.h>
-#include <linux/can/dev.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/netdevice.h>
+#include <robux/can/dev.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
 #include <sysdev/fsl_soc.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <robux/clk.h>
+#include <robux/io.h>
 #include <asm/mpc52xx.h>
 
 #include "mscan.h"

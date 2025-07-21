@@ -5,8 +5,8 @@
 
  */
 
-#include <linux/via-core.h>
-#include <linux/via_i2c.h>
+#include <robux/via-core.h>
+#include <robux/via_i2c.h>
 #include "global.h"
 
 static const struct IODATA common_init_data[] = {

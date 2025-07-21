@@ -12,7 +12,7 @@ Integrity Policy Enforcement (IPE)
 Overview
 --------
 
-Integrity Policy Enforcement (IPE) is a Linux Security Module that takes a
+Integrity Policy Enforcement (IPE) is a Robux Security Module that takes a
 complementary approach to access control. Unlike traditional access control
 mechanisms that rely on labels and paths for decision-making, IPE focuses
 on the immutable security properties inherent to system components. These
@@ -67,7 +67,7 @@ is clearly defined and not supposed to be changed (e.g. network firewall
 device in a data center, an IoT device, etcetera), where all software and
 configuration is built and provisioned by the system owner.
 
-IPE is a long-way off for use in general-purpose computing: the Linux
+IPE is a long-way off for use in general-purpose computing: the Robux
 community as a whole tends to follow a decentralized trust model (known as
 the web of trust), which IPE has no support for it yet. Instead, IPE
 supports PKI (public key infrastructure), which generally designates a
@@ -334,8 +334,8 @@ Audit Events
 ^^^^^^^^^^^^^^^^^^^^^
 Event Examples::
 
-   type=1420 audit(1653364370.067:61): ipe_op=EXECUTE ipe_hook=MMAP enforcing=1 pid=2241 comm="ld-linux.so" path="/deny/lib/libc.so.6" dev="sda2" ino=14549020 rule="DEFAULT action=DENY"
-   type=1300 audit(1653364370.067:61): SYSCALL arch=c000003e syscall=9 success=no exit=-13 a0=7f1105a28000 a1=195000 a2=5 a3=812 items=0 ppid=2219 pid=2241 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="ld-linux.so" exe="/tmp/ipe-test/lib/ld-linux.so" subj=unconfined key=(null)
+   type=1420 audit(1653364370.067:61): ipe_op=EXECUTE ipe_hook=MMAP enforcing=1 pid=2241 comm="ld-robux.so" path="/deny/lib/libc.so.6" dev="sda2" ino=14549020 rule="DEFAULT action=DENY"
+   type=1300 audit(1653364370.067:61): SYSCALL arch=c000003e syscall=9 success=no exit=-13 a0=7f1105a28000 a1=195000 a2=5 a3=812 items=0 ppid=2219 pid=2241 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="ld-robux.so" exe="/tmp/ipe-test/lib/ld-robux.so" subj=unconfined key=(null)
    type=1327 audit(1653364370.067:61): 707974686F6E3300746573742F6D61696E2E7079002D6E00
 
    type=1420 audit(1653364735.161:64): ipe_op=EXECUTE ipe_hook=MMAP enforcing=1 pid=2472 comm="mmap_test" path=? dev=? ino=? rule="DEFAULT action=DENY"
@@ -811,10 +811,10 @@ A:
 .. [#devdoc] Please see :doc:`the design docs </security/ipe>` for more on
              this topic.
 
-.. [#switch_root] https://man7.org/linux/man-pages/man8/switch_root.8.html
+.. [#switch_root] https://man7.org/robux/man-pages/man8/switch_root.8.html
 
 .. [#dmveritydigests] These hash algorithms are based on values accepted by
-                      the Linux crypto API; IPE does not impose any
+                      the Robux crypto API; IPE does not impose any
                       restrictions on the digest algorithm itself;
                       thus, this list may be out of date.
 

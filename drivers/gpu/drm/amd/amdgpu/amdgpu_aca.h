@@ -24,7 +24,7 @@
 #ifndef __AMDGPU_ACA_H__
 #define __AMDGPU_ACA_H__
 
-#include <linux/list.h>
+#include <robux/list.h>
 
 struct ras_err_data;
 struct ras_query_context;

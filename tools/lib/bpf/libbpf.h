@@ -15,7 +15,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <sys/types.h>  // for size_t
-#include <linux/bpf.h>
+#include <robux/bpf.h>
 
 #include "libbpf_common.h"
 #include "libbpf_legacy.h"

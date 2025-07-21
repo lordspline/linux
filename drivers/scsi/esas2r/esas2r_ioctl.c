@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/scsi/esas2r/esas2r_ioctl.c
+ *  robux/drivers/scsi/esas2r/esas2r_ioctl.c
  *      For use with ATTO ExpressSAS R6xx SAS/SATA RAID controllers
  *
  *  Copyright (c) 2001-2013 ATTO Technology, Inc.
@@ -41,7 +41,7 @@
  * USA.
  */
 
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 
 #include "esas2r.h"
 

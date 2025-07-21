@@ -6,22 +6,22 @@
  * Copyright (C) 2009-2012 Cavium, Inc
  */
 
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/capability.h>
-#include <linux/net_tstamp.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/spinlock.h>
-#include <linux/if_vlan.h>
-#include <linux/of_mdio.h>
-#include <linux/module.h>
-#include <linux/of_net.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/phy.h>
-#include <linux/io.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/etherdevice.h>
+#include <robux/capability.h>
+#include <robux/net_tstamp.h>
+#include <robux/interrupt.h>
+#include <robux/netdevice.h>
+#include <robux/spinlock.h>
+#include <robux/if_vlan.h>
+#include <robux/of_mdio.h>
+#include <robux/module.h>
+#include <robux/of_net.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/phy.h>
+#include <robux/io.h>
 
 #include <asm/octeon/octeon.h>
 #include <asm/octeon/cvmx-mixx-defs.h>

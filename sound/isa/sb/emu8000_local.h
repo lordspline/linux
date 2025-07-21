@@ -8,9 +8,9 @@
  *  Copyright (C) 1999-2000 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/wait.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/emu8000.h>
 #include <sound/emu8000_reg.h>

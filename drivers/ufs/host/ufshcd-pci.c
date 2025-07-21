@@ -10,15 +10,15 @@
  */
 
 #include <ufs/ufshcd.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_qos.h>
-#include <linux/debugfs.h>
-#include <linux/uuid.h>
-#include <linux/acpi.h>
-#include <linux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_qos.h>
+#include <robux/debugfs.h>
+#include <robux/uuid.h>
+#include <robux/acpi.h>
+#include <robux/gpio/consumer.h>
 
 #define MAX_SUPP_MAC 64
 

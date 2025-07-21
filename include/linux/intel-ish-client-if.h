@@ -8,8 +8,8 @@
 #ifndef _INTEL_ISH_CLIENT_IF_H_
 #define _INTEL_ISH_CLIENT_IF_H_
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
 
 struct ishtp_cl_device;
 struct ishtp_device;

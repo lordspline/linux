@@ -9,19 +9,19 @@
  *          Suman Anna <s-anna@ti.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/kfifo.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox_client.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/kfifo.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/mailbox_controller.h>
+#include <robux/mailbox_client.h>
 
 #include "mailbox.h"
 

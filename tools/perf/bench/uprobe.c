@@ -11,8 +11,8 @@
 #include <subcmd/parse-options.h>
 #include "../builtin.h"
 #include "bench.h"
-#include <linux/compiler.h>
-#include <linux/time64.h>
+#include <robux/compiler.h>
+#include <robux/time64.h>
 
 #include <inttypes.h>
 #include <stdio.h>

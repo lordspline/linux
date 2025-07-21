@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  */
 
-#include <linux/ctype.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <robux/ctype.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
 
 /*
  * If read and write race, the read will still atomically read a valid

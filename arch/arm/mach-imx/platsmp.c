@@ -4,10 +4,10 @@
  * Copyright 2011 Linaro Ltd.
  */
 
-#include <linux/init.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/smp.h>
+#include <robux/init.h>
+#include <robux/of_address.h>
+#include <robux/of.h>
+#include <robux/smp.h>
 
 #include <asm/cacheflush.h>
 #include <asm/page.h>

@@ -5,17 +5,17 @@
  * Copyright (C) 2021 Nuvoton Technologies
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/hashtable.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/gpio/driver.h>
+#include <robux/hashtable.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/units.h>
 
 #define MAX_NR_HW_SGPIO		64
 

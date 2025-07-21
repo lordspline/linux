@@ -5,21 +5,21 @@
  */
 
 #include <crypto/sha2.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/uaccess.h>
-#include <linux/backing-dev.h>
-#include <linux/writeback.h>
-#include <linux/xattr.h>
-#include <linux/falloc.h>
-#include <linux/fsnotify.h>
-#include <linux/dcache.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/sched/xacct.h>
-#include <linux/crc32c.h>
-#include <linux/namei.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/filelock.h>
+#include <robux/uaccess.h>
+#include <robux/backing-dev.h>
+#include <robux/writeback.h>
+#include <robux/xattr.h>
+#include <robux/falloc.h>
+#include <robux/fsnotify.h>
+#include <robux/dcache.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/sched/xacct.h>
+#include <robux/crc32c.h>
+#include <robux/namei.h>
 
 #include "glob.h"
 #include "oplock.h"
@@ -636,7 +636,7 @@ int ksmbd_vfs_link(struct ksmbd_work *work, const char *oldname,
 
 	err = kern_path(oldname, LOOKUP_NO_SYMLINKS, &oldpath);
 	if (err) {
-		pr_err("cannot get linux path for %s, err = %d\n",
+		pr_err("cannot get robux path for %s, err = %d\n",
 		       oldname, err);
 		goto out1;
 	}
@@ -949,7 +949,7 @@ int ksmbd_vfs_setxattr(struct mnt_idmap *idmap,
 }
 
 /**
- * ksmbd_vfs_set_fadvise() - convert smb IO caching options to linux options
+ * ksmbd_vfs_set_fadvise() - convert smb IO caching options to robux options
  * @filp:	file pointer for IO
  * @option:	smb IO options
  */

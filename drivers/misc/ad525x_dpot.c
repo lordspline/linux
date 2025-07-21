@@ -68,11 +68,11 @@
  * Copyright (c) 2006-2011 Michael Hennerich <michael.hennerich@analog.com>
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
 
 #include "ad525x_dpot.h"
 

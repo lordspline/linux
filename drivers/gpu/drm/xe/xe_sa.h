@@ -5,8 +5,8 @@
 #ifndef _XE_SA_H_
 #define _XE_SA_H_
 
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <robux/sizes.h>
+#include <robux/types.h>
 #include "xe_sa_types.h"
 
 struct dma_fence;

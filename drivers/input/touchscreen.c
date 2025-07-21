@@ -6,11 +6,11 @@
  *  Copyright (c) 2014 Sebastian Reichel <sre@kernel.org>
  */
 
-#include <linux/property.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/module.h>
+#include <robux/property.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/module.h>
 
 static bool touchscreen_get_prop_u32(struct device *dev,
 				     const char *property,

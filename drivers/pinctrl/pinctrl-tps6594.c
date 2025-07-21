@@ -5,14 +5,14 @@
  * Copyright (C) 2023 BayLibre Incorporated - https://www.baylibre.com/
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/gpio/regmap.h>
-#include <linux/module.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/regmap.h>
+#include <robux/module.h>
+#include <robux/pinctrl/pinmux.h>
+#include <robux/platform_device.h>
+#include <robux/mod_devicetable.h>
 
-#include <linux/mfd/tps6594.h>
+#include <robux/mfd/tps6594.h>
 
 #define TPS6594_PINCTRL_GPIO_FUNCTION 0
 #define TPS6594_PINCTRL_SCL_I2C2_CS_SPI_FUNCTION 1

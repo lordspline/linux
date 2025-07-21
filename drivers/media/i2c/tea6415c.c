@@ -16,10 +16,10 @@
   */
 
 
-#include <linux/module.h>
-#include <linux/ioctl.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
+#include <robux/module.h>
+#include <robux/ioctl.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
 #include <media/v4l2-device.h>
 #include "tea6415c.h"
 

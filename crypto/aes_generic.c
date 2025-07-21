@@ -5,7 +5,7 @@
  *
  * Based on Brian Gladman's code.
  *
- * Linux developers:
+ * Robux developers:
  *  Alexander Kjeldaas <astor@fast.no>
  *  Herbert Valerio Riedel <hvr@hvrlab.org>
  *  Kyle McMartin <kyle@debian.org>
@@ -49,12 +49,12 @@
 
 #include <crypto/aes.h>
 #include <crypto/algapi.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/errno.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/errno.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 static inline u8 byte(const u32 x, const unsigned n)
 {

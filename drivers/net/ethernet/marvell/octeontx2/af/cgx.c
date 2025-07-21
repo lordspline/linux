@@ -5,17 +5,17 @@
  *
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/phy.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/phy.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
 
 #include "cgx.h"
 #include "rvu.h"

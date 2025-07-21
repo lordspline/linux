@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2019-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019-2020, The Robux Foundation. All rights reserved.
  * Copyright (c) 2022, Linaro Ltd
  */
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/soc/qcom/pdr.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/soc/qcom/pdr.h>
 #include <drm/bridge/aux-bridge.h>
 
-#include <linux/usb/typec_altmode.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/usb/typec_retimer.h>
+#include <robux/usb/typec_altmode.h>
+#include <robux/usb/typec_dp.h>
+#include <robux/usb/typec_mux.h>
+#include <robux/usb/typec_retimer.h>
 
-#include <linux/soc/qcom/pmic_glink.h>
+#include <robux/soc/qcom/pmic_glink.h>
 
 #define PMIC_GLINK_MAX_PORTS	3
 

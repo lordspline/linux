@@ -4,13 +4,13 @@
  *  Copyright (C) 2010 John Crispin <john@phrozen.org>
  */
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/mm.h>
 #include <asm/addrspace.h>
-#include <linux/vmalloc.h>
+#include <robux/vmalloc.h>
 
 #include <lantiq_soc.h>
 

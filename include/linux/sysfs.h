@@ -4,7 +4,7 @@
  *
  * Copyright (c) 2001,2002 Patrick Mochel
  * Copyright (c) 2004 Silicon Graphics, Inc.
- * Copyright (c) 2007 SUSE Linux Products GmbH
+ * Copyright (c) 2007 SUSE Robux Products GmbH
  * Copyright (c) 2007 Tejun Heo <teheo@suse.de>
  *
  * Please see Documentation/filesystems/sysfs.rst for more information.
@@ -13,14 +13,14 @@
 #ifndef _SYSFS_H_
 #define _SYSFS_H_
 
-#include <linux/kernfs.h>
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/kobject_ns.h>
-#include <linux/stat.h>
-#include <linux/atomic.h>
+#include <robux/kernfs.h>
+#include <robux/compiler.h>
+#include <robux/errno.h>
+#include <robux/list.h>
+#include <robux/lockdep.h>
+#include <robux/kobject_ns.h>
+#include <robux/stat.h>
+#include <robux/atomic.h>
 
 struct kobject;
 struct module;
@@ -224,7 +224,7 @@ struct attribute_group {
 
 /*
  * Use these macros to make defining attributes easier.
- * See include/linux/device.h for examples..
+ * See include/robux/device.h for examples..
  */
 
 #define __ATTR(_name, _mode, _show, _store) {				\

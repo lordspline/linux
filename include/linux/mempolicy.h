@@ -1,20 +1,20 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * NUMA memory policies for Linux.
+ * NUMA memory policies for Robux.
  * Copyright 2003,2004 Andi Kleen SuSE Labs
  */
 #ifndef _LINUX_MEMPOLICY_H
 #define _LINUX_MEMPOLICY_H 1
 
-#include <linux/sched.h>
-#include <linux/mmzone.h>
-#include <linux/slab.h>
-#include <linux/rbtree.h>
-#include <linux/spinlock.h>
-#include <linux/node.h>
-#include <linux/nodemask.h>
-#include <linux/pagemap.h>
-#include <uapi/linux/mempolicy.h>
+#include <robux/sched.h>
+#include <robux/mmzone.h>
+#include <robux/slab.h>
+#include <robux/rbtree.h>
+#include <robux/spinlock.h>
+#include <robux/node.h>
+#include <robux/nodemask.h>
+#include <robux/pagemap.h>
+#include <uapi/robux/mempolicy.h>
 
 struct mm_struct;
 

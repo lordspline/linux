@@ -8,13 +8,13 @@
  * Copyright 2013 IBM Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/bug.h>
-#include <linux/gfp.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/debugfs.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/bug.h>
+#include <robux/gfp.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/debugfs.h>
 
 #include <asm/machdep.h>
 #include <asm/firmware.h>

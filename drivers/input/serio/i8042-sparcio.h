@@ -2,10 +2,10 @@
 #ifndef _I8042_SPARCIO_H
 #define _I8042_SPARCIO_H
 
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
 #include <asm/io.h>
 #include <asm/oplib.h>

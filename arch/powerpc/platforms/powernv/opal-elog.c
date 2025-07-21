@@ -4,17 +4,17 @@
  *
  * Copyright 2013,2014 IBM Corp.
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/fs.h>
-#include <linux/vmalloc.h>
-#include <linux/fcntl.h>
-#include <linux/kobject.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/fs.h>
+#include <robux/vmalloc.h>
+#include <robux/fcntl.h>
+#include <robux/kobject.h>
+#include <robux/uaccess.h>
 #include <asm/opal.h>
 
 struct elog_obj {

@@ -6,18 +6,18 @@
  *                         Cirrus Logic International Semiconductor Ltd.
  */
 
-#include <linux/array_size.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/mfd/cs42l43.h>
-#include <linux/mfd/cs42l43-regs.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/soundwire/sdw_type.h>
+#include <robux/array_size.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/mfd/cs42l43.h>
+#include <robux/mfd/cs42l43-regs.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/soundwire/sdw_registers.h>
+#include <robux/soundwire/sdw_type.h>
 
 #include "cs42l43.h"
 

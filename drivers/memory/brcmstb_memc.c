@@ -4,13 +4,13 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 #define REG_MEMC_CNTRLR_CONFIG		0x00
 #define  CNTRLR_CONFIG_LPDDR4_SHIFT	5

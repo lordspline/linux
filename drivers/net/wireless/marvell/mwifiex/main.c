@@ -5,7 +5,7 @@
  * Copyright 2011-2020 NXP
  */
 
-#include <linux/suspend.h>
+#include <robux/suspend.h>
 #include <net/sock.h>
 
 #include "main.h"

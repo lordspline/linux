@@ -3,16 +3,16 @@
  * Copyright 2007-2008 Paul Mackerras, IBM Corp.
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/types.h>
-#include <linux/pagewalk.h>
-#include <linux/hugetlb.h>
-#include <linux/syscalls.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/gfp.h>
+#include <robux/types.h>
+#include <robux/pagewalk.h>
+#include <robux/hugetlb.h>
+#include <robux/syscalls.h>
 
-#include <linux/pgtable.h>
-#include <linux/uaccess.h>
+#include <robux/pgtable.h>
+#include <robux/uaccess.h>
 
 /*
  * Free all pages allocated for subpage protection maps and pointers.

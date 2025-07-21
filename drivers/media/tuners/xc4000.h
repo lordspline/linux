@@ -8,7 +8,7 @@
 #ifndef __XC4000_H__
 #define __XC4000_H__
 
-#include <linux/firmware.h>
+#include <robux/firmware.h>
 
 struct dvb_frontend;
 struct i2c_adapter;

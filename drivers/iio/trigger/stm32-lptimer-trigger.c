@@ -9,12 +9,12 @@
  * Inspired by Benjamin Gaignard's stm32-timer-trigger driver
  */
 
-#include <linux/iio/timer/stm32-lptim-trigger.h>
-#include <linux/mfd/stm32-lptimer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/iio/timer/stm32-lptim-trigger.h>
+#include <robux/mfd/stm32-lptimer.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 /* Maximum triggers + one trailing null entry to indicate the end of array */
 #define MAX_TRIGGERS 3

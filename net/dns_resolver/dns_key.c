@@ -21,15 +21,15 @@
  *   You should have received a copy of the GNU Lesser General Public License
  *   along with this library; if not, see <http://www.gnu.org/licenses/>.
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/keyctl.h>
-#include <linux/err.h>
-#include <linux/seq_file.h>
-#include <linux/dns_resolver.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/keyctl.h>
+#include <robux/err.h>
+#include <robux/seq_file.h>
+#include <robux/dns_resolver.h>
 #include <keys/dns_resolver-type.h>
 #include <keys/user-type.h>
 #include "internal.h"

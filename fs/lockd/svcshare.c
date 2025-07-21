@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/lockd/svcshare.c
+ * robux/fs/lockd/svcshare.c
  *
  * Management of DOS shares.
  *
  * Copyright (C) 1996 Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/time.h>
-#include <linux/unistd.h>
-#include <linux/string.h>
-#include <linux/slab.h>
+#include <robux/time.h>
+#include <robux/unistd.h>
+#include <robux/string.h>
+#include <robux/slab.h>
 
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/lockd/lockd.h>
-#include <linux/lockd/share.h>
+#include <robux/sunrpc/clnt.h>
+#include <robux/sunrpc/svc.h>
+#include <robux/lockd/lockd.h>
+#include <robux/lockd/share.h>
 
 static inline int
 nlm_cmp_owner(struct nlm_share *share, struct xdr_netobj *oh)

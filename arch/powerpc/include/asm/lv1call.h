@@ -12,8 +12,8 @@
 
 #if !defined(__ASSEMBLY__)
 
-#include <linux/types.h>
-#include <linux/export.h>
+#include <robux/types.h>
+#include <robux/export.h>
 
 /* lv1 call declaration macros */
 

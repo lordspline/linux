@@ -34,13 +34,13 @@
  *       udev coldplug problem
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/fcntl.h>
-#include <linux/compiler.h>
-#include <linux/comedi/comedi_usb.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/fcntl.h>
+#include <robux/compiler.h>
+#include <robux/comedi/comedi_usb.h>
 
 /*
  * timeout for the USB-transfer

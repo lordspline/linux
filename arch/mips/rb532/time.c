@@ -6,14 +6,14 @@
  *  Setting up the clock on the MIPS boards.
  */
 
-#include <linux/init.h>
-#include <linux/kernel_stat.h>
-#include <linux/ptrace.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/mc146818rtc.h>
-#include <linux/irq.h>
-#include <linux/timex.h>
+#include <robux/init.h>
+#include <robux/kernel_stat.h>
+#include <robux/ptrace.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/mc146818rtc.h>
+#include <robux/irq.h>
+#include <robux/timex.h>
 
 #include <asm/mipsregs.h>
 #include <asm/time.h>

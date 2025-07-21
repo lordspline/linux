@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2018 Intel Corporation. */
 
-#include <linux/bpf_trace.h>
-#include <linux/unroll.h>
+#include <robux/bpf_trace.h>
+#include <robux/unroll.h>
 #include <net/xdp_sock_drv.h>
 #include "i40e_txrx_common.h"
 #include "i40e_xsk.h"

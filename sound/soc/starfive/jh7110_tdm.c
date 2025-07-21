@@ -7,17 +7,17 @@
  * Author: Walker Chen <walker.chen@starfivetech.com>
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/dmaengine.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/types.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>

@@ -1,14 +1,14 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/types.h>
 #include <unistd.h>
 #include "../tests.h"
 
 /* This workload was initially added to test enum augmentation with BTF in perf
  * trace because its the only syscall that has an enum argument. Since it is
- * a recent addition to the Linux kernel (at the time of the introduction of this
+ * a recent addition to the Robux kernel (at the time of the introduction of this
  * 'perf test' workload) we just add the required types and defines here instead
- * of including linux/landlock, that isn't available in older systems.
+ * of including robux/landlock, that isn't available in older systems.
  *
  * We are not interested in the result of the syscall, just in intercepting
  * its arguments.

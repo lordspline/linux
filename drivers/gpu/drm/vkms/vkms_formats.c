@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/kernel.h>
-#include <linux/minmax.h>
+#include <robux/kernel.h>
+#include <robux/minmax.h>
 
 #include <drm/drm_blend.h>
 #include <drm/drm_rect.h>

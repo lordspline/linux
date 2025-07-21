@@ -10,13 +10,13 @@
 #ifndef _NET_OVPN_SKB_H_
 #define _NET_OVPN_SKB_H_
 
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/skbuff.h>
-#include <linux/socket.h>
-#include <linux/types.h>
+#include <robux/in.h>
+#include <robux/in6.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
+#include <robux/skbuff.h>
+#include <robux/socket.h>
+#include <robux/types.h>
 
 struct ovpn_cb {
 	struct ovpn_peer *peer;

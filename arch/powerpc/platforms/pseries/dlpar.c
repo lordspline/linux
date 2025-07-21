@@ -9,18 +9,18 @@
 
 #define pr_fmt(fmt)	"dlpar: " fmt
 
-#include <linux/kernel.h>
-#include <linux/notifier.h>
-#include <linux/spinlock.h>
-#include <linux/cpu.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/notifier.h>
+#include <robux/spinlock.h>
+#include <robux/cpu.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
 #include "of_helpers.h"
 #include "pseries.h"
 
 #include <asm/machdep.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/rtas.h>
 #include <asm/rtas-work-area.h>
 #include <asm/prom.h>

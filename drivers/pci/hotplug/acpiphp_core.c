@@ -19,16 +19,16 @@
 
 #define pr_fmt(fmt) "acpiphp: " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci-acpi.h>
-#include <linux/pci_hotplug.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/pci-acpi.h>
+#include <robux/pci_hotplug.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
 #include "acpiphp.h"
 
 /* name size which is used for entries in pcihpfs */

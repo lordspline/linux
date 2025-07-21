@@ -9,13 +9,13 @@
 
 #define pr_fmt(fmt) "secvar: "fmt
 
-#include <linux/printk.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/kobject.h>
-#include <linux/nls.h>
+#include <robux/printk.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/kobject.h>
+#include <robux/nls.h>
 #include <asm/machdep.h>
 #include <asm/secvar.h>
 #include <asm/plpks.h>

@@ -24,13 +24,13 @@
  * Copyright (C) 2015 Texas Instruments Incorporated - https://www.ti.com
  */
 
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/sched_clock.h>
-#include <linux/clocksource.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/clk.h>
+#include <robux/init.h>
+#include <robux/time.h>
+#include <robux/sched_clock.h>
+#include <robux/clocksource.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 /*
  * 32KHz clocksource ... always available, on pretty most chips except

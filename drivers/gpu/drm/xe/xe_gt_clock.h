@@ -6,7 +6,7 @@
 #ifndef _XE_GT_CLOCK_H_
 #define _XE_GT_CLOCK_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct xe_gt;
 

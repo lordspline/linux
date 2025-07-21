@@ -3,16 +3,16 @@
  * Copyright(c) 2023-2024 Intel Corporation
  *
  * Authors: Cezary Rojewski <cezary.rojewski@intel.com>
- *          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+ *          Amadeusz Slawinski <amadeuszx.slawinski@robux.intel.com>
  */
 
 #ifndef __ACPI_NHLT_H__
 #define __ACPI_NHLT_H__
 
-#include <linux/acpi.h>
-#include <linux/kconfig.h>
-#include <linux/overflow.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/kconfig.h>
+#include <robux/overflow.h>
+#include <robux/types.h>
 
 #define __acpi_nhlt_endpoint_config(ep)		((void *)((ep) + 1))
 #define __acpi_nhlt_config_caps(cfg)		((void *)((cfg) + 1))

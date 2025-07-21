@@ -6,8 +6,8 @@
 #ifndef _XE_SURVIVABILITY_MODE_TYPES_H_
 #define _XE_SURVIVABILITY_MODE_TYPES_H_
 
-#include <linux/limits.h>
-#include <linux/types.h>
+#include <robux/limits.h>
+#include <robux/types.h>
 
 struct xe_survivability_info {
 	char name[NAME_MAX];

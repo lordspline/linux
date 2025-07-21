@@ -17,11 +17,11 @@
 #include "sg_sw_sec4.h"
 #include "caampkc.h"
 #include <crypto/internal/engine.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 #define DESC_RSA_PUB_LEN	(2 * CAAM_CMD_SZ + SIZEOF_RSA_PUB_PDB)
 #define DESC_RSA_PRIV_F1_LEN	(2 * CAAM_CMD_SZ + \

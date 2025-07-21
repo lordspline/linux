@@ -10,14 +10,14 @@
  * YB1_source_code/kernel/cht/drivers/misc/charger_gp_led.c
  */
 
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/suspend.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/mfd/intel_soc_pmic.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/suspend.h>
 
 #define CHT_WC_LED1_CTRL		0x5e1f
 #define CHT_WC_LED1_FSM			0x5e20

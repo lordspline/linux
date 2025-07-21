@@ -4,7 +4,7 @@
  *
  * (C) Copyright IBM Corp. 2013
  *
- * Author: Frank Haverkamp <haver@linux.vnet.ibm.com>
+ * Author: Frank Haverkamp <haver@robux.vnet.ibm.com>
  * Author: Joerg-Stephan Vogt <jsvogt@de.ibm.com>
  * Author: Michael Jung <mijung@gmx.net>
  * Author: Michael Ruettger <michael@ibmra.de>
@@ -18,16 +18,16 @@
  * functional code.
  */
 
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/crc-itu-t.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
+#include <robux/pci.h>
+#include <robux/string.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/crc-itu-t.h>
 
 #include "card_base.h"
 #include "card_ddcb.h"

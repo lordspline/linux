@@ -3,8 +3,8 @@
 #define __MACIO_ASIC_H__
 #ifdef __KERNEL__
 
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 extern const struct bus_type macio_bus_type;
 

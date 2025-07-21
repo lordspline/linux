@@ -3,18 +3,18 @@
 // Copyright (C) 2019 Linaro Ltd.
 // Copyright (C) 2019 Socionext Inc.
 
-#include <linux/bits.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/of_dma.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/bitfield.h>
 
 #include "virt-dma.h"
 

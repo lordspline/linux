@@ -62,16 +62,16 @@
  *     know one?)
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/fd.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/blk-mq.h>
-#include <linux/major.h>
-#include <linux/mutex.h>
-#include <linux/completion.h>
-#include <linux/wait.h>
+#include <robux/fd.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/blk-mq.h>
+#include <robux/major.h>
+#include <robux/mutex.h>
+#include <robux/completion.h>
+#include <robux/wait.h>
 
 #include <asm/atariints.h>
 #include <asm/atari_stdma.h>
@@ -1424,7 +1424,7 @@ static void finish_fdc_done( int dummy )
  * as long as no write protected disks are used. TOS solves this
  * problem by introducing tri-state logic ("maybe changed") and
  * looking at the serial number in block 0. This isn't possible for
- * Linux, since the floppy driver can't make assumptions about the
+ * Robux, since the floppy driver can't make assumptions about the
  * filesystem used on the disk and thus the contents of block 0. I've
  * chosen the method to always say "The disk was changed" if it is
  * unsure whether it was. This implies that every open or mount

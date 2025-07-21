@@ -10,10 +10,10 @@
 #ifndef __LINUX_OF_GPIO_H
 #define __LINUX_OF_GPIO_H
 
-#include <linux/compiler.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio.h>		/* FIXME: Shouldn't be here */
-#include <linux/of.h>
+#include <robux/compiler.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio.h>		/* FIXME: Shouldn't be here */
+#include <robux/of.h>
 
 struct device_node;
 
@@ -24,7 +24,7 @@ extern int of_get_named_gpio(const struct device_node *np,
 
 #else /* CONFIG_OF_GPIO */
 
-#include <linux/errno.h>
+#include <robux/errno.h>
 
 /* Drivers may not strictly depend on the GPIO support, so let them link. */
 static inline int of_get_named_gpio(const struct device_node *np,

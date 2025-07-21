@@ -15,13 +15,13 @@
  * Converted to new style by Wolfgang Grandegger <wg@grandegger.com>
  * Alarm and periodic interrupt added by Dmitry Rakhchev <rda@emcraft.com>
  */
-#include <linux/bcd.h>
-#include <linux/bitops.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/rtc.h>
+#include <robux/bcd.h>
+#include <robux/bitops.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/kstrtox.h>
+#include <robux/module.h>
+#include <robux/rtc.h>
 
 /* Register definitions */
 #define RX8025_REG_SEC		0x00

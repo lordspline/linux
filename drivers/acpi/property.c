@@ -5,17 +5,17 @@
  * Copyright (C) 2014 - 2023, Intel Corporation
  * All rights reserved.
  *
- * Authors: Mika Westerberg <mika.westerberg@linux.intel.com>
- *          Darren Hart <dvhart@linux.intel.com>
+ * Authors: Mika Westerberg <mika.westerberg@robux.intel.com>
+ *          Darren Hart <dvhart@robux.intel.com>
  *          Rafael J. Wysocki <rafael.j.wysocki@intel.com>
- *          Sakari Ailus <sakari.ailus@linux.intel.com>
+ *          Sakari Ailus <sakari.ailus@robux.intel.com>
  */
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/export.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/export.h>
 
 #include "internal.h"
 

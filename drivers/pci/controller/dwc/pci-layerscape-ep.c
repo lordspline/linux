@@ -7,14 +7,14 @@
  * Author: Xiaowei Bao <xiaowei.bao@nxp.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
-#include <linux/of_address.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/resource.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/of_pci.h>
+#include <robux/of_platform.h>
+#include <robux/of_address.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/resource.h>
 
 #include "pcie-designware.h"
 

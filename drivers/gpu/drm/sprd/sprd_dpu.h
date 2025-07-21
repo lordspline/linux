@@ -6,12 +6,12 @@
 #ifndef __SPRD_DPU_H__
 #define __SPRD_DPU_H__
 
-#include <linux/bug.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
+#include <robux/bug.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
 #include <video/videomode.h>
 
 #include <drm/drm_crtc.h>

@@ -7,13 +7,13 @@
  *
  **************************************************************************/
 
-#include <linux/aperture.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/pm_runtime.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
+#include <robux/aperture.h>
+#include <robux/cpu.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/pm_runtime.h>
+#include <robux/spinlock.h>
+#include <robux/delay.h>
 
 #include <asm/set_memory.h>
 

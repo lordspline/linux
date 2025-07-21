@@ -2,12 +2,12 @@
 #ifndef _DEVICE_DEVRES_H_
 #define _DEVICE_DEVRES_H_
 
-#include <linux/err.h>
-#include <linux/gfp_types.h>
-#include <linux/numa.h>
-#include <linux/overflow.h>
-#include <linux/stdarg.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/gfp_types.h>
+#include <robux/numa.h>
+#include <robux/overflow.h>
+#include <robux/stdarg.h>
+#include <robux/types.h>
 #include <asm/bug.h>
 
 struct device;

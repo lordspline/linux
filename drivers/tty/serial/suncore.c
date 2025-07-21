@@ -11,14 +11,14 @@
  * Copyright (C) 2002 David S. Miller (davem@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/console.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/serial_core.h>
-#include <linux/sunserialcore.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/console.h>
+#include <robux/tty.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/serial_core.h>
+#include <robux/sunserialcore.h>
+#include <robux/init.h>
 
 #include <asm/prom.h>
 

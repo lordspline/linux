@@ -31,11 +31,11 @@
  * cause they are rather slow compared to alloc_pages+map.
  */
 
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/debugfs.h>
-#include <linux/highmem.h>
-#include <linux/sched/mm.h>
+#include <robux/module.h>
+#include <robux/dma-mapping.h>
+#include <robux/debugfs.h>
+#include <robux/highmem.h>
+#include <robux/sched/mm.h>
 
 #ifdef CONFIG_X86
 #include <asm/set_memory.h>
@@ -49,7 +49,7 @@
 #include "ttm_module.h"
 
 #ifdef CONFIG_FAULT_INJECTION
-#include <linux/fault-inject.h>
+#include <robux/fault-inject.h>
 static DECLARE_FAULT_ATTR(backup_fault_inject);
 #else
 #define should_fail(...) false

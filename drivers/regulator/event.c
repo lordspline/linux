@@ -8,7 +8,7 @@
 #include <regulator/regulator.h>
 #include <net/netlink.h>
 #include <net/genetlink.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 
 #include "regnl.h"
 

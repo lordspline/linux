@@ -6,23 +6,23 @@
  * Copyright (C) 2004-2005 David Brownell
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/string_choices.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/workqueue.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/string_choices.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
 
-#include <linux/mfd/tps65010.h>
+#include <robux/mfd/tps65010.h>
 
-#include <linux/gpio/driver.h>
+#include <robux/gpio/driver.h>
 
 
 /*-------------------------------------------------------------------------*/

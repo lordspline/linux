@@ -9,14 +9,14 @@
 #include <crypto/gcm.h>
 #include <crypto/internal/aead.h>
 #include <crypto/scatterwalk.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/firmware/xlnx-zynqmp.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/firmware/xlnx-zynqmp.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
 
 #define ZYNQMP_DMA_BIT_MASK	32U
 

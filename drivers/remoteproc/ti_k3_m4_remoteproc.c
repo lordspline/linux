@@ -6,15 +6,15 @@
  *	Hari Nagalla <hnagalla@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <robux/io.h>
+#include <robux/mailbox_client.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/remoteproc.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
 
 #include "omap_remoteproc.h"
 #include "remoteproc_internal.h"

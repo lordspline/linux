@@ -8,11 +8,11 @@
 
 #include "em28xx.h"
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/hardirq.h>
-#include <linux/init.h>
-#include <linux/usb.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/hardirq.h>
+#include <robux/init.h>
+#include <robux/usb.h>
 
 #include "em28xx-v4l.h"
 

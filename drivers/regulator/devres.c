@@ -5,12 +5,12 @@
  * Copyright 2013 Linaro Ltd
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/driver.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/regulator/driver.h>
+#include <robux/module.h>
 
 #include "internal.h"
 

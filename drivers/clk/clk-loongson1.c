@@ -5,14 +5,14 @@
  * Copyright (C) 2012-2023 Keguang Zhang <keguang.zhang@gmail.com>
  */
 
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/container_of.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/printk.h>
+#include <robux/bits.h>
+#include <robux/clk-provider.h>
+#include <robux/container_of.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/printk.h>
 
 #include <dt-bindings/clock/loongson,ls1x-clk.h>
 

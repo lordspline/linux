@@ -20,12 +20,12 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 #include <drm/display/drm_dp_dual_mode_helper.h>
 #include <drm/drm_device.h>

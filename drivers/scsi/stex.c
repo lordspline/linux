@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * SuperTrak EX Series Storage Controller driver for Linux
+ * SuperTrak EX Series Storage Controller driver for Robux
  *
  *	Copyright (C) 2005-2015 Promise Technology Inc.
  *
@@ -8,20 +8,20 @@
  *		Ed Lin <promise_linux@promise.com>
  */
 
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/ktime.h>
-#include <linux/reboot.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/interrupt.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/ktime.h>
+#include <robux/reboot.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/byteorder.h>

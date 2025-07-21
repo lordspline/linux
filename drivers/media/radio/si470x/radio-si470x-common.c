@@ -78,7 +78,7 @@
  *		- afc indication
  *		- more safety checks, let si470x_get_freq return errno
  *		- vidioc behavior corrected according to v4l2 spec
- * 2008-10-20	Alexey Klimov <klimov.linux@gmail.com>
+ * 2008-10-20	Alexey Klimov <klimov.robux@gmail.com>
  *		- add support for KWorld USB FM Radio FM700
  *		- blacklisted KWorld radio in hid-core.c and hid-ids.h
  * 2008-12-03	Mark Lord <mlord@pobox.com>

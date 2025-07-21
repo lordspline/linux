@@ -5,21 +5,21 @@
  * Copyright (C) 2015 Freescale Semiconductor, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/driver.h>
+#include <robux/iio/sysfs.h>
 
 /* ADC register */
 #define IMX7D_REG_ADC_CH_A_CFG1			0x00

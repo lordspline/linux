@@ -6,11 +6,11 @@
 #ifndef MTK_DDP_COMP_H
 #define MTK_DDP_COMP_H
 
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
-#include <linux/soc/mediatek/mtk-cmdq.h>
-#include <linux/soc/mediatek/mtk-mmsys.h>
-#include <linux/soc/mediatek/mtk-mutex.h>
+#include <robux/io.h>
+#include <robux/pm_runtime.h>
+#include <robux/soc/mediatek/mtk-cmdq.h>
+#include <robux/soc/mediatek/mtk-mmsys.h>
+#include <robux/soc/mediatek/mtk-mutex.h>
 
 #include <drm/drm_modes.h>
 

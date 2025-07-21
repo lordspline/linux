@@ -8,12 +8,12 @@
  * Copyright (c) 2017 Andreas Färber
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pm_domain.h>
-#include <linux/soc/actions/owl-sps.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/pm_domain.h>
+#include <robux/soc/actions/owl-sps.h>
 #include <dt-bindings/power/owl-s500-powergate.h>
 #include <dt-bindings/power/owl-s700-powergate.h>
 #include <dt-bindings/power/owl-s900-powergate.h>

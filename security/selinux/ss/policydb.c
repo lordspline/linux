@@ -24,12 +24,12 @@
  *         Copyright (C) 2016 Mellanox Techonologies
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/audit.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/audit.h>
 #include "security.h"
 
 #include "policydb.h"

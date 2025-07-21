@@ -6,16 +6,16 @@
  * Copyright (c) 2025 Collabora Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/delay.h>
-#include <linux/of_gpio.h>
-#include <linux/of_device.h>
-#include <linux/clk.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <robux/module.h>
+#include <robux/mfd/syscon.h>
+#include <robux/delay.h>
+#include <robux/of_gpio.h>
+#include <robux/of_device.h>
+#include <robux/clk.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/spinlock.h>
 #include <sound/pcm_params.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/tlv.h>

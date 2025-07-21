@@ -7,16 +7,16 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/bcd.h>
-#include <linux/delay.h>
-#include <linux/mfd/core.h>
-#include <linux/random.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/bcd.h>
+#include <robux/delay.h>
+#include <robux/mfd/core.h>
+#include <robux/random.h>
 
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/otp.h>
+#include <robux/mfd/wm831x/core.h>
+#include <robux/mfd/wm831x/otp.h>
 
 /* In bytes */
 #define WM831X_UNIQUE_ID_LEN 16

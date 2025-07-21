@@ -6,9 +6,9 @@
 //
 // Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/module.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
+#include <robux/module.h>
 
 #include "internal.h"
 

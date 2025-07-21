@@ -7,14 +7,14 @@
  * Copyright (C) 2019-2021 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/hid.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/unaligned.h>
+#include <robux/hid.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
-#include <linux/surface_aggregator/controller.h>
+#include <robux/surface_aggregator/controller.h>
 
 #include "surface_hid_core.h"
 

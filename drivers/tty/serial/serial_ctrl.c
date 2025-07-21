@@ -10,11 +10,11 @@
  * port device.
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/serial_core.h>
-#include <linux/spinlock.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/serial_core.h>
+#include <robux/spinlock.h>
 
 #include "serial_base.h"
 

@@ -10,10 +10,10 @@
 
 #include <crypto/internal/hash.h>
 #include <crypto/sha1.h>
-#include <linux/math.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <robux/math.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/unaligned.h>
 
 typedef void (sha1_block_fn)(struct sha1_state *sst, u8 const *src, int blocks);
 

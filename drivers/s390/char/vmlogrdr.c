@@ -14,24 +14,24 @@
 #define KMSG_COMPONENT "vmlogrdr"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/atomic.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/atomic.h>
+#include <robux/uaccess.h>
 #include <asm/machine.h>
 #include <asm/cpcmd.h>
 #include <asm/debug.h>
 #include <asm/ebcdic.h>
 #include <net/iucv/iucv.h>
-#include <linux/kmod.h>
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/string.h>
+#include <robux/kmod.h>
+#include <robux/cdev.h>
+#include <robux/device.h>
+#include <robux/string.h>
 
 MODULE_AUTHOR
 	("(C) 2004 IBM Corporation by Xenia Tkatschow (xenia@us.ibm.com)\n"

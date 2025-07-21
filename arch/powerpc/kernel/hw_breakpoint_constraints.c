@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0+
-#include <linux/kernel.h>
-#include <linux/uaccess.h>
-#include <linux/sched.h>
+#include <robux/kernel.h>
+#include <robux/uaccess.h>
+#include <robux/sched.h>
 #include <asm/hw_breakpoint.h>
 #include <asm/sstep.h>
 #include <asm/cache.h>

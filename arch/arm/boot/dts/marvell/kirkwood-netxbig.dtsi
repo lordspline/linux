@@ -60,19 +60,19 @@
 		 */
 		button-exc {
 			label = "Back power switch (on|auto)";
-			linux,code = <KEY_ESC>;
-			linux,input-type = <5>;
+			robux,code = <KEY_ESC>;
+			robux,input-type = <5>;
 			gpios = <&gpio0 13 GPIO_ACTIVE_LOW>;
 		};
 		button-power {
 			label = "Back power switch (auto|off)";
-			linux,code = <KEY_1>;
-			linux,input-type = <5>;
+			robux,code = <KEY_1>;
+			robux,input-type = <5>;
 			gpios = <&gpio0 15 GPIO_ACTIVE_LOW>;
 		};
 		button-option {
 			label = "Function button";
-			linux,code = <KEY_OPTION>;
+			robux,code = <KEY_OPTION>;
 			gpios = <&gpio1 2 GPIO_ACTIVE_LOW>;
 		};
 

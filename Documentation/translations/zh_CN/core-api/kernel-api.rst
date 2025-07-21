@@ -19,7 +19,7 @@ Linux内核API
 
 该API在以下内核代码中:
 
-include/linux/list.h
+include/robux/list.h
 
 基本的C库函数
 =============
@@ -35,9 +35,9 @@ include/linux/list.h
 
 lib/vsprintf.c
 
-include/linux/kernel.h
+include/robux/kernel.h
 
-include/linux/kernel.h
+include/robux/kernel.h
 
 lib/kstrtox.c
 
@@ -48,11 +48,11 @@ lib/string_helpers.c
 
 该API在以下内核代码中:
 
-include/linux/fortify-string.h
+include/robux/fortify-string.h
 
 lib/string.c
 
-include/linux/string.h
+include/robux/string.h
 
 mm/util.c
 
@@ -79,17 +79,17 @@ include/asm-generic/bitops/instrumented-lock.h
 
 lib/bitmap.c
 
-include/linux/bitmap.h
+include/robux/bitmap.h
 
-include/linux/bitmap.h
+include/robux/bitmap.h
 
-include/linux/bitmap.h
-
-lib/bitmap.c
+include/robux/bitmap.h
 
 lib/bitmap.c
 
-include/linux/bitmap.h
+lib/bitmap.c
+
+include/robux/bitmap.h
 
 命令行解析
 ----------
@@ -116,7 +116,7 @@ lib/textsearch.c
 
 lib/textsearch.c
 
-include/linux/textsearch.h
+include/robux/textsearch.h
 
 Linux中的CRC和数学函数
 ======================
@@ -126,7 +126,7 @@ Linux中的CRC和数学函数
 
 该API在以下内核代码中:
 
-include/linux/overflow.h
+include/robux/overflow.h
 
 CRC函数
 -------
@@ -154,7 +154,7 @@ lib/crc-itu-t.c
 
 该API在以下内核代码中:
 
-include/linux/log2.h
+include/robux/log2.h
 
 整数幂函数
 ----------
@@ -172,7 +172,7 @@ lib/math/int_sqrt.c
 
 include/asm-generic/div64.h
 
-include/linux/math64.h
+include/robux/math64.h
 
 lib/math/gcd.c
 
@@ -201,7 +201,7 @@ kfifo接口
 
 该API在以下内核代码中:
 
-include/linux/kfifo.h
+include/robux/kfifo.h
 
 转发接口支持
 ============
@@ -289,7 +289,7 @@ kernel/acct.c
 
 该API在以下内核代码中:
 
-include/linux/bio.h
+include/robux/bio.h
 
 block/blk-core.c
 
@@ -345,7 +345,7 @@ fs/char_dev.c
 
 该API在以下内核代码中:
 
-include/linux/clk.h
+include/robux/clk.h
 
 同步原语
 ========
@@ -355,7 +355,7 @@ include/linux/clk.h
 
 该API在以下内核代码中:
 
-include/linux/rcupdate.h
+include/robux/rcupdate.h
 
 kernel/rcu/tree.c
 
@@ -363,16 +363,16 @@ kernel/rcu/tree_exp.h
 
 kernel/rcu/update.c
 
-include/linux/srcu.h
+include/robux/srcu.h
 
 kernel/rcu/srcutree.c
 
-include/linux/rculist_bl.h
+include/robux/rculist_bl.h
 
-include/linux/rculist.h
+include/robux/rculist.h
 
-include/linux/rculist_nulls.h
+include/robux/rculist_nulls.h
 
-include/linux/rcu_sync.h
+include/robux/rcu_sync.h
 
 kernel/rcu/sync.c

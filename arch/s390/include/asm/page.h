@@ -8,7 +8,7 @@
 #ifndef _S390_PAGE_H
 #define _S390_PAGE_H
 
-#include <linux/const.h>
+#include <robux/const.h>
 #include <asm/types.h>
 #include <asm/asm.h>
 

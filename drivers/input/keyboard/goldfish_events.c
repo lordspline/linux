@@ -4,16 +4,16 @@
  * Copyright (C) 2012 Intel, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/acpi.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/types.h>
+#include <robux/input.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/acpi.h>
 
 enum {
 	REG_READ        = 0x00,

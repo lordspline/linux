@@ -6,9 +6,9 @@
  *
  * Copyright (C) 2013 Texas Instruments Incorporated - https://www.ti.com
  */
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/init.h>
 
 #include "common.h"
 

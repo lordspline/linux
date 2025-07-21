@@ -5,11 +5,11 @@
  * Driver for KEBA I2C controller FPGA IP core
  */
 
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/misc/keba.h>
+#include <robux/i2c.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/misc/keba.h>
 
 #define KI2C "i2c-keba"
 
@@ -63,7 +63,7 @@ static int ki2c_inuse_lock(struct ki2c *ki2c)
 	/*
 	 * The I2C controller has an IN_USE bit for locking access to the
 	 * controller. This enables the use of I2C controller by other none
-	 * Linux processors.
+	 * Robux processors.
 	 *
 	 * If the I2C controller is free, then the first read returns
 	 * IN_USE == 0. After that the I2C controller is locked and further

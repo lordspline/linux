@@ -10,17 +10,17 @@
  * Generic serial MIDI driver using the serdev serial bus API for hardware interaction
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/serdev.h>
-#include <linux/serial_reg.h>
-#include <linux/slab.h>
-#include <linux/dev_printk.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/serdev.h>
+#include <robux/serial_reg.h>
+#include <robux/slab.h>
+#include <robux/dev_printk.h>
 
 #include <sound/core.h>
 #include <sound/rawmidi.h>

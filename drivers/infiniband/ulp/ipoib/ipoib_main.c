@@ -34,24 +34,24 @@
 
 #include "ipoib.h"
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/vmalloc.h>
 
-#include <linux/if_arp.h>	/* For ARPHRD_xxx */
+#include <robux/if_arp.h>	/* For ARPHRD_xxx */
 
-#include <linux/ip.h>
-#include <linux/in.h>
+#include <robux/ip.h>
+#include <robux/in.h>
 
-#include <linux/jhash.h>
+#include <robux/jhash.h>
 #include <net/arp.h>
 #include <net/addrconf.h>
 #include <net/netdev_lock.h>
 #include <net/pkt_sched.h>
-#include <linux/inetdevice.h>
+#include <robux/inetdevice.h>
 #include <rdma/ib_cache.h>
 
 MODULE_AUTHOR("Roland Dreier");

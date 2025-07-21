@@ -6,8 +6,8 @@
 //
 // Author: James Schulman <james.schulman@cirrus.com>
 
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
 #include "cs35l45.h"
 

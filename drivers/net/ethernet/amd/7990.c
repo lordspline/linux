@@ -13,26 +13,26 @@
  * most of a2025 and sunlance with the aim of merging them, so the
  * common code was pretty obvious.
  */
-#include <linux/crc32.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/route.h>
-#include <linux/string.h>
-#include <linux/skbuff.h>
-#include <linux/pgtable.h>
+#include <robux/crc32.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/in.h>
+#include <robux/route.h>
+#include <robux/string.h>
+#include <robux/skbuff.h>
+#include <robux/pgtable.h>
 #include <asm/irq.h>
 /* Used for the temporal inet entries and routing */
-#include <linux/socket.h>
-#include <linux/bitops.h>
+#include <robux/socket.h>
+#include <robux/bitops.h>
 
 #include <asm/io.h>
 #include <asm/dma.h>

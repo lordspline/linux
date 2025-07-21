@@ -9,13 +9,13 @@
  * Copyright (c) 2009 Wind River Systems, Inc.  All Rights Reserved.
  */
 
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
-#include <linux/kdb.h>
-#include <linux/nmi.h>
+#include <robux/ctype.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/debug.h>
+#include <robux/kdb.h>
+#include <robux/nmi.h>
 #include "kdb_private.h"
 
 

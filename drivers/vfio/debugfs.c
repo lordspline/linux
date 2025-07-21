@@ -3,10 +3,10 @@
  * Copyright (c) 2023, HiSilicon Ltd.
  */
 
-#include <linux/device.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/vfio.h>
+#include <robux/device.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/vfio.h>
 #include "vfio.h"
 
 static struct dentry *vfio_debugfs_root;

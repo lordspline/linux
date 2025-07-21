@@ -10,26 +10,26 @@
  * Datasheet: https://www.ti.com/lit/ds/symlink/hdc3020.pdf
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/regulator/consumer.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/crc8.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pm.h>
+#include <robux/regulator/consumer.h>
+#include <robux/units.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
 
 #define HDC3020_S_AUTO_10HZ_MOD0	0x2737
 #define HDC3020_S_STATUS		0x3041

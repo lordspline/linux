@@ -8,11 +8,11 @@
 #ifndef _LINUX_NTFS3_LIB_DECOMPRESS_COMMON_H
 #define _LINUX_NTFS3_LIB_DECOMPRESS_COMMON_H
 
-#include <linux/string.h>
-#include <linux/compiler.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/string.h>
+#include <robux/compiler.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 
 
 /* "Force inline" macro (not required, but helpful for performance)  */

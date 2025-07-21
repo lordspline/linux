@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- *  linux/include/linux/ext2_fs.h
+ *  robux/include/robux/ext2_fs.h
  *
  * Copyright (C) 1992, 1993, 1994, 1995
  * Remy Card (card@masi.ibp.fr)
@@ -9,7 +9,7 @@
  *
  *  from
  *
- *  linux/include/linux/minix_fs.h
+ *  robux/include/robux/minix_fs.h
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
@@ -17,8 +17,8 @@
 #ifndef _LINUX_EXT2_FS_H
 #define _LINUX_EXT2_FS_H
 
-#include <linux/types.h>
-#include <linux/magic.h>
+#include <robux/types.h>
+#include <robux/magic.h>
 
 #define EXT2_NAME_LEN 255
 

@@ -7,12 +7,12 @@
  * Authors: Joao Pinto <jpinto@synopsys.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
 
 #include "ufshcd-pltfrm.h"
 #include "ufshcd-dwc.h"

@@ -12,15 +12,15 @@
  *   Kyle Fazzari <git@status.e4ward.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/serio.h>
-#include <linux/libps2.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/serio.h>
+#include <robux/libps2.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
 
 #include "cypress_ps2.h"
 

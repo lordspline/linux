@@ -13,14 +13,14 @@
  * Author: Chen-Yu Tsai <wens@csie.org>
  */
 
-#include <linux/acpi.h>
-#include <linux/err.h>
-#include <linux/mfd/axp20x.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/sunxi-rsb.h>
+#include <robux/acpi.h>
+#include <robux/err.h>
+#include <robux/mfd/axp20x.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/sunxi-rsb.h>
 
 static int axp20x_rsb_probe(struct sunxi_rsb_device *rdev)
 {

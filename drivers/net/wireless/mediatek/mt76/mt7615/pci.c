@@ -5,9 +5,9 @@
  *         Felix Fietkau <nbd@nbd.name>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include "mt7615.h"
 #include "mcu.h"

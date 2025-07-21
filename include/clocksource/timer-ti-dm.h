@@ -30,9 +30,9 @@
  * 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
 
 #ifndef __CLOCKSOURCE_DMTIMER_H
 #define __CLOCKSOURCE_DMTIMER_H

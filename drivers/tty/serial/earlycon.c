@@ -10,15 +10,15 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/console.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/serial_core.h>
-#include <linux/sizes.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/acpi.h>
+#include <robux/console.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/serial_core.h>
+#include <robux/sizes.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
+#include <robux/acpi.h>
 
 #ifdef CONFIG_FIX_EARLYCON_MEM
 #include <asm/fixmap.h>

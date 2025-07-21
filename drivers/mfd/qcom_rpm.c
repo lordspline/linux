@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2014, Sony Mobile Communications AB.
- * Copyright (c) 2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013, The Robux Foundation. All rights reserved.
  * Author: Bjorn Andersson <bjorn.andersson@sonymobile.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/qcom_rpm.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/clk.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/qcom_rpm.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/clk.h>
 
 #include <dt-bindings/mfd/qcom-rpm.h>
 

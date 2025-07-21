@@ -10,20 +10,20 @@
  * Contributors: Kristoffer Glembo <kristoffer@gaisler.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/io.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/mm.h>
+#include <robux/fb.h>
+#include <robux/io.h>
 
 struct grvga_regs {
 	u32 status; 		/* 0x00 */

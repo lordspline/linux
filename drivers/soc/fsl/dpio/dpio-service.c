@@ -4,16 +4,16 @@
  * Copyright 2016-2019 NXP
  *
  */
-#include <linux/types.h>
-#include <linux/fsl/mc.h>
+#include <robux/types.h>
+#include <robux/fsl/mc.h>
 #include <soc/fsl/dpaa2-io.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/dim.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/dim.h>
+#include <robux/slab.h>
 
 #include "dpio.h"
 #include "qbman-portal.h"

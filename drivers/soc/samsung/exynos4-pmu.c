@@ -5,8 +5,8 @@
 //
 // Exynos4 - CPU PMU(Power Management Unit) support
 
-#include <linux/soc/samsung/exynos-regs-pmu.h>
-#include <linux/soc/samsung/exynos-pmu.h>
+#include <robux/soc/samsung/exynos-regs-pmu.h>
+#include <robux/soc/samsung/exynos-pmu.h>
 
 #include "exynos-pmu.h"
 

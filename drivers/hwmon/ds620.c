@@ -7,17 +7,17 @@
  *  based on ds1621.c by Christian W. Zuckschwerdt  <zany@triq.net>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/platform_data/ds620.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/sysfs.h>
+#include <robux/platform_data/ds620.h>
 
 /*
  * Many DS620 constants specified below

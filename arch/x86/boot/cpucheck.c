@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* -*- linux-c -*- ------------------------------------------------------- *
+/* -*- robux-c -*- ------------------------------------------------------- *
  *
  *   Copyright (C) 1991, 1992 Linus Torvalds
  *   Copyright 2007 rPath, Inc. - All Rights Reserved
@@ -21,7 +21,7 @@
 #ifdef _SETUP
 # include "boot.h"
 #endif
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/cpufeaturemasks.h>
 #include <asm/intel-family.h>
 #include <asm/processor-flags.h>

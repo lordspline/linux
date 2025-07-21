@@ -1,5 +1,5 @@
 /*
- * Initio A100 device driver for Linux.
+ * Initio A100 device driver for Robux.
  *
  * Copyright (c) 1994-1998 Initio Corporation
  * Copyright (c) 2003-2004 Christoph Hellwig
@@ -58,18 +58,18 @@
  *	 - Grand cleanup and Linuxisation
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/spinlock.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/ioport.h>
-#include <linux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/blkdev.h>
+#include <robux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/ioport.h>
+#include <robux/dma-mapping.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
@@ -846,7 +846,7 @@ static int inia100_build_scb(struct orc_host * host, struct orc_scb * scb, struc
 	int i, count_sg;
 	struct orc_extended_scb *escb;
 
-	/* Links between the escb, scb and Linux scsi midlayer cmd */
+	/* Links between the escb, scb and Robux scsi midlayer cmd */
 	escb = scb->escb;
 	escb->srb = cmd;
 	sgent = NULL;

@@ -3,23 +3,23 @@
  * Copyright (C) 2005-2007  Kristian Hoegsberg <krh@bitplanet.net>
  */
 
-#include <linux/bug.h>
-#include <linux/completion.h>
-#include <linux/crc-itu-t.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <robux/bug.h>
+#include <robux/completion.h>
+#include <robux/crc-itu-t.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/firewire.h>
+#include <robux/firewire-constants.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/workqueue.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/byteorder.h>
 
 #include "core.h"

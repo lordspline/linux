@@ -19,7 +19,7 @@
 #include <fcntl.h>
 #include <getopt.h>
 #include <sys/ioctl.h>
-#include <linux/gpio.h>
+#include <robux/gpio.h>
 
 #include "gpio-utils.h"
 

@@ -6,10 +6,10 @@
 // Copyright 2008 Jon Smirl, Digispeaker
 // Author: Jon Smirl <jonsmirl@gmail.com>
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/of.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/of.h>
 
 #include <sound/soc.h>
 

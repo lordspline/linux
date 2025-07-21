@@ -4,9 +4,9 @@
  *
  * This driver is heavily based upon:
  *
- * linux/drivers/ide/pci/hpt366.c		Version 0.36	April 25, 2003
+ * robux/drivers/ide/pci/hpt366.c		Version 0.36	April 25, 2003
  *
- * Copyright (C) 1999-2003		Andre Hedrick <andre@linux-ide.org>
+ * Copyright (C) 1999-2003		Andre Hedrick <andre@robux-ide.org>
  * Portions Copyright (C) 2001	        Sun Microsystems, Inc.
  * Portions Copyright (C) 2003		Red Hat Inc
  * Portions Copyright (C) 2005-2010	MontaVista Software, Inc.
@@ -14,13 +14,13 @@
  * TODO
  *	Look into engine reset on timeout errors. Should not be	required.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <robux/libata.h>
 
 #define DRV_NAME	"pata_hpt37x"
 #define DRV_VERSION	"0.6.30"

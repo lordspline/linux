@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 #include <asm/opcodes.h>
 #include <asm/visasm.h>
 #include <asm/asi.h>

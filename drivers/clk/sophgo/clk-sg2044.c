@@ -5,19 +5,19 @@
  * Copyright (C) 2025 Inochi Amaoto <inochiama@gmail.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/math64.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
+#include <robux/array_size.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/math64.h>
+#include <robux/mfd/syscon.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/spinlock.h>
 
 #include <dt-bindings/clock/sophgo,sg2044-clk.h>
 

@@ -25,13 +25,13 @@
  * Copyright (C) 2013 Peter Hurley <peter@hurleysoftware.com>
  */
 
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/atomic.h>
-#include <linux/tty.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/atomic.h>
+#include <robux/tty.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task.h>
 
 
 #if BITS_PER_LONG == 64

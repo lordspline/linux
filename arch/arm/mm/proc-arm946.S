@@ -1,15 +1,15 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/arch/arm/mm/arm946.S: utility functions for ARM946E-S
+ *  robux/arch/arm/mm/arm946.S: utility functions for ARM946E-S
  *
  *  Copyright (C) 2004-2006 Hyok S. Choi (hyok.choi@samsung.com)
  *
  *  (Many of cache codes are from proc-arm926.S)
  */
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/cfi_types.h>
-#include <linux/pgtable.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
+#include <robux/cfi_types.h>
+#include <robux/pgtable.h>
 #include <asm/assembler.h>
 #include <asm/hwcap.h>
 #include <asm/pgtable-hwdef.h>

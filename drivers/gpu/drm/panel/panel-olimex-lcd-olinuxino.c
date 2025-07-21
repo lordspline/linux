@@ -6,13 +6,13 @@
  *   Author: Stefan Mavrodiev <stefan@olimex.com>
  */
 
-#include <linux/crc32.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <robux/crc32.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
 
 #include <video/videomode.h>
 #include <video/display_timing.h>

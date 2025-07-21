@@ -9,15 +9,15 @@
 
 #define DEFAULT_SYMBOL_NAMESPACE	"I2C_DW"
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
 
 #include "i2c-designware-core.h"
 

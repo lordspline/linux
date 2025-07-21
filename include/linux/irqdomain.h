@@ -8,12 +8,12 @@
 #ifndef _LINUX_IRQDOMAIN_H
 #define _LINUX_IRQDOMAIN_H
 
-#include <linux/types.h>
-#include <linux/irqdomain_defs.h>
-#include <linux/irqhandler.h>
-#include <linux/of.h>
-#include <linux/mutex.h>
-#include <linux/radix-tree.h>
+#include <robux/types.h>
+#include <robux/irqdomain_defs.h>
+#include <robux/irqhandler.h>
+#include <robux/of.h>
+#include <robux/mutex.h>
+#include <robux/radix-tree.h>
 
 struct device_node;
 struct fwnode_handle;
@@ -59,7 +59,7 @@ void of_phandle_args_to_fwspec(struct device_node *np, const u32 *args,
  *		irq number. This is called only once for a given mapping.
  * @unmap:	Dispose of such a mapping
  * @xlate:	Given a device tree node and interrupt specifier, decode
- *		the hardware irq number and linux irq type value.
+ *		the hardware irq number and robux irq type value.
  * @alloc:	Allocate @nr_irqs interrupts starting from @virq.
  * @free:	Free @nr_irqs interrupts starting from @virq.
  * @activate:	Activate one interrupt in HW (@irqd). If @reserve is set, only
@@ -67,7 +67,7 @@ void of_phandle_args_to_fwspec(struct device_node *np, const u32 *args,
  *		request_irq()).
  * @deactivate:	Disarm one interrupt (@irqd).
  * @translate:	Given @fwspec, decode the hardware irq number (@out_hwirq) and
- *		linux irq type value (@out_type). This is a generalised @xlate
+ *		robux irq type value (@out_type). This is a generalised @xlate
  *		(over struct irq_fwspec) and is preferred if provided.
  * @debug_show:	For domains to show specific data for an interrupt in debugfs.
  *
@@ -272,7 +272,7 @@ struct irq_domain_chip_generic_info;
  * @direct_max:		Maximum value of direct maps;
  *			Use ~0 for no limit; 0 for no direct mapping
  * @hwirq_base:		The first hardware interrupt number (legacy domains only)
- * @virq_base:		The first Linux interrupt number for legacy domains to
+ * @virq_base:		The first Robux interrupt number for legacy domains to
  *			immediately associate the interrupts after domain creation
  * @bus_token:		Domain bus token
  * @name_suffix:	Optional name suffix to avoid collisions when multiple
@@ -436,7 +436,7 @@ unsigned int irq_create_fwspec_mapping(struct irq_fwspec *fwspec);
 void irq_dispose_mapping(unsigned int virq);
 
 /**
- * irq_create_mapping - Map a hardware interrupt into linux irq space
+ * irq_create_mapping - Map a hardware interrupt into robux irq space
  * @domain:	domain owning this hardware interrupt or NULL for default domain
  * @hwirq:	hardware irq number in that domain space
  *
@@ -445,7 +445,7 @@ void irq_dispose_mapping(unsigned int virq);
  * If the sense/trigger is to be specified, set_irq_type() should be called
  * on the number returned from that call.
  *
- * Returns: Linux irq number or 0 on error
+ * Returns: Robux irq number or 0 on error
  */
 static inline unsigned int irq_create_mapping(struct irq_domain *domain, irq_hw_number_t hwirq)
 {
@@ -457,7 +457,7 @@ struct irq_desc *__irq_resolve_mapping(struct irq_domain *domain,
 				       unsigned int *irq);
 
 /**
- * irq_resolve_mapping - Find a linux irq from a hw irq number.
+ * irq_resolve_mapping - Find a robux irq from a hw irq number.
  * @domain:	domain owning this hardware interrupt
  * @hwirq:	hardware irq number in that domain space
  *
@@ -470,11 +470,11 @@ static inline struct irq_desc *irq_resolve_mapping(struct irq_domain *domain,
 }
 
 /**
- * irq_find_mapping() - Find a linux irq from a hw irq number.
+ * irq_find_mapping() - Find a robux irq from a hw irq number.
  * @domain:	domain owning this hardware interrupt
  * @hwirq:	hardware irq number in that domain space
  *
- * Returns: Linux irq number or 0 if not found
+ * Returns: Robux irq number or 0 if not found
  */
 static inline unsigned int irq_find_mapping(struct irq_domain *domain,
 					    irq_hw_number_t hwirq)

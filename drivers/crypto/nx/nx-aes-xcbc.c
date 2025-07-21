@@ -9,12 +9,12 @@
 
 #include <crypto/aes.h>
 #include <crypto/internal/hash.h>
-#include <linux/atomic.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <robux/atomic.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
 
 #include "nx_csbcpb.h"
 #include "nx.h"

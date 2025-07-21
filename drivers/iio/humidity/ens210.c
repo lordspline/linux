@@ -14,15 +14,15 @@
  *  https://www.sciosense.com/wp-content/uploads/2023/12/ENS210-Datasheet.pdf
  */
 
-#include <linux/crc7.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/crc7.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/iio/iio.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/types.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 /* register definitions */
 #define ENS210_REG_PART_ID		0x00

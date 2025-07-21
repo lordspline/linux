@@ -8,13 +8,13 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 static DEFINE_SPINLOCK(sun9i_a80_cpus_lock);
 

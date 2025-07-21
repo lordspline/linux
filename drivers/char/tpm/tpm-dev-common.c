@@ -12,10 +12,10 @@
  *
  * Device file system interface to the TPM
  */
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/workqueue.h>
+#include <robux/poll.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/workqueue.h>
 #include "tpm.h"
 #include "tpm-dev.h"
 

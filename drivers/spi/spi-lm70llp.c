@@ -7,17 +7,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/parport.h>
-#include <linux/sysfs.h>
-#include <linux/workqueue.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/parport.h>
+#include <robux/sysfs.h>
+#include <robux/workqueue.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_bitbang.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi_bitbang.h>
 
 /*
  * The LM70 communicates with a host processor using a 3-wire variant of

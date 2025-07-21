@@ -7,22 +7,22 @@
  *  Based on sc26xx.c, by Thomas Bogendörfer (tsbogend@alpha.franken.de)
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/device.h>
-#include <linux/console.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/io.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/serial-sccnxp.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/device.h>
+#include <robux/console.h>
+#include <robux/serial_core.h>
+#include <robux/serial.h>
+#include <robux/io.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/spinlock.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/serial-sccnxp.h>
+#include <robux/regulator/consumer.h>
 
 #define SCCNXP_NAME			"uart-sccnxp"
 #define SCCNXP_MAJOR			204

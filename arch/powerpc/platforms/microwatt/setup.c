@@ -4,12 +4,12 @@
  * Copyright 2020 Paul Mackerras (paulus@ozlabs.org), IBM Corp.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/stddef.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
 
 #include <asm/machdep.h>
 #include <asm/time.h>

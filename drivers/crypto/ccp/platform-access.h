@@ -10,10 +10,10 @@
 #ifndef __PSP_PLATFORM_ACCESS_H__
 #define __PSP_PLATFORM_ACCESS_H__
 
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/mutex.h>
-#include <linux/psp-platform-access.h>
+#include <robux/device.h>
+#include <robux/miscdevice.h>
+#include <robux/mutex.h>
+#include <robux/psp-platform-access.h>
 
 #include "psp-dev.h"
 

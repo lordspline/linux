@@ -9,8 +9,8 @@
 
 #define _GNU_SOURCE
 #include <fcntl.h>
-#include <linux/landlock.h>
-#include <linux/prctl.h>
+#include <robux/landlock.h>
+#include <robux/prctl.h>
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>

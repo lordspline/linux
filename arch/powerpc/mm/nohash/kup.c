@@ -3,10 +3,10 @@
  * This file contains the routines for initializing kernel userspace protection
  */
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/printk.h>
-#include <linux/smp.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/printk.h>
+#include <robux/smp.h>
 
 #include <asm/kup.h>
 #include <asm/smp.h>

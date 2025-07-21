@@ -2,7 +2,7 @@
 #ifndef _SPARC64_PAGE_H
 #define _SPARC64_PAGE_H
 
-#include <linux/const.h>
+#include <robux/const.h>
 
 #include <vdso/page.h>
 

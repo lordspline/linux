@@ -5,26 +5,26 @@
 // Copyright 2016 Freescale Semiconductor, Inc.
 // Copyright 2018 NXP Semiconductors
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/dma/imx-dma.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_bitbang.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/dma/imx-dma.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi_bitbang.h>
+#include <robux/types.h>
 
 #define DRIVER_NAME "fsl_lpspi"
 

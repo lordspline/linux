@@ -34,7 +34,7 @@
  *
  * Gen 1 VMs also support direct using VM's physical memory for framebuffer.
  * It could improve the efficiency and performance for framebuffer and VM.
- * This requires to allocate contiguous physical memory from Linux kernel's
+ * This requires to allocate contiguous physical memory from Robux kernel's
  * CMA memory allocator. To enable this, supply a kernel parameter to give
  * enough memory space to CMA allocator for framebuffer. For example:
  *    cma=130m
@@ -45,19 +45,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/completion.h>
-#include <linux/fb.h>
-#include <linux/pci.h>
-#include <linux/panic_notifier.h>
-#include <linux/efi.h>
-#include <linux/console.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/completion.h>
+#include <robux/fb.h>
+#include <robux/pci.h>
+#include <robux/panic_notifier.h>
+#include <robux/efi.h>
+#include <robux/console.h>
 
-#include <linux/hyperv.h>
+#include <robux/hyperv.h>
 
 /* Hyper-V Synthetic Video Protocol definitions and structures */
 #define MAX_VMBUS_PKT_SIZE 0x4000
@@ -1053,7 +1053,7 @@ static int hvfb_getmem(struct hv_device *hdev, struct fb_info *info)
 
 	/*
 	 * Map the VRAM cacheable for performance. This is also required for
-	 * VM Connect to display properly for ARM64 Linux VM, as the host also
+	 * VM Connect to display properly for ARM64 Robux VM, as the host also
 	 * maps the VRAM cacheable.
 	 */
 	fb_virt = ioremap_cache(par->mem->start, screen_fb_size);

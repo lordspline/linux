@@ -5,13 +5,13 @@
  * Copyright (C) 2004 Andreas Monitzer <andy@monitzer.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/bitops.h>
+#include <robux/input.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include "firedtv.h"
 

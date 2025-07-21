@@ -3,24 +3,24 @@
  * Copyright (C) 2023 Otto Pflüger
  *
  * Based on gcc-msm8953.c:
- *   Copyright 2021, The Linux Foundation. All rights reserved.
+ *   Copyright 2021, The Robux Foundation. All rights reserved.
  * with parts taken from gcc-qcs404.c:
- *   Copyright 2018, The Linux Foundation. All rights reserved.
+ *   Copyright 2018, The Robux Foundation. All rights reserved.
  * and gcc-msm8939.c:
  *   Copyright 2020 Linaro Limited
  * adapted with data from clock-gcc-8952.c in Qualcomm's msm-4.9 release:
- *   Copyright (c) 2014-2020, The Linux Foundation. All rights reserved.
+ *   Copyright (c) 2014-2020, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <robux/bitops.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset-controller.h>
 
 #include <dt-bindings/clock/qcom,gcc-msm8917.h>
 

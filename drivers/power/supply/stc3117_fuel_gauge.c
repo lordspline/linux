@@ -7,12 +7,12 @@
  *              Bhavin Sharma <bhavin.sharma@siliconsignals.io>
  */
 
-#include <linux/crc8.h>
-#include <linux/devm-helpers.h>
-#include <linux/i2c.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/workqueue.h>
+#include <robux/crc8.h>
+#include <robux/devm-helpers.h>
+#include <robux/i2c.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
+#include <robux/workqueue.h>
 
 #define STC3117_ADDR_MODE                      0x00
 #define STC3117_ADDR_CTRL                      0x01

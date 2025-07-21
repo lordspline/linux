@@ -3,16 +3,16 @@
  * Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/memblock.h>
 #ifdef CONFIG_BLK_DEV_INITRD
-#include <linux/initrd.h>
+#include <robux/initrd.h>
 #endif
-#include <linux/of_fdt.h>
-#include <linux/swap.h>
-#include <linux/module.h>
-#include <linux/highmem.h>
+#include <robux/of_fdt.h>
+#include <robux/swap.h>
+#include <robux/module.h>
+#include <robux/highmem.h>
 #include <asm/page.h>
 #include <asm/sections.h>
 #include <asm/setup.h>

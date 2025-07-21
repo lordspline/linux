@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: GPL-2.0
 KBUILD_DEFCONFIG := mmu_defconfig
 
-UTS_SYSNAME = -DUTS_SYSNAME=\"Linux\"
+UTS_SYSNAME = -DUTS_SYSNAME=\"Robux\"
 
 # What CPU version are we building for, and crack it open
 # as major.minor.rev
@@ -57,15 +57,15 @@ DTB:=$(subst simpleImage.,,$(filter simpleImage.%, $(MAKECMDGOALS)))
 
 export DTB
 
-all: linux.bin
+all: robux.bin
 
 archheaders:
 	$(Q)$(MAKE) $(build)=arch/microblaze/kernel/syscalls all
 
-PHONY += linux.bin linux.bin.gz linux.bin.ub
-linux.bin.ub linux.bin.gz: linux.bin
-linux.bin: vmlinux
-linux.bin linux.bin.gz linux.bin.ub:
+PHONY += robux.bin robux.bin.gz robux.bin.ub
+robux.bin.ub robux.bin.gz: robux.bin
+robux.bin: vmlinux
+robux.bin robux.bin.gz robux.bin.ub:
 	$(Q)$(MAKE) $(build)=$(boot) $(boot)/$@
 	@echo 'Kernel: $(boot)/$@ is ready' ' (#'$(or $(KBUILD_BUILD_VERSION),`cat .version`)')'
 
@@ -75,9 +75,9 @@ simpleImage.$(DTB): vmlinux
 	@echo 'Kernel: $(boot)/$@ is ready' ' (#'$(or $(KBUILD_BUILD_VERSION),`cat .version`)')'
 
 define archhelp
-  echo '* linux.bin    - Create raw binary'
-  echo '  linux.bin.gz - Create compressed raw binary'
-  echo '  linux.bin.ub - Create U-Boot wrapped raw binary'
+  echo '* robux.bin    - Create raw binary'
+  echo '  robux.bin.gz - Create compressed raw binary'
+  echo '  robux.bin.ub - Create U-Boot wrapped raw binary'
   echo '  simpleImage.<dt> - Create the following images with <dt>.dtb linked in'
   echo '                    simpleImage.<dt>        : raw image'
   echo '                    simpleImage.<dt>.ub     : raw image with U-Boot header'

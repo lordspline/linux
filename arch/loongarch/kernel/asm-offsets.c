@@ -4,12 +4,12 @@
  *
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/kbuild.h>
-#include <linux/suspend.h>
-#include <linux/kvm_host.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/kbuild.h>
+#include <robux/suspend.h>
+#include <robux/kvm_host.h>
 #include <asm/cpu-info.h>
 #include <asm/ptrace.h>
 #include <asm/processor.h>
@@ -186,7 +186,7 @@ static void __used output_mm_defines(void)
 	COMMENT("Size of struct page");
 	DEFINE(STRUCT_PAGE_SIZE, sizeof(struct page));
 	BLANK();
-	COMMENT("Linux mm_struct offsets.");
+	COMMENT("Robux mm_struct offsets.");
 	OFFSET(MM_USERS, mm_struct, mm_users);
 	OFFSET(MM_PGD, mm_struct, pgd);
 	OFFSET(MM_CONTEXT, mm_struct, context);
@@ -215,7 +215,7 @@ static void __used output_mm_defines(void)
 
 static void __used output_sc_defines(void)
 {
-	COMMENT("Linux sigcontext offsets.");
+	COMMENT("Robux sigcontext offsets.");
 	OFFSET(SC_REGS, sigcontext, sc_regs);
 	OFFSET(SC_PC, sigcontext, sc_pc);
 	BLANK();
@@ -223,7 +223,7 @@ static void __used output_sc_defines(void)
 
 static void __used output_signal_defines(void)
 {
-	COMMENT("Linux signal numbers.");
+	COMMENT("Robux signal numbers.");
 	DEFINE(_SIGHUP, SIGHUP);
 	DEFINE(_SIGINT, SIGINT);
 	DEFINE(_SIGQUIT, SIGQUIT);
@@ -261,7 +261,7 @@ static void __used output_signal_defines(void)
 #ifdef CONFIG_SMP
 static void __used output_smpboot_defines(void)
 {
-	COMMENT("Linux smp cpu boot offsets.");
+	COMMENT("Robux smp cpu boot offsets.");
 	OFFSET(CPU_BOOT_STACK, secondary_data, stack);
 	OFFSET(CPU_BOOT_TINFO, secondary_data, thread_info);
 	BLANK();
@@ -271,7 +271,7 @@ static void __used output_smpboot_defines(void)
 #ifdef CONFIG_HIBERNATION
 static void __used output_pbe_defines(void)
 {
-	COMMENT("Linux struct pbe offsets.");
+	COMMENT("Robux struct pbe offsets.");
 	OFFSET(PBE_ADDRESS, pbe, address);
 	OFFSET(PBE_ORIG_ADDRESS, pbe, orig_address);
 	OFFSET(PBE_NEXT, pbe, next);

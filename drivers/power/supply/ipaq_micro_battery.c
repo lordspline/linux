@@ -7,12 +7,12 @@
  * Author : Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/ipaq-micro.h>
-#include <linux/power_supply.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/ipaq-micro.h>
+#include <robux/power_supply.h>
+#include <robux/workqueue.h>
 
 #define BATT_PERIOD 100000 /* 100 seconds in milliseconds */
 

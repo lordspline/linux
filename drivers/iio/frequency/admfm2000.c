@@ -5,15 +5,15 @@
  * Copyright 2024 Analog Devices Inc.
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 #define ADMFM2000_MIXER_MODE		0
 #define ADMFM2000_DIRECT_IF_MODE	1

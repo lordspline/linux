@@ -7,21 +7,21 @@
  * Author: Liam Girdwood, Mark Brown
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/bug.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
 
-#include <linux/mfd/wm8350/core.h>
-#include <linux/mfd/wm8350/audio.h>
-#include <linux/mfd/wm8350/comparator.h>
-#include <linux/mfd/wm8350/gpio.h>
-#include <linux/mfd/wm8350/pmic.h>
-#include <linux/mfd/wm8350/rtc.h>
-#include <linux/mfd/wm8350/supply.h>
-#include <linux/mfd/wm8350/wdt.h>
+#include <robux/mfd/wm8350/core.h>
+#include <robux/mfd/wm8350/audio.h>
+#include <robux/mfd/wm8350/comparator.h>
+#include <robux/mfd/wm8350/gpio.h>
+#include <robux/mfd/wm8350/pmic.h>
+#include <robux/mfd/wm8350/rtc.h>
+#include <robux/mfd/wm8350/supply.h>
+#include <robux/mfd/wm8350/wdt.h>
 
 #define WM8350_INT_OFFSET_1                     0
 #define WM8350_INT_OFFSET_2                     1

@@ -3,12 +3,12 @@
  * Copyright (C) 2020-2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/kvm_host.h>
-#include <linux/module.h>
-#include <linux/preempt.h>
-#include <linux/vmalloc.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/kvm_host.h>
+#include <robux/module.h>
+#include <robux/preempt.h>
+#include <robux/vmalloc.h>
 #include <trace/events/kvm.h>
 #include <asm/fpu.h>
 #include <asm/inst.h>

@@ -1,12 +1,12 @@
 /*
- * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  * Licensed under the GPL
  */
 
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
-#include <linux/regset.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/uaccess.h>
+#include <robux/regset.h>
 #include <asm/ptrace-abi.h>
 #include <registers.h>
 #include <skas.h>

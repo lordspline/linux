@@ -7,33 +7,33 @@
  * Driver allows to use AxB5xx unused pins to be used as GPIO
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/types.h>
 
-#include <linux/mfd/abx500.h>
-#include <linux/mfd/abx500/ab8500.h>
+#include <robux/mfd/abx500.h>
+#include <robux/mfd/abx500/ab8500.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/machine.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "../core.h"
 #include "../pinconf.h"

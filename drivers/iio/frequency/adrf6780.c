@@ -5,18 +5,18 @@
  * Copyright 2021 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/iio/iio.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/spi/spi.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 /* ADRF6780 Register Map */
 #define ADRF6780_REG_CONTROL			0x00

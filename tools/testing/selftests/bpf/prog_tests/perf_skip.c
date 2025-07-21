@@ -3,8 +3,8 @@
 
 #include <test_progs.h>
 #include "test_perf_skip.skel.h"
-#include <linux/compiler.h>
-#include <linux/hw_breakpoint.h>
+#include <robux/compiler.h>
+#include <robux/hw_breakpoint.h>
 #include <sys/mman.h>
 
 #ifndef TRAP_PERF

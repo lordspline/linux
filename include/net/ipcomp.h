@@ -2,7 +2,7 @@
 #ifndef _NET_IPCOMP_H
 #define _NET_IPCOMP_H
 
-#include <linux/skbuff.h>
+#include <robux/skbuff.h>
 
 struct ip_comp_hdr;
 struct netlink_ext_ack;

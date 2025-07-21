@@ -48,24 +48,24 @@
  * the output mode.  This driver does not change the output mode setting.
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/watchdog.h>
-#include <linux/miscdevice.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
+#include <robux/gpio/driver.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/watchdog.h>
+#include <robux/miscdevice.h>
+#include <robux/uaccess.h>
+#include <robux/module.h>
 #include <asm/div64.h>
 #include <asm/mpc52xx.h>
 

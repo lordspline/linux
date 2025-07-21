@@ -2,11 +2,11 @@
 /*
  * KUnit tests for device tree overlays
  */
-#include <linux/device/bus.h>
-#include <linux/kconfig.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/device/bus.h>
+#include <robux/kconfig.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 
 #include <kunit/of.h>
 #include <kunit/test.h>

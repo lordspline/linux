@@ -2,16 +2,16 @@
 #ifndef __LINUX_ENTRYCOMMON_H
 #define __LINUX_ENTRYCOMMON_H
 
-#include <linux/static_call_types.h>
-#include <linux/ptrace.h>
-#include <linux/syscalls.h>
-#include <linux/seccomp.h>
-#include <linux/sched.h>
-#include <linux/context_tracking.h>
-#include <linux/livepatch.h>
-#include <linux/resume_user_mode.h>
-#include <linux/tick.h>
-#include <linux/kmsan.h>
+#include <robux/static_call_types.h>
+#include <robux/ptrace.h>
+#include <robux/syscalls.h>
+#include <robux/seccomp.h>
+#include <robux/sched.h>
+#include <robux/context_tracking.h>
+#include <robux/livepatch.h>
+#include <robux/resume_user_mode.h>
+#include <robux/tick.h>
+#include <robux/kmsan.h>
 
 #include <asm/entry-common.h>
 #include <asm/syscall.h>

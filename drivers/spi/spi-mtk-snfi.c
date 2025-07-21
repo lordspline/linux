@@ -24,7 +24,7 @@
 // in it's original order shown in the first table. ECC can't be turned on when
 // auto-format is off.
 //
-// However, Linux SPI-NAND driver expects the data returned as:
+// However, Robux SPI-NAND driver expects the data returned as:
 // +------+-----+
 // | Page | OOB |
 // +------+-----+
@@ -45,7 +45,7 @@
 //
 // Write requests operates in a similar manner.
 // As a limitation of this strategy, we won't be able to access any ECC parity
-// data at all in Linux.
+// data at all in Robux.
 //
 // Here's the bad block mark situation on MTK chips:
 // In older chips like mt7622, MTK uses the first FDM byte in the first sector
@@ -67,21 +67,21 @@
 //    [page_size - (nsectors - 1) * spare_size]
 // Similarly, when writing, we need to perform swaps in the other direction.
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/nand-ecc-mtk.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/mtd/nand.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/iopoll.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/mtd/nand-ecc-mtk.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
+#include <robux/mtd/nand.h>
 
 // NFI registers
 #define NFI_CNFG 0x000

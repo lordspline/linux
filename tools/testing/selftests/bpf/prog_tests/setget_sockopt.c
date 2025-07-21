@@ -3,8 +3,8 @@
 
 #define _GNU_SOURCE
 #include <sched.h>
-#include <linux/socket.h>
-#include <linux/tls.h>
+#include <robux/socket.h>
+#include <robux/tls.h>
 #include <net/if.h>
 
 #include "test_progs.h"

@@ -5,14 +5,14 @@
  * Copyright (C) 2022-2023, Advanced Micro Devices, Inc.
  */
 
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
-#include <linux/cdx/cdx_bus.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/msi.h>
+#include <robux/cdx/cdx_bus.h>
 
 #include "cdx.h"
 

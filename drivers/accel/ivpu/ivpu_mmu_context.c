@@ -3,10 +3,10 @@
  * Copyright (C) 2020-2023 Intel Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/highmem.h>
-#include <linux/set_memory.h>
-#include <linux/vmalloc.h>
+#include <robux/bitfield.h>
+#include <robux/highmem.h>
+#include <robux/set_memory.h>
+#include <robux/vmalloc.h>
 
 #include <drm/drm_cache.h>
 

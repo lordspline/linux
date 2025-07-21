@@ -14,10 +14,10 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/export.h>
-#include <linux/unaligned.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/export.h>
+#include <robux/unaligned.h>
 
 #include "ath9k.h"
 

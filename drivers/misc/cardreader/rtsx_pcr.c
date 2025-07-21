@@ -7,21 +7,21 @@
  *   Wei WANG <wei_wang@realsil.com.cn>
  */
 
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
-#include <linux/highmem.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/idr.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/core.h>
-#include <linux/rtsx_pci.h>
-#include <linux/mmc/card.h>
-#include <linux/unaligned.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
+#include <robux/pci.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/highmem.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/idr.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/core.h>
+#include <robux/rtsx_pci.h>
+#include <robux/mmc/card.h>
+#include <robux/unaligned.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
 
 #include "rtsx_pcr.h"
 #include "rts5261.h"

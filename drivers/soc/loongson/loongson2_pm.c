@@ -5,15 +5,15 @@
  * Copyright (C) 2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/suspend.h>
-#include <linux/interrupt.h>
-#include <linux/of_platform.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/suspend.h>
+#include <robux/interrupt.h>
+#include <robux/of_platform.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/platform_device.h>
 #include <asm/bootinfo.h>
 #include <asm/suspend.h>
 

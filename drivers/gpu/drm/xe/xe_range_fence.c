@@ -3,9 +3,9 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/dma-fence.h>
-#include <linux/interval_tree_generic.h>
-#include <linux/slab.h>
+#include <robux/dma-fence.h>
+#include <robux/interval_tree_generic.h>
+#include <robux/slab.h>
 
 #include "xe_macros.h"
 #include "xe_range_fence.h"

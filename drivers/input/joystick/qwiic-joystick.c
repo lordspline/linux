@@ -7,11 +7,11 @@
  * Firmware and hardware sources:https://github.com/sparkfun/Qwiic_Joystick
  */
 
-#include <linux/bits.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/bits.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #define DRV_NAME "qwiic-joystick"
 

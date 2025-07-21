@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/ethtool.h>
-#include <linux/jiffies.h>
+#include <robux/ethtool.h>
+#include <robux/jiffies.h>
 
 #include "common.h"
 #include "module_fw.h"

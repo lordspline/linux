@@ -6,11 +6,11 @@
 //
 // Author: Herve Codina <herve.codina@bootlin.com>
 
-#include <linux/bitrev.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
+#include <robux/bitrev.h>
+#include <robux/gpio/driver.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>

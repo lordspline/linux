@@ -2,16 +2,16 @@
 
 #define pr_fmt(fmt)	"papr-sysparm: " fmt
 
-#include <linux/anon_inodes.h>
-#include <linux/bug.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/anon_inodes.h>
+#include <robux/bug.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/miscdevice.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 #include <asm/machdep.h>
 #include <asm/papr-sysparm.h>
 #include <asm/rtas-work-area.h>

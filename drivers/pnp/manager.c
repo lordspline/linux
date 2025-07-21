@@ -8,13 +8,13 @@
  *	Bjorn Helgaas <bjorn.helgaas@hp.com>
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/pnp.h>
-#include <linux/bitmap.h>
-#include <linux/mutex.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/pnp.h>
+#include <robux/bitmap.h>
+#include <robux/mutex.h>
 #include "base.h"
 
 DEFINE_MUTEX(pnp_res_mutex);

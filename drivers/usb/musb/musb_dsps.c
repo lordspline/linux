@@ -6,7 +6,7 @@
  *
  * Based on the am35x "glue layer" code.
  *
- * This file is part of the Inventra Controller Driver for Linux.
+ * This file is part of the Inventra Controller Driver for Robux.
  *
  * musb_dsps.c will be a common file for all the TI DSPS platforms
  * such as dm64x, dm36x, dm35x, da8x, am35x and ti81x.
@@ -14,23 +14,23 @@
  * da8xx.c would be merged to this file after testing.
  */
 
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
-#include <linux/module.h>
-#include <linux/usb/usb_phy_generic.h>
-#include <linux/platform_data/usb-omap.h>
-#include <linux/sizes.h>
-#include <linux/string_choices.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/pm_runtime.h>
+#include <robux/module.h>
+#include <robux/usb/usb_phy_generic.h>
+#include <robux/platform_data/usb-omap.h>
+#include <robux/sizes.h>
+#include <robux/string_choices.h>
 
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/usb/of.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/usb/of.h>
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 #include "musb_core.h"
 

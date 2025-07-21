@@ -4,19 +4,19 @@
  *  Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/media-bus-format.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/units.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/math64.h>
+#include <robux/media-bus-format.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/units.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_drv.h>

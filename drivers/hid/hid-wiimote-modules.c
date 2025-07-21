@@ -30,10 +30,10 @@
  * input devices.
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/input.h>
-#include <linux/spinlock.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/input.h>
+#include <robux/spinlock.h>
 #include "hid-wiimote.h"
 
 /*

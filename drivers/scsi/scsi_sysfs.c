@@ -7,13 +7,13 @@
  * Created to pull SCSI mid layer sysfs routines into one file.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/bsg.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/blkdev.h>
+#include <robux/device.h>
+#include <robux/pm_runtime.h>
+#include <robux/bsg.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_device.h>

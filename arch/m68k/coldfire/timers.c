@@ -9,13 +9,13 @@
 
 /***************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/profile.h>
-#include <linux/clocksource.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/profile.h>
+#include <robux/clocksource.h>
 #include <asm/io.h>
 #include <asm/traps.h>
 #include <asm/machdep.h>

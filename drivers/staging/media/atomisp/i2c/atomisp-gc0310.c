@@ -6,15 +6,15 @@
  * Copyright (c) 2023 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

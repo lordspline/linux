@@ -7,20 +7,20 @@
  * Jonas Jensen <jonas.jensen@gmail.com>
  */
 
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_dma.h>
-#include <linux/bitops.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_dma.h>
+#include <robux/bitops.h>
 
 #include <asm/cacheflush.h>
 

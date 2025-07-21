@@ -10,7 +10,7 @@
 #ifndef __LINUX_SOC_SAMSUNG_S3C_PM_H
 #define __LINUX_SOC_SAMSUNG_S3C_PM_H __FILE__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /* PM debug functions */
 

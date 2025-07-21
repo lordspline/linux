@@ -22,9 +22,9 @@
  *
  */
 
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/debugfs.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/debugfs.h>
 #include "amdgpu.h"
 #include "soc15_common.h"
 #include "soc21.h"

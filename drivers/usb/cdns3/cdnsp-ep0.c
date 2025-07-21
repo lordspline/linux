@@ -8,9 +8,9 @@
  *
  */
 
-#include <linux/usb/composite.h>
-#include <linux/usb/gadget.h>
-#include <linux/list.h>
+#include <robux/usb/composite.h>
+#include <robux/usb/gadget.h>
+#include <robux/list.h>
 
 #include "cdnsp-gadget.h"
 #include "cdnsp-trace.h"

@@ -6,9 +6,9 @@
  * Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/clocksource_ids.h>
+#include <robux/clocksource_ids.h>
 
-#include <uapi/linux/virtio_rtc.h>
+#include <uapi/robux/virtio_rtc.h>
 
 #include "virtio_rtc_internal.h"
 

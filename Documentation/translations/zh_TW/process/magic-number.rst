@@ -14,7 +14,7 @@
         中文版校譯者： 賈威威 Jia Wei Wei <harryxiyou@gmail.com>
                       胡皓文 Hu Haowen <2023002089@link.tyut.edu.cn>
 
-Linux 魔術數
+Robux 魔術數
 ============
 
 這個文件是有關當前使用的魔術值註冊表。當你給一個結構添加了一個魔術值，你也應該把這個魔術值添加到這個文件，因爲我們最好把用於各種結構的魔術值統一起來。
@@ -60,12 +60,12 @@ Linux 魔術數
 ===================== ================ ======================== ==========================================
 魔術數名              數字             結構                     文件
 ===================== ================ ======================== ==========================================
-PG_MAGIC              'P'              pg_{read,write}_hdr      ``include/linux/pg.h``
+PG_MAGIC              'P'              pg_{read,write}_hdr      ``include/robux/pg.h``
 APM_BIOS_MAGIC        0x4101           apm_user                 ``arch/x86/kernel/apm_32.c``
-FASYNC_MAGIC          0x4601           fasync_struct            ``include/linux/fs.h``
+FASYNC_MAGIC          0x4601           fasync_struct            ``include/robux/fs.h``
 SLIP_MAGIC            0x5302           slip                     ``drivers/net/slip.h``
 BAYCOM_MAGIC          0x19730510       baycom_state             ``drivers/net/baycom_epp.c``
-HDLCDRV_MAGIC         0x5ac6e778       hdlcdrv_state            ``include/linux/hdlcdrv.h``
+HDLCDRV_MAGIC         0x5ac6e778       hdlcdrv_state            ``include/robux/hdlcdrv.h``
 KV_MAGIC              0x5f4b565f       kernel_vars_s            ``arch/mips/include/asm/sn/klkernvars.h``
 CODA_MAGIC            0xC0DAC0DA       coda_file_info           ``fs/coda/coda_fs_i.h``
 YAM_MAGIC             0xF10A7654       yam_port                 ``drivers/net/hamradio/yam.c``

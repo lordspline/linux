@@ -6,13 +6,13 @@
 #ifndef _NE_MISC_DEV_H_
 #define _NE_MISC_DEV_H_
 
-#include <linux/cpumask.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/wait.h>
+#include <robux/cpumask.h>
+#include <robux/list.h>
+#include <robux/miscdevice.h>
+#include <robux/mm.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/wait.h>
 
 #include "ne_pci_dev.h"
 

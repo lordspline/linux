@@ -6,16 +6,16 @@
  * Author: Gustavo Pimentel <gustavo.pimentel@synopsys.com>
  */
 
-#include <linux/miscdevice.h>
-#include <linux/bitfield.h>
-#include <linux/pci-epf.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/bitops.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <robux/miscdevice.h>
+#include <robux/bitfield.h>
+#include <robux/pci-epf.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/bitops.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
 
 #define DW_XDATA_DRIVER_NAME		"dw-xdata-pcie"
 

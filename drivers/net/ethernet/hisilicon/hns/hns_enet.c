@@ -3,19 +3,19 @@
  * Copyright (c) 2014-2015 Hisilicon Limited.
  */
 
-#include <linux/clk.h>
-#include <linux/cpumask.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/skbuff.h>
+#include <robux/clk.h>
+#include <robux/cpumask.h>
+#include <robux/etherdevice.h>
+#include <robux/if_vlan.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/skbuff.h>
 
 #include "hnae.h"
 #include "hns_enet.h"

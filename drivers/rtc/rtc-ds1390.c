@@ -10,14 +10,14 @@
  * (alarms, trickle charger, different control registers) are unavailable.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/spi/spi.h>
-#include <linux/bcd.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
+#include <robux/spi/spi.h>
+#include <robux/bcd.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
 #define DS1390_REG_100THS		0x00
 #define DS1390_REG_SECONDS		0x01

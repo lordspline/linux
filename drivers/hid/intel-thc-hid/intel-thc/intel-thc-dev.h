@@ -4,9 +4,9 @@
 #ifndef _INTEL_THC_DEV_H_
 #define _INTEL_THC_DEV_H_
 
-#include <linux/cdev.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <robux/cdev.h>
+#include <robux/mutex.h>
+#include <robux/workqueue.h>
 
 #include "intel-thc-dma.h"
 

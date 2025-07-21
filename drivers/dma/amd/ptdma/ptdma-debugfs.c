@@ -9,8 +9,8 @@
  * Author: Gary R Hook <gary.hook@amd.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 
 #include "ptdma.h"
 #include "../ae4dma/ae4dma.h"

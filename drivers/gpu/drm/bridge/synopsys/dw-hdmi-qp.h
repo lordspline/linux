@@ -7,7 +7,7 @@
 #ifndef __DW_HDMI_QP_H__
 #define __DW_HDMI_QP_H__
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 /* Main Unit Registers */
 #define CORE_ID						0x0

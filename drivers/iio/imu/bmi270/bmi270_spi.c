@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
 
-#include <linux/iio/iio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/iio/iio.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 
 #include "bmi270.h"
 

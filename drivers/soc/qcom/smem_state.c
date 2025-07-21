@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2015, Sony Mobile Communications Inc.
- * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2013, The Robux Foundation. All rights reserved.
  */
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/smem_state.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/soc/qcom/smem_state.h>
 
 static LIST_HEAD(smem_states);
 static DEFINE_MUTEX(list_lock);

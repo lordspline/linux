@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* 64-bit system call dispatch */
 
-#include <linux/linkage.h>
-#include <linux/sys.h>
-#include <linux/cache.h>
-#include <linux/syscalls.h>
-#include <linux/entry-common.h>
-#include <linux/nospec.h>
+#include <robux/linkage.h>
+#include <robux/sys.h>
+#include <robux/cache.h>
+#include <robux/syscalls.h>
+#include <robux/entry-common.h>
+#include <robux/nospec.h>
 #include <asm/syscall.h>
 
 #define __SYSCALL(nr, sym) extern long __x64_##sym(const struct pt_regs *);

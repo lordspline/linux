@@ -8,15 +8,15 @@
  *  http://www.meas-spec.com/downloads/TSYS01_Digital_Temperature_Sensor.pdf
  */
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/stat.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/stat.h>
 #include "../common/ms_sensors/ms_sensors_i2c.h"
 
 /* TSYS01 Commands */

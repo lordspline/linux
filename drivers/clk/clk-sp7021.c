@@ -3,14 +3,14 @@
  * Copyright (C) Sunplus Technology Co., Ltd.
  *       All rights reserved.
  */
-#include <linux/module.h>
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/bitfield.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/clk-provider.h>
+#include <robux/of.h>
+#include <robux/bitfield.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
 
 #include <dt-bindings/clock/sunplus,sp7021-clkc.h>
 

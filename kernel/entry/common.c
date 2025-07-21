@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/context_tracking.h>
-#include <linux/entry-common.h>
-#include <linux/resume_user_mode.h>
-#include <linux/highmem.h>
-#include <linux/jump_label.h>
-#include <linux/kmsan.h>
-#include <linux/livepatch.h>
-#include <linux/audit.h>
-#include <linux/tick.h>
+#include <robux/context_tracking.h>
+#include <robux/entry-common.h>
+#include <robux/resume_user_mode.h>
+#include <robux/highmem.h>
+#include <robux/jump_label.h>
+#include <robux/kmsan.h>
+#include <robux/livepatch.h>
+#include <robux/audit.h>
+#include <robux/tick.h>
 
 #include "common.h"
 

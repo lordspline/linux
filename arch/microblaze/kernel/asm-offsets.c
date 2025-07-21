@@ -8,14 +8,14 @@
  * for more details.
  */
 
-#include <linux/init.h>
-#include <linux/stddef.h>
-#include <linux/sched.h>
-#include <linux/kernel_stat.h>
-#include <linux/ptrace.h>
-#include <linux/hardirq.h>
-#include <linux/thread_info.h>
-#include <linux/kbuild.h>
+#include <robux/init.h>
+#include <robux/stddef.h>
+#include <robux/sched.h>
+#include <robux/kernel_stat.h>
+#include <robux/ptrace.h>
+#include <robux/hardirq.h>
+#include <robux/thread_info.h>
+#include <robux/kbuild.h>
 #include <asm/cpuinfo.h>
 
 int main(int argc, char *argv[])

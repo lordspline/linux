@@ -5,19 +5,19 @@
  *
  *****************************************************************************/
 
-#include <linux/module.h>
-#include <linux/kmod.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/bitrev.h>
-#include <linux/crc16.h>
-#include <linux/crc32.h>
-#include <linux/usb/usbnet.h>
-#include <linux/slab.h>
-#include <linux/of_net.h>
+#include <robux/module.h>
+#include <robux/kmod.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/usb.h>
+#include <robux/bitrev.h>
+#include <robux/crc16.h>
+#include <robux/crc32.h>
+#include <robux/usb/usbnet.h>
+#include <robux/slab.h>
+#include <robux/of_net.h>
 #include "smsc75xx.h"
 
 #define SMSC_CHIPNAME			"smsc75xx"

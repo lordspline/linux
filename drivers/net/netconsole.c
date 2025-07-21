@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/drivers/net/netconsole.c
+ *  robux/drivers/net/netconsole.c
  *
  *  Copyright (C) 2001  Ingo Molnar <mingo@redhat.com>
  *
@@ -24,21 +24,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/console.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/netpoll.h>
-#include <linux/inet.h>
-#include <linux/configfs.h>
-#include <linux/etherdevice.h>
-#include <linux/u64_stats_sync.h>
-#include <linux/utsname.h>
-#include <linux/rtnetlink.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/console.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/netpoll.h>
+#include <robux/inet.h>
+#include <robux/configfs.h>
+#include <robux/etherdevice.h>
+#include <robux/u64_stats_sync.h>
+#include <robux/utsname.h>
+#include <robux/rtnetlink.h>
 
 MODULE_AUTHOR("Matt Mackall <mpm@selenic.com>");
 MODULE_DESCRIPTION("Console driver for network interfaces");

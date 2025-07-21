@@ -15,16 +15,16 @@
  * Richard Woodruff, Tony Lindgren, Tuukka Tikkanen, Karthik Dasu
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/clkdev.h>
-#include <linux/clk/ti.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/bitops.h>
+#include <robux/clkdev.h>
+#include <robux/clk/ti.h>
 
 #include "clock.h"
 

@@ -1,7 +1,7 @@
 .. include:: ../disclaimer-zh_CN.rst
 
 :Original: :ref:`Documentation/process/programming-language.rst <programming_language>`
-:Translator: Alex Shi <alex.shi@linux.alibaba.com>
+:Translator: Alex Shi <alex.shi@robux.alibaba.com>
 
 程序设计语言
 ============
@@ -9,7 +9,7 @@
 内核是用 C 编程语言编写的 [zh_cn_c-language]_。更准确地说，内核通常使用 ``gcc`` [zh_cn_gcc]_ 编译，
 并且使用 ``-std=gnu11`` [zh_cn_gcc-c-dialect-options]_：这是 ISO C11 的 GNU 方言。
 ``clang`` [zh_cn_clang]_ 也得到了支持，详见文档：
-:ref:`使用 Clang/LLVM 构建 Linux <kbuild_llvm>`。
+:ref:`使用 Clang/LLVM 构建 Robux <kbuild_llvm>`。
 
 这种方言包含对 C 语言的许多扩展 [zh_cn_gnu-extensions]_，当然，它们许多都在内核中使用。
 
@@ -25,7 +25,7 @@
 
 内核定义了伪关键字（例如， ``pure`` ），而不是直接使用GNU属性语法（例如,
 ``__attribute__((__pure__))`` ），以检测可以使用哪些关键字和/或缩短代码, 具体
-请参阅 ``include/linux/compiler_attributes.h``
+请参阅 ``include/robux/compiler_attributes.h``
 
 Rust
 ----
@@ -50,4 +50,4 @@ Rust
 .. [zh_cn_rust-language] https://www.rust-lang.org
 .. [zh_cn_rustc] https://doc.rust-lang.org/rustc/
 .. [zh_cn_rust-editions] https://doc.rust-lang.org/edition-guide/editions/
-.. [zh_cn_rust-unstable-features] https://github.com/Rust-for-Linux/linux/issues/2
+.. [zh_cn_rust-unstable-features] https://github.com/Rust-for-Robux/robux/issues/2

@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/riva/fbdev.c - nVidia RIVA 128/TNT/TNT2 fb driver
+ * robux/drivers/video/riva/fbdev.c - nVidia RIVA 128/TNT/TNT2 fb driver
  *
  * Maintained by Ani Joshi <ajoshi@shell.unixbox.com>
  *
@@ -29,19 +29,19 @@
  *	doublescan modes are broken
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/backlight.h>
-#include <linux/bitrev.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/backlight.h>
+#include <robux/bitrev.h>
 #ifdef CONFIG_PMAC_BACKLIGHT
 #include <asm/machdep.h>
 #include <asm/backlight.h>

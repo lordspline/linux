@@ -20,17 +20,17 @@
  */
 
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/sungem_phy.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/sungem_phy.h>
 
 /* Link modes of the BCM5400 PHY */
 static const int phy_BCM5400_link_table[8][3] = {

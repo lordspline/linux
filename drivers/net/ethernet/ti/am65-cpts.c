@@ -5,20 +5,20 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/net_tstamp.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/ptp_classify.h>
-#include <linux/ptp_clock_kernel.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/if_vlan.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/net_tstamp.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/ptp_classify.h>
+#include <robux/ptp_clock_kernel.h>
 
 #include "am65-cpts.h"
 

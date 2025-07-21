@@ -3,7 +3,7 @@
 #define _LINUX_IF_TAP_H_
 
 #include <net/sock.h>
-#include <linux/skb_array.h>
+#include <robux/skb_array.h>
 
 struct file;
 struct socket;
@@ -12,8 +12,8 @@ struct socket;
 struct socket *tap_get_socket(struct file *);
 struct ptr_ring *tap_get_ptr_ring(struct file *file);
 #else
-#include <linux/err.h>
-#include <linux/errno.h>
+#include <robux/err.h>
+#include <robux/errno.h>
 static inline struct socket *tap_get_socket(struct file *f)
 {
 	return ERR_PTR(-EINVAL);

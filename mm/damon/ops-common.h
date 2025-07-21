@@ -5,7 +5,7 @@
  * Author: SeongJae Park <sj@kernel.org>
  */
 
-#include <linux/damon.h>
+#include <robux/damon.h>
 
 struct folio *damon_get_folio(unsigned long pfn);
 

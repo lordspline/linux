@@ -6,13 +6,13 @@
  * Fixed rate clock implementation
  */
 
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 /*
  * DOC: basic fixed-rate clock that cannot gate

@@ -5,12 +5,12 @@
  * Copyright (C) 1996 David S. Miller (davem@caip.rutgers.edu)
  */
 
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/profile.h>
-#include <linux/delay.h>
-#include <linux/sched/mm.h>
-#include <linux/cpu.h>
+#include <robux/clockchips.h>
+#include <robux/interrupt.h>
+#include <robux/profile.h>
+#include <robux/delay.h>
+#include <robux/sched/mm.h>
+#include <robux/cpu.h>
 
 #include <asm/cacheflush.h>
 #include <asm/switch_to.h>

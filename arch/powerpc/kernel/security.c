@@ -4,14 +4,14 @@
 //
 // Copyright 2018, Michael Ellerman, IBM Corporation.
 
-#include <linux/cpu.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/memblock.h>
-#include <linux/nospec.h>
-#include <linux/prctl.h>
-#include <linux/seq_buf.h>
-#include <linux/debugfs.h>
+#include <robux/cpu.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/memblock.h>
+#include <robux/nospec.h>
+#include <robux/prctl.h>
+#include <robux/seq_buf.h>
+#include <robux/debugfs.h>
 
 #include <asm/asm-prototypes.h>
 #include <asm/text-patching.h>

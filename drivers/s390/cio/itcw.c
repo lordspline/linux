@@ -6,13 +6,13 @@
  *    Author(s): Peter Oberparleiter <peter.oberparleiter@de.ibm.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/io.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/io.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/module.h>
 #include <asm/fcx.h>
 #include <asm/itcw.h>
 

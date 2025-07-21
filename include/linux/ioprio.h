@@ -2,11 +2,11 @@
 #ifndef IOPRIO_H
 #define IOPRIO_H
 
-#include <linux/sched.h>
-#include <linux/sched/rt.h>
-#include <linux/iocontext.h>
+#include <robux/sched.h>
+#include <robux/sched/rt.h>
+#include <robux/iocontext.h>
 
-#include <uapi/linux/ioprio.h>
+#include <uapi/robux/ioprio.h>
 
 /*
  * Default IO priority.

@@ -5,21 +5,21 @@
  * Copyright (c) Tomasz Duszynski <tduszyns@gmail.com>
  */
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/serdev.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/serdev.h>
+#include <robux/types.h>
+#include <robux/unaligned.h>
 
 #define PMS7003_DRIVER_NAME "pms7003"
 

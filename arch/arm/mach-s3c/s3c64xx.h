@@ -14,7 +14,7 @@
 #ifndef __ARCH_ARM_MACH_S3C64XX_COMMON_H
 #define __ARCH_ARM_MACH_S3C64XX_COMMON_H
 
-#include <linux/reboot.h>
+#include <robux/reboot.h>
 
 void s3c64xx_init_irq(u32 vic0, u32 vic1);
 void s3c64xx_init_io(struct map_desc *mach_desc, int size);

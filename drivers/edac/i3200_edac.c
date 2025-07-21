@@ -7,15 +7,15 @@
  * GNU General Public License.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/edac.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/edac.h>
+#include <robux/io.h>
 #include "edac_module.h"
 
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
 
 #define EDAC_MOD_STR        "i3200_edac"
 

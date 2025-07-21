@@ -3,17 +3,17 @@
  * Copyright (c) 2014 Hisilicon Limited.
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/etherdevice.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
-#include <linux/reset.h>
-#include <linux/clk.h>
-#include <linux/circ_buf.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/etherdevice.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/of_mdio.h>
+#include <robux/reset.h>
+#include <robux/clk.h>
+#include <robux/circ_buf.h>
 
 #define STATION_ADDR_LOW		0x0000
 #define STATION_ADDR_HIGH		0x0004

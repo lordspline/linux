@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <trace/syscall.h>
 #include <trace/events/syscalls.h>
-#include <linux/syscalls.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>	/* for MODULE_NAME_LEN via KSYM_SYMBOL_LEN */
-#include <linux/ftrace.h>
-#include <linux/perf_event.h>
-#include <linux/xarray.h>
+#include <robux/syscalls.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>	/* for MODULE_NAME_LEN via KSYM_SYMBOL_LEN */
+#include <robux/ftrace.h>
+#include <robux/perf_event.h>
+#include <robux/xarray.h>
 #include <asm/syscall.h>
 
 #include "trace_output.h"

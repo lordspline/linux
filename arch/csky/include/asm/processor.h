@@ -3,8 +3,8 @@
 #ifndef __ASM_CSKY_PROCESSOR_H
 #define __ASM_CSKY_PROCESSOR_H
 
-#include <linux/bitops.h>
-#include <linux/cache.h>
+#include <robux/bitops.h>
+#include <robux/cache.h>
 #include <asm/ptrace.h>
 #include <asm/current.h>
 #include <abi/reg_ops.h>

@@ -3,14 +3,14 @@
 
 /* ethtool support for igbvf */
 
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/pci.h>
+#include <robux/vmalloc.h>
+#include <robux/delay.h>
 
 #include "igbvf.h"
-#include <linux/if_vlan.h>
+#include <robux/if_vlan.h>
 
 struct igbvf_stats {
 	char stat_string[ETH_GSTRING_LEN];

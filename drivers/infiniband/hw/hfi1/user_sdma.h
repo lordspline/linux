@@ -6,8 +6,8 @@
 #ifndef _HFI1_USER_SDMA_H
 #define _HFI1_USER_SDMA_H
 
-#include <linux/device.h>
-#include <linux/wait.h>
+#include <robux/device.h>
+#include <robux/wait.h>
 
 #include "common.h"
 #include "iowait.h"

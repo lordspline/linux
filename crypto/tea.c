@@ -15,11 +15,11 @@
  */
 
 #include <crypto/algapi.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/unaligned.h>
-#include <linux/types.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/unaligned.h>
+#include <robux/types.h>
 
 #define TEA_KEY_SIZE		16
 #define TEA_BLOCK_SIZE		8

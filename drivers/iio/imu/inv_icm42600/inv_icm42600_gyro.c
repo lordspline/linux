@@ -3,18 +3,18 @@
  * Copyright (C) 2020 Invensense, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/delay.h>
-#include <linux/math64.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/delay.h>
+#include <robux/math64.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/common/inv_sensors_timestamp.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/kfifo_buf.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/common/inv_sensors_timestamp.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/kfifo_buf.h>
 
 #include "inv_icm42600.h"
 #include "inv_icm42600_temp.h"

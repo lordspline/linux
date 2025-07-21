@@ -25,9 +25,9 @@ gen_template_module_header()
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/printk.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/printk.h>
 
 ____END_MODULE
 }

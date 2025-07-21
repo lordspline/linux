@@ -5,8 +5,8 @@
  * All Rights Reserved.
  */
 
-#include <linux/slab.h>
-#include <linux/pci.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
 
 #include "../habanalabs.h"
 

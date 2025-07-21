@@ -5,7 +5,7 @@
 
 #include "xe_pxp_debugfs.h"
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 #include <drm/drm_debugfs.h>
 #include <drm/drm_managed.h>

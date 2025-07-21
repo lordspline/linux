@@ -3,10 +3,10 @@
 #ifndef XILINX_LL_TEMAC_H
 #define XILINX_LL_TEMAC_H
 
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <robux/netdevice.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
 
 #ifdef CONFIG_PPC_DCR
 #include <asm/dcr.h>

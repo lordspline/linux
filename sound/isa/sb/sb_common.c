@@ -6,13 +6,13 @@
  *  Lowlevel routines for control of Sound Blaster cards
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/io.h>
 #include <sound/core.h>
 #include <sound/sb.h>
 #include <sound/initval.h>

@@ -4,25 +4,25 @@
  *
  * Copyright 2019 Analog Devices Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/imu/adis.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/irq.h>
-#include <linux/lcm.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/imu/adis.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/irq.h>
+#include <robux/lcm.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/spi/spi.h>
 
 #define ADIS16475_REG_DIAG_STAT		0x02
 #define ADIS16475_REG_X_GYRO_L		0x04

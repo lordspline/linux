@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (c) 2015, Sony Mobile Communications AB.
- * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2013, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mailbox_client.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/sched.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/wait.h>
-#include <linux/rpmsg.h>
-#include <linux/rpmsg/qcom_smd.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/mailbox_client.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/sched.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/soc/qcom/smem.h>
+#include <robux/wait.h>
+#include <robux/rpmsg.h>
+#include <robux/rpmsg/qcom_smd.h>
 
 #include "rpmsg_internal.h"
 

@@ -16,8 +16,8 @@
  */
 
 #include "udfdecl.h"
-#include <linux/fs.h>
-#include <linux/mm.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
 
 #include "udf_i.h"
 #include "udf_sb.h"

@@ -5,18 +5,18 @@
  *	Copyright © 2006-2010  David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/jiffies.h>
-#include <linux/sched.h>
-#include <linux/olpc-ec.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/types.h>
+#include <robux/err.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/jiffies.h>
+#include <robux/sched.h>
+#include <robux/olpc-ec.h>
 
 
 #define EC_BAT_VOLTAGE	0x10	/* uint16_t,	*9.76/32,    mV   */

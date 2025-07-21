@@ -2,8 +2,8 @@
 #ifndef NDTEST_H
 #define NDTEST_H
 
-#include <linux/platform_device.h>
-#include <linux/libnvdimm.h>
+#include <robux/platform_device.h>
+#include <robux/libnvdimm.h>
 
 struct ndtest_config;
 

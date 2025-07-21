@@ -4,13 +4,13 @@
  * Copyright (C) 2012 Jeremy Kerr <jeremy.kerr@canonical.com>
  */
 
-#include <linux/efi.h>
-#include <linux/fs.h>
-#include <linux/ctype.h>
-#include <linux/kmemleak.h>
-#include <linux/slab.h>
-#include <linux/uuid.h>
-#include <linux/fileattr.h>
+#include <robux/efi.h>
+#include <robux/fs.h>
+#include <robux/ctype.h>
+#include <robux/kmemleak.h>
+#include <robux/slab.h>
+#include <robux/uuid.h>
+#include <robux/fileattr.h>
 
 #include "internal.h"
 

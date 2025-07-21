@@ -7,14 +7,14 @@
  * Author: Andreas Dannenberg <dannenberg@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/regulator/consumer.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/regulator/consumer.h>
+#include <robux/delay.h>
 
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

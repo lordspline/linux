@@ -31,7 +31,7 @@
 
 		button-function {
 			label = "Function";
-			linux,code = <KEY_FN>;
+			robux,code = <KEY_FN>;
 			press-threshold-microvolt = <17000>;
 		};
 	};
@@ -62,7 +62,7 @@
 			color = <LED_COLOR_ID_RED>;
 			default-state = "off";
 			function = LED_FUNCTION_INDICATOR;
-			linux,default-trigger = "none";
+			robux,default-trigger = "none";
 			max-brightness = <255>;
 			pwms = <&pwm11 0 25000 0>;
 		};
@@ -72,7 +72,7 @@
 			color = <LED_COLOR_ID_GREEN>;
 			default-state = "on";
 			function = LED_FUNCTION_POWER;
-			linux,default-trigger = "default-on";
+			robux,default-trigger = "default-on";
 			max-brightness = <255>;
 			pwms = <&pwm14 0 25000 0>;
 		};
@@ -82,7 +82,7 @@
 			color = <LED_COLOR_ID_BLUE>;
 			default-state = "off";
 			function = LED_FUNCTION_INDICATOR;
-			linux,default-trigger = "none";
+			robux,default-trigger = "none";
 			max-brightness = <255>;
 			pwms = <&pwm15 0 25000 0>;
 		};

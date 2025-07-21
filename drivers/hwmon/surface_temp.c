@@ -5,14 +5,14 @@
  * Copyright (C) 2022-2023 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/hwmon.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/hwmon.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
 
-#include <linux/surface_aggregator/controller.h>
-#include <linux/surface_aggregator/device.h>
+#include <robux/surface_aggregator/controller.h>
+#include <robux/surface_aggregator/device.h>
 
 /* -- SAM interface. -------------------------------------------------------- */
 

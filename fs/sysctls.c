@@ -4,8 +4,8 @@
  *
  * These sysctls are shared between different filesystems.
  */
-#include <linux/init.h>
-#include <linux/sysctl.h>
+#include <robux/init.h>
+#include <robux/sysctl.h>
 
 static const struct ctl_table fs_shared_sysctls[] = {
 	{

@@ -5,7 +5,7 @@
 
 #include "xe_gsc.h"
 
-#include <linux/delay.h>
+#include <robux/delay.h>
 
 #include <drm/drm_managed.h>
 #include <drm/drm_print.h>

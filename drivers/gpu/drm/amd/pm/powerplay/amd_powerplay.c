@@ -21,12 +21,12 @@
  *
  */
 #include "pp_debug.h"
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/slab.h>
-#include <linux/firmware.h>
-#include <linux/reboot.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/gfp.h>
+#include <robux/slab.h>
+#include <robux/firmware.h>
+#include <robux/reboot.h>
 #include "amd_shared.h"
 #include "amd_powerplay.h"
 #include "power_state.h"

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/mtd/mtd.h>
-#include <linux/platform_device.h>
-#include <linux/bcma/bcma.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/mtd/mtd.h>
+#include <robux/platform_device.h>
+#include <robux/bcma/bcma.h>
 
 #include "bcm47xxsflash.h"
 

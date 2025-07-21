@@ -9,14 +9,14 @@
  * Author: Eugen Hristev <eugen.hristev@microchip.com>
  *
  */
-#include <linux/input.h>
-#include <linux/input/touchscreen.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/input.h>
+#include <robux/input/touchscreen.h>
+#include <robux/iio/consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 #define DRIVER_NAME					"resistive-adc-touch"
 #define GRTS_DEFAULT_PRESSURE_MIN			50000

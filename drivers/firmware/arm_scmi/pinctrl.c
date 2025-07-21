@@ -7,14 +7,14 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/scmi_protocol.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/scmi_protocol.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #include "common.h"
 #include "protocols.h"

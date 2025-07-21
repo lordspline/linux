@@ -3,8 +3,8 @@
 #include "../codecs/wm8994.h"
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
  /*
   * Default CFG switch settings to use this driver:

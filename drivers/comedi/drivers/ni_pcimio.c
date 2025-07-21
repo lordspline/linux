@@ -2,7 +2,7 @@
 /*
  * Comedi driver for NI PCI-MIO E series cards
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Robux Control and Measurement Device Interface
  * Copyright (C) 1997-8 David A. Schleef <ds@schleef.org>
  */
 
@@ -92,9 +92,9 @@
  *	MB88341		?
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/comedi/comedi_pci.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/comedi/comedi_pci.h>
 #include <asm/byteorder.h>
 
 #include "ni_stc.h"

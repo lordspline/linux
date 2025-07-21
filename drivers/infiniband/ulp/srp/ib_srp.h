@@ -33,10 +33,10 @@
 #ifndef IB_SRP_H
 #define IB_SRP_H
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/scatterlist.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/scatterlist.h>
 
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_cmnd.h>

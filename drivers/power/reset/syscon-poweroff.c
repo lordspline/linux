@@ -6,15 +6,15 @@
  * Author: Moritz Fischer <moritz.fischer@ettus.com>
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/notifier.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/notifier.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
 
 struct syscon_poweroff_data {
 	struct regmap *map;

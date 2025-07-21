@@ -9,8 +9,8 @@
 #if !defined(_XE_TRACE_H_) || defined(TRACE_HEADER_MULTI_READ)
 #define _XE_TRACE_H_
 
-#include <linux/tracepoint.h>
-#include <linux/types.h>
+#include <robux/tracepoint.h>
+#include <robux/types.h>
 
 #include "xe_exec_queue_types.h"
 #include "xe_gpu_scheduler_types.h"

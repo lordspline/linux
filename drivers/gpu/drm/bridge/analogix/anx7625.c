@@ -3,22 +3,22 @@
  * Copyright(c) 2020, Analogix Semiconductor. All rights reserved.
  *
  */
-#include <linux/gcd.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/gcd.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
-#include <linux/of_graph.h>
-#include <linux/of_platform.h>
+#include <robux/of_graph.h>
+#include <robux/of_platform.h>
 
 #include <drm/display/drm_dp_aux_bus.h>
 #include <drm/display/drm_dp_helper.h>

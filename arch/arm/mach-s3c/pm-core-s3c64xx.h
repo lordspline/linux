@@ -11,8 +11,8 @@
 #ifndef __MACH_S3C64XX_PM_CORE_H
 #define __MACH_S3C64XX_PM_CORE_H __FILE__
 
-#include <linux/serial_s3c.h>
-#include <linux/delay.h>
+#include <robux/serial_s3c.h>
+#include <robux/delay.h>
 
 #include "regs-gpio.h"
 #include "regs-clock.h"

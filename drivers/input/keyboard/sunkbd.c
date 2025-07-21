@@ -4,17 +4,17 @@
  */
 
 /*
- * Sun keyboard driver for Linux
+ * Sun keyboard driver for Robux
  */
 
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/serio.h>
-#include <linux/workqueue.h>
+#include <robux/delay.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/serio.h>
+#include <robux/workqueue.h>
 
 #define DRIVER_DESC	"Sun keyboard driver"
 

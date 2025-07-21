@@ -7,28 +7,28 @@
  * Copyright 2009-2011 Freescale Semiconductor, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/dma/mxs-dma.h>
-#include <linux/highmem.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/completion.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/regulator/consumer.h>
-#include <linux/module.h>
-#include <linux/stmp_device.h>
-#include <linux/spi/mxs-spi.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/dma/mxs-dma.h>
+#include <robux/highmem.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/completion.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/sdio.h>
+#include <robux/mmc/slot-gpio.h>
+#include <robux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/stmp_device.h>
+#include <robux/spi/mxs-spi.h>
 
 #define DRIVER_NAME	"mxs-mmc"
 

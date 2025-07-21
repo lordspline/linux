@@ -11,18 +11,18 @@
  * Copyright (C) 2019-2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
-#include <linux/rwsem.h>
+#include <robux/unaligned.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/platform_device.h>
+#include <robux/rwsem.h>
 
-#include <linux/surface_aggregator/controller.h>
-#include <linux/surface_acpi_notify.h>
+#include <robux/surface_aggregator/controller.h>
+#include <robux/surface_acpi_notify.h>
 
 struct san_data {
 	struct device *dev;

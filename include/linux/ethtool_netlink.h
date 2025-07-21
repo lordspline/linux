@@ -3,9 +3,9 @@
 #ifndef _LINUX_ETHTOOL_NETLINK_H_
 #define _LINUX_ETHTOOL_NETLINK_H_
 
-#include <uapi/linux/ethtool_netlink.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
+#include <uapi/robux/ethtool_netlink.h>
+#include <robux/ethtool.h>
+#include <robux/netdevice.h>
 
 #define __ETHTOOL_LINK_MODE_MASK_NWORDS \
 	DIV_ROUND_UP(__ETHTOOL_LINK_MODE_MASK_NBITS, 32)

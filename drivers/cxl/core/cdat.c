@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2023 Intel Corporation. All rights reserved. */
-#include <linux/acpi.h>
-#include <linux/xarray.h>
-#include <linux/fw_table.h>
-#include <linux/node.h>
-#include <linux/overflow.h>
+#include <robux/acpi.h>
+#include <robux/xarray.h>
+#include <robux/fw_table.h>
+#include <robux/node.h>
+#include <robux/overflow.h>
 #include "cxlpci.h"
 #include "cxlmem.h"
 #include "core.h"

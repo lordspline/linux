@@ -3,12 +3,12 @@
  * Copyright (C) 2012 Regents of the University of California
  */
 
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/ctype.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/of.h>
+#include <robux/acpi.h>
+#include <robux/cpu.h>
+#include <robux/ctype.h>
+#include <robux/init.h>
+#include <robux/seq_file.h>
+#include <robux/of.h>
 #include <asm/acpi.h>
 #include <asm/cpufeature.h>
 #include <asm/csr.h>

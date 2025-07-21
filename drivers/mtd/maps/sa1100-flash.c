@@ -4,24 +4,24 @@
  *
  * (C) 2000 Nicolas Pitre <nico@fluxnic.net>
  */
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/err.h>
+#include <robux/io.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/concat.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/partitions.h>
+#include <robux/mtd/concat.h>
 
 #include <mach/hardware.h>
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 #include <asm/mach/flash.h>
 
 struct sa_subdev_info {

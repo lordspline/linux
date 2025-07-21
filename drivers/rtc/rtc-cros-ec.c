@@ -4,14 +4,14 @@
 // Copyright (C) 2017 Google, Inc.
 // Author: Stephen Barber <smbarber@chromium.org>
 
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
 
 #define DRV_NAME	"cros-ec-rtc"
 

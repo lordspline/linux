@@ -9,17 +9,17 @@
 
 #define pr_fmt(fmt)	DRV_NAME ": " fmt
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/irqreturn.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/thermal.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/irqreturn.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/thermal.h>
 
 #define AVS_TMON_STATUS			0x00
  #define AVS_TMON_STATUS_valid_msk	BIT(11)

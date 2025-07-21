@@ -3,14 +3,14 @@
  * Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
  */
 
-#include <linux/module.h>
-#include <linux/moduleloader.h>
-#include <linux/kernel.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/string.h>
+#include <robux/module.h>
+#include <robux/moduleloader.h>
+#include <robux/kernel.h>
+#include <robux/elf.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/string.h>
 #include <asm/unwind.h>
 
 static inline void arc_write_me(unsigned short *addr, unsigned long value)

@@ -10,9 +10,9 @@
 #ifndef _LINUX_PUBLIC_KEY_H
 #define _LINUX_PUBLIC_KEY_H
 
-#include <linux/errno.h>
-#include <linux/keyctl.h>
-#include <linux/oid_registry.h>
+#include <robux/errno.h>
+#include <robux/keyctl.h>
+#include <robux/oid_registry.h>
 
 /*
  * Cryptographic data for the public-key subtype of the asymmetric key type.

@@ -4,19 +4,19 @@
  * Copyright (C) 2012 NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/iommu.h>
-#include <linux/interconnect.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/iommu.h>
+#include <robux/interconnect.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_opp.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 
 #include <soc/tegra/common.h>
 #include <soc/tegra/pmc.h>

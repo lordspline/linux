@@ -7,8 +7,8 @@
  * Contact: Luciano Coelho <luciano.coelho@nokia.com>
  */
 
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <robux/slab.h>
+#include <robux/export.h>
 
 #include "debug.h"
 #include "acx.h"

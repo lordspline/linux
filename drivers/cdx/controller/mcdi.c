@@ -5,24 +5,24 @@
  * Copyright 2008-2013 Solarflare Communications Inc.
  * Copyright (C) 2022-2023, Advanced Micro Devices, Inc.
  */
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/rwsem.h>
-#include <linux/vmalloc.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/if_vlan.h>
+#include <robux/timer.h>
+#include <robux/list.h>
+#include <robux/pci.h>
+#include <robux/device.h>
+#include <robux/rwsem.h>
+#include <robux/vmalloc.h>
 #include <net/netevent.h>
-#include <linux/log2.h>
-#include <linux/net_tstamp.h>
-#include <linux/wait.h>
+#include <robux/log2.h>
+#include <robux/net_tstamp.h>
+#include <robux/wait.h>
 
 #include "bitfield.h"
 #include "mcdi.h"

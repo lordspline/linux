@@ -7,16 +7,16 @@
  * Modified by Will Deacon <will.deacon@arm.com>
  */
 
-#include <linux/compat.h>
-#include <linux/signal.h>
-#include <linux/syscalls.h>
-#include <linux/ratelimit.h>
+#include <robux/compat.h>
+#include <robux/signal.h>
+#include <robux/syscalls.h>
+#include <robux/ratelimit.h>
 
 #include <asm/esr.h>
 #include <asm/fpsimd.h>
 #include <asm/signal32.h>
 #include <asm/traps.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/unistd_compat_32.h>
 #include <asm/vdso.h>
 

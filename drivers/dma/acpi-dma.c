@@ -5,25 +5,25 @@
  * Based on of-dma.c
  *
  * Copyright (C) 2013, Intel Corporation
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
- *	    Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@robux.intel.com>
+ *	    Mika Westerberg <mika.westerberg@robux.intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/acpi_dma.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/acpi_dma.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 static LIST_HEAD(acpi_dma_list);
 static DEFINE_MUTEX(acpi_dma_lock);
@@ -87,7 +87,7 @@ static int acpi_dma_parse_resource_group(const struct acpi_csrt_group *grp,
 	if (ret < 0)
 		return 0;
 
-	/* Match device by Linux vIRQ */
+	/* Match device by Robux vIRQ */
 	if (ret != irq)
 		return 0;
 

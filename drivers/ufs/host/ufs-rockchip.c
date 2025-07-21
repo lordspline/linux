@@ -5,15 +5,15 @@
  * Copyright (C) 2025 Rockchip Electronics Co., Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/gpio.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_wakeup.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/gpio.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_wakeup.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 
 #include <ufs/ufshcd.h>
 #include <ufs/unipro.h>

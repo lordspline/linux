@@ -11,22 +11,22 @@
  * Link to PC-based configuration tool and datasheet: https://www.azoteq.com/
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/firmware.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 
 #define IQS5XX_FW_FILE_LEN	64
 #define IQS5XX_NUM_RETRIES	10

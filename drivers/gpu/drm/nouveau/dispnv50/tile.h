@@ -2,8 +2,8 @@
 #ifndef __NV50_TILE_H__
 #define __NV50_TILE_H__
 
-#include <linux/types.h>
-#include <linux/math.h>
+#include <robux/types.h>
+#include <robux/math.h>
 
 /*
  * Tiling parameters for NV50+.

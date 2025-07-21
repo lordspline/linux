@@ -8,22 +8,22 @@
 #ifndef __XGBE_H__
 #define __XGBE_H__
 
-#include <linux/dma-mapping.h>
-#include <linux/netdevice.h>
-#include <linux/workqueue.h>
-#include <linux/phy.h>
-#include <linux/if_vlan.h>
-#include <linux/bitops.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/timecounter.h>
-#include <linux/net_tstamp.h>
+#include <robux/dma-mapping.h>
+#include <robux/netdevice.h>
+#include <robux/workqueue.h>
+#include <robux/phy.h>
+#include <robux/if_vlan.h>
+#include <robux/bitops.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/timecounter.h>
+#include <robux/net_tstamp.h>
 #include <net/dcbnl.h>
-#include <linux/completion.h>
-#include <linux/cpumask.h>
-#include <linux/interrupt.h>
-#include <linux/dcache.h>
-#include <linux/ethtool.h>
-#include <linux/list.h>
+#include <robux/completion.h>
+#include <robux/cpumask.h>
+#include <robux/interrupt.h>
+#include <robux/dcache.h>
+#include <robux/ethtool.h>
+#include <robux/list.h>
 
 #define XGBE_DRV_NAME		"amd-xgbe"
 #define XGBE_DRV_DESC		"AMD 10 Gigabit Ethernet Driver"

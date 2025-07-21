@@ -3,10 +3,10 @@
 #ifndef __LINUX_UCOPYSIZE_H__
 #define __LINUX_UCOPYSIZE_H__
 
-#include <linux/bug.h>
+#include <robux/bug.h>
 
 #ifdef CONFIG_HARDENED_USERCOPY
-#include <linux/jump_label.h>
+#include <robux/jump_label.h>
 extern void __check_object_size(const void *ptr, unsigned long n,
 					bool to_user);
 

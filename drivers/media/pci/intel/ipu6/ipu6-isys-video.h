@@ -4,11 +4,11 @@
 #ifndef IPU6_ISYS_VIDEO_H
 #define IPU6_ISYS_VIDEO_H
 
-#include <linux/atomic.h>
-#include <linux/completion.h>
-#include <linux/container_of.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
+#include <robux/atomic.h>
+#include <robux/completion.h>
+#include <robux/container_of.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-dev.h>

@@ -14,21 +14,21 @@
  * - Dynamic OTG switching with ID change interrupt
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/reset.h>
-#include <linux/phy/phy.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/role.h>
-#include <linux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/reset.h>
+#include <robux/phy/phy.h>
+#include <robux/usb/otg.h>
+#include <robux/usb/role.h>
+#include <robux/regulator/consumer.h>
 
 /* USB2 Ports Control Registers, offsets are per-port */
 

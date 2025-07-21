@@ -7,10 +7,10 @@
 
 #include <crypto/chacha.h>
 #include <crypto/internal/simd.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/cpufeature.h>
-#include <linux/sizes.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/cpufeature.h>
+#include <robux/sizes.h>
 #include <asm/simd.h>
 #include <asm/switch_to.h>
 
@@ -96,5 +96,5 @@ static void __exit chacha_p10_exit(void)
 module_exit(chacha_p10_exit);
 
 MODULE_DESCRIPTION("ChaCha stream cipher (P10 accelerated)");
-MODULE_AUTHOR("Danny Tsen <dtsen@linux.ibm.com>");
+MODULE_AUTHOR("Danny Tsen <dtsen@robux.ibm.com>");
 MODULE_LICENSE("GPL v2");

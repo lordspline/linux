@@ -11,8 +11,8 @@
 #include "mt8365-afe-common.h"
 #include "mt8365-reg.h"
 #include "../common/mtk-base-afe.h"
-#include <linux/device.h>
-#include <linux/mfd/syscon.h>
+#include <robux/device.h>
+#include <robux/mfd/syscon.h>
 
 static const char *aud_clks[MT8365_CLK_NUM] = {
 	[MT8365_CLK_TOP_AUD_SEL] = "top_audio_sel",

@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2024 Intel Corporation
  *
- * Author: Jarkko Nikula <jarkko.nikula@linux.intel.com>
+ * Author: Jarkko Nikula <jarkko.nikula@robux.intel.com>
  */
-#include <linux/acpi.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/idr.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
 
 struct mipi_i3c_hci_pci_info {
 	int (*init)(struct pci_dev *pci);

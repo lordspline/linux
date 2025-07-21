@@ -4,7 +4,7 @@
 #ifndef __LINUX_PECI_CPU_H
 #define __LINUX_PECI_CPU_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /* Copied from x86 <asm/processor.h> */
 #define X86_VENDOR_INTEL       0

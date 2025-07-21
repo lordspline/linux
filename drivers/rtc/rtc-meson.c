@@ -11,18 +11,18 @@
  * Based on origin by Carlo Caione <carlo@endlessm.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/rtc.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
+#include <robux/rtc.h>
 
 /* registers accessed from cpu bus */
 #define RTC_ADDR0				0x00

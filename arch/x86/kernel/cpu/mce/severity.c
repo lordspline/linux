@@ -5,11 +5,11 @@
  *
  * Author: Andi Kleen
  */
-#include <linux/kernel.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/seq_file.h>
+#include <robux/init.h>
+#include <robux/debugfs.h>
+#include <robux/uaccess.h>
 
 #include <asm/mce.h>
 #include <asm/cpu_device_id.h>

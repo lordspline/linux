@@ -26,18 +26,18 @@
  * basic PCI slot control loop
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/kmod.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/wait.h>
+#include <robux/kmod.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
 
 #include <asm/machdep.h>
 #include <asm/io.h>

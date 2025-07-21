@@ -6,13 +6,13 @@
  *	   Sean Wang <sean.wang@mediatek.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/sdio_ids.h>
-#include <linux/mmc/sdio_func.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/sdio_ids.h>
+#include <robux/mmc/sdio_func.h>
 
 #include "../sdio.h"
 #include "mt7615.h"

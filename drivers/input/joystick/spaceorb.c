@@ -7,14 +7,14 @@
  */
 
 /*
- * SpaceTec SpaceOrb 360 and Avenger 6dof controller driver for Linux
+ * SpaceTec SpaceOrb 360 and Avenger 6dof controller driver for Robux
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/serio.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/serio.h>
 
 #define DRIVER_DESC	"SpaceTec SpaceOrb 360 and Avenger 6dof controller driver"
 

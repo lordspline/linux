@@ -7,8 +7,8 @@
  *  Based on the hid-macally driver
  */
 
-#include <linux/hid.h>
-#include <linux/module.h>
+#include <robux/hid.h>
+#include <robux/module.h>
 
 #include "hid-ids.h"
 

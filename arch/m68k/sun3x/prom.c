@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Prom access routines for the sun3x */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/string.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/tty.h>
+#include <robux/console.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/string.h>
 
 #include <asm/page.h>
 #include <asm/setup.h>

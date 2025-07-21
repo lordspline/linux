@@ -16,17 +16,17 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/retu.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/irq.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/retu.h>
+#include <robux/interrupt.h>
+#include <robux/moduleparam.h>
 
 /* Registers */
 #define RETU_REG_ASICR		0x00		/* ASIC ID and revision */

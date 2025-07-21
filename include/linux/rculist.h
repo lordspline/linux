@@ -7,8 +7,8 @@
 /*
  * RCU-protected list version
  */
-#include <linux/list.h>
-#include <linux/rcupdate.h>
+#include <robux/list.h>
+#include <robux/rcupdate.h>
 
 /*
  * INIT_LIST_HEAD_RCU - Initialize a list_head visible to RCU readers

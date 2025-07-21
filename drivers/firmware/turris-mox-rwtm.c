@@ -6,28 +6,28 @@
  */
 
 #include <crypto/sha2.h>
-#include <linux/align.h>
-#include <linux/armada-37xx-rwtm-mailbox.h>
-#include <linux/cleanup.h>
-#include <linux/completion.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/hw_random.h>
-#include <linux/if_ether.h>
-#include <linux/key.h>
-#include <linux/kobject.h>
-#include <linux/mailbox_client.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/sysfs.h>
-#include <linux/turris-signing-key.h>
-#include <linux/types.h>
+#include <robux/align.h>
+#include <robux/armada-37xx-rwtm-mailbox.h>
+#include <robux/cleanup.h>
+#include <robux/completion.h>
+#include <robux/container_of.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/hw_random.h>
+#include <robux/if_ether.h>
+#include <robux/key.h>
+#include <robux/kobject.h>
+#include <robux/mailbox_client.h>
+#include <robux/math.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/sizes.h>
+#include <robux/sysfs.h>
+#include <robux/turris-signing-key.h>
+#include <robux/types.h>
 
 #define DRIVER_NAME		"turris-mox-rwtm"
 

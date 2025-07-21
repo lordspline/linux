@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2012-2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2015, The Robux Foundation. All rights reserved.
  */
 
 #include <dt-bindings/clock/qcom,dsi-phy-28nm.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
 
 #include "dsi_phy.h"
 #include "dsi.xml.h"

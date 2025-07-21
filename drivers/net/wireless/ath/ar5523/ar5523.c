@@ -24,14 +24,14 @@
  * out how the hardware works.  It contains a lot magic numbers because of
  * that and only has minimal functionality.
  */
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/completion.h>
-#include <linux/firmware.h>
-#include <linux/skbuff.h>
-#include <linux/usb.h>
+#include <robux/compiler.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/completion.h>
+#include <robux/firmware.h>
+#include <robux/skbuff.h>
+#include <robux/usb.h>
 #include <net/mac80211.h>
 
 #include "ar5523.h"

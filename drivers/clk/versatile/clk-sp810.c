@@ -4,14 +4,14 @@
  * Copyright (C) 2013 ARM Limited
  */
 
-#include <linux/amba/sp810.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/amba/sp810.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #define to_clk_sp810_timerclken(_hw) \
 		container_of(_hw, struct clk_sp810_timerclken, hw)

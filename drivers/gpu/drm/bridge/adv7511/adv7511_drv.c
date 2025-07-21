@@ -5,12 +5,12 @@
  * Copyright 2012 Analog Devices Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 
 #include <media/cec.h>
 

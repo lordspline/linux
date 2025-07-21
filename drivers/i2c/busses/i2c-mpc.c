@@ -8,23 +8,23 @@
  * Copyright (C) 2021 Allied Telesis Labs
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched/signal.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/fsl_devices.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/fsl_devices.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
 
 #include <asm/mpc52xx.h>
 #include <asm/mpc85xx.h>

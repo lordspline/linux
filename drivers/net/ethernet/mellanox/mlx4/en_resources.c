@@ -31,9 +31,9 @@
  *
  */
 
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mlx4/qp.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/mlx4/qp.h>
 
 #include "mlx4_en.h"
 

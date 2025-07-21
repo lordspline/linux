@@ -9,32 +9,32 @@
  * Copyright (C) 1996 Thomas K. Dyas (tdyas@eden.rutgers.edu)
  */
 
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/mc146818rtc.h>
-#include <linux/delay.h>
-#include <linux/profile.h>
-#include <linux/bcd.h>
-#include <linux/jiffies.h>
-#include <linux/cpufreq.h>
-#include <linux/percpu.h>
-#include <linux/rtc/m48t59.h>
-#include <linux/kernel_stat.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/platform_device.h>
-#include <linux/sched/clock.h>
-#include <linux/ftrace.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/param.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/time.h>
+#include <robux/timex.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/mc146818rtc.h>
+#include <robux/delay.h>
+#include <robux/profile.h>
+#include <robux/bcd.h>
+#include <robux/jiffies.h>
+#include <robux/cpufreq.h>
+#include <robux/percpu.h>
+#include <robux/rtc/m48t59.h>
+#include <robux/kernel_stat.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/platform_device.h>
+#include <robux/sched/clock.h>
+#include <robux/ftrace.h>
 
 #include <asm/oplib.h>
 #include <asm/timer.h>
@@ -45,7 +45,7 @@
 #include <asm/smp.h>
 #include <asm/sections.h>
 #include <asm/cpudata.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/irq_regs.h>
 #include <asm/cacheflush.h>
 

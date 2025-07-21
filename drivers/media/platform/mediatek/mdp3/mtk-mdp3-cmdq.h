@@ -7,9 +7,9 @@
 #ifndef __MTK_MDP3_CMDQ_H__
 #define __MTK_MDP3_CMDQ_H__
 
-#include <linux/platform_device.h>
-#include <linux/videodev2.h>
-#include <linux/soc/mediatek/mtk-cmdq.h>
+#include <robux/platform_device.h>
+#include <robux/videodev2.h>
+#include <robux/soc/mediatek/mtk-cmdq.h>
 #include "mtk-img-ipi.h"
 
 struct mdp_cmdq_param {

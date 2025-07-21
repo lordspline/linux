@@ -9,17 +9,17 @@
  * Author: Laxman Dewangan <ldewangan@nvidia.com>
  */
 
-#include <linux/bcd.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mfd/as3722.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/time.h>
+#include <robux/bcd.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/ioctl.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mfd/as3722.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
+#include <robux/time.h>
 
 #define AS3722_RTC_START_YEAR	  2000
 struct as3722_rtc {

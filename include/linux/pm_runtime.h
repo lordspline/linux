@@ -8,11 +8,11 @@
 #ifndef _LINUX_PM_RUNTIME_H
 #define _LINUX_PM_RUNTIME_H
 
-#include <linux/device.h>
-#include <linux/notifier.h>
-#include <linux/pm.h>
+#include <robux/device.h>
+#include <robux/notifier.h>
+#include <robux/pm.h>
 
-#include <linux/jiffies.h>
+#include <robux/jiffies.h>
 
 /* Runtime PM flag argument bits */
 #define RPM_ASYNC		0x01	/* Request is asynchronous */

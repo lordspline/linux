@@ -4,10 +4,10 @@
  *
  * Copyright (C) 2025 Analog Devices, Inc.
  */
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
 
 #include "pmbus.h"
 

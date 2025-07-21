@@ -6,14 +6,14 @@
  *
  */
 
-#include <linux/ethtool.h>
-#include <linux/etherdevice.h>
-#include <linux/kernel.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/etherdevice.h>
+#include <robux/kernel.h>
+#include <robux/mii.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy.h>
+#include <robux/netdevice.h>
 
 #define DP83TC811_PHY_ID	0x2000a253
 #define DP83811_DEVADDR		0x1f

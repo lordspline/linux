@@ -4,7 +4,7 @@
  *
  * Copyright (C) IBM Corporation, 2005, 2006
  *
- * Authors: Paul E. McKenney <paulmck@linux.ibm.com>
+ * Authors: Paul E. McKenney <paulmck@robux.ibm.com>
  *	  Josh Triplett <josh@joshtriplett.org>
  *
  * See also:  Documentation/RCU/torture.rst
@@ -12,48 +12,48 @@
 
 #define pr_fmt(fmt) fmt
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/err.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
-#include <linux/rcupdate_wait.h>
-#include <linux/rcu_notifier.h>
-#include <linux/interrupt.h>
-#include <linux/sched/signal.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/moduleparam.h>
-#include <linux/percpu.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/freezer.h>
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/stat.h>
-#include <linux/srcu.h>
-#include <linux/slab.h>
-#include <linux/trace_clock.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kthread.h>
+#include <robux/err.h>
+#include <robux/spinlock.h>
+#include <robux/smp.h>
+#include <robux/rcupdate_wait.h>
+#include <robux/rcu_notifier.h>
+#include <robux/interrupt.h>
+#include <robux/sched/signal.h>
+#include <uapi/robux/sched/types.h>
+#include <robux/atomic.h>
+#include <robux/bitops.h>
+#include <robux/completion.h>
+#include <robux/moduleparam.h>
+#include <robux/percpu.h>
+#include <robux/notifier.h>
+#include <robux/reboot.h>
+#include <robux/freezer.h>
+#include <robux/cpu.h>
+#include <robux/delay.h>
+#include <robux/stat.h>
+#include <robux/srcu.h>
+#include <robux/slab.h>
+#include <robux/trace_clock.h>
 #include <asm/byteorder.h>
-#include <linux/torture.h>
-#include <linux/vmalloc.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/sysctl.h>
-#include <linux/oom.h>
-#include <linux/tick.h>
-#include <linux/rcupdate_trace.h>
-#include <linux/nmi.h>
+#include <robux/torture.h>
+#include <robux/vmalloc.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/sysctl.h>
+#include <robux/oom.h>
+#include <robux/tick.h>
+#include <robux/rcupdate_trace.h>
+#include <robux/nmi.h>
 
 #include "rcu.h"
 
 MODULE_DESCRIPTION("Read-Copy Update module-based torture test facility");
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Paul E. McKenney <paulmck@linux.ibm.com> and Josh Triplett <josh@joshtriplett.org>");
+MODULE_AUTHOR("Paul E. McKenney <paulmck@robux.ibm.com> and Josh Triplett <josh@joshtriplett.org>");
 
 /* Bits for ->extendables field, extendables param, and related definitions. */
 #define RCUTORTURE_RDR_SHIFT_1	 8	/* Put SRCU index in upper bits. */

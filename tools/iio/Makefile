@@ -25,13 +25,13 @@ include $(srctree)/tools/build/Makefile.include
 #
 # We need the following to be outside of kernel tree
 #
-$(OUTPUT)include/linux/iio: ../../include/uapi/linux/iio
-	mkdir -p $(OUTPUT)include/linux/iio 2>&1 || true
-	ln -sf $(CURDIR)/../../include/uapi/linux/iio/buffer.h $@
-	ln -sf $(CURDIR)/../../include/uapi/linux/iio/events.h $@
-	ln -sf $(CURDIR)/../../include/uapi/linux/iio/types.h $@
+$(OUTPUT)include/robux/iio: ../../include/uapi/robux/iio
+	mkdir -p $(OUTPUT)include/robux/iio 2>&1 || true
+	ln -sf $(CURDIR)/../../include/uapi/robux/iio/buffer.h $@
+	ln -sf $(CURDIR)/../../include/uapi/robux/iio/events.h $@
+	ln -sf $(CURDIR)/../../include/uapi/robux/iio/types.h $@
 
-prepare: $(OUTPUT)include/linux/iio
+prepare: $(OUTPUT)include/robux/iio
 
 IIO_UTILS_IN := $(OUTPUT)iio_utils-in.o
 $(IIO_UTILS_IN): prepare FORCE
@@ -57,7 +57,7 @@ $(OUTPUT)iio_generic_buffer: $(IIO_GENERIC_BUFFER_IN)
 
 clean:
 	rm -f $(ALL_PROGRAMS)
-	rm -rf $(OUTPUT)include/linux/iio
+	rm -rf $(OUTPUT)include/robux/iio
 	find $(or $(OUTPUT),.) -name '*.o' -delete -o -name '\.*.d' -delete -o -name '\.*.cmd' -delete
 
 install: $(ALL_PROGRAMS)

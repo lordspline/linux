@@ -7,13 +7,13 @@
  * It is based on tpm_tis_spi driver by Peter Huewe and Christophe Ricard.
  */
 
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/spi/spi.h>
-#include <linux/wait.h>
+#include <robux/completion.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm.h>
+#include <robux/spi/spi.h>
+#include <robux/wait.h>
 
 #include "tpm_tis_core.h"
 #include "tpm_tis_spi.h"

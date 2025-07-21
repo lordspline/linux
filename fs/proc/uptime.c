@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/time.h>
-#include <linux/time_namespace.h>
-#include <linux/kernel_stat.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/proc_fs.h>
+#include <robux/sched.h>
+#include <robux/seq_file.h>
+#include <robux/time.h>
+#include <robux/time_namespace.h>
+#include <robux/kernel_stat.h>
 #include "internal.h"
 
 static int uptime_proc_show(struct seq_file *m, void *v)

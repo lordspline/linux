@@ -10,15 +10,15 @@
  * family.
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
+#include <robux/bitops.h>
+#include <robux/gpio/driver.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/pinmux.h>
+#include <robux/platform_device.h>
 
 #include "../core.h"
 #include "../pinmux.h"

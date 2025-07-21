@@ -6,26 +6,26 @@
  *      Heiko Stuebner <heiko.stuebner@cherry.de>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/media-bus-format.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/mfd/syscon.h>
-#include <linux/phy/phy.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/media-bus-format.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/mfd/syscon.h>
+#include <robux/phy/phy.h>
 
 #include <drm/bridge/dw_mipi_dsi2.h>
 #include <drm/drm_mipi_dsi.h>
 #include <drm/drm_of.h>
 #include <drm/drm_simple_kms_helper.h>
 
-#include <uapi/linux/videodev2.h>
+#include <uapi/robux/videodev2.h>
 
 #include "rockchip_drm_drv.h"
 

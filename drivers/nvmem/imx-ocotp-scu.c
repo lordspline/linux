@@ -7,13 +7,13 @@
  * Peng Fan <peng.fan@nxp.com>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/arm-smccc.h>
+#include <robux/firmware/imx/sci.h>
+#include <robux/module.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #define IMX_SIP_OTP_WRITE		0xc200000B
 

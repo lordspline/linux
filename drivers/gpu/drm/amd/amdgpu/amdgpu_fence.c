@@ -28,13 +28,13 @@
  *    Jerome Glisse <glisse@freedesktop.org>
  *    Dave Airlie
  */
-#include <linux/seq_file.h>
-#include <linux/atomic.h>
-#include <linux/wait.h>
-#include <linux/kref.h>
-#include <linux/slab.h>
-#include <linux/firmware.h>
-#include <linux/pm_runtime.h>
+#include <robux/seq_file.h>
+#include <robux/atomic.h>
+#include <robux/wait.h>
+#include <robux/kref.h>
+#include <robux/slab.h>
+#include <robux/firmware.h>
+#include <robux/pm_runtime.h>
 
 #include <drm/drm_drv.h>
 #include "amdgpu.h"

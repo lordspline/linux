@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/phy.h>
-#include <linux/module.h>
+#include <robux/phy.h>
+#include <robux/module.h>
 
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool_netlink.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool_netlink.h>
 
 #include "qcom.h"
 

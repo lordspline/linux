@@ -3,14 +3,14 @@
  *
  * Copyright Tomi Manninen OH2BNS (oh2bns@sral.fi)
  */
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/socket.h>
-#include <linux/timer.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/socket.h>
+#include <robux/timer.h>
 #include <net/ax25.h>
-#include <linux/skbuff.h>
+#include <robux/skbuff.h>
 #include <net/netrom.h>
-#include <linux/init.h>
+#include <robux/init.h>
 
 static void nr_loopback_timer(struct timer_list *);
 

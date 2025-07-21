@@ -8,8 +8,8 @@
  */
 
 #include "cx231xx.h"
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
 
 #include <media/dvbdev.h>
 #include <media/dmxdev.h>

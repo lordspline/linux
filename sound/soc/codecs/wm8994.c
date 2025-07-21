@@ -7,17 +7,17 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/gcd.h>
-#include <linux/i2c.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/gcd.h>
+#include <robux/i2c.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>
@@ -27,10 +27,10 @@
 #include <sound/tlv.h>
 #include <trace/events/asoc.h>
 
-#include <linux/mfd/wm8994/core.h>
-#include <linux/mfd/wm8994/registers.h>
-#include <linux/mfd/wm8994/pdata.h>
-#include <linux/mfd/wm8994/gpio.h>
+#include <robux/mfd/wm8994/core.h>
+#include <robux/mfd/wm8994/registers.h>
+#include <robux/mfd/wm8994/pdata.h>
+#include <robux/mfd/wm8994/gpio.h>
 
 #include "wm8994.h"
 #include "wm_hubs.h"

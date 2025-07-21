@@ -4,17 +4,17 @@
  * Author: Zhiyong Tao <zhiyong.tao@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/iopoll.h>
-#include <linux/io.h>
-#include <linux/iio/iio.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/iopoll.h>
+#include <robux/io.h>
+#include <robux/iio/iio.h>
 
 /* Register definitions */
 #define MT6577_AUXADC_CON0                    0x00

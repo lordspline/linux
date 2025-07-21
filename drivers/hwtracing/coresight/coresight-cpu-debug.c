@@ -4,27 +4,27 @@
  *
  * Author: Leo Yan <leo.yan@linaro.org>
  */
-#include <linux/acpi.h>
-#include <linux/amba/bus.h>
-#include <linux/coresight.h>
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/panic_notifier.h>
-#include <linux/platform_device.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <robux/acpi.h>
+#include <robux/amba/bus.h>
+#include <robux/coresight.h>
+#include <robux/cpu.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/panic_notifier.h>
+#include <robux/platform_device.h>
+#include <robux/pm_qos.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
 
 #include "coresight-priv.h"
 

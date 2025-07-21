@@ -2,9 +2,9 @@
 #ifndef _LINUX_MTIO_COMPAT_H
 #define _LINUX_MTIO_COMPAT_H
 
-#include <linux/compat.h>
-#include <uapi/linux/mtio.h>
-#include <linux/uaccess.h>
+#include <robux/compat.h>
+#include <uapi/robux/mtio.h>
+#include <robux/uaccess.h>
 
 /*
  * helper functions for implementing compat ioctls on the four tape

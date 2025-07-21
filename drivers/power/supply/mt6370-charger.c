@@ -5,22 +5,22 @@
  * Author: ChiaEn Wu <chiaen_wu@richtek.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/devm-helpers.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/linear_range.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/workqueue.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/devm-helpers.h>
+#include <robux/gpio/consumer.h>
+#include <robux/iio/consumer.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/linear_range.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/workqueue.h>
 
 #define MT6370_REG_CHG_CTRL1		0x111
 #define MT6370_REG_CHG_CTRL2		0x112

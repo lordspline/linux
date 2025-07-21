@@ -7,13 +7,13 @@
  * Author: Lan Tianyu <tianyu.lan@intel.com>
  */
 
-#include <linux/kstrtox.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/sysfs.h>
-#include <linux/pm_qos.h>
-#include <linux/component.h>
-#include <linux/usb/of.h>
+#include <robux/kstrtox.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/sysfs.h>
+#include <robux/pm_qos.h>
+#include <robux/component.h>
+#include <robux/usb/of.h>
 
 #include "hub.h"
 

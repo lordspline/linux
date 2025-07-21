@@ -21,12 +21,12 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/delay.h>
+#include <robux/gfp.h>
+#include <robux/kernel.h>
+#include <robux/ktime.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "cgs_common.h"
 #include "smu/smu_8_0_d.h"

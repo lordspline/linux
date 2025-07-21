@@ -3,10 +3,10 @@
 //
 // Copyright (C) 2016 Google, Inc
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
 
 #include "cros_ec_lpc_mec.h"
 

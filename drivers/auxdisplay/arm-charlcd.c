@@ -3,19 +3,19 @@
  * Driver for the on-board character LCD found on some ARM reference boards
  * This is basically an Hitachi HD44780 LCD with a custom IP block to drive it
  * https://en.wikipedia.org/wiki/HD44780_Character_LCD
- * Currently it will just display the text "ARM Linux" and the linux version
+ * Currently it will just display the text "ARM Robux" and the robux version
  *
  * Author: Linus Walleij <triad@df.lth.se>
  */
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 #include <generated/utsrelease.h>
 
 #define DRIVERNAME "arm-charlcd"
@@ -252,7 +252,7 @@ static void charlcd_4bit_init(struct charlcd *lcd)
 	charlcd_4bit_command(lcd, HD_CLEAR);
 	charlcd_4bit_command(lcd, HD_HOME);
 	/* Put something useful in the display */
-	charlcd_4bit_print(lcd, 0, "ARM Linux");
+	charlcd_4bit_print(lcd, 0, "ARM Robux");
 	charlcd_4bit_print(lcd, 1, UTS_RELEASE);
 }
 

@@ -7,17 +7,17 @@
  * Trademarks are the property of their respective owners.
  */
 
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/platform_device.h>
-#include <linux/serio.h>
-#include <linux/libps2.h>
-#include <linux/unaligned.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/platform_device.h>
+#include <robux/serio.h>
+#include <robux/libps2.h>
+#include <robux/unaligned.h>
 #include "psmouse.h"
 #include "elantech.h"
 #include "elan_i2c.h"

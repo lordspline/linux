@@ -6,14 +6,14 @@
  * Copyright 2016-2017 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  */
 
-#include <linux/export.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/list.h>
-#include <linux/kref.h>
-#include <linux/of_platform.h>
+#include <robux/export.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/list.h>
+#include <robux/kref.h>
+#include <robux/of_platform.h>
 
 #include <media/cec.h>
 #include <media/cec-notifier.h>

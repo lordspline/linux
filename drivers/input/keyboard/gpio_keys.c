@@ -6,28 +6,28 @@
  * Copyright 2010, 2011 David Jander <david@protonic.nl>
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/hrtimer.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/sched.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/sysctl.h>
-#include <linux/proc_fs.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/gpio_keys.h>
-#include <linux/workqueue.h>
-#include <linux/gpio.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/spinlock.h>
+#include <robux/hrtimer.h>
+#include <robux/init.h>
+#include <robux/fs.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/sched.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
+#include <robux/sysctl.h>
+#include <robux/proc_fs.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/input.h>
+#include <robux/gpio_keys.h>
+#include <robux/workqueue.h>
+#include <robux/gpio.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/spinlock.h>
 #include <dt-bindings/input/gpio-keys.h>
 
 struct gpio_button_data {
@@ -792,7 +792,7 @@ gpio_keys_get_devtree_pdata(struct device *dev)
 					irq_of_parse_and_map(to_of_node(child), 0);
 		}
 
-		if (fwnode_property_read_u32(child, "linux,code",
+		if (fwnode_property_read_u32(child, "robux,code",
 					     &button->code)) {
 			dev_err(dev, "Button without keycode\n");
 			return ERR_PTR(-EINVAL);
@@ -800,11 +800,11 @@ gpio_keys_get_devtree_pdata(struct device *dev)
 
 		fwnode_property_read_string(child, "label", &button->desc);
 
-		if (fwnode_property_read_u32(child, "linux,input-type",
+		if (fwnode_property_read_u32(child, "robux,input-type",
 					     &button->type))
 			button->type = EV_KEY;
 
-		fwnode_property_read_u32(child, "linux,input-value",
+		fwnode_property_read_u32(child, "robux,input-value",
 					 (u32 *)&button->value);
 
 		button->wakeup =
@@ -816,7 +816,7 @@ gpio_keys_get_devtree_pdata(struct device *dev)
 					 &button->wakeup_event_action);
 
 		button->can_disable =
-			fwnode_property_read_bool(child, "linux,can-disable");
+			fwnode_property_read_bool(child, "robux,can-disable");
 
 		if (fwnode_property_read_u32(child, "debounce-interval",
 					 &button->debounce_interval))
@@ -891,7 +891,7 @@ static int gpio_keys_probe(struct platform_device *pdev)
 	input->keycodesize = sizeof(ddata->keymap[0]);
 	input->keycodemax = pdata->nbuttons;
 
-	/* Enable auto repeat feature of Linux input subsystem */
+	/* Enable auto repeat feature of Robux input subsystem */
 	if (pdata->rep)
 		__set_bit(EV_REP, input->evbit);
 

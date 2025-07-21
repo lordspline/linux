@@ -7,11 +7,11 @@
  * Copyright IBM Corp. 2015
  */
 
-#include <linux/kernel.h>
-#include <linux/mmzone.h>
-#include <linux/cpumask.h>
-#include <linux/memblock.h>
-#include <linux/node.h>
+#include <robux/kernel.h>
+#include <robux/mmzone.h>
+#include <robux/cpumask.h>
+#include <robux/memblock.h>
+#include <robux/node.h>
 #include <asm/numa.h>
 
 void __init numa_setup(void)

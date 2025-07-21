@@ -3,8 +3,8 @@
 
 #include "pvr_params.h"
 
-#include <linux/cache.h>
-#include <linux/moduleparam.h>
+#include <robux/cache.h>
+#include <robux/moduleparam.h>
 
 static struct pvr_device_params pvr_device_param_defaults __read_mostly = {
 #define X(type_, name_, value_, desc_, ...) .name_ = (value_),
@@ -47,11 +47,11 @@ pvr_device_params_init(struct pvr_device_params *params)
 #if defined(CONFIG_DEBUG_FS)
 #include "pvr_device.h"
 
-#include <linux/dcache.h>
-#include <linux/debugfs.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/stddef.h>
+#include <robux/dcache.h>
+#include <robux/debugfs.h>
+#include <robux/export.h>
+#include <robux/fs.h>
+#include <robux/stddef.h>
 
 /*
  * This list of defines must contain every type specified in "pvr_params.h" as

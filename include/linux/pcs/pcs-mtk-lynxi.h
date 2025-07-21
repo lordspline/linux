@@ -2,8 +2,8 @@
 #ifndef __LINUX_PCS_MTK_LYNXI_H
 #define __LINUX_PCS_MTK_LYNXI_H
 
-#include <linux/phylink.h>
-#include <linux/regmap.h>
+#include <robux/phylink.h>
+#include <robux/regmap.h>
 
 #define MTK_SGMII_FLAG_PN_SWAP BIT(0)
 struct phylink_pcs *mtk_pcs_lynxi_create(struct device *dev,

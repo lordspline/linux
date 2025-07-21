@@ -7,13 +7,13 @@
 #ifndef _INDUSTRIAL_IO_H_
 #define _INDUSTRIAL_IO_H_
 
-#include <linux/align.h>
-#include <linux/device.h>
-#include <linux/cdev.h>
-#include <linux/compiler_types.h>
-#include <linux/minmax.h>
-#include <linux/slab.h>
-#include <linux/iio/types.h>
+#include <robux/align.h>
+#include <robux/device.h>
+#include <robux/cdev.h>
+#include <robux/compiler_types.h>
+#include <robux/minmax.h>
+#include <robux/slab.h>
+#include <robux/iio/types.h>
 /* IIO TODO LIST */
 /*
  * Provide means of adjusting timer accuracy.

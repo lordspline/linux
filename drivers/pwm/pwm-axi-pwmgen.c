@@ -18,17 +18,17 @@
  * - Supports normal polarity. Does not support changing polarity.
  * - On disable, the PWM output becomes low (inactive).
  */
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/fpga/adi-axi-common.h>
-#include <linux/io.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/fpga/adi-axi-common.h>
+#include <robux/io.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #define AXI_PWMGEN_REG_ID		0x04
 #define AXI_PWMGEN_REG_SCRATCHPAD	0x08

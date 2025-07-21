@@ -11,14 +11,14 @@
 
 #define ASM_OFFSETS_C
 
-#include <linux/stddef.h>
-#include <linux/sched.h>
-#include <linux/kernel_stat.h>
-#include <linux/kbuild.h>
+#include <robux/stddef.h>
+#include <robux/sched.h>
+#include <robux/kernel_stat.h>
+#include <robux/kbuild.h>
 #include <asm/bootinfo.h>
 #include <asm/irq.h>
 #include <asm/amigahw.h>
-#include <linux/font.h>
+#include <robux/font.h>
 
 int main(void)
 {

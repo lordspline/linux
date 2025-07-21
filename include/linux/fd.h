@@ -2,10 +2,10 @@
 #ifndef _LINUX_FD_H
 #define _LINUX_FD_H
 
-#include <uapi/linux/fd.h>
+#include <uapi/robux/fd.h>
 
 #ifdef CONFIG_COMPAT
-#include <linux/compat.h>
+#include <robux/compat.h>
 
 struct compat_floppy_struct {
 	compat_uint_t	size;

@@ -12,15 +12,15 @@
 #define KMSG_COMPONENT "trng"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/hw_random.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/cpufeature.h>
-#include <linux/miscdevice.h>
-#include <linux/debugfs.h>
-#include <linux/atomic.h>
-#include <linux/random.h>
-#include <linux/sched/signal.h>
+#include <robux/hw_random.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/cpufeature.h>
+#include <robux/miscdevice.h>
+#include <robux/debugfs.h>
+#include <robux/atomic.h>
+#include <robux/random.h>
+#include <robux/sched/signal.h>
 #include <asm/debug.h>
 #include <asm/cpacf.h>
 #include <asm/archrandom.h>

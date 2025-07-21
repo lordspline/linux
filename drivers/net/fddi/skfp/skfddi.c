@@ -9,7 +9,7 @@
  * The information in this file is provided "AS IS" without warranty.
  *
  * Abstract:
- *   A Linux device driver supporting the SysKonnect FDDI PCI controller
+ *   A Robux device driver supporting the SysKonnect FDDI PCI controller
  *   familie.
  *
  * Maintainers:
@@ -19,7 +19,7 @@
  *   DM    David S. Miller
  *
  * Address all question to:
- *   linux@syskonnect.de
+ *   robux@syskonnect.de
  *
  * The technical manual for the adapters is available from SysKonnect's
  * web pages: www.syskonnect.com
@@ -69,27 +69,27 @@ static const char * const boot_msg =
 
 /* Include files */
 
-#include <linux/capability.h>
-#include <linux/compat.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/fddidevice.h>
-#include <linux/skbuff.h>
-#include <linux/bitops.h>
-#include <linux/gfp.h>
+#include <robux/capability.h>
+#include <robux/compat.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/fddidevice.h>
+#include <robux/skbuff.h>
+#include <robux/bitops.h>
+#include <robux/gfp.h>
 
 #include <asm/byteorder.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include	"h/types.h"
-#undef ADDR			// undo Linux definition
+#undef ADDR			// undo Robux definition
 #include	"h/skfbi.h"
 #include	"h/fddi.h"
 #include	"h/smc.h"
@@ -1053,7 +1053,7 @@ static netdev_tx_t skfp_send_pkt(struct sk_buff *skb,
 	 * Verify that incoming transmit request is OK
 	 *
 	 * Note: The packet size check is consistent with other
-	 *               Linux device drivers, although the correct packet
+	 *               Robux device drivers, although the correct packet
 	 *               size should be verified before calling the
 	 *               transmit routine.
 	 */

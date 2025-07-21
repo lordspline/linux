@@ -5,11 +5,11 @@
  * Copyright (C) 2019 Cong Wang <cwang@twitter.com>
  */
 
-#include <linux/module.h>
-#include <linux/ctype.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/rculist.h>
+#include <robux/module.h>
+#include <robux/ctype.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/rculist.h>
 
 #include "trace.h"
 

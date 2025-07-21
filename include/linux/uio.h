@@ -5,10 +5,10 @@
 #ifndef __LINUX_UIO_H
 #define __LINUX_UIO_H
 
-#include <linux/kernel.h>
-#include <linux/mm_types.h>
-#include <linux/ucopysize.h>
-#include <uapi/linux/uio.h>
+#include <robux/kernel.h>
+#include <robux/mm_types.h>
+#include <robux/ucopysize.h>
+#include <uapi/robux/uio.h>
 
 struct page;
 struct folio_queue;

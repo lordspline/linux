@@ -18,21 +18,21 @@
 #undef DEBUG_IRQ
 #undef DEBUG_LOW
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/syscore_ops.h>
-#include <linux/ratelimit.h>
-#include <linux/pgtable.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/smp.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/syscore_ops.h>
+#include <robux/ratelimit.h>
+#include <robux/pgtable.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 #include <asm/ptrace.h>
 #include <asm/signal.h>
@@ -602,7 +602,7 @@ static void __init mpic_scan_ht_pics(struct mpic *mpic)
 
 #endif /* CONFIG_MPIC_U3_HT_IRQS */
 
-/* Find an mpic associated with a given linux interrupt */
+/* Find an mpic associated with a given robux interrupt */
 static struct mpic *mpic_find(unsigned int irq)
 {
 	if (irq < NR_IRQS_LEGACY)
@@ -611,13 +611,13 @@ static struct mpic *mpic_find(unsigned int irq)
 	return irq_get_chip_data(irq);
 }
 
-/* Determine if the linux irq is an IPI */
+/* Determine if the robux irq is an IPI */
 static unsigned int mpic_is_ipi(struct mpic *mpic, unsigned int src)
 {
 	return (src >= mpic->ipi_vecs[0] && src <= mpic->ipi_vecs[3]);
 }
 
-/* Determine if the linux irq is a timer */
+/* Determine if the robux irq is a timer */
 static unsigned int mpic_is_tm(struct mpic *mpic, unsigned int src)
 {
 	return (src >= mpic->timer_vecs[0] && src <= mpic->timer_vecs[7]);
@@ -661,7 +661,7 @@ static inline void mpic_eoi(struct mpic *mpic)
 }
 
 /*
- * Linux descriptor level callbacks
+ * Robux descriptor level callbacks
  */
 
 

@@ -7,10 +7,10 @@
 
 #define pr_fmt(fmt) "SCMI Notifications POWERCAP - " fmt
 
-#include <linux/bitfield.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/scmi_protocol.h>
+#include <robux/bitfield.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/scmi_protocol.h>
 
 #include <trace/events/scmi.h>
 

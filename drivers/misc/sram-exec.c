@@ -6,11 +6,11 @@
  *	Dave Gerlach
  */
 
-#include <linux/device.h>
-#include <linux/genalloc.h>
-#include <linux/mm.h>
-#include <linux/sram.h>
-#include <linux/set_memory.h>
+#include <robux/device.h>
+#include <robux/genalloc.h>
+#include <robux/mm.h>
+#include <robux/sram.h>
+#include <robux/set_memory.h>
 
 #include <asm/fncpy.h>
 

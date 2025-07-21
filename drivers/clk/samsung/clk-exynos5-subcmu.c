@@ -4,12 +4,12 @@
 // Author: Marek Szyprowski <m.szyprowski@samsung.com>
 // Common Clock Framework support for Exynos5 power-domain dependent clocks
 
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
 
 #include "clk.h"
 #include "clk-exynos5-subcmu.h"

@@ -6,8 +6,8 @@
  * Maxime Ripard <maxime.ripard@free-electrons.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
+#include <robux/clk-provider.h>
+#include <robux/regmap.h>
 
 #include "sun4i_tcon.h"
 #include "sun4i_tcon_dclk.h"

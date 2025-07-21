@@ -7,14 +7,14 @@
  * Author: Suzuki K Poulose <suzuki.poulose@arm.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/amba/bus.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/amba/bus.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "coresight-catu.h"
 #include "coresight-priv.h"

@@ -8,11 +8,11 @@
  * Copyright (C) 2021-2023 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/gpio/machine.h>
-#include <linux/platform_device.h>
-#include <linux/power/bq24190_charger.h>
-#include <linux/property.h>
-#include <linux/regulator/machine.h>
+#include <robux/gpio/machine.h>
+#include <robux/platform_device.h>
+#include <robux/power/bq24190_charger.h>
+#include <robux/property.h>
+#include <robux/regulator/machine.h>
 
 #include "shared-psy-info.h"
 

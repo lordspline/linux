@@ -11,14 +11,14 @@
  * bootup setup stuff..
  */
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/rtc.h>
-#include <linux/fsl_devices.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/time.h>
+#include <robux/rtc.h>
+#include <robux/fsl_devices.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
 
 #include <asm/io.h>
 #include <asm/8xx_immap.h>

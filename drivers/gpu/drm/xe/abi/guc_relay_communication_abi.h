@@ -6,7 +6,7 @@
 #ifndef _ABI_GUC_RELAY_COMMUNICATION_ABI_H
 #define _ABI_GUC_RELAY_COMMUNICATION_ABI_H
 
-#include <linux/build_bug.h>
+#include <robux/build_bug.h>
 
 #include "guc_actions_sriov_abi.h"
 #include "guc_communication_ctb_abi.h"

@@ -8,8 +8,8 @@
 #ifndef _ISHTP_HW_ISH_H_
 #define _ISHTP_HW_ISH_H_
 
-#include <linux/pci.h>
-#include <linux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
 #include "hw-ish-regs.h"
 #include "ishtp-dev.h"
 

@@ -3,7 +3,7 @@
  *  sata_sil.c - Silicon Image SATA
  *
  *  Maintained by:  Tejun Heo <tj@kernel.org>
- *  		    Please ALWAYS copy linux-ide@vger.kernel.org
+ *  		    Please ALWAYS copy robux-ide@vger.kernel.org
  *		    on emails.
  *
  *  Copyright 2003-2005 Red Hat, Inc.
@@ -18,16 +18,16 @@
  *  Other errata and documentation available under NDA.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
-#include <linux/dmi.h>
+#include <robux/libata.h>
+#include <robux/dmi.h>
 
 #define DRV_NAME	"sata_sil"
 #define DRV_VERSION	"2.4"

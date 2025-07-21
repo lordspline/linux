@@ -3,18 +3,18 @@
  *  Copyright (C) 2013 John Crispin <blogic@openwrt.org>
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/machine.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinmux.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/machine.h>
 
 #include <asm/mach-ralink/ralink_regs.h>
 #include <asm/mach-ralink/mt7620.h>

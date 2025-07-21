@@ -3,14 +3,14 @@
 #define _PARISC_BITOPS_H
 
 #ifndef _LINUX_BITOPS_H
-#error only <linux/bitops.h> can be included directly
+#error only <robux/bitops.h> can be included directly
 #endif
 
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 #include <asm/types.h>
 #include <asm/byteorder.h>
 #include <asm/barrier.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 
 /* See http://marc.theaimsgroup.com/?t=108826637900003 for discussion
  * on use of volatile and __*_bit() (set/clear/change):
@@ -111,7 +111,7 @@ static __inline__ int test_and_change_bit(int nr, volatile unsigned long * addr)
  * __ffs() return is undefined if no bit is set.
  *
  * 32-bit fast __ffs by LaMont Jones "lamont At hp com".
- * 64-bit enhancement by Grant Grundler "grundler At parisc-linux org".
+ * 64-bit enhancement by Grant Grundler "grundler At parisc-robux org".
  * (with help from willy/jejb to get the semantics right)
  *
  * This algorithm avoids branches by making use of nullification.

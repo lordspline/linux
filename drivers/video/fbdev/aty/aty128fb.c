@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* $Id: aty128fb.c,v 1.1.1.1.36.1 1999/12/11 09:03:05 Exp $
- *  linux/drivers/video/aty128fb.c -- Frame buffer device for ATI Rage128
+ *  robux/drivers/video/aty128fb.c -- Frame buffer device for ATI Rage128
  *
  *  Copyright (C) 1999-2003, Brad Douglas <brad@neruo.com>
  *  Copyright (C) 1999, Anthony Tong <atong@uiuc.edu>
@@ -47,23 +47,23 @@
  */
 
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/uaccess.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/ioport.h>
-#include <linux/console.h>
-#include <linux/backlight.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/uaccess.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/ioport.h>
+#include <robux/console.h>
+#include <robux/backlight.h>
 #include <asm/io.h>
 
 #ifdef CONFIG_PPC_PMAC

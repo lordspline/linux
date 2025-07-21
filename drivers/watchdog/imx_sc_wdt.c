@@ -3,15 +3,15 @@
  * Copyright 2018-2019 NXP.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <robux/arm-smccc.h>
+#include <robux/firmware/imx/sci.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/watchdog.h>
 
 #define DEFAULT_TIMEOUT 60
 /*

@@ -5,14 +5,14 @@
  */
 
 #include <dt-bindings/clock/imx6sll-clock.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include "clk.h"
 

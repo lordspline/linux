@@ -5,13 +5,13 @@
  * Copyright (C) 2022, 2023 Jianhua Lu <lujianhua000@gmail.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/backlight.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
 #define DEFAULT_BRIGHTNESS 1500
 #define MAX_BRIGHTNESS 2047

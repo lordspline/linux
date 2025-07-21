@@ -23,8 +23,8 @@
 #ifndef __DRM_COLOR_MGMT_H__
 #define __DRM_COLOR_MGMT_H__
 
-#include <linux/ctype.h>
-#include <linux/math64.h>
+#include <robux/ctype.h>
+#include <robux/math64.h>
 #include <drm/drm_property.h>
 
 struct drm_crtc;

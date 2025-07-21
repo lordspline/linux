@@ -3,21 +3,21 @@
  * Block Translation Table
  * Copyright (c) 2014-2015, Intel Corporation.
  */
-#include <linux/highmem.h>
-#include <linux/debugfs.h>
-#include <linux/blkdev.h>
-#include <linux/blk-integrity.h>
-#include <linux/pagemap.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/hdreg.h>
-#include <linux/sizes.h>
-#include <linux/ndctl.h>
-#include <linux/fs.h>
-#include <linux/nd.h>
-#include <linux/backing-dev.h>
-#include <linux/cleanup.h>
+#include <robux/highmem.h>
+#include <robux/debugfs.h>
+#include <robux/blkdev.h>
+#include <robux/blk-integrity.h>
+#include <robux/pagemap.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/hdreg.h>
+#include <robux/sizes.h>
+#include <robux/ndctl.h>
+#include <robux/fs.h>
+#include <robux/nd.h>
+#include <robux/backing-dev.h>
+#include <robux/cleanup.h>
 #include "btt.h"
 #include "nd.h"
 
@@ -1715,7 +1715,7 @@ static void __exit nd_btt_exit(void)
 }
 
 MODULE_ALIAS_ND_DEVICE(ND_DEVICE_BTT);
-MODULE_AUTHOR("Vishal Verma <vishal.l.verma@linux.intel.com>");
+MODULE_AUTHOR("Vishal Verma <vishal.l.verma@robux.intel.com>");
 MODULE_DESCRIPTION("NVDIMM Block Translation Table");
 MODULE_LICENSE("GPL v2");
 module_init(nd_btt_init);

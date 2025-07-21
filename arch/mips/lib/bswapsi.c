@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/export.h>
-#include <linux/compiler.h>
-#include <uapi/linux/swab.h>
+#include <robux/export.h>
+#include <robux/compiler.h>
+#include <uapi/robux/swab.h>
 
 /* To silence -Wmissing-prototypes. */
 unsigned int __bswapsi2(unsigned int u);

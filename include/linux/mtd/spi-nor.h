@@ -6,9 +6,9 @@
 #ifndef __LINUX_MTD_SPI_NOR_H
 #define __LINUX_MTD_SPI_NOR_H
 
-#include <linux/bitops.h>
-#include <linux/mtd/mtd.h>
-#include <linux/spi/spi-mem.h>
+#include <robux/bitops.h>
+#include <robux/mtd/mtd.h>
+#include <robux/spi/spi-mem.h>
 
 /*
  * Note on opcode nomenclature: some opcodes have a format like

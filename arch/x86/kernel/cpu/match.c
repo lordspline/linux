@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <asm/cpu_device_id.h>
 #include <asm/cpufeature.h>
-#include <linux/cpu.h>
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <robux/cpu.h>
+#include <robux/export.h>
+#include <robux/slab.h>
 
 /**
  * x86_match_vendor_cpu_type - helper function to match the hardware defined

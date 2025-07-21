@@ -13,8 +13,8 @@
 
 #ifdef __KERNEL__
 
-#include <linux/types.h>
-#include <linux/device-mapper.h>
+#include <robux/types.h>
+#include <robux/device-mapper.h>
 
 typedef sector_t region_t;
 

@@ -18,10 +18,10 @@
 #include <media/videobuf2-v4l2.h>
 #include <media/videobuf2-vmalloc.h>
 
-#include <linux/platform_device.h>
-#include <linux/jiffies.h>
-#include <linux/math64.h>
-#include <linux/regmap.h>
+#include <robux/platform_device.h>
+#include <robux/jiffies.h>
+#include <robux/math64.h>
+#include <robux/regmap.h>
 
 static bool rtl2832_sdr_emulated_fmt;
 module_param_named(emulated_formats, rtl2832_sdr_emulated_fmt, bool, 0644);

@@ -13,7 +13,7 @@
 #ifndef __LINUX_USB_MCTP_USB_H
 #define __LINUX_USB_MCTP_USB_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct mctp_usb_hdr {
 	__be16	id;

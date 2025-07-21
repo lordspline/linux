@@ -3,10 +3,10 @@
  * poll_state.c - Polling idle state
  */
 
-#include <linux/cpuidle.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/idle.h>
+#include <robux/cpuidle.h>
+#include <robux/sched.h>
+#include <robux/sched/clock.h>
+#include <robux/sched/idle.h>
 
 #define POLL_IDLE_RELAX_COUNT	200
 

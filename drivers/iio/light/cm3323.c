@@ -8,13 +8,13 @@
  *
  * TODO: calibscale to correct the lens factor
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #define CM3323_DRV_NAME "cm3323"
 

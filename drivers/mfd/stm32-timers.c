@@ -4,13 +4,13 @@
  * Author: Benjamin Gaignard <benjamin.gaignard@st.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/mfd/stm32-timers.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reset.h>
+#include <robux/bitfield.h>
+#include <robux/mfd/stm32-timers.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/reset.h>
 
 #define STM32_TIMERS_MAX_REGISTERS	0x3fc
 

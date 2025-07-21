@@ -5,12 +5,12 @@
  * Originally from swsusp.
  */
 
-#include <linux/console.h>
-#include <linux/vt_kern.h>
-#include <linux/kbd_kern.h>
-#include <linux/vt.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/console.h>
+#include <robux/vt_kern.h>
+#include <robux/kbd_kern.h>
+#include <robux/vt.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 #include "power.h"
 
 #define SUSPEND_CONSOLE	(MAX_NR_CONSOLES-1)

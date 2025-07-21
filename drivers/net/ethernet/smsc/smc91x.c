@@ -23,7 +23,7 @@
  * contributors:
  * 	Daris A Nevil <dnevil@snmc.com>
  *      Nicolas Pitre <nico@fluxnic.net>
- *	Russell King <rmk@arm.linux.org.uk>
+ *	Russell King <rmk@arm.robux.org.uk>
  *
  * History:
  *   08/20/00  Arnaldo Melo       fix kfree(skb) in smc_hardware_send_packet
@@ -53,27 +53,27 @@ static const char version[] =
 #endif
 
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/crc32.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/workqueue.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/crc32.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/workqueue.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
 
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
 
 #include <asm/io.h>
 

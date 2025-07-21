@@ -7,21 +7,21 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/dsa/brcm.h>
-#include <linux/etherdevice.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/dsa/brcm.h>
+#include <robux/etherdevice.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/of_mdio.h>
+#include <robux/phy.h>
+#include <robux/phy_fixed.h>
 #include <net/dsa.h>
-#include <linux/clk.h>
+#include <robux/clk.h>
 #include <net/ip.h>
 #include <net/ipv6.h>
 

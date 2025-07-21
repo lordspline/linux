@@ -1,9 +1,9 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 /*
  * Copyright (c) 2018 Hisilicon Limited.
  */
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 #include <rdma/ib_umem.h>
 #include <rdma/uverbs_ioctl.h>
 #include "hns_roce_device.h"

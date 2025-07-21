@@ -7,13 +7,13 @@
  * Andrzej Hajda <a.hajda@samsung.com>
  */
 
-#include <linux/sizes.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/media.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
+#include <robux/sizes.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/media.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
 
 #include "s5c73m3.h"
 

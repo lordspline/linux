@@ -31,19 +31,19 @@
  *           Benny <benny@hostmobility.com>
  */
 
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/pm.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/gameport.h>
-#include <linux/mutex.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/vmalloc.h>
-#include <linux/io.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/pm.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/gameport.h>
+#include <robux/mutex.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/firmware.h>
+#include <robux/vmalloc.h>
+#include <robux/io.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

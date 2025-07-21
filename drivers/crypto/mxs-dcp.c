@@ -5,16 +5,16 @@
  * Copyright (C) 2013 Marek Vasut <marex@denx.de>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/stmp_device.h>
-#include <linux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/stmp_device.h>
+#include <robux/clk.h>
 #include <soc/fsl/dcp.h>
 
 #include <crypto/aes.h>
@@ -123,7 +123,7 @@ struct dcp_export_state {
 
 /*
  * There can even be only one instance of the MXS DCP due to the
- * design of Linux Crypto API.
+ * design of Robux Crypto API.
  */
 static struct dcp *global_sdcp;
 

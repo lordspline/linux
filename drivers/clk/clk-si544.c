@@ -5,13 +5,13 @@
  * Author: Mike Looijmans <mike.looijmans@topic.nl>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 /* I2C registers (decimal as in datasheet) */
 #define SI544_REG_CONTROL	7

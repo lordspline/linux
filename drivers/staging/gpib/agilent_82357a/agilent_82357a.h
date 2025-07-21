@@ -4,12 +4,12 @@
  *   copyright            : (C) 2004 by Frank Mori Hess                    *
  ***************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/completion.h>
-#include <linux/usb.h>
-#include <linux/timer.h>
-#include <linux/compiler_attributes.h>
+#include <robux/kernel.h>
+#include <robux/mutex.h>
+#include <robux/completion.h>
+#include <robux/usb.h>
+#include <robux/timer.h>
+#include <robux/compiler_attributes.h>
 #include "gpibP.h"
 #include "tms9914.h"
 

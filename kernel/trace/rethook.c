@@ -2,12 +2,12 @@
 
 #define pr_fmt(fmt) "rethook: " fmt
 
-#include <linux/bug.h>
-#include <linux/kallsyms.h>
-#include <linux/kprobes.h>
-#include <linux/preempt.h>
-#include <linux/rethook.h>
-#include <linux/slab.h>
+#include <robux/bug.h>
+#include <robux/kallsyms.h>
+#include <robux/kprobes.h>
+#include <robux/preempt.h>
+#include <robux/rethook.h>
+#include <robux/slab.h>
 
 /* Return hook list (shadow stack by list) */
 

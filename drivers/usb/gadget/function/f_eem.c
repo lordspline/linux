@@ -7,12 +7,12 @@
  * Copyright (C) 2009 EF Johnson Technologies
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/etherdevice.h>
-#include <linux/crc32.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/etherdevice.h>
+#include <robux/crc32.h>
+#include <robux/slab.h>
 
 #include "u_ether.h"
 #include "u_ether_configfs.h"

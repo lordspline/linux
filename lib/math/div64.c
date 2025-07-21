@@ -18,12 +18,12 @@
  * or by defining a preprocessor macro in arch/include/asm/div64.h.
  */
 
-#include <linux/bitops.h>
-#include <linux/export.h>
-#include <linux/math.h>
-#include <linux/math64.h>
-#include <linux/minmax.h>
-#include <linux/log2.h>
+#include <robux/bitops.h>
+#include <robux/export.h>
+#include <robux/math.h>
+#include <robux/math64.h>
+#include <robux/minmax.h>
+#include <robux/log2.h>
 
 /* Not needed on 64bit architectures */
 #if BITS_PER_LONG == 32

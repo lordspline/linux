@@ -5,7 +5,7 @@
 #if !defined(_TRACE_PAGE_FAULT_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_PAGE_FAULT_H
 
-#include <linux/tracepoint.h>
+#include <robux/tracepoint.h>
 
 DECLARE_EVENT_CLASS(exceptions,
 

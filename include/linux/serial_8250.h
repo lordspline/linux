@@ -1,16 +1,16 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- *  linux/include/linux/serial_8250.h
+ *  robux/include/robux/serial_8250.h
  *
  *  Copyright (C) 2004 Russell King
  */
 #ifndef _LINUX_SERIAL_8250_H
 #define _LINUX_SERIAL_8250_H
 
-#include <linux/errno.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/platform_device.h>
+#include <robux/errno.h>
+#include <robux/serial_core.h>
+#include <robux/serial_reg.h>
+#include <robux/platform_device.h>
 
 struct uart_8250_port;
 

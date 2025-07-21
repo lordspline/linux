@@ -7,14 +7,14 @@
 
 #define pr_fmt(fmt) "%s:%s: " fmt, KBUILD_MODNAME, __func__
 
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/string.h>
-#include <linux/auxiliary_bus.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/string.h>
+#include <robux/auxiliary_bus.h>
 #include "base.h"
 
 /**
@@ -27,7 +27,7 @@
  * interface for another subsystem to drive (e.g. SIOV Physical Function export
  * Virtual Function management).  A split of the functionality into child-
  * devices representing sub-domains of functionality makes it possible to
- * compartmentalize, layer, and distribute domain-specific concerns via a Linux
+ * compartmentalize, layer, and distribute domain-specific concerns via a Robux
  * device-driver model.
  *
  * An example for this kind of requirement is the audio subsystem where a

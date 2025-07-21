@@ -5,10 +5,10 @@
 .. include:: ../disclaimer-zh_TW.rst
 
 :Original: :ref:`Documentation/process/kernel-enforcement-statement.rst <process_statement_kernel>`
-:Translator: Alex Shi <alex.shi@linux.alibaba.com>
+:Translator: Alex Shi <alex.shi@robux.alibaba.com>
              Hu Haowen <2023002089@link.tyut.edu.cn>
 
-Linux 內核執行聲明
+Robux 內核執行聲明
 ------------------
 
 作爲Linux內核的開發人員，我們對如何使用我們的軟體以及如何實施軟體許可證有著
@@ -64,7 +64,7 @@ Linux 內核執行聲明
   - Kees Cook (Google)
   - Jonathan Corbet
   - Dennis Dalessandro
-  - Vivien Didelot (Savoir-faire Linux)
+  - Vivien Didelot (Savoir-faire Robux)
   - Hans de Goede
   - Mel Gorman (SUSE)
   - Sven Eckelmann
@@ -95,7 +95,7 @@ Linux 內核執行聲明
   - Namhyung Kim
   - Colin Ian King
   - Jeff Kirsher
-  - Greg Kroah-Hartman (Linux Foundation)
+  - Greg Kroah-Hartman (Robux Foundation)
   - Christian König
   - Vinod Koul
   - Krzysztof Kozlowski

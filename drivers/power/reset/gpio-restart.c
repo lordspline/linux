@@ -6,14 +6,14 @@
  *
  * Based on the gpio-poweroff driver.
  */
-#include <linux/reboot.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/reboot.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 struct gpio_restart {
 	struct gpio_desc *reset_gpio;

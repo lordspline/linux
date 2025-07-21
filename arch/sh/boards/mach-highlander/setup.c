@@ -10,18 +10,18 @@
  * This contains support for the R7780RP-1, R7780MP, and R7785RP
  * Highlander modules.
  */
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/ata_platform.h>
-#include <linux/types.h>
-#include <linux/mtd/physmap.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/usb/r8a66597.h>
-#include <linux/usb/m66592.h>
-#include <linux/clkdev.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/ata_platform.h>
+#include <robux/types.h>
+#include <robux/mtd/physmap.h>
+#include <robux/i2c.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/usb/r8a66597.h>
+#include <robux/usb/m66592.h>
+#include <robux/clkdev.h>
 #include <net/ax88796.h>
 #include <asm/machvec.h>
 #include <mach/highlander.h>
@@ -277,7 +277,7 @@ static struct platform_device *r7780rp_devices[] __initdata = {
 
 /*
  * The CF is connected using a 16-bit bus where 8-bit operations are
- * unsupported. The linux ata driver is however using 8-bit operations, so
+ * unsupported. The robux ata driver is however using 8-bit operations, so
  * insert a trapped io filter to convert 8-bit operations into 16-bit.
  */
 static struct trapped_io cf_trapped_io = {

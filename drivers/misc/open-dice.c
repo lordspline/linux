@@ -19,12 +19,12 @@
  *     close(fd);
  */
 
-#include <linux/io.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/miscdevice.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
 
 #define DRIVER_NAME "open-dice"
 

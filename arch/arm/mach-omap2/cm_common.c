@@ -8,12 +8,12 @@
  * XXX This code should eventually be moved to a CM driver.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/bug.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/bug.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include "cm2xxx.h"
 #include "cm3xxx.h"

@@ -7,12 +7,12 @@
  * 2006 (c) MontaVista Software, Inc.
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/i2c.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/i2c.h>
 
 #ifdef CONFIG_I2C_BOARDINFO
 /* The below is from fsl_soc.c.  It's copied because since there are no

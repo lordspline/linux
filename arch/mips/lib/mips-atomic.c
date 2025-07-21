@@ -10,10 +10,10 @@
  */
 #include <asm/irqflags.h>
 #include <asm/hazards.h>
-#include <linux/compiler.h>
-#include <linux/preempt.h>
-#include <linux/export.h>
-#include <linux/stringify.h>
+#include <robux/compiler.h>
+#include <robux/preempt.h>
+#include <robux/export.h>
+#include <robux/stringify.h>
 
 #if !defined(CONFIG_CPU_HAS_DIEI)
 

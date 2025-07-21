@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/pci.c
+ *	robux/arch/alpha/kernel/pci.c
  *
  * Extruded from code written by
  *	Dave Rusling (david.rusling@reo.mts.dec.com)
@@ -13,16 +13,16 @@
  * Nov 2000, Ivan Kokshaysky <ink@jurassic.park.msu.ru>
  *	     PCI-PCI bridges cleanup
  */
-#include <linux/string.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/memblock.h>
-#include <linux/module.h>
-#include <linux/cache.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
+#include <robux/string.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/memblock.h>
+#include <robux/module.h>
+#include <robux/cache.h>
+#include <robux/slab.h>
+#include <robux/syscalls.h>
 #include <asm/machvec.h>
 
 #include "proto.h"

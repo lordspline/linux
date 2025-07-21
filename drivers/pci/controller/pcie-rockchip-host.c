@@ -11,27 +11,27 @@
  * ARM PCI Host generic driver.
  */
 
-#include <linux/bitrev.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_pci.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/regmap.h>
+#include <robux/bitrev.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/irq.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_pci.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/regmap.h>
 
 #include "../pci.h"
 #include "pcie-rockchip.h"

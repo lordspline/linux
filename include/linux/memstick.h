@@ -8,9 +8,9 @@
 #ifndef _MEMSTICK_H
 #define _MEMSTICK_H
 
-#include <linux/workqueue.h>
-#include <linux/scatterlist.h>
-#include <linux/device.h>
+#include <robux/workqueue.h>
+#include <robux/scatterlist.h>
+#include <robux/device.h>
 
 /*** Hardware based structures ***/
 

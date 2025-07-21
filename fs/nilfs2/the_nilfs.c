@@ -8,12 +8,12 @@
  *
  */
 
-#include <linux/buffer_head.h>
-#include <linux/slab.h>
-#include <linux/blkdev.h>
-#include <linux/backing-dev.h>
-#include <linux/log2.h>
-#include <linux/crc32.h>
+#include <robux/buffer_head.h>
+#include <robux/slab.h>
+#include <robux/blkdev.h>
+#include <robux/backing-dev.h>
+#include <robux/log2.h>
+#include <robux/crc32.h>
 #include "nilfs.h"
 #include "segment.h"
 #include "alloc.h"

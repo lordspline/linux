@@ -6,19 +6,19 @@
  *	Author: Tony Makkiel <tony.makkiel@daqri.com>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/leds-lp3952.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/leds-lp3952.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
 
 static int lp3952_register_write(struct i2c_client *client, u8 reg, u8 val)
 {

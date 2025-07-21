@@ -11,10 +11,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/jffs2.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/jffs2.h>
 #include "nodelist.h"
 
 /* These are initialised to NULL in the kernel startup code.

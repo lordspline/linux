@@ -2,14 +2,14 @@
 #ifndef _LINUX_SEQ_FILE_H
 #define _LINUX_SEQ_FILE_H
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/string_helpers.h>
-#include <linux/bug.h>
-#include <linux/mutex.h>
-#include <linux/nodemask.h>
-#include <linux/fs.h>
-#include <linux/cred.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/string_helpers.h>
+#include <robux/bug.h>
+#include <robux/mutex.h>
+#include <robux/nodemask.h>
+#include <robux/fs.h>
+#include <robux/cred.h>
 
 struct seq_operations;
 

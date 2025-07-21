@@ -9,12 +9,12 @@
 #ifndef _PHY_EXYNOS_USB2_H
 #define _PHY_EXYNOS_USB2_H
 
-#include <linux/clk.h>
-#include <linux/phy/phy.h>
-#include <linux/device.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/phy/phy.h>
+#include <robux/device.h>
+#include <robux/regmap.h>
+#include <robux/spinlock.h>
+#include <robux/regulator/consumer.h>
 
 #define KHZ 1000
 #define MHZ (KHZ * KHZ)

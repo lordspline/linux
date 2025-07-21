@@ -7,14 +7,14 @@
  * Copyright (C) 2009 Simon Guinot <sguinot@lacie.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/irq.h>
-#include <linux/leds.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/pci.h>
+#include <robux/irq.h>
+#include <robux/leds.h>
+#include <robux/gpio.h>
+#include <robux/gpio/machine.h>
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/pci.h>

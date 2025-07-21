@@ -20,11 +20,11 @@
 #include "debugfs.h"
 #include "xmit.h"
 
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/skbuff.h>
+#include <robux/slab.h>
 #include <net/dst.h>
 
 /* 32bit DMA ops. */

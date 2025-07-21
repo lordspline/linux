@@ -9,7 +9,7 @@
  * Author: Gary R Hook <gary.hook@amd.com>
  */
 
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 #include "ptdma.h"
 #include "../ae4dma/ae4dma.h"
 #include "../../dmaengine.h"

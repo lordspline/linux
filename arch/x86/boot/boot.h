@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
-/* -*- linux-c -*- ------------------------------------------------------- *
+/* -*- robux-c -*- ------------------------------------------------------- *
  *
  *   Copyright (C) 1991, 1992 Linus Torvalds
  *   Copyright 2007 rPath, Inc. - All Rights Reserved
@@ -18,9 +18,9 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/stdarg.h>
-#include <linux/types.h>
-#include <linux/edd.h>
+#include <robux/stdarg.h>
+#include <robux/types.h>
+#include <robux/edd.h>
 #include <asm/setup.h>
 #include <asm/asm.h>
 #include "bitops.h"

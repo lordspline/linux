@@ -6,15 +6,15 @@
  * Maxime Ripard <maxime.ripard@free-electrons.com>
  */
 
-#include <linux/component.h>
-#include <linux/ioport.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/component.h>
+#include <robux/ioport.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

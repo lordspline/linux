@@ -7,8 +7,8 @@
  * Contact: Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/device.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/slab.h>
 
 #include <media/v4l2-subdev.h>
 

@@ -9,8 +9,8 @@
 #ifndef _DW_EDMA_H
 #define _DW_EDMA_H
 
-#include <linux/device.h>
-#include <linux/dmaengine.h>
+#include <robux/device.h>
+#include <robux/dmaengine.h>
 
 #define EDMA_MAX_WR_CH                                  8
 #define EDMA_MAX_RD_CH                                  8

@@ -6,7 +6,7 @@
  * Authors:
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@robux.intel.com>
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  *
  * Contributors:
@@ -18,15 +18,15 @@
 #ifndef __T7XX_HIF_CLDMA_H__
 #define __T7XX_HIF_CLDMA_H__
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/dmapool.h>
-#include <linux/pci.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/dmapool.h>
+#include <robux/pci.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
+#include <robux/types.h>
 
 #include "t7xx_cldma.h"
 #include "t7xx_pci.h"

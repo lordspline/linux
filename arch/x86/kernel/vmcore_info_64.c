@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/vmcore_info.h>
-#include <linux/pgtable.h>
+#include <robux/vmcore_info.h>
+#include <robux/pgtable.h>
 
 #include <asm/setup.h>
 

@@ -8,14 +8,14 @@
  * configfs Copyright (C) 2005 Oracle.  All rights reserved.
  */
 
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/vmalloc.h>
-#include <linux/uaccess.h>
-#include <linux/uio.h>
-#include <linux/configfs.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/vmalloc.h>
+#include <robux/uaccess.h>
+#include <robux/uio.h>
+#include <robux/configfs.h>
 #include "configfs_internal.h"
 
 /*

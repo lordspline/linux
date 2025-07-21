@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI_ASM_X86_SETUP_DATA_H
 #define _UAPI_ASM_X86_SETUP_DATA_H
 
@@ -21,7 +21,7 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /* extensible setup data list node */
 struct setup_data {

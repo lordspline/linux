@@ -6,16 +6,16 @@
  * Author: Chanwoo Choi <cw00.choi@samsung.com>
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/extcon-provider.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/extcon-provider.h>
 
 #include "extcon-sm5502.h"
 

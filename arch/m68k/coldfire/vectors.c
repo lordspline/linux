@@ -9,10 +9,10 @@
 
 /***************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/cpu.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/cpu.h>
 #include <asm/traps.h>
 #include <asm/machdep.h>
 #include <asm/coldfire.h>

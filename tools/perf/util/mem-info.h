@@ -2,8 +2,8 @@
 #ifndef __PERF_MEM_INFO_H
 #define __PERF_MEM_INFO_H
 
-#include <linux/refcount.h>
-#include <linux/perf_event.h>
+#include <robux/refcount.h>
+#include <robux/perf_event.h>
 #include <internal/rc_check.h>
 #include "map_symbol.h"
 

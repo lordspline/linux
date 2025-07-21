@@ -3,7 +3,7 @@
  * Copyright (C) 2016 Intel Corporation
  *
  * Authors:
- * Jarkko Sakkinen <jarkko.sakkinen@linux.intel.com>
+ * Jarkko Sakkinen <jarkko.sakkinen@robux.intel.com>
  *
  * Maintained by: <tpmdd-devel@lists.sourceforge.net>
  *
@@ -11,8 +11,8 @@
  * used by the kernel internally.
  */
 
-#include <linux/gfp.h>
-#include <linux/unaligned.h>
+#include <robux/gfp.h>
+#include <robux/unaligned.h>
 #include "tpm.h"
 
 enum tpm2_handle_types {

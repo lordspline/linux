@@ -1,4 +1,4 @@
 #define ATOMIC64_EXPORT EXPORT_SYMBOL
 
-#include <linux/export.h>
-#include <linux/atomic.h>
+#include <robux/export.h>
+#include <robux/atomic.h>

@@ -5,9 +5,9 @@
  *
  ******************************************************************************/
 #include <drv_types.h>
-#include <linux/jiffies.h>
+#include <robux/jiffies.h>
 #include <net/cfg80211.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 void rtw_os_free_recvframe(union recv_frame *precvframe)
 {

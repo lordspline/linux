@@ -15,17 +15,17 @@
 #include <asm/processor.h>
 #include <asm/coprocessor.h>
 
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/thread_info.h>
-#include <linux/ptrace.h>
-#include <linux/mm.h>
-#include <linux/kbuild.h>
-#include <linux/suspend.h>
+#include <robux/types.h>
+#include <robux/stddef.h>
+#include <robux/thread_info.h>
+#include <robux/ptrace.h>
+#include <robux/mm.h>
+#include <robux/kbuild.h>
+#include <robux/suspend.h>
 
 #include <asm/ptrace.h>
 #include <asm/traps.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 int main(void)
 {

@@ -7,13 +7,13 @@
  *  Author: Jeff Xu <jeffxu@chromium.org>
  */
 
-#include <linux/mempolicy.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/mm_inline.h>
-#include <linux/mmu_context.h>
-#include <linux/syscalls.h>
-#include <linux/sched.h>
+#include <robux/mempolicy.h>
+#include <robux/mman.h>
+#include <robux/mm.h>
+#include <robux/mm_inline.h>
+#include <robux/mmu_context.h>
+#include <robux/syscalls.h>
+#include <robux/sched.h>
 #include "internal.h"
 
 static inline void set_vma_sealed(struct vm_area_struct *vma)

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	IPv6 over IPv4 tunnel device - Simple Internet Transition (SIT)
- *	Linux INET6 implementation
+ *	Robux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
@@ -15,22 +15,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/in6.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/icmp.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/init.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/if_ether.h>
+#include <robux/module.h>
+#include <robux/capability.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/socket.h>
+#include <robux/sockios.h>
+#include <robux/net.h>
+#include <robux/in6.h>
+#include <robux/netdevice.h>
+#include <robux/if_arp.h>
+#include <robux/icmp.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/init.h>
+#include <robux/netfilter_ipv4.h>
+#include <robux/if_ether.h>
 
 #include <net/sock.h>
 #include <net/snmp.h>

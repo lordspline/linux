@@ -5,17 +5,17 @@
 // Copyright (C) 2016 Renesas Solutions Corp.
 // Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
 //
-// based on ${LINUX}/sound/soc/generic/simple-card.c
+// based on ${ROBUX}/sound/soc/generic/simple-card.c
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
 #include <sound/graph_card.h>
 
 #define DPCM_SELECTABLE 1

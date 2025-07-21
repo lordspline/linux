@@ -27,9 +27,9 @@
 #include <sys/stat.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
-#include <linux/ctype.h>
+#include <robux/string.h>
+#include <robux/zalloc.h>
+#include <robux/ctype.h>
 
 #define MAXNAME (256)
 

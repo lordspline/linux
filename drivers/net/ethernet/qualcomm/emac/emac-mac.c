@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2013-2016, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2013-2016, The Robux Foundation. All rights reserved.
  */
 
 /* Qualcomm Technologies, Inc. EMAC Ethernet Controller MAC layer support
  */
 
-#include <linux/tcp.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/crc32.h>
-#include <linux/if_vlan.h>
-#include <linux/jiffies.h>
-#include <linux/phy.h>
-#include <linux/of.h>
+#include <robux/tcp.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
+#include <robux/crc32.h>
+#include <robux/if_vlan.h>
+#include <robux/jiffies.h>
+#include <robux/phy.h>
+#include <robux/of.h>
 #include <net/ip6_checksum.h>
 #include "emac.h"
 #include "emac-sgmii.h"

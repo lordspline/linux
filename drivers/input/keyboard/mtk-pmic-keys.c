@@ -5,20 +5,20 @@
  * Author: Chen Zhong <chen.zhong@mediatek.com>
  */
 
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/mt6323/registers.h>
-#include <linux/mfd/mt6331/registers.h>
-#include <linux/mfd/mt6357/registers.h>
-#include <linux/mfd/mt6358/registers.h>
-#include <linux/mfd/mt6397/core.h>
-#include <linux/mfd/mt6397/registers.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mfd/mt6323/registers.h>
+#include <robux/mfd/mt6331/registers.h>
+#include <robux/mfd/mt6357/registers.h>
+#include <robux/mfd/mt6358/registers.h>
+#include <robux/mfd/mt6397/core.h>
+#include <robux/mfd/mt6397/registers.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define MTK_PMIC_RST_DU_MASK	GENMASK(9, 8)
 #define MTK_PMIC_PWRKEY_RST	BIT(6)
@@ -360,10 +360,10 @@ static int mtk_pmic_keys_probe(struct platform_device *pdev)
 		}
 
 		error = of_property_read_u32(child,
-			"linux,keycodes", &keys->keys[index].keycode);
+			"robux,keycodes", &keys->keys[index].keycode);
 		if (error) {
 			dev_err(keys->dev,
-				"failed to read key:%d linux,keycode property: %d\n",
+				"failed to read key:%d robux,keycode property: %d\n",
 				index, error);
 			return error;
 		}

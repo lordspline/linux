@@ -1,14 +1,14 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- *  linux/fs/ufs/util.h
+ *  robux/fs/ufs/util.h
  *
  * Copyright (C) 1998 
  * Daniel Pirkl <daniel.pirkl@email.cz>
  * Charles University, Faculty of Mathematics and Physics
  */
 
-#include <linux/buffer_head.h>
-#include <linux/fs.h>
+#include <robux/buffer_head.h>
+#include <robux/fs.h>
 #include "swab.h"
 
 /*

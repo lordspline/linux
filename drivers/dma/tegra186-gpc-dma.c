@@ -5,19 +5,19 @@
  * Copyright (c) 2014-2022, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/bitfield.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/iommu.h>
+#include <robux/iopoll.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
 #include <dt-bindings/memory/tegra186-mc.h>
 #include "virt-dma.h"
 

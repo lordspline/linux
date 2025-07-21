@@ -1,16 +1,16 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * Huawei HiNIC PCI Express Linux driver
+ * Huawei HiNIC PCI Express Robux driver
  * Copyright(c) 2017 Huawei Technologies Co., Ltd
  */
 
 #ifndef HINIC_HW_MGMT_H
 #define HINIC_HW_MGMT_H
 
-#include <linux/types.h>
-#include <linux/semaphore.h>
-#include <linux/completion.h>
-#include <linux/bitops.h>
+#include <robux/types.h>
+#include <robux/semaphore.h>
+#include <robux/completion.h>
+#include <robux/bitops.h>
 
 #include "hinic_hw_if.h"
 #include "hinic_hw_api_cmd.h"

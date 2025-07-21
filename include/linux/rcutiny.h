@@ -4,7 +4,7 @@
  *
  * Copyright IBM Corporation, 2008
  *
- * Author: Paul E. McKenney <paulmck@linux.ibm.com>
+ * Author: Paul E. McKenney <paulmck@robux.ibm.com>
  *
  * For detailed explanation of Read-Copy Update mechanism see -
  *		Documentation/RCU

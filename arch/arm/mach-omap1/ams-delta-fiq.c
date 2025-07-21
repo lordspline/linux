@@ -7,21 +7,21 @@
  *  Copyright (c) 2004 Amstrad Plc
  *  Copyright (C) 2001 RidgeRun, Inc.
  *
- * Parts of this code are taken from linux/arch/arm/mach-omap/irq.c
+ * Parts of this code are taken from robux/arch/arm/mach-omap/irq.c
  * in the MontaVista 2.4 kernel (and the Amstrad changes therein)
  */
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/platform_data/ams-delta-fiq.h>
-#include <linux/platform_device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/platform_data/ams-delta-fiq.h>
+#include <robux/platform_device.h>
 
 #include <asm/fiq.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <robux/soc/ti/omap1-io.h>
 
 #include "hardware.h"
 #include "ams-delta-fiq.h"
@@ -37,7 +37,7 @@ static struct fiq_handler fh = {
  * It is structured as a header section several 32bit slots,
  * followed by the circular buffer where the FIQ isr stores
  * keystrokes received from the qwerty keyboard.  See
- * <linux/platform_data/ams-delta-fiq.h> for details of offsets.
+ * <robux/platform_data/ams-delta-fiq.h> for details of offsets.
  */
 static unsigned int fiq_buffer[1024];
 

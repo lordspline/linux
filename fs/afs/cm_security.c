@@ -5,7 +5,7 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/slab.h>
+#include <robux/slab.h>
 #include <crypto/krb5.h>
 #include "internal.h"
 #include "afs_cm.h"

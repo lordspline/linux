@@ -8,13 +8,13 @@
  * Carsten Langgaard, carstenl@mips.com
  * Copyright (C) 2002 MIPS Technologies, Inc.  All rights reserved.
  */
-#include <linux/cpu_pm.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/export.h>
+#include <robux/cpu_pm.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/smp.h>
+#include <robux/mm.h>
+#include <robux/hugetlb.h>
+#include <robux/export.h>
 
 #include <asm/cpu.h>
 #include <asm/cpu-type.h>

@@ -3,18 +3,18 @@
  * Polling/bitbanging SPI host controller controller driver utilities
  */
 
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/time64.h>
+#include <robux/spinlock.h>
+#include <robux/workqueue.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/time64.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_bitbang.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi_bitbang.h>
 
 #define SPI_BITBANG_CS_DELAY	100
 

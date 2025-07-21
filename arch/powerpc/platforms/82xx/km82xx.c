@@ -9,16 +9,16 @@
  * Author: Scott Wood <scottwood@freescale.com>
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/fsl_devices.h>
-#include <linux/of_platform.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/fsl_devices.h>
+#include <robux/of_platform.h>
 
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/cpm2.h>
 #include <asm/udbg.h>
 #include <asm/machdep.h>
-#include <linux/time.h>
+#include <robux/time.h>
 
 #include <sysdev/fsl_soc.h>
 #include <sysdev/cpm2_pic.h>

@@ -26,20 +26,20 @@
  * <zaitcev> Sounds reasonable
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/pci.h>		/* struct pci_dev */
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/scatterlist.h>
-#include <linux/dma-map-ops.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/ioport.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/pci.h>		/* struct pci_dev */
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/scatterlist.h>
+#include <robux/dma-map-ops.h>
+#include <robux/of.h>
 
 #include <asm/io.h>
 #include <asm/vaddrs.h>

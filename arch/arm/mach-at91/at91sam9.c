@@ -6,8 +6,8 @@
  *                2011 Nicolas Ferre <nicolas.ferre@atmel.com>
  */
 
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
 
 #include <asm/mach/arch.h>
 #include <asm/system_misc.h>

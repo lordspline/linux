@@ -2,17 +2,17 @@
 #ifndef _LINUX_FAULT_INJECT_H
 #define _LINUX_FAULT_INJECT_H
 
-#include <linux/err.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/types.h>
 
 struct dentry;
 struct kmem_cache;
 
 #ifdef CONFIG_FAULT_INJECTION
 
-#include <linux/atomic.h>
-#include <linux/configfs.h>
-#include <linux/ratelimit.h>
+#include <robux/atomic.h>
+#include <robux/configfs.h>
+#include <robux/ratelimit.h>
 
 /*
  * For explanation of the elements of this struct, see

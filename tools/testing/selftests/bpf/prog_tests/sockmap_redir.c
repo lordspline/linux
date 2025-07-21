@@ -30,13 +30,13 @@
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <sys/un.h>
-#include <linux/string.h>
-#include <linux/vm_sockets.h>
+#include <robux/string.h>
+#include <robux/vm_sockets.h>
 
 #include <bpf/bpf.h>
 #include <bpf/libbpf.h>
 
-#include "linux/const.h"
+#include "robux/const.h"
 #include "test_progs.h"
 #include "sockmap_helpers.h"
 #include "test_sockmap_redir.skel.h"

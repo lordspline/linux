@@ -4,11 +4,11 @@
  *
  * Copyright (c) 2008 Marvell Semiconductor
  *
- * Copyright (c) 2016-2017 Savoir-faire Linux Inc.
+ * Copyright (c) 2016-2017 Savoir-faire Robux Inc.
  *	Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  */
 
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 
 #include "chip.h"
 #include "global1.h"

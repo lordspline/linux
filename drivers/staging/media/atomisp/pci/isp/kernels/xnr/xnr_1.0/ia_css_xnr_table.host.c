@@ -4,7 +4,7 @@
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include <linux/string.h> /* for memcpy() */
+#include <robux/string.h> /* for memcpy() */
 
 #include <type_support.h>
 #include "system_global.h"

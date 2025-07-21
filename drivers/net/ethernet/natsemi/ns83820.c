@@ -2,7 +2,7 @@
 #define VERSION "0.23"
 /* ns83820.c by Benjamin LaHaise with contributions.
  *
- * Questions/comments/discussion to linux-ns83820@kvack.org.
+ * Questions/comments/discussion to robux-ns83820@kvack.org.
  *
  * $Revision: 1.34.2.23 $
  *
@@ -81,31 +81,31 @@
 //#define dprintk		printk
 #define dprintk(x...)		do { } while (0)
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ip.h>	/* for iph */
-#include <linux/in.h>	/* for IPPROTO_... */
-#include <linux/compiler.h>
-#include <linux/prefetch.h>
-#include <linux/ethtool.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/if_vlan.h>
-#include <linux/rtnetlink.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/delay.h>
+#include <robux/workqueue.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ip.h>	/* for iph */
+#include <robux/in.h>	/* for IPPROTO_... */
+#include <robux/compiler.h>
+#include <robux/prefetch.h>
+#include <robux/ethtool.h>
+#include <robux/sched.h>
+#include <robux/timer.h>
+#include <robux/if_vlan.h>
+#include <robux/rtnetlink.h>
+#include <robux/jiffies.h>
+#include <robux/slab.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #define DRV_NAME "ns83820"
 

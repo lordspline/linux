@@ -10,10 +10,10 @@
 #ifndef _NILFS_SEGMENT_H
 #define _NILFS_SEGMENT_H
 
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/buffer_head.h>
-#include <linux/workqueue.h>
+#include <robux/types.h>
+#include <robux/fs.h>
+#include <robux/buffer_head.h>
+#include <robux/workqueue.h>
 #include "nilfs.h"
 
 struct nilfs_root;

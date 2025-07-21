@@ -14,14 +14,14 @@
  * Author: Wadim Egorov <w.egorov@phytec.de>
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/mfd/rk808.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/mfd/rk808.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/gpio/consumer.h>
 
 /* Field definitions */
 #define RK808_BUCK_VSEL_MASK	0x3f

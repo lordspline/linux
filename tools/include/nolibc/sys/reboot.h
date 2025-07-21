@@ -12,7 +12,7 @@
 
 #include "../sys.h"
 
-#include <linux/reboot.h>
+#include <robux/reboot.h>
 
 /*
  * int reboot(int cmd);

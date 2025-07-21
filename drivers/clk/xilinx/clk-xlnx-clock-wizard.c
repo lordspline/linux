@@ -8,18 +8,18 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/err.h>
-#include <linux/iopoll.h>
+#include <robux/bitfield.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/overflow.h>
+#include <robux/err.h>
+#include <robux/iopoll.h>
 
 #define WZRD_NUM_OUTPUTS	7
 #define WZRD_ACLK_MAX_FREQ	250000000UL

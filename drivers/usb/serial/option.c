@@ -28,16 +28,16 @@
 #define DRIVER_AUTHOR "Matthias Urlichs <smurf@smurf.noris.de>"
 #define DRIVER_DESC "USB Driver for GSM modems"
 
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/errno.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <robux/kernel.h>
+#include <robux/jiffies.h>
+#include <robux/errno.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/bitops.h>
+#include <robux/usb.h>
+#include <robux/usb/serial.h>
 #include "usb-wwan.h"
 
 /* Function prototypes */
@@ -101,7 +101,7 @@ static void option_instat_callback(struct urb *urb);
  * NOVATEL WIRELESS PRODUCTS
  *
  * Note from Novatel Wireless:
- * If your Novatel modem does not work on linux, don't
+ * If your Novatel modem does not work on robux, don't
  * change the option module, but check our website. If
  * that does not help, contact ddeschepper@nvtl.com
 */

@@ -453,7 +453,7 @@
 &keypad {
 	samsung,keypad-num-rows = <3>;
 	samsung,keypad-num-columns = <2>;
-	linux,input-no-autorepeat;
+	robux,input-no-autorepeat;
 	wakeup-source;
 	pinctrl-0 = <&keypad_rows &keypad_cols>;
 	pinctrl-names = "default";
@@ -462,37 +462,37 @@
 	key-home {
 		keypad,row = <0>;
 		keypad,column = <0>;
-		linux,code = <KEY_HOME>;
+		robux,code = <KEY_HOME>;
 	};
 
 	key-down {
 		keypad,row = <0>;
 		keypad,column = <1>;
-		linux,code = <KEY_DOWN>;
+		robux,code = <KEY_DOWN>;
 	};
 
 	key-up {
 		keypad,row = <1>;
 		keypad,column = <0>;
-		linux,code = <KEY_UP>;
+		robux,code = <KEY_UP>;
 	};
 
 	key-menu {
 		keypad,row = <1>;
 		keypad,column = <1>;
-		linux,code = <KEY_MENU>;
+		robux,code = <KEY_MENU>;
 	};
 
 	key-back {
 		keypad,row = <2>;
 		keypad,column = <0>;
-		linux,code = <KEY_BACK>;
+		robux,code = <KEY_BACK>;
 	};
 
 	key-enter {
 		keypad,row = <2>;
 		keypad,column = <1>;
-		linux,code = <KEY_ENTER>;
+		robux,code = <KEY_ENTER>;
 	};
 };
 

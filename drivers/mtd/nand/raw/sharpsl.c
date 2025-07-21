@@ -6,16 +6,16 @@
  *  Based on Sharp's NAND driver sharp_sl.c
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/sharpsl.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
+#include <robux/mtd/sharpsl.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
 
 struct sharpsl_nand {
 	struct nand_controller	controller;

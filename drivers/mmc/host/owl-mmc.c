@@ -8,19 +8,19 @@
  * TODO: SDIO support
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-direction.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/slot-gpio.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/spinlock.h>
 
 /*
  * SDC registers

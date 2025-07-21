@@ -61,7 +61,7 @@
 		button-0 {
 			gpios = <&gpio1 2 GPIO_ACTIVE_LOW>; /* GPIO A */
 			label = "TA1-GPIO-A";
-			linux,code = <KEY_A>;
+			robux,code = <KEY_A>;
 			pinctrl-0 = <&pinctrl_dhcom_a>;
 			pinctrl-names = "default";
 			wakeup-source;
@@ -70,7 +70,7 @@
 		button-1 {
 			gpios = <&gpio1 4 GPIO_ACTIVE_LOW>; /* GPIO B */
 			label = "TA2-GPIO-B";
-			linux,code = <KEY_B>;
+			robux,code = <KEY_B>;
 			pinctrl-0 = <&pinctrl_dhcom_b>;
 			pinctrl-names = "default";
 			wakeup-source;
@@ -79,7 +79,7 @@
 		button-2 {
 			gpios = <&gpio1 5 GPIO_ACTIVE_LOW>; /* GPIO C */
 			label = "TA3-GPIO-C";
-			linux,code = <KEY_C>;
+			robux,code = <KEY_C>;
 			pinctrl-0 = <&pinctrl_dhcom_c>;
 			pinctrl-names = "default";
 			wakeup-source;
@@ -88,7 +88,7 @@
 		button-3 {
 			gpios = <&gpio6 3 GPIO_ACTIVE_LOW>; /* GPIO D */
 			label = "TA4-GPIO-D";
-			linux,code = <KEY_D>;
+			robux,code = <KEY_D>;
 			pinctrl-0 = <&pinctrl_dhcom_d>;
 			pinctrl-names = "default";
 			wakeup-source;

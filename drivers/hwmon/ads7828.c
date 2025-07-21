@@ -12,17 +12,17 @@
  * For further information, see the Documentation/hwmon/ads7828.rst file.
  */
 
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_data/ads7828.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_data/ads7828.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/regulator/consumer.h>
 
 /* The ADS7828 registers */
 #define ADS7828_CMD_SD_SE	0x80	/* Single ended inputs */

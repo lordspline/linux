@@ -6,8 +6,8 @@
 #ifndef __INTEL_DISPLAY_POWER_H__
 #define __INTEL_DISPLAY_POWER_H__
 
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <robux/mutex.h>
+#include <robux/workqueue.h>
 
 #include "intel_wakeref.h"
 

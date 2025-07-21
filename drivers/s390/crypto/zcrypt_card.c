@@ -8,22 +8,22 @@
  *  Hotplug & misc device support: Jochen Roehrig (roehrig@de.ibm.com)
  *  Major cleanup & driver split: Martin Schwidefsky <schwidefsky@de.ibm.com>
  *				  Ralph Wuerthner <rwuerthn@de.ibm.com>
- *  MSGTYPE restruct:		  Holger Dengler <hd@linux.vnet.ibm.com>
+ *  MSGTYPE restruct:		  Holger Dengler <hd@robux.vnet.ibm.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/miscdevice.h>
-#include <linux/fs.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/compat.h>
-#include <linux/slab.h>
-#include <linux/atomic.h>
-#include <linux/uaccess.h>
-#include <linux/hw_random.h>
-#include <linux/debugfs.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/miscdevice.h>
+#include <robux/fs.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/compat.h>
+#include <robux/slab.h>
+#include <robux/atomic.h>
+#include <robux/uaccess.h>
+#include <robux/hw_random.h>
+#include <robux/debugfs.h>
 #include <asm/debug.h>
 
 #include "zcrypt_debug.h"

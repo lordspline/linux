@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/compat.h>
-#include <linux/console.h>
-#include <linux/fb.h>
-#include <linux/fbcon.h>
-#include <linux/major.h>
+#include <robux/compat.h>
+#include <robux/console.h>
+#include <robux/fb.h>
+#include <robux/fbcon.h>
+#include <robux/major.h>
 
 #include "fb_internal.h"
 

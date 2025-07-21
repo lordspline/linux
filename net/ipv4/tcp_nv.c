@@ -25,10 +25,10 @@
  * 1) Add mechanism to deal with reverse congestion.
  */
 
-#include <linux/module.h>
-#include <linux/math64.h>
+#include <robux/module.h>
+#include <robux/math64.h>
 #include <net/tcp.h>
-#include <linux/inet_diag.h>
+#include <robux/inet_diag.h>
 
 /* TCP NV parameters
  *

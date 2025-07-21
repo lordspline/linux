@@ -5,19 +5,19 @@
  *			 <benh@kernel.crashing.org>
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/slab.h>
-#include <linux/user.h>
-#include <linux/elf.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/vdso_datastore.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/slab.h>
+#include <robux/user.h>
+#include <robux/elf.h>
+#include <robux/security.h>
+#include <robux/syscalls.h>
+#include <robux/vdso_datastore.h>
 #include <vdso/datapage.h>
 
 #include <asm/syscall.h>

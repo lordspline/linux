@@ -3,9 +3,9 @@
 #ifndef _FDMA_API_H_
 #define _FDMA_API_H_
 
-#include <linux/bits.h>
-#include <linux/etherdevice.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/etherdevice.h>
+#include <robux/types.h>
 
 /* This provides a common set of functions and data structures for interacting
  * with the Frame DMA engine on multiple Microchip switchcores.

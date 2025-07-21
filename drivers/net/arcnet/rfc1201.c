@@ -1,5 +1,5 @@
 /*
- * Linux ARCnet driver - RFC1201 (standard) packet encapsulation
+ * Robux ARCnet driver - RFC1201 (standard) packet encapsulation
  *
  * Written 1994-1999 by Avery Pennarun.
  * Derived from skeleton.c by Donald Becker.
@@ -26,12 +26,12 @@
 
 #define pr_fmt(fmt) "arcnet:" KBUILD_MODNAME ": " fmt
 
-#include <linux/gfp.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/if_arp.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
+#include <robux/gfp.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/if_arp.h>
+#include <robux/netdevice.h>
+#include <robux/skbuff.h>
 
 #include "arcdevice.h"
 
@@ -424,7 +424,7 @@ static int build_header(struct sk_buff *skb, struct net_device *dev,
 	soft->sequence = htons(lp->rfc1201.sequence++);
 	soft->split_flag = 0;	/* split packets are done elsewhere */
 
-	/* see linux/net/ethernet/eth.c to see where I got the following */
+	/* see robux/net/ethernet/eth.c to see where I got the following */
 
 	if (dev->flags & (IFF_LOOPBACK | IFF_NOARP)) {
 		/* FIXME: fill in the last byte of the dest ipaddr here

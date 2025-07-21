@@ -10,10 +10,10 @@
  *
  */
 
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/property.h>
 
 static struct resource cv1800_rtcsys_irq_resources[] = {
 	DEFINE_RES_IRQ_NAMED(0, "alarm"),

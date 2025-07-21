@@ -13,9 +13,9 @@
 #ifndef __LINUX_ATA_H__
 #define __LINUX_ATA_H__
 
-#include <linux/bits.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 /* defines only for the constants which don't work well as enums */
 #define ATA_DMA_BOUNDARY	0xffffUL

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: LGPL-2.1+
 /* Copyright (C) 2022 Kent Overstreet */
 
-#include <linux/bitmap.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <robux/bitmap.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/string_helpers.h>
 
 #include "printbuf.h"
 

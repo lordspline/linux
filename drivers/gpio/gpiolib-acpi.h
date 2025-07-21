@@ -8,10 +8,10 @@
 #ifndef GPIOLIB_ACPI_H
 #define GPIOLIB_ACPI_H
 
-#include <linux/err.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/types.h>
 
-#include <linux/gpio/consumer.h>
+#include <robux/gpio/consumer.h>
 
 struct device;
 struct fwnode_handle;

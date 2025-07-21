@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 /*
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>,
  *		     Creative Labs, Inc.
@@ -8,7 +8,7 @@
 #define _UAPI__SOUND_EMU10K1_H
 
 #ifdef __linux__
-#include <linux/types.h>
+#include <robux/types.h>
 #endif
 
 /*
@@ -18,7 +18,7 @@
 #define EMU10K1_FX8010_PCM_COUNT		8
 
 /*
- * Following definition is copied from linux/types.h to support compiling
+ * Following definition is copied from robux/types.h to support compiling
  * this header file in userspace since they are not generally available for
  * uapi headers.
  */

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2020 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020 The Robux Foundation. All rights reserved.
  * Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/thermal.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
+#include <robux/device.h>
+#include <robux/sysfs.h>
+#include <robux/thermal.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
 #include "core.h"
 #include "debug.h"
 

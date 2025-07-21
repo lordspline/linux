@@ -31,7 +31,7 @@
 
 		key-volume-up {
 			label = "volume_up";
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 			gpios = <&tlmm 85 GPIO_ACTIVE_LOW>;
 		};
 	};
@@ -96,7 +96,7 @@
 };
 
 &pm8953_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	robux,code = <KEY_VOLUMEDOWN>;
 	status = "okay";
 };
 

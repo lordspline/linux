@@ -10,10 +10,10 @@
  * Copyright (c) 2010  Andres Salomon <dilinger@queued.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 #include <asm/olpc.h>
 
 #define DRV_NAME "cs5535-mfd"

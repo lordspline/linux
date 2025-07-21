@@ -21,11 +21,11 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/jffs2.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/jffs2.h>
 #include "compr.h"
 
 /* _compress returns the compressed size, -1 if bigger */

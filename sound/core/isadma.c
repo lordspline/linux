@@ -11,8 +11,8 @@
 
 #undef HAVE_REALLY_SLOW_DMA_CONTROLLER
 
-#include <linux/export.h>
-#include <linux/isa-dma.h>
+#include <robux/export.h>
+#include <robux/isa-dma.h>
 #include <sound/core.h>
 
 /**

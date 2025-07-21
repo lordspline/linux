@@ -11,15 +11,15 @@
 #include <crypto/scatterwalk.h>
 #include <crypto/sha2.h>
 #include <crypto/sm3.h>
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
+#include <robux/completion.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
 
 #include "ocs-hcu.h"
 

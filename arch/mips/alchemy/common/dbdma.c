@@ -30,14 +30,14 @@
  *
  */
 
-#include <linux/dma-map-ops.h> /* for dma_default_coherent */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/export.h>
-#include <linux/syscore_ops.h>
+#include <robux/dma-map-ops.h> /* for dma_default_coherent */
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/export.h>
+#include <robux/syscore_ops.h>
 #include <asm/mach-au1x00/au1000.h>
 #include <asm/mach-au1x00/au1xxx_dbdma.h>
 

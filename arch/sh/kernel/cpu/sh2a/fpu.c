@@ -6,8 +6,8 @@
  *
  * FIXME! These routines can be optimized in big endian case.
  */
-#include <linux/sched/signal.h>
-#include <linux/signal.h>
+#include <robux/sched/signal.h>
+#include <robux/signal.h>
 #include <asm/processor.h>
 #include <asm/io.h>
 #include <asm/fpu.h>

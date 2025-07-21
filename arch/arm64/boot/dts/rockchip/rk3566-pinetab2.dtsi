@@ -30,13 +30,13 @@
 
 		button-vol-up {
 			label = "Volume Up";
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 			press-threshold-microvolt = <297500>;
 		};
 
 		button-vol-down {
 			label = "Volume Down";
-			linux,code = <KEY_VOLUMEDOWN>;
+			robux,code = <KEY_VOLUMEDOWN>;
 			press-threshold-microvolt = <1750>;
 		};
 	};
@@ -77,8 +77,8 @@
 			debounce-interval = <20>;
 			gpios = <&gpio4 RK_PA4 GPIO_ACTIVE_HIGH>;
 			label = "Tablet Mode";
-			linux,input-type = <EV_SW>;
-			linux,code = <SW_TABLET_MODE>;
+			robux,input-type = <EV_SW>;
+			robux,code = <SW_TABLET_MODE>;
 		};
 	};
 

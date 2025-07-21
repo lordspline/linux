@@ -7,19 +7,19 @@
  * Lorenzo Bianconi <lorenzo.bianconi83@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/iio/sysfs.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/buffer.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/iio/sysfs.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/interrupt.h>
+#include <robux/irqreturn.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/buffer.h>
+#include <robux/regmap.h>
 
 #include "st_uvis25.h"
 

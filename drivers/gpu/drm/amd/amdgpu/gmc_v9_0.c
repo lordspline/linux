@@ -21,8 +21,8 @@
  *
  */
 
-#include <linux/firmware.h>
-#include <linux/pci.h>
+#include <robux/firmware.h>
+#include <robux/pci.h>
 
 #include <drm/drm_cache.h>
 

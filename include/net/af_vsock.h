@@ -8,10 +8,10 @@
 #ifndef __AF_VSOCK_H__
 #define __AF_VSOCK_H__
 
-#include <linux/kernel.h>
-#include <linux/workqueue.h>
+#include <robux/kernel.h>
+#include <robux/workqueue.h>
 #include <net/sock.h>
-#include <uapi/linux/vm_sockets.h>
+#include <uapi/robux/vm_sockets.h>
 
 #include "vsock_addr.h"
 

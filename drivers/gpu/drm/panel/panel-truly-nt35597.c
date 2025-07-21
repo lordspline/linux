@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <robux/backlight.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/regulator/consumer.h>
 
 #include <video/mipi_display.h>
 

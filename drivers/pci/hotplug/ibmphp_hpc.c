@@ -13,16 +13,16 @@
  *
  */
 
-#include <linux/wait.h>
-#include <linux/time.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/kthread.h>
+#include <robux/wait.h>
+#include <robux/time.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
+#include <robux/sched.h>
+#include <robux/kthread.h>
 #include "ibmphp.h"
 
 static int to_debug = 0;

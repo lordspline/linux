@@ -11,13 +11,13 @@
  * Alexander Smirnov <alex.bluesman.smirnov@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/timer.h>
-#include <linux/platform_device.h>
-#include <linux/rtnetlink.h>
-#include <linux/netdevice.h>
-#include <linux/device.h>
-#include <linux/spinlock.h>
+#include <robux/module.h>
+#include <robux/timer.h>
+#include <robux/platform_device.h>
+#include <robux/rtnetlink.h>
+#include <robux/netdevice.h>
+#include <robux/device.h>
+#include <robux/spinlock.h>
 #include <net/ieee802154_netdev.h>
 #include <net/mac802154.h>
 #include <net/cfg802154.h>

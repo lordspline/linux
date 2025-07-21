@@ -8,13 +8,13 @@
  * the Free Software Foundation.
  */
 
-#include <linux/netdevice.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/rtnetlink.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/etherdevice.h>
+#include <robux/netdevice.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/rtnetlink.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/etherdevice.h>
 #include <rdma/ib_verbs.h>
 #include "bnxt_hsi.h"
 #include "bnxt.h"

@@ -5,10 +5,10 @@
  *  Copyright (C) 2017 Juergen Fitschen <me@jue.yt>
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/pm_runtime.h>
 
 #include "i2c-at91.h"
 

@@ -11,11 +11,11 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/cacheflush.h>
-#include <linux/cpu.h>
-#include <linux/perf_event.h>
-#include <linux/pm_qos.h>
-#include <linux/resctrl.h>
+#include <robux/cacheflush.h>
+#include <robux/cpu.h>
+#include <robux/perf_event.h>
+#include <robux/pm_qos.h>
+#include <robux/resctrl.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/perf_event.h>

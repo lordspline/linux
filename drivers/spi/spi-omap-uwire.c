@@ -29,25 +29,25 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/device.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/slab.h>
+#include <robux/device.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_bitbang.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi_bitbang.h>
+#include <robux/module.h>
+#include <robux/io.h>
 
 #include <asm/mach-types.h>
-#include <linux/soc/ti/omap1-io.h>
-#include <linux/soc/ti/omap1-soc.h>
-#include <linux/soc/ti/omap1-mux.h>
+#include <robux/soc/ti/omap1-io.h>
+#include <robux/soc/ti/omap1-soc.h>
+#include <robux/soc/ti/omap1-mux.h>
 
 /* FIXME address is now a platform device resource,
  * and irqs should show there too...

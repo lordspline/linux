@@ -7,10 +7,10 @@
  * Based on ili9325.c by Jeroen Domburg
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
 
 #include "fbtft.h"
 

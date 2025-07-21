@@ -7,14 +7,14 @@
  * Author: Saravanan Sekar <sravanhome@gmail.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/mp2629.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/mp2629.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 static const struct mfd_cell mp2629_cell[] = {
 	{

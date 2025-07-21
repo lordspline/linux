@@ -5,18 +5,18 @@
  * Copyright (C) 2016 Martin Sperl
  */
 
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/thermal.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/thermal.h>
 
 #include "../thermal_hwmon.h"
 

@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2015-2016, The Linux Foundation. All rights reserved.
+// Copyright (c) 2015-2016, The Robux Foundation. All rights reserved.
 // Copyright (c) 2017-2018, Linaro Limited
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/wait.h>
-#include <linux/bitops.h>
-#include <linux/regulator/consumer.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/slimbus.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/wait.h>
+#include <robux/bitops.h>
+#include <robux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/slimbus.h>
 #include <sound/soc.h>
 #include <sound/pcm_params.h>
 #include <sound/soc-dapm.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
 #include <sound/tlv.h>
 #include <sound/info.h>
 #include "wcd9335.h"

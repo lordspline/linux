@@ -7,10 +7,10 @@
  * This code is based on code copyrighted by Freescale,
  * Liam Girdwood, Javier Martin and probably others.
  */
-#include <linux/platform_device.h>
-#include <linux/dmaengine.h>
-#include <linux/types.h>
-#include <linux/module.h>
+#include <robux/platform_device.h>
+#include <robux/dmaengine.h>
+#include <robux/types.h>
+#include <robux/module.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

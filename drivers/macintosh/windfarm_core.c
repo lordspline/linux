@@ -21,19 +21,19 @@
  * instead which is a bit of an overkill imho
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/kthread.h>
-#include <linux/jiffies.h>
-#include <linux/reboot.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/freezer.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/kthread.h>
+#include <robux/jiffies.h>
+#include <robux/reboot.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/freezer.h>
 
 #include "windfarm.h"
 
@@ -74,7 +74,7 @@ static int wf_critical_overtemp(void)
 	static char const critical_overtemp_path[] = "/sbin/critical_overtemp";
 	char *argv[] = { (char *)critical_overtemp_path, NULL };
 	static char *envp[] = { "HOME=/",
-				"TERM=linux",
+				"TERM=robux",
 				"PATH=/sbin:/usr/sbin:/bin:/usr/bin",
 				NULL };
 

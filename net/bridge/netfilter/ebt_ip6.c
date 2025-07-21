@@ -14,14 +14,14 @@
  *
  *  Jan, 2008
  */
-#include <linux/ipv6.h>
+#include <robux/ipv6.h>
 #include <net/ipv6.h>
-#include <linux/in.h>
-#include <linux/module.h>
+#include <robux/in.h>
+#include <robux/module.h>
 #include <net/dsfield.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_bridge/ebtables.h>
-#include <linux/netfilter_bridge/ebt_ip6.h>
+#include <robux/netfilter/x_tables.h>
+#include <robux/netfilter_bridge/ebtables.h>
+#include <robux/netfilter_bridge/ebt_ip6.h>
 
 union pkthdr {
 	struct {

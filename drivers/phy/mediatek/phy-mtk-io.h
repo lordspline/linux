@@ -8,8 +8,8 @@
 #ifndef __PHY_MTK_H__
 #define __PHY_MTK_H__
 
-#include <linux/bitfield.h>
-#include <linux/io.h>
+#include <robux/bitfield.h>
+#include <robux/io.h>
 
 static inline void mtk_phy_clear_bits(void __iomem *reg, u32 bits)
 {

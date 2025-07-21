@@ -7,20 +7,20 @@
  * Tero Kristo <t-kristo@ti.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/clk/ti.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/list.h>
-#include <linux/minmax.h>
-#include <linux/regmap.h>
-#include <linux/string_helpers.h>
-#include <linux/memblock.h>
-#include <linux/device.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/clk/ti.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/list.h>
+#include <robux/minmax.h>
+#include <robux/regmap.h>
+#include <robux/string_helpers.h>
+#include <robux/memblock.h>
+#include <robux/device.h>
 
 #include "clock.h"
 

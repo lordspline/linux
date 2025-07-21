@@ -13,12 +13,12 @@
  *
  *  Bits copied from original nmi.c file
  */
-#include <linux/cpumask.h>
-#include <linux/delay.h>
-#include <linux/kprobes.h>
-#include <linux/nmi.h>
-#include <linux/cpu.h>
-#include <linux/sched/debug.h>
+#include <robux/cpumask.h>
+#include <robux/delay.h>
+#include <robux/kprobes.h>
+#include <robux/nmi.h>
+#include <robux/cpu.h>
+#include <robux/sched/debug.h>
 
 #ifdef arch_trigger_cpumask_backtrace
 /* For reliability, we're prepared to waste bits here. */

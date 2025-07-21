@@ -5,15 +5,15 @@
  * Copyright (C) 2023 Luis Chamberlain <mcgrof@kernel.org>
  */
 
-#include <linux/module.h>
-#include <uapi/linux/module.h>
-#include <linux/string.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/debugfs.h>
-#include <linux/rculist.h>
-#include <linux/math.h>
+#include <robux/module.h>
+#include <uapi/robux/module.h>
+#include <robux/string.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/debugfs.h>
+#include <robux/rculist.h>
+#include <robux/math.h>
 
 #include "internal.h"
 

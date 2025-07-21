@@ -1,12 +1,12 @@
 /* 
- * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  * Licensed under the GPL
  */
 
 #include <arch.h>
 #include <sysdep/ptrace.h>
 
-/* These two are from asm-um/uaccess.h and linux/module.h, check them. */
+/* These two are from asm-um/uaccess.h and robux/module.h, check them. */
 struct exception_table_entry
 {
 	unsigned long insn;

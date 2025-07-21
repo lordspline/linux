@@ -4,19 +4,19 @@
  *	together in the faint hope we can take the out in five years time.
  */
 
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/prctl.h>
-#include <linux/capability.h>
-#include <linux/init.h>
-#include <linux/highuid.h>
-#include <linux/security.h>
-#include <linux/cred.h>
-#include <linux/syscalls.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
+#include <robux/notifier.h>
+#include <robux/reboot.h>
+#include <robux/prctl.h>
+#include <robux/capability.h>
+#include <robux/init.h>
+#include <robux/highuid.h>
+#include <robux/security.h>
+#include <robux/cred.h>
+#include <robux/syscalls.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "uid16.h"
 

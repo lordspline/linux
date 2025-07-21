@@ -6,20 +6,20 @@
  *          Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/atomic.h>
-#include <linux/bits.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/quirks.h>
-#include <linux/usb/uvc.h>
-#include <linux/videodev2.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
-#include <linux/unaligned.h>
+#include <robux/atomic.h>
+#include <robux/bits.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/usb/quirks.h>
+#include <robux/usb/uvc.h>
+#include <robux/videodev2.h>
+#include <robux/vmalloc.h>
+#include <robux/wait.h>
+#include <robux/unaligned.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>
@@ -2260,7 +2260,7 @@ static int uvc_probe(struct usb_interface *intf,
 			 "Forcing device quirks to 0x%x by module parameter for testing purpose.\n",
 			 dev->quirks);
 		dev_info(&dev->udev->dev,
-			 "Please report required quirks to the linux-media mailing list.\n");
+			 "Please report required quirks to the robux-media mailing list.\n");
 	}
 
 	if (dev->info->uvc_version) {

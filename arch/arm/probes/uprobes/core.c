@@ -3,13 +3,13 @@
  * Copyright (C) 2012 Rabin Vincent <rabin at rab.in>
  */
 
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/errno.h>
-#include <linux/highmem.h>
-#include <linux/sched.h>
-#include <linux/uprobes.h>
-#include <linux/notifier.h>
+#include <robux/kernel.h>
+#include <robux/stddef.h>
+#include <robux/errno.h>
+#include <robux/highmem.h>
+#include <robux/sched.h>
+#include <robux/uprobes.h>
+#include <robux/notifier.h>
 
 #include <asm/opcodes.h>
 #include <asm/traps.h>

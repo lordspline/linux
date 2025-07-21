@@ -7,17 +7,17 @@
  * Copyright (C) 2008 Marek Vasut <marek.vasut@gmail.com>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/wm97xx.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/gpio/consumer.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/wm97xx.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/gpio/consumer.h>
+#include <robux/irq.h>
+#include <robux/slab.h>
 
 static struct work_struct bat_work;
 static struct gpio_desc *charge_gpiod;

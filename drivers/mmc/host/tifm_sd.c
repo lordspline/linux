@@ -8,12 +8,12 @@
  */
 
 
-#include <linux/tifm.h>
-#include <linux/mmc/host.h>
-#include <linux/highmem.h>
-#include <linux/scatterlist.h>
-#include <linux/module.h>
-#include <linux/workqueue.h>
+#include <robux/tifm.h>
+#include <robux/mmc/host.h>
+#include <robux/highmem.h>
+#include <robux/scatterlist.h>
+#include <robux/module.h>
+#include <robux/workqueue.h>
 #include <asm/io.h>
 
 #define DRIVER_NAME "tifm_sd"

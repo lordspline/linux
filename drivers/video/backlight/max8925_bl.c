@@ -6,14 +6,14 @@
  *      Haojian Zhuang <haojian.zhuang@marvell.com>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/i2c.h>
-#include <linux/backlight.h>
-#include <linux/mfd/max8925.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/i2c.h>
+#include <robux/backlight.h>
+#include <robux/mfd/max8925.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 
 #define MAX_BRIGHTNESS		(0xff)
 #define MIN_BRIGHTNESS		(0)

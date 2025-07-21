@@ -12,13 +12,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/container_of.h>
-#include <linux/sysfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/jiffies.h>
+#include <robux/container_of.h>
+#include <robux/sysfs.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/jiffies.h>
 
 #include "thermal_core.h"
 

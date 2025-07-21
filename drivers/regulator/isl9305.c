@@ -7,15 +7,15 @@
  * Author: Mark Brown <broonie@kernel.org>
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/platform_data/isl9305.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/of.h>
+#include <robux/platform_data/isl9305.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/slab.h>
 
 /*
  * Registers

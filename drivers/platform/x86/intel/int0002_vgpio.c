@@ -27,17 +27,17 @@
  * for a real GPIO controller.
  */
 
-#include <linux/acpi.h>
-#include <linux/bitmap.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_data/x86/soc.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
+#include <robux/acpi.h>
+#include <robux/bitmap.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_data/x86/soc.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/suspend.h>
 
 #define DRV_NAME			"INT0002 Virtual GPIO"
 

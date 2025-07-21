@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/fs.h>
-#include <linux/xattr.h>
+#include <robux/fs.h>
+#include <robux/xattr.h>
 #include "overlayfs.h"
 
 static bool ovl_is_escaped_xattr(struct super_block *sb, const char *name)

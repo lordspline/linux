@@ -6,9 +6,9 @@
  *  Copyright (c) by Pavel Hofman <pavel.hofman@ivitera.com>
  */
 
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/module.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/pcm.h>

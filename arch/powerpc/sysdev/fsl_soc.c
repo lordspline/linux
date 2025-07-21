@@ -8,23 +8,23 @@
  * Vitaly Bordug <vbordug@ru.mvista.com>
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/major.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/export.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/spi/spi.h>
-#include <linux/fsl_devices.h>
-#include <linux/reboot.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/major.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/export.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/phy.h>
+#include <robux/spi/spi.h>
+#include <robux/fsl_devices.h>
+#include <robux/reboot.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/time.h>

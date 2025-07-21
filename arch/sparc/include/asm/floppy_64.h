@@ -10,9 +10,9 @@
 #ifndef __ASM_SPARC64_FLOPPY_H
 #define __ASM_SPARC64_FLOPPY_H
 
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/dma-mapping.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/dma-mapping.h>
 
 #include <asm/auxio.h>
 

@@ -14,16 +14,16 @@
  * Lesly A M <x0080970@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/power/smartreflex.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/pm_runtime.h>
+#include <robux/power/smartreflex.h>
 
 #define DRIVER_NAME	"smartreflex"
 #define SMARTREFLEX_NAME_LEN	32

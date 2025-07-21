@@ -7,10 +7,10 @@
  *     Michael Trimarchi <michael@amarulasolutions.com>
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/spi/spi.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/spi/spi.h>
+#include <robux/regmap.h>
 
 #include "pcm179x.h"
 

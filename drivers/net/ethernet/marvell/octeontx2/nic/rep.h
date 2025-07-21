@@ -8,7 +8,7 @@
 #ifndef REP_H
 #define REP_H
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 #include "otx2_reg.h"
 #include "otx2_txrx.h"

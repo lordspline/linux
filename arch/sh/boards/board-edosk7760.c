@@ -5,20 +5,20 @@
  * Copyright (C) 2008 SPES Societa' Progettazione Elettronica e Software Ltd.
  * Author: Luca Santini <luca.santini@spesonline.com>
  */
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/smc91x.h>
-#include <linux/interrupt.h>
-#include <linux/sh_intc.h>
-#include <linux/i2c.h>
-#include <linux/mtd/physmap.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/platform_device.h>
+#include <robux/smc91x.h>
+#include <robux/interrupt.h>
+#include <robux/sh_intc.h>
+#include <robux/i2c.h>
+#include <robux/mtd/physmap.h>
 #include <asm/machvec.h>
 #include <asm/io.h>
 #include <asm/addrspace.h>
 #include <asm/delay.h>
 #include <asm/i2c-sh7760.h>
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 
 /* Bus state controller registers for CS4 area */
 #define BSC_CS4BCR	0xA4FD0010

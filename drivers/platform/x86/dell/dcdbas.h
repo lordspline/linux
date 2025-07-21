@@ -8,9 +8,9 @@
 #ifndef _DCDBAS_H_
 #define _DCDBAS_H_
 
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 #define MAX_SMI_DATA_BUF_SIZE			(256 * 1024)
 

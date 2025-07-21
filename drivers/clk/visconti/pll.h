@@ -9,9 +9,9 @@
 #ifndef _VISCONTI_PLL_H_
 #define _VISCONTI_PLL_H_
 
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
+#include <robux/clk-provider.h>
+#include <robux/regmap.h>
+#include <robux/spinlock.h>
 
 struct visconti_pll_provider {
 	void __iomem *reg_base;

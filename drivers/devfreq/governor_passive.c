@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/devfreq/governor_passive.c
+ * robux/drivers/devfreq/governor_passive.c
  *
  * Copyright (C) 2016 Samsung Electronics
  * Author: Chanwoo Choi <cw00.choi@samsung.com>
  * Author: MyungJoo Ham <myungjoo.ham@samsung.com>
  */
 
-#include <linux/module.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/cpumask.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/devfreq.h>
-#include <linux/units.h>
+#include <robux/module.h>
+#include <robux/cpu.h>
+#include <robux/cpufreq.h>
+#include <robux/cpumask.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/devfreq.h>
+#include <robux/units.h>
 #include "governor.h"
 
 static struct devfreq_cpu_data *

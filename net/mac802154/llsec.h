@@ -9,10 +9,10 @@
 #ifndef MAC802154_LLSEC_H
 #define MAC802154_LLSEC_H
 
-#include <linux/slab.h>
-#include <linux/hashtable.h>
-#include <linux/kref.h>
-#include <linux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/hashtable.h>
+#include <robux/kref.h>
+#include <robux/spinlock.h>
 #include <net/af_ieee802154.h>
 #include <net/ieee802154_netdev.h>
 

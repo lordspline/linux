@@ -3,8 +3,8 @@
  * PHY package support
  */
 
-#include <linux/of.h>
-#include <linux/phy.h>
+#include <robux/of.h>
+#include <robux/phy.h>
 
 #include "phylib.h"
 #include "phylib-internal.h"

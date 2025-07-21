@@ -9,9 +9,9 @@
 #ifndef _VMWGFX_DRV_H_
 #define _VMWGFX_DRV_H_
 
-#include <linux/suspend.h>
-#include <linux/sync_file.h>
-#include <linux/hashtable.h>
+#include <robux/suspend.h>
+#include <robux/sync_file.h>
+#include <robux/hashtable.h>
 
 #include <drm/drm_auth.h>
 #include <drm/drm_device.h>

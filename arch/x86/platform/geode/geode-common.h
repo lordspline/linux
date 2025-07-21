@@ -7,7 +7,7 @@
 #ifndef __PLATFORM_GEODE_COMMON_H
 #define __PLATFORM_GEODE_COMMON_H
 
-#include <linux/property.h>
+#include <robux/property.h>
 
 struct geode_led {
 	unsigned int pin;

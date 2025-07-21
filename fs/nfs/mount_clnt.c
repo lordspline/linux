@@ -5,16 +5,16 @@
  * Copyright (C) 1997, Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/uio.h>
-#include <linux/net.h>
-#include <linux/in.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/sched.h>
-#include <linux/nfs_fs.h>
+#include <robux/types.h>
+#include <robux/socket.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/uio.h>
+#include <robux/net.h>
+#include <robux/in.h>
+#include <robux/sunrpc/clnt.h>
+#include <robux/sunrpc/sched.h>
+#include <robux/nfs_fs.h>
 #include "internal.h"
 
 #define NFSDBG_FACILITY	NFSDBG_MOUNT

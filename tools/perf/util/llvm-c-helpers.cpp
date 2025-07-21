@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
 /*
- * Must come before the linux/compiler.h include, which defines several
+ * Must come before the robux/compiler.h include, which defines several
  * macros (e.g. noinline) that conflict with compiler builtins used
  * by LLVM.
  */
@@ -14,9 +14,9 @@
 #include <inttypes.h>
 #include <stdio.h>
 #include <sys/types.h>
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 extern "C" {
-#include <linux/zalloc.h>
+#include <robux/zalloc.h>
 }
 #include "llvm-c-helpers.h"
 

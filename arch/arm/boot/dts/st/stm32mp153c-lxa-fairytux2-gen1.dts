@@ -8,7 +8,7 @@
 #include "stm32mp153c-lxa-fairytux2.dtsi"
 
 / {
-	model = "Linux Automation GmbH FairyTux 2 Gen 1";
+	model = "Robux Automation GmbH FairyTux 2 Gen 1";
 	compatible = "lxa,stm32mp153c-fairytux2-gen1", "oct,stm32mp153x-osd32", "st,stm32mp153";
 
 	gpio-keys {
@@ -16,13 +16,13 @@
 
 		button-left {
 			label = "USER_BTN1";
-			linux,code = <KEY_ESC>;
+			robux,code = <KEY_ESC>;
 			gpios = <&gpioi 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		};
 
 		button-right {
 			label = "USER_BTN2";
-			linux,code = <KEY_HOME>;
+			robux,code = <KEY_HOME>;
 			gpios = <&gpioe 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		};
 	};

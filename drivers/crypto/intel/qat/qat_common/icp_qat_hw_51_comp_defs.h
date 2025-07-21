@@ -3,7 +3,7 @@
 #ifndef ICP_QAT_HW_51_COMP_DEFS_H_
 #define ICP_QAT_HW_51_COMP_DEFS_H_
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 #define ICP_QAT_HW_COMP_51_CONFIG_CSR_SOM_CONTROL_BITPOS	28
 #define ICP_QAT_HW_COMP_51_CONFIG_CSR_SOM_CONTROL_MASK		GENMASK(1, 0)

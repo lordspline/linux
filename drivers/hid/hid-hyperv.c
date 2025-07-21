@@ -4,14 +4,14 @@
  *  Copyright (c) 2010, Microsoft Corporation.
  *  Copyright (c) 2011, Novell Inc.
  */
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/completion.h>
-#include <linux/input.h>
-#include <linux/hid.h>
-#include <linux/hiddev.h>
-#include <linux/hyperv.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/completion.h>
+#include <robux/input.h>
+#include <robux/hid.h>
+#include <robux/hiddev.h>
+#include <robux/hyperv.h>
 
 
 struct hv_input_dev_info {

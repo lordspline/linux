@@ -4,10 +4,10 @@
  * Copyright (C) 2014, Freescale Semiconductor, Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/mtd/spi-nor.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
+#include <robux/bitfield.h>
+#include <robux/mtd/spi-nor.h>
+#include <robux/slab.h>
+#include <robux/sort.h>
 
 #include "core.h"
 

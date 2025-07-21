@@ -6,10 +6,10 @@
 #include "thread-utils.h"
 
 #include <asm/current.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <robux/delay.h>
+#include <robux/kthread.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
 
 #include "errors.h"
 #include "logger.h"

@@ -7,14 +7,14 @@
  * Copyright (c) 2020-2021 Huawei Technologies Co., Ltd.
  */
 
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/irqdomain.h>
-#include <linux/regmap.h>
+#include <robux/bitops.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/irqdomain.h>
+#include <robux/regmap.h>
 
 struct hi6421v600_irq {
 	struct device		*dev;

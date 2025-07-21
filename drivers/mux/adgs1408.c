@@ -5,12 +5,12 @@
  * Copyright 2018 Analog Devices Inc.
  */
 
-#include <linux/err.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mux/driver.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
+#include <robux/err.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mux/driver.h>
+#include <robux/property.h>
+#include <robux/spi/spi.h>
 
 #define ADGS1408_SW_DATA       (0x01)
 #define ADGS1408_REG_READ(reg) ((reg) | 0x80)

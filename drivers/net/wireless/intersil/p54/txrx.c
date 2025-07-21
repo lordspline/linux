@@ -13,9 +13,9 @@
  *   Copyright (C) 2008 Nokia Corporation and/or its subsidiary(-ies).
  */
 
-#include <linux/export.h>
-#include <linux/firmware.h>
-#include <linux/etherdevice.h>
+#include <robux/export.h>
+#include <robux/firmware.h>
+#include <robux/etherdevice.h>
 #include <asm/div64.h>
 
 #include <net/mac80211.h>

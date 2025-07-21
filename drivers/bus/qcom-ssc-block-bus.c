@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (c) 2021, Michael Srba
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_clock.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 
 /* AXI Halt Register Offsets */
 #define AXI_HALTREQ_REG			0x0

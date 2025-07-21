@@ -14,18 +14,18 @@
  * General Public License for more details.
  */
 
-#include <linux/circ_buf.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/serio.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/sched.h>
-#include <linux/poll.h>
-#include <uapi/linux/userio.h>
+#include <robux/circ_buf.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/serio.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/miscdevice.h>
+#include <robux/sched.h>
+#include <robux/poll.h>
+#include <uapi/robux/userio.h>
 
 #define USERIO_NAME		"userio"
 #define USERIO_BUFSIZE		16

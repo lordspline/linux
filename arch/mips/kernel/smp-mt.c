@@ -3,18 +3,18 @@
  *
  * Copyright (C) 2004, 05, 06 MIPS Technologies, Inc.
  *    Elizabeth Clarke (beth@mips.com)
- *    Ralf Baechle (ralf@linux-mips.org)
- * Copyright (C) 2006 Ralf Baechle (ralf@linux-mips.org)
+ *    Ralf Baechle (ralf@robux-mips.org)
+ * Copyright (C) 2006 Ralf Baechle (ralf@robux-mips.org)
  */
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/cpumask.h>
-#include <linux/interrupt.h>
-#include <linux/compiler.h>
-#include <linux/sched/task_stack.h>
-#include <linux/smp.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/cpumask.h>
+#include <robux/interrupt.h>
+#include <robux/compiler.h>
+#include <robux/sched/task_stack.h>
+#include <robux/smp.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/cacheflush.h>
 #include <asm/cpu.h>
 #include <asm/processor.h>

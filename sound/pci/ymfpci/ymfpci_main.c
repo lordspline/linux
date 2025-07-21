@@ -4,16 +4,16 @@
  *  Routines for control of YMF724/740/744/754 chips
  */
 
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/io.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

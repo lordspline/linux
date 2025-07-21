@@ -4,13 +4,13 @@
  * Copyright (c) 2024-2025 Haylen Chu <heylenay@4d2.org>
  */
 
-#include <linux/array_size.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/mfd/syscon.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/array_size.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/mfd/syscon.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #include "ccu_common.h"
 #include "ccu_pll.h"

@@ -12,23 +12,23 @@
  * Pete Delaney <piet@tensilica.com
  */
 
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/kdebug.h>
-#include <linux/module.h>
-#include <linux/profile.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/reboot.h>
-#include <linux/seq_file.h>
-#include <linux/smp.h>
-#include <linux/thread_info.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/irq.h>
+#include <robux/kdebug.h>
+#include <robux/module.h>
+#include <robux/profile.h>
+#include <robux/sched/mm.h>
+#include <robux/sched/hotplug.h>
+#include <robux/sched/task_stack.h>
+#include <robux/reboot.h>
+#include <robux/seq_file.h>
+#include <robux/smp.h>
+#include <robux/thread_info.h>
 
 #include <asm/cacheflush.h>
 #include <asm/coprocessor.h>

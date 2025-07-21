@@ -2,10 +2,10 @@
 #ifndef _LINUX_FIRMWARE_H
 #define _LINUX_FIRMWARE_H
 
-#include <linux/types.h>
-#include <linux/compiler.h>
-#include <linux/cleanup.h>
-#include <linux/gfp.h>
+#include <robux/types.h>
+#include <robux/compiler.h>
+#include <robux/cleanup.h>
+#include <robux/gfp.h>
 
 #define FW_ACTION_NOUEVENT 0
 #define FW_ACTION_UEVENT 1

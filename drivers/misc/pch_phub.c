@@ -3,20 +3,20 @@
  * Copyright (C) 2011 LAPIS Semiconductor Co., Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
-#include <linux/string.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/if_ether.h>
-#include <linux/ctype.h>
-#include <linux/dmi.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/fs.h>
+#include <robux/uaccess.h>
+#include <robux/string.h>
+#include <robux/pci.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/if_ether.h>
+#include <robux/ctype.h>
+#include <robux/dmi.h>
+#include <robux/of.h>
 
 #define PHUB_STATUS 0x00		/* Status Register offset */
 #define PHUB_CONTROL 0x04		/* Control Register offset */

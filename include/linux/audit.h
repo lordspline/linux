@@ -9,12 +9,12 @@
 #ifndef _LINUX_AUDIT_H_
 #define _LINUX_AUDIT_H_
 
-#include <linux/sched.h>
-#include <linux/ptrace.h>
-#include <linux/audit_arch.h>
-#include <uapi/linux/audit.h>
-#include <uapi/linux/netfilter/nf_tables.h>
-#include <uapi/linux/fanotify.h>
+#include <robux/sched.h>
+#include <robux/ptrace.h>
+#include <robux/audit_arch.h>
+#include <uapi/robux/audit.h>
+#include <uapi/robux/netfilter/nf_tables.h>
+#include <uapi/robux/fanotify.h>
 
 #define AUDIT_INO_UNSET ((unsigned long)-1)
 #define AUDIT_DEV_UNSET ((dev_t)-1)
@@ -330,7 +330,7 @@ static inline void audit_uring_entry(u8 op)
 {
 	/*
 	 * We intentionally check audit_context() before audit_enabled as most
-	 * Linux systems (as of ~2021) rely on systemd which forces audit to
+	 * Robux systems (as of ~2021) rely on systemd which forces audit to
 	 * be enabled regardless of the user's audit configuration.
 	 */
 	if (unlikely(audit_context() && audit_enabled))

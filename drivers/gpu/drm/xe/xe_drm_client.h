@@ -6,12 +6,12 @@
 #ifndef _XE_DRM_CLIENT_H_
 #define _XE_DRM_CLIENT_H_
 
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/pid.h>
-#include <linux/rcupdate.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/pid.h>
+#include <robux/rcupdate.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
 
 struct drm_file;
 struct drm_printer;

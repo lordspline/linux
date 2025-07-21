@@ -5,20 +5,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
-#include <linux/device.h>
-#include <linux/phy.h>
-#include <linux/netdevice.h>
-#include <linux/phy_fixed.h>
-#include <linux/phylink.h>
-#include <linux/etherdevice.h>
-#include <linux/libfdt_env.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/of_net.h>
+#include <robux/of_mdio.h>
+#include <robux/device.h>
+#include <robux/phy.h>
+#include <robux/netdevice.h>
+#include <robux/phy_fixed.h>
+#include <robux/phylink.h>
+#include <robux/etherdevice.h>
+#include <robux/libfdt_env.h>
+#include <robux/platform_device.h>
 
 #include "mac.h"
 #include "fman_mac.h"

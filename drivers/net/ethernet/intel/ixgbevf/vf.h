@@ -4,11 +4,11 @@
 #ifndef __IXGBE_VF_H__
 #define __IXGBE_VF_H__
 
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/if_ether.h>
-#include <linux/netdevice.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/if_ether.h>
+#include <robux/netdevice.h>
 
 #include "defines.h"
 #include "regs.h"

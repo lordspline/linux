@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/capability.h>
-#include <linux/seq_file.h>
-#include <linux/uaccess.h>
-#include <linux/proc_fs.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/init.h>
+#include <robux/capability.h>
+#include <robux/seq_file.h>
+#include <robux/uaccess.h>
+#include <robux/proc_fs.h>
+#include <robux/ctype.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/init.h>
 
 #define LINE_SIZE 80
 

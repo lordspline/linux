@@ -6,12 +6,12 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <sound/soc.h>
 

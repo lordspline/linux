@@ -3,13 +3,13 @@
  * HD-audio codec core device
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/export.h>
-#include <linux/pm_runtime.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/export.h>
+#include <robux/pm_runtime.h>
 #include <sound/hdaudio.h>
 #include <sound/hda_regmap.h>
 #include <sound/pcm.h>

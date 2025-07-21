@@ -12,22 +12,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/dmi.h>
-#include <linux/io.h>
-#include <linux/rfkill.h>
-#include <linux/power_supply.h>
-#include <linux/sysfs.h>
-#include <linux/acpi.h>
-#include <linux/mm.h>
-#include <linux/i8042.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/backlight.h>
+#include <robux/err.h>
+#include <robux/dmi.h>
+#include <robux/io.h>
+#include <robux/rfkill.h>
+#include <robux/power_supply.h>
+#include <robux/sysfs.h>
+#include <robux/acpi.h>
+#include <robux/mm.h>
+#include <robux/i8042.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 #include <acpi/battery.h>
 #include <acpi/video.h>
 #include "dell-rbtn.h"

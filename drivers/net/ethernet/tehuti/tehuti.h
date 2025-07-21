@@ -7,28 +7,28 @@
 #ifndef _TEHUTI_H
 #define _TEHUTI_H
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/crc32.h>
-#include <linux/uaccess.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/sched.h>
-#include <linux/tty.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/vmalloc.h>
-#include <linux/firmware.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/crc32.h>
+#include <robux/uaccess.h>
+#include <robux/in.h>
+#include <robux/ip.h>
+#include <robux/tcp.h>
+#include <robux/sched.h>
+#include <robux/tty.h>
+#include <robux/if_vlan.h>
+#include <robux/interrupt.h>
+#include <robux/vmalloc.h>
+#include <robux/firmware.h>
 #include <asm/byteorder.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
 
 /* Compile Time Switches */
 /* start */

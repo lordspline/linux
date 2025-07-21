@@ -6,14 +6,14 @@
  * and Jonas Aaberg <jonas.aberg@stericsson.com>.
  */
 
-#include <linux/init.h>
-#include <linux/cpuidle.h>
-#include <linux/spinlock.h>
-#include <linux/atomic.h>
-#include <linux/smp.h>
-#include <linux/mfd/dbx500-prcmu.h>
-#include <linux/platform_data/arm-ux500-pm.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/cpuidle.h>
+#include <robux/spinlock.h>
+#include <robux/atomic.h>
+#include <robux/smp.h>
+#include <robux/mfd/dbx500-prcmu.h>
+#include <robux/platform_data/arm-ux500-pm.h>
+#include <robux/platform_device.h>
 
 #include <asm/cpuidle.h>
 

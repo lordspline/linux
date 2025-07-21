@@ -14,22 +14,22 @@
  * Inspired by dwc3-omap.c and dwc3-exynos.c.
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/usb/of.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/usb/of.h>
 
 #include "core.h"
 #include "io.h"

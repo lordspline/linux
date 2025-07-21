@@ -3,8 +3,8 @@
  * Copyright 2023 Google LLC.
  */
 
-#include <linux/device.h>
-#include <linux/spmi.h>
+#include <robux/device.h>
+#include <robux/spmi.h>
 
 static void devm_spmi_controller_release(struct device *parent, void *res)
 {

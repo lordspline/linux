@@ -7,14 +7,14 @@
  * Copyright (C) 2024 Liebherr-Electronics and Drives GmbH
  */
 
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/nvmem-provider.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 /* SBS compliant registers */
 #define MAX172XX_TEMP1			0x34

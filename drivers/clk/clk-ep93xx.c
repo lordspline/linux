@@ -8,15 +8,15 @@
  */
 #define pr_fmt(fmt) "ep93xx " KBUILD_MODNAME ": " fmt
 
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/clk-provider.h>
-#include <linux/math.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/clk-provider.h>
+#include <robux/math.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/spinlock.h>
 
-#include <linux/soc/cirrus/ep93xx.h>
+#include <robux/soc/cirrus/ep93xx.h>
 #include <dt-bindings/clock/cirrus,ep9301-syscon.h>
 
 #include <asm/div64.h>

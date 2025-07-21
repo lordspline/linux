@@ -9,13 +9,13 @@
  * firmware image and flash it as it reboots (see rtas.c).
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/proc_fs.h>
-#include <linux/reboot.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/proc_fs.h>
+#include <robux/reboot.h>
 #include <asm/delay.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/rtas.h>
 
 #define MODULE_VERS "1.0"

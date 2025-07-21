@@ -5,25 +5,25 @@
 // Copyright (c) 2023 Cirrus Logic, Inc. and
 //                    Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/build_bug.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/mfd/cs42l43.h>
-#include <linux/mfd/cs42l43-regs.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/string_choices.h>
+#include <robux/array_size.h>
+#include <robux/bits.h>
+#include <robux/build_bug.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/mfd/cs42l43.h>
+#include <robux/mfd/cs42l43-regs.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/string_choices.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "../pinctrl-utils.h"
 

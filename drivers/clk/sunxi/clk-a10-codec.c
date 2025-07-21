@@ -5,9 +5,9 @@
  * Emilio López <emilio@elopez.com.ar>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/clk-provider.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #define SUN4I_CODEC_GATE	31
 

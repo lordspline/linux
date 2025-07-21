@@ -5,16 +5,16 @@
  * Author: Lee Jones <lee.jones@linaro.org> for ST-Ericsson.
  */
 
-#include <linux/sysfs.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/spinlock.h>
-#include <linux/sys_soc.h>
-#include <linux/err.h>
-#include <linux/glob.h>
+#include <robux/sysfs.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/stat.h>
+#include <robux/slab.h>
+#include <robux/idr.h>
+#include <robux/spinlock.h>
+#include <robux/sys_soc.h>
+#include <robux/err.h>
+#include <robux/glob.h>
 
 static DEFINE_IDA(soc_ida);
 

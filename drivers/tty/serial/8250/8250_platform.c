@@ -8,18 +8,18 @@
  *	      PNP 8250/16550 ports
  *	      "serial8250" platform devices
  */
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/once.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/array_size.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/once.h>
+#include <robux/platform_device.h>
 
-#include <linux/serial_8250.h>
+#include <robux/serial_8250.h>
 
 #ifdef CONFIG_SPARC
-#include <linux/sunserialcore.h>
+#include <robux/sunserialcore.h>
 #endif
 
 #include "8250.h"

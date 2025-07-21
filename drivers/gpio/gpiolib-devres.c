@@ -6,13 +6,13 @@
  * Copyright (c) 2011 John Crispin <john@phrozen.org>
  */
 
-#include <linux/device/devres.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/gfp.h>
-#include <linux/types.h>
+#include <robux/device/devres.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/gfp.h>
+#include <robux/types.h>
 
-#include <linux/gpio/consumer.h>
+#include <robux/gpio/consumer.h>
 
 #include "gpiolib.h"
 

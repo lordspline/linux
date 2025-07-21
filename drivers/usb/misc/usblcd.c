@@ -13,14 +13,14 @@
  *          This new driver allows more than one USB-LCD to be connected     *
  *          and controlled, at once                                          *
  *****************************************************************************/
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/mutex.h>
+#include <robux/rwsem.h>
+#include <robux/uaccess.h>
+#include <robux/usb.h>
 
 #define DRIVER_VERSION "USBLCD Driver Version 1.05"
 

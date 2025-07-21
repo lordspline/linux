@@ -7,14 +7,14 @@
  *
  * Copyright (C) 2007, 2008 Cavium Networks
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/semaphore.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/partitions.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/semaphore.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/map.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/mtd/partitions.h>
 
 #include <asm/octeon/octeon.h>
 

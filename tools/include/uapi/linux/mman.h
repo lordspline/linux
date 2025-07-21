@@ -1,10 +1,10 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI_LINUX_MMAN_H
 #define _UAPI_LINUX_MMAN_H
 
 #include <asm/mman.h>
 #include <asm-generic/hugetlb_encode.h>
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define MREMAP_MAYMOVE		1
 #define MREMAP_FIXED		2

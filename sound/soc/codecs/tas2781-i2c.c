@@ -13,21 +13,21 @@
 // Author: Kevin Lu <kevin-lu@ti.com>
 //
 
-#include <linux/crc8.h>
+#include <robux/crc8.h>
 #ifdef CONFIG_SND_SOC_TAS2781_ACOUST_I2C
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 #endif
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/firmware.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/tas2781.h>
@@ -35,7 +35,7 @@
 #include <sound/tlv.h>
 #include <sound/tas2563-tlv.h>
 #include <sound/tas2781-tlv.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define X2563_CL_STT_VAL(xreg, xval) \
 {	.reg = xreg, \

@@ -6,12 +6,12 @@
  *	Colin Cross <ccross@android.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/cpu_pm.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/spinlock.h>
-#include <linux/syscore_ops.h>
+#include <robux/kernel.h>
+#include <robux/cpu_pm.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/spinlock.h>
+#include <robux/syscore_ops.h>
 
 /*
  * atomic_notifiers use a spinlock_t, which can block under PREEMPT_RT.

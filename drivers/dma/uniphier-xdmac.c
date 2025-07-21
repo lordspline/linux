@@ -5,14 +5,14 @@
  * Author: Kunihiko Hayashi <hayashi.kunihiko@socionext.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/bitops.h>
+#include <robux/bitfield.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "dmaengine.h"
 #include "virt-dma.h"

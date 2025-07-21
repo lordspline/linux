@@ -6,12 +6,12 @@
 //
 // Author: Maruthi Srinivas Bayyavarapu <maruthis@xilinx.com>
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/sizes.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/sizes.h>
 
 #include <sound/asoundef.h>
 #include <sound/soc.h>

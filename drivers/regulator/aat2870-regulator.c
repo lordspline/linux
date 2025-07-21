@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/regulator/aat2870-regulator.c
+ * robux/drivers/regulator/aat2870-regulator.c
  *
  * Copyright (c) 2011, NVIDIA Corporation.
  * Author: Jin Park <jinyoungp@nvidia.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/mfd/aat2870.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/mfd/aat2870.h>
 
 struct aat2870_regulator {
 	struct aat2870_data *aat2870;

@@ -6,19 +6,19 @@
 #ifndef __LINUX_SPI_H
 #define __LINUX_SPI_H
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kthread.h>
-#include <linux/mod_devicetable.h>
-#include <linux/overflow.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/u64_stats_sync.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kthread.h>
+#include <robux/mod_devicetable.h>
+#include <robux/overflow.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/u64_stats_sync.h>
 
-#include <uapi/linux/spi/spi.h>
+#include <uapi/robux/spi/spi.h>
 
 /* Max no. of CS supported per spi device */
 #define SPI_CS_CNT_MAX 24
@@ -204,7 +204,7 @@ struct spi_device {
 	/*
 	 * All bits defined above should be covered by SPI_MODE_KERNEL_MASK.
 	 * The SPI_MODE_KERNEL_MASK has the SPI_MODE_USER_MASK counterpart,
-	 * which is defined in 'include/uapi/linux/spi/spi.h'.
+	 * which is defined in 'include/uapi/robux/spi/spi.h'.
 	 * The bits defined here are from bit 31 downwards, while in
 	 * SPI_MODE_USER_MASK are from 0 upwards.
 	 * These bits must not overlap. A static assert check should make sure of that.
@@ -527,7 +527,7 @@ extern struct spi_device *spi_new_ancillary_device(struct spi_device *spi, u8 ch
  * @dummy_rx: dummy receive buffer for full-duplex devices
  * @dummy_tx: dummy transmit buffer for full-duplex devices
  * @fw_translate_cs: If the boot firmware uses different numbering scheme
- *	what Linux expects, this optional hook can be used to translate
+ *	what Robux expects, this optional hook can be used to translate
  *	between the two.
  * @ptp_sts_supported: If the driver sets this to true, it must provide a
  *	time snapshot in @spi_transfer->ptp_sts as close as possible to the

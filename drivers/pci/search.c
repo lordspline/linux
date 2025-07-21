@@ -8,10 +8,10 @@
  * Copyright (C) 2003 -- 2004 Greg Kroah-Hartman <greg@kroah.com>
  */
 
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
 #include "pci.h"
 
 DECLARE_RWSEM(pci_bus_sem);

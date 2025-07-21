@@ -3,7 +3,7 @@
 #ifndef __ASM_S390_MARCH_H
 #define __ASM_S390_MARCH_H
 
-#include <linux/kconfig.h>
+#include <robux/kconfig.h>
 
 #define MARCH_HAS_Z10_FEATURES 1
 

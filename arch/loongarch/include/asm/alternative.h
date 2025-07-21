@@ -4,9 +4,9 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/stringify.h>
+#include <robux/types.h>
+#include <robux/stddef.h>
+#include <robux/stringify.h>
 #include <asm/asm.h>
 
 struct alt_instr {

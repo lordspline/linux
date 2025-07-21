@@ -7,7 +7,7 @@
 #include <sys/eventfd.h>
 
 #define __EXPORTED_HEADERS__
-#include <linux/vfio.h>
+#include <robux/vfio.h>
 
 #include "iommufd_utils.h"
 

@@ -8,14 +8,14 @@
  * Based on code from pci.c, chrp_pci.c and pSeries_pci.c
  */
 
-#include <linux/kernel.h>
-#include <linux/threads.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/pgtable.h>
-#include <linux/of_address.h>
-#include <linux/of_fdt.h>
+#include <robux/kernel.h>
+#include <robux/threads.h>
+#include <robux/pci.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/pgtable.h>
+#include <robux/of_address.h>
+#include <robux/of_fdt.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2017, 2020-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2017, 2020-2021, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/nvmem-provider.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/nvmem-provider.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define SDAM_MEM_START			0x40
 #define REGISTER_MAP_ID			0x40

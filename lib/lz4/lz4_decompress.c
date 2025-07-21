@@ -34,10 +34,10 @@
  *	Dependencies
  **************************************/
 #include "lz4defs.h"
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/unaligned.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/unaligned.h>
 
 /*-*****************************
  *	Decompression functions

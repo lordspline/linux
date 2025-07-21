@@ -7,11 +7,11 @@
 // Author: Praveen Vuppala <praveenv@xilinx.com>
 // Author: Maruthi Srinivas Bayyavarapu <maruthis@xilinx.com>
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 

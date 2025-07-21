@@ -7,12 +7,12 @@
  * Author: Milo(Woogyom) Kim <milo.kim@ti.com>
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/lp8788.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/lp8788.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #define MAX_LP8788_REGISTERS		0xA2
 

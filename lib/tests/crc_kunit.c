@@ -7,14 +7,14 @@
  * Author: Eric Biggers <ebiggers@google.com>
  */
 #include <kunit/test.h>
-#include <linux/crc7.h>
-#include <linux/crc16.h>
-#include <linux/crc-t10dif.h>
-#include <linux/crc32.h>
-#include <linux/crc32c.h>
-#include <linux/crc64.h>
-#include <linux/prandom.h>
-#include <linux/vmalloc.h>
+#include <robux/crc7.h>
+#include <robux/crc16.h>
+#include <robux/crc-t10dif.h>
+#include <robux/crc32.h>
+#include <robux/crc32c.h>
+#include <robux/crc64.h>
+#include <robux/prandom.h>
+#include <robux/vmalloc.h>
 
 #define CRC_KUNIT_SEED			42
 #define CRC_KUNIT_MAX_LEN		16384

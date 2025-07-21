@@ -13,7 +13,7 @@
  *  Credits:
  *	Jonathan A. Buzzard - Toshiba HCI info, and critical tips on reverse
  *		engineering the Windows drivers
- *	Yasushi Nagato - changes for linux kernel 2.4 -> 2.5
+ *	Yasushi Nagato - changes for robux kernel 2.4 -> 2.5
  *	Rob Miller - TV out and hotkeys help
  */
 
@@ -22,29 +22,29 @@
 #define TOSHIBA_ACPI_VERSION	"0.24"
 #define PROC_INTERFACE_VERSION	1
 
-#include <linux/compiler.h>
-#include <linux/dmi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/backlight.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/leds.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/i8042.h>
-#include <linux/acpi.h>
-#include <linux/uaccess.h>
-#include <linux/miscdevice.h>
-#include <linux/rfkill.h>
-#include <linux/hwmon.h>
-#include <linux/iio/iio.h>
-#include <linux/toshiba.h>
+#include <robux/compiler.h>
+#include <robux/dmi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/backlight.h>
+#include <robux/input.h>
+#include <robux/input/sparse-keymap.h>
+#include <robux/leds.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/i8042.h>
+#include <robux/acpi.h>
+#include <robux/uaccess.h>
+#include <robux/miscdevice.h>
+#include <robux/rfkill.h>
+#include <robux/hwmon.h>
+#include <robux/iio/iio.h>
+#include <robux/toshiba.h>
 #include <acpi/battery.h>
 #include <acpi/video.h>
 

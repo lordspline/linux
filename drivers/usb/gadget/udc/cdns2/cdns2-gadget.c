@@ -25,13 +25,13 @@
  *
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
-#include <linux/interrupt.h>
-#include <linux/property.h>
-#include <linux/string_choices.h>
-#include <linux/dmapool.h>
-#include <linux/iopoll.h>
+#include <robux/dma-mapping.h>
+#include <robux/pm_runtime.h>
+#include <robux/interrupt.h>
+#include <robux/property.h>
+#include <robux/string_choices.h>
+#include <robux/dmapool.h>
+#include <robux/iopoll.h>
 
 #include "cdns2-gadget.h"
 #include "cdns2-trace.h"

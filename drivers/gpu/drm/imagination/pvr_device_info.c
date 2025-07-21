@@ -7,10 +7,10 @@
 
 #include <drm/drm_print.h>
 
-#include <linux/bits.h>
-#include <linux/minmax.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/minmax.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
 
 #define QUIRK_MAPPING(quirk) \
 	[PVR_FW_HAS_BRN_##quirk] = offsetof(struct pvr_device, quirks.has_brn##quirk)

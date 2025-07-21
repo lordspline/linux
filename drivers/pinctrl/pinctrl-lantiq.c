@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/pinctrl/pinctrl-lantiq.c
- *  based on linux/drivers/pinctrl/pinctrl-pxa3xx.c
+ *  robux/drivers/pinctrl/pinctrl-lantiq.c
+ *  based on robux/drivers/pinctrl/pinctrl-pxa3xx.c
  *
  *  Copyright (C) 2012 John Crispin <john@phrozen.org>
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
 
 #include "pinctrl-lantiq.h"
 

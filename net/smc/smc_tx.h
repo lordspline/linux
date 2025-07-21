@@ -6,14 +6,14 @@
  *
  * Copyright IBM Corp. 2016
  *
- * Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ * Author(s):  Ursula Braun <ubraun@robux.vnet.ibm.com>
  */
 
 #ifndef SMC_TX_H
 #define SMC_TX_H
 
-#include <linux/socket.h>
-#include <linux/types.h>
+#include <robux/socket.h>
+#include <robux/types.h>
 
 #include "smc.h"
 #include "smc_cdc.h"

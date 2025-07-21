@@ -11,8 +11,8 @@
 #ifndef __FSL_GUTS_H__
 #define __FSL_GUTS_H__
 
-#include <linux/types.h>
-#include <linux/io.h>
+#include <robux/types.h>
+#include <robux/io.h>
 
 /*
  * Global Utility Registers.

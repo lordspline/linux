@@ -11,13 +11,13 @@
 #ifndef __TI_CAL_H__
 #define __TI_CAL_H__
 
-#include <linux/bitfield.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/videodev2.h>
-#include <linux/wait.h>
+#include <robux/bitfield.h>
+#include <robux/io.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/videodev2.h>
+#include <robux/wait.h>
 
 #include <media/media-device.h>
 #include <media/v4l2-async.h>

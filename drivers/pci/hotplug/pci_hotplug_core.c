@@ -14,15 +14,15 @@
  *   Scott Murray <scottm@somanetworks.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/kobject.h>
+#include <robux/sysfs.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/pci_hotplug.h>
 #include "../pci.h"
 #include "cpci_hotplug.h"
 

@@ -11,17 +11,17 @@
  * Copyright (C) 2016, Synopsys, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_graph.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-event.h>

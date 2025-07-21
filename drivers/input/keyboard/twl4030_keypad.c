@@ -12,14 +12,14 @@
  * Manjunatha G K <manjugk@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/twl.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/twl.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
 /*
  * The TWL4030 family chips include a keypad controller that supports
@@ -389,7 +389,7 @@ static int twl4030_kp_probe(struct platform_device *pdev)
 	}
 
 	input_set_capability(input, EV_MSC, MSC_SCAN);
-	/* Enable auto repeat feature of Linux input subsystem */
+	/* Enable auto repeat feature of Robux input subsystem */
 	if (kp->autorepeat)
 		__set_bit(EV_REP, input->evbit);
 

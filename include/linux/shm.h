@@ -2,7 +2,7 @@
 #ifndef _LINUX_SHM_H_
 #define _LINUX_SHM_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/page.h>
 #include <asm/shmparam.h>
 

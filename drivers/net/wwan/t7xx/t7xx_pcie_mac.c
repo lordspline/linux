@@ -11,16 +11,16 @@
  * Contributors:
  *  Amir Hanania <amir.hanania@intel.com>
  *  Chiranjeevi Rapolu <chiranjeevi.rapolu@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@robux.intel.com>
  */
 
-#include <linux/bits.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/pci.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #include "t7xx_pci.h"
 #include "t7xx_pcie_mac.h"

@@ -2,7 +2,7 @@
 /* memcontrol.h - Memory Controller
  *
  * Copyright IBM Corporation, 2007
- * Author Balbir Singh <balbir@linux.vnet.ibm.com>
+ * Author Balbir Singh <balbir@robux.vnet.ibm.com>
  *
  * Copyright 2007 OpenVZ SWsoft Inc
  * Author: Pavel Emelianov <xemul@openvz.org>
@@ -10,19 +10,19 @@
 
 #ifndef _LINUX_MEMCONTROL_H
 #define _LINUX_MEMCONTROL_H
-#include <linux/cgroup.h>
-#include <linux/vm_event_item.h>
-#include <linux/hardirq.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/page_counter.h>
-#include <linux/vmpressure.h>
-#include <linux/eventfd.h>
-#include <linux/mm.h>
-#include <linux/vmstat.h>
-#include <linux/writeback.h>
-#include <linux/page-flags.h>
-#include <linux/shrinker.h>
+#include <robux/cgroup.h>
+#include <robux/vm_event_item.h>
+#include <robux/hardirq.h>
+#include <robux/jump_label.h>
+#include <robux/kernel.h>
+#include <robux/page_counter.h>
+#include <robux/vmpressure.h>
+#include <robux/eventfd.h>
+#include <robux/mm.h>
+#include <robux/vmstat.h>
+#include <robux/writeback.h>
+#include <robux/page-flags.h>
+#include <robux/shrinker.h>
 
 struct mem_cgroup;
 struct obj_cgroup;

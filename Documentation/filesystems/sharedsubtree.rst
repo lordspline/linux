@@ -149,7 +149,7 @@ replicas continue to be exactly same.
 3) Setting mount states
 -----------------------
 
-	The mount command (util-linux package) can be used to set mount
+	The mount command (util-robux package) can be used to set mount
 	states::
 
 	    mount --make-shared mountpoint

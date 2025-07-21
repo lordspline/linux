@@ -3,11 +3,11 @@
  *  Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/termios.h>
-#include <linux/tty.h>
-#include <linux/export.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/termios.h>
+#include <robux/tty.h>
+#include <robux/export.h>
 #include "tty.h"
 
 

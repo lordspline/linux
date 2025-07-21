@@ -13,25 +13,25 @@
  * up the execution to resume from there. To load and run, simply do
  * a cat SP 'binary' to the /dev/vpe1 device.
  */
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/vmalloc.h>
-#include <linux/elf.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/syscalls.h>
-#include <linux/moduleloader.h>
-#include <linux/interrupt.h>
-#include <linux/poll.h>
-#include <linux/memblock.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/vmalloc.h>
+#include <robux/elf.h>
+#include <robux/seq_file.h>
+#include <robux/string.h>
+#include <robux/syscalls.h>
+#include <robux/moduleloader.h>
+#include <robux/interrupt.h>
+#include <robux/poll.h>
+#include <robux/memblock.h>
 #include <asm/mipsregs.h>
 #include <asm/mipsmtregs.h>
 #include <asm/cacheflush.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/mips_mt.h>
 #include <asm/processor.h>
 #include <asm/vpe.h>
@@ -146,7 +146,7 @@ void *alloc_progmem(unsigned long len)
 
 #ifdef CONFIG_MIPS_VPE_LOADER_TOM
 	/*
-	 * This means you must tell Linux to use less memory than you
+	 * This means you must tell Robux to use less memory than you
 	 * physically have, for example by passing a mem= boot argument.
 	 */
 	addr = pfn_to_kaddr(max_low_pfn);

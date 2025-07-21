@@ -8,11 +8,11 @@
 #ifndef _PTP_CLOCK_KERNEL_H_
 #define _PTP_CLOCK_KERNEL_H_
 
-#include <linux/device.h>
-#include <linux/pps_kernel.h>
-#include <linux/ptp_clock.h>
-#include <linux/timecounter.h>
-#include <linux/skbuff.h>
+#include <robux/device.h>
+#include <robux/pps_kernel.h>
+#include <robux/ptp_clock.h>
+#include <robux/timecounter.h>
+#include <robux/skbuff.h>
 
 #define PTP_CLOCK_NAME_LEN	32
 /**

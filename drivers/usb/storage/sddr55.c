@@ -10,10 +10,10 @@
  *   (c) 2002 Simon Munton
  */
 
-#include <linux/jiffies.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

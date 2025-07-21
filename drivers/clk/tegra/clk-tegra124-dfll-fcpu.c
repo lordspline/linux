@@ -8,13 +8,13 @@
  * Paul Walmsley <pwalmsley@nvidia.com>
  */
 
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <robux/cpu.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
 #include <soc/tegra/fuse.h>
 
 #include "clk.h"

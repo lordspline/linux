@@ -4,7 +4,7 @@
 #ifndef PVR_DRV_H
 #define PVR_DRV_H
 
-#include "linux/compiler_attributes.h"
+#include "robux/compiler_attributes.h"
 #include <uapi/drm/pvr_drm.h>
 
 #define PVR_DRIVER_NAME "powervr"

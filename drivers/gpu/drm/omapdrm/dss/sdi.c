@@ -6,15 +6,15 @@
 
 #define DSS_SUBSYS_NAME "SDI"
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/string.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/string.h>
 
 #include <drm/drm_bridge.h>
 

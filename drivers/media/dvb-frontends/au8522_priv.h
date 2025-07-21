@@ -9,17 +9,17 @@
 
 */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/videodev2.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-mc.h>
-#include <linux/i2c.h>
+#include <robux/i2c.h>
 #include <media/dvb_frontend.h>
 #include "au8522.h"
 #include "tuner-i2c.h"

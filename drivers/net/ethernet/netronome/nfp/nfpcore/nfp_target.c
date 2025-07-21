@@ -11,9 +11,9 @@
 
 #define pr_fmt(fmt)       "NFP target: " fmt
 
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/printk.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/printk.h>
 
 #include "nfp_cpp.h"
 

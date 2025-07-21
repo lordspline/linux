@@ -5,22 +5,22 @@
  * Copyright 2011 Maxim Integrated Products
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/i2c.h>
-#include <linux/clk.h>
-#include <linux/mutex.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/i2c.h>
+#include <robux/clk.h>
+#include <robux/mutex.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/initval.h>
 #include <sound/tlv.h>
-#include <linux/slab.h>
+#include <robux/slab.h>
 #include <asm/div64.h>
 #include <sound/max98095.h>
 #include <sound/jack.h>

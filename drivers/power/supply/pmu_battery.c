@@ -5,13 +5,13 @@
  *	Copyright © 2006  David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/power_supply.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/err.h>
+#include <robux/power_supply.h>
+#include <robux/adb.h>
+#include <robux/pmu.h>
+#include <robux/slab.h>
 
 static struct pmu_battery_dev {
 	struct power_supply *bat;

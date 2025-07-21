@@ -21,8 +21,8 @@
 #include <sys/time.h>
 #include <sys/eventfd.h>
 #include <asm/unistd.h>
-#include <linux/perf_event.h>
-#include <linux/compiler.h>
+#include <robux/perf_event.h>
+#include <robux/compiler.h>
 #include "../kselftest.h"
 
 #define MB			(1024 * 1024)

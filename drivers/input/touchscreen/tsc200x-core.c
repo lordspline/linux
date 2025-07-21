@@ -10,17 +10,17 @@
  * based on TSC2301 driver by Klaus K. Pedersen <klaus.k.pedersen@nokia.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regmap.h>
-#include <linux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/input/touchscreen.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
+#include <robux/regmap.h>
+#include <robux/gpio/consumer.h>
 #include "tsc200x-core.h"
 
 /*

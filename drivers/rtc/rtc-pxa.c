@@ -5,15 +5,15 @@
  * Copyright (C) 2008 Robert Jarzmik
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/rtc.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/rtc.h>
+#include <robux/seq_file.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
 #include "rtc-sa1100.h"
 

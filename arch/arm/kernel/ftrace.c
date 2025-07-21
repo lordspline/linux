@@ -12,10 +12,10 @@
  * All code mutation routines here are called under stop_machine().
  */
 
-#include <linux/ftrace.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/stop_machine.h>
+#include <robux/ftrace.h>
+#include <robux/uaccess.h>
+#include <robux/module.h>
+#include <robux/stop_machine.h>
 
 #include <asm/cacheflush.h>
 #include <asm/opcodes.h>

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/of_irq.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/of_irq.h>
 
 #include <asm/pmac_feature.h>
 #include <asm/pmac_pfunc.h>

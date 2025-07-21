@@ -9,8 +9,8 @@
 #if !defined(__QCOM_SMP2P_TRACE_H__) || defined(TRACE_HEADER_MULTI_READ)
 #define __QCOM_SMP2P_TRACE_H__
 
-#include <linux/device.h>
-#include <linux/tracepoint.h>
+#include <robux/device.h>
+#include <robux/tracepoint.h>
 
 TRACE_EVENT(smp2p_ssr_ack,
 	TP_PROTO(const struct device *dev),

@@ -5,14 +5,14 @@
  * Copyright (C) 2016 Rafał Miłecki <rafal@milecki.pl>
  */
 
-#include <linux/device.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/usb.h>
-#include <linux/usb/of.h>
+#include <robux/device.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/usb.h>
+#include <robux/usb/of.h>
 
 struct usbport_trig_data {
 	struct led_classdev *led_cdev;

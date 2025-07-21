@@ -6,14 +6,14 @@
  * Author: Fabrice Gasnier <fabrice.gasnier@st.com> for STMicroelectronics.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/tee_drv.h>
+#include <robux/arm-smccc.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/tee_drv.h>
 
 #include "stm32-bsec-optee-ta.h"
 

@@ -12,8 +12,8 @@
 #ifndef _SELINUX_AUDIT_H
 #define _SELINUX_AUDIT_H
 
-#include <linux/audit.h>
-#include <linux/types.h>
+#include <robux/audit.h>
+#include <robux/types.h>
 
 /**
  * selinux_audit_rule_init - alloc/init an selinux audit rule structure.

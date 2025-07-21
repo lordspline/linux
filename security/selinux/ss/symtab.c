@@ -5,9 +5,9 @@
  * Author : Stephen Smalley, <stephen.smalley.work@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/errno.h>
 #include "symtab.h"
 
 static unsigned int symhash(const void *key)

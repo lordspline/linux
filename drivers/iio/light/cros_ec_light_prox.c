@@ -5,21 +5,21 @@
  * Copyright (C) 2017 Google, Inc
  */
 
-#include <linux/device.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/common/cros_ec_sensors_core.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/kfifo_buf.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/common/cros_ec_sensors_core.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/kfifo_buf.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 /*
  * We only represent one entry for light or proximity. EC is merging different

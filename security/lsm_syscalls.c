@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * System calls implementing the Linux Security Module API.
+ * System calls implementing the Robux Security Module API.
  *
  *  Copyright (C) 2022 Casey Schaufler <casey@schaufler-ca.com>
  *  Copyright (C) 2022 Intel Corporation
  */
 
 #include <asm/current.h>
-#include <linux/compiler_types.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/security.h>
-#include <linux/stddef.h>
-#include <linux/syscalls.h>
-#include <linux/types.h>
-#include <linux/lsm_hooks.h>
-#include <uapi/linux/lsm.h>
+#include <robux/compiler_types.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/security.h>
+#include <robux/stddef.h>
+#include <robux/syscalls.h>
+#include <robux/types.h>
+#include <robux/lsm_hooks.h>
+#include <uapi/robux/lsm.h>
 
 /**
  * lsm_name_to_attr - map an LSM attribute name to its ID

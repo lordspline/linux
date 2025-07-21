@@ -10,8 +10,8 @@
 #ifndef _RSLIB_H_
 #define _RSLIB_H_
 
-#include <linux/types.h>	/* for gfp_t */
-#include <linux/gfp.h>		/* for GFP_KERNEL */
+#include <robux/types.h>	/* for gfp_t */
+#include <robux/gfp.h>		/* for GFP_KERNEL */
 
 /**
  * struct rs_codec - rs codec data

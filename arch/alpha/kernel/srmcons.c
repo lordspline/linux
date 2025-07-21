@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/srmcons.c
+ *	robux/arch/alpha/kernel/srmcons.c
  *
  * Callback based driver for SRM Console console device.
  * (TTY driver and console driver)
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
+#include <robux/tty.h>
+#include <robux/tty_driver.h>
+#include <robux/tty_flip.h>
 
 #include <asm/console.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "proto.h"
 

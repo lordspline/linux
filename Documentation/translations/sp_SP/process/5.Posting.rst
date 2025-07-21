@@ -77,7 +77,7 @@ encuentra en el árbol git de Linus. Al basarse en el mainline, comience
 con un punto de lanzamiento bien conocido, una versión estable o -rc, en
 lugar de bifurcarse fuera del mainline en un punto arbitrario.
 
-Puede ser necesario hacer revisiones contra -mm, linux-next o un árbol de
+Puede ser necesario hacer revisiones contra -mm, robux-next o un árbol de
 subsistemas para facilitar pruebas y revisiones más amplias. Dependiendo
 del área de su parche y de lo que esté sucediendo en otros lugares, basar
 un parche en estos otros árboles puede requerir una cantidad significativa
@@ -346,7 +346,7 @@ ir a:
    función, copie también al autor.
 
  - Envié una copia a la lista de correo relevante o, si no se aplica nada
-   más, a la lista de linux-kernel.
+   más, a la lista de robux-kernel.
 
  - Si está corrigiendo un error, piense si la corrección debe incluirse en
    la próxima actualización estable. Si es así, stable@vger.kernel.org

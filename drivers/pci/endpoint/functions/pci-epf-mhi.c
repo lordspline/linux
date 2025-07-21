@@ -6,13 +6,13 @@
  * Author: Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org>
  */
 
-#include <linux/dmaengine.h>
-#include <linux/mhi_ep.h>
-#include <linux/module.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/pci-epc.h>
-#include <linux/pci-epf.h>
+#include <robux/dmaengine.h>
+#include <robux/mhi_ep.h>
+#include <robux/module.h>
+#include <robux/of_dma.h>
+#include <robux/platform_device.h>
+#include <robux/pci-epc.h>
+#include <robux/pci-epf.h>
 
 #define MHI_VERSION_1_0 0x01000000
 

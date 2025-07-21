@@ -4,19 +4,19 @@
  * Author(s): Patrice Chotard <patrice.chotard@foss.st.com> for STMicroelectronics.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bus/stm32_firewall_device.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/bitfield.h>
+#include <robux/bus/stm32_firewall_device.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 
 #define OMM_CR			0
 #define CR_MUXEN		BIT(0)

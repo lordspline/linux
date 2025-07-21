@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/kernel.h>
-#include <linux/kprobes.h>
-#include <linux/random.h>
+#include <robux/kernel.h>
+#include <robux/kprobes.h>
+#include <robux/random.h>
 #include <kunit/test.h>
 #include "test_kprobes.h"
 

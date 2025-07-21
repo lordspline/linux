@@ -8,11 +8,11 @@
 #include <kunit/platform_device.h>
 #include <kunit/resource.h>
 #include <kunit/test.h>
-#include <linux/device.h>
-#include <linux/device/faux.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/device.h>
+#include <robux/device/faux.h>
+#include <robux/gpio/driver.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #include "cirrus_scodec.h"
 

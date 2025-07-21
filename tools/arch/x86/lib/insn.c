@@ -5,18 +5,18 @@
  * Copyright (C) IBM Corporation, 2002, 2004, 2009
  */
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 #ifdef __KERNEL__
-#include <linux/string.h>
+#include <robux/string.h>
 #else
 #include <string.h>
 #endif
 #include "../include/asm/inat.h" /* __ignore_sync_check__ */
 #include "../include/asm/insn.h" /* __ignore_sync_check__ */
-#include <linux/unaligned.h> /* __ignore_sync_check__ */
+#include <robux/unaligned.h> /* __ignore_sync_check__ */
 
-#include <linux/errno.h>
-#include <linux/kconfig.h>
+#include <robux/errno.h>
+#include <robux/kconfig.h>
 
 #include "../include/asm/emulate_prefix.h" /* __ignore_sync_check__ */
 

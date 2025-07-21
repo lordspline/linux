@@ -7,17 +7,17 @@
  *	   Grygorii Strashko <grygorii.strashko@ti.com>
  */
 
-#include <linux/irq.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/irq.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/irqchip.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 
 /* The source ID bits start from 4 to 31 (total 28 bits)*/
 #define BIT_OFS			4

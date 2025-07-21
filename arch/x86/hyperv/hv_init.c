@@ -9,10 +9,10 @@
 
 #define pr_fmt(fmt)  "Hyper-V: " fmt
 
-#include <linux/efi.h>
-#include <linux/types.h>
-#include <linux/bitfield.h>
-#include <linux/io.h>
+#include <robux/efi.h>
+#include <robux/types.h>
+#include <robux/bitfield.h>
+#include <robux/io.h>
 #include <asm/apic.h>
 #include <asm/desc.h>
 #include <asm/e820/api.h>
@@ -24,16 +24,16 @@
 #include <asm/msr.h>
 #include <asm/idtentry.h>
 #include <asm/set_memory.h>
-#include <linux/kexec.h>
-#include <linux/version.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/cpuhotplug.h>
-#include <linux/syscore_ops.h>
+#include <robux/kexec.h>
+#include <robux/version.h>
+#include <robux/vmalloc.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/cpuhotplug.h>
+#include <robux/syscore_ops.h>
 #include <clocksource/hyperv_timer.h>
-#include <linux/highmem.h>
+#include <robux/highmem.h>
 
 void *hv_hypercall_pg;
 EXPORT_SYMBOL_GPL(hv_hypercall_pg);
@@ -520,10 +520,10 @@ skip_hypercall_pg_init:
 	 * in that there's no ENDBR64 instruction at the entry to the
 	 * hypercall page. Because hypercalls are invoked via an indirect call
 	 * to the hypercall page, all hypercall attempts fail when IBT is
-	 * enabled, and Linux panics. For such buggy versions, disable IBT.
+	 * enabled, and Robux panics. For such buggy versions, disable IBT.
 	 *
 	 * Fixed versions of Hyper-V always provide ENDBR64 on the hypercall
-	 * page, so if future Linux kernel versions enable IBT for 32-bit
+	 * page, so if future Robux kernel versions enable IBT for 32-bit
 	 * builds, additional hypercall page hackery will be required here
 	 * to provide an ENDBR32.
 	 */

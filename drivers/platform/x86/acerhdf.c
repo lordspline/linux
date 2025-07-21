@@ -20,12 +20,12 @@
 
 #define pr_fmt(fmt) "acerhdf: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
-#include <linux/thermal.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/dmi.h>
+#include <robux/acpi.h>
+#include <robux/thermal.h>
+#include <robux/platform_device.h>
 
 /*
  * The driver is started with "kernel mode off" by default. That means, the BIOS

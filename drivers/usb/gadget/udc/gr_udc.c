@@ -21,23 +21,23 @@
  * only supports cores in DMA mode.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/usb.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/errno.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
+#include <robux/usb.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmapool.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/of.h>
 
 #include <asm/byteorder.h>
 

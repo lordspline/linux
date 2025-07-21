@@ -6,16 +6,16 @@
  *	Dave Gerlach
  */
 
-#include <linux/err.h>
-#include <linux/genalloc.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/sram.h>
-#include <linux/ti-emif-sram.h>
+#include <robux/err.h>
+#include <robux/genalloc.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/sram.h>
+#include <robux/ti-emif-sram.h>
 
 #include "emif.h"
 

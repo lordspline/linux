@@ -7,14 +7,14 @@
  * Denis Ciocca <denis.ciocca@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/iio/iio.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 
-#include <linux/iio/common/st_sensors_spi.h>
+#include <robux/iio/common/st_sensors_spi.h>
 
 #define ST_SENSORS_SPI_MULTIREAD	0xc0
 

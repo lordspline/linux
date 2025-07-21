@@ -2,8 +2,8 @@
 #ifndef _LINUX_IRQ_WORK_H
 #define _LINUX_IRQ_WORK_H
 
-#include <linux/smp_types.h>
-#include <linux/rcuwait.h>
+#include <robux/smp_types.h>
+#include <robux/rcuwait.h>
 
 /*
  * An entry can be in one of four states:

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/kernel/acct.c
+ *  robux/kernel/acct.c
  *
- *  BSD Process Accounting for Linux
+ *  BSD Process Accounting for Robux
  *
  *  Author: Marco van Wieringen <mvw@planets.elm.net>
  *
@@ -44,24 +44,24 @@
  * a struct file opened for write. Fixed. 2/6/2000, AV.
  */
 
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/acct.h>
-#include <linux/capability.h>
-#include <linux/file.h>
-#include <linux/tty.h>
-#include <linux/security.h>
-#include <linux/vfs.h>
-#include <linux/jiffies.h>
-#include <linux/times.h>
-#include <linux/syscalls.h>
-#include <linux/mount.h>
-#include <linux/uaccess.h>
-#include <linux/sched/cputime.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/acct.h>
+#include <robux/capability.h>
+#include <robux/file.h>
+#include <robux/tty.h>
+#include <robux/security.h>
+#include <robux/vfs.h>
+#include <robux/jiffies.h>
+#include <robux/times.h>
+#include <robux/syscalls.h>
+#include <robux/mount.h>
+#include <robux/uaccess.h>
+#include <robux/sched/cputime.h>
 
 #include <asm/div64.h>
-#include <linux/pid_namespace.h>
-#include <linux/fs_pin.h>
+#include <robux/pid_namespace.h>
+#include <robux/fs_pin.h>
 
 /*
  * These constants control the amount of freespace that suspend and

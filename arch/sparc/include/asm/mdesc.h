@@ -2,8 +2,8 @@
 #ifndef _SPARC64_MDESC_H
 #define _SPARC64_MDESC_H
 
-#include <linux/types.h>
-#include <linux/cpumask.h>
+#include <robux/types.h>
+#include <robux/cpumask.h>
 #include <asm/prom.h>
 
 struct mdesc_handle;

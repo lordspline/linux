@@ -9,12 +9,12 @@
 #ifndef TB_H_
 #define TB_H_
 
-#include <linux/debugfs.h>
-#include <linux/nvmem-provider.h>
-#include <linux/pci.h>
-#include <linux/thunderbolt.h>
-#include <linux/uuid.h>
-#include <linux/bitfield.h>
+#include <robux/debugfs.h>
+#include <robux/nvmem-provider.h>
+#include <robux/pci.h>
+#include <robux/thunderbolt.h>
+#include <robux/uuid.h>
+#include <robux/bitfield.h>
 
 #include "tb_regs.h"
 #include "ctl.h"

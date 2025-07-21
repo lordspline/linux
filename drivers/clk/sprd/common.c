@@ -5,11 +5,11 @@
 // Copyright (C) 2017 Spreadtrum, Inc.
 // Author: Chunyan Zhang <chunyan.zhang@spreadtrum.com>
 
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include "common.h"
 

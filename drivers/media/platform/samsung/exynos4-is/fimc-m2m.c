@@ -6,19 +6,19 @@
  * Sylwester Nawrocki <s.nawrocki@samsung.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/bug.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/bug.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/list.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
 #include <media/v4l2-ioctl.h>
 #include <media/videobuf2-v4l2.h>
 #include <media/videobuf2-dma-contig.h>

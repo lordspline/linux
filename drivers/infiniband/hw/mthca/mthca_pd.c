@@ -32,7 +32,7 @@
  * SOFTWARE.
  */
 
-#include <linux/errno.h>
+#include <robux/errno.h>
 
 #include "mthca_dev.h"
 

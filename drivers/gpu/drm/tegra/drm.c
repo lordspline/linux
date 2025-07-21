@@ -4,14 +4,14 @@
  * Copyright (C) 2012-2016 NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/aperture.h>
-#include <linux/bitops.h>
-#include <linux/host1x.h>
-#include <linux/idr.h>
-#include <linux/iommu.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/aperture.h>
+#include <robux/bitops.h>
+#include <robux/host1x.h>
+#include <robux/idr.h>
+#include <robux/iommu.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

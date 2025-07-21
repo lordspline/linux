@@ -11,9 +11,9 @@ enum ep93xx_soc_model {
 	EP93XX_9312_SOC,
 };
 
-#include <linux/auxiliary_bus.h>
-#include <linux/compiler_types.h>
-#include <linux/container_of.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/compiler_types.h>
+#include <robux/container_of.h>
 
 #define EP93XX_CHIP_REV_D0	3
 #define EP93XX_CHIP_REV_D1	4

@@ -12,14 +12,14 @@
  * can also display the input voltage.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/hwmon.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/hwmon.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
+#include <robux/device.h>
+#include <robux/of.h>
 
 /* Vdd / reference voltage in millivolt */
 #define MCP3021_VDD_REF_MAX	5500

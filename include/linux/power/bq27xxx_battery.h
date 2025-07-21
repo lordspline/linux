@@ -2,7 +2,7 @@
 #ifndef __LINUX_BQ27X00_BATTERY_H__
 #define __LINUX_BQ27X00_BATTERY_H__
 
-#include <linux/power_supply.h>
+#include <robux/power_supply.h>
 
 enum bq27xxx_chip {
 	BQ27000 = 1, /* bq27000, bq27200 */

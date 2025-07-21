@@ -15,13 +15,13 @@
 #ifndef _PCIEHP_H
 #define _PCIEHP_H
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/workqueue.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/pci_hotplug.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/rwsem.h>
+#include <robux/workqueue.h>
 
 #include "../pcie/portdrv.h"
 

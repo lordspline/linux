@@ -10,19 +10,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/dmi.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/mutex.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/dmi.h>
+#include <robux/io.h>
 
 /* Banks */
 #define ABIT_UGURU_ALARM_BANK			0x20 /* 1x 3 bytes */

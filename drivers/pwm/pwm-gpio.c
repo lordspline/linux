@@ -8,21 +8,21 @@
  * Copyright (C) 2024 Linus Walleij
  */
 
-#include <linux/cleanup.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/hrtimer.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/spinlock.h>
-#include <linux/time.h>
-#include <linux/types.h>
+#include <robux/cleanup.h>
+#include <robux/container_of.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/hrtimer.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/pwm.h>
+#include <robux/spinlock.h>
+#include <robux/time.h>
+#include <robux/types.h>
 
 struct pwm_gpio {
 	struct hrtimer gpio_timer;

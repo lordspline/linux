@@ -7,18 +7,18 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/fsl/ftm.h>
-#include <linux/rtc.h>
-#include <linux/time.h>
-#include <linux/acpi.h>
-#include <linux/pm_wakeirq.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/fsl/ftm.h>
+#include <robux/rtc.h>
+#include <robux/time.h>
+#include <robux/acpi.h>
+#include <robux/pm_wakeirq.h>
 
 #define FTM_SC_CLK(c)		((c) << FTM_SC_CLK_MASK_SHIFT)
 

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 /* Copyright © 2024 Intel Corporation */
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 #include <drm/display/drm_dp.h>
 #include <drm/display/drm_dp_helper.h>

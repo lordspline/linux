@@ -8,18 +8,18 @@
  * Author: Jorge Eduardo Candelaria <jedu@slimlogic.co.uk>
  */
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/mfd/core.h>
-#include <linux/regmap.h>
-#include <linux/mfd/tps65910.h>
-#include <linux/of.h>
-#include <linux/property.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/mfd/core.h>
+#include <robux/regmap.h>
+#include <robux/mfd/tps65910.h>
+#include <robux/of.h>
+#include <robux/property.h>
 
 static const struct resource rtc_resources[] = {
 	{

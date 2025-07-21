@@ -6,14 +6,14 @@
  * also relocates SMC2, but this would require additional changes
  * to uart.c, so I am holding off on that for a moment.
  */
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/param.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
 #include <asm/irq.h>
 #include <asm/page.h>
 #include <asm/8xx_immap.h>

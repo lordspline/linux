@@ -6,7 +6,7 @@
  *
  * Based on 8253.h and various subdevice implementations in comedi drivers.
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Robux Control and Measurement Device Interface
  * Copyright (C) 2000 David A. Schleef <ds@schleef.org>
  */
 
@@ -116,11 +116,11 @@
  * counters is not handled by this module. These features are driver dependent.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/comedi/comedi_8254.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/comedi/comedidev.h>
+#include <robux/comedi/comedi_8254.h>
 
 #ifdef CONFIG_HAS_IOPORT
 

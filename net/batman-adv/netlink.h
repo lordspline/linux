@@ -9,8 +9,8 @@
 
 #include "main.h"
 
-#include <linux/netlink.h>
-#include <linux/types.h>
+#include <robux/netlink.h>
+#include <robux/types.h>
 #include <net/genetlink.h>
 
 void batadv_netlink_register(void);

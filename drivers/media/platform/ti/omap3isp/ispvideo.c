@@ -10,14 +10,14 @@
  *	     Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-#include <linux/clk.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/scatterlist.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/clk.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/pagemap.h>
+#include <robux/scatterlist.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 
 #include <media/v4l2-dev.h>
 #include <media/v4l2-ioctl.h>

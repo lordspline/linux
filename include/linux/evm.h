@@ -9,8 +9,8 @@
 #ifndef _LINUX_EVM_H
 #define _LINUX_EVM_H
 
-#include <linux/integrity.h>
-#include <linux/xattr.h>
+#include <robux/integrity.h>
+#include <robux/xattr.h>
 
 #ifdef CONFIG_EVM
 extern int evm_set_key(void *key, size_t keylen);

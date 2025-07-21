@@ -9,29 +9,29 @@
  *   Eduardo Valentin <eduardo.valentin@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/cpu_pm.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/reboot.h>
-#include <linux/spinlock.h>
-#include <linux/sys_soc.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/cpu_pm.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/reboot.h>
+#include <robux/spinlock.h>
+#include <robux/sys_soc.h>
+#include <robux/types.h>
 
 #include "ti-bandgap.h"
 

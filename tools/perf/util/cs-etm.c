@@ -6,14 +6,14 @@
  * Author: Mathieu Poirier <mathieu.poirier@linaro.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/coresight-pmu.h>
-#include <linux/err.h>
-#include <linux/log2.h>
-#include <linux/types.h>
-#include <linux/zalloc.h>
+#include <robux/kernel.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/coresight-pmu.h>
+#include <robux/err.h>
+#include <robux/log2.h>
+#include <robux/types.h>
+#include <robux/zalloc.h>
 
 #include <stdlib.h>
 

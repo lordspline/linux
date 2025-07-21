@@ -7,17 +7,17 @@
  * Based on android x86 kernel code which is:
  *
  * Copyright (c) 2014, Intel Corporation.
- * Author: David Cohen <david.a.cohen@linux.intel.com>
+ * Author: David Cohen <david.a.cohen@robux.intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/devm-helpers.h>
-#include <linux/extcon-provider.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <robux/acpi.h>
+#include <robux/devm-helpers.h>
+#include <robux/extcon-provider.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
 
 #define INT3496_GPIO_USB_ID	0
 #define INT3496_GPIO_VBUS_EN	1

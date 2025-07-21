@@ -6,41 +6,41 @@
  * Copyright (C) 1996-2000 Russell King - Converted to ARM.
  * Copyright (C) 2012 ARM Ltd.
  */
-#include <linux/compat.h>
-#include <linux/efi.h>
-#include <linux/elf.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/nospec.h>
-#include <linux/stddef.h>
-#include <linux/sysctl.h>
-#include <linux/unistd.h>
-#include <linux/user.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/elfcore.h>
-#include <linux/pm.h>
-#include <linux/tick.h>
-#include <linux/utsname.h>
-#include <linux/uaccess.h>
-#include <linux/random.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/personality.h>
-#include <linux/notifier.h>
+#include <robux/compat.h>
+#include <robux/efi.h>
+#include <robux/elf.h>
+#include <robux/export.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task.h>
+#include <robux/sched/task_stack.h>
+#include <robux/kernel.h>
+#include <robux/mman.h>
+#include <robux/mm.h>
+#include <robux/nospec.h>
+#include <robux/stddef.h>
+#include <robux/sysctl.h>
+#include <robux/unistd.h>
+#include <robux/user.h>
+#include <robux/delay.h>
+#include <robux/reboot.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/cpu.h>
+#include <robux/elfcore.h>
+#include <robux/pm.h>
+#include <robux/tick.h>
+#include <robux/utsname.h>
+#include <robux/uaccess.h>
+#include <robux/random.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/personality.h>
+#include <robux/notifier.h>
 #include <trace/events/power.h>
-#include <linux/percpu.h>
-#include <linux/thread_info.h>
-#include <linux/prctl.h>
-#include <linux/stacktrace.h>
+#include <robux/percpu.h>
+#include <robux/thread_info.h>
+#include <robux/prctl.h>
+#include <robux/stacktrace.h>
 
 #include <asm/alternative.h>
 #include <asm/arch_timer.h>
@@ -59,7 +59,7 @@
 #include <asm/system_misc.h>
 
 #if defined(CONFIG_STACKPROTECTOR) && !defined(CONFIG_STACKPROTECTOR_PER_TASK)
-#include <linux/stackprotector.h>
+#include <robux/stackprotector.h>
 unsigned long __stack_chk_guard __ro_after_init;
 EXPORT_SYMBOL(__stack_chk_guard);
 #endif

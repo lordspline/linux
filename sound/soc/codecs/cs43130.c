@@ -6,18 +6,18 @@
  *
  * Authors: Li Xu <li.xu@cirrus.com>
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/i2c.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/i2c.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
@@ -25,11 +25,11 @@
 #include <sound/soc-dapm.h>
 #include <sound/initval.h>
 #include <sound/tlv.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <robux/regulator/consumer.h>
+#include <robux/pm_runtime.h>
+#include <robux/completion.h>
+#include <robux/mutex.h>
+#include <robux/workqueue.h>
 #include <sound/jack.h>
 
 #include "cs43130.h"

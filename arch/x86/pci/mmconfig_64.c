@@ -8,11 +8,11 @@
 
 #define pr_fmt(fmt) "PCI: " fmt
 
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/bitmap.h>
-#include <linux/rcupdate.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/acpi.h>
+#include <robux/bitmap.h>
+#include <robux/rcupdate.h>
 #include <asm/e820/api.h>
 #include <asm/pci_x86.h>
 

@@ -11,16 +11,16 @@
 #define DRV_NAME	"sunxi-nmi"
 #define pr_fmt(fmt)	DRV_NAME ": " fmt
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
 
 #define SUNXI_NMI_SRC_TYPE_MASK	0x00000003
 

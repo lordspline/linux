@@ -4,8 +4,8 @@
  *  Copyright (c) u-boot contributors
  *  Copyright (c) 2012 Pavel Machek <pavel@denx.de>
  */
-#include <linux/linkage.h>
-#include <linux/init.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
 #include <asm/page.h>
 #include <asm/assembler.h>
 

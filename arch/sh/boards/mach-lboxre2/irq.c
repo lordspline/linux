@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/sh/boards/lboxre2/irq.c
+ * robux/arch/sh/boards/lboxre2/irq.c
  *
  * Copyright (C) 2007 Nobuhiro Iwamatsu
  *
  * NTT COMWARE L-BOX RE2 Support.
  */
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
 #include <asm/irq.h>
 #include <asm/io.h>
 #include <mach/lboxre2.h>

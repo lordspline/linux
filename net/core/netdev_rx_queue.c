@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/ethtool_netlink.h>
-#include <linux/netdevice.h>
+#include <robux/ethtool_netlink.h>
+#include <robux/netdevice.h>
 #include <net/netdev_lock.h>
 #include <net/netdev_queues.h>
 #include <net/netdev_rx_queue.h>

@@ -7,16 +7,16 @@
  *          Rafael J. Wysocki <rafael.j.wysocki@intel.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
-#include <linux/jiffies.h>
-#include <linux/stddef.h>
-#include <linux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/moduleparam.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/notifier.h>
+#include <robux/platform_device.h>
+#include <robux/jiffies.h>
+#include <robux/stddef.h>
+#include <robux/acpi.h>
 
 #include "internal.h"
 

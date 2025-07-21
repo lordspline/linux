@@ -4,18 +4,18 @@
  *
  * Copyright (c) 2020 Tomasz Duszynski <tomasz.duszynski@octakon.com>
  */
-#include <linux/crc16.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/iio/iio.h>
-#include <linux/jiffies.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/serdev.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <robux/crc16.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/iio/iio.h>
+#include <robux/jiffies.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/serdev.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/unaligned.h>
 
 #include "scd30.h"
 

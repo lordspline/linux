@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bitfield.h>
-#include <linux/cpufreq.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/cpufreq.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
 
 #include "cpufreq-dt.h"
 

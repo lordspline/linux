@@ -6,14 +6,14 @@
  *  Copyright (C) 2007  Yoshihiro Shimoda
  *  Copyright (C) 2008, 2009  Nobuhiro Iwamatsu
  */
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/sh_timer.h>
-#include <linux/sh_intc.h>
-#include <linux/io.h>
-#include <linux/serial_sci.h>
-#include <linux/usb/ohci_pdriver.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/serial.h>
+#include <robux/sh_timer.h>
+#include <robux/sh_intc.h>
+#include <robux/io.h>
+#include <robux/serial_sci.h>
+#include <robux/usb/ohci_pdriver.h>
 #include <asm/platform_early.h>
 
 static struct plat_sci_port scif0_platform_data = {

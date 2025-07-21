@@ -10,14 +10,14 @@
  * Copyright (c) 2006, Michael Wu <flamingice@sourmilk.net>
  * Copyright (c) 2004-2006 Jean-Baptiste Note <jbnote@gmail.com>, et al.
  */
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/spi/spi.h>
-#include <linux/etherdevice.h>
-#include <linux/firmware.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/gpio/consumer.h>
+#include <robux/mmc/sdio_func.h>
+#include <robux/spi/spi.h>
+#include <robux/etherdevice.h>
+#include <robux/firmware.h>
 
 #include "main.h"
 #include "wfx.h"

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-1.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-1.0+ WITH Robux-syscall-note */
 /*
  * Copyright (C) 2012 Google, Inc.
  *
@@ -12,8 +12,8 @@
 #ifndef _UAPI_LINUX_SYNC_H
 #define _UAPI_LINUX_SYNC_H
 
-#include <linux/ioctl.h>
-#include <linux/types.h>
+#include <robux/ioctl.h>
+#include <robux/types.h>
 
 /**
  * struct sync_merge_data - SYNC_IOC_MERGE: merge two fences

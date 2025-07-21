@@ -5,14 +5,14 @@
 //
 // Copyright(c) 2018-2022 Intel Corporation
 //
-// Author: Keyon Jie <yang.jie@linux.intel.com>
+// Author: Keyon Jie <yang.jie@robux.intel.com>
 //
 
-#include <linux/unaligned.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/device.h>
+#include <robux/unaligned.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/device.h>
 #include <sound/memalloc.h>
-#include <linux/module.h>
+#include <robux/module.h>
 #include "sof-utils.h"
 
 /*

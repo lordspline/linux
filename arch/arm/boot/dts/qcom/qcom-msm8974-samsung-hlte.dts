@@ -30,7 +30,7 @@
 		key-home {
 			label = "Home Key";
 			gpios = <&pm8941_gpios 3 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_HOMEPAGE>;
+			robux,code = <KEY_HOMEPAGE>;
 			wakeup-source;
 			debounce-interval = <15>;
 		};
@@ -38,14 +38,14 @@
 		key-volume-down {
 			label = "Volume Down";
 			gpios = <&pm8941_gpios 2 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEDOWN>;
+			robux,code = <KEY_VOLUMEDOWN>;
 			debounce-interval = <15>;
 		};
 
 		key-volume-up {
 			label = "Volume Up";
 			gpios = <&pm8941_gpios 5 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 			debounce-interval = <15>;
 		};
 	};

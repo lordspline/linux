@@ -7,21 +7,21 @@
  *  2000-12-*   x86-64 compatibility mode signal handling by Andi Kleen
  */
 
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/unistd.h>
-#include <linux/stddef.h>
-#include <linux/personality.h>
-#include <linux/compat.h>
-#include <linux/binfmts.h>
-#include <linux/syscalls.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/wait.h>
+#include <robux/unistd.h>
+#include <robux/stddef.h>
+#include <robux/personality.h>
+#include <robux/compat.h>
+#include <robux/binfmts.h>
+#include <robux/syscalls.h>
 #include <asm/ucontext.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/fpu/signal.h>
 #include <asm/ptrace.h>
 #include <asm/user32.h>

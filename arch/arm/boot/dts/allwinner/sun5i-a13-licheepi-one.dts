@@ -120,7 +120,7 @@
 
 	button-984 {
 		label = "Home";
-		linux,code = <KEY_HOMEPAGE>;
+		robux,code = <KEY_HOMEPAGE>;
 		channel = <0>;
 		voltage = <984126>;
 	};

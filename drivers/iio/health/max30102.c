@@ -11,19 +11,19 @@
  * TODO: proximity power saving feature
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/irq.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/kfifo_buf.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/irq.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
+#include <robux/mod_devicetable.h>
+#include <robux/regmap.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/kfifo_buf.h>
 
 #define MAX30102_REGMAP_NAME	"max30102_regmap"
 #define MAX30102_DRV_NAME	"max30102"

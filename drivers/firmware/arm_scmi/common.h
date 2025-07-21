@@ -9,20 +9,20 @@
 #ifndef _SCMI_COMMON_H
 #define _SCMI_COMMON_H
 
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/hashtable.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/refcount.h>
-#include <linux/scmi_protocol.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/hashtable.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/refcount.h>
+#include <robux/scmi_protocol.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "protocols.h"
 #include "notify.h"

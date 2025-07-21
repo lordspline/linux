@@ -3,10 +3,10 @@
  * Copyright (C) 2020 Unisoc Inc.
  */
 
-#include <linux/component.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/component.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 #include <video/mipi_display.h>
 
 #include <drm/drm_atomic_helper.h>

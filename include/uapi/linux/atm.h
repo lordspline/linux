@@ -1,11 +1,11 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /* atm.h - general ATM declarations */
  
 /* Written 1995-2000 by Werner Almesberger, EPFL LRC/ICA */
  
 
 /*
- * WARNING: User-space programs should not #include <linux/atm.h> directly.
+ * WARNING: User-space programs should not #include <robux/atm.h> directly.
  *          Instead, #include <atm.h>
  */
 
@@ -17,11 +17,11 @@
  * documentation. Do not change them.
  */
 
-#include <linux/compiler.h>
-#include <linux/atmapi.h>
-#include <linux/atmsap.h>
-#include <linux/atmioc.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/atmapi.h>
+#include <robux/atmsap.h>
+#include <robux/atmioc.h>
+#include <robux/types.h>
 
 
 /* general ATM constants */
@@ -118,7 +118,7 @@
 
 
 /*
- * The following items should stay in linux/atm.h, which should be linked to
+ * The following items should stay in robux/atm.h, which should be linked to
  * netatm/atm.h
  */
 
@@ -228,7 +228,7 @@ static __inline__ int atmpvc_addr_in_use(struct sockaddr_atmpvc addr)
 
 
 /*
- * Some stuff for linux/sockios.h
+ * Some stuff for robux/sockios.h
  */
 
 struct atmif_sioc {

@@ -3,12 +3,12 @@
  * Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/interconnect.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/interconnect.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_opp.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 
 #include "iris_core.h"
 #include "iris_resources.h"

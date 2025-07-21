@@ -7,9 +7,9 @@
 #ifndef I915_SCATTERLIST_H
 #define I915_SCATTERLIST_H
 
-#include <linux/pfn.h>
-#include <linux/scatterlist.h>
-#include <linux/dma-mapping.h>
+#include <robux/pfn.h>
+#include <robux/scatterlist.h>
+#include <robux/dma-mapping.h>
 #include <xen/xen.h>
 
 #include "i915_gem.h"

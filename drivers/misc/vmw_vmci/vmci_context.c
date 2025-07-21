@@ -5,14 +5,14 @@
  * Copyright (C) 2012 VMware, Inc. All rights reserved.
  */
 
-#include <linux/vmw_vmci_defs.h>
-#include <linux/vmw_vmci_api.h>
-#include <linux/highmem.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/slab.h>
+#include <robux/vmw_vmci_defs.h>
+#include <robux/vmw_vmci_api.h>
+#include <robux/highmem.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/cred.h>
+#include <robux/slab.h>
 
 #include "vmci_queue_pair.h"
 #include "vmci_datagram.h"

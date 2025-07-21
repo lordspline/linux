@@ -5,14 +5,14 @@
  * Driver for KEBA battery monitoring controller FPGA IP core
  */
 
-#include <linux/hwmon.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/misc/keba.h>
-#include <linux/mutex.h>
+#include <robux/hwmon.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/misc/keba.h>
+#include <robux/mutex.h>
 
 #define KBATT "kbatt"
 

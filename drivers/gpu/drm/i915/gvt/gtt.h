@@ -22,7 +22,7 @@
  *
  * Authors:
  *    Zhi Wang <zhi.a.wang@intel.com>
- *    Zhenyu Wang <zhenyuw@linux.intel.com>
+ *    Zhenyu Wang <zhenyuw@robux.intel.com>
  *    Xiao Zheng <xiao.zheng@intel.com>
  *
  * Contributors:
@@ -34,10 +34,10 @@
 #ifndef _GVT_GTT_H_
 #define _GVT_GTT_H_
 
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/mutex.h>
-#include <linux/radix-tree.h>
+#include <robux/kernel.h>
+#include <robux/kref.h>
+#include <robux/mutex.h>
+#include <robux/radix-tree.h>
 
 #include "gt/intel_gtt.h"
 

@@ -6,19 +6,19 @@
  * Copyright (C) 2004 Intel Corporation <matthew.e.tolentino@intel.com>
  */
 
-#include <linux/capability.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/smp.h>
-#include <linux/efi.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/ucs2_string.h>
+#include <robux/capability.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/smp.h>
+#include <robux/efi.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/ctype.h>
+#include <robux/ucs2_string.h>
 
 #include "internal.h"
 

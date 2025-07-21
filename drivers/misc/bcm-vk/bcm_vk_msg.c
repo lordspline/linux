@@ -3,16 +3,16 @@
  * Copyright 2018-2020 Broadcom.
  */
 
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/hash.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/poll.h>
-#include <linux/sizes.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/hash.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/poll.h>
+#include <robux/sizes.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
 
 #include "bcm_vk.h"
 #include "bcm_vk_msg.h"

@@ -5,17 +5,17 @@
  * Copyright 2024 Google LLC.
  */
 
-#include <linux/container_of.h>
-#include <linux/dev_printk.h>
-#include <linux/jiffies.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_usbpd_notify.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <robux/container_of.h>
+#include <robux/dev_printk.h>
+#include <robux/jiffies.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_usbpd_notify.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/wait.h>
 
 #include "ucsi.h"
 

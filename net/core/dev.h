@@ -2,10 +2,10 @@
 #ifndef _NET_CORE_DEV_H
 #define _NET_CORE_DEV_H
 
-#include <linux/cleanup.h>
-#include <linux/types.h>
-#include <linux/rwsem.h>
-#include <linux/netdevice.h>
+#include <robux/cleanup.h>
+#include <robux/types.h>
+#include <robux/rwsem.h>
+#include <robux/netdevice.h>
 #include <net/netdev_lock.h>
 
 struct net;

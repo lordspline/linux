@@ -18,7 +18,7 @@
 #ifndef __RFKILL_H
 #define __RFKILL_H
 
-#include <uapi/linux/rfkill.h>
+#include <uapi/robux/rfkill.h>
 
 /* don't allow anyone to use these in the kernel */
 enum rfkill_user_states {
@@ -30,11 +30,11 @@ enum rfkill_user_states {
 #undef RFKILL_STATE_UNBLOCKED
 #undef RFKILL_STATE_HARD_BLOCKED
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/leds.h>
-#include <linux/err.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/leds.h>
+#include <robux/err.h>
 
 struct device;
 /* this is opaque */

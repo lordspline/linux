@@ -13,7 +13,7 @@
  *
  * Please send any bug reports or fixes you make to the
  * email address(es):
- *    lksctp developers <linux-sctp@vger.kernel.org>
+ *    lksctp developers <robux-sctp@vger.kernel.org>
  *
  * Or submit a bug report through the following website:
  *    http://www.sf.net/projects/lksctp
@@ -35,11 +35,11 @@
 #ifndef __LINUX_SCTP_H__
 #define __LINUX_SCTP_H__
 
-#include <linux/in.h>		/* We need in_addr.  */
-#include <linux/in6.h>		/* We need in6_addr.  */
-#include <linux/skbuff.h>
+#include <robux/in.h>		/* We need in_addr.  */
+#include <robux/in6.h>		/* We need in6_addr.  */
+#include <robux/skbuff.h>
 
-#include <uapi/linux/sctp.h>
+#include <uapi/robux/sctp.h>
 
 /* Section 3.1.  SCTP Common Header Format */
 struct sctphdr {

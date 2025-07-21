@@ -5,20 +5,20 @@
  * Copyright (c) 2014 MundoReader S.L.
  * Author: Matthias Brugger <matthias.bgg@gmail.com>
  */
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/serial_8250.h>
-#include <linux/serial_reg.h>
-#include <linux/console.h>
-#include <linux/dma-mapping.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/serial_8250.h>
+#include <robux/serial_reg.h>
+#include <robux/console.h>
+#include <robux/dma-mapping.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
 
 #include "8250.h"
 

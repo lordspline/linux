@@ -3,10 +3,10 @@
  * Copyright (C) 1999  Eddie C. Dost  (ecd@atecom.com)
  */
 
-#include <linux/types.h>
-#include <linux/sched.h>
+#include <robux/types.h>
+#include <robux/sched.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/reg.h>
 #include <asm/switch_to.h>
 

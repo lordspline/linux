@@ -7,12 +7,12 @@
 
 #include "cx23885.h"
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
 #include <media/drv-intf/cx25840.h>
-#include <linux/firmware.h>
+#include <robux/firmware.h>
 #include <misc/altera.h>
 
 #include "xc2028.h"

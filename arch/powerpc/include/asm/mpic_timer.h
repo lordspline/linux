@@ -13,8 +13,8 @@
 #ifndef __MPIC_TIMER__
 #define __MPIC_TIMER__
 
-#include <linux/interrupt.h>
-#include <linux/time.h>
+#include <robux/interrupt.h>
+#include <robux/time.h>
 
 struct mpic_timer {
 	void			*dev;

@@ -11,12 +11,12 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/rpmsg.h>
-#include <linux/of_device.h>
-#include <linux/pm_domain.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/rpmsg.h>
+#include <robux/of_device.h>
+#include <robux/pm_domain.h>
+#include <robux/slab.h>
 
 #include "rpmsg_internal.h"
 

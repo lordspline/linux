@@ -7,7 +7,7 @@
 #define _CRYPTO_INTERNAL_POLY1305_H
 
 #include <crypto/poly1305.h>
-#include <linux/types.h>
+#include <robux/types.h>
 
 /*
  * Poly1305 core functions.  These only accept whole blocks; the caller must

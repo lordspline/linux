@@ -7,11 +7,11 @@
  * Copyright (C) 2008-2011 Florian Fainelli <florian@openwrt.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/driver.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/platform_device.h>
+#include <robux/gpio/driver.h>
 
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_gpio.h>

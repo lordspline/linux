@@ -2,12 +2,12 @@
 /*
  * Copyright (c) 2014 Broadcom Corporation
  */
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/ssb/ssb_regs.h>
-#include <linux/bcma/bcma.h>
-#include <linux/bcma/bcma_regs.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/list.h>
+#include <robux/ssb/ssb_regs.h>
+#include <robux/bcma/bcma.h>
+#include <robux/bcma/bcma_regs.h>
 
 #include <defs.h>
 #include <soc.h>

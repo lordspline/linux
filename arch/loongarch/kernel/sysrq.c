@@ -4,11 +4,11 @@
  *
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/sysrq.h>
-#include <linux/workqueue.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
+#include <robux/sysrq.h>
+#include <robux/workqueue.h>
 
 #include <asm/cpu-features.h>
 #include <asm/tlb.h>

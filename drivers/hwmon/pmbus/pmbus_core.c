@@ -6,23 +6,23 @@
  * Copyright (c) 2012 Guenter Roeck
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dcache.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/pmbus.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/of.h>
-#include <linux/thermal.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/dcache.h>
+#include <robux/kernel.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/pmbus.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/of.h>
+#include <robux/thermal.h>
 #include "pmbus.h"
 
 /*

@@ -4,12 +4,12 @@
  * Copyright(C) 2020 Intel Corporation
  */
 
-#include <linux/ethtool.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/stmmac.h>
+#include <robux/ethtool.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/stmmac.h>
 
 #include "dwmac4.h"
 #include "stmmac.h"

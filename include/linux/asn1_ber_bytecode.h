@@ -9,9 +9,9 @@
 #define _LINUX_ASN1_BER_BYTECODE_H
 
 #ifdef __KERNEL__
-#include <linux/types.h>
+#include <robux/types.h>
 #endif
-#include <linux/asn1.h>
+#include <robux/asn1.h>
 
 typedef int (*asn1_action_t)(void *context,
 			     size_t hdrlen, /* In case of ANY type */

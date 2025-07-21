@@ -3,15 +3,15 @@
  * Thunderbolt bus support
  *
  * Copyright (C) 2017, Intel Corporation
- * Author: Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Author: Mika Westerberg <mika.westerberg@robux.intel.com>
  */
 
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/random.h>
+#include <robux/device.h>
+#include <robux/idr.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/random.h>
 #include <crypto/hash.h>
 
 #include "tb.h"

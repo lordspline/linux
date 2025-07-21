@@ -4,13 +4,13 @@
  *
  * Copyright 2008-2009 Paul Mackerras, IBM Corporation.
  */
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/perf_event.h>
-#include <linux/percpu.h>
-#include <linux/hardirq.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/clock.h>
+#include <robux/perf_event.h>
+#include <robux/percpu.h>
+#include <robux/hardirq.h>
+#include <robux/uaccess.h>
 #include <asm/reg.h>
 #include <asm/pmc.h>
 #include <asm/machdep.h>

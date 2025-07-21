@@ -21,8 +21,8 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/seq_file.h>
+#include <robux/pci.h>
+#include <robux/seq_file.h>
 
 #include "r600_dpm.h"
 #include "radeon.h"

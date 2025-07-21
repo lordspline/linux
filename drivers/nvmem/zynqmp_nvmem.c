@@ -4,12 +4,12 @@
  * Copyright (C) 2022 - 2023, Advanced Micro Devices, Inc.
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/firmware/xlnx-zynqmp.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/firmware/xlnx-zynqmp.h>
 
 #define SILICON_REVISION_MASK 0xF
 #define P_USER_0_64_UPPER_MASK	GENMASK(31, 16)

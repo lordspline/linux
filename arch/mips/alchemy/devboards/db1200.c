@@ -5,23 +5,23 @@
  * Copyright (C) 2008-2011 Manuel Lauss
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/gpio.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/leds.h>
-#include <linux/mmc/host.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/platnand.h>
-#include <linux/platform_device.h>
-#include <linux/serial_8250.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/flash.h>
-#include <linux/smc91x.h>
-#include <linux/ata_platform.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/gpio.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/leds.h>
+#include <robux/mmc/host.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/platnand.h>
+#include <robux/platform_device.h>
+#include <robux/serial_8250.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/flash.h>
+#include <robux/smc91x.h>
+#include <robux/ata_platform.h>
 #include <asm/mach-au1x00/au1000.h>
 #include <asm/mach-au1x00/au1100_mmc.h>
 #include <asm/mach-au1x00/au1xxx_dbdma.h>

@@ -2,20 +2,20 @@
 /*
  *
  * Copyright (C) 2007 Google, Inc.
- * Copyright (c) 2009-2012,2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2009-2012,2014, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/cpu.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/sched_clock.h>
+#include <robux/clocksource.h>
+#include <robux/clockchips.h>
+#include <robux/cpu.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/sched_clock.h>
 
 #include <asm/delay.h>
 

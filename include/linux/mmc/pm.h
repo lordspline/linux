@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/include/linux/mmc/pm.h
+ * robux/include/robux/mmc/pm.h
  *
  * Author:	Nicolas Pitre
  * Copyright:	(C) 2009 Marvell Technology Group Ltd.

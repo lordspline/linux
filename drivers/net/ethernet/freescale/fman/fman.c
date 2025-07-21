@@ -6,17 +6,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/fsl/guts.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/clk.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/interrupt.h>
-#include <linux/libfdt_env.h>
+#include <robux/fsl/guts.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/clk.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/interrupt.h>
+#include <robux/libfdt_env.h>
 
 #include "fman.h"
 #include "fman_muram.h"

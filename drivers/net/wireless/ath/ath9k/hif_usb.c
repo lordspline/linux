@@ -14,7 +14,7 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include "htc.h"
 
 MODULE_FIRMWARE(HTC_7010_MODULE_FW);

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  */
 
-#include <linux/irqreturn.h>
-#include <linux/kd.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
+#include <robux/irqreturn.h>
+#include <robux/kd.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
 
 #include "chan.h"
 #include <irq_kern.h>

@@ -26,7 +26,7 @@
 #include "core_types.h"
 #include "clk_mgr_internal.h"
 #include "reg_helper.h"
-#include <linux/delay.h>
+#include <robux/delay.h>
 
 #include "dcn301_smu.h"
 #include "dm_helpers.h"

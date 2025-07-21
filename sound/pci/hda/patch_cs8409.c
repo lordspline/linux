@@ -6,12 +6,12 @@
  *                    Cirrus Logic International Semiconductor Ltd.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 #include <sound/core.h>
-#include <linux/mutex.h>
-#include <linux/iopoll.h>
+#include <robux/mutex.h>
+#include <robux/iopoll.h>
 
 #include "patch_cs8409.h"
 

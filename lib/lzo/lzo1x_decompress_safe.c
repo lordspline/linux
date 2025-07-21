@@ -7,17 +7,17 @@
  *  The full LZO package can be found at:
  *  http://www.oberhumer.com/opensource/lzo/
  *
- *  Changed for Linux kernel use by:
+ *  Changed for Robux kernel use by:
  *  Nitin Gupta <nitingupta910@gmail.com>
  *  Richard Purdie <rpurdie@openedhand.com>
  */
 
 #ifndef STATIC
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
 #endif
-#include <linux/unaligned.h>
-#include <linux/lzo.h>
+#include <robux/unaligned.h>
+#include <robux/lzo.h>
 #include "lzodefs.h"
 
 #define HAVE_IP(x)      ((size_t)(ip_end - ip) >= (size_t)(x))

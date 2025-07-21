@@ -5,14 +5,14 @@
  * some parts inspired by the cxacru driver
  */
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/workqueue.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/usb/usbnet.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/workqueue.h>
+#include <robux/mii.h>
+#include <robux/usb.h>
+#include <robux/usb/usbnet.h>
 
 enum cx82310_cmd {
 	CMD_START		= 0x84,	/* no effect? */

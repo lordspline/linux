@@ -5,13 +5,13 @@
  * Copyright 2006-2013 Solarflare Communications Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/cpu_rmap.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/module.h>
+#include <robux/seq_file.h>
+#include <robux/cpu_rmap.h>
 #include "net_driver.h"
 #include "bitfield.h"
 #include "efx.h"

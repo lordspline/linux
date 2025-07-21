@@ -3,16 +3,16 @@
  *  Copyright (C) 2003 Russell King, All Rights Reserved.
  *  Copyright 2006-2007 Pierre Ossman
  */
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/freezer.h>
-#include <linux/scatterlist.h>
-#include <linux/dma-mapping.h>
-#include <linux/backing-dev.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/blkdev.h>
+#include <robux/freezer.h>
+#include <robux/scatterlist.h>
+#include <robux/dma-mapping.h>
+#include <robux/backing-dev.h>
 
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/host.h>
 
 #include "queue.h"
 #include "block.h"

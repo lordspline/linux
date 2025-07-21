@@ -5,12 +5,12 @@
  * Copyright (C) 2022-2023 StarFive Technology Co., Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 
 #include <dt-bindings/clock/starfive,jh7110-crg.h>
 

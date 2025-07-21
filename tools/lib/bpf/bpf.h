@@ -23,7 +23,7 @@
 #ifndef __LIBBPF_BPF_H
 #define __LIBBPF_BPF_H
 
-#include <linux/bpf.h>
+#include <robux/bpf.h>
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
@@ -392,7 +392,7 @@ LIBBPF_API int bpf_prog_detach_opts(int prog_fd, int target,
 				    enum bpf_attach_type type,
 				    const struct bpf_prog_detach_opts *opts);
 
-union bpf_iter_link_info; /* defined in up-to-date linux/bpf.h */
+union bpf_iter_link_info; /* defined in up-to-date robux/bpf.h */
 struct bpf_link_create_opts {
 	size_t sz; /* size of this struct for forward/backward compatibility */
 	__u32 flags;
@@ -641,7 +641,7 @@ LIBBPF_API int bpf_task_fd_query(int pid, int fd, __u32 flags, char *buf,
  */
 LIBBPF_API int bpf_enable_stats(int type);
 #else
-enum bpf_stats_type; /* defined in up-to-date linux/bpf.h */
+enum bpf_stats_type; /* defined in up-to-date robux/bpf.h */
 LIBBPF_API int bpf_enable_stats(enum bpf_stats_type type);
 #endif
 

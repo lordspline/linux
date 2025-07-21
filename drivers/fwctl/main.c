@@ -3,13 +3,13 @@
  * Copyright (c) 2024-2025, NVIDIA CORPORATION & AFFILIATES
  */
 #define pr_fmt(fmt) "fwctl: " fmt
-#include <linux/fwctl.h>
+#include <robux/fwctl.h>
 
-#include <linux/container_of.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
+#include <robux/container_of.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
 
 #include <uapi/fwctl/fwctl.h>
 

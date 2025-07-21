@@ -7,15 +7,15 @@
  * Copyright (C) 2009 Michael Hennerich, Analog Devices Inc.
  */
 
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/input/adxl34x.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/input/adxl34x.h>
+#include <robux/module.h>
 
 #include "adxl34x.h"
 

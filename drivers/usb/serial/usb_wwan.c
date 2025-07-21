@@ -19,19 +19,19 @@
 #define DRIVER_AUTHOR "Matthias Urlichs <smurf@smurf.noris.de>"
 #define DRIVER_DESC "USB Driver for GSM modems"
 
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/serial.h>
-#include <linux/serial.h>
+#include <robux/kernel.h>
+#include <robux/jiffies.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/module.h>
+#include <robux/bitops.h>
+#include <robux/uaccess.h>
+#include <robux/usb.h>
+#include <robux/usb/cdc.h>
+#include <robux/usb/serial.h>
+#include <robux/serial.h>
 #include "usb-wwan.h"
 
 /*

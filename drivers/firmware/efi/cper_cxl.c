@@ -7,7 +7,7 @@
  * Author: Smita Koralahalli <Smita.KoralahalliChannabasappa@amd.com>
  */
 
-#include <linux/cper.h>
+#include <robux/cper.h>
 #include <cxl/event.h>
 
 static const char * const prot_err_agent_type_strs[] = {

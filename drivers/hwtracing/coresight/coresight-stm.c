@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2015-2016, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015-2016, The Robux Foundation. All rights reserved.
  *
  * Description: CoreSight System Trace Macrocell driver
  *
@@ -16,20 +16,20 @@
  * (C) 2015-2016 Chunyan Zhang <zhang.chunyan@linaro.org>
  */
 #include <asm/local.h>
-#include <linux/acpi.h>
-#include <linux/amba/bus.h>
-#include <linux/bitmap.h>
-#include <linux/clk.h>
-#include <linux/coresight.h>
-#include <linux/coresight-stm.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/of_address.h>
-#include <linux/perf_event.h>
-#include <linux/pm_runtime.h>
-#include <linux/stm.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/amba/bus.h>
+#include <robux/bitmap.h>
+#include <robux/clk.h>
+#include <robux/coresight.h>
+#include <robux/coresight-stm.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/moduleparam.h>
+#include <robux/of_address.h>
+#include <robux/perf_event.h>
+#include <robux/pm_runtime.h>
+#include <robux/stm.h>
+#include <robux/platform_device.h>
 
 #include "coresight-priv.h"
 #include "coresight-trace-id.h"

@@ -2,18 +2,18 @@
 //
 // Copyright (C) 2021-2022 Samuel Holland <samuel@sholland.org>
 
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
+#include <robux/crc8.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/matrix_keypad.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
+#include <robux/types.h>
 
 #define DRV_NAME			"pinephone-keyboard"
 

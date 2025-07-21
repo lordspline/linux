@@ -5,12 +5,12 @@
 
 #define dev_fmt(fmt)	"tegra-soc: " fmt
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/of.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/of.h>
+#include <robux/pm_opp.h>
+#include <robux/pm_runtime.h>
 
 #include <soc/tegra/common.h>
 #include <soc/tegra/fuse.h>

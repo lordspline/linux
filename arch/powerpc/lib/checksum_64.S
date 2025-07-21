@@ -8,8 +8,8 @@
  * Severely hacked about by Paul Mackerras (paulus@cs.anu.edu.au).
  */
 
-#include <linux/export.h>
-#include <linux/sys.h>
+#include <robux/export.h>
+#include <robux/sys.h>
 #include <asm/processor.h>
 #include <asm/errno.h>
 #include <asm/ppc_asm.h>

@@ -4,8 +4,8 @@
  *  GUS's memory allocation routines / bottom layer
  */
 
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 #include <sound/core.h>
 #include <sound/gus.h>
 #include <sound/info.h>

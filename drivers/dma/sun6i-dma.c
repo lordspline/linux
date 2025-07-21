@@ -7,20 +7,20 @@
  * Maxime Ripard <maxime.ripard@free-electrons.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/dmapool.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/types.h>
 
 #include "virt-dma.h"
 

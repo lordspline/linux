@@ -3,7 +3,7 @@
 
 /* flow director ethtool support for iavf */
 
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 #include "iavf.h"
 
 #define GTPU_PORT	2152

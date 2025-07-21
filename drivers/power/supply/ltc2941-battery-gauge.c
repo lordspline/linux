@@ -8,17 +8,17 @@
  * Author: Auryn Verwegen
  * Author: Mike Looijmans
  */
-#include <linux/devm-helpers.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/swab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
+#include <robux/devm-helpers.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/swab.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/power_supply.h>
+#include <robux/slab.h>
 
 #define I16_MSB(x)			((x >> 8) & 0xFF)
 #define I16_LSB(x)			(x & 0xFF)

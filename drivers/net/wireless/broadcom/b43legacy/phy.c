@@ -16,11 +16,11 @@
 
 */
 
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "b43legacy.h"
 #include "phy.h"

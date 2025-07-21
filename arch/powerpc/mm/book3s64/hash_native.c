@@ -8,13 +8,13 @@
 
 #undef DEBUG_LOW
 
-#include <linux/spinlock.h>
-#include <linux/bitops.h>
-#include <linux/of.h>
-#include <linux/processor.h>
-#include <linux/threads.h>
-#include <linux/smp.h>
-#include <linux/pgtable.h>
+#include <robux/spinlock.h>
+#include <robux/bitops.h>
+#include <robux/of.h>
+#include <robux/processor.h>
+#include <robux/threads.h>
+#include <robux/smp.h>
+#include <robux/pgtable.h>
 
 #include <asm/machdep.h>
 #include <asm/mmu.h>

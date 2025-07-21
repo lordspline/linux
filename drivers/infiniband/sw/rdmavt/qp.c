@@ -3,11 +3,11 @@
  * Copyright(c) 2016 - 2020 Intel Corporation.
  */
 
-#include <linux/hash.h>
-#include <linux/bitops.h>
-#include <linux/lockdep.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
+#include <robux/hash.h>
+#include <robux/bitops.h>
+#include <robux/lockdep.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
 #include <rdma/ib_verbs.h>
 #include <rdma/ib_hdrs.h>
 #include <rdma/opa_addr.h>

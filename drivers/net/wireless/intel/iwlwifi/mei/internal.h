@@ -6,8 +6,8 @@
 #ifndef __IWLMEI_INTERNAL_H_
 #define __IWLMEI_INTERNAL_H_
 
-#include <uapi/linux/if_ether.h>
-#include <linux/netdevice.h>
+#include <uapi/robux/if_ether.h>
+#include <robux/netdevice.h>
 
 #include "sap.h"
 

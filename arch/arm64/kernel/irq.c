@@ -10,16 +10,16 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/hardirq.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/kprobes.h>
-#include <linux/memory.h>
-#include <linux/scs.h>
-#include <linux/seq_file.h>
-#include <linux/smp.h>
-#include <linux/vmalloc.h>
+#include <robux/hardirq.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/kprobes.h>
+#include <robux/memory.h>
+#include <robux/scs.h>
+#include <robux/seq_file.h>
+#include <robux/smp.h>
+#include <robux/vmalloc.h>
 #include <asm/daifflags.h>
 #include <asm/exception.h>
 #include <asm/numa.h>

@@ -8,14 +8,14 @@
  * Author: Herve Codina <herve.codina@bootlin.com>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/limits.h>
+#include <robux/module.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
 
 struct x9250_cfg {
 	const char *name;

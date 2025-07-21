@@ -10,12 +10,12 @@
 #ifndef __LINUX_HSI_H__
 #define __LINUX_HSI_H__
 
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/scatterlist.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/scatterlist.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
 
 /* HSI message ttype */
 #define HSI_MSG_READ	0

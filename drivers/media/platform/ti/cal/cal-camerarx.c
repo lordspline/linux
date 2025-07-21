@@ -9,14 +9,14 @@
  *	Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-fwnode.h>

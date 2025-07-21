@@ -5,8 +5,8 @@
  * Copyright (C) 2014 - 2018 Linaro Ltd. <ard.biesheuvel@linaro.org>
  */
 
-#include <linux/linkage.h>
-#include <linux/cfi_types.h>
+#include <robux/linkage.h>
+#include <robux/cfi_types.h>
 #include <asm/assembler.h>
 
 	SHASH		.req	v0

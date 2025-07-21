@@ -7,12 +7,12 @@
  * Qiao Zhou <zhouqiao@marvell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/mfd/88pm80x.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/mfd/88pm80x.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #define PM800_LONG_ONKEY_EN		(1 << 0)
 #define PM800_LONG_KEY_DELAY		(8)	/* 1 .. 16 seconds */

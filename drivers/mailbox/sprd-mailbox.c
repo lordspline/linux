@@ -5,15 +5,15 @@
  * Copyright (c) 2020 Spreadtrum Communications Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/mailbox_controller.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
 
 #define SPRD_MBOX_ID		0x0
 #define SPRD_MBOX_MSG_LOW	0x4

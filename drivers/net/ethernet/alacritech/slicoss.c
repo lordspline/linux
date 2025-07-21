@@ -7,21 +7,21 @@
  * Copyright (C) 2016 Lino Sanfilippo <LinoSanfilippo@gmx.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/if_ether.h>
-#include <linux/crc32.h>
-#include <linux/dma-mapping.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/list.h>
-#include <linux/u64_stats_sync.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/if_ether.h>
+#include <robux/crc32.h>
+#include <robux/dma-mapping.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/list.h>
+#include <robux/u64_stats_sync.h>
 
 #include "slic.h"
 

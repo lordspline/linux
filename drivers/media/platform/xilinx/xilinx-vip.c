@@ -9,11 +9,11 @@
  *           Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/clk.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <dt-bindings/media/xilinx-vip.h>
 

@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2019 Nuvoton Technology corporation.
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/init.h>
-#include <linux/random.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/hw_random.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/init.h>
+#include <robux/random.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/hw_random.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
 
 #define NPCM_RNGCS_REG		0x00	/* Control and status register */
 #define NPCM_RNGD_REG		0x04	/* Data register */

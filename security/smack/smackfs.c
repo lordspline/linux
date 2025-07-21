@@ -12,19 +12,19 @@
  *	James Morris <jmorris@redhat.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/vmalloc.h>
-#include <linux/security.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/vmalloc.h>
+#include <robux/security.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
 #include <net/net_namespace.h>
 #include <net/cipso_ipv4.h>
-#include <linux/seq_file.h>
-#include <linux/ctype.h>
-#include <linux/audit.h>
-#include <linux/magic.h>
-#include <linux/mount.h>
-#include <linux/fs_context.h>
+#include <robux/seq_file.h>
+#include <robux/ctype.h>
+#include <robux/audit.h>
+#include <robux/magic.h>
+#include <robux/mount.h>
+#include <robux/fs_context.h>
 #include "smack.h"
 
 #define BEBITS	(sizeof(__be32) * 8)

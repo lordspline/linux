@@ -34,8 +34,8 @@
 #include "radeon_audio.h"
 #include "atom.h"
 
-#include <linux/pm_runtime.h>
-#include <linux/vga_switcheroo.h>
+#include <robux/pm_runtime.h>
+#include <robux/vga_switcheroo.h>
 
 void radeon_connector_hotplug(struct drm_connector *connector)
 {

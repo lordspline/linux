@@ -6,16 +6,16 @@
  * Author: Tanmay Inamdar <tinamdar@apm.com>
  *	   Duc Dang <dhdang@apm.com>
  */
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqchip/irq-msi-lib.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/of_pci.h>
+#include <robux/cpu.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/msi.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqchip/irq-msi-lib.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/of_pci.h>
 
 #define MSI_IR0			0x000000
 #define MSI_INT0		0x800000

@@ -2,8 +2,8 @@
 #ifndef __LINUX_CPUMASK_TYPES_H
 #define __LINUX_CPUMASK_TYPES_H
 
-#include <linux/bitops.h>
-#include <linux/threads.h>
+#include <robux/bitops.h>
+#include <robux/threads.h>
 
 /* Don't assign or return these: may not be this big! */
 typedef struct cpumask { DECLARE_BITMAP(bits, NR_CPUS); } cpumask_t;

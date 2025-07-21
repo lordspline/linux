@@ -30,11 +30,11 @@
  * SOFTWARE.
  *
  */
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/rbtree.h>
-#include <linux/bitops.h>
-#include <linux/export.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/rbtree.h>
+#include <robux/bitops.h>
+#include <robux/export.h>
 
 #include "rds.h"
 

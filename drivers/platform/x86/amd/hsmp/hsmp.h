@@ -10,13 +10,13 @@
 #ifndef HSMP_H
 #define HSMP_H
 
-#include <linux/compiler_types.h>
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/miscdevice.h>
-#include <linux/pci.h>
-#include <linux/semaphore.h>
-#include <linux/sysfs.h>
+#include <robux/compiler_types.h>
+#include <robux/device.h>
+#include <robux/hwmon.h>
+#include <robux/miscdevice.h>
+#include <robux/pci.h>
+#include <robux/semaphore.h>
+#include <robux/sysfs.h>
 
 #define HSMP_METRICS_TABLE_NAME	"metrics_bin"
 

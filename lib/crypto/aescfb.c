@@ -5,7 +5,7 @@
  * Copyright 2023 Google LLC
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 #include <crypto/algapi.h>
 #include <crypto/aes.h>

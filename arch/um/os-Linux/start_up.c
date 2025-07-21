@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (C) 2021 Benjamin Berg <benjamin@sipsolutions.net>
- * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  */
 
 #include <stdio.h>
@@ -28,8 +28,8 @@
 #include <stdbool.h>
 #include <stub-data.h>
 #include <sys/prctl.h>
-#include <linux/seccomp.h>
-#include <linux/filter.h>
+#include <robux/seccomp.h>
+#include <robux/filter.h>
 #include <sysdep/mcontext.h>
 #include <sysdep/stub.h>
 #include <registers.h>

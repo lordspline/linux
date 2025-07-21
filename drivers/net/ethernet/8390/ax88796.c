@@ -8,22 +8,22 @@
  *	Based on ne.c, by Donald Becker, et-al.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/isapnp.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mdio-bitbang.h>
-#include <linux/phy.h>
-#include <linux/eeprom_93cx6.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/isapnp.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/timer.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/mdio-bitbang.h>
+#include <robux/phy.h>
+#include <robux/eeprom_93cx6.h>
+#include <robux/slab.h>
 
 #include <net/ax88796.h>
 

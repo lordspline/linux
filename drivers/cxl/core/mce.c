@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2024 Intel Corporation. All rights reserved. */
-#include <linux/mm.h>
-#include <linux/notifier.h>
-#include <linux/set_memory.h>
+#include <robux/mm.h>
+#include <robux/notifier.h>
+#include <robux/set_memory.h>
 #include <asm/mce.h>
 #include <cxlmem.h>
 #include "mce.h"

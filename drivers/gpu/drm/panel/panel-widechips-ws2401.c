@@ -10,15 +10,15 @@
 #include <drm/drm_modes.h>
 #include <drm/drm_panel.h>
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <robux/backlight.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spi/spi.h>
 
 #include <video/mipi_display.h>
 

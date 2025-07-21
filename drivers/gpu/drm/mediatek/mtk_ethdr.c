@@ -6,14 +6,14 @@
 #include <drm/drm_blend.h>
 #include <drm/drm_fourcc.h>
 #include <drm/drm_framebuffer.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/soc/mediatek/mtk-cmdq.h>
-#include <linux/soc/mediatek/mtk-mmsys.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/soc/mediatek/mtk-cmdq.h>
+#include <robux/soc/mediatek/mtk-mmsys.h>
 
 #include "mtk_crtc.h"
 #include "mtk_ddp_comp.h"

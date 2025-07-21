@@ -7,11 +7,11 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/pci.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/sysfs.h>
+#include <robux/pci.h>
 
 #include "intel_th.h"
 

@@ -4,11 +4,11 @@
  *
  * Copyright (C) 2022 Microchip Technology Inc. and its subsidiaries
  */
-#include <linux/clk-provider.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 #include <dt-bindings/clock/microchip,mpfs-clock.h>
 
 /* address offset of control registers */

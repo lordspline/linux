@@ -3,9 +3,9 @@
  * Copyright (C) 2024 Rivos Inc.
  */
 
-#include <linux/cpu.h>
-#include <linux/device.h>
-#include <linux/sprintf.h>
+#include <robux/cpu.h>
+#include <robux/device.h>
+#include <robux/sprintf.h>
 
 #include <asm/bugs.h>
 #include <asm/vendor_extensions/thead.h>

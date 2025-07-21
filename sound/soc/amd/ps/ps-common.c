@@ -7,14 +7,14 @@
  * Authors: Vijendar Mukunda <Vijendar.Mukunda@amd.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 #include <sound/pcm_params.h>
 
 #include "acp63.h"

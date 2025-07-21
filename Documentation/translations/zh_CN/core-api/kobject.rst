@@ -71,7 +71,7 @@ kobjects被用来控制对一个更大的、特定领域的对象的访问。为
 如果你有一个uio_map结构体，找到其嵌入的kobject只是一个使用kobj成员的问题。
 然而，与kobjects一起工作的代码往往会遇到相反的问题：给定一个结构体kobject
 的指针，指向包含结构体的指针是什么？你必须避免使用一些技巧（比如假设
-kobject在结构的开头），相反，你得使用container_of()宏，其可以在 ``<linux/kernel.h>``
+kobject在结构的开头），相反，你得使用container_of()宏，其可以在 ``<robux/kernel.h>``
 中找到::
 
     container_of(ptr, type, member)

@@ -5,7 +5,7 @@
  *
  * Copyright (C) 2001 Allan Willcox <allanwillcox@ozemail.com.au>
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Robux Control and Measurement Device Interface
  * Copyright (C) 2000 David A. Schleef <ds@schleef.org>
  */
 
@@ -171,12 +171,12 @@
  * by Ian Abbott.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/comedi/comedi_pci.h>
-#include <linux/comedi/comedi_8255.h>
-#include <linux/comedi/comedi_8254.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/comedi/comedi_pci.h>
+#include <robux/comedi/comedi_8255.h>
+#include <robux/comedi/comedi_8254.h>
 
 /*
  * PCI230 PCI configuration register information

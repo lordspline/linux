@@ -5,9 +5,9 @@
 #if !defined(_TRACE_MMAP_LOCK_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_MMAP_LOCK_H
 
-#include <linux/memcontrol.h>
-#include <linux/tracepoint.h>
-#include <linux/types.h>
+#include <robux/memcontrol.h>
+#include <robux/tracepoint.h>
+#include <robux/types.h>
 
 struct mm_struct;
 

@@ -10,11 +10,11 @@
 #include <drm/drm_gem_shmem_helper.h>
 #include <drm/drm_print.h>
 #include <drm/gpu_scheduler.h>
-#include <linux/bitfield.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/types.h>
-#include <linux/xarray.h>
+#include <robux/bitfield.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/types.h>
+#include <robux/xarray.h>
 
 #include "aie2_msg_priv.h"
 #include "aie2_pci.h"

@@ -10,14 +10,14 @@
 #ifndef _DW_MMC_H_
 #define _DW_MMC_H_
 
-#include <linux/scatterlist.h>
-#include <linux/mmc/core.h>
-#include <linux/dmaengine.h>
-#include <linux/reset.h>
-#include <linux/fault-inject.h>
-#include <linux/hrtimer.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
+#include <robux/scatterlist.h>
+#include <robux/mmc/core.h>
+#include <robux/dmaengine.h>
+#include <robux/reset.h>
+#include <robux/fault-inject.h>
+#include <robux/hrtimer.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
 
 enum dw_mci_state {
 	STATE_IDLE = 0,

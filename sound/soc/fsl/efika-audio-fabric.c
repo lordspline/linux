@@ -10,14 +10,14 @@
  * kind, whether express or implied.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

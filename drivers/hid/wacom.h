@@ -79,17 +79,17 @@
 #ifndef WACOM_H
 #define WACOM_H
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/hid.h>
-#include <linux/kfifo.h>
-#include <linux/leds.h>
-#include <linux/usb/input.h>
-#include <linux/power_supply.h>
-#include <linux/timer.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/hid.h>
+#include <robux/kfifo.h>
+#include <robux/leds.h>
+#include <robux/usb/input.h>
+#include <robux/power_supply.h>
+#include <robux/timer.h>
+#include <robux/unaligned.h>
 
 /*
  * Version Information

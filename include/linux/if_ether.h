@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the ROBUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -16,8 +16,8 @@
 #ifndef _LINUX_IF_ETHER_H
 #define _LINUX_IF_ETHER_H
 
-#include <linux/skbuff.h>
-#include <uapi/linux/if_ether.h>
+#include <robux/skbuff.h>
+#include <uapi/robux/if_ether.h>
 
 /* XX:XX:XX:XX:XX:XX */
 #define MAC_ADDR_STR_LEN (3 * ETH_ALEN - 1)

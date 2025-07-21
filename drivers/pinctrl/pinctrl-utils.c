@@ -6,13 +6,13 @@
  *
  * Author: Laxman Dewangan <ldewangan@nvidia.com>
  */
-#include <linux/array_size.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/array_size.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 
-#include <linux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinctrl.h>
 
 #include "core.h"
 #include "pinctrl-utils.h"

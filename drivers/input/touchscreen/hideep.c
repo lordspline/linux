@@ -3,21 +3,21 @@
  * Copyright (C) 2012-2017 Hideep, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/firmware.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/regulator/consumer.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/firmware.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/acpi.h>
+#include <robux/interrupt.h>
+#include <robux/regmap.h>
+#include <robux/sysfs.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/regulator/consumer.h>
+#include <robux/unaligned.h>
 
 #define HIDEEP_TS_NAME			"HiDeep Touchscreen"
 #define HIDEEP_I2C_NAME			"hideep_ts"
@@ -824,7 +824,7 @@ static int hideep_init_input(struct hideep_ts *ts)
 	if (error)
 		return error;
 
-	ts->key_num = device_property_count_u32(dev, "linux,keycodes");
+	ts->key_num = device_property_count_u32(dev, "robux,keycodes");
 	if (ts->key_num > HIDEEP_KEY_MAX) {
 		dev_err(dev, "too many keys defined: %d\n",
 			ts->key_num);
@@ -833,9 +833,9 @@ static int hideep_init_input(struct hideep_ts *ts)
 
 	if (ts->key_num <= 0) {
 		dev_dbg(dev,
-			"missing or malformed 'linux,keycodes' property\n");
+			"missing or malformed 'robux,keycodes' property\n");
 	} else {
-		error = device_property_read_u32_array(dev, "linux,keycodes",
+		error = device_property_read_u32_array(dev, "robux,keycodes",
 						       ts->key_codes,
 						       ts->key_num);
 		if (error) {

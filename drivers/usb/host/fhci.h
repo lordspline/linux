@@ -14,16 +14,16 @@
 #ifndef __FHCI_H
 #define __FHCI_H
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/bug.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/kfifo.h>
-#include <linux/io.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/bug.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/kfifo.h>
+#include <robux/io.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/gpio/consumer.h>
 #include <soc/fsl/qe/qe.h>
 #include <soc/fsl/qe/immap_qe.h>
 

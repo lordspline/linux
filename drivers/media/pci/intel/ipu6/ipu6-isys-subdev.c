@@ -3,9 +3,9 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/minmax.h>
+#include <robux/bug.h>
+#include <robux/device.h>
+#include <robux/minmax.h>
 
 #include <media/media-entity.h>
 #include <media/mipi-csi2.h>

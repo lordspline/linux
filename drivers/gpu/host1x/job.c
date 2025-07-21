@@ -5,15 +5,15 @@
  * Copyright (c) 2010-2015, NVIDIA Corporation.
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/host1x.h>
-#include <linux/iommu.h>
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/host1x.h>
+#include <robux/iommu.h>
+#include <robux/kref.h>
+#include <robux/module.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 #include <trace/events/host1x.h>
 
 #include "channel.h"

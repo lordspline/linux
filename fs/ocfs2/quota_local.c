@@ -3,11 +3,11 @@
  *  Implementation of operations over local quota file
  */
 
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/quota.h>
-#include <linux/quotaops.h>
-#include <linux/module.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/quota.h>
+#include <robux/quotaops.h>
+#include <robux/module.h>
 
 #include <cluster/masklog.h>
 

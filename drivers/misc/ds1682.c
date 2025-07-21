@@ -28,14 +28,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/string.h>
-#include <linux/list.h>
-#include <linux/nvmem-provider.h>
-#include <linux/sysfs.h>
-#include <linux/ctype.h>
-#include <linux/hwmon-sysfs.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/string.h>
+#include <robux/list.h>
+#include <robux/nvmem-provider.h>
+#include <robux/sysfs.h>
+#include <robux/ctype.h>
+#include <robux/hwmon-sysfs.h>
 
 /* Device registers */
 #define DS1682_REG_CONFIG		0x00

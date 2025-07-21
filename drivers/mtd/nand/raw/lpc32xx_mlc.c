@@ -13,24 +13,24 @@
  * - Tested Page Sizes: 2048, 4096
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mtd/lpc32xx_mlc.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/completion.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/gpio/consumer.h>
+#include <robux/mtd/lpc32xx_mlc.h>
+#include <robux/io.h>
+#include <robux/mm.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
 
 #define DRV_NAME "lpc32xx_mlc"
 

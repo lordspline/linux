@@ -1,5 +1,5 @@
 =============================================
-Linux voltage and current regulator framework
+Robux voltage and current regulator framework
 =============================================
 
 About

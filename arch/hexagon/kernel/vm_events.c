@@ -2,14 +2,14 @@
 /*
  * Mostly IRQ support for Hexagon
  *
- * Copyright (c) 2010-2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2012, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/sched/debug.h>
+#include <robux/kernel.h>
+#include <robux/sched/debug.h>
 #include <asm/registers.h>
-#include <linux/irq.h>
-#include <linux/hardirq.h>
+#include <robux/irq.h>
+#include <robux/hardirq.h>
 
 /*
  * show_regs - print pt_regs structure

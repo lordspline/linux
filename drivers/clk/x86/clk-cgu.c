@@ -5,9 +5,9 @@
  * Zhu Yixin <yzhu@maxlinear.com>
  * Rahul Tanwar <rtanwar@maxlinear.com>
  */
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/of.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/of.h>
 
 #include "clk-cgu.h"
 

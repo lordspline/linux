@@ -4,18 +4,18 @@
  *
  */
 
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/module.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/usb.h>
+#include <robux/module.h>
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include "pegasus.h"
 
 /*

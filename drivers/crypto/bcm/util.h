@@ -6,8 +6,8 @@
 #ifndef _UTIL_H
 #define _UTIL_H
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
 
 #include "spu.h"
 

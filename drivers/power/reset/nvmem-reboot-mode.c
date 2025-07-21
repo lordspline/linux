@@ -3,13 +3,13 @@
  * Copyright (c) Vaisala Oyj. All rights reserved.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/platform_device.h>
-#include <linux/reboot-mode.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/platform_device.h>
+#include <robux/reboot-mode.h>
 
 struct nvmem_reboot_mode {
 	struct reboot_mode_driver reboot;

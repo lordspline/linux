@@ -9,7 +9,7 @@
  *	- implements the IMA hook: ima_inode_free
  *	- cache integrity information in the inode security blob
  */
-#include <linux/slab.h>
+#include <robux/slab.h>
 
 #include "ima.h"
 

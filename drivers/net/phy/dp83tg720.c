@@ -2,13 +2,13 @@
 /* Driver for the Texas Instruments DP83TG720 PHY
  * Copyright (c) 2023 Pengutronix, Oleksij Rempel <kernel@pengutronix.de>
  */
-#include <linux/bitfield.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/phy.h>
-#include <linux/random.h>
+#include <robux/bitfield.h>
+#include <robux/ethtool_netlink.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/phy.h>
+#include <robux/random.h>
 
 #include "open_alliance_helpers.h"
 
@@ -532,7 +532,7 @@ static int dp83tg720_probe(struct phy_device *phydev)
  * This function addresses a limitation of the DP83TG720 PHY, which cannot
  * reliably detect or report a stable link state. To recover from such
  * scenarios, the PHY must be periodically reset when the link is down. However,
- * if the link partner also runs Linux with the same driver, synchronized reset
+ * if the link partner also runs Robux with the same driver, synchronized reset
  * intervals can lead to a deadlock where the link never establishes due to
  * simultaneous resets on both sides.
  *

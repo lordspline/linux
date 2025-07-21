@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *    Hypervisor filesystem for Linux on s390. z/VM implementation.
+ *    Hypervisor filesystem for Robux on s390. z/VM implementation.
  *
  *    Copyright IBM Corp. 2006
  *    Author(s): Michael Holzheu <holzheu@de.ibm.com>
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/vmalloc.h>
 #include <asm/extable.h>
 #include <asm/diag.h>
 #include <asm/ebcdic.h>

@@ -5,8 +5,8 @@
 #ifndef _WCD937X_REGISTERS_H
 #define _WCD937X_REGISTERS_H
 
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/soundwire/sdw_type.h>
 
 #define WCD937X_BASE_ADDRESS			0x3000
 #define WCD937X_ANA_BIAS			0x3001

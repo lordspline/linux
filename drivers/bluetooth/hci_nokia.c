@@ -6,21 +6,21 @@
  *  Copyright (C) 2015-2017 Sebastian Reichel <sre@kernel.org>
  */
 
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/serdev.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <robux/clk.h>
+#include <robux/errno.h>
+#include <robux/firmware.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/serdev.h>
+#include <robux/skbuff.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/unaligned.h>
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>
 

@@ -8,17 +8,17 @@
  *
  */
 
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/of_device.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/mailbox/mchp-ipc.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/smp.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/of_device.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
+#include <robux/mailbox/mchp-ipc.h>
 #include <asm/sbi.h>
 #include <asm/vendorid_list.h>
 

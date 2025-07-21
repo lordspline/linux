@@ -5,11 +5,11 @@
  * -------------------------------------------------------------------------
  */
 
-#include <linux/module.h>
-#include <linux/nfc.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
+#include <robux/module.h>
+#include <robux/nfc.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
 #include <net/nfc/nci_core.h>
 
 #include "fdp.h"

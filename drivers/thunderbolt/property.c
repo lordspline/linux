@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2017, Intel Corporation
  * Authors: Michael Jamet <michael.jamet@intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
+ *          Mika Westerberg <mika.westerberg@robux.intel.com>
  */
 
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/uuid.h>
-#include <linux/thunderbolt.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/uuid.h>
+#include <robux/thunderbolt.h>
 
 struct tb_property_entry {
 	u32 key_hi;

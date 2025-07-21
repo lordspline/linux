@@ -9,15 +9,15 @@
  * Inspired by the w1_therm and w1_ds2431 drivers.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/crc16.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/device.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/crc16.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 #define W1_COUNTER_DS2423	0x1D
 

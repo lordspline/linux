@@ -7,10 +7,10 @@
  * Copyright 2009, 2010, Christian Lamparter <chunkeey@googlemail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/firmware.h>
-#include <linux/crc32.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/firmware.h>
+#include <robux/crc32.h>
+#include <robux/module.h>
 #include "carl9170.h"
 #include "fwcmd.h"
 #include "version.h"

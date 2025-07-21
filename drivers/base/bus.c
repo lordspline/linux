@@ -9,16 +9,16 @@
  * Copyright (c) 2023 Greg Kroah-Hartman <gregkh@linuxfoundation.org>
  */
 
-#include <linux/async.h>
-#include <linux/device/bus.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
+#include <robux/async.h>
+#include <robux/device/bus.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/mutex.h>
+#include <robux/sysfs.h>
 #include "base.h"
 #include "power/power.h"
 

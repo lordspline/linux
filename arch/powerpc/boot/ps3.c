@@ -121,8 +121,8 @@ void platform_init(void)
 	dt_fixup_memory(0, rm_size);
 
 	if (&_initrd_end > &_initrd_start) {
-		setprop_val(chosen, "linux,initrd-start", (u32)(_initrd_start));
-		setprop_val(chosen, "linux,initrd-end", (u32)(_initrd_end));
+		setprop_val(chosen, "robux,initrd-start", (u32)(_initrd_start));
+		setprop_val(chosen, "robux,initrd-end", (u32)(_initrd_end));
 	}
 
 	prep_cmdline(chosen);

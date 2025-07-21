@@ -9,31 +9,31 @@
  *   ar933x_uart.c
  *     Copyright (C) 2011 Gabor Juhos <juhosg@openwrt.org>
  *
- *   rocketport_infinity_express-linux-1.20.tar.gz
+ *   rocketport_infinity_express-robux-1.20.tar.gz
  *     Copyright (C) 2004-2011 Comtrol, Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/completion.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/compiler.h>
+#include <robux/completion.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/log2.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/slab.h>
+#include <robux/sysrq.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/types.h>
 
 #define DRV_NAME			"rp2"
 

@@ -8,16 +8,16 @@
 
 #define pr_fmt(fmt) "opal core: " fmt
 
-#include <linux/memblock.h>
-#include <linux/uaccess.h>
-#include <linux/proc_fs.h>
-#include <linux/elf.h>
-#include <linux/elfcore.h>
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
-#include <linux/vmcore_info.h>
-#include <linux/of.h>
+#include <robux/memblock.h>
+#include <robux/uaccess.h>
+#include <robux/proc_fs.h>
+#include <robux/elf.h>
+#include <robux/elfcore.h>
+#include <robux/kobject.h>
+#include <robux/sysfs.h>
+#include <robux/slab.h>
+#include <robux/vmcore_info.h>
+#include <robux/of.h>
 
 #include <asm/page.h>
 #include <asm/opal.h>

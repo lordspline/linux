@@ -13,10 +13,10 @@
 #if !defined(__INTEL_DISPLAY_TRACE_H__) || defined(TRACE_HEADER_MULTI_READ)
 #define __INTEL_DISPLAY_TRACE_H__
 
-#include <linux/string.h>
-#include <linux/string_helpers.h>
-#include <linux/types.h>
-#include <linux/tracepoint.h>
+#include <robux/string.h>
+#include <robux/string_helpers.h>
+#include <robux/types.h>
+#include <robux/tracepoint.h>
 
 #include "intel_crtc.h"
 #include "intel_display_core.h"

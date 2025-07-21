@@ -11,16 +11,16 @@
  * Author: Wu, Hao
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/usb/role.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/usb/role.h>
 
 /* register definition */
 #define DUAL_ROLE_CFG0			0x68

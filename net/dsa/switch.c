@@ -2,14 +2,14 @@
 /*
  * Handling of a single switch chip, part of a switch fabric
  *
- * Copyright (c) 2017 Savoir-faire Linux Inc.
+ * Copyright (c) 2017 Savoir-faire Robux Inc.
  *	Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  */
 
-#include <linux/if_bridge.h>
-#include <linux/netdevice.h>
-#include <linux/notifier.h>
-#include <linux/if_vlan.h>
+#include <robux/if_bridge.h>
+#include <robux/netdevice.h>
+#include <robux/notifier.h>
+#include <robux/if_vlan.h>
 #include <net/switchdev.h>
 
 #include "dsa.h"

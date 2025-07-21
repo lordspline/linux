@@ -13,14 +13,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/backlight.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
+#include <robux/backlight.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/input/sparse-keymap.h>
+#include <robux/dmi.h>
+#include <robux/acpi.h>
 
 #include "asus-wmi.h"
 
@@ -174,7 +174,7 @@ static int eeepc_wmi_probe(struct platform_device *pdev)
 		pr_warn("Found legacy ATKD device (%s)\n", EEEPC_ACPI_HID);
 		pr_warn("WMI device present, but legacy ATKD device is also "
 			"present and enabled\n");
-		pr_warn("You probably booted with acpi_osi=\"Linux\" or "
+		pr_warn("You probably booted with acpi_osi=\"Robux\" or "
 			"acpi_osi=\"!Windows 2009\"\n");
 		pr_warn("Can't load eeepc-wmi, use default acpi_osi "
 			"(preferred) or eeepc-laptop\n");

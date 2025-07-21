@@ -2,14 +2,14 @@
 
 #define pr_fmt(fmt) "smccc: KVM: " fmt
 
-#include <linux/arm-smccc.h>
-#include <linux/bitmap.h>
-#include <linux/cache.h>
-#include <linux/kernel.h>
-#include <linux/memblock.h>
-#include <linux/string.h>
+#include <robux/arm-smccc.h>
+#include <robux/bitmap.h>
+#include <robux/cache.h>
+#include <robux/kernel.h>
+#include <robux/memblock.h>
+#include <robux/string.h>
 
-#include <uapi/linux/psci.h>
+#include <uapi/robux/psci.h>
 
 #include <asm/hypervisor.h>
 

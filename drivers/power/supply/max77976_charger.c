@@ -6,10 +6,10 @@
  * Author: Luca Ceresoli <luca.ceresoli@bootlin.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
 
 #define MAX77976_DRIVER_NAME	"max77976-charger"
 #define MAX77976_CHIP_ID	0x76

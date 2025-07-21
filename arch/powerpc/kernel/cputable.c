@@ -6,13 +6,13 @@
  *      Copyright (C) 2003 Dave Engebretsen <engebret@us.ibm.com>
  */
 
-#include <linux/string.h>
-#include <linux/sched.h>
-#include <linux/threads.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/jump_label.h>
-#include <linux/of.h>
+#include <robux/string.h>
+#include <robux/sched.h>
+#include <robux/threads.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/jump_label.h>
+#include <robux/of.h>
 
 #include <asm/cputable.h>
 #include <asm/mce.h>

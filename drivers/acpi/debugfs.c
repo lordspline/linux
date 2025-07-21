@@ -3,10 +3,10 @@
  * debugfs.c - ACPI debugfs interface to userspace.
  */
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/acpi.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/debugfs.h>
+#include <robux/acpi.h>
 
 #include "internal.h"
 

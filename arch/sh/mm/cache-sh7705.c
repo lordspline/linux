@@ -9,18 +9,18 @@
  * for more details.
  *
  */
-#include <linux/init.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/threads.h>
+#include <robux/init.h>
+#include <robux/mman.h>
+#include <robux/mm.h>
+#include <robux/fs.h>
+#include <robux/pagemap.h>
+#include <robux/threads.h>
 #include <asm/addrspace.h>
 #include <asm/page.h>
 #include <asm/processor.h>
 #include <asm/cache.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/mmu_context.h>
 #include <asm/cacheflush.h>
 

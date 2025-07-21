@@ -4,13 +4,13 @@
  * Author: Lorenzo Bianconi <lorenzo@kernel.org>
  */
 
-#include <linux/devcoredump.h>
-#include <linux/firmware.h>
-#include <linux/platform_device.h>
-#include <linux/of_net.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/regmap.h>
+#include <robux/devcoredump.h>
+#include <robux/firmware.h>
+#include <robux/platform_device.h>
+#include <robux/of_net.h>
+#include <robux/of_platform.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/regmap.h>
 
 #include "airoha_eth.h"
 #include "airoha_npu.h"

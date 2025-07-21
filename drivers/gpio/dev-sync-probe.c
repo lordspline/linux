@@ -9,8 +9,8 @@
  * Copyright (C) 2025 Koichiro Den <koichiro.den@canonical.com>
  */
 
-#include <linux/device.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/slab.h>
 
 #include "dev-sync-probe.h"
 

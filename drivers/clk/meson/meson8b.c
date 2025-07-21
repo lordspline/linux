@@ -7,14 +7,14 @@
  * Michael Turquette <mturquette@baylibre.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/init.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of_address.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/init.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of_address.h>
+#include <robux/reset-controller.h>
+#include <robux/slab.h>
+#include <robux/regmap.h>
 
 #include "meson8b.h"
 #include "clk-regmap.h"

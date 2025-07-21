@@ -13,18 +13,18 @@
 #include <crypto/engine.h>
 #include <crypto/internal/hash.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/reset.h>
+#include <robux/spinlock.h>
 
 static struct rockchip_ip rocklist = {
 	.dev_list = LIST_HEAD_INIT(rocklist.dev_list),

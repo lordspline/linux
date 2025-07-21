@@ -17,22 +17,22 @@
 
 #undef PARPORT_DEBUG_SHARING		/* undef for production */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/threads.h>
-#include <linux/parport.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
-#include <linux/kmod.h>
-#include <linux/device.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/threads.h>
+#include <robux/parport.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/sched/signal.h>
+#include <robux/kmod.h>
+#include <robux/device.h>
 
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
 #include <asm/irq.h>
 
 #undef PARPORT_PARANOID

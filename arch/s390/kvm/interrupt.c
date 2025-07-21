@@ -10,20 +10,20 @@
 #define KMSG_COMPONENT "kvm-s390"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/cpufeature.h>
-#include <linux/interrupt.h>
-#include <linux/kvm_host.h>
-#include <linux/hrtimer.h>
-#include <linux/mmu_context.h>
-#include <linux/nospec.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/bitmap.h>
-#include <linux/vmalloc.h>
+#include <robux/cpufeature.h>
+#include <robux/interrupt.h>
+#include <robux/kvm_host.h>
+#include <robux/hrtimer.h>
+#include <robux/mmu_context.h>
+#include <robux/nospec.h>
+#include <robux/signal.h>
+#include <robux/slab.h>
+#include <robux/bitmap.h>
+#include <robux/vmalloc.h>
 #include <asm/access-regs.h>
 #include <asm/asm-offsets.h>
 #include <asm/dis.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/sclp.h>
 #include <asm/isc.h>
 #include <asm/gmap.h>
@@ -1764,7 +1764,7 @@ out:
  *
  * Note that for a guest that does not enable I/O interrupts
  * but relies on TPI, a flood of classic interrupts may starve
- * out adapter interrupts on the same isc. Linux does not do
+ * out adapter interrupts on the same isc. Robux does not do
  * that, and it is possible to work around the issue by configuring
  * different iscs for classic and adapter interrupts in the guest,
  * but we may want to revisit this in the future.

@@ -16,16 +16,16 @@
  * Copyright 2011 Google, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kobject.h>
-#include <linux/dmi.h>
-#include <linux/capability.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kobject.h>
+#include <robux/dmi.h>
+#include <robux/capability.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/io.h>
 #include <asm/dmi.h>
 
 #define MAX_ENTRY_TYPE 255 /* Most of these aren't used, but we consider

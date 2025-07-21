@@ -11,14 +11,14 @@
  *         Roger Quadros <rogerq@ti.com>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/pm_runtime.h>
 
 #include "core.h"
 #include "host-export.h"

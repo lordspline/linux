@@ -7,33 +7,33 @@
  * Copyright © 2006      Red Hat UK Limited 
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/major.h>
-#include <linux/fs.h>
-#include <linux/err.h>
-#include <linux/ioctl.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/proc_fs.h>
-#include <linux/idr.h>
-#include <linux/backing-dev.h>
-#include <linux/gfp.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/reboot.h>
-#include <linux/leds.h>
-#include <linux/debugfs.h>
-#include <linux/nvmem-provider.h>
-#include <linux/root_dev.h>
-#include <linux/error-injection.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/seq_file.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/major.h>
+#include <robux/fs.h>
+#include <robux/err.h>
+#include <robux/ioctl.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/proc_fs.h>
+#include <robux/idr.h>
+#include <robux/backing-dev.h>
+#include <robux/gfp.h>
+#include <robux/random.h>
+#include <robux/slab.h>
+#include <robux/reboot.h>
+#include <robux/leds.h>
+#include <robux/debugfs.h>
+#include <robux/nvmem-provider.h>
+#include <robux/root_dev.h>
+#include <robux/error-injection.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
 
 #include "mtdcore.h"
 
@@ -771,7 +771,7 @@ int add_mtd_device(struct mtd_info *mtd)
 
 	mutex_unlock(&mtd_table_mutex);
 
-	if (of_property_read_bool(mtd_get_of_node(mtd), "linux,rootfs")) {
+	if (of_property_read_bool(mtd_get_of_node(mtd), "robux,rootfs")) {
 		if (IS_BUILTIN(CONFIG_MTD)) {
 			pr_info("mtd: setting mtd%d (%s) as root device\n", mtd->index, mtd->name);
 			ROOT_DEV = MKDEV(MTD_BLOCK_MAJOR, mtd->index);

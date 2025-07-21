@@ -7,11 +7,11 @@
  *	Anup Patel <apatel@ventanamicro.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/uaccess.h>
-#include <linux/kvm_host.h>
+#include <robux/bitops.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/uaccess.h>
+#include <robux/kvm_host.h>
 #include <asm/cacheflush.h>
 #include <asm/cpufeature.h>
 #include <asm/kvm_vcpu_vector.h>

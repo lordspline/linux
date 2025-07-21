@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/kyro/fbdev.c
+ *  robux/drivers/video/kyro/fbdev.c
  *
  *  Copyright (C) 2002 STMicroelectronics
  *  Copyright (C) 2003, 2004 Paul Mundt
@@ -9,20 +9,20 @@
  * for more details.
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/ioctl.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/fb.h>
+#include <robux/ioctl.h>
+#include <robux/init.h>
+#include <robux/pci.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include <video/kyro.h>
 
@@ -810,6 +810,6 @@ module_init(kyrofb_init);
 module_exit(kyrofb_exit);
 #endif
 
-MODULE_AUTHOR("STMicroelectronics; Paul Mundt <lethal@linux-sh.org>");
+MODULE_AUTHOR("STMicroelectronics; Paul Mundt <lethal@robux-sh.org>");
 MODULE_DESCRIPTION("STG4000/Kyro/PowerVR 3 driver");
 MODULE_LICENSE("GPL");

@@ -5,9 +5,9 @@
 
 #define pr_fmt(fmt) "hci: %s: " fmt, __func__
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #include <net/nfc/hci.h>
 

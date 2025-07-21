@@ -4,22 +4,22 @@
 * Copyright Adrian McMenamin 2005, 2006, 2007
 * <adrian@mcmen.demon.co.uk>
 * Requires firmware (BSD licenced) available from:
-* http://linuxdc.cvs.sourceforge.net/linuxdc/linux-sh-dc/sound/oss/aica/firmware/
+* http://linuxdc.cvs.sourceforge.net/linuxdc/robux-sh-dc/sound/oss/aica/firmware/
 * or the maintainer
 */
 
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/firmware.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/jiffies.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/wait.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/firmware.h>
+#include <robux/timer.h>
+#include <robux/delay.h>
+#include <robux/workqueue.h>
+#include <robux/io.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/pcm.h>

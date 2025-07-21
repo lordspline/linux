@@ -11,15 +11,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/mutex.h>
-#include <linux/string_helpers.h>
-#include <linux/types.h>
-#include <linux/dmi.h>
-#include <linux/wmi.h>
+#include <robux/acpi.h>
+#include <robux/array_size.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/mutex.h>
+#include <robux/string_helpers.h>
+#include <robux/types.h>
+#include <robux/dmi.h>
+#include <robux/wmi.h>
 #include "firmware_attributes_class.h"
 #include "think-lmi.h"
 

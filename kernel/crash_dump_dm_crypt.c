@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/key.h>
-#include <linux/keyctl.h>
+#include <robux/key.h>
+#include <robux/keyctl.h>
 #include <keys/user-type.h>
-#include <linux/crash_dump.h>
-#include <linux/cc_platform.h>
-#include <linux/configfs.h>
-#include <linux/module.h>
+#include <robux/crash_dump.h>
+#include <robux/cc_platform.h>
+#include <robux/configfs.h>
+#include <robux/module.h>
 
 #define KEY_NUM_MAX 128	/* maximum dm crypt keys */
 #define KEY_SIZE_MAX 256	/* maximum dm crypt key size */

@@ -2,10 +2,10 @@
 #ifndef __PERF_MAPS_H
 #define __PERF_MAPS_H
 
-#include <linux/refcount.h>
+#include <robux/refcount.h>
 #include <stdio.h>
 #include <stdbool.h>
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct ref_reloc_sym;
 struct machine;

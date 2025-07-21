@@ -8,21 +8,21 @@
  * Author: Charles Keepax <ckeepax@opensource.cirrus.com>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/lockdep.h>
-#include <linux/mfd/core.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/of_platform.h>
-#include <linux/regmap.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/lockdep.h>
+#include <robux/mfd/core.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/of_platform.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/lochnagar.h>
-#include <linux/mfd/lochnagar1_regs.h>
-#include <linux/mfd/lochnagar2_regs.h>
+#include <robux/mfd/lochnagar.h>
+#include <robux/mfd/lochnagar1_regs.h>
+#include <robux/mfd/lochnagar2_regs.h>
 
 #define LOCHNAGAR_BOOT_RETRIES		10
 #define LOCHNAGAR_BOOT_DELAY_MS		350

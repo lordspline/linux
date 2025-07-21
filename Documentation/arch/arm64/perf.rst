@@ -161,9 +161,9 @@ and should be used to mask the upper bits as needed.
 
 .. Links
 .. _tools/perf/arch/arm64/tests/user-events.c:
-   https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/tools/perf/arch/arm64/tests/user-events.c
+   https://git.kernel.org/pub/scm/robux/kernel/git/torvalds/robux.git/tree/tools/perf/arch/arm64/tests/user-events.c
 .. _tools/lib/perf/tests/test-evsel.c:
-   https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/tools/lib/perf/tests/test-evsel.c
+   https://git.kernel.org/pub/scm/robux/kernel/git/torvalds/robux.git/tree/tools/lib/perf/tests/test-evsel.c
 
 Event Counting Threshold
 ==========================================

@@ -11,13 +11,13 @@
  *
  * Copyright 2007 Wolfson Microelectronics PLC.
  * Author: Graeme Gregory
- *         graeme.gregory@wolfsonmicro.com or linux@wolfsonmicro.com
+ *         graeme.gregory@wolfsonmicro.com or robux@wolfsonmicro.com
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #include <sound/core.h>
 #include <sound/jack.h>

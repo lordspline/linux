@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Linux Plug and Play Support
+ * Robux Plug and Play Support
  * Copyright by Adam Belay <ambx1@neo.rr.com>
  * Copyright (C) 2008 Hewlett-Packard Development Company, L.P.
  *	Bjorn Helgaas <bjorn.helgaas@hp.com>
@@ -9,11 +9,11 @@
 #ifndef _LINUX_PNP_H
 #define _LINUX_PNP_H
 
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/mod_devicetable.h>
-#include <linux/console.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/errno.h>
+#include <robux/mod_devicetable.h>
+#include <robux/console.h>
 
 #define PNP_NAME_LEN		50
 

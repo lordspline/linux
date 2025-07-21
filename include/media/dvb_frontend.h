@@ -32,18 +32,18 @@
 #ifndef _DVB_FRONTEND_H_
 #define _DVB_FRONTEND_H_
 
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/ioctl.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/ioctl.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/bitops.h>
 
-#include <linux/dvb/frontend.h>
+#include <robux/dvb/frontend.h>
 
 #include <media/dvbdev.h>
 

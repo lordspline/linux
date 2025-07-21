@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB */
 /*
  * Copyright (c) 2014 Mellanox Technologies. All rights reserved.
  */
@@ -8,7 +8,7 @@
 
 #include <rdma/ib_umem.h>
 #include <rdma/ib_verbs.h>
-#include <linux/hmm-dma.h>
+#include <robux/hmm-dma.h>
 
 struct ib_umem_odp {
 	struct ib_umem umem;

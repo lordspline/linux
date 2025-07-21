@@ -7,15 +7,15 @@
  * Author: Emanuele Ghidoli <emanuele.ghidoli@toradex.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 #define EC_CHIP_ID_REG                  0x00
 #define EC_CHIP_ID_SMARC_IMX95          0x11

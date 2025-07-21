@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/kernel/compat.c
+ *  robux/kernel/compat.c
  *
  *  Kernel compatibililty routines for e.g. 32 bit syscall support
  *  on 64 bit kernels.
@@ -8,23 +8,23 @@
  *  Copyright (C) 2002-2003 Stephen Rothwell, IBM Corporation
  */
 
-#include <linux/linkage.h>
-#include <linux/compat.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/signal.h>
-#include <linux/sched.h>	/* for MAX_SCHEDULE_TIMEOUT */
-#include <linux/syscalls.h>
-#include <linux/unistd.h>
-#include <linux/security.h>
-#include <linux/export.h>
-#include <linux/migrate.h>
-#include <linux/posix-timers.h>
-#include <linux/times.h>
-#include <linux/ptrace.h>
-#include <linux/gfp.h>
+#include <robux/linkage.h>
+#include <robux/compat.h>
+#include <robux/errno.h>
+#include <robux/time.h>
+#include <robux/signal.h>
+#include <robux/sched.h>	/* for MAX_SCHEDULE_TIMEOUT */
+#include <robux/syscalls.h>
+#include <robux/unistd.h>
+#include <robux/security.h>
+#include <robux/export.h>
+#include <robux/migrate.h>
+#include <robux/posix-timers.h>
+#include <robux/times.h>
+#include <robux/ptrace.h>
+#include <robux/gfp.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #ifdef __ARCH_WANT_SYS_SIGPROCMASK
 

@@ -7,10 +7,10 @@
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/clk/ti.h>
+#include <robux/kernel.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/clk/ti.h>
 
 #include "clock.h"
 

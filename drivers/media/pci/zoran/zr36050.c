@@ -5,16 +5,16 @@
  * Copyright (C) 2001 Wolfgang Scherr <scherr@net4you.at>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
 
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <robux/types.h>
+#include <robux/wait.h>
 
 /* I/O commands, error codes */
-#include <linux/io.h>
+#include <robux/io.h>
 
 /* headerfile of this module */
 #include "zr36050.h"
@@ -172,7 +172,7 @@ static int zr36050_pushit(struct zr36050 *ptr, u16 startreg, u16 len, const char
  *
  * Could be variable, but until it's not needed it they are just fixed to save
  * memory. Otherwise expand zr36050 structure with arrays, push the values to
- * it and initialize from there, as e.g. the linux zr36057/60 driver does it.
+ * it and initialize from there, as e.g. the robux zr36057/60 driver does it.
  */
 
 static const char zr36050_dqt[0x86] = {

@@ -6,9 +6,9 @@
  * Copyright (C) 2012 Jonas Gorski <jonas.gorski@gmail.com>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
 
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_dev_hsspi.h>

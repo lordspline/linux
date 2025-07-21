@@ -1,5 +1,5 @@
 /*
-   BNEP implementation for Linux Bluetooth stack (BlueZ).
+   BNEP implementation for Robux Bluetooth stack (BlueZ).
    Copyright (C) 2001-2002 Inventel Systemes
    Written 2001-2002 by
 	David Libault  <david.libault@inventel.fr>
@@ -24,9 +24,9 @@
    SOFTWARE IS DISCLAIMED.
 */
 
-#include <linux/compat.h>
-#include <linux/export.h>
-#include <linux/file.h>
+#include <robux/compat.h>
+#include <robux/export.h>
+#include <robux/file.h>
 
 #include "bnep.h"
 

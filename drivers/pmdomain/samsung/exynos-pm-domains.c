@@ -9,15 +9,15 @@
 // conjunction with runtime-pm. Support for both device-tree and non-device-tree
 // based power domain support is included.
 
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/pm_domain.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pm_runtime.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/pm_domain.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/pm_runtime.h>
 
 struct exynos_pm_domain_config {
 	/* Value for LOCAL_PWR_CFG and STATUS fields for each domain */

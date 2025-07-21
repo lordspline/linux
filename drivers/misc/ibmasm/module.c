@@ -36,9 +36,9 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/slab.h>
 #include "ibmasm.h"
 #include "lowlevel.h"
 #include "remote.h"

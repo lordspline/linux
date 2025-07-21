@@ -18,14 +18,14 @@
  * Q1: frequency dividing ratio of post divider, set by 2^postdiv1[1:0], eg. 1, 2, 4 or 8.
  */
 
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/bits.h>
+#include <robux/clk-provider.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include <dt-bindings/clock/starfive,jh7110-crg.h>
 

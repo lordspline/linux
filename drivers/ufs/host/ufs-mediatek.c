@@ -6,19 +6,19 @@
  *	Peter Wang <peter.wang@mediatek.com>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
+#include <robux/arm-smccc.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_device.h>
+#include <robux/of_platform.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
 
 #include <ufs/ufshcd.h>
 #include "ufshcd-pltfrm.h"

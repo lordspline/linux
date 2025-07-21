@@ -7,8 +7,8 @@
 
 #include "nfsd.h"
 /* FIXME: nfsacl.h is a broken header */
-#include <linux/nfsacl.h>
-#include <linux/gfp.h>
+#include <robux/nfsacl.h>
+#include <robux/gfp.h>
 #include "cache.h"
 #include "xdr3.h"
 #include "vfs.h"

@@ -3,11 +3,11 @@
  * Copyright (C) 2013 Freescale Semiconductor, Inc.
  */
 
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <robux/bits.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/slab.h>
 #include "clk.h"
 
 /**

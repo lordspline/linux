@@ -3,10 +3,10 @@
  * Copyright 2018-2025 Amazon.com, Inc. or its affiliates. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/utsname.h>
-#include <linux/version.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/utsname.h>
+#include <robux/version.h>
 
 #include <rdma/ib_user_verbs.h>
 #include <rdma/uverbs_ioctl.h>

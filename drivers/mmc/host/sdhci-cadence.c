@@ -4,15 +4,15 @@
  *   Author: Masahiro Yamada <yamada.masahiro@socionext.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
 
 #include "sdhci-pltfm.h"
 

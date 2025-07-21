@@ -11,9 +11,9 @@
  * Kalle Jokiniemi
  * Paul Walmsley
  */
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/init.h>
 
 #include "soc.h"
 #include "common.h"

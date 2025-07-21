@@ -5,17 +5,17 @@
  * Copyright 2008 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/ioport.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/ioport.h>
+#include <robux/miscdevice.h>
+#include <robux/mm.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <asm/openprom.h>
 #include <asm/oplib.h>

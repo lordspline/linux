@@ -7,20 +7,20 @@
  * Samsung SxM core driver
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/samsung/core.h>
-#include <linux/mfd/samsung/irq.h>
-#include <linux/mfd/samsung/s2mps11.h>
-#include <linux/mfd/samsung/s2mps13.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/samsung/core.h>
+#include <robux/mfd/samsung/irq.h>
+#include <robux/mfd/samsung/s2mps11.h>
+#include <robux/mfd/samsung/s2mps13.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
 #include "sec-core.h"
 
 static const struct mfd_cell s5m8767_devs[] = {

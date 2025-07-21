@@ -6,14 +6,14 @@
  * (C) 2023 Romain Perier
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/regmap.h>
-#include <linux/pm.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
+#include <robux/regmap.h>
+#include <robux/pm.h>
 
 #define REG_CTRL	0x0
 #define REG_CTRL1	0x4

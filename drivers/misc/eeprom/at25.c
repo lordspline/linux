@@ -6,19 +6,19 @@
  * Copyright (C) 2006 David Brownell
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 
-#include <linux/spi/eeprom.h>
-#include <linux/spi/spi.h>
+#include <robux/spi/eeprom.h>
+#include <robux/spi/spi.h>
 
-#include <linux/nvmem-provider.h>
+#include <robux/nvmem-provider.h>
 
 /*
  * NOTE: this is an *EEPROM* driver. The vagaries of product naming

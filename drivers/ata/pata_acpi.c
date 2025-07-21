@@ -5,16 +5,16 @@
  *	(c) 2007 Red Hat
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gfp.h>
-#include <linux/acpi.h>
-#include <linux/libata.h>
-#include <linux/ata.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/gfp.h>
+#include <robux/acpi.h>
+#include <robux/libata.h>
+#include <robux/ata.h>
 #include <scsi/scsi_host.h>
 
 #define DRV_NAME	"pata_acpi"

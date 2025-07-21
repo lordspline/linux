@@ -3,8 +3,8 @@
 #ifndef _ASM_S390_ASCE_H
 #define _ASM_S390_ASCE_H
 
-#include <linux/thread_info.h>
-#include <linux/irqflags.h>
+#include <robux/thread_info.h>
+#include <robux/irqflags.h>
 #include <asm/lowcore.h>
 #include <asm/ctlreg.h>
 

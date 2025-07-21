@@ -12,16 +12,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/sysfs.h>
-#include <linux/uuid.h>
+#include <robux/acpi.h>
+#include <robux/array_size.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/sysfs.h>
+#include <robux/uuid.h>
 
 static char *x3d_mode = "frequency";
 module_param(x3d_mode, charp, 0);

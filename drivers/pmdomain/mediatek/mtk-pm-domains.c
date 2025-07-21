@@ -2,19 +2,19 @@
 /*
  * Copyright (c) 2020 Collabora Ltd.
  */
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_clk.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/soc/mediatek/infracfg.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/of_clk.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/soc/mediatek/infracfg.h>
 
 #include "mt6735-pm-domains.h"
 #include "mt6795-pm-domains.h"

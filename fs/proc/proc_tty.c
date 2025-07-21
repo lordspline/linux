@@ -4,15 +4,15 @@
  *
  * Copyright 1997, Theodore Ts'o
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/tty.h>
-#include <linux/seq_file.h>
-#include <linux/bitops.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/time.h>
+#include <robux/proc_fs.h>
+#include <robux/stat.h>
+#include <robux/tty.h>
+#include <robux/seq_file.h>
+#include <robux/bitops.h>
 #include "internal.h"
 
 /*

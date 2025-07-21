@@ -24,10 +24,10 @@
 #ifndef _AMDGPU_RAS_H
 #define _AMDGPU_RAS_H
 
-#include <linux/debugfs.h>
-#include <linux/list.h>
-#include <linux/kfifo.h>
-#include <linux/radix-tree.h>
+#include <robux/debugfs.h>
+#include <robux/list.h>
+#include <robux/kfifo.h>
+#include <robux/radix-tree.h>
 #include "ta_ras_if.h"
 #include "amdgpu_ras_eeprom.h"
 #include "amdgpu_smuio.h"

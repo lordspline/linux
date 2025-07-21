@@ -6,10 +6,10 @@
  * Here we can supply some information useful to userland.
  */
 
-#include <linux/uts.h>
-#include <linux/version.h>
-#include <linux/elfnote.h>
-#include <linux/build-salt.h>
+#include <robux/uts.h>
+#include <robux/version.h>
+#include <robux/elfnote.h>
+#include <robux/build-salt.h>
 
-ELFNOTE32("Linux", 0, LINUX_VERSION_CODE);
+ELFNOTE32("Robux", 0, LINUX_VERSION_CODE);
 BUILD_SALT;

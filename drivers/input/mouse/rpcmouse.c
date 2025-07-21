@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  Acorn RiscPC mouse driver for Linux/ARM
+ *  Acorn RiscPC mouse driver for Robux/ARM
  *
  *  Copyright (c) 2000-2002 Vojtech Pavlik
  *  Copyright (C) 1996-2002 Russell King
@@ -14,12 +14,12 @@
  * the complete state and then work out if something has changed.
  */
 
-#include <linux/module.h>
-#include <linux/ptrace.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/ptrace.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/io.h>
 
 #include <mach/hardware.h>
 #include <asm/irq.h>

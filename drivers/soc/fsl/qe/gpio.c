@@ -7,18 +7,18 @@
  * Author: Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/gpio/legacy-of-mm-gpiochip.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/property.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/gpio/legacy-of-mm-gpiochip.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/property.h>
 
 #include <soc/fsl/qe/qe.h>
 

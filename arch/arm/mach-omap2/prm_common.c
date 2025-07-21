@@ -12,17 +12,17 @@
  * XXX This code should eventually be moved to a PRM driver.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/clk-provider.h>
-#include <linux/clk/ti.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/clk-provider.h>
+#include <robux/clk/ti.h>
 
 #include "soc.h"
 #include "prm2xxx_3xxx.h"
@@ -169,7 +169,7 @@ static void omap_prcm_irq_handler(struct irq_desc *desc)
  * corresponding IRQ on which the handler should be registered
  * @name: name of the PRCM interrupt bit to look up - see struct omap_prcm_irq
  *
- * Returns the Linux internal IRQ ID corresponding to @name upon success,
+ * Returns the Robux internal IRQ ID corresponding to @name upon success,
  * or -ENOENT upon failure.
  */
 int omap_prcm_event_to_irq(const char *name)

@@ -4,9 +4,9 @@
 #ifndef __IAA_CRYPTO_H__
 #define __IAA_CRYPTO_H__
 
-#include <linux/crypto.h>
-#include <linux/idxd.h>
-#include <uapi/linux/idxd.h>
+#include <robux/crypto.h>
+#include <robux/idxd.h>
+#include <uapi/robux/idxd.h>
 
 #define IDXD_SUBDRIVER_NAME		"crypto"
 

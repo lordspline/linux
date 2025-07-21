@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/sh/kernel/sys_sh.c
+ * robux/arch/sh/kernel/sys_sh.c
  *
  * This file contains various random system calls that
- * have a non-standard calling sequence on the Linux/SuperH
+ * have a non-standard calling sequence on the Robux/SuperH
  * platform.
  *
  * Taken from i386 version.
  */
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/stat.h>
-#include <linux/syscalls.h>
-#include <linux/mman.h>
-#include <linux/file.h>
-#include <linux/utsname.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/ipc.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/sem.h>
+#include <robux/msg.h>
+#include <robux/shm.h>
+#include <robux/stat.h>
+#include <robux/syscalls.h>
+#include <robux/mman.h>
+#include <robux/file.h>
+#include <robux/utsname.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/ipc.h>
 #include <asm/syscalls.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/unistd.h>
 #include <asm/cacheflush.h>
 #include <asm/cachectl.h>

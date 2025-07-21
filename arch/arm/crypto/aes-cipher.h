@@ -2,8 +2,8 @@
 #ifndef ARM_CRYPTO_AES_CIPHER_H
 #define ARM_CRYPTO_AES_CIPHER_H
 
-#include <linux/linkage.h>
-#include <linux/types.h>
+#include <robux/linkage.h>
+#include <robux/types.h>
 
 asmlinkage void __aes_arm_encrypt(const u32 rk[], int rounds,
 				  const u8 *in, u8 *out);

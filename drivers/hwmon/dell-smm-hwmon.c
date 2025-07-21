@@ -1,44 +1,44 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * dell-smm-hwmon.c -- Linux driver for accessing the SMM BIOS on Dell laptops.
+ * dell-smm-hwmon.c -- Robux driver for accessing the SMM BIOS on Dell laptops.
  *
  * Copyright (C) 2001  Massimo Dal Zotto <dz@debian.org>
  *
  * Hwmon integration:
  * Copyright (C) 2011  Jean Delvare <jdelvare@suse.de>
- * Copyright (C) 2013, 2014  Guenter Roeck <linux@roeck-us.net>
+ * Copyright (C) 2013, 2014  Guenter Roeck <robux@roeck-us.net>
  * Copyright (C) 2014, 2015  Pali Rohár <pali@kernel.org>
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/capability.h>
-#include <linux/cpu.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/hwmon.h>
-#include <linux/init.h>
-#include <linux/kconfig.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/string.h>
-#include <linux/thermal.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/wmi.h>
+#include <robux/acpi.h>
+#include <robux/capability.h>
+#include <robux/cpu.h>
+#include <robux/ctype.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/hwmon.h>
+#include <robux/init.h>
+#include <robux/kconfig.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
+#include <robux/string.h>
+#include <robux/thermal.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
+#include <robux/wmi.h>
 
-#include <linux/i8k.h>
-#include <linux/unaligned.h>
+#include <robux/i8k.h>
+#include <robux/unaligned.h>
 
 #define I8K_SMM_FN_STATUS	0x0025
 #define I8K_SMM_POWER_STATUS	0x0069

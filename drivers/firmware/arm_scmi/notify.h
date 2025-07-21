@@ -9,9 +9,9 @@
 #ifndef _SCMI_NOTIFY_H
 #define _SCMI_NOTIFY_H
 
-#include <linux/device.h>
-#include <linux/ktime.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/ktime.h>
+#include <robux/types.h>
 
 #define SCMI_PROTO_QUEUE_SZ	4096
 

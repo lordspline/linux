@@ -4,16 +4,16 @@
  * Copyright (C) 2014 ARM Limited
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/of_platform.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/vexpress.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/of_platform.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/vexpress.h>
 
 #define SYS_MISC		0x0
 #define SYS_MISC_MASTERSITE	(1 << 14)

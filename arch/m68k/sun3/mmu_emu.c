@@ -7,21 +7,21 @@
 ** Started 1/16/98 @ 2:22 am
 */
 
-#include <linux/init.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/delay.h>
-#include <linux/memblock.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/sched/mm.h>
-#include <linux/string_choices.h>
+#include <robux/init.h>
+#include <robux/mman.h>
+#include <robux/mm.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/delay.h>
+#include <robux/memblock.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/sched/mm.h>
+#include <robux/string_choices.h>
 
 #include <asm/setup.h>
 #include <asm/traps.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/page.h>
 #include <asm/sun3mmu.h>
 #include <asm/oplib.h>

@@ -12,10 +12,10 @@
  *  for OSS/Free included in the kernel source as reference.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/isa.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/isa.h>
+#include <robux/io.h>
 #include <asm/dma.h>
 #include <sound/core.h>
 #include <sound/wss.h>

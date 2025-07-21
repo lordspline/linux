@@ -5,13 +5,13 @@
  * Copyright (C) 2020 Ansuel Smith <ansuelsmth@gmail.com>
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_mdio.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_mdio.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 /* MII address register definitions */
 #define MII_ADDR_REG_ADDR			0x10

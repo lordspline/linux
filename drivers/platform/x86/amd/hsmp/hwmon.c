@@ -9,11 +9,11 @@
 
 #include <asm/amd/hsmp.h>
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
 #include "hsmp.h"
 

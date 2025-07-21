@@ -3,22 +3,22 @@
  * Copyright (C) 2020-2024 Loongson Technologies, Inc.
  */
 
-#include <linux/cpuhotplug.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/msi.h>
-#include <linux/radix-tree.h>
-#include <linux/spinlock.h>
+#include <robux/cpuhotplug.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/msi.h>
+#include <robux/radix-tree.h>
+#include <robux/spinlock.h>
 
 #include <asm/loongarch.h>
 #include <asm/setup.h>
 
-#include <linux/irqchip/irq-msi-lib.h>
+#include <robux/irqchip/irq-msi-lib.h>
 #include "irq-loongson.h"
 
 #define VECTORS_PER_REG		64

@@ -1,5 +1,5 @@
 /*
-   BlueZ - Bluetooth protocol stack for Linux
+   BlueZ - Bluetooth protocol stack for Robux
    Copyright (c) 2000-2001, 2010, Code Aurora Forum. All rights reserved.
    Copyright 2023-2024 NXP
 
@@ -25,8 +25,8 @@
 
 /* Bluetooth HCI event handling. */
 
-#include <linux/unaligned.h>
-#include <linux/crypto.h>
+#include <robux/unaligned.h>
+#include <robux/crypto.h>
 #include <crypto/algapi.h>
 
 #include <net/bluetooth/bluetooth.h>

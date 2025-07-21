@@ -8,22 +8,22 @@
  * Author: Xiaowei Song <songxiaowei@huawei.com>
  */
 
-#include <linux/clk.h>
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_pci.h>
-#include <linux/phy/phy.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/resource.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/compiler.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/of_pci.h>
+#include <robux/phy/phy.h>
+#include <robux/pci.h>
+#include <robux/pci_regs.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/resource.h>
+#include <robux/types.h>
 #include "pcie-designware.h"
 
 #define to_kirin_pcie(x) dev_get_drvdata((x)->dev)

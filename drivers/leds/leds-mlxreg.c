@@ -3,14 +3,14 @@
 // Copyright (c) 2018 Mellanox Technologies. All rights reserved.
 // Copyright (c) 2018 Vadim Pasternak <vadimp@mellanox.com>
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/platform_data/mlxreg.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/platform_data/mlxreg.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 /* Codes for LEDs. */
 #define MLXREG_LED_OFFSET_BLINK_3HZ	0x01 /* Offset from solid: 3Hz blink */

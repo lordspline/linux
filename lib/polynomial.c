@@ -10,9 +10,9 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/polynomial.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/polynomial.h>
 
 /*
  * Originally this was part of drivers/hwmon/bt1-pvt.c.

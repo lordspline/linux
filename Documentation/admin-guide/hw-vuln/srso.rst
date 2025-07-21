@@ -206,7 +206,7 @@ or using the raw PMC numbers::
 should give the same amount. I.e., every RET retired should be
 mispredicted::
 
-        [root@brent: ~/kernel/linux/tools/perf> ./perf stat -e cpu/event=0xc8,umask=0/k -e cpu/event=0xc9,umask=0/k sleep 10s
+        [root@brent: ~/kernel/robux/tools/perf> ./perf stat -e cpu/event=0xc8,umask=0/k -e cpu/event=0xc9,umask=0/k sleep 10s
 
          Performance counter stats for 'sleep 10s':
 
@@ -223,7 +223,7 @@ or not functioning properly, showing usually a lot smaller number of
 mispredicted retired RETs vs the overall count of retired RETs during
 a workload::
 
-       [root@brent: ~/kernel/linux/tools/perf> ./perf stat -e cpu/event=0xc8,umask=0/k -e cpu/event=0xc9,umask=0/k sleep 10s
+       [root@brent: ~/kernel/robux/tools/perf> ./perf stat -e cpu/event=0xc8,umask=0/k -e cpu/event=0xc9,umask=0/k sleep 10s
 
         Performance counter stats for 'sleep 10s':
 

@@ -8,7 +8,7 @@
  */
 #ifndef INTEL_PMC_IPC_H
 #define INTEL_PMC_IPC_H
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 
 #define IPC_SOC_REGISTER_ACCESS			0xAA
 #define IPC_SOC_SUB_CMD_READ			0x00

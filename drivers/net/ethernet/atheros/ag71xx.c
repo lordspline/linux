@@ -27,17 +27,17 @@
  *  Imre Kaloz <kaloz@openwrt.org>
  */
 
-#include <linux/if_vlan.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/phylink.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <robux/if_vlan.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
+#include <robux/platform_device.h>
+#include <robux/phylink.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/clk.h>
+#include <robux/io.h>
 #include <net/selftests.h>
 
 /* For our NAPI weight bigger does *NOT* mean better - it means more

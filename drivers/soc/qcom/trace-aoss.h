@@ -9,7 +9,7 @@
 #if !defined(_TRACE_QCOM_AOSS_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_QCOM_AOSS_H
 
-#include <linux/tracepoint.h>
+#include <robux/tracepoint.h>
 
 TRACE_EVENT(aoss_send,
 	TP_PROTO(const char *msg),

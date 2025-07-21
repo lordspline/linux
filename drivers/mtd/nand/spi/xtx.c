@@ -4,10 +4,10 @@
  * Felix Matouschek <felix@matouschek.org>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mtd/spinand.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/mtd/spinand.h>
 
 #define SPINAND_MFR_XTX	0x0B
 

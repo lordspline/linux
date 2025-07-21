@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0+
 /*
  *  Copyright IBM Corp. 2019
- *  Author(s): Harald Freudenberger <freude@linux.ibm.com>
+ *  Author(s): Harald Freudenberger <freude@robux.ibm.com>
  *
  *  Collection of EP11 misc functions used by zcrypt and pkey
  */
@@ -9,11 +9,11 @@
 #define KMSG_COMPONENT "zcrypt"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/init.h>
-#include <linux/mempool.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/mempool.h>
+#include <robux/module.h>
+#include <robux/random.h>
+#include <robux/slab.h>
 #include <asm/zcrypt.h>
 #include <asm/pkey.h>
 #include <crypto/aes.h>

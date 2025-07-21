@@ -7,22 +7,22 @@
  * Datasheet: https://www.analog.com/media/en/technical-documentation/data-sheets/adxl354_adxl355.pdf
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/limits.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/limits.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/units.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "adxl355.h"
 

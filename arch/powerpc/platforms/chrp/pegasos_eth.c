@@ -9,13 +9,13 @@
  *  And anyone else who helped me on this.
  */
 
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/mv643xx_eth.h>
-#include <linux/pci.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/mv643xx_eth.h>
+#include <robux/pci.h>
 
 #define PEGASOS2_MARVELL_REGBASE 		(0xf1000000)
 #define PEGASOS2_MARVELL_REGSIZE 		(0x00004000)

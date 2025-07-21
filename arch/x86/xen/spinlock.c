@@ -3,10 +3,10 @@
  * Split spinlock implementation out into its own file, so it can be
  * compiled in a FTRACE-compatible way.
  */
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/atomic.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/atomic.h>
 
 #include <asm/paravirt.h>
 #include <asm/qspinlock.h>

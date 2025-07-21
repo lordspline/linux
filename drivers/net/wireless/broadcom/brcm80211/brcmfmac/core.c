@@ -3,11 +3,11 @@
  * Copyright (c) 2010 Broadcom Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/inetdevice.h>
-#include <linux/property.h>
+#include <robux/kernel.h>
+#include <robux/etherdevice.h>
+#include <robux/module.h>
+#include <robux/inetdevice.h>
+#include <robux/property.h>
 #include <net/cfg80211.h>
 #include <net/rtnetlink.h>
 #include <net/addrconf.h>

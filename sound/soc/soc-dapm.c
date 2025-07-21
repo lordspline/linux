@@ -17,21 +17,21 @@
 //    o Delayed power down of audio subsystem to reduce pops between a quick
 //      device reopen.
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/async.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/bitops.h>
-#include <linux/platform_device.h>
-#include <linux/jiffies.h>
-#include <linux/debugfs.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/async.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/bitops.h>
+#include <robux/platform_device.h>
+#include <robux/jiffies.h>
+#include <robux/debugfs.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/clk.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

@@ -30,7 +30,7 @@
 		button-user {
 			label = "USER";
 			gpios = <&pioC 9 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_0>;
+			robux,code = <KEY_0>;
 			wakeup-source;
 		};
 	};
@@ -54,7 +54,7 @@
 			label = "blue";
 			gpios = <&pioC 20 GPIO_ACTIVE_HIGH>;
 			pinctrl-0 = <&pinctrl_blue_led_gpio_default>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 		};
 	};
 

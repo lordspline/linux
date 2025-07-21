@@ -4,19 +4,19 @@
  * Copyright (C) 1997  Eddie C. Dost  (ecd@skynet.be)
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/miscdevice.h>
-#include <linux/fcntl.h>
-#include <linux/poll.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/miscdevice.h>
+#include <robux/fcntl.h>
+#include <robux/poll.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/mm.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/io.h>
 #include <asm/upa.h>
 

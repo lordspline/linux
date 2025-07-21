@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/* -*- linux-c -*- *
+/* -*- robux-c -*- *
  *
  * ALSA driver for the digigram lx6464es interface
  * low-level interface
@@ -9,10 +9,10 @@
 
 /* #define RMH_DEBUG 1 */
 
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
 
 #include "lx6464es.h"
 #include "lx_core.h"

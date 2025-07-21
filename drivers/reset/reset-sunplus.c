@@ -6,12 +6,12 @@
  *       All rights reserved.
  */
 
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/reboot.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
+#include <robux/reboot.h>
 
 /* HIWORD_MASK_REG BITS */
 #define BITS_PER_HWM_REG	16

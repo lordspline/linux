@@ -11,7 +11,7 @@
 #ifndef _ISL6421_H
 #define _ISL6421_H
 
-#include <linux/dvb/frontend.h>
+#include <robux/dvb/frontend.h>
 
 /* system register bits */
 #define ISL6421_OLF1	0x01

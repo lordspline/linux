@@ -7,14 +7,14 @@
  * Inspired by leds-wm8350 driver.
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/leds.h>
-#include <linux/leds-regulator.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/leds.h>
+#include <robux/leds-regulator.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
 
 #define to_regulator_led(led_cdev) \
 	container_of(led_cdev, struct regulator_led, cdev)

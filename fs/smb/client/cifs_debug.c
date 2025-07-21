@@ -5,14 +5,14 @@
  *
  *   Modified by Steve French (sfrench@us.ibm.com)
  */
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/uaccess.h>
-#include <uapi/linux/ethtool.h>
+#include <robux/fs.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
+#include <robux/kstrtox.h>
+#include <robux/module.h>
+#include <robux/proc_fs.h>
+#include <robux/uaccess.h>
+#include <uapi/robux/ethtool.h>
 #include "cifspdu.h"
 #include "cifsglob.h"
 #include "cifsproto.h"

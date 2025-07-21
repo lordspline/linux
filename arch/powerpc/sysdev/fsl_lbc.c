@@ -10,22 +10,22 @@
  * Author: Roy Zang <tie-fei.zang@freescale.com>
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/compiler.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/syscore_ops.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/compiler.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/mod_devicetable.h>
+#include <robux/syscore_ops.h>
 #include <asm/fsl_lbc.h>
 
 static DEFINE_SPINLOCK(fsl_lbc_lock);

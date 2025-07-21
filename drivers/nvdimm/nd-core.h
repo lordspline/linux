@@ -4,11 +4,11 @@
  */
 #ifndef __ND_CORE_H__
 #define __ND_CORE_H__
-#include <linux/libnvdimm.h>
-#include <linux/device.h>
-#include <linux/sizes.h>
-#include <linux/mutex.h>
-#include <linux/nd.h>
+#include <robux/libnvdimm.h>
+#include <robux/device.h>
+#include <robux/sizes.h>
+#include <robux/mutex.h>
+#include <robux/nd.h>
 #include "nd.h"
 
 extern struct list_head nvdimm_bus_list;

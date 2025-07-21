@@ -5,12 +5,12 @@
  *  Copyright 2008 Wolfson Microelectronics
  */
 
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/ctype.h>
-#include <linux/mm.h>
-#include <linux/debugfs.h>
+#include <robux/input.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/ctype.h>
+#include <robux/mm.h>
+#include <robux/debugfs.h>
 #include <sound/jack.h>
 #include <sound/core.h>
 #include <sound/control.h>

@@ -10,13 +10,13 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/dmi.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/irq.h>
+#include <robux/dmi.h>
 
 #ifdef CONFIG_X86
 #define valid_IRQ(i) (((i) != 0) && ((i) != 2))

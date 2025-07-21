@@ -32,23 +32,23 @@
  *		Removed some useless includes
  */
 
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/pnp.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
-#include <linux/spinlock.h>
-#include <linux/dmi.h>
-#include <linux/delay.h>
-#include <linux/acpi.h>
-#include <linux/freezer.h>
-#include <linux/kmod.h>
-#include <linux/kthread.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/pnp.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/slab.h>
+#include <robux/completion.h>
+#include <robux/spinlock.h>
+#include <robux/dmi.h>
+#include <robux/delay.h>
+#include <robux/acpi.h>
+#include <robux/freezer.h>
+#include <robux/kmod.h>
+#include <robux/kthread.h>
 
 #include <asm/page.h>
 #include <asm/desc.h>

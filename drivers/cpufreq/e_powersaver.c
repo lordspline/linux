@@ -7,22 +7,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/timex.h>
-#include <linux/io.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/cpufreq.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/timex.h>
+#include <robux/io.h>
+#include <robux/delay.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/msr.h>
 #include <asm/tsc.h>
 
 #if IS_ENABLED(CONFIG_ACPI_PROCESSOR)
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 #include <acpi/processor.h>
 #endif
 

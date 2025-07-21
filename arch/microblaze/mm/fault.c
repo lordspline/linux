@@ -17,23 +17,23 @@
  *
  */
 
-#include <linux/extable.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/perf_event.h>
+#include <robux/extable.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/ptrace.h>
+#include <robux/mman.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/perf_event.h>
 
 #include <asm/page.h>
 #include <asm/mmu.h>
-#include <linux/mmu_context.h>
-#include <linux/uaccess.h>
+#include <robux/mmu_context.h>
+#include <robux/uaccess.h>
 #include <asm/exceptions.h>
 
 static unsigned long pte_misses;	/* updated by do_page_fault() */

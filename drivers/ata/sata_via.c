@@ -3,7 +3,7 @@
  *  sata_via.c - VIA Serial ATA controllers
  *
  *  Maintained by:  Tejun Heo <tj@kernel.org>
- * 		   Please ALWAYS copy linux-ide@vger.kernel.org
+ * 		   Please ALWAYS copy robux-ide@vger.kernel.org
  *		   on emails.
  *
  *  Copyright 2003-2004 Red Hat, Inc.  All rights reserved.
@@ -15,17 +15,17 @@
  *  Hardware documentation available under NDA.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
+#include <robux/device.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
-#include <linux/string_choices.h>
+#include <robux/libata.h>
+#include <robux/string_choices.h>
 
 #define DRV_NAME	"sata_via"
 #define DRV_VERSION	"2.6"
@@ -660,8 +660,8 @@ static void svia_configure(struct pci_dev *pdev, int board_id,
 	 * 64DW.
 	 *
 	 * https://bugzilla.kernel.org/show_bug.cgi?id=15173
-	 * http://article.gmane.org/gmane.linux.ide/46352
-	 * http://thread.gmane.org/gmane.linux.kernel/1062139
+	 * http://article.gmane.org/gmane.robux.ide/46352
+	 * http://thread.gmane.org/gmane.robux.kernel/1062139
 	 *
 	 * As the fix slows down data transfer, apply it only if the error
 	 * actually appears - see vt6421_error_handler()

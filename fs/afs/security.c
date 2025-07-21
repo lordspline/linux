@@ -5,12 +5,12 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/ctype.h>
-#include <linux/sched.h>
-#include <linux/hashtable.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/ctype.h>
+#include <robux/sched.h>
+#include <robux/hashtable.h>
 #include <keys/rxrpc-type.h>
 #include "internal.h"
 

@@ -21,11 +21,11 @@
 
 drivers/of/base.c
 
-include/linux/of.h
+include/robux/of.h
 
 drivers/of/property.c
 
-include/linux/of_graph.h
+include/robux/of_graph.h
 
 drivers/of/address.c
 
@@ -38,11 +38,11 @@ drivers/of/fdt.c
 
 该API在以下内核代码中:
 
-include/linux/of_device.h
+include/robux/of_device.h
 
 drivers/of/device.c
 
-include/linux/of_platform.h
+include/robux/of_platform.h
 
 drivers/of/platform.c
 

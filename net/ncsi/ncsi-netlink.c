@@ -3,16 +3,16 @@
  * Copyright Samuel Mendoza-Jonas, IBM Corporation 2018.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/if_arp.h>
-#include <linux/rtnetlink.h>
-#include <linux/etherdevice.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/if_arp.h>
+#include <robux/rtnetlink.h>
+#include <robux/etherdevice.h>
 #include <net/genetlink.h>
 #include <net/ncsi.h>
-#include <linux/skbuff.h>
+#include <robux/skbuff.h>
 #include <net/sock.h>
-#include <uapi/linux/ncsi.h>
+#include <uapi/robux/ncsi.h>
 
 #include "internal.h"
 #include "ncsi-pkt.h"

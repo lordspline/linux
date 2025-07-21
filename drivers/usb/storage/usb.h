@@ -27,12 +27,12 @@
 #ifndef _USB_H_
 #define _USB_H_
 
-#include <linux/usb.h>
-#include <linux/usb_usual.h>
-#include <linux/blkdev.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <robux/usb.h>
+#include <robux/usb_usual.h>
+#include <robux/blkdev.h>
+#include <robux/completion.h>
+#include <robux/mutex.h>
+#include <robux/workqueue.h>
 #include <scsi/scsi_host.h>
 
 struct us_data;

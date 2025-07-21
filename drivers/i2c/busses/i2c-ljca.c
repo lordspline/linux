@@ -5,14 +5,14 @@
  * Copyright (c) 2023, Intel Corporation.
  */
 
-#include <linux/acpi.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/dev_printk.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/usb/ljca.h>
+#include <robux/acpi.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/dev_printk.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/usb/ljca.h>
 
 /* I2C init flags */
 #define LJCA_I2C_INIT_FLAG_MODE			BIT(0)

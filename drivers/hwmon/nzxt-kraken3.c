@@ -8,16 +8,16 @@
  * Copyright 2022  Aleksa Savic <savicaleksa83@gmail.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/hid.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/unaligned.h>
+#include <robux/debugfs.h>
+#include <robux/hid.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/wait.h>
+#include <robux/unaligned.h>
 
 #define USB_VENDOR_ID_NZXT		0x1e71
 #define USB_PRODUCT_ID_X53		0x2007

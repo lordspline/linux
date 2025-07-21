@@ -5,8 +5,8 @@
 
 #ifdef CONFIG_ARM_PTDUMP_CORE
 
-#include <linux/mm_types.h>
-#include <linux/seq_file.h>
+#include <robux/mm_types.h>
+#include <robux/seq_file.h>
 
 struct addr_marker {
 	unsigned long start_address;

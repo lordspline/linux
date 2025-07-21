@@ -3,8 +3,8 @@
  * Copyright (c) 2022 Yassine Oudjana <y.oudjana@protonmail.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/platform_device.h>
 
 #include "clk-mtk.h"
 #include "clk-mux.h"

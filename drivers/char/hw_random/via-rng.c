@@ -25,10 +25,10 @@
  */
 
 #include <crypto/padlock.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/hw_random.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/hw_random.h>
+#include <robux/delay.h>
 #include <asm/cpu_device_id.h>
 #include <asm/io.h>
 #include <asm/msr.h>

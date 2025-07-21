@@ -7,16 +7,16 @@
  *	Copyright (C) 2008 Nokia Corporation and/or its subsidiary(-ies).
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/firmware.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/spi/spi.h>
-#include <linux/etherdevice.h>
-#include <linux/gpio.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/firmware.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/spi/spi.h>
+#include <robux/etherdevice.h>
+#include <robux/gpio.h>
+#include <robux/slab.h>
 
 #include "p54spi.h"
 #include "p54.h"
@@ -32,7 +32,7 @@ MODULE_FIRMWARE("3826.eeprom");
 
 /* gpios should be handled in board files and provided via platform data,
  * but because it's currently impossible for p54spi to have a header file
- * in include/linux, let's use module paramaters for now
+ * in include/robux, let's use module paramaters for now
  */
 
 static int p54spi_gpio_power = 97;

@@ -11,18 +11,18 @@
  *  - Retrieve IO total power (uW)
  *  - Retrieve SoC temperature (milli-degree C) and alarm
  */
-#include <linux/acpi.h>
-#include <linux/dma-mapping.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/kfifo.h>
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/dma-mapping.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/kfifo.h>
+#include <robux/mailbox_controller.h>
+#include <robux/mailbox_client.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <acpi/pcc.h>
 

@@ -11,12 +11,12 @@
  *	Xinwei Kong <kong.kongxinwei@hisilicon.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/mfd/syscon.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 
 #include <video/display_timing.h>
 

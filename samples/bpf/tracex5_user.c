@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <linux/filter.h>
-#include <linux/seccomp.h>
+#include <robux/filter.h>
+#include <robux/seccomp.h>
 #include <sys/prctl.h>
 #include <bpf/bpf.h>
 #include <bpf/libbpf.h>

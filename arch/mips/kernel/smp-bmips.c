@@ -8,25 +8,25 @@
  * SMP support for BMIPS
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/reboot.h>
-#include <linux/io.h>
-#include <linux/compiler.h>
-#include <linux/linkage.h>
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/kexec.h>
-#include <linux/irq.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/sched/hotplug.h>
+#include <robux/sched/task_stack.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/smp.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/reboot.h>
+#include <robux/io.h>
+#include <robux/compiler.h>
+#include <robux/linkage.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
+#include <robux/kexec.h>
+#include <robux/irq.h>
 
 #include <asm/time.h>
 #include <asm/processor.h>
@@ -399,7 +399,7 @@ void __ref play_dead(void)
 
 	/*
 	 * Wakeup is on SW0 or SW1; disable everything else
-	 * Use BEV !IV (BMIPS_WARM_RESTART_VEC) to avoid the regular Linux
+	 * Use BEV !IV (BMIPS_WARM_RESTART_VEC) to avoid the regular Robux
 	 * IRQ handlers; this clears ST0_IE and returns immediately.
 	 */
 	clear_c0_cause(CAUSEF_IV | C_SW0 | C_SW1);

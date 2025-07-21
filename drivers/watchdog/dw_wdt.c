@@ -12,22 +12,22 @@
  * heartbeat requests after the watchdog device has been closed.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/reset.h>
-#include <linux/watchdog.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/limits.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/reset.h>
+#include <robux/watchdog.h>
 
 #define WDOG_CONTROL_REG_OFFSET		    0x00
 #define WDOG_CONTROL_REG_WDT_EN_MASK	    0x01

@@ -7,13 +7,13 @@
  *
  */
 
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/list.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 #include <keys/user-type.h>
-#include <linux/key-type.h>
-#include <linux/keyctl.h>
-#include <linux/inet.h>
+#include <robux/key-type.h>
+#include <robux/keyctl.h>
+#include <robux/inet.h>
 #include "cifsglob.h"
 #include "cifs_spnego.h"
 #include "cifs_debug.h"

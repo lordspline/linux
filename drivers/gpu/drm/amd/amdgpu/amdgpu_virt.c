@@ -21,7 +21,7 @@
  *
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 #ifdef CONFIG_X86
 #include <asm/hypervisor.h>

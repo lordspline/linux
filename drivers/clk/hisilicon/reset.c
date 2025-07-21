@@ -5,12 +5,12 @@
  * Copyright (c) 2015-2016 HiSilicon Technologies Co., Ltd.
  */
 
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 #include "reset.h"
 
 #define	HISI_RESET_BIT_MASK	0x1f

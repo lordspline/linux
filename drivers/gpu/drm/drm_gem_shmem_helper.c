@@ -3,13 +3,13 @@
  * Copyright 2018 Noralf Trønnes
  */
 
-#include <linux/dma-buf.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/shmem_fs.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/dma-buf.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/shmem_fs.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 
 #ifdef CONFIG_X86
 #include <asm/set_memory.h>

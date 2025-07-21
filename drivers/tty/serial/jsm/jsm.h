@@ -13,11 +13,11 @@
 #ifndef __JSM_DRIVER_H
 #define __JSM_DRIVER_H
 
-#include <linux/kernel.h>
-#include <linux/types.h>	/* To pick up the varions Linux types */
-#include <linux/tty.h>
-#include <linux/serial_core.h>
-#include <linux/device.h>
+#include <robux/kernel.h>
+#include <robux/types.h>	/* To pick up the varions Robux types */
+#include <robux/tty.h>
+#include <robux/serial_core.h>
+#include <robux/device.h>
 
 /*
  * Debugging levels can be set using debug insmod variable

@@ -23,9 +23,9 @@
  *   [0] - I/O port base address
  */
 
-#include <linux/module.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/comedi/comedi_8255.h>
+#include <robux/module.h>
+#include <robux/comedi/comedidev.h>
+#include <robux/comedi/comedi_8255.h>
 
 /*
  * Register I/O Map

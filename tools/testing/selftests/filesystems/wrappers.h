@@ -5,8 +5,8 @@
 
 #define _GNU_SOURCE
 
-#include <linux/types.h>
-#include <linux/mount.h>
+#include <robux/types.h>
+#include <robux/mount.h>
 #include <sys/syscall.h>
 
 #ifndef STATX_MNT_ID_UNIQUE

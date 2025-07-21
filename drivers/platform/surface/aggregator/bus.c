@@ -5,13 +5,13 @@
  * Copyright (C) 2019-2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
-#include <linux/surface_aggregator/controller.h>
-#include <linux/surface_aggregator/device.h>
+#include <robux/surface_aggregator/controller.h>
+#include <robux/surface_aggregator/device.h>
 
 #include "bus.h"
 #include "controller.h"

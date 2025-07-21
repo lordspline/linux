@@ -5,10 +5,10 @@
  * Copyright (C) 2021 Renesas Electronics Corp.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
 
 #include <dt-bindings/clock/r9a07g044-cpg.h>
 #include <dt-bindings/clock/r9a07g054-cpg.h>

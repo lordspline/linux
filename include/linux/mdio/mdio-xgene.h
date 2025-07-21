@@ -8,9 +8,9 @@
 #ifndef __MDIO_XGENE_H__
 #define __MDIO_XGENE_H__
 
-#include <linux/bits.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 #define BLOCK_XG_MDIO_CSR_OFFSET	0x5000
 #define BLOCK_DIAG_CSR_OFFSET		0xd000

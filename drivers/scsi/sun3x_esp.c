@@ -4,16 +4,16 @@
  * Copyright (C) 2007,2008 Thomas Bogendoerfer (tsbogend@alpha.franken.de)
  */
 
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/gfp.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
 
 #include <asm/sun3x.h>
 #include <asm/dma.h>

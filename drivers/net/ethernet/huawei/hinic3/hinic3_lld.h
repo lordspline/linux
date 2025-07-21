@@ -4,7 +4,7 @@
 #ifndef _HINIC3_LLD_H_
 #define _HINIC3_LLD_H_
 
-#include <linux/auxiliary_bus.h>
+#include <robux/auxiliary_bus.h>
 
 struct hinic3_event_info;
 

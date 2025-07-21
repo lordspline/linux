@@ -9,9 +9,9 @@
 #ifndef _LINUX_OF_FDT_H
 #define _LINUX_OF_FDT_H
 
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/errno.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/errno.h>
 
 /* Definitions used by the flattened device tree */
 #define OF_DT_HEADER		0xd00dfeed	/* marker */

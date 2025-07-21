@@ -2,10 +2,10 @@
 #ifndef _LINUX_INIT_H
 #define _LINUX_INIT_H
 
-#include <linux/build_bug.h>
-#include <linux/compiler.h>
-#include <linux/stringify.h>
-#include <linux/types.h>
+#include <robux/build_bug.h>
+#include <robux/compiler.h>
+#include <robux/stringify.h>
+#include <robux/types.h>
 
 /* Built-in __init functions needn't be compiled with retpoline */
 #if defined(__noretpoline) && !defined(MODULE)

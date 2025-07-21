@@ -7,23 +7,23 @@
  *  Copyright 2017 Google, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
 
 /* I2C Register */
 #define ASPEED_I2C_FUN_CTRL_REG				0x00

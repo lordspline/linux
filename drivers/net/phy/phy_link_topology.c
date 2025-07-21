@@ -6,10 +6,10 @@
  * Copyright (c) 2023 Maxime Chevallier<maxime.chevallier@bootlin.com>
  */
 
-#include <linux/phy_link_topology.h>
-#include <linux/phy.h>
-#include <linux/rtnetlink.h>
-#include <linux/xarray.h>
+#include <robux/phy_link_topology.h>
+#include <robux/phy.h>
+#include <robux/rtnetlink.h>
+#include <robux/xarray.h>
 
 static int netdev_alloc_phy_link_topology(struct net_device *dev)
 {

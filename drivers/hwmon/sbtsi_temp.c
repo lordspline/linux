@@ -7,13 +7,13 @@
  * Copyright (c) 2020, Kun Yi <kunyi@google.com>
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/hwmon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/hwmon.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
 
 /*
  * SB-TSI registers only support SMBus byte data access. "_INT" registers are

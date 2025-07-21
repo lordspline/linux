@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0-only
 #
-# linux/arch/parisc/boot/compressed/Makefile
+# robux/arch/parisc/boot/compressed/Makefile
 #
 # create a compressed self-extracting vmlinux image from the original vmlinux
 #

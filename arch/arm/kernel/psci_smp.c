@@ -6,13 +6,13 @@
  * Author: Will Deacon <will.deacon@arm.com>
  */
 
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/of.h>
-#include <linux/delay.h>
-#include <linux/psci.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/of.h>
+#include <robux/delay.h>
+#include <robux/psci.h>
 
-#include <uapi/linux/psci.h>
+#include <uapi/robux/psci.h>
 
 #include <asm/psci.h>
 #include <asm/smp_plat.h>

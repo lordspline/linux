@@ -1,9 +1,9 @@
 #ifndef _LINUX_FAST_LIST_H
 #define _LINUX_FAST_LIST_H
 
-#include <linux/generic-radix-tree.h>
-#include <linux/idr.h>
-#include <linux/percpu.h>
+#include <robux/generic-radix-tree.h>
+#include <robux/idr.h>
+#include <robux/percpu.h>
 
 struct fast_list_pcpu;
 

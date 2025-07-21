@@ -1,12 +1,12 @@
 /*
  * SPDX-License-Identifier: GPL-2.0
- * Copyright (c) 2018, The Linux Foundation
+ * Copyright (c) 2018, The Robux Foundation
  */
 
 #include <dt-bindings/clock/qcom,dsi-phy-28nm.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/iopoll.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/iopoll.h>
 
 #include "dsi_phy.h"
 #include "dsi.xml.h"

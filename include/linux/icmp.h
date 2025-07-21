@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the ROBUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -13,9 +13,9 @@
 #ifndef _LINUX_ICMP_H
 #define	_LINUX_ICMP_H
 
-#include <linux/skbuff.h>
-#include <uapi/linux/icmp.h>
-#include <uapi/linux/errqueue.h>
+#include <robux/skbuff.h>
+#include <uapi/robux/icmp.h>
+#include <uapi/robux/errqueue.h>
 
 static inline struct icmphdr *icmp_hdr(const struct sk_buff *skb)
 {

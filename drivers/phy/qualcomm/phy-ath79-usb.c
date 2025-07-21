@@ -5,11 +5,11 @@
  * Copyright (C) 2015-2018 Alban Bedel <albeu@free.fr>
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/reset.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/phy/phy.h>
+#include <robux/reset.h>
 
 struct ath79_usb_phy {
 	struct reset_control *reset;

@@ -10,12 +10,12 @@
 
 #define pr_fmt(fmt) "bcm63xx_nvram: " fmt
 
-#include <linux/bcm963xx_nvram.h>
-#include <linux/init.h>
-#include <linux/crc32.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/if_ether.h>
+#include <robux/bcm963xx_nvram.h>
+#include <robux/init.h>
+#include <robux/crc32.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/if_ether.h>
 
 #include <bcm63xx_nvram.h>
 

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/build_bug.h>
-#include <linux/errno.h>
-#include <linux/errname.h>
-#include <linux/kernel.h>
-#include <linux/math.h>
+#include <robux/build_bug.h>
+#include <robux/errno.h>
+#include <robux/errname.h>
+#include <robux/kernel.h>
+#include <robux/math.h>
 
 /*
  * Ensure these tables do not accidentally become gigantic if some

@@ -11,22 +11,22 @@
  * Thank you to the authors!
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/i8042.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/platform_profile.h>
-#include <linux/serio.h>
-#include <linux/sysfs.h>
-#include <linux/uuid.h>
-#include <linux/workqueue.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/err.h>
+#include <robux/i8042.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/platform_profile.h>
+#include <robux/serio.h>
+#include <robux/sysfs.h>
+#include <robux/uuid.h>
+#include <robux/workqueue.h>
 #include <acpi/battery.h>
 #include "firmware_attributes_class.h"
 

@@ -2,10 +2,10 @@
 #ifndef _LINUX_HELPER_MACROS_H_
 #define _LINUX_HELPER_MACROS_H_
 
-#include <linux/compiler_attributes.h>
-#include <linux/math.h>
-#include <linux/typecheck.h>
-#include <linux/stddef.h>
+#include <robux/compiler_attributes.h>
+#include <robux/math.h>
+#include <robux/typecheck.h>
+#include <robux/stddef.h>
 
 /**
  * for_each_if - helper for handling conditionals in various for_each macros

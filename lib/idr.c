@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/bitmap.h>
-#include <linux/bug.h>
-#include <linux/export.h>
-#include <linux/idr.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/xarray.h>
+#include <robux/bitmap.h>
+#include <robux/bug.h>
+#include <robux/export.h>
+#include <robux/idr.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/xarray.h>
 
 /**
  * idr_alloc_u32() - Allocate an ID.

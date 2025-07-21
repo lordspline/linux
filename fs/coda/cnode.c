@@ -3,12 +3,12 @@
    (C) 1996 Peter Braam
    */
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/time.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/time.h>
 
-#include <linux/coda.h>
-#include <linux/pagemap.h>
+#include <robux/coda.h>
+#include <robux/pagemap.h>
 #include "coda_psdev.h"
 #include "coda_linux.h"
 

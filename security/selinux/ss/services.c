@@ -37,18 +37,18 @@
  * Copyright (C) 2003 - 2004, 2006 Tresys Technology, LLC
  * Copyright (C) 2003 Red Hat, Inc., James Morris <jmorris@redhat.com>
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/spinlock.h>
-#include <linux/rcupdate.h>
-#include <linux/errno.h>
-#include <linux/in.h>
-#include <linux/sched.h>
-#include <linux/audit.h>
-#include <linux/parser.h>
-#include <linux/vmalloc.h>
-#include <linux/lsm_hooks.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/spinlock.h>
+#include <robux/rcupdate.h>
+#include <robux/errno.h>
+#include <robux/in.h>
+#include <robux/sched.h>
+#include <robux/audit.h>
+#include <robux/parser.h>
+#include <robux/vmalloc.h>
+#include <robux/lsm_hooks.h>
 #include <net/netlabel.h>
 
 #include "flask.h"

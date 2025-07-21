@@ -9,19 +9,19 @@
  * Based on the MT9V032 driver and Bastian Hecht's code.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/log2.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/log2.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-ctrls.h>

@@ -13,12 +13,12 @@
 #include "../include/gaudi/gaudi_reg_map.h"
 #include "../include/gaudi/gaudi_async_ids_map_extended.h"
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/firmware.h>
-#include <linux/hwmon.h>
-#include <linux/iommu.h>
-#include <linux/seq_file.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/firmware.h>
+#include <robux/hwmon.h>
+#include <robux/iommu.h>
+#include <robux/seq_file.h>
 
 /*
  * Gaudi security scheme:
@@ -3890,7 +3890,7 @@ static void gaudi_pre_hw_init(struct hl_device *hdev)
 	RREG32(mmHW_STATE);
 
 	if (!hdev->asic_prop.fw_security_enabled) {
-		/* Set the access through PCI bars (Linux driver only) as
+		/* Set the access through PCI bars (Robux driver only) as
 		 * secured
 		 */
 		WREG32(mmPCIE_WRAP_LBW_PROT_OVR,
@@ -3927,7 +3927,7 @@ static int gaudi_hw_init(struct hl_device *hdev)
 		gaudi->hbm_bar_cur_addr = DRAM_PHYS_BASE;
 
 	/*
-	 * Before pushing u-boot/linux to device, need to set the hbm bar to
+	 * Before pushing u-boot/robux to device, need to set the hbm bar to
 	 * base address of dram
 	 */
 	if (gaudi_set_hbm_bar_base(hdev, DRAM_PHYS_BASE) == U64_MAX) {
@@ -4039,7 +4039,7 @@ static int gaudi_hw_fini(struct hl_device *hdev, bool hard_reset, bool fw_reset)
 		WREG32(mmPCIE_AUX_FLR_CTRL, (PCIE_AUX_FLR_CTRL_HW_CTRL_MASK |
 					PCIE_AUX_FLR_CTRL_INT_MASK_MASK));
 
-	/* If linux is loaded in the device CPU we need to communicate with it
+	/* If robux is loaded in the device CPU we need to communicate with it
 	 * via the GIC. Otherwise, we need to use COMMS or the MSG_TO_CPU
 	 * registers in case of old F/Ws
 	 */
@@ -4054,7 +4054,7 @@ static int gaudi_hw_fini(struct hl_device *hdev, bool hard_reset, bool fw_reset)
 		/* This is a hail-mary attempt to revive the card in the small chance that the
 		 * f/w has experienced a watchdog event, which caused it to return back to preboot.
 		 * In that case, triggering reset through GIC won't help. We need to trigger the
-		 * reset as if Linux wasn't loaded.
+		 * reset as if Robux wasn't loaded.
 		 *
 		 * We do it only if the reset cause was HB, because that would be the indication
 		 * of such an event.

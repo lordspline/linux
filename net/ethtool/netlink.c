@@ -3,9 +3,9 @@
 #include <net/netdev_lock.h>
 #include <net/netdev_queues.h>
 #include <net/sock.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/phy_link_topology.h>
-#include <linux/pm_runtime.h>
+#include <robux/ethtool_netlink.h>
+#include <robux/phy_link_topology.h>
+#include <robux/pm_runtime.h>
 #include "netlink.h"
 #include "module_fw.h"
 

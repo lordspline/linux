@@ -55,11 +55,11 @@
 */
 #include <trace/events/dlm.h>
 
-#include <linux/types.h>
-#include <linux/rbtree.h>
-#include <linux/slab.h>
+#include <robux/types.h>
+#include <robux/rbtree.h>
+#include <robux/slab.h>
 #include "dlm_internal.h"
-#include <linux/dlm_device.h>
+#include <robux/dlm_device.h>
 #include "memory.h"
 #include "midcomms.h"
 #include "requestqueue.h"
@@ -357,7 +357,7 @@ __cond_acquires(lock)
 	return true;
 }
 
-/* TODO move this to include/linux/kref.h */
+/* TODO move this to include/robux/kref.h */
 static inline int dlm_kref_put_write_lock_bh(struct kref *kref,
 					     void (*release)(struct kref *kref),
 					     rwlock_t *lock)

@@ -5,17 +5,17 @@
  */
 #include <crypto/internal/hash.h>
 #include <crypto/sha3.h>
-#include <linux/cacheflush.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/firmware/xlnx-zynqmp.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
+#include <robux/cacheflush.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/firmware/xlnx-zynqmp.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/platform_device.h>
 
 #define ZYNQMP_DMA_BIT_MASK		32U
 #define ZYNQMP_DMA_ALLOC_FIXED_SIZE	0x1000U

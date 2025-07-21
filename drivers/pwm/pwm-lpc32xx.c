@@ -3,16 +3,16 @@
  * Copyright 2012 Alexandre Pereira da Silva <aletes.xgr@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
+#include <robux/slab.h>
 
 struct lpc32xx_pwm_chip {
 	struct clk *clk;

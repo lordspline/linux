@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/core_marvel.c
+ *	robux/arch/alpha/kernel/core_marvel.c
  *
  * Code common to all Marvel based systems.
  */
@@ -10,15 +10,15 @@
 #include <asm/core_marvel.h>
 #undef __EXTERN_INLINE
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/vmalloc.h>
-#include <linux/mc146818rtc.h>
-#include <linux/rtc.h>
-#include <linux/module.h>
-#include <linux/memblock.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/vmalloc.h>
+#include <robux/mc146818rtc.h>
+#include <robux/rtc.h>
+#include <robux/module.h>
+#include <robux/memblock.h>
 
 #include <asm/ptrace.h>
 #include <asm/smp.h>
@@ -839,10 +839,10 @@ EXPORT_SYMBOL(marvel_iowrite8);
 /*
  * AGP GART Support.
  */
-#include <linux/agp_backend.h>
+#include <robux/agp_backend.h>
 #include <asm/agp_backend.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
 
 struct marvel_agp_aperture {
 	struct pci_iommu_arena *arena;

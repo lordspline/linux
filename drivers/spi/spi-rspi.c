@@ -9,22 +9,22 @@
  * Copyright (C) 2011 Renesas Solutions Corp.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/sh_dma.h>
-#include <linux/spi/spi.h>
-#include <linux/spinlock.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/sh_dma.h>
+#include <robux/spi/spi.h>
+#include <robux/spinlock.h>
 
 #define RSPI_SPCR		0x00	/* Control Register */
 #define RSPI_SSLP		0x01	/* Slave Select Polarity Register */

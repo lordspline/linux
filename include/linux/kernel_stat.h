@@ -2,12 +2,12 @@
 #ifndef _LINUX_KERNEL_STAT_H
 #define _LINUX_KERNEL_STAT_H
 
-#include <linux/smp.h>
-#include <linux/threads.h>
-#include <linux/percpu.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/vtime.h>
+#include <robux/smp.h>
+#include <robux/threads.h>
+#include <robux/percpu.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <robux/vtime.h>
 #include <asm/irq.h>
 
 /*

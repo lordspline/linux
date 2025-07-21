@@ -4,17 +4,17 @@
  *
  * Maintainer: Sylver Bruneau <sylver.bruneau@googlemail.com>
  */
-#include <linux/gpio.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/mtd/physmap.h>
-#include <linux/mv643xx_eth.h>
-#include <linux/i2c.h>
-#include <linux/serial_reg.h>
+#include <robux/gpio.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/pci.h>
+#include <robux/irq.h>
+#include <robux/delay.h>
+#include <robux/mtd/physmap.h>
+#include <robux/mv643xx_eth.h>
+#include <robux/i2c.h>
+#include <robux/serial_reg.h>
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/pci.h>

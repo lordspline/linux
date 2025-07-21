@@ -2,18 +2,18 @@
 /* Copyright (c) 2009-2011, Code Aurora Forum. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
-#include <linux/input/matrix_keypad.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/of.h>
+#include <robux/input/matrix_keypad.h>
 
 #define PM8XXX_MAX_ROWS		18
 #define PM8XXX_MAX_COLS		8
@@ -517,11 +517,11 @@ static int pmic8xxx_kp_probe(struct platform_device *pdev)
 		return -EINVAL;
 	}
 
-	repeat = !of_property_read_bool(np, "linux,input-no-autorepeat");
+	repeat = !of_property_read_bool(np, "robux,input-no-autorepeat");
 
 	wakeup = of_property_read_bool(np, "wakeup-source") ||
 		 /* legacy name */
-		 of_property_read_bool(np, "linux,keypad-wakeup");
+		 of_property_read_bool(np, "robux,keypad-wakeup");
 
 	kp = devm_kzalloc(&pdev->dev, sizeof(*kp), GFP_KERNEL);
 	if (!kp)

@@ -6,7 +6,7 @@
 #ifndef _PLATDATA_AMD_QDMA_H
 #define _PLATDATA_AMD_QDMA_H
 
-#include <linux/dmaengine.h>
+#include <robux/dmaengine.h>
 
 /**
  * struct qdma_queue_info - DMA queue information. This information is used to

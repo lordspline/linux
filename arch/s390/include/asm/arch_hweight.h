@@ -3,7 +3,7 @@
 #ifndef _ASM_S390_ARCH_HWEIGHT_H
 #define _ASM_S390_ARCH_HWEIGHT_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/march.h>
 
 static __always_inline unsigned long popcnt_z196(unsigned long w)

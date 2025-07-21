@@ -5,17 +5,17 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/sys_soc.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/sys_soc.h>
 
-#include <linux/fsl/mc.h>
+#include <robux/fsl/mc.h>
 #include <soc/fsl/dpaa2-io.h>
 
 #include "qbman-portal.h"

@@ -8,12 +8,12 @@
  *
  */
 
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
 
 #include "core.h"
 #include "gadget-export.h"

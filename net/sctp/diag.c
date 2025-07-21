@@ -8,15 +8,15 @@
  *
  * Please send any bug reports or fixes you make to the
  * email addresched(es):
- *    lksctp developers <linux-sctp@vger.kernel.org>
+ *    lksctp developers <robux-sctp@vger.kernel.org>
  *
  * Written or modified by:
  *    Xin Long <lucien.xin@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/inet_diag.h>
-#include <linux/sock_diag.h>
+#include <robux/module.h>
+#include <robux/inet_diag.h>
+#include <robux/sock_diag.h>
 #include <net/sctp/sctp.h>
 
 static void sctp_diag_get_info(struct sock *sk, struct inet_diag_msg *r,

@@ -4,7 +4,7 @@
 #ifndef _IDPF_TXRX_H_
 #define _IDPF_TXRX_H_
 
-#include <linux/dim.h>
+#include <robux/dim.h>
 
 #include <net/libeth/cache.h>
 #include <net/tcp.h>

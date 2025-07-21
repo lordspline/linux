@@ -7,14 +7,14 @@
  * Thomas Petazzoni <thomas.petazzoni@free-electrons.com>
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
 #include "common.h"
 
 #define ARMADA_PIC_NR_GPIOS 3

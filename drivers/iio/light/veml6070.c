@@ -9,16 +9,16 @@
  * TODO: ACK signal
  */
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/units.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #define VEML6070_DRV_NAME "veml6070"
 

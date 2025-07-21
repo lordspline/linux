@@ -25,7 +25,7 @@
 
 #include "hdp/hdp_7_0_0_offset.h"
 #include "hdp/hdp_7_0_0_sh_mask.h"
-#include <uapi/linux/kfd_ioctl.h>
+#include <uapi/robux/kfd_ioctl.h>
 
 static void hdp_v7_0_update_clock_gating(struct amdgpu_device *adev,
 					 bool enable)

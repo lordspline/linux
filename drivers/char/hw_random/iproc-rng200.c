@@ -7,14 +7,14 @@
  * DESCRIPTION: The Broadcom iProc RNG200 Driver
  */
 
-#include <linux/hw_random.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
+#include <robux/hw_random.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
 
 /* Registers */
 #define RNG_CTRL_OFFSET					0x00

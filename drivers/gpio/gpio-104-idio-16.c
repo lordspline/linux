@@ -6,17 +6,17 @@
  * This driver supports the following ACCES devices: 104-IDIO-16,
  * 104-IDIO-16E, 104-IDO-16, 104-IDIO-8, 104-IDIO-8E, and 104-IDO-8.
  */
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/isa.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/ioport.h>
+#include <robux/irq.h>
+#include <robux/isa.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 #include "gpio-idio-16.h"
 

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/early_printk.c
+ *  robux/arch/arm/kernel/early_printk.c
  *
  *  Copyright (C) 2009 Sascha Hauer <s.hauer@pengutronix.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/console.h>
+#include <robux/init.h>
+#include <robux/string.h>
 
 extern void printascii(const char *);
 

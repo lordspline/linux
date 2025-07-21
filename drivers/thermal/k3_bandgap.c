@@ -5,16 +5,16 @@
  * Copyright (C) 2020 Texas Instruments Incorporated - http://www.ti.com/
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/thermal.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/thermal.h>
+#include <robux/types.h>
 
 #include "thermal_hwmon.h"
 

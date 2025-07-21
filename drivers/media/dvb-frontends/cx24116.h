@@ -9,7 +9,7 @@
 #ifndef CX24116_H
 #define CX24116_H
 
-#include <linux/dvb/frontend.h>
+#include <robux/dvb/frontend.h>
 
 struct cx24116_config {
 	/* the demodulator's i2c address */

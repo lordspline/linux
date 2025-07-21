@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/gpio.h>
+#include <robux/io.h>
 #include <asm/proc-fns.h>
 #include <asm/system_misc.h>
 

@@ -13,9 +13,9 @@
 
 #include <crypto/internal/blockhash.h>
 #include <crypto/internal/sha2.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
 
 /*
  * If __DISABLE_EXPORTS is defined, then this file is being compiled for a

@@ -36,18 +36,18 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/console.h>
-#include <linux/kobject.h>
-#include <linux/dma-map-ops.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/console.h>
+#include <robux/kobject.h>
+#include <robux/dma-map-ops.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/stat.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 #include <asm/ibmebus.h>
 #include <asm/machdep.h>
 

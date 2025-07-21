@@ -16,14 +16,14 @@
  *	- Regulator control
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/spi/spi.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/types.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define MCP4821_ACTIVE_MODE BIT(12)
 #define MCP4802_SECOND_CHAN BIT(15)

@@ -10,7 +10,7 @@
 
 #include "xe_ggtt_types.h"
 
-#include <linux/refcount.h>
+#include <robux/refcount.h>
 
 /* We don't want these from i915_drm.h in case of Xe */
 #undef I915_TILING_X

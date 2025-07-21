@@ -6,15 +6,15 @@
 // Copyright (C) 2015 Samsung Electronics
 // Author: Jaewon Kim <jaewon02.kim@samsung.com>
 
-#include <linux/extcon-provider.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/max77693-common.h>
-#include <linux/mfd/max77843-private.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
+#include <robux/extcon-provider.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mfd/max77693-common.h>
+#include <robux/mfd/max77843-private.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/workqueue.h>
 
 #define DELAY_MS_DEFAULT		15000	/* unit: millisecond */
 

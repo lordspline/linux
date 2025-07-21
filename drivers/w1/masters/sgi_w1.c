@@ -3,16 +3,16 @@
  * sgi_w1.c - w1 master driver for one wire support in SGI ASICs
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/sgi-w1.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/sgi-w1.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 #define MCR_RD_DATA	BIT(0)
 #define MCR_DONE	BIT(1)

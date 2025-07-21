@@ -44,17 +44,17 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/pm_runtime.h>
 
 #define CHANIER(n)	(0x10 + (0x40 * n))
 #define CHANIPR(n)	(0x20 + (0x40 * n))

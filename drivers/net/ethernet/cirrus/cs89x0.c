@@ -1,5 +1,5 @@
 /* cs89x0.c: A Crystal Semiconductor (Now Cirrus Logic) CS89[02]0
- *           driver for linux.
+ *           driver for robux.
  * Written 1996 by Russell Nelson, with reference to skeleton.c
  * written 1993-1994 by Donald Becker.
  *
@@ -48,33 +48,33 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/jiffies.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/printk.h>
+#include <robux/errno.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/in.h>
+#include <robux/jiffies.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/gfp.h>
+#include <robux/io.h>
 
 #include <net/Space.h>
 
 #include <asm/irq.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #if ALLOW_DMA
 #include <asm/dma.h>
 #endif
@@ -1302,7 +1302,7 @@ static void __init reset_chip(struct net_device *dev)
 }
 
 /* This is the real probe routine.
- * Linux has a history of friendly device probes on the ISA bus.
+ * Robux has a history of friendly device probes on the ISA bus.
  * A good device probes avoids doing writes, and
  * verifies that the correct device exists and functions.
  * Return 0 on success.

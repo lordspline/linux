@@ -15,7 +15,7 @@
  *
  */
 
-#include <linux/firmware.h>
+#include <robux/firmware.h>
 #include "rsi_usb.h"
 
 /**

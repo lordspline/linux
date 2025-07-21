@@ -6,7 +6,7 @@
 #ifndef __FSL_SAI_H
 #define __FSL_SAI_H
 
-#include <linux/dma/imx-dma.h>
+#include <robux/dma/imx-dma.h>
 #include <sound/dmaengine_pcm.h>
 
 #define FAL_SAI_NUM_RATES  20

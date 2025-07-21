@@ -8,21 +8,21 @@
  * for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/spi/spi.h>
-#include <linux/gpio.h>
-#include <linux/fec.h>
-#include <linux/dmaengine.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/spi/spi.h>
+#include <robux/gpio.h>
+#include <robux/fec.h>
+#include <robux/dmaengine.h>
 #include <asm/traps.h>
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>
 #include <asm/mcfuart.h>
 #include <asm/mcfqspi.h>
-#include <linux/platform_data/edma.h>
-#include <linux/platform_data/dma-mcf-edma.h>
-#include <linux/platform_data/mmc-esdhc-mcf.h>
+#include <robux/platform_data/edma.h>
+#include <robux/platform_data/dma-mcf-edma.h>
+#include <robux/platform_data/mmc-esdhc-mcf.h>
 
 /*
  *	All current ColdFire parts contain from 2, 3, 4 or 10 UARTS.
@@ -583,7 +583,7 @@ static struct platform_device mcf_esdhc = {
 
 #ifdef MCFFLEXCAN_SIZE
 
-#include <linux/can/platform/flexcan.h>
+#include <robux/can/platform/flexcan.h>
 
 static struct flexcan_platform_data mcf5441x_flexcan_info = {
 	.clk_src = 1,

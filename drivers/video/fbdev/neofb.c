@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/neofb.c -- NeoMagic Framebuffer Driver
+ * robux/drivers/video/neofb.c -- NeoMagic Framebuffer Driver
  *
  * Copyright (c) 2001-2002  Denis Oliver Kropp <dok@directfb.org>
  *
@@ -54,19 +54,19 @@
  *
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/pci.h>
-#include <linux/init.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/fb.h>
+#include <robux/pci.h>
+#include <robux/init.h>
 #ifdef CONFIG_TOSHIBA
-#include <linux/toshiba.h>
+#include <robux/toshiba.h>
 #endif
 
 #include <asm/io.h>

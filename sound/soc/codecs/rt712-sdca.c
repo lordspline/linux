@@ -6,21 +6,21 @@
 //
 //
 
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 #include <sound/core.h>
-#include <linux/delay.h>
-#include <linux/init.h>
+#include <robux/delay.h>
+#include <robux/init.h>
 #include <sound/initval.h>
 #include <sound/jack.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pm_runtime.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/pm_runtime.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/sdca.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/slab.h>
+#include <robux/soundwire/sdw_registers.h>
+#include <robux/slab.h>
 #include <sound/soc-dapm.h>
 #include <sound/tlv.h>
 #include "rt712-sdca.h"

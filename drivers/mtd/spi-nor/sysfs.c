@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/mtd/spi-nor.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/sysfs.h>
+#include <robux/mtd/spi-nor.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
+#include <robux/sysfs.h>
 
 #include "core.h"
 

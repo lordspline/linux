@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0
 /* Copyright (c) 2019-2020 Marvell International Ltd. All rights reserved */
 
-#include <linux/etherdevice.h>
-#include <linux/jiffies.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/netdev_features.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/if_vlan.h>
-#include <linux/phylink.h>
+#include <robux/etherdevice.h>
+#include <robux/jiffies.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/netdev_features.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/if_vlan.h>
+#include <robux/phylink.h>
 
 #include "prestera.h"
 #include "prestera_hw.h"

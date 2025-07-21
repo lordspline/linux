@@ -5,15 +5,15 @@
  *
  * Copyright (C) 2006-2008 Intel Corporation
  * Copyright (C) 2007 Amos Lee <amos_lee@storlinksemi.com>
- * Copyright (C) 2007 Dave Airlie <airlied@linux.ie>
+ * Copyright (C) 2007 Dave Airlie <airlied@robux.ie>
  * Copyright (C) 2011 Texas Instruments
  * Copyright (C) 2017 Eric Anholt
  */
 
-#include <linux/clk.h>
-#include <linux/dma-buf.h>
-#include <linux/of_graph.h>
-#include <linux/delay.h>
+#include <robux/clk.h>
+#include <robux/dma-buf.h>
+#include <robux/of_graph.h>
+#include <robux/delay.h>
 
 #include <drm/drm_fb_dma_helper.h>
 #include <drm/drm_fourcc.h>

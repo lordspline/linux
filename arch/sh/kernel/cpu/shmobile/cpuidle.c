@@ -6,14 +6,14 @@
  *
  *  Copyright (C) 2009 Magnus Damm
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/suspend.h>
-#include <linux/cpuidle.h>
-#include <linux/export.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/suspend.h>
+#include <robux/cpuidle.h>
+#include <robux/export.h>
 #include <asm/suspend.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 static unsigned long cpuidle_mode[] = {
 	SUSP_SH_SLEEP, /* regular sleep mode */

@@ -2,8 +2,8 @@
 #ifndef __LINUX_COOKIE_H
 #define __LINUX_COOKIE_H
 
-#include <linux/atomic.h>
-#include <linux/percpu.h>
+#include <robux/atomic.h>
+#include <robux/percpu.h>
 #include <asm/local.h>
 
 struct pcpu_gen_cookie {

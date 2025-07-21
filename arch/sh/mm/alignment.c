@@ -8,12 +8,12 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
-#include <linux/uaccess.h>
-#include <linux/ratelimit.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/seq_file.h>
+#include <robux/proc_fs.h>
+#include <robux/uaccess.h>
+#include <robux/ratelimit.h>
 #include <asm/alignment.h>
 #include <asm/processor.h>
 

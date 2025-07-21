@@ -41,21 +41,21 @@
 #ifndef _PM8001_SAS_H_
 #define _PM8001_SAS_H_
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/ctype.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/delay.h>
+#include <robux/types.h>
+#include <robux/ctype.h>
+#include <robux/dma-mapping.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
 #include <scsi/libsas.h>
 #include <scsi/scsi_tcq.h>
 #include <scsi/sas_ata.h>
-#include <linux/atomic.h>
-#include <linux/blk-mq.h>
+#include <robux/atomic.h>
+#include <robux/blk-mq.h>
 #include "pm8001_defs.h"
 
 #define DRV_NAME		"pm80xx"

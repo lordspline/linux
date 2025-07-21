@@ -32,8 +32,8 @@
 #ifndef _CXGB3_OFFLOAD_H
 #define _CXGB3_OFFLOAD_H
 
-#include <linux/list.h>
-#include <linux/skbuff.h>
+#include <robux/list.h>
+#include <robux/skbuff.h>
 
 #include "l2t.h"
 

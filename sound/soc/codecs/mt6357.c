@@ -6,11 +6,11 @@
  * Author: Nicolas Belin <nbelin@baylibre.com>
  */
 
-#include <linux/dma-mapping.h>
+#include <robux/dma-mapping.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>
-#include <linux/mfd/mt6397/core.h>
-#include <linux/regulator/consumer.h>
+#include <robux/mfd/mt6397/core.h>
+#include <robux/regulator/consumer.h>
 
 #include "mt6357.h"
 

@@ -17,16 +17,16 @@
  *       - processors supported:- Intel XScale PXA25x, PXA26x, PXA27x
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/soc/pxa/cpu.h>
-#include <linux/wm97xx.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/soc/pxa/cpu.h>
+#include <robux/wm97xx.h>
 
 #include <sound/pxa2xx-lib.h>
 

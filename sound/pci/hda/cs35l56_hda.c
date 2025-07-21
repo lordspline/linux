@@ -6,13 +6,13 @@
 //                    Cirrus Logic International Semiconductor Ltd.
 //
 
-#include <linux/acpi.h>
-#include <linux/debugfs.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/debugfs.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/cs-amp-lib.h>
 #include <sound/hda_codec.h>

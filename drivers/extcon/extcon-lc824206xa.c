@@ -16,17 +16,17 @@
  * yoga_tab_2_osc_android_to_lollipop_201505.rar.
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/extcon-provider.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/workqueue.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/extcon-provider.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/power_supply.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/workqueue.h>
 
 /*
  * Register defines as mentioned above there is no datasheet with register

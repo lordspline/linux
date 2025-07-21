@@ -9,10 +9,10 @@
  */
 
 #include "hid-ids.h"
-#include <linux/hidraw.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/usb.h>
+#include <robux/hidraw.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/usb.h>
 
 #ifdef DEBUG
 static int ft260_debug = 1;

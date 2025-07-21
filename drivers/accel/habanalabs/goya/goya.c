@@ -11,10 +11,10 @@
 #include "../include/goya/asic_reg/goya_masks.h"
 #include "../include/goya/goya_reg_map.h"
 
-#include <linux/pci.h>
-#include <linux/hwmon.h>
-#include <linux/iommu.h>
-#include <linux/seq_file.h>
+#include <robux/pci.h>
+#include <robux/hwmon.h>
+#include <robux/iommu.h>
+#include <robux/seq_file.h>
 
 /*
  * GOYA security scheme:
@@ -2487,10 +2487,10 @@ static void goya_halt_engines(struct hl_device *hdev, bool hard_reset, bool fw_r
 }
 
 /*
- * goya_load_firmware_to_device() - Load LINUX FW code to device.
+ * goya_load_firmware_to_device() - Load ROBUX FW code to device.
  * @hdev: Pointer to hl_device structure.
  *
- * Copy LINUX fw code from firmware file to HBM BAR.
+ * Copy ROBUX fw code from firmware file to HBM BAR.
  *
  * Return: 0 on success, non-zero for failure.
  */
@@ -2608,7 +2608,7 @@ static int goya_init_cpu(struct hl_device *hdev)
 		return 0;
 
 	/*
-	 * Before pushing u-boot/linux to device, need to set the ddr bar to
+	 * Before pushing u-boot/robux to device, need to set the ddr bar to
 	 * base address of dram
 	 */
 	if (goya_set_ddr_bar_base(hdev, DRAM_PHYS_BASE) == U64_MAX) {

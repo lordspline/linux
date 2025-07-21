@@ -20,14 +20,14 @@
  * them as DIMM's. An internal table creates the association between ranks
  * and DIMM's.
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/edac.h>
-#include <linux/delay.h>
-#include <linux/mmzone.h>
-#include <linux/debugfs.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/edac.h>
+#include <robux/delay.h>
+#include <robux/mmzone.h>
+#include <robux/debugfs.h>
 
 #include "edac_module.h"
 

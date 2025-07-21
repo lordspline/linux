@@ -6,18 +6,18 @@
  * Author: Yicong Yang <yangyicong@hisilicon.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cpuhotplug.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/sysfs.h>
-#include <linux/vmalloc.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/cpuhotplug.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iommu.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/sysfs.h>
+#include <robux/vmalloc.h>
 
 #include "hisi_ptt.h"
 

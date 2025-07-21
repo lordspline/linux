@@ -2,7 +2,7 @@
 #ifndef _LINUX_PGTABLE_H
 #define _LINUX_PGTABLE_H
 
-#include <linux/pfn.h>
+#include <robux/pfn.h>
 #include <asm/pgtable.h>
 
 #define PMD_ORDER	(PMD_SHIFT - PAGE_SHIFT)
@@ -11,11 +11,11 @@
 #ifndef __ASSEMBLY__
 #ifdef CONFIG_MMU
 
-#include <linux/mm_types.h>
-#include <linux/bug.h>
-#include <linux/errno.h>
+#include <robux/mm_types.h>
+#include <robux/bug.h>
+#include <robux/errno.h>
 #include <asm-generic/pgtable_uffd.h>
-#include <linux/page_table_check.h>
+#include <robux/page_table_check.h>
 
 #if 5 - defined(__PAGETABLE_P4D_FOLDED) - defined(__PAGETABLE_PUD_FOLDED) - \
 	defined(__PAGETABLE_PMD_FOLDED) != CONFIG_PGTABLE_LEVELS

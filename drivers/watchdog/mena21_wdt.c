@@ -5,18 +5,18 @@
  * Copyright (C) 2013 MEN Mikro Elektronik Nuernberg GmbH
  *
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
-#include <linux/uaccess.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/watchdog.h>
+#include <robux/uaccess.h>
+#include <robux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
+#include <robux/of.h>
 
 #define NUM_GPIOS 6
 

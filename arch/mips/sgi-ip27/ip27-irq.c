@@ -7,13 +7,13 @@
  * Copyright (C) 1999 - 2001 Kanoj Sarcar
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/sched.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/bitops.h>
+#include <robux/sched.h>
 
 #include <asm/io.h>
 #include <asm/irq_cpu.h>

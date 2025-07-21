@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Driver for the Solos PCI ADSL2+ card, designed to support Linux by
+ * Driver for the Solos PCI ADSL2+ card, designed to support Robux by
  *  Traverse Technologies -- https://www.traverse.com.au/
  *  Xrio Limited          -- http://www.xrio.com/
  *
@@ -15,23 +15,23 @@
 #define DEBUG
 #define VERBOSE_DEBUG
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/atm.h>
-#include <linux/atmdev.h>
-#include <linux/skbuff.h>
-#include <linux/sysfs.h>
-#include <linux/device.h>
-#include <linux/kobject.h>
-#include <linux/firmware.h>
-#include <linux/ctype.h>
-#include <linux/swab.h>
-#include <linux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/atm.h>
+#include <robux/atmdev.h>
+#include <robux/skbuff.h>
+#include <robux/sysfs.h>
+#include <robux/device.h>
+#include <robux/kobject.h>
+#include <robux/firmware.h>
+#include <robux/ctype.h>
+#include <robux/swab.h>
+#include <robux/slab.h>
 
 #define VERSION "1.04"
 #define DRIVER_VERSION 0x01

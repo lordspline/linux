@@ -6,10 +6,10 @@
  *  All rights reserved.
  */
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/cfi.h>
-#include <linux/time.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/cfi.h>
+#include <robux/time.h>
 
 #include "cobalt-flash.h"
 

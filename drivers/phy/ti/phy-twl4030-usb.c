@@ -11,23 +11,23 @@
  *	- 3-pin mode support may be added in future.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/usb/otg.h>
-#include <linux/phy/phy.h>
-#include <linux/pm_runtime.h>
-#include <linux/usb/musb.h>
-#include <linux/usb/ulpi.h>
-#include <linux/mfd/twl.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/workqueue.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/usb/otg.h>
+#include <robux/phy/phy.h>
+#include <robux/pm_runtime.h>
+#include <robux/usb/musb.h>
+#include <robux/usb/ulpi.h>
+#include <robux/mfd/twl.h>
+#include <robux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/slab.h>
 
 /* Register defines */
 

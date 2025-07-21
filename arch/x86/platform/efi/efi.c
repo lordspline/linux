@@ -3,7 +3,7 @@
  * Common EFI (Extensible Firmware Interface) support functions
  * Based on Extensible Firmware Interface Specification version 1.0
  *
- * Copyright (C) 1999 VA Linux Systems
+ * Copyright (C) 1999 VA Robux Systems
  * Copyright (C) 1999 Walt Drummond <drummond@valinux.com>
  * Copyright (C) 1999-2002 Hewlett-Packard Co.
  *	David Mosberger-Tang <davidm@hpl.hp.com>
@@ -11,7 +11,7 @@
  * Copyright (C) 2005-2008 Intel Co.
  *	Fenghua Yu <fenghua.yu@intel.com>
  *	Bibo Mao <bibo.mao@intel.com>
- *	Chandramouli Narayanan <mouli@linux.intel.com>
+ *	Chandramouli Narayanan <mouli@robux.intel.com>
  *	Huang Ying <ying.huang@intel.com>
  * Copyright (C) 2013 SuSE Labs
  *	Borislav Petkov <bp@suse.de> - runtime services VA mapping
@@ -31,19 +31,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/efi.h>
-#include <linux/efi-bgrt.h>
-#include <linux/export.h>
-#include <linux/memblock.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
-#include <linux/time.h>
-#include <linux/io.h>
-#include <linux/reboot.h>
-#include <linux/bcd.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/efi.h>
+#include <robux/efi-bgrt.h>
+#include <robux/export.h>
+#include <robux/memblock.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/uaccess.h>
+#include <robux/time.h>
+#include <robux/io.h>
+#include <robux/reboot.h>
+#include <robux/bcd.h>
 
 #include <asm/setup.h>
 #include <asm/efi.h>
@@ -305,11 +305,11 @@ static void __init efi_clean_memmap(void)
  * mapped by the OS so they can be accessed by EFI runtime services, but
  * should have no other significance to the OS (UEFI r2.10, sec 7.2).
  * However, most bootloaders and EFI stubs convert EfiMemoryMappedIO
- * regions to E820_TYPE_RESERVED entries, which prevent Linux from
+ * regions to E820_TYPE_RESERVED entries, which prevent Robux from
  * allocating space from them (see remove_e820_regions()).
  *
  * Some platforms use EfiMemoryMappedIO entries for PCI MMCONFIG space and
- * PCI host bridge windows, which means Linux can't allocate BAR space for
+ * PCI host bridge windows, which means Robux can't allocate BAR space for
  * hot-added devices.
  *
  * Remove large EfiMemoryMappedIO regions from the E820 map to avoid this

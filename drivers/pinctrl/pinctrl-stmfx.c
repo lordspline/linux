@@ -5,16 +5,16 @@
  * Copyright (C) 2019 STMicroelectronics
  * Author(s): Amelie Delaunay <amelie.delaunay@st.com>.
  */
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/stmfx.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/string_choices.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/stmfx.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
+#include <robux/string_choices.h>
 
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "core.h"
 #include "pinctrl-utils.h"

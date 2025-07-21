@@ -7,9 +7,9 @@
  * Author: Bo Shen <voice.shen@atmel.com>
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 #include <sound/soc.h>
 

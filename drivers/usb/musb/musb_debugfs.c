@@ -6,13 +6,13 @@
  * Contact: Felipe Balbi <felipe.balbi@nokia.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "musb_core.h"
 #include "musb_debug.h"

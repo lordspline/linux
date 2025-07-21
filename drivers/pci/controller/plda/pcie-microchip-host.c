@@ -7,20 +7,20 @@
  * Author: Daire McNamara <daire.mcnamara@microchip.com>
  */
 
-#include <linux/align.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/pci-ecam.h>
-#include <linux/platform_device.h>
-#include <linux/wordpart.h>
+#include <robux/align.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/log2.h>
+#include <robux/module.h>
+#include <robux/msi.h>
+#include <robux/of_address.h>
+#include <robux/of_pci.h>
+#include <robux/pci-ecam.h>
+#include <robux/platform_device.h>
+#include <robux/wordpart.h>
 
 #include "../../pci.h"
 #include "../pci-host-common.h"

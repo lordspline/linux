@@ -3,16 +3,16 @@
  * Copyright (c) 2024 AIROHA Inc
  * Author: Lorenzo Bianconi <lorenzo@kernel.org>
  */
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/tcp.h>
-#include <linux/u64_stats_sync.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/tcp.h>
+#include <robux/u64_stats_sync.h>
 #include <net/dst_metadata.h>
 #include <net/page_pool/helpers.h>
 #include <net/pkt_cls.h>
-#include <uapi/linux/ppp_defs.h>
+#include <uapi/robux/ppp_defs.h>
 
 #include "airoha_regs.h"
 #include "airoha_eth.h"

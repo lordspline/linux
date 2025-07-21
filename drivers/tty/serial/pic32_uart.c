@@ -8,20 +8,20 @@
  *   Sorin-Andrei Pistirica <andrei.pistirica@microchip.com>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/console.h>
-#include <linux/clk.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/console.h>
+#include <robux/clk.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/serial_core.h>
+#include <robux/delay.h>
 
 #include <asm/mach-pic32/pic32.h>
 

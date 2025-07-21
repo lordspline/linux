@@ -4,15 +4,15 @@
  * Author: Vincent Abriou <vincent.abriou@st.com> for STMicroelectronics.
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/debugfs.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/debugfs.h>
+#include <robux/hdmi.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

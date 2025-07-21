@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/cpufreq.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <robux/cpufreq.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
 
 extern const struct seq_operations cpuinfo_op;
 

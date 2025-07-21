@@ -7,22 +7,22 @@
  * Samsung SxM I2C driver
  */
 
-#include <linux/dev_printk.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mfd/samsung/core.h>
-#include <linux/mfd/samsung/s2mpa01.h>
-#include <linux/mfd/samsung/s2mps11.h>
-#include <linux/mfd/samsung/s2mps13.h>
-#include <linux/mfd/samsung/s2mps14.h>
-#include <linux/mfd/samsung/s2mps15.h>
-#include <linux/mfd/samsung/s2mpu02.h>
-#include <linux/mfd/samsung/s5m8767.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/dev_printk.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/mfd/samsung/core.h>
+#include <robux/mfd/samsung/s2mpa01.h>
+#include <robux/mfd/samsung/s2mps11.h>
+#include <robux/mfd/samsung/s2mps13.h>
+#include <robux/mfd/samsung/s2mps14.h>
+#include <robux/mfd/samsung/s2mps15.h>
+#include <robux/mfd/samsung/s2mpu02.h>
+#include <robux/mfd/samsung/s5m8767.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 #include "sec-core.h"
 
 struct sec_pmic_i2c_platform_data {

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Multimedia device API
  *
@@ -20,8 +20,8 @@
 #ifndef __LINUX_MEDIA_H
 #define __LINUX_MEDIA_H
 
-#include <linux/ioctl.h>
-#include <linux/types.h>
+#include <robux/ioctl.h>
+#include <robux/types.h>
 
 struct media_device_info {
 	char driver[16];

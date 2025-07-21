@@ -8,13 +8,13 @@
  *	Ben Dooks <ben@simtec.co.uk>
 */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/lcd.h>
-#include <linux/module.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/lcd.h>
+#include <robux/module.h>
 
-#include <linux/spi/spi.h>
+#include <robux/spi/spi.h>
 
 #include <video/ili9320.h>
 
@@ -256,7 +256,7 @@ static struct spi_driver vgg2432a4_driver = {
 
 module_spi_driver(vgg2432a4_driver);
 
-MODULE_AUTHOR("Ben Dooks <ben-linux@fluff.org>");
+MODULE_AUTHOR("Ben Dooks <ben-robux@fluff.org>");
 MODULE_DESCRIPTION("VGG2432A4 LCD Driver");
 MODULE_LICENSE("GPL v2");
 MODULE_ALIAS("spi:VGG2432A4");

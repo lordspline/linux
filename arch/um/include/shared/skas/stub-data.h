@@ -8,7 +8,7 @@
 #ifndef __STUB_DATA_H
 #define __STUB_DATA_H
 
-#include <linux/compiler_types.h>
+#include <robux/compiler_types.h>
 #include <as-layout.h>
 #include <sysdep/tls.h>
 #include <sysdep/stub-data.h>

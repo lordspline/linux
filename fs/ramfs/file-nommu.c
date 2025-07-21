@@ -5,21 +5,21 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/highmem.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/backing-dev.h>
-#include <linux/ramfs.h>
-#include <linux/pagevec.h>
-#include <linux/mman.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/pagemap.h>
+#include <robux/highmem.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/backing-dev.h>
+#include <robux/ramfs.h>
+#include <robux/pagevec.h>
+#include <robux/mman.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include "internal.h"
 
 static int ramfs_nommu_setattr(struct mnt_idmap *, struct dentry *, struct iattr *);

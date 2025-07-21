@@ -3,17 +3,17 @@
  * MIDI 2.0 support
  */
 
-#include <linux/bitops.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/wait.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/usb/audio.h>
-#include <linux/usb/midi.h>
-#include <linux/usb/midi-v2.h>
+#include <robux/bitops.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/wait.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/usb/audio.h>
+#include <robux/usb/midi.h>
+#include <robux/usb/midi-v2.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

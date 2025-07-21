@@ -8,25 +8,25 @@
  *
  */
 
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/serial_8250.h>
-#include <linux/serial_reg.h>
-#include <linux/tty_flip.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/console.h>
-#include <linux/pm_qos.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/dma-mapping.h>
-#include <linux/sys_soc.h>
+#include <robux/atomic.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/serial_8250.h>
+#include <robux/serial_reg.h>
+#include <robux/tty_flip.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
+#include <robux/console.h>
+#include <robux/pm_qos.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/dma-mapping.h>
+#include <robux/sys_soc.h>
 
 #include "8250.h"
 

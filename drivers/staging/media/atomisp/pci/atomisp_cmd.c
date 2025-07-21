@@ -6,15 +6,15 @@
  *
  * Copyright (c) 2010 Silicon Hive www.siliconhive.com.
  */
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
-#include <linux/pm_runtime.h>
-#include <linux/timer.h>
+#include <robux/errno.h>
+#include <robux/firmware.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/kfifo.h>
+#include <robux/pm_runtime.h>
+#include <robux/timer.h>
 
 #include <asm/iosf_mbi.h>
 

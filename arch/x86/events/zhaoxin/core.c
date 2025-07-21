@@ -5,12 +5,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/nmi.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/nmi.h>
 
 #include <asm/cpufeature.h>
 #include <asm/hardirq.h>

@@ -11,8 +11,8 @@
  */
 #ifndef __LINUX_CDNS3_GADGET
 #define __LINUX_CDNS3_GADGET
-#include <linux/usb/gadget.h>
-#include <linux/dma-direction.h>
+#include <robux/usb/gadget.h>
+#include <robux/dma-direction.h>
 
 /*
  * USBSS-DEV register interface.

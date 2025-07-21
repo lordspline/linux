@@ -3,12 +3,12 @@
  * Copyright (c) 2022, Linaro Limited, All rights reserved.
  * Author: Mike Leach <mike.leach@linaro.org>
  */
-#include <linux/coresight.h>
-#include <linux/coresight-pmu.h>
-#include <linux/cpumask.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/coresight.h>
+#include <robux/coresight-pmu.h>
+#include <robux/cpumask.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 #include "coresight-trace-id.h"
 

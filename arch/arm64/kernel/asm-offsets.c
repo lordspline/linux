@@ -7,21 +7,21 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/arm_sdei.h>
-#include <linux/sched.h>
-#include <linux/ftrace.h>
-#include <linux/kexec.h>
-#include <linux/mm.h>
-#include <linux/kvm_host.h>
-#include <linux/suspend.h>
+#include <robux/arm_sdei.h>
+#include <robux/sched.h>
+#include <robux/ftrace.h>
+#include <robux/kexec.h>
+#include <robux/mm.h>
+#include <robux/kvm_host.h>
+#include <robux/suspend.h>
 #include <asm/cpufeature.h>
 #include <asm/fixmap.h>
 #include <asm/thread_info.h>
 #include <asm/memory.h>
 #include <asm/smp_plat.h>
 #include <asm/suspend.h>
-#include <linux/kbuild.h>
-#include <linux/arm-smccc.h>
+#include <robux/kbuild.h>
+#include <robux/arm-smccc.h>
 
 int main(void)
 {

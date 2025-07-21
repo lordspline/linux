@@ -20,15 +20,15 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/twl.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/twl.h>
 
 #define PWR_PWRON_IRQ (1 << 0)
 

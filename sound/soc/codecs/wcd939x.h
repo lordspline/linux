@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * Copyright (c) 2018-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2021, The Robux Foundation. All rights reserved.
  * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
 #ifndef __WCD939X_H__
 #define __WCD939X_H__
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/soundwire/sdw_type.h>
 
 #define WCD939X_BASE					   (0x3000)
 #define WCD939X_ANA_PAGE				   (0x3000)

@@ -2,9 +2,9 @@
 #ifndef _ASM_S390X_S390_H
 #define _ASM_S390X_S390_H
 
-#include <linux/compat.h>
-#include <linux/socket.h>
-#include <linux/syscalls.h>
+#include <robux/compat.h>
+#include <robux/socket.h>
+#include <robux/syscalls.h>
 #include <asm/ptrace.h>
 
 /*

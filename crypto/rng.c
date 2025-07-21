@@ -9,16 +9,16 @@
  */
 
 #include <crypto/internal/rng.h>
-#include <linux/atomic.h>
-#include <linux/cryptouser.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/random.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/atomic.h>
+#include <robux/cryptouser.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/random.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 #include <net/netlink.h>
 
 #include "internal.h"

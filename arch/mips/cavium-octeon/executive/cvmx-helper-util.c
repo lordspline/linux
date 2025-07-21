@@ -28,7 +28,7 @@
 /*
  * Small helper utilities.
  */
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 #include <asm/octeon/octeon.h>
 

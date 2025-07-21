@@ -5,10 +5,10 @@
  *  Copyright (c) 2011 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/vmalloc.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/vmalloc.h>
+#include <robux/io.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/pcm.h>

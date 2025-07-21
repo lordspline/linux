@@ -8,8 +8,8 @@
 #define __IA_CSS_ENV_H
 
 #include <type_support.h>
-#include <linux/stdarg.h> /* va_list */
-#include <linux/bits.h>
+#include <robux/stdarg.h> /* va_list */
+#include <robux/bits.h>
 #include "ia_css_types.h"
 #include "ia_css_acc_types.h"
 
@@ -75,7 +75,7 @@ struct ia_css_print_env {
 
 /* Environment structure. This includes function pointers to access several
  *  features provided by the environment in which the CSS API is used.
- *  This is used to run the camera IP in multiple platforms such as Linux,
+ *  This is used to run the camera IP in multiple platforms such as Robux,
  *  Windows and several simulation environments.
  */
 struct ia_css_env {

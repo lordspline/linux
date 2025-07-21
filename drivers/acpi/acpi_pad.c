@@ -5,20 +5,20 @@
  * Copyright (c) 2009, Intel Corporation.
  */
 
-#include <linux/kernel.h>
-#include <linux/cpumask.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/kthread.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/freezer.h>
-#include <linux/cpu.h>
-#include <linux/tick.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/cpumask.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/kthread.h>
+#include <uapi/robux/sched/types.h>
+#include <robux/freezer.h>
+#include <robux/cpu.h>
+#include <robux/tick.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
+#include <robux/perf_event.h>
+#include <robux/platform_device.h>
 #include <asm/cpuid/api.h>
 #include <asm/mwait.h>
 #include <xen/xen.h>

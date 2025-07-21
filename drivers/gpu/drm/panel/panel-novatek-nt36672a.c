@@ -12,14 +12,14 @@
  * use this driver.
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/regulator/consumer.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_mipi_dsi.h>

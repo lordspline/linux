@@ -6,7 +6,7 @@
  */
 #include <kunit/test.h>
 
-#include <linux/kfifo.h>
+#include <robux/kfifo.h>
 
 #define KFIFO_SIZE 32
 #define N_ELEMENTS 5

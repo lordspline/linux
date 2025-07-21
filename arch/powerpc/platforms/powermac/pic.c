@@ -10,19 +10,19 @@
  *                     IBM, Corp.
  */
 
-#include <linux/stddef.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/signal.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/syscore_ops.h>
-#include <linux/adb.h>
-#include <linux/minmax.h>
-#include <linux/pmu.h>
-#include <linux/irqdomain.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/stddef.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/signal.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/syscore_ops.h>
+#include <robux/adb.h>
+#include <robux/minmax.h>
+#include <robux/pmu.h>
+#include <robux/irqdomain.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 #include <asm/sections.h>
 #include <asm/io.h>
@@ -528,7 +528,7 @@ void __init pmac_pic_init(void)
 #ifdef CONFIG_PPC32
 	if (!pmac_newworld)
 		of_irq_workarounds |= OF_IMAP_OLDWORLD_MAC;
-	if (of_property_read_bool(of_chosen, "linux,bootx"))
+	if (of_property_read_bool(of_chosen, "robux,bootx"))
 		of_irq_workarounds |= OF_IMAP_NO_PHANDLE;
 
 	/* If we don't have phandles on a newworld, then try to locate a

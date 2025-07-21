@@ -7,27 +7,27 @@
  * Author: Eugeniy Paltsev <Eugeniy.Paltsev@synopsys.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dmaengine.h>
+#include <robux/dmapool.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "dw-axi-dmac.h"
 #include "../dmaengine.h"

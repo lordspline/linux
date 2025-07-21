@@ -7,7 +7,7 @@
 #ifndef _CCU_MIX_H_
 #define _CCU_MIX_H_
 
-#include <linux/clk-provider.h>
+#include <robux/clk-provider.h>
 
 #include "ccu_common.h"
 

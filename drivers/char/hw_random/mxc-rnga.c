@@ -11,13 +11,13 @@
  * This driver is based on other RNG drivers.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/hw_random.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 /* RNGA Registers */
 #define RNGA_CONTROL			0x00

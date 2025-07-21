@@ -7,19 +7,19 @@
  *  Routines for control of EMU8000 chip
  */
 
-#include <linux/wait.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/export.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/string.h>
+#include <robux/wait.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/ioport.h>
+#include <robux/export.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/string.h>
 #include <sound/core.h>
 #include <sound/emu8000.h>
 #include <sound/emu8000_reg.h>
-#include <linux/uaccess.h>
-#include <linux/init.h>
+#include <robux/uaccess.h>
+#include <robux/init.h>
 #include <sound/control.h>
 #include <sound/initval.h>
 

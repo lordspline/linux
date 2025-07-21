@@ -2,8 +2,8 @@
 //
 // Copyright(c) 2020 Intel Corporation
 
-#include <linux/device.h>
-#include <linux/kernel.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

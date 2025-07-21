@@ -3,16 +3,16 @@
  * Copyright (C) 2024 Google LLC
  */
 
-#include <linux/arch_topology.h>
-#include <linux/cpufreq.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/arch_topology.h>
+#include <robux/cpufreq.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 /*
  * CPU0..CPUn

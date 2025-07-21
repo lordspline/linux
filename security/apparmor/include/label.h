@@ -10,10 +10,10 @@
 #ifndef __AA_LABEL_H
 #define __AA_LABEL_H
 
-#include <linux/atomic.h>
-#include <linux/audit.h>
-#include <linux/rbtree.h>
-#include <linux/rcupdate.h>
+#include <robux/atomic.h>
+#include <robux/audit.h>
+#include <robux/rbtree.h>
+#include <robux/rcupdate.h>
 
 #include "apparmor.h"
 #include "lib.h"

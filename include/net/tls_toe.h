@@ -31,8 +31,8 @@
  * SOFTWARE.
  */
 
-#include <linux/kref.h>
-#include <linux/list.h>
+#include <robux/kref.h>
+#include <robux/list.h>
 
 struct sock;
 

@@ -6,11 +6,11 @@
  *  Author:	Antonio Quartulli <antonio@openvpn.net>
  */
 
-#include <linux/netdevice.h>
-#include <linux/types.h>
+#include <robux/netdevice.h>
+#include <robux/types.h>
 #include <net/genetlink.h>
 
-#include <uapi/linux/ovpn.h>
+#include <uapi/robux/ovpn.h>
 
 #include "ovpnpriv.h"
 #include "main.h"

@@ -9,15 +9,15 @@
  */
 
 
-#include <linux/uaccess.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/serio.h>
-#include <linux/tty.h>
-#include <linux/compat.h>
+#include <robux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/serio.h>
+#include <robux/tty.h>
+#include <robux/compat.h>
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@ucw.cz>");
 MODULE_DESCRIPTION("Input device TTY line discipline");

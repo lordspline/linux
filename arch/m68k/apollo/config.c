@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/tty.h>
-#include <linux/rtc.h>
-#include <linux/vt_kern.h>
-#include <linux/interrupt.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/tty.h>
+#include <robux/rtc.h>
+#include <robux/vt_kern.h>
+#include <robux/interrupt.h>
 
 #include <asm/setup.h>
 #include <asm/bootinfo.h>

@@ -32,11 +32,11 @@
 #ifndef _T3CDEV_H_
 #define _T3CDEV_H_
 
-#include <linux/list.h>
-#include <linux/atomic.h>
-#include <linux/netdevice.h>
-#include <linux/proc_fs.h>
-#include <linux/skbuff.h>
+#include <robux/list.h>
+#include <robux/atomic.h>
+#include <robux/netdevice.h>
+#include <robux/proc_fs.h>
+#include <robux/skbuff.h>
 #include <net/neighbour.h>
 
 #define T3CNAMSIZ 16

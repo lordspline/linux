@@ -4,19 +4,19 @@
  *
  *  Copyright (C) 2005 - 2010  Paul Mundt
  */
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/irq.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/log2.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/timer.h>
+#include <robux/irq.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/log2.h>
 #include "pci-sh4.h"
 #include <asm/mmu.h>
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 
 #if defined(CONFIG_CPU_BIG_ENDIAN)
 # define PCICR_ENDIANNESS SH4_PCICR_BSWP

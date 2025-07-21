@@ -52,7 +52,7 @@
 			default-state = "on";
 			function = LED_FUNCTION_HEARTBEAT;
 			gpios = <&gpio0 RK_PB7 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 		};
 	};
 

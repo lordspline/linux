@@ -7,16 +7,16 @@
  *	Nishanth Menon
  */
 
-#include <linux/bitfield.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/palmas.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mfd/palmas.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #define PALMAS_LPK_TIME_MASK		0x0c
 #define PALMAS_PWRON_DEBOUNCE_MASK	0x03

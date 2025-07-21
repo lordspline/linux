@@ -4,11 +4,11 @@
  *
  *  Copyright (C) 2006 Atsushi Nemoto <anemo@mba.ocn.ne.jp>
  */
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
-#include <linux/export.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task_stack.h>
+#include <robux/stacktrace.h>
+#include <robux/export.h>
 #include <asm/stacktrace.h>
 
 /*

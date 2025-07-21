@@ -22,17 +22,17 @@
  *    Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/preempt.h>
-#include <linux/spinlock.h>
-#include <linux/memblock.h>
-#include <linux/of_fdt.h>
-#include <linux/hugetlb.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/highmem.h>
+#include <robux/pagemap.h>
+#include <robux/preempt.h>
+#include <robux/spinlock.h>
+#include <robux/memblock.h>
+#include <robux/of_fdt.h>
+#include <robux/hugetlb.h>
 
 #include <asm/pgalloc.h>
 #include <asm/tlbflush.h>

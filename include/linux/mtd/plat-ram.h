@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
-/* linux/include/linux/mtd/plat-ram.h
+/* robux/include/robux/mtd/plat-ram.h
  *
  * (c) 2004 Simtec Electronics
  *	http://www.simtec.co.uk/products/SWLINUX/

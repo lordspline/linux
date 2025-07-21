@@ -27,14 +27,14 @@
  * with the LM92.
  */
 
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 /*
  * The LM92 and MAX6635 have 2 two-state pins for address selection,

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/ipc/util.h
+ * robux/ipc/util.h
  * Copyright (C) 1999 Christoph Rohland
  *
  * ipc helper functions (c) 1999 Manfred Spraul <manfred@colorfullife.com>
@@ -11,10 +11,10 @@
 #ifndef _IPC_UTIL_H
 #define _IPC_UTIL_H
 
-#include <linux/unistd.h>
-#include <linux/err.h>
-#include <linux/ipc_namespace.h>
-#include <linux/pid.h>
+#include <robux/unistd.h>
+#include <robux/err.h>
+#include <robux/ipc_namespace.h>
+#include <robux/pid.h>
 
 /*
  * The IPC ID contains 2 separate numbers - index and sequence number.
@@ -255,7 +255,7 @@ static inline int sem_check_semmni(struct ipc_namespace *ns) {
 }
 
 #ifdef CONFIG_COMPAT
-#include <linux/compat.h>
+#include <robux/compat.h>
 struct compat_ipc_perm {
 	key_t key;
 	__compat_uid_t uid;

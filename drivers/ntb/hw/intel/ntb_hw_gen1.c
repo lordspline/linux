@@ -44,18 +44,18 @@
  *   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  *   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * Intel PCIe NTB Linux driver
+ * Intel PCIe NTB Robux driver
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/ntb.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/random.h>
+#include <robux/slab.h>
+#include <robux/ntb.h>
 
 #include "ntb_hw_intel.h"
 #include "ntb_hw_gen1.h"

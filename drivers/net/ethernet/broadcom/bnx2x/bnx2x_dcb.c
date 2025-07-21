@@ -21,10 +21,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/netdevice.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/rtnetlink.h>
+#include <robux/netdevice.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/rtnetlink.h>
 #include <net/dcbnl.h>
 
 #include "bnx2x.h"

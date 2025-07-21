@@ -6,12 +6,12 @@
  *   Prints the exception msg to the kernel message log and panic().
  */
 
-#include <linux/ftrace.h>
-#include <linux/tracepoint.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/rv.h>
+#include <robux/ftrace.h>
+#include <robux/tracepoint.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/rv.h>
 
 static void rv_panic_reaction(char *msg)
 {

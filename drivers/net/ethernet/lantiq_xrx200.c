@@ -7,17 +7,17 @@
  * Copyright (C) 2017 - 2018 Hauke Mehrtens <hauke@hauke-m.de>
  */
 
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
+#include <robux/etherdevice.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
 
-#include <linux/if_vlan.h>
+#include <robux/if_vlan.h>
 
-#include <linux/of_net.h>
-#include <linux/of_platform.h>
+#include <robux/of_net.h>
+#include <robux/of_platform.h>
 
 #include <xway_dma.h>
 

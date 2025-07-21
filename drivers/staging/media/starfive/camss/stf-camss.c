@@ -10,12 +10,12 @@
  * Author: Changhuang Liang <changhuang.liang@starfivetech.com>
  *
  */
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/videodev2.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-fwnode.h>
 #include <media/v4l2-mc.h>
 

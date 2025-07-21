@@ -12,21 +12,21 @@
  * - Support power management
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/stat.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
-#include <linux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/events.h>
+#include <robux/iio/buffer.h>
 
-#include <linux/iio/gyro/itg3200.h>
+#include <robux/iio/gyro/itg3200.h>
 
 
 int itg3200_write_reg_8(struct iio_dev *indio_dev,

@@ -8,20 +8,20 @@
  * Based on board-sh7785lcr.c
  * Copyright (C) 2008  Yoshihiro Shimoda
  */
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/fb.h>
-#include <linux/smc91x.h>
-#include <linux/mtd/physmap.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/irq.h>
-#include <linux/clk.h>
-#include <linux/sh_intc.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/fb.h>
+#include <robux/smc91x.h>
+#include <robux/mtd/physmap.h>
+#include <robux/delay.h>
+#include <robux/gpio.h>
+#include <robux/irq.h>
+#include <robux/clk.h>
+#include <robux/sh_intc.h>
 #include <mach/urquell.h>
 #include <cpu/sh7786.h>
 #include <asm/heartbeat.h>
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 #include <asm/smp-ops.h>
 
 /*

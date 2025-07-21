@@ -8,7 +8,7 @@
 #include <time.h>
 #include <sched.h>
 #include <pthread.h>
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 #include <asm/kvm.h>
 #ifdef __riscv
 #include "sbi.h"

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/platform_device.h>
-#include <linux/memregion.h>
-#include <linux/module.h>
-#include <linux/pfn_t.h>
-#include <linux/dax.h>
+#include <robux/platform_device.h>
+#include <robux/memregion.h>
+#include <robux/module.h>
+#include <robux/pfn_t.h>
+#include <robux/dax.h>
 #include "../bus.h"
 
 static bool region_idle;

@@ -3,16 +3,16 @@
  * Intel Tiger Lake PCH pinctrl/GPIO driver
  *
  * Copyright (C) 2019 - 2020, Intel Corporation
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@robux.intel.com>
+ *          Mika Westerberg <mika.westerberg@robux.intel.com>
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
 
-#include <linux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinctrl.h>
 
 #include "pinctrl-intel.h"
 
@@ -754,8 +754,8 @@ static struct platform_driver tgl_pinctrl_driver = {
 };
 module_platform_driver(tgl_pinctrl_driver);
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
-MODULE_AUTHOR("Mika Westerberg <mika.westerberg@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@robux.intel.com>");
+MODULE_AUTHOR("Mika Westerberg <mika.westerberg@robux.intel.com>");
 MODULE_DESCRIPTION("Intel Tiger Lake PCH pinctrl/GPIO driver");
 MODULE_LICENSE("GPL v2");
 MODULE_IMPORT_NS("PINCTRL_INTEL");

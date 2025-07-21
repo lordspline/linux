@@ -4,14 +4,14 @@
  *	Dong Aisheng <aisheng.dong@nxp.com>
  */
 
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/units.h>
+#include <robux/bits.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/units.h>
 
 #include "clk-scu.h"
 

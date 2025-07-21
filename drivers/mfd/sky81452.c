@@ -6,15 +6,15 @@
  * Author : Gyungoh Yoo <jack.yoo@skyworksinc.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/sky81452.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/sky81452.h>
 
 static const struct regmap_config sky81452_config = {
 	.reg_bits = 8,

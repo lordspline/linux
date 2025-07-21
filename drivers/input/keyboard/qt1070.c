@@ -10,15 +10,15 @@
  *  Raphael Derosso Pereira <raphaelpereira@gmail.com>
  *  Copyright (C) 2009
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/slab.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/delay.h>
 
 /* Address for each register */
 #define CHIP_ID            0x00

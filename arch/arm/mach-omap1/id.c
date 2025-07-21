@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap1/id.c
+ * robux/arch/arm/mach-omap1/id.c
  *
  * OMAP1 CPU identification code
  *
@@ -8,11 +8,11 @@
  * Written by Tony Lindgren <tony@atomide.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/soc/ti/omap1-io.h>
 #include <asm/system_info.h>
 
 #include "soc.h"

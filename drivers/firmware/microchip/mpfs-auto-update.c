@@ -9,14 +9,14 @@
  *
  * Author: Conor Dooley <conor.dooley@microchip.com>
  */
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/firmware.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
+#include <robux/cleanup.h>
+#include <robux/debugfs.h>
+#include <robux/firmware.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/mtd/mtd.h>
+#include <robux/platform_device.h>
+#include <robux/sizes.h>
 
 #include <soc/microchip/mpfs.h>
 

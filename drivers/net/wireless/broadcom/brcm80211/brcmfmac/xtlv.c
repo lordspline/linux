@@ -3,11 +3,11 @@
  * Copyright (c) 2019 Broadcom
  */
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <linux/math.h>
-#include <linux/string.h>
-#include <linux/bug.h>
+#include <robux/math.h>
+#include <robux/string.h>
+#include <robux/bug.h>
 
 #include "xtlv.h"
 

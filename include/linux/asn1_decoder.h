@@ -8,8 +8,8 @@
 #ifndef _LINUX_ASN1_DECODER_H
 #define _LINUX_ASN1_DECODER_H
 
-#include <linux/asn1.h>
-#include <linux/types.h>
+#include <robux/asn1.h>
+#include <robux/types.h>
 
 struct asn1_decoder;
 

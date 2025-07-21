@@ -7,19 +7,19 @@
  * Chen-Zhi (Roger Chen)  <roger.chen@rock-chips.com>
  */
 
-#include <linux/stmmac.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/phy.h>
-#include <linux/of_net.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/delay.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/pm_runtime.h>
+#include <robux/stmmac.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/phy.h>
+#include <robux/of_net.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/delay.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/pm_runtime.h>
 
 #include "stmmac_platform.h"
 

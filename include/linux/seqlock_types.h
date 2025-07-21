@@ -2,9 +2,9 @@
 #ifndef __LINUX_SEQLOCK_TYPES_H
 #define __LINUX_SEQLOCK_TYPES_H
 
-#include <linux/lockdep_types.h>
-#include <linux/mutex_types.h>
-#include <linux/spinlock_types.h>
+#include <robux/lockdep_types.h>
+#include <robux/mutex_types.h>
+#include <robux/spinlock_types.h>
 
 /*
  * Sequence counters (seqcount_t)

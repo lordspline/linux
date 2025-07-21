@@ -43,40 +43,40 @@
 /*#define DBGRBUF(info) dump_rbufs(info)*/
 
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/fcntl.h>
-#include <linux/ptrace.h>
-#include <linux/ioport.h>
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/netdevice.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/ioctl.h>
-#include <linux/termios.h>
-#include <linux/bitops.h>
-#include <linux/workqueue.h>
-#include <linux/hdlc.h>
-#include <linux/synclink.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/serial.h>
+#include <robux/major.h>
+#include <robux/string.h>
+#include <robux/fcntl.h>
+#include <robux/ptrace.h>
+#include <robux/ioport.h>
+#include <robux/mm.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/netdevice.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/ioctl.h>
+#include <robux/termios.h>
+#include <robux/bitops.h>
+#include <robux/workqueue.h>
+#include <robux/hdlc.h>
+#include <robux/synclink.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/dma.h>
 #include <asm/types.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #if defined(CONFIG_HDLC) || (defined(CONFIG_HDLC_MODULE) && defined(CONFIG_SYNCLINK_GT_MODULE))
 #define SYNCLINK_GENERIC_HDLC 1

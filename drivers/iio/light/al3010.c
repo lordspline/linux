@@ -14,14 +14,14 @@
  * potential races with the interrupt handling.
  */
 
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/mod_devicetable.h>
+#include <robux/bitfield.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/mod_devicetable.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #define AL3010_REG_SYSTEM		0x00
 #define AL3010_REG_DATA_LOW		0x0c

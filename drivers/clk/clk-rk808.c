@@ -7,11 +7,11 @@
  * Author:Chris Zhong <zyw@rock-chips.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/rk808.h>
+#include <robux/clk-provider.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/rk808.h>
 
 struct rk808_clkout {
 	struct regmap		*regmap;

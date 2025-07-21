@@ -10,13 +10,13 @@
  *  Adapted for sparc by David S. Miller davem@davemloft.net
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_pdt.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/errno.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/of_pdt.h>
 #include <asm/prom.h>
 #include <asm/oplib.h>
 

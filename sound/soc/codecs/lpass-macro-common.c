@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
-// Copyright (c) 2022, The Linux Foundation. All rights reserved.
+// Copyright (c) 2022, The Robux Foundation. All rights reserved.
 
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
 
 #include "lpass-macro-common.h"
 

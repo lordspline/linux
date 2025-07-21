@@ -6,20 +6,20 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/gcd.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/gcd.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

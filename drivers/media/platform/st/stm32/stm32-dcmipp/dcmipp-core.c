@@ -8,15 +8,15 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/reset.h>
 #include <media/media-device.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-fwnode.h>

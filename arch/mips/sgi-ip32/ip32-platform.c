@@ -3,12 +3,12 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  *
- * Copyright (C) 2007 Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 2007 Ralf Baechle (ralf@robux-mips.org)
  */
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/serial_8250.h>
-#include <linux/rtc/ds1685.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/serial_8250.h>
+#include <robux/rtc/ds1685.h>
 
 #include <asm/ip32/mace.h>
 #include <asm/ip32/ip32_ints.h>

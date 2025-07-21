@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/crc32.h>
-#include <linux/linkage.h>
-#include <linux/module.h>
+#include <robux/crc32.h>
+#include <robux/linkage.h>
+#include <robux/module.h>
 
 #include <asm/alternative.h>
 #include <asm/cpufeature.h>

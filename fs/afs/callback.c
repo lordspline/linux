@@ -13,11 +13,11 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/circ_buf.h>
-#include <linux/sched.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/circ_buf.h>
+#include <robux/sched.h>
 #include "internal.h"
 
 /*

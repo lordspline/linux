@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright IBM Corp. 2011
- * Author(s): Jan Glauber <jang@linux.vnet.ibm.com>
+ * Author(s): Jan Glauber <jang@robux.vnet.ibm.com>
  */
-#include <linux/cpufeature.h>
-#include <linux/hugetlb.h>
-#include <linux/proc_fs.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
+#include <robux/cpufeature.h>
+#include <robux/hugetlb.h>
+#include <robux/proc_fs.h>
+#include <robux/vmalloc.h>
+#include <robux/mm.h>
 #include <asm/cacheflush.h>
 #include <asm/facility.h>
 #include <asm/pgalloc.h>

@@ -6,9 +6,9 @@
  * Copyright(c) 1999 - 2005 Intel Corporation. All rights reserved.
  */
 
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/slab.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/slab.h>
 
 #include "atl1c.h"
 

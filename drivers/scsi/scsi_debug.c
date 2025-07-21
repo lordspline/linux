@@ -15,39 +15,39 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ":%s: " fmt, __func__
 
-#include <linux/module.h>
-#include <linux/align.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/vmalloc.h>
-#include <linux/moduleparam.h>
-#include <linux/scatterlist.h>
-#include <linux/blkdev.h>
-#include <linux/crc-t10dif.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/atomic.h>
-#include <linux/hrtimer.h>
-#include <linux/uuid.h>
-#include <linux/t10-pi.h>
-#include <linux/msdos_partition.h>
-#include <linux/random.h>
-#include <linux/xarray.h>
-#include <linux/prefetch.h>
-#include <linux/debugfs.h>
-#include <linux/async.h>
-#include <linux/cleanup.h>
+#include <robux/module.h>
+#include <robux/align.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/jiffies.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/proc_fs.h>
+#include <robux/vmalloc.h>
+#include <robux/moduleparam.h>
+#include <robux/scatterlist.h>
+#include <robux/blkdev.h>
+#include <robux/crc-t10dif.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/atomic.h>
+#include <robux/hrtimer.h>
+#include <robux/uuid.h>
+#include <robux/t10-pi.h>
+#include <robux/msdos_partition.h>
+#include <robux/random.h>
+#include <robux/xarray.h>
+#include <robux/prefetch.h>
+#include <robux/debugfs.h>
+#include <robux/async.h>
+#include <robux/cleanup.h>
 
 #include <net/checksum.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
@@ -1690,7 +1690,7 @@ static int fetch_to_dev_buffer(struct scsi_cmnd *scp, unsigned char *arr,
 }
 
 
-static char sdebug_inq_vendor_id[9] = "Linux   ";
+static char sdebug_inq_vendor_id[9] = "Robux   ";
 static char sdebug_inq_product_id[17] = "scsi_debug      ";
 static char sdebug_inq_product_rev[5] = SDEBUG_VERSION;
 /* Use some locally assigned NAAs for SAS addresses. */
@@ -5691,7 +5691,7 @@ fini:
 #define RL_BUCKET_ELEMS 8
 
 /* Even though each pseudo target has a REPORT LUNS "well known logical unit"
- * (W-LUN), the normal Linux scanning logic does not associate it with a
+ * (W-LUN), the normal Robux scanning logic does not associate it with a
  * device (e.g. /dev/sg7). The following magic will make that association:
  *   "cd /sys/class/scsi_host/host<n> ; echo '- - 49409' > scan"
  * where <n> is a host number. If there are multiple targets in a host then
@@ -7066,7 +7066,7 @@ static void sdebug_build_parts(unsigned char *ramp, unsigned long store_size)
 
 		pp->start_sect = cpu_to_le32(start_sec);
 		pp->nr_sects = cpu_to_le32(end_sec - start_sec + 1);
-		pp->sys_ind = 0x83;	/* plain Linux partition */
+		pp->sys_ind = 0x83;	/* plain Robux partition */
 	}
 }
 
@@ -7386,7 +7386,7 @@ MODULE_PARM_DESC(host_max_queue,
 MODULE_PARM_DESC(inq_product, "SCSI INQUIRY product string (def=\"scsi_debug\")");
 MODULE_PARM_DESC(inq_rev, "SCSI INQUIRY revision string (def=\""
 		 SDEBUG_VERSION "\")");
-MODULE_PARM_DESC(inq_vendor, "SCSI INQUIRY vendor string (def=\"Linux\")");
+MODULE_PARM_DESC(inq_vendor, "SCSI INQUIRY vendor string (def=\"Robux\")");
 MODULE_PARM_DESC(lbprz,
 		 "on read unmapped LBs return 0 when 1 (def), return 0xff when 2");
 MODULE_PARM_DESC(lbpu, "enable LBP, support UNMAP command (def=0)");

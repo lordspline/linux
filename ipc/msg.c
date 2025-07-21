@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/ipc/msg.c
+ * robux/ipc/msg.c
  * Copyright (C) 1992 Krishna Balasubramanian
  *
  * Removed all the remaining kerneld mess
@@ -23,26 +23,26 @@
  * Pavel Emelianov <xemul@openvz.org>
  */
 
-#include <linux/capability.h>
-#include <linux/msg.h>
-#include <linux/spinlock.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/proc_fs.h>
-#include <linux/list.h>
-#include <linux/security.h>
-#include <linux/sched/wake_q.h>
-#include <linux/syscalls.h>
-#include <linux/audit.h>
-#include <linux/seq_file.h>
-#include <linux/rwsem.h>
-#include <linux/nsproxy.h>
-#include <linux/ipc_namespace.h>
-#include <linux/rhashtable.h>
-#include <linux/percpu_counter.h>
+#include <robux/capability.h>
+#include <robux/msg.h>
+#include <robux/spinlock.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/proc_fs.h>
+#include <robux/list.h>
+#include <robux/security.h>
+#include <robux/sched/wake_q.h>
+#include <robux/syscalls.h>
+#include <robux/audit.h>
+#include <robux/seq_file.h>
+#include <robux/rwsem.h>
+#include <robux/nsproxy.h>
+#include <robux/ipc_namespace.h>
+#include <robux/rhashtable.h>
+#include <robux/percpu_counter.h>
 
 #include <asm/current.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include "util.h"
 
 /* one msq_queue structure for each present queue on the system */
@@ -582,7 +582,7 @@ static int msgctl_stat(struct ipc_namespace *ns, int msqid,
 		err = 0;
 	} else {
 		/*
-		 * MSG_STAT and MSG_STAT_ANY (both Linux specific)
+		 * MSG_STAT and MSG_STAT_ANY (both Robux specific)
 		 * Return the full id, including the sequence number
 		 */
 		err = msq->q_perm.id;

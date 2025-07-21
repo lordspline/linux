@@ -6,7 +6,7 @@
 #ifndef __LINUX_ACPI_MDIO_H
 #define __LINUX_ACPI_MDIO_H
 
-#include <linux/phy.h>
+#include <robux/phy.h>
 
 #if IS_ENABLED(CONFIG_ACPI_MDIO)
 int __acpi_mdiobus_register(struct mii_bus *mdio, struct fwnode_handle *fwnode,

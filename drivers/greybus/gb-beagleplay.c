@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Beagleplay Linux Driver for Greybus
+ * Beagleplay Robux Driver for Greybus
  *
  * Copyright (c) 2023 Ayush Singh <ayushdevel1325@gmail.com>
  * Copyright (c) 2023 BeagleBoard.org Foundation
  */
 
-#include <linux/unaligned.h>
-#include <linux/crc32.h>
-#include <linux/gpio/consumer.h>
-#include <linux/firmware.h>
-#include <linux/greybus.h>
-#include <linux/serdev.h>
-#include <linux/crc-ccitt.h>
-#include <linux/circ_buf.h>
+#include <robux/unaligned.h>
+#include <robux/crc32.h>
+#include <robux/gpio/consumer.h>
+#include <robux/firmware.h>
+#include <robux/greybus.h>
+#include <robux/serdev.h>
+#include <robux/crc-ccitt.h>
+#include <robux/circ_buf.h>
 
 #define CC1352_FIRMWARE_SIZE (704 * 1024)
 #define CC1352_BOOTLOADER_TIMEOUT 2000

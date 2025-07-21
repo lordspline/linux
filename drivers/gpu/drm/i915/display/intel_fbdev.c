@@ -24,18 +24,18 @@
  *     David Airlie
  */
 
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/vga_switcheroo.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/sysrq.h>
+#include <robux/tty.h>
+#include <robux/vga_switcheroo.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_crtc.h>
@@ -190,7 +190,7 @@ static void intelfb_set_suspend(struct drm_fb_helper *fb_helper, bool suspend)
 	struct fb_info *info = fb_helper->info;
 
 	/*
-	 * When resuming from hibernation, Linux restores the object's
+	 * When resuming from hibernation, Robux restores the object's
 	 * content from swap if the buffer is backed by shmemfs. If the
 	 * object is stolen however, it will be full of whatever garbage
 	 * was left in there. Clear it to zero in this case.

@@ -9,10 +9,10 @@
 
 #include "xilinx-core.h"
 
-#include <linux/delay.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
+#include <robux/delay.h>
+#include <robux/fpga/fpga-mgr.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
 
 static int get_done_gpio(struct fpga_manager *mgr)
 {

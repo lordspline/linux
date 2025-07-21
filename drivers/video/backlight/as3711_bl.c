@@ -6,16 +6,16 @@
  * Author: Guennadi Liakhovetski, <g.liakhovetski@gmx.de>
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/mfd/as3711.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/backlight.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/mfd/as3711.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 enum as3711_bl_type {
 	AS3711_BL_SU1,

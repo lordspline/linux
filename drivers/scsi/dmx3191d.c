@@ -8,12 +8,12 @@
 
 */
 
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
 #include <asm/io.h>
 
 #include <scsi/scsi_host.h>

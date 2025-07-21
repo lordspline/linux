@@ -7,11 +7,11 @@
 #include "pvr_gem.h"
 #include "pvr_hwrt.h"
 
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
 
 static __always_inline u32
 get_ccb_space(u32 w_off, u32 r_off, u32 ccb_size)

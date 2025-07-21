@@ -6,17 +6,17 @@
  *		 Peter Oberparleiter <peter.oberparleiter@de.ibm.com>
  */
 
-#include <linux/bug.h>
-#include <linux/workqueue.h>
-#include <linux/spinlock.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/wait.h>
-#include <linux/mutex.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
+#include <robux/bug.h>
+#include <robux/workqueue.h>
+#include <robux/spinlock.h>
+#include <robux/export.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/jiffies.h>
+#include <robux/wait.h>
+#include <robux/mutex.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
 #include <asm/chpid.h>
 #include <asm/sclp.h>
 #include <asm/crw.h>

@@ -7,23 +7,23 @@
  *   broadsheetfb.c, Copyright (C) 2008, Jaya Kumar
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/fb.h>
-#include <linux/gpio/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/backlight.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/spinlock.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/fb.h>
+#include <robux/gpio/consumer.h>
+#include <robux/spi/spi.h>
+#include <robux/delay.h>
+#include <robux/uaccess.h>
+#include <robux/backlight.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/spinlock.h>
 
 #include <video/mipi_display.h>
 

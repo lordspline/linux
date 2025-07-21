@@ -6,11 +6,11 @@
  * Bongsu Jeon <bongsu.jeon@samsung.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/miscdevice.h>
-#include <linux/mutex.h>
-#include <linux/wait.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/miscdevice.h>
+#include <robux/mutex.h>
+#include <robux/wait.h>
 #include <net/nfc/nci_core.h>
 
 #define IOCTL_GET_NCIDEV_IDX    0

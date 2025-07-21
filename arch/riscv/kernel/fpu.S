@@ -13,7 +13,7 @@
  *   GNU General Public License for more details.
  */
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 #include <asm/asm.h>
 #include <asm/csr.h>

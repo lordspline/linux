@@ -16,15 +16,15 @@
  * mcp42100	2	256		100
  */
 
-#include <linux/cache.h>
-#include <linux/err.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
+#include <robux/cache.h>
+#include <robux/err.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/types.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/spi/spi.h>
 
 #define MCP41010_MAX_WIPERS	2
 #define MCP41010_WRITE		BIT(4)

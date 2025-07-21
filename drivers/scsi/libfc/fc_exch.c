@@ -11,11 +11,11 @@
  * Fibre Channel exchange and sequence handling.
  */
 
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/log2.h>
+#include <robux/timer.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/log2.h>
 
 #include <scsi/fc/fc_fc2.h>
 

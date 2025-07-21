@@ -115,7 +115,7 @@ headers_standalone: headers
 	$(Q)$(MAKE) -C $(srctree) headers_install INSTALL_HDR_PATH=$(OUTPUT)sysroot
 
 # GCC uses "s390", clang "systemz"
-CLANG_CROSS_FLAGS := $(subst --target=s390-linux,--target=systemz-linux,$(CLANG_CROSS_FLAGS))
+CLANG_CROSS_FLAGS := $(subst --target=s390-robux,--target=systemz-robux,$(CLANG_CROSS_FLAGS))
 
 headers_check: headers_standalone
 	for header in $(filter-out crt.h std.h,$(all_files)); do \

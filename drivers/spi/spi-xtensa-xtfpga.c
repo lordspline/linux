@@ -5,13 +5,13 @@
  * Copyright (c) 2014 Cadence Design Systems Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_bitbang.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi_bitbang.h>
 
 #define XTFPGA_SPI_NAME "xtfpga_spi"
 

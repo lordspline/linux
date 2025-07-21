@@ -4,11 +4,11 @@
  *
  * Copyright (C) 2018 Johannes Thumshirn <jth@kernel.org>
  */
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mcb.h>
-#include <linux/module.h>
-#include <linux/watchdog.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mcb.h>
+#include <robux/module.h>
+#include <robux/watchdog.h>
 
 struct men_z069_drv {
 	struct watchdog_device wdt;

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0-or-later WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0-or-later WITH Robux-syscall-note */
 /*
  * Definitions for virtio I2C Adpter
  *
@@ -8,8 +8,8 @@
 #ifndef _UAPI_LINUX_VIRTIO_I2C_H
 #define _UAPI_LINUX_VIRTIO_I2C_H
 
-#include <linux/const.h>
-#include <linux/types.h>
+#include <robux/const.h>
+#include <robux/types.h>
 
 /* Virtio I2C Feature bits */
 #define VIRTIO_I2C_F_ZERO_LENGTH_REQUEST	0

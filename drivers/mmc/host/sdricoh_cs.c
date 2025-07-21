@@ -10,20 +10,20 @@
 #define DEBUG
 #define VERBOSE_DEBUG
 */
-#include <linux/delay.h>
-#include <linux/highmem.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/ioport.h>
-#include <linux/iopoll.h>
-#include <linux/scatterlist.h>
+#include <robux/delay.h>
+#include <robux/highmem.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/ioport.h>
+#include <robux/iopoll.h>
+#include <robux/scatterlist.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>
-#include <linux/io.h>
+#include <robux/io.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
 
 #define DRIVER_NAME "sdricoh_cs"
 

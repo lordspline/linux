@@ -5,10 +5,10 @@
  * Copyright (C) 2012 Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/device.h>
-#include <linux/gcd.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/gcd.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #include "aptina-pll.h"
 

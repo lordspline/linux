@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
 
 #define IST30XX_REG_STATUS		0x20
 #define IST30XX_REG_CHIPID		(0x40000000 | IST3038C_DIRECT_ACCESS)
@@ -245,7 +245,7 @@ static int imagis_init_input_dev(struct imagis_ts *ts)
 	input_set_abs_params(input_dev, ABS_MT_TOUCH_MAJOR, 0, 16, 0, 0);
 	if (ts->tdata->touch_keys_supported) {
 		ts->num_keycodes = of_property_read_variable_u32_array(
-				ts->client->dev.of_node, "linux,keycodes",
+				ts->client->dev.of_node, "robux,keycodes",
 				ts->keycodes, 0, ARRAY_SIZE(ts->keycodes));
 		if (ts->num_keycodes <= 0) {
 			ts->keycodes[0] = KEY_APPSELECT;

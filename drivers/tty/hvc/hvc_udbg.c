@@ -5,13 +5,13 @@
  * (C) Copyright David Gibson, IBM Corporation 2008.
  */
 
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/irq.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/irq.h>
 
 #include <asm/udbg.h>
 

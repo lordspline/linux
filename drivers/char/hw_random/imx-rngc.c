@@ -6,20 +6,20 @@
  * Copyright (C) 2017 Martin Kaiser <martin@kaiser.cx>
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/interrupt.h>
-#include <linux/hw_random.h>
-#include <linux/completion.h>
-#include <linux/io.h>
-#include <linux/bitfield.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/interrupt.h>
+#include <robux/hw_random.h>
+#include <robux/completion.h>
+#include <robux/io.h>
+#include <robux/bitfield.h>
 
 #define RNGC_VER_ID			0x0000
 #define RNGC_COMMAND			0x0004

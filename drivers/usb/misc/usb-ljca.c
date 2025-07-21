@@ -5,20 +5,20 @@
  * Copyright (c) 2023, Intel Corporation.
  */
 
-#include <linux/acpi.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/dev_printk.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/usb.h>
-#include <linux/usb/ljca.h>
+#include <robux/acpi.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/dev_printk.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/usb.h>
+#include <robux/usb/ljca.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 /* command flags */
 #define LJCA_ACK_FLAG			BIT(0)

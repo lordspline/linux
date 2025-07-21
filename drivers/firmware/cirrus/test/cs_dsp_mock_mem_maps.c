@@ -6,10 +6,10 @@
 //                    Cirrus Logic International Semiconductor Ltd.
 
 #include <kunit/test.h>
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/cs_dsp_test_utils.h>
-#include <linux/firmware/cirrus/wmfw.h>
-#include <linux/math.h>
+#include <robux/firmware/cirrus/cs_dsp.h>
+#include <robux/firmware/cirrus/cs_dsp_test_utils.h>
+#include <robux/firmware/cirrus/wmfw.h>
+#include <robux/math.h>
 
 const struct cs_dsp_region cs_dsp_mock_halo_dsp1_regions[] = {
 	{ .type = WMFW_HALO_PM_PACKED,	.base = 0x3800000 },

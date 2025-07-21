@@ -2,11 +2,11 @@
 #ifndef _X86_SGX_H
 #define _X86_SGX_H
 
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/rwsem.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/rwsem.h>
+#include <robux/types.h>
 #include <asm/asm.h>
 #include <asm/sgx.h>
 

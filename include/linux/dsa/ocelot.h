@@ -5,11 +5,11 @@
 #ifndef _NET_DSA_TAG_OCELOT_H
 #define _NET_DSA_TAG_OCELOT_H
 
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
-#include <linux/kthread.h>
-#include <linux/packing.h>
-#include <linux/skbuff.h>
+#include <robux/if_bridge.h>
+#include <robux/if_vlan.h>
+#include <robux/kthread.h>
+#include <robux/packing.h>
+#include <robux/skbuff.h>
 #include <net/dsa.h>
 
 struct ocelot_skb_cb {

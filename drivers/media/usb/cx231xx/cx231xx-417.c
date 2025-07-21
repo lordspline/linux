@@ -13,15 +13,15 @@
 
 #include "cx231xx.h"
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/fs.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-event.h>

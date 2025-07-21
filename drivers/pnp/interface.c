@@ -8,17 +8,17 @@
  *	Bjorn Helgaas <bjorn.helgaas@hp.com>
  */
 
-#include <linux/pnp.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/stat.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
+#include <robux/pnp.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/list.h>
+#include <robux/types.h>
+#include <robux/stat.h>
+#include <robux/ctype.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "base.h"
 

@@ -5,18 +5,18 @@
  * Copyright (C) 2024-2025, Advanced Micro Devices, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of_device.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/resource.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/of_device.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/resource.h>
+#include <robux/types.h>
 
 #include "pcie-designware.h"
 

@@ -4,7 +4,7 @@
  * and populates a vtable for each selected ARM CPU cache type.
  */
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/cacheflush.h>
 
 #ifdef CONFIG_CPU_CACHE_V4

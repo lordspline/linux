@@ -7,16 +7,16 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
 
 #include "stm32-dac-core.h"
 

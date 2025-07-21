@@ -6,14 +6,14 @@
 #ifndef VPORT_H
 #define VPORT_H 1
 
-#include <linux/if_tunnel.h>
-#include <linux/list.h>
-#include <linux/netlink.h>
-#include <linux/openvswitch.h>
-#include <linux/reciprocal_div.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/u64_stats_sync.h>
+#include <robux/if_tunnel.h>
+#include <robux/list.h>
+#include <robux/netlink.h>
+#include <robux/openvswitch.h>
+#include <robux/reciprocal_div.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/u64_stats_sync.h>
 
 #include "datapath.h"
 

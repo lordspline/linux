@@ -4,13 +4,13 @@
  * Author: Ping-Hsun Wu <ping-hsun.wu@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/remoteproc.h>
-#include <linux/remoteproc/mtk_scp.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/remoteproc.h>
+#include <robux/remoteproc/mtk_scp.h>
 #include <media/videobuf2-dma-contig.h>
 
 #include "mtk-mdp3-core.h"

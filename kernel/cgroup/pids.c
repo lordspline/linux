@@ -28,12 +28,12 @@
  * Copyright (C) 2015 Aleksa Sarai <cyphar@cyphar.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/threads.h>
-#include <linux/atomic.h>
-#include <linux/cgroup.h>
-#include <linux/slab.h>
-#include <linux/sched/task.h>
+#include <robux/kernel.h>
+#include <robux/threads.h>
+#include <robux/atomic.h>
+#include <robux/cgroup.h>
+#include <robux/slab.h>
+#include <robux/sched/task.h>
 
 #define PIDS_MAX (PID_MAX_LIMIT + 1ULL)
 #define PIDS_MAX_STR "max"

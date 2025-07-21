@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2020 ROHM Semiconductors
 
-#include <linux/errno.h>
-#include <linux/mfd/rohm-generic.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
+#include <robux/errno.h>
+#include <robux/mfd/rohm-generic.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
 
 static int set_dvs_level(const struct regulator_desc *desc,
 			 struct device_node *np, struct regmap *regmap,

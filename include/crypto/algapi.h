@@ -8,12 +8,12 @@
 #define _CRYPTO_ALGAPI_H
 
 #include <crypto/utils.h>
-#include <linux/align.h>
-#include <linux/cache.h>
-#include <linux/crypto.h>
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/align.h>
+#include <robux/cache.h>
+#include <robux/crypto.h>
+#include <robux/list.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 /*
  * Maximum values for blocksize and alignmask, used to allocate

@@ -11,19 +11,19 @@
  * another interface, some abstraction will have to be introduced.
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mod_devicetable.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/watchdog.h>
-#include <linux/bitops.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/property.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/mod_devicetable.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/watchdog.h>
+#include <robux/bitops.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/property.h>
 
 #define DEFAULT_HEARTBEAT 60
 #define MAX_HEARTBEAT     60

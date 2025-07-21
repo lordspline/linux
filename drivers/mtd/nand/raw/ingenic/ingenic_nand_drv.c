@@ -6,21 +6,21 @@
  * Author: Alex Smith <alex.smith@imgtec.com>
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/gpio/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
 
-#include <linux/jz4780-nemc.h>
+#include <robux/jz4780-nemc.h>
 
 #include "ingenic_ecc.h"
 

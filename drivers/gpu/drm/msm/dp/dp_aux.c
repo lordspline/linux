@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2012-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2020, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/delay.h>
-#include <linux/phy/phy.h>
+#include <robux/delay.h>
+#include <robux/phy/phy.h>
 #include <drm/drm_print.h>
 
 #include "dp_reg.h"

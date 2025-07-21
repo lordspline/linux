@@ -5,7 +5,7 @@
 #if !defined(_TRACE_FUSE_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_FUSE_H
 
-#include <linux/tracepoint.h>
+#include <robux/tracepoint.h>
 
 #define OPCODES							\
 	EM( FUSE_LOOKUP,		"FUSE_LOOKUP")		\

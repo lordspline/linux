@@ -13,31 +13,31 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/backlight.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/platform_data/x86/asus-wmi.h>
-#include <linux/platform_device.h>
-#include <linux/platform_profile.h>
-#include <linux/power_supply.h>
-#include <linux/rfkill.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/acpi.h>
+#include <robux/backlight.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/input/sparse-keymap.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pci_hotplug.h>
+#include <robux/platform_data/x86/asus-wmi.h>
+#include <robux/platform_device.h>
+#include <robux/platform_profile.h>
+#include <robux/power_supply.h>
+#include <robux/rfkill.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
 #include <acpi/battery.h>
 #include <acpi/video.h>

@@ -4,14 +4,14 @@
 //
 // tegra210_dmic.c - Tegra210 DMIC driver
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/math64.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/math64.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
 #include <sound/core.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

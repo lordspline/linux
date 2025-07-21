@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/mutex.h>
+#include <robux/mutex.h>
 
 struct rv_interface {
 	struct dentry		*root_dir;
@@ -7,8 +7,8 @@ struct rv_interface {
 };
 
 #include "../trace.h"
-#include <linux/tracefs.h>
-#include <linux/rv.h>
+#include <robux/tracefs.h>
+#include <robux/rv.h>
 
 #define RV_MODE_WRITE			TRACE_MODE_WRITE
 #define RV_MODE_READ			TRACE_MODE_READ

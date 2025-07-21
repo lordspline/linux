@@ -15,20 +15,20 @@
  * ADMA driver written by D.Williams.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/async_tx.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/proc_fs.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/async_tx.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/proc_fs.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
 #include <asm/dcr.h>
 #include <asm/dcr-regs.h>
 #include "adma.h"

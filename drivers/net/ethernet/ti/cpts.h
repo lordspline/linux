@@ -10,16 +10,16 @@
 
 #if IS_ENABLED(CONFIG_TI_CPTS)
 
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clocksource.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/of.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/skbuff.h>
-#include <linux/ptp_classify.h>
-#include <linux/timecounter.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/clocksource.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/of.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/skbuff.h>
+#include <robux/ptp_classify.h>
+#include <robux/timecounter.h>
 
 struct cpsw_cpts {
 	u32 idver;                /* Identification and version */

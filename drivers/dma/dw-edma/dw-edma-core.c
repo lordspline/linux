@@ -6,16 +6,16 @@
  * Author: Gustavo Pimentel <gustavo.pimentel@synopsys.com>
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/dmaengine.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/dma/edma.h>
-#include <linux/dma-mapping.h>
-#include <linux/string_choices.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/dmaengine.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/dma/edma.h>
+#include <robux/dma-mapping.h>
+#include <robux/string_choices.h>
 
 #include "dw-edma-core.h"
 #include "dw-edma-v0-core.h"

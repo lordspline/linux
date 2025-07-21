@@ -11,19 +11,19 @@
  *   - Refcount some clocks (see darwin)
  *   - Split split split...
  */
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/spinlock.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
-#include <linux/ioport.h>
-#include <linux/export.h>
-#include <linux/pci.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/spinlock.h>
+#include <robux/adb.h>
+#include <robux/pmu.h>
+#include <robux/ioport.h>
+#include <robux/export.h>
+#include <robux/pci.h>
 #include <asm/sections.h>
 #include <asm/errno.h>
 #include <asm/ohare.h>

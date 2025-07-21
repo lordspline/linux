@@ -7,17 +7,17 @@
 #ifndef __MM_INTERNAL_H
 #define __MM_INTERNAL_H
 
-#include <linux/fs.h>
-#include <linux/khugepaged.h>
-#include <linux/mm.h>
-#include <linux/mm_inline.h>
-#include <linux/pagemap.h>
-#include <linux/pagewalk.h>
-#include <linux/rmap.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/swap_cgroup.h>
-#include <linux/tracepoint-defs.h>
+#include <robux/fs.h>
+#include <robux/khugepaged.h>
+#include <robux/mm.h>
+#include <robux/mm_inline.h>
+#include <robux/pagemap.h>
+#include <robux/pagewalk.h>
+#include <robux/rmap.h>
+#include <robux/swap.h>
+#include <robux/swapops.h>
+#include <robux/swap_cgroup.h>
+#include <robux/tracepoint-defs.h>
 
 /* Internal core VMA manipulation functions. */
 #include "vma.h"

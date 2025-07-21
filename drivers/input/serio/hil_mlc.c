@@ -52,15 +52,15 @@
  *	and to initiate probes of the loop for new devices.
  */
 
-#include <linux/hil_mlc.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/list.h>
+#include <robux/hil_mlc.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
+#include <robux/list.h>
 
 MODULE_AUTHOR("Brian S. Julin <bri@calyx.com>");
 MODULE_DESCRIPTION("HIL MLC serio");

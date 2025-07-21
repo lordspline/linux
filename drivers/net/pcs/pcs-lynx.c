@@ -3,10 +3,10 @@
  * Lynx PCS MDIO helpers
  */
 
-#include <linux/mdio.h>
-#include <linux/phylink.h>
-#include <linux/pcs-lynx.h>
-#include <linux/property.h>
+#include <robux/mdio.h>
+#include <robux/phylink.h>
+#include <robux/pcs-lynx.h>
+#include <robux/property.h>
 
 #define SGMII_CLOCK_PERIOD_NS		8 /* PCS is clocked at 125 MHz */
 #define LINK_TIMER_VAL(ns)		((u32)((ns) / SGMII_CLOCK_PERIOD_NS))

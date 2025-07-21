@@ -14,10 +14,10 @@
  * ioctls.
  */
 
-#include <linux/compat.h>
-#include <linux/module.h>
-#include <linux/videodev2.h>
-#include <linux/v4l2-subdev.h>
+#include <robux/compat.h>
+#include <robux/module.h>
+#include <robux/videodev2.h>
+#include <robux/v4l2-subdev.h>
 #include <media/v4l2-dev.h>
 #include <media/v4l2-fh.h>
 #include <media/v4l2-ctrls.h>

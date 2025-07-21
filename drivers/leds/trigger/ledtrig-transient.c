@@ -11,13 +11,13 @@
 // Design and use-case input from Jonas Bonn <jonas@southpole.se> and
 // Neil Brown <neilb@suse.de>
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/leds.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
+#include <robux/leds.h>
 #include "../leds.h"
 
 struct transient_trig_data {

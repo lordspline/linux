@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/init.h>
-#include <linux/node.h>
-#include <linux/nodemask.h>
-#include <linux/percpu.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/init.h>
+#include <robux/node.h>
+#include <robux/nodemask.h>
+#include <robux/percpu.h>
 
 static DEFINE_PER_CPU(struct cpu, cpu_devices);
 

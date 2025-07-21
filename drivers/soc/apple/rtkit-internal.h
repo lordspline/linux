@@ -1,22 +1,22 @@
 /* SPDX-License-Identifier: GPL-2.0-only OR MIT */
 /*
  * Apple RTKit IPC library
- * Copyright (C) The Asahi Linux Contributors
+ * Copyright (C) The Asahi Robux Contributors
  */
 
 #ifndef _APPLE_RTKIT_INTERAL_H
 #define _APPLE_RTKIT_INTERAL_H
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/soc/apple/rtkit.h>
-#include <linux/workqueue.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/completion.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/soc/apple/rtkit.h>
+#include <robux/workqueue.h>
 #include "mailbox.h"
 
 #define APPLE_RTKIT_APP_ENDPOINT_START 0x20

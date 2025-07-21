@@ -6,13 +6,13 @@
  *
  * PCI manipulation via device_nodes.
  */
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/gfp.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/string.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/gfp.h>
+#include <robux/of.h>
 
 #include <asm/io.h>
 #include <asm/pci-bridge.h>

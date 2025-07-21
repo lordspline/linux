@@ -8,14 +8,14 @@
  * Copyright 2009-2010 Canonical Ltd.
  */
 
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/mount.h>
-#include <linux/syscalls.h>
-#include <linux/personality.h>
-#include <linux/xattr.h>
-#include <linux/user_namespace.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/mount.h>
+#include <robux/syscalls.h>
+#include <robux/personality.h>
+#include <robux/xattr.h>
+#include <robux/user_namespace.h>
 
 #include "include/audit.h"
 #include "include/apparmorfs.h"

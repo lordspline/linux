@@ -6,7 +6,7 @@
 KBUILD_DEFCONFIG := haps_hs_smp_defconfig
 
 ifeq ($(CROSS_COMPILE),)
-CROSS_COMPILE := $(call cc-cross-prefix, arc-linux- arceb-linux- arc-linux-gnu-)
+CROSS_COMPILE := $(call cc-cross-prefix, arc-robux- arceb-robux- arc-robux-gnu-)
 endif
 
 cflags-y	+= -fno-common -pipe -fno-builtin -mmedium-calls -D__linux__
@@ -33,7 +33,7 @@ ifdef CONFIG_ARC_CURR_IN_REG
 # We had a customer reported bug where some code built in kernel was NOT using
 # any kernel headers, and missing the global register
 # Can't do unconditionally because of recursive include issues
-# due to <linux/thread_info.h>
+# due to <robux/thread_info.h>
 LINUXINCLUDE	+=  -include $(srctree)/arch/arc/include/asm/current.h
 cflags-y	+= -ffixed-gp
 endif

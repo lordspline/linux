@@ -9,8 +9,8 @@
 #define __S390_MMU_CONTEXT_H
 
 #include <asm/pgalloc.h>
-#include <linux/uaccess.h>
-#include <linux/mm_types.h>
+#include <robux/uaccess.h>
+#include <robux/mm_types.h>
 #include <asm/tlbflush.h>
 #include <asm/ctlreg.h>
 #include <asm/asce.h>

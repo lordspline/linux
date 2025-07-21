@@ -6,9 +6,9 @@
 #ifndef __SPRD_DSI_H__
 #define __SPRD_DSI_H__
 
-#include <linux/of.h>
-#include <linux/device.h>
-#include <linux/regmap.h>
+#include <robux/of.h>
+#include <robux/device.h>
+#include <robux/regmap.h>
 #include <video/videomode.h>
 
 #include <drm/drm_bridge.h>

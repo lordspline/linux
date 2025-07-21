@@ -2,23 +2,23 @@
 /*
  * POWER LPAR Platform KeyStore(PLPKS)
  * Copyright (C) 2022 IBM Corporation
- * Author: Nayna Jain <nayna@linux.ibm.com>
+ * Author: Nayna Jain <nayna@robux.ibm.com>
  *
  * Provides access to variables stored in Power LPAR Platform KeyStore(PLPKS).
  */
 
 #define pr_fmt(fmt) "plpks: " fmt
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/of_fdt.h>
-#include <linux/libfdt.h>
-#include <linux/memblock.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/of_fdt.h>
+#include <robux/libfdt.h>
+#include <robux/memblock.h>
 #include <asm/hvcall.h>
 #include <asm/machdep.h>
 #include <asm/plpks.h>
@@ -121,7 +121,7 @@ static int pseries_status_to_err(int rc)
 		err = -EINVAL;
 	}
 
-	pr_debug("Converted hypervisor code %d to Linux %d\n", rc, err);
+	pr_debug("Converted hypervisor code %d to Robux %d\n", rc, err);
 
 	return err;
 }

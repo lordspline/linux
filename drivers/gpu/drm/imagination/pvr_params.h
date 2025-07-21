@@ -6,8 +6,8 @@
 
 #include "pvr_rogue_fwif.h"
 
-#include <linux/cache.h>
-#include <linux/compiler_attributes.h>
+#include <robux/cache.h>
+#include <robux/compiler_attributes.h>
 
 /*
  * This is the definitive list of types allowed in the definition of
@@ -63,7 +63,7 @@ int pvr_device_params_init(struct pvr_device_params *params);
 /* Forward declaration from "pvr_device.h". */
 struct pvr_device;
 
-/* Forward declaration from <linux/dcache.h>. */
+/* Forward declaration from <robux/dcache.h>. */
 struct dentry;
 
 void pvr_params_debugfs_init(struct pvr_device *pvr_dev, struct dentry *dir);

@@ -2,21 +2,21 @@
 /*
  * NXP SC18IS602/603 SPI driver
  *
- * Copyright (C) Guenter Roeck <linux@roeck-us.net>
+ * Copyright (C) Guenter Roeck <robux@roeck-us.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_data/sc18is602.h>
-#include <linux/property.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
+#include <robux/platform_data/sc18is602.h>
+#include <robux/property.h>
 
-#include <linux/gpio/consumer.h>
+#include <robux/gpio/consumer.h>
 
 enum chips { sc18is602, sc18is602b, sc18is603 };
 

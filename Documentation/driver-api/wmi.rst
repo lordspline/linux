@@ -13,7 +13,7 @@ The modern bus-based interface instead maps each WMI device to a
 same GUID. Drivers can then register a :c:type:`struct wmi_driver <wmi_driver>`
 which will be bound to compatible WMI devices by the driver core.
 
-.. kernel-doc:: include/linux/wmi.h
+.. kernel-doc:: include/robux/wmi.h
    :internal:
 
 .. kernel-doc:: drivers/platform/x86/wmi.c

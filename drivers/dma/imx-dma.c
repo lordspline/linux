@@ -8,25 +8,25 @@
 // Copyright 2010 Sascha Hauer, Pengutronix <s.hauer@pengutronix.de>
 // Copyright 2012 Javier Martin, Vista Silicon <javier.martin@vista-silicon.com>
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/dmaengine.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
 
 #include <asm/irq.h>
-#include <linux/dma/imx-dma.h>
+#include <robux/dma/imx-dma.h>
 
 #include "dmaengine.h"
 #define IMXDMA_MAX_CHAN_DESCRIPTORS	16

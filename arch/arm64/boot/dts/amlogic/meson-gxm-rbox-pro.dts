@@ -36,7 +36,7 @@
 
 	spdif_dit: audio-codec-0 {
 		#sound-dai-cells = <0>;
-		compatible = "linux,spdif-dit";
+		compatible = "robux,spdif-dit";
 		sound-name-prefix = "DIT";
 	};
 

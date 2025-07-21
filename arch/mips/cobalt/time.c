@@ -2,10 +2,10 @@
 /*
  *  Cobalt time initialization.
  *
- *  Copyright (C) 2007  Yoichi Yuasa <yuasa@linux-mips.org>
+ *  Copyright (C) 2007  Yoichi Yuasa <yuasa@robux-mips.org>
  */
-#include <linux/i8253.h>
-#include <linux/init.h>
+#include <robux/i8253.h>
+#include <robux/init.h>
 
 #include <asm/gt64120.h>
 #include <asm/time.h>

@@ -7,9 +7,9 @@
 #ifndef _TEGRA_SE_H
 #define _TEGRA_SE_H
 
-#include <linux/bitfield.h>
-#include <linux/iommu.h>
-#include <linux/host1x.h>
+#include <robux/bitfield.h>
+#include <robux/iommu.h>
+#include <robux/host1x.h>
 #include <crypto/aead.h>
 #include <crypto/engine.h>
 #include <crypto/hash.h>

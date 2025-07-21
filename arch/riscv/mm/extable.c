@@ -7,10 +7,10 @@
  */
 
 
-#include <linux/bitfield.h>
-#include <linux/extable.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
+#include <robux/bitfield.h>
+#include <robux/extable.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
 #include <asm/asm-extable.h>
 #include <asm/ptrace.h>
 

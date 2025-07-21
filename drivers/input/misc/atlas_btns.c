@@ -9,12 +9,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/types.h>
-#include <linux/acpi.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/types.h>
+#include <robux/acpi.h>
+#include <robux/uaccess.h>
 
 #define ACPI_ATLAS_NAME		"Atlas ACPI"
 #define ACPI_ATLAS_CLASS	"Atlas"

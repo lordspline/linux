@@ -6,18 +6,18 @@
  * Author: Alex Smith <alex@alex-smith.me.uk>
  */
 
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/math64.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/math64.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
-#include <linux/jz4780-nemc.h>
+#include <robux/jz4780-nemc.h>
 
 #define NEMC_SMCRn(n)		(0x14 + (((n) - 1) * 4))
 #define NEMC_NFCSR		0x50

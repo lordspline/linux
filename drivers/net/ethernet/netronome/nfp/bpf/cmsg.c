@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
 /* Copyright (C) 2017-2018 Netronome Systems, Inc. */
 
-#include <linux/bpf.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/jiffies.h>
-#include <linux/skbuff.h>
-#include <linux/timekeeping.h>
+#include <robux/bpf.h>
+#include <robux/bitops.h>
+#include <robux/bug.h>
+#include <robux/jiffies.h>
+#include <robux/skbuff.h>
+#include <robux/timekeeping.h>
 
 #include "../ccm.h"
 #include "../nfp_app.h"

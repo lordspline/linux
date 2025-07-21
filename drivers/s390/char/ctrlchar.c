@@ -7,10 +7,10 @@
  *
  */
 
-#include <linux/stddef.h>
+#include <robux/stddef.h>
 #include <asm/errno.h>
-#include <linux/sysrq.h>
-#include <linux/ctype.h>
+#include <robux/sysrq.h>
+#include <robux/ctype.h>
 
 #include "ctrlchar.h"
 

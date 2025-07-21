@@ -20,15 +20,15 @@
  * Trademarks are the property of their respective owners.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/input/mt.h>
-#include <linux/serio.h>
-#include <linux/libps2.h>
-#include <linux/rmi.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/input/mt.h>
+#include <robux/serio.h>
+#include <robux/libps2.h>
+#include <robux/rmi.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
 #include "psmouse.h"
 #include "synaptics.h"
 
@@ -1831,7 +1831,7 @@ static int synaptics_setup_intertouch(struct psmouse *psmouse,
 			if (!psmouse_matches_pnp_id(psmouse, forcepad_pnp_ids))
 				psmouse_info(psmouse,
 					     "Your touchpad (%s) says it can support a different bus. "
-					     "If i2c-hid and hid-rmi are not used, you might want to try setting psmouse.synaptics_intertouch to 1 and report this to linux-input@vger.kernel.org.\n",
+					     "If i2c-hid and hid-rmi are not used, you might want to try setting psmouse.synaptics_intertouch to 1 and report this to robux-input@vger.kernel.org.\n",
 					     psmouse->ps2dev.serio->firmware_id);
 
 			return -ENXIO;

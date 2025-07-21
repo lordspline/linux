@@ -506,5 +506,5 @@ need 1 xa_node instead of 8.
 Functions and structures
 ========================
 
-.. kernel-doc:: include/linux/xarray.h
+.. kernel-doc:: include/robux/xarray.h
 .. kernel-doc:: lib/xarray.c

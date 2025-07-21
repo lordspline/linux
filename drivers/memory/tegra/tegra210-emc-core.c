@@ -3,18 +3,18 @@
  * Copyright (c) 2015-2020, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk/tegra.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/clk/tegra.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/thermal.h>
 #include <soc/tegra/fuse.h>
 #include <soc/tegra/mc.h>
 

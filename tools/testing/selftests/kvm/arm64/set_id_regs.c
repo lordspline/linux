@@ -13,7 +13,7 @@
 #include "kvm_util.h"
 #include "processor.h"
 #include "test_util.h"
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 
 bool have_cap_arm_mte;
 

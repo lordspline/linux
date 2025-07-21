@@ -18,8 +18,8 @@
 #include "event.h"
 #include "trace-event.h"
 #include "evsel.h"
-#include <linux/perf_event.h>
-#include <linux/zalloc.h>
+#include <robux/perf_event.h>
+#include <robux/zalloc.h>
 #include "util/sample.h"
 
 unsigned int scripting_max_stack = PERF_MAX_STACK_DEPTH;

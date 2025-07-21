@@ -2,18 +2,18 @@
 /*
 
   Sun3 Lance ethernet driver, by Sam Creasey (sammy@users.qual.net).
-  This driver is a part of the linux kernel, and is thus distributed
+  This driver is a part of the robux kernel, and is thus distributed
   under the GNU General Public License.
 
   The values used in LANCE_OBIO and LANCE_IRQ seem to be empirically
   true for the correct IRQ and address of the lance registers.  They
   have not been widely tested, however.  What we probably need is a
   "proper" way to search for a device in the sun3's prom, but, alas,
-  linux has no such thing.
+  robux has no such thing.
 
   This driver is largely based on atarilance.c, by Roman Hodek.  Other
   sources of inspiration were the NetBSD sun3 am7990 driver, and the
-  linux sparc lance driver (sunlance.c).
+  robux sparc lance driver (sunlance.c).
 
   There are more assumptions made throughout this driver, it almost
   certainly still needs work, but it does work at least for RARP/BOOTP and
@@ -24,20 +24,20 @@
 static const char version[] =
 "sun3lance.c: v1.2 1/12/2001  Sam Creasey (sammy@sammy.net)\n";
 
-#include <linux/module.h>
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/bitops.h>
-#include <linux/pgtable.h>
+#include <robux/module.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/bitops.h>
+#include <robux/pgtable.h>
 
 #include <asm/cacheflush.h>
 #include <asm/setup.h>

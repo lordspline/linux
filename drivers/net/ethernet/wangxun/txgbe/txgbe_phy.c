@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2015 - 2023 Beijing WangXun Technology Co., Ltd. */
 
-#include <linux/gpio/machine.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/property.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/i2c.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/pcs/pcs-xpcs.h>
-#include <linux/phylink.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/property.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/i2c.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/pcs/pcs-xpcs.h>
+#include <robux/phylink.h>
 
 #include "../libwx/wx_type.h"
 #include "../libwx/wx_lib.h"

@@ -2,9 +2,9 @@
 #ifndef _LINUX_RATELIMIT_TYPES_H
 #define _LINUX_RATELIMIT_TYPES_H
 
-#include <linux/bits.h>
-#include <linux/param.h>
-#include <linux/spinlock_types_raw.h>
+#include <robux/bits.h>
+#include <robux/param.h>
+#include <robux/spinlock_types_raw.h>
 
 #define DEFAULT_RATELIMIT_INTERVAL	(5 * HZ)
 #define DEFAULT_RATELIMIT_BURST		10

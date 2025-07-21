@@ -3,31 +3,31 @@
  *  Copyright (c) 2014 Realtek Semiconductor Corp. All rights reserved.
  */
 
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/phy.h>
-#include <linux/usb.h>
-#include <linux/crc32.h>
-#include <linux/if_vlan.h>
-#include <linux/uaccess.h>
-#include <linux/list.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
+#include <robux/signal.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/phy.h>
+#include <robux/usb.h>
+#include <robux/crc32.h>
+#include <robux/if_vlan.h>
+#include <robux/uaccess.h>
+#include <robux/list.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
 #include <net/ip6_checksum.h>
-#include <uapi/linux/mdio.h>
-#include <linux/mdio.h>
-#include <linux/usb/cdc.h>
-#include <linux/suspend.h>
-#include <linux/atomic.h>
-#include <linux/acpi.h>
-#include <linux/firmware.h>
+#include <uapi/robux/mdio.h>
+#include <robux/mdio.h>
+#include <robux/usb/cdc.h>
+#include <robux/suspend.h>
+#include <robux/atomic.h>
+#include <robux/acpi.h>
+#include <robux/firmware.h>
 #include <crypto/sha2.h>
-#include <linux/usb/r8152.h>
+#include <robux/usb/r8152.h>
 #include <net/gso.h>
 
 /* Information for net-next */
@@ -37,7 +37,7 @@
 #define NET_VERSION		"13"
 
 #define DRIVER_VERSION		"v1." NETNEXT_VERSION "." NET_VERSION
-#define DRIVER_AUTHOR "Realtek linux nic maintainers <nic_swsd@realtek.com>"
+#define DRIVER_AUTHOR "Realtek robux nic maintainers <nic_swsd@realtek.com>"
 #define DRIVER_DESC "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
 #define MODULENAME "r8152"
 

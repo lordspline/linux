@@ -7,8 +7,8 @@
 #ifndef LINUX_ISAPNP_H
 #define LINUX_ISAPNP_H
 
-#include <linux/errno.h>
-#include <linux/pnp.h>
+#include <robux/errno.h>
+#include <robux/pnp.h>
 
 /*
  *
@@ -28,7 +28,7 @@
  */
 
 #ifdef __KERNEL__
-#include <linux/mod_devicetable.h>
+#include <robux/mod_devicetable.h>
 
 #define DEVICE_COUNT_COMPATIBLE 4
 

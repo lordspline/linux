@@ -5,12 +5,12 @@
  *  Copyright (C) 2012 Lantiq GmbH
  */
 
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
 
 #include <lantiq_soc.h>
 #include "../clk.h"

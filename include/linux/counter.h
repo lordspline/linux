@@ -6,16 +6,16 @@
 #ifndef _COUNTER_H_
 #define _COUNTER_H_
 
-#include <linux/array_size.h>
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/kfifo.h>
-#include <linux/mutex.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <robux/array_size.h>
+#include <robux/cdev.h>
+#include <robux/device.h>
+#include <robux/kfifo.h>
+#include <robux/mutex.h>
+#include <robux/spinlock_types.h>
+#include <robux/types.h>
+#include <robux/wait.h>
 
-#include <uapi/linux/counter.h>
+#include <uapi/robux/counter.h>
 
 struct counter_device;
 struct counter_count;

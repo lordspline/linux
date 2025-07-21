@@ -9,18 +9,18 @@
  * Copyright 2008 Embedded Alley Solutions, Inc All Rights Reserved.
  * Copyright 2011 Wolfram Sang, Pengutronix e.K.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/stmp_device.h>
-#include <linux/stmp3xxx_rtc_wdt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/stmp_device.h>
+#include <robux/stmp3xxx_rtc_wdt.h>
 
 #define STMP3XXX_RTC_CTRL			0x0
 #define STMP3XXX_RTC_CTRL_ALARM_IRQ_EN		0x00000001

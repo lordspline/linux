@@ -24,7 +24,7 @@
 #ifndef DRM_PLANE_HELPER_H
 #define DRM_PLANE_HELPER_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct drm_crtc;
 struct drm_framebuffer;

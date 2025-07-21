@@ -12,14 +12,14 @@
  * https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/PAC1931-Family-Data-Sheet-DS20005850E.pdf
  */
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/unaligned.h>
+#include <robux/acpi.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/unaligned.h>
 
 /*
  * maximum accumulation time should be (17 * 60 * 1000) around 17 minutes@1024 sps

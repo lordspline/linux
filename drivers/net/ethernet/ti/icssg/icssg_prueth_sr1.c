@@ -7,19 +7,19 @@
  *
  */
 
-#include <linux/etherdevice.h>
-#include <linux/genalloc.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/phy.h>
-#include <linux/remoteproc/pruss.h>
-#include <linux/pruss_driver.h>
+#include <robux/etherdevice.h>
+#include <robux/genalloc.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/phy.h>
+#include <robux/remoteproc/pruss.h>
+#include <robux/pruss_driver.h>
 
 #include "icssg_prueth.h"
 #include "icssg_mii_rt.h"

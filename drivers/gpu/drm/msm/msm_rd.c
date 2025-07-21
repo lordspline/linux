@@ -29,11 +29,11 @@
  * or shader programs (if not emitted inline in cmdstream).
  */
 
-#include <linux/circ_buf.h>
-#include <linux/debugfs.h>
-#include <linux/kfifo.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
+#include <robux/circ_buf.h>
+#include <robux/debugfs.h>
+#include <robux/kfifo.h>
+#include <robux/uaccess.h>
+#include <robux/wait.h>
 
 #include <drm/drm_file.h>
 

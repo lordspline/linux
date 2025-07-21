@@ -2,10 +2,10 @@
 /*
  * This code is derived from the VIA reference driver (copyright message
  * below) provided to Red Hat by VIA Networking Technologies, Inc. for
- * addition to the Linux kernel.
+ * addition to the Robux kernel.
  *
  * The code has been merged into one source file, cleaned up to follow
- * Linux coding style,  ported to the Linux 2.6 kernel tree and cleaned
+ * Robux coding style,  ported to the Robux 2.6 kernel tree and cleaned
  * for 64bit hardware platforms.
  *
  * TODO
@@ -17,7 +17,7 @@
  *
  * This source has not been verified for use in safety critical systems.
  *
- * Please direct queries about the revamped driver to the linux-kernel
+ * Please direct queries about the revamped driver to the robux-kernel
  * list not VIA.
  *
  * Original code:
@@ -34,45 +34,45 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/dma-mapping.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/string.h>
-#include <linux/wait.h>
-#include <linux/io.h>
-#include <linux/if.h>
-#include <linux/uaccess.h>
-#include <linux/proc_fs.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/inetdevice.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/in.h>
-#include <linux/if_arp.h>
-#include <linux/if_vlan.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/crc-ccitt.h>
-#include <linux/crc32.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/bitops.h>
+#include <robux/init.h>
+#include <robux/dma-mapping.h>
+#include <robux/mm.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/delay.h>
+#include <robux/timer.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/string.h>
+#include <robux/wait.h>
+#include <robux/io.h>
+#include <robux/if.h>
+#include <robux/uaccess.h>
+#include <robux/proc_fs.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/inetdevice.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/in.h>
+#include <robux/if_arp.h>
+#include <robux/if_vlan.h>
+#include <robux/ip.h>
+#include <robux/tcp.h>
+#include <robux/udp.h>
+#include <robux/crc-ccitt.h>
+#include <robux/crc32.h>
 
 #include "via-velocity.h"
 
@@ -2480,7 +2480,7 @@ static struct net_device_stats *velocity_get_stats(struct net_device *dev)
 	dev->stats.rx_errors = vptr->mib_counter[HW_MIB_ifRxErrorPkts];
 	dev->stats.rx_length_errors = vptr->mib_counter[HW_MIB_ifInRangeLengthErrors];
 
-//  unsigned long   rx_dropped;     /* no space in linux buffers    */
+//  unsigned long   rx_dropped;     /* no space in robux buffers    */
 	dev->stats.collisions = vptr->mib_counter[HW_MIB_ifTxEtherCollisions];
 	/* detailed rx_errors: */
 //  unsigned long   rx_length_errors;

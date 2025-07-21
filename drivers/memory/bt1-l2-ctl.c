@@ -8,16 +8,16 @@
  * Baikal-T1 CM2 L2-cache Control Block driver.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/bitfield.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/sysfs.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/bitfield.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/sysfs.h>
+#include <robux/of.h>
 
 #define L2_CTL_REG			0x028
 #define L2_CTL_DATA_STALL_FLD		0

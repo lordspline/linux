@@ -6,10 +6,10 @@
  * Copyright (C) 2013 John Crispin <john@phrozen.org>
  */
 
-#include <linux/pm.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/delay.h>
+#include <robux/pm.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/delay.h>
 
 #include <asm/reboot.h>
 

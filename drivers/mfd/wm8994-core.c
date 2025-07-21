@@ -7,22 +7,22 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/mfd/core.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/machine.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/mfd/core.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/regulator/machine.h>
 
-#include <linux/mfd/wm8994/core.h>
-#include <linux/mfd/wm8994/pdata.h>
-#include <linux/mfd/wm8994/registers.h>
+#include <robux/mfd/wm8994/core.h>
+#include <robux/mfd/wm8994/pdata.h>
+#include <robux/mfd/wm8994/registers.h>
 
 #include "wm8994.h"
 

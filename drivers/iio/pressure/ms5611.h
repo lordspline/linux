@@ -9,9 +9,9 @@
 #ifndef _MS5611_H
 #define _MS5611_H
 
-#include <linux/device.h>
-#include <linux/iio/iio.h>
-#include <linux/mutex.h>
+#include <robux/device.h>
+#include <robux/iio/iio.h>
+#include <robux/mutex.h>
 
 #define MS5611_RESET			0x1e
 #define MS5611_READ_ADC			0x00

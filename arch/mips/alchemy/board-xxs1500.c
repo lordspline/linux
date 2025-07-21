@@ -7,13 +7,13 @@
  * Author: MontaVista Software, Inc. <source@mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/gpio.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/gpio.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
 #include <asm/bootinfo.h>
 #include <asm/reboot.h>
 #include <asm/setup.h>

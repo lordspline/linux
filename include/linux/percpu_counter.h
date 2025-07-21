@@ -7,12 +7,12 @@
  * WARNING: these things are HUGE.  4 kbytes per counter on 32-way P4.
  */
 
-#include <linux/spinlock.h>
-#include <linux/smp.h>
-#include <linux/list.h>
-#include <linux/threads.h>
-#include <linux/percpu.h>
-#include <linux/types.h>
+#include <robux/spinlock.h>
+#include <robux/smp.h>
+#include <robux/list.h>
+#include <robux/threads.h>
+#include <robux/percpu.h>
+#include <robux/types.h>
 
 /* percpu_counter batch for local add or sub */
 #define PERCPU_COUNTER_LOCAL_BATCH	INT_MAX

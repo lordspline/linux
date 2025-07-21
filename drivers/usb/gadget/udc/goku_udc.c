@@ -20,27 +20,27 @@
 // #define	VERBOSE		/* extra debug messages (success too) */
 // #define	USB_TRACE	/* packet-level success messages */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/device.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/prefetch.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/timer.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/device.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/prefetch.h>
 
 #include <asm/byteorder.h>
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 
 #include "goku_udc.h"
@@ -67,7 +67,7 @@ MODULE_LICENSE("GPL");
 static unsigned use_dma = 1;
 
 #if 0
-//#include <linux/moduleparam.h>
+//#include <robux/moduleparam.h>
 /* "modprobe goku_udc use_dma=1" etc
  *	0 to disable dma
  *	1 to use IN dma only (normal operation)

@@ -5,14 +5,14 @@
  * Copyright (c) 2014, Linaro Limited
  */
 
-#include <linux/clk.h>
-#include <linux/clocksource.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/sched_clock.h>
+#include <robux/clk.h>
+#include <robux/clocksource.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/clockchips.h>
+#include <robux/interrupt.h>
+#include <robux/sched_clock.h>
 
 #include "timer-sp.h"
 

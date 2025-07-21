@@ -5,21 +5,21 @@
  *  Copyright (C) 2020 Mellanox Technologies, Ltd.
  */
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
+#include <robux/acpi.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
+#include <robux/string_choices.h>
 
 /* Defines what functionality is present. */
 #define MLXBF_I2C_FUNC_SMBUS_BLOCK \
@@ -1416,7 +1416,7 @@ static int mlxbf_i2c_init_master(struct platform_device *pdev,
 	 * instead of HW_OE.
 	 * For now, we do not reset the GPIO state when the driver is removed.
 	 * First, it is not necessary to disable the bus since we are using
-	 * the same busses. Then, some busses might be shared among Linux and
+	 * the same busses. Then, some busses might be shared among Robux and
 	 * platform firmware; disabling the bus might compromise the system
 	 * functionality.
 	 */
@@ -2333,7 +2333,7 @@ static int mlxbf_i2c_probe(struct platform_device *pdev)
 
 	/*
 	 * Initialize master.
-	 * Note that a physical bus might be shared among Linux and firmware
+	 * Note that a physical bus might be shared among Robux and firmware
 	 * (e.g., ATF). Thus, the bus should be initialized and ready and
 	 * bus initialization would be unnecessary. This requires additional
 	 * knowledge about physical busses. But, since an extra initialization

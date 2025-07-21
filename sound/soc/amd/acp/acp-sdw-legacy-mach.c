@@ -5,12 +5,12 @@
  *  acp-sdw-legacy-mach - ASoC legacy Machine driver for AMD SoundWire platforms
  */
 
-#include <linux/bitmap.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/module.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
+#include <robux/bitmap.h>
+#include <robux/device.h>
+#include <robux/dmi.h>
+#include <robux/module.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/soundwire/sdw_type.h>
 #include <sound/soc.h>
 #include <sound/soc-acpi.h>
 #include "soc_amd_sdw_common.h"

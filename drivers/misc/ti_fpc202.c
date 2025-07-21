@@ -6,13 +6,13 @@
  *
  */
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/i2c-atr.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/i2c-atr.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
+#include <robux/module.h>
 
 #define FPC202_NUM_PORTS 2
 #define FPC202_ALIASES_PER_PORT 2

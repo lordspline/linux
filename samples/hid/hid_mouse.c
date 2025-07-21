@@ -22,8 +22,8 @@
 #include <sys/resource.h>
 #include <unistd.h>
 
-#include <linux/bpf.h>
-#include <linux/errno.h>
+#include <robux/bpf.h>
+#include <robux/errno.h>
 
 #include <bpf/bpf.h>
 #include <bpf/libbpf.h>

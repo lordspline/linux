@@ -5,14 +5,14 @@
  *   Copyright (C) 2014 Mario Kicherer (dev@kicherer.org)
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/bitmap.h>
-#include <linux/usb.h>
-#include <linux/usb/audio.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/bitmap.h>
+#include <robux/usb.h>
+#include <robux/usb/audio.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/rawmidi.h>

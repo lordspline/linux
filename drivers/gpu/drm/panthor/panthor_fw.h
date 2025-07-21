@@ -4,7 +4,7 @@
 #ifndef __PANTHOR_MCU_H__
 #define __PANTHOR_MCU_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct panthor_device;
 struct panthor_kernel_bo;

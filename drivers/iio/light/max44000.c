@@ -9,17 +9,17 @@
  * 7-bit I2C slave address 0x4a
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/util_macros.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/util_macros.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
 
 #define MAX44000_DRV_NAME		"max44000"
 

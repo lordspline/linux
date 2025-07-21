@@ -7,16 +7,16 @@
  * Author: Gerald Loacker <gerald.loacker@wolfvision.net>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/pm_runtime.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/pm_runtime.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #define TMAG5273_DEVICE_CONFIG_1	 0x00
 #define TMAG5273_DEVICE_CONFIG_2	 0x01

@@ -10,9 +10,9 @@
  * Send feedback to <support@numascale.com>
  *
  */
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/pgtable.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/pgtable.h>
 
 #include <asm/msr.h>
 #include <asm/numachip/numachip.h>

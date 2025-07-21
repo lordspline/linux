@@ -2,10 +2,10 @@
 #ifndef __ASM_SH_PUSH_SWITCH_H
 #define __ASM_SH_PUSH_SWITCH_H
 
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/platform_device.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
+#include <robux/platform_device.h>
 
 struct push_switch {
 	/* switch state */

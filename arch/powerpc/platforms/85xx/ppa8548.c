@@ -10,13 +10,13 @@
  * Based on the MPC8548CDS support - Copyright 2005 Freescale Inc.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/reboot.h>
-#include <linux/seq_file.h>
-#include <linux/of_fdt.h>
-#include <linux/of_platform.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/reboot.h>
+#include <robux/seq_file.h>
+#include <robux/of_fdt.h>
+#include <robux/of_platform.h>
 
 #include <asm/machdep.h>
 #include <asm/udbg.h>

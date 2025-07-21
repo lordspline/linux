@@ -2,7 +2,7 @@
 //
 // Copyright(c) 2019 Intel Corporation
 
-#include <linux/module.h>
+#include <robux/module.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
 #include <sound/hda_codec.h>

@@ -12,13 +12,13 @@
  * Copyright (C) 2021 Emmanuel Gil Peyrot <linkmauve@linkmauve.fr>
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
 
 #define HW_OTPCMD  0
 #define HW_OTPDATA 4

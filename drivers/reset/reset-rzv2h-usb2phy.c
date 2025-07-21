@@ -5,15 +5,15 @@
  * Copyright (C) 2025 Renesas Electronics Corporation
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/reset-controller.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/reset-controller.h>
 
 struct rzv2h_usb2phy_regval {
 	u16 reg;

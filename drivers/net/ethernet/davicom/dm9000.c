@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *      Davicom DM9000 Fast Ethernet driver for Linux.
+ *      Davicom DM9000 Fast Ethernet driver for Robux.
  * 	Copyright (C) 1997  Sten Wang
  *
  * (C) Copyright 1997-1998 DAVICOM Semiconductor,Inc. All Rights Reserved.
@@ -10,25 +10,25 @@
  *	Sascha Hauer <s.hauer@pengutronix.de>
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/crc32.h>
-#include <linux/mii.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/ethtool.h>
-#include <linux/dm9000.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/interrupt.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/crc32.h>
+#include <robux/mii.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/ethtool.h>
+#include <robux/dm9000.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/irq.h>
+#include <robux/slab.h>
+#include <robux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
 
 #include <asm/delay.h>
 #include <asm/irq.h>

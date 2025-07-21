@@ -5,13 +5,13 @@
 // Copyright (c) 2022 MediaTek Inc.
 // Author: Jiaxin Yu <jiaxin.yu@mediatek.com>
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 #include <sound/soc.h>
 
 #include "../common/mtk-afe-platform-driver.h"

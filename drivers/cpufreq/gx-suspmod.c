@@ -69,14 +69,14 @@
  *			Suspend Modulation - Definitions		*
  ************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/cpufreq.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/cpufreq.h>
+#include <robux/pci.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/processor-cyrix.h>

@@ -7,14 +7,14 @@
  *              Takao Orito <orito.takao@socionext.com>
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/property.h>
 
 #include "sdhci-pltfm.h"
 #include "sdhci_f_sdh30.h"

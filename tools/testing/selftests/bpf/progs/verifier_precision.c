@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2023 SUSE LLC */
-#include <linux/bpf.h>
+#include <robux/bpf.h>
 #include <bpf/bpf_helpers.h>
-#include "../../../include/linux/filter.h"
+#include "../../../include/robux/filter.h"
 #include "bpf_misc.h"
 
 SEC("?raw_tp")

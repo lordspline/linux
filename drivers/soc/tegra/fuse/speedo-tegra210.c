@@ -3,9 +3,9 @@
  * Copyright (c) 2013-2015, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/bug.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/bug.h>
 
 #include <soc/tegra/fuse.h>
 

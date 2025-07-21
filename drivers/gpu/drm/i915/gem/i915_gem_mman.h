@@ -6,8 +6,8 @@
 #ifndef __I915_GEM_MMAN_H__
 #define __I915_GEM_MMAN_H__
 
-#include <linux/mm_types.h>
-#include <linux/types.h>
+#include <robux/mm_types.h>
+#include <robux/types.h>
 
 struct drm_device;
 struct drm_file;

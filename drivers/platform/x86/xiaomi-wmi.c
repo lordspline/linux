@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /* WMI driver for Xiaomi Laptops */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/wmi.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/wmi.h>
 
-#include <uapi/linux/input-event-codes.h>
+#include <uapi/robux/input-event-codes.h>
 
 #define XIAOMI_KEY_FN_ESC_0	"A2095CCE-0491-44E7-BA27-F8ED8F88AA86"
 #define XIAOMI_KEY_FN_ESC_1	"7BBE8E39-B486-473D-BA13-66F75C5805CD"

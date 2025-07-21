@@ -2,11 +2,11 @@
 /*
  * Clause 45 PHY support
  */
-#include <linux/ethtool.h>
-#include <linux/export.h>
-#include <linux/mdio.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
+#include <robux/ethtool.h>
+#include <robux/export.h>
+#include <robux/mdio.h>
+#include <robux/mii.h>
+#include <robux/phy.h>
 
 #include "mdio-open-alliance.h"
 #include "phylib-internal.h"

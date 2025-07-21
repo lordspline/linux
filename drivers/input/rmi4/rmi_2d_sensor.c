@@ -4,12 +4,12 @@
  * Copyright (c) 2011 Unixphere
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/rmi.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/rmi.h>
 #include "rmi_driver.h"
 #include "rmi_2d_sensor.h"
 

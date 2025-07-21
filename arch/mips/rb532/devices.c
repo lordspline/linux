@@ -5,19 +5,19 @@
  *  Copyright (C) 2006 Felix Fietkau <nbd@openwrt.org>
  *  Copyright (C) 2007 Florian Fainelli <florian@openwrt.org>
  */
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/platnand.h>
-#include <linux/mtd/mtd.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio_keys.h>
-#include <linux/input.h>
-#include <linux/serial_8250.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/ctype.h>
+#include <robux/string.h>
+#include <robux/platform_device.h>
+#include <robux/mtd/platnand.h>
+#include <robux/mtd/mtd.h>
+#include <robux/gpio.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio_keys.h>
+#include <robux/input.h>
+#include <robux/serial_8250.h>
 
 #include <asm/bootinfo.h>
 

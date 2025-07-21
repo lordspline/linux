@@ -10,16 +10,16 @@
  *   Greg Kroah-Hartman (greg@kroah.com)
  * Changes for 2.6.20 by Harald Klein <hari@vt100.at>
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/tty_driver.h>
+#include <robux/tty_flip.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/usb.h>
+#include <robux/usb/serial.h>
 
 #define DRIVER_DESC	"SPCP8x5 USB to serial adaptor driver"
 

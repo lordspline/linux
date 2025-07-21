@@ -10,15 +10,15 @@
  * Contact: Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/led-class-flash.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/led-class-flash.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
 #include <media/v4l2-flash-led-class.h>
 

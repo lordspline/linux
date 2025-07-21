@@ -4,24 +4,24 @@
  *
  * Copyright 2018 Analog Devices Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/kfifo.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spi/spi.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/adc/ad_sigma_delta.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/adc/ad_sigma_delta.h>
+#include <robux/iio/sysfs.h>
 
 /* AD7124 registers */
 #define AD7124_COMMS			0x00

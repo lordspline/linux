@@ -1,6 +1,6 @@
 /*******************************************************************************
  *
- *  Linux ThunderLAN Driver
+ *  Robux ThunderLAN Driver
  *
  *  tlan.c
  *  by James Banks
@@ -29,20 +29,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/hardirq.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/eisa.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/mii.h>
+#include <robux/hardirq.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/eisa.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/delay.h>
+#include <robux/spinlock.h>
+#include <robux/workqueue.h>
+#include <robux/mii.h>
 
 #include "tlan.h"
 
@@ -272,7 +272,7 @@ tlan_set_timer(struct net_device *dev, u32 ticks, u32 type)
 
 ThunderLAN driver primary functions
 
-these functions are more or less common to all linux network drivers.
+these functions are more or less common to all robux network drivers.
 
 ******************************************************************************
 *****************************************************************************/

@@ -7,15 +7,15 @@
  * Copyright (C) 2016 SuSE.  All rights reserved.
  */
 
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/kmod.h>
-#include <linux/fs.h>
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
-#include <linux/sysctl.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/kmod.h>
+#include <robux/fs.h>
+#include <robux/kobject.h>
+#include <robux/sysfs.h>
+#include <robux/sysctl.h>
 #include <cluster/masklog.h>
 
 #include "ocfs2.h"

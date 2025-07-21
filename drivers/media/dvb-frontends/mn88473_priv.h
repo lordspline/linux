@@ -9,11 +9,11 @@
 #define MN88473_PRIV_H
 
 #include <media/dvb_frontend.h>
-#include <linux/int_log.h>
+#include <robux/int_log.h>
 #include "mn88473.h"
-#include <linux/math64.h>
-#include <linux/firmware.h>
-#include <linux/regmap.h>
+#include <robux/math64.h>
+#include <robux/firmware.h>
+#include <robux/regmap.h>
 
 #define MN88473_FIRMWARE "dvb-demod-mn88473-01.fw"
 

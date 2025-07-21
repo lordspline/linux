@@ -5,15 +5,15 @@
  *  Copyright (C) 2023 ASPEED Technology Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
+#include <robux/bitops.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
 
 #define INTC_INT_ENABLE_REG	0x00
 #define INTC_INT_STATUS_REG	0x04

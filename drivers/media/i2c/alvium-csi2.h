@@ -10,8 +10,8 @@
 #ifndef ALVIUM_CSI2_H_
 #define ALVIUM_CSI2_H_
 
-#include <linux/kernel.h>
-#include <linux/regulator/consumer.h>
+#include <robux/kernel.h>
+#include <robux/regulator/consumer.h>
 #include <media/v4l2-cci.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ctrls.h>

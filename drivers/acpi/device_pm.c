@@ -12,13 +12,13 @@
 
 #define pr_fmt(fmt) "PM: " fmt
 
-#include <linux/acpi.h>
-#include <linux/export.h>
-#include <linux/mutex.h>
-#include <linux/pm_qos.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/suspend.h>
+#include <robux/acpi.h>
+#include <robux/export.h>
+#include <robux/mutex.h>
+#include <robux/pm_qos.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/suspend.h>
 
 #include "fan.h"
 #include "internal.h"

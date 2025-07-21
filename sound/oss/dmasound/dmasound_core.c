@@ -1,10 +1,10 @@
 /*
- *  linux/sound/oss/dmasound/dmasound_core.c
+ *  robux/sound/oss/dmasound/dmasound_core.c
  *
  *
  *  OSS/Free compatible Atari TT/Falcon and Amiga DMA sound driver for
- *  Linux/m68k
- *  Extended to support Power Macintosh for Linux/ppc by Paul Mackerras
+ *  Robux/m68k
+ *  Extended to support Power Macintosh for Robux/ppc by Paul Mackerras
  *
  *  (c) 1995 by Michael Schlueter & Michael Marte
  *
@@ -175,16 +175,16 @@
  * see the fault until after the damage is done.
 */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sound.h>
-#include <linux/init.h>
-#include <linux/soundcard.h>
-#include <linux/poll.h>
-#include <linux/mutex.h>
-#include <linux/sched/signal.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/sound.h>
+#include <robux/init.h>
+#include <robux/soundcard.h>
+#include <robux/poll.h>
+#include <robux/mutex.h>
+#include <robux/sched/signal.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "dmasound.h"
 

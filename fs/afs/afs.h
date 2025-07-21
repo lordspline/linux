@@ -8,7 +8,7 @@
 #ifndef AFS_H
 #define AFS_H
 
-#include <linux/in.h>
+#include <robux/in.h>
 
 #define AFS_MAXCELLNAME		253  	/* Maximum length of a cell name (DNS limited) */
 #define AFS_MAXVOLNAME		64  	/* Maximum length of a volume name */

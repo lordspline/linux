@@ -9,16 +9,16 @@
  * DEVFREQ framework and is based on drivers/devfreq/exynos/exynos4_bus.c.
  */
 
-#include <linux/clk.h>
-#include <linux/devfreq.h>
-#include <linux/devfreq-event.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_opp.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/devfreq.h>
+#include <robux/devfreq-event.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm_opp.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
 
 #define DEFAULT_SATURATION_RATIO	40
 

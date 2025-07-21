@@ -5,20 +5,20 @@
  * on behalf of DENX Software Engineering GmbH
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/usb/otg.h>
-#include <linux/stmp_device.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/iopoll.h>
-#include <linux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/usb/otg.h>
+#include <robux/stmp_device.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/iopoll.h>
+#include <robux/regulator/consumer.h>
 
 #define DRIVER_NAME "mxs_phy"
 

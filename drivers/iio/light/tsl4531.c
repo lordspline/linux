@@ -11,13 +11,13 @@
  * TODO: single cycle measurement
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
+#include <robux/delay.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #define TSL4531_DRV_NAME "tsl4531"
 

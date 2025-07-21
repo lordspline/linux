@@ -7,30 +7,30 @@
 
 #define pr_fmt(fmt)				"bcmgenet_wol: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/clk.h>
+#include <robux/platform_device.h>
 #include <net/arp.h>
 
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/inetdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/phy.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/netdevice.h>
+#include <robux/inetdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/in.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
+#include <robux/phy.h>
 
 #include "bcmgenet.h"
 

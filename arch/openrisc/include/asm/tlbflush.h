@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * OpenRISC Linux
+ * OpenRISC Robux
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Robux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -15,10 +15,10 @@
 #ifndef __ASM_OPENRISC_TLBFLUSH_H
 #define __ASM_OPENRISC_TLBFLUSH_H
 
-#include <linux/mm.h>
+#include <robux/mm.h>
 #include <asm/processor.h>
 #include <asm/current.h>
-#include <linux/sched.h>
+#include <robux/sched.h>
 
 /*
  *  - flush_tlb() flushes the current mm struct TLBs

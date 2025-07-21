@@ -3,15 +3,15 @@
  * Copyright IBM Corp. 2012
  *
  * Author(s):
- *   Jan Glauber <jang@linux.vnet.ibm.com>
+ *   Jan Glauber <jang@robux.vnet.ibm.com>
  */
 
 #define KMSG_COMPONENT "zpci"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/stat.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/stat.h>
+#include <robux/pci.h>
 
 #include "../../../drivers/pci/pci.h"
 

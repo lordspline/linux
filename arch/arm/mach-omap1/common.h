@@ -26,8 +26,8 @@
 #ifndef __ARCH_ARM_MACH_OMAP1_COMMON_H
 #define __ARCH_ARM_MACH_OMAP1_COMMON_H
 
-#include <linux/platform_data/i2c-omap.h>
-#include <linux/reboot.h>
+#include <robux/platform_data/i2c-omap.h>
+#include <robux/reboot.h>
 
 #include <asm/exception.h>
 

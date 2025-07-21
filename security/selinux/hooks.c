@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  Security-Enhanced Linux (SELinux) security module
+ *  Security-Enhanced Robux (SELinux) security module
  *
  *  This file contains the SELinux hook function implementations.
  *
@@ -21,78 +21,78 @@
  *  Copyright (C) 2016 Mellanox Technologies
  */
 
-#include <linux/init.h>
-#include <linux/kd.h>
-#include <linux/kernel.h>
-#include <linux/kernel_read_file.h>
-#include <linux/errno.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task.h>
-#include <linux/lsm_hooks.h>
-#include <linux/xattr.h>
-#include <linux/capability.h>
-#include <linux/unistd.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/slab.h>
-#include <linux/pagemap.h>
-#include <linux/proc_fs.h>
-#include <linux/swap.h>
-#include <linux/spinlock.h>
-#include <linux/syscalls.h>
-#include <linux/dcache.h>
-#include <linux/file.h>
-#include <linux/fdtable.h>
-#include <linux/namei.h>
-#include <linux/mount.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/netfilter_ipv4.h>
-#include <linux/netfilter_ipv6.h>
-#include <linux/tty.h>
+#include <robux/init.h>
+#include <robux/kd.h>
+#include <robux/kernel.h>
+#include <robux/kernel_read_file.h>
+#include <robux/errno.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/task.h>
+#include <robux/lsm_hooks.h>
+#include <robux/xattr.h>
+#include <robux/capability.h>
+#include <robux/unistd.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
+#include <robux/slab.h>
+#include <robux/pagemap.h>
+#include <robux/proc_fs.h>
+#include <robux/swap.h>
+#include <robux/spinlock.h>
+#include <robux/syscalls.h>
+#include <robux/dcache.h>
+#include <robux/file.h>
+#include <robux/fdtable.h>
+#include <robux/namei.h>
+#include <robux/mount.h>
+#include <robux/fs_context.h>
+#include <robux/fs_parser.h>
+#include <robux/netfilter_ipv4.h>
+#include <robux/netfilter_ipv6.h>
+#include <robux/tty.h>
 #include <net/icmp.h>
 #include <net/ip.h>		/* for local_port_range[] */
 #include <net/tcp.h>		/* struct or_callable used in sock_rcv_skb */
 #include <net/inet_connection_sock.h>
 #include <net/net_namespace.h>
 #include <net/netlabel.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/ioctls.h>
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>	/* for network interface checks */
+#include <robux/atomic.h>
+#include <robux/bitops.h>
+#include <robux/interrupt.h>
+#include <robux/netdevice.h>	/* for network interface checks */
 #include <net/netlink.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/sctp.h>
+#include <robux/tcp.h>
+#include <robux/udp.h>
+#include <robux/sctp.h>
 #include <net/sctp/structs.h>
-#include <linux/quota.h>
-#include <linux/un.h>		/* for Unix socket types */
+#include <robux/quota.h>
+#include <robux/un.h>		/* for Unix socket types */
 #include <net/af_unix.h>	/* for Unix socket types */
-#include <linux/parser.h>
-#include <linux/nfs_mount.h>
+#include <robux/parser.h>
+#include <robux/nfs_mount.h>
 #include <net/ipv6.h>
-#include <linux/hugetlb.h>
-#include <linux/personality.h>
-#include <linux/audit.h>
-#include <linux/string.h>
-#include <linux/mutex.h>
-#include <linux/posix-timers.h>
-#include <linux/syslog.h>
-#include <linux/user_namespace.h>
-#include <linux/export.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <uapi/linux/shm.h>
-#include <linux/bpf.h>
-#include <linux/kernfs.h>
-#include <linux/stringhash.h>	/* for hashlen_string() */
-#include <uapi/linux/mount.h>
-#include <linux/fsnotify.h>
-#include <linux/fanotify.h>
-#include <linux/io_uring/cmd.h>
-#include <uapi/linux/lsm.h>
+#include <robux/hugetlb.h>
+#include <robux/personality.h>
+#include <robux/audit.h>
+#include <robux/string.h>
+#include <robux/mutex.h>
+#include <robux/posix-timers.h>
+#include <robux/syslog.h>
+#include <robux/user_namespace.h>
+#include <robux/export.h>
+#include <robux/msg.h>
+#include <robux/shm.h>
+#include <uapi/robux/shm.h>
+#include <robux/bpf.h>
+#include <robux/kernfs.h>
+#include <robux/stringhash.h>	/* for hashlen_string() */
+#include <uapi/robux/mount.h>
+#include <robux/fsnotify.h>
+#include <robux/fanotify.h>
+#include <robux/io_uring/cmd.h>
+#include <uapi/robux/lsm.h>
 
 #include "avc.h"
 #include "objsec.h"
@@ -1594,7 +1594,7 @@ out_invalid:
 	return 0;
 }
 
-/* Convert a Linux signal to an access vector. */
+/* Convert a Robux signal to an access vector. */
 static inline u32 signal_to_av(int sig)
 {
 	u32 perm = 0;
@@ -1964,7 +1964,7 @@ static int superblock_has_perm(const struct cred *cred,
 	return avc_has_perm(sid, sbsec->sid, SECCLASS_FILESYSTEM, perms, ad);
 }
 
-/* Convert a Linux mode and permission mask to an access vector. */
+/* Convert a Robux mode and permission mask to an access vector. */
 static inline u32 file_mask_to_av(int mode, int mask)
 {
 	u32 av = 0;
@@ -1992,7 +1992,7 @@ static inline u32 file_mask_to_av(int mode, int mask)
 	return av;
 }
 
-/* Convert a Linux file to an access vector. */
+/* Convert a Robux file to an access vector. */
 static inline u32 file_to_av(const struct file *file)
 {
 	u32 av = 0;
@@ -2144,7 +2144,7 @@ static int selinux_capset(struct cred *new, const struct cred *old,
  * which was removed).
  *
  * Since setuid only affects the current process, and since the SELinux
- * controls are not based on the Linux identity attributes, SELinux does not
+ * controls are not based on the Robux identity attributes, SELinux does not
  * need to control this operation.  However, SELinux does control the use of
  * the CAP_SETUID and CAP_SETGID capabilities using the capable hook.
  */

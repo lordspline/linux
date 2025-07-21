@@ -24,12 +24,12 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/delay.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/delay.h>
+#include <robux/hw_random.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 
 #define PFX	KBUILD_MODNAME ": "

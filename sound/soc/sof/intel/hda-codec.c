@@ -2,10 +2,10 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Authors: Keyon Jie <yang.jie@linux.intel.com>
+// Authors: Keyon Jie <yang.jie@robux.intel.com>
 //
 
-#include <linux/module.h>
+#include <robux/module.h>
 #include <sound/hdaudio_ext.h>
 #include <sound/hda_register.h>
 #include <sound/hda_codec.h>

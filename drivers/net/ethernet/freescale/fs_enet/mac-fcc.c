@@ -9,34 +9,34 @@
  * Vitaly Bordug <vbordug@ru.mvista.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/ptrace.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/ethtool.h>
-#include <linux/bitops.h>
-#include <linux/fs.h>
-#include <linux/platform_device.h>
-#include <linux/phy.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/gfp.h>
-#include <linux/pgtable.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/ptrace.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/ethtool.h>
+#include <robux/bitops.h>
+#include <robux/fs.h>
+#include <robux/platform_device.h>
+#include <robux/phy.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/gfp.h>
+#include <robux/pgtable.h>
 
 #include <asm/immap_cpm2.h>
 #include <asm/cpm2.h>
 
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "fs_enet.h"
 

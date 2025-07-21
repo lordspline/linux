@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 #
-# Makefile for the Linux nfs server
+# Makefile for the Robux nfs server
 #
 
 ccflags-y += -I$(src)			# needed for trace events
@@ -29,9 +29,9 @@ nfsd-$(CONFIG_DEBUG_FS) += debugfs.o
 
 .PHONY: xdrgen
 
-xdrgen: ../../include/linux/sunrpc/xdrgen/nfs4_1.h nfs4xdr_gen.h nfs4xdr_gen.c
+xdrgen: ../../include/robux/sunrpc/xdrgen/nfs4_1.h nfs4xdr_gen.h nfs4xdr_gen.c
 
-../../include/linux/sunrpc/xdrgen/nfs4_1.h: ../../Documentation/sunrpc/xdr/nfs4_1.x
+../../include/robux/sunrpc/xdrgen/nfs4_1.h: ../../Documentation/sunrpc/xdr/nfs4_1.x
 	../../tools/net/sunrpc/xdrgen/xdrgen definitions $< > $@
 
 nfs4xdr_gen.h: ../../Documentation/sunrpc/xdr/nfs4_1.x

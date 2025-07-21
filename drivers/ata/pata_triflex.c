@@ -21,13 +21,13 @@
  *	Not publicly available.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <robux/libata.h>
 
 #define DRV_NAME "pata_triflex"
 #define DRV_VERSION "0.2.8"

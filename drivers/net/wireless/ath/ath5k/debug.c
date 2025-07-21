@@ -60,12 +60,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/export.h>
-#include <linux/moduleparam.h>
-#include <linux/vmalloc.h>
+#include <robux/export.h>
+#include <robux/moduleparam.h>
+#include <robux/vmalloc.h>
 
-#include <linux/seq_file.h>
-#include <linux/list.h>
+#include <robux/seq_file.h>
+#include <robux/list.h>
 #include "debug.h"
 #include "ath5k.h"
 #include "reg.h"

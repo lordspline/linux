@@ -6,14 +6,14 @@
  * Copyright (C) 2020 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/dmi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
+#include <robux/dmi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/machine.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/workqueue.h>
 
 /* This must be leds-gpio as the leds-gpio driver binds to the name */
 #define DEV_NAME		"leds-gpio"

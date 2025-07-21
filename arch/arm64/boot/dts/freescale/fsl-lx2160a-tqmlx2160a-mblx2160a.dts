@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later OR MIT
 /*
- * Copyright (c) 2020-2023 TQ-Systems GmbH <linux@ew.tq-group.com>,
+ * Copyright (c) 2020-2023 TQ-Systems GmbH <robux@ew.tq-group.com>,
  * D-82229 Seefeld, Germany.
  * Author: Gregor Herburger
  */
@@ -37,13 +37,13 @@
 		button-user1 {
 			label = "button:user1";
 			gpios = <&gpio2 9 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_F1>;
+			robux,code = <KEY_F1>;
 		};
 
 		button-user2 {
 			label = "button:user2";
 			gpios = <&gpio2 10 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_F2>;
+			robux,code = <KEY_F2>;
 		};
 	};
 
@@ -55,7 +55,7 @@
 			color = <LED_COLOR_ID_BLUE>;
 			function = LED_FUNCTION_HEARTBEAT;
 			function-enumerator = <0>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 		};
 
 		led-user2 {
@@ -63,7 +63,7 @@
 			color = <LED_COLOR_ID_BLUE>;
 			function = LED_FUNCTION_HEARTBEAT;
 			function-enumerator = <1>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 		};
 	};
 

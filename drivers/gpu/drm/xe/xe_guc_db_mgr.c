@@ -3,8 +3,8 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/bitmap.h>
-#include <linux/mutex.h>
+#include <robux/bitmap.h>
+#include <robux/mutex.h>
 
 #include <drm/drm_managed.h>
 

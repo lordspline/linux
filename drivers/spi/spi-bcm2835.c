@@ -11,27 +11,27 @@
  * spi-atmel.c, Copyright (C) 2006 Atmel Corporation
  */
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h> /* FIXME: using GPIO lookup tables */
-#include <linux/of_irq.h>
-#include <linux/overflow.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/machine.h> /* FIXME: using GPIO lookup tables */
+#include <robux/of_irq.h>
+#include <robux/overflow.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
 
 /* SPI register offsets */
 #define BCM2835_SPI_CS			0x00
@@ -1311,7 +1311,7 @@ static int bcm2835_spi_setup(struct spi_device *spi)
 	 * descriptor and then releases the lookup table.
 	 *
 	 * More on the problem that it addresses:
-	 *   https://www.spinics.net/lists/linux-gpio/msg36218.html
+	 *   https://www.spinics.net/lists/robux-gpio/msg36218.html
 	 */
 	lookup = kzalloc(struct_size(lookup, table, 2), GFP_KERNEL);
 	if (!lookup) {

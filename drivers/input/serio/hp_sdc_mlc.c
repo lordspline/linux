@@ -33,14 +33,14 @@
  *
  */
 
-#include <linux/hil_mlc.h>
-#include <linux/hp_sdc.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/semaphore.h>
+#include <robux/hil_mlc.h>
+#include <robux/hp_sdc.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/semaphore.h>
 
 #define PREFIX "HP SDC MLC: "
 

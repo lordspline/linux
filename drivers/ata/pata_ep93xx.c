@@ -32,21 +32,21 @@
  *   Copyright (C) 2006 Tower Technologies
  */
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/blkdev.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/blkdev.h>
 #include <scsi/scsi_host.h>
-#include <linux/ata.h>
-#include <linux/libata.h>
-#include <linux/platform_device.h>
-#include <linux/sys_soc.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/ktime.h>
-#include <linux/mod_devicetable.h>
+#include <robux/ata.h>
+#include <robux/libata.h>
+#include <robux/platform_device.h>
+#include <robux/sys_soc.h>
+#include <robux/delay.h>
+#include <robux/dmaengine.h>
+#include <robux/ktime.h>
+#include <robux/mod_devicetable.h>
 
-#include <linux/soc/cirrus/ep93xx.h>
+#include <robux/soc/cirrus/ep93xx.h>
 
 #define DRV_NAME	"ep93xx-ide"
 #define DRV_VERSION	"1.0"

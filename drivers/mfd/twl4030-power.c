@@ -23,12 +23,12 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/mfd/twl.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/mfd/twl.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/of.h>
 
 #include <asm/mach-types.h>
 

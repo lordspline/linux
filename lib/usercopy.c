@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/fault-inject-usercopy.h>
-#include <linux/instrumented.h>
-#include <linux/kernel.h>
-#include <linux/nospec.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/wordpart.h>
+#include <robux/compiler.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/fault-inject-usercopy.h>
+#include <robux/instrumented.h>
+#include <robux/kernel.h>
+#include <robux/nospec.h>
+#include <robux/string.h>
+#include <robux/uaccess.h>
+#include <robux/wordpart.h>
 
 /* out-of-line parts */
 

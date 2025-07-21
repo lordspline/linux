@@ -7,18 +7,18 @@
 //
 // This driver is based on max8998.c
 
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/mfd/max8997.h>
-#include <linux/mfd/max8997-private.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/bug.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/mfd/max8997.h>
+#include <robux/mfd/max8997-private.h>
+#include <robux/regulator/of_regulator.h>
 
 struct max8997_data {
 	struct device *dev;

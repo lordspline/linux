@@ -7,9 +7,9 @@
  * Author: Will Deacon <will.deacon@arm.com>
  */
 
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/const.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
+#include <robux/const.h>
 #include <asm/page.h>
 
 	.globl vdso_start, vdso_end

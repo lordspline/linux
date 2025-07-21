@@ -9,8 +9,8 @@
 #include <errno.h>
 #include <string.h>
 #include <fcntl.h>
-#include <linux/unistd.h>
-#include <linux/kcmp.h>
+#include <robux/unistd.h>
+#include <robux/kcmp.h>
 
 #include <sys/syscall.h>
 #include <sys/types.h>

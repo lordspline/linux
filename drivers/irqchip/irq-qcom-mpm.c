@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2021, Linaro Limited
- * Copyright (c) 2010-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2020, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/irq.h>
-#include <linux/spinlock.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/mailbox_client.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/slab.h>
+#include <robux/soc/qcom/irq.h>
+#include <robux/spinlock.h>
 
 /*
  * This is the driver for Qualcomm MPM (MSM Power Manager) interrupt controller,

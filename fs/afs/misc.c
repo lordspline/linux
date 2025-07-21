@@ -5,16 +5,16 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/errno.h>
 #include <crypto/krb5.h>
 #include "internal.h"
 #include "afs_fs.h"
 #include "protocol_uae.h"
 
 /*
- * convert an AFS abort code to a Linux error number
+ * convert an AFS abort code to a Robux error number
  */
 int afs_abort_to_error(u32 abort_code)
 {

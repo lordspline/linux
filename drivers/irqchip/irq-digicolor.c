@@ -10,14 +10,14 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 
 #include <asm/exception.h>
 

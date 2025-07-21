@@ -12,12 +12,12 @@
 
 #undef DEBUG
 
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/root_dev.h>
-#include <linux/initrd.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/root_dev.h>
+#include <robux/initrd.h>
 #include <asm/time.h>
 #include <asm/io.h>
 #include <asm/machdep.h>

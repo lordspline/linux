@@ -7,10 +7,10 @@
  *          Jerome Brunet <jbrunet@baylibre.com>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/reset-controller.h>
 
 #include "reset-meson.h"
 

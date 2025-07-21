@@ -8,22 +8,22 @@
  * https://www.winsen-sensor.com/d/files/infrared-gas-sensor/mh-z19b-co2-ver1_0.pdf
  */
 
-#include <linux/array_size.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/kstrtox.h>
-#include <linux/minmax.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/serdev.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <robux/array_size.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/jiffies.h>
+#include <robux/kstrtox.h>
+#include <robux/minmax.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regulator/consumer.h>
+#include <robux/serdev.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/unaligned.h>
 
 /*
  * Commands have following format:

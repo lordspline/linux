@@ -6,16 +6,16 @@
 #define pr_fmt(fmt) "tlmm-test: " fmt
 
 #include <kunit/test.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
 
 /*
  * This TLMM test module serves the purpose of validating that the TLMM driver

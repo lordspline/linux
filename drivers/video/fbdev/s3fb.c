@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/s3fb.c -- Frame buffer device driver for S3 Trio/Virge
+ * robux/drivers/video/s3fb.c -- Frame buffer device driver for S3 Trio/Virge
  *
  * Copyright (c) 2006-2007 Ondrej Zajicek <santiago@crfreenet.org>
  *
@@ -11,23 +11,23 @@
  * which is based on the code of neofb.
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/tty.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/svga.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/console.h> /* Why should fb driver call console functions? because console_lock() */
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/tty.h>
+#include <robux/delay.h>
+#include <robux/fb.h>
+#include <robux/svga.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/console.h> /* Why should fb driver call console functions? because console_lock() */
 #include <video/vga.h>
 
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
+#include <robux/i2c.h>
+#include <robux/i2c-algo-bit.h>
 
 struct s3fb_info {
 	int chip, rev, mclk_freq;

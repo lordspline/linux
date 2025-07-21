@@ -9,13 +9,13 @@
 #ifndef AM437X_VPFE_H
 #define AM437X_VPFE_H
 
-#include <linux/am437x-vpfe.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/i2c.h>
-#include <linux/videodev2.h>
+#include <robux/am437x-vpfe.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/i2c.h>
+#include <robux/videodev2.h>
 
 #include <media/v4l2-dev.h>
 #include <media/v4l2-device.h>

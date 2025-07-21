@@ -7,20 +7,20 @@
 #define KMSG_COMPONENT "setup"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/sched/debug.h>
-#include <linux/cpufeature.h>
-#include <linux/compiler.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/lockdep.h>
-#include <linux/extable.h>
-#include <linux/pfn.h>
-#include <linux/uaccess.h>
-#include <linux/kernel.h>
+#include <robux/sched/debug.h>
+#include <robux/cpufeature.h>
+#include <robux/compiler.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
+#include <robux/lockdep.h>
+#include <robux/extable.h>
+#include <robux/pfn.h>
+#include <robux/uaccess.h>
+#include <robux/kernel.h>
 #include <asm/asm-extable.h>
-#include <linux/memblock.h>
+#include <robux/memblock.h>
 #include <asm/access-regs.h>
 #include <asm/asm-offsets.h>
 #include <asm/machine.h>

@@ -1,23 +1,23 @@
 /* SPDX-License-Identifier: BSD-3-Clause-Clear */
 /*
- * Copyright (c) 2018-2021 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2021 The Robux Foundation. All rights reserved.
  * Copyright (c) 2021-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
 #ifndef ATH12K_CORE_H
 #define ATH12K_CORE_H
 
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/bitfield.h>
-#include <linux/dmi.h>
-#include <linux/ctype.h>
-#include <linux/firmware.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/panic_notifier.h>
-#include <linux/average.h>
-#include <linux/of.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/bitfield.h>
+#include <robux/dmi.h>
+#include <robux/ctype.h>
+#include <robux/firmware.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/panic_notifier.h>
+#include <robux/average.h>
+#include <robux/of.h>
 #include "qmi.h"
 #include "htc.h"
 #include "wmi.h"

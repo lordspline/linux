@@ -11,16 +11,16 @@
 #ifndef ATL1_H
 #define ATL1_H
 
-#include <linux/compiler.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/compiler.h>
+#include <robux/ethtool.h>
+#include <robux/if_vlan.h>
+#include <robux/mii.h>
+#include <robux/module.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include "atlx.h"
 

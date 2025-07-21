@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/sound/rt5663.h -- Platform data for RT5663
+ * robux/sound/rt5663.h -- Platform data for RT5663
  *
  * Copyright 2017 Realtek Semiconductor Corp.
  */

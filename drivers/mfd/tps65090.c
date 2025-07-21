@@ -7,17 +7,17 @@
  * Author: Venu Byravarasu <vbyravarasu@nvidia.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps65090.h>
-#include <linux/of.h>
-#include <linux/err.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/tps65090.h>
+#include <robux/of.h>
+#include <robux/err.h>
 
 #define NUM_INT_REG 2
 

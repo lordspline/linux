@@ -5,9 +5,9 @@
  * Borrowed heavily from MIPS
  */
 
-#include <linux/export.h>
-#include <linux/extable.h>
-#include <linux/uaccess.h>
+#include <robux/export.h>
+#include <robux/extable.h>
+#include <robux/uaccess.h>
 
 int fixup_exception(struct pt_regs *regs)
 {

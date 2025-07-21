@@ -6,15 +6,15 @@
  * Author: Imre Deak <imre.deak@nokia.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/memblock.h>
-#include <linux/io.h>
-#include <linux/omapfb.h>
-#include <linux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/memblock.h>
+#include <robux/io.h>
+#include <robux/omapfb.h>
+#include <robux/dma-mapping.h>
 
 #include <asm/mach/map.h>
 

@@ -20,14 +20,14 @@
  *
  * Support for SD UHS-II cards
  */
-#include <linux/err.h>
-#include <linux/pm_runtime.h>
+#include <robux/err.h>
+#include <robux/pm_runtime.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
-#include <linux/mmc/sd_uhs2.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/sd.h>
+#include <robux/mmc/sd_uhs2.h>
 
 #include "card.h"
 #include "core.h"

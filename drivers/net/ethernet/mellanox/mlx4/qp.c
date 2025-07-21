@@ -33,11 +33,11 @@
  * SOFTWARE.
  */
 
-#include <linux/gfp.h>
-#include <linux/export.h>
+#include <robux/gfp.h>
+#include <robux/export.h>
 
-#include <linux/mlx4/cmd.h>
-#include <linux/mlx4/qp.h>
+#include <robux/mlx4/cmd.h>
+#include <robux/mlx4/qp.h>
 
 #include "mlx4.h"
 #include "icm.h"

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/irq.c
+ *	robux/arch/alpha/kernel/irq.c
  *
  *	Copyright (C) 1995 Linus Torvalds
  *
@@ -11,23 +11,23 @@
  * should be easier.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel_stat.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/ptrace.h>
-#include <linux/interrupt.h>
-#include <linux/random.h>
-#include <linux/irq.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/profile.h>
-#include <linux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/kernel_stat.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/ptrace.h>
+#include <robux/interrupt.h>
+#include <robux/random.h>
+#include <robux/irq.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/profile.h>
+#include <robux/bitops.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include "irq_impl.h"
 
 volatile unsigned long irq_err_count;

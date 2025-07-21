@@ -73,9 +73,9 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/types.h>
-#include <linux/compiler.h>
-#include <linux/cleanup.h>
+#include <robux/types.h>
+#include <robux/compiler.h>
+#include <robux/cleanup.h>
 
 extern bool static_key_initialized;
 
@@ -254,8 +254,8 @@ extern enum jump_label_type jump_label_init_type(struct jump_entry *entry);
 
 #else  /* !CONFIG_JUMP_LABEL */
 
-#include <linux/atomic.h>
-#include <linux/bug.h>
+#include <robux/atomic.h>
+#include <robux/bug.h>
 
 static __always_inline int static_key_count(struct static_key *key)
 {

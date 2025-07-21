@@ -1,10 +1,10 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB */
 /* Copyright (c) 2024 NVIDIA Corporation & Affiliates */
 
 #ifndef __MLX5_FS_POOL_H__
 #define __MLX5_FS_POOL_H__
 
-#include <linux/mlx5/driver.h>
+#include <robux/mlx5/driver.h>
 
 struct mlx5_fs_bulk {
 	struct list_head pool_list;

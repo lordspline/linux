@@ -7,7 +7,7 @@
 #ifndef _HRT_BITS_H
 #define _HRT_BITS_H
 
-#include <linux/args.h>
+#include <robux/args.h>
 
 #define _hrt_ones(n)	CONCATENATE(_hrt_ones_, n)
 #define _hrt_ones_0x0  0x00000000U

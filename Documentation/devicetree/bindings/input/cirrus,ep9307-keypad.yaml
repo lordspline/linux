@@ -52,7 +52,7 @@ required:
   - reg
   - interrupts
   - clocks
-  - linux,keymap
+  - robux,keymap
 
 unevaluatedProperties: false
 
@@ -68,7 +68,7 @@ examples:
         clocks = <&eclk EP93XX_CLK_KEYPAD>;
         pinctrl-names = "default";
         pinctrl-0 = <&keypad_default_pins>;
-        linux,keymap = <KEY_UP>,
+        robux,keymap = <KEY_UP>,
                        <KEY_DOWN>,
                        <KEY_VOLUMEDOWN>,
                        <KEY_HOME>,

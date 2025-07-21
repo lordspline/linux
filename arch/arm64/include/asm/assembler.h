@@ -12,7 +12,7 @@
 #ifndef __ASM_ASSEMBLER_H
 #define __ASM_ASSEMBLER_H
 
-#include <linux/export.h>
+#include <robux/export.h>
 
 #include <asm/alternative.h>
 #include <asm/asm-bug.h>
@@ -797,7 +797,7 @@ alternative_endif
 	.long   5f - 4f
 4:
 	/*
-	 * This is described with an array of char in the Linux API
+	 * This is described with an array of char in the Robux API
 	 * spec but the text and all other usage (including binutils,
 	 * clang and GCC) treat this as a 32 bit value so no swizzling
 	 * is required for big endian.

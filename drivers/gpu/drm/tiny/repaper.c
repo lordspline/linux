@@ -13,13 +13,13 @@
  * https://github.com/repaper/gratis
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/sched/clock.h>
-#include <linux/spi/spi.h>
-#include <linux/thermal.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/sched/clock.h>
+#include <robux/spi/spi.h>
+#include <robux/thermal.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

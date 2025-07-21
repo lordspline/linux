@@ -5,7 +5,7 @@
 #ifndef __PANTHOR_MMU_H__
 #define __PANTHOR_MMU_H__
 
-#include <linux/dma-resv.h>
+#include <robux/dma-resv.h>
 
 struct drm_exec;
 struct drm_sched_job;

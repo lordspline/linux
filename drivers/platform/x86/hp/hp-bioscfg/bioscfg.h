@@ -8,12 +8,12 @@
 #ifndef _HP_BIOSCFG_H_
 #define _HP_BIOSCFG_H_
 
-#include <linux/wmi.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/nls.h>
+#include <robux/wmi.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/nls.h>
 
 #define DRIVER_NAME		"hp-bioscfg"
 

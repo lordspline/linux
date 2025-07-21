@@ -11,10 +11,10 @@
 #ifndef DM_VERITY_H
 #define DM_VERITY_H
 
-#include <linux/dm-io.h>
-#include <linux/dm-bufio.h>
-#include <linux/device-mapper.h>
-#include <linux/interrupt.h>
+#include <robux/dm-io.h>
+#include <robux/dm-bufio.h>
+#include <robux/device-mapper.h>
+#include <robux/interrupt.h>
 #include <crypto/hash.h>
 
 #define DM_VERITY_MAX_LEVELS		63

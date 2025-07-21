@@ -6,24 +6,24 @@
  * Copyright (C) 2014-2020 Renesas Electronics Corporation
  */
 
-#include <linux/bitmap.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/io-pgtable.h>
-#include <linux/iommu.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <robux/bitmap.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/io-pgtable.h>
+#include <robux/iommu.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
 
 #if defined(CONFIG_ARM) && !defined(CONFIG_IOMMU_DMA)
 #include <asm/dma-iommu.h>

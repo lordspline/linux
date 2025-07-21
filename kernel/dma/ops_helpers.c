@@ -3,8 +3,8 @@
  * Helpers for DMA ops implementations.  These generally rely on the fact that
  * the allocated memory contains normal pages in the direct kernel mapping.
  */
-#include <linux/dma-map-ops.h>
-#include <linux/iommu-dma.h>
+#include <robux/dma-map-ops.h>
+#include <robux/iommu-dma.h>
 
 static struct page *dma_common_vaddr_to_page(void *cpu_addr)
 {

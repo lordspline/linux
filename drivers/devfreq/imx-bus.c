@@ -3,14 +3,14 @@
  * Copyright 2019 NXP
  */
 
-#include <linux/clk.h>
-#include <linux/devfreq.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_opp.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/devfreq.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm_opp.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 struct imx_bus {
 	struct devfreq_dev_profile profile;

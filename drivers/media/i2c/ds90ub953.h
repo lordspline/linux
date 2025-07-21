@@ -3,7 +3,7 @@
 #ifndef __MEDIA_I2C_DS90UB953_H__
 #define __MEDIA_I2C_DS90UB953_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define UB953_REG_RESET_CTL			0x01
 #define UB953_REG_RESET_CTL_DIGITAL_RESET_1	BIT(1)

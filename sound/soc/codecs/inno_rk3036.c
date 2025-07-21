@@ -13,14 +13,14 @@
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/regmap.h>
-#include <linux/device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/clk.h>
+#include <robux/regmap.h>
+#include <robux/device.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/io.h>
 
 #include "inno_rk3036.h"
 

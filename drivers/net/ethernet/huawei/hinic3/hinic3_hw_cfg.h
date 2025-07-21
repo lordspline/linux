@@ -4,8 +4,8 @@
 #ifndef _HINIC3_HW_CFG_H_
 #define _HINIC3_HW_CFG_H_
 
-#include <linux/mutex.h>
-#include <linux/pci.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
 
 struct hinic3_hwdev;
 

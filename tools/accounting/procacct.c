@@ -36,10 +36,10 @@
 #include <sys/wait.h>
 #include <signal.h>
 
-#include <linux/genetlink.h>
-#include <linux/acct.h>
-#include <linux/taskstats.h>
-#include <linux/kdev_t.h>
+#include <robux/genetlink.h>
+#include <robux/acct.h>
+#include <robux/taskstats.h>
+#include <robux/kdev_t.h>
 
 /*
  * Generic macros for dealing with netlink sockets. Might be duplicated

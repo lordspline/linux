@@ -6,15 +6,15 @@
 //
 // Author: David Rhodes <david.rhodes@cirrus.com>
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

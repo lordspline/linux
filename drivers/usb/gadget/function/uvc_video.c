@@ -6,13 +6,13 @@
  *	    Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/video.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/video.h>
+#include <robux/unaligned.h>
 
 #include <media/v4l2-dev.h>
 

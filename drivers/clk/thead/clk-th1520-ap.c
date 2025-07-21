@@ -6,12 +6,12 @@
  */
 
 #include <dt-bindings/clock/thead,th1520-clk-ap.h>
-#include <linux/bitfield.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define TH1520_PLL_POSTDIV2	GENMASK(26, 24)
 #define TH1520_PLL_POSTDIV1	GENMASK(22, 20)

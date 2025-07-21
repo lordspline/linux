@@ -6,10 +6,10 @@
  * Author: Heiner Kallweit <hkallweit1@gmail.com>
  */
 
-#include <linux/phy.h>
-#include <linux/device.h>
-#include <linux/ctype.h>
-#include <linux/hwmon.h>
+#include <robux/phy.h>
+#include <robux/device.h>
+#include <robux/ctype.h>
+#include <robux/hwmon.h>
 
 #include "aquantia.h"
 

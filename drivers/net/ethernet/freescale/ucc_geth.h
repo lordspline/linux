@@ -14,10 +14,10 @@
 #ifndef __UCC_GETH_H__
 #define __UCC_GETH_H__
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/phylink.h>
-#include <linux/if_ether.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/phylink.h>
+#include <robux/if_ether.h>
 
 #include <soc/fsl/qe/immap_qe.h>
 #include <soc/fsl/qe/qe.h>

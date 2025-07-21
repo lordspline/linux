@@ -5,9 +5,9 @@
  */
 
 #include "fsm.h"
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
 
 MODULE_AUTHOR("(C) 2000 IBM Corp. by Fritz Elfert <felfert@millenux.com>");
 MODULE_DESCRIPTION("Finite state machine helper functions");

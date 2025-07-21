@@ -9,19 +9,19 @@
  *    -- Initial Write (Borrowed heavily from ARM)
  */
 
-#include <linux/spinlock.h>
-#include <linux/sched/mm.h>
-#include <linux/interrupt.h>
-#include <linux/profile.h>
-#include <linux/mm.h>
-#include <linux/cpu.h>
-#include <linux/irq.h>
-#include <linux/atomic.h>
-#include <linux/cpumask.h>
-#include <linux/reboot.h>
-#include <linux/irqdomain.h>
-#include <linux/export.h>
-#include <linux/of_fdt.h>
+#include <robux/spinlock.h>
+#include <robux/sched/mm.h>
+#include <robux/interrupt.h>
+#include <robux/profile.h>
+#include <robux/mm.h>
+#include <robux/cpu.h>
+#include <robux/irq.h>
+#include <robux/atomic.h>
+#include <robux/cpumask.h>
+#include <robux/reboot.h>
+#include <robux/irqdomain.h>
+#include <robux/export.h>
+#include <robux/of_fdt.h>
 
 #include <asm/mach_desc.h>
 #include <asm/setup.h>

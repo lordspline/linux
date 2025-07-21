@@ -15,25 +15,25 @@
  *       the LPC3180.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/prefetch.h>
-#include <linux/proc_fs.h>
-#include <linux/slab.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/isp1301.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmapool.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/prefetch.h>
+#include <robux/proc_fs.h>
+#include <robux/slab.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/isp1301.h>
 
 #ifdef CONFIG_USB_GADGET_DEBUG_FILES
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 #endif
 
 /*

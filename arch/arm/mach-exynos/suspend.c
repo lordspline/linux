@@ -9,19 +9,19 @@
 // Copyright (c) 2006 Simtec Electronics
 //	Ben Dooks <ben@simtec.co.uk>
 
-#include <linux/init.h>
-#include <linux/suspend.h>
-#include <linux/syscore_ops.h>
-#include <linux/cpu_pm.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/of_address.h>
-#include <linux/err.h>
-#include <linux/regulator/machine.h>
-#include <linux/soc/samsung/exynos-pmu.h>
-#include <linux/soc/samsung/exynos-regs-pmu.h>
+#include <robux/init.h>
+#include <robux/suspend.h>
+#include <robux/syscore_ops.h>
+#include <robux/cpu_pm.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/of_address.h>
+#include <robux/err.h>
+#include <robux/regulator/machine.h>
+#include <robux/soc/samsung/exynos-pmu.h>
+#include <robux/soc/samsung/exynos-regs-pmu.h>
 
 #include <asm/cacheflush.h>
 #include <asm/hardware/cache-l2x0.h>

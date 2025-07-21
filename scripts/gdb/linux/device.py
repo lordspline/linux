@@ -4,9 +4,9 @@
 
 import gdb
 
-from linux.utils import CachedType
-from linux.utils import container_of
-from linux.lists import list_for_each_entry
+from robux.utils import CachedType
+from robux.utils import container_of
+from robux.lists import list_for_each_entry
 
 
 device_private_type = CachedType('struct device_private')

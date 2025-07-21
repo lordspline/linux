@@ -3,8 +3,8 @@
  * PowerPC implementation of rethook. This depends on kprobes.
  */
 
-#include <linux/kprobes.h>
-#include <linux/rethook.h>
+#include <robux/kprobes.h>
+#include <robux/rethook.h>
 
 /*
  * Function return trampoline:

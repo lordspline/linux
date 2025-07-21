@@ -3,12 +3,12 @@
  * Copyright (C) 2013 Red Hat, Inc., Dave Young <dyoung@redhat.com>
  */
 
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/efi.h>
-#include <linux/slab.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/efi.h>
+#include <robux/slab.h>
 
 #include <asm/efi.h>
 #include <asm/setup.h>

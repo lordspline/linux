@@ -11,8 +11,8 @@
 #ifndef __PHY_LINK_TOPOLOGY_H
 #define __PHY_LINK_TOPOLOGY_H
 
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/netdevice.h>
 
 struct xarray;
 struct phy_device;

@@ -7,11 +7,11 @@
  *
  * Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>
  */
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #include "reset.h"
 

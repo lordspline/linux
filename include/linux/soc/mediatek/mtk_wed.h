@@ -1,12 +1,12 @@
 #ifndef __MTK_WED_H
 #define __MTK_WED_H
 
-#include <linux/kernel.h>
-#include <linux/rcupdate.h>
-#include <linux/regmap.h>
-#include <linux/pci.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
+#include <robux/kernel.h>
+#include <robux/rcupdate.h>
+#include <robux/regmap.h>
+#include <robux/pci.h>
+#include <robux/skbuff.h>
+#include <robux/netdevice.h>
 
 #define MTK_WED_TX_QUEUES		2
 #define MTK_WED_RX_QUEUES		2

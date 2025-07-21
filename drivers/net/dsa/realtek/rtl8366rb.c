@@ -12,16 +12,16 @@
  * Copyright (C) 2011 Colin Leitner <colin.leitner@googlemail.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/of_irq.h>
-#include <linux/regmap.h>
-#include <linux/string_choices.h>
+#include <robux/bitops.h>
+#include <robux/etherdevice.h>
+#include <robux/if_bridge.h>
+#include <robux/if_vlan.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/of_irq.h>
+#include <robux/regmap.h>
+#include <robux/string_choices.h>
 
 #include "realtek.h"
 #include "realtek-smi.h"

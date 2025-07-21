@@ -5,7 +5,7 @@
 
 #include <sysdep/stub.h>
 
-#include <linux/futex.h>
+#include <robux/futex.h>
 #include <sys/socket.h>
 #include <errno.h>
 

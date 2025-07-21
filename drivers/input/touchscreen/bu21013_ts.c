@@ -4,20 +4,20 @@
  * Author: Naveen Kumar G <naveen.gaddipati@stericsson.com> for ST-Ericsson
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #define MAX_FINGERS	2
 #define RESET_DELAY	30

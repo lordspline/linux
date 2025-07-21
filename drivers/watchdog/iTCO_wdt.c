@@ -45,23 +45,23 @@
 #define DRV_VERSION	"1.11"
 
 /* Includes */
-#include <linux/acpi.h>			/* For ACPI support */
-#include <linux/bits.h>			/* For BIT() */
-#include <linux/module.h>		/* For module specific items */
-#include <linux/moduleparam.h>		/* For new moduleparam's */
-#include <linux/types.h>		/* For standard types (like size_t) */
-#include <linux/errno.h>		/* For the -ENODEV/... values */
-#include <linux/kernel.h>		/* For printk/panic/... */
-#include <linux/watchdog.h>		/* For the watchdog specific items */
-#include <linux/init.h>			/* For __init/__exit/... */
-#include <linux/fs.h>			/* For file operations */
-#include <linux/platform_device.h>	/* For platform_driver framework */
-#include <linux/pci.h>			/* For pci functions */
-#include <linux/ioport.h>		/* For io-port access */
-#include <linux/uaccess.h>		/* For copy_to_user/put_user/... */
-#include <linux/io.h>			/* For inb/outb/... */
-#include <linux/platform_data/itco_wdt.h>
-#include <linux/mfd/intel_pmc_bxt.h>
+#include <robux/acpi.h>			/* For ACPI support */
+#include <robux/bits.h>			/* For BIT() */
+#include <robux/module.h>		/* For module specific items */
+#include <robux/moduleparam.h>		/* For new moduleparam's */
+#include <robux/types.h>		/* For standard types (like size_t) */
+#include <robux/errno.h>		/* For the -ENODEV/... values */
+#include <robux/kernel.h>		/* For printk/panic/... */
+#include <robux/watchdog.h>		/* For the watchdog specific items */
+#include <robux/init.h>			/* For __init/__exit/... */
+#include <robux/fs.h>			/* For file operations */
+#include <robux/platform_device.h>	/* For platform_driver framework */
+#include <robux/pci.h>			/* For pci functions */
+#include <robux/ioport.h>		/* For io-port access */
+#include <robux/uaccess.h>		/* For copy_to_user/put_user/... */
+#include <robux/io.h>			/* For inb/outb/... */
+#include <robux/platform_data/itco_wdt.h>
+#include <robux/mfd/intel_pmc_bxt.h>
 
 #include "iTCO_vendor.h"
 

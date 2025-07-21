@@ -12,15 +12,15 @@
  * Copyright (C) 2020 Daniel W. S. Almeida
  */
 
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/ratelimit.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
+#include <robux/delay.h>
+#include <robux/dev_printk.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/math64.h>
+#include <robux/ratelimit.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/vmalloc.h>
 
 #include "vidtv_channel.h"
 #include "vidtv_common.h"

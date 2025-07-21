@@ -3,7 +3,7 @@
  * sys_ia32.c: Conversion between 32bit and 64bit native syscalls. Based on
  *             sys_sparc32
  *
- * Copyright (C) 2000		VA Linux Co
+ * Copyright (C) 2000		VA Robux Co
  * Copyright (C) 2000		Don Dugger <n0ano@valinux.com>
  * Copyright (C) 1999		Arun Sharma <arun.sharma@intel.com>
  * Copyright (C) 1997,1998	Jakub Jelinek (jj@sunsite.mff.cuni.cz)
@@ -21,31 +21,31 @@
  * hopefully all marked.  This should be fixed.
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/signal.h>
-#include <linux/syscalls.h>
-#include <linux/times.h>
-#include <linux/utsname.h>
-#include <linux/mm.h>
-#include <linux/uio.h>
-#include <linux/poll.h>
-#include <linux/personality.h>
-#include <linux/stat.h>
-#include <linux/rwsem.h>
-#include <linux/compat.h>
-#include <linux/vfs.h>
-#include <linux/ptrace.h>
-#include <linux/highuid.h>
-#include <linux/sysctl.h>
-#include <linux/slab.h>
-#include <linux/sched/task.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/signal.h>
+#include <robux/syscalls.h>
+#include <robux/times.h>
+#include <robux/utsname.h>
+#include <robux/mm.h>
+#include <robux/uio.h>
+#include <robux/poll.h>
+#include <robux/personality.h>
+#include <robux/stat.h>
+#include <robux/rwsem.h>
+#include <robux/compat.h>
+#include <robux/vfs.h>
+#include <robux/ptrace.h>
+#include <robux/highuid.h>
+#include <robux/sysctl.h>
+#include <robux/slab.h>
+#include <robux/sched/task.h>
 #include <asm/mman.h>
 #include <asm/types.h>
-#include <linux/uaccess.h>
-#include <linux/atomic.h>
+#include <robux/uaccess.h>
+#include <robux/atomic.h>
 #include <asm/vgtod.h>
 #include <asm/ia32.h>
 
@@ -206,7 +206,7 @@ COMPAT_SYSCALL_DEFINE4(ia32_fstatat64, unsigned int, dfd,
 }
 
 /*
- * Linux/i386 didn't use to be able to handle more than
+ * Robux/i386 didn't use to be able to handle more than
  * 4 system call parameters, so these system calls used a memory
  * block for parameter passing..
  */

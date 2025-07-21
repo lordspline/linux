@@ -9,14 +9,14 @@
  * Copyright (c) 2009 Wind River Systems, Inc.  All Rights Reserved.
  */
 
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/kdb.h>
-#include <linux/kgdb.h>
-#include <linux/smp.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/kdb.h>
+#include <robux/kgdb.h>
+#include <robux/smp.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
 #include "kdb_private.h"
 
 /*

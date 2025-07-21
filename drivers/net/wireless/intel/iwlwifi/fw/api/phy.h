@@ -6,8 +6,8 @@
  */
 #ifndef __iwl_fw_api_phy_h__
 #define __iwl_fw_api_phy_h__
-#include <linux/types.h>
-#include <linux/bits.h>
+#include <robux/types.h>
+#include <robux/bits.h>
 
 /**
  * enum iwl_phy_ops_subcmd_ids - PHY group commands

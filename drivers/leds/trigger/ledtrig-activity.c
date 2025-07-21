@@ -6,16 +6,16 @@
  * Partially based on Atsushi Nemoto's ledtrig-heartbeat.c.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/kernel_stat.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/panic_notifier.h>
-#include <linux/reboot.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/kernel_stat.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/panic_notifier.h>
+#include <robux/reboot.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
 #include "../leds.h"
 
 static int panic_detected;

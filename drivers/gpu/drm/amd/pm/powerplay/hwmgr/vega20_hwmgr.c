@@ -21,9 +21,9 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include "hwmgr.h"
 #include "amd_powerplay.h"

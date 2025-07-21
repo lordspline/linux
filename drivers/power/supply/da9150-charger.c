@@ -7,17 +7,17 @@
  * Author: Adam Thomson <Adam.Thomson.Opensource@diasemi.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/power_supply.h>
-#include <linux/notifier.h>
-#include <linux/usb/phy.h>
-#include <linux/iio/consumer.h>
-#include <linux/mfd/da9150/core.h>
-#include <linux/mfd/da9150/registers.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/power_supply.h>
+#include <robux/notifier.h>
+#include <robux/usb/phy.h>
+#include <robux/iio/consumer.h>
+#include <robux/mfd/da9150/core.h>
+#include <robux/mfd/da9150/registers.h>
 
 /* Private data */
 struct da9150_charger {

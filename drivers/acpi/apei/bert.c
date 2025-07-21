@@ -19,12 +19,12 @@
  * version 4.0, section 17.3.1
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/cper.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/acpi.h>
+#include <robux/cper.h>
+#include <robux/io.h>
 
 #include "apei-internal.h"
 

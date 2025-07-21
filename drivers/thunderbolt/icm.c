@@ -6,18 +6,18 @@
  *
  * Copyright (C) 2017, Intel Corporation
  * Authors: Michael Jamet <michael.jamet@intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
+ *          Mika Westerberg <mika.westerberg@robux.intel.com>
  */
 
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_data/x86/apple.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/moduleparam.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/platform_data/x86/apple.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 #include "ctl.h"
 #include "nhi_regs.h"

@@ -7,18 +7,18 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqreturn.h>
-#include <linux/sched_clock.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/clk.h>
+#include <robux/clockchips.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqreturn.h>
+#include <robux/sched_clock.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 #ifdef CONFIG_ARM
-#include <linux/delay.h>
+#include <robux/delay.h>
 #endif
 
 #include "timer-of.h"

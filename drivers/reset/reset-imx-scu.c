@@ -3,12 +3,12 @@
  * Copyright 2025 NXP
  * Frank Li <Frank.Li@nxp.com>
  */
-#include <linux/firmware/imx/svc/misc.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
+#include <robux/firmware/imx/svc/misc.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
 
 #include <dt-bindings/firmware/imx/rsrc.h>
 

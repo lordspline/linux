@@ -5,31 +5,31 @@
  * Copyright (C) IBM Corporation, 2003, 2010
  *
  * Authors: Dave Larson <larson1@us.ibm.com>
- *	    Santiago Leon <santil@linux.vnet.ibm.com>
- *	    Brian King <brking@linux.vnet.ibm.com>
- *	    Robert Jennings <rcj@linux.vnet.ibm.com>
+ *	    Santiago Leon <santil@robux.vnet.ibm.com>
+ *	    Brian King <brking@robux.vnet.ibm.com>
+ *	    Robert Jennings <rcj@robux.vnet.ibm.com>
  *	    Anton Blanchard <anton@au.ibm.com>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/mm.h>
-#include <linux/pm.h>
-#include <linux/ethtool.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/mm.h>
+#include <robux/pm.h>
+#include <robux/ethtool.h>
+#include <robux/in.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
+#include <robux/slab.h>
 #include <asm/hvcall.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/vio.h>
 #include <asm/iommu.h>
 #include <asm/firmware.h>
@@ -48,7 +48,7 @@ static const char ibmveth_driver_name[] = "ibmveth";
 static const char ibmveth_driver_string[] = "IBM Power Virtual Ethernet Driver";
 #define ibmveth_driver_version "1.06"
 
-MODULE_AUTHOR("Santiago Leon <santil@linux.vnet.ibm.com>");
+MODULE_AUTHOR("Santiago Leon <santil@robux.vnet.ibm.com>");
 MODULE_DESCRIPTION("IBM Power Virtual Ethernet Driver");
 MODULE_LICENSE("GPL");
 MODULE_VERSION(ibmveth_driver_version);

@@ -6,28 +6,28 @@
  * Copyright (c) 2025, ROHM Semiconductor.
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/devm-helpers.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/devm-helpers.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/irqreturn.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 #include <asm/byteorder.h>
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/adc-helpers.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/adc-helpers.h>
 
 #define BD79124_I2C_MULTI_READ		0x30
 #define BD79124_I2C_MULTI_WRITE		0x28

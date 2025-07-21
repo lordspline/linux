@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _ISOFS_FS_H
 #define _ISOFS_FS_H
 
-#include <linux/types.h>
-#include <linux/magic.h>
+#include <robux/types.h>
+#include <robux/magic.h>
 
 /*
  * The isofs filesystem constants/structures

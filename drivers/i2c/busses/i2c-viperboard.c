@@ -7,19 +7,19 @@
  *  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
 
-#include <linux/usb.h>
-#include <linux/i2c.h>
+#include <robux/usb.h>
+#include <robux/i2c.h>
 
-#include <linux/mfd/viperboard.h>
+#include <robux/mfd/viperboard.h>
 
 struct vprbrd_i2c {
 	struct i2c_adapter i2c;

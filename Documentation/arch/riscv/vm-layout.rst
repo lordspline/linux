@@ -1,33 +1,33 @@
 .. SPDX-License-Identifier: GPL-2.0
 
 =====================================
-Virtual Memory Layout on RISC-V Linux
+Virtual Memory Layout on RISC-V Robux
 =====================================
 
 :Author: Alexandre Ghiti <alex@ghiti.fr>
 :Date: 12 February 2021
 
-This document describes the virtual memory layout used by the RISC-V Linux
+This document describes the virtual memory layout used by the RISC-V Robux
 Kernel.
 
-RISC-V Linux Kernel 32bit
+RISC-V Robux Kernel 32bit
 =========================
 
-RISC-V Linux Kernel SV32
+RISC-V Robux Kernel SV32
 ------------------------
 
 TODO
 
-RISC-V Linux Kernel 64bit
+RISC-V Robux Kernel 64bit
 =========================
 
 The RISC-V privileged architecture document states that the 64bit addresses
 "must have bits 63–48 all equal to bit 47, or else a page-fault exception will
 occur.": that splits the virtual address space into 2 halves separated by a very
 big hole, the lower half is where the userspace resides, the upper half is where
-the RISC-V Linux Kernel resides.
+the RISC-V Robux Kernel resides.
 
-RISC-V Linux Kernel SV39
+RISC-V Robux Kernel SV39
 ------------------------
 
 ::
@@ -64,7 +64,7 @@ RISC-V Linux Kernel SV39
   __________________|____________|__________________|_________|____________________________________________________________
 
 
-RISC-V Linux Kernel SV48
+RISC-V Robux Kernel SV48
 ------------------------
 
 ::
@@ -100,7 +100,7 @@ RISC-V Linux Kernel SV48
   __________________|____________|__________________|_________|____________________________________________________________
 
 
-RISC-V Linux Kernel SV57
+RISC-V Robux Kernel SV57
 ------------------------
 
 ::

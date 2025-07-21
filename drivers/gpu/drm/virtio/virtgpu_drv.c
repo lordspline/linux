@@ -20,18 +20,18 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
- * VA LINUX SYSTEMS AND/OR ITS SUPPLIERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ * VA ROBUX SYSTEMS AND/OR ITS SUPPLIERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
  * OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
  * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/poll.h>
-#include <linux/vgaarb.h>
-#include <linux/wait.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/poll.h>
+#include <robux/vgaarb.h>
+#include <robux/wait.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm.h>

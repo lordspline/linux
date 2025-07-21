@@ -3,16 +3,16 @@
  * Copyright (C) 2009 by Sascha Hauer, Pengutronix
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/clkdev.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/clkdev.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 #include <soc/imx/revision.h>
 
 #include "clk.h"

@@ -5,12 +5,12 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/bitrev.h>
-#include <linux/module.h>
-#include <linux/unaligned.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/bitrev.h>
+#include <robux/module.h>
+#include <robux/unaligned.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/pcm.h>

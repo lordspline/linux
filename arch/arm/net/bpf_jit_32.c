@@ -7,16 +7,16 @@
  * Copyright (c) 2011 Mircea Gherzan <mgherzan@gmail.com>
  */
 
-#include <linux/bpf.h>
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/filter.h>
-#include <linux/netdevice.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/if_vlan.h>
-#include <linux/math64.h>
+#include <robux/bpf.h>
+#include <robux/bitops.h>
+#include <robux/compiler.h>
+#include <robux/errno.h>
+#include <robux/filter.h>
+#include <robux/netdevice.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/if_vlan.h>
+#include <robux/math64.h>
 
 #include <asm/cacheflush.h>
 #include <asm/hwcap.h>

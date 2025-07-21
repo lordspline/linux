@@ -6,14 +6,14 @@
  * Copyright (C) 2024 KylinSoft Corporation.
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/wmi.h>
-#include <linux/cleanup.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/input.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/wmi.h>
+#include <robux/cleanup.h>
 
 #define WMI_LENOVO_CAMERABUTTON_EVENT_GUID "50C76F1F-D8E4-D895-0A3D-62F4EA400013"
 

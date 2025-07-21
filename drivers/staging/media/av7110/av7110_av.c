@@ -12,12 +12,12 @@
  * the project's page is at https://linuxtv.org
  */
 
-#include <linux/ethtool.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
+#include <robux/ethtool.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
 
 #include "av7110.h"
 #include "av7110_hw.h"

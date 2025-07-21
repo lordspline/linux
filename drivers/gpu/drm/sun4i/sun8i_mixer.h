@@ -6,9 +6,9 @@
 #ifndef _SUN8I_MIXER_H_
 #define _SUN8I_MIXER_H_
 
-#include <linux/clk.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 #include <drm/drm_plane.h>
 
 #include "sunxi_engine.h"

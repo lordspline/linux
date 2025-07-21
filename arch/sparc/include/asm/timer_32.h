@@ -9,8 +9,8 @@
 #ifndef _SPARC_TIMER_H
 #define _SPARC_TIMER_H
 
-#include <linux/clocksource.h>
-#include <linux/irqreturn.h>
+#include <robux/clocksource.h>
+#include <robux/irqreturn.h>
 
 #include <asm-generic/percpu.h>
 

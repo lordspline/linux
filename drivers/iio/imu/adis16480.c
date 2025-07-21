@@ -5,27 +5,27 @@
  * Copyright 2012 Analog Devices Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/math.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/lcm.h>
-#include <linux/property.h>
-#include <linux/swab.h>
-#include <linux/crc32.h>
+#include <robux/clk.h>
+#include <robux/bitfield.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/math.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/spi/spi.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/lcm.h>
+#include <robux/property.h>
+#include <robux/swab.h>
+#include <robux/crc32.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/imu/adis.h>
-#include <linux/iio/trigger_consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/imu/adis.h>
+#include <robux/iio/trigger_consumer.h>
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 #define ADIS16480_PAGE_SIZE 0x80
 

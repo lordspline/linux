@@ -3,7 +3,7 @@
 #ifndef ADF_GEN6_RAS_H_
 #define ADF_GEN6_RAS_H_
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 struct adf_ras_ops;
 

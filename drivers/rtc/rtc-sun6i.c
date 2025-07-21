@@ -11,23 +11,23 @@
  * Copyright (c) 2013, Carlo Caione <carlo.caione@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clk/sunxi-ng.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/clk/sunxi-ng.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 /* Control register */
 #define SUN6I_LOSC_CTRL				0x0000

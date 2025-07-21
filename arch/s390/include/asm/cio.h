@@ -5,8 +5,8 @@
 #ifndef _ASM_S390_CIO_H_
 #define _ASM_S390_CIO_H_
 
-#include <linux/bitops.h>
-#include <linux/genalloc.h>
+#include <robux/bitops.h>
+#include <robux/genalloc.h>
 #include <asm/dma-types.h>
 #include <asm/types.h>
 #include <asm/tpi.h>

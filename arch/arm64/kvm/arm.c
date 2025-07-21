@@ -4,29 +4,29 @@
  * Author: Christoffer Dall <c.dall@virtualopensystems.com>
  */
 
-#include <linux/bug.h>
-#include <linux/cpu_pm.h>
-#include <linux/entry-kvm.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/kvm_host.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/mman.h>
-#include <linux/sched.h>
-#include <linux/kvm.h>
-#include <linux/kvm_irqfd.h>
-#include <linux/irqbypass.h>
-#include <linux/sched/stat.h>
-#include <linux/psci.h>
+#include <robux/bug.h>
+#include <robux/cpu_pm.h>
+#include <robux/entry-kvm.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/kvm_host.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
+#include <robux/fs.h>
+#include <robux/mman.h>
+#include <robux/sched.h>
+#include <robux/kvm.h>
+#include <robux/kvm_irqfd.h>
+#include <robux/irqbypass.h>
+#include <robux/sched/stat.h>
+#include <robux/psci.h>
 #include <trace/events/kvm.h>
 
 #define CREATE_TRACE_POINTS
 #include "trace_arm.h"
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/ptrace.h>
 #include <asm/mman.h>
 #include <asm/tlbflush.h>

@@ -3,8 +3,8 @@
  * Copyright (C) 2020 Linaro Ltd.
  */
 
-#include <linux/debugfs.h>
-#include <linux/fault-inject.h>
+#include <robux/debugfs.h>
+#include <robux/fault-inject.h>
 
 #include "core.h"
 

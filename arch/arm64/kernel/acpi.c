@@ -12,22 +12,22 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/acpi.h>
-#include <linux/arm-smccc.h>
-#include <linux/cpumask.h>
-#include <linux/efi.h>
-#include <linux/efi-bgrt.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/irq_work.h>
-#include <linux/memblock.h>
-#include <linux/of_fdt.h>
-#include <linux/libfdt.h>
-#include <linux/smp.h>
-#include <linux/serial_core.h>
-#include <linux/suspend.h>
-#include <linux/pgtable.h>
+#include <robux/acpi.h>
+#include <robux/arm-smccc.h>
+#include <robux/cpumask.h>
+#include <robux/efi.h>
+#include <robux/efi-bgrt.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/irq_work.h>
+#include <robux/memblock.h>
+#include <robux/of_fdt.h>
+#include <robux/libfdt.h>
+#include <robux/smp.h>
+#include <robux/serial_core.h>
+#include <robux/suspend.h>
+#include <robux/pgtable.h>
 
 #include <acpi/ghes.h>
 #include <acpi/processor.h>

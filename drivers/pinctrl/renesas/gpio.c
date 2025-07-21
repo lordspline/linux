@@ -6,12 +6,12 @@
  * Copyright (C) 2009 - 2012 Paul Mundt
  */
 
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/device.h>
+#include <robux/gpio/driver.h>
+#include <robux/module.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
 #include "core.h"
 

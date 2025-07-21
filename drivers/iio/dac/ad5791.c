@@ -6,24 +6,24 @@
  * Copyright 2011 Analog Devices Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/offload/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/sysfs.h>
-#include <linux/units.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/fs.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/spi/offload/consumer.h>
+#include <robux/spi/spi.h>
+#include <robux/sysfs.h>
+#include <robux/units.h>
 
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/dac/ad5791.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/buffer-dmaengine.h>
+#include <robux/iio/dac/ad5791.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #define AD5791_DAC_MASK			GENMASK(19, 0)
 

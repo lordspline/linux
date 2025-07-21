@@ -22,14 +22,14 @@
  * devices.
  */
 
-#include <linux/module.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/ioctl.h>
-#include <linux/capability.h>
-#include <linux/uaccess.h>
-#include <linux/compat.h>
-#include <linux/math64.h>
+#include <robux/module.h>
+#include <robux/stat.h>
+#include <robux/slab.h>
+#include <robux/ioctl.h>
+#include <robux/capability.h>
+#include <robux/uaccess.h>
+#include <robux/compat.h>
+#include <robux/math64.h>
 #include <mtd/ubi-user.h>
 #include "ubi.h"
 

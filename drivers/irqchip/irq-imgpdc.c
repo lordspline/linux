@@ -8,14 +8,14 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <robux/bitops.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
 
 /* PDC interrupt register numbers */
 

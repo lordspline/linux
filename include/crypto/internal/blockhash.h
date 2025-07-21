@@ -9,8 +9,8 @@
 #ifndef _CRYPTO_INTERNAL_BLOCKHASH_H
 #define _CRYPTO_INTERNAL_BLOCKHASH_H
 
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #define BLOCK_HASH_UPDATE_BASE(block_fn, state, src, nbytes, bs, dv,	\
 			       buf, buflen)				\

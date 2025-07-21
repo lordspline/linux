@@ -22,11 +22,11 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/printk.h>
-#include <linux/sched.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/printk.h>
+#include <robux/sched.h>
 #include "kfd_kernel_queue.h"
 #include "kfd_priv.h"
 #include "kfd_device_queue_manager.h"

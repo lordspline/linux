@@ -7,19 +7,19 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/kexec.h>
-#include <linux/profile.h>
-#include <linux/stat.h>
-#include <linux/sched.h>
-#include <linux/capability.h>
-#include <linux/compiler.h>
+#include <robux/kobject.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/kexec.h>
+#include <robux/profile.h>
+#include <robux/stat.h>
+#include <robux/sched.h>
+#include <robux/capability.h>
+#include <robux/compiler.h>
 
-#include <linux/rcupdate.h>	/* rcu_expedited and rcu_normal */
+#include <robux/rcupdate.h>	/* rcu_expedited and rcu_normal */
 
 #if defined(__LITTLE_ENDIAN)
 #define CPU_BYTEORDER_STRING	"little"

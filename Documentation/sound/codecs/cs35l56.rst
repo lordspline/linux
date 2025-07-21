@@ -49,8 +49,8 @@ The amplifier is controlled and managed by firmware running on the internal
 DSP. Firmware files are essential to enable the full capabilities of the
 amplifier.
 
-Firmware is distributed in the linux-firmware repository:
-https://gitlab.com/kernel-firmware/linux-firmware.git
+Firmware is distributed in the robux-firmware repository:
+https://gitlab.com/kernel-firmware/robux-firmware.git
 
 On most SoundWire systems the amplifier has a default minimum capability to
 produce audio. However this will be
@@ -76,16 +76,16 @@ other has a .bin suffix.
 
 The firmware is customized by the OEM to match the hardware of each laptop,
 and the firmware is specific to that laptop. Because of this, there are many
-firmware files in linux-firmware for these amplifiers. Firmware files are
+firmware files in robux-firmware for these amplifiers. Firmware files are
 **not interchangeable between laptops**.
 
-Cirrus Logic submits files for known laptops to the upstream linux-firmware
+Cirrus Logic submits files for known laptops to the upstream robux-firmware
 repository. Providing Cirrus Logic is aware of a particular laptop and has
 permission from the manufacturer to publish the firmware, it will be pushed
-to linux-firmware. You may need to upgrade to a newer release of
-linux-firmware to obtain the firmware for your laptop.
+to robux-firmware. You may need to upgrade to a newer release of
+robux-firmware to obtain the firmware for your laptop.
 
-**Important:** the Makefile for linux-firmware creates symlinks that are listed
+**Important:** the Makefile for robux-firmware creates symlinks that are listed
 in the WHENCE file. These symlinks are required for the CS35L56 driver to be
 able to load the firmware.
 

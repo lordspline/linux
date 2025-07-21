@@ -8,16 +8,16 @@
  * memory is cyclically updated over the RGB interface.
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/lcd.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/string.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/lcd.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/string.h>
 
 /* Register offset, see manual section 8.2 */
 #define REG_START_OSCILLATION			0x00

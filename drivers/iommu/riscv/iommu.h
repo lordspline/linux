@@ -11,9 +11,9 @@
 #ifndef _RISCV_IOMMU_H_
 #define _RISCV_IOMMU_H_
 
-#include <linux/iommu.h>
-#include <linux/types.h>
-#include <linux/iopoll.h>
+#include <robux/iommu.h>
+#include <robux/types.h>
+#include <robux/iopoll.h>
 
 #include "iommu-bits.h"
 

@@ -21,10 +21,10 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/poll.h>
-#include <linux/wait.h>
-#include <linux/anon_inodes.h>
-#include <uapi/linux/kfd_ioctl.h>
+#include <robux/poll.h>
+#include <robux/wait.h>
+#include <robux/anon_inodes.h>
+#include <uapi/robux/kfd_ioctl.h>
 #include "amdgpu.h"
 #include "amdgpu_vm.h"
 #include "kfd_priv.h"

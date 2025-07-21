@@ -45,23 +45,23 @@
  * - <soc>_nand_: all SoC specific structures/functions
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/genalloc.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/atmel-matrix.h>
-#include <linux/mfd/syscon/atmel-smc.h>
-#include <linux/module.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/iopoll.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/genalloc.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mfd/syscon/atmel-matrix.h>
+#include <robux/mfd/syscon/atmel-smc.h>
+#include <robux/module.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/iopoll.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 #include <soc/at91/atmel-sfr.h>
 
 #include "pmecc.h"

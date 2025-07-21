@@ -8,13 +8,13 @@
  *  Boris Brezillon <boris.brezillon@free-electrons.com>
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <robux/gpio/driver.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
 
 #define CDNS_GPIO_BYPASS_MODE		0x00
 #define CDNS_GPIO_DIRECTION_MODE	0x04

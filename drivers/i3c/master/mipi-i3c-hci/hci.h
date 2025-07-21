@@ -10,7 +10,7 @@
 #ifndef HCI_H
 #define HCI_H
 
-#include <linux/io.h>
+#include <robux/io.h>
 
 /* Handy logging macro to save on line length */
 #define DBG(x, ...) pr_devel("%s: " x "\n", __func__, ##__VA_ARGS__)

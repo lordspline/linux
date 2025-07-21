@@ -7,13 +7,13 @@
  * Author: Jon Ringle <jringle@gridpoint.com>
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 
 #include "encx24j600_hw.h"
 

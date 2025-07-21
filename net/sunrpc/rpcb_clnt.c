@@ -13,23 +13,23 @@
  *  Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/un.h>
-#include <linux/in.h>
-#include <linux/in6.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <robux/types.h>
+#include <robux/socket.h>
+#include <robux/un.h>
+#include <robux/in.h>
+#include <robux/in6.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
 #include <net/ipv6.h>
 
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/sunrpc/sched.h>
-#include <linux/sunrpc/xprtsock.h>
+#include <robux/sunrpc/clnt.h>
+#include <robux/sunrpc/addr.h>
+#include <robux/sunrpc/sched.h>
+#include <robux/sunrpc/xprtsock.h>
 
 #include <trace/events/sunrpc.h>
 
@@ -953,7 +953,7 @@ out_fail:
 
 /*
  * Not all rpcbind procedures described in RFC 1833 are implemented
- * since the Linux kernel RPC code requires only these.
+ * since the Robux kernel RPC code requires only these.
  */
 
 static const struct rpc_procinfo rpcb_procedures2[] = {

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2015, Sony Mobile Communications Inc.
- * Copyright (c) 2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/rpmsg.h>
+#include <robux/module.h>
+#include <robux/skbuff.h>
+#include <robux/rpmsg.h>
 
 #include "qrtr.h"
 

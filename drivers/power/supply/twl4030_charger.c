@@ -8,18 +8,18 @@
  * Copyright (C) 2008 Texas Instruments, Inc.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/twl.h>
-#include <linux/power_supply.h>
-#include <linux/notifier.h>
-#include <linux/usb/otg.h>
-#include <linux/iio/consumer.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/twl.h>
+#include <robux/power_supply.h>
+#include <robux/notifier.h>
+#include <robux/usb/otg.h>
+#include <robux/iio/consumer.h>
 
 #define TWL4030_BCIMDEN		0x00
 #define TWL4030_BCIMDKEY	0x01

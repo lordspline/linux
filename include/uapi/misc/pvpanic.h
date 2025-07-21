@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 
 #ifndef __PVPANIC_H__
 #define __PVPANIC_H__
 
-#include <linux/const.h>
+#include <robux/const.h>
 
 #define PVPANIC_PANICKED	_BITUL(0)
 #define PVPANIC_CRASH_LOADED	_BITUL(1)

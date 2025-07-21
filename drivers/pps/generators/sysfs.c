@@ -5,10 +5,10 @@
  * Copyright (C) 2024 Rodolfo Giometti <giometti@enneenne.com>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/pps_gen_kernel.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/pps_gen_kernel.h>
 
 /*
  * Attribute functions

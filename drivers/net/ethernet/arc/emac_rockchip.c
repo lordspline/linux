@@ -5,13 +5,13 @@
  * Copyright (C) 2014 Romain Perier <romain.perier@gmail.com>
  */
 
-#include <linux/etherdevice.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/etherdevice.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of_net.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 #include "emac.h"
 

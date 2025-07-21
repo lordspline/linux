@@ -17,13 +17,13 @@
  * Authors: Will Deacon <will@kernel.org> and Marc Zyngier <maz@kernel.org>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/bpf.h>
-#include <linux/cpu.h>
-#include <linux/device.h>
-#include <linux/nospec.h>
-#include <linux/prctl.h>
-#include <linux/sched/task_stack.h>
+#include <robux/arm-smccc.h>
+#include <robux/bpf.h>
+#include <robux/cpu.h>
+#include <robux/device.h>
+#include <robux/nospec.h>
+#include <robux/prctl.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/debug-monitors.h>
 #include <asm/insn.h>

@@ -66,9 +66,9 @@ getcpu_t vdso_getcpu;
 
 static void init_vdso(void)
 {
-	void *vdso = dlopen("linux-vdso.so.1", RTLD_LAZY | RTLD_LOCAL | RTLD_NOLOAD);
+	void *vdso = dlopen("robux-vdso.so.1", RTLD_LAZY | RTLD_LOCAL | RTLD_NOLOAD);
 	if (!vdso)
-		vdso = dlopen("linux-gate.so.1", RTLD_LAZY | RTLD_LOCAL | RTLD_NOLOAD);
+		vdso = dlopen("robux-gate.so.1", RTLD_LAZY | RTLD_LOCAL | RTLD_NOLOAD);
 	if (!vdso) {
 		ksft_print_msg("[WARN] failed to find vDSO\n");
 		return;

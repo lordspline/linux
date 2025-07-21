@@ -8,13 +8,13 @@
 #ifndef __LINUX_MTD_SPINAND_H
 #define __LINUX_MTD_SPINAND_H
 
-#include <linux/mutex.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/nand.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
+#include <robux/mutex.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/nand.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
 
 /**
  * Standard SPI NAND flash operations

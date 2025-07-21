@@ -4,21 +4,21 @@
  *    Author(s): Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/cpufeature.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/gfp.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/rcupdate.h>
-#include <linux/slab.h>
-#include <linux/swapops.h>
-#include <linux/sysctl.h>
-#include <linux/ksm.h>
-#include <linux/mman.h>
+#include <robux/cpufeature.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/gfp.h>
+#include <robux/mm.h>
+#include <robux/swap.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
+#include <robux/rcupdate.h>
+#include <robux/slab.h>
+#include <robux/swapops.h>
+#include <robux/sysctl.h>
+#include <robux/ksm.h>
+#include <robux/mman.h>
 
 #include <asm/tlbflush.h>
 #include <asm/mmu_context.h>

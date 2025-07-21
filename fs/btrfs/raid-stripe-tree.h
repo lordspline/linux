@@ -6,8 +6,8 @@
 #ifndef BTRFS_RAID_STRIPE_TREE_H
 #define BTRFS_RAID_STRIPE_TREE_H
 
-#include <linux/types.h>
-#include <uapi/linux/btrfs_tree.h>
+#include <robux/types.h>
+#include <uapi/robux/btrfs_tree.h>
 #include "fs.h"
 #include "accessors.h"
 

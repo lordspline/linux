@@ -12,9 +12,9 @@
  *	     Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-/* Linux specific include files */
-#include <linux/device.h>
-#include <linux/slab.h>
+/* Robux specific include files */
+#include <robux/device.h>
+#include <robux/slab.h>
 
 #include "isp.h"
 #include "isph3a.h"

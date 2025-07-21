@@ -5,32 +5,32 @@
  * Copyright 2011-2015 Analog Devices Inc.
  */
 
-#include <linux/interrupt.h>
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/spi/spi.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/units.h>
+#include <robux/interrupt.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/spi/spi.h>
+#include <robux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/units.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/adc/ad_sigma_delta.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/adc/ad_sigma_delta.h>
 
 /* Registers */
 #define AD7192_REG_COMM		0 /* Communications Register (WO, 8-bit) */

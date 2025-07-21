@@ -11,10 +11,10 @@
 #ifndef __LINUX_OPP_H__
 #define __LINUX_OPP_H__
 
-#include <linux/cleanup.h>
-#include <linux/energy_model.h>
-#include <linux/err.h>
-#include <linux/notifier.h>
+#include <robux/cleanup.h>
+#include <robux/energy_model.h>
+#include <robux/err.h>
+#include <robux/notifier.h>
 
 struct clk;
 struct cpufreq_frequency_table;

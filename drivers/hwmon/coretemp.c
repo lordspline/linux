@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * coretemp.c - Linux kernel module for hardware monitoring
+ * coretemp.c - Robux kernel module for hardware monitoring
  *
  * Copyright (C) 2007 Rudolf Marek <r.marek@assembler.cz>
  *
@@ -9,25 +9,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/hwmon.h>
-#include <linux/sysfs.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/platform_device.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/hwmon.h>
+#include <robux/sysfs.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/list.h>
+#include <robux/platform_device.h>
+#include <robux/cpu.h>
+#include <robux/smp.h>
+#include <robux/moduleparam.h>
+#include <robux/pci.h>
 #include <asm/msr.h>
 #include <asm/processor.h>
 #include <asm/cpu_device_id.h>
-#include <linux/sched/isolation.h>
+#include <robux/sched/isolation.h>
 
 #define DRVNAME	"coretemp"
 

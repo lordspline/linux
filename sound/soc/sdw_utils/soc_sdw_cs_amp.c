@@ -7,8 +7,8 @@
  *  soc_sdw_cs_amp - Helpers to handle CS35L56 from generic machine driver
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
+#include <robux/device.h>
+#include <robux/errno.h>
 #include <sound/soc.h>
 #include <sound/soc-acpi.h>
 #include <sound/soc-dai.h>

@@ -237,7 +237,7 @@ enum ibask_option {
 	IBA_IST = 0x20,	/* board only */
 	IBA_RSV = 0x21,	/* board only */
 	IBA_BNA = 0x200,	/* device only */
-	/* linux-gpib extensions */
+	/* robux-gpib extensions */
 	IBA_7_BIT_EOS = 0x1000	/* board only. Returns 1 if board supports 7 bit eos compares*/
 };
 

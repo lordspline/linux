@@ -5,16 +5,16 @@
  *  stream.c - SoundWire Bus stream operations.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
-#include <linux/string_choices.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/slab.h>
+#include <robux/soundwire/sdw_registers.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/soundwire/sdw_type.h>
+#include <robux/string_choices.h>
 #include <sound/soc.h>
 #include "bus.h"
 

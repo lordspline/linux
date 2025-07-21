@@ -8,14 +8,14 @@
  * (raw and hardware decode) are handled separately.
  */
 
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 #include "img-ir.h"
 
 static irqreturn_t img_ir_isr(int irq, void *dev_id)

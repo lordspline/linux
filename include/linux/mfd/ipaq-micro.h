@@ -6,9 +6,9 @@
 #ifndef _MFD_IPAQ_MICRO_H_
 #define _MFD_IPAQ_MICRO_H_
 
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/list.h>
+#include <robux/spinlock.h>
+#include <robux/completion.h>
+#include <robux/list.h>
 
 #define TX_BUF_SIZE	32
 #define RX_BUF_SIZE	16

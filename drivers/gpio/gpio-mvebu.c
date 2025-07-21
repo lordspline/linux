@@ -30,26 +30,26 @@
  *   interrupts.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/machine.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/pwm.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
 
 /*
  * GPIO unit register offsets.
@@ -874,7 +874,7 @@ static int mvebu_pwm_probe(struct platform_device *pdev,
 }
 
 #ifdef CONFIG_DEBUG_FS
-#include <linux/seq_file.h>
+#include <robux/seq_file.h>
 
 static void mvebu_gpio_dbg_show(struct seq_file *s, struct gpio_chip *chip)
 {

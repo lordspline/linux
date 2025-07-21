@@ -5,16 +5,16 @@
  * Copyright (C) 2014  Renesas Electronics Corporation
  * Copyright (C) 2013  Magnus Damm
  */
-#include <linux/cpu_pm.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/smp.h>
-#include <linux/suspend.h>
-#include <linux/threads.h>
+#include <robux/cpu_pm.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/smp.h>
+#include <robux/suspend.h>
+#include <robux/threads.h>
 #include <asm/cacheflush.h>
 #include <asm/cp15.h>
 #include <asm/proc-fns.h>

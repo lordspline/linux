@@ -6,15 +6,15 @@
  *
  */
 
-#include <linux/litex.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/reboot.h>
+#include <robux/litex.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/printk.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/reboot.h>
 
 /* reset register located at the base address */
 #define RESET_REG_OFF           0x00

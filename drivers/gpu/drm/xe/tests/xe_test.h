@@ -6,7 +6,7 @@
 #ifndef _XE_TEST_H_
 #define _XE_TEST_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #if IS_ENABLED(CONFIG_DRM_XE_KUNIT_TEST)
 #include <kunit/test.h>

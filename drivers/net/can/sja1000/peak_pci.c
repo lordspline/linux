@@ -8,17 +8,17 @@
  * Copyright (C) 2001-2006  PEAK System-Technik GmbH
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
-#include <linux/can.h>
-#include <linux/can/dev.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/netdevice.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/io.h>
+#include <robux/i2c.h>
+#include <robux/i2c-algo-bit.h>
+#include <robux/can.h>
+#include <robux/can/dev.h>
 
 #include "sja1000.h"
 

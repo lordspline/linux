@@ -6,16 +6,16 @@
  * Copyright 2024 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/backend.h>
-#include <linux/iio/buffer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/iio/backend.h>
+#include <robux/iio/buffer.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/units.h>
 
 #include "ad3552r.h"
 #include "ad3552r-hs.h"

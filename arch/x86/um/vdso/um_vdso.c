@@ -9,8 +9,8 @@
 /* Disable profiling for userspace code */
 #define DISABLE_BRANCH_PROFILING
 
-#include <linux/time.h>
-#include <linux/getcpu.h>
+#include <robux/time.h>
+#include <robux/getcpu.h>
 #include <asm/unistd.h>
 
 /* workaround for -Wmissing-prototypes warnings */

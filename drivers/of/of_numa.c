@@ -7,10 +7,10 @@
 
 #define pr_fmt(fmt) "OF: NUMA: " fmt
 
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/nodemask.h>
-#include <linux/numa_memblks.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/nodemask.h>
+#include <robux/numa_memblks.h>
 
 #include <asm/numa.h>
 

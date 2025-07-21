@@ -5,8 +5,8 @@
 
 #include "xe_bo.h"
 
-#include <linux/dma-buf.h>
-#include <linux/nospec.h>
+#include <robux/dma-buf.h>
+#include <robux/nospec.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_gem_ttm_helper.h>

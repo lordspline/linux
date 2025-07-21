@@ -1,15 +1,15 @@
 /*
- * linux/fs/nls/nls_koi8-ru.c
+ * robux/fs/nls/nls_koi8-ru.c
  *
  * Charset koi8-ru translation based on charset koi8-u.
  * The Unicode to charset table has only exact mappings.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/nls.h>
-#include <linux/errno.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/nls.h>
+#include <robux/errno.h>
 
 static struct nls_table *p_nls;
 

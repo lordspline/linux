@@ -6,15 +6,15 @@
  * of ex. a LS1021A
  */
 
-#include <linux/fsl/ftm.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/mutex.h>
-#include <linux/counter.h>
-#include <linux/bitfield.h>
-#include <linux/types.h>
+#include <robux/fsl/ftm.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/io.h>
+#include <robux/mutex.h>
+#include <robux/counter.h>
+#include <robux/bitfield.h>
+#include <robux/types.h>
 
 #define FTM_FIELD_UPDATE(ftm, offset, mask, val)			\
 	({								\

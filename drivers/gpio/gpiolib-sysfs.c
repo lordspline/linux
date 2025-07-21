@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kdev_t.h>
-#include <linux/kstrtox.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/srcu.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/idr.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kdev_t.h>
+#include <robux/kstrtox.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/srcu.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
 
-#include <uapi/linux/gpio.h>
+#include <uapi/robux/gpio.h>
 
 #include "gpiolib.h"
 #include "gpiolib-sysfs.h"

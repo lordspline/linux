@@ -9,15 +9,15 @@
  * respective drivers.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/mfd/core.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/dmi.h>
-#include <linux/i2c.h>
-#include <linux/property.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/mfd/core.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/dmi.h>
+#include <robux/i2c.h>
+#include <robux/property.h>
 
 /* PCI BAR for register base address */
 #define MFD_I2C_BAR		0

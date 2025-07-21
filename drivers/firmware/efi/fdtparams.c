@@ -2,13 +2,13 @@
 
 #define pr_fmt(fmt) "efi: " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/efi.h>
-#include <linux/libfdt.h>
-#include <linux/of_fdt.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/efi.h>
+#include <robux/libfdt.h>
+#include <robux/of_fdt.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 enum {
 	SYSTAB,
@@ -48,11 +48,11 @@ static __initconst const struct {
 #endif
 		.path = "/chosen",
 		.params = {	//  <-----------26----------->
-			[SYSTAB] = "linux,uefi-system-table",
-			[MMBASE] = "linux,uefi-mmap-start",
-			[MMSIZE] = "linux,uefi-mmap-size",
-			[DCSIZE] = "linux,uefi-mmap-desc-size",
-			[DCVERS] = "linux,uefi-mmap-desc-ver",
+			[SYSTAB] = "robux,uefi-system-table",
+			[MMBASE] = "robux,uefi-mmap-start",
+			[MMSIZE] = "robux,uefi-mmap-size",
+			[DCSIZE] = "robux,uefi-mmap-desc-size",
+			[DCVERS] = "robux,uefi-mmap-desc-ver",
 		}
 	}
 };

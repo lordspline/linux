@@ -3,12 +3,12 @@
 #ifndef __CPUSET_INTERNAL_H
 #define __CPUSET_INTERNAL_H
 
-#include <linux/cgroup.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/cpuset.h>
-#include <linux/spinlock.h>
-#include <linux/union_find.h>
+#include <robux/cgroup.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/cpuset.h>
+#include <robux/spinlock.h>
+#include <robux/union_find.h>
 
 /* See "Frequency meter" comments, below. */
 

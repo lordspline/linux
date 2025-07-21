@@ -7,13 +7,13 @@
  * Copyright 2012 Freescale Semiconductor, Inc.
  */
 
-#include <linux/device.h>
-#include <linux/mdio-mux.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
+#include <robux/device.h>
+#include <robux/mdio-mux.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_mdio.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
 
 struct mdio_mux_mmioreg_state {
 	void *mux_handle;

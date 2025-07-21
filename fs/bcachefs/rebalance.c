@@ -20,9 +20,9 @@
 #include "super-io.h"
 #include "trace.h"
 
-#include <linux/freezer.h>
-#include <linux/kthread.h>
-#include <linux/sched/cputime.h>
+#include <robux/freezer.h>
+#include <robux/kthread.h>
+#include <robux/sched/cputime.h>
 
 /* bch_extent_rebalance: */
 
@@ -735,7 +735,7 @@ int bch2_rebalance_start(struct bch_fs *c)
 }
 
 #ifdef CONFIG_POWER_SUPPLY
-#include <linux/power_supply.h>
+#include <robux/power_supply.h>
 
 static int bch2_rebalance_power_notifier(struct notifier_block *nb,
 					 unsigned long event, void *data)

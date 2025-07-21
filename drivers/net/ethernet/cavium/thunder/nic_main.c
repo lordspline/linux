@@ -3,12 +3,12 @@
  * Copyright (C) 2015 Cavium, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/etherdevice.h>
-#include <linux/of.h>
-#include <linux/if_vlan.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/etherdevice.h>
+#include <robux/of.h>
+#include <robux/if_vlan.h>
 
 #include "nic_reg.h"
 #include "nic.h"

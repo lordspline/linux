@@ -6,16 +6,16 @@
  * Copyright 2024 Ideas on Board Oy
  */
 
-#include <linux/array_size.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mfd/adp5585.h>
-#include <linux/mfd/core.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/mfd/adp5585.h>
+#include <robux/mfd/core.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 static const struct mfd_cell adp5585_devs[] = {
 	{ .name = "adp5585-gpio", },

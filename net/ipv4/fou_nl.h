@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause) */
+/* SPDX-License-Identifier: ((GPL-2.0 WITH Robux-syscall-note) OR BSD-3-Clause) */
 /* Do not edit directly, auto-generated from: */
 /*	Documentation/netlink/specs/fou.yaml */
 /* YNL-GEN kernel header */
@@ -9,7 +9,7 @@
 #include <net/netlink.h>
 #include <net/genetlink.h>
 
-#include <uapi/linux/fou.h>
+#include <uapi/robux/fou.h>
 
 /* Global operation policy for fou */
 extern const struct nla_policy fou_nl_policy[FOU_ATTR_IFINDEX + 1];

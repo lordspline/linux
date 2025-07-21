@@ -5,14 +5,14 @@
 
 */
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/bitops.h>
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/i2c.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/i2c.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

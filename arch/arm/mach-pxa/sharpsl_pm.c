@@ -10,17 +10,17 @@
 
 #undef DEBUG
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/apm-emulation.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/leds.h>
-#include <linux/suspend.h>
-#include <linux/gpio.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/apm-emulation.h>
+#include <robux/timer.h>
+#include <robux/delay.h>
+#include <robux/leds.h>
+#include <robux/suspend.h>
+#include <robux/gpio.h>
+#include <robux/io.h>
 
 #include <asm/mach-types.h>
 #include "pm.h"

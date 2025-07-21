@@ -4,7 +4,7 @@
  *   This is a driver for the Harmony audio chipset found
  *   on the LASI ASIC of various early HP PA-RISC workstations.
  *
- *   Copyright (C) 2004, Kyle McMartin <kyle@{debian.org,parisc-linux.org}>
+ *   Copyright (C) 2004, Kyle McMartin <kyle@{debian.org,parisc-robux.org}>
  *
  *     Based on the previous Harmony incarnations by,
  *       Copyright 2000 (c) Linuxcare Canada, Alex deVries
@@ -22,16 +22,16 @@
  * TODO:
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/wait.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>
@@ -980,7 +980,7 @@ alsa_harmony_fini(void)
 }
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Kyle McMartin <kyle@parisc-linux.org>");
+MODULE_AUTHOR("Kyle McMartin <kyle@parisc-robux.org>");
 MODULE_DESCRIPTION("Harmony sound driver");
 
 module_init(alsa_harmony_init);

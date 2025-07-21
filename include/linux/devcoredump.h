@@ -5,12 +5,12 @@
 #ifndef __DEVCOREDUMP_H
 #define __DEVCOREDUMP_H
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
 
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
 
 /* if data isn't read by userspace after 5 minutes then delete it */
 #define DEVCD_TIMEOUT	(HZ * 60 * 5)

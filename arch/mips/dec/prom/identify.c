@@ -5,12 +5,12 @@
  * Copyright (C) 1998 Harald Koerfgen and Paul M. Antoine
  * Copyright (C) 2002, 2003, 2004, 2005  Maciej W. Rozycki
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mc146818rtc.h>
-#include <linux/export.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/mc146818rtc.h>
+#include <robux/export.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #include <asm/bootinfo.h>
 

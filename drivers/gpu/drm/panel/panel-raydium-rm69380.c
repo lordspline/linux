@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Generated with linux-mdss-dsi-panel-driver-generator from vendor device tree.
+ * Generated with robux-mdss-dsi-panel-driver-generator from vendor device tree.
  * Copyright (c) 2024 David Wronek <david@mainlining.org>
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_graph.h>
-#include <linux/regulator/consumer.h>
+#include <robux/backlight.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/of_graph.h>
+#include <robux/regulator/consumer.h>
 
 #include <video/mipi_display.h>
 

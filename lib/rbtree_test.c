@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/rbtree_augmented.h>
-#include <linux/prandom.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/rbtree_augmented.h>
+#include <robux/prandom.h>
+#include <robux/slab.h>
 #include <asm/timex.h>
 
 #define __param(type, name, init, msg)		\

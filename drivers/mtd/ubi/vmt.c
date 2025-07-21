@@ -10,10 +10,10 @@
  * resizing.
  */
 
-#include <linux/err.h>
-#include <linux/math64.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <robux/err.h>
+#include <robux/math64.h>
+#include <robux/slab.h>
+#include <robux/export.h>
 #include "ubi.h"
 
 static int self_check_volumes(struct ubi_device *ubi);

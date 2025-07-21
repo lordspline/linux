@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Regulator uapi header
  *
@@ -9,7 +9,7 @@
 #define _UAPI_REGULATOR_H
 
 #ifdef __KERNEL__
-#include <linux/types.h>
+#include <robux/types.h>
 #else
 #include <stdint.h>
 #endif

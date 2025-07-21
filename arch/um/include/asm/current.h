@@ -2,8 +2,8 @@
 #ifndef __ASM_CURRENT_H
 #define __ASM_CURRENT_H
 
-#include <linux/compiler.h>
-#include <linux/threads.h>
+#include <robux/compiler.h>
+#include <robux/threads.h>
 
 #ifndef __ASSEMBLY__
 

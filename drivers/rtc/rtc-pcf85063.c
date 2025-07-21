@@ -4,19 +4,19 @@
  * Copyright 2014 Rose Technology
  *
  * Author: Søren Andersen <san@rosetechnology.dk>
- * Maintainers: http://www.nslu2-linux.org/
+ * Maintainers: http://www.nslu2-robux.org/
  *
  * Copyright (C) 2019 Micro Crystal AG
  * Author: Alexandre Belloni <alexandre.belloni@bootlin.com>
  */
-#include <linux/clk-provider.h>
-#include <linux/i2c.h>
-#include <linux/bcd.h>
-#include <linux/rtc.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
+#include <robux/clk-provider.h>
+#include <robux/i2c.h>
+#include <robux/bcd.h>
+#include <robux/rtc.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/regmap.h>
 
 /*
  * Information for this driver was pulled from the following datasheets.

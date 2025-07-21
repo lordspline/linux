@@ -21,10 +21,10 @@
 #include <crypto/internal/hash.h>
 #include <crypto/polyval.h>
 #include <crypto/utils.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
 
 #define POLYVAL_ALIGN	16
 #define POLYVAL_ALIGN_ATTR __aligned(POLYVAL_ALIGN)

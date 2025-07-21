@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB */
 /*
  * Copyright (c) 2004 Mellanox Technologies Ltd.  All rights reserved.
  * Copyright (c) 2004 Infinicon Corporation.  All rights reserved.
@@ -12,30 +12,30 @@
 #ifndef IB_VERBS_H
 #define IB_VERBS_H
 
-#include <linux/ethtool.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/rwsem.h>
-#include <linux/workqueue.h>
-#include <linux/irq_poll.h>
-#include <uapi/linux/if_ether.h>
+#include <robux/ethtool.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/rwsem.h>
+#include <robux/workqueue.h>
+#include <robux/irq_poll.h>
+#include <uapi/robux/if_ether.h>
 #include <net/ipv6.h>
 #include <net/ip.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/netdevice.h>
-#include <linux/refcount.h>
-#include <linux/if_link.h>
-#include <linux/atomic.h>
-#include <linux/mmu_notifier.h>
-#include <linux/uaccess.h>
-#include <linux/cgroup_rdma.h>
-#include <linux/irqflags.h>
-#include <linux/preempt.h>
-#include <linux/dim.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/netdevice.h>
+#include <robux/refcount.h>
+#include <robux/if_link.h>
+#include <robux/atomic.h>
+#include <robux/mmu_notifier.h>
+#include <robux/uaccess.h>
+#include <robux/cgroup_rdma.h>
+#include <robux/irqflags.h>
+#include <robux/preempt.h>
+#include <robux/dim.h>
 #include <uapi/rdma/ib_user_verbs.h>
 #include <rdma/rdma_counter.h>
 #include <rdma/restrack.h>
@@ -2685,7 +2685,7 @@ struct ib_device_ops {
 
 	/*
 	 * Provide NUMA node. This API exists for rdmavt/hfi1 only.
-	 * Everyone else relies on Linux memory management model.
+	 * Everyone else relies on Robux memory management model.
 	 */
 	int (*get_numa_node)(struct ib_device *dev);
 

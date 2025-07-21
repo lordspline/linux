@@ -5,19 +5,19 @@
  * Copyright (C) 2010 Marek Vasut <marek.vasut@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/ata.h>
-#include <linux/libata.h>
-#include <linux/platform_device.h>
-#include <linux/dmaengine.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/blkdev.h>
+#include <robux/ata.h>
+#include <robux/libata.h>
+#include <robux/platform_device.h>
+#include <robux/dmaengine.h>
+#include <robux/slab.h>
+#include <robux/completion.h>
 
 #include <scsi/scsi_host.h>
 
-#include <linux/platform_data/ata-pxa.h>
+#include <robux/platform_data/ata-pxa.h>
 
 #define DRV_NAME	"pata_pxa"
 #define DRV_VERSION	"0.1"

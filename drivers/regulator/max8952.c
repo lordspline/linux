@@ -6,18 +6,18 @@
  * MyungJoo Ham <myungjoo.ham@samsung.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/max8952.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/max8952.h>
+#include <robux/gpio/consumer.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/slab.h>
 
 /* Registers */
 enum {

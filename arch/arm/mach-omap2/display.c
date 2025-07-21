@@ -7,21 +7,21 @@
  *	Sumit Semwal
  */
 
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/slab.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/slab.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 
-#include <linux/platform_data/omapdss.h>
+#include <robux/platform_data/omapdss.h>
 #include "omap_hwmod.h"
 #include "omap_device.h"
 #include "common.h"

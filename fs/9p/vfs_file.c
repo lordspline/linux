@@ -6,20 +6,20 @@
  *  Copyright (C) 2002 by Ron Minnich <rminnich@lanl.gov>
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/sched.h>
-#include <linux/file.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/list.h>
-#include <linux/pagemap.h>
-#include <linux/utsname.h>
-#include <linux/uaccess.h>
-#include <linux/uio.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/filelock.h>
+#include <robux/sched.h>
+#include <robux/file.h>
+#include <robux/stat.h>
+#include <robux/string.h>
+#include <robux/list.h>
+#include <robux/pagemap.h>
+#include <robux/utsname.h>
+#include <robux/uaccess.h>
+#include <robux/uio.h>
+#include <robux/slab.h>
 #include <net/9p/9p.h>
 #include <net/9p/client.h>
 

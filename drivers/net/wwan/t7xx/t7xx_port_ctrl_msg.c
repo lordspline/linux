@@ -5,7 +5,7 @@
  *
  * Authors:
  *  Haijun Liu <haijun.liu@mediatek.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@robux.intel.com>
  *  Moises Veleta <moises.veleta@intel.com>
  *
  * Contributors:
@@ -15,13 +15,13 @@
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/kthread.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/kthread.h>
+#include <robux/netdevice.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
 
 #include "t7xx_port.h"
 #include "t7xx_port_proxy.h"

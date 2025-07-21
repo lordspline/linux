@@ -7,21 +7,21 @@
  * Maintainer: Kumar Gala <galak@kernel.crashing.org>
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/reboot.h>
-#include <linux/pci.h>
-#include <linux/kdev_t.h>
-#include <linux/major.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/root_dev.h>
-#include <linux/of_platform.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/reboot.h>
+#include <robux/pci.h>
+#include <robux/kdev_t.h>
+#include <robux/major.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/seq_file.h>
+#include <robux/root_dev.h>
+#include <robux/of_platform.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/time.h>
 #include <asm/io.h>
 #include <asm/machdep.h>

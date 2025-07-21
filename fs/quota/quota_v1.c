@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/quota.h>
-#include <linux/quotaops.h>
-#include <linux/dqblk_v1.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/quota.h>
+#include <robux/quotaops.h>
+#include <robux/dqblk_v1.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
 
 #include <asm/byteorder.h>
 

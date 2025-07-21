@@ -4,26 +4,26 @@
  *
  * Copyright (C) 2013 Texas Instruments
  */
-#include <linux/clk.h>
-#include <linux/davinci_emac.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/of_platform.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/power/smartreflex.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/fixed.h>
+#include <robux/clk.h>
+#include <robux/davinci_emac.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/of_platform.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/host.h>
+#include <robux/power/smartreflex.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/fixed.h>
 
-#include <linux/platform_data/pinctrl-single.h>
-#include <linux/platform_data/hsmmc-omap.h>
-#include <linux/platform_data/iommu-omap.h>
-#include <linux/platform_data/ti-sysc.h>
-#include <linux/platform_data/wkup_m3.h>
-#include <linux/platform_data/asoc-ti-mcbsp.h>
-#include <linux/platform_data/ti-prm.h>
+#include <robux/platform_data/pinctrl-single.h>
+#include <robux/platform_data/hsmmc-omap.h>
+#include <robux/platform_data/iommu-omap.h>
+#include <robux/platform_data/ti-sysc.h>
+#include <robux/platform_data/wkup_m3.h>
+#include <robux/platform_data/asoc-ti-mcbsp.h>
+#include <robux/platform_data/ti-prm.h>
 
 #include "clockdomain.h"
 #include "common.h"

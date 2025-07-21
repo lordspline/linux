@@ -5,7 +5,7 @@
 
 #include <asm/kvm_eiointc.h>
 #include <asm/kvm_vcpu.h>
-#include <linux/count_zeros.h>
+#include <robux/count_zeros.h>
 
 static void eiointc_set_sw_coreisr(struct loongarch_eiointc *s)
 {

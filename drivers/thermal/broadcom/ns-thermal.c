@@ -3,10 +3,10 @@
  * Copyright (C) 2017 Rafał Miłecki <rafal@milecki.pl>
  */
 
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/thermal.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/thermal.h>
 
 #define PVTMON_CONTROL0					0x00
 #define PVTMON_CONTROL0_SEL_MASK			0x0000000e

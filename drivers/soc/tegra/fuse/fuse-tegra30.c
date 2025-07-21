@@ -3,16 +3,16 @@
  * Copyright (c) 2013-2022, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/random.h>
+#include <robux/device.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/nvmem-provider.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/random.h>
 
 #include <soc/tegra/fuse.h>
 

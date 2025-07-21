@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/mutex.h>
+#include <robux/mutex.h>
 
 void rust_helper_mutex_lock(struct mutex *lock)
 {

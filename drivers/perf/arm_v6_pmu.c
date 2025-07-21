@@ -34,9 +34,9 @@
 #include <asm/cputype.h>
 #include <asm/irq_regs.h>
 
-#include <linux/of.h>
-#include <linux/perf/arm_pmu.h>
-#include <linux/platform_device.h>
+#include <robux/of.h>
+#include <robux/perf/arm_pmu.h>
+#include <robux/platform_device.h>
 
 enum armv6_perf_types {
 	ARMV6_PERFCTR_ICACHE_MISS	    = 0x0,

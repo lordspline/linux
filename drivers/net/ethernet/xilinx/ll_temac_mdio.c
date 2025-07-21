@@ -5,16 +5,16 @@
  * Copyright (c) 2009 Secret Lab Technologies, Ltd.
  */
 
-#include <linux/io.h>
-#include <linux/netdevice.h>
-#include <linux/mutex.h>
-#include <linux/phy.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/of_mdio.h>
-#include <linux/platform_data/xilinx-ll-temac.h>
+#include <robux/io.h>
+#include <robux/netdevice.h>
+#include <robux/mutex.h>
+#include <robux/phy.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/of_mdio.h>
+#include <robux/platform_data/xilinx-ll-temac.h>
 
 #include "ll_temac.h"
 

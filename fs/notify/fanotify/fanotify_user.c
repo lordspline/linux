@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/fanotify.h>
-#include <linux/fcntl.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/anon_inodes.h>
-#include <linux/fsnotify_backend.h>
-#include <linux/init.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/poll.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/compat.h>
-#include <linux/sched/signal.h>
-#include <linux/memcontrol.h>
-#include <linux/statfs.h>
-#include <linux/exportfs.h>
+#include <robux/fanotify.h>
+#include <robux/fcntl.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/anon_inodes.h>
+#include <robux/fsnotify_backend.h>
+#include <robux/init.h>
+#include <robux/mount.h>
+#include <robux/namei.h>
+#include <robux/poll.h>
+#include <robux/security.h>
+#include <robux/syscalls.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
+#include <robux/compat.h>
+#include <robux/sched/signal.h>
+#include <robux/memcontrol.h>
+#include <robux/statfs.h>
+#include <robux/exportfs.h>
 
 #include <asm/ioctls.h>
 
@@ -53,7 +53,7 @@ static int fanotify_max_queued_events __read_mostly;
 
 #ifdef CONFIG_SYSCTL
 
-#include <linux/sysctl.h>
+#include <robux/sysctl.h>
 
 static long ft_zero = 0;
 static long ft_int_max = INT_MAX;

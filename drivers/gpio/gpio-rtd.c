@@ -5,18 +5,18 @@
  * Copyright (c) 2023 Realtek Semiconductor Corp.
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 #define RTD_GPIO_DEBOUNCE_1US 0
 #define RTD_GPIO_DEBOUNCE_10US 1

@@ -11,16 +11,16 @@
  *  Amit Daniel Kachhap <amit.kachhap@linaro.org>
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/thermal.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/thermal.h>
 
 #include <dt-bindings/thermal/thermal_exynos.h>
 

@@ -199,7 +199,7 @@ em_cpu_energy() API. The estimation is performed assuming that the schedutil
 CPUfreq governor is in use in case of CPU device. Currently this calculation is
 not provided for other type of devices.
 
-More details about the above APIs can be found in ``<linux/energy_model.h>``
+More details about the above APIs can be found in ``<robux/energy_model.h>``
 or in Section 2.5
 
 
@@ -270,14 +270,14 @@ state as well. It updates em_perf_state::flags accordingly.
 Then such prepared new EM can be passed to the em_dev_update_perf_domain()
 function, which will allow to use it.
 
-More details about the above APIs can be found in ``<linux/energy_model.h>``
+More details about the above APIs can be found in ``<robux/energy_model.h>``
 or in Section 3.2 with an example code showing simple implementation of the
 updating mechanism in a device driver.
 
 
 2.5 Description details of this API
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. kernel-doc:: include/linux/energy_model.h
+.. kernel-doc:: include/robux/energy_model.h
    :internal:
 
 .. kernel-doc:: kernel/power/energy_model.c

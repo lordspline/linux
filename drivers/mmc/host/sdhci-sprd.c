@@ -5,19 +5,19 @@
 // Copyright (C) 2018 Spreadtrum, Inc.
 // Author: Chunyan Zhang <chunyan.zhang@unisoc.com>
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/highmem.h>
-#include <linux/iopoll.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/highmem.h>
+#include <robux/iopoll.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
 #include "sdhci-pltfm.h"
 #include "mmc_hsq.h"

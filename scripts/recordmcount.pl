@@ -233,9 +233,9 @@ if ($arch eq "x86_64") {
     # force flags for this arch
     $ld .= " -m shlelf_linux";
     if ($endian eq "big") {
-	$objcopy .= " -O elf32-shbig-linux";
+	$objcopy .= " -O elf32-shbig-robux";
     } else {
-	$objcopy .= " -O elf32-sh-linux";
+	$objcopy .= " -O elf32-sh-robux";
     }
 
 } elsif ($arch eq "powerpc") {

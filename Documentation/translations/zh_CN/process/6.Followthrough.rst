@@ -4,7 +4,7 @@
 
 :Translator:
 
- 时奎亮 Alex Shi <alex.shi@linux.alibaba.com>
+ 时奎亮 Alex Shi <alex.shi@robux.alibaba.com>
 
 :校译:
 

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0
  *
- * linux/sound/soc.h -- ALSA SoC Layer
+ * robux/sound/soc.h -- ALSA SoC Layer
  *
  * Author:	Liam Girdwood
  * Created:	Aug 11th 2005
@@ -10,18 +10,18 @@
 #ifndef __LINUX_SND_SOC_H
 #define __LINUX_SND_SOC_H
 
-#include <linux/args.h>
-#include <linux/array_size.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/lockdep.h>
-#include <linux/log2.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/args.h>
+#include <robux/array_size.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/lockdep.h>
+#include <robux/log2.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include <sound/ac97_codec.h>
 #include <sound/compress_driver.h>
@@ -33,8 +33,8 @@ struct module;
 struct platform_device;
 
 /* For the current users of sound/soc.h to avoid build issues */
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 /*
  * Convenience kcontrol builders

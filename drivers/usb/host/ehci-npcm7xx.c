@@ -10,15 +10,15 @@
  */
 
 
-#include <linux/dma-mapping.h>
+#include <robux/dma-mapping.h>
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
 
 #include "ehci.h"
 

@@ -3,20 +3,20 @@
  * Copyright (C) 2013 NVIDIA Corporation
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/workqueue.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
+#include <robux/workqueue.h>
 
 #include <drm/display/drm_dp_helper.h>
 #include <drm/display/drm_dp_aux_bus.h>

@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/dec21285.c: PCI functions for DC21285
+ *  robux/arch/arm/kernel/dec21285.c: PCI functions for DC21285
  *
  *  Copyright (C) 1998-2001 Russell King
  *  Copyright (C) 1998-2000 Phil Blundell
  */
-#include <linux/dma-map-ops.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
+#include <robux/dma-map-ops.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
 
 #include <asm/irq.h>
 #include <asm/mach/pci.h>

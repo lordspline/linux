@@ -15,8 +15,8 @@
 
 #if defined(CONFIG_RCU_STALL_COMMON) && defined(CONFIG_RCU_CPU_STALL_NOTIFIER)
 
-#include <linux/notifier.h>
-#include <linux/types.h>
+#include <robux/notifier.h>
+#include <robux/types.h>
 
 int rcu_stall_chain_notifier_register(struct notifier_block *n);
 int rcu_stall_chain_notifier_unregister(struct notifier_block *n);

@@ -13,15 +13,15 @@
  * once after POR. Once enabled, you cannot disable, and vice versa.
  */
 
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/watchdog.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/watchdog.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
 #include <sysdev/fsl_soc.h>
 
 #define WATCHDOG_TIMEOUT 10

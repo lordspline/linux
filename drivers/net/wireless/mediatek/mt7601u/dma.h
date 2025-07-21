@@ -7,8 +7,8 @@
 #ifndef __MT7601U_DMA_H
 #define __MT7601U_DMA_H
 
-#include <linux/unaligned.h>
-#include <linux/skbuff.h>
+#include <robux/unaligned.h>
+#include <robux/skbuff.h>
 
 #define MT_DMA_HDR_LEN			4
 #define MT_RX_INFO_LEN			4

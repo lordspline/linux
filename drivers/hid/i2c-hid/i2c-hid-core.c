@@ -5,7 +5,7 @@
  * Copyright (c) 2012 Ecole Nationale de l'Aviation Civile, France
  * Copyright (c) 2012 Red Hat, Inc
  *
- * This code is partly based on "USB HID support for Linux":
+ * This code is partly based on "USB HID support for Robux":
  *
  *  Copyright (c) 1999 Andreas Gal
  *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
@@ -18,25 +18,25 @@
  * more details.
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/device.h>
-#include <linux/wait.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/list.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/hid.h>
-#include <linux/mutex.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/irq.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/pm.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/device.h>
+#include <robux/wait.h>
+#include <robux/err.h>
+#include <robux/string.h>
+#include <robux/list.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/hid.h>
+#include <robux/mutex.h>
+#include <robux/unaligned.h>
 
 #include <drm/drm_panel.h>
 

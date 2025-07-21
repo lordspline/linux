@@ -6,8 +6,8 @@
  * Author: Jyri Sarha <jsarha@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
 
 #include "cdns-mhdp8546-j721e.h"
 

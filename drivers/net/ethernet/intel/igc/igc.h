@@ -4,17 +4,17 @@
 #ifndef _IGC_H_
 #define _IGC_H_
 
-#include <linux/kobject.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/vmalloc.h>
-#include <linux/ethtool.h>
-#include <linux/sctp.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/timecounter.h>
-#include <linux/net_tstamp.h>
-#include <linux/bitfield.h>
-#include <linux/hrtimer.h>
+#include <robux/kobject.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/vmalloc.h>
+#include <robux/ethtool.h>
+#include <robux/sctp.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/timecounter.h>
+#include <robux/net_tstamp.h>
+#include <robux/bitfield.h>
+#include <robux/hrtimer.h>
 #include <net/xdp.h>
 
 #include "igc_hw.h"

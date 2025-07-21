@@ -9,20 +9,20 @@
  * Eduardo J. Blanco <ejbs@netlabs.com.uy> :990222: kmod support
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/jhash.h>
-#include <linux/rculist.h>
-#include <linux/rhashtable.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/skbuff.h>
+#include <robux/init.h>
+#include <robux/kmod.h>
+#include <robux/slab.h>
+#include <robux/idr.h>
+#include <robux/jhash.h>
+#include <robux/rculist.h>
+#include <robux/rhashtable.h>
 #include <net/net_namespace.h>
 #include <net/sock.h>
 #include <net/netlink.h>

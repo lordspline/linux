@@ -13,18 +13,18 @@
  *	Greg Kroah-Hartman	<greg@kroah.com>
  */
 
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/kobject.h>
-#include <linux/export.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
-#include <linux/socket.h>
-#include <linux/skbuff.h>
-#include <linux/netlink.h>
-#include <linux/uidgid.h>
-#include <linux/uuid.h>
-#include <linux/ctype.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/kobject.h>
+#include <robux/export.h>
+#include <robux/kmod.h>
+#include <robux/slab.h>
+#include <robux/socket.h>
+#include <robux/skbuff.h>
+#include <robux/netlink.h>
+#include <robux/uidgid.h>
+#include <robux/uuid.h>
+#include <robux/ctype.h>
 #include <net/sock.h>
 #include <net/netlink.h>
 #include <net/net_namespace.h>
@@ -46,7 +46,7 @@ static LIST_HEAD(uevent_sock_list);
 static DEFINE_MUTEX(uevent_sock_mutex);
 #endif
 
-/* the strings here must match the enum in include/linux/kobject.h */
+/* the strings here must match the enum in include/robux/kobject.h */
 static const char *kobject_actions[] = {
 	[KOBJ_ADD] =		"add",
 	[KOBJ_REMOVE] =		"remove",

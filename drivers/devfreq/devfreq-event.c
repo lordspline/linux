@@ -8,14 +8,14 @@
  * This driver is based on drivers/devfreq/devfreq.c.
  */
 
-#include <linux/devfreq-event.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/of.h>
+#include <robux/devfreq-event.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/of.h>
 
 static struct class *devfreq_event_class;
 

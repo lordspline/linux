@@ -17,13 +17,13 @@
  * nct7904d     20    12    4     5      8    0xc5
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/hwmon.h>
-#include <linux/watchdog.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
+#include <robux/hwmon.h>
+#include <robux/watchdog.h>
 
 #define VENDOR_ID_REG		0x7A	/* Any bank */
 #define NUVOTON_ID		0x50

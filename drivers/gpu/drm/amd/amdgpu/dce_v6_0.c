@@ -21,7 +21,7 @@
  *
  */
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 #include <drm/drm_edid.h>
 #include <drm/drm_fourcc.h>

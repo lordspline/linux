@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Based on Ocelot Linux port, which is
+ * Based on Ocelot Robux port, which is
  * Copyright 2001 MontaVista Software Inc.
  * Author: jsun@mvista.com or jsun@junsun.net
  *
@@ -14,10 +14,10 @@
  * Author: Wu Zhangjin, wuzhangjin@gmail.com
  */
 
-#include <linux/dma-map-ops.h>
-#include <linux/export.h>
-#include <linux/pci_ids.h>
-#include <linux/string_choices.h>
+#include <robux/dma-map-ops.h>
+#include <robux/export.h>
+#include <robux/pci_ids.h>
+#include <robux/string_choices.h>
 #include <asm/bootinfo.h>
 #include <loongson.h>
 #include <boot_param.h>

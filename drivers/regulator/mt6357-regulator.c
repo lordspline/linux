@@ -9,16 +9,16 @@
 // Based on mt6397-regulator.c
 //
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/mfd/mt6397/core.h>
-#include <linux/mfd/mt6357/registers.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/mt6357-regulator.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/mfd/mt6397/core.h>
+#include <robux/mfd/mt6357/registers.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/mt6357-regulator.h>
+#include <robux/regulator/of_regulator.h>
 
 /*
  * MT6357 regulators' information

@@ -8,10 +8,10 @@
  * Copyright (C) 2003, 2004 Paul Mundt
  * Copyright (C) 2005 Andriy Skulysh
  */
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/io.h>
 #include <mach-dreamcast/mach/dma.h>
 #include <asm/dma.h>
 #include <asm/dma-register.h>

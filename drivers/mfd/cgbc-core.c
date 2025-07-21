@@ -11,13 +11,13 @@
  * Author: Thomas Richard <thomas.richard@bootlin.com>
  */
 
-#include <linux/dmi.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/cgbc.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sysfs.h>
+#include <robux/dmi.h>
+#include <robux/iopoll.h>
+#include <robux/mfd/cgbc.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/sysfs.h>
 
 #define CGBC_IO_SESSION_BASE	0x0E20
 #define CGBC_IO_SESSION_END	0x0E30

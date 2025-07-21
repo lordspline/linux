@@ -7,13 +7,13 @@
  *	Based on code written by Sharp/Lineo for 2.4 kernels
  */
 
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/export.h>
-#include <linux/io.h>
+#include <robux/device.h>
+#include <robux/gpio/driver.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/export.h>
+#include <robux/io.h>
 #include <asm/hardware/scoop.h>
 
 /* PCMCIA to Scoop linkage

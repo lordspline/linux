@@ -34,9 +34,9 @@
  *  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/posix_acl.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/posix_acl.h>
 
 #include "nfsfh.h"
 #include "nfsd.h"

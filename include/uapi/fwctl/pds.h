@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /* Copyright(c) Advanced Micro Devices, Inc */
 
 /*
@@ -8,7 +8,7 @@
 #ifndef _UAPI_FWCTL_PDS_H_
 #define _UAPI_FWCTL_PDS_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /**
  * struct fwctl_info_pds

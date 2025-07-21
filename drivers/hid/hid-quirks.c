@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  HID quirks support for Linux
+ *  HID quirks support for Robux
  *
  *  Copyright (c) 1999 Andreas Gal
  *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
@@ -12,11 +12,11 @@
 /*
  */
 
-#include <linux/hid.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/input/elan-i2c-ids.h>
+#include <robux/hid.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/input/elan-i2c-ids.h>
 
 #include "hid-ids.h"
 

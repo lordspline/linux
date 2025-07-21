@@ -6,13 +6,13 @@
  * DEBUG_SPINLOCK.
  */
 
-#include <linux/spinlock.h>
-#include <linux/nmi.h>
-#include <linux/interrupt.h>
-#include <linux/debug_locks.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/pid.h>
+#include <robux/spinlock.h>
+#include <robux/nmi.h>
+#include <robux/interrupt.h>
+#include <robux/debug_locks.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/pid.h>
 
 void __raw_spin_lock_init(raw_spinlock_t *lock, const char *name,
 			  struct lock_class_key *key, short inner)

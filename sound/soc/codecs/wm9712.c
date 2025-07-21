@@ -6,13 +6,13 @@
  * Author: Liam Girdwood <lrg@slimlogic.co.uk>
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/mfd/wm97xx.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/regmap.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/mfd/wm97xx.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/regmap.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/ac97_codec.h>

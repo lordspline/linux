@@ -8,12 +8,12 @@
  * Copyright (C) 2008 Embedded Alley Solutions, Inc All Rights Reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/media-bus-format.h>
-#include <linux/pm_runtime.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/media-bus-format.h>
+#include <robux/pm_runtime.h>
+#include <robux/spinlock.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

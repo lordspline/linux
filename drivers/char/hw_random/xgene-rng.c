@@ -8,17 +8,17 @@
  *	   Feng Kan <fkan@apm.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/hw_random.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/timer.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/hw_random.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/timer.h>
 
 #define RNG_MAX_DATUM			4
 #define MAX_TRY				100

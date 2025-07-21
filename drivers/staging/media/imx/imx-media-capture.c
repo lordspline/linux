@@ -4,15 +4,15 @@
  *
  * Copyright (c) 2012-2016 Mentor Graphics Inc.
  */
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-event.h>

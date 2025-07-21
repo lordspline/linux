@@ -8,14 +8,14 @@
  * Copyright (C) 2019,2021 Advanced Micro Devices, Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/gfp.h>
-#include <linux/psp.h>
-#include <linux/psp-tee.h>
+#include <robux/bitfield.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/gfp.h>
+#include <robux/psp.h>
+#include <robux/psp-tee.h>
 
 #include "psp-dev.h"
 #include "tee-dev.h"

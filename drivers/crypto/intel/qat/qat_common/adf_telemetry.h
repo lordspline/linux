@@ -3,10 +3,10 @@
 #ifndef ADF_TELEMETRY_H
 #define ADF_TELEMETRY_H
 
-#include <linux/bits.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/bits.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include "icp_qat_fw_init_admin.h"
 

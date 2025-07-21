@@ -5,7 +5,7 @@
  *		kernel's AX.25 protocol layers.
  *
  * Authors:	Andreas Könsgen <ajk@comnets.uni-bremen.de>
- *              Ralf Baechle DL5RB <ralf@linux-mips.org>
+ *              Ralf Baechle DL5RB <ralf@robux-mips.org>
  *
  * Quite a lot of stuff "stolen" by Joerg Reuter from slip.c, written by
  *
@@ -13,29 +13,29 @@
  *		Fred N. van Kempen, <waltje@uwalt.nl.mugnet.org>
  */
 
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/bitops.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/in.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
+#include <robux/bitops.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/in.h>
+#include <robux/tty.h>
+#include <robux/errno.h>
+#include <robux/netdevice.h>
+#include <robux/timer.h>
+#include <robux/slab.h>
 #include <net/ax25.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/rtnetlink.h>
-#include <linux/spinlock.h>
-#include <linux/if_arp.h>
-#include <linux/init.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/semaphore.h>
-#include <linux/refcount.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/rtnetlink.h>
+#include <robux/spinlock.h>
+#include <robux/if_arp.h>
+#include <robux/init.h>
+#include <robux/ip.h>
+#include <robux/tcp.h>
+#include <robux/semaphore.h>
+#include <robux/refcount.h>
 
 /* sixpack priority commands */
 #define SIXP_SEOF		0x40	/* start and end of a 6pack frame */
@@ -951,7 +951,7 @@ sixpack_decode(struct sixpack *sp, const u8 *pre_rbuff, size_t count)
 	}
 }
 
-MODULE_AUTHOR("Ralf Baechle DO1GRB <ralf@linux-mips.org>");
+MODULE_AUTHOR("Ralf Baechle DO1GRB <ralf@robux-mips.org>");
 MODULE_DESCRIPTION("6pack driver for AX.25");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS_LDISC(N_6PACK);

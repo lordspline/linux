@@ -7,28 +7,28 @@
 #define DRV_NAME       "gpio-aggregator"
 #define pr_fmt(fmt)	DRV_NAME ": " fmt
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/configfs.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <robux/bitmap.h>
+#include <robux/bitops.h>
+#include <robux/configfs.h>
+#include <robux/ctype.h>
+#include <robux/delay.h>
+#include <robux/idr.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/lockdep.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/overflow.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/machine.h>
 
 #include "dev-sync-probe.h"
 

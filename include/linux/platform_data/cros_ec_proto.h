@@ -8,12 +8,12 @@
 #ifndef __LINUX_CROS_EC_PROTO_H
 #define __LINUX_CROS_EC_PROTO_H
 
-#include <linux/device.h>
-#include <linux/lockdep_types.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
+#include <robux/device.h>
+#include <robux/lockdep_types.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
 
-#include <linux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_commands.h>
 
 #define CROS_EC_DEV_NAME	"cros_ec"
 #define CROS_EC_DEV_FP_NAME	"cros_fp"

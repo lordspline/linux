@@ -8,10 +8,10 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinctrl.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/pinctrl/pinctrl.h>
 
 #include "pinctrl-sunxi.h"
 

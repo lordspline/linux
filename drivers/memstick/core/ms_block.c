@@ -10,19 +10,19 @@
 #define DRIVER_NAME "ms_block"
 #define pr_fmt(fmt) DRIVER_NAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/blk-mq.h>
-#include <linux/memstick.h>
-#include <linux/idr.h>
-#include <linux/hdreg.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/random.h>
-#include <linux/bitmap.h>
-#include <linux/scatterlist.h>
-#include <linux/jiffies.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
+#include <robux/module.h>
+#include <robux/blk-mq.h>
+#include <robux/memstick.h>
+#include <robux/idr.h>
+#include <robux/hdreg.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/random.h>
+#include <robux/bitmap.h>
+#include <robux/scatterlist.h>
+#include <robux/jiffies.h>
+#include <robux/workqueue.h>
+#include <robux/mutex.h>
 #include "ms_block.h"
 
 static int debug;
@@ -1737,7 +1737,7 @@ static int msb_init_card(struct memstick_dev *card)
 	msb->block_size = msb->page_size * msb->pages_in_block;
 
 	if ((size_t)msb->page_size > PAGE_SIZE) {
-		/* this isn't supported by linux at all, anyway*/
+		/* this isn't supported by robux at all, anyway*/
 		dbg("device page %d size isn't supported", msb->page_size);
 		return -EINVAL;
 	}

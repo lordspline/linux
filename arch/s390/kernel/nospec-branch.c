@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/cpu.h>
 #include <asm/nospec-branch.h>
 
 int nobp = IS_ENABLED(CONFIG_KERNEL_NOBP);

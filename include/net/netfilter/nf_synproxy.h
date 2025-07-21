@@ -2,8 +2,8 @@
 #ifndef _NF_SYNPROXY_SHARED_H
 #define _NF_SYNPROXY_SHARED_H
 
-#include <linux/module.h>
-#include <linux/skbuff.h>
+#include <robux/module.h>
+#include <robux/skbuff.h>
 #include <net/ip6_checksum.h>
 #include <net/ip6_route.h>
 #include <net/tcp.h>

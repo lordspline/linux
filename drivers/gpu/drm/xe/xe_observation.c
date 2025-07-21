@@ -3,8 +3,8 @@
  * Copyright © 2023-2024 Intel Corporation
  */
 
-#include <linux/errno.h>
-#include <linux/sysctl.h>
+#include <robux/errno.h>
+#include <robux/sysctl.h>
 
 #include <uapi/drm/xe_drm.h>
 

@@ -4,16 +4,16 @@
  * Copyright (C) 2014 ARM Limited
  */
 
-#include <linux/ctype.h>
-#include <linux/hrtimer.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/ctype.h>
+#include <robux/hrtimer.h>
+#include <robux/idr.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/perf_event.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #define CCN_NUM_XP_PORTS 2
 #define CCN_NUM_VCS 4

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/mfd/tps65217.h
+ * robux/mfd/tps65217.h
  *
  * Functions to access TPS65217 power management chip.
  *
@@ -10,9 +10,9 @@
 #ifndef __LINUX_MFD_TPS65217_H
 #define __LINUX_MFD_TPS65217_H
 
-#include <linux/i2c.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
+#include <robux/i2c.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
 
 /* TPS chip id list */
 #define TPS65217			0xF0

@@ -4,10 +4,10 @@
  * Copyright (C) 2008 David S. Miller <davem@davemloft.net>
  */
 
-#include <linux/kgdb.h>
-#include <linux/kdebug.h>
-#include <linux/ftrace.h>
-#include <linux/context_tracking.h>
+#include <robux/kgdb.h>
+#include <robux/kdebug.h>
+#include <robux/ftrace.h>
+#include <robux/context_tracking.h>
 
 #include <asm/cacheflush.h>
 #include <asm/kdebug.h>

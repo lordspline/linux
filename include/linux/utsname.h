@@ -3,11 +3,11 @@
 #define _LINUX_UTSNAME_H
 
 
-#include <linux/sched.h>
-#include <linux/nsproxy.h>
-#include <linux/ns_common.h>
-#include <linux/err.h>
-#include <uapi/linux/utsname.h>
+#include <robux/sched.h>
+#include <robux/nsproxy.h>
+#include <robux/ns_common.h>
+#include <robux/err.h>
+#include <uapi/robux/utsname.h>
 
 enum uts_proc {
 	UTS_PROC_ARCH,

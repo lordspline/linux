@@ -7,18 +7,18 @@
  * Based on gpio_keys.c, Copyright 2005 Phil Blundell
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/input/sh_keysc.h>
-#include <linux/bitmap.h>
-#include <linux/pm_runtime.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/input.h>
+#include <robux/input/sh_keysc.h>
+#include <robux/bitmap.h>
+#include <robux/pm_runtime.h>
+#include <robux/io.h>
+#include <robux/slab.h>
 
 static const struct {
 	unsigned char kymd, keyout, keyin;

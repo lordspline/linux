@@ -29,21 +29,21 @@
  *	v0.12 - add hpoj.sourceforge.net ioctls (David Paschal)
  *	v0.13 - alloc space for statusbuf (<status> not on stack);
  *		use usb_alloc_coherent() for read buf & write buf;
- *      none  - Maintained in Linux kernel after v0.13
+ *      none  - Maintained in Robux kernel after v0.13
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/signal.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/lp.h>
-#include <linux/mutex.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched/signal.h>
+#include <robux/signal.h>
+#include <robux/poll.h>
+#include <robux/slab.h>
+#include <robux/lp.h>
+#include <robux/mutex.h>
 #undef DEBUG
-#include <linux/usb.h>
-#include <linux/usb/ch9.h>
-#include <linux/ratelimit.h>
+#include <robux/usb.h>
+#include <robux/usb/ch9.h>
+#include <robux/ratelimit.h>
 
 /*
  * Version Information

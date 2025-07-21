@@ -1,24 +1,24 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- *  linux/drivers/char/serial_core.h
+ *  robux/drivers/char/serial_core.h
  *
  *  Copyright (C) 2000 Deep Blue Solutions Ltd.
  */
 #ifndef LINUX_SERIAL_CORE_H
 #define LINUX_SERIAL_CORE_H
 
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/console.h>
-#include <linux/interrupt.h>
-#include <linux/lockdep.h>
-#include <linux/printk.h>
-#include <linux/spinlock.h>
-#include <linux/sched.h>
-#include <linux/tty.h>
-#include <linux/mutex.h>
-#include <linux/sysrq.h>
-#include <uapi/linux/serial_core.h>
+#include <robux/bitops.h>
+#include <robux/compiler.h>
+#include <robux/console.h>
+#include <robux/interrupt.h>
+#include <robux/lockdep.h>
+#include <robux/printk.h>
+#include <robux/spinlock.h>
+#include <robux/sched.h>
+#include <robux/tty.h>
+#include <robux/mutex.h>
+#include <robux/sysrq.h>
+#include <uapi/robux/serial_core.h>
 
 #ifdef CONFIG_SERIAL_CORE_CONSOLE
 #define uart_console(port) \
@@ -499,7 +499,7 @@ struct uart_port {
 
 	/*
 	 * These flags must be equivalent to the flags defined in
-	 * include/uapi/linux/tty_flags.h which are the userspace definitions
+	 * include/uapi/robux/tty_flags.h which are the userspace definitions
 	 * assigned from the serial_struct flags in uart_set_info()
 	 * [for bit definitions in the UPF_CHANGE_MASK]
 	 *

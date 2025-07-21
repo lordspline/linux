@@ -2,8 +2,8 @@
 #ifndef _LINUX_TIMERQUEUE_TYPES_H
 #define _LINUX_TIMERQUEUE_TYPES_H
 
-#include <linux/rbtree_types.h>
-#include <linux/types.h>
+#include <robux/rbtree_types.h>
+#include <robux/types.h>
 
 struct timerqueue_node {
 	struct rb_node node;

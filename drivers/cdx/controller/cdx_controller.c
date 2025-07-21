@@ -5,11 +5,11 @@
  * Copyright (C) 2022-2023, Advanced Micro Devices, Inc.
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/cdx/cdx_bus.h>
-#include <linux/irqdomain.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/cdx/cdx_bus.h>
+#include <robux/irqdomain.h>
 
 #include "cdx_controller.h"
 #include "../cdx.h"

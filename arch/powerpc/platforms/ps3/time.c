@@ -6,9 +6,9 @@
  *  Copyright 2006 Sony Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
 
 #include <asm/firmware.h>
 #include <asm/lv1call.h>

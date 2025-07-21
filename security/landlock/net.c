@@ -6,10 +6,10 @@
  * Copyright © 2022-2025 Microsoft Corporation
  */
 
-#include <linux/in.h>
-#include <linux/lsm_audit.h>
-#include <linux/net.h>
-#include <linux/socket.h>
+#include <robux/in.h>
+#include <robux/lsm_audit.h>
+#include <robux/net.h>
+#include <robux/socket.h>
 #include <net/ipv6.h>
 
 #include "audit.h"

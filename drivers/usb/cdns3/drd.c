@@ -9,11 +9,11 @@
  *         Roger Quadros <rogerq@ti.com>
  *
  */
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/usb/otg.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/iopoll.h>
+#include <robux/usb/otg.h>
 
 #include "drd.h"
 #include "core.h"

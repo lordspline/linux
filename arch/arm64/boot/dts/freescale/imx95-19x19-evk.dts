@@ -44,7 +44,7 @@
 
 	bt_sco_codec: audio-codec-bt-sco {
 		#sound-dai-cells = <1>;
-		compatible = "linux,bt-sco";
+		compatible = "robux,bt-sco";
 	};
 
 	chosen {
@@ -68,11 +68,11 @@
 		#size-cells = <2>;
 		ranges;
 
-		linux_cma: linux,cma {
+		linux_cma: robux,cma {
 			compatible = "shared-dma-pool";
 			alloc-ranges = <0 0x80000000 0 0x7f000000>;
 			size = <0 0x3c000000>;
-			linux,cma-default;
+			robux,cma-default;
 			reusable;
 		};
 	};

@@ -6,14 +6,14 @@
  *  Copyright (C) 2003 - 2007 Paul Mundt
  */
 
-#include <linux/bcd.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/rtc.h>
-#include <linux/spi/spi.h>
+#include <robux/bcd.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/rtc.h>
+#include <robux/spi/spi.h>
 
 #define	RTC_CMD_READ	0x81		/* Read command */
 #define	RTC_CMD_WRITE	0x80		/* Write command */

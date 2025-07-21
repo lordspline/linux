@@ -6,11 +6,11 @@
  * Original code (C) 2005 Benedikt Spranger <b.spranger@linutronix.de>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/uio_driver.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/uio_driver.h>
 
 #include <asm/io.h>
 

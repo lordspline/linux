@@ -5,12 +5,12 @@
  * Copyright (C) 2007 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/aperture.h>
-#include <linux/kernel.h>
-#include <linux/fb.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/of.h>
+#include <robux/aperture.h>
+#include <robux/kernel.h>
+#include <robux/fb.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/of.h>
 
 #include <asm/io.h>
 

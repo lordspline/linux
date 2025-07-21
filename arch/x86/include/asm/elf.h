@@ -5,7 +5,7 @@
 /*
  * ELF register definitions..
  */
-#include <linux/thread_info.h>
+#include <robux/thread_info.h>
 
 #include <asm/ia32.h>
 #include <asm/ptrace.h>

@@ -5,13 +5,13 @@
  * Copyright 2009-2014 Analog Devices Inc.
  */
 
-#include <linux/crc32.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/crc32.h>
+#include <robux/firmware.h>
+#include <robux/kernel.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include <sound/control.h>
 #include <sound/soc.h>

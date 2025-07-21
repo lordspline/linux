@@ -3,7 +3,7 @@
  * Copyright © 2022 Intel Corporation
  */
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include "gt/intel_gt.h"
 #include "gt/intel_gt_print.h"

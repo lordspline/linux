@@ -7,12 +7,12 @@
  * information to random.c.
  */
 
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/random.h>
+#include <robux/acpi.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/random.h>
 
 ACPI_MODULE_NAME("vmgenid");
 

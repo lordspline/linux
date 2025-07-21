@@ -3,9 +3,9 @@
  * Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/iopoll.h>
-#include <linux/pm_opp.h>
-#include <linux/reset.h>
+#include <robux/iopoll.h>
+#include <robux/pm_opp.h>
+#include <robux/reset.h>
 
 #include "iris_core.h"
 #include "iris_vpu_common.h"

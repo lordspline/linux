@@ -4,10 +4,10 @@
 //
 // Copyright (c) 2005-2007 Mauro Carvalho Chehab <mchehab@kernel.org>
 
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/videodev2.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/videodev2.h>
 #include <media/tuner.h>
 #include "tuner-i2c.h"
 #include "tea5761.h"

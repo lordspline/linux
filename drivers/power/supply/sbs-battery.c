@@ -5,23 +5,23 @@
  * Copyright (c) 2010, NVIDIA Corporation.
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/devm-helpers.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/of.h>
-#include <linux/power/sbs-battery.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/string_choices.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/devm-helpers.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/of.h>
+#include <robux/power/sbs-battery.h>
+#include <robux/power_supply.h>
+#include <robux/slab.h>
+#include <robux/stat.h>
+#include <robux/string_choices.h>
 
 enum {
 	REG_MANUFACTURER_DATA,

@@ -3,11 +3,11 @@
  * Copyright (C) 2019 Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
 #include <drm/drm_atomic_state_helper.h>
 #include <drm/drm_bridge.h>

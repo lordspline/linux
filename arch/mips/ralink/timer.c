@@ -6,16 +6,16 @@
  * Copyright (C) 2013 John Crispin <john@phrozen.org>
 */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/timer.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/timer.h>
+#include <robux/types.h>
 
 #include <asm/mach-ralink/ralink_regs.h>
 

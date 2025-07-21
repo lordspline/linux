@@ -13,15 +13,15 @@
 #define KMSG_COMPONENT "paes_s390"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/atomic.h>
-#include <linux/cpufeature.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
+#include <robux/atomic.h>
+#include <robux/cpufeature.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
 #include <crypto/aes.h>
 #include <crypto/algapi.h>
 #include <crypto/engine.h>

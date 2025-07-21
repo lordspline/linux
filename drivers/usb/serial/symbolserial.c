@@ -7,15 +7,15 @@
  * Copyright (C) 2009 Novell Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/slab.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/tty.h>
+#include <robux/slab.h>
+#include <robux/tty_driver.h>
+#include <robux/tty_flip.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/usb/serial.h>
+#include <robux/uaccess.h>
 
 static const struct usb_device_id id_table[] = {
 	{ USB_DEVICE(0x05e0, 0x0600) },

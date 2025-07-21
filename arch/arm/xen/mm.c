@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/cpu.h>
-#include <linux/dma-direct.h>
-#include <linux/dma-map-ops.h>
-#include <linux/gfp.h>
-#include <linux/highmem.h>
-#include <linux/export.h>
-#include <linux/memblock.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
-#include <linux/swiotlb.h>
+#include <robux/cpu.h>
+#include <robux/dma-direct.h>
+#include <robux/dma-map-ops.h>
+#include <robux/gfp.h>
+#include <robux/highmem.h>
+#include <robux/export.h>
+#include <robux/memblock.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/vmalloc.h>
+#include <robux/swiotlb.h>
 
 #include <xen/xen.h>
 #include <xen/interface/grant_table.h>
@@ -68,7 +68,7 @@ static void dma_cache_maint(struct device *dev, dma_addr_t handle,
 }
 
 /*
- * Dom0 is mapped 1:1, and while the Linux page can span across multiple Xen
+ * Dom0 is mapped 1:1, and while the Robux page can span across multiple Xen
  * pages, it is not possible for it to contain a mix of local and foreign Xen
  * pages.  Calling pfn_valid on a foreign mfn will always return false, so if
  * pfn_valid returns true the pages is local and we can use the native
@@ -100,10 +100,10 @@ bool xen_arch_need_swiotlb(struct device *dev,
 	/*
 	 * The swiotlb buffer should be used if
 	 *	- Xen doesn't have the cache flush hypercall
-	 *	- The Linux page refers to foreign memory
+	 *	- The Robux page refers to foreign memory
 	 *	- The device doesn't support coherent DMA request
 	 *
-	 * The Linux page may be spanned acrros multiple Xen page, although
+	 * The Robux page may be spanned acrros multiple Xen page, although
 	 * it's not possible to have a mix of local and foreign Xen page.
 	 * Furthermore, range_straddles_page_boundary is already checking
 	 * if buffer is physically contiguous in the host RAM.

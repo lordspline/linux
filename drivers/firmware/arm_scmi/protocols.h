@@ -9,20 +9,20 @@
 #ifndef _SCMI_PROTOCOLS_H
 #define _SCMI_PROTOCOLS_H
 
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/hashtable.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/refcount.h>
-#include <linux/scmi_protocol.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/hashtable.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/refcount.h>
+#include <robux/scmi_protocol.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define PROTOCOL_REV_MINOR_MASK	GENMASK(15, 0)
 #define PROTOCOL_REV_MAJOR_MASK	GENMASK(31, 16)

@@ -4,15 +4,15 @@
 #ifndef __NFP_BPF_H__
 #define __NFP_BPF_H__ 1
 
-#include <linux/bitfield.h>
-#include <linux/bpf.h>
-#include <linux/bpf_verifier.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/rhashtable.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <robux/bitfield.h>
+#include <robux/bpf.h>
+#include <robux/bpf_verifier.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/rhashtable.h>
+#include <robux/skbuff.h>
+#include <robux/types.h>
+#include <robux/wait.h>
 
 #include "../ccm.h"
 #include "../nfp_asm.h"

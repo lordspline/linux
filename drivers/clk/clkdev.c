@@ -6,18 +6,18 @@
  *
  * Helper for the clk API to assist looking up a struct clk.
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/mutex.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/string.h>
+#include <robux/mutex.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/of.h>
 
 #include "clk.h"
 

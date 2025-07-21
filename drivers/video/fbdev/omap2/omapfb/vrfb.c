@@ -8,14 +8,14 @@
 
 /*#define DEBUG*/
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/io.h>
+#include <robux/bitops.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
 
 #include <video/omapvrfb.h>
 

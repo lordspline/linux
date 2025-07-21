@@ -2,8 +2,8 @@
 #ifndef __ASM_ARCH_PXA3XX_NAND_H
 #define __ASM_ARCH_PXA3XX_NAND_H
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
 
 /*
  * Current pxa3xx_nand controller has two chip select which both be workable but

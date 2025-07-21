@@ -4,14 +4,14 @@
  * Author: ChiYuan Huang <cy_huang@richtek.com>
  */
 
-#include <linux/bits.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/bits.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define RT5120_REG_INTSTAT	0x1E
 #define RT5120_PWRKEYSTAT_MASK	BIT(7)

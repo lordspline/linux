@@ -8,17 +8,17 @@
 /*
  * This file contains the interrupt handlers for Host mode
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
 
-#include <linux/usb/hcd.h>
-#include <linux/usb/ch11.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/ch11.h>
 
 #include "core.h"
 #include "hcd.h"
@@ -85,7 +85,7 @@ static void dwc2_hc_handle_tt_clear(struct dwc2_hsotg *hsotg,
 		return;
 
 	/*
-	 * The root hub doesn't really have a TT, but Linux thinks it
+	 * The root hub doesn't really have a TT, but Robux thinks it
 	 * does because how could you have a "high speed hub" that
 	 * directly talks directly to low speed devices without a TT?
 	 * It's all lies.  Lies, I tell you.

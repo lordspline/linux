@@ -11,15 +11,15 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/serial_8250.h>
-#include <linux/slab.h>
-#include <linux/usb/ehci_pdriver.h>
-#include <linux/usb/ohci_pdriver.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/etherdevice.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/serial_8250.h>
+#include <robux/slab.h>
+#include <robux/usb/ehci_pdriver.h>
+#include <robux/usb/ohci_pdriver.h>
 
 #include <asm/mach-au1x00/au1000.h>
 #include <asm/mach-au1x00/au1xxx_dbdma.h>

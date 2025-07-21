@@ -4,13 +4,13 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/moduleparam.h>
-#include <linux/time.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/fs.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/moduleparam.h>
+#include <robux/time.h>
+#include <robux/slab.h>
+#include <robux/ioport.h>
+#include <robux/fs.h>
 #include <sound/core.h>
 
 void release_and_free_resource(struct resource *res)
@@ -23,7 +23,7 @@ void release_and_free_resource(struct resource *res)
 EXPORT_SYMBOL(release_and_free_resource);
 
 #ifdef CONFIG_PCI
-#include <linux/pci.h>
+#include <robux/pci.h>
 /**
  * snd_pci_quirk_lookup_id - look up a PCI SSID quirk list
  * @vendor: PCI SSV id

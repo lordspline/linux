@@ -5,16 +5,16 @@
  * Driver is originally developed by Pavel Sokolov <psokolov@synopsys.com>
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/serio.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/serio.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
 
 #define ARC_PS2_PORTS                   2
 

@@ -4,7 +4,7 @@
 #ifndef IPU6_PLATFORM_ISYS_CSI2_REG_H
 #define IPU6_PLATFORM_ISYS_CSI2_REG_H
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 #define CSI_REG_BASE			0x220000
 #define CSI_REG_PORT_BASE(id)		(CSI_REG_BASE + (id) * 0x1000)

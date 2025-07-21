@@ -4,11 +4,11 @@
  */
 
 #include <dt-bindings/firmware/imx/rsrc.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <robux/firmware/imx/sci.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
 
 static struct imx_sc_ipc *imx_sc_soc_ipc_handle;
 

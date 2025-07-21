@@ -5,12 +5,12 @@
  * Copyright 2002 Adam Belay <ambx1@neo.rr.com>
  */
 
-#include <linux/string.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/pnp.h>
+#include <robux/string.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/ctype.h>
+#include <robux/slab.h>
+#include <robux/pnp.h>
 #include "base.h"
 
 static int compare_func(const char *ida, const char *idb)

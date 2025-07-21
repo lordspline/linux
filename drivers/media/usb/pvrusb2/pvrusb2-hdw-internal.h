@@ -18,10 +18,10 @@
 
 */
 
-#include <linux/videodev2.h>
-#include <linux/i2c.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
+#include <robux/videodev2.h>
+#include <robux/i2c.h>
+#include <robux/workqueue.h>
+#include <robux/mutex.h>
 #include "pvrusb2-hdw.h"
 #include "pvrusb2-io.h"
 #include <media/v4l2-device.h>

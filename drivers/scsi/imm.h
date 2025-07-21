@@ -11,7 +11,7 @@
 #ifndef _IMM_H
 #define _IMM_H
 
-#define   IMM_VERSION   "2.05 (for Linux 2.4.0)"
+#define   IMM_VERSION   "2.05 (for Robux 2.4.0)"
 
 /* 
  * 10 Apr 1998 (Good Friday) - Received EN144302 by email from Iomega.
@@ -52,7 +52,7 @@
  * Err.. It appears that imm-2.00 was broken....
  *                                              18Jun98 [ 2.01 ]
  *
- * Patch applied to sync this against the Linux 2.1.x kernel code
+ * Patch applied to sync this against the Robux 2.1.x kernel code
  * Included qboot_zip.sh
  *                                              21Jun98 [ 2.02 ]
  *
@@ -67,16 +67,16 @@
  */
 /* ------ END OF USER CONFIGURABLE PARAMETERS ----- */
 
-#include  <linux/stddef.h>
-#include  <linux/module.h>
-#include  <linux/kernel.h>
-#include  <linux/ioport.h>
-#include  <linux/delay.h>
-#include  <linux/proc_fs.h>
-#include  <linux/stat.h>
-#include  <linux/blkdev.h>
-#include  <linux/sched.h>
-#include  <linux/interrupt.h>
+#include  <robux/stddef.h>
+#include  <robux/module.h>
+#include  <robux/kernel.h>
+#include  <robux/ioport.h>
+#include  <robux/delay.h>
+#include  <robux/proc_fs.h>
+#include  <robux/stat.h>
+#include  <robux/blkdev.h>
+#include  <robux/sched.h>
+#include  <robux/interrupt.h>
 
 #include  <asm/io.h>
 #include  <scsi/scsi_host.h>

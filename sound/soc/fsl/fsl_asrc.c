@@ -6,13 +6,13 @@
 //
 // Author: Nicolin Chen <nicoleotsuka@gmail.com>
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/dma/imx-dma.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/dma/imx-dma.h>
+#include <robux/pm_runtime.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/pcm_params.h>
 

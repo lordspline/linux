@@ -1,5 +1,5 @@
 /*
- * Copyright 2006 Dave Airlie <airlied@linux.ie>
+ * Copyright 2006 Dave Airlie <airlied@robux.ie>
  * Copyright © 2006-2009 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
@@ -26,11 +26,11 @@
  *	Jesse Barnes <jesse.barnes@intel.com>
  */
 
-#include <linux/delay.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <robux/delay.h>
+#include <robux/hdmi.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/string_helpers.h>
 
 #include <drm/display/drm_hdcp_helper.h>
 #include <drm/display/drm_hdmi_helper.h>

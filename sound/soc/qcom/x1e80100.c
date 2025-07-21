@@ -2,9 +2,9 @@
 // Copyright (c) 2023, Linaro Limited
 
 #include <dt-bindings/sound/qcom,q6afe.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/soundwire/sdw.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/soundwire/sdw.h>
 #include <sound/pcm.h>
 #include <sound/jack.h>
 #include <sound/soc.h>

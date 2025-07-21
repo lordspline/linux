@@ -7,7 +7,7 @@
 
 #include <asm/bootparam.h>
 
-#include <linux/numa.h>
+#include <robux/numa.h>
 
 /*
  * Longest parameter of 'acpi=' is 'copy_dsdt', plus an extra '\0'

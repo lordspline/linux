@@ -9,7 +9,7 @@
  * Also based on pwm-samsung.c
  *
  * Description:
- *   This file is the core OMAP support for the generic, Linux
+ *   This file is the core OMAP support for the generic, Robux
  *   PWM driver / controller, using the OMAP's dual-mode timers
  *   with a timer counter that goes up. When it overflows it gets
  *   reloaded with the load value and the pwm output goes up.
@@ -33,19 +33,19 @@
  *	- A fresh cycle is started.
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
 #include <clocksource/timer-ti-dm.h>
-#include <linux/platform_data/dmtimer-omap.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
-#include <linux/time.h>
+#include <robux/platform_data/dmtimer-omap.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/pwm.h>
+#include <robux/slab.h>
+#include <robux/time.h>
 
 #define DM_TIMER_LOAD_MIN 0xfffffffe
 #define DM_TIMER_MAX      0xffffffff

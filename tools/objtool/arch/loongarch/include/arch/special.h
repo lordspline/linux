@@ -12,7 +12,7 @@
 
 /*
  * See more info about struct jump_entry
- * in include/linux/jump_label.h
+ * in include/robux/jump_label.h
  */
 #define JUMP_ENTRY_SIZE		16
 #define JUMP_ORIG_OFFSET	0

@@ -12,26 +12,26 @@
  * Author: Sylwester Nawrocki <s.nawrocki@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/extcon-provider.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/phy/phy-sun4i-usb.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
-#include <linux/usb/of.h>
-#include <linux/workqueue.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/extcon-provider.h>
+#include <robux/gpio/consumer.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/phy/phy-sun4i-usb.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
+#include <robux/spinlock.h>
+#include <robux/usb/of.h>
+#include <robux/workqueue.h>
 
 #define REG_ISCR			0x00
 #define REG_PHYCTL_A10			0x04

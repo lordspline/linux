@@ -9,10 +9,10 @@
 #ifndef __LINUX_MFD_88PM80X_H
 #define __LINUX_MFD_88PM80X_H
 
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/regmap.h>
-#include <linux/atomic.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/regmap.h>
+#include <robux/atomic.h>
 
 enum {
 	CHIP_INVALID = 0,

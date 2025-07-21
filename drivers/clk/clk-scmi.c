@@ -5,13 +5,13 @@
  * Copyright (C) 2018-2024 ARM Ltd.
  */
 
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/scmi_protocol.h>
+#include <robux/bits.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/scmi_protocol.h>
 #include <asm/div64.h>
 
 #define NOT_ATOMIC	false

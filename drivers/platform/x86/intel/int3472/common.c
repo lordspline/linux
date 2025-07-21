@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Author: Dan Scally <djrscally@gmail.com> */
 
-#include <linux/acpi.h>
-#include <linux/platform_data/x86/int3472.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/platform_data/x86/int3472.h>
+#include <robux/slab.h>
 
 union acpi_object *skl_int3472_get_acpi_buffer(struct acpi_device *adev, char *id)
 {

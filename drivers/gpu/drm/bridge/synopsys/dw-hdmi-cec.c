@@ -4,12 +4,12 @@
  *
  * Copyright (C) 2015-2017 Russell King.
  */
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 
 #include <drm/drm_edid.h>
 

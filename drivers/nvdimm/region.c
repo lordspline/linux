@@ -2,11 +2,11 @@
 /*
  * Copyright(c) 2013-2015 Intel Corporation. All rights reserved.
  */
-#include <linux/memregion.h>
-#include <linux/cpumask.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/nd.h>
+#include <robux/memregion.h>
+#include <robux/cpumask.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/nd.h>
 #include "nd-core.h"
 #include "nd.h"
 

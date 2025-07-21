@@ -4,12 +4,12 @@
  *
  * Copyright (C) 2007 FUJITA Tomonori <tomof@acm.org>
  */
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/jiffies.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

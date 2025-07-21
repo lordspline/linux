@@ -7,13 +7,13 @@
  * Author: Johan Hovold <jhovold@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/backlight.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/backlight.h>
+#include <robux/slab.h>
 
-#include <linux/mfd/lm3533.h>
+#include <robux/mfd/lm3533.h>
 
 
 #define LM3533_HVCTRLBANK_COUNT		2

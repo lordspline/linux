@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/error-injection.h>
-#include <linux/kprobes.h>
-#include <linux/uaccess.h>
+#include <robux/error-injection.h>
+#include <robux/kprobes.h>
+#include <robux/uaccess.h>
 
 void override_function_with_return(struct pt_regs *regs)
 {

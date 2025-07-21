@@ -10,16 +10,16 @@
  * Author: Michael Barkowski <michael.barkowski@freescale.com>
  */
 
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/mmc_spi.h>
-#include <linux/mmc/host.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/fsl_devices.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/mmc_spi.h>
+#include <robux/mmc/host.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/fsl_devices.h>
 
 #include <asm/time.h>
 #include <asm/ipic.h>

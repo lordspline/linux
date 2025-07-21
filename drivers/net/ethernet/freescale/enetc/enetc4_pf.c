@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: (GPL-2.0+ OR BSD-3-Clause)
 /* Copyright 2024 NXP */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/of_net.h>
-#include <linux/of_platform.h>
-#include <linux/unaligned.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/of_net.h>
+#include <robux/of_platform.h>
+#include <robux/unaligned.h>
 
 #include "enetc_pf_common.h"
 #include "enetc4_debugfs.h"

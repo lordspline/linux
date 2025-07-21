@@ -6,8 +6,8 @@
 #ifndef _XE_GSC_REGS_H_
 #define _XE_GSC_REGS_H_
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/types.h>
 
 #include "regs/xe_reg_defs.h"
 

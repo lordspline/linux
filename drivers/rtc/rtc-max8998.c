@@ -6,16 +6,16 @@
 // Author: Minkyu Kang <mk7.kang@samsung.com>
 // Author: Joonyoung Shim <jy0922.shim@samsung.com>
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/bcd.h>
-#include <linux/irqdomain.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/max8998.h>
-#include <linux/mfd/max8998-private.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/bcd.h>
+#include <robux/irqdomain.h>
+#include <robux/rtc.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/max8998.h>
+#include <robux/mfd/max8998-private.h>
+#include <robux/delay.h>
 
 #define MAX8998_RTC_SEC			0x00
 #define MAX8998_RTC_MIN			0x01

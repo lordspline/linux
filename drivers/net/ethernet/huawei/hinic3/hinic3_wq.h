@@ -4,7 +4,7 @@
 #ifndef _HINIC3_WQ_H_
 #define _HINIC3_WQ_H_
 
-#include <linux/io.h>
+#include <robux/io.h>
 
 #include "hinic3_queue_common.h"
 

@@ -34,9 +34,9 @@ properties:
       List of GPIOs used as column lines. The gpio specifier for this property
       depends on the gpio controller to which these column lines are connected.
 
-  linux,keymap: true
+  robux,keymap: true
 
-  linux,no-autorepeat:
+  robux,no-autorepeat:
     type: boolean
     description: Do not enable autorepeat feature.
 
@@ -74,7 +74,7 @@ required:
   - compatible
   - row-gpios
   - col-gpios
-  - linux,keymap
+  - robux,keymap
 
 additionalProperties: false
 
@@ -92,7 +92,7 @@ examples:
         col-gpios = <&gpio2 21 0
                      &gpio2 22 0>;
 
-        linux,keymap = <0x0000008B
+        robux,keymap = <0x0000008B
                         0x0100009E
                         0x02000069
                         0x0001006A

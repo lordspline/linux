@@ -15,13 +15,13 @@
  * MAX9271 GMSL serializer.
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-ctrls.h>

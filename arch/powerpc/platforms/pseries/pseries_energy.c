@@ -7,14 +7,14 @@
  * platform energy management capabilities.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/seq_file.h>
+#include <robux/device.h>
+#include <robux/cpu.h>
+#include <robux/of.h>
 #include <asm/cputhreads.h>
 #include <asm/page.h>
 #include <asm/hvcall.h>

@@ -3,20 +3,20 @@
  * Copyright (C) 2005-2006 Micronas USA Inc.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/unistd.h>
-#include <linux/time.h>
-#include <linux/vmalloc.h>
-#include <linux/pagemap.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/videodev2.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/unistd.h>
+#include <robux/time.h>
+#include <robux/vmalloc.h>
+#include <robux/pagemap.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-subdev.h>

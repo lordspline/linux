@@ -5,8 +5,8 @@
  * Copyright (C) 2017 Rockchip Electronics Co., Ltd.
  */
 
-#include <linux/math.h>
-#include <linux/string.h>
+#include <robux/math.h>
+#include <robux/string.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-event.h>

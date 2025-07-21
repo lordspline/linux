@@ -7,8 +7,8 @@
 #include "pvr_rogue_fwif.h"
 #include "pvr_rogue_fwif_shared.h"
 
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
 
 #define PADDING_COMMAND_SIZE sizeof(struct rogue_fwif_ccb_cmd_header)
 

@@ -2,7 +2,7 @@
 #ifndef _LINUX_SCHED_JOBCTL_H
 #define _LINUX_SCHED_JOBCTL_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct task_struct;
 

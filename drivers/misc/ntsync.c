@@ -5,21 +5,21 @@
  * Copyright (C) 2024 Elizabeth Figura <zfigura@codeweavers.com>
  */
 
-#include <linux/anon_inodes.h>
-#include <linux/atomic.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/hrtimer.h>
-#include <linux/ktime.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/overflow.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <uapi/linux/ntsync.h>
+#include <robux/anon_inodes.h>
+#include <robux/atomic.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/hrtimer.h>
+#include <robux/ktime.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/overflow.h>
+#include <robux/sched.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <uapi/robux/ntsync.h>
 
 #define NTSYNC_NAME	"ntsync"
 

@@ -23,8 +23,8 @@
  *
  */
 
-#include <linux/firmware.h>
-#include <linux/pm_runtime.h>
+#include <robux/firmware.h>
+#include <robux/pm_runtime.h>
 
 #include "amdgpu.h"
 #include "amdgpu_gfx.h"

@@ -5,21 +5,21 @@
  * Copyright (C) 2018 Johan Hovold <johan@kernel.org>
  */
 
-#include <linux/errno.h>
-#include <linux/gnss.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sched.h>
-#include <linux/serdev.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <robux/errno.h>
+#include <robux/gnss.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
+#include <robux/sched.h>
+#include <robux/serdev.h>
+#include <robux/slab.h>
+#include <robux/wait.h>
 
 #define SIRF_BOOT_DELAY			500
 #define SIRF_ON_OFF_PULSE_TIME		100

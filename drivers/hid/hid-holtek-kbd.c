@@ -7,10 +7,10 @@
 /*
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/usb.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/module.h>
+#include <robux/usb.h>
 
 #include "hid-ids.h"
 #include "usbhid/usbhid.h"

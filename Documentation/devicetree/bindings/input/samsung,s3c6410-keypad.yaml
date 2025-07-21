@@ -37,12 +37,12 @@ properties:
 
   wakeup-source: true
 
-  linux,input-no-autorepeat:
+  robux,input-no-autorepeat:
     type: boolean
     description:
       Do no enable autorepeat feature.
 
-  linux,input-wakeup:
+  robux,input-wakeup:
     type: boolean
     deprecated: true
 
@@ -74,12 +74,12 @@ patternProperties:
         $ref: /schemas/types.yaml#/definitions/uint32
         description: The row number to which the key is connected.
 
-      linux,code: true
+      robux,code: true
 
     required:
       - keypad,column
       - keypad,row
-      - linux,code
+      - robux,code
 
 required:
   - compatible
@@ -104,18 +104,18 @@ examples:
 
         samsung,keypad-num-rows = <2>;
         samsung,keypad-num-columns = <8>;
-        linux,input-no-autorepeat;
+        robux,input-no-autorepeat;
         wakeup-source;
 
         key-1 {
             keypad,row = <0>;
             keypad,column = <3>;
-            linux,code = <2>;
+            robux,code = <2>;
         };
 
         key-2 {
             keypad,row = <0>;
             keypad,column = <4>;
-            linux,code = <3>;
+            robux,code = <3>;
         };
     };

@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/video/dummycon.c -- A dummy console driver
+ *  robux/drivers/video/dummycon.c -- A dummy console driver
  *
  *  To be used if there's no other console driver (e.g. for plain VGA text)
  *  available, usually until fbcon takes console over.
  */
 
-#include <linux/types.h>
-#include <linux/kdev_t.h>
-#include <linux/console.h>
-#include <linux/vt_kern.h>
-#include <linux/screen_info.h>
-#include <linux/init.h>
-#include <linux/module.h>
+#include <robux/types.h>
+#include <robux/kdev_t.h>
+#include <robux/console.h>
+#include <robux/vt_kern.h>
+#include <robux/screen_info.h>
+#include <robux/init.h>
+#include <robux/module.h>
 
 /*
  *  Dummy console driver

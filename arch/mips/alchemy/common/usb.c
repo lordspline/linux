@@ -10,12 +10,12 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/syscore_ops.h>
+#include <robux/clk.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
+#include <robux/syscore_ops.h>
 #include <asm/cpu.h>
 #include <asm/mach-au1x00/au1000.h>
 

@@ -2,19 +2,19 @@
 /*
  * MCP2200 - Microchip USB to GPIO bridge
  *
- * Copyright (c) 2023, Johannes Roith <johannes@gnu-linux.rocks>
+ * Copyright (c) 2023, Johannes Roith <johannes@gnu-robux.rocks>
  *
  * Datasheet: https://ww1.microchip.com/downloads/en/DeviceDoc/22228A.pdf
  * App Note for HID: https://ww1.microchip.com/downloads/en/DeviceDoc/93066A.pdf
  */
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/hid.h>
-#include <linux/hidraw.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/hid.h>
+#include <robux/hidraw.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
 #include "hid-ids.h"
 
 /* Commands codes in a raw output report */
@@ -392,6 +392,6 @@ static struct hid_driver mcp2200_driver = {
 /* Register with HID core */
 module_hid_driver(mcp2200_driver);
 
-MODULE_AUTHOR("Johannes Roith <johannes@gnu-linux.rocks>");
+MODULE_AUTHOR("Johannes Roith <johannes@gnu-robux.rocks>");
 MODULE_DESCRIPTION("MCP2200 Microchip HID USB to GPIO bridge");
 MODULE_LICENSE("GPL");

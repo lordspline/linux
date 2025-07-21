@@ -8,12 +8,12 @@
  * Copyright (C) 1999-2001 Hewlett-Packard Company
  * Copyright (C) 1999-2001 Grant Grundler
  */
-#include <linux/eisa.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <robux/eisa.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/types.h>
 
 #include <asm/io.h>
 #include <asm/superio.h>

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright IBM Corp. 2020 */
 
-#include <linux/compiler.h>
-#include <linux/getcpu.h>
+#include <robux/compiler.h>
+#include <robux/getcpu.h>
 #include <asm/timex.h>
 #include "vdso.h"
 

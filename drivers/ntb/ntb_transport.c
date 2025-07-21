@@ -42,25 +42,25 @@
  *   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  *   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * PCIe NTB Transport Linux driver
+ * PCIe NTB Transport Robux driver
  *
  * Contact Information:
  * Jon Mason <jon.mason@intel.com>
  */
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include "linux/ntb.h"
-#include "linux/ntb_transport.h"
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
+#include "robux/ntb.h"
+#include "robux/ntb_transport.h"
 
 #define NTB_TRANSPORT_VERSION	4
 #define NTB_TRANSPORT_VER	"4"

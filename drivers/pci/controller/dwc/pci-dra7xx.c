@@ -7,27 +7,27 @@
  * Authors: Kishon Vijay Abraham I <kishon@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_pci.h>
-#include <linux/pci.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/resource.h>
-#include <linux/types.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/gpio/consumer.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_pci.h>
+#include <robux/pci.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/resource.h>
+#include <robux/types.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/gpio/consumer.h>
 
 #include "../../pci.h"
 #include "pcie-designware.h"

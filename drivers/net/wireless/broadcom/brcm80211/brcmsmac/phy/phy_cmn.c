@@ -2,9 +2,9 @@
 /*
  * Copyright (c) 2010 Broadcom Corporation
  */
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
 
 #include <brcm_hw_ids.h>
 #include <chipcommon.h>

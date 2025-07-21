@@ -2,7 +2,7 @@
 #ifndef _ORC_TYPES_H
 #define _ORC_TYPES_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /*
  * The ORC_REG_* registers are base registers which are used to find other

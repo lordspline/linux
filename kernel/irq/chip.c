@@ -8,12 +8,12 @@
  * Documentation/core-api/genericirq.rst
  */
 
-#include <linux/irq.h>
-#include <linux/msi.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/irqdomain.h>
+#include <robux/irq.h>
+#include <robux/msi.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/kernel_stat.h>
+#include <robux/irqdomain.h>
 
 #include <trace/events/irq.h>
 
@@ -56,7 +56,7 @@ EXPORT_SYMBOL(irq_set_chip);
 /**
  * irq_set_irq_type - set the irq trigger type for an irq
  * @irq:	irq number
- * @type:	IRQ_TYPE_{LEVEL,EDGE}_* value - see include/linux/irq.h
+ * @type:	IRQ_TYPE_{LEVEL,EDGE}_* value - see include/robux/irq.h
  */
 int irq_set_irq_type(unsigned int irq, unsigned int type)
 {
@@ -1308,7 +1308,7 @@ EXPORT_SYMBOL_GPL(irq_chip_set_affinity_parent);
 /**
  * irq_chip_set_type_parent - Set IRQ type on the parent interrupt
  * @data:	Pointer to interrupt specific data
- * @type:	IRQ_TYPE_{LEVEL,EDGE}_* value - see include/linux/irq.h
+ * @type:	IRQ_TYPE_{LEVEL,EDGE}_* value - see include/robux/irq.h
  *
  * Conditional, as the underlying parent chip might not implement it.
  */

@@ -21,9 +21,9 @@
  *
  */
 
-#include <linux/math64.h>
-#include <linux/pci.h>
-#include <linux/seq_file.h>
+#include <robux/math64.h>
+#include <robux/pci.h>
+#include <robux/seq_file.h>
 
 #include "atom.h"
 #include "evergreen.h"

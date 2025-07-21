@@ -26,11 +26,11 @@
  * which register to use and which bit in the register to use.
  */
 
-#include <linux/stddef.h>
-#include <linux/sched.h>
-#include <linux/signal.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
+#include <robux/stddef.h>
+#include <robux/sched.h>
+#include <robux/signal.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
 
 #include <asm/immap_cpm2.h>
 #include <asm/io.h>

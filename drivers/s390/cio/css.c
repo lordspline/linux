@@ -11,16 +11,16 @@
 #define KMSG_COMPONENT "cio"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/reboot.h>
-#include <linux/proc_fs.h>
-#include <linux/genalloc.h>
-#include <linux/dma-mapping.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/list.h>
+#include <robux/reboot.h>
+#include <robux/proc_fs.h>
+#include <robux/genalloc.h>
+#include <robux/dma-mapping.h>
 #include <asm/isc.h>
 #include <asm/crw.h>
 

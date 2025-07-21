@@ -6,20 +6,20 @@
 // Copyright (c) 2007 Michel Ludwig (michel.ludwig@gmail.com)
 //       - frontend interface
 
-#include <linux/i2c.h>
+#include <robux/i2c.h>
 #include <asm/div64.h>
-#include <linux/firmware.h>
-#include <linux/videodev2.h>
-#include <linux/delay.h>
+#include <robux/firmware.h>
+#include <robux/videodev2.h>
+#include <robux/delay.h>
 #include <media/tuner.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 #include "tuner-i2c.h"
 #include "xc2028.h"
 #include "xc2028-types.h"
 
-#include <linux/dvb/frontend.h>
+#include <robux/dvb/frontend.h>
 #include <media/dvb_frontend.h>
 
 /* Max transfer size done by I2C transfer functions */

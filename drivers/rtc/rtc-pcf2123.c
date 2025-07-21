@@ -28,19 +28,19 @@
  *};
  */
 
-#include <linux/bcd.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/rtc.h>
-#include <linux/spi/spi.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/bcd.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/rtc.h>
+#include <robux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
 /* REGISTERS */
 #define PCF2123_REG_CTRL1	(0x00)	/* Control Register 1 */

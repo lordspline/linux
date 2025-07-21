@@ -5,12 +5,12 @@
 #if !defined(_TRACE_TCP_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_TCP_H
 
-#include <linux/ipv6.h>
-#include <linux/tcp.h>
-#include <linux/tracepoint.h>
+#include <robux/ipv6.h>
+#include <robux/tcp.h>
+#include <robux/tracepoint.h>
 #include <net/ipv6.h>
 #include <net/tcp.h>
-#include <linux/sock_diag.h>
+#include <robux/sock_diag.h>
 #include <net/rstreason.h>
 
 /*

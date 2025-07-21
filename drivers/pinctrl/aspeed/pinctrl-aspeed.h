@@ -6,11 +6,11 @@
 #ifndef PINCTRL_ASPEED
 #define PINCTRL_ASPEED
 
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/regmap.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/regmap.h>
 
 #include "pinmux-aspeed.h"
 

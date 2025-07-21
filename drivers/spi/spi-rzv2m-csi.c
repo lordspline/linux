@@ -5,18 +5,18 @@
  * Copyright (C) 2023 Renesas Electronics Corporation
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/count_zeros.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/log2.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reset.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/count_zeros.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/log2.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/reset.h>
+#include <robux/spi/spi.h>
+#include <robux/units.h>
 
 /* Registers */
 #define CSI_MODE		0x00	/* CSI mode control */
@@ -643,7 +643,7 @@ static int rzv2m_csi_probe(struct platform_device *pdev)
 
 	/*
 	 * The reset also affects other HW that is not under the control
-	 * of Linux. Therefore, all we can do is make sure the reset is
+	 * of Robux. Therefore, all we can do is make sure the reset is
 	 * deasserted.
 	 */
 	reset_control_deassert(rstc);

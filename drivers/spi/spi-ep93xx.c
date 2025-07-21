@@ -13,22 +13,22 @@
  *     https://www.cirrus.com/en/pubs/manual/EP93xx_Users_Guide_UM1.pdf
  */
 
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/scatterlist.h>
-#include <linux/spi/spi.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-direction.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/bitops.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/platform_device.h>
+#include <robux/sched.h>
+#include <robux/scatterlist.h>
+#include <robux/spi/spi.h>
 
 #define SSPCR0			0x0000
 #define SSPCR0_SPO		BIT(6)

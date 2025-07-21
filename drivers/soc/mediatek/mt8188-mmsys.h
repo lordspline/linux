@@ -3,7 +3,7 @@
 #ifndef __SOC_MEDIATEK_MT8188_MMSYS_H
 #define __SOC_MEDIATEK_MT8188_MMSYS_H
 
-#include <linux/soc/mediatek/mtk-mmsys.h>
+#include <robux/soc/mediatek/mtk-mmsys.h>
 #include <dt-bindings/reset/mt8188-resets.h>
 
 #define MT8188_VDO0_SW0_RST_B				0x190

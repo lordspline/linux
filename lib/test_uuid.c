@@ -3,11 +3,11 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/uuid.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/uuid.h>
 
 struct test_uuid_data {
 	const char *uuid;
@@ -129,6 +129,6 @@ static void __exit test_uuid_exit(void)
 }
 module_exit(test_uuid_exit);
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@robux.intel.com>");
 MODULE_DESCRIPTION("Test cases for lib/uuid.c module");
 MODULE_LICENSE("Dual BSD/GPL");

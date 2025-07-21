@@ -6,16 +6,16 @@
  * based on exynos_drm_drv.c
  */
 
-#include <linux/aperture.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/of_platform.h>
-#include <linux/component.h>
-#include <linux/console.h>
-#include <linux/iommu.h>
+#include <robux/aperture.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/module.h>
+#include <robux/of_graph.h>
+#include <robux/of_platform.h>
+#include <robux/component.h>
+#include <robux/console.h>
+#include <robux/iommu.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_drv.h>

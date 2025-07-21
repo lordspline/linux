@@ -9,15 +9,15 @@
  *	Copyright (C) 1997, 1998 Martin Mares <mj@atrey.karlin.mff.cuni.cz>
  */
 
-#include <linux/types.h>
-#include <linux/zorro.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/export.h>
+#include <robux/types.h>
+#include <robux/zorro.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/init.h>
+#include <robux/export.h>
 
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/amigahw.h>
 #include <asm/setup.h>
 

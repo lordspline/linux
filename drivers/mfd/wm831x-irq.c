@@ -7,20 +7,20 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/mfd/core.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/irq.h>
+#include <robux/mfd/core.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
 
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/pdata.h>
-#include <linux/mfd/wm831x/gpio.h>
-#include <linux/mfd/wm831x/irq.h>
+#include <robux/mfd/wm831x/core.h>
+#include <robux/mfd/wm831x/pdata.h>
+#include <robux/mfd/wm831x/gpio.h>
+#include <robux/mfd/wm831x/irq.h>
 
-#include <linux/delay.h>
+#include <robux/delay.h>
 
 struct wm831x_irq_data {
 	int primary;

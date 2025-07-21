@@ -7,22 +7,22 @@
  *  Copyright (C) 2021 Oracle.
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/gfp_types.h>
-#include <linux/io.h>
-#include <linux/kexec.h>
-#include <linux/kstrtox.h>
-#include <linux/limits.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/panic_notifier.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/spinlock.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/gfp_types.h>
+#include <robux/io.h>
+#include <robux/kexec.h>
+#include <robux/kstrtox.h>
+#include <robux/limits.h>
+#include <robux/list.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/panic_notifier.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/spinlock.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 #include <uapi/misc/pvpanic.h>
 

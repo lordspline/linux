@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/export.h>
-#include <linux/suspend.h>
-#include <linux/bcd.h>
-#include <linux/acpi.h>
-#include <linux/uaccess.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/export.h>
+#include <robux/suspend.h>
+#include <robux/bcd.h>
+#include <robux/acpi.h>
+#include <robux/uaccess.h>
 
 #include "sleep.h"
 #include "internal.h"

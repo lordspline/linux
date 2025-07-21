@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  it87.c - Part of lm_sensors, Linux kernel modules for hardware
+ *  it87.c - Part of lm_sensors, Robux kernel modules for hardware
  *           monitoring.
  *
  *  The IT8705F is an LPC-based Super I/O part that contains UARTs, a
@@ -43,22 +43,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon-vid.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/string.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/platform_device.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/hwmon-vid.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/sysfs.h>
+#include <robux/string.h>
+#include <robux/dmi.h>
+#include <robux/acpi.h>
+#include <robux/io.h>
 
 #define DRVNAME "it87"
 

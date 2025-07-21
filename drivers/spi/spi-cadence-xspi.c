@@ -2,25 +2,25 @@
 // Cadence XSPI flash controller driver
 // Copyright (C) 2020-21 Cadence
 
-#include <linux/acpi.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/bitfield.h>
-#include <linux/limits.h>
-#include <linux/log2.h>
-#include <linux/bitrev.h>
+#include <robux/acpi.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
+#include <robux/bitfield.h>
+#include <robux/limits.h>
+#include <robux/log2.h>
+#include <robux/bitrev.h>
 
 #define CDNS_XSPI_MAGIC_NUM_VALUE	0x6522
 #define CDNS_XSPI_MAX_BANKS		8

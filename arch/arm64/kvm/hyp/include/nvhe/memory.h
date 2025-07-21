@@ -5,7 +5,7 @@
 #include <asm/kvm_mmu.h>
 #include <asm/page.h>
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /*
  * Bits 0-1 are used to encode the memory ownership state of each page from the

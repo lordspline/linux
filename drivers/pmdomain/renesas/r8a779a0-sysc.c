@@ -5,7 +5,7 @@
  * Copyright (C) 2020 Renesas Electronics Corp.
  */
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 #include <dt-bindings/power/r8a779a0-sysc.h>
 

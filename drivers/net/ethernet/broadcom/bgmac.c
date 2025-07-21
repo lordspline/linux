@@ -9,12 +9,12 @@
 
 #define pr_fmt(fmt)		KBUILD_MODNAME ": " fmt
 
-#include <linux/bcma/bcma.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/bcm47xx_nvram.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
+#include <robux/bcma/bcma.h>
+#include <robux/etherdevice.h>
+#include <robux/interrupt.h>
+#include <robux/bcm47xx_nvram.h>
+#include <robux/phy.h>
+#include <robux/phy_fixed.h>
 #include <net/dsa.h>
 #include "bgmac.h"
 

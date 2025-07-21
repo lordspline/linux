@@ -5,10 +5,10 @@
  * Author: Patrice Chotard <patrice.chotard@stericsson.com> for ST-Ericsson.
  */
 
-#include <linux/kernel.h>
-#include <linux/pinctrl/pinctrl.h>
+#include <robux/kernel.h>
+#include <robux/pinctrl/pinctrl.h>
 
-#include <linux/mfd/abx500/ab8500.h>
+#include <robux/mfd/abx500/ab8500.h>
 
 #include "pinctrl-abx500.h"
 

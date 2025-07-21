@@ -25,10 +25,10 @@
  | entry points for wm-FPU-emu.                                              |
  +---------------------------------------------------------------------------*/
 
-#include <linux/signal.h>
-#include <linux/regset.h>
+#include <robux/signal.h>
+#include <robux/regset.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/traps.h>
 #include <asm/user.h>
 #include <asm/fpu/api.h>

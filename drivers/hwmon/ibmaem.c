@@ -9,21 +9,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/ipmi.h>
-#include <linux/module.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/kdev_t.h>
-#include <linux/spinlock.h>
-#include <linux/idr.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/platform_device.h>
-#include <linux/math64.h>
-#include <linux/time.h>
-#include <linux/err.h>
+#include <robux/ipmi.h>
+#include <robux/module.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/jiffies.h>
+#include <robux/mutex.h>
+#include <robux/kdev_t.h>
+#include <robux/spinlock.h>
+#include <robux/idr.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/platform_device.h>
+#include <robux/math64.h>
+#include <robux/time.h>
+#include <robux/err.h>
 
 #define REFRESH_INTERVAL	(HZ)
 #define IPMI_TIMEOUT		(30 * HZ)

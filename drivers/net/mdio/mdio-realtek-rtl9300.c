@@ -8,19 +8,19 @@
  * ethernet-ports property.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/bits.h>
-#include <linux/find.h>
-#include <linux/mdio.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/bits.h>
+#include <robux/find.h>
+#include <robux/mdio.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/of_mdio.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 
 #define SMI_GLB_CTRL			0xca00
 #define   GLB_CTRL_INTF_SEL(intf)	BIT(16 + (intf))

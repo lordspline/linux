@@ -7,14 +7,14 @@
  * Decoupler IP Core.
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/fpga/fpga-bridge.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/fpga/fpga-bridge.h>
 
 #define CTRL_CMD_DECOUPLE	BIT(0)
 #define CTRL_CMD_COUPLE		0

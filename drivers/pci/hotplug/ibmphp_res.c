@@ -13,11 +13,11 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/list.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/list.h>
+#include <robux/init.h>
 #include "ibmphp.h"
 
 static int flags = 0;		/* for testing */

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/static_call.h>
-#include <linux/memory.h>
-#include <linux/bug.h>
+#include <robux/static_call.h>
+#include <robux/memory.h>
+#include <robux/bug.h>
 #include <asm/text-patching.h>
 
 enum insn_type {

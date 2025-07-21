@@ -8,10 +8,10 @@
  * Ramalingam C <ramalingam.c@intel.com>
  */
 
-#include <linux/component.h>
-#include <linux/debugfs.h>
-#include <linux/i2c.h>
-#include <linux/random.h>
+#include <robux/component.h>
+#include <robux/debugfs.h>
+#include <robux/i2c.h>
+#include <robux/random.h>
 
 #include <drm/display/drm_hdcp_helper.h>
 #include <drm/intel/i915_component.h>

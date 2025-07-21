@@ -9,8 +9,8 @@
  * Copyright 2014 Freescale Semiconductor Inc.
  */
 
-#include <linux/of.h>
-#include <linux/pci.h>
+#include <robux/of.h>
+#include <robux/pci.h>
 #include <asm/mpic.h>
 #include <sysdev/fsl_soc.h>
 #include <sysdev/fsl_pci.h>

@@ -5,16 +5,16 @@
  * Antoine Tenart <antoine.tenart@free-electrons.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/usb/chipidea.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/ulpi.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/usb/chipidea.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/ulpi.h>
 
 #include "ci.h"
 

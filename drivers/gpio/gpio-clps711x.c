@@ -5,10 +5,10 @@
  *  Copyright (C) 2012,2013 Alexander Shiyan <shc_work@mail.ru>
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/gpio/driver.h>
+#include <robux/platform_device.h>
 
 static int clps711x_gpio_probe(struct platform_device *pdev)
 {

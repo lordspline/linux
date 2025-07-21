@@ -7,16 +7,16 @@
  * Author: Richard Purdie <rpurdie@openedhand.com>
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/timer.h>
-#include <linux/rwsem.h>
-#include <linux/leds.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/device.h>
+#include <robux/timer.h>
+#include <robux/rwsem.h>
+#include <robux/leds.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
 #include "leds.h"
 
 /*

@@ -6,8 +6,8 @@
 #ifndef __I915_PERF_H__
 #define __I915_PERF_H__
 
-#include <linux/kref.h>
-#include <linux/types.h>
+#include <robux/kref.h>
+#include <robux/types.h>
 
 #include "i915_perf_types.h"
 

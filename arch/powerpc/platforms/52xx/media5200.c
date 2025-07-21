@@ -17,11 +17,11 @@
 
 #undef DEBUG
 
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 #include <asm/time.h>
 #include <asm/machdep.h>
 #include <asm/mpc52xx.h>

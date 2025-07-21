@@ -13,9 +13,9 @@
 #ifndef __KERNEL_RTMUTEX_COMMON_H
 #define __KERNEL_RTMUTEX_COMMON_H
 
-#include <linux/debug_locks.h>
-#include <linux/rtmutex.h>
-#include <linux/sched/wake_q.h>
+#include <robux/debug_locks.h>
+#include <robux/rtmutex.h>
+#include <robux/sched/wake_q.h>
 
 
 /*

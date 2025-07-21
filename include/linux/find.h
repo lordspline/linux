@@ -3,10 +3,10 @@
 #define __LINUX_FIND_H_
 
 #ifndef __LINUX_BITMAP_H
-#error only <linux/bitmap.h> can be included directly
+#error only <robux/bitmap.h> can be included directly
 #endif
 
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 
 unsigned long _find_next_bit(const unsigned long *addr1, unsigned long nbits,
 				unsigned long start);

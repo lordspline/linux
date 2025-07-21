@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2024 Intel Corporation */
-#include <linux/dev_printk.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/types.h>
-#include <linux/qat/qat_mig_dev.h>
+#include <robux/dev_printk.h>
+#include <robux/export.h>
+#include <robux/pci.h>
+#include <robux/types.h>
+#include <robux/qat/qat_mig_dev.h>
 #include "adf_accel_devices.h"
 #include "adf_common_drv.h"
 

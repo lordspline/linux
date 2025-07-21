@@ -6,16 +6,16 @@
  * Copyright (C) 2016-17 Renesas Electronics Corporation
  * Copyright (C) 2016-17 Jacopo Mondi
  */
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/unaligned.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spi/spi.h>
+#include <robux/unaligned.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/driver.h>
 
 /*
  * LSB is the ADC single digital step

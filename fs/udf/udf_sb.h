@@ -2,9 +2,9 @@
 #ifndef __LINUX_UDF_SB_H
 #define __LINUX_UDF_SB_H
 
-#include <linux/mutex.h>
-#include <linux/bitops.h>
-#include <linux/magic.h>
+#include <robux/mutex.h>
+#include <robux/bitops.h>
+#include <robux/magic.h>
 
 /*
  * Even UDF 2.6 media should have version <= 0x250 but apparently there are

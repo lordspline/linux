@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Converted from tools/testing/selftests/bpf/verifier/spill_fill.c */
 
-#include <linux/bpf.h>
+#include <robux/bpf.h>
 #include <bpf/bpf_helpers.h>
 #include "bpf_misc.h"
-#include <../../../tools/include/linux/filter.h>
+#include <../../../tools/include/robux/filter.h>
 
 struct {
 	__uint(type, BPF_MAP_TYPE_RINGBUF);

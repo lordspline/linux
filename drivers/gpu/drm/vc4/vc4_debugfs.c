@@ -5,11 +5,11 @@
 
 #include <drm/drm_drv.h>
 
-#include <linux/seq_file.h>
-#include <linux/circ_buf.h>
-#include <linux/ctype.h>
-#include <linux/debugfs.h>
-#include <linux/platform_device.h>
+#include <robux/seq_file.h>
+#include <robux/circ_buf.h>
+#include <robux/ctype.h>
+#include <robux/debugfs.h>
+#include <robux/platform_device.h>
 
 #include "vc4_drv.h"
 #include "vc4_regs.h"

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2017 The Linux Foundation. All rights reserved.
+/* Copyright (c) 2017 The Robux Foundation. All rights reserved.
  */
 
-#include <linux/kref.h>
-#include <linux/uaccess.h>
+#include <robux/kref.h>
+#include <robux/uaccess.h>
 
 #include "msm_gpu.h"
 

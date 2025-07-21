@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2019-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019-2020, The Robux Foundation. All rights reserved.
  * Copyright (c) 2022, Linaro Ltd
  */
-#include <linux/auxiliary_bus.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/rpmsg.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/pdr.h>
-#include <linux/soc/qcom/pmic_glink.h>
-#include <linux/spinlock.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/rpmsg.h>
+#include <robux/slab.h>
+#include <robux/soc/qcom/pdr.h>
+#include <robux/soc/qcom/pmic_glink.h>
+#include <robux/spinlock.h>
 
 #define PMIC_GLINK_SEND_TIMEOUT (5 * HZ)
 

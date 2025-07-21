@@ -3,7 +3,7 @@
 #ifndef NOUVEAU_SCHED_H
 #define NOUVEAU_SCHED_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include <drm/drm_gpuvm.h>
 #include <drm/gpu_scheduler.h>

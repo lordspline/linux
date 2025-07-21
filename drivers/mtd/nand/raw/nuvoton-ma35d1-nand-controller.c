@@ -2,20 +2,20 @@
 /*
  * Copyright (C) 2024 Nuvoton Technology Corp.
  */
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 /* NFI Registers */
 #define MA35_NFI_REG_DMACTL		0x400

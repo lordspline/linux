@@ -12,9 +12,9 @@
 #include <string.h>
 #include <sys/ioctl.h>
 #include <sys/eventfd.h>
-#include <linux/limits.h>
-#include <linux/vfio.h>
-#include <linux/pci_regs.h>
+#include <robux/limits.h>
+#include <robux/vfio.h>
+#include <robux/pci_regs.h>
 #include <as-layout.h>
 #include <um_malloc.h>
 

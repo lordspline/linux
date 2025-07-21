@@ -31,29 +31,29 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/hardirq.h>
-#include <linux/spinlock.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/percpu.h>
-#include <linux/rcupdate.h>
-#include <linux/mutex.h>
-#include <linux/jiffies.h>
-#include <linux/rculist.h>
-#include <linux/idr.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/acpi_dma.h>
-#include <linux/of_dma.h>
-#include <linux/mempool.h>
-#include <linux/numa.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/device.h>
+#include <robux/dmaengine.h>
+#include <robux/hardirq.h>
+#include <robux/spinlock.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/percpu.h>
+#include <robux/rcupdate.h>
+#include <robux/mutex.h>
+#include <robux/jiffies.h>
+#include <robux/rculist.h>
+#include <robux/idr.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
+#include <robux/acpi_dma.h>
+#include <robux/of_dma.h>
+#include <robux/mempool.h>
+#include <robux/numa.h>
 
 #include "dmaengine.h"
 
@@ -64,7 +64,7 @@ static long dmaengine_ref_count;
 
 /* --- debugfs implementation --- */
 #ifdef CONFIG_DEBUG_FS
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 static struct dentry *rootdir;
 

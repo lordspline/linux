@@ -5,10 +5,10 @@
  * Author: Michal Wilczynski <m.wilczynski@samsung.com>
  */
 
-#include <linux/firmware/thead/thead,th1520-aon.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
+#include <robux/firmware/thead/thead,th1520-aon.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
 
 #include <dt-bindings/power/thead,th1520-power.h>
 

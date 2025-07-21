@@ -3,15 +3,15 @@
  *  Copyright (C) 2015 Texas Instruments Incorporated - http://www.ti.com
  *  Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/of_platform.h>
 
 #define TI_XBAR_DRA7		0
 #define TI_XBAR_AM335X		1

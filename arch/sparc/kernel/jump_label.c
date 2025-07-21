@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/cpu.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
+#include <robux/cpu.h>
 
-#include <linux/jump_label.h>
-#include <linux/memory.h>
+#include <robux/jump_label.h>
+#include <robux/memory.h>
 
 #include <asm/cacheflush.h>
 

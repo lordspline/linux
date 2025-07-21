@@ -9,20 +9,20 @@
  * Copyright:	(C) 2011 Texas Instruments, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/twl6040.h>
-#include <linux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/twl6040.h>
+#include <robux/regulator/consumer.h>
 
 #define VIBRACTRL_MEMBER(reg) ((reg == TWL6040_REG_VIBCTLL) ? 0 : 1)
 #define TWL6040_NUM_SUPPLIES	(2)

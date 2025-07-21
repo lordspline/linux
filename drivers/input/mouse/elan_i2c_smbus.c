@@ -13,10 +13,10 @@
  * Trademarks are the property of their respective owners.
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
 
 #include "elan_i2c.h"
 

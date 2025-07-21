@@ -7,19 +7,19 @@
  * Dave Gerlach <d-gerlach@ti.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc.h>
-#include <linux/suspend.h>
-#include <linux/wkup_m3_ipc.h>
+#include <robux/debugfs.h>
+#include <robux/err.h>
+#include <robux/firmware.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/remoteproc.h>
+#include <robux/suspend.h>
+#include <robux/wkup_m3_ipc.h>
 
 #define AM33XX_CTRL_IPC_REG_COUNT	0x8
 #define AM33XX_CTRL_IPC_REG_OFFSET(m)	(0x4 + 4 * (m))

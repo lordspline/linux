@@ -7,19 +7,19 @@
  * Author: Minghuan Lian <Minghuan.Lian@nxp.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/interrupt.h>
-#include <linux/iommu.h>
-#include <linux/irq.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of_irq.h>
-#include <linux/of_pci.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/msi.h>
+#include <robux/interrupt.h>
+#include <robux/iommu.h>
+#include <robux/irq.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/of_irq.h>
+#include <robux/of_pci.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/spinlock.h>
 
 #define MSI_IRQS_PER_MSIR	32
 #define MSI_MSIR_OFFSET		4

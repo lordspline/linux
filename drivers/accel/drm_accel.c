@@ -6,9 +6,9 @@
  *
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/xarray.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/xarray.h>
 
 #include <drm/drm_accel.h>
 #include <drm/drm_auth.h>

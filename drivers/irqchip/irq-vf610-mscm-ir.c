@@ -19,17 +19,17 @@
  *   variants of Vybrid.
  */
 
-#include <linux/cpu_pm.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/mfd/syscon.h>
+#include <robux/cpu_pm.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/mfd/syscon.h>
 #include <dt-bindings/interrupt-controller/arm-gic.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
+#include <robux/regmap.h>
 
 #define MSCM_CPxNUM		0x4
 

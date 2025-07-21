@@ -5,7 +5,7 @@
  * Copyright IBM Corp. 2024
  *
  * Authors:
- *  Christoph Schlameuss <schlameuss@linux.ibm.com>
+ *  Christoph Schlameuss <schlameuss@robux.ibm.com>
  */
 
 #ifndef SELFTEST_KVM_DEBUG_PRINT_H

@@ -5,10 +5,10 @@
  * Copyright (c) 2015, Intel Corporation
  * Authors: Tadeusz Struk <tadeusz.struk@intel.com>
  */
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/fips.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/err.h>
+#include <robux/fips.h>
 #include <crypto/internal/rsa.h>
 #include "rsapubkey.asn1.h"
 #include "rsaprivkey.asn1.h"

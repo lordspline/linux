@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2023, 2025 Intel Corporation
  */
-#include <linux/dmi.h>
+#include <robux/dmi.h>
 #include "iwl-drv.h"
 #include "iwl-debug.h"
 #include "regulatory.h"

@@ -15,11 +15,11 @@
  * fully comply with IEEE-754 floating point standard.
  */
 
-#include <linux/types.h>
-#include <linux/prctl.h>
-#include <linux/module.h>
+#include <robux/types.h>
+#include <robux/prctl.h>
+#include <robux/module.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/reg.h>
 
 #define FP_EX_BOOKE_E500_SPE

@@ -3,11 +3,11 @@
  * In-kernel vector facility support functions
  *
  * Copyright IBM Corp. 2015
- * Author(s): Hendrik Brueckner <brueckner@linux.vnet.ibm.com>
+ * Author(s): Hendrik Brueckner <brueckner@robux.vnet.ibm.com>
  */
-#include <linux/kernel.h>
-#include <linux/cpu.h>
-#include <linux/sched.h>
+#include <robux/kernel.h>
+#include <robux/cpu.h>
+#include <robux/sched.h>
 #include <asm/fpu.h>
 
 void __kernel_fpu_begin(struct kernel_fpu *state, int flags)

@@ -8,14 +8,14 @@
 #ifndef __PLATFORM_DATA_X86_INT3472_H
 #define __PLATFORM_DATA_X86_INT3472_H
 
-#include <linux/clk-provider.h>
-#include <linux/gpio/machine.h>
-#include <linux/leds.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/types.h>
+#include <robux/clk-provider.h>
+#include <robux/gpio/machine.h>
+#include <robux/leds.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/types.h>
 
-/* FIXME drop this once the I2C_DEV_NAME_FORMAT macro has been added to include/linux/i2c.h */
+/* FIXME drop this once the I2C_DEV_NAME_FORMAT macro has been added to include/robux/i2c.h */
 #ifndef I2C_DEV_NAME_FORMAT
 #define I2C_DEV_NAME_FORMAT					"i2c-%s"
 #endif

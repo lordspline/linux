@@ -8,15 +8,15 @@
 #ifndef _SELINUX_AVC_H_
 #define _SELINUX_AVC_H_
 
-#include <linux/stddef.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/kdev_t.h>
-#include <linux/spinlock.h>
-#include <linux/init.h>
-#include <linux/audit.h>
-#include <linux/lsm_audit.h>
-#include <linux/in6.h>
+#include <robux/stddef.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/kdev_t.h>
+#include <robux/spinlock.h>
+#include <robux/init.h>
+#include <robux/audit.h>
+#include <robux/lsm_audit.h>
+#include <robux/in6.h>
 #include "flask.h"
 #include "av_permissions.h"
 #include "security.h"

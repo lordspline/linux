@@ -6,7 +6,7 @@
 #ifndef __NET_HCI_H
 #define __NET_HCI_H
 
-#include <linux/skbuff.h>
+#include <robux/skbuff.h>
 
 #include <net/nfc/nfc.h>
 

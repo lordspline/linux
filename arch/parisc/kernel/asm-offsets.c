@@ -4,23 +4,23 @@
  * This code generates raw asm output which is post-processed to extract
  * and format the required data.
  *
- *    Copyright (C) 2000-2001 John Marvin <jsm at parisc-linux.org>
+ *    Copyright (C) 2000-2001 John Marvin <jsm at parisc-robux.org>
  *    Copyright (C) 2000 David Huggins-Daines <dhd with pobox.org>
  *    Copyright (C) 2000 Sam Creasey <sammy@sammy.net>
- *    Copyright (C) 2000 Grant Grundler <grundler with parisc-linux.org>
- *    Copyright (C) 2001 Paul Bame <bame at parisc-linux.org>
- *    Copyright (C) 2001 Richard Hirst <rhirst at parisc-linux.org>
- *    Copyright (C) 2002 Randolph Chung <tausq with parisc-linux.org>
- *    Copyright (C) 2003 James Bottomley <jejb at parisc-linux.org>
+ *    Copyright (C) 2000 Grant Grundler <grundler with parisc-robux.org>
+ *    Copyright (C) 2001 Paul Bame <bame at parisc-robux.org>
+ *    Copyright (C) 2001 Richard Hirst <rhirst at parisc-robux.org>
+ *    Copyright (C) 2002 Randolph Chung <tausq with parisc-robux.org>
+ *    Copyright (C) 2003 James Bottomley <jejb at parisc-robux.org>
  */
 
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/thread_info.h>
-#include <linux/ptrace.h>
-#include <linux/hardirq.h>
-#include <linux/kbuild.h>
-#include <linux/pgtable.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/thread_info.h>
+#include <robux/ptrace.h>
+#include <robux/hardirq.h>
+#include <robux/kbuild.h>
+#include <robux/pgtable.h>
 
 #include <asm/assembly.h>
 #include <asm/ptrace.h>
@@ -29,7 +29,7 @@
 #include <uapi/asm/sigcontext.h>
 #include <asm/ucontext.h>
 #include <asm/rt_sigframe.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include "signal32.h"
 
 /* Add FRAME_SIZE to the size x and align it to y. All definitions

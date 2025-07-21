@@ -2,24 +2,24 @@
 /*
  * Copyright IBM Corporation, 2021
  *
- * Author: Mike Rapoport <rppt@linux.ibm.com>
+ * Author: Mike Rapoport <rppt@robux.ibm.com>
  */
 
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/swap.h>
-#include <linux/mount.h>
-#include <linux/memfd.h>
-#include <linux/bitops.h>
-#include <linux/printk.h>
-#include <linux/pagemap.h>
-#include <linux/syscalls.h>
-#include <linux/pseudo_fs.h>
-#include <linux/secretmem.h>
-#include <linux/set_memory.h>
-#include <linux/sched/signal.h>
+#include <robux/mm.h>
+#include <robux/fs.h>
+#include <robux/swap.h>
+#include <robux/mount.h>
+#include <robux/memfd.h>
+#include <robux/bitops.h>
+#include <robux/printk.h>
+#include <robux/pagemap.h>
+#include <robux/syscalls.h>
+#include <robux/pseudo_fs.h>
+#include <robux/secretmem.h>
+#include <robux/set_memory.h>
+#include <robux/sched/signal.h>
 
-#include <uapi/linux/magic.h>
+#include <uapi/robux/magic.h>
 
 #include <asm/tlbflush.h>
 

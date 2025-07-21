@@ -6,9 +6,9 @@
 #ifndef __ASM_NIOS2_SYSCALL_H__
 #define __ASM_NIOS2_SYSCALL_H__
 
-#include <uapi/linux/audit.h>
-#include <linux/err.h>
-#include <linux/sched.h>
+#include <uapi/robux/audit.h>
+#include <robux/err.h>
+#include <robux/sched.h>
 
 static inline int syscall_get_nr(struct task_struct *task, struct pt_regs *regs)
 {

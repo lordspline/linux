@@ -12,10 +12,10 @@
  *     Publication # 58019 Revision: 1.00
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/tpm_svsm.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/tpm_svsm.h>
 
 #include <asm/sev.h>
 

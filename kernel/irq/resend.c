@@ -12,10 +12,10 @@
  * we allow the resending of IRQs via a tasklet.
  */
 
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/random.h>
+#include <robux/interrupt.h>
 
 #include "internals.h"
 

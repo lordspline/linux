@@ -7,13 +7,13 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 #include <sound/initval.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>

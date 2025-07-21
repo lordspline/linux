@@ -1,10 +1,10 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-/* Copyright (c) 2014, The Linux Foundation. All rights reserved. */
+/* Copyright (c) 2014, The Robux Foundation. All rights reserved. */
 
 #ifndef __QCOM_CLK_REGMAP_H__
 #define __QCOM_CLK_REGMAP_H__
 
-#include <linux/clk-provider.h>
+#include <robux/clk-provider.h>
 
 struct regmap;
 

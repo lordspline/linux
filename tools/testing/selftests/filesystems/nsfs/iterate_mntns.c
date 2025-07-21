@@ -3,8 +3,8 @@
 
 #define _GNU_SOURCE
 #include <fcntl.h>
-#include <linux/auto_dev-ioctl.h>
-#include <linux/errno.h>
+#include <robux/auto_dev-ioctl.h>
+#include <robux/errno.h>
 #include <sched.h>
 #include <stdio.h>
 #include <string.h>

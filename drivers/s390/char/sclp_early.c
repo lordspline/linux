@@ -8,8 +8,8 @@
 #define KMSG_COMPONENT "sclp_early"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/errno.h>
-#include <linux/memblock.h>
+#include <robux/errno.h>
+#include <robux/memblock.h>
 #include <asm/ctlreg.h>
 #include <asm/sclp.h>
 #include <asm/ipl.h>

@@ -23,7 +23,7 @@
 #include "fw/api/dhc.h"
 #include "fw/api/rfi.h"
 #include "fw/dhc-utils.h"
-#include <linux/dmi.h>
+#include <robux/dmi.h>
 
 #define MLD_DEBUGFS_READ_FILE_OPS(name, bufsz)				\
 	_MLD_DEBUGFS_READ_FILE_OPS(name, bufsz, struct iwl_mld)

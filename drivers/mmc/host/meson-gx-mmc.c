@@ -5,28 +5,28 @@
  * Copyright (c) 2016 BayLibre, SAS.
  * Author: Kevin Hilman <khilman@baylibre.com>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/dma-mapping.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/interrupt.h>
-#include <linux/bitfield.h>
-#include <linux/pinctrl/consumer.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/iopoll.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/ioport.h>
+#include <robux/dma-mapping.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/sdio.h>
+#include <robux/mmc/slot-gpio.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
+#include <robux/interrupt.h>
+#include <robux/bitfield.h>
+#include <robux/pinctrl/consumer.h>
 
 #define DRIVER_NAME "meson-gx-mmc"
 

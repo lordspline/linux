@@ -17,13 +17,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/delay.h>
 
 #include "bttvp.h"
 #include <media/v4l2-common.h>
-#include <linux/jiffies.h>
+#include <robux/jiffies.h>
 #include <asm/io.h>
 
 static int i2c_debug;

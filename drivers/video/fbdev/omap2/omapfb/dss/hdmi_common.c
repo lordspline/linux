@@ -2,9 +2,9 @@
 
 #define DSS_SUBSYS_NAME "HDMI"
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/of.h>
 #include <video/omapfb_dss.h>
 
 #include "hdmi.h"

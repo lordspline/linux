@@ -7,28 +7,28 @@
  * Copyright (C) 2014-2017 Glider bvba
  */
 
-#include <linux/bitmap.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/sh_dma.h>
+#include <robux/bitmap.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/sh_dma.h>
 
-#include <linux/spi/sh_msiof.h>
-#include <linux/spi/spi.h>
+#include <robux/spi/sh_msiof.h>
+#include <robux/spi/spi.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define SH_MSIOF_FLAG_FIXED_DTDL_200	BIT(0)
 

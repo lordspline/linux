@@ -4,7 +4,7 @@
 
     Copyright (C) 1998-2006 Michael Hunold <michael@mihu.de>
 
-    Visit http://www.themm.net/~mihu/linux/saa7146/mxb.html
+    Visit http://www.themm.net/~mihu/robux/saa7146/mxb.html
     for further details about this card.
 
 */
@@ -17,8 +17,8 @@
 #include <media/tuner.h>
 #include <media/v4l2-common.h>
 #include <media/i2c/saa7115.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
 
 #include "tea6415c.h"
 #include "tea6420.h"

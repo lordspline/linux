@@ -10,11 +10,11 @@
 #include <crypto/aes.h>
 #include <crypto/ctr.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
 #include <asm/vio.h>
 
 #include "nx_csbcpb.h"

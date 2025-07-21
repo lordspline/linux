@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/spi/spi.h>
 
 struct rtspi {
 	void __iomem *base;

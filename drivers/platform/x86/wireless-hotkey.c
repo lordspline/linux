@@ -6,12 +6,12 @@
  *  Copyright (C) 2021 Advanced Micro Devices
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/platform_device.h>
+#include <robux/acpi.h>
 #include <acpi/acpi_bus.h>
 
 MODULE_DESCRIPTION("Airplane mode button for AMD, HP & Xiaomi laptops");

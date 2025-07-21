@@ -7,14 +7,14 @@
 
 #include <kunit/resource.h>
 #include <kunit/test.h>
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/cs_dsp_test_utils.h>
-#include <linux/firmware/cirrus/wmfw.h>
-#include <linux/firmware.h>
-#include <linux/math.h>
-#include <linux/overflow.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
+#include <robux/firmware/cirrus/cs_dsp.h>
+#include <robux/firmware/cirrus/cs_dsp_test_utils.h>
+#include <robux/firmware/cirrus/wmfw.h>
+#include <robux/firmware.h>
+#include <robux/math.h>
+#include <robux/overflow.h>
+#include <robux/string.h>
+#include <robux/vmalloc.h>
 
 /* Buffer large enough for bin file content */
 #define CS_DSP_MOCK_WMFW_BUF_SIZE	131072

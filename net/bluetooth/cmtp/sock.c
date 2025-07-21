@@ -1,5 +1,5 @@
 /*
-   CMTP implementation for Linux Bluetooth stack (BlueZ).
+   CMTP implementation for Robux Bluetooth stack (BlueZ).
    Copyright (C) 2002-2003 Marcel Holtmann <marcel@holtmann.org>
 
    This program is free software; you can redistribute it and/or modify
@@ -20,24 +20,24 @@
    SOFTWARE IS DISCLAIMED.
 */
 
-#include <linux/export.h>
+#include <robux/export.h>
 
-#include <linux/types.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/poll.h>
-#include <linux/fcntl.h>
-#include <linux/skbuff.h>
-#include <linux/socket.h>
-#include <linux/ioctl.h>
-#include <linux/file.h>
-#include <linux/compat.h>
-#include <linux/gfp.h>
-#include <linux/uaccess.h>
+#include <robux/types.h>
+#include <robux/capability.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/poll.h>
+#include <robux/fcntl.h>
+#include <robux/skbuff.h>
+#include <robux/socket.h>
+#include <robux/ioctl.h>
+#include <robux/file.h>
+#include <robux/compat.h>
+#include <robux/gfp.h>
+#include <robux/uaccess.h>
 #include <net/sock.h>
 
-#include <linux/isdn/capilli.h>
+#include <robux/isdn/capilli.h>
 
 
 #include "cmtp.h"

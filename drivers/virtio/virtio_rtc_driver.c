@@ -6,15 +6,15 @@
  * Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/virtio.h>
-#include <linux/virtio_config.h>
-#include <linux/virtio_ids.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/virtio.h>
+#include <robux/virtio_config.h>
+#include <robux/virtio_ids.h>
 
-#include <uapi/linux/virtio_rtc.h>
+#include <uapi/robux/virtio_rtc.h>
 
 #include "virtio_rtc_internal.h"
 

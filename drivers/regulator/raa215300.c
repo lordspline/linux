@@ -5,14 +5,14 @@
 // Copyright (C) 2023 Renesas Electronics Corporation
 //
 
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
 #define RAA215300_FAULT_LATCHED_STATUS_1	0x59
 #define RAA215300_FAULT_LATCHED_STATUS_2	0x5a

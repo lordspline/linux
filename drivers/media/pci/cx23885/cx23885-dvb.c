@@ -7,13 +7,13 @@
 
 #include "cx23885.h"
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/kthread.h>
-#include <linux/file.h>
-#include <linux/suspend.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/fs.h>
+#include <robux/kthread.h>
+#include <robux/file.h>
+#include <robux/suspend.h>
 
 #include <media/v4l2-common.h>
 

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0
 /* Copyright (c) 2019-2020 Marvell International Ltd. All rights reserved */
 
-#include <linux/bitfield.h>
-#include <linux/dmapool.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/platform_device.h>
+#include <robux/bitfield.h>
+#include <robux/dmapool.h>
+#include <robux/etherdevice.h>
+#include <robux/if_vlan.h>
+#include <robux/platform_device.h>
 
 #include "prestera_dsa.h"
 #include "prestera.h"

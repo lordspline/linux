@@ -6,12 +6,12 @@
  * (C) 2003 Marc Zyngier <maz@wild-wind.fr.eu.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/eisa.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/eisa.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
 
 #if defined(CONFIG_EISA_VLB_PRIMING)
 #define EISA_FORCE_PROBE_DEFAULT 1

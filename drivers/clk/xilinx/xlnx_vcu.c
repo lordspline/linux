@@ -6,18 +6,18 @@
  *
  * Contacts   Dhaval Shah <dshah@xilinx.com>
  */
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/xlnx-vcu.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mfd/syscon/xlnx-vcu.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include <dt-bindings/clock/xlnx-vcu.h>
 

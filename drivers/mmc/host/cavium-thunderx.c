@@ -7,15 +7,15 @@
  *
  * Copyright (C) 2016 Cavium Inc.
  */
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/mmc/mmc.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/mmc/mmc.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pci.h>
 #include "cavium.h"
 
 static void thunder_mmc_acquire_bus(struct cvm_mmc_host *host)

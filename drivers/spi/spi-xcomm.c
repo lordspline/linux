@@ -6,13 +6,13 @@
  * Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/gpio/driver.h>
-#include <linux/spi/spi.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/gpio/driver.h>
+#include <robux/spi/spi.h>
+#include <robux/unaligned.h>
 
 #define SPI_XCOMM_SETTINGS_LEN_OFFSET		10
 #define SPI_XCOMM_SETTINGS_3WIRE		BIT(6)

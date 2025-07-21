@@ -8,19 +8,19 @@
 // Partially rewritten at 2021 by
 // Matti Vaittinen <matti.vaitinen@fi.rohmeurope.com>
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/driver.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/mfd/rohm-generic.h>
-#include <linux/mfd/rohm-bd71815.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regulator/driver.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/mfd/rohm-generic.h>
+#include <robux/mfd/rohm-bd71815.h>
+#include <robux/regulator/of_regulator.h>
 
 struct bd71815_regulator {
 	struct regulator_desc desc;

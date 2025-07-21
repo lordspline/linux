@@ -7,9 +7,9 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/vgaarb.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/vgaarb.h>
 
 #include <asm/video.h>
 

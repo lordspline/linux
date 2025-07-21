@@ -3,11 +3,11 @@
  * Copyright 2024 Kalray, Inc.  All Rights Reserved.
  */
 
-#include <linux/align.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <robux/align.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/types.h>
+#include <robux/unaligned.h>
 
 #ifndef memset_io
 /**

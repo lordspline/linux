@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/kernel/seccomp.c
+ * robux/kernel/seccomp.c
  *
  * Copyright 2004-2005  Andrea Arcangeli <andrea@cpushare.com>
  *
@@ -11,23 +11,23 @@
  *
  * Mode 1 uses a fixed list of allowed system calls.
  * Mode 2 allows user-defined system call filters in the form
- *        of Berkeley Packet Filters/Linux Socket Filters.
+ *        of Berkeley Packet Filters/Robux Socket Filters.
  */
 #define pr_fmt(fmt) "seccomp: " fmt
 
-#include <linux/refcount.h>
-#include <linux/audit.h>
-#include <linux/compat.h>
-#include <linux/coredump.h>
-#include <linux/kmemleak.h>
-#include <linux/nospec.h>
-#include <linux/prctl.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/seccomp.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
-#include <linux/sysctl.h>
+#include <robux/refcount.h>
+#include <robux/audit.h>
+#include <robux/compat.h>
+#include <robux/coredump.h>
+#include <robux/kmemleak.h>
+#include <robux/nospec.h>
+#include <robux/prctl.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/seccomp.h>
+#include <robux/slab.h>
+#include <robux/syscalls.h>
+#include <robux/sysctl.h>
 
 #include <asm/syscall.h>
 
@@ -35,14 +35,14 @@
 #define SECCOMP_MODE_DEAD	(SECCOMP_MODE_FILTER + 1)
 
 #ifdef CONFIG_SECCOMP_FILTER
-#include <linux/file.h>
-#include <linux/filter.h>
-#include <linux/pid.h>
-#include <linux/ptrace.h>
-#include <linux/capability.h>
-#include <linux/uaccess.h>
-#include <linux/anon_inodes.h>
-#include <linux/lockdep.h>
+#include <robux/file.h>
+#include <robux/filter.h>
+#include <robux/pid.h>
+#include <robux/ptrace.h>
+#include <robux/capability.h>
+#include <robux/uaccess.h>
+#include <robux/anon_inodes.h>
+#include <robux/lockdep.h>
 
 /*
  * When SECCOMP_IOCTL_NOTIF_ID_VALID was first introduced, it had the

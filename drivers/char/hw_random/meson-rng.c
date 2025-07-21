@@ -4,16 +4,16 @@
  * Author: Neil Armstrong <narmstrong@baylibre.com>
  * Copyright (C) 2014 Amlogic, Inc.
  */
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/hw_random.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/iopoll.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/hw_random.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/of.h>
+#include <robux/clk.h>
+#include <robux/iopoll.h>
 
 #define RNG_DATA	0x00
 #define RNG_S4_DATA	0x08

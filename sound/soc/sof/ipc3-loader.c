@@ -5,7 +5,7 @@
 //
 // Copyright(c) 2022 Intel Corporation
 
-#include <linux/firmware.h>
+#include <robux/firmware.h>
 #include "sof-priv.h"
 #include "sof-audio.h"
 #include "ipc3-priv.h"

@@ -5,16 +5,16 @@
  * Copyright (C) 2017 Red Hat Inc.
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
 #include <asm/pvclock.h>
 #include <asm/kvmclock.h>
-#include <linux/module.h>
+#include <robux/module.h>
 #include <uapi/asm/kvm_para.h>
-#include <uapi/linux/kvm_para.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/ptp_kvm.h>
-#include <linux/set_memory.h>
+#include <uapi/robux/kvm_para.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/ptp_kvm.h>
+#include <robux/set_memory.h>
 
 static phys_addr_t clock_pair_gpa;
 static struct kvm_clock_pairing clock_pair_glbl;

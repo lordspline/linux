@@ -6,18 +6,18 @@
  *
  * Simple eMMC hardware reset provider
  */
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/reboot.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/reboot.h>
 
-#include <linux/mmc/host.h>
+#include <robux/mmc/host.h>
 
 #include "pwrseq.h"
 

@@ -6,15 +6,15 @@
 // based on previous work and know-how from:
 // Deepak Saxena <dsaxena@plexity.net>
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/bitops.h>
+#include <robux/gpio/driver.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/irqchip.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 #define IXP4XX_REG_GPOUT	0x00
 #define IXP4XX_REG_GPOE		0x04

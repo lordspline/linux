@@ -4,16 +4,16 @@
  *
  * Copyright IBM Corp. 2015
  *
- * Author: Vasant Hegde <hegdevasant@linux.vnet.ibm.com>
- * Author: Anshuman Khandual <khandual@linux.vnet.ibm.com>
+ * Author: Vasant Hegde <hegdevasant@robux.vnet.ibm.com>
+ * Author: Anshuman Khandual <khandual@robux.vnet.ibm.com>
  */
 
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include <asm/opal.h>
 
@@ -335,4 +335,4 @@ module_platform_driver(powernv_led_driver);
 
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("PowerNV LED driver");
-MODULE_AUTHOR("Vasant Hegde <hegdevasant@linux.vnet.ibm.com>");
+MODULE_AUTHOR("Vasant Hegde <hegdevasant@robux.vnet.ibm.com>");

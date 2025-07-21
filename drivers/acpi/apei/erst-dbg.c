@@ -11,11 +11,11 @@
  *   Author: Huang Ying <ying.huang@intel.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
 #include <acpi/apei.h>
-#include <linux/miscdevice.h>
+#include <robux/miscdevice.h>
 
 #include "apei-internal.h"
 

@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <termios.h>
 #include <unistd.h>
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 #ifdef HAVE_BACKTRACE_SUPPORT
 #include <execinfo.h>
 #endif

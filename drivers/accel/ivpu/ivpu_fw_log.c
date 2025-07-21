@@ -3,11 +3,11 @@
  * Copyright (C) 2020-2024 Intel Corporation
  */
 
-#include <linux/ctype.h>
-#include <linux/highmem.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/moduleparam.h>
+#include <robux/ctype.h>
+#include <robux/highmem.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/moduleparam.h>
 
 #include "vpu_boot_api.h"
 #include "ivpu_drv.h"

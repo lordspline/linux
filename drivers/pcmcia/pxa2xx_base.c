@@ -15,16 +15,16 @@
 
   ======================================================================*/
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/soc/pxa/cpu.h>
-#include <linux/soc/pxa/smemc.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/cpufreq.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/platform_device.h>
+#include <robux/soc/pxa/cpu.h>
+#include <robux/soc/pxa/smemc.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
@@ -357,6 +357,6 @@ fs_initcall(pxa2xx_pcmcia_init);
 module_exit(pxa2xx_pcmcia_exit);
 
 MODULE_AUTHOR("Stefan Eletzhofer <stefan.eletzhofer@inquant.de> and Ian Molton <spyro@f2s.com>");
-MODULE_DESCRIPTION("Linux PCMCIA Card Services: PXA2xx core socket driver");
+MODULE_DESCRIPTION("Robux PCMCIA Card Services: PXA2xx core socket driver");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS("platform:pxa2xx-pcmcia");

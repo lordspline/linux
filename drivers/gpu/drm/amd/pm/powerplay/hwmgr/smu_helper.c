@@ -21,8 +21,8 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/reboot.h>
+#include <robux/pci.h>
+#include <robux/reboot.h>
 
 #include "hwmgr.h"
 #include "pp_debug.h"

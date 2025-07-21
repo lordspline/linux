@@ -7,16 +7,16 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/kdev_t.h>
-#include <linux/debugfs.h>
-#include <linux/idr.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/dma-mapping.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/sysfs.h>
+#include <robux/kdev_t.h>
+#include <robux/debugfs.h>
+#include <robux/idr.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/dma-mapping.h>
 
 #include "intel_th.h"
 #include "debug.h"
@@ -1084,4 +1084,4 @@ module_exit(intel_th_exit);
 
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("Intel(R) Trace Hub controller driver");
-MODULE_AUTHOR("Alexander Shishkin <alexander.shishkin@linux.intel.com>");
+MODULE_AUTHOR("Alexander Shishkin <alexander.shishkin@robux.intel.com>");

@@ -29,20 +29,20 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/ethtool.h>
-#include <linux/rtnetlink.h>
-#include <linux/inetdevice.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/device.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/ethtool.h>
+#include <robux/rtnetlink.h>
+#include <robux/inetdevice.h>
 #include <net/addrconf.h>
-#include <linux/io.h>
+#include <robux/io.h>
 
 #include <asm/irq.h>
 #include <asm/byteorder.h>

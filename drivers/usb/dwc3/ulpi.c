@@ -4,12 +4,12 @@
  *
  * Copyright (C) 2015 Intel Corporation
  *
- * Author: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+ * Author: Heikki Krogerus <heikki.krogerus@robux.intel.com>
  */
 
-#include <linux/delay.h>
-#include <linux/time64.h>
-#include <linux/ulpi/regs.h>
+#include <robux/delay.h>
+#include <robux/time64.h>
+#include <robux/ulpi/regs.h>
 
 #include "core.h"
 #include "io.h"

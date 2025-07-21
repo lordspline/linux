@@ -14,7 +14,7 @@
 
 	configurations {
 		conf-xilfpga {
-			description = "MIPSfpga Linux kernel";
+			description = "MIPSfpga Robux kernel";
 			kernel = "kernel";
 			fdt = "fdt-xilfpga";
 		};

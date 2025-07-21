@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/kernel/panic.c
+ *  robux/kernel/panic.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
@@ -9,33 +9,33 @@
  * This function is used through-out the kernel (including mm and fs)
  * to indicate a major problem.
  */
-#include <linux/debug_locks.h>
-#include <linux/sched/debug.h>
-#include <linux/interrupt.h>
-#include <linux/kgdb.h>
-#include <linux/kmsg_dump.h>
-#include <linux/kallsyms.h>
-#include <linux/notifier.h>
-#include <linux/vt_kern.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/ftrace.h>
-#include <linux/reboot.h>
-#include <linux/delay.h>
-#include <linux/kexec.h>
-#include <linux/panic_notifier.h>
-#include <linux/sched.h>
-#include <linux/string_helpers.h>
-#include <linux/sysrq.h>
-#include <linux/init.h>
-#include <linux/nmi.h>
-#include <linux/console.h>
-#include <linux/bug.h>
-#include <linux/ratelimit.h>
-#include <linux/debugfs.h>
-#include <linux/sysfs.h>
-#include <linux/context_tracking.h>
-#include <linux/seq_buf.h>
+#include <robux/debug_locks.h>
+#include <robux/sched/debug.h>
+#include <robux/interrupt.h>
+#include <robux/kgdb.h>
+#include <robux/kmsg_dump.h>
+#include <robux/kallsyms.h>
+#include <robux/notifier.h>
+#include <robux/vt_kern.h>
+#include <robux/module.h>
+#include <robux/random.h>
+#include <robux/ftrace.h>
+#include <robux/reboot.h>
+#include <robux/delay.h>
+#include <robux/kexec.h>
+#include <robux/panic_notifier.h>
+#include <robux/sched.h>
+#include <robux/string_helpers.h>
+#include <robux/sysrq.h>
+#include <robux/init.h>
+#include <robux/nmi.h>
+#include <robux/console.h>
+#include <robux/bug.h>
+#include <robux/ratelimit.h>
+#include <robux/debugfs.h>
+#include <robux/sysfs.h>
+#include <robux/context_tracking.h>
+#include <robux/seq_buf.h>
 #include <trace/events/error_report.h>
 #include <asm/sections.h>
 

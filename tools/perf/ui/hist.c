@@ -3,7 +3,7 @@
 #include <math.h>
 #include <stdlib.h>
 #include <string.h>
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 
 #include "../util/callchain.h"
 #include "../util/debug.h"

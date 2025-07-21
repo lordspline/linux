@@ -4,8 +4,8 @@
 #define pr_fmt(fmt)	"alt: " fmt
 #endif
 
-#include <linux/uaccess.h>
-#include <linux/printk.h>
+#include <robux/uaccess.h>
+#include <robux/printk.h>
 #include <asm/nospec-branch.h>
 #include <asm/abs_lowcore.h>
 #include <asm/alternative.h>

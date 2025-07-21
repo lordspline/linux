@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (C) 2014-2015 Broadcom Corporation
-#include <linux/debugfs.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
+#include <robux/debugfs.h>
+#include <robux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

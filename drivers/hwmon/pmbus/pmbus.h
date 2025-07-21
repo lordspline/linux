@@ -9,8 +9,8 @@
 #ifndef PMBUS_H
 #define PMBUS_H
 
-#include <linux/bitops.h>
-#include <linux/regulator/driver.h>
+#include <robux/bitops.h>
+#include <robux/regulator/driver.h>
 
 /*
  * Registers

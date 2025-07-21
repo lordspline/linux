@@ -2,14 +2,14 @@
 /*
  * Pinctrl data for Wondermedia WM8650 SoC
  *
- * Copyright (c) 2013 Tony Prisk <linux@prisktech.co.nz>
+ * Copyright (c) 2013 Tony Prisk <robux@prisktech.co.nz>
  */
 
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "pinctrl-wmt.h"
 

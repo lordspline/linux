@@ -10,12 +10,12 @@
  * #2 wait-for-interrupt and RAM self refresh
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/cpuidle.h>
-#include <linux/io.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/cpuidle.h>
+#include <robux/io.h>
+#include <robux/export.h>
 #include <asm/cpuidle.h>
 
 #define AT91_MAX_STATES	2

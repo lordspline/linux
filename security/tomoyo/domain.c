@@ -7,9 +7,9 @@
 
 #include "common.h"
 
-#include <linux/binfmts.h>
-#include <linux/slab.h>
-#include <linux/rculist.h>
+#include <robux/binfmts.h>
+#include <robux/slab.h>
+#include <robux/rculist.h>
 
 /* Variables definitions.*/
 

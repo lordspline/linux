@@ -5,12 +5,12 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/circ_buf.h>
-#include <linux/iversion.h>
-#include <linux/netfs.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/circ_buf.h>
+#include <robux/iversion.h>
+#include <robux/netfs.h>
 #include "internal.h"
 #include "afs_fs.h"
 #include "xdr_fs.h"

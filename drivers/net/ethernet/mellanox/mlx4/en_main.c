@@ -31,15 +31,15 @@
  *
  */
 
-#include <linux/cpumask.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
+#include <robux/cpumask.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/netdevice.h>
+#include <robux/slab.h>
 
-#include <linux/mlx4/driver.h>
-#include <linux/mlx4/device.h>
-#include <linux/mlx4/cmd.h>
+#include <robux/mlx4/driver.h>
+#include <robux/mlx4/device.h>
+#include <robux/mlx4/cmd.h>
 
 #include "mlx4_en.h"
 

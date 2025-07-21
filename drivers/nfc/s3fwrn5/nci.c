@@ -6,8 +6,8 @@
  * Robert Baldyga <r.baldyga@samsung.com>
  */
 
-#include <linux/completion.h>
-#include <linux/firmware.h>
+#include <robux/completion.h>
+#include <robux/firmware.h>
 
 #include "s3fwrn5.h"
 #include "nci.h"

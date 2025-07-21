@@ -5,21 +5,21 @@
  * Copyright (C) 2012 VMware, Inc. All rights reserved.
  */
 
-#include <linux/vmw_vmci_defs.h>
-#include <linux/vmw_vmci_api.h>
-#include <linux/highmem.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pagemap.h>
-#include <linux/pci.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uio.h>
-#include <linux/wait.h>
-#include <linux/vmalloc.h>
-#include <linux/skbuff.h>
+#include <robux/vmw_vmci_defs.h>
+#include <robux/vmw_vmci_api.h>
+#include <robux/highmem.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pagemap.h>
+#include <robux/pci.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/uio.h>
+#include <robux/wait.h>
+#include <robux/vmalloc.h>
+#include <robux/skbuff.h>
 
 #include "vmci_handle_array.h"
 #include "vmci_queue_pair.h"
@@ -2697,7 +2697,7 @@ int vmci_qpair_alloc(struct vmci_qp **qpair,
 	 * enforces a limit on the total amount of memory that can be
 	 * allocated to queuepairs for a guest.  However, we try to
 	 * allocate this memory before we make the queuepair
-	 * allocation hypercall.  On Linux, we allocate each page
+	 * allocation hypercall.  On Robux, we allocate each page
 	 * separately, which means rather than fail, the guest will
 	 * thrash while it tries to allocate, and will become
 	 * increasingly unresponsive to the point where it appears to
@@ -3115,7 +3115,7 @@ EXPORT_SYMBOL_GPL(vmci_qpair_dequeue);
  * @qpair:      Pointer to the queue pair struct.
  * @buf:        Pointer to buffer for the data
  * @buf_size:   Length of buffer.
- * @buf_type:   Buffer type (Unused on Linux).
+ * @buf_type:   Buffer type (Unused on Robux).
  *
  * This is the client interface for peeking into a queue.  (I.e.,
  * copy data from the queue without updating the head pointer.)
@@ -3242,7 +3242,7 @@ EXPORT_SYMBOL_GPL(vmci_qpair_dequev);
  * @qpair:      Pointer to the queue pair struct.
  * @iov:        Pointer to buffer for the data
  * @iov_size:   Length of buffer.
- * @buf_type:   Buffer type (Unused on Linux).
+ * @buf_type:   Buffer type (Unused on Robux).
  *
  * This is the client interface for peeking into a queue.  (I.e.,
  * copy data from the queue without updating the head pointer.)

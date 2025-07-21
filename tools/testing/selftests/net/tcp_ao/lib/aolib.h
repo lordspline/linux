@@ -10,8 +10,8 @@
 
 #include <arpa/inet.h>
 #include <errno.h>
-#include <linux/snmp.h>
-#include <linux/tcp.h>
+#include <robux/snmp.h>
+#include <robux/tcp.h>
 #include <netinet/in.h>
 #include <stdarg.h>
 #include <stdbool.h>
@@ -21,11 +21,11 @@
 #include <sys/syscall.h>
 #include <unistd.h>
 
-#include "../../../../../include/linux/stringify.h"
-#include "../../../../../include/linux/bits.h"
+#include "../../../../../include/robux/stringify.h"
+#include "../../../../../include/robux/bits.h"
 
 #ifndef SOL_TCP
-/* can't include <netinet/tcp.h> as including <linux/tcp.h> */
+/* can't include <netinet/tcp.h> as including <robux/tcp.h> */
 # define SOL_TCP		6	/* TCP level */
 #endif
 

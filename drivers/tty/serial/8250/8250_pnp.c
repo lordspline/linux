@@ -6,17 +6,17 @@
  *
  *  Copyright (C) 2001 Russell King, All Rights Reserved.
  *
- *  Ported to the Linux PnP Layer - (C) Adam Belay.
+ *  Ported to the Robux PnP Layer - (C) Adam Belay.
  */
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm.h>
-#include <linux/pnp.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/property.h>
-#include <linux/serial_core.h>
-#include <linux/bitops.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pm.h>
+#include <robux/pnp.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/property.h>
+#include <robux/serial_core.h>
+#include <robux/bitops.h>
 
 #include <asm/byteorder.h>
 

@@ -8,17 +8,17 @@
  * Copyright 2003-2004 (C) MontaVista, Software, Inc.
  * Copyright (C) Deepak Saxena <dsaxena@plexity.net>
  */
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/cpu.h>
+#include <robux/bitops.h>
+#include <robux/gpio/driver.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/cpu.h>
 
 #include <asm/exception.h>
 #include <asm/mach/irq.h>

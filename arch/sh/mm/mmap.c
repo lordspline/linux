@@ -7,11 +7,11 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/sched/mm.h>
-#include <linux/mman.h>
-#include <linux/module.h>
+#include <robux/io.h>
+#include <robux/mm.h>
+#include <robux/sched/mm.h>
+#include <robux/mman.h>
+#include <robux/module.h>
 #include <asm/page.h>
 #include <asm/processor.h>
 

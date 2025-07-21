@@ -5,12 +5,12 @@
 
 #include "funnel-workqueue.h"
 
-#include <linux/atomic.h>
-#include <linux/cache.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/kthread.h>
-#include <linux/percpu.h>
+#include <robux/atomic.h>
+#include <robux/cache.h>
+#include <robux/completion.h>
+#include <robux/err.h>
+#include <robux/kthread.h>
+#include <robux/percpu.h>
 
 #include "funnel-queue.h"
 #include "logger.h"
@@ -520,7 +520,7 @@ static void get_function_name(void *pointer, char *buffer, size_t buffer_length)
 	} else {
 		/*
 		 * Use a pragma to defeat gcc's format checking, which doesn't understand that
-		 * "%ps" actually does support a precision spec in Linux kernel code.
+		 * "%ps" actually does support a precision spec in Robux kernel code.
 		 */
 		char *space;
 

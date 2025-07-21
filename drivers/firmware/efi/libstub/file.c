@@ -7,7 +7,7 @@
  * Copyright 2011 Intel Corporation; author Matt Fleming
  */
 
-#include <linux/efi.h>
+#include <robux/efi.h>
 #include <asm/efi.h>
 
 #include "efistub.h"

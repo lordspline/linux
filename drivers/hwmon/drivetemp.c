@@ -95,14 +95,14 @@
  *   the temperature.
  */
 
-#include <linux/ata.h>
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
+#include <robux/ata.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/hwmon.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_driver.h>

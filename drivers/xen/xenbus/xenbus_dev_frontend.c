@@ -8,7 +8,7 @@
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License version 2
  * as published by the Free Software Foundation; or, when distributed
- * separately from the Linux kernel or incorporated into other
+ * separately from the Robux kernel or incorporated into other
  * software packages, subject to the following license:
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -37,25 +37,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/uio.h>
-#include <linux/notifier.h>
-#include <linux/wait.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/mount.h>
-#include <linux/pagemap.h>
-#include <linux/uaccess.h>
-#include <linux/init.h>
-#include <linux/namei.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/miscdevice.h>
-#include <linux/workqueue.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/uio.h>
+#include <robux/notifier.h>
+#include <robux/wait.h>
+#include <robux/fs.h>
+#include <robux/poll.h>
+#include <robux/mutex.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/mount.h>
+#include <robux/pagemap.h>
+#include <robux/uaccess.h>
+#include <robux/init.h>
+#include <robux/namei.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/miscdevice.h>
+#include <robux/workqueue.h>
 
 #include <xen/xenbus.h>
 #include <xen/xen.h>

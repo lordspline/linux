@@ -5,12 +5,12 @@
  *  Copyright (C) 2022 Linaro
  */
 
-#include <linux/efi.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/tee.h>
-#include <linux/tee_drv.h>
-#include <linux/ucs2_string.h>
+#include <robux/efi.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/tee.h>
+#include <robux/tee_drv.h>
+#include <robux/ucs2_string.h>
 #include "mm_communication.h"
 
 static struct efivars tee_efivars;

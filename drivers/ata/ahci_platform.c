@@ -8,16 +8,16 @@
  *   Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/libata.h>
-#include <linux/ahci_platform.h>
-#include <linux/pci_ids.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/libata.h>
+#include <robux/ahci_platform.h>
+#include <robux/pci_ids.h>
 #include "ahci.h"
 
 #define DRV_NAME "ahci"

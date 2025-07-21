@@ -10,13 +10,13 @@
  * Authors: Marcelo Tosatti <mtosatti@redhat.com>
  */
 
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/cpuidle.h>
-#include <linux/module.h>
-#include <linux/sched/idle.h>
-#include <linux/kvm_para.h>
-#include <linux/cpuidle_haltpoll.h>
+#include <robux/init.h>
+#include <robux/cpu.h>
+#include <robux/cpuidle.h>
+#include <robux/module.h>
+#include <robux/sched/idle.h>
+#include <robux/kvm_para.h>
+#include <robux/cpuidle_haltpoll.h>
 
 static bool force __read_mostly;
 module_param(force, bool, 0444);

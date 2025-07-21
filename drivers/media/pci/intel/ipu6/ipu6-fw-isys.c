@@ -3,12 +3,12 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/cacheflush.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/cacheflush.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 #include "ipu6-bus.h"
 #include "ipu6-fw-com.h"

@@ -7,11 +7,11 @@
  *
  * Licensed under the GPL-2.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/iio.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/iio/iio.h>
 
 #define DAC7612_RESOLUTION 12
 #define DAC7612_ADDRESS 4

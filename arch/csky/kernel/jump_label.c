@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/memory.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
+#include <robux/jump_label.h>
+#include <robux/kernel.h>
+#include <robux/memory.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
 #include <asm/cacheflush.h>
 
 #define NOP32_HI	0xc400

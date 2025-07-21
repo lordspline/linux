@@ -2,8 +2,8 @@
 
 #include "bcachefs.h"
 #include "buckets_waiting_for_journal.h"
-#include <linux/hash.h>
-#include <linux/random.h>
+#include <robux/hash.h>
+#include <robux/random.h>
 
 static inline struct bucket_hashed *
 bucket_hash(struct buckets_waiting_for_journal_table *t,

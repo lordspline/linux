@@ -13,7 +13,7 @@
 #include "../arch.h"
 #include "../sys.h"
 
-#include <linux/random.h>
+#include <robux/random.h>
 
 /*
  * ssize_t getrandom(void *buf, size_t buflen, unsigned int flags);

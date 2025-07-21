@@ -5,28 +5,28 @@
  *	Gareth Hughes <gareth@valinux.com>, May 2000
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/elf.h>
-#include <linux/security.h>
-#include <linux/audit.h>
-#include <linux/seccomp.h>
-#include <linux/signal.h>
-#include <linux/perf_event.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/rcupdate.h>
-#include <linux/export.h>
-#include <linux/context_tracking.h>
-#include <linux/nospec.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/ptrace.h>
+#include <robux/user.h>
+#include <robux/elf.h>
+#include <robux/security.h>
+#include <robux/audit.h>
+#include <robux/seccomp.h>
+#include <robux/signal.h>
+#include <robux/perf_event.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/rcupdate.h>
+#include <robux/export.h>
+#include <robux/context_tracking.h>
+#include <robux/nospec.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/processor.h>
 #include <asm/fpu/signal.h>
 #include <asm/fpu/regset.h>
@@ -854,8 +854,8 @@ long arch_ptrace(struct task_struct *child, long request,
 
 #ifdef CONFIG_IA32_EMULATION
 
-#include <linux/compat.h>
-#include <linux/syscalls.h>
+#include <robux/compat.h>
+#include <robux/syscalls.h>
 #include <asm/ia32.h>
 #include <asm/user32.h>
 

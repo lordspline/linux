@@ -3,9 +3,9 @@
  * Handling of TPM command and other buffers.
  */
 
-#include <linux/tpm_command.h>
-#include <linux/module.h>
-#include <linux/tpm.h>
+#include <robux/tpm_command.h>
+#include <robux/module.h>
+#include <robux/tpm.h>
 
 /**
  * tpm_buf_init() - Allocate and initialize a TPM command

@@ -5,21 +5,21 @@
 // Copyright (C) 2012 Samsung Electrnoics
 // Chanwoo Choi <cw00.choi@samsung.com>
 
-#include <linux/devm-helpers.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/max77693.h>
-#include <linux/mfd/max77693-common.h>
-#include <linux/mfd/max77693-private.h>
-#include <linux/extcon-provider.h>
-#include <linux/regmap.h>
-#include <linux/irqdomain.h>
+#include <robux/devm-helpers.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/max77693.h>
+#include <robux/mfd/max77693-common.h>
+#include <robux/mfd/max77693-private.h>
+#include <robux/extcon-provider.h>
+#include <robux/regmap.h>
+#include <robux/irqdomain.h>
 
 #define	DEV_NAME			"max77693-muic"
 #define	DELAY_MS_DEFAULT		20000		/* unit: millisecond */

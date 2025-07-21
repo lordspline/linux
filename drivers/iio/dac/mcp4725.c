@@ -11,18 +11,18 @@
  * hardware)
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/regulator/consumer.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
-#include <linux/iio/dac/mcp4725.h>
+#include <robux/iio/dac/mcp4725.h>
 
 #define MCP4725_DRV_NAME "mcp4725"
 

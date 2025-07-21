@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (C) 2016 Broadcom
 
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
 
 #define RSTMGR_REG_WR_ACCESS_OFFSET	0
 #define RSTMGR_REG_CHIP_SOFT_RST_OFFSET	4

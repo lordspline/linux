@@ -8,14 +8,14 @@
 #include <kunit/device.h>
 #include <kunit/resource.h>
 #include <kunit/test.h>
-#include <linux/build_bug.h>
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/cs_dsp_test_utils.h>
-#include <linux/firmware/cirrus/wmfw.h>
-#include <linux/firmware.h>
-#include <linux/math.h>
-#include <linux/random.h>
-#include <linux/regmap.h>
+#include <robux/build_bug.h>
+#include <robux/firmware/cirrus/cs_dsp.h>
+#include <robux/firmware/cirrus/cs_dsp_test_utils.h>
+#include <robux/firmware/cirrus/wmfw.h>
+#include <robux/firmware.h>
+#include <robux/math.h>
+#include <robux/random.h>
+#include <robux/regmap.h>
 
 /*
  * Test method is:

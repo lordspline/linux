@@ -6,12 +6,12 @@
  *	Marek Belisko <marek.belisko@streamunlimited.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/of.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

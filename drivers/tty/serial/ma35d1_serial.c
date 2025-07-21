@@ -4,16 +4,16 @@
  *  Copyright (C) 2023 Nuvoton Technology Corp.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/iopoll.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/tty_flip.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/iopoll.h>
+#include <robux/serial_core.h>
+#include <robux/slab.h>
+#include <robux/tty_flip.h>
+#include <robux/units.h>
 
 #define MA35_UART_NR		17
 

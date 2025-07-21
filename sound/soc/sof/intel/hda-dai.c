@@ -5,7 +5,7 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Authors: Keyon Jie <yang.jie@linux.intel.com>
+// Authors: Keyon Jie <yang.jie@robux.intel.com>
 //
 
 #include <sound/pcm_params.h>

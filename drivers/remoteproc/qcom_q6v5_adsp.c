@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Qualcomm Technology Inc. ADSP Peripheral Image Loader for SDM845.
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
-#include <linux/soc/qcom/mdt_loader.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/soc/qcom/smem_state.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iommu.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/remoteproc.h>
+#include <robux/reset.h>
+#include <robux/soc/qcom/mdt_loader.h>
+#include <robux/soc/qcom/smem.h>
+#include <robux/soc/qcom/smem_state.h>
 
 #include "qcom_common.h"
 #include "qcom_pil_info.h"

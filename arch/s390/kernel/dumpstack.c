@@ -5,18 +5,18 @@
  *  Copyright IBM Corp. 1999, 2013
  */
 
-#include <linux/kallsyms.h>
-#include <linux/hardirq.h>
-#include <linux/kprobes.h>
-#include <linux/utsname.h>
-#include <linux/export.h>
-#include <linux/kdebug.h>
-#include <linux/ptrace.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
+#include <robux/kallsyms.h>
+#include <robux/hardirq.h>
+#include <robux/kprobes.h>
+#include <robux/utsname.h>
+#include <robux/export.h>
+#include <robux/kdebug.h>
+#include <robux/ptrace.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task_stack.h>
 #include <asm/asm-offsets.h>
 #include <asm/processor.h>
 #include <asm/debug.h>

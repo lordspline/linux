@@ -5,18 +5,18 @@
  *         Ming Hsiu Tsai <minghsiu.tsai@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/workqueue.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/workqueue.h>
 
 #include "mtk_mdp_core.h"
 #include "mtk_mdp_m2m.h"

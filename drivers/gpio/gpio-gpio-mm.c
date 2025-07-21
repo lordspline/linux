@@ -6,15 +6,15 @@
  * This driver supports the following Diamond Systems devices: GPIO-MM and
  * GPIO-MM-12.
  */
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/isa.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/isa.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 #include "gpio-i8255.h"
 

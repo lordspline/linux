@@ -7,16 +7,16 @@
  *
  * Copyright 2002,2003 Andi Kleen, SuSE Labs.
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/nodemask.h>
-#include <linux/memblock.h>
-#include <linux/numa_memblks.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/nodemask.h>
+#include <robux/memblock.h>
+#include <robux/numa_memblks.h>
 
 #include <asm/io.h>
-#include <linux/pci_ids.h>
-#include <linux/acpi.h>
+#include <robux/pci_ids.h>
+#include <robux/acpi.h>
 #include <asm/types.h>
 #include <asm/mmzone.h>
 #include <asm/proto.h>

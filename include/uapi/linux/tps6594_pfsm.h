@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Userspace ABI for TPS6594 PMIC Pre-configurable Finite State Machine
  *
@@ -8,9 +8,9 @@
 #ifndef __TPS6594_PFSM_H
 #define __TPS6594_PFSM_H
 
-#include <linux/const.h>
-#include <linux/ioctl.h>
-#include <linux/types.h>
+#include <robux/const.h>
+#include <robux/ioctl.h>
+#include <robux/types.h>
 
 /**
  * struct pmic_state_opt - PMIC state options

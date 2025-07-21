@@ -3,16 +3,16 @@
  * 8250_lpss.c - Driver for UART on Intel Braswell and various other Intel SoCs
  *
  * Copyright (C) 2016 Intel Corporation
- * Author: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Author: Andy Shevchenko <andriy.shevchenko@robux.intel.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/rational.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/rational.h>
 
-#include <linux/dmaengine.h>
-#include <linux/dma/dw.h>
+#include <robux/dmaengine.h>
+#include <robux/dma/dw.h>
 
 #include "8250_dwlib.h"
 

@@ -13,8 +13,8 @@
 #ifndef __CROS_EC_COMMANDS_H
 #define __CROS_EC_COMMANDS_H
 
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/types.h>
 
 #define BUILD_ASSERT(_cond)
 

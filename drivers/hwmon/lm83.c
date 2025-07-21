@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * lm83.c - Part of lm_sensors, Linux kernel modules for hardware
+ * lm83.c - Part of lm_sensors, Robux kernel modules for hardware
  *          monitoring
  * Copyright (C) 2003-2009  Jean Delvare <jdelvare@suse.de>
  *
@@ -18,14 +18,14 @@
  * http://www.national.com/pf/LM/LM82.html
  */
 
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/hwmon.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/bits.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/hwmon.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 /*
  * Addresses to scan

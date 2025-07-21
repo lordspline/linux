@@ -11,11 +11,11 @@
  *         Maciej W. Rozycki <macro@mips.com>
  *          Steven J. Hill <sjhill@mips.com>
  */
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/pci_regs.h>
-#include <linux/serial_core.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/pci_regs.h>
+#include <robux/serial_core.h>
 
 #include <asm/cacheflush.h>
 #include <asm/smp-ops.h>

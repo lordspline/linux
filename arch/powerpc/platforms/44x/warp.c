@@ -5,20 +5,20 @@
  * Copyright (c) 2008-2009 PIKA Technologies
  *   Sean MacLennan <smaclennan@pikatech.com>
  */
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/kthread.h>
-#include <linux/leds.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/kthread.h>
+#include <robux/leds.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/gpio/consumer.h>
+#include <robux/slab.h>
+#include <robux/export.h>
 
 #include <asm/machdep.h>
 #include <asm/udbg.h>

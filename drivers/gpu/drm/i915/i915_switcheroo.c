@@ -3,7 +3,7 @@
  * Copyright © 2019 Intel Corporation
  */
 
-#include <linux/vga_switcheroo.h>
+#include <robux/vga_switcheroo.h>
 
 #include "i915_driver.h"
 #include "i915_drv.h"

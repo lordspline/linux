@@ -8,30 +8,30 @@
  *
  */
 
-#include <linux/err.h>
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/compiler.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/log2.h>
-#include <linux/io.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/acpi.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/bitops.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/string_choices.h>
-#include <linux/suspend.h>
+#include <robux/err.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/compiler.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/log2.h>
+#include <robux/io.h>
+#include <robux/gpio/driver.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/acpi.h>
+#include <robux/seq_file.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/bitops.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinmux.h>
+#include <robux/string_choices.h>
+#include <robux/suspend.h>
 
 #include "core.h"
 #include "pinctrl-utils.h"

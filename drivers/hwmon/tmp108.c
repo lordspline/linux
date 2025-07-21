@@ -4,20 +4,20 @@
  * Copyright (C) 2016 John Muir <john@jmuir.com>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/i2c.h>
-#include <linux/i3c/device.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/i2c.h>
+#include <robux/i3c/device.h>
+#include <robux/init.h>
+#include <robux/jiffies.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
 #define	DRIVER_NAME "tmp108"
 

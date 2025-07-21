@@ -7,27 +7,27 @@
  *	    Naresh Solanki <Naresh.Solanki@9elements.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitmap.h>
-#include <linux/cleanup.h>
-#include <linux/dmi.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/seq_file.h>
+#include <robux/acpi.h>
+#include <robux/bitmap.h>
+#include <robux/cleanup.h>
+#include <robux/dmi.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/seq_file.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 /* Fast access registers */
 #define CY8C95X0_INPUT		0x00

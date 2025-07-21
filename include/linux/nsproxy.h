@@ -2,9 +2,9 @@
 #ifndef _LINUX_NSPROXY_H
 #define _LINUX_NSPROXY_H
 
-#include <linux/refcount.h>
-#include <linux/spinlock.h>
-#include <linux/sched.h>
+#include <robux/refcount.h>
+#include <robux/spinlock.h>
+#include <robux/sched.h>
 
 struct mnt_namespace;
 struct uts_namespace;

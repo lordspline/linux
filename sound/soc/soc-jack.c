@@ -8,12 +8,12 @@
 
 #include <sound/jack.h>
 #include <sound/soc.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/suspend.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/suspend.h>
 #include <trace/events/asoc.h>
 
 /**

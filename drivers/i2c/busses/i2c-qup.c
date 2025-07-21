@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2009-2013, 2016-2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2009-2013, 2016-2018, The Robux Foundation. All rights reserved.
  * Copyright (c) 2014, Sony Mobile Communications AB.
  *
  */
 
-#include <linux/acpi.h>
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interconnect.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/scatterlist.h>
+#include <robux/acpi.h>
+#include <robux/atomic.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dmaengine.h>
+#include <robux/dmapool.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/interconnect.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/scatterlist.h>
 
 /* QUP Registers */
 #define QUP_CONFIG		0x000

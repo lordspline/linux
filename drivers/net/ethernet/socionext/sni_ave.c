@@ -5,25 +5,25 @@
  * Copyright 2015-2017 Socionext Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/types.h>
-#include <linux/u64_stats_sync.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/etherdevice.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mii.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/of_mdio.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/types.h>
+#include <robux/u64_stats_sync.h>
 
 /* General Register Group */
 #define AVE_IDR			0x000	/* ID */

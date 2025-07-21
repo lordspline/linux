@@ -3,15 +3,15 @@
  * Copyright (c) 2019, Linaro Ltd.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <robux/bitops.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/pm_clock.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
 
 #include <dt-bindings/clock/qcom,turingcc-qcs404.h>
 

@@ -57,17 +57,17 @@
  *  Slave mode                       no
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/i2c.h>
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
+#include <robux/stddef.h>
+#include <robux/completion.h>
+#include <robux/dma-mapping.h>
+#include <robux/i2c.h>
+#include <robux/acpi.h>
+#include <robux/interrupt.h>
 
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
 
 /* PCI Address Constants */
 #define SMBBAR		0

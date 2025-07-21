@@ -6,8 +6,8 @@
 #ifndef UDS_INDEX_SESSION_H
 #define UDS_INDEX_SESSION_H
 
-#include <linux/atomic.h>
-#include <linux/cache.h>
+#include <robux/atomic.h>
+#include <robux/cache.h>
 
 #include "thread-utils.h"
 

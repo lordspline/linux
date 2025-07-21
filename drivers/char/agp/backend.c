@@ -27,16 +27,16 @@
  * TODO:
  * - Allocate more than order 0 pages to avoid too much linear map splitting.
  */
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/pagemap.h>
-#include <linux/miscdevice.h>
-#include <linux/pm.h>
-#include <linux/agp_backend.h>
-#include <linux/agpgart.h>
-#include <linux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/pagemap.h>
+#include <robux/miscdevice.h>
+#include <robux/pm.h>
+#include <robux/agp_backend.h>
+#include <robux/agpgart.h>
+#include <robux/vmalloc.h>
 #include <asm/io.h>
 #include "agp.h"
 
@@ -326,7 +326,7 @@ EXPORT_SYMBOL(agp_try_unsupported_boot);
 static int __init agp_init(void)
 {
 	if (!agp_off)
-		printk(KERN_INFO "Linux agpgart interface v%d.%d\n",
+		printk(KERN_INFO "Robux agpgart interface v%d.%d\n",
 			AGPGART_VERSION_MAJOR, AGPGART_VERSION_MINOR);
 	return 0;
 }

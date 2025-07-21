@@ -11,9 +11,9 @@
  * Authors: Carsten Langgaard <carstenl@mips.com>
  *          Steven J. Hill <sjhill@mips.com>
  */
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
+#include <robux/string.h>
 
 #include <asm/bootinfo.h>
 #include <asm/cdmm.h>

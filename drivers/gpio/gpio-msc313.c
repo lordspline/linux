@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2020 Daniel Palmer<daniel@thingy.jp> */
 
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/gpio/driver.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/types.h>
 
 #include <dt-bindings/gpio/msc313-gpio.h>
 #include <dt-bindings/interrupt-controller/arm-gic.h>

@@ -11,12 +11,12 @@
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/clk/ti.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/clk/ti.h>
 
 #include <asm/div64.h>
 

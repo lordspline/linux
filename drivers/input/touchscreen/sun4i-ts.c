@@ -27,17 +27,17 @@
  * than the one in the A10 User Manual v.1.5)
  */
 
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/thermal.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/thermal.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #define TP_CTRL0		0x00
 #define TP_CTRL1		0x04

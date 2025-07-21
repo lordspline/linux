@@ -2,8 +2,8 @@
 #ifndef COMPONENT_H
 #define COMPONENT_H
 
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
 
 struct device;
 

@@ -8,16 +8,16 @@
  * Authors: Yong Zhi
  *	Mythri pk <mythripk@ti.com>
  *
- * Heavily modified to use the linux CEC framework:
+ * Heavily modified to use the robux CEC framework:
  *
  * Copyright 2016-2017 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "dss.h"
 #include "hdmi.h"

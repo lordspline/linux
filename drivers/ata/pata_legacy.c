@@ -44,17 +44,17 @@
  *  change.
  */
 
-#include <linux/async.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
+#include <robux/async.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
 #include <scsi/scsi_host.h>
-#include <linux/ata.h>
-#include <linux/libata.h>
-#include <linux/platform_device.h>
+#include <robux/ata.h>
+#include <robux/libata.h>
+#include <robux/platform_device.h>
 
 #define DRV_NAME "pata_legacy"
 #define DRV_VERSION "0.6.5"

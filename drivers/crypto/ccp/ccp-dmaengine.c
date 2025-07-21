@@ -7,13 +7,13 @@
  * Author: Gary R Hook <gary.hook@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/ccp.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/ccp.h>
 
 #include "ccp-dev.h"
 #include "../../dma/dmaengine.h"

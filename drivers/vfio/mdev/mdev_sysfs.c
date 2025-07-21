@@ -7,10 +7,10 @@
  *             Kirti Wankhede <kwankhede@nvidia.com>
  */
 
-#include <linux/sysfs.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/mdev.h>
+#include <robux/sysfs.h>
+#include <robux/ctype.h>
+#include <robux/slab.h>
+#include <robux/mdev.h>
 
 #include "mdev_private.h"
 

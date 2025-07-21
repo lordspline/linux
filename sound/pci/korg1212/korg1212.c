@@ -5,16 +5,16 @@
  *	Copyright (c) 2001 Haroldo Gamal <gamal@alternex.com.br>
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/wait.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/firmware.h>
+#include <robux/io.h>
 
 #include <sound/core.h>
 #include <sound/info.h>

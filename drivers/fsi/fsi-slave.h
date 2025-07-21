@@ -4,8 +4,8 @@
 #ifndef DRIVERS_FSI_SLAVE_H
 #define DRIVERS_FSI_SLAVE_H
 
-#include <linux/cdev.h>
-#include <linux/device.h>
+#include <robux/cdev.h>
+#include <robux/device.h>
 
 struct fsi_master;
 

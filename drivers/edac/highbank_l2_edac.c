@@ -2,14 +2,14 @@
 /*
  * Copyright 2011-2012 Calxeda, Inc.
  */
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/edac.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/ctype.h>
+#include <robux/edac.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
 
 #include "edac_module.h"
 

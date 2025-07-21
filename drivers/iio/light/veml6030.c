@@ -17,21 +17,21 @@
  * Appnote-84323: https://www.vishay.com/docs/84323/designingveml7700.pdf
  */
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/regmap.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/units.h>
-#include <linux/regulator/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio-gts-helper.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/bitfield.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
+#include <robux/regmap.h>
+#include <robux/interrupt.h>
+#include <robux/pm_runtime.h>
+#include <robux/units.h>
+#include <robux/regulator/consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio-gts-helper.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
 
 /* Device registers */
 #define VEML6030_REG_ALS_CONF   0x00

@@ -15,8 +15,8 @@
 #include "visl-trace-hevc.h"
 #include "visl-trace-av1.h"
 
-#include <linux/delay.h>
-#include <linux/workqueue.h>
+#include <robux/delay.h>
+#include <robux/workqueue.h>
 #include <media/v4l2-mem2mem.h>
 #include <media/tpg/v4l2-tpg.h>
 

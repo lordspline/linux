@@ -7,8 +7,8 @@
  */
 
 /* NT error codes - see nterr.h */
-#include <linux/types.h>
-#include <linux/fs.h>
+#include <robux/types.h>
+#include <robux/fs.h>
 #include "nterr.h"
 
 const struct nt_err_code_struct nt_errs[] = {

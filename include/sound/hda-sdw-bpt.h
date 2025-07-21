@@ -9,7 +9,7 @@
 #ifndef __HDA_SDW_BPT_H
 #define __HDA_SDW_BPT_H
 
-#include <linux/device.h>
+#include <robux/device.h>
 
 struct hdac_ext_stream;
 struct snd_dma_buffer;

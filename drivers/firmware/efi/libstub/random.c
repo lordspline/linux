@@ -3,7 +3,7 @@
  * Copyright (C) 2016 Linaro Ltd;  <ard.biesheuvel@linaro.org>
  */
 
-#include <linux/efi.h>
+#include <robux/efi.h>
 #include <asm/efi.h>
 
 #include "efistub.h"

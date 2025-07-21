@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Copyright (c) 2012 Guenter Roeck <linux@roeck-us.net>
+ * Copyright (c) 2012 Guenter Roeck <robux@roeck-us.net>
  *
  * based on max1668.c
  * Copyright (c) 2011 David George <david.george@ska.ac.za>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 enum chips { max6581, max6602, max6622, max6636, max6689, max6693, max6694,
 	     max6697, max6698, max6699 };
@@ -641,6 +641,6 @@ static struct i2c_driver max6697_driver = {
 
 module_i2c_driver(max6697_driver);
 
-MODULE_AUTHOR("Guenter Roeck <linux@roeck-us.net>");
+MODULE_AUTHOR("Guenter Roeck <robux@roeck-us.net>");
 MODULE_DESCRIPTION("MAX6697 temperature sensor driver");
 MODULE_LICENSE("GPL");

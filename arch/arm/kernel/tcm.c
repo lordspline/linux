@@ -6,13 +6,13 @@
  * Author: Linus Walleij <linus.walleij@stericsson.com>
  * Author: Rickard Andersson <rickard.andersson@stericsson.com>
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/stddef.h>
-#include <linux/ioport.h>
-#include <linux/genalloc.h>
-#include <linux/string.h> /* memcpy */
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/stddef.h>
+#include <robux/ioport.h>
+#include <robux/genalloc.h>
+#include <robux/string.h> /* memcpy */
 #include <asm/cputype.h>
 #include <asm/mach/map.h>
 #include <asm/page.h>

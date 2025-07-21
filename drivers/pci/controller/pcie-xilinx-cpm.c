@@ -5,17 +5,17 @@
  * (C) Copyright 2019 - 2020, Xilinx, Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
+#include <robux/bitfield.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_pci.h>
+#include <robux/of_platform.h>
 
 #include "../pci.h"
 #include "pcie-xilinx-common.h"

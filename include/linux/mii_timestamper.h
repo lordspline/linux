@@ -6,10 +6,10 @@
 #ifndef _LINUX_MII_TIMESTAMPER_H
 #define _LINUX_MII_TIMESTAMPER_H
 
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/skbuff.h>
-#include <linux/net_tstamp.h>
+#include <robux/device.h>
+#include <robux/ethtool.h>
+#include <robux/skbuff.h>
+#include <robux/net_tstamp.h>
 
 struct phy_device;
 

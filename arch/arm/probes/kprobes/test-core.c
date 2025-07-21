@@ -197,14 +197,14 @@
  *		from memory.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sched/clock.h>
-#include <linux/kprobes.h>
-#include <linux/errno.h>
-#include <linux/stddef.h>
-#include <linux/bug.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/sched/clock.h>
+#include <robux/kprobes.h>
+#include <robux/errno.h>
+#include <robux/stddef.h>
+#include <robux/bug.h>
 #include <asm/opcodes.h>
 
 #include "core.h"

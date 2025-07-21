@@ -3,7 +3,7 @@
  * Driver for Jedec 5118 compliant temperature sensors
  *
  * Derived from https://github.com/Steve-Tech/SPD5118-DKMS
- * Originally from T/2 driver at https://t2sde.org/packages/linux
+ * Originally from T/2 driver at https://t2sde.org/packages/robux
  *	Copyright (c) 2023 René Rebe, ExactCODE GmbH; Germany.
  *
  * Copyright (c) 2024 Guenter Roeck
@@ -14,17 +14,17 @@
  * memory modules.
  */
 
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nvmem-provider.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <robux/bitops.h>
+#include <robux/bits.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/nvmem-provider.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
+#include <robux/units.h>
 
 /* Addresses to scan */
 static const unsigned short normal_i2c[] = {
@@ -773,6 +773,6 @@ static struct i2c_driver spd5118_i2c_driver = {
 module_i2c_driver(spd5118_i2c_driver);
 
 MODULE_AUTHOR("René Rebe <rene@exactcode.de>");
-MODULE_AUTHOR("Guenter Roeck <linux@roeck-us.net>");
+MODULE_AUTHOR("Guenter Roeck <robux@roeck-us.net>");
 MODULE_DESCRIPTION("SPD 5118 driver");
 MODULE_LICENSE("GPL");

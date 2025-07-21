@@ -4,15 +4,15 @@
  *
  * Copyright (C) Daniel Lezcano <daniel.lezcano@linaro.org>
  */
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/sched_clock.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/clk.h>
+#include <robux/clockchips.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/sched_clock.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 #define TIMER_NAME "rk_timer"
 

@@ -10,14 +10,14 @@
  * Copyright (C) 2015 Renesas Electronics Corp.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/soc/renesas/rcar-rst.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/soc/renesas/rcar-rst.h>
 
 #include <dt-bindings/clock/r8a779a0-cpg-mssr.h>
 

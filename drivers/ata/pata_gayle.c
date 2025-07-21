@@ -11,16 +11,16 @@
  *     Created 12 Jul 1997 by Geert Uytterhoeven
  */
 
-#include <linux/ata.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/libata.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/zorro.h>
+#include <robux/ata.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/libata.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/zorro.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_host.h>
 

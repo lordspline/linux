@@ -5,16 +5,16 @@
  * Copyright (C) 2016, Florian Fainelli <f.fainelli@gmail.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/netdevice.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/export.h>
-#include <linux/ethtool.h>
-#include <linux/workqueue.h>
-#include <linux/module.h>
-#include <linux/if_bridge.h>
-#include <linux/dsa/loop.h>
+#include <robux/platform_device.h>
+#include <robux/netdevice.h>
+#include <robux/phy.h>
+#include <robux/phy_fixed.h>
+#include <robux/export.h>
+#include <robux/ethtool.h>
+#include <robux/workqueue.h>
+#include <robux/module.h>
+#include <robux/if_bridge.h>
+#include <robux/dsa/loop.h>
 #include <net/dsa.h>
 
 #include "dsa_loop.h"

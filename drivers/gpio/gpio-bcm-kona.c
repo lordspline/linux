@@ -6,17 +6,17 @@
  * Copyright (C) 2012-2014 Broadcom Corporation
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/irqdomain.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 #define BCM_GPIO_PASSWD				0x00a5a501
 #define GPIO_PER_BANK				32

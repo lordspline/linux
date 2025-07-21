@@ -10,15 +10,15 @@
  * kind, whether express or implied.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/interrupt.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/spinlock.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/interrupt.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/spinlock.h>
 
 #include <asm/byteorder.h>
 #include <asm/io.h>

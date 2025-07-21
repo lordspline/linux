@@ -3,19 +3,19 @@
 // Regulator device driver for DA9061 and DA9062.
 // Copyright (C) 2015-2017  Dialog Semiconductor
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/da9062/core.h>
-#include <linux/mfd/da9062/registers.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/mfd/da9062/core.h>
+#include <robux/mfd/da9062/registers.h>
 #include <dt-bindings/regulator/dlg,da9063-regulator.h>
 
 /* Regulator IDs */

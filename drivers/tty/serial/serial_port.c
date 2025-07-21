@@ -6,15 +6,15 @@
  * Author: Tony Lindgren <tony@atomide.com>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pnp.h>
-#include <linux/property.h>
-#include <linux/serial_core.h>
-#include <linux/spinlock.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/pnp.h>
+#include <robux/property.h>
+#include <robux/serial_core.h>
+#include <robux/spinlock.h>
 
 #include "serial_base.h"
 

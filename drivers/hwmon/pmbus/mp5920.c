@@ -3,10 +3,10 @@
  * Hardware monitoring driver for MP5920 and compatible chips.
  */
 
-#include <linux/i2c.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
+#include <robux/i2c.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
 #include "pmbus.h"
 
 static struct pmbus_driver_info mp5920_info = {

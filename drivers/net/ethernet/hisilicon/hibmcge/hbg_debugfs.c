@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright (c) 2024 Hisilicon Limited.
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/etherdevice.h>
-#include <linux/seq_file.h>
-#include <linux/string_choices.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/etherdevice.h>
+#include <robux/seq_file.h>
+#include <robux/string_choices.h>
 #include "hbg_common.h"
 #include "hbg_debugfs.h"
 #include "hbg_hw.h"

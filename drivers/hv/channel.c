@@ -8,16 +8,16 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/hyperv.h>
-#include <linux/uio.h>
-#include <linux/interrupt.h>
-#include <linux/set_memory.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/hyperv.h>
+#include <robux/uio.h>
+#include <robux/interrupt.h>
+#include <robux/set_memory.h>
 #include <asm/page.h>
 #include <asm/mshyperv.h>
 

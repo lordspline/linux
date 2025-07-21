@@ -6,25 +6,25 @@
  * Author: Arnaud Pouliquen <arnaud.pouliquen@st.com>.
  */
 
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/iio/adc/stm32-dfsdm-adc.h>
-#include <linux/iio/backend.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/hw-consumer.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/timer/stm32-lptim-trigger.h>
-#include <linux/iio/timer/stm32-timer-trigger.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/iio/adc/stm32-dfsdm-adc.h>
+#include <robux/iio/backend.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/hw-consumer.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/timer/stm32-lptim-trigger.h>
+#include <robux/iio/timer/stm32-timer-trigger.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #include "stm32-dfsdm.h"
 

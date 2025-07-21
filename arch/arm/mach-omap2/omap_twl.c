@@ -10,10 +10,10 @@
  * Paul Walmsley
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/twl.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mfd/twl.h>
 
 #include "soc.h"
 #include "voltage.h"

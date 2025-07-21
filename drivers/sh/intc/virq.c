@@ -9,12 +9,12 @@
  */
 #define pr_fmt(fmt) "intc: " fmt
 
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/list.h>
-#include <linux/radix-tree.h>
-#include <linux/spinlock.h>
-#include <linux/export.h>
+#include <robux/slab.h>
+#include <robux/irq.h>
+#include <robux/list.h>
+#include <robux/radix-tree.h>
+#include <robux/spinlock.h>
+#include <robux/export.h>
 #include "internals.h"
 
 static struct intc_map_entry intc_irq_xlate[INTC_NR_IRQS];

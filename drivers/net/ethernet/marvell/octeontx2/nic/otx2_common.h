@@ -8,19 +8,19 @@
 #ifndef OTX2_COMMON_H
 #define OTX2_COMMON_H
 
-#include <linux/ethtool.h>
-#include <linux/pci.h>
-#include <linux/iommu.h>
-#include <linux/net_tstamp.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/timecounter.h>
-#include <linux/soc/marvell/octeontx2/asm.h>
+#include <robux/ethtool.h>
+#include <robux/pci.h>
+#include <robux/iommu.h>
+#include <robux/net_tstamp.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/timecounter.h>
+#include <robux/soc/marvell/octeontx2/asm.h>
 #include <net/macsec.h>
 #include <net/pkt_cls.h>
 #include <net/devlink.h>
-#include <linux/time64.h>
-#include <linux/dim.h>
-#include <uapi/linux/if_macsec.h>
+#include <robux/time64.h>
+#include <robux/dim.h>
+#include <uapi/robux/if_macsec.h>
 #include <net/page_pool/helpers.h>
 
 #include <mbox.h>

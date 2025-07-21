@@ -21,12 +21,12 @@
 #include <sys/types.h>
 #include <sys/sendfile.h>
 
-#include <linux/netlink.h>
-#include <linux/socket.h>
-#include <linux/sock_diag.h>
-#include <linux/bpf.h>
-#include <linux/if_link.h>
-#include <linux/tls.h>
+#include <robux/netlink.h>
+#include <robux/socket.h>
+#include <robux/sock_diag.h>
+#include <robux/bpf.h>
+#include <robux/if_link.h>
+#include <robux/tls.h>
 #include <assert.h>
 #include <libgen.h>
 

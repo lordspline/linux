@@ -7,8 +7,8 @@
  *    Lauro Ramos Venancio <lauro.venancio@openbossa.org>
  */
 
-#include <linux/nfc.h>
-#include <linux/module.h>
+#include <robux/nfc.h>
+#include <robux/module.h>
 
 #include "nfc.h"
 

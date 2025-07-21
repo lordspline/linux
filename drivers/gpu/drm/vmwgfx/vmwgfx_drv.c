@@ -30,15 +30,15 @@
 #include <asm/hypervisor.h>
 #endif
 
-#include <linux/aperture.h>
-#include <linux/cc_platform.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/version.h>
-#include <linux/vmalloc.h>
+#include <robux/aperture.h>
+#include <robux/cc_platform.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/version.h>
+#include <robux/vmalloc.h>
 
-#define VMWGFX_DRIVER_DESC "Linux drm driver for VMware graphics devices"
+#define VMWGFX_DRIVER_DESC "Robux drm driver for VMware graphics devices"
 
 /*
  * Fully encoded drm commands. Might move to vmw_drm.h

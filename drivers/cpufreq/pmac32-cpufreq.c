@@ -11,20 +11,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
-#include <linux/cpufreq.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/hardirq.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/sched.h>
+#include <robux/adb.h>
+#include <robux/pmu.h>
+#include <robux/cpufreq.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/hardirq.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include <asm/machdep.h>
 #include <asm/irq.h>

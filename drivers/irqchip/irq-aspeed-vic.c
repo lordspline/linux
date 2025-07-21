@@ -10,20 +10,20 @@
  *  Copyright (C) 2000 Deep Blue Solutions Ltd
  */
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/syscore_ops.h>
-#include <linux/device.h>
-#include <linux/slab.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/syscore_ops.h>
+#include <robux/device.h>
+#include <robux/slab.h>
 
 #include <asm/exception.h>
 #include <asm/irq.h>

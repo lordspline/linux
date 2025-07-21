@@ -4,14 +4,14 @@
  *	Andrew Davis <afd@ti.com>
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/spi/spi.h>
+#include <robux/bitmap.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/spi/spi.h>
 
 #define DEFAULT_NGPIO 8
 

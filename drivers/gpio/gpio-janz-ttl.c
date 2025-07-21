@@ -5,18 +5,18 @@
  * Copyright (c) 2010 Ira W. Snyder <iws@ovro.caltech.edu>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/gpio/driver.h>
+#include <robux/slab.h>
+#include <robux/bitops.h>
 
-#include <linux/mfd/janz.h>
+#include <robux/mfd/janz.h>
 
 #define DRV_NAME "janz-ttl"
 

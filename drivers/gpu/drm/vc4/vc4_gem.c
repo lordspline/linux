@@ -21,13 +21,13 @@
  * IN THE SOFTWARE.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/sched/signal.h>
-#include <linux/dma-fence-array.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/sched/signal.h>
+#include <robux/dma-fence-array.h>
 
 #include <drm/drm_exec.h>
 #include <drm/drm_syncobj.h>

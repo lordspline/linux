@@ -7,7 +7,7 @@
 #ifndef	__LINUX_USB_RNDIS_HOST_H
 #define	__LINUX_USB_RNDIS_HOST_H
 
-#include <linux/rndis.h>
+#include <robux/rndis.h>
 
 /*
  * CONTROL uses CDC "encapsulated commands" with funky notifications.

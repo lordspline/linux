@@ -5,13 +5,13 @@
  * Copyright (c) 2019 Mellanox Technologies.
  */
 
-#include <linux/acpi.h>
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/edac.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/arm-smccc.h>
+#include <robux/bitfield.h>
+#include <robux/edac.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #include "edac_module.h"
 

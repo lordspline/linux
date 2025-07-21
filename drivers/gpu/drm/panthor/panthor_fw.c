@@ -5,14 +5,14 @@
 #include <asm/arch_timer.h>
 #endif
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/iopoll.h>
-#include <linux/iosys-map.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/firmware.h>
+#include <robux/iopoll.h>
+#include <robux/iosys-map.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_managed.h>

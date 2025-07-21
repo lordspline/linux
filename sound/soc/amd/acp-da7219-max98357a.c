@@ -10,14 +10,14 @@
 #include <sound/pcm_params.h>
 #include <sound/soc-dapm.h>
 #include <sound/jack.h>
-#include <linux/clk.h>
-#include <linux/gpio.h>
-#include <linux/module.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/driver.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/acpi.h>
+#include <robux/clk.h>
+#include <robux/gpio.h>
+#include <robux/module.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/driver.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/acpi.h>
 
 #include "acp.h"
 #include "../codecs/da7219.h"

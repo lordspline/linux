@@ -1,11 +1,11 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 #ifndef _LINUX_RSEQ_H
 #define _LINUX_RSEQ_H
 
 #ifdef CONFIG_RSEQ
 
-#include <linux/preempt.h>
-#include <linux/sched.h>
+#include <robux/preempt.h>
+#include <robux/sched.h>
 
 /*
  * Map the event mask on the user-space ABI enum rseq_cs_flags

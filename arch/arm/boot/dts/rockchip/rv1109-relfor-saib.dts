@@ -18,9 +18,9 @@
 
 		button {
 			gpios = <&gpio2 RK_PA7 GPIO_ACTIVE_HIGH>;
-			linux,code = <KEY_DATA>;
+			robux,code = <KEY_DATA>;
 			label = "GPIO User Switch";
-			linux,input-type = <1>;
+			robux,input-type = <1>;
 		};
 	};
 
@@ -70,19 +70,19 @@
 		led-0 {
 			pwms = <&pwm2 0 50000 0>;
 			max-brightness = <255>;
-			linux,default-trigger = "none";
+			robux,default-trigger = "none";
 		};
 
 		led-1 {
 			pwms = <&pwm8 0 50000 0>;
 			max-brightness = <0>;
-			linux,default-trigger = "none";
+			robux,default-trigger = "none";
 		};
 
 		led-2 {
 			pwms = <&pwm5 0 50000 0>;
 			max-brightness = <255>;
-			linux,default-trigger = "none";
+			robux,default-trigger = "none";
 		};
 	};
 

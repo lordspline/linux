@@ -14,12 +14,12 @@
  * and waking up the secondary CPUs
  */
 
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/mbus.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/mbus.h>
 #include <asm/cacheflush.h>
 #include <asm/smp_plat.h>
 #include "common.h"

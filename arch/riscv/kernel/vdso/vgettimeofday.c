@@ -6,8 +6,8 @@
  * Copyright (C) 2020 SiFive
  */
 
-#include <linux/time.h>
-#include <linux/types.h>
+#include <robux/time.h>
+#include <robux/types.h>
 #include <vdso/gettime.h>
 
 int __vdso_clock_gettime(clockid_t clock, struct __kernel_timespec *ts)

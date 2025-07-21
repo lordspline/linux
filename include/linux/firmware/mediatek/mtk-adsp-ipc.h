@@ -6,10 +6,10 @@
 #ifndef MTK_ADSP_IPC_H
 #define MTK_ADSP_IPC_H
 
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox_client.h>
+#include <robux/device.h>
+#include <robux/types.h>
+#include <robux/mailbox_controller.h>
+#include <robux/mailbox_client.h>
 
 #define MTK_ADSP_IPC_REQ 0
 #define MTK_ADSP_IPC_RSP 1

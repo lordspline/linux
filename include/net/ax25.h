@@ -7,15 +7,15 @@
 #ifndef _AX25_H
 #define _AX25_H 
 
-#include <linux/ax25.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/refcount.h>
+#include <robux/ax25.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
+#include <robux/list.h>
+#include <robux/slab.h>
+#include <robux/refcount.h>
 #include <net/neighbour.h>
 #include <net/sock.h>
-#include <linux/seq_file.h>
+#include <robux/seq_file.h>
 
 #define	AX25_T1CLAMPLO  		1
 #define	AX25_T1CLAMPHI 			(30 * HZ)
@@ -64,7 +64,7 @@
 #define	AX25_COND_DAMA_MODE		0x10
 
 #ifndef _LINUX_NETDEVICE_H
-#include <linux/netdevice.h>
+#include <robux/netdevice.h>
 #endif
 
 /* Upper sub-layer (LAPB) definitions */

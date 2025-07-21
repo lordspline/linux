@@ -74,22 +74,22 @@
  *     markers.
  */
 
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/of.h>
-#include <linux/iopoll.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/clk.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/of.h>
+#include <robux/iopoll.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/unaligned.h>
 
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma/pxa-dma.h>
-#include <linux/platform_data/mtd-nand-pxa3xx.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/dma/pxa-dma.h>
+#include <robux/platform_data/mtd-nand-pxa3xx.h>
 
 /* Data FIFO granularity, FIFO reads/writes must be a multiple of this length */
 #define FIFO_DEPTH		8

@@ -7,9 +7,9 @@
  *
  * MIPS boards specific PCI support.
  */
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
 
 #include <asm/mips-boards/bonito64.h>
 

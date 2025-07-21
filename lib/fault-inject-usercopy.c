@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/fault-inject.h>
-#include <linux/fault-inject-usercopy.h>
+#include <robux/fault-inject.h>
+#include <robux/fault-inject-usercopy.h>
 
 static struct {
 	struct fault_attr attr;

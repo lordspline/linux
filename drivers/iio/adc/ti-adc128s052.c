@@ -9,14 +9,14 @@
  * https://www.ti.com/lit/ds/symlink/adc124s021.pdf
  */
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/iio/iio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/iio/iio.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spi/spi.h>
 
 struct adc128_configuration {
 	const struct iio_chan_spec	*channels;

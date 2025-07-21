@@ -8,9 +8,9 @@
  * for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/string.h>
 #include <asm/cpuinfo.h>
 #include <asm/pvr.h>
 

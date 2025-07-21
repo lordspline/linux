@@ -15,23 +15,23 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/dmi.h>
-#include <linux/timex.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/cpufreq.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/dmi.h>
+#include <robux/timex.h>
+#include <robux/io.h>
 
 #include <asm/timer.h>		/* Needed for recalibrate_cpu_khz() */
 #include <asm/msr.h>
 #include <asm/cpu_device_id.h>
 
 #ifdef CONFIG_X86_POWERNOW_K7_ACPI
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 #include <acpi/processor.h>
 #endif
 

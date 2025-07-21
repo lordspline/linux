@@ -9,9 +9,9 @@
 
 #include "main.h"
 
-#include <linux/netlink.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
+#include <robux/netlink.h>
+#include <robux/skbuff.h>
+#include <robux/types.h>
 
 /**
  * enum batadv_forw_mode - the way a packet should be forwarded as

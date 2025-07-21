@@ -6,22 +6,22 @@
  * Copyright 2019 Renato Lui Geh
  */
 
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/spi/spi.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/bits.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/spi/spi.h>
+#include <robux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/sched.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/bits.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/adc/ad_sigma_delta.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/adc/ad_sigma_delta.h>
 
 #define AD7780_RDY		BIT(7)
 #define AD7780_FILTER		BIT(6)

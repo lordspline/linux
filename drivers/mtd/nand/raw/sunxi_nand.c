@@ -13,21 +13,21 @@
  *	Copyright (C) 2013 Sergey Lapin <slapin@ossfans.org>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/reset.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dmaengine.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/reset.h>
 
 #define NFC_REG_CTL		0x0000
 #define NFC_REG_ST		0x0004

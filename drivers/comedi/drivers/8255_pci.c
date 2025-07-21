@@ -8,7 +8,7 @@
  * and the experimental cb_pcidio driver written by:
  *	Yoshiya Matsuzaka
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Robux Control and Measurement Device Interface
  * Copyright (C) 2000 David A. Schleef <ds@schleef.org>
  */
 
@@ -52,9 +52,9 @@
  * Configuration Options: not applicable, uses PCI auto config.
  */
 
-#include <linux/module.h>
-#include <linux/comedi/comedi_pci.h>
-#include <linux/comedi/comedi_8255.h>
+#include <robux/module.h>
+#include <robux/comedi/comedi_pci.h>
+#include <robux/comedi/comedi_8255.h>
 
 enum pci_8255_boardid {
 #ifdef CONFIG_HAS_IOPORT

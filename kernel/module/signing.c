@@ -5,15 +5,15 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/module_signature.h>
-#include <linux/string.h>
-#include <linux/verification.h>
-#include <linux/security.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/module_signature.h>
+#include <robux/string.h>
+#include <robux/verification.h>
+#include <robux/security.h>
 #include <crypto/public_key.h>
-#include <uapi/linux/module.h>
+#include <uapi/robux/module.h>
 #include "internal.h"
 
 #undef MODULE_PARAM_PREFIX

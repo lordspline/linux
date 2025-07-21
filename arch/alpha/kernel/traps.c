@@ -9,20 +9,20 @@
  * This file initializes the trap entry points
  */
 
-#include <linux/cpu.h>
-#include <linux/jiffies.h>
-#include <linux/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
-#include <linux/tty.h>
-#include <linux/delay.h>
-#include <linux/extable.h>
-#include <linux/kallsyms.h>
-#include <linux/ratelimit.h>
+#include <robux/cpu.h>
+#include <robux/jiffies.h>
+#include <robux/mm.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/debug.h>
+#include <robux/tty.h>
+#include <robux/delay.h>
+#include <robux/extable.h>
+#include <robux/kallsyms.h>
+#include <robux/ratelimit.h>
 
 #include <asm/gentrap.h>
-#include <linux/uaccess.h>
-#include <linux/unaligned.h>
+#include <robux/uaccess.h>
+#include <robux/unaligned.h>
 #include <asm/sysinfo.h>
 #include <asm/hwrpb.h>
 #include <asm/mmu_context.h>

@@ -1,11 +1,11 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI_IF_TUNNEL_H_
 #define _UAPI_IF_TUNNEL_H_
 
-#include <linux/types.h>
-#include <linux/if.h>
-#include <linux/ip.h>
-#include <linux/in6.h>
+#include <robux/types.h>
+#include <robux/if.h>
+#include <robux/ip.h>
+#include <robux/in6.h>
 #include <asm/byteorder.h>
 
 

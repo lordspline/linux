@@ -7,28 +7,28 @@
  * Copyright (C) 2016, Robert Jarzmik <robert.jarzmik@free.fr>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/time.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/dmaengine.h>
-#include <linux/dma/pxa-dma.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/moduleparam.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/time.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/dmaengine.h>
+#include <robux/dma/pxa-dma.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-common.h>
@@ -40,10 +40,10 @@
 
 #include <media/videobuf2-dma-sg.h>
 
-#include <linux/videodev2.h>
+#include <robux/videodev2.h>
 
-#include <linux/platform_data/media/camera-pxa.h>
-#include <linux/workqueue.h>
+#include <robux/platform_data/media/camera-pxa.h>
+#include <robux/workqueue.h>
 
 #define PXA_CAM_VERSION "0.0.6"
 #define PXA_CAM_DRV_NAME "pxa27x-camera"

@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef _IIO_BUFFER_GENERIC_IMPL_H_
 #define _IIO_BUFFER_GENERIC_IMPL_H_
-#include <linux/sysfs.h>
-#include <linux/kref.h>
+#include <robux/sysfs.h>
+#include <robux/kref.h>
 
 #ifdef CONFIG_IIO_BUFFER
 
-#include <uapi/linux/iio/buffer.h>
-#include <linux/iio/buffer.h>
+#include <uapi/robux/iio/buffer.h>
+#include <robux/iio/buffer.h>
 
 struct dma_buf_attachment;
 struct dma_fence;

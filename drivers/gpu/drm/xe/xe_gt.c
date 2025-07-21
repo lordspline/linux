@@ -5,7 +5,7 @@
 
 #include "xe_gt.h"
 
-#include <linux/minmax.h>
+#include <robux/minmax.h>
 
 #include <drm/drm_managed.h>
 #include <uapi/drm/xe_drm.h>

@@ -4,9 +4,9 @@
  * Copyright 2025 NXP
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/fsl/netc_global.h>
-#include <linux/iopoll.h>
+#include <robux/dma-mapping.h>
+#include <robux/fsl/netc_global.h>
+#include <robux/iopoll.h>
 
 #include "ntmp_private.h"
 

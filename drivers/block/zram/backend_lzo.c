@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/lzo.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/lzo.h>
 
 #include "backend_lzo.h"
 

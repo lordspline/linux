@@ -5,12 +5,12 @@
  * Author: Nicolas Pitre <npitre@baylibre.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/i3c/master.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/i3c/master.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
 
 #include "hci.h"
 #include "ext_caps.h"

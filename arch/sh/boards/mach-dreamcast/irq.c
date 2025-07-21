@@ -8,10 +8,10 @@
  *
  * This file is part of the LinuxDC project (www.linuxdc.org)
  */
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/export.h>
-#include <linux/err.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/export.h>
+#include <robux/err.h>
 #include <mach/sysasic.h>
 
 /*

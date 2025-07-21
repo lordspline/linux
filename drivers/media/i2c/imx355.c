@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Intel Corporation
 
-#include <linux/unaligned.h>
-#include <linux/acpi.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
+#include <robux/unaligned.h>
+#include <robux/acpi.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-event.h>

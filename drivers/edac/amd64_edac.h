@@ -8,15 +8,15 @@
  * GNU General Public License.
  */
 
-#include <linux/module.h>
-#include <linux/ctype.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/slab.h>
-#include <linux/mmzone.h>
-#include <linux/edac.h>
-#include <linux/bitfield.h>
+#include <robux/module.h>
+#include <robux/ctype.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/slab.h>
+#include <robux/mmzone.h>
+#include <robux/edac.h>
+#include <robux/bitfield.h>
 #include <asm/cpu_device_id.h>
 #include <asm/msr.h>
 #include "edac_module.h"

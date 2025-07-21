@@ -18,16 +18,16 @@
  * program executing on an SPE.
  */
 
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/hardirq.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
+#include <robux/export.h>
+#include <robux/errno.h>
+#include <robux/hardirq.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/smp.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
 
 #include <asm/io.h>
 #include <asm/spu.h>

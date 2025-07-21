@@ -6,13 +6,13 @@
  *
  * Author: Daniel Lezcano <daniel.lezcano@linaro.org>
  */
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/hi655x-pmic.h>
+#include <robux/clk-provider.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/hi655x-pmic.h>
 
 #define HI655X_CLK_BASE	HI655X_BUS_ADDR(0x1c)
 #define HI655X_CLK_SET	BIT(6)

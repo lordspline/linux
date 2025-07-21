@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2024, Nikita Travkin <nikita@trvn.ru> */
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <drm/drm_bridge.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/workqueue_types.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/usb/typec_mux.h>
+#include <robux/workqueue_types.h>
 
 #define MILLI_TO_MICRO			1000
 

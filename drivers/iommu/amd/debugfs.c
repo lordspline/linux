@@ -7,8 +7,8 @@
  * Author: Gary R Hook <gary.hook@amd.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/pci.h>
+#include <robux/debugfs.h>
+#include <robux/pci.h>
 
 #include "amd_iommu.h"
 

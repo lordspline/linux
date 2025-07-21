@@ -6,11 +6,11 @@
  * Copyright (C) 2024-2025 Werner Sembach <wse@tuxedocomputers.com>
  */
 
-#include <linux/dmi.h>
-#include <linux/hid.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/wmi.h>
+#include <robux/dmi.h>
+#include <robux/hid.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/wmi.h>
 
 #include "wmi_util.h"
 

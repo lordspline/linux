@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2024 Intel Corporation */
-#include <linux/types.h>
+#include <robux/types.h>
 #include "adf_gen2_hw_csr_data.h"
 
 static u64 build_csr_ring_base_addr(dma_addr_t addr, u32 size)

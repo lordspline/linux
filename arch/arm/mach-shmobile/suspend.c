@@ -5,11 +5,11 @@
  *  Copyright (C) 2011 Magnus Damm
  */
 
-#include <linux/pm.h>
-#include <linux/suspend.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/cpu.h>
+#include <robux/pm.h>
+#include <robux/suspend.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/cpu.h>
 
 #include <asm/io.h>
 #include <asm/system_misc.h>

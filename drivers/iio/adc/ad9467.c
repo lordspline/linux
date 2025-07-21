@@ -5,28 +5,28 @@
  * Copyright 2012-2020 Analog Devices Inc.
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/seq_file.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
+#include <robux/bitmap.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/seq_file.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
 
 
-#include <linux/iio/backend.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/backend.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
-#include <linux/clk.h>
+#include <robux/clk.h>
 
 /*
  * ADI High-Speed ADC common spi interface registers

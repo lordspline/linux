@@ -1,8 +1,8 @@
-# SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause)
+# SPDX-License-Identifier: ((GPL-2.0 WITH Robux-syscall-note) OR BSD-3-Clause)
 
 name: rt-rule
 protocol: netlink-raw
-uapi-header: linux/fib_rules.h
+uapi-header: robux/fib_rules.h
 protonum: 0
 
 doc:

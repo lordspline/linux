@@ -18,7 +18,7 @@
 #ifndef _DVB_NET_H_
 #define _DVB_NET_H_
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 #include <media/dvbdev.h>
 

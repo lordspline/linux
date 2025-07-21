@@ -3,9 +3,9 @@
  *  ATI Mach64 CT/VT/GT/LT Cursor Support
  */
 
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/string.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/string.h>
 
 #include <asm/io.h>
 

@@ -5,16 +5,16 @@
  * Copyright (C) 2019 Renesas Electronics Corp.
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/usb/role.h>
-#include <linux/irqreturn.h>
-#include <linux/interrupt.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/usb/typec.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/usb/role.h>
+#include <robux/irqreturn.h>
+#include <robux/interrupt.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/usb/typec.h>
+#include <robux/delay.h>
+#include <robux/workqueue.h>
 
 #define HD3SS3220_REG_CN_STAT		0x08
 #define HD3SS3220_REG_CN_STAT_CTRL	0x09

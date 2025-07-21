@@ -10,14 +10,14 @@
  * 	   Alex deVries <alex@onefishtwo.ca>
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/types.h>
-#include <linux/reboot.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/types.h>
+#include <robux/reboot.h>
 
 #include <asm/io.h>
 #include <asm/hardware.h>

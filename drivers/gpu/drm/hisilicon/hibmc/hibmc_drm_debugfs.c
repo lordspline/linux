@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 // Copyright (c) 2024 Hisilicon Limited.
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/seq_file.h>
-#include <linux/pci.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/seq_file.h>
+#include <robux/pci.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_file.h>

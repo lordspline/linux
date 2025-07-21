@@ -13,14 +13,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/moduleloader.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/cache.h>
+#include <robux/module.h>
+#include <robux/moduleloader.h>
+#include <robux/elf.h>
+#include <robux/vmalloc.h>
+#include <robux/fs.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/cache.h>
 
 static int
 decode_calln_opcode (unsigned char *location)

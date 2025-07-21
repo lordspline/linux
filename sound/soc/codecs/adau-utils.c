@@ -6,9 +6,9 @@
  * Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/gcd.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/gcd.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #include "adau-utils.h"
 

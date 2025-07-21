@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * PCI Bus Services, see include/linux/pci.h for further explanation.
+ * PCI Bus Services, see include/robux/pci.h for further explanation.
  *
  * Copyright 1993 -- 1997 Drew Eckhardt, Frederic Potter,
  * David Mosberger-Tang
@@ -8,28 +8,28 @@
  * Copyright 1997 -- 2000 Martin Mares <mj@ucw.cz>
  */
 
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/log2.h>
-#include <linux/logic_pio.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pci_hotplug.h>
-#include <linux/vmalloc.h>
+#include <robux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/init.h>
+#include <robux/msi.h>
+#include <robux/of.h>
+#include <robux/pci.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/log2.h>
+#include <robux/logic_pio.h>
+#include <robux/device.h>
+#include <robux/pm_runtime.h>
+#include <robux/pci_hotplug.h>
+#include <robux/vmalloc.h>
 #include <asm/dma.h>
-#include <linux/aer.h>
-#include <linux/bitfield.h>
+#include <robux/aer.h>
+#include <robux/bitfield.h>
 #include "pci.h"
 
 DEFINE_MUTEX(pci_slot_mutex);
@@ -2988,7 +2988,7 @@ static const struct dmi_system_id bridge_d3_blacklist[] = {
 	{
 		/*
 		 * Gigabyte X299 root port is not marked as hotplug capable
-		 * which allows Linux to power manage it.  However, this
+		 * which allows Robux to power manage it.  However, this
 		 * confuses the BIOS SMI handler so don't power manage root
 		 * ports on that system.
 		 */

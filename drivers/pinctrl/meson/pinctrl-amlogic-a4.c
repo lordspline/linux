@@ -4,23 +4,23 @@
  * Author: Xianwei Zhao <xianwei.zhao@amlogic.com>
  */
 
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/string_helpers.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 #include <dt-bindings/pinctrl/amlogic,pinctrl.h>
 
 #include "../core.h"

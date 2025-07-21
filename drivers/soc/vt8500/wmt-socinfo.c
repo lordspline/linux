@@ -4,12 +4,12 @@
  * Based on aspeed-socinfo.c
  */
 
-#include <linux/dev_printk.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/sys_soc.h>
+#include <robux/dev_printk.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/sys_soc.h>
 
 static const struct {
 	const char *name;

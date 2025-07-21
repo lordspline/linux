@@ -14,17 +14,17 @@
 
 #define pr_fmt(fmt) "i2c-parport: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/parport.h>
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
-#include <linux/i2c-smbus.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/parport.h>
+#include <robux/i2c.h>
+#include <robux/i2c-algo-bit.h>
+#include <robux/i2c-smbus.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
 
 #define PORT_DATA	0
 #define PORT_STAT	1

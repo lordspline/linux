@@ -3,15 +3,15 @@
 // Copyright(c) 2021-2022 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@robux.intel.com>
 //
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/dmi.h>
-#include <linux/pci.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/dmi.h>
+#include <robux/pci.h>
 #include <acpi/nhlt.h>
-#include <linux/platform_device.h>
+#include <robux/platform_device.h>
 #include <sound/hda_codec.h>
 #include <sound/hda_register.h>
 #include <sound/soc-acpi.h>

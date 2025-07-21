@@ -5,7 +5,7 @@
  */
 
 #include <ctype.h>
-#include <linux/isst_if.h>
+#include <robux/isst_if.h>
 
 #include "isst.h"
 
@@ -1585,7 +1585,7 @@ static void set_tdp_level(int arg)
 		fprintf(stderr,
 			"\t Optional Arguments: -o | online : online/offline for the tdp level\n");
 		fprintf(stderr,
-			"\t  online/offline operation has limitations, refer to Linux hotplug documentation\n");
+			"\t  online/offline operation has limitations, refer to Robux hotplug documentation\n");
 		exit(0);
 	}
 

@@ -2,16 +2,16 @@
 /*
  * Character device interface driver for Remoteproc framework.
  *
- * Copyright (c) 2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/cdev.h>
-#include <linux/compat.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/remoteproc.h>
-#include <linux/uaccess.h>
-#include <uapi/linux/remoteproc_cdev.h>
+#include <robux/cdev.h>
+#include <robux/compat.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/remoteproc.h>
+#include <robux/uaccess.h>
+#include <uapi/robux/remoteproc_cdev.h>
 
 #include "remoteproc_internal.h"
 

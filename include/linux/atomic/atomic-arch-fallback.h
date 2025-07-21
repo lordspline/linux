@@ -6,7 +6,7 @@
 #ifndef _LINUX_ATOMIC_FALLBACK_H
 #define _LINUX_ATOMIC_FALLBACK_H
 
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 
 #if defined(arch_xchg)
 #define raw_xchg arch_xchg

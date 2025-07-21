@@ -31,9 +31,9 @@
  * SOFTWARE.
  */
 
-#include <linux/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/device.h>
+#include <robux/mm.h>
+#include <robux/sched/signal.h>
+#include <robux/device.h>
 
 #include "qib.h"
 

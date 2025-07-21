@@ -18,13 +18,13 @@
 			debounce-interval = <10>;
 			gpios = <&lsio_gpio3 10 GPIO_ACTIVE_HIGH>;
 			label = "Wake-Up";
-			linux,code = <KEY_WAKEUP>;
+			robux,code = <KEY_WAKEUP>;
 			wakeup-source;
 		};
 	};
 
 	extcon_usbc_det: usbc-det {
-		compatible = "linux,extcon-usb-gpio";
+		compatible = "robux,extcon-usb-gpio";
 		pinctrl-names = "default";
 		pinctrl-0 = <&pinctrl_usbc_det>;
 		id-gpios = <&lsio_gpio5 9 GPIO_ACTIVE_HIGH>;
@@ -725,7 +725,7 @@
 
 	/*
 	 * This pin is used in the SCFW as a UART. Using it from
-	 * Linux would require rewriting the SCFW board file.
+	 * Robux would require rewriting the SCFW board file.
 	 */
 	pinctrl_hog_scfw: hogscfwgrp {
 		fsl,pins = <IMX8QXP_SCU_GPIO0_00_LSIO_GPIO2_IO03		0x20>;		/* SODIMM 144 */

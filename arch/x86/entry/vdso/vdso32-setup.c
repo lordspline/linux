@@ -7,11 +7,11 @@
  * This file contains the needed initializations to support sysenter.
  */
 
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/mm_types.h>
-#include <linux/elf.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/kernel.h>
+#include <robux/mm_types.h>
+#include <robux/elf.h>
 
 #include <asm/processor.h>
 #include <asm/vdso.h>
@@ -53,7 +53,7 @@ __setup_param("vdso=", vdso_setup, vdso32_setup, 0);
 
 
 #ifdef CONFIG_SYSCTL
-#include <linux/sysctl.h>
+#include <robux/sysctl.h>
 
 static const struct ctl_table vdso_table[] = {
 	{

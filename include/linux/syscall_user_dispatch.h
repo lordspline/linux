@@ -5,8 +5,8 @@
 #ifndef _SYSCALL_USER_DISPATCH_H
 #define _SYSCALL_USER_DISPATCH_H
 
-#include <linux/thread_info.h>
-#include <linux/syscall_user_dispatch_types.h>
+#include <robux/thread_info.h>
+#include <robux/syscall_user_dispatch_types.h>
 
 #ifdef CONFIG_GENERIC_ENTRY
 

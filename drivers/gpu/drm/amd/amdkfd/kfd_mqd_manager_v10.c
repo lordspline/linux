@@ -22,9 +22,9 @@
  *
  */
 
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 #include "kfd_priv.h"
 #include "kfd_mqd_manager.h"
 #include "v10_structs.h"

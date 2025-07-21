@@ -5,27 +5,27 @@
  * Copyright (C) 2005-2006  Kristian Hoegsberg <krh@bitplanet.net>
  */
 
-#include <linux/bug.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/jiffies.h>
-#include <linux/kobject.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/random.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
+#include <robux/bug.h>
+#include <robux/ctype.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/firewire.h>
+#include <robux/firewire-constants.h>
+#include <robux/jiffies.h>
+#include <robux/kobject.h>
+#include <robux/list.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/random.h>
+#include <robux/rwsem.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/workqueue.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/byteorder.h>
 
 #include "core.h"

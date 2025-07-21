@@ -11,9 +11,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/hwmon-vid.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/hwmon-vid.h>
 
 #ifdef CONFIG_X86
 #include <asm/msr.h>

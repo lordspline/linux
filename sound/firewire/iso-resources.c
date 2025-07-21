@@ -5,14 +5,14 @@
  * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
  */
 
-#include <linux/device.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/export.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
+#include <robux/device.h>
+#include <robux/firewire.h>
+#include <robux/firewire-constants.h>
+#include <robux/export.h>
+#include <robux/jiffies.h>
+#include <robux/mutex.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
 #include "iso-resources.h"
 
 /**

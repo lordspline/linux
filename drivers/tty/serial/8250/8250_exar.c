@@ -6,26 +6,26 @@
  *
  *  Copyright (C) 2017 Sudip Mukherjee, All Rights Reserved.
  */
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/eeprom_93cx6.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dmi.h>
+#include <robux/eeprom_93cx6.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/property.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
-#include <linux/serial_8250.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
+#include <robux/serial_8250.h>
+#include <robux/serial_core.h>
+#include <robux/serial_reg.h>
 
 #include <asm/byteorder.h>
 

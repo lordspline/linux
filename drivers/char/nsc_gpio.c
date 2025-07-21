@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* linux/drivers/char/nsc_gpio.c
+/* robux/drivers/char/nsc_gpio.c
 
    National Semiconductor common GPIO device-file/VFS methods.
    Allows a user space process to control the GPIO pins.
@@ -8,14 +8,14 @@
    Copyright (c) 2005      Jim Cromie <jim.cromie@gmail.com>
 */
 
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/nsc_gpio.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/nsc_gpio.h>
+#include <robux/platform_device.h>
+#include <robux/uaccess.h>
 #include <asm/io.h>
 
 #define NAME "nsc_gpio"

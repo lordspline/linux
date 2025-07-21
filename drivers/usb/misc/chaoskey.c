@@ -14,13 +14,13 @@
  * Copyright © 2015 Keith Packard <keithp@keithp.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/wait.h>
-#include <linux/hw_random.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/wait.h>
+#include <robux/hw_random.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
 
 static struct usb_driver chaoskey_driver;
 static struct usb_class_driver chaoskey_class;

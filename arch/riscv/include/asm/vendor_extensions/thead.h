@@ -4,7 +4,7 @@
 
 #include <asm/vendor_extensions.h>
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /*
  * Extension keys must be strictly less than RISCV_ISA_VENDOR_EXT_MAX.

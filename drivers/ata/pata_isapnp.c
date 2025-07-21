@@ -7,15 +7,15 @@
  *   Based in part on ide-pnp.c by Andrey Panin <pazke@donpac.ru>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/isapnp.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/isapnp.h>
+#include <robux/init.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
 #include <scsi/scsi_host.h>
-#include <linux/ata.h>
-#include <linux/libata.h>
+#include <robux/ata.h>
+#include <robux/libata.h>
 
 #define DRV_NAME "pata_isapnp"
 #define DRV_VERSION "0.2.5"

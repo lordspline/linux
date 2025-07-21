@@ -5,24 +5,24 @@
  * Copyright 2011 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/spi/spi.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/crc8.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/spi/spi.h>
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
 
 /* Registers */
 

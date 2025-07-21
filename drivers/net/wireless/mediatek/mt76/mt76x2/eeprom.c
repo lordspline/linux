@@ -3,9 +3,9 @@
  * Copyright (C) 2016 Felix Fietkau <nbd@nbd.name>
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/unaligned.h>
 #include "mt76x2.h"
 #include "eeprom.h"
 

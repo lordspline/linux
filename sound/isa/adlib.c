@@ -3,9 +3,9 @@
  * AdLib FM card driver.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/isa.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/isa.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/opl3.h>

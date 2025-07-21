@@ -4,9 +4,9 @@
  *   friendly supported by NI.
  */
 
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/usb.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/usb.h>
 #include <sound/control.h>
 #include <sound/core.h>
 #include <sound/pcm.h>

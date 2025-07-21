@@ -6,14 +6,14 @@
  * Author: Christian Bruel <christian.bruel@foss.st.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/mfd/syscon.h>
+#include <robux/platform_device.h>
+#include <robux/phy/phy.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 #include <dt-bindings/phy/phy.h>
 
 #define SYSCFG_COMBOPHY_CR1 0x4c00

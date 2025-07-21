@@ -6,7 +6,7 @@
 #ifndef __IVPU_HW_BTRS_LNL_REG_H__
 #define __IVPU_HW_BTRS_LNL_REG_H__
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 #define VPU_HW_BTRS_LNL_INTERRUPT_STAT				0x00000000u
 #define VPU_HW_BTRS_LNL_INTERRUPT_STAT_FREQ_CHANGE_MASK		BIT_MASK(0)

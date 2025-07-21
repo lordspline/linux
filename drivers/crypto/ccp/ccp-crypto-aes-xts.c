@@ -8,10 +8,10 @@
  * Author: Tom Lendacky <thomas.lendacky@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/scatterlist.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/scatterlist.h>
 #include <crypto/aes.h>
 #include <crypto/xts.h>
 #include <crypto/internal/skcipher.h>

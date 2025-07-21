@@ -4,10 +4,10 @@
  *  Written from the i915 driver.
  */
 
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/errno.h>
+#include <robux/fb.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #include <drm/drm_crtc_helper.h>
 #include <drm/drm_drv.h>

@@ -9,24 +9,24 @@
  *   Authors	Christian Zankel, Joe Taylor
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/major.h>
-#include <linux/param.h>
-#include <linux/seq_file.h>
-#include <linux/serial.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/console.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/major.h>
+#include <robux/param.h>
+#include <robux/seq_file.h>
+#include <robux/serial.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/irq.h>
 
 #include <platform/simcall.h>
 
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
 
 #define SERIAL_MAX_NUM_LINES 1
 #define SERIAL_TIMER_VALUE (HZ / 10)

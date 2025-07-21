@@ -4,9 +4,9 @@
  * Copyright (C) 2018 Lorenzo Bianconi <lorenzo.bianconi83@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/firmware.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/firmware.h>
+#include <robux/delay.h>
 
 #include "mt76x2.h"
 #include "mcu.h"

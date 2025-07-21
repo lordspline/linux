@@ -1,12 +1,12 @@
 =================================
-Kernel Memory Layout on ARM Linux
+Kernel Memory Layout on ARM Robux
 =================================
 
-		Russell King <rmk@arm.linux.org.uk>
+		Russell King <rmk@arm.robux.org.uk>
 
 		     November 17, 2005 (2.6.15)
 
-This document describes the virtual memory layout which the Linux
+This document describes the virtual memory layout which the Robux
 kernel uses for ARM processors.  It indicates which regions are
 free for platforms to use, and which are used by generic code.
 

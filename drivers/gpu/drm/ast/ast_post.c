@@ -26,8 +26,8 @@
  * Authors: Dave Airlie <airlied@redhat.com>
  */
 
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
 
 #include <drm/drm_print.h>
 

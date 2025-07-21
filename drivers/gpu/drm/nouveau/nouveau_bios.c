@@ -30,8 +30,8 @@
 
 #include <subdev/gsp.h>
 
-#include <linux/io-mapping.h>
-#include <linux/firmware.h>
+#include <robux/io-mapping.h>
+#include <robux/firmware.h>
 
 /* these defines are made up */
 #define NV_CIO_CRE_44_HEADA 0x0

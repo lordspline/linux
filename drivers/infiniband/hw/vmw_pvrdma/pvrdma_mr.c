@@ -43,8 +43,8 @@
  * OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <robux/list.h>
+#include <robux/slab.h>
 
 #include "pvrdma.h"
 

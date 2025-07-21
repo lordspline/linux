@@ -5,11 +5,11 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/mfd/syscon.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/mfd/syscon.h>
 
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>

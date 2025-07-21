@@ -3,14 +3,14 @@
  * Copyright 2010 2011 Mark Nelson and Tseng-Hui (Frank) Lin, IBM Corporation
  */
 
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/list.h>
-#include <linux/notifier.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/list.h>
+#include <robux/notifier.h>
 
 #include <asm/machdep.h>
 #include <asm/rtas.h>

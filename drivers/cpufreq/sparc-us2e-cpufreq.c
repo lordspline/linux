@@ -7,15 +7,15 @@
  * infrastructure in order to make this driver easier to implement.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/cpufreq.h>
-#include <linux/threads.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/smp.h>
+#include <robux/cpufreq.h>
+#include <robux/threads.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/init.h>
 
 #include <asm/asi.h>
 #include <asm/timer.h>

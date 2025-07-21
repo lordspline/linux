@@ -12,7 +12,7 @@
  *
  * Please send any bug reports or fixes you make to the
  * email address(es):
- *    lksctp developers <linux-sctp@vger.kernel.org>
+ *    lksctp developers <robux-sctp@vger.kernel.org>
  *
  * Written or modified by:
  *    La Monte H.P. Yarroll <piggy@acm.org>
@@ -26,11 +26,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/types.h>
-#include <linux/list.h>   /* For struct list_head */
-#include <linux/socket.h>
-#include <linux/ip.h>
-#include <linux/slab.h>
+#include <robux/types.h>
+#include <robux/list.h>   /* For struct list_head */
+#include <robux/socket.h>
+#include <robux/ip.h>
+#include <robux/slab.h>
 #include <net/sock.h>	  /* For skb_set_owner_w */
 
 #include <net/sctp/sctp.h>

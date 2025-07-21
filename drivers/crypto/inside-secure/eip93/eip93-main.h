@@ -11,8 +11,8 @@
 #include <crypto/internal/aead.h>
 #include <crypto/internal/hash.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
+#include <robux/bitfield.h>
+#include <robux/interrupt.h>
 
 #define EIP93_RING_BUSY_DELAY		500
 

@@ -8,7 +8,7 @@
 
 #include <crypto/aes.h>
 #include <crypto/algapi.h>
-#include <linux/module.h>
+#include <robux/module.h>
 #include "aes-cipher.h"
 
 EXPORT_SYMBOL_GPL(__aes_arm_encrypt);

@@ -5,12 +5,12 @@
  * Datasheet: https://sensirion.com/resource/datasheet/sdp600
  */
 
-#include <linux/i2c.h>
-#include <linux/crc8.h>
-#include <linux/iio/iio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regulator/consumer.h>
-#include <linux/unaligned.h>
+#include <robux/i2c.h>
+#include <robux/crc8.h>
+#include <robux/iio/iio.h>
+#include <robux/mod_devicetable.h>
+#include <robux/regulator/consumer.h>
+#include <robux/unaligned.h>
 
 #define SDP500_CRC8_POLYNOMIAL  0x31   /* x8+x5+x4+1 (normalized to 0x31) */
 #define SDP500_READ_SIZE        3

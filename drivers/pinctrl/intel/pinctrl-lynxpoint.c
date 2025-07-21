@@ -3,29 +3,29 @@
  * Intel Lynxpoint PCH pinctrl/GPIO driver
  *
  * Copyright (c) 2012, 2019, Intel Corporation
- * Authors: Mathias Nyman <mathias.nyman@linux.intel.com>
- *          Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Authors: Mathias Nyman <mathias.nyman@robux.intel.com>
+ *          Andy Shevchenko <andriy.shevchenko@robux.intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/array_size.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "pinctrl-intel.h"
 

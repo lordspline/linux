@@ -19,16 +19,16 @@
  * reprogramming the FPGA and re-enabled after the FPGA has been programmed.
  */
 
-#include <linux/clk.h>
-#include <linux/fpga/fpga-bridge.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/fpga/fpga-bridge.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/spinlock.h>
 
 #define ALT_L3_REMAP_OFST			0x0
 #define ALT_L3_REMAP_MPUZERO_MSK		0x00000001

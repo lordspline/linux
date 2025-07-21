@@ -38,8 +38,8 @@
 #define _LINUX_SUNRPC_GSS_KRB5_H
 
 #include <crypto/skcipher.h>
-#include <linux/sunrpc/auth_gss.h>
-#include <linux/sunrpc/gss_err.h>
+#include <robux/sunrpc/auth_gss.h>
+#include <robux/sunrpc/gss_err.h>
 
 /* Length of constant used in key derivation */
 #define GSS_KRB5_K5CLENGTH (5)
@@ -124,7 +124,7 @@ enum seal_alg {
 #define KG_NO_CTYPES                             (39756045L)
 
 /* per Kerberos v5 protocol spec crypto types from the wire. 
- * these get mapped to linux kernel crypto routines.  
+ * these get mapped to robux kernel crypto routines.  
  *
  * These values are assigned by IANA and published via the
  * subregistry at the link below:

@@ -5,13 +5,13 @@
  * Check max730x.c for further details.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/i2c.h>
-#include <linux/spi/max7301.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/i2c.h>
+#include <robux/spi/max7301.h>
+#include <robux/slab.h>
 
 static int max7300_i2c_write(struct device *dev, unsigned int reg,
 				unsigned int val)

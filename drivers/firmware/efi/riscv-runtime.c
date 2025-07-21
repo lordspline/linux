@@ -9,18 +9,18 @@
  *
  */
 
-#include <linux/dmi.h>
-#include <linux/efi.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/mm_types.h>
-#include <linux/preempt.h>
-#include <linux/rbtree.h>
-#include <linux/rwsem.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/pgtable.h>
+#include <robux/dmi.h>
+#include <robux/efi.h>
+#include <robux/io.h>
+#include <robux/memblock.h>
+#include <robux/mm_types.h>
+#include <robux/preempt.h>
+#include <robux/rbtree.h>
+#include <robux/rwsem.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/pgtable.h>
 
 #include <asm/cacheflush.h>
 #include <asm/efi.h>

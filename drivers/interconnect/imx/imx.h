@@ -10,11 +10,11 @@
 #ifndef __DRIVERS_INTERCONNECT_IMX_H
 #define __DRIVERS_INTERCONNECT_IMX_H
 
-#include <linux/args.h>
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <robux/args.h>
+#include <robux/bits.h>
+#include <robux/types.h>
 
-#include <linux/interconnect-provider.h>
+#include <robux/interconnect-provider.h>
 
 struct platform_device;
 

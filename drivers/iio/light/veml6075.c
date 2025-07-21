@@ -7,16 +7,16 @@
  * 7-bit I2C slave, address 0x10
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/units.h>
 
-#include <linux/iio/iio.h>
+#include <robux/iio/iio.h>
 
 #define VEML6075_CMD_CONF	0x00 /* configuration register */
 #define VEML6075_CMD_UVA	0x07 /* UVA channel */

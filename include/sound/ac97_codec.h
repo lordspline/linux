@@ -10,9 +10,9 @@
 #ifndef __SOUND_AC97_CODEC_H
 #define __SOUND_AC97_CODEC_H
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/workqueue.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/workqueue.h>
 #include <sound/ac97/regs.h>
 #include <sound/pcm.h>
 #include <sound/control.h>

@@ -5,14 +5,14 @@
  * Copyright (C) 2019-2024 ARM Ltd.
  */
 
-#include <linux/ktime.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/processor.h>
-#include <linux/types.h>
+#include <robux/ktime.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/processor.h>
+#include <robux/types.h>
 
-#include <linux/bug.h>
+#include <robux/bug.h>
 
 #include "common.h"
 

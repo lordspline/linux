@@ -6,14 +6,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/bitfield.h>
-#include <linux/hwmon.h>
-#include <linux/mutex.h>
-#include <linux/phy.h>
-#include <linux/polynomial.h>
-#include <linux/property.h>
-#include <linux/netdevice.h>
+#include <robux/module.h>
+#include <robux/bitfield.h>
+#include <robux/hwmon.h>
+#include <robux/mutex.h>
+#include <robux/phy.h>
+#include <robux/polynomial.h>
+#include <robux/property.h>
+#include <robux/netdevice.h>
 
 /* PHY ID */
 #define PHY_ID_GPYx15B_MASK	0xFFFFFFFC

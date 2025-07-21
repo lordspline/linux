@@ -5,9 +5,9 @@
  */
 
 #include <string.h>
-#include <linux/coresight-pmu.h>
-#include <linux/perf_event.h>
-#include <linux/string.h>
+#include <robux/coresight-pmu.h>
+#include <robux/perf_event.h>
+#include <robux/string.h>
 
 #include "arm-spe.h"
 #include "hisi-ptt.h"

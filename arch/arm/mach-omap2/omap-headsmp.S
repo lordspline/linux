@@ -12,8 +12,8 @@
  * Copyright (c) 2003 ARM Limited.
  */
 
-#include <linux/linkage.h>
-#include <linux/init.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
 #include <asm/assembler.h>
 
 #include "omap44xx.h"

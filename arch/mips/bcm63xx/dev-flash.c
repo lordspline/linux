@@ -10,12 +10,12 @@
  * Copyright (C) 2012 Jonas Gorski <jonas.gorski@gmail.com>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/physmap.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/mtd/physmap.h>
 
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_dev_flash.h>

@@ -4,9 +4,9 @@
  * Copyright © 2017 Intel Corporation
  */
 
-#include <linux/prime_numbers.h>
-#include <linux/string_helpers.h>
-#include <linux/swap.h>
+#include <robux/prime_numbers.h>
+#include <robux/string_helpers.h>
+#include <robux/swap.h>
 
 #include "i915_selftest.h"
 

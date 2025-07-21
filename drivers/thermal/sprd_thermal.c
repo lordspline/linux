@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2020 Spreadtrum Communications Inc.
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/thermal.h>
 
 #define SPRD_THM_CTL			0x0
 #define SPRD_THM_INT_EN			0x4

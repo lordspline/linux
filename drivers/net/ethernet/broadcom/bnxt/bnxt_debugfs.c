@@ -7,11 +7,11 @@
  * the Free Software Foundation.
  */
 
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 #include "bnxt_hsi.h"
-#include <linux/dim.h>
+#include <robux/dim.h>
 #include "bnxt.h"
 #include "bnxt_debugfs.h"
 

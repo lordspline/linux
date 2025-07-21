@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: ISC
 /*
- * Copyright (c) 2018 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018 The Robux Foundation. All rights reserved.
  * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/soc/qcom/qmi.h>
-#include <linux/types.h>
+#include <robux/soc/qcom/qmi.h>
+#include <robux/types.h>
 #include "qmi_wlfw_v01.h"
 
 static const struct qmi_elem_info wlfw_ce_tgt_pipe_cfg_s_v01_ei[] = {

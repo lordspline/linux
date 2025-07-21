@@ -4,20 +4,20 @@
  * Author: Fabien Dessenne <fabien.dessenne@st.com>
  */
 
-#include <linux/bitrev.h>
-#include <linux/clk.h>
-#include <linux/crc32.h>
-#include <linux/crc32poly.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/bitrev.h>
+#include <robux/clk.h>
+#include <robux/crc32.h>
+#include <robux/crc32poly.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 
 #include <crypto/internal/hash.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define DRIVER_NAME             "stm32-crc32"
 #define CHKSUM_DIGEST_SIZE      4

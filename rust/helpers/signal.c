@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/sched/signal.h>
+#include <robux/sched/signal.h>
 
 int rust_helper_signal_pending(struct task_struct *t)
 {

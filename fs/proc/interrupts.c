@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irqnr.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/irqnr.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
 
 /*
  * /proc/interrupts

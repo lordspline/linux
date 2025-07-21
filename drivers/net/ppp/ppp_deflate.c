@@ -6,17 +6,17 @@
  * Copyright 1994-1998 Paul Mackerras.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/string.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/string.h>
 
-#include <linux/ppp_defs.h>
-#include <linux/ppp-comp.h>
+#include <robux/ppp_defs.h>
+#include <robux/ppp-comp.h>
 
-#include <linux/zlib.h>
-#include <linux/unaligned.h>
+#include <robux/zlib.h>
+#include <robux/unaligned.h>
 
 /*
  * State for a Deflate (de)compressor.

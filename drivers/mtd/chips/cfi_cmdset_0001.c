@@ -10,31 +10,31 @@
  * 	- completely revamped method functions so they are aware and
  * 	  independent of the flash geometry (buswidth, interleave, etc.)
  * 	- scalability vs code size is completely set at compile-time
- * 	  (see include/linux/mtd/cfi.h for selection)
+ * 	  (see include/robux/mtd/cfi.h for selection)
  *	- optimized write buffer method
  * 02/05/2002	Christopher Hoover <ch@hpl.hp.com>/<ch@murgatroid.com>
  *	- reworked lock/unlock/erase support for var size flash
- * 21/03/2007   Rodolfo Giometti <giometti@linux.it>
+ * 21/03/2007   Rodolfo Giometti <giometti@robux.it>
  * 	- auto unlock sectors on resume for auto locking flash on power up
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
 #include <asm/io.h>
 #include <asm/byteorder.h>
 
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/reboot.h>
-#include <linux/bitmap.h>
-#include <linux/mtd/xip.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/cfi.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/reboot.h>
+#include <robux/bitmap.h>
+#include <robux/mtd/xip.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/cfi.h>
 
 /* #define CMDSET0001_DISABLE_ERASE_SUSPEND_ON_WRITE */
 /* #define CMDSET0001_DISABLE_WRITE_SUSPEND */

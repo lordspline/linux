@@ -22,7 +22,7 @@
  *
  */
 
-#include <linux/prime_numbers.h>
+#include <robux/prime_numbers.h>
 
 #include "gem/i915_gem_context.h"
 #include "gem/i915_gem_internal.h"

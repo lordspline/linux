@@ -8,11 +8,11 @@
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  * Copyright (C) 2016, Imagination Technologies Ltd.
  */
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/sched/signal.h>
-#include <linux/uaccess.h>
+#include <robux/compiler.h>
+#include <robux/errno.h>
+#include <robux/signal.h>
+#include <robux/sched/signal.h>
+#include <robux/uaccess.h>
 
 #include <asm/abi.h>
 #include <asm/compat-signal.h>

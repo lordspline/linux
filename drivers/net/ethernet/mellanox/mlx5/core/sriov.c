@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/pci.h>
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/vport.h>
+#include <robux/pci.h>
+#include <robux/mlx5/driver.h>
+#include <robux/mlx5/vport.h>
 #include "mlx5_core.h"
 #include "mlx5_irq.h"
 #include "eswitch.h"

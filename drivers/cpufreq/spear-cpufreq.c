@@ -13,15 +13,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/clk.h>
-#include <linux/cpufreq.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/cpufreq.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 /* SPEAr CPUFreq driver data structure */
 static struct {

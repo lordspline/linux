@@ -9,12 +9,12 @@
  * https://github.com/microsoft/ms-tpm-20-ref/tree/master/Samples/ARM32-FirmwareTPM/optee_ta/fTPM
  */
 
-#include <linux/acpi.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/tee_drv.h>
-#include <linux/tpm.h>
-#include <linux/uuid.h>
+#include <robux/acpi.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/tee_drv.h>
+#include <robux/tpm.h>
+#include <robux/uuid.h>
 
 #include "tpm.h"
 #include "tpm_ftpm_tee.h"

@@ -8,14 +8,14 @@
  * This driver is based on lm95241.c
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 static const unsigned short normal_i2c[] = {
 	0x18, 0x19, 0x29, 0x4c, 0x4d, I2C_CLIENT_END };

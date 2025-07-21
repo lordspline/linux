@@ -6,9 +6,9 @@
  * Copyright (C) 2019 Renesas Electronics Corporation
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/phy/phy.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/phy/phy.h>
 #include "common.h"
 #include "rza.h"
 

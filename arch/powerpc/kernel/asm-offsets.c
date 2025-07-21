@@ -9,22 +9,22 @@
  * #defines from the assembly-language output.
  */
 
-#include <linux/compat.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/suspend.h>
-#include <linux/hrtimer.h>
+#include <robux/compat.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/mman.h>
+#include <robux/mm.h>
+#include <robux/suspend.h>
+#include <robux/hrtimer.h>
 #ifdef CONFIG_PPC64
-#include <linux/time.h>
-#include <linux/hardirq.h>
+#include <robux/time.h>
+#include <robux/hardirq.h>
 #endif
-#include <linux/kbuild.h>
+#include <robux/kbuild.h>
 
 #include <asm/io.h>
 #include <asm/page.h>
@@ -46,7 +46,7 @@
 #include <asm/opal.h>
 #endif
 #if defined(CONFIG_KVM) || defined(CONFIG_KVM_GUEST)
-#include <linux/kvm_host.h>
+#include <robux/kvm_host.h>
 #endif
 #if defined(CONFIG_KVM) && defined(CONFIG_PPC_BOOK3S)
 #include <asm/kvm_book3s.h>

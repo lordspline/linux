@@ -9,15 +9,15 @@
  * Datasheet: http://cds.linear.com/docs/en/datasheet/4306.pdf
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c-mux.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
+#include <robux/i2c-mux.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #define LTC4305_MAX_NCHANS 2
 #define LTC4306_MAX_NCHANS 4

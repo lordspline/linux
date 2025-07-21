@@ -8,17 +8,17 @@
  *  Co-author: Meng-Huang Kuo <mhkuo@nuvoton.com>
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/int_log.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/acpi.h>
-#include <linux/math64.h>
-#include <linux/semaphore.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/int_log.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/acpi.h>
+#include <robux/math64.h>
+#include <robux/semaphore.h>
 
 #include <sound/initval.h>
 #include <sound/tlv.h>

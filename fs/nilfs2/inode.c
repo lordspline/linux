@@ -8,14 +8,14 @@
  *
  */
 
-#include <linux/buffer_head.h>
-#include <linux/gfp.h>
-#include <linux/mpage.h>
-#include <linux/pagemap.h>
-#include <linux/writeback.h>
-#include <linux/uio.h>
-#include <linux/fiemap.h>
-#include <linux/random.h>
+#include <robux/buffer_head.h>
+#include <robux/gfp.h>
+#include <robux/mpage.h>
+#include <robux/pagemap.h>
+#include <robux/writeback.h>
+#include <robux/uio.h>
+#include <robux/fiemap.h>
+#include <robux/random.h>
 #include "nilfs.h"
 #include "btnode.h"
 #include "segment.h"

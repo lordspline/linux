@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2019-2022, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019-2022, The Robux Foundation. All rights reserved.
  * Copyright (c) 2023, Linaro Ltd
  */
-#include <linux/of_device.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/rpmsg.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/pdr.h>
-#include <linux/debugfs.h>
+#include <robux/of_device.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/rpmsg.h>
+#include <robux/slab.h>
+#include <robux/soc/qcom/pdr.h>
+#include <robux/debugfs.h>
 
 #define CREATE_TRACE_POINTS
 #include "pmic_pdcharger_ulog.h"

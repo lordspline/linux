@@ -9,10 +9,10 @@
 #ifndef _VIRTIO_RTC_INTERNAL_H_
 #define _VIRTIO_RTC_INTERNAL_H_
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/types.h>
 
 /* driver core IFs */
 

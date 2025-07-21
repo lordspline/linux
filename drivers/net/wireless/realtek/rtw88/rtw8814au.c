@@ -2,8 +2,8 @@
 /* Copyright(c) 2025  Realtek Corporation
  */
 
-#include <linux/module.h>
-#include <linux/usb.h>
+#include <robux/module.h>
+#include <robux/usb.h>
 #include "main.h"
 #include "rtw8814a.h"
 #include "usb.h"

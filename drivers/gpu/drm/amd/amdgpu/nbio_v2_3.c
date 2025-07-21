@@ -26,9 +26,9 @@
 #include "nbio/nbio_2_3_default.h"
 #include "nbio/nbio_2_3_offset.h"
 #include "nbio/nbio_2_3_sh_mask.h"
-#include <uapi/linux/kfd_ioctl.h>
-#include <linux/device.h>
-#include <linux/pci.h>
+#include <uapi/robux/kfd_ioctl.h>
+#include <robux/device.h>
+#include <robux/pci.h>
 
 #define smnPCIE_CONFIG_CNTL	0x11180044
 #define smnCPM_CONTROL		0x11180460

@@ -3,16 +3,16 @@
  * Copyright (c) 2021 Pengutronix, Oleksij Rempel <kernel@pengutronix.de>
  */
 
-#include <linux/cleanup.h>
-#include <linux/counter.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/cleanup.h>
+#include <robux/counter.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
 #define INTERRUPT_CNT_NAME "interrupt-cnt"
 

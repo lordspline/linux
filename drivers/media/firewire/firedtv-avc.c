@@ -7,18 +7,18 @@
  * Copyright (C) 2008 Henrik Kurelid <henrik@kurelid.se>
  */
 
-#include <linux/bug.h>
-#include <linux/crc32.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
-#include <linux/stringify.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <robux/bug.h>
+#include <robux/crc32.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/moduleparam.h>
+#include <robux/mutex.h>
+#include <robux/string.h>
+#include <robux/stringify.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
 
 #include <media/dvb_frontend.h>
 

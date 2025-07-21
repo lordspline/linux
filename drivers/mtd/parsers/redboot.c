@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  * Parse RedBoot-style Flash Image System (FIS) tables and
- * produce a Linux partition array to match.
+ * produce a Robux partition array to match.
  *
  * Copyright © 2001      Red Hat UK Limited
  * Copyright © 2001-2010 David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/vmalloc.h>
-#include <linux/of.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/vmalloc.h>
+#include <robux/of.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/module.h>
 
 struct fis_image_desc {
 	unsigned char name[16];      // Null terminated name

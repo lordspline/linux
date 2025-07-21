@@ -27,20 +27,20 @@
  * There will be no PIN request from the device.
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/leds.h>
-#include <linux/power_supply.h>
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/idr.h>
-#include <linux/input/mt.h>
-#include <linux/crc32.h>
-#include <linux/usb.h>
-#include <linux/timer.h>
-#include <linux/unaligned.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/leds.h>
+#include <robux/power_supply.h>
+#include <robux/spinlock.h>
+#include <robux/list.h>
+#include <robux/idr.h>
+#include <robux/input/mt.h>
+#include <robux/crc32.h>
+#include <robux/usb.h>
+#include <robux/timer.h>
+#include <robux/unaligned.h>
 
 #include "hid-ids.h"
 
@@ -360,7 +360,7 @@ static const unsigned int buzz_keymap[] = {
 /* The Navigation controller is a partial DS3 and uses the same HID report
  * and hence the same keymap indices, however not all axes/buttons
  * are physically present. We use the same axis and button mapping as
- * the DS3, which uses the Linux gamepad spec.
+ * the DS3, which uses the Robux gamepad spec.
  */
 static const unsigned int navigation_absmap[] = {
 	[0x30] = ABS_X,
@@ -2093,7 +2093,7 @@ static int sony_probe(struct hid_device *hdev, const struct hid_device_id *id)
 
 	/* Patch the hw version on DS3 compatible devices, so applications can
 	 * distinguish between the default HID mappings and the mappings defined
-	 * by the Linux game controller spec. This is important for the SDL2
+	 * by the Robux game controller spec. This is important for the SDL2
 	 * library, which has a game controller database, which uses device ids
 	 * in combination with version as a key.
 	 */

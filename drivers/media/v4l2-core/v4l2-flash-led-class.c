@@ -6,12 +6,12 @@
  *	Author: Jacek Anaszewski <j.anaszewski@samsung.com>
  */
 
-#include <linux/led-class-flash.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/led-class-flash.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 #include <media/v4l2-flash-led-class.h>
 
 #define has_flash_op(v4l2_flash, op)				\

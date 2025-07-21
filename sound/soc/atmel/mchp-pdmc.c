@@ -8,12 +8,12 @@
 
 #include <dt-bindings/sound/microchip,pdmc.h>
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
 
 #include <sound/core.h>
 #include <sound/dmaengine_pcm.h>

@@ -8,16 +8,16 @@
  * for more details.
  */
 
-#include <linux/atomic.h>
-#include <linux/err.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
+#include <robux/atomic.h>
+#include <robux/err.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
 #include <asm/cdmm.h>
 #include <asm/hazards.h>
 #include <asm/mipsregs.h>

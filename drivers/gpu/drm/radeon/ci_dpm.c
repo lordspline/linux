@@ -21,9 +21,9 @@
  *
  */
 
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/seq_file.h>
+#include <robux/firmware.h>
+#include <robux/pci.h>
+#include <robux/seq_file.h>
 
 #include "atom.h"
 #include "ci_dpm.h"

@@ -6,13 +6,13 @@
  *     Anup Patel <anup.patel@wdc.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/cpumask.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/smp.h>
-#include <linux/kvm_host.h>
+#include <robux/bitops.h>
+#include <robux/cpumask.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/smp.h>
+#include <robux/kvm_host.h>
 #include <asm/csr.h>
 
 static unsigned long vmid_version = 1;

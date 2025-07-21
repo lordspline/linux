@@ -6,12 +6,12 @@
 //
 // S3C64XX - Helper functions for setting up SDHCI device(s) GPIO (HSMMC)
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/gpio.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/gpio.h>
 
 #include "gpio-cfg.h"
 #include "sdhci.h"

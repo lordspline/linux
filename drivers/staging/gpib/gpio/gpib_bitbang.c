@@ -55,17 +55,17 @@
 
 #include "gpibP.h"
 #include "gpib_state_machines.h"
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio.h>
-#include <linux/irq.h>
+#include <robux/sched.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio.h>
+#include <robux/irq.h>
 
 static int sn7516x_used = 1, sn7516x;
 module_param(sn7516x_used, int, 0660);

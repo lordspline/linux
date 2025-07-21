@@ -10,15 +10,15 @@
  * more details.
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/delay.h>
+#include <robux/workqueue.h>
+#include <robux/slab.h>
+#include <robux/pm.h>
 
 #define DRIVER_NAME		"synaptics_i2c"
 /* maximum product id is 15 characters */

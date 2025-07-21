@@ -8,8 +8,8 @@
 #ifndef __RT721_SDW_H__
 #define __RT721_SDW_H__
 
-#include <linux/regmap.h>
-#include <linux/soundwire/sdw_registers.h>
+#include <robux/regmap.h>
+#include <robux/soundwire/sdw_registers.h>
 
 static const struct reg_default rt721_sdca_reg_defaults[] = {
 	{ 0x202d, 0x00 },

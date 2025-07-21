@@ -3,14 +3,14 @@
  * Apple Motion Sensor driver
  *
  * Copyright (C) 2005 Stelian Pop (stelian@popies.net)
- * Copyright (C) 2006 Michael Hanselmann (linux-kernel@hansmi.ch)
+ * Copyright (C) 2006 Michael Hanselmann (robux-kernel@hansmi.ch)
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/of_platform.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/of_platform.h>
 #include <asm/pmac_pfunc.h>
 
 #include "ams.h"

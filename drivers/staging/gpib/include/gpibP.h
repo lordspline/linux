@@ -7,16 +7,16 @@
 #ifndef _GPIB_P_H
 #define _GPIB_P_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include "gpib_types.h"
 #include "gpib_proto.h"
 #include "gpib.h"
 #include "gpib_ioctl.h"
 
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
+#include <robux/fs.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
 
 int gpib_register_driver(struct gpib_interface *interface, struct module *mod);
 void gpib_unregister_driver(struct gpib_interface *interface);

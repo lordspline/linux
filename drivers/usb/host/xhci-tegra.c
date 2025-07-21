@@ -6,30 +6,30 @@
  * Copyright (C) 2014 Google, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/phy/phy.h>
-#include <linux/phy/tegra/xusb.h>
-#include <linux/platform_device.h>
-#include <linux/usb/ch9.h>
-#include <linux/pm.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/phy.h>
-#include <linux/usb/role.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/firmware.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/phy/phy.h>
+#include <robux/phy/tegra/xusb.h>
+#include <robux/platform_device.h>
+#include <robux/usb/ch9.h>
+#include <robux/pm.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/usb/otg.h>
+#include <robux/usb/phy.h>
+#include <robux/usb/role.h>
 #include <soc/tegra/pmc.h>
 
 #include "xhci.h"

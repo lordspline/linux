@@ -30,11 +30,11 @@
  * SOFTWARE.
  *
  */
-#include <linux/percpu.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/proc_fs.h>
-#include <linux/export.h>
+#include <robux/percpu.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/proc_fs.h>
+#include <robux/export.h>
 
 #include "rds.h"
 

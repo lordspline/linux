@@ -8,10 +8,10 @@
  * Copyright (c) 2004 by Digigram <alsa@digigram.com>
  */
 
-#include <linux/time.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
+#include <robux/time.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
 #include <sound/core.h>
 #include "pcxhr.h"
 #include "pcxhr_hwdep.h"

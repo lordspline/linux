@@ -21,13 +21,13 @@
 #include "main.h"
 #include "tty.h"
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 
 #include <pcmcia/cisreg.h>
 #include <pcmcia/device_id.h>

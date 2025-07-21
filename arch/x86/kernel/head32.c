@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/i386/kernel/head32.c -- prepare to run common code
+ *  robux/arch/i386/kernel/head32.c -- prepare to run common code
  *
  *  Copyright (C) 2000 Andrea Arcangeli <andrea@suse.de> SuSE
  *  Copyright (C) 2007 Eric Biederman <ebiederm@xmission.com>
  */
 
-#include <linux/init.h>
-#include <linux/start_kernel.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
+#include <robux/init.h>
+#include <robux/start_kernel.h>
+#include <robux/mm.h>
+#include <robux/memblock.h>
 
 #include <asm/desc.h>
 #include <asm/setup.h>

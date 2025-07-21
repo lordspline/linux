@@ -7,13 +7,13 @@
  * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
 
 #include "dmaengine.h"
 

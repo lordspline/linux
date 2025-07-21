@@ -5,15 +5,15 @@
  * Copyright (c) 2012-2013 Dongjin Kim (tobetter@gmail.com)
  */
 
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/usb3503.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/i2c.h>
+#include <robux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/usb3503.h>
+#include <robux/regmap.h>
 
 #define USB3503_VIDL		0x00
 #define USB3503_VIDM		0x01

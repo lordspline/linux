@@ -8,26 +8,26 @@
  *
  * Copyright (c) 2004 Freescale Semiconductor, Inc.
  */
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/unistd.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/phy.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/unistd.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/phy.h>
 
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 /* Cicada Extended Control Register 1 */
 #define MII_CIS8201_EXT_CON1           0x17

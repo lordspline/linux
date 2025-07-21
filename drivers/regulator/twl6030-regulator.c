@@ -6,18 +6,18 @@
  * Copyright (C) 2016 Nicolae Rosia <nicolae.rosia@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/twl.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/mfd/twl.h>
+#include <robux/delay.h>
 
 struct twlreg_info {
 	/* start of regulator's PM_RECEIVER control register bank */
@@ -116,7 +116,7 @@ static int twlreg_grp(struct regulator_dev *rdev)
 /* definition for 6030 family */
 #define P3_GRP_6030	BIT(2)		/* secondary processor, modem, etc */
 #define P2_GRP_6030	BIT(1)		/* "peripherals" */
-#define P1_GRP_6030	BIT(0)		/* CPU/Linux */
+#define P1_GRP_6030	BIT(0)		/* CPU/Robux */
 
 static int twl6030reg_is_enabled(struct regulator_dev *rdev)
 {

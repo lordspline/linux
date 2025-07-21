@@ -6,8 +6,8 @@
  * Author: Bin Gao <bin.gao@intel.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/thread_info.h>
+#include <robux/kernel.h>
+#include <robux/thread_info.h>
 
 #include <asm/apic.h>
 #include <asm/cpu_device_id.h>

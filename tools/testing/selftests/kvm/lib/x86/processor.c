@@ -3,7 +3,7 @@
  * Copyright (C) 2018, Google LLC.
  */
 
-#include "linux/bitmap.h"
+#include "robux/bitmap.h"
 #include "test_util.h"
 #include "kvm_util.h"
 #include "processor.h"

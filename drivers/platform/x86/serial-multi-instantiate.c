@@ -6,16 +6,16 @@
  * Copyright 2018 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/spi/spi.h>
+#include <robux/types.h>
 
 #define IRQ_RESOURCE_TYPE	GENMASK(1, 0)
 #define IRQ_RESOURCE_NONE	0

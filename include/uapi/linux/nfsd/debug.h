@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
- * linux/include/linux/nfsd/debug.h
+ * robux/include/robux/nfsd/debug.h
  *
  * Debugging-related stuff for nfsd
  *
@@ -10,7 +10,7 @@
 #ifndef _UAPILINUX_NFSD_DEBUG_H
 #define _UAPILINUX_NFSD_DEBUG_H
 
-#include <linux/sunrpc/debug.h>
+#include <robux/sunrpc/debug.h>
 
 /*
  * knfsd debug flags

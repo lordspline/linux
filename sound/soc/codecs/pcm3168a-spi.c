@@ -7,9 +7,9 @@
  * Author: Damien Horsley <Damien.Horsley@imgtec.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
 
 #include <sound/soc.h>
 

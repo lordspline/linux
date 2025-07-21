@@ -5,13 +5,13 @@
  */
 
 #include <dt-bindings/phy/phy.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
 
 /* phy regs */
 #define UTMI_REVISION		0x0

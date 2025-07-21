@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
-/* -*- linux-c -*-
+/* -*- robux-c -*-
  * sysctl_net_core.c: sysctl interface to net core subsystem.
  *
  * Begun April 1, 1996, Mike Shaver.
  * Added /proc/sys/net/core directory entry (empty =) ). [MS]
  */
 
-#include <linux/filter.h>
-#include <linux/mm.h>
-#include <linux/sysctl.h>
-#include <linux/module.h>
-#include <linux/socket.h>
-#include <linux/netdevice.h>
-#include <linux/ratelimit.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/sched/isolation.h>
+#include <robux/filter.h>
+#include <robux/mm.h>
+#include <robux/sysctl.h>
+#include <robux/module.h>
+#include <robux/socket.h>
+#include <robux/netdevice.h>
+#include <robux/ratelimit.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/sched/isolation.h>
 
 #include <net/ip.h>
 #include <net/sock.h>

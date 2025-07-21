@@ -13,13 +13,13 @@
  * Contributors: Daniel Hellstrom <daniel@gaisler.com>
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
 
 #include <asm/leon_pci.h>
 #include <asm/sections.h>
@@ -427,7 +427,7 @@ static void grpci1_hw_init(struct grpci1_priv *priv)
 	/* set 1:1 mapping between AHB -> PCI memory space */
 	REGSTORE(regs->cfg_stat, priv->pci_area & 0xf0000000);
 
-	/* map PCI accesses to target BAR1 to Linux kernel memory 1:1 */
+	/* map PCI accesses to target BAR1 to Robux kernel memory 1:1 */
 	ahbadr = 0xf0000000 & (u32)__pa(PAGE_ALIGN((unsigned long) &_end));
 	REGSTORE(regs->page1, ahbadr);
 

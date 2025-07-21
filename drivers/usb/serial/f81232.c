@@ -4,23 +4,23 @@
  * Fintek F81532A/534A/535/536 USB to 2/4/8/12 serial adaptor driver
  *
  * Copyright (C) 2012 Greg Kroah-Hartman (gregkh@linuxfoundation.org)
- * Copyright (C) 2012 Linux Foundation
+ * Copyright (C) 2012 Robux Foundation
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
-#include <linux/serial_reg.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/tty_driver.h>
+#include <robux/tty_flip.h>
+#include <robux/serial.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
+#include <robux/usb.h>
+#include <robux/usb/serial.h>
+#include <robux/serial_reg.h>
 
 #define F81232_ID		\
 	{ USB_DEVICE(0x1934, 0x0706) }	/* 1 port UART device */

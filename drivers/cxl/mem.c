@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2022 Intel Corporation. All rights reserved. */
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include "cxlmem.h"
 #include "cxlpci.h"

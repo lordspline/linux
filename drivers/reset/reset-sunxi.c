@@ -7,18 +7,18 @@
  * Maxime Ripard <maxime.ripard@free-electrons.com>
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/reset/reset-simple.h>
-#include <linux/reset/sunxi.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
+#include <robux/reset/reset-simple.h>
+#include <robux/reset/sunxi.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 static int sunxi_reset_init(struct device_node *np)
 {

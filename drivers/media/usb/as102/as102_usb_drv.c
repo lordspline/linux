@@ -4,11 +4,11 @@
  * Copyright (C) 2008 Pierrick Hascoet <pierrick.hascoet@abilis.com>
  * Copyright (C) 2010 Devin Heitmueller <dheitmueller@kernellabs.com>
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/usb.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/usb.h>
 
 #include "as102_drv.h"
 #include "as102_usb_drv.h"

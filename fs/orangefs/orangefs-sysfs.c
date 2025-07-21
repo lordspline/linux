@@ -136,12 +136,12 @@
  *
  */
 
-#include <linux/fs.h>
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <robux/fs.h>
+#include <robux/kobject.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
+#include <robux/module.h>
+#include <robux/init.h>
 
 #include "protocol.h"
 #include "orangefs-kernel.h"

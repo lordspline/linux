@@ -2,9 +2,9 @@
 #ifndef _TIMEKEEPING_INTERNAL_H
 #define _TIMEKEEPING_INTERNAL_H
 
-#include <linux/clocksource.h>
-#include <linux/spinlock.h>
-#include <linux/time.h>
+#include <robux/clocksource.h>
+#include <robux/spinlock.h>
+#include <robux/time.h>
 
 /*
  * timekeeping debug functions

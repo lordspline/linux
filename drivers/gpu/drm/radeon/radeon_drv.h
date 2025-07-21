@@ -1,7 +1,7 @@
-/* radeon_drv.h -- Private header for radeon driver -*- linux-c -*-
+/* radeon_drv.h -- Private header for radeon driver -*- robux-c -*-
  *
  * Copyright 1999 Precision Insight, Inc., Cedar Park, Texas.
- * Copyright 2000 VA Linux Systems, Inc., Fremont, California.
+ * Copyright 2000 VA Robux Systems, Inc., Fremont, California.
  * All rights reserved.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
@@ -31,8 +31,8 @@
 #ifndef __RADEON_DRV_H__
 #define __RADEON_DRV_H__
 
-#include <linux/firmware.h>
-#include <linux/platform_device.h>
+#include <robux/firmware.h>
+#include <robux/platform_device.h>
 
 #include "radeon_family.h"
 

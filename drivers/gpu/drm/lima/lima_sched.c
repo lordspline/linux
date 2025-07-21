@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0 OR MIT
 /* Copyright 2017-2019 Qiang Yu <yuq825@gmail.com> */
 
-#include <linux/hardirq.h>
-#include <linux/iosys-map.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/pm_runtime.h>
+#include <robux/hardirq.h>
+#include <robux/iosys-map.h>
+#include <robux/kthread.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/pm_runtime.h>
 
 #include "lima_devfreq.h"
 #include "lima_drv.h"

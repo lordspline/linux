@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013-2014, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/platform_device.h>
-#include <linux/clk-provider.h>
-#include <linux/interconnect-clk.h>
-#include <linux/reset-controller.h>
-#include <linux/of.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/interconnect-clk.h>
+#include <robux/reset-controller.h>
+#include <robux/of.h>
 
 #include "common.h"
 #include "clk-rcg.h"

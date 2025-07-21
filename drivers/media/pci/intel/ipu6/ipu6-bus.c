@@ -3,16 +3,16 @@
  * Copyright (C) 2013 - 2024 Intel Corporation
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
 
 #include "ipu6.h"
 #include "ipu6-bus.h"

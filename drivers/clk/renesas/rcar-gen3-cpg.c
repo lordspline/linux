@@ -10,17 +10,17 @@
  * Copyright (C) 2015 Renesas Electronics Corp.
  */
 
-#include <linux/bug.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <robux/bug.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
 
 #include "renesas-cpg-mssr.h"
 #include "rcar-cpg-lib.h"

@@ -5,17 +5,17 @@
  *
  * Copyright (C) 2004-2008, 2009, 2010 Cavium Networks
  */
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/sched.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/kexec.h>
+#include <robux/cpu.h>
+#include <robux/delay.h>
+#include <robux/smp.h>
+#include <robux/interrupt.h>
+#include <robux/kernel_stat.h>
+#include <robux/sched.h>
+#include <robux/sched/hotplug.h>
+#include <robux/sched/task_stack.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/kexec.h>
 
 #include <asm/mmu_context.h>
 #include <asm/time.h>

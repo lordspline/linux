@@ -9,10 +9,10 @@
 #ifndef MFD_TPS65219_H
 #define MFD_TPS65219_H
 
-#include <linux/bitops.h>
-#include <linux/notifier.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
+#include <robux/bitops.h>
+#include <robux/notifier.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
 
 /* Chip id list*/
 enum pmic_id {

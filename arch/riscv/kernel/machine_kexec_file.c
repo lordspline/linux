@@ -6,14 +6,14 @@
  *
  * Author: Liao Chang (liaochang1@huawei.com)
  */
-#include <linux/kexec.h>
-#include <linux/elf.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/libfdt.h>
-#include <linux/types.h>
-#include <linux/memblock.h>
-#include <linux/vmalloc.h>
+#include <robux/kexec.h>
+#include <robux/elf.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/libfdt.h>
+#include <robux/types.h>
+#include <robux/memblock.h>
+#include <robux/vmalloc.h>
 #include <asm/setup.h>
 
 const struct kexec_file_ops * const kexec_file_loaders[] = {

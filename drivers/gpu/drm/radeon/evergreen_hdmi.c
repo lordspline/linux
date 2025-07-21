@@ -24,7 +24,7 @@
  * Authors: Christian König
  *          Rafał Miłecki
  */
-#include <linux/hdmi.h>
+#include <robux/hdmi.h>
 
 #include <drm/drm_edid.h>
 #include <drm/radeon_drm.h>

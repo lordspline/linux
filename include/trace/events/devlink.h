@@ -7,9 +7,9 @@
 #if !defined(_TRACE_DEVLINK_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_DEVLINK_H
 
-#include <linux/device.h>
+#include <robux/device.h>
 #include <net/devlink.h>
-#include <linux/tracepoint.h>
+#include <robux/tracepoint.h>
 
 /*
  * Tracepoint for devlink hardware message:

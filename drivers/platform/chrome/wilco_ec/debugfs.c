@@ -7,13 +7,13 @@
  * See Documentation/ABI/testing/debugfs-wilco-ec for usage.
  */
 
-#include <linux/ctype.h>
-#include <linux/debugfs.h>
-#include <linux/fs.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_data/wilco-ec.h>
-#include <linux/platform_device.h>
+#include <robux/ctype.h>
+#include <robux/debugfs.h>
+#include <robux/fs.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_data/wilco-ec.h>
+#include <robux/platform_device.h>
 
 #define DRV_NAME "wilco-ec-debugfs"
 

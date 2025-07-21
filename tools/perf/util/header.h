@@ -2,13 +2,13 @@
 #ifndef __PERF_HEADER_H
 #define __PERF_HEADER_H
 
-#include <linux/stddef.h>
-#include <linux/perf_event.h>
+#include <robux/stddef.h>
+#include <robux/perf_event.h>
 #include <sys/types.h>
 #include <stdio.h> // FILE
 #include <stdbool.h>
-#include <linux/bitmap.h>
-#include <linux/types.h>
+#include <robux/bitmap.h>
+#include <robux/types.h>
 #include "env.h"
 #include <perf/cpumap.h>
 

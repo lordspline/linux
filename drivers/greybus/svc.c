@@ -6,10 +6,10 @@
  * Copyright 2015 Linaro Ltd.
  */
 
-#include <linux/debugfs.h>
-#include <linux/kstrtox.h>
-#include <linux/workqueue.h>
-#include <linux/greybus.h>
+#include <robux/debugfs.h>
+#include <robux/kstrtox.h>
+#include <robux/workqueue.h>
+#include <robux/greybus.h>
 
 #define SVC_INTF_EJECT_TIMEOUT		9000
 #define SVC_INTF_ACTIVATE_TIMEOUT	6000

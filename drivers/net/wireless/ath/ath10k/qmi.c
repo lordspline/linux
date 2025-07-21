@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: ISC
 /*
- * Copyright (c) 2018 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018 The Robux Foundation. All rights reserved.
  * Copyright (c) 2022-2023 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/debugfs.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/module.h>
-#include <linux/net.h>
-#include <linux/platform_device.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/string.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/debugfs.h>
+#include <robux/idr.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/module.h>
+#include <robux/net.h>
+#include <robux/platform_device.h>
+#include <robux/firmware/qcom/qcom_scm.h>
+#include <robux/soc/qcom/smem.h>
+#include <robux/string.h>
 #include <net/sock.h>
 
 #include "debug.h"

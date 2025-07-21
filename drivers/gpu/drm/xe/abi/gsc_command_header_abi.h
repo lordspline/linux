@@ -6,7 +6,7 @@
 #ifndef _ABI_GSC_COMMAND_HEADER_ABI_H
 #define _ABI_GSC_COMMAND_HEADER_ABI_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct intel_gsc_mtl_header {
 	u32 validity_marker;

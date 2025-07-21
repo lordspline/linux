@@ -9,15 +9,15 @@
 
 /***************************************************************************/
 
-#include <linux/clkdev.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/clk.h>
-#include <linux/memblock.h>
+#include <robux/clkdev.h>
+#include <robux/kernel.h>
+#include <robux/param.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/mm.h>
+#include <robux/clk.h>
+#include <robux/memblock.h>
 #include <asm/pgalloc.h>
 #include <asm/machdep.h>
 #include <asm/coldfire.h>

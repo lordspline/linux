@@ -10,17 +10,17 @@
 // Copyright (c) 2020 Rockchip Electronics Co. Ltd.
 //
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/string.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/string.h>
 
 #include "rockchip_canfd.h"
 

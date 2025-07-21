@@ -5,22 +5,22 @@
 
 #define pr_fmt(fmt) "xive: " fmt
 
-#include <linux/types.h>
-#include <linux/irq.h>
-#include <linux/seq_file.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_fdt.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/bitmap.h>
-#include <linux/cpumask.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/libfdt.h>
+#include <robux/types.h>
+#include <robux/irq.h>
+#include <robux/seq_file.h>
+#include <robux/smp.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_fdt.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/bitmap.h>
+#include <robux/cpumask.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/libfdt.h>
 
 #include <asm/machdep.h>
 #include <asm/prom.h>

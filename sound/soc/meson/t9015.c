@@ -3,12 +3,12 @@
 // Copyright (c) 2020 BayLibre, SAS.
 // Author: Jerome Brunet <jbrunet@baylibre.com>
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>
 

@@ -7,15 +7,15 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 #define dev_fmt pr_fmt
 
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
+#include <robux/ioport.h>
+#include <robux/sched.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/bitops.h>
 #include <asm/dma.h>
-#include <linux/dma-mapping.h>
-#include <linux/string.h>
-#include <linux/init.h>
+#include <robux/dma-mapping.h>
+#include <robux/string.h>
+#include <robux/init.h>
 #include "nec7210.h"
 #include "gpibP.h"
 

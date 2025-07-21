@@ -6,12 +6,12 @@
 
 #include <hyp/switch.h>
 
-#include <linux/arm-smccc.h>
-#include <linux/kvm_host.h>
-#include <linux/types.h>
-#include <linux/jump_label.h>
-#include <linux/percpu.h>
-#include <uapi/linux/psci.h>
+#include <robux/arm-smccc.h>
+#include <robux/kvm_host.h>
+#include <robux/types.h>
+#include <robux/jump_label.h>
+#include <robux/percpu.h>
+#include <uapi/robux/psci.h>
 
 #include <kvm/arm_psci.h>
 

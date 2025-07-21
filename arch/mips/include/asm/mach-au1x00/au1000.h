@@ -589,11 +589,11 @@
 
 #ifndef _LANGUAGE_ASSEMBLY
 
-#include <linux/delay.h>
-#include <linux/types.h>
+#include <robux/delay.h>
+#include <robux/types.h>
 
-#include <linux/io.h>
-#include <linux/irq.h>
+#include <robux/io.h>
+#include <robux/irq.h>
 
 #include <asm/cpu.h>
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-pxa/irq.c
+ *  robux/arch/arm/mach-pxa/irq.c
  *
  *  Generic PXA IRQ handling
  *
@@ -8,16 +8,16 @@
  *  Created:	Jun 15, 2001
  *  Copyright:	MontaVista Software Inc.
  */
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/syscore_ops.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/soc/pxa/cpu.h>
+#include <robux/bitops.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/syscore_ops.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/soc/pxa/cpu.h>
 
 #include <asm/exception.h>
 

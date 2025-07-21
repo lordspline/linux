@@ -20,9 +20,9 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
 #include <drm/drm_drv.h>
 
 #include "amdgpu.h"

@@ -9,15 +9,15 @@
  *  Parts of this file are based on Atheros' 2.6.15/2.6.31 BSP
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/of_clk.h>
-#include <linux/of_fdt.h>
-#include <linux/irqchip.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/memblock.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/of_clk.h>
+#include <robux/of_fdt.h>
+#include <robux/irqchip.h>
 
 #include <asm/bootinfo.h>
 #include <asm/idle.h>

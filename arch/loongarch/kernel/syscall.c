@@ -5,14 +5,14 @@
  *
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/capability.h>
-#include <linux/entry-common.h>
-#include <linux/errno.h>
-#include <linux/linkage.h>
-#include <linux/objtool.h>
-#include <linux/randomize_kstack.h>
-#include <linux/syscalls.h>
-#include <linux/unistd.h>
+#include <robux/capability.h>
+#include <robux/entry-common.h>
+#include <robux/errno.h>
+#include <robux/linkage.h>
+#include <robux/objtool.h>
+#include <robux/randomize_kstack.h>
+#include <robux/syscalls.h>
+#include <robux/unistd.h>
 
 #include <asm/asm.h>
 #include <asm/exception.h>

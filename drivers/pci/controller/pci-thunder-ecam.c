@@ -3,13 +3,13 @@
  * Copyright (C) 2015, 2016 Cavium, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/of_pci.h>
-#include <linux/of.h>
-#include <linux/pci-ecam.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/of_pci.h>
+#include <robux/of.h>
+#include <robux/pci-ecam.h>
+#include <robux/platform_device.h>
 
 #include "pci-host-common.h"
 

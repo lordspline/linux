@@ -4,13 +4,13 @@
  *
  *  Copyright (C) 2021	Lauri Kasanen
  */
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/memblock.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/simplefb.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/irq.h>
+#include <robux/memblock.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/simplefb.h>
+#include <robux/string.h>
 
 #include <asm/bootinfo.h>
 #include <asm/fw/fw.h>

@@ -3,43 +3,43 @@
  *    PARISC Architecture-dependent parts of process handling
  *    based on the work for i386
  *
- *    Copyright (C) 1999-2003 Matthew Wilcox <willy at parisc-linux.org>
+ *    Copyright (C) 1999-2003 Matthew Wilcox <willy at parisc-robux.org>
  *    Copyright (C) 2000 Martin K Petersen <mkp at mkp.net>
- *    Copyright (C) 2000 John Marvin <jsm at parisc-linux.org>
+ *    Copyright (C) 2000 John Marvin <jsm at parisc-robux.org>
  *    Copyright (C) 2000 David Huggins-Daines <dhd with pobox.org>
- *    Copyright (C) 2000-2003 Paul Bame <bame at parisc-linux.org>
+ *    Copyright (C) 2000-2003 Paul Bame <bame at parisc-robux.org>
  *    Copyright (C) 2000 Philipp Rumpf <prumpf with tux.org>
  *    Copyright (C) 2000 David Kennedy <dkennedy with linuxcare.com>
- *    Copyright (C) 2000 Richard Hirst <rhirst with parisc-linux.org>
- *    Copyright (C) 2000 Grant Grundler <grundler with parisc-linux.org>
- *    Copyright (C) 2001 Alan Modra <amodra at parisc-linux.org>
- *    Copyright (C) 2001-2002 Ryan Bradetich <rbrad at parisc-linux.org>
+ *    Copyright (C) 2000 Richard Hirst <rhirst with parisc-robux.org>
+ *    Copyright (C) 2000 Grant Grundler <grundler with parisc-robux.org>
+ *    Copyright (C) 2001 Alan Modra <amodra at parisc-robux.org>
+ *    Copyright (C) 2001-2002 Ryan Bradetich <rbrad at parisc-robux.org>
  *    Copyright (C) 2001-2014 Helge Deller <deller@gmx.de>
- *    Copyright (C) 2002 Randolph Chung <tausq with parisc-linux.org>
+ *    Copyright (C) 2002 Randolph Chung <tausq with parisc-robux.org>
  */
-#include <linux/elf.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/personality.h>
-#include <linux/ptrace.h>
-#include <linux/reboot.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/kallsyms.h>
-#include <linux/uaccess.h>
-#include <linux/rcupdate.h>
-#include <linux/random.h>
-#include <linux/nmi.h>
-#include <linux/sched/hotplug.h>
+#include <robux/elf.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/fs.h>
+#include <robux/cpu.h>
+#include <robux/module.h>
+#include <robux/personality.h>
+#include <robux/ptrace.h>
+#include <robux/reboot.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task.h>
+#include <robux/sched/task_stack.h>
+#include <robux/slab.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/kallsyms.h>
+#include <robux/uaccess.h>
+#include <robux/rcupdate.h>
+#include <robux/random.h>
+#include <robux/nmi.h>
+#include <robux/sched/hotplug.h>
 
 #include <asm/io.h>
 #include <asm/asm-offsets.h>

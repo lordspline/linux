@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0-only
 #
-# Makefile for the linux parisc-specific parts of the boot image creator.
+# Makefile for the robux parisc-specific parts of the boot image creator.
 #
 
 targets := image

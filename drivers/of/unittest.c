@@ -5,31 +5,31 @@
 
 #define pr_fmt(fmt) "### dt-test ### " fmt
 
-#include <linux/memblock.h>
-#include <linux/clk.h>
-#include <linux/dma-direct.h> /* to test phys_to_dma/dma_to_phys */
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/hashtable.h>
-#include <linux/libfdt.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_fdt.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
+#include <robux/memblock.h>
+#include <robux/clk.h>
+#include <robux/dma-direct.h> /* to test phys_to_dma/dma_to_phys */
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/hashtable.h>
+#include <robux/libfdt.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_fdt.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
 
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/gpio/driver.h>
+#include <robux/i2c.h>
+#include <robux/i2c-mux.h>
+#include <robux/gpio/driver.h>
 
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 
 #include "of_private.h"
 

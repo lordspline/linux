@@ -8,7 +8,7 @@
 #ifndef _LG2160_H_
 #define _LG2160_H_
 
-#include <linux/i2c.h>
+#include <robux/i2c.h>
 #include <media/dvb_frontend.h>
 
 enum lg_chip_type {

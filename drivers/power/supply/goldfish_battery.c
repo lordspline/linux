@@ -8,15 +8,15 @@
  * Author: Mike Lockwood <lockwood@android.com>
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/acpi.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/acpi.h>
 
 struct goldfish_battery_data {
 	void __iomem *reg_base;

@@ -9,8 +9,8 @@
 #include <crypto/sha2.h>
 #include <crypto/md5.h>
 #include <crypto/hmac.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
 
 #include "eip93-cipher.h"
 #include "eip93-hash.h"

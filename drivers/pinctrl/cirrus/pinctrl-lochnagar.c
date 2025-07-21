@@ -8,24 +8,24 @@
  * Author: Charles Keepax <ckeepax@opensource.cirrus.com>
  */
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/string_choices.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/gpio/driver.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/string_choices.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
-#include <linux/mfd/lochnagar.h>
-#include <linux/mfd/lochnagar1_regs.h>
-#include <linux/mfd/lochnagar2_regs.h>
+#include <robux/mfd/lochnagar.h>
+#include <robux/mfd/lochnagar1_regs.h>
+#include <robux/mfd/lochnagar2_regs.h>
 
 #include <dt-bindings/pinctrl/lochnagar.h>
 

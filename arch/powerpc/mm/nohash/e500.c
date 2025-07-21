@@ -20,28 +20,28 @@
  *    Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/stddef.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/highmem.h>
-#include <linux/memblock.h>
-#include <linux/of_fdt.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/ptrace.h>
+#include <robux/mman.h>
+#include <robux/mm.h>
+#include <robux/swap.h>
+#include <robux/stddef.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/highmem.h>
+#include <robux/memblock.h>
+#include <robux/of_fdt.h>
 
 #include <asm/io.h>
 #include <asm/mmu_context.h>
 #include <asm/mmu.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/smp.h>
 #include <asm/machdep.h>
 #include <asm/setup.h>

@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2017 - 2019 Cambridge Greys Limited
  * Copyright (C) 2011 - 2014 Cisco Systems Inc
- * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2001 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  * Copyright (C) 2001 Lennert Buytenhek (buytenh@gnu.org) and
  * James Leu (jleu@mindspring.net).
  * Copyright (C) 2001 by various other people who didn't put their name here.
@@ -10,22 +10,22 @@
 
 #define pr_fmt(fmt) "uml-vector: " fmt
 
-#include <linux/memblock.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/inetdevice.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/rtnetlink.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/firmware.h>
-#include <linux/fs.h>
+#include <robux/memblock.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/inetdevice.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/netdevice.h>
+#include <robux/platform_device.h>
+#include <robux/rtnetlink.h>
+#include <robux/skbuff.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/firmware.h>
+#include <robux/fs.h>
 #include <asm/atomic.h>
-#include <uapi/linux/filter.h>
+#include <uapi/robux/filter.h>
 #include <init.h>
 #include <irq_kern.h>
 #include <irq_user.h>

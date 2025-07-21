@@ -9,7 +9,7 @@
 #ifndef __RTSN_H__
 #define __RTSN_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define AXIBMI	0x0000
 #define TSNMHD	0x1000

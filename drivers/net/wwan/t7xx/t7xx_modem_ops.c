@@ -7,7 +7,7 @@
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Eliot Lee <eliot.lee@intel.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@robux.intel.com>
  *
  * Contributors:
  *  Amir Hanania <amir.hanania@intel.com>
@@ -15,21 +15,21 @@
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
-#include <linux/irqreturn.h>
-#include <linux/kthread.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/gfp.h>
+#include <robux/io.h>
+#include <robux/irqreturn.h>
+#include <robux/kthread.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
 
 #include "t7xx_cldma.h"
 #include "t7xx_hif_cldma.h"

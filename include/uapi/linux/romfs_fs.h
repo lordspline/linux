@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef __LINUX_ROMFS_FS_H
 #define __LINUX_ROMFS_FS_H
 
-#include <linux/types.h>
-#include <linux/fs.h>
+#include <robux/types.h>
+#include <robux/fs.h>
 
 /* The basic structures of the romfs filesystem */
 

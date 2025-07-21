@@ -11,9 +11,9 @@
 #ifndef __LINUX_PINCTRL_MACHINE_H
 #define __LINUX_PINCTRL_MACHINE_H
 
-#include <linux/array_size.h>
+#include <robux/array_size.h>
 
-#include <linux/pinctrl/pinctrl-state.h>
+#include <robux/pinctrl/pinctrl-state.h>
 
 enum pinctrl_map_type {
 	PIN_MAP_TYPE_INVALID,

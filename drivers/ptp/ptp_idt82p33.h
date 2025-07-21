@@ -7,9 +7,9 @@
 #ifndef PTP_IDT82P33_H
 #define PTP_IDT82P33_H
 
-#include <linux/ktime.h>
-#include <linux/mfd/idt82p33_reg.h>
-#include <linux/regmap.h>
+#include <robux/ktime.h>
+#include <robux/mfd/idt82p33_reg.h>
+#include <robux/regmap.h>
 
 #define FW_FILENAME	"idt82p33xxx.bin"
 #define MAX_PHC_PLL	(2)

@@ -5,14 +5,14 @@
  * Copyright (C) 2021-2024 Marvell.
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/perf_event.h>
-#include <linux/hrtimer.h>
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/perf_event.h>
+#include <robux/hrtimer.h>
+#include <robux/acpi.h>
+#include <robux/platform_device.h>
 
 /* Performance Counters Operating Mode Control Registers */
 #define CN10K_DDRC_PERF_CNT_OP_MODE_CTRL	0x8020

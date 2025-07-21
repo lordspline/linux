@@ -5,18 +5,18 @@
  */
 
 #define pr_fmt(fmt) "riscv-imsic: " fmt
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqchip/riscv-imsic.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
+#include <robux/acpi.h>
+#include <robux/cpu.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqchip/riscv-imsic.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/spinlock.h>
+#include <robux/smp.h>
 
 #include "irq-riscv-imsic-state.h"
 
@@ -68,7 +68,7 @@ static int __init imsic_ipi_domain_init(void) { return 0; }
 /*
  * To handle an interrupt, we read the TOPEI CSR and write zero in one
  * instruction. If TOPEI CSR is non-zero then we translate TOPEI.ID to
- * Linux interrupt number and let Linux IRQ subsystem handle it.
+ * Robux interrupt number and let Robux IRQ subsystem handle it.
  */
 static void imsic_handle_irq(struct irq_desc *desc)
 {

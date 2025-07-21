@@ -9,8 +9,8 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/slab.h>
-#include <linux/acpi.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
 #include <acpi/processor.h>
 
 #include "internal.h"

@@ -6,11 +6,11 @@
 #ifndef _LINUX_ARM_FFA_H
 #define _LINUX_ARM_FFA_H
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/uuid.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/uuid.h>
 
 #define FFA_SMC(calling_convention, func_num)				\
 	ARM_SMCCC_CALL_VAL(ARM_SMCCC_FAST_CALL, (calling_convention),	\

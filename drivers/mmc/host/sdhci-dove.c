@@ -7,12 +7,12 @@
  * Based on sdhci-cns3xxx.c
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/mmc/host.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/mmc/host.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 #include "sdhci-pltfm.h"
 

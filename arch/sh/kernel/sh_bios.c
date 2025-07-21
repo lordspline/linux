@@ -7,12 +7,12 @@
  *  Copyright (C) 2002  M. R. Brown
  *  Copyright (C) 2004 - 2010  Paul Mundt
  */
-#include <linux/module.h>
-#include <linux/console.h>
-#include <linux/tty.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/console.h>
+#include <robux/tty.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/delay.h>
 #include <asm/sh_bios.h>
 
 #define BIOS_CALL_CONSOLE_WRITE		0
@@ -64,7 +64,7 @@ void sh_bios_shutdown(unsigned int how)
 
 /*
  * Read the old value of the VBR register to initialise the vector
- * through which debug and BIOS traps are delegated by the Linux trap
+ * through which debug and BIOS traps are delegated by the Robux trap
  * handler.
  */
 void sh_bios_vbr_init(void)

@@ -35,20 +35,20 @@
  * SUCH DAMAGE.
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/usb.h>
-#include <linux/wait.h>
-#include <linux/usb/audio.h>
-#include <linux/usb/midi.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/bitops.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
+#include <robux/usb.h>
+#include <robux/wait.h>
+#include <robux/usb/audio.h>
+#include <robux/usb/midi.h>
+#include <robux/module.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

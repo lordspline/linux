@@ -5,14 +5,14 @@
  * Copyright (C) 2008 Intel Corp.
  *
  * Author: Sarah Sharp
- * Some code borrowed from the Linux EHCI driver.
+ * Some code borrowed from the Robux EHCI driver.
  */
 
 
-#include <linux/slab.h>
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/pci.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/pci.h>
 
 #include "xhci.h"
 #include "xhci-trace.h"

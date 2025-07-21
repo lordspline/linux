@@ -5,9 +5,9 @@
 #ifndef _LINUX_PROC_FS_H
 #define _LINUX_PROC_FS_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
-#include <linux/fs.h>
+#include <robux/compiler.h>
+#include <robux/types.h>
+#include <robux/fs.h>
 
 struct proc_dir_entry;
 struct seq_file;

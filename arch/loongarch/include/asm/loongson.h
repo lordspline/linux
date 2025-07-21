@@ -7,10 +7,10 @@
 #ifndef __ASM_LOONGSON_H
 #define __ASM_LOONGSON_H
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/pci.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/pci.h>
 #include <asm/addrspace.h>
 #include <asm/bootinfo.h>
 

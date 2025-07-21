@@ -4,12 +4,12 @@
  *
  * Copyright (C) 2009 Steven Rostedt <srostedt@redhat.com>
  */
-#include <linux/ring_buffer.h>
-#include <linux/completion.h>
-#include <linux/kthread.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/module.h>
-#include <linux/ktime.h>
+#include <robux/ring_buffer.h>
+#include <robux/completion.h>
+#include <robux/kthread.h>
+#include <uapi/robux/sched/types.h>
+#include <robux/module.h>
+#include <robux/ktime.h>
 #include <asm/local.h>
 
 struct rb_page {

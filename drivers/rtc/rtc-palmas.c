@@ -10,18 +10,18 @@
  * Author: Laxman Dewangan <ldewangan@nvidia.com>
  */
 
-#include <linux/bcd.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/palmas.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/rtc.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
+#include <robux/bcd.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mfd/palmas.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/rtc.h>
+#include <robux/types.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
 
 struct palmas_rtc {
 	struct rtc_device	*rtc;

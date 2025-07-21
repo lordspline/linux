@@ -26,8 +26,8 @@
   *
   */
 
-#include <linux/fs.h>
-#include <linux/exportfs.h>
+#include <robux/fs.h>
+#include <robux/exportfs.h>
 #include "cifsglob.h"
 #include "cifs_debug.h"
 #include "cifsfs.h"

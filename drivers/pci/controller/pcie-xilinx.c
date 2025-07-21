@@ -10,19 +10,19 @@
  * ARM PCI Host generic driver.
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/msi.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
-#include <linux/of_irq.h>
-#include <linux/pci.h>
-#include <linux/pci-ecam.h>
-#include <linux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/msi.h>
+#include <robux/of_address.h>
+#include <robux/of_pci.h>
+#include <robux/of_platform.h>
+#include <robux/of_irq.h>
+#include <robux/pci.h>
+#include <robux/pci-ecam.h>
+#include <robux/platform_device.h>
 
 #include "../pci.h"
 

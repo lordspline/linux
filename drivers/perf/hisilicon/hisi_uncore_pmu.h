@@ -11,14 +11,14 @@
 #ifndef __HISI_UNCORE_PMU_H__
 #define __HISI_UNCORE_PMU_H__
 
-#include <linux/bitfield.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/cpumask.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/perf_event.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
 #undef pr_fmt
 #define pr_fmt(fmt)     "hisi_pmu: " fmt

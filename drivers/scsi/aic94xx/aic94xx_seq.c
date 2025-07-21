@@ -8,11 +8,11 @@
  * Parts of this code adapted from David Chaw's adp94xx_seq.c.
  */
 
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
+#include <robux/delay.h>
+#include <robux/gfp.h>
+#include <robux/pci.h>
+#include <robux/module.h>
+#include <robux/firmware.h>
 #include "aic94xx_reg.h"
 #include "aic94xx_hwi.h"
 

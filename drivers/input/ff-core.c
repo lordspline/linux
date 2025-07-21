@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  Force feedback support for Linux input subsystem
+ *  Force feedback support for Robux input subsystem
  *
  *  Copyright (c) 2006 Anssi Hannula <anssi.hannula@gmail.com>
  *  Copyright (c) 2006 Dmitry Torokhov <dtor@mail.ru>
@@ -8,13 +8,13 @@
 
 /* #define DEBUG */
 
-#include <linux/input.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/overflow.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/input.h>
+#include <robux/limits.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/overflow.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 
 /*
  * Check that the effect_id is a valid effect and whether the user

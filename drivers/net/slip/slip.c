@@ -55,40 +55,40 @@
  *					from multislip BSDI driver which was
  *					written by Igor Chechik, RELCOM Corp.
  *					Only algorithms have been ported to
- *					Linux SLIP driver.
+ *					Robux SLIP driver.
  *	Vitaly E. Lavrov	:	Sane behaviour on tty hangup.
  *	Alexey Kuznetsov	:	Cleanup interfaces to tty & netdevice
  *					modules.
  */
 
 #define SL_CHECK_TRANSMIT
-#include <linux/compat.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <robux/compat.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
 
-#include <linux/uaccess.h>
-#include <linux/bitops.h>
-#include <linux/sched/signal.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/in.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/rtnetlink.h>
-#include <linux/if_arp.h>
-#include <linux/if_slip.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/uaccess.h>
+#include <robux/bitops.h>
+#include <robux/sched/signal.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/in.h>
+#include <robux/tty.h>
+#include <robux/errno.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/rtnetlink.h>
+#include <robux/if_arp.h>
+#include <robux/if_slip.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 #include "slip.h"
 #ifdef CONFIG_INET
-#include <linux/ip.h>
-#include <linux/tcp.h>
+#include <robux/ip.h>
+#include <robux/tcp.h>
 #include <net/slhc_vj.h>
 #endif
 

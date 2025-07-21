@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: ISC
 /* Copyright (C) 2020 MediaTek Inc. */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/rtnetlink.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/rtnetlink.h>
+#include <robux/pci.h>
 
 #include "mt7915.h"
 #include "mac.h"

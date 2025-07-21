@@ -4,11 +4,11 @@
  * Copyright (C) 2008 Kyle McMartin <kyle@mcmartin.ca>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/time.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/time.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
 
 static int __init generic_rtc_probe(struct platform_device *dev)
 {

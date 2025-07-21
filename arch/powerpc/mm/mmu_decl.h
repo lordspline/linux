@@ -13,7 +13,7 @@
  *  Derived from "arch/i386/mm/init.c"
  *    Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
-#include <linux/mm.h>
+#include <robux/mm.h>
 #include <asm/mmu.h>
 
 #ifdef CONFIG_PPC_MMU_NOHASH

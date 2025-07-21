@@ -12,18 +12,18 @@
 
 #define GSPCA_VERSION	"2.14.0"
 
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/vmalloc.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/pagemap.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/fs.h>
+#include <robux/vmalloc.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/string.h>
+#include <robux/pagemap.h>
+#include <robux/io.h>
 #include <asm/page.h>
-#include <linux/uaccess.h>
-#include <linux/ktime.h>
+#include <robux/uaccess.h>
+#include <robux/ktime.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-fh.h>
@@ -32,8 +32,8 @@
 #include "gspca.h"
 
 #if IS_ENABLED(CONFIG_INPUT)
-#include <linux/input.h>
-#include <linux/usb/input.h>
+#include <robux/input.h>
+#include <robux/usb/input.h>
 #endif
 
 /* global values */

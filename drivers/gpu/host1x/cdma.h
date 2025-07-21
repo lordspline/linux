@@ -8,10 +8,10 @@
 #ifndef __HOST1X_CDMA_H
 #define __HOST1X_CDMA_H
 
-#include <linux/sched.h>
-#include <linux/completion.h>
-#include <linux/list.h>
-#include <linux/workqueue.h>
+#include <robux/sched.h>
+#include <robux/completion.h>
+#include <robux/list.h>
+#include <robux/workqueue.h>
 
 struct host1x_syncpt;
 struct host1x_userctx_timeout;

@@ -3,8 +3,8 @@
 #ifndef __NET_TCX_H
 #define __NET_TCX_H
 
-#include <linux/bpf.h>
-#include <linux/bpf_mprog.h>
+#include <robux/bpf.h>
+#include <robux/bpf_mprog.h>
 
 #include <net/sch_generic.h>
 

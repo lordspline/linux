@@ -7,8 +7,8 @@
  *
  */
 
-#include <linux/fs.h>
-#include <linux/nls.h>
+#include <robux/fs.h>
+#include <robux/nls.h>
 
 #include "debug.h"
 #include "ntfs.h"

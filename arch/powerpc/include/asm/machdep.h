@@ -3,10 +3,10 @@
 #define _ASM_POWERPC_MACHDEP_H
 #ifdef __KERNEL__
 
-#include <linux/compiler.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/time64.h>
+#include <robux/compiler.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/time64.h>
 
 #include <asm/page.h>
 

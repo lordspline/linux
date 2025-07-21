@@ -1,14 +1,14 @@
 /******************************************************************************
  * hypercall.h
  *
- * Linux-specific hypervisor handling.
+ * Robux-specific hypervisor handling.
  *
  * Copyright (c) 2002-2004, K A Fraser
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License version 2
  * as published by the Free Software Foundation; or, when distributed
- * separately from the Linux kernel or incorporated into other
+ * separately from the Robux kernel or incorporated into other
  * software packages, subject to the following license:
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -33,13 +33,13 @@
 #ifndef _ASM_X86_XEN_HYPERCALL_H
 #define _ASM_X86_XEN_HYPERCALL_H
 
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/pgtable.h>
-#include <linux/instrumentation.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/pgtable.h>
+#include <robux/instrumentation.h>
 
 #include <trace/events/xen.h>
 

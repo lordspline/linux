@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Cadence Design Systems Inc.
 
-#include <linux/cpu.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/memory.h>
-#include <linux/stop_machine.h>
-#include <linux/types.h>
+#include <robux/cpu.h>
+#include <robux/jump_label.h>
+#include <robux/kernel.h>
+#include <robux/memory.h>
+#include <robux/stop_machine.h>
+#include <robux/types.h>
 
 #include <asm/cacheflush.h>
 

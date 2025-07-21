@@ -7,8 +7,8 @@
 //
 // Author: James Ogletree <james.ogletree@cirrus.com>
 
-#include <linux/bitfield.h>
-#include <linux/mfd/cs40l50.h>
+#include <robux/bitfield.h>
+#include <robux/mfd/cs40l50.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 

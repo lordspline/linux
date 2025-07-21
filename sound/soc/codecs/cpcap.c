@@ -8,13 +8,13 @@
  * Copyright (C) 2007 - 2009 Motorola, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mfd/motorola-cpcap.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/mfd/motorola-cpcap.h>
 #include <sound/core.h>
-#include <linux/input.h>
+#include <robux/input.h>
 #include <sound/jack.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>

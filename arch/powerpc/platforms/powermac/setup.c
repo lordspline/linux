@@ -18,36 +18,36 @@
  * bootup setup stuff..
  */
 
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/export.h>
-#include <linux/user.h>
-#include <linux/tty.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/major.h>
-#include <linux/initrd.h>
-#include <linux/vt_kern.h>
-#include <linux/console.h>
-#include <linux/pci.h>
-#include <linux/adb.h>
-#include <linux/cuda.h>
-#include <linux/pmu.h>
-#include <linux/irq.h>
-#include <linux/seq_file.h>
-#include <linux/root_dev.h>
-#include <linux/bitops.h>
-#include <linux/suspend.h>
-#include <linux/string_choices.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/ptrace.h>
+#include <robux/export.h>
+#include <robux/user.h>
+#include <robux/tty.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/major.h>
+#include <robux/initrd.h>
+#include <robux/vt_kern.h>
+#include <robux/console.h>
+#include <robux/pci.h>
+#include <robux/adb.h>
+#include <robux/cuda.h>
+#include <robux/pmu.h>
+#include <robux/irq.h>
+#include <robux/seq_file.h>
+#include <robux/root_dev.h>
+#include <robux/bitops.h>
+#include <robux/suspend.h>
+#include <robux/string_choices.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
 
 #include <asm/reg.h>
 #include <asm/sections.h>
@@ -517,9 +517,9 @@ static int __init check_pmac_serial_console(void)
 
 	/* We are getting a weird phandle from OF ... */
 	/* ... So use the full path instead */
-	name = of_get_property(of_chosen, "linux,stdout-path", NULL);
+	name = of_get_property(of_chosen, "robux,stdout-path", NULL);
 	if (name == NULL) {
-		pr_debug(" no linux,stdout-path !\n");
+		pr_debug(" no robux,stdout-path !\n");
 		return -ENODEV;
 	}
 	prom_stdout = of_find_node_by_path(name);

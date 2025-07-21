@@ -3,9 +3,9 @@
 #ifndef _CRYPTO_BLAKE2B_H
 #define _CRYPTO_BLAKE2B_H
 
-#include <linux/bug.h>
-#include <linux/types.h>
-#include <linux/string.h>
+#include <robux/bug.h>
+#include <robux/types.h>
+#include <robux/string.h>
 
 struct blake2b_state {
 	/* 'h', 't', and 'f' are used in assembly code, so keep them as-is. */

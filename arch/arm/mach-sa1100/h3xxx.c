@@ -6,17 +6,17 @@
  * Copyright (c) 2009 Dmitry Artamonow <mad_soft@inbox.ru>
  */
 
-#include <linux/kernel.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio.h>
-#include <linux/gpio_keys.h>
-#include <linux/input.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/platform_data/gpio-htc-egpio.h>
-#include <linux/platform_data/sa11x0-serial.h>
-#include <linux/platform_device.h>
-#include <linux/serial_core.h>
+#include <robux/kernel.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio.h>
+#include <robux/gpio_keys.h>
+#include <robux/input.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/platform_data/gpio-htc-egpio.h>
+#include <robux/platform_data/sa11x0-serial.h>
+#include <robux/platform_device.h>
+#include <robux/serial_core.h>
 
 #include <asm/mach/flash.h>
 #include <asm/mach/map.h>

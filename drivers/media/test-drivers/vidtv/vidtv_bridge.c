@@ -10,13 +10,13 @@
  * Copyright (C) 2020 Daniel W. S. Almeida
  */
 
-#include <linux/dev_printk.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/time.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/dev_printk.h>
+#include <robux/moduleparam.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/time.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 #include <media/dvbdev.h>
 #include <media/media-device.h>
 

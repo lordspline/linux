@@ -177,11 +177,11 @@
 			no-map;
 		};
 
-		cma: linux,cma {
+		cma: robux,cma {
 			compatible = "shared-dma-pool";
 			size = <0x0 0x4000000>; /* 64MB */
 			reusable;
-			linux,cma-default;
+			robux,cma-default;
 			alloc-ranges = <0x0 0x00000000 0x0 0x40000000>;
 		};
 	};
@@ -443,7 +443,7 @@
 			compatible = "brcm,bcm2712-pcie";
 			reg = <0x10 0x00100000 0x00 0x9310>;
 			device_type = "pci";
-			linux,pci-domain = <0>;
+			robux,pci-domain = <0>;
 			max-link-speed = <2>;
 			num-lanes = <1>;
 			#address-cells = <3>;
@@ -480,7 +480,7 @@
 			compatible = "brcm,bcm2712-pcie";
 			reg = <0x10 0x00110000 0x00 0x9310>;
 			device_type = "pci";
-			linux,pci-domain = <1>;
+			robux,pci-domain = <1>;
 			max-link-speed = <2>;
 			num-lanes = <1>;
 			#address-cells = <3>;
@@ -519,7 +519,7 @@
 			compatible = "brcm,bcm2712-pcie";
 			reg = <0x10 0x00120000 0x00 0x9310>;
 			device_type = "pci";
-			linux,pci-domain = <2>;
+			robux,pci-domain = <2>;
 			max-link-speed = <2>;
 			num-lanes = <4>;
 			#address-cells = <3>;

@@ -4,10 +4,10 @@
 #ifndef _QUICKSPI_DEV_H_
 #define _QUICKSPI_DEV_H_
 
-#include <linux/bits.h>
-#include <linux/hid-over-spi.h>
-#include <linux/sizes.h>
-#include <linux/wait.h>
+#include <robux/bits.h>
+#include <robux/hid-over-spi.h>
+#include <robux/sizes.h>
+#include <robux/wait.h>
 
 #include "quickspi-protocol.h"
 

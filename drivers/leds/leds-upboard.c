@@ -9,13 +9,13 @@
  * Author: Thomas Richard <thomas.richard@bootlin.com>
  */
 
-#include <linux/device.h>
-#include <linux/container_of.h>
-#include <linux/leds.h>
-#include <linux/mfd/upboard-fpga.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/container_of.h>
+#include <robux/leds.h>
+#include <robux/mfd/upboard-fpga.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define led_cdev_to_led_upboard(c)	container_of(c, struct upboard_led, cdev)
 

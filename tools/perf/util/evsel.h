@@ -2,11 +2,11 @@
 #ifndef __PERF_EVSEL_H
 #define __PERF_EVSEL_H 1
 
-#include <linux/list.h>
+#include <robux/list.h>
 #include <stdbool.h>
 #include <sys/types.h>
-#include <linux/perf_event.h>
-#include <linux/types.h>
+#include <robux/perf_event.h>
+#include <robux/types.h>
 #include <internal/evsel.h>
 #include <perf/evsel.h>
 #include "symbol_conf.h"
@@ -264,7 +264,7 @@ void free_config_terms(struct list_head *config_terms);
 
 
 /*
- * Returns pointer with encoded error via <linux/err.h> interface.
+ * Returns pointer with encoded error via <robux/err.h> interface.
  */
 struct evsel *evsel__newtp_idx(const char *sys, const char *name, int idx, bool format);
 static inline struct evsel *evsel__newtp(const char *sys, const char *name)

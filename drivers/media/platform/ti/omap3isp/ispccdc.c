@@ -11,14 +11,14 @@
  *	     Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 #include <media/v4l2-event.h>
 
 #include "isp.h"

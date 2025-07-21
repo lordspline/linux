@@ -6,12 +6,12 @@
  * Author: Chunyan Zhang <chunyan.zhang@unisoc.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include <dt-bindings/clock/sprd,sc9863a-clk.h>
 

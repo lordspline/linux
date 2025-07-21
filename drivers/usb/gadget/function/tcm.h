@@ -2,12 +2,12 @@
 #ifndef __TARGET_USB_GADGET_H__
 #define __TARGET_USB_GADGET_H__
 
-#include <linux/kref.h>
-/* #include <linux/usb/uas.h> */
-#include <linux/hashtable.h>
-#include <linux/usb/composite.h>
-#include <linux/usb/uas.h>
-#include <linux/usb/storage.h>
+#include <robux/kref.h>
+/* #include <robux/usb/uas.h> */
+#include <robux/hashtable.h>
+#include <robux/usb/composite.h>
+#include <robux/usb/uas.h>
+#include <robux/usb/storage.h>
 #include <target/target_core_base.h>
 #include <target/target_core_fabric.h>
 

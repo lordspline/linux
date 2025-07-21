@@ -2,12 +2,12 @@
 /*
  * Copyright (C) STMicroelectronics 2020 - All Rights Reserved
  */
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/rpmsg.h>
-#include <linux/rpmsg/ns.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/rpmsg.h>
+#include <robux/rpmsg/ns.h>
+#include <robux/slab.h>
 
 #include "rpmsg_internal.h"
 

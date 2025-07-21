@@ -49,21 +49,21 @@ static int max_interrupt_work = 20;
 #define RX_RING_SIZE	16
 #define PKT_BUF_SZ		1536	/* Size of each temporary Rx buffer. */
 
-#include <linux/module.h>
-#include <linux/isapnp.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/in.h>
-#include <linux/ioport.h>
-#include <linux/skbuff.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/ethtool.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/isapnp.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/in.h>
+#include <robux/ioport.h>
+#include <robux/skbuff.h>
+#include <robux/etherdevice.h>
+#include <robux/interrupt.h>
+#include <robux/timer.h>
+#include <robux/ethtool.h>
+#include <robux/bitops.h>
+#include <robux/uaccess.h>
 
 #include <net/Space.h>
 
@@ -71,7 +71,7 @@ static int max_interrupt_work = 20;
 #include <asm/dma.h>
 
 #define NEW_MULTICAST
-#include <linux/delay.h>
+#include <robux/delay.h>
 
 #define MAX_UNITS 8
 
@@ -118,7 +118,7 @@ it's not practical to integrate this driver with the other EtherLink drivers.
 II. Board-specific settings
 
 The Corkscrew has an EEPROM for configuration, but no special settings are
-needed for Linux.
+needed for Robux.
 
 III. Driver operation
 

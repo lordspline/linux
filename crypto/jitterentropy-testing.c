@@ -5,9 +5,9 @@
  * Copyright (C) 2023, Stephan Mueller <smueller@chronox.de>
  */
 
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
 
 #include "jitterentropy.h"
 

@@ -6,8 +6,8 @@
 #ifndef _STMMAC_FPE_H_
 #define _STMMAC_FPE_H_
 
-#include <linux/types.h>
-#include <linux/netdevice.h>
+#include <robux/types.h>
+#include <robux/netdevice.h>
 
 struct stmmac_priv;
 

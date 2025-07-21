@@ -8,18 +8,18 @@
  * hardware.
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/bitops.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/bitops.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 
 /* All information about the connected logic modules are in here */
 #define INTEGRATOR_SC_DEC_OFFSET	0x10

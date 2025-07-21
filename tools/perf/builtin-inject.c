@@ -31,14 +31,14 @@
 
 #include <internal/lib.h>
 
-#include <linux/err.h>
+#include <robux/err.h>
 #include <subcmd/parse-options.h>
-#include <uapi/linux/mman.h> /* To get things like MAP_HUGETLB even on older libc headers */
+#include <uapi/robux/mman.h> /* To get things like MAP_HUGETLB even on older libc headers */
 
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
-#include <linux/hash.h>
+#include <robux/list.h>
+#include <robux/string.h>
+#include <robux/zalloc.h>
+#include <robux/hash.h>
 #include <ctype.h>
 #include <errno.h>
 #include <signal.h>

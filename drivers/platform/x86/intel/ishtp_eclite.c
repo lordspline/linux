@@ -6,19 +6,19 @@
  * Copyright (c) 2021, Intel Corporation.
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/intel-ish-client-if.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/types.h>
-#include <linux/uuid.h>
-#include <linux/uaccess.h>
+#include <robux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/intel-ish-client-if.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/suspend.h>
+#include <robux/types.h>
+#include <robux/uuid.h>
+#include <robux/uaccess.h>
 
 #define ECLITE_DATA_OPREGION_ID	0x9E
 #define ECLITE_CMD_OPREGION_ID	0x9F

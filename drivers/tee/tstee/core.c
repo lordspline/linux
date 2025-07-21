@@ -3,19 +3,19 @@
  * Copyright (c) 2023, Arm Limited
  */
 
-#include <linux/arm_ffa.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/tee_core.h>
-#include <linux/types.h>
-#include <linux/uuid.h>
-#include <linux/xarray.h>
+#include <robux/arm_ffa.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/limits.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/tee_core.h>
+#include <robux/types.h>
+#include <robux/uuid.h>
+#include <robux/xarray.h>
 #include "tstee_private.h"
 
 #define FFA_DIRECT_REQ_ARG_NUM 5

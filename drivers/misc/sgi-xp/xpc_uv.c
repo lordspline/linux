@@ -13,16 +13,16 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/numa.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/cpu.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/numa.h>
 #include <asm/uv/uv_hub.h>
 #include <asm/uv/bios.h>
 #include <asm/uv/uv_irq.h>

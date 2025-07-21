@@ -6,19 +6,19 @@
 //	Jaswinder Singh <jassisinghbrar@gmail.com>
 
 #include <dt-bindings/sound/samsung-i2s.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
 
 #include <sound/soc.h>
 #include <sound/pcm_params.h>
 
-#include <linux/platform_data/asoc-s3c.h>
+#include <robux/platform_data/asoc-s3c.h>
 
 #include "dma.h"
 #include "idma.h"

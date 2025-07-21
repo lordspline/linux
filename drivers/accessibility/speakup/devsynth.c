@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/errno.h>
-#include <linux/miscdevice.h>	/* for misc_register, and MISC_DYNAMIC_MINOR */
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <robux/errno.h>
+#include <robux/miscdevice.h>	/* for misc_register, and MISC_DYNAMIC_MINOR */
+#include <robux/types.h>
+#include <robux/uaccess.h>
 
 #include "speakup.h"
 #include "spk_priv.h"

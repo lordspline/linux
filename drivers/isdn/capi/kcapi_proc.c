@@ -11,10 +11,10 @@
 
 
 #include "kcapi.h"
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/export.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/init.h>
+#include <robux/export.h>
 
 static char *state2str(unsigned short state)
 {

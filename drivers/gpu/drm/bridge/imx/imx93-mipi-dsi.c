@@ -4,19 +4,19 @@
  * Copyright 2022,2023 NXP
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/math.h>
-#include <linux/media-bus-format.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/phy/phy-mipi-dphy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/math.h>
+#include <robux/media-bus-format.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/phy/phy-mipi-dphy.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include <drm/bridge/dw_mipi_dsi.h>
 #include <drm/drm_bridge.h>

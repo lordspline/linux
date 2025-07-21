@@ -5,12 +5,12 @@
  * Copyright (C) 2022 Nvidia Technologies Ltd.
  */
 
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/platform_data/emc2305.h>
-#include <linux/thermal.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/platform_data/emc2305.h>
+#include <robux/thermal.h>
 
 #define EMC2305_REG_DRIVE_FAIL_STATUS	0x27
 #define EMC2305_REG_VENDOR		0xfe

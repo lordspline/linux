@@ -3,27 +3,27 @@
  * Copyright (c) 2016, Linaro Ltd
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/mailbox_client.h>
-#include <linux/mfd/syscon.h>
-#include <linux/slab.h>
-#include <linux/rpmsg.h>
-#include <linux/idr.h>
-#include <linux/circ_buf.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/sizes.h>
-#include <linux/delay.h>
-#include <linux/regmap.h>
-#include <linux/workqueue.h>
-#include <linux/list.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/mailbox_client.h>
+#include <robux/mfd/syscon.h>
+#include <robux/slab.h>
+#include <robux/rpmsg.h>
+#include <robux/idr.h>
+#include <robux/circ_buf.h>
+#include <robux/soc/qcom/smem.h>
+#include <robux/sizes.h>
+#include <robux/delay.h>
+#include <robux/regmap.h>
+#include <robux/workqueue.h>
+#include <robux/list.h>
 
-#include <linux/rpmsg/qcom_glink.h>
+#include <robux/rpmsg/qcom_glink.h>
 
 #include "qcom_glink_native.h"
 

@@ -6,7 +6,7 @@
 #ifndef _ASM_POWERPC_FPU_H
 #define _ASM_POWERPC_FPU_H
 
-#include <linux/preempt.h>
+#include <robux/preempt.h>
 
 #include <asm/cpu_has_feature.h>
 #include <asm/switch_to.h>

@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2021, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/bitops.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #define I2C_INTR_STATUS_BASE		0x0550
 #define INT_RT_STS_OFFSET		0x10

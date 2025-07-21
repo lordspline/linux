@@ -7,12 +7,12 @@
  * Author: Will Deacon <will.deacon@arm.com>
  */
 
-#include <linux/clocksource.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/timex.h>
+#include <robux/clocksource.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/timex.h>
 
 /*
  * Default to the loop-based delay implementation.

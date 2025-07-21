@@ -3,17 +3,17 @@
  * Copyright(c) 2023-2024 Intel Corporation
  *
  * Authors: Cezary Rojewski <cezary.rojewski@intel.com>
- *          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+ *          Amadeusz Slawinski <amadeuszx.slawinski@robux.intel.com>
  */
 
 #define pr_fmt(fmt) "ACPI: NHLT: " fmt
 
-#include <linux/acpi.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/minmax.h>
-#include <linux/printk.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/minmax.h>
+#include <robux/printk.h>
+#include <robux/types.h>
 #include <acpi/nhlt.h>
 
 static struct acpi_table_nhlt *acpi_gbl_nhlt;

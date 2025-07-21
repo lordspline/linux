@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2011 Rafael J. Wysocki <rjw@sisk.pl>, Renesas Electronics Corp.
  */
-#include <linux/kernel.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_qos.h>
-#include <linux/hrtimer.h>
-#include <linux/cpu.h>
-#include <linux/cpuidle.h>
-#include <linux/cpumask.h>
-#include <linux/ktime.h>
+#include <robux/kernel.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_qos.h>
+#include <robux/hrtimer.h>
+#include <robux/cpu.h>
+#include <robux/cpuidle.h>
+#include <robux/cpumask.h>
+#include <robux/ktime.h>
 
 static int dev_update_qos_constraint(struct device *dev, void *data)
 {

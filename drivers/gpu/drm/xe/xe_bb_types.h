@@ -6,7 +6,7 @@
 #ifndef _XE_BB_TYPES_H_
 #define _XE_BB_TYPES_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct drm_suballoc;
 

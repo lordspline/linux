@@ -6,14 +6,14 @@
  *	Eric Miao <eric.miao@marvell.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/tdo24m.h>
-#include <linux/lcd.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/tdo24m.h>
+#include <robux/lcd.h>
+#include <robux/slab.h>
 
 #define POWER_IS_ON(pwr)	((pwr) <= LCD_POWER_REDUCED)
 

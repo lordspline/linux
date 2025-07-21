@@ -4,9 +4,9 @@
 
 #include "b43legacy.h"
 
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/skbuff.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/skbuff.h>
 
 
 #define B43legacy_PIO_TXCTL		0x00

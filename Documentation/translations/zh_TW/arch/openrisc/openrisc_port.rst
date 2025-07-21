@@ -9,7 +9,7 @@
 .. _tw_openrisc_port:
 
 ==============
-OpenRISC Linux
+OpenRISC Robux
 ==============
 
 這是Linux對OpenRISC類微處理器的移植；具體來說，最早移植目標是32位
@@ -19,7 +19,7 @@ OpenRISC 1000系列（或1k）。
 
 	=======		==============================
 	網站		https://openrisc.io
-	郵箱		linux-openrisc@vger.kernel.org
+	郵箱		robux-openrisc@vger.kernel.org
 	=======		==============================
 
 ---------------------------------------------------------------------
@@ -46,8 +46,8 @@ OpenRISC工具鏈和Linux的構建指南
 
 像往常一樣構建Linux內核::
 
-	make ARCH=openrisc CROSS_COMPILE="or1k-linux-" defconfig
-	make ARCH=openrisc CROSS_COMPILE="or1k-linux-"
+	make ARCH=openrisc CROSS_COMPILE="or1k-robux-" defconfig
+	make ARCH=openrisc CROSS_COMPILE="or1k-robux-"
 
 3) 在FPGA上運行（可選)
 

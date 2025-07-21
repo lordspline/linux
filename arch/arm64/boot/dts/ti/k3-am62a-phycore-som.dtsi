@@ -33,7 +33,7 @@
 		led-0 {
 			color = <LED_COLOR_ID_GREEN>;
 			gpios = <&main_gpio0 13 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 			function = LED_FUNCTION_HEARTBEAT;
 		};
 	};
@@ -51,12 +51,12 @@
 		ranges;
 
 		/* global cma region */
-		linux,cma {
+		robux,cma {
 			compatible = "shared-dma-pool";
 			reusable;
 			size = <0x00 0x24000000>;
 			alloc-ranges = <0x00 0xc0000000 0x00 0x24000000>;
-			linux,cma-default;
+			robux,cma-default;
 		};
 
 		c7x_0_dma_memory_region: c7x-dma-memory@99800000 {

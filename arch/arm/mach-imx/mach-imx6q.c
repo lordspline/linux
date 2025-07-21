@@ -4,15 +4,15 @@
  * Copyright 2011 Linaro Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/irqchip.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
-#include <linux/phy.h>
-#include <linux/regmap.h>
-#include <linux/micrel_phy.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/imx6q-iomuxc-gpr.h>
+#include <robux/clk.h>
+#include <robux/irqchip.h>
+#include <robux/of_platform.h>
+#include <robux/pci.h>
+#include <robux/phy.h>
+#include <robux/regmap.h>
+#include <robux/micrel_phy.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mfd/syscon/imx6q-iomuxc-gpr.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>
 

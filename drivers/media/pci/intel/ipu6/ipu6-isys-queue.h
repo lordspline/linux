@@ -4,11 +4,11 @@
 #ifndef IPU6_ISYS_QUEUE_H
 #define IPU6_ISYS_QUEUE_H
 
-#include <linux/container_of.h>
-#include <linux/atomic.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/spinlock_types.h>
+#include <robux/container_of.h>
+#include <robux/atomic.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/spinlock_types.h>
 
 #include <media/videobuf2-v4l2.h>
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Intel IXP4xx Network Processor Engine driver for Linux
+ * Intel IXP4xx Network Processor Engine driver for Robux
  *
  * Copyright (C) 2007 Krzysztof Halasa <khc@pm.waw.pl>
  *
@@ -11,18 +11,18 @@
  *   Thanks, Christian.
  */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/soc/ixp4xx/npe.h>
-#include <linux/soc/ixp4xx/cpu.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/firmware.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/soc/ixp4xx/npe.h>
+#include <robux/soc/ixp4xx/cpu.h>
 
 #define DEBUG_MSG			0
 #define DEBUG_FW			0

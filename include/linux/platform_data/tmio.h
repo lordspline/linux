@@ -2,8 +2,8 @@
 #ifndef MFD_TMIO_H
 #define MFD_TMIO_H
 
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
 /* TMIO MMC platform flags */
 

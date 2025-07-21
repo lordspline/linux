@@ -11,18 +11,18 @@
  * USB peripheral controller (at91_udc.c).
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/prefetch.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/prefetch.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
 
 /* Register offsets for the USB device.*/
 #define XUSB_EP0_CONFIG_OFFSET		0x0000  /* EP0 Config Reg Offset */
@@ -107,7 +107,7 @@
 
 /**
  * struct xusb_req - Xilinx USB device request structure
- * @usb_req: Linux usb request structure
+ * @usb_req: Robux usb request structure
  * @queue: usb device request queue
  * @ep: pointer to xusb_endpoint structure
  */

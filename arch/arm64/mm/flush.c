@@ -6,10 +6,10 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/libnvdimm.h>
-#include <linux/pagemap.h>
+#include <robux/export.h>
+#include <robux/mm.h>
+#include <robux/libnvdimm.h>
+#include <robux/pagemap.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cache.h>

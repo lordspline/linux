@@ -28,8 +28,8 @@
 #ifndef __TEE_H
 #define __TEE_H
 
-#include <linux/ioctl.h>
-#include <linux/types.h>
+#include <robux/ioctl.h>
+#include <robux/types.h>
 
 /*
  * This file describes the API provided by a TEE driver to user space.

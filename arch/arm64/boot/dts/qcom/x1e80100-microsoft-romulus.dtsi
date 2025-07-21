@@ -67,8 +67,8 @@
 
 		switch-lid {
 			gpios = <&tlmm 2 GPIO_ACTIVE_LOW>;
-			linux,input-type = <EV_SW>;
-			linux,code = <SW_LID>;
+			robux,input-type = <EV_SW>;
+			robux,code = <SW_LID>;
 			wakeup-source;
 			wakeup-event-action = <EV_ACT_DEASSERTED>;
 		};
@@ -85,7 +85,7 @@
 			function = LED_FUNCTION_INDICATOR;
 			color = <LED_COLOR_ID_WHITE>;
 			gpios = <&tlmm 225 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "none";
+			robux,default-trigger = "none";
 			default-state = "off";
 			/* Reuse as a panic indicator until we get a "camera on" trigger */
 			panic-indicator;
@@ -177,11 +177,11 @@
 	};
 
 	reserved-memory {
-		linux,cma {
+		robux,cma {
 			compatible = "shared-dma-pool";
 			size = <0x0 0x8000000>;
 			reusable;
-			linux,cma-default;
+			robux,cma-default;
 		};
 	};
 

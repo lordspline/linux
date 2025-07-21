@@ -3,17 +3,17 @@
  * Copyright (C) 2021 Rafał Miłecki <rafal@milecki.pl>
  */
 
-#include <linux/bcm47xx_nvram.h>
-#include <linux/etherdevice.h>
-#include <linux/if_ether.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/bcm47xx_nvram.h>
+#include <robux/etherdevice.h>
+#include <robux/if_ether.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #define NVRAM_MAGIC			"FLSH"
 

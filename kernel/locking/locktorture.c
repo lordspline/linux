@@ -4,35 +4,35 @@
  *
  * Copyright (C) IBM Corporation, 2014
  *
- * Authors: Paul E. McKenney <paulmck@linux.ibm.com>
+ * Authors: Paul E. McKenney <paulmck@robux.ibm.com>
  *          Davidlohr Bueso <dave@stgolabs.net>
  *	Based on kernel/rcu/torture.c.
  */
 
 #define pr_fmt(fmt) fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/sched/rt.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/rtmutex.h>
-#include <linux/atomic.h>
-#include <linux/moduleparam.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/torture.h>
-#include <linux/reboot.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/kthread.h>
+#include <robux/sched/rt.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/rwsem.h>
+#include <robux/smp.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <uapi/robux/sched/types.h>
+#include <robux/rtmutex.h>
+#include <robux/atomic.h>
+#include <robux/moduleparam.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/torture.h>
+#include <robux/reboot.h>
 
 MODULE_DESCRIPTION("torture test facility for locking");
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Paul E. McKenney <paulmck@linux.ibm.com>");
+MODULE_AUTHOR("Paul E. McKenney <paulmck@robux.ibm.com>");
 
 torture_param(int, acq_writer_lim, 0, "Write_acquisition time limit (jiffies).");
 torture_param(int, call_rcu_chains, 0, "Self-propagate call_rcu() chains during test (0=disable).");
@@ -594,7 +594,7 @@ static struct lock_torture_ops mutex_lock_ops = {
 	.name		= "mutex_lock"
 };
 
-#include <linux/ww_mutex.h>
+#include <robux/ww_mutex.h>
 /*
  * The torture ww_mutexes should belong to the same lock class as
  * torture_ww_class to avoid lockdep problem. The ww_mutex_init()
@@ -838,7 +838,7 @@ static struct lock_torture_ops rwsem_lock_ops = {
 	.name		= "rwsem_lock"
 };
 
-#include <linux/percpu-rwsem.h>
+#include <robux/percpu-rwsem.h>
 static struct percpu_rw_semaphore pcpu_rwsem;
 
 static void torture_percpu_rwsem_init(void)

@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright 2014 Cisco Systems, Inc.  All rights reserved.
 
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
 
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/spinlock.h>
-#include <linux/mempool.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
+#include <robux/spinlock.h>
+#include <robux/mempool.h>
 #include <scsi/scsi_tcq.h>
-#include <linux/ctype.h>
+#include <robux/ctype.h>
 
 #include "snic_io.h"
 #include "snic.h"

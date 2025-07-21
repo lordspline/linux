@@ -1,5 +1,5 @@
 /*
- * POSIX message queues filesystem for Linux.
+ * POSIX message queues filesystem for Robux.
  *
  * Copyright (C) 2003,2004  Krzysztof Benedyczak    (golbi@mat.uni.torun.pl)
  *                          Michal Wronski          (michal.wronski@gmail.com)
@@ -13,32 +13,32 @@
  * This file is released under the GPL.
  */
 
-#include <linux/capability.h>
-#include <linux/init.h>
-#include <linux/pagemap.h>
-#include <linux/file.h>
-#include <linux/mount.h>
-#include <linux/fs_context.h>
-#include <linux/namei.h>
-#include <linux/sysctl.h>
-#include <linux/poll.h>
-#include <linux/mqueue.h>
-#include <linux/msg.h>
-#include <linux/skbuff.h>
-#include <linux/vmalloc.h>
-#include <linux/netlink.h>
-#include <linux/syscalls.h>
-#include <linux/audit.h>
-#include <linux/signal.h>
-#include <linux/mutex.h>
-#include <linux/nsproxy.h>
-#include <linux/pid.h>
-#include <linux/ipc_namespace.h>
-#include <linux/user_namespace.h>
-#include <linux/slab.h>
-#include <linux/sched/wake_q.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/user.h>
+#include <robux/capability.h>
+#include <robux/init.h>
+#include <robux/pagemap.h>
+#include <robux/file.h>
+#include <robux/mount.h>
+#include <robux/fs_context.h>
+#include <robux/namei.h>
+#include <robux/sysctl.h>
+#include <robux/poll.h>
+#include <robux/mqueue.h>
+#include <robux/msg.h>
+#include <robux/skbuff.h>
+#include <robux/vmalloc.h>
+#include <robux/netlink.h>
+#include <robux/syscalls.h>
+#include <robux/audit.h>
+#include <robux/signal.h>
+#include <robux/mutex.h>
+#include <robux/nsproxy.h>
+#include <robux/pid.h>
+#include <robux/ipc_namespace.h>
+#include <robux/user_namespace.h>
+#include <robux/slab.h>
+#include <robux/sched/wake_q.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/user.h>
 
 #include <net/sock.h>
 #include "util.h"

@@ -6,11 +6,11 @@
  * Copyright (C) 2008 Maxime Bizon <mbizon@freebox.fr>
  */
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/io.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/io.h>
 
 #include "pci-bcm63xx.h"
 

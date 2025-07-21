@@ -4,9 +4,9 @@
 #ifndef _ASM_PARISC_SYSCALL_H_
 #define _ASM_PARISC_SYSCALL_H_
 
-#include <uapi/linux/audit.h>
-#include <linux/compat.h>
-#include <linux/err.h>
+#include <uapi/robux/audit.h>
+#include <robux/compat.h>
+#include <robux/err.h>
 #include <asm/ptrace.h>
 
 #define NR_syscalls (__NR_Linux_syscalls)

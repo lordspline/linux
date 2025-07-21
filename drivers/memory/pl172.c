@@ -9,17 +9,17 @@
  * TI AEMIF driver, Copyright (C) 2010 - 2013 Texas Instruments Inc.
  */
 
-#include <linux/amba/bus.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/time.h>
+#include <robux/amba/bus.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/time.h>
 
 #define MPMC_STATIC_CFG(n)		(0x200 + 0x20 * (n))
 #define  MPMC_STATIC_CFG_MW_8BIT	0x0

@@ -5,21 +5,21 @@
  * Copyright (c) 2023, ROHM Semiconductor.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/units.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/iio-gts-helper.h>
-#include <linux/iio/kfifo_buf.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/iio-gts-helper.h>
+#include <robux/iio/kfifo_buf.h>
 
 #define BU27034_REG_SYSTEM_CONTROL	0x40
 #define BU27034_MASK_SW_RESET		BIT(7)

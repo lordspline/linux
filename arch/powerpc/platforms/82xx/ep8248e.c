@@ -6,14 +6,14 @@
  * Author: Scott Wood <scottwood@freescale.com>
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/fsl_devices.h>
-#include <linux/mdio-bitbang.h>
-#include <linux/of_mdio.h>
-#include <linux/slab.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/fsl_devices.h>
+#include <robux/mdio-bitbang.h>
+#include <robux/of_mdio.h>
+#include <robux/slab.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/cpm2.h>

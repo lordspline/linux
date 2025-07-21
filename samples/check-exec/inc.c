@@ -13,9 +13,9 @@
 
 #define _GNU_SOURCE
 #include <errno.h>
-#include <linux/fcntl.h>
-#include <linux/prctl.h>
-#include <linux/securebits.h>
+#include <robux/fcntl.h>
+#include <robux/prctl.h>
+#include <robux/securebits.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>

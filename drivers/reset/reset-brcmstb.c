@@ -5,14 +5,14 @@
  * Author: Florian Fainelli <f.fainelli@gmail.com>
  * Copyright (C) 2018 Broadcom
  */
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/types.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
+#include <robux/types.h>
 
 struct brcmstb_reset {
 	void __iomem *base;

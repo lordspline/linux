@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2020-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020-2021, The Robux Foundation. All rights reserved.
  */
 
 #include <asm/div64.h>
-#include <linux/interconnect-provider.h>
-#include <linux/list_sort.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/interconnect-provider.h>
+#include <robux/list_sort.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <soc/qcom/rpmh.h>
 #include <soc/qcom/tcs.h>

@@ -3,32 +3,32 @@
  * Copyright 2002 Andi Kleen, SuSE Labs.
  * Thanks to Ben LaHaise for precious feedback.
  */
-#include <linux/highmem.h>
-#include <linux/memblock.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
-#include <linux/debugfs.h>
-#include <linux/pfn.h>
-#include <linux/percpu.h>
-#include <linux/gfp.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
-#include <linux/libnvdimm.h>
-#include <linux/vmstat.h>
-#include <linux/kernel.h>
-#include <linux/cc_platform.h>
-#include <linux/set_memory.h>
-#include <linux/memregion.h>
+#include <robux/highmem.h>
+#include <robux/memblock.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/seq_file.h>
+#include <robux/proc_fs.h>
+#include <robux/debugfs.h>
+#include <robux/pfn.h>
+#include <robux/percpu.h>
+#include <robux/gfp.h>
+#include <robux/pci.h>
+#include <robux/vmalloc.h>
+#include <robux/libnvdimm.h>
+#include <robux/vmstat.h>
+#include <robux/kernel.h>
+#include <robux/cc_platform.h>
+#include <robux/set_memory.h>
+#include <robux/memregion.h>
 
 #include <asm/e820/api.h>
 #include <asm/processor.h>
 #include <asm/tlbflush.h>
 #include <asm/sections.h>
 #include <asm/setup.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/pgalloc.h>
 #include <asm/proto.h>
 #include <asm/memtype.h>
@@ -571,7 +571,7 @@ static pgprotval_t protect_kernel_text_ro(unsigned long start,
 	 * the current mapping is already using small page mapping.  No
 	 * need to work hard to preserve large page mappings in this case.
 	 *
-	 * This also fixes the Linux Xen paravirt guest boot failure caused
+	 * This also fixes the Robux Xen paravirt guest boot failure caused
 	 * by unexpected read-only mappings for kernel identity
 	 * mappings. In this paravirt guest case, the kernel text mapping
 	 * and the kernel identity mapping share the same page-table pages,

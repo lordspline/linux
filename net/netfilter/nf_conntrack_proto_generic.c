@@ -3,10 +3,10 @@
  * (C) 2002-2004 Netfilter Core Team <coreteam@netfilter.org>
  */
 
-#include <linux/types.h>
-#include <linux/jiffies.h>
-#include <linux/timer.h>
-#include <linux/netfilter.h>
+#include <robux/types.h>
+#include <robux/jiffies.h>
+#include <robux/timer.h>
+#include <robux/netfilter.h>
 #include <net/netfilter/nf_conntrack_l4proto.h>
 #include <net/netfilter/nf_conntrack_timeout.h>
 
@@ -14,8 +14,8 @@ static const unsigned int nf_ct_generic_timeout = 600*HZ;
 
 #ifdef CONFIG_NF_CONNTRACK_TIMEOUT
 
-#include <linux/netfilter/nfnetlink.h>
-#include <linux/netfilter/nfnetlink_cttimeout.h>
+#include <robux/netfilter/nfnetlink.h>
+#include <robux/netfilter/nfnetlink_cttimeout.h>
 
 static int generic_timeout_nlattr_to_obj(struct nlattr *tb[],
 					 struct net *net, void *data)

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * max1619.c - Part of lm_sensors, Linux kernel modules for hardware
+ * max1619.c - Part of lm_sensors, Robux kernel modules for hardware
  *             monitoring
  * Copyright (C) 2003-2004 Oleksij Rempel <bug-track@fisher-privat.net>
  *                         Jean Delvare <jdelvare@suse.de>
@@ -12,13 +12,13 @@
  *   http://pdfserv.maxim-ic.com/en/ds/MAX1619.pdf
  */
 
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/util_macros.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/util_macros.h>
 
 static const unsigned short normal_i2c[] = {
 	0x18, 0x19, 0x1a, 0x29, 0x2a, 0x2b, 0x4c, 0x4d, 0x4e, I2C_CLIENT_END };

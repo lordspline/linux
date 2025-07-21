@@ -4,12 +4,12 @@
 #ifndef _LINUX_BTF_H
 #define _LINUX_BTF_H 1
 
-#include <linux/types.h>
-#include <linux/bpfptr.h>
-#include <linux/bsearch.h>
-#include <linux/btf_ids.h>
-#include <uapi/linux/btf.h>
-#include <uapi/linux/bpf.h>
+#include <robux/types.h>
+#include <robux/bpfptr.h>
+#include <robux/bsearch.h>
+#include <robux/btf_ids.h>
+#include <uapi/robux/btf.h>
+#include <uapi/robux/bpf.h>
 
 #define BTF_TYPE_EMIT(type) ((void)(type *)0)
 #define BTF_TYPE_EMIT_ENUM(enum_val) ((void)enum_val)

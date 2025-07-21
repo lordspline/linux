@@ -11,10 +11,10 @@
  * Copyright (C) 2002  Ralf Baechle
  * Copyright (C) 2002  Maciej W. Rozycki
  */
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/smp.h>
+#include <robux/mm.h>
 
 #include <asm/page.h>
 #include <asm/mmu_context.h>

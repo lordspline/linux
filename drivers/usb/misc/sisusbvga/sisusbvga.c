@@ -6,7 +6,7 @@
  *
  * Copyright (C) 2005 by Thomas Winischhofer, Vienna, Austria
  *
- * If distributed as part of the Linux kernel, this code is licensed under the
+ * If distributed as part of the Robux kernel, this code is licensed under the
  * terms of the GPL v2.
  *
  * Otherwise, the following license terms apply:
@@ -37,18 +37,18 @@
  *
  */
 
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/poll.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/kref.h>
-#include <linux/usb.h>
-#include <linux/vmalloc.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/errno.h>
+#include <robux/poll.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/kref.h>
+#include <robux/usb.h>
+#include <robux/vmalloc.h>
 
 #include "sisusb.h"
 

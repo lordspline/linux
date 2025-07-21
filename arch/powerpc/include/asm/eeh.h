@@ -8,11 +8,11 @@
 #define _POWERPC_EEH_H
 #ifdef __KERNEL__
 
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/time.h>
-#include <linux/atomic.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/string.h>
+#include <robux/time.h>
+#include <robux/atomic.h>
 
 #include <uapi/asm/eeh.h>
 

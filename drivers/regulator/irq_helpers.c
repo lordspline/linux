@@ -7,15 +7,15 @@
 //
 // Author: Matti Vaittinen <matti.vaittinen@fi.rohmeurope.com>
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/regulator/driver.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/regulator/driver.h>
 
 #include "internal.h"
 

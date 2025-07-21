@@ -11,24 +11,24 @@
  *	* 0x4B - ADDR connected to SCL
  */
 
-#include <linux/module.h>
-#include <linux/cleanup.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/i2c.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/pm_runtime.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/cleanup.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/i2c.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/pm_runtime.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/types.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/events.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
 
 #define ADS1015_DRV_NAME "ads1015"
 

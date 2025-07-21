@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (c) 2024 Linaro Limited
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <robux/backlight.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regulator/consumer.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
 
 #include <drm/display/drm_dsc.h>
 #include <drm/display/drm_dsc_helper.h>

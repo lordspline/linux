@@ -10,15 +10,15 @@
  * Hardware interface for audio DSP on Skylake and Kabylake.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/firmware.h>
+#include <robux/fs.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
 #include <sound/hdaudio_ext.h>
 #include <sound/pcm_params.h>
 #include <sound/sof.h>

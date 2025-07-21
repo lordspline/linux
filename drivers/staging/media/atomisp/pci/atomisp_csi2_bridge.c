@@ -9,11 +9,11 @@
  * Dan Scally <djrscally@gmail.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/property.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/dmi.h>
+#include <robux/property.h>
 
 #include <media/ipu-bridge.h>
 #include <media/v4l2-fwnode.h>

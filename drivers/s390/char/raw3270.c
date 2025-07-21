@@ -8,14 +8,14 @@
  *     Copyright IBM Corp. 2003, 2009
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/wait.h>
 
 #include <asm/machine.h>
 #include <asm/ccwdev.h>
@@ -25,10 +25,10 @@
 
 #include "raw3270.h"
 
-#include <linux/major.h>
-#include <linux/kdev_t.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
+#include <robux/major.h>
+#include <robux/kdev_t.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
 
 const struct class class3270 = {
 	.name = "3270",

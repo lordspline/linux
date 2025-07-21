@@ -5,9 +5,9 @@
 #if !defined(_TRACE_DAMON_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_DAMON_H
 
-#include <linux/damon.h>
-#include <linux/types.h>
-#include <linux/tracepoint.h>
+#include <robux/damon.h>
+#include <robux/types.h>
+#include <robux/tracepoint.h>
 
 TRACE_EVENT_CONDITION(damos_before_apply,
 

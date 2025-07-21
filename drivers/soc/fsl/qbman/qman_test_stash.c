@@ -30,8 +30,8 @@
 
 #include "qman_test.h"
 
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
 
 /*
  * Algorithm:

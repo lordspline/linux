@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the ROBUX
  *		operating system.  INET is implemented using the BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -20,8 +20,8 @@
 #ifndef _LINUX_IF_FDDI_H
 #define _LINUX_IF_FDDI_H
 
-#include <linux/netdevice.h>
-#include <uapi/linux/if_fddi.h>
+#include <robux/netdevice.h>
+#include <uapi/robux/if_fddi.h>
 
 /* Define FDDI statistics structure */
 struct fddi_statistics {

@@ -10,17 +10,17 @@
  * i/o controls for the dasd driver.
  */
 
-#include <linux/interrupt.h>
-#include <linux/compat.h>
-#include <linux/major.h>
-#include <linux/fs.h>
-#include <linux/blkpg.h>
-#include <linux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/compat.h>
+#include <robux/major.h>
+#include <robux/fs.h>
+#include <robux/blkpg.h>
+#include <robux/slab.h>
 #include <asm/ccwdev.h>
 #include <asm/schid.h>
 #include <asm/cmb.h>
-#include <linux/uaccess.h>
-#include <linux/dasd_mod.h>
+#include <robux/uaccess.h>
+#include <robux/dasd_mod.h>
 
 #include "dasd_int.h"
 

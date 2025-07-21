@@ -33,22 +33,22 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/dmapool.h>
-#include <linux/dma/xilinx_dma.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/clk.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <robux/bitops.h>
+#include <robux/dmapool.h>
+#include <robux/dma/xilinx_dma.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/clk.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
 
 #include "../dmaengine.h"
 

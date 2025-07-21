@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/clocksource/acpi_pm.c
+ * robux/drivers/clocksource/acpi_pm.c
  *
  * This file contains the ACPI PM based clocksource.
  *
  * This code was largely moved from the i386 timer_pm.c file
- * which was (C) Dominik Brodowski <linux@brodo.de> 2003
+ * which was (C) Dominik Brodowski <robux@brodo.de> 2003
  * and contained the following comments:
  *
  * Driver to use the Power Management Timer (PMTMR) available in some
- * southbridges as primary timing source for the Linux kernel.
+ * southbridges as primary timing source for the Robux kernel.
  *
- * Based on parts of linux/drivers/acpi/hardware/hwtimer.c, timer_pit.c,
+ * Based on parts of robux/drivers/acpi/hardware/hwtimer.c, timer_pit.c,
  * timer_hpet.c, and on Arjan van de Ven's implementation for 2.4.
  */
 
-#include <linux/acpi_pmtmr.h>
-#include <linux/clocksource.h>
-#include <linux/timex.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <robux/acpi_pmtmr.h>
+#include <robux/clocksource.h>
+#include <robux/timex.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
 #include <asm/io.h>
 #include <asm/time.h>
 

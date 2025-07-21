@@ -5,12 +5,12 @@
 #ifndef _MICROCHIP_RDS_PTP_H
 #define _MICROCHIP_RDS_PTP_H
 
-#include <linux/ptp_clock_kernel.h>
-#include <linux/ptp_clock.h>
-#include <linux/ptp_classify.h>
-#include <linux/net_tstamp.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/ptp_clock.h>
+#include <robux/ptp_classify.h>
+#include <robux/net_tstamp.h>
+#include <robux/mii.h>
+#include <robux/phy.h>
 
 #define MCHP_RDS_PTP_CMD_CTL			0x0
 #define MCHP_RDS_PTP_CMD_CTL_LTC_STEP_NSEC	BIT(6)

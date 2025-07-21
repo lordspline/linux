@@ -75,7 +75,7 @@
 };
 
 &pm8921_keypad {
-	linux,keymap = <
+	robux,keymap = <
 		MATRIX_KEY(0, 0, KEY_VOLUMEDOWN)
 		MATRIX_KEY(0, 1, KEY_VOLUMEUP)
 	>;

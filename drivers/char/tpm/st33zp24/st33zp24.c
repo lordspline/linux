@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * STMicroelectronics TPM Linux driver for TPM ST33ZP24
+ * STMicroelectronics TPM Robux driver for TPM ST33ZP24
  * Copyright (C) 2009 - 2016 STMicroelectronics
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/wait.h>
-#include <linux/freezer.h>
-#include <linux/string.h>
-#include <linux/interrupt.h>
-#include <linux/gpio/consumer.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/wait.h>
+#include <robux/freezer.h>
+#include <robux/string.h>
+#include <robux/interrupt.h>
+#include <robux/gpio/consumer.h>
+#include <robux/sched.h>
+#include <robux/uaccess.h>
+#include <robux/io.h>
+#include <robux/slab.h>
 
 #include "../tpm.h"
 #include "st33zp24.h"

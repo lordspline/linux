@@ -7,17 +7,17 @@
  * Copyright (c) 2018 Manivannan Sadhasivam
  */
 
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <robux/clk.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
 
 #define RDA_UART_PORT_NUM 3
 #define RDA_UART_DEV_NAME "ttyRDA"

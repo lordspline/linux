@@ -8,18 +8,18 @@
  * - The hardware cannot generate a 0% duty cycle.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/log2.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/pwm.h>
+#include <robux/slab.h>
 
 #define RCAR_PWM_MAX_DIVISION	24
 #define RCAR_PWM_MAX_CYCLE	1023

@@ -4,11 +4,11 @@
  *
  * Copyright (C) 2011 Texas Instruments, Inc.
  */
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/bug.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/bug.h>
+#include <robux/io.h>
 
 #include <asm/div64.h>
 

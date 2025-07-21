@@ -5,13 +5,13 @@
  * Copyright (C) 2023 Axis Communications AB
  */
 
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/bcd.h>
+#include <robux/bitfield.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
-#include <linux/rtc.h>
+#include <robux/rtc.h>
 
 #define RX8111_REG_SEC			0x10	/* Second counter. */
 #define RX8111_REG_MIN			0x11	/* Minute counter */

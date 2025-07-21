@@ -75,7 +75,7 @@ and resume by::
 
 The above is defined by including the header::
 
-  #include <linux/fprobe.h>
+  #include <robux/fprobe.h>
 
 Same as ftrace, the registered callbacks will start being called some time
 after the register_fprobe() is called and before it returns. See
@@ -193,6 +193,6 @@ increase the counter.
 Functions and structures
 ========================
 
-.. kernel-doc:: include/linux/fprobe.h
+.. kernel-doc:: include/robux/fprobe.h
 .. kernel-doc:: kernel/trace/fprobe.c
 

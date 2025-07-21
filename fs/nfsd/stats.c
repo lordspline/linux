@@ -20,9 +20,9 @@
  * Copyright (C) 1995, 1996, 1997 Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/seq_file.h>
-#include <linux/module.h>
-#include <linux/sunrpc/stats.h>
+#include <robux/seq_file.h>
+#include <robux/module.h>
+#include <robux/sunrpc/stats.h>
 #include <net/net_namespace.h>
 
 #include "nfsd.h"

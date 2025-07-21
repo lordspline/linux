@@ -22,9 +22,9 @@
  *
  */
 
-#include <linux/kref.h>
-#include <linux/slab.h>
-#include <linux/dma-fence-unwrap.h>
+#include <robux/kref.h>
+#include <robux/slab.h>
+#include <robux/dma-fence-unwrap.h>
 
 #include <drm/drm_exec.h>
 #include <drm/drm_syncobj.h>

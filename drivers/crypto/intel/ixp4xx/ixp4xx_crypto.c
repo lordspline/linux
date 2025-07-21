@@ -5,17 +5,17 @@
  * Copyright (C) 2008 Christian Hohnstaedt <chohnstaedt@innominate.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/crypto.h>
-#include <linux/kernel.h>
-#include <linux/rtnetlink.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/gfp.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmapool.h>
+#include <robux/crypto.h>
+#include <robux/kernel.h>
+#include <robux/rtnetlink.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/gfp.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 #include <crypto/ctr.h>
 #include <crypto/internal/des.h>
@@ -28,11 +28,11 @@
 #include <crypto/authenc.h>
 #include <crypto/scatterwalk.h>
 
-#include <linux/soc/ixp4xx/npe.h>
-#include <linux/soc/ixp4xx/qmgr.h>
+#include <robux/soc/ixp4xx/npe.h>
+#include <robux/soc/ixp4xx/qmgr.h>
 
 /* Intermittent includes, delete this after v5.14-rc1 */
-#include <linux/soc/ixp4xx/cpu.h>
+#include <robux/soc/ixp4xx/cpu.h>
 
 #define MAX_KEYLEN 32
 

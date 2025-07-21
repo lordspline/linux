@@ -7,15 +7,15 @@
  * Author: Daire McNamara <daire.mcnamara@microchip.com>
  * Author: Conor Dooley <conor.dooley@microchip.com>
  */
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #define CORE_I2C_CTRL	(0x00)
 #define  CTRL_CR0	BIT(0)

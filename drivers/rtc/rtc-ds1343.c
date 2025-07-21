@@ -8,17 +8,17 @@
  *	    Ankur Srivastava <sankurece@gmail.com> : DS1343 Nvram Support
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/spi/spi.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/pm.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
+#include <robux/spi/spi.h>
+#include <robux/regmap.h>
+#include <robux/rtc.h>
+#include <robux/bcd.h>
+#include <robux/pm.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/slab.h>
 
 #define DALLAS_MAXIM_DS1343	0
 #define DALLAS_MAXIM_DS1344	1

@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/mfd/mcp-core.c
+ *  robux/drivers/mfd/mcp-core.c
  *
  *  Copyright (C) 2001 Russell King
  *
  *  Generic MCP (Multimedia Communications Port) layer.  All MCP locking
  *  is solely held within this file.
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/smp.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/mfd/mcp.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/smp.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/mfd/mcp.h>
 
 
 #define to_mcp(d)		container_of(d, struct mcp, attached_device)
@@ -230,6 +230,6 @@ static void __exit mcp_exit(void)
 module_init(mcp_init);
 module_exit(mcp_exit);
 
-MODULE_AUTHOR("Russell King <rmk@arm.linux.org.uk>");
+MODULE_AUTHOR("Russell King <rmk@arm.robux.org.uk>");
 MODULE_DESCRIPTION("Core multimedia communications port driver");
 MODULE_LICENSE("GPL");

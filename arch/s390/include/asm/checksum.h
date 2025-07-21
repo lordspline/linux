@@ -12,9 +12,9 @@
 #ifndef _S390_CHECKSUM_H
 #define _S390_CHECKSUM_H
 
-#include <linux/instrumented.h>
-#include <linux/kmsan-checks.h>
-#include <linux/in6.h>
+#include <robux/instrumented.h>
+#include <robux/kmsan-checks.h>
+#include <robux/in6.h>
 
 static inline __wsum cksm(const void *buff, int len, __wsum sum)
 {

@@ -3,7 +3,7 @@
  * Copyright (c) 2022-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/usb.h>
+#include <robux/usb.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

@@ -3,13 +3,13 @@
  *  Copyright (c) 2013
  *  Minchan Kim <minchan@kernel.org>
  */
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/bio.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/cpumask.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/bio.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
+#include <robux/cpumask.h>
 
 #include "squashfs_fs.h"
 #include "squashfs_fs_sb.h"

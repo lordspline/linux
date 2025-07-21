@@ -4,13 +4,13 @@
  * Author: James Liao <jamesjj.liao@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mfd/syscon.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/mfd/syscon.h>
 #include <dt-bindings/clock/mt8135-clk.h>
 
 #include "clk-gate.h"

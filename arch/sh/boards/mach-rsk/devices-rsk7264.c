@@ -4,12 +4,12 @@
  *
  * Copyright (C) 2012 Renesas Electronics Europe
  */
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/smsc911x.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/smsc911x.h>
 #include <asm/machvec.h>
 #include <asm/io.h>
 

@@ -38,7 +38,7 @@
 
 #ifdef __KERNEL__
 
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 #include <asm/bug.h>
 
 #define DQL_HIST_LEN		4

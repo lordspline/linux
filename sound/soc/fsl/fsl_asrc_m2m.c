@@ -5,10 +5,10 @@
 //
 // Freescale ASRC Memory to Memory (M2M) driver
 
-#include <linux/dma/imx-dma.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
+#include <robux/dma/imx-dma.h>
+#include <robux/dma-buf.h>
+#include <robux/dma-mapping.h>
+#include <robux/pm_runtime.h>
 #include <sound/asound.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/initval.h>

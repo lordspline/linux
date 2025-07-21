@@ -8,16 +8,16 @@
  * Datasheet: http://www.nxp.com/documents/data_sheet/PCA9532.pdf
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/leds.h>
-#include <linux/input.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
-#include <linux/leds-pca9532.h>
-#include <linux/gpio/driver.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/leds.h>
+#include <robux/input.h>
+#include <robux/mutex.h>
+#include <robux/workqueue.h>
+#include <robux/leds-pca9532.h>
+#include <robux/gpio/driver.h>
+#include <robux/of.h>
 
 /* m =  num_leds*/
 #define PCA9532_REG_INPUT(i)	((i) >> 3)
@@ -529,7 +529,7 @@ pca9532_of_populate_pdata(struct device *dev, struct device_node *np)
 					    &pdata->leds[i].name))
 			pdata->leds[i].name = child->name;
 		of_property_read_u32(child, "type", &pdata->leds[i].type);
-		of_property_read_string(child, "linux,default-trigger",
+		of_property_read_string(child, "robux,default-trigger",
 					&pdata->leds[i].default_trigger);
 		if (!of_property_read_string(child, "default-state", &state)) {
 			if (!strcmp(state, "on"))

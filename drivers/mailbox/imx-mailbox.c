@@ -4,24 +4,24 @@
  * Copyright 2022 NXP, Peng Fan <peng.fan@nxp.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/firmware/imx/ipc.h>
-#include <linux/firmware/imx/s4.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/suspend.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/firmware/imx/ipc.h>
+#include <robux/firmware/imx/s4.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/mailbox_controller.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/suspend.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 #include "mailbox.h"
 

@@ -7,12 +7,12 @@
  * Copyright (C) 2010 Tanguy Bouzeloc <tanguy.bouzeloc@efixo.com>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/clk.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/platform_device.h>
+#include <robux/err.h>
+#include <robux/clk.h>
 
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_dev_spi.h>

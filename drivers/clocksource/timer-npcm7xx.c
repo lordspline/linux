@@ -6,16 +6,16 @@
  * Copyright 2017 Google, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/clockchips.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/clockchips.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
 #include "timer-of.h"
 
 /* Timers registers */

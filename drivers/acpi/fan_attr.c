@@ -7,10 +7,10 @@
  *  Copyright (C) 2022 Intel Corporation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/acpi.h>
 
 #include "fan.h"
 

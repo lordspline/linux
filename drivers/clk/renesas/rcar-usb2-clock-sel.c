@@ -9,17 +9,17 @@
  * Copyright (C) 2015 Glider bvba
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
 
 #define USB20_CLKSET0		0x00
 #define CLKSET0_INTCLK_EN	BIT(11)

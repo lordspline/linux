@@ -32,11 +32,11 @@
  * SOFTWARE.
  */
 
-#include <linux/err.h>
-#include <linux/vmalloc.h>
+#include <robux/err.h>
+#include <robux/vmalloc.h>
 #include <rdma/rdma_vt.h>
 #ifdef CONFIG_DEBUG_FS
-#include <linux/seq_file.h>
+#include <robux/seq_file.h>
 #endif
 
 #include "qib.h"

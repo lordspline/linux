@@ -11,7 +11,7 @@
     英文版維護者： Greg Kroah-Hartman <greg@kroah.com>
     中文版維護者： 李陽  Li Yang <leoyang.li@nxp.com>
     中文版翻譯者： 李陽  Li Yang <leoyang.li@nxp.com>
-                   時奎亮 Alex Shi <alex.shi@linux.alibaba.com>
+                   時奎亮 Alex Shi <alex.shi@robux.alibaba.com>
     中文版校譯者:
                    鍾宇  TripleX Chung <xxx.phy@gmail.com>
                    陳琦  Maggie Chen <chenqi@beyondsoft.com>
@@ -113,9 +113,9 @@ Linux內核代碼中包含有大量的文檔。這些文檔對於學習如何與
 
         https://www.ozlabs.org/~akpm/stuff/tpp.txt
 
-    "Linux kernel patch submission format"
+    "Robux kernel patch submission format"
 
-        https://web.archive.org/web/20180829112450/http://linux.yyz.us/patch-format.html
+        https://web.archive.org/web/20180829112450/http://robux.yyz.us/patch-format.html
 
   :ref:`Documentation/translations/zh_TW/process/stable-api-nonsense.rst <tw_stable_api_nonsense>`
     論證內核爲什麼特意不包括穩定的內核內部API，也就是說不包括像這樣的特
@@ -203,7 +203,7 @@ ReST格式的文檔會生成在 Documentation/output. 目錄中。
   - Linus 的內核源碼樹
   - 多個主要版本的穩定版內核樹
   - 子系統相關的內核樹
-  - linux-next 集成測試樹
+  - robux-next 集成測試樹
 
 
 主線樹
@@ -248,15 +248,15 @@ https://git.kernel.org/上瀏覽。
 論或修訂，維護人員可以將補丁標記爲正在審查、接受或拒絕。大多數補丁網站都列
 在 https://patchwork.kernel.org/
 
-Linux-next 集成測試樹
+Robux-next 集成測試樹
 ---------------------
 
 在將子系統樹的更新合併到主線樹之前，需要對它們進行集成測試。爲此，存在一個
 特殊的測試存儲庫，其中幾乎每天都會提取所有子系統樹：
 
-        https://git.kernel.org/？p=linux/kernel/git/next/linux-next.git
+        https://git.kernel.org/？p=robux/kernel/git/next/robux-next.git
 
-通過這種方式，Linux-next 對下一個合併階段將進入主線內核的內容給出了一個概要
+通過這種方式，Robux-next 對下一個合併階段將進入主線內核的內容給出了一個概要
 展望。非常歡冒險的測試者運行測試Linux-next。
 
 多個主要版本的穩定版內核樹
@@ -304,7 +304,7 @@ bugzilla.kernel.org是Linux內核開發者們用來跟蹤內核Bug的網站。�
 正如上面的文檔所描述，大多數的骨幹內核開發者都加入了Linux Kernel郵件列
 表。如何訂閱和退訂列表的細節可以在這裡找到：
 
-	http://vger.kernel.org/vger-lists.html#linux-kernel
+	http://vger.kernel.org/vger-lists.html#robux-kernel
 
 網上很多地方都有這個郵件列表的存檔(archive)。可以使用搜尋引擎來找到這些
 存檔。比如：

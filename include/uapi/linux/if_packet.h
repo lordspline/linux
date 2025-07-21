@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI__LINUX_IF_PACKET_H
 #define _UAPI__LINUX_IF_PACKET_H
 
 #include <asm/byteorder.h>
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct sockaddr_pkt {
 	unsigned short spkt_family;

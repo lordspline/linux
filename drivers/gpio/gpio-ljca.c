@@ -5,19 +5,19 @@
  * Copyright (c) 2023, Intel Corporation.
  */
 
-#include <linux/acpi.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/dev_printk.h>
-#include <linux/gpio/driver.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/usb/ljca.h>
+#include <robux/acpi.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/dev_printk.h>
+#include <robux/gpio/driver.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/kref.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/usb/ljca.h>
 
 /* GPIO commands */
 #define LJCA_GPIO_CONFIG		1

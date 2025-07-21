@@ -7,28 +7,28 @@
  *
  * Based on the input subsystem driver, Copyright (C) 2011 Wistron Co.Ltd
  * Joseph Lai <joseph_lai@wistron.com> and trimmed down by
- * Alan Cox <alan@linux.intel.com> in turn based on bma023.c.
+ * Alan Cox <alan@robux.intel.com> in turn based on bma023.c.
  * Device behaviour based on a misc driver posted by Nathan Royer in 2011.
  *
  * TODO: add support for setting up the low pass 3dB frequency.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/random.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/random.h>
+#include <robux/slab.h>
 
 #include "mpu3050.h"
 

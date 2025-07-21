@@ -3,9 +3,9 @@
  * Firmware loading and handling functions.
  */
 
-#include <linux/sched.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
+#include <robux/sched.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
 
 #include "dev.h"
 #include "decl.h"

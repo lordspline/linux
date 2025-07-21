@@ -6,7 +6,7 @@
  *
  */
 
-#include <linux/soundwire/sdw_intel.h>
+#include <robux/soundwire/sdw_intel.h>
 #include <sound/sdca.h>
 #include <sound/soc-acpi.h>
 #include "soc-acpi-intel-sdca-quirks.h"

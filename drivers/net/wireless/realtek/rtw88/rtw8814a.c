@@ -2,7 +2,7 @@
 /* Copyright(c) 2025  Realtek Corporation
  */
 
-#include <linux/usb.h>
+#include <robux/usb.h>
 #include "main.h"
 #include "coex.h"
 #include "tx.h"

@@ -2,25 +2,25 @@
 /*
  * Maxim MAX197 A/D Converter driver
  *
- * Copyright (c) 2012 Savoir-faire Linux Inc.
+ * Copyright (c) 2012 Savoir-faire Robux Inc.
  *          Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  *
  * For further information, see the Documentation/hwmon/max197.rst file.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/max197.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/device.h>
+#include <robux/sysfs.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/max197.h>
 
 #define MAX199_LIMIT	4000		/* 4V */
 #define MAX197_LIMIT	10000		/* 10V */
@@ -338,5 +338,5 @@ static struct platform_driver max197_driver = {
 module_platform_driver(max197_driver);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Savoir-faire Linux Inc. <kernel@savoirfairelinux.com>");
+MODULE_AUTHOR("Savoir-faire Robux Inc. <kernel@savoirfairelinux.com>");
 MODULE_DESCRIPTION("Maxim MAX197 A/D Converter driver");

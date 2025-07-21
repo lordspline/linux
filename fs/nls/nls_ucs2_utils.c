@@ -10,10 +10,10 @@
  *   Modified by Namjae Jeon (linkinjeon@kernel.org)
  *
  */
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 #include "nls_ucs2_utils.h"
 
 MODULE_DESCRIPTION("NLS UCS-2");

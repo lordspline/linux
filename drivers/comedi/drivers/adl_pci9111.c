@@ -39,11 +39,11 @@
  * - Add external multiplexer support.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/comedi/comedi_pci.h>
-#include <linux/comedi/comedi_8254.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/comedi/comedi_pci.h>
+#include <robux/comedi/comedi_8254.h>
 
 #include "plx9052.h"
 

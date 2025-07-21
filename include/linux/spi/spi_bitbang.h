@@ -2,7 +2,7 @@
 #ifndef	__SPI_BITBANG_H
 #define	__SPI_BITBANG_H
 
-#include <linux/workqueue.h>
+#include <robux/workqueue.h>
 
 typedef u32 (*spi_bb_txrx_word_fn)(struct spi_device *, unsigned int, u32, u8, unsigned int);
 

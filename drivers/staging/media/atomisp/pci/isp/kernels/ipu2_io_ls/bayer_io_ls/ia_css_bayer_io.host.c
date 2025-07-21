@@ -4,8 +4,8 @@
  * Copyright (c) 2010 - 2015, Intel Corporation.
  */
 
-#include <linux/bitops.h>
-#include <linux/math.h>
+#include <robux/bitops.h>
+#include <robux/math.h>
 
 #include "ia_css_bayer_io.host.h"
 #include "dma.h"

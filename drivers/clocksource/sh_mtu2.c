@@ -5,23 +5,23 @@
  *  Copyright (C) 2009 Magnus Damm
  */
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/sh_timer.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/clockchips.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/sh_timer.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
 #ifdef CONFIG_SUPERH
 #include <asm/platform_early.h>

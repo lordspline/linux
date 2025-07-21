@@ -3,12 +3,12 @@
  * Copyright 2025 NXP
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/iopoll.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/iopoll.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
 
 #define RTCC_OFFSET	0x4ul
 #define RTCS_OFFSET	0x8ul

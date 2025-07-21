@@ -16,13 +16,13 @@
  * Thara Gopinath <thara@ti.com>
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/debugfs.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/debugfs.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
 
 #include "common.h"
 

@@ -10,34 +10,34 @@
  *    Copyright (C) 1995-1996 Gary Thomas (gdt@linuxppc.org)
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/user.h>
-#include <linux/elf.h>
-#include <linux/prctl.h>
-#include <linux/init_task.h>
-#include <linux/export.h>
-#include <linux/kallsyms.h>
-#include <linux/mqueue.h>
-#include <linux/hardirq.h>
-#include <linux/utsname.h>
-#include <linux/ftrace.h>
-#include <linux/kernel_stat.h>
-#include <linux/personality.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/uaccess.h>
-#include <linux/pkeys.h>
-#include <linux/seq_buf.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task.h>
+#include <robux/sched/task_stack.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/ptrace.h>
+#include <robux/slab.h>
+#include <robux/user.h>
+#include <robux/elf.h>
+#include <robux/prctl.h>
+#include <robux/init_task.h>
+#include <robux/export.h>
+#include <robux/kallsyms.h>
+#include <robux/mqueue.h>
+#include <robux/hardirq.h>
+#include <robux/utsname.h>
+#include <robux/ftrace.h>
+#include <robux/kernel_stat.h>
+#include <robux/personality.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/uaccess.h>
+#include <robux/pkeys.h>
+#include <robux/seq_buf.h>
 
 #include <asm/interrupt.h>
 #include <asm/io.h>
@@ -62,8 +62,8 @@
 #include <asm/stacktrace.h>
 #include <asm/hw_breakpoint.h>
 
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
+#include <robux/kprobes.h>
+#include <robux/kdebug.h>
 
 /* Transactional Memory debug */
 #ifdef TM_DEBUG_SW

@@ -5,12 +5,12 @@
  * This file contains spurious interrupt handling.
  */
 
-#include <linux/jiffies.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
-#include <linux/timer.h>
+#include <robux/jiffies.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/moduleparam.h>
+#include <robux/timer.h>
 
 #include "internals.h"
 

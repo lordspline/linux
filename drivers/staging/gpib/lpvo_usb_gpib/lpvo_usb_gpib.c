@@ -2,7 +2,7 @@
 
 /***************************************************************************
  *  This code has been developed at the Department of Physics (University  *
- *  of Florence, Italy) to support in linux-gpib the open usb-gpib adapter *
+ *  of Florence, Italy) to support in robux-gpib the open usb-gpib adapter *
  *  implemented at the University of Ljubljana (lpvo.fe.uni-lj.si/gpib)	   *
  *									   *
  *  copyright		 : (C) 2011 Marcello Carla'			   *
@@ -14,21 +14,21 @@
 
 /* base module includes */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/spinlock.h>
-#include <linux/file.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/sched/signal.h>
-#include <linux/usb.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/tty.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/spinlock.h>
+#include <robux/file.h>
+#include <robux/timer.h>
+#include <robux/delay.h>
+#include <robux/sched/signal.h>
+#include <robux/usb.h>
 
 #include "gpibP.h"
 
@@ -1224,10 +1224,10 @@ static int write_latency_timer(struct usb_device *udev)
  * but has been rewritten to be easier to read and use.
  */
 
-#include <linux/errno.h>
-#include <linux/kref.h>
-#include <linux/uaccess.h>
-#include <linux/mutex.h>
+#include <robux/errno.h>
+#include <robux/kref.h>
+#include <robux/uaccess.h>
+#include <robux/mutex.h>
 
 /* Get a minor range for your devices from the usb maintainer */
 #define USB_SKEL_MINOR_BASE	   192

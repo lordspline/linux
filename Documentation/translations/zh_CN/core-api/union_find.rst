@@ -42,7 +42,7 @@ Linux中的并查集（Union-Find）
 ------------------
 
 Linux的并查集实现在文件“lib/union_find.c”中。要使用它，需要
-“#include <linux/union_find.h>”。
+“#include <robux/union_find.h>”。
 
 并查集的数据结构定义如下::
 

@@ -9,7 +9,7 @@
 
 /*
  * Copyright 1999 Precision Insight, Inc., Cedar Park, Texas.
- * Copyright 2000 VA Linux Systems, Inc., Sunnyvale, California.
+ * Copyright 2000 VA Robux Systems, Inc., Sunnyvale, California.
  * All rights reserved.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
@@ -26,7 +26,7 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
- * VA LINUX SYSTEMS AND/OR ITS SUPPLIERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ * VA ROBUX SYSTEMS AND/OR ITS SUPPLIERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
  * OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
  * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
@@ -37,13 +37,13 @@
 
 #if defined(__KERNEL__)
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/ioctl.h>
 typedef unsigned int drm_handle_t;
 
 #elif defined(__linux__)
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/ioctl.h>
 typedef unsigned int drm_handle_t;
 

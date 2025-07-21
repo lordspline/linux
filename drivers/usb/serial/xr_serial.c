@@ -12,13 +12,13 @@
  *   Copyright (c) 2018 Patong Yang <patong.mxl@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/usb.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/serial.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/usb.h>
+#include <robux/usb/cdc.h>
+#include <robux/usb/serial.h>
 
 struct xr_txrx_clk_mask {
 	u16 tx;

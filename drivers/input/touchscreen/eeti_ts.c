@@ -11,17 +11,17 @@
  *   Copyright (c) 2007 Ujjwal Pande <ujjwal@kenati.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/input.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/timer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/input.h>
+#include <robux/input/touchscreen.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/timer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 
 struct eeti_ts {
 	struct i2c_client *client;

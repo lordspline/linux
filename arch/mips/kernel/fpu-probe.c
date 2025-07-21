@@ -8,8 +8,8 @@
  * Copyright (C) 2001, 2004, 2011, 2012	 MIPS Technologies, Inc.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
 
 #include <asm/bugs.h>
 #include <asm/cpu.h>

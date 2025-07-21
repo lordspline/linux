@@ -2,9 +2,9 @@
 #ifndef __LINUX_GOLDFISH_H
 #define __LINUX_GOLDFISH_H
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/io.h>
 
 /* Helpers for Goldfish virtual platform */
 

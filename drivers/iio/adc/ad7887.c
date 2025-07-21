@@ -5,25 +5,25 @@
  * Copyright 2010-2011 Analog Devices Inc.
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/spi/spi.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/bitops.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/spi/spi.h>
+#include <robux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/bitops.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/buffer.h>
 
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
 
-#include <linux/platform_data/ad7887.h>
+#include <robux/platform_data/ad7887.h>
 
 #define AD7887_REF_DIS		BIT(5)	/* on-chip reference disable */
 #define AD7887_DUAL		BIT(4)	/* dual-channel mode */

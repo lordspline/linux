@@ -8,13 +8,13 @@
  *
  * This code is based on the uncore PMUs like arm-cci and arm-ccn.
  */
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/property.h>
+#include <robux/bitmap.h>
+#include <robux/bitops.h>
+#include <robux/bug.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/property.h>
 
 #include <asm/cputype.h>
 #include <asm/local64.h>

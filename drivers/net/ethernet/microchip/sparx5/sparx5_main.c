@@ -6,23 +6,23 @@
  * The Sparx5 Chip Register Model can be browsed at this location:
  * https://github.com/microchip-ung/sparx-5_reginfo
  */
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/netdevice.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/of_mdio.h>
 #include <net/switchdev.h>
-#include <linux/etherdevice.h>
-#include <linux/io.h>
-#include <linux/printk.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
-#include <linux/reset.h>
+#include <robux/etherdevice.h>
+#include <robux/io.h>
+#include <robux/printk.h>
+#include <robux/iopoll.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
+#include <robux/reset.h>
 
 #include "lan969x/lan969x.h" /* for lan969x match data */
 

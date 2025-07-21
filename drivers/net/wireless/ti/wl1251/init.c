@@ -5,9 +5,9 @@
  * Copyright (C) 2009 Nokia Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include "init.h"
 #include "wl12xx_80211.h"

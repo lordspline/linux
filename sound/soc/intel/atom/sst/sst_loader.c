@@ -14,13 +14,13 @@
  *  This file contains all dsp controlling functions like firmware download,
  * setting/resetting dsp cores, etc
  */
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/sched.h>
-#include <linux/firmware.h>
-#include <linux/dmaengine.h>
-#include <linux/pm_qos.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/sched.h>
+#include <robux/firmware.h>
+#include <robux/dmaengine.h>
+#include <robux/pm_qos.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>

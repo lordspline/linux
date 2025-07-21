@@ -9,17 +9,17 @@
  *          Lorenzo Pieralisi     <lorenzo.pieralisi@arm.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/slab.h>
-#include <linux/semaphore.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/cpu.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/slab.h>
+#include <robux/semaphore.h>
 
 #include <asm/cacheflush.h>
 

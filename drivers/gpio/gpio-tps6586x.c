@@ -10,13 +10,13 @@
  * Mike Rapoport <mike@compulab.co.il>
  */
 
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mfd/tps6586x.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/errno.h>
+#include <robux/gpio/driver.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/mfd/tps6586x.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 /* GPIO control registers */
 #define TPS6586X_GPIOSET1	0x5d

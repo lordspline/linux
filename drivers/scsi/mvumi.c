@@ -5,27 +5,27 @@
  * Copyright 2011 Marvell. <jyli@marvell.com>
 */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/pci.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/ktime.h>
-#include <linux/blkdev.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/pci.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/ktime.h>
+#include <robux/blkdev.h>
+#include <robux/io.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_transport.h>
 #include <scsi/scsi_eh.h>
-#include <linux/uaccess.h>
-#include <linux/kthread.h>
+#include <robux/uaccess.h>
+#include <robux/kthread.h>
 
 #include "mvumi.h"
 
@@ -841,7 +841,7 @@ static void mvumi_hs_build_page(struct mvumi_hba *mhba,
 		hs_page2 = (struct mvumi_hs_page2 *) hs_header;
 		hs_header->frame_length = sizeof(*hs_page2) - 4;
 		memset(hs_header->frame_content, 0, hs_header->frame_length);
-		hs_page2->host_type = 3; /* 3 mean linux*/
+		hs_page2->host_type = 3; /* 3 mean robux*/
 		if (mhba->hba_capability & HS_CAPABILITY_SUPPORT_DYN_SRC)
 			hs_page2->host_cap = 0x08;/* host dynamic source mode */
 		hs_page2->host_ver.ver_major = VER_MAJOR;

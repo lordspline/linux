@@ -6,7 +6,7 @@
  *  GUS have similar timers as AdLib (OPL2/OPL3 chips).
  */
 
-#include <linux/time.h>
+#include <robux/time.h>
 #include <sound/core.h>
 #include <sound/gus.h>
 

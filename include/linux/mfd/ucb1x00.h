@@ -1,17 +1,17 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/include/mfd/ucb1x00.h
+ *  robux/include/mfd/ucb1x00.h
  *
  *  Copyright (C) 2001 Russell King, All Rights Reserved.
  */
 #ifndef UCB1200_H
 #define UCB1200_H
 
-#include <linux/device.h>
-#include <linux/mfd/mcp.h>
-#include <linux/gpio.h>
-#include <linux/gpio/driver.h>
-#include <linux/mutex.h>
+#include <robux/device.h>
+#include <robux/mfd/mcp.h>
+#include <robux/gpio.h>
+#include <robux/gpio/driver.h>
+#include <robux/mutex.h>
 
 #define UCB_IO_DATA	0x00
 #define UCB_IO_DIR	0x01

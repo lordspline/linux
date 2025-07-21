@@ -2,9 +2,9 @@
 /*
  * Copyright (C) 2020 Western Digital Corporation or its affiliates.
  */
-#include <linux/init.h>
-#include <linux/libfdt.h>
-#include <linux/pgtable.h>
+#include <robux/init.h>
+#include <robux/libfdt.h>
+#include <robux/pgtable.h>
 #include <asm/soc.h>
 
 /*

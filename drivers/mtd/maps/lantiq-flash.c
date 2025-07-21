@@ -5,19 +5,19 @@
  *  Copyright (C) 2010 John Crispin <john@phrozen.org>
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/cfi.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/physmap.h>
-#include <linux/of.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/partitions.h>
+#include <robux/mtd/cfi.h>
+#include <robux/platform_device.h>
+#include <robux/mtd/physmap.h>
+#include <robux/of.h>
 
 #include <lantiq_soc.h>
 

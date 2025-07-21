@@ -6,7 +6,7 @@
 static inline void tlb_flush(struct mmu_gather *tlb);
 
 #include <asm-generic/tlb.h>
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 #include <vdso/bits.h>
 #include <vdso/page.h>
 

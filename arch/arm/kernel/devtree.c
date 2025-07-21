@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/devtree.c
+ *  robux/arch/arm/kernel/devtree.c
  *
  *  Copyright (C) 2009 Canonical Ltd. <jeremy.kerr@canonical.com>
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_irq.h>
-#include <linux/smp.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/memblock.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
+#include <robux/of_irq.h>
+#include <robux/smp.h>
 
 #include <asm/cputype.h>
 #include <asm/setup.h>

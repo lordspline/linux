@@ -6,16 +6,16 @@
 //
 // Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/array_size.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/overflow.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/array_size.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/overflow.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #include "internal.h"
 

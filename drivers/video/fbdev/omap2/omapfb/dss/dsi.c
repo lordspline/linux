@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/video/omap2/dss/dsi.c
+ * robux/drivers/video/omap2/dss/dsi.c
  *
  * Copyright (C) 2009 Nokia Corporation
  * Author: Tomi Valkeinen <tomi.valkeinen@nokia.com>
@@ -8,29 +8,29 @@
 
 #define DSS_SUBSYS_NAME "DSI"
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/semaphore.h>
-#include <linux/seq_file.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/debugfs.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/of_platform.h>
-#include <linux/component.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/semaphore.h>
+#include <robux/seq_file.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/debugfs.h>
+#include <robux/pm_runtime.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/of_platform.h>
+#include <robux/component.h>
 
 #include <video/omapfb_dss.h>
 #include <video/mipi_display.h>

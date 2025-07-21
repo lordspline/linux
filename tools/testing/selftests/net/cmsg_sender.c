@@ -8,12 +8,12 @@
 #include <string.h>
 #include <time.h>
 #include <unistd.h>
-#include <linux/errqueue.h>
-#include <linux/icmp.h>
-#include <linux/icmpv6.h>
-#include <linux/net_tstamp.h>
-#include <linux/types.h>
-#include <linux/udp.h>
+#include <robux/errqueue.h>
+#include <robux/icmp.h>
+#include <robux/icmpv6.h>
+#include <robux/net_tstamp.h>
+#include <robux/types.h>
+#include <robux/udp.h>
 #include <sys/socket.h>
 
 #include "../kselftest.h"

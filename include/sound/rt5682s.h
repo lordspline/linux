@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/sound/rt5682s.h -- Platform data for RT5682I-VS
+ * robux/sound/rt5682s.h -- Platform data for RT5682I-VS
  *
  * Copyright 2021 Realtek Microelectronics
  */

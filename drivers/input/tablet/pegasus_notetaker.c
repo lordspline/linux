@@ -36,13 +36,13 @@
  * T	Tip
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/usb/input.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/usb/input.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/mutex.h>
 
 /* USB HID defines */
 #define USB_REQ_GET_REPORT		0x01

@@ -7,7 +7,7 @@
 #ifndef __RCAR_GEN4_PTP_H__
 #define __RCAR_GEN4_PTP_H__
 
-#include <linux/ptp_clock_kernel.h>
+#include <robux/ptp_clock_kernel.h>
 
 #define RCAR_GEN4_GPTP_OFFSET_S4	0x00018000
 

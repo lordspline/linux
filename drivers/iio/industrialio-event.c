@@ -6,22 +6,22 @@
  * Based on elements of hwmon and input subsystems.
  */
 
-#include <linux/anon_inodes.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
-#include <linux/module.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/iio-opaque.h>
+#include <robux/anon_inodes.h>
+#include <robux/device.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/kfifo.h>
+#include <robux/module.h>
+#include <robux/poll.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/wait.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/iio-opaque.h>
 #include "iio_core.h"
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/events.h>
 
 /**
  * struct iio_event_interface - chrdev interface for an event line

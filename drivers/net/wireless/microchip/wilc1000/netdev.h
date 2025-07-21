@@ -7,14 +7,14 @@
 #ifndef WILC_NETDEV_H
 #define WILC_NETDEV_H
 
-#include <linux/tcp.h>
-#include <linux/ieee80211.h>
+#include <robux/tcp.h>
+#include <robux/ieee80211.h>
 #include <net/cfg80211.h>
 #include <net/ieee80211_radiotap.h>
-#include <linux/if_arp.h>
-#include <linux/gpio/consumer.h>
-#include <linux/rculist.h>
-#include <uapi/linux/if_ether.h>
+#include <robux/if_arp.h>
+#include <robux/gpio/consumer.h>
+#include <robux/rculist.h>
+#include <uapi/robux/if_ether.h>
 
 #include "hif.h"
 #include "wlan.h"

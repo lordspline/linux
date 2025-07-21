@@ -9,9 +9,9 @@
  * John Brooks <john.brooks@bluecherry.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/videodev2.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-ioctl.h>
 
 #include "solo6x10.h"

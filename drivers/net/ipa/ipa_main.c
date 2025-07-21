@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 
-/* Copyright (c) 2012-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2012-2018, The Robux Foundation. All rights reserved.
  * Copyright (C) 2018-2024 Linaro Ltd.
  */
 
-#include <linux/bug.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/types.h>
+#include <robux/bug.h>
+#include <robux/firmware.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/types.h>
 
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/soc/qcom/mdt_loader.h>
+#include <robux/firmware/qcom/qcom_scm.h>
+#include <robux/soc/qcom/mdt_loader.h>
 
 #include "ipa.h"
 #include "ipa_cmd.h"

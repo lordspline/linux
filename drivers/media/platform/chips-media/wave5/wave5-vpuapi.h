@@ -8,8 +8,8 @@
 #ifndef VPUAPI_H_INCLUDED
 #define VPUAPI_H_INCLUDED
 
-#include <linux/idr.h>
-#include <linux/genalloc.h>
+#include <robux/idr.h>
+#include <robux/genalloc.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-mem2mem.h>
 #include <media/v4l2-ctrls.h>

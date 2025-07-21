@@ -52,7 +52,7 @@
 #include <netinet/in.h>
 #include "lwt_helpers.h"
 #include "network_helpers.h"
-#include <linux/net_tstamp.h>
+#include <robux/net_tstamp.h>
 
 #define BPF_OBJECT            "test_lwt_reroute.bpf.o"
 #define LOCAL_SRC             "10.0.0.1"

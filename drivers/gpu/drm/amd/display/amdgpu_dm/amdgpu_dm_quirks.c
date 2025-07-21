@@ -24,7 +24,7 @@
  *
  */
 
-#include <linux/dmi.h>
+#include <robux/dmi.h>
 
 #include "amdgpu.h"
 #include "amdgpu_dm.h"

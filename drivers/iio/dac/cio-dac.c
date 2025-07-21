@@ -6,16 +6,16 @@
  * This driver supports the following Measurement Computing devices: CIO-DAC16,
  * CIO-DAC08, and PC104-DAC06.
  */
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
-#include <linux/isa.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/types.h>
+#include <robux/isa.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 #define CIO_DAC_NUM_CHAN 16
 

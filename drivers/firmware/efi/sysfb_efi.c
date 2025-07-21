@@ -13,17 +13,17 @@
  * information so framebuffer drivers can load correctly.
  */
 
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/efi.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/of_address.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/screen_info.h>
-#include <linux/sysfb.h>
+#include <robux/dmi.h>
+#include <robux/err.h>
+#include <robux/efi.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/of_address.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/screen_info.h>
+#include <robux/sysfb.h>
 #include <video/vga.h>
 
 enum {

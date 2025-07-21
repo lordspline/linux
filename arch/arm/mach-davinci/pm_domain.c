@@ -6,11 +6,11 @@
  *
  * Copyright (C) 2012 Texas Instruments, Inc.
  */
-#include <linux/init.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_clock.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <robux/init.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_clock.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
 
 static struct dev_pm_domain davinci_pm_domain = {
 	.ops = {

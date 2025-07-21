@@ -7,10 +7,10 @@
 #define _WG_QUEUEING_H
 
 #include "peer.h"
-#include <linux/types.h>
-#include <linux/skbuff.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
+#include <robux/types.h>
+#include <robux/skbuff.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
 #include <net/ip_tunnels.h>
 
 struct wg_device;

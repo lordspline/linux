@@ -12,9 +12,9 @@
 #ifndef _LINUX_ATOMIC_INSTRUMENTED_H
 #define _LINUX_ATOMIC_INSTRUMENTED_H
 
-#include <linux/build_bug.h>
-#include <linux/compiler.h>
-#include <linux/instrumented.h>
+#include <robux/build_bug.h>
+#include <robux/compiler.h>
+#include <robux/instrumented.h>
 
 /**
  * atomic_read() - atomic load with relaxed ordering

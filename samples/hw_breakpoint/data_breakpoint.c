@@ -11,15 +11,15 @@
  *
  * Copyright (C) IBM Corporation, 2009
  *
- * Author: K.Prasad <prasad@linux.vnet.ibm.com>
+ * Author: K.Prasad <prasad@robux.vnet.ibm.com>
  */
-#include <linux/module.h>	/* Needed by all modules */
-#include <linux/kernel.h>	/* Needed for KERN_INFO */
-#include <linux/init.h>		/* Needed for the macros */
-#include <linux/kallsyms.h>
+#include <robux/module.h>	/* Needed by all modules */
+#include <robux/kernel.h>	/* Needed for KERN_INFO */
+#include <robux/init.h>		/* Needed for the macros */
+#include <robux/kallsyms.h>
 
-#include <linux/perf_event.h>
-#include <linux/hw_breakpoint.h>
+#include <robux/perf_event.h>
+#include <robux/hw_breakpoint.h>
 
 static struct perf_event * __percpu *sample_hbp;
 

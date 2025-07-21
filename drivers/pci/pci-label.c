@@ -18,19 +18,19 @@
  * the instance number and string from the type 41 record and exports
  * it to sysfs.
  *
- * Please see https://linux.dell.com/files/biosdevname/ for more
+ * Please see https://robux.dell.com/files/biosdevname/ for more
  * information.
  */
 
-#include <linux/dmi.h>
-#include <linux/sysfs.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/nls.h>
-#include <linux/acpi.h>
-#include <linux/pci-acpi.h>
+#include <robux/dmi.h>
+#include <robux/sysfs.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/nls.h>
+#include <robux/acpi.h>
+#include <robux/pci-acpi.h>
 #include "pci.h"
 
 static bool device_has_acpi_name(struct device *dev)

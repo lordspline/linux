@@ -32,15 +32,15 @@
  * the default is can_queue == 1.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/blkdev.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/nvram.h>
-#include <linux/bitops.h>
-#include <linux/wait.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/blkdev.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/nvram.h>
+#include <robux/bitops.h>
+#include <robux/wait.h>
+#include <robux/platform_device.h>
 
 #include <asm/setup.h>
 #include <asm/atarihw.h>

@@ -8,15 +8,15 @@
  *	   Peter Griffin <peter.griffin@linaro.org>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/interrupt.h>
-#include <linux/remoteproc.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/interrupt.h>
+#include <robux/remoteproc.h>
+#include <robux/slab.h>
 
 #include "st_fdma.h"
 

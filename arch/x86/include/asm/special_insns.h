@@ -6,9 +6,9 @@
 #include <asm/nops.h>
 #include <asm/processor-flags.h>
 
-#include <linux/errno.h>
-#include <linux/irqflags.h>
-#include <linux/jump_label.h>
+#include <robux/errno.h>
+#include <robux/irqflags.h>
+#include <robux/jump_label.h>
 
 void native_write_cr0(unsigned long val);
 

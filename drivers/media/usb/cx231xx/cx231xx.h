@@ -10,13 +10,13 @@
 #ifndef _CX231XX_H
 #define _CX231XX_H
 
-#include <linux/videodev2.h>
-#include <linux/types.h>
-#include <linux/ioctl.h>
-#include <linux/i2c.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
-#include <linux/usb.h>
+#include <robux/videodev2.h>
+#include <robux/types.h>
+#include <robux/ioctl.h>
+#include <robux/i2c.h>
+#include <robux/workqueue.h>
+#include <robux/mutex.h>
+#include <robux/usb.h>
 
 #include <media/drv-intf/cx2341x.h>
 
@@ -607,9 +607,9 @@ struct cx231xx {
 	struct mutex gpio_i2c_lock;
 	struct mutex i2c_lock;
 
-	/* video for linux */
+	/* video for robux */
 	int users;		/* user count for exclusive use */
-	struct video_device vdev;	/* video for linux device struct */
+	struct video_device vdev;	/* video for robux device struct */
 	v4l2_std_id norm;	/* selected tv norm */
 	int ctl_freq;		/* selected frequency */
 	unsigned int ctl_ainput;	/* selected audio input */

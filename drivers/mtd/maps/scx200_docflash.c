@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* linux/drivers/mtd/maps/scx200_docflash.c
+/* robux/drivers/mtd/maps/scx200_docflash.c
 
    Copyright (c) 2001,2002 Christer Weinigel <wingel@nano-system.com>
 
    National Semiconductor SCx200 flash mapped with DOCCS
 */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
 #include <asm/io.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/partitions.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/partitions.h>
 
-#include <linux/pci.h>
-#include <linux/scx200.h>
+#include <robux/pci.h>
+#include <robux/scx200.h>
 
 #define NAME "scx200_docflash"
 

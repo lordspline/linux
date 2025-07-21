@@ -5,19 +5,19 @@
  * Copyright (C) 2011 LAPIS Semiconductor Co., Ltd.
  */
 
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/wait.h>
-#include <linux/spi/spi.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/spi/spidev.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/wait.h>
+#include <robux/spi/spi.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <robux/spi/spidev.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
 
-#include <linux/dmaengine.h>
-#include <linux/pch_dma.h>
+#include <robux/dmaengine.h>
+#include <robux/pch_dma.h>
 
 /* Register offsets */
 #define PCH_SPCR		0x00	/* SPI control register */

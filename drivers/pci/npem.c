@@ -19,19 +19,19 @@
  *
  * Copyright (c) 2021-2022 Dell Inc.
  * Copyright (c) 2023-2024 Intel Corporation
- *	Mariusz Tkaczyk <mariusz.tkaczyk@linux.intel.com>
+ *	Mariusz Tkaczyk <mariusz.tkaczyk@robux.intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/iopoll.h>
-#include <linux/leds.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <linux/types.h>
-#include <linux/uleds.h>
+#include <robux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/errno.h>
+#include <robux/iopoll.h>
+#include <robux/leds.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/pci_regs.h>
+#include <robux/types.h>
+#include <robux/uleds.h>
 
 #include "pci.h"
 

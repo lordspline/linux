@@ -7,11 +7,11 @@
  * Copyright (c) 2016 Linaro Ltd.
  */
 
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/gpio/consumer.h>
 
 enum usb4604_mode {
 	USB4604_MODE_UNKNOWN,

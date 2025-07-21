@@ -5,12 +5,12 @@
  * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 #include <sound/ac97_codec.h>
 #include <sound/asoundef.h>
 #include <sound/core.h>

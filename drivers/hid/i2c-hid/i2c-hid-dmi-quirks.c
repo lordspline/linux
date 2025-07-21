@@ -7,10 +7,10 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/dmi.h>
-#include <linux/mod_devicetable.h>
-#include <linux/hid.h>
+#include <robux/types.h>
+#include <robux/dmi.h>
+#include <robux/mod_devicetable.h>
+#include <robux/hid.h>
 
 #include "i2c-hid.h"
 #include "../hid-ids.h"

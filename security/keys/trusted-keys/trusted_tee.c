@@ -6,13 +6,13 @@
  * Sumit Garg <sumit.garg@linaro.org>
  */
 
-#include <linux/err.h>
-#include <linux/key-type.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/tee_drv.h>
-#include <linux/uuid.h>
+#include <robux/err.h>
+#include <robux/key-type.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/tee_drv.h>
+#include <robux/uuid.h>
 
 #include <keys/trusted_tee.h>
 

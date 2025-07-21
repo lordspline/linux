@@ -4,12 +4,12 @@
  * Copyright (c) 2011 Unixphere
  */
 
-#include <linux/kernel.h>
-#include <linux/rmi.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/of.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/rmi.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/of.h>
+#include <robux/unaligned.h>
 #include "rmi_driver.h"
 
 #define RMI_PRODUCT_ID_LENGTH    10

@@ -6,11 +6,11 @@
  * Author: Thomas Richard <thomas.richard@bootlin.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/cgbc.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/i2c.h>
+#include <robux/iopoll.h>
+#include <robux/mfd/cgbc.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #define CGBC_I2C_PRIMARY_BUS_ID	0
 #define CGBC_I2C_PM_BUS_ID	4

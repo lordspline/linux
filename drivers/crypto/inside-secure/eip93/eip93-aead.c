@@ -19,8 +19,8 @@
 
 #include <crypto/internal/des.h>
 
-#include <linux/crypto.h>
-#include <linux/dma-mapping.h>
+#include <robux/crypto.h>
+#include <robux/dma-mapping.h>
 
 #include "eip93-aead.h"
 #include "eip93-cipher.h"

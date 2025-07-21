@@ -5,17 +5,17 @@
  * Copyright (c) 2009 Daniel Mack <daniel@caiaq.de>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/spi/spi.h>
-#include <linux/pm.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_device.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
+#include <robux/spi/spi.h>
+#include <robux/pm.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/of_device.h>
 
 #include "lis3lv02d.h"
 

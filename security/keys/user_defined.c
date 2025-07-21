@@ -5,13 +5,13 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
-#include <linux/err.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/seq_file.h>
+#include <robux/err.h>
 #include <keys/user-type.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include "internal.h"
 
 static int logon_vet_description(const char *desc);

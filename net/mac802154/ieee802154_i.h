@@ -11,9 +11,9 @@
 #ifndef __IEEE802154_I_H
 #define __IEEE802154_I_H
 
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/hrtimer.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
+#include <robux/hrtimer.h>
 #include <net/cfg802154.h>
 #include <net/mac802154.h>
 #include <net/nl802154.h>
@@ -91,7 +91,7 @@ struct ieee802154_local {
 
 	struct sk_buff *tx_skb;
 	struct work_struct sync_tx_work;
-	/* A negative Linux error code or a null/positive MLME error status */
+	/* A negative Robux error code or a null/positive MLME error status */
 	int tx_result;
 };
 

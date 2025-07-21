@@ -8,9 +8,9 @@
 #ifndef _KERNEL_WORKQUEUE_INTERNAL_H
 #define _KERNEL_WORKQUEUE_INTERNAL_H
 
-#include <linux/workqueue.h>
-#include <linux/kthread.h>
-#include <linux/preempt.h>
+#include <robux/workqueue.h>
+#include <robux/kthread.h>
+#include <robux/preempt.h>
 
 struct worker_pool;
 

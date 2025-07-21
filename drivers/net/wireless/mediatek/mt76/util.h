@@ -7,9 +7,9 @@
 #ifndef __MT76_UTIL_H
 #define __MT76_UTIL_H
 
-#include <linux/skbuff.h>
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
+#include <robux/skbuff.h>
+#include <robux/bitops.h>
+#include <robux/bitfield.h>
 #include <net/mac80211.h>
 
 struct mt76_worker

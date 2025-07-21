@@ -8,18 +8,18 @@
 // TODO: add support for TDM mode.
 //
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/jack.h>

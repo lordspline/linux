@@ -20,14 +20,14 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/88pm80x.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/irq.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/88pm80x.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
 
 static const struct i2c_device_id pm80x_id_table[] = {
 	{ "88PM805" },

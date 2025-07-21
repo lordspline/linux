@@ -4,16 +4,16 @@
  * SmartMedia/xD translation layer
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/hdreg.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/sysfs.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/mtd/nand-ecc-sw-hamming.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/random.h>
+#include <robux/hdreg.h>
+#include <robux/kthread.h>
+#include <robux/freezer.h>
+#include <robux/sysfs.h>
+#include <robux/bitops.h>
+#include <robux/slab.h>
+#include <robux/mtd/nand-ecc-sw-hamming.h>
 #include "nand/raw/sm_common.h"
 #include "sm_ftl.h"
 

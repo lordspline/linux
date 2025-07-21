@@ -15,9 +15,9 @@
 
 #define dev_fmt(fmt) "pciehp: " fmt
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/pci.h>
 #include "../pci.h"
 #include "pciehp.h"
 

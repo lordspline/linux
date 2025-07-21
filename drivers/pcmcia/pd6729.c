@@ -7,15 +7,15 @@
  * the GNU General Public License, incorporated herein by reference.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/workqueue.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/workqueue.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
+#include <robux/io.h>
 
 #include <pcmcia/ss.h>
 

@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/ctype.h>
-#include <linux/dmi.h>
-#include <linux/efi.h>
-#include <linux/memblock.h>
-#include <linux/random.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/ctype.h>
+#include <robux/dmi.h>
+#include <robux/efi.h>
+#include <robux/memblock.h>
+#include <robux/random.h>
 #include <asm/dmi.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #ifndef SMBIOS_ENTRY_POINT_SCAN_START
 #define SMBIOS_ENTRY_POINT_SCAN_START 0xF0000

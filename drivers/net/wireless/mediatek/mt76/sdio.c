@@ -8,14 +8,14 @@
  *	   Sean Wang <sean.wang@mediatek.com>
  */
 
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/sched.h>
-#include <linux/kthread.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mmc/sdio_func.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/host.h>
+#include <robux/sched.h>
+#include <robux/kthread.h>
 
 #include "mt76.h"
 #include "sdio.h"

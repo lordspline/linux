@@ -23,10 +23,10 @@
  *   for their cards in their manuals.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/comedi/comedi_pci.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/comedi/comedi_pci.h>
 
 #define READ_TIMEOUT 50
 

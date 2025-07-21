@@ -5,10 +5,10 @@
 #if !defined(_TRACE_SCHED_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_SCHED_H
 
-#include <linux/kthread.h>
-#include <linux/sched/numa_balancing.h>
-#include <linux/tracepoint.h>
-#include <linux/binfmts.h>
+#include <robux/kthread.h>
+#include <robux/sched/numa_balancing.h>
+#include <robux/tracepoint.h>
+#include <robux/binfmts.h>
 
 /*
  * Tracepoint for calling kthread_stop, performed to end a kthread:

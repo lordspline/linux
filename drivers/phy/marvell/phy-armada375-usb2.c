@@ -12,12 +12,12 @@
  */
 
 #include <dt-bindings/phy/phy.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/of_address.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
 
 #define USB2_PHY_CONFIG_DISABLE BIT(0)
 

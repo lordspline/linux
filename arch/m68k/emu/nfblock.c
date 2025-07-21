@@ -6,16 +6,16 @@
  * for more details.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/blkdev.h>
-#include <linux/hdreg.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/blkdev.h>
+#include <robux/hdreg.h>
+#include <robux/slab.h>
 
 #include <asm/natfeat.h>
 

@@ -21,9 +21,9 @@
 #include "subvolume.h"
 #include "varint.h"
 
-#include <linux/random.h>
+#include <robux/random.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define x(name, ...)	#name,
 const char * const bch2_inode_opts[] = {

@@ -6,11 +6,11 @@
  * Matt Porter <mporter@kernel.crashing.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/rio.h>
-#include <linux/rio_drv.h>
-#include <linux/stat.h>
-#include <linux/capability.h>
+#include <robux/kernel.h>
+#include <robux/rio.h>
+#include <robux/rio_drv.h>
+#include <robux/stat.h>
+#include <robux/capability.h>
 
 #include "rio.h"
 

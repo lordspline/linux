@@ -2,9 +2,9 @@
 #ifndef SOUND_FIREWIRE_LIB_H_INCLUDED
 #define SOUND_FIREWIRE_LIB_H_INCLUDED
 
-#include <linux/firewire-constants.h>
-#include <linux/types.h>
-#include <linux/sched.h>
+#include <robux/firewire-constants.h>
+#include <robux/types.h>
+#include <robux/sched.h>
 #include <sound/rawmidi.h>
 
 struct fw_unit;

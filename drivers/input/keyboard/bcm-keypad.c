@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (C) 2014 Broadcom Corporation
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/gfp.h>
+#include <robux/io.h>
+#include <robux/input.h>
+#include <robux/input/matrix_keypad.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
 
 #define DEFAULT_CLK_HZ			31250
 #define MAX_ROWS			8
@@ -321,7 +321,7 @@ static int bcm_kp_probe(struct platform_device *pdev)
 
 	__set_bit(EV_KEY, input_dev->evbit);
 
-	/* Enable auto repeat feature of Linux input subsystem */
+	/* Enable auto repeat feature of Robux input subsystem */
 	if (of_property_read_bool(pdev->dev.of_node, "autorepeat"))
 		__set_bit(EV_REP, input_dev->evbit);
 

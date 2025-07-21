@@ -6,17 +6,17 @@
  * Author: Michael Brunner <michael.brunner@kontron.com>
  */
 
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/kempld.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/dmi.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/sysfs.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/kempld.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/dmi.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/sysfs.h>
 
 #define MAX_ID_LEN 4
 static char force_device_id[MAX_ID_LEN + 1] = "";

@@ -7,9 +7,9 @@
  * Copyright (C) 2013 Intel Corporation
  */
 
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/platform_device.h>
 
 #include "internal.h"
 

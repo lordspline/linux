@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2011-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2014, The Robux Foundation. All rights reserved.
  * Copyright (c) 2014,2015, Linaro Ltd.
  *
  * SAW power controller driver
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/cpuidle.h>
-#include <linux/cpu_pm.h>
-#include <linux/firmware/qcom/qcom_scm.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/cpuidle.h>
+#include <robux/cpu_pm.h>
+#include <robux/firmware/qcom/qcom_scm.h>
 #include <soc/qcom/spm.h>
 
 #include <asm/proc-fns.h>

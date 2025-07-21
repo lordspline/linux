@@ -6,8 +6,8 @@
 #ifndef VDO_DEDUPE_H
 #define VDO_DEDUPE_H
 
-#include <linux/list.h>
-#include <linux/timer.h>
+#include <robux/list.h>
+#include <robux/timer.h>
 
 #include "indexer.h"
 

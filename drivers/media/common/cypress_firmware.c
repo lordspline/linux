@@ -9,10 +9,10 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/firmware.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/firmware.h>
 #include "cypress_firmware.h"
 
 struct usb_cypress_controller {

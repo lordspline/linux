@@ -7,18 +7,18 @@
  * Copyright (C) 2008      John Poet
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/atomic.h>
-#include <linux/usb.h>
-#include <linux/mutex.h>
-#include <linux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
+#include <robux/atomic.h>
+#include <robux/usb.h>
+#include <robux/mutex.h>
+#include <robux/i2c.h>
 
-#include <linux/videodev2.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-dev.h>
 #include <media/v4l2-common.h>
 

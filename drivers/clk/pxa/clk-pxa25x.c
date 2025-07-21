@@ -9,14 +9,14 @@
  * For non-devicetree platforms. Once pxa is fully converted to devicetree, this
  * should go away.
  */
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/clk/pxa.h>
-#include <linux/clkdev.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/soc/pxa/smemc.h>
-#include <linux/soc/pxa/cpu.h>
+#include <robux/clk-provider.h>
+#include <robux/clk.h>
+#include <robux/clk/pxa.h>
+#include <robux/clkdev.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/soc/pxa/smemc.h>
+#include <robux/soc/pxa/cpu.h>
 
 #include <dt-bindings/clock/pxa-clock.h>
 #include "clk-pxa.h"

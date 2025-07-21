@@ -414,7 +414,7 @@ powervr:mt8173:
     - .mt8173
     - .powervr-gpu
   rules:
-    # TODO: powervr driver was merged in linux kernel, but there's no mediatek support yet
+    # TODO: powervr driver was merged in robux kernel, but there's no mediatek support yet
     # Remove the rule once mediatek support is added for powervr
     - when: never
 

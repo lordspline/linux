@@ -10,9 +10,9 @@
 /***************************************************************************
  * OS specific includes
  */
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/firmware.h>
+#include <robux/module.h>
+#include <robux/debugfs.h>
+#include <robux/firmware.h>
 #include "../include/efc_common.h"
 #include "../libefc/efclib.h"
 #include "efct_hw.h"

@@ -11,10 +11,10 @@
 #define _NOLIBC_TYPES_H
 
 #include "std.h"
-#include <linux/mman.h>
-#include <linux/stat.h>
-#include <linux/time.h>
-#include <linux/wait.h>
+#include <robux/mman.h>
+#include <robux/stat.h>
+#include <robux/time.h>
+#include <robux/wait.h>
 
 
 /* Only the generic macros and types may be defined here. The arch-specific
@@ -23,7 +23,7 @@
  */
 
 /* stat flags (WARNING, octal here). We need to check for an existing
- * definition because linux/stat.h may omit to define those if it finds
+ * definition because robux/stat.h may omit to define those if it finds
  * that any glibc header was already included.
  */
 #if !defined(S_IFMT)

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright (c) 2024 Hisilicon Limited.
 
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/iopoll.h>
-#include <linux/minmax.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/if_vlan.h>
+#include <robux/iopoll.h>
+#include <robux/minmax.h>
 #include "hbg_common.h"
 #include "hbg_hw.h"
 #include "hbg_reg.h"

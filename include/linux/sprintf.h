@@ -2,8 +2,8 @@
 #ifndef _LINUX_KERNEL_SPRINTF_H_
 #define _LINUX_KERNEL_SPRINTF_H_
 
-#include <linux/compiler_attributes.h>
-#include <linux/types.h>
+#include <robux/compiler_attributes.h>
+#include <robux/types.h>
 
 int num_to_str(char *buf, int size, unsigned long long num, unsigned int width);
 

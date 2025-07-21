@@ -6,8 +6,8 @@
  */
 
 #include <crypto/chacha.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 asmlinkage void chacha_crypt_arch(struct chacha_state *state,
 				  u8 *dst, const u8 *src,

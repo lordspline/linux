@@ -6,8 +6,8 @@
 #include "xe_devcoredump.h"
 #include "xe_devcoredump_types.h"
 
-#include <linux/ascii85.h>
-#include <linux/devcoredump.h>
+#include <robux/ascii85.h>
+#include <robux/devcoredump.h>
 #include <generated/utsrelease.h>
 
 #include <drm/drm_managed.h>

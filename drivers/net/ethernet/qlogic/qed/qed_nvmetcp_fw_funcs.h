@@ -4,17 +4,17 @@
 #ifndef _QED_NVMETCP_FW_FUNCS_H
 #define _QED_NVMETCP_FW_FUNCS_H
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/types.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/list.h>
+#include <robux/mm.h>
+#include <robux/types.h>
 #include <asm/byteorder.h>
-#include <linux/qed/common_hsi.h>
-#include <linux/qed/storage_common.h>
-#include <linux/qed/nvmetcp_common.h>
-#include <linux/qed/qed_nvmetcp_if.h>
+#include <robux/qed/common_hsi.h>
+#include <robux/qed/storage_common.h>
+#include <robux/qed/nvmetcp_common.h>
+#include <robux/qed/qed_nvmetcp_if.h>
 
 #if IS_ENABLED(CONFIG_QED_NVMETCP)
 

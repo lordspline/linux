@@ -4,12 +4,12 @@
  *
  * Extracted from init.c
  */
-#include <linux/memblock.h>
-#include <linux/percpu.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/cache.h>
+#include <robux/memblock.h>
+#include <robux/percpu.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/cache.h>
 
 #include <asm/tlb.h>
 #include <asm/tlbflush.h>

@@ -6,18 +6,18 @@
  * Copyright (C) 2013 Jean-Jacques Hiblot <jjhiblot@traphandler.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/atmel-matrix.h>
-#include <linux/mfd/syscon/atmel-smc.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mfd/syscon/atmel-matrix.h>
+#include <robux/mfd/syscon/atmel-smc.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 #include <soc/at91/atmel-sfr.h>
 
 #define AT91_EBI_NUM_CS		8

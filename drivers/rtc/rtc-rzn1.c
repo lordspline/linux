@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0+
 /*
- * Renesas RZ/N1 Real Time Clock interface for Linux
+ * Renesas RZ/N1 Real Time Clock interface for Robux
  *
  * Copyright:
  * - 2014 Renesas Electronics Europe Limited
@@ -11,16 +11,16 @@
  * - Miquel Raynal <miquel.raynal@bootlin.com>
  */
 
-#include <linux/bcd.h>
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/rtc.h>
-#include <linux/spinlock.h>
+#include <robux/bcd.h>
+#include <robux/clk.h>
+#include <robux/init.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/rtc.h>
+#include <robux/spinlock.h>
 
 #define RZN1_RTC_CTL0 0x00
 #define   RZN1_RTC_CTL0_SLSB_SCMP BIT(4)

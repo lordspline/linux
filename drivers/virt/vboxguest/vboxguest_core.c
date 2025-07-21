@@ -5,15 +5,15 @@
  * Copyright (C) 2007-2016 Oracle Corporation
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/vbox_err.h>
-#include <linux/vbox_utils.h>
-#include <linux/vmalloc.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/vbox_err.h>
+#include <robux/vbox_utils.h>
+#include <robux/vmalloc.h>
 #include "vboxguest_core.h"
 #include "vboxguest_version.h"
 
@@ -1666,7 +1666,7 @@ static int vbg_ioctl_check_balloon(struct vbg_dev *gdev,
 
 	balloon_info->u.out.balloon_chunks = gdev->mem_balloon.chunks;
 	/*
-	 * Under Linux we handle VMMDEV_EVENT_BALLOON_CHANGE_REQUEST
+	 * Under Robux we handle VMMDEV_EVENT_BALLOON_CHANGE_REQUEST
 	 * events entirely in the kernel, see vbg_core_isr().
 	 */
 	balloon_info->u.out.handle_in_r3 = false;

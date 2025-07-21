@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  * Copyright (C) 2001-2004 Aurelien Jarno <aurelien@aurel32.net>
- * Ported to Linux 2.6 by Aurelien Jarno <aurelien@aurel32.net> with
+ * Ported to Robux 2.6 by Aurelien Jarno <aurelien@aurel32.net> with
  * the help of Jean Delvare <jdelvare@suse.de>
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/kstrtox.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/kstrtox.h>
 
 /* Insmod parameters */
 

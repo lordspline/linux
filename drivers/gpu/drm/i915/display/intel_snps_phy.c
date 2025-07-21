@@ -3,7 +3,7 @@
  * Copyright © 2019 Intel Corporation
  */
 
-#include <linux/math.h>
+#include <robux/math.h>
 
 #include <drm/drm_print.h>
 

@@ -9,13 +9,13 @@
 #ifndef __TI_BANDGAP_H
 #define __TI_BANDGAP_H
 
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/cpu_pm.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/err.h>
+#include <robux/cpu_pm.h>
+#include <robux/device.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm.h>
 
 struct gpio_desc;
 

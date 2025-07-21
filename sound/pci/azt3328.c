@@ -11,11 +11,11 @@
  *  Please give me feedback in case you try my driver with one of these!!
  *
  *  Keywords: Windows XP Vista 168nt4-125.zip 168win95-125.zip PCI 168 download
- *  (XP/Vista do not support this card at all but every Linux distribution
+ *  (XP/Vista do not support this card at all but every Robux distribution
  *   has very good support out of the box;
  *   just to make sure that the right people hit this and get to know that,
  *   despite the high level of Internet ignorance - as usual :-P -
- *   about very good support for this card - on Linux!)
+ *   about very good support for this card - on Robux!)
  *
  * NOTES
  *  Since Aztech does not provide any chipset documentation,
@@ -165,15 +165,15 @@
  *  - use MMIO (memory-mapped I/O)? Slightly faster access, e.g. for gameport.
  */
 
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/bug.h> /* WARN_ONCE */
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/gameport.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/bug.h> /* WARN_ONCE */
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/gameport.h>
+#include <robux/module.h>
+#include <robux/dma-mapping.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/pcm.h>

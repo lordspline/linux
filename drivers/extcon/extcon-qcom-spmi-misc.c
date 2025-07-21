@@ -7,16 +7,16 @@
  * Stephen Boyd <stephen.boyd@linaro.org>
  */
 
-#include <linux/devm-helpers.h>
-#include <linux/extcon-provider.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/devm-helpers.h>
+#include <robux/extcon-provider.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 #define USB_ID_DEBOUNCE_MS	5	/* ms */
 

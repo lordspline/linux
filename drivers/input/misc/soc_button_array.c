@@ -6,17 +6,17 @@
  * (C) Copyright 2014 Intel Corporation
  */
 
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio_keys.h>
-#include <linux/gpio.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/acpi.h>
+#include <robux/dmi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio_keys.h>
+#include <robux/gpio.h>
+#include <robux/platform_device.h>
 
 static bool use_low_level_irq;
 module_param(use_low_level_irq, bool, 0444);

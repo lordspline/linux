@@ -5,27 +5,27 @@
  * Copyright 2007 IBM Corporation
  *
  * Stephen Winiecki <stevewin@us.ibm.com>
- * Josh Boyer <jwboyer@linux.vnet.ibm.com>
+ * Josh Boyer <jwboyer@robux.vnet.ibm.com>
  *
  * Based on code from mpc7448_hpc2.c
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/kdev_t.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/seq_file.h>
-#include <linux/root_dev.h>
-#include <linux/serial.h>
-#include <linux/tty.h>
-#include <linux/serial_core.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/extable.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/kdev_t.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/seq_file.h>
+#include <robux/root_dev.h>
+#include <robux/serial.h>
+#include <robux/tty.h>
+#include <robux/serial_core.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/extable.h>
 
 #include <asm/time.h>
 #include <asm/machdep.h>

@@ -8,10 +8,10 @@
 #ifndef _LINUX_SCMI_PROTOCOL_H
 #define _LINUX_SCMI_PROTOCOL_H
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/notifier.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/notifier.h>
+#include <robux/types.h>
 
 #define SCMI_MAX_STR_SIZE		64
 #define SCMI_SHORT_NAME_MAX_SIZE	16

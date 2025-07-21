@@ -6,16 +6,16 @@
  * Author: Guennadi Liakhovetski, <g.liakhovetski@gmx.de>
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/mfd/as3711.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/mfd/as3711.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/slab.h>
 
 /*
  * The regulator API supports 4 modes of operataion: FAST, NORMAL, IDLE and

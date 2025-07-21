@@ -17,7 +17,7 @@
 #define SYSTEMCFG_MAJOR 1
 #define SYSTEMCFG_MINOR 1
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct systemcfg {
 	__u8  eye_catcher[16];		/* Eyecatcher: SYSTEMCFG:PPC64	0x00 */

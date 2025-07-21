@@ -12,13 +12,13 @@
  *
  * If -E is returned, result is not touched.
  */
-#include <linux/ctype.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/kstrtox.h>
-#include <linux/math64.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <robux/ctype.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/kstrtox.h>
+#include <robux/math64.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
 
 #include "kstrtox.h"
 

@@ -3,8 +3,8 @@
 
 #include "fm10k.h"
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 
 static struct dentry *dbg_root;
 

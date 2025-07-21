@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-pxa/mfp-pxa2xx.c
+ *  robux/arch/arm/mach-pxa/mfp-pxa2xx.c
  *
  *  PXA2xx pin mux configuration support
  *
@@ -9,14 +9,14 @@
  *  on PXA3xx,  what's more important, the low power pin state and
  *  wakeup detection are also supported by the same framework.
  */
-#include <linux/gpio.h>
-#include <linux/gpio-pxa.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/syscore_ops.h>
-#include <linux/soc/pxa/cpu.h>
+#include <robux/gpio.h>
+#include <robux/gpio-pxa.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/syscore_ops.h>
+#include <robux/soc/pxa/cpu.h>
 
 #include "pxa2xx-regs.h"
 #include "mfp-pxa2xx.h"

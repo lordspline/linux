@@ -6,8 +6,8 @@
 #ifndef SP887X_H
 #define SP887X_H
 
-#include <linux/dvb/frontend.h>
-#include <linux/firmware.h>
+#include <robux/dvb/frontend.h>
+#include <robux/firmware.h>
 
 struct sp887x_config
 {

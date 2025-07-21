@@ -9,10 +9,10 @@
 #ifndef _ASM_VPE_H
 #define _ASM_VPE_H
 
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
 
 #define VPE_MODULE_NAME "vpe"
 #define VPE_MODULE_MINOR 1

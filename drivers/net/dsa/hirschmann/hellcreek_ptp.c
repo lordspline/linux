@@ -9,8 +9,8 @@
  *	    Kurt Kanzenbach <kurt@linutronix.de>
  */
 
-#include <linux/of.h>
-#include <linux/ptp_clock_kernel.h>
+#include <robux/of.h>
+#include <robux/ptp_clock_kernel.h>
 #include "hellcreek.h"
 #include "hellcreek_ptp.h"
 #include "hellcreek_hwtstamp.h"

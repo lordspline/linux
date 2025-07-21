@@ -5,7 +5,7 @@
 #if !defined(_TRACE_THERMAL_PRESSURE_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_THERMAL_PRESSURE_H
 
-#include <linux/tracepoint.h>
+#include <robux/tracepoint.h>
 
 TRACE_EVENT(hw_pressure_update,
 	TP_PROTO(int cpu, unsigned long hw_pressure),

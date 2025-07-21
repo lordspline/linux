@@ -6,12 +6,12 @@
  * Author: Beomho Seo <beomho.seo@samsung.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/mfd/rt5033-private.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
+#include <robux/mfd/rt5033-private.h>
 
 struct rt5033_battery {
 	struct i2c_client	*client;

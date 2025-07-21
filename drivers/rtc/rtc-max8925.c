@@ -6,12 +6,12 @@
  *	Haojian Zhuang <haojian.zhuang@marvell.com>
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/max8925.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/rtc.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/max8925.h>
 
 enum {
 	RTC_SEC = 0,

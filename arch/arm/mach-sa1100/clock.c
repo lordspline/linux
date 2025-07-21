@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/arm/mach-sa1100/clock.c
+ *  robux/arch/arm/mach-sa1100/clock.c
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
 
 #include <mach/hardware.h>
 #include <mach/generic.h>

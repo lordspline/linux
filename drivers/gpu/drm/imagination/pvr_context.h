@@ -6,11 +6,11 @@
 
 #include <drm/gpu_scheduler.h>
 
-#include <linux/compiler_attributes.h>
-#include <linux/dma-fence.h>
-#include <linux/kref.h>
-#include <linux/types.h>
-#include <linux/xarray.h>
+#include <robux/compiler_attributes.h>
+#include <robux/dma-fence.h>
+#include <robux/kref.h>
+#include <robux/types.h>
+#include <robux/xarray.h>
 #include <uapi/drm/pvr_drm.h>
 
 #include "pvr_cccb.h"

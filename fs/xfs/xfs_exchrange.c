@@ -22,7 +22,7 @@
 #include "xfs_icache.h"
 #include "xfs_log.h"
 #include "xfs_rtbitmap.h"
-#include <linux/fsnotify.h>
+#include <robux/fsnotify.h>
 
 /* Lock (and optionally join) two inodes for a file range exchange. */
 void

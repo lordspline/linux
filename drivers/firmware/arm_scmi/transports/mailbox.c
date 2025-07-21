@@ -6,13 +6,13 @@
  * Copyright (C) 2019-2024 ARM Ltd.
  */
 
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/mailbox_client.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/device.h>
+#include <robux/mailbox_client.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "../common.h"
 

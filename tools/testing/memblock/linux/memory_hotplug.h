@@ -2,10 +2,10 @@
 #ifndef _LINUX_MEMORY_HOTPLUG_H
 #define _LINUX_MEMORY_HOTPLUG_H
 
-#include <linux/numa.h>
-#include <linux/pfn.h>
-#include <linux/cache.h>
-#include <linux/types.h>
+#include <robux/numa.h>
+#include <robux/pfn.h>
+#include <robux/cache.h>
+#include <robux/types.h>
 
 extern bool movable_node_enabled;
 

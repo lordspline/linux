@@ -3,10 +3,10 @@
  * Copyright (C) 2003-2008 Takahiro Hirofuchi
  */
 
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/scatterlist.h>
+#include <robux/string.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/scatterlist.h>
 
 #include "usbip_common.h"
 #include "stub.h"

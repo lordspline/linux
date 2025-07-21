@@ -168,33 +168,33 @@
 /* #define VERBOSE_DEBUG */
 /* #define DUMP_MSGS */
 
-#include <linux/blkdev.h>
-#include <linux/completion.h>
-#include <linux/dcache.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/fcntl.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/kstrtox.h>
-#include <linux/kthread.h>
-#include <linux/sched/signal.h>
-#include <linux/limits.h>
-#include <linux/pagemap.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/freezer.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/unaligned.h>
+#include <robux/blkdev.h>
+#include <robux/completion.h>
+#include <robux/dcache.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/fcntl.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/kstrtox.h>
+#include <robux/kthread.h>
+#include <robux/sched/signal.h>
+#include <robux/limits.h>
+#include <robux/pagemap.h>
+#include <robux/rwsem.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/freezer.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
+#include <robux/unaligned.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/composite.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/composite.h>
 
-#include <linux/nospec.h>
+#include <robux/nospec.h>
 
 #include "configfs.h"
 
@@ -2983,7 +2983,7 @@ void fsg_common_set_inquiry_string(struct fsg_common *common, const char *vn,
 	/* Prepare inquiryString */
 	i = get_default_bcdDevice();
 	snprintf(common->inquiry_string, sizeof(common->inquiry_string),
-		 "%-8s%-16s%04x", vn ?: "Linux",
+		 "%-8s%-16s%04x", vn ?: "Robux",
 		 /* Assume product name dependent on the first LUN */
 		 pn ?: ((*common->luns)->cdrom
 		     ? "File-CD Gadget"

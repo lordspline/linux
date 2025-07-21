@@ -5,9 +5,9 @@
  * Copyright (C) 2022 Marcus Folkesson <marcus.folkesson@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/module.h>
 
 #include "hid-ids.h"
 

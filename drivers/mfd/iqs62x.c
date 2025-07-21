@@ -14,24 +14,24 @@
  * Link to conversion tool: https://github.com/jlabundy/iqs62x-h2bin.git
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/iqs62x.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/firmware.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/iqs62x.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 
 #define IQS62X_PROD_NUM				0x00
 

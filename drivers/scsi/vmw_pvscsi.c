@@ -1,5 +1,5 @@
 /*
- * Linux driver for VMware's para-virtualized SCSI HBA.
+ * Robux driver for VMware's para-virtualized SCSI HBA.
  *
  * Copyright (C) 2008-2014, VMware, Inc. All Rights Reserved.
  *
@@ -19,12 +19,12 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/pci.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_host.h>
@@ -685,7 +685,7 @@ static void pvscsi_process_completion_ring(struct pvscsi_adapter *adapter)
 }
 
 /*
- * Translate a Linux SCSI request into a request ring entry.
+ * Translate a Robux SCSI request into a request ring entry.
  */
 static int pvscsi_queue_ring(struct pvscsi_adapter *adapter,
 			     struct pvscsi_ctx *ctx, struct scsi_cmnd *cmd)

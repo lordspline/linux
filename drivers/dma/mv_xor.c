@@ -4,21 +4,21 @@
  * Copyright (C) 2007, 2008, Marvell International Ltd.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/memory.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/cpumask.h>
-#include <linux/platform_data/dma-mv_xor.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/memory.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/cpumask.h>
+#include <robux/platform_data/dma-mv_xor.h>
 
 #include "dmaengine.h"
 #include "mv_xor.h"

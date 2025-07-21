@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Crypto user configuration API.
  *
@@ -22,7 +22,7 @@
 #ifndef _UAPI_LINUX_CRYPTOUSER_H
 #define _UAPI_LINUX_CRYPTOUSER_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /* Netlink configuration messages.  */
 enum {

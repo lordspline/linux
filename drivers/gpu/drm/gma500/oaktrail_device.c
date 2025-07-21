@@ -5,9 +5,9 @@
  *
  **************************************************************************/
 
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/module.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/module.h>
 
 #include <drm/drm.h>
 

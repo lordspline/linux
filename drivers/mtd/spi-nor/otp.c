@@ -5,10 +5,10 @@
  * Copyright (C) 2021 Michael Walle <michael@walle.cc>
  */
 
-#include <linux/log2.h>
-#include <linux/math64.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/spi-nor.h>
+#include <robux/log2.h>
+#include <robux/math64.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/spi-nor.h>
 
 #include "core.h"
 

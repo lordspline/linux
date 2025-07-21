@@ -3,9 +3,9 @@
  * Common place for both 32- and 64-bit entry routines.
  */
 
-#include <linux/export.h>
-#include <linux/linkage.h>
-#include <linux/objtool.h>
+#include <robux/export.h>
+#include <robux/linkage.h>
+#include <robux/objtool.h>
 #include <asm/msr-index.h>
 #include <asm/unwind_hints.h>
 #include <asm/segment.h>

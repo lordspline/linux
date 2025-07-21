@@ -5,8 +5,8 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/netdevice.h>
-#include <linux/module.h>
+#include <robux/netdevice.h>
+#include <robux/module.h>
 
 #include <brcmu_utils.h>
 

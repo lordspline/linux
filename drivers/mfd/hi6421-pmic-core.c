@@ -10,15 +10,15 @@
  * Author: Guodong Xu <guodong.xu@linaro.org>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/hi6421-pmic.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/hi6421-pmic.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 
 static const struct mfd_cell hi6421_devs[] = {
 	{ .name = "hi6421-regulator", },

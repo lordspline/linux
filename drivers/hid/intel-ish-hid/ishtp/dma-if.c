@@ -5,11 +5,11 @@
  * Copyright (c) 2003-2016, Intel Corporation.
  */
 
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
 #include "ishtp-dev.h"
 #include "client.h"
 

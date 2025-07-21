@@ -5,9 +5,9 @@
  * Copyright (c) 2009 Trond Myklebust <Trond.Myklebust@netapp.com>
  */
 
-#include <linux/completion.h>
-#include <linux/sunrpc/cache.h>
-#include <linux/atomic.h>
+#include <robux/completion.h>
+#include <robux/sunrpc/cache.h>
+#include <robux/atomic.h>
 
 /*
  * Deferred request handling

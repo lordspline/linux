@@ -5,11 +5,11 @@
  * and format the required data.
  */
 
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/sched.h>
-#include <linux/ptrace.h>
-#include <linux/kbuild.h>
+#include <robux/types.h>
+#include <robux/stddef.h>
+#include <robux/sched.h>
+#include <robux/ptrace.h>
+#include <robux/kbuild.h>
 #include <asm/machvec.h>
 
 static void __used foo(void)

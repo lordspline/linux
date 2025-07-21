@@ -4,10 +4,10 @@
 #undef pr_fmt
 #define pr_fmt(fmt)     "tdx: " fmt
 
-#include <linux/cpufeature.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/kexec.h>
+#include <robux/cpufeature.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/kexec.h>
 #include <asm/coco.h>
 #include <asm/tdx.h>
 #include <asm/vmx.h>

@@ -6,8 +6,8 @@
 #ifndef _HNS_DSAF_RCB_H
 #define _HNS_DSAF_RCB_H
 
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
+#include <robux/netdevice.h>
+#include <robux/platform_device.h>
 
 #include "hnae.h"
 #include "hns_dsaf_main.h"

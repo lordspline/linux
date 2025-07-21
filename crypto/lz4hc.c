@@ -5,10 +5,10 @@
  * Copyright (c) 2013 Chanho Min <chanho.min@lge.com>
  */
 #include <crypto/internal/scompress.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/lz4.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
+#include <robux/lz4.h>
 
 static void *lz4hc_alloc_ctx(void)
 {

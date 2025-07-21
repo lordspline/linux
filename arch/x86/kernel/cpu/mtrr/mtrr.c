@@ -31,20 +31,20 @@
     System Programming Guide; Section 9.11. (1997 edition - PPro).
 */
 
-#include <linux/types.h> /* FIXME: kvm_para.h needs this */
+#include <robux/types.h> /* FIXME: kvm_para.h needs this */
 
-#include <linux/stop_machine.h>
-#include <linux/kvm_para.h>
-#include <linux/uaccess.h>
-#include <linux/export.h>
-#include <linux/mutex.h>
-#include <linux/init.h>
-#include <linux/sort.h>
-#include <linux/cpu.h>
-#include <linux/pci.h>
-#include <linux/smp.h>
-#include <linux/syscore_ops.h>
-#include <linux/rcupdate.h>
+#include <robux/stop_machine.h>
+#include <robux/kvm_para.h>
+#include <robux/uaccess.h>
+#include <robux/export.h>
+#include <robux/mutex.h>
+#include <robux/init.h>
+#include <robux/sort.h>
+#include <robux/cpu.h>
+#include <robux/pci.h>
+#include <robux/smp.h>
+#include <robux/syscore_ops.h>
+#include <robux/rcupdate.h>
 
 #include <asm/cacheinfo.h>
 #include <asm/cpufeature.h>

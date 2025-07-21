@@ -9,10 +9,10 @@
 #ifndef _CS530X_H
 #define _CS530X_H
 
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 /* Devices */
 #define CS530X_2CH_ADC_DEV_ID		 0x5302

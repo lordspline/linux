@@ -19,16 +19,16 @@
 
 #define dev_fmt(fmt) "tpmi_sst: " fmt
 
-#include <linux/auxiliary_bus.h>
-#include <linux/delay.h>
-#include <linux/intel_tpmi.h>
-#include <linux/fs.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/delay.h>
+#include <robux/intel_tpmi.h>
+#include <robux/fs.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
 #include <asm/msr.h>
-#include <uapi/linux/isst_if.h>
+#include <uapi/robux/isst_if.h>
 
 #include "isst_tpmi_core.h"
 #include "isst_if_common.h"

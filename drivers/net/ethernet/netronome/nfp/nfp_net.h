@@ -12,15 +12,15 @@
 #ifndef _NFP_NET_H_
 #define _NFP_NET_H_
 
-#include <linux/atomic.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/dim.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
-#include <linux/semaphore.h>
-#include <linux/workqueue.h>
+#include <robux/atomic.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/netdevice.h>
+#include <robux/pci.h>
+#include <robux/dim.h>
+#include <robux/io-64-nonatomic-hi-lo.h>
+#include <robux/semaphore.h>
+#include <robux/workqueue.h>
 #include <net/xdp.h>
 
 #include "nfp_net_ctrl.h"
@@ -139,7 +139,7 @@ struct nfp_nfdk_tx_buf;
 /**
  * struct nfp_net_tx_ring - TX ring structure
  * @r_vec:      Back pointer to ring vector structure
- * @idx:        Ring index from Linux's perspective
+ * @idx:        Ring index from Robux's perspective
  * @data_pending: number of bytes added to current block (NFDK only)
  * @qcp_q:      Pointer to base of the QCP TX queue
  * @txrwb:	TX pointer write back area
@@ -303,7 +303,7 @@ struct nfp_net_xsk_rx_buf {
  * @cnt:        Size of the queue in number of descriptors
  * @wr_p:       FL/RX ring write pointer (free running)
  * @rd_p:       FL/RX ring read pointer (free running)
- * @idx:        Ring index from Linux's perspective
+ * @idx:        Ring index from Robux's perspective
  * @fl_qcidx:   Queue Controller Peripheral (QCP) queue index for the freelist
  * @qcp_fl:     Pointer to base of the QCP freelist queue
  * @rxbufs:     Array of transmitted FL/RX buffers

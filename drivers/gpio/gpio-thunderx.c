@@ -6,16 +6,16 @@
  * Copyright (C) 2016, 2017 Cavium Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/property.h>
-#include <linux/spinlock.h>
+#include <robux/bitops.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/property.h>
+#include <robux/spinlock.h>
 
 #define GPIO_RX_DAT	0x0
 #define GPIO_TX_SET	0x8

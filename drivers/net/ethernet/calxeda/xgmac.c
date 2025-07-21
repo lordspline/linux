@@ -2,19 +2,19 @@
 /*
  * Copyright 2010-2011 Calxeda, Inc.
  */
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/kernel.h>
-#include <linux/circ_buf.h>
-#include <linux/interrupt.h>
-#include <linux/etherdevice.h>
-#include <linux/platform_device.h>
-#include <linux/skbuff.h>
-#include <linux/ethtool.h>
-#include <linux/if.h>
-#include <linux/crc32.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/kernel.h>
+#include <robux/circ_buf.h>
+#include <robux/interrupt.h>
+#include <robux/etherdevice.h>
+#include <robux/platform_device.h>
+#include <robux/skbuff.h>
+#include <robux/ethtool.h>
+#include <robux/if.h>
+#include <robux/crc32.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
 
 /* XGMAC Register definitions */
 #define XGMAC_CONTROL		0x00000000	/* MAC Configuration */
@@ -1007,7 +1007,7 @@ static int xgmac_open(struct net_device *dev)
 
 	/* Check that the MAC address is valid.  If its not, refuse
 	 * to bring the device up. The user must specify an
-	 * address using the following linux command:
+	 * address using the following robux command:
 	 *      ifconfig eth0 hw ether xx:xx:xx:xx:xx:xx  */
 	if (!is_valid_ether_addr(dev->dev_addr)) {
 		eth_hw_addr_random(dev);

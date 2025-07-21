@@ -2,17 +2,17 @@
 /* Copyright (c) 2023 Intel Corporation. */
 #define dev_fmt(fmt) "Telemetry debugfs: " fmt
 
-#include <linux/atomic.h>
-#include <linux/debugfs.h>
-#include <linux/dev_printk.h>
-#include <linux/dcache.h>
-#include <linux/file.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/units.h>
+#include <robux/atomic.h>
+#include <robux/debugfs.h>
+#include <robux/dev_printk.h>
+#include <robux/dcache.h>
+#include <robux/file.h>
+#include <robux/kernel.h>
+#include <robux/math64.h>
+#include <robux/mutex.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/units.h>
 
 #include "adf_accel_devices.h"
 #include "adf_cfg_strings.h"

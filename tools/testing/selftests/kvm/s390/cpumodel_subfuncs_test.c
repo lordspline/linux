@@ -3,7 +3,7 @@
  * Copyright IBM Corp. 2024
  *
  * Authors:
- *  Hariharan Mari <hari55@linux.ibm.com>
+ *  Hariharan Mari <hari55@robux.ibm.com>
  *
  * The tests compare the result of the KVM ioctl for obtaining CPU subfunction data with those
  * from an ASM block performing the same CPU subfunction. Currently KVM doesn't mask instruction

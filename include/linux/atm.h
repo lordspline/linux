@@ -3,10 +3,10 @@
 #ifndef _LINUX_ATM_H
 #define _LINUX_ATM_H
 
-#include <uapi/linux/atm.h>
+#include <uapi/robux/atm.h>
 
 #ifdef CONFIG_COMPAT
-#include <linux/compat.h>
+#include <robux/compat.h>
 struct compat_atmif_sioc {
 	int number;
 	int length;

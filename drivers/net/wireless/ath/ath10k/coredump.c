@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: ISC
 /*
  * Copyright (c) 2011-2017 Qualcomm Atheros, Inc.
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Robux Foundation. All rights reserved.
  * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
 #include "coredump.h"
 
-#include <linux/devcoredump.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/utsname.h>
+#include <robux/devcoredump.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/utsname.h>
 
 #include "debug.h"
 #include "hw.h"

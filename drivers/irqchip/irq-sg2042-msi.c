@@ -6,18 +6,18 @@
  * Copyright (C) 2024 Chen Wang <unicorn_wang@outlook.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/msi.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
-#include <linux/irqchip/irq-msi-lib.h>
+#include <robux/irqchip/irq-msi-lib.h>
 
 struct sg204x_msi_chip_info {
 	const struct irq_chip		*irqchip;

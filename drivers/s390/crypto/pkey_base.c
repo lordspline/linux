@@ -8,11 +8,11 @@
 #define KMSG_COMPONENT "pkey"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/cpufeature.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/rculist.h>
+#include <robux/cpufeature.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/rculist.h>
 
 #include "pkey_base.h"
 

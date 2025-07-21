@@ -24,8 +24,8 @@
  *      PowerPC 44x support, Matt Porter <mporter@kernel.crashing.org>
  */
 
-#include <linux/init.h>
-#include <linux/pgtable.h>
+#include <robux/init.h>
+#include <robux/pgtable.h>
 #include <asm/processor.h>
 #include <asm/page.h>
 #include <asm/mmu.h>

@@ -6,13 +6,13 @@
  * Copyright (C) 2021-2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_profile.h>
-#include <linux/types.h>
+#include <robux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_profile.h>
+#include <robux/types.h>
 
-#include <linux/surface_aggregator/device.h>
+#include <robux/surface_aggregator/device.h>
 
 // Enum for the platform performance profile sent to the TMP module.
 enum ssam_tmp_profile {

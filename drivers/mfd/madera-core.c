@@ -5,24 +5,24 @@
  * Copyright (C) 2015-2018 Cirrus Logic
  */
 
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/of_regulator.h>
 
-#include <linux/mfd/madera/core.h>
-#include <linux/mfd/madera/registers.h>
+#include <robux/mfd/madera/core.h>
+#include <robux/mfd/madera/registers.h>
 
 #include "madera.h"
 

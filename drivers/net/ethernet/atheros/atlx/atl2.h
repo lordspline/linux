@@ -12,8 +12,8 @@
 #ifndef _ATL2_H_
 #define _ATL2_H_
 
-#include <linux/atomic.h>
-#include <linux/netdevice.h>
+#include <robux/atomic.h>
+#include <robux/netdevice.h>
 
 #ifndef _ATL2_HW_H_
 #define _ATL2_HW_H_
@@ -21,10 +21,10 @@
 #ifndef _ATL2_OSDEP_H_
 #define _ATL2_OSDEP_H_
 
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/if_ether.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/if_ether.h>
 
 #include "atlx.h"
 

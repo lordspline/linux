@@ -4,17 +4,17 @@
  */
 
 /*
- * PDPI Lightning 4 gamecard driver for Linux.
+ * PDPI Lightning 4 gamecard driver for Robux.
  */
 
 #include <asm/io.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/gameport.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/gameport.h>
 
 #define L4_PORT			0x201
 #define L4_SELECT_ANALOG	0xa4

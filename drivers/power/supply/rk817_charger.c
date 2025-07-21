@@ -8,14 +8,14 @@
  *	    Chris Morgan <macromorgan@hotmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/devm-helpers.h>
-#include <linux/mfd/rk808.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
+#include <robux/unaligned.h>
+#include <robux/devm-helpers.h>
+#include <robux/mfd/rk808.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
 
 /* Charging statuses reported by hardware register */
 enum rk817_charge_status {

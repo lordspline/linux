@@ -11,27 +11,27 @@
 #ifndef __DRIVERS_USB_DWC3_CORE_H
 #define __DRIVERS_USB_DWC3_CORE_H
 
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/ioport.h>
-#include <linux/list.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/mm.h>
-#include <linux/debugfs.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <robux/device.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/ioport.h>
+#include <robux/list.h>
+#include <robux/bitops.h>
+#include <robux/dma-mapping.h>
+#include <robux/mm.h>
+#include <robux/debugfs.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/role.h>
-#include <linux/ulpi/interface.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/otg.h>
+#include <robux/usb/role.h>
+#include <robux/ulpi/interface.h>
 
-#include <linux/phy/phy.h>
+#include <robux/phy/phy.h>
 
-#include <linux/power_supply.h>
+#include <robux/power_supply.h>
 
 /*
  * DWC3 Multiport controllers support up to 15 High-Speed PHYs

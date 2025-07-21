@@ -12,14 +12,14 @@
  * Author: Christoph Winklhofer <cj.winklhofer@gmail.com>
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/serdev.h>
-#include <linux/w1.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/serdev.h>
+#include <robux/w1.h>
 
 /* UART packet contains start and stop bit */
 #define W1_UART_BITS_PER_PACKET (BITS_PER_BYTE + 2)

@@ -9,12 +9,12 @@
 #define RTL2830_PRIV_H
 
 #include <media/dvb_frontend.h>
-#include <linux/int_log.h>
+#include <robux/int_log.h>
 #include "rtl2830.h"
-#include <linux/i2c-mux.h>
-#include <linux/math64.h>
-#include <linux/regmap.h>
-#include <linux/bitops.h>
+#include <robux/i2c-mux.h>
+#include <robux/math64.h>
+#include <robux/regmap.h>
+#include <robux/bitops.h>
 
 struct rtl2830_dev {
 	struct rtl2830_platform_data *pdata;

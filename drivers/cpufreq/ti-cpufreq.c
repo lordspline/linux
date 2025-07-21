@@ -6,17 +6,17 @@
  *	 Dave Gerlach <d-gerlach@ti.com>
  */
 
-#include <linux/cpu.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <robux/cpu.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
 
 #define REVISION_MASK				0xF
 #define REVISION_SHIFT				28

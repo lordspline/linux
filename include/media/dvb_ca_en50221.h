@@ -17,8 +17,8 @@
 #ifndef _DVB_CA_EN50221_H_
 #define _DVB_CA_EN50221_H_
 
-#include <linux/list.h>
-#include <linux/dvb/ca.h>
+#include <robux/list.h>
+#include <robux/dvb/ca.h>
 
 #include <media/dvbdev.h>
 

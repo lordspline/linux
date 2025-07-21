@@ -3,15 +3,15 @@
 // Copyright (C) 2013-2018 Arm Ltd.
 // Author: Punit Agrawal <punit.agrawal@arm.com>, Suzuki Poulose <suzuki.poulose@arm.com>
 
-#include <linux/arm-cci.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/arm-cci.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/perf_event.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
 #define DRIVER_NAME		"ARM-CCI PMU"
 

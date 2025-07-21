@@ -9,17 +9,17 @@
  *
  * Copyright (C) 2008-2014 Mathieu Desnoyers <mathieu.desnoyers@efficios.com>
  *
- * Heavily inspired from the Linux Kernel Markers.
+ * Heavily inspired from the Robux Kernel Markers.
  */
 
-#include <linux/smp.h>
-#include <linux/srcu.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/rcupdate.h>
-#include <linux/rcupdate_trace.h>
-#include <linux/tracepoint-defs.h>
-#include <linux/static_call.h>
+#include <robux/smp.h>
+#include <robux/srcu.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/rcupdate.h>
+#include <robux/rcupdate_trace.h>
+#include <robux/tracepoint-defs.h>
+#include <robux/static_call.h>
 
 struct module;
 struct tracepoint;

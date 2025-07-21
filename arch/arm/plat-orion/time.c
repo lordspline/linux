@@ -11,12 +11,12 @@
  * used as clock_event_device.
  */
 
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/sched_clock.h>
+#include <robux/kernel.h>
+#include <robux/timer.h>
+#include <robux/clockchips.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/sched_clock.h>
 #include <plat/time.h>
 #include <asm/delay.h>
 

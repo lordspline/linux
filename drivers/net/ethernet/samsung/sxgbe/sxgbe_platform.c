@@ -9,16 +9,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/etherdevice.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_net.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/sxgbe_platform.h>
+#include <robux/etherdevice.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_net.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/sxgbe_platform.h>
 
 #include "sxgbe_common.h"
 #include "sxgbe_reg.h"

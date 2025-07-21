@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * This file is part of the Linux kernel.
+ * This file is part of the Robux kernel.
  *
  * Copyright (c) 2011, Intel Corporation
  * Authors: Fenghua Yu <fenghua.yu@intel.com>,
- *          H. Peter Anvin <hpa@linux.intel.com>
+ *          H. Peter Anvin <hpa@robux.intel.com>
  */
-#include <linux/printk.h>
+#include <robux/printk.h>
 
 #include <asm/processor.h>
 #include <asm/archrandom.h>

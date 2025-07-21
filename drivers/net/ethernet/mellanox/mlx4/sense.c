@@ -31,10 +31,10 @@
  *
  */
 
-#include <linux/errno.h>
-#include <linux/if_ether.h>
+#include <robux/errno.h>
+#include <robux/if_ether.h>
 
-#include <linux/mlx4/cmd.h>
+#include <robux/mlx4/cmd.h>
 
 #include "mlx4.h"
 

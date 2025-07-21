@@ -6,18 +6,18 @@
  * Author: Tudor Ambarus
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 #include <crypto/internal/kpp.h>
 #include <crypto/ecdh.h>
 #include <crypto/kpp.h>
@@ -351,7 +351,7 @@ static void atmel_ecc_remove(struct i2c_client *client)
 		/*
 		 * After we return here, the memory backing the device is freed.
 		 * That happens no matter what the return value of this function
-		 * is because in the Linux device model there is no error
+		 * is because in the Robux device model there is no error
 		 * handling for unbinding a driver.
 		 * If there is still some action pending, it probably involves
 		 * accessing the freed memory.

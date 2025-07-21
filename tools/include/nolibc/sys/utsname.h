@@ -12,7 +12,7 @@
 
 #include "../sys.h"
 
-#include <linux/utsname.h>
+#include <robux/utsname.h>
 
 /*
  * int uname(struct utsname *buf);

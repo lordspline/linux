@@ -2,11 +2,11 @@
 /* Copyright 2019 Linaro, Ltd, Rob Herring <robh@kernel.org> */
 /* Copyright 2023 Collabora ltd. */
 
-#include <linux/cleanup.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/dma-buf.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/slab.h>
 
 #include <drm/panthor_drm.h>
 

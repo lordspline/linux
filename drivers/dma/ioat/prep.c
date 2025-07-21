@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Intel I/OAT DMA Linux driver
+ * Intel I/OAT DMA Robux driver
  * Copyright(c) 2004 - 2015 Intel Corporation.
  */
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/gfp.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/prefetch.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/gfp.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/prefetch.h>
 #include "../dmaengine.h"
 #include "registers.h"
 #include "hw.h"
@@ -405,7 +405,7 @@ __ioat_prep_pq_lock(struct dma_chan *c, enum sum_check_flags *result,
 		for (s = 0; s < src_cnt; s++)
 			pq_set_src(descs, src[s], offset, scf[s], s);
 
-		/* see the comment for dma_maxpq in include/linux/dmaengine.h */
+		/* see the comment for dma_maxpq in include/robux/dmaengine.h */
 		if (dmaf_p_disabled_continue(flags))
 			pq_set_src(descs, dst[1], offset, 1, s++);
 		else if (dmaf_continue(flags)) {
@@ -518,7 +518,7 @@ __ioat_prep_pq16_lock(struct dma_chan *c, enum sum_check_flags *result,
 		for (s = 0; s < src_cnt; s++)
 			pq16_set_src(descs, src[s], offset, scf[s], s);
 
-		/* see the comment for dma_maxpq in include/linux/dmaengine.h */
+		/* see the comment for dma_maxpq in include/robux/dmaengine.h */
 		if (dmaf_p_disabled_continue(flags))
 			pq16_set_src(descs, dst[1], offset, 1, s++);
 		else if (dmaf_continue(flags)) {

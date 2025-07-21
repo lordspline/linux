@@ -3,24 +3,24 @@
  * Copyright (C) STMicroelectronics 2018 - All Rights Reserved
  * Author: Ludovic Barre <ludovic.barre@st.com> for STMicroelectronics.
  */
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/sizes.h>
-#include <linux/spi/spi-mem.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/errno.h>
+#include <robux/gpio/consumer.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pm_runtime.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/sizes.h>
+#include <robux/spi/spi-mem.h>
 
 #define QSPI_CR			0x00
 #define CR_EN			BIT(0)

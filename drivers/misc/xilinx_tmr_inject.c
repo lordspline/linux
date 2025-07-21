@@ -10,11 +10,11 @@
  */
 
 #include <asm/xilinx_mb_manager.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/debugfs.h>
-#include <linux/platform_device.h>
-#include <linux/fault-inject.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/debugfs.h>
+#include <robux/platform_device.h>
+#include <robux/fault-inject.h>
 
 /* TMR Inject Register offsets */
 #define XTMR_INJECT_CR_OFFSET		0x0

@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2011 Rafael J. Wysocki <rjw@sisk.pl>, Renesas Electronics Corp.
  */
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/pm_clock.h>
-#include <linux/acpi.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_opp.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/pm_clock.h>
+#include <robux/acpi.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_opp.h>
 
 #include "power.h"
 

@@ -1,22 +1,22 @@
 /* SPDX-License-Identifier: BSD-3-Clause-Clear */
 /*
- * Copyright (c) 2018-2019 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019 The Robux Foundation. All rights reserved.
  * Copyright (c) 2021-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
 #ifndef ATH11K_CORE_H
 #define ATH11K_CORE_H
 
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/bitfield.h>
-#include <linux/dmi.h>
-#include <linux/ctype.h>
-#include <linux/rhashtable.h>
-#include <linux/average.h>
-#include <linux/firmware.h>
-#include <linux/suspend.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/bitfield.h>
+#include <robux/dmi.h>
+#include <robux/ctype.h>
+#include <robux/rhashtable.h>
+#include <robux/average.h>
+#include <robux/firmware.h>
+#include <robux/suspend.h>
 
 #include "qmi.h"
 #include "htc.h"

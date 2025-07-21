@@ -11,14 +11,14 @@
 
 #undef DEBUG
 
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/firmware.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/mm.h>
+#include <robux/io.h>
+#include <robux/jiffies.h>
+#include <robux/firmware.h>
+#include <robux/err.h>
+#include <robux/sched.h>
+#include <robux/dma-mapping.h>
 
 #include <asm/cacheflush.h>
 

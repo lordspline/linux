@@ -931,7 +931,7 @@ below:
 	AUX area mmap length 4194304
 	perf event ring buffer mmapped per cpu
 	Synthesizing auxtrace information
-	Linux
+	Robux
 	[ perf record: Woken up 1 times to write data ]
 	[ perf record: Captured and wrote 0.042 MB perf.data ]
 
@@ -1528,7 +1528,7 @@ On the guest machine:
 Run a small test case, just 'uname' in this example:
 
  $ uname
- Linux
+ Robux
 
 On the host machine:
 
@@ -1601,8 +1601,8 @@ Notes:
        CPU 3/KVM 13376/13384 [002]  7919.408803365:      branches:  ffffffffc0f8edd5 __vmx_vcpu_run+0x15 ([kernel.kallsyms]) => ffffffffc0f8eca0 vmx_update_host_rsp+0x0 ([kernel.kallsyms])
        CPU 3/KVM 13376/13384 [002]  7919.408803365:      branches:  ffffffffc0f8ee1b __vmx_vcpu_run+0x5b ([kernel.kallsyms]) => ffffffffc0f8ed60 vmx_vmenter+0x0 ([kernel.kallsyms])
        CPU 3/KVM 13376/13384 [002]  7919.408803461:      branches:  ffffffffc0f8ed62 vmx_vmenter+0x2 ([kernel.kallsyms]) =>                0 [unknown] ([unknown])
- VM:13376 VCPU:003            uname  3404/3404  [002]  7919.408803461:      branches:                 0 [unknown] ([unknown]) =>     7f851c9b5a5c init_cacheinfo+0x3ac (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
- VM:13376 VCPU:003            uname  3404/3404  [002]  7919.408803567:      branches:      7f851c9b5a5a init_cacheinfo+0x3aa (/usr/lib/x86_64-linux-gnu/libc-2.31.so) =>                0 [unknown] ([unknown])
+ VM:13376 VCPU:003            uname  3404/3404  [002]  7919.408803461:      branches:                 0 [unknown] ([unknown]) =>     7f851c9b5a5c init_cacheinfo+0x3ac (/usr/lib/x86_64-robux-gnu/libc-2.31.so)
+ VM:13376 VCPU:003            uname  3404/3404  [002]  7919.408803567:      branches:      7f851c9b5a5a init_cacheinfo+0x3aa (/usr/lib/x86_64-robux-gnu/libc-2.31.so) =>                0 [unknown] ([unknown])
        CPU 3/KVM 13376/13384 [002]  7919.408803567:      branches:                 0 [unknown] ([unknown]) => ffffffffc0f8ed80 vmx_vmexit+0x0 ([kernel.kallsyms])
        CPU 3/KVM 13376/13384 [002]  7919.408803596:      branches:  ffffffffc0f6619a vmx_vcpu_run+0x26a ([kernel.kallsyms]) => ffffffffb2255c60 x86_virt_spec_ctrl+0x0 ([kernel.kallsyms])
        CPU 3/KVM 13376/13384 [002]  7919.408803801:      branches:  ffffffffc0f66445 vmx_vcpu_run+0x515 ([kernel.kallsyms]) => ffffffffb2290b30 native_write_msr+0x0 ([kernel.kallsyms])
@@ -1652,8 +1652,8 @@ Notes:
        CPU 3/KVM 13376/13384 [002]  7919.408804066:      branches:  ffffffffc0f8edd5 __vmx_vcpu_run+0x15 ([kernel.kallsyms]) => ffffffffc0f8eca0 vmx_update_host_rsp+0x0 ([kernel.kallsyms])
        CPU 3/KVM 13376/13384 [002]  7919.408804066:      branches:  ffffffffc0f8ee1b __vmx_vcpu_run+0x5b ([kernel.kallsyms]) => ffffffffc0f8ed60 vmx_vmenter+0x0 ([kernel.kallsyms])
        CPU 3/KVM 13376/13384 [002]  7919.408804162:      branches:  ffffffffc0f8ed62 vmx_vmenter+0x2 ([kernel.kallsyms]) =>                0 [unknown] ([unknown])
- VM:13376 VCPU:003            uname  3404/3404  [002]  7919.408804162:      branches:                 0 [unknown] ([unknown]) =>     7f851c9b5a5c init_cacheinfo+0x3ac (/usr/lib/x86_64-linux-gnu/libc-2.31.so)
- VM:13376 VCPU:003            uname  3404/3404  [002]  7919.408804273:      branches:      7f851cb7c0e4 _dl_init+0x74 (/usr/lib/x86_64-linux-gnu/ld-2.31.so) =>     7f851cb7bf50 call_init.part.0+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.31.so)
+ VM:13376 VCPU:003            uname  3404/3404  [002]  7919.408804162:      branches:                 0 [unknown] ([unknown]) =>     7f851c9b5a5c init_cacheinfo+0x3ac (/usr/lib/x86_64-robux-gnu/libc-2.31.so)
+ VM:13376 VCPU:003            uname  3404/3404  [002]  7919.408804273:      branches:      7f851cb7c0e4 _dl_init+0x74 (/usr/lib/x86_64-robux-gnu/ld-2.31.so) =>     7f851cb7bf50 call_init.part.0+0x0 (/usr/lib/x86_64-robux-gnu/ld-2.31.so)
  VM:13376 VCPU:003            uname  3404/3404  [002]  7919.408804526:      branches:      55e0c00136f0 _start+0x0 (/usr/bin/uname) => ffffffff83200ac0 asm_exc_page_fault+0x0 ([kernel.kallsyms])
  VM:13376 VCPU:003            uname  3404/3404  [002]  7919.408804526:      branches:  ffffffff83200ac3 asm_exc_page_fault+0x3 ([kernel.kallsyms]) => ffffffff83201290 error_entry+0x0 ([kernel.kallsyms])
  VM:13376 VCPU:003            uname  3404/3404  [002]  7919.408804534:      branches:  ffffffff832012fa error_entry+0x6a ([kernel.kallsyms]) => ffffffff830b59a0 sync_regs+0x0 ([kernel.kallsyms])
@@ -1939,7 +1939,7 @@ For example, to trace only the uname system call (sys_newuname) when running the
 command line utility uname:
 
  $ perf record --kcore -e intel_pt/aux-action=start-paused/k,syscalls:sys_enter_newuname/aux-action=resume/,syscalls:sys_exit_newuname/aux-action=pause/ uname
- Linux
+ Robux
  [ perf record: Woken up 1 times to write data ]
  [ perf record: Captured and wrote 0.043 MB perf.data ]
  $ perf script --call-trace
@@ -2012,7 +2012,7 @@ For example:
  $ sudo perf probe -x /usr/bin/uname main
  Added new event:  probe_uname:main     (on main in /usr/bin/uname)
  $ sudo perf record -e intel_pt/-aux-action=start-paused/u -e probe_uname:main/aux-action=resume/ -- uname
- Linux
+ Robux
  [ perf record: Woken up 1 times to write data ]
  [ perf record: Captured and wrote 0.031 MB perf.data ]
 

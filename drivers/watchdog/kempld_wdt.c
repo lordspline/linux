@@ -16,12 +16,12 @@
  *                                 |-----T timeout_stage
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/uaccess.h>
-#include <linux/watchdog.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/kempld.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/uaccess.h>
+#include <robux/watchdog.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/kempld.h>
 
 #define KEMPLD_WDT_STAGE_TIMEOUT(x)	(0x1b + (x) * 4)
 #define KEMPLD_WDT_STAGE_CFG(x)		(0x18 + (x))

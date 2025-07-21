@@ -3,7 +3,7 @@
  * Copyright © 2022 Intel Corporation
  */
 
-#include <linux/dma-fence-array.h>
+#include <robux/dma-fence-array.h>
 
 #include "xe_pt.h"
 

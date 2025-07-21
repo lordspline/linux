@@ -9,13 +9,13 @@
 #define __CONNECTOR_H
 
 
-#include <linux/refcount.h>
+#include <robux/refcount.h>
 
-#include <linux/list.h>
-#include <linux/workqueue.h>
+#include <robux/list.h>
+#include <robux/workqueue.h>
 
 #include <net/sock.h>
-#include <uapi/linux/connector.h>
+#include <uapi/robux/connector.h>
 
 #define CN_CBQ_NAMELEN		32
 

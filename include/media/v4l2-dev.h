@@ -10,12 +10,12 @@
 #ifndef _V4L2_DEV_H
 #define _V4L2_DEV_H
 
-#include <linux/poll.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/cdev.h>
-#include <linux/mutex.h>
-#include <linux/videodev2.h>
+#include <robux/poll.h>
+#include <robux/fs.h>
+#include <robux/device.h>
+#include <robux/cdev.h>
+#include <robux/mutex.h>
+#include <robux/videodev2.h>
 
 #include <media/media-entity.h>
 

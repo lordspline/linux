@@ -3,18 +3,18 @@
 // Copyright (c) 2011 Samsung Electronics Co., Ltd
 //              http://www.samsung.com
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/mfd/samsung/core.h>
-#include <linux/mfd/samsung/s5m8767.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regmap.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/mfd/samsung/core.h>
+#include <robux/mfd/samsung/s5m8767.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/regmap.h>
 
 #define S5M8767_OPMODE_NORMAL_MODE 0x1
 

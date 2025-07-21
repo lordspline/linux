@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/kconfig.h>
-#include <linux/types.h>
-#include <linux/fault-inject.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
+#include <robux/kconfig.h>
+#include <robux/types.h>
+#include <robux/fault-inject.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
 #include <ufs/ufshcd.h>
 #include "ufs-fault-injection.h"
 

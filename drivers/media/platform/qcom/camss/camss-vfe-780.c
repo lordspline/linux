@@ -5,9 +5,9 @@
  * Copyright (c) 2024 Qualcomm Technologies, Inc.
  */
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
 
 #include "camss.h"
 #include "camss-vfe.h"

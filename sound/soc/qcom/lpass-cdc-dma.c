@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2021 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2021 The Robux Foundation. All rights reserved.
  *
  * lpass-cdc-dma.c -- ALSA SoC CDC DMA CPU DAI driver for QTi LPASS
  */
 
 #include <dt-bindings/sound/qcom,lpass.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/export.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/export.h>
 #include <sound/soc.h>
 #include <sound/soc-dai.h>
 

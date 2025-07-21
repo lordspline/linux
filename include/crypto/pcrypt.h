@@ -9,9 +9,9 @@
 #ifndef _CRYPTO_PCRYPT_H
 #define _CRYPTO_PCRYPT_H
 
-#include <linux/container_of.h>
-#include <linux/crypto.h>
-#include <linux/padata.h>
+#include <robux/container_of.h>
+#include <robux/crypto.h>
+#include <robux/padata.h>
 
 struct pcrypt_request {
 	struct padata_priv	padata;

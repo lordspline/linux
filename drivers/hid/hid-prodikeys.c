@@ -14,11 +14,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/mutex.h>
-#include <linux/hid.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/mutex.h>
+#include <robux/hid.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/rawmidi.h>

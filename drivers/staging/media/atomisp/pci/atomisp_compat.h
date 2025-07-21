@@ -10,7 +10,7 @@
 
 #include "atomisp_compat_css20.h"
 
-#include "../../include/linux/atomisp.h"
+#include "../../include/robux/atomisp.h"
 
 struct atomisp_device;
 struct atomisp_sub_device;

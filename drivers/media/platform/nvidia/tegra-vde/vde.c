@@ -6,18 +6,18 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/dma-buf.h>
-#include <linux/genalloc.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/clk.h>
+#include <robux/dma-buf.h>
+#include <robux/genalloc.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 
 #include <soc/tegra/common.h>
 #include <soc/tegra/pmc.h>

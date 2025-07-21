@@ -2,17 +2,17 @@
 /*
  *  Copyright (C) 2011 Freescale Semiconductor, Inc. All Rights Reserved.
  */
-#include <linux/suspend.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/export.h>
+#include <robux/suspend.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/export.h>
 
-#include <linux/genalloc.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/genalloc.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 
 #include <asm/cacheflush.h>
 #include <asm/fncpy.h>

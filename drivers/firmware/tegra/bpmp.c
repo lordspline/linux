@@ -3,16 +3,16 @@
  * Copyright (c) 2016, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/clk/tegra.h>
-#include <linux/genalloc.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/semaphore.h>
-#include <linux/sched/clock.h>
+#include <robux/clk/tegra.h>
+#include <robux/genalloc.h>
+#include <robux/mailbox_client.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/semaphore.h>
+#include <robux/sched/clock.h>
 
 #include <soc/tegra/bpmp.h>
 #include <soc/tegra/bpmp-abi.h>

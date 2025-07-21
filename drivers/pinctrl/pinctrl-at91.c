@@ -5,26 +5,26 @@
  * Copyright (C) 2011-2012 Jean-Christophe PLAGNIOL-VILLARD <plagnioj@jcrosoft.com>
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/property.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/string_helpers.h>
 
 /* Since we request GPIOs from ourself */
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/machine.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "pinctrl-at91.h"
 #include "core.h"
@@ -40,7 +40,7 @@ struct at91_pinctrl_mux_ops;
  * @range: gpio range
  * @next: bank sharing same clock
  * @pioc_hwirq: PIO bank interrupt identifier on AIC
- * @pioc_virq: PIO bank Linux virtual interrupt
+ * @pioc_virq: PIO bank Robux virtual interrupt
  * @regbase: PIO bank virtual address
  * @clock: associated clock
  * @ops: at91 pinctrl mux ops

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/amba/bus.h>
-#include <linux/coresight.h>
-#include <linux/cpumask.h>
+#include <robux/acpi.h>
+#include <robux/types.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/amba/bus.h>
+#include <robux/coresight.h>
+#include <robux/cpumask.h>
 #include <asm/smp_plat.h>
 
 #include "coresight-priv.h"

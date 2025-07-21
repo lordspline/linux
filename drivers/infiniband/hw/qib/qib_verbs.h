@@ -35,14 +35,14 @@
 #ifndef QIB_VERBS_H
 #define QIB_VERBS_H
 
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/kref.h>
-#include <linux/workqueue.h>
-#include <linux/kthread.h>
-#include <linux/completion.h>
+#include <robux/types.h>
+#include <robux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/kref.h>
+#include <robux/workqueue.h>
+#include <robux/kthread.h>
+#include <robux/completion.h>
 #include <rdma/ib_pack.h>
 #include <rdma/ib_user_verbs.h>
 #include <rdma/ib_hdrs.h>

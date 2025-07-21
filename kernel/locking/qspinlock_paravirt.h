@@ -3,9 +3,9 @@
 #error "do not include this file"
 #endif
 
-#include <linux/hash.h>
-#include <linux/memblock.h>
-#include <linux/debug_locks.h>
+#include <robux/hash.h>
+#include <robux/memblock.h>
+#include <robux/debug_locks.h>
 
 /*
  * Implement paravirt qspinlocks; the general idea is to halt the vcpus instead

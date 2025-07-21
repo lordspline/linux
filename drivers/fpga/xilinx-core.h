@@ -3,7 +3,7 @@
 #ifndef __XILINX_CORE_H
 #define __XILINX_CORE_H
 
-#include <linux/device.h>
+#include <robux/device.h>
 
 /**
  * struct xilinx_fpga_core - interface between the driver and the core manager

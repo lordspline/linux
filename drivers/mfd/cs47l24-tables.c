@@ -7,11 +7,11 @@
  * Author: Richard Fitzgerald <rf@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/mfd/arizona/core.h>
-#include <linux/mfd/arizona/registers.h>
-#include <linux/device.h>
+#include <robux/mfd/arizona/core.h>
+#include <robux/mfd/arizona/registers.h>
+#include <robux/device.h>
 
 #include "arizona.h"
 

@@ -155,13 +155,13 @@ properties:
       - description: RZ/G2E (R8A774C0)
         items:
           - enum:
-              - si-linux,cat874 # Silicon Linux RZ/G2E 96board platform (CAT874)
+              - si-robux,cat874 # Silicon Robux RZ/G2E 96board platform (CAT874)
           - const: renesas,r8a774c0
 
       - items:
           - enum:
-              - si-linux,cat875 # Silicon Linux sub board for CAT874 (CAT875)
-          - const: si-linux,cat874
+              - si-robux,cat875 # Silicon Robux sub board for CAT874 (CAT875)
+          - const: si-robux,cat874
           - const: renesas,r8a774c0
 
       - description: RZ/G2H (R8A774E1)

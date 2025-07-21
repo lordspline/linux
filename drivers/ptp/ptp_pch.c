@@ -8,19 +8,19 @@
  * This code was derived from the IXP46X driver.
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/ptp_pch.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/io-64-nonatomic-hi-lo.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/ptp_pch.h>
+#include <robux/slab.h>
 
 #define STATION_ADDR_LEN	20
 #define PCI_DEVICE_ID_PCH_1588	0x8819

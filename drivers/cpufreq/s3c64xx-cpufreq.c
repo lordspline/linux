@@ -7,14 +7,14 @@
 
 #define pr_fmt(fmt) "cpufreq: " fmt
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/regulator/consumer.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/cpufreq.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/regulator/consumer.h>
+#include <robux/module.h>
 
 static struct regulator *vddarm;
 static unsigned long regulator_latency;

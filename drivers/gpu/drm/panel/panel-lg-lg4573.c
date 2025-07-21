@@ -12,11 +12,11 @@
  * Andrzej Hajda <a.hajda@samsung.com>
 */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spi/spi.h>
 
 #include <video/mipi_display.h>
 #include <video/of_videomode.h>

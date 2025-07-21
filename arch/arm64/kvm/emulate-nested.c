@@ -4,8 +4,8 @@
  * Author: Jintack Lim <jintack.lim@linaro.org>
  */
 
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
+#include <robux/kvm.h>
+#include <robux/kvm_host.h>
 
 #include <asm/kvm_emulate.h>
 #include <asm/kvm_nested.h>

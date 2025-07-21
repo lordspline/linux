@@ -5,16 +5,16 @@
  * Copyright (c) 2006 Andrzej Zaborowski  <balrog@zabor.org>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/backlight.h>
-#include <linux/slab.h>
-#include <linux/platform_data/omap1_bl.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/backlight.h>
+#include <robux/slab.h>
+#include <robux/platform_data/omap1_bl.h>
 
-#include <linux/soc/ti/omap1-io.h>
-#include <linux/soc/ti/omap1-mux.h>
+#include <robux/soc/ti/omap1-io.h>
+#include <robux/soc/ti/omap1-mux.h>
 
 #define OMAPBL_MAX_INTENSITY		0xff
 

@@ -8,21 +8,21 @@
  * Allwinner Technology Co., Ltd. <www.allwinnertech.com>
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/extcon.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy-sun4i-usb.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/soc/sunxi/sunxi_sram.h>
-#include <linux/usb/musb.h>
-#include <linux/usb/of.h>
-#include <linux/usb/usb_phy_generic.h>
-#include <linux/workqueue.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/extcon.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy/phy-sun4i-usb.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/soc/sunxi/sunxi_sram.h>
+#include <robux/usb/musb.h>
+#include <robux/usb/of.h>
+#include <robux/usb/usb_phy_generic.h>
+#include <robux/workqueue.h>
 #include "musb_core.h"
 
 /*

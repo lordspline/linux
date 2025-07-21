@@ -8,7 +8,7 @@
 #ifndef __LINUX_IRQ_RENESAS_RZV2H
 #define __LINUX_IRQ_RENESAS_RZV2H
 
-#include <linux/platform_device.h>
+#include <robux/platform_device.h>
 
 #define RZV2H_ICU_DMAC_REQ_NO_DEFAULT		0x3ff
 

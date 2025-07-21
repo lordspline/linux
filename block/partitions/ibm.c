@@ -6,15 +6,15 @@
  * Copyright IBM Corp. 1999, 2012
  */
 
-#include <linux/buffer_head.h>
-#include <linux/hdreg.h>
-#include <linux/slab.h>
+#include <robux/buffer_head.h>
+#include <robux/hdreg.h>
+#include <robux/slab.h>
 #include <asm/dasd.h>
 #include <asm/ebcdic.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/vtoc.h>
-#include <linux/module.h>
-#include <linux/dasd_mod.h>
+#include <robux/module.h>
+#include <robux/dasd_mod.h>
 
 #include "check.h"
 

@@ -2,12 +2,12 @@
 #ifndef _INTEL_PMT_CLASS_H
 #define _INTEL_PMT_CLASS_H
 
-#include <linux/intel_vsec.h>
-#include <linux/xarray.h>
-#include <linux/types.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/io.h>
+#include <robux/intel_vsec.h>
+#include <robux/xarray.h>
+#include <robux/types.h>
+#include <robux/bits.h>
+#include <robux/err.h>
+#include <robux/io.h>
 
 #include "telemetry.h"
 

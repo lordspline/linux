@@ -4,10 +4,10 @@
  * Module initialization routines, discover timer
  */
 
-#include <linux/hdreg.h>
-#include <linux/blkdev.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
+#include <robux/hdreg.h>
+#include <robux/blkdev.h>
+#include <robux/module.h>
+#include <robux/skbuff.h>
 #include "aoe.h"
 
 MODULE_LICENSE("GPL");

@@ -6,11 +6,11 @@
  * Author: Jingoo Han  <jg1.han@samsung.com>
  */
 
-#include <linux/delay.h>
-#include <linux/lcd.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/wait.h>
+#include <robux/delay.h>
+#include <robux/lcd.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
+#include <robux/wait.h>
 
 #define COMMAND_ONLY		0x00
 #define DATA_ONLY		0x01

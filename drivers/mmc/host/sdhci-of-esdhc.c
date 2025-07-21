@@ -10,19 +10,19 @@
  *	    Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/sys_soc.h>
-#include <linux/clk.h>
-#include <linux/ktime.h>
-#include <linux/dma-mapping.h>
-#include <linux/iopoll.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/sys_soc.h>
+#include <robux/clk.h>
+#include <robux/ktime.h>
+#include <robux/dma-mapping.h>
+#include <robux/iopoll.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
 #include "sdhci-pltfm.h"
 #include "sdhci-esdhc.h"
 

@@ -3,7 +3,7 @@
 #ifndef _LINUX_RPMSG_QCOM_GLINK_H
 #define _LINUX_RPMSG_QCOM_GLINK_H
 
-#include <linux/device.h>
+#include <robux/device.h>
 
 struct qcom_glink_smem;
 

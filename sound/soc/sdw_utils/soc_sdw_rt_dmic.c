@@ -7,8 +7,8 @@
  * soc_sdw_rt_dmic - Helpers to handle Realtek SDW DMIC from generic machine driver
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
+#include <robux/device.h>
+#include <robux/errno.h>
 #include <sound/soc.h>
 #include <sound/soc-acpi.h>
 #include <sound/soc_sdw_utils.h>

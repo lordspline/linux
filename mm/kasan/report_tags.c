@@ -4,7 +4,7 @@
  * Copyright (c) 2020 Google, Inc.
  */
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 
 #include "kasan.h"
 #include "../slab.h"

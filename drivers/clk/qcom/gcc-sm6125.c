@@ -3,14 +3,14 @@
  * Copyright (c) 2021, Konrad Dybcio <konrad.dybcio@somainline.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/clk-provider.h>
+#include <robux/regmap.h>
+#include <robux/reset-controller.h>
 
 #include <dt-bindings/clock/qcom,gcc-sm6125.h>
 

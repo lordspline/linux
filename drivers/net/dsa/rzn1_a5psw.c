@@ -5,14 +5,14 @@
  * Clément Léger <clement.leger@bootlin.com>
  */
 
-#include <linux/clk.h>
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/if_ether.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
+#include <robux/clk.h>
+#include <robux/etherdevice.h>
+#include <robux/if_bridge.h>
+#include <robux/if_ether.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
 #include <net/dsa.h>
 
 #include "rzn1_a5psw.h"

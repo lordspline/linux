@@ -7,8 +7,8 @@
 #ifndef __MIPS_ASM_MACHINE_H__
 #define __MIPS_ASM_MACHINE_H__
 
-#include <linux/libfdt.h>
-#include <linux/of.h>
+#include <robux/libfdt.h>
+#include <robux/of.h>
 
 struct mips_machine {
 	const struct of_device_id *matches;

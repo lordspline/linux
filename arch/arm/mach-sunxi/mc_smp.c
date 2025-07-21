@@ -11,15 +11,15 @@
  * Cluster cache enable trampoline code adapted from MCPM framework
  */
 
-#include <linux/arm-cci.h>
-#include <linux/cpu_pm.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/irqchip/arm-gic.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/smp.h>
+#include <robux/arm-cci.h>
+#include <robux/cpu_pm.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/irqchip/arm-gic.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/smp.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cp15.h>

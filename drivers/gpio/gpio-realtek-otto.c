@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/gpio/driver.h>
-#include <linux/cpumask.h>
-#include <linux/irq.h>
-#include <linux/minmax.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/gpio/driver.h>
+#include <robux/cpumask.h>
+#include <robux/irq.h>
+#include <robux/minmax.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 /*
  * Total register block size is 0x1C for one bank of four ports (A, B, C, D).

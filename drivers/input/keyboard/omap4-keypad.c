@@ -8,18 +8,18 @@
  * Initial Code: Syed Rafiuddin <rafiuddin.syed@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/input.h>
+#include <robux/input/matrix_keypad.h>
+#include <robux/slab.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_wakeirq.h>
 
 /* OMAP4 registers */
 #define OMAP4_KBD_REVISION		0x00
@@ -280,7 +280,7 @@ static int omap4_keypad_parse_dt(struct device *dev,
 	if (err)
 		return err;
 
-	keypad_data->no_autorepeat = of_property_read_bool(np, "linux,input-no-autorepeat");
+	keypad_data->no_autorepeat = of_property_read_bool(np, "robux,input-no-autorepeat");
 
 	return 0;
 }

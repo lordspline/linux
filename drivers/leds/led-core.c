@@ -7,17 +7,17 @@
  * Author: Richard Purdie <rpurdie@openedhand.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/leds.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <uapi/linux/uleds.h>
+#include <robux/kernel.h>
+#include <robux/led-class-multicolor.h>
+#include <robux/leds.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/rwsem.h>
+#include <robux/slab.h>
+#include <uapi/robux/uleds.h>
 #include "leds.h"
 
 DECLARE_RWSEM(leds_list_lock);

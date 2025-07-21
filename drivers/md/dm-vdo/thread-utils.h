@@ -6,7 +6,7 @@
 #ifndef THREAD_UTILS_H
 #define THREAD_UTILS_H
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 
 /* Thread and synchronization utilities */
 

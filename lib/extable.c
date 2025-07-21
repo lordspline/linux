@@ -5,12 +5,12 @@
  * Copyright (C) 2004 Paul Mackerras, IBM Corp.
  */
 
-#include <linux/bsearch.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sort.h>
-#include <linux/uaccess.h>
-#include <linux/extable.h>
+#include <robux/bsearch.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/sort.h>
+#include <robux/uaccess.h>
+#include <robux/extable.h>
 
 #ifndef ARCH_HAS_RELATIVE_EXTABLE
 #define ex_to_insn(x)	((x)->insn)

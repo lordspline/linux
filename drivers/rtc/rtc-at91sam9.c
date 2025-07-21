@@ -7,20 +7,20 @@
  * Based on rtc-at91rm9200.c by Rick Bronson
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/time.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/ioctl.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
+#include <robux/suspend.h>
+#include <robux/time.h>
 
 /*
  * This driver uses two configurable hardware resources that live in the

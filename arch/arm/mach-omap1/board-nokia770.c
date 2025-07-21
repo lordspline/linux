@@ -1,29 +1,29 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap1/board-nokia770.c
+ * robux/arch/arm/mach-omap1/board-nokia770.c
  *
  * Modified from board-generic.c
  */
-#include <linux/clkdev.h>
-#include <linux/irq.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/property.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/input.h>
-#include <linux/omapfb.h>
+#include <robux/clkdev.h>
+#include <robux/irq.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/property.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/input.h>
+#include <robux/omapfb.h>
 
-#include <linux/spi/spi.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
+#include <robux/spi/spi.h>
+#include <robux/workqueue.h>
+#include <robux/delay.h>
 
-#include <linux/platform_data/keypad-omap.h>
-#include <linux/platform_data/lcd-mipid.h>
-#include <linux/platform_data/gpio-omap.h>
+#include <robux/platform_data/keypad-omap.h>
+#include <robux/platform_data/lcd-mipid.h>
+#include <robux/platform_data/gpio-omap.h>
 
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>

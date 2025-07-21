@@ -8,8 +8,8 @@
  * Author: Oleksandr Andrushchenko <oleksandr_andrushchenko@epam.com>
  */
 
-#include <linux/errno.h>
-#include <linux/irq.h>
+#include <robux/errno.h>
+#include <robux/irq.h>
 
 #include <drm/drm_print.h>
 

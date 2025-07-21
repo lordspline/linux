@@ -6,11 +6,11 @@
 #ifndef BTRFS_FREE_SPACE_CACHE_H
 #define BTRFS_FREE_SPACE_CACHE_H
 
-#include <linux/rbtree.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/freezer.h>
+#include <robux/rbtree.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/freezer.h>
 #include "fs.h"
 
 struct inode;

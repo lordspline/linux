@@ -7,13 +7,13 @@
 //
 // Base S3C64XX I2C bus 0 gpio configuration
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/gpio.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/gpio.h>
 
 struct platform_device; /* don't need the contents */
 
-#include <linux/platform_data/i2c-s3c2410.h>
+#include <robux/platform_data/i2c-s3c2410.h>
 #include "gpio-cfg.h"
 #include "gpio-samsung.h"
 

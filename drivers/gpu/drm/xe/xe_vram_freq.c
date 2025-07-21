@@ -2,7 +2,7 @@
 /*
  * Copyright © 2024 Intel Corporation
  */
-#include <linux/sysfs.h>
+#include <robux/sysfs.h>
 #include <drm/drm_managed.h>
 
 #include "xe_gt_types.h"

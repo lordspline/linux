@@ -8,12 +8,12 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
 #include "common.h"
 
 #define CORE_CLK_DIV_RATIO_MASK		0xff

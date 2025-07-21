@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
-  File: linux/posix_acl.h
+  File: robux/posix_acl.h
 
   (C) 2002 Andreas Gruenbacher, <a.gruenbacher@computer.org>
 */
@@ -9,11 +9,11 @@
 #ifndef __LINUX_POSIX_ACL_H
 #define __LINUX_POSIX_ACL_H
 
-#include <linux/bug.h>
-#include <linux/slab.h>
-#include <linux/rcupdate.h>
-#include <linux/refcount.h>
-#include <uapi/linux/posix_acl.h>
+#include <robux/bug.h>
+#include <robux/slab.h>
+#include <robux/rcupdate.h>
+#include <robux/refcount.h>
+#include <uapi/robux/posix_acl.h>
 
 struct user_namespace;
 

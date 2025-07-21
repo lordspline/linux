@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clk/ti.h>
-#include <linux/of_platform.h>
+#include <robux/kernel.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/clk/ti.h>
+#include <robux/of_platform.h>
 #include <dt-bindings/clock/dm814.h>
 
 #include "clock.h"

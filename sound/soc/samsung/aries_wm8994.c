@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0+
-#include <linux/extcon.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/consumer.h>
-#include <linux/input-event-codes.h>
-#include <linux/mfd/wm8994/registers.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <robux/extcon.h>
+#include <robux/gpio/consumer.h>
+#include <robux/iio/consumer.h>
+#include <robux/input-event-codes.h>
+#include <robux/mfd/wm8994/registers.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
 #include <sound/jack.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

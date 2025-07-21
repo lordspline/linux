@@ -9,22 +9,22 @@
  * Copyright (C) 2021 GRATE-DRIVER project
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
+#include <robux/thermal.h>
+#include <robux/types.h>
 
 #include <soc/tegra/fuse.h>
 

@@ -5,14 +5,14 @@
  * Copyright (C) 2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/hw_breakpoint.h>
-#include <linux/kdebug.h>
-#include <linux/kgdb.h>
-#include <linux/objtool.h>
-#include <linux/processor.h>
-#include <linux/ptrace.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/kdebug.h>
+#include <robux/kgdb.h>
+#include <robux/objtool.h>
+#include <robux/processor.h>
+#include <robux/ptrace.h>
+#include <robux/sched.h>
+#include <robux/smp.h>
 
 #include <asm/cacheflush.h>
 #include <asm/fpu.h>

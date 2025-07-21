@@ -3,19 +3,19 @@
  * Generic Counter sysfs interface
  * Copyright (C) 2020 William Breathitt Gray
  */
-#include <linux/counter.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
-#include <linux/kstrtox.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/counter.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gfp.h>
+#include <robux/kernel.h>
+#include <robux/kfifo.h>
+#include <robux/kstrtox.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 #include "counter-sysfs.h"
 

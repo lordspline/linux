@@ -5,8 +5,8 @@
  * Copyright(c) 2018 - 2020, 2023, 2025 Intel Corporation
  *****************************************************************************/
 
-#include <linux/module.h>
-#include <linux/stringify.h>
+#include <robux/module.h>
+#include <robux/stringify.h>
 #include "iwl-config.h"
 #include "iwl-agn-hw.h"
 

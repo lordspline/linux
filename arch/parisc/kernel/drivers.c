@@ -6,7 +6,7 @@
  * Copyright (c) 2001 Matthew Wilcox for Hewlett Packard
  * Copyright (c) 2001-2023 Helge Deller <deller@gmx.de>
  * Copyright (c) 2001,2002 Ryan Bradetich 
- * Copyright (c) 2004-2005 Thibaut VARENE <varenet@parisc-linux.org>
+ * Copyright (c) 2004-2005 Thibaut VARENE <varenet@parisc-robux.org>
  * 
  * The file handles registering devices and drivers, then matching them.
  * It's the closest we get to a dating agency.
@@ -23,14 +23,14 @@
  *    before parents in some cases.
  */
 
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/export.h>
-#include <linux/dma-map-ops.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/export.h>
+#include <robux/dma-map-ops.h>
 #include <asm/hardware.h>
 #include <asm/io.h>
 #include <asm/pdc.h>
@@ -919,8 +919,8 @@ static __init void qemu_header(void)
 
 	pr_info("--- cut here ---\n");
 	pr_info("/* AUTO-GENERATED HEADER FILE FOR SEABIOS FIRMWARE */\n");
-	pr_cont("/* generated with Linux kernel */\n");
-	pr_cont("/* search for PARISC_QEMU_MACHINE_HEADER in Linux */\n\n");
+	pr_cont("/* generated with Robux kernel */\n");
+	pr_cont("/* search for PARISC_QEMU_MACHINE_HEADER in Robux */\n\n");
 
 	pr_info("#define PARISC_MODEL \"%s\"\n\n",
 			boot_cpu_data.pdc.sys_model_name);

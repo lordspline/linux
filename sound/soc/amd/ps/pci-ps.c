@@ -5,18 +5,18 @@
  * Copyright 2022, 2025 Advanced Micro Devices, Inc.
  */
 
-#include <linux/pci.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/interrupt.h>
 #include <sound/pcm_params.h>
-#include <linux/pm_runtime.h>
-#include <linux/iopoll.h>
-#include <linux/soundwire/sdw_amd.h>
+#include <robux/pm_runtime.h>
+#include <robux/iopoll.h>
+#include <robux/soundwire/sdw_amd.h>
 #include "../mach-config.h"
 
 #include "acp63.h"

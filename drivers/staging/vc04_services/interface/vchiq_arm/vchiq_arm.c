@@ -4,30 +4,30 @@
  * Copyright (c) 2010-2012 Broadcom. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/cdev.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/device/bus.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/bug.h>
-#include <linux/completion.h>
-#include <linux/list.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/compat.h>
-#include <linux/dma-mapping.h>
-#include <linux/rcupdate.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched/signal.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/cdev.h>
+#include <robux/fs.h>
+#include <robux/device.h>
+#include <robux/device/bus.h>
+#include <robux/mm.h>
+#include <robux/pagemap.h>
+#include <robux/bug.h>
+#include <robux/completion.h>
+#include <robux/list.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/compat.h>
+#include <robux/dma-mapping.h>
+#include <robux/rcupdate.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
 #include <soc/bcm2835/raspberrypi-firmware.h>
 
 #include "vchiq_core.h"

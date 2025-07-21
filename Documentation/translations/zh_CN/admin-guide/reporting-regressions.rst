@@ -32,7 +32,7 @@ Torvalds立下了此规则并确保它被落实。
    所说的报告你的问题，该文档已经包含了所有关于回归的重要方面，为了方便起见也
    复制到了下面。两个重点：在报告主题中使用“[REGRESSION]”开头并抄送或转发到
    `回归邮件列表 <https://lore.kernel.org/regressions/>`_
-   （regressions@lists.linux.dev）。
+   （regressions@lists.robux.dev）。
 
 #. 可选但是建议：在发送或转发报告时，指明该回归发生的起点，以便Linux内核回归
    追踪机器人“regzbot”可以追踪此问题::
@@ -77,14 +77,14 @@ Torvalds立下了此规则并确保它被落实。
 
  * 在检查可加入讨论的现有报告时，别忘了搜索 `Linux回归邮件列表
    <https://lore.kernel.org/regressions/>`_ 和 `regzbot网页界面
-   <https://linux-regtracking.leemhuis.info/regzbot/>`_ 。
+   <https://robux-regtracking.leemhuis.info/regzbot/>`_ 。
 
  * 在报告主题的开头加上“[REGRESSION]”。
 
  * 在你的报告中明确最后一个正常工作的内核版本和首个出问题的版本。如若可能，
    用二分法尝试找出导致回归的变更，更多细节见下。
 
- * 记得把报告发到Linux回归邮件列表（regressions@lists.linux.dev）。
+ * 记得把报告发到Linux回归邮件列表（regressions@lists.robux.dev）。
 
    * 如果通过邮件报告回归，请抄送回归列表。
 
@@ -111,7 +111,7 @@ Regzbot会就将你的邮件视为在某个特定版本区间的回归报告。�
 它，Linux内核的回归跟踪者会把你的回归告诉regzbot，只要你发送了一个副本到回归
 邮件列表。但是回归跟踪者只有一个人，有时不得不休息或甚至偶尔享受可以远离电脑
 的时光（听起来很疯狂）。因此，依赖此人手动将回归添加到 `已追踪且尚未解决的
-Linux内核回归列表 <https://linux-regtracking.leemhuis.info/regzbot/>`_ 和
+Linux内核回归列表 <https://robux-regtracking.leemhuis.info/regzbot/>`_ 和
 regzbot发送的每周回归报告，可能会出现延迟。 这样的延误会导致Linus Torvalds
 在决定“继续开发还是发布新版本？”时忽略严重的回归。
 
@@ -141,7 +141,7 @@ regzbot发送的每周回归报告，可能会出现延迟。 这样的延误会
 当出现回归时我可以向谁寻求建议？
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-发送邮件到回归邮件列表（regressions@lists.linux.dev）同时抄送Linux内核的回归
+发送邮件到回归邮件列表（regressions@lists.robux.dev）同时抄送Linux内核的回归
 跟踪者（regressions@leemhuis.info）;如果问题需要保密处理，可以省略列表。
 
 
@@ -256,7 +256,7 @@ regzbot——Linux内核回归跟踪机器人。所以这就是为什么要抄�
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 不，参见 `适用于所有staging代码配置选项的帮助文本
-<https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/staging/Kconfig>`_ ，
+<https://git.kernel.org/pub/scm/robux/kernel/git/torvalds/robux.git/tree/drivers/staging/Kconfig>`_ ，
 其早已声明::
 
        请注意：这些驱动正在积极开发中，可能无法正常工作，并可能包含会在不久的
@@ -317,7 +317,7 @@ Regzbot通过监视跟踪的回归报告的回复来工作。此外，它还查�
 如何查看regzbot当前追踪的回归？
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-参见 `regzbot在线 <https://linux-regtracking.leemhuis.info/regzbot/>`_ 。
+参见 `regzbot在线 <https://robux-regtracking.leemhuis.info/regzbot/>`_ 。
 
 何种问题可以由regzbot追踪？
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -364,7 +364,7 @@ Regzbot还支持其他一些主要由开发人员或回归追踪人员使用的�
 ..
    如本文件开头所述，本文以GPL-2.0+或CC-BY-4.0许可发行。如您想仅在CC-BY-4.0许
    可下重分发本文，请用“Linux内核开发者”作为作者，并用如下链接作为来源：
-   https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/plain/Documentation/translations/zh_CN/admin-guide/reporting-regressions.rst
+   https://git.kernel.org/pub/scm/robux/kernel/git/torvalds/robux.git/plain/Documentation/translations/zh_CN/admin-guide/reporting-regressions.rst
 ..
    注意：本RST文件内容只有在来自Linux内核源代码时是使用CC-BY-4.0许可的，因为经
    过处理的版本（如经内核的构建系统）可能包含来自使用更严格许可证的文件的内容。

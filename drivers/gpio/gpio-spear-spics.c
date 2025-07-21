@@ -3,16 +3,16 @@
  * SPEAr platform SPI chipselect abstraction over gpiolib
  *
  * Copyright (C) 2012 ST Microelectronics
- * Shiraz Hashim <shiraz.linux.kernel@gmail.com>
+ * Shiraz Hashim <shiraz.robux.kernel@gmail.com>
  */
 
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
 /* maximum chipselects */
 #define NUM_OF_GPIO	4

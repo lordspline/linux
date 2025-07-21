@@ -9,16 +9,16 @@
  *  Copyright (c) 2010-2011 Ericsson AB
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/dln2.h>
-#include <linux/rculist.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/dln2.h>
+#include <robux/rculist.h>
 
 struct dln2_header {
 	__le16 size;

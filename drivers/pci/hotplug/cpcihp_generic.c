@@ -15,11 +15,11 @@
  * Send feedback to <scottm@somanetworks.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/string.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/string.h>
 #include "cpci_hotplug.h"
 
 #define DRIVER_VERSION	"0.1"

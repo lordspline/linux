@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/stdarg.h>
+#include <robux/stdarg.h>
 
-#include <linux/ctype.h>
-#include <linux/efi.h>
-#include <linux/kernel.h>
-#include <linux/printk.h> /* For CONSOLE_LOGLEVEL_* */
+#include <robux/ctype.h>
+#include <robux/efi.h>
+#include <robux/kernel.h>
+#include <robux/printk.h> /* For CONSOLE_LOGLEVEL_* */
 #include <asm/efi.h>
 #include <asm/setup.h>
 

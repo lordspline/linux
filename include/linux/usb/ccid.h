@@ -7,7 +7,7 @@
 #ifndef __CCID_H
 #define __CCID_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define USB_INTERFACE_CLASS_CCID 0x0b
 

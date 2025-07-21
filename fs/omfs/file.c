@@ -4,10 +4,10 @@
  * Copyright (C) 2005 Bob Copeland <me@bobcopeland.com>
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/buffer_head.h>
-#include <linux/mpage.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/buffer_head.h>
+#include <robux/mpage.h>
 #include "omfs.h"
 
 static u32 omfs_max_extents(struct omfs_sb_info *sbi, int offset)

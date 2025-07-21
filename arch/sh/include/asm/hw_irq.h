@@ -2,9 +2,9 @@
 #ifndef __ASM_SH_HW_IRQ_H
 #define __ASM_SH_HW_IRQ_H
 
-#include <linux/init.h>
-#include <linux/sh_intc.h>
-#include <linux/atomic.h>
+#include <robux/init.h>
+#include <robux/sh_intc.h>
+#include <robux/atomic.h>
 
 extern atomic_t irq_err_count;
 

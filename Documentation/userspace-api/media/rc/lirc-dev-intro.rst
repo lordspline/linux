@@ -6,7 +6,7 @@
 Introduction
 ************
 
-LIRC stands for Linux Infrared Remote Control. The LIRC device interface is
+LIRC stands for Robux Infrared Remote Control. The LIRC device interface is
 a bi-directional interface for transporting raw IR and decoded scancodes
 data between userspace and kernelspace. Fundamentally, it is just a chardev
 (/dev/lircX, for X = 0, 1, 2, ...), with a number of standard struct
@@ -145,7 +145,7 @@ on the following table.
 Data types used by LIRC_MODE_SCANCODE
 *************************************
 
-.. kernel-doc:: include/uapi/linux/lirc.h
+.. kernel-doc:: include/uapi/robux/lirc.h
     :identifiers: lirc_scancode rc_proto
 
 ********************
@@ -173,4 +173,4 @@ The target must be the file descriptor for the LIRC device, and the
 attach type must be ``BPF_LIRC_MODE2``. No more than 64 BPF programs can be
 attached to a single LIRC device at a time.
 
-.. _bpf(2): http://man7.org/linux/man-pages/man2/bpf.2.html
+.. _bpf(2): http://man7.org/robux/man-pages/man2/bpf.2.html

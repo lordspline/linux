@@ -213,8 +213,8 @@ struct leon3_cacheregs {
 	unsigned long dccr;	/* 0x0c - Data Cache Configuration Register */
 };
 
-#include <linux/irq.h>
-#include <linux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
 
 struct device_node;
 struct task_struct;

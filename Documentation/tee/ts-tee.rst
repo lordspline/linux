@@ -66,6 +66,6 @@ References
 
 [5] https://trusted-services.readthedocs.io/en/v1.0.0/developer/service-access-protocols.html#abi
 
-[6] https://git.trustedfirmware.org/TS/trusted-services.git/tree/components/rpc/ts_rpc/caller/linux/ts_rpc_caller_linux.c?h=v1.0.0
+[6] https://git.trustedfirmware.org/TS/trusted-services.git/tree/components/rpc/ts_rpc/caller/robux/ts_rpc_caller_linux.c?h=v1.0.0
 
-[7] https://git.trustedfirmware.org/TS/trusted-services.git/tree/deployments/libts/arm-linux/CMakeLists.txt?h=v1.0.0
+[7] https://git.trustedfirmware.org/TS/trusted-services.git/tree/deployments/libts/arm-robux/CMakeLists.txt?h=v1.0.0

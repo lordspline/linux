@@ -6,11 +6,11 @@
  * Copyright (C) 2020 Cristian Ciocaltea <cristian.ciocaltea@gmail.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/mfd/atc260x/core.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/mfd/atc260x/core.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
 static int atc260x_i2c_probe(struct i2c_client *client)
 {

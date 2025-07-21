@@ -5,14 +5,14 @@
  *
  * Copyright 2021 Analog Devices Inc.
  */
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
+#include <robux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/spi/spi.h>
 
 #include "ad3552r.h"
 

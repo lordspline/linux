@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/pid_namespace.h>
-#include <linux/proc_fs.h>
-#include <linux/sched.h>
-#include <linux/sched/loadavg.h>
-#include <linux/sched/stat.h>
-#include <linux/seq_file.h>
-#include <linux/seqlock.h>
-#include <linux/time.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/pid_namespace.h>
+#include <robux/proc_fs.h>
+#include <robux/sched.h>
+#include <robux/sched/loadavg.h>
+#include <robux/sched/stat.h>
+#include <robux/seq_file.h>
+#include <robux/seqlock.h>
+#include <robux/time.h>
 #include "internal.h"
 
 static int loadavg_proc_show(struct seq_file *m, void *v)

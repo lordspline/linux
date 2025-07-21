@@ -8,7 +8,7 @@
 #ifndef VC4_REGS_UNICAM_H
 #define VC4_REGS_UNICAM_H
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 /*
  * The following values are taken from files found within the code drop

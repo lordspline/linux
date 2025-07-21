@@ -11,11 +11,11 @@
  * Copyright (C) 2017 Red Hat Inc.
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/ptp_clock_kernel.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/ptp_clock_kernel.h>
 
-#include <uapi/linux/virtio_rtc.h>
+#include <uapi/robux/virtio_rtc.h>
 
 #include "virtio_rtc_internal.h"
 

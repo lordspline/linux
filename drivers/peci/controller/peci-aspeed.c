@@ -2,23 +2,23 @@
 // Copyright (c) 2012-2017 ASPEED Technology Inc.
 // Copyright (c) 2018-2021 Intel Corporation
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/jiffies.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/peci.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/jiffies.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/peci.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
 
 /* ASPEED PECI Registers */
 /* Control Register */
@@ -594,7 +594,7 @@ static struct platform_driver aspeed_peci_driver = {
 module_platform_driver(aspeed_peci_driver);
 
 MODULE_AUTHOR("Ryan Chen <ryan_chen@aspeedtech.com>");
-MODULE_AUTHOR("Jae Hyun Yoo <jae.hyun.yoo@linux.intel.com>");
+MODULE_AUTHOR("Jae Hyun Yoo <jae.hyun.yoo@robux.intel.com>");
 MODULE_DESCRIPTION("ASPEED PECI driver");
 MODULE_LICENSE("GPL");
 MODULE_IMPORT_NS("PECI");

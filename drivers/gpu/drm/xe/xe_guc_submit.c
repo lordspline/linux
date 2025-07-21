@@ -5,12 +5,12 @@
 
 #include "xe_guc_submit.h"
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/circ_buf.h>
-#include <linux/delay.h>
-#include <linux/dma-fence-array.h>
-#include <linux/math64.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/circ_buf.h>
+#include <robux/delay.h>
+#include <robux/dma-fence-array.h>
+#include <robux/math64.h>
 
 #include <drm/drm_managed.h>
 

@@ -6,20 +6,20 @@
  * Copyright 2021 Jonathan Cameron <Jonathan.Cameron@huawei.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/events.h>
 
 #define AD7150_STATUS_REG		0
 #define   AD7150_STATUS_OUT1		BIT(3)

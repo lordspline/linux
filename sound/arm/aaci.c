@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/sound/arm/aaci.c - ARM PrimeCell AACI PL041 driver
+ *  robux/sound/arm/aaci.c - ARM PrimeCell AACI PL041 driver
  *
  *  Copyright (C) 2003 Deep Blue Solutions Ltd, All Rights Reserved.
  *
  *  Documentation: ARM DDI 0173B
  */
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/amba/bus.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/device.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/err.h>
+#include <robux/amba/bus.h>
+#include <robux/io.h>
 
 #include <sound/core.h>
 #include <sound/initval.h>

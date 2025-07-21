@@ -3,23 +3,23 @@
  * Copyright (C) 2012-2015 Spreadtrum Communications Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma/sprd-dma.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <robux/clk.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/dma/sprd-dma.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/serial_core.h>
+#include <robux/serial.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
 
 /* device name */
 #define UART_NR_MAX		8

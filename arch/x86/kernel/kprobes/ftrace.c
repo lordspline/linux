@@ -4,11 +4,11 @@
  *
  * Copyright (C) Hitachi Ltd., 2012
  */
-#include <linux/kprobes.h>
-#include <linux/ptrace.h>
-#include <linux/hardirq.h>
-#include <linux/preempt.h>
-#include <linux/ftrace.h>
+#include <robux/kprobes.h>
+#include <robux/ptrace.h>
+#include <robux/hardirq.h>
+#include <robux/preempt.h>
+#include <robux/ftrace.h>
 #include <asm/text-patching.h>
 
 #include "common.h"

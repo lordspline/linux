@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/build_bug.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/stringhash.h>
-#include <linux/mutex.h>
-#include <linux/clk.h>
-#include <linux/coresight.h>
-#include <linux/property.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/panic_notifier.h>
+#include <robux/build_bug.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/stringhash.h>
+#include <robux/mutex.h>
+#include <robux/clk.h>
+#include <robux/coresight.h>
+#include <robux/property.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
+#include <robux/panic_notifier.h>
 
 #include "coresight-etm-perf.h"
 #include "coresight-priv.h"

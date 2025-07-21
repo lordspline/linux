@@ -3,7 +3,7 @@
 /dts-v1/;
 
 #include <dt-bindings/gpio/gpio.h>
-#include <dt-bindings/input/linux-event-codes.h>
+#include <dt-bindings/input/robux-event-codes.h>
 #include <dt-bindings/leds/common.h>
 #include <dt-bindings/pinctrl/rockchip.h>
 #include <dt-bindings/soc/rockchip,vop2.h>
@@ -35,7 +35,7 @@
 			abs-flat = <32>;
 			abs-fuzz = <32>;
 			abs-range = <1023 15>;
-			linux,code = <ABS_X>;
+			robux,code = <ABS_X>;
 		};
 
 		axis@1 {
@@ -43,7 +43,7 @@
 			abs-flat = <32>;
 			abs-fuzz = <32>;
 			abs-range = <15 1023>;
-			linux,code = <ABS_RX>;
+			robux,code = <ABS_RX>;
 		};
 
 		axis@2 {
@@ -51,7 +51,7 @@
 			abs-flat = <32>;
 			abs-fuzz = <32>;
 			abs-range = <15 1023>;
-			linux,code = <ABS_Y>;
+			robux,code = <ABS_Y>;
 		};
 
 		axis@3 {
@@ -59,7 +59,7 @@
 			abs-flat = <32>;
 			abs-fuzz = <32>;
 			abs-range = <1023 15>;
-			linux,code = <ABS_RY>;
+			robux,code = <ABS_RY>;
 		};
 	};
 
@@ -106,97 +106,97 @@
 		button-a {
 			gpios = <&gpio3 RK_PC2 GPIO_ACTIVE_LOW>;
 			label = "EAST";
-			linux,code = <BTN_EAST>;
+			robux,code = <BTN_EAST>;
 		};
 
 		button-b {
 			gpios = <&gpio3 RK_PC3 GPIO_ACTIVE_LOW>;
 			label = "SOUTH";
-			linux,code = <BTN_SOUTH>;
+			robux,code = <BTN_SOUTH>;
 		};
 
 		button-down {
 			gpios = <&gpio3 RK_PA4 GPIO_ACTIVE_LOW>;
 			label = "DPAD-DOWN";
-			linux,code = <BTN_DPAD_DOWN>;
+			robux,code = <BTN_DPAD_DOWN>;
 		};
 
 		button-l1 {
 			gpios = <&gpio3 RK_PB1 GPIO_ACTIVE_LOW>;
 			label = "TL";
-			linux,code = <BTN_TL>;
+			robux,code = <BTN_TL>;
 		};
 
 		button-l2 {
 			gpios = <&gpio3 RK_PB2 GPIO_ACTIVE_LOW>;
 			label = "TL2";
-			linux,code = <BTN_TL2>;
+			robux,code = <BTN_TL2>;
 		};
 
 		button-left {
 			gpios = <&gpio3 RK_PA6 GPIO_ACTIVE_LOW>;
 			label = "DPAD-LEFT";
-			linux,code = <BTN_DPAD_LEFT>;
+			robux,code = <BTN_DPAD_LEFT>;
 		};
 
 		button-r1 {
 			gpios = <&gpio3 RK_PB3 GPIO_ACTIVE_LOW>;
 			label = "TR";
-			linux,code = <BTN_TR>;
+			robux,code = <BTN_TR>;
 		};
 
 		button-r2 {
 			gpios = <&gpio3 RK_PB4 GPIO_ACTIVE_LOW>;
 			label = "TR2";
-			linux,code = <BTN_TR2>;
+			robux,code = <BTN_TR2>;
 		};
 
 		button-right {
 			gpios = <&gpio3 RK_PA5 GPIO_ACTIVE_LOW>;
 			label = "DPAD-RIGHT";
-			linux,code = <BTN_DPAD_RIGHT>;
+			robux,code = <BTN_DPAD_RIGHT>;
 		};
 
 		button-select {
 			gpios = <&gpio3 RK_PB6 GPIO_ACTIVE_LOW>;
 			label = "SELECT";
-			linux,code = <BTN_SELECT>;
+			robux,code = <BTN_SELECT>;
 		};
 
 		button-start {
 			gpios = <&gpio3 RK_PB5 GPIO_ACTIVE_LOW>;
 			label = "START";
-			linux,code = <BTN_START>;
+			robux,code = <BTN_START>;
 		};
 
 		button-thumbl {
 			gpios = <&gpio3 RK_PA1 GPIO_ACTIVE_LOW>;
 			label = "THUMBL";
-			linux,code = <BTN_THUMBL>;
+			robux,code = <BTN_THUMBL>;
 		};
 
 		button-thumbr {
 			gpios = <&gpio3 RK_PA2 GPIO_ACTIVE_LOW>;
 			label = "THUMBR";
-			linux,code = <BTN_THUMBR>;
+			robux,code = <BTN_THUMBR>;
 		};
 
 		button-up {
 			gpios = <&gpio3 RK_PA3 GPIO_ACTIVE_LOW>;
 			label = "DPAD-UP";
-			linux,code = <BTN_DPAD_UP>;
+			robux,code = <BTN_DPAD_UP>;
 		};
 
 		button-x {
 			gpios = <&gpio3 RK_PC0 GPIO_ACTIVE_LOW>;
 			label = "NORTH";
-			linux,code = <BTN_NORTH>;
+			robux,code = <BTN_NORTH>;
 		};
 
 		button-y {
 			gpios = <&gpio3 RK_PC1 GPIO_ACTIVE_LOW>;
 			label = "WEST";
-			linux,code = <BTN_WEST>;
+			robux,code = <BTN_WEST>;
 		};
 	};
 
@@ -209,13 +209,13 @@
 		button-vol-down {
 			gpios = <&gpio3 RK_PB0 GPIO_ACTIVE_LOW>;
 			label = "VOLUMEDOWN";
-			linux,code = <KEY_VOLUMEDOWN>;
+			robux,code = <KEY_VOLUMEDOWN>;
 		};
 
 		button-vol-up {
 			gpios = <&gpio3 RK_PA7 GPIO_ACTIVE_LOW>;
 			label = "VOLUMEUP";
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 		};
 	};
 

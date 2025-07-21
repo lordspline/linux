@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
-/* Copyright (c) 2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2018, The Robux Foundation. All rights reserved.
  *
  * Inspired by dwc3-of-simple.c
  */
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/of_clk.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/extcon.h>
-#include <linux/interconnect.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/usb/of.h>
-#include <linux/reset.h>
-#include <linux/iopoll.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/clk.h>
+#include <robux/irq.h>
+#include <robux/of_clk.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/extcon.h>
+#include <robux/interconnect.h>
+#include <robux/platform_device.h>
+#include <robux/phy/phy.h>
+#include <robux/usb/of.h>
+#include <robux/reset.h>
+#include <robux/iopoll.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb.h>
 #include "core.h"
 #include "glue.h"
 

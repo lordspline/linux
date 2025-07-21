@@ -6,16 +6,16 @@
  * Copyright 2022 Timesys Corp.
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
 
-#include <linux/iio/iio.h>
+#include <robux/iio/iio.h>
 
 #define MAX5522_MAX_ADDR	15
 #define MAX5522_CTRL_NONE	0

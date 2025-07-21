@@ -11,9 +11,9 @@
 #include <crypto/aes.h>
 #include <crypto/algapi.h>
 #include <crypto/scatterwalk.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/crypto.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/crypto.h>
 #include <asm/vio.h>
 
 #include "nx_csbcpb.h"

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *	linux/kernel/resource.c
+ *	robux/kernel/resource.c
  *
  * Copyright (C) 1999	Linus Torvalds
  * Copyright (C) 1999	Martin Mares <mj@ucw.cz>
@@ -10,25 +10,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/fs.h>
-#include <linux/proc_fs.h>
-#include <linux/pseudo_fs.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/device.h>
-#include <linux/pfn.h>
-#include <linux/mm.h>
-#include <linux/mount.h>
-#include <linux/resource_ext.h>
-#include <uapi/linux/magic.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
+#include <robux/export.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/fs.h>
+#include <robux/proc_fs.h>
+#include <robux/pseudo_fs.h>
+#include <robux/sched.h>
+#include <robux/seq_file.h>
+#include <robux/device.h>
+#include <robux/pfn.h>
+#include <robux/mm.h>
+#include <robux/mount.h>
+#include <robux/resource_ext.h>
+#include <uapi/robux/magic.h>
+#include <robux/string.h>
+#include <robux/vmalloc.h>
 #include <asm/io.h>
 
 
@@ -417,7 +417,7 @@ static int __walk_iomem_res_desc(resource_size_t start, resource_size_t end,
  * desc are valid candidates.
  *
  * NOTE: For a new descriptor search, define a new IORES_DESC in
- * <linux/ioport.h> and set it in 'desc' of a target resource entry.
+ * <robux/ioport.h> and set it in 'desc' of a target resource entry.
  */
 int walk_iomem_res_desc(unsigned long desc, unsigned long flags, u64 start,
 		u64 end, void *arg, int (*func)(struct resource *, void *))

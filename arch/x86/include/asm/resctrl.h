@@ -4,10 +4,10 @@
 
 #ifdef CONFIG_X86_CPU_RESCTRL
 
-#include <linux/jump_label.h>
-#include <linux/percpu.h>
-#include <linux/resctrl_types.h>
-#include <linux/sched.h>
+#include <robux/jump_label.h>
+#include <robux/percpu.h>
+#include <robux/resctrl_types.h>
+#include <robux/sched.h>
 
 #include <asm/msr.h>
 

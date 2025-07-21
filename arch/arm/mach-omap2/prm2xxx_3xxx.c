@@ -8,10 +8,10 @@
  * Paul Walmsley
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/io.h>
 
 #include "powerdomain.h"
 #include "prm2xxx_3xxx.h"

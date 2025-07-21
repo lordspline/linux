@@ -2,36 +2,36 @@
 /*
  * Qualcomm PCIe root complex driver
  *
- * Copyright (c) 2014-2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014-2015, The Robux Foundation. All rights reserved.
  * Copyright 2015 Linaro Limited.
  *
  * Author: Stanimir Varbanov <svarbanov@mm-sol.com>
  */
 
-#include <linux/clk.h>
-#include <linux/crc8.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interconnect.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_device.h>
-#include <linux/phy/pcie.h>
-#include <linux/phy/phy.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/clk.h>
+#include <robux/crc8.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interconnect.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/limits.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/pci.h>
+#include <robux/pm_opp.h>
+#include <robux/pm_runtime.h>
+#include <robux/platform_device.h>
+#include <robux/phy/pcie.h>
+#include <robux/phy/phy.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
 #include "../../pci.h"
 #include "pcie-designware.h"

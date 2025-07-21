@@ -2,11 +2,11 @@
 /* Copyright(c) 2020-2021 Intel Corporation. */
 #ifndef __CXL_MEM_H__
 #define __CXL_MEM_H__
-#include <uapi/linux/cxl_mem.h>
-#include <linux/pci.h>
-#include <linux/cdev.h>
-#include <linux/uuid.h>
-#include <linux/node.h>
+#include <uapi/robux/cxl_mem.h>
+#include <robux/pci.h>
+#include <robux/cdev.h>
+#include <robux/uuid.h>
+#include <robux/node.h>
 #include <cxl/event.h>
 #include <cxl/mailbox.h>
 #include "cxl.h"

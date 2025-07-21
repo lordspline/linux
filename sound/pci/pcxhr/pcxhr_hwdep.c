@@ -7,12 +7,12 @@
  * Copyright (c) 2004 by Digigram <alsa@digigram.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/vmalloc.h>
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <robux/interrupt.h>
+#include <robux/vmalloc.h>
+#include <robux/firmware.h>
+#include <robux/pci.h>
+#include <robux/module.h>
+#include <robux/io.h>
 #include <sound/core.h>
 #include <sound/hwdep.h>
 #include "pcxhr.h"

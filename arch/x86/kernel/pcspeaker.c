@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/init.h>
+#include <robux/platform_device.h>
+#include <robux/err.h>
+#include <robux/init.h>
 
 static __init int add_pcspkr(void)
 {

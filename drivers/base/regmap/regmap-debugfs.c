@@ -6,12 +6,12 @@
 //
 // Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/device.h>
-#include <linux/list.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/debugfs.h>
+#include <robux/uaccess.h>
+#include <robux/device.h>
+#include <robux/list.h>
 
 #include "internal.h"
 

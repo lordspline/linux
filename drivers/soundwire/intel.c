@@ -5,17 +5,17 @@
  * Soundwire Intel Master Driver
  */
 
-#include <linux/acpi.h>
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/io.h>
+#include <robux/acpi.h>
+#include <robux/cleanup.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/io.h>
 #include <sound/pcm_params.h>
-#include <linux/pm_runtime.h>
+#include <robux/pm_runtime.h>
 #include <sound/soc.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_intel.h>
+#include <robux/soundwire/sdw_registers.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/soundwire/sdw_intel.h>
 #include "cadence_master.h"
 #include "bus.h"
 #include "intel.h"

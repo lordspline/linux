@@ -9,7 +9,7 @@
 
 */
 
-#include <linux/slab.h>
+#include <robux/slab.h>
 
 #include "b43.h"
 #include "phy_ht.h"

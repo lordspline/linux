@@ -9,16 +9,16 @@
 #ifndef _FIREDTV_H
 #define _FIREDTV_H
 
-#include <linux/time.h>
-#include <linux/dvb/dmx.h>
-#include <linux/dvb/frontend.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <robux/time.h>
+#include <robux/dvb/dmx.h>
+#include <robux/dvb/frontend.h>
+#include <robux/list.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/spinlock_types.h>
+#include <robux/types.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
 
 #include <media/demux.h>
 #include <media/dmxdev.h>

@@ -7,14 +7,14 @@
  *  Author(s): Arnd Bergmann (arndb@de.ibm.com)
  *	       Cornelia Huck (cornelia.huck@de.ibm.com)
  */
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/ctype.h>
-#include <linux/dcache.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/ctype.h>
+#include <robux/dcache.h>
 
 #include <asm/cio.h>
 #include <asm/ccwdev.h>
@@ -24,7 +24,7 @@
 
 #define CCW_BUS_ID_SIZE		10
 
-/* In Linux 2.4, we had a channel device layer called "chandev"
+/* In Robux 2.4, we had a channel device layer called "chandev"
  * that did all sorts of obscure stuff for networking devices.
  * This is another driver that serves as a replacement for just
  * one of its functions, namely the translation of single subchannels

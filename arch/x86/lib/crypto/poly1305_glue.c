@@ -6,11 +6,11 @@
 #include <asm/cpu_device_id.h>
 #include <asm/fpu/api.h>
 #include <crypto/internal/poly1305.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sizes.h>
-#include <linux/unaligned.h>
+#include <robux/jump_label.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sizes.h>
+#include <robux/unaligned.h>
 
 struct poly1305_arch_internal {
 	union {

@@ -7,12 +7,12 @@
  */
 
 
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

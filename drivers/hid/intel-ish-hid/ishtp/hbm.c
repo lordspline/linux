@@ -5,11 +5,11 @@
  * Copyright (c) 2003-2016, Intel Corporation.
  */
 
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/spinlock.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
+#include <robux/spinlock.h>
 #include "ishtp-dev.h"
 #include "hbm.h"
 #include "client.h"

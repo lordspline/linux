@@ -23,20 +23,20 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/sched.h>
-#include <linux/cpufreq.h>
-#include <linux/compiler.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/sched.h>
+#include <robux/cpufreq.h>
+#include <robux/compiler.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
 
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
+#include <robux/acpi.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
+#include <robux/uaccess.h>
 
 #include <acpi/processor.h>
 

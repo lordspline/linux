@@ -6,13 +6,13 @@
  * This was based on the git SHA1 implementation.
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/bitops.h>
+#include <robux/string.h>
 #include <crypto/sha1.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 /*
  * If you have 32 registers or more, the compiler can (and should)

@@ -4,12 +4,12 @@
  *  Copyright (C) 2005 Mike Isely <isely@pobox.com>
  */
 
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/videodev2.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/firmware.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-common.h>
 #include <media/tuner.h>
 #include "pvrusb2.h"

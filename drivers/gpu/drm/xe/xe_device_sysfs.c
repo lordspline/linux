@@ -3,10 +3,10 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/device.h>
-#include <linux/kobject.h>
-#include <linux/pci.h>
-#include <linux/sysfs.h>
+#include <robux/device.h>
+#include <robux/kobject.h>
+#include <robux/pci.h>
+#include <robux/sysfs.h>
 
 #include "xe_device.h"
 #include "xe_device_sysfs.h"

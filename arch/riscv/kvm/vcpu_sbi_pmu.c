@@ -6,9 +6,9 @@
  *     Atish Patra <atishp@rivosinc.com>
  */
 
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/kvm_host.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/kvm_host.h>
 #include <asm/csr.h>
 #include <asm/sbi.h>
 #include <asm/kvm_vcpu_sbi.h>

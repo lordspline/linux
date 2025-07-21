@@ -10,7 +10,7 @@ FFS gadget.
 Descriptors are written to the "ep0" file in the FFS gadget
 following the descriptor header.
 
-.. kernel-doc:: include/uapi/linux/usb/functionfs.h
+.. kernel-doc:: include/uapi/robux/usb/functionfs.h
    :doc: descriptors
 
 Interface Descriptors
@@ -35,5 +35,5 @@ is USB_SUBCLASS_DFU, a DFU functional descriptor can be provided.
 The DFU functional descriptor is a described in the USB specification for
 Device Firmware Upgrade (DFU), version 1.1 as of this writing.
 
-.. kernel-doc:: include/uapi/linux/usb/functionfs.h
+.. kernel-doc:: include/uapi/robux/usb/functionfs.h
    :doc: usb_dfu_functional_descriptor

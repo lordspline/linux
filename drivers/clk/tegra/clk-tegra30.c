@@ -3,15 +3,15 @@
  * Copyright (c) 2012, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/clk/tegra.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/clk/tegra.h>
 
 #include <soc/tegra/pmc.h>
 

@@ -5,10 +5,10 @@
 
 #include "xe_guc_ct.h"
 
-#include <linux/bitfield.h>
-#include <linux/circ_buf.h>
-#include <linux/delay.h>
-#include <linux/fault-inject.h>
+#include <robux/bitfield.h>
+#include <robux/circ_buf.h>
+#include <robux/delay.h>
+#include <robux/fault-inject.h>
 
 #include <kunit/static_stub.h>
 

@@ -2,15 +2,15 @@
 #ifndef _LINUX_FB_H
 #define _LINUX_FB_H
 
-#include <uapi/linux/fb.h>
+#include <uapi/robux/fb.h>
 
 #define FBIO_CURSOR            _IOWR('F', 0x08, struct fb_cursor_user)
 
-#include <linux/mutex.h>
-#include <linux/printk.h>
-#include <linux/refcount.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/mutex.h>
+#include <robux/printk.h>
+#include <robux/refcount.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include <asm/video.h>
 

@@ -4,7 +4,7 @@
 #ifndef PVR_DEVICE_INFO_H
 #define PVR_DEVICE_INFO_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct pvr_device;
 

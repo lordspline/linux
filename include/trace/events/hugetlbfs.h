@@ -5,7 +5,7 @@
 #if !defined(_TRACE_HUGETLBFS_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_HUGETLBFS_H
 
-#include <linux/tracepoint.h>
+#include <robux/tracepoint.h>
 
 TRACE_EVENT(hugetlbfs_alloc_inode,
 

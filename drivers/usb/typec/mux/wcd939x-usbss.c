@@ -4,16 +4,16 @@
  * Copyright (C) 2023 Linaro Ltd.
  */
 
-#include <linux/bits.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/bitfield.h>
-#include <linux/gpio/consumer.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
+#include <robux/bits.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/gpio/consumer.h>
+#include <robux/usb/typec_dp.h>
+#include <robux/usb/typec_mux.h>
 
 #define WCD_USBSS_PMP_OUT1			0x2
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/minix/inode.c
+ *  robux/fs/minix/inode.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *
@@ -11,16 +11,16 @@
  *  Updated to filesystem version 3 by Daniel Aragones
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 #include "minix.h"
-#include <linux/buffer_head.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/highuid.h>
-#include <linux/mpage.h>
-#include <linux/vfs.h>
-#include <linux/writeback.h>
-#include <linux/fs_context.h>
+#include <robux/buffer_head.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/highuid.h>
+#include <robux/mpage.h>
+#include <robux/vfs.h>
+#include <robux/writeback.h>
+#include <robux/fs_context.h>
 
 static int minix_write_inode(struct inode *inode,
 		struct writeback_control *wbc);

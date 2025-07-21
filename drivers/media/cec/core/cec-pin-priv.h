@@ -8,8 +8,8 @@
 #ifndef LINUX_CEC_PIN_PRIV_H
 #define LINUX_CEC_PIN_PRIV_H
 
-#include <linux/types.h>
-#include <linux/atomic.h>
+#include <robux/types.h>
+#include <robux/atomic.h>
 #include <media/cec-pin.h>
 
 #define call_pin_op(pin, op, arg...)					\

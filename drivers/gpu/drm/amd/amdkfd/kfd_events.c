@@ -21,18 +21,18 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/mm_types.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
-#include <linux/uaccess.h>
-#include <linux/mman.h>
-#include <linux/memory.h>
+#include <robux/mm_types.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/mm.h>
+#include <robux/uaccess.h>
+#include <robux/mman.h>
+#include <robux/memory.h>
 #include "kfd_priv.h"
 #include "kfd_events.h"
 #include "kfd_device_queue_manager.h"
-#include <linux/device.h>
+#include <robux/device.h>
 
 /*
  * Wrapper around wait_queue_entry_t

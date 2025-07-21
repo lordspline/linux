@@ -8,15 +8,15 @@
  * Copyright (C) 2008-2009 MontaVista Software, Inc. <source@mvista.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/errno.h>
+#include <robux/list.h>
+#include <robux/dma-mapping.h>
 
 #include "musb_core.h"
 #include "musb_host.h"

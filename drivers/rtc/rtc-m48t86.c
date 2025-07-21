@@ -10,12 +10,12 @@
  * to not introduce bugs.
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/bcd.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/rtc.h>
+#include <robux/platform_device.h>
+#include <robux/bcd.h>
+#include <robux/io.h>
 
 #define M48T86_SEC		0x00
 #define M48T86_SECALRM		0x01

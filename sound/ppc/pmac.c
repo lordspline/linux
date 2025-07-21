@@ -7,16 +7,16 @@
  */
 
 
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/irq.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 #include <sound/core.h>
 #include "pmac.h"
 #include <sound/pcm_params.h>

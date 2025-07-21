@@ -6,7 +6,7 @@
 #ifndef __IPU6_PCI_TBL_H__
 #define __IPU6_PCI_TBL_H__
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 #define PCI_DEVICE_ID_INTEL_IPU6		0x9a19
 #define PCI_DEVICE_ID_INTEL_IPU6SE		0x4e19

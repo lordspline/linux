@@ -5,17 +5,17 @@
  * Author: Naga Sureshkumar Relli <nagasure@xilinx.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/workqueue.h>
-#include <linux/spi/spi-mem.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/spi/spi.h>
+#include <robux/workqueue.h>
+#include <robux/spi/spi-mem.h>
 
 /* Register offset definitions */
 #define ZYNQ_QSPI_CONFIG_OFFSET		0x00 /* Configuration  Register, RW */

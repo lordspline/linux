@@ -23,15 +23,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/linear_range.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/scmi_protocol.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/linear_range.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/scmi_protocol.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 static const struct scmi_voltage_proto_ops *voltage_ops;
 

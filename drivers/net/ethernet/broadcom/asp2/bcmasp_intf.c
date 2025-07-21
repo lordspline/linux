@@ -2,17 +2,17 @@
 #define pr_fmt(fmt)			"bcmasp_intf: " fmt
 
 #include <asm/byteorder.h>
-#include <linux/brcmphy.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/etherdevice.h>
-#include <linux/netdevice.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/ptp_classify.h>
-#include <linux/platform_device.h>
+#include <robux/brcmphy.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/etherdevice.h>
+#include <robux/netdevice.h>
+#include <robux/of_net.h>
+#include <robux/of_mdio.h>
+#include <robux/phy.h>
+#include <robux/phy_fixed.h>
+#include <robux/ptp_classify.h>
+#include <robux/platform_device.h>
 #include <net/ip.h>
 #include <net/ipv6.h>
 

@@ -9,11 +9,11 @@
  *   alsa-tools/sb16_csp/ 
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/string_choices.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/string_choices.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/info.h>

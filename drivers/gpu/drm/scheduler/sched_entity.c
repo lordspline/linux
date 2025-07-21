@@ -21,9 +21,9 @@
  *
  */
 
-#include <linux/kthread.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
+#include <robux/kthread.h>
+#include <robux/slab.h>
+#include <robux/completion.h>
 
 #include <drm/drm_print.h>
 #include <drm/gpu_scheduler.h>

@@ -8,8 +8,8 @@
 #ifndef _AD7879_H_
 #define _AD7879_H_
 
-#include <linux/pm.h>
-#include <linux/types.h>
+#include <robux/pm.h>
+#include <robux/types.h>
 
 struct attribute_group;
 struct device;

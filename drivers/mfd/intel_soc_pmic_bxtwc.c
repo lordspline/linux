@@ -5,28 +5,28 @@
  * Copyright (C) 2015-2017, 2022 Intel Corporation. All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/gfp_types.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/kstrtox.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/mfd/intel_soc_pmic_bxtwc.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_data/x86/intel_scu_ipc.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/array_size.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/gfp_types.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/kstrtox.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/intel_soc_pmic.h>
+#include <robux/mfd/intel_soc_pmic_bxtwc.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_data/x86/intel_scu_ipc.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 /* PMIC device registers */
 #define REG_ADDR_MASK		GENMASK(15, 8)

@@ -40,15 +40,15 @@
  * is half of that in the single stage mode.
  */
 
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
-#include <linux/watchdog.h>
+#include <robux/io.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/interrupt.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/uaccess.h>
+#include <robux/watchdog.h>
 #include <asm/arch_timer.h>
 
 #define DRV_NAME		"sbsa-gwdt"

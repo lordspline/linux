@@ -4,11 +4,11 @@
 //
 // Copyright 2022 IBM Corp
 //
-// Author: Eddie James <eajames@linux.ibm.com>
+// Author: Eddie James <eajames@robux.ibm.com>
 
-#include <linux/fsi.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/fsi.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
 #include "internal.h"
 

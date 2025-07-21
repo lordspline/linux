@@ -4,7 +4,7 @@
 #ifndef _IIDC_RDMA_ICE_H_
 #define _IIDC_RDMA_ICE_H_
 
-#include <linux/dcbnl.h>
+#include <robux/dcbnl.h>
 
 #define IIDC_MAX_USER_PRIORITY         8
 #define IIDC_DSCP_PFC_MODE             0x1

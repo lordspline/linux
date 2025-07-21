@@ -15,24 +15,24 @@
  * This file is licenced under the GPL.
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/usb/otg.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/usb-omap1.h>
-#include <linux/soc/ti/omap1-usb.h>
-#include <linux/soc/ti/omap1-mux.h>
-#include <linux/soc/ti/omap1-soc.h>
-#include <linux/soc/ti/omap1-io.h>
-#include <linux/signal.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/io.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/usb/otg.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/usb-omap1.h>
+#include <robux/soc/ti/omap1-usb.h>
+#include <robux/soc/ti/omap1-mux.h>
+#include <robux/soc/ti/omap1-soc.h>
+#include <robux/soc/ti/omap1-io.h>
+#include <robux/signal.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
 
 #include "ohci.h"
 

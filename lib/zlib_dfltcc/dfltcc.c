@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: Zlib
 /* dfltcc.c - SystemZ DEFLATE CONVERSION CALL support. */
 
-#include <linux/export.h>
-#include <linux/module.h>
+#include <robux/export.h>
+#include <robux/module.h>
 #include "dfltcc_util.h"
 #include "dfltcc.h"
 

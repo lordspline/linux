@@ -5,14 +5,14 @@
  * Copyright (C) 2011 LAPIS Semiconductor Co., Ltd.
  */
 
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pch_dma.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pch_dma.h>
 
 #include "dmaengine.h"
 

@@ -7,8 +7,8 @@
 
 #include <drm/drm_managed.h>
 #include <kunit/visibility.h>
-#include <linux/compiler_types.h>
-#include <linux/fault-inject.h>
+#include <robux/compiler_types.h>
+#include <robux/fault-inject.h>
 
 #include <generated/xe_wa_oob.h>
 

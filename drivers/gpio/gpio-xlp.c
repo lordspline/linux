@@ -4,13 +4,13 @@
  * All Rights Reserved
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/acpi.h>
+#include <robux/gpio/driver.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/acpi.h>
 
 /*
  * XLP GPIO has multiple 32 bit registers for each feature where each register

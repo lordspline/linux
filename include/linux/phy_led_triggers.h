@@ -8,8 +8,8 @@ struct phy_device;
 
 #ifdef CONFIG_LED_TRIGGER_PHY
 
-#include <linux/leds.h>
-#include <linux/phy.h>
+#include <robux/leds.h>
+#include <robux/phy.h>
 
 #define PHY_LED_TRIGGER_SPEED_SUFFIX_SIZE	11
 

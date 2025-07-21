@@ -9,23 +9,23 @@
  * (C) 1999		David A. Hinds
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/major.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/device.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/major.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/timer.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/device.h>
+#include <robux/kthread.h>
+#include <robux/freezer.h>
 #include <asm/irq.h>
 
 #include <pcmcia/ss.h>
@@ -38,7 +38,7 @@
 /* Module parameters */
 
 MODULE_AUTHOR("David Hinds <dahinds@users.sourceforge.net>");
-MODULE_DESCRIPTION("Linux Kernel Card Services");
+MODULE_DESCRIPTION("Robux Kernel Card Services");
 MODULE_LICENSE("GPL");
 
 #define INT_MODULE_PARM(n, v) static int n = v; module_param(n, int, 0444)

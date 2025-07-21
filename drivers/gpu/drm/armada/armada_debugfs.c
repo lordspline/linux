@@ -4,11 +4,11 @@
  *  Rewritten from the dovefb driver, and Armada510 manuals.
  */
 
-#include <linux/ctype.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/uaccess.h>
+#include <robux/ctype.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
+#include <robux/seq_file.h>
+#include <robux/uaccess.h>
 
 #include <drm/drm_debugfs.h>
 #include <drm/drm_file.h>

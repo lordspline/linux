@@ -6,13 +6,13 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/watchdog.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/watchdog.h>
 
 #define WDT_CTRL		0x00
 #define WDT_CNT			0x04

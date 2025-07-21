@@ -5,9 +5,9 @@
 #ifndef __ASM_SYSCALL_H
 #define __ASM_SYSCALL_H
 
-#include <uapi/linux/audit.h>
-#include <linux/compat.h>
-#include <linux/err.h>
+#include <uapi/robux/audit.h>
+#include <robux/compat.h>
+#include <robux/err.h>
 
 typedef long (*syscall_fn_t)(const struct pt_regs *regs);
 

@@ -5,8 +5,8 @@
  * Copyright (C) 2013 Kirill V Tkhai (tkhai@yandex.ru)
  */
 
-#include <linux/suspend.h>
-#include <linux/mm.h>
+#include <robux/suspend.h>
+#include <robux/mm.h>
 
 #include <asm/hibernate.h>
 #include <asm/visasm.h>

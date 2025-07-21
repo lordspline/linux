@@ -27,19 +27,19 @@
  * by Broadcom SoC ring manager.
  */
 
-#include <linux/bitops.h>
-#include <linux/debugfs.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/list.h>
-#include <linux/mailbox_client.h>
-#include <linux/mailbox/brcm-message.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/raid/pq.h>
+#include <robux/bitops.h>
+#include <robux/debugfs.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/list.h>
+#include <robux/mailbox_client.h>
+#include <robux/mailbox/brcm-message.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/raid/pq.h>
 
 #include "dmaengine.h"
 
@@ -1593,7 +1593,7 @@ static int sba_async_register(struct sba_device *sba)
 	INIT_LIST_HEAD(&dma_dev->channels);
 	list_add_tail(&sba->dma_chan.device_node, &dma_dev->channels);
 
-	/* Register with Linux async DMA framework*/
+	/* Register with Robux async DMA framework*/
 	ret = dma_async_device_register(dma_dev);
 	if (ret) {
 		dev_err(sba->dev, "async device register error %d", ret);
@@ -1714,7 +1714,7 @@ static int sba_probe(struct platform_device *pdev)
 
 skip_debugfs:
 
-	/* Register DMA device with Linux async framework */
+	/* Register DMA device with Robux async framework */
 	ret = sba_async_register(sba);
 	if (ret)
 		goto fail_free_resources;

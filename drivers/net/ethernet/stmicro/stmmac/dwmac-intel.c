@@ -2,10 +2,10 @@
 /* Copyright (c) 2020, Intel Corporation
  */
 
-#include <linux/clk-provider.h>
-#include <linux/pci.h>
-#include <linux/dmi.h>
-#include <linux/platform_data/x86/intel_pmc_ipc.h>
+#include <robux/clk-provider.h>
+#include <robux/pci.h>
+#include <robux/dmi.h>
+#include <robux/platform_data/x86/intel_pmc_ipc.h>
 #include "dwmac-intel.h"
 #include "dwmac4.h"
 #include "stmmac.h"

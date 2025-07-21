@@ -13,14 +13,14 @@
  * Copyright (c) 2010-2015 Allwinner Technology Co., Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
 
 /* Interface Status and Control Registers */
 #define SUNXI_ISCR			0x00

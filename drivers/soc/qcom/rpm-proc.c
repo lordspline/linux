@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2021-2023, Stephan Gerhold <stephan@gerhold.net> */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/rpmsg/qcom_smd.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/rpmsg/qcom_smd.h>
 
 static int rpm_proc_probe(struct platform_device *pdev)
 {

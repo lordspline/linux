@@ -3,13 +3,13 @@
  * Copyright (C) 2015 Masahiro Yamada <yamada.masahiro@socionext.com>
  */
 
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/iopoll.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/i2c.h>
+#include <robux/iopoll.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #define UNIPHIER_FI2C_CR	0x00	/* control register */
 #define     UNIPHIER_FI2C_CR_MST	BIT(3)	/* controller mode */

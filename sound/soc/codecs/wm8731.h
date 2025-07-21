@@ -12,9 +12,9 @@
 #ifndef _WM8731_H
 #define _WM8731_H
 
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 struct clk;
 struct snd_pcm_hw_constraint_list;

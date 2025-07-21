@@ -15,11 +15,11 @@
  * handling of PCC OpRegion in the firmware.
  *
  */
-#include <linux/kernel.h>
-#include <linux/acpi.h>
-#include <linux/completion.h>
-#include <linux/idr.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/acpi.h>
+#include <robux/completion.h>
+#include <robux/idr.h>
+#include <robux/io.h>
 
 #include <acpi/pcc.h>
 

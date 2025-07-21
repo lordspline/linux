@@ -8,8 +8,8 @@
 #ifndef _AD714X_H_
 #define _AD714X_H_
 
-#include <linux/pm.h>
-#include <linux/types.h>
+#include <robux/pm.h>
+#include <robux/types.h>
 
 #define STAGE_NUM              12
 

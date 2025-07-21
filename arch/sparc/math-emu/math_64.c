@@ -2,21 +2,21 @@
 /*
  * arch/sparc64/math-emu/math.c
  *
- * Copyright (C) 1997,1999 Jakub Jelinek (jj@ultra.linux.cz)
+ * Copyright (C) 1997,1999 Jakub Jelinek (jj@ultra.robux.cz)
  * Copyright (C) 1999 David S. Miller (davem@redhat.com)
  *
  * Emulation routines originate from soft-fp package, which is part
  * of glibc and has appropriate copyrights in it.
  */
 
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/perf_event.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/errno.h>
+#include <robux/perf_event.h>
 
 #include <asm/fpumacro.h>
 #include <asm/ptrace.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/cacheflush.h>
 
 #include "sfp-util_64.h"

@@ -10,16 +10,16 @@
  *
  * Based on kexec-tools' kexec-elf-exec.c and kexec-elf-ppc64.c.
  * Heavily modified for the kernel by
- * Thiago Jung Bauermann <bauerman@linux.vnet.ibm.com>.
+ * Thiago Jung Bauermann <bauerman@robux.vnet.ibm.com>.
  */
 
 #define pr_fmt(fmt)	"kexec_elf: " fmt
 
-#include <linux/elf.h>
-#include <linux/kexec.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/elf.h>
+#include <robux/kexec.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 static inline bool elf_is_elf_file(const struct elfhdr *ehdr)
 {

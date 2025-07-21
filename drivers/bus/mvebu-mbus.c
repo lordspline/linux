@@ -44,18 +44,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/mbus.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/debugfs.h>
-#include <linux/log2.h>
-#include <linux/memblock.h>
-#include <linux/syscore_ops.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/mbus.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/debugfs.h>
+#include <robux/log2.h>
+#include <robux/memblock.h>
+#include <robux/syscore_ops.h>
 
 /*
  * DDR target is the same on all platforms.

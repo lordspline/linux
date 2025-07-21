@@ -18,8 +18,8 @@
 
 #define MODULE_NAME "sq905c"
 
-#include <linux/workqueue.h>
-#include <linux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/slab.h>
 #include "gspca.h"
 
 MODULE_AUTHOR("Theodore Kilgore <kilgota@auburn.edu>");

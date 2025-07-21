@@ -7,21 +7,21 @@
  * Author: Miquel Raynal <miquel.raynal@bootlin.com>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/nand.h>
-#include <linux/mtd/nand-ecc-mxic.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/nand.h>
+#include <robux/mtd/nand-ecc-mxic.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 /* DPE Configuration */
 #define DP_CONFIG 0x00

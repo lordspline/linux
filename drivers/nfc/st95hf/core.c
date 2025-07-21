@@ -6,18 +6,18 @@
  * Copyright (C) 2015 STMicroelectronics Pvt. Ltd. All rights reserved.
  */
 
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/nfc.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/wait.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/nfc.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/wait.h>
 #include <net/nfc/digital.h>
 #include <net/nfc/nfc.h>
 

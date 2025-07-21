@@ -5,15 +5,15 @@
  * Copyright (C) 2008 Johannes Weiner <hannes@saeurebad.de>
  */
 
-#include <linux/blkdev.h>
-#include <linux/cma.h>
-#include <linux/cpuset.h>
-#include <linux/highmem.h>
-#include <linux/hugetlb.h>
-#include <linux/mm.h>
-#include <linux/mmzone.h>
-#include <linux/swap.h>
-#include <linux/vmstat.h>
+#include <robux/blkdev.h>
+#include <robux/cma.h>
+#include <robux/cpuset.h>
+#include <robux/highmem.h>
+#include <robux/hugetlb.h>
+#include <robux/mm.h>
+#include <robux/mmzone.h>
+#include <robux/swap.h>
+#include <robux/vmstat.h>
 
 #include "internal.h"
 #include "swap.h"

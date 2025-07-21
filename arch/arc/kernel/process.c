@@ -5,20 +5,20 @@
  * Amit Bhor, Kanika Nema: Codito Technologies 2004
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/sched/task.h>
+#include <robux/sched/task_stack.h>
 
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
-#include <linux/elf.h>
-#include <linux/tick.h>
+#include <robux/mm.h>
+#include <robux/fs.h>
+#include <robux/unistd.h>
+#include <robux/ptrace.h>
+#include <robux/slab.h>
+#include <robux/syscalls.h>
+#include <robux/elf.h>
+#include <robux/tick.h>
 
 #include <asm/fpu.h>
 

@@ -5,11 +5,11 @@
 #ifndef __PANFROST_DEVICE_H__
 #define __PANFROST_DEVICE_H__
 
-#include <linux/atomic.h>
-#include <linux/io-pgtable.h>
-#include <linux/pm.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spinlock.h>
+#include <robux/atomic.h>
+#include <robux/io-pgtable.h>
+#include <robux/pm.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spinlock.h>
 #include <drm/drm_device.h>
 #include <drm/drm_mm.h>
 #include <drm/gpu_scheduler.h>

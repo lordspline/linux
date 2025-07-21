@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0 or MIT
 /* Copyright 2023 Collabora ltd. */
 
-#include <linux/iosys-map.h>
-#include <linux/rwsem.h>
+#include <robux/iosys-map.h>
+#include <robux/rwsem.h>
 
 #include <drm/panthor_drm.h>
 

@@ -3,9 +3,9 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/time.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/time.h>
 #include <sound/core.h>
 #include <sound/gus.h>
 

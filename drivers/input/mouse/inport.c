@@ -10,14 +10,14 @@
  */
 
 /*
- * Inport (ATI XL and Microsoft) busmouse driver for Linux
+ * Inport (ATI XL and Microsoft) busmouse driver for Robux
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>

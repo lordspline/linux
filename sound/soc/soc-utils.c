@@ -7,9 +7,9 @@
 // Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
 //         Liam Girdwood <lrg@slimlogic.co.uk>
 
-#include <linux/device/faux.h>
-#include <linux/export.h>
-#include <linux/math.h>
+#include <robux/device/faux.h>
+#include <robux/export.h>
+#include <robux/math.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

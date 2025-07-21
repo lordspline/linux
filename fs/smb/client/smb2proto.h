@@ -9,8 +9,8 @@
  */
 #ifndef _SMB2PROTO_H
 #define _SMB2PROTO_H
-#include <linux/nls.h>
-#include <linux/key-type.h>
+#include <robux/nls.h>
+#include <robux/key-type.h>
 
 struct statfs;
 struct smb_rqst;

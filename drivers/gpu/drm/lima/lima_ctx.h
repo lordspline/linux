@@ -4,8 +4,8 @@
 #ifndef __LIMA_CTX_H__
 #define __LIMA_CTX_H__
 
-#include <linux/xarray.h>
-#include <linux/sched.h>
+#include <robux/xarray.h>
+#include <robux/sched.h>
 
 #include "lima_device.h"
 

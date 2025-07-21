@@ -18,10 +18,10 @@
  * (c) Mellanox Technologies, 2016
  */
 
-#include <linux/types.h>
-#include <linux/rcupdate.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <robux/types.h>
+#include <robux/rcupdate.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
 
 #include "ibpkey.h"
 #include "objsec.h"

@@ -14,25 +14,25 @@
  * Copyright (C) 1999 MIPS Technologies, Inc.
  * Copyright (C) 2000 Ulf Carlsson
  */
-#include <linux/kernel.h>
-#include <linux/audit.h>
-#include <linux/compiler.h>
-#include <linux/context_tracking.h>
-#include <linux/elf.h>
-#include <linux/errno.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/mm.h>
-#include <linux/nospec.h>
-#include <linux/ptrace.h>
-#include <linux/regset.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/security.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/seccomp.h>
-#include <linux/thread_info.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/audit.h>
+#include <robux/compiler.h>
+#include <robux/context_tracking.h>
+#include <robux/elf.h>
+#include <robux/errno.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/mm.h>
+#include <robux/nospec.h>
+#include <robux/ptrace.h>
+#include <robux/regset.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/security.h>
+#include <robux/smp.h>
+#include <robux/stddef.h>
+#include <robux/seccomp.h>
+#include <robux/thread_info.h>
+#include <robux/uaccess.h>
 
 #include <asm/byteorder.h>
 #include <asm/cpu.h>

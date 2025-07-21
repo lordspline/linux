@@ -7,13 +7,13 @@
  * Author: Chunfeng Yun <chunfeng.yun@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/regmap.h>
 
 #include "mtu3.h"
 #include "mtu3_dr.h"

@@ -9,22 +9,22 @@
  * Copyright 2012 Javier Martin, Vista Silicon <javier.martin@vista-silicon.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/irqchip/irq-renesas-rzv2h.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/bitfield.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/irqchip/irq-renesas-rzv2h.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
 #include "../dmaengine.h"
 #include "../virt-dma.h"

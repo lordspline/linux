@@ -3,18 +3,18 @@
  * Copyright (C) 2024 Canaan Bright Sight Co. Ltd
  * Copyright (C) 2024 Ze Huang <18771902331@163.com>
  */
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/regmap.h>
+#include <robux/seq_file.h>
 
 #include "core.h"
 #include "pinconf.h"

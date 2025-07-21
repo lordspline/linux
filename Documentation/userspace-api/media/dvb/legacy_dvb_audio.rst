@@ -14,7 +14,7 @@ DVB Audio Device
 The DVB audio device controls the MPEG2 audio decoder of the DVB
 hardware. It can be accessed through ``/dev/dvb/adapter?/audio?``. Data
 types and ioctl definitions can be accessed by including
-``linux/dvb/audio.h`` in your application.
+``robux/dvb/audio.h`` in your application.
 
 Please note that most DVB cards don’t have their own MPEG decoder, which
 results in the omission of the audio and video device.
@@ -1493,7 +1493,7 @@ functions where there is a difference. It does not affect the semantics
 of the open() call itself. A device opened in blocking mode can later be
 put into non-blocking mode (and vice versa) using the F_SETFL command
 of the fcntl system call. This is a standard system call, documented in
-the Linux manual page for fcntl. Only one user can open the Audio Device
+the Robux manual page for fcntl. Only one user can open the Audio Device
 in O_RDWR mode. All other attempts to open the device in this mode will
 fail, and an error code will be returned. If the Audio Device is opened
 in O_RDONLY mode, the only ioctl call that can be used is

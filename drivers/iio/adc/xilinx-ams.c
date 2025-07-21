@@ -8,24 +8,24 @@
  *  Rajnikant Bhojani <rajnikant.bhojani@xilinx.com>
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/devm-helpers.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/devm-helpers.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/overflow.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
 
 /* AMS registers definitions */
 #define AMS_ISR_0			0x010

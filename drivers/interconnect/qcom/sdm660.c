@@ -5,14 +5,14 @@
  */
 
 #include <dt-bindings/interconnect/qcom,sdm660.h>
-#include <linux/device.h>
-#include <linux/interconnect-provider.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/interconnect-provider.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #include "icc-rpm.h"
 

@@ -2,14 +2,14 @@
 /*
  * Copyright (C) 2000, 2001, 2002, 2003 Broadcom Corporation
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
-#include <linux/kernel_stat.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/smp.h>
+#include <robux/mm.h>
+#include <robux/kernel_stat.h>
 
 #include <asm/errno.h>
 #include <asm/signal.h>

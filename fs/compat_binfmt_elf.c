@@ -14,8 +14,8 @@
  * functions used in binfmt_elf.c to compat versions.
  */
 
-#include <linux/elfcore-compat.h>
-#include <linux/time.h>
+#include <robux/elfcore-compat.h>
+#include <robux/time.h>
 
 #define ELF_COMPAT	1
 

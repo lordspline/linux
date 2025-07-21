@@ -30,8 +30,8 @@
  * moved to there from here.  May be used independent of
  * CONFIG_NUMA.
  */
-#include <linux/numa.h>
-#include <linux/cpumask.h>
+#include <robux/numa.h>
+#include <robux/cpumask.h>
 
 #ifdef CONFIG_NUMA
 
@@ -209,7 +209,7 @@ static inline int topology_max_smt_threads(void)
 	return __max_smt_threads;
 }
 
-#include <linux/cpu_smt.h>
+#include <robux/cpu_smt.h>
 
 extern unsigned int __amd_nodes_per_pkg;
 

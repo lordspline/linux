@@ -12,13 +12,13 @@
 
 #define pr_fmt(fmt) "riscv-iommu: " fmt
 
-#include <linux/compiler.h>
-#include <linux/crash_dump.h>
-#include <linux/init.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
+#include <robux/compiler.h>
+#include <robux/crash_dump.h>
+#include <robux/init.h>
+#include <robux/iommu.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
 
 #include "../iommu-pages.h"
 #include "iommu-bits.h"

@@ -8,10 +8,10 @@
 #ifndef __DRM_I2C_ADV7511_H__
 #define __DRM_I2C_ADV7511_H__
 
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/hdmi.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 #include <drm/drm_bridge.h>
 #include <drm/drm_connector.h>

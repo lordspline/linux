@@ -10,9 +10,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
 
 #include <media/dvb_frontend.h>
 

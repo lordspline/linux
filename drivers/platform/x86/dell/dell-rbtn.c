@@ -5,10 +5,10 @@
 
 */
 
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/rfkill.h>
-#include <linux/input.h>
+#include <robux/module.h>
+#include <robux/acpi.h>
+#include <robux/rfkill.h>
+#include <robux/input.h>
 
 #include "dell-rbtn.h"
 

@@ -3,20 +3,20 @@
 // Copyright (c) 2011-2014 Samsung Electronics Co., Ltd
 //              http://www.samsung.com
 
-#include <linux/array_size.h>
-#include <linux/build_bug.h>
-#include <linux/dev_printk.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/mfd/samsung/core.h>
-#include <linux/mfd/samsung/irq.h>
-#include <linux/mfd/samsung/s2mpg10.h>
-#include <linux/mfd/samsung/s2mps11.h>
-#include <linux/mfd/samsung/s2mps14.h>
-#include <linux/mfd/samsung/s2mpu02.h>
-#include <linux/mfd/samsung/s2mpu05.h>
-#include <linux/mfd/samsung/s5m8767.h>
-#include <linux/regmap.h>
+#include <robux/array_size.h>
+#include <robux/build_bug.h>
+#include <robux/dev_printk.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/mfd/samsung/core.h>
+#include <robux/mfd/samsung/irq.h>
+#include <robux/mfd/samsung/s2mpg10.h>
+#include <robux/mfd/samsung/s2mps11.h>
+#include <robux/mfd/samsung/s2mps14.h>
+#include <robux/mfd/samsung/s2mpu02.h>
+#include <robux/mfd/samsung/s2mpu05.h>
+#include <robux/mfd/samsung/s5m8767.h>
+#include <robux/regmap.h>
 #include "sec-core.h"
 
 static const struct regmap_irq s2mpg10_irqs[] = {

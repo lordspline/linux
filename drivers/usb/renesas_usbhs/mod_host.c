@@ -5,13 +5,13 @@
  * Copyright (C) 2011 Renesas Solutions Corp.
  * Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
  */
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <robux/io.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
 #include "common.h"
 
 /*

@@ -3,16 +3,16 @@
  * Copyright (C) 2024 Amlogic, Inc. All rights reserved
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/property.h>
-#include <linux/of.h>
-#include <linux/serdev.h>
-#include <linux/clk.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/property.h>
+#include <robux/of.h>
+#include <robux/serdev.h>
+#include <robux/clk.h>
+#include <robux/firmware.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regulator/consumer.h>
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>
 #include <net/bluetooth/hci.h>

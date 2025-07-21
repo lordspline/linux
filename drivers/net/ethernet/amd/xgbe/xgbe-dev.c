@@ -5,13 +5,13 @@
  * All rights reserved
  */
 
-#include <linux/phy.h>
-#include <linux/mdio.h>
-#include <linux/clk.h>
-#include <linux/bitrev.h>
-#include <linux/crc32.h>
-#include <linux/crc32poly.h>
-#include <linux/pci.h>
+#include <robux/phy.h>
+#include <robux/mdio.h>
+#include <robux/clk.h>
+#include <robux/bitrev.h>
+#include <robux/crc32.h>
+#include <robux/crc32poly.h>
+#include <robux/pci.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

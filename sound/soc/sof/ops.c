@@ -5,10 +5,10 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Author: Liam Girdwood <liam.r.girdwood@linux.intel.com>
+// Author: Liam Girdwood <liam.r.girdwood@robux.intel.com>
 //
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 #include "ops.h"
 
 static

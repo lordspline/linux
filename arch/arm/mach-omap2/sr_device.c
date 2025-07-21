@@ -14,11 +14,11 @@
  * Copyright (C) 2007 Texas Instruments, Inc.
  * Lesly A M <x0080970@ti.com>
  */
-#include <linux/power/smartreflex.h>
+#include <robux/power/smartreflex.h>
 
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/io.h>
 
 #include "soc.h"
 #include "omap_device.h"

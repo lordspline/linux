@@ -6,14 +6,14 @@
  * Authors: Nicolas Belin <nbelin@baylibre.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/dev_printk.h>
-#include <linux/err.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/dev_printk.h>
+#include <robux/err.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
 #include <sound/soc.h>
 #include <sound/pcm_params.h>

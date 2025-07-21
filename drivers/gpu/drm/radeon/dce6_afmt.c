@@ -20,7 +20,7 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-#include <linux/hdmi.h>
+#include <robux/hdmi.h>
 #include <drm/drm_edid.h>
 
 #include "dce6_afmt.h"

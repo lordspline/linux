@@ -10,11 +10,11 @@
 #ifndef _AXI_DMA_PLATFORM_H
 #define _AXI_DMA_PLATFORM_H
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/dmaengine.h>
+#include <robux/types.h>
 
 #include "../virt-dma.h"
 

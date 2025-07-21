@@ -9,9 +9,9 @@
 #ifndef __IPMI_SI_H__
 #define __IPMI_SI_H__
 
-#include <linux/ipmi.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <robux/ipmi.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
 
 #define SI_DEVICE_NAME "ipmi_si"
 

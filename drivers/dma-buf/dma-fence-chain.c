@@ -7,7 +7,7 @@
  *	Christian König <christian.koenig@amd.com>
  */
 
-#include <linux/dma-fence-chain.h>
+#include <robux/dma-fence-chain.h>
 
 static bool dma_fence_chain_enable_signaling(struct dma_fence *fence);
 

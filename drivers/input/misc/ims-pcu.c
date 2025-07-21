@@ -5,19 +5,19 @@
  * Copyright (C) 2013 The IMS Company
  */
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/ihex.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/usb/input.h>
-#include <linux/usb/cdc.h>
-#include <linux/unaligned.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/ihex.h>
+#include <robux/input.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/usb/input.h>
+#include <robux/usb/cdc.h>
+#include <robux/unaligned.h>
 
 #define IMS_PCU_KEYMAP_LEN		32
 

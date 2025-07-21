@@ -6,11 +6,11 @@
  *   Modified for the ALSA driver by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/errno.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/errno.h>
 #include <sound/core.h>
 #include <sound/i2c.h>
 

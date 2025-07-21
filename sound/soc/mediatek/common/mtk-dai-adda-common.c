@@ -7,8 +7,8 @@
  *         AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
  */
 
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
+#include <robux/delay.h>
+#include <robux/dev_printk.h>
 
 #include "mtk-base-afe.h"
 #include "mtk-dai-adda-common.h"

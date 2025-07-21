@@ -10,15 +10,15 @@
  * Tomasz Figa <t.figa@samsung.com>
  */
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/media-bus-format.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/media-bus-format.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
 
 #include <video/mipi_display.h>
 

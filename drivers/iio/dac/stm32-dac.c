@@ -7,17 +7,17 @@
  *	    Fabrice Gasnier <fabrice.gasnier@st.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/string_choices.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/iio/iio.h>
+#include <robux/kernel.h>
+#include <robux/kstrtox.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/string_choices.h>
 
 #include "stm32-dac-core.h"
 

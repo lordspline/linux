@@ -11,8 +11,8 @@
 #define XZ_H
 
 #ifdef __KERNEL__
-#	include <linux/stddef.h>
-#	include <linux/types.h>
+#	include <robux/stddef.h>
+#	include <robux/types.h>
 #else
 #	include <stddef.h>
 #	include <stdint.h>

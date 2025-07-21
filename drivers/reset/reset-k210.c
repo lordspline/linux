@@ -2,12 +2,12 @@
 /*
  * Copyright (c) 2020 Western Digital Corporation or its affiliates.
  */
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/delay.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
+#include <robux/delay.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 #include <soc/canaan/k210-sysctl.h>
 
 #include <dt-bindings/reset/k210-rst.h>

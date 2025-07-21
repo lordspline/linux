@@ -4,11 +4,11 @@
  * All rights reserved.
  */
 
-#include <linux/irq.h>
-#include <linux/kthread.h>
-#include <linux/firmware.h>
-#include <linux/netdevice.h>
-#include <linux/inetdevice.h>
+#include <robux/irq.h>
+#include <robux/kthread.h>
+#include <robux/firmware.h>
+#include <robux/netdevice.h>
+#include <robux/inetdevice.h>
 
 #include "cfg80211.h"
 #include "wlan_cfg.h"

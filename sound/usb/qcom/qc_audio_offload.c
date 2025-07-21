@@ -3,22 +3,22 @@
  * Copyright (c) 2022-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/ctype.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma-map-ops.h>
-#include <linux/init.h>
-#include <linux/iommu.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/soc/qcom/qmi.h>
-#include <linux/usb.h>
-#include <linux/usb/audio.h>
-#include <linux/usb/audio-v2.h>
-#include <linux/usb/audio-v3.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/quirks.h>
-#include <linux/usb/xhci-sideband.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/ctype.h>
+#include <robux/dma-mapping.h>
+#include <robux/dma-map-ops.h>
+#include <robux/init.h>
+#include <robux/iommu.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/soc/qcom/qmi.h>
+#include <robux/usb.h>
+#include <robux/usb/audio.h>
+#include <robux/usb/audio-v2.h>
+#include <robux/usb/audio-v3.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/quirks.h>
+#include <robux/usb/xhci-sideband.h>
 
 #include <sound/control.h>
 #include <sound/core.h>

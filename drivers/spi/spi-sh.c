@@ -8,18 +8,18 @@
  * Copyright (C) 2005 Stephen Street / StreetFire Sound Labs
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/workqueue.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/errno.h>
+#include <robux/timer.h>
+#include <robux/delay.h>
+#include <robux/list.h>
+#include <robux/workqueue.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/spi/spi.h>
 
 #define SPI_SH_TBR		0x00
 #define SPI_SH_RBR		0x00

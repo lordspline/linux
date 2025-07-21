@@ -9,17 +9,17 @@ endif
 
 CLANG := $(LLVM_PREFIX)clang$(LLVM_SUFFIX)
 
-CLANG_TARGET_FLAGS_arm          := arm-linux-gnueabi
-CLANG_TARGET_FLAGS_arm64        := aarch64-linux-gnu
-CLANG_TARGET_FLAGS_hexagon      := hexagon-linux-musl
-CLANG_TARGET_FLAGS_i386         := i386-linux-gnu
-CLANG_TARGET_FLAGS_m68k         := m68k-linux-gnu
-CLANG_TARGET_FLAGS_mips         := mipsel-linux-gnu
-CLANG_TARGET_FLAGS_powerpc      := powerpc64le-linux-gnu
-CLANG_TARGET_FLAGS_riscv        := riscv64-linux-gnu
-CLANG_TARGET_FLAGS_s390         := s390x-linux-gnu
-CLANG_TARGET_FLAGS_x86          := x86_64-linux-gnu
-CLANG_TARGET_FLAGS_x86_64       := x86_64-linux-gnu
+CLANG_TARGET_FLAGS_arm          := arm-robux-gnueabi
+CLANG_TARGET_FLAGS_arm64        := aarch64-robux-gnu
+CLANG_TARGET_FLAGS_hexagon      := hexagon-robux-musl
+CLANG_TARGET_FLAGS_i386         := i386-robux-gnu
+CLANG_TARGET_FLAGS_m68k         := m68k-robux-gnu
+CLANG_TARGET_FLAGS_mips         := mipsel-robux-gnu
+CLANG_TARGET_FLAGS_powerpc      := powerpc64le-robux-gnu
+CLANG_TARGET_FLAGS_riscv        := riscv64-robux-gnu
+CLANG_TARGET_FLAGS_s390         := s390x-robux-gnu
+CLANG_TARGET_FLAGS_x86          := x86_64-robux-gnu
+CLANG_TARGET_FLAGS_x86_64       := x86_64-robux-gnu
 
 # Default to host architecture if ARCH is not explicitly given.
 ifeq ($(ARCH),)

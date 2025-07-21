@@ -4,16 +4,16 @@
  * This is based largely upon arch/x86/crypto/crc32c-intel.c
  *
  * Copyright (C) 2008 Intel Corporation
- * Authors: Austin Zhang <austin_zhang@linux.intel.com>
+ * Authors: Austin Zhang <austin_zhang@robux.intel.com>
  *          Kent Liu <kent.liu@intel.com>
  */
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/crc32.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/crc32.h>
 #include <asm/pstate.h>
 #include <asm/elf.h>
 

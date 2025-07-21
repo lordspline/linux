@@ -9,13 +9,13 @@
  * Author: Beomho Seo <beomho.seo@samsung.com>
  */
 
-#include <linux/err.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/rt5033.h>
-#include <linux/mfd/rt5033-private.h>
+#include <robux/err.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/rt5033.h>
+#include <robux/mfd/rt5033-private.h>
 
 static const struct regmap_irq rt5033_irqs[] = {
 	{ .mask = RT5033_PMIC_IRQ_BUCKOCP, },

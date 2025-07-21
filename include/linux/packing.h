@@ -5,8 +5,8 @@
 #ifndef _LINUX_PACKING_H
 #define _LINUX_PACKING_H
 
-#include <linux/types.h>
-#include <linux/bitops.h>
+#include <robux/types.h>
+#include <robux/bitops.h>
 
 #define GEN_PACKED_FIELD_STRUCT(__type) \
 	struct packed_field_ ## __type { \

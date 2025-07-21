@@ -7,13 +7,13 @@
 #ifndef __iwl_trans_int_pcie_h__
 #define __iwl_trans_int_pcie_h__
 
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/skbuff.h>
-#include <linux/wait.h>
-#include <linux/pci.h>
-#include <linux/timer.h>
-#include <linux/cpu.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/skbuff.h>
+#include <robux/wait.h>
+#include <robux/pci.h>
+#include <robux/timer.h>
+#include <robux/cpu.h>
 
 #include "iwl-fh.h"
 #include "iwl-csr.h"

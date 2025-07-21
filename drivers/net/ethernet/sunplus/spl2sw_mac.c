@@ -3,10 +3,10 @@
  *       All rights reserved.
  */
 
-#include <linux/platform_device.h>
-#include <linux/netdevice.h>
-#include <linux/bitfield.h>
-#include <linux/of_mdio.h>
+#include <robux/platform_device.h>
+#include <robux/netdevice.h>
+#include <robux/bitfield.h>
+#include <robux/of_mdio.h>
 
 #include "spl2sw_register.h"
 #include "spl2sw_define.h"

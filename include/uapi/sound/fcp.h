@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Focusrite Control Protocol Driver for ALSA
  *
@@ -55,8 +55,8 @@
 #ifndef __UAPI_SOUND_FCP_H
 #define __UAPI_SOUND_FCP_H
 
-#include <linux/types.h>
-#include <linux/ioctl.h>
+#include <robux/types.h>
+#include <robux/ioctl.h>
 
 #define FCP_HWDEP_MAJOR 2
 #define FCP_HWDEP_MINOR 0

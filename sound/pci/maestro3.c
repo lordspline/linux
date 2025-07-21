@@ -16,17 +16,17 @@
 #define CARD_NAME "ESS Maestro3/Allegro/Canyon3D-2"
 #define DRIVER_NAME "Maestro3"
 
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/input.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/firmware.h>
+#include <robux/input.h>
 #include <sound/core.h>
 #include <sound/info.h>
 #include <sound/control.h>

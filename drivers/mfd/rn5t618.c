@@ -6,17 +6,17 @@
  * Copyright (C) 2016 Toradex AG
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/rn5t618.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/rn5t618.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
 
 static const struct mfd_cell rn5t618_cells[] = {
 	{ .name = "rn5t618-regulator" },

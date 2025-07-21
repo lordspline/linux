@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
+#include <robux/kernel.h>
+#include <robux/ethtool.h>
+#include <robux/netdevice.h>
 
 #include "ipoib.h"
 

@@ -8,22 +8,22 @@
  * the Free Software Foundation.
  */
 
-#include <linux/bitops.h>
-#include <linux/ctype.h>
-#include <linux/stringify.h>
-#include <linux/ethtool.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/linkmode.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/etherdevice.h>
-#include <linux/crc32.h>
-#include <linux/firmware.h>
-#include <linux/utsname.h>
-#include <linux/time.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/net_tstamp.h>
-#include <linux/timecounter.h>
+#include <robux/bitops.h>
+#include <robux/ctype.h>
+#include <robux/stringify.h>
+#include <robux/ethtool.h>
+#include <robux/ethtool_netlink.h>
+#include <robux/linkmode.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/etherdevice.h>
+#include <robux/crc32.h>
+#include <robux/firmware.h>
+#include <robux/utsname.h>
+#include <robux/time.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/net_tstamp.h>
+#include <robux/timecounter.h>
 #include <net/netdev_queues.h>
 #include <net/netlink.h>
 #include "bnxt_hsi.h"
@@ -2441,7 +2441,7 @@ bnxt_get_link_mode(struct bnxt_link_info *link_info)
 	if (sig_mode >= BNXT_SIG_MODE_MAX)
 		return BNXT_LINK_MODE_UNKNOWN;
 
-	/* Note ETHTOOL_LINK_MODE_10baseT_Half_BIT == 0 is a legal Linux
+	/* Note ETHTOOL_LINK_MODE_10baseT_Half_BIT == 0 is a legal Robux
 	 * link mode, but since no such devices exist, the zeroes in the
 	 * map can be conveniently used to represent unknown link modes.
 	 */

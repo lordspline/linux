@@ -4,7 +4,7 @@
  * Copyright (C) 2024 Joachim Vandersmissen <git@jvdsn.com>
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 #include "selftest.h"
 
 /*

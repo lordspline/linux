@@ -20,34 +20,34 @@
  Qua Jun 27 15:02:26 BRT 2001
  * [27-JUN-2001] Arnaldo Carvalho de Melo <acme@conectiva.com.br> - cleanups
  *
- * Parts (C) 1999 David Airlie, airlied@linux.ie
+ * Parts (C) 1999 David Airlie, airlied@robux.ie
  * [07-SEP-99] Bugfixes
  *
- * [06-Jan-2002] Russell King <rmk@arm.linux.org.uk>
+ * [06-Jan-2002] Russell King <rmk@arm.robux.org.uk>
  * Converted to new serial core
  */
 
 #undef DEBUG_DZ
 
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/major.h>
-#include <linux/module.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <robux/bitops.h>
+#include <robux/compiler.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/major.h>
+#include <robux/module.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/sysrq.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
 
-#include <linux/atomic.h>
-#include <linux/io.h>
+#include <robux/atomic.h>
+#include <robux/io.h>
 #include <asm/bootinfo.h>
 
 #include <asm/dec/interrupts.h>

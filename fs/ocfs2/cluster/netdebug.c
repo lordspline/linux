@@ -9,15 +9,15 @@
 
 #ifdef CONFIG_DEBUG_FS
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/kref.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/idr.h>
+#include <robux/kref.h>
+#include <robux/seq_file.h>
+#include <robux/debugfs.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "tcp.h"
 #include "nodemanager.h"

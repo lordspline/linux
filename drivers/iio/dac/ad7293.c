@@ -5,18 +5,18 @@
  * Copyright 2021 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spi/spi.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define AD7293_R1B				BIT(16)
 #define AD7293_R2B				BIT(17)

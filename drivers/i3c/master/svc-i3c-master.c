@@ -7,19 +7,19 @@
  * Based on a work from: Conor Culhane <conor.culhane@silvaco.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/errno.h>
-#include <linux/i3c/master.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/errno.h>
+#include <robux/i3c/master.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 
 /* Master Mode Registers */
 #define SVC_I3C_MCONFIG      0x000

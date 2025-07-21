@@ -10,9 +10,9 @@
  * (C) Copyright 1999-2001 Johannes Erdfelt
  */
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/debugfs.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/debugfs.h>
 #include <asm/io.h>
 
 #include "uhci-hcd.h"

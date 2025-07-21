@@ -5,21 +5,21 @@
  * /dev/nvram driver for PPC64
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/fcntl.h>
-#include <linux/nvram.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/kmsg_dump.h>
-#include <linux/pagemap.h>
-#include <linux/pstore.h>
-#include <linux/zlib.h>
-#include <linux/uaccess.h>
-#include <linux/of.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/miscdevice.h>
+#include <robux/fcntl.h>
+#include <robux/nvram.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/kmsg_dump.h>
+#include <robux/pagemap.h>
+#include <robux/pstore.h>
+#include <robux/zlib.h>
+#include <robux/uaccess.h>
+#include <robux/of.h>
 #include <asm/nvram.h>
 #include <asm/rtas.h>
 #include <asm/machdep.h>

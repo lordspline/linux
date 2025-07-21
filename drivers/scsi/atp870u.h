@@ -2,8 +2,8 @@
 #ifndef _ATP870U_H
 #define _ATP870U_H
 
-#include <linux/types.h>
-#include <linux/kdev_t.h>
+#include <robux/types.h>
+#include <robux/kdev_t.h>
 
 /* I/O Port */
 

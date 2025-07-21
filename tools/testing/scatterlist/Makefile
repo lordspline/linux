@@ -14,7 +14,7 @@ targets: include $(TARGETS)
 main: $(OFILES)
 
 clean:
-	$(RM) $(TARGETS) $(OFILES) scatterlist.c linux/scatterlist.h linux/highmem.h linux/kmemleak.h linux/slab.h asm/io.h
+	$(RM) $(TARGETS) $(OFILES) scatterlist.c robux/scatterlist.h robux/highmem.h robux/kmemleak.h robux/slab.h asm/io.h
 	@rmdir asm
 
 scatterlist.c: ../../../lib/scatterlist.c
@@ -22,11 +22,11 @@ scatterlist.c: ../../../lib/scatterlist.c
 
 .PHONY: include
 
-include: ../../../include/linux/scatterlist.h
-	@mkdir -p linux
+include: ../../../include/robux/scatterlist.h
+	@mkdir -p robux
 	@mkdir -p asm
 	@touch asm/io.h
-	@touch linux/highmem.h
-	@touch linux/kmemleak.h
-	@touch linux/slab.h
-	@cp $< linux/scatterlist.h
+	@touch robux/highmem.h
+	@touch robux/kmemleak.h
+	@touch robux/slab.h
+	@cp $< robux/scatterlist.h

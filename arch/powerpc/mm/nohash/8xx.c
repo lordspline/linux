@@ -7,8 +7,8 @@
  *  Derived from arch/powerpc/mm/40x_mmu.c:
  */
 
-#include <linux/memblock.h>
-#include <linux/hugetlb.h>
+#include <robux/memblock.h>
+#include <robux/hugetlb.h>
 
 #include <asm/fixmap.h>
 #include <asm/pgalloc.h>

@@ -4,8 +4,8 @@
  * Author: Jacob Chen <jacob-chen@iotwrt.com>
  */
 
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
+#include <robux/pm_runtime.h>
+#include <robux/scatterlist.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-device.h>

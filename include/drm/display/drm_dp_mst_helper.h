@@ -22,14 +22,14 @@
 #ifndef _DRM_DP_MST_HELPER_H_
 #define _DRM_DP_MST_HELPER_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <drm/display/drm_dp_helper.h>
 #include <drm/drm_atomic.h>
 #include <drm/drm_fixed.h>
 
 #if IS_ENABLED(CONFIG_DRM_DEBUG_DP_MST_TOPOLOGY_REFS)
-#include <linux/stackdepot.h>
-#include <linux/timekeeping.h>
+#include <robux/stackdepot.h>
+#include <robux/timekeeping.h>
 
 enum drm_dp_mst_topology_ref_type {
 	DRM_DP_MST_TOPOLOGY_REF_GET,

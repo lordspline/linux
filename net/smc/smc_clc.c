@@ -7,15 +7,15 @@
  *
  *  Copyright IBM Corp. 2016, 2018
  *
- *  Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ *  Author(s):  Ursula Braun <ubraun@robux.vnet.ibm.com>
  */
 
-#include <linux/in.h>
-#include <linux/inetdevice.h>
-#include <linux/if_ether.h>
-#include <linux/sched/signal.h>
-#include <linux/utsname.h>
-#include <linux/ctype.h>
+#include <robux/in.h>
+#include <robux/inetdevice.h>
+#include <robux/if_ether.h>
+#include <robux/sched/signal.h>
+#include <robux/utsname.h>
+#include <robux/ctype.h>
 
 #include <net/addrconf.h>
 #include <net/sock.h>

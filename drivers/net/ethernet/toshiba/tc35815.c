@@ -1,5 +1,5 @@
 /*
- * tc35815.c: A TOSHIBA TC35815CF PCI 10/100Mbps ethernet driver for linux.
+ * tc35815.c: A TOSHIBA TC35815CF PCI 10/100Mbps ethernet driver for robux.
  *
  * Based on skelton.c by Donald Becker.
  *
@@ -26,27 +26,27 @@
 static const char version[] = "tc35815.c:v" DRV_VERSION "\n";
 #define MODNAME			"tc35815"
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/if_vlan.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/phy.h>
-#include <linux/workqueue.h>
-#include <linux/platform_device.h>
-#include <linux/prefetch.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/in.h>
+#include <robux/if_vlan.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/spinlock.h>
+#include <robux/errno.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/phy.h>
+#include <robux/workqueue.h>
+#include <robux/platform_device.h>
+#include <robux/prefetch.h>
 #include <asm/io.h>
 #include <asm/byteorder.h>
 

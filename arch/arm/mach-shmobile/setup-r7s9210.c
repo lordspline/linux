@@ -7,7 +7,7 @@
  *
  */
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 #include <asm/mach/arch.h>
 

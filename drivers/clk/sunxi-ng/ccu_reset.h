@@ -6,8 +6,8 @@
 #ifndef _CCU_RESET_H_
 #define _CCU_RESET_H_
 
-#include <linux/reset-controller.h>
-#include <linux/spinlock.h>
+#include <robux/reset-controller.h>
+#include <robux/spinlock.h>
 
 struct ccu_reset_map {
 	u16	reg;

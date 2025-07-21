@@ -10,13 +10,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/rtc.h>
-#include <linux/kdev_t.h>
-#include <linux/idr.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/rtc.h>
+#include <robux/kdev_t.h>
+#include <robux/idr.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 #include "rtc-core.h"
 

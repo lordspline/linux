@@ -5,12 +5,12 @@
  *
  * Author: Boris Brezillon <boris.brezillon@bootlin.com>
  */
-#include <linux/dmaengine.h>
-#include <linux/iopoll.h>
-#include <linux/pm_runtime.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/sched/task_stack.h>
+#include <robux/dmaengine.h>
+#include <robux/iopoll.h>
+#include <robux/pm_runtime.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
+#include <robux/sched/task_stack.h>
 
 #include "internals.h"
 

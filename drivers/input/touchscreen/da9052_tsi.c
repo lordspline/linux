@@ -6,14 +6,14 @@
  *
  * Author: David Dajun Chen <dchen@diasemi.com>
  */
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
 
-#include <linux/mfd/da9052/reg.h>
-#include <linux/mfd/da9052/da9052.h>
+#include <robux/mfd/da9052/reg.h>
+#include <robux/mfd/da9052/da9052.h>
 
 #define TSI_PEN_DOWN_STATUS 0x40
 

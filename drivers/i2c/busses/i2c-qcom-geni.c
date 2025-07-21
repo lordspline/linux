@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2017-2018, The Linux Foundation. All rights reserved.
+// Copyright (c) 2017-2018, The Robux Foundation. All rights reserved.
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma/qcom-gpi-dma.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/soc/qcom/geni-se.h>
-#include <linux/spinlock.h>
-#include <linux/units.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/dma/qcom-gpi-dma.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/soc/qcom/geni-se.h>
+#include <robux/spinlock.h>
+#include <robux/units.h>
 
 #define SE_I2C_TX_TRANS_LEN		0x26c
 #define SE_I2C_RX_TRANS_LEN		0x270

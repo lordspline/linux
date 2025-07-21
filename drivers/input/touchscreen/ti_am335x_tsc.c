@@ -14,21 +14,21 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/sort.h>
-#include <linux/pm_wakeirq.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/sort.h>
+#include <robux/pm_wakeirq.h>
 
-#include <linux/mfd/ti_am335x_tscadc.h>
+#include <robux/mfd/ti_am335x_tscadc.h>
 
 #define ADCFSM_STEPID		0x10
 #define SEQ_SETTLE		275

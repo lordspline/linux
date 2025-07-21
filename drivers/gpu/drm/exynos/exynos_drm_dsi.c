@@ -7,9 +7,9 @@
  * Contacts: Tomasz Figa <t.figa@samsung.com>
  */
 
-#include <linux/component.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/component.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <drm/bridge/samsung-dsim.h>
 #include <drm/drm_probe_helper.h>

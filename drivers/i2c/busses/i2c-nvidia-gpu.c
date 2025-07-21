@@ -5,18 +5,18 @@
  * Copyright (C) 2018 NVIDIA Corporation. All rights reserved.
  * Author: Ajay Gupta <ajayg@nvidia.com>
  */
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/power_supply.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/power_supply.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "i2c-ccgx-ucsi.h"
 

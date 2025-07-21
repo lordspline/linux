@@ -6,12 +6,12 @@
  *  Tugrul Galatali <galatalt@stuy.edu>
  */
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/isa.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/isa.h>
+#include <robux/time.h>
+#include <robux/wait.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/wss.h>
 #include <sound/mpu401.h>

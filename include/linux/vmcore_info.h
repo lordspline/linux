@@ -2,9 +2,9 @@
 #ifndef LINUX_VMCORE_INFO_H
 #define LINUX_VMCORE_INFO_H
 
-#include <linux/linkage.h>
-#include <linux/elfcore.h>
-#include <linux/elf.h>
+#include <robux/linkage.h>
+#include <robux/elfcore.h>
+#include <robux/elf.h>
 
 #define CRASH_CORE_NOTE_HEAD_BYTES ALIGN(sizeof(struct elf_note), 4)
 #define CRASH_CORE_NOTE_NAME_BYTES ALIGN(sizeof(NN_PRSTATUS), 4)

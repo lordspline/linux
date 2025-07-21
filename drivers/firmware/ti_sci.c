@@ -8,27 +8,27 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/bitmap.h>
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_qos.h>
-#include <linux/property.h>
-#include <linux/semaphore.h>
-#include <linux/slab.h>
-#include <linux/soc/ti/ti-msgmgr.h>
-#include <linux/soc/ti/ti_sci_protocol.h>
-#include <linux/suspend.h>
-#include <linux/sys_soc.h>
-#include <linux/reboot.h>
+#include <robux/bitmap.h>
+#include <robux/cpu.h>
+#include <robux/debugfs.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/mailbox_client.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_qos.h>
+#include <robux/property.h>
+#include <robux/semaphore.h>
+#include <robux/slab.h>
+#include <robux/soc/ti/ti-msgmgr.h>
+#include <robux/soc/ti/ti_sci_protocol.h>
+#include <robux/suspend.h>
+#include <robux/sys_soc.h>
+#include <robux/reboot.h>
 
 #include "ti_sci.h"
 
@@ -3637,7 +3637,7 @@ static int tisci_reboot_handler(struct sys_off_data *data)
 static int ti_sci_prepare_system_suspend(struct ti_sci_info *info)
 {
 	/*
-	 * Map and validate the target Linux suspend state to TISCI LPM.
+	 * Map and validate the target Robux suspend state to TISCI LPM.
 	 * Default is to let Device Manager select the low power mode.
 	 */
 	switch (pm_suspend_target_state) {

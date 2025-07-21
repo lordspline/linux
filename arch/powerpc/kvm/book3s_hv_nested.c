@@ -8,10 +8,10 @@
  * on Book3S processors (specifically POWER9 and later).
  */
 
-#include <linux/kernel.h>
-#include <linux/kvm_host.h>
-#include <linux/llist.h>
-#include <linux/pgtable.h>
+#include <robux/kernel.h>
+#include <robux/kvm_host.h>
+#include <robux/llist.h>
+#include <robux/pgtable.h>
 
 #include <asm/kvm_ppc.h>
 #include <asm/kvm_book3s.h>

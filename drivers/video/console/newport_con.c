@@ -10,26 +10,26 @@
  * Copyright (C) 1996 David S. Miller (davem@davemloft.net)
  * Copyright (C) 1997 Miguel de Icaza (miguel@nuclecu.unam.mx)
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/kd.h>
-#include <linux/selection.h>
-#include <linux/console.h>
-#include <linux/vt_kern.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/kd.h>
+#include <robux/selection.h>
+#include <robux/console.h>
+#include <robux/vt_kern.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/page.h>
 #include <asm/gio_device.h>
 
 #include <video/newport.h>
 
-#include <linux/linux_logo.h>
-#include <linux/font.h>
+#include <robux/linux_logo.h>
+#include <robux/font.h>
 
 #define NEWPORT_LEN	0x10000
 

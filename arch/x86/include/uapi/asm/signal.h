@@ -1,10 +1,10 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI_ASM_X86_SIGNAL_H
 #define _UAPI_ASM_X86_SIGNAL_H
 
 #ifndef __ASSEMBLER__
-#include <linux/types.h>
-#include <linux/compiler.h>
+#include <robux/types.h>
+#include <robux/compiler.h>
 
 /* Avoid too many header ordering problems.  */
 struct siginfo;

@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _XT_RATEEST_MATCH_H
 #define _XT_RATEEST_MATCH_H
 
-#include <linux/types.h>
-#include <linux/if.h>
+#include <robux/types.h>
+#include <robux/if.h>
 
 enum xt_rateest_match_flags {
 	XT_RATEEST_MATCH_INVERT	= 1<<0,

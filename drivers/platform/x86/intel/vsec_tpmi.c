@@ -46,19 +46,19 @@
  * provided by the Intel VSEC driver.
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/intel_tpmi.h>
-#include <linux/intel_vsec.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/security.h>
-#include <linux/sizes.h>
-#include <linux/string_helpers.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bitfield.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/intel_tpmi.h>
+#include <robux/intel_vsec.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/security.h>
+#include <robux/sizes.h>
+#include <robux/string_helpers.h>
 
 /**
  * struct intel_tpmi_pfs_entry - TPMI PM Feature Structure (PFS) entry

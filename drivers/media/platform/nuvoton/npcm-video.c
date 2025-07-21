@@ -6,29 +6,29 @@
  * Copyright (C) 2022 Nuvoton Technologies
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/v4l2-controls.h>
-#include <linux/videodev2.h>
+#include <robux/atomic.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/sched.h>
+#include <robux/string.h>
+#include <robux/v4l2-controls.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-dev.h>
 #include <media/v4l2-device.h>
@@ -36,7 +36,7 @@
 #include <media/v4l2-event.h>
 #include <media/v4l2-ioctl.h>
 #include <media/videobuf2-dma-contig.h>
-#include <uapi/linux/npcm-video.h>
+#include <uapi/robux/npcm-video.h>
 #include "npcm-regs.h"
 
 #define DEVICE_NAME	"npcm-video"

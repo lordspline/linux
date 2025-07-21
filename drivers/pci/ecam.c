@@ -3,13 +3,13 @@
  * Copyright 2016 Broadcom
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci-ecam.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pci-ecam.h>
+#include <robux/slab.h>
 
 /*
  * On 64-bit systems, we do a single ioremap for the whole config space

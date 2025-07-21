@@ -8,14 +8,14 @@
  * Based on sh_keysc.c, copyright 2008 Magnus Damm
  */
 
-#include <linux/clk.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/input.h>
+#include <robux/input/matrix_keypad.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #define ST_KEYSCAN_MAXKEYS 16
 

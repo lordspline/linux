@@ -7,13 +7,13 @@
  */
 
 #include "cx231xx.h"
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/sound.h>
-#include <linux/spinlock.h>
-#include <linux/soundcard.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/sound.h>
+#include <robux/spinlock.h>
+#include <robux/soundcard.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

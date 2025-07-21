@@ -5,23 +5,23 @@
  *	Quentin Schulz <quentin.schulz@free-electrons.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
+#include <robux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/completion.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/thermal.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
-#include <linux/iio/machine.h>
-#include <linux/mfd/axp20x.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/driver.h>
+#include <robux/iio/machine.h>
+#include <robux/mfd/axp20x.h>
 
 #define AXP192_ADC_EN1_MASK			GENMASK(7, 0)
 #define AXP192_ADC_EN2_MASK			(GENMASK(3, 0) | BIT(7))

@@ -4,8 +4,8 @@
  *                                                                         *
  ***************************************************************************/
 
-#include <linux/mutex.h>
-#include <linux/regmap.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
 
 struct sch56xx_watchdog_data;
 

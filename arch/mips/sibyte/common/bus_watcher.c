@@ -12,12 +12,12 @@
  * /proc/bus_watcher if PROC_FS is on.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
 #include <asm/io.h>
 
 #include <asm/sibyte/sb1250.h>

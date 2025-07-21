@@ -5,9 +5,9 @@
  *  Copyright © 2016 Hauke Mehrtens <hauke@hauke-m.de>
  */
 
-#include <linux/mtd/rawnand.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <lantiq_soc.h>
 

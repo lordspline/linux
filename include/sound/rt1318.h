@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/sound/rt1318.h -- Platform data for RT1318
+ * robux/sound/rt1318.h -- Platform data for RT1318
  *
  * Copyright 2024 Realtek Semiconductor Corp.
  */

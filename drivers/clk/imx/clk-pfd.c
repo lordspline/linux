@@ -4,11 +4,11 @@
  * Copyright 2012 Linaro Ltd.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/err.h>
+#include <robux/clk-provider.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/err.h>
 #include "clk.h"
 
 /**

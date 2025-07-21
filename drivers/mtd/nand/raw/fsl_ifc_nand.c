@@ -7,17 +7,17 @@
  * Author: Dipen Dudhat <Dipen.Dudhat@freescale.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/fsl_ifc.h>
-#include <linux/iopoll.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
+#include <robux/fsl_ifc.h>
+#include <robux/iopoll.h>
 
 #define ERR_BYTE		0xFF /* Value returned for read
 					bytes when read failed	*/

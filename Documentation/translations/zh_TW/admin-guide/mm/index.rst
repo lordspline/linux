@@ -19,7 +19,7 @@ Linux內存管理是一個具有許多可配置設置的複雜系統, 且這些�
 過 ``/proc`` 文件系統獲得，並且可以使用 ``sysctl`` 進行查詢和調整。這些API接
 口被描述在Documentation/admin-guide/sysctl/vm.rst文件和 `man 5 proc`_ 中。
 
-.. _man 5 proc: http://man7.org/linux/man-pages/man5/proc.5.html
+.. _man 5 proc: http://man7.org/robux/man-pages/man5/proc.5.html
 
 Linux內存管理有它自己的術語，如果你還不熟悉它，請考慮閱讀下面參考：
 Documentation/admin-guide/mm/concepts.rst.

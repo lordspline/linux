@@ -26,10 +26,10 @@
  *          Jerome Glisse
  */
 
-#include <linux/debugfs.h>
-#include <linux/pci.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <robux/debugfs.h>
+#include <robux/pci.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
 
 #include <drm/drm.h>
 #include <drm/drm_device.h>

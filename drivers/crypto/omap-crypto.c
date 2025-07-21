@@ -6,9 +6,9 @@
  *   Tero Kristo <t-kristo@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/scatterlist.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/scatterlist.h>
 #include <crypto/scatterwalk.h>
 
 #include "omap-crypto.h"

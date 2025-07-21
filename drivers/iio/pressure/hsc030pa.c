@@ -7,28 +7,28 @@
  * Datasheet: https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/pressure-sensors/board-mount-pressure-sensors/trustability-hsc-series/documents/sps-siot-trustability-hsc-series-high-accuracy-board-mount-pressure-sensors-50099148-a-en-ciid-151133.pdf
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/init.h>
-#include <linux/math64.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/array_size.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/init.h>
+#include <robux/math64.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/printk.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "hsc030pa.h"
 

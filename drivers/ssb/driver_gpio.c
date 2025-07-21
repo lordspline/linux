@@ -10,12 +10,12 @@
 
 #include "ssb_private.h"
 
-#include <linux/gpio/driver.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/export.h>
-#include <linux/ssb/ssb.h>
+#include <robux/gpio/driver.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/export.h>
+#include <robux/ssb/ssb.h>
 
 
 /**************************************************

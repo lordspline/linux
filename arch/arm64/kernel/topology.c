@@ -11,15 +11,15 @@
  * for more details.
  */
 
-#include <linux/acpi.h>
-#include <linux/arch_topology.h>
-#include <linux/cacheinfo.h>
-#include <linux/cpufreq.h>
-#include <linux/cpu_smt.h>
-#include <linux/init.h>
-#include <linux/percpu.h>
-#include <linux/sched/isolation.h>
-#include <linux/xarray.h>
+#include <robux/acpi.h>
+#include <robux/arch_topology.h>
+#include <robux/cacheinfo.h>
+#include <robux/cpufreq.h>
+#include <robux/cpu_smt.h>
+#include <robux/init.h>
+#include <robux/percpu.h>
+#include <robux/sched/isolation.h>
+#include <robux/xarray.h>
 
 #include <asm/cpu.h>
 #include <asm/cputype.h>

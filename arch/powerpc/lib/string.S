@@ -4,7 +4,7 @@
  *
  * Copyright (C) 1996 Paul Mackerras.
  */
-#include <linux/export.h>
+#include <robux/export.h>
 #include <asm/ppc_asm.h>
 #include <asm/cache.h>
 

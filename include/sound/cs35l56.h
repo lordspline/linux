@@ -9,10 +9,10 @@
 #ifndef __CS35L56_H
 #define __CS35L56_H
 
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/firmware/cirrus/cs_dsp.h>
+#include <robux/regulator/consumer.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 #include <sound/cs-amp-lib.h>
 
 #define CS35L56_DEVID					0x0000000

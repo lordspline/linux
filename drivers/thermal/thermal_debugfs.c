@@ -6,12 +6,12 @@
  *
  * Thermal subsystem debug support
  */
-#include <linux/debugfs.h>
-#include <linux/ktime.h>
-#include <linux/list.h>
-#include <linux/minmax.h>
-#include <linux/mutex.h>
-#include <linux/thermal.h>
+#include <robux/debugfs.h>
+#include <robux/ktime.h>
+#include <robux/list.h>
+#include <robux/minmax.h>
+#include <robux/mutex.h>
+#include <robux/thermal.h>
 
 #include "thermal_core.h"
 

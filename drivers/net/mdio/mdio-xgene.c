@@ -5,21 +5,21 @@
  * Author: Iyappan Subramanian <isubramanian@apm.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/efi.h>
-#include <linux/if_vlan.h>
-#include <linux/io.h>
-#include <linux/mdio/mdio-xgene.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/prefetch.h>
-#include <linux/property.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/efi.h>
+#include <robux/if_vlan.h>
+#include <robux/io.h>
+#include <robux/mdio/mdio-xgene.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/prefetch.h>
+#include <robux/property.h>
 #include <net/ip.h>
 
 u32 xgene_mdio_rd_mac(struct xgene_mdio_pdata *pdata, u32 rd_addr)

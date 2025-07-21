@@ -8,19 +8,19 @@
  * Author: Max Asböck <amax@us.ibm.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/wait.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/kref.h>
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/time64.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/list.h>
+#include <robux/wait.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/kref.h>
+#include <robux/device.h>
+#include <robux/input.h>
+#include <robux/time64.h>
 
 /* Driver identification */
 #define DRIVER_NAME	"ibmasm"

@@ -7,9 +7,9 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
 
 #include "cpsw_sl.h"
 

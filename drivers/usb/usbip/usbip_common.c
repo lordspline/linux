@@ -6,13 +6,13 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/stat.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
 #include <net/sock.h>
 
 #include "usbip_common.h"

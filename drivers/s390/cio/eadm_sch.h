@@ -2,10 +2,10 @@
 #ifndef EADM_SCH_H
 #define EADM_SCH_H
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/timer.h>
-#include <linux/list.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/timer.h>
+#include <robux/list.h>
 #include "orb.h"
 
 struct eadm_private {

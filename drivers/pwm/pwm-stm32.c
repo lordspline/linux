@@ -8,13 +8,13 @@
  *             pwm-atmel.c from Bo Shen
  */
 
-#include <linux/bitfield.h>
-#include <linux/mfd/stm32-timers.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
+#include <robux/bitfield.h>
+#include <robux/mfd/stm32-timers.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
 
 #define CCMR_CHANNEL_SHIFT 8
 #define CCMR_CHANNEL_MASK  0xFF

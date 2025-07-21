@@ -8,16 +8,16 @@
  * Copyright (c) 2012 Thorsten Nowak <thorsten.nowak@iis.fraunhofer.de>
  */
 
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/gyro/itg3200.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/gyro/itg3200.h>
 
 
 static int itg3200_read_all_channels(struct i2c_client *i2c, __be16 *buf)

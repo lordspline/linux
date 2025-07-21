@@ -5,15 +5,15 @@
  *  Copyright (C) 2007 - 2010  Paul Mundt
  *  Copyright (C) 2007  Magnus Damm
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/cpumask.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/cpu.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/cpumask.h>
+#include <robux/smp.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/cpu.h>
 #include <asm/sections.h>
 
 #define STBCR_REG(phys_id) (0xfe400004 | (phys_id << 12))

@@ -9,14 +9,14 @@
  * Copyright 2011 Linaro Ltd.
  */
 
-#include <linux/bitops.h>
-#include <linux/genalloc.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/suspend.h>
+#include <robux/bitops.h>
+#include <robux/genalloc.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/suspend.h>
 #include <asm/suspend.h>
 #include <asm/fncpy.h>
 #include "core.h"

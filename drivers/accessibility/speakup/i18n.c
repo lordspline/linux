@@ -3,10 +3,10 @@
  * string arrays, and the i18n pointer.
  */
 
-#include <linux/slab.h>		/* For kmalloc. */
-#include <linux/ctype.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <robux/slab.h>		/* For kmalloc. */
+#include <robux/ctype.h>
+#include <robux/module.h>
+#include <robux/string.h>
 #include "speakup.h"
 #include "spk_priv.h"
 

@@ -2,16 +2,16 @@
 /*
  *  Copyright (C) 2003 Deep Blue Solutions Ltd
  */
-#include <linux/kernel.h>
-#include <linux/amba/mmci.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/sched_clock.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <robux/kernel.h>
+#include <robux/amba/mmci.h>
+#include <robux/io.h>
+#include <robux/irqchip.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/sched_clock.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>

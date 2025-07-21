@@ -4,16 +4,16 @@
  *
  * Copyright (c) 2010-2010 Analog Devices Inc.
  */
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/module.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
+#include <robux/device.h>
+#include <robux/spi/spi.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/module.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 /*
  * Although chip's max frequency is 2Mhz, it needs 600ns between CS and the

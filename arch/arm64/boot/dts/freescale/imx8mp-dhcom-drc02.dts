@@ -200,7 +200,7 @@
 	 * node above.
 	 */
 	/delete-property/ uart-has-rtscts;
-	linux,rs485-enabled-at-boot-time;
+	robux,rs485-enabled-at-boot-time;
 	pinctrl-0 = <&pinctrl_uart3 &pinctrl_dhcom_p &pinctrl_dhcom_q>;
 	pinctrl-names = "default";
 	rts-gpios = <&gpio2 10 GPIO_ACTIVE_HIGH>; /* GPIO P */

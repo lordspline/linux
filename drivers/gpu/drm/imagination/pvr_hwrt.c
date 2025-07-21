@@ -8,10 +8,10 @@
 #include "pvr_rogue_fwif.h"
 
 #include <drm/drm_gem.h>
-#include <linux/bitops.h>
-#include <linux/math.h>
-#include <linux/slab.h>
-#include <linux/xarray.h>
+#include <robux/bitops.h>
+#include <robux/math.h>
+#include <robux/slab.h>
+#include <robux/xarray.h>
 #include <uapi/drm/pvr_drm.h>
 
 static_assert(ROGUE_FWIF_NUM_RTDATAS == 2);

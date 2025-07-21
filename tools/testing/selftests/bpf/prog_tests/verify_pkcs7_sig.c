@@ -15,9 +15,9 @@
 #include <sys/stat.h>
 #include <sys/wait.h>
 #include <sys/mman.h>
-#include <linux/keyctl.h>
+#include <robux/keyctl.h>
 #include <sys/xattr.h>
-#include <linux/fsverity.h>
+#include <robux/fsverity.h>
 #include <test_progs.h>
 
 #include "test_verify_pkcs7_sig.skel.h"

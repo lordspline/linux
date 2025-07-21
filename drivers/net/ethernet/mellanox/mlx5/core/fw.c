@@ -30,8 +30,8 @@
  * SOFTWARE.
  */
 
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/eswitch.h>
+#include <robux/mlx5/driver.h>
+#include <robux/mlx5/eswitch.h>
 #include "mlx5_core.h"
 #include "../../mlxfw/mlxfw.h"
 #include "lib/tout.h"

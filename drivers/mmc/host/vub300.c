@@ -32,23 +32,23 @@
  *             bits and driver data fields reflect that limit by using
  *             u8, u16, u32
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kref.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/mutex.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/sdio_ids.h>
-#include <linux/workqueue.h>
-#include <linux/ctype.h>
-#include <linux/firmware.h>
-#include <linux/scatterlist.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/kref.h>
+#include <robux/uaccess.h>
+#include <robux/usb.h>
+#include <robux/mutex.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/sdio_func.h>
+#include <robux/mmc/sdio_ids.h>
+#include <robux/workqueue.h>
+#include <robux/ctype.h>
+#include <robux/firmware.h>
+#include <robux/scatterlist.h>
 
 struct host_controller_info {
 	u8 info_size;

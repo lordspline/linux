@@ -11,8 +11,8 @@
 
 #include <asm/vector.h>
 #include <crypto/internal/sha2.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 asmlinkage void sha256_transform_zvknha_or_zvknhb_zvkb(
 	u32 state[SHA256_STATE_WORDS], const u8 *data, size_t nblocks);

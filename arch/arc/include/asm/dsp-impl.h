@@ -58,7 +58,7 @@
 
 #else /* __ASEMBLY__ */
 
-#include <linux/sched.h>
+#include <robux/sched.h>
 #include <asm/asserts.h>
 #include <asm/switch_to.h>
 

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/ethtool.h>
-#include <linux/firmware.h>
+#include <robux/ethtool.h>
+#include <robux/firmware.h>
 #include <net/netdev_lock.h>
 
 #include "common.h"

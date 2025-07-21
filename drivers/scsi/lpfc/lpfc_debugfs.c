@@ -1,5 +1,5 @@
 /*******************************************************************
- * This file is part of the Emulex Linux Device Driver for         *
+ * This file is part of the Emulex Robux Device Driver for         *
  * Fibre Channel Host Bus Adapters.                                *
  * Copyright (C) 2017-2024 Broadcom. All Rights Reserved. The term *
  * “Broadcom” refers to Broadcom Inc. and/or its subsidiaries.  *
@@ -20,18 +20,18 @@
  * included with this package.                                     *
  *******************************************************************/
 
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/ctype.h>
-#include <linux/vmalloc.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/dma-mapping.h>
+#include <robux/idr.h>
+#include <robux/interrupt.h>
+#include <robux/kthread.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/spinlock.h>
+#include <robux/ctype.h>
+#include <robux/vmalloc.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_device.h>
@@ -115,7 +115,7 @@ module_param(lpfc_debugfs_mask_disc_trc, int, S_IRUGO);
 MODULE_PARM_DESC(lpfc_debugfs_mask_disc_trc,
 	"Set debugfs discovery trace mask");
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 static atomic_t lpfc_debugfs_seq_trc_cnt = ATOMIC_INIT(0);
 static unsigned long lpfc_debugfs_start_time = 0L;

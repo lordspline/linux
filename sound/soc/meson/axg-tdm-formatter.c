@@ -3,11 +3,11 @@
 // Copyright (c) 2018 BayLibre, SAS.
 // Author: Jerome Brunet <jbrunet@baylibre.com>
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 #include <sound/soc.h>
 
 #include "axg-tdm-formatter.h"

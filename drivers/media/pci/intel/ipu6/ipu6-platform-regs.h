@@ -4,7 +4,7 @@
 #ifndef IPU6_PLATFORM_REGS_H
 #define IPU6_PLATFORM_REGS_H
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 /*
  * IPU6 uses uniform address within IPU6, therefore all subsystem registers

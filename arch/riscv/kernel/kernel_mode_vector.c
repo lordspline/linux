@@ -5,11 +5,11 @@
  * Copyright (C) 2017 Linaro Ltd. <ard.biesheuvel@linaro.org>
  * Copyright (C) 2021 SiFive
  */
-#include <linux/compiler.h>
-#include <linux/irqflags.h>
-#include <linux/percpu.h>
-#include <linux/preempt.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/irqflags.h>
+#include <robux/percpu.h>
+#include <robux/preempt.h>
+#include <robux/types.h>
 
 #include <asm/vector.h>
 #include <asm/switch_to.h>

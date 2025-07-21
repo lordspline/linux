@@ -3,8 +3,8 @@
 // Copyright (c) 2020 BayLibre, SAS.
 // Author: Jerome Brunet <jbrunet@baylibre.com>
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
 #include <sound/pcm_params.h>
 #include <sound/pcm_iec958.h>
 #include <sound/soc.h>

@@ -3,9 +3,9 @@
  * Copyright (C) 2003-2008 Takahiro Hirofuchi
  */
 
-#include <linux/kthread.h>
-#include <linux/socket.h>
-#include <linux/scatterlist.h>
+#include <robux/kthread.h>
+#include <robux/socket.h>
+#include <robux/scatterlist.h>
 
 #include "usbip_common.h"
 #include "stub.h"

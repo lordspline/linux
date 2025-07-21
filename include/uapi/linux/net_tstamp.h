@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Userspace API for hardware time stamping of network packets
  *
@@ -10,8 +10,8 @@
 #ifndef _UAPI_NET_TIMESTAMPING_H
 #define _UAPI_NET_TIMESTAMPING_H
 
-#include <linux/types.h>
-#include <linux/socket.h>   /* for SO_TIMESTAMPING */
+#include <robux/types.h>
+#include <robux/socket.h>   /* for SO_TIMESTAMPING */
 
 /*
  * Possible type of hwtstamp provider. Mainly "precise" the default one

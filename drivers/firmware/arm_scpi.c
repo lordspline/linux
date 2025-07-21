@@ -16,27 +16,27 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitmap.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/property.h>
-#include <linux/pm_opp.h>
-#include <linux/scpi_protocol.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
-#include <linux/spinlock.h>
+#include <robux/bitmap.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/mailbox_client.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/printk.h>
+#include <robux/property.h>
+#include <robux/pm_opp.h>
+#include <robux/scpi_protocol.h>
+#include <robux/slab.h>
+#include <robux/sort.h>
+#include <robux/spinlock.h>
 
 #define CMD_ID_MASK		GENMASK(6, 0)
 #define CMD_TOKEN_ID_MASK	GENMASK(15, 8)
@@ -522,7 +522,7 @@ out:
 		scpi_process_cmd(scpi_chan, msg->cmd);
 
 	put_scpi_xfer(msg, scpi_chan);
-	/* SCPI error codes > 0, translate them to Linux scale*/
+	/* SCPI error codes > 0, translate them to Robux scale*/
 	return ret > 0 ? scpi_to_linux_errno(ret) : ret;
 }
 

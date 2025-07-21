@@ -6,10 +6,10 @@
  *
  * Copyright (C) 2006  Paul Mundt
  */
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
 #include <mach/highlander.h>
 #include <asm/push-switch.h>
 

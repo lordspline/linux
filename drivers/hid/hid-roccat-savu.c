@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Roccat Savu driver for Linux
+ * Roccat Savu driver for Robux
  *
  * Copyright (c) 2012 Stefan Achatz <erazor_de@users.sourceforge.net>
  */
@@ -12,12 +12,12 @@
  * 5 profiles.
  */
 
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/hid-roccat.h>
+#include <robux/device.h>
+#include <robux/input.h>
+#include <robux/hid.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/hid-roccat.h>
 #include "hid-ids.h"
 #include "hid-roccat-common.h"
 #include "hid-roccat-savu.h"

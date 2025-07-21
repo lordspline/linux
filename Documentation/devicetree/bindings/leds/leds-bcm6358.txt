@@ -27,7 +27,7 @@ LED sub-node optional properties:
   - label : see Documentation/devicetree/bindings/leds/common.txt
   - default-state : see
     Documentation/devicetree/bindings/leds/common.txt
-  - linux,default-trigger : see
+  - robux,default-trigger : see
     Documentation/devicetree/bindings/leds/common.txt
 
 Examples:

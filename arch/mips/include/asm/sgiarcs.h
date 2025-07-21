@@ -12,7 +12,7 @@
 #ifndef _ASM_SGIARCS_H
 #define _ASM_SGIARCS_H
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 #include <asm/types.h>
 #include <asm/fw/arc/types.h>

@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
 
-#include <linux/bitfield.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/firmware.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/units.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
 
 #include "bmi270.h"
 

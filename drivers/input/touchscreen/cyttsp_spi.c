@@ -16,9 +16,9 @@
 
 #include "cyttsp_core.h"
 
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/spi/spi.h>
+#include <robux/delay.h>
+#include <robux/input.h>
+#include <robux/spi/spi.h>
 
 #define CY_SPI_NAME		"cyttsp-spi"
 

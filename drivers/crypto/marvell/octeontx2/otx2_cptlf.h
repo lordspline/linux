@@ -4,8 +4,8 @@
 #ifndef __OTX2_CPTLF_H
 #define __OTX2_CPTLF_H
 
-#include <linux/soc/marvell/octeontx2/asm.h>
-#include <linux/bitfield.h>
+#include <robux/soc/marvell/octeontx2/asm.h>
+#include <robux/bitfield.h>
 #include <mbox.h>
 #include <rvu.h>
 #include "otx2_cpt_common.h"

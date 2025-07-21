@@ -2,9 +2,9 @@
 #ifndef __INCLUDE_ATMEL_SSC_H
 #define __INCLUDE_ATMEL_SSC_H
 
-#include <linux/platform_device.h>
-#include <linux/list.h>
-#include <linux/io.h>
+#include <robux/platform_device.h>
+#include <robux/list.h>
+#include <robux/io.h>
 
 struct atmel_ssc_platform_data {
 	int			use_dma;

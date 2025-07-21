@@ -6,18 +6,18 @@
  * Copyright (C) 2013 Maxime Ripard <maxime.ripard@free-electrons.com>
  */
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/fs.h>
+#include <robux/idr.h>
+#include <robux/init.h>
+#include <robux/kref.h>
+#include <robux/module.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/nvmem-provider.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 
 #include "internals.h"
 

@@ -10,16 +10,16 @@
  * - ABC/target calibration
  */
 
-#include <linux/bitops.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/time64.h>
+#include <robux/bitops.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/time64.h>
 
-#include <linux/iio/iio.h>
+#include <robux/iio/iio.h>
 
 #define DRIVER_NAME "sunrise_co2"
 

@@ -7,15 +7,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/clocksource.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/sched.h> /* for spin_unlock_irq() using preempt_count() m68k */
-#include <linux/tick.h>
-#include <linux/kthread.h>
-#include <linux/prandom.h>
-#include <linux/cpu.h>
+#include <robux/device.h>
+#include <robux/clocksource.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/sched.h> /* for spin_unlock_irq() using preempt_count() m68k */
+#include <robux/tick.h>
+#include <robux/kthread.h>
+#include <robux/prandom.h>
+#include <robux/cpu.h>
 
 #include "tick-internal.h"
 #include "timekeeping_internal.h"

@@ -21,8 +21,8 @@
  */
 #include <stdlib.h>
 #include <pthread.h>
-#include <linux/sizes.h>
-#include <linux/bitmap.h>
+#include <robux/sizes.h>
+#include <robux/bitmap.h>
 #include <sys/sysinfo.h>
 
 #include "timer_test.h"

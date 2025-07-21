@@ -30,10 +30,10 @@
  * SOFTWARE.
  */
 
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/timer.h>
+#include <robux/workqueue.h>
 
 #include "mthca_dev.h"
 

@@ -7,8 +7,8 @@
 
 #ifndef _FC_ENCODE_H_
 #define _FC_ENCODE_H_
-#include <linux/unaligned.h>
-#include <linux/utsname.h>
+#include <robux/unaligned.h>
+#include <robux/utsname.h>
 #include <scsi/fc/fc_ms.h>
 
 /*

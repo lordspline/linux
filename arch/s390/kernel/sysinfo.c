@@ -5,16 +5,16 @@
  *	       Martin Schwidefsky <schwidefsky@de.ibm.com>,
  */
 
-#include <linux/cpufeature.h>
-#include <linux/debugfs.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <robux/cpufeature.h>
+#include <robux/debugfs.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/slab.h>
 #include <asm/asm-extable.h>
 #include <asm/machine.h>
 #include <asm/ebcdic.h>

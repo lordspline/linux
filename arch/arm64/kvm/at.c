@@ -4,7 +4,7 @@
  * Author: Jintack Lim <jintack.lim@linaro.org>
  */
 
-#include <linux/kvm_host.h>
+#include <robux/kvm_host.h>
 
 #include <asm/esr.h>
 #include <asm/kvm_hyp.h>

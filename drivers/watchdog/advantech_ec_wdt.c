@@ -8,13 +8,13 @@
  *	Copyright (C) 2022 Advantech Europe B.V.
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/isa.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/watchdog.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/isa.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/watchdog.h>
 
 #define DRIVER_NAME		"advantech_ec_wdt"
 

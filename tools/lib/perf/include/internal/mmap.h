@@ -2,9 +2,9 @@
 #ifndef __LIBPERF_INTERNAL_MMAP_H
 #define __LIBPERF_INTERNAL_MMAP_H
 
-#include <linux/compiler.h>
-#include <linux/refcount.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/refcount.h>
+#include <robux/types.h>
 #include <stdbool.h>
 #include <internal/cpumap.h>
 

@@ -5,21 +5,21 @@
  * (C) 2003 - 2004		Dominik Brodowski
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/major.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/major.h>
+#include <robux/errno.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/timer.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
 #include <asm/irq.h>
 
 #include <pcmcia/ss.h>

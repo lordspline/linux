@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/plat-pxa/mfp.c
+ * robux/arch/arm/plat-pxa/mfp.c
  *
  *   Multi-Function Pin Support
  *
@@ -10,12 +10,12 @@
  *             initial version
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
 
-#include <linux/soc/pxa/mfp.h>
+#include <robux/soc/pxa/mfp.h>
 
 #define MFPR_SIZE	(PAGE_SIZE)
 

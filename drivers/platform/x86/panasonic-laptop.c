@@ -119,22 +119,22 @@
  *		- v0.1  start from toshiba_acpi driver written by John Belmonte
  */
 
-#include <linux/acpi.h>
-#include <linux/backlight.h>
-#include <linux/bits.h>
-#include <linux/ctype.h>
-#include <linux/i8042.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/serio.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <robux/acpi.h>
+#include <robux/backlight.h>
+#include <robux/bits.h>
+#include <robux/ctype.h>
+#include <robux/i8042.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/input/sparse-keymap.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
+#include <robux/serio.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
 #include <acpi/video.h>
 
 MODULE_AUTHOR("Hiroshi Miura <miura@da-cha.org>");

@@ -12,14 +12,14 @@
  *	Rui Miguel Silva <rui.silva@linaro.org>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
 
 #include "isp1760-core.h"
 #include "isp1760-hcd.h"

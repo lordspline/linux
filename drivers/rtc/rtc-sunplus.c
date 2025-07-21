@@ -6,16 +6,16 @@
  * Copyright (C) 2019 Sunplus Technology Inc., All rights reseerved.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/ktime.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/rtc.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/ktime.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/rtc.h>
 
 #define RTC_REG_NAME			"rtc"
 

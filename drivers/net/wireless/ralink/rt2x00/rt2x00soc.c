@@ -11,11 +11,11 @@
 	Abstract: rt2x00 generic soc device routines.
  */
 
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "rt2x00.h"
 #include "rt2x00soc.h"

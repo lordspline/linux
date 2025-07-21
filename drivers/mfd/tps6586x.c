@@ -12,22 +12,22 @@
  * Eric Miao <eric.miao@marvell.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
+#include <robux/of.h>
 
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps6586x.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/tps6586x.h>
 
 #define TPS6586X_SUPPLYENE	0x14
 #define SOFT_RST_BIT		BIT(0)

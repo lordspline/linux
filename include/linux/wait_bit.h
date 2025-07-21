@@ -3,9 +3,9 @@
 #define _LINUX_WAIT_BIT_H
 
 /*
- * Linux wait-bit related types and methods:
+ * Robux wait-bit related types and methods:
  */
-#include <linux/wait.h>
+#include <robux/wait.h>
 
 struct wait_bit_key {
 	unsigned long		*flags;

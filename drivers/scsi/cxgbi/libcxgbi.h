@@ -14,16 +14,16 @@
 #ifndef	__LIBCXGBI_H__
 #define	__LIBCXGBI_H__
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/debugfs.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/scatterlist.h>
-#include <linux/skbuff.h>
-#include <linux/vmalloc.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/debugfs.h>
+#include <robux/list.h>
+#include <robux/netdevice.h>
+#include <robux/if_vlan.h>
+#include <robux/scatterlist.h>
+#include <robux/skbuff.h>
+#include <robux/vmalloc.h>
 #include <scsi/scsi_device.h>
 #include <scsi/libiscsi_tcp.h>
 

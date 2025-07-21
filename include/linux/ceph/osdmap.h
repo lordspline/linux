@@ -2,10 +2,10 @@
 #ifndef _FS_CEPH_OSDMAP_H
 #define _FS_CEPH_OSDMAP_H
 
-#include <linux/rbtree.h>
-#include <linux/ceph/types.h>
-#include <linux/ceph/decode.h>
-#include <linux/crush/crush.h>
+#include <robux/rbtree.h>
+#include <robux/ceph/types.h>
+#include <robux/ceph/decode.h>
+#include <robux/crush/crush.h>
 
 /*
  * The osd map describes the current membership of the osd cluster and

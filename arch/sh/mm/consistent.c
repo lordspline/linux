@@ -5,11 +5,11 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
 
 static int __init memchunk_setup(char *str)
 {

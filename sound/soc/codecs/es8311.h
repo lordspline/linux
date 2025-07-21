@@ -10,7 +10,7 @@
 #ifndef _ES8311_H
 #define _ES8311_H
 
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 
 #define ES8311_RESET 0x00
 #define ES8311_RESET_CSM_ON BIT(7)

@@ -5,11 +5,11 @@
  * Copyright (c) 2016 Heiko Stuebner <heiko@sntech.de>
  */
 
-#include <linux/err.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/err.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define HIWORD_UPDATE(val, mask, shift) \
 		((val) << (shift) | (mask) << ((shift) + 16))

@@ -6,8 +6,8 @@
  * Basic signal handling related data type definitions:
  */
 
-#include <linux/types.h>
-#include <uapi/linux/signal.h>
+#include <robux/types.h>
+#include <uapi/robux/signal.h>
 
 typedef struct kernel_siginfo {
 	__SIGINFO;

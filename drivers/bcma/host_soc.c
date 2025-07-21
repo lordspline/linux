@@ -7,11 +7,11 @@
 
 #include "bcma_private.h"
 #include "scan.h"
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/bcma/bcma.h>
-#include <linux/bcma/bcma_soc.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/bcma/bcma.h>
+#include <robux/bcma/bcma_soc.h>
 
 static u8 bcma_host_soc_read8(struct bcma_device *core, u16 offset)
 {

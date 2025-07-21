@@ -5,13 +5,13 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/ethtool.h>
-#include <linux/stddef.h>
-#include <linux/etherdevice.h>
-#include <linux/log2.h>
-#include <linux/net_tstamp.h>
-#include <linux/linkmode.h>
+#include <robux/pci.h>
+#include <robux/ethtool.h>
+#include <robux/stddef.h>
+#include <robux/etherdevice.h>
+#include <robux/log2.h>
+#include <robux/net_tstamp.h>
+#include <robux/linkmode.h>
 
 #include "otx2_common.h"
 #include "otx2_ptp.h"

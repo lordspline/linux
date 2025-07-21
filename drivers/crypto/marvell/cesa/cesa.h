@@ -5,8 +5,8 @@
 #include <crypto/internal/hash.h>
 #include <crypto/internal/skcipher.h>
 
-#include <linux/dma-direction.h>
-#include <linux/dmapool.h>
+#include <robux/dma-direction.h>
+#include <robux/dmapool.h>
 
 #define CESA_ENGINE_OFF(i)			(((i) * 0x2000))
 

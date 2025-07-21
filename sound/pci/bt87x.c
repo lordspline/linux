@@ -7,13 +7,13 @@
  * based on btaudio.c by Gerd Knorr <kraxel@bytesex.org>
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/bitops.h>
+#include <robux/io.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

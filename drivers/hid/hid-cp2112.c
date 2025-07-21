@@ -16,17 +16,17 @@
  *   https://www.silabs.com/documents/public/application-notes/an495-cp2112-interface-specification.pdf
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/hid.h>
-#include <linux/hidraw.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nls.h>
-#include <linux/string_choices.h>
-#include <linux/usb/ch9.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/gpio/driver.h>
+#include <robux/hid.h>
+#include <robux/hidraw.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/nls.h>
+#include <robux/string_choices.h>
+#include <robux/usb/ch9.h>
 #include "hid-ids.h"
 
 #define CP2112_REPORT_MAX_LENGTH		64

@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
-/* -*- linux-c -*- --------------------------------------------------------- *
+/* -*- robux-c -*- --------------------------------------------------------- *
  *
- * linux/include/linux/devpts_fs.h
+ * robux/include/robux/devpts_fs.h
  *
  *  Copyright 1998-2004 H. Peter Anvin -- All Rights Reserved
  *
@@ -10,7 +10,7 @@
 #ifndef _LINUX_DEVPTS_FS_H
 #define _LINUX_DEVPTS_FS_H
 
-#include <linux/errno.h>
+#include <robux/errno.h>
 
 #ifdef CONFIG_UNIX98_PTYS
 

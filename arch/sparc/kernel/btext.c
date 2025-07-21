@@ -4,11 +4,11 @@
  *
  * Benjamin Herrenschmidt <benh@kernel.crashing.org>
  */
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/font.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/font.h>
 
 #include <asm/btext.h>
 #include <asm/oplib.h>

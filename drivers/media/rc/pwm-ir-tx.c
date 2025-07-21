@@ -3,15 +3,15 @@
  * Copyright (C) 2017 Sean Young <sean@mess.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pwm.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/hrtimer.h>
-#include <linux/completion.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pwm.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/hrtimer.h>
+#include <robux/completion.h>
 #include <media/rc-core.h>
 
 #define DRIVER_NAME	"pwm-ir-tx"

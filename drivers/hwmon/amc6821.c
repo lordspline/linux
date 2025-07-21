@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * amc6821.c - Part of lm_sensors, Linux kernel modules for hardware
+ * amc6821.c - Part of lm_sensors, Robux kernel modules for hardware
  *	       monitoring
  * Copyright (C) 2009 T. Mertelj <tomaz.mertelj@guest.arnes.si>
  *
@@ -8,24 +8,24 @@
  * Copyright (C) 2007 Hans J. Koch <hjk@hansjkoch.de>
  *
  * Conversion to regmap and with_info API:
- * Copyright (C) 2024 Guenter Roeck <linux@roeck-us.net>
+ * Copyright (C) 2024 Guenter Roeck <robux@roeck-us.net>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_platform.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/bits.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of_platform.h>
+#include <robux/pwm.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #include <dt-bindings/pwm/pwm.h>
 

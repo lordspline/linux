@@ -7,8 +7,8 @@
  * Gated clock implementation
  */
 
-#include <linux/clk-provider.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/slab.h>
 #include "clk-zynqmp.h"
 
 /**

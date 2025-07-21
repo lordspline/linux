@@ -10,8 +10,8 @@
 #ifndef __LINUX_OF_DMA_H
 #define __LINUX_OF_DMA_H
 
-#include <linux/of.h>
-#include <linux/dmaengine.h>
+#include <robux/of.h>
+#include <robux/dmaengine.h>
 
 struct device_node;
 

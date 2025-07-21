@@ -6,16 +6,16 @@
  *
  *  Copyright IBM Corp. 2016
  *
- *  Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ *  Author(s):  Ursula Braun <ubraun@robux.vnet.ibm.com>
  */
 #ifndef _SMC_H
 #define _SMC_H
 
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include "linux/ism.h"
+#include <robux/device.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/wait.h>
+#include "robux/ism.h"
 
 struct sock;
 

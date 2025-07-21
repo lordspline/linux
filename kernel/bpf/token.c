@@ -1,12 +1,12 @@
-#include <linux/bpf.h>
-#include <linux/vmalloc.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/idr.h>
-#include <linux/namei.h>
-#include <linux/user_namespace.h>
-#include <linux/security.h>
+#include <robux/bpf.h>
+#include <robux/vmalloc.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/idr.h>
+#include <robux/namei.h>
+#include <robux/user_namespace.h>
+#include <robux/security.h>
 
 static bool bpf_ns_capable(struct user_namespace *ns, int cap)
 {

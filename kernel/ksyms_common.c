@@ -3,8 +3,8 @@
  * ksyms_common.c: A split of kernel/kallsyms.c
  * Contains a few generic function definations independent of config KALLSYMS.
  */
-#include <linux/kallsyms.h>
-#include <linux/security.h>
+#include <robux/kallsyms.h>
+#include <robux/security.h>
 
 static inline int kallsyms_for_perf(void)
 {

@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2018 Nuvoton Technology corporation.
 
-#include <linux/kernel.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/reset.h>
+#include <robux/kernel.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/spi/spi.h>
+#include <robux/reset.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
 
 struct npcm_pspi {
 	struct completion xfer_done;

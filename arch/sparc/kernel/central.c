@@ -4,14 +4,14 @@
  * Copyright (C) 1997, 1999, 2008 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <asm/fhc.h>
 #include <asm/upa.h>

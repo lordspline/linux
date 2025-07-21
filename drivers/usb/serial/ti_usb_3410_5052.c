@@ -4,7 +4,7 @@
  *
  * Copyright (C) 2004 Texas Instruments
  *
- * This driver is based on the Linux io_ti driver, which is
+ * This driver is based on the Robux io_ti driver, which is
  *   Copyright (C) 2000-2002 Inside Out Networks
  *   Copyright (C) 2001-2002 Greg Kroah-Hartman
  *
@@ -13,22 +13,22 @@
  * Peter Berger <pberger@brimson.com>.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/ioctl.h>
-#include <linux/serial.h>
-#include <linux/kfifo.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/usb/serial.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/firmware.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/tty_driver.h>
+#include <robux/tty_flip.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/ioctl.h>
+#include <robux/serial.h>
+#include <robux/kfifo.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
+#include <robux/usb.h>
+#include <robux/usb/serial.h>
 
 /* Configuration ids */
 #define TI_BOOT_CONFIG			1

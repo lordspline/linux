@@ -21,30 +21,30 @@
  * This file is licenced under the GPL.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/usb.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/hcd.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/genalloc.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/timer.h>
+#include <robux/list.h>
+#include <robux/usb.h>
+#include <robux/usb/otg.h>
+#include <robux/usb/hcd.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmapool.h>
+#include <robux/workqueue.h>
+#include <robux/debugfs.h>
+#include <robux/genalloc.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <asm/byteorder.h>
 
 
@@ -616,7 +616,7 @@ retry:
 	 * (SiS, OPTi ...), so reset again instead.  SiS doesn't need
 	 * this if we write fmInterval after we're OPERATIONAL.
 	 * Unclear about ALi, ServerWorks, and others ... this could
-	 * easily be a longstanding bug in chip init on Linux.
+	 * easily be a longstanding bug in chip init on Robux.
 	 */
 	if (ohci->flags & OHCI_QUIRK_INITRESET) {
 		ohci_writel (ohci, ohci->hc_control, &ohci->regs->control);

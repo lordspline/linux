@@ -6,10 +6,10 @@
  * Matt Porter <mporter@kernel.crashing.org>
  */
 
-#include <linux/rio.h>
-#include <linux/module.h>
+#include <robux/rio.h>
+#include <robux/module.h>
 
-#include <linux/rio_drv.h>
+#include <robux/rio_drv.h>
 
 /*
  *  Wrappers for all RIO configuration access functions.  They just check

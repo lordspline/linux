@@ -13,19 +13,19 @@
  *		https://pdfserv.maximintegrated.com/en/an/AN3785.pdf
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/bitfield.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/prefetch.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/spi/spi.h>
-#include <linux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/bitfield.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/prefetch.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/spi/spi.h>
+#include <robux/gpio/consumer.h>
 
 #define MAX3420_MAX_EPS		4
 #define MAX3420_EP_MAX_PACKET		64  /* Same for all Endpoints */

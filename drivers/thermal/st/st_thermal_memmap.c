@@ -6,8 +6,8 @@
  * Copyright (C) 2003-2014 STMicroelectronics (R&D) Limited
  */
 
-#include <linux/of.h>
-#include <linux/module.h>
+#include <robux/of.h>
+#include <robux/module.h>
 
 #include "st_thermal.h"
 

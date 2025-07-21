@@ -6,21 +6,21 @@
  * Author: Kishon Vijay Abraham I <kishon@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/phy/phy.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
-#include <linux/delay.h>
-#include <linux/phy/omap_control_phy.h>
-#include <linux/of_platform.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/phy/phy.h>
+#include <robux/of.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/pm_runtime.h>
+#include <robux/delay.h>
+#include <robux/phy/omap_control_phy.h>
+#include <robux/of_platform.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 
 #define	PLL_STATUS		0x00000004
 #define	PLL_GO			0x00000008

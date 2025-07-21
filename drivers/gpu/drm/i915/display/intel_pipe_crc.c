@@ -24,9 +24,9 @@
  *
  */
 
-#include <linux/ctype.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/ctype.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 
 #include "i915_drv.h"
 #include "i915_irq.h"

@@ -7,12 +7,12 @@
  * All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/input.h>
-#include <linux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/input.h>
+#include <robux/acpi.h>
 #include <acpi/button.h>
 
 #define SURFACE_PRO3_BUTTON_HID		"MSHW0028"

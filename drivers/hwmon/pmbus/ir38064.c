@@ -11,13 +11,13 @@
  * this driver does not currently support them.
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/driver.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regulator/driver.h>
 #include "pmbus.h"
 
 #if IS_ENABLED(CONFIG_SENSORS_IR38064_REGULATOR)

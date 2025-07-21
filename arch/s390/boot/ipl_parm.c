@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/ctype.h>
-#include <linux/pgtable.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/ctype.h>
+#include <robux/pgtable.h>
 #include <asm/abs_lowcore.h>
 #include <asm/page-states.h>
 #include <asm/machine.h>
@@ -201,7 +201,7 @@ static void check_cleared_facilities(void)
 
 	for (i = 0; i < ARRAY_SIZE(als); i++) {
 		if ((stfle_fac_list[i] & als[i]) != als[i]) {
-			boot_emerg("The Linux kernel requires facilities cleared via command line option\n");
+			boot_emerg("The Robux kernel requires facilities cleared via command line option\n");
 			print_missing_facilities();
 			break;
 		}

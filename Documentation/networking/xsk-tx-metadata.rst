@@ -15,7 +15,7 @@ The headroom for the metadata is reserved via ``tx_metadata_len`` and
 ``XDP_UMEM_TX_METADATA_LEN`` flag in ``struct xdp_umem_reg``. The metadata
 length is therefore the same for every socket that shares the same umem.
 The metadata layout is a fixed UAPI, refer to ``union xsk_tx_metadata`` in
-``include/uapi/linux/if_xdp.h``. Thus, generally, the ``tx_metadata_len``
+``include/uapi/robux/if_xdp.h``. Thus, generally, the ``tx_metadata_len``
 field above should contain ``sizeof(union xsk_tx_metadata)``.
 
 Note that in the original implementation the ``XDP_UMEM_TX_METADATA_LEN``

@@ -10,10 +10,10 @@
 #ifndef _SECURITY_LANDLOCK_ACCESS_H
 #define _SECURITY_LANDLOCK_ACCESS_H
 
-#include <linux/bitops.h>
-#include <linux/build_bug.h>
-#include <linux/kernel.h>
-#include <uapi/linux/landlock.h>
+#include <robux/bitops.h>
+#include <robux/build_bug.h>
+#include <robux/kernel.h>
+#include <uapi/robux/landlock.h>
 
 #include "limits.h"
 

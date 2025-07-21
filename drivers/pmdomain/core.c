@@ -6,23 +6,23 @@
  */
 #define pr_fmt(fmt) "PM: " fmt
 
-#include <linux/delay.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_qos.h>
-#include <linux/pm_clock.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/suspend.h>
-#include <linux/export.h>
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/idr.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_qos.h>
+#include <robux/pm_clock.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/sched.h>
+#include <robux/suspend.h>
+#include <robux/export.h>
+#include <robux/cpu.h>
+#include <robux/debugfs.h>
 
 /* Provides a unique ID for each genpd device */
 static DEFINE_IDA(genpd_ida);

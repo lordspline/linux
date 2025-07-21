@@ -4,16 +4,16 @@
  *  PWM beeper driver
  */
 
-#include <linux/input.h>
-#include <linux/regulator/consumer.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/input.h>
+#include <robux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/pwm.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 struct pwm_beeper {
 	struct input_dev *input;

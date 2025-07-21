@@ -7,7 +7,7 @@
  *
  * (c) Copyright 2010-2013 Datera, Inc.
  *
- * Nicholas A. Bellinger <nab@linux-iscsi.org>
+ * Nicholas A. Bellinger <nab@robux-iscsi.org>
  *
  ******************************************************************************/
 
@@ -16,12 +16,12 @@
  * on the formats implemented in this file.
  */
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/spinlock.h>
-#include <linux/export.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
+#include <robux/spinlock.h>
+#include <robux/export.h>
+#include <robux/unaligned.h>
 
 #include <scsi/scsi_proto.h>
 

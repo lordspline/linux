@@ -7,26 +7,26 @@
  * Parts of the driver are based on:
  *  - arch/arm/mach-bcm2708/vcio.c file written by Gray Girling that was
  *    obtained from branch "rpi-3.6.y" of git://github.com/raspberrypi/
- *    linux.git
+ *    robux.git
  *  - drivers/mailbox/bcm2835-ipc.c by Lubomir Rintel at
- *    https://github.com/hackerspace/rpi-linux/blob/lr-raspberry-pi/drivers/
+ *    https://github.com/hackerspace/rpi-robux/blob/lr-raspberry-pi/drivers/
  *    mailbox/bcm2835-ipc.c
  *  - documentation available on the following web site:
  *    https://github.com/raspberrypi/firmware/wiki/Mailbox-property-interface
  */
 
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/mailbox_controller.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
 
 /* Mailboxes */
 #define ARM_0_MAIL0	0x00

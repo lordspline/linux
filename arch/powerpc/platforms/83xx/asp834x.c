@@ -10,8 +10,8 @@
  * Maintainer: Bryan O'Donoghue <bodonoghue@codhermit.ie>
  */
 
-#include <linux/pci.h>
-#include <linux/of_platform.h>
+#include <robux/pci.h>
+#include <robux/of_platform.h>
 
 #include <asm/time.h>
 #include <asm/ipic.h>

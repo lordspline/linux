@@ -7,12 +7,12 @@
  *    Significantly tweaked by LaMont Jones <lamont@debian.org>
  */
 
-#include <linux/sched/signal.h>
-#include <linux/signal.h>
-#include <linux/ratelimit.h>
-#include <linux/uaccess.h>
-#include <linux/sysctl.h>
-#include <linux/unaligned.h>
+#include <robux/sched/signal.h>
+#include <robux/signal.h>
+#include <robux/ratelimit.h>
+#include <robux/uaccess.h>
+#include <robux/sysctl.h>
+#include <robux/unaligned.h>
 #include <asm/hardirq.h>
 #include <asm/traps.h>
 #include "unaligned.h"

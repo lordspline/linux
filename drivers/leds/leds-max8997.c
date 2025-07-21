@@ -6,13 +6,13 @@
  * Donggeun Kim <dg77.kim@samsung.com>
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/leds.h>
-#include <linux/mfd/max8997.h>
-#include <linux/mfd/max8997-private.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/leds.h>
+#include <robux/mfd/max8997.h>
+#include <robux/mfd/max8997-private.h>
+#include <robux/platform_device.h>
 
 #define MAX8997_LED_FLASH_SHIFT			3
 #define MAX8997_LED_FLASH_CUR_MASK		0xf8

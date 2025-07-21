@@ -5,11 +5,11 @@
  * Copyright (C) 2010 Stefani Seibold <stefani@seibold.net>
  */
 
-#include <linux/init.h>
-#include <linux/kfifo.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/kfifo.h>
+#include <robux/module.h>
+#include <robux/scatterlist.h>
+#include <robux/dma-mapping.h>
 
 /*
  * This module shows how to handle fifo dma operations.

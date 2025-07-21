@@ -21,10 +21,10 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/wait.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/wait.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/rawmidi.h>
 #include <sound/info.h>

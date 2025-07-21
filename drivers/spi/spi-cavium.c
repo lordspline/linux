@@ -6,10 +6,10 @@
  * Copyright (C) 2011, 2012 Cavium, Inc.
  */
 
-#include <linux/spi/spi.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/io.h>
+#include <robux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/io.h>
 
 #include "spi-cavium.h"
 

@@ -2,8 +2,8 @@
 /*
  * Implement the sparc iomap interfaces
  */
-#include <linux/pci.h>
-#include <linux/module.h>
+#include <robux/pci.h>
+#include <robux/module.h>
 #include <asm/io.h>
 
 /* Create a virtual mapping cookie for an IO port range */

@@ -39,7 +39,7 @@
 
 /*
     History of this driver (Steven Toth):
-      I was given a public release of a linux driver that included
+      I was given a public release of a robux driver that included
       support for the MaxLinear MXL5005S silicon tuner. Analysis of
       the tuner driver showed clearly three things.
 
@@ -57,12 +57,12 @@
       sections of the code and retained the copyright of the
       respective owners.
 */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
 #include <media/dvb_frontend.h>
 #include "mxl5005s.h"
 
@@ -285,7 +285,7 @@ struct mxl5005s_state {
 	struct TunerReg
 		TunerRegs[TUNER_REGS_NUM]; /* Tuner Register Array Pointer */
 
-	/* Linux driver framework specific */
+	/* Robux driver framework specific */
 	struct mxl5005s_config *config;
 	struct dvb_frontend *frontend;
 	struct i2c_adapter *i2c;
@@ -3833,7 +3833,7 @@ static u16 MXL_Hystersis_Test(struct dvb_frontend *fe, int Hystersis)
 
 /* ----------------------------------------------------------------
  * Begin: Everything after here is new code to adapt the
- * proprietary Realtek driver into a Linux API tuner.
+ * proprietary Realtek driver into a Robux API tuner.
  * Copyright (C) 2008 Steven Toth <stoth@linuxtv.org>
  */
 static int mxl5005s_reset(struct dvb_frontend *fe)

@@ -8,8 +8,8 @@
 #ifndef V4L2_ASYNC_H
 #define V4L2_ASYNC_H
 
-#include <linux/list.h>
-#include <linux/mutex.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
 
 struct dentry;
 struct device;

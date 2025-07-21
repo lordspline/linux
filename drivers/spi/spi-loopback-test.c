@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/drivers/spi/spi-loopback-test.c
+ *  robux/drivers/spi/spi-loopback-test.c
  *
  *  (c) Martin Sperl <kernel@martin.sperl.org>
  *
@@ -9,16 +9,16 @@
  *  this can also get used for regression testing
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/list.h>
-#include <linux/list_sort.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/vmalloc.h>
-#include <linux/spi/spi.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/ktime.h>
+#include <robux/list.h>
+#include <robux/list_sort.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/printk.h>
+#include <robux/vmalloc.h>
+#include <robux/spi/spi.h>
 
 #include "spi-test.h"
 
@@ -382,7 +382,7 @@ static int spi_loopback_test_probe(struct spi_device *spi)
 
 /* non const match table to permit to change via a module parameter */
 static struct of_device_id spi_loopback_test_of_match[] = {
-	{ .compatible	= "linux,spi-loopback-test", },
+	{ .compatible	= "robux,spi-loopback-test", },
 	{ }
 };
 

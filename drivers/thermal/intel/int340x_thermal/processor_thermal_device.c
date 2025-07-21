@@ -3,12 +3,12 @@
  * processor_thermal_device.c
  * Copyright (c) 2014, Intel Corporation.
  */
-#include <linux/acpi.h>
-#include <linux/intel_tcc.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/thermal.h>
+#include <robux/acpi.h>
+#include <robux/intel_tcc.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/thermal.h>
 #include <asm/msr.h>
 #include "int340x_thermal_zone.h"
 #include "processor_thermal_device.h"
@@ -470,6 +470,6 @@ EXPORT_SYMBOL_GPL(proc_thermal_mmio_remove);
 
 MODULE_IMPORT_NS("INTEL_TCC");
 MODULE_IMPORT_NS("INT340X_THERMAL");
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@robux.intel.com>");
 MODULE_DESCRIPTION("Processor Thermal Reporting Device Driver");
 MODULE_LICENSE("GPL v2");

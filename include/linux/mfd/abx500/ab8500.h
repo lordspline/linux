@@ -7,9 +7,9 @@
 #ifndef MFD_AB8500_H
 #define MFD_AB8500_H
 
-#include <linux/atomic.h>
-#include <linux/mutex.h>
-#include <linux/irqdomain.h>
+#include <robux/atomic.h>
+#include <robux/mutex.h>
+#include <robux/irqdomain.h>
 
 struct device;
 

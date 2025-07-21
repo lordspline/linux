@@ -5,20 +5,20 @@
  * Based on rpi_touchscreen.c by Eric Anholt <eric@anholt.net>
  */
 
-#include <linux/backlight.h>
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/slab.h>
+#include <robux/backlight.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/slab.h>
 
 /* I2C registers of the Atmel microcontroller. */
 #define REG_ID		0x80

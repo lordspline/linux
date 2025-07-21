@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/module.h>
+#include <robux/export.h>
+#include <robux/mm.h>
+#include <robux/module.h>
 #include <asm/alternative.h>
 #include <asm/cacheflush.h>
 #include <asm/inst.h>

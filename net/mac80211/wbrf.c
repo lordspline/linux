@@ -6,8 +6,8 @@
  *
  */
 
-#include <linux/acpi_amd_wbrf.h>
-#include <linux/units.h>
+#include <robux/acpi_amd_wbrf.h>
+#include <robux/units.h>
 #include <net/cfg80211.h>
 #include "ieee80211_i.h"
 

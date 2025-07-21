@@ -3,13 +3,13 @@
  * Copyright 2014 Bart Tanghe <bart.tanghe@thomasmore.be>
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
 
 #define PWM_CONTROL		0x000
 #define PWM_CONTROL_SHIFT(x)	((x) * 8)

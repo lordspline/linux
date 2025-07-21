@@ -8,15 +8,15 @@
  * compiled as module, this file is compiled as module as well.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/of.h>
-#include <linux/usb/otg.h>
-#include <linux/of_platform.h>
-#include <linux/debugfs.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/of.h>
+#include <robux/usb/otg.h>
+#include <robux/of_platform.h>
+#include <robux/debugfs.h>
 #include "common.h"
 
 static const char *const ep_type_names[] = {

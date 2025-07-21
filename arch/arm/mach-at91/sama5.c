@@ -6,8 +6,8 @@
  *                2013 Ludovic Desroches <ludovic.desroches@atmel.com>
  */
 
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
 
 #include <asm/hardware/cache-l2x0.h>
 #include <asm/mach/arch.h>

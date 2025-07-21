@@ -9,12 +9,12 @@
 #ifndef __ASM_FSL_IFC_H
 #define __ASM_FSL_IFC_H
 
-#include <linux/compiler.h>
-#include <linux/types.h>
-#include <linux/io.h>
+#include <robux/compiler.h>
+#include <robux/types.h>
+#include <robux/io.h>
 
-#include <linux/of_platform.h>
-#include <linux/interrupt.h>
+#include <robux/of_platform.h>
+#include <robux/interrupt.h>
 
 /*
  * The actual number of banks implemented depends on the IFC version

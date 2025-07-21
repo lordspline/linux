@@ -7,13 +7,13 @@
  * Author: Joseph Chen <chenjh@rock-chips.com>
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 static irqreturn_t pwrkey_fall_irq(int irq, void *_pwr)
 {

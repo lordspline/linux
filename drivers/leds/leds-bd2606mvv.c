@@ -10,13 +10,13 @@
  * is possible for the affected LED pair.
  */
 
-#include <linux/i2c.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/i2c.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #define BD2606_MAX_LEDS 6
 #define BD2606_MAX_BRIGHTNESS 63

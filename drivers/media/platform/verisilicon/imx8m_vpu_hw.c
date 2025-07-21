@@ -5,8 +5,8 @@
  * Copyright (C) 2019 Pengutronix, Philipp Zabel <kernel@pengutronix.de>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
 
 #include "hantro.h"
 #include "hantro_jpeg.h"

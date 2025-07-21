@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/vga16.c -- VGA 16-color framebuffer driver
+ * robux/drivers/video/vga16.c -- VGA 16-color framebuffer driver
  *
  * Copyright 1999 Ben Pfaff <pfaffben@debian.org> and Petr Vandrovec <VANDROVE@vc.cvut.cz>
  * Based on VGA info at http://www.goodnet.com/~tinara/FreeVGA/home.htm
@@ -10,18 +10,18 @@
  * archive for more details.
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/screen_info.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/fb.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/screen_info.h>
 
 #include <asm/io.h>
 #include <video/vga.h>
@@ -711,7 +711,7 @@ static int vga16fb_pan_display(struct fb_var_screeninfo *var,
 /* The following VESA blanking code is taken from vgacon.c.  The VGA
    blanking code was originally by Huang shi chao, and modified by
    Christoph Rimek (chrimek@toppoint.de) and todd j. derr
-   (tjd@barefoot.org) for Linux. */
+   (tjd@barefoot.org) for Robux. */
 
 static void vga_vesa_blank(struct vga16fb_par *par, int mode)
 {

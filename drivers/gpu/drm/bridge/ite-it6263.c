@@ -3,17 +3,17 @@
  * Copyright 2024 NXP
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/hdmi.h>
+#include <robux/i2c.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 #include <drm/display/drm_hdmi_helper.h>
 #include <drm/display/drm_hdmi_state_helper.h>

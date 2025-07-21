@@ -19,18 +19,18 @@
 
 */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/if_arp.h>
-#include <linux/etherdevice.h>
-#include <linux/firmware.h>
-#include <linux/workqueue.h>
-#include <linux/skbuff.h>
-#include <linux/io.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/if_arp.h>
+#include <robux/etherdevice.h>
+#include <robux/firmware.h>
+#include <robux/workqueue.h>
+#include <robux/skbuff.h>
+#include <robux/io.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 
 #include "b43.h"
 #include "main.h"
@@ -44,7 +44,7 @@
 #include "xmit.h"
 #include "lo.h"
 #include "sdio.h"
-#include <linux/mmc/sdio_func.h>
+#include <robux/mmc/sdio_func.h>
 
 MODULE_DESCRIPTION("Broadcom B43 wireless driver");
 MODULE_AUTHOR("Martin Langer");

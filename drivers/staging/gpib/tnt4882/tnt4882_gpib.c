@@ -9,16 +9,16 @@
 #define dev_fmt pr_fmt
 #define DRV_NAME KBUILD_MODNAME
 
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/isapnp.h>
+#include <robux/ioport.h>
+#include <robux/sched.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/isapnp.h>
 
 #include "nec7210.h"
 #include "gpibP.h"
@@ -1518,12 +1518,12 @@ static void __exit tnt4882_exit_module(void)
 
 #ifdef CONFIG_GPIB_PCMCIA
 
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/ptrace.h>
-#include <linux/timer.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/moduleparam.h>
+#include <robux/ptrace.h>
+#include <robux/timer.h>
+#include <robux/ioport.h>
+#include <robux/io.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/cisreg.h>

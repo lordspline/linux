@@ -5,15 +5,15 @@
  * Copyright 2020 Michael Walle <michael@walle.cc>
  */
 
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/regmap.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/regmap.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 /* GPIO flavor */
 #define GPIO_REG_DIR	0x00

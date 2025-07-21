@@ -14,8 +14,8 @@
 #include <crypto/internal/cipher.h>
 #include <crypto/internal/simd.h>
 #include <crypto/sm4.h>
-#include <linux/linkage.h>
-#include <linux/module.h>
+#include <robux/linkage.h>
+#include <robux/module.h>
 
 asmlinkage void sm4_expandkey_zvksed_zvkb(const u8 user_key[SM4_KEY_SIZE],
 					  u32 rkey_enc[SM4_RKEY_WORDS],

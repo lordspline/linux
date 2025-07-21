@@ -4,20 +4,20 @@
  * Author: Jacob Chen <jacob-chen@iotwrt.com>
  */
 
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
 
-#include <linux/platform_device.h>
+#include <robux/platform_device.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-event.h>
 #include <media/v4l2-ioctl.h>

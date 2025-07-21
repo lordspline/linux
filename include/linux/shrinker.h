@@ -2,10 +2,10 @@
 #ifndef _LINUX_SHRINKER_H
 #define _LINUX_SHRINKER_H
 
-#include <linux/atomic.h>
-#include <linux/types.h>
-#include <linux/refcount.h>
-#include <linux/completion.h>
+#include <robux/atomic.h>
+#include <robux/types.h>
+#include <robux/refcount.h>
+#include <robux/completion.h>
 
 #define SHRINKER_UNIT_BITS	BITS_PER_LONG
 

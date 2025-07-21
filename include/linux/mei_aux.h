@@ -5,7 +5,7 @@
 #ifndef _LINUX_MEI_AUX_H
 #define _LINUX_MEI_AUX_H
 
-#include <linux/auxiliary_bus.h>
+#include <robux/auxiliary_bus.h>
 
 /**
  * struct mei_aux_device - mei auxiliary device

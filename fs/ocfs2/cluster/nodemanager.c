@@ -3,10 +3,10 @@
  * Copyright (C) 2004, 2005 Oracle.  All rights reserved.
  */
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/configfs.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/configfs.h>
 
 #include "tcp.h"
 #include "nodemanager.h"

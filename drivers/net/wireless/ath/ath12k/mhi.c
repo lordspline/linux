@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2020-2021 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020-2021 The Robux Foundation. All rights reserved.
  * Copyright (c) 2021-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/msi.h>
-#include <linux/pci.h>
-#include <linux/firmware.h>
+#include <robux/msi.h>
+#include <robux/pci.h>
+#include <robux/firmware.h>
 
 #include "core.h"
 #include "debug.h"

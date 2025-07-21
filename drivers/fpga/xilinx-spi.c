@@ -12,10 +12,10 @@
 
 #include "xilinx-core.h"
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of.h>
+#include <robux/spi/spi.h>
 
 static int xilinx_spi_write(struct xilinx_fpga_core *core, const char *buf,
 			    size_t count)

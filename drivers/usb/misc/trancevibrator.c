@@ -6,11 +6,11 @@
  */
 
 /* Standard include files */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/usb.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/usb.h>
 
 #define DRIVER_AUTHOR "Sam Hocevar, sam@zoy.org"
 #define DRIVER_DESC "PlayStation 2 Trance Vibrator driver"

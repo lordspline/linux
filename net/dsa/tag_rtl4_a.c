@@ -15,8 +15,8 @@
  * frames.
  */
 
-#include <linux/etherdevice.h>
-#include <linux/bits.h>
+#include <robux/etherdevice.h>
+#include <robux/bits.h>
 
 #include "tag.h"
 

@@ -11,9 +11,9 @@
 #ifndef __CCP_H__
 #define __CCP_H__
 
-#include <linux/scatterlist.h>
-#include <linux/workqueue.h>
-#include <linux/list.h>
+#include <robux/scatterlist.h>
+#include <robux/workqueue.h>
+#include <robux/list.h>
 #include <crypto/aes.h>
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>

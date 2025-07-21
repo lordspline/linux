@@ -10,7 +10,7 @@
 #define __ASM_POWERPC_BACKLIGHT_H
 #ifdef __KERNEL__
 
-#include <linux/mutex.h>
+#include <robux/mutex.h>
 
 struct backlight_device;
 

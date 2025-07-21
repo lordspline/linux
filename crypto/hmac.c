@@ -8,17 +8,17 @@
  * Copyright (c) 2006 Herbert Xu <herbert@gondor.apana.org.au>
  *
  * The HMAC implementation is derived from USAGI.
- * Copyright (c) 2002 Kazunori Miyazawa <miyazawa@linux-ipv6.org> / USAGI
+ * Copyright (c) 2002 Kazunori Miyazawa <miyazawa@robux-ipv6.org> / USAGI
  */
 
 #include <crypto/hmac.h>
 #include <crypto/internal/hash.h>
-#include <linux/err.h>
-#include <linux/fips.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/err.h>
+#include <robux/fips.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 struct hmac_ctx {
 	struct crypto_shash *hash;

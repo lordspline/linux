@@ -4,9 +4,9 @@
  *
  * Copyright (c) 2009 Daniel Mack <daniel@caiaq.de>
  */
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/io.h>
 
 #include "hardware.h"
 #include "iim.h"

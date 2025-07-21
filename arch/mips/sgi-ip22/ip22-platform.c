@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/if_ether.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/if_ether.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
 
 #include <asm/paccess.h>
 #include <asm/sgi/ip22.h>

@@ -8,10 +8,10 @@
  * Copyright (C) 2002, 2004 Oracle.  All rights reserved.
  */
 
-#include <linux/bitmap.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/highmem.h>
+#include <robux/bitmap.h>
+#include <robux/fs.h>
+#include <robux/types.h>
+#include <robux/highmem.h>
 
 #include <cluster/masklog.h>
 

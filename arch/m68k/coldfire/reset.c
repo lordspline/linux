@@ -8,9 +8,9 @@
  * for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
 #include <asm/machdep.h>
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>

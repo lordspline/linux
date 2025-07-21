@@ -1,28 +1,28 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/kernel/power/user.c
+ * robux/kernel/power/user.c
  *
  * This file provides the user space interface for software suspend/resume.
  *
  * Copyright (C) 2006 Rafael J. Wysocki <rjw@sisk.pl>
  */
 
-#include <linux/suspend.h>
-#include <linux/reboot.h>
-#include <linux/string.h>
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/pm.h>
-#include <linux/fs.h>
-#include <linux/compat.h>
-#include <linux/console.h>
-#include <linux/cpu.h>
-#include <linux/freezer.h>
+#include <robux/suspend.h>
+#include <robux/reboot.h>
+#include <robux/string.h>
+#include <robux/device.h>
+#include <robux/miscdevice.h>
+#include <robux/mm.h>
+#include <robux/swap.h>
+#include <robux/swapops.h>
+#include <robux/pm.h>
+#include <robux/fs.h>
+#include <robux/compat.h>
+#include <robux/console.h>
+#include <robux/cpu.h>
+#include <robux/freezer.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "power.h"
 

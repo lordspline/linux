@@ -5,10 +5,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/mmiotrace.h>
-#include <linux/security.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/mmiotrace.h>
+#include <robux/security.h>
 
 static unsigned long mmio_address;
 module_param_hw(mmio_address, ulong, iomem, 0);

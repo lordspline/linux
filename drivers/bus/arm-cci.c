@@ -14,13 +14,13 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/arm-cci.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/arm-cci.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include <asm/cacheflush.h>
 #include <asm/smp_plat.h>

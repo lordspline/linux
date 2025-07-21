@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/mm/mincore.c
+ *	robux/mm/mincore.c
  *
  * Copyright (C) 1994-2006  Linus Torvalds
  */
@@ -8,18 +8,18 @@
 /*
  * The mincore() system call.
  */
-#include <linux/pagemap.h>
-#include <linux/gfp.h>
-#include <linux/pagewalk.h>
-#include <linux/mman.h>
-#include <linux/syscalls.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/shmem_fs.h>
-#include <linux/hugetlb.h>
-#include <linux/pgtable.h>
+#include <robux/pagemap.h>
+#include <robux/gfp.h>
+#include <robux/pagewalk.h>
+#include <robux/mman.h>
+#include <robux/syscalls.h>
+#include <robux/swap.h>
+#include <robux/swapops.h>
+#include <robux/shmem_fs.h>
+#include <robux/hugetlb.h>
+#include <robux/pgtable.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include "swap.h"
 #include "internal.h"
 

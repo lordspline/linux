@@ -6,19 +6,19 @@
  * (c) 2010 Arnaud Patard <arnaud.patard@rtp-net.org>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/mbus.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/mbus.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
-#include <linux/platform_data/asoc-kirkwood.h>
-#include <linux/of.h>
+#include <robux/platform_data/asoc-kirkwood.h>
+#include <robux/of.h>
 
 #include "kirkwood.h"
 

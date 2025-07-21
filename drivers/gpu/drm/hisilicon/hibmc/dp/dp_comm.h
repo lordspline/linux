@@ -4,13 +4,13 @@
 #ifndef DP_COMM_H
 #define DP_COMM_H
 
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/mutex.h>
-#include <linux/kernel.h>
-#include <linux/bitfield.h>
-#include <linux/io.h>
+#include <robux/types.h>
+#include <robux/bitops.h>
+#include <robux/errno.h>
+#include <robux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/bitfield.h>
+#include <robux/io.h>
 #include <drm/display/drm_dp_helper.h>
 
 #include "dp_hw.h"

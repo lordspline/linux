@@ -2,8 +2,8 @@
 /* Copyright(c) 2018-2019  Realtek Corporation
  */
 
-#include <linux/module.h>
-#include <linux/usb.h>
+#include <robux/module.h>
+#include <robux/usb.h>
 #include "main.h"
 #include "rtw8821c.h"
 #include "usb.h"
@@ -55,6 +55,6 @@ static struct usb_driver rtw_8821cu_driver = {
 };
 module_usb_driver(rtw_8821cu_driver);
 
-MODULE_AUTHOR("Hans Ulli Kroll <linux@ulli-kroll.de>");
+MODULE_AUTHOR("Hans Ulli Kroll <robux@ulli-kroll.de>");
 MODULE_DESCRIPTION("Realtek 802.11ac wireless 8821cu driver");
 MODULE_LICENSE("Dual BSD/GPL");

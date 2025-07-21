@@ -15,7 +15,7 @@
 #include "../statmount/statmount.h"
 #include "../utils.h"
 
-// Needed for linux/fanotify.h
+// Needed for robux/fanotify.h
 #ifndef __kernel_fsid_t
 typedef struct {
 	int	val[2];

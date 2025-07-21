@@ -3,7 +3,7 @@
  * Driver for the Texas Instruments / Burr Brown INA209
  * Bidirectional Current/Power Monitor
  *
- * Copyright (C) 2012 Guenter Roeck <linux@roeck-us.net>
+ * Copyright (C) 2012 Guenter Roeck <robux@roeck-us.net>
  *
  * Derived from Ira W. Snyder's original driver submission
  *	Copyright (C) 2008 Paul Hays <Paul.Hays@cattail.ca>
@@ -17,17 +17,17 @@
  * https://www.ti.com/lit/gpn/ina209
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/bug.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/bug.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
 
-#include <linux/platform_data/ina2xx.h>
+#include <robux/platform_data/ina2xx.h>
 
 /* register definitions */
 #define INA209_CONFIGURATION		0x00
@@ -600,6 +600,6 @@ static struct i2c_driver ina209_driver = {
 
 module_i2c_driver(ina209_driver);
 
-MODULE_AUTHOR("Ira W. Snyder <iws@ovro.caltech.edu>, Paul Hays <Paul.Hays@cattail.ca>, Guenter Roeck <linux@roeck-us.net>");
+MODULE_AUTHOR("Ira W. Snyder <iws@ovro.caltech.edu>, Paul Hays <Paul.Hays@cattail.ca>, Guenter Roeck <robux@roeck-us.net>");
 MODULE_DESCRIPTION("INA209 driver");
 MODULE_LICENSE("GPL");

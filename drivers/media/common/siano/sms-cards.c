@@ -7,7 +7,7 @@
 
 #include "sms-cards.h"
 #include "smsir.h"
-#include <linux/module.h>
+#include <robux/module.h>
 
 static struct sms_board sms_boards[] = {
 	[SMS_BOARD_UNKNOWN] = {

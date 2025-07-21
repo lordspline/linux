@@ -7,11 +7,11 @@
  * Author: Gary R Hook <gary.hook@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/scatterlist.h>
-#include <linux/crypto.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/scatterlist.h>
+#include <robux/crypto.h>
 #include <crypto/internal/aead.h>
 #include <crypto/algapi.h>
 #include <crypto/aes.h>

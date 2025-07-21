@@ -2,8 +2,8 @@
 #ifndef __PMAC_H__
 #define __PMAC_H__
 
-#include <linux/pci.h>
-#include <linux/irq.h>
+#include <robux/pci.h>
+#include <robux/irq.h>
 
 #include <asm/pmac_feature.h>
 

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/kdebug.h>
-#include <linux/kprobes.h>
-#include <linux/preempt.h>
+#include <robux/kdebug.h>
+#include <robux/kprobes.h>
+#include <robux/preempt.h>
 #include <asm/break.h>
 
 #define KPROBE_BP_INSN		__emit_break(BRK_KPROBE_BP)

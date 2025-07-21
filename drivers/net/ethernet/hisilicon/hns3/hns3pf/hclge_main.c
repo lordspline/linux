@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright (c) 2016-2017 Hisilicon Limited.
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/etherdevice.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/if_vlan.h>
-#include <linux/crash_dump.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/etherdevice.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/if_vlan.h>
+#include <robux/crash_dump.h>
 
 #include <net/rtnetlink.h>
 

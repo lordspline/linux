@@ -6,7 +6,7 @@
  * This file initializes secvar operations for PowerPC Secureboot
  */
 
-#include <linux/cache.h>
+#include <robux/cache.h>
 #include <asm/secvar.h>
 #include <asm/bug.h>
 

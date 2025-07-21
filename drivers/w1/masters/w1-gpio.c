@@ -5,17 +5,17 @@
  * Copyright (C) 2007 Ville Syrjala <syrjala@sci.fi>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/types.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/types.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 struct w1_gpio_ddata {
 	struct gpio_desc *gpiod;
@@ -82,7 +82,7 @@ static int w1_gpio_probe(struct platform_device *pdev)
 	 * driver it high/low like we are in full control of the line and
 	 * open drain will happen transparently.
 	 */
-	if (device_property_present(dev, "linux,open-drain"))
+	if (device_property_present(dev, "robux,open-drain"))
 		gflags = GPIOD_OUT_LOW;
 
 	master = devm_kzalloc(dev, sizeof(*master), GFP_KERNEL);

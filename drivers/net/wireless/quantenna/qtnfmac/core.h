@@ -4,22 +4,22 @@
 #ifndef _QTN_FMAC_CORE_H_
 #define _QTN_FMAC_CORE_H_
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/semaphore.h>
-#include <linux/ip.h>
-#include <linux/skbuff.h>
-#include <linux/if_arp.h>
-#include <linux/etherdevice.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/semaphore.h>
+#include <robux/ip.h>
+#include <robux/skbuff.h>
+#include <robux/if_arp.h>
+#include <robux/etherdevice.h>
 #include <net/sock.h>
 #include <net/cfg80211.h>
-#include <linux/vmalloc.h>
-#include <linux/firmware.h>
-#include <linux/ctype.h>
-#include <linux/workqueue.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
+#include <robux/vmalloc.h>
+#include <robux/firmware.h>
+#include <robux/ctype.h>
+#include <robux/workqueue.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
 
 #include "qlink.h"
 #include "trans.h"

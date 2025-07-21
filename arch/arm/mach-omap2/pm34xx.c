@@ -15,18 +15,18 @@
  * Based on pm.c for omap1
  */
 
-#include <linux/cpu_pm.h>
-#include <linux/pm.h>
-#include <linux/suspend.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/cpuidle.h>
+#include <robux/cpu_pm.h>
+#include <robux/pm.h>
+#include <robux/suspend.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/cpuidle.h>
 
 #include <trace/events/power.h>
 

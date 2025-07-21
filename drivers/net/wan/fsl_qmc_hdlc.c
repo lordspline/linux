@@ -7,22 +7,22 @@
  * Author: Herve Codina <herve.codina@bootlin.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/bitmap.h>
-#include <linux/dma-mapping.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/framer/framer.h>
-#include <linux/hdlc.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/bug.h>
+#include <robux/cleanup.h>
+#include <robux/bitmap.h>
+#include <robux/dma-mapping.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/framer/framer.h>
+#include <robux/hdlc.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 #include <soc/fsl/qe/qmc.h>
 

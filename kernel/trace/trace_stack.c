@@ -3,17 +3,17 @@
  * Copyright (C) 2008 Steven Rostedt <srostedt@redhat.com>
  *
  */
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
-#include <linux/security.h>
-#include <linux/kallsyms.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
-#include <linux/ftrace.h>
-#include <linux/module.h>
-#include <linux/sysctl.h>
-#include <linux/init.h>
+#include <robux/sched/task_stack.h>
+#include <robux/stacktrace.h>
+#include <robux/security.h>
+#include <robux/kallsyms.h>
+#include <robux/seq_file.h>
+#include <robux/spinlock.h>
+#include <robux/uaccess.h>
+#include <robux/ftrace.h>
+#include <robux/module.h>
+#include <robux/sysctl.h>
+#include <robux/init.h>
 
 #include <asm/setup.h>
 

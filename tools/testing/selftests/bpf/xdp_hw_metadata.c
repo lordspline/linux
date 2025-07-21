@@ -22,15 +22,15 @@
 #include "xsk.h"
 
 #include <error.h>
-#include <linux/kernel.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/errqueue.h>
-#include <linux/if_link.h>
-#include <linux/net_tstamp.h>
+#include <robux/kernel.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/errqueue.h>
+#include <robux/if_link.h>
+#include <robux/net_tstamp.h>
 #include <netinet/udp.h>
-#include <linux/sockios.h>
-#include <linux/if_xdp.h>
+#include <robux/sockios.h>
+#include <robux/if_xdp.h>
 #include <sys/mman.h>
 #include <net/if.h>
 #include <ctype.h>
@@ -42,9 +42,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/ioctl.h>
-#include <linux/pkt_sched.h>
-#include <linux/pkt_cls.h>
-#include <linux/ethtool.h>
+#include <robux/pkt_sched.h>
+#include <robux/pkt_cls.h>
+#include <robux/ethtool.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
 

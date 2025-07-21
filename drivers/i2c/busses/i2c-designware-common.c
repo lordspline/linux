@@ -11,26 +11,26 @@
 
 #define DEFAULT_SYMBOL_NAMESPACE	"I2C_DW_COMMON"
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/swab.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/swab.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
 #include "i2c-designware-core.h"
 
@@ -219,7 +219,7 @@ static int i2c_dw_validate_speed(struct dw_i2c_dev *dev)
 
 #ifdef CONFIG_OF
 
-#include <linux/platform_device.h>
+#include <robux/platform_device.h>
 
 #define MSCC_ICPU_CFG_TWI_DELAY		0x0
 #define MSCC_ICPU_CFG_TWI_DELAY_ENABLE	BIT(0)
@@ -257,7 +257,7 @@ static inline void i2c_dw_of_configure(struct device *device) { }
 
 #ifdef CONFIG_ACPI
 
-#include <linux/dmi.h>
+#include <robux/dmi.h>
 
 /*
  * The HCNT/LCNT information coming from ACPI should be the most accurate

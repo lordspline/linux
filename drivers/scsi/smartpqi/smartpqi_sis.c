@@ -9,12 +9,12 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
 #include <scsi/scsi_device.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include "smartpqi.h"
 #include "smartpqi_sis.h"
 

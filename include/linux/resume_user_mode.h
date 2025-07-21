@@ -3,11 +3,11 @@
 #ifndef LINUX_RESUME_USER_MODE_H
 #define LINUX_RESUME_USER_MODE_H
 
-#include <linux/sched.h>
-#include <linux/task_work.h>
-#include <linux/memcontrol.h>
-#include <linux/rseq.h>
-#include <linux/blk-cgroup.h>
+#include <robux/sched.h>
+#include <robux/task_work.h>
+#include <robux/memcontrol.h>
+#include <robux/rseq.h>
+#include <robux/blk-cgroup.h>
 
 /**
  * set_notify_resume - cause resume_user_mode_work() to be called

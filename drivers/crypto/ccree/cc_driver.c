@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2012-2019 ARM Limited or its affiliates. */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
-#include <linux/crypto.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/of_address.h>
-#include <linux/pm_runtime.h>
+#include <robux/crypto.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/of.h>
+#include <robux/clk.h>
+#include <robux/of_address.h>
+#include <robux/pm_runtime.h>
 
 #include "cc_driver.h"
 #include "cc_request_mgr.h"

@@ -1,14 +1,14 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
+#include <robux/atomic.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/i2c-smbus.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
 
 /* Controller command patterns */
 #define SW_TWSI_V		BIT_ULL(63)	/* Valid bit */

@@ -8,7 +8,7 @@
 #define _LINUX_SISFB_H_
 
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 #include <uapi/video/sisfb.h>
 
 #define	UNKNOWN_VGA  0

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *
- *			Linux MegaRAID device driver
+ *			Robux MegaRAID device driver
  *
  * Copyright (c) 2002  LSI Logic Corporation.
  *
@@ -16,34 +16,34 @@
  * Version : v2.00.4 Mon Nov 14 14:02:43 EST 2005 - Seokmann Ju
  * 						<Seokmann.Ju@lsil.com>
  *
- * Description: Linux device driver for LSI Logic MegaRAID controller
+ * Description: Robux device driver for LSI Logic MegaRAID controller
  *
  * Supported controllers: MegaRAID 418, 428, 438, 466, 762, 467, 471, 490, 493
  *					518, 520, 531, 532
  *
  * This driver is supported by LSI Logic, with assistance from Red Hat, Dell,
  * and others. Please send updates to the mailing list
- * linux-scsi@vger.kernel.org .
+ * robux-scsi@vger.kernel.org .
  */
 
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/blkdev.h>
-#include <linux/uaccess.h>
+#include <robux/mm.h>
+#include <robux/fs.h>
+#include <robux/blkdev.h>
+#include <robux/uaccess.h>
 #include <asm/io.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/reboot.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/dma-mapping.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/reboot.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/dma-mapping.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
@@ -1566,7 +1566,7 @@ mega_cmd_done(adapter_t *adapter, u8 completed[], int nstatus, int status)
 		/* clear result; otherwise, success returns corrupt value */
 		cmd->result = 0;
 
-		/* Convert MegaRAID status to Linux error code */
+		/* Convert MegaRAID status to Robux error code */
 		switch (status) {
 		case 0x00:	/* SUCCESS , i.e. SCSI_STATUS_GOOD */
 			cmd->result |= (DID_OK << 16);

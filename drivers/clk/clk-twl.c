@@ -5,11 +5,11 @@
  * inspired by the driver for the Palmas device
  */
 
-#include <linux/clk-provider.h>
-#include <linux/mfd/twl.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/mfd/twl.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #define VREG_STATE		2
 #define VREG_GRP		0

@@ -10,12 +10,12 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/pci.h>
 
-#include <linux/can/dev.h>
+#include <robux/can/dev.h>
 
 #include "c_can.h"
 

@@ -10,9 +10,9 @@
 #ifndef SCSI_TRANSPORT_FC_H
 #define SCSI_TRANSPORT_FC_H
 
-#include <linux/sched.h>
-#include <linux/bsg-lib.h>
-#include <linux/unaligned.h>
+#include <robux/sched.h>
+#include <robux/bsg-lib.h>
+#include <robux/unaligned.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_netlink.h>
 #include <scsi/scsi_host.h>

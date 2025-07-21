@@ -2,14 +2,14 @@
 /*
  * Copyright(c) 2013-2015 Intel Corporation. All rights reserved.
  */
-#include <linux/vmalloc.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/sizes.h>
-#include <linux/ndctl.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/nd.h>
+#include <robux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/sizes.h>
+#include <robux/ndctl.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/nd.h>
 #include "label.h"
 #include "nd.h"
 

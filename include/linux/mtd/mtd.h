@@ -6,13 +6,13 @@
 #ifndef __MTD_MTD_H__
 #define __MTD_MTD_H__
 
-#include <linux/types.h>
-#include <linux/uio.h>
-#include <linux/list.h>
-#include <linux/notifier.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/nvmem-provider.h>
+#include <robux/types.h>
+#include <robux/uio.h>
+#include <robux/list.h>
+#include <robux/notifier.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/nvmem-provider.h>
 
 #include <mtd/mtd-abi.h>
 

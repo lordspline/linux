@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: GPL-2.0
  */
-#include <linux/irq.h>
+#include <robux/irq.h>
 #include <asm/apic.h>
 
 #include "local.h"

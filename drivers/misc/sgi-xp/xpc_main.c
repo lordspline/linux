@@ -44,14 +44,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sysctl.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
-#include <linux/kdebug.h>
-#include <linux/kthread.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/sysctl.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/reboot.h>
+#include <robux/kdebug.h>
+#include <robux/kthread.h>
 #include "xpc.h"
 
 #ifdef CONFIG_X86_64

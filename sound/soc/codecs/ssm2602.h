@@ -14,7 +14,7 @@
 #ifndef _SSM2602_H
 #define _SSM2602_H
 
-#include <linux/regmap.h>
+#include <robux/regmap.h>
 
 struct device;
 

@@ -73,13 +73,13 @@
  * manual attachment.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/comedi/comedi_pci.h>
-#include <linux/comedi/comedi_8254.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/gfp.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/comedi/comedi_pci.h>
+#include <robux/comedi/comedi_8254.h>
 
 #include "amcc_s5933.h"
 

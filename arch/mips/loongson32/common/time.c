@@ -3,8 +3,8 @@
  * Copyright (c) 2014 Zhang, Keguang <keguang.zhang@gmail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/of_clk.h>
+#include <robux/clk.h>
+#include <robux/of_clk.h>
 #include <asm/time.h>
 
 void __init plat_time_init(void)

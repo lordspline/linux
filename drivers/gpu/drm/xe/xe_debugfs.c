@@ -5,9 +5,9 @@
 
 #include "xe_debugfs.h"
 
-#include <linux/debugfs.h>
-#include <linux/fault-inject.h>
-#include <linux/string_helpers.h>
+#include <robux/debugfs.h>
+#include <robux/fault-inject.h>
+#include <robux/string_helpers.h>
 
 #include <drm/drm_debugfs.h>
 

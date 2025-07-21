@@ -7,16 +7,16 @@
  *  TODO: SPI, use power-down mode for suspend?, interrupt handling?
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/jiffies.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/slab.h>
 
 #define ADT7411_REG_STAT_1			0x00
 #define ADT7411_STAT_1_INT_TEMP_HIGH		BIT(0)

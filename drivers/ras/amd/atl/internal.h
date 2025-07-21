@@ -13,9 +13,9 @@
 #ifndef __AMD_ATL_INTERNAL_H__
 #define __AMD_ATL_INTERNAL_H__
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/ras.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/ras.h>
 
 #include <asm/amd/nb.h>
 #include <asm/amd/node.h>

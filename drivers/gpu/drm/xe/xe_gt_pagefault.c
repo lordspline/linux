@@ -5,8 +5,8 @@
 
 #include "xe_gt_pagefault.h"
 
-#include <linux/bitfield.h>
-#include <linux/circ_buf.h>
+#include <robux/bitfield.h>
+#include <robux/circ_buf.h>
 
 #include <drm/drm_exec.h>
 #include <drm/drm_managed.h>

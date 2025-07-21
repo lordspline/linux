@@ -8,16 +8,16 @@
  *
  * Many thanks to Klaus Hitschler <klaus.hitschler@gmx.de>
  */
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <linux/ethtool.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/usb.h>
+#include <robux/ethtool.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/usb.h>
 
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
+#include <robux/can.h>
+#include <robux/can/dev.h>
+#include <robux/can/error.h>
 
 #include "pcan_usb_core.h"
 

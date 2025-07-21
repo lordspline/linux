@@ -10,12 +10,12 @@
 #define DRVNAME "gpio-f7188x"
 #define pr_fmt(fmt) DRVNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/gpio/driver.h>
-#include <linux/bitops.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/gpio/driver.h>
+#include <robux/bitops.h>
 
 /*
  * Super-I/O registers

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/ipc/shm.c
+ * robux/ipc/shm.c
  * Copyright (C) 1992, 1993 Krishna Balasubramanian
  *	 Many improvements/fixes by Bruno Haible.
  * Replaced `struct shm_desc' by `struct vm_area_struct', July 1994.
@@ -25,28 +25,28 @@
  * Davidlohr Bueso <davidlohr.bueso@hp.com>, June 2013.
  */
 
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/shm.h>
-#include <uapi/linux/shm.h>
-#include <linux/init.h>
-#include <linux/file.h>
-#include <linux/mman.h>
-#include <linux/shmem_fs.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/audit.h>
-#include <linux/capability.h>
-#include <linux/ptrace.h>
-#include <linux/seq_file.h>
-#include <linux/rwsem.h>
-#include <linux/nsproxy.h>
-#include <linux/mount.h>
-#include <linux/ipc_namespace.h>
-#include <linux/rhashtable.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/hugetlb.h>
+#include <robux/shm.h>
+#include <uapi/robux/shm.h>
+#include <robux/init.h>
+#include <robux/file.h>
+#include <robux/mman.h>
+#include <robux/shmem_fs.h>
+#include <robux/security.h>
+#include <robux/syscalls.h>
+#include <robux/audit.h>
+#include <robux/capability.h>
+#include <robux/ptrace.h>
+#include <robux/seq_file.h>
+#include <robux/rwsem.h>
+#include <robux/nsproxy.h>
+#include <robux/mount.h>
+#include <robux/ipc_namespace.h>
+#include <robux/rhashtable.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "util.h"
 
@@ -1149,7 +1149,7 @@ static int shmctl_stat(struct ipc_namespace *ns, int shmid,
 		err = 0;
 	} else {
 		/*
-		 * SHM_STAT and SHM_STAT_ANY (both Linux specific)
+		 * SHM_STAT and SHM_STAT_ANY (both Robux specific)
 		 * Return the full id, including the sequence number
 		 */
 		err = shp->shm_perm.id;

@@ -28,12 +28,12 @@
  * status of a command.
  */
 
-#include <linux/sched.h>
-#include <linux/gfp.h>
-#include <linux/errno.h>
-#include <linux/export.h>
+#include <robux/sched.h>
+#include <robux/gfp.h>
+#include <robux/errno.h>
+#include <robux/export.h>
 
-#include <linux/usb/quirks.h>
+#include <robux/usb/quirks.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_eh.h>
@@ -45,7 +45,7 @@
 #include "scsiglue.h"
 #include "debug.h"
 
-#include <linux/blkdev.h>
+#include <robux/blkdev.h>
 #include "../../scsi/sd.h"
 
 

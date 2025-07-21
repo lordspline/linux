@@ -5,15 +5,15 @@
  * Author: Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/mfd/stmpe.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/mfd/stmpe.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
+#include <robux/slab.h>
 
 #define STMPE24XX_PWMCS		0x30
 #define PWMCS_EN_PWM0		BIT(0)

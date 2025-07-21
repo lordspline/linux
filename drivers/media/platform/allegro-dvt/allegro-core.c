@@ -5,24 +5,24 @@
  * Allegro DVT video encoder driver
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/firmware.h>
-#include <linux/gcd.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/xlnx-vcu.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/firmware.h>
+#include <robux/gcd.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/log2.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mfd/syscon/xlnx-vcu.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-event.h>

@@ -3,11 +3,11 @@
 // Copyright(c) 2021-2022 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@robux.intel.com>
 //
 
-#include <linux/devcoredump.h>
-#include <linux/slab.h>
+#include <robux/devcoredump.h>
+#include <robux/slab.h>
 #include <sound/hdaudio_ext.h>
 #include "avs.h"
 #include "cldma.h"

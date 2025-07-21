@@ -31,9 +31,9 @@
  * SOFTWARE.
  */
 
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/vmalloc.h>
 
 #include "qib.h"
 #include "qib_qsfp.h"

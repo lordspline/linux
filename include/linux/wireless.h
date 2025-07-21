@@ -10,11 +10,11 @@
 #ifndef _LINUX_WIRELESS_H
 #define _LINUX_WIRELESS_H
 
-#include <uapi/linux/wireless.h>
+#include <uapi/robux/wireless.h>
 
 #ifdef CONFIG_COMPAT
 
-#include <linux/compat.h>
+#include <robux/compat.h>
 
 struct compat_iw_point {
 	compat_caddr_t pointer;

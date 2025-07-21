@@ -9,19 +9,19 @@
 
 #define pr_fmt(fmt)	"SEV: " fmt
 
-#include <linux/percpu-defs.h>
-#include <linux/cc_platform.h>
-#include <linux/printk.h>
-#include <linux/mm_types.h>
-#include <linux/set_memory.h>
-#include <linux/memblock.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/cpumask.h>
-#include <linux/efi.h>
-#include <linux/io.h>
-#include <linux/psp-sev.h>
-#include <uapi/linux/sev-guest.h>
+#include <robux/percpu-defs.h>
+#include <robux/cc_platform.h>
+#include <robux/printk.h>
+#include <robux/mm_types.h>
+#include <robux/set_memory.h>
+#include <robux/memblock.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/cpumask.h>
+#include <robux/efi.h>
+#include <robux/io.h>
+#include <robux/psp-sev.h>
+#include <uapi/robux/sev-guest.h>
 
 #include <asm/init.h>
 #include <asm/cpu_entry_area.h>
@@ -262,7 +262,7 @@ void __head early_snp_set_memory_shared(unsigned long vaddr, unsigned long paddr
  *   - via boot_params
  *
  * - when booted directly by firmware/bootloader (e.g. CONFIG_PVH):
- *   - via a setup_data entry, as defined by the Linux Boot Protocol
+ *   - via a setup_data entry, as defined by the Robux Boot Protocol
  *
  * Scan for the blob in that order.
  */

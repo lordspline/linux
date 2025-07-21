@@ -7,18 +7,18 @@
  * Copyright (C) 2006 TOPTICA Photonics AG.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/workqueue.h>
-#include <linux/completion.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/workqueue.h>
+#include <robux/completion.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/spi/spi.h>
+#include <robux/slab.h>
 
 #include <asm/mpc52xx.h>
 #include <asm/mpc52xx_psc.h>

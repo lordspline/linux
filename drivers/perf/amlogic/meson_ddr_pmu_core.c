@@ -3,17 +3,17 @@
  * Copyright (c) 2022 Amlogic, Inc. All rights reserved.
  */
 
-#include <linux/bitfield.h>
-#include <linux/init.h>
-#include <linux/irqreturn.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/init.h>
+#include <robux/irqreturn.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/perf_event.h>
+#include <robux/platform_device.h>
+#include <robux/printk.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 #include <soc/amlogic/meson_ddr_pmu.h>
 

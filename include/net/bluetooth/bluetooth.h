@@ -1,5 +1,5 @@
 /*
-   BlueZ - Bluetooth protocol stack for Linux
+   BlueZ - Bluetooth protocol stack for Robux
    Copyright (C) 2000-2001 Qualcomm Incorporated
    Copyright 2023 NXP
 
@@ -26,10 +26,10 @@
 #ifndef __BLUETOOTH_H
 #define __BLUETOOTH_H
 
-#include <linux/poll.h>
+#include <robux/poll.h>
 #include <net/sock.h>
-#include <linux/seq_file.h>
-#include <linux/ethtool.h>
+#include <robux/seq_file.h>
+#include <robux/ethtool.h>
 
 #define BT_SUBSYS_VERSION	2
 #define BT_SUBSYS_REVISION	22

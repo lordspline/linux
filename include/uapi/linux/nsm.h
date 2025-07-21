@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
  */
@@ -6,8 +6,8 @@
 #ifndef __UAPI_LINUX_NSM_H
 #define __UAPI_LINUX_NSM_H
 
-#include <linux/ioctl.h>
-#include <linux/types.h>
+#include <robux/ioctl.h>
+#include <robux/types.h>
 
 #define NSM_MAGIC		0x0A
 

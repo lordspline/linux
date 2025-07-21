@@ -4,14 +4,14 @@
  * Copyright (C) 2002
  * 	Tapio Laxström (tapio.laxstrom@iptime.fi)
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/ihex.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/ihex.h>
 
 /* include firmware (variables)*/
 

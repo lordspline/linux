@@ -17,10 +17,10 @@
 #include "vdso.h"
 #include "debug.h"
 #include "util/copyfile.h"
-#include <linux/ctype.h>
-#include <linux/kernel.h>
-#include <linux/zalloc.h>
-#include <linux/string.h>
+#include <robux/ctype.h>
+#include <robux/kernel.h>
+#include <robux/zalloc.h>
+#include <robux/string.h>
 #include <symbol/kallsyms.h>
 #include <internal/lib.h>
 

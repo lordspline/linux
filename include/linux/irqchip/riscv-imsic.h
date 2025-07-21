@@ -6,10 +6,10 @@
 #ifndef __LINUX_IRQCHIP_RISCV_IMSIC_H
 #define __LINUX_IRQCHIP_RISCV_IMSIC_H
 
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/fwnode.h>
+#include <robux/types.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/fwnode.h>
 #include <asm/csr.h>
 
 #define IMSIC_MMIO_PAGE_SHIFT		12

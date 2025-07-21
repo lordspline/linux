@@ -9,12 +9,12 @@
  *
  * NOTE: PM support is not currently available.
  */
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/ahci_platform.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/ahci_platform.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
 #include "ahci.h"
 
 #define DRV_NAME "xgene-ahci"

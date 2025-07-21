@@ -9,9 +9,9 @@
 #ifndef _ALIENWARE_WMI_H_
 #define _ALIENWARE_WMI_H_
 
-#include <linux/leds.h>
-#include <linux/platform_device.h>
-#include <linux/wmi.h>
+#include <robux/leds.h>
+#include <robux/platform_device.h>
+#include <robux/wmi.h>
 
 #define LEGACY_CONTROL_GUID		"A90597CE-A997-11DA-B012-B622A1EF5492"
 #define LEGACY_POWER_CONTROL_GUID	"A80593CE-A997-11DA-B012-B622A1EF5492"

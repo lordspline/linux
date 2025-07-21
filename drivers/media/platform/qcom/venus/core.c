@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2012-2016, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2016, The Robux Foundation. All rights reserved.
  * Copyright (C) 2017 Linaro Ltd.
  */
-#include <linux/init.h>
-#include <linux/interconnect.h>
-#include <linux/io.h>
-#include <linux/ioctl.h>
-#include <linux/delay.h>
-#include <linux/devcoredump.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
+#include <robux/init.h>
+#include <robux/interconnect.h>
+#include <robux/io.h>
+#include <robux/ioctl.h>
+#include <robux/delay.h>
+#include <robux/devcoredump.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
 #include <media/videobuf2-v4l2.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-mem2mem.h>

@@ -5,19 +5,19 @@
  * USB Type-C Port Controller Interface.
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/usb/pd.h>
-#include <linux/usb/tcpci.h>
-#include <linux/usb/tcpm.h>
-#include <linux/usb/typec.h>
-#include <linux/regulator/consumer.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/usb/pd.h>
+#include <robux/usb/tcpci.h>
+#include <robux/usb/tcpm.h>
+#include <robux/usb/typec.h>
+#include <robux/regulator/consumer.h>
 
 #define	PD_RETRY_COUNT_DEFAULT			3
 #define	PD_RETRY_COUNT_3_0_OR_HIGHER		2

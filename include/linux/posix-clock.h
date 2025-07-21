@@ -7,11 +7,11 @@
 #ifndef _LINUX_POSIX_CLOCK_H_
 #define _LINUX_POSIX_CLOCK_H_
 
-#include <linux/cdev.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/posix-timers.h>
-#include <linux/rwsem.h>
+#include <robux/cdev.h>
+#include <robux/fs.h>
+#include <robux/poll.h>
+#include <robux/posix-timers.h>
+#include <robux/rwsem.h>
 
 struct posix_clock;
 struct posix_clock_context;

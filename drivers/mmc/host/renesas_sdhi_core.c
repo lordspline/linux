@@ -18,25 +18,25 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/pinctrl-state.h>
-#include <linux/platform_data/tmio.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/reset.h>
-#include <linux/sh_dma.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/slot-gpio.h>
+#include <robux/module.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/pinctrl-state.h>
+#include <robux/platform_data/tmio.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/regulator/consumer.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/reset.h>
+#include <robux/sh_dma.h>
+#include <robux/slab.h>
 
 #include "renesas_sdhi.h"
 #include "tmio_mmc.h"

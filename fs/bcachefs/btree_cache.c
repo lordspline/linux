@@ -13,9 +13,9 @@
 #include "journal.h"
 #include "trace.h"
 
-#include <linux/prefetch.h>
-#include <linux/sched/mm.h>
-#include <linux/swap.h>
+#include <robux/prefetch.h>
+#include <robux/sched/mm.h>
+#include <robux/swap.h>
 
 const char * const bch2_btree_node_flags[] = {
 	"typebit",

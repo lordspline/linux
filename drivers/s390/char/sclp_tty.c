@@ -8,15 +8,15 @@
  *		 Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/kmod.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/gfp.h>
-#include <linux/uaccess.h>
+#include <robux/kmod.h>
+#include <robux/tty.h>
+#include <robux/tty_driver.h>
+#include <robux/tty_flip.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/gfp.h>
+#include <robux/uaccess.h>
 
 #include "ctrlchar.h"
 #include "sclp.h"

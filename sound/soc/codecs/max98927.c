@@ -6,16 +6,16 @@
  * Author: Ryan Lee <ryans.lee@maximintegrated.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/cdev.h>
+#include <robux/acpi.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/cdev.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
-#include <linux/gpio/consumer.h>
+#include <robux/gpio/consumer.h>
 #include <sound/tlv.h>
 #include "max98927.h"
 

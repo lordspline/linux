@@ -6,10 +6,10 @@
  * for more details.
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/zorro.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/zorro.h>
 
 #include <asm/amigahw.h>
 #include <asm/amigayle.h>

@@ -4,14 +4,14 @@
  *  Copyright 2009 Alessandro Rubini
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/amba/bus.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/amba/bus.h>
+#include <robux/hw_random.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/err.h>
 
 static int nmk_rng_read(struct hwrng *rng, void *data, size_t max, bool wait)
 {

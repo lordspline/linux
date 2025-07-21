@@ -9,13 +9,13 @@
 
 #define pr_fmt(fmt) "kallsyms_selftest: " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kallsyms.h>
-#include <linux/random.h>
-#include <linux/sched/clock.h>
-#include <linux/kthread.h>
-#include <linux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kallsyms.h>
+#include <robux/random.h>
+#include <robux/sched/clock.h>
+#include <robux/kthread.h>
+#include <robux/vmalloc.h>
 
 #include "kallsyms_internal.h"
 #include "kallsyms_selftest.h"

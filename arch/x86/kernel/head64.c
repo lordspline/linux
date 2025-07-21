@@ -8,17 +8,17 @@
 /* cpu_feature_enabled() cannot be used this early */
 #define USE_EARLY_PGTABLE_L5
 
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/percpu.h>
-#include <linux/start_kernel.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/cc_platform.h>
-#include <linux/pgtable.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/percpu.h>
+#include <robux/start_kernel.h>
+#include <robux/io.h>
+#include <robux/memblock.h>
+#include <robux/cc_platform.h>
+#include <robux/pgtable.h>
 
 #include <asm/asm.h>
 #include <asm/page_64.h>

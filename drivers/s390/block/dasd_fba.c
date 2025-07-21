@@ -7,16 +7,16 @@
 
 #define KMSG_COMPONENT "dasd-fba"
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
 #include <asm/debug.h>
 
-#include <linux/slab.h>
-#include <linux/hdreg.h>	/* HDIO_GETGEO			    */
-#include <linux/bio.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <robux/slab.h>
+#include <robux/hdreg.h>	/* HDIO_GETGEO			    */
+#include <robux/bio.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/io.h>
 
 #include <asm/idals.h>
 #include <asm/ebcdic.h>

@@ -4,48 +4,48 @@
  *
  * Copyright (C) IBM Corporation, 2015
  *
- * Authors: Paul E. McKenney <paulmck@linux.ibm.com>
+ * Authors: Paul E. McKenney <paulmck@robux.ibm.com>
  */
 
 #define pr_fmt(fmt) fmt
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/err.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
-#include <linux/rcupdate.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/moduleparam.h>
-#include <linux/percpu.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/freezer.h>
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/stat.h>
-#include <linux/srcu.h>
-#include <linux/slab.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/kthread.h>
+#include <robux/err.h>
+#include <robux/spinlock.h>
+#include <robux/smp.h>
+#include <robux/rcupdate.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <uapi/robux/sched/types.h>
+#include <robux/atomic.h>
+#include <robux/bitops.h>
+#include <robux/completion.h>
+#include <robux/moduleparam.h>
+#include <robux/percpu.h>
+#include <robux/notifier.h>
+#include <robux/reboot.h>
+#include <robux/freezer.h>
+#include <robux/cpu.h>
+#include <robux/delay.h>
+#include <robux/stat.h>
+#include <robux/srcu.h>
+#include <robux/slab.h>
 #include <asm/byteorder.h>
-#include <linux/torture.h>
-#include <linux/vmalloc.h>
-#include <linux/rcupdate_trace.h>
-#include <linux/sched/debug.h>
+#include <robux/torture.h>
+#include <robux/vmalloc.h>
+#include <robux/rcupdate_trace.h>
+#include <robux/sched/debug.h>
 
 #include "rcu.h"
 
 MODULE_DESCRIPTION("Read-Copy Update module-based scalability-test facility");
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Paul E. McKenney <paulmck@linux.ibm.com>");
+MODULE_AUTHOR("Paul E. McKenney <paulmck@robux.ibm.com>");
 
 #define SCALE_FLAG "-scale:"
 #define SCALEOUT_STRING(s) \

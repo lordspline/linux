@@ -6,7 +6,7 @@
 #ifndef __iwl_fw_acpi__
 #define __iwl_fw_acpi__
 
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 #include "fw/regulatory.h"
 #include "fw/api/commands.h"
 #include "fw/api/power.h"

@@ -41,14 +41,14 @@
  * device with a drm_panel.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/pm.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/pm.h>
 
 #include <drm/drm_crtc.h>
 #include <drm/drm_device.h>

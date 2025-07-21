@@ -2,7 +2,7 @@
 /*
  * BQ27xxx battery driver
  *
- * Copyright (C) 2008 Rodolfo Giometti <giometti@linux.it>
+ * Copyright (C) 2008 Rodolfo Giometti <giometti@robux.it>
  * Copyright (C) 2008 Eurotech S.p.A. <info@eurotech.it>
  * Copyright (C) 2010-2011 Lars-Peter Clausen <lars@metafoo.de>
  * Copyright (C) 2011 Pali Rohár <pali@kernel.org>
@@ -42,19 +42,19 @@
  * https://www.ti.com/product/bq78z100
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/param.h>
-#include <linux/jiffies.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/param.h>
+#include <robux/jiffies.h>
+#include <robux/workqueue.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
-#include <linux/power/bq27xxx_battery.h>
+#include <robux/power/bq27xxx_battery.h>
 
 #define BQ27XXX_MANUFACTURER	"Texas Instruments"
 
@@ -2317,6 +2317,6 @@ SIMPLE_DEV_PM_OPS(bq27xxx_battery_battery_pm_ops,
 		  bq27xxx_battery_suspend, bq27xxx_battery_resume);
 EXPORT_SYMBOL_GPL(bq27xxx_battery_battery_pm_ops);
 
-MODULE_AUTHOR("Rodolfo Giometti <giometti@linux.it>");
+MODULE_AUTHOR("Rodolfo Giometti <giometti@robux.it>");
 MODULE_DESCRIPTION("BQ27xxx battery monitor driver");
 MODULE_LICENSE("GPL");

@@ -102,7 +102,7 @@ static __always_inline void halt(void)
 #include <asm/paravirt.h>
 #else
 #ifndef __ASSEMBLER__
-#include <linux/types.h>
+#include <robux/types.h>
 
 static __always_inline unsigned long arch_local_save_flags(void)
 {

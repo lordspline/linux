@@ -15,7 +15,7 @@
 
 #include <asm/ptrace.h>
 #include <asm/coprocessor.h>
-#include <linux/elf-em.h>
+#include <robux/elf-em.h>
 
 /* Xtensa processor ELF architecture-magic number */
 

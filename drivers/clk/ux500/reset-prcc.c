@@ -3,15 +3,15 @@
  * Reset controller portions for the U8500 PRCC
  * Copyright (C) 2021 Linus Walleij <linus.walleij@linaro.org>
  */
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/types.h>
-#include <linux/reset-controller.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/types.h>
+#include <robux/reset-controller.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
 
 #include "prcc.h"
 #include "reset-prcc.h"

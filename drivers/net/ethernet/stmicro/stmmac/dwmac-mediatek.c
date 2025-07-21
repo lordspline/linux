@@ -2,15 +2,15 @@
 /*
  * Copyright (c) 2018 MediaTek Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/stmmac.h>
+#include <robux/bitfield.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/stmmac.h>
 
 #include "stmmac.h"
 #include "stmmac_platform.h"

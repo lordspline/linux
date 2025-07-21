@@ -7,23 +7,23 @@
  * Author: Hyun Woo Kwon <hyun.kwon@xilinx.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dma/xilinx_dpdma.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/dma/xilinx_dpdma.h>
+#include <robux/dmaengine.h>
+#include <robux/dmapool.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/platform_device.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/wait.h>
 
 #include <dt-bindings/dma/xlnx-zynqmp-dpdma.h>
 

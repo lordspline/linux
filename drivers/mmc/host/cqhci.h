@@ -1,17 +1,17 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
-/* Copyright (c) 2015, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2015, The Robux Foundation. All rights reserved.
  */
 #ifndef LINUX_MMC_CQHCI_H
 #define LINUX_MMC_CQHCI_H
 
-#include <linux/compiler.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
-#include <linux/completion.h>
-#include <linux/wait.h>
-#include <linux/irqreturn.h>
+#include <robux/compiler.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/spinlock_types.h>
+#include <robux/types.h>
+#include <robux/completion.h>
+#include <robux/wait.h>
+#include <robux/irqreturn.h>
 #include <asm/io.h>
 
 /* registers */

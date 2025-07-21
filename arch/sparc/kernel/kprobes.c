@@ -4,15 +4,15 @@
  * Copyright (C) 2004 David S. Miller <davem@davemloft.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/kprobes.h>
-#include <linux/extable.h>
-#include <linux/kdebug.h>
-#include <linux/slab.h>
-#include <linux/context_tracking.h>
+#include <robux/kernel.h>
+#include <robux/kprobes.h>
+#include <robux/extable.h>
+#include <robux/kdebug.h>
+#include <robux/slab.h>
+#include <robux/context_tracking.h>
 #include <asm/signal.h>
 #include <asm/cacheflush.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 /* We do not have hardware single-stepping on sparc64.
  * So we implement software single-stepping with breakpoint

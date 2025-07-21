@@ -5,15 +5,15 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Author: Liam Girdwood <liam.r.girdwood@linux.intel.com>
+// Author: Liam Girdwood <liam.r.girdwood@robux.intel.com>
 //
 
-#include <linux/firmware.h>
-#include <linux/dmi.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_data/x86/soc.h>
-#include <linux/pm_runtime.h>
+#include <robux/firmware.h>
+#include <robux/dmi.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/platform_data/x86/soc.h>
+#include <robux/pm_runtime.h>
 #include <sound/soc-acpi.h>
 #include <sound/soc-acpi-intel-match.h>
 #include <sound/sof.h>

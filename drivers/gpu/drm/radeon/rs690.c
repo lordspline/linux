@@ -26,7 +26,7 @@
  *          Jerome Glisse
  */
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 #include "atom.h"
 #include "radeon.h"

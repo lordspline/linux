@@ -14,11 +14,11 @@
 #ifndef __LINUX_IPMI_H
 #define __LINUX_IPMI_H
 
-#include <uapi/linux/ipmi.h>
+#include <uapi/robux/ipmi.h>
 
-#include <linux/list.h>
-#include <linux/proc_fs.h>
-#include <linux/acpi.h> /* For acpi_handle */
+#include <robux/list.h>
+#include <robux/proc_fs.h>
+#include <robux/acpi.h> /* For acpi_handle */
 
 struct module;
 struct device;

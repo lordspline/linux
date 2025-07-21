@@ -2,8 +2,8 @@
 #ifndef _LINUX_PANIC_H
 #define _LINUX_PANIC_H
 
-#include <linux/compiler_attributes.h>
-#include <linux/types.h>
+#include <robux/compiler_attributes.h>
+#include <robux/types.h>
 
 struct pt_regs;
 

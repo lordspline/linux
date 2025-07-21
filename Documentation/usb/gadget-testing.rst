@@ -543,7 +543,7 @@ It is not possible to test the SOCK_STREAM protocol without a specific piece
 of hardware, so only SOCK_DGRAM has been tested. For the latter to work,
 in the past I had to apply the patch mentioned here:
 
-http://www.spinics.net/lists/linux-usb/msg85689.html
+http://www.spinics.net/lists/robux-usb/msg85689.html
 
 These tools are required:
 
@@ -564,7 +564,7 @@ On the device::
 
 Then a test program can be used::
 
-	http://www.spinics.net/lists/linux-usb/msg85690.html
+	http://www.spinics.net/lists/robux-usb/msg85690.html
 
 On the device::
 
@@ -874,7 +874,7 @@ where uvc-gadget is this program:
 
 with these patches:
 
-	http://www.spinics.net/lists/linux-usb/msg99220.html
+	http://www.spinics.net/lists/robux-usb/msg99220.html
 
 host::
 

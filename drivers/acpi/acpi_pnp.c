@@ -7,9 +7,9 @@
  *          Rafael J. Wysocki <rafael.j.wysocki@intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/ctype.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/ctype.h>
 
 #include "internal.h"
 

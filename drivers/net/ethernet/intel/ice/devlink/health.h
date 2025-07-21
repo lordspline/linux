@@ -4,7 +4,7 @@
 #ifndef _HEALTH_H_
 #define _HEALTH_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /**
  * DOC: health.h

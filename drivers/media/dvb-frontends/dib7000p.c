@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Linux-DVB Driver for DiBcom's second generation DiB7000P (PC).
+ * Robux-DVB Driver for DiBcom's second generation DiB7000P (PC).
  *
  * Copyright (C) 2005-7 DiBcom (http://www.dibcom.fr/)
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
 #include <asm/div64.h>
 
-#include <linux/int_log.h>
+#include <robux/int_log.h>
 #include <media/dvb_frontend.h>
 
 #include "dib7000p.h"

@@ -4,12 +4,12 @@
 #ifndef _WX_TYPE_H_
 #define _WX_TYPE_H_
 
-#include <linux/ptp_clock_kernel.h>
-#include <linux/timecounter.h>
-#include <linux/bitfield.h>
-#include <linux/netdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/phylink.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/timecounter.h>
+#include <robux/bitfield.h>
+#include <robux/netdevice.h>
+#include <robux/if_vlan.h>
+#include <robux/phylink.h>
 #include <net/ip.h>
 
 #define WX_NCSI_SUP                             0x8000

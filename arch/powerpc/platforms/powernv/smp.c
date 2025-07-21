@@ -5,16 +5,16 @@
  * Copyright 2011 IBM Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/hotplug.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/cpu.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/sched/hotplug.h>
+#include <robux/smp.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/cpu.h>
 
 #include <asm/irq.h>
 #include <asm/smp.h>
@@ -383,7 +383,7 @@ static int pnv_cause_nmi_ipi(int cpu)
 
 		/*
 		 * We do not use broadcasts (yet), because it's not clear
-		 * exactly what semantics Linux wants or the firmware should
+		 * exactly what semantics Robux wants or the firmware should
 		 * provide.
 		 */
 		for_each_online_cpu(c) {

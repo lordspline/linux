@@ -12,27 +12,27 @@
 
 #include <cpu/sh7724.h>
 
-#include <linux/clkdev.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sh_keysc.h>
-#include <linux/interrupt.h>
-#include <linux/memblock.h>
-#include <linux/mmc/host.h>
-#include <linux/mtd/physmap.h>
-#include <linux/platform_data/lv5207lp.h>
-#include <linux/platform_data/tmio.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/sh_intc.h>
-#include <linux/usb/r8a66597.h>
-#include <linux/videodev2.h>
-#include <linux/dma-map-ops.h>
+#include <robux/clkdev.h>
+#include <robux/delay.h>
+#include <robux/gpio.h>
+#include <robux/gpio/machine.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/input/sh_keysc.h>
+#include <robux/interrupt.h>
+#include <robux/memblock.h>
+#include <robux/mmc/host.h>
+#include <robux/mtd/physmap.h>
+#include <robux/platform_data/lv5207lp.h>
+#include <robux/platform_data/tmio.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/fixed.h>
+#include <robux/regulator/machine.h>
+#include <robux/sh_intc.h>
+#include <robux/usb/r8a66597.h>
+#include <robux/videodev2.h>
+#include <robux/dma-map-ops.h>
 
 #include <mach/kfr2r09.h>
 

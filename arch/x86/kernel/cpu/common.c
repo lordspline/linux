@@ -2,30 +2,30 @@
 /* cpu_feature_enabled() cannot be used this early */
 #define USE_EARLY_PGTABLE_L5
 
-#include <linux/memblock.h>
-#include <linux/linkage.h>
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/percpu.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/task.h>
-#include <linux/sched/smt.h>
-#include <linux/init.h>
-#include <linux/kprobes.h>
-#include <linux/kgdb.h>
-#include <linux/mem_encrypt.h>
-#include <linux/smp.h>
-#include <linux/cpu.h>
-#include <linux/io.h>
-#include <linux/syscore_ops.h>
-#include <linux/pgtable.h>
-#include <linux/stackprotector.h>
-#include <linux/utsname.h>
+#include <robux/memblock.h>
+#include <robux/linkage.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/percpu.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
+#include <robux/delay.h>
+#include <robux/sched/mm.h>
+#include <robux/sched/clock.h>
+#include <robux/sched/task.h>
+#include <robux/sched/smt.h>
+#include <robux/init.h>
+#include <robux/kprobes.h>
+#include <robux/kgdb.h>
+#include <robux/mem_encrypt.h>
+#include <robux/smp.h>
+#include <robux/cpu.h>
+#include <robux/io.h>
+#include <robux/syscore_ops.h>
+#include <robux/pgtable.h>
+#include <robux/stackprotector.h>
+#include <robux/utsname.h>
 
 #include <asm/alternative.h>
 #include <asm/cmdline.h>
@@ -40,9 +40,9 @@
 #include <asm/debugreg.h>
 #include <asm/sections.h>
 #include <asm/vsyscall.h>
-#include <linux/topology.h>
-#include <linux/cpumask.h>
-#include <linux/atomic.h>
+#include <robux/topology.h>
+#include <robux/cpumask.h>
+#include <robux/atomic.h>
 #include <asm/proto.h>
 #include <asm/setup.h>
 #include <asm/apic.h>
@@ -50,7 +50,7 @@
 #include <asm/fpu/api.h>
 #include <asm/mtrr.h>
 #include <asm/hwcap2.h>
-#include <linux/numa.h>
+#include <robux/numa.h>
 #include <asm/numa.h>
 #include <asm/asm.h>
 #include <asm/bugs.h>
@@ -1906,7 +1906,7 @@ static void generic_identify(struct cpuinfo_x86 *c)
 
 	/*
 	 * ESPFIX is a strange bug.  All real CPUs have it.  Paravirt
-	 * systems that run Linux at CPL > 0 may or may not have the
+	 * systems that run Robux at CPL > 0 may or may not have the
 	 * issue, but, even if they have the issue, there's absolutely
 	 * nothing we can do about it because we can't use the real IRET
 	 * instruction.

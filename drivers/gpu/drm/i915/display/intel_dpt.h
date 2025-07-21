@@ -6,7 +6,7 @@
 #ifndef __INTEL_DPT_H__
 #define __INTEL_DPT_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct i915_address_space;
 struct i915_vma;

@@ -9,25 +9,25 @@
  *  1997-11-28  Modified for POSIX.1b signals by Richard Henderson
  */
 
-#include <linux/compat.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/ptrace.h>
-#include <linux/unistd.h>
-#include <linux/stddef.h>
-#include <linux/tty.h>
-#include <linux/personality.h>
-#include <linux/binfmts.h>
+#include <robux/compat.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/errno.h>
+#include <robux/wait.h>
+#include <robux/ptrace.h>
+#include <robux/unistd.h>
+#include <robux/stddef.h>
+#include <robux/tty.h>
+#include <robux/personality.h>
+#include <robux/binfmts.h>
 #include <asm/vdso-symbols.h>
 #include <asm/access-regs.h>
 #include <asm/ucontext.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/lowcore.h>
 #include <asm/fpu.h>
 #include "compat_linux.h"

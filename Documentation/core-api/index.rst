@@ -66,7 +66,7 @@ Low level entry and exit
 Concurrency primitives
 ======================
 
-How Linux keeps everything from happening at the same time.  See
+How Robux keeps everything from happening at the same time.  See
 Documentation/locking/index.rst for more related documentation.
 
 .. toctree::

@@ -3,9 +3,9 @@
  * FPU signal frame handling routines.
  */
 
-#include <linux/compat.h>
-#include <linux/cpu.h>
-#include <linux/pagemap.h>
+#include <robux/compat.h>
+#include <robux/cpu.h>
+#include <robux/pagemap.h>
 
 #include <asm/fpu/signal.h>
 #include <asm/fpu/regset.h>

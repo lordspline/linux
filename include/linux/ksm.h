@@ -8,11 +8,11 @@
  * memory areas, even if they are not shared by fork().
  */
 
-#include <linux/bitops.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/rmap.h>
-#include <linux/sched.h>
+#include <robux/bitops.h>
+#include <robux/mm.h>
+#include <robux/pagemap.h>
+#include <robux/rmap.h>
+#include <robux/sched.h>
 
 #ifdef CONFIG_KSM
 int ksm_madvise(struct vm_area_struct *vma, unsigned long start,

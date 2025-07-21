@@ -7,26 +7,26 @@
  * Copyright (c) 2010, NVIDIA Corporation.
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pm_runtime.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regulator/consumer.h>
+#include <robux/pm_runtime.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
 
 /*
  * Register definitions, as well as various shifts and masks to get at the

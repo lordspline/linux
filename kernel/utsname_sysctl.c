@@ -5,13 +5,13 @@
  *  Author: Eric Biederman <ebiederm@xmision.com>
  */
 
-#include <linux/export.h>
-#include <linux/uts.h>
-#include <linux/utsname.h>
-#include <linux/random.h>
-#include <linux/sysctl.h>
-#include <linux/wait.h>
-#include <linux/rwsem.h>
+#include <robux/export.h>
+#include <robux/uts.h>
+#include <robux/utsname.h>
+#include <robux/random.h>
+#include <robux/sysctl.h>
+#include <robux/wait.h>
+#include <robux/rwsem.h>
 
 #ifdef CONFIG_PROC_SYSCTL
 

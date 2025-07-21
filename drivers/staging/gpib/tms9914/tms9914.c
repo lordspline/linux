@@ -7,19 +7,19 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 #define dev_fmt pr_fmt
 
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/ioport.h>
+#include <robux/sched.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 #include <asm/dma.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
+#include <robux/io.h>
+#include <robux/bitops.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/delay.h>
 
 #include "gpibP.h"
 #include "tms9914.h"

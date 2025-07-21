@@ -11,16 +11,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/suspend.h>
+#include <robux/units.h>
 
 #include <asm/cpuid/api.h>
 #include <asm/cpu_device_id.h>

@@ -1,5 +1,5 @@
 /*
- * Linux V4L2 radio driver for the Griffin radioSHARK USB radio receiver
+ * Robux V4L2 radio driver for the Griffin radioSHARK USB radio receiver
  *
  * Note the radioSHARK offers the audio through a regular USB audio device,
  * this driver only handles the tuning.
@@ -21,13 +21,13 @@
  * GNU General Public License for more details.
 */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/workqueue.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/workqueue.h>
 #include <media/v4l2-device.h>
 #include <media/drv-intf/tea575x.h>
 

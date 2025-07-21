@@ -10,18 +10,18 @@
  *          Suman Anna <s-anna@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/hwspinlock.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/bitops.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/hwspinlock.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include "hwspinlock_internal.h"
 

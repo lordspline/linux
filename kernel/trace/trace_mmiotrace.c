@@ -5,13 +5,13 @@
  * Copyright (C) 2008 Pekka Paalanen <pq@iki.fi>
  */
 
-#include <linux/kernel.h>
-#include <linux/mmiotrace.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/time.h>
+#include <robux/kernel.h>
+#include <robux/mmiotrace.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/time.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 
 #include "trace.h"
 #include "trace_output.h"

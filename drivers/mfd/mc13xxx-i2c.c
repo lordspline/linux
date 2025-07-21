@@ -4,15 +4,15 @@
  * Marc Reilly marc@cpdesign.com.au
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/mc13xxx.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/mc13xxx.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
 
 #include "mc13xxx.h"
 

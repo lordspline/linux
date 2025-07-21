@@ -13,14 +13,14 @@
 /*
  * User space memory access functions
  */
-#include <linux/pgtable.h>
+#include <robux/pgtable.h>
 #include <asm/asm-extable.h>
 #include <asm/processor.h>
 #include <asm/extable.h>
 #include <asm/facility.h>
 #include <asm-generic/access_ok.h>
 #include <asm/asce.h>
-#include <linux/instrumented.h>
+#include <robux/instrumented.h>
 
 void debug_user_asce(int exit);
 

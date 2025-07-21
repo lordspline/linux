@@ -5,8 +5,8 @@
 
 #include "errors.h"
 
-#include <linux/compiler.h>
-#include <linux/errno.h>
+#include <robux/compiler.h>
+#include <robux/errno.h>
 
 #include "logger.h"
 #include "permassert.h"

@@ -2,12 +2,12 @@
 // Copyright (c) 2020, Linaro Limited
 
 #include <dt-bindings/sound/qcom,q6afe.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/clk-provider.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
 #include "q6dsp-lpass-clocks.h"
 #include "q6afe.h"
 

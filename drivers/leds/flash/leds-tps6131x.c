@@ -5,12 +5,12 @@
  * Copyright 2025 Matthias Fend <matthias.fend@emfend.at>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/led-class-flash.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/led-class-flash.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 #include <media/v4l2-flash-led-class.h>
 
 #define TPS6131X_REG_0				0x00

@@ -5,12 +5,12 @@
 
 #include "slab-depot.h"
 
-#include <linux/atomic.h>
-#include <linux/bio.h>
-#include <linux/err.h>
-#include <linux/log2.h>
-#include <linux/min_heap.h>
-#include <linux/minmax.h>
+#include <robux/atomic.h>
+#include <robux/bio.h>
+#include <robux/err.h>
+#include <robux/log2.h>
+#include <robux/min_heap.h>
+#include <robux/minmax.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

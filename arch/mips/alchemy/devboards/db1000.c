@@ -6,20 +6,20 @@
  * Author: MontaVista Software, Inc. <source@mvista.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/property.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/leds.h>
-#include <linux/mmc/host.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pm.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_gpio.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/gpio.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/property.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/leds.h>
+#include <robux/mmc/host.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/pm.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi_gpio.h>
 #include <asm/mach-au1x00/au1000.h>
 #include <asm/mach-au1x00/gpio-au1000.h>
 #include <asm/mach-au1x00/au1000_dma.h>

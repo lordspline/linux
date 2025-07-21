@@ -18,7 +18,7 @@
 #ifndef _SS_MLS_H_
 #define _SS_MLS_H_
 
-#include <linux/jhash.h>
+#include <robux/jhash.h>
 
 #include "context.h"
 #include "ebitmap.h"

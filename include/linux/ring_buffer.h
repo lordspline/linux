@@ -2,11 +2,11 @@
 #ifndef _LINUX_RING_BUFFER_H
 #define _LINUX_RING_BUFFER_H
 
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/poll.h>
+#include <robux/mm.h>
+#include <robux/seq_file.h>
+#include <robux/poll.h>
 
-#include <uapi/linux/trace_mmap.h>
+#include <uapi/robux/trace_mmap.h>
 
 struct trace_buffer;
 struct ring_buffer_iter;

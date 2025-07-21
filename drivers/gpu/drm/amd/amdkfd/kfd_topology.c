@@ -21,17 +21,17 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/acpi.h>
-#include <linux/hash.h>
-#include <linux/cpufreq.h>
-#include <linux/log2.h>
-#include <linux/dmi.h>
-#include <linux/atomic.h>
-#include <linux/crc16.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/errno.h>
+#include <robux/acpi.h>
+#include <robux/hash.h>
+#include <robux/cpufreq.h>
+#include <robux/log2.h>
+#include <robux/dmi.h>
+#include <robux/atomic.h>
+#include <robux/crc16.h>
 
 #include "kfd_priv.h"
 #include "kfd_crat.h"

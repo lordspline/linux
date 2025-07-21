@@ -8,16 +8,16 @@
  *  Authors:	Omair Mohammed Abdullah <omair.m.abdullah@intel.com>
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/firmware.h>
-#include <linux/pm_qos.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/firmware.h>
+#include <robux/pm_qos.h>
+#include <robux/dmi.h>
+#include <robux/acpi.h>
 #include <asm/platform_sst_audio.h>
 #include <sound/core.h>
 #include <sound/intel-dsp-config.h>

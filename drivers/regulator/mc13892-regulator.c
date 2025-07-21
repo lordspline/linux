@@ -6,15 +6,15 @@
 //
 // Based on draft driver from Arnaud Patard <arnaud.patard@rtp-net.org>
 
-#include <linux/mfd/mc13892.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/driver.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/module.h>
+#include <robux/mfd/mc13892.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/driver.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/module.h>
 #include "mc13xxx.h"
 
 #define MC13892_REVISION			7

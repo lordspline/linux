@@ -6,18 +6,18 @@
  *  Author(s): Martin Schwidefsky (schwidefsky@de.ibm.com)
  */
 
-#include <linux/binfmts.h>
-#include <linux/compat.h>
-#include <linux/elf.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/random.h>
-#include <linux/vdso_datastore.h>
+#include <robux/binfmts.h>
+#include <robux/compat.h>
+#include <robux/elf.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
+#include <robux/random.h>
+#include <robux/vdso_datastore.h>
 #include <vdso/datapage.h>
 #include <asm/vdso/vsyscall.h>
 #include <asm/alternative.h>

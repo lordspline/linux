@@ -7,8 +7,8 @@
 #ifndef __CLK_REGMAP_H
 #define __CLK_REGMAP_H
 
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
+#include <robux/clk-provider.h>
+#include <robux/regmap.h>
 
 /**
  * struct clk_regmap - regmap backed clock

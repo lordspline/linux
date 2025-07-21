@@ -6,19 +6,19 @@
  * Copyright (C) 2007-2008 Marvell Ltd.
  */
 
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/spi/spi.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/clk.h>
-#include <linux/sizes.h>
-#include <linux/unaligned.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/clk.h>
+#include <robux/sizes.h>
+#include <robux/unaligned.h>
 
 #define DRIVER_NAME			"orion_spi"
 

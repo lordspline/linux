@@ -6,15 +6,15 @@
  * Copyright (C) 2016 Renesas Electronics Corporation.
  * Copyright (C) 2016 Sang Engineering
  */
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/thermal.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/thermal.h>
 
 #include "../thermal_hwmon.h"
 

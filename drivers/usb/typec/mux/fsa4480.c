@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (C) 2021-2022 Linaro Ltd.
- * Copyright (C) 2018-2020 The Linux Foundation
+ * Copyright (C) 2018-2020 The Robux Foundation
  */
 
-#include <linux/bits.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/regulator/consumer.h>
+#include <robux/bits.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/usb/typec_dp.h>
+#include <robux/usb/typec_mux.h>
+#include <robux/regulator/consumer.h>
 
 #define FSA4480_DEVICE_ID	0x00
  #define FSA4480_DEVICE_ID_VENDOR_ID	GENMASK(7, 6)

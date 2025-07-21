@@ -11,20 +11,20 @@
  * pointer as suggested by Josh Triplett
  */
 
-#include <linux/atomic.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/log2.h>
-#include <linux/sched.h>
-#include <linux/rculist.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
-#include <linux/jhash.h>
-#include <linux/random.h>
-#include <linux/rhashtable.h>
-#include <linux/err.h>
-#include <linux/export.h>
+#include <robux/atomic.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/log2.h>
+#include <robux/sched.h>
+#include <robux/rculist.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/mm.h>
+#include <robux/jhash.h>
+#include <robux/random.h>
+#include <robux/rhashtable.h>
+#include <robux/err.h>
+#include <robux/export.h>
 
 #define HASH_DEFAULT_SIZE	64UL
 #define HASH_MIN_SIZE		4U

@@ -4,12 +4,12 @@
 #ifndef _LINUX_MFD_OCELOT_H
 #define _LINUX_MFD_OCELOT_H
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 struct resource;
 

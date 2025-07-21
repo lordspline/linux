@@ -71,24 +71,24 @@
  * Denis Ciocca <denis.ciocca@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/minmax.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/bitfield.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/minmax.h>
+#include <robux/pm.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/bitfield.h>
 
-#include <linux/platform_data/st_sensors_pdata.h>
+#include <robux/platform_data/st_sensors_pdata.h>
 
 #include "st_lsm6dsx.h"
 

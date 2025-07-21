@@ -19,14 +19,14 @@
  * the writes.
  */
 
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/smp.h>
+#include <robux/sched.h>
+#include <robux/pci.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/dmi.h>
+#include <robux/acpi.h>
+#include <robux/io.h>
+#include <robux/smp.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/segment.h>

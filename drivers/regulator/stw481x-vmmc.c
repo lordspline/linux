@@ -8,13 +8,13 @@
  * Author: Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/mfd/stw481x.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/mfd/stw481x.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/of_regulator.h>
 
 static const unsigned int stw481x_vmmc_voltages[] = {
 	1800000,

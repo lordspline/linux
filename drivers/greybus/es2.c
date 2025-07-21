@@ -5,14 +5,14 @@
  * Copyright 2014-2015 Google Inc.
  * Copyright 2014-2015 Linaro Ltd.
  */
-#include <linux/kthread.h>
-#include <linux/sizes.h>
-#include <linux/usb.h>
-#include <linux/kfifo.h>
-#include <linux/debugfs.h>
-#include <linux/list.h>
-#include <linux/greybus.h>
-#include <linux/unaligned.h>
+#include <robux/kthread.h>
+#include <robux/sizes.h>
+#include <robux/usb.h>
+#include <robux/kfifo.h>
+#include <robux/debugfs.h>
+#include <robux/list.h>
+#include <robux/greybus.h>
+#include <robux/unaligned.h>
 
 #include "arpc.h"
 #include "greybus_trace.h"

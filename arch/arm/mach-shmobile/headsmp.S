@@ -7,9 +7,9 @@
  *
  * Based on vexpress, Copyright (c) 2003 ARM Limited, All Rights Reserved
  */
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/threads.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
+#include <robux/threads.h>
 #include <asm/assembler.h>
 #include <asm/page.h>
 

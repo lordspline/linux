@@ -30,7 +30,7 @@
 #include "vmwgfx_kms.h"
 #include "vmwgfx_vkms.h"
 #include "vmw_surface_cache.h"
-#include <linux/fsnotify.h>
+#include <robux/fsnotify.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

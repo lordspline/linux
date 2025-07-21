@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/gpio/gpio-mb86s7x.c
+ *  robux/drivers/gpio/gpio-mb86s7x.c
  *
  *  Copyright (C) 2015 Fujitsu Semiconductor Limited
  *  Copyright (C) 2015 Linaro Ltd.
  */
 
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/clk.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/clk.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/gpio/driver.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
 
 #include "gpiolib-acpi.h"
 

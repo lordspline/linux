@@ -6,13 +6,13 @@
  * Copyright (C) 2008 Maxime Bizon <mbizon@freebox.fr>
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_io.h>
 #include <bcm63xx_timer.h>

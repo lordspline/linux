@@ -18,28 +18,28 @@
 // Based on spi-stmp.c, which is:
 // Author: Dmitry Pervushin <dimka@embeddedalley.com>
 
-#include <linux/kernel.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/highmem.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/completion.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/module.h>
-#include <linux/stmp_device.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/mxs-spi.h>
+#include <robux/kernel.h>
+#include <robux/ioport.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/highmem.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/completion.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/regulator/consumer.h>
+#include <robux/pm_runtime.h>
+#include <robux/module.h>
+#include <robux/stmp_device.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/mxs-spi.h>
 #include <trace/events/spi.h>
-#include <linux/dma/mxs-dma.h>
+#include <robux/dma/mxs-dma.h>
 
 #define DRIVER_NAME		"mxs-spi"
 

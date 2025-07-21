@@ -6,7 +6,7 @@
 #ifndef _GUC_ACTIONS_SLPC_ABI_H_
 #define _GUC_ACTIONS_SLPC_ABI_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /**
  * DOC: SLPC SHARED DATA STRUCTURE

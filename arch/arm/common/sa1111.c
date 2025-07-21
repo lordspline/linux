@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/common/sa1111.c
+ * robux/arch/arm/common/sa1111.c
  *
  * SA1111 support
  *
@@ -11,24 +11,24 @@
  * All initialization functions provided here are intended to be called
  * from machine specific code with proper arguments when required.
  */
-#include <linux/module.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/dma-map-ops.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/dma-map-ops.h>
+#include <robux/clk.h>
+#include <robux/io.h>
 
 #include <asm/mach/irq.h>
 #include <asm/mach-types.h>
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 
 #include <asm/hardware/sa1111.h>
 

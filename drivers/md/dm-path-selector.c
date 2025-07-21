@@ -10,12 +10,12 @@
  * Path selector registration.
  */
 
-#include <linux/device-mapper.h>
-#include <linux/module.h>
+#include <robux/device-mapper.h>
+#include <robux/module.h>
 
 #include "dm-path-selector.h"
 
-#include <linux/slab.h>
+#include <robux/slab.h>
 
 struct ps_internal {
 	struct path_selector_type pst;

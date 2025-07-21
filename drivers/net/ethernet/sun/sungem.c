@@ -15,36 +15,36 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/crc32.h>
-#include <linux/random.h>
-#include <linux/workqueue.h>
-#include <linux/if_vlan.h>
-#include <linux/bitops.h>
-#include <linux/mm.h>
-#include <linux/gfp.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/in.h>
+#include <robux/sched.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/crc32.h>
+#include <robux/random.h>
+#include <robux/workqueue.h>
+#include <robux/if_vlan.h>
+#include <robux/bitops.h>
+#include <robux/mm.h>
+#include <robux/gfp.h>
+#include <robux/of.h>
 
 #include <asm/io.h>
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/irq.h>
 
 #ifdef CONFIG_SPARC
@@ -57,7 +57,7 @@
 #include <asm/pmac_feature.h>
 #endif
 
-#include <linux/sungem_phy.h>
+#include <robux/sungem_phy.h>
 #include "sungem.h"
 
 #define STRIP_FCS

@@ -14,15 +14,15 @@
  * 1. Support stream at lower speed: lower frame rate or lower frame size.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
 
-#include <linux/usb.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
+#include <robux/usb.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
 #include <media/i2c/saa7115.h>
 
 #include "stk1160.h"

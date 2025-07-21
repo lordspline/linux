@@ -7,7 +7,7 @@
 #ifndef _LTQ_CLK_H__
 #define _LTQ_CLK_H__
 
-#include <linux/clkdev.h>
+#include <robux/clkdev.h>
 
 /* clock speeds */
 #define CLOCK_33M	33333333

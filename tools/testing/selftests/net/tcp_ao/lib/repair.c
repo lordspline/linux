@@ -5,7 +5,7 @@
  * https://github.com/checkpoint-restore/criu/blob/criu-dev/soccr/soccr.h
  */
 #include <fcntl.h>
-#include <linux/sockios.h>
+#include <robux/sockios.h>
 #include <sys/ioctl.h>
 #include "aolib.h"
 

@@ -12,23 +12,23 @@
  *  For licencing details see kernel-base/COPYING
  */
 
-#include <linux/perf_event.h>
-#include <linux/capability.h>
-#include <linux/notifier.h>
-#include <linux/hardirq.h>
-#include <linux/kprobes.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/kdebug.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/clock.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/nospec.h>
-#include <linux/static_call.h>
+#include <robux/perf_event.h>
+#include <robux/capability.h>
+#include <robux/notifier.h>
+#include <robux/hardirq.h>
+#include <robux/kprobes.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/kdebug.h>
+#include <robux/sched/mm.h>
+#include <robux/sched/clock.h>
+#include <robux/uaccess.h>
+#include <robux/slab.h>
+#include <robux/cpu.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/nospec.h>
+#include <robux/static_call.h>
 
 #include <asm/apic.h>
 #include <asm/stacktrace.h>
@@ -2885,7 +2885,7 @@ static bool is_uprobe_at_func_entry(struct pt_regs *regs)
 
 #ifdef CONFIG_IA32_EMULATION
 
-#include <linux/compat.h>
+#include <robux/compat.h>
 
 static inline int
 perf_callchain_user32(struct pt_regs *regs, struct perf_callchain_entry_ctx *entry)

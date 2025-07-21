@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/export.h>
-#include <linux/preempt.h>
-#include <linux/smp.h>
-#include <linux/completion.h>
+#include <robux/export.h>
+#include <robux/preempt.h>
+#include <robux/smp.h>
+#include <robux/completion.h>
 #include <asm/msr.h>
 
 static void __rdmsr_on_cpu(void *info)

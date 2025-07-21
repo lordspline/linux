@@ -3,10 +3,10 @@
  * Copyright (c) 2014 Lucas Stach <l.stach@pengutronix.de>, Pengutronix
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/export.h>
+#include <robux/slab.h>
 #include "clk.h"
 
 struct clk_cpu {

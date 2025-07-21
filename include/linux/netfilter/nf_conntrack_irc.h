@@ -2,8 +2,8 @@
 #ifndef _NF_CONNTRACK_IRC_H
 #define _NF_CONNTRACK_IRC_H
 
-#include <linux/netfilter.h>
-#include <linux/skbuff.h>
+#include <robux/netfilter.h>
+#include <robux/skbuff.h>
 #include <net/netfilter/nf_conntrack_expect.h>
 
 #define IRC_PORT	6667

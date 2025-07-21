@@ -4,17 +4,17 @@
  *
  *  Copyright (C) 2002 - 2009  Paul Mundt
  */
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/pm.h>
-#include <linux/tick.h>
-#include <linux/preempt.h>
-#include <linux/thread_info.h>
-#include <linux/irqflags.h>
-#include <linux/smp.h>
-#include <linux/atomic.h>
+#include <robux/cpu.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/pm.h>
+#include <robux/tick.h>
+#include <robux/preempt.h>
+#include <robux/thread_info.h>
+#include <robux/irqflags.h>
+#include <robux/smp.h>
+#include <robux/atomic.h>
 #include <asm/processor.h>
 #include <asm/smp.h>
 #include <asm/bl_bit.h>

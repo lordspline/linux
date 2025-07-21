@@ -29,18 +29,18 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-#include <linux/mm.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/dmapool.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/highmem.h>
-#include <linux/io.h>
-#include <linux/uio.h>
-#include <linux/rbtree.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
+#include <robux/mm.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/dmapool.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/highmem.h>
+#include <robux/io.h>
+#include <robux/uio.h>
+#include <robux/rbtree.h>
+#include <robux/spinlock.h>
+#include <robux/delay.h>
 
 #include "qib.h"
 #include "qib_user_sdma.h"

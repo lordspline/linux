@@ -3,22 +3,22 @@
 // Driver for the IMX SNVS ON/OFF Power Key
 // Copyright (C) 2015 Freescale Semiconductor, Inc. All Rights Reserved.
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 
 #define SNVS_HPVIDR1_REG	0xBF8
 #define SNVS_LPSR_REG		0x4C	/* LP Status Register */
@@ -136,7 +136,7 @@ static int imx_snvs_pwrkey_probe(struct platform_device *pdev)
 		return PTR_ERR(pdata->snvs);
 	}
 
-	if (of_property_read_u32(np, "linux,keycode", &pdata->keycode)) {
+	if (of_property_read_u32(np, "robux,keycode", &pdata->keycode)) {
 		pdata->keycode = KEY_POWER;
 		dev_warn(&pdev->dev, "KEY_POWER without setting in dts\n");
 	}

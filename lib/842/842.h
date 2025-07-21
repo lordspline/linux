@@ -74,13 +74,13 @@
  * code is detected.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/crc32.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/bitops.h>
+#include <robux/crc32.h>
+#include <robux/unaligned.h>
 
-#include <linux/sw842.h>
+#include <robux/sw842.h>
 
 /* special templates */
 #define OP_REPEAT	(0x1B)

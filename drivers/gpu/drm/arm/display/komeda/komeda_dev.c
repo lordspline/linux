@@ -4,16 +4,16 @@
  * Author: James.Qian.Wang <james.qian.wang@arm.com>
  *
  */
-#include <linux/io.h>
-#include <linux/iommu.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/dma-mapping.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/io.h>
+#include <robux/iommu.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/dma-mapping.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 
 #include <drm/drm_print.h>
 

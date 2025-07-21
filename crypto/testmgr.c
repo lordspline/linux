@@ -19,15 +19,15 @@
 #include <crypto/aead.h>
 #include <crypto/hash.h>
 #include <crypto/skcipher.h>
-#include <linux/err.h>
-#include <linux/fips.h>
-#include <linux/module.h>
-#include <linux/once.h>
-#include <linux/prandom.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/uio.h>
+#include <robux/err.h>
+#include <robux/fips.h>
+#include <robux/module.h>
+#include <robux/once.h>
+#include <robux/prandom.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/uio.h>
 #include <crypto/rng.h>
 #include <crypto/drbg.h>
 #include <crypto/akcipher.h>
@@ -876,9 +876,9 @@ static int prepare_keybuf(const u8 *key, unsigned int ksize,
 })
 
 /*
- * The fuzz tests use prandom instead of the normal Linux RNG since they don't
+ * The fuzz tests use prandom instead of the normal Robux RNG since they don't
  * need cryptographically secure random numbers.  This greatly improves the
- * performance of these tests, especially if they are run before the Linux RNG
+ * performance of these tests, especially if they are run before the Robux RNG
  * has been initialized or if they are run on a lockdep-enabled kernel.
  */
 

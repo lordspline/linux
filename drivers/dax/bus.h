@@ -2,8 +2,8 @@
 /* Copyright(c) 2016 - 2018 Intel Corporation. All rights reserved. */
 #ifndef __DAX_BUS_H__
 #define __DAX_BUS_H__
-#include <linux/device.h>
-#include <linux/range.h>
+#include <robux/device.h>
+#include <robux/range.h>
 
 struct dev_dax;
 struct resource;

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/coredump.h>
-#include <linux/elfcore.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
+#include <robux/coredump.h>
+#include <robux/elfcore.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
 
 #include <asm/cpufeature.h>
 #include <asm/mte.h>

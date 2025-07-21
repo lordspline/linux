@@ -5,17 +5,17 @@
  * Copyright (C) 2013 Renesas Solutions Corp.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/can/dev.h>
-#include <linux/clk.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/errno.h>
+#include <robux/ethtool.h>
+#include <robux/netdevice.h>
+#include <robux/platform_device.h>
+#include <robux/can/dev.h>
+#include <robux/clk.h>
+#include <robux/of.h>
 
 #define RCAR_CAN_DRV_NAME	"rcar_can"
 

@@ -9,10 +9,10 @@
 #include <net/if.h>
 #include <sys/utsname.h>
 
-#include <linux/btf.h>
-#include <linux/filter.h>
-#include <linux/kernel.h>
-#include <linux/version.h>
+#include <robux/btf.h>
+#include <robux/filter.h>
+#include <robux/kernel.h>
+#include <robux/version.h>
 
 #include "bpf.h"
 #include "libbpf.h"

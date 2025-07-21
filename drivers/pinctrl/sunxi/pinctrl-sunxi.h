@@ -13,8 +13,8 @@
 #ifndef __PINCTRL_SUNXI_H
 #define __PINCTRL_SUNXI_H
 
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
 
 #define PA_BASE	0
 #define PB_BASE	32

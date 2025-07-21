@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bitfield.h>
-#include <linux/of.h>
-#include <linux/firmware.h>
-#include <linux/crc-itu-t.h>
-#include <linux/nvmem-consumer.h>
+#include <robux/bitfield.h>
+#include <robux/of.h>
+#include <robux/firmware.h>
+#include <robux/crc-itu-t.h>
+#include <robux/nvmem-consumer.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "aquantia.h"
 

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- *  linux/arch/arm/mm/proc-arm1020.S: MMU functions for ARM1020
+ *  robux/arch/arm/mm/proc-arm1020.S: MMU functions for ARM1020
  *
  *  Copyright (C) 2000 ARM Limited
  *  Copyright (C) 2000 Deep Blue Solutions Ltd.
@@ -9,10 +9,10 @@
  * These are the low level assembler for performing cache and TLB
  * functions on the arm1020.
  */
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/cfi_types.h>
-#include <linux/pgtable.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
+#include <robux/cfi_types.h>
+#include <robux/pgtable.h>
 #include <asm/assembler.h>
 #include <asm/asm-offsets.h>
 #include <asm/hwcap.h>

@@ -5,10 +5,10 @@
  *  Copyright (C) 2011 Rafael J. Wysocki <rjw@sisk.pl>, Novell Inc.
  */
 
-#include <linux/syscore_ops.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/suspend.h>
+#include <robux/syscore_ops.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/suspend.h>
 #include <trace/events/power.h>
 
 static LIST_HEAD(syscore_ops_list);

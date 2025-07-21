@@ -3,8 +3,8 @@
  * interval_tree.c: Userspace Interval Tree test-suite
  * Copyright (c) 2025 Wei Yang <richard.weiyang@gmail.com>
  */
-#include <linux/math64.h>
-#include <linux/kern_levels.h>
+#include <robux/math64.h>
+#include <robux/kern_levels.h>
 #include "shared.h"
 #include "maple-shared.h"
 

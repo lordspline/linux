@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/efi.h>
-#include <linux/screen_info.h>
+#include <robux/efi.h>
+#include <robux/screen_info.h>
 
 #include <asm/efi.h>
 

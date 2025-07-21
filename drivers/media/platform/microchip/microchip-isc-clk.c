@@ -8,11 +8,11 @@
  * Author: Eugen Hristev <eugen.hristev@microchip.com>
  *
  */
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
 
 #include "microchip-isc-regs.h"
 #include "microchip-isc.h"

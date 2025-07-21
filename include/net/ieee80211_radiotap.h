@@ -17,8 +17,8 @@
 #ifndef __RADIOTAP_H
 #define __RADIOTAP_H
 
-#include <linux/kernel.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/unaligned.h>
 
 /**
  * struct ieee80211_radiotap_header - base radiotap header

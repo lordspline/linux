@@ -2,19 +2,19 @@
 /*
  * Copyright (C) 2018 Gateworks Corporation
  */
-#include <linux/delay.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
-#include <linux/v4l2-dv-timings.h>
-#include <linux/videodev2.h>
+#include <robux/delay.h>
+#include <robux/hdmi.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/types.h>
+#include <robux/v4l2-dv-timings.h>
+#include <robux/videodev2.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

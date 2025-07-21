@@ -5,17 +5,17 @@
  *  Copyright (C) 2013 Magnus Damm
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
 
 #define IRQC_IRQ_MAX	32	/* maximum 32 interrupts per driver instance */
 

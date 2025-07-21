@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 /*
- * i8k.h -- Linux driver for accessing the SMM BIOS on Dell laptops
+ * i8k.h -- Robux driver for accessing the SMM BIOS on Dell laptops
  *
  * Copyright (C) 2001  Massimo Dal Zotto <dz@debian.org>
  *

@@ -6,7 +6,7 @@
  * Author: AMD
  *
  * Based on:
- * linux/drivers/video/skeletonfb.c -- Skeleton for a frame buffer device
+ * robux/drivers/video/skeletonfb.c -- Skeleton for a frame buffer device
  *  Created 28 Dec 1997 by Geert Uytterhoeven
  *
  *  This program is free software; you can redistribute	 it and/or modify it
@@ -30,20 +30,20 @@
  *  675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ctype.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ctype.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 
 #include <asm/mach-au1x00/au1000.h>
 #include <asm/mach-au1x00/au1200fb.h>	/* platform_data */

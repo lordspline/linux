@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/module.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
+#include <robux/module.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/thermal.h>
 
 /* SCU regs */
 #define EN7581_PLLRG_PROTECT			0x268

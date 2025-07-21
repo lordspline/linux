@@ -7,19 +7,19 @@
  *  Based on corgikbd.c
  */
 
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/gpio.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/input.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/gpio.h>
+#include <robux/input/matrix_keypad.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
 struct matrix_keypad {
 	struct input_dev *input_dev;
@@ -447,7 +447,7 @@ static int matrix_keypad_probe(struct platform_device *pdev)
 		return -ENOMEM;
 	}
 
-	if (!device_property_read_bool(&pdev->dev, "linux,no-autorepeat"))
+	if (!device_property_read_bool(&pdev->dev, "robux,no-autorepeat"))
 		__set_bit(EV_REP, input_dev->evbit);
 
 	input_set_capability(input_dev, EV_MSC, MSC_SCAN);
@@ -459,7 +459,7 @@ static int matrix_keypad_probe(struct platform_device *pdev)
 
 	wakeup = device_property_read_bool(&pdev->dev, "wakeup-source") ||
 		 /* legacy */
-		 device_property_read_bool(&pdev->dev, "linux,wakeup");
+		 device_property_read_bool(&pdev->dev, "robux,wakeup");
 	device_init_wakeup(&pdev->dev, wakeup);
 
 	platform_set_drvdata(pdev, keypad);

@@ -8,19 +8,19 @@
  *  Copyright (C) Samuel Thibault <samuel.thibault@ens-lyon.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/console.h>
-#include <linux/notifier.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/console.h>
+#include <robux/notifier.h>
 
-#include <linux/selection.h>
-#include <linux/vt_kern.h>
-#include <linux/consolemap.h>
+#include <robux/selection.h>
+#include <robux/vt_kern.h>
+#include <robux/consolemap.h>
 
-#include <linux/keyboard.h>
-#include <linux/kbd_kern.h>
-#include <linux/input.h>
+#include <robux/keyboard.h>
+#include <robux/kbd_kern.h>
+#include <robux/input.h>
 
 MODULE_AUTHOR("samuel.thibault@ens-lyon.org");
 MODULE_DESCRIPTION("braille device");

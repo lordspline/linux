@@ -6,15 +6,15 @@
     2007 - x86_64 support added by Glauber de Oliveira Costa, Red Hat Inc
 */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/efi.h>
-#include <linux/bcd.h>
-#include <linux/highmem.h>
-#include <linux/kprobes.h>
-#include <linux/pgtable.h>
-#include <linux/static_call.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/efi.h>
+#include <robux/bcd.h>
+#include <robux/highmem.h>
+#include <robux/kprobes.h>
+#include <robux/pgtable.h>
+#include <robux/static_call.h>
 
 #include <asm/bug.h>
 #include <asm/paravirt.h>

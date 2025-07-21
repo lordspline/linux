@@ -8,8 +8,8 @@
 #ifndef __ASM_ENCRYPTED_STATE_H
 #define __ASM_ENCRYPTED_STATE_H
 
-#include <linux/types.h>
-#include <linux/sev-guest.h>
+#include <robux/types.h>
+#include <robux/sev-guest.h>
 
 #include <asm/insn.h>
 #include <asm/sev-common.h>

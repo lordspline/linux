@@ -6,14 +6,14 @@
  * Copyright (C) 2012 Scott Lin <scott.lin@tw.synaptics.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/rmi.h>
-#include <linux/firmware.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/unaligned.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/rmi.h>
+#include <robux/firmware.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/unaligned.h>
 
 #include "rmi_driver.h"
 #include "rmi_f34.h"

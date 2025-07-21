@@ -5,19 +5,19 @@
  * Copyright (C) 2018 David Lechner <david@lechnology.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/clk-provider.h>
-#include <linux/clk/davinci.h>
-#include <linux/clkdev.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/da8xx-cfgchip.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/clk-provider.h>
+#include <robux/clk/davinci.h>
+#include <robux/clkdev.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mfd/da8xx-cfgchip.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of_address.h>
+#include <robux/of.h>
+#include <robux/types.h>
 
 #include "pll.h"
 

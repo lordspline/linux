@@ -8,30 +8,30 @@
  * Copyright (C) 2004 Pengutronix
  */
 
-#include <linux/circ_buf.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/platform_device.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/ktime.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/rational.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/dma-mapping.h>
+#include <robux/circ_buf.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/sysrq.h>
+#include <robux/platform_device.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/serial_core.h>
+#include <robux/serial.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/ktime.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/rational.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/dma-mapping.h>
 
 #include <asm/irq.h>
-#include <linux/dma/imx-dma.h>
+#include <robux/dma/imx-dma.h>
 
 #include "serial_mctrl_gpio.h"
 

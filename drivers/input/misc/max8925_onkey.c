@@ -18,15 +18,15 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/max8925.h>
-#include <linux/slab.h>
-#include <linux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/max8925.h>
+#include <robux/slab.h>
+#include <robux/device.h>
 
 #define SW_INPUT		(1 << 7)	/* 0/1 -- up/down */
 #define HARDRESET_EN		(1 << 7)

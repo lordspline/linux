@@ -9,17 +9,17 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/math.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/math.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/watchdog.h>
 
 /* Base address of timer and watchdog registers */
 #define TIMER_CTRL			0x0

@@ -12,9 +12,9 @@
  *  Copyright (C) 1998-2000 Anton Blanchard (anton@samba.org)
  */
 
-#include <linux/kernel_stat.h>
-#include <linux/seq_file.h>
-#include <linux/export.h>
+#include <robux/kernel_stat.h>
+#include <robux/seq_file.h>
+#include <robux/export.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cpudata.h>

@@ -5,7 +5,7 @@
  *
  *  adapted from:
  *      sd.c Copyright (C) 1992 Drew Eckhardt
- *      Linux scsi disk driver by
+ *      Robux scsi disk driver by
  *              Drew Eckhardt <drew@colorado.edu>
  *
  *	Modified by Eric Youngdale ericy@andante.org to
@@ -33,26 +33,26 @@
  *	check resource allocation in sr_init and some cleanups
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/bio.h>
-#include <linux/compat.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/cdrom.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/major.h>
-#include <linux/blkdev.h>
-#include <linux/blk-pm.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/bio.h>
+#include <robux/compat.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/cdrom.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/major.h>
+#include <robux/blkdev.h>
+#include <robux/blk-pm.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/pm_runtime.h>
+#include <robux/uaccess.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_dbg.h>

@@ -8,14 +8,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitops.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/coredump.h>
+#include <robux/bitops.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/coredump.h>
 
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 #include <asm/perf_event.h>
 #include <asm/msr.h>
 

@@ -15,19 +15,19 @@
  *		<jkenisto@us.ibm.com>  and Prasanna S Panchamukhi
  *		<prasanna@in.ibm.com> added function-return probes.
  */
-#include <linux/compiler.h>
-#include <linux/linkage.h>
-#include <linux/list.h>
-#include <linux/notifier.h>
-#include <linux/smp.h>
-#include <linux/bug.h>
-#include <linux/percpu.h>
-#include <linux/spinlock.h>
-#include <linux/rcupdate.h>
-#include <linux/mutex.h>
-#include <linux/ftrace.h>
-#include <linux/objpool.h>
-#include <linux/rethook.h>
+#include <robux/compiler.h>
+#include <robux/linkage.h>
+#include <robux/list.h>
+#include <robux/notifier.h>
+#include <robux/smp.h>
+#include <robux/bug.h>
+#include <robux/percpu.h>
+#include <robux/spinlock.h>
+#include <robux/rcupdate.h>
+#include <robux/mutex.h>
+#include <robux/ftrace.h>
+#include <robux/objpool.h>
+#include <robux/rethook.h>
 #include <asm/kprobes.h>
 
 #ifdef CONFIG_KPROBES

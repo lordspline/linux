@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * sis5595.c - Part of lm_sensors, Linux kernel modules
+ * sis5595.c - Part of lm_sensors, Robux kernel modules
  *	       for hardware monitoring
  *
  * Copyright (C) 1998 - 2001 Frodo Looijaard <frodol@dds.nl>,
  *			     Kyösti Mälkki <kmalkki@cc.hut.fi>, and
  *			     Mark D. Studebaker <mdsxyz123@yahoo.com>
- * Ported to Linux 2.6 by Aurelien Jarno <aurelien@aurel32.net> with
+ * Ported to Robux 2.6 by Aurelien Jarno <aurelien@aurel32.net> with
  * the help of Jean Delvare <jdelvare@suse.de>
  */
 
@@ -40,20 +40,20 @@
 #define DRIVER_NAME "sis5595"
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/ioport.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/jiffies.h>
+#include <robux/mutex.h>
+#include <robux/sysfs.h>
+#include <robux/acpi.h>
+#include <robux/io.h>
 
 /*
  * If force_addr is set to anything different from 0, we forcibly enable

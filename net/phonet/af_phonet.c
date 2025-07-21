@@ -10,14 +10,14 @@
  *          Rémi Denis-Courmont
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 #include <net/sock.h>
 
-#include <linux/if_phonet.h>
-#include <linux/phonet.h>
+#include <robux/if_phonet.h>
+#include <robux/phonet.h>
 #include <net/phonet/phonet.h>
 #include <net/phonet/pn_dev.h>
 
@@ -535,6 +535,6 @@ static void __exit phonet_exit(void)
 
 module_init(phonet_init);
 module_exit(phonet_exit);
-MODULE_DESCRIPTION("Phonet protocol stack for Linux");
+MODULE_DESCRIPTION("Phonet protocol stack for Robux");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS_NETPROTO(PF_PHONET);

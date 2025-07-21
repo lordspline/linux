@@ -6,9 +6,9 @@
 #ifndef __MTK_MMSYS_H
 #define __MTK_MMSYS_H
 
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox/mtk-cmdq-mailbox.h>
-#include <linux/soc/mediatek/mtk-cmdq.h>
+#include <robux/mailbox_controller.h>
+#include <robux/mailbox/mtk-cmdq-mailbox.h>
+#include <robux/soc/mediatek/mtk-cmdq.h>
 
 enum mtk_ddp_comp_id;
 struct device;

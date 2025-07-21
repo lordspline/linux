@@ -6,11 +6,11 @@
 
 #include "clk-kona.h"
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/clk-provider.h>
-#include <linux/string_choices.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/clk-provider.h>
+#include <robux/string_choices.h>
 
 /*
  * "Policies" affect the frequencies of bus clocks provided by a

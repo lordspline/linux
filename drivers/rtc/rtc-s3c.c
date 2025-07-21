@@ -11,20 +11,20 @@
  * S3C2410/S3C2440/S3C24XX Internal RTC Driver
 */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/clk.h>
-#include <linux/log2.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/rtc.h>
+#include <robux/bcd.h>
+#include <robux/clk.h>
+#include <robux/log2.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/uaccess.h>
+#include <robux/io.h>
 
 #include <asm/irq.h>
 #include "rtc-s3c.h"

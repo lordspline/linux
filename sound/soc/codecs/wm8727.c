@@ -8,11 +8,11 @@
  * Copyright (C) 2009 Imagination Technologies Ltd.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/initval.h>

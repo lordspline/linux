@@ -10,10 +10,10 @@
 #ifndef __MACH_GENERIC_H
 #define __MACH_GENERIC_H
 
-#include <linux/dmaengine.h>
-#include <linux/amba/pl08x.h>
-#include <linux/init.h>
-#include <linux/reboot.h>
+#include <robux/dmaengine.h>
+#include <robux/amba/pl08x.h>
+#include <robux/init.h>
+#include <robux/reboot.h>
 
 #include <asm/mach/time.h>
 

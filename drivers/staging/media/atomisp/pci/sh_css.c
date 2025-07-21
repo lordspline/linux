@@ -5,9 +5,9 @@
  */
 
 /*! \file */
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 
 #include "hmm.h"
 

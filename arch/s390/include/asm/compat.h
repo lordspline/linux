@@ -4,10 +4,10 @@
 /*
  * Architecture specific compatibility types
  */
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/thread_info.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/thread_info.h>
 #include <asm/ptrace.h>
 
 #define compat_mode_t	compat_mode_t

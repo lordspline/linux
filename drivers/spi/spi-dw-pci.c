@@ -5,11 +5,11 @@
  * Copyright (c) 2009, 2014 Intel Corporation.
  */
 
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/module.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/module.h>
 
 #include "spi-dw.h"
 

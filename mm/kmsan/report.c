@@ -7,12 +7,12 @@
  *
  */
 
-#include <linux/console.h>
-#include <linux/kmsan.h>
-#include <linux/moduleparam.h>
-#include <linux/stackdepot.h>
-#include <linux/stacktrace.h>
-#include <linux/uaccess.h>
+#include <robux/console.h>
+#include <robux/kmsan.h>
+#include <robux/moduleparam.h>
+#include <robux/stackdepot.h>
+#include <robux/stacktrace.h>
+#include <robux/uaccess.h>
 
 #include "kmsan.h"
 

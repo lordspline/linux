@@ -4,10 +4,10 @@
 #ifndef _QTN_FMAC_TRANS_H_
 #define _QTN_FMAC_TRANS_H_
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/skbuff.h>
+#include <robux/mutex.h>
 
 #include "qlink.h"
 

@@ -3,11 +3,11 @@
  * Copyright (C) 2020-21 Intel Corporation.
  */
 
-#include <linux/etherdevice.h>
-#include <linux/if_arp.h>
-#include <linux/if_link.h>
-#include <linux/rtnetlink.h>
-#include <linux/wwan.h>
+#include <robux/etherdevice.h>
+#include <robux/if_arp.h>
+#include <robux/if_link.h>
+#include <robux/rtnetlink.h>
+#include <robux/wwan.h>
 #include <net/pkt_sched.h>
 
 #include "iosm_ipc_chnl_cfg.h"

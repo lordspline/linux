@@ -5,14 +5,14 @@
  * Copyright (C) 2021 Renesas Electronics Corporation
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/reset-controller.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/reset-controller.h>
 
 #define RESET			0x000
 #define VBENCTL			0x03c

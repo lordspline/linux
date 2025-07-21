@@ -3,11 +3,11 @@
  * Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/firmware.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/soc/qcom/mdt_loader.h>
+#include <robux/firmware.h>
+#include <robux/firmware/qcom/qcom_scm.h>
+#include <robux/of_address.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/soc/qcom/mdt_loader.h>
 
 #include "iris_core.h"
 #include "iris_firmware.h"

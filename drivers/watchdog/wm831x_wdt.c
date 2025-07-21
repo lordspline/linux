@@ -5,18 +5,18 @@
  * Copyright (C) 2009 Wolfson Microelectronics
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/watchdog.h>
+#include <robux/uaccess.h>
 
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/pdata.h>
-#include <linux/mfd/wm831x/watchdog.h>
+#include <robux/mfd/wm831x/core.h>
+#include <robux/mfd/wm831x/pdata.h>
+#include <robux/mfd/wm831x/watchdog.h>
 
 static bool nowayout = WATCHDOG_NOWAYOUT;
 module_param(nowayout, bool, 0);

@@ -3,11 +3,11 @@
 // Copyright(c) 2022 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@robux.intel.com>
 //
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/soc-acpi.h>

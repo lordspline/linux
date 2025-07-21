@@ -7,12 +7,12 @@
  * Author: Wenyou Yang <wenyou.yang@atmel.com>
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
 #include <dt-bindings/regulator/active-semi,8945a-regulator.h>
 
 /*

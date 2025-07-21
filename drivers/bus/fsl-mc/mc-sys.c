@@ -6,13 +6,13 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
-#include <linux/fsl/mc.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/ioport.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/io-64-nonatomic-hi-lo.h>
+#include <robux/fsl/mc.h>
 
 #include "fsl-mc-private.h"
 

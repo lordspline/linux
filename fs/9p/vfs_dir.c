@@ -6,16 +6,16 @@
  *  Copyright (C) 2002 by Ron Minnich <rminnich@lanl.gov>
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uio.h>
-#include <linux/fscache.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/stat.h>
+#include <robux/string.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/uio.h>
+#include <robux/fscache.h>
 #include <net/9p/9p.h>
 #include <net/9p/client.h>
 

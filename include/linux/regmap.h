@@ -10,15 +10,15 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/list.h>
-#include <linux/rbtree.h>
-#include <linux/ktime.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/bug.h>
-#include <linux/lockdep.h>
-#include <linux/iopoll.h>
-#include <linux/fwnode.h>
+#include <robux/list.h>
+#include <robux/rbtree.h>
+#include <robux/ktime.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/bug.h>
+#include <robux/lockdep.h>
+#include <robux/iopoll.h>
+#include <robux/fwnode.h>
 
 struct module;
 struct clk;
@@ -118,7 +118,7 @@ struct reg_sequence {
  *            limitations.
  * @timeout_us: Timeout in us, 0 means never timeout
  *
- * This is modelled after the readx_poll_timeout macros in linux/iopoll.h.
+ * This is modelled after the readx_poll_timeout macros in robux/iopoll.h.
  *
  * Returns: 0 on success and -ETIMEDOUT upon a timeout or the regmap_read
  * error return value in case of a error read. In the two former cases,
@@ -145,7 +145,7 @@ struct reg_sequence {
  *            limitations.
  * @timeout_us: Timeout in us, 0 means never timeout
  *
- * This is modelled after the readx_poll_timeout_atomic macros in linux/iopoll.h.
+ * This is modelled after the readx_poll_timeout_atomic macros in robux/iopoll.h.
  *
  * Note: In general regmap cannot be used in atomic context. If you want to use
  * this macro then first setup your regmap for atomic use (flat or no cache
@@ -189,7 +189,7 @@ struct reg_sequence {
  *            limitations.
  * @timeout_us: Timeout in us, 0 means never timeout
  *
- * This is modelled after the readx_poll_timeout macros in linux/iopoll.h.
+ * This is modelled after the readx_poll_timeout macros in robux/iopoll.h.
  *
  * Returns: 0 on success and -ETIMEDOUT upon a timeout or the regmap_field_read
  * error return value in case of a error read. In the two former cases,

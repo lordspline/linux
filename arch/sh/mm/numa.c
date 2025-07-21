@@ -7,11 +7,11 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/module.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/numa.h>
-#include <linux/pfn.h>
+#include <robux/module.h>
+#include <robux/memblock.h>
+#include <robux/mm.h>
+#include <robux/numa.h>
+#include <robux/pfn.h>
 #include <asm/sections.h>
 
 /*

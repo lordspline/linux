@@ -6,13 +6,13 @@
 
 */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
 #include <asm/irq.h>
-#include <linux/interrupt.h>
+#include <robux/interrupt.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

@@ -9,10 +9,10 @@
  *
  */
 
-#include <linux/sched.h>
-#include <linux/platform_device.h>
-#include <linux/videodev2.h>
-#include <linux/slab.h>
+#include <robux/sched.h>
+#include <robux/platform_device.h>
+#include <robux/videodev2.h>
+#include <robux/slab.h>
 
 #include <media/v4l2-device.h>
 

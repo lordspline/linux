@@ -12,15 +12,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/irqchip.h>
-#include <linux/irqchip/arm-gic.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_pci.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/arm-gic.h>
+#include <robux/msi.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_pci.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
 
 #include <asm/irq.h>
 #include <asm/msi.h>

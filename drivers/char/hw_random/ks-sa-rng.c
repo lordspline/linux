@@ -8,20 +8,20 @@
  *		Vitaly Andrianov
  */
 
-#include <linux/hw_random.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/pm_runtime.h>
-#include <linux/err.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/delay.h>
-#include <linux/timekeeping.h>
+#include <robux/hw_random.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/pm_runtime.h>
+#include <robux/err.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/delay.h>
+#include <robux/timekeeping.h>
 
 #define SA_CMD_STATUS_OFS			0x8
 

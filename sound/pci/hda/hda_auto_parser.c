@@ -5,9 +5,9 @@
  * Copyright (c) 2012 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/sort.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/sort.h>
 #include <sound/core.h>
 #include <sound/hda_codec.h>
 #include "hda_local.h"

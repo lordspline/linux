@@ -6,23 +6,23 @@
 // Author: Argus Lin <argus.lin@mediatek.com>
 //
 
-#include <linux/of.h>
-#include <linux/input.h>
-#include <linux/kthread.h>
-#include <linux/io.h>
-#include <linux/sched/clock.h>
-#include <linux/workqueue.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/regmap.h>
+#include <robux/of.h>
+#include <robux/input.h>
+#include <robux/kthread.h>
+#include <robux/io.h>
+#include <robux/sched/clock.h>
+#include <robux/workqueue.h>
+#include <robux/timer.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/irqdomain.h>
+#include <robux/irq.h>
+#include <robux/regmap.h>
 #include <sound/soc.h>
 #include <sound/jack.h>
-#include <linux/mfd/mt6397/core.h>
+#include <robux/mfd/mt6397/core.h>
 
 #include "mt6359-accdet.h"
 #include "mt6359.h"

@@ -3,12 +3,12 @@
  * Copyright (c) 2022, Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/interconnect.h>
-#include <linux/interconnect-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/device.h>
+#include <robux/interconnect.h>
+#include <robux/interconnect-provider.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 #include <dt-bindings/interconnect/qcom,sdx65.h>
 
 #include "bcm-voter.h"

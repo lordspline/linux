@@ -2,10 +2,10 @@
 #ifndef _LINUX_FORTIFY_STRING_H_
 #define _LINUX_FORTIFY_STRING_H_
 
-#include <linux/bitfield.h>
-#include <linux/bug.h>
-#include <linux/const.h>
-#include <linux/limits.h>
+#include <robux/bitfield.h>
+#include <robux/bug.h>
+#include <robux/const.h>
+#include <robux/limits.h>
 
 #define __FORTIFY_INLINE extern __always_inline __gnu_inline __overloadable
 #define __RENAME(x) __asm__(#x)
@@ -106,7 +106,7 @@ extern char *__underlying_strncpy(char *p, const char *q, __kernel_size_t size) 
  * For KMSAN builds all memcpy/memset/memmove calls should be replaced by the
  * corresponding __msan_XXX functions.
  */
-#include <linux/kmsan_string.h>
+#include <robux/kmsan_string.h>
 #define __underlying_memcpy	__msan_memcpy
 #define __underlying_memmove	__msan_memmove
 #define __underlying_memset	__msan_memset

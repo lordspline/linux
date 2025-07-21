@@ -10,21 +10,21 @@
 
 #define pr_fmt(fmt) "ACPI: battery: " fmt
 
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/types.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/suspend.h>
+#include <robux/types.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <linux/acpi.h>
-#include <linux/power_supply.h>
+#include <robux/acpi.h>
+#include <robux/power_supply.h>
 
 #include <acpi/battery.h>
 

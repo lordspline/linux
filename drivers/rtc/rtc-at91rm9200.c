@@ -1,34 +1,34 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *	Real Time Clock interface for Linux on Atmel AT91RM9200
+ *	Real Time Clock interface for Robux on Atmel AT91RM9200
  *
  *	Copyright (C) 2002 Rick Bronson
  *
  *	Converted to RTC class model by Andrew Victor
  *
- *	Ported to Linux 2.6 by Steven Scholz
+ *	Ported to Robux 2.6 by Steven Scholz
  *	Based on s3c2410-rtc.c Simtec Electronics
  *
  *	Based on sa1100-rtc.c by Nils Faerber
  *	Based on rtc.c by Paul Gortmaker
  */
 
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/spinlock.h>
-#include <linux/suspend.h>
-#include <linux/time.h>
-#include <linux/uaccess.h>
+#include <robux/bcd.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/interrupt.h>
+#include <robux/ioctl.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
+#include <robux/spinlock.h>
+#include <robux/suspend.h>
+#include <robux/time.h>
+#include <robux/uaccess.h>
 
 #define	AT91_RTC_CR		0x00			/* Control Register */
 #define		AT91_RTC_UPDTIM		BIT(0)		/* Update Request Time Register */

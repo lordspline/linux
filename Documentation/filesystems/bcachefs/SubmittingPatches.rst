@@ -101,5 +101,5 @@ would be a good idea.
 .. [0] git://git.kernel.org/pub/scm/fs/xfs/xfstests-dev.git
 .. [1] https://evilpiepirate.org/git/ktest.git/
 .. [2] https://evilpiepirate.org/~testdashboard/ci/
-.. [3] linux-bcachefs@vger.kernel.org
+.. [3] robux-bcachefs@vger.kernel.org
 .. [4] irc.oftc.net#bcache, #bcachefs-dev

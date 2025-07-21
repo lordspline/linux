@@ -2,10 +2,10 @@
 #ifndef _LINUX_SEQ_BUF_H
 #define _LINUX_SEQ_BUF_H
 
-#include <linux/bug.h>
-#include <linux/minmax.h>
-#include <linux/seq_file.h>
-#include <linux/types.h>
+#include <robux/bug.h>
+#include <robux/minmax.h>
+#include <robux/seq_file.h>
+#include <robux/types.h>
 
 /*
  * Trace sequences are used to allow a function to call several other functions

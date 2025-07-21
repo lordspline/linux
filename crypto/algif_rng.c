@@ -38,12 +38,12 @@
  * DAMAGE.
  */
 
-#include <linux/capability.h>
-#include <linux/module.h>
+#include <robux/capability.h>
+#include <robux/module.h>
 #include <crypto/rng.h>
-#include <linux/random.h>
+#include <robux/random.h>
 #include <crypto/if_alg.h>
-#include <linux/net.h>
+#include <robux/net.h>
 #include <net/sock.h>
 
 MODULE_LICENSE("GPL");

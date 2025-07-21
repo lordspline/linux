@@ -11,15 +11,15 @@
  *		Wingman Kwok <w-kwok2@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_net.h>
-#include <linux/of_address.h>
-#include <linux/if_vlan.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_device.h>
-#include <linux/soc/ti/knav_qmss.h>
-#include <linux/soc/ti/knav_dma.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_net.h>
+#include <robux/of_address.h>
+#include <robux/if_vlan.h>
+#include <robux/pm_runtime.h>
+#include <robux/platform_device.h>
+#include <robux/soc/ti/knav_qmss.h>
+#include <robux/soc/ti/knav_dma.h>
 
 #include "netcp.h"
 

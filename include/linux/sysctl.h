@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * sysctl.h: General linux system control interface
+ * sysctl.h: General robux system control interface
  *
  * Begun 24 March 1995, Stephen Tweedie
  *
@@ -22,12 +22,12 @@
 #ifndef _LINUX_SYSCTL_H
 #define _LINUX_SYSCTL_H
 
-#include <linux/list.h>
-#include <linux/rcupdate.h>
-#include <linux/wait.h>
-#include <linux/rbtree.h>
-#include <linux/uidgid.h>
-#include <uapi/linux/sysctl.h>
+#include <robux/list.h>
+#include <robux/rcupdate.h>
+#include <robux/wait.h>
+#include <robux/rbtree.h>
+#include <robux/uidgid.h>
+#include <uapi/robux/sysctl.h>
 
 /* For the /proc/sys support */
 struct completion;

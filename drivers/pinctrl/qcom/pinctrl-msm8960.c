@@ -3,10 +3,10 @@
  * Copyright (c) 2014, Sony Mobile Communications AB.
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "pinctrl-msm.h"
 

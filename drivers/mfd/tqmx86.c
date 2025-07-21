@@ -7,14 +7,14 @@
  * Copyright (c) 2019 Andrew Lunn <andrew@lunn.ch>
  */
 
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/platform_data/i2c-ocores.h>
-#include <linux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/i2c.h>
+#include <robux/io.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/platform_data/i2c-ocores.h>
+#include <robux/platform_device.h>
 
 #define TQMX86_IOBASE	0x180
 #define TQMX86_IOSIZE	0x20

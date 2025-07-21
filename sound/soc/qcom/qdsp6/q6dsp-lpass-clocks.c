@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2020, Linaro Limited
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/clk-provider.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 #include <dt-bindings/sound/qcom,q6dsp-lpass-ports.h>
 #include "q6dsp-lpass-clocks.h"
 

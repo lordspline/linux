@@ -27,7 +27,7 @@
 #ifndef __NOUVEAU_ENCODER_I2C_H__
 #define __NOUVEAU_ENCODER_I2C_H__
 
-#include <linux/i2c.h>
+#include <robux/i2c.h>
 
 #include <drm/drm_crtc.h>
 #include <drm/drm_encoder.h>

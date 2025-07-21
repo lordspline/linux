@@ -2,16 +2,16 @@
 /*
  * Copyright (c) 2005-2011 Atheros Communications Inc.
  * Copyright (c) 2011-2017 Qualcomm Atheros, Inc.
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Robux Foundation. All rights reserved.
  * Copyright (c) 2022, 2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/vmalloc.h>
-#include <linux/crc32.h>
-#include <linux/firmware.h>
-#include <linux/kstrtox.h>
+#include <robux/module.h>
+#include <robux/debugfs.h>
+#include <robux/vmalloc.h>
+#include <robux/crc32.h>
+#include <robux/firmware.h>
+#include <robux/kstrtox.h>
 
 #include "core.h"
 #include "debug.h"

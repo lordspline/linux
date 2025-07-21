@@ -12,9 +12,9 @@
  * Author: Stephen Chivers <schivers@csc.com>
  */
 
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/seq_file.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/seq_file.h>
 
 #include <asm/i8259.h>
 #include <asm/pci-bridge.h>

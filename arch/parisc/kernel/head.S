@@ -18,9 +18,9 @@
 	
 #include <asm/assembly.h>
 
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/pgtable.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
+#include <robux/pgtable.h>
 
 	.level	1.1
 

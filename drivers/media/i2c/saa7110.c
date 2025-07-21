@@ -9,18 +9,18 @@
  *    - some corrections for Pinnacle Systems Inc. DC10plus card.
  *
  * Changes by Ronald Bultje <rbultje@ronald.bitfreak.net>
- *    - moved over to linux>=2.4.x i2c protocol (1/1/2003)
+ *    - moved over to robux>=2.4.x i2c protocol (1/1/2003)
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
-#include <linux/uaccess.h>
-#include <linux/i2c.h>
-#include <linux/videodev2.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/wait.h>
+#include <robux/uaccess.h>
+#include <robux/i2c.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>
 

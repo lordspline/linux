@@ -4,13 +4,13 @@
  * Author: James Liao <jamesjj.liao@mediatek.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/clk-provider.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/printk.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "clk-gate.h"
 

@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _LINUX_MINIX_FS_H
 #define _LINUX_MINIX_FS_H
 
-#include <linux/types.h>
-#include <linux/magic.h>
+#include <robux/types.h>
+#include <robux/magic.h>
 
 /*
  * The minix filesystem constants/structures
@@ -17,7 +17,7 @@
 
 #define MINIX_ROOT_INO 1
 
-/* Not the same as the bogus LINK_MAX in <linux/limits.h>. Oh well. */
+/* Not the same as the bogus LINK_MAX in <robux/limits.h>. Oh well. */
 #define MINIX_LINK_MAX	250
 #define MINIX2_LINK_MAX	65530
 

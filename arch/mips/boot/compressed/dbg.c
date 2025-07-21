@@ -6,8 +6,8 @@
  * please select SYS_SUPPORTS_ZBOOT_UART16550 for your machine. otherwise, you
  * need to implement your own putc().
  */
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/types.h>
 
 #include "decompress.h"
 

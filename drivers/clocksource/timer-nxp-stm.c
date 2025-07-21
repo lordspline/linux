@@ -12,15 +12,15 @@
  *  8-bit prescale value (1 to 256). It has ability to stop the timer
  *  in Debug mode
  */
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/cpuhotplug.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/sched_clock.h>
-#include <linux/units.h>
+#include <robux/clk.h>
+#include <robux/clockchips.h>
+#include <robux/cpuhotplug.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/sched_clock.h>
+#include <robux/units.h>
 
 #define STM_CR(__base)		(__base)
 
@@ -406,7 +406,7 @@ static int __init nxp_stm_timer_probe(struct platform_device *pdev)
 	guard(stm_instances)(&stm_instances_lock);
 
 	/*
-	 * The S32Gx are SoCs featuring a diverse set of cores. Linux
+	 * The S32Gx are SoCs featuring a diverse set of cores. Robux
 	 * is expected to run on Cortex-A53 cores, while other
 	 * software stacks will operate on Cortex-M cores. The number
 	 * of STM instances has been sized to include at most one

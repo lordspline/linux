@@ -8,17 +8,17 @@
 /*
  * Core code for the Via multifunction framebuffer device.
  */
-#include <linux/aperture.h>
-#include <linux/via-core.h>
-#include <linux/via_i2c.h>
+#include <robux/aperture.h>
+#include <robux/via-core.h>
+#include <robux/via_i2c.h>
 #include "via-gpio.h"
 #include "global.h"
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/list.h>
-#include <linux/pm.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/list.h>
+#include <robux/pm.h>
 
 /*
  * The default port config.

@@ -13,7 +13,7 @@
  *
  * Please send any bug reports or fixes you make to the
  * email address(es):
- *    lksctp developers <linux-sctp@vger.kernel.org>
+ *    lksctp developers <robux-sctp@vger.kernel.org>
  *
  * Written or modified by:
  *    La Monte H.P. Yarroll <piggy@acm.org>
@@ -31,18 +31,18 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <crypto/hash.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/net.h>
-#include <linux/inet.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
+#include <robux/net.h>
+#include <robux/inet.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
 #include <net/sock.h>
 
-#include <linux/skbuff.h>
-#include <linux/random.h>	/* for get_random_bytes */
+#include <robux/skbuff.h>
+#include <robux/random.h>	/* for get_random_bytes */
 #include <net/sctp/sctp.h>
 #include <net/sctp/sm.h>
 

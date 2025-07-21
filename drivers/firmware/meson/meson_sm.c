@@ -8,20 +8,20 @@
 
 #define pr_fmt(fmt) "meson-sm: " fmt
 
-#include <linux/arm-smccc.h>
-#include <linux/bug.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/property.h>
-#include <linux/types.h>
-#include <linux/sizes.h>
- #include <linux/slab.h>
+#include <robux/arm-smccc.h>
+#include <robux/bug.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/printk.h>
+#include <robux/property.h>
+#include <robux/types.h>
+#include <robux/sizes.h>
+ #include <robux/slab.h>
 
-#include <linux/firmware/meson/meson_sm.h>
+#include <robux/firmware/meson/meson_sm.h>
 
 struct meson_sm_cmd {
 	unsigned int index;

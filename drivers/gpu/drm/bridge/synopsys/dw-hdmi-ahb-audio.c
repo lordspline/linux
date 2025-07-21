@@ -4,11 +4,11 @@
  *
  * Written and tested against the Designware HDMI Tx found in iMX6.
  */
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/vmalloc.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/vmalloc.h>
 #include <drm/bridge/dw_hdmi.h>
 #include <drm/drm_edid.h>
 

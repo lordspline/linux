@@ -5,11 +5,11 @@
  * Copyright IBM Corporation, 2007
  *      Authors:
  *               Chandra Seetharaman <sekharan@us.ibm.com>
- *               Mike Anderson <andmike@linux.vnet.ibm.com>
+ *               Mike Anderson <andmike@robux.vnet.ibm.com>
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 #include <scsi/scsi_dh.h>
 #include "scsi_priv.h"
 

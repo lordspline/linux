@@ -19,11 +19,11 @@
  * soft-reset, but it might be extended in the future.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
-#include <linux/reboot.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/of_address.h>
+#include <robux/io.h>
+#include <robux/reboot.h>
 #include "common.h"
 #include "mvebu-soc-id.h"
 #include "pmsu.h"

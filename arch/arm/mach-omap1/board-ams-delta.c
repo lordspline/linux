@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap1/board-ams-delta.c
+ * robux/arch/arm/mach-omap1/board-ams-delta.c
  *
  * Modified from board-generic.c
  *
@@ -8,33 +8,33 @@
  *
  * Copyright (C) 2006 Jonathan McDowell <noodles@earth.li>
  */
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/leds.h>
-#include <linux/mtd/nand-gpio.h>
-#include <linux/mtd/partitions.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/serial_8250.h>
-#include <linux/export.h>
-#include <linux/omapfb.h>
-#include <linux/io.h>
-#include <linux/platform_data/gpio-omap.h>
-#include <linux/soc/ti/omap1-mux.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/leds.h>
+#include <robux/mtd/nand-gpio.h>
+#include <robux/mtd/partitions.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/regulator/fixed.h>
+#include <robux/regulator/machine.h>
+#include <robux/serial_8250.h>
+#include <robux/export.h>
+#include <robux/omapfb.h>
+#include <robux/io.h>
+#include <robux/platform_data/gpio-omap.h>
+#include <robux/soc/ti/omap1-mux.h>
 
 #include <asm/serial.h>
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>
 
-#include <linux/platform_data/keypad-omap.h>
+#include <robux/platform_data/keypad-omap.h>
 
 #include "hardware.h"
 #include "usb.h"

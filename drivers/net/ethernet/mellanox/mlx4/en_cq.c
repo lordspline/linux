@@ -31,9 +31,9 @@
  *
  */
 
-#include <linux/mlx4/cq.h>
-#include <linux/mlx4/qp.h>
-#include <linux/mlx4/cmd.h>
+#include <robux/mlx4/cq.h>
+#include <robux/mlx4/qp.h>
+#include <robux/mlx4/cmd.h>
 
 #include "mlx4_en.h"
 

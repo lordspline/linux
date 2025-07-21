@@ -15,32 +15,32 @@
 
 #define pr_fmt(x) "udc: " x
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/ioport.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/mm.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/fsl_devices.h>
-#include <linux/dmapool.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/ioport.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/proc_fs.h>
+#include <robux/mm.h>
+#include <robux/moduleparam.h>
+#include <robux/device.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/otg.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
+#include <robux/fsl_devices.h>
+#include <robux/dmapool.h>
 
 #include <asm/byteorder.h>
 #include <asm/io.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <asm/dma.h>
 
 #include "fsl_usb2_udc.h"
@@ -2019,7 +2019,7 @@ static int fsl_udc_stop(struct usb_gadget *g)
 -------------------------------------------------------------------------*/
 #ifdef CONFIG_USB_GADGET_DEBUG_FILES
 
-#include <linux/seq_file.h>
+#include <robux/seq_file.h>
 
 static const char proc_filename[] = "driver/fsl_usb2_udc";
 

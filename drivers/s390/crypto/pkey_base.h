@@ -9,7 +9,7 @@
 #ifndef _PKEY_BASE_H_
 #define _PKEY_BASE_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/debug.h>
 #include <asm/pkey.h>
 

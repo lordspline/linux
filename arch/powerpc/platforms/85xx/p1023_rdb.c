@@ -8,15 +8,15 @@
  * P1023 RDB Board Setup
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/fsl_devices.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/fsl_devices.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include <asm/time.h>
 #include <asm/machdep.h>

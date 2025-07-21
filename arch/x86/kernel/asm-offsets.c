@@ -6,13 +6,13 @@
  */
 #define COMPILE_OFFSETS
 
-#include <linux/crypto.h>
+#include <robux/crypto.h>
 #include <crypto/aria.h>
-#include <linux/sched.h>
-#include <linux/stddef.h>
-#include <linux/hardirq.h>
-#include <linux/suspend.h>
-#include <linux/kbuild.h>
+#include <robux/sched.h>
+#include <robux/stddef.h>
+#include <robux/hardirq.h>
+#include <robux/suspend.h>
+#include <robux/kbuild.h>
 #include <asm/processor.h>
 #include <asm/thread_info.h>
 #include <asm/sigframe.h>

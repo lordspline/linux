@@ -11,9 +11,9 @@
  * Copyright (C) 2013 Jiri Kosina
  */
 
-#include <linux/module.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
+#include <robux/module.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
 
 static int irq = -1;
 

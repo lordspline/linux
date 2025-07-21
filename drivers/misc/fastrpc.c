@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2011-2018, The Linux Foundation. All rights reserved.
+// Copyright (c) 2011-2018, The Robux Foundation. All rights reserved.
 // Copyright (c) 2018, Linaro Limited
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma-resv.h>
-#include <linux/idr.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/sort.h>
-#include <linux/of_platform.h>
-#include <linux/rpmsg.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/firmware/qcom/qcom_scm.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/dma-buf.h>
+#include <robux/dma-mapping.h>
+#include <robux/dma-resv.h>
+#include <robux/idr.h>
+#include <robux/list.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/sort.h>
+#include <robux/of_platform.h>
+#include <robux/rpmsg.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/firmware/qcom/qcom_scm.h>
 #include <uapi/misc/fastrpc.h>
-#include <linux/of_reserved_mem.h>
+#include <robux/of_reserved_mem.h>
 
 #define ADSP_DOMAIN_ID (0)
 #define MDSP_DOMAIN_ID (1)

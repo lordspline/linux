@@ -10,16 +10,16 @@
 #ifndef __CS35L41_HDA_H__
 #define __CS35L41_HDA_H__
 
-#include <linux/acpi.h>
-#include <linux/efi.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/device.h>
+#include <robux/acpi.h>
+#include <robux/efi.h>
+#include <robux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/device.h>
 #include <sound/cs35l41.h>
 #include <sound/cs-amp-lib.h>
 
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/wmfw.h>
+#include <robux/firmware/cirrus/cs_dsp.h>
+#include <robux/firmware/cirrus/wmfw.h>
 
 #define CS35L41_MAX_ACCEPTABLE_SPI_SPEED_HZ	1000000
 #define DEFAULT_AMP_GAIN_PCM			17	/* 17.5dB Gain */

@@ -5,18 +5,18 @@
  * 2) platform_data being correctly configured
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/pwm.h>
-#include <linux/pwm_backlight.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/backlight.h>
+#include <robux/err.h>
+#include <robux/pwm.h>
+#include <robux/pwm_backlight.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
 struct pwm_bl_data {
 	struct pwm_device	*pwm;

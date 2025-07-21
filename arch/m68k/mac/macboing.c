@@ -10,8 +10,8 @@
  *	Juergen Mellinger (juergen.mellinger@t-online.de)
  */
 
-#include <linux/sched.h>
-#include <linux/timer.h>
+#include <robux/sched.h>
+#include <robux/timer.h>
 
 #include <asm/macintosh.h>
 #include <asm/mac_asc.h>

@@ -1,6 +1,6 @@
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/audit.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/audit.h>
 #include <asm/unistd.h>
 
 static unsigned dir_class[] = {

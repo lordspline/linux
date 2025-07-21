@@ -10,7 +10,7 @@
  * SCMI Protocol specification allows the platform to signal events to
  * interested agents via notification messages: this is an implementation
  * of the dispatch and delivery of such notifications to the interested users
- * inside the Linux kernel.
+ * inside the Robux kernel.
  *
  * An SCMI Notification core instance is initialized for each active platform
  * instance identified by the means of the usual &struct scmi_handle.
@@ -73,23 +73,23 @@
 #define dev_fmt(fmt) "SCMI Notifications - " fmt
 #define pr_fmt(fmt) "SCMI Notifications - " fmt
 
-#include <linux/bitfield.h>
-#include <linux/bug.h>
-#include <linux/compiler.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/hashtable.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/kfifo.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/refcount.h>
-#include <linux/scmi_protocol.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/bitfield.h>
+#include <robux/bug.h>
+#include <robux/compiler.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/hashtable.h>
+#include <robux/kernel.h>
+#include <robux/ktime.h>
+#include <robux/kfifo.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
+#include <robux/refcount.h>
+#include <robux/scmi_protocol.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include "common.h"
 #include "notify.h"

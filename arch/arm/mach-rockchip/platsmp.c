@@ -4,17 +4,17 @@
  * Author: Heiko Stuebner <heiko@sntech.de>
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
 
-#include <linux/reset.h>
-#include <linux/cpu.h>
+#include <robux/reset.h>
+#include <robux/cpu.h>
 #include <asm/cacheflush.h>
 #include <asm/cp15.h>
 #include <asm/smp_scu.h>

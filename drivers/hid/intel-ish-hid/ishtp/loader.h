@@ -8,10 +8,10 @@
 #ifndef _ISHTP_LOADER_H_
 #define _ISHTP_LOADER_H_
 
-#include <linux/bits.h>
-#include <linux/jiffies.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/jiffies.h>
+#include <robux/sizes.h>
+#include <robux/types.h>
 
 #include "ishtp-dev.h"
 

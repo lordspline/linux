@@ -4,18 +4,18 @@
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/pci.h>
-#include <linux/pci-acpi.h>
-#include <linux/pci-ecam.h>
-#include <linux/srcu.h>
-#include <linux/rculist.h>
-#include <linux/rcupdate.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/msi.h>
+#include <robux/pci.h>
+#include <robux/pci-acpi.h>
+#include <robux/pci-ecam.h>
+#include <robux/srcu.h>
+#include <robux/rculist.h>
+#include <robux/rcupdate.h>
 
 #include <xen/xen.h>
 
@@ -115,7 +115,7 @@ struct vmd_irq {
  * @srcu:	SRCU struct for local synchronization.
  * @count:	number of child IRQs assigned to this vector; used to track
  *		sharing.
- * @virq:	The underlying VMD Linux interrupt number
+ * @virq:	The underlying VMD Robux interrupt number
  */
 struct vmd_irq_list {
 	struct list_head	irq_list;
@@ -980,7 +980,7 @@ static int vmd_probe(struct pci_dev *dev, const struct pci_device_id *id)
 		 * them in any way.
 		 *
 		 * Bypass of MSI remapping won't work in that case as direct
-		 * write by Linux to the MSI entries won't result in functional
+		 * write by Robux to the MSI entries won't result in functional
 		 * interrupts, as Xen is the entity that manages the host
 		 * interrupt controller and must configure interrupts.  However
 		 * multiplexing of interrupts by the VMD bridge will work under

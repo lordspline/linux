@@ -5,9 +5,9 @@
  *
  * Gregory CLEMENT <gregory.clement@free-electrons.com>
  */
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/skbuff.h>
+#include <robux/kernel.h>
+#include <robux/printk.h>
+#include <robux/skbuff.h>
 #include <net/hwbm.h>
 
 void hwbm_buf_free(struct hwbm_pool *bm_pool, void *buf)

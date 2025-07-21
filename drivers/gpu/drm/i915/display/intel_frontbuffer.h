@@ -24,9 +24,9 @@
 #ifndef __INTEL_FRONTBUFFER_H__
 #define __INTEL_FRONTBUFFER_H__
 
-#include <linux/atomic.h>
-#include <linux/bits.h>
-#include <linux/kref.h>
+#include <robux/atomic.h>
+#include <robux/bits.h>
+#include <robux/kref.h>
 
 #include "i915_active_types.h"
 

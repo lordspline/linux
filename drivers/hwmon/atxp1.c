@@ -8,18 +8,18 @@
  * See Documentation/i2c/instantiating-devices.rst for more information.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-vid.h>
-#include <linux/err.h>
-#include <linux/kstrtox.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/jiffies.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-vid.h>
+#include <robux/err.h>
+#include <robux/kstrtox.h>
+#include <robux/mutex.h>
+#include <robux/sysfs.h>
+#include <robux/slab.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("System voltages control via Attansic ATXP1");

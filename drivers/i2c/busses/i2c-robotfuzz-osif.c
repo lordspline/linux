@@ -10,12 +10,12 @@
  * Copyright (C) 2006 Til Harbaum (Till@Harbaum.org)
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
 
 #define OSIFI2C_READ		20
 #define OSIFI2C_WRITE		21

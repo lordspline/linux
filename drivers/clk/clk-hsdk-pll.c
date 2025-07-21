@@ -5,15 +5,15 @@
  * Copyright (C) 2017 Synopsys
  */
 
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #define CGU_PLL_CTRL	0x000 /* ARC PLL control register */
 #define CGU_PLL_STATUS	0x004 /* ARC PLL status register */

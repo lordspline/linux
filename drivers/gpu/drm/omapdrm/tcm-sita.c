@@ -8,13 +8,13 @@
  *
  * Copyright (C) 2012 Texas Instruments Incorporated - https://www.ti.com/
  */
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/bitmap.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
+#include <robux/bitmap.h>
+#include <robux/slab.h>
 #include "tcm.h"
 
 static unsigned long mask[8];

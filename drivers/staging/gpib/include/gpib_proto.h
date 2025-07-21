@@ -3,7 +3,7 @@
 #ifndef GPIB_PROTO_INCLUDED
 #define GPIB_PROTO_INCLUDED
 
-#include <linux/fs.h>
+#include <robux/fs.h>
 
 int ibopen(struct inode *inode, struct file *filep);
 int ibclose(struct inode *inode, struct file *file);

@@ -3,10 +3,10 @@
  * Copyright (C) 2015 Synopsys, Inc. (www.synopsys.com)
  */
 
-#include <linux/memblock.h>
-#include <linux/export.h>
-#include <linux/highmem.h>
-#include <linux/pgtable.h>
+#include <robux/memblock.h>
+#include <robux/export.h>
+#include <robux/highmem.h>
+#include <robux/pgtable.h>
 #include <asm/processor.h>
 #include <asm/pgalloc.h>
 #include <asm/tlbflush.h>

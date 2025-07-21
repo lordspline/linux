@@ -107,7 +107,7 @@ examples:
 
             bus-range = <0x00 0xff>;
             device_type = "pci";
-            linux,pci-domain = <0>;
+            robux,pci-domain = <0>;
             max-link-speed = <2>;
             num-lanes = <1>;
 

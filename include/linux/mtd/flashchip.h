@@ -9,11 +9,11 @@
 
 /* For spinlocks. sched.h includes spinlock.h from whichever directory it
  * happens to be in - so we don't have to care whether we're on 2.2, which
- * has asm/spinlock.h, or 2.4, which has linux/spinlock.h
+ * has asm/spinlock.h, or 2.4, which has robux/spinlock.h
  */
-#include <linux/sched.h>
-#include <linux/mutex.h>
-#include <linux/wait.h>
+#include <robux/sched.h>
+#include <robux/mutex.h>
+#include <robux/wait.h>
 
 typedef enum {
 	FL_READY,

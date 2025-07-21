@@ -5,17 +5,17 @@
  * Counter driver for Texas Instruments Enhanced Quadrature Encoder Pulse (eQEP)
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/counter.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/counter.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 /* 32-bit registers */
 #define QPOSCNT		0x0

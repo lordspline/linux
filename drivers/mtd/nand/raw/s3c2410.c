@@ -13,25 +13,25 @@
 #define DEBUG
 #endif
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/cpufreq.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/cpufreq.h>
+#include <robux/of.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
 
-#include <linux/platform_data/mtd-nand-s3c2410.h>
+#include <robux/platform_data/mtd-nand-s3c2410.h>
 
 #define S3C2410_NFREG(x) (x)
 

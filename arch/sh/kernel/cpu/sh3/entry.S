@@ -5,9 +5,9 @@
  *  Copyright (C) 1999, 2000, 2002  Niibe Yutaka
  *  Copyright (C) 2003 - 2012  Paul Mundt
  */
-#include <linux/sys.h>
-#include <linux/errno.h>
-#include <linux/linkage.h>
+#include <robux/sys.h>
+#include <robux/errno.h>
+#include <robux/linkage.h>
 #include <asm/asm-offsets.h>
 #include <asm/thread_info.h>
 #include <asm/unistd.h>

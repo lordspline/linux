@@ -32,17 +32,17 @@
  * (C) Copyright 2024 Hans de Goede <hansg@kernel.org>
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/dev_printk.h>
+#include <robux/dmi.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/types.h>
 
 /* Register addresses and fields */
 #define VENDOR_ID			0x00

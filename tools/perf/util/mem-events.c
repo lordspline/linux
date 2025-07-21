@@ -7,7 +7,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <api/fs/fs.h>
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 #include "cpumap.h"
 #include "map_symbol.h"
 #include "mem-events.h"

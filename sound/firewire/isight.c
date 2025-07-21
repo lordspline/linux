@@ -6,14 +6,14 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/firewire.h>
+#include <robux/firewire-constants.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/string.h>
 #include <sound/control.h>
 #include <sound/core.h>
 #include <sound/initval.h>

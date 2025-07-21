@@ -6,21 +6,21 @@
  * Copyright (C) 2016 Freescale Semiconductor Inc.
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
 #define MPC8XXX_GPIO_PINS	32
 

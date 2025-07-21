@@ -6,17 +6,17 @@
  * Author: <matt.ranostay@konsulko.com>
  */
 
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/spi/spi.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <robux/init.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/spi/spi.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
 
 #define MAXIM_THERMOCOUPLE_DRV_NAME	"maxim_thermocouple"
 

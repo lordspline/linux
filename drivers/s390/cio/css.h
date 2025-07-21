@@ -2,11 +2,11 @@
 #ifndef _CSS_H
 #define _CSS_H
 
-#include <linux/mutex.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/device.h>
-#include <linux/types.h>
+#include <robux/mutex.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
+#include <robux/device.h>
+#include <robux/types.h>
 
 #include <asm/cio.h>
 #include <asm/chpid.h>

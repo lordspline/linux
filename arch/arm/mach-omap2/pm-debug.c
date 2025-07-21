@@ -16,14 +16,14 @@
  * Based on pm.c for omap2
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/clock.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include "clock.h"
 #include "powerdomain.h"
@@ -35,8 +35,8 @@
 #include "pm.h"
 
 #ifdef CONFIG_DEBUG_FS
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 
 static int pm_dbg_init_done;
 

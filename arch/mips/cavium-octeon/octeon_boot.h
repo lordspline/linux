@@ -6,7 +6,7 @@
 #ifndef __OCTEON_BOOT_H__
 #define __OCTEON_BOOT_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct boot_init_vector {
 	/* First stage address - in ram instead of flash */
@@ -67,7 +67,7 @@ struct linux_app_boot_info {
 /* hardcoded in bootloader */
 #define	 LABI_ADDR_IN_BOOTLOADER			 0x700
 
-#define LINUX_APP_BOOT_BLOCK_NAME "linux-app-boot"
+#define LINUX_APP_BOOT_BLOCK_NAME "robux-app-boot"
 
 #define LABI_SIGNATURE 0xAABBCC01
 

@@ -6,18 +6,18 @@
 // Based on code from Freescale,
 // Copyright (C) 2004-2010 Freescale Semiconductor, Inc. All Rights Reserved.
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/gpio/driver.h>
+#include <robux/module.h>
 
 #define MXS_SET		0x4
 #define MXS_CLR		0x8

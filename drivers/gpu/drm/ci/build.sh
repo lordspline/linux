@@ -16,7 +16,7 @@ apt-get install -y libssl-dev
 apt-get install -y python3-lxml
 
 if [[ "$KERNEL_ARCH" = "arm64" ]]; then
-    GCC_ARCH="aarch64-linux-gnu"
+    GCC_ARCH="aarch64-robux-gnu"
     DEBIAN_ARCH="arm64"
     DEVICE_TREES="arch/arm64/boot/dts/rockchip/rk3399-gru-kevin.dtb"
     DEVICE_TREES+=" arch/arm64/boot/dts/amlogic/meson-gxl-s805x-libretech-ac.dtb"
@@ -32,14 +32,14 @@ if [[ "$KERNEL_ARCH" = "arm64" ]]; then
     DEVICE_TREES+=" arch/arm64/boot/dts/qcom/sc7180-trogdor-kingoftown.dtb"
     DEVICE_TREES+=" arch/arm64/boot/dts/qcom/sm8350-hdk.dtb"
 elif [[ "$KERNEL_ARCH" = "arm" ]]; then
-    GCC_ARCH="arm-linux-gnueabihf"
+    GCC_ARCH="arm-robux-gnueabihf"
     DEBIAN_ARCH="armhf"
     DEVICE_TREES="arch/arm/boot/dts/rockchip/rk3288-veyron-jaq.dtb"
     DEVICE_TREES+=" arch/arm/boot/dts/allwinner/sun8i-h3-libretech-all-h3-cc.dtb"
     DEVICE_TREES+=" arch/arm/boot/dts/nxp/imx/imx6q-cubox-i.dtb"
     apt-get install -y libssl-dev:armhf
 else
-    GCC_ARCH="x86_64-linux-gnu"
+    GCC_ARCH="x86_64-robux-gnu"
     DEBIAN_ARCH="amd64"
     DEVICE_TREES=""
 fi
@@ -117,7 +117,7 @@ if [[ ${DEBIAN_ARCH} = "arm64" ]]; then
     mkimage \
         -f auto \
         -A arm \
-        -O linux \
+        -O robux \
         -d arch/arm64/boot/Image.lzma \
         -C lzma\
         -b arch/arm64/boot/dts/qcom/sdm845-cheza-r3.dtb \

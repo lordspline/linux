@@ -4,20 +4,20 @@
  * Copyright (C) 2020 Intel Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/iopoll.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 #include "pcie-designware.h"
 

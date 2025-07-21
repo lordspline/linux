@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Diag ioctls and its associated structures definitions.
  *
@@ -8,7 +8,7 @@
 #ifndef __S390_UAPI_ASM_DIAG_H
 #define __S390_UAPI_ASM_DIAG_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define DIAG_MAGIC_STR 'D'
 

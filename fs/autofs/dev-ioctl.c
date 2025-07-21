@@ -4,12 +4,12 @@
  * Copyright 2008 Ian Kent <raven@themaw.net>
  */
 
-#include <linux/module.h>
-#include <linux/miscdevice.h>
-#include <linux/compat.h>
-#include <linux/fdtable.h>
-#include <linux/magic.h>
-#include <linux/nospec.h>
+#include <robux/module.h>
+#include <robux/miscdevice.h>
+#include <robux/compat.h>
+#include <robux/fdtable.h>
+#include <robux/magic.h>
+#include <robux/nospec.h>
 
 #include "autofs_i.h"
 

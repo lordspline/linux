@@ -30,19 +30,19 @@
  * Code formatting improvements
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/usb.h>
-#include <linux/types.h>
-#include <linux/ethtool.h>
-#include <linux/dma-mapping.h>
-#include <linux/wait.h>
-#include <linux/firmware.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/usb.h>
+#include <robux/types.h>
+#include <robux/ethtool.h>
+#include <robux/dma-mapping.h>
+#include <robux/wait.h>
+#include <robux/firmware.h>
+#include <robux/uaccess.h>
 #include <asm/byteorder.h>
 
 #undef DEBUG

@@ -7,15 +7,15 @@
  *
  */
 
-#include <linux/aperture.h>
-#include <linux/kernel.h>
-#include <linux/efi.h>
-#include <linux/efi-bgrt.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/screen_info.h>
+#include <robux/aperture.h>
+#include <robux/kernel.h>
+#include <robux/efi.h>
+#include <robux/efi-bgrt.h>
+#include <robux/errno.h>
+#include <robux/fb.h>
+#include <robux/platform_device.h>
+#include <robux/printk.h>
+#include <robux/screen_info.h>
 #include <video/vga.h>
 #include <asm/efi.h>
 #include <drm/drm_utils.h> /* For drm_get_panel_orientation_quirk */

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: (GPL-2.0-only WITH Linux-syscall-note) OR MIT */
+/* SPDX-License-Identifier: (GPL-2.0-only WITH Robux-syscall-note) OR MIT */
 /* Copyright (c) 2023 Imagination Technologies Ltd. */
 
 #ifndef PVR_DRM_UAPI_H
@@ -6,8 +6,8 @@
 
 #include "drm.h"
 
-#include <linux/const.h>
-#include <linux/types.h>
+#include <robux/const.h>
+#include <robux/types.h>
 
 #if defined(__cplusplus)
 extern "C" {

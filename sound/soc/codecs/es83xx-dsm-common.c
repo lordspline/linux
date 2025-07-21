@@ -3,8 +3,8 @@
 // Copyright (c) Intel Corporation, 2022
 // Copyright Everest Semiconductor Co.,Ltd
 
-#include <linux/module.h>
-#include <linux/acpi.h>
+#include <robux/module.h>
+#include <robux/acpi.h>
 #include "es83xx-dsm-common.h"
 
 /* UUID ("a9800c04-e016-343e-41f4-6bcce70f4332") */

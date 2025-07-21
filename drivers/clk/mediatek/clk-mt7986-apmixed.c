@@ -5,9 +5,9 @@
  * Author: Wenzhen Yu <wenzhen.yu@mediatek.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
 
 #include "clk-gate.h"
 #include "clk-mtk.h"
@@ -15,7 +15,7 @@
 #include "clk-pll.h"
 
 #include <dt-bindings/clock/mt7986-clk.h>
-#include <linux/clk.h>
+#include <robux/clk.h>
 
 #define MT7986_PLL_FMAX (2500UL * MHZ)
 #define CON0_MT7986_RST_BAR BIT(27)

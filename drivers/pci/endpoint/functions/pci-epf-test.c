@@ -6,18 +6,18 @@
  * Author: Kishon Vijay Abraham I <kishon@ti.com>
  */
 
-#include <linux/crc32.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci_ids.h>
-#include <linux/random.h>
+#include <robux/crc32.h>
+#include <robux/delay.h>
+#include <robux/dmaengine.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/pci_ids.h>
+#include <robux/random.h>
 
-#include <linux/pci-epc.h>
-#include <linux/pci-epf.h>
-#include <linux/pci_regs.h>
+#include <robux/pci-epc.h>
+#include <robux/pci-epf.h>
+#include <robux/pci_regs.h>
 
 #define IRQ_TYPE_INTX			0
 #define IRQ_TYPE_MSI			1

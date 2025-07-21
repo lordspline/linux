@@ -6,7 +6,7 @@
 #ifndef _XE_GT_SRIOV_PF_TYPES_H_
 #define _XE_GT_SRIOV_PF_TYPES_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include "xe_gt_sriov_pf_config_types.h"
 #include "xe_gt_sriov_pf_control_types.h"

@@ -6,7 +6,7 @@
 #ifndef __AMD_INIT_H
 #define __AMD_INIT_H
 
-#include <linux/soundwire/sdw_amd.h>
+#include <robux/soundwire/sdw_amd.h>
 
 int amd_sdw_manager_start(struct amd_sdw_manager *amd_manager);
 

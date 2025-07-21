@@ -2,21 +2,21 @@
 /*
  * Architecture specific OF callbacks.
  */
-#include <linux/acpi.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/of_irq.h>
-#include <linux/libfdt.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/of_pci.h>
-#include <linux/initrd.h>
+#include <robux/acpi.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/of_irq.h>
+#include <robux/libfdt.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/of_pci.h>
+#include <robux/initrd.h>
 
 #include <asm/irqdomain.h>
 #include <asm/hpet.h>

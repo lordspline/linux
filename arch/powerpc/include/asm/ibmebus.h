@@ -40,11 +40,11 @@
 #define _ASM_EBUS_H
 #ifdef __KERNEL__
 
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of_device.h>
+#include <robux/of_platform.h>
 
 struct platform_driver;
 

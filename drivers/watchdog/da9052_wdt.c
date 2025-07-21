@@ -8,18 +8,18 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/platform_device.h>
-#include <linux/time.h>
-#include <linux/watchdog.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/uaccess.h>
+#include <robux/platform_device.h>
+#include <robux/time.h>
+#include <robux/watchdog.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/jiffies.h>
 
-#include <linux/mfd/da9052/reg.h>
-#include <linux/mfd/da9052/da9052.h>
+#include <robux/mfd/da9052/reg.h>
+#include <robux/mfd/da9052/da9052.h>
 
 #define DA9052_DEF_TIMEOUT	4
 #define DA9052_TWDMIN		256

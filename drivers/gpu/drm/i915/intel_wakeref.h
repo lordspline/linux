@@ -7,15 +7,15 @@
 #ifndef INTEL_WAKEREF_H
 #define INTEL_WAKEREF_H
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/lockdep.h>
-#include <linux/mutex.h>
-#include <linux/refcount.h>
-#include <linux/ref_tracker.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
+#include <robux/atomic.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/lockdep.h>
+#include <robux/mutex.h>
+#include <robux/refcount.h>
+#include <robux/ref_tracker.h>
+#include <robux/timer.h>
+#include <robux/workqueue.h>
 
 struct drm_printer;
 struct intel_runtime_pm;

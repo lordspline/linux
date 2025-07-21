@@ -8,17 +8,17 @@
  */
 
 #include <soc/fsl/qe/qmc.h>
-#include <linux/bitfield.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/hdlc.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/dma-mapping.h>
+#include <robux/firmware.h>
+#include <robux/hdlc.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 #include <soc/fsl/cpm.h>
 #include <soc/fsl/qe/ucc_slow.h>
 #include <soc/fsl/qe/qe.h>

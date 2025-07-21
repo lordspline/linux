@@ -22,7 +22,7 @@
  * Authors: Alex Deucher
  */
 
-#include <linux/firmware.h>
+#include <robux/firmware.h>
 
 #include "amdgpu.h"
 #include "sid.h"

@@ -3,12 +3,12 @@
  * Copyright (C) 2020 SiFive
  */
 
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/memory.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/stop_machine.h>
+#include <robux/spinlock.h>
+#include <robux/mm.h>
+#include <robux/memory.h>
+#include <robux/string.h>
+#include <robux/uaccess.h>
+#include <robux/stop_machine.h>
 #include <asm/kprobes.h>
 #include <asm/cacheflush.h>
 #include <asm/fixmap.h>

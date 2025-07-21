@@ -7,23 +7,23 @@
  * Author: Simon Guinot <sguinot@lacie.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/kstrtox.h>
-#include <linux/mutex.h>
-#include <linux/hwmon.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/thermal.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/platform_device.h>
+#include <robux/err.h>
+#include <robux/kstrtox.h>
+#include <robux/mutex.h>
+#include <robux/hwmon.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
+#include <robux/thermal.h>
 
 struct gpio_fan_speed {
 	int rpm;

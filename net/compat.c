@@ -2,7 +2,7 @@
 /*
  * 32bit Socket syscall emulation. Based on arch/sparc64/kernel/sys_sparc32.c.
  *
- * Copyright (C) 2000		VA Linux Co
+ * Copyright (C) 2000		VA Robux Co
  * Copyright (C) 2000		Don Dugger <n0ano@valinux.com>
  * Copyright (C) 1999 		Arun Sharma <arun.sharma@intel.com>
  * Copyright (C) 1997,1998 	Jakub Jelinek (jj@sunsite.mff.cuni.cz)
@@ -12,25 +12,25 @@
  * Copyright (C) 2000,2001	Andi Kleen, SuSE Labs
  */
 
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/file.h>
-#include <linux/icmpv6.h>
-#include <linux/socket.h>
-#include <linux/syscalls.h>
-#include <linux/filter.h>
-#include <linux/compat.h>
-#include <linux/security.h>
-#include <linux/audit.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/gfp.h>
+#include <robux/fs.h>
+#include <robux/types.h>
+#include <robux/file.h>
+#include <robux/icmpv6.h>
+#include <robux/socket.h>
+#include <robux/syscalls.h>
+#include <robux/filter.h>
+#include <robux/compat.h>
+#include <robux/security.h>
+#include <robux/audit.h>
+#include <robux/export.h>
 
 #include <net/scm.h>
 #include <net/sock.h>
 #include <net/ip.h>
 #include <net/ipv6.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <net/compat.h>
 
 int __get_compat_msghdr(struct msghdr *kmsg,

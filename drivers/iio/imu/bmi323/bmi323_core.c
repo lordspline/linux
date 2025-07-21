@@ -7,27 +7,27 @@
  * Datasheet: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi323-ds000.pdf
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/units.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
 
 #include "bmi323.h"
 

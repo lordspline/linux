@@ -7,9 +7,9 @@
  * Copyright (C) 2022 Linutronix GmbH
  */
 
-#include <linux/device.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
+#include <robux/device.h>
+#include <robux/irqdomain.h>
+#include <robux/msi.h>
 
 /*
  * This indirection can go when platform_device_msi_init_and_alloc_irqs()

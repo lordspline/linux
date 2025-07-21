@@ -4,22 +4,22 @@
  *
  * Copyright (C) 2018 Xue Liu <liuxuenetmail@gmail.com>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/workqueue.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/skbuff.h>
-#include <linux/regmap.h>
-#include <linux/ieee802154.h>
-#include <linux/debugfs.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/gpio/consumer.h>
+#include <robux/spi/spi.h>
+#include <robux/workqueue.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/skbuff.h>
+#include <robux/regmap.h>
+#include <robux/ieee802154.h>
+#include <robux/debugfs.h>
 
 #include <net/mac802154.h>
 #include <net/cfg802154.h>
 
-#include <linux/device.h>
+#include <robux/device.h>
 
 #include "mcr20a.h"
 

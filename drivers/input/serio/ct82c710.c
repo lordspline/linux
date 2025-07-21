@@ -4,19 +4,19 @@
  */
 
 /*
- *  82C710 C&T mouse port chip driver for Linux
+ *  82C710 C&T mouse port chip driver for Robux
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/serio.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/serio.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include <asm/io.h>
 

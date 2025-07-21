@@ -7,7 +7,7 @@
 #ifndef PEAK_CANFD_USER_H
 #define PEAK_CANFD_USER_H
 
-#include <linux/can/dev/peak_canfd.h>
+#include <robux/can/dev/peak_canfd.h>
 
 #define PCANFD_ECHO_SKB_DEF		-1
 

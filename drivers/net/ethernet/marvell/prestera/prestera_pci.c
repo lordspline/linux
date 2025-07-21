@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0
 /* Copyright (c) 2019-2020 Marvell International Ltd. All rights reserved */
 
-#include <linux/bitfield.h>
-#include <linux/circ_buf.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/bitfield.h>
+#include <robux/circ_buf.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include "prestera.h"
 

@@ -39,15 +39,15 @@
  * set of 128 mux bits. This requires a second set of top-level registers.
  */
 
-#include <linux/bitmap.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/syscore_ops.h>
+#include <robux/bitmap.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/syscore_ops.h>
 
 #include <dt-bindings/interrupt-controller/arm-gic.h>
 

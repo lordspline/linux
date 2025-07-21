@@ -4,16 +4,16 @@
  *
  * Copyright (C) 2008, Robert Jarzmik <robert.jarzmik@free.fr>
  */
-#include <linux/clk.h>
-#include <linux/videodev2.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/log2.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
-#include <linux/v4l2-mediabus.h>
-#include <linux/module.h>
-#include <linux/property.h>
+#include <robux/clk.h>
+#include <robux/videodev2.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/log2.h>
+#include <robux/delay.h>
+#include <robux/regulator/consumer.h>
+#include <robux/v4l2-mediabus.h>
+#include <robux/module.h>
+#include <robux/property.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-common.h>

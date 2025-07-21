@@ -6,9 +6,9 @@
 #if !defined(_TRACE_SMC_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_SMC_H
 
-#include <linux/ipv6.h>
-#include <linux/tcp.h>
-#include <linux/tracepoint.h>
+#include <robux/ipv6.h>
+#include <robux/tcp.h>
+#include <robux/tracepoint.h>
 #include <net/ipv6.h>
 #include "smc.h"
 #include "smc_core.h"

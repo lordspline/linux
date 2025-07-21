@@ -5,16 +5,16 @@
  *    Bjorn Andersson
  *    Dmitry Baryshkov
  */
-#include <linux/auxiliary_bus.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/power_supply.h>
-#include <linux/platform_data/lenovo-yoga-c630.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
+#include <robux/power_supply.h>
+#include <robux/platform_data/lenovo-yoga-c630.h>
 
 struct yoga_c630_psy {
 	struct yoga_c630_ec *ec;

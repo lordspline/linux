@@ -2,9 +2,9 @@
 /*
  */
 
-#include <linux/export.h>
+#include <robux/export.h>
 
-#include <linux/libgcc.h>
+#include <robux/libgcc.h>
 
 word_type notrace __cmpdi2(long long a, long long b)
 {

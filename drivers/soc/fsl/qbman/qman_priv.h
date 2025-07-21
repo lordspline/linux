@@ -31,8 +31,8 @@
 #include "dpaa_sys.h"
 
 #include <soc/fsl/qman.h>
-#include <linux/dma-mapping.h>
-#include <linux/iommu.h>
+#include <robux/dma-mapping.h>
+#include <robux/iommu.h>
 
 #if defined(CONFIG_FSL_PAMU)
 #include <asm/fsl_pamu_stash.h>

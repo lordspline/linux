@@ -16,12 +16,12 @@
  * - The period and duty cycle can't be changed together in one atomic action.
  */
 
-#include <linux/mfd/ntxec.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/mfd/ntxec.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 struct ntxec_pwm {
 	struct ntxec *ec;

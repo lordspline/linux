@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * max6650.c - Part of lm_sensors, Linux kernel modules for hardware
+ * max6650.c - Part of lm_sensors, Robux kernel modules for hardware
  *             monitoring.
  *
  * (C) 2007 by Hans J. Koch <hjk@hansjkoch.de>
@@ -18,16 +18,16 @@
  *        http://pdfserv.maxim-ic.com/en/ds/MAX6650-MAX6651.pdf
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/thermal.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/thermal.h>
 
 /*
  * Insmod parameters

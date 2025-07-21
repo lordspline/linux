@@ -7,11 +7,11 @@
  * Copyright (C) 2004 Dmitry Torokhov
  */
 
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <robux/bitops.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
+#include <robux/wait.h>
 
 struct ps2dev;
 

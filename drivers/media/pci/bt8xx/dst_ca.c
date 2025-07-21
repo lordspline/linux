@@ -6,13 +6,13 @@
 
 */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
-#include <linux/dvb/ca.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
+#include <robux/string.h>
+#include <robux/dvb/ca.h>
 #include <media/dvbdev.h>
 #include <media/dvb_frontend.h>
 #include "dst_ca.h"

@@ -3,15 +3,15 @@
  *	vfsv0 quota IO operations on file
  */
 
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/dqblk_v2.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/quotaops.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/mount.h>
+#include <robux/dqblk_v2.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/quotaops.h>
 
 #include <asm/byteorder.h>
 

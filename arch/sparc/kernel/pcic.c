@@ -11,22 +11,22 @@
  * CP-1200 by Eric Brower.
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
 
 #include <asm/swift.h> /* for cache flushing. */
 #include <asm/io.h>
 
-#include <linux/ctype.h>
-#include <linux/pci.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/interrupt.h>
-#include <linux/export.h>
+#include <robux/ctype.h>
+#include <robux/pci.h>
+#include <robux/time.h>
+#include <robux/timex.h>
+#include <robux/interrupt.h>
+#include <robux/export.h>
 
 #include <asm/irq.h>
 #include <asm/oplib.h>
@@ -34,7 +34,7 @@
 #include <asm/pcic.h>
 #include <asm/timex.h>
 #include <asm/timer.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/irq_regs.h>
 
 #include "kernel.h"

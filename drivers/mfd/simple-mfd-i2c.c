@@ -15,12 +15,12 @@
  * will be subsequently registered.
  */
 
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/regmap.h>
 
 #include "simple-mfd-i2c.h"
 

@@ -5,14 +5,14 @@
  * Copyright (C) 2007 Chris Smith <chris.smith@st.com>
  * Copyright (C) 2006 Lineo Solutions, Inc.
  */
-#include <linux/kprobes.h>
-#include <linux/extable.h>
-#include <linux/ptrace.h>
-#include <linux/preempt.h>
-#include <linux/kdebug.h>
-#include <linux/slab.h>
+#include <robux/kprobes.h>
+#include <robux/extable.h>
+#include <robux/ptrace.h>
+#include <robux/preempt.h>
+#include <robux/kdebug.h>
+#include <robux/slab.h>
 #include <asm/cacheflush.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 DEFINE_PER_CPU(struct kprobe *, current_kprobe) = NULL;
 DEFINE_PER_CPU(struct kprobe_ctlblk, kprobe_ctlblk);

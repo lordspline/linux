@@ -5,21 +5,21 @@
  * Author: Danilo Krummrich <danilokrummrich@dk-develop.de>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/serio.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/preempt.h>
-#include <linux/property.h>
-#include <linux/of.h>
-#include <linux/jiffies.h>
-#include <linux/delay.h>
-#include <linux/timekeeping.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/serio.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/workqueue.h>
+#include <robux/completion.h>
+#include <robux/mutex.h>
+#include <robux/preempt.h>
+#include <robux/property.h>
+#include <robux/of.h>
+#include <robux/jiffies.h>
+#include <robux/delay.h>
+#include <robux/timekeeping.h>
 
 #define DRIVER_NAME		"ps2-gpio"
 

@@ -3,9 +3,9 @@
  * Copyright(c) 2015, 2016 Intel Corporation.
  */
 
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/bitmap.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/bitmap.h>
 
 #include "hfi.h"
 #include "common.h"

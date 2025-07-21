@@ -7,7 +7,7 @@
  * Jon Oberheide <jon@oberheide.org>
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 #include "arc4.h"
 
 MODULE_DESCRIPTION("ARC4 Cipher Algorithm");

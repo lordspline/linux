@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 #include <asm/switch_to.h>
 #include <crypto/internal/simd.h>
-#include <linux/cpufeature.h>
-#include <linux/crc32.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/preempt.h>
-#include <linux/uaccess.h>
+#include <robux/cpufeature.h>
+#include <robux/crc32.h>
+#include <robux/jump_label.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/preempt.h>
+#include <robux/uaccess.h>
 
 #define VMX_ALIGN		16
 #define VMX_ALIGN_MASK		(VMX_ALIGN-1)

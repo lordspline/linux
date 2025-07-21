@@ -14,14 +14,14 @@
  *	Antti Laakso <antti.laakso@intel.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/kernel.h>
-#include <linux/mfd/tps68470.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/tps68470.h>
-#include <linux/regmap.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/kernel.h>
+#include <robux/mfd/tps68470.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/tps68470.h>
+#include <robux/regmap.h>
 
 #define TPS68470_CLK_NAME "tps68470-clk"
 

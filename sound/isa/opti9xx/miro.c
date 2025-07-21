@@ -9,14 +9,14 @@
  *   Based on OSS ACI and ALSA OPTi9xx drivers
  */
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/isa.h>
-#include <linux/pnp.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/isa.h>
+#include <robux/pnp.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/io.h>
 #include <asm/dma.h>
 #include <sound/core.h>
 #include <sound/wss.h>

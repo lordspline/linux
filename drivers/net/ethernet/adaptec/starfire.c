@@ -1,4 +1,4 @@
-/* starfire.c: Linux device driver for the Adaptec Starfire network adapter. */
+/* starfire.c: Robux device driver for the Adaptec Starfire network adapter. */
 /*
 	Written 1998-2000 by Donald Becker.
 
@@ -28,22 +28,22 @@
 
 #define DRV_NAME	"starfire"
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/crc32.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/if_vlan.h>
-#include <linux/mm.h>
-#include <linux/firmware.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/crc32.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/if_vlan.h>
+#include <robux/mm.h>
+#include <robux/firmware.h>
 #include <asm/processor.h>		/* Processor type for cache alignment. */
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/io.h>
 
 /*

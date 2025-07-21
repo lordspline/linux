@@ -23,11 +23,11 @@
  */
 
 #ifdef CONFIG_ACPI
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 #endif
-#include <linux/power_supply.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
+#include <robux/power_supply.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
 
 #include "nouveau_drv.h"
 #include "nouveau_hwmon.h"

@@ -72,15 +72,15 @@
  * parameter are unused.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/usb/input.h>
-#include <linux/wait.h>
-#include <linux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/usb/input.h>
+#include <robux/wait.h>
+#include <robux/jiffies.h>
 #include <media/rc-core.h>
 
 /*

@@ -8,9 +8,9 @@
  *       Vivek Goyal <vgoyal@redhat.com>
  */
 
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
 #include <crypto/sha2.h>
 #include <asm/purgatory.h>
 

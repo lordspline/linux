@@ -16,14 +16,14 @@
  * Copyright (C) 2025 Antheas Kapenekakis <lkml@antheas.dev>
  */
 
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/hwmon.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/processor.h>
+#include <robux/acpi.h>
+#include <robux/dmi.h>
+#include <robux/hwmon.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/processor.h>
 #include <acpi/battery.h>
 
 /* Handle ACPI lock mechanism */

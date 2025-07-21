@@ -5,8 +5,8 @@
  * Copyright (c) 2011 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
 #include <sound/core.h>
 #include <sound/control.h>
 

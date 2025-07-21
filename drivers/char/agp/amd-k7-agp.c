@@ -2,13 +2,13 @@
  * AMD K7 AGPGART routines.
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/agp_backend.h>
-#include <linux/page-flags.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/agp_backend.h>
+#include <robux/page-flags.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
 #include <asm/set_memory.h>
 #include "agp.h"
 

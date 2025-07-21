@@ -2,8 +2,8 @@
 #ifndef _LINUX_SEM_H
 #define _LINUX_SEM_H
 
-#include <uapi/linux/sem.h>
-#include <linux/sem_types.h>
+#include <uapi/robux/sem.h>
+#include <robux/sem_types.h>
 
 struct task_struct;
 

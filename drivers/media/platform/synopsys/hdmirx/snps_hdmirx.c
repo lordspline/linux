@@ -8,27 +8,27 @@
  * Author: Dingxian Wen <shawn.wen@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/gpio/consumer.h>
-#include <linux/hdmi.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/mfd/syscon.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/v4l2-dv-timings.h>
-#include <linux/workqueue.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/gpio/consumer.h>
+#include <robux/hdmi.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/mfd/syscon.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/v4l2-dv-timings.h>
+#include <robux/workqueue.h>
 
 #include <media/cec.h>
 #include <media/v4l2-common.h>

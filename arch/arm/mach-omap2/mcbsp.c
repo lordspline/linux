@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap2/mcbsp.c
+ * robux/arch/arm/mach-omap2/mcbsp.c
  *
  * Copyright (C) 2008 Instituto Nokia de Tecnologia
  * Contact: Eduardo Valentin <eduardo.valentin@indt.org.br>
  *
  * Multichannel mode not supported.
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/platform_data/asoc-ti-mcbsp.h>
-#include <linux/pm_runtime.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/platform_data/asoc-ti-mcbsp.h>
+#include <robux/pm_runtime.h>
 
-#include <linux/omap-dma.h>
+#include <robux/omap-dma.h>
 
 #include "soc.h"
 #include "omap_device.h"

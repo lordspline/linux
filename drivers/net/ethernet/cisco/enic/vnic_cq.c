@@ -4,10 +4,10 @@
  * Copyright 2007 Nuova Systems, Inc.  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/pci.h>
 
 #include "vnic_dev.h"
 #include "vnic_cq.h"

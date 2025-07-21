@@ -8,10 +8,10 @@
  * Copyright (c) 2024, 2025 Tomasz Pakuła
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/input-event-codes.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/module.h>
+#include <robux/input-event-codes.h>
 #include "hid-ids.h"
 #include "usbhid/hid-pidff.h"
 

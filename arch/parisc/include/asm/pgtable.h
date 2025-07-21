@@ -14,12 +14,12 @@
 
 #ifndef __ASSEMBLER__
 /*
- * we simulate an x86-style page table for the linux mm code
+ * we simulate an x86-style page table for the robux mm code
  */
 
-#include <linux/bitops.h>
-#include <linux/spinlock.h>
-#include <linux/mm_types.h>
+#include <robux/bitops.h>
+#include <robux/spinlock.h>
+#include <robux/mm_types.h>
 #include <asm/processor.h>
 #include <asm/cache.h>
 

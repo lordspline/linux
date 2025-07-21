@@ -6,7 +6,7 @@
 #ifndef _ABI_GSC_PROXY_COMMANDS_ABI_H
 #define _ABI_GSC_PROXY_COMMANDS_ABI_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /* Heci client ID for proxy commands */
 #define HECI_MEADDRESS_PROXY 10

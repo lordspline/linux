@@ -17,11 +17,11 @@
  * project.
  */
 
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/sysfs.h>
-#include <linux/cpu.h>
-#include <linux/suspend.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/sysfs.h>
+#include <robux/cpu.h>
+#include <robux/suspend.h>
 #include <asm/dcr.h>
 #include <asm/dcr-native.h>
 #include <asm/machdep.h>

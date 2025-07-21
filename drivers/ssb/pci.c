@@ -17,11 +17,11 @@
 
 #include "ssb_private.h"
 
-#include <linux/ssb/ssb.h>
-#include <linux/ssb/ssb_regs.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <robux/ssb/ssb.h>
+#include <robux/ssb/ssb_regs.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
 
 
 /* Define the following to 1 to enable a printk on each coreswitch. */

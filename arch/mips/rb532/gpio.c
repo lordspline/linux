@@ -26,13 +26,13 @@
  *  675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/export.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/driver.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/export.h>
+#include <robux/spinlock.h>
+#include <robux/platform_device.h>
+#include <robux/gpio/driver.h>
 
 #include <asm/mach-rc32434/rb.h>
 #include <asm/mach-rc32434/gpio.h>

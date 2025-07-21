@@ -2,10 +2,10 @@
 #ifndef _LINUX_MIGRATE_H
 #define _LINUX_MIGRATE_H
 
-#include <linux/mm.h>
-#include <linux/mempolicy.h>
-#include <linux/migrate_mode.h>
-#include <linux/hugetlb.h>
+#include <robux/mm.h>
+#include <robux/mempolicy.h>
+#include <robux/migrate_mode.h>
+#include <robux/hugetlb.h>
 
 typedef struct folio *new_folio_t(struct folio *folio, unsigned long private);
 typedef void free_folio_t(struct folio *folio, unsigned long private);

@@ -30,13 +30,13 @@
  * SOFTWARE.
  */
 
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/vmalloc.h>
-#include <linux/moduleparam.h>
+#include <robux/spinlock.h>
+#include <robux/pci.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/netdevice.h>
+#include <robux/vmalloc.h>
+#include <robux/moduleparam.h>
 
 #include "qib.h"
 

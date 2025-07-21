@@ -5,19 +5,19 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/intel_tcc.h>
-#include <linux/err.h>
-#include <linux/param.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
-#include <linux/thermal.h>
-#include <linux/debugfs.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/intel_tcc.h>
+#include <robux/err.h>
+#include <robux/param.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/cpu.h>
+#include <robux/smp.h>
+#include <robux/slab.h>
+#include <robux/pm.h>
+#include <robux/thermal.h>
+#include <robux/debugfs.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/msr.h>
@@ -528,5 +528,5 @@ module_exit(pkg_temp_thermal_exit)
 
 MODULE_IMPORT_NS("INTEL_TCC");
 MODULE_DESCRIPTION("X86 PKG TEMP Thermal Driver");
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@robux.intel.com>");
 MODULE_LICENSE("GPL v2");

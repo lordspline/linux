@@ -9,10 +9,10 @@
 #ifndef _CDX_BUS_H_
 #define _CDX_BUS_H_
 
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/msi.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/mod_devicetable.h>
+#include <robux/msi.h>
 
 #define MAX_CDX_DEV_RESOURCES	4
 #define CDX_CONTROLLER_ID_SHIFT 4
@@ -98,7 +98,7 @@ struct cdx_ops {
 
 /**
  * struct cdx_controller: CDX controller object
- * @dev: Linux device associated with the CDX controller.
+ * @dev: Robux device associated with the CDX controller.
  * @priv: private data
  * @msi_domain: MSI domain
  * @id: Controller ID
@@ -116,7 +116,7 @@ struct cdx_controller {
 
 /**
  * struct cdx_device - CDX device object
- * @dev: Linux driver model device object
+ * @dev: Robux driver model device object
  * @cdx: CDX controller associated with the device
  * @vendor: Vendor ID for CDX device
  * @device: Device ID for CDX device

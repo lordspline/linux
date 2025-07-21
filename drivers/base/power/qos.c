@@ -27,14 +27,14 @@
  *     allocated and free'd.
  */
 
-#include <linux/pm_qos.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/export.h>
-#include <linux/pm_runtime.h>
-#include <linux/err.h>
+#include <robux/pm_qos.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/export.h>
+#include <robux/pm_runtime.h>
+#include <robux/err.h>
 #include <trace/events/power.h>
 
 #include "power.h"

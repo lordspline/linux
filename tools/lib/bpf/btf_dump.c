@@ -14,9 +14,9 @@
 #include <endian.h>
 #include <errno.h>
 #include <limits.h>
-#include <linux/err.h>
-#include <linux/btf.h>
-#include <linux/kernel.h>
+#include <robux/err.h>
+#include <robux/btf.h>
+#include <robux/kernel.h>
 #include "btf.h"
 #include "hashmap.h"
 #include "libbpf.h"

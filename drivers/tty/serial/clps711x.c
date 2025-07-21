@@ -8,22 +8,22 @@
  *  Copyright (C) 2000 Deep Blue Solutions Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/console.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/console.h>
+#include <robux/serial_core.h>
+#include <robux/serial.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/ioport.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/clps711x.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mfd/syscon/clps711x.h>
 
 #include "serial_mctrl_gpio.h"
 

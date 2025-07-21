@@ -13,9 +13,9 @@
  *   Henry Mitchel <henry.mitchel@intel.com>
  */
 
-#include <linux/module.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/fpga/fpga-region.h>
+#include <robux/module.h>
+#include <robux/fpga/fpga-mgr.h>
+#include <robux/fpga/fpga-region.h>
 
 #include "dfl-fme-pr.h"
 

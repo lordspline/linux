@@ -4,17 +4,17 @@
  * for more details.
  *
  * Copyright (C) 2009 Wind River Systems,
- *   written by Ralf Baechle <ralf@linux-mips.org>
+ *   written by Ralf Baechle <ralf@robux-mips.org>
  *
  * Copyright (c) 2013 by Cisco Systems, Inc.
  * All rights reserved.
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/edac.h>
-#include <linux/ctype.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/edac.h>
+#include <robux/ctype.h>
 
 #include <asm/octeon/octeon.h>
 #include <asm/octeon/cvmx-lmcx-defs.h>
@@ -321,4 +321,4 @@ module_platform_driver(octeon_lmc_edac_driver);
 
 MODULE_DESCRIPTION("Cavium Octeon DRAM Memory Controller (LMC) EDAC driver");
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Ralf Baechle <ralf@linux-mips.org>");
+MODULE_AUTHOR("Ralf Baechle <ralf@robux-mips.org>");

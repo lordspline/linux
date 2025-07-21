@@ -8,20 +8,20 @@
  *
  */
 
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/gpio/driver.h>
-#include <linux/mfd/core.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/regmap.h>
+#include <robux/cleanup.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/gpio/driver.h>
+#include <robux/mfd/core.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/wm8994/core.h>
-#include <linux/mfd/wm8994/pdata.h>
-#include <linux/mfd/wm8994/gpio.h>
-#include <linux/mfd/wm8994/registers.h>
+#include <robux/mfd/wm8994/core.h>
+#include <robux/mfd/wm8994/pdata.h>
+#include <robux/mfd/wm8994/gpio.h>
+#include <robux/mfd/wm8994/registers.h>
 
 struct wm8994_gpio {
 	struct wm8994 *wm8994;

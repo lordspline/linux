@@ -5,16 +5,16 @@
  * Copyright (C) 2022 Marek Vasut <marex@denx.de>
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
 
 #include <dt-bindings/clock/imx8mp-clock.h>
 

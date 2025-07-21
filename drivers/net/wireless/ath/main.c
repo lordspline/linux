@@ -16,8 +16,8 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #include "ath.h"
 #include "trace.h"

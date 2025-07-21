@@ -6,10 +6,10 @@
  * Author: AKASHI Takahiro <takahiro.akashi@linaro.org>
  */
 
-#include <linux/ftrace.h>
-#include <linux/module.h>
-#include <linux/swab.h>
-#include <linux/uaccess.h>
+#include <robux/ftrace.h>
+#include <robux/module.h>
+#include <robux/swab.h>
+#include <robux/uaccess.h>
 
 #include <asm/cacheflush.h>
 #include <asm/debug-monitors.h>

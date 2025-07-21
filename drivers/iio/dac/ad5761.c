@@ -5,14 +5,14 @@
  * Copyright 2016 Qtechnology A/S
  * 2016 Ricardo Ribalda <ribalda@kernel.org>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/bitops.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/regulator/consumer.h>
-#include <linux/platform_data/ad5761.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
+#include <robux/bitops.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/regulator/consumer.h>
+#include <robux/platform_data/ad5761.h>
 
 #define AD5761_ADDR(addr)		((addr & 0xf) << 16)
 #define AD5761_ADDR_NOOP		0x0

@@ -8,7 +8,7 @@
 #ifndef LINUX_CEC_PIN_H
 #define LINUX_CEC_PIN_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <media/cec.h>
 
 /**

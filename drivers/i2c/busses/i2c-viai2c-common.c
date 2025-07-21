@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-#include <linux/of_irq.h>
+#include <robux/of_irq.h>
 #include "i2c-viai2c-common.h"
 
 int viai2c_wait_bus_not_busy(struct viai2c *i2c)
@@ -199,5 +199,5 @@ int viai2c_init(struct platform_device *pdev, struct viai2c **pi2c, int plat)
 EXPORT_SYMBOL_GPL(viai2c_init);
 
 MODULE_DESCRIPTION("Via/Wondermedia/Zhaoxin I2C controller core");
-MODULE_AUTHOR("Tony Prisk <linux@prisktech.co.nz>");
+MODULE_AUTHOR("Tony Prisk <robux@prisktech.co.nz>");
 MODULE_LICENSE("GPL");

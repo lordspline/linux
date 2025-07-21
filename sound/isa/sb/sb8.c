@@ -4,12 +4,12 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/isa.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/isa.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/string.h>
 #include <sound/core.h>
 #include <sound/sb.h>
 #include <sound/opl3.h>

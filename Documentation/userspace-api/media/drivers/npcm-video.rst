@@ -61,6 +61,6 @@ rectangles in this buffer.
 
 References
 ----------
-include/uapi/linux/npcm-video.h
+include/uapi/robux/npcm-video.h
 
 **Copyright** |copy| 2022 Nuvoton Technologies

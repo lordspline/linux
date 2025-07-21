@@ -5,19 +5,19 @@
  * Copyright (C) 2016-2020 Mellanox Technologies
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/platform_data/mlxreg.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/string_helpers.h>
-#include <linux/regmap.h>
-#include <linux/workqueue.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/platform_data/mlxreg.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/string_helpers.h>
+#include <robux/regmap.h>
+#include <robux/workqueue.h>
 
 /* Offset of event and mask registers from status register. */
 #define MLXREG_HOTPLUG_EVENT_OFF	1

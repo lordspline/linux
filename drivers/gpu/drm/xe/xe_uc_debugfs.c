@@ -3,7 +3,7 @@
  * Copyright © 2022 Intel Corporation
  */
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 #include <drm/drm_debugfs.h>
 

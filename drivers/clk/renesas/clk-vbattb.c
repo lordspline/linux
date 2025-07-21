@@ -5,15 +5,15 @@
  * Copyright (C) 2024 Renesas Electronics Corp.
  */
 
-#include <linux/cleanup.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/cleanup.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 
 #include <dt-bindings/clock/renesas,r9a08g045-vbattb.h>
 

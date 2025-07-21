@@ -6,21 +6,21 @@
  *  David Lebrun <david.lebrun@uclouvain.be>
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/in6.h>
-#include <linux/icmpv6.h>
-#include <linux/mroute6.h>
-#include <linux/slab.h>
-#include <linux/rhashtable.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/socket.h>
+#include <robux/sockios.h>
+#include <robux/net.h>
+#include <robux/netdevice.h>
+#include <robux/in6.h>
+#include <robux/icmpv6.h>
+#include <robux/mroute6.h>
+#include <robux/slab.h>
+#include <robux/rhashtable.h>
 
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv6.h>
+#include <robux/netfilter.h>
+#include <robux/netfilter_ipv6.h>
 
 #include <net/sock.h>
 #include <net/snmp.h>
@@ -38,7 +38,7 @@
 #include <net/seg6.h>
 #include <net/genetlink.h>
 #include <net/seg6_hmac.h>
-#include <linux/random.h>
+#include <robux/random.h>
 
 struct hmac_storage {
 	local_lock_t bh_lock;

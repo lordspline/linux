@@ -5,8 +5,8 @@
  *  Copyright (c) 2019 Alex Henrie <alexhenrie24@gmail.com>
  */
 
-#include <linux/hid.h>
-#include <linux/module.h>
+#include <robux/hid.h>
+#include <robux/module.h>
 
 #include "hid-ids.h"
 

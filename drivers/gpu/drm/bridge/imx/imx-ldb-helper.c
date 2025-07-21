@@ -4,12 +4,12 @@
  * Copyright 2019,2020,2022 NXP
  */
 
-#include <linux/export.h>
-#include <linux/media-bus-format.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/export.h>
+#include <robux/media-bus-format.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
 #include <drm/drm_bridge.h>
 #include <drm/drm_of.h>

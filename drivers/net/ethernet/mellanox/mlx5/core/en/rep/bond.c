@@ -1,8 +1,8 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 /* Copyright (c) 2020 Mellanox Technologies Inc. All rights reserved. */
 
-#include <linux/netdevice.h>
-#include <linux/list.h>
+#include <robux/netdevice.h>
+#include <robux/list.h>
 #include <net/lag.h>
 
 #include "mlx5_core.h"

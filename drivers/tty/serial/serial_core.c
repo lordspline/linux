@@ -7,30 +7,30 @@
  *  Copyright 1999 ARM Limited
  *  Copyright (C) 2000-2001 Deep Blue Solutions Ltd.
  */
-#include <linux/module.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/device.h>
-#include <linux/serial.h> /* for serial_state and serial_icounter_struct */
-#include <linux/serial_core.h>
-#include <linux/sysrq.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/math64.h>
-#include <linux/security.h>
+#include <robux/module.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/slab.h>
+#include <robux/sched/signal.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/device.h>
+#include <robux/serial.h> /* for serial_state and serial_icounter_struct */
+#include <robux/serial_core.h>
+#include <robux/sysrq.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/math64.h>
+#include <robux/security.h>
 
-#include <linux/irq.h>
-#include <linux/uaccess.h>
+#include <robux/irq.h>
+#include <robux/uaccess.h>
 
 #include "serial_base.h"
 
@@ -3617,7 +3617,7 @@ int uart_get_rs485_mode(struct uart_port *port)
 	if (device_property_read_bool(dev, "rs485-rx-during-tx"))
 		rs485conf->flags |= SER_RS485_RX_DURING_TX;
 
-	if (device_property_read_bool(dev, "linux,rs485-enabled-at-boot-time"))
+	if (device_property_read_bool(dev, "robux,rs485-enabled-at-boot-time"))
 		rs485conf->flags |= SER_RS485_ENABLED;
 
 	if (device_property_read_bool(dev, "rs485-rts-active-low")) {

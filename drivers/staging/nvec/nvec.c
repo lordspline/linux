@@ -7,28 +7,28 @@
  * Authors:  Pierre-Hugues Husson <phhusson@free.fr>
  *           Ilya Petrov <ilya.muromec@gmail.com>
  *           Marc Dietrich <marvin24@gmx.de>
- *           Julian Andres Klode <jak@jak-linux.org>
+ *           Julian Andres Klode <jak@jak-robux.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/list.h>
-#include <linux/mfd/core.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/atomic.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/list.h>
+#include <robux/mfd/core.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/workqueue.h>
 
 #include "nvec.h"
 

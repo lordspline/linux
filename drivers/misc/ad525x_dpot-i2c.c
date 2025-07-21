@@ -5,8 +5,8 @@
  * Copyright (C) 2010-2011 Michael Hennerich, Analog Devices Inc.
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
 
 #include "ad525x_dpot.h"
 

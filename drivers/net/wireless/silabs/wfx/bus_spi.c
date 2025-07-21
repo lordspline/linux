@@ -6,14 +6,14 @@
  * Copyright (c) 2011, Sagrad Inc.
  * Copyright (c) 2010, ST-Ericsson
  */
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/pm.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/spi/spi.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/pm.h>
 
 #include "bus.h"
 #include "wfx.h"

@@ -3,11 +3,11 @@
 // Copyright (c) 2019 five technologies GmbH
 // Author: Markus Reichl <m.reichl@fivetechno.de>
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/regulator/driver.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/of.h>
+#include <robux/regulator/driver.h>
+#include <robux/regmap.h>
 
 
 #define VOL_MIN_IDX			0x00

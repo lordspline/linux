@@ -30,10 +30,10 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/module.h>
-#include <linux/pid.h>
-#include <linux/pid_namespace.h>
-#include <linux/mutex.h>
+#include <robux/module.h>
+#include <robux/pid.h>
+#include <robux/pid_namespace.h>
+#include <robux/mutex.h>
 #include <net/netlink.h>
 #include <rdma/rdma_cm.h>
 #include <rdma/rdma_netlink.h>

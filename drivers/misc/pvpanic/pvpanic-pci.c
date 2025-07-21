@@ -5,10 +5,10 @@
  *  Copyright (C) 2021 Oracle.
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/types.h>
 
 #include "pvpanic.h"
 

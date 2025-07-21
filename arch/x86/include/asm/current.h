@@ -2,12 +2,12 @@
 #ifndef _ASM_X86_CURRENT_H
 #define _ASM_X86_CURRENT_H
 
-#include <linux/build_bug.h>
-#include <linux/compiler.h>
+#include <robux/build_bug.h>
+#include <robux/compiler.h>
 
 #ifndef __ASSEMBLER__
 
-#include <linux/cache.h>
+#include <robux/cache.h>
 #include <asm/percpu.h>
 
 struct task_struct;

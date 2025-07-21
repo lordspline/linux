@@ -4,17 +4,17 @@
  */
 
 /*
- * Driver for Amiga joysticks for Linux/m68k
+ * Driver for Amiga joysticks for Robux/m68k
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
 
 #include <asm/amigahw.h>
 #include <asm/amigaints.h>

@@ -8,14 +8,14 @@
  *	Ben Dooks <ben@simtec.co.uk>
 */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/lcd.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/lcd.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
-#include <linux/spi/spi.h>
+#include <robux/spi/spi.h>
 
 #include <video/ili9320.h>
 
@@ -293,6 +293,6 @@ void ili9320_shutdown(struct ili9320 *lcd)
 }
 EXPORT_SYMBOL_GPL(ili9320_shutdown);
 
-MODULE_AUTHOR("Ben Dooks <ben-linux@fluff.org>");
+MODULE_AUTHOR("Ben Dooks <ben-robux@fluff.org>");
 MODULE_DESCRIPTION("ILI9320 LCD Driver");
 MODULE_LICENSE("GPL v2");

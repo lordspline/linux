@@ -10,28 +10,28 @@
  *		Mark Brown <markb@marvell.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/in.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ip.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pxa168_eth.h>
-#include <linux/tcp.h>
-#include <linux/types.h>
-#include <linux/udp.h>
-#include <linux/workqueue.h>
-#include <linux/pgtable.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/in.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/ip.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/pxa168_eth.h>
+#include <robux/tcp.h>
+#include <robux/types.h>
+#include <robux/udp.h>
+#include <robux/workqueue.h>
+#include <robux/pgtable.h>
 
 #include <asm/cacheflush.h>
 

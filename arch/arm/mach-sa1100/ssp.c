@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-sa1100/ssp.c
+ *  robux/arch/arm/mach-sa1100/ssp.c
  *
  *  Copyright (C) 2003 Russell King.
  *
  *  Generic SSP driver.  This provides the generic core for simple
  *  IO-based SSP applications.
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/io.h>
 
 #include <mach/hardware.h>
 #include <mach/irqs.h>

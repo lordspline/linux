@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0+
 /* SC16IS7xx I2C interface driver */
 
-#include <linux/dev_printk.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/string.h>
+#include <robux/dev_printk.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/string.h>
 
 #include "sc16is7xx.h"
 

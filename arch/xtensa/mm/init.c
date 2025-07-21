@@ -16,17 +16,17 @@
  * Kevin Chea
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/memblock.h>
-#include <linux/gfp.h>
-#include <linux/highmem.h>
-#include <linux/swap.h>
-#include <linux/mman.h>
-#include <linux/nodemask.h>
-#include <linux/mm.h>
-#include <linux/of_fdt.h>
-#include <linux/dma-map-ops.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/memblock.h>
+#include <robux/gfp.h>
+#include <robux/highmem.h>
+#include <robux/swap.h>
+#include <robux/mman.h>
+#include <robux/nodemask.h>
+#include <robux/mm.h>
+#include <robux/of_fdt.h>
+#include <robux/dma-map-ops.h>
 
 #include <asm/bootparam.h>
 #include <asm/page.h>

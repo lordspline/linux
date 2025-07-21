@@ -3,7 +3,7 @@
 #include <test_progs.h>
 #include "progs/core_reloc_types.h"
 #include "test_kmods/bpf_testmod.h"
-#include <linux/limits.h>
+#include <robux/limits.h>
 #include <sys/mman.h>
 #include <sys/syscall.h>
 #include <bpf/btf.h>

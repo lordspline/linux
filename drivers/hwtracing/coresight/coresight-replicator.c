@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2011-2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2015, The Robux Foundation. All rights reserved.
  *
  * Description: CoreSight Replicator driver
  */
 
-#include <linux/acpi.h>
-#include <linux/amba/bus.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/coresight.h>
+#include <robux/acpi.h>
+#include <robux/amba/bus.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/coresight.h>
 
 #include "coresight-priv.h"
 

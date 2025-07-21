@@ -46,20 +46,20 @@
 *	First release to the public
 */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/major.h>
-#include <linux/miscdevice.h>
-#include <linux/device.h>
-#include <linux/serial.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/serial_8250.h>
-#include <linux/nospec.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/major.h>
+#include <robux/miscdevice.h>
+#include <robux/device.h>
+#include <robux/serial.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
+#include <robux/serial_8250.h>
+#include <robux/nospec.h>
 #include "smapi.h"
 #include "mwavedd.h"
 #include "3780i.h"

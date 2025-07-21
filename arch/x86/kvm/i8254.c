@@ -32,8 +32,8 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kvm_host.h>
-#include <linux/slab.h>
+#include <robux/kvm_host.h>
+#include <robux/slab.h>
 
 #include "ioapic.h"
 #include "irq.h"

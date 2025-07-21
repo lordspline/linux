@@ -15,7 +15,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
-#include <linux/kconfig.h>
+#include <robux/kconfig.h>
 
 static void usage(char *name)
 {

@@ -26,10 +26,10 @@
  *	PowerPC e500 modifications, Kumar Gala <galak@kernel.crashing.org>
  */
 
-#include <linux/init.h>
-#include <linux/threads.h>
-#include <linux/pgtable.h>
-#include <linux/linkage.h>
+#include <robux/init.h>
+#include <robux/threads.h>
+#include <robux/pgtable.h>
+#include <robux/linkage.h>
 
 #include <asm/processor.h>
 #include <asm/page.h>
@@ -336,7 +336,7 @@ set_ivor:
 	rlwinm.	r12, r11, 0, 0, 19;	/* Extract L2 (pte) base address */	\
 	beq	2f;			/* Bail if no table */			\
 	rlwimi	r12, r13, 22, 20, 29;	/* Compute PTE address */		\
-	lwz	r11, 0(r12);		/* Get Linux PTE */
+	lwz	r11, 0(r12);		/* Get Robux PTE */
 #endif
 
 /*
@@ -681,12 +681,12 @@ interrupt_end:
  * Both the instruction and data TLB miss get to this
  * point to load the TLB.
  *	r10 - tsize encoding (if HUGETLB_PAGE) or available to use
- *	r11 - TLB (info from Linux PTE)
+ *	r11 - TLB (info from Robux PTE)
  *	r12 - available to use
  *	r13 - upper bits of PTE (if PTE_64BIT) or available to use
  *	CR5 - results of addr >= PAGE_OFFSET
  *	MAS0, MAS1 - loaded with proper value when we get here
- *	MAS2, MAS3 - will need additional info from Linux PTE
+ *	MAS2, MAS3 - will need additional info from Robux PTE
  *	Upon exit, we reload everything and RFI.
  */
 finish_tlb_load:
@@ -746,7 +746,7 @@ finish_tlb_load:
 
 	/*
 	 * We set execute, because we don't have the granularity to
-	 * properly set this at the page level (Linux problem).
+	 * properly set this at the page level (Robux problem).
 	 * Many of these bits are software only.  Bits we don't set
 	 * here we (properly should) assume have the appropriate value.
 	 */

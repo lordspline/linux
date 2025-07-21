@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  USB HID quirks support for Linux
+ *  USB HID quirks support for Robux
  *
  *  Copyright (c) 1999 Andreas Gal
  *  Copyright (c) 2000-2005 Vojtech Pavlik <vojtech@suse.cz>
@@ -17,14 +17,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/string.h>
-#include <linux/leds.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
+#include <robux/string.h>
+#include <robux/leds.h>
 #include <dt-bindings/leds/common.h>
 
 #include "hid-ids.h"
@@ -1189,5 +1189,5 @@ static struct hid_driver apple_driver = {
 };
 module_hid_driver(apple_driver);
 
-MODULE_DESCRIPTION("Apple USB HID quirks support for Linux");
+MODULE_DESCRIPTION("Apple USB HID quirks support for Robux");
 MODULE_LICENSE("GPL");

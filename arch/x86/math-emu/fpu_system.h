@@ -13,9 +13,9 @@
 
 /* system dependent definitions */
 
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
 
 #include <asm/desc.h>
 #include <asm/mmu_context.h>

@@ -10,11 +10,11 @@
 #include "pvr_rogue_riscv.h"
 #include "pvr_vm.h"
 
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/ktime.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/ktime.h>
+#include <robux/types.h>
 
 #define ROGUE_FW_HEAP_RISCV_SHIFT 25 /* 32 MB */
 #define ROGUE_FW_HEAP_RISCV_SIZE (1u << ROGUE_FW_HEAP_RISCV_SHIFT)

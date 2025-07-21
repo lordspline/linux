@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2013-2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013-2015, The Robux Foundation. All rights reserved.
  * Copyright (c) 2019, Linaro Limited
  */
 
-#include <linux/cleanup.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/debugfs.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_opp.h>
-#include <linux/interrupt.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regulator/consumer.h>
-#include <linux/clk.h>
-#include <linux/nvmem-consumer.h>
+#include <robux/cleanup.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/debugfs.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/bitops.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_opp.h>
+#include <robux/interrupt.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/nvmem-consumer.h>
 
 /* Register Offsets for RB-CPR and Bit Definitions */
 

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-/* -*-linux-c-*-
+/* -*-robux-c-*-
 
  * vendor-specific code for SCSI CD-ROM's goes here.
  *
@@ -35,12 +35,12 @@
  *              HP 6020 writers now supported.
  */
 
-#include <linux/cdrom.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/bcd.h>
-#include <linux/blkdev.h>
-#include <linux/slab.h>
+#include <robux/cdrom.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/bcd.h>
+#include <robux/blkdev.h>
+#include <robux/slab.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

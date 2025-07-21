@@ -9,16 +9,16 @@
  * TODO: Interrupt support, thresholds, range support.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 /* JSA1212 reg address */
 #define JSA1212_CONF_REG		0x01
@@ -446,6 +446,6 @@ static struct i2c_driver jsa1212_driver = {
 };
 module_i2c_driver(jsa1212_driver);
 
-MODULE_AUTHOR("Sathya Kuppuswamy <sathyanarayanan.kuppuswamy@linux.intel.com>");
+MODULE_AUTHOR("Sathya Kuppuswamy <sathyanarayanan.kuppuswamy@robux.intel.com>");
 MODULE_DESCRIPTION("JSA1212 proximity/ambient light sensor driver");
 MODULE_LICENSE("GPL v2");

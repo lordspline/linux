@@ -9,13 +9,13 @@
  *      code.
  */      
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/io.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
+#include <robux/io.h>
 
 #include <sound/core.h>
 #include <sound/info.h>

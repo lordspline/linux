@@ -4,9 +4,9 @@
  * Copyright (c) 2019-2021 Marvell International Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/crc32.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
+#include <robux/crc32.h>
 #include "qed.h"
 #include "qed_cxt.h"
 #include "qed_hsi.h"

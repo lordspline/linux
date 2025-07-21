@@ -7,18 +7,18 @@
  * Author: David Dajun Chen <dchen@diasemi.com>
  */
 
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/property.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/core.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/property.h>
 
-#include <linux/mfd/da9052/da9052.h>
-#include <linux/mfd/da9052/pdata.h>
-#include <linux/mfd/da9052/reg.h>
+#include <robux/mfd/da9052/da9052.h>
+#include <robux/mfd/da9052/pdata.h>
+#include <robux/mfd/da9052/reg.h>
 
 static bool da9052_reg_readable(struct device *dev, unsigned int reg)
 {

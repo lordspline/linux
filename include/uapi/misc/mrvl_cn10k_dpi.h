@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Marvell Octeon CN10K DPI driver
  *
@@ -9,7 +9,7 @@
 #ifndef __MRVL_CN10K_DPI_H__
 #define __MRVL_CN10K_DPI_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define DPI_MAX_ENGINES 6
 

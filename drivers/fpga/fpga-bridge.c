@@ -5,13 +5,13 @@
  *  Copyright (C) 2013-2016 Altera Corporation, All Rights Reserved.
  *  Copyright (C) 2017 Intel Corporation
  */
-#include <linux/fpga/fpga-bridge.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/fpga/fpga-bridge.h>
+#include <robux/idr.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
 static DEFINE_IDA(fpga_bridge_ida);
 static const struct class fpga_bridge_class;

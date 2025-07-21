@@ -8,15 +8,15 @@
  * Copyright (C) 2024 NeilBrown <neilb@suse.de>
  */
 
-#include <linux/exportfs.h>
-#include <linux/sunrpc/svcauth.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/nfs.h>
-#include <linux/nfs_common.h>
-#include <linux/nfslocalio.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_xdr.h>
-#include <linux/string.h>
+#include <robux/exportfs.h>
+#include <robux/sunrpc/svcauth.h>
+#include <robux/sunrpc/clnt.h>
+#include <robux/nfs.h>
+#include <robux/nfs_common.h>
+#include <robux/nfslocalio.h>
+#include <robux/nfs_fs.h>
+#include <robux/nfs_xdr.h>
+#include <robux/string.h>
 
 #include "nfsd.h"
 #include "vfs.h"

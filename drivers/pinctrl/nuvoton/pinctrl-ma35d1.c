@@ -5,14 +5,14 @@
  * Author: Shan-Chun Hung <schung@nuvoton.com>
  * *       Jacky Huang <ychuang3@nuvoton.com>
  */
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
 
-#include <linux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinctrl.h>
 
 #include "pinctrl-ma35.h"
 

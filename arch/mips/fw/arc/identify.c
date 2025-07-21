@@ -11,11 +11,11 @@
  *
  * Copyright (C) 1996 David S. Miller (davem@davemloft.net)
  */
-#include <linux/bug.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/string.h>
+#include <robux/bug.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/string.h>
 
 #include <asm/sgialib.h>
 #include <asm/bootinfo.h>

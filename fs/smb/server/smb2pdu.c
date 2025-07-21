@@ -4,15 +4,15 @@
  *   Copyright (C) 2018 Samsung Electronics Co., Ltd.
  */
 
-#include <linux/inetdevice.h>
+#include <robux/inetdevice.h>
 #include <net/addrconf.h>
-#include <linux/syscalls.h>
-#include <linux/namei.h>
-#include <linux/statfs.h>
-#include <linux/ethtool.h>
-#include <linux/falloc.h>
-#include <linux/mount.h>
-#include <linux/filelock.h>
+#include <robux/syscalls.h>
+#include <robux/namei.h>
+#include <robux/statfs.h>
+#include <robux/ethtool.h>
+#include <robux/falloc.h>
+#include <robux/mount.h>
+#include <robux/filelock.h>
 
 #include "glob.h"
 #include "smbfsctl.h"
@@ -2612,7 +2612,7 @@ static int smb2_creat(struct ksmbd_work *work, struct path *parent_path,
 
 	rc = ksmbd_vfs_kern_path_locked(work, name, 0, parent_path, path, 0);
 	if (rc) {
-		pr_err("cannot get linux path (%s), err = %d\n",
+		pr_err("cannot get robux path (%s), err = %d\n",
 		       name, rc);
 		return rc;
 	}
@@ -3147,7 +3147,7 @@ int smb2_open(struct ksmbd_work *work)
 	} else {
 		if (rc != -ENOENT)
 			goto err_out;
-		ksmbd_debug(SMB, "can not get linux path for %s, rc = %d\n",
+		ksmbd_debug(SMB, "can not get robux path for %s, rc = %d\n",
 			    name, rc);
 		rc = 0;
 	}
@@ -5606,7 +5606,7 @@ static int smb2_get_info_filesystem(struct ksmbd_work *work,
 		 * TODO : The current implementation is based on
 		 * test result with win7(NTFS) server. It's need to
 		 * modify this to get valid Quota values
-		 * from Linux kernel
+		 * from Robux kernel
 		 */
 		struct smb2_fs_control_info *info;
 

@@ -7,8 +7,8 @@
 #ifndef _TMS9914_H
 #define _TMS9914_H
 
-#include <linux/types.h>
-#include <linux/interrupt.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
 #include "gpib_state_machines.h"
 #include "gpib_types.h"
 

@@ -7,11 +7,11 @@
  * Copyright (C) 2002, 2004 Oracle.  All rights reserved.
  */
 
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/bitops.h>
+#include <robux/fs.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/highmem.h>
+#include <robux/bitops.h>
 
 #include <cluster/masklog.h>
 

@@ -6,12 +6,12 @@
  * Author: Shunli Wang <shunli.wang@mediatek.com>
  *         Yingjoe Chen <yingjoe.chen@mediatek.com>
  */
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/string.h>
-#include <linux/threads.h>
+#include <robux/io.h>
+#include <robux/memblock.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/string.h>
+#include <robux/threads.h>
 
 #define MTK_MAX_CPU		8
 #define MTK_SMP_REG_SIZE	0x1000

@@ -7,9 +7,9 @@
  *          Maso Huang <maso.huang@mediatek.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/regmap.h>
 #include <sound/pcm_params.h>
 #include "mt7986-afe-common.h"
 #include "mt7986-reg.h"

@@ -8,14 +8,14 @@
  * but has been rewritten to be easier to read and use.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kref.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/kref.h>
+#include <robux/uaccess.h>
+#include <robux/usb.h>
+#include <robux/mutex.h>
 
 
 /* Define these values to match your devices */

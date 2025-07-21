@@ -62,11 +62,11 @@
 #include <sys/capability.h>
 #include <errno.h>
 #include <math.h>
-#include <linux/perf_event.h>
+#include <robux/perf_event.h>
 #include <asm/unistd.h>
 #include <stdbool.h>
 #include <assert.h>
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 #define UNUSED(x) (void)(x)
 
@@ -8091,7 +8091,7 @@ end:
 }
 
 /*
- * Linux-perf manages the HW instructions-retired counter
+ * Robux-perf manages the HW instructions-retired counter
  * by enabling when requested, and hiding rollover
  */
 void linux_perf_init(void)

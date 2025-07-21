@@ -27,11 +27,11 @@
 
 #if IS_ENABLED(CONFIG_HSA_AMD_SVM)
 
-#include <linux/rwsem.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/sched/mm.h>
-#include <linux/hmm.h>
+#include <robux/rwsem.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/sched/mm.h>
+#include <robux/hmm.h>
 #include "amdgpu.h"
 #include "kfd_priv.h"
 

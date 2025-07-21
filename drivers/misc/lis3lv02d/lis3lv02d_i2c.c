@@ -11,15 +11,15 @@
  * Contact: Samu Onkalo <samu.p.onkalo@nokia.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/pm_runtime.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_device.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/pm_runtime.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/of_device.h>
 
 #include "lis3lv02d.h"
 

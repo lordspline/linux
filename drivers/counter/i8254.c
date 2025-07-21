@@ -3,19 +3,19 @@
  * Intel 8254 Programmable Interval Timer
  * Copyright (C) William Breathitt Gray
  */
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/counter.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/i8254.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/counter.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/i8254.h>
+#include <robux/limits.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define I8254_COUNTER_REG(_counter) (_counter)
 #define I8254_CONTROL_REG 0x3

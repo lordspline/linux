@@ -3,12 +3,12 @@
  *
  * Copyright (C) 2007 David S. Miller <davem@davemloft.net>
  */
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
-#include <linux/percpu.h>
-#include <linux/init.h>
+#include <robux/sched.h>
+#include <robux/device.h>
+#include <robux/cpu.h>
+#include <robux/smp.h>
+#include <robux/percpu.h>
+#include <robux/init.h>
 
 #include <asm/cpudata.h>
 #include <asm/hypervisor.h>

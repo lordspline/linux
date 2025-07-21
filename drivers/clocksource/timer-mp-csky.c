@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Hangzhou C-SKY Microsystems co.,ltd.
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/sched_clock.h>
-#include <linux/cpu.h>
-#include <linux/of_irq.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/sched_clock.h>
+#include <robux/cpu.h>
+#include <robux/of_irq.h>
 #include <asm/reg_ops.h>
 
 #include "timer-of.h"

@@ -4,15 +4,15 @@
  *
  * Copyright 2020 Analog Devices Inc.
  */
-#include <linux/kernel.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/property.h>
+#include <robux/kernel.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mii.h>
+#include <robux/phy.h>
+#include <robux/property.h>
 
 #define PHY_ID_ADIN1100				0x0283bc81
 #define PHY_ID_ADIN1110				0x0283bc91

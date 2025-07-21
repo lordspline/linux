@@ -10,16 +10,16 @@
  * TODO: interrupt support, IR compensation, thresholds, 12bit
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/triggered_buffer.h>
 
 #define ISL29125_DRV_NAME "isl29125"
 

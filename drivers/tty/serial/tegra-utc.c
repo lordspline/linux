@@ -2,23 +2,23 @@
 // SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 // NVIDIA Tegra UTC (UART Trace Controller) driver.
 
-#include <linux/bits.h>
-#include <linux/console.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/iopoll.h>
-#include <linux/kfifo.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/platform_device.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/console.h>
+#include <robux/container_of.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/iopoll.h>
+#include <robux/kfifo.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/platform_device.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/types.h>
 
 #define TEGRA_UTC_ENABLE			0x000
 #define TEGRA_UTC_ENABLE_CLIENT_ENABLE		BIT(0)

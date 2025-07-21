@@ -3,9 +3,9 @@
 #ifndef _ST_H
 #define _ST_H
 
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/kref.h>
+#include <robux/completion.h>
+#include <robux/mutex.h>
+#include <robux/kref.h>
 #include <scsi/scsi_cmnd.h>
 
 /* Descriptor for analyzed sense data */

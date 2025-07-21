@@ -5,24 +5,24 @@
  * Author: Hongzhou.Yang <hongzhou.yang@mediatek.com>
  */
 
-#include <linux/io.h>
-#include <linux/gpio/driver.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/pm.h>
+#include <robux/io.h>
+#include <robux/gpio/driver.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/machine.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/bitops.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/pm.h>
 #include <dt-bindings/pinctrl/mt65xx.h>
 
 #include "../core.h"

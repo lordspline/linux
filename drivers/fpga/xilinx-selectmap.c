@@ -10,12 +10,12 @@
 
 #include "xilinx-core.h"
 
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 struct xilinx_selectmap_conf {
 	struct xilinx_fpga_core core;

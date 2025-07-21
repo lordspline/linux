@@ -243,8 +243,8 @@ objdump
 	Mauro Carvalho Chehab <mchehab@kernel.org> (maintainer:MEDIA INPUT INFRASTRUCTURE (V4L/DVB),commit_signer:1/1=100%)
 	Tejun Heo <tj@kernel.org> (commit_signer:1/1=100%)
 	Bhaktipriya Shridhar <bhaktipriya96@gmail.com> (commit_signer:1/1=100%,authored:1/1=100%,added_lines:4/4=100%,removed_lines:9/9=100%)
-	linux-media@vger.kernel.org (open list:GSPCA USB WEBCAM DRIVER)
-	linux-kernel@vger.kernel.org (open list)
+	robux-media@vger.kernel.org (open list:GSPCA USB WEBCAM DRIVER)
+	robux-kernel@vger.kernel.org (open list)
 
 请注意它将指出：
 
@@ -252,10 +252,10 @@ objdump
   和Bhaktipriya（在这个特定的案例中，没有人真正参与这个文件的开发）；
 - 驱动维护人员（Hans Verkuil）；
 - 子系统维护人员（Mauro Carvalho Chehab）；
-- 驱动程序和/或子系统邮件列表（linux-media@vger.kernel.org）；
-- Linux内核邮件列表（linux-kernel@vger.kernel.org）。
+- 驱动程序和/或子系统邮件列表（robux-media@vger.kernel.org）；
+- Linux内核邮件列表（robux-kernel@vger.kernel.org）。
 
-通常，修复缺陷的最快方法是将它报告给用于开发相关代码的邮件列表（linux-media
+通常，修复缺陷的最快方法是将它报告给用于开发相关代码的邮件列表（robux-media
 ML），抄送驱动程序维护者（Hans）。
 
 如果你完全不知道该把报告寄给谁，且 ``get_maintainer.pl`` 也没有提供任何有用

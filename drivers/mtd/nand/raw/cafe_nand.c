@@ -11,18 +11,18 @@
 
 #define DEBUG
 
-#include <linux/device.h>
+#include <robux/device.h>
 #undef DEBUG
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/rslib.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
+#include <robux/rslib.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 #include <asm/io.h>
 
 #define CAFE_NAND_CTRL1		0x00

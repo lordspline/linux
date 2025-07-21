@@ -8,18 +8,18 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/if_ether.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/skbuff.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmapool.h>
+#include <robux/errno.h>
+#include <robux/ethtool.h>
+#include <robux/if_ether.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/netdevice.h>
+#include <robux/pci.h>
+#include <robux/skbuff.h>
 
 #include "bnxt_hsi.h"
 #include "bnxt.h"

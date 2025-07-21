@@ -5,18 +5,18 @@
 
  #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/errno.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/psp-tee.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/tee_core.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <robux/errno.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/io.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/psp-tee.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/tee_core.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
 
 #include "amdtee_private.h"
 

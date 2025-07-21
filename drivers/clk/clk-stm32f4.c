@@ -5,18 +5,18 @@
  * Inspired by clk-asm9260.c .
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <robux/bitfield.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
 
 /*
  * Include list of clocks wich are not derived from system clock (SYSCLOCK)

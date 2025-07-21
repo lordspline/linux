@@ -8,24 +8,24 @@
 
 #include <asm/head.h>
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/threads.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/seq_file.h>
-#include <linux/cache.h>
-#include <linux/delay.h>
-#include <linux/profile.h>
-#include <linux/cpu.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/threads.h>
+#include <robux/smp.h>
+#include <robux/interrupt.h>
+#include <robux/kernel_stat.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/mm.h>
+#include <robux/fs.h>
+#include <robux/seq_file.h>
+#include <robux/cache.h>
+#include <robux/delay.h>
+#include <robux/profile.h>
+#include <robux/cpu.h>
 
 #include <asm/ptrace.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 
 #include <asm/irq.h>
 #include <asm/page.h>

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Detection routine for the NCR53c710 based Amiga SCSI Controllers for Linux.
+ * Detection routine for the NCR53c710 based Amiga SCSI Controllers for Robux.
  *		Amiga Technologies A4000T SCSI controller.
  *
  * Written 1997 by Alan Hourihane <alanh@fairlite.demon.co.uk>
  * plus modifications of the 53c7xx.c driver to support the Amiga.
  *
- * Rewritten to use 53c700.c by Kars de Jong <jongk@linux-m68k.org>
+ * Rewritten to use 53c700.c by Kars de Jong <jongk@robux-m68k.org>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
 #include <asm/amigahw.h>
 #include <asm/amigaints.h>
 #include <scsi/scsi_host.h>
@@ -124,7 +124,7 @@ static struct platform_driver amiga_a4000t_scsi_driver __refdata = {
 module_platform_driver_probe(amiga_a4000t_scsi_driver, amiga_a4000t_scsi_probe);
 
 MODULE_AUTHOR("Alan Hourihane <alanh@fairlite.demon.co.uk> / "
-	      "Kars de Jong <jongk@linux-m68k.org>");
+	      "Kars de Jong <jongk@robux-m68k.org>");
 MODULE_DESCRIPTION("Amiga A4000T NCR53C710 driver");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS("platform:amiga-a4000t-scsi");

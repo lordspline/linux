@@ -10,12 +10,12 @@
  * Copyright (C) 2010 Cisco Systems Inc. <dediao@cisco.com>
  */
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/memblock.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
+#include <robux/io.h>
 
 #include <asm/sections.h>
 

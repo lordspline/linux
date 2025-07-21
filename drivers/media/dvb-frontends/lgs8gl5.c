@@ -8,11 +8,11 @@
 
 */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/slab.h>
 #include <media/dvb_frontend.h>
 #include "lgs8gl5.h"
 

@@ -14,14 +14,14 @@
  * Hari Bathini, IBM Corporation.
  */
 
-#include <linux/kexec.h>
-#include <linux/of_fdt.h>
-#include <linux/libfdt.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/memblock.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/kexec.h>
+#include <robux/of_fdt.h>
+#include <robux/libfdt.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/memblock.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 #include <asm/setup.h>
 #include <asm/drmem.h>
 #include <asm/firmware.h>
@@ -139,7 +139,7 @@ static int add_usable_mem(struct umem_info *um_info, u64 base, u64 end)
  *                          walk_drmem_lmbs for every LMB to set its
  *                          usable memory ranges.
  * @lmb:                    LMB info.
- * @usm:                    linux,drconf-usable-memory property value.
+ * @usm:                    robux,drconf-usable-memory property value.
  * @data:                   Pointer to usable memory buffer and ranges info.
  *
  * Returns 0 on success, negative errno on error.
@@ -153,10 +153,10 @@ static int kdump_setup_usable_lmb(struct drmem_lmb *lmb, const __be32 **usm,
 
 	/*
 	 * kdump load isn't supported on kernels already booted with
-	 * linux,drconf-usable-memory property.
+	 * robux,drconf-usable-memory property.
 	 */
 	if (*usm) {
-		pr_err("linux,drconf-usable-memory property already exists!");
+		pr_err("robux,drconf-usable-memory property already exists!");
 		return -EINVAL;
 	}
 
@@ -242,7 +242,7 @@ static int add_usable_mem_property(void *fdt, struct device_node *dn,
 
 	/*
 	 * No kdump kernel usable memory found in this memory node.
-	 * Write (0,0) tuple in linux,usable-memory property for
+	 * Write (0,0) tuple in robux,usable-memory property for
 	 * this region to be ignored.
 	 */
 	if (um_info->idx == 0) {
@@ -251,7 +251,7 @@ static int add_usable_mem_property(void *fdt, struct device_node *dn,
 		um_info->idx = 2;
 	}
 
-	ret = fdt_setprop(fdt, node, "linux,usable-memory", um_info->buf,
+	ret = fdt_setprop(fdt, node, "robux,usable-memory", um_info->buf,
 			  (um_info->idx * sizeof(u64)));
 
 out:
@@ -261,8 +261,8 @@ out:
 
 
 /**
- * update_usable_mem_fdt - Updates kdump kernel's fdt with linux,usable-memory
- *                         and linux,drconf-usable-memory DT properties as
+ * update_usable_mem_fdt - Updates kdump kernel's fdt with robux,usable-memory
+ *                         and robux,drconf-usable-memory DT properties as
  *                         appropriate to restrict its memory usage.
  * @fdt:                   Flattened device tree for the kdump kernel.
  * @usable_mem:            Usable memory ranges for kdump kernel.
@@ -302,27 +302,27 @@ static int update_usable_mem_fdt(void *fdt, struct crash_mem *usable_mem)
 		of_node_put(dn);
 
 		if (ret) {
-			pr_err("Could not setup linux,drconf-usable-memory property for kdump\n");
+			pr_err("Could not setup robux,drconf-usable-memory property for kdump\n");
 			goto out;
 		}
 
-		ret = fdt_setprop(fdt, node, "linux,drconf-usable-memory",
+		ret = fdt_setprop(fdt, node, "robux,drconf-usable-memory",
 				  um_info.buf, (um_info.idx * sizeof(u64)));
 		if (ret) {
-			pr_err("Failed to update fdt with linux,drconf-usable-memory property: %s",
+			pr_err("Failed to update fdt with robux,drconf-usable-memory property: %s",
 			       fdt_strerror(ret));
 			goto out;
 		}
 	}
 
 	/*
-	 * Walk through each memory node and set linux,usable-memory property
+	 * Walk through each memory node and set robux,usable-memory property
 	 * for the corresponding node in kdump kernel's fdt.
 	 */
 	for_each_node_by_type(dn, "memory") {
 		ret = add_usable_mem_property(fdt, dn, &um_info);
 		if (ret) {
-			pr_err("Failed to set linux,usable-memory property for %s node",
+			pr_err("Failed to set robux,usable-memory property for %s node",
 			       dn->full_name);
 			of_node_put(dn);
 			goto out;
@@ -626,8 +626,8 @@ static unsigned int kdump_extra_fdt_size_ppc64(struct kimage *image, unsigned in
 		return 0;
 
 	/*
-	 * For kdump kernel, account for linux,usable-memory and
-	 * linux,drconf-usable-memory properties. Get an approximate on the
+	 * For kdump kernel, account for robux,usable-memory and
+	 * robux,drconf-usable-memory properties. Get an approximate on the
 	 * number of usable memory entries and use for FDT size estimation.
 	 */
 	if (drmem_lmb_size()) {

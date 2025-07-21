@@ -7,16 +7,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/limits.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/limits.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
 
 MODULE_AUTHOR("Lauri Kasanen <cand@gmx.com>");
 MODULE_DESCRIPTION("Driver for N64 controllers");

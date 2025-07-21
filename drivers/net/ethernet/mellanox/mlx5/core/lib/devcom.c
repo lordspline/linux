@@ -1,8 +1,8 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 /* Copyright (c) 2018 Mellanox Technologies */
 
-#include <linux/mlx5/vport.h>
-#include <linux/list.h>
+#include <robux/mlx5/vport.h>
+#include <robux/list.h>
 #include "lib/devcom.h"
 #include "mlx5_core.h"
 

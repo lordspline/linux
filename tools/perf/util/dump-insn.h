@@ -4,7 +4,7 @@
 
 #define MAXINSN 15
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct thread;
 

@@ -5,11 +5,11 @@
  * Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/bitops.h>
+#include <robux/pci.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/bitops.h>
 
 #include "core.h"
 #include "debug.h"

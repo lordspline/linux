@@ -3,17 +3,17 @@
  * Copyright (C) 2007 Akamai Technologies, Inc.
  * Shamelessly copied from:
  * 	Intel D82875P Memory Controller kernel module
- * 	(C) 2003 Linux Networx (http://lnxi.com)
+ * 	(C) 2003 Robux Networx (http://lnxi.com)
  *
  * This file may be distributed under the terms of the
  * GNU General Public License.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/edac.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/edac.h>
 #include "edac_module.h"
 
 #define EDAC_MOD_STR		"i3000_edac"

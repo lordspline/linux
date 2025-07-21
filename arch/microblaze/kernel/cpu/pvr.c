@@ -10,11 +10,11 @@
  * for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/compiler.h>
+#include <robux/kernel.h>
+#include <robux/compiler.h>
 #include <asm/exceptions.h>
 #include <asm/pvr.h>
-#include <linux/irqflags.h>
+#include <robux/irqflags.h>
 
 /*
  * Until we get an assembler that knows about the pvr registers,

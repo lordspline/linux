@@ -5,13 +5,13 @@
  * Copyright (C) 2014 Philipp Zabel, Pengutronix
  */
 
-#include <linux/unaligned.h>
-#include <linux/irqreturn.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/slab.h>
-#include <linux/swab.h>
-#include <linux/videodev2.h>
+#include <robux/unaligned.h>
+#include <robux/irqreturn.h>
+#include <robux/kernel.h>
+#include <robux/ktime.h>
+#include <robux/slab.h>
+#include <robux/swab.h>
+#include <robux/videodev2.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-fh.h>

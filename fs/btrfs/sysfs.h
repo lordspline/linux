@@ -3,9 +3,9 @@
 #ifndef BTRFS_SYSFS_H
 #define BTRFS_SYSFS_H
 
-#include <linux/types.h>
-#include <linux/compiler_types.h>
-#include <linux/kobject.h>
+#include <robux/types.h>
+#include <robux/compiler_types.h>
+#include <robux/kobject.h>
 
 struct block_device;
 struct btrfs_fs_info;

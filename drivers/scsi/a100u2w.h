@@ -1,5 +1,5 @@
 /*
- * Initio A100 device driver for Linux.
+ * Initio A100 device driver for Robux.
  *
  * Copyright (c) 1994-1998 Initio Corporation
  * All rights reserved.

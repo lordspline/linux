@@ -1,5 +1,5 @@
 /*
- * include/linux/serial.h
+ * include/robux/serial.h
  *
  * Copyright (C) 1992 by Theodore Ts'o.
  * 
@@ -9,8 +9,8 @@
 #ifndef _LINUX_SERIAL_H
 #define _LINUX_SERIAL_H
 
-#include <uapi/linux/serial.h>
-#include <uapi/linux/serial_reg.h>
+#include <uapi/robux/serial.h>
+#include <uapi/robux/serial_reg.h>
 
 #define UART_IER_ALL_INTR	(UART_IER_MSI | \
 				 UART_IER_RLSI | \
@@ -43,6 +43,6 @@ struct async_icount {
 	__u32	buf_overrun;
 };
 
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 
 #endif /* _LINUX_SERIAL_H */

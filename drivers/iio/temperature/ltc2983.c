@@ -5,24 +5,24 @@
  *
  * Copyright 2019 Analog Devices Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/iio/iio.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <robux/bitfield.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/iio/iio.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spi/spi.h>
 
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 /* register map */
 #define LTC2983_STATUS_REG			0x0000

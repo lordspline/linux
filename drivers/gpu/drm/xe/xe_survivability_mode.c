@@ -6,9 +6,9 @@
 #include "xe_survivability_mode.h"
 #include "xe_survivability_mode_types.h"
 
-#include <linux/kobject.h>
-#include <linux/pci.h>
-#include <linux/sysfs.h>
+#include <robux/kobject.h>
+#include <robux/pci.h>
+#include <robux/sysfs.h>
 
 #include "xe_configfs.h"
 #include "xe_device.h"

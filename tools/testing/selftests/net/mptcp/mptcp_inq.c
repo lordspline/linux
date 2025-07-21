@@ -26,8 +26,8 @@
 #include <netdb.h>
 #include <netinet/in.h>
 
-#include <linux/tcp.h>
-#include <linux/sockios.h>
+#include <robux/tcp.h>
+#include <robux/sockios.h>
 
 #ifndef IPPROTO_MPTCP
 #define IPPROTO_MPTCP 262

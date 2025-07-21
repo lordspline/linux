@@ -7,8 +7,8 @@
  *
  */
 
-#include <linux/clocksource.h>
-#include <linux/io.h>
+#include <robux/clocksource.h>
+#include <robux/io.h>
 
 #include <asm/machdep.h>
 #include <asm/coldfire.h>

@@ -11,11 +11,11 @@
  * systems with no controllable regulators.
  */
 
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/device/faux.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/device/faux.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
 
 #include "dummy.h"
 

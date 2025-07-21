@@ -4,10 +4,10 @@
 #ifndef _SUN8I_TCON_TOP_H_
 #define _SUN8I_TCON_TOP_H_
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/reset.h>
+#include <robux/spinlock.h>
 
 #define TCON_TOP_TCON_TV_SETUP_REG	0x00
 

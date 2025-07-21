@@ -7,14 +7,14 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/sched/signal.h>
-#include <linux/signal.h>
-#include <linux/perf_event.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/sched/signal.h>
+#include <robux/signal.h>
+#include <robux/perf_event.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include <asm/fpu.h>
 #include <asm/processor.h>

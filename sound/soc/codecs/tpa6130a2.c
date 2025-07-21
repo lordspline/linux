@@ -7,15 +7,15 @@
  * Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>
 

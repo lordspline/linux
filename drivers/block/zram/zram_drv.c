@@ -15,25 +15,25 @@
 #define KMSG_COMPONENT "zram"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/bio.h>
-#include <linux/bitops.h>
-#include <linux/blkdev.h>
-#include <linux/buffer_head.h>
-#include <linux/device.h>
-#include <linux/highmem.h>
-#include <linux/slab.h>
-#include <linux/backing-dev.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
-#include <linux/err.h>
-#include <linux/idr.h>
-#include <linux/sysfs.h>
-#include <linux/debugfs.h>
-#include <linux/cpuhotplug.h>
-#include <linux/part_stat.h>
-#include <linux/kernel_read_file.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/bio.h>
+#include <robux/bitops.h>
+#include <robux/blkdev.h>
+#include <robux/buffer_head.h>
+#include <robux/device.h>
+#include <robux/highmem.h>
+#include <robux/slab.h>
+#include <robux/backing-dev.h>
+#include <robux/string.h>
+#include <robux/vmalloc.h>
+#include <robux/err.h>
+#include <robux/idr.h>
+#include <robux/sysfs.h>
+#include <robux/debugfs.h>
+#include <robux/cpuhotplug.h>
+#include <robux/part_stat.h>
+#include <robux/kernel_read_file.h>
 
 #include "zram_drv.h"
 

@@ -4,16 +4,16 @@
  */
 
 /*
- * Genius Flight 2000 joystick driver for Linux
+ * Genius Flight 2000 joystick driver for Robux
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/gameport.h>
-#include <linux/jiffies.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/gameport.h>
+#include <robux/jiffies.h>
 
 #define DRIVER_DESC	"Genius Flight 2000 joystick driver"
 

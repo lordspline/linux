@@ -12,8 +12,8 @@
 #include <sched.h>
 #include <signal.h>
 #include <assert.h>
-#include <linux/compiler.h>
-#include <linux/kernel.h>
+#include <robux/compiler.h>
+#include <robux/kernel.h>
 #include <asm/ucontext.h>
 
 #include "hwprobe.h"

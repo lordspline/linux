@@ -13,18 +13,18 @@
  * along with other APIs.
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
-#include <linux/platform_data/x86/intel_scu_ipc.h>
+#include <robux/platform_data/x86/intel_scu_ipc.h>
 
 /* IPC defines the following message types */
 #define IPCMSG_PCNTRL         0xff /* Power controller unit read/write */

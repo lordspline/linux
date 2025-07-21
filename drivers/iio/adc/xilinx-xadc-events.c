@@ -6,9 +6,9 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/kernel.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/kernel.h>
 
 #include "xilinx-xadc.h"
 

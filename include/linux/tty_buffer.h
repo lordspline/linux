@@ -2,10 +2,10 @@
 #ifndef _LINUX_TTY_BUFFER_H
 #define _LINUX_TTY_BUFFER_H
 
-#include <linux/atomic.h>
-#include <linux/llist.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <robux/atomic.h>
+#include <robux/llist.h>
+#include <robux/mutex.h>
+#include <robux/workqueue.h>
 
 struct tty_buffer {
 	union {

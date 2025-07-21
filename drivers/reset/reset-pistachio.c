@@ -7,13 +7,13 @@
  * Author: Damien Horsley <Damien.Horsley@imgtec.com>
  */
 
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/mfd/syscon.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset-controller.h>
+#include <robux/slab.h>
+#include <robux/mfd/syscon.h>
 
 #include <dt-bindings/reset/pistachio-resets.h>
 

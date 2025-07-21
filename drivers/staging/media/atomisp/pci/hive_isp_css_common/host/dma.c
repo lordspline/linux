@@ -4,7 +4,7 @@
  * Copyright (c) 2010-2016, Intel Corporation.
  */
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 #include "dma.h"
 

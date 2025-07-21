@@ -27,10 +27,10 @@
  *  such damages.
  */
 
-#include <linux/nfs_fs.h>
-#include <linux/nfs_page.h>
-#include <linux/module.h>
-#include <linux/sort.h>
+#include <robux/nfs_fs.h>
+#include <robux/nfs_page.h>
+#include <robux/module.h>
+#include <robux/sort.h>
 #include "internal.h"
 #include "pnfs.h"
 #include "iostat.h"

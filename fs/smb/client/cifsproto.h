@@ -7,8 +7,8 @@
  */
 #ifndef _CIFSPROTO_H
 #define _CIFSPROTO_H
-#include <linux/nls.h>
-#include <linux/ctype.h>
+#include <robux/nls.h>
+#include <robux/ctype.h>
 #include "trace.h"
 #ifdef CONFIG_CIFS_DFS_UPCALL
 #include "dfs_cache.h"

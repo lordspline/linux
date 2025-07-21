@@ -8,9 +8,9 @@
 #ifndef _HSC030PA_H
 #define _HSC030PA_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
-#include <linux/iio/iio.h>
+#include <robux/iio/iio.h>
 
 #define HSC_REG_MEASUREMENT_RD_SIZE 4
 #define HSC_RESP_TIME_MS            2

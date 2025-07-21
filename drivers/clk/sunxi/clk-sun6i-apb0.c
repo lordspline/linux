@@ -7,10 +7,10 @@
  * Allwinner A31 APB0 clock driver
  */
 
-#include <linux/clk-provider.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 /*
  * The APB0 clk has a configurable divisor.

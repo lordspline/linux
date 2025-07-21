@@ -7,9 +7,9 @@
 #ifndef __SOUNDBUS_H
 #define __SOUNDBUS_H
 
-#include <linux/platform_device.h>
+#include <robux/platform_device.h>
 #include <sound/pcm.h>
-#include <linux/list.h>
+#include <robux/list.h>
 
 
 /* When switching from master to slave or the other way around,

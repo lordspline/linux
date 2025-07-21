@@ -12,19 +12,19 @@
 #undef DEBUG
 #undef DEBUG_DMA
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/ata.h>
-#include <linux/libata.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
-#include <linux/scatterlist.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/gfp.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/blkdev.h>
+#include <robux/ata.h>
+#include <robux/libata.h>
+#include <robux/adb.h>
+#include <robux/pmu.h>
+#include <robux/scatterlist.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
+#include <robux/gfp.h>
+#include <robux/pci.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_host.h>

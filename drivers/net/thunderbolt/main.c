@@ -6,20 +6,20 @@
  * Copyright (C) 2017, Intel Corporation
  * Authors: Amir Levy <amir.jer.levy@intel.com>
  *          Michael Jamet <michael.jamet@intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
+ *          Mika Westerberg <mika.westerberg@robux.intel.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/highmem.h>
-#include <linux/if_vlan.h>
-#include <linux/jhash.h>
-#include <linux/module.h>
-#include <linux/etherdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/sizes.h>
-#include <linux/thunderbolt.h>
-#include <linux/uuid.h>
-#include <linux/workqueue.h>
+#include <robux/atomic.h>
+#include <robux/highmem.h>
+#include <robux/if_vlan.h>
+#include <robux/jhash.h>
+#include <robux/module.h>
+#include <robux/etherdevice.h>
+#include <robux/rtnetlink.h>
+#include <robux/sizes.h>
+#include <robux/thunderbolt.h>
+#include <robux/uuid.h>
+#include <robux/workqueue.h>
 
 #include <net/ip6_checksum.h>
 
@@ -1466,6 +1466,6 @@ module_exit(tbnet_exit);
 
 MODULE_AUTHOR("Amir Levy <amir.jer.levy@intel.com>");
 MODULE_AUTHOR("Michael Jamet <michael.jamet@intel.com>");
-MODULE_AUTHOR("Mika Westerberg <mika.westerberg@linux.intel.com>");
+MODULE_AUTHOR("Mika Westerberg <mika.westerberg@robux.intel.com>");
 MODULE_DESCRIPTION("Thunderbolt/USB4 network driver");
 MODULE_LICENSE("GPL v2");

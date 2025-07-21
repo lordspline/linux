@@ -13,14 +13,14 @@
  * (c) Copyright Hewlett-Packard Development Company, L.P., 2006
  */
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/socket.h>
-#include <linux/audit.h>
-#include <linux/tty.h>
-#include <linux/security.h>
-#include <linux/gfp.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/socket.h>
+#include <robux/audit.h>
+#include <robux/tty.h>
+#include <robux/security.h>
+#include <robux/gfp.h>
 #include <net/sock.h>
 #include <net/netlink.h>
 #include <net/genetlink.h>

@@ -14,9 +14,9 @@
  * Maintainer: Michal Simek <michal.simek@xilinx.com>
  */
 
-#include <linux/init.h>
-#include <linux/cpuidle.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/cpuidle.h>
+#include <robux/platform_device.h>
 #include <asm/cpuidle.h>
 
 #define ZYNQ_MAX_STATES		2

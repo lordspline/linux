@@ -3,9 +3,9 @@
  * rbtree_test.c: Userspace Red Black Tree test-suite
  * Copyright (c) 2025 Wei Yang <richard.weiyang@gmail.com>
  */
-#include <linux/init.h>
-#include <linux/math64.h>
-#include <linux/kern_levels.h>
+#include <robux/init.h>
+#include <robux/math64.h>
+#include <robux/kern_levels.h>
 #include "shared.h"
 
 #include "../../../lib/rbtree_test.c"

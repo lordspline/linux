@@ -4,27 +4,27 @@
  *
  * Copyright (C) 2016 Linaro Ltd
  * Copyright (C) 2014 Sony Mobile Communications AB
- * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2013, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/regulator/consumer.h>
-#include <linux/remoteproc.h>
-#include <linux/soc/qcom/mdt_loader.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/soc/qcom/smem_state.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/firmware/qcom/qcom_scm.h>
+#include <robux/regulator/consumer.h>
+#include <robux/remoteproc.h>
+#include <robux/soc/qcom/mdt_loader.h>
+#include <robux/soc/qcom/smem.h>
+#include <robux/soc/qcom/smem_state.h>
 
 #include "qcom_common.h"
 #include "remoteproc_internal.h"

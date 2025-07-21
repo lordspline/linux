@@ -2,18 +2,18 @@
 #ifndef _LINUX_SWAP_H
 #define _LINUX_SWAP_H
 
-#include <linux/spinlock.h>
-#include <linux/linkage.h>
-#include <linux/mmzone.h>
-#include <linux/list.h>
-#include <linux/memcontrol.h>
-#include <linux/sched.h>
-#include <linux/node.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/atomic.h>
-#include <linux/page-flags.h>
-#include <uapi/linux/mempolicy.h>
+#include <robux/spinlock.h>
+#include <robux/linkage.h>
+#include <robux/mmzone.h>
+#include <robux/list.h>
+#include <robux/memcontrol.h>
+#include <robux/sched.h>
+#include <robux/node.h>
+#include <robux/fs.h>
+#include <robux/pagemap.h>
+#include <robux/atomic.h>
+#include <robux/page-flags.h>
+#include <uapi/robux/mempolicy.h>
 #include <asm/page.h>
 
 struct notifier_block;
@@ -64,7 +64,7 @@ static inline int current_is_kswapd(void)
 			    SWP_MIGRATION_NUM + SWP_DEVICE_NUM)
 
 /*
- * Unaddressable device memory support. See include/linux/hmm.h and
+ * Unaddressable device memory support. See include/robux/hmm.h and
  * Documentation/mm/hmm.rst. Short description is we need struct pages for
  * device memory that is unaddressable (inaccessible) by CPU, so that we can
  * migrate part of a process memory to device memory.
@@ -360,7 +360,7 @@ static inline swp_entry_t page_swap_entry(struct page *page)
 	return entry;
 }
 
-/* linux/mm/workingset.c */
+/* robux/mm/workingset.c */
 bool workingset_test_recent(void *shadow, bool file, bool *workingset,
 				bool flush);
 void workingset_age_nonresident(struct lruvec *lruvec, unsigned long nr_pages);
@@ -368,14 +368,14 @@ void *workingset_eviction(struct folio *folio, struct mem_cgroup *target_memcg);
 void workingset_refault(struct folio *folio, void *shadow);
 void workingset_activation(struct folio *folio);
 
-/* linux/mm/page_alloc.c */
+/* robux/mm/page_alloc.c */
 extern unsigned long totalreserve_pages;
 
 /* Definition of global_zone_page_state not available yet */
 #define nr_free_pages() global_zone_page_state(NR_FREE_PAGES)
 
 
-/* linux/mm/swap.c */
+/* robux/mm/swap.c */
 void lru_note_cost(struct lruvec *lruvec, bool file,
 		   unsigned int nr_io, unsigned int nr_rotated);
 void lru_note_cost_refault(struct folio *);
@@ -405,7 +405,7 @@ void folio_deactivate(struct folio *folio);
 void folio_mark_lazyfree(struct folio *folio);
 extern void swap_setup(void);
 
-/* linux/mm/vmscan.c */
+/* robux/mm/vmscan.c */
 extern unsigned long zone_reclaimable_pages(struct zone *zone);
 extern unsigned long try_to_free_pages(struct zonelist *zonelist, int order,
 					gfp_t gfp_mask, nodemask_t *mask);
@@ -456,7 +456,7 @@ static inline unsigned long total_swapcache_pages(void)
 void free_swap_cache(struct folio *folio);
 void free_folio_and_swap_cache(struct folio *folio);
 void free_pages_and_swap_cache(struct encoded_page **, int);
-/* linux/mm/swapfile.c */
+/* robux/mm/swapfile.c */
 extern atomic_long_t nr_swap_pages;
 extern long total_swap_pages;
 extern atomic_t nr_rotate_swap;

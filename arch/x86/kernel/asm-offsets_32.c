@@ -3,7 +3,7 @@
 # error "Please do not build this file directly, build asm-offsets.c instead"
 #endif
 
-#include <linux/efi.h>
+#include <robux/efi.h>
 
 #include <asm/ucontext.h>
 

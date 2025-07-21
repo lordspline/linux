@@ -4,19 +4,19 @@
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include <linux/ctype.h>
-#include <linux/dmi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/miscdevice.h>
-#include <linux/kfifo.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/poll.h>
-#include <linux/bsearch.h>
-#include <linux/platform_device.h>
-#include <linux/hid-sensor-hub.h>
+#include <robux/ctype.h>
+#include <robux/dmi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/miscdevice.h>
+#include <robux/kfifo.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
+#include <robux/poll.h>
+#include <robux/bsearch.h>
+#include <robux/platform_device.h>
+#include <robux/hid-sensor-hub.h>
 
 #define HID_CUSTOM_NAME_LENGTH		64
 #define HID_CUSTOM_MAX_CORE_ATTRS	10
@@ -1070,5 +1070,5 @@ static struct platform_driver hid_sensor_custom_platform_driver = {
 module_platform_driver(hid_sensor_custom_platform_driver);
 
 MODULE_DESCRIPTION("HID Sensor Custom and Generic sensor Driver");
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@robux.intel.com>");
 MODULE_LICENSE("GPL");

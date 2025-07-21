@@ -5,15 +5,15 @@
 // Copyright (C) 2014-2015 Freescale Semiconductor, Inc.
 // Copyright 2019 NXP
 
-#include <linux/clk.h>
-#include <linux/firmware/imx/sm.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/imx6q-iomuxc-gpr.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/firmware/imx/sm.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mfd/syscon/imx6q-iomuxc-gpr.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
 #include <sound/soc.h>
 #include <sound/pcm.h>
 #include <sound/initval.h>

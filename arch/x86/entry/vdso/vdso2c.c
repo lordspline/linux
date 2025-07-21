@@ -63,9 +63,9 @@
 
 #include <tools/le_byteshift.h>
 
-#include <linux/elf.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
+#include <robux/elf.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
 
 const char *outfilename;
 

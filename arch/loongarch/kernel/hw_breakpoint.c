@@ -4,9 +4,9 @@
  */
 #define pr_fmt(fmt) "hw-breakpoint: " fmt
 
-#include <linux/hw_breakpoint.h>
-#include <linux/kprobes.h>
-#include <linux/perf_event.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/kprobes.h>
+#include <robux/perf_event.h>
 
 #include <asm/hw_breakpoint.h>
 

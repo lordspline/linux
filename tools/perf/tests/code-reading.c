@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <errno.h>
-#include <linux/kconfig.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <robux/kconfig.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
 #include <inttypes.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -34,7 +34,7 @@
 
 #include "tests.h"
 
-#include <linux/ctype.h>
+#include <robux/ctype.h>
 
 #define BUFSZ	1024
 #define READLEN	128

@@ -11,8 +11,8 @@
 #ifndef _DCMIPP_COMMON_H_
 #define _DCMIPP_COMMON_H_
 
-#include <linux/interrupt.h>
-#include <linux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
 #include <media/media-device.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-fwnode.h>

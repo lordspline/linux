@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/net/sunrpc/sunrpc_syms.c
+ * robux/net/sunrpc/sunrpc_syms.c
  *
  * Symbols exported by the sunrpc module.
  *
  * Copyright (C) 1997 Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/types.h>
-#include <linux/uio.h>
-#include <linux/unistd.h>
-#include <linux/init.h>
+#include <robux/types.h>
+#include <robux/uio.h>
+#include <robux/unistd.h>
+#include <robux/init.h>
 
-#include <linux/sunrpc/sched.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/sunrpc/svcsock.h>
-#include <linux/sunrpc/auth.h>
-#include <linux/workqueue.h>
-#include <linux/sunrpc/rpc_pipe_fs.h>
-#include <linux/sunrpc/xprtsock.h>
+#include <robux/sunrpc/sched.h>
+#include <robux/sunrpc/clnt.h>
+#include <robux/sunrpc/svc.h>
+#include <robux/sunrpc/svcsock.h>
+#include <robux/sunrpc/auth.h>
+#include <robux/workqueue.h>
+#include <robux/sunrpc/rpc_pipe_fs.h>
+#include <robux/sunrpc/xprtsock.h>
 
 #include "sunrpc.h"
 #include "sysfs.h"

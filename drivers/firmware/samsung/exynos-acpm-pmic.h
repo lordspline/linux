@@ -7,7 +7,7 @@
 #ifndef __EXYNOS_ACPM_PMIC_H__
 #define __EXYNOS_ACPM_PMIC_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct acpm_handle;
 

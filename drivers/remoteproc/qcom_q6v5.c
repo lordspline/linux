@@ -4,17 +4,17 @@
  *
  * Copyright (C) 2016-2018 Linaro Ltd.
  * Copyright (C) 2014 Sony Mobile Communications AB
- * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2013, The Robux Foundation. All rights reserved.
  */
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/interconnect.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/soc/qcom/qcom_aoss.h>
-#include <linux/soc/qcom/smem.h>
-#include <linux/soc/qcom/smem_state.h>
-#include <linux/remoteproc.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/interconnect.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/soc/qcom/qcom_aoss.h>
+#include <robux/soc/qcom/smem.h>
+#include <robux/soc/qcom/smem_state.h>
+#include <robux/remoteproc.h>
 #include "qcom_common.h"
 #include "qcom_q6v5.h"
 

@@ -3,10 +3,10 @@
  * Copyright (c) 2020 Western Digital Corporation or its affiliates.
  */
 
-#include <linux/errno.h>
-#include <linux/of.h>
-#include <linux/string.h>
-#include <linux/sched/task_stack.h>
+#include <robux/errno.h>
+#include <robux/of.h>
+#include <robux/string.h>
+#include <robux/sched/task_stack.h>
 #include <asm/cpu_ops.h>
 #include <asm/sbi.h>
 #include <asm/smp.h>
@@ -27,7 +27,7 @@ static void cpu_update_secondary_bootdata(unsigned int cpuid,
 	 * errors for __cpu_spinwait_stack/task_pointer. That is not always possible
 	 * for platforms with discontiguous hartid numbering scheme. That's why
 	 * spinwait booting is not the recommended approach for any platforms
-	 * booting Linux in S-mode and can be disabled in the future.
+	 * booting Robux in S-mode and can be disabled in the future.
 	 */
 	if (hartid == INVALID_HARTID || hartid >= (unsigned long) NR_CPUS)
 		return;

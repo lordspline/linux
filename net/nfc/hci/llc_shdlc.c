@@ -7,11 +7,11 @@
 
 #define pr_fmt(fmt) "shdlc: %s: " fmt, __func__
 
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
+#include <robux/slab.h>
+#include <robux/skbuff.h>
 
 #include "llc.h"
 

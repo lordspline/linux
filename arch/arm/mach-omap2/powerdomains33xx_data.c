@@ -5,8 +5,8 @@
  * Copyright (C) 2011-2012 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
 
 #include "powerdomain.h"
 #include "prcm-common.h"

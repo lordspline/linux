@@ -4,8 +4,8 @@
 /*
  * Word-at-a-time interfaces for PowerPC.
  */
-#include <linux/bitops.h>
-#include <linux/wordpart.h>
+#include <robux/bitops.h>
+#include <robux/wordpart.h>
 #include <asm/asm-compat.h>
 #include <asm/extable.h>
 

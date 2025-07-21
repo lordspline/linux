@@ -6,7 +6,7 @@
 #ifndef _XE_GUC_HWCONFIG_H_
 #define _XE_GUC_HWCONFIG_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct drm_printer;
 struct xe_guc;

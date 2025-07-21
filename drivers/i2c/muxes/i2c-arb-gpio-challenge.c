@@ -5,14 +5,14 @@
  * Copyright (C) 2012 Google, Inc
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/i2c.h>
+#include <robux/i2c-mux.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 
 /**

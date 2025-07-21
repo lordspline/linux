@@ -1,8 +1,8 @@
-# SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause)
+# SPDX-License-Identifier: ((GPL-2.0 WITH Robux-syscall-note) OR BSD-3-Clause)
 
 name: tc
 protocol: netlink-raw
-uapi-header: linux/pkt_cls.h
+uapi-header: robux/pkt_cls.h
 protonum: 0
 
 doc:
@@ -13,7 +13,7 @@ definitions:
   -
     name: tcmsg
     type: struct
-    header: linux/rtnetlink.h
+    header: robux/rtnetlink.h
     members:
       -
         name: family
@@ -635,7 +635,7 @@ definitions:
   -
     name: tc-ratespec
     type: struct
-    header: linux/pkt_sched.h
+    header: robux/pkt_sched.h
     members:
       -
         name: cell-log
@@ -1482,7 +1482,7 @@ attribute-sets:
   -
     name: act-bpf-attrs
     name-prefix: tca-act-bpf-
-    header: linux/tc_act/tc_bpf.h
+    header: robux/tc_act/tc_bpf.h
     attributes:
       -
         name: tm
@@ -1515,7 +1515,7 @@ attribute-sets:
   -
     name: act-connmark-attrs
     name-prefix: tca-connmark-
-    header: linux/tc_act/tc_connmark.h
+    header: robux/tc_act/tc_connmark.h
     attributes:
       -
         name: parms
@@ -1530,7 +1530,7 @@ attribute-sets:
   -
     name: act-csum-attrs
     name-prefix: tca-csum-
-    header: linux/tc_act/tc_csum.h
+    header: robux/tc_act/tc_csum.h
     attributes:
       -
         name: parms
@@ -1545,7 +1545,7 @@ attribute-sets:
   -
     name: act-ct-attrs
     name-prefix: tca-ct-
-    header: linux/tc_act/tc_ct.h
+    header: robux/tc_act/tc_ct.h
     attributes:
       -
         name: parms
@@ -1609,7 +1609,7 @@ attribute-sets:
   -
     name: act-ctinfo-attrs
     name-prefix: tca-ctinfo-
-    header: linux/tc_act/tc_ctinfo.h
+    header: robux/tc_act/tc_ctinfo.h
     attributes:
       -
         name: pad
@@ -1645,7 +1645,7 @@ attribute-sets:
   -
     name: act-gate-attrs
     name-prefix: tca-gate-
-    header: linux/tc_act/tc_gate.h
+    header: robux/tc_act/tc_gate.h
     attributes:
       -
         name: tm
@@ -1681,7 +1681,7 @@ attribute-sets:
   -
     name: act-ife-attrs
     name-prefix: tca-ife-
-    header: linux/tc_act/tc_ife.h
+    header: robux/tc_act/tc_ife.h
     attributes:
       -
         name: parms
@@ -1708,7 +1708,7 @@ attribute-sets:
   -
     name: act-mirred-attrs
     name-prefix: tca-mirred-
-    header: linux/tc_act/tc_mirred.h
+    header: robux/tc_act/tc_mirred.h
     attributes:
       -
         name: tm
@@ -1726,7 +1726,7 @@ attribute-sets:
   -
     name: act-mpls-attrs
     name-prefix: tca-mpls-
-    header: linux/tc_act/tc_mpls.h
+    header: robux/tc_act/tc_mpls.h
     attributes:
       -
         name: tm
@@ -1758,7 +1758,7 @@ attribute-sets:
   -
     name: act-nat-attrs
     name-prefix: tca-nat-
-    header: linux/tc_act/tc_nat.h
+    header: robux/tc_act/tc_nat.h
     attributes:
       -
         name: parms
@@ -1773,7 +1773,7 @@ attribute-sets:
   -
     name: act-pedit-attrs
     name-prefix: tca-pedit-
-    header: linux/tc_act/tc_pedit.h
+    header: robux/tc_act/tc_pedit.h
     attributes:
       -
         name: tm
@@ -1798,7 +1798,7 @@ attribute-sets:
   -
     name: act-simple-attrs
     name-prefix: tca-def-
-    header: linux/tc_act/tc_defact.h
+    header: robux/tc_act/tc_defact.h
     attributes:
       -
         name: tm
@@ -1816,7 +1816,7 @@ attribute-sets:
   -
     name: act-skbedit-attrs
     name-prefix: tca-skbedit-
-    header: linux/tc_act/tc_skbedit.h
+    header: robux/tc_act/tc_skbedit.h
     attributes:
       -
         name: tm
@@ -1852,7 +1852,7 @@ attribute-sets:
   -
     name: act-skbmod-attrs
     name-prefix: tca-skbmod-
-    header: linux/tc_act/tc_skbmod.h
+    header: robux/tc_act/tc_skbmod.h
     attributes:
       -
         name: tm
@@ -1876,7 +1876,7 @@ attribute-sets:
   -
     name: act-tunnel-key-attrs
     name-prefix: tca-tunnel-key-
-    header: linux/tc_act/tc_tunnel_key.h
+    header: robux/tc_act/tc_tunnel_key.h
     attributes:
       -
         name: tm
@@ -1928,7 +1928,7 @@ attribute-sets:
   -
     name: act-vlan-attrs
     name-prefix: tca-vlan-
-    header: linux/tc_act/tc_vlan.h
+    header: robux/tc_act/tc_vlan.h
     attributes:
       -
         name: tm
@@ -3536,7 +3536,7 @@ attribute-sets:
   -
     name: act-sample-attrs
     name-prefix: tca-sample-
-    header: linux/tc_act/tc_sample.h
+    header: robux/tc_act/tc_sample.h
     attributes:
       -
         name: tm
@@ -3561,7 +3561,7 @@ attribute-sets:
   -
     name: act-gact-attrs
     name-prefix: tca-gact-
-    header: linux/tc_act/tc_gact.h
+    header: robux/tc_act/tc_gact.h
     attributes:
       -
         name: tm
@@ -3592,7 +3592,7 @@ attribute-sets:
   -
     name: tca-stats-attrs
     name-prefix: tca-stats-
-    header: linux/gen_stats.h
+    header: robux/gen_stats.h
     attributes:
       -
         name: basic

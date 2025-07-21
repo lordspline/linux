@@ -4,9 +4,9 @@
 
 #include <asm/lowcore.h>
 #include <asm/page.h>
-#include <linux/kmsan.h>
-#include <linux/mmzone.h>
-#include <linux/stddef.h>
+#include <robux/kmsan.h>
+#include <robux/mmzone.h>
+#include <robux/stddef.h>
 
 #ifndef MODULE
 

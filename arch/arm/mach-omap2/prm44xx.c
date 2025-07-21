@@ -9,14 +9,14 @@
  * Rajendra Nayak <rnayak@ti.com>
  */
 
-#include <linux/cpu_pm.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of_irq.h>
-#include <linux/of.h>
+#include <robux/cpu_pm.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of_irq.h>
+#include <robux/of.h>
 
 #include "soc.h"
 #include "iomap.h"

@@ -3,16 +3,16 @@
  * Copyright (C) 2019 SiFive
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/regmap.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/regmap.h>
 
 #define SIFIVE_GPIO_INPUT_VAL	0x00
 #define SIFIVE_GPIO_INPUT_EN	0x04

@@ -2,14 +2,14 @@
 /*
  * Coredump functionality for Remoteproc framework.
  *
- * Copyright (c) 2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/completion.h>
-#include <linux/devcoredump.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/remoteproc.h>
+#include <robux/completion.h>
+#include <robux/devcoredump.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/remoteproc.h>
 #include "remoteproc_internal.h"
 #include "remoteproc_elf_helpers.h"
 

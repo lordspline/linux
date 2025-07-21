@@ -13,16 +13,16 @@
  * Marek Szyprowski, <m.szyprowski@samsung.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/soc/sunxi/sunxi_sram.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/soc/sunxi/sunxi_sram.h>
 
 #include <media/videobuf2-core.h>
 #include <media/v4l2-mem2mem.h>

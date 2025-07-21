@@ -5,14 +5,14 @@
  *
  * Copyright (C) 2025 Advanced Micro Devices, Inc.
  */
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/i2c.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/fs.h>
+#include <robux/i2c.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
 #include "rmi-core.h"
 
 /* Mask for Status Register bit[1] */

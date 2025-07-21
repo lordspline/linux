@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/mod_devicetable.h>
-#include <linux/errno.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/mod_devicetable.h>
+#include <robux/errno.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
 
 #include "of_device_common.h"
 

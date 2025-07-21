@@ -4,17 +4,17 @@
  * Copyright (c) 2014, Intel Corporation.
  */
 
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
-#include <linux/pm_runtime.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/events.h>
+#include <robux/pm_runtime.h>
 #include "mma9551_core.h"
 
 #define MMA9551_DRV_NAME		"mma9551"

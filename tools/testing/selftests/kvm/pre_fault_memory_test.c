@@ -5,7 +5,7 @@
  * Author:
  * Isaku Yamahata <isaku.yamahata at gmail.com>
  */
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 
 #include <test_util.h>
 #include <kvm_util.h>

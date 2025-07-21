@@ -5,14 +5,14 @@
  */
 
 #include <asm/barrier.h>
-#include <linux/err.h>
-#include <linux/hw_random.h>
-#include <linux/scatterlist.h>
-#include <linux/spinlock.h>
-#include <linux/virtio.h>
-#include <linux/virtio_rng.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/hw_random.h>
+#include <robux/scatterlist.h>
+#include <robux/spinlock.h>
+#include <robux/virtio.h>
+#include <robux/virtio_rng.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 static DEFINE_IDA(rng_index_ida);
 

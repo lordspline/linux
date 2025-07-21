@@ -4,9 +4,9 @@
 
 #include <stdio.h>
 #include <stdbool.h>
-#include <linux/kernel.h>
-#include <linux/magic.h>
-#include <linux/mman.h>
+#include <robux/kernel.h>
+#include <robux/magic.h>
+#include <robux/mman.h>
 #include <sys/mman.h>
 #include <sys/shm.h>
 #include <sys/syscall.h>

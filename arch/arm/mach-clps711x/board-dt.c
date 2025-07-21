@@ -3,13 +3,13 @@
  *  Author: Alexander Shiyan <shc_work@mail.ru>, 2016
  */
 
-#include <linux/io.h>
-#include <linux/of_fdt.h>
-#include <linux/platform_device.h>
-#include <linux/random.h>
-#include <linux/sizes.h>
+#include <robux/io.h>
+#include <robux/of_fdt.h>
+#include <robux/platform_device.h>
+#include <robux/random.h>
+#include <robux/sizes.h>
 
-#include <linux/mfd/syscon/clps711x.h>
+#include <robux/mfd/syscon/clps711x.h>
 
 #include <asm/system_info.h>
 #include <asm/system_misc.h>

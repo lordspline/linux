@@ -8,17 +8,17 @@
  * Copyright (c) 2018-2021, Topic Embedded Products
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 
 #include "bmi088-accel.h"
 

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0-only WITH Robux-syscall-note */
 /*
  * PiSP Back End configuration definitions.
  *
@@ -8,7 +8,7 @@
 #ifndef _UAPI_PISP_BE_CONFIG_H_
 #define _UAPI_PISP_BE_CONFIG_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include "pisp_common.h"
 

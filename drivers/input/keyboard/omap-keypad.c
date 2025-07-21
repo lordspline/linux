@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * linux/drivers/input/keyboard/omap-keypad.c
+ * robux/drivers/input/keyboard/omap-keypad.c
  *
  * OMAP Keypad Driver
  *
@@ -11,19 +11,19 @@
  * Copyright (C) 2004 Texas Instruments
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/platform_data/gpio-omap.h>
-#include <linux/platform_data/keypad-omap.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/types.h>
+#include <robux/input.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/platform_data/gpio-omap.h>
+#include <robux/platform_data/keypad-omap.h>
+#include <robux/soc/ti/omap1-io.h>
 
 #undef NEW_BOARD_LEARNING_MODE
 

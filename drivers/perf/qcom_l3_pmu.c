@@ -10,17 +10,17 @@
  *
  * See Documentation/admin-guide/perf/qcom_l3_pmu.rst for more details.
  *
- * Copyright (c) 2015-2017, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015-2017, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/perf_event.h>
+#include <robux/platform_device.h>
 
 /*
  * General constants

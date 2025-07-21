@@ -5,9 +5,9 @@
  * Copyright (c) 2003-2010 Cavium Networks
  */
 
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/slab.h>
 
 #include "octeon-ethernet.h"
 #include "ethernet-mem.h"

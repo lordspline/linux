@@ -9,19 +9,19 @@
  *
  * TODO: magnetometer, hardware FIFO
  */
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger.h>
 
 #include "bmi160.h"
 

@@ -37,14 +37,14 @@
 		switch-14 {
 			label = "sw14";
 			gpios = <&gpio0 12 0>;
-			linux,code = <108>; /* down */
+			robux,code = <108>; /* down */
 			wakeup-source;
 			autorepeat;
 		};
 		switch-13 {
 			label = "sw13";
 			gpios = <&gpio0 14 0>;
-			linux,code = <103>; /* up */
+			robux,code = <103>; /* up */
 			wakeup-source;
 			autorepeat;
 		};
@@ -56,7 +56,7 @@
 		led-ds23 {
 			label = "ds23";
 			gpios = <&gpio0 10 0>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 		};
 	};
 
@@ -411,7 +411,7 @@
 				reg = <0x0 0x100000>;
 			};
 			partition@100000 {
-				label = "qspi-linux";
+				label = "qspi-robux";
 				reg = <0x100000 0x500000>;
 			};
 			partition@600000 {

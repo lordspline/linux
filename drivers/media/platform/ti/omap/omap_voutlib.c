@@ -8,7 +8,7 @@
  * kind, whether express or implied.
  *
  * Based on the OMAP2 camera driver
- * Video-for-Linux (Version 2) camera capture driver for
+ * Video-for-Robux (Version 2) camera capture driver for
  * the OMAP24xx camera controller.
  *
  * Author: Andy Lowe (source@mvista.com)
@@ -18,13 +18,13 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/videodev2.h>
 
-#include <linux/dma-mapping.h>
+#include <robux/dma-mapping.h>
 
 #include <video/omapfb_dss.h>
 

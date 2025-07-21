@@ -1,10 +1,10 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB */
 /* Copyright (c) 2015 - 2021 Intel Corporation */
 #ifndef IRDMA_OSDEP_H
 #define IRDMA_OSDEP_H
 
-#include <linux/pci.h>
-#include <linux/bitfield.h>
+#include <robux/pci.h>
+#include <robux/bitfield.h>
 #include <rdma/ib_verbs.h>
 #include <net/dscp.h>
 

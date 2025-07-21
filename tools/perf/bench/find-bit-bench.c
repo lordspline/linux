@@ -7,9 +7,9 @@
 #include <stdlib.h>
 #include "bench.h"
 #include "../util/stat.h"
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/time64.h>
+#include <robux/bitmap.h>
+#include <robux/bitops.h>
+#include <robux/time64.h>
 #include <subcmd/parse-options.h>
 
 static unsigned int outer_iterations = 5;

@@ -19,14 +19,14 @@
  *
  * Author: Hammer Hsieh <hammerh0314@gmail.com>
  */
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
 
 #define SP7021_PWM_MODE0		0x000
 #define SP7021_PWM_MODE0_PWMEN(ch)	BIT(ch)

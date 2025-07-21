@@ -18,17 +18,17 @@
  * be detected without constant software monitoring.
  */
 
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
-#include <linux/workqueue.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/thermal.h>
+#include <robux/workqueue.h>
 
-#include <linux/mfd/da9062/core.h>
-#include <linux/mfd/da9062/registers.h>
+#include <robux/mfd/da9062/core.h>
+#include <robux/mfd/da9062/registers.h>
 
 /* Minimum, maximum and default polling millisecond periods are provided
  * here as an example. It is expected that any final implementation to also

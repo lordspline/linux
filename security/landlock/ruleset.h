@@ -9,12 +9,12 @@
 #ifndef _SECURITY_LANDLOCK_RULESET_H
 #define _SECURITY_LANDLOCK_RULESET_H
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/rbtree.h>
-#include <linux/refcount.h>
-#include <linux/workqueue.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/rbtree.h>
+#include <robux/refcount.h>
+#include <robux/workqueue.h>
 
 #include "access.h"
 #include "limits.h"

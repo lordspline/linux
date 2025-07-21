@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 #
-# linux/arch/sh/boot/romimage/Makefile
+# robux/arch/sh/boot/romimage/Makefile
 #
 # create an romImage file suitable for burning to flash/mmc from zImage
 #

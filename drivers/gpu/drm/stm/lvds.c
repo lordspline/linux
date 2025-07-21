@@ -12,15 +12,15 @@
 #include <drm/drm_print.h>
 #include <drm/drm_probe_helper.h>
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
 
 /* LVDS Host registers */
 #define LVDS_CR		0x0000  /* configuration register */

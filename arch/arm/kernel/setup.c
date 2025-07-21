@@ -1,34 +1,34 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/setup.c
+ *  robux/arch/arm/kernel/setup.c
  *
  *  Copyright (C) 1995-2001 Russell King
  */
-#include <linux/efi.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/utsname.h>
-#include <linux/initrd.h>
-#include <linux/console.h>
-#include <linux/seq_file.h>
-#include <linux/screen_info.h>
-#include <linux/init.h>
-#include <linux/kexec.h>
-#include <linux/libfdt.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/smp.h>
-#include <linux/proc_fs.h>
-#include <linux/memblock.h>
-#include <linux/bug.h>
-#include <linux/compiler.h>
-#include <linux/sort.h>
-#include <linux/psci.h>
+#include <robux/efi.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/stddef.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/utsname.h>
+#include <robux/initrd.h>
+#include <robux/console.h>
+#include <robux/seq_file.h>
+#include <robux/screen_info.h>
+#include <robux/init.h>
+#include <robux/kexec.h>
+#include <robux/libfdt.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
+#include <robux/cpu.h>
+#include <robux/interrupt.h>
+#include <robux/smp.h>
+#include <robux/proc_fs.h>
+#include <robux/memblock.h>
+#include <robux/bug.h>
+#include <robux/compiler.h>
+#include <robux/sort.h>
+#include <robux/psci.h>
 
 #include <asm/unified.h>
 #include <asm/cp15.h>
@@ -610,7 +610,7 @@ void __init smp_setup_processor_id(void)
 	 */
 	set_my_cpu_offset(0);
 
-	pr_info("Booting Linux on physical CPU 0x%x\n", mpidr);
+	pr_info("Booting Robux on physical CPU 0x%x\n", mpidr);
 }
 
 struct mpidr_hash mpidr_hash;

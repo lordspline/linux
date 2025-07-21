@@ -7,11 +7,11 @@
 #ifndef _LINUX_INSTRUMENTED_H
 #define _LINUX_INSTRUMENTED_H
 
-#include <linux/compiler.h>
-#include <linux/kasan-checks.h>
-#include <linux/kcsan-checks.h>
-#include <linux/kmsan-checks.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/kasan-checks.h>
+#include <robux/kcsan-checks.h>
+#include <robux/kmsan-checks.h>
+#include <robux/types.h>
 
 /**
  * instrument_read - instrument regular read access

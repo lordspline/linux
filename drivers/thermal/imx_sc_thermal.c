@@ -4,13 +4,13 @@
  */
 
 #include <dt-bindings/firmware/imx/rsrc.h>
-#include <linux/err.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
+#include <robux/err.h>
+#include <robux/firmware/imx/sci.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/thermal.h>
 
 #include "thermal_hwmon.h"
 

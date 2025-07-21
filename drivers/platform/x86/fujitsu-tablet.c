@@ -6,18 +6,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/bitops.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
 
 #define MODULENAME "fujitsu-tablet"
 

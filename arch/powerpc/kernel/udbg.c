@@ -5,11 +5,11 @@
  * c 2001 PPC 64 Team, IBM Corp
  */
 
-#include <linux/stdarg.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/console.h>
-#include <linux/init.h>
+#include <robux/stdarg.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/console.h>
+#include <robux/init.h>
 #include <asm/processor.h>
 #include <asm/udbg.h>
 

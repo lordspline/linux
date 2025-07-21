@@ -6,12 +6,12 @@
  * Copyright (C) 2012 Jonas Gorski <jonas.gorski@gmail.com>
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/mutex.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_io.h>
 #include <bcm63xx_regs.h>

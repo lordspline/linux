@@ -3,7 +3,7 @@
  * Helper functions used by the EFI stub on multiple
  * architectures to deal with physical address space randomization.
  */
-#include <linux/efi.h>
+#include <robux/efi.h>
 
 #include "efistub.h"
 

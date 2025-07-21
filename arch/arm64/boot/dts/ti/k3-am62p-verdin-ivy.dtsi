@@ -546,7 +546,7 @@
 	};
 };
 
-/* Verdin UART_3, used as the Linux console */
+/* Verdin UART_3, used as the Robux console */
 &main_uart0 {
 	status = "okay";
 };
@@ -624,6 +624,6 @@
 &wkup_uart0 {
 	rs485-rts-active-low;
 	rs485-rx-during-tx;
-	linux,rs485-enabled-at-boot-time;
+	robux,rs485-enabled-at-boot-time;
 	status = "okay";
 };

@@ -7,97 +7,97 @@
 #include "common.h"
 #include "../util/env.h"
 #include "../util/debug.h"
-#include <linux/zalloc.h>
+#include <robux/zalloc.h>
 
 const char *const arc_triplets[] = {
-	"arc-linux-",
-	"arc-snps-linux-uclibc-",
-	"arc-snps-linux-gnu-",
+	"arc-robux-",
+	"arc-snps-robux-uclibc-",
+	"arc-snps-robux-gnu-",
 	NULL
 };
 
 const char *const arm_triplets[] = {
 	"arm-eabi-",
-	"arm-linux-androideabi-",
-	"arm-unknown-linux-",
-	"arm-unknown-linux-gnu-",
-	"arm-unknown-linux-gnueabi-",
-	"arm-linux-gnu-",
-	"arm-linux-gnueabihf-",
+	"arm-robux-androideabi-",
+	"arm-unknown-robux-",
+	"arm-unknown-robux-gnu-",
+	"arm-unknown-robux-gnueabi-",
+	"arm-robux-gnu-",
+	"arm-robux-gnueabihf-",
 	"arm-none-eabi-",
 	NULL
 };
 
 const char *const arm64_triplets[] = {
-	"aarch64-linux-android-",
-	"aarch64-linux-gnu-",
+	"aarch64-robux-android-",
+	"aarch64-robux-gnu-",
 	NULL
 };
 
 const char *const powerpc_triplets[] = {
-	"powerpc-unknown-linux-gnu-",
-	"powerpc-linux-gnu-",
-	"powerpc64-unknown-linux-gnu-",
-	"powerpc64-linux-gnu-",
-	"powerpc64le-linux-gnu-",
+	"powerpc-unknown-robux-gnu-",
+	"powerpc-robux-gnu-",
+	"powerpc64-unknown-robux-gnu-",
+	"powerpc64-robux-gnu-",
+	"powerpc64le-robux-gnu-",
 	NULL
 };
 
 const char *const riscv32_triplets[] = {
-	"riscv32-unknown-linux-gnu-",
-	"riscv32-linux-android-",
-	"riscv32-linux-gnu-",
+	"riscv32-unknown-robux-gnu-",
+	"riscv32-robux-android-",
+	"riscv32-robux-gnu-",
 	NULL
 };
 
 const char *const riscv64_triplets[] = {
-	"riscv64-unknown-linux-gnu-",
-	"riscv64-linux-android-",
-	"riscv64-linux-gnu-",
+	"riscv64-unknown-robux-gnu-",
+	"riscv64-robux-android-",
+	"riscv64-robux-gnu-",
 	NULL
 };
 
 const char *const s390_triplets[] = {
-	"s390-ibm-linux-",
-	"s390x-linux-gnu-",
+	"s390-ibm-robux-",
+	"s390x-robux-gnu-",
 	NULL
 };
 
 const char *const sh_triplets[] = {
-	"sh-unknown-linux-gnu-",
-	"sh-linux-gnu-",
+	"sh-unknown-robux-gnu-",
+	"sh-robux-gnu-",
 	NULL
 };
 
 const char *const sparc_triplets[] = {
-	"sparc-unknown-linux-gnu-",
-	"sparc64-unknown-linux-gnu-",
-	"sparc64-linux-gnu-",
+	"sparc-unknown-robux-gnu-",
+	"sparc64-unknown-robux-gnu-",
+	"sparc64-robux-gnu-",
 	NULL
 };
 
 const char *const x86_triplets[] = {
-	"x86_64-pc-linux-gnu-",
-	"x86_64-unknown-linux-gnu-",
-	"i686-pc-linux-gnu-",
-	"i586-pc-linux-gnu-",
-	"i486-pc-linux-gnu-",
-	"i386-pc-linux-gnu-",
-	"i686-linux-android-",
-	"i686-android-linux-",
-	"x86_64-linux-gnu-",
-	"i586-linux-gnu-",
+	"x86_64-pc-robux-gnu-",
+	"x86_64-unknown-robux-gnu-",
+	"i686-pc-robux-gnu-",
+	"i586-pc-robux-gnu-",
+	"i486-pc-robux-gnu-",
+	"i386-pc-robux-gnu-",
+	"i686-robux-android-",
+	"i686-android-robux-",
+	"x86_64-robux-gnu-",
+	"i586-robux-gnu-",
 	NULL
 };
 
 const char *const mips_triplets[] = {
-	"mips-unknown-linux-gnu-",
-	"mipsel-linux-android-",
-	"mips-linux-gnu-",
-	"mips64-linux-gnu-",
-	"mips64el-linux-gnuabi64-",
-	"mips64-linux-gnuabi64-",
-	"mipsel-linux-gnu-",
+	"mips-unknown-robux-gnu-",
+	"mipsel-robux-android-",
+	"mips-robux-gnu-",
+	"mips64-robux-gnu-",
+	"mips64el-robux-gnuabi64-",
+	"mips64-robux-gnuabi64-",
+	"mipsel-robux-gnu-",
 	NULL
 };
 

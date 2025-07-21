@@ -8,10 +8,10 @@
  *                                        (at) -> @
  */      
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/tlv.h>
 

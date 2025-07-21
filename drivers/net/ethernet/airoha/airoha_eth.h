@@ -7,12 +7,12 @@
 #ifndef AIROHA_ETH_H
 #define AIROHA_ETH_H
 
-#include <linux/debugfs.h>
-#include <linux/etherdevice.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/reset.h>
+#include <robux/debugfs.h>
+#include <robux/etherdevice.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/reset.h>
 #include <net/dsa.h>
 
 #define AIROHA_MAX_NUM_GDM_PORTS	4

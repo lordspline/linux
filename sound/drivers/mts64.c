@@ -4,13 +4,13 @@
  *   Copyright (c) 2006 by Matthias König <mk@phasorlab.de>
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/parport.h>
-#include <linux/spinlock.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/parport.h>
+#include <robux/spinlock.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/rawmidi.h>

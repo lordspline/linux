@@ -12,9 +12,9 @@
 #include "tests.h"
 #include "util/mmap.h"
 #include "util/sample.h"
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
 #include <perf/evlist.h>
 #include <perf/mmap.h>
 

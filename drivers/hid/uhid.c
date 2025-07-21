@@ -7,21 +7,21 @@
 /*
  */
 
-#include <linux/atomic.h>
-#include <linux/compat.h>
-#include <linux/cred.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/hid.h>
-#include <linux/input.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/uhid.h>
-#include <linux/wait.h>
+#include <robux/atomic.h>
+#include <robux/compat.h>
+#include <robux/cred.h>
+#include <robux/device.h>
+#include <robux/fs.h>
+#include <robux/hid.h>
+#include <robux/input.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/poll.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/uhid.h>
+#include <robux/wait.h>
 
 #define UHID_NAME	"uhid"
 #define UHID_BUFSIZE	32

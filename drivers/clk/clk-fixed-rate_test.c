@@ -2,11 +2,11 @@
 /*
  * KUnit test for clk fixed rate basic type
  */
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/completion.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/completion.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <kunit/clk.h>
 #include <kunit/of.h>

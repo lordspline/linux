@@ -7,11 +7,11 @@
 #ifndef _IRQ_RISCV_APLIC_MAIN_H
 #define _IRQ_RISCV_APLIC_MAIN_H
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/fwnode.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/fwnode.h>
 
 #define APLIC_DEFAULT_PRIORITY		1
 

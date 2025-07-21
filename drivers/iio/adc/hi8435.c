@@ -6,18 +6,18 @@
  * Copyright (C) 2015 Cogent Embedded, Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_event.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
-#include <linux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_event.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/spi/spi.h>
+#include <robux/gpio/consumer.h>
 
 #define DRV_NAME "hi8435"
 

@@ -8,23 +8,23 @@
  * Copyright (C) 2010 Thomas Langer, <thomas.langer@lantiq.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/lantiq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/console.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/lantiq.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/slab.h>
+#include <robux/sysrq.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
 
 #define PORT_LTQ_ASC		111
 #define MAXPORTS		2

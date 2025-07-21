@@ -8,18 +8,18 @@
 
 #define pr_fmt(fmt)	"OF: overlay: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_fdt.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/libfdt.h>
-#include <linux/err.h>
-#include <linux/idr.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/of_fdt.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/libfdt.h>
+#include <robux/err.h>
+#include <robux/idr.h>
 
 #include "of_private.h"
 
@@ -290,7 +290,7 @@ err_free_target_path:
  * is contained in the changeset.
  *
  * Some special properties are not added or updated (no error returned):
- * "name", "phandle", "linux,phandle".
+ * "name", "phandle", "robux,phandle".
  *
  * Properties "#address-cells" and "#size-cells" are not updated if they
  * are already in the live tree, but if present in the live tree, the values
@@ -428,7 +428,7 @@ static int add_changeset_node(struct overlay_changeset *ovcs,
 		if (!tchild->name)
 			tchild->name = "<NULL>";
 
-		/* ignore obsolete "linux,phandle" */
+		/* ignore obsolete "robux,phandle" */
 		phandle = __of_get_property(node, "phandle", &size);
 		if (phandle && (size == 4))
 			tchild->phandle = be32_to_cpup(phandle);

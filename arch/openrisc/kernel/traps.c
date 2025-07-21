@@ -2,7 +2,7 @@
 /*
  * OpenRISC traps.c
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Robux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -15,20 +15,20 @@
  *  things.
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/extable.h>
-#include <linux/kmod.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/timer.h>
-#include <linux/mm.h>
-#include <linux/kallsyms.h>
-#include <linux/uaccess.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task_stack.h>
+#include <robux/kernel.h>
+#include <robux/extable.h>
+#include <robux/kmod.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/ptrace.h>
+#include <robux/timer.h>
+#include <robux/mm.h>
+#include <robux/kallsyms.h>
+#include <robux/uaccess.h>
 
 #include <asm/bug.h>
 #include <asm/fpu.h>

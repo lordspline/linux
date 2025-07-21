@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/seccomp.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/seccomp.h>
 #include <kern_util.h>
 #include <sysdep/ptrace.h>
 #include <sysdep/ptrace_user.h>
 #include <sysdep/syscalls.h>
-#include <linux/time-internal.h>
+#include <robux/time-internal.h>
 #include <asm/unistd.h>
 #include <asm/delay.h>
 

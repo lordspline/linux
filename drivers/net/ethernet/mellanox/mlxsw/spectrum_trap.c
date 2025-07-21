@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0
 /* Copyright (c) 2019 Mellanox Technologies. All rights reserved */
 
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/netlink.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/netlink.h>
 #include <net/devlink.h>
-#include <uapi/linux/devlink.h>
+#include <uapi/robux/devlink.h>
 
 #include "core.h"
 #include "reg.h"

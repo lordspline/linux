@@ -10,8 +10,8 @@
  * fragmentation.
  */
 
-#include <linux/string.h>
-#include <linux/bitmap.h>
+#include <robux/string.h>
+#include <robux/bitmap.h>
 
 #include <asm/bitext.h>
 

@@ -27,13 +27,13 @@
 #define pr_fmt(fmt) "cp110-system-controller: " fmt
 
 #include "armada_ap_cp_helper.h"
-#include <linux/clk-provider.h>
-#include <linux/mfd/syscon.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/mfd/syscon.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #define CP110_PM_CLOCK_GATING_REG	0x220
 #define CP110_NAND_FLASH_CLK_CTRL_REG	0x700

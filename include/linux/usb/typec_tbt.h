@@ -2,8 +2,8 @@
 #ifndef __USB_TYPEC_TBT_H
 #define __USB_TYPEC_TBT_H
 
-#include <linux/usb/typec_altmode.h>
-#include <linux/bitfield.h>
+#include <robux/usb/typec_altmode.h>
+#include <robux/bitfield.h>
 
 #define USB_TYPEC_VENDOR_INTEL		0x8087
 /* Alias for convenience */

@@ -6,11 +6,11 @@
 //
 //
 
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mfd/rave-sp.h>
-#include <linux/platform_device.h>
+#include <robux/input.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mfd/rave-sp.h>
+#include <robux/platform_device.h>
 
 #define RAVE_SP_EVNT_BUTTON_PRESS	(RAVE_SP_EVNT_BASE + 0x00)
 

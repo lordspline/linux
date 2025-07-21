@@ -5,12 +5,12 @@
  * Authors:	Alexey Kuznetsov, <kuznet@ms2.inr.ac.ru>
  */
 
-#include <linux/module.h>
-#include <linux/net.h>
-#include <linux/sock_diag.h>
-#include <linux/inet_diag.h>
+#include <robux/module.h>
+#include <robux/net.h>
+#include <robux/sock_diag.h>
+#include <robux/inet_diag.h>
 
-#include <linux/tcp.h>
+#include <robux/tcp.h>
 
 #include <net/netlink.h>
 #include <net/tcp.h>

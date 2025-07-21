@@ -37,7 +37,7 @@ mm/gup.c
 
 该API在以下内核代码中:
 
-include/linux/gfp_types.h
+include/robux/gfp_types.h
 
 Slab缓存
 ========
@@ -46,7 +46,7 @@ Slab缓存
 
 该API在以下内核代码中:
 
-include/linux/slab.h
+include/robux/slab.h
 
 mm/slab.c
 
@@ -87,7 +87,7 @@ mm/page-writeback.c
 
 mm/truncate.c
 
-include/linux/pagemap.h
+include/robux/pagemap.h
 
 内存池
 ======
@@ -116,16 +116,16 @@ mm/page_alloc.c
 
 mm/mempolicy.c
 
-include/linux/mm_types.h
+include/robux/mm_types.h
 
-include/linux/mm_inline.h
+include/robux/mm_inline.h
 
-include/linux/page-flags.h
+include/robux/page-flags.h
 
-include/linux/mm.h
+include/robux/mm.h
 
-include/linux/page_ref.h
+include/robux/page_ref.h
 
-include/linux/mmzone.h
+include/robux/mmzone.h
 
 mm/util.c

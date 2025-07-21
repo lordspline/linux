@@ -3,12 +3,12 @@
 
 #define dev_fmt(fmt) "tegra241_cmdqv: " fmt
 
-#include <linux/acpi.h>
-#include <linux/debugfs.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
+#include <robux/acpi.h>
+#include <robux/debugfs.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/iommu.h>
+#include <robux/iopoll.h>
 
 #include <acpi/acpixf.h>
 

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/proc/kmsg.c
+ *  robux/fs/proc/kmsg.c
  *
  *  Copyright (C) 1992  by Linus Torvalds
  *
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/kernel.h>
-#include <linux/poll.h>
-#include <linux/proc_fs.h>
-#include <linux/fs.h>
-#include <linux/syslog.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/time.h>
+#include <robux/kernel.h>
+#include <robux/poll.h>
+#include <robux/proc_fs.h>
+#include <robux/fs.h>
+#include <robux/syslog.h>
 
 #include <asm/io.h>
 

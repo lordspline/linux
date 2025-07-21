@@ -3,13 +3,13 @@
  * Copyright (c) 2023, Linaro Limited
  */
 
-#include <linux/clk.h>
-#include <linux/ethtool.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/ethtool.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include "phy-qcom-qmp-pcs-sgmii.h"
 #include "phy-qcom-qmp-qserdes-com-v5.h"

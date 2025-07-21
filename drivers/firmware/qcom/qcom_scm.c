@@ -1,34 +1,34 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2010,2015,2019 The Linux Foundation. All rights reserved.
+/* Copyright (c) 2010,2015,2019 The Robux Foundation. All rights reserved.
  * Copyright (C) 2015 Linaro Ltd.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/cpumask.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/firmware/qcom/qcom_tzmem.h>
-#include <linux/init.h>
-#include <linux/interconnect.h>
-#include <linux/interrupt.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <robux/arm-smccc.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/cpumask.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/firmware/qcom/qcom_scm.h>
+#include <robux/firmware/qcom/qcom_tzmem.h>
+#include <robux/init.h>
+#include <robux/interconnect.h>
+#include <robux/interrupt.h>
+#include <robux/kstrtox.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
+#include <robux/sizes.h>
+#include <robux/types.h>
 
 #include "qcom_scm.h"
 #include "qcom_tzmem.h"
@@ -420,7 +420,7 @@ static int qcom_scm_set_boot_addr_mc(void *entry, unsigned int flags)
  * qcom_scm_set_warm_boot_addr() - Set the warm boot address for all cpus
  * @entry: Entry point function for the cpus
  *
- * Set the Linux entry point for the SCM to transfer control to when coming
+ * Set the Robux entry point for the SCM to transfer control to when coming
  * out of a power down. CPU power down may be executed on cpuidle or hotplug.
  */
 int qcom_scm_set_warm_boot_addr(void *entry)
@@ -596,7 +596,7 @@ int qcom_scm_pas_init_image(u32 peripheral, const void *metadata, size_t size,
 	 * non-cachable to avoid XPU violations.
 	 *
 	 * For PIL calls the hypervisor creates SHM Bridges for the blob
-	 * buffers on behalf of Linux so we must not do it ourselves hence
+	 * buffers on behalf of Robux so we must not do it ourselves hence
 	 * not using the TZMem allocator here.
 	 *
 	 * If we pass a buffer that is already part of an SHM Bridge to this

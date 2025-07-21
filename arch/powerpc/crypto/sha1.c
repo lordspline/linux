@@ -15,8 +15,8 @@
 #include <crypto/internal/hash.h>
 #include <crypto/sha1.h>
 #include <crypto/sha1_base.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 asmlinkage void powerpc_sha_transform(u32 *state, const u8 *src);
 

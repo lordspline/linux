@@ -15,8 +15,8 @@
 #include "types.h"
 #include "sys.h"
 
-#include <linux/signal.h>
-#include <linux/time.h>
+#include <robux/signal.h>
+#include <robux/time.h>
 
 static __inline__
 void __nolibc_timespec_user_to_kernel(const struct timespec *ts, struct __kernel_timespec *kts)

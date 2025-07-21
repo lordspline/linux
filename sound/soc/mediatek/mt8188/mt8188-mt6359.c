@@ -6,11 +6,11 @@
  * Author: Trevor Wu <trevor.wu@mediatek.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
+#include <robux/bitfield.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
 #include <sound/jack.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

@@ -11,8 +11,8 @@
 #define __RZG2L_DU_VSP_H__
 
 #include <drm/drm_plane.h>
-#include <linux/container_of.h>
-#include <linux/scatterlist.h>
+#include <robux/container_of.h>
+#include <robux/scatterlist.h>
 
 struct device;
 struct drm_framebuffer;

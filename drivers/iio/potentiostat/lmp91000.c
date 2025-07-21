@@ -8,17 +8,17 @@
  * TODO: bias voltage + polarity control, and multiple chip support
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/mod_devicetable.h>
+#include <robux/regmap.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/consumer.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
 
 #define LMP91000_REG_LOCK		0x01
 #define LMP91000_REG_TIACN		0x10

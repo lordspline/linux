@@ -3,10 +3,10 @@
  * Thunderbolt link controller support
  *
  * Copyright (C) 2019, Intel Corporation
- * Author: Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Author: Mika Westerberg <mika.westerberg@robux.intel.com>
  */
 
-#include <linux/delay.h>
+#include <robux/delay.h>
 
 #include "tb.h"
 

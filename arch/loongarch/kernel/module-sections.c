@@ -3,11 +3,11 @@
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
 
-#include <linux/elf.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleloader.h>
-#include <linux/ftrace.h>
+#include <robux/elf.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleloader.h>
+#include <robux/ftrace.h>
 
 Elf_Addr module_emit_got_entry(struct module *mod, Elf_Shdr *sechdrs, Elf_Addr val)
 {

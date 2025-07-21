@@ -4,8 +4,8 @@
 #define LINUX_SONET_H
 
 
-#include <linux/atomic.h>
-#include <uapi/linux/sonet.h>
+#include <robux/atomic.h>
+#include <uapi/robux/sonet.h>
 
 struct k_sonet_stats {
 #define __HANDLE_ITEM(i) atomic_t i

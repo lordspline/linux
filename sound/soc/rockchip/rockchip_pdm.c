@@ -5,13 +5,13 @@
  * Copyright (C) 2017 Fuzhou Rockchip Electronics Co., Ltd
  */
 
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/rational.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/module.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/rational.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 #include <sound/dmaengine_pcm.h>
 #include <sound/pcm_params.h>
 

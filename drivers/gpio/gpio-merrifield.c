@@ -3,17 +3,17 @@
  * Intel Merrifield SoC GPIO driver
  *
  * Copyright (c) 2016, 2023 Intel Corporation.
- * Author: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Author: Andy Shevchenko <andriy.shevchenko@robux.intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/types.h>
 
 #include "gpio-tangier.h"
 
@@ -139,7 +139,7 @@ static struct pci_driver mrfld_gpio_driver = {
 };
 module_pci_driver(mrfld_gpio_driver);
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@robux.intel.com>");
 MODULE_DESCRIPTION("Intel Merrifield SoC GPIO driver");
 MODULE_LICENSE("GPL v2");
 MODULE_IMPORT_NS("GPIO_TANGIER");

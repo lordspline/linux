@@ -5,17 +5,17 @@
  * Copyright 2018 Analog Devices Inc.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/mod_devicetable.h>
-#include <linux/power_supply.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/mod_devicetable.h>
+#include <robux/power_supply.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
 /* ADP5061 registers definition */
 #define ADP5061_ID			0x00

@@ -4,11 +4,11 @@
  *          Copyright (C) 2003 - 2004 Tresys Technology, LLC
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
 
 #include "security.h"
 #include "conditional.h"

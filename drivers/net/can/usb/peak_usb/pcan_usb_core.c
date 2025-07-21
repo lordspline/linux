@@ -8,19 +8,19 @@
  *
  * Many thanks to Klaus Hitschler <klaus.hitschler@gmx.de>
  */
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/usb.h>
+#include <robux/device.h>
+#include <robux/ethtool.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/signal.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/usb.h>
 
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
+#include <robux/can.h>
+#include <robux/can/dev.h>
+#include <robux/can/error.h>
 
 #include "pcan_usb_core.h"
 

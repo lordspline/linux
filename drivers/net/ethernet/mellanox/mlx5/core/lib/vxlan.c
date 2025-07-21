@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/refcount.h>
-#include <linux/mlx5/driver.h>
+#include <robux/kernel.h>
+#include <robux/refcount.h>
+#include <robux/mlx5/driver.h>
 #include <net/vxlan.h>
 #include "mlx5_core.h"
 #include "vxlan.h"

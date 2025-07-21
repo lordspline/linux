@@ -6,18 +6,18 @@
  *
  * Copyright (c) 2024 awinic Technology CO., LTD
  */
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/regulator/consumer.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 
 #define AW_DATA_PROCESS_FACTOR			1024
 #define AW96103_CHIP_ID				0xa961

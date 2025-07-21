@@ -8,16 +8,16 @@
  * for more details.
  */
 
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/dm9000.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/physmap.h>
-#include <linux/i2c.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/dm9000.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/partitions.h>
+#include <robux/mtd/physmap.h>
+#include <robux/i2c.h>
 
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>

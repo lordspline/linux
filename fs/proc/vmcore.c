@@ -10,25 +10,25 @@
 
 #define pr_fmt(fmt) "vmcore: " fmt
 
-#include <linux/mm.h>
-#include <linux/kcore.h>
-#include <linux/user.h>
-#include <linux/elf.h>
-#include <linux/elfcore.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/printk.h>
-#include <linux/memblock.h>
-#include <linux/init.h>
-#include <linux/crash_dump.h>
-#include <linux/list.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/vmalloc.h>
-#include <linux/pagemap.h>
-#include <linux/uio.h>
-#include <linux/cc_platform.h>
+#include <robux/mm.h>
+#include <robux/kcore.h>
+#include <robux/user.h>
+#include <robux/elf.h>
+#include <robux/elfcore.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/highmem.h>
+#include <robux/printk.h>
+#include <robux/memblock.h>
+#include <robux/init.h>
+#include <robux/crash_dump.h>
+#include <robux/list.h>
+#include <robux/moduleparam.h>
+#include <robux/mutex.h>
+#include <robux/vmalloc.h>
+#include <robux/pagemap.h>
+#include <robux/uio.h>
+#include <robux/cc_platform.h>
 #include <asm/io.h>
 #include "internal.h"
 

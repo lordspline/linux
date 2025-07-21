@@ -38,11 +38,11 @@
 
 #define dev_fmt(fmt) "QPLIB: " fmt
 
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/prefetch.h>
-#include <linux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/pci.h>
+#include <robux/prefetch.h>
+#include <robux/delay.h>
 
 #include "roce_hsi.h"
 #include "qplib_res.h"

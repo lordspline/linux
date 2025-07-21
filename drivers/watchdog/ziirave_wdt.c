@@ -9,18 +9,18 @@
  * Copyright (C) Nokia Corporation
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/ihex.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/ihex.h>
+#include <robux/firmware.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
+#include <robux/watchdog.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define ZIIRAVE_TIMEOUT_MIN	3
 #define ZIIRAVE_TIMEOUT_MAX	255

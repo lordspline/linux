@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	IPv6 BSD socket options interface
- *	Linux INET6 implementation
+ *	Robux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
  *
- *	Based on linux/net/ipv4/ip_sockglue.c
+ *	Based on robux/net/ipv4/ip_sockglue.c
  *
  *	FIXME: Make the setsockopt code POSIX compliant: That is
  *
@@ -18,21 +18,21 @@
  *		- added multicast source filtering API for MLDv2
  */
 
-#include <linux/module.h>
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
-#include <linux/in6.h>
-#include <linux/mroute6.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/init.h>
-#include <linux/sysctl.h>
-#include <linux/netfilter.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/capability.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/socket.h>
+#include <robux/sockios.h>
+#include <robux/net.h>
+#include <robux/in6.h>
+#include <robux/mroute6.h>
+#include <robux/netdevice.h>
+#include <robux/if_arp.h>
+#include <robux/init.h>
+#include <robux/sysctl.h>
+#include <robux/netfilter.h>
+#include <robux/slab.h>
 
 #include <net/sock.h>
 #include <net/snmp.h>
@@ -50,7 +50,7 @@
 #include <net/compat.h>
 #include <net/seg6.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 struct ip6_ra_chain *ip6_ra_chain;
 DEFINE_RWLOCK(ip6_ra_lock);

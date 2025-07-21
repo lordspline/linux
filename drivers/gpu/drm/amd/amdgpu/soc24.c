@@ -20,10 +20,10 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/firmware.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include "amdgpu.h"
 #include "amdgpu_ih.h"

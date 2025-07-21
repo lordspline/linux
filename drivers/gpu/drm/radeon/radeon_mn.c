@@ -28,9 +28,9 @@
  *    Christian König <christian.koenig@amd.com>
  */
 
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/mmu_notifier.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/mmu_notifier.h>
 
 #include <drm/drm.h>
 

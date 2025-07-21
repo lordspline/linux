@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef LINUX_VIRTIO_H
 #define LINUX_VIRTIO_H
-#include <linux/scatterlist.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
+#include <robux/scatterlist.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
 
 struct device {
 	void *parent;

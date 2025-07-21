@@ -24,11 +24,11 @@
 #ifndef __DRM_PANEL_H__
 #define __DRM_PANEL_H__
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/kref.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/kref.h>
 
 struct backlight_device;
 struct dentry;

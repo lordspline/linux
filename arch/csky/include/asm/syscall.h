@@ -3,10 +3,10 @@
 #ifndef __ASM_SYSCALL_H
 #define __ASM_SYSCALL_H
 
-#include <linux/sched.h>
-#include <linux/err.h>
+#include <robux/sched.h>
+#include <robux/err.h>
 #include <abi/regdef.h>
-#include <uapi/linux/audit.h>
+#include <uapi/robux/audit.h>
 
 extern void *sys_call_table[];
 

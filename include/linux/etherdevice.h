@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the ROBUX
  *		operating system.  NET  is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -11,17 +11,17 @@
  * Authors:	Ross Biro
  *		Fred N. van Kempen, <waltje@uWalt.NL.Mugnet.ORG>
  *
- *		Relocated to include/linux where it belongs by Alan Cox
+ *		Relocated to include/robux where it belongs by Alan Cox
  *							<gw4pts@gw4pts.ampr.org>
  */
 #ifndef _LINUX_ETHERDEVICE_H
 #define _LINUX_ETHERDEVICE_H
 
-#include <linux/if_ether.h>
-#include <linux/netdevice.h>
-#include <linux/random.h>
-#include <linux/crc32.h>
-#include <linux/unaligned.h>
+#include <robux/if_ether.h>
+#include <robux/netdevice.h>
+#include <robux/random.h>
+#include <robux/crc32.h>
+#include <robux/unaligned.h>
 #include <asm/bitsperlong.h>
 
 #ifdef __KERNEL__

@@ -30,13 +30,13 @@
  *    - decrease lane number of all specified HCCS type ports on idle state.
  *    - increase lane number of all specified HCCS type ports.
  */
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/platform_device.h>
-#include <linux/stringify.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/iopoll.h>
+#include <robux/platform_device.h>
+#include <robux/stringify.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 #include <acpi/pcc.h>
 

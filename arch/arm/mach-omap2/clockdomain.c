@@ -10,21 +10,21 @@
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/limits.h>
-#include <linux/err.h>
-#include <linux/clk-provider.h>
-#include <linux/cpu_pm.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/limits.h>
+#include <robux/err.h>
+#include <robux/clk-provider.h>
+#include <robux/cpu_pm.h>
 
-#include <linux/io.h>
+#include <robux/io.h>
 
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 
 #include "soc.h"
 #include "clock.h"

@@ -2,12 +2,12 @@
 // Copyright (c) 2021, Linaro Limited
 
 #include <dt-bindings/sound/qcom,q6dsp-lpass-ports.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
 #include <sound/pcm_params.h>

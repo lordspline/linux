@@ -21,13 +21,13 @@
 
 #define pr_fmt(fmt)	"OF: " fmt
 
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/of_graph.h>
-#include <linux/of_irq.h>
-#include <linux/string.h>
-#include <linux/moduleparam.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_device.h>
+#include <robux/of_graph.h>
+#include <robux/of_irq.h>
+#include <robux/string.h>
+#include <robux/moduleparam.h>
 
 #include "of_private.h"
 

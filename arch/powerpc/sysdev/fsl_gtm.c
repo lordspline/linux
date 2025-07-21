@@ -9,18 +9,18 @@
  *               Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/spinlock.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/list.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/spinlock.h>
+#include <robux/bitops.h>
+#include <robux/slab.h>
+#include <robux/export.h>
 #include <asm/fsl_gtm.h>
 
 #define GTCFR_STP(x)		((x) & 1 ? 1 << 5 : 1 << 1)

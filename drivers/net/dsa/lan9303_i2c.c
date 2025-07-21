@@ -2,10 +2,10 @@
 /*
  * Copyright (C) 2017 Pengutronix, Juergen Borleis <kernel@pengutronix.de>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/of.h>
 
 #include "lan9303.h"
 

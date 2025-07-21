@@ -12,8 +12,8 @@
 // Copyright (c) 2019 Martin Sperl <kernel@martin.sperl.org>
 //
 
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
+#include <robux/unaligned.h>
+#include <robux/bitfield.h>
 
 #include "mcp251xfd.h"
 

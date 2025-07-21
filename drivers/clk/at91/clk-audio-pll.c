@@ -30,13 +30,13 @@
  * parent - fixed parent.  No clk_set_parent support
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clk/at91_pmc.h>
-#include <linux/of.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/clk/at91_pmc.h>
+#include <robux/of.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #include "pmc.h"
 

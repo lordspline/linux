@@ -14,13 +14,13 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
 
 #include "irq-atmel-aic-common.h"
 

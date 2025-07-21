@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/hitfb.c -- Hitachi LCD frame buffer device
+ * robux/drivers/video/hitfb.c -- Hitachi LCD frame buffer device
  *
  * (C) 1999 Mihai Spatar
  * (C) 2000 YAEGASHI Takeshi
@@ -11,18 +11,18 @@
  *  more details.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/fb.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/fb.h>
 
 #include <asm/machvec.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/io.h>
 #include <asm/hd64461.h>
 #include <cpu/dac.h>

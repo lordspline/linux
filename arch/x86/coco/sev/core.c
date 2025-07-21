@@ -9,22 +9,22 @@
 
 #define pr_fmt(fmt)	"SEV: " fmt
 
-#include <linux/sched/debug.h>	/* For show_regs() */
-#include <linux/percpu-defs.h>
-#include <linux/cc_platform.h>
-#include <linux/printk.h>
-#include <linux/mm_types.h>
-#include <linux/set_memory.h>
-#include <linux/memblock.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/cpumask.h>
-#include <linux/efi.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/psp-sev.h>
-#include <linux/dmi.h>
-#include <uapi/linux/sev-guest.h>
+#include <robux/sched/debug.h>	/* For show_regs() */
+#include <robux/percpu-defs.h>
+#include <robux/cc_platform.h>
+#include <robux/printk.h>
+#include <robux/mm_types.h>
+#include <robux/set_memory.h>
+#include <robux/memblock.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/cpumask.h>
+#include <robux/efi.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/psp-sev.h>
+#include <robux/dmi.h>
+#include <uapi/robux/sev-guest.h>
 #include <crypto/gcm.h>
 
 #include <asm/init.h>
@@ -95,7 +95,7 @@ DEFINE_PER_CPU(struct sev_es_save_area *, sev_vmsa);
 
 /*
  * SVSM related information:
- *   When running under an SVSM, the VMPL that Linux is executing at must be
+ *   When running under an SVSM, the VMPL that Robux is executing at must be
  *   non-zero. The VMPL is therefore used to indicate the presence of an SVSM.
  */
 u8 snp_vmpl __ro_after_init;
@@ -1494,7 +1494,7 @@ static bool snp_svsm_vtpm_probe(void)
  *                          Out       Platform command response size
  *
  * Each command can build upon this common request/response structure to create
- * a structure specific to the command. See include/linux/tpm_svsm.h for more
+ * a structure specific to the command. See include/robux/tpm_svsm.h for more
  * details.
  *
  * Return: 0 on success, -errno on failure

@@ -3,16 +3,16 @@
  *    Copyright IBM Corp. 2006
  */
 
-#include <linux/memory_hotplug.h>
-#include <linux/cpufeature.h>
-#include <linux/memblock.h>
-#include <linux/pfn.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/hugetlb.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
+#include <robux/memory_hotplug.h>
+#include <robux/cpufeature.h>
+#include <robux/memblock.h>
+#include <robux/pfn.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/hugetlb.h>
+#include <robux/slab.h>
+#include <robux/sort.h>
 #include <asm/page-states.h>
 #include <asm/abs_lowcore.h>
 #include <asm/cacheflush.h>

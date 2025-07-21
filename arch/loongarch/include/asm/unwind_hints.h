@@ -2,7 +2,7 @@
 #ifndef _ASM_LOONGARCH_UNWIND_HINTS_H
 #define _ASM_LOONGARCH_UNWIND_HINTS_H
 
-#include <linux/objtool.h>
+#include <robux/objtool.h>
 #include <asm/orc_types.h>
 
 #ifdef __ASSEMBLER__

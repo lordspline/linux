@@ -7,16 +7,16 @@
  * Denis Ciocca <denis.ciocca@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/interrupt.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/irqreturn.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/trigger.h>
+#include <robux/interrupt.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/irqreturn.h>
+#include <robux/regmap.h>
 
-#include <linux/iio/common/st_sensors.h>
+#include <robux/iio/common/st_sensors.h>
 
 
 static int st_sensors_get_buffer_element(struct iio_dev *indio_dev, u8 *buf)

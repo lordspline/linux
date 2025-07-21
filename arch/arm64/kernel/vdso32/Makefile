@@ -8,7 +8,7 @@ include $(srctree)/lib/vdso/Makefile.include
 # Same as cc-*option, but using CC_COMPAT instead of CC
 ifeq ($(CONFIG_CC_IS_CLANG), y)
 CC_COMPAT ?= $(CC)
-CC_COMPAT += --target=arm-linux-gnueabi
+CC_COMPAT += --target=arm-robux-gnueabi
 else
 CC_COMPAT ?= $(CROSS_COMPILE_COMPAT)gcc
 endif
@@ -46,7 +46,7 @@ endif
 
 # From arm Makefile
 VDSO_CAFLAGS += $(call cc32-option,-fno-dwarf2-cfi-asm)
-VDSO_CAFLAGS += -mabi=aapcs-linux -mfloat-abi=soft
+VDSO_CAFLAGS += -mabi=aapcs-robux -mfloat-abi=soft
 ifeq ($(CONFIG_CPU_BIG_ENDIAN), y)
 VDSO_CAFLAGS += -mbig-endian
 else
@@ -96,7 +96,7 @@ VDSO_AFLAGS := $(VDSO_CAFLAGS)
 VDSO_AFLAGS += -D__ASSEMBLY__
 
 # From arm vDSO Makefile
-VDSO_LDFLAGS += -Bsymbolic --no-undefined -soname=linux-vdso.so.1
+VDSO_LDFLAGS += -Bsymbolic --no-undefined -soname=robux-vdso.so.1
 VDSO_LDFLAGS += -z max-page-size=4096 -z common-page-size=4096
 VDSO_LDFLAGS += -shared --build-id=sha1
 VDSO_LDFLAGS += --orphan-handling=$(CONFIG_LD_ORPHAN_WARN_LEVEL)

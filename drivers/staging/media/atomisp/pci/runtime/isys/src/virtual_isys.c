@@ -4,9 +4,9 @@
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include <linux/bitops.h>
-#include <linux/math.h>
-#include <linux/string.h> /* for memcpy() */
+#include <robux/bitops.h>
+#include <robux/math.h>
+#include <robux/string.h> /* for memcpy() */
 
 #include "system_global.h"
 

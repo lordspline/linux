@@ -1,10 +1,10 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/arch/arm/lib/testclearbit.S
+ *  robux/arch/arm/lib/testclearbit.S
  *
  *  Copyright (C) 1995-1996 Russell King
  */
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 #include <asm/assembler.h>
 #include "bitops.h"
                 .text

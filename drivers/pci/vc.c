@@ -6,13 +6,13 @@
  *     Author: Alex Williamson <alex.williamson@redhat.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pci_regs.h>
+#include <robux/types.h>
 
 #include "pci.h"
 

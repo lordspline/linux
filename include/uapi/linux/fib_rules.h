@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI__LINUX_FIB_RULES_H
 #define _UAPI__LINUX_FIB_RULES_H
 
-#include <linux/types.h>
-#include <linux/rtnetlink.h>
+#include <robux/types.h>
+#include <robux/rtnetlink.h>
 
 /* rule is permanent, and cannot be deleted */
 #define FIB_RULE_PERMANENT	0x00000001

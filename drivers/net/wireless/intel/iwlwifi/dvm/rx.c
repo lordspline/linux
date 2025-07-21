@@ -9,11 +9,11 @@
  * as portionhelp of the ieee80211 subsystem header files.
  *****************************************************************************/
 
-#include <linux/etherdevice.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
+#include <robux/etherdevice.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
 #include <net/mac80211.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "iwl-trans.h"
 #include "iwl-io.h"

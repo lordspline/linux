@@ -22,29 +22,29 @@
  *
  */
 
-#include <linux/align.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/offload/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
-#include <linux/util_macros.h>
+#include <robux/align.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/spi/offload/consumer.h>
+#include <robux/spi/spi.h>
+#include <robux/units.h>
+#include <robux/util_macros.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/buffer-dmaengine.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
 
 #define MAX_NUM_CHANNELS		8
 /* 2.5V internal reference voltage */

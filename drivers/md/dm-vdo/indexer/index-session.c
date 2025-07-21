@@ -5,7 +5,7 @@
 
 #include "index-session.h"
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

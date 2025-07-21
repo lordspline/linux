@@ -4,18 +4,18 @@
  *  Driver for chargers which report their online status through a GPIO pin
  */
 
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/gpio/consumer.h>
 
-#include <linux/power/gpio-charger.h>
+#include <robux/power/gpio-charger.h>
 
 struct gpio_mapping {
 	u32 limit_ua;

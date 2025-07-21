@@ -8,23 +8,23 @@
  * Copyright (C) 1992 Linus Torvalds
  * Copyright (C) 1994 - 2000 Ralf Baechle
  */
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/proc_fs.h>
-#include <linux/mm.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/seq_file.h>
-#include <linux/kallsyms.h>
-#include <linux/kgdb.h>
-#include <linux/ftrace.h>
-#include <linux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel_stat.h>
+#include <robux/proc_fs.h>
+#include <robux/mm.h>
+#include <robux/random.h>
+#include <robux/sched.h>
+#include <robux/seq_file.h>
+#include <robux/kallsyms.h>
+#include <robux/kgdb.h>
+#include <robux/ftrace.h>
+#include <robux/irqdomain.h>
 
-#include <linux/atomic.h>
-#include <linux/uaccess.h>
+#include <robux/atomic.h>
+#include <robux/uaccess.h>
 
 void *irq_stack[NR_CPUS];
 

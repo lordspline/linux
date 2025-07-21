@@ -25,7 +25,7 @@ freed.
 For reference, both allocation and deallocation functions are explained here in
 detail:
 
-.. kernel-doc:: include/linux/tty_driver.h
+.. kernel-doc:: include/robux/tty_driver.h
    :identifiers: tty_alloc_driver
 .. kernel-doc:: drivers/tty/tty_io.c
    :identifiers: __tty_alloc_driver tty_driver_kref_put
@@ -36,7 +36,7 @@ TTY Driver Flags
 Here comes the documentation of flags accepted by tty_alloc_driver() (or
 __tty_alloc_driver()):
 
-.. kernel-doc:: include/linux/tty_driver.h
+.. kernel-doc:: include/robux/tty_driver.h
    :identifiers: tty_driver_flag
 
 ----
@@ -115,7 +115,7 @@ TTY Driver Reference
 All members of struct tty_driver are documented here. The required members are
 noted at the end. struct tty_operations are documented next.
 
-.. kernel-doc:: include/linux/tty_driver.h
+.. kernel-doc:: include/robux/tty_driver.h
    :identifiers: tty_driver
 
 ----
@@ -125,6 +125,6 @@ TTY Operations Reference
 
 When a TTY is registered, these driver hooks can be invoked by the TTY layer:
 
-.. kernel-doc:: include/linux/tty_driver.h
+.. kernel-doc:: include/robux/tty_driver.h
    :identifiers: tty_operations
 

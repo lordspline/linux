@@ -5,28 +5,28 @@
  * Copyright (c) 2013, Stephen Warren
  *
  * Based on q40fb.c, which was:
- * Copyright (C) 2001 Richard Zidlicky <rz@linux-m68k.org>
+ * Copyright (C) 2001 Richard Zidlicky <rz@robux-m68k.org>
  *
  * Also based on offb.c, which was:
  * Copyright (C) 1997 Geert Uytterhoeven
  * Copyright (C) 1996 Paul Mackerras
  */
 
-#include <linux/aperture.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_data/simplefb.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_clk.h>
-#include <linux/of_platform.h>
-#include <linux/parser.h>
-#include <linux/pm_domain.h>
-#include <linux/regulator/consumer.h>
+#include <robux/aperture.h>
+#include <robux/errno.h>
+#include <robux/fb.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_data/simplefb.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_clk.h>
+#include <robux/of_platform.h>
+#include <robux/parser.h>
+#include <robux/pm_domain.h>
+#include <robux/regulator/consumer.h>
 
 static const struct fb_fix_screeninfo simplefb_fix = {
 	.id		= "simple",

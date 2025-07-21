@@ -9,6 +9,6 @@
 #include <uapi/asm-generic/ioctl.h>
 #include <uapi/drm/drm.h>
 #include <uapi/drm/nova_drm.h>
-#include <uapi/linux/mdio.h>
-#include <uapi/linux/mii.h>
-#include <uapi/linux/ethtool.h>
+#include <uapi/robux/mdio.h>
+#include <uapi/robux/mii.h>
+#include <uapi/robux/ethtool.h>

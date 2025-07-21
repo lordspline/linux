@@ -3,9 +3,9 @@
  * Copyright (C) 2023 Loongson Technology Corporation Limited
  */
 
-#include <linux/cpu.h>
-#include <linux/export.h>
-#include <linux/init.h>
+#include <robux/cpu.h>
+#include <robux/export.h>
+#include <robux/init.h>
 #include <asm/fpu.h>
 #include <asm/smp.h>
 

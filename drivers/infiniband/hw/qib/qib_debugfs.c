@@ -29,10 +29,10 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
 
 #include "qib.h"
 #include "qib_verbs.h"

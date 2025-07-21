@@ -6,16 +6,16 @@
  *               Krzysztof Opasiak <k.opasiak@samsung.com>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/platform_device.h>
-#include <linux/usb.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/hcd.h>
-#include <linux/kthread.h>
-#include <linux/file.h>
-#include <linux/byteorder/generic.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/platform_device.h>
+#include <robux/usb.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/hcd.h>
+#include <robux/kthread.h>
+#include <robux/file.h>
+#include <robux/byteorder/generic.h>
 
 #include "usbip_common.h"
 #include "vudc.h"

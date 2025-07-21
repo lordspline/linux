@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/nospec.h>
-#include <linux/hugetlb.h>
-#include <linux/compat.h>
-#include <linux/io_uring.h>
-#include <linux/io_uring/cmd.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/nospec.h>
+#include <robux/hugetlb.h>
+#include <robux/compat.h>
+#include <robux/io_uring.h>
+#include <robux/io_uring/cmd.h>
 
-#include <uapi/linux/io_uring.h>
+#include <uapi/robux/io_uring.h>
 
 #include "io_uring.h"
 #include "openclose.h"

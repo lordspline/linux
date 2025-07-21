@@ -16,7 +16,7 @@
  *           .bcr = 0x40,
  *   };
  *
- * Please see include/linux/can/platform/cc770.h for description of
+ * Please see include/robux/can/platform/cc770.h for description of
  * above fields.
  *
  * If the device tree is used, you need a CAN node definition in your
@@ -34,16 +34,16 @@
  * information.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/platform/cc770.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/netdevice.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/can.h>
+#include <robux/can/dev.h>
+#include <robux/can/platform/cc770.h>
 
 #include "cc770.h"
 

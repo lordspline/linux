@@ -3,9 +3,9 @@
  * Copyright 2019 NXP.
  */
 
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 
 #include "dcss-dev.h"
 

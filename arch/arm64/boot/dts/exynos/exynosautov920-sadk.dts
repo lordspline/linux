@@ -34,14 +34,14 @@
 
 		key-wakeup {
 			label = "KEY_WAKEUP";
-			linux,code = <KEY_WAKEUP>;
+			robux,code = <KEY_WAKEUP>;
 			gpios = <&gpa0 0 GPIO_ACTIVE_LOW>;
 			wakeup-source;
 		};
 
 		key-back {
 			label = "KEY_BACK";
-			linux,code = <KEY_BACK>;
+			robux,code = <KEY_BACK>;
 			gpios = <&gpp6 3 GPIO_ACTIVE_LOW>;
 		};
 	};

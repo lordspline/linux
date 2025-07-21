@@ -5,13 +5,13 @@
  * Copyright (C) 2015, Marvell International Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/nfc.h>
-#include <linux/of_irq.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/nfc.h>
+#include <robux/of_irq.h>
 #include <net/nfc/nci.h>
 #include <net/nfc/nci_core.h>
-#include <linux/spi/spi.h>
+#include <robux/spi/spi.h>
 #include "nfcmrvl.h"
 
 #define SPI_WAIT_HANDSHAKE	1

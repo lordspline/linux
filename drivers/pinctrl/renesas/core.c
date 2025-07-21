@@ -10,20 +10,20 @@
 
 #define DRV_NAME "sh-pfc"
 
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/math.h>
-#include <linux/of.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/platform_device.h>
-#include <linux/psci.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <robux/bitops.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/math.h>
+#include <robux/of.h>
+#include <robux/pinctrl/machine.h>
+#include <robux/platform_device.h>
+#include <robux/psci.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
 
 #include "core.h"
 

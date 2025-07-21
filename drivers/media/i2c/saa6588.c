@@ -7,17 +7,17 @@
 */
 
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/i2c.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/wait.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/i2c.h>
+#include <robux/types.h>
+#include <robux/videodev2.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/poll.h>
+#include <robux/wait.h>
+#include <robux/uaccess.h>
 
 #include <media/i2c/saa6588.h>
 #include <media/v4l2-device.h>
@@ -297,7 +297,7 @@ static void saa6588_i2c_poll(struct saa6588 *s)
 	/* And if are not in mmbs mode, then 'Block E' is also mapped
 	   to 'Invalid Block'. As far as I can tell MMBS is discontinued,
 	   and if there is ever a need to support E blocks, then please
-	   contact the linux-media mailinglist. */
+	   contact the robux-media mailinglist. */
 	else if (!mmbs && blocknum == 5)
 		blocknum = V4L2_RDS_BLOCK_INVALID;
 	tmp = blocknum;

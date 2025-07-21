@@ -3,21 +3,21 @@
  * ADS7138 - Texas Instruments Analog-to-Digital Converter
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
+#include <robux/unaligned.h>
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/types.h>
 
 /*
  * Always assume 16 bits resolution as HW registers are aligned like that and

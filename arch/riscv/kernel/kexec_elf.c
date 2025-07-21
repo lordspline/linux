@@ -12,13 +12,13 @@
 
 #define pr_fmt(fmt)	"kexec_image: " fmt
 
-#include <linux/elf.h>
-#include <linux/kexec.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/libfdt.h>
-#include <linux/types.h>
-#include <linux/memblock.h>
+#include <robux/elf.h>
+#include <robux/kexec.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/libfdt.h>
+#include <robux/types.h>
+#include <robux/memblock.h>
 #include <asm/setup.h>
 
 static int riscv_kexec_elf_load(struct kimage *image, struct elfhdr *ehdr,

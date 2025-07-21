@@ -21,8 +21,8 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
 
 #include <drm/amdgpu_drm.h>
 

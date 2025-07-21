@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/drivers/pinctrl/pinctrl-lantiq.h
- *  based on linux/drivers/pinctrl/pinctrl-pxa3xx.h
+ *  robux/drivers/pinctrl/pinctrl-lantiq.h
+ *  based on robux/drivers/pinctrl/pinctrl-pxa3xx.h
  *
  *  Copyright (C) 2012 John Crispin <john@phrozen.org>
  */
@@ -9,13 +9,13 @@
 #ifndef __PINCTRL_LANTIQ_H
 #define __PINCTRL_LANTIQ_H
 
-#include <linux/clkdev.h>
+#include <robux/clkdev.h>
 
-#include <linux/pinctrl/consumer.h>
-#include <linux/pinctrl/machine.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pinctrl/machine.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "core.h"
 

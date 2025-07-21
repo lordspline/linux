@@ -4,13 +4,13 @@
 #ifndef IPU6_BUS_H
 #define IPU6_BUS_H
 
-#include <linux/auxiliary_bus.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/irqreturn.h>
-#include <linux/list.h>
-#include <linux/scatterlist.h>
-#include <linux/types.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/container_of.h>
+#include <robux/device.h>
+#include <robux/irqreturn.h>
+#include <robux/list.h>
+#include <robux/scatterlist.h>
+#include <robux/types.h>
 
 struct firmware;
 struct pci_dev;

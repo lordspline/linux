@@ -5,16 +5,16 @@
  * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
  */
 
-#include <linux/device.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
+#include <robux/device.h>
+#include <robux/firewire.h>
+#include <robux/firewire-constants.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/wait.h>
+#include <robux/delay.h>
 #include "fcp.h"
 #include "lib.h"
 #include "amdtp-stream.h"

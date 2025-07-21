@@ -5,10 +5,10 @@
  *
  */
 
-#include <linux/fiemap.h>
-#include <linux/fs.h>
-#include <linux/minmax.h>
-#include <linux/vmalloc.h>
+#include <robux/fiemap.h>
+#include <robux/fs.h>
+#include <robux/minmax.h>
+#include <robux/vmalloc.h>
 
 #include "debug.h"
 #include "ntfs.h"

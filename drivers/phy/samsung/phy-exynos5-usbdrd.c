@@ -8,23 +8,23 @@
  * Author: Vivek Gautam <gautam.vivek@samsung.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/iopoll.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/soc/samsung/exynos-regs-pmu.h>
-#include <linux/usb/typec.h>
-#include <linux/usb/typec_mux.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/iopoll.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/soc/samsung/exynos-regs-pmu.h>
+#include <robux/usb/typec.h>
+#include <robux/usb/typec_mux.h>
 
 /* Exynos USB PHY registers */
 #define EXYNOS5_FSEL_9MHZ6		0x0

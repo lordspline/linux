@@ -3,10 +3,10 @@
 * Copyright (C) 2012 Invensense, Inc.
 */
 
-#include <linux/pm_runtime.h>
+#include <robux/pm_runtime.h>
 
-#include <linux/iio/common/inv_sensors_timestamp.h>
-#include <linux/iio/events.h>
+#include <robux/iio/common/inv_sensors_timestamp.h>
+#include <robux/iio/events.h>
 
 #include "inv_mpu_iio.h"
 

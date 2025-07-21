@@ -5,15 +5,15 @@
  * Copyright (C) 2024 Pengyu Luo <mitltlatltl@gmail.com>
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/platform_data/huawei-gaokun-ec.h>
-#include <linux/power_supply.h>
-#include <linux/sprintf.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/platform_data/huawei-gaokun-ec.h>
+#include <robux/power_supply.h>
+#include <robux/sprintf.h>
 
 /* -------------------------------------------------------------------------- */
 /* String Data Reg */

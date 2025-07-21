@@ -8,18 +8,18 @@
  * Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/resource.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/of_platform.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/resource.h>
+#include <robux/types.h>
 
 #include "pcie-designware.h"
 #include "../../pci.h"

@@ -12,13 +12,13 @@
  *                and Philip Prindeville <philipp@redfish-solutions.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/string.h>
-#include <linux/input.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/property.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/string.h>
+#include <robux/input.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/property.h>
 
 #include <asm/geode.h>
 

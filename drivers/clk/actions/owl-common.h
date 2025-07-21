@@ -11,8 +11,8 @@
 #ifndef _OWL_COMMON_H_
 #define _OWL_COMMON_H_
 
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
+#include <robux/clk-provider.h>
+#include <robux/regmap.h>
 
 struct device_node;
 struct platform_device;

@@ -5,32 +5,32 @@
  * Fairchild FUSB302 Type-C Chip Driver
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/extcon.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/proc_fs.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sched/clock.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
-#include <linux/usb.h>
-#include <linux/usb/typec.h>
-#include <linux/usb/tcpm.h>
-#include <linux/usb/pd.h>
-#include <linux/workqueue.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/extcon.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/proc_fs.h>
+#include <robux/regulator/consumer.h>
+#include <robux/sched/clock.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/string_choices.h>
+#include <robux/types.h>
+#include <robux/usb.h>
+#include <robux/usb/typec.h>
+#include <robux/usb/tcpm.h>
+#include <robux/usb/pd.h>
+#include <robux/workqueue.h>
 
 #include "fusb302_reg.h"
 
@@ -1705,7 +1705,7 @@ static int fusb302_probe(struct i2c_client *client)
 	 * to be set by the platform code which also registers the i2c client
 	 * for the fusb302.
 	 */
-	if (device_property_read_string(dev, "linux,extcon-name", &name) == 0) {
+	if (device_property_read_string(dev, "robux,extcon-name", &name) == 0) {
 		chip->extcon = extcon_get_extcon_dev(name);
 		if (IS_ERR(chip->extcon))
 			return PTR_ERR(chip->extcon);

@@ -14,8 +14,8 @@
 #include <crypto/internal/hash.h>
 #include <crypto/internal/simd.h>
 #include <crypto/sha512_base.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 /*
  * Note: the asm function only uses the 'state' field of struct sha512_state.

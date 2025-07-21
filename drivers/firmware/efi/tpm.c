@@ -8,10 +8,10 @@
 #define TPM_MEMUNMAP(start, size) early_memunmap(start, size)
 
 #include <asm/early_ioremap.h>
-#include <linux/efi.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/tpm_eventlog.h>
+#include <robux/efi.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
+#include <robux/tpm_eventlog.h>
 
 int efi_tpm_final_log_size;
 EXPORT_SYMBOL(efi_tpm_final_log_size);

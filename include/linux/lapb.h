@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * These are the public elements of the Linux LAPB module.
+ * These are the public elements of the Robux LAPB module.
  */
 
 #ifndef	LAPB_KERNEL_H
 #define	LAPB_KERNEL_H
 
-#include <linux/skbuff.h>
-#include <linux/timer.h>
+#include <robux/skbuff.h>
+#include <robux/timer.h>
 
 struct net_device;
 

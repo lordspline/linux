@@ -6,18 +6,18 @@
  * Copyright (C) 2014 Google, Inc
  */
 
-#include <linux/clk.h>
-#include <linux/cpufreq.h>
-#include <linux/devfreq.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/reset.h>
-#include <linux/workqueue.h>
+#include <robux/clk.h>
+#include <robux/cpufreq.h>
+#include <robux/devfreq.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/reset.h>
+#include <robux/workqueue.h>
 
 #include <soc/tegra/fuse.h>
 

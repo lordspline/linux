@@ -2,20 +2,20 @@
 /*
  * Qualcomm Technologies HIDMA DMA engine low level code
  *
- * Copyright (c) 2015-2016, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015-2016, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/dmaengine.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/atomic.h>
-#include <linux/iopoll.h>
-#include <linux/kfifo.h>
-#include <linux/bitops.h>
+#include <robux/dmaengine.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/mm.h>
+#include <robux/highmem.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/atomic.h>
+#include <robux/iopoll.h>
+#include <robux/kfifo.h>
+#include <robux/bitops.h>
 
 #include "hidma.h"
 

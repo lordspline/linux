@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright 2017-2021 NXP
 
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/rpmsg.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/rpmsg.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

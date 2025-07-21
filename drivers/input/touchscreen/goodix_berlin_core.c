@@ -23,16 +23,16 @@
  * - Support for revision B
  */
 
-#include <linux/bitfield.h>
-#include <linux/gpio/consumer.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sizes.h>
-#include <linux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/gpio/consumer.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/sizes.h>
+#include <robux/unaligned.h>
 
 #include "goodix_berlin.h"
 

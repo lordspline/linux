@@ -6,10 +6,10 @@
  *
  */
 
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
-#include <linux/miscdevice.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/uaccess.h>
+#include <robux/miscdevice.h>
 
 #include "fsl-mc-private.h"
 

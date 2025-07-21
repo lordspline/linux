@@ -3,12 +3,12 @@
  *
  *  For licencing details see kernel-base/COPYING
  */
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/acpi.h>
+#include <robux/dmi.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/export.h>
+#include <robux/pci.h>
+#include <robux/acpi.h>
 
 #include <asm/acpi.h>
 #include <asm/bios_ebda.h>

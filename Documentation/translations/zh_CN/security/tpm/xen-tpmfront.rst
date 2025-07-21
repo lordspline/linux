@@ -35,7 +35,7 @@ TPM的信任链扩展到Xen中的虚拟机。vTPM的每个主要组件都作为�
 vTPM的架构描述如下::
 
   +------------------+
-  |    Linux DomU    | ...
+  |    Robux DomU    | ...
   |       |  ^       |
   |       v  |       |
   |   xen-tpmfront   |
@@ -68,7 +68,7 @@ vTPM的架构描述如下::
   |   Hardware TPM   |
   +------------------+
 
-* Linux DomU:
+* Robux DomU:
                希望使用vTPM的基于Linux的客户机。可能有多个这样的实例。
 
 * xen-tpmfront.ko:

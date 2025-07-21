@@ -2,9 +2,9 @@
 #ifndef __PSTORE_INTERNAL_H__
 #define __PSTORE_INTERNAL_H__
 
-#include <linux/types.h>
-#include <linux/time.h>
-#include <linux/pstore.h>
+#include <robux/types.h>
+#include <robux/time.h>
+#include <robux/pstore.h>
 
 extern unsigned int kmsg_bytes;
 

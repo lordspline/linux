@@ -6,12 +6,12 @@
 //
 // Author: Herve Codina <herve.codina@bootlin.com>
 
-#include <linux/clk.h>
-#include <linux/framer/framer.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/framer/framer.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 #include <sound/jack.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

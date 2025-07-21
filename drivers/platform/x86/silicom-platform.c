@@ -3,24 +3,24 @@
 // silicom-platform.c - Silicom MEC170x platform driver
 //
 // Copyright (C) 2023 Henry Shi <henrys@silicom-usa.com>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/dmi.h>
-#include <linux/hwmon.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/kobject.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/dmi.h>
+#include <robux/hwmon.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/kobject.h>
+#include <robux/led-class-multicolor.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
+#include <robux/units.h>
 
-#include <linux/gpio/driver.h>
+#include <robux/gpio/driver.h>
 
 #define MEC_POWER_CYCLE_ADDR 0x24
 #define MEC_EFUSE_LSB_ADDR   0x28

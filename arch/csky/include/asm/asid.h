@@ -2,11 +2,11 @@
 #ifndef __ASM_ASM_ASID_H
 #define __ASM_ASM_ASID_H
 
-#include <linux/atomic.h>
-#include <linux/compiler.h>
-#include <linux/cpumask.h>
-#include <linux/percpu.h>
-#include <linux/spinlock.h>
+#include <robux/atomic.h>
+#include <robux/compiler.h>
+#include <robux/cpumask.h>
+#include <robux/percpu.h>
+#include <robux/spinlock.h>
 
 struct asid_info
 {

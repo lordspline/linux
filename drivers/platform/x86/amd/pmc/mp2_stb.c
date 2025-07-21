@@ -8,14 +8,14 @@
  * Author: Basavaraj Natikar <Basavaraj.Natikar@amd.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/iopoll.h>
-#include <linux/pci.h>
-#include <linux/sizes.h>
-#include <linux/time.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/iopoll.h>
+#include <robux/pci.h>
+#include <robux/sizes.h>
+#include <robux/time.h>
 
 #include "pmc.h"
 

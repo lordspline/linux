@@ -11,10 +11,10 @@
  *
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-#include <linux/pci.h>
-#include <linux/firmware.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
+#include <robux/pci.h>
+#include <robux/firmware.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>

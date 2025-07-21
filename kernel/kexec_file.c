@@ -9,23 +9,23 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/capability.h>
-#include <linux/mm.h>
-#include <linux/file.h>
-#include <linux/slab.h>
-#include <linux/kexec.h>
-#include <linux/memblock.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/fs.h>
-#include <linux/ima.h>
+#include <robux/capability.h>
+#include <robux/mm.h>
+#include <robux/file.h>
+#include <robux/slab.h>
+#include <robux/kexec.h>
+#include <robux/memblock.h>
+#include <robux/mutex.h>
+#include <robux/list.h>
+#include <robux/fs.h>
+#include <robux/ima.h>
 #include <crypto/sha2.h>
-#include <linux/elf.h>
-#include <linux/elfcore.h>
-#include <linux/kernel.h>
-#include <linux/kernel_read_file.h>
-#include <linux/syscalls.h>
-#include <linux/vmalloc.h>
+#include <robux/elf.h>
+#include <robux/elfcore.h>
+#include <robux/kernel.h>
+#include <robux/kernel_read_file.h>
+#include <robux/syscalls.h>
+#include <robux/vmalloc.h>
 #include "kexec_internal.h"
 
 #ifdef CONFIG_KEXEC_SIG

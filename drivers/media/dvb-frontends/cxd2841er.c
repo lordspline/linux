@@ -12,17 +12,17 @@
  * Copyright (C) 2014 Abylay Ospan <aospan@netup.ru>
   */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/math64.h>
-#include <linux/log2.h>
-#include <linux/dynamic_debug.h>
-#include <linux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/bitops.h>
+#include <robux/math64.h>
+#include <robux/log2.h>
+#include <robux/dynamic_debug.h>
+#include <robux/kernel.h>
 
-#include <linux/int_log.h>
+#include <robux/int_log.h>
 #include <media/dvb_frontend.h>
 #include "cxd2841er.h"
 #include "cxd2841er_priv.h"

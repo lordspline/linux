@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/pinctrl/pinmux-falcon.c
- *  based on linux/drivers/pinctrl/pinmux-pxa910.c
+ *  robux/drivers/pinctrl/pinmux-falcon.c
+ *  based on robux/drivers/pinctrl/pinmux-pxa910.c
  *
  *  Copyright (C) 2012 Thomas Langer <thomas.langer@lantiq.com>
  *  Copyright (C) 2012 John Crispin <john@phrozen.org>
  */
 
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
 
 #include "pinctrl-lantiq.h"
 

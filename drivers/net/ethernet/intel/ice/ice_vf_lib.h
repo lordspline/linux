@@ -4,13 +4,13 @@
 #ifndef _ICE_VF_LIB_H_
 #define _ICE_VF_LIB_H_
 
-#include <linux/types.h>
-#include <linux/hashtable.h>
-#include <linux/bitmap.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
+#include <robux/types.h>
+#include <robux/hashtable.h>
+#include <robux/bitmap.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
 #include <net/devlink.h>
-#include <linux/avf/virtchnl.h>
+#include <robux/avf/virtchnl.h>
 #include "ice_type.h"
 #include "ice_flow.h"
 #include "ice_virtchnl_fdir.h"

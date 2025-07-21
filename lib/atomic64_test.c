@@ -7,11 +7,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/atomic.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
+#include <robux/atomic.h>
+#include <robux/module.h>
 
 #ifdef CONFIG_X86
 #include <asm/cpufeature.h>	/* for boot_cpu_has below */

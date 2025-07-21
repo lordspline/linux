@@ -11,18 +11,18 @@
  * Copyright (C) 2007-2008 Wind River Systems, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/kgdb.h>
-#include <linux/smp.h>
-#include <linux/signal.h>
-#include <linux/ptrace.h>
-#include <linux/kdebug.h>
+#include <robux/kernel.h>
+#include <robux/kgdb.h>
+#include <robux/smp.h>
+#include <robux/signal.h>
+#include <robux/ptrace.h>
+#include <robux/kdebug.h>
 #include <asm/current.h>
 #include <asm/processor.h>
 #include <asm/machdep.h>
 #include <asm/debug.h>
 #include <asm/text-patching.h>
-#include <linux/slab.h>
+#include <robux/slab.h>
 #include <asm/inst.h>
 
 /*

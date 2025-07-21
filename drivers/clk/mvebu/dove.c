@@ -10,10 +10,10 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/of.h>
 #include "common.h"
 #include "dove-divider.h"
 

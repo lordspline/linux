@@ -8,24 +8,24 @@
  * This code is licenced under the GPL.
  */
 
-#include "linux/percpu-defs.h"
-#include <linux/clockchips.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/idle.h>
-#include <linux/notifier.h>
-#include <linux/pm_qos.h>
-#include <linux/cpu.h>
-#include <linux/cpuidle.h>
-#include <linux/ktime.h>
-#include <linux/hrtimer.h>
-#include <linux/module.h>
-#include <linux/suspend.h>
-#include <linux/tick.h>
-#include <linux/mmu_context.h>
-#include <linux/context_tracking.h>
+#include "robux/percpu-defs.h"
+#include <robux/clockchips.h>
+#include <robux/kernel.h>
+#include <robux/mutex.h>
+#include <robux/sched.h>
+#include <robux/sched/clock.h>
+#include <robux/sched/idle.h>
+#include <robux/notifier.h>
+#include <robux/pm_qos.h>
+#include <robux/cpu.h>
+#include <robux/cpuidle.h>
+#include <robux/ktime.h>
+#include <robux/hrtimer.h>
+#include <robux/module.h>
+#include <robux/suspend.h>
+#include <robux/tick.h>
+#include <robux/mmu_context.h>
+#include <robux/context_tracking.h>
 #include <trace/events/power.h>
 
 #include "cpuidle.h"

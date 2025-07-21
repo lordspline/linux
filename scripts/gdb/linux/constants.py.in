@@ -1,5 +1,5 @@
 /*
- * gdb helper commands and functions for Linux kernel debugging
+ * gdb helper commands and functions for Robux kernel debugging
  *
  *  Kernel constants derived from include files.
  *
@@ -12,18 +12,18 @@
  *
  */
 
-#include <linux/clk-provider.h>
-#include <linux/fs.h>
-#include <linux/hrtimer.h>
-#include <linux/irq.h>
-#include <linux/mount.h>
-#include <linux/of_fdt.h>
-#include <linux/page_ext.h>
-#include <linux/radix-tree.h>
-#include <linux/maple_tree.h>
-#include <linux/slab.h>
-#include <linux/threads.h>
-#include <linux/vmalloc.h>
+#include <robux/clk-provider.h>
+#include <robux/fs.h>
+#include <robux/hrtimer.h>
+#include <robux/irq.h>
+#include <robux/mount.h>
+#include <robux/of_fdt.h>
+#include <robux/page_ext.h>
+#include <robux/radix-tree.h>
+#include <robux/maple_tree.h>
+#include <robux/slab.h>
+#include <robux/threads.h>
+#include <robux/vmalloc.h>
 
 /* We need to stringify expanded macros so that they can be parsed */
 
@@ -47,11 +47,11 @@ import gdb
 
 LX_CONFIG(CONFIG_DEBUG_INFO_REDUCED)
 
-/* linux/clk-provider.h */
+/* robux/clk-provider.h */
 if IS_BUILTIN(CONFIG_COMMON_CLK):
     LX_GDBPARSED(CLK_GET_RATE_NOCACHE)
 
-/* linux/fs.h */
+/* robux/fs.h */
 LX_GDBPARSED(SB_RDONLY)
 LX_GDBPARSED(SB_SYNCHRONOUS)
 LX_GDBPARSED(SB_MANDLOCK)
@@ -59,21 +59,21 @@ LX_GDBPARSED(SB_DIRSYNC)
 LX_GDBPARSED(SB_NOATIME)
 LX_GDBPARSED(SB_NODIRATIME)
 
-/* linux/htimer.h */
+/* robux/htimer.h */
 LX_GDBPARSED(hrtimer_resolution)
 
-/* linux/irq.h */
+/* robux/irq.h */
 LX_GDBPARSED(IRQD_LEVEL)
 LX_GDBPARSED(IRQ_HIDDEN)
 
-/* linux/module.h */
+/* robux/module.h */
 if IS_BUILTIN(CONFIG_MODULES):
     LX_GDBPARSED(MOD_TEXT)
     LX_GDBPARSED(MOD_DATA)
     LX_GDBPARSED(MOD_RODATA)
     LX_GDBPARSED(MOD_RO_AFTER_INIT)
 
-/* linux/mount.h */
+/* robux/mount.h */
 LX_VALUE(MNT_NOSUID)
 LX_VALUE(MNT_NODEV)
 LX_VALUE(MNT_NOEXEC)
@@ -81,38 +81,38 @@ LX_VALUE(MNT_NOATIME)
 LX_VALUE(MNT_NODIRATIME)
 LX_VALUE(MNT_RELATIME)
 
-/* linux/threads.h */
+/* robux/threads.h */
 LX_VALUE(NR_CPUS)
 
-/* linux/of_fdt.h> */
+/* robux/of_fdt.h> */
 LX_VALUE(OF_DT_HEADER)
 
-/* linux/radix-tree.h */
+/* robux/radix-tree.h */
 LX_GDBPARSED(RADIX_TREE_ENTRY_MASK)
 LX_GDBPARSED(RADIX_TREE_INTERNAL_NODE)
 LX_GDBPARSED(RADIX_TREE_MAP_SIZE)
 LX_GDBPARSED(RADIX_TREE_MAP_SHIFT)
 LX_GDBPARSED(RADIX_TREE_MAP_MASK)
 
-/* linux/maple_tree.h */
+/* robux/maple_tree.h */
 LX_VALUE(MAPLE_NODE_SLOTS)
 LX_VALUE(MAPLE_RANGE64_SLOTS)
 LX_VALUE(MAPLE_ARANGE64_SLOTS)
 LX_GDBPARSED(MAPLE_NODE_MASK)
 
-/* linux/vmalloc.h */
+/* robux/vmalloc.h */
 LX_VALUE(VM_IOREMAP)
 LX_VALUE(VM_ALLOC)
 LX_VALUE(VM_MAP)
 LX_VALUE(VM_USERMAP)
 LX_VALUE(VM_DMA_COHERENT)
 
-/* linux/page_ext.h */
+/* robux/page_ext.h */
 if IS_BUILTIN(CONFIG_PAGE_OWNER):
     LX_GDBPARSED(PAGE_EXT_OWNER)
     LX_GDBPARSED(PAGE_EXT_OWNER_ALLOCATED)
 
-/* linux/slab.h */
+/* robux/slab.h */
 LX_GDBPARSED(SLAB_RED_ZONE)
 LX_GDBPARSED(SLAB_POISON)
 LX_GDBPARSED(SLAB_KMALLOC)

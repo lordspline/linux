@@ -7,19 +7,19 @@
  * Gregory CLEMENT <gregory.clement@free-electrons.com>
  */
 
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/cpu.h>
+#include <robux/cpufreq.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #include "cpufreq-dt.h"
 

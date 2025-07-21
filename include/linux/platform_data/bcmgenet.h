@@ -2,9 +2,9 @@
 #ifndef __LINUX_PLATFORM_DATA_BCMGENET_H__
 #define __LINUX_PLATFORM_DATA_BCMGENET_H__
 
-#include <linux/types.h>
-#include <linux/if_ether.h>
-#include <linux/phy.h>
+#include <robux/types.h>
+#include <robux/if_ether.h>
+#include <robux/phy.h>
 
 struct bcmgenet_platform_data {
 	bool		mdio_enabled;

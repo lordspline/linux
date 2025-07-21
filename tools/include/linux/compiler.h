@@ -4,7 +4,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/compiler_types.h>
+#include <robux/compiler_types.h>
 
 #ifndef __compiletime_error
 # define __compiletime_error(message)
@@ -150,7 +150,7 @@
 # define unlikely(x)		__builtin_expect(!!(x), 0)
 #endif
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /*
  * Following functions are taken from kernel sources and

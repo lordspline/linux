@@ -5,16 +5,16 @@
  * Copyright (C) 2016 Fujitsu Technology Solutions GmbH,
  *		  Thilo Cestonaro <thilo.cestonaro@ts.fujitsu.com>
  */
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/watchdog.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/jiffies.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/watchdog.h>
 
 #define FTS_DEVICE_ID_REG		0x0000
 #define FTS_DEVICE_REVISION_REG		0x0001

@@ -18,16 +18,16 @@
  * Author: Rob Clark <robdclark@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #include <drm/display/drm_dp_helper.h>
 #include <drm/drm_atomic_helper.h>

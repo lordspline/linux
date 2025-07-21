@@ -28,8 +28,8 @@
  *    Christian König <deathsimple@vodafone.de>
  */
 
-#include <linux/firmware.h>
-#include <linux/module.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
 
 #include <drm/drm.h>
 

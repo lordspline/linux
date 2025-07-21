@@ -8,18 +8,18 @@
  *
  * You could find a link for the datasheet in Documentation/arch/arm/sunxi.rst
  */
-#include <linux/clk.h>
-#include <linux/crypto.h>
-#include <linux/debugfs.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/crypto.h>
+#include <robux/debugfs.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 #include <crypto/scatterwalk.h>
-#include <linux/scatterlist.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/reset.h>
+#include <robux/scatterlist.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/reset.h>
 
 #include "sun4i-ss.h"
 

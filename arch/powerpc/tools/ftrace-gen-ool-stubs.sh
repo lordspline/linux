@@ -30,7 +30,7 @@ fi
 cat > "$arch_vmlinux_S" <<EOF
 #include <asm/asm-offsets.h>
 #include <asm/ppc_asm.h>
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 .pushsection .tramp.ftrace.text,"aw"
 SYM_DATA(ftrace_ool_stub_text_end_count, .long $num_ool_stubs_text_end)

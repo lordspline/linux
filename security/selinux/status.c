@@ -6,10 +6,10 @@
  *
  * Copyright (C) 2010 NEC corporation
  */
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/gfp.h>
+#include <robux/mm.h>
+#include <robux/mutex.h>
 #include "avc.h"
 #include "security.h"
 

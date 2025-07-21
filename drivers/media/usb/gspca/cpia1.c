@@ -16,9 +16,9 @@
 
 #define MODULE_NAME "cpia1"
 
-#include <linux/input.h>
-#include <linux/sched/signal.h>
-#include <linux/bitops.h>
+#include <robux/input.h>
+#include <robux/sched/signal.h>
+#include <robux/bitops.h>
 
 #include "gspca.h"
 

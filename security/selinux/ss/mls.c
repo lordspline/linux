@@ -15,10 +15,10 @@
  *          Copyright (C) Hewlett-Packard Development Company, L.P., 2006
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/errno.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/errno.h>
 #include <net/netlabel.h>
 #include "sidtab.h"
 #include "mls.h"

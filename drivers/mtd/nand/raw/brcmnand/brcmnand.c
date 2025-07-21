@@ -3,32 +3,32 @@
  * Copyright © 2010-2015 Broadcom Corporation
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/brcmnand.h>
-#include <linux/err.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/dma-mapping.h>
-#include <linux/ioport.h>
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/mm.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/slab.h>
-#include <linux/static_key.h>
-#include <linux/list.h>
-#include <linux/log2.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/brcmnand.h>
+#include <robux/err.h>
+#include <robux/completion.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/dma-mapping.h>
+#include <robux/ioport.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
+#include <robux/bitops.h>
+#include <robux/mm.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/slab.h>
+#include <robux/static_key.h>
+#include <robux/list.h>
+#include <robux/log2.h>
 
 #include "brcmnand.h"
 

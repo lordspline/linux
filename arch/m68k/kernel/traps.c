@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/kernel/traps.c
+ *  robux/arch/m68k/kernel/traps.c
  *
  *  Copyright (C) 1993, 1994 by Hamish Macdonald
  *
@@ -18,23 +18,23 @@
  * Sets up all exception vectors
  */
 
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/signal.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/user.h>
-#include <linux/string.h>
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/ptrace.h>
-#include <linux/kallsyms.h>
-#include <linux/extable.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/signal.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/user.h>
+#include <robux/string.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
+#include <robux/ptrace.h>
+#include <robux/kallsyms.h>
+#include <robux/extable.h>
 
 #include <asm/setup.h>
 #include <asm/fpu.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/traps.h>
 #include <asm/machdep.h>
 #include <asm/processor.h>

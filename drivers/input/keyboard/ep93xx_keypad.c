@@ -8,19 +8,19 @@
  *
  */
 
-#include <linux/bits.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/slab.h>
-#include <linux/soc/cirrus/ep93xx.h>
-#include <linux/pm_wakeirq.h>
+#include <robux/bits.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/input.h>
+#include <robux/input/matrix_keypad.h>
+#include <robux/slab.h>
+#include <robux/soc/cirrus/ep93xx.h>
+#include <robux/pm_wakeirq.h>
 
 /*
  * Keypad Interface Register offsets

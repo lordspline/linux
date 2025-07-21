@@ -4,14 +4,14 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/clk/at91_pmc.h>
-#include <linux/of.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/clk/at91_pmc.h>
+#include <robux/of.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 
 #include "pmc.h"
 

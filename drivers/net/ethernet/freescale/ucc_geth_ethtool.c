@@ -11,24 +11,24 @@
  * Need to re-open the interface manually after changing some parameters.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/stddef.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/stddef.h>
+#include <robux/interrupt.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/phy.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/types.h>
 
 #include "ucc_geth.h"

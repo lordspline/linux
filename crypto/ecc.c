@@ -25,16 +25,16 @@
  */
 
 #include <crypto/ecc_curve.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/swab.h>
-#include <linux/fips.h>
+#include <robux/module.h>
+#include <robux/random.h>
+#include <robux/slab.h>
+#include <robux/swab.h>
+#include <robux/fips.h>
 #include <crypto/ecdh.h>
 #include <crypto/rng.h>
 #include <crypto/internal/ecc.h>
-#include <linux/unaligned.h>
-#include <linux/ratelimit.h>
+#include <robux/unaligned.h>
+#include <robux/ratelimit.h>
 
 #include "ecc_curve_defs.h"
 

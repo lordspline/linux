@@ -3,14 +3,14 @@
  * Copyright 2012 Freescale Semiconductor, Inc.
  */
 
-#include <linux/clk/mxs.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/clk/mxs.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 #include "clk.h"
 
 static void __iomem *clkctrl;

@@ -8,11 +8,11 @@
  */
 
 /* verbose messages */
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
 
 #include "u_serial.h"
 

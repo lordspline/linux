@@ -7,30 +7,30 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/sched.h>
-#include <linux/pm.h>
-#include <linux/device.h>
-#include <linux/proc_fs.h>
-#include <linux/acpi.h>
-#include <linux/slab.h>
-#include <linux/regulator/machine.h>
-#include <linux/workqueue.h>
-#include <linux/reboot.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/sched.h>
+#include <robux/pm.h>
+#include <robux/device.h>
+#include <robux/proc_fs.h>
+#include <robux/acpi.h>
+#include <robux/slab.h>
+#include <robux/regulator/machine.h>
+#include <robux/workqueue.h>
+#include <robux/reboot.h>
+#include <robux/delay.h>
 #ifdef CONFIG_X86
 #include <asm/mpspec.h>
-#include <linux/dmi.h>
+#include <robux/dmi.h>
 #endif
-#include <linux/acpi_viot.h>
-#include <linux/pci.h>
+#include <robux/acpi_viot.h>
+#include <robux/pci.h>
 #include <acpi/apei.h>
-#include <linux/suspend.h>
-#include <linux/prmt.h>
+#include <robux/suspend.h>
+#include <robux/prmt.h>
 
 #include "internal.h"
 

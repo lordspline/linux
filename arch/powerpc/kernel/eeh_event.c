@@ -4,13 +4,13 @@
  * Copyright (c) 2005 Linas Vepstas <linas@linas.org>
  */
 
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/sched.h>
-#include <linux/semaphore.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/kthread.h>
+#include <robux/delay.h>
+#include <robux/list.h>
+#include <robux/sched.h>
+#include <robux/semaphore.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/kthread.h>
 #include <asm/eeh_event.h>
 #include <asm/ppc-pci.h>
 

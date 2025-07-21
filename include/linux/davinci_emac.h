@@ -11,8 +11,8 @@
 #ifndef _LINUX_DAVINCI_EMAC_H
 #define _LINUX_DAVINCI_EMAC_H
 
-#include <linux/if_ether.h>
-#include <linux/nvmem-consumer.h>
+#include <robux/if_ether.h>
+#include <robux/nvmem-consumer.h>
 
 struct mdio_platform_data {
 	unsigned long		bus_freq;

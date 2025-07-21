@@ -6,8 +6,8 @@
  *
  */
 
-#include <linux/linkage.h>
-#include <linux/cfi_types.h>
+#include <robux/linkage.h>
+#include <robux/cfi_types.h>
 #include <asm/asm-offsets.h>
 #include <asm/frame.h>
 

@@ -27,7 +27,7 @@
 	};
 
 	spdif_out: spdif-out {
-		compatible = "linux,spdif-dit";
+		compatible = "robux,spdif-dit";
 		#sound-dai-cells = <0>;
 	};
 

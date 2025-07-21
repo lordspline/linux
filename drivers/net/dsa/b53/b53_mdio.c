@@ -16,13 +16,13 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/phy.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/delay.h>
-#include <linux/brcmphy.h>
-#include <linux/rtnetlink.h>
+#include <robux/kernel.h>
+#include <robux/phy.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/delay.h>
+#include <robux/brcmphy.h>
+#include <robux/rtnetlink.h>
 #include <net/dsa.h>
 
 #include "b53_priv.h"

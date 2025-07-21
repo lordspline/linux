@@ -19,7 +19,7 @@ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
 FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
 more details.
 
-For more details see the file COPYING in the source distribution of Linux.
+For more details see the file COPYING in the source distribution of Robux.
 
 .. toctree::
 	:caption: Table of Contents

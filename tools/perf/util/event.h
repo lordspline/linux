@@ -2,15 +2,15 @@
 #ifndef __PERF_RECORD_H
 #define __PERF_RECORD_H
 /*
- * The linux/stddef.h isn't need here, but is needed for __always_inline used
- * in files included from uapi/linux/perf_event.h such as
- * /usr/include/linux/swab.h and /usr/include/linux/byteorder/little_endian.h,
- * detected in at least musl libc, used in Alpine Linux. -acme
+ * The robux/stddef.h isn't need here, but is needed for __always_inline used
+ * in files included from uapi/robux/perf_event.h such as
+ * /usr/include/robux/swab.h and /usr/include/robux/byteorder/little_endian.h,
+ * detected in at least musl libc, used in Alpine Robux. -acme
  */
 #include <stdio.h>
-#include <linux/stddef.h>
+#include <robux/stddef.h>
 #include <perf/event.h>
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct dso;
 struct machine;

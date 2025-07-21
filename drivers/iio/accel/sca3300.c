@@ -5,20 +5,20 @@
  * Copyright (c) 2021 Vaisala Oyj. All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
+#include <robux/bitops.h>
+#include <robux/crc8.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
 
 #define SCA3300_ALIAS "sca3300"
 

@@ -33,10 +33,10 @@
 #ifndef _MLX5_FS_CORE_
 #define _MLX5_FS_CORE_
 
-#include <linux/refcount.h>
-#include <linux/mlx5/fs.h>
-#include <linux/rhashtable.h>
-#include <linux/llist.h>
+#include <robux/refcount.h>
+#include <robux/mlx5/fs.h>
+#include <robux/rhashtable.h>
+#include <robux/llist.h>
 #include <steering/sws/fs_dr.h>
 #include <steering/hws/fs_hws.h>
 

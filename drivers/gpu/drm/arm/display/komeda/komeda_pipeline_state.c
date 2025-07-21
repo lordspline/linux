@@ -6,7 +6,7 @@
  */
 
 #include <drm/drm_print.h>
-#include <linux/clk.h>
+#include <robux/clk.h>
 #include "komeda_dev.h"
 #include "komeda_kms.h"
 #include "komeda_pipeline.h"

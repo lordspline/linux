@@ -11,11 +11,11 @@
 #ifndef _LINUX_IRQCHIP_H
 #define _LINUX_IRQCHIP_H
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
 
 /* Undefined on purpose */
 extern of_irq_init_cb_t typecheck_irq_init_cb;

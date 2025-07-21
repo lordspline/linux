@@ -11,13 +11,13 @@
  * Copyright 2001 - 2005 Tensilica Inc.
  * Copyright 2017 Cadence Design Systems Inc.
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/notifier.h>
-#include <linux/panic_notifier.h>
-#include <linux/printk.h>
-#include <linux/reboot.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/notifier.h>
+#include <robux/panic_notifier.h>
+#include <robux/printk.h>
+#include <robux/reboot.h>
+#include <robux/string.h>
 
 #include <asm/platform.h>
 #include <asm/setup.h>

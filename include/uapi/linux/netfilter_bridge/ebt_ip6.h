@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  *  ebt_ip6
  *
@@ -13,8 +13,8 @@
 #ifndef __LINUX_BRIDGE_EBT_IP6_H
 #define __LINUX_BRIDGE_EBT_IP6_H
 
-#include <linux/types.h>
-#include <linux/in6.h>
+#include <robux/types.h>
+#include <robux/in6.h>
 
 #define EBT_IP6_SOURCE 0x01
 #define EBT_IP6_DEST 0x02

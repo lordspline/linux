@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/usbnet.h>
-#include <linux/usb/r8152.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/mii.h>
+#include <robux/usb.h>
+#include <robux/usb/cdc.h>
+#include <robux/usb/usbnet.h>
+#include <robux/usb/r8152.h>
 
 #define OCP_BASE		0xe86c
 

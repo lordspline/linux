@@ -2,16 +2,16 @@
 /*
  * Common interrupt code for 32 and 64 bit
  */
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/of.h>
-#include <linux/seq_file.h>
-#include <linux/smp.h>
-#include <linux/ftrace.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/irq.h>
+#include <robux/cpu.h>
+#include <robux/interrupt.h>
+#include <robux/kernel_stat.h>
+#include <robux/of.h>
+#include <robux/seq_file.h>
+#include <robux/smp.h>
+#include <robux/ftrace.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/irq.h>
 
 #include <asm/irq_stack.h>
 #include <asm/apic.h>

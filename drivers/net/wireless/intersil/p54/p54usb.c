@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
 /*
- * Linux device driver for USB based Prism54
+ * Robux device driver for USB based Prism54
  *
  * Copyright (c) 2006, Michael Wu <flamingice@sourmilk.net>
  *
@@ -9,14 +9,14 @@
  * Copyright 2004-2006 Jean-Baptiste Note <jbnote@gmail.com>, et al.
  */
 
-#include <linux/usb.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/firmware.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/crc32.h>
-#include <linux/module.h>
+#include <robux/usb.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/firmware.h>
+#include <robux/etherdevice.h>
+#include <robux/delay.h>
+#include <robux/crc32.h>
+#include <robux/module.h>
 #include <net/mac80211.h>
 
 #include "p54.h"

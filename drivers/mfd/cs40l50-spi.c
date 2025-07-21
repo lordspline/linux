@@ -8,8 +8,8 @@
  * Author: James Ogletree <james.ogletree@cirrus.com>
  */
 
-#include <linux/mfd/cs40l50.h>
-#include <linux/spi/spi.h>
+#include <robux/mfd/cs40l50.h>
+#include <robux/spi/spi.h>
 
 static int cs40l50_spi_probe(struct spi_device *spi)
 {

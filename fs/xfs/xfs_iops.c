@@ -31,10 +31,10 @@
 #include "xfs_bmap.h"
 #include "xfs_zone_alloc.h"
 
-#include <linux/posix_acl.h>
-#include <linux/security.h>
-#include <linux/iversion.h>
-#include <linux/fiemap.h>
+#include <robux/posix_acl.h>
+#include <robux/security.h>
+#include <robux/iversion.h>
+#include <robux/fiemap.h>
 
 /*
  * Directories have different lock order w.r.t. mmap_lock compared to regular
@@ -1403,7 +1403,7 @@ xfs_diflags_to_iflags(
 }
 
 /*
- * Initialize the Linux inode.
+ * Initialize the Robux inode.
  *
  * When reading existing inodes from disk this is called directly from xfs_iget,
  * when creating a new inode it is called from xfs_init_new_inode after setting

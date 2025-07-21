@@ -6,16 +6,16 @@
  * Copyright (c) 2016, Microchip Technology Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
 
 /* SQI registers */
 #define PESQI_XIP_CONF1_REG	0x00

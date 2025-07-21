@@ -17,9 +17,9 @@
 #include <crypto/internal/hash.h>
 #include <crypto/sha1.h>
 #include <crypto/sha1_base.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #include "octeon-crypto.h"
 

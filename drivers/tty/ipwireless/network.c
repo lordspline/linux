@@ -16,15 +16,15 @@
  *   Copyright (C) 2007 David Sterba
  */
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/ppp_channel.h>
-#include <linux/ppp_defs.h>
-#include <linux/slab.h>
-#include <linux/ppp-ioctl.h>
-#include <linux/skbuff.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mutex.h>
+#include <robux/netdevice.h>
+#include <robux/ppp_channel.h>
+#include <robux/ppp_defs.h>
+#include <robux/slab.h>
+#include <robux/ppp-ioctl.h>
+#include <robux/skbuff.h>
 
 #include "network.h"
 #include "hardware.h"

@@ -3,10 +3,10 @@
  * Copyright (c) 2018 Jernej Skrabec <jernej.skrabec@siol.net>
  */
 
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 
 #include "sun8i_dw_hdmi.h"
 

@@ -2,8 +2,8 @@
 #ifndef _BBC_I2C_H
 #define _BBC_I2C_H
 
-#include <linux/of.h>
-#include <linux/list.h>
+#include <robux/of.h>
+#include <robux/list.h>
 
 struct bbc_i2c_client {
 	struct bbc_i2c_bus		*bp;

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Hangzhou C-SKY Microsystems co.,ltd.
 
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/shm.h>
-#include <linux/sched.h>
-#include <linux/random.h>
-#include <linux/io.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
+#include <robux/shm.h>
+#include <robux/sched.h>
+#include <robux/random.h>
+#include <robux/io.h>
 
 #define COLOUR_ALIGN(addr,pgoff)		\
 	((((addr)+SHMLBA-1)&~(SHMLBA-1)) +	\

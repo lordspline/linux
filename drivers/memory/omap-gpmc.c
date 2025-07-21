@@ -9,32 +9,32 @@
  * Copyright (C) 2009 Texas Instruments
  * Added OMAP4 support - Santosh Shilimkar <santosh.shilimkar@ti.com>
  */
-#include <linux/cleanup.h>
-#include <linux/cpu_pm.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/ioport.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h> /* GPIO descriptor enum */
-#include <linux/gpio/machine.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/omap-gpmc.h>
-#include <linux/pm_runtime.h>
-#include <linux/sizes.h>
+#include <robux/cleanup.h>
+#include <robux/cpu_pm.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/ioport.h>
+#include <robux/spinlock.h>
+#include <robux/io.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/consumer.h> /* GPIO descriptor enum */
+#include <robux/gpio/machine.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_device.h>
+#include <robux/of_platform.h>
+#include <robux/omap-gpmc.h>
+#include <robux/pm_runtime.h>
+#include <robux/sizes.h>
 
-#include <linux/platform_data/mtd-nand-omap2.h>
+#include <robux/platform_data/mtd-nand-omap2.h>
 
 #define	DEVICE_NAME		"omap-gpmc"
 

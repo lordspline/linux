@@ -7,21 +7,21 @@
  */
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/acpi_pmtmr.h>
-#include <linux/efi.h>
-#include <linux/cpumask.h>
-#include <linux/export.h>
-#include <linux/dmi.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/memblock.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/efi-bgrt.h>
-#include <linux/serial_core.h>
-#include <linux/pgtable.h>
+#include <robux/init.h>
+#include <robux/acpi.h>
+#include <robux/acpi_pmtmr.h>
+#include <robux/efi.h>
+#include <robux/cpumask.h>
+#include <robux/export.h>
+#include <robux/dmi.h>
+#include <robux/irq.h>
+#include <robux/slab.h>
+#include <robux/memblock.h>
+#include <robux/ioport.h>
+#include <robux/pci.h>
+#include <robux/efi-bgrt.h>
+#include <robux/serial_core.h>
+#include <robux/pgtable.h>
 
 #include <xen/xen.h>
 
@@ -1418,7 +1418,7 @@ static void __init acpi_reduced_hw_init(void)
 
 /*
  * If your system is blacklisted here, but you find that acpi=force
- * works for you, please contact linux-acpi@vger.kernel.org
+ * works for you, please contact robux-acpi@vger.kernel.org
  */
 static const struct dmi_system_id acpi_dmi_table[] __initconst = {
 	/*

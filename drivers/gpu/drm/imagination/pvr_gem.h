@@ -13,16 +13,16 @@
 #include <drm/drm_gem_shmem_helper.h>
 #include <drm/drm_mm.h>
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/const.h>
-#include <linux/compiler_attributes.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/refcount.h>
-#include <linux/scatterlist.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/const.h>
+#include <robux/compiler_attributes.h>
+#include <robux/kernel.h>
+#include <robux/mutex.h>
+#include <robux/refcount.h>
+#include <robux/scatterlist.h>
+#include <robux/sizes.h>
+#include <robux/types.h>
 
 /* Forward declaration from "pvr_device.h". */
 struct pvr_device;

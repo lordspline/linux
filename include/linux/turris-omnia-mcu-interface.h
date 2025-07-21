@@ -8,10 +8,10 @@
 #ifndef __TURRIS_OMNIA_MCU_INTERFACE_H
 #define __TURRIS_OMNIA_MCU_INTERFACE_H
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/types.h>
+#include <robux/unaligned.h>
 #include <asm/byteorder.h>
 
 enum omnia_commands_e {

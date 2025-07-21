@@ -8,9 +8,9 @@
 #ifndef MDIO_MSCC_MIIM_H
 #define MDIO_MSCC_MIIM_H
 
-#include <linux/device.h>
-#include <linux/phy.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/phy.h>
+#include <robux/regmap.h>
 
 int mscc_miim_setup(struct device *device, struct mii_bus **bus,
 		    const char *name, struct regmap *mii_regmap,

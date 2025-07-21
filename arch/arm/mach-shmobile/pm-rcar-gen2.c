@@ -7,11 +7,11 @@
  * Copyright (C) 2011  Magnus Damm
  */
 
-#include <linux/kernel.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/smp.h>
+#include <robux/kernel.h>
+#include <robux/ioport.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/smp.h>
 #include <asm/io.h>
 #include <asm/cputype.h>
 #include "common.h"

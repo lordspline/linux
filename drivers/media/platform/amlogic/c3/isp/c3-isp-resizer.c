@@ -3,7 +3,7 @@
  * Copyright (C) 2024 Amlogic, Inc. All rights reserved
  */
 
-#include <linux/pm_runtime.h>
+#include <robux/pm_runtime.h>
 
 #include "c3-isp-common.h"
 #include "c3-isp-regs.h"

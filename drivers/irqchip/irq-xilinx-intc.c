@@ -9,15 +9,15 @@
  * for more details.
  */
 
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
-#include <linux/jump_label.h>
-#include <linux/bug.h>
-#include <linux/of_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/of_address.h>
+#include <robux/io.h>
+#include <robux/jump_label.h>
+#include <robux/bug.h>
+#include <robux/of_irq.h>
 
 /* No one else should require these constants, so define them locally here. */
 #define ISR 0x00			/* Interrupt Status Register */

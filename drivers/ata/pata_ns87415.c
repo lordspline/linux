@@ -22,15 +22,15 @@
  *	See if we need to kill the FIFO for ATAPI
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
+#include <robux/device.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
-#include <linux/ata.h>
+#include <robux/libata.h>
+#include <robux/ata.h>
 
 #define DRV_NAME	"pata_ns87415"
 #define DRV_VERSION	"0.0.1"

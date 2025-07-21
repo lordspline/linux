@@ -8,9 +8,9 @@
 #ifndef __LINUX_MFD_LP873X_H
 #define __LINUX_MFD_LP873X_H
 
-#include <linux/i2c.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
+#include <robux/i2c.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
 
 /* LP873x chip id list */
 #define LP873X			0x00

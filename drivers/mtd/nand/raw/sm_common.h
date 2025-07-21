@@ -3,8 +3,8 @@
  * Copyright © 2009 - Maxim Levitsky
  * Common routines & support for SmartMedia/xD format
  */
-#include <linux/bitops.h>
-#include <linux/mtd/mtd.h>
+#include <robux/bitops.h>
+#include <robux/mtd/mtd.h>
 
 /* Full oob structure as written on the flash */
 struct sm_oob {

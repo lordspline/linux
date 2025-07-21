@@ -16,12 +16,12 @@
  * - sparse bitmap with few set bits at random positions.
  */
 
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/random.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/printk.h>
+#include <robux/random.h>
 
 #define BITMAP_LEN	(4096UL * 8 * 10)
 #define SPARSE		500

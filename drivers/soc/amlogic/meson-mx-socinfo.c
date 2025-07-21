@@ -4,16 +4,16 @@
  * SPDX-License-Identifier: GPL-2.0+
  */
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/bitfield.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
+#include <robux/bitfield.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
 
 #define MESON_SOCINFO_MAJOR_VER_MESON6		0x16
 #define MESON_SOCINFO_MAJOR_VER_MESON8		0x19

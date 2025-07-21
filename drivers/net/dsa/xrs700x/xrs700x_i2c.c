@@ -4,9 +4,9 @@
  * George McCollister <george.mccollister@gmail.com>
  */
 
-#include <linux/bits.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
+#include <robux/bits.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
 #include "xrs700x.h"
 #include "xrs700x_reg.h"
 

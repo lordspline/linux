@@ -6,8 +6,8 @@
 #ifndef __LINUX_USB_OTG_FSM_H
 #define __LINUX_USB_OTG_FSM_H
 
-#include <linux/mutex.h>
-#include <linux/errno.h>
+#include <robux/mutex.h>
+#include <robux/errno.h>
 
 #define PROTO_UNDEF	(0)
 #define PROTO_HOST	(1)

@@ -15,21 +15,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ":%s: " fmt, __func__
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/ratelimit.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/ktime.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/ratelimit.h>
 
-#include <linux/input.h>
-#include <linux/usb.h>
-#include <linux/usb/input.h>
+#include <robux/input.h>
+#include <robux/usb.h>
+#include <robux/usb/input.h>
 #include <media/rc-core.h>
 
-#include <linux/timer.h>
+#include <robux/timer.h>
 
 #define MOD_AUTHOR	"Jarod Wilson <jarod@wilsonet.com>"
 #define MOD_DESC	"Driver for SoundGraph iMON MultiMedia IR/Display"

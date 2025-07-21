@@ -12,8 +12,8 @@
  * Thanks to Realtek for their support!
  */
 
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
 #include <net/mac80211.h>
 
 #include "rtl8180.h"

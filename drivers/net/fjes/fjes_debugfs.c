@@ -8,9 +8,9 @@
 
 #ifdef CONFIG_DEBUG_FS
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/platform_device.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/platform_device.h>
 
 #include "fjes.h"
 

@@ -6,24 +6,24 @@
 //
 // Author: Baojun Xu <baojun.xu@ti.com>
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/crc8.h>
-#include <linux/crc32.h>
-#include <linux/efi.h>
-#include <linux/firmware.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/time.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/acpi.h>
+#include <robux/array_size.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/crc8.h>
+#include <robux/crc32.h>
+#include <robux/efi.h>
+#include <robux/firmware.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
+#include <robux/time.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
 #include <sound/hda_codec.h>
 #include <sound/soc.h>

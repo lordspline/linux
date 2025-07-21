@@ -22,16 +22,16 @@
  * or by adding the 'nxp,hw-blink' property to the DTS.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/leds.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
+#include <robux/leds.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
 /* LED select registers determine the source that drives LED outputs */
 #define PCA963X_LED_OFF		0x0	/* LED driver off */

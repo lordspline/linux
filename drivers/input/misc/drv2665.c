@@ -7,13 +7,13 @@
  * Copyright: (C) 2015 Texas Instruments, Inc.
  */
 
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/regulator/consumer.h>
 
 /* Control registers */
 #define DRV2665_STATUS	0x00

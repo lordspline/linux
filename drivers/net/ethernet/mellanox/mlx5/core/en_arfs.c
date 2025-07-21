@@ -30,10 +30,10 @@
  * SOFTWARE.
  */
 
-#include <linux/hash.h>
-#include <linux/mlx5/fs.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
+#include <robux/hash.h>
+#include <robux/mlx5/fs.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
 #include <net/rps.h>
 #include "en.h"
 

@@ -31,9 +31,9 @@
  * SOFTWARE.
  */
 
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/io-mapping.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/io-mapping.h>
 
 #include <asm/page.h>
 

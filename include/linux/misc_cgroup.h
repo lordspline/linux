@@ -30,7 +30,7 @@ struct misc_cg;
 
 #ifdef CONFIG_CGROUP_MISC
 
-#include <linux/cgroup.h>
+#include <robux/cgroup.h>
 
 /**
  * struct misc_res: Per cgroup per misc type resource

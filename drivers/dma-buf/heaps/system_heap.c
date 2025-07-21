@@ -10,16 +10,16 @@
  *	Andrew F. Davis <afd@ti.com>
  */
 
-#include <linux/dma-buf.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma-heap.h>
-#include <linux/err.h>
-#include <linux/highmem.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/dma-buf.h>
+#include <robux/dma-mapping.h>
+#include <robux/dma-heap.h>
+#include <robux/err.h>
+#include <robux/highmem.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 
 struct system_heap_buffer {
 	struct dma_heap *heap;

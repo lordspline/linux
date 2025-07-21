@@ -9,9 +9,9 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
 #include <dt-bindings/clock/r7s9210-cpg-mssr.h>
 #include "renesas-cpg-mssr.h"
 

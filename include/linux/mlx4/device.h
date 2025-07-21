@@ -33,17 +33,17 @@
 #ifndef MLX4_DEVICE_H
 #define MLX4_DEVICE_H
 
-#include <linux/auxiliary_bus.h>
-#include <linux/if_ether.h>
-#include <linux/pci.h>
-#include <linux/completion.h>
-#include <linux/radix-tree.h>
-#include <linux/cpu_rmap.h>
-#include <linux/crash_dump.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/if_ether.h>
+#include <robux/pci.h>
+#include <robux/completion.h>
+#include <robux/radix-tree.h>
+#include <robux/cpu_rmap.h>
+#include <robux/crash_dump.h>
 
-#include <linux/refcount.h>
+#include <robux/refcount.h>
 
-#include <linux/timecounter.h>
+#include <robux/timecounter.h>
 
 #define DEFAULT_UAR_PAGE_SHIFT  12
 

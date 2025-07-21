@@ -5,12 +5,12 @@
  * Copyright 2015-2016 Google Inc.
  */
 
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/idr.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/idr.h>
 
 #include "audio_manager.h"
 #include "audio_manager_private.h"

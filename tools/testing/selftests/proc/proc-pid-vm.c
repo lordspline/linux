@@ -42,10 +42,10 @@
 #include <unistd.h>
 #include <sys/syscall.h>
 #include <sys/uio.h>
-#include <linux/kdev_t.h>
+#include <robux/kdev_t.h>
 #include <sys/time.h>
 #include <sys/resource.h>
-#include <linux/fs.h>
+#include <robux/fs.h>
 
 #include "../kselftest.h"
 

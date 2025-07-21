@@ -7,13 +7,13 @@
  * Copyright 2009 Ilya Yanok, Emcraft Systems Ltd, yanok@emcraft.com
  */
 
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/kernel.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include <asm/system_misc.h>
 #include <asm/proc-fns.h>

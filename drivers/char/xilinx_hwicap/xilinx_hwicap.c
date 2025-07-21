@@ -71,25 +71,25 @@
  * currently programmed in the FPGA.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/fcntl.h>
-#include <linux/init.h>
-#include <linux/poll.h>
-#include <linux/proc_fs.h>
-#include <linux/mutex.h>
-#include <linux/sysctl.h>
-#include <linux/fs.h>
-#include <linux/cdev.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/fcntl.h>
+#include <robux/init.h>
+#include <robux/poll.h>
+#include <robux/proc_fs.h>
+#include <robux/mutex.h>
+#include <robux/sysctl.h>
+#include <robux/fs.h>
+#include <robux/cdev.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
 
 #include "xilinx_hwicap.h"
 #include "buffer_icap.h"

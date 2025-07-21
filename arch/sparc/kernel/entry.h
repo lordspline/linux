@@ -2,9 +2,9 @@
 #ifndef _ENTRY_H
 #define _ENTRY_H
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/init.h>
 
 /* irq */
 void handler_irq(int irq, struct pt_regs *regs);

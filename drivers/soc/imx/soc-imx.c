@@ -3,12 +3,12 @@
  * Copyright 2020 NXP
  */
 
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
 
 #include <soc/imx/cpu.h>
 #include <soc/imx/revision.h>

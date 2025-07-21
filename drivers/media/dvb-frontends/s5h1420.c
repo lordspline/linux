@@ -8,16 +8,16 @@
  * Copyright (C) 2005-8 Patrick Boettcher <pb@linuxtv.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
 #include <asm/div64.h>
 
-#include <linux/i2c.h>
+#include <robux/i2c.h>
 
 
 #include <media/dvb_frontend.h>

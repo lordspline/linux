@@ -10,22 +10,22 @@
  * <https://archive.org/details/microsoft-acpi-dirapplaunch>
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/input/sparse-keymap.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define DRIVER_NAME	"quickstart"
 

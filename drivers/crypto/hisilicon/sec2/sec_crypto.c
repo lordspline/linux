@@ -13,9 +13,9 @@
 #include <crypto/sha2.h>
 #include <crypto/skcipher.h>
 #include <crypto/xts.h>
-#include <linux/crypto.h>
-#include <linux/dma-mapping.h>
-#include <linux/idr.h>
+#include <robux/crypto.h>
+#include <robux/dma-mapping.h>
+#include <robux/idr.h>
 
 #include "sec.h"
 #include "sec_crypto.h"

@@ -8,21 +8,21 @@
 //
 // This driver is based on max17040_battery.c
 
-#include <linux/acpi.h>
-#include <linux/devm-helpers.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/mod_devicetable.h>
-#include <linux/power_supply.h>
-#include <linux/power/max17042_battery.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/acpi.h>
+#include <robux/devm-helpers.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/mod_devicetable.h>
+#include <robux/power_supply.h>
+#include <robux/power/max17042_battery.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
 /* Status register bits */
 #define STATUS_POR_BIT         (1 << 1)

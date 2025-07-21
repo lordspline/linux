@@ -11,10 +11,10 @@
 #ifndef _LINUX_CPUIDLE_H
 #define _LINUX_CPUIDLE_H
 
-#include <linux/percpu.h>
-#include <linux/list.h>
-#include <linux/hrtimer.h>
-#include <linux/context_tracking.h>
+#include <robux/percpu.h>
+#include <robux/list.h>
+#include <robux/hrtimer.h>
+#include <robux/context_tracking.h>
 
 #define CPUIDLE_STATE_MAX	10
 #define CPUIDLE_NAME_LEN	16

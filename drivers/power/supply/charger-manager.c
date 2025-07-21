@@ -12,20 +12,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/platform_device.h>
-#include <linux/power/charger-manager.h>
-#include <linux/regulator/consumer.h>
-#include <linux/string_choices.h>
-#include <linux/sysfs.h>
-#include <linux/of.h>
-#include <linux/thermal.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/platform_device.h>
+#include <robux/power/charger-manager.h>
+#include <robux/regulator/consumer.h>
+#include <robux/string_choices.h>
+#include <robux/sysfs.h>
+#include <robux/of.h>
+#include <robux/thermal.h>
 
 static struct {
 	const char *name;

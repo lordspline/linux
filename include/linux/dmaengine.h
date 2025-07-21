@@ -5,13 +5,13 @@
 #ifndef LINUX_DMAENGINE_H
 #define LINUX_DMAENGINE_H
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/uio.h>
-#include <linux/bug.h>
-#include <linux/scatterlist.h>
-#include <linux/bitmap.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/uio.h>
+#include <robux/bug.h>
+#include <robux/scatterlist.h>
+#include <robux/bitmap.h>
+#include <robux/types.h>
 #include <asm/page.h>
 
 /**
@@ -235,7 +235,7 @@ enum sum_check_flags {
 
 /**
  * dma_cap_mask_t - capabilities bitmap modeled after cpumask_t.
- * See linux/cpumask.h
+ * See robux/cpumask.h
  */
 typedef struct { DECLARE_BITMAP(bits, DMA_TX_TYPE_END); } dma_cap_mask_t;
 

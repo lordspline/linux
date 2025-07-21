@@ -11,17 +11,17 @@
  * devices for IP blocks like DMAC, I2S, UART.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/soc/samsung/exynos-regs-pmu.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/soc/samsung/exynos-regs-pmu.h>
+#include <robux/types.h>
 
 /* LPASS Top register definitions */
 #define SFR_LPASS_CORE_SW_RESET		0x08

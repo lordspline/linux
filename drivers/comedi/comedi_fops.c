@@ -3,7 +3,7 @@
  * comedi/comedi_fops.c
  * comedi kernel module
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Robux Control and Measurement Device Interface
  * Copyright (C) 1997-2007 David A. Schleef <ds@schleef.org>
  * compat ioctls:
  * Author: Ian Abbott, MEV Ltd. <abbotti@mev.co.uk>
@@ -12,23 +12,23 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/fcntl.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/cdev.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/sched/signal.h>
+#include <robux/fcntl.h>
+#include <robux/delay.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/poll.h>
+#include <robux/device.h>
+#include <robux/fs.h>
+#include <robux/comedi/comedidev.h>
+#include <robux/cdev.h>
 
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/compat.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
+#include <robux/compat.h>
 
 #include "comedi_internal.h"
 

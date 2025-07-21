@@ -6,14 +6,14 @@
 
 #ifndef _RMI_H
 #define _RMI_H
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/kfifo.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/kfifo.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/types.h>
 
 #define NAME_BUFFER_SIZE 256
 

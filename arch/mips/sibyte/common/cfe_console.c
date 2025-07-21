@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/console.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/console.h>
 
 #include <asm/sibyte/board.h>
 

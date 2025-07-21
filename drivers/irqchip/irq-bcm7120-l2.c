@@ -7,23 +7,23 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME	": " fmt
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/irqdomain.h>
-#include <linux/reboot.h>
-#include <linux/bitops.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/irqdomain.h>
+#include <robux/reboot.h>
+#include <robux/bitops.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
 
 /* Register offset in the L2 interrupt controller */
 #define IRQEN		0x00

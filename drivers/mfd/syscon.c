@@ -8,18 +8,18 @@
  * Author: Dong Aisheng <dong.aisheng@linaro.org>
  */
 
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/hwspinlock.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/mfd/syscon.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/hwspinlock.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/mfd/syscon.h>
+#include <robux/slab.h>
 
 static DEFINE_MUTEX(syscon_list_lock);
 static LIST_HEAD(syscon_list);

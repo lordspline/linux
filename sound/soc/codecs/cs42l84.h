@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * Copyright (C) The Asahi Linux Contributors
+ * Copyright (C) The Asahi Robux Contributors
  *
  * Based on sound/soc/codecs/cs42l42.h
  *
@@ -11,7 +11,7 @@
 #ifndef __CS42L84_H__
 #define __CS42L84_H__
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 #define CS42L84_CHIP_ID				0x42a84
 

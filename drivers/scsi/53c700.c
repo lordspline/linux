@@ -101,21 +101,21 @@
  * */
 #define NCR_700_VERSION "2.8"
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/blkdev.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/pgtable.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/spinlock.h>
+#include <robux/completion.h>
+#include <robux/init.h>
+#include <robux/proc_fs.h>
+#include <robux/blkdev.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
+#include <robux/pgtable.h>
 #include <asm/dma.h>
 #include <asm/io.h>
 #include <asm/byteorder.h>

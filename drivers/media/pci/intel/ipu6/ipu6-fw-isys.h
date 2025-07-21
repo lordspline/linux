@@ -4,7 +4,7 @@
 #ifndef IPU6_FW_ISYS_H
 #define IPU6_FW_ISYS_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct device;
 struct ipu6_isys;

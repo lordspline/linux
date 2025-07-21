@@ -6,9 +6,9 @@
 //
 // Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/regmap.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
+#include <robux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
 
 #include "internal.h"
 

@@ -3,8 +3,8 @@
  *  Copyright 2006 Michael Ellerman, IBM Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
 
 #include <asm/setup.h>
 #include <asm/page.h>

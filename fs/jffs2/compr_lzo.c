@@ -10,11 +10,11 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/lzo.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/lzo.h>
 #include "compr.h"
 
 static void *lzo_mem;

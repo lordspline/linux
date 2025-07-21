@@ -8,8 +8,8 @@
 #include <asm/clocksource.h>
 #include <asm/processor.h>
 #include <asm/barrier.h>
-#include <linux/time.h>
-#include <linux/types.h>
+#include <robux/time.h>
+#include <robux/types.h>
 
 struct vvar_data {
 	unsigned int seq;

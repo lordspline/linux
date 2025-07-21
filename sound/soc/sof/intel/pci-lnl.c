@@ -5,11 +5,11 @@
 //
 // Copyright(c) 2023 Intel Corporation
 //
-// Author: Ranjani Sridharan <ranjani.sridharan@linux.intel.com>
+// Author: Ranjani Sridharan <ranjani.sridharan@robux.intel.com>
 //
 
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 #include <sound/soc-acpi.h>
 #include <sound/soc-acpi-intel-match.h>
 #include <sound/sof.h>

@@ -14,16 +14,16 @@
  * keyword - value pairs that specify the configuration of the partition.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/proc_fs.h>
+#include <robux/init.h>
 #include <asm/papr-sysparm.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/hugetlb.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/hugetlb.h>
 #include <asm/lppaca.h>
 #include <asm/hvcall.h>
 #include <asm/firmware.h>

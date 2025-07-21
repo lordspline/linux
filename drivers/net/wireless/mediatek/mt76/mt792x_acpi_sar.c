@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: ISC
 /* Copyright (C) 2023 MediaTek Inc. */
 
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 #include "mt792x.h"
 
 static const char * const cc_list_all[] = {

@@ -16,10 +16,10 @@
 #include "au0828.h"
 #include "au8522.h"
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/device.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/device.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-mc.h>
 #include <media/v4l2-ioctl.h>

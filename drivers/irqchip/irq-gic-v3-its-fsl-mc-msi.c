@@ -7,13 +7,13 @@
  *
  */
 
-#include <linux/acpi.h>
-#include <linux/acpi_iort.h>
-#include <linux/irq.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/fsl/mc.h>
+#include <robux/acpi.h>
+#include <robux/acpi_iort.h>
+#include <robux/irq.h>
+#include <robux/msi.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/fsl/mc.h>
 
 static struct irq_chip its_msi_irq_chip = {
 	.name = "ITS-fMSI",

@@ -1,31 +1,31 @@
 // SPDX-License-Identifier: GPL-2.0
-/* linux/arch/sparc/kernel/sys_sparc.c
+/* robux/arch/sparc/kernel/sys_sparc.c
  *
  * This file contains various random system calls that
- * have a non-standard calling sequence on the Linux/sparc
+ * have a non-standard calling sequence on the Robux/sparc
  * platform.
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/debug.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/stat.h>
-#include <linux/syscalls.h>
-#include <linux/mman.h>
-#include <linux/utsname.h>
-#include <linux/smp.h>
-#include <linux/ipc.h>
-#include <linux/hugetlb.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/mm.h>
+#include <robux/sched/debug.h>
+#include <robux/mm.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/sem.h>
+#include <robux/msg.h>
+#include <robux/shm.h>
+#include <robux/stat.h>
+#include <robux/syscalls.h>
+#include <robux/mman.h>
+#include <robux/utsname.h>
+#include <robux/smp.h>
+#include <robux/ipc.h>
+#include <robux/hugetlb.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/unistd.h>
 
 #include "systbls.h"
@@ -104,7 +104,7 @@ int sparc_mmap_check(unsigned long addr, unsigned long len)
 	return 0;
 }
 
-/* Linux version of mmap */
+/* Robux version of mmap */
 
 SYSCALL_DEFINE6(mmap2, unsigned long, addr, unsigned long, len,
 	unsigned long, prot, unsigned long, flags, unsigned long, fd,

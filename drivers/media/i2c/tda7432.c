@@ -23,16 +23,16 @@
  * maxvol   - set maximum volume to +20db (1), default is 0db(0)
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
-#include <linux/i2c.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
+#include <robux/i2c.h>
 
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>

@@ -8,12 +8,12 @@
  * v1.x of the spec and v2.0 will likely be split out.
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/i3c/master.h>
-#include <linux/io.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/errno.h>
+#include <robux/i3c/master.h>
+#include <robux/io.h>
 
 #include "hci.h"
 #include "cmd.h"

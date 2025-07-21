@@ -6,7 +6,7 @@
  * expected to be use in combination with some always on microcontroller reading
  * its coulomb-counter before it can wrap (must be read every 400 seconds!).
  *
- * Since Linux does not monitor coulomb-counter changes while the device
+ * Since Robux does not monitor coulomb-counter changes while the device
  * is off or suspended, the coulomb counter is not used atm.
  *
  * Possible improvements:
@@ -34,14 +34,14 @@
  * Copyright (C) 2021 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/devm-helpers.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/power_supply.h>
-#include <linux/workqueue.h>
+#include <robux/devm-helpers.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/power_supply.h>
+#include <robux/workqueue.h>
 
 #define UG3105_MOV_AVG_WINDOW					8
 #define UG3105_INIT_POLL_TIME					(5 * HZ)

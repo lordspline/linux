@@ -4,10 +4,10 @@
  *   Branden Bonaby <brandonbonaby94@gmail.com>
  */
 
-#include <linux/hyperv.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/err.h>
+#include <robux/hyperv.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/err.h>
 
 #include "hyperv_vmbus.h"
 

@@ -4,29 +4,29 @@
  * Copyright (C) 2023 Luis Chamberlain <mcgrof@kernel.org>
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/binfmts.h>
-#include <linux/syscalls.h>
-#include <linux/unistd.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
-#include <linux/cred.h>
-#include <linux/file.h>
-#include <linux/workqueue.h>
-#include <linux/security.h>
-#include <linux/mount.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/resource.h>
-#include <linux/notifier.h>
-#include <linux/suspend.h>
-#include <linux/rwsem.h>
-#include <linux/ptrace.h>
-#include <linux/async.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/sched/task.h>
+#include <robux/binfmts.h>
+#include <robux/syscalls.h>
+#include <robux/unistd.h>
+#include <robux/kmod.h>
+#include <robux/slab.h>
+#include <robux/completion.h>
+#include <robux/cred.h>
+#include <robux/file.h>
+#include <robux/workqueue.h>
+#include <robux/security.h>
+#include <robux/mount.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/resource.h>
+#include <robux/notifier.h>
+#include <robux/suspend.h>
+#include <robux/rwsem.h>
+#include <robux/ptrace.h>
+#include <robux/async.h>
+#include <robux/uaccess.h>
 
 #include <trace/events/module.h>
 #include "internal.h"
@@ -73,7 +73,7 @@ static int call_modprobe(char *orig_module_name, int wait)
 	struct subprocess_info *info;
 	static char *envp[] = {
 		"HOME=/",
-		"TERM=linux",
+		"TERM=robux",
 		"PATH=/sbin:/usr/sbin:/bin:/usr/bin",
 		NULL
 	};

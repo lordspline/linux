@@ -7,24 +7,24 @@
  * Copyright 2018 Lubomir Rintel <lkundrak@v3.sk>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-device.h>
-#include <linux/platform_data/media/mmp-camera.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/pm.h>
-#include <linux/clk.h>
+#include <robux/platform_data/media/mmp-camera.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/io.h>
+#include <robux/list.h>
+#include <robux/pm.h>
+#include <robux/clk.h>
 
 #include "mcam-core.h"
 

@@ -9,7 +9,7 @@
 #ifndef _MITE_H_
 #define _MITE_H_
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 #define PCI_VENDOR_ID_NATINST		0x1093
 

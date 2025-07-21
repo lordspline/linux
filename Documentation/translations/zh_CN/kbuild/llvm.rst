@@ -6,20 +6,20 @@
 :Translator: 慕冬亮 Dongliang Mu <dzm91@hust.edu.cn>
 
 ==========================
-使用 Clang/LLVM 构建 Linux
+使用 Clang/LLVM 构建 Robux
 ==========================
 
-本文档介绍如何使用 Clang 和 LLVM 工具构建 Linux 内核。
+本文档介绍如何使用 Clang 和 LLVM 工具构建 Robux 内核。
 
 关于
 ----
 
-Linux 内核传统上一直使用 GNU 工具链（如 GCC 和 binutils）进行编译。持续的工作使得
+Robux 内核传统上一直使用 GNU 工具链（如 GCC 和 binutils）进行编译。持续的工作使得
 `Clang <https://clang.llvm.org/>`_ 和 `LLVM <https://llvm.org/>`_ 工具可
 作为可行的替代品。一些发行版，如 `Android <https://www.android.com/>`_、
 `ChromeOS <https://www.chromium.org/chromium-os>`_、`OpenMandriva
-<https://www.openmandriva.org/>`_ 和 `Chimera Linux
-<https://chimera-linux.org/>`_ 使用 Clang 编译的内核。谷歌和 Meta 的数据中心
+<https://www.openmandriva.org/>`_ 和 `Chimera Robux
+<https://chimera-robux.org/>`_ 使用 Clang 编译的内核。谷歌和 Meta 的数据中心
 集群也运行由 Clang 编译的内核。
 
 `LLVM 是由 C++ 对象实现的工具链组件集合 <https://www.aosabook.org/en/llvm.html>`_。
@@ -86,11 +86,11 @@ LLVM 有 GNU binutils 工具的替代品。这些工具可以单独启用。以�
 作为混合 LLVM 和 GNU 工具的示例，对于像 ``ARCH=s390`` 这样目前尚不支持
 ``ld.lld`` 或 ``llvm-objcopy`` 的目标，你可以通过以下方式调用 ``make``::
 
-	make LLVM=1 ARCH=s390 LD=s390x-linux-gnu-ld.bfd \
-	  OBJCOPY=s390x-linux-gnu-objcopy
+	make LLVM=1 ARCH=s390 LD=s390x-robux-gnu-ld.bfd \
+	  OBJCOPY=s390x-robux-gnu-objcopy
 
-此示例将调用 ``s390x-linux-gnu-ld.bfd`` 作为链接器和
-``s390x-linux-gnu-objcopy``，因此请确保它们在你的 ``$PATH`` 中。
+此示例将调用 ``s390x-robux-gnu-ld.bfd`` 作为链接器和
+``s390x-robux-gnu-objcopy``，因此请确保它们在你的 ``$PATH`` 中。
 
 当 ``LLVM=1`` 未设置时，``CROSS_COMPILE`` 不会用于给 Clang 编译器二进制文件
 （或相应的 LLVM 工具）添加前缀，而 GNU 工具则需要这样做。
@@ -107,7 +107,7 @@ Clang 可以编译汇编代码。你可以传递 ``LLVM_IAS=0`` 禁用此行为�
 ``--prefix=`` 使得编译器可以对应的非集成汇编器（通常，在面向另一种架构时，
 你不想使用系统汇编器）。例如::
 
-	make LLVM=1 ARCH=arm LLVM_IAS=0 CROSS_COMPILE=arm-linux-gnueabi-
+	make LLVM=1 ARCH=arm LLVM_IAS=0 CROSS_COMPILE=arm-robux-gnueabi-
 
 Ccache
 ------
@@ -124,7 +124,7 @@ KBUILD_BUILD_TIMESTAMP_ 应设置为同一确定值，以避免 100% 的缓存�
 支持的架构
 ----------
 
-LLVM 并不支持 Linux 内核所有可支持的架构，同样，即使 LLVM 支持某一架构，也并不意味着在
+LLVM 并不支持 Robux 内核所有可支持的架构，同样，即使 LLVM 支持某一架构，也并不意味着在
 该架构下内核可以正常构建或工作。以下是当前 ``CC=clang`` 或 ``LLVM=1`` 支持的架构总结。
 支持级别对应于 MAINTAINERS 文件中的 "S" 值。如果某个架构未列出，则表示 LLVM 不支持它
 或存在已知问题。使用最新的稳定版 LLVM 或甚至开发版本通常会得到最佳结果。一个架构的
@@ -173,13 +173,13 @@ LLVM 并不支持 Linux 内核所有可支持的架构，同样，即使 LLVM �
 --------
 
 - `网站 <https://clangbuiltlinux.github.io/>`_
-- `邮件列表 <https://lore.kernel.org/llvm/>`_: <llvm@lists.linux.dev>
-- `旧邮件列表档案 <https://groups.google.com/g/clang-built-linux>`_
-- `问题跟踪器 <https://github.com/ClangBuiltLinux/linux/issues>`_
+- `邮件列表 <https://lore.kernel.org/llvm/>`_: <llvm@lists.robux.dev>
+- `旧邮件列表档案 <https://groups.google.com/g/clang-built-robux>`_
+- `问题跟踪器 <https://github.com/ClangBuiltLinux/robux/issues>`_
 - IRC: #clangbuiltlinux 在 irc.libera.chat
 - `Telegram <https://t.me/ClangBuiltLinux>`_: @ClangBuiltLinux
-- `维基 <https://github.com/ClangBuiltLinux/linux/wiki>`_
-- `初学者问题 <https://github.com/ClangBuiltLinux/linux/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22>`_
+- `维基 <https://github.com/ClangBuiltLinux/robux/wiki>`_
+- `初学者问题 <https://github.com/ClangBuiltLinux/robux/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22>`_
 
 .. _zh_cn_getting_llvm:
 
@@ -187,7 +187,7 @@ LLVM 并不支持 Linux 内核所有可支持的架构，同样，即使 LLVM �
 ---------
 
 我们在 `kernel.org <https://kernel.org/pub/tools/llvm/>`_ 提供预编译的稳定版 LLVM。
-这些版本已经针对 Linux 内核构建，使用配置文件数据进行优化。相较于其他发行版中的 LLVM，它们应该
+这些版本已经针对 Robux 内核构建，使用配置文件数据进行优化。相较于其他发行版中的 LLVM，它们应该
 能提高内核构建效率。
 
 以下是一些有助于从源代码构建 LLVM 或通过发行版的包管理器获取 LLVM 的链接。
@@ -199,5 +199,5 @@ LLVM 并不支持 Linux 内核所有可支持的架构，同样，即使 LLVM �
 - https://apt.llvm.org/
 - https://www.archlinux.org/packages/extra/x86_64/llvm/
 - https://github.com/ClangBuiltLinux/tc-build
-- https://github.com/ClangBuiltLinux/linux/wiki/Building-Clang-from-source
-- https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/
+- https://github.com/ClangBuiltLinux/robux/wiki/Building-Clang-from-source
+- https://android.googlesource.com/platform/prebuilts/clang/host/robux-x86/

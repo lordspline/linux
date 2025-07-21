@@ -20,13 +20,13 @@
  *   - tested with c3/c4 enabled (with the mobility m9 card)
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/agp_backend.h>
-#include <linux/gfp.h>
-#include <linux/page-flags.h>
-#include <linux/mm.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/agp_backend.h>
+#include <robux/gfp.h>
+#include <robux/page-flags.h>
+#include <robux/mm.h>
 #include "agp.h"
 #include "intel-agp.h"
 

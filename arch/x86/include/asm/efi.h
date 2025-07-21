@@ -8,9 +8,9 @@
 #include <asm/nospec-branch.h>
 #include <asm/mmu_context.h>
 #include <asm/ibt.h>
-#include <linux/build_bug.h>
-#include <linux/kernel.h>
-#include <linux/pgtable.h>
+#include <robux/build_bug.h>
+#include <robux/kernel.h>
+#include <robux/pgtable.h>
 
 extern unsigned long efi_fw_vendor, efi_config_table;
 extern unsigned long efi_mixed_mode_stack_pa;

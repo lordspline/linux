@@ -4,15 +4,15 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/string.h>
-#include <linux/export.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/string.h>
+#include <robux/export.h>
 #include <sound/core.h>
 #include <sound/minors.h>
 #include <sound/info.h>
-#include <linux/utsname.h>
-#include <linux/mutex.h>
+#include <robux/utsname.h>
+#include <robux/mutex.h>
 
 /*
  *  OSS compatible part

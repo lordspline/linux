@@ -4,8 +4,8 @@
 #ifndef __MTK_WED_WO_H
 #define __MTK_WED_WO_H
 
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
+#include <robux/skbuff.h>
+#include <robux/netdevice.h>
 
 struct mtk_wed_hw;
 

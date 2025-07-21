@@ -24,19 +24,19 @@
  *		stevel@mvista.com or source@mvista.com
  */
 
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel_stat.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/timex.h>
-#include <linux/random.h>
-#include <linux/delay.h>
+#include <robux/bitops.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel_stat.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/timex.h>
+#include <robux/random.h>
+#include <robux/delay.h>
 
 #include <asm/bootinfo.h>
 #include <asm/time.h>

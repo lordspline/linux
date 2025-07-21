@@ -16,8 +16,8 @@
  *    Daniel Vetter <daniel.vetter@ffwll.ch>
  */
 
-#include <linux/fb.h> /* for FB_MAX */
-#include <linux/init.h>
+#include <robux/fb.h> /* for FB_MAX */
+#include <robux/init.h>
 
 #include <video/cmdline.h>
 

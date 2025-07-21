@@ -1,5 +1,5 @@
 /*
- * linux/arch/arm/mach-omap1/pm.c
+ * robux/arch/arm/mach-omap1/pm.c
  *
  * OMAP Power Management Routines
  *
@@ -35,16 +35,16 @@
  * 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <linux/suspend.h>
-#include <linux/sched.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/sysfs.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/atomic.h>
-#include <linux/cpu.h>
+#include <robux/suspend.h>
+#include <robux/sched.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/interrupt.h>
+#include <robux/sysfs.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/atomic.h>
+#include <robux/cpu.h>
 
 #include <asm/fncpy.h>
 #include <asm/system_misc.h>
@@ -52,9 +52,9 @@
 #include <asm/mach/time.h>
 #include <asm/mach/irq.h>
 
-#include <linux/soc/ti/omap1-io.h>
+#include <robux/soc/ti/omap1-io.h>
 #include "tc.h"
-#include <linux/omap-dma.h>
+#include <robux/omap-dma.h>
 #include <clocksource/timer-ti-dm.h>
 
 #include "hardware.h"

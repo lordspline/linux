@@ -5,12 +5,12 @@
  * Copyright (C) 2012 VMware, Inc. All rights reserved.
  */
 
-#include <linux/vmw_vmci_defs.h>
-#include <linux/vmw_vmci_api.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/bug.h>
+#include <robux/vmw_vmci_defs.h>
+#include <robux/vmw_vmci_api.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/bug.h>
 
 #include "vmci_datagram.h"
 #include "vmci_resource.h"

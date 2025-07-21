@@ -5,14 +5,14 @@
  * Copyright 2005,2006 Hebert Valerio Riedel <hvr@gnu.org>
  */
 
-#include <linux/bcd.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/rtc.h>
+#include <robux/bcd.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/rtc.h>
 
 /* Register map */
 /* rtc section */

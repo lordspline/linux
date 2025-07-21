@@ -11,11 +11,11 @@
  * Based on usbmouse.c (Vojtech Pavlik) and xpad.c (Marko Friedemann)
  *
  */
-#include <linux/kernel.h>
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/usb/input.h>
+#include <robux/kernel.h>
+#include <robux/input.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/usb/input.h>
 #include "usb.h"
 #include "debug.h"
 #include "scsiglue.h"

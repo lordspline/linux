@@ -9,7 +9,7 @@
 #define PM7250B_SID 8
 #define PM7250B_SID1 9
 
-#include <dt-bindings/input/linux-event-codes.h>
+#include <dt-bindings/input/robux-event-codes.h>
 #include <dt-bindings/leds/common.h>
 #include <dt-bindings/pinctrl/qcom,pmic-gpio.h>
 #include <dt-bindings/regulator/qcom,rpmh-regulator.h>
@@ -69,10 +69,10 @@
 		key-volume-up {
 			label = "Volume_up";
 			gpios = <&pm7325_gpios 6 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 			wakeup-source;
 			debounce-interval = <15>;
-			linux,can-disable;
+			robux,can-disable;
 		};
 	};
 
@@ -650,7 +650,7 @@
 };
 
 &pon_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	robux,code = <KEY_VOLUMEDOWN>;
 	status = "okay";
 };
 

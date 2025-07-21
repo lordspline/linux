@@ -10,14 +10,14 @@
  *	Rui Miguel Silva <rui.silva@linaro.org>
  */
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/usb.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
+#include <robux/usb.h>
 
 #include "isp1760-core.h"
 #include "isp1760-regs.h"

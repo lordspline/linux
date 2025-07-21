@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/sched.h>
-#include <linux/hugetlb.h>
-#include <linux/mmu_notifier.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/sched.h>
+#include <robux/hugetlb.h>
+#include <robux/mmu_notifier.h>
 #include <asm/sbi.h>
 #include <asm/mmu_context.h>
 #include <asm/cpufeature.h>

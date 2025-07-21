@@ -7,9 +7,9 @@
 #include <drm/drm_device.h>
 #include <drm/drm_print.h>
 
-#include <linux/elf.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/elf.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 /**
  * pvr_fw_process_elf_command_stream() - Process ELF firmware image and populate

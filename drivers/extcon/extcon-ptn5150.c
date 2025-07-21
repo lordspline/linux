@@ -7,17 +7,17 @@
 // Author: Vijai Kumar K <vijaikumar.kanagarajan@gmail.com>
 // Copyright (c) 2020 Krzysztof Kozlowski <krzk@kernel.org>
 
-#include <linux/bitfield.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/extcon-provider.h>
-#include <linux/gpio/consumer.h>
-#include <linux/usb/role.h>
+#include <robux/bitfield.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/extcon-provider.h>
+#include <robux/gpio/consumer.h>
+#include <robux/usb/role.h>
 
 /* PTN5150 registers */
 #define PTN5150_REG_DEVICE_ID			0x01

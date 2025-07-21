@@ -6,15 +6,15 @@
  * This code is licenced under the GPL.
  */
 
-#include <linux/kernel.h>
-#include <linux/cpuidle.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
-#include <linux/completion.h>
-#include <linux/capability.h>
-#include <linux/device.h>
-#include <linux/kobject.h>
+#include <robux/kernel.h>
+#include <robux/cpuidle.h>
+#include <robux/sysfs.h>
+#include <robux/slab.h>
+#include <robux/cpu.h>
+#include <robux/completion.h>
+#include <robux/capability.h>
+#include <robux/device.h>
+#include <robux/kobject.h>
 
 #include "cpuidle.h"
 

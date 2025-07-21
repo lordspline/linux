@@ -3,7 +3,7 @@
  *  sata_vsc.c - Vitesse VSC7174 4 port DPA SATA
  *
  *  Maintained by:  Jeremy Higdon @ SGI
- * 		    Please ALWAYS copy linux-ide@vger.kernel.org
+ * 		    Please ALWAYS copy robux-ide@vger.kernel.org
  *		    on emails.
  *
  *  Copyright 2004 SGI
@@ -18,16 +18,16 @@
  *  available from http://developer.intel.com/
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/device.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <robux/libata.h>
 
 #define DRV_NAME	"sata_vsc"
 #define DRV_VERSION	"2.3"

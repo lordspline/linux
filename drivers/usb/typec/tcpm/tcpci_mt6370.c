@@ -5,17 +5,17 @@
  * Author: ChiYuan Huang <cy_huang@richtek.com>
  */
 
-#include <linux/bits.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/usb/tcpci.h>
-#include <linux/usb/tcpm.h>
+#include <robux/bits.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/usb/tcpci.h>
+#include <robux/usb/tcpm.h>
 
 #define MT6370_REG_SYSCTRL8	0x9B
 

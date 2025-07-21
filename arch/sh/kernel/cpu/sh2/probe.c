@@ -6,10 +6,10 @@
  *
  * Copyright (C) 2002 Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/of_fdt.h>
-#include <linux/smp.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/of_fdt.h>
+#include <robux/smp.h>
+#include <robux/io.h>
 #include <asm/processor.h>
 #include <asm/cache.h>
 

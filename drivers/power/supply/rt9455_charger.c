@@ -5,16 +5,16 @@
  * Copyright (C) 2015 Intel Corporation
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/power_supply.h>
-#include <linux/i2c.h>
-#include <linux/acpi.h>
-#include <linux/usb/phy.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/power_supply.h>
+#include <robux/i2c.h>
+#include <robux/acpi.h>
+#include <robux/usb/phy.h>
+#include <robux/regmap.h>
 
 #define RT9455_MANUFACTURER			"Richtek"
 #define RT9455_MODEL_NAME			"RT9455"

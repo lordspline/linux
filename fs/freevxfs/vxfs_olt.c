@@ -6,9 +6,9 @@
 /* 
  * Veritas filesystem driver - object location table support.
  */
-#include <linux/fs.h>
-#include <linux/buffer_head.h>
-#include <linux/kernel.h>
+#include <robux/fs.h>
+#include <robux/buffer_head.h>
+#include <robux/kernel.h>
 
 #include "vxfs.h"
 #include "vxfs_olt.h"

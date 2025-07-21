@@ -2,9 +2,9 @@
 #ifndef _ASM_SIMD_H
 #define _ASM_SIMD_H
 
-#include <linux/compiler_attributes.h>
-#include <linux/preempt.h>
-#include <linux/types.h>
+#include <robux/compiler_attributes.h>
+#include <robux/preempt.h>
+#include <robux/types.h>
 
 static __must_check inline bool may_use_simd(void)
 {

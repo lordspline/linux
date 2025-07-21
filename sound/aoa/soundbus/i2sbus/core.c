@@ -5,14 +5,14 @@
  * Copyright 2006-2008 Johannes Berg <johannes@sipsolutions.net>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 #include <sound/core.h>
 

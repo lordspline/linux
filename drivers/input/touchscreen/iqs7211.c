@@ -5,24 +5,24 @@
  * Copyright (C) 2023 Jeff LaBundy <jeff@labundy.com>
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 
 #define IQS7211_PROD_NUM			0x00
 
@@ -1736,7 +1736,7 @@ static int iqs7211_parse_event(struct iqs7211_private *iqs7211,
 		}
 	}
 
-	error = fwnode_property_read_u32(event_node, "linux,code", event_code);
+	error = fwnode_property_read_u32(event_node, "robux,code", event_code);
 	if (error == -EINVAL)
 		error = 0;
 	else if (error)

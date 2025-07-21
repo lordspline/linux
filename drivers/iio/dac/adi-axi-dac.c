@@ -5,29 +5,29 @@
  *
  * Copyright 2016-2024 Analog Devices Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/limits.h>
-#include <linux/kstrtox.h>
-#include <linux/math.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/limits.h>
+#include <robux/kstrtox.h>
+#include <robux/math.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/units.h>
 
-#include <linux/fpga/adi-axi-common.h>
-#include <linux/iio/backend.h>
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
+#include <robux/fpga/adi-axi-common.h>
+#include <robux/iio/backend.h>
+#include <robux/iio/buffer-dmaengine.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
 
 #include "ad3552r-hs.h"
 

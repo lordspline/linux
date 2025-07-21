@@ -3,12 +3,12 @@
  *       All rights reserved.
  */
 
-#include <linux/platform_device.h>
-#include <linux/etherdevice.h>
-#include <linux/netdevice.h>
-#include <linux/bitfield.h>
-#include <linux/spinlock.h>
-#include <linux/of_mdio.h>
+#include <robux/platform_device.h>
+#include <robux/etherdevice.h>
+#include <robux/netdevice.h>
+#include <robux/bitfield.h>
+#include <robux/spinlock.h>
+#include <robux/of_mdio.h>
 
 #include "spl2sw_register.h"
 #include "spl2sw_define.h"

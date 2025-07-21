@@ -9,15 +9,15 @@
  * by MontaVista Software, Inc.  (Nico, your code rocks!)
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/sched/clock.h>
-#include <linux/sched_clock.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/clockchips.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/sched/clock.h>
+#include <robux/sched_clock.h>
 
 #include <clocksource/pxa.h>
 

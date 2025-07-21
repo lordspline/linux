@@ -38,15 +38,15 @@
  * saturated values.
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/rational.h>
-#include <linux/slab.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/rational.h>
+#include <robux/slab.h>
 
-#include <linux/clk-provider.h>
+#include <robux/clk-provider.h>
 
 #include "clk-fractional-divider.h"
 

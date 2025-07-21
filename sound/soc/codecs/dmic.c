@@ -5,13 +5,13 @@
  * Author: Liam Girdwood <lrg@slimlogic.co.uk>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/delay.h>
+#include <robux/gpio.h>
+#include <robux/gpio/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>

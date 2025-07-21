@@ -3,10 +3,10 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/of.h>
 
 #include "mt7921.h"
 #include "../mt76_connac2_mac.h"

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * linux/drivers/video/mmp/hw/mmp_ctrl.c
+ * robux/drivers/video/mmp/hw/mmp_ctrl.c
  * Marvell MMP series Display Controller support
  *
  * Copyright (C) 2012 Marvell Technology Group Ltd.
@@ -8,22 +8,22 @@
  *          Lisa Du <cldu@marvell.com>
  *          Zhou Zhu <zzhu3@marvell.com>
  */
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/vmalloc.h>
-#include <linux/uaccess.h>
-#include <linux/kthread.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/vmalloc.h>
+#include <robux/uaccess.h>
+#include <robux/kthread.h>
+#include <robux/io.h>
 
 #include "mmp_ctrl.h"
 

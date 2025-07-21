@@ -5,14 +5,14 @@
  * Copyright (c) 2013, Applied Micro Circuits Corporation
  * Author: Loc Ho <lho@apm.com>
  */
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/string_choices.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/of_address.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/string_choices.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/of_address.h>
 
 /* Register SCU_PCPPLL bit fields */
 #define N_DIV_RD(src)			((src) & 0x000001ff)

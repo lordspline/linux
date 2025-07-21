@@ -9,21 +9,21 @@
 
 #include <asm/head.h>
 
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/threads.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/perf_event.h>
-#include <linux/interrupt.h>
-#include <linux/kdebug.h>
-#include <linux/uaccess.h>
-#include <linux/extable.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/ptrace.h>
+#include <robux/mman.h>
+#include <robux/threads.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/perf_event.h>
+#include <robux/interrupt.h>
+#include <robux/kdebug.h>
+#include <robux/uaccess.h>
+#include <robux/extable.h>
 
 #include <asm/page.h>
 #include <asm/openprom.h>

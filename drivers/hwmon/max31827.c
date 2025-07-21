@@ -5,15 +5,15 @@
  * Copyright (c) 2023 Daniel Matyas <daniel.matyas@analog.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/of_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
+#include <robux/of_device.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 #define MAX31827_T_REG			0x0
 #define MAX31827_CONFIGURATION_REG	0x2

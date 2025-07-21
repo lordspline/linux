@@ -10,22 +10,22 @@
  * Copyright © 2012 Roland Stigge
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/mtd/lpc32xx_slc.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/mm.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
+#include <robux/mtd/lpc32xx_slc.h>
 
 #define LPC32XX_MODNAME		"lpc32xx-nand"
 

@@ -1,14 +1,14 @@
 /*
- * Copyright (C) 2003 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2003 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  * Copyright 2003 PathScale, Inc.
  *
  * Licensed under the GPL
  */
 
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
+#include <robux/sched.h>
+#include <robux/sched/mm.h>
+#include <robux/syscalls.h>
+#include <robux/uaccess.h>
 #include <asm/prctl.h> /* XXX This should get the constants from libc */
 #include <registers.h>
 #include <os.h>

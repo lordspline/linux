@@ -9,9 +9,9 @@
 #ifndef _AIC94XX_HWI_H_
 #define _AIC94XX_HWI_H_
 
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
 
 #include <scsi/libsas.h>
 

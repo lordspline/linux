@@ -5,9 +5,9 @@
  * All rights reserved
  */
 
-#include <linux/spinlock.h>
-#include <linux/phy.h>
-#include <linux/net_tstamp.h>
+#include <robux/spinlock.h>
+#include <robux/phy.h>
+#include <robux/net_tstamp.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

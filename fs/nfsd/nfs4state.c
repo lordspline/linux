@@ -32,20 +32,20 @@
 *
 */
 
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/namei.h>
-#include <linux/swap.h>
-#include <linux/pagemap.h>
-#include <linux/ratelimit.h>
-#include <linux/sunrpc/svcauth_gss.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/jhash.h>
-#include <linux/string_helpers.h>
-#include <linux/fsnotify.h>
-#include <linux/rhashtable.h>
-#include <linux/nfs_ssc.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/namei.h>
+#include <robux/swap.h>
+#include <robux/pagemap.h>
+#include <robux/ratelimit.h>
+#include <robux/sunrpc/svcauth_gss.h>
+#include <robux/sunrpc/addr.h>
+#include <robux/jhash.h>
+#include <robux/string_helpers.h>
+#include <robux/fsnotify.h>
+#include <robux/rhashtable.h>
+#include <robux/nfs_ssc.h>
 
 #include "xdr4.h"
 #include "xdr4cb.h"
@@ -3882,7 +3882,7 @@ static __be32 check_forechannel_attrs(struct nfsd4_channel_attrs *ca, struct nfs
 
 /*
  * Server's NFSv4.1 backchannel support is AUTH_SYS-only for now.
- * These are based on similar macros in linux/sunrpc/msg_prot.h .
+ * These are based on similar macros in robux/sunrpc/msg_prot.h .
  */
 #define RPC_MAX_HEADER_WITH_AUTH_SYS \
 	(RPC_CALLHDRSIZE + 2 * (2 + UNX_CALLSLACK))
@@ -6157,7 +6157,7 @@ nfs4_delegation_stat(struct nfs4_delegation *dp, struct svc_fh *currentfh,
 }
 
 /*
- * The Linux NFS server does not offer write delegations to NFSv4.0
+ * The Robux NFS server does not offer write delegations to NFSv4.0
  * clients in order to avoid conflicts between write delegations and
  * GETATTRs requesting CHANGE or SIZE attributes.
  *
@@ -7765,7 +7765,7 @@ last_byte_offset(u64 start, u64 len)
 }
 
 /*
- * TODO: Linux file offsets are _signed_ 64-bit quantities, which means that
+ * TODO: Robux file offsets are _signed_ 64-bit quantities, which means that
  * we can't properly handle lock requests that go beyond the (2^63 - 1)-th
  * byte, because of sign extension problems.  Since NFSv4 calls for 64-bit
  * locking, this prevents us from being completely protocol-compliant.  The

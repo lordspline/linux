@@ -10,22 +10,22 @@
  * Copyright (C) 2019-2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/atomic.h>
-#include <linux/completion.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/serdev.h>
-#include <linux/sysfs.h>
-#include <linux/units.h>
+#include <robux/acpi.h>
+#include <robux/atomic.h>
+#include <robux/completion.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/kref.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/serdev.h>
+#include <robux/sysfs.h>
+#include <robux/units.h>
 
-#include <linux/surface_aggregator/controller.h>
-#include <linux/surface_aggregator/device.h>
+#include <robux/surface_aggregator/controller.h>
+#include <robux/surface_aggregator/device.h>
 
 #include "bus.h"
 #include "controller.h"

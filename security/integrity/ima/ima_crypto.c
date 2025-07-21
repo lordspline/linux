@@ -10,14 +10,14 @@
  *	Calculates md5/sha1 file hash, template hash, boot-aggreate hash
  */
 
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/ratelimit.h>
-#include <linux/file.h>
-#include <linux/crypto.h>
-#include <linux/scatterlist.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/moduleparam.h>
+#include <robux/ratelimit.h>
+#include <robux/file.h>
+#include <robux/crypto.h>
+#include <robux/scatterlist.h>
+#include <robux/err.h>
+#include <robux/slab.h>
 #include <crypto/hash.h>
 
 #include "ima.h"

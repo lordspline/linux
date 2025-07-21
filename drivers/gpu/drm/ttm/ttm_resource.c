@@ -22,11 +22,11 @@
  * Authors: Christian König
  */
 
-#include <linux/debugfs.h>
-#include <linux/io-mapping.h>
-#include <linux/iosys-map.h>
-#include <linux/scatterlist.h>
-#include <linux/cgroup_dmem.h>
+#include <robux/debugfs.h>
+#include <robux/io-mapping.h>
+#include <robux/iosys-map.h>
+#include <robux/scatterlist.h>
+#include <robux/cgroup_dmem.h>
 
 #include <drm/ttm/ttm_bo.h>
 #include <drm/ttm/ttm_placement.h>

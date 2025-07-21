@@ -11,22 +11,22 @@
  * S3C USB2.0 High-speed / OtG driver
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/mutex.h>
+#include <robux/seq_file.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/slab.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/phy.h>
-#include <linux/usb/composite.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/phy.h>
+#include <robux/usb/composite.h>
 
 
 #include "core.h"

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/** -*- linux-c -*- ***********************************************************
- * Linux PPP over Ethernet (PPPoX/PPPoE) Sockets
+/** -*- robux-c -*- ***********************************************************
+ * Robux PPP over Ethernet (PPPoX/PPPoE) Sockets
  *
  * PPPoX --- Generic PPP encapsulation socket family
  * PPPoE --- PPP over Ethernet (RFC 2516)
@@ -52,33 +52,33 @@
  * License:
  */
 
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/net.h>
-#include <linux/inetdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/if_ether.h>
-#include <linux/if_pppox.h>
-#include <linux/ppp_channel.h>
-#include <linux/ppp_defs.h>
-#include <linux/ppp-ioctl.h>
-#include <linux/notifier.h>
-#include <linux/file.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <robux/string.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/netdevice.h>
+#include <robux/net.h>
+#include <robux/inetdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/init.h>
+#include <robux/if_ether.h>
+#include <robux/if_pppox.h>
+#include <robux/ppp_channel.h>
+#include <robux/ppp_defs.h>
+#include <robux/ppp-ioctl.h>
+#include <robux/notifier.h>
+#include <robux/file.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
 
-#include <linux/nsproxy.h>
+#include <robux/nsproxy.h>
 #include <net/net_namespace.h>
 #include <net/netns/generic.h>
 #include <net/sock.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #define PPPOE_HASH_BITS CONFIG_PPPOE_HASH_BITS
 #define PPPOE_HASH_SIZE (1 << PPPOE_HASH_BITS)

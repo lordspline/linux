@@ -4,11 +4,11 @@
 #ifndef PVR_ROGUE_FWIF_H
 #define PVR_ROGUE_FWIF_H
 
-#include <linux/bits.h>
-#include <linux/build_bug.h>
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/build_bug.h>
+#include <robux/compiler.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
 
 #include "pvr_rogue_defs.h"
 #include "pvr_rogue_fwif_common.h"

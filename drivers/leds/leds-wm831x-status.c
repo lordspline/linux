@@ -5,15 +5,15 @@
  * Copyright(C) 2009 Wolfson Microelectronics PLC.
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/leds.h>
-#include <linux/err.h>
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/pdata.h>
-#include <linux/mfd/wm831x/status.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/leds.h>
+#include <robux/err.h>
+#include <robux/mfd/wm831x/core.h>
+#include <robux/mfd/wm831x/pdata.h>
+#include <robux/mfd/wm831x/status.h>
+#include <robux/module.h>
 
 
 struct wm831x_status {

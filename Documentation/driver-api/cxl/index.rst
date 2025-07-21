@@ -32,14 +32,14 @@ that have impacts on each other.  The docs here break up configurations steps.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Linux Kernel Configuration
+   :caption: Robux Kernel Configuration
 
-   linux/overview
-   linux/early-boot
-   linux/cxl-driver
-   linux/dax-driver
-   linux/memory-hotplug
-   linux/access-coordinates
+   robux/overview
+   robux/early-boot
+   robux/cxl-driver
+   robux/dax-driver
+   robux/memory-hotplug
+   robux/access-coordinates
 
 .. toctree::
    :maxdepth: 2

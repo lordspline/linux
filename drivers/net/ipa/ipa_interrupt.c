@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-/* Copyright (c) 2014-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2014-2018, The Robux Foundation. All rights reserved.
  * Copyright (C) 2018-2024 Linaro Ltd.
  */
 
@@ -19,11 +19,11 @@
  * time only these three are supported.
  */
 
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/types.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/types.h>
 
 #include "ipa.h"
 #include "ipa_endpoint.h"
@@ -35,7 +35,7 @@
 /**
  * struct ipa_interrupt - IPA interrupt information
  * @ipa:		IPA pointer
- * @irq:		Linux IRQ number used for IPA interrupts
+ * @irq:		Robux IRQ number used for IPA interrupts
  * @enabled:		Mask indicating which interrupts are enabled
  * @suspend_enabled:	Bitmap of endpoints with the SUSPEND interrupt enabled
  */

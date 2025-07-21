@@ -6,17 +6,17 @@
 #ifndef _QEDF_DBG_H_
 #define _QEDF_DBG_H_
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/compiler.h>
-#include <linux/string.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/compiler.h>
+#include <robux/string.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
 #include <scsi/scsi_transport.h>
-#include <linux/fs.h>
+#include <robux/fs.h>
 
-#include <linux/qed/common_hsi.h>
-#include <linux/qed/qed_if.h>
+#include <robux/qed/common_hsi.h>
+#include <robux/qed/qed_if.h>
 
 extern uint qedf_debug;
 

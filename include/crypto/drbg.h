@@ -40,19 +40,19 @@
 #define _DRBG_H
 
 
-#include <linux/random.h>
-#include <linux/scatterlist.h>
+#include <robux/random.h>
+#include <robux/scatterlist.h>
 #include <crypto/hash.h>
 #include <crypto/skcipher.h>
-#include <linux/module.h>
-#include <linux/crypto.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/crypto.h>
+#include <robux/slab.h>
 #include <crypto/internal/rng.h>
 #include <crypto/rng.h>
-#include <linux/fips.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/workqueue.h>
+#include <robux/fips.h>
+#include <robux/mutex.h>
+#include <robux/list.h>
+#include <robux/workqueue.h>
 
 /*
  * Concatenation Helper and string operation helper

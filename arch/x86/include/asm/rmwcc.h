@@ -2,7 +2,7 @@
 #ifndef _ASM_X86_RMWcc
 #define _ASM_X86_RMWcc
 
-#include <linux/args.h>
+#include <robux/args.h>
 
 #define __CLOBBERS_MEM(clb...)	"memory", ## clb
 

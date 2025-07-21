@@ -6,15 +6,15 @@
  */
 #define pr_fmt(fmt)	"PCI: OF: " fmt
 
-#include <linux/cleanup.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/platform_device.h>
+#include <robux/cleanup.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/of_pci.h>
+#include <robux/platform_device.h>
 #include "pci.h"
 
 #ifdef CONFIG_PCI
@@ -215,13 +215,13 @@ static int of_pci_parse_bus_range(struct device_node *node,
  * @node: Device tree node with the domain information.
  *
  * This function will try to obtain the host bridge domain number by finding
- * a property called "linux,pci-domain" of the given device node.
+ * a property called "robux,pci-domain" of the given device node.
  *
  * Return:
  * * > 0	- On success, an associated domain number.
- * * -EINVAL	- The property "linux,pci-domain" does not exist.
- * * -ENODATA	- The linux,pci-domain" property does not have value.
- * * -EOVERFLOW	- Invalid "linux,pci-domain" property value.
+ * * -EINVAL	- The property "robux,pci-domain" does not exist.
+ * * -ENODATA	- The robux,pci-domain" property does not have value.
+ * * -EOVERFLOW	- Invalid "robux,pci-domain" property value.
  *
  * Returns the associated domain number from DT in the range [0-0xffff], or
  * a negative value if the required property is not found.
@@ -231,7 +231,7 @@ int of_get_pci_domain_nr(struct device_node *node)
 	u32 domain;
 	int error;
 
-	error = of_property_read_u32(node, "linux,pci-domain", &domain);
+	error = of_property_read_u32(node, "robux,pci-domain", &domain);
 	if (error)
 		return error;
 
@@ -244,7 +244,7 @@ EXPORT_SYMBOL_GPL(of_get_pci_domain_nr);
  *                          be preserved
  * @node: Device tree node.
  *
- * Look for "linux,pci-probe-only" property for a given PCI controller's
+ * Look for "robux,pci-probe-only" property for a given PCI controller's
  * node and return true if found. Also look in the chosen node if the
  * property is not found in the given controller's node.  Having this
  * property ensures that the kernel doesn't reconfigure the BARs and bridge
@@ -263,10 +263,10 @@ bool of_pci_preserve_config(struct device_node *node)
 	}
 
 retry:
-	ret = of_property_read_u32(node, "linux,pci-probe-only", &val);
+	ret = of_property_read_u32(node, "robux,pci-probe-only", &val);
 	if (ret) {
 		if (ret == -ENODATA || ret == -EOVERFLOW) {
-			pr_warn("Incorrect value for linux,pci-probe-only in %pOF, ignoring\n",
+			pr_warn("Incorrect value for robux,pci-probe-only in %pOF, ignoring\n",
 				node);
 			return false;
 		}
@@ -286,7 +286,7 @@ retry:
 }
 
 /**
- * of_pci_check_probe_only - Setup probe only mode if linux,pci-probe-only
+ * of_pci_check_probe_only - Setup probe only mode if robux,pci-probe-only
  *                           is present and valid
  */
 void of_pci_check_probe_only(void)
@@ -520,8 +520,8 @@ static int of_irq_parse_pci(const struct pci_dev *pdev, struct of_phandle_args *
 		 * Ok, we have found a parent with a device node, hand over to
 		 * the OF parsing code.
 		 *
-		 * We build a unit address from the linux device to be used for
-		 * resolution. Note that we use the linux bus number which may
+		 * We build a unit address from the robux device to be used for
+		 * resolution. Note that we use the robux bus number which may
 		 * not match your firmware bus numbering.
 		 *
 		 * Fortunately, in most cases, interrupt-map-mask doesn't

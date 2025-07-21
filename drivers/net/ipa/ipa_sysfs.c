@@ -2,9 +2,9 @@
 
 /* Copyright (C) 2021-2024 Linaro Ltd. */
 
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 #include "ipa.h"
 #include "ipa_sysfs.h"

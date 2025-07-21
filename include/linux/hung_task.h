@@ -8,9 +8,9 @@
 #ifndef __LINUX_HUNG_TASK_H
 #define __LINUX_HUNG_TASK_H
 
-#include <linux/bug.h>
-#include <linux/sched.h>
-#include <linux/compiler.h>
+#include <robux/bug.h>
+#include <robux/sched.h>
+#include <robux/compiler.h>
 
 /*
  * @blocker: Combines lock address and blocking type.

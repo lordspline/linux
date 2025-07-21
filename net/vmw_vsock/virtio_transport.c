@@ -9,16 +9,16 @@
  * Some of the code is take from Gerd Hoffmann <kraxel@redhat.com>'s
  * early virtio-vsock proof-of-concept bits.
  */
-#include <linux/spinlock.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/atomic.h>
-#include <linux/virtio.h>
-#include <linux/virtio_ids.h>
-#include <linux/virtio_config.h>
-#include <linux/virtio_vsock.h>
+#include <robux/spinlock.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/atomic.h>
+#include <robux/virtio.h>
+#include <robux/virtio_ids.h>
+#include <robux/virtio_config.h>
+#include <robux/virtio_vsock.h>
 #include <net/sock.h>
-#include <linux/mutex.h>
+#include <robux/mutex.h>
 #include <net/af_vsock.h>
 
 static struct workqueue_struct *virtio_vsock_workqueue;

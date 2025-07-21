@@ -3,8 +3,8 @@
  * Copyright © 2008-2012 Intel Corporation
  */
 
-#include <linux/errno.h>
-#include <linux/mutex.h>
+#include <robux/errno.h>
+#include <robux/mutex.h>
 
 #include <drm/drm_mm.h>
 #include <drm/intel/i915_drm.h>

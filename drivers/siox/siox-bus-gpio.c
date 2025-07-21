@@ -3,12 +3,12 @@
  * Copyright (C) 2015-2017 Pengutronix, Uwe Kleine-König <kernel@pengutronix.de>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
 
-#include <linux/delay.h>
+#include <robux/delay.h>
 
 #include "siox.h"
 

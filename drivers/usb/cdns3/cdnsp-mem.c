@@ -6,14 +6,14 @@
  *
  * Author: Pawel Laszczak <pawell@cadence.com>
  *
- * Code based on Linux XHCI driver.
+ * Code based on Robux XHCI driver.
  * Origin: Copyright (C) 2008 Intel Corp.
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmapool.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
 
 #include "cdnsp-gadget.h"
 #include "cdnsp-trace.h"

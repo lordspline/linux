@@ -10,18 +10,18 @@
  *   Author: Alexandre Rusev <source@mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/math64.h>
-#include <linux/property.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/tps65910.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/rtc.h>
+#include <robux/bcd.h>
+#include <robux/math64.h>
+#include <robux/property.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/tps65910.h>
 
 struct tps65910_rtc {
 	struct rtc_device	*rtc;
@@ -60,10 +60,10 @@ static int tps65910_rtc_alarm_irq_enable(struct device *dev,
  * Gets current tps65910 RTC time and date parameters.
  *
  * The RTC's time/alarm representation is not what gmtime(3) requires
- * Linux to use:
+ * Robux to use:
  *
- *  - Months are 1..12 vs Linux 0-11
- *  - Years are 0..99 vs Linux 1900..N (we assume 21st century)
+ *  - Months are 1..12 vs Robux 0-11
+ *  - Years are 0..99 vs Robux 1900..N (we assume 21st century)
  */
 static int tps65910_rtc_read_time(struct device *dev, struct rtc_time *tm)
 {

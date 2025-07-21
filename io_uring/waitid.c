@@ -2,14 +2,14 @@
 /*
  * Support for async notification of waitid
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/compat.h>
-#include <linux/io_uring.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/compat.h>
+#include <robux/io_uring.h>
 
-#include <uapi/linux/io_uring.h>
+#include <uapi/robux/io_uring.h>
 
 #include "io_uring.h"
 #include "cancel.h"

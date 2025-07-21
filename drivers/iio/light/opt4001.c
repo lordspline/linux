@@ -7,14 +7,14 @@
  * Device driver for the Texas Instruments OPT4001.
  */
 
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/bitfield.h>
+#include <robux/i2c.h>
+#include <robux/iio/iio.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 /* OPT4001 register set */
 #define OPT4001_LIGHT1_MSB    0x00

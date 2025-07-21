@@ -13,13 +13,13 @@
  *    - add userspace interface via procfs or sysfs to clear PDT
  */
 
-#include <linux/memblock.h>
-#include <linux/seq_file.h>
-#include <linux/kthread.h>
-#include <linux/proc_fs.h>
-#include <linux/initrd.h>
-#include <linux/pgtable.h>
-#include <linux/mm.h>
+#include <robux/memblock.h>
+#include <robux/seq_file.h>
+#include <robux/kthread.h>
+#include <robux/proc_fs.h>
+#include <robux/initrd.h>
+#include <robux/pgtable.h>
+#include <robux/mm.h>
 
 #include <asm/pdc.h>
 #include <asm/pdcpat.h>

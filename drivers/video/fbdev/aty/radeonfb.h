@@ -6,17 +6,17 @@
 #define DEBUG		1
 #endif
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/fb.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/fb.h>
 
 
 #ifdef CONFIG_FB_RADEON_I2C
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
+#include <robux/i2c.h>
+#include <robux/i2c-algo-bit.h>
 #endif
 
 #include <asm/io.h>

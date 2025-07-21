@@ -3,12 +3,12 @@
  * Copyright (C) 2012 Rabin Vincent <rabin at rab.in>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/wait.h>
-#include <linux/uprobes.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/stddef.h>
+#include <robux/wait.h>
+#include <robux/uprobes.h>
+#include <robux/module.h>
 
 #include "../decode.h"
 #include "../decode-arm.h"

@@ -11,31 +11,31 @@
  *
  * U8500 PRCM Unit interface driver
  */
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/completion.h>
-#include <linux/irq.h>
-#include <linux/jiffies.h>
-#include <linux/bitops.h>
-#include <linux/fs.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/dbx500-prcmu.h>
-#include <linux/mfd/abx500/ab8500.h>
-#include <linux/regulator/db8500-prcmu.h>
-#include <linux/regulator/machine.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/spinlock.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/completion.h>
+#include <robux/irq.h>
+#include <robux/jiffies.h>
+#include <robux/bitops.h>
+#include <robux/fs.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/uaccess.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/dbx500-prcmu.h>
+#include <robux/mfd/abx500/ab8500.h>
+#include <robux/regulator/db8500-prcmu.h>
+#include <robux/regulator/machine.h>
 #include "db8500-prcmu-regs.h"
 
 /* Index of different voltages to be used when accessing AVSData */

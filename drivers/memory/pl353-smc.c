@@ -7,13 +7,13 @@
  * Author: Naga Sureshkumar Relli <nagasure@xilinx.com>
  */
 
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/amba/bus.h>
+#include <robux/clk.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/amba/bus.h>
 
 /**
  * struct pl353_smc_data - Private smc driver structure

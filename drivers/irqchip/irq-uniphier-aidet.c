@@ -6,15 +6,15 @@
  *   Author: Masahiro Yamada <yamada.masahiro@socionext.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <robux/bitops.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
 
 #define UNIPHIER_AIDET_NR_IRQS		256
 

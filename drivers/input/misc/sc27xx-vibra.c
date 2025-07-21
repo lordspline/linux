@@ -3,14 +3,14 @@
  * Copyright (C) 2018 Spreadtrum Communications Inc.
  */
 
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/workqueue.h>
+#include <robux/device.h>
+#include <robux/input.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/workqueue.h>
 
 #define CUR_DRV_CAL_SEL			GENMASK(13, 12)
 #define SLP_LDOVIBR_PD_EN		BIT(9)

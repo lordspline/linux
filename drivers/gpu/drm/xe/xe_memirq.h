@@ -6,7 +6,7 @@
 #ifndef _XE_MEMIRQ_H_
 #define _XE_MEMIRQ_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct xe_guc;
 struct xe_hw_engine;

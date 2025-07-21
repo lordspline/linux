@@ -23,12 +23,12 @@
  *          Roy Sun
  */
 
-#include <linux/debugfs.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/reboot.h>
-#include <linux/syscalls.h>
+#include <robux/debugfs.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
+#include <robux/reboot.h>
+#include <robux/syscalls.h>
 
 #include <drm/amdgpu_drm.h>
 #include <drm/drm_debugfs.h>

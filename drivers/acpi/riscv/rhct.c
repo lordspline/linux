@@ -7,8 +7,8 @@
 
 #define pr_fmt(fmt)     "ACPI: RHCT: " fmt
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
 
 static struct acpi_table_rhct *acpi_get_rhct(void)
 {

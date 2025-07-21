@@ -2,29 +2,29 @@
 // Copyright 2020 IBM Corp.
 // Copyright (c) 2019-2020 Intel Corporation
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/v4l2-controls.h>
-#include <linux/videodev2.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/ktime.h>
+#include <robux/atomic.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/v4l2-controls.h>
+#include <robux/videodev2.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
+#include <robux/debugfs.h>
+#include <robux/ktime.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-dev.h>
 #include <media/v4l2-device.h>
@@ -32,7 +32,7 @@
 #include <media/v4l2-event.h>
 #include <media/v4l2-ioctl.h>
 #include <media/videobuf2-dma-contig.h>
-#include <uapi/linux/aspeed-video.h>
+#include <uapi/robux/aspeed-video.h>
 
 #define ASPEED_VIDEO_V4L2_MIN_BUF_REQ 3
 

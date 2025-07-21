@@ -8,10 +8,10 @@
  * Copyright (C) 2006, 2007 Motorola Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/stddef.h>
-#include <linux/ptrace.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/stddef.h>
+#include <robux/ptrace.h>
 
 #include "decode.h"
 #include "decode-arm.h"

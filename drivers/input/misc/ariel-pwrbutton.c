@@ -5,13 +5,13 @@
  * Copyright (C) 2020 Lubomir Rintel
  */
 
-#include <linux/device.h>
-#include <linux/gfp.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
+#include <robux/device.h>
+#include <robux/gfp.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
 
 #define RESP_COUNTER(response)	(response.header & 0x3)
 #define RESP_SIZE(response)	((response.header >> 2) & 0x3)

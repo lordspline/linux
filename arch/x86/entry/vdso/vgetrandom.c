@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2022-2024 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
  */
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include "../../../../lib/vdso/getrandom.c"
 

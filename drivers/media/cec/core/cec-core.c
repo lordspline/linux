@@ -5,16 +5,16 @@
  * Copyright 2016 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  */
 
-#include <linux/debugfs.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/kmod.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/debugfs.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/kmod.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #include "cec-priv.h"
 
@@ -400,7 +400,7 @@ void cec_delete_adapter(struct cec_adapter *adap)
 EXPORT_SYMBOL_GPL(cec_delete_adapter);
 
 /*
- *	Initialise cec for linux
+ *	Initialise cec for robux
  */
 static int __init cec_devnode_init(void)
 {

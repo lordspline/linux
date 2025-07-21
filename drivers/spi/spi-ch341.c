@@ -6,9 +6,9 @@
 //
 // Based on ch341a_spi.c from the flashrom project.
 
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/spi/spi.h>
 
 #define CH341_PACKET_LENGTH 32
 #define CH341_DEFAULT_TIMEOUT 1000

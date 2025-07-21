@@ -33,11 +33,11 @@
  *  675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/memblock.h>
-#include <linux/sizes.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/memblock.h>
+#include <robux/sizes.h>
+#include <robux/string.h>
 
 #include <asm/bootinfo.h>
 #include <prom.h>

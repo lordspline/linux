@@ -9,7 +9,7 @@
 #include <drm/drm_exec.h>
 #include <drm/drm_file.h>
 #include <uapi/drm/xe_drm.h>
-#include <linux/delay.h>
+#include <robux/delay.h>
 
 #include "xe_bo.h"
 #include "xe_device.h"

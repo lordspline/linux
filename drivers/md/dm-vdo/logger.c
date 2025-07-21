@@ -6,11 +6,11 @@
 #include "logger.h"
 
 #include <asm/current.h>
-#include <linux/delay.h>
-#include <linux/hardirq.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/sched.h>
+#include <robux/delay.h>
+#include <robux/hardirq.h>
+#include <robux/module.h>
+#include <robux/printk.h>
+#include <robux/sched.h>
 
 #include "errors.h"
 #include "thread-device.h"

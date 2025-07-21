@@ -3,14 +3,14 @@
 // Copyright (c) 2024 BayLibre, SAS.
 // Author: Jerome Brunet <jbrunet@baylibre.com>
 
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/bitfield.h>
+#include <robux/debugfs.h>
+#include <robux/err.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #include "pmbus.h"
 

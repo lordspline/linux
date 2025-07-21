@@ -5,8 +5,8 @@
  * Register definitions taken from original Realtek rtl8723au driver
  */
 
-#include <linux/average.h>
-#include <linux/usb.h>
+#include <robux/average.h>
+#include <robux/usb.h>
 #include <net/mac80211.h>
 
 #define RTL8XXXU_DEBUG_REG_WRITE	0x01

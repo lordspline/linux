@@ -4,7 +4,7 @@
  */
 
 #include <drm/drm_file.h>
-#include <linux/pm_runtime.h>
+#include <robux/pm_runtime.h>
 
 #include "ivpu_drv.h"
 #include "ivpu_gem.h"

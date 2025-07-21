@@ -7,24 +7,24 @@
  * <http://www.semtech.com/images/datasheet/sx9500.pdf>.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/acpi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regmap.h>
-#include <linux/pm.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/irq.h>
+#include <robux/acpi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regmap.h>
+#include <robux/pm.h>
+#include <robux/delay.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/events.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
 
 #define SX9500_DRIVER_NAME		"sx9500"
 #define SX9500_IRQ_NAME			"sx9500_event"

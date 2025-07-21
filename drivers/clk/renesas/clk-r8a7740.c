@@ -5,15 +5,15 @@
  * Copyright (C) 2014  Ulrich Hecht
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clk/renesas.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/spinlock.h>
+#include <robux/clk-provider.h>
+#include <robux/clk/renesas.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/spinlock.h>
 
 struct r8a7740_cpg {
 	struct clk_onecell_data data;

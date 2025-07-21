@@ -6,7 +6,7 @@
  * Andrzej Hajda <a.hajda@samsung.com>
  */
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include <drm/bridge/mhl.h>
 #include <drm/drm_bridge.h>
@@ -14,20 +14,20 @@
 #include <drm/drm_edid.h>
 #include <drm/drm_encoder.h>
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/extcon.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_graph.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/extcon.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of_graph.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
 #include <media/rc-core.h>
 

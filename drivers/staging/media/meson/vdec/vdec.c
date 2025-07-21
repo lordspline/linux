@@ -4,15 +4,15 @@
  * Author: Maxime Jourdan <mjourdan@baylibre.com>
  */
 
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/kthread.h>
+#include <robux/of.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/syscon.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/kthread.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-event.h>
 #include <media/v4l2-ctrls.h>

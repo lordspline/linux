@@ -5,11 +5,11 @@
  */
 
 #include <dt-bindings/pinctrl/mt65xx.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include "pinctrl-mtk-common.h"
 #include "pinctrl-mtk-mt8167.h"

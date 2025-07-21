@@ -6,9 +6,9 @@
 #ifndef _XE_GT_SRIOV_PF_CONTROL_TYPES_H_
 #define _XE_GT_SRIOV_PF_CONTROL_TYPES_H_
 
-#include <linux/completion.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue_types.h>
+#include <robux/completion.h>
+#include <robux/spinlock.h>
+#include <robux/workqueue_types.h>
 
 /**
  * enum xe_gt_sriov_control_bits - Various bits used by the PF to represent a VF state

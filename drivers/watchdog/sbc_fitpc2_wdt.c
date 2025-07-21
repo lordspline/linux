@@ -10,18 +10,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME " WATCHDOG: " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/miscdevice.h>
-#include <linux/watchdog.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/moduleparam.h>
-#include <linux/dmi.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/miscdevice.h>
+#include <robux/watchdog.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/moduleparam.h>
+#include <robux/dmi.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
 
 
 static bool nowayout = WATCHDOG_NOWAYOUT;

@@ -12,11 +12,11 @@
  * http://home.eeti.com.tw/web20/drivers/Software%20Programming%20Guide_v2.0.pdf 
  */
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
-#include <linux/input.h>
-#include <linux/serio.h>
-#include <linux/libps2.h>
+#include <robux/input.h>
+#include <robux/serio.h>
+#include <robux/libps2.h>
 
 #include "psmouse.h"
 #include "touchkit_ps2.h"

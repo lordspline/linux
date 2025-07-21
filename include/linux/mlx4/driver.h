@@ -34,9 +34,9 @@
 #define MLX4_DRIVER_H
 
 #include <net/devlink.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/notifier.h>
-#include <linux/mlx4/device.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/notifier.h>
+#include <robux/mlx4/device.h>
 
 #define MLX4_ADEV_NAME "mlx4_core"
 

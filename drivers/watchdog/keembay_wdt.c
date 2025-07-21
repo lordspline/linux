@@ -5,17 +5,17 @@
  * Copyright (C) 2020 Intel Corporation
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/watchdog.h>
+#include <robux/arm-smccc.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/limits.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/watchdog.h>
 
 /* Non-secure watchdog register offsets */
 #define TIM_WATCHDOG		0x0

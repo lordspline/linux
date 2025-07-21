@@ -5,8 +5,8 @@
 #ifndef __iwl_mld_mlo_h__
 #define __iwl_mld_mlo_h__
 
-#include <linux/ieee80211.h>
-#include <linux/types.h>
+#include <robux/ieee80211.h>
+#include <robux/types.h>
 #include <net/mac80211.h>
 #include "iwl-config.h"
 #include "iwl-trans.h"

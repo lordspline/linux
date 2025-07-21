@@ -32,15 +32,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
+#include <robux/watchdog.h>
 
 #include "sp5100_tco.h"
 

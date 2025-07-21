@@ -11,9 +11,9 @@
  * PCI interface for Renoir ACP device
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
 #include <sound/sof.h>
 #include <sound/soc-acpi.h>
 

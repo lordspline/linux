@@ -3,7 +3,7 @@
 #ifndef REALTEK_H
 #define REALTEK_H
 
-#include <linux/phy.h>
+#include <robux/phy.h>
 
 int rtl822x_hwmon_init(struct phy_device *phydev);
 

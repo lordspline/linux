@@ -7,14 +7,14 @@
  * This file is part of the Audiowerk2 ALSA driver
  *
  *****************************************************************************/
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>

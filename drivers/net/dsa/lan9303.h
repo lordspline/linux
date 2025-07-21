@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/regmap.h>
-#include <linux/device.h>
+#include <robux/regmap.h>
+#include <robux/device.h>
 #include <net/dsa.h>
 
-#include <linux/dsa/lan9303.h>
+#include <robux/dsa/lan9303.h>
 
 extern const struct regmap_access_table lan9303_register_set;
 extern const struct lan9303_phy_ops lan9303_indirect_phy_ops;

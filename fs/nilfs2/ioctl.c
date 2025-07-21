@@ -7,17 +7,17 @@
  * Written by Koji Sato.
  */
 
-#include <linux/fs.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/capability.h>	/* capable() */
-#include <linux/uaccess.h>	/* copy_from_user(), copy_to_user() */
-#include <linux/vmalloc.h>
-#include <linux/compat.h>	/* compat_ptr() */
-#include <linux/mount.h>	/* mnt_want_write_file(), mnt_drop_write_file() */
-#include <linux/buffer_head.h>
-#include <linux/fileattr.h>
-#include <linux/string.h>
+#include <robux/fs.h>
+#include <robux/wait.h>
+#include <robux/slab.h>
+#include <robux/capability.h>	/* capable() */
+#include <robux/uaccess.h>	/* copy_from_user(), copy_to_user() */
+#include <robux/vmalloc.h>
+#include <robux/compat.h>	/* compat_ptr() */
+#include <robux/mount.h>	/* mnt_want_write_file(), mnt_drop_write_file() */
+#include <robux/buffer_head.h>
+#include <robux/fileattr.h>
+#include <robux/string.h>
 #include "nilfs.h"
 #include "segment.h"
 #include "bmap.h"

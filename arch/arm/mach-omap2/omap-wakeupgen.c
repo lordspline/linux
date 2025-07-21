@@ -13,17 +13,17 @@
  *	Santosh Shilimkar <santosh.shilimkar@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/cpu.h>
-#include <linux/notifier.h>
-#include <linux/cpu_pm.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/cpu.h>
+#include <robux/notifier.h>
+#include <robux/cpu_pm.h>
 
 #include "omap-wakeupgen.h"
 #include "omap-secure.h"

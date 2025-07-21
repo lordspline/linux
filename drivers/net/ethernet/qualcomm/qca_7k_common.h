@@ -11,9 +11,9 @@
 #ifndef _QCA_FRAMING_H
 #define _QCA_FRAMING_H
 
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/types.h>
+#include <robux/if_ether.h>
+#include <robux/if_vlan.h>
+#include <robux/types.h>
 
 /* Frame is currently being received */
 #define QCAFRM_GATHER 0

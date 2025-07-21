@@ -7,10 +7,10 @@
  * Author: Claudiu Beznea <claudiu.beznea@microchip.com>
  *
  */
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/mfd/syscon.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/mfd/syscon.h>
+#include <robux/slab.h>
 
 #include <dt-bindings/clock/at91.h>
 

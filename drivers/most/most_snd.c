@@ -7,17 +7,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/printk.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/init.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
-#include <linux/sched.h>
-#include <linux/kthread.h>
-#include <linux/most.h>
+#include <robux/sched.h>
+#include <robux/kthread.h>
+#include <robux/most.h>
 
 #define DRIVER_NAME "sound"
 #define STRING_SIZE	80

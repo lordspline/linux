@@ -79,7 +79,7 @@
  * must be located in lower 1MB, as required by ACPI Specification for IA-PC
  * systems.
  * This feature flag is only consulted if XEN_ELFNOTE_GUEST_OS contains
- * the "linux" string.
+ * the "robux" string.
  */
 #define XENFEAT_linux_rsdp_unrestricted   15
 

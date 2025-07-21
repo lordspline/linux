@@ -9,8 +9,8 @@
 #ifndef _ARC_BPF_JIT_H
 #define _ARC_BPF_JIT_H
 
-#include <linux/bpf.h>
-#include <linux/filter.h>
+#include <robux/bpf.h>
+#include <robux/filter.h>
 
 /* Print debug info and assert. */
 //#define ARC_BPF_JIT_DEBUG

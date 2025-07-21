@@ -18,8 +18,8 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/string.h>
-#include <linux/kernel.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
 
 #include <asm/asm.h>
 #include <asm/page.h>

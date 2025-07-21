@@ -5,24 +5,24 @@
  * Copyright 2010 Analog Devices Inc.
  */
 
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/list.h>
-#include <linux/spi/spi.h>
-#include <linux/i2c.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/list.h>
+#include <robux/spi/spi.h>
+#include <robux/i2c.h>
+#include <robux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define MODE_PWRDWN_1k		0x1
 #define MODE_PWRDWN_100k	0x2

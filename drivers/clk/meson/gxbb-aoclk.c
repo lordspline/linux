@@ -3,9 +3,9 @@
  * Copyright (c) 2016 BayLibre, SAS.
  * Author: Neil Armstrong <narmstrong@baylibre.com>
  */
-#include <linux/platform_device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
 #include "meson-aoclk.h"
 
 #include "clk-regmap.h"

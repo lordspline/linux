@@ -3,9 +3,9 @@
 #ifndef _ASM_X86_TDX_H
 #define _ASM_X86_TDX_H
 
-#include <linux/init.h>
-#include <linux/bits.h>
-#include <linux/mmzone.h>
+#include <robux/init.h>
+#include <robux/bits.h>
+#include <robux/mmzone.h>
 
 #include <asm/errno.h>
 #include <asm/ptrace.h>
@@ -36,7 +36,7 @@
 
 #include <uapi/asm/mce.h>
 #include <asm/tdx_global_metadata.h>
-#include <linux/pgtable.h>
+#include <robux/pgtable.h>
 
 /*
  * Used by the #VE exception handler to gather the #VE exception

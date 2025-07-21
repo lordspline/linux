@@ -1,16 +1,16 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/arch/arm/mm/proc-v6.S
+ *  robux/arch/arm/mm/proc-v6.S
  *
  *  Copyright (C) 2001 Deep Blue Solutions Ltd.
  *  Modified by Catalin Marinas for noMMU support
  *
  *  This is the "shell" of the ARMv6 processor support.
  */
-#include <linux/init.h>
-#include <linux/cfi_types.h>
-#include <linux/linkage.h>
-#include <linux/pgtable.h>
+#include <robux/init.h>
+#include <robux/cfi_types.h>
+#include <robux/linkage.h>
+#include <robux/pgtable.h>
 #include <asm/assembler.h>
 #include <asm/asm-offsets.h>
 #include <asm/hwcap.h>

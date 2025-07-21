@@ -40,13 +40,13 @@
 		volume-up-button {
 			label = "Volume Up";
 			gpios = <&tlmm 107 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 		};
 
 		home-button {
 			label = "Home";
 			gpios = <&tlmm 109 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_HOMEPAGE>;
+			robux,code = <KEY_HOMEPAGE>;
 		};
 	};
 
@@ -61,9 +61,9 @@
 		hall-sensor-switch {
 			label = "Hall Effect Sensor";
 			gpios = <&tlmm 52 GPIO_ACTIVE_LOW>;
-			linux,input-type = <EV_SW>;
-			linux,code = <SW_LID>;
-			linux,can-disable;
+			robux,input-type = <EV_SW>;
+			robux,code = <SW_LID>;
+			robux,can-disable;
 		};
 	};
 };
@@ -146,7 +146,7 @@
 };
 
 &pm8916_resin {
-	linux,code = <KEY_VOLUMEDOWN>;
+	robux,code = <KEY_VOLUMEDOWN>;
 	status = "okay";
 };
 

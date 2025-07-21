@@ -5,11 +5,11 @@
  * Copyright (C) 2012 John Crispin <john@phrozen.org>
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/pm.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/pm.h>
 #include <asm/reboot.h>
-#include <linux/export.h>
+#include <robux/export.h>
 
 #include <lantiq_soc.h>
 

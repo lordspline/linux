@@ -6,19 +6,19 @@
 //
 // Author: David Dajun Chen <dchen@diasemi.com>
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/of.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/of.h>
+#include <robux/regulator/of_regulator.h>
 
-#include <linux/mfd/da9055/core.h>
-#include <linux/mfd/da9055/reg.h>
-#include <linux/mfd/da9055/pdata.h>
+#include <robux/mfd/da9055/core.h>
+#include <robux/mfd/da9055/reg.h>
+#include <robux/mfd/da9055/pdata.h>
 
 #define DA9055_MIN_UA		0
 #define DA9055_MAX_UA		3

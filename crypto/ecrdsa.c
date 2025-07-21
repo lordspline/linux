@@ -16,13 +16,13 @@
  * any later version.
  */
 
-#include <linux/module.h>
-#include <linux/crypto.h>
+#include <robux/module.h>
+#include <robux/crypto.h>
 #include <crypto/sig.h>
 #include <crypto/streebog.h>
 #include <crypto/internal/ecc.h>
 #include <crypto/internal/sig.h>
-#include <linux/oid_registry.h>
+#include <robux/oid_registry.h>
 #include "ecrdsa_params.asn1.h"
 #include "ecrdsa_pub_key.asn1.h"
 #include "ecrdsa_defs.h"

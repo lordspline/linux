@@ -25,22 +25,22 @@
 // contains the same value) these status bits are not set. We work
 // around this by not polling these bits but only wait a fixed delay.
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/dma/imx-dma.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/ctype.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/dma/imx-dma.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

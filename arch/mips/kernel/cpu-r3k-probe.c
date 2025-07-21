@@ -7,12 +7,12 @@
  * Copyright (C) 2003, 2004  Maciej W. Rozycki
  * Copyright (C) 2001, 2004, 2011, 2012	 MIPS Technologies, Inc.
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/export.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/smp.h>
+#include <robux/stddef.h>
+#include <robux/export.h>
 
 #include <asm/bugs.h>
 #include <asm/cpu.h>

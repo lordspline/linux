@@ -9,12 +9,12 @@
  * Copyright (C) 2002 Hewlett-Packard Company
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/init.h>
+#include <robux/uaccess.h>
 
 /*
  * "IKCFG_ST" and "IKCFG_ED" are used to extract the config data from

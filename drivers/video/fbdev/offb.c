@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/offb.c -- Open Firmware based frame buffer device
+ *  robux/drivers/video/offb.c -- Open Firmware based frame buffer device
  *
  *	Copyright (C) 1997 Geert Uytterhoeven
  *
@@ -12,22 +12,22 @@
  *  more details.
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/interrupt.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/interrupt.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
 #include <asm/io.h>
 
 #ifdef CONFIG_PPC32
@@ -551,25 +551,25 @@ static void offb_init_nodriver(struct platform_device *parent, struct device_nod
 		foreign_endian = FBINFO_FOREIGN_ENDIAN;
 #endif
 
-	pp = of_get_property(dp, "linux,bootx-depth", &len);
+	pp = of_get_property(dp, "robux,bootx-depth", &len);
 	if (pp == NULL)
 		pp = of_get_property(dp, "depth", &len);
 	if (pp && len == sizeof(u32))
 		depth = be32_to_cpup(pp);
 
-	pp = of_get_property(dp, "linux,bootx-width", &len);
+	pp = of_get_property(dp, "robux,bootx-width", &len);
 	if (pp == NULL)
 		pp = of_get_property(dp, "width", &len);
 	if (pp && len == sizeof(u32))
 		width = be32_to_cpup(pp);
 
-	pp = of_get_property(dp, "linux,bootx-height", &len);
+	pp = of_get_property(dp, "robux,bootx-height", &len);
 	if (pp == NULL)
 		pp = of_get_property(dp, "height", &len);
 	if (pp && len == sizeof(u32))
 		height = be32_to_cpup(pp);
 
-	pp = of_get_property(dp, "linux,bootx-linebytes", &len);
+	pp = of_get_property(dp, "robux,bootx-linebytes", &len);
 	if (pp == NULL)
 		pp = of_get_property(dp, "linebytes", &len);
 	if (pp && len == sizeof(u32) && (*pp != 0xffffffffu))
@@ -589,7 +589,7 @@ static void offb_init_nodriver(struct platform_device *parent, struct device_nod
 	 * ranges and pick one that is both big enough and if possible encloses
 	 * the "address" property. If none match, we pick the biggest
 	 */
-	up = of_get_property(dp, "linux,bootx-addr", &len);
+	up = of_get_property(dp, "robux,bootx-addr", &len);
 	if (up == NULL)
 		up = of_get_property(dp, "address", &len);
 	if (up && len == sizeof(u32))

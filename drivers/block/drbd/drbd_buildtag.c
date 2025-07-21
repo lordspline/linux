@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/drbd_config.h>
-#include <linux/module.h>
+#include <robux/drbd_config.h>
+#include <robux/module.h>
 
 const char *drbd_buildtag(void)
 {

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * hwmon.c - part of lm_sensors, Linux kernel modules for hardware monitoring
+ * hwmon.c - part of lm_sensors, Robux kernel modules for hardware monitoring
  *
  * This file defines the sysfs class "hwmon", for use by sensors drivers.
  *
@@ -9,21 +9,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/idr.h>
-#include <linux/kstrtox.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/thermal.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gfp.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/idr.h>
+#include <robux/kstrtox.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/thermal.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/hwmon.h>

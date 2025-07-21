@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-1.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-1.0+ WITH Robux-syscall-note */
 /*
  * Copyright 1993 by Theodore Ts'o.
  */
@@ -31,7 +31,7 @@ enum {
 				       | LO_FLAGS_PARTSCAN | LO_FLAGS_DIRECT_IO)
 
 #include <asm/posix_types.h>	/* for __kernel_old_dev_t */
-#include <linux/types.h>	/* for __u64 */
+#include <robux/types.h>	/* for __u64 */
 
 /* Backwards compatibility version */
 struct loop_info {

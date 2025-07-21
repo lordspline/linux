@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  IUCV protocol stack for Linux on zSeries
+ *  IUCV protocol stack for Robux on zSeries
  *
  *  Copyright IBM Corp. 2006, 2009
  *
  *  Author(s):	Jennifer Hunt <jenhunt@us.ibm.com>
- *		Hendrik Brueckner <brueckner@linux.vnet.ibm.com>
+ *		Hendrik Brueckner <brueckner@robux.vnet.ibm.com>
  *  PM functions:
  *		Ursula Braun <ursula.braun@de.ibm.com>
  */
@@ -13,25 +13,25 @@
 #define KMSG_COMPONENT "af_iucv"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/filter.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/types.h>
-#include <linux/limits.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/poll.h>
-#include <linux/security.h>
+#include <robux/filter.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/types.h>
+#include <robux/limits.h>
+#include <robux/list.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/skbuff.h>
+#include <robux/init.h>
+#include <robux/poll.h>
+#include <robux/security.h>
 #include <net/sock.h>
 #include <asm/machine.h>
 #include <asm/ebcdic.h>
 #include <asm/cpcmd.h>
-#include <linux/kmod.h>
+#include <robux/kmod.h>
 
 #include <net/iucv/af_iucv.h>
 

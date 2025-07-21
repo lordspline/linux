@@ -5,9 +5,9 @@
  *
  ******************************************************************************/
 
-#include <linux/etherdevice.h>
+#include <robux/etherdevice.h>
 #include <drv_types.h>
-#include <linux/jiffies.h>
+#include <robux/jiffies.h>
 
 #include <rtw_wifi_regd.h>
 

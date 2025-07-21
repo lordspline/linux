@@ -11,30 +11,30 @@
  *  Modified for PPC64 by Dave Engebretsen (engebret@ibm.com)
  */
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
-#include <linux/pagemap.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/highmem.h>
-#include <linux/extable.h>
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
-#include <linux/perf_event.h>
-#include <linux/ratelimit.h>
-#include <linux/context_tracking.h>
-#include <linux/hugetlb.h>
-#include <linux/uaccess.h>
-#include <linux/kfence.h>
-#include <linux/pkeys.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/string_choices.h>
+#include <robux/types.h>
+#include <robux/pagemap.h>
+#include <robux/ptrace.h>
+#include <robux/mman.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/highmem.h>
+#include <robux/extable.h>
+#include <robux/kprobes.h>
+#include <robux/kdebug.h>
+#include <robux/perf_event.h>
+#include <robux/ratelimit.h>
+#include <robux/context_tracking.h>
+#include <robux/hugetlb.h>
+#include <robux/uaccess.h>
+#include <robux/kfence.h>
+#include <robux/pkeys.h>
 
 #include <asm/firmware.h>
 #include <asm/interrupt.h>

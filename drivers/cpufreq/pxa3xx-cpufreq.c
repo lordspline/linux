@@ -3,15 +3,15 @@
  * Copyright (C) 2008 Marvell International Ltd.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/soc/pxa/cpu.h>
-#include <linux/clk/pxa.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/cpufreq.h>
+#include <robux/soc/pxa/cpu.h>
+#include <robux/clk/pxa.h>
+#include <robux/slab.h>
+#include <robux/io.h>
 
 #define HSS_104M	(0)
 #define HSS_156M	(1)

@@ -6,7 +6,7 @@
 #ifndef _DRM_LEASE_H_
 #define _DRM_LEASE_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct drm_file;
 struct drm_device;

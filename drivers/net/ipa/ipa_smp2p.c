@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
 
-/* Copyright (c) 2012-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2012-2018, The Robux Foundation. All rights reserved.
  * Copyright (C) 2019-2024 Linaro Ltd.
  */
 
-#include <linux/interrupt.h>
-#include <linux/notifier.h>
-#include <linux/panic_notifier.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/types.h>
+#include <robux/interrupt.h>
+#include <robux/notifier.h>
+#include <robux/panic_notifier.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/types.h>
 
-#include <linux/soc/qcom/smem_state.h>
+#include <robux/soc/qcom/smem_state.h>
 
 #include "ipa.h"
 #include "ipa_smp2p.h"

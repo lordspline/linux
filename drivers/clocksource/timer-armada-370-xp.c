@@ -25,22 +25,22 @@
  * See Documentation/devicetree/bindings/timer/marvell,armada-370-xp-timer.txt
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/timer.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/sched_clock.h>
-#include <linux/percpu.h>
-#include <linux/syscore_ops.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/clk.h>
+#include <robux/cpu.h>
+#include <robux/timer.h>
+#include <robux/clockchips.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/sched_clock.h>
+#include <robux/percpu.h>
+#include <robux/syscore_ops.h>
 
 #include <asm/delay.h>
 

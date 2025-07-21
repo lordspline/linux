@@ -1,4 +1,4 @@
-/* linux/mfd/tps65010.h
+/* robux/mfd/tps65010.h
  *
  * Functions to access TPS65010 power management device.
  *

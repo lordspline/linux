@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2019 Arm Ltd.
 
-#include <linux/arm-smccc.h>
-#include <linux/kvm_host.h>
-#include <linux/sched/stat.h>
+#include <robux/arm-smccc.h>
+#include <robux/kvm_host.h>
+#include <robux/sched/stat.h>
 
 #include <asm/kvm_mmu.h>
 #include <asm/pvclock-abi.h>

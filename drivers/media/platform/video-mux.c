@@ -6,14 +6,14 @@
  * Copyright (C) 2016-2017 Pengutronix, Philipp Zabel <kernel@pengutronix.de>
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/mux/consumer.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/mux/consumer.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 #include <media/v4l2-async.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-fwnode.h>

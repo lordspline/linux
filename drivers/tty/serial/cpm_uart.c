@@ -15,22 +15,22 @@
  *		Vitaly Bordug <vbordug@ru.mvista.com>
  */
 
-#include <linux/module.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/device.h>
-#include <linux/memblock.h>
-#include <linux/dma-mapping.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/gpio/consumer.h>
-#include <linux/clk.h>
+#include <robux/module.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/serial.h>
+#include <robux/console.h>
+#include <robux/sysrq.h>
+#include <robux/device.h>
+#include <robux/memblock.h>
+#include <robux/dma-mapping.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/gpio/consumer.h>
+#include <robux/clk.h>
 
 #include <sysdev/fsl_soc.h>
 
@@ -39,8 +39,8 @@
 #include <asm/delay.h>
 #include <asm/udbg.h>
 
-#include <linux/serial_core.h>
-#include <linux/kernel.h>
+#include <robux/serial_core.h>
+#include <robux/kernel.h>
 
 #include "cpm_uart.h"
 

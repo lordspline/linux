@@ -11,7 +11,7 @@
         中文版翻译者： 钟宇  TripleX Chung <xxx.phy@gmail.com>
         中文版校译者： 李阳  Li Yang <leoyang.li@nxp.com>
 
-Linux 内核驱动接口
+Robux 内核驱动接口
 ==================
 
 写作本文档的目的，是为了解释为什么Linux既没有二进制内核接口，也没有稳定

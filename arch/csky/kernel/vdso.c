@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Hangzhou C-SKY Microsystems co.,ltd.
 
-#include <linux/binfmts.h>
-#include <linux/elf.h>
-#include <linux/err.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <robux/binfmts.h>
+#include <robux/elf.h>
+#include <robux/err.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
 
 #include <asm/page.h>
 

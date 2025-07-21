@@ -2,30 +2,30 @@
 /*
  * File operations for Coda.
  * Original version: (C) 1996 Peter Braam 
- * Rewritten for Linux 2.1: (C) 1997 Carnegie Mellon University
+ * Rewritten for Robux 2.1: (C) 1997 Carnegie Mellon University
  *
  * Carnegie Mellon encourages users of this code to contribute improvements
  * to the Coda project. Contact Peter Braam <coda@cs.cmu.edu>.
  */
 
-#include <linux/refcount.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/stat.h>
-#include <linux/cred.h>
-#include <linux/errno.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/uio.h>
-#include <linux/splice.h>
+#include <robux/refcount.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/time.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/pagemap.h>
+#include <robux/stat.h>
+#include <robux/cred.h>
+#include <robux/errno.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/uio.h>
+#include <robux/splice.h>
 
-#include <linux/coda.h>
+#include <robux/coda.h>
 #include "coda_psdev.h"
 #include "coda_linux.h"
 #include "coda_int.h"

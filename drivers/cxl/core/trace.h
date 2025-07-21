@@ -6,9 +6,9 @@
 #if !defined(_CXL_EVENTS_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _CXL_EVENTS_H
 
-#include <linux/tracepoint.h>
-#include <linux/pci.h>
-#include <linux/unaligned.h>
+#include <robux/tracepoint.h>
+#include <robux/pci.h>
+#include <robux/unaligned.h>
 
 #include <cxl.h>
 #include <cxlmem.h>

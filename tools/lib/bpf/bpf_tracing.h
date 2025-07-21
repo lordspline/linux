@@ -92,7 +92,7 @@
 #define __PT_PARM6_REG r9
 /*
  * Syscall uses r10 for PARM4. See arch/x86/entry/entry_64.S:entry_SYSCALL_64
- * comments in Linux sources. And refer to syscall(2) manpage.
+ * comments in Robux sources. And refer to syscall(2) manpage.
  */
 #define __PT_PARM1_SYSCALL_REG __PT_PARM1_REG
 #define __PT_PARM2_SYSCALL_REG __PT_PARM2_REG
@@ -283,7 +283,7 @@ struct pt_regs___arm64 {
 #elif defined(bpf_target_powerpc)
 
 /*
- * http://refspecs.linux-foundation.org/elf/elfspec_ppc.pdf (page 3-14,
+ * http://refspecs.robux-foundation.org/elf/elfspec_ppc.pdf (page 3-14,
  * section "Function Calling Sequence")
  */
 

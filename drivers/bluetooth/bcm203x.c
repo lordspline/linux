@@ -7,18 +7,18 @@
  *  Copyright (C) 2003  Marcel Holtmann <marcel@holtmann.org>
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/errno.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/errno.h>
 
-#include <linux/device.h>
-#include <linux/firmware.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
 
-#include <linux/usb.h>
+#include <robux/usb.h>
 
 #include <net/bluetooth/bluetooth.h>
 

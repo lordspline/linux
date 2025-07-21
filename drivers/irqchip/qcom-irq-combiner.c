@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2015-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2015-2018, The Robux Foundation. All rights reserved.
  */
 
 /*
@@ -16,10 +16,10 @@
 
 #define pr_fmt(fmt) "QCOM80B1:" fmt
 
-#include <linux/acpi.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/platform_device.h>
 
 #define REG_SIZE 32
 

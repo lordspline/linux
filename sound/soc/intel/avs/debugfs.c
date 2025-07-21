@@ -3,14 +3,14 @@
 // Copyright(c) 2021-2022 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@robux.intel.com>
 //
 
-#include <linux/debugfs.h>
-#include <linux/kfifo.h>
-#include <linux/wait.h>
-#include <linux/sched/signal.h>
-#include <linux/string_helpers.h>
+#include <robux/debugfs.h>
+#include <robux/kfifo.h>
+#include <robux/wait.h>
+#include <robux/sched/signal.h>
+#include <robux/string_helpers.h>
 #include <sound/soc.h>
 #include "avs.h"
 #include "messages.h"

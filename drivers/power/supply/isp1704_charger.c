@@ -6,23 +6,23 @@
  * Copyright (C) 2012 - 2013 Pali Rohár <pali@kernel.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/delay.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/sysfs.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/delay.h>
+#include <robux/of.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/ulpi.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
+#include <robux/gpio/consumer.h>
+#include <robux/usb/otg.h>
+#include <robux/usb/ulpi.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
 
 /* Vendor specific Power Control register */
 #define ISP1704_PWR_CTRL		0x3d

@@ -4,13 +4,13 @@
  *
  * Copyright 2015 Álvaro Fernández Rojas <noltari@gmail.com>
  */
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
 
 #define BCM6358_REG_MODE		0x0
 #define BCM6358_REG_CTRL		0x4

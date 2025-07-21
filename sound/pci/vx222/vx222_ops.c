@@ -7,11 +7,11 @@
  * Copyright (c) 2002 by Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/mutex.h>
-#include <linux/io.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/mutex.h>
+#include <robux/io.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

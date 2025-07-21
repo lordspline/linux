@@ -15,15 +15,15 @@
  *                   - G, Manjunath Kondaiah <manjugk@ti.com>
  */
 
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/omap-dma.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/omap-dma.h>
 #include "tc.h"
 
 #include "soc.h"

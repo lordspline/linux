@@ -3,8 +3,8 @@
 #ifndef BTRFS_DISCARD_H
 #define BTRFS_DISCARD_H
 
-#include <linux/types.h>
-#include <linux/sizes.h>
+#include <robux/types.h>
+#include <robux/sizes.h>
 
 struct btrfs_fs_info;
 struct btrfs_discard_ctl;

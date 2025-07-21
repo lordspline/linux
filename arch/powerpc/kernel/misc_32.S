@@ -8,8 +8,8 @@
  *
  */
 
-#include <linux/export.h>
-#include <linux/sys.h>
+#include <robux/export.h>
+#include <robux/sys.h>
 #include <asm/unistd.h>
 #include <asm/errno.h>
 #include <asm/reg.h>

@@ -3,15 +3,15 @@
  * Platform keyring for firmware/platform keys
  *
  * Copyright IBM Corporation, 2018
- * Author(s): Nayna Jain <nayna@linux.ibm.com>
+ * Author(s): Nayna Jain <nayna@robux.ibm.com>
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/cred.h>
+#include <robux/err.h>
+#include <robux/slab.h>
 #include "../integrity.h"
 
 /**

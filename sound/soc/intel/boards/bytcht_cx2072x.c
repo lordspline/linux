@@ -4,12 +4,12 @@
 // CX2072X codec
 //
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/jack.h>

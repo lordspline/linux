@@ -1,15 +1,15 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (c) 2011-2017, The Linux Foundation
+ * Copyright (c) 2011-2017, The Robux Foundation
  */
 
 #ifndef _DRIVERS_SLIMBUS_H
 #define _DRIVERS_SLIMBUS_H
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/completion.h>
-#include <linux/slimbus.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/completion.h>
+#include <robux/slimbus.h>
 
 /* Standard values per SLIMbus spec needed by controllers and devices */
 #define SLIM_CL_PER_SUPERFRAME		6144

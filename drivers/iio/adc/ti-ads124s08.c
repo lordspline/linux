@@ -3,25 +3,25 @@
  * Copyright (C) 2018 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/spi/spi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/spi/spi.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/sysfs.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 /* Commands */
 #define ADS124S08_CMD_NOP	0x00

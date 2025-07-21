@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /* Copyright (C) 2022 Hewlett-Packard Development Company, L.P. */
 
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
+#include <robux/iopoll.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
 
 #define GXP_SPI0_MAX_CHIPSELECT	2
 #define GXP_SPI_SLEEP_TIME	1

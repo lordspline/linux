@@ -5,19 +5,19 @@
  * Copyright (C) 2017 Imagination Technologies Ltd.
  */
 
-#include <linux/console.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/goldfish.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
-#include <linux/serial_core.h>
+#include <robux/console.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/goldfish.h>
+#include <robux/mm.h>
+#include <robux/dma-mapping.h>
+#include <robux/serial_core.h>
 
 /* Goldfish tty register's offsets */
 #define	GOLDFISH_TTY_REG_BYTES_READY	0x04

@@ -296,7 +296,7 @@ cat << EOF
 #ifndef _LINUX_ATOMIC_FALLBACK_H
 #define _LINUX_ATOMIC_FALLBACK_H
 
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 
 EOF
 

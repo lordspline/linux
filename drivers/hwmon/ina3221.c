@@ -6,16 +6,16 @@
  *	Andrew F. Davis <afd@ti.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/util_macros.h>
+#include <robux/debugfs.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/util_macros.h>
 
 #define INA3221_DRIVER_NAME		"ina3221"
 

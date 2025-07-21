@@ -4,8 +4,8 @@
 #ifndef __SDW_REGISTERS_H
 #define __SDW_REGISTERS_H
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
 
 /*
  * SDW registers as defined by MIPI 1.2 Spec

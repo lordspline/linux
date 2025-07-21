@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
  * Copyright (c) 2023, Intel Corporation.
- * Intel Visual Sensing Controller Transport Layer Linux driver
+ * Intel Visual Sensing Controller Transport Layer Robux driver
  */
 
 #ifndef _VSC_TP_H_
 #define _VSC_TP_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define VSC_TP_CMD_WRITE	0x01
 #define VSC_TP_CMD_READ		0x02

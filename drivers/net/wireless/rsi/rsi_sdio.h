@@ -19,13 +19,13 @@
 #ifndef __RSI_SDIO_INTF__
 #define __RSI_SDIO_INTF__
 
-#include <linux/mmc/card.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/sd.h>
-#include <linux/mmc/sdio_ids.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/sdio_func.h>
+#include <robux/mmc/sdio.h>
+#include <robux/mmc/sd.h>
+#include <robux/mmc/sdio_ids.h>
 #include "rsi_main.h"
 
 enum sdio_interrupt_type {

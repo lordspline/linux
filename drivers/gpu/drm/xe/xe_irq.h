@@ -6,7 +6,7 @@
 #ifndef _XE_IRQ_H_
 #define _XE_IRQ_H_
 
-#include <linux/interrupt.h>
+#include <robux/interrupt.h>
 
 #define XE_IRQ_DEFAULT_MSIX 1
 

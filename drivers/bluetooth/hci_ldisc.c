@@ -8,25 +8,25 @@
  *  Copyright (C) 2004-2005  Marcel Holtmann <marcel@holtmann.org>
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ptrace.h>
-#include <linux/poll.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/interrupt.h>
+#include <robux/ptrace.h>
+#include <robux/poll.h>
 
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/signal.h>
-#include <linux/ioctl.h>
-#include <linux/skbuff.h>
-#include <linux/firmware.h>
-#include <linux/serdev.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/signal.h>
+#include <robux/ioctl.h>
+#include <robux/skbuff.h>
+#include <robux/firmware.h>
+#include <robux/serdev.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

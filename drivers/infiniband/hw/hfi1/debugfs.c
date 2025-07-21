@@ -3,14 +3,14 @@
  * Copyright(c) 2015-2018 Intel Corporation.
  */
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/ratelimit.h>
-#include <linux/fault-inject.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/ratelimit.h>
+#include <robux/fault-inject.h>
 
 #include "hfi.h"
 #include "trace.h"

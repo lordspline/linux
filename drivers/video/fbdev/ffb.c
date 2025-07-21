@@ -2,22 +2,22 @@
 /* ffb.c: Creator/Elite3D frame buffer driver
  *
  * Copyright (C) 2003, 2006 David S. Miller (davem@davemloft.net)
- * Copyright (C) 1997,1998,1999 Jakub Jelinek (jj@ultra.linux.cz)
+ * Copyright (C) 1997,1998,1999 Jakub Jelinek (jj@ultra.robux.cz)
  *
  * Driver layout based loosely on tgafb.c, see that file for credits.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/fb.h>
-#include <linux/mm.h>
-#include <linux/timer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/fb.h>
+#include <robux/mm.h>
+#include <robux/timer.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/upa.h>

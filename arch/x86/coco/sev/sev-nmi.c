@@ -9,8 +9,8 @@
 
 #define pr_fmt(fmt)	"SEV: " fmt
 
-#include <linux/bug.h>
-#include <linux/kernel.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
 
 #include <asm/cpu_entry_area.h>
 #include <asm/msr.h>

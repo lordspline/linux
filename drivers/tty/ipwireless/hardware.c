@@ -16,12 +16,12 @@
  *   Copyright (C) 2007 David Sterba
  */
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/slab.h>
 
 #include "hardware.h"
 #include "setup_protocol.h"

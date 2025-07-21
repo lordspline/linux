@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 // Copyright (c) 2020 Mellanox Technologies
 
 #include "en/ptp.h"
@@ -6,8 +6,8 @@
 #include "en/txrx.h"
 #include "en/params.h"
 #include "en/fs_tt_redirect.h"
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
 #include <net/netdev_lock.h>
 
 struct mlx5e_ptp_fs {

@@ -2,20 +2,20 @@
 /*
  * Driver for Audio DMA Controller (ADMAC) on t8103 (M1) and other Apple chips
  *
- * Copyright (C) The Asahi Linux Contributors
+ * Copyright (C) The Asahi Robux Contributors
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
 
 #include "dmaengine.h"
 

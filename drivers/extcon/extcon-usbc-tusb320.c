@@ -6,18 +6,18 @@
  * Author: Michael Auchter <michael.auchter@ni.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/extcon-provider.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/usb/typec.h>
-#include <linux/usb/typec_altmode.h>
-#include <linux/usb/role.h>
-#include <linux/irq.h>
+#include <robux/bitfield.h>
+#include <robux/extcon-provider.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/usb/typec.h>
+#include <robux/usb/typec_altmode.h>
+#include <robux/usb/role.h>
+#include <robux/irq.h>
 
 #define TUSB320_REG8				0x8
 #define TUSB320_REG8_CURRENT_MODE_ADVERTISE	GENMASK(7, 6)

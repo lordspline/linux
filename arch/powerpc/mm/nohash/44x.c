@@ -18,8 +18,8 @@
  *    Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
 
-#include <linux/init.h>
-#include <linux/memblock.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
 
 #include <asm/mmu.h>
 #include <asm/page.h>

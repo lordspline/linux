@@ -38,21 +38,21 @@
 
 		pal-switch {
 			label = "pal";
-			linux,input-type = <EV_SW>;
-			linux,code = <KEY_SWITCHVIDEOMODE>;
+			robux,input-type = <EV_SW>;
+			robux,code = <KEY_SWITCHVIDEOMODE>;
 			gpios = <&gpio GPIOH_7 GPIO_ACTIVE_LOW>;
 		};
 
 		ntsc-switch {
 			label = "ntsc";
-			linux,input-type = <EV_SW>;
-			linux,code = <KEY_SWITCHVIDEOMODE>;
+			robux,input-type = <EV_SW>;
+			robux,code = <KEY_SWITCHVIDEOMODE>;
 			gpios = <&gpio GPIOH_8 GPIO_ACTIVE_HIGH>;
 		};
 
 		power-button {
 			label = "power";
-			linux,code = <KEY_POWER>;
+			robux,code = <KEY_POWER>;
 			gpios = <&gpio GPIOH_9 GPIO_ACTIVE_LOW>;
 		};
 	};

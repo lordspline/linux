@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/array_size.h>
-#include <linux/sort.h>
-#include <linux/printk.h>
-#include <linux/memblock.h>
-#include <linux/numa.h>
-#include <linux/numa_memblks.h>
+#include <robux/array_size.h>
+#include <robux/sort.h>
+#include <robux/printk.h>
+#include <robux/memblock.h>
+#include <robux/numa.h>
+#include <robux/numa_memblks.h>
 
 int numa_distance_cnt;
 static u8 *numa_distance;

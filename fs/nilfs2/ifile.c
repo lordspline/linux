@@ -9,8 +9,8 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/buffer_head.h>
+#include <robux/types.h>
+#include <robux/buffer_head.h>
 #include "nilfs.h"
 #include "mdt.h"
 #include "alloc.h"

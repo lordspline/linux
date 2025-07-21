@@ -7,11 +7,11 @@
  *
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 
 #include "stmmac_platform.h"
 

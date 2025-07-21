@@ -6,10 +6,10 @@
 #ifndef _XE_SRIOV_TYPES_H_
 #define _XE_SRIOV_TYPES_H_
 
-#include <linux/build_bug.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/workqueue_types.h>
+#include <robux/build_bug.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
+#include <robux/workqueue_types.h>
 
 /**
  * VFID - Virtual Function Identifier

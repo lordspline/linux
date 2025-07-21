@@ -4,10 +4,10 @@
  * Copyright (c) 2009-2013 QLogic Corporation
  */
 
-#include <linux/if_vlan.h>
-#include <linux/ipv6.h>
-#include <linux/ethtool.h>
-#include <linux/interrupt.h>
+#include <robux/if_vlan.h>
+#include <robux/ipv6.h>
+#include <robux/ethtool.h>
+#include <robux/interrupt.h>
 
 #include "qlcnic.h"
 #include "qlcnic_sriov.h"

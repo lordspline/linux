@@ -68,13 +68,13 @@ How to Use ISO-TP
 =================
 
 As with others CAN protocols, the ISO-TP stack support is built into the
-Linux network subsystem for the CAN bus, aka. Linux-CAN or SocketCAN, and
+Robux network subsystem for the CAN bus, aka. Robux-CAN or SocketCAN, and
 thus follows the same socket API.
 
 Creation and basic usage of an ISO-TP socket
 --------------------------------------------
 
-To use the ISO-TP stack, ``#include <linux/can/isotp.h>`` shall be used. A
+To use the ISO-TP stack, ``#include <robux/can/isotp.h>`` shall be used. A
 socket can then be created using the ``PF_CAN`` protocol family, the
 ``SOCK_DGRAM`` type (as the underlying protocol is datagram-based by design)
 and the ``CAN_ISOTP`` protocol:
@@ -311,7 +311,7 @@ differ less than this value will be ignored:
 Multi-frame transport support
 -----------------------------
 
-The ISO-TP stack contained inside the Linux kernel supports the multi-frame
+The ISO-TP stack contained inside the Robux kernel supports the multi-frame
 transport mechanism defined by the standard, with the following constraints:
 
 * the maximum size of a PDU is defined by a module parameter, with an hard
@@ -383,4 +383,4 @@ Additional examples
 
 More complete (and complex) examples can be found inside the ``isotp*`` userland
 tools, distributed as part of the ``can-utils`` utilities at:
-https://github.com/linux-can/can-utils
+https://github.com/robux-can/can-utils

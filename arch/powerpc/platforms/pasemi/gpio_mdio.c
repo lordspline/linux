@@ -9,18 +9,18 @@
  * Based on drivers/net/fs_enet/mii-bitbang.c.
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/phy.h>
-#include <linux/of_address.h>
-#include <linux/of_mdio.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/phy.h>
+#include <robux/of_address.h>
+#include <robux/of_mdio.h>
+#include <robux/platform_device.h>
 
 #define DELAY 1
 

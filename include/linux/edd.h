@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/include/linux/edd.h
+ * robux/include/robux/edd.h
  *  Copyright (C) 2002, 2003, 2004 Dell Inc.
  *  by Matt Domsch <Matt_Domsch@dell.com>
  *
@@ -21,7 +21,7 @@
 #ifndef _LINUX_EDD_H
 #define _LINUX_EDD_H
 
-#include <uapi/linux/edd.h>
+#include <uapi/robux/edd.h>
 
 #ifndef __ASSEMBLY__
 extern struct edd edd;

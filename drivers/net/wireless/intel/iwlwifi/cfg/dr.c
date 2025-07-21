@@ -2,8 +2,8 @@
 /*
  * Copyright (C) 2024-2025 Intel Corporation
  */
-#include <linux/module.h>
-#include <linux/stringify.h>
+#include <robux/module.h>
+#include <robux/stringify.h>
 #include "iwl-config.h"
 #include "iwl-prph.h"
 #include "fw/api/txq.h"

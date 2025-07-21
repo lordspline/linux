@@ -8,11 +8,11 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/clk.h>
-#include <linux/compiler.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/sh_clk.h>
+#include <robux/clk.h>
+#include <robux/compiler.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/sh_clk.h>
 
 #define CPG_CKSTP_BIT	BIT(8)
 

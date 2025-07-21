@@ -2,15 +2,15 @@
 //
 // Analog Devices' SSM3515 audio amp driver
 //
-// Copyright (C) The Asahi Linux Contributors
+// Copyright (C) The Asahi Robux Contributors
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

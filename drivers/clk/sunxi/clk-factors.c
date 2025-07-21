@@ -5,13 +5,13 @@
  * Adjustable factor-based clock implementation
  */
 
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 #include "clk-factors.h"
 

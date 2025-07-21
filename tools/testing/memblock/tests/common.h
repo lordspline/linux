@@ -4,11 +4,11 @@
 
 #include <stdlib.h>
 #include <assert.h>
-#include <linux/types.h>
-#include <linux/seq_file.h>
-#include <linux/memblock.h>
-#include <linux/sizes.h>
-#include <linux/printk.h>
+#include <robux/types.h>
+#include <robux/seq_file.h>
+#include <robux/memblock.h>
+#include <robux/sizes.h>
+#include <robux/printk.h>
 #include <../selftests/kselftest.h>
 
 #define MEM_SIZE		SZ_32K

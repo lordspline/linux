@@ -4,13 +4,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/platform_profile.h>
-#include <linux/sysfs.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
+#include <robux/platform_profile.h>
+#include <robux/sysfs.h>
 
 #define to_pprof_handler(d)	(container_of(d, struct platform_profile_handler, dev))
 

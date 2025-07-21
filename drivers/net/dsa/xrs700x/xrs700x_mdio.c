@@ -4,13 +4,13 @@
  * George McCollister <george.mccollister@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/mdio.h>
-#include <linux/module.h>
-#include <linux/phy.h>
-#include <linux/if_vlan.h>
-#include <linux/of.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/mdio.h>
+#include <robux/module.h>
+#include <robux/phy.h>
+#include <robux/if_vlan.h>
+#include <robux/of.h>
 #include "xrs700x.h"
 #include "xrs700x_reg.h"
 

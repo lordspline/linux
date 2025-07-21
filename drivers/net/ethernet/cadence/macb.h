@@ -7,13 +7,13 @@
 #ifndef _MACB_H
 #define _MACB_H
 
-#include <linux/clk.h>
-#include <linux/phylink.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/net_tstamp.h>
-#include <linux/interrupt.h>
-#include <linux/phy/phy.h>
-#include <linux/workqueue.h>
+#include <robux/clk.h>
+#include <robux/phylink.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/net_tstamp.h>
+#include <robux/interrupt.h>
+#include <robux/phy/phy.h>
+#include <robux/workqueue.h>
 
 #if defined(CONFIG_ARCH_DMA_ADDR_T_64BIT) || defined(CONFIG_MACB_USE_HWSTAMP)
 #define MACB_EXT_DESC

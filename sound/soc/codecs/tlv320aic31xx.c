@@ -12,20 +12,20 @@
  * and mono/stereo Class-D speaker driver.
  */
 
-#include <linux/unaligned.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/i2c.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/acpi.h>
-#include <linux/firmware.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/unaligned.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/i2c.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regulator/consumer.h>
+#include <robux/acpi.h>
+#include <robux/firmware.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

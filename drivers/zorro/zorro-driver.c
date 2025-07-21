@@ -10,9 +10,9 @@
  *  for more details.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/zorro.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/zorro.h>
 
 #include "zorro.h"
 

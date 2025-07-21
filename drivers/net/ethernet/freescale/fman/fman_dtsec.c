@@ -9,15 +9,15 @@
 #include "fman.h"
 #include "mac.h"
 
-#include <linux/slab.h>
-#include <linux/bitrev.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/phy.h>
-#include <linux/crc32.h>
-#include <linux/of_mdio.h>
-#include <linux/mii.h>
-#include <linux/netdevice.h>
+#include <robux/slab.h>
+#include <robux/bitrev.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/phy.h>
+#include <robux/crc32.h>
+#include <robux/of_mdio.h>
+#include <robux/mii.h>
+#include <robux/netdevice.h>
 
 /* TBI register addresses */
 #define MII_TBICON		0x11

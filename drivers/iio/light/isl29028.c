@@ -11,16 +11,16 @@
  *  - http://www.intersil.com/content/dam/Intersil/documents/isl2/isl29030.pdf
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/pm_runtime.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/regmap.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/pm_runtime.h>
 
 #define ISL29028_CONV_TIME_MS			100
 

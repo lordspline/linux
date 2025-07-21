@@ -3,14 +3,14 @@
 // Cadence PCIe endpoint controller driver.
 // Author: Cyrille Pitchen <cyrille.pitchen@free-electrons.com>
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pci-epc.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pci-epc.h>
+#include <robux/platform_device.h>
+#include <robux/sizes.h>
 
 #include "pcie-cadence.h"
 #include "../../pci.h"

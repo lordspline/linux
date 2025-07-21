@@ -10,17 +10,17 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 #include <media/v4l2-cci.h>
 #include <media/v4l2-common.h>
@@ -1097,7 +1097,7 @@ static int ov2680_parse_dt(struct ov2680_dev *sensor)
 		return ret;
 
 	/*
-	 * The pin we want is named XSHUTDN in the datasheet. Linux sensor
+	 * The pin we want is named XSHUTDN in the datasheet. Robux sensor
 	 * drivers have standardized on using "powerdown" as con-id name
 	 * for powerdown or shutdown pins. Older DTB files use "reset",
 	 * so fallback to that if there is no "powerdown" pin.

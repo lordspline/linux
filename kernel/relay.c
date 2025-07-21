@@ -12,16 +12,16 @@
  *
  * This file is released under the GPL.
  */
-#include <linux/errno.h>
-#include <linux/stddef.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/string.h>
-#include <linux/relay.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
-#include <linux/cpu.h>
-#include <linux/splice.h>
+#include <robux/errno.h>
+#include <robux/stddef.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/string.h>
+#include <robux/relay.h>
+#include <robux/vmalloc.h>
+#include <robux/mm.h>
+#include <robux/cpu.h>
+#include <robux/splice.h>
 
 /* list of open channels, for cpu hotplug */
 static DEFINE_MUTEX(relay_channels_mutex);

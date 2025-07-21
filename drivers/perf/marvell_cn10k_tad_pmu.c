@@ -6,13 +6,13 @@
 
 #define pr_fmt(fmt) "tad_pmu: " fmt
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/cpuhotplug.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/cpuhotplug.h>
+#include <robux/perf_event.h>
+#include <robux/platform_device.h>
+#include <robux/acpi.h>
 
 #define TAD_PFC_OFFSET		0x800
 #define TAD_PFC(counter)	(TAD_PFC_OFFSET | (counter << 3))

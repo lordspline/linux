@@ -7,16 +7,16 @@
  * Flattened Device Tree board initialization
  */
 
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mbus.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_net.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/mbus.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_net.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 #include <asm/hardware/cache-feroceon-l2.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>

@@ -6,10 +6,10 @@
 #ifndef __NFS_NETNS_H__
 #define __NFS_NETNS_H__
 
-#include <linux/nfs4.h>
+#include <robux/nfs4.h>
 #include <net/net_namespace.h>
 #include <net/netns/generic.h>
-#include <linux/sunrpc/stats.h>
+#include <robux/sunrpc/stats.h>
 
 struct bl_dev_msg {
 	int32_t status;

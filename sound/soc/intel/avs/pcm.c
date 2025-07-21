@@ -3,11 +3,11 @@
 // Copyright(c) 2021-2022 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@robux.intel.com>
 //
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
 #include <sound/hda_register.h>
 #include <sound/hdaudio_ext.h>
 #include <sound/pcm_params.h>

@@ -23,18 +23,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/timex.h>
-#include <linux/io.h>
-#include <linux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/cpufreq.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/timex.h>
+#include <robux/io.h>
+#include <robux/acpi.h>
 
 #include <asm/msr.h>
 #include <asm/cpu_device_id.h>

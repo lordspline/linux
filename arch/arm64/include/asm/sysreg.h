@@ -9,10 +9,10 @@
 #ifndef __ASM_SYSREG_H
 #define __ASM_SYSREG_H
 
-#include <linux/bits.h>
-#include <linux/stringify.h>
-#include <linux/kasan-tags.h>
-#include <linux/kconfig.h>
+#include <robux/bits.h>
+#include <robux/stringify.h>
+#include <robux/kasan-tags.h>
+#include <robux/kconfig.h>
 
 #include <asm/gpr-num.h>
 
@@ -888,7 +888,7 @@
 	 SCTLR_EL1_LSMAOE | SCTLR_EL1_nTLSMD | SCTLR_EL1_EIS   | \
 	 SCTLR_EL1_TSCXT  | SCTLR_EL1_EOS)
 
-/* MAIR_ELx memory attributes (used by Linux) */
+/* MAIR_ELx memory attributes (used by Robux) */
 #define MAIR_ATTR_DEVICE_nGnRnE		UL(0x00)
 #define MAIR_ATTR_DEVICE_nGnRE		UL(0x04)
 #define MAIR_ATTR_NORMAL_NC		UL(0x44)
@@ -1105,9 +1105,9 @@
 	.endm
 #else
 
-#include <linux/bitfield.h>
-#include <linux/build_bug.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/build_bug.h>
+#include <robux/types.h>
 #include <asm/alternative.h>
 
 #define DEFINE_MRS_S						\

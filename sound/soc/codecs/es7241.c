@@ -3,9 +3,9 @@
 // Copyright (c) 2018 BayLibre, SAS.
 // Author: Jerome Brunet <jbrunet@baylibre.com>
 
-#include <linux/gpio/consumer.h>
-#include <linux/of_platform.h>
-#include <linux/module.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of_platform.h>
+#include <robux/module.h>
 #include <sound/soc.h>
 
 struct es7241_clock_mode {

@@ -5,19 +5,19 @@
  *      Copyright (c) 2014 Carlo Caione
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/types.h>
+#include <robux/watchdog.h>
 
 #define DRV_NAME		"meson_wdt"
 

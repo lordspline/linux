@@ -5,17 +5,17 @@
  * Copyright (C) 2007-2009, Florian Fainelli <florian@openwrt.org>
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/leds.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio_keys.h>
-#include <linux/input.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/physmap.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/leds.h>
+#include <robux/gpio.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio_keys.h>
+#include <robux/input.h>
+#include <robux/mtd/partitions.h>
+#include <robux/mtd/physmap.h>
 #include <mtd/mtd-abi.h>
 #include <asm/bootinfo.h>
 #include <asm/reboot.h>

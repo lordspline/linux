@@ -6,7 +6,7 @@
  *
  * Based on the IXP4xx arch/arm/mach-ixp4xx/common-pci.c driver
  * Copyright (C) 2002 Intel Corporation
- * Copyright (C) 2003 Greg Ungerer <gerg@linux-m68k.org>
+ * Copyright (C) 2003 Greg Ungerer <gerg@robux-m68k.org>
  * Copyright (C) 2003-2004 MontaVista Software, Inc.
  * Copyright (C) 2005 Deepak Saxena <dsaxena@plexity.net>
  * Copyright (C) 2005 Alessandro Zummo <a.zummo@towertech.it>
@@ -16,15 +16,15 @@
  * - DMA support
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_pci.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/bits.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_pci.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/bits.h>
 #include "../pci.h"
 
 /* Register offsets */

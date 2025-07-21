@@ -5,22 +5,22 @@
  * (C) 2011 DENX Software Engineering, Anatolij Gustschin <agust@denx.de>
  */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kstrtox.h>
-#include <linux/log2.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/string_choices.h>
+#include <robux/array_size.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kstrtox.h>
+#include <robux/log2.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/string_choices.h>
 
-#include <linux/nvmem-provider.h>
+#include <robux/nvmem-provider.h>
 
 struct eeprom_93xx46_platform_data {
 	unsigned char	flags;

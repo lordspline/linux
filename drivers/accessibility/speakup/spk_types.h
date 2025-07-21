@@ -4,18 +4,18 @@
 
 /* This file includes all of the typedefs and structs used in speakup. */
 
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/wait.h>		/* for wait_queue */
-#include <linux/init.h>		/* for __init */
-#include <linux/module.h>
-#include <linux/vt_kern.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/io.h>		/* for inb_p, outb_p, inb, outb, etc... */
-#include <linux/device.h>
+#include <robux/types.h>
+#include <robux/fs.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/wait.h>		/* for wait_queue */
+#include <robux/init.h>		/* for __init */
+#include <robux/module.h>
+#include <robux/vt_kern.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/io.h>		/* for inb_p, outb_p, inb, outb, etc... */
+#include <robux/device.h>
 
 enum var_type_t {
 	VAR_NUM = 0,

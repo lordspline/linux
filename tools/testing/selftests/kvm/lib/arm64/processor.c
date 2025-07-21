@@ -5,7 +5,7 @@
  * Copyright (C) 2018, Red Hat, Inc.
  */
 
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 #include <assert.h>
 
 #include "guest_modes.h"
@@ -13,8 +13,8 @@
 #include "processor.h"
 #include "ucall_common.h"
 
-#include <linux/bitfield.h>
-#include <linux/sizes.h>
+#include <robux/bitfield.h>
+#include <robux/sizes.h>
 
 #define DEFAULT_ARM64_GUEST_STACK_VADDR_MIN	0xac0000
 

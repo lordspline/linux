@@ -4,8 +4,8 @@
  * Copyright (C) 2017 SiFive
  */
 
-#include <linux/init.h>
-#include <linux/linkage.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
 
 #include <asm/asm.h>
 #include <asm/csr.h>
@@ -15,7 +15,7 @@
 #include <asm/thread_info.h>
 #include <asm/asm-offsets.h>
 #include <asm/errata_list.h>
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 
 	.section .irqentry.text, "ax"
 

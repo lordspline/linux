@@ -3,14 +3,14 @@
  * Copyright (C) 2022 - 2023 Rafał Miłecki <rafal@milecki.pl>
  */
 
-#include <linux/crc32.h>
-#include <linux/etherdevice.h>
-#include <linux/export.h>
-#include <linux/if_ether.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/crc32.h>
+#include <robux/etherdevice.h>
+#include <robux/export.h>
+#include <robux/if_ether.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 
 #include "u-boot-env.h"
 

@@ -15,35 +15,35 @@
  * Kevin Chea
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/elf.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/init.h>
-#include <linux/prctl.h>
-#include <linux/init_task.h>
-#include <linux/module.h>
-#include <linux/mqueue.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/rcupdate.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task.h>
+#include <robux/sched/task_stack.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/ptrace.h>
+#include <robux/elf.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/init.h>
+#include <robux/prctl.h>
+#include <robux/init_task.h>
+#include <robux/module.h>
+#include <robux/mqueue.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/rcupdate.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/io.h>
 #include <asm/processor.h>
 #include <asm/platform.h>
 #include <asm/mmu.h>
 #include <asm/irq.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/asm-offsets.h>
 #include <asm/regs.h>
 #include <asm/hw_breakpoint.h>
@@ -58,7 +58,7 @@ EXPORT_SYMBOL(pm_power_off);
 
 
 #ifdef CONFIG_STACKPROTECTOR
-#include <linux/stackprotector.h>
+#include <robux/stackprotector.h>
 unsigned long __stack_chk_guard __read_mostly;
 EXPORT_SYMBOL(__stack_chk_guard);
 #endif

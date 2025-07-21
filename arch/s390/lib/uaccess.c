@@ -8,9 +8,9 @@
  *		 Gerald Schaefer (gerald.schaefer@de.ibm.com)
  */
 
-#include <linux/uaccess.h>
-#include <linux/export.h>
-#include <linux/mm.h>
+#include <robux/uaccess.h>
+#include <robux/export.h>
+#include <robux/mm.h>
 #include <asm/asm-extable.h>
 #include <asm/ctlreg.h>
 

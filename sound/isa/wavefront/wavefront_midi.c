@@ -44,10 +44,10 @@
  *  
  */
 
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/wait.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/time.h>
+#include <robux/wait.h>
 #include <sound/core.h>
 #include <sound/snd_wavefront.h>
 

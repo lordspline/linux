@@ -8,17 +8,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/iopoll.h>
-#include <linux/mii.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/iopoll.h>
+#include <robux/mii.h>
 
-#include <linux/platform_device.h>
-#include <linux/of_net.h>
+#include <robux/platform_device.h>
+#include <robux/of_net.h>
 
 #include "ks8851.h"
 

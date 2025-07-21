@@ -8,19 +8,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/version.h>
-#include <linux/pstore.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/compiler.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/mm.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/version.h>
+#include <robux/pstore.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/compiler.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/mm.h>
 
 #include "internal.h"
 #include "ram_internal.h"

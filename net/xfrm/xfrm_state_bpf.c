@@ -5,9 +5,9 @@
  * interface they are exposed through to BPF programs is explicitly unstable.
  */
 
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/btf_ids.h>
+#include <robux/bpf.h>
+#include <robux/btf.h>
+#include <robux/btf_ids.h>
 #include <net/xdp.h>
 #include <net/xfrm.h>
 

@@ -7,11 +7,11 @@
 
 #include "trace/beauty/beauty.h"
 #include <sys/types.h>
-#include <linux/fcntl.h>
-#include <linux/log2.h>
+#include <robux/fcntl.h>
+#include <robux/log2.h>
 
 /*
- * uapi/linux/fcntl.h does not keep a copy in tools headers directory,
+ * uapi/robux/fcntl.h does not keep a copy in tools headers directory,
  * for system with kernel versions before v5.8, need to sync AT_EACCESS macro.
  */
 #ifndef AT_EACCESS

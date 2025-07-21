@@ -14,14 +14,14 @@
  * is not parsed in any way).
  */
 
-#include <linux/init.h>
-#include <linux/initrd.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/root_dev.h>
-#include <linux/screen_info.h>
-#include <linux/memblock.h>
-#include <uapi/linux/mount.h>
+#include <robux/init.h>
+#include <robux/initrd.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/root_dev.h>
+#include <robux/screen_info.h>
+#include <robux/memblock.h>
+#include <uapi/robux/mount.h>
 
 #include <asm/setup.h>
 #include <asm/system_info.h>

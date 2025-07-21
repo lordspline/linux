@@ -4,16 +4,16 @@
  * Copyright 2016-2017,2019-2020 NXP
  */
 
-#include <linux/device.h>
-#include <linux/iommu.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/vfio.h>
-#include <linux/fsl/mc.h>
-#include <linux/delay.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
+#include <robux/device.h>
+#include <robux/iommu.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/vfio.h>
+#include <robux/fsl/mc.h>
+#include <robux/delay.h>
+#include <robux/io-64-nonatomic-hi-lo.h>
 
 #include "vfio_fsl_mc_private.h"
 

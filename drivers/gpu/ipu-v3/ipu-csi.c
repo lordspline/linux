@@ -3,19 +3,19 @@
  * Copyright (C) 2012-2014 Mentor Graphics Inc.
  * Copyright (C) 2005-2009 Freescale Semiconductor, Inc.
  */
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/videodev2.h>
-#include <uapi/linux/v4l2-mediabus.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/videodev2.h>
+#include <uapi/robux/v4l2-mediabus.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
 
 #include "ipu-prv.h"
 

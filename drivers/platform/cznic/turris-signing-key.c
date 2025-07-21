@@ -10,17 +10,17 @@
  * 2025 by Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/key-type.h>
-#include <linux/key.h>
-#include <linux/keyctl.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/key-type.h>
+#include <robux/key.h>
+#include <robux/keyctl.h>
+#include <robux/module.h>
+#include <robux/seq_file.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
-#include <linux/turris-signing-key.h>
+#include <robux/turris-signing-key.h>
 
 static int turris_signing_key_instantiate(struct key *key,
 					  struct key_preparsed_payload *payload)

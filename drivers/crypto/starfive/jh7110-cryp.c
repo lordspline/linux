@@ -9,18 +9,18 @@
 
 #include <crypto/engine.h>
 #include "jh7110-cryp.h"
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/spinlock.h>
 
 #define DRIVER_NAME             "jh7110-crypto"
 

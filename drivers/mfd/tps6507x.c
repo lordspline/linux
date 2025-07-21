@@ -14,14 +14,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps6507x.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/of.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/tps6507x.h>
 
 static const struct mfd_cell tps6507x_devs[] = {
 	{

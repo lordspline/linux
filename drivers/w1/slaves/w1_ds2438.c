@@ -5,13 +5,13 @@
  * Copyright (c) 2017 Mariusz Bialonczyk <manio@skyboo.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/types.h>
+#include <robux/delay.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 #define W1_FAMILY_DS2438		0x26
 

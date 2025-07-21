@@ -7,9 +7,9 @@
 
 #include "fsverity_private.h"
 
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/uaccess.h>
+#include <robux/bpf.h>
+#include <robux/btf.h>
+#include <robux/uaccess.h>
 
 /**
  * fsverity_ioctl_measure() - get a verity file's digest

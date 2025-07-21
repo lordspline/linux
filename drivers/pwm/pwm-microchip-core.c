@@ -29,17 +29,17 @@
  *   will only change the period if no other PWM output is enabled.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/ktime.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/ktime.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
 
 #define MCHPCOREPWM_PRESCALE_MAX	0xff
 #define MCHPCOREPWM_PERIOD_STEPS_MAX	0xfe

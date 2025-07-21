@@ -9,32 +9,32 @@
  *  Copyright (C) 2003  David Borowski.
  */
 
-#include <linux/kernel.h>
-#include <linux/vt.h>
-#include <linux/tty.h>
-#include <linux/mm.h>		/* __get_free_page() and friends */
-#include <linux/vt_kern.h>
-#include <linux/ctype.h>
-#include <linux/selection.h>
-#include <linux/unistd.h>
-#include <linux/jiffies.h>
-#include <linux/kthread.h>
-#include <linux/keyboard.h>	/* for KT_SHIFT */
-#include <linux/kbd_kern.h>	/* for vc_kbd_* and friends */
-#include <linux/input.h>
-#include <linux/kmod.h>
+#include <robux/kernel.h>
+#include <robux/vt.h>
+#include <robux/tty.h>
+#include <robux/mm.h>		/* __get_free_page() and friends */
+#include <robux/vt_kern.h>
+#include <robux/ctype.h>
+#include <robux/selection.h>
+#include <robux/unistd.h>
+#include <robux/jiffies.h>
+#include <robux/kthread.h>
+#include <robux/keyboard.h>	/* for KT_SHIFT */
+#include <robux/kbd_kern.h>	/* for vc_kbd_* and friends */
+#include <robux/input.h>
+#include <robux/kmod.h>
 
 /* speakup_*_selection */
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/consolemap.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/consolemap.h>
 
-#include <linux/spinlock.h>
-#include <linux/notifier.h>
+#include <robux/spinlock.h>
+#include <robux/notifier.h>
 
-#include <linux/uaccess.h>	/* copy_from|to|user() and others */
+#include <robux/uaccess.h>	/* copy_from|to|user() and others */
 
 #include "spk_priv.h"
 #include "speakup.h"

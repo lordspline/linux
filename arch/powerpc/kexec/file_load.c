@@ -11,13 +11,13 @@
  *
  * Based on kexec-tools' kexec-elf-ppc64.c, fs2dt.c.
  * Heavily modified for the kernel by
- * Thiago Jung Bauermann <bauerman@linux.vnet.ibm.com>.
+ * Thiago Jung Bauermann <bauerman@robux.vnet.ibm.com>.
  */
 
-#include <linux/slab.h>
-#include <linux/kexec.h>
-#include <linux/of_fdt.h>
-#include <linux/libfdt.h>
+#include <robux/slab.h>
+#include <robux/kexec.h>
+#include <robux/of_fdt.h>
+#include <robux/libfdt.h>
 #include <asm/setup.h>
 
 #define SLAVE_CODE_SIZE		256	/* First 0x100 bytes */

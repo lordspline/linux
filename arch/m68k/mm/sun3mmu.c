@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/m68k/mm/sun3mmu.c
+ * robux/arch/m68k/mm/sun3mmu.c
  *
  * Implementations of mm routines specific to the sun3 MMU.
  *
@@ -8,18 +8,18 @@
  *
  */
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/swap.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
 
 #include <asm/setup.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/page.h>
 #include <asm/machdep.h>
 #include <asm/io.h>

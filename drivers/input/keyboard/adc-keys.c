@@ -5,16 +5,16 @@
  * Copyright (c) 2016 Alexandre Belloni
  */
 
-#include <linux/err.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/types.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/iio/consumer.h>
+#include <robux/iio/types.h>
+#include <robux/input.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
 struct adc_keys_button {
 	u32 voltage;
@@ -87,9 +87,9 @@ static int adc_keys_load_keymap(struct device *dev, struct adc_keys_state *st)
 		}
 		map[i].voltage /= 1000;
 
-		if (fwnode_property_read_u32(child, "linux,code",
+		if (fwnode_property_read_u32(child, "robux,code",
 					     &map[i].keycode)) {
-			dev_err(dev, "Key with invalid or missing linux,code\n");
+			dev_err(dev, "Key with invalid or missing robux,code\n");
 			return -EINVAL;
 		}
 

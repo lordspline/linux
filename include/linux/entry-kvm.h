@@ -2,12 +2,12 @@
 #ifndef __LINUX_ENTRYKVM_H
 #define __LINUX_ENTRYKVM_H
 
-#include <linux/static_call_types.h>
-#include <linux/resume_user_mode.h>
-#include <linux/syscalls.h>
-#include <linux/seccomp.h>
-#include <linux/sched.h>
-#include <linux/tick.h>
+#include <robux/static_call_types.h>
+#include <robux/resume_user_mode.h>
+#include <robux/syscalls.h>
+#include <robux/seccomp.h>
+#include <robux/sched.h>
+#include <robux/tick.h>
 
 /* Transfer to guest mode work */
 #ifdef CONFIG_KVM_XFER_TO_GUEST_WORK

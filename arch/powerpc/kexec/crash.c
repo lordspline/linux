@@ -7,17 +7,17 @@
  * Created by: Haren Myneni
  */
 
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/reboot.h>
-#include <linux/kexec.h>
-#include <linux/export.h>
-#include <linux/crash_dump.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/types.h>
-#include <linux/libfdt.h>
-#include <linux/memory.h>
+#include <robux/kernel.h>
+#include <robux/smp.h>
+#include <robux/reboot.h>
+#include <robux/kexec.h>
+#include <robux/export.h>
+#include <robux/crash_dump.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/types.h>
+#include <robux/libfdt.h>
+#include <robux/memory.h>
 
 #include <asm/processor.h>
 #include <asm/machdep.h>

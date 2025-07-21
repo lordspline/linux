@@ -10,15 +10,15 @@
  *	Kieran Bingham <kieran.bingham@ideasonboard.com>
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_graph.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/v4l2-dv-timings.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of_graph.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/v4l2-dv-timings.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

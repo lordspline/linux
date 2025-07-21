@@ -7,14 +7,14 @@
  * Copyright (C) 2020 Lubomir Rintel <lkundrak@v3.sk>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/of_address.h>
-#include <linux/clk.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/of_address.h>
+#include <robux/clk.h>
 
 #include <dt-bindings/clock/marvell,mmp2.h>
 #include <dt-bindings/power/marvell,mmp2.h>

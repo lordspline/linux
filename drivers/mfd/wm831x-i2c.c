@@ -7,18 +7,18 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/mfd/core.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/mfd/core.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/pdata.h>
+#include <robux/mfd/wm831x/core.h>
+#include <robux/mfd/wm831x/pdata.h>
 
 static int wm831x_i2c_probe(struct i2c_client *i2c)
 {

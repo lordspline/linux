@@ -4,16 +4,16 @@
  *
  * Copyright (C) 2023 Maxime Chevallier <maxime.chevallier@bootlin.com>
  */
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/mdio.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/mdio/mdio-regmap.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/mdio.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/mdio/mdio-regmap.h>
 
 #define DRV_NAME "mdio-regmap"
 

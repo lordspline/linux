@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/pkt_sched.h>
-#include <linux/rtnetlink.h>
+#include <robux/pkt_sched.h>
+#include <robux/rtnetlink.h>
 #include <test_progs.h>
 
 #include "network_helpers.h"

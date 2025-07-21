@@ -6,17 +6,17 @@
   (C) 2012  Michel Lespinasse <walken@google.com>
 
 
-  tools/linux/include/linux/rbtree_augmented.h
+  tools/robux/include/robux/rbtree_augmented.h
 
   Copied from:
-  linux/include/linux/rbtree_augmented.h
+  robux/include/robux/rbtree_augmented.h
 */
 
 #ifndef _TOOLS_LINUX_RBTREE_AUGMENTED_H
 #define _TOOLS_LINUX_RBTREE_AUGMENTED_H
 
-#include <linux/compiler.h>
-#include <linux/rbtree.h>
+#include <robux/compiler.h>
+#include <robux/rbtree.h>
 
 /*
  * Please note - only struct rb_augment_callbacks and the prototypes for

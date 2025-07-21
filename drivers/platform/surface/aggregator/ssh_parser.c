@@ -5,12 +5,12 @@
  * Copyright (C) 2019-2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/compiler.h>
-#include <linux/device.h>
-#include <linux/types.h>
+#include <robux/unaligned.h>
+#include <robux/compiler.h>
+#include <robux/device.h>
+#include <robux/types.h>
 
-#include <linux/surface_aggregator/serial_hub.h>
+#include <robux/surface_aggregator/serial_hub.h>
 #include "ssh_parser.h"
 
 /**

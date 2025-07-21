@@ -21,8 +21,8 @@
  * of the Software.
  */
 
-#include <linux/bits.h>
-#include <linux/sizes.h>
+#include <robux/bits.h>
+#include <robux/sizes.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_damage_helper.h>

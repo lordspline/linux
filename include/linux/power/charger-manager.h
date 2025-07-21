@@ -13,9 +13,9 @@
 #ifndef _CHARGER_MANAGER_H
 #define _CHARGER_MANAGER_H
 
-#include <linux/power_supply.h>
-#include <linux/extcon.h>
-#include <linux/alarmtimer.h>
+#include <robux/power_supply.h>
+#include <robux/extcon.h>
+#include <robux/alarmtimer.h>
 
 enum data_source {
 	CM_BATTERY_PRESENT,

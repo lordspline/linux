@@ -7,12 +7,12 @@
  * Contact: Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/platform_data/lv5207lp.h>
-#include <linux/slab.h>
+#include <robux/backlight.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/platform_data/lv5207lp.h>
+#include <robux/slab.h>
 
 #define LV5207LP_CTRL1			0x00
 #define LV5207LP_CPSW			(1 << 7)

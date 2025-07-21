@@ -6,9 +6,9 @@
  *  Heavily based on arch/sparc/kernel/irq.c.
  */
 
-#include <linux/kernel_stat.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
+#include <robux/kernel_stat.h>
+#include <robux/slab.h>
+#include <robux/seq_file.h>
 
 #include <asm/timer.h>
 #include <asm/traps.h>

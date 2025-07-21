@@ -24,7 +24,7 @@
  *          Alex Deucher
  */
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 #include <drm/drm_edid.h>
 #include <drm/drm_device.h>

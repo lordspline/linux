@@ -4,8 +4,8 @@
  * Author: Neil Armstrong <narmstrong@baylibre.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/module.h>
+#include <robux/clk-provider.h>
+#include <robux/module.h>
 
 #include "clk-regmap.h"
 #include "clk-cpu-dyndiv.h"

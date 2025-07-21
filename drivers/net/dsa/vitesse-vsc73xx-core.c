@@ -14,21 +14,21 @@
  * Includes portions of code from the firmware uploader by:
  * Copyright (C) 2009 Gabor Juhos <juhosg@openwrt.org>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
-#include <linux/etherdevice.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/dsa/8021q.h>
-#include <linux/random.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/iopoll.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/bitops.h>
+#include <robux/bitfield.h>
+#include <robux/if_bridge.h>
+#include <robux/if_vlan.h>
+#include <robux/etherdevice.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
+#include <robux/dsa/8021q.h>
+#include <robux/random.h>
 #include <net/dsa.h>
 
 #include "vitesse-vsc73xx.h"

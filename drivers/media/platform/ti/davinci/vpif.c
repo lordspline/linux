@@ -17,18 +17,18 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/spinlock.h>
-#include <linux/v4l2-dv-timings.h>
-#include <linux/of_graph.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/spinlock.h>
+#include <robux/v4l2-dv-timings.h>
+#include <robux/of_graph.h>
 
 #include "vpif.h"
 

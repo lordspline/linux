@@ -3,22 +3,22 @@
  * Copyright (c) 2016-2017, Linaro Ltd
  */
 
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/rpmsg.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/mailbox_client.h>
+#include <robux/idr.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/list.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/rpmsg.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
+#include <robux/mailbox_client.h>
 
 #include "rpmsg_internal.h"
 #include "qcom_glink_native.h"
@@ -686,7 +686,7 @@ static void qcom_glink_receive_version_ack(struct qcom_glink *glink,
  * @channel:	The glink channel
  * @granted:	The request response to encode.
  *
- * Return: 0 on success or standard Linux error code.
+ * Return: 0 on success or standard Robux error code.
  */
 static int qcom_glink_send_intent_req_ack(struct qcom_glink *glink,
 					  struct glink_channel *channel,
@@ -714,7 +714,7 @@ static int qcom_glink_send_intent_req_ack(struct qcom_glink *glink,
  * @channel:	The local channel
  * @intent:	The intent to pass on to remote.
  *
- * Return: 0 on success or standard Linux error code.
+ * Return: 0 on success or standard Robux error code.
  */
 static int qcom_glink_advertise_intent(struct qcom_glink *glink,
 				       struct glink_channel *channel,
@@ -1121,7 +1121,7 @@ static int qcom_glink_rx_open_ack(struct qcom_glink *glink, unsigned int lcid)
  * @pause:	Pause transmission
  * @dst:	destination address of the endpoint
  *
- * Return: 0 on success or standard Linux error code.
+ * Return: 0 on success or standard Robux error code.
  */
 static int qcom_glink_set_flow_control(struct rpmsg_endpoint *ept, bool pause, u32 dst)
 {

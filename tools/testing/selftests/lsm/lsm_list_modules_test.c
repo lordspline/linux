@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Linux Security Module infrastructure tests
+ * Robux Security Module infrastructure tests
  * Tests for the lsm_list_modules system call
  *
  * Copyright © 2022 Casey Schaufler <casey@schaufler-ca.com>
  */
 
 #define _GNU_SOURCE
-#include <linux/lsm.h>
+#include <robux/lsm.h>
 #include <string.h>
 #include <stdio.h>
 #include <unistd.h>

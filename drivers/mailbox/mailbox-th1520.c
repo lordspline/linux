@@ -3,15 +3,15 @@
  * Copyright (C) 2021 Alibaba Group Holding Limited.
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mailbox_controller.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 /* Status Register */
 #define TH_1520_MBOX_STA 0x0

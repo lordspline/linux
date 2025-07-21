@@ -10,14 +10,14 @@
  *  Derived from drivers/gpio/pca953x.c
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/platform_data/max732x.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/platform_data/max732x.h>
 
 /*
  * Each port of MAX732x (including MAX7319) falls into one of the

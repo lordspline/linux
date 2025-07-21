@@ -12,14 +12,14 @@
 // Author: Shenghao Ding <shenghao-ding@ti.com>
 //
 
-#include <linux/unaligned.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
+#include <robux/unaligned.h>
+#include <robux/firmware.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/regmap.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>

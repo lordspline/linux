@@ -10,7 +10,7 @@
 
 /* ACP-specific SOF IPC code */
 
-#include <linux/module.h>
+#include <robux/module.h>
 #include "../ops.h"
 #include "acp.h"
 #include "acp-dsp-offset.h"

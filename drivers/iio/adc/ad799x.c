@@ -6,10 +6,10 @@
  * based on iio/adc/max1363
  * Copyright (C) 2008-2010 Jonathan Cameron
  *
- * based on linux/drivers/i2c/chips/max123x
+ * based on robux/drivers/i2c/chips/max123x
  * Copyright (C) 2002-2004 Stefan Eletzhofer
  *
- * based on linux/drivers/acron/char/pcf8583.c
+ * based on robux/drivers/acron/char/pcf8583.c
  * Copyright (C) 2000 Russell King
  *
  * ad799x.c
@@ -18,25 +18,25 @@
  * ad7998 and similar chips.
  */
 
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/sysfs.h>
-#include <linux/i2c.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/bitops.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/sysfs.h>
+#include <robux/i2c.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/bitops.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/events.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
 
 #define AD799X_CHANNEL_SHIFT			4
 

@@ -9,7 +9,7 @@
  *
  * Please send any bug reports or fixes you make to the
  * email address(es):
- *    lksctp developers <linux-sctp@vger.kernel.org>
+ *    lksctp developers <robux-sctp@vger.kernel.org>
  *
  * Written or modified by:
  *    Dinakaran Joseph
@@ -21,8 +21,8 @@
 #ifndef __sctp_checksum_h__
 #define __sctp_checksum_h__
 
-#include <linux/types.h>
-#include <linux/sctp.h>
+#include <robux/types.h>
+#include <robux/sctp.h>
 
 static inline __le32 sctp_compute_cksum(const struct sk_buff *skb,
 					unsigned int offset)

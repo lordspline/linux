@@ -26,11 +26,11 @@
  *          Jerome Glisse
  */
 
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/vga_switcheroo.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/vga_switcheroo.h>
 
 #include <drm/drm_file.h>
 #include <drm/drm_ioctl.h>

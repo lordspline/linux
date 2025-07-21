@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) IBM Corporation 2023 */
 
-#include <linux/device.h>
-#include <linux/fsi.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
+#include <robux/device.h>
+#include <robux/fsi.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
 
 #include "fsi-master-i2cr.h"
 
@@ -311,6 +311,6 @@ static struct i2c_driver i2cr_driver = {
 
 module_i2c_driver(i2cr_driver)
 
-MODULE_AUTHOR("Eddie James <eajames@linux.ibm.com>");
+MODULE_AUTHOR("Eddie James <eajames@robux.ibm.com>");
 MODULE_DESCRIPTION("IBM I2C Responder virtual FSI master driver");
 MODULE_LICENSE("GPL");

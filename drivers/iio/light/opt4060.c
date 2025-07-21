@@ -7,21 +7,21 @@
  * Device driver for the Texas Instruments OPT4060 RGBW Color Sensor.
  */
 
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/math64.h>
-#include <linux/units.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/mutex.h>
-#include <linux/regulator/consumer.h>
-#include <linux/iio/events.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/bitfield.h>
+#include <robux/i2c.h>
+#include <robux/iio/iio.h>
+#include <robux/math64.h>
+#include <robux/units.h>
+#include <robux/limits.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/mutex.h>
+#include <robux/regulator/consumer.h>
+#include <robux/iio/events.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
 
 /* OPT4060 register set */
 #define OPT4060_RED_MSB				0x00

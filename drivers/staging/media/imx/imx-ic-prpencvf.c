@@ -8,13 +8,13 @@
  *
  * Copyright (c) 2012-2017 Mentor Graphics Inc.
  */
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>

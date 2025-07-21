@@ -8,14 +8,14 @@
  * Author: Daire McNamara <daire.mcnamara@microchip.com>
  */
 
-#include <linux/align.h>
-#include <linux/bitfield.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
-#include <linux/pci_regs.h>
-#include <linux/pci-ecam.h>
-#include <linux/wordpart.h>
+#include <robux/align.h>
+#include <robux/bitfield.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/msi.h>
+#include <robux/pci_regs.h>
+#include <robux/pci-ecam.h>
+#include <robux/wordpart.h>
 
 #include "pcie-plda.h"
 

@@ -4,22 +4,22 @@
  * Copyright (C) 2020-2021 NVIDIA CORPORATION & AFFILIATES
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/resource.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/resource.h>
+#include <robux/seq_file.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 /*
  * There are 3 YU GPIO blocks:

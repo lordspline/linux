@@ -3,7 +3,7 @@
 #define __ASM_SH_MMZONE_H
 
 #ifdef CONFIG_NUMA
-#include <linux/numa.h>
+#include <robux/numa.h>
 
 static inline int pfn_to_nid(unsigned long pfn)
 {

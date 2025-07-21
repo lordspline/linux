@@ -8,17 +8,17 @@
  * Released under the GPLv2 only.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/genalloc.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/mm.h>
+#include <robux/io.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmapool.h>
+#include <robux/genalloc.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
 
 
 /*

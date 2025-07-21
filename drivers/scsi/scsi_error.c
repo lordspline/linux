@@ -4,29 +4,29 @@
  *
  *  SCSI error/timeout handling
  *      Initial versions: Eric Youngdale.  Based upon conversations with
- *                        Leonard Zubkoff and David Miller at Linux Expo,
+ *                        Leonard Zubkoff and David Miller at Robux Expo,
  *                        ideas originating from all over the place.
  *
  *	Restructured scsi_unjam_host and associated functions.
  *	September 04, 2002 Mike Anderson (andmike@us.ibm.com)
  *
- *	Forward port of Russell King's (rmk@arm.linux.org.uk) changes and
+ *	Forward port of Russell King's (rmk@arm.robux.org.uk) changes and
  *	minor cleanups.
  *	September 30, 2002 Mike Anderson (andmike@us.ibm.com)
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/gfp.h>
-#include <linux/timer.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/freezer.h>
-#include <linux/kthread.h>
-#include <linux/interrupt.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/gfp.h>
+#include <robux/timer.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/freezer.h>
+#include <robux/kthread.h>
+#include <robux/interrupt.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
@@ -48,7 +48,7 @@
 
 #include <trace/events/scsi.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 /*
  * These should *probably* be handled by the host itself.
@@ -470,12 +470,12 @@ static void scsi_report_sense(struct scsi_device *sdev,
 			scsi_report_lun_change(sdev);
 			sdev_printk(KERN_WARNING, sdev,
 				    "LUN assignments on this target have "
-				    "changed. The Linux SCSI layer does not "
+				    "changed. The Robux SCSI layer does not "
 				    "automatically remap LUN assignments.\n");
 		} else if (sshdr->asc == 0x3f)
 			sdev_printk(KERN_WARNING, sdev,
 				    "Operating parameters on this target have "
-				    "changed. The Linux SCSI layer does not "
+				    "changed. The Robux SCSI layer does not "
 				    "automatically adjust these parameters.\n");
 
 		if (sshdr->asc == 0x38 && sshdr->ascq == 0x07) {

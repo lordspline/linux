@@ -26,29 +26,29 @@
  *	 - making it shorter - scr_readw are macros which expand in PRETTY long code
  */
 
-#include <linux/kernel.h>
-#include <linux/major.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/tty.h>
-#include <linux/interrupt.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/vt_kern.h>
-#include <linux/selection.h>
-#include <linux/kbd_kern.h>
-#include <linux/console.h>
-#include <linux/device.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/notifier.h>
+#include <robux/kernel.h>
+#include <robux/major.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/tty.h>
+#include <robux/interrupt.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/vt_kern.h>
+#include <robux/selection.h>
+#include <robux/kbd_kern.h>
+#include <robux/console.h>
+#include <robux/device.h>
+#include <robux/sched.h>
+#include <robux/fs.h>
+#include <robux/poll.h>
+#include <robux/signal.h>
+#include <robux/slab.h>
+#include <robux/notifier.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define HEADER_SIZE	4u
 #define CON_BUF_SIZE (IS_ENABLED(CONFIG_BASE_SMALL) ? 256 : PAGE_SIZE)

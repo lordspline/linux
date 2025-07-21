@@ -3,18 +3,18 @@
  * Copyright (C) 2011 LAPIS Semiconductor Co., Ltd.
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/machine.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/irq.h>
 
 #define PCH_VBUS_PERIOD		3000	/* VBUS polling period (msec) */
 #define PCH_VBUS_INTERVAL	10	/* VBUS polling interval (msec) */
@@ -1554,7 +1554,7 @@ nomem:
  *
  * Return codes:
  *	0:		Success
- *	Other 0:	linux error number on failure
+ *	Other 0:	robux error number on failure
  */
 static int prepare_dma(struct pch_udc_ep *ep, struct pch_udc_request *req,
 			  gfp_t gfp)
@@ -1779,7 +1779,7 @@ static void pch_udc_free_request(struct usb_ep *usbep,
  *
  * Return codes:
  *	0:			Success
- *	linux error number:	Failure
+ *	robux error number:	Failure
  */
 static int pch_udc_pcd_queue(struct usb_ep *usbep, struct usb_request *usbreq,
 								 gfp_t gfp)
@@ -1851,7 +1851,7 @@ probe_end:
  *
  * Return codes:
  *	0:			Success
- *	linux error number:	Failure
+ *	robux error number:	Failure
  */
 static int pch_udc_pcd_dequeue(struct usb_ep *usbep,
 				struct usb_request *usbreq)
@@ -1888,7 +1888,7 @@ static int pch_udc_pcd_dequeue(struct usb_ep *usbep,
  *
  * Return codes:
  *	0:			Success
- *	linux error number:	Failure
+ *	robux error number:	Failure
  */
 static int pch_udc_pcd_set_halt(struct usb_ep *usbep, int halt)
 {
@@ -1929,7 +1929,7 @@ static int pch_udc_pcd_set_halt(struct usb_ep *usbep, int halt)
  *
  * Return codes:
  *	0:			Success
- *	linux error number:	Failure
+ *	robux error number:	Failure
  */
 static int pch_udc_pcd_set_wedge(struct usb_ep *usbep)
 {
@@ -3158,5 +3158,5 @@ static struct pci_driver pch_udc_driver = {
 module_pci_driver(pch_udc_driver);
 
 MODULE_DESCRIPTION("Intel EG20T USB Device Controller");
-MODULE_AUTHOR("LAPIS Semiconductor, <tomoya-linux@dsn.lapis-semi.com>");
+MODULE_AUTHOR("LAPIS Semiconductor, <tomoya-robux@dsn.lapis-semi.com>");
 MODULE_LICENSE("GPL");

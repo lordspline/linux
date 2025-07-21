@@ -73,15 +73,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/poll.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/completion.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
+#include <robux/usb.h>
+#include <robux/poll.h>
 
 
 #define DRIVER_AUTHOR "Juergen Stuber <starblue@sourceforge.net>"

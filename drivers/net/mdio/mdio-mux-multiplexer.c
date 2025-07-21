@@ -4,10 +4,10 @@
  * Copyright 2019 NXP
  */
 
-#include <linux/mdio-mux.h>
-#include <linux/module.h>
-#include <linux/mux/consumer.h>
-#include <linux/platform_device.h>
+#include <robux/mdio-mux.h>
+#include <robux/module.h>
+#include <robux/mux/consumer.h>
+#include <robux/platform_device.h>
 
 struct mdio_mux_multiplexer_state {
 	struct mux_control *muxc;

@@ -10,11 +10,11 @@
  *  Routines for control of EMU10K1 chips / mixer routines
  */
 
-#include <linux/time.h>
-#include <linux/init.h>
+#include <robux/time.h>
+#include <robux/init.h>
 #include <sound/core.h>
 #include <sound/emu10k1.h>
-#include <linux/delay.h>
+#include <robux/delay.h>
 #include <sound/tlv.h>
 
 #include "p17v.h"

@@ -4,18 +4,18 @@
  * for more details.
  *
  * Copyright (C) 2011 Wind River Systems,
- *   written by Ralf Baechle <ralf@linux-mips.org>
+ *   written by Ralf Baechle <ralf@robux-mips.org>
  */
-#include <linux/compiler.h>
-#include <linux/elf-randomize.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/export.h>
-#include <linux/personality.h>
-#include <linux/random.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
+#include <robux/compiler.h>
+#include <robux/elf-randomize.h>
+#include <robux/errno.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
+#include <robux/export.h>
+#include <robux/personality.h>
+#include <robux/random.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/mm.h>
 
 unsigned long shm_align_mask = PAGE_SIZE - 1;	/* Sane caches */
 EXPORT_SYMBOL(shm_align_mask);

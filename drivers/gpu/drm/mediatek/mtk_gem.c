@@ -3,8 +3,8 @@
  * Copyright (c) 2015 MediaTek Inc.
  */
 
-#include <linux/dma-buf.h>
-#include <linux/vmalloc.h>
+#include <robux/dma-buf.h>
+#include <robux/vmalloc.h>
 
 #include <drm/drm.h>
 #include <drm/drm_device.h>

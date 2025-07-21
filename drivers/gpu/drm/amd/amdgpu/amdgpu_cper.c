@@ -21,7 +21,7 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-#include <linux/list.h>
+#include <robux/list.h>
 #include "amdgpu.h"
 
 static const guid_t MCE			= CPER_NOTIFY_MCE;

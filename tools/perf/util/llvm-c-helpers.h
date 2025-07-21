@@ -7,7 +7,7 @@
  * C APIs.
  */
 
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -23,7 +23,7 @@ struct llvm_a2l_frame {
 
 /*
  * Implement addr2line() using libLLVM. LLVM is a C++ API, and
- * many of the linux/ headers cannot be included in a C++ compile unit,
+ * many of the robux/ headers cannot be included in a C++ compile unit,
  * so we need to make a little bridge code here. llvm_addr2line() will
  * convert the inline frame information from LLVM's internal structures
  * and put them into a flat array given in inline_frames. The caller

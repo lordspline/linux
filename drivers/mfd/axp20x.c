@@ -13,20 +13,20 @@
  * Author: Carlo Caione <carlo@caione.org>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/axp20x.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mfd/axp20x.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 #define AXP20X_OFF	BIT(7)
 

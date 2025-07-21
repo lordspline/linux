@@ -7,9 +7,9 @@
  *
  */
 
-#include <linux/tty.h>
-#include <linux/sysrq.h>
-#include <linux/workqueue.h>
+#include <robux/tty.h>
+#include <robux/sysrq.h>
+#include <robux/workqueue.h>
 
 extern unsigned int
 ctrlchar_handle(const unsigned char *buf, int len, struct tty_struct *tty);

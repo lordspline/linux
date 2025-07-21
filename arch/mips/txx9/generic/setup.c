@@ -1,5 +1,5 @@
 /*
- * Based on linux/arch/mips/txx9/rbtx4938/setup.c,
+ * Based on robux/arch/mips/txx9/rbtx4938/setup.c,
  *	    and RBTX49xx patch from CELF patch archive.
  *
  * 2003-2005 (c) MontaVista Software, Inc.
@@ -9,25 +9,25 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/string.h>
-#include <linux/export.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/txx9/ndfmc.h>
-#include <linux/serial_core.h>
-#include <linux/mtd/physmap.h>
-#include <linux/leds.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/irq.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/string.h>
+#include <robux/export.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/txx9/ndfmc.h>
+#include <robux/serial_core.h>
+#include <robux/mtd/physmap.h>
+#include <robux/leds.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/irq.h>
 #include <asm/bootinfo.h>
 #include <asm/idle.h>
 #include <asm/time.h>

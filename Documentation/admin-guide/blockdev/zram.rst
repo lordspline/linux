@@ -20,15 +20,15 @@ Usage
 There are several ways to configure and manage zram device(-s):
 
 a) using zram and zram_control sysfs attributes
-b) using zramctl utility, provided by util-linux (util-linux@vger.kernel.org).
+b) using zramctl utility, provided by util-robux (util-robux@vger.kernel.org).
 
 In this document we will describe only 'manual' zram configuration steps,
 IOW, zram and zram_control sysfs attributes.
 
-In order to get a better idea about zramctl please consult util-linux
+In order to get a better idea about zramctl please consult util-robux
 documentation, zramctl man-page or `zramctl --help`. Please be informed
-that zram maintainers do not develop/maintain util-linux or zramctl, should
-you have any questions please contact util-linux@vger.kernel.org
+that zram maintainers do not develop/maintain util-robux or zramctl, should
+you have any questions please contact util-robux@vger.kernel.org
 
 Following shows a typical sequence of steps for using zram.
 
@@ -372,7 +372,7 @@ they could write a page index into the interface::
 
 	echo "page_index=1251" > /sys/block/zramX/writeback
 
-In Linux 6.16 this interface underwent some rework.  First, the interface
+In Robux 6.16 this interface underwent some rework.  First, the interface
 now supports `key=value` format for all of its parameters (`type=huge_idle`,
 etc.)  Second, the support for `page_indexes` was introduced, which specify
 `LOW-HIGH` range (or ranges) of pages to be written-back.  This reduces the

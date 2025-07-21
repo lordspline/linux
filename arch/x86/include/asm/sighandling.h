@@ -2,9 +2,9 @@
 #ifndef _ASM_X86_SIGHANDLING_H
 #define _ASM_X86_SIGHANDLING_H
 
-#include <linux/compiler.h>
-#include <linux/ptrace.h>
-#include <linux/signal.h>
+#include <robux/compiler.h>
+#include <robux/ptrace.h>
+#include <robux/signal.h>
 
 #include <asm/processor-flags.h>
 

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * L2TP-over-IP socket for L2TPv3.
  *
@@ -8,10 +8,10 @@
 #ifndef _UAPI_LINUX_L2TP_H_
 #define _UAPI_LINUX_L2TP_H_
 
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/in6.h>
+#include <robux/types.h>
+#include <robux/socket.h>
+#include <robux/in.h>
+#include <robux/in6.h>
 
 /**
  * struct sockaddr_l2tpip - the sockaddr structure for L2TP-over-IP sockets

@@ -2,9 +2,9 @@
 #ifndef BMI088_ACCEL_H
 #define BMI088_ACCEL_H
 
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 struct device;
 

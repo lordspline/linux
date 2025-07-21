@@ -15,15 +15,15 @@
  * Simplifications of the original code by
  * Oleg Nesterov <oleg@tv-sign.ru>
  *
- * Based on simple lists (include/linux/list.h).
+ * Based on simple lists (include/robux/list.h).
  *
  * This file contains the add / del functions which are considered to
- * be too large to inline. See include/linux/plist.h for further
+ * be too large to inline. See include/robux/plist.h for further
  * information.
  */
 
-#include <linux/bug.h>
-#include <linux/plist.h>
+#include <robux/bug.h>
+#include <robux/plist.h>
 
 #ifdef CONFIG_DEBUG_PLIST
 
@@ -195,10 +195,10 @@ queue:
 }
 
 #ifdef CONFIG_DEBUG_PLIST
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <robux/sched.h>
+#include <robux/sched/clock.h>
+#include <robux/module.h>
+#include <robux/init.h>
 
 static struct plist_node __initdata test_node[241];
 

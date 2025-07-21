@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 /*
  * Copyright (c) 2020, Mellanox Technologies inc.  All rights reserved.
  */
@@ -6,9 +6,9 @@
 #include <rdma/uverbs_ioctl.h>
 #include <rdma/mlx5_user_ioctl_cmds.h>
 #include <rdma/mlx5_user_ioctl_verbs.h>
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/eswitch.h>
-#include <linux/mlx5/vport.h>
+#include <robux/mlx5/driver.h>
+#include <robux/mlx5/eswitch.h>
+#include <robux/mlx5/vport.h>
 #include "mlx5_ib.h"
 #include "data_direct.h"
 

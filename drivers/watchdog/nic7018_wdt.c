@@ -3,14 +3,14 @@
  * Copyright (C) 2016 National Instruments Corp.
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
+#include <robux/watchdog.h>
 
 #define LOCK			0xA5
 #define UNLOCK			0x5A

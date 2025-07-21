@@ -6,11 +6,11 @@
  * Copyright:   (C) 2012-2013  Linaro Limited
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irqflags.h>
-#include <linux/cpu_pm.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/irqflags.h>
+#include <robux/cpu_pm.h>
 
 #include <asm/mcpm.h>
 #include <asm/cacheflush.h>

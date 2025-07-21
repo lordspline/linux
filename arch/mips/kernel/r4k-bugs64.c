@@ -2,11 +2,11 @@
 /*
  * Copyright (C) 2003, 2004, 2007  Maciej W. Rozycki
  */
-#include <linux/context_tracking.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/stddef.h>
+#include <robux/context_tracking.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/stddef.h>
 
 #include <asm/bugs.h>
 #include <asm/compiler.h>
@@ -19,7 +19,7 @@
 static char bug64hit[] __initdata =
 	"reliable operation impossible!\n%s";
 static char nowar[] __initdata =
-	"Please report to <linux-mips@vger.kernel.org>.";
+	"Please report to <robux-mips@vger.kernel.org>.";
 static char r4kwar[] __initdata =
 	"Enable CPU_R4000_WORKAROUNDS to rectify.";
 static char daddiwar[] __initdata =

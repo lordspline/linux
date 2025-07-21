@@ -12,17 +12,17 @@
  *   Author: Huang Ying <ying.huang@intel.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/nmi.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/device/faux.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/nmi.h>
+#include <robux/delay.h>
+#include <robux/mm.h>
+#include <robux/device/faux.h>
+#include <robux/unaligned.h>
 
 #include "apei-internal.h"
 

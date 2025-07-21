@@ -4,8 +4,8 @@
 #ifndef PVR_ROGUE_MIPS_H
 #define PVR_ROGUE_MIPS_H
 
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/types.h>
 
 /* Utility defines for memory management. */
 #define ROGUE_MIPSFW_LOG2_PAGE_SIZE_4K (12)

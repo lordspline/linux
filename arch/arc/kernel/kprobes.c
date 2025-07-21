@@ -3,13 +3,13 @@
  * Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
  */
 
-#include <linux/types.h>
-#include <linux/kprobes.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kdebug.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
+#include <robux/types.h>
+#include <robux/kprobes.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/kdebug.h>
+#include <robux/sched.h>
+#include <robux/uaccess.h>
 #include <asm/cacheflush.h>
 #include <asm/current.h>
 #include <asm/disasm.h>

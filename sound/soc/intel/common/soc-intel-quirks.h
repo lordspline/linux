@@ -9,11 +9,11 @@
 #ifndef _SND_SOC_INTEL_QUIRKS_H
 #define _SND_SOC_INTEL_QUIRKS_H
 
-#include <linux/platform_data/x86/soc.h>
+#include <robux/platform_data/x86/soc.h>
 
 #if IS_REACHABLE(CONFIG_IOSF_MBI)
 
-#include <linux/dmi.h>
+#include <robux/dmi.h>
 #include <asm/iosf_mbi.h>
 
 static inline bool soc_intel_is_byt_cr(struct platform_device *pdev)

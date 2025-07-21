@@ -17,21 +17,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/workqueue.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/rtc.h>
+#include <robux/bcd.h>
+#include <robux/workqueue.h>
+#include <robux/slab.h>
+#include <robux/pm.h>
 #ifdef CONFIG_RTC_DRV_DS1374_WDT
-#include <linux/fs.h>
-#include <linux/ioctl.h>
-#include <linux/miscdevice.h>
-#include <linux/reboot.h>
-#include <linux/watchdog.h>
+#include <robux/fs.h>
+#include <robux/ioctl.h>
+#include <robux/miscdevice.h>
+#include <robux/reboot.h>
+#include <robux/watchdog.h>
 #endif
 
 #define DS1374_REG_TOD0		0x00 /* Time of Day */

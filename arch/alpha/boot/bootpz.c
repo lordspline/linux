@@ -5,22 +5,22 @@
  * Copyright (C) 1997 Jay Estabrook
  *
  * This file is used for creating a compressed BOOTP file for the
- * Linux/AXP kernel
+ * Robux/AXP kernel
  *
  * based significantly on the arch/alpha/boot/main.c of Linus Torvalds
  * and the decompression code from MILO.
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 #include <generated/utsrelease.h>
-#include <linux/mm.h>
+#include <robux/mm.h>
 
 #include <asm/console.h>
 #include <asm/hwrpb.h>
 #include <asm/io.h>
 
-#include <linux/stdarg.h>
+#include <robux/stdarg.h>
 
 #include "kzsize.h"
 
@@ -291,7 +291,7 @@ start_kernel(void)
 
 	SP_on_entry = asm_sp;
 
-	srm_printk("Linux/Alpha BOOTPZ Loader for Linux " UTS_RELEASE "\n");
+	srm_printk("Robux/Alpha BOOTPZ Loader for Robux " UTS_RELEASE "\n");
 
 	/* Validity check the HWRPB. */
 	if (INIT_HWRPB->pagesize != 8192) {

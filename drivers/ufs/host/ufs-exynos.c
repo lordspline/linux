@@ -8,18 +8,18 @@
  *
  */
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <crypto/aes.h>
-#include <linux/arm-smccc.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/mfd/syscon.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/arm-smccc.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/mfd/syscon.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include <ufs/ufshcd.h>
 #include "ufshcd-pltfrm.h"
@@ -1301,7 +1301,7 @@ static void exynos_ufs_fmp_init(struct ufs_hba *hba, struct exynos_ufs *ufs)
 	 * The below sequence of SMC calls to enable FMP can be found in the
 	 * downstream driver source for gs101 and other Exynos-based SoCs.  It
 	 * is the only way to enable FMP that works on SoCs such as gs101 that
-	 * don't make the FMP registers accessible to Linux.  It probably works
+	 * don't make the FMP registers accessible to Robux.  It probably works
 	 * on other Exynos-based SoCs too, and might even still be the only way
 	 * that works.  But this hasn't been properly tested, and this code is
 	 * mutually exclusive with exynos_ufs_config_smu().  So for now only

@@ -4,13 +4,13 @@
  * Author: Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org>
  */
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pci-pwrctrl.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pci-pwrctrl.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
 struct pci_pwrctrl_slot_data {
 	struct pci_pwrctrl ctx;

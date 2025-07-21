@@ -5,9 +5,9 @@
 
 #include "fman_muram.h"
 
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/genalloc.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/genalloc.h>
 
 struct muram_info {
 	struct gen_pool *pool;

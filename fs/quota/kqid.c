@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/fs.h>
-#include <linux/quota.h>
-#include <linux/export.h>
+#include <robux/fs.h>
+#include <robux/quota.h>
+#include <robux/export.h>
 
 /**
  *	qid_eq - Test to see if to kquid values are the same

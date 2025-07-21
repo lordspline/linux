@@ -11,14 +11,14 @@
  *               Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/spinlock.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
 #include "fhci.h"
 
 /* maps the hardware error code to the USB error code */

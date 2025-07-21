@@ -3,9 +3,9 @@
  * Copyright (C) 2016 Felix Fietkau <nbd@nbd.name>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include "mt76x0.h"
 #include "mcu.h"

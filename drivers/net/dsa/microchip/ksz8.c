@@ -13,21 +13,21 @@
  *	Tristram Ha <Tristram.Ha@microchip.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/gpio.h>
-#include <linux/if_vlan.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_data/microchip-ksz.h>
-#include <linux/phy.h>
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/micrel_phy.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/gpio.h>
+#include <robux/if_vlan.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_data/microchip-ksz.h>
+#include <robux/phy.h>
+#include <robux/etherdevice.h>
+#include <robux/if_bridge.h>
+#include <robux/micrel_phy.h>
 #include <net/dsa.h>
 #include <net/switchdev.h>
-#include <linux/phylink.h>
+#include <robux/phylink.h>
 
 #include "ksz_common.h"
 #include "ksz8_reg.h"
@@ -1736,7 +1736,7 @@ void ksz8_config_cpu_port(struct dsa_switch *ds)
  * However, there is a potential limitation in this configuration. It is
  * currently not possible to force disable flow control on a port if we still
  * advertise pause support. While such a configuration is not currently
- * supported by Linux, and may not make practical sense, it's important to be
+ * supported by Robux, and may not make practical sense, it's important to be
  * aware of this limitation when working with the KSZ8873 and similar devices.
  */
 static void ksz8_phy_port_link_up(struct ksz_device *dev, int port, int duplex,

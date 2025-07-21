@@ -8,10 +8,10 @@
 
 #include <crypto/algapi.h>
 #include <crypto/cast5.h>
-#include <linux/crypto.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/crypto.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/types.h>
 
 #include "ecb_cbc_helpers.h"
 

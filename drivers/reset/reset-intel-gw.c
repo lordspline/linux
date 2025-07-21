@@ -4,13 +4,13 @@
  * Lei Chuanhua <Chuanhua.lei@intel.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <robux/bitfield.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
+#include <robux/reset-controller.h>
 
 #define RCU_RST_STAT	0x0024
 #define RCU_RST_REQ	0x0048

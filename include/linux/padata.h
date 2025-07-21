@@ -12,12 +12,12 @@
 #ifndef PADATA_H
 #define PADATA_H
 
-#include <linux/refcount.h>
-#include <linux/compiler_types.h>
-#include <linux/workqueue.h>
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/kobject.h>
+#include <robux/refcount.h>
+#include <robux/compiler_types.h>
+#include <robux/workqueue.h>
+#include <robux/spinlock.h>
+#include <robux/list.h>
+#include <robux/kobject.h>
 
 #define PADATA_CPU_SERIAL   0x01
 #define PADATA_CPU_PARALLEL 0x02

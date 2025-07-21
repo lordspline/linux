@@ -8,15 +8,15 @@
  *		Jerry Huang <Chang-Ming.Huang@freescale.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/usb.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/otg-fsm.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
+#include <robux/usb.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/otg.h>
+#include <robux/usb/otg-fsm.h>
 
 #ifdef VERBOSE
 #define VDBG(fmt, args...) pr_debug("[%s]  " fmt, \

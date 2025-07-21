@@ -7,8 +7,8 @@
 
 #include "debugfs.h"
 
-#include <linux/skbuff.h>
-#include <linux/slab.h>
+#include <robux/skbuff.h>
+#include <robux/slab.h>
 
 #include "wl1251.h"
 #include "acx.h"

@@ -14,13 +14,13 @@
  *	    Przemek Rudy (prudy1@o2.pl)
  */
 
-#include <linux/bitfield.h>
-#include <linux/hid.h>
-#include <linux/init.h>
-#include <linux/math64.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/audio.h>
+#include <robux/bitfield.h>
+#include <robux/hid.h>
+#include <robux/init.h>
+#include <robux/math64.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/usb/audio.h>
 
 #include <sound/asoundef.h>
 #include <sound/core.h>

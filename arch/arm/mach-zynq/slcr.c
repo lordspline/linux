@@ -5,11 +5,11 @@
  * Copyright (c) 2011-2013 Xilinx Inc.
  */
 
-#include <linux/io.h>
-#include <linux/reboot.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
+#include <robux/io.h>
+#include <robux/reboot.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of_address.h>
+#include <robux/regmap.h>
 #include "common.h"
 
 /* register offsets */

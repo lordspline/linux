@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
- * include/uapi/linux/smiapp.h
+ * include/uapi/robux/smiapp.h
  *
  * Generic driver for SMIA/SMIA++ compliant camera modules
  *

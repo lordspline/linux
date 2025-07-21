@@ -8,7 +8,7 @@
 #ifndef _ATOM_ISP_H
 #define _ATOM_ISP_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /* struct media_device_info.hw_revision */
 #define ATOMISP_HW_REVISION_MASK	0x0000ff00

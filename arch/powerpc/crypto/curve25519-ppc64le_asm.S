@@ -63,7 +63,7 @@
 # X25519 lower-level primitives for PPC64.
 #
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 .text
 

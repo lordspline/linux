@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the ROBUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -20,10 +20,10 @@
 #ifndef _LINUX_IF_H
 #define _LINUX_IF_H
 
-#include <linux/libc-compat.h>          /* for compatibility with glibc */
-#include <linux/types.h>		/* for "__kernel_caddr_t" et al	*/
-#include <linux/socket.h>		/* for "struct sockaddr" et al	*/
-#include <linux/compiler.h>		/* for "__user" et al           */
+#include <robux/libc-compat.h>          /* for compatibility with glibc */
+#include <robux/types.h>		/* for "__kernel_caddr_t" et al	*/
+#include <robux/socket.h>		/* for "struct sockaddr" et al	*/
+#include <robux/compiler.h>		/* for "__user" et al           */
 
 #ifndef __KERNEL__
 #include <sys/socket.h>			/* for struct sockaddr.		*/
@@ -34,7 +34,7 @@
 #endif /* __UAPI_DEF_IF_IFNAMSIZ */
 #define	IFALIASZ	256
 #define	ALTIFNAMSIZ	128
-#include <linux/hdlc/ioctl.h>
+#include <robux/hdlc/ioctl.h>
 
 /* For glibc compatibility. An empty enum does not compile. */
 #if __UAPI_DEF_IF_NET_DEVICE_FLAGS_LOWER_UP_DORMANT_ECHO != 0 || \

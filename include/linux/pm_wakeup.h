@@ -13,7 +13,7 @@
 # error "Please do not include this file directly."
 #endif
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct wake_irq;
 

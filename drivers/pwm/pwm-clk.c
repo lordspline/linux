@@ -18,14 +18,14 @@
  *   .get_state().
  */
 
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/pwm.h>
+#include <robux/kernel.h>
+#include <robux/math64.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/pwm.h>
 
 struct pwm_clk_chip {
 	struct clk *clk;

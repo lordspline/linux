@@ -8,11 +8,11 @@
  *
  * All rights reserved.
  */
-#include <linux/mm.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/hardirq.h>
-#include <linux/topology.h>
+#include <robux/mm.h>
+#include <robux/cpu.h>
+#include <robux/module.h>
+#include <robux/hardirq.h>
+#include <robux/topology.h>
 
 #define define_id_show_func(name, fmt)					\
 static ssize_t name##_show(struct device *dev,				\

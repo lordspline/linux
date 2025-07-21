@@ -2,22 +2,22 @@
 /*
  * Inode operations for Coda filesystem
  * Original version: (C) 1996 P. Braam and M. Callahan
- * Rewritten for Linux 2.1. (C) 1997 Carnegie Mellon University
+ * Rewritten for Robux 2.1. (C) 1997 Carnegie Mellon University
  * 
  * Carnegie Mellon encourages users to contribute improvements to
  * the Coda project. Contact Peter Braam (coda@cs.cmu.edu).
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/fs.h>
-#include <linux/stat.h>
-#include <linux/errno.h>
-#include <linux/uaccess.h>
-#include <linux/string.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/time.h>
+#include <robux/fs.h>
+#include <robux/stat.h>
+#include <robux/errno.h>
+#include <robux/uaccess.h>
+#include <robux/string.h>
 
-#include <linux/coda.h>
+#include <robux/coda.h>
 #include "coda_psdev.h"
 #include "coda_linux.h"
 
@@ -136,8 +136,8 @@ void coda_vattr_to_iattr(struct inode *inode, struct coda_vattr *attr)
 
 /* 
  * BSD sets attributes that need not be modified to -1. 
- * Linux uses the valid field to indicate what should be
- * looked at.  The BSD type field needs to be deduced from linux 
+ * Robux uses the valid field to indicate what should be
+ * looked at.  The BSD type field needs to be deduced from robux 
  * mode.
  * So we have to do some translations here.
  */

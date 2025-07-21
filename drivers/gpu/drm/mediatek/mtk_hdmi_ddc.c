@@ -3,21 +3,21 @@
  * Copyright (c) 2014 MediaTek Inc.
  * Author: Jie Qiu <jie.qiu@mediatek.com>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/time.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/time.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
 
 #include "mtk_drm_drv.h"
 

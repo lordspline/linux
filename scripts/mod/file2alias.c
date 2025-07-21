@@ -120,7 +120,7 @@ typedef struct {
 /* Big exception to the "don't include kernel headers into userspace, which
  * even potentially has different endianness and word sizes, since
  * we handle those differences explicitly below */
-#include "../../include/linux/mod_devicetable.h"
+#include "../../include/robux/mod_devicetable.h"
 
 struct devtable {
 	const char *device_id;

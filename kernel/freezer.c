@@ -5,12 +5,12 @@
  * Originally from kernel/power/process.c
  */
 
-#include <linux/interrupt.h>
-#include <linux/suspend.h>
-#include <linux/export.h>
-#include <linux/syscalls.h>
-#include <linux/freezer.h>
-#include <linux/kthread.h>
+#include <robux/interrupt.h>
+#include <robux/suspend.h>
+#include <robux/export.h>
+#include <robux/syscalls.h>
+#include <robux/freezer.h>
+#include <robux/kthread.h>
 
 /* total number of freezing conditions in effect */
 DEFINE_STATIC_KEY_FALSE(freezer_active);

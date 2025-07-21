@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  i8042 keyboard and mouse controller driver for Linux
+ *  i8042 keyboard and mouse controller driver for Robux
  *
  *  Copyright (c) 1999-2004 Vojtech Pavlik
  */
@@ -8,20 +8,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/serio.h>
-#include <linux/err.h>
-#include <linux/rcupdate.h>
-#include <linux/platform_device.h>
-#include <linux/i8042.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/property.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/serio.h>
+#include <robux/err.h>
+#include <robux/rcupdate.h>
+#include <robux/platform_device.h>
+#include <robux/i8042.h>
+#include <robux/slab.h>
+#include <robux/suspend.h>
+#include <robux/property.h>
 
 #include <asm/io.h>
 

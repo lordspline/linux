@@ -24,11 +24,11 @@
  *
  */
 
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/dmi.h>
-#include <linux/pci.h>
-#include <linux/debugfs.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/dmi.h>
+#include <robux/pci.h>
+#include <robux/debugfs.h>
 #include <drm/drm_drv.h>
 
 #include "amdgpu.h"

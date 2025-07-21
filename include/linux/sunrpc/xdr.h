@@ -11,10 +11,10 @@
 #ifndef _SUNRPC_XDR_H_
 #define _SUNRPC_XDR_H_
 
-#include <linux/uio.h>
+#include <robux/uio.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
-#include <linux/scatterlist.h>
+#include <robux/unaligned.h>
+#include <robux/scatterlist.h>
 
 struct bio_vec;
 struct rpc_rqst;

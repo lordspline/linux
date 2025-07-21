@@ -4,8 +4,8 @@
 #ifndef _MLXSW_SPECTRUM_MCROUTER_H
 #define _MLXSW_SPECTRUM_MCROUTER_H
 
-#include <linux/mroute.h>
-#include <linux/mroute6.h>
+#include <robux/mroute.h>
+#include <robux/mroute6.h>
 #include "spectrum_router.h"
 #include "spectrum.h"
 

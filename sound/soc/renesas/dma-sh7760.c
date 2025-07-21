@@ -10,11 +10,11 @@
 //
 // FIXME: little-endian only for now
 
-#include <linux/module.h>
-#include <linux/gfp.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/gfp.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

@@ -6,8 +6,8 @@
  */
 
 #define FSCACHE_DEBUG_LEVEL CACHE
-#include <linux/module.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/init.h>
 #include "internal.h"
 #define CREATE_TRACE_POINTS
 #include <trace/events/fscache.h>

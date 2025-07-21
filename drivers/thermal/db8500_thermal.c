@@ -8,14 +8,14 @@
  * Authors: Hongbo Zhang, Linus Walleij
  */
 
-#include <linux/cpu_cooling.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/dbx500-prcmu.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
+#include <robux/cpu_cooling.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/dbx500-prcmu.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/thermal.h>
 
 #define PRCMU_DEFAULT_MEASURE_TIME	0xFFF
 #define PRCMU_DEFAULT_LOW_TEMP		0

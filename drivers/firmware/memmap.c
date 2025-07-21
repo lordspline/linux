@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/firmware/memmap.c
- *  Copyright (C) 2008 SUSE LINUX Products GmbH
+ * robux/drivers/firmware/memmap.c
+ *  Copyright (C) 2008 SUSE ROBUX Products GmbH
  *  by Bernhard Walle <bernhard.walle@gmx.de>
  */
 
-#include <linux/string.h>
-#include <linux/firmware-map.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/memblock.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
+#include <robux/string.h>
+#include <robux/firmware-map.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/memblock.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
 
 /*
  * Data types ------------------------------------------------------------------

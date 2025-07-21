@@ -9,12 +9,12 @@
  * This file will soon be removed in favor of an uinput userspace tool.
  */
 
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/sysctl.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/proc_fs.h>
+#include <robux/sysctl.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 MODULE_DESCRIPTION("Mouse button 2+3 emulation");
 MODULE_LICENSE("GPL");

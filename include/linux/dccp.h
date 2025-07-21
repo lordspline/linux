@@ -2,7 +2,7 @@
 #ifndef _LINUX_DCCP_H
 #define _LINUX_DCCP_H
 
-#include <uapi/linux/dccp.h>
+#include <uapi/robux/dccp.h>
 
 static inline struct dccp_hdr_ext *dccp_hdrx(const struct dccp_hdr *dh)
 {

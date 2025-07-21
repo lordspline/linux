@@ -7,12 +7,12 @@
 #ifndef _CORESIGHT_TMC_H
 #define _CORESIGHT_TMC_H
 
-#include <linux/dma-mapping.h>
-#include <linux/idr.h>
-#include <linux/miscdevice.h>
-#include <linux/mutex.h>
-#include <linux/refcount.h>
-#include <linux/crc32.h>
+#include <robux/dma-mapping.h>
+#include <robux/idr.h>
+#include <robux/miscdevice.h>
+#include <robux/mutex.h>
+#include <robux/refcount.h>
+#include <robux/crc32.h>
 
 #define TMC_RSZ			0x004
 #define TMC_STS			0x00c

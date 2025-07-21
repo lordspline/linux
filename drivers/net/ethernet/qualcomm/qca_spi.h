@@ -13,11 +13,11 @@
 #ifndef _QCA_SPI_H
 #define _QCA_SPI_H
 
-#include <linux/netdevice.h>
-#include <linux/sched.h>
-#include <linux/skbuff.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
+#include <robux/netdevice.h>
+#include <robux/sched.h>
+#include <robux/skbuff.h>
+#include <robux/spi/spi.h>
+#include <robux/types.h>
 
 #include "qca_7k_common.h"
 

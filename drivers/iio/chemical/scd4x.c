@@ -11,23 +11,23 @@
  * https://www.sensirion.com/file/datasheet_scd4x
  */
 
-#include <linux/unaligned.h>
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/types.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/unaligned.h>
+#include <robux/crc8.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/types.h>
+#include <robux/kernel.h>
+#include <robux/mutex.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 #define SCD4X_CRC8_POLYNOMIAL 0x31
 #define SCD4X_TIMEOUT_ERR 1000

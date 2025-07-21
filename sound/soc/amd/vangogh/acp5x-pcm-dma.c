@@ -4,11 +4,11 @@
 //
 // Copyright (C) 2021 Advanced Micro Devices, Inc. All rights reserved.
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/pm_runtime.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

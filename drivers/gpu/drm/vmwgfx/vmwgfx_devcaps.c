@@ -25,7 +25,7 @@
  *
  **************************************************************************/
 
-#include <linux/vmalloc.h>
+#include <robux/vmalloc.h>
 #include "vmwgfx_devcaps.h"
 
 #include "vmwgfx_drv.h"

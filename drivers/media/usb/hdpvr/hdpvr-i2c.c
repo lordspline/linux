@@ -11,9 +11,9 @@
 
 #if IS_ENABLED(CONFIG_I2C)
 
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/export.h>
 
 #include "hdpvr.h"
 

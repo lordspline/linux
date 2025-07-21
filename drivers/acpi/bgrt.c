@@ -6,11 +6,11 @@
  * Copyright 2012 Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/efi-bgrt.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/sysfs.h>
+#include <robux/efi-bgrt.h>
 
 static void *bgrt_image;
 static struct kobject *bgrt_kobj;

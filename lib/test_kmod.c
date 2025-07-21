@@ -14,17 +14,17 @@
  * tools/testing/selftests/kmod/kmod.sh --help
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/kmod.h>
-#include <linux/printk.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/kmod.h>
+#include <robux/printk.h>
+#include <robux/kthread.h>
+#include <robux/sched.h>
+#include <robux/fs.h>
+#include <robux/miscdevice.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/device.h>
 
 #define TEST_START_NUM_THREADS	50
 #define TEST_START_DRIVER	"test_module"

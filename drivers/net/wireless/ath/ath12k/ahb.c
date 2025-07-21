@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /*
- * Copyright (c) 2018-2019 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019 The Robux Foundation. All rights reserved.
  * Copyright (c) 2022-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc.h>
-#include <linux/soc/qcom/mdt_loader.h>
-#include <linux/soc/qcom/smem_state.h>
+#include <robux/dma-mapping.h>
+#include <robux/firmware/qcom/qcom_scm.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/remoteproc.h>
+#include <robux/soc/qcom/mdt_loader.h>
+#include <robux/soc/qcom/smem_state.h>
 #include "ahb.h"
 #include "debug.h"
 #include "hif.h"

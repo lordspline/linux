@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/syscalls.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/statfs.h>
-#include <linux/security.h>
-#include <linux/uaccess.h>
-#include <linux/compat.h>
+#include <robux/syscalls.h>
+#include <robux/export.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/mount.h>
+#include <robux/namei.h>
+#include <robux/statfs.h>
+#include <robux/security.h>
+#include <robux/uaccess.h>
+#include <robux/compat.h>
 #include "internal.h"
 
 static int flags_by_mnt(int mnt_flags)

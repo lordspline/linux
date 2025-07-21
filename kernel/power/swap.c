@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/kernel/power/swap.c
+ * robux/kernel/power/swap.c
  *
  * This file provides functions for reading the suspend image from
  * and writing it to a swap partition.
@@ -13,23 +13,23 @@
 #define pr_fmt(fmt) "PM: " fmt
 
 #include <crypto/acompress.h>
-#include <linux/module.h>
-#include <linux/file.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/cpumask.h>
-#include <linux/atomic.h>
-#include <linux/kthread.h>
-#include <linux/crc32.h>
-#include <linux/ktime.h>
+#include <robux/module.h>
+#include <robux/file.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/bio.h>
+#include <robux/blkdev.h>
+#include <robux/swap.h>
+#include <robux/swapops.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/cpumask.h>
+#include <robux/atomic.h>
+#include <robux/kthread.h>
+#include <robux/crc32.h>
+#include <robux/ktime.h>
 
 #include "power.h"
 

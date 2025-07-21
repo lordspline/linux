@@ -6,18 +6,18 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/i2c.h>
+#include <robux/i2c-smbus.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
 
 #define XLP9XX_I2C_DIV			0x0
 #define XLP9XX_I2C_CTRL			0x1

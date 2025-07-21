@@ -5,17 +5,17 @@
 
 #include <drm/drm_fourcc.h>
 #include <drm/drm_of.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/soc/mediatek/mtk-cmdq.h>
-#include <linux/soc/mediatek/mtk-mmsys.h>
-#include <linux/soc/mediatek/mtk-mutex.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/soc/mediatek/mtk-cmdq.h>
+#include <robux/soc/mediatek/mtk-mmsys.h>
+#include <robux/soc/mediatek/mtk-mutex.h>
 
 #include "mtk_ddp_comp.h"
 #include "mtk_disp_drv.h"

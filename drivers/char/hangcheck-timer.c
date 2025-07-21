@@ -24,19 +24,19 @@
  * expected timeout very closely.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/sysrq.h>
-#include <linux/timer.h>
-#include <linux/hrtimer.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/reboot.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/uaccess.h>
+#include <robux/sysrq.h>
+#include <robux/timer.h>
+#include <robux/hrtimer.h>
 
 #define VERSION_STR "0.9.1"
 

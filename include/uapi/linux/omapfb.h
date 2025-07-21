@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 /*
- * File: include/linux/omapfb.h
+ * File: include/robux/omapfb.h
  *
  * Framebuffer driver for TI OMAP boards
  *
@@ -25,9 +25,9 @@
 #ifndef _UAPI__LINUX_OMAPFB_H__
 #define _UAPI__LINUX_OMAPFB_H__
 
-#include <linux/fb.h>
-#include <linux/ioctl.h>
-#include <linux/types.h>
+#include <robux/fb.h>
+#include <robux/ioctl.h>
+#include <robux/types.h>
 
 /* IOCTL commands. */
 

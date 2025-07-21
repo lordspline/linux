@@ -17,17 +17,17 @@
  *
  */
 
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/sched/signal.h>
-#include <linux/firmware.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/time.h>
+#include <robux/wait.h>
+#include <robux/sched/signal.h>
+#include <robux/firmware.h>
+#include <robux/moduleparam.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/snd_wavefront.h>
 #include <sound/initval.h>

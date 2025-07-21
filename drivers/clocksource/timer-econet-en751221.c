@@ -5,16 +5,16 @@
  * Copyright (C) 2025 by Caleb James DeLisle <cjd@cjdns.fr>
  */
 
-#include <linux/io.h>
-#include <linux/cpumask.h>
-#include <linux/interrupt.h>
-#include <linux/clockchips.h>
-#include <linux/sched_clock.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/cpuhotplug.h>
-#include <linux/clk.h>
+#include <robux/io.h>
+#include <robux/cpumask.h>
+#include <robux/interrupt.h>
+#include <robux/clockchips.h>
+#include <robux/sched_clock.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/cpuhotplug.h>
+#include <robux/clk.h>
 
 #define ECONET_BITS			32
 #define ECONET_MIN_DELTA		0x00001000

@@ -2,13 +2,13 @@
 #ifndef __SH_CLOCK_H
 #define __SH_CLOCK_H
 
-#include <linux/list.h>
-#include <linux/seq_file.h>
-#include <linux/cpufreq.h>
-#include <linux/types.h>
-#include <linux/kref.h>
-#include <linux/clk.h>
-#include <linux/err.h>
+#include <robux/list.h>
+#include <robux/seq_file.h>
+#include <robux/cpufreq.h>
+#include <robux/types.h>
+#include <robux/kref.h>
+#include <robux/clk.h>
+#include <robux/err.h>
 
 struct clk;
 

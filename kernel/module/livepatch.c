@@ -5,9 +5,9 @@
  * Copyright (C) 2016 Jessica Yu <jeyu@redhat.com>
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/slab.h>
 #include "internal.h"
 
 /*

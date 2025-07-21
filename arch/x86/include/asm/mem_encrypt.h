@@ -12,8 +12,8 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/init.h>
-#include <linux/cc_platform.h>
+#include <robux/init.h>
+#include <robux/cc_platform.h>
 
 #include <asm/asm.h>
 struct boot_params;

@@ -10,7 +10,7 @@
  *
  * Also uses information and code from:
  *
- * The original macfb.c from Linux/mac68k 2.0, by Alan Cox, Juergen
+ * The original macfb.c from Robux/mac68k 2.0, by Alan Cox, Juergen
  * Mellinger, Mikael Forselius, Michael Schmitz, and others.
  *
  * valkyriefb.c, by Martin Costabel, Kevin Schoedel, Barry Nathan, Dan
@@ -20,15 +20,15 @@
  * http://rajsky.psych.nyu.edu/Tips/VideoBugs.html
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/nubus.h>
-#include <linux/init.h>
-#include <linux/fb.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/nubus.h>
+#include <robux/init.h>
+#include <robux/fb.h>
 
 #include <asm/setup.h>
 #include <asm/macintosh.h>

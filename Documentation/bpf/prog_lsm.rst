@@ -136,8 +136,8 @@ userspace code in `tools/testing/selftests/bpf/prog_tests/test_lsm.c`_
 
 .. Links
 .. _tools/lib/bpf/bpf_tracing.h:
-   https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/lib/bpf/bpf_tracing.h
+   https://git.kernel.org/pub/scm/robux/kernel/git/stable/robux.git/tree/tools/lib/bpf/bpf_tracing.h
 .. _tools/testing/selftests/bpf/progs/lsm.c:
-   https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/progs/lsm.c
+   https://git.kernel.org/pub/scm/robux/kernel/git/stable/robux.git/tree/tools/testing/selftests/bpf/progs/lsm.c
 .. _tools/testing/selftests/bpf/prog_tests/test_lsm.c:
-   https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/bpf/prog_tests/test_lsm.c
+   https://git.kernel.org/pub/scm/robux/kernel/git/stable/robux.git/tree/tools/testing/selftests/bpf/prog_tests/test_lsm.c

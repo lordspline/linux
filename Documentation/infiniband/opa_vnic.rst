@@ -132,7 +132,7 @@ interface. It also passes any control information to the HW dependent driver
 by invoking the RDMA netdev control operations::
 
         +-------------------+ +----------------------+
-        |                   | |       Linux          |
+        |                   | |       Robux          |
         |     IB MAD        | |      Network         |
         |                   | |       Stack          |
         +-------------------+ +----------------------+

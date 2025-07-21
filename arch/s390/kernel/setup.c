@@ -16,41 +16,41 @@
 #define KMSG_COMPONENT "setup"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/cpu.h>
-#include <linux/kernel.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/random.h>
-#include <linux/user.h>
-#include <linux/tty.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/initrd.h>
-#include <linux/root_dev.h>
-#include <linux/console.h>
-#include <linux/kernel_stat.h>
-#include <linux/dma-map-ops.h>
-#include <linux/device.h>
-#include <linux/notifier.h>
-#include <linux/pfn.h>
-#include <linux/ctype.h>
-#include <linux/reboot.h>
-#include <linux/topology.h>
-#include <linux/kexec.h>
-#include <linux/crash_dump.h>
-#include <linux/memory.h>
-#include <linux/compat.h>
-#include <linux/start_kernel.h>
-#include <linux/hugetlb.h>
-#include <linux/kmemleak.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/sched.h>
+#include <robux/sched/task.h>
+#include <robux/cpu.h>
+#include <robux/kernel.h>
+#include <robux/memblock.h>
+#include <robux/mm.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/ptrace.h>
+#include <robux/random.h>
+#include <robux/user.h>
+#include <robux/tty.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/initrd.h>
+#include <robux/root_dev.h>
+#include <robux/console.h>
+#include <robux/kernel_stat.h>
+#include <robux/dma-map-ops.h>
+#include <robux/device.h>
+#include <robux/notifier.h>
+#include <robux/pfn.h>
+#include <robux/ctype.h>
+#include <robux/reboot.h>
+#include <robux/topology.h>
+#include <robux/kexec.h>
+#include <robux/crash_dump.h>
+#include <robux/memory.h>
+#include <robux/compat.h>
+#include <robux/start_kernel.h>
+#include <robux/hugetlb.h>
+#include <robux/kmemleak.h>
 
 #include <asm/archrandom.h>
 #include <asm/boot_data.h>
@@ -848,9 +848,9 @@ static void __init log_component_list(void)
 	if (!early_ipl_comp_list_addr)
 		return;
 	if (ipl_block.hdr.flags & IPL_PL_FLAG_SIPL)
-		pr_info("Linux is running with Secure-IPL enabled\n");
+		pr_info("Robux is running with Secure-IPL enabled\n");
 	else
-		pr_info("Linux is running with Secure-IPL disabled\n");
+		pr_info("Robux is running with Secure-IPL disabled\n");
 	ptr = __va(early_ipl_comp_list_addr);
 	end = (void *) ptr + early_ipl_comp_list_size;
 	pr_info("The IPL report contains the following components:\n");
@@ -897,14 +897,14 @@ void __init setup_arch(char **cmdline_p)
          * print what head.S has found out about the machine
          */
 	if (machine_is_vm())
-		pr_info("Linux is running as a z/VM "
+		pr_info("Robux is running as a z/VM "
 			"guest operating system in 64-bit mode\n");
 	else if (machine_is_kvm())
-		pr_info("Linux is running under KVM in 64-bit mode\n");
+		pr_info("Robux is running under KVM in 64-bit mode\n");
 	else if (machine_is_lpar())
-		pr_info("Linux is running natively in 64-bit mode\n");
+		pr_info("Robux is running natively in 64-bit mode\n");
 	else
-		pr_info("Linux is running as a guest in 64-bit mode\n");
+		pr_info("Robux is running as a guest in 64-bit mode\n");
 	/* Print decompressor messages if not already printed */
 	if (!boot_earlyprintk)
 		boot_rb_foreach(print_rb_entry);

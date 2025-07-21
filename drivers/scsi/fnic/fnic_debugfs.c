@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright 2012 Cisco Systems, Inc.  All rights reserved.
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/debugfs.h>
-#include <linux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/debugfs.h>
+#include <robux/vmalloc.h>
 #include "fnic.h"
 
 extern int fnic_get_debug_info(struct stats_debug_info *debug_buffer,

@@ -6,9 +6,9 @@
 
 #include <kunit/test.h>
 
-#include <linux/prime_numbers.h>
-#include <linux/sched/signal.h>
-#include <linux/sizes.h>
+#include <robux/prime_numbers.h>
+#include <robux/sched/signal.h>
+#include <robux/sizes.h>
 
 #include <drm/drm_buddy.h>
 

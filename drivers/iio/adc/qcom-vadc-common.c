@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/fixp-arith.h>
-#include <linux/iio/adc/qcom-vadc-common.h>
-#include <linux/math64.h>
-#include <linux/log2.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/units.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
+#include <robux/bitops.h>
+#include <robux/fixp-arith.h>
+#include <robux/iio/adc/qcom-vadc-common.h>
+#include <robux/math64.h>
+#include <robux/log2.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/units.h>
 
 /**
  * struct vadc_map_pt - Map the graph representation for ADC channel

@@ -5,7 +5,7 @@
 
 /* UBI NVMEM provider */
 #include "ubi.h"
-#include <linux/nvmem-provider.h>
+#include <robux/nvmem-provider.h>
 
 /* List of all NVMEM devices */
 static LIST_HEAD(nvmem_devices);

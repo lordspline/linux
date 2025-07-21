@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
-#include <linux/stringify.h>
-#include <linux/linkage.h>
+#include <robux/stringify.h>
+#include <robux/linkage.h>
 #include <asm/alternative.h>
 #include <asm/dwarf.h>
 #include <asm/fpu-insn.h>

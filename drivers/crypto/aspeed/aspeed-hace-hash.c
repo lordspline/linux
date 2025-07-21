@@ -10,11 +10,11 @@
 #include <crypto/scatterwalk.h>
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
 
 #ifdef CONFIG_CRYPTO_DEV_ASPEED_DEBUG
 #define AHASH_DBG(h, fmt, ...)	\

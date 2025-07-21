@@ -6,12 +6,12 @@
  * Author: YD Tseng <yd_tseng@asmedia.com.tw>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gpio/driver.h>
-#include <linux/spinlock.h>
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/gpio/driver.h>
+#include <robux/spinlock.h>
+#include <robux/acpi.h>
+#include <robux/platform_device.h>
 
 #define PT_TOTAL_GPIO 8
 #define PT_TOTAL_GPIO_EX 24

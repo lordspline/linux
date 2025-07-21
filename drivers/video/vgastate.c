@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/vgastate.c -- VGA state save/restore
+ * robux/drivers/video/vgastate.c -- VGA state save/restore
  *
  * Copyright 2002 James Simmons
  *
@@ -13,10 +13,10 @@
  * archive for more details.
  *
  */
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/fb.h>
-#include <linux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/fb.h>
+#include <robux/vmalloc.h>
 #include <video/vga.h>
 
 struct regstate {

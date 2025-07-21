@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/savagefb.c -- S3 Savage Framebuffer Driver
+ * robux/drivers/video/savagefb.c -- S3 Savage Framebuffer Driver
  *
  * Copyright (c) 2001-2002  Denis Oliver Kropp <dok@directfb.org>
  *                          Sven Neumann <neo@directfb.org>
@@ -41,18 +41,18 @@
  *
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/console.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/fb.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/console.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>

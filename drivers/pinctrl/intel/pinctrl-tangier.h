@@ -4,17 +4,17 @@
  *
  * Copyright (C) 2016, 2023 Intel Corporation
  *
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@robux.intel.com>
  *          Raag Jadav <raag.jadav@intel.com>
  */
 
 #ifndef PINCTRL_TANGIER_H
 #define PINCTRL_TANGIER_H
 
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
+#include <robux/spinlock_types.h>
+#include <robux/types.h>
 
-#include <linux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinctrl.h>
 
 #include "pinctrl-intel.h"
 

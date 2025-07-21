@@ -10,14 +10,14 @@
 #ifdef __KERNEL__
 
 #ifndef __powerpc64__
-#include <linux/pgtable.h>
+#include <robux/pgtable.h>
 #endif
 #ifndef __powerpc64__
 #include <asm/page.h>
 #include <asm/mmu.h>
 #endif
 
-#include <linux/pagemap.h>
+#include <robux/pagemap.h>
 
 static inline void __tlb_remove_tlb_entry(struct mmu_gather *tlb, pte_t *ptep,
 					  unsigned long address);
@@ -27,7 +27,7 @@ static inline void __tlb_remove_tlb_entry(struct mmu_gather *tlb, pte_t *ptep,
 extern void tlb_flush(struct mmu_gather *tlb);
 /*
  * book3s:
- * Hash does not use the linux page-tables, so we can avoid
+ * Hash does not use the robux page-tables, so we can avoid
  * the TLB invalidate for page-table freeing, Radix otoh does use the
  * page-tables and needs the TLBI.
  *

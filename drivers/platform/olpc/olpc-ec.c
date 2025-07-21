@@ -6,17 +6,17 @@
  *
  * Copyright (C) 2011-2012 One Laptop per Child Foundation.
  */
-#include <linux/completion.h>
-#include <linux/debugfs.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/regulator/driver.h>
-#include <linux/olpc-ec.h>
+#include <robux/completion.h>
+#include <robux/debugfs.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/regulator/driver.h>
+#include <robux/olpc-ec.h>
 
 struct ec_cmd_desc {
 	u8 cmd;

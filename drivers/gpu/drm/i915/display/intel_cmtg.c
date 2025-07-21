@@ -3,8 +3,8 @@
  * Copyright (C) 2025 Intel Corporation
  */
 
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <robux/string_choices.h>
+#include <robux/types.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_print.h>

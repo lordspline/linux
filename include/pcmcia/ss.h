@@ -12,12 +12,12 @@
 #ifndef _LINUX_SS_H
 #define _LINUX_SS_H
 
-#include <linux/device.h>
-#include <linux/sched.h>	/* task_struct, completion */
-#include <linux/mutex.h>
+#include <robux/device.h>
+#include <robux/sched.h>	/* task_struct, completion */
+#include <robux/mutex.h>
 
 #ifdef CONFIG_CARDBUS
-#include <linux/pci.h>
+#include <robux/pci.h>
 #endif
 
 /* Definitions for card status flags for GetStatus */

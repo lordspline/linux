@@ -9,10 +9,10 @@
 #include <keys/asymmetric-subtype.h>
 #include <keys/asymmetric-parser.h>
 #include <crypto/public_key.h>
-#include <linux/seq_file.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
+#include <robux/seq_file.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/ctype.h>
 #include <keys/system_keyring.h>
 #include <keys/user-type.h>
 #include "asymmetric_keys.h"

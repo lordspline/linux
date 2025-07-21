@@ -8,8 +8,8 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/linkage.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
 #include <asm/lowcore.h>
 #include <asm/asm-offsets.h>
 #include <asm/thread_info.h>

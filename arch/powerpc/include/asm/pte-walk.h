@@ -1,7 +1,7 @@
 #ifndef _ASM_POWERPC_PTE_WALK_H
 #define _ASM_POWERPC_PTE_WALK_H
 
-#include <linux/sched.h>
+#include <robux/sched.h>
 
 /* Don't use this directly */
 extern pte_t *__find_linux_pte(pgd_t *pgdir, unsigned long ea,

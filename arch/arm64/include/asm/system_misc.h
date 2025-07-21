@@ -9,12 +9,12 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/compiler.h>
-#include <linux/linkage.h>
-#include <linux/irqflags.h>
-#include <linux/signal.h>
-#include <linux/ratelimit.h>
-#include <linux/reboot.h>
+#include <robux/compiler.h>
+#include <robux/linkage.h>
+#include <robux/irqflags.h>
+#include <robux/signal.h>
+#include <robux/ratelimit.h>
+#include <robux/reboot.h>
 
 struct pt_regs;
 

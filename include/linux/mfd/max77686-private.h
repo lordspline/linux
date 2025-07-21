@@ -9,9 +9,9 @@
 #ifndef __LINUX_MFD_MAX77686_PRIV_H
 #define __LINUX_MFD_MAX77686_PRIV_H
 
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/module.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/module.h>
 
 #define MAX77686_REG_INVALID		(0xff)
 

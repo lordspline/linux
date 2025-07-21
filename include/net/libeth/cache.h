@@ -4,7 +4,7 @@
 #ifndef __LIBETH_CACHE_H
 #define __LIBETH_CACHE_H
 
-#include <linux/cache.h>
+#include <robux/cache.h>
 
 /**
  * libeth_cacheline_group_assert - make sure cacheline group size is expected

@@ -12,16 +12,16 @@
 
 ======================================================================*/
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/init.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/partitions.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/partitions.h>
 
 #define AFSV1_FOOTER_MAGIC 0xA0FFFF9F
 #define AFSV2_FOOTER_MAGIC1 0x464C5348 /* "FLSH" */

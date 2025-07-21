@@ -46,7 +46,7 @@ them.
 
 Since writing or even reading registers can jeopardize the system
 security, its stability and damage the hardware, both ioctls require
-superuser privileges. Additionally the Linux kernel must be compiled
+superuser privileges. Additionally the Robux kernel must be compiled
 with the ``CONFIG_VIDEO_ADV_DEBUG`` option to enable these ioctls.
 
 To write a register applications must initialize all fields of a struct
@@ -77,7 +77,7 @@ when a driver supports these ioctls it must also support
 it may support ``VIDIOC_DBG_G_CHIP_INFO`` but not these ioctls.
 
 ``VIDIOC_DBG_G_REGISTER`` and ``VIDIOC_DBG_S_REGISTER`` were introduced
-in Linux 2.6.21, but their API was changed to the one described here in
+in Robux 2.6.21, but their API was changed to the one described here in
 kernel 2.6.29.
 
 We recommended the v4l2-dbg utility over calling these ioctls directly.

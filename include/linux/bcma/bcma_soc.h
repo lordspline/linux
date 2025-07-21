@@ -2,7 +2,7 @@
 #ifndef LINUX_BCMA_SOC_H_
 #define LINUX_BCMA_SOC_H_
 
-#include <linux/bcma/bcma.h>
+#include <robux/bcma/bcma.h>
 
 struct bcma_soc {
 	struct bcma_bus bus;

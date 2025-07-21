@@ -11,21 +11,21 @@
  * Author : Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pm.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/ipaq-micro.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/list.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/pm.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/ipaq-micro.h>
+#include <robux/string.h>
+#include <robux/string_choices.h>
+#include <robux/random.h>
+#include <robux/slab.h>
+#include <robux/list.h>
 
 #include <mach/hardware.h>
 

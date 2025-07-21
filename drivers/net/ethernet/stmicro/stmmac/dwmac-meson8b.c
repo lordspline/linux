@@ -5,19 +5,19 @@
  * Copyright (C) 2016 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/stmmac.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/ethtool.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/mfd/syscon.h>
+#include <robux/platform_device.h>
+#include <robux/stmmac.h>
 
 #include "stmmac_platform.h"
 

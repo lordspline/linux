@@ -7,11 +7,11 @@
  * The notifier and event handling code is based on netvsc driver.
  */
 
-#include <linux/module.h>
-#include <linux/etherdevice.h>
-#include <uapi/linux/if_arp.h>
-#include <linux/rtnetlink.h>
-#include <linux/if_vlan.h>
+#include <robux/module.h>
+#include <robux/etherdevice.h>
+#include <uapi/robux/if_arp.h>
+#include <robux/rtnetlink.h>
+#include <robux/if_vlan.h>
 #include <net/failover.h>
 
 static LIST_HEAD(failover_list);

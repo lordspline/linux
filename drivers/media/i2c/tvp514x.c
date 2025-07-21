@@ -16,15 +16,15 @@
  *     Prabhakar Lad <prabhakar.lad@ti.com>
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/slab.h>
-#include <linux/v4l2-mediabus.h>
-#include <linux/videodev2.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/slab.h>
+#include <robux/v4l2-mediabus.h>
+#include <robux/videodev2.h>
 
 #include <media/i2c/tvp514x.h>
 #include <media/media-entity.h>
@@ -48,7 +48,7 @@ module_param(debug, bool, 0644);
 MODULE_PARM_DESC(debug, "Debug level (0-1)");
 
 MODULE_AUTHOR("Texas Instruments");
-MODULE_DESCRIPTION("TVP514X linux decoder driver");
+MODULE_DESCRIPTION("TVP514X robux decoder driver");
 MODULE_LICENSE("GPL");
 
 /* enum tvp514x_std - enum for supported standards */

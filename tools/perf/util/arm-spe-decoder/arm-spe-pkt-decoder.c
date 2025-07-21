@@ -8,10 +8,10 @@
 #include <string.h>
 #include <endian.h>
 #include <byteswap.h>
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 #include <stdarg.h>
-#include <linux/kernel.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/unaligned.h>
 
 #include "arm-spe-pkt-decoder.h"
 

@@ -293,7 +293,7 @@ Security Model and SELinux
 ==========================
 
 CacheFiles is implemented to deal properly with the LSM security features of
-the Linux kernel and the SELinux facility.
+the Robux kernel and the SELinux facility.
 
 One of the problems that CacheFiles faces is that it is generally acting on
 behalf of a process, and running in that process's context, and that includes a

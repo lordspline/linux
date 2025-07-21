@@ -8,9 +8,9 @@
 #ifndef _VMCI_HANDLE_ARRAY_H_
 #define _VMCI_HANDLE_ARRAY_H_
 
-#include <linux/vmw_vmci_defs.h>
-#include <linux/limits.h>
-#include <linux/types.h>
+#include <robux/vmw_vmci_defs.h>
+#include <robux/limits.h>
+#include <robux/types.h>
 
 struct vmci_handle_arr {
 	u32 capacity;

@@ -2,8 +2,8 @@
 #ifndef _ASM_X86_DEBUGREG_H
 #define _ASM_X86_DEBUGREG_H
 
-#include <linux/bug.h>
-#include <linux/percpu.h>
+#include <robux/bug.h>
+#include <robux/percpu.h>
 #include <uapi/asm/debugreg.h>
 
 #include <asm/cpufeature.h>

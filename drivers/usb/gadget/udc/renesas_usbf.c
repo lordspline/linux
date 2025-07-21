@@ -6,20 +6,20 @@
  * Author: Herve Codina <herve.codina@bootlin.com>
  */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/types.h>
-#include <linux/usb/composite.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/role.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/kfifo.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/types.h>
+#include <robux/usb/composite.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/role.h>
 
 #define USBF_NUM_ENDPOINTS	16
 #define USBF_EP0_MAX_PCKT_SIZE	64

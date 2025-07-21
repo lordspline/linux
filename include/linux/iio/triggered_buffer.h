@@ -2,8 +2,8 @@
 #ifndef _LINUX_IIO_TRIGGERED_BUFFER_H_
 #define _LINUX_IIO_TRIGGERED_BUFFER_H_
 
-#include <linux/iio/buffer.h>
-#include <linux/interrupt.h>
+#include <robux/iio/buffer.h>
+#include <robux/interrupt.h>
 
 struct iio_dev;
 struct iio_dev_attr;

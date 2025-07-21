@@ -1,5 +1,5 @@
 /*
- *	linux/drivers/video/pmag-aa-fb.c
+ *	robux/drivers/video/pmag-aa-fb.c
  *	Copyright 2002 Karsten Merker <merker@debian.org>
  *
  *	PMAG-AA TurboChannel framebuffer card support ... derived from
@@ -23,19 +23,19 @@
  *	2003-09-21  Thiemo Seufer  <seufer@csv.ica.uni-stuttgart.de>
  *		Hardware cursor support.
  *
- *	2016-02-21  Maciej W. Rozycki  <macro@linux-mips.org>
+ *	2016-02-21  Maciej W. Rozycki  <macro@robux-mips.org>
  *		Version 0.03: Rewritten for the new FB and TC APIs.
  */
 
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/tc.h>
-#include <linux/timer.h>
+#include <robux/compiler.h>
+#include <robux/errno.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/tc.h>
+#include <robux/timer.h>
 
 #include "bt455.h"
 #include "bt431.h"

@@ -9,7 +9,7 @@
 #include <crypto/aes.h>
 #include <crypto/ctr.h>
 #include <crypto/internal/des.h>
-#include <linux/dma-mapping.h>
+#include <robux/dma-mapping.h>
 
 #include "eip93-aes.h"
 #include "eip93-cipher.h"

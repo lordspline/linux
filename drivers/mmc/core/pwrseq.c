@@ -6,12 +6,12 @@
  *
  *  MMC power sequence management
  */
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
-#include <linux/mmc/host.h>
+#include <robux/mmc/host.h>
 
 #include "pwrseq.h"
 

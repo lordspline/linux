@@ -8,16 +8,16 @@
  * Copyright (c) 2019 NXP Semiconductor
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/minmax.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/minmax.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
+#include <robux/videodev2.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-subdev.h>

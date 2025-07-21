@@ -8,14 +8,14 @@
 #ifndef __LINUX_MTD_MAP_H__
 #define __LINUX_MTD_MAP_H__
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/string.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <asm/barrier.h>
 
 #ifdef CONFIG_MTD_MAP_BANK_WIDTH_1

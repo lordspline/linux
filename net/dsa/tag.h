@@ -3,9 +3,9 @@
 #ifndef __DSA_TAG_H
 #define __DSA_TAG_H
 
-#include <linux/if_vlan.h>
-#include <linux/list.h>
-#include <linux/types.h>
+#include <robux/if_vlan.h>
+#include <robux/list.h>
+#include <robux/types.h>
 #include <net/dsa.h>
 
 #include "port.h"

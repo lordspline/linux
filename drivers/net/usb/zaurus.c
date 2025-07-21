@@ -7,15 +7,15 @@
 // #define	DEBUG			// error path messages, extra info
 // #define	VERBOSE			// more; success messages
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/workqueue.h>
-#include <linux/mii.h>
-#include <linux/crc32.h>
-#include <linux/usb.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/usbnet.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/workqueue.h>
+#include <robux/mii.h>
+#include <robux/crc32.h>
+#include <robux/usb.h>
+#include <robux/usb/cdc.h>
+#include <robux/usb/usbnet.h>
 
 
 /*
@@ -27,7 +27,7 @@
  * There are non-Zaurus products that use these same protocols too.
  *
  * The annoying thing is that at the same time Sharp was developing
- * that annoying standards-breaking software, the Linux community had
+ * that annoying standards-breaking software, the Robux community had
  * a simple "CDC Subset" working reliably on the same SA-1100 hardware.
  * That is, the same functionality but not violating standards.
  *

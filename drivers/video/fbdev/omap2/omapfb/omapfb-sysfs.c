@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/video/omap2/omapfb-sysfs.c
+ * robux/drivers/video/omap2/omapfb-sysfs.c
  *
  * Copyright (C) 2008 Nokia Corporation
  * Author: Tomi Valkeinen <tomi.valkeinen@nokia.com>
@@ -9,15 +9,15 @@
  * by Imre Deak.
  */
 
-#include <linux/fb.h>
-#include <linux/sysfs.h>
-#include <linux/device.h>
-#include <linux/uaccess.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/mm.h>
-#include <linux/omapfb.h>
+#include <robux/fb.h>
+#include <robux/sysfs.h>
+#include <robux/device.h>
+#include <robux/uaccess.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/kstrtox.h>
+#include <robux/mm.h>
+#include <robux/omapfb.h>
 
 #include <video/omapfb_dss.h>
 #include <video/omapvrfb.h>

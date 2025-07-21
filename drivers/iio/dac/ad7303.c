@@ -5,17 +5,17 @@
  * Copyright 2013 Analog Devices Inc.
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/kernel.h>
+#include <robux/spi/spi.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #define AD7303_CFG_EXTERNAL_VREF BIT(15)
 #define AD7303_CFG_POWER_DOWN(ch) BIT(11 + (ch))

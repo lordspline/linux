@@ -6,18 +6,18 @@
  * Author: Roger Quadros <rogerq@ti.com>
  */
 
-#include <linux/extcon-provider.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/mod_devicetable.h>
+#include <robux/extcon-provider.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/mod_devicetable.h>
 
 #define USB_GPIO_DEBOUNCE_MS	20	/* ms */
 
@@ -266,7 +266,7 @@ static SIMPLE_DEV_PM_OPS(usb_extcon_pm_ops,
 			 usb_extcon_suspend, usb_extcon_resume);
 
 static const struct of_device_id usb_extcon_dt_match[] = {
-	{ .compatible = "linux,extcon-usb-gpio", },
+	{ .compatible = "robux,extcon-usb-gpio", },
 	{ /* sentinel */ }
 };
 MODULE_DEVICE_TABLE(of, usb_extcon_dt_match);

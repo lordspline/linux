@@ -2,15 +2,15 @@
 /*
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/kernel.h>
-#include <linux/acpi.h>
-#include <linux/efi.h>
-#include <linux/export.h>
-#include <linux/pm.h>
-#include <linux/types.h>
-#include <linux/reboot.h>
-#include <linux/delay.h>
-#include <linux/console.h>
+#include <robux/kernel.h>
+#include <robux/acpi.h>
+#include <robux/efi.h>
+#include <robux/export.h>
+#include <robux/pm.h>
+#include <robux/types.h>
+#include <robux/reboot.h>
+#include <robux/delay.h>
+#include <robux/console.h>
 
 #include <acpi/reboot.h>
 #include <asm/idle.h>

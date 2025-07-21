@@ -5,17 +5,17 @@
  * Copyright (C) 2018 Marcus Folkesson <marcus.folkesson@gmail.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/errno.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/cleanup.h>
+#include <robux/errno.h>
+#include <robux/input.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 
-#include <linux/usb.h>
-#include <linux/usb/input.h>
+#include <robux/usb.h>
+#include <robux/usb/input.h>
 
 #define PXRC_VENDOR_ID		0x1781
 #define PXRC_PRODUCT_ID		0x0898

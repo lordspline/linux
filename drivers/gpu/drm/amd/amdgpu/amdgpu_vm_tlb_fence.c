@@ -21,8 +21,8 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/dma-fence.h>
-#include <linux/workqueue.h>
+#include <robux/dma-fence.h>
+#include <robux/workqueue.h>
 
 #include "amdgpu.h"
 #include "amdgpu_vm.h"

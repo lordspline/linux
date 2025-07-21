@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * linux/drivers/mmc/core/sdio_cis.c
+ * robux/drivers/mmc/core/sdio_cis.c
  *
  * Author:	Nicolas Pitre
  * Created:	June 11, 2007
@@ -9,13 +9,13 @@
  * Copyright 2007 Pierre Ossman
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/sdio_func.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/sdio.h>
+#include <robux/mmc/sdio_func.h>
 
 #include "sdio_cis.h"
 #include "sdio_ops.h"

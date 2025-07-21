@@ -11,11 +11,11 @@
  *	     Sakari Ailus <sakari.ailus@iki.fi>
  */
 
-#include <linux/device.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
+#include <robux/device.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
 
 #include "isp.h"
 #include "ispreg.h"

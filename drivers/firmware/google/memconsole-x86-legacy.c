@@ -7,12 +7,12 @@
  * Copyright 2017 Google Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/dmi.h>
-#include <linux/mm.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/dmi.h>
+#include <robux/mm.h>
 #include <asm/bios_ebda.h>
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 
 #include "memconsole.h"
 

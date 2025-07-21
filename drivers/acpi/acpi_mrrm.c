@@ -9,10 +9,10 @@
 
 #define pr_fmt(fmt) "acpi/mrrm: " fmt
 
-#include <linux/acpi.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
+#include <robux/acpi.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
 
 /* Default assume one memory region covering all system memory, per the spec */
 static int max_mem_region = 1;

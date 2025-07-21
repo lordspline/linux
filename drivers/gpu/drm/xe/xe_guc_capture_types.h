@@ -6,7 +6,7 @@
 #ifndef _XE_GUC_CAPTURE_TYPES_H
 #define _XE_GUC_CAPTURE_TYPES_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include "regs/xe_reg_defs.h"
 
 struct xe_guc;

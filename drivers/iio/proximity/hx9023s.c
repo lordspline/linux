@@ -8,37 +8,37 @@
  * http://www.tianyihexin.com/ueditor/php/upload/file/20240614/1718336303992081.pdf
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/math64.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/array_size.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/firmware.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/irqreturn.h>
+#include <robux/math64.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pm.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/types.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/types.h>
 
 #define HX9023S_CHIP_ID 0x1D
 #define HX9023S_CH_NUM 5

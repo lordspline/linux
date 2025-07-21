@@ -6,12 +6,12 @@
  */
 
 #define pr_fmt(fmt) "PKCS7: "fmt
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/oid_registry.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/oid_registry.h>
 #include <crypto/public_key.h>
 #include "pkcs7_parser.h"
 #include "pkcs7.asn1.h"

@@ -6,17 +6,17 @@
  *		Jorge Ramirez-Ortiz	<jorge.ramirez-ortiz@linaro.org>
  */
 
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/mtd.h>
-#include <linux/module.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/mtd/nand-ecc-mtk.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/mtd.h>
+#include <robux/module.h>
+#include <robux/iopoll.h>
+#include <robux/of.h>
+#include <robux/mtd/nand-ecc-mtk.h>
 
 /* NAND controller register definition */
 #define NFI_CNFG		(0x00)

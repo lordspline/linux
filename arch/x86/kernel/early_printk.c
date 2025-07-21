@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/console.h>
-#include <linux/kernel.h>
-#include <linux/kexec.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/screen_info.h>
-#include <linux/usb/ch9.h>
-#include <linux/pci_regs.h>
-#include <linux/pci_ids.h>
-#include <linux/errno.h>
-#include <linux/pgtable.h>
+#include <robux/console.h>
+#include <robux/kernel.h>
+#include <robux/kexec.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/screen_info.h>
+#include <robux/usb/ch9.h>
+#include <robux/pci_regs.h>
+#include <robux/pci_ids.h>
+#include <robux/errno.h>
+#include <robux/pgtable.h>
 #include <asm/io.h>
 #include <asm/processor.h>
 #include <asm/fcntl.h>
@@ -17,10 +17,10 @@
 #include <xen/hvc-console.h>
 #include <asm/pci-direct.h>
 #include <asm/fixmap.h>
-#include <linux/usb/ehci_def.h>
-#include <linux/usb/xhci-dbgp.h>
+#include <robux/usb/ehci_def.h>
+#include <robux/usb/xhci-dbgp.h>
 #include <asm/pci_x86.h>
-#include <linux/static_call.h>
+#include <robux/static_call.h>
 
 /* Simple VGA output */
 #define VGABASE		(__ISA_IO_base + 0xb8000)

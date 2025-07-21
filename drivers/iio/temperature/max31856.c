@@ -6,17 +6,17 @@
  * Copyright (C) 2018-2019 Rockwell Collins
  */
 
-#include <linux/ctype.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/util_macros.h>
-#include <linux/unaligned.h>
+#include <robux/ctype.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/property.h>
+#include <robux/spi/spi.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/util_macros.h>
+#include <robux/unaligned.h>
 #include <dt-bindings/iio/temperature/thermocouple.h>
 /*
  * The MSB of the register value determines whether the following byte will

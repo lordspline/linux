@@ -5,20 +5,20 @@
  * Copyright (C) 2020 周琰杰 (Zhou Yanjie) <zhouyanjie@wanyeetech.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/cpuhotplug.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/ingenic-tcu.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/sched_clock.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/cpuhotplug.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/ingenic-tcu.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/overflow.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/sched_clock.h>
 
 #include <dt-bindings/clock/ingenic,tcu.h>
 

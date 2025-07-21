@@ -4,10 +4,10 @@
  * Author: Ard Biesheuvel <ardb@google.com>
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
+#include <robux/types.h>
 
 #include <asm/scs.h>
 

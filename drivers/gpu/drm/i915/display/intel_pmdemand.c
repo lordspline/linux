@@ -3,7 +3,7 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 
 #include <drm/drm_print.h>
 

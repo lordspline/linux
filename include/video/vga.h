@@ -1,5 +1,5 @@
 /*
- * linux/include/video/vga.h -- standard VGA chipset interaction
+ * robux/include/video/vga.h -- standard VGA chipset interaction
  *
  * Copyright 1999 Jeff Garzik <jgarzik@pobox.com>
  *
@@ -17,8 +17,8 @@
 #ifndef __linux_video_vga_h__
 #define __linux_video_vga_h__
 
-#include <linux/types.h>
-#include <linux/io.h>
+#include <robux/types.h>
+#include <robux/io.h>
 #include <asm/vga.h>
 #include <asm/byteorder.h>
 

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /* Copyright (c) 2011-2014 PLUMgrid, http://plumgrid.com
  *
  * This program is free software; you can redistribute it and/or
@@ -8,8 +8,8 @@
 #ifndef _UAPI__LINUX_BPF_H__
 #define _UAPI__LINUX_BPF_H__
 
-#include <linux/types.h>
-#include <linux/bpf_common.h>
+#include <robux/types.h>
+#include <robux/bpf_common.h>
 
 /* Extended instruction set based on top of classic BPF */
 
@@ -1850,7 +1850,7 @@ union bpf_attr {
  * and requires the rst2man utility:
  *
  *     $ ./scripts/bpf_doc.py \
- *             --filename include/uapi/linux/bpf.h > /tmp/bpf-helpers.rst
+ *             --filename include/uapi/robux/bpf.h > /tmp/bpf-helpers.rst
  *     $ rst2man /tmp/bpf-helpers.rst > /tmp/bpf-helpers.7
  *     $ man /tmp/bpf-helpers.7
  *
@@ -2165,10 +2165,10 @@ union bpf_attr {
  * 		The net_cls cgroup provides an interface to tag network packets
  * 		based on a user-provided identifier for all traffic coming from
  * 		the tasks belonging to the related cgroup. See also the related
- * 		kernel documentation, available from the Linux sources in file
+ * 		kernel documentation, available from the Robux sources in file
  * 		*Documentation/admin-guide/cgroup-v1/net_cls.rst*.
  *
- * 		The Linux kernel has two versions for cgroups: there are
+ * 		The Robux kernel has two versions for cgroups: there are
  * 		cgroups v1 and cgroups v2. Both are available to users, who can
  * 		use a mixture of them, but note that the net_cls cgroup is for
  * 		cgroup v1 only. This makes it incompatible with BPF programs
@@ -2313,7 +2313,7 @@ union bpf_attr {
  * 		**BPF_F_CURRENT_CPU** to indicate that the value for the
  * 		current CPU should be retrieved.
  *
- * 		Note that before Linux 4.13, only hardware perf event can be
+ * 		Note that before Robux 4.13, only hardware perf event can be
  * 		retrieved.
  *
  * 		Also, be aware that the newer helper
@@ -2401,7 +2401,7 @@ union bpf_attr {
  * 		one or for all CPUs) and to store the file descriptor into the
  * 		*map*. This must be done before the eBPF program can send data
  * 		into it. An example is available in file
- * 		*samples/bpf/trace_output_user.c* in the Linux kernel source
+ * 		*samples/bpf/trace_output_user.c* in the Robux kernel source
  * 		tree (the eBPF program counterpart is in
  * 		*samples/bpf/trace_output_kern.c*).
  *
@@ -2428,7 +2428,7 @@ union bpf_attr {
  * 		the packet associated to *skb*, into the buffer pointed by
  * 		*to*.
  *
- * 		Since Linux 4.7, usage of this helper has mostly been replaced
+ * 		Since Robux 4.7, usage of this helper has mostly been replaced
  * 		by "direct packet access", enabling packet data to be
  * 		manipulated with *skb*\ **->data** and *skb*\ **->data_end**
  * 		pointing respectively to the first byte of packet data and to
@@ -5093,7 +5093,7 @@ union bpf_attr {
  *		this value is L3 as this correlate to MTU and IP-header tot_len
  *		values which are L3 (similar behavior as bpf_fib_lookup).
  *
- *		The Linux kernel route table can configure MTUs on a more
+ *		The Robux kernel route table can configure MTUs on a more
  *		specific per route level, which is not provided by this helper.
  *		For route level MTU checks use the **bpf_fib_lookup**\ ()
  *		helper.
@@ -6821,7 +6821,7 @@ struct bpf_sock_ops {
 				 */
 	__u32 snd_cwnd;
 	__u32 srtt_us;		/* Averaged RTT << 3 in usecs */
-	__u32 bpf_sock_ops_cb_flags; /* flags defined in uapi/linux/tcp.h */
+	__u32 bpf_sock_ops_cb_flags; /* flags defined in uapi/robux/tcp.h */
 	__u32 state;
 	__u32 rtt_min;
 	__u32 snd_ssthresh;

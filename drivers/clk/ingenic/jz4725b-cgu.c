@@ -6,9 +6,9 @@
  * Author: Paul Cercueil <paul@crapouillou.net>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/of.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/of.h>
 
 #include <dt-bindings/clock/ingenic,jz4725b-cgu.h>
 

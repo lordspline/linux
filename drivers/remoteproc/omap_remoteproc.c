@@ -13,29 +13,29 @@
  * Hari Kanigeri <h-kanigeri2@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/clk/ti.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/remoteproc.h>
-#include <linux/mailbox_client.h>
-#include <linux/omap-iommu.h>
-#include <linux/omap-mailbox.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/reset.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/clk.h>
+#include <robux/clk/ti.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/remoteproc.h>
+#include <robux/mailbox_client.h>
+#include <robux/omap-iommu.h>
+#include <robux/omap-mailbox.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/reset.h>
 #include <clocksource/timer-ti-dm.h>
 
-#include <linux/platform_data/dmtimer-omap.h>
+#include <robux/platform_data/dmtimer-omap.h>
 
 #ifdef CONFIG_ARM_DMA_USE_IOMMU
 #include <asm/dma-iommu.h>

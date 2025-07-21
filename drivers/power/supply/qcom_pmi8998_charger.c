@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2016-2019 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2016-2019 The Robux Foundation. All rights reserved.
  * Copyright (c) 2023, Linaro Ltd.
  * Author: Casey Connolly <casey.connolly@linaro.org>
  *
@@ -8,20 +8,20 @@
  * hardware found in pmi8998 and related PMICs.
  */
 
-#include <linux/bits.h>
-#include <linux/devm-helpers.h>
-#include <linux/iio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/of.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/bits.h>
+#include <robux/devm-helpers.h>
+#include <robux/iio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/of.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 /* clang-format off */
 #define BATTERY_CHARGER_STATUS_1			0x06

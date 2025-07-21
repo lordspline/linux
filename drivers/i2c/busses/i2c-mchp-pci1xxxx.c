@@ -9,15 +9,15 @@
  *          Kumaravel Thiagarajan <kumaravel.thiagarajan@microchip.com>
  */
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/i2c-smbus.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/types.h>
 
 #define SMBUS_MAST_CORE_ADDR_BASE		0x00000
 #define SMBUS_MAST_SYS_REG_ADDR_BASE		0x01000

@@ -6,25 +6,25 @@
  * Copyright 2014-2015 Linaro Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/suspend.h>
-#include <linux/time.h>
-#include <linux/greybus.h>
-#include <linux/of.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/suspend.h>
+#include <robux/time.h>
+#include <robux/greybus.h>
+#include <robux/of.h>
 #include "arche_platform.h"
 
 #if IS_ENABLED(CONFIG_USB_HSIC_USB3613)
-#include <linux/usb/usb3613.h>
+#include <robux/usb/usb3613.h>
 #else
 static inline int usb3613_hub_mode_ctrl(bool unused)
 {

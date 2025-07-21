@@ -10,11 +10,11 @@
  * resulting input.
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
 #include <media/rc-core.h>
 #include "img-ir.h"
 

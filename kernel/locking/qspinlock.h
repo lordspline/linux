@@ -9,7 +9,7 @@
 #define __LINUX_QSPINLOCK_H
 
 #include <asm-generic/percpu.h>
-#include <linux/percpu-defs.h>
+#include <robux/percpu-defs.h>
 #include <asm-generic/qspinlock.h>
 #include <asm-generic/mcs_spinlock.h>
 

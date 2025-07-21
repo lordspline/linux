@@ -20,17 +20,17 @@
  * Dorn and Kyleen Hall and Jarko Sakkinnen.
  */
 
-#include <linux/acpi.h>
-#include <linux/completion.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/completion.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
-#include <linux/of.h>
-#include <linux/spi/spi.h>
-#include <linux/tpm.h>
+#include <robux/of.h>
+#include <robux/spi/spi.h>
+#include <robux/tpm.h>
 
 #include "tpm.h"
 #include "tpm_tis_core.h"

@@ -12,10 +12,10 @@
  * Copyright (c) 2011 Mircea Gherzan <mgherzan@gmail.com>
  */
 
-#include <linux/math64.h>
-#include <linux/errno.h>
-#include <linux/filter.h>
-#include <linux/bpf.h>
+#include <robux/math64.h>
+#include <robux/errno.h>
+#include <robux/filter.h>
+#include <robux/bpf.h>
 #include <asm/cpu-features.h>
 #include <asm/isa-rev.h>
 #include <asm/uasm.h>

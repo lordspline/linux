@@ -5,12 +5,12 @@
  *                    AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
  */
 
-#include <linux/device.h>
-#include <linux/interconnect.h>
-#include <linux/interconnect-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/device.h>
+#include <robux/interconnect.h>
+#include <robux/interconnect-provider.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 #include <dt-bindings/interconnect/mediatek,mt8195.h>
 
 #include "icc-emi.h"

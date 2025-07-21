@@ -9,10 +9,10 @@
  * Copyright 2016, Daniel Axtens, IBM Corporation.
  */
 
-#include <linux/threads.h>
+#include <robux/threads.h>
 #include <asm/cacheflush.h>
 #include <asm/checksum.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/epapr_hcalls.h>
 #include <asm/dcr.h>
 #include <asm/mmu_context.h>

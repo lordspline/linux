@@ -2,9 +2,9 @@
 #ifndef _LINUX_RATELIMIT_H
 #define _LINUX_RATELIMIT_H
 
-#include <linux/ratelimit_types.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
+#include <robux/ratelimit_types.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
 
 static inline void ratelimit_state_init(struct ratelimit_state *rs,
 					int interval, int burst)

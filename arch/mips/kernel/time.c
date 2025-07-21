@@ -6,20 +6,20 @@
  *
  * Common time service routines for MIPS machines.
  */
-#include <linux/bug.h>
-#include <linux/clockchips.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/param.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/export.h>
-#include <linux/cpufreq.h>
-#include <linux/delay.h>
+#include <robux/bug.h>
+#include <robux/clockchips.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/param.h>
+#include <robux/time.h>
+#include <robux/timex.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
+#include <robux/export.h>
+#include <robux/cpufreq.h>
+#include <robux/delay.h>
 
 #include <asm/cpu-features.h>
 #include <asm/cpu-type.h>

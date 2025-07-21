@@ -5,17 +5,17 @@
  * Chen-Yu Tsai	<wens@csie.org>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/reset.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/reset.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
 #define SUN9I_MMC_WIDTH		4
 

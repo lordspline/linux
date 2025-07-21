@@ -7,12 +7,12 @@
  * Authors: Hollis Blanchard <hollisb@us.ibm.com>
  */
 
-#include <linux/jiffies.h>
-#include <linux/hrtimer.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/kvm_host.h>
-#include <linux/clockchips.h>
+#include <robux/jiffies.h>
+#include <robux/hrtimer.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/kvm_host.h>
+#include <robux/clockchips.h>
 
 #include <asm/reg.h>
 #include <asm/time.h>

@@ -4,17 +4,17 @@
  * Author: Chi-Fang Li <cfli0@nuvoton.com>
  */
 
-#include <linux/bits.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/reset-controller.h>
-#include <linux/spinlock.h>
+#include <robux/bits.h>
+#include <robux/container_of.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/reset-controller.h>
+#include <robux/spinlock.h>
 #include <dt-bindings/reset/nuvoton,ma35d1-reset.h>
 
 struct ma35d1_reset_data {

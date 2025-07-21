@@ -9,11 +9,11 @@
 #ifndef _NET_IOAM6_H
 #define _NET_IOAM6_H
 
-#include <linux/net.h>
-#include <linux/ipv6.h>
-#include <linux/ioam6.h>
-#include <linux/ioam6_genl.h>
-#include <linux/rhashtable-types.h>
+#include <robux/net.h>
+#include <robux/ipv6.h>
+#include <robux/ioam6.h>
+#include <robux/ioam6_genl.h>
+#include <robux/rhashtable-types.h>
 
 struct ioam6_namespace {
 	struct rhash_head head;

@@ -6,13 +6,13 @@
  * Author : Chanwoo Choi <cw00.choi@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/devfreq-event.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/devfreq-event.h>
+#include <robux/kernel.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include "exynos-nocp.h"
 

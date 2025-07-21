@@ -2,8 +2,8 @@
 
 /* Copyright (C) 2023-2024 Linaro Ltd. */
 
-#include <linux/io.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
 
 #include "gsi.h"
 #include "gsi_reg.h"

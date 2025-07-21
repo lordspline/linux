@@ -10,10 +10,10 @@
 //                    AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
 //
 
-#include <linux/gpio/consumer.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/gpio/consumer.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/of.h>
 #include <sound/jack.h>
 #include <sound/pcm_params.h>
 #include <sound/rt5682.h>

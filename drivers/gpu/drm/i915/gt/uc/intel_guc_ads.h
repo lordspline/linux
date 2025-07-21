@@ -6,8 +6,8 @@
 #ifndef _INTEL_GUC_ADS_H_
 #define _INTEL_GUC_ADS_H_
 
-#include <linux/types.h>
-#include <linux/iosys-map.h>
+#include <robux/types.h>
+#include <robux/iosys-map.h>
 
 struct intel_guc;
 struct drm_printer;

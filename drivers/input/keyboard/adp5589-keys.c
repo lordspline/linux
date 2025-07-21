@@ -7,21 +7,21 @@
  * Copyright (C) 2010-2011 Analog Devices Inc.
  */
 
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/workqueue.h>
-#include <linux/errno.h>
-#include <linux/pm.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/i2c.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/workqueue.h>
+#include <robux/errno.h>
+#include <robux/pm.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/platform_device.h>
+#include <robux/input.h>
+#include <robux/i2c.h>
+#include <robux/gpio/driver.h>
+#include <robux/slab.h>
 
-#include <linux/input/adp5589.h>
+#include <robux/input/adp5589.h>
 
 /* ADP5589/ADP5585 Common Registers */
 #define ADP5589_5_ID			0x00

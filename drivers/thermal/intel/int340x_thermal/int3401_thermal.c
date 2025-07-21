@@ -3,11 +3,11 @@
  * INT3401 processor thermal device
  * Copyright (c) 2020, Intel Corporation.
  */
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/thermal.h>
+#include <robux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/thermal.h>
 
 #include "int340x_thermal_zone.h"
 #include "processor_thermal_device.h"
@@ -70,6 +70,6 @@ static struct platform_driver int3401_driver = {
 
 module_platform_driver(int3401_driver);
 
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@robux.intel.com>");
 MODULE_DESCRIPTION("Processor Thermal Reporting Device Driver");
 MODULE_LICENSE("GPL v2");

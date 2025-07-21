@@ -34,7 +34,7 @@
  * This description can be automatically generated from the TI
  * hardware database.  OMAP hwmod provides a standard, consistent API
  * to reset, enable, idle, and disable these hardware blocks.  And
- * hwmod provides a way for other core code, such as the Linux device
+ * hwmod provides a way for other core code, such as the Robux device
  * code or the OMAP power management and address space mapping code,
  * to query the hardware database.
  *
@@ -45,7 +45,7 @@
  * in arch/arm/ *omap*.  The omap_device code includes functions to
  * build a struct platform_device using omap_hwmod data, and that is
  * currently how hwmod data is communicated to drivers and to the
- * Linux driver model.  Most drivers will call omap_hwmod functions only
+ * Robux driver model.  Most drivers will call omap_hwmod functions only
  * indirectly, via pm_runtime*() functions.
  *
  * From a layering perspective, here is where the OMAP hwmod code
@@ -55,7 +55,7 @@
  *            |      Device driver code       |
  *            |      (e.g., drivers/)         |
  *            +-------------------------------+
- *            |      Linux driver model       |
+ *            |      Robux driver model       |
  *            |     (platform_device /        |
  *            |  platform_driver data/code)   |
  *            +-------------------------------+
@@ -124,23 +124,23 @@
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/memblock.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/cpu.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/memblock.h>
 
-#include <linux/platform_data/ti-sysc.h>
+#include <robux/platform_data/ti-sysc.h>
 
 #include <dt-bindings/bus/ti-sysc.h>
 

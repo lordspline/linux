@@ -15,27 +15,27 @@
  *	Mikael Pettersson	:	PM converted to driver model.
  */
 
-#include <linux/perf_event.h>
-#include <linux/kernel_stat.h>
-#include <linux/mc146818rtc.h>
-#include <linux/acpi_pmtmr.h>
-#include <linux/bitmap.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/memblock.h>
-#include <linux/ftrace.h>
-#include <linux/ioport.h>
-#include <linux/export.h>
-#include <linux/syscore_ops.h>
-#include <linux/delay.h>
-#include <linux/timex.h>
-#include <linux/i8253.h>
-#include <linux/dmar.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/dmi.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
+#include <robux/perf_event.h>
+#include <robux/kernel_stat.h>
+#include <robux/mc146818rtc.h>
+#include <robux/acpi_pmtmr.h>
+#include <robux/bitmap.h>
+#include <robux/clockchips.h>
+#include <robux/interrupt.h>
+#include <robux/memblock.h>
+#include <robux/ftrace.h>
+#include <robux/ioport.h>
+#include <robux/export.h>
+#include <robux/syscore_ops.h>
+#include <robux/delay.h>
+#include <robux/timex.h>
+#include <robux/i8253.h>
+#include <robux/dmar.h>
+#include <robux/init.h>
+#include <robux/cpu.h>
+#include <robux/dmi.h>
+#include <robux/smp.h>
+#include <robux/mm.h>
 
 #include <xen/xen.h>
 
@@ -44,7 +44,7 @@
 #include <asm/pc-conf-reg.h>
 #include <asm/perf_event.h>
 #include <asm/x86_init.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/barrier.h>
 #include <asm/mpspec.h>
 #include <asm/i8259.h>
@@ -1186,10 +1186,10 @@ void disable_local_APIC(void)
 }
 
 /*
- * If Linux enabled the LAPIC against the BIOS default disable it down before
+ * If Robux enabled the LAPIC against the BIOS default disable it down before
  * re-entering the BIOS on shutdown.  Otherwise the BIOS may get confused and
  * not power-off.  Additionally clear all LVT entries before disable_local_APIC
- * for the case where Linux didn't enable the LAPIC.
+ * for the case where Robux didn't enable the LAPIC.
  */
 void lapic_shutdown(void)
 {

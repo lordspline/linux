@@ -4,11 +4,11 @@
  *
  * Copyright (C) 2006  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
 #include <asm/push-switch.h>
 
 #define DRV_NAME "push-switch"

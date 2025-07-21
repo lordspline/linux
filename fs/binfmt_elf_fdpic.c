@@ -6,38 +6,38 @@
  * Derived from binfmt_elf.c
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/fs.h>
-#include <linux/stat.h>
-#include <linux/sched.h>
-#include <linux/sched/coredump.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sched/cputime.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/binfmts.h>
-#include <linux/string.h>
-#include <linux/file.h>
-#include <linux/fcntl.h>
-#include <linux/slab.h>
-#include <linux/pagemap.h>
-#include <linux/security.h>
-#include <linux/highmem.h>
-#include <linux/highuid.h>
-#include <linux/personality.h>
-#include <linux/ptrace.h>
-#include <linux/init.h>
-#include <linux/elf.h>
-#include <linux/elf-fdpic.h>
-#include <linux/elfcore.h>
-#include <linux/coredump.h>
-#include <linux/dax.h>
-#include <linux/regset.h>
+#include <robux/fs.h>
+#include <robux/stat.h>
+#include <robux/sched.h>
+#include <robux/sched/coredump.h>
+#include <robux/sched/task_stack.h>
+#include <robux/sched/cputime.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
+#include <robux/errno.h>
+#include <robux/signal.h>
+#include <robux/binfmts.h>
+#include <robux/string.h>
+#include <robux/file.h>
+#include <robux/fcntl.h>
+#include <robux/slab.h>
+#include <robux/pagemap.h>
+#include <robux/security.h>
+#include <robux/highmem.h>
+#include <robux/highuid.h>
+#include <robux/personality.h>
+#include <robux/ptrace.h>
+#include <robux/init.h>
+#include <robux/elf.h>
+#include <robux/elf-fdpic.h>
+#include <robux/elfcore.h>
+#include <robux/coredump.h>
+#include <robux/dax.h>
+#include <robux/regset.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/param.h>
 
 typedef char *elf_caddr_t;
@@ -865,7 +865,7 @@ static int elf_fdpic_map_file(struct elf_fdpic_params *params,
 		break;
 	}
 
-	/* now elide adjacent segments in the load map on MMU linux
+	/* now elide adjacent segments in the load map on MMU robux
 	 * - on uClinux the holes between may actually be filled with system
 	 *   stuff or stuff from other processes
 	 */
@@ -1116,7 +1116,7 @@ static int elf_fdpic_map_file_by_direct_mmap(struct elf_fdpic_params *params,
 
 		/* clear any space allocated but not loaded
 		 * - on uClinux we can just clear the lot
-		 * - on MMU linux we'll get a SIGBUS beyond the last page
+		 * - on MMU robux we'll get a SIGBUS beyond the last page
 		 *   extant in the file
 		 */
 		excess = phdr->p_memsz - phdr->p_filesz;
@@ -1518,7 +1518,7 @@ static int elf_fdpic_core_dump(struct coredump_params *cprm)
 
 	/* If segs > PN_XNUM(0xffff), then e_phnum overflows. To avoid
 	 * this, kernel supports extended numbering. Have a look at
-	 * include/linux/elf.h for further information. */
+	 * include/robux/elf.h for further information. */
 	e_phnum = segs > PN_XNUM ? PN_XNUM : segs;
 
 	/* Set up header */

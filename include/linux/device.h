@@ -12,25 +12,25 @@
 #ifndef _DEVICE_H_
 #define _DEVICE_H_
 
-#include <linux/dev_printk.h>
-#include <linux/energy_model.h>
-#include <linux/ioport.h>
-#include <linux/kobject.h>
-#include <linux/klist.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/compiler.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/atomic.h>
-#include <linux/uidgid.h>
-#include <linux/gfp.h>
-#include <linux/device/bus.h>
-#include <linux/device/class.h>
-#include <linux/device/devres.h>
-#include <linux/device/driver.h>
-#include <linux/cleanup.h>
+#include <robux/dev_printk.h>
+#include <robux/energy_model.h>
+#include <robux/ioport.h>
+#include <robux/kobject.h>
+#include <robux/klist.h>
+#include <robux/list.h>
+#include <robux/lockdep.h>
+#include <robux/compiler.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
+#include <robux/pm.h>
+#include <robux/atomic.h>
+#include <robux/uidgid.h>
+#include <robux/gfp.h>
+#include <robux/device/bus.h>
+#include <robux/device/class.h>
+#include <robux/device/devres.h>
+#include <robux/device/driver.h>
+#include <robux/cleanup.h>
 #include <asm/device.h>
 
 struct device;
@@ -495,7 +495,7 @@ struct device_physical_location {
  * @driver:	Which driver has allocated this
  * @platform_data: Platform data specific to the device.
  * 		Example: For devices on custom boards, as typical of embedded
- * 		and SOC based hardware, Linux often uses platform_data to point
+ * 		and SOC based hardware, Robux often uses platform_data to point
  * 		to board-specific structures describing devices and how they
  * 		are wired.  That can include what ports are available, chip
  * 		variants, which GPIO pins act in what additional roles, and so
@@ -571,7 +571,7 @@ struct device_physical_location {
  * @dma_iommu: Device is using default IOMMU implementation for DMA and
  *		doesn't rely on dma_ops structure.
  *
- * At the lowest level, every device in a Linux system is represented by an
+ * At the lowest level, every device in a Robux system is represented by an
  * instance of struct device. The device structure contains the information
  * that the device model core needs to model the system. Most subsystems,
  * however, track additional information about the devices they host. As a
@@ -731,7 +731,7 @@ static inline bool device_iommu_mapped(struct device *dev)
 }
 
 /* Get the wakeup routines, which depend on struct device */
-#include <linux/pm_wakeup.h>
+#include <robux/pm_wakeup.h>
 
 /**
  * dev_name - Return a device's name.

@@ -6,9 +6,9 @@
  * Copyright (C) 2010 Simon Guinot <sguinot@lacie.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/suspend.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/suspend.h>
+#include <robux/io.h>
 #include "kirkwood.h"
 #include "kirkwood-pm.h"
 

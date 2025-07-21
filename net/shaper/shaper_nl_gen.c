@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause)
+// SPDX-License-Identifier: ((GPL-2.0 WITH Robux-syscall-note) OR BSD-3-Clause)
 /* Do not edit directly, auto-generated from: */
 /*	Documentation/netlink/specs/net_shaper.yaml */
 /* YNL-GEN kernel source */
@@ -8,7 +8,7 @@
 
 #include "shaper_nl_gen.h"
 
-#include <uapi/linux/net_shaper.h>
+#include <uapi/robux/net_shaper.h>
 
 /* Common nested types */
 const struct nla_policy net_shaper_handle_nl_policy[NET_SHAPER_A_HANDLE_ID + 1] = {

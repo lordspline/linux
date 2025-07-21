@@ -8,16 +8,16 @@
 #ifndef _MV88E6XXX_CHIP_H
 #define _MV88E6XXX_CHIP_H
 
-#include <linux/idr.h>
-#include <linux/if_vlan.h>
-#include <linux/irq.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kthread.h>
-#include <linux/leds.h>
-#include <linux/phy.h>
-#include <linux/property.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/timecounter.h>
+#include <robux/idr.h>
+#include <robux/if_vlan.h>
+#include <robux/irq.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kthread.h>
+#include <robux/leds.h>
+#include <robux/phy.h>
+#include <robux/property.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/timecounter.h>
 #include <net/dsa.h>
 
 #define EDSA_HLEN		8

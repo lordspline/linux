@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the ROBUX
  *		operating system.  INET is implemented using the BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -26,7 +26,7 @@
 #ifndef _UAPI_LINUX_IF_FDDI_H
 #define _UAPI_LINUX_IF_FDDI_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /*
  *  Define max and min legal sizes.  The frame sizes do not include

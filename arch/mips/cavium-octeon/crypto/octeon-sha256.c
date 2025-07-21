@@ -14,8 +14,8 @@
 
 #include <asm/octeon/octeon.h>
 #include <crypto/internal/sha2.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #include "octeon-crypto.h"
 

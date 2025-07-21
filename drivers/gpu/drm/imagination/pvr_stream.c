@@ -5,9 +5,9 @@
 #include "pvr_rogue_fwif_stream.h"
 #include "pvr_stream.h"
 
-#include <linux/align.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/align.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 #include <uapi/drm/pvr_drm.h>
 
 static __always_inline bool

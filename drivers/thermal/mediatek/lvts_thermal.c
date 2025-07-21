@@ -4,19 +4,19 @@
  * Author: Balsam CHIHI <bchihi@baylibre.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/debugfs.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/thermal.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/debugfs.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/thermal.h>
 #include <dt-bindings/thermal/mediatek,lvts-thermal.h>
 
 #include "../thermal_hwmon.h"

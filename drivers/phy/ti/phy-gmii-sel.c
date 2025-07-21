@@ -7,15 +7,15 @@
  * Based on cpsw-phy-sel.c driver created by Mugunthan V N <mugunthanvnm@ti.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_net.h>
-#include <linux/phy.h>
-#include <linux/phy/phy.h>
-#include <linux/regmap.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_net.h>
+#include <robux/phy.h>
+#include <robux/phy/phy.h>
+#include <robux/regmap.h>
 
 /* AM33xx SoC specific definitions for the CONTROL port */
 #define AM33XX_GMII_SEL_MODE_MII	0

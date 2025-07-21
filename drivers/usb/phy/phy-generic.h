@@ -2,9 +2,9 @@
 #ifndef _PHY_GENERIC_H_
 #define _PHY_GENERIC_H_
 
-#include <linux/usb/usb_phy_generic.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <robux/usb/usb_phy_generic.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regulator/consumer.h>
 
 struct usb_phy_generic {
 	struct usb_phy phy;

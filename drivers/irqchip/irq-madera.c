@@ -6,18 +6,18 @@
  *                         Cirrus Logic International Semiconductor Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/irqchip/irq-madera.h>
-#include <linux/mfd/madera/core.h>
-#include <linux/mfd/madera/pdata.h>
-#include <linux/mfd/madera/registers.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/irqchip/irq-madera.h>
+#include <robux/mfd/madera/core.h>
+#include <robux/mfd/madera/pdata.h>
+#include <robux/mfd/madera/registers.h>
 
 #define MADERA_IRQ(_irq, _reg)					\
 	[MADERA_IRQ_ ## _irq] = {				\

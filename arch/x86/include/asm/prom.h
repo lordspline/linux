@@ -10,12 +10,12 @@
 #define _ASM_X86_PROM_H
 #ifndef __ASSEMBLER__
 
-#include <linux/of.h>
-#include <linux/types.h>
-#include <linux/pci.h>
+#include <robux/of.h>
+#include <robux/types.h>
+#include <robux/pci.h>
 
 #include <asm/irq.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/setup.h>
 
 #ifdef CONFIG_OF

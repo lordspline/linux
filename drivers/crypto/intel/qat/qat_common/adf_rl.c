@@ -6,11 +6,11 @@
 #include <asm/errno.h>
 #include <asm/div64.h>
 
-#include <linux/dev_printk.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/units.h>
+#include <robux/dev_printk.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/units.h>
 
 #include "adf_accel_devices.h"
 #include "adf_common_drv.h"

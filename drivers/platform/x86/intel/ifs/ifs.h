@@ -147,8 +147,8 @@
  * complete. If such a lengthy interruption is undesirable, it is
  * recommended to relocate the time-sensitive applications to other cores.
  */
-#include <linux/device.h>
-#include <linux/miscdevice.h>
+#include <robux/device.h>
+#include <robux/miscdevice.h>
 
 #define MSR_ARRAY_BIST				0x00000105
 

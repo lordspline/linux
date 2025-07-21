@@ -6,11 +6,11 @@
  * Copyright (C) Josef Gajdusek <atx@atx.name>
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/triggered_buffer.h>
 
 #include "hmc5843.h"
 

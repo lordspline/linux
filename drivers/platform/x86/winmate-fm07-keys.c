@@ -4,13 +4,13 @@
 //
 // Author: Daniel Beer <daniel.beer@tirotech.co.nz>
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/dmi.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
+#include <robux/dmi.h>
+#include <robux/io.h>
 
 #define DRV_NAME	"winmate-fm07keys"
 

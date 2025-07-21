@@ -3,9 +3,9 @@
  * Copyright (C) 2021 Rafał Miłecki <rafal@milecki.pl>
  */
 
-#include <linux/bcm47xx_nvram.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
+#include <robux/bcm47xx_nvram.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
 
 #include "ofpart_linksys_ns.h"
 

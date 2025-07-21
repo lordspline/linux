@@ -6,12 +6,12 @@
  * Copyright (C) 2008 Maxime Bizon <mbizon@freebox.fr>
  */
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
 #include <asm/bootinfo.h>
 
 #include <bcm63xx_reset.h>

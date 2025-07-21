@@ -16,20 +16,20 @@
 /* #define DEBUG */
 #define pr_fmt(fmt) "ACPI: EC: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/printk.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/suspend.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/printk.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/suspend.h>
+#include <robux/acpi.h>
+#include <robux/dmi.h>
 #include <asm/io.h>
 
 #include "internal.h"

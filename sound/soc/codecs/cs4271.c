@@ -10,12 +10,12 @@
  * DAPM support not implemented.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>

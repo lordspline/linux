@@ -7,25 +7,25 @@
 
 #undef DEBUG
 
-#include <linux/cpu.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/seq_buf.h>
-#include <linux/seq_file.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/interrupt.h>
-#include <linux/bug.h>
-#include <linux/pci.h>
-#include <linux/cpufreq.h>
-#include <linux/memblock.h>
+#include <robux/cpu.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/tty.h>
+#include <robux/reboot.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/seq_buf.h>
+#include <robux/seq_file.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
+#include <robux/interrupt.h>
+#include <robux/bug.h>
+#include <robux/pci.h>
+#include <robux/cpufreq.h>
+#include <robux/memblock.h>
 
 #include <asm/machdep.h>
 #include <asm/firmware.h>

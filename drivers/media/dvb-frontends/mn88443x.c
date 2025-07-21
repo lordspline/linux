@@ -4,13 +4,13 @@
 //
 // Copyright (c) 2018 Socionext Inc.
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/int_log.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/int_log.h>
 
 #include "mn88443x.h"
 

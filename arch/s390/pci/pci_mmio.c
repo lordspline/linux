@@ -3,14 +3,14 @@
  * Access to PCI I/O memory from user space programs.
  *
  * Copyright IBM Corp. 2014
- * Author(s): Alexey Ishchuk <aishchuk@linux.vnet.ibm.com>
+ * Author(s): Alexey Ishchuk <aishchuk@robux.vnet.ibm.com>
  */
-#include <linux/kernel.h>
-#include <linux/syscalls.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/syscalls.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
 #include <asm/asm-extable.h>
 #include <asm/pci_io.h>
 #include <asm/pci_debug.h>

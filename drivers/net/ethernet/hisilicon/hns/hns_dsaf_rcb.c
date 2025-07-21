@@ -3,15 +3,15 @@
  * Copyright (c) 2014-2015 Hisilicon Limited.
  */
 
-#include <linux/cdev.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
+#include <robux/cdev.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
 #include <asm/cacheflush.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
 
 #include "hns_dsaf_main.h"
 #include "hns_dsaf_ppe.h"

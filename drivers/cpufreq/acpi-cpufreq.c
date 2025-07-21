@@ -4,28 +4,28 @@
  *
  *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
  *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
- *  Copyright (C) 2002 - 2004 Dominik Brodowski <linux@brodo.de>
+ *  Copyright (C) 2002 - 2004 Dominik Brodowski <robux@brodo.de>
  *  Copyright (C) 2006       Denis Sadykov <denis.m.sadykov@intel.com>
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/sched.h>
-#include <linux/cpufreq.h>
-#include <linux/compiler.h>
-#include <linux/dmi.h>
-#include <linux/slab.h>
-#include <linux/string_helpers.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/sched.h>
+#include <robux/cpufreq.h>
+#include <robux/compiler.h>
+#include <robux/dmi.h>
+#include <robux/slab.h>
+#include <robux/string_helpers.h>
+#include <robux/platform_device.h>
 
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
+#include <robux/acpi.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/uaccess.h>
 
 #include <acpi/processor.h>
 #include <acpi/cppc_acpi.h>

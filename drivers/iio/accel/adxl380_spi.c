@@ -5,10 +5,10 @@
  * Copyright 2024 Analog Devices Inc.
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 
 #include "adxl380.h"
 

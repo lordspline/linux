@@ -20,9 +20,9 @@
 #include <sys/ptrace.h>
 #include <sys/wait.h>
 #include <sys/types.h>
-#include <linux/random.h>
-#include <linux/compiler.h>
-#include <linux/ptrace.h>
+#include <robux/random.h>
+#include <robux/compiler.h>
+#include <robux/ptrace.h>
 
 #include "../kselftest.h"
 #include "parse_vdso.h"

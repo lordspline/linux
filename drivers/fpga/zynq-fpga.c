@@ -7,22 +7,22 @@
  * in their vendor tree.
  */
 
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/string.h>
-#include <linux/scatterlist.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/fpga/fpga-mgr.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
+#include <robux/string.h>
+#include <robux/scatterlist.h>
 
 /* Offsets into SLCR regmap */
 

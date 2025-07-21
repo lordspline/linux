@@ -30,12 +30,12 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/skbuff.h>
-#include <linux/list.h>
-#include <linux/errqueue.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/skbuff.h>
+#include <robux/list.h>
+#include <robux/errqueue.h>
 
 #include "rds.h"
 

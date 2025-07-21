@@ -7,17 +7,17 @@
  * Author: Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/mmc_spi.h>
-#include <linux/mmc/core.h>
-#include <linux/mmc/host.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/mmc_spi.h>
+#include <robux/mmc/core.h>
+#include <robux/mmc/host.h>
 
 MODULE_DESCRIPTION("OpenFirmware bindings for the MMC-over-SPI driver");
 MODULE_LICENSE("GPL");

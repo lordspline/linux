@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/proc/inode.c
+ *  robux/fs/proc/inode.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  */
 
-#include <linux/cache.h>
-#include <linux/time.h>
-#include <linux/proc_fs.h>
-#include <linux/kernel.h>
-#include <linux/pid_namespace.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/stat.h>
-#include <linux/completion.h>
-#include <linux/poll.h>
-#include <linux/printk.h>
-#include <linux/file.h>
-#include <linux/limits.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/sysctl.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/mount.h>
-#include <linux/bug.h>
+#include <robux/cache.h>
+#include <robux/time.h>
+#include <robux/proc_fs.h>
+#include <robux/kernel.h>
+#include <robux/pid_namespace.h>
+#include <robux/mm.h>
+#include <robux/string.h>
+#include <robux/stat.h>
+#include <robux/completion.h>
+#include <robux/poll.h>
+#include <robux/printk.h>
+#include <robux/file.h>
+#include <robux/limits.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/sysctl.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/mount.h>
+#include <robux/bug.h>
 
 #include "internal.h"
 

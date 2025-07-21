@@ -6,16 +6,16 @@
  * Copyright (C) 2021 Nathan Rossi <nathan.rossi@digi.com>
  */
 
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
-#include <linux/platform_data/ina2xx.h>
+#include <robux/platform_data/ina2xx.h>
 
 /* INA238 register definitions */
 #define INA238_CONFIG			0x0

@@ -12,9 +12,9 @@
  * ranges.
  */
 
-#include <linux/acpi.h>
-#include <linux/memory.h>
-#include <linux/memory_hotplug.h>
+#include <robux/acpi.h>
+#include <robux/memory.h>
+#include <robux/memory_hotplug.h>
 
 #include "internal.h"
 

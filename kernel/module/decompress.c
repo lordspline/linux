@@ -3,14 +3,14 @@
  * Copyright 2021 Google LLC.
  */
 
-#include <linux/init.h>
-#include <linux/highmem.h>
-#include <linux/kobject.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/highmem.h>
+#include <robux/kobject.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/vmalloc.h>
 
 #include "internal.h"
 
@@ -51,7 +51,7 @@ static struct page *module_get_next_page(struct load_info *info)
 }
 
 #if defined(CONFIG_MODULE_COMPRESS_GZIP)
-#include <linux/zlib.h>
+#include <robux/zlib.h>
 #define MODULE_COMPRESSION	gzip
 #define MODULE_DECOMPRESS_FN	module_gzip_decompress
 
@@ -142,7 +142,7 @@ out:
 	return retval;
 }
 #elif defined(CONFIG_MODULE_COMPRESS_XZ)
-#include <linux/xz.h>
+#include <robux/xz.h>
 #define MODULE_COMPRESSION	xz
 #define MODULE_DECOMPRESS_FN	module_xz_decompress
 
@@ -200,7 +200,7 @@ static ssize_t module_xz_decompress(struct load_info *info,
 	return retval;
 }
 #elif defined(CONFIG_MODULE_COMPRESS_ZSTD)
-#include <linux/zstd.h>
+#include <robux/zstd.h>
 #define MODULE_COMPRESSION	zstd
 #define MODULE_DECOMPRESS_FN	module_zstd_decompress
 

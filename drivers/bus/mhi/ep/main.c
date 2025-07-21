@@ -6,15 +6,15 @@
  * Author: Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/dma-direction.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/mhi_ep.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/dma-direction.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/mhi_ep.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
 #include "internal.h"
 
 #define M0_WAIT_DELAY_MS	100

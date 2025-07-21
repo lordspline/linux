@@ -2,12 +2,12 @@
 #ifndef __FIRMWARE_LOADER_H
 #define __FIRMWARE_LOADER_H
 
-#include <linux/bitops.h>
-#include <linux/firmware.h>
-#include <linux/types.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/completion.h>
+#include <robux/bitops.h>
+#include <robux/firmware.h>
+#include <robux/types.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/completion.h>
 
 /**
  * enum fw_opt - options to control firmware loading behaviour

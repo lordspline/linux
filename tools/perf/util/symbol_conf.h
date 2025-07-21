@@ -3,7 +3,7 @@
 #define __PERF_SYMBOL_CONF 1
 
 #include <stdbool.h>
-#include <linux/bitmap.h>
+#include <robux/bitmap.h>
 #include "perf.h"
 
 struct strlist;

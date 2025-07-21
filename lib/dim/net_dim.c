@@ -1,10 +1,10 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 /*
  * Copyright (c) 2018, Mellanox Technologies inc.  All rights reserved.
  */
 
-#include <linux/dim.h>
-#include <linux/rtnetlink.h>
+#include <robux/dim.h>
+#include <robux/rtnetlink.h>
 
 /*
  * Net DIM profiles:

@@ -4,22 +4,22 @@
  * Author: Jie Qiu <jie.qiu@mediatek.com>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_platform.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/arm-smccc.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/hdmi.h>
+#include <robux/i2c.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of_platform.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include <sound/hdmi-codec.h>
 

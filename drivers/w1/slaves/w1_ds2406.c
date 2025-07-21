@@ -6,16 +6,16 @@
  * Copyright (c) 2014 Scott Alfter <scott@alfter.us>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/crc16.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/device.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/crc16.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 #define W1_FAMILY_DS2406	0x12
 

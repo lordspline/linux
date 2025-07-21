@@ -9,15 +9,15 @@
 #ifndef _SELINUX_SECURITY_H_
 #define _SELINUX_SECURITY_H_
 
-#include <linux/compiler.h>
-#include <linux/dcache.h>
-#include <linux/magic.h>
-#include <linux/types.h>
-#include <linux/rcupdate.h>
-#include <linux/refcount.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
-#include <linux/printk.h>
+#include <robux/compiler.h>
+#include <robux/dcache.h>
+#include <robux/magic.h>
+#include <robux/types.h>
+#include <robux/rcupdate.h>
+#include <robux/refcount.h>
+#include <robux/workqueue.h>
+#include <robux/delay.h>
+#include <robux/printk.h>
 #include "flask.h"
 #include "policycap.h"
 

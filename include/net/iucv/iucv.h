@@ -28,8 +28,8 @@
  *   -ENOMEM: storage allocation failed
  */
 
-#include <linux/types.h>
-#include <linux/slab.h>
+#include <robux/types.h>
+#include <robux/slab.h>
 #include <asm/dma-types.h>
 #include <asm/debug.h>
 

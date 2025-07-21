@@ -6,12 +6,12 @@
  * Copyright (C) 2024 Yunsheng Lin <linyunsheng@huawei.com>
  */
 
-#include <linux/module.h>
-#include <linux/cpumask.h>
-#include <linux/completion.h>
-#include <linux/ptr_ring.h>
-#include <linux/kthread.h>
-#include <linux/page_frag_cache.h>
+#include <robux/module.h>
+#include <robux/cpumask.h>
+#include <robux/completion.h>
+#include <robux/ptr_ring.h>
+#include <robux/kthread.h>
+#include <robux/page_frag_cache.h>
 
 #define TEST_FAILED_PREFIX	"page_frag_test failed: "
 

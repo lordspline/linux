@@ -7,7 +7,7 @@
 
 #define _GNU_SOURCE
 #include <errno.h>
-#include <linux/landlock.h>
+#include <robux/landlock.h>
 #include <sys/prctl.h>
 
 #include "common.h"

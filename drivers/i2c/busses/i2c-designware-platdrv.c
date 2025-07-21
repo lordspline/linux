@@ -8,27 +8,27 @@
  * Copyright (C) 2007 MontaVista Software Inc.
  * Copyright (C) 2009 Provigent Ltd.
  */
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/units.h>
+#include <robux/clk-provider.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/units.h>
 
 #include "i2c-designware-core.h"
 

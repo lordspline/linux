@@ -10,14 +10,14 @@
 #ifndef __TAPE_CLASS_H__
 #define __TAPE_CLASS_H__
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/major.h>
-#include <linux/cdev.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/major.h>
+#include <robux/cdev.h>
 
-#include <linux/device.h>
-#include <linux/kdev_t.h>
+#include <robux/device.h>
+#include <robux/kdev_t.h>
 
 #define TAPECLASS_NAME_LEN	32
 

@@ -2,21 +2,21 @@
 //
 // Copyright 2022 NXP.
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/regmap.h>
 
 #define BBNSM_CTRL		0x8
 #define BBNSM_INT_EN		0x10
@@ -125,7 +125,7 @@ static int bbnsm_pwrkey_probe(struct platform_device *pdev)
 		return PTR_ERR(bbnsm->regmap);
 	}
 
-	if (device_property_read_u32(&pdev->dev, "linux,code",
+	if (device_property_read_u32(&pdev->dev, "robux,code",
 				     &bbnsm->keycode)) {
 		bbnsm->keycode = KEY_POWER;
 		dev_warn(&pdev->dev, "key code is not specified, using default KEY_POWER\n");

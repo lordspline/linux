@@ -7,11 +7,11 @@
  * Authors: Rajaram Regupathy <rajaram.regupathy@intel.com>
  *	    Gopal Saranya <saranya.gopal@intel.com>
  */
-#include <linux/debugfs.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/usb.h>
+#include <robux/debugfs.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/usb.h>
 
 #include <asm/errno.h>
 

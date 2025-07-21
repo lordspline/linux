@@ -5,18 +5,18 @@
  * Author: Dipen Patel <dipenp@nvidia.com>
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/hte.h>
-#include <linux/uaccess.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/stat.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/hte.h>
+#include <robux/uaccess.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/consumer.h>
 
 #define HTE_SUSPEND	0
 

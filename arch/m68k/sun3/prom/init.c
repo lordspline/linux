@@ -6,8 +6,8 @@
  * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
 
 #include <asm/openprom.h>
 #include <asm/oplib.h>

@@ -4,17 +4,17 @@
  * Copyright (C) 2007, 2008 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/gfp.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/dma-mapping.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/gfp.h>
 
 #include <asm/irq.h>
 #include <asm/io.h>

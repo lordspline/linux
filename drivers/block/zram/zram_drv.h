@@ -15,8 +15,8 @@
 #ifndef _ZRAM_DRV_H_
 #define _ZRAM_DRV_H_
 
-#include <linux/rwsem.h>
-#include <linux/zsmalloc.h>
+#include <robux/rwsem.h>
+#include <robux/zsmalloc.h>
 
 #include "zcomp.h"
 

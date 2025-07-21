@@ -7,10 +7,10 @@
 
 #define DISABLE_BRANCH_PROFILING
 
-#include <linux/kasan.h>
-#include <linux/printk.h>
-#include <linux/memblock.h>
-#include <linux/set_memory.h>
+#include <robux/kasan.h>
+#include <robux/printk.h>
+#include <robux/memblock.h>
+#include <robux/set_memory.h>
 
 #include <asm/pgalloc.h>
 

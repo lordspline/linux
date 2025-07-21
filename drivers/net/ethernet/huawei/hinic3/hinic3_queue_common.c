@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) Huawei Technologies Co., Ltd. 2025. All rights reserved.
 
-#include <linux/device.h>
+#include <robux/device.h>
 
 #include "hinic3_hwdev.h"
 #include "hinic3_queue_common.h"

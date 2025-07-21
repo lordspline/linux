@@ -6,8 +6,8 @@
 #ifndef __SDW_AMD_H
 #define __SDW_AMD_H
 
-#include <linux/acpi.h>
-#include <linux/soundwire/sdw.h>
+#include <robux/acpi.h>
+#include <robux/soundwire/sdw.h>
 
 /* AMD pm_runtime quirk definitions */
 
@@ -56,7 +56,7 @@ struct sdw_amd_dai_runtime {
 /**
  * struct amd_sdw_manager - amd manager driver context
  * @bus: bus handle
- * @dev: linux device
+ * @dev: robux device
  * @mmio: SoundWire registers mmio base
  * @acp_mmio: acp registers mmio base
  * @amd_sdw_irq_thread: SoundWire manager irq workqueue

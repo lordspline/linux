@@ -5,11 +5,11 @@
 // Copyright (C) 2022-2023 Cirrus Logic, Inc. and
 //                         Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/errno.h>
-#include <linux/mfd/cs42l43.h>
-#include <linux/mfd/cs42l43-regs.h>
-#include <linux/module.h>
-#include <linux/soundwire/sdw.h>
+#include <robux/errno.h>
+#include <robux/mfd/cs42l43.h>
+#include <robux/mfd/cs42l43-regs.h>
+#include <robux/module.h>
+#include <robux/soundwire/sdw.h>
 #include <sound/pcm.h>
 #include <sound/sdw.h>
 #include <sound/soc-component.h>

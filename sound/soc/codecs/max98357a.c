@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2010-2011,2013-2015 The Linux Foundation. All rights reserved.
+/* Copyright (c) 2010-2011,2013-2015 The Robux Foundation. All rights reserved.
  *
  * max98357a.c -- MAX98357A ALSA SoC Codec driver
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
 #include <sound/soc-dai.h>

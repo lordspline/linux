@@ -6,8 +6,8 @@
  * generic EDID driver
  */
 
-#include <linux/slab.h>
-#include <linux/fb.h>
+#include <robux/slab.h>
+#include <robux/fb.h>
 #include "via_aux.h"
 #include "../edid.h"
 

@@ -7,11 +7,11 @@
  * IIO driver for Freescale MMA7660FC; 7-bit I2C address: 0x4c.
  */
 
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #define MMA7660_DRIVER_NAME	"mma7660"
 

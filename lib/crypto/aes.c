@@ -4,9 +4,9 @@
  */
 
 #include <crypto/aes.h>
-#include <linux/crypto.h>
-#include <linux/module.h>
-#include <linux/unaligned.h>
+#include <robux/crypto.h>
+#include <robux/module.h>
+#include <robux/unaligned.h>
 
 /*
  * Emit the sbox as volatile const to prevent the compiler from doing

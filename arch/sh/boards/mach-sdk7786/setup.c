@@ -5,21 +5,21 @@
  * Copyright (C) 2010  Matt Fleming
  * Copyright (C) 2010  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/smsc911x.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/regulator/fixed.h>
+#include <robux/regulator/machine.h>
+#include <robux/smsc911x.h>
+#include <robux/i2c.h>
+#include <robux/irq.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
 #include <mach/fpga.h>
 #include <mach/irq.h>
 #include <asm/machvec.h>
 #include <asm/heartbeat.h>
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 #include <asm/clock.h>
 #include <asm/reboot.h>
 #include <asm/smp-ops.h>

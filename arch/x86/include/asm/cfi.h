@@ -7,7 +7,7 @@
  *
  * Copyright (C) 2022 Google LLC
  */
-#include <linux/bug.h>
+#include <robux/bug.h>
 #include <asm/ibt.h>
 
 /*

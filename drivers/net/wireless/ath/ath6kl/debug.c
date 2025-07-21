@@ -17,10 +17,10 @@
 
 #include "core.h"
 
-#include <linux/skbuff.h>
-#include <linux/fs.h>
-#include <linux/vmalloc.h>
-#include <linux/export.h>
+#include <robux/skbuff.h>
+#include <robux/fs.h>
+#include <robux/vmalloc.h>
+#include <robux/export.h>
 
 #include "debug.h"
 #include "target.h"

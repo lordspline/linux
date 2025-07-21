@@ -1,10 +1,10 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef _LINUX_MISCDEVICE_H
 #define _LINUX_MISCDEVICE_H
-#include <linux/major.h>
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/device.h>
+#include <robux/major.h>
+#include <robux/list.h>
+#include <robux/types.h>
+#include <robux/device.h>
 
 /*
  *	These allocations are managed by device@lanana.org. If you need

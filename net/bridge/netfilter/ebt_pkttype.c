@@ -8,10 +8,10 @@
  *  April, 2003
  *
  */
-#include <linux/module.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_bridge/ebtables.h>
-#include <linux/netfilter_bridge/ebt_pkttype.h>
+#include <robux/module.h>
+#include <robux/netfilter/x_tables.h>
+#include <robux/netfilter_bridge/ebtables.h>
+#include <robux/netfilter_bridge/ebt_pkttype.h>
 
 static bool
 ebt_pkttype_mt(const struct sk_buff *skb, struct xt_action_param *par)

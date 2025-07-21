@@ -9,11 +9,11 @@
  *   Document ID MV-S104858-00, Rev. A, October 23 2007.
  */
 
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/highmem.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/highmem.h>
+#include <robux/io.h>
 #include <asm/cacheflush.h>
 #include <asm/cp15.h>
 #include <asm/hardware/cache-feroceon-l2.h>
@@ -125,9 +125,9 @@ static inline void l2_inv_all(void)
 }
 
 /*
- * Linux primitives.
+ * Robux primitives.
  *
- * Note that the end addresses passed to Linux primitives are
+ * Note that the end addresses passed to Robux primitives are
  * noninclusive, while the hardware cache range operations use
  * inclusive start and end addresses.
  */

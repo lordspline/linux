@@ -3,18 +3,18 @@
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  *
  * Derived from MIPS:
- * Copyright (C) 1994 - 2003, 06, 07 by Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 1994 - 2003, 06, 07 by Ralf Baechle (ralf@robux-mips.org)
  * Copyright (C) 2007 MIPS Technologies, Inc.
  */
-#include <linux/cacheinfo.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/highmem.h>
-#include <linux/kernel.h>
-#include <linux/linkage.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/syscalls.h>
+#include <robux/cacheinfo.h>
+#include <robux/export.h>
+#include <robux/fs.h>
+#include <robux/highmem.h>
+#include <robux/kernel.h>
+#include <robux/linkage.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/syscalls.h>
 
 #include <asm/bootinfo.h>
 #include <asm/cacheflush.h>

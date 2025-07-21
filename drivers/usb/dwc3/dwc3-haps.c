@@ -8,12 +8,12 @@
  *          John Youn <johnyoun@synopsys.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 /**
  * struct dwc3_haps - Driver private structure
@@ -29,7 +29,7 @@ static const struct property_entry initial_properties[] = {
 	PROPERTY_ENTRY_BOOL("snps,usb3_lpm_capable"),
 	PROPERTY_ENTRY_BOOL("snps,has-lpm-erratum"),
 	PROPERTY_ENTRY_BOOL("snps,dis_enblslpm_quirk"),
-	PROPERTY_ENTRY_BOOL("linux,sysdev_is_parent"),
+	PROPERTY_ENTRY_BOOL("robux,sysdev_is_parent"),
 	{ },
 };
 

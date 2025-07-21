@@ -5,13 +5,13 @@
  *  Copyright (c) 2011 Frederick van der Wyck <fvanderwyck@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/backlight.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/backlight.h>
+#include <robux/dmi.h>
+#include <robux/acpi.h>
 
 #define SAMSUNGQ10_BL_MAX_INTENSITY 7
 

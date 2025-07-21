@@ -4,9 +4,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
-#include <uapi/linux/mman.h> /* To get things like MAP_HUGETLB even on older libc headers */
+#include <robux/string.h>
+#include <robux/zalloc.h>
+#include <uapi/robux/mman.h> /* To get things like MAP_HUGETLB even on older libc headers */
 #include "debug.h"
 #include "dso.h"
 #include "map.h"

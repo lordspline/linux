@@ -9,17 +9,17 @@
 
 #undef DEBUG
 
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/init.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/mutex.h>
-#include <linux/linux_logo.h>
-#include <linux/syscore_ops.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/init.h>
+#include <robux/ptrace.h>
+#include <robux/slab.h>
+#include <robux/wait.h>
+#include <robux/mm.h>
+#include <robux/io.h>
+#include <robux/mutex.h>
+#include <robux/linux_logo.h>
+#include <robux/syscore_ops.h>
 #include <asm/spu.h>
 #include <asm/spu_priv1.h>
 #include <asm/spu_csa.h>

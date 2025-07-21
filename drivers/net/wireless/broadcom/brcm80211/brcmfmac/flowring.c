@@ -4,9 +4,9 @@
  */
 
 
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
+#include <robux/types.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
 #include <brcmu_utils.h>
 
 #include "core.h"

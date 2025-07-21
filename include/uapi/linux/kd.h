@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI_LINUX_KD_H
 #define _UAPI_LINUX_KD_H
-#include <linux/types.h>
-#include <linux/compiler.h>
+#include <robux/types.h>
+#include <robux/compiler.h>
 
 /* 0x4B is 'K', to avoid collision with termios and vt */
 

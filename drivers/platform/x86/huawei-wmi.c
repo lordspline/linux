@@ -5,19 +5,19 @@
  *  Copyright (C) 2018	      Ayman Bagabas <ayman.bagabas@gmail.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/sysfs.h>
-#include <linux/wmi.h>
+#include <robux/acpi.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/input.h>
+#include <robux/input/sparse-keymap.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/sysfs.h>
+#include <robux/wmi.h>
 #include <acpi/battery.h>
 
 /*

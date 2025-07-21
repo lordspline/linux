@@ -8,15 +8,15 @@
  *	Laxman Dewangan <ldewangan@nvidia.com>
  */
 
-#include <linux/init.h>
-#include <linux/mfd/max77620.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/init.h>
+#include <robux/mfd/max77620.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/of_regulator.h>
 
 #define max77620_rails(_name)	"max77620-"#_name
 

@@ -9,18 +9,18 @@
  * Note: This driver assumes that the sensor has been calibrated beforehand.
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/limits.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/bitops.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/limits.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/iio/iio.h>
+#include <robux/iio/iio.h>
 
 #define TMP117_REG_TEMP			0x0
 #define TMP117_REG_CFGR			0x1

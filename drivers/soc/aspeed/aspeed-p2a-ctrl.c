@@ -11,21 +11,21 @@
  * the host to read and write to various regions of the BMC's memory.
  */
 
-#include <linux/fs.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/fs.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/miscdevice.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 
-#include <linux/aspeed-p2a-ctrl.h>
+#include <robux/aspeed-p2a-ctrl.h>
 
 #define DEVICE_NAME	"aspeed-p2a-ctrl"
 

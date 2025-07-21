@@ -5,16 +5,16 @@
  * Copyright (C) 2010 Texas Instruments
  *
  */
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/genalloc.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/genalloc.h>
 #include "davinci_cpdma.h"
 
 /* DMA Registers */

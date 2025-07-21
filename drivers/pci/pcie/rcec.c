@@ -9,9 +9,9 @@
  * Copyright (C) 2020 Intel Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/pci_regs.h>
 
 #include "../pci.h"
 

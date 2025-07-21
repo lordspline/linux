@@ -5,19 +5,19 @@
  * Copyright (C) 2010-2015 Freescale Semiconductor, Inc.
  * Copyright (C) 2008 Embedded Alley Solutions, Inc.
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/sched/task_stack.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mtd/partitions.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/dma/mxs-dma.h>
-#include <linux/string_choices.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/sched/task_stack.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/mtd/partitions.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/dma/mxs-dma.h>
+#include <robux/string_choices.h>
 #include "gpmi-nand.h"
 #include "gpmi-regs.h"
 #include "bch-regs.h"

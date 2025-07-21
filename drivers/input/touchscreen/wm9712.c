@@ -6,16 +6,16 @@
  * Author: Liam Girdwood <lrg@slimlogic.co.uk>
  * Parts Copyright : Ian Molton <spyro@f2s.com>
  *                   Andrew Zabolotny <zap@homelink.ru>
- *                   Russell King <rmk@arm.linux.org.uk>
+ *                   Russell King <rmk@arm.robux.org.uk>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/input.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/wm97xx.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/input.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
+#include <robux/wm97xx.h>
 
 #define TS_NAME			"wm97xx"
 #define WM9712_VERSION		"1.00"

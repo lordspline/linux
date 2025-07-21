@@ -4,13 +4,13 @@
 #ifndef _CLK_IPROC_H
 #define _CLK_IPROC_H
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/clk-provider.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/clk-provider.h>
 
 #define IPROC_CLK_NAME_LEN 25
 #define IPROC_CLK_INVALID_OFFSET 0xffffffff

@@ -6,14 +6,14 @@
  * Copyright (C) 2014 Wolfram Sang, Sang Engineering <wsa@sang-engineering.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clk/renesas.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/clk/renesas.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
 
 #define CPG_FRQCR	0x10
 #define CPG_FRQCR2	0x14

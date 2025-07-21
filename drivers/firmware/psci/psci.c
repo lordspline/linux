@@ -6,21 +6,21 @@
 
 #define pr_fmt(fmt) "psci: " fmt
 
-#include <linux/acpi.h>
-#include <linux/arm-smccc.h>
-#include <linux/cpuidle.h>
-#include <linux/debugfs.h>
-#include <linux/errno.h>
-#include <linux/linkage.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/printk.h>
-#include <linux/psci.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
+#include <robux/acpi.h>
+#include <robux/arm-smccc.h>
+#include <robux/cpuidle.h>
+#include <robux/debugfs.h>
+#include <robux/errno.h>
+#include <robux/linkage.h>
+#include <robux/of.h>
+#include <robux/pm.h>
+#include <robux/printk.h>
+#include <robux/psci.h>
+#include <robux/reboot.h>
+#include <robux/slab.h>
+#include <robux/suspend.h>
 
-#include <uapi/linux/psci.h>
+#include <uapi/robux/psci.h>
 
 #include <asm/cpuidle.h>
 #include <asm/cputype.h>

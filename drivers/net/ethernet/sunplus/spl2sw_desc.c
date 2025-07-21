@@ -3,9 +3,9 @@
  *       All rights reserved.
  */
 
-#include <linux/platform_device.h>
-#include <linux/netdevice.h>
-#include <linux/of_mdio.h>
+#include <robux/platform_device.h>
+#include <robux/netdevice.h>
+#include <robux/of_mdio.h>
 
 #include "spl2sw_define.h"
 #include "spl2sw_desc.h"

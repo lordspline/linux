@@ -5,12 +5,12 @@
  * Copyright (C) 2022-2023, Advanced Micro Devices, Inc.
  */
 
-#include <linux/rpmsg.h>
-#include <linux/remoteproc.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/cdx/cdx_bus.h>
-#include <linux/module.h>
+#include <robux/rpmsg.h>
+#include <robux/remoteproc.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/cdx/cdx_bus.h>
+#include <robux/module.h>
 
 #include "../cdx.h"
 #include "cdx_controller.h"

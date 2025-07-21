@@ -9,16 +9,16 @@
  *  - this ds1742 driver now supports ds1743.
  */
 
-#include <linux/bcd.h>
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/rtc.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/module.h>
+#include <robux/bcd.h>
+#include <robux/kernel.h>
+#include <robux/gfp.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
+#include <robux/rtc.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/module.h>
 
 #define RTC_SIZE		8
 

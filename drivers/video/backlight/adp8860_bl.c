@@ -5,18 +5,18 @@
  * Copyright 2009-2010 Analog Devices Inc.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/pm.h>
-#include <linux/platform_device.h>
-#include <linux/i2c.h>
-#include <linux/backlight.h>
-#include <linux/leds.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/pm.h>
+#include <robux/platform_device.h>
+#include <robux/i2c.h>
+#include <robux/backlight.h>
+#include <robux/leds.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
-#include <linux/platform_data/adp8860.h>
+#include <robux/platform_data/adp8860.h>
 #define ADP8860_EXT_FEATURES
 #define ADP8860_USE_LEDS
 

@@ -2,17 +2,17 @@
 /*
  * Copyright (c) 2015-2017, 2019-2021 Linaro Limited
  */
-#include <linux/anon_inodes.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/tee_core.h>
-#include <linux/uaccess.h>
-#include <linux/uio.h>
-#include <linux/highmem.h>
+#include <robux/anon_inodes.h>
+#include <robux/device.h>
+#include <robux/idr.h>
+#include <robux/io.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/tee_core.h>
+#include <robux/uaccess.h>
+#include <robux/uio.h>
+#include <robux/highmem.h>
 #include "tee_private.h"
 
 static void shm_put_kernel_pages(struct page **pages, size_t page_count)

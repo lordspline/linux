@@ -5,13 +5,13 @@
  * Author: Finley Xiao <finley.xiao@rock-chips.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/syscore_ops.h>
+#include <robux/clk-provider.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/syscore_ops.h>
 #include <dt-bindings/clock/rockchip,rk3562-cru.h>
 #include "clk.h"
 

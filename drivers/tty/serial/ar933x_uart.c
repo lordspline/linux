@@ -7,24 +7,24 @@
  *  Based on drivers/char/serial.c, by Linus Torvalds, Theodore Ts'o.
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/clk.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/sysrq.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/serial_core.h>
+#include <robux/serial.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/clk.h>
 
 #include <asm/div64.h>
 

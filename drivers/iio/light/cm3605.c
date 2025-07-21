@@ -9,22 +9,22 @@
  * and an early endavour into mobile light and proximity sensors.
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
-#include <linux/iio/consumer.h> /* To get our ADC channel */
-#include <linux/iio/types.h> /* To deal with our ADC channel */
-#include <linux/init.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/math64.h>
-#include <linux/pm.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/events.h>
+#include <robux/iio/consumer.h> /* To get our ADC channel */
+#include <robux/iio/types.h> /* To deal with our ADC channel */
+#include <robux/init.h>
+#include <robux/leds.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/math64.h>
+#include <robux/pm.h>
 
 #define CM3605_PROX_CHANNEL 0
 #define CM3605_ALS_CHANNEL 1

@@ -1,11 +1,11 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /* Copyright (c) 2021-2022, NVIDIA CORPORATION & AFFILIATES.
  */
 #ifndef _UAPI_IOMMUFD_H
 #define _UAPI_IOMMUFD_H
 
-#include <linux/ioctl.h>
-#include <linux/types.h>
+#include <robux/ioctl.h>
+#include <robux/types.h>
 
 #define IOMMUFD_TYPE (';')
 

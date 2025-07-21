@@ -22,27 +22,27 @@
  */
 #define pr_fmt(fmt) "clk-eyeq: " fmt
 
-#include <linux/array_size.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/io-64-nonatomic-hi-lo.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/overflow.h>
+#include <robux/platform_device.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 #include <dt-bindings/clock/mobileye,eyeq5-clk.h>
 

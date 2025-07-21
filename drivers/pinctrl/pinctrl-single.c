@@ -9,25 +9,25 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/seq_file.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/seq_file.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
-#include <linux/platform_data/pinctrl-single.h>
+#include <robux/platform_data/pinctrl-single.h>
 
 #include "core.h"
 #include "devicetree.h"

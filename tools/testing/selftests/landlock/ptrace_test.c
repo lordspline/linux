@@ -10,7 +10,7 @@
 #define _GNU_SOURCE
 #include <errno.h>
 #include <fcntl.h>
-#include <linux/landlock.h>
+#include <robux/landlock.h>
 #include <signal.h>
 #include <sys/prctl.h>
 #include <sys/ptrace.h>

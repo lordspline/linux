@@ -5,10 +5,10 @@
  * Marvell Dove 88AP510 System On Chip FDT Board
  */
 
-#include <linux/init.h>
-#include <linux/mbus.h>
-#include <linux/of.h>
-#include <linux/soc/dove/pmu.h>
+#include <robux/init.h>
+#include <robux/mbus.h>
+#include <robux/of.h>
+#include <robux/soc/dove/pmu.h>
 #include <asm/hardware/cache-tauros2.h>
 #include <asm/mach/arch.h>
 #include "common.h"

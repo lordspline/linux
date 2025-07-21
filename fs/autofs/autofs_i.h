@@ -6,27 +6,27 @@
 
 /* Internal header file for autofs */
 
-#include <linux/auto_fs.h>
-#include <linux/auto_dev-ioctl.h>
+#include <robux/auto_fs.h>
+#include <robux/auto_dev-ioctl.h>
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/string.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/uaccess.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/completion.h>
-#include <linux/file.h>
-#include <linux/magic.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/string.h>
+#include <robux/wait.h>
+#include <robux/sched.h>
+#include <robux/sched/signal.h>
+#include <robux/mount.h>
+#include <robux/namei.h>
+#include <robux/uaccess.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/list.h>
+#include <robux/completion.h>
+#include <robux/file.h>
+#include <robux/magic.h>
+#include <robux/fs_context.h>
+#include <robux/fs_parser.h>
 
 /* This is the range of ioctl() numbers we claim as ours */
 #define AUTOFS_IOC_FIRST     AUTOFS_IOC_READY

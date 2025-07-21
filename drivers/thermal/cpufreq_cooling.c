@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/drivers/thermal/cpufreq_cooling.c
+ *  robux/drivers/thermal/cpufreq_cooling.c
  *
  *  Copyright (C) 2012	Samsung Electronics Co., Ltd(http://www.samsung.com)
  *
@@ -10,18 +10,18 @@
  *		Viresh Kumar <viresh.kumar@linaro.org>
  *
  */
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/cpu_cooling.h>
-#include <linux/device.h>
-#include <linux/energy_model.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
-#include <linux/units.h>
+#include <robux/cpu.h>
+#include <robux/cpufreq.h>
+#include <robux/cpu_cooling.h>
+#include <robux/device.h>
+#include <robux/energy_model.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/pm_opp.h>
+#include <robux/pm_qos.h>
+#include <robux/slab.h>
+#include <robux/thermal.h>
+#include <robux/units.h>
 
 #include "thermal_trace.h"
 

@@ -8,12 +8,12 @@
  * Copyright (C) 2009 Michael Buesch <m@bues.ch>
  */
 
-#include <linux/kernel.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/sdio_ids.h>
-#include <linux/slab.h>
-#include <linux/ssb/ssb.h>
+#include <robux/kernel.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/sdio_func.h>
+#include <robux/mmc/sdio_ids.h>
+#include <robux/slab.h>
+#include <robux/ssb/ssb.h>
 
 #include "sdio.h"
 #include "b43.h"

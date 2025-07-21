@@ -9,8 +9,8 @@
 #ifndef _LINUX_LCD_H
 #define _LINUX_LCD_H
 
-#include <linux/device.h>
-#include <linux/mutex.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
 
 #define LCD_POWER_ON			(0)
 #define LCD_POWER_REDUCED		(1) // deprecated; don't use in new code

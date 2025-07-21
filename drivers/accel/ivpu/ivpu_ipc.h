@@ -6,8 +6,8 @@
 #ifndef __IVPU_IPC_H__
 #define __IVPU_IPC_H__
 
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
 
 #include "vpu_jsm_api.h"
 

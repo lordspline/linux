@@ -9,14 +9,14 @@
  *	Hervé Codina <herve.codina@bootlin.com>
  */
 
-#include <linux/device.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/slab.h>
 
 /* Embedded dtbo symbols created by cmd_wrap_S_dtb in scripts/Makefile.lib */
 extern char __dtbo_lan966x_pci_begin[];

@@ -6,14 +6,14 @@
  * Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
  */
 
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/cache.h>
-#include <linux/mmu_context.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
-#include <linux/pagemap.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/cache.h>
+#include <robux/mmu_context.h>
+#include <robux/syscalls.h>
+#include <robux/uaccess.h>
+#include <robux/pagemap.h>
 #include <asm/cacheflush.h>
 #include <asm/cachectl.h>
 #include <asm/setup.h>
@@ -936,7 +936,7 @@ static noinline void __init arc_ioc_setup(void)
 
 	/*
 	 * If IOC was already enabled (due to bootloader) it technically needs to
-	 * be reconfigured with aperture base,size corresponding to Linux memory map
+	 * be reconfigured with aperture base,size corresponding to Robux memory map
 	 * which will certainly be different than uboot's. But disabling and
 	 * reenabling IOC when DMA might be potentially active is tricky business.
 	 * To avoid random memory issues later, just panic here and ask user to

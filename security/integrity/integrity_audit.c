@@ -7,9 +7,9 @@
  *	Audit calls for the integrity subsystem
  */
 
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/audit.h>
+#include <robux/fs.h>
+#include <robux/gfp.h>
+#include <robux/audit.h>
 #include "integrity.h"
 
 static int integrity_audit_info;

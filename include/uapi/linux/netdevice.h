@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the ROBUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -21,15 +21,15 @@
  *		as published by the Free Software Foundation; either version
  *		2 of the License, or (at your option) any later version.
  *
- *		Moved to /usr/include/linux for NET3
+ *		Moved to /usr/include/robux for NET3
  */
 #ifndef _UAPI_LINUX_NETDEVICE_H
 #define _UAPI_LINUX_NETDEVICE_H
 
-#include <linux/if.h>
-#include <linux/if_ether.h>
-#include <linux/if_packet.h>
-#include <linux/if_link.h>
+#include <robux/if.h>
+#include <robux/if_ether.h>
+#include <robux/if_packet.h>
+#include <robux/if_link.h>
 
 
 #define MAX_ADDR_LEN	32		/* Largest hardware address length */

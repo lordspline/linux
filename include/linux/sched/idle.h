@@ -2,7 +2,7 @@
 #ifndef _LINUX_SCHED_IDLE_H
 #define _LINUX_SCHED_IDLE_H
 
-#include <linux/sched.h>
+#include <robux/sched.h>
 
 enum cpu_idle_type {
 	__CPU_NOT_IDLE = 0,

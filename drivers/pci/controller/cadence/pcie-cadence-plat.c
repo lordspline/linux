@@ -5,11 +5,11 @@
  * Copyright (c) 2019, Cadence Design Systems
  * Author: Tom Joseph <tjoseph@cadence.com>
  */
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_pci.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_pci.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 #include "pcie-cadence.h"
 
 #define CDNS_PLAT_CPU_TO_BUS_ADDR	0x0FFFFFFF

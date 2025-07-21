@@ -5,20 +5,20 @@
  *  Copyright (C) 2012 Magnus Damm
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/irq.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/clocksource.h>
+#include <robux/clockchips.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 
 enum { USER_CLOCKSOURCE, USER_CLOCKEVENT, USER_NR };
 

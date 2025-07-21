@@ -47,7 +47,7 @@
  *   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  *   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * PCIe NTB Debugging Tool Linux driver
+ * PCIe NTB Debugging Tool Robux driver
  */
 
 /*
@@ -176,17 +176,17 @@
  * root@peer# head -c 7 $DBG_DIR/peer0/peer_mw0
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
-#include <linux/debugfs.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/debugfs.h>
+#include <robux/dma-mapping.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 
-#include <linux/ntb.h>
+#include <robux/ntb.h>
 
 #define DRIVER_NAME		"ntb_tool"
 #define DRIVER_VERSION		"2.0"

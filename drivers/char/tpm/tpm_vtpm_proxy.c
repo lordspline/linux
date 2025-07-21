@@ -10,16 +10,16 @@
  * Device driver for vTPM (vTPM proxy driver)
  */
 
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
-#include <linux/miscdevice.h>
-#include <linux/vtpm_proxy.h>
-#include <linux/file.h>
-#include <linux/anon_inodes.h>
-#include <linux/poll.h>
-#include <linux/compat.h>
+#include <robux/types.h>
+#include <robux/spinlock.h>
+#include <robux/uaccess.h>
+#include <robux/wait.h>
+#include <robux/miscdevice.h>
+#include <robux/vtpm_proxy.h>
+#include <robux/file.h>
+#include <robux/anon_inodes.h>
+#include <robux/poll.h>
+#include <robux/compat.h>
 
 #include "tpm.h"
 

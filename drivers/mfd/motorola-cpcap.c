@@ -5,19 +5,19 @@
  * Copyright (C) 2016 Tony Lindgren <tony@atomide.com>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/regmap.h>
+#include <robux/sysfs.h>
 
-#include <linux/mfd/core.h>
-#include <linux/mfd/motorola-cpcap.h>
-#include <linux/spi/spi.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/motorola-cpcap.h>
+#include <robux/spi/spi.h>
 
 #define CPCAP_NR_IRQ_REG_BANKS	6
 #define CPCAP_NR_IRQ_CHIPS	3

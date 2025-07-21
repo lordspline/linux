@@ -8,13 +8,13 @@
  * Copyright (C) 2018 MIPS Tech, LLC
  */
 
-#include <linux/cpufeature.h>
-#include <linux/crc32.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/cpufeature.h>
+#include <robux/crc32.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 #include <asm/mipsregs.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #ifndef TOOLCHAIN_SUPPORTS_CRC
 #define _ASM_SET_CRC(OP, SZ, TYPE)					  \

@@ -3,9 +3,9 @@
  * Copyright (C) 2024 Loongson Technology Corporation Limited
  */
 
-#include <linux/memblock.h>
-#include <linux/pagewalk.h>
-#include <linux/pgtable.h>
+#include <robux/memblock.h>
+#include <robux/pagewalk.h>
+#include <robux/pgtable.h>
 #include <asm/set_memory.h>
 #include <asm/tlbflush.h>
 

@@ -6,12 +6,12 @@
  * Copyright (C) 2012-2013 Tieto Poland
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/nfc.h>
-#include <linux/netdevice.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/nfc.h>
+#include <robux/netdevice.h>
 #include <net/nfc/nfc.h>
 #include "pn533.h"
 

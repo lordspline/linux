@@ -8,9 +8,9 @@
 #ifndef _BMI323_H_
 #define _BMI323_H_
 
-#include <linux/bits.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <robux/bits.h>
+#include <robux/regmap.h>
+#include <robux/units.h>
 
 #define BMI323_I2C_DUMMY			2
 #define BMI323_SPI_DUMMY			1

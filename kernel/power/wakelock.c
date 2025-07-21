@@ -10,15 +10,15 @@
  * manipulate wakelocks on Android.
  */
 
-#include <linux/capability.h>
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/hrtimer.h>
-#include <linux/list.h>
-#include <linux/rbtree.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/capability.h>
+#include <robux/ctype.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/hrtimer.h>
+#include <robux/list.h>
+#include <robux/rbtree.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 #include "power.h"
 

@@ -19,12 +19,12 @@
  *
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/intel_tpmi.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/intel_tpmi.h>
 
 #include "../tpmi_power_domains.h"
 #include "uncore-frequency-common.h"

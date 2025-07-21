@@ -10,11 +10,11 @@
  * Copyright (C) 2004-2010   Dominik Brodowski
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
 
 #include <pcmcia/cisreg.h>
 #include <pcmcia/cistpl.h>

@@ -12,11 +12,11 @@
 
 */
 
-#include <linux/init.h>
-#include <linux/wait.h>
-#include <linux/time.h>
-#include <linux/pnp.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/wait.h>
+#include <robux/time.h>
+#include <robux/pnp.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/mpu401.h>

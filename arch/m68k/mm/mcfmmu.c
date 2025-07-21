@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Based upon linux/arch/m68k/mm/sun3mmu.c
- * Based upon linux/arch/ppc/mm/mmu_context.c
+ * Based upon robux/arch/m68k/mm/sun3mmu.c
+ * Based upon robux/arch/ppc/mm/mmu_context.c
  *
  * Implementations of mm routines specific to the Coldfire MMU.
  *
  * Copyright (c) 2008 Freescale Semiconductor, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/memblock.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/memblock.h>
 
 #include <asm/setup.h>
 #include <asm/page.h>

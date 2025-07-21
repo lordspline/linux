@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2017, Intel Corporation
  * Authors: Michael Jamet <michael.jamet@intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
+ *          Mika Westerberg <mika.westerberg@robux.intel.com>
  */
 
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/kmod.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/prandom.h>
-#include <linux/string_helpers.h>
-#include <linux/utsname.h>
-#include <linux/uuid.h>
-#include <linux/workqueue.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/kmod.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/prandom.h>
+#include <robux/string_helpers.h>
+#include <robux/utsname.h>
+#include <robux/uuid.h>
+#include <robux/workqueue.h>
 
 #include "tb.h"
 

@@ -3,14 +3,14 @@
  * Copyright(c) 2015 - 2019 Intel Corporation. All rights reserved.
  * Copyright(c) 2021 - 2024 Linaro Ltd.
  */
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/rpmb.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/rpmb.h>
+#include <robux/slab.h>
 
 static DEFINE_IDA(rpmb_ida);
 

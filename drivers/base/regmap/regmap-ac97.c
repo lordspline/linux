@@ -4,13 +4,13 @@
 //
 // Copyright 2013 Linaro Ltd.  All rights reserved.
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #include <sound/ac97_codec.h>
 

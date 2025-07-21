@@ -27,24 +27,24 @@
  * MPCBL0010 ATCA computer.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>	/* printk() */
-#include <linux/fs.h>		/* everything... */
-#include <linux/errno.h>	/* error codes */
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/timer.h>
-#include <linux/sysfs.h>
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/device/faux.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>	/* printk() */
+#include <robux/fs.h>		/* everything... */
+#include <robux/errno.h>	/* error codes */
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/timer.h>
+#include <robux/sysfs.h>
+#include <robux/device.h>
+#include <robux/miscdevice.h>
+#include <robux/device/faux.h>
 #include <asm/io.h>		/* inb/outb */
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 MODULE_AUTHOR("Sebastien Bouchard <sebastien.bouchard@ca.kontron.com>");
 MODULE_DESCRIPTION("Telecom Clock driver for Intel NetStructure(tm) MPCBL0010");

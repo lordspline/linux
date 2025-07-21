@@ -69,7 +69,7 @@
 			/* Verdin CTRL_WAKE1_MICO# (SODIMM 252) */
 			gpios = <&main_gpio0 32 GPIO_ACTIVE_LOW>;
 			label = "Wake-Up";
-			linux,code = <KEY_WAKEUP>;
+			robux,code = <KEY_WAKEUP>;
 			wakeup-source;
 		};
 	};
@@ -683,7 +683,7 @@
 		>;
 	};
 
-	/* Verdin UART_3, used as the Linux console */
+	/* Verdin UART_3, used as the Robux console */
 	pinctrl_uart0: main-uart0-default-pins {
 		pinctrl-single,pins = <
 			AM62X_IOPAD(0x1c8, PIN_INPUT_PULLUP, 0) /* (D14) UART0_RXD */ /* SODIMM 147 */
@@ -1338,7 +1338,7 @@
 	status = "disabled";
 };
 
-/* Verdin UART_3, used as the Linux console */
+/* Verdin UART_3, used as the Robux console */
 &main_uart0 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_uart0>;

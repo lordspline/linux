@@ -6,24 +6,24 @@
  * Copyright (C) 2011-2013 Freescale Semiconductor, Inc.
  * Copyright (C) 2010, Guennadi Liakhovetski <g.liakhovetski@gmx.de>
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/hdmi.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/regmap.h>
-#include <linux/dma-mapping.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/hdmi.h>
+#include <robux/i2c.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/regmap.h>
+#include <robux/dma-mapping.h>
+#include <robux/spinlock.h>
 
 #include <media/cec-notifier.h>
 
-#include <linux/media-bus-format.h>
-#include <linux/videodev2.h>
+#include <robux/media-bus-format.h>
+#include <robux/videodev2.h>
 
 #include <drm/bridge/dw_hdmi.h>
 #include <drm/display/drm_hdmi_helper.h>

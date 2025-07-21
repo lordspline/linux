@@ -2,8 +2,8 @@
 
 #include "sas_internal.h"
 
-#include <linux/kernel.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
 #include <scsi/sas.h>
 #include <scsi/libsas.h>
 

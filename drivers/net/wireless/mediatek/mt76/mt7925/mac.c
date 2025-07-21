@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: ISC
 /* Copyright (C) 2023 MediaTek Inc. */
 
-#include <linux/devcoredump.h>
-#include <linux/etherdevice.h>
-#include <linux/timekeeping.h>
+#include <robux/devcoredump.h>
+#include <robux/etherdevice.h>
+#include <robux/timekeeping.h>
 #include "mt7925.h"
 #include "../dma.h"
 #include "mac.h"

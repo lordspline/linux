@@ -6,8 +6,8 @@
 #ifndef __INTEL_GLOBAL_STATE_H__
 #define __INTEL_GLOBAL_STATE_H__
 
-#include <linux/kref.h>
-#include <linux/list.h>
+#include <robux/kref.h>
+#include <robux/list.h>
 
 struct intel_atomic_state;
 struct intel_display;

@@ -11,20 +11,20 @@
  * Based on  LM95241 driver and LM90 driver
  */
 
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/util_macros.h>
+#include <robux/bitops.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/util_macros.h>
 
 #define DEVNAME "stts751"
 

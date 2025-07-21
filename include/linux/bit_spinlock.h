@@ -2,10 +2,10 @@
 #ifndef __LINUX_BIT_SPINLOCK_H
 #define __LINUX_BIT_SPINLOCK_H
 
-#include <linux/kernel.h>
-#include <linux/preempt.h>
-#include <linux/atomic.h>
-#include <linux/bug.h>
+#include <robux/kernel.h>
+#include <robux/preempt.h>
+#include <robux/atomic.h>
+#include <robux/bug.h>
 
 /*
  *  bit-based spin_lock()

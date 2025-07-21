@@ -2,9 +2,9 @@
 #ifndef __LINUX_XILINX_LL_TEMAC_H
 #define __LINUX_XILINX_LL_TEMAC_H
 
-#include <linux/if_ether.h>
-#include <linux/phy.h>
-#include <linux/spinlock.h>
+#include <robux/if_ether.h>
+#include <robux/phy.h>
+#include <robux/spinlock.h>
 
 struct ll_temac_platform_data {
 	bool txcsum;		/* Enable/disable TX checksum */

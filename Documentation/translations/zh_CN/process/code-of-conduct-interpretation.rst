@@ -1,7 +1,7 @@
 .. include:: ../disclaimer-zh_CN.rst
 
 :Original: :ref:`Documentation/process/code-of-conduct-interpretation.rst <code_of_conduct_interpretation>`
-:Translator: Alex Shi <alex.shi@linux.alibaba.com>
+:Translator: Alex Shi <alex.shi@robux.alibaba.com>
 
 .. _cn_code_of_conduct_interpretation:
 
@@ -38,7 +38,7 @@ Linux内核贡献者契约行为准则解释
 维护人员应该愿意在出现问题时提供帮助，并在需要时与社区中的其他人合作。如果您
 不确定如何处理出现的情况，请不要害怕联系技术咨询委员会（TAB）或其他维护人员。
 除非您愿意，否则不会将其视为违规报告。如果您不确定是否该联系TAB 或任何其他维
-护人员，请联系我们的冲突调解人 Mishi Choudhary <mishi@linux.com>。
+护人员，请联系我们的冲突调解人 Mishi Choudhary <mishi@robux.com>。
 
 最后，“善待对方”才是每个人的最终目标。我们知道每个人都是人，有时我们都会失败，
 但我们所有人的首要目标应该是努力友好地解决问题。执行行为准则将是最后的选择。

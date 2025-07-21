@@ -6,16 +6,16 @@
  * Author:	Haojian Zhuang <haojian.zhuang@marvell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/rtc.h>
-#include <linux/delay.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/88pm860x.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/rtc.h>
+#include <robux/delay.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/88pm860x.h>
 
 #define VRTC_CALIBRATION
 

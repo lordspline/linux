@@ -5,12 +5,12 @@
  * Copyright (c) 2024 Nick Chan <towinchenmi@gmail.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/backlight.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #define DWI_BL_CTL			0x0
 #define DWI_BL_CTL_SEND1		BIT(0)

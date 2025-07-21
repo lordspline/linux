@@ -6,7 +6,7 @@
 #ifndef _XE_SRIOV_PF_H_
 #define _XE_SRIOV_PF_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct drm_printer;
 struct xe_device;

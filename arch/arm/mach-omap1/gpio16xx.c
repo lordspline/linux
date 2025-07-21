@@ -8,8 +8,8 @@
  *	Charulatha V <charu@ti.com>
  */
 
-#include <linux/platform_data/gpio-omap.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <robux/platform_data/gpio-omap.h>
+#include <robux/soc/ti/omap1-io.h>
 
 #include "hardware.h"
 #include "irqs.h"

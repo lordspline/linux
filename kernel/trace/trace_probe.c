@@ -11,8 +11,8 @@
  */
 #define pr_fmt(fmt)	"trace_probe: " fmt
 
-#include <linux/bpf.h>
-#include <linux/fs.h>
+#include <robux/bpf.h>
+#include <robux/fs.h>
 #include "trace_btf.h"
 
 #include "trace_probe.h"

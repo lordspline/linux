@@ -10,15 +10,15 @@
  */
 
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/string.h>
-#include <linux/of_irq.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/kmod.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/string.h>
+#include <robux/of_irq.h>
+#include <robux/io.h>
 #include <sound/core.h>
 #include <asm/irq.h>
 #include <asm/machdep.h>

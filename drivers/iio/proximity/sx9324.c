@@ -7,21 +7,21 @@
  * https://edit.wpgdadawant.com/uploads/news_file/program/2019/30184/tech_files/program_30184_suggest_other_file.pdf
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/log2.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 
-#include <linux/iio/iio.h>
+#include <robux/iio/iio.h>
 
 #include "sx_common.h"
 

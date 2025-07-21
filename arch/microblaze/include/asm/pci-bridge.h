@@ -4,9 +4,9 @@
 #ifdef __KERNEL__
 /*
  */
-#include <linux/pci.h>
-#include <linux/list.h>
-#include <linux/ioport.h>
+#include <robux/pci.h>
+#include <robux/list.h>
+#include <robux/ioport.h>
 
 struct device_node;
 

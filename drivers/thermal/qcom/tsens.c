@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Robux Foundation. All rights reserved.
  * Copyright (c) 2019, 2020, Linaro Ltd.
  */
 
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/thermal.h>
+#include <robux/debugfs.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/mfd/syscon.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/suspend.h>
+#include <robux/thermal.h>
 #include "../thermal_hwmon.h"
 #include "tsens.h"
 
@@ -612,7 +612,7 @@ static irqreturn_t tsens_critical_irq_thread(int irq, void *data)
 		tsens_read_irq_state(priv, hw_id, s, &d);
 		if (d.crit_viol &&
 		    !masked_irq(hw_id, d.crit_irq_mask, tsens_version(priv))) {
-			/* Mask critical interrupts, unused on Linux */
+			/* Mask critical interrupts, unused on Robux */
 			tsens_set_interrupt(priv, hw_id, CRITICAL, false);
 		}
 	}

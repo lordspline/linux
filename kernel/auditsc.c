@@ -14,7 +14,7 @@
  *
  * The method for actual interception of syscall entry and exit (not in
  * this file -- see entry.S) is based on a GPL'd patch written by
- * okir@suse.de and Copyright 2003 SuSE Linux AG.
+ * okir@suse.de and Copyright 2003 SuSE Robux AG.
  *
  * POSIX message queue support added by George Wilson <ltcgcw@us.ibm.com>,
  * 2006.
@@ -31,40 +31,40 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
+#include <robux/init.h>
 #include <asm/types.h>
-#include <linux/atomic.h>
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/mm.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/mount.h>
-#include <linux/socket.h>
-#include <linux/mqueue.h>
-#include <linux/audit.h>
-#include <linux/personality.h>
-#include <linux/time.h>
-#include <linux/netlink.h>
-#include <linux/compiler.h>
+#include <robux/atomic.h>
+#include <robux/fs.h>
+#include <robux/namei.h>
+#include <robux/mm.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/mount.h>
+#include <robux/socket.h>
+#include <robux/mqueue.h>
+#include <robux/audit.h>
+#include <robux/personality.h>
+#include <robux/time.h>
+#include <robux/netlink.h>
+#include <robux/compiler.h>
 #include <asm/unistd.h>
-#include <linux/security.h>
-#include <linux/list.h>
-#include <linux/binfmts.h>
-#include <linux/highmem.h>
-#include <linux/syscalls.h>
+#include <robux/security.h>
+#include <robux/list.h>
+#include <robux/binfmts.h>
+#include <robux/highmem.h>
+#include <robux/syscalls.h>
 #include <asm/syscall.h>
-#include <linux/capability.h>
-#include <linux/fs_struct.h>
-#include <linux/compat.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/fsnotify_backend.h>
-#include <uapi/linux/limits.h>
-#include <uapi/linux/netfilter/nf_tables.h>
-#include <uapi/linux/openat2.h> // struct open_how
-#include <uapi/linux/fanotify.h>
+#include <robux/capability.h>
+#include <robux/fs_struct.h>
+#include <robux/compat.h>
+#include <robux/ctype.h>
+#include <robux/string.h>
+#include <robux/uaccess.h>
+#include <robux/fsnotify_backend.h>
+#include <uapi/robux/limits.h>
+#include <uapi/robux/netfilter/nf_tables.h>
+#include <uapi/robux/openat2.h> // struct open_how
+#include <uapi/robux/fanotify.h>
 
 #include "audit.h"
 

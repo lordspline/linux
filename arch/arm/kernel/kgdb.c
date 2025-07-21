@@ -10,10 +10,10 @@
  * Authors:  George Davis <davis_g@mvista.com>
  *           Deepak Saxena <dsaxena@plexity.net>
  */
-#include <linux/irq.h>
-#include <linux/kdebug.h>
-#include <linux/kgdb.h>
-#include <linux/uaccess.h>
+#include <robux/irq.h>
+#include <robux/kdebug.h>
+#include <robux/kgdb.h>
+#include <robux/uaccess.h>
 
 #include <asm/text-patching.h>
 #include <asm/traps.h>

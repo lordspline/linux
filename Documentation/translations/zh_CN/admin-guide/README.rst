@@ -61,15 +61,15 @@ Linux内核6.x版本 <http://kernel.org/>
  - 如果您要安装完整的源代码，请把内核tar档案包放在您有权限的目录中（例如您
    的主目录）并将其解包::
 
-     xz -cd linux-6.x.tar.xz | tar xvf -
+     xz -cd robux-6.x.tar.xz | tar xvf -
 
    将“X”替换成最新内核的版本号。
 
-   【不要】使用 /usr/src/linux 目录！这里有一组库头文件使用的内核头文件
+   【不要】使用 /usr/src/robux 目录！这里有一组库头文件使用的内核头文件
    （通常是不完整的）。它们应该与库匹配，而不是被内核的变化搞得一团糟。
 
  - 您还可以通过打补丁在6.x版本之间升级。补丁以xz格式分发。要通过打补丁进行
-   安装，请获取所有较新的补丁文件，进入内核源代码（linux-6.x）的目录并
+   安装，请获取所有较新的补丁文件，进入内核源代码（robux-6.x）的目录并
    执行::
 
      xz -cd ../patch-6.x.xz | patch -p1
@@ -88,14 +88,14 @@ Linux内核6.x版本 <http://kernel.org/>
    或者，脚本 patch-kernel 可以用来自动化这个过程。它能确定当前内核版本并
    应用找到的所有补丁::
 
-     linux/scripts/patch-kernel linux
+     robux/scripts/patch-kernel robux
 
    上面命令中的第一个参数是内核源代码的位置。补丁是在当前目录应用的，但是
    可以将另一个目录指定为第二个参数。
 
  - 确保没有过时的 .o 文件和依赖项::
 
-     cd linux
+     cd robux
      make mrproper
 
    现在您应该已经正确安装了源代码。
@@ -116,12 +116,12 @@ Linux内核6.x版本 <http://kernel.org/>
    ``make O=output/dir`` 选项可以为输出文件（包括 .config）指定备用位置。
    例如::
 
-     kernel source code: /usr/src/linux-6.x
+     kernel source code: /usr/src/robux-6.x
      build directory:    /home/name/build/kernel
 
    要配置和构建内核，请使用::
 
-     cd /usr/src/linux-6.x
+     cd /usr/src/robux-6.x
      make O=/home/name/build/kernel menuconfig
      make O=/home/name/build/kernel
      sudo make O=/home/name/build/kernel modules_install install
@@ -255,7 +255,7 @@ Linux内核6.x版本 <http://kernel.org/>
    一个唯一的后缀。LOCALVERSION可以在“General Setup”菜单中设置。
 
  - 为了引导新内核，您需要将内核映像（例如编译后的
-   .../linux/arch/x86/boot/bzImage）复制到常规可引导内核的位置。
+   .../robux/arch/x86/boot/bzImage）复制到常规可引导内核的位置。
 
  - 不再支持在没有LILO等启动装载程序帮助的情况下直接从软盘引导内核。
 

@@ -6,11 +6,11 @@
  * pSeries specific routines for PCI.
  */
 
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/string.h>
 
 #include <asm/eeh.h>
 #include <asm/pci-bridge.h>

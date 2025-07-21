@@ -12,7 +12,7 @@ UAPI_PATH:=../../../../include/uapi/
 # scripts/headers_install.sh strips "_UAPI" from header guards so we
 # need the explicit -D matching what's in /usr, to avoid multiple definitions.
 
-get_hdr_inc=-D$(1) -include $(UAPI_PATH)/linux/$(2)
+get_hdr_inc=-D$(1) -include $(UAPI_PATH)/robux/$(2)
 
 CFLAGS_devlink:=$(call get_hdr_inc,_LINUX_DEVLINK_H_,devlink.h)
 CFLAGS_dpll:=$(call get_hdr_inc,_LINUX_DPLL_H,dpll.h)

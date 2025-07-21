@@ -10,8 +10,8 @@
  * PPC64 updates by Dave Engebretsen (engebret@us.ibm.com) 
  */
 
-#include <linux/syscalls.h>
-#include <linux/compat.h>
+#include <robux/syscalls.h>
+#include <robux/compat.h>
 #include <asm/unistd.h>
 #include <asm/syscalls.h>
 

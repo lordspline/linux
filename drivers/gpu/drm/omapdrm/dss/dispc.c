@@ -9,26 +9,26 @@
 
 #define DSS_SUBSYS_NAME "DISPC"
 
-#include <linux/kernel.h>
-#include <linux/dma-mapping.h>
-#include <linux/vmalloc.h>
-#include <linux/export.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/seq_file.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/hardirq.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/sizes.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
-#include <linux/component.h>
-#include <linux/sys_soc.h>
+#include <robux/kernel.h>
+#include <robux/dma-mapping.h>
+#include <robux/vmalloc.h>
+#include <robux/export.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/jiffies.h>
+#include <robux/seq_file.h>
+#include <robux/delay.h>
+#include <robux/workqueue.h>
+#include <robux/hardirq.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/sizes.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/of.h>
+#include <robux/component.h>
+#include <robux/sys_soc.h>
 #include <drm/drm_fourcc.h>
 #include <drm/drm_blend.h>
 

@@ -6,10 +6,10 @@
  * Common Clock Framework support for Exynos8895 SoC.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <dt-bindings/clock/samsung,exynos8895.h>
 

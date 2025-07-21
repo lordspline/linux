@@ -9,27 +9,27 @@
  * Baikal-T1 Process, Voltage, Temperature sensor driver
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/polynomial.h>
-#include <linux/seqlock.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/hwmon.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/ktime.h>
+#include <robux/limits.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/polynomial.h>
+#include <robux/seqlock.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 #include "bt1-pvt.h"
 

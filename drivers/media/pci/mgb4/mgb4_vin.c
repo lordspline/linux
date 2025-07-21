@@ -14,11 +14,11 @@
  * be in sync with the input parameters.
  */
 
-#include <linux/pci.h>
-#include <linux/workqueue.h>
-#include <linux/align.h>
-#include <linux/dma/amd_xdma.h>
-#include <linux/v4l2-dv-timings.h>
+#include <robux/pci.h>
+#include <robux/workqueue.h>
+#include <robux/align.h>
+#include <robux/dma/amd_xdma.h>
+#include <robux/v4l2-dv-timings.h>
 #include <media/v4l2-ioctl.h>
 #include <media/videobuf2-v4l2.h>
 #include <media/videobuf2-dma-sg.h>

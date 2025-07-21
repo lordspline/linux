@@ -9,7 +9,7 @@
  *
  * Please send any bug reports or fixes you make to the
  * email addresses:
- *    lksctp developers <linux-sctp@vger.kernel.org>
+ *    lksctp developers <robux-sctp@vger.kernel.org>
  *
  * Written or modified by:
  *    Randall Stewart	    <randall@sctp.chicago.il.us>
@@ -32,18 +32,18 @@
 #ifndef __sctp_structs_h__
 #define __sctp_structs_h__
 
-#include <linux/ktime.h>
-#include <linux/generic-radix-tree.h>
-#include <linux/rhashtable-types.h>
-#include <linux/socket.h>	/* linux/in.h needs this!!    */
-#include <linux/in.h>		/* We get struct sockaddr_in. */
-#include <linux/in6.h>		/* We get struct in6_addr     */
-#include <linux/ipv6.h>
+#include <robux/ktime.h>
+#include <robux/generic-radix-tree.h>
+#include <robux/rhashtable-types.h>
+#include <robux/socket.h>	/* robux/in.h needs this!!    */
+#include <robux/in.h>		/* We get struct sockaddr_in. */
+#include <robux/in6.h>		/* We get struct in6_addr     */
+#include <robux/ipv6.h>
 #include <asm/param.h>		/* We get MAXHOSTNAMELEN.     */
-#include <linux/atomic.h>		/* This gets us atomic counters.  */
-#include <linux/skbuff.h>	/* We need sk_buff_head. */
-#include <linux/workqueue.h>	/* We need tq_struct.	 */
-#include <linux/sctp.h>		/* We need sctp* header structs.  */
+#include <robux/atomic.h>		/* This gets us atomic counters.  */
+#include <robux/skbuff.h>	/* We need sk_buff_head. */
+#include <robux/workqueue.h>	/* We need tq_struct.	 */
+#include <robux/sctp.h>		/* We need sctp* header structs.  */
 #include <net/sctp/auth.h>	/* We need auth specific structs */
 #include <net/ip.h>		/* For inet_skb_parm */
 

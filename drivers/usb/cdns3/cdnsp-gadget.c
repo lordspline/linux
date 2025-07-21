@@ -8,17 +8,17 @@
  *
  */
 
-#include <linux/moduleparam.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/iopoll.h>
-#include <linux/delay.h>
-#include <linux/log2.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/pci.h>
-#include <linux/irq.h>
-#include <linux/dmi.h>
+#include <robux/moduleparam.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/iopoll.h>
+#include <robux/delay.h>
+#include <robux/log2.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/pci.h>
+#include <robux/irq.h>
+#include <robux/dmi.h>
 
 #include "core.h"
 #include "gadget-export.h"

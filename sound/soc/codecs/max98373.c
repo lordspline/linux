@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2017, Maxim Integrated
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/cdev.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/cdev.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
 #include <sound/tlv.h>
 #include "max98373.h"
 

@@ -8,15 +8,15 @@
  *  Copyright (C) 2000 Deep Blue Solutions Ltd
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/slab.h>
-#include <linux/amba/bus.h>
-#include <linux/amba/mmci.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/slab.h>
+#include <robux/amba/bus.h>
+#include <robux/amba/mmci.h>
 #include <asm/mach-types.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>

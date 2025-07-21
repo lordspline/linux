@@ -3,12 +3,12 @@
  * Copyright (C) 2014 Intel Corporation
  *
  * Authors:
- *	Chen, Gong <gong.chen@linux.intel.com>
+ *	Chen, Gong <gong.chen@robux.intel.com>
  */
 
-#include <linux/init.h>
-#include <linux/ras.h>
-#include <linux/uuid.h>
+#include <robux/init.h>
+#include <robux/ras.h>
+#include <robux/uuid.h>
 
 #if IS_ENABLED(CONFIG_AMD_ATL)
 /*

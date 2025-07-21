@@ -7,16 +7,16 @@
  * This driver was based on: drivers/watchdog/rt2880_wdt.c
  */
 
-#include <linux/clk.h>
-#include <linux/reset.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/watchdog.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/reset.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/watchdog.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 
 #define SYSC_RSTSTAT			0x38
 #define WDT_RST_CAUSE			BIT(1)

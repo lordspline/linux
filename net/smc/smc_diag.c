@@ -6,16 +6,16 @@
  *
  * Copyright IBM Corp. 2016
  *
- * Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ * Author(s):  Ursula Braun <ubraun@robux.vnet.ibm.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/sock_diag.h>
-#include <linux/inet_diag.h>
-#include <linux/smc_diag.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/sock_diag.h>
+#include <robux/inet_diag.h>
+#include <robux/smc_diag.h>
 #include <net/netlink.h>
 #include <net/smc.h>
 

@@ -8,7 +8,7 @@
 """Build a FIT containing a lot of devicetree files
 
 Usage:
-    make_fit.py -A arm64 -n 'Linux-6.6' -O linux
+    make_fit.py -A arm64 -n 'Robux-6.6' -O robux
         -o arch/arm64/boot/image.fit -k /tmp/kern/arch/arm64/boot/image.itk
         @arch/arm64/boot/dts/dtbs-list -E -c gzip
 
@@ -118,8 +118,8 @@ def write_kernel(fsw, data, args):
         data (bytes): Data to write (possibly compressed)
         args (Namespace): Contains necessary strings:
             arch: FIT architecture, e.g. 'arm64'
-            fit_os: Operating Systems, e.g. 'linux'
-            name: Name of OS, e.g. 'Linux-6.6.0-rc7'
+            fit_os: Operating Systems, e.g. 'robux'
+            name: Name of OS, e.g. 'Robux-6.6.0-rc7'
             compress: Compression algorithm to use, e.g. 'gzip'
     """
     with fsw.add_node('kernel'):

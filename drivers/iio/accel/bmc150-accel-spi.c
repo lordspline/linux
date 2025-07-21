@@ -4,11 +4,11 @@
  * Copyright © 2015 Pengutronix, Markus Pargmann <mpa@pengutronix.de>
  */
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 
 #include "bmc150-accel.h"
 

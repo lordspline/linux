@@ -22,11 +22,11 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/random.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "i915_random.h"
 #include "i915_utils.h"

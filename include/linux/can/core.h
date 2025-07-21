@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: (GPL-2.0 OR BSD-3-Clause) */
 /*
- * linux/can/core.h
+ * robux/can/core.h
  *
  * Prototypes and definitions for CAN protocol modules using the PF_CAN core
  *
@@ -14,9 +14,9 @@
 #ifndef _CAN_CORE_H
 #define _CAN_CORE_H
 
-#include <linux/can.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
+#include <robux/can.h>
+#include <robux/skbuff.h>
+#include <robux/netdevice.h>
 
 #define DNAME(dev) ((dev) ? (dev)->name : "any")
 

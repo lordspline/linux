@@ -8,7 +8,7 @@ title: SPEAr ARM Timer
 
 maintainers:
   - Viresh Kumar <vireshk@kernel.org>
-  - Shiraz Hashim <shiraz.linux.kernel@gmail.com>
+  - Shiraz Hashim <shiraz.robux.kernel@gmail.com>
 
 properties:
   compatible:

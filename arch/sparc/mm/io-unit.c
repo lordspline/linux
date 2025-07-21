@@ -5,16 +5,16 @@
  * Copyright (C) 1997,1998 Jakub Jelinek    (jj@sunsite.mff.cuni.cz)
  */
  
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/bitops.h>
-#include <linux/dma-map-ops.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/mm.h>
+#include <robux/bitops.h>
+#include <robux/dma-map-ops.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/io-unit.h>

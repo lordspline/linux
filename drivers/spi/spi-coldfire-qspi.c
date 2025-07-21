@@ -5,18 +5,18 @@
  * Copyright 2010 Steven King <sfking@fdwdc.com>
 */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/errno.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/spi/spi.h>
-#include <linux/pm_runtime.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/errno.h>
+#include <robux/platform_device.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/spi/spi.h>
+#include <robux/pm_runtime.h>
 
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>

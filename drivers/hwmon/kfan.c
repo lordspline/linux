@@ -6,12 +6,12 @@
  *
  */
 
-#include <linux/hwmon.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/misc/keba.h>
+#include <robux/hwmon.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/misc/keba.h>
 
 #define KFAN "kfan"
 

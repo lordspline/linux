@@ -4,10 +4,10 @@
  * Copyright 2007 Nuova Systems, Inc.  All rights reserved.
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
 #include "vnic_wq_copy.h"
 
 void vnic_wq_copy_enable(struct vnic_wq_copy *wq)

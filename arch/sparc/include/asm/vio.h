@@ -2,14 +2,14 @@
 #ifndef _SPARC64_VIO_H
 #define _SPARC64_VIO_H
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/timer.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/list.h>
-#include <linux/log2.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/timer.h>
+#include <robux/spinlock.h>
+#include <robux/completion.h>
+#include <robux/list.h>
+#include <robux/log2.h>
 
 #include <asm/ldc.h>
 #include <asm/mdesc.h>

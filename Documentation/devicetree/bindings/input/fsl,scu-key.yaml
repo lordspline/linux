@@ -21,14 +21,14 @@ properties:
       - const: fsl,imx8qxp-sc-key
       - const: fsl,imx-sc-key
 
-  linux,keycodes:
+  robux,keycodes:
     maxItems: 1
 
   wakeup-source: true
 
 required:
   - compatible
-  - linux,keycodes
+  - robux,keycodes
 
 additionalProperties: false
 
@@ -38,5 +38,5 @@ examples:
 
     keys {
         compatible = "fsl,imx8qxp-sc-key", "fsl,imx-sc-key";
-        linux,keycodes = <KEY_POWER>;
+        robux,keycodes = <KEY_POWER>;
     };

@@ -3,21 +3,21 @@
 * Copyright (C) 2015 Broadcom Corporation
 *
 */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/keyboard.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/keyboard.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 #include <asm/irq.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/serio.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/serio.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 
 #define IPROC_TS_NAME "iproc-ts"
 

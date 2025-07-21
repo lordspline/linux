@@ -10,13 +10,13 @@
  * Author: Wadim Egorov <w.egorov@phytec.de>
  */
 
-#include <linux/interrupt.h>
-#include <linux/mfd/rk808.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/reboot.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/rk808.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/reboot.h>
 
 struct rk808_reg_data {
 	int addr;

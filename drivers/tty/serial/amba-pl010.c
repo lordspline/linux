@@ -15,21 +15,21 @@
  * and hooked into this driver.
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/device.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/amba/bus.h>
-#include <linux/amba/serial.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/sysrq.h>
+#include <robux/device.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/serial_core.h>
+#include <robux/serial.h>
+#include <robux/amba/bus.h>
+#include <robux/amba/serial.h>
+#include <robux/clk.h>
+#include <robux/slab.h>
+#include <robux/io.h>
 
 #define UART_NR		8
 

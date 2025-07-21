@@ -14,12 +14,12 @@
  * they aren't actually interrupt lines but data lines (to the DSP?)
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/irq.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/irq.h>
 
 #include <asm/traps.h>
 #include <asm/macintosh.h>

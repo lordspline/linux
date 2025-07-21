@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
- * linux/include/linux/edd.h
+ * robux/include/robux/edd.h
  *  Copyright (C) 2002, 2003, 2004 Dell Inc.
  *  by Matt Domsch <Matt_Domsch@dell.com>
  *
@@ -31,7 +31,7 @@
 #ifndef _UAPI_LINUX_EDD_H
 #define _UAPI_LINUX_EDD_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define EDDNR 0x1e9		/* addr of number of edd_info structs at EDDBUF
 				   in boot_params - treat this as 1 byte  */

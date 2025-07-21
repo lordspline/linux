@@ -8,13 +8,13 @@
  * Copyright (C) 2019 Mellanox Technologies
  */
 
-#include <linux/acpi.h>
-#include <linux/arm-smccc.h>
-#include <linux/delay.h>
-#include <linux/if_ether.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/arm-smccc.h>
+#include <robux/delay.h>
+#include <robux/if_ether.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #include "mlxbf-bootctl.h"
 
@@ -60,7 +60,7 @@ static const char * const mlxbf_bootctl_lifecycle_states[] = {
 #define MLXBF_RSH_LOG_LEN_MASK		GENMASK_ULL(54, 48)
 #define MLXBF_RSH_LOG_LEVEL_MASK	GENMASK_ULL(7, 0)
 
-/* Log module ID and type (only MSG type in Linux driver for now). */
+/* Log module ID and type (only MSG type in Robux driver for now). */
 #define MLXBF_RSH_LOG_TYPE_MSG		0x04ULL
 
 /* Log ctl/data register offset. */

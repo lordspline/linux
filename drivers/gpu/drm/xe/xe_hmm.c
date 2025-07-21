@@ -3,13 +3,13 @@
  * Copyright © 2024 Intel Corporation
  */
 
-#include <linux/scatterlist.h>
-#include <linux/mmu_notifier.h>
-#include <linux/dma-mapping.h>
-#include <linux/memremap.h>
-#include <linux/swap.h>
-#include <linux/hmm.h>
-#include <linux/mm.h>
+#include <robux/scatterlist.h>
+#include <robux/mmu_notifier.h>
+#include <robux/dma-mapping.h>
+#include <robux/memremap.h>
+#include <robux/swap.h>
+#include <robux/hmm.h>
+#include <robux/mm.h>
 #include "xe_hmm.h"
 #include "xe_vm.h"
 #include "xe_bo.h"

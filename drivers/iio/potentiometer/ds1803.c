@@ -12,13 +12,13 @@
  * ds3502	1	128		10			01010xx
  */
 
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/i2c.h>
+#include <robux/iio/iio.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
 
 #define DS1803_WIPER_0         0xA9
 #define DS1803_WIPER_1         0xAA

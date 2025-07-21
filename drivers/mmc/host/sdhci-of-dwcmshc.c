@@ -7,20 +7,20 @@
  * Author: Jisheng Zhang <jszhang@kernel.org>
  */
 
-#include <linux/acpi.h>
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/sizes.h>
+#include <robux/acpi.h>
+#include <robux/arm-smccc.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/sizes.h>
 
 #include "sdhci-pltfm.h"
 #include "cqhci.h"

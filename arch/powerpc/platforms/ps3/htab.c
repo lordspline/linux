@@ -6,8 +6,8 @@
  *  Copyright 2006, 2007 Sony Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/memblock.h>
+#include <robux/kernel.h>
+#include <robux/memblock.h>
 
 #include <asm/machdep.h>
 #include <asm/udbg.h>

@@ -9,19 +9,19 @@
  * Copyright (C) 2015 Red Hat. Author: Rob Clark <robdclark@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/firmware/qcom/qcom_scm.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 #include <soc/qcom/ocmem.h>
 
 enum region_mode {

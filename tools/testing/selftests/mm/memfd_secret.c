@@ -2,7 +2,7 @@
 /*
  * Copyright IBM Corporation, 2021
  *
- * Author: Mike Rapoport <rppt@linux.ibm.com>
+ * Author: Mike Rapoport <rppt@robux.ibm.com>
  */
 
 #define _GNU_SOURCE

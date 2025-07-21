@@ -7,23 +7,23 @@
 // Authors: Daniel Mack, Juergen Beisert.
 // Copyright (C) 2004-2010 Freescale Semiconductor, Inc. All Rights Reserved.
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/syscore_ops.h>
-#include <linux/gpio/driver.h>
-#include <linux/of.h>
-#include <linux/bug.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/syscore_ops.h>
+#include <robux/gpio/driver.h>
+#include <robux/of.h>
+#include <robux/bug.h>
 
 #define IMX_SCU_WAKEUP_OFF		0
 #define IMX_SCU_WAKEUP_LOW_LVL		4

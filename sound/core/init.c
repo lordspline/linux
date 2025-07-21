@@ -4,18 +4,18 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/file.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/ctype.h>
-#include <linux/pm.h>
-#include <linux/debugfs.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/file.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/ctype.h>
+#include <robux/pm.h>
+#include <robux/debugfs.h>
+#include <robux/completion.h>
+#include <robux/interrupt.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

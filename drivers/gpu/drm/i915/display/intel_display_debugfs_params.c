@@ -3,8 +3,8 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/debugfs.h>
-#include <linux/kernel.h>
+#include <robux/debugfs.h>
+#include <robux/kernel.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_file.h>

@@ -11,10 +11,10 @@
  * This driver is for the Aicom Acent PC internal synthesizer.
  */
 
-#include <linux/jiffies.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/kthread.h>
+#include <robux/jiffies.h>
+#include <robux/sched.h>
+#include <robux/timer.h>
+#include <robux/kthread.h>
 
 #include "spk_priv.h"
 #include "serialio.h"

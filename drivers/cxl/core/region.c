@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2022 Intel Corporation. All rights reserved. */
-#include <linux/memregion.h>
-#include <linux/genalloc.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/memory.h>
-#include <linux/slab.h>
-#include <linux/uuid.h>
-#include <linux/sort.h>
-#include <linux/idr.h>
-#include <linux/memory-tiers.h>
+#include <robux/memregion.h>
+#include <robux/genalloc.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/memory.h>
+#include <robux/slab.h>
+#include <robux/uuid.h>
+#include <robux/sort.h>
+#include <robux/idr.h>
+#include <robux/memory-tiers.h>
 #include <cxlmem.h>
 #include <cxl.h>
 #include "core.h"

@@ -11,16 +11,16 @@
 
 #include "fpa11.h"
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
 
 /* XXX */
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/sched/signal.h>
-#include <linux/init.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/sched/signal.h>
+#include <robux/init.h>
 
 #include <asm/thread_notify.h>
 
@@ -110,10 +110,10 @@ ScottB:  November 4, 1998
 
 Moved this function out of softfloat-specialize into fpmodule.c.
 This effectively isolates all the changes required for integrating with the
-Linux kernel into fpmodule.c.  Porting to NetBSD should only require modifying
+Robux kernel into fpmodule.c.  Porting to NetBSD should only require modifying
 fpmodule.c to integrate with the NetBSD kernel (I hope!).
 
-[1/1/99: Not quite true any more unfortunately.  There is Linux-specific
+[1/1/99: Not quite true any more unfortunately.  There is Robux-specific
 code to access data in user space in some other source files at the 
 moment (grep for get_user / put_user calls).  --philb]
 

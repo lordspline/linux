@@ -5,15 +5,15 @@
  * Copyright 2019 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spi/spi.h>
 
-#include <linux/iio/iio.h>
+#include <robux/iio/iio.h>
 
 #define ADI_VENDOR_ID 0x0018
 

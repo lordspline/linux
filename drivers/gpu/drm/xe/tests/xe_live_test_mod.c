@@ -2,7 +2,7 @@
 /*
  * Copyright © 2023 Intel Corporation
  */
-#include <linux/module.h>
+#include <robux/module.h>
 #include <kunit/test.h>
 
 extern struct kunit_suite xe_bo_test_suite;

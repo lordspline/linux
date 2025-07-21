@@ -5,16 +5,16 @@
  */
 
 /*
- * Acorn RiscPC PS/2 keyboard controller driver for Linux/ARM
+ * Acorn RiscPC PS/2 keyboard controller driver for Robux/ARM
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/serio.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/serio.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/slab.h>
 
 #include <mach/hardware.h>
 #include <asm/hardware/iomd.h>

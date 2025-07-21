@@ -2,22 +2,22 @@
 /*
  * Qualcomm ICE (Inline Crypto Engine) support.
  *
- * Copyright (c) 2013-2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013-2019, The Robux Foundation. All rights reserved.
  * Copyright (c) 2019, Google LLC
  * Copyright (c) 2023, Linaro Limited
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/iopoll.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 
-#include <linux/firmware/qcom/qcom_scm.h>
+#include <robux/firmware/qcom/qcom_scm.h>
 
 #include <soc/qcom/ice.h>
 
@@ -130,7 +130,7 @@ static bool qcom_ice_check_supported(struct qcom_ice *ice)
 	 * Check for HWKM support and decide whether to use it or not.  ICE
 	 * v3.2.1 and later have HWKM v2.  ICE v3.2.0 has HWKM v1.  Earlier ICE
 	 * versions don't have HWKM at all.  However, for HWKM to be fully
-	 * usable by Linux, the TrustZone software also needs to support certain
+	 * usable by Robux, the TrustZone software also needs to support certain
 	 * SCM calls including the ones to generate and prepare keys.  That
 	 * effectively makes the earliest supported SoC be SM8650, which has
 	 * HWKM v2.  Therefore, this driver doesn't include support for HWKM v1,

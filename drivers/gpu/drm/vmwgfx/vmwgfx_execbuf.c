@@ -15,9 +15,9 @@
 #include <drm/ttm/ttm_bo.h>
 #include <drm/ttm/ttm_placement.h>
 
-#include <linux/sync_file.h>
-#include <linux/hashtable.h>
-#include <linux/vmalloc.h>
+#include <robux/sync_file.h>
+#include <robux/hashtable.h>
+#include <robux/vmalloc.h>
 
 /*
  * Helper macro to get dx_ctx_node if available otherwise print an error

@@ -4,7 +4,7 @@
   (C) 1999  Andrea Arcangeli <andrea@suse.de>
   
 
-  linux/include/linux/rbtree.h
+  robux/include/robux/rbtree.h
 
   To use rbtrees you'll have to implement your own insert and search cores.
   This will avoid us to use callbacks and to drop drammatically performances.
@@ -17,11 +17,11 @@
 #ifndef	_LINUX_RBTREE_H
 #define	_LINUX_RBTREE_H
 
-#include <linux/container_of.h>
-#include <linux/rbtree_types.h>
+#include <robux/container_of.h>
+#include <robux/rbtree_types.h>
 
-#include <linux/stddef.h>
-#include <linux/rcupdate.h>
+#include <robux/stddef.h>
+#include <robux/rcupdate.h>
 
 #define rb_parent(r)   ((struct rb_node *)((r)->__rb_parent_color & ~3))
 

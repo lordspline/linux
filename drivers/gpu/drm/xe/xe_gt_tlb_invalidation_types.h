@@ -6,7 +6,7 @@
 #ifndef _XE_GT_TLB_INVALIDATION_TYPES_H_
 #define _XE_GT_TLB_INVALIDATION_TYPES_H_
 
-#include <linux/dma-fence.h>
+#include <robux/dma-fence.h>
 
 struct xe_gt;
 

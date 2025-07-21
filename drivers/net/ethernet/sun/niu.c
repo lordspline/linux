@@ -6,32 +6,32 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/etherdevice.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/mii.h>
-#include <linux/if.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/ip.h>
-#include <linux/in.h>
-#include <linux/ipv6.h>
-#include <linux/log2.h>
-#include <linux/jiffies.h>
-#include <linux/crc32.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/etherdevice.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
+#include <robux/mii.h>
+#include <robux/if.h>
+#include <robux/if_ether.h>
+#include <robux/if_vlan.h>
+#include <robux/ip.h>
+#include <robux/in.h>
+#include <robux/ipv6.h>
+#include <robux/log2.h>
+#include <robux/jiffies.h>
+#include <robux/crc32.h>
+#include <robux/list.h>
+#include <robux/slab.h>
 
-#include <linux/io.h>
-#include <linux/of.h>
+#include <robux/io.h>
+#include <robux/of.h>
 
 #include "niu.h"
 

@@ -8,12 +8,12 @@
  * Author: James Ogletree <james.ogletree@cirrus.com>
  */
 
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/wmfw.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/cs40l50.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
+#include <robux/firmware/cirrus/cs_dsp.h>
+#include <robux/firmware/cirrus/wmfw.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/cs40l50.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
 
 static const struct mfd_cell cs40l50_devs[] = {
 	{ .name = "cs40l50-codec", },

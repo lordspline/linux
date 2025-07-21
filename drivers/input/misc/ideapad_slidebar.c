@@ -71,16 +71,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/dmi.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/i8042.h>
-#include <linux/serio.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/dmi.h>
+#include <robux/spinlock.h>
+#include <robux/platform_device.h>
+#include <robux/input.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/i8042.h>
+#include <robux/serio.h>
 
 #define IDEAPAD_BASE	0xff29
 

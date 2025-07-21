@@ -6,10 +6,10 @@
 #include <crypto/engine.h>
 #include <crypto/hash.h>
 #include <crypto/sha2.h>
-#include <linux/bits.h>
-#include <linux/compiler_attributes.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/compiler_attributes.h>
+#include <robux/interrupt.h>
+#include <robux/types.h>
 
 /*****************************
  *                           *

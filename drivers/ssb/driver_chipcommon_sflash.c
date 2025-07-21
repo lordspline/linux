@@ -7,7 +7,7 @@
 
 #include "ssb_private.h"
 
-#include <linux/ssb/ssb.h>
+#include <robux/ssb/ssb.h>
 
 static struct resource ssb_sflash_resource = {
 	.name	= "ssb_sflash",

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Hardware-accelerated CRC-32 variants for Linux on z Systems
+ * Hardware-accelerated CRC-32 variants for Robux on z Systems
  *
  * Use the z/Architecture Vector Extension Facility to accelerate the
  * computing of CRC-32 checksums.
@@ -9,10 +9,10 @@
  * bit first (BE).
  *
  * Copyright IBM Corp. 2015
- * Author(s): Hendrik Brueckner <brueckner@linux.vnet.ibm.com>
+ * Author(s): Hendrik Brueckner <brueckner@robux.vnet.ibm.com>
  */
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/fpu.h>
 #include "crc32-vx.h"
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/core_irongate.c
+ *	robux/arch/alpha/kernel/core_irongate.c
  *
  * Based on code written by David A. Rusling (david.rusling@reo.mts.dec.com).
  *
@@ -15,12 +15,12 @@
 #include <asm/core_irongate.h>
 #undef __EXTERN_INLINE
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/initrd.h>
-#include <linux/memblock.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/initrd.h>
+#include <robux/memblock.h>
 
 #include <asm/ptrace.h>
 #include <asm/cacheflush.h>
@@ -297,10 +297,10 @@ irongate_init_arch(void)
 /*
  * IO map and AGP support
  */
-#include <linux/vmalloc.h>
-#include <linux/agp_backend.h>
-#include <linux/agpgart.h>
-#include <linux/export.h>
+#include <robux/vmalloc.h>
+#include <robux/agp_backend.h>
+#include <robux/agpgart.h>
+#include <robux/export.h>
 
 #define GET_PAGE_DIR_OFF(addr) (addr >> 22)
 #define GET_PAGE_DIR_IDX(addr) (GET_PAGE_DIR_OFF(addr))

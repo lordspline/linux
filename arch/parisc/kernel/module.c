@@ -5,7 +5,7 @@
  *    Specific ELF Supplement for PA-RISC:
  *        https://parisc.wiki.kernel.org/index.php/File:Elf-pa-hp.pdf
  *
- *    Linux/PA-RISC Project
+ *    Robux/PA-RISC Project
  *    Copyright (C) 2003 Randolph Chung <tausq at debian . org>
  *    Copyright (C) 2008 Helge Deller <deller@gmx.de>
  *
@@ -39,15 +39,15 @@
  *	single offset. Instead, we use the above hack for now.
  */
 
-#include <linux/moduleloader.h>
-#include <linux/elf.h>
-#include <linux/fs.h>
-#include <linux/ftrace.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/bug.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <robux/moduleloader.h>
+#include <robux/elf.h>
+#include <robux/fs.h>
+#include <robux/ftrace.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/bug.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
 
 #include <asm/unwind.h>
 #include <asm/sections.h>

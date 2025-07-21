@@ -13,21 +13,21 @@
 // #define	DEBUG			// error path messages, extra info
 // #define	VERBOSE			// more; success messages
 
-#include <linux/module.h>
-#include <linux/kmod.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/workqueue.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/crc32.h>
-#include <linux/usb/usbnet.h>
-#include <linux/slab.h>
-#include <linux/if_vlan.h>
-#include <linux/phy.h>
+#include <robux/module.h>
+#include <robux/kmod.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/workqueue.h>
+#include <robux/mii.h>
+#include <robux/usb.h>
+#include <robux/crc32.h>
+#include <robux/usb/usbnet.h>
+#include <robux/slab.h>
+#include <robux/if_vlan.h>
+#include <robux/phy.h>
 #include <net/selftests.h>
-#include <linux/phylink.h>
+#include <robux/phylink.h>
 
 #define DRIVER_VERSION "22-Dec-2011"
 #define DRIVER_NAME "asix"

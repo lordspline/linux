@@ -4,8 +4,8 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/types.h>
-#include <linux/stringify.h>
+#include <robux/types.h>
+#include <robux/stringify.h>
 #include <asm/assembly.h>
 
 #define JUMP_LABEL_NOP_SIZE 4

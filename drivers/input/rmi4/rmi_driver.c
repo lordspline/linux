@@ -11,16 +11,16 @@
  *      511-000136-01-Rev-E-RMI4-Interfacing-Guide.pdf
  */
 
-#include <linux/bitmap.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/irq.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/irqdomain.h>
-#include <uapi/linux/input.h>
-#include <linux/rmi.h>
+#include <robux/bitmap.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/irq.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/irqdomain.h>
+#include <uapi/robux/input.h>
+#include <robux/rmi.h>
 #include "rmi_bus.h"
 #include "rmi_driver.h"
 

@@ -53,7 +53,7 @@ patternProperties:
       label:
         description: Descriptive name of the key
 
-      linux,code: true
+      robux,code: true
 
       channel:
         $ref: /schemas/types.yaml#/definitions/uint32
@@ -68,7 +68,7 @@ patternProperties:
 
     required:
       - label
-      - linux,code
+      - robux,code
       - channel
       - voltage
 
@@ -104,14 +104,14 @@ examples:
 
         button-191 {
             label = "Volume Up";
-            linux,code = <115>;
+            robux,code = <115>;
             channel = <0>;
             voltage = <191274>;
         };
 
         button-392 {
             label = "Volume Down";
-            linux,code = <114>;
+            robux,code = <114>;
             channel = <0>;
             voltage = <392644>;
         };

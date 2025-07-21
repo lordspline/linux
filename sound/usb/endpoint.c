@@ -2,12 +2,12 @@
 /*
  */
 
-#include <linux/gfp.h>
-#include <linux/init.h>
-#include <linux/ratelimit.h>
-#include <linux/usb.h>
-#include <linux/usb/audio.h>
-#include <linux/slab.h>
+#include <robux/gfp.h>
+#include <robux/init.h>
+#include <robux/ratelimit.h>
+#include <robux/usb.h>
+#include <robux/usb/audio.h>
+#include <robux/slab.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

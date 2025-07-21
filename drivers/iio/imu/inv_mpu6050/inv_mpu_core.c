@@ -3,26 +3,26 @@
 * Copyright (C) 2012 Invensense, Inc.
 */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/sysfs.h>
-#include <linux/jiffies.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/math64.h>
-#include <linux/minmax.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/sysfs.h>
+#include <robux/jiffies.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/acpi.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/math64.h>
+#include <robux/minmax.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
 
-#include <linux/iio/common/inv_sensors_timestamp.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/common/inv_sensors_timestamp.h>
+#include <robux/iio/iio.h>
 
 #include "inv_mpu_iio.h"
 #include "inv_mpu_magn.h"
