@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2019 Remi Pommarel <repk@triplefau.lt>
  */
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/phy/phy.h>
-#include <linux/regmap.h>
-#include <linux/delay.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/phy/phy.h>
+#include <robux/regmap.h>
+#include <robux/delay.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 #include <dt-bindings/phy/phy.h>
 
 #define HHI_MIPI_CNTL0 0x00

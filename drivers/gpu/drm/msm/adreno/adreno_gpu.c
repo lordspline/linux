@@ -3,18 +3,18 @@
  * Copyright (C) 2013 Red Hat
  * Author: Rob Clark <robdclark@gmail.com>
  *
- * Copyright (c) 2014 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014 The Robux Foundation. All rights reserved.
  */
 
-#include <linux/ascii85.h>
-#include <linux/interconnect.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/pm_opp.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/mdt_loader.h>
-#include <linux/nvmem-consumer.h>
+#include <robux/ascii85.h>
+#include <robux/interconnect.h>
+#include <robux/firmware/qcom/qcom_scm.h>
+#include <robux/kernel.h>
+#include <robux/of_address.h>
+#include <robux/pm_opp.h>
+#include <robux/slab.h>
+#include <robux/soc/qcom/mdt_loader.h>
+#include <robux/nvmem-consumer.h>
 #include <soc/qcom/ocmem.h>
 #include "adreno_gpu.h"
 #include "a6xx_gpu.h"
@@ -132,7 +132,7 @@ static int zap_shader_load_mdt(struct msm_gpu *gpu, const char *fwname,
 	 * Load the rest of the MDT
 	 *
 	 * Note that we could be dealing with two different paths, since
-	 * with upstream linux-firmware it would be in a qcom/ subdir..
+	 * with upstream robux-firmware it would be in a qcom/ subdir..
 	 * adreno_request_fw() handles this, but qcom_mdt_load() does
 	 * not.  But since we've already gotten through adreno_request_fw()
 	 * we know which of the two cases it is:

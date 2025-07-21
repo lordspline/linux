@@ -4,11 +4,11 @@
  *
  * Hypercall helper functions used by the mshv_root module.
  *
- * Authors: Microsoft Linux virtualization team
+ * Authors: Microsoft Robux virtualization team
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
 #include <asm/mshyperv.h>
 
 #include "mshv_root.h"

@@ -6,13 +6,13 @@
  * Author: Georgi Djakov <georgi.djakov@linaro.org>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/regmap.h>
-#include <linux/module.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/regmap.h>
+#include <robux/module.h>
 
 #include "clk-pll.h"
 #include "clk-regmap.h"

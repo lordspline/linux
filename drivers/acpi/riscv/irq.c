@@ -4,9 +4,9 @@
  *	Author: Sunil V L <sunilvl@ventanamicro.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/sort.h>
-#include <linux/irq.h>
+#include <robux/acpi.h>
+#include <robux/sort.h>
+#include <robux/irq.h>
 
 #include "init.h"
 

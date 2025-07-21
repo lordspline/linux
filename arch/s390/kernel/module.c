@@ -10,18 +10,18 @@
  *  based on i386 version
  *    Copyright (C) 2001 Rusty Russell.
  */
-#include <linux/module.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/ftrace.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/kasan.h>
-#include <linux/moduleloader.h>
-#include <linux/bug.h>
-#include <linux/memory.h>
-#include <linux/execmem.h>
+#include <robux/module.h>
+#include <robux/elf.h>
+#include <robux/vmalloc.h>
+#include <robux/fs.h>
+#include <robux/ftrace.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/kasan.h>
+#include <robux/moduleloader.h>
+#include <robux/bug.h>
+#include <robux/memory.h>
+#include <robux/execmem.h>
 #include <asm/alternative.h>
 #include <asm/nospec-branch.h>
 #include <asm/facility.h>

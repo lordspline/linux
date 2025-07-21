@@ -4,18 +4,18 @@
  *
  * Copyright IBM Corp. 2008, 2020, 2024
  *
- *    Author(s): Claudio Imbrenda <imbrenda@linux.ibm.com>
+ *    Author(s): Claudio Imbrenda <imbrenda@robux.ibm.com>
  *               Martin Schwidefsky <schwidefsky@de.ibm.com>
  *               David Hildenbrand <david@redhat.com>
- *               Janosch Frank <frankja@linux.vnet.ibm.com>
+ *               Janosch Frank <frankja@robux.vnet.ibm.com>
  */
 
-#include <linux/compiler.h>
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/pgtable.h>
-#include <linux/pagemap.h>
-#include <linux/mman.h>
+#include <robux/compiler.h>
+#include <robux/kvm.h>
+#include <robux/kvm_host.h>
+#include <robux/pgtable.h>
+#include <robux/pagemap.h>
+#include <robux/mman.h>
 
 #include <asm/lowcore.h>
 #include <asm/gmap.h>

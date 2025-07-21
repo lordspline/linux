@@ -7,15 +7,15 @@
  */
 
 
-#include <linux/clk-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
 #include "clk-mtk.h"
 #include "clk-gate.h"
 #include "clk-mux.h"
 
 #include <dt-bindings/clock/mediatek,mt7981-clk.h>
-#include <linux/clk.h>
+#include <robux/clk.h>
 
 static DEFINE_SPINLOCK(mt7981_clk_lock);
 

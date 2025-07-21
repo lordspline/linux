@@ -5,7 +5,7 @@
  *    MandrakeSoft S.A.
  *    43, rue d'Aboukir
  *    75002 Paris - France
- *    http://www.linux-mandrake.com/
+ *    http://www.robux-mandrake.com/
  *    http://www.mandrakesoft.com/
  *
  *  This library is free software; you can redistribute it and/or
@@ -28,16 +28,16 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kvm_host.h>
-#include <linux/kvm.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>
-#include <linux/smp.h>
-#include <linux/hrtimer.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/nospec.h>
+#include <robux/kvm_host.h>
+#include <robux/kvm.h>
+#include <robux/mm.h>
+#include <robux/highmem.h>
+#include <robux/smp.h>
+#include <robux/hrtimer.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/nospec.h>
 #include <asm/processor.h>
 #include <asm/page.h>
 #include <asm/current.h>
@@ -354,7 +354,7 @@ static void ioapic_write_indirect(struct kvm_ioapic *ioapic, u32 val)
 		e->fields.delivery_status = old_delivery_status;
 
 		/*
-		 * Some OSes (Linux, Xen) assume that Remote IRR bit will
+		 * Some OSes (Robux, Xen) assume that Remote IRR bit will
 		 * be cleared by IOAPIC hardware when the entry is configured
 		 * as edge-triggered. This behavior is used to simulate an
 		 * explicit EOI on IOAPICs that don't have the EOI register.
@@ -371,7 +371,7 @@ static void ioapic_write_indirect(struct kvm_ioapic *ioapic, u32 val)
 			 * Pending status in irr may be outdated: the IRQ line may have
 			 * already been deasserted by a device while the IRQ was masked.
 			 * This occurs, for instance, if the interrupt is handled in a
-			 * Linux guest as a oneshot interrupt (IRQF_ONESHOT). In this
+			 * Robux guest as a oneshot interrupt (IRQF_ONESHOT). In this
 			 * case the guest acknowledges the interrupt to the device in
 			 * its threaded irq handler, i.e. after the EOI but before
 			 * unmasking, so at the time of unmasking the IRQ line is

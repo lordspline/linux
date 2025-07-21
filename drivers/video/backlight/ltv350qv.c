@@ -4,13 +4,13 @@
  *
  * Copyright (C) 2006, 2007 Atmel Corporation
  */
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/lcd.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/lcd.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
 
 #include "ltv350qv.h"
 

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * include/linux/irqflags.h
+ * include/robux/irqflags.h
  *
  * IRQ flags tracing: follow the state of the hardirq and softirq flags and
  * provide callbacks for transitions between ON and OFF states.
@@ -12,9 +12,9 @@
 #ifndef _LINUX_TRACE_IRQFLAGS_H
 #define _LINUX_TRACE_IRQFLAGS_H
 
-#include <linux/irqflags_types.h>
-#include <linux/typecheck.h>
-#include <linux/cleanup.h>
+#include <robux/irqflags_types.h>
+#include <robux/typecheck.h>
+#include <robux/cleanup.h>
 #include <asm/irqflags.h>
 #include <asm/percpu.h>
 

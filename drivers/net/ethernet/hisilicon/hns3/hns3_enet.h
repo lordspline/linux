@@ -4,8 +4,8 @@
 #ifndef __HNS3_ENET_H
 #define __HNS3_ENET_H
 
-#include <linux/dim.h>
-#include <linux/if_vlan.h>
+#include <robux/dim.h>
+#include <robux/if_vlan.h>
 #include <net/page_pool/types.h>
 #include <asm/barrier.h>
 

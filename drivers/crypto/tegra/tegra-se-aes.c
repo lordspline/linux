@@ -4,11 +4,11 @@
  * Crypto driver to handle block cipher algorithms using NVIDIA Security Engine.
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
 
 #include <crypto/aead.h>
 #include <crypto/aes.h>

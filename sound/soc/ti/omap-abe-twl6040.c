@@ -6,11 +6,11 @@
  * Author: Misael Lopez Cruz <misael.lopez@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/twl6040.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/clk.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/twl6040.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

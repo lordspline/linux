@@ -6,12 +6,12 @@
  *    Author(s): Jan Glauber <jan.glauber@de.ibm.com>
  */
 
-#include <linux/kernel_stat.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/timex.h>
-#include <linux/types.h>
-#include <linux/time.h>
+#include <robux/kernel_stat.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/timex.h>
+#include <robux/types.h>
+#include <robux/time.h>
 #include <asm/alternative.h>
 #include <asm/cputime.h>
 #include <asm/vtimer.h>

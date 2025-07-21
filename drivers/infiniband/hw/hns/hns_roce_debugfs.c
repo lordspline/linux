@@ -3,9 +3,9 @@
  * Copyright (c) 2023 Hisilicon Limited.
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/pci.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/pci.h>
 
 #include "hns_roce_device.h"
 

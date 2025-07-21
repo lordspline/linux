@@ -13,13 +13,13 @@
  *   Ohad Ben-Cohen <ohad@wizery.com>
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/hwspinlock.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/hwspinlock.h>
+#include <robux/platform_device.h>
 
 #include "hwspinlock_internal.h"
 

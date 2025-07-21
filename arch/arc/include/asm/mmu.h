@@ -8,7 +8,7 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/threads.h>	/* NR_CPUS */
+#include <robux/threads.h>	/* NR_CPUS */
 
 typedef struct {
 	unsigned long asid[NR_CPUS];	/* 8 bit MMU PID + Generation cycle */

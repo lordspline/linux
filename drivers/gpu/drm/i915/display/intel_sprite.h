@@ -6,7 +6,7 @@
 #ifndef __INTEL_SPRITE_H__
 #define __INTEL_SPRITE_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct intel_crtc_state;
 struct intel_display;

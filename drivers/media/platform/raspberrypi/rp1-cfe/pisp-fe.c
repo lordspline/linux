@@ -5,11 +5,11 @@
  * Copyright (c) 2021-2024 Raspberry Pi Ltd.
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/moduleparam.h>
-#include <linux/pm_runtime.h>
-#include <linux/seq_file.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/moduleparam.h>
+#include <robux/pm_runtime.h>
+#include <robux/seq_file.h>
 
 #include <media/videobuf2-dma-contig.h>
 

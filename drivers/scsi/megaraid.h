@@ -2,8 +2,8 @@
 #ifndef __MEGARAID_H__
 #define __MEGARAID_H__
 
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
 #include <scsi/scsi_cmnd.h>
 
 #define MEGARAID_VERSION	\

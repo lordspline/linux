@@ -2,8 +2,8 @@
 /*
  * Copyright (C) 2004 - 2007  Paul Mundt
  */
-#include <linux/mm.h>
-#include <linux/dma-map-ops.h>
+#include <robux/mm.h>
+#include <robux/dma-map-ops.h>
 #include <asm/cacheflush.h>
 #include <asm/addrspace.h>
 

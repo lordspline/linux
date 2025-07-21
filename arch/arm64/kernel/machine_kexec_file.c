@@ -10,17 +10,17 @@
 
 #define pr_fmt(fmt) "kexec_file: " fmt
 
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/kexec.h>
-#include <linux/libfdt.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/kexec.h>
+#include <robux/libfdt.h>
+#include <robux/memblock.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/vmalloc.h>
 
 const struct kexec_file_ops * const kexec_file_loaders[] = {
 	&kexec_image_ops,

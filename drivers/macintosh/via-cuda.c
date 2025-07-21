@@ -9,17 +9,17 @@
  *
  * Copyright (C) 1996 Paul Mackerras.
  */
-#include <linux/stdarg.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/adb.h>
-#include <linux/cuda.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/stdarg.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/adb.h>
+#include <robux/cuda.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 #ifdef CONFIG_PPC
 #include <asm/machdep.h>
@@ -30,7 +30,7 @@
 #include <asm/mac_via.h>
 #endif
 #include <asm/io.h>
-#include <linux/init.h>
+#include <robux/init.h>
 
 static volatile unsigned char __iomem *via;
 static DEFINE_SPINLOCK(cuda_lock);

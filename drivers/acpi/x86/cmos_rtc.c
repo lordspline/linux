@@ -8,12 +8,12 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mc146818rtc.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mc146818rtc.h>
 
 #include "../internal.h"
 

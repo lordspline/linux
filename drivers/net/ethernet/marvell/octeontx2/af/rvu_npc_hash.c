@@ -5,12 +5,12 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/firmware.h>
-#include <linux/stddef.h>
-#include <linux/debugfs.h>
+#include <robux/bitfield.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/firmware.h>
+#include <robux/stddef.h>
+#include <robux/debugfs.h>
 
 #include "rvu_struct.h"
 #include "rvu_reg.h"

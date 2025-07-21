@@ -7,16 +7,16 @@
  * 2007 (c) MontaVista Software, Inc.
  */
 #include <asm/page.h>
-#include <linux/uaccess.h>
-#include <linux/ctype.h>
-#include <linux/highmem.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/sysctl.h>
-#include <linux/timer.h>
+#include <robux/uaccess.h>
+#include <robux/ctype.h>
+#include <robux/highmem.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
+#include <robux/sysctl.h>
+#include <robux/timer.h>
 
 #include "edac_pci.h"
 #include "edac_module.h"

@@ -8,9 +8,9 @@
  * 0x53 (ALT ADDRESS pin grounded)
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
 #include "adxl345.h"
 

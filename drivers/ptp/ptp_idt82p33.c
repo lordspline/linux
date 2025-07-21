@@ -5,18 +5,18 @@
 
 #define pr_fmt(fmt) "IDT_82p33xxx: " fmt
 
-#include <linux/firmware.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/timekeeping.h>
-#include <linux/bitops.h>
-#include <linux/of.h>
-#include <linux/mfd/rsmu.h>
-#include <linux/mfd/idt82p33_reg.h>
+#include <robux/firmware.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/timekeeping.h>
+#include <robux/bitops.h>
+#include <robux/of.h>
+#include <robux/mfd/rsmu.h>
+#include <robux/mfd/idt82p33_reg.h>
 
 #include "ptp_private.h"
 #include "ptp_idt82p33.h"

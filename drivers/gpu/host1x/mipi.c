@@ -20,13 +20,13 @@
  * OF THIS SOFTWARE.
  */
 
-#include <linux/clk.h>
-#include <linux/host1x.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/host1x.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "dev.h"
 

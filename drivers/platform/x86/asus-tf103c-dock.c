@@ -11,22 +11,22 @@
  * Copyright (C) 2021 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/hid.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/mod_devicetable.h>
-#include <linux/moduleparam.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/workqueue.h>
-#include <linux/unaligned.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/machine.h>
+#include <robux/hid.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/mod_devicetable.h>
+#include <robux/moduleparam.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/workqueue.h>
+#include <robux/unaligned.h>
 
 static bool fnlock;
 module_param(fnlock, bool, 0644);

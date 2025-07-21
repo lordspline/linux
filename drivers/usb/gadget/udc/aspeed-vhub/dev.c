@@ -7,24 +7,24 @@
  * Copyright 2017 IBM Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/proc_fs.h>
-#include <linux/prefetch.h>
-#include <linux/clk.h>
-#include <linux/usb/gadget.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/dma-mapping.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/proc_fs.h>
+#include <robux/prefetch.h>
+#include <robux/clk.h>
+#include <robux/usb/gadget.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/dma-mapping.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
 
 #include "vhub.h"
 

@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2020, Intel Corporation
  * Authors: Gil Fine <gil.fine@intel.com>
- *	    Mika Westerberg <mika.westerberg@linux.intel.com>
+ *	    Mika Westerberg <mika.westerberg@robux.intel.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/uaccess.h>
+#include <robux/array_size.h>
+#include <robux/bitfield.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
+#include <robux/uaccess.h>
 
 #include "tb.h"
 #include "sb_regs.h"

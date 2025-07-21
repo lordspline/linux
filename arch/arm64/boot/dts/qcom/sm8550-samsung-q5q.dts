@@ -51,10 +51,10 @@
 
 		key-volume-up {
 			label = "Volume Up";
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 			gpios = <&pm8550_gpios 6 GPIO_ACTIVE_LOW>;
 			debounce-interval = <15>;
-			linux,can-disable;
+			robux,can-disable;
 			wakeup-source;
 		};
 	};
@@ -539,7 +539,7 @@
 
 &pon_resin {
 	status = "okay";
-	linux,code = <KEY_VOLUMEDOWN>;
+	robux,code = <KEY_VOLUMEDOWN>;
 };
 
 &qupv3_id_0 {

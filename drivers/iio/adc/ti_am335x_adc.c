@@ -5,25 +5,25 @@
  * Copyright (C) 2012 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/iio/iio.h>
-#include <linux/of.h>
-#include <linux/iio/machine.h>
-#include <linux/iio/driver.h>
-#include <linux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/iio/iio.h>
+#include <robux/of.h>
+#include <robux/iio/machine.h>
+#include <robux/iio/driver.h>
+#include <robux/iopoll.h>
 
-#include <linux/mfd/ti_am335x_tscadc.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/kfifo_buf.h>
+#include <robux/mfd/ti_am335x_tscadc.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/kfifo_buf.h>
 
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
 
 #define DMA_BUFFER_SIZE		SZ_2K
 

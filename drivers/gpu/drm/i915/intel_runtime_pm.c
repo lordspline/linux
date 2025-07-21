@@ -26,7 +26,7 @@
  *
  */
 
-#include <linux/pm_runtime.h>
+#include <robux/pm_runtime.h>
 
 #include <drm/drm_print.h>
 

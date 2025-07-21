@@ -3,11 +3,11 @@
  * USB of helper code
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/usb/of.h>
-#include <linux/usb/otg.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/usb/of.h>
+#include <robux/usb/otg.h>
 
 static const char *const usbphy_modes[] = {
 	[USBPHY_INTERFACE_MODE_UNKNOWN]	= "",

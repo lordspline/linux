@@ -3,15 +3,15 @@
  * Copyright 2023 Red Hat
  */
 
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device-mapper.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
+#include <robux/atomic.h>
+#include <robux/bitops.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/device-mapper.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
 
 #include "admin-state.h"
 #include "block-map.h"
@@ -1224,7 +1224,7 @@ static int perform_admin_operation(struct vdo *vdo, u32 starting_phase,
 	vdo_launch_completion(prepare_admin_completion(vdo, callback, error_handler));
 
 	/*
-	 * Using the "interruptible" interface means that Linux will not log a message when we wait
+	 * Using the "interruptible" interface means that Robux will not log a message when we wait
 	 * for more than 120 seconds.
 	 */
 	while (wait_for_completion_interruptible(&admin->callback_sync)) {

@@ -5,14 +5,14 @@
  * Copyright (C) 2014 Akihiro Tsukada <tskd08@gmail.com>
  */
 
-#include <linux/freezer.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/sched/signal.h>
+#include <robux/freezer.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/string.h>
+#include <robux/sched/signal.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

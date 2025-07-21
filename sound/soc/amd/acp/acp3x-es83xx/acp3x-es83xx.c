@@ -10,16 +10,16 @@
 #include <sound/soc-dapm.h>
 #include <sound/jack.h>
 #include <sound/soc-acpi.h>
-#include <linux/clk.h>
-#include <linux/gpio.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/io.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/string_choices.h>
+#include <robux/clk.h>
+#include <robux/gpio.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/io.h>
+#include <robux/acpi.h>
+#include <robux/dmi.h>
+#include <robux/string_choices.h>
 #include "../acp-mach.h"
 #include "acp3x-es83xx.h"
 

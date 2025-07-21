@@ -4,12 +4,12 @@
  * Based almost entirely upon the powerpc iommu allocator.
  */
 
-#include <linux/export.h>
-#include <linux/bitmap.h>
-#include <linux/bug.h>
-#include <linux/iommu-helper.h>
-#include <linux/dma-mapping.h>
-#include <linux/hash.h>
+#include <robux/export.h>
+#include <robux/bitmap.h>
+#include <robux/bug.h>
+#include <robux/iommu-helper.h>
+#include <robux/dma-mapping.h>
+#include <robux/hash.h>
 #include <asm/iommu-common.h>
 
 static unsigned long iommu_large_alloc = 15;

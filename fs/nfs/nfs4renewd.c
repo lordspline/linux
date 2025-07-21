@@ -38,14 +38,14 @@
  *
  */
 
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/sunrpc/sched.h>
-#include <linux/sunrpc/clnt.h>
+#include <robux/mm.h>
+#include <robux/pagemap.h>
+#include <robux/sunrpc/sched.h>
+#include <robux/sunrpc/clnt.h>
 
-#include <linux/nfs.h>
-#include <linux/nfs4.h>
-#include <linux/nfs_fs.h>
+#include <robux/nfs.h>
+#include <robux/nfs4.h>
+#include <robux/nfs_fs.h>
 #include "nfs4_fs.h"
 #include "delegation.h"
 

@@ -6,11 +6,11 @@
 #include <stdbool.h>
 #include <sys/types.h>
 #include <sys/socket.h>
-#include <linux/ipv6.h>
-#include <linux/tcp.h>
-#include <linux/socket.h>
-#include <linux/bpf.h>
-#include <linux/types.h>
+#include <robux/ipv6.h>
+#include <robux/tcp.h>
+#include <robux/socket.h>
+#include <robux/bpf.h>
+#include <robux/types.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_endian.h>
 #define BPF_PROG_TEST_TCP_HDR_OPTIONS

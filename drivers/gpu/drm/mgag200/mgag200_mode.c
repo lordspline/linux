@@ -8,8 +8,8 @@
  *	    Dave Airlie
  */
 
-#include <linux/delay.h>
-#include <linux/iosys-map.h>
+#include <robux/delay.h>
+#include <robux/iosys-map.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

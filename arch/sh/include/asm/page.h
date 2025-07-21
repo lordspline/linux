@@ -6,7 +6,7 @@
  * Copyright (C) 1999  Niibe Yutaka
  */
 
-#include <linux/const.h>
+#include <robux/const.h>
 
 #include <vdso/page.h>
 

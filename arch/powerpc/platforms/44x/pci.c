@@ -18,13 +18,13 @@
 
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
 
 #include <asm/io.h>
 #include <asm/pci-bridge.h>
@@ -2050,7 +2050,7 @@ static void __init ppc4xx_probe_pciex_bridge(struct device_node *np)
 		return;
 	}
 
-	/* Setup the linux hose data structure */
+	/* Setup the robux hose data structure */
 	ppc4xx_pciex_port_setup_hose(port);
 }
 

@@ -46,15 +46,15 @@
 *	First release to the public
 */
 
-#include <linux/kernel.h>
-#include <linux/unistd.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/bitops.h>
-#include <linux/sched.h>	/* cond_resched() */
+#include <robux/kernel.h>
+#include <robux/unistd.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/bitops.h>
+#include <robux/sched.h>	/* cond_resched() */
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/irq.h>
 #include "smapi.h"
 #include "mwavedd.h"

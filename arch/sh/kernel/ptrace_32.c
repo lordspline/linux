@@ -7,23 +7,23 @@
  *
  * Audit support by Yuichi Nakamura <ynakam@hitachisoft.jp>
  */
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/security.h>
-#include <linux/signal.h>
-#include <linux/io.h>
-#include <linux/audit.h>
-#include <linux/seccomp.h>
-#include <linux/elf.h>
-#include <linux/regset.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/errno.h>
+#include <robux/ptrace.h>
+#include <robux/user.h>
+#include <robux/security.h>
+#include <robux/signal.h>
+#include <robux/io.h>
+#include <robux/audit.h>
+#include <robux/seccomp.h>
+#include <robux/elf.h>
+#include <robux/regset.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/uaccess.h>
 #include <asm/processor.h>
 #include <asm/mmu_context.h>
 #include <asm/syscalls.h>

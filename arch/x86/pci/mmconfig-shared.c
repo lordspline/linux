@@ -13,15 +13,15 @@
 
 #define pr_fmt(fmt) "PCI: " fmt
 
-#include <linux/acpi.h>
-#include <linux/efi.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/bitmap.h>
-#include <linux/dmi.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/rculist.h>
+#include <robux/acpi.h>
+#include <robux/efi.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/bitmap.h>
+#include <robux/dmi.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/rculist.h>
 #include <asm/acpi.h>
 #include <asm/e820/api.h>
 #include <asm/msr.h>

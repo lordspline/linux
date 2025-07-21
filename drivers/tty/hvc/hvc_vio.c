@@ -23,12 +23,12 @@
 
 #undef DEBUG
 
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/console.h>
-#include <linux/of.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/console.h>
+#include <robux/of.h>
 
 #include <asm/hvconsole.h>
 #include <asm/vio.h>

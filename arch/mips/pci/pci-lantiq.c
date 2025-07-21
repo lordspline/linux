@@ -4,18 +4,18 @@
  *  Copyright (C) 2010 John Crispin <john@phrozen.org>
  */
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_pci.h>
-#include <linux/platform_device.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/of_pci.h>
+#include <robux/platform_device.h>
 
 #include <asm/addrspace.h>
 

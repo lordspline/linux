@@ -3,10 +3,10 @@
  * Copyright (C) 2011-2012 Synopsys, Inc. (www.synopsys.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/reboot.h>
-#include <linux/pm.h>
+#include <robux/kernel.h>
+#include <robux/printk.h>
+#include <robux/reboot.h>
+#include <robux/pm.h>
 
 void machine_halt(void)
 {

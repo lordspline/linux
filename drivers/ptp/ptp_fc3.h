@@ -8,9 +8,9 @@
 #ifndef PTP_IDTFC3_H
 #define PTP_IDTFC3_H
 
-#include <linux/ktime.h>
-#include <linux/ptp_clock.h>
-#include <linux/regmap.h>
+#include <robux/ktime.h>
+#include <robux/ptp_clock.h>
+#include <robux/regmap.h>
 
 #define FW_FILENAME	"idtfc3.bin"
 

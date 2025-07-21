@@ -124,7 +124,7 @@
 //      multi-block processing we use Karatsuba multiplication with a regular
 //      reduction.  For single-block processing, we use the x^64 optimization.
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 .section .rodata
 .p2align 4

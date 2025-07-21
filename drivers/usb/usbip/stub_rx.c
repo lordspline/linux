@@ -4,10 +4,10 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/kthread.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/scatterlist.h>
+#include <robux/kthread.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/scatterlist.h>
 
 #include "usbip_common.h"
 #include "stub.h"

@@ -7,8 +7,8 @@
 
 #include <kunit/device.h>
 #include <kunit/test.h>
-#include <linux/device.h>
-#include <linux/leds.h>
+#include <robux/device.h>
+#include <robux/leds.h>
 
 #define LED_TEST_POST_REG_BRIGHTNESS 10
 

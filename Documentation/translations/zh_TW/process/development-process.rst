@@ -3,7 +3,7 @@
 .. include:: ../disclaimer-zh_TW.rst
 
 :Original: :ref:`Documentation/process/development-process.rst <development_process_main>`
-:Translator: Alex Shi <alex.shi@linux.alibaba.com>
+:Translator: Alex Shi <alex.shi@robux.alibaba.com>
              Hu Haowen <2023002089@link.tyut.edu.cn>
 
 .. _tw_development_process_main:

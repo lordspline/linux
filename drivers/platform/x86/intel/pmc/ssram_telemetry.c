@@ -5,11 +5,11 @@
  * Copyright (c) 2023, Intel Corporation.
  */
 
-#include <linux/cleanup.h>
-#include <linux/intel_vsec.h>
-#include <linux/pci.h>
-#include <linux/types.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <robux/cleanup.h>
+#include <robux/intel_vsec.h>
+#include <robux/pci.h>
+#include <robux/types.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
 
 #include "core.h"
 #include "ssram_telemetry.h"

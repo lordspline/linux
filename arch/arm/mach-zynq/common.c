@@ -6,25 +6,25 @@
  *  Copyright (C) 2011 Xilinx
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/cpumask.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/clk/zynq.h>
-#include <linux/clocksource.h>
-#include <linux/of_address.h>
-#include <linux/of_clk.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/of.h>
-#include <linux/memblock.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/arm-gic.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/pgtable.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/cpumask.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/clk/zynq.h>
+#include <robux/clocksource.h>
+#include <robux/of_address.h>
+#include <robux/of_clk.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/of.h>
+#include <robux/memblock.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/arm-gic.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
+#include <robux/pgtable.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>

@@ -5,13 +5,13 @@
  * Copyright 2024 Aleksa Savic <savicaleksa83@gmail.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/hid.h>
-#include <linux/hwmon.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/unaligned.h>
+#include <robux/debugfs.h>
+#include <robux/hid.h>
+#include <robux/hwmon.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/unaligned.h>
 
 #define DRIVER_NAME	"asus_rog_ryujin"
 

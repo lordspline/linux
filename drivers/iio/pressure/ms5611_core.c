@@ -10,15 +10,15 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/iio/iio.h>
+#include <robux/delay.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
 #include "ms5611.h"
 
 #define MS5611_INIT_OSR(_cmd, _conv_usec, _rate) \

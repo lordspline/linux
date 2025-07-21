@@ -6,11 +6,11 @@
  *
  * This code is based on the uncore PMUs like hisi_uncore_l3c_pmu.
  */
-#include <linux/cpuhotplug.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
+#include <robux/cpuhotplug.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/list.h>
+#include <robux/mod_devicetable.h>
 
 #include "hisi_uncore_pmu.h"
 

@@ -16,10 +16,10 @@
  * Major updates contributed by GlobalLogic
  */
 
-#include <linux/ethtool.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/phy.h>
+#include <robux/ethtool.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/phy.h>
 
 #include "altera_tse.h"
 

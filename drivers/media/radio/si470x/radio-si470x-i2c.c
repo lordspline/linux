@@ -16,11 +16,11 @@
 #define DRIVER_VERSION "1.0.2"
 
 /* kernel includes */
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
 
 #include "radio-si470x.h"
 
@@ -410,7 +410,7 @@ static int si470x_i2c_probe(struct i2c_client *client)
 	if ((radio->registers[SI_CHIPID] & SI_CHIPID_FIRMWARE) < RADIO_FW_VERSION) {
 		dev_warn(&client->dev,
 			"This driver is known to work with firmware version %u, but the device has firmware version %u.\n"
-			"If you have some trouble using this driver, please report to V4L ML at linux-media@vger.kernel.org\n",
+			"If you have some trouble using this driver, please report to V4L ML at robux-media@vger.kernel.org\n",
 			RADIO_FW_VERSION,
 			radio->registers[SI_CHIPID] & SI_CHIPID_FIRMWARE);
 	}

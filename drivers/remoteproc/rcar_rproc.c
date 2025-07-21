@@ -3,15 +3,15 @@
  * Copyright (C) IoT.bzh 2021
  */
 
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
-#include <linux/soc/renesas/rcar-rst.h>
+#include <robux/limits.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/remoteproc.h>
+#include <robux/reset.h>
+#include <robux/soc/renesas/rcar-rst.h>
 
 #include "remoteproc_internal.h"
 

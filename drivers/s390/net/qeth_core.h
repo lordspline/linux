@@ -10,24 +10,24 @@
 #ifndef __QETH_CORE_H__
 #define __QETH_CORE_H__
 
-#include <linux/completion.h>
-#include <linux/debugfs.h>
-#include <linux/if.h>
-#include <linux/if_arp.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/ctype.h>
-#include <linux/in6.h>
-#include <linux/bitops.h>
-#include <linux/seq_file.h>
-#include <linux/hashtable.h>
-#include <linux/ip.h>
-#include <linux/rcupdate.h>
-#include <linux/refcount.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <robux/completion.h>
+#include <robux/debugfs.h>
+#include <robux/if.h>
+#include <robux/if_arp.h>
+#include <robux/etherdevice.h>
+#include <robux/if_vlan.h>
+#include <robux/ctype.h>
+#include <robux/in6.h>
+#include <robux/bitops.h>
+#include <robux/seq_file.h>
+#include <robux/hashtable.h>
+#include <robux/ip.h>
+#include <robux/rcupdate.h>
+#include <robux/refcount.h>
+#include <robux/timer.h>
+#include <robux/types.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
 
 #include <net/dst.h>
 #include <net/ip6_fib.h>
@@ -44,7 +44,7 @@
 #include <asm/ccwgroup.h>
 #include <asm/sysinfo.h>
 
-#include <uapi/linux/if_link.h>
+#include <uapi/robux/if_link.h>
 
 #include "qeth_core_mpc.h"
 

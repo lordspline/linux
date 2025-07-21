@@ -8,12 +8,12 @@
  *  Henning Schild <henning.schild@siemens.com>
  */
 
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/x86/simatic-ipc-base.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/consumer.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/x86/simatic-ipc-base.h>
 
 #include "simatic-ipc-leds-gpio.h"
 

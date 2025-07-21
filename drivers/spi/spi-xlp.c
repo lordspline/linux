@@ -3,13 +3,13 @@
  * Copyright (C) 2003-2015 Broadcom Corporation
  * All Rights Reserved
  */
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/interrupt.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/spi/spi.h>
+#include <robux/interrupt.h>
 
 /* SPI Configuration Register */
 #define XLP_SPI_CONFIG			0x00

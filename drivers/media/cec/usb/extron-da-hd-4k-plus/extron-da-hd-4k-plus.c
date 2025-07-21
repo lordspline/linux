@@ -16,15 +16,15 @@
  *   trying to contact the Extron indefinitely?
  */
 
-#include <linux/completion.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/time.h>
+#include <robux/completion.h>
+#include <robux/ctype.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/time.h>
 
 #include "extron-da-hd-4k-plus.h"
 

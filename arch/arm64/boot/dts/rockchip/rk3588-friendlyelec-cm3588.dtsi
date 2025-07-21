@@ -33,7 +33,7 @@
 			color = <LED_COLOR_ID_AMBER>;
 			function = LED_FUNCTION_HEARTBEAT;
 			gpios = <&gpio2 RK_PC5 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 			pinctrl-names = "default";
 			pinctrl-0 = <&led_sys_pin>;
 		};

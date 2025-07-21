@@ -5,12 +5,12 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/uio.h>
-#include <linux/scatterlist.h>
-#include <linux/netfs.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/uio.h>
+#include <robux/scatterlist.h>
+#include <robux/netfs.h>
 #include "internal.h"
 
 /**

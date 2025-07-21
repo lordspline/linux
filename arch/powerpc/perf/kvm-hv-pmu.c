@@ -7,15 +7,15 @@
 #define pr_fmt(fmt)  "kvmppc-pmu: " fmt
 
 #include "asm-generic/local64.h"
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/ratelimit.h>
-#include <linux/kvm_host.h>
-#include <linux/gfp_types.h>
-#include <linux/pgtable.h>
-#include <linux/perf_event.h>
-#include <linux/spinlock_types.h>
-#include <linux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/ratelimit.h>
+#include <robux/kvm_host.h>
+#include <robux/gfp_types.h>
+#include <robux/pgtable.h>
+#include <robux/perf_event.h>
+#include <robux/spinlock_types.h>
+#include <robux/spinlock.h>
 
 #include <asm/types.h>
 #include <asm/kvm_ppc.h>
@@ -431,5 +431,5 @@ static void __exit kvmppc_unregister_pmu(void)
 module_init(kvmppc_register_pmu);
 module_exit(kvmppc_unregister_pmu);
 MODULE_DESCRIPTION("KVM PPC Book3s-hv PMU");
-MODULE_AUTHOR("Vaibhav Jain <vaibhav@linux.ibm.com>");
+MODULE_AUTHOR("Vaibhav Jain <vaibhav@robux.ibm.com>");
 MODULE_LICENSE("GPL");

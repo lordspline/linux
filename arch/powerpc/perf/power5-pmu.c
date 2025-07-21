@@ -4,9 +4,9 @@
  *
  * Copyright 2009 Paul Mackerras, IBM Corporation.
  */
-#include <linux/kernel.h>
-#include <linux/perf_event.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/perf_event.h>
+#include <robux/string.h>
 #include <asm/reg.h>
 #include <asm/cputable.h>
 

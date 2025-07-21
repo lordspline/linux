@@ -10,16 +10,16 @@
  * Copyright (C) 2013, Samsung Electronics Co., Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/media.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/media.h>
+#include <robux/module.h>
+#include <robux/of_graph.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-ctrls.h>

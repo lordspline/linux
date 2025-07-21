@@ -5,19 +5,19 @@
  * Core functions for Marvell MV78xx0 SoCs
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/serial_8250.h>
-#include <linux/ata_platform.h>
-#include <linux/clk-provider.h>
-#include <linux/ethtool.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/serial_8250.h>
+#include <robux/ata_platform.h>
+#include <robux/clk-provider.h>
+#include <robux/ethtool.h>
 #include <asm/hardware/cache-feroceon-l2.h>
 #include <asm/mach/map.h>
 #include <asm/mach/time.h>
-#include <linux/platform_data/usb-ehci-orion.h>
-#include <linux/platform_data/mtd-orion_nand.h>
+#include <robux/platform_data/usb-ehci-orion.h>
+#include <robux/platform_data/mtd-orion_nand.h>
 #include <plat/time.h>
 #include <plat/common.h>
 #include <plat/addr-map.h>

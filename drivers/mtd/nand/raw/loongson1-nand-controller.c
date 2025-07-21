@@ -5,17 +5,17 @@
  * Copyright (C) 2015-2025 Keguang Zhang <keguang.zhang@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/iopoll.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/sizes.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/iopoll.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/sizes.h>
 
 /* Loongson-1 NAND Controller Registers */
 #define LS1X_NAND_CMD		0x0

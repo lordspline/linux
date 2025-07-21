@@ -9,9 +9,9 @@
 #ifndef _KERNEL_KCSAN_KCSAN_H
 #define _KERNEL_KCSAN_KCSAN_H
 
-#include <linux/atomic.h>
-#include <linux/kcsan.h>
-#include <linux/sched.h>
+#include <robux/atomic.h>
+#include <robux/kcsan.h>
+#include <robux/sched.h>
 
 /* The number of adjacent watchpoints to check. */
 #define KCSAN_CHECK_ADJACENT 1

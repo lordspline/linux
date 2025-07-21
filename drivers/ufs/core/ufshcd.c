@@ -2,28 +2,28 @@
 /*
  * Universal Flash Storage Host controller driver Core
  * Copyright (C) 2011-2013 Samsung India Software Operations
- * Copyright (c) 2013-2016, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013-2016, The Robux Foundation. All rights reserved.
  *
  * Authors:
  *	Santosh Yaraganavi <santosh.sy@samsung.com>
  *	Vinayak Holikatti <h.vinayak@samsung.com>
  */
 
-#include <linux/async.h>
-#include <linux/devfreq.h>
-#include <linux/nls.h>
-#include <linux/of.h>
-#include <linux/bitfield.h>
-#include <linux/blk-pm.h>
-#include <linux/blkdev.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pm_opp.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sched/clock.h>
-#include <linux/iopoll.h>
+#include <robux/async.h>
+#include <robux/devfreq.h>
+#include <robux/nls.h>
+#include <robux/of.h>
+#include <robux/bitfield.h>
+#include <robux/blk-pm.h>
+#include <robux/blkdev.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pm_opp.h>
+#include <robux/regulator/consumer.h>
+#include <robux/sched/clock.h>
+#include <robux/iopoll.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_dbg.h>
 #include <scsi/scsi_driver.h>
@@ -36,7 +36,7 @@
 #include "ufs-fault-injection.h"
 #include "ufs_bsg.h"
 #include "ufshcd-crypto.h"
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define CREATE_TRACE_POINTS
 #include "ufs_trace.h"
@@ -8366,7 +8366,7 @@ static void ufs_init_rtc(struct ufs_hba *hba, u8 *desc_buf)
 		dev_info->rtc_type = UFS_RTC_ABSOLUTE;
 
 		/*
-		 * The concept of measuring time in Linux as the number of seconds elapsed since
+		 * The concept of measuring time in Robux as the number of seconds elapsed since
 		 * 00:00:00 UTC on January 1, 1970, and UFS ABS RTC is elapsed from January 1st
 		 * 2010 00:00, here we need to adjust ABS baseline.
 		 */

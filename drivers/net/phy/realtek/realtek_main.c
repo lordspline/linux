@@ -7,14 +7,14 @@
  *
  * Copyright (c) 2004 Freescale Semiconductor, Inc.
  */
-#include <linux/bitops.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/netdevice.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/string_choices.h>
+#include <robux/bitops.h>
+#include <robux/of.h>
+#include <robux/phy.h>
+#include <robux/netdevice.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/string_choices.h>
 
 #include "realtek.h"
 

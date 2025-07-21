@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/video/omap2/dss/dss.c
+ * robux/drivers/video/omap2/dss/dss.c
  *
  * Copyright (C) 2009 Nokia Corporation
  * Author: Tomi Valkeinen <tomi.valkeinen@nokia.com>
@@ -11,26 +11,26 @@
 
 #define DSS_SUBSYS_NAME "DSS"
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/gfp.h>
-#include <linux/sizes.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/regulator/consumer.h>
-#include <linux/suspend.h>
-#include <linux/component.h>
-#include <linux/pinctrl/consumer.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/export.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/seq_file.h>
+#include <robux/clk.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/gfp.h>
+#include <robux/sizes.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/regulator/consumer.h>
+#include <robux/suspend.h>
+#include <robux/component.h>
+#include <robux/pinctrl/consumer.h>
 
 #include <video/omapfb_dss.h>
 

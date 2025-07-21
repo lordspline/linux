@@ -4,10 +4,10 @@
  * Author: Alexandre Belloni <alexandre.belloni@bootlin.com>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/mux/driver.h>
-#include <linux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/mux/driver.h>
+#include <robux/regulator/consumer.h>
 #include <sound/soc.h>
 
 #define MUX_TEXT_SIZE	2

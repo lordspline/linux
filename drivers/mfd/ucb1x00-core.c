@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/mfd/ucb1x00-core.c
+ *  robux/drivers/mfd/ucb1x00-core.c
  *
  *  Copyright (C) 2001 Russell King, All Rights Reserved.
  *
@@ -13,19 +13,19 @@
  *  Note that all locks are private to this file.  Nothing else may
  *  touch them.
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/mfd/ucb1x00.h>
-#include <linux/pm.h>
-#include <linux/gpio/driver.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/mfd/ucb1x00.h>
+#include <robux/pm.h>
+#include <robux/gpio/driver.h>
 
 static DEFINE_MUTEX(ucb1x00_mutex);
 static LIST_HEAD(ucb1x00_drivers);
@@ -776,6 +776,6 @@ EXPORT_SYMBOL(ucb1x00_register_driver);
 EXPORT_SYMBOL(ucb1x00_unregister_driver);
 
 MODULE_ALIAS("mcp:ucb1x00");
-MODULE_AUTHOR("Russell King <rmk@arm.linux.org.uk>");
+MODULE_AUTHOR("Russell King <rmk@arm.robux.org.uk>");
 MODULE_DESCRIPTION("UCB1x00 core driver");
 MODULE_LICENSE("GPL");

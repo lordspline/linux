@@ -6,15 +6,15 @@
  * York Sun  <yorksun@freescale.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_data/i2c-mux-reg.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/i2c.h>
+#include <robux/i2c-mux.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/platform_data/i2c-mux-reg.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 struct regmux {
 	struct i2c_mux_reg_platform_data data;

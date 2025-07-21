@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2016 ARM Limited
  */
-#include <linux/errno.h>
-#include <linux/hrtimer.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/perf_event.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/hrtimer.h>
+#include <robux/io.h>
+#include <robux/list.h>
+#include <robux/perf_event.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include <asm/hardware/cache-l2x0.h>
 

@@ -3,22 +3,22 @@
  * kcomedilib/kcomedilib.c
  * a comedlib interface for kernel modules
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Robux Control and Measurement Device Interface
  * Copyright (C) 1997-2000 David A. Schleef <ds@schleef.org>
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/fcntl.h>
-#include <linux/mm.h>
-#include <linux/io.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/fcntl.h>
+#include <robux/mm.h>
+#include <robux/io.h>
 
-#include <linux/comedi.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/comedi/comedilib.h>
+#include <robux/comedi.h>
+#include <robux/comedi/comedidev.h>
+#include <robux/comedi/comedilib.h>
 
 MODULE_AUTHOR("David Schleef <ds@schleef.org>");
 MODULE_DESCRIPTION("Comedi kernel library");

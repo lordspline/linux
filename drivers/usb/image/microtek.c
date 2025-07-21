@@ -120,18 +120,18 @@
  *	20011003 Fix multiple requests
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/random.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/usb.h>
-#include <linux/proc_fs.h>
-#include <linux/atomic.h>
-#include <linux/blkdev.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/errno.h>
+#include <robux/random.h>
+#include <robux/poll.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/usb.h>
+#include <robux/proc_fs.h>
+#include <robux/atomic.h>
+#include <robux/blkdev.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

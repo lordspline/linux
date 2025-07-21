@@ -4,12 +4,12 @@
  *
  * (c) Copyright 2007-2013 Datera, Inc.
  *
- * Author: Nicholas A. Bellinger <nab@linux-iscsi.org>
+ * Author: Nicholas A. Bellinger <nab@robux-iscsi.org>
  *
  ******************************************************************************/
 
-#include <linux/slab.h>
-#include <linux/uio.h> /* struct kvec */
+#include <robux/slab.h>
+#include <robux/uio.h> /* struct kvec */
 #include <target/iscsi/iscsi_target_core.h>
 #include "iscsi_target_util.h"
 #include "iscsi_target_parameters.h"

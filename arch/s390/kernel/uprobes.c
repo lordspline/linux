@@ -6,11 +6,11 @@
  *    Author(s): Jan Willeke,
  */
 
-#include <linux/uaccess.h>
-#include <linux/uprobes.h>
-#include <linux/compat.h>
-#include <linux/kdebug.h>
-#include <linux/sched/task_stack.h>
+#include <robux/uaccess.h>
+#include <robux/uprobes.h>
+#include <robux/compat.h>
+#include <robux/kdebug.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/facility.h>
 #include <asm/kprobes.h>

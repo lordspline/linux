@@ -10,18 +10,18 @@
  *                         support for new dual DVB-S2 card prototype
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/poll.h>
+#include <robux/io.h>
 #include <asm/div64.h>
-#include <linux/pci.h>
-#include <linux/timer.h>
-#include <linux/byteorder/generic.h>
-#include <linux/firmware.h>
-#include <linux/vmalloc.h>
+#include <robux/pci.h>
+#include <robux/timer.h>
+#include <robux/byteorder/generic.h>
+#include <robux/firmware.h>
+#include <robux/vmalloc.h>
 
 #include "ngene.h"
 

@@ -5,11 +5,11 @@
 #ifndef _LINUX_PGALLOC_TAG_H
 #define _LINUX_PGALLOC_TAG_H
 
-#include <linux/alloc_tag.h>
+#include <robux/alloc_tag.h>
 
 #ifdef CONFIG_MEM_ALLOC_PROFILING
 
-#include <linux/page_ext.h>
+#include <robux/page_ext.h>
 
 extern struct page_ext_operations page_alloc_tagging_ops;
 extern unsigned long alloc_tag_ref_mask;

@@ -33,31 +33,31 @@
  *  should stick to this procedure.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/moduleparam.h>
-#include <linux/sched.h>
-#include <linux/ctype.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/iopoll.h>
-#include <linux/in.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/errno.h>
-#include <linux/platform_device.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/crc32.h>
-#include <linux/pgtable.h>
-#include <linux/clk.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/moduleparam.h>
+#include <robux/sched.h>
+#include <robux/ctype.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/iopoll.h>
+#include <robux/in.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/errno.h>
+#include <robux/platform_device.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/crc32.h>
+#include <robux/pgtable.h>
+#include <robux/clk.h>
 
 #define DRV_NAME	"korina"
 #define DRV_VERSION	"0.20"

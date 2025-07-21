@@ -9,9 +9,9 @@
 #ifndef _RISCV_PMU_H
 #define _RISCV_PMU_H
 
-#include <linux/perf_event.h>
-#include <linux/ptrace.h>
-#include <linux/interrupt.h>
+#include <robux/perf_event.h>
+#include <robux/ptrace.h>
+#include <robux/interrupt.h>
 
 #ifdef CONFIG_RISCV_PMU
 

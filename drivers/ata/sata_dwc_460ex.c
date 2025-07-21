@@ -14,16 +14,16 @@
  *          COPYRIGHT (C) 2005  SYNOPSYS, INC.  ALL RIGHTS RESERVED
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/libata.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/dmaengine.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/phy/phy.h>
+#include <robux/libata.h>
+#include <robux/slab.h>
 #include <trace/events/libata.h>
 
 #include "libata.h"
@@ -179,8 +179,8 @@ static void sata_dwc_clear_dmacr(struct sata_dwc_device_port *hsdevp, u8 tag);
 
 #ifdef CONFIG_SATA_DWC_OLD_DMA
 
-#include <linux/platform_data/dma-dw.h>
-#include <linux/dma/dw.h>
+#include <robux/platform_data/dma-dw.h>
+#include <robux/dma/dw.h>
 
 static struct dw_dma_slave sata_dwc_dma_dws = {
 	.src_id = 0,

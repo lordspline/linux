@@ -12,10 +12,10 @@
  *   Copyright (c) 2006 Herbert Xu <herbert@gondor.apana.org.au>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/crypto.h>
-#include <linux/err.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/crypto.h>
+#include <robux/err.h>
 #include <crypto/algapi.h>
 #include <crypto/b128ops.h>
 #include <crypto/serpent.h>

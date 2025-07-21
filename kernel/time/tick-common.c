@@ -7,16 +7,16 @@
  * Copyright(C) 2005-2007, Red Hat, Inc., Ingo Molnar
  * Copyright(C) 2006-2007, Timesys Corp., Thomas Gleixner
  */
-#include <linux/compiler.h>
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/hrtimer.h>
-#include <linux/interrupt.h>
-#include <linux/nmi.h>
-#include <linux/percpu.h>
-#include <linux/profile.h>
-#include <linux/sched.h>
-#include <linux/module.h>
+#include <robux/compiler.h>
+#include <robux/cpu.h>
+#include <robux/err.h>
+#include <robux/hrtimer.h>
+#include <robux/interrupt.h>
+#include <robux/nmi.h>
+#include <robux/percpu.h>
+#include <robux/profile.h>
+#include <robux/sched.h>
+#include <robux/module.h>
 #include <trace/events/power.h>
 
 #include <asm/irq_regs.h>

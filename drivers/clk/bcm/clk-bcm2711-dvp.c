@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 // Copyright 2020 Cerno
 
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/reset/reset-simple.h>
+#include <robux/clk-provider.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
+#include <robux/reset/reset-simple.h>
 
 #define DVP_HT_RPI_SW_INIT	0x04
 #define DVP_HT_RPI_MISC_CONFIG	0x08

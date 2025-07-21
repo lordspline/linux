@@ -6,13 +6,13 @@
 #if !defined(_TRACE_HW_EVENT_MC_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_HW_EVENT_MC_H
 
-#include <linux/tracepoint.h>
-#include <linux/edac.h>
-#include <linux/ktime.h>
-#include <linux/pci.h>
-#include <linux/aer.h>
-#include <linux/cper.h>
-#include <linux/mm.h>
+#include <robux/tracepoint.h>
+#include <robux/edac.h>
+#include <robux/ktime.h>
+#include <robux/pci.h>
+#include <robux/aer.h>
+#include <robux/cper.h>
+#include <robux/mm.h>
 
 /*
  * MCE Extended Error Log trace event

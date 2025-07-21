@@ -6,13 +6,13 @@
  *			Copyright (C) 2011 National Semiconductor
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/power_supply.h>
-#include <linux/platform_data/lp8727.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/power_supply.h>
+#include <robux/platform_data/lp8727.h>
+#include <robux/of.h>
 
 #define LP8788_NUM_INTREGS	2
 #define DEFAULT_DEBOUNCE_MSEC	270

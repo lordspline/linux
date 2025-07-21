@@ -5,16 +5,16 @@
  * Clock driver for LS1028A Display output interfaces(LCD, DPHY).
  */
 
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/bitfield.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/bitfield.h>
 
 /* PLLDIG register offsets and bit masks */
 #define PLLDIG_REG_PLLSR            0x24

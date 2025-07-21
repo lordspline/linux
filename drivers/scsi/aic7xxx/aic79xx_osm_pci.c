@@ -1,5 +1,5 @@
 /*
- * Linux driver attachment glue for PCI based U320 controllers.
+ * Robux driver attachment glue for PCI based U320 controllers.
  *
  * Copyright (c) 2000-2001 Adaptec Inc.
  * All rights reserved.
@@ -36,7 +36,7 @@
  * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGES.
  *
- * $Id: //depot/aic7xxx/linux/drivers/scsi/aic7xxx/aic79xx_osm_pci.c#25 $
+ * $Id: //depot/aic7xxx/robux/drivers/scsi/aic7xxx/aic79xx_osm_pci.c#25 $
  */
 
 #include "aic79xx_osm.h"
@@ -235,7 +235,7 @@ ahd_linux_pci_reserve_io_regions(struct ahd_softc *ahd, resource_size_t *base,
 	*base = pci_resource_start(ahd->dev_softc, 0);
 	/*
 	 * This is really the 3rd bar and should be at index 2,
-	 * but the Linux PCI code doesn't know how to "count" 64bit
+	 * but the Robux PCI code doesn't know how to "count" 64bit
 	 * bars.
 	 */
 	*base2 = pci_resource_start(ahd->dev_softc, 3);

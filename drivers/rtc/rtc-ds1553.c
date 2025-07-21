@@ -5,17 +5,17 @@
  * Copyright (C) 2006 Atsushi Nemoto <anemo@mba.ocn.ne.jp>
  */
 
-#include <linux/bcd.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/interrupt.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/module.h>
+#include <robux/bcd.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/gfp.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
+#include <robux/interrupt.h>
+#include <robux/rtc.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/module.h>
 
 #define RTC_REG_SIZE		0x2000
 #define RTC_OFFSET		0x1ff0

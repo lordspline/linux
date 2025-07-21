@@ -3,25 +3,25 @@
  * Copyright (C) 2012 Regents of the University of California
  */
 
-#include <linux/cpu.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irqflags.h>
-#include <linux/randomize_kstack.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/signal.h>
-#include <linux/signal.h>
-#include <linux/kdebug.h>
-#include <linux/uaccess.h>
-#include <linux/kprobes.h>
-#include <linux/uprobes.h>
+#include <robux/cpu.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/irqflags.h>
+#include <robux/randomize_kstack.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/signal.h>
+#include <robux/signal.h>
+#include <robux/kdebug.h>
+#include <robux/uaccess.h>
+#include <robux/kprobes.h>
+#include <robux/uprobes.h>
 #include <asm/uprobes.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/irq.h>
-#include <linux/kexec.h>
-#include <linux/entry-common.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/irq.h>
+#include <robux/kexec.h>
+#include <robux/entry-common.h>
 
 #include <asm/asm-prototypes.h>
 #include <asm/bug.h>

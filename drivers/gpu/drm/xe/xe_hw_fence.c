@@ -5,8 +5,8 @@
 
 #include "xe_hw_fence.h"
 
-#include <linux/device.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/slab.h>
 
 #include "xe_bo.h"
 #include "xe_device.h"

@@ -9,10 +9,10 @@
 #ifndef _ASM_S390_HUGETLB_H
 #define _ASM_S390_HUGETLB_H
 
-#include <linux/cpufeature.h>
-#include <linux/pgtable.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
+#include <robux/cpufeature.h>
+#include <robux/pgtable.h>
+#include <robux/swap.h>
+#include <robux/swapops.h>
 #include <asm/page.h>
 
 #define hugepages_supported()	cpu_has_edat1()

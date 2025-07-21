@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap2/board-n8x0.c
+ * robux/arch/arm/mach-omap2/board-n8x0.c
  *
  * Copyright (C) 2005-2009 Nokia Corporation
  * Author: Juha Yrjola <juha.yrjola@nokia.com>
@@ -8,21 +8,21 @@
  * Modified from mach-omap2/board-generic.c
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/stddef.h>
-#include <linux/i2c.h>
-#include <linux/spi/spi.h>
-#include <linux/usb/musb.h>
-#include <linux/mmc/host.h>
-#include <linux/platform_data/spi-omap2-mcspi.h>
-#include <linux/platform_data/mmc-omap.h>
-#include <linux/mfd/menelaus.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/stddef.h>
+#include <robux/i2c.h>
+#include <robux/spi/spi.h>
+#include <robux/usb/musb.h>
+#include <robux/mmc/host.h>
+#include <robux/platform_data/spi-omap2-mcspi.h>
+#include <robux/platform_data/mmc-omap.h>
+#include <robux/mfd/menelaus.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach-types.h>

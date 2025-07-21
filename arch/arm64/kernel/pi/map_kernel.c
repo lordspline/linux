@@ -2,12 +2,12 @@
 // Copyright 2023 Google LLC
 // Author: Ard Biesheuvel <ardb@google.com>
 
-#include <linux/init.h>
-#include <linux/libfdt.h>
-#include <linux/linkage.h>
-#include <linux/types.h>
-#include <linux/sizes.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/libfdt.h>
+#include <robux/linkage.h>
+#include <robux/types.h>
+#include <robux/sizes.h>
+#include <robux/string.h>
 
 #include <asm/memory.h>
 #include <asm/pgalloc.h>

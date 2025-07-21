@@ -6,7 +6,7 @@
 #ifndef __VLV_DSI_PLL_H__
 #define __VLV_DSI_PLL_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 enum port;
 struct intel_crtc_state;

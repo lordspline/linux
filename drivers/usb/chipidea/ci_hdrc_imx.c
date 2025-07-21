@@ -5,17 +5,17 @@
  * on behalf of DENX Software Engineering GmbH
  */
 
-#include <linux/module.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/usb/chipidea.h>
-#include <linux/usb/of.h>
-#include <linux/clk.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_qos.h>
+#include <robux/module.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/usb/chipidea.h>
+#include <robux/usb/of.h>
+#include <robux/clk.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pm_qos.h>
 
 #include "ci.h"
 #include "ci_hdrc_imx.h"

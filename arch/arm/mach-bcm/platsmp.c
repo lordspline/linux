@@ -4,18 +4,18 @@
  * Copyright 2014 Linaro Limited
  */
 
-#include <linux/cpumask.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irqchip/irq-bcm2836.h>
-#include <linux/jiffies.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/smp.h>
+#include <robux/cpumask.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/irqchip/irq-bcm2836.h>
+#include <robux/jiffies.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/sched.h>
+#include <robux/sched/clock.h>
+#include <robux/smp.h>
 
 #include <asm/cacheflush.h>
 #include <asm/smp.h>

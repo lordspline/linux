@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/dma-direct.h>
-#include <linux/init.h>
-#include <linux/swiotlb.h>
+#include <robux/dma-direct.h>
+#include <robux/init.h>
+#include <robux/swiotlb.h>
 #include <asm/bootinfo.h>
 #include <boot_param.h>
 

@@ -7,20 +7,20 @@
  * Author: Johan Hovold <jhovold@gmail.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/mfd/core.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/atomic.h>
+#include <robux/fs.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/mfd/core.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 
-#include <linux/mfd/lm3533.h>
+#include <robux/mfd/lm3533.h>
 
 
 #define LM3533_ALS_RESISTOR_MIN			1

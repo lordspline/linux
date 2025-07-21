@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * linux/sound/soc/codecs/tlv320aic32x4.c
+ * robux/sound/soc/codecs/tlv320aic32x4.c
  *
  * Copyright 2011 Vista Silicon S.L.
  *
@@ -9,18 +9,18 @@
  * Based on sound/soc/codecs/wm8974 and TI driver for kernel 2.6.27.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/gpio.h>
-#include <linux/of_gpio.h>
-#include <linux/cdev.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/of_clk.h>
-#include <linux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/gpio.h>
+#include <robux/of_gpio.h>
+#include <robux/cdev.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/of_clk.h>
+#include <robux/regulator/consumer.h>
 
 #include <sound/tlv320aic32x4.h>
 #include <sound/core.h>

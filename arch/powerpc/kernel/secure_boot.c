@@ -3,9 +3,9 @@
  * Copyright (C) 2019 IBM Corporation
  * Author: Nayna Jain
  */
-#include <linux/types.h>
-#include <linux/of.h>
-#include <linux/string_choices.h>
+#include <robux/types.h>
+#include <robux/of.h>
+#include <robux/string_choices.h>
 #include <asm/secure_boot.h>
 
 static struct device_node *get_ppc_fw_sb_node(void)

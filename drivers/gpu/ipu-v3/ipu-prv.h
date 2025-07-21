@@ -8,11 +8,11 @@
 
 struct ipu_soc;
 
-#include <linux/io.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/clk.h>
+#include <robux/platform_device.h>
 
 #include <video/imx-ipu-v3.h>
 

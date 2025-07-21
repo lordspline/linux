@@ -11,11 +11,11 @@
 #ifndef _CRYPTO_SCATTERWALK_H
 #define _CRYPTO_SCATTERWALK_H
 
-#include <linux/errno.h>
-#include <linux/highmem.h>
-#include <linux/mm.h>
-#include <linux/scatterlist.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/highmem.h>
+#include <robux/mm.h>
+#include <robux/scatterlist.h>
+#include <robux/types.h>
 
 struct scatter_walk {
 	/* Must be the first member, see struct skcipher_walk. */

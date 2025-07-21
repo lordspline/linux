@@ -11,7 +11,7 @@
 #
 # 1) for each include statement it checks if the
 #    included file actually exists.
-#    Only include files located in asm* and linux* are checked.
+#    Only include files located in asm* and robux* are checked.
 #    The rest are assumed to be system include files.
 #
 # 2) It is checked that prototypes does not use "extern"
@@ -49,7 +49,7 @@ exit $ret;
 
 sub check_include
 {
-	if ($line =~ m/^\s*#\s*include\s+<((asm|linux).*)>/) {
+	if ($line =~ m/^\s*#\s*include\s+<((asm|robux).*)>/) {
 		my $inc = $1;
 		my $found;
 		$found = stat($dir . "/" . $inc);
@@ -98,7 +98,7 @@ sub check_asm_types
 	if ($line =~ m/^\s*#\s*include\s+<asm\/types.h>/) {
 		$linux_asm_types = 1;
 		printf STDERR "$filename:$lineno: " .
-		"include of <linux/types.h> is preferred over <asm/types.h>\n"
+		"include of <robux/types.h> is preferred over <asm/types.h>\n"
 		# Warn until headers are all fixed
 		#$ret = 1;
 	}
@@ -126,7 +126,7 @@ sub check_include_typesh
 
 	my $line;
 	while ($line = <$fh>) {
-		if ($line =~ m/^\s*#\s*include\s+<linux\/types.h>/) {
+		if ($line =~ m/^\s*#\s*include\s+<robux\/types.h>/) {
 			$linux_types = 1;
 			last;
 		}
@@ -148,7 +148,7 @@ sub check_sizetypes
 	} elsif ($linux_types >= 1) {
 		return;
 	}
-	if ($line =~ m/^\s*#\s*include\s+<linux\/types.h>/) {
+	if ($line =~ m/^\s*#\s*include\s+<robux\/types.h>/) {
 		$linux_types = 1;
 		return;
 	}
@@ -158,7 +158,7 @@ sub check_sizetypes
 	if ($line =~ m/__[us](8|16|32|64)\b/) {
 		printf STDERR "$filename:$lineno: " .
 		              "found __[us]{8,16,32,64} type " .
-		              "without #include <linux/types.h>\n";
+		              "without #include <robux/types.h>\n";
 		$linux_types = 2;
 		# Warn until headers are all fixed
 		#$ret = 1;

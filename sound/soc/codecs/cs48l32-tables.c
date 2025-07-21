@@ -5,12 +5,12 @@
 // Copyright (C) 2018, 2020, 2022, 2025 Cirrus Logic, Inc. and
 //               Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/array_size.h>
-#include <linux/build_bug.h>
-#include <linux/device.h>
-#include <linux/linear_range.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/array_size.h>
+#include <robux/build_bug.h>
+#include <robux/device.h>
+#include <robux/linear_range.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 #include <sound/cs48l32.h>
 #include <sound/cs48l32_registers.h>
 

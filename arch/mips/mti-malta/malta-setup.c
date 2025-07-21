@@ -4,16 +4,16 @@
  * Copyright (C) 2000 MIPS Technologies, Inc.  All rights reserved.
  * Copyright (C) 2008 Dmitri Vorobiev
  */
-#include <linux/cpu.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/of_fdt.h>
-#include <linux/pci.h>
-#include <linux/screen_info.h>
-#include <linux/time.h>
-#include <linux/dma-map-ops.h> /* for dma_default_coherent */
+#include <robux/cpu.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/ioport.h>
+#include <robux/irq.h>
+#include <robux/of_fdt.h>
+#include <robux/pci.h>
+#include <robux/screen_info.h>
+#include <robux/time.h>
+#include <robux/dma-map-ops.h> /* for dma_default_coherent */
 
 #include <asm/fw/fw.h>
 #include <asm/mips-cps.h>
@@ -24,7 +24,7 @@
 #include <asm/prom.h>
 #include <asm/traps.h>
 #ifdef CONFIG_VT
-#include <linux/console.h>
+#include <robux/console.h>
 #endif
 
 #define ROCIT_CONFIG_GEN0		0x1f403000

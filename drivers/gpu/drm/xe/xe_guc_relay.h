@@ -6,8 +6,8 @@
 #ifndef _XE_GUC_RELAY_H_
 #define _XE_GUC_RELAY_H_
 
-#include <linux/types.h>
-#include <linux/errno.h>
+#include <robux/types.h>
+#include <robux/errno.h>
 
 struct xe_guc_relay;
 

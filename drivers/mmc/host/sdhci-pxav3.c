@@ -7,22 +7,22 @@
  *		Philip Rakity <prakity@marvell.com>
  *		Mark Brown <markb@marvell.com>
  */
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/platform_data/pxa_sdhci.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/mbus.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/host.h>
+#include <robux/platform_data/pxa_sdhci.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/mbus.h>
 
 #include "sdhci.h"
 #include "sdhci-pltfm.h"

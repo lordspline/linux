@@ -7,15 +7,15 @@
  * Author: Peter Rosin <peda@axentia.se>
  */
 
-#include <linux/bitmap.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mux/driver.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
+#include <robux/bitmap.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mux/driver.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
 
 struct mux_gpio {
 	struct gpio_descs *gpios;

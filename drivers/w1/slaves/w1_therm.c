@@ -7,19 +7,19 @@
 
 #include <asm/types.h>
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/hwmon.h>
-#include <linux/string.h>
-#include <linux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/sched.h>
+#include <robux/device.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/hwmon.h>
+#include <robux/string.h>
+#include <robux/jiffies.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 #define W1_THERM_DS18S20	0x10
 #define W1_THERM_DS1822		0x22

@@ -13,17 +13,17 @@
  *	The LEDs can be configured at runtime in /sys/class/leds/
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/utsname.h>
-#include <linux/capability.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
-#include <linux/uaccess.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/ioport.h>
+#include <robux/utsname.h>
+#include <robux/capability.h>
+#include <robux/delay.h>
+#include <robux/reboot.h>
+#include <robux/uaccess.h>
+#include <robux/leds.h>
+#include <robux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/processor.h>
@@ -456,7 +456,7 @@ static int __init early_led_init(void)
 	int ret;
 
 	scnprintf(lcd_text, sizeof(lcd_text),
-		"Linux %s", init_utsname()->release);
+		"Robux %s", init_utsname()->release);
 	lcd_new_text = 1;
 
 	/* Work around the buggy PDC of KittyHawk-machines */

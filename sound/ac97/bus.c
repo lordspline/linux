@@ -3,18 +3,18 @@
  * Copyright (C) 2016 Robert Jarzmik <robert.jarzmik@free.fr>
  */
 
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <robux/module.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/idr.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
 #include <sound/ac97_codec.h>
 #include <sound/ac97/codec.h>
 #include <sound/ac97/controller.h>

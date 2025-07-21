@@ -5,18 +5,18 @@
  * 2024 by Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/hex.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/hex.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
-#include <linux/turris-omnia-mcu-interface.h>
+#include <robux/turris-omnia-mcu-interface.h>
 #include "turris-omnia-mcu.h"
 
 #define OMNIA_FW_VERSION_LEN		20

@@ -19,7 +19,7 @@
 #include "xfs_xattr.h"
 #include "xfs_quota.h"
 
-#include <linux/posix_acl_xattr.h>
+#include <robux/posix_acl_xattr.h>
 
 /*
  * Get permission to use log-assisted atomic exchange of file extents.

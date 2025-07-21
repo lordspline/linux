@@ -7,9 +7,9 @@
 #ifndef _V4L2_CCI_H
 #define _V4L2_CCI_H
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/types.h>
 
 struct i2c_client;
 struct regmap;

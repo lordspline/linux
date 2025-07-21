@@ -6,15 +6,15 @@
  *	    Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/usb/g_uvc.h>
-#include <linux/usb/uvc.h>
-#include <linux/videodev2.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/usb/g_uvc.h>
+#include <robux/usb/uvc.h>
+#include <robux/videodev2.h>
+#include <robux/vmalloc.h>
+#include <robux/wait.h>
 
 #include <media/v4l2-dev.h>
 #include <media/v4l2-event.h>

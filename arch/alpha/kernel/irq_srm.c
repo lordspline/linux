@@ -3,9 +3,9 @@
  * Handle interrupts from the SRM, assuming no additional weirdness.
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/irq.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/irq.h>
 
 #include "proto.h"
 #include "irq_impl.h"

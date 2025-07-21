@@ -4,12 +4,12 @@
  *
  * Copyright (c) 2006 Andriy Skulysh <askulsyh@gmail.com>
  */
-#include <linux/init.h>
-#include <linux/suspend.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
+#include <robux/init.h>
+#include <robux/suspend.h>
+#include <robux/errno.h>
+#include <robux/time.h>
+#include <robux/delay.h>
+#include <robux/gfp.h>
 #include <asm/io.h>
 #include <asm/hd64461.h>
 #include <asm/bl_bit.h>

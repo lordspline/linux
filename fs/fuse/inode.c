@@ -9,23 +9,23 @@
 #include "fuse_i.h"
 #include "dev_uring_i.h"
 
-#include <linux/dax.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/seq_file.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/statfs.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/exportfs.h>
-#include <linux/posix_acl.h>
-#include <linux/pid_namespace.h>
-#include <uapi/linux/magic.h>
+#include <robux/dax.h>
+#include <robux/pagemap.h>
+#include <robux/slab.h>
+#include <robux/file.h>
+#include <robux/seq_file.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/fs_context.h>
+#include <robux/fs_parser.h>
+#include <robux/statfs.h>
+#include <robux/random.h>
+#include <robux/sched.h>
+#include <robux/exportfs.h>
+#include <robux/posix_acl.h>
+#include <robux/pid_namespace.h>
+#include <uapi/robux/magic.h>
 
 MODULE_AUTHOR("Miklos Szeredi <miklos@szeredi.hu>");
 MODULE_DESCRIPTION("Filesystem in Userspace");

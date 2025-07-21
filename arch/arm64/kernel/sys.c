@@ -6,14 +6,14 @@
  * Author: Catalin Marinas <catalin.marinas@arm.com>
  */
 
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
+#include <robux/compiler.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/export.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/syscalls.h>
 
 #include <asm/cpufeature.h>
 #include <asm/syscall.h>

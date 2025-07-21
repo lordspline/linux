@@ -9,7 +9,7 @@
 #ifndef __PEF2256_H__
 #define __PEF2256_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct pef2256;
 struct regmap;

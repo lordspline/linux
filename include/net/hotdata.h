@@ -2,8 +2,8 @@
 #ifndef _NET_HOTDATA_H
 #define _NET_HOTDATA_H
 
-#include <linux/types.h>
-#include <linux/netdevice.h>
+#include <robux/types.h>
+#include <robux/netdevice.h>
 #include <net/protocol.h>
 
 /* Read mostly data used in network fast paths. */

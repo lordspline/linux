@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0 OR MIT
 /* Copyright 2017-2019 Qiang Yu <yuq825@gmail.com> */
 
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
+#include <robux/clk.h>
+#include <robux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
 
 #include "lima_device.h"
 #include "lima_gp.h"

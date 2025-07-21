@@ -17,8 +17,8 @@
  *		 2	 numerator
  */
 
-#include <linux/clk-provider.h>
-#include <linux/rational.h>
+#include <robux/clk-provider.h>
+#include <robux/rational.h>
 
 #include "ccu_ddn.h"
 

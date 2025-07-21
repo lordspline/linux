@@ -8,14 +8,14 @@
  *  Copyright (C) 2020, Topic Embedded Products
  */
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/power_supply.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/power_supply.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
 
 /* Registers (names based on what datasheet uses) */
 #define LTC4162L_EN_LIMIT_ALERTS_REG		0x0D

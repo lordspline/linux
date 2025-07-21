@@ -19,13 +19,13 @@
 #include <drm/drm_managed.h>
 #include <drm/drm_vblank.h>
 
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <robux/bitops.h>
+#include <robux/dma-mapping.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
 
 #include <media/vsp1.h>
 

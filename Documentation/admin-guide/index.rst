@@ -1,5 +1,5 @@
 =================================================
-The Linux kernel user's and administrator's guide
+The Robux kernel user's and administrator's guide
 =================================================
 
 The following is a collection of user-oriented documents that have been
@@ -65,7 +65,7 @@ problems and bugs in particular.
 
    reporting-issues
    reporting-regressions
-   quickly-build-trimmed-linux
+   quickly-build-trimmed-robux
    verify-bugs-and-bisect-regressions
    bug-hunting
    bug-bisect
@@ -136,7 +136,7 @@ Block-layer and filesystem administration
 Device-specific guides
 ----------------------
 
-How to configure your hardware within your Linux system.
+How to configure your hardware within your Robux system.
 
 .. toctree::
    :maxdepth: 1
@@ -170,7 +170,7 @@ Workload analysis
 
 This is the beginning of a section with information of interest to
 application developers and system integrators doing analysis of the
-Linux kernel for safety critical applications. Documents supporting
+Robux kernel for safety critical applications. Documents supporting
 analysis of kernel interactions with applications, and key kernel
 subsystems expectations will be found here.
 

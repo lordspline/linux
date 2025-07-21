@@ -22,9 +22,9 @@
  *
  */
 
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/iommu.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/iommu.h>
 
 #include <drm/drm_managed.h>
 

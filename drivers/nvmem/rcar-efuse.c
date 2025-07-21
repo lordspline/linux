@@ -5,14 +5,14 @@
  * Copyright (C) 2024 Glider bv
  */
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/nvmem-provider.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/nvmem-provider.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
 
 struct rcar_fuse {
 	struct nvmem_keepout keepouts[2];

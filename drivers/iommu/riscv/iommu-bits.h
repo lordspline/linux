@@ -14,9 +14,9 @@
 #ifndef _RISCV_IOMMU_BITS_H_
 #define _RISCV_IOMMU_BITS_H_
 
-#include <linux/types.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
+#include <robux/types.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
 
 /*
  * Chapter 5: Memory Mapped register interface

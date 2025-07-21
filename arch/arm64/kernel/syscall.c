@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/compiler.h>
-#include <linux/context_tracking.h>
-#include <linux/errno.h>
-#include <linux/nospec.h>
-#include <linux/ptrace.h>
-#include <linux/randomize_kstack.h>
-#include <linux/syscalls.h>
+#include <robux/compiler.h>
+#include <robux/context_tracking.h>
+#include <robux/errno.h>
+#include <robux/nospec.h>
+#include <robux/ptrace.h>
+#include <robux/randomize_kstack.h>
+#include <robux/syscalls.h>
 
 #include <asm/debug-monitors.h>
 #include <asm/exception.h>

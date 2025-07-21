@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2011-2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2012, The Robux Foundation. All rights reserved.
  *
  * Description: CoreSight Funnel driver
  */
 
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/coresight.h>
-#include <linux/amba/bus.h>
-#include <linux/clk.h>
+#include <robux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/coresight.h>
+#include <robux/amba/bus.h>
+#include <robux/clk.h>
 
 #include "coresight-priv.h"
 

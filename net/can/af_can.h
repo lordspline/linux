@@ -40,11 +40,11 @@
 #ifndef AF_CAN_H
 #define AF_CAN_H
 
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/list.h>
-#include <linux/rcupdate.h>
-#include <linux/can.h>
+#include <robux/skbuff.h>
+#include <robux/netdevice.h>
+#include <robux/list.h>
+#include <robux/rcupdate.h>
+#include <robux/can.h>
 
 /* af_can rx dispatcher structures */
 

@@ -5,16 +5,16 @@
  *
  * Copyright (C) 2024 Helge Deller <deller@gmx.de>
  */
-#include <linux/clockchips.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/sched_clock.h>
-#include <linux/spinlock.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
+#include <robux/clockchips.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/sched_clock.h>
+#include <robux/spinlock.h>
+#include <robux/rtc.h>
+#include <robux/platform_device.h>
 #include <asm/processor.h>
 
 static u64 cr16_clock_freq;

@@ -5,10 +5,10 @@
  * Copyright 1995-2002, Russell King
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/blkdev.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/blkdev.h>
+#include <robux/init.h>
 
 #include <asm/ecard.h>
 #include <asm/io.h>

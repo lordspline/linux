@@ -29,12 +29,12 @@
 
 #include "vdo.h"
 
-#include <linux/completion.h>
-#include <linux/device-mapper.h>
-#include <linux/lz4.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/completion.h>
+#include <robux/device-mapper.h>
+#include <robux/lz4.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

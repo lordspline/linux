@@ -10,8 +10,8 @@
  *	Rick Gorton	<rick.gorton@alpha-processor.com>
  */
  
-#include <linux/module.h>
-#include <linux/string.h>
+#include <robux/module.h>
+#include <robux/string.h>
 #include <net/checksum.h>
 
 #include <asm/byteorder.h>

@@ -7,15 +7,15 @@
  * Lorenzo Bianconi <lorenzo.bianconi@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/iio/sysfs.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/bitfield.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/iio/sysfs.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/bitfield.h>
 
 #include "hts221.h"
 

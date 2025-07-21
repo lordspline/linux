@@ -7,17 +7,17 @@
  * Copyright © 2000-2010 David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/kmod.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/kmod.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
 
 #include "mtdcore.h"
 

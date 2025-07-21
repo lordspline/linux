@@ -8,16 +8,16 @@
  * Based on mcs_touchkey.c
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
 /* Register definitions */
 #define ELE_TOUCH_STATUS_0_ADDR	0x0
@@ -218,18 +218,18 @@ static int mpr_touchkey_probe(struct i2c_client *client)
 
 	mpr121->client = client;
 	mpr121->input_dev = input_dev;
-	mpr121->keycount = device_property_count_u32(dev, "linux,keycodes");
+	mpr121->keycount = device_property_count_u32(dev, "robux,keycodes");
 	if (mpr121->keycount > MPR121_MAX_KEY_COUNT) {
 		dev_err(dev, "too many keys defined (%d)\n", mpr121->keycount);
 		return -EINVAL;
 	}
 
-	error = device_property_read_u32_array(dev, "linux,keycodes",
+	error = device_property_read_u32_array(dev, "robux,keycodes",
 					       mpr121->keycodes,
 					       mpr121->keycount);
 	if (error) {
 		dev_err(dev,
-			"failed to read linux,keycode property: %d\n", error);
+			"failed to read robux,keycode property: %d\n", error);
 		return error;
 	}
 

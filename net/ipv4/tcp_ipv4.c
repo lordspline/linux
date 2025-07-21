@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the ROBUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -9,9 +9,9 @@
  *		IPv4 specific functions
  *
  *		code split from:
- *		linux/ipv4/tcp.c
- *		linux/ipv4/tcp_input.c
- *		linux/ipv4/tcp_output.c
+ *		robux/ipv4/tcp.c
+ *		robux/ipv4/tcp_input.c
+ *		robux/ipv4/tcp_output.c
  *
  *		See tcp.c for author information
  */
@@ -47,17 +47,17 @@
 
 #define pr_fmt(fmt) "TCP: " fmt
 
-#include <linux/bottom_half.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/cache.h>
-#include <linux/jhash.h>
-#include <linux/init.h>
-#include <linux/times.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
+#include <robux/bottom_half.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/module.h>
+#include <robux/random.h>
+#include <robux/cache.h>
+#include <robux/jhash.h>
+#include <robux/init.h>
+#include <robux/times.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
 
 #include <net/net_namespace.h>
 #include <net/icmp.h>
@@ -73,17 +73,17 @@
 #include <net/busy_poll.h>
 #include <net/rstreason.h>
 
-#include <linux/inet.h>
-#include <linux/ipv6.h>
-#include <linux/stddef.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/inetdevice.h>
-#include <linux/btf_ids.h>
-#include <linux/skbuff_ref.h>
+#include <robux/inet.h>
+#include <robux/ipv6.h>
+#include <robux/stddef.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/inetdevice.h>
+#include <robux/btf_ids.h>
+#include <robux/skbuff_ref.h>
 
 #include <crypto/hash.h>
-#include <linux/scatterlist.h>
+#include <robux/scatterlist.h>
 
 #include <trace/events/tcp.h>
 
@@ -580,7 +580,7 @@ int tcp_v4_err(struct sk_buff *skb, u32 info)
 
 		if (code == ICMP_FRAG_NEEDED) { /* PMTU discovery (RFC1191) */
 			/* We are not interested in TCP_LISTEN and open_requests
-			 * (SYN-ACKs send out by Linux are always <576bytes so
+			 * (SYN-ACKs send out by Robux are always <576bytes so
 			 * they should go through unfragmented).
 			 */
 			if (sk->sk_state == TCP_LISTEN)
@@ -639,7 +639,7 @@ int tcp_v4_err(struct sk_buff *skb, u32 info)
 	 * Note, that in modern internet, where routing is unreliable
 	 * and in each dark corner broken firewalls sit, sending random
 	 * errors ordered by their masters even this two messages finally lose
-	 * their original sense (even Linux sends invalid PORT_UNREACHs)
+	 * their original sense (even Robux sends invalid PORT_UNREACHs)
 	 *
 	 * Now we are in compliance with RFCs.
 	 *							--ANK (980905)

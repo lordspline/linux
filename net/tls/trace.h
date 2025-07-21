@@ -7,8 +7,8 @@
 #if !defined(_TLS_TRACE_H_) || defined(TRACE_HEADER_MULTI_READ)
 #define _TLS_TRACE_H_
 
-#include <linux/unaligned.h>
-#include <linux/tracepoint.h>
+#include <robux/unaligned.h>
+#include <robux/tracepoint.h>
 
 struct sock;
 

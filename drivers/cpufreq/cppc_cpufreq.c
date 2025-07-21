@@ -10,19 +10,19 @@
 
 #define pr_fmt(fmt)	"CPPC Cpufreq:"	fmt
 
-#include <linux/arch_topology.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/irq_work.h>
-#include <linux/kthread.h>
-#include <linux/time.h>
-#include <linux/vmalloc.h>
-#include <uapi/linux/sched/types.h>
+#include <robux/arch_topology.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/cpu.h>
+#include <robux/cpufreq.h>
+#include <robux/irq_work.h>
+#include <robux/kthread.h>
+#include <robux/time.h>
+#include <robux/vmalloc.h>
+#include <uapi/robux/sched/types.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include <acpi/cppc_acpi.h>
 

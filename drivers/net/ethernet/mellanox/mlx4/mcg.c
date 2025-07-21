@@ -31,12 +31,12 @@
  * SOFTWARE.
  */
 
-#include <linux/string.h>
-#include <linux/etherdevice.h>
+#include <robux/string.h>
+#include <robux/etherdevice.h>
 
-#include <linux/mlx4/cmd.h>
-#include <linux/mlx4/qp.h>
-#include <linux/export.h>
+#include <robux/mlx4/cmd.h>
+#include <robux/mlx4/qp.h>
+#include <robux/export.h>
 
 #include "mlx4.h"
 

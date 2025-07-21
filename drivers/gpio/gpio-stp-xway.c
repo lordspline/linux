@@ -4,17 +4,17 @@
  *  Copyright (C) 2012 John Crispin <john@phrozen.org>
  */
 
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/of.h>
-#include <linux/mutex.h>
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/err.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/of.h>
+#include <robux/mutex.h>
+#include <robux/gpio/driver.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/err.h>
 
 /*
  * The Serial To Parallel (STP) is found on MIPS based Lantiq socs. It is a

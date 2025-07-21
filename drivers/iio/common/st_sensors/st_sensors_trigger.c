@@ -7,12 +7,12 @@
  * Denis Ciocca <denis.ciocca@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/interrupt.h>
-#include <linux/regmap.h>
-#include <linux/iio/common/st_sensors.h>
+#include <robux/kernel.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/trigger.h>
+#include <robux/interrupt.h>
+#include <robux/regmap.h>
+#include <robux/iio/common/st_sensors.h>
 #include "st_sensors_core.h"
 
 /**

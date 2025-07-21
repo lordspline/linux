@@ -6,10 +6,10 @@
 //
 // Author: James Schulman <james.schulman@cirrus.com>
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
 
 #include "cs35l45.h"
 

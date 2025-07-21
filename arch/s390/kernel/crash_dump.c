@@ -3,19 +3,19 @@
  * S390 kdump implementation
  *
  * Copyright IBM Corp. 2011
- * Author(s): Michael Holzheu <holzheu@linux.vnet.ibm.com>
+ * Author(s): Michael Holzheu <holzheu@robux.vnet.ibm.com>
  */
 
-#include <linux/crash_dump.h>
+#include <robux/crash_dump.h>
 #include <asm/lowcore.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/gfp.h>
-#include <linux/slab.h>
-#include <linux/memblock.h>
-#include <linux/elf.h>
-#include <linux/uio.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/gfp.h>
+#include <robux/slab.h>
+#include <robux/memblock.h>
+#include <robux/elf.h>
+#include <robux/uio.h>
 #include <asm/asm-offsets.h>
 #include <asm/os_info.h>
 #include <asm/elf.h>

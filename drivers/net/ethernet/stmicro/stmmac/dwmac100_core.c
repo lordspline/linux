@@ -14,8 +14,8 @@
   Author: Giuseppe Cavallaro <peppe.cavallaro@st.com>
 *******************************************************************************/
 
-#include <linux/crc32.h>
-#include <linux/io.h>
+#include <robux/crc32.h>
+#include <robux/io.h>
 #include "stmmac.h"
 #include "dwmac100.h"
 

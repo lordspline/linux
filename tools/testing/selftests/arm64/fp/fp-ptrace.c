@@ -21,7 +21,7 @@
 #include <sys/uio.h>
 #include <sys/wait.h>
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 #include <asm/sigcontext.h>
 #include <asm/sve_context.h>
@@ -31,7 +31,7 @@
 
 #include "fp-ptrace.h"
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 #define FPMR_LSCALE2_MASK                               GENMASK(37, 32)
 #define FPMR_NSCALE_MASK                                GENMASK(31, 24)
@@ -39,7 +39,7 @@
 #define FPMR_OSC_MASK                                   GENMASK(15, 15)
 #define FPMR_OSM_MASK                                   GENMASK(14, 14)
 
-/* <linux/elf.h> and <sys/auxv.h> don't like each other, so: */
+/* <robux/elf.h> and <sys/auxv.h> don't like each other, so: */
 #ifndef NT_ARM_SVE
 #define NT_ARM_SVE 0x405
 #endif

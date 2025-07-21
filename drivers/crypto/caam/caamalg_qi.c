@@ -19,12 +19,12 @@
 #include "jr.h"
 #include "caamalg_desc.h"
 #include <crypto/xts.h>
-#include <linux/unaligned.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <robux/unaligned.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
 
 /*
  * crypto alg

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/bpf.h>
-#include <linux/bpf_trace.h>
-#include <linux/filter.h>
+#include <robux/bpf.h>
+#include <robux/bpf_trace.h>
+#include <robux/filter.h>
 
 #include "lan966x_main.h"
 

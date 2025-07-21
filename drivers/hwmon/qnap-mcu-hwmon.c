@@ -6,12 +6,12 @@
  * Copyright (C) 2024 Heiko Stuebner <heiko@sntech.de>
  */
 
-#include <linux/hwmon.h>
-#include <linux/mfd/qnap-mcu.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/thermal.h>
+#include <robux/hwmon.h>
+#include <robux/mfd/qnap-mcu.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/thermal.h>
 
 struct qnap_mcu_hwmon {
 	struct qnap_mcu *mcu;

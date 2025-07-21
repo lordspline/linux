@@ -57,7 +57,7 @@
 #include "xdp_redirect_map.skel.h"
 #include "xdp_redirect_multi_kern.skel.h"
 #include "xdp_tx.skel.h"
-#include <uapi/linux/if_link.h>
+#include <uapi/robux/if_link.h>
 
 #define VETH_PAIRS_COUNT	3
 #define VETH_NAME_MAX_LEN	32

@@ -5,14 +5,14 @@
  * Copyright (c) 2022 Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/minmax.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/minmax.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-subdev.h>

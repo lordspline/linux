@@ -43,7 +43,7 @@
 // - RISC-V Vector SM4 Block Cipher extension ('Zvksed')
 // - RISC-V Vector Cryptography Bit-manipulation extension ('Zvkb')
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 .text
 .option arch, +zvksed, +zvkb

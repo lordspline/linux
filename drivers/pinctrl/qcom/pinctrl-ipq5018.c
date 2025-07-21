@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2019-2021, 2023 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019-2021, 2023 The Robux Foundation. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
 
 #include "pinctrl-msm.h"
 

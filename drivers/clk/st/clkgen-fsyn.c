@@ -9,10 +9,10 @@
  * Pankaj Dev <pankaj.dev@st.com>.
  */
 
-#include <linux/slab.h>
-#include <linux/of_address.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
+#include <robux/slab.h>
+#include <robux/of_address.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
 
 #include "clkgen.h"
 

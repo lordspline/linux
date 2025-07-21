@@ -25,12 +25,12 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/usb.h>
-#include <linux/usb/quirks.h>
-#include <linux/usb/hcd.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/usb.h>
+#include <robux/usb/quirks.h>
+#include <robux/usb/hcd.h>
 
 #include "usb.h"
 

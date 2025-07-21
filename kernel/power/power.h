@@ -1,12 +1,12 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/suspend.h>
-#include <linux/suspend_ioctls.h>
-#include <linux/utsname.h>
-#include <linux/freezer.h>
-#include <linux/compiler.h>
-#include <linux/cpu.h>
-#include <linux/cpuidle.h>
-#include <linux/crypto.h>
+#include <robux/suspend.h>
+#include <robux/suspend_ioctls.h>
+#include <robux/utsname.h>
+#include <robux/freezer.h>
+#include <robux/compiler.h>
+#include <robux/cpu.h>
+#include <robux/cpuidle.h>
+#include <robux/crypto.h>
 
 struct swsusp_info {
 	struct new_utsname	uts;

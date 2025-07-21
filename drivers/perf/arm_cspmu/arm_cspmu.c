@@ -20,16 +20,16 @@
  *
  */
 
-#include <linux/acpi.h>
-#include <linux/cacheinfo.h>
-#include <linux/ctype.h>
-#include <linux/interrupt.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/cacheinfo.h>
+#include <robux/ctype.h>
+#include <robux/interrupt.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/perf_event.h>
+#include <robux/platform_device.h>
 
 #include "arm_cspmu.h"
 

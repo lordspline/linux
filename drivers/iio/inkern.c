@@ -3,21 +3,21 @@
  *
  * Copyright (c) 2011 Jonathan Cameron
  */
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/minmax.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/minmax.h>
+#include <robux/mm.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/iio-opaque.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/iio-opaque.h>
 #include "iio_core.h"
-#include <linux/iio/machine.h>
-#include <linux/iio/driver.h>
-#include <linux/iio/consumer.h>
+#include <robux/iio/machine.h>
+#include <robux/iio/driver.h>
+#include <robux/iio/consumer.h>
 
 struct iio_map_internal {
 	struct iio_dev *indio_dev;

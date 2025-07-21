@@ -8,14 +8,14 @@
 #ifndef __ARM_CSPMU_H__
 #define __ARM_CSPMU_H__
 
-#include <linux/bitfield.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/cpumask.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/perf_event.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
 #define to_arm_cspmu(p) (container_of(p, struct arm_cspmu, pmu))
 

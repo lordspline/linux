@@ -7,10 +7,10 @@
  * Generic platform-device LCD power control interface.
 */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/lcd.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/lcd.h>
+#include <robux/slab.h>
 
 #include <video/platform_lcd.h>
 
@@ -136,7 +136,7 @@ static struct platform_driver platform_lcd_driver = {
 
 module_platform_driver(platform_lcd_driver);
 
-MODULE_AUTHOR("Ben Dooks <ben-linux@fluff.org>");
+MODULE_AUTHOR("Ben Dooks <ben-robux@fluff.org>");
 MODULE_DESCRIPTION("Generic platform-device LCD power control interface");
 MODULE_LICENSE("GPL v2");
 MODULE_ALIAS("platform:platform-lcd");

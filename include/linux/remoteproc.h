@@ -35,13 +35,13 @@
 #ifndef REMOTEPROC_H
 #define REMOTEPROC_H
 
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/virtio.h>
-#include <linux/cdev.h>
-#include <linux/completion.h>
-#include <linux/idr.h>
-#include <linux/of.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
+#include <robux/virtio.h>
+#include <robux/cdev.h>
+#include <robux/completion.h>
+#include <robux/idr.h>
+#include <robux/of.h>
 
 /**
  * struct resource_table - firmware resource table header
@@ -289,7 +289,7 @@ struct fw_rsc_vdev_vring {
  *
  * Note:
  * 1. unlike virtualization systems, the term 'host' here means
- *    the Linux side which is running remoteproc to control the remote
+ *    the Robux side which is running remoteproc to control the remote
  *    processors. We use the name 'gfeatures' to comply with virtio's terms,
  *    though there isn't really any virtualized guest OS here: it's the host
  *    which is responsible for negotiating the final features.
@@ -493,8 +493,8 @@ struct rproc_dump_segment {
  * enum rproc_features - features supported
  *
  * @RPROC_FEAT_ATTACH_ON_RECOVERY: The remote processor does not need help
- *				   from Linux to recover, such as firmware
- *				   loading. Linux just needs to attach after
+ *				   from Robux to recover, such as firmware
+ *				   loading. Robux just needs to attach after
  *				   recovery.
  */
 

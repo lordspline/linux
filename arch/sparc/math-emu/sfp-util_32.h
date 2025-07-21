@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/types.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/types.h>
 #include <asm/byteorder.h>
 
 #define add_ssaaaa(sh, sl, ah, al, bh, bl) 				\

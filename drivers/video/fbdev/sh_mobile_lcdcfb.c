@@ -8,25 +8,25 @@
  * for more details.
  */
 
-#include <linux/atomic.h>
-#include <linux/backlight.h>
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/ctype.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/fbcon.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
-#include <linux/vmalloc.h>
+#include <robux/atomic.h>
+#include <robux/backlight.h>
+#include <robux/clk.h>
+#include <robux/console.h>
+#include <robux/ctype.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/fbcon.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ioctl.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
+#include <robux/vmalloc.h>
 
 #include <video/sh_mobile_lcdc.h>
 

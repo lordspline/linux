@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 /*
  *	NET3	PLIP tuning facilities for the new Niibe PLIP.
  *
@@ -12,7 +12,7 @@
 #ifndef _UAPI_LINUX_IF_PLIP_H
 #define _UAPI_LINUX_IF_PLIP_H
 
-#include <linux/sockios.h>
+#include <robux/sockios.h>
 
 #define	SIOCDEVPLIP	SIOCDEVPRIVATE
 

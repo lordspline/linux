@@ -4,7 +4,7 @@
 #ifndef PVR_ROGUE_FWIF_COMMON_H
 #define PVR_ROGUE_FWIF_COMMON_H
 
-#include <linux/build_bug.h>
+#include <robux/build_bug.h>
 
 /*
  * This macro represents a mask of LSBs that must be zero on data structure

@@ -4,10 +4,10 @@
  * Copyright (c) 2013 HiSilicon Limited.
  * Based on arch/arm/mach-vexpress/platsmp.c, Copyright (C) 2002 ARM Ltd.
  */
-#include <linux/smp.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/delay.h>
+#include <robux/smp.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/delay.h>
 
 #include <asm/cacheflush.h>
 #include <asm/smp_plat.h>

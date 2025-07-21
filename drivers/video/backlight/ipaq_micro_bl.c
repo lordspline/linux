@@ -5,12 +5,12 @@
  * Author : Linus Walleij <linus.walleij@linaro.org>
  */
 
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/mfd/ipaq-micro.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/backlight.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/mfd/ipaq-micro.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 static int micro_bl_update_status(struct backlight_device *bd)
 {

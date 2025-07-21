@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*********************************************************************
  *
- * Linux multisound pinnacle/fiji driver for ALSA.
+ * Robux multisound pinnacle/fiji driver for ALSA.
  *
  * 2002/06/30 Karsten Wiese:
  *	for now this is only used to build a pinnacle / fiji driver.
@@ -11,11 +11,11 @@
  *	support in alsa, i left all the MSND_CLASSIC tokens in this file.
  *	but for now this untested & undone.
  *
- * ripped from linux kernel 2.4.18 by Karsten Wiese.
+ * ripped from robux kernel 2.4.18 by Karsten Wiese.
  *
  * the following is a copy of the 2.4.18 OSS FREE file-heading comment:
  *
- * Turtle Beach MultiSound Sound Card Driver for Linux
+ * Turtle Beach MultiSound Sound Card Driver for Robux
  * msnd_pinnacle.c / msnd_classic.c
  *
  * -- If MSND_CLASSIC is defined:
@@ -32,17 +32,17 @@
  *
  ********************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/firmware.h>
-#include <linux/isa.h>
-#include <linux/isapnp.h>
-#include <linux/irq.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/firmware.h>
+#include <robux/isa.h>
+#include <robux/isapnp.h>
+#include <robux/irq.h>
+#include <robux/io.h>
 
 #include <sound/core.h>
 #include <sound/initval.h>
@@ -748,7 +748,7 @@ MODULE_PARM_DESC(isapnp, "ISA PnP detection for specified soundcard.");
 #endif
 
 MODULE_AUTHOR("Karsten Wiese <annabellesgarden@yahoo.de>");
-MODULE_DESCRIPTION("Turtle Beach " LONGNAME " Linux Driver");
+MODULE_DESCRIPTION("Turtle Beach " LONGNAME " Robux Driver");
 MODULE_LICENSE("GPL");
 MODULE_FIRMWARE(INITCODEFILE);
 MODULE_FIRMWARE(PERMCODEFILE);

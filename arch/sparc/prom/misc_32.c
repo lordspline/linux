@@ -6,10 +6,10 @@
  * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/module.h>
 
 #include <asm/openprom.h>
 #include <asm/oplib.h>

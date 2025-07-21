@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2023-2024, Advanced Micro Devices, Inc.
  */
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/amd_qdma.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/amd_qdma.h>
+#include <robux/regmap.h>
 
 #include "qdma.h"
 

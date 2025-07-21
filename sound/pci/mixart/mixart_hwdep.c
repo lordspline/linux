@@ -7,13 +7,13 @@
  * Copyright (c) 2003 by Digigram <alsa@digigram.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/firmware.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/firmware.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/io.h>
 #include <sound/core.h>
 #include "mixart.h"
 #include "mixart_mixer.h"

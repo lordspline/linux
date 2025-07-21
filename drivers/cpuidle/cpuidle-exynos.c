@@ -8,13 +8,13 @@
  *	Daniel Lezcano <daniel.lezcano@linaro.org>
 */
 
-#include <linux/cpuidle.h>
-#include <linux/cpu_pm.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/platform_data/cpuidle-exynos.h>
+#include <robux/cpuidle.h>
+#include <robux/cpu_pm.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/platform_data/cpuidle-exynos.h>
 
 #include <asm/suspend.h>
 #include <asm/cpuidle.h>

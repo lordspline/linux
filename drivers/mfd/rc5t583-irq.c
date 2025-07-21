@@ -8,10 +8,10 @@
  * based on code
  *      Copyright (C) 2011 RICOH COMPANY,LTD
  */
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/mfd/rc5t583.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/mfd/rc5t583.h>
 
 enum int_type {
 	SYS_INT  = 0x1,

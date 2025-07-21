@@ -4,16 +4,16 @@
  * Copyright(c) 2021 Cornelis Networks.
  */
 
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/xarray.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/hrtimer.h>
-#include <linux/bitmap.h>
-#include <linux/numa.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/vmalloc.h>
+#include <robux/delay.h>
+#include <robux/xarray.h>
+#include <robux/module.h>
+#include <robux/printk.h>
+#include <robux/hrtimer.h>
+#include <robux/bitmap.h>
+#include <robux/numa.h>
 #include <rdma/rdma_vt.h>
 
 #include "hfi.h"

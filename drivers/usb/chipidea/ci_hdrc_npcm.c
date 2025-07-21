@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2023 Nuvoton Technology corporation.
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/usb/chipidea.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/reset-controller.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/usb/chipidea.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/reset-controller.h>
+#include <robux/of.h>
 
 #include "ci.h"
 

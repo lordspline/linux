@@ -16,14 +16,14 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cpumask.h>
-#include <linux/cpufreq.h>
-#include <linux/cpuhotplug.h>
-#include <linux/dtpm.h>
-#include <linux/energy_model.h>
-#include <linux/of.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
+#include <robux/cpumask.h>
+#include <robux/cpufreq.h>
+#include <robux/cpuhotplug.h>
+#include <robux/dtpm.h>
+#include <robux/energy_model.h>
+#include <robux/of.h>
+#include <robux/pm_qos.h>
+#include <robux/slab.h>
 
 struct dtpm_cpu {
 	struct dtpm dtpm;

@@ -16,9 +16,9 @@
 #include "util/header.h"
 #include "util/pmu.h"
 #include <perf/cpumap.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/zalloc.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/zalloc.h>
 #include <ctype.h>
 #include <math.h>
 

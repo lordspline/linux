@@ -6,8 +6,8 @@
 #ifndef _QCOM_PBS_H
 #define _QCOM_PBS_H
 
-#include <linux/errno.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/types.h>
 
 struct device_node;
 struct pbs_dev;

@@ -7,12 +7,12 @@
  * Copyright 2015 Freescale Semiconductor, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/bitfield.h>
-#include <linux/of.h>
-#include <linux/phy.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/bitfield.h>
+#include <robux/of.h>
+#include <robux/phy.h>
 
 #include "aquantia.h"
 

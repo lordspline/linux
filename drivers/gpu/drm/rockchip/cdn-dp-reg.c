@@ -4,12 +4,12 @@
  * Author: Chris Zhong <zyw@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/reset.h>
 
 #include "cdn-dp-core.h"
 #include "cdn-dp-reg.h"

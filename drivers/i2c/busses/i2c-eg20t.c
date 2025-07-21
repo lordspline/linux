@@ -3,20 +3,20 @@
  * Copyright (C) 2011 LAPIS Semiconductor Co., Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/fs.h>
-#include <linux/io.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/pci.h>
-#include <linux/mutex.h>
-#include <linux/ktime.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/i2c.h>
+#include <robux/fs.h>
+#include <robux/io.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/pci.h>
+#include <robux/mutex.h>
+#include <robux/ktime.h>
+#include <robux/slab.h>
 
 #define PCH_EVENT_SET	0	/* I2C Interrupt Event Set Status */
 #define PCH_EVENT_NONE	1	/* I2C Interrupt Event Clear Status */

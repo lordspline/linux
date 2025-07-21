@@ -9,10 +9,10 @@
 #include "pvr_rogue_meta.h"
 #include "pvr_vm.h"
 
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/ktime.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/delay.h>
+#include <robux/ktime.h>
+#include <robux/types.h>
 
 #define POLL_TIMEOUT_USEC 1000000
 

@@ -5,7 +5,7 @@
  */
 #ifndef __iwl_drv_h__
 #define __iwl_drv_h__
-#include <linux/export.h>
+#include <robux/export.h>
 #include <kunit/visibility.h>
 
 /* for all modules */

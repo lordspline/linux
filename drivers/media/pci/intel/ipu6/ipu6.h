@@ -4,9 +4,9 @@
 #ifndef IPU6_H
 #define IPU6_H
 
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <robux/list.h>
+#include <robux/pci.h>
+#include <robux/types.h>
 
 #include "ipu6-buttress.h"
 

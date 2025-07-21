@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2011-2017, The Robux Foundation. All rights reserved.
 // Copyright (c) 2018, Linaro Limited
 
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/slimbus.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/remoteproc/qcom_rproc.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/soc/qcom/qmi.h>
-#include <linux/soc/qcom/pdr.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/slimbus.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
+#include <robux/remoteproc/qcom_rproc.h>
+#include <robux/of.h>
+#include <robux/io.h>
+#include <robux/soc/qcom/qmi.h>
+#include <robux/soc/qcom/pdr.h>
 #include <net/sock.h>
 #include "slimbus.h"
 

@@ -41,13 +41,13 @@
  * Author: Tom Tucker <tom@opengridcomputing.com>
  */
 
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/sysctl.h>
-#include <linux/workqueue.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/sched.h>
-#include <linux/sunrpc/svc_rdma.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/sysctl.h>
+#include <robux/workqueue.h>
+#include <robux/sunrpc/clnt.h>
+#include <robux/sunrpc/sched.h>
+#include <robux/sunrpc/svc_rdma.h>
 
 #define RPCDBG_FACILITY	RPCDBG_SVCXPRT
 

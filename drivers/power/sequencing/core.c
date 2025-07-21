@@ -3,28 +3,28 @@
  * Copyright (C) 2024 Linaro Ltd.
  */
 
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/pwrseq/consumer.h>
-#include <linux/pwrseq/provider.h>
-#include <linux/radix-tree.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
+#include <robux/bug.h>
+#include <robux/cleanup.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/idr.h>
+#include <robux/kernel.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/lockdep.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/pwrseq/consumer.h>
+#include <robux/pwrseq/provider.h>
+#include <robux/radix-tree.h>
+#include <robux/rwsem.h>
+#include <robux/slab.h>
 
 /*
- * Power-sequencing framework for linux.
+ * Power-sequencing framework for robux.
  *
  * This subsystem allows power sequence providers to register a set of targets
  * that consumers may request and power-up/down.

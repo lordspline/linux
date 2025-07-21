@@ -1,5 +1,5 @@
 /*
-   BlueZ - Bluetooth protocol stack for Linux
+   BlueZ - Bluetooth protocol stack for Robux
    Copyright (C) 2000-2001 Qualcomm Incorporated
    Copyright (C) 2009-2010 Gustavo F. Padovan <gustavo@padovan.org>
    Copyright (C) 2010 Google Inc.
@@ -27,8 +27,8 @@
 #ifndef __L2CAP_H
 #define __L2CAP_H
 
-#include <linux/unaligned.h>
-#include <linux/atomic.h>
+#include <robux/unaligned.h>
+#include <robux/atomic.h>
 
 /* L2CAP defaults */
 #define L2CAP_DEFAULT_MTU		672

@@ -5,9 +5,9 @@
  *  Copyright (C) 2006 Alex Dubov <oakad@yahoo.com>
  */
 
-#include <linux/tifm.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
+#include <robux/tifm.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
 
 #define DRIVER_NAME "tifm_7xx1"
 #define DRIVER_VERSION "0.8"

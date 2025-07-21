@@ -3,7 +3,7 @@
  * Copyright © 2022 Intel Corporation
  */
 
-#include <linux/math64.h>
+#include <robux/math64.h>
 
 #include "xe_gt_clock.h"
 

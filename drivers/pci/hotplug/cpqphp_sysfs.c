@@ -12,16 +12,16 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/proc_fs.h>
-#include <linux/workqueue.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/mutex.h>
-#include <linux/debugfs.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/proc_fs.h>
+#include <robux/workqueue.h>
+#include <robux/pci.h>
+#include <robux/pci_hotplug.h>
+#include <robux/mutex.h>
+#include <robux/debugfs.h>
 #include "cpqphp.h"
 
 static DEFINE_MUTEX(cpqphp_mutex);

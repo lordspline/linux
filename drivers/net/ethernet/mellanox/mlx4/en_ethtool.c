@@ -31,15 +31,15 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/mlx4/driver.h>
-#include <linux/mlx4/device.h>
-#include <linux/in.h>
+#include <robux/kernel.h>
+#include <robux/ethtool.h>
+#include <robux/netdevice.h>
+#include <robux/mlx4/driver.h>
+#include <robux/mlx4/device.h>
+#include <robux/in.h>
 #include <net/ip.h>
-#include <linux/bitmap.h>
-#include <linux/mii.h>
+#include <robux/bitmap.h>
+#include <robux/mii.h>
 
 #include "mlx4_en.h"
 #include "en_port.h"

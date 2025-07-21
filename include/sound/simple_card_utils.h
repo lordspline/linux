@@ -8,7 +8,7 @@
 #ifndef __SIMPLE_CARD_UTILS_H
 #define __SIMPLE_CARD_UTILS_H
 
-#include <linux/clk.h>
+#include <robux/clk.h>
 #include <sound/soc.h>
 
 #define simple_util_init_hp(card, sjack, prefix)		\

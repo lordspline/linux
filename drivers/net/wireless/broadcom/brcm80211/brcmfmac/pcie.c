@@ -3,20 +3,20 @@
  * Copyright (c) 2014 Broadcom Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/bcma/bcma.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/kthread.h>
-#include <linux/io.h>
-#include <linux/random.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/firmware.h>
+#include <robux/pci.h>
+#include <robux/vmalloc.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/bcma/bcma.h>
+#include <robux/sched.h>
+#include <robux/sched/signal.h>
+#include <robux/kthread.h>
+#include <robux/io.h>
+#include <robux/random.h>
+#include <robux/unaligned.h>
 
 #include <soc.h>
 #include <chipcommon.h>

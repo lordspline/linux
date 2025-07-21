@@ -9,20 +9,20 @@
  * Copyright (C) 2008, Guennadi Liakhovetski <kernel@pengutronix.de>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/log2.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
-#include <linux/v4l2-mediabus.h>
-#include <linux/module.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/log2.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
+#include <robux/v4l2-mediabus.h>
+#include <robux/module.h>
 
 #include <media/i2c/mt9v032.h>
 #include <media/v4l2-ctrls.h>

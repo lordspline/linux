@@ -9,22 +9,22 @@
  * -------------------------------------------------------------------------
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/irq.h>
-#include <linux/regulator/consumer.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/acpi.h>
+#include <robux/interrupt.h>
+#include <robux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/irq.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define SILEAD_TS_NAME		"silead_ts"
 
@@ -405,7 +405,7 @@ static int silead_ts_load_fw(struct i2c_client *client)
 	/*
 	 * Unfortunately, at the time of writing this comment, we have been unable to
 	 * get permission from Silead, or from device OEMs, to distribute the necessary
-	 * Silead firmware files in linux-firmware.
+	 * Silead firmware files in robux-firmware.
 	 *
 	 * On a whole bunch of devices the UEFI BIOS code contains a touchscreen driver,
 	 * which contains an embedded copy of the firmware. The fw-loader code has a

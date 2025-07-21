@@ -7,19 +7,19 @@
  * Copyright (C) 2007 Oracle.  All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/miscdevice.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/reboot.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/filelock.h>
+#include <robux/miscdevice.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/reboot.h>
+#include <robux/sched.h>
+#include <robux/uaccess.h>
 
 #include "stackglue.h"
 
-#include <linux/dlm_plock.h>
+#include <robux/dlm_plock.h>
 
 /*
  * The control protocol starts with a handshake.  Until the handshake

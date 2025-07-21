@@ -10,13 +10,13 @@
  * Author: Yixun Lan <yixun.lan@amlogic.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/module.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/module.h>
 
-#include <linux/slab.h>
+#include <robux/slab.h>
 #include "meson-aoclk.h"
 
 static int meson_aoclk_do_reset(struct reset_controller_dev *rcdev,

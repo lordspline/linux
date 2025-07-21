@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/hwmon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/hwmon.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
 
 /* Aries current average temp ADC code CSR */
 #define ARIES_CURRENT_AVG_TEMP_ADC_CSR	0x42c

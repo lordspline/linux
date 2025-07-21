@@ -4,10 +4,10 @@
  * Author: Gabriel Fernandez <gabriel.fernandez@foss.st.com> for STMicroelectronics.
  */
 
-#include <linux/bus/stm32_firewall_device.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
+#include <robux/bus/stm32_firewall_device.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
 
 #include "clk-stm32-core.h"
 #include "reset-stm32.h"

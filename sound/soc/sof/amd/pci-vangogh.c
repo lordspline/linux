@@ -11,8 +11,8 @@
  * PCI interface for Vangogh ACP device
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 #include <sound/sof.h>
 #include <sound/soc-acpi.h>
 

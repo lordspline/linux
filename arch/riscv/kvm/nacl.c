@@ -3,8 +3,8 @@
  * Copyright (c) 2024 Ventana Micro Systems Inc.
  */
 
-#include <linux/kvm_host.h>
-#include <linux/vmalloc.h>
+#include <robux/kvm_host.h>
+#include <robux/vmalloc.h>
 #include <asm/kvm_nacl.h>
 
 DEFINE_STATIC_KEY_FALSE(kvm_riscv_nacl_available);

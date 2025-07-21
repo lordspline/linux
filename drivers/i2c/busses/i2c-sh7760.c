@@ -7,16 +7,16 @@
  *
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/module.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/module.h>
 
 #include <asm/clock.h>
 #include <asm/i2c-sh7760.h>

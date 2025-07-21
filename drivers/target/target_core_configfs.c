@@ -12,23 +12,23 @@
  *
  ****************************************************************************/
 
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <robux/kstrtox.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
 #include <generated/utsrelease.h>
-#include <linux/utsname.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/unistd.h>
-#include <linux/string.h>
-#include <linux/parser.h>
-#include <linux/syscalls.h>
-#include <linux/configfs.h>
-#include <linux/spinlock.h>
+#include <robux/utsname.h>
+#include <robux/init.h>
+#include <robux/fs.h>
+#include <robux/namei.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/unistd.h>
+#include <robux/string.h>
+#include <robux/parser.h>
+#include <robux/syscalls.h>
+#include <robux/configfs.h>
+#include <robux/spinlock.h>
 
 #include <target/target_core_base.h>
 #include <target/target_core_backend.h>
@@ -1648,7 +1648,7 @@ static ssize_t target_wwn_vpd_unit_serial_store(struct config_item *item,
 	unsigned char buf[INQUIRY_VPD_SERIAL_LEN] = { };
 
 	/*
-	 * If Linux/SCSI subsystem_api_t plugin got a VPD Unit Serial
+	 * If Robux/SCSI subsystem_api_t plugin got a VPD Unit Serial
 	 * from the struct scsi_device level firmware, do not allow
 	 * VPD Unit Serial to be emulated.
 	 *
@@ -3800,7 +3800,7 @@ static void __exit target_core_exit_configfs(void)
 }
 
 MODULE_DESCRIPTION("Target_Core_Mod/ConfigFS");
-MODULE_AUTHOR("nab@Linux-iSCSI.org");
+MODULE_AUTHOR("nab@Robux-iSCSI.org");
 MODULE_LICENSE("GPL");
 
 module_init(target_core_init_configfs);

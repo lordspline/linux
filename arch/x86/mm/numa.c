@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Common code for 32 and 64-bit NUMA */
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/of.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/mmzone.h>
-#include <linux/ctype.h>
-#include <linux/nodemask.h>
-#include <linux/sched.h>
-#include <linux/topology.h>
-#include <linux/sort.h>
-#include <linux/numa_memblks.h>
+#include <robux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/of.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
+#include <robux/mmzone.h>
+#include <robux/ctype.h>
+#include <robux/nodemask.h>
+#include <robux/sched.h>
+#include <robux/topology.h>
+#include <robux/sort.h>
+#include <robux/numa_memblks.h>
 
 #include <asm/e820/api.h>
 #include <asm/proto.h>

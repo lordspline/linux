@@ -9,12 +9,12 @@
  * The MFGPTs are documented in AMD Geode CS5536 Companion Device Data Book.
  */
 
-#include <linux/kernel.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/cs5535.h>
-#include <linux/clockchips.h>
+#include <robux/kernel.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/cs5535.h>
+#include <robux/clockchips.h>
 
 #define DRV_NAME "cs5535-clockevt"
 

@@ -9,16 +9,16 @@
  *          Milo(Woogyom) Kim <milo.kim@ti.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_data/leds-lp55xx.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/i2c.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_data/leds-lp55xx.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
 #include "leds-lp55xx-common.h"
 

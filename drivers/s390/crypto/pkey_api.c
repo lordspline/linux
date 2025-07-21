@@ -10,9 +10,9 @@
 #define KMSG_COMPONENT "pkey"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/init.h>
-#include <linux/miscdevice.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/miscdevice.h>
+#include <robux/slab.h>
 
 #include "zcrypt_api.h"
 #include "zcrypt_ccamisc.h"

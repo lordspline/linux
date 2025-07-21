@@ -3,8 +3,8 @@
 #ifndef DRM_MODULE_H
 #define DRM_MODULE_H
 
-#include <linux/pci.h>
-#include <linux/platform_device.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
 
 #include <drm/drm_drv.h>
 

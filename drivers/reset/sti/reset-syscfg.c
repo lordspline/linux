@@ -5,15 +5,15 @@
  *
  * Inspired by mach-imx/src.c
  */
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/types.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/types.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
 
 #include "reset-syscfg.h"
 

@@ -56,12 +56,12 @@
  *
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/usb/gadget.h>
-#include <linux/module.h>
-#include <linux/dmapool.h>
-#include <linux/iopoll.h>
-#include <linux/property.h>
+#include <robux/dma-mapping.h>
+#include <robux/usb/gadget.h>
+#include <robux/module.h>
+#include <robux/dmapool.h>
+#include <robux/iopoll.h>
+#include <robux/property.h>
 
 #include "core.h"
 #include "gadget-export.h"

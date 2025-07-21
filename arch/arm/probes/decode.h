@@ -11,8 +11,8 @@
 #ifndef _ARM_KERNEL_PROBES_H
 #define  _ARM_KERNEL_PROBES_H
 
-#include <linux/types.h>
-#include <linux/stddef.h>
+#include <robux/types.h>
+#include <robux/stddef.h>
 #include <asm/probes.h>
 #include <asm/ptrace.h>
 #include <asm/kprobes.h>

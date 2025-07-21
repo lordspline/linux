@@ -17,7 +17,7 @@
 
 #ifdef DEBUG
 
-#include <linux/siphash.h>
+#include <robux/siphash.h>
 
 static __init void print_node(struct allowedips_node *node, u8 bits)
 {

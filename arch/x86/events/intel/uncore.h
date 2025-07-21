@@ -1,11 +1,11 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/slab.h>
-#include <linux/pci.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
 #include <asm/apicdef.h>
 #include <asm/intel-family.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
 
-#include <linux/perf_event.h>
+#include <robux/perf_event.h>
 #include "../perf_event.h"
 
 #define UNCORE_PMU_NAME_LEN		32

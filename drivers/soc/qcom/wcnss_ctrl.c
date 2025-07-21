@@ -3,16 +3,16 @@
  * Copyright (c) 2016, Linaro Ltd.
  * Copyright (c) 2015, Sony Mobile Communications Inc.
  */
-#include <linux/cleanup.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/rpmsg.h>
-#include <linux/soc/qcom/wcnss_ctrl.h>
+#include <robux/cleanup.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/rpmsg.h>
+#include <robux/soc/qcom/wcnss_ctrl.h>
 
 #define WCNSS_REQUEST_TIMEOUT	(5 * HZ)
 #define WCNSS_CBC_TIMEOUT	(10 * HZ)

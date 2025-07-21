@@ -6,14 +6,14 @@
 #ifndef __ASM_RISCV_VECTOR_H
 #define __ASM_RISCV_VECTOR_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <uapi/asm-generic/errno.h>
 
 #ifdef CONFIG_RISCV_ISA_V
 
-#include <linux/stringify.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
+#include <robux/stringify.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
 #include <asm/ptrace.h>
 #include <asm/cpufeature.h>
 #include <asm/csr.h>

@@ -10,13 +10,13 @@
  *	Ben Dooks <ben@simtec.co.uk>
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spi/altera.h>
-#include <linux/spi/spi.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/spi/altera.h>
+#include <robux/spi/spi.h>
+#include <robux/io.h>
+#include <robux/of.h>
 
 #define DRV_NAME "spi_altera"
 

@@ -1,7 +1,7 @@
 /* 
- * Linux/PA-RISC Project (http://www.parisc-linux.org/)
+ * Robux/PA-RISC Project (http://www.parisc-robux.org/)
  * 
- * System call entry code / Linux gateway page
+ * System call entry code / Robux gateway page
  * Copyright (c) Matthew Wilcox 1999 <willy@infradead.org>
  * Licensed under the GNU GPL.
  * thanks to Philipp Rumpf, Mike Shaver and various others
@@ -9,10 +9,10 @@
  */
 
 /*
-How does the Linux gateway page on PA-RISC work?
+How does the Robux gateway page on PA-RISC work?
 ------------------------------------------------
-The Linux gateway page on PA-RISC is "special".
-It actually has PAGE_GATEWAY bits set (this is linux terminology; in parisc
+The Robux gateway page on PA-RISC is "special".
+It actually has PAGE_GATEWAY bits set (this is robux terminology; in parisc
 terminology it's Execute, promote to PL0) in the page map.  So anything
 executing on this page executes with kernel level privilege (there's more to it
 than that: to have this happen, you also have to use a branch with a ,gate
@@ -41,7 +41,7 @@ registers).
 #include <asm/cache.h>
 #include <asm/spinlock_types.h>
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 	/* We fill the empty parts of the gateway page with
  	 * something that will kill the kernel or a
@@ -82,7 +82,7 @@ registers).
 	.import syscall_exit,code
 	.import syscall_exit_rfi,code
 
-	/* Linux gateway page is aliased to virtual page 0 in the kernel
+	/* Robux gateway page is aliased to virtual page 0 in the kernel
 	 * address space. Since it is a gateway page it cannot be
 	 * dereferenced, so null pointers will still fault. We start
 	 * the actual entry point at 0x100. We put break instructions

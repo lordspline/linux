@@ -6,13 +6,13 @@
  *	Andrew F. Davis <afd@ti.com>
  */
 
-#include <linux/idr.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/soc/ti/ti_sci_protocol.h>
+#include <robux/idr.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
+#include <robux/soc/ti/ti_sci_protocol.h>
 
 /**
  * struct ti_sci_reset_control - reset control structure

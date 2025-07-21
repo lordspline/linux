@@ -6,14 +6,14 @@
  *
  * I2C slave address: 0x61
  */
-#include <linux/crc8.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <robux/crc8.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/unaligned.h>
 
 #include "scd30.h"
 

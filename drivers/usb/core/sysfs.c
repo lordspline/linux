@@ -12,13 +12,13 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/string.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/quirks.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/kstrtox.h>
+#include <robux/string.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/quirks.h>
+#include <robux/of.h>
 #include "usb.h"
 
 /* Active configuration fields */

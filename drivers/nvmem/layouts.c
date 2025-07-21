@@ -6,13 +6,13 @@
  * Author: Miquel Raynal <miquel.raynal@bootlin.com
  */
 
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_irq.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/of_irq.h>
 
 #include "internals.h"
 

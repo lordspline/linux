@@ -11,11 +11,11 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
 
 #include <asm/machdep.h>
 #include <asm/ptrace.h>

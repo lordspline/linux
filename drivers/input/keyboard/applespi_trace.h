@@ -12,8 +12,8 @@
 #if !defined(_APPLESPI_TRACE_H_) || defined(TRACE_HEADER_MULTI_READ)
 #define _APPLESPI_TRACE_H_
 
-#include <linux/types.h>
-#include <linux/tracepoint.h>
+#include <robux/types.h>
+#include <robux/tracepoint.h>
 
 #include "applespi.h"
 

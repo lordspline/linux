@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /* Copyright (C) 2024 Rivos Inc. */
 
-#include <linux/args.h>
-#include <linux/linkage.h>
+#include <robux/args.h>
+#include <robux/linkage.h>
 #include <asm/asm.h>
 
 	.text

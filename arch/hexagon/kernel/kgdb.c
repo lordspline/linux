@@ -2,14 +2,14 @@
 /*
  * arch/hexagon/kernel/kgdb.c - Hexagon KGDB Support
  *
- * Copyright (c) 2011-2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2012, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/irq.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kdebug.h>
-#include <linux/kgdb.h>
+#include <robux/irq.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/kdebug.h>
+#include <robux/kgdb.h>
 
 /* All registers are 4 bytes, for now */
 #define GDB_SIZEOF_REG 4

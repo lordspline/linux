@@ -6,7 +6,7 @@
 #ifndef _UFS_MEDIATEK_SIP_H
 #define _UFS_MEDIATEK_SIP_H
 
-#include <linux/soc/mediatek/mtk_sip_svc.h>
+#include <robux/soc/mediatek/mtk_sip_svc.h>
 
 /*
  * SiP (Slicon Partner) commands

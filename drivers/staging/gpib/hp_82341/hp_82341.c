@@ -11,13 +11,13 @@
 #define DRV_NAME KBUILD_MODNAME
 
 #include "hp_82341.h"
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/isapnp.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/sched.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/isapnp.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("GPIB driver for hp 82341a/b/c/d boards");

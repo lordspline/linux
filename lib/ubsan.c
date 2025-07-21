@@ -6,15 +6,15 @@
  * Author: Andrey Ryabinin <ryabinin.a.a@gmail.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/ctype.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
-#include <linux/ubsan.h>
+#include <robux/bitops.h>
+#include <robux/bug.h>
+#include <robux/ctype.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/uaccess.h>
+#include <robux/ubsan.h>
 #include <kunit/test-bug.h>
 
 #include "ubsan.h"

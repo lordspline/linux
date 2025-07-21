@@ -11,12 +11,12 @@
  *
  */
 
-#include <linux/interrupt.h>
-#include <linux/major.h>
-#include <linux/fs.h>
-#include <linux/blkpg.h>
+#include <robux/interrupt.h>
+#include <robux/major.h>
+#include <robux/fs.h>
+#include <robux/blkpg.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "dasd_int.h"
 

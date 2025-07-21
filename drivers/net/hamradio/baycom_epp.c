@@ -25,22 +25,22 @@
 
 /*****************************************************************************/
 
-#include <linux/crc-ccitt.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
-#include <linux/fs.h>
-#include <linux/parport.h>
-#include <linux/if_arp.h>
-#include <linux/hdlcdrv.h>
-#include <linux/baycom.h>
-#include <linux/jiffies.h>
-#include <linux/random.h>
+#include <robux/crc-ccitt.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/string.h>
+#include <robux/workqueue.h>
+#include <robux/fs.h>
+#include <robux/parport.h>
+#include <robux/if_arp.h>
+#include <robux/hdlcdrv.h>
+#include <robux/baycom.h>
+#include <robux/jiffies.h>
+#include <robux/random.h>
 #include <net/ax25.h> 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 /* --------------------------------------------------------------------- */
 
@@ -286,7 +286,7 @@ static inline void baycom_int_freq(struct baycom_state *bc)
 
 static char const eppconfig_path[] = "/usr/sbin/eppfpga";
 
-static char *envp[] = { "HOME=/", "TERM=linux", "PATH=/usr/bin:/bin", NULL };
+static char *envp[] = { "HOME=/", "TERM=robux", "PATH=/usr/bin:/bin", NULL };
 
 /* eppconfig: called during ifconfig up to configure the modem */
 static int eppconfig(struct baycom_state *bc)

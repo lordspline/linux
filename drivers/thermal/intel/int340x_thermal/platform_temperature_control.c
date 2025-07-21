@@ -36,9 +36,9 @@
  *   63:32   RESERVED
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 #include "processor_thermal_device.h"
 
 struct mmio_reg {

@@ -9,11 +9,11 @@
  *  Copyright (C) 2014 MEN Mikro Elektronik Nuernberg GmbH
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/leds.h>
-#include <linux/i2c.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/leds.h>
+#include <robux/i2c.h>
 
 #define BMC_CMD_LED_GET_SET	0xA0
 #define BMC_BIT_LED_STATUS	BIT(0)

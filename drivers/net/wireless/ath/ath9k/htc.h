@@ -17,14 +17,14 @@
 #ifndef HTC_H
 #define HTC_H
 
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/firmware.h>
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/leds.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/firmware.h>
+#include <robux/skbuff.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/leds.h>
+#include <robux/slab.h>
 #include <net/mac80211.h>
 
 #include "common.h"

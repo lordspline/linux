@@ -34,10 +34,10 @@
  *             fileset vfs     -> vp(1) <-> ... <-> vp(n) <->vproot;
  */
 
-#include <linux/fs.h>
-#include <linux/buffer_head.h>
-#include <linux/blkdev.h>
-#include <linux/log2.h>
+#include <robux/fs.h>
+#include <robux/buffer_head.h>
+#include <robux/blkdev.h>
+#include <robux/log2.h>
 
 #include "jfs_incore.h"
 #include "jfs_filsys.h"

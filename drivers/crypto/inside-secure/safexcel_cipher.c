@@ -5,10 +5,10 @@
  * Antoine Tenart <antoine.tenart@free-electrons.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
+#include <robux/unaligned.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmapool.h>
 #include <crypto/aead.h>
 #include <crypto/aes.h>
 #include <crypto/authenc.h>

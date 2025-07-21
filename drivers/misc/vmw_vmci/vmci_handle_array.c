@@ -5,7 +5,7 @@
  * Copyright (C) 2012 VMware, Inc. All rights reserved.
  */
 
-#include <linux/slab.h>
+#include <robux/slab.h>
 #include "vmci_handle_array.h"
 
 struct vmci_handle_arr *vmci_handle_arr_create(u32 capacity, u32 max_capacity)

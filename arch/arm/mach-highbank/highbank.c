@@ -2,21 +2,21 @@
 /*
  * Copyright 2010-2011 Calxeda, Inc.
  */
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clocksource.h>
-#include <linux/dma-map-ops.h>
-#include <linux/input.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/pl320-ipc.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/reboot.h>
-#include <linux/amba/bus.h>
-#include <linux/platform_device.h>
-#include <linux/psci.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/clocksource.h>
+#include <robux/dma-map-ops.h>
+#include <robux/input.h>
+#include <robux/io.h>
+#include <robux/irqchip.h>
+#include <robux/pl320-ipc.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/reboot.h>
+#include <robux/amba/bus.h>
+#include <robux/platform_device.h>
+#include <robux/psci.h>
 
 #include <asm/hardware/cache-l2x0.h>
 #include <asm/mach/arch.h>

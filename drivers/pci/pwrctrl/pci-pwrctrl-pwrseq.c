@@ -3,15 +3,15 @@
  * Copyright (C) 2024 Linaro Ltd.
  */
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pci-pwrctrl.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pwrseq/consumer.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pci-pwrctrl.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/pwrseq/consumer.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 struct pci_pwrctrl_pwrseq_data {
 	struct pci_pwrctrl ctx;

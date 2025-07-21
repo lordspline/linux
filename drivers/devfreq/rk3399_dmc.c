@@ -4,22 +4,22 @@
  * Author: Lin Huang <hl@rock-chips.com>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/devfreq.h>
-#include <linux/devfreq-event.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/rwsem.h>
-#include <linux/suspend.h>
+#include <robux/arm-smccc.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/devfreq.h>
+#include <robux/devfreq-event.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/rwsem.h>
+#include <robux/suspend.h>
 
 #include <soc/rockchip/pm_domains.h>
 #include <soc/rockchip/rockchip_grf.h>

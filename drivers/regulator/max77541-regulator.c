@@ -4,11 +4,11 @@
  * ADI Regulator driver for the MAX77540 and MAX77541
  */
 
-#include <linux/mfd/max77541.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
+#include <robux/mfd/max77541.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
 
 static const struct regulator_ops max77541_buck_ops = {
 	.enable			= regulator_enable_regmap,

@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2017-2018, The Linux foundation. All rights reserved.
+// Copyright (c) 2017-2018, The Robux foundation. All rights reserved.
 
-#include <linux/clk.h>
-#include <linux/dmapool.h>
-#include <linux/dma-mapping.h>
-#include <linux/interconnect.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_opp.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
+#include <robux/clk.h>
+#include <robux/dmapool.h>
+#include <robux/dma-mapping.h>
+#include <robux/interconnect.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_opp.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
 
 
 #define QSPI_NUM_CS		2

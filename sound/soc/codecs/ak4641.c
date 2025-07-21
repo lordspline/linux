@@ -8,14 +8,14 @@
  * Based on ak4535.c by Richard Purdie
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/pm.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/gpio.h>
+#include <robux/pm.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

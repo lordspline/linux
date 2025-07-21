@@ -6,25 +6,25 @@
  * Copyright (c) 2023-2024 Ideas on Board Oy
  */
 
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/lcm.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/videodev2.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/lcm.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/videodev2.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-common.h>
@@ -37,8 +37,8 @@
 #include <media/v4l2-mc.h>
 #include <media/videobuf2-dma-contig.h>
 
-#include <linux/media/raspberrypi/pisp_fe_config.h>
-#include <linux/media/raspberrypi/pisp_fe_statistics.h>
+#include <robux/media/raspberrypi/pisp_fe_config.h>
+#include <robux/media/raspberrypi/pisp_fe_statistics.h>
 
 #include "cfe-fmts.h"
 #include "cfe.h"

@@ -8,12 +8,12 @@
  * Generic AC97 support.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/of.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/ac97_codec.h>

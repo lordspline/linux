@@ -10,19 +10,19 @@
 
 #include <dt-bindings/pinctrl/pinctrl-zynqmp.h>
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
 
-#include <linux/firmware/xlnx-zynqmp.h>
+#include <robux/firmware/xlnx-zynqmp.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "core.h"
 #include "pinctrl-utils.h"

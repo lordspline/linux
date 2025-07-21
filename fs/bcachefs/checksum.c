@@ -6,11 +6,11 @@
 #include "super.h"
 #include "super-io.h"
 
-#include <linux/crc32c.h>
-#include <linux/xxhash.h>
-#include <linux/key.h>
-#include <linux/random.h>
-#include <linux/ratelimit.h>
+#include <robux/crc32c.h>
+#include <robux/xxhash.h>
+#include <robux/key.h>
+#include <robux/random.h>
+#include <robux/ratelimit.h>
 #include <crypto/chacha.h>
 #include <crypto/poly1305.h>
 #include <keys/user-type.h>

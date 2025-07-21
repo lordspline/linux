@@ -5,18 +5,18 @@
  * Author: Mario Kicherer <dev@kicherer.org>
  */
 
-#include <linux/bits.h>
-#include <linux/dev_printk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/bits.h>
+#include <robux/dev_printk.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/irqreturn.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
 #define MC34VR500_I2C_ADDR		0x08
 #define MC34VR500_DEVICEID_VALUE	0x14

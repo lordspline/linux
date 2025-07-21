@@ -5,17 +5,17 @@
  * Copyright (C) 2013-2015 Microchip Technology Germany II GmbH & Co. KG
  */
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/cdev.h>
-#include <linux/poll.h>
-#include <linux/kfifo.h>
-#include <linux/uaccess.h>
-#include <linux/idr.h>
-#include <linux/most.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/cdev.h>
+#include <robux/poll.h>
+#include <robux/kfifo.h>
+#include <robux/uaccess.h>
+#include <robux/idr.h>
+#include <robux/most.h>
 
 #define CHRDEV_REGION_SIZE 50
 

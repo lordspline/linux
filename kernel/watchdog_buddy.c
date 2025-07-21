@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/kernel.h>
-#include <linux/nmi.h>
-#include <linux/percpu-defs.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/kernel.h>
+#include <robux/nmi.h>
+#include <robux/percpu-defs.h>
 
 static cpumask_t __read_mostly watchdog_cpus;
 

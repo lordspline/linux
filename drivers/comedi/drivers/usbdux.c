@@ -67,13 +67,13 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/fcntl.h>
-#include <linux/compiler.h>
-#include <linux/comedi/comedi_usb.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/fcntl.h>
+#include <robux/compiler.h>
+#include <robux/comedi/comedi_usb.h>
 
 /* constants for firmware upload and download */
 #define USBDUX_FIRMWARE		"usbdux_firmware.bin"

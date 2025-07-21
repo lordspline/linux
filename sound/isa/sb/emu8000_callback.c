@@ -7,7 +7,7 @@
  */
 
 #include "emu8000_local.h"
-#include <linux/export.h>
+#include <robux/export.h>
 #include <sound/asoundef.h>
 
 /*

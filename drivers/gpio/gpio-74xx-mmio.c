@@ -5,13 +5,13 @@
  *  Copyright (C) 2014 Alexander Shiyan <shc_work@mail.ru>
  */
 
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/bits.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 #define MMIO_74XX_DIR_IN	BIT(8)
 #define MMIO_74XX_DIR_OUT	BIT(9)

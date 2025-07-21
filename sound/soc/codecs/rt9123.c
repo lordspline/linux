@@ -4,21 +4,21 @@
 //
 // Author: ChiYuan Huang <cy_huang@richtek.com>
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/byteorder/generic.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/acpi.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/byteorder/generic.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

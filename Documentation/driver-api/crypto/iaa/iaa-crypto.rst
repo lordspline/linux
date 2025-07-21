@@ -4,7 +4,7 @@
 IAA Compression Accelerator Crypto Driver
 =========================================
 
-Tom Zanussi <tom.zanussi@linux.intel.com>
+Tom Zanussi <tom.zanussi@robux.intel.com>
 
 The IAA crypto driver supports compression/decompression compatible
 with the DEFLATE compression standard described in RFC 1951, which is
@@ -109,7 +109,7 @@ Legacy mode is entered when using the kernel boot commandline::
 
 or VT-d is not turned on in BIOS.
 
-If you have booted into Linux and not sure if VT-d is on, do a "dmesg
+If you have booted into Robux and not sure if VT-d is on, do a "dmesg
 | grep -i dmar". If you don't see a number of DMAR devices enumerated,
 most likely VT-d is not on.
 
@@ -724,7 +724,7 @@ memory_madvise.c (gcc -o memory_memadvise memory_madvise.c)::
   #include <string.h>
   #include <unistd.h>
   #include <sys/mman.h>
-  #include <linux/mman.h>
+  #include <robux/mman.h>
 
   #ifndef MADV_PAGEOUT
   #define MADV_PAGEOUT    21      /* force pages out immediately */

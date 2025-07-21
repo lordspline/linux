@@ -9,19 +9,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/io.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/timer.h>
-#include <linux/i2c.h>
-#include <linux/swab.h>
-#include <linux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/poll.h>
+#include <robux/io.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/timer.h>
+#include <robux/i2c.h>
+#include <robux/swab.h>
+#include <robux/vmalloc.h>
 
 #include "ddbridge.h"
 #include "ddbridge-i2c.h"

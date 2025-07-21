@@ -12,10 +12,10 @@
 #include <crypto/aes.h>
 #include <crypto/internal/cipher.h>
 #include <crypto/internal/simd.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
 
 #include "aesp8-ppc.h"
 

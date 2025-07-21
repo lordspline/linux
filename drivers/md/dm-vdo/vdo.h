@@ -6,12 +6,12 @@
 #ifndef VDO_H
 #define VDO_H
 
-#include <linux/atomic.h>
-#include <linux/blk_types.h>
-#include <linux/completion.h>
-#include <linux/dm-kcopyd.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <robux/atomic.h>
+#include <robux/blk_types.h>
+#include <robux/completion.h>
+#include <robux/dm-kcopyd.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
 
 #include "admin-state.h"
 #include "encodings.h"

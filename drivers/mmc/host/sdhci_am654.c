@@ -5,14 +5,14 @@
  * Copyright (C) 2018 Texas Instruments Incorporated - https://www.ti.com
  *
  */
-#include <linux/clk.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/sys_soc.h>
+#include <robux/clk.h>
+#include <robux/iopoll.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/sys_soc.h>
 
 #include "cqhci.h"
 #include "sdhci-cqhci.h"

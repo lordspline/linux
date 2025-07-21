@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 /* ATM driver model support. */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/kobject.h>
-#include <linux/atmdev.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/kobject.h>
+#include <robux/atmdev.h>
 #include "common.h"
 #include "resources.h"
 

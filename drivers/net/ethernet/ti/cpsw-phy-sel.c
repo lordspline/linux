@@ -7,11 +7,11 @@
  *
  */
 
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/phy.h>
-#include <linux/of.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/netdevice.h>
+#include <robux/phy.h>
+#include <robux/of.h>
 
 #include "cpsw.h"
 

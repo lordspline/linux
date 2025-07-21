@@ -2,11 +2,11 @@
 // Copyright (C) 2022-2023 Microchip Technology Inc.
 // PCI1xxxx OTP/EEPROM driver
 
-#include <linux/auxiliary_bus.h>
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/device.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/nvmem-provider.h>
 
 #include "mchp_pci1xxxx_gp.h"
 

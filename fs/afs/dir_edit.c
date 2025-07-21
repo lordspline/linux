@@ -5,12 +5,12 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/pagemap.h>
-#include <linux/iversion.h>
-#include <linux/folio_queue.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/namei.h>
+#include <robux/pagemap.h>
+#include <robux/iversion.h>
+#include <robux/folio_queue.h>
 #include "internal.h"
 #include "xdr_fs.h"
 

@@ -3,18 +3,18 @@
 // Copyright 2009 Wolfson Microelectronics
 //      Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/gpio.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/gpio.h>
+#include <robux/export.h>
 
 #include "irqs.h"
 #include "map.h"
 
 #include "devs.h"
-#include <linux/platform_data/asoc-s3c.h>
+#include <robux/platform_data/asoc-s3c.h>
 #include "gpio-cfg.h"
 #include "gpio-samsung.h"
 

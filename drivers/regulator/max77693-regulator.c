@@ -8,19 +8,19 @@
 //
 // This driver is based on max77686.c
 
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/export.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/mfd/max77693.h>
-#include <linux/mfd/max77693-common.h>
-#include <linux/mfd/max77693-private.h>
-#include <linux/mfd/max77843-private.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regmap.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/export.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/mfd/max77693.h>
+#include <robux/mfd/max77693-common.h>
+#include <robux/mfd/max77693-private.h>
+#include <robux/mfd/max77843-private.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/regmap.h>
 
 /*
  * ID for MAX77843 regulators.

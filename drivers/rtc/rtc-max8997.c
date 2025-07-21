@@ -8,14 +8,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/slab.h>
-#include <linux/rtc.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/max8997-private.h>
-#include <linux/irqdomain.h>
+#include <robux/slab.h>
+#include <robux/rtc.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/max8997-private.h>
+#include <robux/irqdomain.h>
 
 /* Module parameter for WTSR function control */
 static int wtsr_en = 1;

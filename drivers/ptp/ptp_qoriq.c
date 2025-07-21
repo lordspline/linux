@@ -7,17 +7,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/hrtimer.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/timex.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
+#include <robux/device.h>
+#include <robux/hrtimer.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/timex.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
 
-#include <linux/fsl/ptp_qoriq.h>
+#include <robux/fsl/ptp_qoriq.h>
 
 /*
  * Register access functions

@@ -10,13 +10,13 @@
  * Based on ak4641.c by Harald Welte
  */
 
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/of_device.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/of_device.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 #include <sound/soc.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

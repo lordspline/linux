@@ -1,5 +1,5 @@
 /*
- * include/linux/topology.h
+ * include/robux/topology.h
  *
  * Written by: Matthew Dobson, IBM Corporation
  *
@@ -27,13 +27,13 @@
 #ifndef _LINUX_TOPOLOGY_H
 #define _LINUX_TOPOLOGY_H
 
-#include <linux/arch_topology.h>
-#include <linux/cpumask.h>
-#include <linux/nodemask.h>
-#include <linux/bitops.h>
-#include <linux/mmzone.h>
-#include <linux/smp.h>
-#include <linux/percpu.h>
+#include <robux/arch_topology.h>
+#include <robux/cpumask.h>
+#include <robux/nodemask.h>
+#include <robux/bitops.h>
+#include <robux/mmzone.h>
+#include <robux/smp.h>
+#include <robux/percpu.h>
 #include <asm/topology.h>
 
 #ifndef nr_cpus_node

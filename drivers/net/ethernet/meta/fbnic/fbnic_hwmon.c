@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) Meta Platforms, Inc. and affiliates. */
 
-#include <linux/hwmon.h>
+#include <robux/hwmon.h>
 
 #include "fbnic.h"
 #include "fbnic_mac.h"

@@ -8,10 +8,10 @@
 // Author: Weidong Wang <wangweidong.a@awinic.com>
 //
 
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/firmware.h>
-#include <linux/regmap.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/firmware.h>
+#include <robux/regmap.h>
 #include <sound/soc.h>
 #include "aw88395.h"
 #include "aw88395_device.h"

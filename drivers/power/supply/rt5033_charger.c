@@ -6,17 +6,17 @@
  * Author: Beomho Seo <beomho.seo@samsung.com>
  */
 
-#include <linux/devm-helpers.h>
-#include <linux/extcon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/mfd/rt5033-private.h>
-#include <linux/property.h>
+#include <robux/devm-helpers.h>
+#include <robux/extcon.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
+#include <robux/mfd/rt5033-private.h>
+#include <robux/property.h>
 
 struct rt5033_charger_data {
 	unsigned int pre_uamp;

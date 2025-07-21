@@ -21,9 +21,9 @@
 
 		key-power {
 			label = "Power Key";
-			linux,code = <KEY_POWER>;
+			robux,code = <KEY_POWER>;
 			gpios = <&port0a 22 GPIO_ACTIVE_HIGH>;
-			linux,input-type = <EV_KEY>;
+			robux,input-type = <EV_KEY>;
 			debounce-interval = <100>;
 		};
 	};

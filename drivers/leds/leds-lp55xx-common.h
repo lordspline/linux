@@ -12,7 +12,7 @@
 #ifndef _LEDS_LP55XX_COMMON_H
 #define _LEDS_LP55XX_COMMON_H
 
-#include <linux/led-class-multicolor.h>
+#include <robux/led-class-multicolor.h>
 
 #define LP55xx_BYTES_PER_PAGE		32      /* bytes */
 

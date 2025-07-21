@@ -1,17 +1,17 @@
 /*
  * Copyright 2003 PathScale, Inc.
- * Copyright (C) 2003 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2003 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  *
  * Licensed under the GPL
  */
 
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/regset.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/errno.h>
+#include <robux/regset.h>
 #define __FRAME_OFFSETS
 #include <asm/ptrace.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <registers.h>
 #include <asm/ptrace-abi.h>
 

@@ -23,27 +23,27 @@
  * with no callbacks.  Callbacks are evil.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/string.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/kmod.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/usb/of.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/of.h>
+#include <robux/string.h>
+#include <robux/bitops.h>
+#include <robux/slab.h>
+#include <robux/kmod.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/errno.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/mutex.h>
+#include <robux/workqueue.h>
+#include <robux/debugfs.h>
+#include <robux/usb/of.h>
 
 #include <asm/io.h>
-#include <linux/scatterlist.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
+#include <robux/scatterlist.h>
+#include <robux/mm.h>
+#include <robux/dma-mapping.h>
 
 #include "hub.h"
 

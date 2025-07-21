@@ -25,8 +25,8 @@
  *
  */
 
-#include <linux/firmware.h>
-#include <linux/mfd/core.h>
+#include <robux/firmware.h>
+#include <robux/mfd/core.h>
 
 #include "amdgpu.h"
 #include "amdgpu_isp.h"

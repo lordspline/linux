@@ -9,11 +9,11 @@
  * PMIC.
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/intel_soc_pmic.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/intel_soc_pmic.h>
 
 #define BXTWC_TMUIRQ		0x4fb6
 #define BXTWC_MIRQLVL1		0x4e0e

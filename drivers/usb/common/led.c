@@ -5,11 +5,11 @@
  * Copyright 2014 Michal Sojka <sojka@merica.cz>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/leds.h>
-#include <linux/usb.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/leds.h>
+#include <robux/usb.h>
 #include "common.h"
 
 #define BLINK_DELAY 30

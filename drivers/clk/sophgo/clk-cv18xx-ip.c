@@ -3,10 +3,10 @@
  * Copyright (C) 2023 Inochi Amaoto <inochiama@outlook.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/gcd.h>
-#include <linux/spinlock.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/gcd.h>
+#include <robux/spinlock.h>
 
 #include "clk-cv18xx-ip.h"
 

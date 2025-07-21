@@ -11,10 +11,10 @@
 #ifndef _UFS_H
 #define _UFS_H
 
-#include <linux/bitops.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/types.h>
 #include <uapi/scsi/scsi_bsg_ufs.h>
-#include <linux/time64.h>
+#include <robux/time64.h>
 
 /*
  * Using static_assert() is not allowed in UAPI header files. Hence the check

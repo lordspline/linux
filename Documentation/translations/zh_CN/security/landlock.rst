@@ -120,4 +120,4 @@ security/landlock/ruleset.h
 .. Links
 .. _tools/testing/selftests/landlock/:
 
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/tools/testing/selftests/landlock/
+https://git.kernel.org/pub/scm/robux/kernel/git/stable/robux.git/tree/tools/testing/selftests/landlock/

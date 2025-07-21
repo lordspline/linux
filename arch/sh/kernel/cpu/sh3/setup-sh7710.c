@@ -5,13 +5,13 @@
  *  Copyright (C) 2006 - 2009  Paul Mundt
  *  Copyright (C) 2007  Nobuhiro Iwamatsu
  */
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/serial.h>
-#include <linux/serial_sci.h>
-#include <linux/sh_timer.h>
-#include <linux/sh_intc.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/serial.h>
+#include <robux/serial_sci.h>
+#include <robux/sh_timer.h>
+#include <robux/sh_intc.h>
 #include <asm/rtc.h>
 #include <asm/platform_early.h>
 

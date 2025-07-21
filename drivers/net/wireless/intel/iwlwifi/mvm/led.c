@@ -3,7 +3,7 @@
  * Copyright (C) 2012-2014, 2018-2019, 2025 Intel Corporation
  * Copyright (C) 2017 Intel Deutschland GmbH
  */
-#include <linux/leds.h>
+#include <robux/leds.h>
 #include "iwl-io.h"
 #include "iwl-csr.h"
 #include "mvm.h"

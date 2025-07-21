@@ -10,36 +10,36 @@
 //
 // Copyright 2004-2009 Freescale Semiconductor, Inc. All Rights Reserved.
 
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/semaphore.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/genalloc.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/dmaengine.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_dma.h>
-#include <linux/workqueue.h>
+#include <robux/init.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/sched.h>
+#include <robux/semaphore.h>
+#include <robux/spinlock.h>
+#include <robux/device.h>
+#include <robux/genalloc.h>
+#include <robux/dma-mapping.h>
+#include <robux/firmware.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/dmaengine.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_dma.h>
+#include <robux/workqueue.h>
 
 #include <asm/irq.h>
-#include <linux/dma/imx-dma.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/imx6q-iomuxc-gpr.h>
+#include <robux/dma/imx-dma.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mfd/syscon/imx6q-iomuxc-gpr.h>
 
 #include "dmaengine.h"
 #include "virt-dma.h"

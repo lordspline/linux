@@ -5,12 +5,12 @@
  * Copyright IBM Corp. 2023
  */
 
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
-#include <linux/kallsyms.h>
-#include <linux/smpboot.h>
-#include <linux/irq.h>
-#include <uapi/linux/sched/types.h>
+#include <robux/cpu.h>
+#include <robux/debugfs.h>
+#include <robux/kallsyms.h>
+#include <robux/smpboot.h>
+#include <robux/irq.h>
+#include <uapi/robux/sched/types.h>
 #include <asm/debug.h>
 #include <asm/diag.h>
 #include <asm/sclp.h>

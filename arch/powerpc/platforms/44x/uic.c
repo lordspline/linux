@@ -6,21 +6,21 @@
  *
  * Copyright 2007 David Gibson <dwg@au1.ibm.com>, IBM Corporation.
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/stddef.h>
-#include <linux/sched.h>
-#include <linux/signal.h>
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/reboot.h>
+#include <robux/slab.h>
+#include <robux/stddef.h>
+#include <robux/sched.h>
+#include <robux/signal.h>
+#include <robux/device.h>
+#include <robux/spinlock.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/kernel_stat.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
 #include <asm/irq.h>
 #include <asm/io.h>
 #include <asm/dcr.h>

@@ -3,18 +3,18 @@
  * Copyright (c) 2011, NVIDIA Corporation.
  */
 
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/rfkill.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/gpio/consumer.h>
+#include <robux/dmi.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/rfkill.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
+#include <robux/gpio/consumer.h>
 
 struct rfkill_gpio_data {
 	const char		*name;

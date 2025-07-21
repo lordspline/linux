@@ -2,7 +2,7 @@
 /*
     hexium_gemini.c - v4l2 driver for Hexium Gemini frame grabber cards
 
-    Visit http://www.mihu.de/linux/saa7146/ and follow the link
+    Visit http://www.mihu.de/robux/saa7146/ and follow the link
     to "hexium" for further details about this card.
 
     Copyright (C) 2003 Michael Hunold <michael@mihu.de>
@@ -14,8 +14,8 @@
 #define DEBUG_VARIABLE debug
 
 #include <media/drv-intf/saa7146_vv.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
 
 static int debug;
 module_param(debug, int, 0);

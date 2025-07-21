@@ -8,23 +8,23 @@
  * more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/backlight.h>
-#include <linux/gfp.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/backlight.h>
+#include <robux/gfp.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
 #include <video/of_videomode.h>
 #include <video/of_display_timing.h>
-#include <linux/regulator/consumer.h>
+#include <robux/regulator/consumer.h>
 #include <video/videomode.h>
 
 #include <video/atmel_lcdc.h>

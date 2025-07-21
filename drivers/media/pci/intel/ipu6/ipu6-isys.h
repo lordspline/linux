@@ -4,12 +4,12 @@
 #ifndef IPU6_ISYS_H
 #define IPU6_ISYS_H
 
-#include <linux/irqreturn.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/pm_qos.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
+#include <robux/irqreturn.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/pm_qos.h>
+#include <robux/spinlock_types.h>
+#include <robux/types.h>
 
 #include <media/media-device.h>
 #include <media/v4l2-async.h>

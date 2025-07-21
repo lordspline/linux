@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * advansys.c - Linux Host Driver for AdvanSys SCSI Adapters
+ * advansys.c - Robux Host Driver for AdvanSys SCSI Adapters
  *
  * Copyright (c) 1995-2000 Advanced System Products, Inc.
  * Copyright (c) 2000-2001 ConnectCom Solutions, Inc.
@@ -15,25 +15,25 @@
  * On June 18, 2001 Initio Corp. acquired ConnectCom's SCSI assets
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/isa.h>
-#include <linux/eisa.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/dmapool.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/proc_fs.h>
+#include <robux/init.h>
+#include <robux/blkdev.h>
+#include <robux/isa.h>
+#include <robux/eisa.h>
+#include <robux/pci.h>
+#include <robux/spinlock.h>
+#include <robux/dma-mapping.h>
+#include <robux/firmware.h>
+#include <robux/dmapool.h>
 
 #include <asm/io.h>
 #include <asm/dma.h>
@@ -1771,7 +1771,7 @@ typedef struct adv_scsi_req_q {
  * to the Mid-Level SCSI request structure.
  *
  * Zero or more ADV_SG_BLOCK are used with each ADV_SCSI_REQ_Q. Each
- * ADV_SG_BLOCK structure holds 15 scatter-gather elements. Under Linux
+ * ADV_SG_BLOCK structure holds 15 scatter-gather elements. Under Robux
  * up to 255 scatter-gather elements may be used per request or
  * ADV_SCSI_REQ_Q.
  *

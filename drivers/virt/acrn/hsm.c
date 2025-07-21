@@ -9,11 +9,11 @@
  *	Yakui Zhao <yakui.zhao@intel.com>
  */
 
-#include <linux/cpu.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/cpu.h>
+#include <robux/io.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include <asm/acrn.h>
 #include <asm/hypervisor.h>

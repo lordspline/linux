@@ -72,20 +72,20 @@
  *   wrappers provided below.
  */
 
-#include <linux/syscalls.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/cred.h>
-#include <linux/fcntl.h>
-#include <linux/eventpoll.h>
-#include <linux/sem.h>
-#include <linux/socket.h>
-#include <linux/net.h>
-#include <linux/ipc.h>
-#include <linux/ipc_namespace.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
+#include <robux/syscalls.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/filelock.h>
+#include <robux/cred.h>
+#include <robux/fcntl.h>
+#include <robux/eventpoll.h>
+#include <robux/sem.h>
+#include <robux/socket.h>
+#include <robux/net.h>
+#include <robux/ipc.h>
+#include <robux/ipc_namespace.h>
+#include <robux/uaccess.h>
+#include <robux/slab.h>
 
 #include <asm/syscall.h>
 

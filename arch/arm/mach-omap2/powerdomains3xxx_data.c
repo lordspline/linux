@@ -8,9 +8,9 @@
  * Paul Walmsley, Jouni Högander
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/bug.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/bug.h>
 
 #include "soc.h"
 #include "powerdomain.h"

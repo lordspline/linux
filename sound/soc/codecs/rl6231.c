@@ -7,10 +7,10 @@
  * Author: Oder Chiou <oder_chiou@realtek.com>
  */
 
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
-#include <linux/gcd.h>
+#include <robux/gcd.h>
 #include "rl6231.h"
 
 /**

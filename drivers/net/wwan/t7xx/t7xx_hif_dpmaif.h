@@ -7,7 +7,7 @@
  *  Amir Hanania <amir.hanania@intel.com>
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@robux.intel.com>
  *
  * Contributors:
  *  Chiranjeevi Rapolu <chiranjeevi.rapolu@intel.com>
@@ -18,15 +18,15 @@
 #ifndef __T7XX_HIF_DPMAIF_H__
 #define __T7XX_HIF_DPMAIF_H__
 
-#include <linux/bitmap.h>
-#include <linux/mm_types.h>
-#include <linux/netdevice.h>
-#include <linux/sched.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <robux/bitmap.h>
+#include <robux/mm_types.h>
+#include <robux/netdevice.h>
+#include <robux/sched.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
 
 #include "t7xx_dpmaif.h"
 #include "t7xx_pci.h"

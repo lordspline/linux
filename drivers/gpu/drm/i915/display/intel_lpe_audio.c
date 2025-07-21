@@ -21,7 +21,7 @@
  * IN THE SOFTWARE.
  *
  * Authors:
- *    Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>
+ *    Pierre-Louis Bossart <pierre-louis.bossart@robux.intel.com>
  *    Jerome Anand <jerome.anand@intel.com>
  *    based on VED patches
  *
@@ -46,7 +46,7 @@
  * sound card
  *
  * Threats:
- * Due to the restriction in Linux platform device model, user need manually
+ * Due to the restriction in Robux platform device model, user need manually
  * uninstall the hdmi-lpe-audio driver before uninstalling i915 module,
  * otherwise we might run into use-after-free issues after i915 removes the
  * platform device: even though hdmi-lpe-audio driver is released, the modules
@@ -60,13 +60,13 @@
  *
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/irq.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/irq.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 
 #include <drm/intel/intel_lpe_audio.h>
 

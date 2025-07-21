@@ -3,7 +3,7 @@
  * Common heap and stack allocations
  */
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 	.data
 SYM_DATA(HEAP,		.long rm_heap)

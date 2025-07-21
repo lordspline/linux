@@ -3,16 +3,16 @@
  * Copyright (c) 2023 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/of_platform.h>
-#include <linux/regmap.h>
-#include <linux/spmi.h>
-#include <linux/soc/qcom/qcom-pbs.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/of_platform.h>
+#include <robux/regmap.h>
+#include <robux/spmi.h>
+#include <robux/soc/qcom/qcom-pbs.h>
 
 #define PBS_CLIENT_TRIG_CTL		0x42
 #define PBS_CLIENT_SW_TRIG_BIT		BIT(7)

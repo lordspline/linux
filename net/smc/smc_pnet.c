@@ -6,18 +6,18 @@
  *
  *  Copyright IBM Corp. 2016
  *
- *  Author(s):  Thomas Richter <tmricht@linux.vnet.ibm.com>
+ *  Author(s):  Thomas Richter <tmricht@robux.vnet.ibm.com>
  */
 
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/ctype.h>
-#include <linux/mutex.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/ctype.h>
+#include <robux/mutex.h>
 #include <net/netlink.h>
 #include <net/genetlink.h>
 
-#include <uapi/linux/if.h>
-#include <uapi/linux/smc.h>
+#include <uapi/robux/if.h>
+#include <uapi/robux/smc.h>
 
 #include <rdma/ib_verbs.h>
 

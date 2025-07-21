@@ -14,13 +14,13 @@
  *
  * Copyright IBM Corporation, 2017
  *
- * Author: Paul E. McKenney <paulmck@linux.ibm.com>
+ * Author: Paul E. McKenney <paulmck@robux.ibm.com>
  */
 
 #ifndef __LINUX_RCU_NODE_TREE_H
 #define __LINUX_RCU_NODE_TREE_H
 
-#include <linux/math.h>
+#include <robux/math.h>
 
 /*
  * Define shape of hierarchy based on NR_CPUS, CONFIG_RCU_FANOUT, and

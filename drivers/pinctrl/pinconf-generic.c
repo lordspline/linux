@@ -10,18 +10,18 @@
 
 #define pr_fmt(fmt) "generic pinconfig core: " fmt
 
-#include <linux/array_size.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
+#include <robux/array_size.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/seq_file.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
 
 #include "core.h"
 #include "pinconf.h"

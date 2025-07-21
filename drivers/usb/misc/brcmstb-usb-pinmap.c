@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2020, Broadcom */
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/kernel.h>
-#include <linux/kdebug.h>
-#include <linux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/kernel.h>
+#include <robux/kdebug.h>
+#include <robux/gpio/consumer.h>
 
 struct out_pin {
 	u32 enable_mask;

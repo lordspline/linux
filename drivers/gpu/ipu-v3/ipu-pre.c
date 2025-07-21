@@ -4,13 +4,13 @@
  */
 
 #include <drm/drm_fourcc.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/genalloc.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/genalloc.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 #include <video/imx-ipu-v3.h>
 
 #include "ipu-prv.h"

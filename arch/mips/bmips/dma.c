@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/types.h>
-#include <linux/dma-map-ops.h>
+#include <robux/types.h>
+#include <robux/dma-map-ops.h>
 #include <asm/bmips.h>
 #include <asm/io.h>
 

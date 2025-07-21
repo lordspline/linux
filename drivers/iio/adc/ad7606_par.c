@@ -6,17 +6,17 @@
  * Copyright 2024 BayLibre SAS.
  */
 
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/types.h>
 
-#include <linux/iio/backend.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/backend.h>
+#include <robux/iio/iio.h>
 
 #include "ad7606.h"
 #include "ad7606_bus_iface.h"

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/physmap.h>
-#include <linux/serial_8250.h>
-#include <linux/serial_reg.h>
-#include <linux/usb/isp116x.h>
-#include <linux/delay.h>
-#include <linux/irqdomain.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/mtd/physmap.h>
+#include <robux/serial_8250.h>
+#include <robux/serial_reg.h>
+#include <robux/usb/isp116x.h>
+#include <robux/delay.h>
+#include <robux/irqdomain.h>
 #include <asm/machvec.h>
 #include <mach-se/mach/se7343.h>
 #include <asm/heartbeat.h>

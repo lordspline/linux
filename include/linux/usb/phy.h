@@ -10,10 +10,10 @@
 #ifndef __LINUX_USB_PHY_H
 #define __LINUX_USB_PHY_H
 
-#include <linux/extcon.h>
-#include <linux/notifier.h>
-#include <linux/usb.h>
-#include <uapi/linux/usb/charger.h>
+#include <robux/extcon.h>
+#include <robux/notifier.h>
+#include <robux/usb.h>
+#include <uapi/robux/usb/charger.h>
 
 enum usb_phy_interface {
 	USBPHY_INTERFACE_MODE_UNKNOWN,

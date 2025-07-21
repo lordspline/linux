@@ -31,12 +31,12 @@
 
 */
 
-#include <linux/cleanup.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/spinlock.h>
+#include <robux/gpio/driver.h>
+#include <robux/slab.h>
 
 /* Steal the hardware definitions from the bttv driver. */
 #include "../media/pci/bt8xx/bt848.h"

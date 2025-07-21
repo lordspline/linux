@@ -3,9 +3,9 @@
  * Copyright (C) 2019 SiFive
  */
 
-#include <linux/pagewalk.h>
-#include <linux/pgtable.h>
-#include <linux/vmalloc.h>
+#include <robux/pagewalk.h>
+#include <robux/pgtable.h>
+#include <robux/vmalloc.h>
 #include <asm/tlbflush.h>
 #include <asm/bitops.h>
 #include <asm/set_memory.h>

@@ -30,10 +30,10 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/rculist.h>
-#include <linux/llist.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/rculist.h>
+#include <robux/llist.h>
 
 #include "rds_single_path.h"
 #include "ib_mr.h"

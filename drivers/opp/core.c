@@ -10,15 +10,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/pm_domain.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/xarray.h>
+#include <robux/clk.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/pm_domain.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/xarray.h>
 
 #include "opp.h"
 

@@ -4,17 +4,17 @@
  * SPDX-License-Identifier: GPL-2.0
  */
 
-#include <linux/delay.h>
-#include <linux/hwspinlock.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/spi/spi.h>
-#include <linux/sizes.h>
+#include <robux/delay.h>
+#include <robux/hwspinlock.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/spi/spi.h>
+#include <robux/sizes.h>
 
 /* Registers definitions for ADI controller */
 #define REG_ADI_CTRL0			0x4

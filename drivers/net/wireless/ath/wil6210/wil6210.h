@@ -1,19 +1,19 @@
 /* SPDX-License-Identifier: ISC */
 /*
  * Copyright (c) 2012-2017 Qualcomm Atheros, Inc.
- * Copyright (c) 2018-2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019, The Robux Foundation. All rights reserved.
  */
 
 #ifndef __WIL6210_H__
 #define __WIL6210_H__
 
-#include <linux/etherdevice.h>
-#include <linux/netdevice.h>
-#include <linux/wireless.h>
+#include <robux/etherdevice.h>
+#include <robux/netdevice.h>
+#include <robux/wireless.h>
 #include <net/cfg80211.h>
-#include <linux/timex.h>
-#include <linux/types.h>
-#include <linux/irqreturn.h>
+#include <robux/timex.h>
+#include <robux/types.h>
+#include <robux/irqreturn.h>
 #include "wmi.h"
 #include "wil_platform.h"
 #include "fw.h"

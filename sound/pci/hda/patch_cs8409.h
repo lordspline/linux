@@ -9,9 +9,9 @@
 #ifndef __CS8409_PATCH_H
 #define __CS8409_PATCH_H
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 #include <sound/tlv.h>
-#include <linux/workqueue.h>
+#include <robux/workqueue.h>
 #include <sound/cs42l42.h>
 #include <sound/hda_codec.h>
 #include "hda_local.h"

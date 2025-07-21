@@ -9,10 +9,10 @@
  *    {engebret|bergner}@us.ibm.com
  */
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/memblock.h>
-#include <linux/of_fdt.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/memblock.h>
+#include <robux/of_fdt.h>
 
 void __init early_init_devtree(void *params)
 {

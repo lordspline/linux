@@ -4,15 +4,15 @@
  * Copyright (c) 2013 Lubomir Rintel
  */
 
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/clk.h>
-#include <linux/reset.h>
+#include <robux/hw_random.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/printk.h>
+#include <robux/clk.h>
+#include <robux/reset.h>
 
 #define RNG_CTRL	0x0
 #define RNG_STATUS	0x4

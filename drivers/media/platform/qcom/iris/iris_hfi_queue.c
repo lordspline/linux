@@ -3,7 +3,7 @@
  * Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/pm_runtime.h>
+#include <robux/pm_runtime.h>
 
 #include "iris_core.h"
 #include "iris_hfi_queue.h"

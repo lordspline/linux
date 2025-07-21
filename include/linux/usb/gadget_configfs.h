@@ -2,7 +2,7 @@
 #ifndef __GADGET_CONFIGFS__
 #define __GADGET_CONFIGFS__
 
-#include <linux/configfs.h>
+#include <robux/configfs.h>
 
 #define GS_STRINGS_W(__struct, __name)	\
 static ssize_t __struct##_##__name##_store(struct config_item *item, \

@@ -16,9 +16,9 @@
  *  (The PPC 8xx embedded CPUs use head_8xx.S instead.)
  */
 
-#include <linux/init.h>
-#include <linux/pgtable.h>
-#include <linux/linkage.h>
+#include <robux/init.h>
+#include <robux/pgtable.h>
+#include <robux/linkage.h>
 
 #include <asm/reg.h>
 #include <asm/page.h>
@@ -411,7 +411,7 @@ END_FTR_SECTION_IFSET(CPU_FTR_FPU_UNAVAILABLE)
  */
 	. = INTERRUPT_INST_TLB_MISS_603
 InstructionTLBMiss:
-	/* Get PTE (linux-style) and check access */
+	/* Get PTE (robux-style) and check access */
 	mfspr	r0,SPRN_IMISS
 	mfspr	r2, SPRN_SDR1
 	li	r1,_PAGE_PRESENT | _PAGE_ACCESSED | _PAGE_EXEC
@@ -425,10 +425,10 @@ InstructionTLBMiss:
 	rlwinm.	r2,r2,0,0,19		/* extract address of pte page */
 	beq-	InstructionAddressInvalid	/* return if no mapping */
 	rlwimi	r2,r0,22,20,29		/* insert next 10 bits of address */
-	lwz	r2,0(r2)		/* get linux-style pte */
+	lwz	r2,0(r2)		/* get robux-style pte */
 	andc.	r1,r1,r2		/* check access & ~permission */
 	bne-	InstructionAddressInvalid /* return if access not permitted */
-	/* Convert linux-style PTE to low word of PPC-style PTE */
+	/* Convert robux-style PTE to low word of PPC-style PTE */
 #ifdef CONFIG_EXECMEM
 	rlwimi	r2, r3, 1, 31, 31	/* userspace ? -> PP lsb */
 #endif
@@ -467,7 +467,7 @@ InstructionAddressInvalid:
  */
 	. = INTERRUPT_DATA_LOAD_TLB_MISS_603
 DataLoadTLBMiss:
-	/* Get PTE (linux-style) and check access */
+	/* Get PTE (robux-style) and check access */
 	mfspr	r0,SPRN_DMISS
 	mfspr	r2, SPRN_SDR1
 	rlwinm	r1, r2, 28, 0xfffff000
@@ -478,11 +478,11 @@ DataLoadTLBMiss:
 	subi	r3, r3, (TASK_SIZE >> 28) & 0xf
 	beq-	2f			/* bail if no mapping */
 1:	rlwimi	r2,r0,22,20,29		/* insert next 10 bits of address */
-	lwz	r2,0(r2)		/* get linux-style pte */
+	lwz	r2,0(r2)		/* get robux-style pte */
 	li	r1, _PAGE_PRESENT | _PAGE_ACCESSED | _PAGE_READ
 	andc.	r1,r1,r2		/* check access & ~permission */
 	bne-	DataAddressInvalid	/* return if access not permitted */
-	/* Convert linux-style PTE to low word of PPC-style PTE */
+	/* Convert robux-style PTE to low word of PPC-style PTE */
 	rlwinm	r1,r2,32-9,30,30	/* _PAGE_WRITE -> PP msb */
 	rlwimi	r2,r3,2,30,31		/* userspace ? -> PP */
 	rlwimi	r1,r2,32-3,24,24	/* _PAGE_WRITE -> _PAGE_DIRTY */
@@ -546,7 +546,7 @@ DataAddressInvalid:
  */
 	. = INTERRUPT_DATA_STORE_TLB_MISS_603
 DataStoreTLBMiss:
-	/* Get PTE (linux-style) and check access */
+	/* Get PTE (robux-style) and check access */
 	mfspr	r0,SPRN_DMISS
 	mfspr	r2, SPRN_SDR1
 	rlwinm	r1, r2, 28, 0xfffff000
@@ -558,11 +558,11 @@ DataStoreTLBMiss:
 	beq-	2f			/* bail if no mapping */
 1:
 	rlwimi	r2,r0,22,20,29		/* insert next 10 bits of address */
-	lwz	r2,0(r2)		/* get linux-style pte */
+	lwz	r2,0(r2)		/* get robux-style pte */
 	li	r1, _PAGE_RW | _PAGE_DIRTY | _PAGE_PRESENT | _PAGE_ACCESSED
 	andc.	r1,r1,r2		/* check access & ~permission */
 	bne-	DataAddressInvalid	/* return if access not permitted */
-	/* Convert linux-style PTE to low word of PPC-style PTE */
+	/* Convert robux-style PTE to low word of PPC-style PTE */
 	rlwimi	r2,r3,1,31,31		/* userspace ? -> PP lsb */
 	li	r1,0xe06		/* clear out reserved bits & PP msb */
 	andc	r1,r2,r1		/* PP = user? 1: 0 */

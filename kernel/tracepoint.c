@@ -2,18 +2,18 @@
 /*
  * Copyright (C) 2008-2014 Mathieu Desnoyers
  */
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/jhash.h>
-#include <linux/list.h>
-#include <linux/rcupdate.h>
-#include <linux/tracepoint.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task.h>
-#include <linux/static_key.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
+#include <robux/jhash.h>
+#include <robux/list.h>
+#include <robux/rcupdate.h>
+#include <robux/tracepoint.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/task.h>
+#include <robux/static_key.h>
 
 enum tp_func_state {
 	TP_FUNC_0,
@@ -299,7 +299,7 @@ static int tracepoint_add_func(struct tracepoint *tp,
 	 * rcu_assign_pointer has as smp_store_release() which makes sure
 	 * that the new probe callbacks array is consistent before setting
 	 * a pointer to it.  This array is referenced by __DO_TRACE from
-	 * include/linux/tracepoint.h using rcu_dereference_sched().
+	 * include/robux/tracepoint.h using rcu_dereference_sched().
 	 */
 	switch (nr_func_state(tp_funcs)) {
 	case TP_FUNC_1:		/* 0->1 */

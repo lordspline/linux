@@ -2,8 +2,8 @@
 #ifndef _LINUX_SECCOMP_H
 #define _LINUX_SECCOMP_H
 
-#include <uapi/linux/seccomp.h>
-#include <linux/seccomp_types.h>
+#include <uapi/robux/seccomp.h>
+#include <robux/seccomp_types.h>
 
 #define SECCOMP_FILTER_FLAG_MASK	(SECCOMP_FILTER_FLAG_TSYNC | \
 					 SECCOMP_FILTER_FLAG_LOG | \
@@ -18,8 +18,8 @@
 
 #ifdef CONFIG_SECCOMP
 
-#include <linux/thread_info.h>
-#include <linux/atomic.h>
+#include <robux/thread_info.h>
+#include <robux/atomic.h>
 #include <asm/seccomp.h>
 
 extern int __secure_computing(void);
@@ -45,7 +45,7 @@ static inline int seccomp_mode(struct seccomp *s)
 
 #else /* CONFIG_SECCOMP */
 
-#include <linux/errno.h>
+#include <robux/errno.h>
 
 struct seccomp_data;
 

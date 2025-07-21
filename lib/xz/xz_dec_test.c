@@ -6,12 +6,12 @@
  * Author: Lasse Collin <lasse.collin@tukaani.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
-#include <linux/crc32.h>
-#include <linux/xz.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/uaccess.h>
+#include <robux/crc32.h>
+#include <robux/xz.h>
 
 /* Maximum supported dictionary size */
 #define DICT_MAX (1 << 20)

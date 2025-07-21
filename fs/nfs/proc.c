@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/fs/nfs/proc.c
+ *  robux/fs/nfs/proc.c
  *
  *  Copyright (C) 1992, 1993, 1994  Rick Sladkey
  *
@@ -28,21 +28,21 @@
  *  incomplete struct).
  */
 
-#include <linux/types.h>
-#include <linux/param.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/in.h>
-#include <linux/pagemap.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/nfs.h>
-#include <linux/nfs2.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_page.h>
-#include <linux/lockd/bind.h>
-#include <linux/freezer.h>
+#include <robux/types.h>
+#include <robux/param.h>
+#include <robux/time.h>
+#include <robux/mm.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/in.h>
+#include <robux/pagemap.h>
+#include <robux/sunrpc/clnt.h>
+#include <robux/nfs.h>
+#include <robux/nfs2.h>
+#include <robux/nfs_fs.h>
+#include <robux/nfs_page.h>
+#include <robux/lockd/bind.h>
+#include <robux/freezer.h>
 #include "internal.h"
 
 #define NFSDBG_FACILITY		NFSDBG_PROC

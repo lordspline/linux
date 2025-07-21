@@ -17,14 +17,14 @@
  * xtal clock as parent.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
 
 #define TBG_SEL		0x0
 #define DIV_SEL0	0x4

@@ -6,16 +6,16 @@
  *
  * based on tosa_battery.c
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mfd/ucb1x00.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/power_supply.h>
+#include <robux/delay.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/consumer.h>
+#include <robux/mfd/ucb1x00.h>
 
 #include <asm/mach/sharpsl_param.h>
 #include <asm/mach-types.h>

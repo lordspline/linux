@@ -9,12 +9,12 @@
 #ifndef __ASM_LOONGARCH_SYSCALL_H
 #define __ASM_LOONGARCH_SYSCALL_H
 
-#include <linux/compiler.h>
-#include <uapi/linux/audit.h>
-#include <linux/elf-em.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
+#include <robux/compiler.h>
+#include <uapi/robux/audit.h>
+#include <robux/elf-em.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/uaccess.h>
 #include <asm/ptrace.h>
 #include <asm/unistd.h>
 

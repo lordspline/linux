@@ -11,18 +11,18 @@
  * UEvent sending added by Evgeny Romanov <romanov@neurosoft.ru>
  */
 
-#include <linux/devm-helpers.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/swab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/idr.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
-#include <linux/ds2782_battery.h>
+#include <robux/devm-helpers.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/swab.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/idr.h>
+#include <robux/power_supply.h>
+#include <robux/slab.h>
+#include <robux/ds2782_battery.h>
 
 #define DS2782_REG_RARC		0x06	/* Remaining active relative capacity */
 

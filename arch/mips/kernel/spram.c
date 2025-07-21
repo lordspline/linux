@@ -4,9 +4,9 @@
  *
  * Copyright (C) 2007, 2008 MIPS Technologies, Inc.
  */
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/stddef.h>
 
 #include <asm/fpu.h>
 #include <asm/mipsregs.h>

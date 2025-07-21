@@ -36,8 +36,8 @@
 #define _TLS_INT_H
 
 #include <asm/byteorder.h>
-#include <linux/types.h>
-#include <linux/skmsg.h>
+#include <robux/types.h>
+#include <robux/skmsg.h>
 #include <net/tls.h>
 #include <net/tls_prot.h>
 

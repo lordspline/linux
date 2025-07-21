@@ -4,11 +4,11 @@
  * Author: Antonios Motakis <a.motakis@virtualopensystems.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vfio.h>
-#include <linux/pm_runtime.h>
-#include <linux/amba/bus.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/vfio.h>
+#include <robux/pm_runtime.h>
+#include <robux/amba/bus.h>
 
 #include "vfio_platform_private.h"
 

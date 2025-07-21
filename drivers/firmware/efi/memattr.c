@@ -5,10 +5,10 @@
 
 #define pr_fmt(fmt)	"efi: memattr: " fmt
 
-#include <linux/efi.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
+#include <robux/efi.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/memblock.h>
 
 #include <asm/early_ioremap.h>
 

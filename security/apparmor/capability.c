@@ -8,11 +8,11 @@
  * Copyright 2009-2010 Canonical Ltd.
  */
 
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/gfp.h>
-#include <linux/security.h>
-#include <linux/timekeeping.h>
+#include <robux/capability.h>
+#include <robux/errno.h>
+#include <robux/gfp.h>
+#include <robux/security.h>
+#include <robux/timekeeping.h>
 
 #include "include/apparmor.h"
 #include "include/capability.h"

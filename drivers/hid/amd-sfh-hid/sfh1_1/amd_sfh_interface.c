@@ -7,9 +7,9 @@
  *
  * Author: Basavaraj Natikar <Basavaraj.Natikar@amd.com>
  */
-#include <linux/amd-pmf-io.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/iopoll.h>
+#include <robux/amd-pmf-io.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/iopoll.h>
 
 #include "amd_sfh_interface.h"
 

@@ -5,9 +5,9 @@
 
 #include "funnel-requestqueue.h"
 
-#include <linux/atomic.h>
-#include <linux/compiler.h>
-#include <linux/wait.h>
+#include <robux/atomic.h>
+#include <robux/compiler.h>
+#include <robux/wait.h>
 
 #include "funnel-queue.h"
 #include "logger.h"

@@ -5,13 +5,13 @@
  * Copyright (C) 2014 Beniamino Galvani <b.galvani@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/stmmac.h>
+#include <robux/device.h>
+#include <robux/ethtool.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/stmmac.h>
 
 #include "stmmac_platform.h"
 

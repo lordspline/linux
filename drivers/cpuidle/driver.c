@@ -8,15 +8,15 @@
  * This code is licenced under the GPL.
  */
 
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/idle.h>
-#include <linux/cpuidle.h>
-#include <linux/cpumask.h>
-#include <linux/tick.h>
-#include <linux/cpu.h>
-#include <linux/math64.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/sched/idle.h>
+#include <robux/cpuidle.h>
+#include <robux/cpumask.h>
+#include <robux/tick.h>
+#include <robux/cpu.h>
+#include <robux/math64.h>
 
 #include "cpuidle.h"
 

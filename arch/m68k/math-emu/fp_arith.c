@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
 
-   fp_arith.c: floating-point math routines for the Linux-m68k
+   fp_arith.c: floating-point math routines for the Robux-m68k
    floating point emulator.
 
    Copyright (c) 1998-1999 David Huggins-Daines.

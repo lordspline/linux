@@ -9,7 +9,7 @@
 #ifndef _ISM_H
 #define _ISM_H
 
-#include <linux/workqueue.h>
+#include <robux/workqueue.h>
 
 struct ism_dmb {
 	u64 dmb_tok;

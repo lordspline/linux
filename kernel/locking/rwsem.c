@@ -15,18 +15,18 @@
  * Peter Zijlstra <peterz@infradead.org>.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/rt.h>
-#include <linux/sched/task.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/wake_q.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/clock.h>
-#include <linux/export.h>
-#include <linux/rwsem.h>
-#include <linux/atomic.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/rt.h>
+#include <robux/sched/task.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/wake_q.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/clock.h>
+#include <robux/export.h>
+#include <robux/rwsem.h>
+#include <robux/atomic.h>
 #include <trace/events/lock.h>
 
 #ifndef CONFIG_PREEMPT_RT

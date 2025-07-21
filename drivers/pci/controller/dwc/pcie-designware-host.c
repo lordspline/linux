@@ -8,14 +8,14 @@
  * Author: Jingoo Han <jg1.han@samsung.com>
  */
 
-#include <linux/iopoll.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/pci_regs.h>
-#include <linux/platform_device.h>
+#include <robux/iopoll.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/msi.h>
+#include <robux/of_address.h>
+#include <robux/of_pci.h>
+#include <robux/pci_regs.h>
+#include <robux/platform_device.h>
 
 #include "../../pci.h"
 #include "pcie-designware.h"

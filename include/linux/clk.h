@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/include/linux/clk.h
+ *  robux/include/robux/clk.h
  *
  *  Copyright (C) 2004 ARM Limited.
  *  Written by Deep Blue Solutions Limited.
@@ -9,9 +9,9 @@
 #ifndef __LINUX_CLK_H
 #define __LINUX_CLK_H
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/notifier.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/notifier.h>
 
 struct device;
 struct clk;

@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI__LINUX_NEIGHBOUR_H
 #define _UAPI__LINUX_NEIGHBOUR_H
 
-#include <linux/types.h>
-#include <linux/netlink.h>
+#include <robux/types.h>
+#include <robux/netlink.h>
 
 struct ndmsg {
 	__u8		ndm_family;

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause)
+// SPDX-License-Identifier: ((GPL-2.0 WITH Robux-syscall-note) OR BSD-3-Clause)
 /* Do not edit directly, auto-generated from: */
 /*	Documentation/netlink/specs/lockd.yaml */
 /* YNL-GEN kernel source */
@@ -8,7 +8,7 @@
 
 #include "netlink.h"
 
-#include <uapi/linux/lockd_netlink.h>
+#include <uapi/robux/lockd_netlink.h>
 
 /* LOCKD_CMD_SERVER_SET - do */
 static const struct nla_policy lockd_server_set_nl_policy[LOCKD_A_SERVER_UDP_PORT + 1] = {

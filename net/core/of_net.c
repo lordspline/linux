@@ -4,15 +4,15 @@
  *
  * Initially copied out of arch/powerpc/kernel/prom_parse.c
  */
-#include <linux/etherdevice.h>
-#include <linux/kernel.h>
-#include <linux/of_net.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/phy.h>
-#include <linux/export.h>
-#include <linux/device.h>
-#include <linux/nvmem-consumer.h>
+#include <robux/etherdevice.h>
+#include <robux/kernel.h>
+#include <robux/of_net.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/phy.h>
+#include <robux/export.h>
+#include <robux/device.h>
+#include <robux/nvmem-consumer.h>
 
 /**
  * of_get_phy_mode - Get phy mode for given device_node

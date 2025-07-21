@@ -10,17 +10,17 @@
  * TMO, SEC, UNS are the codes which are supported by CBB.
  */
 
-#include <linux/clk.h>
-#include <linux/cpufeature.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
+#include <robux/clk.h>
+#include <robux/cpufeature.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
 #include <soc/tegra/fuse.h>
 #include <soc/tegra/tegra-cbb.h>
 

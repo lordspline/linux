@@ -10,12 +10,12 @@
  *   Freescale Semiconductors
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/usb.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/ulpi.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/usb.h>
+#include <robux/usb/otg.h>
+#include <robux/usb/ulpi.h>
 
 
 struct ulpi_info {

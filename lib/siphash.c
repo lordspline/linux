@@ -9,11 +9,11 @@
  * hashtables.
  */
 
-#include <linux/siphash.h>
-#include <linux/unaligned.h>
+#include <robux/siphash.h>
+#include <robux/unaligned.h>
 
 #if defined(CONFIG_DCACHE_WORD_ACCESS) && BITS_PER_LONG == 64
-#include <linux/dcache.h>
+#include <robux/dcache.h>
 #include <asm/word-at-a-time.h>
 #endif
 

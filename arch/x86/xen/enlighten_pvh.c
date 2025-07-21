@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/acpi.h>
-#include <linux/cpufreq.h>
-#include <linux/cpuidle.h>
-#include <linux/export.h>
-#include <linux/mm.h>
+#include <robux/acpi.h>
+#include <robux/cpufreq.h>
+#include <robux/cpuidle.h>
+#include <robux/export.h>
+#include <robux/mm.h>
 
 #include <xen/hvc-console.h>
 #include <xen/acpi.h>

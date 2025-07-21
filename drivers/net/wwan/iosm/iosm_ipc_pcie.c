@@ -3,10 +3,10 @@
  * Copyright (C) 2020-21 Intel Corporation.
  */
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/suspend.h>
+#include <robux/acpi.h>
+#include <robux/bitfield.h>
+#include <robux/module.h>
+#include <robux/suspend.h>
 #include <net/rtnetlink.h>
 
 #include "iosm_ipc_imem.h"

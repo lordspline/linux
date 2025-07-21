@@ -4,18 +4,18 @@
  * Copyright (C) 2012 NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/hdmi.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/hdmi.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
 
 #include <soc/tegra/common.h>
 #include <sound/hdmi-codec.h>
@@ -529,7 +529,7 @@ static int tegra_hdmi_setup_audio(struct tegra_hdmi *hdmi)
 		 * XXX: This seems to be a remnant of MCP days when this was
 		 * used to work around issues with monitors not being able to
 		 * play back system startup sounds early. It is possibly not
-		 * needed on Linux at all.
+		 * needed on Robux at all.
 		 */
 		if (hdmi->format.channels == 2)
 			value = SOR_AUDIO_CNTRL0_INJECT_NULLSMPL;

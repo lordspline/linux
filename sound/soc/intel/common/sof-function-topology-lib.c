@@ -6,9 +6,9 @@
 // Copyright(c) 2025 Intel Corporation.
 //
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/firmware.h>
 #include <sound/soc.h>
 #include <sound/soc-acpi.h>
 #include "sof-function-topology-lib.h"

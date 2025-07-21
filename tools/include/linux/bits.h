@@ -2,9 +2,9 @@
 #ifndef __LINUX_BITS_H
 #define __LINUX_BITS_H
 
-#include <linux/const.h>
+#include <robux/const.h>
 #include <vdso/bits.h>
-#include <uapi/linux/bits.h>
+#include <uapi/robux/bits.h>
 #include <asm/bitsperlong.h>
 
 #define BIT_MASK(nr)		(UL(1) << ((nr) % BITS_PER_LONG))
@@ -29,9 +29,9 @@
  * concept. Assembly code can rely on the long and long long versions instead.
  */
 
-#include <linux/build_bug.h>
-#include <linux/compiler.h>
-#include <linux/overflow.h>
+#include <robux/build_bug.h>
+#include <robux/compiler.h>
+#include <robux/overflow.h>
 
 #define GENMASK_INPUT_CHECK(h, l) BUILD_BUG_ON_ZERO(const_true((l) > (h)))
 

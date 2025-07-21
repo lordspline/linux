@@ -7,15 +7,15 @@
  * https://www.mipi.org/mipi-sdca-v1-0-download
  */
 
-#include <linux/bitmap.h>
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/device.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/string_helpers.h>
+#include <robux/bitmap.h>
+#include <robux/delay.h>
+#include <robux/dev_printk.h>
+#include <robux/device.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/overflow.h>
+#include <robux/soundwire/sdw_registers.h>
+#include <robux/string_helpers.h>
 #include <sound/control.h>
 #include <sound/sdca.h>
 #include <sound/sdca_asoc.h>

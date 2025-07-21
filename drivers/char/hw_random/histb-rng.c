@@ -3,14 +3,14 @@
  * Copyright (c) 2023 David Yang
  */
 
-#include <linux/err.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/err.h>
+#include <robux/hw_random.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #define RNG_CTRL		0x0
 #define  RNG_SOURCE			GENMASK(1, 0)

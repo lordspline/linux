@@ -5,10 +5,10 @@
  *
  * Copyright (C) 2007 by Ralf Baechle
  */
-#include <linux/clocksource.h>
-#include <linux/cpufreq.h>
-#include <linux/init.h>
-#include <linux/sched_clock.h>
+#include <robux/clocksource.h>
+#include <robux/cpufreq.h>
+#include <robux/init.h>
+#include <robux/sched_clock.h>
 
 #include <asm/time.h>
 

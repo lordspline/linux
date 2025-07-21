@@ -2,9 +2,9 @@
 #ifndef _S390_TLBFLUSH_H
 #define _S390_TLBFLUSH_H
 
-#include <linux/cpufeature.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
+#include <robux/cpufeature.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
 #include <asm/processor.h>
 #include <asm/machine.h>
 

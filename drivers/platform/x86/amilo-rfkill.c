@@ -9,13 +9,13 @@
  * Copyright 2006 Martin Večeřa.
  */
 
-#include <linux/module.h>
-#include <linux/dmi.h>
-#include <linux/i8042.h>
-#include <linux/io.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/rfkill.h>
+#include <robux/module.h>
+#include <robux/dmi.h>
+#include <robux/i8042.h>
+#include <robux/io.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/rfkill.h>
 
 /*
  * These values were obtained from disassembling and debugging the

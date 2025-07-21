@@ -3,8 +3,8 @@
 #ifndef _ORC_HEADER_H
 #define _ORC_HEADER_H
 
-#include <linux/types.h>
-#include <linux/compiler.h>
+#include <robux/types.h>
+#include <robux/compiler.h>
 #include <asm/orc_hash.h>
 
 /*

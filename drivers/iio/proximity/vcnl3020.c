@@ -4,15 +4,15 @@
  * Based on Vishay VCNL4000 driver code.
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/regmap.h>
-#include <linux/interrupt.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/regmap.h>
+#include <robux/interrupt.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/events.h>
 
 #define VCNL3020_PROD_ID	0x21
 

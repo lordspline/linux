@@ -10,12 +10,12 @@
 #ifndef _LINUX_NTFS3_NTFS_H
 #define _LINUX_NTFS3_NTFS_H
 
-#include <linux/blkdev.h>
-#include <linux/build_bug.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/blkdev.h>
+#include <robux/build_bug.h>
+#include <robux/kernel.h>
+#include <robux/stddef.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #include "debug.h"
 

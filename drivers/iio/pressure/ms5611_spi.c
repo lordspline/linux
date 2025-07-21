@@ -6,12 +6,12 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/mod_devicetable.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
+#include <robux/mod_devicetable.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "ms5611.h"
 

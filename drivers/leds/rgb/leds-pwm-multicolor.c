@@ -5,16 +5,16 @@
  * Copyright 2022 Sven Schwermer <sven.schwermer@disruptive-technologies.com>
  */
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/leds.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/led-class-multicolor.h>
+#include <robux/leds.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/pwm.h>
 
 struct pwm_led {
 	struct pwm_device *pwm;

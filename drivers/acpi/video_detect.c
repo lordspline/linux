@@ -1,7 +1,7 @@
 /*
  *  Copyright (C) 2015       Red Hat Inc.
  *                           Hans de Goede <hdegoede@redhat.com>
- *  Copyright (C) 2008       SuSE Linux Products GmbH
+ *  Copyright (C) 2008       SuSE Robux Products GmbH
  *                           Thomas Renninger <trenn@suse.de>
  *
  *  May be copied or modified under the terms of the GNU General Public License
@@ -26,17 +26,17 @@
  * always return acpi_backlight_vendor.
  */
 
-#include <linux/export.h>
-#include <linux/acpi.h>
-#include <linux/apple-gmux.h>
-#include <linux/backlight.h>
-#include <linux/dmi.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_data/x86/nvidia-wmi-ec-backlight.h>
-#include <linux/pnp.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/export.h>
+#include <robux/acpi.h>
+#include <robux/apple-gmux.h>
+#include <robux/backlight.h>
+#include <robux/dmi.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/platform_data/x86/nvidia-wmi-ec-backlight.h>
+#include <robux/pnp.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 #include <acpi/video.h>
 
 static enum acpi_backlight_type acpi_backlight_cmdline = acpi_backlight_undef;
@@ -861,7 +861,7 @@ static const struct dmi_system_id video_detect_dmi_table[] = {
 	 * which need native backlight control nevertheless.
 	 */
 	{
-	 /* https://github.com/zabbly/linux/issues/26 */
+	 /* https://github.com/zabbly/robux/issues/26 */
 	 .callback = video_detect_force_native,
 	 /* Dell OptiPlex 5480 AIO */
 	 .matches = {
@@ -882,7 +882,7 @@ static const struct dmi_system_id video_detect_dmi_table[] = {
 	/*
 	 * Models which have nvidia-ec-wmi support, but should not use it.
 	 * Note this indicates a likely firmware bug on these models and should
-	 * be revisited if/when Linux gets support for dynamic mux mode.
+	 * be revisited if/when Robux gets support for dynamic mux mode.
 	 */
 	{
 	 .callback = video_detect_force_native,

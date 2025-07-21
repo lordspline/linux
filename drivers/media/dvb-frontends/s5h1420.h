@@ -10,7 +10,7 @@
 #ifndef S5H1420_H
 #define S5H1420_H
 
-#include <linux/dvb/frontend.h>
+#include <robux/dvb/frontend.h>
 
 struct s5h1420_config
 {

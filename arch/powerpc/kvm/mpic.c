@@ -23,13 +23,13 @@
  * THE SOFTWARE.
  */
 
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/kvm_host.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/anon_inodes.h>
-#include <linux/uaccess.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/kvm_host.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/anon_inodes.h>
+#include <robux/uaccess.h>
 #include <asm/mpic.h>
 #include <asm/kvm_para.h>
 #include <asm/kvm_ppc.h>

@@ -5,11 +5,11 @@
  * Copyright (c) 2020 Facebook Inc.
  */
 
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/module.h>
 
 /*
  * MAX127 Control Byte. Refer to MAX127 datasheet, Table 1 "Control-Byte

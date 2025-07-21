@@ -1047,5 +1047,5 @@ The methods defined in the table are:
 API Function Reference
 ======================
 
-.. kernel-doc:: include/linux/netfs.h
+.. kernel-doc:: include/robux/netfs.h
 .. kernel-doc:: fs/netfs/buffered_read.c

@@ -4,16 +4,16 @@
  *
  * Copyright (C) 2024 Godix, Inc.
  */
-#include <linux/unaligned.h>
-#include <linux/delay.h>
-#include <linux/hid.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/sizes.h>
-#include <linux/spi/spi.h>
+#include <robux/unaligned.h>
+#include <robux/delay.h>
+#include <robux/hid.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/sizes.h>
+#include <robux/spi/spi.h>
 
 #define GOODIX_DEV_CONFIRM_ADDR		0x10000
 #define GOODIX_HID_DESC_ADDR		0x1058C

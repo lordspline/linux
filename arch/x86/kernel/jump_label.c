@@ -5,13 +5,13 @@
  * Copyright (C) 2009 Jason Baron <jbaron@redhat.com>
  *
  */
-#include <linux/jump_label.h>
-#include <linux/memory.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/jhash.h>
-#include <linux/cpu.h>
+#include <robux/jump_label.h>
+#include <robux/memory.h>
+#include <robux/uaccess.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/jhash.h>
+#include <robux/cpu.h>
 #include <asm/kprobes.h>
 #include <asm/alternative.h>
 #include <asm/text-patching.h>

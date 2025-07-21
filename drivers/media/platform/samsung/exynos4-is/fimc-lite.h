@@ -6,14 +6,14 @@
 #ifndef FIMC_LITE_H_
 #define FIMC_LITE_H_
 
-#include <linux/sizes.h>
-#include <linux/io.h>
-#include <linux/irqreturn.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <robux/sizes.h>
+#include <robux/io.h>
+#include <robux/irqreturn.h>
+#include <robux/platform_device.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/videodev2.h>
 
 #include <media/media-entity.h>
 #include <media/videobuf2-v4l2.h>

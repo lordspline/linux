@@ -6,12 +6,12 @@
 /* rpcrdma.ko module initialization
  */
 
-#include <linux/types.h>
-#include <linux/compiler.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sunrpc/svc_rdma.h>
-#include <linux/sunrpc/rdma_rn.h>
+#include <robux/types.h>
+#include <robux/compiler.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/sunrpc/svc_rdma.h>
+#include <robux/sunrpc/rdma_rn.h>
 
 #include <asm/swab.h>
 

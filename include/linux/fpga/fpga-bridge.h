@@ -3,8 +3,8 @@
 #ifndef _LINUX_FPGA_BRIDGE_H
 #define _LINUX_FPGA_BRIDGE_H
 
-#include <linux/device.h>
-#include <linux/fpga/fpga-mgr.h>
+#include <robux/device.h>
+#include <robux/fpga/fpga-mgr.h>
 
 struct fpga_bridge;
 

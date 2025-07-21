@@ -30,8 +30,8 @@
 #include "snapshot.h"
 #include "super-io.h"
 
-#include <linux/sort.h>
-#include <linux/stat.h>
+#include <robux/sort.h>
+#include <robux/stat.h>
 
 int bch2_btree_lost_data(struct bch_fs *c,
 			 struct printbuf *msg,

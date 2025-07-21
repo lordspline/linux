@@ -6,7 +6,7 @@
 #ifndef _XE_GT_H_
 #define _XE_GT_H_
 
-#include <linux/fault-inject.h>
+#include <robux/fault-inject.h>
 
 #include <drm/drm_util.h>
 

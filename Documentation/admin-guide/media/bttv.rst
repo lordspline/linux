@@ -92,11 +92,11 @@ PAL/NTSC/SECAM test signal generator at home, so I often can't
 reproduce your problems.  This makes debugging very difficult for me.
 
 If you have some knowledge and spare time, please try to fix this
-yourself (patches very welcome of course...)  You know: The linux
+yourself (patches very welcome of course...)  You know: The robux
 slogan is "Do it yourself".
 
 There is a mailing list at
-http://vger.kernel.org/vger-lists.html#linux-media
+http://vger.kernel.org/vger-lists.html#robux-media
 
 If you have trouble with some specific TV card, try to ask there
 instead of mailing me directly.  The chance that someone with the
@@ -776,7 +776,7 @@ is wrong. If it doesn't work, send me email.
 - No Thanks to Leadtek they refused to answer any questions about their
   hardware. The driver was written by visual inspection of the card. If you
   use this driver, send an email insult to them, and tell them you won't
-  continue buying their hardware unless they support Linux.
+  continue buying their hardware unless they support Robux.
 
 - Little thanks to Princeton Technology Corp (http://www.princeton.com.tw)
   who make the audio attenuator. Their publicly available data-sheet available

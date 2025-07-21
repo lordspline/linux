@@ -5,17 +5,17 @@
  * Copyright (C) IBM Corporation 2016
  */
 
-#include <linux/fsi.h>
-#include <linux/module.h>
-#include <linux/cdev.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/mod_devicetable.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/list.h>
+#include <robux/fsi.h>
+#include <robux/module.h>
+#include <robux/cdev.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/mod_devicetable.h>
+#include <robux/uaccess.h>
+#include <robux/slab.h>
+#include <robux/list.h>
 
-#include <uapi/linux/fsi.h>
+#include <uapi/robux/fsi.h>
 
 #define FSI_ENGID_SCOM		0x5
 

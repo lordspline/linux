@@ -22,7 +22,7 @@
 };
 
 &ir {
-	linux,rc-map-name = "rc-tanix-tx3mini";
+	robux,rc-map-name = "rc-tanix-tx3mini";
 };
 
 &usb {

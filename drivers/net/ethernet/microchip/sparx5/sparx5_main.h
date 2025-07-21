@@ -7,17 +7,17 @@
 #ifndef __SPARX5_MAIN_H__
 #define __SPARX5_MAIN_H__
 
-#include <linux/types.h>
-#include <linux/phy/phy.h>
-#include <linux/netdevice.h>
-#include <linux/phy.h>
-#include <linux/if_vlan.h>
-#include <linux/bitmap.h>
-#include <linux/phylink.h>
-#include <linux/net_tstamp.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/hrtimer.h>
-#include <linux/debugfs.h>
+#include <robux/types.h>
+#include <robux/phy/phy.h>
+#include <robux/netdevice.h>
+#include <robux/phy.h>
+#include <robux/if_vlan.h>
+#include <robux/bitmap.h>
+#include <robux/phylink.h>
+#include <robux/net_tstamp.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/hrtimer.h>
+#include <robux/debugfs.h>
 #include <net/flow_offload.h>
 
 #include <fdma_api.h>

@@ -4,16 +4,16 @@
  * Author: Owen Chen <owen.chen@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/compiler_types.h>
-#include <linux/container_of.h>
-#include <linux/err.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/compiler_types.h>
+#include <robux/container_of.h>
+#include <robux/err.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
 
 #include "clk-mux.h"
 

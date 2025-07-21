@@ -5,15 +5,15 @@
  * Copyright (C) 2006 Nokia Corporation
  * Author: Imre Deak <imre.deak@nokia.com>
  */
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/spi/spi.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/spi/spi.h>
+#include <robux/module.h>
 
-#include <linux/platform_data/lcd-mipid.h>
+#include <robux/platform_data/lcd-mipid.h>
 
 #include "omapfb.h"
 

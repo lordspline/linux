@@ -2,8 +2,8 @@
 /*
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/init.h>
-#include <linux/threads.h>
+#include <robux/init.h>
+#include <robux/threads.h>
 
 #include <asm/addrspace.h>
 #include <asm/asm.h>

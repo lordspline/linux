@@ -4,11 +4,11 @@
 #ifndef _SNIC_H_
 #define _SNIC_H_
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/workqueue.h>
-#include <linux/bitops.h>
-#include <linux/mempool.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/workqueue.h>
+#include <robux/bitops.h>
+#include <robux/mempool.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_host.h>

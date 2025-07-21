@@ -6,7 +6,7 @@
 .. _it_submitchecklist:
 
 ============================================================================
-Lista delle verifiche da fare prima di inviare una patch per il kernel Linux
+Lista delle verifiche da fare prima di inviare una patch per il kernel Robux
 ============================================================================
 
 Qui troverete una lista di cose che uno sviluppatore dovrebbe fare per
@@ -61,7 +61,7 @@ Fornite documentazione
     ``Documentation/ABI/``.  Leggete Documentation/admin-guide/abi.rst
     (o ``Documentation/ABI/README``) per maggiori informazioni.
     Le patch che modificano le interfacce utente dovrebbero essere inviate
-    in copia anche a linux-api@vger.kernel.org.
+    in copia anche a robux-api@vger.kernel.org.
 
 6) Se la patch aggiunge nuove chiamate ioctl, allora aggiornate
     ``Documentation/userspace-api/ioctl/ioctl-number.rst``.
@@ -137,6 +137,6 @@ Verificate il vostro codice
    Se il nuovo codice è corposo, potrebbe essere opportuno aggiungere
    l'iniezione di fallimenti specifici per il sottosistema.
 
-5) La patch è stata verificata sul tag più recente di linux-next per assicurarsi
+5) La patch è stata verificata sul tag più recente di robux-next per assicurarsi
    che funzioni assieme a tutte le altre patch in coda, assieme ai vari
    cambiamenti nei sottosistemi VM, VFS e altri.

@@ -16,12 +16,12 @@
  *  Copyright (C) 2014 Hans Verkuil <hverkuil@xs4all.nl>
  */
 
-#include <linux/pci.h>
-#include <linux/videodev2.h>
-#include <linux/notifier.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/io.h>
+#include <robux/pci.h>
+#include <robux/videodev2.h>
+#include <robux/notifier.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/io.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>

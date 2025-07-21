@@ -8,13 +8,13 @@
  *   https://www.nxp.com/docs/en/reference-manual/IMX8MDQLQRM.pdf#page=834
  */
 
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/slab.h>
-#include <linux/bitfield.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/slab.h>
+#include <robux/bitfield.h>
 
 #include "clk.h"
 

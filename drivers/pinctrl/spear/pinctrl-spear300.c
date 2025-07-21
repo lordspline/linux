@@ -9,10 +9,10 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
 #include "pinctrl-spear3xx.h"
 
 #define DRIVER_NAME "spear300-pinmux"

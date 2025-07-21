@@ -8,10 +8,10 @@
  * in an attempt to provide to the rest of the driver code a unified view
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/io.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/types.h>
+#include <robux/io.h>
 
 #include <video/videomode.h>
 #include <video/display_timing.h>

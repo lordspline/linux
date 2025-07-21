@@ -5,16 +5,16 @@
  * Copyright 2009 Wolfson Microelectronics PLC.
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/slab.h>
 
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/auxadc.h>
-#include <linux/mfd/wm831x/pmu.h>
-#include <linux/mfd/wm831x/pdata.h>
+#include <robux/mfd/wm831x/core.h>
+#include <robux/mfd/wm831x/auxadc.h>
+#include <robux/mfd/wm831x/pmu.h>
+#include <robux/mfd/wm831x/pdata.h>
 
 struct wm831x_backup {
 	struct wm831x *wm831x;

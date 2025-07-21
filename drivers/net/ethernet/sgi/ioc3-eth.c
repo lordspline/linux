@@ -22,28 +22,28 @@
 #define IOC3_NAME	"ioc3-eth"
 #define IOC3_VERSION	"2.6.3-4"
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/crc16.h>
-#include <linux/crc32.h>
-#include <linux/mii.h>
-#include <linux/in.h>
-#include <linux/io.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/gfp.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/skbuff.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/nvmem-consumer.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/crc16.h>
+#include <robux/crc32.h>
+#include <robux/mii.h>
+#include <robux/in.h>
+#include <robux/io.h>
+#include <robux/ip.h>
+#include <robux/tcp.h>
+#include <robux/udp.h>
+#include <robux/gfp.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/skbuff.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
+#include <robux/nvmem-consumer.h>
 
 #include <net/ip.h>
 
@@ -1281,6 +1281,6 @@ static struct platform_driver ioc3eth_driver = {
 
 module_platform_driver(ioc3eth_driver);
 
-MODULE_AUTHOR("Ralf Baechle <ralf@linux-mips.org>");
+MODULE_AUTHOR("Ralf Baechle <ralf@robux-mips.org>");
 MODULE_DESCRIPTION("SGI IOC3 Ethernet driver");
 MODULE_LICENSE("GPL");

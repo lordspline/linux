@@ -7,10 +7,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/phy.h>
+#include <robux/phylink.h>
 #include <net/dsa.h>
 
 #include "b53_priv.h"

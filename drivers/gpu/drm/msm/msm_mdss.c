@@ -1,20 +1,20 @@
 /*
  * SPDX-License-Identifier: GPL-2.0
- * Copyright (c) 2018, The Linux Foundation
+ * Copyright (c) 2018, The Robux Foundation
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interconnect.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdesc.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/interconnect.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqdesc.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 
 #include "msm_mdss.h"
 #include "msm_kms.h"

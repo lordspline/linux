@@ -274,7 +274,7 @@ static inline struct usb_hcd *ehci_to_hcd(struct ehci_hcd *ehci)
 
 /*-------------------------------------------------------------------------*/
 
-#include <linux/usb/ehci_def.h>
+#include <robux/usb/ehci_def.h>
 
 /*-------------------------------------------------------------------------*/
 

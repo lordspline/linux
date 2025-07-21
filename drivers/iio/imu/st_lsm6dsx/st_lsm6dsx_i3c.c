@@ -5,12 +5,12 @@
  * Author: Vitor Soares <vitor.soares@synopsys.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/i3c/device.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/i3c/device.h>
+#include <robux/slab.h>
+#include <robux/regmap.h>
 
 #include "st_lsm6dsx.h"
 

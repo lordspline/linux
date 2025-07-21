@@ -8,8 +8,8 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/vmalloc.h>
-#include <linux/v4l2-mediabus.h>
+#include <robux/vmalloc.h>
+#include <robux/v4l2-mediabus.h>
 #include <media/v4l2-rect.h>
 #include <media/v4l2-subdev.h>
 

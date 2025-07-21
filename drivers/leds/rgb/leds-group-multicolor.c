@@ -11,14 +11,14 @@
  * Copyright 2023 Jean-Jacques Hiblot <jjhiblot@traphandler.com>
  */
 
-#include <linux/err.h>
-#include <linux/leds.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/err.h>
+#include <robux/leds.h>
+#include <robux/led-class-multicolor.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 struct leds_multicolor {
 	struct led_classdev_mc mc_cdev;

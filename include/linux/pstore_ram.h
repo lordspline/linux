@@ -8,7 +8,7 @@
 #ifndef __LINUX_PSTORE_RAM_H__
 #define __LINUX_PSTORE_RAM_H__
 
-#include <linux/pstore.h>
+#include <robux/pstore.h>
 
 struct persistent_ram_ecc_info {
 	int block_size;

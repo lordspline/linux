@@ -12,9 +12,9 @@
 #error This is a kernel header. Perhaps include nftl-user.h instead?
 #endif
 
-#include <linux/mtd/blktrans.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/nftl.h>
+#include <robux/mtd/blktrans.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/nftl.h>
 
 #include <mtd/inftl-user.h>
 

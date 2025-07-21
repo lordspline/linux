@@ -8,9 +8,9 @@
 #ifndef __ASM_CMPXCHG_H
 #define __ASM_CMPXCHG_H
 
-#include <linux/mmdebug.h>
-#include <linux/types.h>
-#include <linux/bug.h>
+#include <robux/mmdebug.h>
+#include <robux/types.h>
+#include <robux/bug.h>
 #include <asm/asm.h>
 
 void __cmpxchg_called_with_bad_pointer(void);

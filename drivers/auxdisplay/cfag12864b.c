@@ -9,21 +9,21 @@
  *        Date: 2006-10-31
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/cdev.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
-#include <linux/workqueue.h>
-#include <linux/ks0108.h>
-#include <linux/cfag12864b.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/cdev.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/jiffies.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
+#include <robux/vmalloc.h>
+#include <robux/workqueue.h>
+#include <robux/ks0108.h>
+#include <robux/cfag12864b.h>
 
 
 #define CFAG12864B_NAME "cfag12864b"

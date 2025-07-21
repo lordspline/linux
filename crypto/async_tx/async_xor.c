@@ -10,13 +10,13 @@
  *      Neil Brown <neilb@suse.de>
  *      Jeff Garzik <jeff@garzik.org>
  */
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
-#include <linux/raid/xor.h>
-#include <linux/async_tx.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/dma-mapping.h>
+#include <robux/raid/xor.h>
+#include <robux/async_tx.h>
 
 /* do_async_xor - dma map the pages and perform the xor with an engine */
 static __async_inline struct dma_async_tx_descriptor *

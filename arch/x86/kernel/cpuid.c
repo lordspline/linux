@@ -20,22 +20,22 @@
  * an SMP box will direct the access to CPU %d.
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/fcntl.h>
-#include <linux/init.h>
-#include <linux/poll.h>
-#include <linux/smp.h>
-#include <linux/major.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
-#include <linux/notifier.h>
-#include <linux/uaccess.h>
-#include <linux/gfp.h>
-#include <linux/completion.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/fcntl.h>
+#include <robux/init.h>
+#include <robux/poll.h>
+#include <robux/smp.h>
+#include <robux/major.h>
+#include <robux/fs.h>
+#include <robux/device.h>
+#include <robux/cpu.h>
+#include <robux/notifier.h>
+#include <robux/uaccess.h>
+#include <robux/gfp.h>
+#include <robux/completion.h>
 
 #include <asm/processor.h>
 #include <asm/msr.h>

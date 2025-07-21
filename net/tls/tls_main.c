@@ -31,15 +31,15 @@
  * SOFTWARE.
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 #include <net/tcp.h>
 #include <net/inet_common.h>
-#include <linux/highmem.h>
-#include <linux/netdevice.h>
-#include <linux/sched/signal.h>
-#include <linux/inetdevice.h>
-#include <linux/inet_diag.h>
+#include <robux/highmem.h>
+#include <robux/netdevice.h>
+#include <robux/sched/signal.h>
+#include <robux/inetdevice.h>
+#include <robux/inet_diag.h>
 
 #include <net/snmp.h>
 #include <net/tls.h>

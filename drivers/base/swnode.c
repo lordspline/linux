@@ -3,24 +3,24 @@
  * Software nodes for the firmware node framework.
  *
  * Copyright (C) 2018, Intel Corporation
- * Author: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+ * Author: Heikki Krogerus <heikki.krogerus@robux.intel.com>
  */
 
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/kobject.h>
-#include <linux/kstrtox.h>
-#include <linux/list.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/container_of.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/idr.h>
+#include <robux/init.h>
+#include <robux/kobject.h>
+#include <robux/kstrtox.h>
+#include <robux/list.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 #include "base.h"
 

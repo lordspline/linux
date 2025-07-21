@@ -8,18 +8,18 @@
  * Contact: Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clk/renesas.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_domain.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/clk/renesas.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/pm_clock.h>
+#include <robux/pm_domain.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
 /*
  * MSTP clocks. We can't use standard gate clocks as we need to poll on the

@@ -5,13 +5,13 @@
  * Copyright (C) 2014 Google, Inc.
  */
 
-#include <linux/gpio.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/acpi.h>
+#include <robux/gpio.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/acpi.h>
 
 #include <sound/core.h>
 #include <sound/jack.h>

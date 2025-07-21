@@ -5,17 +5,17 @@
  *  HID driver for NVIDIA SHIELD peripherals.
  */
 
-#include <linux/hid.h>
-#include <linux/idr.h>
-#include <linux/input-event-codes.h>
-#include <linux/input.h>
-#include <linux/jiffies.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
+#include <robux/hid.h>
+#include <robux/idr.h>
+#include <robux/input-event-codes.h>
+#include <robux/input.h>
+#include <robux/jiffies.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/power_supply.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
+#include <robux/workqueue.h>
 
 #include "hid-ids.h"
 

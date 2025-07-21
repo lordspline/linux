@@ -35,17 +35,17 @@
  *	Copyright (C) 2011 Andy Walls <awalls@md.metrocast.net>
  */
 
-#include <linux/unaligned.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/workqueue.h>
+#include <robux/unaligned.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/workqueue.h>
 
 #include <media/rc-core.h>
 #include <media/i2c/ir-kbd-i2c.h>

@@ -7,7 +7,7 @@
 #if !defined(_FIREWIRE_OHCI_TRACE_EVENT_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _FIREWIRE_OHCI_TRACE_EVENT_H
 
-#include <linux/tracepoint.h>
+#include <robux/tracepoint.h>
 
 // Some macros and helper functions are defined in 'drivers/firewire/ohci.c'.
 

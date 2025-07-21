@@ -8,14 +8,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/platform_device.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/jiffies.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/platform_device.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/jiffies.h>
+#include <robux/io.h>
 #include <asm/mcf8390.h>
 
 static const char version[] =

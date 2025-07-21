@@ -8,19 +8,19 @@
  *	    Sebastian Andrzej Siewior <bigeasy@linutronix.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/list.h>
+#include <robux/dma-mapping.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/composite.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/composite.h>
 
 #include "core.h"
 #include "debug.h"

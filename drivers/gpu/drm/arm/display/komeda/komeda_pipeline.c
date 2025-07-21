@@ -4,8 +4,8 @@
  * Author: James.Qian.Wang <james.qian.wang@arm.com>
  *
  */
-#include <linux/of.h>
-#include <linux/seq_file.h>
+#include <robux/of.h>
+#include <robux/seq_file.h>
 
 #include <drm/drm_print.h>
 

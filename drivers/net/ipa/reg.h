@@ -5,11 +5,11 @@
 #ifndef _REG_H_
 #define _REG_H_
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/bug.h>
-#include <linux/log2.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/bits.h>
+#include <robux/bug.h>
+#include <robux/log2.h>
+#include <robux/types.h>
 
 /**
  * struct reg - A register descriptor

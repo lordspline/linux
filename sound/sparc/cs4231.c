@@ -9,16 +9,16 @@
  * Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/moduleparam.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>
@@ -34,7 +34,7 @@
 
 #if defined(CONFIG_PCI) && defined(CONFIG_SPARC64)
 #define EBUS_SUPPORT
-#include <linux/pci.h>
+#include <robux/pci.h>
 #include <asm/ebus_dma.h>
 #endif
 

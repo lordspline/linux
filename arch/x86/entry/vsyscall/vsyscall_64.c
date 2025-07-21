@@ -26,12 +26,12 @@
  * fault to a vsyscall address.
  */
 
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/sched/signal.h>
-#include <linux/mm_types.h>
-#include <linux/syscalls.h>
-#include <linux/ratelimit.h>
+#include <robux/kernel.h>
+#include <robux/timer.h>
+#include <robux/sched/signal.h>
+#include <robux/mm_types.h>
+#include <robux/syscalls.h>
+#include <robux/ratelimit.h>
 
 #include <asm/vsyscall.h>
 #include <asm/unistd.h>

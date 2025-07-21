@@ -11,14 +11,14 @@
 #ifndef HFI1_IPOIB_H
 #define HFI1_IPOIB_H
 
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/atomic.h>
-#include <linux/netdevice.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
-#include <linux/list.h>
-#include <linux/if_infiniband.h>
+#include <robux/types.h>
+#include <robux/stddef.h>
+#include <robux/atomic.h>
+#include <robux/netdevice.h>
+#include <robux/slab.h>
+#include <robux/skbuff.h>
+#include <robux/list.h>
+#include <robux/if_infiniband.h>
 
 #include "hfi.h"
 #include "iowait.h"

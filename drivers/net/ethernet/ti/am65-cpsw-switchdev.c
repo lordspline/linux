@@ -5,10 +5,10 @@
  *
  */
 
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/netdevice.h>
-#include <linux/workqueue.h>
+#include <robux/etherdevice.h>
+#include <robux/if_bridge.h>
+#include <robux/netdevice.h>
+#include <robux/workqueue.h>
 #include <net/switchdev.h>
 
 #include "am65-cpsw-nuss.h"

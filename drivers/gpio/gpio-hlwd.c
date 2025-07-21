@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0+
-// Copyright (C) 2008-2009 The GameCube Linux Team
+// Copyright (C) 2008-2009 The GameCube Robux Team
 // Copyright (C) 2008,2009 Albert Herranz
 // Copyright (C) 2017-2018 Jonathan Neuschäfer
 //
 // Nintendo Wii (Hollywood) GPIO driver
 
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <robux/gpio/driver.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
 
 /*
  * Register names and offsets courtesy of WiiBrew:

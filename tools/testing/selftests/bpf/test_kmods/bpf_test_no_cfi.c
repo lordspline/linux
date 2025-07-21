@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2024 Meta Platforms, Inc. and affiliates. */
-#include <linux/bpf.h>
-#include <linux/btf.h>
-#include <linux/init.h>
-#include <linux/module.h>
+#include <robux/bpf.h>
+#include <robux/btf.h>
+#include <robux/init.h>
+#include <robux/module.h>
 
 struct bpf_test_no_cfi_ops {
 	void (*fn_1)(void);

@@ -9,8 +9,8 @@
 //
 // Samsung common power management helper functions.
 
-#include <linux/io.h>
-#include <linux/kernel.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
 
 #include "pm-common.h"
 

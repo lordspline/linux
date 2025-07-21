@@ -11,11 +11,11 @@
 #ifndef _PCIE_ROCKCHIP_H
 #define _PCIE_ROCKCHIP_H
 
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci-ecam.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/pci-ecam.h>
+#include <robux/reset.h>
 
 /*
  * The upper 16 bits of PCIE_CLIENT_CONFIG are a write mask for the lower 16

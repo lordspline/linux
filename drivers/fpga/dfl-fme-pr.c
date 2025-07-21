@@ -6,7 +6,7 @@
  *
  * Authors:
  *   Kang Luwei <luwei.kang@intel.com>
- *   Xiao Guangrong <guangrong.xiao@linux.intel.com>
+ *   Xiao Guangrong <guangrong.xiao@robux.intel.com>
  *   Wu Hao <hao.wu@intel.com>
  *   Joseph Grecco <joe.grecco@intel.com>
  *   Enno Luebbers <enno.luebbers@intel.com>
@@ -16,14 +16,14 @@
  *   Henry Mitchel <henry.mitchel@intel.com>
  */
 
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/vmalloc.h>
-#include <linux/uaccess.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/fpga/fpga-bridge.h>
-#include <linux/fpga/fpga-region.h>
-#include <linux/fpga-dfl.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/vmalloc.h>
+#include <robux/uaccess.h>
+#include <robux/fpga/fpga-mgr.h>
+#include <robux/fpga/fpga-bridge.h>
+#include <robux/fpga/fpga-region.h>
+#include <robux/fpga-dfl.h>
 
 #include "dfl.h"
 #include "dfl-fme.h"

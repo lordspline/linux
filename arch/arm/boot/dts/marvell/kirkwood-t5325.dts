@@ -161,7 +161,7 @@
 
 		button-power {
 			label = "Power Button";
-			linux,code = <KEY_POWER>;
+			robux,code = <KEY_POWER>;
 			gpios = <&gpio1 13 GPIO_ACTIVE_HIGH>;
 		};
 	};

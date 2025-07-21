@@ -6,18 +6,18 @@
  * Maxime Ripard <maxime.ripard@bootlin.com>
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/crc-ccitt.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/phy/phy-mipi-dphy.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/crc-ccitt.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/phy/phy-mipi-dphy.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_mipi_dsi.h>

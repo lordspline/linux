@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright(c) 2023 Intel Corporation
 
-#include <linux/acpi.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_intel.h>
-#include <linux/soundwire/sdw_registers.h>
+#include <robux/acpi.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/pm_runtime.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/soundwire/sdw_intel.h>
+#include <robux/soundwire/sdw_registers.h>
 #include "bus.h"
 #include "cadence_master.h"
 #include "intel.h"

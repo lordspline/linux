@@ -18,14 +18,14 @@
  * the Machine Specific Registers to configure the device.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/libata.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
+#include <robux/libata.h>
 #include <scsi/scsi_host.h>
-#include <linux/dmi.h>
+#include <robux/dmi.h>
 
 #if defined(CONFIG_X86) && defined(CONFIG_X86_32)
 #include <asm/msr.h>

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regulator/consumer.h>
 
 #include <video/mipi_display.h>
 

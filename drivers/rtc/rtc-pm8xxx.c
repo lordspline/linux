@@ -5,19 +5,19 @@
  * Copyright (c) 2010-2011, Code Aurora Forum. All rights reserved.
  * Copyright (c) 2023, Linaro Limited
  */
-#include <linux/efi.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/init.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/unaligned.h>
+#include <robux/efi.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/init.h>
+#include <robux/rtc.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/unaligned.h>
 
 #include <asm/byteorder.h>
 

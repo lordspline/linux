@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
 /*
- * Linux device driver for PCI based Prism54
+ * Robux device driver for PCI based Prism54
  *
  * Copyright (c) 2006, Michael Wu <flamingice@sourmilk.net>
  * Copyright (c) 2008, Christian Lamparter <chunkeey@web.de>
@@ -10,13 +10,13 @@
  * Copyright 2004-2006 Jean-Baptiste Note <jean-baptiste.note@m4x.org>, et al.
  */
 
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/firmware.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/completion.h>
-#include <linux/module.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/firmware.h>
+#include <robux/etherdevice.h>
+#include <robux/delay.h>
+#include <robux/completion.h>
+#include <robux/module.h>
 #include <net/mac80211.h>
 
 #include "p54.h"

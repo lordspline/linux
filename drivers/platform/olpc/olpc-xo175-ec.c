@@ -9,20 +9,20 @@
  * Copyright (C) 2018 Lubomir Rintel <lkundrak@v3.sk>
  */
 
-#include <linux/completion.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/input.h>
-#include <linux/kfifo.h>
-#include <linux/module.h>
-#include <linux/olpc-ec.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/spi/spi.h>
+#include <robux/completion.h>
+#include <robux/ctype.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/input.h>
+#include <robux/kfifo.h>
+#include <robux/module.h>
+#include <robux/olpc-ec.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/reboot.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/spi/spi.h>
 
 struct ec_cmd_t {
 	u8 cmd;

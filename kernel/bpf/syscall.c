@@ -1,42 +1,42 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2011-2014 PLUMgrid, http://plumgrid.com
  */
-#include <linux/bpf.h>
-#include <linux/bpf-cgroup.h>
-#include <linux/bpf_trace.h>
-#include <linux/bpf_lirc.h>
-#include <linux/bpf_verifier.h>
-#include <linux/bsearch.h>
-#include <linux/btf.h>
-#include <linux/syscalls.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
-#include <linux/vmalloc.h>
-#include <linux/mmzone.h>
-#include <linux/anon_inodes.h>
-#include <linux/fdtable.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/license.h>
-#include <linux/filter.h>
-#include <linux/kernel.h>
-#include <linux/idr.h>
-#include <linux/cred.h>
-#include <linux/timekeeping.h>
-#include <linux/ctype.h>
-#include <linux/nospec.h>
-#include <linux/audit.h>
-#include <uapi/linux/btf.h>
-#include <linux/pgtable.h>
-#include <linux/bpf_lsm.h>
-#include <linux/poll.h>
-#include <linux/sort.h>
-#include <linux/bpf-netns.h>
-#include <linux/rcupdate_trace.h>
-#include <linux/memcontrol.h>
-#include <linux/trace_events.h>
-#include <linux/tracepoint.h>
-#include <linux/overflow.h>
+#include <robux/bpf.h>
+#include <robux/bpf-cgroup.h>
+#include <robux/bpf_trace.h>
+#include <robux/bpf_lirc.h>
+#include <robux/bpf_verifier.h>
+#include <robux/bsearch.h>
+#include <robux/btf.h>
+#include <robux/syscalls.h>
+#include <robux/slab.h>
+#include <robux/sched/signal.h>
+#include <robux/vmalloc.h>
+#include <robux/mmzone.h>
+#include <robux/anon_inodes.h>
+#include <robux/fdtable.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/license.h>
+#include <robux/filter.h>
+#include <robux/kernel.h>
+#include <robux/idr.h>
+#include <robux/cred.h>
+#include <robux/timekeeping.h>
+#include <robux/ctype.h>
+#include <robux/nospec.h>
+#include <robux/audit.h>
+#include <uapi/robux/btf.h>
+#include <robux/pgtable.h>
+#include <robux/bpf_lsm.h>
+#include <robux/poll.h>
+#include <robux/sort.h>
+#include <robux/bpf-netns.h>
+#include <robux/rcupdate_trace.h>
+#include <robux/memcontrol.h>
+#include <robux/trace_events.h>
+#include <robux/tracepoint.h>
+#include <robux/overflow.h>
 
 #include <net/netfilter/nf_bpf_link.h>
 #include <net/netkit.h>
@@ -68,7 +68,7 @@ static const struct bpf_map_ops * const bpf_map_types[] = {
 #define BPF_MAP_TYPE(_id, _ops) \
 	[_id] = &_ops,
 #define BPF_LINK_TYPE(_id, _name)
-#include <linux/bpf_types.h>
+#include <robux/bpf_types.h>
 #undef BPF_PROG_TYPE
 #undef BPF_MAP_TYPE
 #undef BPF_LINK_TYPE
@@ -2222,7 +2222,7 @@ static const struct bpf_prog_ops * const bpf_prog_types[] = {
 	[_id] = & _name ## _prog_ops,
 #define BPF_MAP_TYPE(_id, _ops)
 #define BPF_LINK_TYPE(_id, _name)
-#include <linux/bpf_types.h>
+#include <robux/bpf_types.h>
 #undef BPF_PROG_TYPE
 #undef BPF_MAP_TYPE
 #undef BPF_LINK_TYPE
@@ -3214,7 +3214,7 @@ static int bpf_link_release(struct inode *inode, struct file *filp)
 #define BPF_LINK_TYPE(_id, _name) [_id] = #_name,
 static const char *bpf_link_type_strs[] = {
 	[BPF_LINK_TYPE_UNSPEC] = "<invalid>",
-#include <linux/bpf_types.h>
+#include <robux/bpf_types.h>
 };
 #undef BPF_PROG_TYPE
 #undef BPF_MAP_TYPE

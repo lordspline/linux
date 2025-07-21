@@ -3161,7 +3161,7 @@
 
 			dma-coherent;
 
-			linux,pci-domain = <3>;
+			robux,pci-domain = <3>;
 			num-lanes = <8>;
 
 			interrupts = <GIC_SPI 158 IRQ_TYPE_LEVEL_HIGH>,
@@ -3366,7 +3366,7 @@
 
 			dma-coherent;
 
-			linux,pci-domain = <6>;
+			robux,pci-domain = <6>;
 			num-lanes = <4>;
 
 			msi-map = <0x0 &gic_its 0xe0000 0x10000>;
@@ -3498,7 +3498,7 @@
 
 			dma-coherent;
 
-			linux,pci-domain = <5>;
+			robux,pci-domain = <5>;
 			num-lanes = <2>;
 
 			interrupts = <GIC_SPI 94 IRQ_TYPE_LEVEL_HIGH>,
@@ -3624,7 +3624,7 @@
 
 			dma-coherent;
 
-			linux,pci-domain = <4>;
+			robux,pci-domain = <4>;
 			num-lanes = <2>;
 
 			msi-map = <0x0 &gic_its 0xc0000 0x10000>;

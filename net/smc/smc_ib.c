@@ -9,17 +9,17 @@
  *
  *  Copyright IBM Corp. 2016
  *
- *  Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ *  Author(s):  Ursula Braun <ubraun@robux.vnet.ibm.com>
  */
 
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/random.h>
-#include <linux/workqueue.h>
-#include <linux/scatterlist.h>
-#include <linux/wait.h>
-#include <linux/mutex.h>
-#include <linux/inetdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/if_vlan.h>
+#include <robux/random.h>
+#include <robux/workqueue.h>
+#include <robux/scatterlist.h>
+#include <robux/wait.h>
+#include <robux/mutex.h>
+#include <robux/inetdevice.h>
 #include <rdma/ib_verbs.h>
 #include <rdma/ib_cache.h>
 

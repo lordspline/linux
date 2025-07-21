@@ -4,12 +4,12 @@
  * Copyright (C) 2020 Bartosz Golaszewski <bgolaszewski@baylibre.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irq_sim.h>
-#include <linux/irq_work.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irq_sim.h>
+#include <robux/irq_work.h>
+#include <robux/slab.h>
 
 struct irq_sim_work_ctx {
 	struct irq_work		work;

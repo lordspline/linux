@@ -5,17 +5,17 @@
  * Copyright (C) 2024 Matteo Martelli <matteomartelli3@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/i2c.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/limits.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <robux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/i2c.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/limits.h>
+#include <robux/regmap.h>
+#include <robux/units.h>
 
 /* pac1921 registers */
 #define PAC1921_REG_GAIN_CFG		0x00

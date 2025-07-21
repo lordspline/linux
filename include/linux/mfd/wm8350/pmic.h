@@ -8,9 +8,9 @@
 #ifndef __LINUX_MFD_WM8350_PMIC_H
 #define __LINUX_MFD_WM8350_PMIC_H
 
-#include <linux/platform_device.h>
-#include <linux/leds.h>
-#include <linux/regulator/machine.h>
+#include <robux/platform_device.h>
+#include <robux/leds.h>
+#include <robux/regulator/machine.h>
 
 /*
  * Register values.

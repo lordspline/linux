@@ -18,13 +18,13 @@
  * Copyright:	(C) 2004 MontaVista Software, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/dma-mapping.h>
-#include <linux/atmel_pdc.h>
-#include <linux/atmel-ssc.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/atmel_pdc.h>
+#include <robux/atmel-ssc.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

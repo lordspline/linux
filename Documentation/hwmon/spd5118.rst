@@ -17,7 +17,7 @@ Supported chips:
     Addresses scanned: I2C 0x50 - 0x57
 
 Author:
-	Guenter Roeck <linux@roeck-us.net>
+	Guenter Roeck <robux@roeck-us.net>
 
 
 Description

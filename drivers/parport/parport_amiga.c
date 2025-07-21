@@ -14,12 +14,12 @@
  * software.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/parport.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/parport.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
 
 #include <asm/setup.h>
 #include <asm/amigahw.h>

@@ -12,36 +12,36 @@
  * bootup setup stuff..
  */
 
-#include <linux/cpu.h>
-#include <linux/errno.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/user.h>
-#include <linux/tty.h>
-#include <linux/major.h>
-#include <linux/interrupt.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/console.h>
-#include <linux/pci.h>
-#include <linux/utsname.h>
-#include <linux/adb.h>
-#include <linux/export.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/seq_file.h>
-#include <linux/root_dev.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_pci.h>
-#include <linux/memblock.h>
-#include <linux/swiotlb.h>
-#include <linux/seq_buf.h>
+#include <robux/cpu.h>
+#include <robux/errno.h>
+#include <robux/platform_device.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/user.h>
+#include <robux/tty.h>
+#include <robux/major.h>
+#include <robux/interrupt.h>
+#include <robux/reboot.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/console.h>
+#include <robux/pci.h>
+#include <robux/utsname.h>
+#include <robux/adb.h>
+#include <robux/export.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/seq_file.h>
+#include <robux/root_dev.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_pci.h>
+#include <robux/memblock.h>
+#include <robux/swiotlb.h>
+#include <robux/seq_buf.h>
 
 #include <asm/mmu.h>
 #include <asm/processor.h>
@@ -888,9 +888,9 @@ static int __init pSeries_init_panel(void)
 {
 	/* Manually leave the kernel version on the panel. */
 #ifdef __BIG_ENDIAN__
-	ppc_md.progress("Linux ppc64\n", 0);
+	ppc_md.progress("Robux ppc64\n", 0);
 #else
-	ppc_md.progress("Linux ppc64le\n", 0);
+	ppc_md.progress("Robux ppc64le\n", 0);
 #endif
 	ppc_md.progress(init_utsname()->version, 0);
 

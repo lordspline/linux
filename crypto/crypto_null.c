@@ -16,9 +16,9 @@
 #include <crypto/internal/hash.h>
 #include <crypto/internal/skcipher.h>
 #include <crypto/scatterwalk.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/string.h>
 
 static int null_init(struct shash_desc *desc)
 {

@@ -19,23 +19,23 @@
  */
 
 
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/serial.h>
-#include <linux/serial_reg.h>
-#include <linux/circ_buf.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/sysrq.h>
+#include <robux/serial.h>
+#include <robux/serial_reg.h>
+#include <robux/circ_buf.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/serial_core.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/slab.h>
 
 #define PXA_NAME_LEN		8
 

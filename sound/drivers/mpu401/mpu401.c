@@ -5,11 +5,11 @@
  *  Copyright (c) 2004 by Castet Matthieu <castet.matthieu@free.fr>
  */
 
-#include <linux/init.h>
-#include <linux/pnp.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/pnp.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/mpu401.h>
 #include <sound/initval.h>

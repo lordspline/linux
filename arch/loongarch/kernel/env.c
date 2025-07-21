@@ -4,12 +4,12 @@
  *
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/efi.h>
-#include <linux/export.h>
-#include <linux/memblock.h>
-#include <linux/of_clk.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/efi.h>
+#include <robux/export.h>
+#include <robux/memblock.h>
+#include <robux/of_clk.h>
 #include <asm/early_ioremap.h>
 #include <asm/bootinfo.h>
 #include <asm/loongson.h>

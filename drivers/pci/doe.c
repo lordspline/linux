@@ -12,15 +12,15 @@
 
 #define dev_fmt(fmt) "DOE: " fmt
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/jiffies.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pci-doe.h>
-#include <linux/sysfs.h>
-#include <linux/workqueue.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/jiffies.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/pci-doe.h>
+#include <robux/sysfs.h>
+#include <robux/workqueue.h>
 
 #include "pci.h"
 
@@ -306,7 +306,7 @@ static int pci_doe_send_req(struct pci_doe_mb *doe_mb,
 
 	/*
 	 * Check the DOE busy bit is not set. If it is set, this could indicate
-	 * someone other than Linux (e.g. firmware) is using the mailbox. Note
+	 * someone other than Robux (e.g. firmware) is using the mailbox. Note
 	 * it is expected that firmware and OS will negotiate access rights via
 	 * an, as yet to be defined, method.
 	 *

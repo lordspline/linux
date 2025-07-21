@@ -26,13 +26,13 @@
 #define __ARCH_ARM_MACH_OMAP2PLUS_COMMON_H
 #ifndef __ASSEMBLER__
 
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/mfd/twl.h>
-#include <linux/platform_data/i2c-omap.h>
-#include <linux/reboot.h>
-#include <linux/irqchip/irq-omap-intc.h>
+#include <robux/irq.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/mfd/twl.h>
+#include <robux/platform_data/i2c-omap.h>
+#include <robux/reboot.h>
+#include <robux/irqchip/irq-omap-intc.h>
 
 #include <asm/proc-fns.h>
 #include <asm/hardware/cache-l2x0.h>

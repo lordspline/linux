@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/minix_fs.h>
-#include <linux/ext2_fs.h>
-#include <linux/romfs_fs.h>
-#include <uapi/linux/cramfs_fs.h>
-#include <linux/initrd.h>
-#include <linux/string.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/minix_fs.h>
+#include <robux/ext2_fs.h>
+#include <robux/romfs_fs.h>
+#include <uapi/robux/cramfs_fs.h>
+#include <robux/initrd.h>
+#include <robux/string.h>
+#include <robux/slab.h>
 
 #include "do_mounts.h"
 #include "../fs/squashfs/squashfs_fs.h"
 
-#include <linux/decompress/generic.h>
+#include <robux/decompress/generic.h>
 
 static struct file *in_file, *out_file;
 static loff_t in_pos, out_pos;

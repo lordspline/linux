@@ -10,10 +10,10 @@
 #ifndef __ASM_ARM_MMU_CONTEXT_H
 #define __ASM_ARM_MMU_CONTEXT_H
 
-#include <linux/compiler.h>
-#include <linux/sched.h>
-#include <linux/mm_types.h>
-#include <linux/preempt.h>
+#include <robux/compiler.h>
+#include <robux/sched.h>
+#include <robux/mm_types.h>
+#include <robux/preempt.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cachetype.h>

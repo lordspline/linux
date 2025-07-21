@@ -4,14 +4,14 @@
  * ADI MAX77541 ADC Driver with IIO interface
  */
 
-#include <linux/bitfield.h>
-#include <linux/iio/iio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/iio/iio.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/units.h>
 
-#include <linux/mfd/max77541.h>
+#include <robux/mfd/max77541.h>
 
 enum max77541_adc_range {
 	LOW_RANGE,

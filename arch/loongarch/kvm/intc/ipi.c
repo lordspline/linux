@@ -3,7 +3,7 @@
  * Copyright (C) 2024 Loongson Technology Corporation Limited
  */
 
-#include <linux/kvm_host.h>
+#include <robux/kvm_host.h>
 #include <asm/kvm_ipi.h>
 #include <asm/kvm_vcpu.h>
 

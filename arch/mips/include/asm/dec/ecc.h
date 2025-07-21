@@ -39,7 +39,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/interrupt.h>
+#include <robux/interrupt.h>
 
 struct pt_regs;
 

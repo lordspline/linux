@@ -9,22 +9,22 @@
  * Added OMAP4 support - Santosh Shilimkar <santosh.shilimkar@ti.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/seq_file.h>
-#include <linux/syscore_ops.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/cpu_pm.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm.h>
-#include <linux/of.h>
-#include <linux/gpio/driver.h>
-#include <linux/bitops.h>
-#include <linux/platform_data/gpio-omap.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/seq_file.h>
+#include <robux/syscore_ops.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/cpu_pm.h>
+#include <robux/device.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm.h>
+#include <robux/of.h>
+#include <robux/gpio/driver.h>
+#include <robux/bitops.h>
+#include <robux/platform_data/gpio-omap.h>
 
 #define OMAP4_GPIO_DEBOUNCINGTIME_MASK 0xFF
 

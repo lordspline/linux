@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2016, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2016, The Robux Foundation. All rights reserved.
  * Copyright (c) 2024 Freebox SAS
  */
 
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
 
 #include "hdmi.h"
 

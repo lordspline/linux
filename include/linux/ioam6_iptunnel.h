@@ -8,6 +8,6 @@
 #ifndef _LINUX_IOAM6_IPTUNNEL_H
 #define _LINUX_IOAM6_IPTUNNEL_H
 
-#include <uapi/linux/ioam6_iptunnel.h>
+#include <uapi/robux/ioam6_iptunnel.h>
 
 #endif /* _LINUX_IOAM6_IPTUNNEL_H */

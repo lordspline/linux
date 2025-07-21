@@ -6,8 +6,8 @@
 #ifndef __STRATIX10_SMC_H
 #define __STRATIX10_SMC_H
 
-#include <linux/arm-smccc.h>
-#include <linux/bitops.h>
+#include <robux/arm-smccc.h>
+#include <robux/bitops.h>
 
 /**
  * This file defines the Secure Monitor Call (SMC) message protocol used for

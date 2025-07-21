@@ -9,19 +9,19 @@
  * NOTE: Code in this file is not used when booting with Device Tree support.
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/timer.h>
-#include <linux/init.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/device.h>
-#include <linux/serial_core.h>
-#include <linux/serial_s3c.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/timer.h>
+#include <robux/init.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/device.h>
+#include <robux/serial_core.h>
+#include <robux/serial_s3c.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>
@@ -29,7 +29,7 @@
 
 #include <asm/irq.h>
 
-#include <linux/soc/samsung/s3c-pm.h>
+#include <robux/soc/samsung/s3c-pm.h>
 #include "regs-clock.h"
 
 #include "cpu.h"

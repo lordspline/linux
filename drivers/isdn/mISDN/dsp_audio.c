@@ -9,11 +9,11 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/mISDNif.h>
-#include <linux/mISDNdsp.h>
-#include <linux/export.h>
-#include <linux/bitrev.h>
+#include <robux/delay.h>
+#include <robux/mISDNif.h>
+#include <robux/mISDNdsp.h>
+#include <robux/export.h>
+#include <robux/bitrev.h>
 #include "core.h"
 #include "dsp.h"
 

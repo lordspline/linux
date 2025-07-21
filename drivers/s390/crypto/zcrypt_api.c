@@ -8,27 +8,27 @@
  *  Hotplug & misc device support: Jochen Roehrig (roehrig@de.ibm.com)
  *  Major cleanup & driver split: Martin Schwidefsky <schwidefsky@de.ibm.com>
  *				  Ralph Wuerthner <rwuerthn@de.ibm.com>
- *  MSGTYPE restruct:		  Holger Dengler <hd@linux.vnet.ibm.com>
- *  Multiple device nodes: Harald Freudenberger <freude@linux.ibm.com>
+ *  MSGTYPE restruct:		  Holger Dengler <hd@robux.vnet.ibm.com>
+ *  Multiple device nodes: Harald Freudenberger <freude@robux.ibm.com>
  */
 
 #define KMSG_COMPONENT "zcrypt"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/miscdevice.h>
-#include <linux/fs.h>
-#include <linux/compat.h>
-#include <linux/slab.h>
-#include <linux/atomic.h>
-#include <linux/uaccess.h>
-#include <linux/hw_random.h>
-#include <linux/debugfs.h>
-#include <linux/cdev.h>
-#include <linux/ctype.h>
-#include <linux/capability.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/miscdevice.h>
+#include <robux/fs.h>
+#include <robux/compat.h>
+#include <robux/slab.h>
+#include <robux/atomic.h>
+#include <robux/uaccess.h>
+#include <robux/hw_random.h>
+#include <robux/debugfs.h>
+#include <robux/cdev.h>
+#include <robux/ctype.h>
+#include <robux/capability.h>
 #include <asm/debug.h>
 
 #define CREATE_TRACE_POINTS

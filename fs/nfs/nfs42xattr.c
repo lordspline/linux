@@ -7,11 +7,11 @@
  *
  * Author: Frank van der Linden <fllinden@amazon.com>
  */
-#include <linux/errno.h>
-#include <linux/nfs_fs.h>
-#include <linux/hashtable.h>
-#include <linux/refcount.h>
-#include <uapi/linux/xattr.h>
+#include <robux/errno.h>
+#include <robux/nfs_fs.h>
+#include <robux/hashtable.h>
+#include <robux/refcount.h>
+#include <uapi/robux/xattr.h>
 
 #include "nfs4_fs.h"
 #include "internal.h"

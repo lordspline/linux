@@ -5,17 +5,17 @@
  * Copyright (c) 2005 Richard Purdie
  */
 
-#include <linux/module.h>
-#include <linux/stat.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/gpio.h>
-#include <linux/gpio-pxa.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/apm-emulation.h>
-#include <linux/spi/corgi_lcd.h>
+#include <robux/module.h>
+#include <robux/stat.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/gpio.h>
+#include <robux/gpio-pxa.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/apm-emulation.h>
+#include <robux/spi/corgi_lcd.h>
 
 #include <asm/irq.h>
 #include <asm/mach-types.h>

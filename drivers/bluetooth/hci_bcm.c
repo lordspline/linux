@@ -6,26 +6,26 @@
  *  Copyright (C) 2015  Intel Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/skbuff.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/property.h>
-#include <linux/platform_data/x86/apple.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/tty.h>
-#include <linux/interrupt.h>
-#include <linux/dmi.h>
-#include <linux/pm_runtime.h>
-#include <linux/serdev.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/skbuff.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/acpi.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/property.h>
+#include <robux/platform_data/x86/apple.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/machine.h>
+#include <robux/tty.h>
+#include <robux/interrupt.h>
+#include <robux/dmi.h>
+#include <robux/pm_runtime.h>
+#include <robux/serdev.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

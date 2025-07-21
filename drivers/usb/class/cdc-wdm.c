@@ -12,22 +12,22 @@
  *
  * Many thanks to Carl Nordbeck
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/ioctl.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/bitops.h>
-#include <linux/poll.h>
-#include <linux/skbuff.h>
-#include <linux/usb.h>
-#include <linux/usb/cdc.h>
-#include <linux/wwan.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/ioctl.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
+#include <robux/bitops.h>
+#include <robux/poll.h>
+#include <robux/skbuff.h>
+#include <robux/usb.h>
+#include <robux/usb/cdc.h>
+#include <robux/wwan.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
-#include <linux/usb/cdc-wdm.h>
+#include <robux/unaligned.h>
+#include <robux/usb/cdc-wdm.h>
 
 #define DRIVER_AUTHOR "Oliver Neukum"
 #define DRIVER_DESC "USB Abstract Control Model driver for USB WCM Device Management"

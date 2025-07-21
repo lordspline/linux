@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright(c) 2015-17 Intel Corporation.
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/types.h>
 #include "internal.h"
 
 static int regmap_sdw_write(void *context, const void *val_buf, size_t val_size)

@@ -8,15 +8,15 @@
 
 #define pr_fmt(fmt) "dmxdev: " fmt
 
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/module.h>
-#include <linux/poll.h>
-#include <linux/ioctl.h>
-#include <linux/wait.h>
-#include <linux/uaccess.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/poll.h>
+#include <robux/ioctl.h>
+#include <robux/wait.h>
+#include <robux/uaccess.h>
 #include <media/dmxdev.h>
 #include <media/dvb_vb2.h>
 

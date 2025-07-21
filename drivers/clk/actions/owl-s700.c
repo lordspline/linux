@@ -9,8 +9,8 @@
  * Author: Saravanan Sekar <sravanhome@gmail.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/platform_device.h>
 
 #include "owl-common.h"
 #include "owl-composite.h"

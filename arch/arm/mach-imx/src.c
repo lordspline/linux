@@ -4,14 +4,14 @@
  * Copyright 2011 Linaro Ltd.
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/smp.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
+#include <robux/smp.h>
 #include <asm/smp_plat.h>
 #include "common.h"
 #include "hardware.h"

@@ -3,14 +3,14 @@
 #define _FS_CEPH_TYPES_H
 
 /* needed before including ceph_fs.h */
-#include <linux/in.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/string.h>
+#include <robux/in.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/string.h>
 
-#include <linux/ceph/ceph_fs.h>
-#include <linux/ceph/ceph_frag.h>
-#include <linux/ceph/ceph_hash.h>
+#include <robux/ceph/ceph_fs.h>
+#include <robux/ceph/ceph_frag.h>
+#include <robux/ceph/ceph_hash.h>
 
 /*
  * Identify inodes by both their ino AND snapshot id (a u64).

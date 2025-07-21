@@ -4,16 +4,16 @@
  *   Copyright (C) 2011 John Crispin <john@phrozen.org>
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/dma-mapping.h>
-#include <linux/export.h>
-#include <linux/spinlock.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/of.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/dma-mapping.h>
+#include <robux/export.h>
+#include <robux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/of.h>
 
 #include <lantiq_soc.h>
 #include <xway_dma.h>

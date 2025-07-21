@@ -10,16 +10,16 @@
  * Copyright (c) 2003-2004 IBM Corp.
  */
 
-#include <linux/acpi.h>
-#include <linux/component.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/gfp.h>
-#include <linux/i2c.h>
-#include <linux/kdev_t.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/component.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/gfp.h>
+#include <robux/i2c.h>
+#include <robux/kdev_t.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
 #include <drm/drm_accel.h>
 #include <drm/drm_connector.h>

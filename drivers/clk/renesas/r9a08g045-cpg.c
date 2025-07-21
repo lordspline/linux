@@ -5,11 +5,11 @@
  * Copyright (C) 2023 Renesas Electronics Corp.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/pm_domain.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/pm_domain.h>
 
 #include <dt-bindings/clock/r9a08g045-cpg.h>
 

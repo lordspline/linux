@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/nvidia/nvidia-i2c.c - nVidia i2c
+ * robux/drivers/video/nvidia/nvidia-i2c.c - nVidia i2c
  *
  * Copyright 2004 Antonino A. Daplas <adaplas @pol.net>
  *
@@ -10,12 +10,12 @@
  * for more details.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/pci.h>
-#include <linux/fb.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/gfp.h>
+#include <robux/pci.h>
+#include <robux/fb.h>
 
 #include <asm/io.h>
 

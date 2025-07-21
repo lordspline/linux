@@ -7,17 +7,17 @@
  * Contact: Jarkko Nikula <jarkko.nikula@bitmer.com>
  */
 
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/i2c.h>
+#include <robux/platform_device.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
 
 #include <asm/mach-types.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/platform_data/asoc-ti-mcbsp.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/platform_data/asoc-ti-mcbsp.h>
 
 #include "omap-mcbsp.h"
 

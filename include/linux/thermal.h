@@ -10,12 +10,12 @@
 #ifndef __THERMAL_H__
 #define __THERMAL_H__
 
-#include <linux/of.h>
-#include <linux/idr.h>
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/workqueue.h>
-#include <uapi/linux/thermal.h>
+#include <robux/of.h>
+#include <robux/idr.h>
+#include <robux/device.h>
+#include <robux/sysfs.h>
+#include <robux/workqueue.h>
+#include <uapi/robux/thermal.h>
 
 /* invalid cooling state */
 #define THERMAL_CSTATE_INVALID -1UL

@@ -6,13 +6,13 @@
  * Copyright (C) 2023 Luis Chamberlain <mcgrof@kernel.org>
  */
 
-#include <linux/elf.h>
-#include <linux/compiler.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/rculist.h>
-#include <linux/rcupdate.h>
-#include <linux/mm.h>
+#include <robux/elf.h>
+#include <robux/compiler.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/rculist.h>
+#include <robux/rcupdate.h>
+#include <robux/mm.h>
 
 #ifndef ARCH_SHF_SMALL
 #define ARCH_SHF_SMALL 0

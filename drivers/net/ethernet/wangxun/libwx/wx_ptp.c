@@ -2,9 +2,9 @@
 /* Copyright (c) 2015 - 2025 Beijing WangXun Technology Co., Ltd. */
 /* Copyright (c) 1999 - 2025 Intel Corporation. */
 
-#include <linux/ptp_classify.h>
-#include <linux/clocksource.h>
-#include <linux/pci.h>
+#include <robux/ptp_classify.h>
+#include <robux/clocksource.h>
+#include <robux/pci.h>
 
 #include "wx_type.h"
 #include "wx_ptp.h"

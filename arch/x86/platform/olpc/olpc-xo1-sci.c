@@ -7,17 +7,17 @@
  * Copyright (C) 2006 Advanced Micro Devices, Inc.
  */
 
-#include <linux/cs5535.h>
-#include <linux/device.h>
-#include <linux/gpio.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/power_supply.h>
-#include <linux/suspend.h>
-#include <linux/workqueue.h>
-#include <linux/olpc-ec.h>
+#include <robux/cs5535.h>
+#include <robux/device.h>
+#include <robux/gpio.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/power_supply.h>
+#include <robux/suspend.h>
+#include <robux/workqueue.h>
+#include <robux/olpc-ec.h>
 
 #include <asm/io.h>
 #include <asm/msr.h>

@@ -7,10 +7,10 @@
  * Authors: Roger Quadros <rogerq@ti.com>
  */
 
-#include <linux/extcon.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/extcon.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 #include "debug.h"
 #include "core.h"

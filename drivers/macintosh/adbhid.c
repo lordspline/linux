@@ -35,15 +35,15 @@
  * Move to syfs
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/notifier.h>
-#include <linux/input.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/notifier.h>
+#include <robux/input.h>
 
-#include <linux/adb.h>
-#include <linux/cuda.h>
-#include <linux/pmu.h>
+#include <robux/adb.h>
+#include <robux/cuda.h>
+#include <robux/pmu.h>
 
 #include <asm/machdep.h>
 #ifdef CONFIG_PPC_PMAC

@@ -9,23 +9,23 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/dmi.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/delay.h>
-#include <linux/wait.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/freezer.h>
-#include <linux/uaccess.h>
-#include <linux/miscdevice.h>
-#include <linux/pm_runtime.h>
-#include <linux/atomic.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/sched/signal.h>
+#include <robux/dmi.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/delay.h>
+#include <robux/wait.h>
+#include <robux/poll.h>
+#include <robux/slab.h>
+#include <robux/freezer.h>
+#include <robux/uaccess.h>
+#include <robux/miscdevice.h>
+#include <robux/pm_runtime.h>
+#include <robux/atomic.h>
+#include <robux/of.h>
 #include "lis3lv02d.h"
 
 #define DRIVER_NAME     "lis3lv02d"

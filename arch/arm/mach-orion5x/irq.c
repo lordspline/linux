@@ -6,10 +6,10 @@
  *
  * Maintainer: Tzachi Perelstein <tzachi@marvell.com>
  */
-#include <linux/gpio.h>
-#include <linux/kernel.h>
-#include <linux/irq.h>
-#include <linux/io.h>
+#include <robux/gpio.h>
+#include <robux/kernel.h>
+#include <robux/irq.h>
+#include <robux/io.h>
 #include <plat/orion-gpio.h>
 #include <plat/irq.h>
 #include <asm/exception.h>

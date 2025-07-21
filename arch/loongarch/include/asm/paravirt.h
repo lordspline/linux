@@ -4,7 +4,7 @@
 
 #ifdef CONFIG_PARAVIRT
 
-#include <linux/static_call_types.h>
+#include <robux/static_call_types.h>
 struct static_key;
 extern struct static_key paravirt_steal_enabled;
 extern struct static_key paravirt_steal_rq_enabled;

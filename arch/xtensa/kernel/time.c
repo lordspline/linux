@@ -12,21 +12,21 @@
  * Chris Zankel <chris@zankel.net>
  */
 
-#include <linux/clk.h>
-#include <linux/of_clk.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/time.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/profile.h>
-#include <linux/delay.h>
-#include <linux/irqdomain.h>
-#include <linux/sched_clock.h>
+#include <robux/clk.h>
+#include <robux/of_clk.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/time.h>
+#include <robux/clocksource.h>
+#include <robux/clockchips.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/profile.h>
+#include <robux/delay.h>
+#include <robux/irqdomain.h>
+#include <robux/sched_clock.h>
 
 #include <asm/timex.h>
 #include <asm/platform.h>

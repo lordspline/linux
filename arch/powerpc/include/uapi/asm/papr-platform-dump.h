@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI_PAPR_PLATFORM_DUMP_H_
 #define _UAPI_PAPR_PLATFORM_DUMP_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/ioctl.h>
 #include <asm/papr-miscdev.h>
 

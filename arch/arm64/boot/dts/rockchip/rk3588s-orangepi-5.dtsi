@@ -29,7 +29,7 @@
 
 		button-recovery {
 			label = "Recovery";
-			linux,code = <KEY_VENDOR>;
+			robux,code = <KEY_VENDOR>;
 			press-threshold-microvolt = <1800>;
 		};
 	};
@@ -84,7 +84,7 @@
 		led {
 			color = <LED_COLOR_ID_GREEN>;
 			function = LED_FUNCTION_STATUS;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 			max-brightness = <255>;
 			pwms = <&pwm0 0 25000 0>;
 		};

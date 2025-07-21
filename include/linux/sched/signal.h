@@ -2,16 +2,16 @@
 #ifndef _LINUX_SCHED_SIGNAL_H
 #define _LINUX_SCHED_SIGNAL_H
 
-#include <linux/rculist.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/sched/jobctl.h>
-#include <linux/sched/task.h>
-#include <linux/cred.h>
-#include <linux/refcount.h>
-#include <linux/pid.h>
-#include <linux/posix-timers.h>
-#include <linux/mm_types.h>
+#include <robux/rculist.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/sched/jobctl.h>
+#include <robux/sched/task.h>
+#include <robux/cred.h>
+#include <robux/refcount.h>
+#include <robux/pid.h>
+#include <robux/posix-timers.h>
+#include <robux/mm_types.h>
 #include <asm/ptrace.h>
 
 /*

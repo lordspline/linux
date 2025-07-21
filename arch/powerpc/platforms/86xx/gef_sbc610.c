@@ -12,14 +12,14 @@
  * NEC fixup adapted from arch/mips/pci/fixup-lm2e.c
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/kdev_t.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/kdev_t.h>
+#include <robux/delay.h>
+#include <robux/seq_file.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include <asm/time.h>
 #include <asm/machdep.h>

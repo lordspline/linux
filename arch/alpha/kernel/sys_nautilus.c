@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/sys_nautilus.c
+ *	robux/arch/alpha/kernel/sys_nautilus.c
  *
  *	Copyright (C) 1995 David A Rusling
  *	Copyright (C) 1998 Richard Henderson
@@ -25,15 +25,15 @@
  *     2 USB ports
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/reboot.h>
-#include <linux/memblock.h>
-#include <linux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/reboot.h>
+#include <robux/memblock.h>
+#include <robux/bitops.h>
 
 #include <asm/ptrace.h>
 #include <asm/dma.h>

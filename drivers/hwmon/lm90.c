@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * lm90.c - Part of lm_sensors, Linux kernel modules for hardware
+ * lm90.c - Part of lm_sensors, Robux kernel modules for hardware
  *          monitoring
  * Copyright (C) 2003-2010  Jean Delvare <jdelvare@suse.de>
  *
@@ -98,21 +98,21 @@
  * concern all supported chipsets, unless mentioned otherwise.
  */
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/hwmon.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/hwmon.h>
+#include <robux/kstrtox.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 /* The maximum number of channels currently supported */
 #define MAX_CHANNELS	3

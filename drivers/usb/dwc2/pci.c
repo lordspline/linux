@@ -9,20 +9,20 @@
  * Provides the initialization and cleanup entry points for the DWC_otg PCI
  * driver
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/usb.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/usb.h>
 
-#include <linux/usb/hcd.h>
-#include <linux/usb/ch11.h>
-#include <linux/platform_device.h>
-#include <linux/usb/usb_phy_generic.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/ch11.h>
+#include <robux/platform_device.h>
+#include <robux/usb/usb_phy_generic.h>
 
 #include "core.h"
 

@@ -6,10 +6,10 @@
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": addr_prefs: " fmt
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/inet.h>
-#include <linux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/ctype.h>
+#include <robux/inet.h>
+#include <robux/seq_file.h>
 #include <keys/rxrpc-type.h>
 #include "internal.h"
 

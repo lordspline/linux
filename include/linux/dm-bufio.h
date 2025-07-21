@@ -10,8 +10,8 @@
 #ifndef _LINUX_DM_BUFIO_H
 #define _LINUX_DM_BUFIO_H
 
-#include <linux/blkdev.h>
-#include <linux/types.h>
+#include <robux/blkdev.h>
+#include <robux/types.h>
 
 /*----------------------------------------------------------------*/
 

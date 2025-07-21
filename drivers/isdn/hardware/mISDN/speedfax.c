@@ -9,13 +9,13 @@
  * Copyright 2009  by Karsten Keil <keil@isdn4linux.de>
  */
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/mISDNhw.h>
-#include <linux/firmware.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/mISDNhw.h>
+#include <robux/firmware.h>
 #include "ipac.h"
 #include "isar.h"
 

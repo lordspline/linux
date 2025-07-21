@@ -28,7 +28,7 @@
 
 		button-recovery {
 			label = "Recovery";
-			linux,code = <KEY_VENDOR>;
+			robux,code = <KEY_VENDOR>;
 			press-threshold-microvolt = <17000>;
 		};
 	};
@@ -85,7 +85,7 @@
 			debounce-interval = <50>;
 			gpios = <&gpio0 RK_PD5 GPIO_ACTIVE_LOW>;
 			label = "User Button";
-			linux,code = <BTN_1>;
+			robux,code = <BTN_1>;
 			wakeup-source;
 		};
 	};

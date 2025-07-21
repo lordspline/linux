@@ -7,16 +7,16 @@
  */
 
 /*
- * TurboGraFX parallel port interface driver for Linux.
+ * TurboGraFX parallel port interface driver for Robux.
  */
 
-#include <linux/kernel.h>
-#include <linux/parport.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/parport.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@ucw.cz>");
 MODULE_DESCRIPTION("TurboGraFX parallel port interface driver");

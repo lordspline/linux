@@ -7,13 +7,13 @@
  * Written by Hiroshi DOYU <Hiroshi.DOYU@nokia.com>
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/pm_runtime.h>
-#include <linux/debugfs.h>
-#include <linux/platform_data/iommu-omap.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/pm_runtime.h>
+#include <robux/debugfs.h>
+#include <robux/platform_data/iommu-omap.h>
 
 #include "omap-iopgtable.h"
 #include "omap-iommu.h"

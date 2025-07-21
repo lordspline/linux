@@ -21,11 +21,11 @@
  *
  *
  */
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <robux/list.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
 
-#include <linux/firmware.h>
+#include <robux/firmware.h>
 #include <drm/amdgpu_drm.h>
 #include "amdgpu.h"
 #include "atom.h"

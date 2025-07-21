@@ -8,7 +8,7 @@
 #ifndef __CROS_EC_LPC_MEC_H
 #define __CROS_EC_LPC_MEC_H
 
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 
 enum cros_ec_lpc_mec_emi_access_mode {
 	/* 8-bit access */

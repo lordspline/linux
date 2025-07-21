@@ -8,9 +8,9 @@
 
 #include <crypto/chacha.h>
 #include <crypto/internal/simd.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/jump_label.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #include <asm/cputype.h>
 #include <asm/hwcap.h>

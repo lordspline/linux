@@ -5,17 +5,17 @@
  * Author: Dipen Patel <dipenp@nvidia.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/hte.h>
-#include <linux/delay.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
+#include <robux/hte.h>
+#include <robux/delay.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
 
 /* Global list of the HTE devices */
 static DEFINE_SPINLOCK(hte_lock);

@@ -8,14 +8,14 @@
  * Copyright (C) 2002 Russell King
  */
 
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/serio.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/serio.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
 #define DRV_NAME "altera_ps2"
 

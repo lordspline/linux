@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright (c) 2024 Hisilicon Limited.
 
-#include <linux/phy.h>
-#include <linux/rtnetlink.h>
+#include <robux/phy.h>
+#include <robux/rtnetlink.h>
 #include "hbg_common.h"
 #include "hbg_hw.h"
 #include "hbg_mdio.h"

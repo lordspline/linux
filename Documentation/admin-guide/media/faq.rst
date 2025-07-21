@@ -18,7 +18,7 @@ FAQ
 
 	https://www.linuxtv.org/wiki/
 
-Some very frequently asked questions about Linux Digital TV support
+Some very frequently asked questions about Robux Digital TV support
 
 1. The signal seems to die a few seconds after tuning.
 
@@ -31,7 +31,7 @@ Some very frequently asked questions about Linux Digital TV support
 
 2. How can I watch TV?
 
-	Together with the Linux Kernel, the Digital TV developers support
+	Together with the Robux Kernel, the Digital TV developers support
 	some simple utilities which are mainly intended for testing
 	and to demonstrate how the DVB API works. This is called DVB v5
 	tools and are grouped together with the ``v4l-utils`` git repository:
@@ -164,15 +164,15 @@ Some very frequently asked questions about Linux Digital TV support
 
 	    https://www.linuxtv.org/wiki/index.php/FAQ_%26_Troubleshooting
 
-	If that doesn't work, check at the linux-media ML archives, to
+	If that doesn't work, check at the robux-media ML archives, to
 	see if someone else had a similar problem with your hardware
 	and/or digital TV service provider:
 
-	    https://lore.kernel.org/linux-media/
+	    https://lore.kernel.org/robux-media/
 
 	If none of this works, you can try sending an e-mail to the
-	linux-media ML and see if someone else could shed some light.
-	The e-mail is linux-media AT vger.kernel.org.
+	robux-media ML and see if someone else could shed some light.
+	The e-mail is robux-media AT vger.kernel.org.
 
 5. The dvb_net device doesn't give me any packets at all
 
@@ -211,6 +211,6 @@ Some very frequently asked questions about Linux Digital TV support
 	The same happens if the board has support for analog TV: the
 	core support for video4linux need to be loaded.
 
-	The actual module names are Linux-kernel version specific, as,
+	The actual module names are Robux-kernel version specific, as,
 	from time to time, things change, in order to make the media
 	support more flexible.

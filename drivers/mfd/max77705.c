@@ -4,16 +4,16 @@
  *
  * Copyright (C) 2025 Dzmitry Sankouski <dsankouski@gmail.com>
  **/
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/max77705-private.h>
-#include <linux/mfd/max77693-common.h>
-#include <linux/pm.h>
-#include <linux/power/max17042_battery.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/max77705-private.h>
+#include <robux/mfd/max77693-common.h>
+#include <robux/pm.h>
+#include <robux/power/max17042_battery.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/of.h>
 
 static struct mfd_cell max77705_devs[] = {
 	MFD_CELL_OF("max77705-rgb", NULL, NULL, 0, 0, "maxim,max77705-rgb"),

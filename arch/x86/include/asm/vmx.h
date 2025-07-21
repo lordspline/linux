@@ -12,9 +12,9 @@
 #define VMX_H
 
 
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/bug.h>
+#include <robux/types.h>
 
 #include <uapi/asm/vmx.h>
 #include <asm/trapnr.h>

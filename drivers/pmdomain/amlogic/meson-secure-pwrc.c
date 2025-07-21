@@ -6,19 +6,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
 #include <dt-bindings/power/meson-a1-power.h>
 #include <dt-bindings/power/amlogic,c3-pwrc.h>
 #include <dt-bindings/power/meson-s4-power.h>
 #include <dt-bindings/power/amlogic,t7-pwrc.h>
 #include <dt-bindings/power/amlogic,a4-pwrc.h>
 #include <dt-bindings/power/amlogic,a5-pwrc.h>
-#include <linux/arm-smccc.h>
-#include <linux/firmware/meson/meson_sm.h>
-#include <linux/module.h>
+#include <robux/arm-smccc.h>
+#include <robux/firmware/meson/meson_sm.h>
+#include <robux/module.h>
 
 #define PWRC_ON		1
 #define PWRC_OFF	0

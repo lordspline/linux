@@ -6,13 +6,13 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device/bus.h>
-#include <linux/dmi.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
+#include <robux/device/bus.h>
+#include <robux/dmi.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/platform_device.h>
+#include <robux/workqueue.h>
 #include "dell-smo8800-ids.h"
 
 #define LIS3_WHO_AM_I 0x0f

@@ -6,13 +6,13 @@
  *  For licencing details see kernel-base/COPYING
  */
 
-#include <linux/perf_event.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/ptrace.h>
-#include <linux/syscore_ops.h>
-#include <linux/sched/clock.h>
+#include <robux/perf_event.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/pci.h>
+#include <robux/ptrace.h>
+#include <robux/syscore_ops.h>
+#include <robux/sched/clock.h>
 
 #include <asm/apic.h>
 #include <asm/msr.h>
@@ -23,8 +23,8 @@ static u32 ibs_caps;
 
 #if defined(CONFIG_PERF_EVENTS) && defined(CONFIG_CPU_SUP_AMD)
 
-#include <linux/kprobes.h>
-#include <linux/hardirq.h>
+#include <robux/kprobes.h>
+#include <robux/hardirq.h>
 
 #include <asm/nmi.h>
 #include <asm/amd/ibs.h>

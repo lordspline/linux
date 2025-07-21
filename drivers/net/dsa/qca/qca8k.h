@@ -2,17 +2,17 @@
 /*
  * Copyright (C) 2009 Felix Fietkau <nbd@nbd.name>
  * Copyright (C) 2011-2012 Gabor Juhos <juhosg@openwrt.org>
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Robux Foundation. All rights reserved.
  */
 
 #ifndef __QCA8K_H
 #define __QCA8K_H
 
-#include <linux/delay.h>
-#include <linux/regmap.h>
-#include <linux/gpio.h>
-#include <linux/leds.h>
-#include <linux/dsa/tag_qca.h>
+#include <robux/delay.h>
+#include <robux/regmap.h>
+#include <robux/gpio.h>
+#include <robux/leds.h>
+#include <robux/dsa/tag_qca.h>
 
 #define QCA8K_ETHERNET_MDIO_PRIORITY			7
 #define QCA8K_ETHERNET_PHY_PRIORITY			6

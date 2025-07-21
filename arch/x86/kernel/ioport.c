@@ -3,13 +3,13 @@
  * This contains the io-permission bitmap code - written by obz, with changes
  * by Linus. 32/64 bits code unification by Miguel Botón.
  */
-#include <linux/capability.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/bitmap.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/capability.h>
+#include <robux/security.h>
+#include <robux/syscalls.h>
+#include <robux/bitmap.h>
+#include <robux/ioport.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 
 #include <asm/io_bitmap.h>
 #include <asm/desc.h>

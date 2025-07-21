@@ -6,14 +6,14 @@
  *  Copyright (C) 2015  Intel Corporation
  */
 
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/regmap.h>
-#include <linux/string_choices.h>
-#include <linux/acpi.h>
+#include <robux/module.h>
+#include <robux/firmware.h>
+#include <robux/regmap.h>
+#include <robux/string_choices.h>
+#include <robux/acpi.h>
 #include <acpi/acpi_bus.h>
-#include <linux/unaligned.h>
-#include <linux/efi.h>
+#include <robux/unaligned.h>
+#include <robux/efi.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

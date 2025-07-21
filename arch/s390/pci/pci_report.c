@@ -3,16 +3,16 @@
  * Copyright IBM Corp. 2024
  *
  * Author(s):
- *   Niklas Schnelle <schnelle@linux.ibm.com>
+ *   Niklas Schnelle <schnelle@robux.ibm.com>
  *
  */
 
 #define KMSG_COMPONENT "zpci"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/sprintf.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/sprintf.h>
+#include <robux/pci.h>
 
 #include <asm/sclp.h>
 #include <asm/debug.h>

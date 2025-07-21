@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/bitmap.h>
-#include <linux/workqueue.h>
+#include <robux/bitmap.h>
+#include <robux/workqueue.h>
 
 #include "nitrox_csr.h"
 #include "nitrox_hal.h"

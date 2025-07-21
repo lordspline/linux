@@ -36,7 +36,7 @@
 		button-user {
 			label = "user-button";
 			gpios = <&pioA PIN_PD19 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_PROG1>;
+			robux,code = <KEY_PROG1>;
 			wakeup-source;
 		};
 	};
@@ -64,7 +64,7 @@
 			color = <LED_COLOR_ID_BLUE>;
 			function = LED_FUNCTION_CPU;
 			gpios = <&pioA PIN_PB15 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 		};
 	};
 

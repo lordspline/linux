@@ -6,11 +6,11 @@
  * PPC64 virtual I/O console server support.
  */
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 #include <asm/hvcall.h>
 #include <asm/hvcserver.h>

@@ -5,10 +5,10 @@
 #ifndef _ASM_BITOPS_H
 #define _ASM_BITOPS_H
 
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 
 #ifndef _LINUX_BITOPS_H
-#error only <linux/bitops.h> can be included directly
+#error only <robux/bitops.h> can be included directly
 #endif
 
 #include <asm/barrier.h>

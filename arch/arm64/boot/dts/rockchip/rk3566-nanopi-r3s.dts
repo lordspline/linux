@@ -38,7 +38,7 @@
 		button-reset {
 			label = "reset";
 			gpios = <&gpio0 RK_PC2 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_RESTART>;
+			robux,code = <KEY_RESTART>;
 			debounce-interval = <50>;
 		};
 	};

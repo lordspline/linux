@@ -4,14 +4,14 @@
  * Author: Chris Zhong <zyw@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/extcon.h>
-#include <linux/firmware.h>
-#include <linux/mfd/syscon.h>
-#include <linux/phy/phy.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/extcon.h>
+#include <robux/firmware.h>
+#include <robux/mfd/syscon.h>
+#include <robux/phy/phy.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
 
 #include <sound/hdmi-codec.h>
 

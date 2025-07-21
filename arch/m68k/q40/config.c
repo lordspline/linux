@@ -6,23 +6,23 @@
  *
  * originally based on:
  *
- *  linux/bvme/config.c
+ *  robux/bvme/config.c
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/major.h>
-#include <linux/serial_reg.h>
-#include <linux/rtc.h>
-#include <linux/vt_kern.h>
-#include <linux/bcd.h>
-#include <linux/platform_device.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/tty.h>
+#include <robux/console.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
+#include <robux/major.h>
+#include <robux/serial_reg.h>
+#include <robux/rtc.h>
+#include <robux/vt_kern.h>
+#include <robux/bcd.h>
+#include <robux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/bootinfo.h>

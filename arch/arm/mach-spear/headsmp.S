@@ -4,11 +4,11 @@
  *
  * Picked from realview
  * Copyright (c) 2012 ST Microelectronics Limited
- * Shiraz Hashim <shiraz.linux.kernel@gmail.com>
+ * Shiraz Hashim <shiraz.robux.kernel@gmail.com>
  */
 
-#include <linux/linkage.h>
-#include <linux/init.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
 
 	__INIT
 

@@ -5,23 +5,23 @@
  * Copyright (c) 2020-2023 Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  * Copyright (c) 2012 Analog Devices Inc.
  *
- * Almost complete rewrite of work by Scott Jiang <Scott.Jiang.Linux@gmail.com>
+ * Almost complete rewrite of work by Scott Jiang <Scott.Jiang.Robux@gmail.com>
  * itself based on work from Andrew Chew <achew@nvidia.com>.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/types.h>
+#include <robux/videodev2.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-cci.h>

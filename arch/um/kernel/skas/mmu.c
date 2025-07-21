@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (C) 2015 Thomas Meyer (thomas@m3y3r.de)
- * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  */
 
-#include <linux/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
+#include <robux/mm.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
 
 #include <shared/irq_kern.h>
 #include <asm/pgalloc.h>

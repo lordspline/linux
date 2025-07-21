@@ -8,14 +8,14 @@
  * which provide mailbox interface for power management usage.
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #include <asm/intel_punit_ipc.h>
 

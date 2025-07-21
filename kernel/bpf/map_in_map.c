@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2017 Facebook
  */
-#include <linux/slab.h>
-#include <linux/bpf.h>
-#include <linux/btf.h>
+#include <robux/slab.h>
+#include <robux/bpf.h>
+#include <robux/btf.h>
 
 #include "map_in_map.h"
 

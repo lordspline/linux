@@ -8,12 +8,12 @@
  *         for ST-Ericsson.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/of.h>
 
 #include <sound/soc.h>
 

@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-/* linux/arch/arm/plat-s3c64xx/sleep.S
+/* robux/arch/arm/plat-s3c64xx/sleep.S
  *
  * Copyright 2008 Openmoko, Inc.
  * Copyright 2008 Simtec Electronics
@@ -9,7 +9,7 @@
  * S3C64XX CPU sleep code
  */
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 #include <asm/assembler.h>
 #include "map.h"
 

@@ -3,9 +3,9 @@
  * Copyright © 2019 Intel Corporation
  */
 
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/vgaarb.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/vgaarb.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_print.h>

@@ -6,18 +6,18 @@
  * Copyright (c) 2023 Marek Vasut <marex@denx.de>
  */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
-#include <linux/iio/iio.h>
+#include <robux/iio/iio.h>
 
 #define ISL76682_REG_COMMAND			0x00
 

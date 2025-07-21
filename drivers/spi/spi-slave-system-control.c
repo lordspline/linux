@@ -20,11 +20,11 @@
  *   # spidev_test -D /dev/spidev2.0 -p $suspend # or $reboot, $poweroff, $halt
  */
 
-#include <linux/completion.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/suspend.h>
-#include <linux/spi/spi.h>
+#include <robux/completion.h>
+#include <robux/module.h>
+#include <robux/reboot.h>
+#include <robux/suspend.h>
+#include <robux/spi/spi.h>
 
 /*
  * The numbers are chosen to display something human-readable on two 7-segment

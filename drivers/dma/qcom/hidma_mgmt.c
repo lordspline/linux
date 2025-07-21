@@ -2,19 +2,19 @@
 /*
  * Qualcomm Technologies HIDMA DMA engine Management interface
  *
- * Copyright (c) 2015-2017, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015-2017, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/dmaengine.h>
-#include <linux/acpi.h>
-#include <linux/property.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/bitops.h>
-#include <linux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/acpi.h>
+#include <robux/property.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
+#include <robux/slab.h>
+#include <robux/pm_runtime.h>
+#include <robux/bitops.h>
+#include <robux/dma-mapping.h>
 
 #include "hidma_mgmt.h"
 

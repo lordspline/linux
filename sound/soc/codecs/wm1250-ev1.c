@@ -5,11 +5,11 @@
  * Copyright 2011 Wolfson Microelectronics plc
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/gpio/consumer.h>
 
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>

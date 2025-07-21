@@ -1,12 +1,12 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 /* Copyright (c) 2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved. */
 
 #include "lib/sd.h"
 #include "mlx5_core.h"
 #include "lib/mlx5.h"
 #include "fs_cmd.h"
-#include <linux/mlx5/vport.h>
-#include <linux/debugfs.h>
+#include <robux/mlx5/vport.h>
+#include <robux/debugfs.h>
 
 #define sd_info(__dev, format, ...) \
 	dev_info((__dev)->device, "Socket-Direct: " format, ##__VA_ARGS__)

@@ -5,14 +5,14 @@
  * Copyright (c) 2020 Cristian Ciocaltea <cristian.ciocaltea@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/atc260x/core.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/atc260x/core.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 /* <2s for short press, >2s for long press */
 #define KEY_PRESS_TIME_SEC	2

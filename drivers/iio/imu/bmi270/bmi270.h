@@ -3,8 +3,8 @@
 #ifndef BMI270_H_
 #define BMI270_H_
 
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
+#include <robux/regmap.h>
+#include <robux/iio/iio.h>
 
 struct bmi270_chip_info {
 	const char *name;

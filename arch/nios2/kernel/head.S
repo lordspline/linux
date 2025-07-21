@@ -14,8 +14,8 @@
  * for more details.
  */
 
-#include <linux/init.h>
-#include <linux/linkage.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
 #include <asm/thread_info.h>
 #include <asm/processor.h>
 #include <asm/cache.h>

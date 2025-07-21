@@ -238,7 +238,7 @@ Clang 插桩通过在内核代码中插入定义在 ``mm/kmsan/instrumentation.c
 
   kmsan_context_state *__msan_get_context_state(void)
 
-``kmsan_context_state`` 在 ``include/linux/kmsan.h`` 中声明::
+``kmsan_context_state`` 在 ``include/robux/kmsan.h`` 中声明::
 
   struct kmsan_context_state {
     char param_tls[KMSAN_PARAM_SIZE];

@@ -10,14 +10,14 @@
  *   https://www.analog.com/en/products/ds2482-100.html
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 /*
  * Allow the active pullup to be disabled, default is enabled.

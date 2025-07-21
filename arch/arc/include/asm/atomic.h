@@ -8,8 +8,8 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/types.h>
-#include <linux/compiler.h>
+#include <robux/types.h>
+#include <robux/compiler.h>
 #include <asm/cmpxchg.h>
 #include <asm/barrier.h>
 #include <asm/smp.h>

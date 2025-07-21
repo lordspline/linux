@@ -10,10 +10,10 @@
  *  Copyright (C) 2008  Magnus Damm
  */
 
-#include <linux/bug.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/ioport.h>
+#include <robux/bug.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/ioport.h>
 #include <cpu/pfc.h>
 
 static struct resource sh7724_pfc_resources[] = {

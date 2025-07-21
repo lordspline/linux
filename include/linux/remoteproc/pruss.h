@@ -9,8 +9,8 @@
 #ifndef __LINUX_PRUSS_H
 #define __LINUX_PRUSS_H
 
-#include <linux/device.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/types.h>
 
 #define PRU_RPROC_DRVNAME "pru-rproc"
 

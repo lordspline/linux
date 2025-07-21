@@ -14,25 +14,25 @@
  * Copyright (C) 2011-2021 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/cpu_pm.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/timekeeping.h>
-#include <linux/iopoll.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/cpu_pm.h>
+#include <robux/delay.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
+#include <robux/timekeeping.h>
+#include <robux/iopoll.h>
 
-#include <linux/platform_data/ti-sysc.h>
+#include <robux/platform_data/ti-sysc.h>
 
 #include <dt-bindings/bus/ti-sysc.h>
 

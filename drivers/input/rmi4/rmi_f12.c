@@ -2,9 +2,9 @@
 /*
  * Copyright (c) 2012-2016 Synaptics Incorporated
  */
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/rmi.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/rmi.h>
 #include "rmi_driver.h"
 #include "rmi_2d_sensor.h"
 

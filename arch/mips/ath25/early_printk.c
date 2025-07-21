@@ -6,9 +6,9 @@
  * Copyright (C) 2010 Gabor Juhos <juhosg@openwrt.org>
  */
 
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/serial_reg.h>
+#include <robux/mm.h>
+#include <robux/io.h>
+#include <robux/serial_reg.h>
 #include <asm/setup.h>
 
 #include "devices.h"

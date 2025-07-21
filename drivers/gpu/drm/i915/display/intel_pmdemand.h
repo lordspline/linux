@@ -6,7 +6,7 @@
 #ifndef __INTEL_PMDEMAND_H__
 #define __INTEL_PMDEMAND_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 enum pipe;
 struct intel_atomic_state;

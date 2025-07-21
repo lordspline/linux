@@ -19,9 +19,9 @@
 
 #include "em28xx.h"
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
 
 #include <media/v4l2-common.h>
 #include <media/dvb_demux.h>
@@ -29,7 +29,7 @@
 #include <media/dmxdev.h>
 #include <media/tuner.h>
 #include "tuner-simple.h"
-#include <linux/gpio.h>
+#include <robux/gpio.h>
 
 #include "lgdt330x.h"
 #include "lgdt3305.h"

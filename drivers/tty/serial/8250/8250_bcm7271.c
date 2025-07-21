@@ -10,19 +10,19 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/dma-mapping.h>
-#include <linux/tty_flip.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/units.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/tty.h>
+#include <robux/errno.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/dma-mapping.h>
+#include <robux/tty_flip.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/units.h>
 
 #include "8250.h"
 

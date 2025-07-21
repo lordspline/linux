@@ -6,9 +6,9 @@
  * RCU synchronization types and methods:
  */
 
-#include <linux/rcupdate.h>
-#include <linux/completion.h>
-#include <linux/sched.h>
+#include <robux/rcupdate.h>
+#include <robux/completion.h>
+#include <robux/sched.h>
 
 /*
  * Structure allowing asynchronous waiting on RCU.

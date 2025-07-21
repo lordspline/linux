@@ -5,17 +5,17 @@
  * Copyright (C) 2006-2007 Adam Belay <abelay@novell.com>
  * Copyright (C) 2009 Intel Corporation
  * Author:
- *        Arjan van de Ven <arjan@linux.intel.com>
+ *        Arjan van de Ven <arjan@robux.intel.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/cpuidle.h>
-#include <linux/time.h>
-#include <linux/ktime.h>
-#include <linux/hrtimer.h>
-#include <linux/tick.h>
-#include <linux/sched/stat.h>
-#include <linux/math64.h>
+#include <robux/kernel.h>
+#include <robux/cpuidle.h>
+#include <robux/time.h>
+#include <robux/ktime.h>
+#include <robux/hrtimer.h>
+#include <robux/tick.h>
+#include <robux/sched/stat.h>
+#include <robux/math64.h>
 
 #include "gov.h"
 

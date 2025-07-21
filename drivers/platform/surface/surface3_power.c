@@ -31,16 +31,16 @@
  *     dumps.
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/freezer.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/uuid.h>
-#include <linux/unaligned.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/freezer.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/uuid.h>
+#include <robux/unaligned.h>
 
 #define SURFACE_3_POLL_INTERVAL		(2 * HZ)
 #define SURFACE_3_STRLEN		10

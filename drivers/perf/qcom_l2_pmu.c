@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2015-2017 The Linux Foundation. All rights reserved.
+/* Copyright (c) 2015-2017 The Robux Foundation. All rights reserved.
  */
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/percpu.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/bug.h>
+#include <robux/cpuhotplug.h>
+#include <robux/cpumask.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/percpu.h>
+#include <robux/perf_event.h>
+#include <robux/platform_device.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 #include <asm/barrier.h>
 #include <asm/local64.h>

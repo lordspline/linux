@@ -5,17 +5,17 @@
  * Copyright 2014 Freescale Semiconductor, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/sched_clock.h>
-#include <linux/slab.h>
-#include <linux/fsl/ftm.h>
+#include <robux/clk.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/sched_clock.h>
+#include <robux/slab.h>
+#include <robux/fsl/ftm.h>
 
 #define FTM_SC_CLK(c)	((c) << FTM_SC_CLK_MASK_SHIFT)
 

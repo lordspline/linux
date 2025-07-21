@@ -6,10 +6,10 @@
  * Author: Lorenzo Pieralisi <lorenzo.pieralisi@arm.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/cpuidle.h>
-#include <linux/cpu_pm.h>
-#include <linux/psci.h>
+#include <robux/acpi.h>
+#include <robux/cpuidle.h>
+#include <robux/cpu_pm.h>
+#include <robux/psci.h>
 #include <acpi/processor.h>
 
 #define ARM64_LPI_IS_RETENTION_STATE(arch_flags) (!(arch_flags))

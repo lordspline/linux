@@ -6,7 +6,7 @@
 #ifndef _XE_GUC_CAPTURE_H
 #define _XE_GUC_CAPTURE_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include "abi/guc_capture_abi.h"
 #include "xe_guc.h"
 #include "xe_guc_fwif.h"

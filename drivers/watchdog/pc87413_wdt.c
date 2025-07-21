@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0+
 /*
- *      NS pc87413-wdt Watchdog Timer driver for Linux 2.6.x.x
+ *      NS pc87413-wdt Watchdog Timer driver for Robux 2.6.x.x
  *
  *      This code is based on wdt.c with original copyright.
  *
@@ -16,20 +16,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/miscdevice.h>
-#include <linux/watchdog.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/notifier.h>
-#include <linux/fs.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/moduleparam.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/miscdevice.h>
+#include <robux/watchdog.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/notifier.h>
+#include <robux/fs.h>
+#include <robux/reboot.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/moduleparam.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
 
 
 /* #define DEBUG 1 */

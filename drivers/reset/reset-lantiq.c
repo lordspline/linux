@@ -7,14 +7,14 @@
  *  Copyright (C) 2017 Hauke Mehrtens <hauke@hauke-m.de>
  */
 
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/reset-controller.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 #define LANTIQ_RCU_RESET_TIMEOUT	10000
 

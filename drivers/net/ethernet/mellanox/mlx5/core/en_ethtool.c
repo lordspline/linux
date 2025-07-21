@@ -30,8 +30,8 @@
  * SOFTWARE.
  */
 
-#include <linux/dim.h>
-#include <linux/ethtool_netlink.h>
+#include <robux/dim.h>
+#include <robux/ethtool_netlink.h>
 
 #include "en.h"
 #include "en/channels.h"

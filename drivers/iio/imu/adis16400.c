@@ -10,18 +10,18 @@
  * Copyright (c) 2011 Analog Devices Inc.
  */
 
-#include <linux/irq.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/bitops.h>
+#include <robux/irq.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/debugfs.h>
+#include <robux/bitops.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/imu/adis.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/imu/adis.h>
 
 #define ADIS16400_STARTUP_DELAY	290 /* ms */
 #define ADIS16400_MTEST_DELAY 90 /* ms */

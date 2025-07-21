@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdesc.h>
-#include <linux/irqnr.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqdesc.h>
+#include <robux/irqnr.h>
 
 #include "internals.h"
 

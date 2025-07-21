@@ -3,7 +3,7 @@
 #define __ASM_GENERIC_CURRENT_H
 
 #ifndef __ASSEMBLY__
-#include <linux/thread_info.h>
+#include <robux/thread_info.h>
 
 #define get_current() (current_thread_info()->task)
 #define current get_current()

@@ -2,7 +2,7 @@
 #ifndef _BCACHEFS_BKEY_H
 #define _BCACHEFS_BKEY_H
 
-#include <linux/bug.h>
+#include <robux/bug.h>
 #include "bcachefs_format.h"
 #include "bkey_types.h"
 #include "btree_types.h"

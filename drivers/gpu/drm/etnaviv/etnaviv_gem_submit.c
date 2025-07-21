@@ -4,12 +4,12 @@
  */
 
 #include <drm/drm_file.h>
-#include <linux/dma-fence-array.h>
-#include <linux/file.h>
-#include <linux/dma-resv.h>
-#include <linux/sync_file.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
+#include <robux/dma-fence-array.h>
+#include <robux/file.h>
+#include <robux/dma-resv.h>
+#include <robux/sync_file.h>
+#include <robux/uaccess.h>
+#include <robux/vmalloc.h>
 
 #include "etnaviv_cmdbuf.h"
 #include "etnaviv_drv.h"

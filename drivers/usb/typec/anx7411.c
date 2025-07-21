@@ -6,28 +6,28 @@
  * Copyright(c) 2022, Analogix Semiconductor. All rights reserved.
  *
  */
-#include <linux/bitfield.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_graph.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/usb/pd.h>
-#include <linux/usb/role.h>
-#include <linux/usb/tcpci.h>
-#include <linux/usb/typec.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/workqueue.h>
-#include <linux/power_supply.h>
+#include <robux/bitfield.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of_graph.h>
+#include <robux/of_platform.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/usb/pd.h>
+#include <robux/usb/role.h>
+#include <robux/usb/tcpci.h>
+#include <robux/usb/typec.h>
+#include <robux/usb/typec_dp.h>
+#include <robux/usb/typec_mux.h>
+#include <robux/workqueue.h>
+#include <robux/power_supply.h>
 
 #define TCPC_ADDRESS1		0x58
 #define TCPC_ADDRESS2		0x56

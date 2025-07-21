@@ -8,19 +8,19 @@
  * kind, whether express or implied.
  */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/errno.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
+#include <robux/slab.h>
 
 /* OCFB register defines */
 #define OCFB_CTRL	0x000

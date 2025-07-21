@@ -8,12 +8,12 @@
  *		Santosh Shilimkar <santosh.shilimkar@ti.com>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/soc/ti/knav_qmss.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/soc/ti/knav_qmss.h>
 
 #include "knav_qmss.h"
 

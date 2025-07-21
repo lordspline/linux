@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  linux/drivers/clocksource/timer-sp.c
+ *  robux/drivers/clocksource/timer-sp.c
  *
  *  Copyright (C) 1999 - 2003 ARM Limited
  *  Copyright (C) 2000 Deep Blue Solutions Ltd
@@ -8,18 +8,18 @@
 
 #define pr_fmt(fmt)    KBUILD_MODNAME ": " fmt
 
-#include <linux/clk.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_clk.h>
-#include <linux/of_irq.h>
-#include <linux/sched_clock.h>
+#include <robux/clk.h>
+#include <robux/clocksource.h>
+#include <robux/clockchips.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_clk.h>
+#include <robux/of_irq.h>
+#include <robux/sched_clock.h>
 
 #include "timer-sp.h"
 

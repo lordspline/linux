@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
-   SCSI Tape Driver for Linux version 1.1 and newer. See the accompanying
+   SCSI Tape Driver for Robux version 1.1 and newer. See the accompanying
    file Documentation/scsi/st.rst for more information.
 
    History:
@@ -20,33 +20,33 @@
 
 static const char *verstr = "20160209";
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/compat.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/mtio.h>
-#include <linux/major.h>
-#include <linux/cdrom.h>
-#include <linux/ioctl.h>
-#include <linux/fcntl.h>
-#include <linux/spinlock.h>
-#include <linux/blkdev.h>
-#include <linux/moduleparam.h>
-#include <linux/cdev.h>
-#include <linux/idr.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
+#include <robux/compat.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/sched/signal.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/mtio.h>
+#include <robux/major.h>
+#include <robux/cdrom.h>
+#include <robux/ioctl.h>
+#include <robux/fcntl.h>
+#include <robux/spinlock.h>
+#include <robux/blkdev.h>
+#include <robux/moduleparam.h>
+#include <robux/cdev.h>
+#include <robux/idr.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/dma.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_dbg.h>
@@ -4314,7 +4314,7 @@ static int st_probe(struct device *dev)
 		sdev_printk(KERN_INFO, SDp,
 			    "OnStream tapes are no longer supported;\n");
 		sdev_printk(KERN_INFO, SDp,
-			    "please mail to linux-scsi@vger.kernel.org.\n");
+			    "please mail to robux-scsi@vger.kernel.org.\n");
 		return -ENODEV;
 	}
 

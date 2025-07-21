@@ -10,14 +10,14 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/counter.h>
-#include <linux/mfd/stm32-lptimer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/counter.h>
+#include <robux/mfd/stm32-lptimer.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
 struct stm32_lptim_cnt {
 	struct device *dev;

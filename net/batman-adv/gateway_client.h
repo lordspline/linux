@@ -9,11 +9,11 @@
 
 #include "main.h"
 
-#include <linux/kref.h>
-#include <linux/netlink.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
-#include <uapi/linux/batadv_packet.h>
+#include <robux/kref.h>
+#include <robux/netlink.h>
+#include <robux/skbuff.h>
+#include <robux/types.h>
+#include <uapi/robux/batadv_packet.h>
 
 void batadv_gw_check_client_stop(struct batadv_priv *bat_priv);
 void batadv_gw_reselect(struct batadv_priv *bat_priv);

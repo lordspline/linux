@@ -8,14 +8,14 @@
  * (c) Copyright 2008 Wim Van Sebroeck <wim@iguana.be>.
  */
 
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/driver.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/gpio/driver.h>
+#include <robux/bitops.h>
+#include <robux/io.h>
 
 #define DRV_NAME			"gpio-sch311x"
 

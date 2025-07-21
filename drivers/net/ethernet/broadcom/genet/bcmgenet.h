@@ -6,15 +6,15 @@
 #ifndef __BCMGENET_H__
 #define __BCMGENET_H__
 
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/spinlock.h>
-#include <linux/clk.h>
-#include <linux/mii.h>
-#include <linux/if_vlan.h>
-#include <linux/phy.h>
-#include <linux/dim.h>
-#include <linux/ethtool.h>
+#include <robux/skbuff.h>
+#include <robux/netdevice.h>
+#include <robux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/mii.h>
+#include <robux/if_vlan.h>
+#include <robux/phy.h>
+#include <robux/dim.h>
+#include <robux/ethtool.h>
 
 #include "../unimac.h"
 

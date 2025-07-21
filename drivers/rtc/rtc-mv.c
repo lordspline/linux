@@ -3,18 +3,18 @@
  * Driver for the RTC in Marvell SoCs.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/gfp.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/rtc.h>
+#include <robux/bcd.h>
+#include <robux/bitops.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/gfp.h>
+#include <robux/module.h>
 
 
 #define RTC_TIME_REG_OFFS	0

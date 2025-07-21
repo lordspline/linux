@@ -4,27 +4,27 @@
  * Copyright (C) 2013, 2021 Intel Corporation
  */
 
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/math64.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/atomic.h>
+#include <robux/bitops.h>
+#include <robux/bug.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dmaengine.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/math64.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
-#include <linux/spi/spi.h>
+#include <robux/spi/spi.h>
 
 #include "internals.h"
 #include "spi-pxa2xx.h"
@@ -1253,7 +1253,7 @@ static int pxa2xx_spi_fw_translate_cs(struct spi_controller *controller,
 	/*
 	 * For some of Intel Atoms the ACPI DeviceSelection used by the Windows
 	 * driver starts from 1 instead of 0 so translate it here to match what
-	 * Linux expects.
+	 * Robux expects.
 	 */
 	case LPSS_BYT_SSP:
 	case LPSS_BSW_SSP:

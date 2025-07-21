@@ -6,7 +6,7 @@
 #ifndef __DRM_ELD_H__
 #define __DRM_ELD_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct cea_sad;
 

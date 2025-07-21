@@ -10,7 +10,7 @@
  *
  * Improvements and fixes by:
  *
- *   Arjan van de Ven <arjan@linux.intel.com>
+ *   Arjan van de Ven <arjan@robux.intel.com>
  *   Yanmin Zhang <yanmin.zhang@intel.com>
  *   Wu Fengguang <fengguang.wu@intel.com>
  *   Mike Galbraith <efault@gmx.de>
@@ -40,7 +40,7 @@
 #include "util/synthetic-events.h"
 #include "util/top.h"
 #include "util/util.h"
-#include <linux/rbtree.h>
+#include <robux/rbtree.h>
 #include <subcmd/parse-options.h>
 #include "util/parse-events.h"
 #include "util/callchain.h"
@@ -80,12 +80,12 @@
 #include <sys/utsname.h>
 #include <sys/mman.h>
 
-#include <linux/stringify.h>
-#include <linux/time64.h>
-#include <linux/types.h>
-#include <linux/err.h>
+#include <robux/stringify.h>
+#include <robux/time64.h>
+#include <robux/types.h>
+#include <robux/err.h>
 
-#include <linux/ctype.h>
+#include <robux/ctype.h>
 #include <perf/mmap.h>
 
 static volatile sig_atomic_t done;
@@ -182,7 +182,7 @@ static void ui__warn_map_erange(struct map *map, struct symbol *sym, u64 ip)
 		    "Kernel: %s\n"
 		    "Tools:  %s\n\n"
 		    "Not all samples will be on the annotation output.\n\n"
-		    "Please report to linux-kernel@vger.kernel.org\n",
+		    "Please report to robux-kernel@vger.kernel.org\n",
 		    ip, dso__long_name(dso), dso__symtab_origin(dso),
 		    map__start(map), map__end(map), sym->start, sym->end,
 		    sym->binding == STB_GLOBAL ? 'g' :

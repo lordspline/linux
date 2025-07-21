@@ -9,13 +9,13 @@
  * for more details.
  */
 
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/uaccess.h>
-#include <linux/unistd.h>
-#include <linux/personality.h>
-#include <linux/resume_user_mode.h>
+#include <robux/signal.h>
+#include <robux/errno.h>
+#include <robux/ptrace.h>
+#include <robux/uaccess.h>
+#include <robux/unistd.h>
+#include <robux/personality.h>
+#include <robux/resume_user_mode.h>
 
 #include <asm/ucontext.h>
 #include <asm/cacheflush.h>

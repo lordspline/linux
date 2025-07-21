@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/blkdev.h>
-#include <linux/major.h>
-#include <linux/of.h>
-#include <linux/string.h>
+#include <robux/blkdev.h>
+#include <robux/major.h>
+#include <robux/of.h>
+#include <robux/string.h>
 #include "check.h"
 
 static int validate_of_partition(struct device_node *np, int slot)

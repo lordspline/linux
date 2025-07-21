@@ -6,17 +6,17 @@
  * Author: Jon Ringle <jringle@gridpoint.com>
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/regmap.h>
-#include <linux/skbuff.h>
-#include <linux/spi/spi.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/regmap.h>
+#include <robux/skbuff.h>
+#include <robux/spi/spi.h>
 
 #include "encx24j600_hw.h"
 

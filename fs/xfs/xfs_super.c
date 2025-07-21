@@ -50,9 +50,9 @@
 #include "scrub/stats.h"
 #include "scrub/rcbag_btree.h"
 
-#include <linux/magic.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
+#include <robux/magic.h>
+#include <robux/fs_context.h>
+#include <robux/fs_parser.h>
 
 static const struct super_operations xfs_super_operations;
 
@@ -686,7 +686,7 @@ xfs_fs_alloc_inode(
 
 /*
  * Now that the generic code is guaranteed not to be accessing
- * the linux inode, we can inactivate and reclaim the inode.
+ * the robux inode, we can inactivate and reclaim the inode.
  */
 STATIC void
 xfs_fs_destroy_inode(

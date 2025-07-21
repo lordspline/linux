@@ -10,9 +10,9 @@
  *    Ruslan Bilovol (ruslan.bilovol@gmail.com)
  */
 
-#include <linux/usb/audio.h>
-#include <linux/usb/audio-v2.h>
-#include <linux/module.h>
+#include <robux/usb/audio.h>
+#include <robux/usb/audio-v2.h>
+#include <robux/module.h>
 
 #include "u_audio.h"
 

@@ -4,10 +4,10 @@
 #ifndef __LINUX_PECI_H
 #define __LINUX_PECI_H
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
 
 /*
  * Currently we don't support any PECI command over 32 bytes.

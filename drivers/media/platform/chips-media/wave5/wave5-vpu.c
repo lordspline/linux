@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2021-2023 CHIPS&MEDIA INC
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/firmware.h>
+#include <robux/interrupt.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 #include "wave5-vpu.h"
 #include "wave5-regdefine.h"
 #include "wave5-vpuconfig.h"

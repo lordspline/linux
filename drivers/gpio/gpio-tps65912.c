@@ -9,11 +9,11 @@
  * Margarita Olaya Cabrera <magi@slimlogic.co.uk>
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/gpio/driver.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
-#include <linux/mfd/tps65912.h>
+#include <robux/mfd/tps65912.h>
 
 struct tps65912_gpio {
 	struct gpio_chip gpio_chip;

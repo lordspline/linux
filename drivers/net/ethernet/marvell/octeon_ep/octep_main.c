@@ -5,13 +5,13 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/vmalloc.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/rtnetlink.h>
+#include <robux/vmalloc.h>
 
 #include "octep_config.h"
 #include "octep_main.h"

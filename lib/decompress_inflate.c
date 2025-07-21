@@ -18,18 +18,18 @@
 #else /* STATIC */
 /* initramfs et al: linked */
 
-#include <linux/zutil.h>
+#include <robux/zutil.h>
 
 #include "zlib_inflate/inftrees.h"
 #include "zlib_inflate/inffast.h"
 #include "zlib_inflate/inflate.h"
 
 #include "zlib_inflate/infutil.h"
-#include <linux/decompress/inflate.h>
+#include <robux/decompress/inflate.h>
 
 #endif /* STATIC */
 
-#include <linux/decompress/mm.h>
+#include <robux/decompress/mm.h>
 
 #define GZIP_IOBUF_SIZE (16*1024)
 

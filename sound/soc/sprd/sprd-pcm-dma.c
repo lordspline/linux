@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2019 Spreadtrum Communications Inc.
 
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/dma/sprd-dma.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/dma/sprd-dma.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

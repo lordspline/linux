@@ -5,12 +5,12 @@
  * Copyright (C) 2022 Renesas Electronics Corporation
  */
 
-#include <linux/io.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/usb/rzv2m_usb3drd.h>
+#include <robux/io.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/usb/rzv2m_usb3drd.h>
 
 #define USB_PERI_DRD_CON	0x000
 

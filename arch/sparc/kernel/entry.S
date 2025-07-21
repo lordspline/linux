@@ -8,10 +8,10 @@
  * Copyright (C) 1997 Anton Blanchard (anton@progsoc.uts.edu.au)
  */
 
-#include <linux/export.h>
-#include <linux/linkage.h>
-#include <linux/errno.h>
-#include <linux/pgtable.h>
+#include <robux/export.h>
+#include <robux/linkage.h>
+#include <robux/errno.h>
+#include <robux/pgtable.h>
 
 #include <asm/head.h>
 #include <asm/asi.h>
@@ -968,7 +968,7 @@ ret_from_kernel_thread:
 	b	ret_sys_call
 	 mov	0, %o0
 
-	/* Linux native system calls enter here... */
+	/* Robux native system calls enter here... */
 	.align	4
 	.globl	linux_sparc_syscall
 linux_sparc_syscall:

@@ -7,14 +7,14 @@
  * Copyright (C) 2018, Aidilab Srl.
  */
 
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
 
 /* CEC Framework */
 #include <media/cec-notifier.h>

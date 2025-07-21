@@ -2,12 +2,12 @@
 /*
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/audio.h>
-#include <linux/usb/midi.h>
-#include <linux/bits.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/usb/audio.h>
+#include <robux/usb/midi.h>
+#include <robux/bits.h>
 
 #include <sound/control.h>
 #include <sound/core.h>

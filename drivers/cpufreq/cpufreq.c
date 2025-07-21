@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/cpufreq/cpufreq.c
+ *  robux/drivers/cpufreq/cpufreq.c
  *
  *  Copyright (C) 2001 Russell King
- *            (C) 2002 - 2003 Dominik Brodowski <linux@brodo.de>
+ *            (C) 2002 - 2003 Dominik Brodowski <robux@brodo.de>
  *            (C) 2013 Viresh Kumar <viresh.kumar@linaro.org>
  *
  *  Oct 2005 - Ashok Raj <ashok.raj@intel.com>
@@ -14,22 +14,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/cpu_cooling.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/kernel_stat.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/suspend.h>
-#include <linux/syscore_ops.h>
-#include <linux/tick.h>
-#include <linux/units.h>
+#include <robux/cpu.h>
+#include <robux/cpufreq.h>
+#include <robux/cpu_cooling.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/kernel_stat.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pm_qos.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/suspend.h>
+#include <robux/syscore_ops.h>
+#include <robux/tick.h>
+#include <robux/units.h>
 #include <trace/events/power.h>
 
 static LIST_HEAD(cpufreq_policy_list);

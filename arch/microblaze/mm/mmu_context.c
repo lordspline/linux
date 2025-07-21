@@ -19,8 +19,8 @@
  *    Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
 
-#include <linux/mm.h>
-#include <linux/init.h>
+#include <robux/mm.h>
+#include <robux/init.h>
 
 #include <asm/tlbflush.h>
 #include <asm/mmu_context.h>

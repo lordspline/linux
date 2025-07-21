@@ -4,11 +4,11 @@
  *
  * Inspired by the older BMP085 driver drivers/misc/bmp085-spi.c
  */
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/bits.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 
 #include "bmp280.h"
 

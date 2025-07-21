@@ -8,15 +8,15 @@
 #include "ingenic-drm.h"
 #include "ingenic-ipu.h"
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/gcd.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/time.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/gcd.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/time.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

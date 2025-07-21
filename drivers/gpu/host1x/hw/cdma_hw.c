@@ -5,9 +5,9 @@
  * Copyright (c) 2010-2013, NVIDIA Corporation.
  */
 
-#include <linux/slab.h>
-#include <linux/scatterlist.h>
-#include <linux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/scatterlist.h>
+#include <robux/dma-mapping.h>
 
 #include "../cdma.h"
 #include "../channel.h"

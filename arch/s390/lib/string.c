@@ -12,9 +12,9 @@
 # define __NO_FORTIFY
 #endif
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/export.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/export.h>
 #include <asm/asm.h>
 
 /*

@@ -3,11 +3,11 @@
  * Copyright (c) 2012, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/clk-provider.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/clk-provider.h>
 
 #include "clk.h"
 

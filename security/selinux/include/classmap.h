@@ -34,7 +34,7 @@
 		"audit_read", "perfmon", "bpf", "checkpoint_restore"
 
 #ifdef __KERNEL__ /* avoid this check when building host programs */
-#include <linux/capability.h>
+#include <robux/capability.h>
 
 #if CAP_LAST_CAP > CAP_CHECKPOINT_RESTORE
 #error New capability defined, please update COMMON_CAP2_PERMS.
@@ -183,7 +183,7 @@ const struct security_class_mapping secclass_map[] = {
 };
 
 #ifdef __KERNEL__ /* avoid this check when building host programs */
-#include <linux/socket.h>
+#include <robux/socket.h>
 
 #if PF_MAX > 46
 #error New address family defined, please update secclass_map.

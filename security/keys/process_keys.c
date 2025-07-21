@@ -5,17 +5,17 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/sched/user.h>
-#include <linux/keyctl.h>
-#include <linux/fs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/security.h>
-#include <linux/user_namespace.h>
-#include <linux/uaccess.h>
-#include <linux/init_task.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/sched/user.h>
+#include <robux/keyctl.h>
+#include <robux/fs.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/security.h>
+#include <robux/user_namespace.h>
+#include <robux/uaccess.h>
+#include <robux/init_task.h>
 #include <keys/request_key_auth-type.h>
 #include "internal.h"
 

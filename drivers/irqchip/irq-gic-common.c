@@ -3,11 +3,11 @@
  * Copyright (C) 2002 ARM Limited, All Rights Reserved.
  */
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip/arm-gic.h>
-#include <linux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqchip/arm-gic.h>
+#include <robux/kernel.h>
 
 #include "irq-gic-common.h"
 

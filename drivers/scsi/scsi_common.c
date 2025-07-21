@@ -3,13 +3,13 @@
  * SCSI functions used by both the initiator and the target code.
  */
 
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <uapi/linux/pr.h>
-#include <linux/unaligned.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <uapi/robux/pr.h>
+#include <robux/unaligned.h>
 #include <scsi/scsi_common.h>
 
 MODULE_DESCRIPTION("SCSI functions used by both the initiator and the target code");

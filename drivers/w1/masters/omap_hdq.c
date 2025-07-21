@@ -2,18 +2,18 @@
 /*
  * Copyright (C) 2007,2012 Texas Instruments, Inc.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/sched.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/sched.h>
+#include <robux/pm_runtime.h>
+#include <robux/of.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 #define	MOD_NAME	"OMAP_HDQ:"
 

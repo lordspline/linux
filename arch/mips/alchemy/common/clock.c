@@ -34,14 +34,14 @@
  *    later models it's called RCLK.
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 #include <asm/mach-au1x00/au1000.h>
 
 /* Base clock: 12MHz is the default in all databooks, and I haven't

@@ -7,21 +7,21 @@
  * Author: Tom Lendacky <thomas.lendacky@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/dma-mapping.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/ccp.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/acpi.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/ioport.h>
+#include <robux/dma-mapping.h>
+#include <robux/kthread.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/delay.h>
+#include <robux/ccp.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/acpi.h>
 
 #include "ccp-dev.h"
 

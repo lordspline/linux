@@ -32,9 +32,9 @@
  *
  * Consequently, we support none of these.
  */
-#include <linux/io.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/slab.h>
+#include <robux/io.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/slab.h>
 
 #include "mvpp2.h"
 

@@ -8,12 +8,12 @@
  * helper functions when coping with rational numbers
  */
 
-#include <linux/rational.h>
-#include <linux/compiler.h>
-#include <linux/export.h>
-#include <linux/minmax.h>
-#include <linux/limits.h>
-#include <linux/module.h>
+#include <robux/rational.h>
+#include <robux/compiler.h>
+#include <robux/export.h>
+#include <robux/minmax.h>
+#include <robux/limits.h>
+#include <robux/module.h>
 
 /*
  * calculate best rational approximation for a given fraction

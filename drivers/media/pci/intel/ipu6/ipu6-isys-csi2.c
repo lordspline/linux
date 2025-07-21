@@ -3,15 +3,15 @@
  * Copyright (C) 2013--2024 Intel Corporation
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/minmax.h>
-#include <linux/sprintf.h>
+#include <robux/atomic.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/minmax.h>
+#include <robux/sprintf.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-ctrls.h>

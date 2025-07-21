@@ -6,8 +6,8 @@
  * Description: Debugfs component of the bnxt_re driver
  */
 
-#include <linux/debugfs.h>
-#include <linux/pci.h>
+#include <robux/debugfs.h>
+#include <robux/pci.h>
 #include <rdma/ib_addr.h>
 
 #include "bnxt_ulp.h"

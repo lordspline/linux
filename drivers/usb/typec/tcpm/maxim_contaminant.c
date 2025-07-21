@@ -5,14 +5,14 @@
  * USB-C module to reduce wakeups due to contaminants.
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/irqreturn.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/usb/tcpci.h>
-#include <linux/usb/tcpm.h>
-#include <linux/usb/typec.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/irqreturn.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/usb/tcpci.h>
+#include <robux/usb/tcpm.h>
+#include <robux/usb/typec.h>
 
 #include "tcpci_maxim.h"
 

@@ -27,28 +27,28 @@
 		led_lan1_red: led-5 {
 			label = "bd500:lan1:act";
 			color = <LED_COLOR_ID_RED>;
-			linux,default-trigger = "netdev";
+			robux,default-trigger = "netdev";
 			gpios = <&gpioexp 1 GPIO_ACTIVE_LOW>;
 		};
 
 		led_lan1_green: led-6 {
 			label = "bd500:lan1:link";
 			color = <LED_COLOR_ID_GREEN>;
-			linux,default-trigger = "netdev";
+			robux,default-trigger = "netdev";
 			gpios = <&gpioexp 0 GPIO_ACTIVE_LOW>;
 		};
 
 		led_lan2_red: led-7 {
 			label = "bd500:lan2:act";
 			color = <LED_COLOR_ID_RED>;
-			linux,default-trigger = "netdev";
+			robux,default-trigger = "netdev";
 			gpios = <&gpioexp 6 GPIO_ACTIVE_LOW>;
 		};
 
 		led_lan2_green: led-8 {
 			label = "bd500:lan2:link";
 			color = <LED_COLOR_ID_GREEN>;
-			linux,default-trigger = "netdev";
+			robux,default-trigger = "netdev";
 			gpios = <&gpioexp 7 GPIO_ACTIVE_LOW>;
 		};
 	};
@@ -58,7 +58,7 @@
 
 		button-1 {
 			label = "S1";
-			linux,code = <KEY_CONFIG>;
+			robux,code = <KEY_CONFIG>;
 			gpios = <&gpioexp 5 GPIO_ACTIVE_LOW>;
 		};
 	};

@@ -5,11 +5,11 @@
 #ifndef __OTX2_CPT_COMMON_H
 #define __OTX2_CPT_COMMON_H
 
-#include <linux/pci.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/crypto.h>
+#include <robux/pci.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/crypto.h>
 #include <net/devlink.h>
 #include "otx2_cpt_hw_types.h"
 #include "rvu.h"

@@ -17,8 +17,8 @@
 
 #include "udfdecl.h"
 
-#include <linux/bitops.h>
-#include <linux/overflow.h>
+#include <robux/bitops.h>
+#include <robux/overflow.h>
 
 #include "udf_i.h"
 #include "udf_sb.h"

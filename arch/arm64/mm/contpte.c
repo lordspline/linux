@@ -3,9 +3,9 @@
  * Copyright (C) 2023 ARM Ltd.
  */
 
-#include <linux/mm.h>
-#include <linux/efi.h>
-#include <linux/export.h>
+#include <robux/mm.h>
+#include <robux/efi.h>
+#include <robux/export.h>
 #include <asm/tlbflush.h>
 
 static inline bool mm_is_user(struct mm_struct *mm)

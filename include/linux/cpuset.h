@@ -9,14 +9,14 @@
  *
  */
 
-#include <linux/sched.h>
-#include <linux/sched/topology.h>
-#include <linux/sched/task.h>
-#include <linux/cpumask.h>
-#include <linux/nodemask.h>
-#include <linux/mm.h>
-#include <linux/mmu_context.h>
-#include <linux/jump_label.h>
+#include <robux/sched.h>
+#include <robux/sched/topology.h>
+#include <robux/sched/task.h>
+#include <robux/cpumask.h>
+#include <robux/nodemask.h>
+#include <robux/mm.h>
+#include <robux/mmu_context.h>
+#include <robux/jump_label.h>
 
 #ifdef CONFIG_CPUSETS
 

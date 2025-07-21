@@ -6,16 +6,16 @@
  * Author: Sonny Rao <sonnyrao@us.ibm.com>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/cdev.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/cdev.h>
+#include <robux/list.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
 #include <asm/io.h>
 
 /*

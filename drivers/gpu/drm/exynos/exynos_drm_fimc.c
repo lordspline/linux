@@ -7,15 +7,15 @@
  *	Sangmin Lee <lsmin.lee@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/spinlock.h>
 
 #include <drm/drm_fourcc.h>
 #include <drm/drm_print.h>

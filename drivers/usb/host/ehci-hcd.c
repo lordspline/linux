@@ -7,32 +7,32 @@
  * Copyright (c) 2000-2004 by David Brownell
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/dmapool.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/vmalloc.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/hrtimer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/otg.h>
-#include <linux/moduleparam.h>
-#include <linux/dma-mapping.h>
-#include <linux/debugfs.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/dmapool.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/sched.h>
+#include <robux/vmalloc.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/hrtimer.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/otg.h>
+#include <robux/moduleparam.h>
+#include <robux/dma-mapping.h>
+#include <robux/debugfs.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include <asm/byteorder.h>
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #if defined(CONFIG_PPC_PS3)
 #include <asm/firmware.h>

@@ -5,18 +5,18 @@
  * Copyright (c) 2003-2007 Cavium Networks
  */
 
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/phy.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/phy.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
+#include <robux/if_ether.h>
+#include <robux/if_vlan.h>
 
 #include <net/dst.h>
 
@@ -424,7 +424,7 @@ int cvm_oct_common_init(struct net_device *dev)
 	if (priv->queue != -1)
 		dev->features |= NETIF_F_SG | NETIF_F_IP_CSUM;
 
-	/* We do our own locking, Linux doesn't need to */
+	/* We do our own locking, Robux doesn't need to */
 	dev->lltx = true;
 	dev->ethtool_ops = &cvm_oct_ethtool_ops;
 

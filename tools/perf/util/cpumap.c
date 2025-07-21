@@ -7,11 +7,11 @@
 #include <dirent.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <linux/bitmap.h>
+#include <robux/bitmap.h>
 #include "asm/bug.h"
 
-#include <linux/ctype.h>
-#include <linux/zalloc.h>
+#include <robux/ctype.h>
+#include <robux/zalloc.h>
 #include <internal/cpumap.h>
 
 static struct perf_cpu max_cpu_num;

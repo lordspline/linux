@@ -7,9 +7,9 @@
  * Authors: Miloslav Trmac <mitr@redhat.com>
  */
 
-#include <linux/audit.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
+#include <robux/audit.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
 #include "tty.h"
 
 #define TTY_AUDIT_BUF_SIZE	4096

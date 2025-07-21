@@ -5,18 +5,18 @@
  *  Written by Jacob Shin - AMD, Inc.
  *  Maintained by: Borislav Petkov <bp@alien8.de>
  */
-#include <linux/interrupt.h>
-#include <linux/notifier.h>
-#include <linux/kobject.h>
-#include <linux/percpu.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
-#include <linux/string.h>
+#include <robux/interrupt.h>
+#include <robux/notifier.h>
+#include <robux/kobject.h>
+#include <robux/percpu.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/sysfs.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/cpu.h>
+#include <robux/smp.h>
+#include <robux/string.h>
 
 #include <asm/traps.h>
 #include <asm/apic.h>

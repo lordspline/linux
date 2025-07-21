@@ -5,19 +5,19 @@
  * Author: Karthikeyan Mani <karthikeyanm@amiindia.co.in>
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/gpio/driver.h>
-#include <linux/hashtable.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/gpio/driver.h>
+#include <robux/hashtable.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
 
 #define ASPEED_SGPIO_CTRL		0x54
 

@@ -5,18 +5,18 @@
  */
 #include "qla_def.h"
 
-#include <linux/bitfield.h>
-#include <linux/moduleparam.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/mutex.h>
-#include <linux/kobject.h>
-#include <linux/slab.h>
-#include <linux/refcount.h>
-#include <linux/crash_dump.h>
-#include <linux/trace_events.h>
-#include <linux/trace.h>
+#include <robux/bitfield.h>
+#include <robux/moduleparam.h>
+#include <robux/vmalloc.h>
+#include <robux/delay.h>
+#include <robux/kthread.h>
+#include <robux/mutex.h>
+#include <robux/kobject.h>
+#include <robux/slab.h>
+#include <robux/refcount.h>
+#include <robux/crash_dump.h>
+#include <robux/trace_events.h>
+#include <robux/trace.h>
 
 #include <scsi/scsi_tcq.h>
 #include <scsi/scsicam.h>
@@ -1224,7 +1224,7 @@ qla2x00_wait_for_chip_reset(scsi_qla_host_t *vha)
 *    The abort function will abort the specified command.
 *
 * Input:
-*    cmd = Linux SCSI command packet to be aborted.
+*    cmd = Robux SCSI command packet to be aborted.
 *
 * Returns:
 *    Either SUCCESS or FAILED.
@@ -1576,7 +1576,7 @@ eh_reset_failed:
 *    commands.
 *
 * Input:
-*    cmd = Linux SCSI command packet of the command that cause the
+*    cmd = Robux SCSI command packet of the command that cause the
 *          bus reset.
 *
 * Returns:
@@ -1643,7 +1643,7 @@ eh_bus_reset_done:
 *    The reset function will reset the Adapter.
 *
 * Input:
-*      cmd = Linux SCSI command packet of the command that cause the
+*      cmd = Robux SCSI command packet of the command that cause the
 *            adapter reset.
 *
 * Returns:

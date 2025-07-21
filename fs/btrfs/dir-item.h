@@ -3,8 +3,8 @@
 #ifndef BTRFS_DIR_ITEM_H
 #define BTRFS_DIR_ITEM_H
 
-#include <linux/types.h>
-#include <linux/crc32c.h>
+#include <robux/types.h>
+#include <robux/crc32c.h>
 
 struct fscrypt_str;
 struct btrfs_fs_info;

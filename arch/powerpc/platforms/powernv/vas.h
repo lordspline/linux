@@ -5,13 +5,13 @@
 
 #ifndef _VAS_H
 #define _VAS_H
-#include <linux/atomic.h>
-#include <linux/idr.h>
+#include <robux/atomic.h>
+#include <robux/idr.h>
 #include <asm/vas.h>
-#include <linux/io.h>
-#include <linux/dcache.h>
-#include <linux/mutex.h>
-#include <linux/stringify.h>
+#include <robux/io.h>
+#include <robux/dcache.h>
+#include <robux/mutex.h>
+#include <robux/stringify.h>
 
 /*
  * Overview of Virtual Accelerator Switchboard (VAS).
@@ -400,7 +400,7 @@ struct vas_winctx {
 	bool notify_os_intr_reg;
 
 	int lpid;
-	int pidr;		/* value from SPRN_PID, not linux pid */
+	int pidr;		/* value from SPRN_PID, not robux pid */
 	int lnotify_lpid;
 	int lnotify_pid;
 	int lnotify_tid;

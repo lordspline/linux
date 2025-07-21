@@ -10,7 +10,7 @@
 #ifndef CPM_UART_H
 #define CPM_UART_H
 
-#include <linux/platform_device.h>
+#include <robux/platform_device.h>
 
 struct gpio_desc;
 

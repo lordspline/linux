@@ -8,7 +8,7 @@
 #ifndef __LINUX_USB_ISP1301_H
 #define __LINUX_USB_ISP1301_H
 
-#include <linux/of.h>
+#include <robux/of.h>
 
 /* I2C Register definitions: */
 

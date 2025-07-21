@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 
 #ifndef __UAPI_LINUX_USB_G_HID_H
 #define __UAPI_LINUX_USB_G_HID_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /* Maximum HID report length for High-Speed USB (i.e. USB 2.0) */
 #define MAX_REPORT_LENGTH 64

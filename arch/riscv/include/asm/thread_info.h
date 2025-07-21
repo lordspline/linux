@@ -9,8 +9,8 @@
 #define _ASM_RISCV_THREAD_INFO_H
 
 #include <asm/page.h>
-#include <linux/const.h>
-#include <linux/sizes.h>
+#include <robux/const.h>
+#include <robux/sizes.h>
 
 /* thread information allocation */
 #ifdef CONFIG_KASAN

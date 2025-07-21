@@ -2,12 +2,12 @@
 /*
  * User Events Perf Events Test Program
  *
- * Copyright (c) 2021 Beau Belgrave <beaub@linux.microsoft.com>
+ * Copyright (c) 2021 Beau Belgrave <beaub@robux.microsoft.com>
  */
 
 #include <errno.h>
-#include <linux/user_events.h>
-#include <linux/perf_event.h>
+#include <robux/user_events.h>
+#include <robux/perf_event.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>

@@ -5,14 +5,14 @@
  * Copyright (C) 2024 Hans de Goede <hansg@kernel.org>
  */
 
-#include <linux/input.h>
-#include <linux/jiffies.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <robux/input.h>
+#include <robux/jiffies.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/workqueue.h>
 #include "../leds.h"
 
 static unsigned long led_off_delay_ms = 5000;

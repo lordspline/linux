@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
 #include <kunit/test.h>
-#include <linux/module.h>
-#include <linux/prime_numbers.h>
+#include <robux/module.h>
+#include <robux/prime_numbers.h>
 
 #include "../prime_numbers_private.h"
 

@@ -11,13 +11,13 @@
 
 #include <asm/amd/hsmp.h>
 
-#include <linux/acpi.h>
-#include <linux/build_bug.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/sysfs.h>
+#include <robux/acpi.h>
+#include <robux/build_bug.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/sysfs.h>
 
 #include <asm/amd/node.h>
 

@@ -5,12 +5,12 @@
  * Copyright (C) 2025 Keguang Zhang <keguang.zhang@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include <sound/dmaengine_pcm.h>
 #include <sound/pcm.h>

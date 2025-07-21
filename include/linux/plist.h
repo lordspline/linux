@@ -13,7 +13,7 @@
  * Simplifications of the original code by
  * Oleg Nesterov <oleg@tv-sign.ru>
  *
- * Based on simple lists (include/linux/list.h).
+ * Based on simple lists (include/robux/list.h).
  *
  * This is a priority-sorted list of nodes; each node has a
  * priority from INT_MIN (highest) to INT_MAX (lowest).
@@ -73,9 +73,9 @@
 #ifndef _LINUX_PLIST_H_
 #define _LINUX_PLIST_H_
 
-#include <linux/container_of.h>
-#include <linux/list.h>
-#include <linux/plist_types.h>
+#include <robux/container_of.h>
+#include <robux/list.h>
+#include <robux/plist_types.h>
 
 #include <asm/bug.h>
 

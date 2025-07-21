@@ -10,16 +10,16 @@
  *          Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
 
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
+#include <robux/init.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/slab.h>
+#include <robux/pm_runtime.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

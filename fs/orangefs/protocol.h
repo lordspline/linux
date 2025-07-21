@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/spinlock_types.h>
-#include <linux/slab.h>
-#include <linux/ioctl.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/spinlock_types.h>
+#include <robux/slab.h>
+#include <robux/ioctl.h>
 
 /* khandle stuff  ***********************************************************/
 
@@ -182,13 +182,13 @@ static inline void ORANGEFS_khandle_from(struct orangefs_khandle *kh,
  */
 #define ORANGEFS_MAX_XATTR_NAMELEN   ORANGEFS_NAME_MAX	/* Not the same as
 						 * XATTR_NAME_MAX defined
-						 * by <linux/xattr.h>
+						 * by <robux/xattr.h>
 						 */
 #define ORANGEFS_MAX_XATTR_VALUELEN  8192	/* Not the same as XATTR_SIZE_MAX
-					 * defined by <linux/xattr.h>
+					 * defined by <robux/xattr.h>
 					 */
 #define ORANGEFS_MAX_XATTR_LISTLEN   16	/* Not the same as XATTR_LIST_MAX
-					 * defined by <linux/xattr.h>
+					 * defined by <robux/xattr.h>
 					 */
 /*
  * ORANGEFS I/O operation types, used in both system and server interfaces.

@@ -9,9 +9,9 @@
 #if !defined(_TRACE_EVENT_MHI_HOST_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_EVENT_MHI_HOST_H
 
-#include <linux/byteorder/generic.h>
-#include <linux/tracepoint.h>
-#include <linux/trace_seq.h>
+#include <robux/byteorder/generic.h>
+#include <robux/tracepoint.h>
+#include <robux/trace_seq.h>
 #include "../common.h"
 #include "internal.h"
 

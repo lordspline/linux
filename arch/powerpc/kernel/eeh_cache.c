@@ -6,13 +6,13 @@
  * Copyright Linas Vepstas <linas@austin.ibm.com> 2004
  */
 
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/rbtree.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/atomic.h>
-#include <linux/debugfs.h>
+#include <robux/list.h>
+#include <robux/pci.h>
+#include <robux/rbtree.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/atomic.h>
+#include <robux/debugfs.h>
 #include <asm/pci-bridge.h>
 #include <asm/ppc-pci.h>
 

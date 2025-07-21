@@ -2,12 +2,12 @@
 
 #define pr_fmt(fmt) "irq-ls-extirq: " fmt
 
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
 
 #include <dt-bindings/interrupt-controller/arm-gic.h>
 

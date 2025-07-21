@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Hangzhou C-SKY Microsystems co.,ltd.
 
-#include <linux/bug.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/pagemap.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/highmem.h>
-#include <linux/memblock.h>
-#include <linux/swap.h>
-#include <linux/proc_fs.h>
-#include <linux/pfn.h>
-#include <linux/initrd.h>
+#include <robux/bug.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/pagemap.h>
+#include <robux/ptrace.h>
+#include <robux/mman.h>
+#include <robux/mm.h>
+#include <robux/highmem.h>
+#include <robux/memblock.h>
+#include <robux/swap.h>
+#include <robux/proc_fs.h>
+#include <robux/pfn.h>
+#include <robux/initrd.h>
 
 #include <asm/setup.h>
 #include <asm/cachectl.h>

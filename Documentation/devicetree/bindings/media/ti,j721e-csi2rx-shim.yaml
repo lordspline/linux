@@ -13,7 +13,7 @@ description: |
   CSI_RX_IF section.
 
 maintainers:
-  - Jai Luthra <jai.luthra@linux.dev>
+  - Jai Luthra <jai.luthra@robux.dev>
 
 properties:
   compatible:

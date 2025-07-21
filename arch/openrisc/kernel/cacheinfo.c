@@ -9,7 +9,7 @@
  * Copyright (C) 2025 Sahil Siddiq <sahilcdq@proton.me>
  */
 
-#include <linux/cacheinfo.h>
+#include <robux/cacheinfo.h>
 #include <asm/cpuinfo.h>
 #include <asm/spr.h>
 #include <asm/spr_defs.h>

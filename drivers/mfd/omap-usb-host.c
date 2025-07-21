@@ -6,19 +6,19 @@
  * Author: Keshava Munegowda <keshava_mgowda@ti.com>
  * Author: Roger Quadros <rogerq@ti.com>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/usb-omap.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/usb-omap.h>
+#include <robux/pm_runtime.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/err.h>
 
 #include "omap-usb.h"
 
@@ -120,7 +120,7 @@ static inline u32 usbhs_read(void __iomem *base, u32 reg)
 /*-------------------------------------------------------------------------*/
 
 /*
- * Map 'enum usbhs_omap_port_mode' found in <linux/platform_data/usb-omap.h>
+ * Map 'enum usbhs_omap_port_mode' found in <robux/platform_data/usb-omap.h>
  * to the device tree binding portN-mode found in
  * 'Documentation/devicetree/bindings/mfd/omap-usb-host.txt'
  */

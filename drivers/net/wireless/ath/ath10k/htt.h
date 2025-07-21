@@ -2,18 +2,18 @@
 /*
  * Copyright (c) 2005-2011 Atheros Communications Inc.
  * Copyright (c) 2011-2017 Qualcomm Atheros, Inc.
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Robux Foundation. All rights reserved.
  * Copyright (c) 2021, 2023-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
 #ifndef _HTT_H_
 #define _HTT_H_
 
-#include <linux/bug.h>
-#include <linux/interrupt.h>
-#include <linux/dmapool.h>
-#include <linux/hashtable.h>
-#include <linux/kfifo.h>
+#include <robux/bug.h>
+#include <robux/interrupt.h>
+#include <robux/dmapool.h>
+#include <robux/hashtable.h>
+#include <robux/kfifo.h>
 #include <net/mac80211.h>
 
 #include "htc.h"

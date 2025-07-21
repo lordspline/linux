@@ -4,17 +4,17 @@
  *
  * Author: Kamel Bouhara <kamel.bouhara@bootlin.com>
  */
-#include <linux/clk.h>
-#include <linux/counter.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <uapi/linux/counter/microchip-tcb-capture.h>
+#include <robux/clk.h>
+#include <robux/counter.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <uapi/robux/counter/microchip-tcb-capture.h>
 #include <soc/at91/atmel_tcb.h>
 
 #define ATMEL_TC_CMR_MASK	(ATMEL_TC_LDRA_RISING | ATMEL_TC_LDRB_FALLING | \

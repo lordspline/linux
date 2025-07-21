@@ -9,11 +9,11 @@
  * Margarita Olaya Cabrera <magi@slimlogic.co.uk>
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/tps65912.h>
+#include <robux/mfd/tps65912.h>
 
 static const struct of_device_id tps65912_i2c_of_match_table[] = {
 	{ .compatible = "ti,tps65912", },

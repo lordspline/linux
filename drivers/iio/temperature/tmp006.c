@@ -9,19 +9,19 @@
  * (7-bit I2C slave address 0x40, changeable via ADR pins)
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pm.h>
-#include <linux/bitops.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/pm.h>
+#include <robux/bitops.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
 
 #define TMP006_VOBJECT 0x00
 #define TMP006_TAMBIENT 0x01

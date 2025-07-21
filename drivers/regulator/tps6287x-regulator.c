@@ -6,16 +6,16 @@
  * Datasheet: https://www.ti.com/lit/ds/symlink/tps62873.pdf
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/driver.h>
-#include <linux/bitfield.h>
-#include <linux/linear_range.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/driver.h>
+#include <robux/bitfield.h>
+#include <robux/linear_range.h>
 
 #define TPS6287X_VSET		0x00
 #define TPS6287X_CTRL1		0x01

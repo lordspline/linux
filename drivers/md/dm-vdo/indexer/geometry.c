@@ -5,8 +5,8 @@
 
 #include "geometry.h"
 
-#include <linux/compiler.h>
-#include <linux/log2.h>
+#include <robux/compiler.h>
+#include <robux/log2.h>
 
 #include "errors.h"
 #include "logger.h"

@@ -23,8 +23,8 @@
  *
  * Authors: Christian König
  */
-#include <linux/hdmi.h>
-#include <linux/gcd.h>
+#include <robux/hdmi.h>
+#include <robux/gcd.h>
 
 #include <drm/amdgpu_drm.h>
 #include "amdgpu.h"

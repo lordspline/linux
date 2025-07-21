@@ -11,12 +11,12 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
 
 #include "virt-dma.h"
 #include "fsldma.h"

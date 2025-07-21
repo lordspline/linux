@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/cpu.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
+#include <robux/cpu.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
 
 /**
  * of_get_cpu_hwid - Get the hardware ID from a CPU device node

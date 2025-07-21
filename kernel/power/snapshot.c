@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/kernel/power/snapshot.c
+ * robux/kernel/power/snapshot.c
  *
  * This file provides system snapshot/restore functionality for swsusp.
  *
@@ -10,29 +10,29 @@
 
 #define pr_fmt(fmt) "PM: hibernation: " fmt
 
-#include <linux/version.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/suspend.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/spinlock.h>
-#include <linux/kernel.h>
-#include <linux/pm.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/nmi.h>
-#include <linux/syscalls.h>
-#include <linux/console.h>
-#include <linux/highmem.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/compiler.h>
-#include <linux/ktime.h>
-#include <linux/set_memory.h>
+#include <robux/version.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/suspend.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
+#include <robux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/pm.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
+#include <robux/nmi.h>
+#include <robux/syscalls.h>
+#include <robux/console.h>
+#include <robux/highmem.h>
+#include <robux/list.h>
+#include <robux/slab.h>
+#include <robux/compiler.h>
+#include <robux/ktime.h>
+#include <robux/set_memory.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/mmu_context.h>
 #include <asm/tlbflush.h>
 #include <asm/io.h>

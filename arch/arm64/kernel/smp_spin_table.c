@@ -5,12 +5,12 @@
  * Copyright (C) 2013 ARM Ltd.
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/smp.h>
-#include <linux/types.h>
-#include <linux/mm.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/smp.h>
+#include <robux/types.h>
+#include <robux/mm.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cpu_ops.h>

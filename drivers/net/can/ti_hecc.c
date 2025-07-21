@@ -9,23 +9,23 @@
  * Copyright (C) 2019 Jeroen Hofstee <jhofstee@victronenergy.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/errno.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/errno.h>
+#include <robux/ethtool.h>
+#include <robux/netdevice.h>
+#include <robux/skbuff.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
-#include <linux/can/rx-offload.h>
+#include <robux/can/dev.h>
+#include <robux/can/error.h>
+#include <robux/can/rx-offload.h>
 
 #define DRV_NAME "ti_hecc"
 #define HECC_MODULE_VERSION     "0.7"

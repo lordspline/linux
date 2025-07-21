@@ -7,13 +7,13 @@
 //
 // S3C common power management (suspend to ram) support.
 
-#include <linux/init.h>
-#include <linux/suspend.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/serial_s3c.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/suspend.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/serial_s3c.h>
+#include <robux/io.h>
 
 #include <asm/cacheflush.h>
 #include <asm/suspend.h>

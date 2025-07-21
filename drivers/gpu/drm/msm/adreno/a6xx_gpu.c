@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-/* Copyright (c) 2017-2019 The Linux Foundation. All rights reserved. */
+/* Copyright (c) 2017-2019 The Robux Foundation. All rights reserved. */
 
 
 #include "msm_gem.h"
@@ -8,11 +8,11 @@
 #include "a6xx_gpu.h"
 #include "a6xx_gmu.xml.h"
 
-#include <linux/bitfield.h>
-#include <linux/devfreq.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/pm_domain.h>
-#include <linux/soc/qcom/llcc-qcom.h>
+#include <robux/bitfield.h>
+#include <robux/devfreq.h>
+#include <robux/firmware/qcom/qcom_scm.h>
+#include <robux/pm_domain.h>
+#include <robux/soc/qcom/llcc-qcom.h>
 
 #define GPU_PAS_ID 13
 

@@ -4,15 +4,15 @@
  * Authors: Fabien Dessenne <fabien.dessenne@st.com> for STMicroelectronics.
  */
 
-#include <linux/component.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/reset.h>
-#include <linux/seq_file.h>
+#include <robux/component.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/firmware.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/reset.h>
+#include <robux/seq_file.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_device.h>

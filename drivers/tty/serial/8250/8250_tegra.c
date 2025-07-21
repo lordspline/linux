@@ -5,15 +5,15 @@
  *  Copyright (c) 2020, NVIDIA CORPORATION. All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
 
 #include "8250.h"
 

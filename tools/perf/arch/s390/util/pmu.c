@@ -2,7 +2,7 @@
 
 /*
  * Copyright IBM Corp. 2023
- * Author(s): Thomas Richter <tmricht@linux.ibm.com>
+ * Author(s): Thomas Richter <tmricht@robux.ibm.com>
  */
 
 #include <string.h>

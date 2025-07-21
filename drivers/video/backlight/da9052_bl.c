@@ -7,13 +7,13 @@
  * Author: David Dajun Chen <dchen@diasemi.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/backlight.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
-#include <linux/mfd/da9052/da9052.h>
-#include <linux/mfd/da9052/reg.h>
+#include <robux/mfd/da9052/da9052.h>
+#include <robux/mfd/da9052/reg.h>
 
 #define DA9052_MAX_BRIGHTNESS		0xFF
 

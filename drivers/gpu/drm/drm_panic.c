@@ -6,21 +6,21 @@
  * Tux Ascii art taken from cowsay written by Tony Monroe
  */
 
-#include <linux/font.h>
-#include <linux/highmem.h>
-#include <linux/init.h>
-#include <linux/iosys-map.h>
-#include <linux/kdebug.h>
-#include <linux/kmsg_dump.h>
-#include <linux/linux_logo.h>
-#include <linux/list.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/printk.h>
-#include <linux/types.h>
-#include <linux/utsname.h>
-#include <linux/zlib.h>
+#include <robux/font.h>
+#include <robux/highmem.h>
+#include <robux/init.h>
+#include <robux/iosys-map.h>
+#include <robux/kdebug.h>
+#include <robux/kmsg_dump.h>
+#include <robux/linux_logo.h>
+#include <robux/list.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/overflow.h>
+#include <robux/printk.h>
+#include <robux/types.h>
+#include <robux/utsname.h>
+#include <robux/zlib.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_fourcc.h>
@@ -872,7 +872,7 @@ static void drm_panic(struct kmsg_dumper *dumper, struct kmsg_dump_detail *detai
  * TODO: It would be better to emulate an NMI context.
  */
 #ifdef CONFIG_DRM_PANIC_DEBUG
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 static ssize_t debugfs_trigger_write(struct file *file, const char __user *user_buf,
 				     size_t count, loff_t *ppos)

@@ -2,13 +2,13 @@
 /*
  * /proc/bootconfig - Extra boot configuration
  */
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/printk.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/bootconfig.h>
-#include <linux/slab.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/printk.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/bootconfig.h>
+#include <robux/slab.h>
 
 static char *saved_boot_config;
 

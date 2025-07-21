@@ -8,8 +8,8 @@
  * Copyright (C) 1996, Linus Torvalds
  */
 
-#include <linux/mm_types.h>
-#include <linux/sched.h>
+#include <robux/mm_types.h>
+#include <robux/sched.h>
 
 #include <asm/machvec.h>
 #include <asm/compiler.h>

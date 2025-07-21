@@ -3,8 +3,8 @@
 #include <fcntl.h>
 #include <inttypes.h>
 #include <string.h>
-#include "../../../../../include/linux/kernel.h"
-#include "../../../../../include/linux/stringify.h"
+#include "../../../../../include/robux/kernel.h"
+#include "../../../../../include/robux/stringify.h"
 #include "aolib.h"
 
 const unsigned int test_server_port = 7010;

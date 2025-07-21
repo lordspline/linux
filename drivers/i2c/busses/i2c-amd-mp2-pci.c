@@ -6,15 +6,15 @@
  *          Elie Morisse <syniurge@gmail.com>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
 
 #include "i2c-amd-mp2.h"
 
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
 
 static void amd_mp2_c2p_mutex_lock(struct amd_i2c_common *i2c_common)
 {

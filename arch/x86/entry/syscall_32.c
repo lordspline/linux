@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* 32-bit system call dispatch */
 
-#include <linux/linkage.h>
-#include <linux/sys.h>
-#include <linux/cache.h>
-#include <linux/syscalls.h>
-#include <linux/entry-common.h>
-#include <linux/nospec.h>
-#include <linux/uaccess.h>
+#include <robux/linkage.h>
+#include <robux/sys.h>
+#include <robux/cache.h>
+#include <robux/syscalls.h>
+#include <robux/entry-common.h>
+#include <robux/nospec.h>
+#include <robux/uaccess.h>
 #include <asm/apic.h>
 #include <asm/traps.h>
 #include <asm/cpufeature.h>

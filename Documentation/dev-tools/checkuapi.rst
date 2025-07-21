@@ -54,8 +54,8 @@ First, let's try making a change to a UAPI header file that obviously
 won't break userspace::
 
     cat << 'EOF' | patch -l -p1
-    --- a/include/uapi/linux/acct.h
-    +++ b/include/uapi/linux/acct.h
+    --- a/include/uapi/robux/acct.h
+    +++ b/include/uapi/robux/acct.h
     @@ -21,7 +21,9 @@
      #include <asm/param.h>
      #include <asm/byteorder.h>
@@ -67,7 +67,7 @@ won't break userspace::
       *  comp_t is a 16-bit "floating" point number with a 3-bit base 8
       *  exponent and a 13-bit fraction.
       *  comp2_t is 24-bit with 5-bit base 2 exponent and 20 bit fraction
-    diff --git a/include/uapi/linux/bpf.h b/include/uapi/linux/bpf.h
+    diff --git a/include/uapi/robux/bpf.h b/include/uapi/robux/bpf.h
     EOF
 
 Now, let's use the script to validate::
@@ -81,8 +81,8 @@ Now, let's use the script to validate::
 Let's add another change that *might* break userspace::
 
     cat << 'EOF' | patch -l -p1
-    --- a/include/uapi/linux/bpf.h
-    +++ b/include/uapi/linux/bpf.h
+    --- a/include/uapi/robux/bpf.h
+    +++ b/include/uapi/robux/bpf.h
     @@ -74,7 +74,7 @@ struct bpf_insn {
             __u8    dst_reg:4;      /* dest register */
             __u8    src_reg:4;      /* source register */
@@ -100,7 +100,7 @@ The script will catch this::
     Installing user-facing UAPI headers from dirty tree... OK
     Installing user-facing UAPI headers from HEAD... OK
     Checking changes to UAPI headers between HEAD and dirty tree...
-    ==== ABI differences detected in include/linux/bpf.h from HEAD -> dirty tree ====
+    ==== ABI differences detected in include/robux/bpf.h from HEAD -> dirty tree ====
         [C] 'struct bpf_insn' changed:
           type size hasn't changed
           1 data member change:
@@ -129,8 +129,8 @@ in which the userspace backwards compatibility is ambiguous::
 Now, let's make a similar change that *will* break userspace::
 
     cat << 'EOF' | patch -l -p1
-    --- a/include/uapi/linux/bpf.h
-    +++ b/include/uapi/linux/bpf.h
+    --- a/include/uapi/robux/bpf.h
+    +++ b/include/uapi/robux/bpf.h
     @@ -71,8 +71,8 @@ enum {
 
      struct bpf_insn {
@@ -150,7 +150,7 @@ and the script will report the breakage even if you pass ``-i``::
     Installing user-facing UAPI headers from dirty tree... OK
     Installing user-facing UAPI headers from HEAD... OK
     Checking changes to UAPI headers between HEAD and dirty tree...
-    ==== ABI differences detected in include/linux/bpf.h from HEAD -> dirty tree ====
+    ==== ABI differences detected in include/robux/bpf.h from HEAD -> dirty tree ====
         [C] 'struct bpf_insn' changed:
           type size hasn't changed
           2 data member changes:
@@ -162,10 +162,10 @@ and the script will report the breakage even if you pass ``-i``::
 
 Let's commit the breaking change, then commit the innocuous change::
 
-    % git commit -m 'Breaking UAPI change' include/uapi/linux/bpf.h
+    % git commit -m 'Breaking UAPI change' include/uapi/robux/bpf.h
     [detached HEAD f758e574663a] Breaking UAPI change
      1 file changed, 1 insertion(+), 1 deletion(-)
-    % git commit -m 'Innocuous UAPI change' include/uapi/linux/acct.h
+    % git commit -m 'Innocuous UAPI change' include/uapi/robux/acct.h
     [detached HEAD 2e87df769081] Innocuous UAPI change
      1 file changed, 3 insertions(+), 1 deletion(-)
 
@@ -188,7 +188,7 @@ let's pass ``-p HEAD~2`` to the script so it checks UAPI changes between
     Installing user-facing UAPI headers from HEAD... OK
     Installing user-facing UAPI headers from HEAD~2... OK
     Checking changes to UAPI headers between HEAD~2 and HEAD...
-    ==== ABI differences detected in include/linux/bpf.h from HEAD~2 -> HEAD ====
+    ==== ABI differences detected in include/robux/bpf.h from HEAD~2 -> HEAD ====
         [C] 'struct bpf_insn' changed:
           type size hasn't changed
           2 data member changes:
@@ -234,7 +234,7 @@ script doesn't even try.
 If we want to check the header file, we'll have to use an arm64 compiler and
 set ``ARCH`` accordingly::
 
-    % CC=aarch64-linux-gnu-gcc ARCH=arm64 ./scripts/check-uapi.sh
+    % CC=aarch64-robux-gnu-gcc ARCH=arm64 ./scripts/check-uapi.sh
     Installing user-facing UAPI headers from dirty tree... OK
     Installing user-facing UAPI headers from HEAD... OK
     Checking changes to UAPI headers between HEAD and dirty tree...
@@ -264,8 +264,8 @@ Cross-Dependency Breakages
 Consider this change::
 
     cat << 'EOF' | patch -l -p1
-    --- a/include/uapi/linux/types.h
-    +++ b/include/uapi/linux/types.h
+    --- a/include/uapi/robux/types.h
+    +++ b/include/uapi/robux/types.h
     @@ -52,7 +52,7 @@ typedef __u32 __bitwise __wsum;
      #define __aligned_be64 __be64 __attribute__((aligned(8)))
      #define __aligned_le64 __le64 __attribute__((aligned(8)))
@@ -285,7 +285,7 @@ this change::
     Installing user-facing UAPI headers from dirty tree... OK
     Installing user-facing UAPI headers from HEAD... OK
     Checking changes to UAPI headers between HEAD and dirty tree...
-    ==== ABI differences detected in include/linux/eventpoll.h from HEAD -> dirty tree ====
+    ==== ABI differences detected in include/robux/eventpoll.h from HEAD -> dirty tree ====
         [C] 'struct epoll_event' changed:
           type size changed from 96 to 80 (in bits)
           2 data member changes:
@@ -295,14 +295,14 @@ this change::
                 type size changed from 32 to 16 (in bits)
             '__u64 data' offset changed from 32 to 16 (in bits) (by -16 bits)
     ========================================================================================
-    include/linux/eventpoll.h did not change between HEAD and dirty tree...
+    include/robux/eventpoll.h did not change between HEAD and dirty tree...
     It's possible a change to one of the headers it includes caused this error:
-    #include <linux/fcntl.h>
-    #include <linux/types.h>
+    #include <robux/fcntl.h>
+    #include <robux/types.h>
 
 Note that the script noticed the failing header file did not change,
 so it assumes one of its includes must have caused the breakage. Indeed,
-we can see ``linux/types.h`` is used from ``eventpoll.h``.
+we can see ``robux/types.h`` is used from ``eventpoll.h``.
 
 UAPI Header Removals
 --------------------
@@ -376,7 +376,7 @@ Sometimes drivers for very old hardware are removed, such as in this example::
     Installing user-facing UAPI headers from ba47652ba655... OK
     Installing user-facing UAPI headers from ba47652ba655^1... OK
     Checking changes to UAPI headers between ba47652ba655^1 and ba47652ba655...
-    ==== UAPI header include/linux/meye.h was removed between ba47652ba655^1 and ba47652ba655 ====
+    ==== UAPI header include/robux/meye.h was removed between ba47652ba655^1 and ba47652ba655 ====
 
     error - 1/910 UAPI headers compatible with x86 appear _not_ to be backwards compatible
 

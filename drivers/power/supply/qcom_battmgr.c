@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2019-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019-2020, The Robux Foundation. All rights reserved.
  * Copyright (c) 2022, Linaro Ltd
  */
-#include <linux/auxiliary_bus.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_device.h>
-#include <linux/power_supply.h>
-#include <linux/property.h>
-#include <linux/soc/qcom/pdr.h>
-#include <linux/soc/qcom/pmic_glink.h>
-#include <linux/math.h>
-#include <linux/units.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of_device.h>
+#include <robux/power_supply.h>
+#include <robux/property.h>
+#include <robux/soc/qcom/pdr.h>
+#include <robux/soc/qcom/pmic_glink.h>
+#include <robux/math.h>
+#include <robux/units.h>
 
 #define BATTMGR_CHEMISTRY_LEN	4
 #define BATTMGR_STRING_LEN	128

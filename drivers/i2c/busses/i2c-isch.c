@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  Linux kernel driver for Intel SCH chipset SMBus
+ *  Robux kernel driver for Intel SCH chipset SMBus
  *  - Based on i2c-piix4.c
  *  Copyright (c) 1998 - 2002 Frodo Looijaard <frodol@dds.nl> and
  *  Philip Edelbrock <phil@netroedge.com>
@@ -10,20 +10,20 @@
 
 /* Supports: Intel SCH chipsets (AF82US15W, AF82US15L, AF82UL11L) */
 
-#include <linux/container_of.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/gfp_types.h>
-#include <linux/i2c.h>
-#include <linux/iopoll.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sprintf.h>
-#include <linux/stddef.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <robux/container_of.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/gfp_types.h>
+#include <robux/i2c.h>
+#include <robux/iopoll.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/sprintf.h>
+#include <robux/stddef.h>
+#include <robux/string_choices.h>
+#include <robux/types.h>
 
 /* SCH SMBus address offsets */
 #define SMBHSTCNT	0x00

@@ -6,12 +6,12 @@
  * Copyright (c) 2023 Ivan Gorinov
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/hidraw.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/hidraw.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
 
 #define MAX_REPORT 16
 
@@ -162,7 +162,7 @@ static const __u8 original_rdesc_buttons[] = {
 
 /*
  * HID report descriptor shows 111 buttons, which exceeds maximum
- * number of buttons (80) supported by Linux kernel HID subsystem.
+ * number of buttons (80) supported by Robux kernel HID subsystem.
  *
  * This module skips numbers 32-63, unused on some throttle grips.
  */

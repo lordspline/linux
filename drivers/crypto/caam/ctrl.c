@@ -6,12 +6,12 @@
  * Copyright 2018-2019, 2023 NXP
  */
 
-#include <linux/device.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/sys_soc.h>
-#include <linux/fsl/mc.h>
+#include <robux/device.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/sys_soc.h>
+#include <robux/fsl/mc.h>
 
 #include "compat.h"
 #include "debugfs.h"

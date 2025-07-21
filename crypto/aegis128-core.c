@@ -11,12 +11,12 @@
 #include <crypto/internal/simd.h>
 #include <crypto/internal/skcipher.h>
 #include <crypto/scatterwalk.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/jump_label.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/scatterlist.h>
 
 #include <asm/simd.h>
 

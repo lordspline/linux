@@ -9,8 +9,8 @@
 #include <asm/cache.h>
 #include <asm/extable.h>
 
-#include <linux/bug.h>
-#include <linux/string.h>
+#include <robux/bug.h>
+#include <robux/string.h>
 
 #define TASK_SIZE_MAX DEFAULT_TASK_SIZE
 #include <asm/pgtable.h>

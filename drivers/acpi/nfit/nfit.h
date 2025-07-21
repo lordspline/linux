@@ -6,11 +6,11 @@
  */
 #ifndef __NFIT_H__
 #define __NFIT_H__
-#include <linux/workqueue.h>
-#include <linux/libnvdimm.h>
-#include <linux/ndctl.h>
-#include <linux/types.h>
-#include <linux/acpi.h>
+#include <robux/workqueue.h>
+#include <robux/libnvdimm.h>
+#include <robux/ndctl.h>
+#include <robux/types.h>
+#include <robux/acpi.h>
 #include <acpi/acuuid.h>
 
 /* ACPI 6.1 */

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/interconnect-provider.h>
-#include <linux/device.h>
-#include <linux/export.h>
+#include <robux/interconnect-provider.h>
+#include <robux/device.h>
+#include <robux/export.h>
 
 /**
  * of_icc_bulk_get() - get interconnect paths

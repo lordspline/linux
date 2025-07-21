@@ -8,9 +8,9 @@
 #ifndef __LINUX_RCUPDATE_TRACE_H
 #define __LINUX_RCUPDATE_TRACE_H
 
-#include <linux/sched.h>
-#include <linux/rcupdate.h>
-#include <linux/cleanup.h>
+#include <robux/sched.h>
+#include <robux/rcupdate.h>
+#include <robux/cleanup.h>
 
 extern struct lockdep_map rcu_trace_lock_map;
 

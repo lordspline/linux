@@ -7,9 +7,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/hw_random.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/hw_random.h>
 #include <asm/vio.h>
 
 

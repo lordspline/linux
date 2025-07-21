@@ -3,8 +3,8 @@
 #ifndef __CROS_TYPEC_ALTMODE_H__
 #define __CROS_TYPEC_ALTMODE_H__
 
-#include <linux/kconfig.h>
-#include <linux/usb/typec.h>
+#include <robux/kconfig.h>
+#include <robux/usb/typec.h>
 
 struct cros_typec_port;
 struct typec_altmode;

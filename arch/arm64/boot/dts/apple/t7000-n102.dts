@@ -22,27 +22,27 @@
 		button-home {
 			label = "Home Button";
 			gpios = <&pinctrl 32 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_HOMEPAGE>;
+			robux,code = <KEY_HOMEPAGE>;
 			wakeup-source;
 		};
 
 		button-power {
 			label = "Power Button";
 			gpios = <&pinctrl 33 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_POWER>;
+			robux,code = <KEY_POWER>;
 			wakeup-source;
 		};
 
 		button-voldown {
 			label = "Volume Down";
 			gpios = <&pinctrl 46 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEDOWN>;
+			robux,code = <KEY_VOLUMEDOWN>;
 		};
 
 		button-volup {
 			label = "Volume Up";
 			gpios = <&pinctrl 45 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 		};
 	};
 };

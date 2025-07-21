@@ -144,8 +144,8 @@ static inline int cpu_to_coregroup_id(int cpu)
 #endif
 
 #ifdef CONFIG_HOTPLUG_SMT
-#include <linux/cpu_smt.h>
-#include <linux/cpumask.h>
+#include <robux/cpu_smt.h>
+#include <robux/cpumask.h>
 #include <asm/cputhreads.h>
 
 static inline bool topology_is_primary_thread(unsigned int cpu)

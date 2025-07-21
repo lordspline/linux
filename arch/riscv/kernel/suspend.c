@@ -6,8 +6,8 @@
 
 #define pr_fmt(fmt) "suspend: " fmt
 
-#include <linux/ftrace.h>
-#include <linux/suspend.h>
+#include <robux/ftrace.h>
+#include <robux/suspend.h>
 #include <asm/csr.h>
 #include <asm/sbi.h>
 #include <asm/suspend.h>

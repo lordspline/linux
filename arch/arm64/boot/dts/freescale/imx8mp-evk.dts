@@ -164,7 +164,7 @@
 	};
 
 	audio_codec_bt_sco: audio-codec-bt-sco {
-		compatible = "linux,bt-sco";
+		compatible = "robux,bt-sco";
 		#sound-dai-cells = <1>;
 	};
 

@@ -9,8 +9,8 @@
 #ifndef DRIVERS_FSI_MASTER_H
 #define DRIVERS_FSI_MASTER_H
 
-#include <linux/device.h>
-#include <linux/mutex.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
 
 /*
  * Master registers

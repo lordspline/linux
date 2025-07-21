@@ -27,9 +27,9 @@
  * status of a command.
  */
 
-#include <linux/device.h>
-#include <linux/cdrom.h>
-#include <linux/export.h>
+#include <robux/device.h>
+#include <robux/cdrom.h>
+#include <robux/export.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_dbg.h>

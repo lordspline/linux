@@ -8,15 +8,15 @@
  * Send feedback to <lxie@us.ibm.com>
  *
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/vmalloc.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/of.h>
+#include <robux/pci.h>
+#include <robux/pci_hotplug.h>
+#include <robux/smp.h>
+#include <robux/init.h>
+#include <robux/vmalloc.h>
 #include <asm/firmware.h>
 #include <asm/eeh.h>       /* for eeh_add_device() */
 #include <asm/rtas.h>		/* rtas_call */

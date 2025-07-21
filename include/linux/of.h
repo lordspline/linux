@@ -11,14 +11,14 @@
  * Updates for SPARC64 by David S. Miller
  * Derived from PowerPC and Sparc prom.h files by Stephen Rothwell, IBM Corp.
  */
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/errno.h>
-#include <linux/kobject.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/list.h>
+#include <robux/types.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/errno.h>
+#include <robux/kobject.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/list.h>
 
 #include <asm/byteorder.h>
 

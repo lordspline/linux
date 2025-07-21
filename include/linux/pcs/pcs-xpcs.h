@@ -7,12 +7,12 @@
 #ifndef __LINUX_PCS_XPCS_H
 #define __LINUX_PCS_XPCS_H
 
-#include <linux/clk.h>
-#include <linux/fwnode.h>
-#include <linux/mdio.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/fwnode.h>
+#include <robux/mdio.h>
+#include <robux/phy.h>
+#include <robux/phylink.h>
+#include <robux/types.h>
 
 /* AN mode */
 #define DW_AN_C73			1

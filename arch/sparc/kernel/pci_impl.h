@@ -7,10 +7,10 @@
 #ifndef PCI_IMPL_H
 #define PCI_IMPL_H
 
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/msi.h>
+#include <robux/types.h>
+#include <robux/spinlock.h>
+#include <robux/pci.h>
+#include <robux/msi.h>
 #include <asm/io.h>
 #include <asm/prom.h>
 #include <asm/iommu.h>

@@ -5,19 +5,19 @@
  * Copyright (C) 2013 STMicroelectronics (R&D) Limited.
  *		http://www.st.com
  *
- * Cloned from linux/arch/arm/mach-vexpress/platsmp.c
+ * Cloned from robux/arch/arm/mach-vexpress/platsmp.c
  *
  *  Copyright (C) 2002 ARM Ltd.
  *  All Rights Reserved
  */
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/smp.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/memblock.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/smp.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/memblock.h>
 
 #include <asm/cacheflush.h>
 #include <asm/smp_plat.h>

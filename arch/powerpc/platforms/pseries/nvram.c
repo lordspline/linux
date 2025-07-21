@@ -6,14 +6,14 @@
  */
 
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/uaccess.h>
-#include <linux/of.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/ctype.h>
+#include <robux/uaccess.h>
+#include <robux/of.h>
 #include <asm/nvram.h>
 #include <asm/rtas.h>
 #include <asm/machdep.h>

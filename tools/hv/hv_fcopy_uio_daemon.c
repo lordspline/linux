@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * An implementation of host to guest copy functionality for Linux.
+ * An implementation of host to guest copy functionality for Robux.
  *
  * Copyright (C) 2023, Microsoft, Inc.
  *
@@ -24,8 +24,8 @@
 #include <unistd.h>
 #include <wchar.h>
 #include <sys/stat.h>
-#include <linux/hyperv.h>
-#include <linux/limits.h>
+#include <robux/hyperv.h>
+#include <robux/limits.h>
 #include "vmbus_bufring.h"
 
 #define ICMSGTYPE_NEGOTIATE	0

@@ -8,7 +8,7 @@
 #ifndef _LINUX_AMD_PSTATE_H
 #define _LINUX_AMD_PSTATE_H
 
-#include <linux/pm_qos.h>
+#include <robux/pm_qos.h>
 
 /*********************************************************************
  *                        AMD P-state INTERFACE                       *

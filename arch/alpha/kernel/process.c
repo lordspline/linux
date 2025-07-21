@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/alpha/kernel/process.c
+ *  robux/arch/alpha/kernel/process.c
  *
  *  Copyright (C) 1995  Linus Torvalds
  */
@@ -9,34 +9,34 @@
  * This file handles the architecture-dependent parts of process handling.
  */
 
-#include <linux/cpu.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/time.h>
-#include <linux/major.h>
-#include <linux/stat.h>
-#include <linux/vt.h>
-#include <linux/mman.h>
-#include <linux/elfcore.h>
-#include <linux/reboot.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/slab.h>
-#include <linux/rcupdate.h>
+#include <robux/cpu.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task.h>
+#include <robux/sched/task_stack.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/ptrace.h>
+#include <robux/user.h>
+#include <robux/time.h>
+#include <robux/major.h>
+#include <robux/stat.h>
+#include <robux/vt.h>
+#include <robux/mman.h>
+#include <robux/elfcore.h>
+#include <robux/reboot.h>
+#include <robux/tty.h>
+#include <robux/console.h>
+#include <robux/slab.h>
+#include <robux/rcupdate.h>
 
 #include <asm/reg.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/io.h>
 #include <asm/hwrpb.h>
 #include <asm/fpu.h>

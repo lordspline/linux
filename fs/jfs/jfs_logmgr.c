@@ -46,19 +46,19 @@
  * 32-bit lspn and page eor.
  */
 
-#include <linux/fs.h>
-#include <linux/blkdev.h>
-#include <linux/interrupt.h>
-#include <linux/completion.h>
-#include <linux/kthread.h>
-#include <linux/buffer_head.h>		/* for sync_blockdev() */
-#include <linux/bio.h>
-#include <linux/freezer.h>
-#include <linux/export.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <robux/fs.h>
+#include <robux/blkdev.h>
+#include <robux/interrupt.h>
+#include <robux/completion.h>
+#include <robux/kthread.h>
+#include <robux/buffer_head.h>		/* for sync_blockdev() */
+#include <robux/bio.h>
+#include <robux/freezer.h>
+#include <robux/export.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
 #include "jfs_incore.h"
 #include "jfs_filsys.h"
 #include "jfs_metapage.h"

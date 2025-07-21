@@ -7,16 +7,16 @@
  * Contact: Luciano Coelho <luciano.coelho@nokia.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/swab.h>
-#include <linux/crc7.h>
-#include <linux/spi/spi.h>
-#include <linux/platform_device.h>
-#include <linux/of_irq.h>
-#include <linux/regulator/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/swab.h>
+#include <robux/crc7.h>
+#include <robux/spi/spi.h>
+#include <robux/platform_device.h>
+#include <robux/of_irq.h>
+#include <robux/regulator/consumer.h>
 
 #include "wlcore.h"
 #include "wl12xx_80211.h"

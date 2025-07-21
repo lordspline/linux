@@ -11,7 +11,7 @@
 #ifndef __MXL5005S_H
 #define __MXL5005S_H
 
-#include <linux/i2c.h>
+#include <robux/i2c.h>
 #include <media/dvb_frontend.h>
 
 struct mxl5005s_config {

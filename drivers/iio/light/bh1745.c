@@ -9,20 +9,20 @@
  *  0x39 (ADDR pin high)
  */
 
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/util_macros.h>
-#include <linux/iio/events.h>
-#include <linux/regmap.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
+#include <robux/util_macros.h>
+#include <robux/iio/events.h>
+#include <robux/regmap.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/iio-gts-helper.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/iio-gts-helper.h>
 
 /* BH1745 configuration registers */
 

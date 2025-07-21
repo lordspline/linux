@@ -6,14 +6,14 @@
  * Copyright (C) 2015 Regents of the University of California
  */
 
-#include <linux/elf.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/binfmts.h>
-#include <linux/err.h>
+#include <robux/elf.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/binfmts.h>
+#include <robux/err.h>
 #include <asm/page.h>
 #include <asm/vdso.h>
-#include <linux/vdso_datastore.h>
+#include <robux/vdso_datastore.h>
 #include <vdso/datapage.h>
 #include <vdso/vsyscall.h>
 

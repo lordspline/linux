@@ -14,19 +14,19 @@
 /* Partially rewriten by Oleg I. Vdovikin for mmapped support of
    for Alpha Processor Inc. UP-2000(+) boards */
 
-#include <linux/kernel.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/wait.h>
+#include <robux/kernel.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/wait.h>
 
-#include <linux/isa.h>
-#include <linux/i2c.h>
-#include <linux/i2c-algo-pcf.h>
-#include <linux/io.h>
+#include <robux/isa.h>
+#include <robux/i2c.h>
+#include <robux/i2c-algo-pcf.h>
+#include <robux/io.h>
 
 #include <asm/irq.h>
 

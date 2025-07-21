@@ -7,10 +7,10 @@
  * Author: Varshini Rajendran <varshini.rajendran@microchip.com>
  *
  */
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/mfd/syscon.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/mfd/syscon.h>
+#include <robux/slab.h>
 
 #include <dt-bindings/clock/at91.h>
 
@@ -342,7 +342,7 @@ static const struct {
 } sam9x7_systemck[] = {
 	/*
 	 * ddrck feeds DDR controller and is enabled by bootloader thus we need
-	 * to keep it enabled in case there is no Linux consumer for it.
+	 * to keep it enabled in case there is no Robux consumer for it.
 	 */
 	{ .n = "ddrck",		.p = "masterck_div",	.id = 2,	.flags = CLK_IS_CRITICAL },
 	{ .n = "uhpck",		.p = "usbck",		.id = 6 },
@@ -405,7 +405,7 @@ static const struct {
 	{ .n = "dbgu_clk",	.id = 47, },
 	/*
 	 * mpddr_clk feeds DDR controller and is enabled by bootloader thus we
-	 * need to keep it enabled in case there is no Linux consumer for it.
+	 * need to keep it enabled in case there is no Robux consumer for it.
 	 */
 	{ .n = "mpddr_clk",	.id = 49,	.f = CLK_IS_CRITICAL },
 	{ .n = "csi2dc_clk",	.id = 52, },

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/sched.h>
-#include <linux/elf.h>
-#include <linux/regset.h>
+#include <robux/sched.h>
+#include <robux/elf.h>
+#include <robux/regset.h>
 #include <asm/user32.h>
 #include <asm/sigcontext.h>
 

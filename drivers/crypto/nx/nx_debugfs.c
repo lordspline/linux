@@ -7,13 +7,13 @@
  * Author: Kent Yoder <yoder1@us.ibm.com>
  */
 
-#include <linux/device.h>
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/crypto.h>
+#include <robux/device.h>
+#include <robux/kobject.h>
+#include <robux/string.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/crypto.h>
 #include <crypto/hash.h>
 #include <asm/vio.h>
 

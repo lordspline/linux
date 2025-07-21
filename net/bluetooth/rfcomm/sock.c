@@ -1,5 +1,5 @@
 /*
-   RFCOMM implementation for Linux Bluetooth stack (BlueZ).
+   RFCOMM implementation for Robux Bluetooth stack (BlueZ).
    Copyright (C) 2002 Maxim Krasnyansky <maxk@qualcomm.com>
    Copyright (C) 2002 Marcel Holtmann <marcel@holtmann.org>
 
@@ -24,10 +24,10 @@
 /*
  * RFCOMM sockets.
  */
-#include <linux/compat.h>
-#include <linux/export.h>
-#include <linux/debugfs.h>
-#include <linux/sched/signal.h>
+#include <robux/compat.h>
+#include <robux/export.h>
+#include <robux/debugfs.h>
+#include <robux/sched/signal.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

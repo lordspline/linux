@@ -9,10 +9,10 @@
 
 #include <asm/page.h>
 
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/slab.h>
 
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

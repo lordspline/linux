@@ -12,19 +12,19 @@
  *	Andy Lowe / Nishanth Menon
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kthread.h>
-#include <linux/irq.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kthread.h>
+#include <robux/irq.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/irqdomain.h>
 
-#include <linux/mfd/twl.h>
+#include <robux/mfd/twl.h>
 
 /*
  * The GPIO "subchip" supports 18 GPIOs which can be configured as

@@ -1,5 +1,5 @@
 /*
- * linux/arch/m68k/atari/debug.c
+ * robux/arch/m68k/atari/debug.c
  *
  * Atari debugging and serial console stuff
  *
@@ -10,12 +10,12 @@
  * for more details.
  */
 
-#include <linux/types.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/module.h>
+#include <robux/types.h>
+#include <robux/tty.h>
+#include <robux/console.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/module.h>
 
 #include <asm/atarihw.h>
 #include <asm/atariints.h>

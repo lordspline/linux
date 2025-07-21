@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: LGPL-2.1
 /*
  * Copyright IBM Corporation, 2010
- * Author Venkateswararao Jujjuri <jvrao@linux.vnet.ibm.com>
+ * Author Venkateswararao Jujjuri <jvrao@robux.vnet.ibm.com>
  */
 
-#include <linux/mm.h>
-#include <linux/module.h>
+#include <robux/mm.h>
+#include <robux/module.h>
 #include "trans_common.h"
 
 /**

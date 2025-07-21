@@ -8,13 +8,13 @@
  * which are in turn based on sparc64 and x86 code.
  */
 
-#include <linux/cpumask.h>
-#include <linux/irq.h>
-#include <linux/irqdesc.h>
-#include <linux/perf/riscv_pmu.h>
-#include <linux/printk.h>
-#include <linux/smp.h>
-#include <linux/sched_clock.h>
+#include <robux/cpumask.h>
+#include <robux/irq.h>
+#include <robux/irqdesc.h>
+#include <robux/perf/riscv_pmu.h>
+#include <robux/printk.h>
+#include <robux/smp.h>
+#include <robux/sched_clock.h>
 
 #include <asm/sbi.h>
 

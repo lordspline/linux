@@ -5,25 +5,25 @@
  * 2024 by Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/devm-helpers.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
-#include <linux/unaligned.h>
+#include <robux/array_size.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/bug.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/devm-helpers.h>
+#include <robux/errno.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
+#include <robux/unaligned.h>
 
-#include <linux/turris-omnia-mcu-interface.h>
+#include <robux/turris-omnia-mcu-interface.h>
 #include "turris-omnia-mcu.h"
 
 #define OMNIA_CMD_INT_ARG_LEN		8

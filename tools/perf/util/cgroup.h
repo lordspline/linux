@@ -2,9 +2,9 @@
 #ifndef __CGROUP_H__
 #define __CGROUP_H__
 
-#include <linux/compiler.h>
-#include <linux/refcount.h>
-#include <linux/rbtree.h>
+#include <robux/compiler.h>
+#include <robux/refcount.h>
+#include <robux/rbtree.h>
 #include "util/env.h"
 
 struct option;

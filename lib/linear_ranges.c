@@ -8,11 +8,11 @@
  * Copyright 2020 ROHM Semiconductors
  */
 
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/linear_range.h>
-#include <linux/module.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/linear_range.h>
+#include <robux/module.h>
 
 /**
  * linear_range_values_in_range - return the amount of values in a range

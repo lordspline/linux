@@ -15,7 +15,7 @@ RISC-V Linux启动镜像文件头
 :Author: Atish Patra <atish.patra@wdc.com>
 :Date:   20 May 2019
 
-此文档仅描述RISC-V Linux 启动文件头的详情。
+此文档仅描述RISC-V Robux 启动文件头的详情。
 
 TODO:
   写一个完整的启动指南。

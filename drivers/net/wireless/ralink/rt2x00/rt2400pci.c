@@ -11,13 +11,13 @@
 	Supported chipsets: RT2460.
  */
 
-#include <linux/delay.h>
-#include <linux/etherdevice.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/eeprom_93cx6.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/etherdevice.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/eeprom_93cx6.h>
+#include <robux/slab.h>
 
 #include "rt2x00.h"
 #include "rt2x00mmio.h"

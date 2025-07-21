@@ -7,9 +7,9 @@
  * Copyright © 2024-2025 Microsoft Corporation
  */
 
-#include <linux/binfmts.h>
-#include <linux/cred.h>
-#include <linux/lsm_hooks.h>
+#include <robux/binfmts.h>
+#include <robux/cred.h>
+#include <robux/lsm_hooks.h>
 
 #include "common.h"
 #include "cred.h"

@@ -7,12 +7,12 @@
  * Copyright (C) 2024 Google LLC
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/array_size.h>
-#include <linux/io.h>
-#include <linux/mem_encrypt.h>
-#include <linux/mm.h>
-#include <linux/pgtable.h>
+#include <robux/arm-smccc.h>
+#include <robux/array_size.h>
+#include <robux/io.h>
+#include <robux/mem_encrypt.h>
+#include <robux/mm.h>
+#include <robux/pgtable.h>
 
 #include <asm/hypervisor.h>
 

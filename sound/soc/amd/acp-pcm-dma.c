@@ -5,12 +5,12 @@
  * Copyright 2014-2015 Advanced Micro Devices, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/sizes.h>
-#include <linux/pm_runtime.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/sizes.h>
+#include <robux/pm_runtime.h>
 
 #include <sound/soc.h>
 #include <drm/amd_asic_type.h>

@@ -3,25 +3,25 @@
 // Copyright (c) 2012-2014 Samsung Electronics Co., Ltd
 //              http://www.samsung.com
 
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/mfd/samsung/core.h>
-#include <linux/mfd/samsung/s2mps11.h>
-#include <linux/mfd/samsung/s2mps13.h>
-#include <linux/mfd/samsung/s2mps14.h>
-#include <linux/mfd/samsung/s2mps15.h>
-#include <linux/mfd/samsung/s2mpu02.h>
-#include <linux/mfd/samsung/s2mpu05.h>
+#include <robux/bug.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/mfd/samsung/core.h>
+#include <robux/mfd/samsung/s2mps11.h>
+#include <robux/mfd/samsung/s2mps13.h>
+#include <robux/mfd/samsung/s2mps14.h>
+#include <robux/mfd/samsung/s2mps15.h>
+#include <robux/mfd/samsung/s2mpu02.h>
+#include <robux/mfd/samsung/s2mpu05.h>
 
 /* The highest number of possible regulators for supported devices. */
 #define S2MPS_REGULATOR_MAX		S2MPS13_REGULATOR_MAX

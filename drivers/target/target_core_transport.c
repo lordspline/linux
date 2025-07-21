@@ -10,19 +10,19 @@
  *
  ******************************************************************************/
 
-#include <linux/net.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/kthread.h>
-#include <linux/in.h>
-#include <linux/cdrom.h>
-#include <linux/module.h>
-#include <linux/ratelimit.h>
-#include <linux/vmalloc.h>
-#include <linux/unaligned.h>
+#include <robux/net.h>
+#include <robux/delay.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/kthread.h>
+#include <robux/in.h>
+#include <robux/cdrom.h>
+#include <robux/module.h>
+#include <robux/ratelimit.h>
+#include <robux/vmalloc.h>
+#include <robux/unaligned.h>
 #include <net/sock.h>
 #include <net/tcp.h>
 #include <scsi/scsi_proto.h>
@@ -790,7 +790,7 @@ static void target_complete_failure_work(struct work_struct *work)
 
 /*
  * Used when asking transport to copy Sense Data from the underlying
- * Linux/SCSI struct scsi_cmnd
+ * Robux/SCSI struct scsi_cmnd
  */
 static unsigned char *transport_get_sense_buffer(struct se_cmd *cmd)
 {
@@ -2089,7 +2089,7 @@ void transport_generic_request_failure(struct se_cmd *cmd,
 		 * No SENSE Data payload for this case, set SCSI Status
 		 * and queue the response to $FABRIC_MOD.
 		 *
-		 * Uses linux/include/scsi/scsi.h SAM status codes defs
+		 * Uses robux/include/scsi/scsi.h SAM status codes defs
 		 */
 		cmd->scsi_status = SAM_STAT_RESERVATION_CONFLICT;
 		/*

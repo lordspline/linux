@@ -4,15 +4,15 @@
  *  Copyright (c) 2008, VIA Technologies Inc. All Rights Reserved.
  */
 
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/highmem.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/module.h>
+#include <robux/dma-mapping.h>
+#include <robux/highmem.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
 
-#include <linux/mmc/host.h>
-#include <linux/workqueue.h>
+#include <robux/mmc/host.h>
+#include <robux/workqueue.h>
 
 #define DRV_NAME	"via_sdmmc"
 

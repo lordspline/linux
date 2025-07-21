@@ -6,11 +6,11 @@
 #ifndef _SBRMI_CORE_H_
 #define _SBRMI_CORE_H_
 
-#include <linux/miscdevice.h>
-#include <linux/mutex.h>
-#include <linux/i2c.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/miscdevice.h>
+#include <robux/mutex.h>
+#include <robux/i2c.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 #include <uapi/misc/amd-apml.h>
 
 /* SB-RMI registers */

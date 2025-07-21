@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <signal.h>
 #include <stdlib.h>
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 #include <unistd.h>
 #include "../tests.h"
 

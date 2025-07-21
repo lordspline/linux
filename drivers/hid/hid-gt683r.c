@@ -5,11 +5,11 @@
  * Copyright (c) 2014 Janne Kanniainen <janne.kanniainen@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/module.h>
 
 #include "hid-ids.h"
 

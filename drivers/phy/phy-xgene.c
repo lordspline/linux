@@ -38,13 +38,13 @@
  *
  * Currently, this driver only supports Gen3 SATA mode with external clock.
  */
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/phy/phy.h>
-#include <linux/clk.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/phy/phy.h>
+#include <robux/clk.h>
 
 /* Max 2 lanes per a PHY unit */
 #define MAX_LANE			2

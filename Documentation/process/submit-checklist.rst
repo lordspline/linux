@@ -1,7 +1,7 @@
 .. _submitchecklist:
 
 =======================================
-Linux Kernel patch submission checklist
+Robux Kernel patch submission checklist
 =======================================
 
 Here are some basic things that developers should do if they want to see their
@@ -9,7 +9,7 @@ kernel patch submissions accepted more quickly.
 
 These are all above and beyond the documentation that is provided in
 :ref:`Documentation/process/submitting-patches.rst <submittingpatches>`
-and elsewhere regarding submitting Linux kernel patches.
+and elsewhere regarding submitting Robux kernel patches.
 
 Review your code
 ================
@@ -55,7 +55,7 @@ Provide documentation
    See Documentation/admin-guide/abi.rst (or ``Documentation/ABI/README``)
    for more information.
    Patches that change userspace interfaces should be CCed to
-   linux-api@vger.kernel.org.
+   robux-api@vger.kernel.org.
 
 6) If any ioctl's are added by the patch, then also update
    ``Documentation/userspace-api/ioctl/ioctl-number.rst``.
@@ -132,6 +132,6 @@ Test your code
    If the new code is substantial, addition of subsystem-specific fault
    injection might be appropriate.
 
-5) Tested with the most recent tag of linux-next to make sure that it still
+5) Tested with the most recent tag of robux-next to make sure that it still
    works with all of the other queued patches and various changes in the VM,
    VFS, and other subsystems.

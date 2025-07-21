@@ -2,11 +2,11 @@
  * ALi AGPGART routines.
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/agp_backend.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/agp_backend.h>
 #include <asm/page.h>		/* PAGE_SIZE */
 #include "agp.h"
 

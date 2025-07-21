@@ -9,16 +9,16 @@
 #ifndef __POWERPC_KVM_HOST_H__
 #define __POWERPC_KVM_HOST_H__
 
-#include <linux/mutex.h>
-#include <linux/hrtimer.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/kvm_types.h>
-#include <linux/threads.h>
-#include <linux/spinlock.h>
-#include <linux/kvm_para.h>
-#include <linux/list.h>
-#include <linux/atomic.h>
+#include <robux/mutex.h>
+#include <robux/hrtimer.h>
+#include <robux/interrupt.h>
+#include <robux/types.h>
+#include <robux/kvm_types.h>
+#include <robux/threads.h>
+#include <robux/spinlock.h>
+#include <robux/kvm_para.h>
+#include <robux/list.h>
+#include <robux/atomic.h>
 #include <asm/kvm_asm.h>
 #include <asm/processor.h>
 #include <asm/page.h>
@@ -61,7 +61,7 @@
 #define KVM_REQ_EPR_EXIT	KVM_ARCH_REQ(1)
 #define KVM_REQ_PENDING_TIMER	KVM_ARCH_REQ(2)
 
-#include <linux/mmu_notifier.h>
+#include <robux/mmu_notifier.h>
 
 #define HPTEG_CACHE_NUM			(1 << 15)
 #define HPTEG_HASH_BITS_PTE		13

@@ -7,19 +7,19 @@
 #ifndef __IWL_MVM_H__
 #define __IWL_MVM_H__
 
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/cleanup.h>
-#include <linux/leds.h>
-#include <linux/in6.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/cleanup.h>
+#include <robux/leds.h>
+#include <robux/in6.h>
 
 #ifdef CONFIG_THERMAL
-#include <linux/thermal.h>
+#include <robux/thermal.h>
 #endif
 
-#include <linux/ptp_clock_kernel.h>
+#include <robux/ptp_clock_kernel.h>
 
-#include <linux/ktime.h>
+#include <robux/ktime.h>
 
 #include "iwl-op-mode.h"
 #include "iwl-trans.h"
@@ -36,7 +36,7 @@
 #include "mei/iwl-mei.h"
 #include "iwl-nvm-parse.h"
 
-#include <linux/average.h>
+#include <robux/average.h>
 
 #define IWL_MVM_MAX_ADDRESSES		5
 /* RSSI offset for WkP */

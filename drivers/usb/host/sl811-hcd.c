@@ -32,30 +32,30 @@
 #undef	VERBOSE
 #undef	PACKET_TRACE
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/timer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/usb.h>
-#include <linux/usb/sl811.h>
-#include <linux/usb/hcd.h>
-#include <linux/platform_device.h>
-#include <linux/prefetch.h>
-#include <linux/string_choices.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/timer.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/usb.h>
+#include <robux/usb/sl811.h>
+#include <robux/usb/hcd.h>
+#include <robux/platform_device.h>
+#include <robux/prefetch.h>
+#include <robux/string_choices.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "sl811.h"
 

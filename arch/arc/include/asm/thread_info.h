@@ -26,7 +26,7 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/thread_info.h>
+#include <robux/thread_info.h>
 
 /*
  * low level task data that entry.S needs immediate access to

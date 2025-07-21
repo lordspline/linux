@@ -29,14 +29,14 @@
 #include "tua6100.h"
 #include "dvb-pll.h"
 #include <media/drv-intf/saa7146_vv.h>
-#include <linux/module.h>
-#include <linux/etherdevice.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/etherdevice.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/spinlock.h>
+#include <robux/workqueue.h>
 
 #include <media/dvb_ca_en50221.h>
 

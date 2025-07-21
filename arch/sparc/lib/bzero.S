@@ -5,8 +5,8 @@
  * Copyright (C) 2005 David S. Miller <davem@davemloft.net>
  */
 
-#include <linux/export.h>
-#include <linux/linkage.h>
+#include <robux/export.h>
+#include <robux/linkage.h>
 
 	.text
 

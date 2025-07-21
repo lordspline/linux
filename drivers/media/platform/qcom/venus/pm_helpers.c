@@ -4,15 +4,15 @@
  *
  * Author: Stanimir Varbanov <stanimir.varbanov@linaro.org>
  */
-#include <linux/clk.h>
-#include <linux/interconnect.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/interconnect.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_opp.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/types.h>
 #include <media/v4l2-mem2mem.h>
 
 #include "core.h"

@@ -5,9 +5,9 @@
  * Copyright (c) 2017-2020, Silicon Laboratories, Inc.
  * Copyright (c) 2010, ST-Ericsson
  */
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/crc32.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/crc32.h>
 
 #include "debug.h"
 #include "wfx.h"

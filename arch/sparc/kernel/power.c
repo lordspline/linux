@@ -4,13 +4,13 @@
  * Copyright (C) 1999, 2007, 2008 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/reboot.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/reboot.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <asm/prom.h>
 #include <asm/io.h>

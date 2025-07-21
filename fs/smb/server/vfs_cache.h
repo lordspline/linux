@@ -6,12 +6,12 @@
 #ifndef __VFS_CACHE_H__
 #define __VFS_CACHE_H__
 
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/rwsem.h>
-#include <linux/spinlock.h>
-#include <linux/idr.h>
-#include <linux/workqueue.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/rwsem.h>
+#include <robux/spinlock.h>
+#include <robux/idr.h>
+#include <robux/workqueue.h>
 
 #include "vfs.h"
 #include "mgmt/share_config.h"

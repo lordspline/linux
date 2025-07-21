@@ -9,22 +9,22 @@
  * I like traps on v9, :))))
  */
 
-#include <linux/cpu.h>
-#include <linux/extable.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/debug.h>
-#include <linux/linkage.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/kallsyms.h>
-#include <linux/kdebug.h>
-#include <linux/ftrace.h>
-#include <linux/reboot.h>
-#include <linux/gfp.h>
-#include <linux/context_tracking.h>
+#include <robux/cpu.h>
+#include <robux/extable.h>
+#include <robux/sched/mm.h>
+#include <robux/sched/debug.h>
+#include <robux/linkage.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/smp.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/kallsyms.h>
+#include <robux/kdebug.h>
+#include <robux/ftrace.h>
+#include <robux/reboot.h>
+#include <robux/gfp.h>
+#include <robux/context_tracking.h>
 
 #include <asm/smp.h>
 #include <asm/delay.h>
@@ -32,7 +32,7 @@
 #include <asm/oplib.h>
 #include <asm/page.h>
 #include <asm/unistd.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/fpumacro.h>
 #include <asm/lsu.h>
 #include <asm/dcu.h>

@@ -8,26 +8,26 @@
  * Author: Arnd Bergmann <arndb@de.ibm.com>
  */
 
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/fsnotify.h>
-#include <linux/backing-dev.h>
-#include <linux/init.h>
-#include <linux/ioctl.h>
-#include <linux/module.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
-#include <linux/pagemap.h>
-#include <linux/poll.h>
-#include <linux/of.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/fs_context.h>
+#include <robux/fs_parser.h>
+#include <robux/fsnotify.h>
+#include <robux/backing-dev.h>
+#include <robux/init.h>
+#include <robux/ioctl.h>
+#include <robux/module.h>
+#include <robux/mount.h>
+#include <robux/namei.h>
+#include <robux/pagemap.h>
+#include <robux/poll.h>
+#include <robux/of.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
 
 #include <asm/spu.h>
 #include <asm/spu_priv1.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "spufs.h"
 

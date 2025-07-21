@@ -6,7 +6,7 @@
  * Copyright (c) 2022 Tejun Heo <tj@kernel.org>
  * Copyright (c) 2022 David Vernet <dvernet@meta.com>
  */
-#include <linux/btf_ids.h>
+#include <robux/btf_ids.h>
 #include "ext_idle.h"
 
 #define SCX_OP_IDX(op)		(offsetof(struct sched_ext_ops, op) / sizeof(void (*)(void)))
@@ -5753,9 +5753,9 @@ err_disable:
 /********************************************************************************
  * bpf_struct_ops plumbing.
  */
-#include <linux/bpf_verifier.h>
-#include <linux/bpf.h>
-#include <linux/btf.h>
+#include <robux/bpf_verifier.h>
+#include <robux/bpf.h>
+#include <robux/btf.h>
 
 static const struct btf_type *task_struct_type;
 

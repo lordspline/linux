@@ -10,16 +10,16 @@
  * The datasheet for the BMA150 chip can be found here:
  * http://www.bosch-sensortec.com/content/language1/downloads/BST-BMA150-DS000-07.pdf
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/bma150.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/bma150.h>
 
 #define ABSMAX_ACC_VAL		0x01FF
 #define ABSMIN_ACC_VAL		-(ABSMAX_ACC_VAL)

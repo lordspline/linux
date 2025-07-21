@@ -22,23 +22,23 @@
  * parts of the system are required to obtain handles to the ADC to do work
  * for them and the IIO driver provides arbitration among these consumers.
  */
-#include <linux/init.h>
-#include <linux/bits.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_device.h>
-#include <linux/completion.h>
-#include <linux/regulator/consumer.h>
-#include <linux/random.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/mfd/abx500.h>
-#include <linux/mfd/abx500/ab8500.h>
+#include <robux/init.h>
+#include <robux/bits.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
+#include <robux/platform_device.h>
+#include <robux/completion.h>
+#include <robux/regulator/consumer.h>
+#include <robux/random.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/mfd/abx500.h>
+#include <robux/mfd/abx500/ab8500.h>
 
 /* GPADC register offsets and bit definitions */
 

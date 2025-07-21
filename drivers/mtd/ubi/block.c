@@ -27,19 +27,19 @@
  * UBI_IOCVOLCRBLK and UBI_IOCVOLRMBLK.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/mtd/ubi.h>
-#include <linux/blkdev.h>
-#include <linux/blk-mq.h>
-#include <linux/hdreg.h>
-#include <linux/scatterlist.h>
-#include <linux/idr.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/mtd/ubi.h>
+#include <robux/blkdev.h>
+#include <robux/blk-mq.h>
+#include <robux/hdreg.h>
+#include <robux/scatterlist.h>
+#include <robux/idr.h>
 #include <asm/div64.h>
 
 #include "ubi-media.h"

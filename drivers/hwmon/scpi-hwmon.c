@@ -6,14 +6,14 @@
  * Punit Agrawal <punit.agrawal@arm.com>
  */
 
-#include <linux/hwmon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/scpi_protocol.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/thermal.h>
+#include <robux/hwmon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/scpi_protocol.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/thermal.h>
 
 struct sensor_data {
 	unsigned int scale;

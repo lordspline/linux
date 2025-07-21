@@ -9,17 +9,17 @@
  */
 
 #include <drm/bridge/aux-bridge.h>
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_graph.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/usb/typec_retimer.h>
+#include <robux/bitfield.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of_graph.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/usb/typec_dp.h>
+#include <robux/usb/typec_mux.h>
+#include <robux/usb/typec_retimer.h>
 
 #define PTN36502_CHIP_ID_REG				0x00
 #define PTN36502_CHIP_ID				0x02

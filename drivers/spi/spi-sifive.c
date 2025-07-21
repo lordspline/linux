@@ -7,14 +7,14 @@
 // Author: SiFive, Inc.
 // sifive@sifive.com
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/io.h>
-#include <linux/log2.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/spi/spi.h>
+#include <robux/io.h>
+#include <robux/log2.h>
 
 #define SIFIVE_SPI_DRIVER_NAME           "sifive_spi"
 

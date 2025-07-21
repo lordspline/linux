@@ -12,8 +12,8 @@
 #include <sys/mman.h>
 #include <sys/types.h>
 
-#include <linux/dma-buf.h>
-#include <linux/dma-heap.h>
+#include <robux/dma-buf.h>
+#include <robux/dma-heap.h>
 #include <drm/drm.h>
 #include "../kselftest.h"
 

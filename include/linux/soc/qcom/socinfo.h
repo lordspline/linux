@@ -3,7 +3,7 @@
 #ifndef __QCOM_SOCINFO_H__
 #define __QCOM_SOCINFO_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /*
  * SMEM item id, used to acquire handles to respective

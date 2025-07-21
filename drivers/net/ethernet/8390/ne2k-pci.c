@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-1.0+
-/* A Linux device driver for PCI NE2000 clones.
+/* A Robux device driver for PCI NE2000 clones.
  *
  * Authors and other copyright holders:
  * 1992-2000 by Donald Becker, NE2000 core and various modifications.
@@ -47,19 +47,19 @@ static int options[MAX_UNITS];
 /* #define PACKETBUF_MEMSIZE	0x40 */
 
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ethtool.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
 
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "8390.h"
 
@@ -81,7 +81,7 @@ MODULE_LICENSE("GPL");
 module_param_named(msg_enable, ne2k_msg_enable, int, 0444);
 module_param_array(options, int, NULL, 0);
 module_param_array(full_duplex, int, NULL, 0);
-MODULE_PARM_DESC(msg_enable, "Debug message level (see linux/netdevice.h for bitmap)");
+MODULE_PARM_DESC(msg_enable, "Debug message level (see robux/netdevice.h for bitmap)");
 MODULE_PARM_DESC(options, "Bit 5: full duplex");
 MODULE_PARM_DESC(full_duplex, "full duplex setting(s) (1)");
 

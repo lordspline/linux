@@ -8,19 +8,19 @@
  *         Lee Jones <lee.jones@linaro.org>
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/math64.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/wait.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/math64.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
+#include <robux/regmap.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/wait.h>
 
 #define PWM_OUT_VAL(x)	(0x00 + (4 * (x))) /* Device's Duty Cycle register */
 #define PWM_CPT_VAL(x)	(0x10 + (4 * (x))) /* Capture value */

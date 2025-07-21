@@ -6,15 +6,15 @@
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation.
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/net_tstamp.h>
-#include <linux/timekeeping.h>
-#include <linux/ptp_classify.h>
-#include <linux/clocksource.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/net_tstamp.h>
+#include <robux/timekeeping.h>
+#include <robux/ptp_classify.h>
+#include <robux/clocksource.h>
 #include "bnxt_hsi.h"
 #include "bnxt.h"
 #include "bnxt_hwrm.h"

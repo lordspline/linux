@@ -36,8 +36,8 @@
  *
  */
 
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 #include "agent.h"
 #include "smi.h"

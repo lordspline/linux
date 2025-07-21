@@ -4,14 +4,14 @@
  * Copyright (c) 2019-2020 Marvell International Ltd.
  */
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/byteorder.h>
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <robux/bitops.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
 #include "qed.h"
-#include <linux/qed/qed_chain.h>
+#include <robux/qed/qed_chain.h>
 #include "qed_cxt.h"
 #include "qed_dcbx.h"
 #include "qed_hsi.h"

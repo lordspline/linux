@@ -2,13 +2,13 @@
 /*
  * IO definitions for the Hexagon architecture
  *
- * Copyright (c) 2010-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2013, The Robux Foundation. All rights reserved.
  */
 
 #ifndef _ASM_IO_H
 #define _ASM_IO_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/page.h>
 #include <asm/cacheflush.h>
 

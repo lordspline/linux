@@ -3,11 +3,11 @@
  * Copyright 2008 Freescale Semiconductor, Inc.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
 
 #include <asm/mpic.h>
 #include <asm/i8259.h>

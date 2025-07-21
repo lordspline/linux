@@ -4,10 +4,10 @@
 
 import gdb
 
-from linux import constants
-from linux import cpus
-from linux import utils
-from linux import mapletree
+from robux import constants
+from robux import cpus
+from robux import utils
+from robux import mapletree
 
 irq_desc_type = utils.CachedType("struct irq_desc")
 

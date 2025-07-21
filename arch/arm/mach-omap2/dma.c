@@ -18,16 +18,16 @@
  *	- G, Manjunath Kondaiah <manjugk@ti.com>
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/of.h>
-#include <linux/omap-dma.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/of.h>
+#include <robux/omap-dma.h>
 
 #include "soc.h"
 #include "common.h"

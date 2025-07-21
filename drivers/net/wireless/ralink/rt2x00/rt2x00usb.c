@@ -11,11 +11,11 @@
 	Abstract: rt2x00 generic usb device routines.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/bug.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/bug.h>
 
 #include "rt2x00.h"
 #include "rt2x00usb.h"

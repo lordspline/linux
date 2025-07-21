@@ -9,8 +9,8 @@
 #ifndef _PLATFORM_PROFILE_H_
 #define _PLATFORM_PROFILE_H_
 
-#include <linux/device.h>
-#include <linux/bitops.h>
+#include <robux/device.h>
+#include <robux/bitops.h>
 
 /*
  * If more options are added please update profile_names array in

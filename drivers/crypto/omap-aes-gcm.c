@@ -13,15 +13,15 @@
 #include <crypto/internal/aead.h>
 #include <crypto/scatterwalk.h>
 #include <crypto/skcipher.h>
-#include <linux/errno.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/omap-dma.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
-#include <linux/string.h>
+#include <robux/errno.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/omap-dma.h>
+#include <robux/pm_runtime.h>
+#include <robux/scatterlist.h>
+#include <robux/string.h>
 
 #include "omap-crypto.h"
 #include "omap-aes.h"

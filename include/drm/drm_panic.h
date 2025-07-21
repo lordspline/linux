@@ -8,9 +8,9 @@
 #ifndef __DRM_PANIC_H__
 #define __DRM_PANIC_H__
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/iosys-map.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/iosys-map.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_fourcc.h>

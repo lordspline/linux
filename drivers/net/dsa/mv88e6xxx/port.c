@@ -4,16 +4,16 @@
  *
  * Copyright (c) 2008 Marvell Semiconductor
  *
- * Copyright (c) 2016-2017 Savoir-faire Linux Inc.
+ * Copyright (c) 2016-2017 Savoir-faire Robux Inc.
  *	Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/if_bridge.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/property.h>
-#include <linux/string_choices.h>
+#include <robux/bitfield.h>
+#include <robux/if_bridge.h>
+#include <robux/phy.h>
+#include <robux/phylink.h>
+#include <robux/property.h>
+#include <robux/string_choices.h>
 
 #include "chip.h"
 #include "global2.h"

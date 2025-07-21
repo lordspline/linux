@@ -7,15 +7,15 @@
  * Based on mtk_wdt.c
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
-#include <uapi/linux/psci.h>
+#include <robux/arm-smccc.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
+#include <robux/watchdog.h>
+#include <uapi/robux/psci.h>
 
 #define DRV_NAME		"arm_smc_wdt"
 #define DRV_VERSION		"1.0"

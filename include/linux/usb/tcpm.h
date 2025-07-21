@@ -6,8 +6,8 @@
 #ifndef __LINUX_USB_TCPM_H
 #define __LINUX_USB_TCPM_H
 
-#include <linux/bitops.h>
-#include <linux/usb/typec.h>
+#include <robux/bitops.h>
+#include <robux/usb/typec.h>
 #include "pd.h"
 
 enum typec_cc_status {

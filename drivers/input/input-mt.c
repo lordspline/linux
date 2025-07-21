@@ -5,9 +5,9 @@
  * Copyright (c) 2008-2010 Henrik Rydberg
  */
 
-#include <linux/input/mt.h>
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <robux/input/mt.h>
+#include <robux/export.h>
+#include <robux/slab.h>
 #include "input-core-private.h"
 
 #define TRKID_SGN	((TRKID_MAX + 1) >> 1)

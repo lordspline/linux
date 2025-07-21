@@ -5,19 +5,19 @@
  * Copyright (C) 1999, 2000 Jakub Jelinek (jakub@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-map-ops.h>
-#include <linux/errno.h>
-#include <linux/iommu-helper.h>
-#include <linux/bitmap.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-map-ops.h>
+#include <robux/errno.h>
+#include <robux/iommu-helper.h>
+#include <robux/bitmap.h>
 #include <asm/iommu-common.h>
 
 #ifdef CONFIG_PCI
-#include <linux/pci.h>
+#include <robux/pci.h>
 #endif
 
 #include <asm/iommu.h>

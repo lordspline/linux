@@ -6,10 +6,10 @@
  * Copyright (C) 2021 Sifive.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/cpu.h>
-#include <linux/uaccess.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/cpu.h>
+#include <robux/uaccess.h>
 #include <asm/alternative.h>
 #include <asm/module.h>
 #include <asm/sections.h>

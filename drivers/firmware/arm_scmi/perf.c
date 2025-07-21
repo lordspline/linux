@@ -7,17 +7,17 @@
 
 #define pr_fmt(fmt) "SCMI Notifications PERF - " fmt
 
-#include <linux/bits.h>
-#include <linux/hashtable.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/scmi_protocol.h>
-#include <linux/sort.h>
-#include <linux/xarray.h>
+#include <robux/bits.h>
+#include <robux/hashtable.h>
+#include <robux/io.h>
+#include <robux/log2.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/scmi_protocol.h>
+#include <robux/sort.h>
+#include <robux/xarray.h>
 
 #include <trace/events/scmi.h>
 

@@ -7,8 +7,8 @@
 #define __LOCAL_ST21NFCA_H_
 
 #include <net/nfc/hci.h>
-#include <linux/skbuff.h>
-#include <linux/workqueue.h>
+#include <robux/skbuff.h>
+#include <robux/workqueue.h>
 
 #define HCI_MODE 0
 

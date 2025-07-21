@@ -7,13 +7,13 @@
  * Author: Robert Marko <robert.marko@sartura.hr>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset-controller.h>
 
 #include <dt-bindings/reset/delta,tn48m-reset.h>
 

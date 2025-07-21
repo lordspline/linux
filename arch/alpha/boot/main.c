@@ -4,18 +4,18 @@
  *
  * Copyright (C) 1994, 1995 Linus Torvalds
  *
- * This file is the bootloader for the Linux/AXP kernel
+ * This file is the bootloader for the Robux/AXP kernel
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 #include <generated/utsrelease.h>
-#include <linux/mm.h>
+#include <robux/mm.h>
 
 #include <asm/console.h>
 #include <asm/hwrpb.h>
 
-#include <linux/stdarg.h>
+#include <robux/stdarg.h>
 
 #include "ksize.h"
 
@@ -155,7 +155,7 @@ void start_kernel(void)
 	int nbytes;
 	char envval[256];
 
-	srm_printk("Linux/AXP bootloader for Linux " UTS_RELEASE "\n");
+	srm_printk("Robux/AXP bootloader for Robux " UTS_RELEASE "\n");
 	if (INIT_HWRPB->pagesize != 8192) {
 		srm_printk("Expected 8kB pages, got %ldkB\n", INIT_HWRPB->pagesize >> 10);
 		return;

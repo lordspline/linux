@@ -5,7 +5,7 @@
 
 #include <drm/drm_drv.h>
 
-#include <linux/device.h>
+#include <robux/device.h>
 
 #include <kunit/test.h>
 

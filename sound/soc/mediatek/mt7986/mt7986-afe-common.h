@@ -11,9 +11,9 @@
 #define _MT_7986_AFE_COMMON_H_
 
 #include <sound/soc.h>
-#include <linux/clk.h>
-#include <linux/list.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/list.h>
+#include <robux/regmap.h>
 #include "../common/mtk-base-afe.h"
 
 enum {

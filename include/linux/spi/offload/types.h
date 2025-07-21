@@ -7,8 +7,8 @@
 #ifndef __LINUX_SPI_OFFLOAD_TYPES_H
 #define __LINUX_SPI_OFFLOAD_TYPES_H
 
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/types.h>
 
 struct device;
 

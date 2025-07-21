@@ -2,7 +2,7 @@
 #ifndef _LINUX_EARLYCPIO_H
 #define _LINUX_EARLYCPIO_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define MAX_CPIO_FILE_NAME 18
 

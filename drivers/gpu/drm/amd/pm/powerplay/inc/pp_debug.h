@@ -30,9 +30,9 @@
 
 #define pr_fmt(fmt) "amdgpu: [powerplay] " fmt
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
 
 #define PP_ASSERT_WITH_CODE(cond, msg, code)	\
 	do {					\

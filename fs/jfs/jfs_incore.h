@@ -6,11 +6,11 @@
 #ifndef _H_JFS_INCORE
 #define _H_JFS_INCORE
 
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/uuid.h>
+#include <robux/mutex.h>
+#include <robux/rwsem.h>
+#include <robux/slab.h>
+#include <robux/bitops.h>
+#include <robux/uuid.h>
 
 #include "jfs_types.h"
 #include "jfs_xtree.h"

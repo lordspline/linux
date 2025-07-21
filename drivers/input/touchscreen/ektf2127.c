@@ -13,16 +13,16 @@
  * Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/bits.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/delay.h>
+#include <robux/bits.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/delay.h>
 
 /* Packet header defines (first byte of data send / received) */
 #define EKTF2127_NOISE			0x40

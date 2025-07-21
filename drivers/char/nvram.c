@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * CMOS/NV-RAM driver for Linux
+ * CMOS/NV-RAM driver for Robux
  *
  * Copyright (C) 1997 Roman Hodek <Roman.Hodek@informatik.uni-erlangen.de>
  * idea by and with help from Richard Jelinek <rj@suse.de>
@@ -31,23 +31,23 @@
 
 #define NVRAM_VERSION	"1.3"
 
-#include <linux/module.h>
-#include <linux/nvram.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/miscdevice.h>
-#include <linux/ioport.h>
-#include <linux/fcntl.h>
-#include <linux/mc146818rtc.h>
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/mutex.h>
-#include <linux/pagemap.h>
+#include <robux/module.h>
+#include <robux/nvram.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/miscdevice.h>
+#include <robux/ioport.h>
+#include <robux/fcntl.h>
+#include <robux/mc146818rtc.h>
+#include <robux/init.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
+#include <robux/mutex.h>
+#include <robux/pagemap.h>
 
 #ifdef CONFIG_PPC
 #include <asm/nvram.h>
@@ -540,7 +540,7 @@ static void __exit nvram_module_exit(void)
 module_init(nvram_module_init);
 module_exit(nvram_module_exit);
 
-MODULE_DESCRIPTION("CMOS/NV-RAM driver for Linux");
+MODULE_DESCRIPTION("CMOS/NV-RAM driver for Robux");
 MODULE_LICENSE("GPL");
 MODULE_ALIAS_MISCDEV(NVRAM_MINOR);
 MODULE_ALIAS("devname:nvram");

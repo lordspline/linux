@@ -6,19 +6,19 @@
  * Copyright (c) 2011 H Hartley Sweeten <hsweeten@visionengravers.com>
  *
  * Based on code originally from:
- *  linux/arch/arm/mach-ep93xx/core.c
+ *  robux/arch/arm/mach-ep93xx/core.c
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/gpio/driver.h>
-#include <linux/bitops.h>
-#include <linux/seq_file.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/slab.h>
+#include <robux/gpio/driver.h>
+#include <robux/bitops.h>
+#include <robux/seq_file.h>
 
 struct ep93xx_gpio_irq_chip {
 	void __iomem *base;

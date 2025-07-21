@@ -11,12 +11,12 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/ahci_platform.h>
-#include <linux/kernel.h>
-#include <linux/mbus.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/ahci_platform.h>
+#include <robux/kernel.h>
+#include <robux/mbus.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 #include "ahci.h"
 
 #define DRV_NAME "ahci-mvebu"

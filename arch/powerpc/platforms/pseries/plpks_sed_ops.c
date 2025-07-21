@@ -9,11 +9,11 @@
  * Self Encrypting Drives(SED) key storage using PLPKS
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/ioctl.h>
-#include <linux/sed-opal-key.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/ioctl.h>
+#include <robux/sed-opal-key.h>
 #include <asm/plpks.h>
 
 static bool plpks_sed_initialized = false;

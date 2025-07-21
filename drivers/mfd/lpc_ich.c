@@ -38,17 +38,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/align.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/acpi.h>
-#include <linux/pci.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/lpc_ich.h>
-#include <linux/platform_data/itco_wdt.h>
-#include <linux/platform_data/x86/p2sb.h>
+#include <robux/align.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/acpi.h>
+#include <robux/pci.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/lpc_ich.h>
+#include <robux/platform_data/itco_wdt.h>
+#include <robux/platform_data/x86/p2sb.h>
 
 #define ACPIBASE		0x40
 #define ACPIBASE_GPE_OFF	0x28

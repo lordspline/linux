@@ -5,7 +5,7 @@
  */
 #include "fnic.h"
 #include "fip.h"
-#include <linux/etherdevice.h>
+#include <robux/etherdevice.h>
 
 #define FIP_FNIC_RESET_WAIT_COUNT 15
 

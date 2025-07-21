@@ -3,14 +3,14 @@
  * Copyright (C) 2018-2019 Linaro Ltd.
  */
 
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/hw_random.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/tee_drv.h>
-#include <linux/uuid.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/hw_random.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/tee_drv.h>
+#include <robux/uuid.h>
 
 #define DRIVER_NAME "optee-rng"
 

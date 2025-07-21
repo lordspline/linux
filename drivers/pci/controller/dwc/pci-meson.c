@@ -6,17 +6,17 @@
  * Author: Yue Wang <yue.wang@amlogic.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/resource.h>
-#include <linux/types.h>
-#include <linux/phy/phy.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/resource.h>
+#include <robux/types.h>
+#include <robux/phy/phy.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
 
 #include "pcie-designware.h"
 

@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/alpha/kernel/signal.c
+ *  robux/arch/alpha/kernel/signal.c
  *
  *  Copyright (C) 1995  Linus Torvalds
  *
  *  1997-11-02  Modified for POSIX.1b signals by Richard Henderson
  */
 
-#include <linux/sched/signal.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/ptrace.h>
-#include <linux/unistd.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/tty.h>
-#include <linux/binfmts.h>
-#include <linux/bitops.h>
-#include <linux/syscalls.h>
-#include <linux/resume_user_mode.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/task_stack.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/errno.h>
+#include <robux/wait.h>
+#include <robux/ptrace.h>
+#include <robux/unistd.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/stddef.h>
+#include <robux/tty.h>
+#include <robux/binfmts.h>
+#include <robux/bitops.h>
+#include <robux/syscalls.h>
+#include <robux/resume_user_mode.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/sigcontext.h>
 #include <asm/ucontext.h>
 

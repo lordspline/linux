@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (C) 2023 Intel Corporation. All rights reserved.
- * Intel Visual Sensing Controller ACE Linux driver
+ * Intel Visual Sensing Controller ACE Robux driver
  */
 
 /*
@@ -18,17 +18,17 @@
  * already powered up by firmware.
  */
 
-#include <linux/acpi.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/mei_cl_bus.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/uuid.h>
-#include <linux/workqueue.h>
+#include <robux/acpi.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/mei_cl_bus.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/uuid.h>
+#include <robux/workqueue.h>
 
 /* indicating driver message */
 #define	ACE_DRV_MSG		1

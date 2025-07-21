@@ -8,8 +8,8 @@
  *
  */
 
-#include <linux/cpu.h>
-#include <linux/pci.h>
+#include <robux/cpu.h>
+#include <robux/pci.h>
 
 #include "core.h"
 

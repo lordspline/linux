@@ -5,8 +5,8 @@
  * and onward.
  */
 
-#include <linux/export.h>
-#include <linux/linkage.h>
+#include <robux/export.h>
+#include <robux/linkage.h>
 
 	.text
 	.register	%g2, #scratch

@@ -4,8 +4,8 @@
  * stmmac XGMAC support.
  */
 
-#include <linux/bitfield.h>
-#include <linux/stmmac.h>
+#include <robux/bitfield.h>
+#include <robux/stmmac.h>
 #include "common.h"
 #include "dwxgmac2.h"
 

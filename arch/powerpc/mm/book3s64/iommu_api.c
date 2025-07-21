@@ -5,19 +5,19 @@
  *  Copyright (C) 2015 IBM Corp. <aik@ozlabs.ru>
  */
 
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/rculist.h>
-#include <linux/vmalloc.h>
-#include <linux/mutex.h>
-#include <linux/migrate.h>
-#include <linux/hugetlb.h>
-#include <linux/swap.h>
-#include <linux/sizes.h>
-#include <linux/mm.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/rculist.h>
+#include <robux/vmalloc.h>
+#include <robux/mutex.h>
+#include <robux/migrate.h>
+#include <robux/hugetlb.h>
+#include <robux/swap.h>
+#include <robux/sizes.h>
+#include <robux/mm.h>
 #include <asm/mmu_context.h>
 #include <asm/pte-walk.h>
-#include <linux/mm_inline.h>
+#include <robux/mm_inline.h>
 
 static DEFINE_MUTEX(mem_list_mutex);
 

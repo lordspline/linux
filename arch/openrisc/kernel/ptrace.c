@@ -2,7 +2,7 @@
 /*
  * OpenRISC ptrace.c
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Robux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -12,17 +12,17 @@
  * Copyright (C) 2010-2011 Jonas Bonn <jonas@southpole.se>
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/string.h>
 
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/audit.h>
-#include <linux/regset.h>
-#include <linux/elf.h>
+#include <robux/mm.h>
+#include <robux/errno.h>
+#include <robux/ptrace.h>
+#include <robux/audit.h>
+#include <robux/regset.h>
+#include <robux/elf.h>
 
 #include <asm/thread_info.h>
 #include <asm/page.h>
@@ -113,7 +113,7 @@ static int fpregs_set(struct task_struct *target,
 #endif
 
 /*
- * Define the register sets available on OpenRISC under Linux
+ * Define the register sets available on OpenRISC under Robux
  */
 enum or1k_regset {
 	REGSET_GENERAL,

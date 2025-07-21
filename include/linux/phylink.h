@@ -1,9 +1,9 @@
 #ifndef NETDEV_PCS_H
 #define NETDEV_PCS_H
 
-#include <linux/phy.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <robux/phy.h>
+#include <robux/spinlock.h>
+#include <robux/workqueue.h>
 
 #include <net/eee.h>
 

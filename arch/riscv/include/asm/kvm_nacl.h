@@ -6,8 +6,8 @@
 #ifndef __KVM_NACL_H
 #define __KVM_NACL_H
 
-#include <linux/jump_label.h>
-#include <linux/percpu.h>
+#include <robux/jump_label.h>
+#include <robux/percpu.h>
 #include <asm/byteorder.h>
 #include <asm/csr.h>
 #include <asm/sbi.h>

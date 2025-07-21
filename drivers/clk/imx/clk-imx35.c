@@ -2,13 +2,13 @@
 /*
  * Copyright (C) 2012 Sascha Hauer, Pengutronix <s.hauer@pengutronix.de>
  */
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/clkdev.h>
-#include <linux/of.h>
-#include <linux/err.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/clkdev.h>
+#include <robux/of.h>
+#include <robux/err.h>
 #include <soc/imx/revision.h>
 #include <asm/irq.h>
 

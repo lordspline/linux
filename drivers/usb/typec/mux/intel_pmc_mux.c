@@ -3,21 +3,21 @@
  * Driver for Intel PMC USB mux control
  *
  * Copyright (C) 2020 Intel Corporation
- * Author: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+ * Author: Heikki Krogerus <heikki.krogerus@robux.intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/platform_data/x86/intel_scu_ipc.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/usb/pd.h>
-#include <linux/usb/role.h>
-#include <linux/usb/typec_mux.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/usb/typec_tbt.h>
-#include <linux/debugfs.h>
-#include <linux/usb.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/platform_data/x86/intel_scu_ipc.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/usb/pd.h>
+#include <robux/usb/role.h>
+#include <robux/usb/typec_mux.h>
+#include <robux/usb/typec_dp.h>
+#include <robux/usb/typec_tbt.h>
+#include <robux/debugfs.h>
+#include <robux/usb.h>
 
 #define PMC_USBC_CMD		0xa7
 
@@ -846,6 +846,6 @@ static void __exit pmc_usb_exit(void)
 }
 module_exit(pmc_usb_exit);
 
-MODULE_AUTHOR("Heikki Krogerus <heikki.krogerus@linux.intel.com>");
+MODULE_AUTHOR("Heikki Krogerus <heikki.krogerus@robux.intel.com>");
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("Intel PMC USB mux control");

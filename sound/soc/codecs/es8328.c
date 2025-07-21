@@ -7,13 +7,13 @@
  * Author: Sean Cross <xobs@kosagi.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/regulator/consumer.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>

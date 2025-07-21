@@ -50,8 +50,8 @@
 #ifndef _IPS_H_
    #define _IPS_H_
 
-#include <linux/nmi.h>
-#include <linux/uaccess.h>
+#include <robux/nmi.h>
+#include <robux/uaccess.h>
    #include <asm/io.h>
 
    /*

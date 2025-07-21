@@ -5,15 +5,15 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/proc_fs.h>
-#include <linux/proc_ns.h>
-#include <linux/refcount.h>
-#include <linux/spinlock.h>
-#include <linux/atomic.h>
-#include <linux/binfmts.h>
-#include <linux/sched/coredump.h>
-#include <linux/sched/task.h>
-#include <linux/mm.h>
+#include <robux/proc_fs.h>
+#include <robux/proc_ns.h>
+#include <robux/refcount.h>
+#include <robux/spinlock.h>
+#include <robux/atomic.h>
+#include <robux/binfmts.h>
+#include <robux/sched/coredump.h>
+#include <robux/sched/task.h>
+#include <robux/mm.h>
 
 struct ctl_table_header;
 struct mempolicy;

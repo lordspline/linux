@@ -2,8 +2,8 @@
 #ifndef LINUX_EXPORTFS_H
 #define LINUX_EXPORTFS_H 1
 
-#include <linux/types.h>
-#include <linux/path.h>
+#include <robux/types.h>
+#include <robux/path.h>
 
 struct dentry;
 struct iattr;

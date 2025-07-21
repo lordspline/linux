@@ -17,14 +17,14 @@
 #ifndef ATH9K_H
 #define ATH9K_H
 
-#include <linux/etherdevice.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/kstrtox.h>
-#include <linux/leds.h>
-#include <linux/completion.h>
-#include <linux/time.h>
-#include <linux/hw_random.h>
+#include <robux/etherdevice.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/kstrtox.h>
+#include <robux/leds.h>
+#include <robux/completion.h>
+#include <robux/time.h>
+#include <robux/hw_random.h>
 
 #include "common.h"
 #include "debug.h"

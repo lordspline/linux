@@ -7,19 +7,19 @@
  * Author: David Dajun Chen <dchen@diasemi.com>
  */
 
-#include <linux/delay.h>
-#include <linux/freezer.h>
-#include <linux/fs.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/timer.h>
-#include <linux/uaccess.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
+#include <robux/delay.h>
+#include <robux/freezer.h>
+#include <robux/fs.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/timer.h>
+#include <robux/uaccess.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
 
-#include <linux/mfd/da9052/da9052.h>
-#include <linux/mfd/da9052/pdata.h>
-#include <linux/mfd/da9052/reg.h>
+#include <robux/mfd/da9052/da9052.h>
+#include <robux/mfd/da9052/pdata.h>
+#include <robux/mfd/da9052/reg.h>
 
 /* STATIC CONFIGURATION */
 #define DA9052_BAT_CUTOFF_VOLT		2800

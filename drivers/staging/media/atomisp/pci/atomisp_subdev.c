@@ -4,13 +4,13 @@
  *
  * Copyright (c) 2010 Intel Corporation. All Rights Reserved.
  */
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 
 #include <media/v4l2-event.h>
 #include <media/v4l2-mediabus.h>

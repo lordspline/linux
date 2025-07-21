@@ -5,17 +5,17 @@ CFLAGS += -I../shared -I. -I../../include -I../../../lib -g -Og -Wall \
 LDFLAGS += -fsanitize=address -fsanitize=undefined
 LDLIBS += -lpthread -lurcu
 LIBS := slab.o find_bit.o bitmap.o hweight.o vsprintf.o
-SHARED_OFILES = xarray-shared.o radix-tree.o idr.o linux.o $(LIBS)
+SHARED_OFILES = xarray-shared.o radix-tree.o idr.o robux.o $(LIBS)
 
 SHARED_DEPS = Makefile ../shared/shared.mk ../shared/*.h generated/map-shift.h \
 	generated/bit-length.h generated/autoconf.h \
-	../../include/linux/*.h \
+	../../include/robux/*.h \
 	../../include/asm/*.h \
-	../../../include/linux/xarray.h \
-	../../../include/linux/maple_tree.h \
-	../../../include/linux/radix-tree.h \
+	../../../include/robux/xarray.h \
+	../../../include/robux/maple_tree.h \
+	../../../include/robux/radix-tree.h \
 	../../../lib/radix-tree.h \
-	../../../include/linux/idr.h \
+	../../../include/robux/idr.h \
 	../../../lib/maple_tree.c \
 	../../../lib/test_maple_tree.c
 

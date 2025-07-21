@@ -11,7 +11,7 @@
 #ifndef __PLAT_S3C_FB_H
 #define __PLAT_S3C_FB_H __FILE__
 
-#include <linux/platform_data/video_s3c.h>
+#include <robux/platform_data/video_s3c.h>
 
 /**
  * s3c_fb_set_platdata() - Setup the FB device with platform data.

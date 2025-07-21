@@ -6,19 +6,19 @@
  *	Dave Gerlach
  */
 
-#include <linux/cpuidle.h>
-#include <linux/platform_data/pm33xx.h>
-#include <linux/suspend.h>
+#include <robux/cpuidle.h>
+#include <robux/platform_data/pm33xx.h>
+#include <robux/suspend.h>
 #include <asm/cpuidle.h>
 #include <asm/smp_scu.h>
 #include <asm/suspend.h>
-#include <linux/errno.h>
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/platform_data/gpio-omap.h>
-#include <linux/wkup_m3_ipc.h>
-#include <linux/of.h>
-#include <linux/rtc.h>
+#include <robux/errno.h>
+#include <robux/clk.h>
+#include <robux/cpu.h>
+#include <robux/platform_data/gpio-omap.h>
+#include <robux/wkup_m3_ipc.h>
+#include <robux/of.h>
+#include <robux/rtc.h>
 
 #include "cm33xx.h"
 #include "common.h"

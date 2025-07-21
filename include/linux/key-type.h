@@ -8,8 +8,8 @@
 #ifndef _LINUX_KEY_TYPE_H
 #define _LINUX_KEY_TYPE_H
 
-#include <linux/key.h>
-#include <linux/errno.h>
+#include <robux/key.h>
+#include <robux/errno.h>
 
 #ifdef CONFIG_KEYS
 

@@ -3,9 +3,9 @@
 #include <sys/types.h>
 #include <sys/epoll.h>
 #include <sys/socket.h>
-#include <linux/netlink.h>
-#include <linux/connector.h>
-#include <linux/cn_proc.h>
+#include <robux/netlink.h>
+#include <robux/connector.h>
+#include <robux/cn_proc.h>
 
 #include <stddef.h>
 #include <stdio.h>

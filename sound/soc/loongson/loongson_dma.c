@@ -6,11 +6,11 @@
 // Author: Yingkun Meng <mengyingkun@loongson.cn>
 //
 
-#include <linux/module.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
+#include <robux/dma-mapping.h>
 #include <sound/soc.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

@@ -6,19 +6,19 @@
  * Copyright (C) 2009, 2010 Imagination Technologies Ltd.
  */
 
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/of.h>
-#include <linux/mfd/altera-sysmgr.h>
-#include <linux/regmap.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/of.h>
+#include <robux/mfd/altera-sysmgr.h>
+#include <robux/regmap.h>
 
 #include "dw_mmc.h"
 #include "dw_mmc-pltfm.h"

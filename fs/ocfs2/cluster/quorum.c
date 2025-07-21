@@ -27,9 +27,9 @@
  * with a counter.  As they fall out of this transition they drop the count
  * and if they're the last, they fire off the decision.
  */
-#include <linux/kernel.h>
-#include <linux/workqueue.h>
-#include <linux/reboot.h>
+#include <robux/kernel.h>
+#include <robux/workqueue.h>
+#include <robux/reboot.h>
 
 #include "heartbeat.h"
 #include "nodemanager.h"

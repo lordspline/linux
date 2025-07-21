@@ -4,27 +4,27 @@
  *
  * Copyright 2024 Analog Devices Inc.
  */
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/byteorder/generic.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/offload/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
-#include <linux/util_macros.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/byteorder/generic.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spi/offload/consumer.h>
+#include <robux/spi/spi.h>
+#include <robux/units.h>
+#include <robux/util_macros.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/buffer-dmaengine.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
 
 #define AD4000_READ_COMMAND	0x54
 #define AD4000_WRITE_COMMAND	0x14

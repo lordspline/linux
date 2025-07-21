@@ -8,7 +8,7 @@
 #ifndef __RENESAS_RZV2H_CPG_H__
 #define __RENESAS_RZV2H_CPG_H__
 
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 
 /**
  * struct pll - Structure for PLL configuration

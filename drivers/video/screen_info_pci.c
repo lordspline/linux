@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/pci.h>
-#include <linux/printk.h>
-#include <linux/screen_info.h>
-#include <linux/string.h>
+#include <robux/pci.h>
+#include <robux/printk.h>
+#include <robux/screen_info.h>
+#include <robux/string.h>
 
 static struct pci_dev *screen_info_lfb_pdev;
 static size_t screen_info_lfb_bar;

@@ -45,16 +45,16 @@
  * therefore delaying the throughput loss caused by using SMP threads.
  */
 
-#include <linux/cpufeature.h>
-#include <linux/cpumask.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/kernel_stat.h>
-#include <linux/kstrtox.h>
-#include <linux/ktime.h>
-#include <linux/sysctl.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/cpufeature.h>
+#include <robux/cpumask.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/kernel_stat.h>
+#include <robux/kstrtox.h>
+#include <robux/ktime.h>
+#include <robux/sysctl.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 #include <asm/hiperdispatch.h>
 #include <asm/setup.h>
 #include <asm/smp.h>

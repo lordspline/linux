@@ -7,10 +7,10 @@
  * Written by Koji Sato.
  */
 
-#include <linux/types.h>
-#include <linux/buffer_head.h>
-#include <linux/string.h>
-#include <linux/errno.h>
+#include <robux/types.h>
+#include <robux/buffer_head.h>
+#include <robux/string.h>
+#include <robux/errno.h>
 #include "nilfs.h"
 #include "mdt.h"
 #include "alloc.h"

@@ -9,9 +9,9 @@
  *	- 0x53 if ADDR pin HIGH
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
 #include "ens160.h"
 

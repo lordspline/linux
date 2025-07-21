@@ -3,9 +3,9 @@
  * Routines common to most mpc85xx-based boards.
  */
 
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
 
 #include <asm/fsl_pm.h>
 #include <soc/fsl/qe/qe.h>

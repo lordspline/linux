@@ -4,11 +4,11 @@
  * Copyright (C) 2014 ARM Limited
  */
 
-#include <linux/clocksource.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/sched_clock.h>
+#include <robux/clocksource.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/sched_clock.h>
 
 #define SYS_24MHZ 0x05c
 

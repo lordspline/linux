@@ -8,20 +8,20 @@
  * Based on the work of Josef Gajdusek <atx@atx.name>
  */
 
-#include <linux/bitmap.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
+#include <robux/bitmap.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
+#include <robux/thermal.h>
 
 #include "thermal_hwmon.h"
 

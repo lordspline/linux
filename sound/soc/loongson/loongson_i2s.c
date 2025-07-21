@@ -6,14 +6,14 @@
 // Author: Yingkun Meng <mengyingkun@loongson.cn>
 //
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/pm_runtime.h>
-#include <linux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/pm_runtime.h>
+#include <robux/dma-mapping.h>
 #include <sound/soc.h>
-#include <linux/regmap.h>
+#include <robux/regmap.h>
 #include <sound/pcm_params.h>
 #include "loongson_i2s.h"
 

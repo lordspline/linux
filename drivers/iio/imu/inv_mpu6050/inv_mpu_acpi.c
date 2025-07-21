@@ -6,11 +6,11 @@
 
 #ifdef CONFIG_ACPI
 
-#include <linux/kernel.h>
-#include <linux/i2c.h>
-#include <linux/dmi.h>
-#include <linux/acpi.h>
-#include <linux/wordpart.h>
+#include <robux/kernel.h>
+#include <robux/i2c.h>
+#include <robux/dmi.h>
+#include <robux/acpi.h>
+#include <robux/wordpart.h>
 
 #include "inv_mpu_iio.h"
 

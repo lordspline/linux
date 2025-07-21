@@ -3,27 +3,27 @@
  * Copyright (C) 2023 - 2024 Topic Embedded Products
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/log2.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/log2.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/units.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/kfifo_buf.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/kfifo_buf.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 /* Commands */
 #define ADS1298_CMD_WAKEUP	0x02

@@ -5,18 +5,18 @@
  * Copyright (C) 2023 BayLibre Incorporated - https://www.baylibre.com/
  */
 
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/interrupt.h>
+#include <robux/ioctl.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/tps6594.h>
+#include <robux/mfd/tps6594.h>
 
-#include <linux/tps6594_pfsm.h>
+#include <robux/tps6594_pfsm.h>
 
 #define TPS6594_STARTUP_DEST_MCU_ONLY_VAL 2
 #define TPS6594_STARTUP_DEST_ACTIVE_VAL   3

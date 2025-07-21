@@ -4,11 +4,11 @@
  *  Authored by: Mike D. Day <ncmike@us.ibm.com>
  */
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/kobject.h>
-#include <linux/err.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/kobject.h>
+#include <robux/err.h>
 
 #include <asm/xen/hypervisor.h>
 #include <asm/xen/hypercall.h>

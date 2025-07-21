@@ -10,12 +10,12 @@
 #include <drm/drm_managed.h>
 #include <drm/drm_print.h>
 #include <drm/gpu_scheduler.h>
-#include <linux/errno.h>
-#include <linux/firmware.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/pci.h>
-#include <linux/xarray.h>
+#include <robux/errno.h>
+#include <robux/firmware.h>
+#include <robux/iommu.h>
+#include <robux/iopoll.h>
+#include <robux/pci.h>
+#include <robux/xarray.h>
 
 #include "aie2_msg_priv.h"
 #include "aie2_pci.h"

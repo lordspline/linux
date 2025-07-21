@@ -10,7 +10,7 @@
 
 */
 
-#include <linux/i2c.h>
+#include <robux/i2c.h>
 #include <media/dvb_frontend.h>
 #include "au8522_priv.h"
 

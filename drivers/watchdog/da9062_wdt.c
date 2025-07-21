@@ -5,20 +5,20 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/watchdog.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/mfd/da9062/registers.h>
-#include <linux/mfd/da9062/core.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/watchdog.h>
+#include <robux/platform_device.h>
+#include <robux/uaccess.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
+#include <robux/mfd/da9062/registers.h>
+#include <robux/mfd/da9062/core.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/of.h>
 
 static const unsigned int wdt_timeout[] = { 0, 2, 4, 8, 16, 32, 65, 131 };
 #define DA9062_TWDSCALE_DISABLE		0

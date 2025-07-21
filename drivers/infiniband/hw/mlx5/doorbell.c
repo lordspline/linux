@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/kref.h>
-#include <linux/slab.h>
-#include <linux/sched/mm.h>
+#include <robux/kref.h>
+#include <robux/slab.h>
+#include <robux/sched/mm.h>
 #include <rdma/ib_umem.h>
 
 #include "mlx5_ib.h"

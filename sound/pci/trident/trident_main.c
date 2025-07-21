@@ -13,16 +13,16 @@
  *  SiS7018 S/PDIF support by Thomas Winischhofer <thomas@winischhofer.net>
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/gameport.h>
-#include <linux/dma-mapping.h>
-#include <linux/export.h>
-#include <linux/io.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/gameport.h>
+#include <robux/dma-mapping.h>
+#include <robux/export.h>
+#include <robux/io.h>
 
 #include <sound/core.h>
 #include <sound/info.h>

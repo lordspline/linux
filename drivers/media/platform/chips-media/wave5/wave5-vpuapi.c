@@ -5,9 +5,9 @@
  * Copyright (C) 2021-2023 CHIPS&MEDIA INC
  */
 
-#include <linux/bug.h>
-#include <linux/pm_runtime.h>
-#include <linux/delay.h>
+#include <robux/bug.h>
+#include <robux/pm_runtime.h>
+#include <robux/delay.h>
 #include "wave5-vpuapi.h"
 #include "wave5-regdefine.h"
 #include "wave5.h"

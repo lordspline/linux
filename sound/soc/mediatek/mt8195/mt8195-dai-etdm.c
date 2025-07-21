@@ -7,9 +7,9 @@
  *         Trevor Wu <trevor.wu@mediatek.com>
  */
 
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
 #include <sound/pcm_params.h>
 #include "mt8195-afe-clk.h"
 #include "mt8195-afe-common.h"

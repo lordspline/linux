@@ -5,13 +5,13 @@
  * This file contains the /proc/irq/ handling code.
  */
 
-#include <linux/irq.h>
-#include <linux/gfp.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/mutex.h>
+#include <robux/irq.h>
+#include <robux/gfp.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/interrupt.h>
+#include <robux/kernel_stat.h>
+#include <robux/mutex.h>
 
 #include "internals.h"
 

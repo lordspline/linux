@@ -14,18 +14,18 @@
  *	     tighter packing. Prefetchable range support.
  */
 
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/cache.h>
-#include <linux/limits.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/cache.h>
+#include <robux/limits.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
 #include "pci.h"
 
 unsigned int pci_flags;

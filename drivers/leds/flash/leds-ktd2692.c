@@ -6,16 +6,16 @@
  * Ingi Kim <ingi2.kim@samsung.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/leds-expresswire.h>
-#include <linux/led-class-flash.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/leds-expresswire.h>
+#include <robux/led-class-flash.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
 
 /* Value related the movie mode */
 #define KTD2692_MOVIE_MODE_CURRENT_LEVELS	16

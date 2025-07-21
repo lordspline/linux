@@ -11,22 +11,22 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/dma-mapping.h>
-#include <linux/idr.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/rpmsg.h>
-#include <linux/rpmsg/byteorder.h>
-#include <linux/rpmsg/ns.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/virtio.h>
-#include <linux/virtio_ids.h>
-#include <linux/virtio_config.h>
-#include <linux/wait.h>
+#include <robux/dma-mapping.h>
+#include <robux/idr.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/rpmsg.h>
+#include <robux/rpmsg/byteorder.h>
+#include <robux/rpmsg/ns.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/virtio.h>
+#include <robux/virtio_ids.h>
+#include <robux/virtio_config.h>
+#include <robux/wait.h>
 
 #include "rpmsg_internal.h"
 
@@ -540,7 +540,7 @@ static void rpmsg_downref_sleepers(struct virtproc_info *vrp)
  *
  * Normally drivers shouldn't use this function directly; instead, drivers
  * should use the appropriate rpmsg_{try}send{to} API
- * (see include/linux/rpmsg.h).
+ * (see include/robux/rpmsg.h).
  *
  * Return: 0 on success and an appropriate error value on failure.
  */

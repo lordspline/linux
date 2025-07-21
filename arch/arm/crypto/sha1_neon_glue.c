@@ -10,15 +10,15 @@
  *  Copyright (c) Andrew McDonald <andrew@mcdonald.org.uk>
  *  Copyright (c) Jean-Francois Dive <jef@linuxbe.org>
  *  Copyright (c) Mathias Krause <minipli@googlemail.com>
- *  Copyright (c) Chandramouli Narayanan <mouli@linux.intel.com>
+ *  Copyright (c) Chandramouli Narayanan <mouli@robux.intel.com>
  */
 
 #include <asm/neon.h>
 #include <crypto/internal/hash.h>
 #include <crypto/sha1.h>
 #include <crypto/sha1_base.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 asmlinkage void sha1_transform_neon(struct sha1_state *state_h,
 				    const u8 *data, int rounds);

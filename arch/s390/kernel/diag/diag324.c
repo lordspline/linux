@@ -8,18 +8,18 @@
  */
 
 #define pr_fmt(fmt)	"diag324: " fmt
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/ioctl.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
+#include <robux/fs.h>
+#include <robux/gfp.h>
+#include <robux/ioctl.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/ktime.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
+#include <robux/vmalloc.h>
 
 #include <asm/diag.h>
 #include <asm/sclp.h>

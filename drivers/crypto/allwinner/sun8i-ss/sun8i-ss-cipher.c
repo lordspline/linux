@@ -11,11 +11,11 @@
  * You could find a link for the datasheet in Documentation/arch/arm/sunxi.rst
  */
 
-#include <linux/bottom_half.h>
-#include <linux/crypto.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
+#include <robux/bottom_half.h>
+#include <robux/crypto.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/pm_runtime.h>
 #include <crypto/scatterwalk.h>
 #include <crypto/internal/skcipher.h>
 #include "sun8i-ss.h"

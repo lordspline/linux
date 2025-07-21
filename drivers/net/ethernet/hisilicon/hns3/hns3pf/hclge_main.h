@@ -3,11 +3,11 @@
 
 #ifndef __HCLGE_MAIN_H
 #define __HCLGE_MAIN_H
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/phy.h>
-#include <linux/if_vlan.h>
-#include <linux/kfifo.h>
+#include <robux/fs.h>
+#include <robux/types.h>
+#include <robux/phy.h>
+#include <robux/if_vlan.h>
+#include <robux/kfifo.h>
 
 #include <net/devlink.h>
 #include <net/ipv6.h>

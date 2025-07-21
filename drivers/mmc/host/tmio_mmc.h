@@ -14,14 +14,14 @@
 #ifndef TMIO_MMC_H
 #define TMIO_MMC_H
 
-#include <linux/dmaengine.h>
-#include <linux/highmem.h>
-#include <linux/mutex.h>
-#include <linux/pagemap.h>
-#include <linux/scatterlist.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
+#include <robux/dmaengine.h>
+#include <robux/highmem.h>
+#include <robux/mutex.h>
+#include <robux/pagemap.h>
+#include <robux/scatterlist.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
 
 #define CTL_SD_CMD 0x00
 #define CTL_ARG_REG 0x04

@@ -8,18 +8,18 @@
 /*
  * This file contains the common interrupt handlers
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
 
-#include <linux/usb/hcd.h>
-#include <linux/usb/ch11.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/ch11.h>
 
 #include "core.h"
 #include "hcd.h"
@@ -179,7 +179,7 @@ static void dwc2_handle_otg_intr(struct dwc2_hsotg *hsotg)
 				 * if host mode is already set. The HCD
 				 * interrupt handler won't get called if the
 				 * HCD state is HALT. This means that the
-				 * interrupt does not get handled and Linux
+				 * interrupt does not get handled and Robux
 				 * complains loudly.
 				 */
 				gintmsk = dwc2_readl(hsotg, GINTMSK);

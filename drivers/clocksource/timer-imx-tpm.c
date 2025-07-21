@@ -3,12 +3,12 @@
 // Copyright 2016 Freescale Semiconductor, Inc.
 // Copyright 2017 NXP
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/sched_clock.h>
+#include <robux/clk.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/sched_clock.h>
 
 #include "timer-of.h"
 

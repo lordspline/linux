@@ -9,10 +9,10 @@
 #ifndef __U_UAC1_LEGACY_H
 #define __U_UAC1_LEGACY_H
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/usb/audio.h>
-#include <linux/usb/composite.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/usb/audio.h>
+#include <robux/usb/composite.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

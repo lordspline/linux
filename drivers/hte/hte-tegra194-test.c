@@ -5,15 +5,15 @@
  * Author: Dipen Patel <dipenp@nvidia.com>
  */
 
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/hte.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/hte.h>
+#include <robux/interrupt.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/timer.h>
+#include <robux/workqueue.h>
 
 /*
  * This sample HTE test driver demonstrates HTE API usage by enabling

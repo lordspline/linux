@@ -17,11 +17,11 @@
 #include <drm/drm_drv.h>
 #include <drm/drm_managed.h>
 #include <drm/drm_mm.h>
-#include <linux/clk.h>
-#include <linux/firmware.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/sizes.h>
+#include <robux/clk.h>
+#include <robux/firmware.h>
+#include <robux/math.h>
+#include <robux/minmax.h>
+#include <robux/sizes.h>
 
 #define FW_MAX_SUPPORTED_MAJOR_VERSION 1
 

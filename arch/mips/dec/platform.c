@@ -5,10 +5,10 @@
  *	Copyright (c) 2014  Maciej W. Rozycki
  */
 
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/mc146818rtc.h>
-#include <linux/platform_device.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/mc146818rtc.h>
+#include <robux/platform_device.h>
 
 static struct resource dec_rtc_resources[] = {
 	{

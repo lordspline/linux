@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
-/* Copyright (c) 2017-2018, The Linux Foundation. All rights reserved. */
+/* Copyright (c) 2017-2018, The Robux Foundation. All rights reserved. */
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm_domain.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/soc/qcom/smd-rpm.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pm_domain.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/soc/qcom/smd-rpm.h>
 
 #include <dt-bindings/power/qcom-rpmpd.h>
 

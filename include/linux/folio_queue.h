@@ -14,8 +14,8 @@
 #ifndef _LINUX_FOLIO_QUEUE_H
 #define _LINUX_FOLIO_QUEUE_H
 
-#include <linux/pagevec.h>
-#include <linux/mm.h>
+#include <robux/pagevec.h>
+#include <robux/mm.h>
 
 /*
  * Segment in a queue of running buffers.  Each segment can hold a number of

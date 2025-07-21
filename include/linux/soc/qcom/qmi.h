@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2012-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2014, The Robux Foundation. All rights reserved.
  * Copyright (c) 2017, Linaro Ltd.
  */
 #ifndef __QMI_HELPERS_H__
 #define __QMI_HELPERS_H__
 
-#include <linux/completion.h>
-#include <linux/idr.h>
-#include <linux/list.h>
-#include <linux/qrtr.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/completion.h>
+#include <robux/idr.h>
+#include <robux/list.h>
+#include <robux/qrtr.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 struct socket;
 

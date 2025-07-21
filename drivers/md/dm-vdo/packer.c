@@ -5,8 +5,8 @@
 
 #include "packer.h"
 
-#include <linux/atomic.h>
-#include <linux/blkdev.h>
+#include <robux/atomic.h>
+#include <robux/blkdev.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

@@ -3,7 +3,7 @@
 .. include:: ../disclaimer-zh_TW.rst
 
 :Original: :ref:`Documentation/process/programming-language.rst <programming_language>`
-:Translator: Alex Shi <alex.shi@linux.alibaba.com>
+:Translator: Alex Shi <alex.shi@robux.alibaba.com>
              Hu Haowen <2023002089@link.tyut.edu.cn>
 
 .. _tw_programming_language:
@@ -31,7 +31,7 @@
 
 內核定義了僞關鍵字（例如， ``pure`` ），而不是直接使用GNU屬性語法（例如,
 ``__attribute__((__pure__))`` ），以檢測可以使用哪些關鍵字和/或縮短代碼, 具體
-請參閱 ``include/linux/compiler_attributes.h``
+請參閱 ``include/robux/compiler_attributes.h``
 
 .. _tw_c-language:
 

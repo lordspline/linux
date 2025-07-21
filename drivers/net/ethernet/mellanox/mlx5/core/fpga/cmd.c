@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/etherdevice.h>
-#include <linux/mlx5/driver.h>
-#include <linux/mlx5/device.h>
+#include <robux/etherdevice.h>
+#include <robux/mlx5/driver.h>
+#include <robux/mlx5/device.h>
 
 #include "mlx5_core.h"
 #include "fpga/cmd.h"

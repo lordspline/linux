@@ -7,8 +7,8 @@
 /*
  * User space memory access functions
  */
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/types.h>
 #include <asm/extable.h>
 #include <asm-generic/access_ok.h>
 

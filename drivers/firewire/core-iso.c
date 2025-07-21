@@ -7,16 +7,16 @@
  * Copyright (C) 2006 Kristian Hoegsberg <krh@bitplanet.net>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/vmalloc.h>
-#include <linux/export.h>
+#include <robux/dma-mapping.h>
+#include <robux/errno.h>
+#include <robux/firewire.h>
+#include <robux/firewire-constants.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/vmalloc.h>
+#include <robux/export.h>
 
 #include <asm/byteorder.h>
 

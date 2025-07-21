@@ -7,9 +7,9 @@
  * Copyright 2017 Canonical Ltd.
  */
 
-#include <linux/audit.h>
-#include <linux/seq_file.h>
-#include <linux/sort.h>
+#include <robux/audit.h>
+#include <robux/seq_file.h>
+#include <robux/sort.h>
 
 #include "include/apparmor.h"
 #include "include/cred.h"

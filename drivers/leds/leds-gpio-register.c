@@ -3,10 +3,10 @@
  * Copyright (C) 2011 Pengutronix
  * Uwe Kleine-Koenig <u.kleine-koenig@pengutronix.de>
  */
-#include <linux/err.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/leds.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 /**
  * gpio_led_register_device - register a gpio-led device

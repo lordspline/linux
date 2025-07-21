@@ -8,11 +8,11 @@
 #include "au0828.h"
 #include "au8522.h"
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-common.h>
-#include <linux/mutex.h>
+#include <robux/mutex.h>
 
 /* Due to enum tuner_pad_index */
 #include <media/tuner.h>

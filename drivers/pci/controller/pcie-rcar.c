@@ -6,8 +6,8 @@
  * Author: Phil Edworthy <phil.edworthy@renesas.com>
  */
 
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
 
 #include "pcie-rcar.h"
 

@@ -3,15 +3,15 @@
  * Copyright (c) 2019-2025 NVIDIA Corporation. All rights reserved.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clocksource.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/watchdog.h>
+#include <robux/bitfield.h>
+#include <robux/clocksource.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/watchdog.h>
 
 /* shared registers */
 #define TKETSC0 0x000

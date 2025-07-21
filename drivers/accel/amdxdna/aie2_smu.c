@@ -7,7 +7,7 @@
 #include <drm/drm_gem_shmem_helper.h>
 #include <drm/drm_print.h>
 #include <drm/gpu_scheduler.h>
-#include <linux/iopoll.h>
+#include <robux/iopoll.h>
 
 #include "aie2_pci.h"
 #include "amdxdna_pci_drv.h"

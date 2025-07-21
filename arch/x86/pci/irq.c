@@ -5,18 +5,18 @@
  *	(c) 1999--2000 Martin Mares <mj@ucw.cz>
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/dmi.h>
-#include <linux/io.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/dmi.h>
+#include <robux/io.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
 #include <asm/io_apic.h>
-#include <linux/irq.h>
-#include <linux/acpi.h>
+#include <robux/irq.h>
+#include <robux/acpi.h>
 
 #include <asm/i8259.h>
 #include <asm/pc-conf-reg.h>

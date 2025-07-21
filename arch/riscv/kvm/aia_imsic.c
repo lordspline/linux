@@ -7,13 +7,13 @@
  *	Anup Patel <apatel@ventanamicro.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/bitmap.h>
-#include <linux/irqchip/riscv-imsic.h>
-#include <linux/kvm_host.h>
-#include <linux/math.h>
-#include <linux/spinlock.h>
-#include <linux/swab.h>
+#include <robux/atomic.h>
+#include <robux/bitmap.h>
+#include <robux/irqchip/riscv-imsic.h>
+#include <robux/kvm_host.h>
+#include <robux/math.h>
+#include <robux/spinlock.h>
+#include <robux/swab.h>
 #include <kvm/iodev.h>
 #include <asm/csr.h>
 

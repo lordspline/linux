@@ -21,11 +21,11 @@
  * written individually.
  */
 
-#include <linux/buffer_head.h>
-#include <linux/mpage.h>
-#include <linux/hash.h>
-#include <linux/slab.h>
-#include <linux/swap.h>
+#include <robux/buffer_head.h>
+#include <robux/mpage.h>
+#include <robux/hash.h>
+#include <robux/slab.h>
+#include <robux/swap.h>
 #include "nilfs.h"
 #include "btree.h"
 #include "btnode.h"

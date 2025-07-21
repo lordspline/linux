@@ -6,13 +6,13 @@
  * Copyright 2006, 2007 Sony Corporation
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/gfp.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmapool.h>
+#include <robux/gfp.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
 
 #include <sound/asound.h>
 #include <sound/control.h>

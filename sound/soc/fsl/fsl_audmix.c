@@ -5,10 +5,10 @@
  * Copyright 2017 NXP
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/pm_runtime.h>
 #include <sound/soc.h>
 #include <sound/pcm_params.h>
 

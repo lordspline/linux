@@ -3,11 +3,11 @@
 #ifndef _LINUX_RANDOM_H
 #define _LINUX_RANDOM_H
 
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
 
-#include <uapi/linux/random.h>
+#include <uapi/robux/random.h>
 
 struct notifier_block;
 

@@ -2,10 +2,10 @@
 #ifndef _INET_COMMON_H
 #define _INET_COMMON_H
 
-#include <linux/indirect_call_wrapper.h>
-#include <linux/net.h>
-#include <linux/netdev_features.h>
-#include <linux/types.h>
+#include <robux/indirect_call_wrapper.h>
+#include <robux/net.h>
+#include <robux/netdev_features.h>
+#include <robux/types.h>
 #include <net/sock.h>
 
 extern const struct proto_ops inet_stream_ops;

@@ -5,18 +5,18 @@
  * Copyright (C) 2003 David Brownell
  */
 
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/device.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/string.h>
+#include <robux/device.h>
 
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/composite.h>
-#include <linux/usb/otg.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/composite.h>
+#include <robux/usb/otg.h>
 
 /**
  * usb_descriptor_fillbuf - fill buffer with descriptors

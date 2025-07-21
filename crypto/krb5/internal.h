@@ -5,7 +5,7 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/scatterlist.h>
+#include <robux/scatterlist.h>
 #include <crypto/krb5.h>
 #include <crypto/hash.h>
 #include <crypto/skcipher.h>

@@ -13,11 +13,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cpufreq.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
+#include <robux/cpufreq.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
 
 #include <asm/idle.h>
 

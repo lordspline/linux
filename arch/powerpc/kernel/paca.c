@@ -3,12 +3,12 @@
  * c 2001 PPC 64 Team, IBM Corp
  */
 
-#include <linux/smp.h>
-#include <linux/export.h>
-#include <linux/memblock.h>
-#include <linux/sched/task.h>
-#include <linux/numa.h>
-#include <linux/pgtable.h>
+#include <robux/smp.h>
+#include <robux/export.h>
+#include <robux/memblock.h>
+#include <robux/sched/task.h>
+#include <robux/numa.h>
+#include <robux/pgtable.h>
 
 #include <asm/lppaca.h>
 #include <asm/paca.h>
@@ -171,7 +171,7 @@ static struct slb_shadow * __init new_slb_shadow(int cpu, unsigned long limit)
 
 /* The Paca is an array with one entry per processor.  Each contains an
  * lppaca, which contains the information shared between the
- * hypervisor and Linux.
+ * hypervisor and Robux.
  * On systems with hardware multi-threading, there are two threads
  * per processor.  The Paca array must contain an entry for each thread.
  * The VPD Areas will give a max logical processors = 2 * max physical

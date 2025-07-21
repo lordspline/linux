@@ -6,14 +6,14 @@
 #ifndef _LINUX_BINDER_ALLOC_H
 #define _LINUX_BINDER_ALLOC_H
 
-#include <linux/rbtree.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/rtmutex.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/list_lru.h>
-#include <uapi/linux/android/binder.h>
+#include <robux/rbtree.h>
+#include <robux/list.h>
+#include <robux/mm.h>
+#include <robux/rtmutex.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/list_lru.h>
+#include <uapi/robux/android/binder.h>
 
 extern struct list_lru binder_freelist;
 struct binder_transaction;

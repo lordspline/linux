@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB */
 /*
  * Copyright 2015-2020 Amazon.com, Inc. or its affiliates. All rights reserved.
  */
@@ -6,18 +6,18 @@
 #ifndef ENA_COM
 #define ENA_COM
 
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
-#include <linux/prefetch.h>
-#include <linux/sched.h>
-#include <linux/sizes.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/wait.h>
-#include <linux/netdevice.h>
+#include <robux/compiler.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/gfp.h>
+#include <robux/io.h>
+#include <robux/prefetch.h>
+#include <robux/sched.h>
+#include <robux/sizes.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/wait.h>
+#include <robux/netdevice.h>
 
 #include "ena_common_defs.h"
 #include "ena_admin_defs.h"

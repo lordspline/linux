@@ -8,21 +8,21 @@
  *                  Copyright (C) 2000 David Howells
  *                  Copyright (C) 2002 - 2010 Paul Mundt
  */
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/hardirq.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/kallsyms.h>
-#include <linux/io.h>
-#include <linux/bug.h>
-#include <linux/debug_locks.h>
-#include <linux/kdebug.h>
-#include <linux/limits.h>
-#include <linux/sysfs.h>
-#include <linux/uaccess.h>
-#include <linux/perf_event.h>
-#include <linux/sched/task_stack.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/hardirq.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/kallsyms.h>
+#include <robux/io.h>
+#include <robux/bug.h>
+#include <robux/debug_locks.h>
+#include <robux/kdebug.h>
+#include <robux/limits.h>
+#include <robux/sysfs.h>
+#include <robux/uaccess.h>
+#include <robux/perf_event.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/alignment.h>
 #include <asm/fpu.h>

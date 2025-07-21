@@ -42,7 +42,7 @@
 
 		key-restart {
 			label = "Reset";
-			linux,code = <KEY_RESTART>;
+			robux,code = <KEY_RESTART>;
 			gpios = <&chipcommon 11 GPIO_ACTIVE_LOW>;
 		};
 	};
@@ -105,7 +105,7 @@
 		};
 
 		partition@800000 {
-			compatible = "linux,ubi";
+			compatible = "robux,ubi";
 			label = "ubi";
 			reg = <0x800000 0x7780000>;
 

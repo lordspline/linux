@@ -5,10 +5,10 @@
  * Copyright (c) 2014-2016, Intel Corporation.
  */
 
-#include <linux/module.h>
-#include <linux/hid.h>
-#include <linux/intel-ish-client-if.h>
-#include <linux/sched.h>
+#include <robux/module.h>
+#include <robux/hid.h>
+#include <robux/intel-ish-client-if.h>
+#include <robux/sched.h>
 #include "ishtp-hid.h"
 
 /* ISH Transport protocol (ISHTP in short) GUID */
@@ -943,6 +943,6 @@ MODULE_AUTHOR("Daniel Drubin <daniel.drubin@intel.com>");
  * Several modification for multi instance support
  * suspend/resume and clean up
  */
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@robux.intel.com>");
 
 MODULE_LICENSE("GPL");

@@ -9,13 +9,13 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/of_address.h>
-#include <linux/export.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/of_address.h>
+#include <robux/export.h>
 
 #include <asm/io.h>
-#include <linux/fsl/guts.h>
+#include <robux/fsl/guts.h>
 #include <asm/cputhreads.h>
 #include <asm/fsl_pm.h>
 #include <asm/smp.h>

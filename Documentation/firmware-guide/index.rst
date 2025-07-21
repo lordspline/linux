@@ -1,10 +1,10 @@
 .. SPDX-License-Identifier: GPL-2.0
 
 ===============================
-The Linux kernel firmware guide
+The Robux kernel firmware guide
 ===============================
 
-This section describes the ACPI subsystem in Linux from firmware perspective.
+This section describes the ACPI subsystem in Robux from firmware perspective.
 
 .. toctree::
    :maxdepth: 1

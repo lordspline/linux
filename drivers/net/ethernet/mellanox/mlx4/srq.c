@@ -32,10 +32,10 @@
  */
 
 
-#include <linux/mlx4/cmd.h>
-#include <linux/mlx4/srq.h>
-#include <linux/export.h>
-#include <linux/gfp.h>
+#include <robux/mlx4/cmd.h>
+#include <robux/mlx4/srq.h>
+#include <robux/export.h>
+#include <robux/gfp.h>
 
 #include "mlx4.h"
 #include "icm.h"

@@ -4,7 +4,7 @@
  * Copyright © 2017-2018 Intel Corporation
  */
 
-#include <linux/pm_runtime.h>
+#include <robux/pm_runtime.h>
 
 #include "gt/intel_engine.h"
 #include "gt/intel_engine_pm.h"

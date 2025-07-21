@@ -9,27 +9,27 @@
  *  Chandrashekar Devegowda <chandrashekar.devegowda@intel.com>
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@robux.intel.com>
  *
  * Contributors:
- *  Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ *  Andy Shevchenko <andriy.shevchenko@robux.intel.com>
  *  Chiranjeevi Rapolu <chiranjeevi.rapolu@intel.com>
  *  Eliot Lee <eliot.lee@intel.com>
  *  Sreehari Kancharla <sreehari.kancharla@intel.com>
  *  Jinjian Song <jinjian.song@fibocom.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/dev_printk.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/minmax.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/wwan.h>
+#include <robux/atomic.h>
+#include <robux/bitfield.h>
+#include <robux/dev_printk.h>
+#include <robux/err.h>
+#include <robux/gfp.h>
+#include <robux/minmax.h>
+#include <robux/netdevice.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/wwan.h>
 
 #include "t7xx_port.h"
 #include "t7xx_port_proxy.h"

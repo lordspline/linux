@@ -24,20 +24,20 @@
  *	with nanosecond accuracy
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/timex.h>
-#include <linux/capability.h>
-#include <linux/timekeeper_internal.h>
-#include <linux/errno.h>
-#include <linux/syscalls.h>
-#include <linux/security.h>
-#include <linux/fs.h>
-#include <linux/math64.h>
-#include <linux/ptrace.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/timex.h>
+#include <robux/capability.h>
+#include <robux/timekeeper_internal.h>
+#include <robux/errno.h>
+#include <robux/syscalls.h>
+#include <robux/security.h>
+#include <robux/fs.h>
+#include <robux/math64.h>
+#include <robux/ptrace.h>
 
-#include <linux/uaccess.h>
-#include <linux/compat.h>
+#include <robux/uaccess.h>
+#include <robux/compat.h>
 #include <asm/unistd.h>
 
 #include <generated/timeconst.h>
@@ -498,7 +498,7 @@ void set_normalized_timespec64(struct timespec64 *ts, time64_t sec, s64 nsec)
 		/*
 		 * The following asm() prevents the compiler from
 		 * optimising this loop into a modulo operation. See
-		 * also __iter_div_u64_rem() in include/linux/time.h
+		 * also __iter_div_u64_rem() in include/robux/time.h
 		 */
 		asm("" : "+rm"(nsec));
 		nsec -= NSEC_PER_SEC;
@@ -564,7 +564,7 @@ EXPORT_SYMBOL(ns_to_timespec64);
  * allow constant folding and the actual conversion must be done at
  * runtime.
  * The _msecs_to_jiffies helpers are the HZ dependent conversion
- * routines found in include/linux/jiffies.h
+ * routines found in include/robux/jiffies.h
  *
  * Return: jiffies value
  */

@@ -5,8 +5,8 @@
 
 #include "recovery-journal.h"
 
-#include <linux/atomic.h>
-#include <linux/bio.h>
+#include <robux/atomic.h>
+#include <robux/bio.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

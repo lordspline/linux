@@ -4,14 +4,14 @@
  * Author:  Maxime Coquelin <mcoquelin.stm32@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/clk.h>
-#include <linux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/clocksource.h>
+#include <robux/clockchips.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/clk.h>
+#include <robux/bitops.h>
 
 #define SYST_CSR	0x00
 #define SYST_RVR	0x04

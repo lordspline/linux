@@ -13,18 +13,18 @@
  *  - master mode *NOT* supported
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>
 #include <sound/initval.h>
 #include <sound/pcm_params.h>
 #include <sound/pcm.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 #include "cs42l51.h"
 

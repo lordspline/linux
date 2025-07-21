@@ -5,16 +5,16 @@
  * Copyright (C) 2019 Jeff LaBundy <jeff@labundy.com>
  */
 
-#include <linux/device.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/kernel.h>
-#include <linux/mfd/iqs62x.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/kernel.h>
+#include <robux/mfd/iqs62x.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define IQS624_POS_DEG_OUT			0x16
 

@@ -4,20 +4,20 @@
  * Copyright (C) 2016 Hauke Mehrtens <hauke@hauke-m.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/completion.h>
-#include <linux/spinlock.h>
-#include <linux/err.h>
-#include <linux/pm_runtime.h>
-#include <linux/spi/spi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <robux/completion.h>
+#include <robux/spinlock.h>
+#include <robux/err.h>
+#include <robux/pm_runtime.h>
+#include <robux/spi/spi.h>
 
 #ifdef CONFIG_LANTIQ
 #include <lantiq_soc.h>

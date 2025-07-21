@@ -5,7 +5,7 @@
 #ifndef _ASM_S390_PFAULT_H
 #define _ASM_S390_PFAULT_H
 
-#include <linux/errno.h>
+#include <robux/errno.h>
 
 int __pfault_init(void);
 void __pfault_fini(void);

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: ISC
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include "mt7603.h"
 

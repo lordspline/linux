@@ -5,12 +5,12 @@
  * Copyright (C) 2004-2007 Greg Kroah-Hartman <greg@kroah.com>
  * Copyright (C) 2007 Novell Inc.
  */
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <robux/kobject.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
 
 /*
  * This module shows how to create a kset in sysfs called

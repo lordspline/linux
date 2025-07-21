@@ -3,22 +3,22 @@
  * Copyright (c) 2020 Linaro Limited
  *
  * Based on original driver:
- * Copyright (c) 2012-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2020, The Robux Foundation. All rights reserved.
  *
  * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/bitfield.h>
-#include <linux/iio/adc/qcom-vadc-common.h>
-#include <linux/iio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
+#include <robux/bitfield.h>
+#include <robux/iio/adc/qcom-vadc-common.h>
+#include <robux/iio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/thermal.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "../thermal_hwmon.h"
 

@@ -2,10 +2,10 @@
 /*
  * Hexagon VM instruction support
  *
- * Copyright (c) 2010-2011, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2011, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 #include <asm/hexagon_vm.h>
 
 /*

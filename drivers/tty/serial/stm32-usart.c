@@ -9,29 +9,29 @@
  * Inspired by st-asc.c from STMicroelectronics (c)
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/dma-direction.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/spinlock.h>
-#include <linux/sysrq.h>
-#include <linux/tty_flip.h>
-#include <linux/tty.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/dma-direction.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/serial_core.h>
+#include <robux/serial.h>
+#include <robux/spinlock.h>
+#include <robux/sysrq.h>
+#include <robux/tty_flip.h>
+#include <robux/tty.h>
 
 #include "serial_mctrl_gpio.h"
 #include "stm32-usart.h"

@@ -12,16 +12,16 @@
  *	    context.lock
  */
 
-#include <linux/errno.h>
-#include <linux/gfp.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/syscalls.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/uaccess.h>
+#include <robux/errno.h>
+#include <robux/gfp.h>
+#include <robux/sched.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/syscalls.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/uaccess.h>
 
 #include <asm/ldt.h>
 #include <asm/tlb.h>

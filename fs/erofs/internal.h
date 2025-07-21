@@ -7,17 +7,17 @@
 #ifndef __EROFS_INTERNAL_H
 #define __EROFS_INTERNAL_H
 
-#include <linux/fs.h>
-#include <linux/dax.h>
-#include <linux/dcache.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/bio.h>
-#include <linux/magic.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/iomap.h>
+#include <robux/fs.h>
+#include <robux/dax.h>
+#include <robux/dcache.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/pagemap.h>
+#include <robux/bio.h>
+#include <robux/magic.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/iomap.h>
 #include "erofs_fs.h"
 
 __printf(2, 3) void _erofs_printk(struct super_block *sb, const char *fmt, ...);

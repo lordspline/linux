@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/kernel.h>
-#include <linux/kprobes.h>
-#include <linux/module.h>
-#include <linux/kallsyms.h>
+#include <robux/kernel.h>
+#include <robux/kprobes.h>
+#include <robux/module.h>
+#include <robux/kallsyms.h>
 #include <asm/sections.h>
 
 #include "decode-insn.h"

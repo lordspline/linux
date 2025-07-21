@@ -5,17 +5,17 @@
  * Copyright 2002 Adam Belay <ambx1@neo.rr.com>
  */
 
-#include <linux/pnp.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/dma-mapping.h>
+#include <robux/pnp.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/dma-mapping.h>
 
 #include "base.h"
 

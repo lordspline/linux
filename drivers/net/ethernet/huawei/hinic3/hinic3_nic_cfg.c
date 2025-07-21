@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) Huawei Technologies Co., Ltd. 2025. All rights reserved.
 
-#include <linux/if_vlan.h>
+#include <robux/if_vlan.h>
 
 #include "hinic3_hwdev.h"
 #include "hinic3_hwif.h"

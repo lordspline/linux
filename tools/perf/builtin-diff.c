@@ -27,8 +27,8 @@
 #include "util/block-info.h"
 #include "util/stream.h"
 #include "util/util.h"
-#include <linux/err.h>
-#include <linux/zalloc.h>
+#include <robux/err.h>
+#include <robux/zalloc.h>
 #include <subcmd/pager.h>
 #include <subcmd/parse-options.h>
 

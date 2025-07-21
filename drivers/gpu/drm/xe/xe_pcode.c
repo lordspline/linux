@@ -5,9 +5,9 @@
 
 #include "xe_pcode.h"
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/error-injection.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/error-injection.h>
 
 #include <drm/drm_managed.h>
 

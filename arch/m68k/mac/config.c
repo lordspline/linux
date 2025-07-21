@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/mac/config.c
+ *  robux/arch/m68k/mac/config.c
  *
  * This file is subject to the terms and conditions of the GNU General Public
  * License.  See the file COPYING in the main directory of this archive
@@ -7,29 +7,29 @@
  */
 
 /*
- * Miscellaneous linux stuff
+ * Miscellaneous robux stuff
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/interrupt.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/reboot.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/tty.h>
+#include <robux/console.h>
+#include <robux/interrupt.h>
 /* keyb */
-#include <linux/random.h>
-#include <linux/delay.h>
+#include <robux/random.h>
+#include <robux/delay.h>
 /* keyb */
-#include <linux/init.h>
-#include <linux/vt_kern.h>
-#include <linux/platform_device.h>
-#include <linux/ata_platform.h>
-#include <linux/adb.h>
-#include <linux/cuda.h>
-#include <linux/pmu.h>
-#include <linux/rtc.h>
+#include <robux/init.h>
+#include <robux/vt_kern.h>
+#include <robux/platform_device.h>
+#include <robux/ata_platform.h>
+#include <robux/adb.h>
+#include <robux/cuda.h>
+#include <robux/pmu.h>
+#include <robux/rtc.h>
 
 #include <asm/setup.h>
 #include <asm/bootinfo.h>

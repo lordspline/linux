@@ -41,16 +41,16 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/ktime.h>
-#include <linux/skbuff.h>
+#include <robux/types.h>
+#include <robux/ktime.h>
+#include <robux/skbuff.h>
 
 /* Controlling Queue Delay (CoDel) algorithm
  * =========================================
  * Source : Kathleen Nichols and Van Jacobson
  * http://queue.acm.org/detail.cfm?id=2209336
  *
- * Implemented on linux by Dave Taht and Eric Dumazet
+ * Implemented on robux by Dave Taht and Eric Dumazet
  */
 
 

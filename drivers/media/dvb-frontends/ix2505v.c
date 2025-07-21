@@ -5,10 +5,10 @@
  * Copyright (C) 2010 Malcolm Priestley
  */
 
-#include <linux/module.h>
-#include <linux/dvb/frontend.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/module.h>
+#include <robux/dvb/frontend.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "ix2505v.h"
 

@@ -4,11 +4,11 @@
  *
  *  Copyright (C) 2008, 2009  Paul Mundt
  */
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/serial_sci.h>
-#include <linux/sh_timer.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/serial.h>
+#include <robux/serial_sci.h>
+#include <robux/sh_timer.h>
 #include <asm/platform_early.h>
 
 enum {

@@ -10,8 +10,8 @@
 #ifndef MDEV_H
 #define MDEV_H
 
-#include <linux/device.h>
-#include <linux/uuid.h>
+#include <robux/device.h>
+#include <robux/uuid.h>
 
 struct mdev_type;
 

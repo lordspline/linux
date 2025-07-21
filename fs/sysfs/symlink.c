@@ -3,17 +3,17 @@
  * fs/sysfs/symlink.c - sysfs symlink implementation
  *
  * Copyright (c) 2001-3 Patrick Mochel
- * Copyright (c) 2007 SUSE Linux Products GmbH
+ * Copyright (c) 2007 SUSE Robux Products GmbH
  * Copyright (c) 2007 Tejun Heo <teheo@suse.de>
  *
  * Please see Documentation/filesystems/sysfs.rst for more information.
  */
 
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/kobject.h>
-#include <linux/mutex.h>
-#include <linux/security.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/kobject.h>
+#include <robux/mutex.h>
+#include <robux/security.h>
 
 #include "sysfs.h"
 

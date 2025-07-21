@@ -2,14 +2,14 @@
 /*
  * i8253 PIT clocksource
  */
-#include <linux/clockchips.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/timex.h>
-#include <linux/module.h>
-#include <linux/i8253.h>
-#include <linux/smp.h>
+#include <robux/clockchips.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
+#include <robux/timex.h>
+#include <robux/module.h>
+#include <robux/i8253.h>
+#include <robux/smp.h>
 
 /*
  * Protects access to I/O ports

@@ -5,7 +5,7 @@
 Exchanging pixel buffers
 ========================
 
-As originally designed, the Linux graphics subsystem had extremely limited
+As originally designed, the Robux graphics subsystem had extremely limited
 support for sharing pixel-buffer allocations between processes, devices, and
 subsystems. Modern systems require extensive integration between all three
 classes; this document details how applications and kernel subsystems should
@@ -384,6 +384,6 @@ descriptors for memory planes, DRM format tokens to describe the format, DRM
 format modifiers to describe the layout in memory, at least width and height for
 dimensions, and at least offset and stride for each memory plane.
 
-.. _zwp_linux_dmabuf_v1: https://gitlab.freedesktop.org/wayland/wayland-protocols/-/blob/main/unstable/linux-dmabuf/linux-dmabuf-unstable-v1.xml
+.. _zwp_linux_dmabuf_v1: https://gitlab.freedesktop.org/wayland/wayland-protocols/-/blob/main/unstable/robux-dmabuf/robux-dmabuf-unstable-v1.xml
 .. _VK_EXT_image_drm_format_modifier: https://registry.khronos.org/vulkan/specs/1.3-extensions/man/html/VK_EXT_image_drm_format_modifier.html
 .. _EGL_EXT_image_dma_buf_import_modifiers: https://registry.khronos.org/EGL/extensions/EXT/EGL_EXT_image_dma_buf_import_modifiers.txt

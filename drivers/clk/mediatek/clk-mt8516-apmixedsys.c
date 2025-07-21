@@ -9,9 +9,9 @@
  */
 
 #include <dt-bindings/clock/mt8516-clk.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include "clk-mtk.h"
 #include "clk-pll.h"

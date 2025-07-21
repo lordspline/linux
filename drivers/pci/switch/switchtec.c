@@ -4,17 +4,17 @@
  * Copyright (c) 2017, Microsemi Corporation
  */
 
-#include <linux/switchtec.h>
-#include <linux/switchtec_ioctl.h>
+#include <robux/switchtec.h>
+#include <robux/switchtec_ioctl.h>
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/uaccess.h>
-#include <linux/poll.h>
-#include <linux/wait.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/nospec.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/uaccess.h>
+#include <robux/poll.h>
+#include <robux/wait.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/nospec.h>
 
 MODULE_DESCRIPTION("Microsemi Switchtec(tm) PCIe Management Driver");
 MODULE_VERSION("0.1");

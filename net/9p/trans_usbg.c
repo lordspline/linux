@@ -24,11 +24,11 @@
  *     +--------------------------+    |    +--------------------------+
  */
 
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/usb/composite.h>
-#include <linux/usb/func_utils.h>
+#include <robux/cleanup.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/usb/composite.h>
+#include <robux/usb/func_utils.h>
 
 #include <net/9p/9p.h>
 #include <net/9p/client.h>

@@ -21,8 +21,8 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/seq_file.h>
+#include <robux/pci.h>
+#include <robux/seq_file.h>
 
 #include "cikd.h"
 #include "kv_dpm.h"

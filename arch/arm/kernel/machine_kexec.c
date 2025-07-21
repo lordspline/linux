@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * machine_kexec.c - handle transition of Linux booting another kernel
+ * machine_kexec.c - handle transition of Robux booting another kernel
  */
 
-#include <linux/mm.h>
-#include <linux/kexec.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/memblock.h>
-#include <linux/of_fdt.h>
+#include <robux/mm.h>
+#include <robux/kexec.h>
+#include <robux/delay.h>
+#include <robux/reboot.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/memblock.h>
+#include <robux/of_fdt.h>
 #include <asm/mmu_context.h>
 #include <asm/cacheflush.h>
 #include <asm/kexec-internal.h>

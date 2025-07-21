@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/core_tsunami.c
+ *	robux/arch/alpha/kernel/core_tsunami.c
  *
  * Based on code written by David A. Rusling (david.rusling@reo.mts.dec.com).
  *
@@ -12,12 +12,12 @@
 #include <asm/core_tsunami.h>
 #undef __EXTERN_INLINE
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
 
 #include <asm/ptrace.h>
 #include <asm/smp.h>

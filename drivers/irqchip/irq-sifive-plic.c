@@ -4,21 +4,21 @@
  * Copyright (C) 2018 Christoph Hellwig
  */
 #define pr_fmt(fmt) "riscv-plic: " fmt
-#include <linux/acpi.h>
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/syscore_ops.h>
+#include <robux/acpi.h>
+#include <robux/cpu.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/syscore_ops.h>
 #include <asm/smp.h>
 
 /*
@@ -37,7 +37,7 @@
 
 /*
  * Each interrupt source has a priority register associated with it.
- * We always hardwire it to one in Linux.
+ * We always hardwire it to one in Robux.
  */
 #define PRIORITY_BASE			0
 #define     PRIORITY_PER_ID		4

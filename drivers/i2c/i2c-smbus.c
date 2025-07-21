@@ -6,17 +6,17 @@
  * Copyright (C) 2010-2019 Jean Delvare <jdelvare@suse.de>
  */
 
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/device.h>
+#include <robux/dmi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/i2c-smbus.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 struct i2c_smbus_alert {
 	struct work_struct	alert;

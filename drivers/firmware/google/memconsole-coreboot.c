@@ -7,10 +7,10 @@
  * Copyright 2017 Google Inc.
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #include "memconsole.h"
 #include "coreboot_table.h"

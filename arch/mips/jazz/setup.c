@@ -9,14 +9,14 @@
  * Copyright (C) 2001 MIPS Technologies, Inc.
  * Copyright (C) 2007 by Thomas Bogendoerfer
  */
-#include <linux/eisa.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/console.h>
-#include <linux/platform_device.h>
-#include <linux/serial_8250.h>
-#include <linux/dma-mapping.h>
-#include <linux/pgtable.h>
+#include <robux/eisa.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/console.h>
+#include <robux/platform_device.h>
+#include <robux/serial_8250.h>
+#include <robux/dma-mapping.h>
+#include <robux/pgtable.h>
 
 #include <asm/jazz.h>
 #include <asm/jazzdma.h>

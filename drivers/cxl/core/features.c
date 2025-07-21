@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2024-2025 Intel Corporation. All rights reserved. */
-#include <linux/fwctl.h>
-#include <linux/device.h>
+#include <robux/fwctl.h>
+#include <robux/device.h>
 #include <cxl/mailbox.h>
 #include <cxl/features.h>
 #include <uapi/fwctl/cxl.h>

@@ -15,15 +15,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/pci.h>
-#include <linux/acpi.h>
-#include <linux/atomic.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/backlight.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/pci.h>
+#include <robux/acpi.h>
+#include <robux/atomic.h>
 #include <acpi/video.h>
 
 static struct backlight_device *apple_backlight_device;

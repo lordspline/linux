@@ -6,24 +6,24 @@
  * Author: Bartosz Golaszewski <bgolaszewski@baylibre.com>
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/compiler.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/compiler.h>
+#include <robux/dma-mapping.h>
+#include <robux/etherdevice.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mii.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
 
 #define MTK_STAR_DRVNAME			"mtk_star_emac"
 

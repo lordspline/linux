@@ -13,14 +13,14 @@
  * 10 bit touch screen interface.
  */
 
-#include <linux/module.h>
-#include <linux/workqueue.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/tps6507x.h>
-#include <linux/input/tps6507x-ts.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/workqueue.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/tps6507x.h>
+#include <robux/input/tps6507x-ts.h>
+#include <robux/delay.h>
 
 #define TSC_DEFAULT_POLL_PERIOD 30 /* ms */
 #define TPS_DEFAULT_MIN_PRESSURE 0x30

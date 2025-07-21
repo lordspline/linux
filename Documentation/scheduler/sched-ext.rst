@@ -334,7 +334,7 @@ by a sched_ext scheduler:
 Where to Look
 =============
 
-* ``include/linux/sched/ext.h`` defines the core data structures, ops table
+* ``include/robux/sched/ext.h`` defines the core data structures, ops table
   and constants.
 
 * ``kernel/sched/ext.c`` contains sched_ext core implementation and helpers.
@@ -354,7 +354,7 @@ ABI Instability
 
 The APIs provided by sched_ext to BPF schedulers programs have no stability
 guarantees. This includes the ops table callbacks and constants defined in
-``include/linux/sched/ext.h``, as well as the ``scx_bpf_`` kfuncs defined in
+``include/robux/sched/ext.h``, as well as the ``scx_bpf_`` kfuncs defined in
 ``kernel/sched/ext.c``.
 
 While we will attempt to provide a relatively stable API surface when

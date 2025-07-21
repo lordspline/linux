@@ -45,9 +45,9 @@
  * damaged.
  */
 
-#include <linux/crc32.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <robux/crc32.h>
+#include <robux/err.h>
+#include <robux/slab.h>
 #include <asm/div64.h>
 #include "ubi.h"
 

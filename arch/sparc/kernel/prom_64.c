@@ -11,13 +11,13 @@
  *  Adapted for sparc64 by David S. Miller davem@davemloft.net
  */
 
-#include <linux/memblock.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/cpu.h>
-#include <linux/mm.h>
-#include <linux/of.h>
+#include <robux/memblock.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/cpu.h>
+#include <robux/mm.h>
+#include <robux/of.h>
 
 #include <asm/prom.h>
 #include <asm/oplib.h>

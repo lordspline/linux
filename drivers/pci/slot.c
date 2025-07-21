@@ -5,10 +5,10 @@
  *	Alex Chiang <achiang@hp.com>
  */
 
-#include <linux/kobject.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/err.h>
+#include <robux/kobject.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/err.h>
 #include "pci.h"
 
 struct kset *pci_slots_kset;

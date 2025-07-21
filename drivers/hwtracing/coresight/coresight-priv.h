@@ -1,16 +1,16 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (c) 2011-2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011-2012, The Robux Foundation. All rights reserved.
  */
 
 #ifndef _CORESIGHT_PRIV_H
 #define _CORESIGHT_PRIV_H
 
-#include <linux/amba/bus.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/coresight.h>
-#include <linux/pm_runtime.h>
+#include <robux/amba/bus.h>
+#include <robux/bitops.h>
+#include <robux/io.h>
+#include <robux/coresight.h>
+#include <robux/pm_runtime.h>
 
 extern struct mutex coresight_mutex;
 extern const struct device_type coresight_dev_type[];

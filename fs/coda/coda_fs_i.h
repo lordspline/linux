@@ -9,10 +9,10 @@
 #ifndef _LINUX_CODA_FS_I
 #define _LINUX_CODA_FS_I
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/coda.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/coda.h>
 
 /*
  * coda fs inode data

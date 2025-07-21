@@ -6,12 +6,12 @@
 //
 // Author: James Schulman <james.schulman@cirrus.com>
 
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/firmware.h>
-#include <linux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/firmware.h>
+#include <robux/regulator/consumer.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

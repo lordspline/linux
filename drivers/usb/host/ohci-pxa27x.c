@@ -20,22 +20,22 @@
  * This file is licenced under the GPL.
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_data/usb-ohci-pxa27x.h>
-#include <linux/platform_data/pxa2xx_udc.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/signal.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/otg.h>
-#include <linux/soc/pxa/cpu.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/platform_data/usb-ohci-pxa27x.h>
+#include <robux/platform_data/pxa2xx_udc.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/signal.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/otg.h>
+#include <robux/soc/pxa/cpu.h>
 
 #include "ohci.h"
 

@@ -8,8 +8,8 @@
 #ifndef __MOST_CORE_H__
 #define __MOST_CORE_H__
 
-#include <linux/types.h>
-#include <linux/device.h>
+#include <robux/types.h>
+#include <robux/device.h>
 
 struct module;
 struct interface_private;

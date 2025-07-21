@@ -7,9 +7,9 @@
 //
 // Base S3C64XX setup information for 24bpp LCD framebuffer
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/gpio.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/gpio.h>
 
 #include "fb.h"
 #include "gpio-cfg.h"

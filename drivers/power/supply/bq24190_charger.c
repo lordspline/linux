@@ -5,18 +5,18 @@
  * Author: Mark A. Greer <mgreer@animalcreek.com>
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/power_supply.h>
-#include <linux/power/bq24190_charger.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/workqueue.h>
-#include <linux/i2c.h>
-#include <linux/extcon-provider.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
+#include <robux/power_supply.h>
+#include <robux/power/bq24190_charger.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/workqueue.h>
+#include <robux/i2c.h>
+#include <robux/extcon-provider.h>
 
 #define	BQ24190_MANUFACTURER	"Texas Instruments"
 

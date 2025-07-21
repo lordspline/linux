@@ -21,9 +21,9 @@
 		key-vol-up {
 			label = "Volume Up";
 			gpios = <&pm8998_gpios 6 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 			debounce-interval = <15>;
-			linux,can-disable;
+			robux,can-disable;
 		};
 	};
 };

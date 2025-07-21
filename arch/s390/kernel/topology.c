@@ -6,25 +6,25 @@
 #define KMSG_COMPONENT "cpu"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/cpufeature.h>
-#include <linux/workqueue.h>
-#include <linux/memblock.h>
-#include <linux/uaccess.h>
-#include <linux/sysctl.h>
-#include <linux/cpuset.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/topology.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
-#include <linux/nodemask.h>
-#include <linux/node.h>
+#include <robux/cpufeature.h>
+#include <robux/workqueue.h>
+#include <robux/memblock.h>
+#include <robux/uaccess.h>
+#include <robux/sysctl.h>
+#include <robux/cpuset.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/topology.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/cpu.h>
+#include <robux/smp.h>
+#include <robux/mm.h>
+#include <robux/nodemask.h>
+#include <robux/node.h>
 #include <asm/hiperdispatch.h>
 #include <asm/sysinfo.h>
 #include <asm/asm.h>

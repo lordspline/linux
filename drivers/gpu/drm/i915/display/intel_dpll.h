@@ -6,7 +6,7 @@
 #ifndef _INTEL_DPLL_H_
 #define _INTEL_DPLL_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 enum pipe;
 struct dpll;

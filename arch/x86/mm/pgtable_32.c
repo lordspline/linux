@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/nmi.h>
-#include <linux/swap.h>
-#include <linux/smp.h>
-#include <linux/highmem.h>
-#include <linux/pagemap.h>
-#include <linux/spinlock.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/mm.h>
+#include <robux/nmi.h>
+#include <robux/swap.h>
+#include <robux/smp.h>
+#include <robux/highmem.h>
+#include <robux/pagemap.h>
+#include <robux/spinlock.h>
 
 #include <asm/cpu_entry_area.h>
 #include <asm/fixmap.h>
@@ -16,7 +16,7 @@
 #include <asm/tlb.h>
 #include <asm/tlbflush.h>
 #include <asm/io.h>
-#include <linux/vmalloc.h>
+#include <robux/vmalloc.h>
 
 unsigned int __VMALLOC_RESERVE = 128 << 20;
 

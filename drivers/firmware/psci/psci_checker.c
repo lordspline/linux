@@ -6,24 +6,24 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/atomic.h>
-#include <linux/completion.h>
-#include <linux/cpu.h>
-#include <linux/cpuidle.h>
-#include <linux/cpu_pm.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/module.h>
-#include <linux/preempt.h>
-#include <linux/psci.h>
-#include <linux/slab.h>
-#include <linux/tick.h>
-#include <linux/topology.h>
+#include <robux/atomic.h>
+#include <robux/completion.h>
+#include <robux/cpu.h>
+#include <robux/cpuidle.h>
+#include <robux/cpu_pm.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <uapi/robux/sched/types.h>
+#include <robux/module.h>
+#include <robux/preempt.h>
+#include <robux/psci.h>
+#include <robux/slab.h>
+#include <robux/tick.h>
+#include <robux/topology.h>
 
 #include <asm/cpuidle.h>
 
-#include <uapi/linux/psci.h>
+#include <uapi/robux/psci.h>
 
 #define NUM_SUSPEND_CYCLE (10)
 

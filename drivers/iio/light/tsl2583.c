@@ -7,18 +7,18 @@
  * Copyright (c) 2016-2017 Brian Masney <masneyb@onstation.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/i2c.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/mutex.h>
-#include <linux/unistd.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/pm_runtime.h>
+#include <robux/kernel.h>
+#include <robux/i2c.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/string.h>
+#include <robux/mutex.h>
+#include <robux/unistd.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/pm_runtime.h>
 
 /* Device Registers and Masks */
 #define TSL2583_CNTRL			0x00

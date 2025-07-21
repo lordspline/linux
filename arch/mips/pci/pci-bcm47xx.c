@@ -22,10 +22,10 @@
  *  675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/ssb/ssb.h>
-#include <linux/bcma/bcma.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/ssb/ssb.h>
+#include <robux/bcma/bcma.h>
 #include <bcm47xx.h>
 
 int pcibios_map_irq(const struct pci_dev *dev, u8 slot, u8 pin)

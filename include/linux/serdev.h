@@ -5,12 +5,12 @@
 #ifndef _LINUX_SERDEV_H
 #define _LINUX_SERDEV_H
 
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/iopoll.h>
-#include <linux/uaccess.h>
-#include <linux/termios.h>
-#include <linux/delay.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/iopoll.h>
+#include <robux/uaccess.h>
+#include <robux/termios.h>
+#include <robux/delay.h>
 
 struct serdev_controller;
 struct serdev_device;

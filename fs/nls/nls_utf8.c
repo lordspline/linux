@@ -3,11 +3,11 @@
  * By Urban Widmark 2000
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/nls.h>
-#include <linux/errno.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/nls.h>
+#include <robux/errno.h>
 
 static unsigned char identity[256];
 

@@ -10,15 +10,15 @@
 #ifndef LINUX_RIO_H
 #define LINUX_RIO_H
 
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/device.h>
-#include <linux/rio_regs.h>
-#include <linux/mod_devicetable.h>
+#include <robux/types.h>
+#include <robux/ioport.h>
+#include <robux/list.h>
+#include <robux/errno.h>
+#include <robux/device.h>
+#include <robux/rio_regs.h>
+#include <robux/mod_devicetable.h>
 #ifdef CONFIG_RAPIDIO_DMA_ENGINE
-#include <linux/dmaengine.h>
+#include <robux/dmaengine.h>
 #endif
 
 #define RIO_NO_HOPCOUNT		-1

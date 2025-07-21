@@ -10,7 +10,7 @@
 #ifndef __DRM_UTILS_H__
 #define __DRM_UTILS_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct drm_edid;
 

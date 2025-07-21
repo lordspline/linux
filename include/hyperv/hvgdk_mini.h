@@ -5,8 +5,8 @@
 #ifndef _HV_HVGDK_MINI_H
 #define _HV_HVGDK_MINI_H
 
-#include <linux/types.h>
-#include <linux/bits.h>
+#include <robux/types.h>
+#include <robux/bits.h>
 
 struct hv_u128 {
 	u64 low_part;
@@ -206,7 +206,7 @@ union hv_reference_tsc_msr {
 #define HV_VCPUS_PER_SPARSE_BANK (64)
 
 /*
- * Some of Hyper-V structs do not use hv_vpset where linux uses them.
+ * Some of Hyper-V structs do not use hv_vpset where robux uses them.
  *
  * struct hv_vpset is usually used as part of hypercall input. The portion
  * that counts as "fixed size input header" vs. "variable size input header"
@@ -1170,7 +1170,7 @@ union hv_register_value {
 	union hv_arm64_pending_synthetic_exception_event pending_synthetic_exception_event;
 };
 
-/* NOTE: Linux helper struct - NOT from Hyper-V code. */
+/* NOTE: Robux helper struct - NOT from Hyper-V code. */
 struct hv_output_get_vp_registers {
 	DECLARE_FLEX_ARRAY(union hv_register_value, values);
 };

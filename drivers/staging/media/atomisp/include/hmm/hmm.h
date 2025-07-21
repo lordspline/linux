@@ -10,10 +10,10 @@
 #ifndef	__HMM_H__
 #define	__HMM_H__
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
 
 #include "hmm_common.h"
 #include "hmm/hmm_bo.h"

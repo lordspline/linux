@@ -14,10 +14,10 @@
  * If the operations succeed, the read returns "1\n".
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/debugfs.h>
-#include <linux/fpu.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/debugfs.h>
+#include <robux/fpu.h>
 
 #include "test_fpu.h"
 

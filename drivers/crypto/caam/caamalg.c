@@ -56,18 +56,18 @@
 #include "sg_sw_sec4.h"
 #include "key_gen.h"
 #include "caamalg_desc.h"
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <crypto/internal/aead.h>
 #include <crypto/internal/engine.h>
 #include <crypto/internal/skcipher.h>
 #include <crypto/xts.h>
-#include <linux/dma-mapping.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/dma-mapping.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 /*
  * crypto alg

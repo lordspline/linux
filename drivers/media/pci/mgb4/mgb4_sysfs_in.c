@@ -7,7 +7,7 @@
  * v4l2 input devices.
  */
 
-#include <linux/device.h>
+#include <robux/device.h>
 #include "mgb4_core.h"
 #include "mgb4_i2c.h"
 #include "mgb4_vin.h"

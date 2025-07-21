@@ -9,15 +9,15 @@
 
 #define pr_fmt(fmt)	"arm-lpae io-pgtable: " fmt
 
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/io-pgtable.h>
-#include <linux/kernel.h>
-#include <linux/device/faux.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/dma-mapping.h>
+#include <robux/atomic.h>
+#include <robux/bitops.h>
+#include <robux/io-pgtable.h>
+#include <robux/kernel.h>
+#include <robux/device/faux.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/dma-mapping.h>
 
 #include <asm/barrier.h>
 

@@ -5,15 +5,15 @@
  * Author: Keerthy <j-keerthy@ti.com>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/core.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/lp87565.h>
+#include <robux/mfd/lp87565.h>
 
 static const struct regmap_config lp87565_regmap_config = {
 	.reg_bits = 8,

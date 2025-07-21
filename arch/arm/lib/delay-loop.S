@@ -1,11 +1,11 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/arch/arm/lib/delay.S
+ *  robux/arch/arm/lib/delay.S
  *
  *  Copyright (C) 1995, 1996 Russell King
  */
-#include <linux/linkage.h>
-#include <linux/cfi_types.h>
+#include <robux/linkage.h>
+#include <robux/cfi_types.h>
 #include <asm/assembler.h>
 #include <asm/delay.h>
 

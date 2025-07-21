@@ -9,17 +9,17 @@
  *	sdhci.c, copyright (C) 2005-2006 Pierre Ossman
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/scatterlist.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/scatterlist.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
 
 #include "toshsd.h"
 

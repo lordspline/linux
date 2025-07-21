@@ -7,7 +7,7 @@
 #include "debug.h"
 #include <errno.h>
 #include <string.h>
-#include <linux/capability.h>
+#include <robux/capability.h>
 #include <sys/syscall.h>
 #include <unistd.h>
 

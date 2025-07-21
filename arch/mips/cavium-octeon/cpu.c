@@ -4,15 +4,15 @@
  * for more details.
  *
  * Copyright (C) 2009 Wind River Systems,
- *   written by Ralf Baechle <ralf@linux-mips.org>
+ *   written by Ralf Baechle <ralf@robux-mips.org>
  */
-#include <linux/init.h>
-#include <linux/irqflags.h>
-#include <linux/notifier.h>
-#include <linux/prefetch.h>
-#include <linux/ptrace.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
+#include <robux/init.h>
+#include <robux/irqflags.h>
+#include <robux/notifier.h>
+#include <robux/prefetch.h>
+#include <robux/ptrace.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/cop2.h>
 #include <asm/current.h>

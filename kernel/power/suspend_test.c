@@ -5,8 +5,8 @@
  * Copyright (c) 2009 Pavel Machek <pavel@ucw.cz>
  */
 
-#include <linux/init.h>
-#include <linux/rtc.h>
+#include <robux/init.h>
+#include <robux/rtc.h>
 
 #include "power.h"
 

@@ -4,13 +4,13 @@
  * Author: Pi-Cheng Chen <pi-cheng.chen@linaro.org>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/container_of.h>
-#include <linux/err.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/container_of.h>
+#include <robux/err.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #include "clk-mtk.h"
 #include "clk-cpumux.h"

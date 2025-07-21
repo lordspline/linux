@@ -5,10 +5,10 @@
 
 #include "fuse_i.h"
 
-#include <linux/uio.h>
-#include <linux/compat.h>
-#include <linux/fileattr.h>
-#include <linux/fsverity.h>
+#include <robux/uio.h>
+#include <robux/compat.h>
+#include <robux/fileattr.h>
+#include <robux/fsverity.h>
 
 #define FUSE_VERITY_ENABLE_ARG_MAX_PAGES 256
 

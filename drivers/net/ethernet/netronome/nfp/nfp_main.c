@@ -9,12 +9,12 @@
  *          Rolf Neugebauer <rolf.neugebauer@netronome.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/firmware.h>
-#include <linux/vmalloc.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/firmware.h>
+#include <robux/vmalloc.h>
 #include <net/devlink.h>
 
 #include "nfpcore/nfp.h"

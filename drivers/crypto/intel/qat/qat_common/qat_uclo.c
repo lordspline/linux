@@ -3,14 +3,14 @@
 
 #define pr_fmt(fmt)	"QAT: " fmt
 
-#include <linux/align.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/pci_ids.h>
-#include <linux/wordpart.h>
+#include <robux/align.h>
+#include <robux/bitops.h>
+#include <robux/slab.h>
+#include <robux/ctype.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/pci_ids.h>
+#include <robux/wordpart.h>
 #include "adf_accel_devices.h"
 #include "adf_common_drv.h"
 #include "icp_qat_uclo.h"

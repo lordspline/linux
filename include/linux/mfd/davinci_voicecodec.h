@@ -10,10 +10,10 @@
 #ifndef __LINUX_MFD_DAVINCI_VOICECODEC_H_
 #define __LINUX_MFD_DAVINCI_VOICECODEC_H_
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/core.h>
-#include <linux/platform_data/edma.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/core.h>
+#include <robux/platform_data/edma.h>
 
 struct regmap;
 

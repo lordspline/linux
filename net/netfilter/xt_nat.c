@@ -7,10 +7,10 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter/x_tables.h>
+#include <robux/module.h>
+#include <robux/skbuff.h>
+#include <robux/netfilter.h>
+#include <robux/netfilter/x_tables.h>
 #include <net/netfilter/nf_nat.h>
 
 static int xt_nat_checkentry_v0(const struct xt_tgchk_param *par)

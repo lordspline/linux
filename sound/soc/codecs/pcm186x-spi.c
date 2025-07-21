@@ -7,9 +7,9 @@
  *	Andrew F. Davis <afd@ti.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
 
 #include "pcm186x.h"
 

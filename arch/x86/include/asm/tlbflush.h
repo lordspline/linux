@@ -2,9 +2,9 @@
 #ifndef _ASM_X86_TLBFLUSH_H
 #define _ASM_X86_TLBFLUSH_H
 
-#include <linux/mm_types.h>
-#include <linux/mmu_notifier.h>
-#include <linux/sched.h>
+#include <robux/mm_types.h>
+#include <robux/mmu_notifier.h>
+#include <robux/sched.h>
 
 #include <asm/barrier.h>
 #include <asm/processor.h>

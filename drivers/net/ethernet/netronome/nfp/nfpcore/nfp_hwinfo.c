@@ -15,12 +15,12 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
-#include <linux/delay.h>
-#include <linux/log2.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/unaligned.h>
+#include <robux/delay.h>
+#include <robux/log2.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #define NFP_SUBSYS "nfp_hwinfo"
 

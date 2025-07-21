@@ -4,40 +4,40 @@
  *
  * Copyright (C) 2004-2008 Atmel Corporation
  */
-#include <linux/blkdev.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/irq.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/scatterlist.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/types.h>
+#include <robux/blkdev.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/irq.h>
+#include <robux/gpio/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/scatterlist.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/stat.h>
+#include <robux/types.h>
 
-#include <linux/mmc/host.h>
-#include <linux/mmc/sdio.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/sdio.h>
 
-#include <linux/atmel_pdc.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/workqueue.h>
+#include <robux/atmel_pdc.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/workqueue.h>
 
 #include <asm/cacheflush.h>
 #include <asm/io.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define ATMCI_MAX_NR_SLOTS	2
 

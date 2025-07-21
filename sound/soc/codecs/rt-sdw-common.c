@@ -9,10 +9,10 @@
  * This file defines common functions used with Realtek soundwire codecs.
  */
 
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/bitops.h>
-#include <linux/soundwire/sdw_registers.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/bitops.h>
+#include <robux/soundwire/sdw_registers.h>
 #include <sound/jack.h>
 
 #include "rt-sdw-common.h"

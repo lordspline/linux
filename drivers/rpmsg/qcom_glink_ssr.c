@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2014-2017, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014-2017, The Robux Foundation. All rights reserved.
  * Copyright (c) 2017, Linaro Ltd.
  */
 
-#include <linux/completion.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/rpmsg.h>
-#include <linux/rpmsg/qcom_glink.h>
-#include <linux/remoteproc/qcom_rproc.h>
+#include <robux/completion.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/rpmsg.h>
+#include <robux/rpmsg/qcom_glink.h>
+#include <robux/remoteproc/qcom_rproc.h>
 
 /**
  * struct do_cleanup_msg - The data structure for an SSR do_cleanup message

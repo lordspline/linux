@@ -6,19 +6,19 @@
  */
 
 #include <drm/bridge/aux-bridge.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/container_of.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/platform_data/huawei-gaokun-ec.h>
-#include <linux/string.h>
-#include <linux/usb/pd_vdo.h>
-#include <linux/usb/typec_altmode.h>
-#include <linux/usb/typec_dp.h>
-#include <linux/workqueue_types.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bitops.h>
+#include <robux/completion.h>
+#include <robux/container_of.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
+#include <robux/platform_data/huawei-gaokun-ec.h>
+#include <robux/string.h>
+#include <robux/usb/pd_vdo.h>
+#include <robux/usb/typec_altmode.h>
+#include <robux/usb/typec_dp.h>
+#include <robux/workqueue_types.h>
 
 #include "ucsi.h"
 

@@ -27,23 +27,23 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/crc32.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/if_arp.h>
-#include <linux/ioport.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/jiffies.h>
-#include <linux/firmware.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/crc32.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/if_arp.h>
+#include <robux/ioport.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/jiffies.h>
+#include <robux/firmware.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/cisreg.h>
@@ -52,7 +52,7 @@
 #include <pcmcia/ss.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 /*====================================================================*/
 
@@ -1324,7 +1324,7 @@ static void smc_eph_irq(struct net_device *dev)
     card_stats >>= 4;
     /* multiple collisions */
     dev->stats.collisions += card_stats & 0xF;
-#if 0 		/* These are for when linux supports these statistics */
+#if 0 		/* These are for when robux supports these statistics */
     card_stats >>= 4;			/* deferred */
     card_stats >>= 4;			/* excess deferred */
 #endif

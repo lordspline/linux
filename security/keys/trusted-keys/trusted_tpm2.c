@@ -4,17 +4,17 @@
  * Copyright (C) 2014 Intel Corporation
  */
 
-#include <linux/asn1_encoder.h>
-#include <linux/oid_registry.h>
-#include <linux/string.h>
-#include <linux/err.h>
-#include <linux/tpm.h>
-#include <linux/tpm_command.h>
+#include <robux/asn1_encoder.h>
+#include <robux/oid_registry.h>
+#include <robux/string.h>
+#include <robux/err.h>
+#include <robux/tpm.h>
+#include <robux/tpm_command.h>
 
 #include <keys/trusted-type.h>
 #include <keys/trusted_tpm.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "tpm2key.asn1.h"
 

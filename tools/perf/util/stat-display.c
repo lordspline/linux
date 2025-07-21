@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <inttypes.h>
-#include <linux/string.h>
-#include <linux/time64.h>
+#include <robux/string.h>
+#include <robux/time64.h>
 #include <math.h>
 #include <perf/cpumap.h>
 #include "color.h"
@@ -15,7 +15,7 @@
 #include "thread_map.h"
 #include "cpumap.h"
 #include "string2.h"
-#include <linux/ctype.h>
+#include <robux/ctype.h>
 #include "cgroup.h"
 #include <api/fs/fs.h>
 #include "util.h"

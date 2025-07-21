@@ -4,8 +4,8 @@
  * Crypto driver file to manage keys of NVIDIA Security Engine.
  */
 
-#include <linux/bitops.h>
-#include <linux/module.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
 #include <crypto/aes.h>
 
 #include "tegra-se.h"

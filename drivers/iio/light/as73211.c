@@ -15,20 +15,20 @@
  * AS7331: https://ams.com/documents/20143/9106314/AS7331_DS001047_4-00.pdf
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pm.h>
+#include <robux/units.h>
 
 #define AS73211_DRV_NAME "as73211"
 

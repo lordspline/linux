@@ -5,17 +5,17 @@
  *
  * Setting up the clock on the MIPS boards.
  */
-#include <linux/types.h>
-#include <linux/i8253.h>
-#include <linux/init.h>
-#include <linux/kernel_stat.h>
-#include <linux/libfdt.h>
-#include <linux/math64.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/timex.h>
-#include <linux/mc146818rtc.h>
+#include <robux/types.h>
+#include <robux/i8253.h>
+#include <robux/init.h>
+#include <robux/kernel_stat.h>
+#include <robux/libfdt.h>
+#include <robux/math64.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/timex.h>
+#include <robux/mc146818rtc.h>
 
 #include <asm/cpu.h>
 #include <asm/mipsregs.h>

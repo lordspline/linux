@@ -5,12 +5,12 @@
  *  Copyright (C) 2013 Boris BREZILLON <b.brezillon@overkiz.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/io.h>
 
 #include <dt-bindings/clock/at91.h>
 

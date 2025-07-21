@@ -5,12 +5,12 @@
  * Copyright 2015-2016, Aneesh Kumar K.V, IBM Corporation.
  */
 
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/memblock.h>
-#include <linux/mmu_context.h>
-#include <linux/sched/mm.h>
-#include <linux/debugfs.h>
+#include <robux/mm.h>
+#include <robux/hugetlb.h>
+#include <robux/memblock.h>
+#include <robux/mmu_context.h>
+#include <robux/sched/mm.h>
+#include <robux/debugfs.h>
 
 #include <asm/ppc-opcode.h>
 #include <asm/tlb.h>

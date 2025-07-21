@@ -29,7 +29,7 @@
 #include "vmwgfx_drv.h"
 
 #include "vmwgfx_bo.h"
-#include <linux/highmem.h>
+#include <robux/highmem.h>
 
 /*
  * Template that implements find_first_diff() for a generic

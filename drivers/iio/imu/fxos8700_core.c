@@ -6,13 +6,13 @@
  *
  * TODO: Buffer, trigger, and IRQ support
  */
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/bitops.h>
+#include <robux/bitfield.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #include "fxos8700.h"
 

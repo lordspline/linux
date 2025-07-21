@@ -8,15 +8,15 @@
  * Copyright Sarah Sharp for Intel Corp, 2010
  */
 
-#include <linux/blkdev.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb_usual.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/storage.h>
-#include <linux/usb/uas.h>
+#include <robux/blkdev.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/usb_usual.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/storage.h>
+#include <robux/usb/uas.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_eh.h>

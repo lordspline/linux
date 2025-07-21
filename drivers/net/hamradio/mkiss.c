@@ -2,30 +2,30 @@
 /*
  *
  * Copyright (C) Hans Alblas PE1AYX <hans@esrac.ele.tue.nl>
- * Copyright (C) 2004, 05 Ralf Baechle DL5RB <ralf@linux-mips.org>
+ * Copyright (C) 2004, 05 Ralf Baechle DL5RB <ralf@robux-mips.org>
  * Copyright (C) 2004, 05 Thomas Osterried DL9SAU <thomas@x-berg.in-berlin.de>
  */
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
-#include <linux/crc16.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/major.h>
-#include <linux/init.h>
-#include <linux/rtnetlink.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/if_arp.h>
-#include <linux/jiffies.h>
-#include <linux/refcount.h>
+#include <robux/module.h>
+#include <robux/bitops.h>
+#include <robux/uaccess.h>
+#include <robux/crc16.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/in.h>
+#include <robux/inet.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/errno.h>
+#include <robux/netdevice.h>
+#include <robux/major.h>
+#include <robux/init.h>
+#include <robux/rtnetlink.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/if_arp.h>
+#include <robux/jiffies.h>
+#include <robux/refcount.h>
 
 #include <net/ax25.h>
 
@@ -444,7 +444,7 @@ static void ax_encaps(struct net_device *dev, unsigned char *icp, int len)
 	if ((*p & 0x0f) != 0) {
 		/* Configuration Command (kissparms(1).
 		 * Protocol spec says: never append CRC.
-		 * This fixes a very old bug in the linux
+		 * This fixes a very old bug in the robux
 		 * kiss driver. -- dl9sau */
 		switch (*p & 0xff) {
 		case 0x85:
@@ -969,7 +969,7 @@ static void __exit mkiss_exit_driver(void)
 	tty_unregister_ldisc(&ax_ldisc);
 }
 
-MODULE_AUTHOR("Ralf Baechle DL5RB <ralf@linux-mips.org>");
+MODULE_AUTHOR("Ralf Baechle DL5RB <ralf@robux-mips.org>");
 MODULE_DESCRIPTION("KISS driver for AX.25 over TTYs");
 module_param(crc_force, int, 0);
 MODULE_PARM_DESC(crc_force, "crc [0 = auto | 1 = none | 2 = flexnet | 3 = smack]");

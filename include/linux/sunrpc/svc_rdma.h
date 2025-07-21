@@ -42,15 +42,15 @@
 
 #ifndef SVC_RDMA_H
 #define SVC_RDMA_H
-#include <linux/llist.h>
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/svcsock.h>
-#include <linux/sunrpc/rpc_rdma.h>
-#include <linux/sunrpc/rpc_rdma_cid.h>
-#include <linux/sunrpc/svc_rdma_pcl.h>
-#include <linux/sunrpc/rdma_rn.h>
+#include <robux/llist.h>
+#include <robux/sunrpc/xdr.h>
+#include <robux/sunrpc/svcsock.h>
+#include <robux/sunrpc/rpc_rdma.h>
+#include <robux/sunrpc/rpc_rdma_cid.h>
+#include <robux/sunrpc/svc_rdma_pcl.h>
+#include <robux/sunrpc/rdma_rn.h>
 
-#include <linux/percpu_counter.h>
+#include <robux/percpu_counter.h>
 #include <rdma/ib_verbs.h>
 #include <rdma/rdma_cm.h>
 

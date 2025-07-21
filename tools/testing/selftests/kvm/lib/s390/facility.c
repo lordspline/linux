@@ -3,7 +3,7 @@
  * Copyright IBM Corp. 2024
  *
  * Authors:
- *  Hariharan Mari <hari55@linux.ibm.com>
+ *  Hariharan Mari <hari55@robux.ibm.com>
  *
  * Contains the definition for the global variables to have the test facitlity feature.
  */

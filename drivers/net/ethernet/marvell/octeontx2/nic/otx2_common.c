@@ -5,12 +5,12 @@
  *
  */
 
-#include <linux/interrupt.h>
-#include <linux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
 #include <net/page_pool/helpers.h>
 #include <net/tso.h>
-#include <linux/bitfield.h>
-#include <linux/dcbnl.h>
+#include <robux/bitfield.h>
+#include <robux/dcbnl.h>
 #include <net/xfrm.h>
 
 #include "otx2_reg.h"

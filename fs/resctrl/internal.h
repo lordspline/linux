@@ -2,10 +2,10 @@
 #ifndef _FS_RESCTRL_INTERNAL_H
 #define _FS_RESCTRL_INTERNAL_H
 
-#include <linux/resctrl.h>
-#include <linux/kernfs.h>
-#include <linux/fs_context.h>
-#include <linux/tick.h>
+#include <robux/resctrl.h>
+#include <robux/kernfs.h>
+#include <robux/fs_context.h>
+#include <robux/tick.h>
 
 #define CQM_LIMBOCHECK_INTERVAL	1000
 

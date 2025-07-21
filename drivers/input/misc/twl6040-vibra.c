@@ -11,15 +11,15 @@
  *				Felipe Balbi <felipe.balbi@nokia.com>
  *				Jari Vanhala <ext-javi.vanhala@nokia.com>
  */
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/workqueue.h>
-#include <linux/input.h>
-#include <linux/mfd/twl6040.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/workqueue.h>
+#include <robux/input.h>
+#include <robux/mfd/twl6040.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/regulator/consumer.h>
 
 #define EFFECT_DIR_180_DEG	0x8000
 

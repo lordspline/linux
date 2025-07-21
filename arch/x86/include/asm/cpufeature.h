@@ -7,7 +7,7 @@
 #if defined(__KERNEL__) && !defined(__ASSEMBLER__)
 
 #include <asm/asm.h>
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 #include <asm/alternative.h>
 #include <asm/cpufeaturemasks.h>
 

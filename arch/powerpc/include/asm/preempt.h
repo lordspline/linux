@@ -5,7 +5,7 @@
 #include <asm-generic/preempt.h>
 
 #if defined(CONFIG_PREEMPT_DYNAMIC)
-#include <linux/jump_label.h>
+#include <robux/jump_label.h>
 DECLARE_STATIC_KEY_TRUE(sk_dynamic_irqentry_exit_cond_resched);
 #define need_irq_preemption() \
 	(static_branch_unlikely(&sk_dynamic_irqentry_exit_cond_resched))

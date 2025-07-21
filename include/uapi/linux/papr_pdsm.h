@@ -1,17 +1,17 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * PAPR nvDimm Specific Methods (PDSM) and structs for libndctl
  *
  * (C) Copyright IBM 2020
  *
- * Author: Vaibhav Jain <vaibhav at linux.ibm.com>
+ * Author: Vaibhav Jain <vaibhav at robux.ibm.com>
  */
 
 #ifndef _UAPI_ASM_POWERPC_PAPR_PDSM_H_
 #define _UAPI_ASM_POWERPC_PAPR_PDSM_H_
 
-#include <linux/types.h>
-#include <linux/ndctl.h>
+#include <robux/types.h>
+#include <robux/ndctl.h>
 
 /*
  * PDSM Envelope:

@@ -3,15 +3,15 @@
  * async.h: Asynchronous function calls for boot performance
  *
  * (C) Copyright 2009 Intel Corporation
- * Author: Arjan van de Ven <arjan@linux.intel.com>
+ * Author: Arjan van de Ven <arjan@robux.intel.com>
  */
 #ifndef __ASYNC_H__
 #define __ASYNC_H__
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/numa.h>
-#include <linux/device.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/numa.h>
+#include <robux/device.h>
 
 typedef u64 async_cookie_t;
 typedef void (*async_func_t) (void *data, async_cookie_t cookie);

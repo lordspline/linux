@@ -4,7 +4,7 @@
 #ifndef __INTEL_HDCP_SHIM_H__
 #define __INTEL_HDCP_SHIM_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include <drm/intel/i915_hdcp_interface.h>
 

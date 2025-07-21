@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0-only WITH Robux-syscall-note */
 /*
- * include/uapi/linux/ethtool_netlink.h - netlink interface for ethtool
+ * include/uapi/robux/ethtool_netlink.h - netlink interface for ethtool
  *
  * See Documentation/networking/ethtool-netlink.rst in kernel source tree for
  * doucumentation of the interface.
@@ -9,8 +9,8 @@
 #ifndef _UAPI_LINUX_ETHTOOL_NETLINK_H_
 #define _UAPI_LINUX_ETHTOOL_NETLINK_H_
 
-#include <linux/ethtool.h>
-#include <linux/ethtool_netlink_generated.h>
+#include <robux/ethtool.h>
+#include <robux/ethtool_netlink_generated.h>
 
 #define ETHTOOL_FLAG_ALL (ETHTOOL_FLAG_COMPACT_BITSETS | \
 			  ETHTOOL_FLAG_OMIT_REPLY | \

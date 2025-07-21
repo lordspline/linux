@@ -7,13 +7,13 @@
 #include <asm/arch_timer.h>
 #endif
 
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/pagemap.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/time64.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/pagemap.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/time64.h>
 
 #include <drm/drm_auth.h>
 #include <drm/drm_debugfs.h>

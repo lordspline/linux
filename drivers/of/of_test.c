@@ -2,9 +2,9 @@
 /*
  * KUnit tests for OF APIs
  */
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 #include <kunit/test.h>
 

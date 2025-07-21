@@ -6,9 +6,9 @@
 #ifndef __LINUX_USB_PD_H
 #define __LINUX_USB_PD_H
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/usb/typec.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/usb/typec.h>
 
 /* USB PD Messages */
 enum pd_ctrl_msg_type {

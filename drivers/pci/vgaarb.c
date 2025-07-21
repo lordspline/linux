@@ -14,24 +14,24 @@
 #define vgaarb_info(dev, fmt, arg...)	dev_info(dev, "vgaarb: " fmt, ##arg)
 #define vgaarb_err(dev, fmt, arg...)	dev_err(dev, "vgaarb: " fmt, ##arg)
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/sched/signal.h>
-#include <linux/wait.h>
-#include <linux/spinlock.h>
-#include <linux/poll.h>
-#include <linux/miscdevice.h>
-#include <linux/slab.h>
-#include <linux/screen_info.h>
-#include <linux/vt.h>
-#include <linux/console.h>
-#include <linux/acpi.h>
-#include <linux/uaccess.h>
-#include <linux/vgaarb.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/sched/signal.h>
+#include <robux/wait.h>
+#include <robux/spinlock.h>
+#include <robux/poll.h>
+#include <robux/miscdevice.h>
+#include <robux/slab.h>
+#include <robux/screen_info.h>
+#include <robux/vt.h>
+#include <robux/console.h>
+#include <robux/acpi.h>
+#include <robux/uaccess.h>
+#include <robux/vgaarb.h>
 
 static void vga_arbiter_notify_clients(void);
 

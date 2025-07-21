@@ -6,8 +6,8 @@
  *
  */
 
-#include <linux/bpf.h>
-#include <linux/filter.h>
+#include <robux/bpf.h>
+#include <robux/filter.h>
 #include "bpf_jit.h"
 
 /* Number of iterations to try until offsets converge. */

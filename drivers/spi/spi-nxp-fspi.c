@@ -31,33 +31,33 @@
  *     Frieder Schrempf <frieder.schrempf@kontron.de>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_qos.h>
-#include <linux/regmap.h>
-#include <linux/sizes.h>
-#include <linux/sys_soc.h>
+#include <robux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_qos.h>
+#include <robux/regmap.h>
+#include <robux/sizes.h>
+#include <robux/sys_soc.h>
 
-#include <linux/mfd/syscon.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
+#include <robux/mfd/syscon.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
 
 /* runtime pm timeout */
 #define FSPI_RPM_TIMEOUT 50	/* 50ms */

@@ -5,15 +5,15 @@
  * Copyright (C) 2013 Philipp Zabel, Pengutronix
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/videodev2.h>
+#include <robux/clk-provider.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/videodev2.h>
 
 #include <video/imx-ipu-v3.h>
 

@@ -12,11 +12,11 @@
 #include <string.h>
 #include <sys/ioctl.h>
 
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/kvm_para.h>
-#include <linux/memfd.h>
-#include <linux/sizes.h>
+#include <robux/compiler.h>
+#include <robux/kernel.h>
+#include <robux/kvm_para.h>
+#include <robux/memfd.h>
+#include <robux/sizes.h>
 
 #include <test_util.h>
 #include <kvm_util.h>

@@ -13,16 +13,16 @@
  * any later version.
  */
 
-#include <linux/acpi.h>
-#include <linux/hid.h>
-#include <linux/input/vivaldi-fmap.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/unaligned.h>
+#include <robux/acpi.h>
+#include <robux/hid.h>
+#include <robux/input/vivaldi-fmap.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/unaligned.h>
 
 #include "hid-ids.h"
 #include "hid-vivaldi-common.h"

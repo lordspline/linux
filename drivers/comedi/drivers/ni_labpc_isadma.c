@@ -8,10 +8,10 @@
  * Copyright (C) 2001-2003 Frank Mori Hess <fmhess@users.sourceforge.net>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/comedi/comedi_isadma.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/comedi/comedidev.h>
+#include <robux/comedi/comedi_isadma.h>
 
 #include "ni_labpc.h"
 #include "ni_labpc_regs.h"

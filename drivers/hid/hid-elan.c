@@ -7,11 +7,11 @@
  * Copyright (c) 2016 Alexandrov Stanislav <neko@nya.ai>
  */
 
-#include <linux/hid.h>
-#include <linux/input/mt.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/usb.h>
+#include <robux/hid.h>
+#include <robux/input/mt.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/usb.h>
 
 #include "hid-ids.h"
 

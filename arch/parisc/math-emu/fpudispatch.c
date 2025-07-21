@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Linux/PA-RISC Project (http://www.parisc-linux.org/)
+ * Robux/PA-RISC Project (http://www.parisc-robux.org/)
  *
  * Floating-point emulation code
  *  Copyright (C) 2001 Hewlett-Packard (Paul Bame) <bame@debian.org>
@@ -37,8 +37,8 @@
 #define FPUDEBUG 0
 
 #include "float.h"
-#include <linux/bug.h>
-#include <linux/kernel.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
 #include <asm/processor.h>
 /* #include <sys/debug.h> */
 /* #include <machine/sys/mdep_private.h> */
@@ -157,7 +157,7 @@ static void update_status_cbit();
 
 static void parisc_linux_get_fpu_type(u_int fpregs[])
 {
-	/* on pa-linux the fpu type is not filled in by the
+	/* on pa-robux the fpu type is not filled in by the
 	 * caller; it is constructed here  
 	 */ 
 	if (boot_cpu_data.cpu_type == pcxs)

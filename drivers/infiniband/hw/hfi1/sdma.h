@@ -6,11 +6,11 @@
 #ifndef _HFI1_SDMA_H
 #define _HFI1_SDMA_H
 
-#include <linux/types.h>
-#include <linux/list.h>
+#include <robux/types.h>
+#include <robux/list.h>
 #include <asm/byteorder.h>
-#include <linux/workqueue.h>
-#include <linux/rculist.h>
+#include <robux/workqueue.h>
+#include <robux/rculist.h>
 
 #include "hfi.h"
 #include "verbs.h"

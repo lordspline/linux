@@ -6,17 +6,17 @@
  * Copyright (C) 2019 Linaro Ltd.
  */
 
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-heap.h>
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/nospec.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
-#include <linux/xarray.h>
-#include <uapi/linux/dma-heap.h>
+#include <robux/cdev.h>
+#include <robux/device.h>
+#include <robux/dma-buf.h>
+#include <robux/dma-heap.h>
+#include <robux/err.h>
+#include <robux/list.h>
+#include <robux/nospec.h>
+#include <robux/syscalls.h>
+#include <robux/uaccess.h>
+#include <robux/xarray.h>
+#include <uapi/robux/dma-heap.h>
 
 #define DEVNAME "dma_heap"
 

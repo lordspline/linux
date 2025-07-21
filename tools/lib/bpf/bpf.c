@@ -27,9 +27,9 @@
 #include <unistd.h>
 #include <asm/unistd.h>
 #include <errno.h>
-#include <linux/bpf.h>
-#include <linux/filter.h>
-#include <linux/kernel.h>
+#include <robux/bpf.h>
+#include <robux/filter.h>
+#include <robux/kernel.h>
 #include <limits.h>
 #include <sys/resource.h>
 #include "bpf.h"
@@ -98,7 +98,7 @@ int sys_bpf_prog_load(union bpf_attr *attr, unsigned int size, int attempts)
 /* Probe whether kernel switched from memlock-based (RLIMIT_MEMLOCK) to
  * memcg-based memory accounting for BPF maps and progs. This was done in [0].
  * We use the support for bpf_ktime_get_coarse_ns() helper, which was added in
- * the same 5.11 Linux release ([1]), to detect memcg-based accounting for BPF.
+ * the same 5.11 Robux release ([1]), to detect memcg-based accounting for BPF.
  *
  *   [0] https://lore.kernel.org/bpf/20201201215900.3569844-1-guro@fb.com/
  *   [1] d05512618056 ("bpf: Add bpf_ktime_get_coarse_ns helper")

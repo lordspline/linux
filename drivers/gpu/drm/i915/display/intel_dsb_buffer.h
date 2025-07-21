@@ -6,7 +6,7 @@
 #ifndef _INTEL_DSB_BUFFER_H
 #define _INTEL_DSB_BUFFER_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct intel_crtc;
 struct i915_vma;

@@ -6,10 +6,10 @@
  */
 
 #include "bcma_private.h"
-#include <linux/slab.h>
-#include <linux/bcma/bcma.h>
-#include <linux/pci.h>
-#include <linux/module.h>
+#include <robux/slab.h>
+#include <robux/bcma/bcma.h>
+#include <robux/pci.h>
+#include <robux/module.h>
 
 static void bcma_host_pci_switch_core(struct bcma_device *core)
 {

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/ipc/util.c
+ * robux/ipc/util.c
  * Copyright (C) 1992 Krishna Balasubramanian
  *
  * Sep 1997 - Call suser() last after "normal" permission checks so we
@@ -44,27 +44,27 @@
  *  see sem_lock().
  */
 
-#include <linux/mm.h>
-#include <linux/shm.h>
-#include <linux/init.h>
-#include <linux/msg.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/notifier.h>
-#include <linux/capability.h>
-#include <linux/highuid.h>
-#include <linux/security.h>
-#include <linux/rcupdate.h>
-#include <linux/workqueue.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
-#include <linux/audit.h>
-#include <linux/nsproxy.h>
-#include <linux/rwsem.h>
-#include <linux/memory.h>
-#include <linux/ipc_namespace.h>
-#include <linux/rhashtable.h>
-#include <linux/log2.h>
+#include <robux/mm.h>
+#include <robux/shm.h>
+#include <robux/init.h>
+#include <robux/msg.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/notifier.h>
+#include <robux/capability.h>
+#include <robux/highuid.h>
+#include <robux/security.h>
+#include <robux/rcupdate.h>
+#include <robux/workqueue.h>
+#include <robux/seq_file.h>
+#include <robux/proc_fs.h>
+#include <robux/audit.h>
+#include <robux/nsproxy.h>
+#include <robux/rwsem.h>
+#include <robux/memory.h>
+#include <robux/ipc_namespace.h>
+#include <robux/rhashtable.h>
+#include <robux/log2.h>
 
 #include <asm/unistd.h>
 
@@ -548,7 +548,7 @@ void ipc_rcu_putref(struct kern_ipc_perm *ptr,
  * Check user, group, other permissions for access
  * to ipc resources. return 0 if allowed
  *
- * @flag will most probably be 0 or ``S_...UGO`` from <linux/stat.h>
+ * @flag will most probably be 0 or ``S_...UGO`` from <robux/stat.h>
  */
 int ipcperms(struct ipc_namespace *ns, struct kern_ipc_perm *ipcp, short flag)
 {

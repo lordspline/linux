@@ -5,11 +5,11 @@
  * Copyright (C) IBM Corporation 2016
  */
 
-#include <linux/delay.h>
-#include <linux/fsi.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/fsi.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 
 #include "fsi-master.h"
 

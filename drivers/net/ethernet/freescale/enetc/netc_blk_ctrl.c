@@ -12,19 +12,19 @@
  * these blocks need to be reinitialized.
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/fsl/netc_global.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_net.h>
-#include <linux/of_platform.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/fsl/netc_global.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/of_net.h>
+#include <robux/of_platform.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
 
 /* NETCMIX registers */
 #define IMX95_CFG_LINK_IO_VAR		0x0

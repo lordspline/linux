@@ -8,10 +8,10 @@
 #ifndef __SEQ_OSS_DEVICE_H
 #define __SEQ_OSS_DEVICE_H
 
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
+#include <robux/time.h>
+#include <robux/wait.h>
+#include <robux/slab.h>
+#include <robux/sched/signal.h>
 #include <sound/core.h>
 #include <sound/seq_oss.h>
 #include <sound/rawmidi.h>

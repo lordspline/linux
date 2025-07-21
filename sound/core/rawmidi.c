@@ -5,17 +5,17 @@
  */
 
 #include <sound/core.h>
-#include <linux/major.h>
-#include <linux/init.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/wait.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/nospec.h>
+#include <robux/major.h>
+#include <robux/init.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/wait.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/mm.h>
+#include <robux/nospec.h>
 #include <sound/rawmidi.h>
 #include <sound/info.h>
 #include <sound/control.h>

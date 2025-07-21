@@ -12,16 +12,16 @@
  *  Copyright (c) 2008 Silicon Graphics, Inc.  All Rights Reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/hugetlb.h>
-#include <linux/delay.h>
-#include <linux/timex.h>
-#include <linux/srcu.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/hugetlb.h>
+#include <robux/delay.h>
+#include <robux/timex.h>
+#include <robux/srcu.h>
 #include <asm/processor.h>
 #include "gru.h"
 #include "grutables.h"

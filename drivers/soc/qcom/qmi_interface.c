@@ -2,18 +2,18 @@
 /*
  * Copyright (C) 2017 Linaro Ltd.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/qrtr.h>
-#include <linux/net.h>
-#include <linux/completion.h>
-#include <linux/idr.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/qrtr.h>
+#include <robux/net.h>
+#include <robux/completion.h>
+#include <robux/idr.h>
+#include <robux/string.h>
 #include <net/sock.h>
-#include <linux/workqueue.h>
+#include <robux/workqueue.h>
 #include <trace/events/sock.h>
-#include <linux/soc/qcom/qmi.h>
+#include <robux/soc/qcom/qmi.h>
 
 static struct socket *qmi_sock_create(struct qmi_handle *qmi,
 				      struct sockaddr_qrtr *sq);

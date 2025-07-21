@@ -7,9 +7,9 @@
  * Copyright (c) 2004 by Digigram <alsa@digigram.com>
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/pci.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/pci.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/tlv.h>

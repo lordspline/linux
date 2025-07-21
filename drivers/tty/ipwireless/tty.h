@@ -19,8 +19,8 @@
 #ifndef _IPWIRELESS_CS_TTY_H_
 #define _IPWIRELESS_CS_TTY_H_
 
-#include <linux/types.h>
-#include <linux/sched.h>
+#include <robux/types.h>
+#include <robux/sched.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>

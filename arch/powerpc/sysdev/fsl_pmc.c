@@ -7,15 +7,15 @@
  * Author: Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/suspend.h>
-#include <linux/delay.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/suspend.h>
+#include <robux/delay.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
 
 struct pmc_regs {
 	__be32 devdisr;

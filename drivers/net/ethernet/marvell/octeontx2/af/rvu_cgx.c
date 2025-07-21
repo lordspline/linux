@@ -5,9 +5,9 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include "rvu.h"
 #include "cgx.h"

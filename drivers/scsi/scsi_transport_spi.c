@@ -5,15 +5,15 @@
  *  Copyright (c) 2003 Silicon Graphics, Inc.  All rights reserved.
  *  Copyright (c) 2004, 2005 James Bottomley <James.Bottomley@SteelEye.com>
  */
-#include <linux/ctype.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/workqueue.h>
-#include <linux/blkdev.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
+#include <robux/ctype.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/workqueue.h>
+#include <robux/blkdev.h>
+#include <robux/mutex.h>
+#include <robux/sysfs.h>
+#include <robux/slab.h>
+#include <robux/suspend.h>
 #include <scsi/scsi.h>
 #include "scsi_priv.h"
 #include <scsi/scsi_device.h>

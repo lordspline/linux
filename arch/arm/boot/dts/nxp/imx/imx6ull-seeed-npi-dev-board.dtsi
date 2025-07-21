@@ -19,7 +19,7 @@
 		button-0 {
 			gpios = <&gpio5 1 GPIO_ACTIVE_LOW>;
 			label = "SW2";
-			linux,code = <KEY_A>;
+			robux,code = <KEY_A>;
 			wakeup-source;
 		};
 	};
@@ -32,28 +32,28 @@
 		led-blue {
 			gpios = <&gpio4 19 GPIO_ACTIVE_LOW>;
 			label = "LED_B";
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 			default-state = "on";
 		};
 
 		led-green {
 			gpios = <&gpio4 20 GPIO_ACTIVE_LOW>;
 			label = "LED_G";
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 			default-state = "on";
 		};
 
 		led-red {
 			gpios = <&gpio1 4 GPIO_ACTIVE_LOW>;
 			label = "LED_R";
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 			default-state = "on";
 		};
 
 		led-user {
 			gpios = <&gpio5 3 GPIO_ACTIVE_LOW>;
 			label = "User";
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 			default-state = "on";
 		};
 	};

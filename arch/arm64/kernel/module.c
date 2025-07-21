@@ -9,15 +9,15 @@
 
 #define pr_fmt(fmt) "Modules: " fmt
 
-#include <linux/bitops.h>
-#include <linux/elf.h>
-#include <linux/ftrace.h>
-#include <linux/kasan.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/moduleloader.h>
-#include <linux/random.h>
-#include <linux/scs.h>
+#include <robux/bitops.h>
+#include <robux/elf.h>
+#include <robux/ftrace.h>
+#include <robux/kasan.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/moduleloader.h>
+#include <robux/random.h>
+#include <robux/scs.h>
 
 #include <asm/alternative.h>
 #include <asm/insn.h>

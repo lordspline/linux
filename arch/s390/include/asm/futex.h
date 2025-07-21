@@ -2,9 +2,9 @@
 #ifndef _ASM_S390_FUTEX_H
 #define _ASM_S390_FUTEX_H
 
-#include <linux/instrumented.h>
-#include <linux/uaccess.h>
-#include <linux/futex.h>
+#include <robux/instrumented.h>
+#include <robux/uaccess.h>
+#include <robux/futex.h>
 #include <asm/asm-extable.h>
 #include <asm/mmu_context.h>
 #include <asm/errno.h>

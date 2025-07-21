@@ -2,15 +2,15 @@
 #ifndef __ACPI_PROCESSOR_H
 #define __ACPI_PROCESSOR_H
 
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/pm_qos.h>
-#include <linux/printk.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/thermal.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/cpu.h>
+#include <robux/cpufreq.h>
+#include <robux/pm_qos.h>
+#include <robux/printk.h>
+#include <robux/sched.h>
+#include <robux/smp.h>
+#include <robux/thermal.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include <asm/acpi.h>
 

@@ -2,13 +2,13 @@
 #ifndef __PERF_DSO
 #define __PERF_DSO
 
-#include <linux/refcount.h>
-#include <linux/types.h>
-#include <linux/rbtree.h>
+#include <robux/refcount.h>
+#include <robux/types.h>
+#include <robux/rbtree.h>
 #include <sys/types.h>
 #include <stdbool.h>
 #include <stdio.h>
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 #include "build-id.h"
 #include "mutex.h"
 #include <internal/rc_check.h>

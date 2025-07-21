@@ -1,17 +1,17 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 
 #ifndef _UAPI_LINUX_PIDFD_H
 #define _UAPI_LINUX_PIDFD_H
 
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/ioctl.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/ioctl.h>
 
 /* Flags for pidfd_open().  */
 #define PIDFD_NONBLOCK	O_NONBLOCK
 #define PIDFD_THREAD	O_EXCL
 #ifdef __KERNEL__
-#include <linux/sched.h>
+#include <robux/sched.h>
 #define PIDFD_STALE CLONE_PIDFD
 #endif
 

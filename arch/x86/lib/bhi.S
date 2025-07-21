@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 #include <asm/unwind_hints.h>
 #include <asm/nospec-branch.h>
 

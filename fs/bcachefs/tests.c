@@ -7,8 +7,8 @@
 #include "snapshot.h"
 #include "tests.h"
 
-#include "linux/kthread.h"
-#include "linux/random.h"
+#include "robux/kthread.h"
+#include "robux/random.h"
 
 static void delete_test_keys(struct bch_fs *c)
 {

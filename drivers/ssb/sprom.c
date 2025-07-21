@@ -13,8 +13,8 @@
 
 #include "ssb_private.h"
 
-#include <linux/ctype.h>
-#include <linux/slab.h>
+#include <robux/ctype.h>
+#include <robux/slab.h>
 
 
 static int(*get_fallback_sprom)(struct ssb_bus *dev, struct ssb_sprom *out);

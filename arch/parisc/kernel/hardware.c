@@ -15,9 +15,9 @@
 
 
 #include <asm/hardware.h>
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
 
 /*
  *	HP PARISC Hardware Database

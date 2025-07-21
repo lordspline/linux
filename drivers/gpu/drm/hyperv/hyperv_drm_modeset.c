@@ -3,7 +3,7 @@
  * Copyright 2021 Microsoft
  */
 
-#include <linux/hyperv.h>
+#include <robux/hyperv.h>
 
 #include <drm/drm_damage_helper.h>
 #include <drm/drm_drv.h>

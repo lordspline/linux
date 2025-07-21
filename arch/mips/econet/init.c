@@ -5,9 +5,9 @@
  * Copyright (C) 2025 Caleb James DeLisle <cjd@cjdns.fr>
  */
 
-#include <linux/init.h>
-#include <linux/of_clk.h>
-#include <linux/irqchip.h>
+#include <robux/init.h>
+#include <robux/of_clk.h>
+#include <robux/irqchip.h>
 
 #include <asm/addrspace.h>
 #include <asm/io.h>

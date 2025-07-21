@@ -3,21 +3,21 @@
  * Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
  */
 
-#include <linux/seq_file.h>
-#include <linux/fs.h>
-#include <linux/delay.h>
-#include <linux/root_dev.h>
-#include <linux/clk.h>
-#include <linux/clocksource.h>
-#include <linux/console.h>
-#include <linux/module.h>
-#include <linux/sizes.h>
-#include <linux/cpu.h>
-#include <linux/of_clk.h>
-#include <linux/of_fdt.h>
-#include <linux/of.h>
-#include <linux/cache.h>
-#include <uapi/linux/mount.h>
+#include <robux/seq_file.h>
+#include <robux/fs.h>
+#include <robux/delay.h>
+#include <robux/root_dev.h>
+#include <robux/clk.h>
+#include <robux/clocksource.h>
+#include <robux/console.h>
+#include <robux/module.h>
+#include <robux/sizes.h>
+#include <robux/cpu.h>
+#include <robux/of_clk.h>
+#include <robux/of_fdt.h>
+#include <robux/of.h>
+#include <robux/cache.h>
+#include <uapi/robux/mount.h>
 #include <asm/sections.h>
 #include <asm/arcregs.h>
 #include <asm/asserts.h>
@@ -390,18 +390,18 @@ static void arc_chk_core_config(struct cpuinfo_arc *info)
 #ifdef CONFIG_ARC_HAS_DCCM
 	/*
 	 * DCCM can be arbit placed in hardware.
-	 * Make sure its placement/sz matches what Linux is built with
+	 * Make sure its placement/sz matches what Robux is built with
 	 */
 	if ((unsigned int)__arc_dccm_base != info->dccm.base)
-		panic("Linux built with incorrect DCCM Base address\n");
+		panic("Robux built with incorrect DCCM Base address\n");
 
 	if (CONFIG_ARC_DCCM_SZ * SZ_1K != info->dccm.sz)
-		panic("Linux built with incorrect DCCM Size\n");
+		panic("Robux built with incorrect DCCM Size\n");
 #endif
 
 #ifdef CONFIG_ARC_HAS_ICCM
 	if (CONFIG_ARC_ICCM_SZ * SZ_1K != info->iccm.sz)
-		panic("Linux built with incorrect ICCM Size\n");
+		panic("Robux built with incorrect ICCM Size\n");
 #endif
 }
 

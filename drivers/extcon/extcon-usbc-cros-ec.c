@@ -4,16 +4,16 @@
 // Copyright (C) 2017 Google, Inc.
 // Author: Benson Leung <bleung@chromium.org>
 
-#include <linux/extcon-provider.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
+#include <robux/extcon-provider.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
 
 struct cros_ec_extcon_info {
 	struct device *dev;

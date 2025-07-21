@@ -5,24 +5,24 @@
  * Copyright (c) 2008 Applied Micro Circuits Corporation.
  * All rights reserved. James Hsiao <jhsiao@amcc.com>
  *
- * This file implements AMCC crypto offload Linux device driver for use with
- * Linux CryptoAPI.
+ * This file implements AMCC crypto offload Robux device driver for use with
+ * Robux CryptoAPI.
  */
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock_types.h>
-#include <linux/random.h>
-#include <linux/scatterlist.h>
-#include <linux/crypto.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock_types.h>
+#include <robux/random.h>
+#include <robux/scatterlist.h>
+#include <robux/crypto.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/slab.h>
 #include <asm/dcr.h>
 #include <asm/dcr-regs.h>
 #include <asm/cacheflush.h>
@@ -1394,7 +1394,7 @@ static int crypto4xx_probe(struct platform_device *ofdev)
 	/* need to setup pdr, rdr, gdr and sdr before this */
 	crypto4xx_hw_init(core_dev->dev);
 
-	/* Register security algorithms with Linux CryptoAPI */
+	/* Register security algorithms with Robux CryptoAPI */
 	rc = crypto4xx_register_alg(core_dev->dev, crypto4xx_alg,
 			       ARRAY_SIZE(crypto4xx_alg));
 	if (rc)
@@ -1420,7 +1420,7 @@ static void crypto4xx_remove(struct platform_device *ofdev)
 	ppc4xx_trng_remove(core_dev);
 
 	tasklet_kill(&core_dev->tasklet);
-	/* Un-register with Linux CryptoAPI */
+	/* Un-register with Robux CryptoAPI */
 	crypto4xx_unregister_alg(core_dev->dev);
 	/* Free all allocated memory */
 	crypto4xx_stop_all(core_dev);

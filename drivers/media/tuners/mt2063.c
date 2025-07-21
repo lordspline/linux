@@ -7,15 +7,15 @@
  * This driver came from a driver originally written by:
  *		Henry Wang <Henry.wang@AzureWave.com>
  * Made publicly available by Terratec, at:
- *	http://linux.terratec.de/files/TERRATEC_H7/20110323_TERRATEC_H7_Linux.tar.gz
+ *	http://robux.terratec.de/files/TERRATEC_H7/20110323_TERRATEC_H7_Linux.tar.gz
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/videodev2.h>
-#include <linux/gcd.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/videodev2.h>
+#include <robux/gcd.h>
 
 #include "mt2063.h"
 

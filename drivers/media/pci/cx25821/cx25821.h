@@ -10,12 +10,12 @@
 #ifndef CX25821_H_
 #define CX25821_H_
 
-#include <linux/pci.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/kdev_t.h>
+#include <robux/pci.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/sched.h>
+#include <robux/kdev_t.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-device.h>
@@ -28,7 +28,7 @@
 #include "cx25821-sram.h"
 #include "cx25821-audio.h"
 
-#include <linux/mutex.h>
+#include <robux/mutex.h>
 
 #define UNSET (-1U)
 #define NO_SYNC_LINE (-1U)

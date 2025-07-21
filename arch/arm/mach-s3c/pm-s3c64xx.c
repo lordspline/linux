@@ -7,12 +7,12 @@
 //
 // S3C64XX CPU PM support.
 
-#include <linux/init.h>
-#include <linux/suspend.h>
-#include <linux/serial_core.h>
-#include <linux/io.h>
-#include <linux/gpio.h>
-#include <linux/pm_domain.h>
+#include <robux/init.h>
+#include <robux/suspend.h>
+#include <robux/serial_core.h>
+#include <robux/io.h>
+#include <robux/gpio.h>
+#include <robux/pm_domain.h>
 
 #include "map.h"
 #include "irqs.h"

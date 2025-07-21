@@ -6,8 +6,8 @@
  *
  *  Derived from "arch/m68k/kernel/ptrace.c"
  *  Copyright (C) 1994 by Hamish Macdonald
- *  Taken from linux/kernel/ptrace.c and modified for M680x0.
- *  linux/kernel/ptrace.c is by Ross Biro 1/23/92, edited by Linus Torvalds
+ *  Taken from robux/kernel/ptrace.c and modified for M680x0.
+ *  robux/kernel/ptrace.c is by Ross Biro 1/23/92, edited by Linus Torvalds
  *
  * Modified by Cort Dougan (cort@hq.fsmlabs.com)
  * and Paul Mackerras (paulus@samba.org).
@@ -17,9 +17,9 @@
  * this archive for more details.
  */
 
-#include <linux/ptrace.h>
-#include <linux/regset.h>
-#include <linux/compat.h>
+#include <robux/ptrace.h>
+#include <robux/regset.h>
+#include <robux/compat.h>
 
 #include <asm/switch_to.h>
 

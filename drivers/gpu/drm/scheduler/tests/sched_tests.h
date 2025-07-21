@@ -5,15 +5,15 @@
 #define _SCHED_TESTS_H_
 
 #include <kunit/test.h>
-#include <linux/atomic.h>
-#include <linux/completion.h>
-#include <linux/dma-fence.h>
-#include <linux/hrtimer.h>
-#include <linux/ktime.h>
-#include <linux/list.h>
-#include <linux/atomic.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <robux/atomic.h>
+#include <robux/completion.h>
+#include <robux/dma-fence.h>
+#include <robux/hrtimer.h>
+#include <robux/ktime.h>
+#include <robux/list.h>
+#include <robux/atomic.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
 
 #include <drm/gpu_scheduler.h>
 

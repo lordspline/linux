@@ -4,16 +4,16 @@
 #ifndef __OCTEP_VDPA_H__
 #define __OCTEP_VDPA_H__
 
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <linux/vdpa.h>
-#include <linux/virtio_pci_modern.h>
-#include <uapi/linux/virtio_crypto.h>
-#include <uapi/linux/virtio_net.h>
-#include <uapi/linux/virtio_blk.h>
-#include <uapi/linux/virtio_config.h>
-#include <uapi/linux/virtio_pci.h>
-#include <uapi/linux/vdpa.h>
+#include <robux/pci.h>
+#include <robux/pci_regs.h>
+#include <robux/vdpa.h>
+#include <robux/virtio_pci_modern.h>
+#include <uapi/robux/virtio_crypto.h>
+#include <uapi/robux/virtio_net.h>
+#include <uapi/robux/virtio_blk.h>
+#include <uapi/robux/virtio_config.h>
+#include <uapi/robux/virtio_pci.h>
+#include <uapi/robux/vdpa.h>
 
 #define OCTEP_VDPA_DEVID_CN106K_PF 0xb900
 #define OCTEP_VDPA_DEVID_CN106K_VF 0xb903

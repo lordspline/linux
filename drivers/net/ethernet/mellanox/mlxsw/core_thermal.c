@@ -3,13 +3,13 @@
  * Copyright (c) 2016 Ivan Vecera <cera@cera.cz>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/sysfs.h>
-#include <linux/thermal.h>
-#include <linux/err.h>
-#include <linux/sfp.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/sysfs.h>
+#include <robux/thermal.h>
+#include <robux/err.h>
+#include <robux/sfp.h>
 
 #include "core.h"
 #include "core_env.h"

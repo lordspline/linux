@@ -12,9 +12,9 @@
 #ifndef __RESET_SIMPLE_H__
 #define __RESET_SIMPLE_H__
 
-#include <linux/io.h>
-#include <linux/reset-controller.h>
-#include <linux/spinlock.h>
+#include <robux/io.h>
+#include <robux/reset-controller.h>
+#include <robux/spinlock.h>
 
 /**
  * struct reset_simple_data - driver data for simple reset controllers

@@ -5,10 +5,10 @@
  * Copyright (C) 2012 NVIDIA CORPORATION. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/slab.h>
 
 #include "core.h"
 #include "devicetree.h"

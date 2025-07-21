@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/mmc/host/sdhci_f_sdh30.c
+ * robux/drivers/mmc/host/sdhci_f_sdh30.c
  *
  * Copyright (C) 2013 - 2015 Fujitsu Semiconductor, Ltd
  *              Vincent Yang <vincent.yang@tw.fujitsu.com>
@@ -8,14 +8,14 @@
  * Copyright (C) 2019 Socionext Inc.
  */
 
-#include <linux/acpi.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/clk.h>
-#include <linux/reset.h>
+#include <robux/acpi.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/clk.h>
+#include <robux/reset.h>
 
 #include "sdhci-pltfm.h"
 #include "sdhci_f_sdh30.h"

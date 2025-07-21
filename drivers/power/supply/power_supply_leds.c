@@ -9,11 +9,11 @@
  *  Modified: 2004, Oct     Szabolcs Gyurko
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
-#include <linux/leds.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/power_supply.h>
+#include <robux/slab.h>
+#include <robux/leds.h>
 
 #include "power_supply.h"
 

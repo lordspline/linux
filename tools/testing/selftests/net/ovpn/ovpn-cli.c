@@ -17,9 +17,9 @@
 #include <netinet/in.h>
 #include <time.h>
 
-#include <linux/ovpn.h>
-#include <linux/types.h>
-#include <linux/netlink.h>
+#include <robux/ovpn.h>
+#include <robux/types.h>
+#include <robux/netlink.h>
 
 #include <netlink/socket.h>
 #include <netlink/netlink.h>

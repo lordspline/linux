@@ -3,19 +3,19 @@
  * Copyright 2012 Simon Arlott
  */
 
-#include <linux/bitops.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/sched_clock.h>
+#include <robux/bitops.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/interrupt.h>
+#include <robux/irqreturn.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/sched_clock.h>
 
 #include <asm/irq.h>
 

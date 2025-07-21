@@ -3,12 +3,12 @@
  * Copyright (C) 2004, 2005 Oracle.  All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/string.h>
+#include <robux/uaccess.h>
 
 #include "masklog.h"
 

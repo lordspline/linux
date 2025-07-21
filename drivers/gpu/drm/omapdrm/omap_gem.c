@@ -4,12 +4,12 @@
  * Author: Rob Clark <rob.clark@linaro.org>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/seq_file.h>
-#include <linux/shmem_fs.h>
-#include <linux/spinlock.h>
-#include <linux/pfn_t.h>
-#include <linux/vmalloc.h>
+#include <robux/dma-mapping.h>
+#include <robux/seq_file.h>
+#include <robux/shmem_fs.h>
+#include <robux/spinlock.h>
+#include <robux/pfn_t.h>
+#include <robux/vmalloc.h>
 
 #include <drm/drm_prime.h>
 #include <drm/drm_vma_manager.h>

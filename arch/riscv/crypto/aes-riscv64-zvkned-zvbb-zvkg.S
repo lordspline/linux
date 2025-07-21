@@ -43,7 +43,7 @@
 // - RISC-V Vector Bit-manipulation extension ('Zvbb')
 // - RISC-V Vector GCM/GMAC extension ('Zvkg')
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 .text
 .option arch, +zvkned, +zvbb, +zvkg

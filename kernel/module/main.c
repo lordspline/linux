@@ -7,59 +7,59 @@
 
 #define INCLUDE_VERMAGIC
 
-#include <linux/export.h>
-#include <linux/extable.h>
-#include <linux/moduleloader.h>
-#include <linux/module_signature.h>
-#include <linux/trace_events.h>
-#include <linux/init.h>
-#include <linux/kallsyms.h>
-#include <linux/buildid.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/kernel_read_file.h>
-#include <linux/kstrtox.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/elf.h>
-#include <linux/seq_file.h>
-#include <linux/syscalls.h>
-#include <linux/fcntl.h>
-#include <linux/rcupdate.h>
-#include <linux/capability.h>
-#include <linux/cpu.h>
-#include <linux/moduleparam.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/vermagic.h>
-#include <linux/notifier.h>
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/string.h>
-#include <linux/mutex.h>
-#include <linux/rculist.h>
-#include <linux/uaccess.h>
+#include <robux/export.h>
+#include <robux/extable.h>
+#include <robux/moduleloader.h>
+#include <robux/module_signature.h>
+#include <robux/trace_events.h>
+#include <robux/init.h>
+#include <robux/kallsyms.h>
+#include <robux/buildid.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/kernel_read_file.h>
+#include <robux/kstrtox.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/elf.h>
+#include <robux/seq_file.h>
+#include <robux/syscalls.h>
+#include <robux/fcntl.h>
+#include <robux/rcupdate.h>
+#include <robux/capability.h>
+#include <robux/cpu.h>
+#include <robux/moduleparam.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/vermagic.h>
+#include <robux/notifier.h>
+#include <robux/sched.h>
+#include <robux/device.h>
+#include <robux/string.h>
+#include <robux/mutex.h>
+#include <robux/rculist.h>
+#include <robux/uaccess.h>
 #include <asm/cacheflush.h>
-#include <linux/set_memory.h>
+#include <robux/set_memory.h>
 #include <asm/mmu_context.h>
-#include <linux/license.h>
+#include <robux/license.h>
 #include <asm/sections.h>
-#include <linux/tracepoint.h>
-#include <linux/ftrace.h>
-#include <linux/livepatch.h>
-#include <linux/async.h>
-#include <linux/percpu.h>
-#include <linux/kmemleak.h>
-#include <linux/jump_label.h>
-#include <linux/pfn.h>
-#include <linux/bsearch.h>
-#include <linux/dynamic_debug.h>
-#include <linux/audit.h>
-#include <linux/cfi.h>
-#include <linux/codetag.h>
-#include <linux/debugfs.h>
-#include <linux/execmem.h>
-#include <uapi/linux/module.h>
+#include <robux/tracepoint.h>
+#include <robux/ftrace.h>
+#include <robux/livepatch.h>
+#include <robux/async.h>
+#include <robux/percpu.h>
+#include <robux/kmemleak.h>
+#include <robux/jump_label.h>
+#include <robux/pfn.h>
+#include <robux/bsearch.h>
+#include <robux/dynamic_debug.h>
+#include <robux/audit.h>
+#include <robux/cfi.h>
+#include <robux/codetag.h>
+#include <robux/debugfs.h>
+#include <robux/execmem.h>
+#include <uapi/robux/module.h>
 #include "internal.h"
 
 #define CREATE_TRACE_POINTS
@@ -2146,7 +2146,7 @@ static int elf_validity_cache_index_str(struct load_info *info)
  * @info:  Load info to cache version indices in.
  *         Must have &load_info->sechdrs and &load_info->secstrings populated.
  * @flags: Load flags, relevant to suppress version loading, see
- *         uapi/linux/module.h
+ *         uapi/robux/module.h
  *
  * If we're ignoring modversions based on @flags, zero all version indices
  * and return validity. Othewrise check:
@@ -2222,7 +2222,7 @@ static int elf_validity_cache_index_versions(struct load_info *info, int flags)
  * @info:  Load info to read from and update.
  *         &load_info->sechdrs and &load_info->secstrings must be populated.
  * @flags: Load flags, relevant to suppress version loading, see
- *         uapi/linux/module.h
+ *         uapi/robux/module.h
  *
  * Populates &load_info->index, validating as it goes.
  * See child functions for per-field validation:

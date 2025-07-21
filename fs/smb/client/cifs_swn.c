@@ -5,9 +5,9 @@
  * Copyright (c) 2020 Samuel Cabrero <scabrero@suse.de>
  */
 
-#include <linux/kref.h>
+#include <robux/kref.h>
 #include <net/genetlink.h>
-#include <uapi/linux/cifs/cifs_netlink.h>
+#include <uapi/robux/cifs/cifs_netlink.h>
 
 #include "cifs_swn.h"
 #include "cifsglob.h"

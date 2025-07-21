@@ -11,20 +11,20 @@
  * or implied.
  *
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ctype.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/edac.h>
-#include <linux/smp.h>
-#include <linux/gfp.h>
-#include <linux/fsl/edac.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ctype.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/edac.h>
+#include <robux/smp.h>
+#include <robux/gfp.h>
+#include <robux/fsl/edac.h>
 
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 #include "edac_module.h"
 #include "mpc85xx_edac.h"
 #include "fsl_ddr_edac.h"

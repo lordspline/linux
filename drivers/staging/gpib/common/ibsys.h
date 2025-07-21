@@ -2,17 +2,17 @@
 
 #include "gpibP.h"
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/major.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/timer.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/errno.h>
+#include <robux/major.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/timer.h>
 
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
 #include <asm/irq.h>
 #include <asm/dma.h>
 

@@ -10,16 +10,16 @@
  * Copyright © 2000 Netgem S.A.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 #include <asm/errno.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/nftl.h>
-#include <linux/mtd/inftl.h>
+#include <robux/uaccess.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/nftl.h>
+#include <robux/mtd/inftl.h>
 
 /*
  * find_boot_record: Find the INFTL Media Header and its Spare copy which

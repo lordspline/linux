@@ -3,9 +3,9 @@
 #ifndef _NET_SHAPER_H_
 #define _NET_SHAPER_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
-#include <uapi/linux/net_shaper.h>
+#include <uapi/robux/net_shaper.h>
 
 struct net_device;
 struct devlink;

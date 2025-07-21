@@ -3,12 +3,12 @@
  * Copyright (C) 2024 Loongson Technology Corporation Limited.
  */
 
-#include <linux/acpi.h>
-#include <linux/edac.h>
-#include <linux/init.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/edac.h>
+#include <robux/init.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 #include "edac_module.h"
 
 #define ECC_CS_COUNT_REG	0x18

@@ -3,9 +3,9 @@
 #ifndef BTRFS_SUBPAGE_H
 #define BTRFS_SUBPAGE_H
 
-#include <linux/spinlock.h>
-#include <linux/atomic.h>
-#include <linux/sizes.h>
+#include <robux/spinlock.h>
+#include <robux/atomic.h>
+#include <robux/sizes.h>
 #include "btrfs_inode.h"
 #include "fs.h"
 

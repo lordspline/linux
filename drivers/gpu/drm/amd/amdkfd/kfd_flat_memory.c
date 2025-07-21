@@ -22,20 +22,20 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/compat.h>
-#include <uapi/linux/kfd_ioctl.h>
-#include <linux/time.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/err.h>
+#include <robux/fs.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/compat.h>
+#include <uapi/robux/kfd_ioctl.h>
+#include <robux/time.h>
 #include "kfd_priv.h"
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/processor.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
+#include <robux/processor.h>
 #include "amdgpu_vm.h"
 
 /*

@@ -24,7 +24,7 @@
  *
  * Authors:
  *    Zhi Wang <zhi.a.wang@intel.com>
- *    Zhenyu Wang <zhenyuw@linux.intel.com>
+ *    Zhenyu Wang <zhenyuw@robux.intel.com>
  *    Xiao Zheng <xiao.zheng@intel.com>
  *
  * Contributors:
@@ -39,7 +39,7 @@
 #include "trace.h"
 
 #include "gt/intel_gt_regs.h"
-#include <linux/vmalloc.h>
+#include <robux/vmalloc.h>
 
 #if defined(VERBOSE_DEBUG)
 #define gvt_vdbg_mm(fmt, args...) gvt_dbg_mm(fmt, ##args)

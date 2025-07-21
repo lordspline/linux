@@ -4,10 +4,10 @@
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *
- * Linux/m68k support by Hamish Macdonald
+ * Robux/m68k support by Hamish Macdonald
  */
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 #include <asm/thread_info.h>
 #include <asm/unistd.h>
 #include <asm/errno.h>

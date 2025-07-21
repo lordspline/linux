@@ -11,12 +11,12 @@
 #include <sound/asound.h>
 #include <sound/memalloc.h>
 #include <sound/minors.h>
-#include <linux/poll.h>
-#include <linux/mm.h>
-#include <linux/bitops.h>
-#include <linux/pm_qos.h>
-#include <linux/refcount.h>
-#include <linux/uio.h>
+#include <robux/poll.h>
+#include <robux/mm.h>
+#include <robux/bitops.h>
+#include <robux/pm_qos.h>
+#include <robux/refcount.h>
+#include <robux/uio.h>
 
 #define snd_pcm_substream_chip(substream) ((substream)->private_data)
 #define snd_pcm_chip(pcm) ((pcm)->private_data)

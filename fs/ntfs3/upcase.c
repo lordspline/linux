@@ -5,8 +5,8 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
 
 #include "ntfs_fs.h"
 

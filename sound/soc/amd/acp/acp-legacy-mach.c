@@ -16,8 +16,8 @@
 #include <sound/pcm_params.h>
 #include <sound/soc-acpi.h>
 #include <sound/soc-dapm.h>
-#include <linux/dmi.h>
-#include <linux/module.h>
+#include <robux/dmi.h>
+#include <robux/module.h>
 
 #include "acp-mach.h"
 #include "acp3x-es83xx/acp3x-es83xx.h"

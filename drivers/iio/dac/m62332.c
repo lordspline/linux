@@ -8,15 +8,15 @@
  *  Copyright (C) 2010, 2011 Roland Stigge <stigge@antcom.de>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/driver.h>
 
-#include <linux/regulator/consumer.h>
+#include <robux/regulator/consumer.h>
 
 #define M62332_CHANNELS 2
 

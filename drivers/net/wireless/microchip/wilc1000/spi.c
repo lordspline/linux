@@ -4,11 +4,11 @@
  * All rights reserved.
  */
 
-#include <linux/clk.h>
-#include <linux/spi/spi.h>
-#include <linux/crc7.h>
-#include <linux/crc-itu-t.h>
-#include <linux/gpio/consumer.h>
+#include <robux/clk.h>
+#include <robux/spi/spi.h>
+#include <robux/crc7.h>
+#include <robux/crc-itu-t.h>
+#include <robux/gpio/consumer.h>
 
 #include "netdev.h"
 #include "cfg80211.h"

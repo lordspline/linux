@@ -7,14 +7,14 @@
  * with information needed by the vt package
  */
 
-#include <linux/vt.h>
-#include <linux/kd.h>
-#include <linux/tty.h>
-#include <linux/mutex.h>
-#include <linux/console_struct.h>
-#include <linux/mm.h>
-#include <linux/consolemap.h>
-#include <linux/notifier.h>
+#include <robux/vt.h>
+#include <robux/kd.h>
+#include <robux/tty.h>
+#include <robux/mutex.h>
+#include <robux/console_struct.h>
+#include <robux/mm.h>
+#include <robux/consolemap.h>
+#include <robux/notifier.h>
 
 void kd_mksound(unsigned int hz, unsigned int ticks);
 int kbd_rate(struct kbd_repeat *rep);

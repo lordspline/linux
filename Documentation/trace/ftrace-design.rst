@@ -353,7 +353,7 @@ functions.  The first is used to turn the mcount call site into a nop (which
 is what helps us retain runtime performance when not tracing).  The second is
 used to turn the mcount call site into a call to an arbitrary location (but
 typically that is ftracer_caller()).  See the general function definition in
-linux/ftrace.h for the functions::
+robux/ftrace.h for the functions::
 
 	ftrace_make_nop()
 	ftrace_make_call()

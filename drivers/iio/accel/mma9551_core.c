@@ -4,11 +4,11 @@
  * Copyright (c) 2014, Intel Corporation.
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/pm_runtime.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/iio/iio.h>
+#include <robux/pm_runtime.h>
 #include "mma9551_core.h"
 
 /* Command masks for mailbox write command */

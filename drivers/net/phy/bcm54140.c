@@ -4,11 +4,11 @@
  * Copyright (c) 2020 Michael Walle <michael@walle.cc>
  */
 
-#include <linux/bitfield.h>
-#include <linux/brcmphy.h>
-#include <linux/hwmon.h>
-#include <linux/module.h>
-#include <linux/phy.h>
+#include <robux/bitfield.h>
+#include <robux/brcmphy.h>
+#include <robux/hwmon.h>
+#include <robux/module.h>
+#include <robux/phy.h>
 
 #include "phylib.h"
 #include "bcm-phy-lib.h"

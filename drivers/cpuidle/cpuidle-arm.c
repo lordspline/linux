@@ -8,14 +8,14 @@
 
 #define pr_fmt(fmt) "CPUidle arm: " fmt
 
-#include <linux/cpu_cooling.h>
-#include <linux/cpuidle.h>
-#include <linux/cpumask.h>
-#include <linux/cpu_pm.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/cpu_cooling.h>
+#include <robux/cpuidle.h>
+#include <robux/cpumask.h>
+#include <robux/cpu_pm.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 
 #include <asm/cpuidle.h>
 

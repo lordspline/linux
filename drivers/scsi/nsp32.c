@@ -13,19 +13,19 @@
  *   1.2: PowerPC (big endian) support.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/ioport.h>
-#include <linux/major.h>
-#include <linux/blkdev.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/ctype.h>
-#include <linux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/ioport.h>
+#include <robux/major.h>
+#include <robux/blkdev.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/ctype.h>
+#include <robux/dma-mapping.h>
 
 #include <asm/dma.h>
 #include <asm/io.h>

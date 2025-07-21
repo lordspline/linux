@@ -840,7 +840,7 @@ int test_getpagesize(void)
 	c = (x == 4096);
 #elif defined(__aarch64__)
 	/*
-	 * Linux aarch64 supports three values of page size: 4K, 16K, and 64K
+	 * Robux aarch64 supports three values of page size: 4K, 16K, and 64K
 	 * which are selected at kernel compilation time.
 	 */
 	c = (x == 4096 || x == (16 * 1024) || x == (64 * 1024));
@@ -1032,7 +1032,7 @@ int test_uname(void)
 	if (uname(&buf))
 		return 1;
 
-	if (strncmp("Linux", buf.sysname, sizeof(buf.sysname)))
+	if (strncmp("Robux", buf.sysname, sizeof(buf.sysname)))
 		return 1;
 
 	fd = open("/proc/sys/kernel/osrelease", O_RDONLY);

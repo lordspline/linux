@@ -12,12 +12,12 @@
  *    Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
 
-#include <linux/memblock.h>
-#include <linux/highmem.h>
-#include <linux/suspend.h>
-#include <linux/dma-direct.h>
-#include <linux/execmem.h>
-#include <linux/vmalloc.h>
+#include <robux/memblock.h>
+#include <robux/highmem.h>
+#include <robux/suspend.h>
+#include <robux/dma-direct.h>
+#include <robux/execmem.h>
+#include <robux/vmalloc.h>
 
 #include <asm/swiotlb.h>
 #include <asm/machdep.h>

@@ -6,10 +6,10 @@
  *     Atish Patra <atish.patra@wdc.com>
  */
 
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/kvm_host.h>
-#include <linux/wordpart.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/kvm_host.h>
+#include <robux/wordpart.h>
 #include <asm/sbi.h>
 #include <asm/kvm_vcpu_sbi.h>
 

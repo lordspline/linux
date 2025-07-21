@@ -17,16 +17,16 @@
 
 #define pr_fmt(fmt) "mvebu-coherency: " fmt
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
-#include <linux/smp.h>
-#include <linux/dma-map-ops.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mbus.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/of_address.h>
+#include <robux/io.h>
+#include <robux/smp.h>
+#include <robux/dma-map-ops.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/mbus.h>
+#include <robux/pci.h>
 #include <asm/smp_plat.h>
 #include <asm/cacheflush.h>
 #include <asm/mach/map.h>

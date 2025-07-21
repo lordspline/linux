@@ -6,10 +6,10 @@
  * Copyright © 2018-2020 ANSSI
  */
 
-#include <linux/bits.h>
-#include <linux/init.h>
-#include <linux/lsm_hooks.h>
-#include <uapi/linux/lsm.h>
+#include <robux/bits.h>
+#include <robux/init.h>
+#include <robux/lsm_hooks.h>
+#include <uapi/robux/lsm.h>
 
 #include "common.h"
 #include "cred.h"

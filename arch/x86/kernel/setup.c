@@ -5,29 +5,29 @@
  * This file contains the setup_arch() code, which handles the architecture-dependent
  * parts of early kernel initialization.
  */
-#include <linux/acpi.h>
-#include <linux/console.h>
-#include <linux/cpu.h>
-#include <linux/crash_dump.h>
-#include <linux/dma-map-ops.h>
-#include <linux/efi.h>
-#include <linux/hugetlb.h>
-#include <linux/ima.h>
-#include <linux/init_ohci1394_dma.h>
-#include <linux/initrd.h>
-#include <linux/iscsi_ibft.h>
-#include <linux/memblock.h>
-#include <linux/panic_notifier.h>
-#include <linux/pci.h>
-#include <linux/random.h>
-#include <linux/root_dev.h>
-#include <linux/static_call.h>
-#include <linux/swiotlb.h>
-#include <linux/tboot.h>
-#include <linux/usb/xhci-dbgp.h>
-#include <linux/vmalloc.h>
+#include <robux/acpi.h>
+#include <robux/console.h>
+#include <robux/cpu.h>
+#include <robux/crash_dump.h>
+#include <robux/dma-map-ops.h>
+#include <robux/efi.h>
+#include <robux/hugetlb.h>
+#include <robux/ima.h>
+#include <robux/init_ohci1394_dma.h>
+#include <robux/initrd.h>
+#include <robux/iscsi_ibft.h>
+#include <robux/memblock.h>
+#include <robux/panic_notifier.h>
+#include <robux/pci.h>
+#include <robux/random.h>
+#include <robux/root_dev.h>
+#include <robux/static_call.h>
+#include <robux/swiotlb.h>
+#include <robux/tboot.h>
+#include <robux/usb/xhci-dbgp.h>
+#include <robux/vmalloc.h>
 
-#include <uapi/linux/mount.h>
+#include <uapi/robux/mount.h>
 
 #include <xen/xen.h>
 

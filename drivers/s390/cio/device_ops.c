@@ -5,14 +5,14 @@
  * Author(s): Martin Schwidefsky (schwidefsky@de.ibm.com)
  *	      Cornelia Huck (cornelia.huck@de.ibm.com)
  */
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/completion.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/completion.h>
 
 #include <asm/ccwdev.h>
 #include <asm/idals.h>

@@ -5,15 +5,15 @@
  * Copyright (c) 2021 Yassine Oudjana <y.oudjana@protonmail.com>
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/regulator/consumer.h>
+#include <robux/bitmap.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/regulator/consumer.h>
 
 #define CYPRESS_SF_DEV_NAME "cypress-sf"
 
@@ -93,7 +93,7 @@ static int cypress_sf_probe(struct i2c_client *client)
 	}
 
 	touchkey->num_keys = device_property_read_u32_array(&client->dev,
-							    "linux,keycodes",
+							    "robux,keycodes",
 							    NULL, 0);
 	if (touchkey->num_keys < 0) {
 		/* Default key count */
@@ -107,7 +107,7 @@ static int cypress_sf_probe(struct i2c_client *client)
 	if (!touchkey->keycodes)
 		return -ENOMEM;
 
-	error = device_property_read_u32_array(&client->dev, "linux,keycodes",
+	error = device_property_read_u32_array(&client->dev, "robux,keycodes",
 					       touchkey->keycodes,
 					       touchkey->num_keys);
 

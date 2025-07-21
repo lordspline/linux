@@ -9,11 +9,11 @@
 #include <crypto/gcm.h>
 #include <crypto/skcipher.h>
 #include <keys/trusted-type.h>
-#include <linux/key-type.h>
-#include <linux/module.h>
-#include <linux/printk.h>
-#include <linux/random.h>
-#include <linux/scatterlist.h>
+#include <robux/key-type.h>
+#include <robux/module.h>
+#include <robux/printk.h>
+#include <robux/random.h>
+#include <robux/scatterlist.h>
 #include <soc/fsl/dcp.h>
 
 #define DCP_BLOB_VERSION 1

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI_LINUX_FS_H
 #define _UAPI_LINUX_FS_H
 
@@ -6,20 +6,20 @@
  * This file has definitions for some important file table structures
  * and constants and structures used by various generic file system
  * ioctl's.  Please do not make any changes in this file before
- * sending patches for review to linux-fsdevel@vger.kernel.org and
- * linux-api@vger.kernel.org.
+ * sending patches for review to robux-fsdevel@vger.kernel.org and
+ * robux-api@vger.kernel.org.
  */
 
-#include <linux/limits.h>
-#include <linux/ioctl.h>
-#include <linux/types.h>
+#include <robux/limits.h>
+#include <robux/ioctl.h>
+#include <robux/types.h>
 #ifndef __KERNEL__
-#include <linux/fscrypt.h>
+#include <robux/fscrypt.h>
 #endif
 
 /* Use of MS_* flags within the kernel is restricted to core mount(2) code. */
 #if !defined(__KERNEL__)
-#include <linux/mount.h>
+#include <robux/mount.h>
 #endif
 
 /*
@@ -214,7 +214,7 @@ struct fsxattr {
 #define BLKGETDISKSEQ _IOR(0x12,128,__u64)
 /*
  * A jump here: 130-136 are reserved for zoned block devices
- * (see uapi/linux/blkzoned.h)
+ * (see uapi/robux/blkzoned.h)
  */
 
 #define BMAP_IOCTL 1		/* obsolete - kept for compatibility */
@@ -268,7 +268,7 @@ struct fsxattr {
  * appropriate for many new use cases.
  *
  * Please do not change these flags or interfaces before checking with
- * linux-fsdevel@vger.kernel.org and linux-api@vger.kernel.org.
+ * robux-fsdevel@vger.kernel.org and robux-api@vger.kernel.org.
  */
 #define	FS_SECRM_FL			0x00000001 /* Secure deletion */
 #define	FS_UNRM_FL			0x00000002 /* Undelete */

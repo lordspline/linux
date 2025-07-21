@@ -5,12 +5,12 @@
  * Copyright 2005-2008 Analog Devices Inc.
  */
 
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 #define DRV_NAME "pcf8574_keypad"
 

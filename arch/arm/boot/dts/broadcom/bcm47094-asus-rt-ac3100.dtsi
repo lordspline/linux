@@ -25,25 +25,25 @@
 
 		button-led {
 			label = "Backlight";
-			linux,code = <KEY_BRIGHTNESS_ZERO>;
+			robux,code = <KEY_BRIGHTNESS_ZERO>;
 			gpios = <&chipcommon 4 GPIO_ACTIVE_LOW>;
 		};
 
 		button-reset {
 			label = "Reset";
-			linux,code = <KEY_RESTART>;
+			robux,code = <KEY_RESTART>;
 			gpios = <&chipcommon 11 GPIO_ACTIVE_LOW>;
 		};
 
 		button-wifi {
 			label = "Wi-Fi";
-			linux,code = <KEY_RFKILL>;
+			robux,code = <KEY_RFKILL>;
 			gpios = <&chipcommon 18 GPIO_ACTIVE_LOW>;
 		};
 
 		button-wps {
 			label = "WPS";
-			linux,code = <KEY_WPS_BUTTON>;
+			robux,code = <KEY_WPS_BUTTON>;
 			gpios = <&chipcommon 20 GPIO_ACTIVE_LOW>;
 		};
 	};
@@ -61,7 +61,7 @@
 			color = <LED_COLOR_ID_WHITE>;
 			function = LED_FUNCTION_POWER;
 			gpios = <&chipcommon 3 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "default-on";
+			robux,default-trigger = "default-on";
 		};
 
 		led-usb2 {
@@ -70,7 +70,7 @@
 			function-enumerator = <1>;
 			gpios = <&chipcommon 16 GPIO_ACTIVE_LOW>;
 			trigger-sources = <&ehci_port2>;
-			linux,default-trigger = "usbport";
+			robux,default-trigger = "usbport";
 		};
 
 		led-usb3 {
@@ -79,7 +79,7 @@
 			function-enumerator = <2>;
 			gpios = <&chipcommon 17 GPIO_ACTIVE_LOW>;
 			trigger-sources = <&ehci_port1>, <&xhci_port1>;
-			linux,default-trigger = "usbport";
+			robux,default-trigger = "usbport";
 		};
 
 		led-wan-red {

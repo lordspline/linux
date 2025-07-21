@@ -3,23 +3,23 @@
  * Copyright (C) 2014-2021 Broadcom
  */
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/panic_notifier.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/sysfs.h>
-#include <linux/io.h>
-#include <linux/string.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/of.h>
-#include <linux/bitops.h>
-#include <linux/pm.h>
-#include <linux/kernel.h>
-#include <linux/kdebug.h>
-#include <linux/notifier.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/panic_notifier.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/sysfs.h>
+#include <robux/io.h>
+#include <robux/string.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/of.h>
+#include <robux/bitops.h>
+#include <robux/pm.h>
+#include <robux/kernel.h>
+#include <robux/kdebug.h>
+#include <robux/notifier.h>
 
 #ifdef CONFIG_MIPS
 #include <asm/traps.h>

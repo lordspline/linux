@@ -17,14 +17,14 @@
  *  to keep track of what period we are in.
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/io.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/io.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

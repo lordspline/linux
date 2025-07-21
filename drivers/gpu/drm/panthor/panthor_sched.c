@@ -8,20 +8,20 @@
 #include <drm/gpu_scheduler.h>
 #include <drm/panthor_drm.h>
 
-#include <linux/build_bug.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma-resv.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/iosys-map.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/build_bug.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/dma-resv.h>
+#include <robux/firmware.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/iosys-map.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 
 #include "panthor_devfreq.h"
 #include "panthor_device.h"

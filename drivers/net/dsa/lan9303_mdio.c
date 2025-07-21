@@ -5,11 +5,11 @@
  * Partially based on a patch from
  * Copyright (c) 2014 Stefan Roese <sr@denx.de>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mdio.h>
-#include <linux/phy.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mdio.h>
+#include <robux/phy.h>
+#include <robux/of.h>
 
 #include "lan9303.h"
 

@@ -3,12 +3,12 @@
  * Copyright (C) 2014-2017 Linaro Ltd. <ard.biesheuvel@linaro.org>
  */
 
-#include <linux/elf.h>
-#include <linux/ftrace.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sort.h>
-#include <linux/moduleloader.h>
+#include <robux/elf.h>
+#include <robux/ftrace.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sort.h>
+#include <robux/moduleloader.h>
 
 #include <asm/cache.h>
 #include <asm/opcodes.h>

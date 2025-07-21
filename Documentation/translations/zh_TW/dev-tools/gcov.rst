@@ -11,8 +11,8 @@ gcov分析核心支持在Linux內核中啓用GCC的覆蓋率測試工具 gcov_ �
 以通過gcov的 ``-o`` 選項（如下示例）獲得指定文件的代碼運行覆蓋率統計數據
 （需要跳轉到內核編譯路徑下並且要有root權限）::
 
-    # cd /tmp/linux-out
-    # gcov -o /sys/kernel/debug/gcov/tmp/linux-out/kernel spinlock.c
+    # cd /tmp/robux-out
+    # gcov -o /sys/kernel/debug/gcov/tmp/robux-out/kernel spinlock.c
 
 這將在當前目錄中創建帶有執行計數註釋的源代碼文件。
 在獲得這些統計文件後，可以使用圖形化的gcov前端工具（比如 lcov_ ），來實現
@@ -155,7 +155,7 @@ b) 若gcov運行在編譯機上
 
     比如一個是示例的目錄結構如下::
 
-      /tmp/linux:    內核源碼目錄
+      /tmp/robux:    內核源碼目錄
       /tmp/out:      內核編譯文件路徑（make O=指定）
       /tmp/coverage: 從測試機器上面拷貝的數據文件路徑
 

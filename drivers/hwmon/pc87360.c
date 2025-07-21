@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  pc87360.c - Part of lm_sensors, Linux kernel modules
+ *  pc87360.c - Part of lm_sensors, Robux kernel modules
  *              for hardware monitoring
  *  Copyright (C) 2004, 2007 Jean Delvare <jdelvare@suse.de>
  *
@@ -22,18 +22,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon-vid.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/platform_device.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/hwmon-vid.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/acpi.h>
+#include <robux/io.h>
 
 #define DRIVER_NAME "pc87360"
 

@@ -13,18 +13,18 @@
  *    sub-devices.
  */
  
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/of_irq.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_device.h>
+#include <robux/of_platform.h>
+#include <robux/of_irq.h>
 
 #include <asm/machdep.h>
 #include <asm/macio.h>
@@ -449,7 +449,7 @@ static int macio_skip_device(struct device_node *np)
  * 
  * This function will do the job of extracting devices from the
  * Open Firmware device tree, build macio_dev structures and add
- * them to the Linux device tree.
+ * them to the Robux device tree.
  * 
  * For now, childs of media-bay are added now as well. This will
  * change rsn though.

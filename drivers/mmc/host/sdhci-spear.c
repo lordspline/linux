@@ -13,19 +13,19 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/highmem.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/io.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/highmem.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/slot-gpio.h>
+#include <robux/io.h>
 #include "sdhci.h"
 
 struct spear_sdhci {

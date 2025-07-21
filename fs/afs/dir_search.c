@@ -7,10 +7,10 @@
  * https://tools.ietf.org/html/draft-keiser-afs3-directory-object-00
  */
 
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/namei.h>
-#include <linux/iversion.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/namei.h>
+#include <robux/iversion.h>
 #include "internal.h"
 #include "afs_fs.h"
 #include "xdr_fs.h"

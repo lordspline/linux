@@ -4,10 +4,10 @@
  *
  * MPP functions for Marvell MV78x00 SoCs
  */
-#include <linux/gpio.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <robux/gpio.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
 #include <plat/mpp.h>
 #include "mv78xx0.h"
 #include "common.h"

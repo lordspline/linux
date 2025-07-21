@@ -1,11 +1,11 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 // Copyright (c) 2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved
 
-#include <linux/hwmon.h>
-#include <linux/bitmap.h>
-#include <linux/mlx5/device.h>
-#include <linux/mlx5/mlx5_ifc.h>
-#include <linux/mlx5/port.h>
+#include <robux/hwmon.h>
+#include <robux/bitmap.h>
+#include <robux/mlx5/device.h>
+#include <robux/mlx5/mlx5_ifc.h>
+#include <robux/mlx5/port.h>
 #include "mlx5_core.h"
 #include "hwmon.h"
 

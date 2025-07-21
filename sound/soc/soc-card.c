@@ -6,8 +6,8 @@
 // Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
 //
 
-#include <linux/lockdep.h>
-#include <linux/rwsem.h>
+#include <robux/lockdep.h>
+#include <robux/rwsem.h>
 #include <sound/soc.h>
 #include <sound/jack.h>
 

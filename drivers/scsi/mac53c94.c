@@ -8,19 +8,19 @@
  * Paul Mackerras, August 1996.
  * Copyright (C) 1996 Paul Mackerras.
  */
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/blkdev.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pgtable.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/blkdev.h>
+#include <robux/proc_fs.h>
+#include <robux/stat.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pgtable.h>
 #include <asm/dbdma.h>
 #include <asm/io.h>
 #include <asm/prom.h>

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (c) 2021 Intel Corporation
 
-#include <linux/bug.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/peci.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/bug.h>
+#include <robux/export.h>
+#include <robux/pci.h>
+#include <robux/peci.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "internal.h"
 

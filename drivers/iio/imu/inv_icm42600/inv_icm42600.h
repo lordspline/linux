@@ -6,14 +6,14 @@
 #ifndef INV_ICM42600_H_
 #define INV_ICM42600_H_
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/regmap.h>
-#include <linux/mutex.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pm.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/common/inv_sensors_timestamp.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/regmap.h>
+#include <robux/mutex.h>
+#include <robux/regulator/consumer.h>
+#include <robux/pm.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/common/inv_sensors_timestamp.h>
 
 #include "inv_icm42600_buffer.h"
 

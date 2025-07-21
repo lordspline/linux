@@ -13,7 +13,7 @@
 #ifndef _QCA_7K_H
 #define _QCA_7K_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include "qca_spi.h"
 

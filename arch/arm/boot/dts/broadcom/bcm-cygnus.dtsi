@@ -269,7 +269,7 @@
 			interrupt-map-mask = <0 0 0 0>;
 			interrupt-map = <0 0 0 0 &gic GIC_SPI 100 IRQ_TYPE_LEVEL_HIGH>;
 
-			linux,pci-domain = <0>;
+			robux,pci-domain = <0>;
 
 			bus-range = <0x00 0xff>;
 
@@ -304,7 +304,7 @@
 			interrupt-map-mask = <0 0 0 0>;
 			interrupt-map = <0 0 0 0 &gic GIC_SPI 106 IRQ_TYPE_LEVEL_HIGH>;
 
-			linux,pci-domain = <1>;
+			robux,pci-domain = <1>;
 
 			bus-range = <0x00 0xff>;
 

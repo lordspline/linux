@@ -5,11 +5,11 @@
 
 #include "xe_guc_pc.h"
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/ktime.h>
-#include <linux/wait_bit.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
+#include <robux/ktime.h>
+#include <robux/wait_bit.h>
 
 #include <drm/drm_managed.h>
 #include <drm/drm_print.h>

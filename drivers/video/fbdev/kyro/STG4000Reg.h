@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/kyro/STG4000Reg.h
+ *  robux/drivers/video/kyro/STG4000Reg.h
  *
  *  Copyright (C) 2002 STMicroelectronics
  *

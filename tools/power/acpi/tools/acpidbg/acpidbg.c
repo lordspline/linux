@@ -18,7 +18,7 @@
 #include <fcntl.h>
 #include <assert.h>
 #include <sys/select.h>
-#include "../../../../../include/linux/circ_buf.h"
+#include "../../../../../include/robux/circ_buf.h"
 
 #define ACPI_AML_FILE		"/sys/kernel/debug/acpi/acpidbg"
 #define ACPI_AML_SEC_TICK	1

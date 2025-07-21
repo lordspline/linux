@@ -6,12 +6,12 @@
 #ifndef HOST1X_DEV_H
 #define HOST1X_DEV_H
 
-#include <linux/device.h>
-#include <linux/iommu.h>
-#include <linux/iova.h>
-#include <linux/irqreturn.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <robux/device.h>
+#include <robux/iommu.h>
+#include <robux/iova.h>
+#include <robux/irqreturn.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
 
 #include "cdma.h"
 #include "channel.h"

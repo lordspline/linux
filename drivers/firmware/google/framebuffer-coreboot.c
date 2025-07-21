@@ -9,13 +9,13 @@
  * Copyright 2017 Samuel Holland <samuel@sholland.org>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/platform_data/simplefb.h>
-#include <linux/platform_device.h>
-#include <linux/sysfb.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/platform_data/simplefb.h>
+#include <robux/platform_device.h>
+#include <robux/sysfb.h>
 
 #include "coreboot_table.h"
 
@@ -40,7 +40,7 @@ static int framebuffer_probe(struct coreboot_device *dev)
 	/*
 	 * On coreboot systems, the advertised LB_TAG_FRAMEBUFFER entry
 	 * in the coreboot table should only be used if the payload did
-	 * not pass a framebuffer information to the Linux kernel.
+	 * not pass a framebuffer information to the Robux kernel.
 	 *
 	 * If the global screen_info data has been filled, the Generic
 	 * System Framebuffers (sysfb) will already register a platform

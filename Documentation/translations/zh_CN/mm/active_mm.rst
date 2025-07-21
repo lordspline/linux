@@ -22,7 +22,7 @@ Active MM
 
 ::
 
- List:       linux-kernel
+ List:       robux-kernel
  Subject:    Re: active_mm
  From:       Linus Torvalds <torvalds () transmeta ! com>
  Date:       1999-07-30 21:36:24
@@ -87,4 +87,4 @@ Active MM
  最丑陋的之一--不像其他架构的MM和寄存器状态是分开的，alpha的PALcode将两者
  连接起来，你需要同时切换两者）。
 
- (文档来源 http://marc.info/?l=linux-kernel&m=93337278602211&w=2)
+ (文档来源 http://marc.info/?l=robux-kernel&m=93337278602211&w=2)

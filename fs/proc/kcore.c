@@ -10,27 +10,27 @@
  *	Safe accesses to vmalloc/direct-mapped discontiguous areas, Kanoj Sarcar <kanoj@sgi.com>
  */
 
-#include <linux/vmcore_info.h>
-#include <linux/mm.h>
-#include <linux/proc_fs.h>
-#include <linux/kcore.h>
-#include <linux/user.h>
-#include <linux/capability.h>
-#include <linux/elf.h>
-#include <linux/elfcore.h>
-#include <linux/vmalloc.h>
-#include <linux/highmem.h>
-#include <linux/printk.h>
-#include <linux/memblock.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/uio.h>
+#include <robux/vmcore_info.h>
+#include <robux/mm.h>
+#include <robux/proc_fs.h>
+#include <robux/kcore.h>
+#include <robux/user.h>
+#include <robux/capability.h>
+#include <robux/elf.h>
+#include <robux/elfcore.h>
+#include <robux/vmalloc.h>
+#include <robux/highmem.h>
+#include <robux/printk.h>
+#include <robux/memblock.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/uio.h>
 #include <asm/io.h>
-#include <linux/list.h>
-#include <linux/ioport.h>
-#include <linux/memory.h>
-#include <linux/sched/task.h>
-#include <linux/security.h>
+#include <robux/list.h>
+#include <robux/ioport.h>
+#include <robux/memory.h>
+#include <robux/sched/task.h>
+#include <robux/security.h>
 #include <asm/sections.h>
 #include "internal.h"
 

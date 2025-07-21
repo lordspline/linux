@@ -5,8 +5,8 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/fs.h>
-#include <linux/slab.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
 #include "internal.h"
 
 static void netfs_reissue_read(struct netfs_io_request *rreq,

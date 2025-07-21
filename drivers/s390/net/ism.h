@@ -2,10 +2,10 @@
 #ifndef S390_ISM_H
 #define S390_ISM_H
 
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/ism.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/ism.h>
 #include <net/smc.h>
 #include <asm/pci_insn.h>
 

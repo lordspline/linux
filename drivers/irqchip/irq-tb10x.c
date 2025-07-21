@@ -7,15 +7,15 @@
  * Author: Christian Ruppert <christian.ruppert@abilis.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/bitops.h>
 
 #define AB_IRQCTL_INT_ENABLE   0x00
 #define AB_IRQCTL_INT_STATUS   0x04

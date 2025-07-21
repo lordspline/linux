@@ -16,20 +16,20 @@
  *      Rework for PPC64 port.
  */
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/stddef.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/hugetlb.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/export.h>
+#include <robux/types.h>
+#include <robux/mman.h>
+#include <robux/mm.h>
+#include <robux/swap.h>
+#include <robux/stddef.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/hugetlb.h>
 
 #include <asm/page.h>
 #include <asm/mmu_context.h>

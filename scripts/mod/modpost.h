@@ -11,7 +11,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <elf.h>
-#include "../../include/linux/module_symbol.h"
+#include "../../include/robux/module_symbol.h"
 
 #include <list_types.h>
 #include "elfconfig.h"

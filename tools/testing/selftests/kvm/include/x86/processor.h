@@ -13,8 +13,8 @@
 #include <asm/msr-index.h>
 #include <asm/prctl.h>
 
-#include <linux/kvm_para.h>
-#include <linux/stringify.h>
+#include <robux/kvm_para.h>
+#include <robux/stringify.h>
 
 #include "kvm_util.h"
 #include "ucall_common.h"

@@ -3,10 +3,10 @@
  * Copyright (C) 2024 Allied Telesis
  */
 
-#include <linux/errno.h>
-#include <linux/libfdt.h>
-#include <linux/printk.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/libfdt.h>
+#include <robux/printk.h>
+#include <robux/types.h>
 
 #include <asm/fw/fw.h>
 #include <asm/machine.h>
@@ -30,13 +30,13 @@ static __init int realtek_add_initrd(void *fdt)
 
 	pr_info("Adding initrd info from environment\n");
 
-	err = fdt_setprop_u32(fdt, node, "linux,initrd-start", start);
+	err = fdt_setprop_u32(fdt, node, "robux,initrd-start", start);
 	if (err) {
 		pr_err("unable to set initrd-start: %d\n", err);
 		return err;
 	}
 
-	err = fdt_setprop_u32(fdt, node, "linux,initrd-end", start + size);
+	err = fdt_setprop_u32(fdt, node, "robux,initrd-end", start + size);
 	if (err) {
 		pr_err("unable to set initrd-end: %d\n", err);
 		return err;

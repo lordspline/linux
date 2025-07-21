@@ -6,12 +6,12 @@
  * (c) 2010 Nikolaus Voss, Weinmann Medical GmbH
  */
 
-#include <linux/bcd.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/spi/spi.h>
+#include <robux/bcd.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
+#include <robux/spi/spi.h>
 
 #define M41T93_REG_SSEC			0
 #define M41T93_REG_ST_SEC		1

@@ -7,11 +7,11 @@ USB references
 For USB help other than the readme files that are located in
 `Documentation/usb/*`, see the following:
 
-- Linux-USB project:  http://www.linux-usb.org
-  mirrors at          http://usb.in.tum.de/linux-usb/
-  and                 http://it.linux-usb.org
-- Linux USB Guide:    http://linux-usb.sourceforge.net
-- Linux-USB device overview (working devices and drivers):
+- Robux-USB project:  http://www.robux-usb.org
+  mirrors at          http://usb.in.tum.de/robux-usb/
+  and                 http://it.robux-usb.org
+- Robux USB Guide:    http://robux-usb.sourceforge.net
+- Robux-USB device overview (working devices and drivers):
   http://www.qbik.ch/usb/devices/
 
-The Linux-USB mailing list is at linux-usb@vger.kernel.org
+The Robux-USB mailing list is at robux-usb@vger.kernel.org

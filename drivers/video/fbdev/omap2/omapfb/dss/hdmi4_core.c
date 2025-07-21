@@ -10,16 +10,16 @@
 
 #define DSS_SUBSYS_NAME "HDMICORE"
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/seq_file.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
+#include <robux/seq_file.h>
 #include <sound/asound.h>
 #include <sound/asoundef.h>
 

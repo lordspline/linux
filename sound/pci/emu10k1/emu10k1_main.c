@@ -8,21 +8,21 @@
  *  Routines for control of EMU10K1 chips
  */
 
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/iommu.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mutex.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/iommu.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/mutex.h>
 
 
 #include <sound/core.h>
 #include <sound/emu10k1.h>
-#include <linux/firmware.h>
+#include <robux/firmware.h>
 #include "p16v.h"
 #include "tina2.h"
 #include "p17v.h"

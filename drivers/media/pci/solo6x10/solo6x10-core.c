@@ -9,15 +9,15 @@
  * John Brooks <john.brooks@bluecherry.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/videodev2.h>
-#include <linux/delay.h>
-#include <linux/sysfs.h>
-#include <linux/ktime.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/videodev2.h>
+#include <robux/delay.h>
+#include <robux/sysfs.h>
+#include <robux/ktime.h>
+#include <robux/slab.h>
 
 #include "solo6x10.h"
 #include "solo6x10-tw28.h"

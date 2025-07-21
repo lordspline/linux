@@ -3,13 +3,13 @@
  * fs/kernfs/symlink.c - kernfs symlink implementation
  *
  * Copyright (c) 2001-3 Patrick Mochel
- * Copyright (c) 2007 SUSE Linux Products GmbH
+ * Copyright (c) 2007 SUSE Robux Products GmbH
  * Copyright (c) 2007, 2013 Tejun Heo <tj@kernel.org>
  */
 
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/namei.h>
+#include <robux/fs.h>
+#include <robux/gfp.h>
+#include <robux/namei.h>
 
 #include "kernfs-internal.h"
 

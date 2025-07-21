@@ -9,14 +9,14 @@
 #define PREBOOT
 #include "lz4/lz4_decompress.c"
 #else
-#include <linux/decompress/unlz4.h>
+#include <robux/decompress/unlz4.h>
 #endif
-#include <linux/types.h>
-#include <linux/lz4.h>
-#include <linux/decompress/mm.h>
-#include <linux/compiler.h>
+#include <robux/types.h>
+#include <robux/lz4.h>
+#include <robux/decompress/mm.h>
+#include <robux/compiler.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 /*
  * Note: Uncompressed chunk size is used in the compressor side

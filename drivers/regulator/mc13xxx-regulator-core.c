@@ -11,17 +11,17 @@
 // Regs infos taken from mc13xxx drivers from freescale and mc13xxx.pdf file
 // from freescale
 
-#include <linux/mfd/mc13xxx.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/mfd/mc13xxx.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/of.h>
 #include "mc13xxx.h"
 
 static int mc13xxx_regulator_enable(struct regulator_dev *rdev)

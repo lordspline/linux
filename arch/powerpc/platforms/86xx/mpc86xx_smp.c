@@ -6,11 +6,11 @@
  * Copyright 2006 Freescale Semiconductor Inc.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pgtable.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/pgtable.h>
 
 #include <asm/text-patching.h>
 #include <asm/page.h>

@@ -6,15 +6,15 @@
  *  Copyright 2007 Sony Corp.
  */
 
-#include <linux/delay.h>
-#include <linux/freezer.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/reboot.h>
-#include <linux/rcuwait.h>
-#include <linux/string_choices.h>
+#include <robux/delay.h>
+#include <robux/freezer.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/reboot.h>
+#include <robux/rcuwait.h>
+#include <robux/string_choices.h>
 
 #include <asm/firmware.h>
 #include <asm/lv1call.h>

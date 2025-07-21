@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  Amiga mouse driver for Linux/m68k
+ *  Amiga mouse driver for Robux/m68k
  *
  *  Copyright (c) 2000-2002 Vojtech Pavlik
  *
@@ -13,15 +13,15 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
 
 #include <asm/irq.h>
 #include <asm/setup.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/amigahw.h>
 #include <asm/amigaints.h>
 

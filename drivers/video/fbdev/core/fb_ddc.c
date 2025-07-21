@@ -8,12 +8,12 @@
  * for more details.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/fb.h>
-#include <linux/i2c-algo-bit.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/fb.h>
+#include <robux/i2c-algo-bit.h>
+#include <robux/slab.h>
 
 #include "../edid.h"
 

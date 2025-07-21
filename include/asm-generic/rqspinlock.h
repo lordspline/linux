@@ -9,9 +9,9 @@
 #ifndef __ASM_GENERIC_RQSPINLOCK_H
 #define __ASM_GENERIC_RQSPINLOCK_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <vdso/time64.h>
-#include <linux/percpu.h>
+#include <robux/percpu.h>
 #ifdef CONFIG_QUEUED_SPINLOCKS
 #include <asm/qspinlock.h>
 #endif

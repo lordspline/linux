@@ -6,31 +6,31 @@
  * Copyright:	(C) 2012-2013  Linaro Limited
  */
 
-#include <linux/atomic.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <uapi/linux/sched/types.h>
-#include <linux/interrupt.h>
-#include <linux/cpu_pm.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/kthread.h>
-#include <linux/wait.h>
-#include <linux/time.h>
-#include <linux/clockchips.h>
-#include <linux/hrtimer.h>
-#include <linux/tick.h>
-#include <linux/notifier.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
-#include <linux/irqchip/arm-gic.h>
-#include <linux/moduleparam.h>
+#include <robux/atomic.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched/signal.h>
+#include <uapi/robux/sched/types.h>
+#include <robux/interrupt.h>
+#include <robux/cpu_pm.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/kthread.h>
+#include <robux/wait.h>
+#include <robux/time.h>
+#include <robux/clockchips.h>
+#include <robux/hrtimer.h>
+#include <robux/tick.h>
+#include <robux/notifier.h>
+#include <robux/mm.h>
+#include <robux/mutex.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
+#include <robux/irqchip/arm-gic.h>
+#include <robux/moduleparam.h>
 
 #include <asm/smp_plat.h>
 #include <asm/cputype.h>

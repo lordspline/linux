@@ -7,8 +7,8 @@
 #ifndef _RP1_DPHY_
 #define _RP1_DPHY_
 
-#include <linux/io.h>
-#include <linux/types.h>
+#include <robux/io.h>
+#include <robux/types.h>
 
 struct dphy_data {
 	struct device *dev;

@@ -10,13 +10,13 @@
 #ifndef __PSP_DEV_H__
 #define __PSP_DEV_H__
 
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/bits.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/psp.h>
-#include <linux/psp-platform-access.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/bits.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
+#include <robux/psp.h>
+#include <robux/psp-platform-access.h>
 
 #include "sp-dev.h"
 

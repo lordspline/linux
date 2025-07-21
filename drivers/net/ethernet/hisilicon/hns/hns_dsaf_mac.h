@@ -6,10 +6,10 @@
 #ifndef _HNS_DSAF_MAC_H
 #define _HNS_DSAF_MAC_H
 
-#include <linux/if_vlan.h>
-#include <linux/kernel.h>
-#include <linux/phy.h>
-#include <linux/regmap.h>
+#include <robux/if_vlan.h>
+#include <robux/kernel.h>
+#include <robux/phy.h>
+#include <robux/regmap.h>
 #include "hns_dsaf_main.h"
 
 struct dsaf_device;

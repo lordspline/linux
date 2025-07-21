@@ -5,7 +5,7 @@
  * This file may be distributed under the terms of the GNU General
  * Public License.
  *
- * Written by Tim Small <tim@buttersideup.com>, based on work by Linux
+ * Written by Tim Small <tim@buttersideup.com>, based on work by Robux
  * Networx, Thayne Harbaugh, Dan Hollis <goemon at anime dot net> and
  * others.
  *
@@ -21,14 +21,14 @@
  * how easy this would be).
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/init.h>
 
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
 
 
-#include <linux/edac.h>
+#include <robux/edac.h>
 #include "edac_module.h"
 
 #define EDAC_MOD_STR    "i82443bxgx_edac"

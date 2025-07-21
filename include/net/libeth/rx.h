@@ -4,7 +4,7 @@
 #ifndef __LIBETH_RX_H
 #define __LIBETH_RX_H
 
-#include <linux/if_vlan.h>
+#include <robux/if_vlan.h>
 
 #include <net/page_pool/helpers.h>
 #include <net/xdp.h>

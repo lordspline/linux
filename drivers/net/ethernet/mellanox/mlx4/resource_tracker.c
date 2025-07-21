@@ -33,16 +33,16 @@
  * SOFTWARE.
  */
 
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/mlx4/cmd.h>
-#include <linux/mlx4/qp.h>
-#include <linux/if_ether.h>
-#include <linux/etherdevice.h>
+#include <robux/sched.h>
+#include <robux/pci.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/mlx4/cmd.h>
+#include <robux/mlx4/qp.h>
+#include <robux/if_ether.h>
+#include <robux/etherdevice.h>
 
 #include "mlx4.h"
 #include "fw.h"

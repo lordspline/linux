@@ -12,8 +12,8 @@
 
 #include "main.h"
 
-#include <linux/bitfield.h>
-#include <linux/skbuff.h>
+#include <robux/bitfield.h>
+#include <robux/skbuff.h>
 
 /* When the OpenVPN protocol is ran in AEAD mode, use
  * the OpenVPN packet ID as the AEAD nonce:

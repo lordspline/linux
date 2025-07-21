@@ -7,8 +7,8 @@
  *		Antonio Quartulli <antonio@openvpn.net>
  */
 
-#include <linux/netdevice.h>
-#include <linux/socket.h>
+#include <robux/netdevice.h>
+#include <robux/socket.h>
 
 #include "ovpnpriv.h"
 #include "bind.h"

@@ -4,27 +4,27 @@
  * Copyright 2016 Freescale Semiconductor Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/hdlc.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/stddef.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/hdlc.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/sched.h>
+#include <robux/skbuff.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/stddef.h>
 #include <soc/fsl/qe/qe_tdm.h>
-#include <uapi/linux/if_arp.h>
+#include <uapi/robux/if_arp.h>
 
 #include "fsl_ucc_hdlc.h"
 

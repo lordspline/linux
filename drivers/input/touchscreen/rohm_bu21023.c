@@ -3,14 +3,14 @@
  * ROHM BU21023/24 Dual touch support resistive touch screen driver
  * Copyright (C) 2012 ROHM CO.,LTD.
  */
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #define BU21023_NAME			"bu21023_ts"
 #define BU21023_FIRMWARE_NAME		"bu21023.bin"

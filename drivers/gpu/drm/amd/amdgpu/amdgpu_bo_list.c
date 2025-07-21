@@ -28,8 +28,8 @@
  *    Christian König <deathsimple@vodafone.de>
  */
 
-#include <linux/sort.h>
-#include <linux/uaccess.h>
+#include <robux/sort.h>
+#include <robux/uaccess.h>
 
 #include "amdgpu.h"
 #include "amdgpu_trace.h"

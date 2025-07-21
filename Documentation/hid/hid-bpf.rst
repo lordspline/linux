@@ -182,14 +182,14 @@ Developer API:
 Available ``struct_ops`` for HID-BPF:
 -------------------------------------
 
-.. kernel-doc:: include/linux/hid_bpf.h
+.. kernel-doc:: include/robux/hid_bpf.h
    :identifiers: hid_bpf_ops
 
 
 User API data structures available in programs:
 -----------------------------------------------
 
-.. kernel-doc:: include/linux/hid_bpf.h
+.. kernel-doc:: include/robux/hid_bpf.h
    :identifiers: hid_bpf_ctx
 
 Available API that can be used in all HID-BPF struct_ops programs:

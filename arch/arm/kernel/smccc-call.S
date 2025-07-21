@@ -2,8 +2,8 @@
 /*
  * Copyright (c) 2015, Linaro Limited
  */
-#include <linux/linkage.h>
-#include <linux/arm-smccc.h>
+#include <robux/linkage.h>
+#include <robux/arm-smccc.h>
 
 #include <asm/asm-offsets.h>
 #include <asm/opcodes-sec.h>

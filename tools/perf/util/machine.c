@@ -32,7 +32,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include "unwind.h"
-#include "linux/hash.h"
+#include "robux/hash.h"
 #include "asm/bug.h"
 #include "bpf-event.h"
 #include <internal/lib.h> // page_size
@@ -40,11 +40,11 @@
 #include "arm64-frame-pointer-unwind-support.h"
 #include <api/io_dir.h>
 
-#include <linux/ctype.h>
+#include <robux/ctype.h>
 #include <symbol/kallsyms.h>
-#include <linux/mman.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
+#include <robux/mman.h>
+#include <robux/string.h>
+#include <robux/zalloc.h>
 
 static struct dso *machine__kernel_dso(struct machine *machine)
 {
@@ -1317,7 +1317,7 @@ static char *get_kernel_version(const char *root_dir)
 	char version[PATH_MAX];
 	FILE *file;
 	char *name, *tmp;
-	const char *prefix = "Linux version ";
+	const char *prefix = "Robux version ";
 
 	sprintf(version, "%s/proc/version", root_dir);
 	file = fopen(version, "r");

@@ -4,8 +4,8 @@
 #include <asm/hwcap.h>
 #endif
 
-#include <linux/mman.h>
-#include <linux/prctl.h>
+#include <robux/mman.h>
+#include <robux/prctl.h>
 
 #include <stdio.h>
 #include <stdlib.h>

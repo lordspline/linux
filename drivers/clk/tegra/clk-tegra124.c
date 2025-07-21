@@ -3,14 +3,14 @@
  * Copyright (c) 2012-2014 NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/io.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/clk/tegra.h>
+#include <robux/io.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/clk/tegra.h>
 #include <dt-bindings/clock/tegra124-car.h>
 #include <dt-bindings/reset/tegra124-car.h>
 

@@ -18,7 +18,7 @@
  *
  * Please send any bug reports or fixes you make to the
  * email address(es):
- *    lksctp developers <linux-sctp@vger.kernel.org>
+ *    lksctp developers <robux-sctp@vger.kernel.org>
  *
  * Written or modified by:
  *    La Monte H.P. Yarroll <piggy@acm.org>
@@ -38,20 +38,20 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <crypto/hash.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/wait.h>
-#include <linux/time.h>
-#include <linux/sched/signal.h>
-#include <linux/ip.h>
-#include <linux/capability.h>
-#include <linux/fcntl.h>
-#include <linux/poll.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/compat.h>
-#include <linux/rhashtable.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/wait.h>
+#include <robux/time.h>
+#include <robux/sched/signal.h>
+#include <robux/ip.h>
+#include <robux/capability.h>
+#include <robux/fcntl.h>
+#include <robux/poll.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/file.h>
+#include <robux/compat.h>
+#include <robux/rhashtable.h>
 
 #include <net/ip.h>
 #include <net/icmp.h>
@@ -61,8 +61,8 @@
 #include <net/busy_poll.h>
 #include <trace/events/sock.h>
 
-#include <linux/socket.h> /* for sa_family_t */
-#include <linux/export.h>
+#include <robux/socket.h> /* for sa_family_t */
+#include <robux/export.h>
 #include <net/sock.h>
 #include <net/sctp/sctp.h>
 #include <net/sctp/sm.h>

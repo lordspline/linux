@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Filesystem based user-mode API to USB Gadget controller hardware
  *
@@ -19,10 +19,10 @@
 #ifndef __LINUX_USB_GADGETFS_H
 #define __LINUX_USB_GADGETFS_H
 
-#include <linux/types.h>
-#include <linux/ioctl.h>
+#include <robux/types.h>
+#include <robux/ioctl.h>
 
-#include <linux/usb/ch9.h>
+#include <robux/usb/ch9.h>
 
 /*
  * Events are delivered on the ep0 file descriptor, when the user mode driver

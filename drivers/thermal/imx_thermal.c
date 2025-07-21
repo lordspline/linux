@@ -2,20 +2,20 @@
 //
 // Copyright 2013 Freescale Semiconductor, Inc.
 
-#include <linux/clk.h>
-#include <linux/cpufreq.h>
-#include <linux/cpu_cooling.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/cpufreq.h>
+#include <robux/cpu_cooling.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/thermal.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/pm_runtime.h>
 
 #define REG_SET		0x4
 #define REG_CLR		0x8

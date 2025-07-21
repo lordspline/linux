@@ -8,16 +8,16 @@
  * Copyright (c) 2021 Intel Corporation. All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/completion.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/virtio.h>
-#include <linux/virtio_ids.h>
-#include <linux/virtio_config.h>
-#include <linux/virtio_i2c.h>
+#include <robux/acpi.h>
+#include <robux/completion.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/virtio.h>
+#include <robux/virtio_ids.h>
+#include <robux/virtio_config.h>
+#include <robux/virtio_i2c.h>
 
 /**
  * struct virtio_i2c - virtio I2C data

@@ -7,11 +7,11 @@
  * Written by Koji Sato.
  */
 
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/buffer_head.h>
-#include <linux/errno.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/string.h>
+#include <robux/buffer_head.h>
+#include <robux/errno.h>
 #include "mdt.h"
 #include "cpfile.h"
 

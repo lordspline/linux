@@ -31,15 +31,15 @@
  * [1] https://gitlab.freedesktop.org/libevdev/hid-tools
  */
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/input/mt.h>
-#include <linux/jiffies.h>
-#include <linux/string.h>
-#include <linux/timer.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/input/mt.h>
+#include <robux/jiffies.h>
+#include <robux/string.h>
+#include <robux/timer.h>
 
 
 MODULE_AUTHOR("Stephane Chatty <chatty@enac.fr>");

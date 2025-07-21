@@ -44,8 +44,8 @@
  */
 
 #include <net/if.h>
-#include <linux/rtnetlink.h>
-#include <linux/if_link.h>
+#include <robux/rtnetlink.h>
+#include <robux/if_link.h>
 
 #include "test_progs.h"
 #include "network_helpers.h"

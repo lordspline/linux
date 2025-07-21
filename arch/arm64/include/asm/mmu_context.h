@@ -10,12 +10,12 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/compiler.h>
-#include <linux/sched.h>
-#include <linux/sched/hotplug.h>
-#include <linux/mm_types.h>
-#include <linux/pgtable.h>
-#include <linux/pkeys.h>
+#include <robux/compiler.h>
+#include <robux/sched.h>
+#include <robux/sched/hotplug.h>
+#include <robux/mm_types.h>
+#include <robux/pgtable.h>
+#include <robux/pkeys.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cpufeature.h>

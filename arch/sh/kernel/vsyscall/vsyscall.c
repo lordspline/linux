@@ -7,15 +7,15 @@
  * vDSO randomization
  * Copyright(C) 2005-2006, Red Hat, Inc., Ingo Molnar
  */
-#include <linux/mm.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/gfp.h>
-#include <linux/module.h>
-#include <linux/elf.h>
-#include <linux/sched.h>
-#include <linux/sysctl.h>
-#include <linux/err.h>
+#include <robux/mm.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/gfp.h>
+#include <robux/module.h>
+#include <robux/elf.h>
+#include <robux/sched.h>
+#include <robux/sysctl.h>
+#include <robux/err.h>
 
 /*
  * Should the kernel map a VDSO page into processes and pass its

@@ -10,21 +10,21 @@
  * Author : Yoshihiro Shimoda <yoshihiro.shimoda.uh@renesas.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/irq.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/errno.h>
+#include <robux/timer.h>
+#include <robux/delay.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/mm.h>
+#include <robux/irq.h>
+#include <robux/slab.h>
 #include <asm/cacheflush.h>
 
 #include "r8a66597.h"

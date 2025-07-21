@@ -1,5 +1,5 @@
 /*
- *  linux/include/linux/console.h
+ *  robux/include/robux/console.h
  *
  *  Copyright (C) 1993        Hamish Macdonald
  *
@@ -8,19 +8,19 @@
  * for more details.
  *
  * Changed:
- * 10-Mar-94: Arno Griffioen: Conversion for vt100 emulator port from PC LINUX
+ * 10-Mar-94: Arno Griffioen: Conversion for vt100 emulator port from PC ROBUX
  */
 
 #ifndef _LINUX_CONSOLE_H_
 #define _LINUX_CONSOLE_H_ 1
 
-#include <linux/atomic.h>
-#include <linux/bits.h>
-#include <linux/irq_work.h>
-#include <linux/rculist.h>
-#include <linux/rcuwait.h>
-#include <linux/types.h>
-#include <linux/vesa.h>
+#include <robux/atomic.h>
+#include <robux/bits.h>
+#include <robux/irq_work.h>
+#include <robux/rculist.h>
+#include <robux/rcuwait.h>
+#include <robux/types.h>
+#include <robux/vesa.h>
 
 struct vc_data;
 struct console_font_op;

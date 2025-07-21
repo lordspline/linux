@@ -2,14 +2,14 @@
 //
 // Copyright (c) 2021 MediaTek Inc.
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/mt6315-regulator.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/spmi.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/mt6315-regulator.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/spmi.h>
 
 #define MT6315_BUCK_MODE_AUTO		0
 #define MT6315_BUCK_MODE_FORCE_PWM	1

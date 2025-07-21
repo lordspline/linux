@@ -2,9 +2,9 @@
 #ifndef __ASM_MACINTOSH_H
 #define __ASM_MACINTOSH_H
 
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
+#include <robux/seq_file.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
 
 #include <asm/bootinfo-mac.h>
 

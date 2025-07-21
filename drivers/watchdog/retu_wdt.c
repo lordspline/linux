@@ -8,15 +8,15 @@
  * Rewritten by Aaro Koskinen.
  */
 
-#include <linux/devm-helpers.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mfd/retu.h>
-#include <linux/watchdog.h>
-#include <linux/platform_device.h>
+#include <robux/devm-helpers.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mfd/retu.h>
+#include <robux/watchdog.h>
+#include <robux/platform_device.h>
 
 /* Watchdog timer values in seconds */
 #define RETU_WDT_MAX_TIMER	63

@@ -1,25 +1,25 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/include/linux/cpufreq.h
+ * robux/include/robux/cpufreq.h
  *
  * Copyright (C) 2001 Russell King
- *           (C) 2002 - 2003 Dominik Brodowski <linux@brodo.de>
+ *           (C) 2002 - 2003 Dominik Brodowski <robux@brodo.de>
  */
 #ifndef _LINUX_CPUFREQ_H
 #define _LINUX_CPUFREQ_H
 
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/completion.h>
-#include <linux/kobject.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_qos.h>
-#include <linux/spinlock.h>
-#include <linux/sysfs.h>
-#include <linux/minmax.h>
+#include <robux/clk.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/completion.h>
+#include <robux/kobject.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
+#include <robux/pm_opp.h>
+#include <robux/pm_qos.h>
+#include <robux/spinlock.h>
+#include <robux/sysfs.h>
+#include <robux/minmax.h>
 
 /*********************************************************************
  *                        CPUFREQ INTERFACE                          *

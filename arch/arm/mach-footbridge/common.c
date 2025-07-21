@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-footbridge/common.c
+ *  robux/arch/arm/mach-footbridge/common.c
  *
  *  Copyright (C) 1998-2000 Russell King, Dave Gilbert.
  */
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/ioport.h>
-#include <linux/list.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/dma-direct.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/ioport.h>
+#include <robux/list.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
+#include <robux/dma-direct.h>
 #include <video/vga.h>
 
 #include <asm/page.h>

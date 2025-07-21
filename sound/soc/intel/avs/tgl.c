@@ -3,10 +3,10 @@
 // Copyright(c) 2021-2024 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@robux.intel.com>
 //
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 #include "avs.h"
 #include "messages.h"
 

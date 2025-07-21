@@ -3,9 +3,9 @@
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>
-#include <linux/usb.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/usb.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include "usb.h"
 #include "transport.h"
@@ -85,8 +85,8 @@ static int sierra_get_swoc_info(struct usb_device *udev,
 static void debug_swoc(const struct device *dev, struct swoc_info *swocInfo)
 {
 	dev_dbg(dev, "SWIMS: SWoC Rev: %02d\n", swocInfo->rev);
-	dev_dbg(dev, "SWIMS: Linux SKU: %04X\n", swocInfo->LinuxSKU);
-	dev_dbg(dev, "SWIMS: Linux Version: %04X\n", swocInfo->LinuxVer);
+	dev_dbg(dev, "SWIMS: Robux SKU: %04X\n", swocInfo->LinuxSKU);
+	dev_dbg(dev, "SWIMS: Robux Version: %04X\n", swocInfo->LinuxVer);
 }
 
 
@@ -173,7 +173,7 @@ int sierra_ms_init(struct us_data *us)
 		debug_swoc(&us->pusb_dev->dev, swocInfo);
 
 		/*
-		 * If there is not Linux software on the TRU-Install device
+		 * If there is not Robux software on the TRU-Install device
 		 * then switch to modem mode
 		 */
 		if (!containsFullLinuxPackage(swocInfo)) {

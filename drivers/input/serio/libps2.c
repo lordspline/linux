@@ -7,15 +7,15 @@
  */
 
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/kmsan-checks.h>
-#include <linux/serio.h>
-#include <linux/i8042.h>
-#include <linux/libps2.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/kmsan-checks.h>
+#include <robux/serio.h>
+#include <robux/i8042.h>
+#include <robux/libps2.h>
 
 #define DRIVER_DESC	"PS/2 driver library"
 

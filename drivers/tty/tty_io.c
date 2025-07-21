@@ -58,57 +58,57 @@
  *      -- C. Scott Ananian <cananian@alumni.princeton.edu>, 14-Jan-1998
  *
  * Reduced memory usage for older ARM systems
- *      -- Russell King <rmk@arm.linux.org.uk>
+ *      -- Russell King <rmk@arm.robux.org.uk>
  *
  * Move do_SAK() into process context.  Less stack use in devfs functions.
  * alloc_tty_struct() always uses kmalloc()
  *			 -- Andrew Morton <andrewm@uow.edu.eu> 17Mar01
  */
 
-#include <linux/types.h>
-#include <linux/major.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/fcntl.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task.h>
-#include <linux/interrupt.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/devpts_fs.h>
-#include <linux/file.h>
-#include <linux/fdtable.h>
-#include <linux/console.h>
-#include <linux/timer.h>
-#include <linux/ctype.h>
-#include <linux/kd.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/ppp-ioctl.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/wait.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/serial.h>
-#include <linux/ratelimit.h>
-#include <linux/compat.h>
-#include <linux/uaccess.h>
-#include <linux/termios_internal.h>
-#include <linux/fs.h>
+#include <robux/types.h>
+#include <robux/major.h>
+#include <robux/errno.h>
+#include <robux/signal.h>
+#include <robux/fcntl.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/task.h>
+#include <robux/interrupt.h>
+#include <robux/tty.h>
+#include <robux/tty_driver.h>
+#include <robux/tty_flip.h>
+#include <robux/devpts_fs.h>
+#include <robux/file.h>
+#include <robux/fdtable.h>
+#include <robux/console.h>
+#include <robux/timer.h>
+#include <robux/ctype.h>
+#include <robux/kd.h>
+#include <robux/mm.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/poll.h>
+#include <robux/ppp-ioctl.h>
+#include <robux/proc_fs.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/wait.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/seq_file.h>
+#include <robux/serial.h>
+#include <robux/ratelimit.h>
+#include <robux/compat.h>
+#include <robux/uaccess.h>
+#include <robux/termios_internal.h>
+#include <robux/fs.h>
 
-#include <linux/kbd_kern.h>
-#include <linux/vt_kern.h>
-#include <linux/selection.h>
+#include <robux/kbd_kern.h>
+#include <robux/vt_kern.h>
+#include <robux/selection.h>
 
-#include <linux/kmod.h>
-#include <linux/nsproxy.h>
+#include <robux/kmod.h>
+#include <robux/nsproxy.h>
 #include "tty.h"
 
 #undef TTY_DEBUG_HANGUP
@@ -2348,7 +2348,7 @@ EXPORT_SYMBOL(tty_do_resize);
  * @arg: user buffer for result
  *
  * Copies the user idea of the window size to the kernel. Traditionally this is
- * just advisory information but for the Linux console it actually has driver
+ * just advisory information but for the Robux console it actually has driver
  * level meaning and triggers a VC resize.
  *
  * Locking:

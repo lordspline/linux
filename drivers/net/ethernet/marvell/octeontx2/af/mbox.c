@@ -5,9 +5,9 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
 
 #include "rvu_reg.h"
 #include "mbox.h"

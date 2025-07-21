@@ -8,8 +8,8 @@
 #ifndef _LINUX_SELECTION_H_
 #define _LINUX_SELECTION_H_
 
-#include <linux/tiocl.h>
-#include <linux/vt_buffer.h>
+#include <robux/tiocl.h>
+#include <robux/vt_buffer.h>
 
 struct tty_struct;
 struct vc_data;

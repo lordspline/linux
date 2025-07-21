@@ -6,7 +6,7 @@
 #ifndef _INTEL_DDI_BUF_TRANS_H_
 #define _INTEL_DDI_BUF_TRANS_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct intel_encoder;
 struct intel_crtc_state;

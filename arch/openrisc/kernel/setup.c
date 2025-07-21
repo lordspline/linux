@@ -2,7 +2,7 @@
 /*
  * OpenRISC setup.c
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Robux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -13,26 +13,26 @@
  * This file handles the architecture-dependent parts of initialization
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/seq_file.h>
-#include <linux/serial.h>
-#include <linux/initrd.h>
-#include <linux/of_fdt.h>
-#include <linux/of.h>
-#include <linux/device.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/ptrace.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/console.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
+#include <robux/seq_file.h>
+#include <robux/serial.h>
+#include <robux/initrd.h>
+#include <robux/of_fdt.h>
+#include <robux/of.h>
+#include <robux/device.h>
 
 #include <asm/sections.h>
 #include <asm/types.h>
@@ -255,7 +255,7 @@ void __init setup_arch(char **cmdline_p)
 
 	*cmdline_p = boot_command_line;
 
-	printk(KERN_INFO "OpenRISC Linux -- http://openrisc.io\n");
+	printk(KERN_INFO "OpenRISC Robux -- http://openrisc.io\n");
 }
 
 static int show_cpuinfo(struct seq_file *m, void *v)

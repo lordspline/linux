@@ -4,8 +4,8 @@
  * for more details.
  */
 
-#include <linux/dma-map-ops.h>
-#include <linux/kernel.h>
+#include <robux/dma-map-ops.h>
+#include <robux/kernel.h>
 #include <asm/cacheflush.h>
 
 #ifndef CONFIG_COLDFIRE

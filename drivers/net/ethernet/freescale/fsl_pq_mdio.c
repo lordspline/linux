@@ -11,18 +11,18 @@
  * Based on gianfar_mii.c and ucc_geth_mii.c (Li Yang, Kim Phillips)
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_mdio.h>
-#include <linux/property.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/mii.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_mdio.h>
+#include <robux/property.h>
 
 #include <asm/io.h>
 #if IS_ENABLED(CONFIG_UCC_GETH)

@@ -7,9 +7,9 @@
  *   Ricky Wu <ricky_wu@realtek.com>
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/rtsx_pci.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/rtsx_pci.h>
 
 #include "rts5264.h"
 #include "rtsx_pcr.h"

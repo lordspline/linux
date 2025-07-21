@@ -9,16 +9,16 @@
 
 #define pr_fmt(fmt)	"efi: " fmt
 
-#include <linux/efi.h>
-#include <linux/fwnode.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/mm_types.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_fdt.h>
-#include <linux/platform_device.h>
-#include <linux/screen_info.h>
+#include <robux/efi.h>
+#include <robux/fwnode.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
+#include <robux/mm_types.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_fdt.h>
+#include <robux/platform_device.h>
+#include <robux/screen_info.h>
 
 #include <asm/efi.h>
 

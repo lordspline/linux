@@ -10,15 +10,15 @@
  *      registered, the devfreq cooling won't react to it.
  */
 
-#include <linux/devfreq.h>
-#include <linux/devfreq_cooling.h>
-#include <linux/energy_model.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_qos.h>
-#include <linux/thermal.h>
-#include <linux/units.h>
+#include <robux/devfreq.h>
+#include <robux/devfreq_cooling.h>
+#include <robux/energy_model.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/pm_opp.h>
+#include <robux/pm_qos.h>
+#include <robux/thermal.h>
+#include <robux/units.h>
 
 #include "thermal_trace.h"
 

@@ -6,19 +6,19 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/bsearch.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
+#include <robux/bitfield.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/bsearch.h>
+#include <robux/seq_file.h>
+#include <robux/spinlock.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include <dt-bindings/pinctrl/pinctrl-cv18xx.h>
 

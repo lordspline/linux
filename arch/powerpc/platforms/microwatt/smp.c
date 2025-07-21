@@ -5,9 +5,9 @@
  * Copyright 2025 Paul Mackerras <paulus@ozlabs.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/smp.h>
+#include <robux/io.h>
 #include <asm/early_ioremap.h>
 #include <asm/ppc-opcode.h>
 #include <asm/reg.h>

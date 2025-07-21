@@ -6,15 +6,15 @@
  * Author: Asias He <asias@redhat.com>
  *         Stefan Hajnoczi <stefanha@redhat.com>
  */
-#include <linux/miscdevice.h>
-#include <linux/atomic.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/vmalloc.h>
+#include <robux/miscdevice.h>
+#include <robux/atomic.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/vmalloc.h>
 #include <net/sock.h>
-#include <linux/virtio_vsock.h>
-#include <linux/vhost.h>
-#include <linux/hashtable.h>
+#include <robux/virtio_vsock.h>
+#include <robux/vhost.h>
+#include <robux/hashtable.h>
 
 #include <net/af_vsock.h>
 #include "vhost.h"

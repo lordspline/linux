@@ -6,10 +6,10 @@
  * Copyright (C) 2017 Renesas Electronics Corp.
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/v4l2-dv-timings.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/v4l2-dv-timings.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

@@ -7,15 +7,15 @@
  * Copyright (C) 2018 Nuvoton Technologies tali.perry@nuvoton.com
  */
 
-#include <linux/module.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/bitfield.h>
+#include <robux/module.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/bitfield.h>
 
 #include <dt-bindings/clock/nuvoton,npcm7xx-clock.h>
 

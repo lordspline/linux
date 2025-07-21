@@ -7,19 +7,19 @@
  *
  */
 
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/gfp.h>
-#include <linux/sched.h>
-#include <linux/string_helpers.h>
-#include <linux/sysctl.h>
-#include <linux/swap.h>
-#include <linux/kthread.h>
-#include <linux/oom.h>
-#include <linux/uaccess.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/gfp.h>
+#include <robux/sched.h>
+#include <robux/string_helpers.h>
+#include <robux/sysctl.h>
+#include <robux/swap.h>
+#include <robux/kthread.h>
+#include <robux/oom.h>
+#include <robux/uaccess.h>
 
 #include <asm/diag.h>
 

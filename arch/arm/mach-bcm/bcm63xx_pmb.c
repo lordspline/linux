@@ -5,12 +5,12 @@
  * Copyright (C) 2015 Broadcom Corporation
  * Author: Florian Fainelli <f.fainelli@gmail.com>
  */
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/reset/bcm63xx_pmb.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
+#include <robux/reset/bcm63xx_pmb.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include "bcm63xx_smp.h"
 

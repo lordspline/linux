@@ -3,12 +3,12 @@
  * Copyright (C) 2021 Heiko Stuebner <heiko@sntech.de>
  */
 
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/memory.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
+#include <robux/memory.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/uaccess.h>
 #include <asm/alternative.h>
 #include <asm/bugs.h>
 #include <asm/cacheflush.h>

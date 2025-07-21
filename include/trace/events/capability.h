@@ -5,9 +5,9 @@
 #if !defined(_TRACE_CAPABILITY_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_CAPABILITY_H
 
-#include <linux/cred.h>
-#include <linux/tracepoint.h>
-#include <linux/user_namespace.h>
+#include <robux/cred.h>
+#include <robux/tracepoint.h>
+#include <robux/user_namespace.h>
 
 /**
  * cap_capable - called after it's determined if a task has a particular

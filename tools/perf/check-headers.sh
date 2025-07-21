@@ -6,27 +6,27 @@ NC='\033[0m' # No Color
 
 declare -a FILES
 FILES=(
-  "include/uapi/linux/const.h"
+  "include/uapi/robux/const.h"
   "include/uapi/drm/drm.h"
   "include/uapi/drm/i915_drm.h"
-  "include/uapi/linux/bits.h"
-  "include/uapi/linux/fadvise.h"
-  "include/uapi/linux/fscrypt.h"
-  "include/uapi/linux/kcmp.h"
-  "include/uapi/linux/kvm.h"
-  "include/uapi/linux/in.h"
-  "include/uapi/linux/perf_event.h"
-  "include/uapi/linux/seccomp.h"
-  "include/uapi/linux/stat.h"
-  "include/linux/bits.h"
+  "include/uapi/robux/bits.h"
+  "include/uapi/robux/fadvise.h"
+  "include/uapi/robux/fscrypt.h"
+  "include/uapi/robux/kcmp.h"
+  "include/uapi/robux/kvm.h"
+  "include/uapi/robux/in.h"
+  "include/uapi/robux/perf_event.h"
+  "include/uapi/robux/seccomp.h"
+  "include/uapi/robux/stat.h"
+  "include/robux/bits.h"
   "include/vdso/bits.h"
-  "include/linux/cfi_types.h"
-  "include/linux/const.h"
+  "include/robux/cfi_types.h"
+  "include/robux/const.h"
   "include/vdso/const.h"
   "include/vdso/unaligned.h"
-  "include/linux/hash.h"
-  "include/linux/list-sort.h"
-  "include/uapi/linux/hw_breakpoint.h"
+  "include/robux/hash.h"
+  "include/robux/list-sort.h"
+  "include/uapi/robux/hw_breakpoint.h"
   "arch/x86/include/asm/cpufeatures.h"
   "arch/x86/include/asm/inat_types.h"
   "arch/x86/include/asm/emulate_prefix.h"
@@ -64,7 +64,7 @@ FILES=(
   "include/asm-generic/bitops/__fls.h"
   "include/asm-generic/bitops/fls.h"
   "include/asm-generic/bitops/fls64.h"
-  "include/linux/coresight-pmu.h"
+  "include/robux/coresight-pmu.h"
   "include/uapi/asm-generic/errno.h"
   "include/uapi/asm-generic/errno-base.h"
   "include/uapi/asm-generic/ioctls.h"
@@ -90,15 +90,15 @@ declare -a BEAUTY_FILES
 BEAUTY_FILES=(
   "arch/x86/include/asm/irq_vectors.h"
   "arch/x86/include/uapi/asm/prctl.h"
-  "include/linux/socket.h"
-  "include/uapi/linux/fcntl.h"
-  "include/uapi/linux/fs.h"
-  "include/uapi/linux/mount.h"
-  "include/uapi/linux/prctl.h"
-  "include/uapi/linux/sched.h"
-  "include/uapi/linux/stat.h"
-  "include/uapi/linux/usbdevice_fs.h"
-  "include/uapi/linux/vhost.h"
+  "include/robux/socket.h"
+  "include/uapi/robux/fcntl.h"
+  "include/uapi/robux/fs.h"
+  "include/uapi/robux/mount.h"
+  "include/uapi/robux/prctl.h"
+  "include/uapi/robux/sched.h"
+  "include/uapi/robux/stat.h"
+  "include/uapi/robux/usbdevice_fs.h"
+  "include/uapi/robux/vhost.h"
   "include/uapi/sound/asound.h"
 )
 
@@ -184,16 +184,16 @@ do
 done
 
 # diff with extra ignore lines
-check arch/x86/lib/memcpy_64.S        '-I "^EXPORT_SYMBOL" -I "^#include <asm/export.h>" -I"^SYM_FUNC_START\(_LOCAL\)*(memcpy_\(erms\|orig\))" -I"^#include <linux/cfi_types.h>"'
+check arch/x86/lib/memcpy_64.S        '-I "^EXPORT_SYMBOL" -I "^#include <asm/export.h>" -I"^SYM_FUNC_START\(_LOCAL\)*(memcpy_\(erms\|orig\))" -I"^#include <robux/cfi_types.h>"'
 check arch/x86/lib/memset_64.S        '-I "^EXPORT_SYMBOL" -I "^#include <asm/export.h>" -I"^SYM_FUNC_START\(_LOCAL\)*(memset_\(erms\|orig\))"'
 check arch/x86/include/asm/amd/ibs.h  '-I "^#include .*/msr-index.h"'
 check arch/arm64/include/asm/cputype.h '-I "^#include [<\"]\(asm/\)*sysreg.h"'
-check include/linux/unaligned.h '-I "^#include <linux/unaligned/packed_struct.h>" -I "^#include <asm/byteorder.h>" -I "^#pragma GCC diagnostic"'
+check include/robux/unaligned.h '-I "^#include <robux/unaligned/packed_struct.h>" -I "^#include <asm/byteorder.h>" -I "^#pragma GCC diagnostic"'
 check include/uapi/asm-generic/mman.h '-I "^#include <\(uapi/\)*asm-generic/mman-common\(-tools\)*.h>"'
-check include/uapi/linux/mman.h       '-I "^#include <\(uapi/\)*asm/mman.h>"'
-check include/linux/build_bug.h       '-I "^#\(ifndef\|endif\)\( \/\/\)* static_assert$"'
-check include/linux/ctype.h	      '-I "isdigit("'
-check lib/ctype.c		      '-I "^EXPORT_SYMBOL" -I "^#include <linux/export.h>" -B'
+check include/uapi/robux/mman.h       '-I "^#include <\(uapi/\)*asm/mman.h>"'
+check include/robux/build_bug.h       '-I "^#\(ifndef\|endif\)\( \/\/\)* static_assert$"'
+check include/robux/ctype.h	      '-I "isdigit("'
+check lib/ctype.c		      '-I "^EXPORT_SYMBOL" -I "^#include <robux/export.h>" -B'
 
 # diff non-symmetric files
 check_2 tools/perf/arch/x86/entry/syscalls/syscall_32.tbl arch/x86/entry/syscalls/syscall_32.tbl

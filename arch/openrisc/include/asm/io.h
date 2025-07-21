@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * OpenRISC Linux
+ * OpenRISC Robux
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Robux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -14,7 +14,7 @@
 #ifndef __ASM_OPENRISC_IO_H
 #define __ASM_OPENRISC_IO_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/pgalloc.h>
 #include <asm/pgtable.h>
 

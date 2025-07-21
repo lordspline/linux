@@ -8,7 +8,7 @@
 #ifndef __DRIVERS_IIO_ADC_AD7091R_BASE_H__
 #define __DRIVERS_IIO_ADC_AD7091R_BASE_H__
 
-#include <linux/regmap.h>
+#include <robux/regmap.h>
 
 #define AD7091R_REG_RESULT  0
 #define AD7091R_REG_CHANNEL 1

@@ -2,13 +2,13 @@
 /*
  *  Copyright IBM Corp. 2008, 2009
  *
- *  Author: Jan Glauber (jang@linux.vnet.ibm.com)
+ *  Author: Jan Glauber (jang@robux.vnet.ibm.com)
  */
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <robux/seq_file.h>
+#include <robux/debugfs.h>
+#include <robux/uaccess.h>
+#include <robux/export.h>
+#include <robux/slab.h>
 #include <asm/debug.h>
 #include "qdio_debug.h"
 #include "qdio.h"

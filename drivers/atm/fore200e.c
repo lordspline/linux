@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
-  A FORE Systems 200E-series driver for ATM on Linux.
+  A FORE Systems 200E-series driver for ATM on Robux.
   Christophe Lizzi (lizzi@cnam.fr), October 1999-March 2003.
 
   Based on the PCA-200E driver from Uwe Dannowski (Uwe.Dannowski@inf.tu-dresden.de).
@@ -11,32 +11,32 @@
 */
 
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/capability.h>
-#include <linux/interrupt.h>
-#include <linux/bitops.h>
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/atmdev.h>
-#include <linux/sonet.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/pgtable.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/capability.h>
+#include <robux/interrupt.h>
+#include <robux/bitops.h>
+#include <robux/pci.h>
+#include <robux/module.h>
+#include <robux/atmdev.h>
+#include <robux/sonet.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/pgtable.h>
 #include <asm/io.h>
 #include <asm/string.h>
 #include <asm/page.h>
 #include <asm/irq.h>
 #include <asm/dma.h>
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
-#include <linux/atomic.h>
+#include <robux/uaccess.h>
+#include <robux/atomic.h>
 
 #ifdef CONFIG_SBUS
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 #include <asm/idprom.h>
 #include <asm/openprom.h>
 #include <asm/oplib.h>

@@ -6,9 +6,9 @@
 //
 // Hardware interface for mt8195 DSP clock
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/string_choices.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/string_choices.h>
 #include "mt8195.h"
 #include "mt8195-clk.h"
 #include "../adsp_helper.h"

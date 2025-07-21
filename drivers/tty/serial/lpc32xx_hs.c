@@ -9,23 +9,23 @@
  * Copyright (C) 2012 Roland Stigge
  */
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/nmi.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/sizes.h>
-#include <linux/soc/nxp/lpc32xx-misc.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/sysrq.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/serial_core.h>
+#include <robux/serial.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/nmi.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/sizes.h>
+#include <robux/soc/nxp/lpc32xx-misc.h>
 
 /*
  * High Speed UART register offsets

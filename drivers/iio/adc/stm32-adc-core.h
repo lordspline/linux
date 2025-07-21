@@ -10,8 +10,8 @@
 #ifndef __STM32_ADC_H
 #define __STM32_ADC_H
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
 
 /*
  * STM32 - ADC global register map

@@ -6,20 +6,20 @@
 #ifndef INV_MPU_IIO_H_
 #define INV_MPU_IIO_H_
 
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/mutex.h>
-#include <linux/platform_data/invensense_mpu6050.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/i2c-mux.h>
+#include <robux/mutex.h>
+#include <robux/platform_data/invensense_mpu6050.h>
+#include <robux/regmap.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/common/inv_sensors_timestamp.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/kfifo_buf.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/sysfs.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/common/inv_sensors_timestamp.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/kfifo_buf.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/sysfs.h>
 
 /**
  *  struct inv_mpu6050_reg_map - Notable registers.

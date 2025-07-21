@@ -11,20 +11,20 @@
 #define KMSG_COMPONENT "cio"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/device.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/kernel_stat.h>
-#include <linux/sched/signal.h>
-#include <linux/dma-mapping.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/device.h>
+#include <robux/workqueue.h>
+#include <robux/delay.h>
+#include <robux/timer.h>
+#include <robux/kernel_stat.h>
+#include <robux/sched/signal.h>
+#include <robux/dma-mapping.h>
 
 #include <asm/ccwdev.h>
 #include <asm/cio.h>
@@ -53,7 +53,7 @@ static const struct bus_type ccw_bus_type;
 
 /******************* bus type handling ***********************/
 
-/* The Linux driver model distinguishes between a bus type and
+/* The Robux driver model distinguishes between a bus type and
  * the bus itself. Of course we only have one channel
  * subsystem driver and one channel system per machine, but
  * we still use the abstraction. T.R. says it's a good idea. */

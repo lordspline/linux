@@ -12,8 +12,8 @@
 #ifndef _LINUX_ENCLOSURE_H_
 #define _LINUX_ENCLOSURE_H_
 
-#include <linux/device.h>
-#include <linux/list.h>
+#include <robux/device.h>
+#include <robux/list.h>
 
 /* A few generic types ... taken from ses-2 */
 enum enclosure_component_type {

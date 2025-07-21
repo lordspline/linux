@@ -8,8 +8,8 @@
  *  Routines for control of EMU10K1 chips - voice manager
  */
 
-#include <linux/time.h>
-#include <linux/export.h>
+#include <robux/time.h>
+#include <robux/export.h>
 #include <sound/core.h>
 #include <sound/emu10k1.h>
 

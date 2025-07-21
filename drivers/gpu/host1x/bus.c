@@ -4,13 +4,13 @@
  * Copyright (C) 2012-2013, NVIDIA Corporation
  */
 
-#include <linux/debugfs.h>
-#include <linux/dma-mapping.h>
-#include <linux/host1x.h>
-#include <linux/of.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/of_device.h>
+#include <robux/debugfs.h>
+#include <robux/dma-mapping.h>
+#include <robux/host1x.h>
+#include <robux/of.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/of_device.h>
 
 #include "bus.h"
 #include "dev.h"

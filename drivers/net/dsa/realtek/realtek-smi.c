@@ -25,18 +25,18 @@
  * Copyright (C) 2009-2010 Gabor Juhos <juhosg@openwrt.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/spinlock.h>
-#include <linux/skbuff.h>
-#include <linux/of.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/bitops.h>
-#include <linux/if_bridge.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/spinlock.h>
+#include <robux/skbuff.h>
+#include <robux/of.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/bitops.h>
+#include <robux/if_bridge.h>
 
 #include "realtek.h"
 #include "realtek-smi.h"

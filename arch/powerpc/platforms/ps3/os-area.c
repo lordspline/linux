@@ -6,16 +6,16 @@
  *  Copyright 2006 Sony Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/workqueue.h>
-#include <linux/fs.h>
-#include <linux/syscalls.h>
-#include <linux/export.h>
-#include <linux/ctype.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/workqueue.h>
+#include <robux/fs.h>
+#include <robux/syscalls.h>
+#include <robux/export.h>
+#include <robux/ctype.h>
+#include <robux/memblock.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 
 #include "platform.h"
 
@@ -198,13 +198,13 @@ static struct saved_params {
 } saved_params;
 
 static struct property property_rtc_diff = {
-	.name = "linux,rtc_diff",
+	.name = "robux,rtc_diff",
 	.length = sizeof(saved_params.rtc_diff),
 	.value = &saved_params.rtc_diff,
 };
 
 static struct property property_av_multi_out = {
-	.name = "linux,av_multi_out",
+	.name = "robux,av_multi_out",
 	.length = sizeof(saved_params.av_multi_out),
 	.value = &saved_params.av_multi_out,
 };

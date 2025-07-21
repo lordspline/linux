@@ -6,14 +6,14 @@
  * Author: Gustavo Pimentel <gustavo.pimentel@synopsys.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/dma/edma.h>
-#include <linux/pci-epf.h>
-#include <linux/msi.h>
-#include <linux/bitfield.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/device.h>
+#include <robux/dma/edma.h>
+#include <robux/pci-epf.h>
+#include <robux/msi.h>
+#include <robux/bitfield.h>
 
 #include "dw-edma-core.h"
 

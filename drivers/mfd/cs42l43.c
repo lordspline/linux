@@ -6,24 +6,24 @@
  *                         Cirrus Logic International Semiconductor Ltd.
  */
 
-#include <linux/array_size.h>
-#include <linux/bitops.h>
-#include <linux/build_bug.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/jiffies.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/cs42l43.h>
-#include <linux/mfd/cs42l43-regs.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/bitops.h>
+#include <robux/build_bug.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/firmware.h>
+#include <robux/gpio/consumer.h>
+#include <robux/jiffies.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/cs42l43.h>
+#include <robux/mfd/cs42l43-regs.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/types.h>
 
 #include "cs42l43.h"
 

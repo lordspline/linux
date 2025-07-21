@@ -11,26 +11,26 @@
 
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/threads.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/initrd.h>
-#include <linux/bitops.h>
-#include <linux/export.h>
-#include <linux/kexec.h>
-#include <linux/irq.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/libfdt.h>
-#include <linux/cpu.h>
-#include <linux/pgtable.h>
-#include <linux/seq_buf.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/threads.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/initrd.h>
+#include <robux/bitops.h>
+#include <robux/export.h>
+#include <robux/kexec.h>
+#include <robux/irq.h>
+#include <robux/memblock.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
+#include <robux/libfdt.h>
+#include <robux/cpu.h>
+#include <robux/pgtable.h>
+#include <robux/seq_buf.h>
 
 #include <asm/rtas.h>
 #include <asm/page.h>
@@ -462,32 +462,32 @@ static int __init early_init_dt_scan_chosen_ppc(unsigned long node,
 
 #ifdef CONFIG_PPC64
 	/* check if iommu is forced on or off */
-	if (of_get_flat_dt_prop(node, "linux,iommu-off", NULL) != NULL)
+	if (of_get_flat_dt_prop(node, "robux,iommu-off", NULL) != NULL)
 		iommu_is_off = 1;
-	if (of_get_flat_dt_prop(node, "linux,iommu-force-on", NULL) != NULL)
+	if (of_get_flat_dt_prop(node, "robux,iommu-force-on", NULL) != NULL)
 		iommu_force_on = 1;
 #endif
 
 	/* mem=x on the command line is the preferred mechanism */
-	lprop = of_get_flat_dt_prop(node, "linux,memory-limit", NULL);
+	lprop = of_get_flat_dt_prop(node, "robux,memory-limit", NULL);
 	if (lprop)
 		memory_limit = *lprop;
 
 #ifdef CONFIG_PPC64
-	lprop = of_get_flat_dt_prop(node, "linux,tce-alloc-start", NULL);
+	lprop = of_get_flat_dt_prop(node, "robux,tce-alloc-start", NULL);
 	if (lprop)
 		tce_alloc_start = *lprop;
-	lprop = of_get_flat_dt_prop(node, "linux,tce-alloc-end", NULL);
+	lprop = of_get_flat_dt_prop(node, "robux,tce-alloc-end", NULL);
 	if (lprop)
 		tce_alloc_end = *lprop;
 #endif
 
 #ifdef CONFIG_CRASH_RESERVE
-	lprop = of_get_flat_dt_prop(node, "linux,crashkernel-base", NULL);
+	lprop = of_get_flat_dt_prop(node, "robux,crashkernel-base", NULL);
 	if (lprop)
 		crashk_res.start = *lprop;
 
-	lprop = of_get_flat_dt_prop(node, "linux,crashkernel-size", NULL);
+	lprop = of_get_flat_dt_prop(node, "robux,crashkernel-size", NULL);
 	if (lprop)
 		crashk_res.end = crashk_res.start + *lprop - 1;
 #endif
@@ -550,10 +550,10 @@ static int  __init early_init_drmem_lmb(struct drmem_lmb *lmb,
 	if (is_kexec_kdump) {
 		/*
 		 * For each memblock in ibm,dynamic-memory, a
-		 * corresponding entry in linux,drconf-usable-memory
+		 * corresponding entry in robux,drconf-usable-memory
 		 * property contains a counter 'p' followed by 'p'
 		 * (base, size) duple. Now read the counter from
-		 * linux,drconf-usable-memory property
+		 * robux,drconf-usable-memory property
 		 */
 		rngs = dt_mem_next_cell(dt_root_size_cells, usm);
 		if (!rngs) /* there are no (base, size) duple */

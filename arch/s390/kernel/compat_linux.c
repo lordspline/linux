@@ -15,42 +15,42 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/fs.h> 
-#include <linux/mm.h> 
-#include <linux/file.h> 
-#include <linux/signal.h>
-#include <linux/resource.h>
-#include <linux/times.h>
-#include <linux/smp.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/uio.h>
-#include <linux/quota.h>
-#include <linux/poll.h>
-#include <linux/personality.h>
-#include <linux/stat.h>
-#include <linux/filter.h>
-#include <linux/highmem.h>
-#include <linux/mman.h>
-#include <linux/ipv6.h>
-#include <linux/in.h>
-#include <linux/icmpv6.h>
-#include <linux/syscalls.h>
-#include <linux/sysctl.h>
-#include <linux/binfmts.h>
-#include <linux/capability.h>
-#include <linux/compat.h>
-#include <linux/vfs.h>
-#include <linux/ptrace.h>
-#include <linux/fadvise.h>
-#include <linux/ipc.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/fs.h> 
+#include <robux/mm.h> 
+#include <robux/file.h> 
+#include <robux/signal.h>
+#include <robux/resource.h>
+#include <robux/times.h>
+#include <robux/smp.h>
+#include <robux/sem.h>
+#include <robux/msg.h>
+#include <robux/shm.h>
+#include <robux/uio.h>
+#include <robux/quota.h>
+#include <robux/poll.h>
+#include <robux/personality.h>
+#include <robux/stat.h>
+#include <robux/filter.h>
+#include <robux/highmem.h>
+#include <robux/mman.h>
+#include <robux/ipv6.h>
+#include <robux/in.h>
+#include <robux/icmpv6.h>
+#include <robux/syscalls.h>
+#include <robux/sysctl.h>
+#include <robux/binfmts.h>
+#include <robux/capability.h>
+#include <robux/compat.h>
+#include <robux/vfs.h>
+#include <robux/ptrace.h>
+#include <robux/fadvise.h>
+#include <robux/ipc.h>
+#include <robux/slab.h>
 
 #include <asm/types.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include <net/scm.h>
 #include <net/sock.h>
@@ -187,7 +187,7 @@ COMPAT_SYSCALL_DEFINE4(s390_fstatat64, unsigned int, dfd, const char __user *, f
 }
 
 /*
- * Linux/i386 didn't use to be able to handle more than
+ * Robux/i386 didn't use to be able to handle more than
  * 4 system call parameters, so these system calls used a memory
  * block for parameter passing..
  */

@@ -16,10 +16,10 @@
 
 #define pr_fmt(fmt)	"resctrl: " fmt
 
-#include <linux/cpu.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/cpuhotplug.h>
+#include <robux/cpu.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/cpuhotplug.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/msr.h>

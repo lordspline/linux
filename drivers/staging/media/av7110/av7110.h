@@ -2,20 +2,20 @@
 #ifndef _AV7110_H_
 #define _AV7110_H_
 
-#include <linux/interrupt.h>
-#include <linux/socket.h>
-#include <linux/netdevice.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/time.h>
+#include <robux/interrupt.h>
+#include <robux/socket.h>
+#include <robux/netdevice.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/time.h>
 
-#include <linux/dvb/video.h>
-#include <linux/dvb/audio.h>
-#include <linux/dvb/dmx.h>
-#include <linux/dvb/ca.h>
-#include <linux/dvb/osd.h>
-#include <linux/dvb/net.h>
-#include <linux/mutex.h>
+#include <robux/dvb/video.h>
+#include <robux/dvb/audio.h>
+#include <robux/dvb/dmx.h>
+#include <robux/dvb/ca.h>
+#include <robux/dvb/osd.h>
+#include <robux/dvb/net.h>
+#include <robux/mutex.h>
 
 #include <media/dvbdev.h>
 #include <media/demux.h>

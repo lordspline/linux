@@ -8,16 +8,16 @@
  * used as clock_event_device.
  */
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/spinlock.h>
-#include <linux/sched_clock.h>
+#include <robux/kernel.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/clockchips.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/spinlock.h>
+#include <robux/sched_clock.h>
 
 #define TIMER_CTRL		0x00
 #define  TIMER0_EN		BIT(0)

@@ -8,17 +8,17 @@
 //
 //
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/fs.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/fs.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>

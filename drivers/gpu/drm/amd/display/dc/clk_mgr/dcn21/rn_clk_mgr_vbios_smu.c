@@ -30,7 +30,7 @@
 
 #include "rn_clk_mgr_vbios_smu.h"
 
-#include <linux/delay.h>
+#include <robux/delay.h>
 
 #include "renoir_ip_offset.h"
 

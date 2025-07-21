@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  Advanced Linux Sound Architecture
+ *  Advanced Robux Sound Architecture
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/time.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/time.h>
 #include <sound/core.h>
 #include <sound/minors.h>
 #include <sound/info.h>
-#include <linux/sound.h>
-#include <linux/mutex.h>
+#include <robux/sound.h>
+#include <robux/mutex.h>
 
 #define SNDRV_OSS_MINORS 256
 

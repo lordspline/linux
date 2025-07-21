@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Landlock - User space API
  *
@@ -10,7 +10,7 @@
 #ifndef _UAPI_LINUX_LANDLOCK_H
 #define _UAPI_LINUX_LANDLOCK_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /**
  * struct landlock_ruleset_attr - Ruleset definition.

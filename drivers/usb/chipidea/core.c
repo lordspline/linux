@@ -14,28 +14,28 @@
  * - Low power mode
  * - USB wakeup
  */
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/extcon.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/chipidea.h>
-#include <linux/usb/of.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/usb/ehci_def.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/extcon.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/idr.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/pm_runtime.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/otg.h>
+#include <robux/usb/chipidea.h>
+#include <robux/usb/of.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
+#include <robux/usb/ehci_def.h>
 
 #include "ci.h"
 #include "udc.h"

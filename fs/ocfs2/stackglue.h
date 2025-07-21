@@ -11,12 +11,12 @@
 #ifndef STACKGLUE_H
 #define STACKGLUE_H
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/dlmconstants.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/dlmconstants.h>
 
 #include "dlm/dlmapi.h"
-#include <linux/dlm.h>
+#include <robux/dlm.h>
 
 /* Needed for plock-related prototypes */
 struct file;

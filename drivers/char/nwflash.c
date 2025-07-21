@@ -15,24 +15,24 @@
  * power to convert these machines into doorstops...
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/proc_fs.h>
-#include <linux/miscdevice.h>
-#include <linux/spinlock.h>
-#include <linux/rwsem.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/jiffies.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/fs.h>
+#include <robux/errno.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/proc_fs.h>
+#include <robux/miscdevice.h>
+#include <robux/spinlock.h>
+#include <robux/rwsem.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
+#include <robux/jiffies.h>
 
 #include <asm/hardware/dec21285.h>
 #include <asm/io.h>
 #include <asm/mach-types.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 /*****************************************************************************/
 #include <asm/nwflash.h>

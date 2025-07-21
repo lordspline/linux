@@ -6,12 +6,12 @@
  *
  * Copyright (C) 2009 Magnus Damm
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/sh_clk.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/sh_clk.h>
 #include <asm/clock.h>
 #include <cpu/sh7723.h>
 

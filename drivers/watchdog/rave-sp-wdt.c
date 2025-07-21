@@ -8,16 +8,16 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/mfd/rave-sp.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/watchdog.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/mfd/rave-sp.h>
+#include <robux/module.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/slab.h>
+#include <robux/watchdog.h>
 
 enum {
 	RAVE_SP_RESET_BYTE = 1,

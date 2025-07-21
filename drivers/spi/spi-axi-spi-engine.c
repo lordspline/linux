@@ -6,21 +6,21 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/dmaengine.h>
-#include <linux/fpga/adi-axi-common.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/spi/offload/provider.h>
-#include <linux/spi/spi.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/dmaengine.h>
+#include <robux/fpga/adi-axi-common.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/overflow.h>
+#include <robux/platform_device.h>
+#include <robux/spi/offload/provider.h>
+#include <robux/spi/spi.h>
 #include <trace/events/spi.h>
 
 #define SPI_ENGINE_REG_OFFLOAD_MEM_ADDR_WIDTH	0x10

@@ -7,15 +7,15 @@
  * Author : Yoshihiro Shimoda <yoshihiro.shimoda.uh@renesas.com>
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
 
 #include "m66592-udc.h"
 

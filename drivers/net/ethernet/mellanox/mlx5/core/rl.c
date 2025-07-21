@@ -30,8 +30,8 @@
  * SOFTWARE.
  */
 
-#include <linux/kernel.h>
-#include <linux/mlx5/driver.h>
+#include <robux/kernel.h>
+#include <robux/mlx5/driver.h>
 #include "mlx5_core.h"
 
 bool mlx5_qos_tsar_type_supported(struct mlx5_core_dev *dev, int type, u8 hierarchy)

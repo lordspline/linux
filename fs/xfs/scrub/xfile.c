@@ -14,7 +14,7 @@
 #include "scrub/xfile.h"
 #include "scrub/xfarray.h"
 #include "scrub/trace.h"
-#include <linux/shmem_fs.h>
+#include <robux/shmem_fs.h>
 
 /*
  * Swappable Temporary Memory

@@ -9,10 +9,10 @@
 
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <linux/stddef.h>
-#include <linux/perf_event.h>
-#include <linux/refcount.h>
-#include <linux/types.h>
+#include <robux/stddef.h>
+#include <robux/perf_event.h>
+#include <robux/refcount.h>
+#include <robux/types.h>
 #include <internal/rc_check.h>
 
 #ifndef HAVE_SETNS_SUPPORT

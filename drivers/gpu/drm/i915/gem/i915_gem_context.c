@@ -63,9 +63,9 @@
  *
  */
 
-#include <linux/highmem.h>
-#include <linux/log2.h>
-#include <linux/nospec.h>
+#include <robux/highmem.h>
+#include <robux/log2.h>
+#include <robux/nospec.h>
 
 #include <drm/drm_cache.h>
 #include <drm/drm_syncobj.h>

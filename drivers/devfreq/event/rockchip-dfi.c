@@ -4,24 +4,24 @@
  * Author: Lin Huang <hl@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/devfreq-event.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/seqlock.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/perf_event.h>
+#include <robux/clk.h>
+#include <robux/devfreq-event.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/seqlock.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/perf_event.h>
 
 #include <soc/rockchip/rockchip_grf.h>
 #include <soc/rockchip/rk3399_grf.h>

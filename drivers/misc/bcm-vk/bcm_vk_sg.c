@@ -2,16 +2,16 @@
 /*
  * Copyright 2018-2020 Broadcom.
  */
-#include <linux/dma-mapping.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/pgtable.h>
-#include <linux/vmalloc.h>
+#include <robux/dma-mapping.h>
+#include <robux/mm.h>
+#include <robux/pagemap.h>
+#include <robux/pgtable.h>
+#include <robux/vmalloc.h>
 
 #include <asm/page.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <uapi/linux/misc/bcm_vk.h>
+#include <uapi/robux/misc/bcm_vk.h>
 
 #include "bcm_vk.h"
 #include "bcm_vk_msg.h"

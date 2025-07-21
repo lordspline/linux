@@ -26,7 +26,7 @@
 
 		button-function {
 			label = "Reset";
-			linux,code = <KEY_VENDOR>;
+			robux,code = <KEY_VENDOR>;
 			press-threshold-microvolt = <1750>;
 		};
 	};
@@ -62,7 +62,7 @@
 			color = <LED_COLOR_ID_BLUE>;
 			function = LED_FUNCTION_STATUS;
 			gpios = <&gpio3 RK_PD4 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 		};
 	};
 
@@ -142,7 +142,7 @@
 	};
 
 	spdif_dit: spdif-dit {
-		compatible = "linux,spdif-dit";
+		compatible = "robux,spdif-dit";
 		#sound-dai-cells = <0>;
 	};
 

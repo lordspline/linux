@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI__NET_DROPMON_H
 #define _UAPI__NET_DROPMON_H
 
-#include <linux/types.h>
-#include <linux/netlink.h>
+#include <robux/types.h>
+#include <robux/netlink.h>
 
 struct net_dm_drop_point {
 	__u8 pc[8];

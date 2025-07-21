@@ -28,15 +28,15 @@
 
 #include "bcm47xx_private.h"
 
-#include <linux/bcm47xx_sprom.h>
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/ethtool.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/ssb/ssb.h>
-#include <linux/ssb/ssb_embedded.h>
-#include <linux/bcma/bcma_soc.h>
+#include <robux/bcm47xx_sprom.h>
+#include <robux/export.h>
+#include <robux/types.h>
+#include <robux/ethtool.h>
+#include <robux/phy.h>
+#include <robux/phy_fixed.h>
+#include <robux/ssb/ssb.h>
+#include <robux/ssb/ssb_embedded.h>
+#include <robux/bcma/bcma_soc.h>
 #include <asm/bmips.h>
 #include <asm/bootinfo.h>
 #include <asm/idle.h>

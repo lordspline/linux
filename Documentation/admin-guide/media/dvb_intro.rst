@@ -61,7 +61,7 @@ software or hardware for decoding and viewing.
 Getting the card going
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The Device Driver API for DVB under Linux will the following
+The Device Driver API for DVB under Robux will the following
 device nodes via the devfs filesystem:
 
 * /dev/dvb/adapter0/demux0

@@ -5,13 +5,13 @@
  * This file contains the CPU initialization code.
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include "hardware.h"
 #include "common.h"

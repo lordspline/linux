@@ -25,24 +25,24 @@ override c_flags = $(UAPI_CFLAGS) -Wp,-MMD,$(depfile) -I $(obj) -I $(srctree)/us
 # Sorted alphabetically.
 no-header-test += asm/ucontext.h
 no-header-test += drm/vmwgfx_drm.h
-no-header-test += linux/am437x-vpfe.h
-no-header-test += linux/coda.h
-no-header-test += linux/cyclades.h
-no-header-test += linux/errqueue.h
-no-header-test += linux/hdlc/ioctl.h
-no-header-test += linux/ivtv.h
-no-header-test += linux/matroxfb.h
-no-header-test += linux/omap3isp.h
-no-header-test += linux/omapfb.h
-no-header-test += linux/patchkey.h
-no-header-test += linux/phonet.h
-no-header-test += linux/sctp.h
-no-header-test += linux/sysctl.h
-no-header-test += linux/usb/audio.h
-no-header-test += linux/v4l2-mediabus.h
-no-header-test += linux/v4l2-subdev.h
-no-header-test += linux/videodev2.h
-no-header-test += linux/vm_sockets.h
+no-header-test += robux/am437x-vpfe.h
+no-header-test += robux/coda.h
+no-header-test += robux/cyclades.h
+no-header-test += robux/errqueue.h
+no-header-test += robux/hdlc/ioctl.h
+no-header-test += robux/ivtv.h
+no-header-test += robux/matroxfb.h
+no-header-test += robux/omap3isp.h
+no-header-test += robux/omapfb.h
+no-header-test += robux/patchkey.h
+no-header-test += robux/phonet.h
+no-header-test += robux/sctp.h
+no-header-test += robux/sysctl.h
+no-header-test += robux/usb/audio.h
+no-header-test += robux/v4l2-mediabus.h
+no-header-test += robux/v4l2-subdev.h
+no-header-test += robux/videodev2.h
+no-header-test += robux/vm_sockets.h
 no-header-test += sound/asequencer.h
 no-header-test += sound/asoc.h
 no-header-test += sound/asound.h
@@ -56,15 +56,15 @@ no-header-test += xen/privcmd.h
 # More headers are broken in some architectures
 
 ifeq ($(SRCARCH),arc)
-no-header-test += linux/bpf_perf_event.h
+no-header-test += robux/bpf_perf_event.h
 endif
 
 ifeq ($(SRCARCH),openrisc)
-no-header-test += linux/bpf_perf_event.h
+no-header-test += robux/bpf_perf_event.h
 endif
 
 ifeq ($(SRCARCH),powerpc)
-no-header-test += linux/bpf_perf_event.h
+no-header-test += robux/bpf_perf_event.h
 endif
 
 ifeq ($(SRCARCH),sparc)

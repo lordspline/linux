@@ -6,13 +6,13 @@
  * Copyright © 2011 Ivan Djelic <ivan.djelic@parrot.com>
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/mtd/nand.h>
-#include <linux/mtd/nand-ecc-sw-bch.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/bitops.h>
+#include <robux/mtd/nand.h>
+#include <robux/mtd/nand-ecc-sw-bch.h>
 
 /**
  * nand_ecc_sw_bch_calculate - Calculate the ECC corresponding to a data block

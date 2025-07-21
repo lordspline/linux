@@ -10,7 +10,7 @@
 
 #include <drm/drm_mm.h>
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /* Forward declarations from "pvr_device.h". */
 struct pvr_device;

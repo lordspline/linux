@@ -8,15 +8,15 @@
  */
 
 #include <asm/current.h>
-#include <linux/cleanup.h>
-#include <linux/cred.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/lsm_audit.h>
-#include <linux/lsm_hooks.h>
-#include <linux/rcupdate.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
+#include <robux/cleanup.h>
+#include <robux/cred.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/lsm_audit.h>
+#include <robux/lsm_hooks.h>
+#include <robux/rcupdate.h>
+#include <robux/sched.h>
+#include <robux/sched/signal.h>
 #include <net/af_unix.h>
 #include <net/sock.h>
 

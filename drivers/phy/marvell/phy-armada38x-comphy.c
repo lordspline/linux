@@ -5,13 +5,13 @@
  * Partly derived from CP110 comphy driver by Antoine Tenart
  * <antoine.tenart@bootlin.com>
  */
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
 
 #define MAX_A38X_COMPHY	6
 #define MAX_A38X_PORTS	3

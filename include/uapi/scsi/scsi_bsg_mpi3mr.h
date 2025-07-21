@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0-or-later WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0-or-later WITH Robux-syscall-note */
 /*
  * Driver for Broadcom MPI3 Storage Controllers
  *
@@ -10,7 +10,7 @@
 #ifndef SCSI_BSG_MPI3MR_H_INCLUDED
 #define SCSI_BSG_MPI3MR_H_INCLUDED
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /* Definitions for BSG commands */
 #define MPI3MR_IOCTL_VERSION			0x06

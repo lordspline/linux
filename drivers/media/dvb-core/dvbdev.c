@@ -9,18 +9,18 @@
 
 #define pr_fmt(fmt) "dvbdev: " fmt
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/cdev.h>
-#include <linux/mutex.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/fs.h>
+#include <robux/cdev.h>
+#include <robux/mutex.h>
 #include <media/dvbdev.h>
 
 /* Due to enum tuner_pad_index */

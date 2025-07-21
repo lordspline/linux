@@ -12,19 +12,19 @@
  * Base Functions
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/poll.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/idr.h>
-#include <linux/sched/signal.h>
-#include <linux/string.h>
-#include <linux/kobject.h>
-#include <linux/cdev.h>
-#include <linux/uio_driver.h>
-#include <linux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/poll.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/idr.h>
+#include <robux/sched/signal.h>
+#include <robux/string.h>
+#include <robux/kobject.h>
+#include <robux/cdev.h>
+#include <robux/uio_driver.h>
+#include <robux/dma-mapping.h>
 
 #define UIO_MAX_DEVICES		(1U << MINORBITS)
 

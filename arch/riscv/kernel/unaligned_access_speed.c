@@ -3,13 +3,13 @@
  * Copyright 2024 Rivos Inc.
  */
 
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/jump_label.h>
-#include <linux/kthread.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/types.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/jump_label.h>
+#include <robux/kthread.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/types.h>
 #include <asm/cpufeature.h>
 #include <asm/hwprobe.h>
 #include <asm/vector.h>

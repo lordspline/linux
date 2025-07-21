@@ -14,16 +14,16 @@
 
 #define dev_fmt(fmt) "pciehp: " fmt
 
-#include <linux/bitfield.h>
-#include <linux/dmi.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/jiffies.h>
-#include <linux/kthread.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/dmi.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/jiffies.h>
+#include <robux/kthread.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
 
 #include "../pci.h"
 #include "pciehp.h"

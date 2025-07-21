@@ -4,30 +4,30 @@
  *
  *  Based on asus_acpi.c as patched for the Eee PC by Asus:
  *  ftp://ftp.asus.com/pub/ASUS/EeePC/701/ASUS_ACPI_071126.rar
- *  Based on eee.c from eeepc-linux
+ *  Based on eee.c from eeepc-robux
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/backlight.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/uaccess.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/rfkill.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/sysfs.h>
-#include <linux/leds.h>
-#include <linux/dmi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/platform_device.h>
+#include <robux/backlight.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
+#include <robux/uaccess.h>
+#include <robux/input.h>
+#include <robux/input/sparse-keymap.h>
+#include <robux/rfkill.h>
+#include <robux/pci.h>
+#include <robux/pci_hotplug.h>
+#include <robux/sysfs.h>
+#include <robux/leds.h>
+#include <robux/dmi.h>
 #include <acpi/video.h>
 
 #define EEEPC_LAPTOP_VERSION	"0.1"

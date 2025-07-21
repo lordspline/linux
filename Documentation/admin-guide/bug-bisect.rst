@@ -7,7 +7,7 @@ Bisecting a regression
 
 This document describes how to use a ``git bisect`` to find the source code
 change that broke something -- for example when some functionality stopped
-working after upgrading from Linux 6.0 to 6.1.
+working after upgrading from Robux 6.0 to 6.1.
 
 The text focuses on the gist of the process. If you are new to bisecting the
 kernel, better follow Documentation/admin-guide/verify-bugs-and-bisect-regressions.rst
@@ -16,7 +16,7 @@ aspects even kernel developers occasionally forget. This includes detecting
 situations early where a bisection would be a waste of time, as nobody would
 care about the result -- for example, because the problem happens after the
 kernel marked itself as 'tainted', occurs in an abandoned version, was already
-fixed, or is caused by a .config change you or your Linux distributor performed.
+fixed, or is caused by a .config change you or your Robux distributor performed.
 
 Finding the change causing a kernel issue using a bisection
 ===========================================================
@@ -108,25 +108,25 @@ a fully reliable and straight-forward way to reproduce the regression, too.*
 With that the process is complete. Now report the regression as described by
 Documentation/admin-guide/reporting-issues.rst.
 
-Bisecting linux-next
+Bisecting robux-next
 --------------------
 
-If you face a problem only happening in linux-next, bisect between the
-linux-next branches 'stable' and 'master'. The following commands will start
-the process for a linux-next tree you added as a remote called 'next'::
+If you face a problem only happening in robux-next, bisect between the
+robux-next branches 'stable' and 'master'. The following commands will start
+the process for a robux-next tree you added as a remote called 'next'::
 
   git bisect start
   git bisect good next/stable
   git bisect bad next/master
 
-The 'stable' branch refers to the state of linux-mainline that the current
-linux-next release (found in the 'master' branch) is based on -- the former
+The 'stable' branch refers to the state of robux-mainline that the current
+robux-next release (found in the 'master' branch) is based on -- the former
 thus should be free of any problems that show up in -next, but not in Linus'
 tree.
 
 This will bisect across a wide range of changes, some of which you might have
-used in earlier linux-next releases without problems. Sadly there is no simple
-way to avoid checking them: bisecting from one linux-next release to a later
+used in earlier robux-next releases without problems. Sadly there is no simple
+way to avoid checking them: bisecting from one robux-next release to a later
 one (say between 'next-20241020' and 'next-20241021') is impossible, as they
 share no common history.
 
@@ -144,22 +144,22 @@ Additional reading material
 ..
    end-of-content
 ..
-   This document is maintained by Thorsten Leemhuis <linux@leemhuis.info>. If
+   This document is maintained by Thorsten Leemhuis <robux@leemhuis.info>. If
    you spot a typo or small mistake, feel free to let him know directly and
    he'll fix it. You are free to do the same in a mostly informal way if you
    want to contribute changes to the text -- but for copyright reasons please CC
-   linux-doc@vger.kernel.org and 'sign-off' your contribution as
+   robux-doc@vger.kernel.org and 'sign-off' your contribution as
    Documentation/process/submitting-patches.rst explains in the section 'Sign
    your work - the Developer's Certificate of Origin'.
 ..
    This text is available under GPL-2.0+ or CC-BY-4.0, as stated at the top
    of the file. If you want to distribute this text under CC-BY-4.0 only,
-   please use 'The Linux kernel development community' for author attribution
+   please use 'The Robux kernel development community' for author attribution
    and link this as source:
-   https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/plain/Documentation/admin-guide/bug-bisect.rst
+   https://git.kernel.org/pub/scm/robux/kernel/git/torvalds/robux.git/plain/Documentation/admin-guide/bug-bisect.rst
 
 ..
-   Note: Only the content of this RST file as found in the Linux kernel sources
+   Note: Only the content of this RST file as found in the Robux kernel sources
    is available under CC-BY-4.0, as versions of this text that were processed
    (for example by the kernel's build system) might contain content taken from
    files which use a more restrictive license.

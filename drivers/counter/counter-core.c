@@ -3,21 +3,21 @@
  * Generic Counter interface
  * Copyright (C) 2020 William Breathitt Gray
  */
-#include <linux/cdev.h>
-#include <linux/counter.h>
-#include <linux/device.h>
-#include <linux/device/bus.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/kdev_t.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <robux/cdev.h>
+#include <robux/counter.h>
+#include <robux/device.h>
+#include <robux/device/bus.h>
+#include <robux/export.h>
+#include <robux/fs.h>
+#include <robux/gfp.h>
+#include <robux/idr.h>
+#include <robux/init.h>
+#include <robux/kdev_t.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/wait.h>
 
 #include "counter-chrdev.h"
 #include "counter-sysfs.h"

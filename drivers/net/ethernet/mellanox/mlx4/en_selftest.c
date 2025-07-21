@@ -31,11 +31,11 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/delay.h>
-#include <linux/mlx4/driver.h>
+#include <robux/kernel.h>
+#include <robux/ethtool.h>
+#include <robux/netdevice.h>
+#include <robux/delay.h>
+#include <robux/mlx4/driver.h>
 
 #include "mlx4_en.h"
 

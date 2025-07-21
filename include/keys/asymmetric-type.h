@@ -10,8 +10,8 @@
 #ifndef _KEYS_ASYMMETRIC_TYPE_H
 #define _KEYS_ASYMMETRIC_TYPE_H
 
-#include <linux/key-type.h>
-#include <linux/verification.h>
+#include <robux/key-type.h>
+#include <robux/verification.h>
 
 extern struct key_type key_type_asymmetric;
 

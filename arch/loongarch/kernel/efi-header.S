@@ -3,8 +3,8 @@
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
 
-#include <linux/pe.h>
-#include <linux/sizes.h>
+#include <robux/pe.h>
+#include <robux/sizes.h>
 
 	.macro	__EFI_PE_HEADER
 	.long	IMAGE_NT_SIGNATURE

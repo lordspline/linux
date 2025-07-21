@@ -23,14 +23,14 @@
  *
  */
 
-#include <linux/irqdomain.h>
-#include <linux/pci.h>
-#include <linux/pm_domain.h>
-#include <linux/platform_device.h>
+#include <robux/irqdomain.h>
+#include <robux/pci.h>
+#include <robux/pm_domain.h>
+#include <robux/platform_device.h>
 #include <sound/designware_i2s.h>
 #include <sound/pcm.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
+#include <robux/acpi.h>
+#include <robux/dmi.h>
 
 #include "amdgpu.h"
 #include "atom.h"

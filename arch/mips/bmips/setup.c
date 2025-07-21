@@ -7,17 +7,17 @@
  * Copyright (C) 2014 Kevin Cernekee <cernekee@gmail.com>
  */
 
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/memblock.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_clk.h>
-#include <linux/of_fdt.h>
-#include <linux/libfdt.h>
-#include <linux/smp.h>
+#include <robux/init.h>
+#include <robux/bitops.h>
+#include <robux/memblock.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_clk.h>
+#include <robux/of_fdt.h>
+#include <robux/libfdt.h>
+#include <robux/smp.h>
 #include <asm/addrspace.h>
 #include <asm/bmips.h>
 #include <asm/bootinfo.h>
@@ -61,7 +61,7 @@ static void bcm3384_viper_quirks(void)
 {
 	/*
 	 * Some experimental CM boxes are set up to let CM own the Viper TP0
-	 * and let Linux own TP1.  This requires moving the kernel
+	 * and let Robux own TP1.  This requires moving the kernel
 	 * load address to a non-conflicting region (e.g. via
 	 * CONFIG_PHYSICAL_START) and supplying an alternate DTB.
 	 * If we detect this condition, we need to move the MIPS exception

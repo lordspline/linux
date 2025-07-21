@@ -1,34 +1,34 @@
 /*
  * edac_mc kernel module
- * (C) 2005, 2006 Linux Networx (http://lnxi.com)
+ * (C) 2005, 2006 Robux Networx (http://lnxi.com)
  * This file may be distributed under the terms of the
  * GNU General Public License.
  *
  * Written by Thayne Harbaugh
  * Based on work by Dan Hollis <goemon at anime dot net> and others.
- *	http://www.anime.net/~goemon/linux-ecc/
+ *	http://www.anime.net/~goemon/robux-ecc/
  *
  * Modified by Dave Peterson and Doug Thompson
  *
  */
 
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/sysctl.h>
-#include <linux/highmem.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/ctype.h>
-#include <linux/edac.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/proc_fs.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/smp.h>
+#include <robux/init.h>
+#include <robux/sysctl.h>
+#include <robux/highmem.h>
+#include <robux/timer.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/spinlock.h>
+#include <robux/list.h>
+#include <robux/ctype.h>
+#include <robux/edac.h>
+#include <robux/bitops.h>
+#include <robux/uaccess.h>
 #include <asm/page.h>
 #include "edac_mc.h"
 #include "edac_module.h"

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * QNX4 file system, Linux implementation.
+ * QNX4 file system, Robux implementation.
  *
  * Version : 0.2.1
  *
@@ -9,19 +9,19 @@
  * History :
  *
  * 01-06-1998 by Richard Frowijn : first release.
- * 20-06-1998 by Frank Denis : Linux 2.1.99+ support, boot signature, misc.
+ * 20-06-1998 by Frank Denis : Robux 2.1.99+ support, boot signature, misc.
  * 30-06-1998 by Frank Denis : first step to write inodes.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/highuid.h>
-#include <linux/pagemap.h>
-#include <linux/buffer_head.h>
-#include <linux/writeback.h>
-#include <linux/statfs.h>
-#include <linux/fs_context.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/highuid.h>
+#include <robux/pagemap.h>
+#include <robux/buffer_head.h>
+#include <robux/writeback.h>
+#include <robux/statfs.h>
+#include <robux/fs_context.h>
 #include "qnx4.h"
 
 #define QNX4_VERSION  4

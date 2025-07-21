@@ -7,20 +7,20 @@
  * Author Kurt Kanzenbach <kurt@linutronix.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/platform_device.h>
-#include <linux/bitops.h>
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
-#include <linux/etherdevice.h>
-#include <linux/random.h>
-#include <linux/iopoll.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/platform_device.h>
+#include <robux/bitops.h>
+#include <robux/if_bridge.h>
+#include <robux/if_vlan.h>
+#include <robux/etherdevice.h>
+#include <robux/random.h>
+#include <robux/iopoll.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
 #include <net/dsa.h>
 
 #include "hellcreek.h"

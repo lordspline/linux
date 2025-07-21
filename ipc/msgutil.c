@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * linux/ipc/msgutil.c
+ * robux/ipc/msgutil.c
  * Copyright (C) 1999, 2004 Manfred Spraul
  */
 
-#include <linux/spinlock.h>
-#include <linux/init.h>
-#include <linux/security.h>
-#include <linux/slab.h>
-#include <linux/ipc.h>
-#include <linux/msg.h>
-#include <linux/ipc_namespace.h>
-#include <linux/utsname.h>
-#include <linux/proc_ns.h>
-#include <linux/uaccess.h>
-#include <linux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/init.h>
+#include <robux/security.h>
+#include <robux/slab.h>
+#include <robux/ipc.h>
+#include <robux/msg.h>
+#include <robux/ipc_namespace.h>
+#include <robux/utsname.h>
+#include <robux/proc_ns.h>
+#include <robux/uaccess.h>
+#include <robux/sched.h>
 
 #include "util.h"
 

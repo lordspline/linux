@@ -11,14 +11,14 @@
  * Hans Ulli Kroll <ulli.kroll@googlemail.com>
  */
 
-#include <linux/rtc.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/clk.h>
+#include <robux/rtc.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/clk.h>
 
 #define DRV_NAME        "rtc-ftrtc010"
 

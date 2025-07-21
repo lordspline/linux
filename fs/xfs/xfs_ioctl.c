@@ -27,7 +27,7 @@
 #include "xfs_icache.h"
 #include "xfs_trans.h"
 #include "xfs_btree.h"
-#include <linux/fsmap.h>
+#include <robux/fsmap.h>
 #include "xfs_fsmap.h"
 #include "scrub/xfs_scrub.h"
 #include "xfs_sb.h"
@@ -42,8 +42,8 @@
 #include "xfs_handle.h"
 #include "xfs_rtgroup.h"
 
-#include <linux/mount.h>
-#include <linux/fileattr.h>
+#include <robux/mount.h>
+#include <robux/fileattr.h>
 
 /* Return 0 on success or positive error */
 int
@@ -437,7 +437,7 @@ xfs_ioc_rtgroup_geometry(
 }
 
 /*
- * Linux extended inode flags interface.
+ * Robux extended inode flags interface.
  */
 
 static void

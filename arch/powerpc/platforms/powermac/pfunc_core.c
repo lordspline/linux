@@ -6,13 +6,13 @@
  * FIXME: LOCKING !!!
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
 
 #include <asm/pmac_pfunc.h>
 

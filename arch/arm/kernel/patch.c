@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/kprobes.h>
-#include <linux/mm.h>
-#include <linux/stop_machine.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/kprobes.h>
+#include <robux/mm.h>
+#include <robux/stop_machine.h>
 
 #include <asm/cacheflush.h>
 #include <asm/fixmap.h>

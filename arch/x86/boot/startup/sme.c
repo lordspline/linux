@@ -34,10 +34,10 @@
  */
 #define USE_EARLY_PGTABLE_L5
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/mem_encrypt.h>
-#include <linux/cc_platform.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/mem_encrypt.h>
+#include <robux/cc_platform.h>
 
 #include <asm/init.h>
 #include <asm/setup.h>

@@ -8,14 +8,14 @@
  *  SSP driver for the HP Jornada 710/720/728
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/io.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/sched.h>
+#include <robux/io.h>
 
 #include <mach/hardware.h>
 #include <mach/jornada720.h>

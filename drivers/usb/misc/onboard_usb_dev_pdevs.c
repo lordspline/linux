@@ -5,17 +5,17 @@
  * Copyright (c) 2022, Google LLC
  */
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/of.h>
-#include <linux/usb/onboard_dev.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/of.h>
+#include <robux/usb/onboard_dev.h>
 
 #include "onboard_usb_dev.h"
 

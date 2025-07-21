@@ -2,19 +2,19 @@
 #ifndef __LINUX_GPIO_DRIVER_H
 #define __LINUX_GPIO_DRIVER_H
 
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/irqhandler.h>
-#include <linux/lockdep.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/property.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
-#include <linux/util_macros.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/irqhandler.h>
+#include <robux/lockdep.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/property.h>
+#include <robux/spinlock_types.h>
+#include <robux/types.h>
+#include <robux/util_macros.h>
 
 #ifdef CONFIG_GENERIC_MSI_IRQ
 #include <asm/msi.h>
@@ -60,7 +60,7 @@ struct gpio_irq_chip {
 	 * @domain:
 	 *
 	 * Interrupt translation domain; responsible for mapping between GPIO
-	 * hwirq number and Linux IRQ number.
+	 * hwirq number and Robux IRQ number.
 	 */
 	struct irq_domain *domain;
 

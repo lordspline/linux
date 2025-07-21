@@ -11,13 +11,13 @@
  * and "ohci-ppc-of.c" by Sylvain Munaut <tnt@246tNt.com>
  */
 
-#include <linux/err.h>
-#include <linux/signal.h>
+#include <robux/err.h>
+#include <robux/signal.h>
 
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 /**
  * ehci_xilinx_port_handed_over - hand the port out if failed to enable it

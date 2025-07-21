@@ -6,13 +6,13 @@
  * (C) 2009 Uwe Kleine-Koenig, Pengutronix
  */
 
-#include <linux/mfd/mc13xxx.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/rtc.h>
+#include <robux/mfd/mc13xxx.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/slab.h>
+#include <robux/rtc.h>
 
 #define DRIVER_NAME "mc13xxx-rtc"
 

@@ -31,9 +31,9 @@
  * SOFTWARE.
  */
 
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/errno.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/errno.h>
 #include <net/devlink.h>
 
 #include "mlx4.h"

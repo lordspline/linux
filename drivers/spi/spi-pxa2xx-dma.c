@@ -3,20 +3,20 @@
  * PXA2xx SPI DMA engine support.
  *
  * Copyright (C) 2013, 2021 Intel Corporation
- * Author: Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Author: Mika Westerberg <mika.westerberg@robux.intel.com>
  */
 
-#include <linux/atomic.h>
-#include <linux/dev_printk.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/errno.h>
-#include <linux/irqreturn.h>
-#include <linux/scatterlist.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/atomic.h>
+#include <robux/dev_printk.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/errno.h>
+#include <robux/irqreturn.h>
+#include <robux/scatterlist.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
-#include <linux/spi/spi.h>
+#include <robux/spi/spi.h>
 
 #include "spi-pxa2xx.h"
 

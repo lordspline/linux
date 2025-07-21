@@ -6,8 +6,8 @@
  * Author: Ryan Wilson <hap9@epoch.ncsc.mil>
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
 #include "pciback.h"
 #include "conf_space.h"
 

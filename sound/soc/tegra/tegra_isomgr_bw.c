@@ -4,8 +4,8 @@
 //
 // ADMA bandwidth calculation
 
-#include <linux/interconnect.h>
-#include <linux/module.h>
+#include <robux/interconnect.h>
+#include <robux/module.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include "tegra_isomgr_bw.h"

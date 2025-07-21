@@ -7,13 +7,13 @@
  *         lrg@slimlogic.co.uk
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/initval.h>
@@ -21,7 +21,7 @@
 #include <sound/pxa2xx-lib.h>
 #include <sound/dmaengine_pcm.h>
 
-#include <linux/platform_data/asoc-pxa.h>
+#include <robux/platform_data/asoc-pxa.h>
 
 #include "pxa2xx-i2s.h"
 

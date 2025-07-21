@@ -7,26 +7,26 @@
  * Copyrignt (C) 2006 Michael Ellerman, IBM Corp
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/sched/signal.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
-#include <linux/reboot.h>
-#include <linux/delay.h>
-#include <linux/kallsyms.h>
-#include <linux/kmsg_dump.h>
-#include <linux/cpumask.h>
-#include <linux/export.h>
-#include <linux/sysrq.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/bug.h>
-#include <linux/nmi.h>
-#include <linux/ctype.h>
-#include <linux/highmem.h>
-#include <linux/security.h>
-#include <linux/debugfs.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/sched/signal.h>
+#include <robux/smp.h>
+#include <robux/mm.h>
+#include <robux/reboot.h>
+#include <robux/delay.h>
+#include <robux/kallsyms.h>
+#include <robux/kmsg_dump.h>
+#include <robux/cpumask.h>
+#include <robux/export.h>
+#include <robux/sysrq.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/bug.h>
+#include <robux/nmi.h>
+#include <robux/ctype.h>
+#include <robux/highmem.h>
+#include <robux/security.h>
+#include <robux/debugfs.h>
 
 #include <asm/ptrace.h>
 #include <asm/smp.h>

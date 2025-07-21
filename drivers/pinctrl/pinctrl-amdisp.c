@@ -6,9 +6,9 @@
  *
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/gpio/driver.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #include "pinctrl-amdisp.h"
 

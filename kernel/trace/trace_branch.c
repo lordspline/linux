@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2008 Steven Rostedt <srostedt@redhat.com>
  */
-#include <linux/kallsyms.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/irqflags.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/ftrace.h>
-#include <linux/hash.h>
-#include <linux/fs.h>
+#include <robux/kallsyms.h>
+#include <robux/seq_file.h>
+#include <robux/spinlock.h>
+#include <robux/irqflags.h>
+#include <robux/uaccess.h>
+#include <robux/module.h>
+#include <robux/ftrace.h>
+#include <robux/hash.h>
+#include <robux/fs.h>
 #include <asm/local.h>
 
 #include "trace.h"

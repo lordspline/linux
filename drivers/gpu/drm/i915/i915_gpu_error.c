@@ -27,15 +27,15 @@
  *
  */
 
-#include <linux/ascii85.h>
-#include <linux/debugfs.h>
-#include <linux/highmem.h>
-#include <linux/nmi.h>
-#include <linux/pagevec.h>
-#include <linux/scatterlist.h>
-#include <linux/string_helpers.h>
-#include <linux/utsname.h>
-#include <linux/zlib.h>
+#include <robux/ascii85.h>
+#include <robux/debugfs.h>
+#include <robux/highmem.h>
+#include <robux/nmi.h>
+#include <robux/pagevec.h>
+#include <robux/scatterlist.h>
+#include <robux/string_helpers.h>
+#include <robux/utsname.h>
+#include <robux/zlib.h>
 
 #include <drm/drm_cache.h>
 #include <drm/drm_print.h>

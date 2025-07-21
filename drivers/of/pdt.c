@@ -11,13 +11,13 @@
  *  Adapted for multiple architectures by Andres Salomon <dilinger@queued.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_pdt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/of_pdt.h>
 
 #include "of_private.h"
 

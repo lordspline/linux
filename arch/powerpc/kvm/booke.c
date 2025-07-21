@@ -5,21 +5,21 @@
  * Copyright 2010-2011 Freescale Semiconductor, Inc.
  *
  * Authors: Hollis Blanchard <hollisb@us.ibm.com>
- *          Christian Ehrhardt <ehrhardt@linux.vnet.ibm.com>
+ *          Christian Ehrhardt <ehrhardt@robux.vnet.ibm.com>
  *          Scott Wood <scottwood@freescale.com>
  *          Varun Sethi <varun.sethi@freescale.com>
  */
 
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/kvm_host.h>
-#include <linux/gfp.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/kvm_host.h>
+#include <robux/gfp.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
+#include <robux/fs.h>
 
 #include <asm/cputable.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/interrupt.h>
 #include <asm/kvm_ppc.h>
 #include <asm/cacheflush.h>
@@ -2198,7 +2198,7 @@ int __init kvmppc_booke_init(void)
 	if (!kvmppc_booke_handlers)
 		return -ENOMEM;
 
-	/* XXX make sure our handlers are smaller than Linux's */
+	/* XXX make sure our handlers are smaller than Robux's */
 
 	/* Copy our interrupt handlers to match host IVORs. That way we don't
 	 * have to swap the IVORs on every guest/host transition. */

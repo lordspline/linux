@@ -30,9 +30,9 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/sysctl.h>
-#include <linux/proc_fs.h>
+#include <robux/kernel.h>
+#include <robux/sysctl.h>
+#include <robux/proc_fs.h>
 
 #include "ib.h"
 

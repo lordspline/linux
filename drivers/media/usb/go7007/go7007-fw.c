@@ -12,13 +12,13 @@
  * merely parroted back to the host at the start of each frame.
  */
 
-#include <linux/module.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/time.h>
+#include <robux/mm.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/firmware.h>
+#include <robux/slab.h>
 #include <asm/byteorder.h>
 
 #include "go7007-priv.h"

@@ -3,8 +3,8 @@
  *  Copyright 2008 Michael Ellerman, IBM Corporation.
  */
 
-#include <linux/vmalloc.h>
-#include <linux/init.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
 
 #include <asm/text-patching.h>
 

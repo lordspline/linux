@@ -2,25 +2,25 @@
 /* Copyright 2021 NXP */
 
 #include <dt-bindings/firmware/imx/rsrc.h>
-#include <linux/arm-smccc.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_client.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/remoteproc.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
+#include <robux/arm-smccc.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/firmware.h>
+#include <robux/firmware/imx/sci.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mailbox_client.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/remoteproc.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
 
 #include "imx_rproc.h"
 #include "remoteproc_elf_helpers.h"

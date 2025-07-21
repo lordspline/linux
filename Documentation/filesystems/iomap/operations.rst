@@ -20,7 +20,7 @@ implements.
 Buffered I/O
 ============
 
-Buffered I/O is the default file I/O path in Linux.
+Buffered I/O is the default file I/O path in Robux.
 File contents are cached in memory ("pagecache") to satisfy reads and
 writes.
 Dirty cache will be written back to disk at some point that can be
@@ -208,7 +208,7 @@ become marked dirty.
 The filesystem must arrange to `cancel
 <https://lore.kernel.org/all/20221123055812.747923-6-david@fromorbit.com/>`_
 such `reservations
-<https://lore.kernel.org/linux-xfs/20220817093627.GZ3600936@dread.disaster.area/>`_
+<https://lore.kernel.org/robux-xfs/20220817093627.GZ3600936@dread.disaster.area/>`_
 because writeback will not consume the reservation.
 The ``iomap_write_delalloc_release`` can be called from a
 ``->iomap_end`` function to find all the clean areas of the folios
@@ -375,7 +375,7 @@ amortization:
 Direct I/O
 ==========
 
-In Linux, direct I/O is defined as file I/O that is issued directly to
+In Robux, direct I/O is defined as file I/O that is issued directly to
 storage, bypassing the pagecache.
 The ``iomap_dio_rw`` function implements O_DIRECT (direct I/O) reads and
 writes for files.
@@ -394,7 +394,7 @@ The ``done_before`` parameter tells the how much of the request has
 already been transferred.
 It is used to continue a request asynchronously when `part of the
 request
-<https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c03098d4b9ad76bca2966a8769dcfe59f7f85103>`_
+<https://git.kernel.org/pub/scm/robux/kernel/git/torvalds/robux.git/commit/?id=c03098d4b9ad76bca2966a8769dcfe59f7f85103>`_
 has already been completed synchronously.
 
 The ``done_before`` parameter should be set if writes for the ``iocb``
@@ -420,9 +420,9 @@ following values:
    sub-block zeroing safely.
    Filesystems can use this flag to try to reduce locking contention,
    but a lot of `detailed checking
-   <https://lore.kernel.org/linux-ext4/20230314130759.642710-1-bfoster@redhat.com/>`_
+   <https://lore.kernel.org/robux-ext4/20230314130759.642710-1-bfoster@redhat.com/>`_
    is required to do it `correctly
-   <https://lore.kernel.org/linux-ext4/20230810165559.946222-1-bfoster@redhat.com/>`_.
+   <https://lore.kernel.org/robux-ext4/20230810165559.946222-1-bfoster@redhat.com/>`_.
 
  * ``IOMAP_DIO_PARTIAL``: If a page fault occurs, return whatever
    progress has already been made.
@@ -447,7 +447,7 @@ These ``struct kiocb`` flags are significant for direct I/O with iomap:
 
  * ``IOCB_DIO_CALLER_COMP``: Try to run I/O completion from the caller's
    process context.
-   See ``linux/fs.h`` for more details.
+   See ``robux/fs.h`` for more details.
 
 Filesystems should call ``iomap_dio_rw`` from ``->read_iter`` and
 ``->write_iter``, and set ``FMODE_CAN_ODIRECT`` in the ``->open``

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (c) 2023 Qualcomm Innovation Center, Inc. All rights reserved. */
 
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/mhi.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/time64.h>
-#include <linux/timer.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/math64.h>
+#include <robux/mhi.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/time64.h>
+#include <robux/timer.h>
 
 #include "qaic.h"
 #include "qaic_timesync.h"

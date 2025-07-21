@@ -3,8 +3,8 @@
  * Copyright © 2023-2024 Intel Corporation
  */
 
-#include <linux/string_choices.h>
-#include <linux/wordpart.h>
+#include <robux/string_choices.h>
+#include <robux/wordpart.h>
 
 #include "abi/guc_actions_sriov_abi.h"
 #include "abi/guc_klvs_abi.h"

@@ -6,21 +6,21 @@
  *
  * Copyright (c) 2010 Silicon Hive www.siliconhive.com.
  */
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_qos.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/interrupt.h>
-#include <linux/bits.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_qos.h>
+#include <robux/timer.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/interrupt.h>
+#include <robux/bits.h>
 #include <media/v4l2-fwnode.h>
 
 #include <asm/iosf_mbi.h>
 
-#include "../../include/linux/atomisp_gmin_platform.h"
+#include "../../include/robux/atomisp_gmin_platform.h"
 
 #include "atomisp_cmd.h"
 #include "atomisp_common.h"

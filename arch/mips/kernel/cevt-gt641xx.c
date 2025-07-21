@@ -2,13 +2,13 @@
 /*
  *  GT641xx clockevent routines.
  *
- *  Copyright (C) 2007	Yoichi Yuasa <yuasa@linux-mips.org>
+ *  Copyright (C) 2007	Yoichi Yuasa <yuasa@robux-mips.org>
  */
-#include <linux/clockchips.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/irq.h>
+#include <robux/clockchips.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/irq.h>
 
 #include <asm/gt64120.h>
 #include <asm/time.h>

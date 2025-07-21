@@ -5,14 +5,14 @@
  * Sophgo power control mcu for SG2042
  */
 
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
+#include <robux/cleanup.h>
+#include <robux/debugfs.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
 
 /* fixed MCU registers */
 #define REG_BOARD_TYPE				0x00

@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/console.c
+ *	robux/arch/alpha/kernel/console.c
  *
  * Architecture-specific specific support for VGA device on 
  * non-0 I/O hose
  */
 
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/tty.h>
-#include <linux/console.h>
-#include <linux/vt.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/tty.h>
+#include <robux/console.h>
+#include <robux/vt.h>
 #include <asm/vga.h>
 #include <asm/machvec.h>
 

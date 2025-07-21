@@ -18,29 +18,29 @@
 #undef DEBUG_LOW
 
 #define pr_fmt(fmt) "hash-mmu: " fmt
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/sched/mm.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/sysctl.h>
-#include <linux/export.h>
-#include <linux/ctype.h>
-#include <linux/cache.h>
-#include <linux/init.h>
-#include <linux/signal.h>
-#include <linux/memblock.h>
-#include <linux/context_tracking.h>
-#include <linux/libfdt.h>
-#include <linux/pkeys.h>
-#include <linux/hugetlb.h>
-#include <linux/cpu.h>
-#include <linux/pgtable.h>
-#include <linux/debugfs.h>
-#include <linux/random.h>
-#include <linux/elf-randomize.h>
-#include <linux/of_fdt.h>
-#include <linux/kfence.h>
+#include <robux/spinlock.h>
+#include <robux/errno.h>
+#include <robux/sched/mm.h>
+#include <robux/proc_fs.h>
+#include <robux/stat.h>
+#include <robux/sysctl.h>
+#include <robux/export.h>
+#include <robux/ctype.h>
+#include <robux/cache.h>
+#include <robux/init.h>
+#include <robux/signal.h>
+#include <robux/memblock.h>
+#include <robux/context_tracking.h>
+#include <robux/libfdt.h>
+#include <robux/pkeys.h>
+#include <robux/hugetlb.h>
+#include <robux/cpu.h>
+#include <robux/pgtable.h>
+#include <robux/debugfs.h>
+#include <robux/random.h>
+#include <robux/elf-randomize.h>
+#include <robux/of_fdt.h>
+#include <robux/kfence.h>
 
 #include <asm/interrupt.h>
 #include <asm/processor.h>
@@ -48,7 +48,7 @@
 #include <asm/mmu_context.h>
 #include <asm/page.h>
 #include <asm/types.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/machdep.h>
 #include <asm/io.h>
 #include <asm/eeh.h>
@@ -91,7 +91,7 @@
 #define GB (1024L*MB)
 
 /*
- * Note:  pte   --> Linux PTE
+ * Note:  pte   --> Robux PTE
  *        HPTE  --> PowerPC Hashed Page Table Entry
  *
  * Execution context:
@@ -559,7 +559,7 @@ unsigned long htab_convert_pte_flags(unsigned long pteflags, unsigned long flags
 		rflags |= HPTE_R_N;
 	/*
 	 * PPP bits:
-	 * Linux uses slb key 0 for kernel and 1 for user.
+	 * Robux uses slb key 0 for kernel and 1 for user.
 	 * kernel RW areas are mapped with PPP=0b000
 	 * User area is mapped with PPP=0b010 for read/write
 	 * or PPP=0b011 for read-only (including writeable but clean pages).
@@ -581,7 +581,7 @@ unsigned long htab_convert_pte_flags(unsigned long pteflags, unsigned long flags
 		/*
 		 * We should never hit this in normal fault handling because
 		 * a permission check (check_pte_access()) will bubble this
-		 * to higher level linux handler even for PAGE_NONE.
+		 * to higher level robux handler even for PAGE_NONE.
 		 */
 		VM_WARN_ONCE(!(pteflags & _PAGE_RWX), "no-access mapping request");
 		if (!((pteflags & _PAGE_WRITE) && (pteflags & _PAGE_DIRTY)))
@@ -2027,7 +2027,7 @@ static void hash_preload(struct mm_struct *mm, pte_t *ptep, unsigned long ea,
 	DBG_LOW("hash_preload(mm=%p, mm->pgdir=%p, ea=%016lx, access=%lx,"
 		" trap=%lx\n", mm, mm->pgd, ea, access, trap);
 
-	/* Get Linux PTE if available */
+	/* Get Robux PTE if available */
 	pgdir = mm->pgd;
 	if (pgdir == NULL)
 		return;
@@ -2093,9 +2093,9 @@ static void hash_preload(struct mm_struct *mm, pte_t *ptep, unsigned long ea,
 
 /*
  * This is called at the end of handling a user page fault, when the
- * fault has been handled by updating a PTE in the linux page tables.
+ * fault has been handled by updating a PTE in the robux page tables.
  * We use it to preload an HPTE into the hash table corresponding to
- * the updated linux PTE.
+ * the updated robux PTE.
  *
  * This must always be called with the pte lock held.
  */
@@ -2109,7 +2109,7 @@ void __update_mmu_cache(struct vm_area_struct *vma, unsigned long address,
 	unsigned long trap;
 	bool is_exec;
 
-	/* We only want HPTEs for linux PTEs that have _PAGE_ACCESSED set */
+	/* We only want HPTEs for robux PTEs that have _PAGE_ACCESSED set */
 	if (!pte_young(*ptep) || address >= TASK_SIZE)
 		return;
 

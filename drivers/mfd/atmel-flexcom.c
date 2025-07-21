@@ -7,15 +7,15 @@
  * Author: Cyrille Pitchen <cyrille.pitchen@atmel.com>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/clk.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/clk.h>
 #include <dt-bindings/mfd/atmel-flexcom.h>
 
 /* I/O register offsets */

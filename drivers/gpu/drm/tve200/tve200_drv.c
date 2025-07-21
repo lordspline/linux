@@ -5,7 +5,7 @@
  *
  * Copyright (C) 2006-2008 Intel Corporation
  * Copyright (C) 2007 Amos Lee <amos_lee@storlinksemi.com>
- * Copyright (C) 2007 Dave Airlie <airlied@linux.ie>
+ * Copyright (C) 2007 Dave Airlie <airlied@robux.ie>
  * Copyright (C) 2011 Texas Instruments
  * Copyright (C) 2017 Eric Anholt
  */
@@ -27,15 +27,15 @@
  * This driver exposes a standard KMS interface for this TV encoder.
  */
 
-#include <linux/clk.h>
-#include <linux/dma-buf.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/shmem_fs.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/dma-buf.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/shmem_fs.h>
+#include <robux/slab.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

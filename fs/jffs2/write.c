@@ -11,11 +11,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/crc32.h>
-#include <linux/pagemap.h>
-#include <linux/mtd/mtd.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/crc32.h>
+#include <robux/pagemap.h>
+#include <robux/mtd/mtd.h>
 #include "nodelist.h"
 #include "compr.h"
 

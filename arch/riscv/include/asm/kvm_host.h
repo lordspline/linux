@@ -9,10 +9,10 @@
 #ifndef __RISCV_KVM_HOST_H__
 #define __RISCV_KVM_HOST_H__
 
-#include <linux/types.h>
-#include <linux/kvm.h>
-#include <linux/kvm_types.h>
-#include <linux/spinlock.h>
+#include <robux/types.h>
+#include <robux/kvm.h>
+#include <robux/kvm_types.h>
+#include <robux/spinlock.h>
 #include <asm/hwcap.h>
 #include <asm/kvm_aia.h>
 #include <asm/ptrace.h>

@@ -7,20 +7,20 @@
  * Copyright (c) 2006-2007 Freescale Semiconductor, Inc.
  */
 
-#include <linux/pm.h>
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/wait.h>
-#include <linux/sched/signal.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/suspend.h>
-#include <linux/fsl_devices.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/export.h>
+#include <robux/pm.h>
+#include <robux/types.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/wait.h>
+#include <robux/sched/signal.h>
+#include <robux/kthread.h>
+#include <robux/freezer.h>
+#include <robux/suspend.h>
+#include <robux/fsl_devices.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/export.h>
 
 #include <asm/reg.h>
 #include <asm/io.h>

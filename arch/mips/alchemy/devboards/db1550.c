@@ -5,19 +5,19 @@
  * (c) 2011 Manuel Lauss <manuel.lauss@googlemail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/gpio.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/platnand.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/flash.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/gpio.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/platnand.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/flash.h>
 #include <asm/bootinfo.h>
 #include <asm/mach-au1x00/au1000.h>
 #include <asm/mach-au1x00/gpio-au1000.h>

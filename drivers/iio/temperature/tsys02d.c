@@ -10,13 +10,13 @@
  *  http://www.meas-spec.com/downloads/Digital_Sensor_TSYS02D.pdf
  */
 
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/stat.h>
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/stat.h>
+#include <robux/module.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 #include "../common/ms_sensors/ms_sensors_i2c.h"
 

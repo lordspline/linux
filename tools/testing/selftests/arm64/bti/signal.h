@@ -7,7 +7,7 @@
 #ifndef SIGNAL_H
 #define SIGNAL_H
 
-#include <linux/signal.h>
+#include <robux/signal.h>
 
 #include "system.h"
 

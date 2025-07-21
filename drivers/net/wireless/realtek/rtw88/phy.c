@@ -2,7 +2,7 @@
 /* Copyright(c) 2018-2019  Realtek Corporation
  */
 
-#include <linux/bcd.h>
+#include <robux/bcd.h>
 
 #include "main.h"
 #include "reg.h"

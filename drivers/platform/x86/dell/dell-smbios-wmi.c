@@ -6,16 +6,16 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/fs.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/wmi.h>
-#include <uapi/linux/wmi.h>
+#include <robux/device.h>
+#include <robux/dmi.h>
+#include <robux/fs.h>
+#include <robux/list.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
+#include <robux/wmi.h>
+#include <uapi/robux/wmi.h>
 #include "dell-smbios.h"
 #include "dell-wmi-descriptor.h"
 

@@ -5,15 +5,15 @@
  * Copyright (C) 2024 Collabora Ltd.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c-mux.h>
-#include <linux/i2c.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/gpio/driver.h>
+#include <robux/i2c-mux.h>
+#include <robux/i2c.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 
 #include <media/v4l2-cci.h>
 #include <media/v4l2-ctrls.h>

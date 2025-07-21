@@ -5,11 +5,11 @@
  *   copyright: (C) 2006, 2010, 2015 Fluke Corporation
  ***************************************************************************/
 
-#include <linux/compiler.h>
-#include <linux/dmaengine.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
+#include <robux/compiler.h>
+#include <robux/dmaengine.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
 #include "nec7210.h"
 
 struct fluke_priv {

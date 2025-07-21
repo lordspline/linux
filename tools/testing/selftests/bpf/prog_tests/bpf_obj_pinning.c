@@ -5,8 +5,8 @@
 #include <bpf/btf.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include <linux/unistd.h>
-#include <linux/mount.h>
+#include <robux/unistd.h>
+#include <robux/mount.h>
 #include <sys/syscall.h>
 #include "bpf/libbpf_internal.h"
 

@@ -7,8 +7,8 @@
  * Telemetry Framework provides platform related PM and performance statistics.
  * This file provides the core telemetry API implementation.
  */
-#include <linux/device.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/module.h>
 
 #include <asm/intel_telemetry.h>
 

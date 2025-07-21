@@ -3,22 +3,22 @@
  * Machine check exception handling.
  *
  * Copyright 2013 IBM Corporation
- * Author: Mahesh Salgaonkar <mahesh@linux.vnet.ibm.com>
+ * Author: Mahesh Salgaonkar <mahesh@robux.vnet.ibm.com>
  */
 
 #undef DEBUG
 #define pr_fmt(fmt) "mce: " fmt
 
-#include <linux/hardirq.h>
-#include <linux/types.h>
-#include <linux/ptrace.h>
-#include <linux/percpu.h>
-#include <linux/export.h>
-#include <linux/irq_work.h>
-#include <linux/extable.h>
-#include <linux/ftrace.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
+#include <robux/hardirq.h>
+#include <robux/types.h>
+#include <robux/ptrace.h>
+#include <robux/percpu.h>
+#include <robux/export.h>
+#include <robux/irq_work.h>
+#include <robux/extable.h>
+#include <robux/ftrace.h>
+#include <robux/memblock.h>
+#include <robux/of.h>
 
 #include <asm/interrupt.h>
 #include <asm/machdep.h>

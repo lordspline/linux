@@ -5,13 +5,13 @@
  * Copyright (c) 2007 Byron Bradley
  */
 
-#include <linux/module.h>
-#include <linux/rtc.h>
-#include <linux/i2c.h>
-#include <linux/bitrev.h>
-#include <linux/bcd.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/rtc.h>
+#include <robux/i2c.h>
+#include <robux/bitrev.h>
+#include <robux/bcd.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
 
 #define S35390A_CMD_STATUS1	0
 #define S35390A_CMD_STATUS2	1

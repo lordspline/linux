@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/module.h>
+#include <robux/module.h>
 
 #ifndef __CHECKER__
 #include <net/cfg802154.h>

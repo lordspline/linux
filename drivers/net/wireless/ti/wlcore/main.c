@@ -6,14 +6,14 @@
  * Copyright (C) 2011-2013 Texas Instruments Inc.
  */
 
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/etherdevice.h>
-#include <linux/vmalloc.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
+#include <robux/module.h>
+#include <robux/firmware.h>
+#include <robux/etherdevice.h>
+#include <robux/vmalloc.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_wakeirq.h>
 
 #include "wlcore.h"
 #include "debug.h"

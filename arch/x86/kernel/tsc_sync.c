@@ -15,12 +15,12 @@
  * ( The serial nature of the boot logic and the CPU hotplug lock
  *   protects against more than 2 CPUs entering this code. )
  */
-#include <linux/workqueue.h>
-#include <linux/topology.h>
-#include <linux/spinlock.h>
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/nmi.h>
+#include <robux/workqueue.h>
+#include <robux/topology.h>
+#include <robux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/smp.h>
+#include <robux/nmi.h>
 #include <asm/msr.h>
 #include <asm/tsc.h>
 

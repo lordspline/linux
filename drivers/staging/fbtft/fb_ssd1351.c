@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/backlight.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/spi/spi.h>
-#include <linux/delay.h>
-#include <linux/string_choices.h>
+#include <robux/backlight.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/spi/spi.h>
+#include <robux/delay.h>
+#include <robux/string_choices.h>
 
 #include "fbtft.h"
 

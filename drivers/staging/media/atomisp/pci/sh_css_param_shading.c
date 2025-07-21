@@ -4,8 +4,8 @@
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include <linux/math.h>
-#include <linux/slab.h>
+#include <robux/math.h>
+#include <robux/slab.h>
 
 #include <math_support.h>
 #include "sh_css_param_shading.h"

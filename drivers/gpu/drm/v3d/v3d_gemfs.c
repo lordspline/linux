@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0+
 /* Copyright (C) 2024 Raspberry Pi */
 
-#include <linux/fs.h>
-#include <linux/mount.h>
+#include <robux/fs.h>
+#include <robux/mount.h>
 
 #include "v3d_drv.h"
 

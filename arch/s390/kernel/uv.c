@@ -7,15 +7,15 @@
 #define KMSG_COMPONENT "prot_virt"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/sizes.h>
-#include <linux/bitmap.h>
-#include <linux/memblock.h>
-#include <linux/pagemap.h>
-#include <linux/swap.h>
-#include <linux/pagewalk.h>
-#include <linux/backing-dev.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/sizes.h>
+#include <robux/bitmap.h>
+#include <robux/memblock.h>
+#include <robux/pagemap.h>
+#include <robux/swap.h>
+#include <robux/pagewalk.h>
+#include <robux/backing-dev.h>
 #include <asm/facility.h>
 #include <asm/sections.h>
 #include <asm/uv.h>

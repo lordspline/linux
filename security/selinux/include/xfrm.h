@@ -9,7 +9,7 @@
 #ifndef _SELINUX_XFRM_H_
 #define _SELINUX_XFRM_H_
 
-#include <linux/lsm_audit.h>
+#include <robux/lsm_audit.h>
 #include <net/flow.h>
 #include <net/xfrm.h>
 

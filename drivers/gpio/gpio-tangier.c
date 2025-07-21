@@ -4,28 +4,28 @@
  *
  * Copyright (c) 2016, 2021, 2023 Intel Corporation.
  *
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@robux.intel.com>
  *          Pandith N <pandith.n@intel.com>
  *          Raag Jadav <raag.jadav@intel.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pm.h>
-#include <linux/spinlock.h>
-#include <linux/string_helpers.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pm.h>
+#include <robux/spinlock.h>
+#include <robux/string_helpers.h>
+#include <robux/types.h>
 
-#include <linux/gpio/driver.h>
+#include <robux/gpio/driver.h>
 
 #include "gpio-tangier.h"
 
@@ -509,7 +509,7 @@ static int tng_gpio_resume(struct device *dev)
 
 EXPORT_NS_GPL_SIMPLE_DEV_PM_OPS(tng_gpio_pm_ops, tng_gpio_suspend, tng_gpio_resume, GPIO_TANGIER);
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@robux.intel.com>");
 MODULE_AUTHOR("Pandith N <pandith.n@intel.com>");
 MODULE_AUTHOR("Raag Jadav <raag.jadav@intel.com>");
 MODULE_DESCRIPTION("Intel Tangier GPIO driver");

@@ -6,18 +6,18 @@
  *          Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/bits.h>
-#include <linux/compat.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/videodev2.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
-#include <linux/wait.h>
-#include <linux/atomic.h>
+#include <robux/bits.h>
+#include <robux/compat.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/videodev2.h>
+#include <robux/vmalloc.h>
+#include <robux/mm.h>
+#include <robux/wait.h>
+#include <robux/atomic.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ctrls.h>
@@ -328,7 +328,7 @@ static int uvc_v4l2_try_format(struct uvc_streaming *stream,
 	 * The workaround could probably be enabled for all webcams, so the
 	 * quirk can be removed if needed. It's currently useful to detect
 	 * webcam bugs and fix them before they hit the market (providing
-	 * developers test their webcams with the Linux driver as well as with
+	 * developers test their webcams with the Robux driver as well as with
 	 * the Windows driver).
 	 */
 	mutex_lock(&stream->mutex);

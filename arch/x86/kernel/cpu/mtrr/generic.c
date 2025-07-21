@@ -4,12 +4,12 @@
  * because MTRRs can span up to 40 bits (36bits on most modern x86)
  */
 
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/cc_platform.h>
-#include <linux/string_choices.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/mm.h>
+#include <robux/cc_platform.h>
+#include <robux/string_choices.h>
 #include <asm/processor-flags.h>
 #include <asm/cacheinfo.h>
 #include <asm/cpufeature.h>

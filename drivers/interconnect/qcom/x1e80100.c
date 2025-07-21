@@ -5,11 +5,11 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/interconnect.h>
-#include <linux/interconnect-provider.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
+#include <robux/device.h>
+#include <robux/interconnect.h>
+#include <robux/interconnect-provider.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
 #include <dt-bindings/interconnect/qcom,x1e80100-rpmh.h>
 
 #include "bcm-voter.h"

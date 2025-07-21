@@ -5,9 +5,9 @@
  * Copyright (C) 2016 Red Hat Inc. All Rights Reserved
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/module.h>
 #include "hid-ids.h"
 
 MODULE_AUTHOR("Bastien Nocera <hadess@hadess.net>");

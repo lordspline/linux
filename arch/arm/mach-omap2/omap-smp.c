@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * OMAP4 SMP source file. It contains platform specific functions
- * needed for the linux smp kernel.
+ * needed for the robux smp kernel.
  *
  * Copyright (C) 2009 Texas Instruments, Inc.
  *
@@ -12,11 +12,11 @@
  * realview smp platform.
  * * Copyright (c) 2002 ARM Limited.
  */
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/smp.h>
-#include <linux/io.h>
-#include <linux/irqchip/arm-gic.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/smp.h>
+#include <robux/io.h>
+#include <robux/irqchip/arm-gic.h>
 
 #include <asm/sections.h>
 #include <asm/smp_scu.h>

@@ -4,14 +4,14 @@
  * Copyright(c) 2022, HiSilicon Limited.
  */
 
-#include <linux/atomic.h>
-#include <linux/acpi.h>
-#include <linux/circ_buf.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <robux/atomic.h>
+#include <robux/acpi.h>
+#include <robux/circ_buf.h>
+#include <robux/err.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
 
 #include "coresight-etm-perf.h"
 #include "coresight-priv.h"

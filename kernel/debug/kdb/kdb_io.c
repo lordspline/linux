@@ -9,20 +9,20 @@
  * Copyright (c) 2009 Wind River Systems, Inc.  All Rights Reserved.
  */
 
-#include <linux/types.h>
-#include <linux/ctype.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/kdev_t.h>
-#include <linux/console.h>
-#include <linux/string.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/nmi.h>
-#include <linux/delay.h>
-#include <linux/kgdb.h>
-#include <linux/kdb.h>
-#include <linux/kallsyms.h>
+#include <robux/types.h>
+#include <robux/ctype.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/kdev_t.h>
+#include <robux/console.h>
+#include <robux/string.h>
+#include <robux/sched.h>
+#include <robux/smp.h>
+#include <robux/nmi.h>
+#include <robux/delay.h>
+#include <robux/kgdb.h>
+#include <robux/kdb.h>
+#include <robux/kallsyms.h>
 #include "kdb_private.h"
 
 #define CMD_BUFLEN 256

@@ -3,9 +3,9 @@
 #ifndef WACOM_WAC_H
 #define WACOM_WAC_H
 
-#include <linux/types.h>
-#include <linux/hid.h>
-#include <linux/kfifo.h>
+#include <robux/types.h>
+#include <robux/hid.h>
+#include <robux/kfifo.h>
 
 #define WACOM_NAME_MAX		64
 #define WACOM_MAX_REMOTES	5

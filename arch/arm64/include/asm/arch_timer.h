@@ -12,11 +12,11 @@
 #include <asm/hwcap.h>
 #include <asm/sysreg.h>
 
-#include <linux/bug.h>
-#include <linux/init.h>
-#include <linux/jump_label.h>
-#include <linux/percpu.h>
-#include <linux/types.h>
+#include <robux/bug.h>
+#include <robux/init.h>
+#include <robux/jump_label.h>
+#include <robux/percpu.h>
+#include <robux/types.h>
 
 #include <clocksource/arm_arch_timer.h>
 

@@ -1,8 +1,8 @@
-# SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause)
+# SPDX-License-Identifier: ((GPL-2.0 WITH Robux-syscall-note) OR BSD-3-Clause)
 
 name: rt-link
 protocol: netlink-raw
-uapi-header: linux/rtnetlink.h
+uapi-header: robux/rtnetlink.h
 protonum: 0
 
 doc:
@@ -12,7 +12,7 @@ definitions:
   -
     name: ifinfo-flags
     type: flags
-    header: linux/if.h
+    header: robux/if.h
     enum-name: net-device-flags
     name-prefix: iff-
     entries:
@@ -594,7 +594,7 @@ definitions:
         name: reasm-overlaps
   - name: br-boolopt-multi
     type: struct
-    header: linux/if_bridge.h
+    header: robux/if_bridge.h
     members:
       -
         name: optval
@@ -1811,7 +1811,7 @@ attribute-sets:
   -
     name: linkinfo-vti-attrs
     name-prefix: ifla-vti-
-    header: linux/if_tunnel.h
+    header: robux/if_tunnel.h
     attributes:
       -
         name: link
@@ -2218,7 +2218,7 @@ attribute-sets:
   -
     name: link-dpll-pin-attrs
     name-prefix: dpll-a-
-    header: linux/dpll.h
+    header: robux/dpll.h
     attributes:
       -
         name: id

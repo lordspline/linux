@@ -7,10 +7,10 @@
 
 #define pr_fmt(fmt) "damon_sample_mtier: " fmt
 
-#include <linux/damon.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/damon.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 static unsigned long node0_start_addr __read_mostly;
 module_param(node0_start_addr, ulong, 0600);

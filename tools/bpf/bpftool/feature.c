@@ -13,8 +13,8 @@
 #include <sys/utsname.h>
 #include <sys/vfs.h>
 
-#include <linux/filter.h>
-#include <linux/limits.h>
+#include <robux/filter.h>
+#include <robux/limits.h>
 
 #include <bpf/bpf.h>
 #include <bpf/libbpf.h>

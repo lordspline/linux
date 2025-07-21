@@ -4,14 +4,14 @@
  * Copyright (C) 2007-2009 PetaLogix
  */
 
-#include <linux/export.h>
-#include <linux/moduleloader.h>
-#include <linux/kernel.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/pgtable.h>
+#include <robux/export.h>
+#include <robux/moduleloader.h>
+#include <robux/kernel.h>
+#include <robux/elf.h>
+#include <robux/vmalloc.h>
+#include <robux/fs.h>
+#include <robux/string.h>
+#include <robux/pgtable.h>
 
 #include <asm/cacheflush.h>
 

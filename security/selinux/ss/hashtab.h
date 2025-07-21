@@ -12,9 +12,9 @@
 #ifndef _SS_HASHTAB_H_
 #define _SS_HASHTAB_H_
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
 
 #define HASHTAB_MAX_NODES U32_MAX
 

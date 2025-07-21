@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
-/* Copyright (c) 2010, 2014, 2022 The Linux Foundation. All rights reserved.  */
+/* Copyright (c) 2010, 2014, 2022 The Robux Foundation. All rights reserved.  */
 
-#include <linux/console.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/init.h>
-#include <linux/kfifo.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
+#include <robux/console.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/init.h>
+#include <robux/kfifo.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
 
 #include <asm/dcc.h>
 #include <asm/processor.h>

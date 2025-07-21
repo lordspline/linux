@@ -5,21 +5,21 @@
  * Copyright (C) 2018 Xilinx, Inc.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/cpuhotplug.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox/zynqmp-ipi-message.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <robux/arm-smccc.h>
+#include <robux/cpuhotplug.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mailbox_controller.h>
+#include <robux/mailbox/zynqmp-ipi-message.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
 
 /* IPI agent ID any */
 #define IPI_ID_ANY 0xFFUL
@@ -813,7 +813,7 @@ static int xlnx_mbox_init_sgi(struct platform_device *pdev,
 	/*
 	 * IRQ related structures are used for the following:
 	 * for each SGI interrupt ensure its mapped by GIC IRQ domain
-	 * and that each corresponding linux IRQ for the HW IRQ has
+	 * and that each corresponding robux IRQ for the HW IRQ has
 	 * a handler for when receiving an interrupt from the remote
 	 * processor.
 	 */

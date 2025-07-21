@@ -4,18 +4,18 @@
  *
  * Copyright (C) 2015 Intel Corporation
  *
- * Author: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+ * Author: Heikki Krogerus <heikki.krogerus@robux.intel.com>
  */
-#include <linux/module.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/ulpi/driver.h>
-#include <linux/ulpi/regs.h>
-#include <linux/gpio/consumer.h>
-#include <linux/phy/ulpi_phy.h>
-#include <linux/power_supply.h>
-#include <linux/property.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/ulpi/driver.h>
+#include <robux/ulpi/regs.h>
+#include <robux/gpio/consumer.h>
+#include <robux/phy/ulpi_phy.h>
+#include <robux/power_supply.h>
+#include <robux/property.h>
+#include <robux/workqueue.h>
 
 #define TI_VENDOR_ID		0x0451
 #define TI_DEVICE_TUSB1210	0x1507
@@ -436,7 +436,7 @@ static void tusb1210_probe_charger_detect(struct tusb1210 *tusb)
 	struct ulpi *ulpi = to_ulpi_dev(dev);
 	int ret;
 
-	if (!device_property_read_bool(dev->parent, "linux,phy_charger_detect"))
+	if (!device_property_read_bool(dev->parent, "robux,phy_charger_detect"))
 		return;
 
 	if (ulpi->id.product != TI_DEVICE_TUSB1211) {

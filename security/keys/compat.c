@@ -5,10 +5,10 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/syscalls.h>
-#include <linux/keyctl.h>
-#include <linux/compat.h>
-#include <linux/slab.h>
+#include <robux/syscalls.h>
+#include <robux/keyctl.h>
+#include <robux/compat.h>
+#include <robux/slab.h>
 #include "internal.h"
 
 /*

@@ -12,15 +12,15 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/proc_fs.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/proc_fs.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/pci.h>
+#include <robux/pci_hotplug.h>
+#include <robux/uaccess.h>
 #include "cpqphp.h"
 #include "cpqphp_nvram.h"
 

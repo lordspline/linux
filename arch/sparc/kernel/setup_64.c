@@ -1,38 +1,38 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/sparc64/kernel/setup.c
+ *  robux/arch/sparc64/kernel/setup.c
  *
  *  Copyright (C) 1995,1996  David S. Miller (davem@caip.rutgers.edu)
  *  Copyright (C) 1997       Jakub Jelinek (jj@sunsite.mff.cuni.cz)
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/ptrace.h>
 #include <asm/smp.h>
-#include <linux/user.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/seq_file.h>
-#include <linux/syscalls.h>
-#include <linux/kdev_t.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/inet.h>
-#include <linux/console.h>
-#include <linux/root_dev.h>
-#include <linux/interrupt.h>
-#include <linux/cpu.h>
-#include <linux/initrd.h>
-#include <linux/module.h>
-#include <linux/start_kernel.h>
-#include <linux/memblock.h>
-#include <uapi/linux/mount.h>
+#include <robux/user.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/seq_file.h>
+#include <robux/syscalls.h>
+#include <robux/kdev_t.h>
+#include <robux/major.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/inet.h>
+#include <robux/console.h>
+#include <robux/root_dev.h>
+#include <robux/interrupt.h>
+#include <robux/cpu.h>
+#include <robux/initrd.h>
+#include <robux/module.h>
+#include <robux/start_kernel.h>
+#include <robux/memblock.h>
+#include <uapi/robux/mount.h>
 
 #include <asm/io.h>
 #include <asm/processor.h>

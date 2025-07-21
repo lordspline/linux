@@ -2,7 +2,7 @@
 #ifndef _ASM_POWERPC_PAPR_RTAS_COMMON_H
 #define _ASM_POWERPC_PAPR_RTAS_COMMON_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /*
  * Return codes for sequence based RTAS calls.

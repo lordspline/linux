@@ -12,11 +12,11 @@
 #ifndef _LINUX_SURFACE_AGGREGATOR_SERIAL_HUB_H
 #define _LINUX_SURFACE_AGGREGATOR_SERIAL_HUB_H
 
-#include <linux/crc-itu-t.h>
-#include <linux/kref.h>
-#include <linux/ktime.h>
-#include <linux/list.h>
-#include <linux/types.h>
+#include <robux/crc-itu-t.h>
+#include <robux/kref.h>
+#include <robux/ktime.h>
+#include <robux/list.h>
+#include <robux/types.h>
 
 
 /* -- Data structures for SAM-over-SSH communication. ----------------------- */

@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2021, Linaro Limited
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
-#include <linux/spinlock.h>
+#include <robux/spinlock.h>
 #include <sound/pcm.h>
 #include <asm/dma.h>
-#include <linux/dma-mapping.h>
+#include <robux/dma-mapping.h>
 #include <sound/pcm_params.h>
 #include "q6apm.h"
 

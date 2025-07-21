@@ -12,24 +12,24 @@
  * Copyright (C) Renesas Electronics Corporation
  */
 
-#include <linux/ctype.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/ktime.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/sizes.h>
-#include <linux/timekeeping.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
+#include <robux/ctype.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/ktime.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/sizes.h>
+#include <robux/timekeeping.h>
+#include <robux/types.h>
+#include <robux/vmalloc.h>
 
 #define GPIO_LA_NAME "gpio-sloppy-logic-analyzer"
 #define GPIO_LA_DEFAULT_BUF_SIZE SZ_256K

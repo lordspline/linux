@@ -5,16 +5,16 @@
  * Copyright 2025 Advanced Micro Devices, Inc.
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/soc/amd/isp4_misc.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/soc/amd/isp4_misc.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
 #define AMDISP_OV05C10_I2C_ADDR		0x10
 #define AMDISP_OV05C10_HID		"OMNI5C10"

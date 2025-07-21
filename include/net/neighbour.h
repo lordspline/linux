@@ -2,7 +2,7 @@
 #ifndef _NET_NEIGHBOUR_H
 #define _NET_NEIGHBOUR_H
 
-#include <linux/neighbour.h>
+#include <robux/neighbour.h>
 
 /*
  *	Generic neighbour manipulation
@@ -17,17 +17,17 @@
  *		- Add neighbour cache statistics like rtstat
  */
 
-#include <linux/atomic.h>
-#include <linux/refcount.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/rcupdate.h>
-#include <linux/seq_file.h>
-#include <linux/bitmap.h>
+#include <robux/atomic.h>
+#include <robux/refcount.h>
+#include <robux/netdevice.h>
+#include <robux/skbuff.h>
+#include <robux/rcupdate.h>
+#include <robux/seq_file.h>
+#include <robux/bitmap.h>
 
-#include <linux/err.h>
-#include <linux/sysctl.h>
-#include <linux/workqueue.h>
+#include <robux/err.h>
+#include <robux/sysctl.h>
+#include <robux/workqueue.h>
 #include <net/rtnetlink.h>
 #include <net/neighbour_tables.h>
 

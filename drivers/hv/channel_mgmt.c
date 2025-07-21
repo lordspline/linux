@@ -8,20 +8,20 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/cpu.h>
-#include <linux/hyperv.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/cpu.h>
+#include <robux/hyperv.h>
 #include <asm/mshyperv.h>
-#include <linux/sched/isolation.h>
+#include <robux/sched/isolation.h>
 
 #include "hyperv_vmbus.h"
 
@@ -1289,7 +1289,7 @@ EXPORT_SYMBOL_GPL(vmbus_hvsock_device_unregister);
  * channel for any virtual hardware configured in the VM at the time it boots.
  * Boot-time offers include offers for physical devices assigned to the VM
  * via Hyper-V's Discrete Device Assignment (DDA) functionality that are
- * handled as virtual PCI devices in Linux (e.g., NVMe devices and GPUs).
+ * handled as virtual PCI devices in Robux (e.g., NVMe devices and GPUs).
  * Boot-time offers do not include offers for VMBus sub-channels. Because
  * devices can be hot-added to the VM after it is booted, additional channel
  * offers that aren't boot-time offers can be received at any time after the

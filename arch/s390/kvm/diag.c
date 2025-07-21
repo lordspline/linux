@@ -8,8 +8,8 @@
  *               Christian Borntraeger <borntraeger@de.ibm.com>
  */
 
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
+#include <robux/kvm.h>
+#include <robux/kvm_host.h>
 #include <asm/gmap.h>
 #include <asm/gmap_helpers.h>
 #include <asm/virtio-ccw.h>

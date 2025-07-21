@@ -2,10 +2,10 @@
 /*
  * RTC related functions
  */
-#include <linux/platform_device.h>
-#include <linux/mc146818rtc.h>
-#include <linux/export.h>
-#include <linux/pnp.h>
+#include <robux/platform_device.h>
+#include <robux/mc146818rtc.h>
+#include <robux/export.h>
+#include <robux/pnp.h>
 
 #include <asm/vsyscall.h>
 #include <asm/x86_init.h>

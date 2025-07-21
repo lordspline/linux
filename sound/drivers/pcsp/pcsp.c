@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * PC-Speaker driver for Linux
+ * PC-Speaker driver for Robux
  *
  * Copyright (C) 1997-2001  David Woodhouse
  * Copyright (C) 2001-2008  Stas Sergeev
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/pcm.h>
-#include <linux/input.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/mm.h>
+#include <robux/input.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
+#include <robux/mm.h>
 #include "pcsp_input.h"
 #include "pcsp.h"
 

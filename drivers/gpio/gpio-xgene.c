@@ -6,15 +6,15 @@
  * Author: Feng Kan <fkan@apm.com>.
  */
 
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/driver.h>
-#include <linux/types.h>
-#include <linux/bitops.h>
+#include <robux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
+#include <robux/platform_device.h>
+#include <robux/gpio/driver.h>
+#include <robux/types.h>
+#include <robux/bitops.h>
 
 #define GPIO_SET_DR_OFFSET	0x0C
 #define GPIO_DATA_OFFSET	0x14

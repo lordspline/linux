@@ -8,11 +8,11 @@
  *	Copyright (c) 2003, 2005  Maciej W. Rozycki
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/types.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/types.h>
 
 #include <asm/addrspace.h>
 #include <asm/bootinfo.h>

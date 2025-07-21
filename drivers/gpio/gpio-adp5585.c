@@ -6,13 +6,13 @@
  * Copyright 2024 Ideas on Board Oy
  */
 
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
-#include <linux/mfd/adp5585.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/gpio/driver.h>
+#include <robux/mfd/adp5585.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 #define ADP5585_GPIO_MAX	11
 

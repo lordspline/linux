@@ -16,36 +16,36 @@
  *   David S. Miller (davem@davemloft.net), 2002-Jul-29
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/errno.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/ptrace.h>
-#include <linux/ioport.h>
-#include <linux/circ_buf.h>
-#include <linux/serial.h>
-#include <linux/sysrq.h>
-#include <linux/console.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/errno.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/major.h>
+#include <robux/string.h>
+#include <robux/ptrace.h>
+#include <robux/ioport.h>
+#include <robux/circ_buf.h>
+#include <robux/serial.h>
+#include <robux/sysrq.h>
+#include <robux/console.h>
+#include <robux/slab.h>
 #ifdef CONFIG_SERIO
-#include <linux/serio.h>
+#include <robux/serio.h>
 #endif
-#include <linux/serial_reg.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/serial_reg.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/irq.h>
 #include <asm/setup.h>
 
-#include <linux/serial_core.h>
-#include <linux/sunserialcore.h>
+#include <robux/serial_core.h>
+#include <robux/sunserialcore.h>
 
 /* We are on a NS PC87303 clocked with 24.0 MHz, which results
  * in a UART clock of 1.8462 MHz.

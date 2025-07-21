@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2014, Intel Corporation
  * Authors: Rafael J. Wysocki <rafael.j.wysocki@intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
+ *          Mika Westerberg <mika.westerberg@robux.intel.com>
  */
 
 #ifndef _LINUX_PROPERTY_H_
 #define _LINUX_PROPERTY_H_
 
-#include <linux/args.h>
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/fwnode.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <robux/args.h>
+#include <robux/array_size.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/fwnode.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
 
 struct device;
 

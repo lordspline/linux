@@ -38,15 +38,15 @@
 
 /* Note: we assume there can only be one ALI1535, with one SMBus interface */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/i2c.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
+#include <robux/stddef.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/i2c.h>
+#include <robux/acpi.h>
+#include <robux/io.h>
 
 
 /* ALI1535 SMBus address offsets */

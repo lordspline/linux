@@ -1,5 +1,5 @@
 /*
-   HIDP implementation for Linux Bluetooth stack (BlueZ).
+   HIDP implementation for Robux Bluetooth stack (BlueZ).
    Copyright (C) 2003-2004 Marcel Holtmann <marcel@holtmann.org>
    Copyright (C) 2013 David Herrmann <dh.herrmann@gmail.com>
 
@@ -21,11 +21,11 @@
    SOFTWARE IS DISCLAIMED.
 */
 
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/file.h>
-#include <linux/kthread.h>
-#include <linux/hidraw.h>
+#include <robux/kref.h>
+#include <robux/module.h>
+#include <robux/file.h>
+#include <robux/kthread.h>
+#include <robux/hidraw.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

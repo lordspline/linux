@@ -6,16 +6,16 @@
 #ifndef __INTEL_ENGINE_TYPES__
 #define __INTEL_ENGINE_TYPES__
 
-#include <linux/average.h>
-#include <linux/hashtable.h>
-#include <linux/irq_work.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/llist.h>
-#include <linux/rbtree.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/average.h>
+#include <robux/hashtable.h>
+#include <robux/irq_work.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/llist.h>
+#include <robux/rbtree.h>
+#include <robux/timer.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include "i915_gem.h"
 #include "i915_pmu.h"

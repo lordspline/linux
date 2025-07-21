@@ -2,8 +2,8 @@
 /*
  * Copyright (C) 2021 SiFive
  */
-#include <linux/linkage.h>
-#include <linux/export.h>
+#include <robux/linkage.h>
+#include <robux/export.h>
 #include <asm/asm.h>
 
 SYM_FUNC_START(xor_regs_2_)

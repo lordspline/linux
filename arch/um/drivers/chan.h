@@ -6,9 +6,9 @@
 #ifndef __CHAN_KERN_H__
 #define __CHAN_KERN_H__
 
-#include <linux/tty.h>
-#include <linux/list.h>
-#include <linux/console.h>
+#include <robux/tty.h>
+#include <robux/list.h>
+#include <robux/console.h>
 #include "chan_user.h"
 #include "line.h"
 

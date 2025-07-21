@@ -6,17 +6,17 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/atomic.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/soc/ti/k3-ringacc.h>
-#include <linux/dma/ti-cppi5.h>
-#include <linux/dma/k3-udma-glue.h>
+#include <robux/module.h>
+#include <robux/atomic.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/soc/ti/k3-ringacc.h>
+#include <robux/dma/ti-cppi5.h>
+#include <robux/dma/k3-udma-glue.h>
 
 #include "k3-udma.h"
 #include "k3-psil-priv.h"
@@ -1139,7 +1139,7 @@ k3_udma_glue_request_remote_rx_chn(struct device *dev, const char *name,
 
 	/*
 	 * Remote RX channel is under control of Remote CPU core, so
-	 * Linux can only request and manipulate by dedicated RX flows
+	 * Robux can only request and manipulate by dedicated RX flows
 	 */
 
 	rx_chn = devm_kzalloc(dev, sizeof(*rx_chn), GFP_KERNEL);
@@ -1187,7 +1187,7 @@ k3_udma_glue_request_remote_rx_chn_for_thread_id(struct device *dev,
 
 	/*
 	 * Remote RX channel is under control of Remote CPU core, so
-	 * Linux can only request and manipulate by dedicated RX flows
+	 * Robux can only request and manipulate by dedicated RX flows
 	 */
 
 	rx_chn = devm_kzalloc(dev, sizeof(*rx_chn), GFP_KERNEL);

@@ -6,17 +6,17 @@
 //
 // Author: Codrin Ciubotariu <codrin.ciubotariu@microchip.com>
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/slab.h>
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/mfd/syscon.h>
-#include <linux/lcm.h>
-#include <linux/of.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/mfd/syscon.h>
+#include <robux/lcm.h>
+#include <robux/of.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

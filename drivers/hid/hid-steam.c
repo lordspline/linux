@@ -34,15 +34,15 @@
  *   https://github.com/rodrigorc/steamctrl
  */
 
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
-#include <linux/rcupdate.h>
-#include <linux/delay.h>
-#include <linux/power_supply.h>
+#include <robux/device.h>
+#include <robux/input.h>
+#include <robux/hid.h>
+#include <robux/module.h>
+#include <robux/workqueue.h>
+#include <robux/mutex.h>
+#include <robux/rcupdate.h>
+#include <robux/delay.h>
+#include <robux/power_supply.h>
 #include "hid-ids.h"
 
 MODULE_DESCRIPTION("HID driver for Valve Steam Controller");

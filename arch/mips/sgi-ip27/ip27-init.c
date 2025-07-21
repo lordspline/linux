@@ -6,13 +6,13 @@
  * Copyright (C) 2000 - 2001 by Kanoj Sarcar (kanoj@sgi.com)
  * Copyright (C) 2000 - 2001 by Silicon Graphics, Inc.
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/mm.h>
-#include <linux/export.h>
-#include <linux/cpumask.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/smp.h>
+#include <robux/mm.h>
+#include <robux/export.h>
+#include <robux/cpumask.h>
 #include <asm/bootinfo.h>
 #include <asm/cpu.h>
 #include <asm/io.h>

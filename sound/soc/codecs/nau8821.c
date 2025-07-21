@@ -7,16 +7,16 @@
 // Co-author: Seven Lee <wtli@nuvoton.com>
 //
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/math64.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/math64.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/jack.h>

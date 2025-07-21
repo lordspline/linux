@@ -3,16 +3,16 @@
  * Copyright (C) 2016 IBM Corporation
  *
  * Authors:
- * Thiago Jung Bauermann <bauerman@linux.vnet.ibm.com>
- * Mimi Zohar <zohar@linux.vnet.ibm.com>
+ * Thiago Jung Bauermann <bauerman@robux.vnet.ibm.com>
+ * Mimi Zohar <zohar@robux.vnet.ibm.com>
  */
 
-#include <linux/seq_file.h>
-#include <linux/vmalloc.h>
-#include <linux/kexec.h>
-#include <linux/of.h>
-#include <linux/ima.h>
-#include <linux/reboot.h>
+#include <robux/seq_file.h>
+#include <robux/vmalloc.h>
+#include <robux/kexec.h>
+#include <robux/of.h>
+#include <robux/ima.h>
+#include <robux/reboot.h>
 #include <asm/page.h>
 #include "ima.h"
 

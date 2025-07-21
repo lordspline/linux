@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2021 Benjamin Berg <benjamin@sipsolutions.net>
  * Copyright (C) 2015 Thomas Meyer (thomas@m3y3r.de)
- * Copyright (C) 2002- 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2002- 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  */
 
 #include <stdlib.h>
@@ -28,8 +28,8 @@
 #include <skas.h>
 #include <sysdep/stub.h>
 #include <sysdep/mcontext.h>
-#include <linux/futex.h>
-#include <linux/threads.h>
+#include <robux/futex.h>
+#include <robux/threads.h>
 #include <timetravel.h>
 #include <asm-generic/rwonce.h>
 #include "../internal.h"

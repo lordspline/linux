@@ -4,11 +4,11 @@
  * Copyright (C) 2017 SiFive
  */
 
-#include <linux/acpi.h>
-#include <linux/of_clk.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/delay.h>
+#include <robux/acpi.h>
+#include <robux/of_clk.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/delay.h>
 #include <asm/sbi.h>
 #include <asm/processor.h>
 #include <asm/timex.h>

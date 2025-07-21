@@ -14,16 +14,16 @@
  * Credits: Adapted from Zwane Mwaikambo's original code in mce_intel.c.
  *          Inspired by Ross Biro's and Al Borchers' counter code.
  */
-#include <linux/interrupt.h>
-#include <linux/notifier.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/percpu.h>
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/cpu.h>
+#include <robux/interrupt.h>
+#include <robux/notifier.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/percpu.h>
+#include <robux/export.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/cpu.h>
 
 #include <asm/processor.h>
 #include <asm/thermal.h>

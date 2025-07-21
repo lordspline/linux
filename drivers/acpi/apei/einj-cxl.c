@@ -7,8 +7,8 @@
  *
  * Author: Ben Cheatham <benjamin.cheatham@amd.com>
  */
-#include <linux/seq_file.h>
-#include <linux/pci.h>
+#include <robux/seq_file.h>
+#include <robux/pci.h>
 #include <cxl/einj.h>
 
 #include "apei-internal.h"

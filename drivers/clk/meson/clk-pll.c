@@ -26,12 +26,12 @@
  * out = in * (m + frac / frac_max) / n
  */
 
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/math64.h>
-#include <linux/module.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/math64.h>
+#include <robux/module.h>
 
 #include "clk-regmap.h"
 #include "clk-pll.h"

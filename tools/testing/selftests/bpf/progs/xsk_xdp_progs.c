@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2022 Intel */
 
-#include <linux/bpf.h>
+#include <robux/bpf.h>
 #include <bpf/bpf_helpers.h>
-#include <linux/if_ether.h>
-#include <linux/ip.h>
-#include <linux/errno.h>
+#include <robux/if_ether.h>
+#include <robux/ip.h>
+#include <robux/errno.h>
 #include "xsk_xdp_common.h"
 
 struct {

@@ -5,7 +5,7 @@
  * Tests for Hyper-V features enablement
  */
 #include <asm/kvm_para.h>
-#include <linux/kvm_para.h>
+#include <robux/kvm_para.h>
 #include <stdint.h>
 
 #include "test_util.h"

@@ -8,18 +8,18 @@
  * by Vladimir Fonov.
  * Copyright (c) 2010, Vladimir Fonov
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/media.h>
-#include <linux/module.h>
-#include <linux/ratelimit.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/videodev2.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/media.h>
+#include <robux/module.h>
+#include <robux/ratelimit.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/videodev2.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-async.h>

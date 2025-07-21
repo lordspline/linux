@@ -5,15 +5,15 @@
  */
 
 #include <api/fs/fs.h>
-#include <linux/bits.h>
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/coresight-pmu.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/zalloc.h>
+#include <robux/bits.h>
+#include <robux/bitops.h>
+#include <robux/compiler.h>
+#include <robux/coresight-pmu.h>
+#include <robux/kernel.h>
+#include <robux/log2.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/zalloc.h>
 
 #include "cs-etm.h"
 #include "../../../util/debug.h"

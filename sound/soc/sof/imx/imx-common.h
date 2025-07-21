@@ -3,8 +3,8 @@
 #ifndef __IMX_COMMON_H__
 #define __IMX_COMMON_H__
 
-#include <linux/clk.h>
-#include <linux/of_platform.h>
+#include <robux/clk.h>
+#include <robux/of_platform.h>
 #include <sound/sof/xtensa.h>
 
 #include "../sof-of-dev.h"

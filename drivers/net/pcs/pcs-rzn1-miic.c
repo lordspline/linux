@@ -5,15 +5,15 @@
  * Clément Léger <clement.leger@bootlin.com>
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/mdio.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pcs-rzn1-miic.h>
-#include <linux/phylink.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/mdio.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/pcs-rzn1-miic.h>
+#include <robux/phylink.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 #include <dt-bindings/net/pcs-rzn1-miic.h>
 
 #define MIIC_PRCMD			0x0

@@ -3,13 +3,13 @@
  * Copyright 2019 Inspur Corp.
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/pmbus.h>
-#include <linux/hwmon-sysfs.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/fs.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/pmbus.h>
+#include <robux/hwmon-sysfs.h>
 
 #include "pmbus.h"
 

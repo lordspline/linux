@@ -10,18 +10,18 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/delay.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/gpio_keys.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/input.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/gpio_keys.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/machine.h>
+#include <robux/input.h>
 
 
 #define DRIVER_NAME		"barco-p50-gpio"

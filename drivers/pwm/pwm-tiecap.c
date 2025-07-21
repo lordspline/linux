@@ -5,14 +5,14 @@
  * Copyright (C) 2012 Texas Instruments, Inc. - https://www.ti.com/
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/pm_runtime.h>
-#include <linux/pwm.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/pm_runtime.h>
+#include <robux/pwm.h>
+#include <robux/of.h>
 
 /* ECAP registers and bits definitions */
 #define CAP1			0x08

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/efi.h>
-#include <linux/memblock.h>
-#include <linux/spinlock.h>
-#include <linux/crash_dump.h>
-#include <linux/nmi.h>
+#include <robux/efi.h>
+#include <robux/memblock.h>
+#include <robux/spinlock.h>
+#include <robux/crash_dump.h>
+#include <robux/nmi.h>
 #include <asm/unaccepted_memory.h>
 
 /* Protects unaccepted memory bitmap and accepting_list */

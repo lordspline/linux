@@ -8,8 +8,8 @@
 #include <errno.h>
 #include <stdint.h>
 #include <stdlib.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/string.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/string.h>
 #include <pthread.h>
 #include <signal.h>
 #include <sys/ioctl.h>

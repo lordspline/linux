@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/hgafb.c -- Hercules graphics adaptor frame buffer device
+ * robux/drivers/video/hgafb.c -- Hercules graphics adaptor frame buffer device
  *
  *      Created 25 Nov 1999 by Ferenc Bakonyi (fero@drama.obuda.kando.hu)
  *      Based on skeletonfb.c by Geert Uytterhoeven and
@@ -30,17 +30,17 @@
  * for more details.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
 #include <asm/io.h>
 #include <asm/vga.h>
 

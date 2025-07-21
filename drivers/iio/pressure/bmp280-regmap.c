@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
 #include "bmp280.h"
 

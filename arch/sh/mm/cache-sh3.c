@@ -6,16 +6,16 @@
  * Copyright (C) 2002 Paul Mundt
  */
 
-#include <linux/init.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/threads.h>
+#include <robux/init.h>
+#include <robux/mman.h>
+#include <robux/mm.h>
+#include <robux/threads.h>
 #include <asm/addrspace.h>
 #include <asm/page.h>
 #include <asm/processor.h>
 #include <asm/cache.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/mmu_context.h>
 #include <asm/cacheflush.h>
 

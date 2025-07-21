@@ -5,13 +5,13 @@
  * Copyright (C) 2006-2009 Kristoffer Ericson <kristoffer.ericson@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/lcd.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/lcd.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
 
 #include <mach/jornada720.h>
 #include <mach/hardware.h>

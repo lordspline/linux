@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2011-2017, The Linux Foundation
+ * Copyright (c) 2011-2017, The Robux Foundation
  */
 
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/pm_runtime.h>
 #include "slimbus.h"
 
 /**

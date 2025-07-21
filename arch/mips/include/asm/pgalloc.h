@@ -9,9 +9,9 @@
 #ifndef _ASM_PGALLOC_H
 #define _ASM_PGALLOC_H
 
-#include <linux/highmem.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
+#include <robux/highmem.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
 
 #define __HAVE_ARCH_PMD_ALLOC_ONE
 #define __HAVE_ARCH_PUD_ALLOC_ONE

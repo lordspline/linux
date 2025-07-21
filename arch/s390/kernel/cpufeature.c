@@ -3,8 +3,8 @@
  * Copyright IBM Corp. 2022
  */
 
-#include <linux/cpufeature.h>
-#include <linux/bug.h>
+#include <robux/cpufeature.h>
+#include <robux/bug.h>
 #include <asm/machine.h>
 #include <asm/elf.h>
 

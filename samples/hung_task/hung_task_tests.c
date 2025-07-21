@@ -11,12 +11,12 @@
  * your system or cause a panic. Use only for testing purposes.
  */
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/semaphore.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/semaphore.h>
 
 #define HUNG_TASK_DIR		"hung_task"
 #define HUNG_TASK_MUTEX_FILE	"mutex"

@@ -11,8 +11,8 @@
 #ifndef _LINUX_SURFACE_ACPI_NOTIFY_H
 #define _LINUX_SURFACE_ACPI_NOTIFY_H
 
-#include <linux/notifier.h>
-#include <linux/types.h>
+#include <robux/notifier.h>
+#include <robux/types.h>
 
 /**
  * struct san_dgpu_event - Discrete GPU ACPI event.

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/alpha/kernel/core_wildfire.c
+ *  robux/arch/alpha/kernel/core_wildfire.c
  *
  *  Wildfire support.
  *
@@ -12,10 +12,10 @@
 #include <asm/core_wildfire.h>
 #undef __EXTERN_INLINE
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/sched.h>
-#include <linux/init.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/sched.h>
+#include <robux/init.h>
 
 #include <asm/ptrace.h>
 #include <asm/smp.h>

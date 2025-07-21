@@ -6,17 +6,17 @@
  * Copyright 2006-2008, 2011-2012, 2015 Freescale Semiconductor Inc.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/sched/hotplug.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/kexec.h>
-#include <linux/highmem.h>
-#include <linux/cpu.h>
-#include <linux/fsl/guts.h>
-#include <linux/pgtable.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/sched/hotplug.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/kexec.h>
+#include <robux/highmem.h>
+#include <robux/cpu.h>
+#include <robux/fsl/guts.h>
+#include <robux/pgtable.h>
 
 #include <asm/machdep.h>
 #include <asm/page.h>

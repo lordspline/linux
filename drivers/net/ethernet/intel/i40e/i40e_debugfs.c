@@ -3,9 +3,9 @@
 
 #ifdef CONFIG_DEBUG_FS
 
-#include <linux/fs.h>
-#include <linux/debugfs.h>
-#include <linux/if_bridge.h>
+#include <robux/fs.h>
+#include <robux/debugfs.h>
+#include <robux/if_bridge.h>
 #include "i40e.h"
 #include "i40e_virtchnl_pf.h"
 

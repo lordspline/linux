@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/auxiliary_bus.h>
+#include <robux/auxiliary_bus.h>
 
 void rust_helper_auxiliary_set_drvdata(struct auxiliary_device *adev, void *data)
 {

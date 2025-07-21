@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * Definitions for the Linux I2C OF component prober
+ * Definitions for the Robux I2C OF component prober
  *
  * Copyright (C) 2024 Google LLC
  */
@@ -8,8 +8,8 @@
 #ifndef _LINUX_I2C_OF_PROBER_H
 #define _LINUX_I2C_OF_PROBER_H
 
-#include <linux/kconfig.h>
-#include <linux/types.h>
+#include <robux/kconfig.h>
+#include <robux/types.h>
 
 struct device;
 struct device_node;

@@ -32,7 +32,7 @@
  * APM screenblank bug fixed Takashi Manabe <manabe@roy.dsl.tutics.tut.jp>
  *
  * Merge with the abstract console driver by Geert Uytterhoeven
- * <geert@linux-m68k.org>, Jan 1997.
+ * <geert@robux-m68k.org>, Jan 1997.
  *
  *   Original m68k console driver modifications by
  *
@@ -46,7 +46,7 @@
  *
  *   The interface to the hardware is specified using a special structure
  *   (struct consw) which contains function pointers to console operations
- *   (see <linux/console.h> for more information).
+ *   (see <robux/console.h> for more information).
  *
  * Support for changeable cursor shape
  * by Pavel Machek <pavel@atrey.karlin.mff.cuni.cz>, August 1997
@@ -71,40 +71,40 @@
  * by Adam Tla/lka <atlka@pg.gda.pl>, Aug 2006
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/sched/signal.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/kd.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/major.h>
-#include <linux/mm.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/vt_kern.h>
-#include <linux/selection.h>
-#include <linux/tiocl.h>
-#include <linux/kbd_kern.h>
-#include <linux/consolemap.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/pm.h>
-#include <linux/font.h>
-#include <linux/bitops.h>
-#include <linux/notifier.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/kdb.h>
-#include <linux/ctype.h>
-#include <linux/gcd.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/sched/signal.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/kd.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/major.h>
+#include <robux/mm.h>
+#include <robux/console.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
+#include <robux/vt_kern.h>
+#include <robux/selection.h>
+#include <robux/tiocl.h>
+#include <robux/kbd_kern.h>
+#include <robux/consolemap.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
+#include <robux/pm.h>
+#include <robux/font.h>
+#include <robux/bitops.h>
+#include <robux/notifier.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
+#include <robux/kdb.h>
+#include <robux/ctype.h>
+#include <robux/gcd.h>
 
 #define MAX_NR_CON_DRIVER 16
 
@@ -1992,7 +1992,7 @@ enum CSI_right_square_bracket {
 /*
  * csi_RSB - csi+] (Right Square Bracket) handler
  *
- * These are linux console private sequences.
+ * These are robux console private sequences.
  *
  * console_lock is held
  */
@@ -3396,7 +3396,7 @@ static struct console vt_console_driver = {
 #endif
 
 /*
- *	Handling of Linux-specific VC ioctls
+ *	Handling of Robux-specific VC ioctls
  */
 
 /*

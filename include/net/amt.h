@@ -5,9 +5,9 @@
 #ifndef _NET_AMT_H_
 #define _NET_AMT_H_
 
-#include <linux/siphash.h>
-#include <linux/jhash.h>
-#include <linux/netdevice.h>
+#include <robux/siphash.h>
+#include <robux/jhash.h>
+#include <robux/netdevice.h>
 #include <net/gro_cells.h>
 #include <net/rtnetlink.h>
 

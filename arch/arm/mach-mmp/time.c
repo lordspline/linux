@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-mmp/time.c
+ * robux/arch/arm/mach-mmp/time.c
  *
  *   Support for clocksource and clockevents
  *
@@ -15,22 +15,22 @@
  * the clock source, and match comparator #1 used as clock event device.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/clockchips.h>
-#include <linux/clk.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/clockchips.h>
+#include <robux/clk.h>
 
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/sched_clock.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/sched_clock.h>
 #include <asm/mach/time.h>
 
 #include "regs-timers.h"
-#include <linux/soc/mmp/cputype.h>
+#include <robux/soc/mmp/cputype.h>
 
 #define MAX_DELTA		(0xfffffffe)
 #define MIN_DELTA		(16)

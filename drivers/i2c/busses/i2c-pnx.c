@@ -10,18 +10,18 @@
  * or implied.
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/completion.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/completion.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
 #define I2C_PNX_TIMEOUT_DEFAULT		10 /* msec */
 #define I2C_PNX_SPEED_KHZ_DEFAULT	100

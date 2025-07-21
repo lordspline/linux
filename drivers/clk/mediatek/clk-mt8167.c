@@ -6,12 +6,12 @@
  *         Fabien Parent <fparent@baylibre.com>
  */
 
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
+#include <robux/mfd/syscon.h>
+#include <robux/platform_device.h>
 
 #include "clk-gate.h"
 #include "clk-mtk.h"

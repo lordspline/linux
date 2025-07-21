@@ -35,8 +35,8 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/rhashtable.h>
-#include <linux/sched/signal.h>
+#include <robux/rhashtable.h>
+#include <robux/sched/signal.h>
 #include <trace/events/sock.h>
 
 #include "core.h"

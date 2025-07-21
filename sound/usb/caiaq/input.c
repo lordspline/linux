@@ -3,11 +3,11 @@
  *   Copyright (c) 2006,2007 Daniel Mack, Tim Ruetz
 */
 
-#include <linux/device.h>
-#include <linux/gfp.h>
-#include <linux/init.h>
-#include <linux/usb.h>
-#include <linux/usb/input.h>
+#include <robux/device.h>
+#include <robux/gfp.h>
+#include <robux/init.h>
+#include <robux/usb.h>
+#include <robux/usb/input.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 

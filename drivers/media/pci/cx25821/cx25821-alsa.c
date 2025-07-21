@@ -9,16 +9,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/vmalloc.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/vmalloc.h>
+#include <robux/dma-mapping.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
 
-#include <linux/delay.h>
+#include <robux/delay.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
@@ -769,7 +769,7 @@ error:
 }
 
 /****************************************************************************
-				LINUX MODULE INIT
+				ROBUX MODULE INIT
  ****************************************************************************/
 
 static int cx25821_alsa_exit_callback(struct device *dev, void *data)

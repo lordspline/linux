@@ -10,18 +10,18 @@
  * (c) 1999,2000 Gerd Knorr <kraxel@goldbach.in-berlin.de>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pgtable.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/pgtable.h>
 #include <asm/io.h>
-#include <linux/ioport.h>
+#include <robux/ioport.h>
 #include <asm/page.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/kmod.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/kmod.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

@@ -6,14 +6,14 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/seq_file.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/seq_file.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_debugfs.h>

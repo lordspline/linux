@@ -2,19 +2,19 @@
 /*
  * Copyright (C)2003,2004 USAGI/WIDE Project
  *
- * Authors	Mitsuru KANDA  <mk@linux-ipv6.org>
- *		YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
+ * Authors	Mitsuru KANDA  <mk@robux-ipv6.org>
+ *		YOSHIFUJI Hideaki <yoshfuji@robux-ipv6.org>
  */
 
 #define pr_fmt(fmt) "IPv6: " fmt
 
-#include <linux/icmpv6.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
+#include <robux/icmpv6.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/netdevice.h>
+#include <robux/skbuff.h>
+#include <robux/slab.h>
 #include <net/ipv6.h>
 #include <net/protocol.h>
 #include <net/xfrm.h>

@@ -19,10 +19,10 @@
  * Copyright (C) 2020 Daniel W. S. Almeida
  */
 
-#include <linux/dev_printk.h>
-#include <linux/ratelimit.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/dev_printk.h>
+#include <robux/ratelimit.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "vidtv_channel.h"
 #include "vidtv_common.h"

@@ -6,20 +6,20 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/cache.h>
-#include <linux/compat.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/freezer.h>
-#include <linux/stddef.h>
-#include <linux/uaccess.h>
-#include <linux/sizes.h>
-#include <linux/string.h>
-#include <linux/ratelimit.h>
-#include <linux/rseq.h>
-#include <linux/syscalls.h>
-#include <linux/pkeys.h>
+#include <robux/cache.h>
+#include <robux/compat.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/freezer.h>
+#include <robux/stddef.h>
+#include <robux/uaccess.h>
+#include <robux/sizes.h>
+#include <robux/string.h>
+#include <robux/ratelimit.h>
+#include <robux/rseq.h>
+#include <robux/syscalls.h>
+#include <robux/pkeys.h>
 
 #include <asm/daifflags.h>
 #include <asm/debug-monitors.h>

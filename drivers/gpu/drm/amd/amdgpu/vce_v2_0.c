@@ -25,7 +25,7 @@
  * Authors: Christian König <christian.koenig@amd.com>
  */
 
-#include <linux/firmware.h>
+#include <robux/firmware.h>
 
 #include "amdgpu.h"
 #include "amdgpu_vce.h"

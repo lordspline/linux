@@ -6,14 +6,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/nfc.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/acpi.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/nfc.h>
+#include <robux/of.h>
 #include <net/nfc/nci.h>
 
 #include "st-nci.h"

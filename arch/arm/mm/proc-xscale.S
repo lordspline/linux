@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/arch/arm/mm/proc-xscale.S
+ *  robux/arch/arm/mm/proc-xscale.S
  *
  *  Author:	Nicolas Pitre
  *  Created:	November 2000
@@ -17,10 +17,10 @@
  *	Nicolas Pitre <nico@fluxnic.net>
  */
 
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/cfi_types.h>
-#include <linux/pgtable.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
+#include <robux/cfi_types.h>
+#include <robux/pgtable.h>
 #include <asm/assembler.h>
 #include <asm/hwcap.h>
 #include <asm/pgtable-hwdef.h>

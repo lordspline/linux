@@ -12,13 +12,13 @@
  *    Innominate Security Technologies AG <mhopf@innominate.com>
  *    September, 2002
  */
-#include <linux/ip.h>
+#include <robux/ip.h>
 #include <net/ip.h>
-#include <linux/in.h>
-#include <linux/module.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_bridge/ebtables.h>
-#include <linux/netfilter_bridge/ebt_ip.h>
+#include <robux/in.h>
+#include <robux/module.h>
+#include <robux/netfilter/x_tables.h>
+#include <robux/netfilter_bridge/ebtables.h>
+#include <robux/netfilter_bridge/ebt_ip.h>
 
 union pkthdr {
 	struct {

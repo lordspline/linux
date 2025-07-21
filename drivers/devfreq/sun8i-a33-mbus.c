@@ -3,15 +3,15 @@
 // Copyright (C) 2020-2021 Samuel Holland <samuel@sholland.org>
 //
 
-#include <linux/clk.h>
-#include <linux/devfreq.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/clk.h>
+#include <robux/devfreq.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 #define MBUS_CR				0x0000
 #define MBUS_CR_GET_DRAM_TYPE(x)	(((x) >> 16) & 0x7)

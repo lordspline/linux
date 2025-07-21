@@ -13,7 +13,7 @@
 #ifndef MT312_H
 #define MT312_H
 
-#include <linux/dvb/frontend.h>
+#include <robux/dvb/frontend.h>
 
 struct mt312_config {
 	/* the demodulator's i2c address */

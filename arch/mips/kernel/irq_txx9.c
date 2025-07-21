@@ -1,7 +1,7 @@
 /*
- * Based on linux/arch/mips/jmr3927/rbhma3100/irq.c,
- *	    linux/arch/mips/tx4927/common/tx4927_irq.c,
- *	    linux/arch/mips/tx4938/common/irq.c
+ * Based on robux/arch/mips/jmr3927/rbhma3100/irq.c,
+ *	    robux/arch/mips/tx4927/common/tx4927_irq.c,
+ *	    robux/arch/mips/tx4938/common/irq.c
  *
  * Copyright 2001, 2003-2005 MontaVista Software Inc.
  * Author: MontaVista Software, Inc.
@@ -13,10 +13,10 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/irq.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/types.h>
+#include <robux/irq.h>
 #include <asm/txx9irq.h>
 
 struct txx9_irc_reg {

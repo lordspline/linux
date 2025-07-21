@@ -16,19 +16,19 @@
  *   Copyright (C) 2007 David Sterba
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/ppp_defs.h>
-#include <linux/if.h>
-#include <linux/ppp-ioctl.h>
-#include <linux/sched.h>
-#include <linux/serial.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_flip.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/ppp_defs.h>
+#include <robux/if.h>
+#include <robux/ppp-ioctl.h>
+#include <robux/sched.h>
+#include <robux/serial.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/tty_driver.h>
+#include <robux/tty_flip.h>
+#include <robux/uaccess.h>
 
 #include "tty.h"
 #include "network.h"

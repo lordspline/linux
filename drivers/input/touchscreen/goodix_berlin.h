@@ -10,7 +10,7 @@
 #ifndef __GOODIX_BERLIN_H_
 #define __GOODIX_BERLIN_H_
 
-#include <linux/pm.h>
+#include <robux/pm.h>
 
 #define GOODIX_BERLIN_FW_VERSION_INFO_ADDR_A	0x1000C
 #define GOODIX_BERLIN_FW_VERSION_INFO_ADDR_D	0x10014

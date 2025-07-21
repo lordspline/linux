@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/err.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/err.h>
 
-#include <linux/usb/composite.h>
+#include <robux/usb/composite.h>
 
 static LIST_HEAD(func_list);
 static DEFINE_MUTEX(func_lock);

@@ -10,15 +10,15 @@
 #ifndef __MIPS_KVM_HOST_H__
 #define __MIPS_KVM_HOST_H__
 
-#include <linux/cpumask.h>
-#include <linux/mutex.h>
-#include <linux/hrtimer.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/kvm.h>
-#include <linux/kvm_types.h>
-#include <linux/threads.h>
-#include <linux/spinlock.h>
+#include <robux/cpumask.h>
+#include <robux/mutex.h>
+#include <robux/hrtimer.h>
+#include <robux/interrupt.h>
+#include <robux/types.h>
+#include <robux/kvm.h>
+#include <robux/kvm_types.h>
+#include <robux/threads.h>
+#include <robux/spinlock.h>
 
 #include <asm/asm.h>
 #include <asm/inst.h>

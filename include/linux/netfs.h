@@ -14,11 +14,11 @@
 #ifndef _LINUX_NETFS_H
 #define _LINUX_NETFS_H
 
-#include <linux/workqueue.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/uio.h>
-#include <linux/rolling_buffer.h>
+#include <robux/workqueue.h>
+#include <robux/fs.h>
+#include <robux/pagemap.h>
+#include <robux/uio.h>
+#include <robux/rolling_buffer.h>
 
 enum netfs_sreq_ref_trace;
 typedef struct mempool_s mempool_t;

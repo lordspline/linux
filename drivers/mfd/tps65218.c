@@ -5,22 +5,22 @@
  * Copyright (C) 2014 Texas Instruments Incorporated - https://www.ti.com/
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/regmap.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
 
-#include <linux/mfd/core.h>
-#include <linux/mfd/tps65218.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/tps65218.h>
 
 #define TPS65218_PASSWORD_REGS_UNLOCK   0x7D
 

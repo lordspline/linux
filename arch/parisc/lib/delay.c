@@ -12,9 +12,9 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/preempt.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/preempt.h>
+#include <robux/init.h>
 
 #include <asm/delay.h>
 #include <asm/special_insns.h>    /* for mfctl() */

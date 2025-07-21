@@ -11,17 +11,17 @@
  *  - DMA
  */
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/driver.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
 
 /* LPC18XX ADC registers and bits */
 #define LPC18XX_ADC_CR			0x000

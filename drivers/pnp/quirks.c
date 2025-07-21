@@ -14,13 +14,13 @@
  *  Copyright (c) 1999 Martin Mares <mj@ucw.cz>
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/pnp.h>
-#include <linux/io.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/pnp.h>
+#include <robux/io.h>
 #include "base.h"
 
 static void quirk_awe32_add_ports(struct pnp_dev *dev,

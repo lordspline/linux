@@ -3,19 +3,19 @@
  * Copyright (C) 2001 Mike Corrigan & Dave Engebretsen IBM Corporation
  */
 
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/proc_fs.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
+#include <robux/mm.h>
+#include <robux/proc_fs.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/string.h>
 
 #include <asm/machdep.h>
 #include <asm/vdso_datapage.h>
 #include <asm/rtas.h>
 #include <asm/systemcfg.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #ifdef CONFIG_PPC64_PROC_SYSTEMCFG
 

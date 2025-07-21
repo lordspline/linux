@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/atari/config.c
+ *  robux/arch/m68k/atari/config.c
  *
  *  Copyright (C) 1994 Bjoern Brauel
  *
@@ -24,17 +24,17 @@
  * Miscellaneous atari stuff
  */
 
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/usb/isp116x.h>
-#include <linux/vt_kern.h>
-#include <linux/module.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/seq_file.h>
+#include <robux/console.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
+#include <robux/usb/isp116x.h>
+#include <robux/vt_kern.h>
+#include <robux/module.h>
 
 #include <asm/bootinfo.h>
 #include <asm/bootinfo-atari.h>

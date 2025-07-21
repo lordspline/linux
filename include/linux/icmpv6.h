@@ -2,16 +2,16 @@
 #ifndef _LINUX_ICMPV6_H
 #define _LINUX_ICMPV6_H
 
-#include <linux/skbuff.h>
-#include <linux/ipv6.h>
-#include <uapi/linux/icmpv6.h>
+#include <robux/skbuff.h>
+#include <robux/ipv6.h>
+#include <uapi/robux/icmpv6.h>
 
 static inline struct icmp6hdr *icmp6_hdr(const struct sk_buff *skb)
 {
 	return (struct icmp6hdr *)skb_transport_header(skb);
 }
 
-#include <linux/netdevice.h>
+#include <robux/netdevice.h>
 
 #if IS_ENABLED(CONFIG_IPV6)
 

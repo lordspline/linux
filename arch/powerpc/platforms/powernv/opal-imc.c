@@ -7,12 +7,12 @@
  *		(C) 2017 Anju T Sudhakar, IBM Corporation.
  *		(C) 2017 Hemant K Shaw, IBM Corporation.
  */
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/crash_dump.h>
-#include <linux/debugfs.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/crash_dump.h>
+#include <robux/debugfs.h>
 #include <asm/opal.h>
 #include <asm/io.h>
 #include <asm/imc-pmu.h>

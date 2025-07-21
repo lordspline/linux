@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * sysctl.c: General linux system control interface
+ * sysctl.c: General robux system control interface
  *
  * Begun 24 March 1995, Stephen Tweedie
  * Added /proc support, Dec 1995
@@ -19,41 +19,41 @@
  *  Removed it and replaced it with older style, 03/23/00, Bill Wendling
  */
 
-#include <linux/module.h>
-#include <linux/sysctl.h>
-#include <linux/bitmap.h>
-#include <linux/printk.h>
-#include <linux/proc_fs.h>
-#include <linux/security.h>
-#include <linux/ctype.h>
-#include <linux/filter.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/kobject.h>
-#include <linux/net.h>
-#include <linux/sysrq.h>
-#include <linux/highuid.h>
-#include <linux/writeback.h>
-#include <linux/ratelimit.h>
-#include <linux/initrd.h>
-#include <linux/key.h>
-#include <linux/times.h>
-#include <linux/limits.h>
-#include <linux/syscalls.h>
-#include <linux/nfs_fs.h>
-#include <linux/acpi.h>
-#include <linux/reboot.h>
-#include <linux/kmod.h>
-#include <linux/capability.h>
-#include <linux/binfmts.h>
-#include <linux/sched/sysctl.h>
-#include <linux/mount.h>
-#include <linux/pid.h>
+#include <robux/module.h>
+#include <robux/sysctl.h>
+#include <robux/bitmap.h>
+#include <robux/printk.h>
+#include <robux/proc_fs.h>
+#include <robux/security.h>
+#include <robux/ctype.h>
+#include <robux/filter.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/kobject.h>
+#include <robux/net.h>
+#include <robux/sysrq.h>
+#include <robux/highuid.h>
+#include <robux/writeback.h>
+#include <robux/ratelimit.h>
+#include <robux/initrd.h>
+#include <robux/key.h>
+#include <robux/times.h>
+#include <robux/limits.h>
+#include <robux/syscalls.h>
+#include <robux/nfs_fs.h>
+#include <robux/acpi.h>
+#include <robux/reboot.h>
+#include <robux/kmod.h>
+#include <robux/capability.h>
+#include <robux/binfmts.h>
+#include <robux/sched/sysctl.h>
+#include <robux/mount.h>
+#include <robux/pid.h>
 
 #include "../lib/kstrtox.h"
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/processor.h>
 
 #ifdef CONFIG_X86
@@ -61,7 +61,7 @@
 #include <asm/io.h>
 #endif
 #ifdef CONFIG_RT_MUTEXES
-#include <linux/rtmutex.h>
+#include <robux/rtmutex.h>
 #endif
 
 /* shared constants to be used in various sysctls */

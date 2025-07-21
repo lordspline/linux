@@ -10,20 +10,20 @@
  * Anton Vorontsov <avorontsov@ru.mvista.com>.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/err.h>
-#include <linux/usb.h>
-#include <linux/usb/ehci_def.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/otg.h>
-#include <linux/platform_device.h>
-#include <linux/fsl_devices.h>
-#include <linux/of.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/err.h>
+#include <robux/usb.h>
+#include <robux/usb/ehci_def.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/otg.h>
+#include <robux/platform_device.h>
+#include <robux/fsl_devices.h>
+#include <robux/of.h>
+#include <robux/io.h>
 
 #include "ehci.h"
 #include "ehci-fsl.h"
@@ -232,7 +232,7 @@ static int ehci_fsl_setup_phy(struct usb_hcd *hcd,
 	case FSL_USB2_PHY_UTMI:
 		/* Presence of this node "has_fsl_erratum_a006918"
 		 * in device-tree is used to stop USB controller
-		 * initialization in Linux
+		 * initialization in Robux
 		 */
 		if (pdata->has_fsl_erratum_a006918) {
 			dev_warn(dev, "USB PHY clock invalid\n");

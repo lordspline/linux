@@ -16,15 +16,15 @@
  *   reading header and determining the remainder.
  */
 
-#include <linux/acpi.h>
-#include <linux/bug.h>
-#include <linux/completion.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <robux/acpi.h>
+#include <robux/bug.h>
+#include <robux/completion.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
+#include <robux/wait.h>
 
 #include "tpm_tis_core.h"
 

@@ -1,12 +1,12 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * linux/arch/arm/plat-omap/sram-fn.S
+ * robux/arch/arm/plat-omap/sram-fn.S
  *
  * Functions that need to be run in internal SRAM
  */
 
-#include <linux/linkage.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <robux/linkage.h>
+#include <robux/soc/ti/omap1-io.h>
 
 #include <asm/assembler.h>
 

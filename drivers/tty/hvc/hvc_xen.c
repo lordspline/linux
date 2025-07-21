@@ -5,14 +5,14 @@
  * (c) 2007 Gerd Hoffmann <kraxel@suse.de>
  */
 
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/irq.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/serial_core.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/irq.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/serial_core.h>
 
 #include <asm/io.h>
 #include <asm/xen/hypervisor.h>

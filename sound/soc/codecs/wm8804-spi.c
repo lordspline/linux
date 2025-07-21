@@ -7,9 +7,9 @@
  * Author: Charles Keepax <ckeepax@opensource.wolfsonmicro.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
 
 #include "wm8804.h"
 

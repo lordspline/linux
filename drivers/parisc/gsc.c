@@ -9,13 +9,13 @@
  * (c) Copyright 2001 Matthew Wilcox for Hewlett-Packard
  */
 
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/types.h>
 
 #include <asm/hardware.h>
 #include <asm/io.h>

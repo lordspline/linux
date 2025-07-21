@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include <linux/magic.h>
+#include <robux/magic.h>
 #include <sys/mman.h>
 #include <sys/statfs.h>
 #include <errno.h>

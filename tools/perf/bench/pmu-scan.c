@@ -10,9 +10,9 @@
 #include "util/pmu.h"
 #include "util/pmus.h"
 #include "util/stat.h"
-#include <linux/atomic.h>
-#include <linux/err.h>
-#include <linux/time64.h>
+#include <robux/atomic.h>
+#include <robux/err.h>
+#include <robux/time64.h>
 #include <subcmd/parse-options.h>
 
 static unsigned int iterations = 100;

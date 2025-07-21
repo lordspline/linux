@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/amiga/config.c
+ *  robux/arch/m68k/amiga/config.c
  *
  *  Copyright (C) 1993 Hamish Macdonald
  *
@@ -12,21 +12,21 @@
  * Miscellaneous Amiga stuff
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/tty.h>
-#include <linux/clocksource.h>
-#include <linux/console.h>
-#include <linux/rtc.h>
-#include <linux/init.h>
-#include <linux/vt_kern.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/zorro.h>
-#include <linux/module.h>
-#include <linux/keyboard.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/seq_file.h>
+#include <robux/tty.h>
+#include <robux/clocksource.h>
+#include <robux/console.h>
+#include <robux/rtc.h>
+#include <robux/init.h>
+#include <robux/vt_kern.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/zorro.h>
+#include <robux/module.h>
+#include <robux/keyboard.h>
 
 #include <asm/bootinfo.h>
 #include <asm/bootinfo-amiga.h>

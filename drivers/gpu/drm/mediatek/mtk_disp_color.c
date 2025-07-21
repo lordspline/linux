@@ -3,12 +3,12 @@
  * Copyright (c) 2017 MediaTek Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/soc/mediatek/mtk-cmdq.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/soc/mediatek/mtk-cmdq.h>
 
 #include "mtk_crtc.h"
 #include "mtk_ddp_comp.h"

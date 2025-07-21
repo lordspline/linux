@@ -6,9 +6,9 @@
 #ifndef __LINUX_MV643XX_ETH_H
 #define __LINUX_MV643XX_ETH_H
 
-#include <linux/mbus.h>
-#include <linux/if_ether.h>
-#include <linux/phy.h>
+#include <robux/mbus.h>
+#include <robux/if_ether.h>
+#include <robux/phy.h>
 
 #define MV643XX_ETH_SHARED_NAME		"mv643xx_eth"
 #define MV643XX_ETH_NAME		"mv643xx_eth_port"

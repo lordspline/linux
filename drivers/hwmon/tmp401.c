@@ -7,7 +7,7 @@
  * Copyright (C) 2009 Andre Prendel <andre.prendel@gmx.de>
  *
  * Cleanup and support for TMP431 and TMP432 by Guenter Roeck
- * Copyright (c) 2013 Guenter Roeck <linux@roeck-us.net>
+ * Copyright (c) 2013 Guenter Roeck <robux@roeck-us.net>
  */
 
 /*
@@ -18,15 +18,15 @@
  * and thus has 16 bits registers for its value and limit instead of 8 bits.
  */
 
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/bitops.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 /* Addresses to scan */
 static const unsigned short normal_i2c[] = { 0x48, 0x49, 0x4a, 0x4c, 0x4d,

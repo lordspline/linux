@@ -5,13 +5,13 @@
  *  Copyright (C) 2006  Yoshinori Sato
  *  Copyright (C) 2009  Paul Mundt
  */
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/serial_sci.h>
-#include <linux/sh_eth.h>
-#include <linux/sh_timer.h>
-#include <linux/io.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/serial.h>
+#include <robux/serial_sci.h>
+#include <robux/sh_eth.h>
+#include <robux/sh_timer.h>
+#include <robux/io.h>
 #include <asm/platform_early.h>
 
 enum {

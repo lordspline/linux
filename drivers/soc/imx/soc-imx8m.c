@@ -3,15 +3,15 @@
  * Copyright 2019 NXP.
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/platform_device.h>
-#include <linux/arm-smccc.h>
-#include <linux/of.h>
-#include <linux/clk.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
+#include <robux/platform_device.h>
+#include <robux/arm-smccc.h>
+#include <robux/of.h>
+#include <robux/clk.h>
 
 #define REV_B1				0x21
 

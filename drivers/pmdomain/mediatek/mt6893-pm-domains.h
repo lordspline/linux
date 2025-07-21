@@ -7,7 +7,7 @@
 #ifndef __PMDOMAIN_MEDIATEK_MT6893_PM_DOMAINS_H
 #define __PMDOMAIN_MEDIATEK_MT6893_PM_DOMAINS_H
 
-#include <linux/soc/mediatek/infracfg.h>
+#include <robux/soc/mediatek/infracfg.h>
 #include <dt-bindings/power/mediatek,mt6893-power.h>
 #include "mtk-pm-domains.h"
 

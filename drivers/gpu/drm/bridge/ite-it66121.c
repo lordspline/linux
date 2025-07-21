@@ -7,18 +7,18 @@
  *
  */
 
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/bitfield.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/of_graph.h>
-#include <linux/gpio/consumer.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/bitfield.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/of_graph.h>
+#include <robux/gpio/consumer.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/regulator/consumer.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

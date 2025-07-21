@@ -7,7 +7,7 @@
 #ifndef __IRQCHIP_CHAINED_IRQ_H
 #define __IRQCHIP_CHAINED_IRQ_H
 
-#include <linux/irq.h>
+#include <robux/irq.h>
 
 /*
  * Entry/exit functions for chained handlers where the primary IRQ chip

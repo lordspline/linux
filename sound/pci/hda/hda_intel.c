@@ -20,24 +20,24 @@
  *  2004.12.01	Major rewrite by tiwai, merged the work of pshou
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/mutex.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
-#include <linux/clocksource.h>
-#include <linux/time.h>
-#include <linux/completion.h>
-#include <linux/acpi.h>
-#include <linux/pgtable.h>
-#include <linux/dmi.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/dma-mapping.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/mutex.h>
+#include <robux/io.h>
+#include <robux/pm_runtime.h>
+#include <robux/clocksource.h>
+#include <robux/time.h>
+#include <robux/completion.h>
+#include <robux/acpi.h>
+#include <robux/pgtable.h>
+#include <robux/dmi.h>
 
 #ifdef CONFIG_X86
 /* for snoop control */
@@ -49,10 +49,10 @@
 #include <sound/hdaudio.h>
 #include <sound/hda_i915.h>
 #include <sound/intel-dsp-config.h>
-#include <linux/vgaarb.h>
-#include <linux/vga_switcheroo.h>
-#include <linux/apple-gmux.h>
-#include <linux/firmware.h>
+#include <robux/vgaarb.h>
+#include <robux/vga_switcheroo.h>
+#include <robux/apple-gmux.h>
+#include <robux/firmware.h>
 #include <sound/hda_codec.h>
 #include "hda_controller.h"
 #include "hda_intel.h"

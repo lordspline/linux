@@ -10,12 +10,12 @@
  * for more details.
  */
 
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/cache.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/string.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/cache.h>
 #include <asm/cacheflush.h>
 
 void arch_sync_dma_for_device(phys_addr_t paddr, size_t size,

@@ -5,16 +5,16 @@
  * Copyright (C) 2015-2016 Broadcom
  */
 
-#include <linux/cfi_types.h>
-#include <linux/err.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/of_address.h>
-#include <linux/notifier.h>
-#include <linux/cpu.h>
-#include <linux/syscore_ops.h>
-#include <linux/reboot.h>
+#include <robux/cfi_types.h>
+#include <robux/err.h>
+#include <robux/spinlock.h>
+#include <robux/io.h>
+#include <robux/bitops.h>
+#include <robux/of_address.h>
+#include <robux/notifier.h>
+#include <robux/cpu.h>
+#include <robux/syscore_ops.h>
+#include <robux/reboot.h>
 
 #include <asm/cacheflush.h>
 #include <asm/hardware/cache-b15-rac.h>
@@ -202,7 +202,7 @@ static struct notifier_block b15_rac_reboot_nb = {
  *      cpuhp_setup_state_*()
  *      ...
  *      set RAC_ENABLED
- *   However, there is no hotplug activity based on the Linux booting procedure.
+ *   However, there is no hotplug activity based on the Robux booting procedure.
  *
  * Since we have to disable RAC for all cores, we keep RAC on as long as as
  * possible (disable it as late as possible) to gain the cache benefit.

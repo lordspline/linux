@@ -52,14 +52,14 @@
  * Lorenzo Bianconi <lorenzo.bianconi@st.com>
  * Denis Ciocca <denis.ciocca@st.com>
  */
-#include <linux/module.h>
-#include <linux/iio/kfifo_buf.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/regmap.h>
-#include <linux/bitfield.h>
+#include <robux/module.h>
+#include <robux/iio/kfifo_buf.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/regmap.h>
+#include <robux/bitfield.h>
 
-#include <linux/platform_data/st_sensors_pdata.h>
+#include <robux/platform_data/st_sensors_pdata.h>
 
 #include "st_lsm6dsx.h"
 

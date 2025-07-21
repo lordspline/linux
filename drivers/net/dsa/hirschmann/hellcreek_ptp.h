@@ -12,8 +12,8 @@
 #ifndef _HELLCREEK_PTP_H_
 #define _HELLCREEK_PTP_H_
 
-#include <linux/bitops.h>
-#include <linux/ptp_clock_kernel.h>
+#include <robux/bitops.h>
+#include <robux/ptp_clock_kernel.h>
 
 #include "hellcreek.h"
 

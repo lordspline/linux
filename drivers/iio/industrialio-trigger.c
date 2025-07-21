@@ -4,21 +4,21 @@
  * Copyright (c) 2008 Jonathan Cameron
  */
 
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/idr.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/kernel.h>
+#include <robux/idr.h>
+#include <robux/err.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/slab.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/iio-opaque.h>
-#include <linux/iio/trigger.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/iio-opaque.h>
+#include <robux/iio/trigger.h>
 #include "iio_core.h"
 #include "iio_core_trigger.h"
-#include <linux/iio/trigger_consumer.h>
+#include <robux/iio/trigger_consumer.h>
 
 /* RFC - Question of approach
  * Make the common case (single sensor single trigger)

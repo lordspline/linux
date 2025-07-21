@@ -7,10 +7,10 @@
 
 #include "fuse_i.h"
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/file.h>
-#include <linux/fs.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/file.h>
+#include <robux/fs.h>
 
 /*
  * Return true if need to wait for new opens in caching mode.

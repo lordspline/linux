@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-pxa/ssp.c
+ *  robux/arch/arm/mach-pxa/ssp.c
  *
- *  based on linux/arch/arm/mach-sa1100/ssp.c by Russell King
+ *  based on robux/arch/arm/mach-sa1100/ssp.c by Russell King
  *
  *  Copyright (C) 2003 Russell King.
  *  Copyright (C) 2003 Wolfson Microelectronics PLC
@@ -13,22 +13,22 @@
  *  Author: Liam Girdwood <liam.girdwood@wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/pxa2xx_ssp.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/pxa2xx_ssp.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
 
 #include <asm/irq.h>
 

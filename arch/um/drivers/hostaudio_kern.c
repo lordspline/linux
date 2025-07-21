@@ -3,13 +3,13 @@
  * Copyright (C) 2002 Steve Schmidtke
  */
 
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sound.h>
-#include <linux/soundcard.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/sound.h>
+#include <robux/soundcard.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
 #include <init.h>
 #include <os.h>
 

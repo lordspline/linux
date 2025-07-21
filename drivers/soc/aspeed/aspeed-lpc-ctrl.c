@@ -3,18 +3,18 @@
  * Copyright 2017 IBM Corporation
  */
 
-#include <linux/clk.h>
-#include <linux/log2.h>
-#include <linux/mfd/syscon.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/poll.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/log2.h>
+#include <robux/mfd/syscon.h>
+#include <robux/miscdevice.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/poll.h>
+#include <robux/regmap.h>
 
-#include <linux/aspeed-lpc-ctrl.h>
+#include <robux/aspeed-lpc-ctrl.h>
 
 #define DEVICE_NAME	"aspeed-lpc-ctrl"
 

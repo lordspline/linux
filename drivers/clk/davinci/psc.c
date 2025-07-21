@@ -13,20 +13,20 @@
  * Copyright (C) 2006 Texas Instruments.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/clk/davinci.h>
-#include <linux/clkdev.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_domain.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/clk-provider.h>
+#include <robux/clk.h>
+#include <robux/clk/davinci.h>
+#include <robux/clkdev.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/pm_clock.h>
+#include <robux/pm_domain.h>
+#include <robux/regmap.h>
+#include <robux/reset-controller.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "psc.h"
 

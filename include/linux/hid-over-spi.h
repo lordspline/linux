@@ -4,8 +4,8 @@
 #ifndef _HID_OVER_SPI_H_
 #define _HID_OVER_SPI_H_
 
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/types.h>
 
 /* Input report type definition in HIDSPI protocol */
 enum input_report_type {

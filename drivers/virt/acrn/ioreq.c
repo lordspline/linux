@@ -9,11 +9,11 @@
  *	Fengwei Yin <fengwei.yin@intel.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kthread.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kthread.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
 
 #include <asm/acrn.h>
 

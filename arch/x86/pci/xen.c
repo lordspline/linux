@@ -10,12 +10,12 @@
  *           Konrad Rzeszutek Wilk <konrad.wilk@oracle.com>
  *           Stefano Stabellini <stefano.stabellini@eu.citrix.com>
  */
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/acpi.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/acpi.h>
 
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/io_apic.h>
 #include <asm/pci_x86.h>
 
@@ -152,7 +152,7 @@ static int acpi_register_gsi_xen(struct device *dev, u32 gsi,
 #endif
 
 #if defined(CONFIG_PCI_MSI)
-#include <linux/msi.h>
+#include <robux/msi.h>
 
 struct xen_pci_frontend_ops *xen_pci_frontend;
 EXPORT_SYMBOL_GPL(xen_pci_frontend);

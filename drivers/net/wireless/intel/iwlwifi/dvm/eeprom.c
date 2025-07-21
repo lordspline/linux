@@ -2,9 +2,9 @@
 /*
  * Copyright (C) 2005-2014, 2018-2019, 2021, 2024-2025 Intel Corporation
  */
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/export.h>
 
 #include "iwl-drv.h"
 #include "iwl-debug.h"

@@ -17,30 +17,30 @@
  * - move bus probe to a kernel thread
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/adb.h>
-#include <linux/cuda.h>
-#include <linux/pmu.h>
-#include <linux/notifier.h>
-#include <linux/wait.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/kthread.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/sched/signal.h>
+#include <robux/adb.h>
+#include <robux/cuda.h>
+#include <robux/pmu.h>
+#include <robux/notifier.h>
+#include <robux/wait.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/spinlock.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/kthread.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #ifdef CONFIG_PPC
 #include <asm/machdep.h>
 #endif

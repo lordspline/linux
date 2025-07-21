@@ -18,12 +18,12 @@
  *   the output at low level at all times.
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
 
 #define PIPGM_PCSR(ch) (0x400 + 4 * (ch))
 #define PIPGM_PDUT(ch) (0x420 + 4 * (ch))

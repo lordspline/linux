@@ -11,14 +11,14 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/blkdev.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/blkdev.h>
 #include <scsi/scsi_host.h>
-#include <linux/ata.h>
-#include <linux/libata.h>
-#include <linux/platform_device.h>
-#include <linux/ata_platform.h>
+#include <robux/ata.h>
+#include <robux/libata.h>
+#include <robux/platform_device.h>
+#include <robux/ata_platform.h>
 
 #define DRV_NAME "pata_platform"
 #define DRV_VERSION "1.2"

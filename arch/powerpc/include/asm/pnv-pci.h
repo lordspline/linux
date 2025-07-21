@@ -6,10 +6,10 @@
 #ifndef _ASM_PNV_PCI_H
 #define _ASM_PNV_PCI_H
 
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/irq.h>
-#include <linux/of.h>
+#include <robux/pci.h>
+#include <robux/pci_hotplug.h>
+#include <robux/irq.h>
+#include <robux/of.h>
 #include <asm/opal-api.h>
 
 #define PCI_SLOT_ID_PREFIX	(1UL << 63)

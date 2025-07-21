@@ -8,15 +8,15 @@
  * Copyright (C) 2008 Mistral Solutions
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/spinlock.h>
-#include <linux/tty.h>
-#include <linux/module.h>
+#include <robux/gpio/consumer.h>
+#include <robux/spinlock.h>
+#include <robux/tty.h>
+#include <robux/module.h>
 
 #include <sound/soc.h>
 #include <sound/jack.h>
 
-#include <linux/platform_data/asoc-ti-mcbsp.h>
+#include <robux/platform_data/asoc-ti-mcbsp.h>
 
 #include "omap-mcbsp.h"
 #include "../codecs/cx20442.h"

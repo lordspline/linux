@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/dim.h>
-#include <linux/debugfs.h>
-#include <linux/mlx5/fs.h>
+#include <robux/dim.h>
+#include <robux/debugfs.h>
+#include <robux/mlx5/fs.h>
 #include <net/netdev_lock.h>
 #include <net/switchdev.h>
 #include <net/pkt_cls.h>

@@ -11,9 +11,9 @@
 #define dev_fmt pr_fmt
 #define DRV_NAME KBUILD_MODNAME
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 #include "agilent_82357a.h"
 #include "gpibP.h"
 #include "tms9914.h"

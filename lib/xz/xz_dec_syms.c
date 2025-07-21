@@ -6,8 +6,8 @@
  * Author: Lasse Collin <lasse.collin@tukaani.org>
  */
 
-#include <linux/module.h>
-#include <linux/xz.h>
+#include <robux/module.h>
+#include <robux/xz.h>
 
 EXPORT_SYMBOL(xz_dec_init);
 EXPORT_SYMBOL(xz_dec_reset);

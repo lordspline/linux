@@ -13,18 +13,18 @@
 
 #undef DEBUG
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pci.h>
+#include <robux/string.h>
+#include <robux/vmalloc.h>
 
 #include <asm/pci-bridge.h>
-#include <linux/mutex.h>
+#include <robux/mutex.h>
 #include <asm/rtas.h>
 #include <asm/vio.h>
-#include <linux/firmware.h>
+#include <robux/firmware.h>
 
 #include "../pci.h"
 #include "rpaphp.h"

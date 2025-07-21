@@ -9,16 +9,16 @@
  * for more details.
  */
 
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/sched_clock.h>
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/timecounter.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/sched.h>
+#include <robux/sched/clock.h>
+#include <robux/sched_clock.h>
+#include <robux/clk.h>
+#include <robux/clockchips.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/timecounter.h>
 #include <asm/cpuinfo.h>
 
 static void __iomem *timer_baseaddr;

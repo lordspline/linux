@@ -4,14 +4,14 @@
  * Copyright (c) 2024 SUSE
  */
 
-#include <linux/bitmap.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
+#include <robux/bitmap.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/msi.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
 
-#include <linux/irqchip/irq-msi-lib.h>
+#include <robux/irqchip/irq-msi-lib.h>
 
 #define MIP_INT_RAISE		0x00
 #define MIP_INT_CLEAR		0x10

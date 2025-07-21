@@ -9,18 +9,18 @@
  *	    Sanket Goswami <Sanket.Goswami@amd.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/devm-helpers.h>
-#include <linux/errno.h>
-#include <linux/gfp_types.h>
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/sprintf.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/devm-helpers.h>
+#include <robux/errno.h>
+#include <robux/gfp_types.h>
+#include <robux/i2c.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/sprintf.h>
 
 #include "i2c-piix4.h"
 

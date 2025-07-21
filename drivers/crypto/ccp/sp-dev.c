@@ -9,15 +9,15 @@
  * Author: Brijesh Singh <brijesh.singh@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
-#include <linux/ccp.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/spinlock_types.h>
+#include <robux/types.h>
+#include <robux/ccp.h>
 
 #include "sev-dev.h"
 #include "ccp-dev.h"

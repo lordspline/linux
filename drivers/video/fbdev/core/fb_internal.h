@@ -3,9 +3,9 @@
 #ifndef _FB_INTERNAL_H
 #define _FB_INTERNAL_H
 
-#include <linux/device.h>
-#include <linux/fb.h>
-#include <linux/mutex.h>
+#include <robux/device.h>
+#include <robux/fb.h>
+#include <robux/mutex.h>
 
 /* fb_devfs.c */
 #if defined(CONFIG_FB_DEVICE)

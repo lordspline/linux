@@ -8,11 +8,11 @@
 #ifndef __HOST1X_SYNCPT_H
 #define __HOST1X_SYNCPT_H
 
-#include <linux/atomic.h>
-#include <linux/host1x.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/sched.h>
+#include <robux/atomic.h>
+#include <robux/host1x.h>
+#include <robux/kernel.h>
+#include <robux/kref.h>
+#include <robux/sched.h>
 
 #include "fence.h"
 #include "intr.h"

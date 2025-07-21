@@ -6,7 +6,7 @@ Overview
 ========
 
 The Extcon (External Connector) subsystem provides a unified framework for
-managing external connectors in Linux systems. It allows drivers to report
+managing external connectors in Robux systems. It allows drivers to report
 the state of external connectors and provides a standardized interface for
 userspace to query and monitor these states.
 
@@ -169,9 +169,9 @@ Usage Example
 
 .. code-block:: c
 
-    #include <linux/module.h>
-    #include <linux/platform_device.h>
-    #include <linux/extcon.h>
+    #include <robux/module.h>
+    #include <robux/platform_device.h>
+    #include <robux/extcon.h>
 
     struct my_extcon_data {
         struct extcon_dev *edev;

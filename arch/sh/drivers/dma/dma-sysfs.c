@@ -6,13 +6,13 @@
  *
  * Copyright (C) 2004 - 2006  Paul Mundt
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/stat.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/stat.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/err.h>
+#include <robux/string.h>
 #include <asm/dma.h>
 
 static const struct bus_type dma_subsys = {

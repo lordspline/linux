@@ -2,13 +2,13 @@
 #ifndef B43_H_
 #define B43_H_
 
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/hw_random.h>
-#include <linux/bcma/bcma.h>
-#include <linux/ssb/ssb.h>
-#include <linux/completion.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/hw_random.h>
+#include <robux/bcma/bcma.h>
+#include <robux/ssb/ssb.h>
+#include <robux/completion.h>
 #include <net/mac80211.h>
 
 #include "debugfs.h"

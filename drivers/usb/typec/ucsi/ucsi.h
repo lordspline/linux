@@ -3,16 +3,16 @@
 #ifndef __DRIVER_USB_TYPEC_UCSI_H
 #define __DRIVER_USB_TYPEC_UCSI_H
 
-#include <linux/bitops.h>
-#include <linux/bitmap.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/power_supply.h>
-#include <linux/types.h>
-#include <linux/usb/typec.h>
-#include <linux/usb/pd.h>
-#include <linux/usb/role.h>
-#include <linux/unaligned.h>
+#include <robux/bitops.h>
+#include <robux/bitmap.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/power_supply.h>
+#include <robux/types.h>
+#include <robux/usb/typec.h>
+#include <robux/usb/pd.h>
+#include <robux/usb/role.h>
+#include <robux/unaligned.h>
 
 /* -------------------------------------------------------------------------- */
 

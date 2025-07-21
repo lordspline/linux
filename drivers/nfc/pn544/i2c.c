@@ -7,17 +7,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/crc-ccitt.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/nfc.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
+#include <robux/crc-ccitt.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/acpi.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/nfc.h>
+#include <robux/firmware.h>
+#include <robux/gpio/consumer.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include <net/nfc/hci.h>
 #include <net/nfc/llc.h>

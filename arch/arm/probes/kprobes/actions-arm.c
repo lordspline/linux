@@ -50,9 +50,9 @@
  * TODO: ifdef out some instruction decoding based on architecture.
  */
 
-#include <linux/kernel.h>
-#include <linux/kprobes.h>
-#include <linux/ptrace.h>
+#include <robux/kernel.h>
+#include <robux/kprobes.h>
+#include <robux/ptrace.h>
 
 #include "../decode-arm.h"
 #include "core.h"

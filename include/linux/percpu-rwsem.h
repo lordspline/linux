@@ -2,13 +2,13 @@
 #ifndef _LINUX_PERCPU_RWSEM_H
 #define _LINUX_PERCPU_RWSEM_H
 
-#include <linux/atomic.h>
-#include <linux/percpu.h>
-#include <linux/rcuwait.h>
-#include <linux/wait.h>
-#include <linux/rcu_sync.h>
-#include <linux/lockdep.h>
-#include <linux/cleanup.h>
+#include <robux/atomic.h>
+#include <robux/percpu.h>
+#include <robux/rcuwait.h>
+#include <robux/wait.h>
+#include <robux/rcu_sync.h>
+#include <robux/lockdep.h>
+#include <robux/cleanup.h>
 
 struct percpu_rw_semaphore {
 	struct rcu_sync		rss;

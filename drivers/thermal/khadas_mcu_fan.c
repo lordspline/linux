@@ -6,13 +6,13 @@
  * Author(s): Neil Armstrong <narmstrong@baylibre.com>
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/khadas-mcu.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
-#include <linux/thermal.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/khadas-mcu.h>
+#include <robux/regmap.h>
+#include <robux/sysfs.h>
+#include <robux/thermal.h>
 
 #define MAX_LEVEL 3
 

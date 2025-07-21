@@ -6,12 +6,12 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/unistd.h>
-#include <linux/slab.h>
-#include <linux/atomic.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/smp.h>
+#include <robux/unistd.h>
+#include <robux/slab.h>
+#include <robux/atomic.h>
 #include <asm/smp.h>
 #include <asm/time.h>
 

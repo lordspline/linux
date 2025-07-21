@@ -6,22 +6,22 @@
  *     Copyright (c) 2020 by Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/leds.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/reset.h>
-#include <linux/spinlock.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/led-class-multicolor.h>
+#include <robux/leds.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/property.h>
+#include <robux/reset.h>
+#include <robux/spinlock.h>
 
 #define LEDC_CTRL_REG			0x0000
 #define LEDC_CTRL_REG_DATA_LENGTH		GENMASK(28, 16)

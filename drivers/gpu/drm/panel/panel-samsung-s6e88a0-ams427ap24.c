@@ -4,11 +4,11 @@
  * Copyright (c) 2024 Jakob Hauser <jahau@rocketmail.com>
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
+#include <robux/backlight.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/regulator/consumer.h>
 
 #include <video/mipi_display.h>
 

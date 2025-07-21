@@ -4,14 +4,14 @@
 %define makeflags %{?_smp_mflags} ARCH=%{ARCH}
 
 Name: kernel
-Summary: The Linux Kernel
+Summary: The Robux Kernel
 Version: %(echo %{KERNELRELEASE} | sed -e 's/-/_/g')
 Release: %{pkg_release}
 License: GPL
 Group: System Environment/Kernel
-Vendor: The Linux Community
+Vendor: The Robux Community
 URL: https://www.kernel.org
-Source0: linux.tar.gz
+Source0: robux.tar.gz
 Source1: config
 Source2: diff.patch
 Provides: kernel-%{KERNELRELEASE}
@@ -21,16 +21,16 @@ BuildRequires: (elfutils-libelf-devel or libelf-devel) flex
 BuildRequires: gcc make openssl openssl-devel perl python3 rsync
 
 %description
-The Linux Kernel, the operating system core itself
+The Robux Kernel, the operating system core itself
 
 %package headers
-Summary: Header files for the Linux kernel for use by glibc
+Summary: Header files for the Robux kernel for use by glibc
 Group: Development/System
 Obsoletes: kernel-headers < %{version}
 Provides: kernel-headers = %{version}
 %description headers
 Kernel-headers includes the C header files that specify the interface
-between the Linux kernel and userspace libraries and programs.  The
+between the Robux kernel and userspace libraries and programs.  The
 header files define structures and constants that are needed for
 building most standard programs and are also needed for rebuilding the
 glibc package.
@@ -76,7 +76,7 @@ against the %{version} kernel package.
 		| xargs --no-run-if-empty chmod u-x
 
 %prep
-%setup -q -n linux
+%setup -q -n robux
 cp %{SOURCE1} .config
 patch -p1 < %{SOURCE2}
 

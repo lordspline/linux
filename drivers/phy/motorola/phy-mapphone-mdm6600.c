@@ -4,19 +4,19 @@
  * Copyright (C) 2018 Tony Lindgren <tony@atomide.com>
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
-#include <linux/gpio/consumer.h>
-#include <linux/of_platform.h>
-#include <linux/phy/phy.h>
-#include <linux/pinctrl/consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of_platform.h>
+#include <robux/phy/phy.h>
+#include <robux/pinctrl/consumer.h>
 
 #define PHY_MDM6600_PHY_DELAY_MS	4000	/* PHY enable 2.2s to 3.5s */
 #define PHY_MDM6600_ENABLED_DELAY_MS	8000	/* 8s more total for MDM6600 */
@@ -52,7 +52,7 @@ enum phy_mdm6600_status_lines {
 };
 
 /*
- * MDM6600 command codes. These are based on Motorola Mapphone Linux
+ * MDM6600 command codes. These are based on Motorola Mapphone Robux
  * kernel tree.
  */
 enum phy_mdm6600_cmd {
@@ -67,7 +67,7 @@ enum phy_mdm6600_cmd {
 };
 
 /*
- * MDM6600 status codes. These are based on Motorola Mapphone Linux
+ * MDM6600 status codes. These are based on Motorola Mapphone Robux
  * kernel tree.
  */
 enum phy_mdm6600_status {

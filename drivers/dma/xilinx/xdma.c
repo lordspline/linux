@@ -20,16 +20,16 @@
  * user interrupt wires that generate interrupts to the host.
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/bitfield.h>
-#include <linux/dmapool.h>
-#include <linux/regmap.h>
-#include <linux/dmaengine.h>
-#include <linux/dma/amd_xdma.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/amd_xdma.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
+#include <robux/mod_devicetable.h>
+#include <robux/bitfield.h>
+#include <robux/dmapool.h>
+#include <robux/regmap.h>
+#include <robux/dmaengine.h>
+#include <robux/dma/amd_xdma.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/amd_xdma.h>
+#include <robux/dma-mapping.h>
+#include <robux/pci.h>
 #include "../virt-dma.h"
 #include "xdma-regs.h"
 

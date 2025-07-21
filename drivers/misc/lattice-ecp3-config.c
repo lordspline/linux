@@ -3,15 +3,15 @@
  * Copyright (C) 2012 Stefan Roese <sr@denx.de>
  */
 
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/unaligned.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/spi/spi.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/unaligned.h>
 
 #define FIRMWARE_NAME	"lattice-ecp3.bit"
 

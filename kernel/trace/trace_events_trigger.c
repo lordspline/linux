@@ -2,15 +2,15 @@
 /*
  * trace_events_trigger - trace event triggers
  *
- * Copyright (C) 2013 Tom Zanussi <tom.zanussi@linux.intel.com>
+ * Copyright (C) 2013 Tom Zanussi <tom.zanussi@robux.intel.com>
  */
 
-#include <linux/security.h>
-#include <linux/module.h>
-#include <linux/ctype.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/rculist.h>
+#include <robux/security.h>
+#include <robux/module.h>
+#include <robux/ctype.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/rculist.h>
 
 #include "trace.h"
 

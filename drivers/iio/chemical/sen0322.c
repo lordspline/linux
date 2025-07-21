@@ -14,10 +14,10 @@
  * Copyright (C) 2025 Tóth János <gomba007@gmail.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
 
-#include <linux/iio/iio.h>
+#include <robux/iio/iio.h>
 
 #define SEN0322_REG_DATA	0x03
 #define SEN0322_REG_COEFF	0x0A

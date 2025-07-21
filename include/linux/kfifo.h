@@ -36,10 +36,10 @@
  * to lock the reader.
  */
 
-#include <linux/array_size.h>
-#include <linux/spinlock.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/spinlock.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
 
 #include <asm/barrier.h>
 #include <asm/errno.h>

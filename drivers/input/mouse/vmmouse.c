@@ -10,11 +10,11 @@
  *   Thomas Hellstrom <thellstrom@vmware.com>
  */
 
-#include <linux/input.h>
-#include <linux/serio.h>
-#include <linux/libps2.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/input.h>
+#include <robux/serio.h>
+#include <robux/libps2.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 #include <asm/hypervisor.h>
 #include <asm/vmware.h>
 

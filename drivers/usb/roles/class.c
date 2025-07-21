@@ -3,18 +3,18 @@
  * USB Role Switch Support
  *
  * Copyright (C) 2018 Intel Corporation
- * Author: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+ * Author: Heikki Krogerus <heikki.krogerus@robux.intel.com>
  *         Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/component.h>
-#include <linux/usb/role.h>
-#include <linux/property.h>
-#include <linux/device.h>
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <robux/component.h>
+#include <robux/usb/role.h>
+#include <robux/property.h>
+#include <robux/device.h>
+#include <robux/lockdep.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
 
 static const struct class role_class = {
 	.name = "usb_role",
@@ -458,7 +458,7 @@ static void __exit usb_roles_exit(void)
 }
 module_exit(usb_roles_exit);
 
-MODULE_AUTHOR("Heikki Krogerus <heikki.krogerus@linux.intel.com>");
+MODULE_AUTHOR("Heikki Krogerus <heikki.krogerus@robux.intel.com>");
 MODULE_AUTHOR("Hans de Goede <hdegoede@redhat.com>");
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("USB Role Class");

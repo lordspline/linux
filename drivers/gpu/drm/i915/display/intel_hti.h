@@ -6,7 +6,7 @@
 #ifndef __INTEL_HTI_H__
 #define __INTEL_HTI_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct intel_display;
 enum phy;

@@ -8,10 +8,10 @@
 
 #include <stdio.h>
 #include <gelf.h>
-#include <linux/list.h>
-#include <linux/hashtable.h>
-#include <linux/rbtree.h>
-#include <linux/jhash.h>
+#include <robux/list.h>
+#include <robux/hashtable.h>
+#include <robux/rbtree.h>
+#include <robux/jhash.h>
 #include <arch/elf.h>
 
 #ifdef LIBELF_USE_DEPRECATED

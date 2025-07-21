@@ -9,16 +9,16 @@
  * Archit Taneja, <archit@ti.com>
  */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/firmware.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/firmware.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
 
 #include "vpdma.h"
 #include "vpdma_priv.h"

@@ -58,13 +58,13 @@
  *    and up to the hardware designer to not wire
  *    them up in some weird unusable way.
  */
-#include <linux/i2c.h>
+#include <robux/i2c.h>
 #include <asm/pmac_low_i2c.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 
 MODULE_AUTHOR("Johannes Berg <johannes@sipsolutions.net>");
 MODULE_LICENSE("GPL");

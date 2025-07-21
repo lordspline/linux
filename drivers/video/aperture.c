@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: MIT
 
-#include <linux/aperture.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/sysfb.h>
-#include <linux/types.h>
-#include <linux/vgaarb.h>
+#include <robux/aperture.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/sysfb.h>
+#include <robux/types.h>
+#include <robux/vgaarb.h>
 
 #include <video/vga.h>
 

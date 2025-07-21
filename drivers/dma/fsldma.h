@@ -9,9 +9,9 @@
 #ifndef __DMA_FSLDMA_H
 #define __DMA_FSLDMA_H
 
-#include <linux/device.h>
-#include <linux/dmapool.h>
-#include <linux/dmaengine.h>
+#include <robux/device.h>
+#include <robux/dmapool.h>
+#include <robux/dmaengine.h>
 
 /* Define data structures needed by Freescale
  * MPC8540 and MPC8349 DMA controller.

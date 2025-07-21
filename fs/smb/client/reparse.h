@@ -6,9 +6,9 @@
 #ifndef _CIFS_REPARSE_H
 #define _CIFS_REPARSE_H
 
-#include <linux/fs.h>
-#include <linux/stat.h>
-#include <linux/uidgid.h>
+#include <robux/fs.h>
+#include <robux/stat.h>
+#include <robux/uidgid.h>
 #include "fs_context.h"
 #include "cifsglob.h"
 

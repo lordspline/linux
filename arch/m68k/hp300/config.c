@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/m68k/hp300/config.c
+ *  robux/arch/m68k/hp300/config.c
  *
  *  Copyright (C) 1998 Philip Blundell <philb@gnu.org>
  *
@@ -8,13 +8,13 @@
  *  called by setup.c.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/serial_8250.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/console.h>
-#include <linux/rtc.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/serial_8250.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/console.h>
+#include <robux/rtc.h>
 
 #include <asm/bootinfo.h>
 #include <asm/bootinfo-hp300.h>

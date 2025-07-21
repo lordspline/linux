@@ -3,11 +3,11 @@
  * Copyright 2021, Dario Binacchi <dariobin@libero.it>
  */
 
-#include <linux/ethtool.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/netdevice.h>
-#include <linux/can/dev.h>
+#include <robux/ethtool.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/netdevice.h>
+#include <robux/can/dev.h>
 
 #include "c_can.h"
 

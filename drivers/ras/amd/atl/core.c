@@ -10,7 +10,7 @@
  * Author: Yazen Ghannam <Yazen.Ghannam@amd.com>
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 #include <asm/cpu_device_id.h>
 
 #include "internal.h"

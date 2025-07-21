@@ -3,7 +3,7 @@
 #ifndef __SH_SCI_COMMON_H__
 #define __SH_SCI_COMMON_H__
 
-#include <linux/serial_core.h>
+#include <robux/serial_core.h>
 
 enum SCI_CLKS {
 	SCI_FCK,		/* Functional Clock */

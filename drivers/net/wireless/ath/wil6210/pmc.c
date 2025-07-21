@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: ISC
 /*
  * Copyright (c) 2012-2015,2017 Qualcomm Atheros, Inc.
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/seq_file.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/seq_file.h>
 #include "wmi.h"
 #include "wil6210.h"
 #include "txrx.h"

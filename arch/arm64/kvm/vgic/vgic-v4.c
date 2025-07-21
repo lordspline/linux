@@ -4,11 +4,11 @@
  * Author: Marc Zyngier <marc.zyngier@arm.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kvm_host.h>
-#include <linux/irqchip/arm-gic-v3.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kvm_host.h>
+#include <robux/irqchip/arm-gic-v3.h>
 
 #include "vgic.h"
 

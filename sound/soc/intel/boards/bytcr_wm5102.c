@@ -9,17 +9,17 @@
  *  Author: Subhransu S. Prusty <subhransu.s.prusty@intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_data/x86/soc.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
+#include <robux/acpi.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_data/x86/soc.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

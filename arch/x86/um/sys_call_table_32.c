@@ -4,9 +4,9 @@
  * with some changes for UML.
  */
 
-#include <linux/linkage.h>
-#include <linux/sys.h>
-#include <linux/cache.h>
+#include <robux/linkage.h>
+#include <robux/sys.h>
+#include <robux/cache.h>
 #include <asm/syscall.h>
 
 extern asmlinkage long sys_ni_syscall(unsigned long, unsigned long,

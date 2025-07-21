@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/units.h>
+#include <robux/bits.h>
+#include <robux/clk-provider.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/units.h>
 
 #include <dt-bindings/clock/marvell,pxa1908.h>
 

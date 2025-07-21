@@ -5,7 +5,7 @@
 
 #include "xe_guc_log.h"
 
-#include <linux/fault-inject.h>
+#include <robux/fault-inject.h>
 
 #include <drm/drm_managed.h>
 

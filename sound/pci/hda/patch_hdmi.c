@@ -10,18 +10,18 @@
  *  Copyright (c) 2013 Anssi Hannula <anssi.hannula@iki.fi>
  *
  *  Authors:
- *			Wu Fengguang <wfg@linux.intel.com>
+ *			Wu Fengguang <wfg@robux.intel.com>
  *
  *  Maintained by:
- *			Wu Fengguang <wfg@linux.intel.com>
+ *			Wu Fengguang <wfg@robux.intel.com>
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/asoundef.h>

@@ -6,9 +6,9 @@
  * Copyright (c) 2009 Dmitry Artamonow <mad_soft@inbox.ru>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/gpio.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/gpio.h>
 
 #include <video/sa1100fb.h>
 

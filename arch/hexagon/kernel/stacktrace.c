@@ -2,14 +2,14 @@
 /*
  * Stacktrace support for Hexagon
  *
- * Copyright (c) 2010-2011, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2011, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
-#include <linux/thread_info.h>
-#include <linux/module.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/stacktrace.h>
+#include <robux/thread_info.h>
+#include <robux/module.h>
 
 struct stackframe {
 	unsigned long fp;

@@ -20,11 +20,11 @@
  *
  * Jeremy Fitzhardinge <jeremy@xensource.com>, XenSource Inc, 2007
  */
-#include <linux/percpu.h>
-#include <linux/hardirq.h>
-#include <linux/debugfs.h>
-#include <linux/jump_label.h>
-#include <linux/printk.h>
+#include <robux/percpu.h>
+#include <robux/hardirq.h>
+#include <robux/debugfs.h>
+#include <robux/jump_label.h>
+#include <robux/printk.h>
 
 #include <asm/xen/hypercall.h>
 

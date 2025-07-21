@@ -16,12 +16,12 @@
 
 #define pr_fmt(fmt) "kexec ranges: " fmt
 
-#include <linux/sort.h>
-#include <linux/kexec.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/memblock.h>
-#include <linux/crash_core.h>
+#include <robux/sort.h>
+#include <robux/kexec.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/memblock.h>
+#include <robux/crash_core.h>
 #include <asm/sections.h>
 #include <asm/kexec_ranges.h>
 #include <asm/crashdump-ppc64.h>
@@ -256,8 +256,8 @@ static int add_tce_mem_ranges(struct crash_mem **mem_ranges)
 		u64 base;
 		u32 size;
 
-		ret = of_property_read_u64(dn, "linux,tce-base", &base);
-		ret |= of_property_read_u32(dn, "linux,tce-size", &size);
+		ret = of_property_read_u64(dn, "robux,tce-base", &base);
+		ret |= of_property_read_u32(dn, "robux,tce-size", &size);
 		if (ret) {
 			/*
 			 * It is ok to have pci nodes without tce. So, ignore
@@ -295,8 +295,8 @@ static int add_initrd_mem_range(struct crash_mem **mem_ranges)
 	if (!strstr(saved_command_line, "retain_initrd"))
 		return 0;
 
-	ret = of_property_read_u64(of_chosen, "linux,initrd-start", &base);
-	ret |= of_property_read_u64(of_chosen, "linux,initrd-end", &end);
+	ret = of_property_read_u64(of_chosen, "robux,initrd-start", &base);
+	ret |= of_property_read_u64(of_chosen, "robux,initrd-end", &end);
 	if (!ret)
 		ret = add_mem_range(mem_ranges, base, end - base + 1);
 
@@ -353,7 +353,7 @@ static int add_rtas_mem_range(struct crash_mem **mem_ranges)
 	if (!dn)
 		return 0;
 
-	ret = of_property_read_u32(dn, "linux,rtas-base", &base);
+	ret = of_property_read_u32(dn, "robux,rtas-base", &base);
 	ret |= of_property_read_u32(dn, "rtas-size", &size);
 	if (!ret)
 		ret = add_mem_range(mem_ranges, base, size);

@@ -4,13 +4,13 @@
  * Copyright (c) 2019-2020 Marvell International Ltd.
  */
 
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
 #include <net/udp_tunnel.h>
-#include <linux/bitops.h>
-#include <linux/vmalloc.h>
+#include <robux/bitops.h>
+#include <robux/vmalloc.h>
 
-#include <linux/qed/qed_if.h>
+#include <robux/qed/qed_if.h>
 #include "qede.h"
 
 #define QEDE_FILTER_PRINT_MAX_LEN	(64)

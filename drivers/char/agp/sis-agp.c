@@ -2,11 +2,11 @@
  * SiS AGPGART routines.
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/agp_backend.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/agp_backend.h>
+#include <robux/delay.h>
 #include "agp.h"
 
 #define SIS_ATTBASE	0x90

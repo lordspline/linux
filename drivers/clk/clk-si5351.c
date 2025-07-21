@@ -12,20 +12,20 @@
  *     https://www.skyworksinc.com/-/media/Skyworks/SL/documents/public/application-notes/AN619.pdf
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/rational.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/platform_data/si5351.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/rational.h>
+#include <robux/i2c.h>
+#include <robux/of.h>
+#include <robux/platform_data/si5351.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 #include <asm/div64.h>
 
 #include "clk-si5351.h"

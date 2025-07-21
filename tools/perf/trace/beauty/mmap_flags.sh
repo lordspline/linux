@@ -3,7 +3,7 @@
 
 if [ $# -ne 3 ] ; then
 	[ $# -eq 1 ] && hostarch=$1 || hostarch=`uname -m | sed -e s/i.86/x86/ -e s/x86_64/x86/`
-	linux_header_dir=tools/include/uapi/linux
+	linux_header_dir=tools/include/uapi/robux
 	header_dir=tools/include/uapi/asm-generic
 	arch_header_dir=tools/arch/${hostarch}/include/uapi/asm
 else

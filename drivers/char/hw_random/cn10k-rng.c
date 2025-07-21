@@ -5,14 +5,14 @@
  *
  */
 
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/delay.h>
+#include <robux/hw_random.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/delay.h>
 
-#include <linux/arm-smccc.h>
+#include <robux/arm-smccc.h>
 
 /* CSRs */
 #define RNM_CTL_STATUS		0x000

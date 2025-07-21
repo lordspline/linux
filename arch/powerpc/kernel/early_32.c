@@ -4,8 +4,8 @@
  * Early init before relocation
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
 #include <asm/setup.h>
 #include <asm/sections.h>
 

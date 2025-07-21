@@ -14,15 +14,15 @@
  * Platform devices for Atheros AR5312 SoCs
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/irqdomain.h>
-#include <linux/interrupt.h>
-#include <linux/memblock.h>
-#include <linux/platform_device.h>
-#include <linux/mtd/physmap.h>
-#include <linux/reboot.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/bitops.h>
+#include <robux/irqdomain.h>
+#include <robux/interrupt.h>
+#include <robux/memblock.h>
+#include <robux/platform_device.h>
+#include <robux/mtd/physmap.h>
+#include <robux/reboot.h>
 #include <asm/bootinfo.h>
 #include <asm/reboot.h>
 #include <asm/time.h>

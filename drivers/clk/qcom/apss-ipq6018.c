@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/soc/qcom/smem.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/regmap.h>
+#include <robux/module.h>
+#include <robux/clk.h>
+#include <robux/soc/qcom/smem.h>
 
 #include <dt-bindings/clock/qcom,apss-ipq.h>
 #include <dt-bindings/arm/qcom,ids.h>

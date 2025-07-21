@@ -191,10 +191,10 @@
  *   with the rest of the i915 driver.
  */
 
-#include <linux/anon_inodes.h>
-#include <linux/nospec.h>
-#include <linux/sizes.h>
-#include <linux/uuid.h>
+#include <robux/anon_inodes.h>
+#include <robux/nospec.h>
+#include <robux/sizes.h>
+#include <robux/uuid.h>
 
 #include "gem/i915_gem_context.h"
 #include "gem/i915_gem_internal.h"

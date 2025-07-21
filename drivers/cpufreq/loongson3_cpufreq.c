@@ -7,11 +7,11 @@
  * Author: Huacai Chen <chenhuacai@loongson.cn>
  * Copyright (C) 2024 Loongson Technology Corporation Limited
  */
-#include <linux/cpufreq.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/units.h>
+#include <robux/cpufreq.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/units.h>
 
 #include <asm/idle.h>
 #include <asm/loongarch.h>

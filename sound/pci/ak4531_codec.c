@@ -4,11 +4,11 @@
  *  Universal routines for AK4531 codec
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
 
 #include <sound/core.h>
 #include <sound/ak4531_codec.h>

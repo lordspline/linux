@@ -25,8 +25,8 @@
  * Authors: Christian König <christian.koenig@amd.com>
  */
 
-#include <linux/firmware.h>
-#include <linux/module.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
 
 #include <drm/drm.h>
 #include <drm/drm_drv.h>

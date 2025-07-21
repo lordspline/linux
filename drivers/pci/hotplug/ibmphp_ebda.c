@@ -13,13 +13,13 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/list.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/list.h>
+#include <robux/init.h>
 #include "ibmphp.h"
 
 /*

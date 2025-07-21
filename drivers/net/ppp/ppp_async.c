@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * PPP async serial channel driver for Linux.
+ * PPP async serial channel driver for Robux.
  *
  * Copyright 1999 Paul Mackerras.
  *
@@ -14,23 +14,23 @@
  * subsequently hacked by Paul Mackerras.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/tty.h>
-#include <linux/netdevice.h>
-#include <linux/poll.h>
-#include <linux/crc-ccitt.h>
-#include <linux/ppp_defs.h>
-#include <linux/ppp-ioctl.h>
-#include <linux/ppp_channel.h>
-#include <linux/spinlock.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/skbuff.h>
+#include <robux/tty.h>
+#include <robux/netdevice.h>
+#include <robux/poll.h>
+#include <robux/crc-ccitt.h>
+#include <robux/ppp_defs.h>
+#include <robux/ppp-ioctl.h>
+#include <robux/ppp_channel.h>
+#include <robux/spinlock.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
+#include <robux/uaccess.h>
 #include <asm/string.h>
 
 #define PPP_VERSION	"2.4.2"

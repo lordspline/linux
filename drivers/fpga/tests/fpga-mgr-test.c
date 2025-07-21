@@ -9,10 +9,10 @@
 
 #include <kunit/device.h>
 #include <kunit/test.h>
-#include <linux/fpga/fpga-mgr.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/types.h>
+#include <robux/fpga/fpga-mgr.h>
+#include <robux/module.h>
+#include <robux/scatterlist.h>
+#include <robux/types.h>
 
 #define HEADER_FILL		'H'
 #define IMAGE_FILL		'P'

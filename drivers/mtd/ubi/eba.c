@@ -28,9 +28,9 @@
  * 64 bits is enough to never overflow.
  */
 
-#include <linux/slab.h>
-#include <linux/crc32.h>
-#include <linux/err.h>
+#include <robux/slab.h>
+#include <robux/crc32.h>
+#include <robux/err.h>
 #include "ubi.h"
 
 /**

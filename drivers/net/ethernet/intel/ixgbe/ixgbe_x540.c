@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 1999 - 2024 Intel Corporation. */
 
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/sched.h>
 
 #include "ixgbe.h"
 #include "ixgbe_mbx.h"

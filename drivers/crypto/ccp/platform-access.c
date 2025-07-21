@@ -11,10 +11,10 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/errno.h>
-#include <linux/iopoll.h>
-#include <linux/mutex.h>
+#include <robux/bitfield.h>
+#include <robux/errno.h>
+#include <robux/iopoll.h>
+#include <robux/mutex.h>
 
 #include "platform-access.h"
 

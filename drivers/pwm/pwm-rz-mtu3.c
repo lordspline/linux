@@ -23,15 +23,15 @@
  *   between HW channels.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/limits.h>
-#include <linux/mfd/rz-mtu3.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/pwm.h>
-#include <linux/time.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/limits.h>
+#include <robux/mfd/rz-mtu3.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/pwm.h>
+#include <robux/time.h>
 
 #define RZ_MTU3_MAX_PWM_CHANNELS	12
 #define RZ_MTU3_MAX_HW_CHANNELS		7

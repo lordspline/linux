@@ -24,8 +24,8 @@
 
 #else /* __ASSEMBLER__ */
 
-#include <linux/bits.h>
-#include <linux/stringify.h>
+#include <robux/bits.h>
+#include <robux/stringify.h>
 #include <asm/gpr-num.h>
 
 #define __ASM_EXTABLE_RAW(insn, fixup, type, data)	\

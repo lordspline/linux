@@ -6,15 +6,15 @@
  *		Aaron.maoye <leafy.myeh@newbietech.com>
  */
 
-#include <linux/module.h>
-#include <linux/serio.h>
-#include <linux/interrupt.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/serio.h>
+#include <robux/interrupt.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
 
 #define DRIVER_NAME		"sun4i-ps2"
 

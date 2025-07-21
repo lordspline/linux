@@ -8,19 +8,19 @@
 #define KMSG_COMPONENT "sclp_cmd"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/cpufeature.h>
-#include <linux/completion.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/mmzone.h>
-#include <linux/memory.h>
-#include <linux/memory_hotplug.h>
-#include <linux/module.h>
+#include <robux/cpufeature.h>
+#include <robux/completion.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/mmzone.h>
+#include <robux/memory.h>
+#include <robux/memory_hotplug.h>
+#include <robux/module.h>
 #include <asm/ctlreg.h>
 #include <asm/chpid.h>
 #include <asm/setup.h>

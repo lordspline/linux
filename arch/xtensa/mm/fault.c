@@ -12,11 +12,11 @@
  * Joe Taylor	<joe@tensilica.com, joetylr@yahoo.com>
  */
 
-#include <linux/mm.h>
-#include <linux/extable.h>
-#include <linux/hardirq.h>
-#include <linux/perf_event.h>
-#include <linux/uaccess.h>
+#include <robux/mm.h>
+#include <robux/extable.h>
+#include <robux/hardirq.h>
+#include <robux/perf_event.h>
+#include <robux/uaccess.h>
 #include <asm/mmu_context.h>
 #include <asm/cacheflush.h>
 #include <asm/hardirq.h>

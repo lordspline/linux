@@ -2,20 +2,20 @@
 /*
  * Apple SoC PMGR device power state driver
  *
- * Copyright The Asahi Linux Contributors
+ * Copyright The Asahi Robux Contributors
  */
 
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/reset-controller.h>
-#include <linux/module.h>
+#include <robux/bitops.h>
+#include <robux/bitfield.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/reset-controller.h>
+#include <robux/module.h>
 
 #define APPLE_PMGR_RESET        BIT(31)
 #define APPLE_PMGR_AUTO_ENABLE  BIT(28)

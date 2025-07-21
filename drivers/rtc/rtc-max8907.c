@@ -8,13 +8,13 @@
  * Copyright (C) 2009-2010 Marvell International Ltd.
  */
 
-#include <linux/bcd.h>
-#include <linux/mfd/max8907.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
+#include <robux/bcd.h>
+#include <robux/mfd/max8907.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
 
 enum {
 	RTC_SEC = 0,

@@ -9,15 +9,15 @@
  * Input by Jari Vanhala <ext-jari.vanhala@nokia.com>
  */
 
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/workqueue.h>
-#include <linux/mfd/twl.h>
-#include <linux/mfd/twl4030-audio.h>
-#include <linux/input.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/jiffies.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/workqueue.h>
+#include <robux/mfd/twl.h>
+#include <robux/mfd/twl4030-audio.h>
+#include <robux/input.h>
+#include <robux/slab.h>
 
 /* MODULE ID2 */
 #define LEDEN		0x00

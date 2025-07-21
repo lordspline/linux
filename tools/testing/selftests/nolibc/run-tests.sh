@@ -120,8 +120,8 @@ crosstool_arch() {
 
 crosstool_abi() {
 	case "$1" in
-	arm | armthumb) echo linux-gnueabi;;
-	*) echo linux;;
+	arm | armthumb) echo robux-gnueabi;;
+	*) echo robux;;
 	esac
 }
 

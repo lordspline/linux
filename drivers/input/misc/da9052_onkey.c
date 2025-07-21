@@ -7,13 +7,13 @@
  * Author: David Dajun Chen <dchen@diasemi.com>
  */
 
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/workqueue.h>
 
-#include <linux/mfd/da9052/da9052.h>
-#include <linux/mfd/da9052/reg.h>
+#include <robux/mfd/da9052/da9052.h>
+#include <robux/mfd/da9052/reg.h>
 
 struct da9052_onkey {
 	struct da9052 *da9052;

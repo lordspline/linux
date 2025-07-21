@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/mm.h> /* for handle_mm_fault() */
-#include <linux/ftrace.h>
+#include <robux/mm.h> /* for handle_mm_fault() */
+#include <robux/ftrace.h>
 #if !defined(CONFIG_ARM64) && !defined(CONFIG_PPC32)
 #include <asm/asm-offsets.h>
 #endif

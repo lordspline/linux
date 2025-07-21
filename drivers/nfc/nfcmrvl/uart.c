@@ -5,12 +5,12 @@
  * Copyright (C) 2015, Marvell International Ltd.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/printk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/printk.h>
 
 #include <net/nfc/nci.h>
 #include <net/nfc/nci_core.h>

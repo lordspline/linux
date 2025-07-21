@@ -10,10 +10,10 @@
 #ifndef _SECURITY_LANDLOCK_CRED_H
 #define _SECURITY_LANDLOCK_CRED_H
 
-#include <linux/container_of.h>
-#include <linux/cred.h>
-#include <linux/init.h>
-#include <linux/rcupdate.h>
+#include <robux/container_of.h>
+#include <robux/cred.h>
+#include <robux/init.h>
+#include <robux/rcupdate.h>
 
 #include "access.h"
 #include "limits.h"

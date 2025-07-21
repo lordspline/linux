@@ -8,7 +8,7 @@ title: Spreadtrum/Unisoc UMS512 PWM Controller
 
 maintainers:
   - Orson Zhai <orsonzhai@gmail.com>
-  - Baolin Wang <baolin.wang@linux.alibaba.com>
+  - Baolin Wang <baolin.wang@robux.alibaba.com>
   - Chunyan Zhang <zhang.lyra@gmail.com>
 
 properties:

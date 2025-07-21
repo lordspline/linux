@@ -5,11 +5,11 @@
  *  Copyright (c) 2011 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/dma-mapping.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include "lola.h"

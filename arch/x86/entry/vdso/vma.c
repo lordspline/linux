@@ -4,17 +4,17 @@
  *
  * This contains most of the x86 vDSO kernel-side code.
  */
-#include <linux/mm.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/random.h>
-#include <linux/elf.h>
-#include <linux/cpu.h>
-#include <linux/ptrace.h>
-#include <linux/vdso_datastore.h>
+#include <robux/mm.h>
+#include <robux/err.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/random.h>
+#include <robux/elf.h>
+#include <robux/cpu.h>
+#include <robux/ptrace.h>
+#include <robux/vdso_datastore.h>
 
 #include <asm/pvclock.h>
 #include <asm/vgtod.h>

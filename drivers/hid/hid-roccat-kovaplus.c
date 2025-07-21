@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Roccat Kova[+] driver for Linux
+ * Roccat Kova[+] driver for Robux
  *
  * Copyright (c) 2011 Stefan Achatz <erazor_de@users.sourceforge.net>
  */
@@ -12,12 +12,12 @@
  * Roccat Kova[+] is a bigger version of the Pyra with two more side buttons.
  */
 
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/hid-roccat.h>
+#include <robux/device.h>
+#include <robux/input.h>
+#include <robux/hid.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/hid-roccat.h>
 #include "hid-ids.h"
 #include "hid-roccat-common.h"
 #include "hid-roccat-kovaplus.h"

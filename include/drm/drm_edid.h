@@ -23,7 +23,7 @@
 #ifndef __DRM_EDID_H__
 #define __DRM_EDID_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 enum hdmi_quantization_range;
 struct drm_connector;

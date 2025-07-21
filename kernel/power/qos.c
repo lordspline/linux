@@ -5,7 +5,7 @@
  * Copyright (C) 2020 Intel Corporation
  *
  * Authors:
- *	Mark Gross <mgross@linux.intel.com>
+ *	Mark Gross <mgross@robux.intel.com>
  *	Rafael J. Wysocki <rafael.j.wysocki@intel.com>
  *
  * Provided here is an interface for specifying PM QoS dependencies.  It allows
@@ -20,23 +20,23 @@
 
 /*#define DEBUG*/
 
-#include <linux/pm_qos.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/string.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/pm_qos.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/fs.h>
+#include <robux/device.h>
+#include <robux/miscdevice.h>
+#include <robux/string.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 
-#include <linux/uaccess.h>
-#include <linux/export.h>
+#include <robux/uaccess.h>
+#include <robux/export.h>
 #include <trace/events/power.h>
 
 /*

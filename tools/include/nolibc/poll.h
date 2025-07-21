@@ -13,8 +13,8 @@
 #include "arch.h"
 #include "sys.h"
 
-#include <linux/poll.h>
-#include <linux/time.h>
+#include <robux/poll.h>
+#include <robux/time.h>
 
 /*
  * int poll(struct pollfd *fds, int nfds, int timeout);

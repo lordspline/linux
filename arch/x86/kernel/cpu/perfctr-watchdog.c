@@ -12,13 +12,13 @@
  *
  */
 
-#include <linux/percpu.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/smp.h>
+#include <robux/percpu.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/bitops.h>
+#include <robux/smp.h>
 #include <asm/nmi.h>
-#include <linux/kprobes.h>
+#include <robux/kprobes.h>
 
 #include <asm/apic.h>
 #include <asm/perf_event.h>

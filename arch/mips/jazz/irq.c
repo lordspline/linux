@@ -6,15 +6,15 @@
  * Copyright (C) 1992 Linus Torvalds
  * Copyright (C) 1994 - 2001, 2003, 07 Ralf Baechle
  */
-#include <linux/clockchips.h>
-#include <linux/i8253.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/irq.h>
-#include <linux/pgtable.h>
+#include <robux/clockchips.h>
+#include <robux/i8253.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
+#include <robux/irq.h>
+#include <robux/pgtable.h>
 
 #include <asm/irq_cpu.h>
 #include <asm/i8259.h>

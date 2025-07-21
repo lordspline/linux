@@ -10,28 +10,28 @@
  *	Arun R Murthy <arun.murthy@stericsson.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/component.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/notifier.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/completion.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/workqueue.h>
-#include <linux/kobject.h>
-#include <linux/of.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/abx500/ab8500.h>
-#include <linux/mfd/abx500.h>
-#include <linux/usb/otg.h>
-#include <linux/mutex.h>
-#include <linux/iio/consumer.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/component.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/notifier.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/completion.h>
+#include <robux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/workqueue.h>
+#include <robux/kobject.h>
+#include <robux/of.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/abx500/ab8500.h>
+#include <robux/mfd/abx500.h>
+#include <robux/usb/otg.h>
+#include <robux/mutex.h>
+#include <robux/iio/consumer.h>
 
 #include "ab8500-bm.h"
 #include "ab8500-chargalg.h"

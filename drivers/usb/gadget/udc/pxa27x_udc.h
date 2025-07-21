@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0+
 /*
- * linux/drivers/usb/gadget/pxa27x_udc.h
+ * robux/drivers/usb/gadget/pxa27x_udc.h
  * Intel PXA27x on-chip full speed USB device controller
  *
  * Inspired by original driver by Frank Becker, David Brownell, and others.
@@ -10,10 +10,10 @@
 #ifndef __LINUX_USB_GADGET_PXA27X_H
 #define __LINUX_USB_GADGET_PXA27X_H
 
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/usb/otg.h>
+#include <robux/types.h>
+#include <robux/spinlock.h>
+#include <robux/io.h>
+#include <robux/usb/otg.h>
 
 /*
  * Register definitions

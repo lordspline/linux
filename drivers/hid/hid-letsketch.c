@@ -34,14 +34,14 @@
  * Interface 3 EP 0x84 bootclass mouse, rdesc len 75, report id 0x01, Std Mouse
  *  This reports right-click mouse-button events for the 1st stylus button
  */
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/timer.h>
-#include <linux/usb.h>
+#include <robux/device.h>
+#include <robux/input.h>
+#include <robux/hid.h>
+#include <robux/module.h>
+#include <robux/timer.h>
+#include <robux/usb.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "hid-ids.h"
 

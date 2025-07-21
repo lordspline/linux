@@ -4,16 +4,16 @@
  * Author: Paul Burton <paul.burton@mips.com>
  */
 
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sched/hotplug.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/types.h>
-#include <linux/irq.h>
+#include <robux/cpu.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/memblock.h>
+#include <robux/sched/task_stack.h>
+#include <robux/sched/hotplug.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
+#include <robux/types.h>
+#include <robux/irq.h>
 
 #include <asm/bcache.h>
 #include <asm/mips-cps.h>

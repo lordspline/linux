@@ -1,12 +1,12 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Copyright (C) 2024 Unisoc Technologies Co., Ltd.
  */
 
 #ifndef _UAPI_LINUX_EXFAT_H
 #define _UAPI_LINUX_EXFAT_H
-#include <linux/types.h>
-#include <linux/ioctl.h>
+#include <robux/types.h>
+#include <robux/ioctl.h>
 
 /*
  * exfat-specific ioctl commands

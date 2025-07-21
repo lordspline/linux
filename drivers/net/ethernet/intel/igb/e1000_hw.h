@@ -4,10 +4,10 @@
 #ifndef _E1000_IGB_HW_H_
 #define _E1000_IGB_HW_H_
 
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/netdevice.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/netdevice.h>
 
 #include "e1000_regs.h"
 #include "e1000_defines.h"

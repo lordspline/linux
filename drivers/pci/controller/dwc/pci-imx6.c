@@ -8,30 +8,30 @@
  * Author: Sean Cross <xobs@kosagi.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mfd/syscon/imx6q-iomuxc-gpr.h>
-#include <linux/mfd/syscon/imx7-iomuxc-gpr.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/resource.h>
-#include <linux/signal.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/reset.h>
-#include <linux/phy/pcie.h>
-#include <linux/phy/phy.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mfd/syscon/imx6q-iomuxc-gpr.h>
+#include <robux/mfd/syscon/imx7-iomuxc-gpr.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/resource.h>
+#include <robux/signal.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/reset.h>
+#include <robux/phy/pcie.h>
+#include <robux/phy/phy.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
 
 #include "../../pci.h"
 #include "pcie-designware.h"
@@ -1678,7 +1678,7 @@ static int imx_pcie_probe(struct platform_device *pdev)
 	case IMX8MQ_EP:
 		domain = of_get_pci_domain_nr(node);
 		if (domain < 0 || domain > 1)
-			return dev_err_probe(dev, -ENODEV, "no \"linux,pci-domain\" property in devicetree\n");
+			return dev_err_probe(dev, -ENODEV, "no \"robux,pci-domain\" property in devicetree\n");
 
 		imx_pcie->controller_id = domain;
 		break;

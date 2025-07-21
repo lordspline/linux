@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/cpu.h>
+#include <robux/cpu.h>
 
 #include <xen/xen.h>
 

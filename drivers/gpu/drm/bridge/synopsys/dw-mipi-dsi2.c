@@ -7,14 +7,14 @@
  * Rockchip version from rockchip/dw-mipi-dsi2.c converted to use bridge APIs.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/iopoll.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/iopoll.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 
 #include <video/mipi_display.h>
 

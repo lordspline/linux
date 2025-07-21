@@ -7,17 +7,17 @@
  * maximum 255 bytes at a time. If a larger transfer is attempted, error code
  * (-EINVAL) is returned.
  */
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
 
 #define SCL_WAIT_TIMEOUT_NS 25000000
 #define I2C_XFER_TIMEOUT    (msecs_to_jiffies(250))

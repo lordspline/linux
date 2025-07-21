@@ -3,7 +3,7 @@
 #ifndef _LINUX_BTF_IDS_H
 #define _LINUX_BTF_IDS_H
 
-#include <linux/types.h> /* for u32 */
+#include <robux/types.h> /* for u32 */
 
 struct btf_id_set {
 	u32 cnt;
@@ -24,9 +24,9 @@ struct btf_id_set8 {
 
 #ifdef CONFIG_DEBUG_INFO_BTF
 
-#include <linux/compiler.h> /* for __PASTE */
-#include <linux/compiler_attributes.h> /* for __maybe_unused */
-#include <linux/stringify.h>
+#include <robux/compiler.h> /* for __PASTE */
+#include <robux/compiler_attributes.h> /* for __maybe_unused */
+#include <robux/stringify.h>
 
 /*
  * Following macros help to define lists of BTF IDs placed

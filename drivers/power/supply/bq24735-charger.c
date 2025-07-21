@@ -17,19 +17,19 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#include <linux/devm-helpers.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
+#include <robux/devm-helpers.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/gpio/consumer.h>
+#include <robux/power_supply.h>
+#include <robux/slab.h>
 
-#include <linux/power/bq24735-charger.h>
+#include <robux/power/bq24735-charger.h>
 
 /* BQ24735 available commands and their respective masks */
 #define BQ24735_CHARGE_OPT		0x12

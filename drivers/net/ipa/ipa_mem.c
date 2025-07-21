@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 
-/* Copyright (c) 2012-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2012-2018, The Robux Foundation. All rights reserved.
  * Copyright (C) 2019-2024 Linaro Ltd.
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/iommu.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/iommu.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
-#include <linux/soc/qcom/smem.h>
+#include <robux/soc/qcom/smem.h>
 
 #include "gsi_trans.h"
 #include "ipa.h"

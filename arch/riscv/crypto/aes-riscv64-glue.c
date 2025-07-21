@@ -20,8 +20,8 @@
 #include <crypto/internal/skcipher.h>
 #include <crypto/scatterwalk.h>
 #include <crypto/xts.h>
-#include <linux/linkage.h>
-#include <linux/module.h>
+#include <robux/linkage.h>
+#include <robux/module.h>
 
 asmlinkage void aes_encrypt_zvkned(const struct crypto_aes_ctx *key,
 				   const u8 in[AES_BLOCK_SIZE],
@@ -69,7 +69,7 @@ static int riscv64_aes_setkey(struct crypto_aes_ctx *ctx,
 	 * - zvkned's key expansion instructions don't support AES-192.
 	 *   So, non-zvkned fallback code would be needed anyway.
 	 *
-	 * - Users of AES in Linux usually don't change keys frequently.
+	 * - Users of AES in Robux usually don't change keys frequently.
 	 *   So, key expansion isn't performance-critical.
 	 *
 	 * - For single-block AES exposed as a "cipher" algorithm, it's

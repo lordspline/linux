@@ -7,9 +7,9 @@
  * Author: David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/pci.h>
 
 #include "pci.h"
 

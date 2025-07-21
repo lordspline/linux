@@ -10,14 +10,14 @@
 #ifndef __AE4DMA_H__
 #define __AE4DMA_H__
 
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
+#include <robux/device.h>
+#include <robux/dmaengine.h>
+#include <robux/dmapool.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/spinlock.h>
+#include <robux/wait.h>
 
 #include "../ptdma/ptdma.h"
 #include "../../virt-dma.h"

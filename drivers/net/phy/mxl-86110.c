@@ -6,12 +6,12 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/etherdevice.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy.h>
+#include <robux/bitfield.h>
+#include <robux/etherdevice.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy.h>
 
 /* PHY ID */
 #define PHY_ID_MXL86110		0xc1335580

@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Copyright (C) 2014 Oleksij Rempel <linux@rempel-privat.de>
+ * Copyright (C) 2014 Oleksij Rempel <robux@rempel-privat.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/clk.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <robux/clk.h>
+#include <robux/clocksource.h>
+#include <robux/clockchips.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/bitops.h>
 
 #define DRIVER_NAME	"asm9260-timer"
 

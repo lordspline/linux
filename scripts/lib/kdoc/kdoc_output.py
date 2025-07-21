@@ -642,7 +642,7 @@ class ManFormat(OutputFormat):
         if not self.check_doc(name, args):
             return
 
-        self.data += f'.TH "{self.modulename}" 9 "{self.modulename}" "{self.man_date}" "API Manual" LINUX' + "\n"
+        self.data += f'.TH "{self.modulename}" 9 "{self.modulename}" "{self.man_date}" "API Manual" ROBUX' + "\n"
 
         for section in sectionlist:
             self.data += f'.SH "{section}"' + "\n"
@@ -656,7 +656,7 @@ class ManFormat(OutputFormat):
         sectionlist = args.get('sectionlist', [])
         sections = args.get('sections', {})
 
-        self.data += f'.TH "{args["function"]}" 9 "{args["function"]}" "{self.man_date}" "Kernel Hacker\'s Manual" LINUX' + "\n"
+        self.data += f'.TH "{args["function"]}" 9 "{args["function"]}" "{self.man_date}" "Kernel Hacker\'s Manual" ROBUX' + "\n"
 
         self.data += ".SH NAME\n"
         self.data += f"{args['function']} \\- {args['purpose']}\n"
@@ -706,7 +706,7 @@ class ManFormat(OutputFormat):
         sectionlist = args.get('sectionlist', [])
         sections = args.get('sections', {})
 
-        self.data += f'.TH "{self.modulename}" 9 "enum {args["enum"]}" "{self.man_date}" "API Manual" LINUX' + "\n"
+        self.data += f'.TH "{self.modulename}" 9 "enum {args["enum"]}" "{self.man_date}" "API Manual" ROBUX' + "\n"
 
         self.data += ".SH NAME\n"
         self.data += f"enum {args['enum']} \\- {args['purpose']}\n"
@@ -742,7 +742,7 @@ class ManFormat(OutputFormat):
         sectionlist = args.get('sectionlist', [])
         sections = args.get('sections', {})
 
-        self.data += f'.TH "{module}" 9 "{typedef}" "{self.man_date}" "API Manual" LINUX' + "\n"
+        self.data += f'.TH "{module}" 9 "{typedef}" "{self.man_date}" "API Manual" ROBUX' + "\n"
 
         self.data += ".SH NAME\n"
         self.data += f"typedef {typedef} \\- {purpose}\n"
@@ -762,7 +762,7 @@ class ManFormat(OutputFormat):
         sections = args.get('sections', {})
         parameterdescs = args.get('parameterdescs', {})
 
-        self.data += f'.TH "{module}" 9 "{struct_type} {struct_name}" "{self.man_date}" "API Manual" LINUX' + "\n"
+        self.data += f'.TH "{module}" 9 "{struct_type} {struct_name}" "{self.man_date}" "API Manual" ROBUX' + "\n"
 
         self.data += ".SH NAME\n"
         self.data += f"{struct_type} {struct_name} \\- {purpose}\n"

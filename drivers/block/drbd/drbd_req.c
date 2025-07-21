@@ -11,10 +11,10 @@
 
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/slab.h>
-#include <linux/drbd.h>
+#include <robux/slab.h>
+#include <robux/drbd.h>
 #include "drbd_int.h"
 #include "drbd_req.h"
 

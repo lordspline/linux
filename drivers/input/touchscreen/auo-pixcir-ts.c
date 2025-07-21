@@ -10,19 +10,19 @@
  * Copyright (c) 2008 QUALCOMM USA, INC.
  */
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/property.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/jiffies.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
+#include <robux/property.h>
 
 /*
  * Coordinate calculation:

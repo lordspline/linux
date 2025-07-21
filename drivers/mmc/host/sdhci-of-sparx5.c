@@ -9,13 +9,13 @@
  * Author: Lars Povlsen <lars.povlsen@microchip.com>
  */
 
-#include <linux/sizes.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
+#include <robux/sizes.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/dma-mapping.h>
+#include <robux/of.h>
 
 #include "sdhci-pltfm.h"
 

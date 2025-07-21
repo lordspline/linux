@@ -33,15 +33,15 @@
 
 #define pr_fmt(fmt)	"ACPI CPPC: " fmt
 
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/ktime.h>
-#include <linux/rwsem.h>
-#include <linux/wait.h>
-#include <linux/topology.h>
-#include <linux/dmi.h>
-#include <linux/units.h>
-#include <linux/unaligned.h>
+#include <robux/delay.h>
+#include <robux/iopoll.h>
+#include <robux/ktime.h>
+#include <robux/rwsem.h>
+#include <robux/wait.h>
+#include <robux/topology.h>
+#include <robux/dmi.h>
+#include <robux/units.h>
+#include <robux/unaligned.h>
 
 #include <acpi/cppc_acpi.h>
 

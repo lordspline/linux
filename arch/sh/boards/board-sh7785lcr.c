@@ -5,24 +5,24 @@
  * Copyright (C) 2008  Yoshihiro Shimoda
  * Copyright (C) 2009  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/sm501.h>
-#include <linux/sm501-regs.h>
-#include <linux/fb.h>
-#include <linux/mtd/physmap.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/platform_data/i2c-pca-platform.h>
-#include <linux/i2c-algo-pca.h>
-#include <linux/usb/r8a66597.h>
-#include <linux/sh_intc.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/gpio/machine.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/sm501.h>
+#include <robux/sm501-regs.h>
+#include <robux/fb.h>
+#include <robux/mtd/physmap.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/platform_data/i2c-pca-platform.h>
+#include <robux/i2c-algo-pca.h>
+#include <robux/usb/r8a66597.h>
+#include <robux/sh_intc.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/errno.h>
+#include <robux/gpio/machine.h>
 #include <mach/sh7785lcr.h>
 #include <cpu/sh7785.h>
 #include <asm/heartbeat.h>

@@ -8,17 +8,17 @@
 
 #define pr_fmt(fmt) "arm-pv: " fmt
 
-#include <linux/arm-smccc.h>
-#include <linux/cpuhotplug.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/jump_label.h>
-#include <linux/printk.h>
-#include <linux/psci.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/static_call.h>
+#include <robux/arm-smccc.h>
+#include <robux/cpuhotplug.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/jump_label.h>
+#include <robux/printk.h>
+#include <robux/psci.h>
+#include <robux/reboot.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/static_call.h>
 
 #include <asm/paravirt.h>
 #include <asm/pvclock-abi.h>

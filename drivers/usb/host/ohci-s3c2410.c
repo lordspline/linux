@@ -20,14 +20,14 @@
  * This file is licenced under the GPL.
 */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/usb-ohci-s3c2410.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/usb-ohci-s3c2410.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
 
 #include "ohci.h"
 

@@ -8,17 +8,17 @@
 
 #define pr_fmt(fmt) "ACPI: AC: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/dmi.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/string_choices.h>
-#include <linux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/dmi.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/string_choices.h>
+#include <robux/acpi.h>
 #include <acpi/battery.h>
 
 #define ACPI_AC_CLASS			"ac_adapter"

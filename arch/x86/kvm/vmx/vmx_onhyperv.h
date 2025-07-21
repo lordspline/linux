@@ -6,7 +6,7 @@
 #include <hyperv/hvhdk.h>
 #include <asm/mshyperv.h>
 
-#include <linux/jump_label.h>
+#include <robux/jump_label.h>
 
 #include "capabilities.h"
 #include "hyperv_evmcs.h"

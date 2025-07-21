@@ -6,16 +6,16 @@
  * Copyright (C) 2015 Mentor Graphics Corporation.
  */
 
-#include <linux/cache.h>
-#include <linux/vdso_datastore.h>
-#include <linux/elf.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/of.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/cache.h>
+#include <robux/vdso_datastore.h>
+#include <robux/elf.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/of.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 #include <asm/arch_timer.h>
 #include <asm/barrier.h>
 #include <asm/cacheflush.h>

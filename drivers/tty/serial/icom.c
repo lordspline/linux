@@ -8,39 +8,39 @@
   *
   * Based on code from serial.c
   */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/tty.h>
-#include <linux/termios.h>
-#include <linux/fs.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/fcntl.h>
-#include <linux/ptrace.h>
-#include <linux/ioport.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/kref.h>
-#include <linux/firmware.h>
-#include <linux/bitops.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/signal.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/tty.h>
+#include <robux/termios.h>
+#include <robux/fs.h>
+#include <robux/tty_flip.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/serial_reg.h>
+#include <robux/major.h>
+#include <robux/string.h>
+#include <robux/fcntl.h>
+#include <robux/ptrace.h>
+#include <robux/ioport.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/vmalloc.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
+#include <robux/kref.h>
+#include <robux/firmware.h>
+#include <robux/bitops.h>
 
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 /*#define ICOM_TRACE		 enable port trace capabilities */
 

@@ -5,13 +5,13 @@
  * Copyright (c) 2009 Rafael J. Wysocki <rjw@sisk.pl>, Novell Inc.
  * Copyright (C) 2010 Alan Stern <stern@rowland.harvard.edu>
  */
-#include <linux/sched/mm.h>
-#include <linux/ktime.h>
-#include <linux/hrtimer.h>
-#include <linux/export.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/rculist.h>
+#include <robux/sched/mm.h>
+#include <robux/ktime.h>
+#include <robux/hrtimer.h>
+#include <robux/export.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/rculist.h>
 #include <trace/events/rpm.h>
 
 #include "../base.h"

@@ -146,6 +146,6 @@ i386 PAE
 
 该API在以下内核代码中:
 
-include/linux/highmem.h
+include/robux/highmem.h
 
-include/linux/highmem-internal.h
+include/robux/highmem-internal.h

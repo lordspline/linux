@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/pxafb.c
+ *  robux/drivers/video/pxafb.c
  *
  *  Copyright (C) 1999 Eric A. Thomas.
  *  Copyright (C) 2004 Jean-Frederic Clere.
@@ -18,7 +18,7 @@
  * Please direct your questions and comments on this driver to the following
  * email address:
  *
- *	linux-arm-kernel@lists.arm.linux.org.uk
+ *	robux-arm-kernel@lists.arm.robux.org.uk
  *
  * Add support for overlay1 and overlay2 based on pxafb_overlay.c:
  *
@@ -32,39 +32,39 @@
  *   All Rights Reserved
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/cpufreq.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/console.h>
-#include <linux/of_graph.h>
-#include <linux/regulator/consumer.h>
-#include <linux/soc/pxa/cpu.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/fb.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/cpufreq.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/completion.h>
+#include <robux/mutex.h>
+#include <robux/kthread.h>
+#include <robux/freezer.h>
+#include <robux/console.h>
+#include <robux/of_graph.h>
+#include <robux/regulator/consumer.h>
+#include <robux/soc/pxa/cpu.h>
 #include <video/of_display_timing.h>
 #include <video/videomode.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/div64.h>
-#include <linux/platform_data/video-pxafb.h>
+#include <robux/platform_data/video-pxafb.h>
 
 /*
  * Complain if VAR is out of range.

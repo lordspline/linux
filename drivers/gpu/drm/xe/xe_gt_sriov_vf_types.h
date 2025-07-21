@@ -6,7 +6,7 @@
 #ifndef _XE_GT_SRIOV_VF_TYPES_H_
 #define _XE_GT_SRIOV_VF_TYPES_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /**
  * struct xe_gt_sriov_vf_guc_version - GuC ABI version details.

@@ -10,11 +10,11 @@
 
 #define pr_fmt(fmt) "SPEAr3xx: " fmt
 
-#include <linux/amba/pl022.h>
-#include <linux/amba/pl080.h>
-#include <linux/clk.h>
-#include <linux/clk/spear.h>
-#include <linux/io.h>
+#include <robux/amba/pl022.h>
+#include <robux/amba/pl080.h>
+#include <robux/clk.h>
+#include <robux/clk/spear.h>
+#include <robux/io.h>
 #include <asm/mach/map.h>
 #include "pl080.h"
 #include "generic.h"

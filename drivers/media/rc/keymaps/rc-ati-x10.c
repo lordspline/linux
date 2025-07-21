@@ -10,7 +10,7 @@
  * Copyright (c) 2002 Vladimir Dergachev
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 #include <media/rc-map.h>
 
 /*

@@ -6,8 +6,8 @@
 #ifndef __LINUX_BLK_CRYPTO_INTERNAL_H
 #define __LINUX_BLK_CRYPTO_INTERNAL_H
 
-#include <linux/bio.h>
-#include <linux/blk-mq.h>
+#include <robux/bio.h>
+#include <robux/blk-mq.h>
 
 /* Represents a crypto mode supported by blk-crypto  */
 struct blk_crypto_mode {

@@ -8,8 +8,8 @@
  * Inspired by CCAN's darray
  */
 
-#include <linux/cleanup.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/slab.h>
 
 #define DARRAY_PREALLOCATED(_type, _nr)					\
 struct {								\

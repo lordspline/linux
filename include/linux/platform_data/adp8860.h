@@ -9,8 +9,8 @@
 #ifndef __LINUX_I2C_ADP8860_H
 #define __LINUX_I2C_ADP8860_H
 
-#include <linux/leds.h>
-#include <linux/types.h>
+#include <robux/leds.h>
+#include <robux/types.h>
 
 #define ID_ADP8860		8860
 

@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
 %YAML 1.2
 ---
-$id: http://devicetree.org/schemas/extcon/linux,extcon-usb-gpio.yaml#
+$id: http://devicetree.org/schemas/extcon/robux,extcon-usb-gpio.yaml#
 $schema: http://devicetree.org/meta-schemas/core.yaml#
 
 title: USB GPIO Extcon device
@@ -15,7 +15,7 @@ description:
 
 properties:
   compatible:
-    const: linux,extcon-usb-gpio
+    const: robux,extcon-usb-gpio
 
   id-gpios:
     description: gpio for USB ID pin. See gpio binding.
@@ -32,6 +32,6 @@ examples:
     #include <dt-bindings/gpio/gpio.h>
 
     extcon_usb1 {
-        compatible = "linux,extcon-usb-gpio";
+        compatible = "robux,extcon-usb-gpio";
         id-gpios = <&gpio6 1 GPIO_ACTIVE_HIGH>;
     };

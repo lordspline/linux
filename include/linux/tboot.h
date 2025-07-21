@@ -21,7 +21,7 @@ enum {
 };
 
 #ifdef CONFIG_INTEL_TXT
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 /* used to communicate between tboot and the launched kernel */
 
 #define TB_KEY_SIZE             64   /* 512 bits */

@@ -11,7 +11,7 @@
 #if !defined(_RUST_SAMPLE_TRACE_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _RUST_SAMPLE_TRACE_H
 
-#include <linux/tracepoint.h>
+#include <robux/tracepoint.h>
 
 TRACE_EVENT(rust_sample_loaded,
 	TP_PROTO(int magic_number),

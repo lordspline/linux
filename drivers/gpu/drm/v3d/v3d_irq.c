@@ -13,8 +13,8 @@
  * current job can make progress.
  */
 
-#include <linux/platform_device.h>
-#include <linux/sched/clock.h>
+#include <robux/platform_device.h>
+#include <robux/sched/clock.h>
 
 #include "v3d_drv.h"
 #include "v3d_regs.h"

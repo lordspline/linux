@@ -8,12 +8,12 @@
  * Copyright (C) 2010 Google, Inc.
  */
 
-#include <linux/err.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/property.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/property.h>
+#include <robux/err.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/property.h>
+#include <robux/platform_device.h>
+#include <robux/printk.h>
+#include <robux/property.h>
 
 #include "board.h"
 

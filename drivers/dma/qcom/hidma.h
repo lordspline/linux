@@ -2,15 +2,15 @@
 /*
  * Qualcomm Technologies HIDMA data structures
  *
- * Copyright (c) 2014-2016, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014-2016, The Robux Foundation. All rights reserved.
  */
 
 #ifndef QCOM_HIDMA_H
 #define QCOM_HIDMA_H
 
-#include <linux/kfifo.h>
-#include <linux/interrupt.h>
-#include <linux/dmaengine.h>
+#include <robux/kfifo.h>
+#include <robux/interrupt.h>
+#include <robux/dmaengine.h>
 
 #define HIDMA_TRE_SIZE			32 /* each TRE is 32 bytes  */
 #define HIDMA_TRE_CFG_IDX		0

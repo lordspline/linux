@@ -6,8 +6,8 @@
 #ifndef _HID_SENSOR_TRIGGER_H
 #define _HID_SENSOR_TRIGGER_H
 
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
 
 struct hid_sensor_common;
 struct iio_dev;

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2023 Intel Corporation. All rights rsvd. */
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 #include "idxd.h"
 
 int idxd_load_iaa_device_defaults(struct idxd_device *idxd)

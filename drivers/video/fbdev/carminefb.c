@@ -7,14 +7,14 @@
  * - FB1 is display 1 with unique memory area
  * - both display use 32 bit colors
  */
-#include <linux/aperture.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/aperture.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/fb.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 
 #include "carminefb.h"
 #include "carminefb_regs.h"

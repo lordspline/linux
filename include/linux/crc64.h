@@ -5,7 +5,7 @@
 #ifndef _LINUX_CRC64_H
 #define _LINUX_CRC64_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 u64 crc64_be_arch(u64 crc, const u8 *p, size_t len);
 u64 crc64_be_generic(u64 crc, const u8 *p, size_t len);

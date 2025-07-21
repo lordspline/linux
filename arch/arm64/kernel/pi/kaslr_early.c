@@ -5,12 +5,12 @@
 // NOTE: code in this file runs *very* early, and is not permitted to use
 // global variables or anything that relies on absolute addressing.
 
-#include <linux/libfdt.h>
-#include <linux/init.h>
-#include <linux/linkage.h>
-#include <linux/types.h>
-#include <linux/sizes.h>
-#include <linux/string.h>
+#include <robux/libfdt.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
+#include <robux/types.h>
+#include <robux/sizes.h>
+#include <robux/string.h>
 
 #include <asm/archrandom.h>
 #include <asm/memory.h>

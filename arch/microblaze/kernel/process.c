@@ -8,16 +8,16 @@
  * for more details.
  */
 
-#include <linux/cpu.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/pm.h>
-#include <linux/tick.h>
-#include <linux/bitops.h>
-#include <linux/ptrace.h>
+#include <robux/cpu.h>
+#include <robux/export.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task.h>
+#include <robux/sched/task_stack.h>
+#include <robux/pm.h>
+#include <robux/tick.h>
+#include <robux/bitops.h>
+#include <robux/ptrace.h>
 #include <asm/cacheflush.h>
 
 void show_regs(struct pt_regs *regs)
@@ -129,7 +129,7 @@ void start_thread(struct pt_regs *regs, unsigned long pc, unsigned long usp)
 	regs->msr &= ~MSR_VM;
 }
 
-#include <linux/elfcore.h>
+#include <robux/elfcore.h>
 /*
  * Set up a thread for executing a new program
  */

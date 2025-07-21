@@ -2,14 +2,14 @@
 #ifndef __I2C_VIAI2C_COMMON_H_
 #define __I2C_VIAI2C_COMMON_H_
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
 
 /* REG_CR Bit fields */
 #define VIAI2C_REG_CR		0x00

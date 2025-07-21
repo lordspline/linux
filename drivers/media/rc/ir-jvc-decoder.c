@@ -4,8 +4,8 @@
  * Copyright (C) 2010 by David Härdeman <david@hardeman.nu>
  */
 
-#include <linux/bitrev.h>
-#include <linux/module.h>
+#include <robux/bitrev.h>
+#include <robux/module.h>
 #include "rc-core-priv.h"
 
 #define JVC_NBITS		16		/* dev(8) + func(8) */

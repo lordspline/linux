@@ -3,9 +3,9 @@
  * Copyright (C) BitBox Ltd 2010
  */
 
-#include <linux/module.h>
-#include <linux/irq.h>
-#include <linux/platform_data/asoc-imx-ssi.h>
+#include <robux/module.h>
+#include <robux/irq.h>
+#include <robux/platform_data/asoc-imx-ssi.h>
 
 #include "irq-common.h"
 

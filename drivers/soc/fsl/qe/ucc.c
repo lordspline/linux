@@ -9,11 +9,11 @@
  * Authors: 	Shlomi Gridish <gridish@freescale.com>
  * 		Li Yang <leoli@freescale.com>
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/stddef.h>
-#include <linux/spinlock.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/stddef.h>
+#include <robux/spinlock.h>
+#include <robux/export.h>
 
 #include <asm/io.h>
 #include <soc/fsl/qe/immap_qe.h>

@@ -4,12 +4,12 @@
  * Copyright (C) 1999, 2007 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <asm/prom.h>
 #include <asm/oplib.h>

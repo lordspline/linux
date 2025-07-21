@@ -7,7 +7,7 @@
 #ifndef __IIO_DMAENGINE_H__
 #define __IIO_DMAENGINE_H__
 
-#include <linux/iio/buffer.h>
+#include <robux/iio/buffer.h>
 
 struct iio_dev;
 struct device;

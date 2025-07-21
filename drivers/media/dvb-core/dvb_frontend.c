@@ -15,26 +15,26 @@
 
 #define pr_fmt(fmt) "dvb_frontend: " fmt
 
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/wait.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/semaphore.h>
-#include <linux/module.h>
-#include <linux/nospec.h>
-#include <linux/list.h>
-#include <linux/freezer.h>
-#include <linux/jiffies.h>
-#include <linux/kthread.h>
-#include <linux/ktime.h>
-#include <linux/compat.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/sched/signal.h>
+#include <robux/wait.h>
+#include <robux/slab.h>
+#include <robux/poll.h>
+#include <robux/semaphore.h>
+#include <robux/module.h>
+#include <robux/nospec.h>
+#include <robux/list.h>
+#include <robux/freezer.h>
+#include <robux/jiffies.h>
+#include <robux/kthread.h>
+#include <robux/ktime.h>
+#include <robux/compat.h>
 #include <asm/processor.h>
 
 #include <media/dvb_frontend.h>
 #include <media/dvbdev.h>
-#include <linux/dvb/version.h>
+#include <robux/dvb/version.h>
 
 static int dvb_frontend_debug;
 static int dvb_shutdown_timeout;

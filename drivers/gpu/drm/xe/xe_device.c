@@ -5,10 +5,10 @@
 
 #include "xe_device.h"
 
-#include <linux/aperture.h>
-#include <linux/delay.h>
-#include <linux/fault-inject.h>
-#include <linux/units.h>
+#include <robux/aperture.h>
+#include <robux/delay.h>
+#include <robux/fault-inject.h>
+#include <robux/units.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_client.h>

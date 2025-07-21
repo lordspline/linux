@@ -11,26 +11,26 @@
  */
 
 #include "kcapi.h"
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/proc_fs.h>
-#include <linux/sched/signal.h>
-#include <linux/seq_file.h>
-#include <linux/skbuff.h>
-#include <linux/workqueue.h>
-#include <linux/capi.h>
-#include <linux/kernelcapi.h>
-#include <linux/init.h>
-#include <linux/moduleparam.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/isdn/capicmd.h>
-#include <linux/isdn/capiutil.h>
-#include <linux/mutex.h>
-#include <linux/rcupdate.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/proc_fs.h>
+#include <robux/sched/signal.h>
+#include <robux/seq_file.h>
+#include <robux/skbuff.h>
+#include <robux/workqueue.h>
+#include <robux/capi.h>
+#include <robux/kernelcapi.h>
+#include <robux/init.h>
+#include <robux/moduleparam.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/isdn/capicmd.h>
+#include <robux/isdn/capiutil.h>
+#include <robux/mutex.h>
+#include <robux/rcupdate.h>
 
 static int showcapimsgs;
 static struct workqueue_struct *kcapi_wq;

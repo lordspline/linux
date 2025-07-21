@@ -11,8 +11,8 @@
 #ifndef FILECHECK_H
 #define FILECHECK_H
 
-#include <linux/types.h>
-#include <linux/list.h>
+#include <robux/types.h>
+#include <robux/list.h>
 
 
 /* File check errno */

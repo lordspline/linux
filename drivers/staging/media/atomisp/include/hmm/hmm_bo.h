@@ -10,11 +10,11 @@
 #ifndef	__HMM_BO_H__
 #define	__HMM_BO_H__
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
 #include "mmu/isp_mmu.h"
 #include "hmm/hmm_common.h"
 #include "ia_css_types.h"

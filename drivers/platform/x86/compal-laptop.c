@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/*-*-linux-c-*-*/
+/*-*-robux-c-*-*/
 
 /*
   Copyright (C) 2008 Cezary Jackiewicz <cezary.jackiewicz (at) gmail.com>
@@ -17,7 +17,7 @@
  *   wake_up_XXX   Whether or not we listen to such wake up events (rw)
  *
  * In addition to these platform device attributes the driver
- * registers itself in the Linux backlight control, power_supply, rfkill
+ * registers itself in the Robux backlight control, power_supply, rfkill
  * and hwmon subsystem and is available to userspace under:
  *
  *   /sys/class/backlight/compal-laptop/
@@ -48,7 +48,7 @@
  * power, wake_on_XXX, a hwmon and power_supply interface.
  *
  * In case this gets merged into the kernel source: I want to dedicate this
- * to Kasper Meerts, the awesome guy who showed me Linux and C!
+ * to Kasper Meerts, the awesome guy who showed me Robux and C!
  */
 
 /* NOTE: currently the wake_on_XXX, hwmon and power_supply interfaces are
@@ -57,18 +57,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/backlight.h>
-#include <linux/platform_device.h>
-#include <linux/rfkill.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/power_supply.h>
-#include <linux/sysfs.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/acpi.h>
+#include <robux/dmi.h>
+#include <robux/backlight.h>
+#include <robux/platform_device.h>
+#include <robux/rfkill.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/power_supply.h>
+#include <robux/sysfs.h>
 #include <acpi/video.h>
 
 /* ======= */

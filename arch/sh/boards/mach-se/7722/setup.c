@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/sh/boards/se/7722/setup.c
+ * robux/arch/sh/boards/se/7722/setup.c
  *
  * Copyright (C) 2007 Nobuhiro Iwamatsu
  * Copyright (C) 2012 Paul Mundt
  *
  * Hitachi UL SolutionEngine 7722 Support.
  */
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/ata_platform.h>
-#include <linux/input.h>
-#include <linux/input/sh_keysc.h>
-#include <linux/irqdomain.h>
-#include <linux/smc91x.h>
-#include <linux/sh_intc.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/ata_platform.h>
+#include <robux/input.h>
+#include <robux/input/sh_keysc.h>
+#include <robux/irqdomain.h>
+#include <robux/smc91x.h>
+#include <robux/sh_intc.h>
 #include <mach-se/mach/se7722.h>
 #include <mach-se/mach/mrshpc.h>
 #include <asm/machvec.h>

@@ -8,17 +8,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/phy.h>
-#include <linux/pci.h>
-#include <linux/if_vlan.h>
-#include <linux/dma-mapping.h>
-#include <linux/crc32.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/unaligned.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/phy.h>
+#include <robux/pci.h>
+#include <robux/if_vlan.h>
+#include <robux/dma-mapping.h>
+#include <robux/crc32.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/unaligned.h>
 #include "smsc9420.h"
 
 #define DRV_NAME		"smsc9420"

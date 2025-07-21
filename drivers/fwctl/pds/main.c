@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) Advanced Micro Devices, Inc */
 
-#include <linux/module.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/pci.h>
-#include <linux/vmalloc.h>
-#include <linux/bitfield.h>
+#include <robux/module.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/pci.h>
+#include <robux/vmalloc.h>
+#include <robux/bitfield.h>
 
 #include <uapi/fwctl/fwctl.h>
 #include <uapi/fwctl/pds.h>
-#include <linux/fwctl.h>
+#include <robux/fwctl.h>
 
-#include <linux/pds/pds_common.h>
-#include <linux/pds/pds_core_if.h>
-#include <linux/pds/pds_adminq.h>
-#include <linux/pds/pds_auxbus.h>
+#include <robux/pds/pds_common.h>
+#include <robux/pds/pds_core_if.h>
+#include <robux/pds/pds_adminq.h>
+#include <robux/pds/pds_auxbus.h>
 
 struct pdsfc_uctx {
 	struct fwctl_uctx uctx;

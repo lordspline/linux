@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * This file contains the routines setting up the linux page tables.
+ * This file contains the routines setting up the robux page tables.
  *  -- paulus
  *
  *  Derived from arch/ppc/mm/init.c:
@@ -14,16 +14,16 @@
  *    Copyright (C) 1991, 1992, 1993, 1994  Linus Torvalds
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/highmem.h>
-#include <linux/memblock.h>
-#include <linux/slab.h>
-#include <linux/set_memory.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/highmem.h>
+#include <robux/memblock.h>
+#include <robux/slab.h>
+#include <robux/set_memory.h>
 
 #include <asm/pgalloc.h>
 #include <asm/fixmap.h>

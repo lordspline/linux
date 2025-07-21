@@ -7,17 +7,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/debugfs.h>
-#include <linux/kernel.h>
-#include <linux/hwmon.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/dmi.h>
-#include <linux/jiffies.h>
-#include <linux/err.h>
-#include <linux/acpi.h>
-#include <linux/string_choices.h>
+#include <robux/debugfs.h>
+#include <robux/kernel.h>
+#include <robux/hwmon.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/dmi.h>
+#include <robux/jiffies.h>
+#include <robux/err.h>
+#include <robux/acpi.h>
+#include <robux/string_choices.h>
 
 #define ATK_HID "ATK0110"
 

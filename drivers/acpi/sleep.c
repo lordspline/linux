@@ -10,16 +10,16 @@
 
 #define pr_fmt(fmt) "ACPI: PM: " fmt
 
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/dmi.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/suspend.h>
-#include <linux/reboot.h>
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/syscore_ops.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/dmi.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/suspend.h>
+#include <robux/reboot.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/syscore_ops.h>
 #include <asm/io.h>
 #include <trace/events/power.h>
 

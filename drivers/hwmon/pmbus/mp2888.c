@@ -5,11 +5,11 @@
  * Copyright (C) 2020 Nvidia Technologies Ltd.
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 #include "pmbus.h"
 
 /* Vendor specific registers. */

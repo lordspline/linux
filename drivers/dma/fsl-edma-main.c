@@ -11,16 +11,16 @@
  */
 
 #include <dt-bindings/dma/fsl-edma.h>
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
-#include <linux/property.h>
+#include <robux/bitfield.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/dma-mapping.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_domain.h>
+#include <robux/property.h>
 
 #include "fsl-edma-common.h"
 

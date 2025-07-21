@@ -6,10 +6,10 @@
 #ifndef __IVPU_HW_REG_IO_H__
 #define __IVPU_HW_REG_IO_H__
 
-#include <linux/bitfield.h>
-#include <linux/fault-inject.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
+#include <robux/bitfield.h>
+#include <robux/fault-inject.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
 
 #include "ivpu_drv.h"
 

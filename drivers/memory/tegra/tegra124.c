@@ -3,9 +3,9 @@
  * Copyright (C) 2014 NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/of.h>
-#include <linux/device.h>
-#include <linux/slab.h>
+#include <robux/of.h>
+#include <robux/device.h>
+#include <robux/slab.h>
 
 #include <dt-bindings/memory/tegra124-mc.h>
 

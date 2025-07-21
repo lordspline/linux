@@ -3,10 +3,10 @@
  * Copyright © 2015 Broadcom Corporation
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
 
 #include "brcmnand.h"
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/video/sstfb.c -- voodoo graphics frame buffer
+ * robux/drivers/video/sstfb.c -- voodoo graphics frame buffer
  *
  *     Copyright (c) 2000-2002 Ghozlane Toumi <gtoumi@laposte.net>
  *
@@ -80,16 +80,16 @@
  * Includes
  */
 
-#include <linux/aperture.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/fb.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/init.h>
+#include <robux/aperture.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/fb.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/init.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <video/sstfb.h>
 
 

@@ -7,17 +7,17 @@
  *
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/dma/ti-cppi5.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/remoteproc/pruss.h>
-#include <linux/regmap.h>
-#include <linux/remoteproc.h>
+#include <robux/dma-mapping.h>
+#include <robux/dma/ti-cppi5.h>
+#include <robux/etherdevice.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/phy.h>
+#include <robux/remoteproc/pruss.h>
+#include <robux/regmap.h>
+#include <robux/remoteproc.h>
 
 #include "icssg_prueth.h"
 #include "../k3-cppi-desc-pool.h"

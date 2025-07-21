@@ -10,8 +10,8 @@
 #include "util/thread.h"
 #include "util/thread_map.h"
 #include "util/lock-contention.h"
-#include <linux/zalloc.h>
-#include <linux/string.h>
+#include <robux/zalloc.h>
+#include <robux/string.h>
 #include <api/fs/fs.h>
 #include <bpf/bpf.h>
 #include <bpf/btf.h>

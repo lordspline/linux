@@ -7,28 +7,28 @@
  * Contact: Carlos Chinea <carlos.chinea@nokia.com>
  */
 
-#include <linux/compiler.h>
-#include <linux/err.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/delay.h>
-#include <linux/hsi/ssi_protocol.h>
-#include <linux/seq_file.h>
-#include <linux/scatterlist.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/debugfs.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/hsi/hsi.h>
-#include <linux/idr.h>
+#include <robux/compiler.h>
+#include <robux/err.h>
+#include <robux/ioport.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/delay.h>
+#include <robux/hsi/ssi_protocol.h>
+#include <robux/seq_file.h>
+#include <robux/scatterlist.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/debugfs.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pm_runtime.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/hsi/hsi.h>
+#include <robux/idr.h>
 
 #include "omap_ssi_regs.h"
 #include "omap_ssi.h"

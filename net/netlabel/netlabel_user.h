@@ -16,10 +16,10 @@
 #ifndef _NETLABEL_USER_H
 #define _NETLABEL_USER_H
 
-#include <linux/types.h>
-#include <linux/skbuff.h>
-#include <linux/capability.h>
-#include <linux/audit.h>
+#include <robux/types.h>
+#include <robux/skbuff.h>
+#include <robux/capability.h>
+#include <robux/audit.h>
 #include <net/netlink.h>
 #include <net/genetlink.h>
 #include <net/netlabel.h>

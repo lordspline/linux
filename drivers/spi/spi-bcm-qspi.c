@@ -5,23 +5,23 @@
  * Copyright 2016 Broadcom
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/mtd/spi-nor.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/mtd/spi-nor.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 #include "spi-bcm-qspi.h"
 
 #define DRIVER_NAME "bcm_qspi"

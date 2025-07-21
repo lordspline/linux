@@ -22,7 +22,7 @@
  */
 
 #include <drm/drm_managed.h>
-#include <linux/pm_runtime.h>
+#include <robux/pm_runtime.h>
 
 #include "gt/intel_gt.h"
 #include "gt/intel_engine_regs.h"

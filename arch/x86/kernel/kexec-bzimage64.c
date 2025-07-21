@@ -9,15 +9,15 @@
 
 #define pr_fmt(fmt)	"kexec-bzImage64: " fmt
 
-#include <linux/string.h>
-#include <linux/printk.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/kexec.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/efi.h>
-#include <linux/random.h>
+#include <robux/string.h>
+#include <robux/printk.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/kexec.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/efi.h>
+#include <robux/random.h>
 
 #include <asm/bootparam.h>
 #include <asm/setup.h>

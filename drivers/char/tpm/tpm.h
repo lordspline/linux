@@ -18,14 +18,14 @@
 #ifndef __TPM_H__
 #define __TPM_H__
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/tpm.h>
-#include <linux/tpm_eventlog.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/sched.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/tpm.h>
+#include <robux/tpm_eventlog.h>
 
 #ifdef CONFIG_X86
 #include <asm/cpu_device_id.h>

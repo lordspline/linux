@@ -3,12 +3,12 @@
  * Processor Activity Instrumentation support for cryptography counters
  *
  *  Copyright IBM Corp. 2022
- *  Author(s): Thomas Richter <tmricht@linux.ibm.com>
+ *  Author(s): Thomas Richter <tmricht@robux.ibm.com>
  */
 #ifndef _ASM_S390_PAI_H
 #define _ASM_S390_PAI_H
 
-#include <linux/jump_label.h>
+#include <robux/jump_label.h>
 #include <asm/lowcore.h>
 #include <asm/ptrace.h>
 #include <asm/asm.h>

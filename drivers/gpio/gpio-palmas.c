@@ -7,12 +7,12 @@
  * Author: Laxman Dewangan <ldewangan@nvidia.com>
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mfd/palmas.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/gpio/driver.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/mfd/palmas.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 struct palmas_gpio {
 	struct gpio_chip gpio_chip;

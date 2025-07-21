@@ -3,9 +3,9 @@
  * Driver for MPS MP5023 Hot-Swap Controller
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
 #include "pmbus.h"
 
 static struct pmbus_driver_info mp5023_info = {

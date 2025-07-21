@@ -5,14 +5,14 @@
 // Copyright(c) 2024 Realtek Semiconductor Corp.
 //
 //
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/dmi.h>
-#include <linux/firmware.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/pm_runtime.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/dmi.h>
+#include <robux/firmware.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

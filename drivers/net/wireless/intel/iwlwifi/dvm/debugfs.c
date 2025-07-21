@@ -5,11 +5,11 @@
  * Copyright (C) 2018, 2025 Intel Corporation
  *****************************************************************************/
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/ieee80211.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/debugfs.h>
+#include <robux/ieee80211.h>
 #include <net/mac80211.h>
 
 #include "iwl-debug.h"

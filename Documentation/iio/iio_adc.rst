@@ -182,7 +182,7 @@ In the ADC driver, ``differential = 1`` is set into ``struct iio_chan_spec`` for
 the channel. Even though, there are three general input types, ``differential``
 is only used to distinguish between differential and non-differential (either
 single-ended or pseudo-differential) input types. See
-``include/linux/iio/iio.h`` for more information.
+``include/robux/iio/iio.h`` for more information.
 
 1.2.2 Differential Unipolar Channels
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

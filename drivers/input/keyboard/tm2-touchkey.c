@@ -9,18 +9,18 @@
  * Author: Jaechul Lee <jcsing.lee@samsung.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/regulator/consumer.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm.h>
+#include <robux/regulator/consumer.h>
 
 #define TM2_TOUCHKEY_DEV_NAME		"tm2-touchkey"
 
@@ -217,7 +217,7 @@ static int tm2_touchkey_probe(struct i2c_client *client)
 	touchkey->vdd = touchkey->regulators[1].consumer;
 
 	touchkey->num_keycodes = of_property_read_variable_u32_array(np,
-					"linux,keycodes", touchkey->keycodes, 0,
+					"robux,keycodes", touchkey->keycodes, 0,
 					ARRAY_SIZE(touchkey->keycodes));
 	if (touchkey->num_keycodes <= 0) {
 		/* default keycodes */

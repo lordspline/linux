@@ -17,14 +17,14 @@
  * License along with this library; if not, write to the Free
  * Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/smp.h>
-#include <linux/cpu.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/kvm_para.h>
-#include <linux/range.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/smp.h>
+#include <robux/cpu.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
+#include <robux/kvm_para.h>
+#include <robux/range.h>
 
 #include <asm/processor.h>
 #include <asm/e820/api.h>

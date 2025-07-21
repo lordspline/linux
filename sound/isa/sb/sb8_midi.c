@@ -13,9 +13,9 @@
  *   Added full duplex UART mode for DSP version 2.0 and later.
  */
 
-#include <linux/io.h>
-#include <linux/string.h>
-#include <linux/time.h>
+#include <robux/io.h>
+#include <robux/string.h>
+#include <robux/time.h>
 #include <sound/core.h>
 #include <sound/sb.h>
 

@@ -9,7 +9,7 @@
 #include <drm/drm_gem.h>
 #include <drm/drm_gem_shmem_helper.h>
 #include <drm/gpu_scheduler.h>
-#include <linux/completion.h>
+#include <robux/completion.h>
 
 #include "amdxdna_gem.h"
 #include "amdxdna_mailbox.h"

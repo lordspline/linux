@@ -12,9 +12,9 @@
 #ifndef PMC_CORE_H
 #define PMC_CORE_H
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/platform_device.h>
 
 struct telem_endpoint;
 

@@ -10,17 +10,17 @@
 
 #define pr_fmt(fmt) "kprobes: " fmt
 
-#include <linux/extable.h>
-#include <linux/kasan.h>
-#include <linux/kernel.h>
-#include <linux/kprobes.h>
-#include <linux/sched/debug.h>
-#include <linux/set_memory.h>
-#include <linux/slab.h>
-#include <linux/stop_machine.h>
-#include <linux/stringify.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
+#include <robux/extable.h>
+#include <robux/kasan.h>
+#include <robux/kernel.h>
+#include <robux/kprobes.h>
+#include <robux/sched/debug.h>
+#include <robux/set_memory.h>
+#include <robux/slab.h>
+#include <robux/stop_machine.h>
+#include <robux/stringify.h>
+#include <robux/uaccess.h>
+#include <robux/vmalloc.h>
 
 #include <asm/cacheflush.h>
 #include <asm/daifflags.h>

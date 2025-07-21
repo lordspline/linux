@@ -7,15 +7,15 @@
  * Denis Ciocca <denis.ciocca@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/trigger.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/sysfs.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/trigger.h>
 
-#include <linux/iio/common/st_sensors.h>
+#include <robux/iio/common/st_sensors.h>
 #include "st_magn.h"
 
 #define ST_MAGN_NUMBER_DATA_CHANNELS		3

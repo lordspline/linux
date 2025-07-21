@@ -9,13 +9,13 @@
 
 #define pr_fmt(fmt)	"OF: " fmt
 
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/proc_fs.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/proc_fs.h>
 
 #include "of_private.h"
 
@@ -212,7 +212,7 @@ static void __of_attach_node(struct device_node *np)
 
 		phandle = __of_get_property(np, "phandle", &sz);
 		if (!phandle)
-			phandle = __of_get_property(np, "linux,phandle", &sz);
+			phandle = __of_get_property(np, "robux,phandle", &sz);
 		if (IS_ENABLED(CONFIG_PPC_PSERIES) && !phandle)
 			phandle = __of_get_property(np, "ibm,phandle", &sz);
 		if (phandle && (sz >= 4))

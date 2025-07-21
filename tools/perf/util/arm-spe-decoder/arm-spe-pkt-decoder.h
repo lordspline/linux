@@ -7,7 +7,7 @@
 #ifndef INCLUDE__ARM_SPE_PKT_DECODER_H__
 #define INCLUDE__ARM_SPE_PKT_DECODER_H__
 
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 #include <stddef.h>
 #include <stdint.h>
 

@@ -2,7 +2,7 @@
 /* Copyright(c) 2018-2019  Realtek Corporation
  */
 
-#include <linux/devcoredump.h>
+#include <robux/devcoredump.h>
 
 #include "main.h"
 #include "regd.h"

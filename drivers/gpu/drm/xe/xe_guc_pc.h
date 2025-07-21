@@ -6,7 +6,7 @@
 #ifndef _XE_GUC_PC_H_
 #define _XE_GUC_PC_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct xe_guc_pc;
 enum slpc_gucrc_mode;

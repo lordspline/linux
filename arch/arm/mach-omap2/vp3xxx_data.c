@@ -12,9 +12,9 @@
  * Paul Walmsley
  */
 
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/init.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/init.h>
 
 #include "common.h"
 

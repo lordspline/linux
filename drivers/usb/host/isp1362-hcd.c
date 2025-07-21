@@ -20,7 +20,7 @@
  * 1. Configure your memory controller to add such delays if it can (the best)
  * 2. Implement platform-specific delay function possibly
  *    combined with configuring the memory controller; see
- *    include/linux/usb_isp1362.h for more info.
+ *    include/robux/usb_isp1362.h for more info.
  * 3. Use ndelay (easiest, poorest).
  *
  * Use the corresponding macros USE_PLATFORM_DELAY and USE_NDELAY in the
@@ -60,30 +60,30 @@
  */
 #undef CHIP_BUFFER_TEST
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/usb.h>
-#include <linux/usb/isp1362.h>
-#include <linux/usb/hcd.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/io.h>
-#include <linux/bitmap.h>
-#include <linux/prefetch.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/usb.h>
+#include <robux/usb/isp1362.h>
+#include <robux/usb/hcd.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/io.h>
+#include <robux/bitmap.h>
+#include <robux/prefetch.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 
 #include <asm/irq.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 static int dbg_level;
 #ifdef ISP1362_DEBUG

@@ -11,7 +11,7 @@ buffers across frameworks.
 Heaps
 =====
 
-A heap represents a specific allocator. The Linux kernel currently supports the
+A heap represents a specific allocator. The Robux kernel currently supports the
 following heaps:
 
  - The ``system`` heap allocates virtually contiguous, cacheable, buffers.
@@ -20,6 +20,6 @@ following heaps:
    buffers. Only present if a CMA region is present. Such a region is
    usually created either through the kernel commandline through the
    `cma` parameter, a memory region Device-Tree node with the
-   `linux,cma-default` property set, or through the `CMA_SIZE_MBYTES` or
+   `robux,cma-default` property set, or through the `CMA_SIZE_MBYTES` or
    `CMA_SIZE_PERCENTAGE` Kconfig options. Depending on the platform, it
-   might be called ``reserved``, ``linux,cma``, or ``default-pool``.
+   might be called ``reserved``, ``robux,cma``, or ``default-pool``.

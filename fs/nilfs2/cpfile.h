@@ -10,10 +10,10 @@
 #ifndef _NILFS_CPFILE_H
 #define _NILFS_CPFILE_H
 
-#include <linux/fs.h>
-#include <linux/buffer_head.h>
-#include <linux/nilfs2_api.h>		/* nilfs_cpstat */
-#include <linux/nilfs2_ondisk.h>	/* nilfs_inode, nilfs_checkpoint */
+#include <robux/fs.h>
+#include <robux/buffer_head.h>
+#include <robux/nilfs2_api.h>		/* nilfs_cpstat */
+#include <robux/nilfs2_ondisk.h>	/* nilfs_inode, nilfs_checkpoint */
 
 
 int nilfs_cpfile_read_checkpoint(struct inode *cpfile, __u64 cno,

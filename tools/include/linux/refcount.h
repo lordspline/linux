@@ -38,8 +38,8 @@
  *
  */
 
-#include <linux/atomic.h>
-#include <linux/kernel.h>
+#include <robux/atomic.h>
+#include <robux/kernel.h>
 
 #ifdef NDEBUG
 #define REFCOUNT_WARN(cond, str) (void)(cond)

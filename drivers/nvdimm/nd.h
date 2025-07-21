@@ -4,14 +4,14 @@
  */
 #ifndef __ND_H__
 #define __ND_H__
-#include <linux/libnvdimm.h>
-#include <linux/badblocks.h>
-#include <linux/blkdev.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/ndctl.h>
-#include <linux/types.h>
-#include <linux/nd.h>
+#include <robux/libnvdimm.h>
+#include <robux/badblocks.h>
+#include <robux/blkdev.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/ndctl.h>
+#include <robux/types.h>
+#include <robux/nd.h>
 #include "label.h"
 
 enum {

@@ -4,11 +4,11 @@
 //
 // Common helpers for the audio DSP on i.MX8
 
-#include <linux/firmware/imx/dsp.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/pm_domain.h>
+#include <robux/firmware/imx/dsp.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/pm_domain.h>
 #include <sound/sof/xtensa.h>
 
 #include "../ops.h"

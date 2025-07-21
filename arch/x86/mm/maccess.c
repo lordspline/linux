@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/uaccess.h>
-#include <linux/kernel.h>
+#include <robux/uaccess.h>
+#include <robux/kernel.h>
 
 #include <asm/vsyscall.h>
 

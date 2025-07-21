@@ -53,7 +53,7 @@ patternProperties:
       function: true
       color: true
       label: true
-      linux,default-trigger: true
+      robux,default-trigger: true
 
 required:
   - compatible
@@ -82,7 +82,7 @@ examples:
                 reg = <0>;
                 function = LED_FUNCTION_BACKLIGHT;
                 color = <LED_COLOR_ID_WHITE>;
-                linux,default-trigger = "backlight";
+                robux,default-trigger = "backlight";
             };
         };
     };

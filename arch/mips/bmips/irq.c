@@ -5,8 +5,8 @@
  * Author: Kevin Cernekee <cernekee@gmail.com>
  */
 
-#include <linux/of.h>
-#include <linux/irqchip.h>
+#include <robux/of.h>
+#include <robux/irqchip.h>
 
 #include <asm/bmips.h>
 #include <asm/irq.h>

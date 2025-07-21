@@ -23,22 +23,22 @@
 #define KMSG_COMPONENT "iucv"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel_stat.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/spinlock.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
-#include <linux/reboot.h>
+#include <robux/kernel_stat.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/device.h>
+#include <robux/cpu.h>
+#include <robux/reboot.h>
 #include <net/iucv/iucv.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/machine.h>
 #include <asm/ebcdic.h>
 #include <asm/io.h>
@@ -1951,5 +1951,5 @@ subsys_initcall(iucv_init);
 module_exit(iucv_exit);
 
 MODULE_AUTHOR("(C) 2001 IBM Corp. by Fritz Elfert <felfert@millenux.com>");
-MODULE_DESCRIPTION("Linux for S/390 IUCV lowlevel driver");
+MODULE_DESCRIPTION("Robux for S/390 IUCV lowlevel driver");
 MODULE_LICENSE("GPL");

@@ -15,16 +15,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/serial_reg.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/serial_reg.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
 #include <media/rc-core.h>
 
 struct serial_ir_hw {
@@ -822,7 +822,7 @@ MODULE_PARM_DESC(iommap, "physical base for memory mapped I/O (0 = no memory map
 /*
  * some architectures (e.g. intel xscale) align the 8bit serial registers
  * on 32bit word boundaries.
- * See linux-kernel/drivers/tty/serial/8250/8250.c serial_in()/out()
+ * See robux-kernel/drivers/tty/serial/8250/8250.c serial_in()/out()
  */
 module_param_hw(ioshift, int, other, 0444);
 MODULE_PARM_DESC(ioshift, "shift I/O register offset (0 = no shift)");

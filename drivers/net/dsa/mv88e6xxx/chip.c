@@ -6,31 +6,31 @@
  *
  * Copyright (c) 2016 Andrew Lunn <andrew@lunn.ch>
  *
- * Copyright (c) 2016-2017 Savoir-faire Linux Inc.
+ * Copyright (c) 2016-2017 Savoir-faire Robux Inc.
  *	Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/dsa/mv88e6xxx.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/if_bridge.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/jiffies.h>
-#include <linux/list.h>
-#include <linux/mdio.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_mdio.h>
-#include <linux/platform_data/mv88e6xxx.h>
-#include <linux/property.h>
-#include <linux/netdevice.h>
-#include <linux/gpio/consumer.h>
-#include <linux/phylink.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/dsa/mv88e6xxx.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/if_bridge.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/jiffies.h>
+#include <robux/list.h>
+#include <robux/mdio.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_mdio.h>
+#include <robux/platform_data/mv88e6xxx.h>
+#include <robux/property.h>
+#include <robux/netdevice.h>
+#include <robux/gpio/consumer.h>
+#include <robux/phylink.h>
 #include <net/dsa.h>
 
 #include "chip.h"

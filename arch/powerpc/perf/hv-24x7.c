@@ -2,24 +2,24 @@
 /*
  * Hypervisor supplied "24x7" performance counter support
  *
- * Author: Cody P Schafer <cody@linux.vnet.ibm.com>
+ * Author: Cody P Schafer <cody@robux.vnet.ibm.com>
  * Copyright 2014 IBM Corporation.
  */
 
 #define pr_fmt(fmt) "hv-24x7: " fmt
 
-#include <linux/perf_event.h>
-#include <linux/rbtree.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/perf_event.h>
+#include <robux/rbtree.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 
 #include <asm/cputhreads.h>
 #include <asm/firmware.h>
 #include <asm/hvcall.h>
 #include <asm/io.h>
 #include <asm/papr-sysparm.h>
-#include <linux/byteorder/generic.h>
+#include <robux/byteorder/generic.h>
 
 #include <asm/rtas.h>
 #include "hv-24x7.h"

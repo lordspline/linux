@@ -38,7 +38,7 @@
 
 		button-maskrom {
 			label = "Mask Rom";
-			linux,code = <KEY_SETUP>;
+			robux,code = <KEY_SETUP>;
 			press-threshold-microvolt = <1750>;
 		};
 	};
@@ -64,12 +64,12 @@
 
 		power-led1 {
 			gpios = <&gpio0 RK_PB7 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "default-on";
+			robux,default-trigger = "default-on";
 		};
 
 		hdd-led2 {
 			gpios = <&gpio0 RK_PC0 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "disk-activity";
+			robux,default-trigger = "disk-activity";
 		};
 	};
 

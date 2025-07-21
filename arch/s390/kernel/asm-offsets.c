@@ -5,11 +5,11 @@
  * and format the required data.
  */
 
-#include <linux/kbuild.h>
-#include <linux/sched.h>
-#include <linux/purgatory.h>
-#include <linux/pgtable.h>
-#include <linux/ftrace_regs.h>
+#include <robux/kbuild.h>
+#include <robux/sched.h>
+#include <robux/purgatory.h>
+#include <robux/pgtable.h>
+#include <robux/ftrace_regs.h>
 #include <asm/kvm_host_types.h>
 #include <asm/stacktrace.h>
 #include <asm/ptrace.h>

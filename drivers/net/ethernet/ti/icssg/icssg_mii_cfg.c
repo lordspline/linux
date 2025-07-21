@@ -5,9 +5,9 @@
  *
  */
 
-#include <linux/etherdevice.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/etherdevice.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 #include "icssg_mii_rt.h"
 #include "icssg_prueth.h"

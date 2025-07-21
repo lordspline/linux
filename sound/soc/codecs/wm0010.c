@@ -9,19 +9,19 @@
  *          Scott Ling <sl@opensource.wolfsonmicro.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/init.h>
-#include <linux/spi/spi.h>
-#include <linux/firmware.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/interrupt.h>
+#include <robux/irqreturn.h>
+#include <robux/init.h>
+#include <robux/spi/spi.h>
+#include <robux/firmware.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regulator/consumer.h>
+#include <robux/mutex.h>
+#include <robux/workqueue.h>
 
 #include <sound/soc.h>
 #include <sound/wm0010.h>

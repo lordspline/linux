@@ -5,25 +5,25 @@
  * Copyright (c) 2024, Intel Corporation.
  */
 
-#include <linux/array_size.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gfp_types.h>
-#include <linux/intel_tpmi.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/kstrtox.h>
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/sprintf.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gfp_types.h>
+#include <robux/intel_tpmi.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/kstrtox.h>
+#include <robux/lockdep.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/seq_file.h>
+#include <robux/sprintf.h>
+#include <robux/types.h>
 
 #include "tpmi_power_domains.h"
 

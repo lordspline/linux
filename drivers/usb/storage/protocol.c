@@ -27,8 +27,8 @@
  * status of a command.
  */
 
-#include <linux/highmem.h>
-#include <linux/export.h>
+#include <robux/highmem.h>
+#include <robux/export.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 

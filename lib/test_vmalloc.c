@@ -4,19 +4,19 @@
  * Test module for stress and analyze performance of vmalloc allocator.
  * (C) 2018 Uladzislau Rezki (Sony) <urezki@gmail.com>
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/random.h>
-#include <linux/kthread.h>
-#include <linux/moduleparam.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/rcupdate.h>
-#include <linux/srcu.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
+#include <robux/random.h>
+#include <robux/kthread.h>
+#include <robux/moduleparam.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/mm.h>
+#include <robux/rcupdate.h>
+#include <robux/srcu.h>
+#include <robux/slab.h>
 
 #define __param(type, name, init, msg)		\
 	static type name = init;				\

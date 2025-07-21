@@ -1,6 +1,6 @@
 /* $Id: g364fb.c,v 1.3 1998/08/28 22:43:00 tsbogend Exp $
  *
- * linux/drivers/video/g364fb.c -- Mips Magnum frame buffer device
+ * robux/drivers/video/g364fb.c -- Mips Magnum frame buffer device
  *
  * (C) 1998 Thomas Bogendoerfer
  *
@@ -14,17 +14,17 @@
  *  more details.
  */
 
-#include <linux/module.h>
-#include <linux/console.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/fb.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/console.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/fb.h>
+#include <robux/init.h>
 #include <asm/io.h>
 #include <asm/jazz.h>
 

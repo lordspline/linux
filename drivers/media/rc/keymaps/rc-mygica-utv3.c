@@ -5,7 +5,7 @@
  */
 
 #include <media/rc-map.h>
-#include <linux/module.h>
+#include <robux/module.h>
 
 static struct rc_map_table mygica_utv3[] = {
 	{ 0x0d, KEY_MUTE },

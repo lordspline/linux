@@ -6,12 +6,12 @@
 #ifndef __TEGRA_VI_H__
 #define __TEGRA_VI_H__
 
-#include <linux/host1x.h>
-#include <linux/list.h>
+#include <robux/host1x.h>
+#include <robux/list.h>
 
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/wait.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-async.h>

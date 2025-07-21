@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 #define boot_fmt(fmt) "startup: " fmt
-#include <linux/string.h>
-#include <linux/elf.h>
+#include <robux/string.h>
+#include <robux/elf.h>
 #include <asm/page-states.h>
 #include <asm/boot_data.h>
 #include <asm/extmem.h>
@@ -452,7 +452,7 @@ static unsigned long setup_kernel_memory_layout(unsigned long kernel_size)
 }
 
 /*
- * This function clears the BSS section of the decompressed Linux kernel and NOT the decompressor's.
+ * This function clears the BSS section of the decompressed Robux kernel and NOT the decompressor's.
  */
 static void clear_bss_section(unsigned long kernel_start)
 {

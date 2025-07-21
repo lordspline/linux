@@ -3,28 +3,28 @@
 /*
  *    PARISC specific syscalls
  *
- *    Copyright (C) 1999-2003 Matthew Wilcox <willy at parisc-linux.org>
- *    Copyright (C) 2000-2003 Paul Bame <bame at parisc-linux.org>
- *    Copyright (C) 2001 Thomas Bogendoerfer <tsbogend at parisc-linux.org>
+ *    Copyright (C) 1999-2003 Matthew Wilcox <willy at parisc-robux.org>
+ *    Copyright (C) 2000-2003 Paul Bame <bame at parisc-robux.org>
+ *    Copyright (C) 2001 Thomas Bogendoerfer <tsbogend at parisc-robux.org>
  *    Copyright (C) 1999-2020 Helge Deller <deller@gmx.de>
  */
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/elf.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/linkage.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
-#include <linux/shm.h>
-#include <linux/syscalls.h>
-#include <linux/utsname.h>
-#include <linux/personality.h>
-#include <linux/random.h>
-#include <linux/compat.h>
-#include <linux/elf-randomize.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/linkage.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/mm.h>
+#include <robux/shm.h>
+#include <robux/syscalls.h>
+#include <robux/utsname.h>
+#include <robux/personality.h>
+#include <robux/random.h>
+#include <robux/compat.h>
+#include <robux/elf-randomize.h>
 
 /*
  * Construct an artificial page offset for the mapping based on the physical

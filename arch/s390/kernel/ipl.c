@@ -1,26 +1,26 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *    ipl/reipl/dump support for Linux on s390.
+ *    ipl/reipl/dump support for Robux on s390.
  *
  *    Copyright IBM Corp. 2005, 2012
  *    Author(s): Michael Holzheu <holzheu@de.ibm.com>
  *		 Volker Sameske <sameske@de.ibm.com>
  */
 
-#include <linux/types.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/kstrtox.h>
-#include <linux/panic_notifier.h>
-#include <linux/reboot.h>
-#include <linux/ctype.h>
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/crash_dump.h>
-#include <linux/debug_locks.h>
-#include <linux/vmalloc.h>
+#include <robux/types.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/kstrtox.h>
+#include <robux/panic_notifier.h>
+#include <robux/reboot.h>
+#include <robux/ctype.h>
+#include <robux/fs.h>
+#include <robux/gfp.h>
+#include <robux/crash_dump.h>
+#include <robux/debug_locks.h>
+#include <robux/vmalloc.h>
 #include <asm/asm-extable.h>
 #include <asm/machine.h>
 #include <asm/diag.h>
@@ -722,7 +722,7 @@ static struct shutdown_action __refdata ipl_action = {
 };
 
 /*
- * reipl shutdown action: Reboot Linux on shutdown.
+ * reipl shutdown action: Reboot Robux on shutdown.
  */
 
 /* VM IPL PARM attributes */
@@ -1558,7 +1558,7 @@ static struct shutdown_action __refdata reipl_action = {
 };
 
 /*
- * dump shutdown action: Dump Linux on shutdown.
+ * dump shutdown action: Dump Robux on shutdown.
  */
 
 /* FCP dump device attributes */
@@ -2000,7 +2000,7 @@ static struct shutdown_action vmcmd_action = {SHUTDOWN_ACTION_VMCMD_STR,
 					      vmcmd_run, vmcmd_init};
 
 /*
- * stop shutdown action: Stop Linux on shutdown.
+ * stop shutdown action: Stop Robux on shutdown.
  */
 
 static void stop_run(struct shutdown_trigger *trigger)

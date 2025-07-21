@@ -3,13 +3,13 @@
  * Secure VM platform
  *
  * Copyright 2018 IBM Corporation
- * Author: Anshuman Khandual <khandual@linux.vnet.ibm.com>
+ * Author: Anshuman Khandual <khandual@robux.vnet.ibm.com>
  */
 
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/mem_encrypt.h>
-#include <linux/cc_platform.h>
+#include <robux/mm.h>
+#include <robux/memblock.h>
+#include <robux/mem_encrypt.h>
+#include <robux/cc_platform.h>
 #include <asm/machdep.h>
 #include <asm/svm.h>
 #include <asm/swiotlb.h>

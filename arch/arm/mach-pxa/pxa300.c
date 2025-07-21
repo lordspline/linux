@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-pxa/pxa300.c
+ * robux/arch/arm/mach-pxa/pxa300.c
  *
  * Code specific to PXA300/PXA310
  *
@@ -10,11 +10,11 @@
  *             initial version
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/soc/pxa/cpu.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/soc/pxa/cpu.h>
 
 #include "pxa300.h"
 

@@ -6,9 +6,9 @@
 #ifndef __BPF_DISASM_H__
 #define __BPF_DISASM_H__
 
-#include <linux/bpf.h>
-#include <linux/kernel.h>
-#include <linux/stringify.h>
+#include <robux/bpf.h>
+#include <robux/kernel.h>
+#include <robux/stringify.h>
 #ifndef __KERNEL__
 #include <stdio.h>
 #include <string.h>

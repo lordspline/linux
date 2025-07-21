@@ -18,16 +18,16 @@
  *   rather something in between.
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/math64.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pwm.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/math64.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pwm.h>
 
-#include <linux/spi/spi.h>
+#include <robux/spi/spi.h>
 
 #define MC33XS2410_GLB_CTRL			0x00
 #define MC33XS2410_GLB_CTRL_MODE		GENMASK(7, 6)

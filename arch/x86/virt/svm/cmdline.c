@@ -7,10 +7,10 @@
  * Author: Michael Roth <michael.roth@amd.com>
  */
 
-#include <linux/string.h>
-#include <linux/printk.h>
-#include <linux/cache.h>
-#include <linux/cpufeature.h>
+#include <robux/string.h>
+#include <robux/printk.h>
+#include <robux/cache.h>
+#include <robux/cpufeature.h>
 
 #include <asm/sev-common.h>
 

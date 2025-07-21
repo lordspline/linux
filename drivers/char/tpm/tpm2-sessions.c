@@ -64,9 +64,9 @@
  */
 
 #include "tpm.h"
-#include <linux/random.h>
-#include <linux/scatterlist.h>
-#include <linux/unaligned.h>
+#include <robux/random.h>
+#include <robux/scatterlist.h>
+#include <robux/unaligned.h>
 #include <crypto/kpp.h>
 #include <crypto/ecdh.h>
 #include <crypto/hash.h>

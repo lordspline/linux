@@ -8,24 +8,24 @@
 #ifndef _NETXEN_NIC_H_
 #define _NETXEN_NIC_H_
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ip.h>
-#include <linux/in.h>
-#include <linux/tcp.h>
-#include <linux/skbuff.h>
-#include <linux/firmware.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/ioport.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ip.h>
+#include <robux/in.h>
+#include <robux/tcp.h>
+#include <robux/skbuff.h>
+#include <robux/firmware.h>
 
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/timer.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/timer.h>
 
-#include <linux/vmalloc.h>
+#include <robux/vmalloc.h>
 
 #include <asm/io.h>
 #include <asm/byteorder.h>

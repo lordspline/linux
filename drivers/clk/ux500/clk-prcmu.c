@@ -6,11 +6,11 @@
  * Author: Ulf Hansson <ulf.hansson@linaro.org>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/mfd/dbx500-prcmu.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
+#include <robux/clk-provider.h>
+#include <robux/mfd/dbx500-prcmu.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/err.h>
 #include "clk.h"
 
 #define to_clk_prcmu(_hw) container_of(_hw, struct clk_prcmu, hw)

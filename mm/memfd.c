@@ -7,19 +7,19 @@
  * This file is released under the GPL.
  */
 
-#include <linux/fs.h>
-#include <linux/vfs.h>
-#include <linux/pagemap.h>
-#include <linux/file.h>
-#include <linux/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/khugepaged.h>
-#include <linux/syscalls.h>
-#include <linux/hugetlb.h>
-#include <linux/shmem_fs.h>
-#include <linux/memfd.h>
-#include <linux/pid_namespace.h>
-#include <uapi/linux/memfd.h>
+#include <robux/fs.h>
+#include <robux/vfs.h>
+#include <robux/pagemap.h>
+#include <robux/file.h>
+#include <robux/mm.h>
+#include <robux/sched/signal.h>
+#include <robux/khugepaged.h>
+#include <robux/syscalls.h>
+#include <robux/hugetlb.h>
+#include <robux/shmem_fs.h>
+#include <robux/memfd.h>
+#include <robux/pid_namespace.h>
+#include <uapi/robux/memfd.h>
 #include "swap.h"
 
 /*

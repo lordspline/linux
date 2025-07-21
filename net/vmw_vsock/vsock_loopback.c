@@ -7,10 +7,10 @@
  *          Stefano Garzarella <sgarzare@redhat.com>
  *
  */
-#include <linux/spinlock.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/virtio_vsock.h>
+#include <robux/spinlock.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/virtio_vsock.h>
 
 struct vsock_loopback {
 	struct workqueue_struct *workqueue;

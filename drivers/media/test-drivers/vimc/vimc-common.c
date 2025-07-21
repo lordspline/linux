@@ -5,8 +5,8 @@
  * Copyright (C) 2015-2017 Helen Koike <helen.fornazier@gmail.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/module.h>
 
 #include <media/v4l2-ctrls.h>
 

@@ -6,8 +6,8 @@
 #ifndef __INTEL_DP_TUNNEL_H__
 #define __INTEL_DP_TUNNEL_H__
 
-#include <linux/errno.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/types.h>
 
 struct drm_connector_state;
 struct drm_modeset_acquire_ctx;

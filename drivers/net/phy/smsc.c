@@ -12,17 +12,17 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/netdevice.h>
-#include <linux/crc16.h>
-#include <linux/etherdevice.h>
-#include <linux/smscphy.h>
+#include <robux/clk.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/of.h>
+#include <robux/phy.h>
+#include <robux/netdevice.h>
+#include <robux/crc16.h>
+#include <robux/etherdevice.h>
+#include <robux/smscphy.h>
 
 /* Vendor-specific PHY Definitions */
 /* EDPD NLP / crossover time configuration */

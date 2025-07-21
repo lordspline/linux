@@ -6,7 +6,7 @@
 #ifndef __IRIS_HFI_COMMON_H__
 #define __IRIS_HFI_COMMON_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <media/v4l2-device.h>
 
 #include "iris_buffer.h"

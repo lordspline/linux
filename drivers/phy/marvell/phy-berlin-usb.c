@@ -6,13 +6,13 @@
  * Jisheng Zhang <jszhang@marvell.com>
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reset.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/reset.h>
 
 #define USB_PHY_PLL		0x04
 #define USB_PHY_PLL_CONTROL	0x08

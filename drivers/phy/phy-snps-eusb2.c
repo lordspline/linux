@@ -3,15 +3,15 @@
  * Copyright (c) 2023, Linaro Limited
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/mod_devicetable.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/iopoll.h>
+#include <robux/mod_devicetable.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
 
 #define EXYNOS_USB_PHY_HS_PHY_CTRL_RST	(0x0)
 #define USB_PHY_RST_MASK		GENMASK(1, 0)

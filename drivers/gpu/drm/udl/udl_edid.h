@@ -3,7 +3,7 @@
 #ifndef UDL_EDID_H
 #define UDL_EDID_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct drm_connector;
 struct drm_edid;

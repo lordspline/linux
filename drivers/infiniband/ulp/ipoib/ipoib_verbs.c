@@ -31,7 +31,7 @@
  * SOFTWARE.
  */
 
-#include <linux/slab.h>
+#include <robux/slab.h>
 
 #include "ipoib.h"
 

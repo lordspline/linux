@@ -32,14 +32,14 @@ separate MTD devices.
 
 // Includes
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
 #include <asm/io.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/partitions.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/partitions.h>
 
 // Defines
 

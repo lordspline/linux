@@ -3,19 +3,19 @@
  * Copyright 2018-2020 Broadcom.
  */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/firmware.h>
-#include <linux/fs.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/panic_notifier.h>
-#include <linux/kref.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <uapi/linux/misc/bcm_vk.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/firmware.h>
+#include <robux/fs.h>
+#include <robux/idr.h>
+#include <robux/interrupt.h>
+#include <robux/panic_notifier.h>
+#include <robux/kref.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/pci_regs.h>
+#include <uapi/robux/misc/bcm_vk.h>
 
 #include "bcm_vk.h"
 

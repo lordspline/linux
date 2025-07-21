@@ -7,16 +7,16 @@
  *		Haojian Zhuang <haojian.zhuang@marvell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
-#include <linux/power_supply.h>
-#include <linux/string_choices.h>
-#include <linux/mfd/88pm860x.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/string.h>
+#include <robux/power_supply.h>
+#include <robux/string_choices.h>
+#include <robux/mfd/88pm860x.h>
+#include <robux/delay.h>
 
 /* bit definitions of Status Query Interface 2 */
 #define STATUS2_CHG			(1 << 2)

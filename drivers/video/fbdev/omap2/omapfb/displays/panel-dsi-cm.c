@@ -8,19 +8,19 @@
 
 /* #define DEBUG */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/fb.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/backlight.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/fb.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 #include <video/omapfb_dss.h>
 #include <video/mipi_display.h>

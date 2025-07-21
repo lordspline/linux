@@ -6,16 +6,16 @@
  * Author: Matt Porter <mporter@linaro.org>
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/mfd/bcm590xx.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/mfd/bcm590xx.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 /* Under primary I2C address: */
 #define BCM590XX_REG_PMUID		0x1e

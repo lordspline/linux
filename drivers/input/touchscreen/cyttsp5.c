@@ -10,18 +10,18 @@
  *                Alistair Francis <alistair@alistair23.me>
  */
 
-#include <linux/crc-itu-t.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/unaligned.h>
+#include <robux/crc-itu-t.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/unaligned.h>
 
 #define CYTTSP5_NAME				"cyttsp5"
 #define CY_I2C_DATA_SIZE			(2 * 256)
@@ -418,7 +418,7 @@ static int cyttsp5_parse_dt_key_code(struct device *dev)
 	/* Initialize the button to RESERVED */
 	memset32(si->key_code, KEY_RESERVED,  si->num_btns);
 
-	return device_property_read_u32_array(dev, "linux,keycodes",
+	return device_property_read_u32_array(dev, "robux,keycodes",
 					      si->key_code, si->num_btns);
 }
 

@@ -6,21 +6,21 @@
  * Copyright (c) 2007, MontaVista Software, Inc. <source@mvista.com>
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/spinlock.h>
-#include <linux/pm_runtime.h>
+#include <robux/gpio/driver.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/spinlock.h>
+#include <robux/pm_runtime.h>
 
 #define MAX_REGS_BANKS 5
 #define MAX_INT_PER_BANK 32

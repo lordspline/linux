@@ -6,11 +6,11 @@
  * Copyright (C) 2023 Ivor Wanders <ivor@iwanders.net>
  */
 
-#include <linux/hwmon.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/surface_aggregator/device.h>
-#include <linux/types.h>
+#include <robux/hwmon.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/surface_aggregator/device.h>
+#include <robux/types.h>
 
 // SSAM
 SSAM_DEFINE_SYNC_REQUEST_CL_R(__ssam_fan_rpm_get, __le16, {

@@ -11,16 +11,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/sched.h>
-#include <linux/time.h>
-#include <linux/crc32.h>
-#include <linux/jffs2.h>
-#include <linux/xattr.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/mtd/mtd.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/sched.h>
+#include <robux/time.h>
+#include <robux/crc32.h>
+#include <robux/jffs2.h>
+#include <robux/xattr.h>
+#include <robux/posix_acl_xattr.h>
+#include <robux/mtd/mtd.h>
 #include "nodelist.h"
 
 static size_t jffs2_acl_size(int count)

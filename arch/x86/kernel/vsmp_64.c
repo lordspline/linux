@@ -9,11 +9,11 @@
  *			     Ravikiran Thirumalai <kiran@scalemp.com>
  */
 
-#include <linux/init.h>
-#include <linux/pci_ids.h>
-#include <linux/pci_regs.h>
-#include <linux/smp.h>
-#include <linux/irq.h>
+#include <robux/init.h>
+#include <robux/pci_ids.h>
+#include <robux/pci_regs.h>
+#include <robux/smp.h>
+#include <robux/irq.h>
 
 #include <asm/apic.h>
 #include <asm/pci-direct.h>

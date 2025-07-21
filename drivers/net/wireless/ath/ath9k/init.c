@@ -16,14 +16,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/relay.h>
-#include <linux/dmi.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/relay.h>
+#include <robux/dmi.h>
 #include <net/ieee80211_radiotap.h>
 
 #include "ath9k.h"

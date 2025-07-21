@@ -8,9 +8,9 @@
 #include <uapi/drm/habanalabs_accel.h>
 #include "habanalabs.h"
 
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 
 #define CB_VA_POOL_SIZE		(4UL * SZ_1G)
 

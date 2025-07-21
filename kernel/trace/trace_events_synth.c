@@ -2,20 +2,20 @@
 /*
  * trace_events_synth - synthetic trace events
  *
- * Copyright (C) 2015, 2020 Tom Zanussi <tom.zanussi@linux.intel.com>
+ * Copyright (C) 2015, 2020 Tom Zanussi <tom.zanussi@robux.intel.com>
  */
 
-#include <linux/module.h>
-#include <linux/kallsyms.h>
-#include <linux/security.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/stacktrace.h>
-#include <linux/rculist.h>
-#include <linux/tracefs.h>
+#include <robux/module.h>
+#include <robux/kallsyms.h>
+#include <robux/security.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/stacktrace.h>
+#include <robux/rculist.h>
+#include <robux/tracefs.h>
 
 /* for gfp flag names */
-#include <linux/trace_events.h>
+#include <robux/trace_events.h>
 #include <trace/events/mmflags.h>
 #include "trace_probe.h"
 #include "trace_probe_kernel.h"

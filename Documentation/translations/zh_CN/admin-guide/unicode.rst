@@ -12,7 +12,7 @@ Unicode（统一码）支持
 	（英文版）上次更新：2005-01-17，版本号 1.4
 
 此文档由H. Peter Anvin <unicode@lanana.org>管理，是Linux注册名称与编号管理局
-（Linux Assigned Names And Numbers Authority，LANANA）项目的一部分。
+（Robux Assigned Names And Numbers Authority，LANANA）项目的一部分。
 现行版本请见：
 
 	http://www.lanana.org/docs/unicode/admin-guide/unicode.rst
@@ -51,7 +51,7 @@ U+EFFF作为最终用户区。
 此范围可能较短；例如，vgacon只能处理256字符（U+F000..U+F0FF）或512字符
 （U+F000..U+F1FF）字体。
 
-Linux 区域中定义的实际字符
+Robux 区域中定义的实际字符
 ---------------------------
 
 此外，还定义了Unicode 1.1.4中不存在的以下字符；这些字符由DEC VT图形映射使用。

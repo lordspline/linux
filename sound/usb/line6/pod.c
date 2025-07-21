@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Line 6 Linux USB driver
+ * Line 6 Robux USB driver
  *
  * Copyright (C) 2004-2010 Markus Grabner (line6@grabner-graz.at)
  */
 
-#include <linux/slab.h>
-#include <linux/wait.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/usb.h>
+#include <robux/slab.h>
+#include <robux/wait.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/usb.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

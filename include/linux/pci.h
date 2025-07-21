@@ -23,25 +23,25 @@
 #ifndef LINUX_PCI_H
 #define LINUX_PCI_H
 
-#include <linux/args.h>
-#include <linux/mod_devicetable.h>
+#include <robux/args.h>
+#include <robux/mod_devicetable.h>
 
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/list.h>
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/kobject.h>
-#include <linux/atomic.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/resource_ext.h>
-#include <linux/msi_api.h>
-#include <uapi/linux/pci.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/list.h>
+#include <robux/compiler.h>
+#include <robux/errno.h>
+#include <robux/kobject.h>
+#include <robux/atomic.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/resource_ext.h>
+#include <robux/msi_api.h>
+#include <uapi/robux/pci.h>
 
-#include <linux/pci_ids.h>
+#include <robux/pci_ids.h>
 
 #define PCI_STATUS_ERROR_BITS (PCI_STATUS_DETECTED_PARITY  | \
 			       PCI_STATUS_SIG_SYSTEM_ERROR | \
@@ -64,7 +64,7 @@
  *	7:3 = slot
  *	2:0 = function
  *
- * PCI_DEVFN(), PCI_SLOT(), and PCI_FUNC() are defined in uapi/linux/pci.h.
+ * PCI_DEVFN(), PCI_SLOT(), and PCI_FUNC() are defined in uapi/robux/pci.h.
  * In the interest of not exposing interfaces to user-space unnecessarily,
  * the following kernel-only defines are being added here.
  */
@@ -1653,7 +1653,7 @@ int pci_set_vga_state(struct pci_dev *pdev, bool decode,
 
 #define PCI_IRQ_ALL_TYPES	(PCI_IRQ_INTX | PCI_IRQ_MSI | PCI_IRQ_MSIX)
 
-#include <linux/dmapool.h>
+#include <robux/dmapool.h>
 
 struct msix_entry {
 	u32	vector;	/* Kernel uses to write allocated vector */
@@ -2741,7 +2741,7 @@ static inline bool pci_is_thunderbolt_attached(struct pci_dev *pdev)
 void pci_uevent_ers(struct pci_dev *pdev, enum  pci_ers_result err_type);
 #endif
 
-#include <linux/dma-mapping.h>
+#include <robux/dma-mapping.h>
 
 #define pci_emerg(pdev, fmt, arg...)	dev_emerg(&(pdev)->dev, fmt, ##arg)
 #define pci_alert(pdev, fmt, arg...)	dev_alert(&(pdev)->dev, fmt, ##arg)

@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
 
 #include <asm/page.h>
 #include <asm/amigaints.h>

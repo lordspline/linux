@@ -7,14 +7,14 @@
 #ifndef SYSTEM_H
 #define SYSTEM_H
 
-#include <linux/types.h>
-#include <linux/stddef.h>
+#include <robux/types.h>
+#include <robux/stddef.h>
 
 typedef __kernel_size_t size_t;
 typedef __kernel_ssize_t ssize_t;
 
-#include <linux/errno.h>
-#include <linux/compiler.h>
+#include <robux/errno.h>
+#include <robux/compiler.h>
 
 #include <asm/hwcap.h>
 #include <asm/ptrace.h>

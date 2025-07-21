@@ -5,15 +5,15 @@
  *  Copyright (c) 2019 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/leds.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/usb.h>
-#include <linux/wait.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/leds.h>
+#include <robux/led-class-multicolor.h>
+#include <robux/module.h>
+#include <robux/random.h>
+#include <robux/sched.h>
+#include <robux/usb.h>
+#include <robux/wait.h>
 #include <dt-bindings/leds/common.h>
 
 #include "hid-ids.h"

@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2015-2017, The Linux Foundation.
+// Copyright (c) 2015-2017, The Robux Foundation.
 // Copyright (c) 2019, Linaro Limited
 
-#include <linux/bitops.h>
-#include <linux/gpio.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/soundwire/sdw_type.h>
+#include <robux/bitops.h>
+#include <robux/gpio.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/pm_runtime.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/soundwire/sdw_registers.h>
+#include <robux/soundwire/sdw_type.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>
 

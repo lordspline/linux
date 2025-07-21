@@ -5,15 +5,15 @@
  * Copyright (c) 2015 Intel Corporation
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kmod.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kmod.h>
+#include <robux/list.h>
+#include <robux/slab.h>
 
-#include <linux/iio/sw_trigger.h>
-#include <linux/iio/configfs.h>
-#include <linux/configfs.h>
+#include <robux/iio/sw_trigger.h>
+#include <robux/iio/configfs.h>
+#include <robux/configfs.h>
 
 static struct config_group *iio_triggers_group;
 static const struct config_item_type iio_trigger_type_group_type;

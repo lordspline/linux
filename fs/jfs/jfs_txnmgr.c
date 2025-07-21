@@ -29,14 +29,14 @@
  * hold on to mp+lock thru update of maps
  */
 
-#include <linux/fs.h>
-#include <linux/vmalloc.h>
-#include <linux/completion.h>
-#include <linux/freezer.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kthread.h>
-#include <linux/seq_file.h>
+#include <robux/fs.h>
+#include <robux/vmalloc.h>
+#include <robux/completion.h>
+#include <robux/freezer.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kthread.h>
+#include <robux/seq_file.h>
 #include "jfs_incore.h"
 #include "jfs_inode.h"
 #include "jfs_filsys.h"

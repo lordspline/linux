@@ -7,8 +7,8 @@
 #ifndef __POWERCAP_H__
 #define __POWERCAP_H__
 
-#include <linux/device.h>
-#include <linux/idr.h>
+#include <robux/device.h>
+#include <robux/idr.h>
 
 /*
  * A power cap class device can contain multiple powercap control_types.

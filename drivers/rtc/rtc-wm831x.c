@@ -8,19 +8,19 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/bcd.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/completion.h>
-#include <linux/mfd/wm831x/core.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/random.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/time.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
+#include <robux/bcd.h>
+#include <robux/interrupt.h>
+#include <robux/ioctl.h>
+#include <robux/completion.h>
+#include <robux/mfd/wm831x/core.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/random.h>
 
 /*
  * R16416 (0x4020) - RTC Write Counter

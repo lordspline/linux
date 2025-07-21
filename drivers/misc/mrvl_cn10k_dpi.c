@@ -5,14 +5,14 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/compat.h>
-#include <linux/delay.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
+#include <robux/bitfield.h>
+#include <robux/compat.h>
+#include <robux/delay.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
 
 #include <uapi/misc/mrvl_cn10k_dpi.h>
 

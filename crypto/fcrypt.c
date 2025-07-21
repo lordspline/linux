@@ -44,9 +44,9 @@
 
 #include <asm/byteorder.h>
 #include <crypto/algapi.h>
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/module.h>
+#include <robux/bitops.h>
+#include <robux/init.h>
+#include <robux/module.h>
 
 #define ROUNDS 16
 

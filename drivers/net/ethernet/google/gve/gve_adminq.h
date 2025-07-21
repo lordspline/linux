@@ -7,7 +7,7 @@
 #ifndef _GVE_ADMINQ_H
 #define _GVE_ADMINQ_H
 
-#include <linux/build_bug.h>
+#include <robux/build_bug.h>
 
 /* Admin queue opcodes */
 enum gve_adminq_opcodes {
@@ -256,7 +256,7 @@ struct gve_adminq_extended_command {
 static_assert(sizeof(struct gve_adminq_extended_command) == 16);
 
 struct gve_driver_info {
-	u8 os_type;	/* 0x01 = Linux */
+	u8 os_type;	/* 0x01 = Robux */
 	u8 driver_major;
 	u8 driver_minor;
 	u8 driver_sub;

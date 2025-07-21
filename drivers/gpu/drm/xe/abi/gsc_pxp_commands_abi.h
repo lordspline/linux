@@ -6,8 +6,8 @@
 #ifndef _ABI_GSC_PXP_COMMANDS_ABI_H
 #define _ABI_GSC_PXP_COMMANDS_ABI_H
 
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <robux/sizes.h>
+#include <robux/types.h>
 
 /* Heci client ID for PXP commands */
 #define HECI_MEADDRESS_PXP 17

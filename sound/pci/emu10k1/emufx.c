@@ -8,15 +8,15 @@
  *  Routines for effect processor FX8010
  */
 
-#include <linux/pci.h>
-#include <linux/capability.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/moduleparam.h>
-#include <linux/nospec.h>
+#include <robux/pci.h>
+#include <robux/capability.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
+#include <robux/moduleparam.h>
+#include <robux/nospec.h>
 
 #include <sound/core.h>
 #include <sound/tlv.h>

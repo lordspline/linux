@@ -6,18 +6,18 @@
  * Description: Altera PCIe host controller driver
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_pci.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_pci.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "../pci.h"
 

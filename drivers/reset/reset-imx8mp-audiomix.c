@@ -5,13 +5,13 @@
 
 #include <dt-bindings/reset/imx8mp-reset-audiomix.h>
 
-#include <linux/auxiliary_bus.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/reset-controller.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/reset-controller.h>
 
 #define IMX8MP_AUDIOMIX_EARC_RESET_OFFSET	0x200
 #define IMX8MP_AUDIOMIX_EARC_RESET_MASK		BIT(1)

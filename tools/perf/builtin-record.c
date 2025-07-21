@@ -76,11 +76,11 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/time64.h>
-#include <linux/zalloc.h>
-#include <linux/bitmap.h>
+#include <robux/err.h>
+#include <robux/string.h>
+#include <robux/time64.h>
+#include <robux/zalloc.h>
+#include <robux/bitmap.h>
 #include <sys/time.h>
 
 struct switch_output {

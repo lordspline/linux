@@ -8,8 +8,8 @@
 #include "dev_uring_i.h"
 #include "fuse_dev_i.h"
 
-#include <linux/fs.h>
-#include <linux/io_uring/cmd.h>
+#include <robux/fs.h>
+#include <robux/io_uring/cmd.h>
 
 static bool __read_mostly enable_uring;
 module_param(enable_uring, bool, 0644);

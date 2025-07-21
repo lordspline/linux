@@ -11,7 +11,7 @@
 #ifndef __MEDIA_I2C_MAX9271_H__
 #define __MEDIA_I2C_MAX9271_H__
 
-#include <linux/i2c.h>
+#include <robux/i2c.h>
 
 #define MAX9271_DEFAULT_ADDR	0x40
 

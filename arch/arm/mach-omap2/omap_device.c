@@ -15,24 +15,24 @@
  * devices.
  *
  * In the medium- to long-term, this code should be implemented as a
- * proper omap_bus/omap_device in Linux, no more platform_data func
+ * proper omap_bus/omap_device in Robux, no more platform_data func
  * pointers
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/notifier.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/notifier.h>
 
 #include "common.h"
 #include "soc.h"

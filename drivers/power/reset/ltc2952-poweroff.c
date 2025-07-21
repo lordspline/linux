@@ -3,7 +3,7 @@
  * LTC2952 (PowerPath) driver
  *
  * Copyright (C) 2014, Xsens Technologies BV <info@xsens.com>
- * Maintainer: René Moll <linux@r-moll.nl>
+ * Maintainer: René Moll <robux@r-moll.nl>
  *
  * ----------------------------------------
  * - Description
@@ -43,20 +43,20 @@
  * GPIO.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/ktime.h>
-#include <linux/slab.h>
-#include <linux/kmod.h>
-#include <linux/module.h>
-#include <linux/panic_notifier.h>
-#include <linux/mod_devicetable.h>
-#include <linux/gpio/consumer.h>
-#include <linux/reboot.h>
-#include <linux/property.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/ktime.h>
+#include <robux/slab.h>
+#include <robux/kmod.h>
+#include <robux/module.h>
+#include <robux/panic_notifier.h>
+#include <robux/mod_devicetable.h>
+#include <robux/gpio/consumer.h>
+#include <robux/reboot.h>
+#include <robux/property.h>
 
 struct ltc2952_poweroff {
 	struct hrtimer timer_trigger;

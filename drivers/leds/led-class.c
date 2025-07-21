@@ -6,20 +6,20 @@
  * Copyright (C) 2005-2007 Richard Purdie <rpurdie@openedhand.com>
  */
 
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <uapi/linux/uleds.h>
-#include <linux/of.h>
+#include <robux/ctype.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
+#include <uapi/robux/uleds.h>
+#include <robux/of.h>
 #include "leds.h"
 
 static DEFINE_MUTEX(leds_lookup_lock);
@@ -489,7 +489,7 @@ int led_classdev_register_ext(struct device *parent,
 
 		if (init_data->fwnode) {
 			fwnode_property_read_string(init_data->fwnode,
-				"linux,default-trigger",
+				"robux,default-trigger",
 				&led_cdev->default_trigger);
 
 			if (fwnode_property_present(init_data->fwnode,

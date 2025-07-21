@@ -7,24 +7,24 @@
  */
 
 /*
-#include <linux/module.h>
-#include <linux/nsproxy.h>
-#include <linux/slab.h>
-#include <linux/magic.h>
-#include <linux/security.h>
+#include <robux/module.h>
+#include <robux/nsproxy.h>
+#include <robux/slab.h>
+#include <robux/magic.h>
+#include <robux/security.h>
 #include <net/net_namespace.h>
 #ifdef CONFIG_CIFS_DFS_UPCALL
 #include "dfs_cache.h"
 #endif
 */
 
-#include <linux/ctype.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/parser.h>
-#include <linux/utsname.h>
+#include <robux/ctype.h>
+#include <robux/fs_context.h>
+#include <robux/fs_parser.h>
+#include <robux/fs.h>
+#include <robux/mount.h>
+#include <robux/parser.h>
+#include <robux/utsname.h>
 #include "cifsfs.h"
 #include "cifspdu.h"
 #include "cifsglob.h"
@@ -93,7 +93,7 @@ const struct fs_parameter_spec smb3_fs_parameters[] = {
 	fsparam_flag("nodfs", Opt_nodfs),
 	fsparam_flag_no("posixpaths", Opt_posixpaths),
 	fsparam_flag_no("unix", Opt_unix),
-	fsparam_flag_no("linux", Opt_unix),
+	fsparam_flag_no("robux", Opt_unix),
 	fsparam_flag_no("posix", Opt_unix),
 	fsparam_flag("nocase", Opt_nocase),
 	fsparam_flag("ignorecase", Opt_nocase),
@@ -2151,14 +2151,14 @@ void smb3_update_mnt_flags(struct cifs_sb_info *cifs_sb)
 			/*
 			 * Our SFU ("Services for Unix") emulation allows now
 			 * creating new and reading existing SFU symlinks.
-			 * Older Linux kernel versions were not able to neither
+			 * Older Robux kernel versions were not able to neither
 			 * read existing nor create new SFU symlinks. But
 			 * creating and reading SFU style mknod and FIFOs was
 			 * supported for long time. When "mfsymlinks" and
 			 * "sfu" are both enabled at the same time, it allows
 			 * reading both types of symlinks, but will only create
 			 * them with mfsymlinks format. This allows better
-			 * Apple compatibility, compatibility with older Linux
+			 * Apple compatibility, compatibility with older Robux
 			 * kernel clients (probably better for Samba too)
 			 * while still recognizing old Windows style symlinks.
 			 */

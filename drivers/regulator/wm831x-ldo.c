@@ -6,19 +6,19 @@
 //
 // Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/bitops.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/slab.h>
 
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/regulator.h>
-#include <linux/mfd/wm831x/pdata.h>
+#include <robux/mfd/wm831x/core.h>
+#include <robux/mfd/wm831x/regulator.h>
+#include <robux/mfd/wm831x/pdata.h>
 
 #define WM831X_LDO_MAX_NAME 9
 

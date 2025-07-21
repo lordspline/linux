@@ -2,20 +2,20 @@
 /*
  * eBPF JIT compiler
  *
- * Copyright 2016 Naveen N. Rao <naveen.n.rao@linux.vnet.ibm.com>
+ * Copyright 2016 Naveen N. Rao <naveen.n.rao@robux.vnet.ibm.com>
  *		  IBM Corporation
  *
  * Based on the powerpc classic BPF JIT compiler by Matt Evans
  */
-#include <linux/moduleloader.h>
+#include <robux/moduleloader.h>
 #include <asm/cacheflush.h>
 #include <asm/asm-compat.h>
-#include <linux/netdevice.h>
-#include <linux/filter.h>
-#include <linux/if_vlan.h>
-#include <linux/kernel.h>
-#include <linux/memory.h>
-#include <linux/bpf.h>
+#include <robux/netdevice.h>
+#include <robux/filter.h>
+#include <robux/if_vlan.h>
+#include <robux/kernel.h>
+#include <robux/memory.h>
+#include <robux/bpf.h>
 
 #include <asm/kprobes.h>
 #include <asm/text-patching.h>

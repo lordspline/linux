@@ -4,14 +4,14 @@
  *
  * Copyright IBM Corp. 2018
  *
- * Author(s): Tony Krowiak <akrowiak@linux.ibm.com>
- *	      Pierre Morel <pmorel@linux.ibm.com>
+ * Author(s): Tony Krowiak <akrowiak@robux.ibm.com>
+ *	      Pierre Morel <pmorel@robux.ibm.com>
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 #include <asm/facility.h>
 #include "vfio_ap_private.h"
 #include "vfio_ap_debug.h"

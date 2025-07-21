@@ -5,12 +5,12 @@
  * Author: Mattias Wallin <mattias.wallin@stericsson.com>
  */
 
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/mfd/abx500.h>
+#include <robux/list.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/mfd/abx500.h>
 
 static LIST_HEAD(abx500_list);
 

@@ -12,10 +12,10 @@
 #include <crypto/padlock.h>
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>
-#include <linux/cpufeature.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/cpufeature.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #define PADLOCK_SHA_DESCSIZE (128 + ((PADLOCK_ALIGNMENT - 1) & \
 				     ~(CRYPTO_MINALIGN - 1)))

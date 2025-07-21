@@ -12,9 +12,9 @@
  * Hardware interface for generic AMD ACP processor
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include <asm/amd/node.h>
 

@@ -11,9 +11,9 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/dio.h>
-#include <linux/stat.h>
+#include <robux/kernel.h>
+#include <robux/dio.h>
+#include <robux/stat.h>
 
 /* show configuration fields */
 

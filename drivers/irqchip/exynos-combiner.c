@@ -5,18 +5,18 @@
  *
  * Combiner irqchip for EXYNOS
  */
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/syscore_ops.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/interrupt.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/syscore_ops.h>
+#include <robux/irqdomain.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/interrupt.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 #define COMBINER_ENABLE_SET	0x0
 #define COMBINER_ENABLE_CLEAR	0x4

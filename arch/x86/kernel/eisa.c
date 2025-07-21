@@ -2,10 +2,10 @@
 /*
  * EISA specific code
  */
-#include <linux/cc_platform.h>
-#include <linux/ioport.h>
-#include <linux/eisa.h>
-#include <linux/io.h>
+#include <robux/cc_platform.h>
+#include <robux/ioport.h>
+#include <robux/eisa.h>
+#include <robux/io.h>
 
 #include <xen/xen.h>
 

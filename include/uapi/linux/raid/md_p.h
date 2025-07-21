@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 /*
-   md_p.h : physical layout of Linux RAID devices
+   md_p.h : physical layout of Robux RAID devices
           Copyright (C) 1996-98 Ingo Molnar, Gadi Oxman
 
    This program is free software; you can redistribute it and/or modify
@@ -12,7 +12,7 @@
 #ifndef _MD_P_H
 #define _MD_P_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/byteorder.h>
 
 /*

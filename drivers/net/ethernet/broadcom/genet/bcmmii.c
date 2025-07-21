@@ -5,23 +5,23 @@
  * Copyright (c) 2014-2025 Broadcom
  */
 
-#include <linux/acpi.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/wait.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/bitops.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/brcmphy.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
-#include <linux/platform_data/bcmgenet.h>
-#include <linux/platform_data/mdio-bcm-unimac.h>
+#include <robux/acpi.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/wait.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/bitops.h>
+#include <robux/netdevice.h>
+#include <robux/platform_device.h>
+#include <robux/phy.h>
+#include <robux/phy_fixed.h>
+#include <robux/brcmphy.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/of_mdio.h>
+#include <robux/platform_data/bcmgenet.h>
+#include <robux/platform_data/mdio-bcm-unimac.h>
 
 #include "bcmgenet.h"
 

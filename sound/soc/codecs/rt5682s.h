@@ -10,11 +10,11 @@
 #define __RT5682S_H__
 
 #include <sound/rt5682s.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
+#include <robux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
 
 
 /* Info */

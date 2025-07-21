@@ -3,7 +3,7 @@
 #ifndef ADF_TL_DEBUGFS_H
 #define ADF_TL_DEBUGFS_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct adf_accel_dev;
 

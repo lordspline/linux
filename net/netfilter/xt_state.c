@@ -5,11 +5,11 @@
  * (C) 2002-2005 Netfilter Core Team <coreteam@netfilter.org>
  */
 
-#include <linux/module.h>
-#include <linux/skbuff.h>
+#include <robux/module.h>
+#include <robux/skbuff.h>
 #include <net/netfilter/nf_conntrack.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_state.h>
+#include <robux/netfilter/x_tables.h>
+#include <robux/netfilter/xt_state.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Rusty Russell <rusty@rustcorp.com.au>");

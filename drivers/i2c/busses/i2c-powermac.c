@@ -8,13 +8,13 @@
 
 */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/i2c.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/of_irq.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/i2c.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/of_irq.h>
 
 #include <asm/pmac_low_i2c.h>
 

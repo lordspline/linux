@@ -5,16 +5,16 @@
  * Copyright (c) 2009, 2014 Intel Corporation.
  */
 
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/irqreturn.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_data/dma-dw.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
+#include <robux/completion.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/irqreturn.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/platform_data/dma-dw.h>
+#include <robux/spi/spi.h>
+#include <robux/types.h>
 
 #include "spi-dw.h"
 

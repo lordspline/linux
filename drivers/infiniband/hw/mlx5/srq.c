@@ -1,10 +1,10 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 /*
  * Copyright (c) 2013-2018, Mellanox Technologies inc.  All rights reserved.
  */
 
-#include <linux/mlx5/qp.h>
-#include <linux/slab.h>
+#include <robux/mlx5/qp.h>
+#include <robux/slab.h>
 #include <rdma/ib_umem.h>
 #include <rdma/ib_user_verbs.h>
 #include "mlx5_ib.h"

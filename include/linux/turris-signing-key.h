@@ -6,8 +6,8 @@
 #ifndef __TURRIS_SIGNING_KEY_H
 #define __TURRIS_SIGNING_KEY_H
 
-#include <linux/key.h>
-#include <linux/types.h>
+#include <robux/key.h>
+#include <robux/types.h>
 
 struct device;
 

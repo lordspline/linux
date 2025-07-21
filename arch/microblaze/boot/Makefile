@@ -3,17 +3,17 @@
 # arch/microblaze/boot/Makefile
 #
 
-targets := linux.bin linux.bin.gz linux.bin.ub simpleImage.*
+targets := robux.bin robux.bin.gz robux.bin.ub simpleImage.*
 
 OBJCOPYFLAGS := -R .note -R .comment -R .note.gnu.build-id -O binary
 
-$(obj)/linux.bin: vmlinux FORCE
+$(obj)/robux.bin: vmlinux FORCE
 	$(call if_changed,objcopy)
 
-$(obj)/linux.bin.ub: $(obj)/linux.bin FORCE
+$(obj)/robux.bin.ub: $(obj)/robux.bin FORCE
 	$(call if_changed,uimage)
 
-$(obj)/linux.bin.gz: $(obj)/linux.bin FORCE
+$(obj)/robux.bin.gz: $(obj)/robux.bin FORCE
 	$(call if_changed,gzip)
 
 quiet_cmd_strip = STRIP   $< $@$2

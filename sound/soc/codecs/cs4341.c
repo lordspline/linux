@@ -4,11 +4,11 @@
  *  Author: Alexander Shiyan <shc_work@mail.ru>
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

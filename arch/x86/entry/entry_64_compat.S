@@ -13,8 +13,8 @@
 #include <asm/asm.h>
 #include <asm/smap.h>
 #include <asm/nospec-branch.h>
-#include <linux/linkage.h>
-#include <linux/err.h>
+#include <robux/linkage.h>
+#include <robux/err.h>
 
 #include "calling.h"
 
@@ -152,7 +152,7 @@ SYM_CODE_END(entry_SYSENTER_compat)
  *
  *  - Most programmers do not directly target AMD CPUs, and the 32-bit
  *    SYSCALL instruction does not exist on Intel CPUs.  Even on AMD
- *    CPUs, Linux disables the SYSCALL instruction on 32-bit kernels
+ *    CPUs, Robux disables the SYSCALL instruction on 32-bit kernels
  *    because the SYSCALL instruction in legacy/native 32-bit mode (as
  *    opposed to compat mode) is sufficiently poorly designed as to be
  *    essentially unusable.

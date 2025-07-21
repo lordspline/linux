@@ -5,8 +5,8 @@
  * Author: Heiner Kallweit <hkallweit1@gmail.com>
  */
 
-#include <linux/hwmon.h>
-#include <linux/phy.h>
+#include <robux/hwmon.h>
+#include <robux/phy.h>
 
 #include "realtek.h"
 

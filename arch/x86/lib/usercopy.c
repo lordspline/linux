@@ -4,9 +4,9 @@
  *  For licencing details see kernel-base/COPYING
  */
 
-#include <linux/uaccess.h>
-#include <linux/export.h>
-#include <linux/instrumented.h>
+#include <robux/uaccess.h>
+#include <robux/export.h>
+#include <robux/instrumented.h>
 
 #include <asm/tlbflush.h>
 

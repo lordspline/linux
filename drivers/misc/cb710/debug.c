@@ -4,9 +4,9 @@
  *
  *  Copyright by Michał Mirosław, 2008-2009
  */
-#include <linux/cb710.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/cb710.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #define CB710_REG_COUNT		0x80
 

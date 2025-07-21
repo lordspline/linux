@@ -6,7 +6,7 @@
  * Written by: Martin K. Petersen <martin.petersen@oracle.com>
  */
 
-#include <linux/blk-integrity.h>
+#include <robux/blk-integrity.h>
 #include "blk.h"
 
 struct bio_integrity_alloc {

@@ -10,13 +10,13 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
 
 
 enum {
@@ -222,7 +222,7 @@ static struct platform_driver msm6242_rtc_driver = {
 
 module_platform_driver_probe(msm6242_rtc_driver, msm6242_rtc_probe);
 
-MODULE_AUTHOR("Geert Uytterhoeven <geert@linux-m68k.org>");
+MODULE_AUTHOR("Geert Uytterhoeven <geert@robux-m68k.org>");
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Oki MSM6242 RTC driver");
 MODULE_ALIAS("platform:rtc-msm6242");

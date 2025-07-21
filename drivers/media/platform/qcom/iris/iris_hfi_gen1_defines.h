@@ -6,7 +6,7 @@
 #ifndef __IRIS_HFI_GEN1_DEFINES_H__
 #define __IRIS_HFI_GEN1_DEFINES_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define HFI_VIDEO_ARCH_OX				0x1
 

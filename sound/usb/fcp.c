@@ -54,8 +54,8 @@
  * null-terminated strings.
  */
 
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
 
 #include <sound/control.h>
 #include <sound/hwdep.h>

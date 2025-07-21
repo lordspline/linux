@@ -2,12 +2,12 @@
 #ifndef _SCD30_H
 #define _SCD30_H
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/pm.h>
-#include <linux/regulator/consumer.h>
-#include <linux/types.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/pm.h>
+#include <robux/regulator/consumer.h>
+#include <robux/types.h>
 
 struct scd30_state;
 

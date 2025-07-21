@@ -7,9 +7,9 @@
 #ifndef LINUX_APPLE_GMUX_H
 #define LINUX_APPLE_GMUX_H
 
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/pnp.h>
+#include <robux/acpi.h>
+#include <robux/io.h>
+#include <robux/pnp.h>
 
 #define GMUX_ACPI_HID "APP000B"
 

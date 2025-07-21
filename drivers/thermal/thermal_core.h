@@ -9,9 +9,9 @@
 #ifndef __THERMAL_CORE_H__
 #define __THERMAL_CORE_H__
 
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/thermal.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/thermal.h>
 
 #include "thermal_netlink.h"
 #include "thermal_thresholds.h"

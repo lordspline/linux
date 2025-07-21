@@ -2,9 +2,9 @@
 #ifndef _LINUX_PROFILE_H
 #define _LINUX_PROFILE_H
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/cache.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/cache.h>
 
 #include <asm/errno.h>
 

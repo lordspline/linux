@@ -18,24 +18,24 @@
  * archive for more details.
  */
 
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/ptrace.h>
-#include <linux/unistd.h>
-#include <linux/stddef.h>
-#include <linux/personality.h>
-#include <linux/percpu.h>
-#include <linux/linkage.h>
-#include <linux/resume_user_mode.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/errno.h>
+#include <robux/wait.h>
+#include <robux/ptrace.h>
+#include <robux/unistd.h>
+#include <robux/stddef.h>
+#include <robux/personality.h>
+#include <robux/percpu.h>
+#include <robux/linkage.h>
+#include <robux/resume_user_mode.h>
 #include <asm/entry.h>
 #include <asm/ucontext.h>
-#include <linux/uaccess.h>
-#include <linux/syscalls.h>
+#include <robux/uaccess.h>
+#include <robux/syscalls.h>
 #include <asm/cacheflush.h>
 #include <asm/syscalls.h>
 

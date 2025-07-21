@@ -8,12 +8,12 @@
  *  Portions of this work were sponsored by ONELAN Limited.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/spinlock.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/spinlock.h>
 
 #include <media/v4l2-device.h>
 

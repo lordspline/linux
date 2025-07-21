@@ -5,12 +5,12 @@
  * Copyright 2011 Freescale Semiconductor Inc.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
 
 #include <asm/time.h>
 #include <asm/machdep.h>

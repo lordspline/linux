@@ -6,12 +6,12 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/soundwire/sdw.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/slab.h>
+#include <robux/soundwire/sdw.h>
 #include "bus.h"
 
 #define SDW_STRM_RATE_GROUPING		1

@@ -5,16 +5,16 @@
  * Copyright (c) 2018-2024 Microchip Technology Inc. and its subsidiaries
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/spinlock.h>
 
 #define MPFS_GPIO_CTRL(i)		(0x4 * (i))
 #define MPFS_MAX_NUM_GPIO		32

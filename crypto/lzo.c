@@ -4,10 +4,10 @@
  */
 
 #include <crypto/internal/scompress.h>
-#include <linux/init.h>
-#include <linux/lzo.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/lzo.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 static void *lzo_alloc_ctx(void)
 {

@@ -7,9 +7,9 @@
 #ifndef S390_CHP_H
 #define S390_CHP_H
 
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
 #include <asm/chpid.h>
 #include "chsc.h"
 #include "css.h"

@@ -14,16 +14,16 @@
  * Author: Mike Lockwood <lockwood@android.com>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/idr.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/fs.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
 
 #include "extcon.h"
 

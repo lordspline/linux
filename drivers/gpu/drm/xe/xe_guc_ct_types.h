@@ -6,11 +6,11 @@
 #ifndef _XE_GUC_CT_TYPES_H_
 #define _XE_GUC_CT_TYPES_H_
 
-#include <linux/interrupt.h>
-#include <linux/iosys-map.h>
-#include <linux/spinlock_types.h>
-#include <linux/wait.h>
-#include <linux/xarray.h>
+#include <robux/interrupt.h>
+#include <robux/iosys-map.h>
+#include <robux/spinlock_types.h>
+#include <robux/wait.h>
+#include <robux/xarray.h>
 
 #include "abi/guc_communication_ctb_abi.h"
 

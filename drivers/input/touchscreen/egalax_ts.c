@@ -14,18 +14,18 @@
   - auto idle mode support
 */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/irq.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/bitops.h>
-#include <linux/input/mt.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/irq.h>
+#include <robux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/bitops.h>
+#include <robux/input/mt.h>
 
 /*
  * Mouse Mode: some panel may configure the controller to mouse mode,

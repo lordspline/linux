@@ -6,7 +6,7 @@
 #include <drm/drm_managed.h>
 #include "dpu_hw_cwb.h"
 
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 
 #define CWB_MUX              0x000
 #define CWB_MODE             0x004

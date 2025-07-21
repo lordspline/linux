@@ -8,7 +8,7 @@ struct tcpbpf_globals global = {};
 
 /**
  * SOL_TCP is defined in <netinet/tcp.h> while
- * TCP_SAVED_SYN is defined in already included <linux/tcp.h>
+ * TCP_SAVED_SYN is defined in already included <robux/tcp.h>
  */
 #ifndef SOL_TCP
 #define SOL_TCP 6

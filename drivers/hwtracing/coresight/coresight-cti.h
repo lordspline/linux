@@ -7,12 +7,12 @@
 #ifndef _CORESIGHT_CORESIGHT_CTI_H
 #define _CORESIGHT_CORESIGHT_CTI_H
 
-#include <linux/coresight.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
+#include <robux/coresight.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
 
 #include "coresight-priv.h"
 

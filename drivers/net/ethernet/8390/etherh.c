@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/acorn/net/etherh.c
+ *  robux/drivers/acorn/net/etherh.c
  *
  *  Copyright (C) 2000-2002 Russell King
  *
@@ -23,24 +23,24 @@
  *  03-01-2002	RMK	1.09	Always enable IRQs if we're in the nic slot.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/skbuff.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/jiffies.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/in.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/skbuff.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/bitops.h>
+#include <robux/jiffies.h>
 
 #include <asm/ecard.h>
 #include <asm/io.h>

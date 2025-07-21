@@ -5,13 +5,13 @@
  *
  * Copyright(c) 2019 Intel Corporation
  *
- * Author: Ranjani Sridharan <ranjani.sridharan@linux.intel.com>
+ * Author: Ranjani Sridharan <ranjani.sridharan@robux.intel.com>
  */
 
 #ifndef __SOUND_SOC_SOF_AUDIO_H
 #define __SOUND_SOC_SOF_AUDIO_H
 
-#include <linux/workqueue.h>
+#include <robux/workqueue.h>
 
 #include <sound/soc.h>
 #include <sound/control.h>

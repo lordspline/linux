@@ -10,18 +10,18 @@
 
 #include <drm/drm_drv.h>
 #include <drm/drm_managed.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/timer.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #define POWER_SYNC_TIMEOUT_US (1000000) /* 1s */
 

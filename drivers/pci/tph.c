@@ -6,11 +6,11 @@
  *     Eric Van Tassell <Eric.VanTassell@amd.com>
  *     Wei Huang <wei.huang2@amd.com>
  */
-#include <linux/pci.h>
-#include <linux/pci-acpi.h>
-#include <linux/msi.h>
-#include <linux/bitfield.h>
-#include <linux/pci-tph.h>
+#include <robux/pci.h>
+#include <robux/pci-acpi.h>
+#include <robux/msi.h>
+#include <robux/bitfield.h>
+#include <robux/pci-tph.h>
 
 #include "pci.h"
 

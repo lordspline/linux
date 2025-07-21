@@ -8,11 +8,11 @@
 
 #ifdef CONFIG_SMP
 
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/linkage.h>
-#include <linux/threads.h>
-#include <linux/cpumask.h>
+#include <robux/atomic.h>
+#include <robux/bitops.h>
+#include <robux/linkage.h>
+#include <robux/threads.h>
+#include <robux/cpumask.h>
 
 struct smp_ops {
 	void (*init_ipi)(void);

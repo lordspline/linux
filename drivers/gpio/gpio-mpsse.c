@@ -7,10 +7,10 @@
  * Copyright (C) 2024 Mary Strodl <mstrodl@csh.rit.edu>
  */
 
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/mutex.h>
-#include <linux/usb.h>
+#include <robux/cleanup.h>
+#include <robux/gpio/driver.h>
+#include <robux/mutex.h>
+#include <robux/usb.h>
 
 struct mpsse_priv {
 	struct gpio_chip gpio;

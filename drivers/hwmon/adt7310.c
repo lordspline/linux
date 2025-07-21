@@ -6,11 +6,11 @@
  *   Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
+#include <robux/unaligned.h>
 
 #include "adt7x10.h"
 

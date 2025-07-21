@@ -4,13 +4,13 @@
  */
 
 /*
- * Newton keyboard driver for Linux
+ * Newton keyboard driver for Robux
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/serio.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/serio.h>
 
 #define DRIVER_DESC	"Newton keyboard driver"
 

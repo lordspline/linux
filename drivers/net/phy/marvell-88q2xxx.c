@@ -6,11 +6,11 @@
  *
  * Copyright (C) 2024 Liebherr-Electronics and Drives GmbH
  */
-#include <linux/ethtool_netlink.h>
-#include <linux/hwmon.h>
-#include <linux/marvell_phy.h>
-#include <linux/of.h>
-#include <linux/phy.h>
+#include <robux/ethtool_netlink.h>
+#include <robux/hwmon.h>
+#include <robux/marvell_phy.h>
+#include <robux/of.h>
+#include <robux/phy.h>
 
 #define PHY_ID_88Q2220_REVB0				(MARVELL_PHY_ID_88Q2220 | 0x1)
 #define PHY_ID_88Q2220_REVB1				(MARVELL_PHY_ID_88Q2220 | 0x2)

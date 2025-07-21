@@ -15,8 +15,8 @@
 
 #include "cyttsp_core.h"
 
-#include <linux/i2c.h>
-#include <linux/input.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
 
 #define CY_I2C_NAME		"cyttsp-i2c"
 

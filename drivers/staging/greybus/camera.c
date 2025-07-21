@@ -6,15 +6,15 @@
  * Copyright 2015 Linaro Ltd.
  */
 
-#include <linux/debugfs.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
-#include <linux/greybus.h>
+#include <robux/debugfs.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/uaccess.h>
+#include <robux/vmalloc.h>
+#include <robux/greybus.h>
 
 #include "gb-camera.h"
 #include "greybus_protocols.h"

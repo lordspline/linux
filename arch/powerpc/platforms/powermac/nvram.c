@@ -4,20 +4,20 @@
  *
  *  Todo: - add support for the OF persistent properties
  */
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/string.h>
-#include <linux/nvram.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
-#include <linux/memblock.h>
-#include <linux/completion.h>
-#include <linux/spinlock.h>
-#include <linux/of_address.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/stddef.h>
+#include <robux/string.h>
+#include <robux/nvram.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/adb.h>
+#include <robux/pmu.h>
+#include <robux/memblock.h>
+#include <robux/completion.h>
+#include <robux/spinlock.h>
+#include <robux/of_address.h>
 #include <asm/sections.h>
 #include <asm/io.h>
 #include <asm/machdep.h>

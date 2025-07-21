@@ -7,11 +7,11 @@
  * based on code from Oliver Jowett <oliver@jowett.manawatu.gen.nz>
  */
 
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/console.h>
-#include <linux/init.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/seq_file.h>
+#include <robux/console.h>
+#include <robux/init.h>
 
 #include <asm/machdep.h>
 #include <asm/irq.h>

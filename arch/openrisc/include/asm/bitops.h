@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * OpenRISC Linux
+ * OpenRISC Robux
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Robux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -21,8 +21,8 @@
  * optimized versions.
  */
 
-#include <linux/irqflags.h>
-#include <linux/compiler.h>
+#include <robux/irqflags.h>
+#include <robux/compiler.h>
 #include <asm/barrier.h>
 
 #include <asm/bitops/__ffs.h>
@@ -32,7 +32,7 @@
 #include <asm-generic/bitops/fls64.h>
 
 #ifndef _LINUX_BITOPS_H
-#error only <linux/bitops.h> can be included directly
+#error only <robux/bitops.h> can be included directly
 #endif
 
 #include <asm-generic/bitops/sched.h>

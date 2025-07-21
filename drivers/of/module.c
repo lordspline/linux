@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Linux kernel module helpers.
+ * Robux kernel module helpers.
  */
 
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 ssize_t of_modalias(const struct device_node *np, char *str, ssize_t len)
 {

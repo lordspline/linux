@@ -13,9 +13,9 @@
  */
 
 #include "amd.h"
-#include <linux/acpi.h>
-#include <linux/pci.h>
-#include <linux/export.h>
+#include <robux/acpi.h>
+#include <robux/pci.h>
+#include <robux/export.h>
 
 #include "../mach-config.h"
 

@@ -9,19 +9,19 @@
  * Some code borrowed from drivers/extcon/extcon-usb-gpio.c
  */
 
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regulator/consumer.h>
-#include <linux/string_choices.h>
-#include <linux/usb/role.h>
-#include <linux/idr.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/regulator/consumer.h>
+#include <robux/string_choices.h>
+#include <robux/usb/role.h>
+#include <robux/idr.h>
 
 static DEFINE_IDA(usb_conn_ida);
 

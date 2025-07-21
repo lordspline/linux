@@ -7,13 +7,13 @@
  *  Copyright (c) 2009 Devin Heitmueller <dheitmueller@kernellabs.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/videodev2.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/dvb/frontend.h>
-#include <linux/i2c.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/videodev2.h>
+#include <robux/delay.h>
+#include <robux/workqueue.h>
+#include <robux/dvb/frontend.h>
+#include <robux/i2c.h>
 
 #include <media/dvb_frontend.h>
 

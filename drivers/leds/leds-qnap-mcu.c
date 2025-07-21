@@ -5,12 +5,12 @@
  * Copyright (C) 2024 Heiko Stuebner <heiko@sntech.de>
  */
 
-#include <linux/leds.h>
-#include <linux/mfd/qnap-mcu.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <uapi/linux/uleds.h>
+#include <robux/leds.h>
+#include <robux/mfd/qnap-mcu.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <uapi/robux/uleds.h>
 
 enum qnap_mcu_err_led_mode {
 	QNAP_MCU_ERR_LED_ON = 0,

@@ -45,9 +45,9 @@
  */
 
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
-#include <linux/bitops.h>
-#include <linux/string.h>
+#include <robux/unaligned.h>
+#include <robux/bitops.h>
+#include <robux/string.h>
 
 #include "siphash.h"
 

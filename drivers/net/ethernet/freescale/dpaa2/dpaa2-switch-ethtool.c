@@ -7,7 +7,7 @@
  *
  */
 
-#include <linux/ethtool.h>
+#include <robux/ethtool.h>
 
 #include "dpaa2-switch.h"
 

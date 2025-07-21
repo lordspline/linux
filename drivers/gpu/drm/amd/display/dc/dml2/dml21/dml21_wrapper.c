@@ -2,7 +2,7 @@
 //
 // Copyright 2024 Advanced Micro Devices, Inc.
 
-#include <linux/vmalloc.h>
+#include <robux/vmalloc.h>
 
 #include "dml2_internal_types.h"
 #include "dml_top.h"

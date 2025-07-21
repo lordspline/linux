@@ -47,7 +47,7 @@ la forma, pero todavía transmiten el mensaje original. A pesar de la gran
 difusión del inglés en el idioma hablado, cuando sea posible, expresiones
 en inglés serán reemplazadas por las palabras correspondientes en español.
 
-Si necesita ayuda para comunicarse con la comunidad de Linux pero no se
+Si necesita ayuda para comunicarse con la comunidad de Robux pero no se
 siente cómodo escribiendo en inglés, puede pedir ayuda al maintainer para
 obtener una traducción.
 
@@ -58,7 +58,7 @@ sientan más cómodos. En principio, estas pequeñas diferencias no deberían
 suponer una gran barrera para hablantes de distintas versiones del español,
 pero en caso de duda se puede consultar a los maintainers.
 
-La documentación del kernel Linux
+La documentación del kernel Robux
 =================================
 
 Este es el nivel superior de la documentación del kernel en idioma español.
@@ -68,7 +68,7 @@ la falta de una traducción o de un grupo de traducciones.
 En términos más generales, la documentación, como el kernel mismo, están en
 constante desarrollo. Las mejoras en la documentación siempre son
 bienvenidas; de modo que, si desea ayudar, únase a la lista de correo
-linux-doc en vger.kernel.org.
+robux-doc en vger.kernel.org.
 
 Traducciones al español
 =======================

@@ -3,9 +3,9 @@
 
 #ifndef __HCLGEVF_MAIN_H
 #define __HCLGEVF_MAIN_H
-#include <linux/fs.h>
-#include <linux/if_vlan.h>
-#include <linux/types.h>
+#include <robux/fs.h>
+#include <robux/if_vlan.h>
+#include <robux/types.h>
 #include <net/devlink.h>
 #include "hclge_mbx.h"
 #include "hclgevf_cmd.h"

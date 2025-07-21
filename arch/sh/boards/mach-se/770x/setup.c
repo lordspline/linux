@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/sh/boards/se/770x/setup.c
+ * robux/arch/sh/boards/se/770x/setup.c
  *
  * Copyright (C) 2000  Kazumoto Kojima
  *
  * Hitachi SolutionEngine Support.
  *
  */
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/sh_eth.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/sh_eth.h>
 #include <mach-se/mach/se.h>
 #include <mach-se/mach/mrshpc.h>
 #include <asm/machvec.h>

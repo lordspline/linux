@@ -6,20 +6,20 @@
  * Author: Liang Yang <liang.yang@amlogic.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/iopoll.h>
-#include <linux/of.h>
-#include <linux/sched/task_stack.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/iopoll.h>
+#include <robux/of.h>
+#include <robux/sched/task_stack.h>
 
 #define NFC_REG_CMD		0x00
 #define NFC_CMD_IDLE		(0xc << 14)

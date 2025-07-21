@@ -8,18 +8,18 @@
 
 #define pr_fmt(fmt) "ACPI: " fmt
 
-#include <linux/acpi_iort.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/rwsem.h>
-#include <linux/acpi.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/pci-acpi.h>
-#include <linux/platform_device.h>
+#include <robux/acpi_iort.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/rwsem.h>
+#include <robux/acpi.h>
+#include <robux/dma-mapping.h>
+#include <robux/pci.h>
+#include <robux/pci-acpi.h>
+#include <robux/platform_device.h>
 
 #include "internal.h"
 

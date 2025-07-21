@@ -3,10 +3,10 @@
  * Intel BayTrail PMIC I2C bus semaphore implementation
  * Copyright (c) 2014, Intel Corporation.
  */
-#include <linux/device.h>
-#include <linux/acpi.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
+#include <robux/device.h>
+#include <robux/acpi.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
 
 #include <asm/iosf_mbi.h>
 

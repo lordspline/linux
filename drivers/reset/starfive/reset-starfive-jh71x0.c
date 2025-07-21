@@ -5,12 +5,12 @@
  * Copyright (C) 2021 Emil Renner Berthing <kernel@esmil.dk>
  */
 
-#include <linux/bitmap.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/reset-controller.h>
-#include <linux/spinlock.h>
+#include <robux/bitmap.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/reset-controller.h>
+#include <robux/spinlock.h>
 
 #include "reset-starfive-jh71x0.h"
 

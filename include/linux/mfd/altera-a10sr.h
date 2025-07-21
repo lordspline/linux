@@ -10,11 +10,11 @@
 #ifndef __MFD_ALTERA_A10SR_H
 #define __MFD_ALTERA_A10SR_H
 
-#include <linux/completion.h>
-#include <linux/list.h>
-#include <linux/mfd/core.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/completion.h>
+#include <robux/list.h>
+#include <robux/mfd/core.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 /* Write registers are always on even addresses */
 #define  WRITE_REG_MASK              0xFE

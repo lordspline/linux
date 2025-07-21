@@ -7,8 +7,8 @@
  * Commit ID: b5ddc8e244eb2481a9524f1ddc630a8b41e7c391
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
 
 #include "lan969x.h"
 

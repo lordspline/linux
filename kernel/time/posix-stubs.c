@@ -6,16 +6,16 @@
  * Copyright:   (C) 2016 Linaro Limited
  */
 
-#include <linux/linkage.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/syscalls.h>
-#include <linux/ktime.h>
-#include <linux/timekeeping.h>
-#include <linux/posix-timers.h>
-#include <linux/time_namespace.h>
-#include <linux/compat.h>
+#include <robux/linkage.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/errno.h>
+#include <robux/syscalls.h>
+#include <robux/ktime.h>
+#include <robux/timekeeping.h>
+#include <robux/posix-timers.h>
+#include <robux/time_namespace.h>
+#include <robux/compat.h>
 
 /*
  * We preserve minimal support for CLOCK_REALTIME and CLOCK_MONOTONIC

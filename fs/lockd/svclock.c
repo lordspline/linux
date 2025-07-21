@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/lockd/svclock.c
+ * robux/fs/lockd/svclock.c
  *
  * Handling of server-side locks, mostly of the blocked variety.
  * This is the ugliest part of lockd because we tread on very thin ice.
@@ -21,15 +21,15 @@
  * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/svc_xprt.h>
-#include <linux/lockd/nlm.h>
-#include <linux/lockd/lockd.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sunrpc/clnt.h>
+#include <robux/sunrpc/svc_xprt.h>
+#include <robux/lockd/nlm.h>
+#include <robux/lockd/lockd.h>
 
 #define NLMDBG_FACILITY		NLMDBG_SVCLOCK
 

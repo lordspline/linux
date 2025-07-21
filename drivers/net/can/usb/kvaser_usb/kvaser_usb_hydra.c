@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Parts of this driver are based on the following:
- *  - Kvaser linux mhydra driver (version 5.24)
+ *  - Kvaser robux mhydra driver (version 5.24)
  *  - CAN driver for esd CAN-USB/2
  *
  * Copyright (C) 2018 KVASER AB, Sweden. All rights reserved.
@@ -12,22 +12,22 @@
  *    distinguish between ERROR_WARNING and ERROR_ACTIVE.
  */
 
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/gfp.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/units.h>
-#include <linux/usb.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/gfp.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/units.h>
+#include <robux/usb.h>
 
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
-#include <linux/can/netlink.h>
+#include <robux/can.h>
+#include <robux/can/dev.h>
+#include <robux/can/error.h>
+#include <robux/can/netlink.h>
 
 #include "kvaser_usb.h"
 

@@ -5,19 +5,19 @@
  * Copyright (c) 2008 Philipp Zabel <philipp.zabel@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/usb.h>
-#include <linux/workqueue.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/usb.h>
+#include <robux/workqueue.h>
 
-#include <linux/regulator/consumer.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/otg.h>
 
 
 /*

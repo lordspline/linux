@@ -11,8 +11,8 @@
 /*
  */
 
-#include <linux/module.h>
-#include <linux/hid.h>
+#include <robux/module.h>
+#include <robux/hid.h>
 #include "hid-ids.h"
 
 static int penmount_input_mapping(struct hid_device *hdev,

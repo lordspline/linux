@@ -2,20 +2,20 @@
 /*
  * Time related functions for Hexagon architecture
  *
- * Copyright (c) 2010-2011, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2011, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/init.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/interrupt.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/ioport.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/module.h>
 
 #include <asm/delay.h>
 #include <asm/hexagon_vm.h>

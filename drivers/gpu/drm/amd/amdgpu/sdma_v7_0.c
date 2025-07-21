@@ -21,10 +21,10 @@
  *
  */
 
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include "amdgpu.h"
 #include "amdgpu_ucode.h"

@@ -109,7 +109,7 @@
  * nodes that are pinning the oldest journal entries first.
  */
 
-#include <linux/hash.h>
+#include <robux/hash.h>
 
 #include "journal_types.h"
 

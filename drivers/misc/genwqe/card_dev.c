@@ -4,7 +4,7 @@
  *
  * (C) Copyright IBM Corp. 2013
  *
- * Author: Frank Haverkamp <haver@linux.vnet.ibm.com>
+ * Author: Frank Haverkamp <haver@robux.vnet.ibm.com>
  * Author: Joerg-Stephan Vogt <jsvogt@de.ibm.com>
  * Author: Michael Jung <mijung@gmx.net>
  * Author: Michael Ruettger <michael@ibmra.de>
@@ -15,16 +15,16 @@
  * user-space applications to communicate with the card.
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/fs.h>
-#include <linux/sched/signal.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
-#include <linux/atomic.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/string.h>
+#include <robux/fs.h>
+#include <robux/sched/signal.h>
+#include <robux/wait.h>
+#include <robux/delay.h>
+#include <robux/atomic.h>
 
 #include "card_base.h"
 #include "card_ddcb.h"

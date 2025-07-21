@@ -18,18 +18,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/miscdevice.h>
-#include <linux/watchdog.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/fs.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/miscdevice.h>
+#include <robux/watchdog.h>
+#include <robux/notifier.h>
+#include <robux/reboot.h>
+#include <robux/fs.h>
+#include <robux/spinlock.h>
+#include <robux/uaccess.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
 
 #define NAME "it8712f_wdt"
 

@@ -2,7 +2,7 @@
 #ifndef _ASM_X86_PGTABLE_64_H
 #define _ASM_X86_PGTABLE_64_H
 
-#include <linux/const.h>
+#include <robux/const.h>
 #include <asm/pgtable_64_types.h>
 
 #ifndef __ASSEMBLER__
@@ -12,8 +12,8 @@
  * the x86-64 page table tree.
  */
 #include <asm/processor.h>
-#include <linux/bitops.h>
-#include <linux/threads.h>
+#include <robux/bitops.h>
+#include <robux/threads.h>
 #include <asm/fixmap.h>
 
 extern p4d_t level4_kernel_pgt[512];

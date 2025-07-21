@@ -4,29 +4,29 @@
  * Copyright (C) 2009, 2010, 2011 Red Hat, Inc.
  * Copyright (C) 2009, 2010, 2011 Amit Shah <amit.shah@redhat.com>
  */
-#include <linux/cdev.h>
-#include <linux/debugfs.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/freezer.h>
-#include <linux/fs.h>
-#include <linux/splice.h>
-#include <linux/pagemap.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/virtio.h>
-#include <linux/virtio_console.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/string_choices.h>
+#include <robux/cdev.h>
+#include <robux/debugfs.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/freezer.h>
+#include <robux/fs.h>
+#include <robux/splice.h>
+#include <robux/pagemap.h>
+#include <robux/idr.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/poll.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/virtio.h>
+#include <robux/virtio_console.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
+#include <robux/module.h>
+#include <robux/dma-mapping.h>
+#include <robux/string_choices.h>
 #include "../tty/hvc/hvc_console.h"
 
 #define is_rproc_enabled IS_ENABLED(CONFIG_REMOTEPROC)

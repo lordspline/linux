@@ -8,10 +8,10 @@
 #ifndef __XILLYBUS_CLASS_H
 #define __XILLYBUS_CLASS_H
 
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/module.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/fs.h>
+#include <robux/module.h>
 
 int xillybus_init_chrdev(struct device *dev,
 			 const struct file_operations *fops,

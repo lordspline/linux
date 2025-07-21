@@ -11,8 +11,8 @@
 #include <string.h>
 #include <sys/socket.h>
 #include <unistd.h>
-#include <linux/audit.h>
-#include <linux/netlink.h>
+#include <robux/audit.h>
+#include <robux/netlink.h>
 
 static int fd;
 

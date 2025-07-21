@@ -26,18 +26,18 @@
  * sonic                                     _   _   _.
  * echo:  __________________________________/ \_/ \_/ \________________
  */
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
 
 struct ping_cfg {
 	unsigned long	trigger_pulse_us;	/* length of trigger pulse */

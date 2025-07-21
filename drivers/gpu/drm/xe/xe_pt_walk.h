@@ -5,8 +5,8 @@
 #ifndef __XE_PT_WALK__
 #define __XE_PT_WALK__
 
-#include <linux/pagewalk.h>
-#include <linux/types.h>
+#include <robux/pagewalk.h>
+#include <robux/types.h>
 
 /**
  * struct xe_ptw - base class for driver pagetable subclassing.
@@ -57,7 +57,7 @@ struct xe_pt_walk {
  * @child: Pointer to pointer to child page-table at this @offset. The
  * function may modify the value pointed to if, for example, allocating a
  * child page table.
- * @action: The walk action to take upon return. See <linux/pagewalk.h>.
+ * @action: The walk action to take upon return. See <robux/pagewalk.h>.
  * @walk: The walk parameters.
  */
 typedef int (*xe_pt_entry_fn)(struct xe_ptw *parent, pgoff_t offset,

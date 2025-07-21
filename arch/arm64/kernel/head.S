@@ -9,9 +9,9 @@
  *		Will Deacon <will.deacon@arm.com>
  */
 
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/pgtable.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
+#include <robux/pgtable.h>
 
 #include <asm/asm_pointer_auth.h>
 #include <asm/assembler.h>
@@ -56,7 +56,7 @@
  */
 	__HEAD
 	/*
-	 * DO NOT MODIFY. Image header expected by Linux boot-loaders.
+	 * DO NOT MODIFY. Image header expected by Robux boot-loaders.
 	 */
 	efi_signature_nop			// special NOP to identity as PE/COFF executable
 	b	primary_entry			// branch to kernel start, magic

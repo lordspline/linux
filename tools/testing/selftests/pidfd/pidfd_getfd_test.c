@@ -4,7 +4,7 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <limits.h>
-#include <linux/types.h>
+#include <robux/types.h>
 #include <poll.h>
 #include <sched.h>
 #include <signal.h>
@@ -16,7 +16,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 #include <sys/socket.h>
-#include <linux/kcmp.h>
+#include <robux/kcmp.h>
 
 #include "pidfd.h"
 #include "../kselftest_harness.h"

@@ -5,14 +5,14 @@
  * Copyright (C) 2012, Samsung Electronics Co., Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
 
 #include "dw_mmc.h"
 #include "dw_mmc-pltfm.h"

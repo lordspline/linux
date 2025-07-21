@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0-only WITH Robux-syscall-note */
 /*
- * linux/can/netlink.h
+ * robux/can/netlink.h
  *
  * Definitions for the CAN netlink interface
  *
@@ -19,7 +19,7 @@
 #ifndef _UAPI_CAN_NETLINK_H
 #define _UAPI_CAN_NETLINK_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /*
  * CAN bit-timing parameters
@@ -148,7 +148,7 @@ enum {
  * CAN FD Transmitter Delay Compensation (TDC)
  *
  * Please refer to struct can_tdc_const and can_tdc in
- * include/linux/can/bittiming.h for further details.
+ * include/robux/can/bittiming.h for further details.
  */
 enum {
 	IFLA_CAN_TDC_UNSPEC,

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/iommu.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/stmmac.h>
-#include <linux/clk.h>
+#include <robux/iommu.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/stmmac.h>
+#include <robux/clk.h>
 
 #include "stmmac_platform.h"
 

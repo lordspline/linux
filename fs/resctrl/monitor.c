@@ -17,10 +17,10 @@
 
 #define pr_fmt(fmt)	"resctrl: " fmt
 
-#include <linux/cpu.h>
-#include <linux/resctrl.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
+#include <robux/cpu.h>
+#include <robux/resctrl.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
 
 #include "internal.h"
 

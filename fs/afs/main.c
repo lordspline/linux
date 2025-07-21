@@ -5,13 +5,13 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/completion.h>
-#include <linux/sched.h>
-#include <linux/random.h>
-#include <linux/proc_fs.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/completion.h>
+#include <robux/sched.h>
+#include <robux/random.h>
+#include <robux/proc_fs.h>
 #define CREATE_TRACE_POINTS
 #include "internal.h"
 

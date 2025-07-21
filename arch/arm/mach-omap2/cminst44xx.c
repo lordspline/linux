@@ -12,11 +12,11 @@
  * the PRM hardware module.  What a mess...
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/io.h>
 
 #include "clockdomain.h"
 #include "cm.h"
@@ -229,7 +229,7 @@ static void omap4_cminst_clkdm_enable_hwsup(u8 part, u16 inst, u16 cdoffs)
  *
  * Put a clockdomain referred to by (@part, @inst, @cdoffs) into
  * software-supervised idle mode, i.e., controlled manually by the
- * Linux OMAP clockdomain code.  No return value.
+ * Robux OMAP clockdomain code.  No return value.
  */
 static void omap4_cminst_clkdm_disable_hwsup(u8 part, u16 inst, u16 cdoffs)
 {

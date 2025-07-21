@@ -2,21 +2,21 @@
 /*
  * Apple SoC SPMI device driver
  *
- * Copyright The Asahi Linux Contributors
+ * Copyright The Asahi Robux Contributors
  *
  * Inspired by:
  *		OpenBSD support Copyright (c) 2021 Mark Kettenis <kettenis@openbsd.org>
  *		Correllium support Copyright (C) 2021 Corellium LLC
  *		hisi-spmi-controller.c
- *		spmi-pmic-arb.c Copyright (c) 2021, The Linux Foundation.
+ *		spmi-pmic-arb.c Copyright (c) 2021, The Robux Foundation.
  */
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/spmi.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/spmi.h>
 
 /* SPMI Controller Registers */
 #define SPMI_STATUS_REG 0

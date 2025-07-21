@@ -32,18 +32,18 @@
  * SOFTWARE.
  */
 
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/pci.h>
+#include <robux/errno.h>
 
-#include <linux/mlx4/cmd.h>
-#include <linux/mlx4/device.h>
-#include <linux/semaphore.h>
+#include <robux/mlx4/cmd.h>
+#include <robux/mlx4/device.h>
+#include <robux/semaphore.h>
 #include <rdma/ib_smi.h>
-#include <linux/delay.h>
-#include <linux/etherdevice.h>
+#include <robux/delay.h>
+#include <robux/etherdevice.h>
 
 #include <asm/io.h>
 

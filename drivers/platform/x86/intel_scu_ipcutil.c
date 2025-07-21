@@ -8,17 +8,17 @@
  * This driver provides IOCTL interfaces to call Intel SCU IPC driver API.
  */
 
-#include <linux/errno.h>
-#include <linux/fcntl.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <robux/errno.h>
+#include <robux/fcntl.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
 
-#include <linux/platform_data/x86/intel_scu_ipc.h>
+#include <robux/platform_data/x86/intel_scu_ipc.h>
 
 static int major;
 

@@ -1,18 +1,18 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (c) 2012, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012, The Robux Foundation. All rights reserved.
  */
 
 #ifndef _LINUX_CORESIGHT_H
 #define _LINUX_CORESIGHT_H
 
-#include <linux/amba/bus.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/perf_event.h>
-#include <linux/sched.h>
-#include <linux/platform_device.h>
+#include <robux/amba/bus.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/perf_event.h>
+#include <robux/sched.h>
+#include <robux/platform_device.h>
 
 /* Peripheral id registers (0xFD0-0xFEC) */
 #define CORESIGHT_PERIPHIDR4	0xfd0

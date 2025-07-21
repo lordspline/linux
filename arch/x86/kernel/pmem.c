@@ -3,9 +3,9 @@
  * Copyright (c) 2015, Christoph Hellwig.
  * Copyright (c) 2015, Intel Corporation.
  */
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
 
 static int found(struct resource *res, void *data)
 {

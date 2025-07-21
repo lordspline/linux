@@ -8,27 +8,27 @@
  *	-- Copyright IBM Corp. 2003
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kdev_t.h>
-#include <linux/tty.h>
-#include <linux/vt_kern.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/panic_notifier.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/memblock.h>
-#include <linux/compat.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kdev_t.h>
+#include <robux/tty.h>
+#include <robux/vt_kern.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
+#include <robux/panic_notifier.h>
+#include <robux/reboot.h>
+#include <robux/slab.h>
+#include <robux/memblock.h>
+#include <robux/compat.h>
 
 #include <asm/machine.h>
 #include <asm/ccwdev.h>
 #include <asm/cio.h>
 #include <asm/ebcdic.h>
 #include <asm/cpcmd.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "raw3270.h"
 #include "keyboard.h"

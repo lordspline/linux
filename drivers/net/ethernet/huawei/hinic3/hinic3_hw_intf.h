@@ -4,8 +4,8 @@
 #ifndef _HINIC3_HW_INTF_H_
 #define _HINIC3_HW_INTF_H_
 
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/types.h>
 
 #define MGMT_MSG_CMD_OP_SET   1
 #define MGMT_MSG_CMD_OP_GET   0

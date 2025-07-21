@@ -1,5 +1,5 @@
 /*******************************************************************
- * This file is part of the Emulex Linux Device Driver for         *
+ * This file is part of the Emulex Robux Device Driver for         *
  * Fibre Channel Host Bus Adapters.                                *
  * Copyright (C) 2017-2025 Broadcom. All Rights Reserved. The term *
  * “Broadcom” refers to Broadcom Inc. and/or its subsidiaries.  *
@@ -21,26 +21,26 @@
  * included with this package.                                     *
  *******************************************************************/
 
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
-#include <linux/sched/clock.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/firmware.h>
-#include <linux/miscdevice.h>
-#include <linux/percpu.h>
-#include <linux/irq.h>
-#include <linux/bitops.h>
-#include <linux/crash_dump.h>
-#include <linux/cpu.h>
-#include <linux/cpuhotplug.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/idr.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/kthread.h>
+#include <robux/pci.h>
+#include <robux/spinlock.h>
+#include <robux/sched/clock.h>
+#include <robux/ctype.h>
+#include <robux/slab.h>
+#include <robux/firmware.h>
+#include <robux/miscdevice.h>
+#include <robux/percpu.h>
+#include <robux/irq.h>
+#include <robux/bitops.h>
+#include <robux/crash_dump.h>
+#include <robux/cpu.h>
+#include <robux/cpuhotplug.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_device.h>
@@ -14703,11 +14703,11 @@ out:
 }
 
 /**
- * lpfc_sli4_request_firmware_update - Request linux generic firmware upgrade
+ * lpfc_sli4_request_firmware_update - Request robux generic firmware upgrade
  * @phba: pointer to lpfc hba data structure.
  * @fw_upgrade: which firmware to update.
  *
- * This routine is called to perform Linux generic firmware upgrade on device
+ * This routine is called to perform Robux generic firmware upgrade on device
  * that supports such feature.
  **/
 int

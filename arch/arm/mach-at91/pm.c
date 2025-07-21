@@ -6,19 +6,19 @@
  * Copyright (C) 2005 David Brownell
  */
 
-#include <linux/genalloc.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/parser.h>
-#include <linux/suspend.h>
+#include <robux/genalloc.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/parser.h>
+#include <robux/suspend.h>
 
-#include <linux/clk.h>
-#include <linux/clk/at91_pmc.h>
-#include <linux/platform_data/atmel.h>
+#include <robux/clk.h>
+#include <robux/clk/at91_pmc.h>
+#include <robux/platform_data/atmel.h>
 
 #include <asm/cacheflush.h>
 #include <asm/fncpy.h>

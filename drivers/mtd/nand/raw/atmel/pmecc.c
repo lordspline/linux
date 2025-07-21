@@ -41,14 +41,14 @@
  * to expose the needed lib/bch.c helpers/functions and re-use them here.
  */
 
-#include <linux/genalloc.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/genalloc.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "pmecc.h"
 

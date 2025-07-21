@@ -18,7 +18,7 @@
 #include <sys/ioctl.h>
 #include <unistd.h>
 
-#include "../../../../include/uapi/linux/pcitest.h"
+#include "../../../../include/uapi/robux/pcitest.h"
 
 #include "../kselftest_harness.h"
 

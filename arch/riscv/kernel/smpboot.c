@@ -8,23 +8,23 @@
  * Copyright (C) 2017 SiFive
  */
 
-#include <linux/acpi.h>
-#include <linux/arch_topology.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/kernel_stat.h>
-#include <linux/notifier.h>
-#include <linux/cpu.h>
-#include <linux/percpu.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sched/mm.h>
+#include <robux/acpi.h>
+#include <robux/arch_topology.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/kernel_stat.h>
+#include <robux/notifier.h>
+#include <robux/cpu.h>
+#include <robux/percpu.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/sched/task_stack.h>
+#include <robux/sched/mm.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cpu_ops.h>

@@ -27,12 +27,12 @@
  */
 
 #define DEBUG
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/serio.h>
-#include <linux/libps2.h>
-#include <linux/delay.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/serio.h>
+#include <robux/libps2.h>
+#include <robux/delay.h>
 #include <asm/olpc.h>
 
 #include "psmouse.h"

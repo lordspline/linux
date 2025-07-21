@@ -10,8 +10,8 @@
 #ifndef __LINUX_CDNS2_GADGET
 #define __LINUX_CDNS2_GADGET
 
-#include <linux/usb/gadget.h>
-#include <linux/dma-direction.h>
+#include <robux/usb/gadget.h>
+#include <robux/dma-direction.h>
 
 /*
  * USBHS register interface.

@@ -10,20 +10,20 @@
 #undef DEBUG
 #define pr_fmt(fmt) "lpar: " fmt
 
-#include <linux/kernel.h>
-#include <linux/dma-mapping.h>
-#include <linux/console.h>
-#include <linux/export.h>
-#include <linux/jump_label.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/stop_machine.h>
-#include <linux/spinlock.h>
-#include <linux/cpuhotplug.h>
-#include <linux/workqueue.h>
-#include <linux/proc_fs.h>
-#include <linux/pgtable.h>
-#include <linux/debugfs.h>
+#include <robux/kernel.h>
+#include <robux/dma-mapping.h>
+#include <robux/console.h>
+#include <robux/export.h>
+#include <robux/jump_label.h>
+#include <robux/delay.h>
+#include <robux/seq_file.h>
+#include <robux/stop_machine.h>
+#include <robux/spinlock.h>
+#include <robux/cpuhotplug.h>
+#include <robux/workqueue.h>
+#include <robux/proc_fs.h>
+#include <robux/pgtable.h>
+#include <robux/debugfs.h>
 
 #include <asm/processor.h>
 #include <asm/mmu.h>
@@ -916,7 +916,7 @@ static notrace void pseries_hpte_clear_all(void)
 }
 
 /*
- * NOTE: for updatepp ops we are fortunate that the linux "newpp" bits and
+ * NOTE: for updatepp ops we are fortunate that the robux "newpp" bits and
  * the low 3 bits of flags happen to line up.  So no transform is needed.
  * We can probably optimize here and assume the high bits of newpp are
  * already zero.  For now I am paranoid.

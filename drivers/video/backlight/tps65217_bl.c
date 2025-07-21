@@ -8,13 +8,13 @@
  * Author: Matthias Kaehlcke <matthias@kaehlcke.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/backlight.h>
-#include <linux/err.h>
-#include <linux/mfd/tps65217.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/backlight.h>
+#include <robux/err.h>
+#include <robux/mfd/tps65217.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 struct tps65217_bl {
 	struct tps65217 *tps;

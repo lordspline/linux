@@ -6,7 +6,7 @@
 #ifndef _XE_GUC_ENGINE_ACTIVITY_H_
 #define _XE_GUC_ENGINE_ACTIVITY_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct xe_hw_engine;
 struct xe_guc;

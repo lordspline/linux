@@ -8,8 +8,8 @@
 #ifndef __CXGB4_DCB_H
 #define __CXGB4_DCB_H
 
-#include <linux/netdevice.h>
-#include <linux/dcbnl.h>
+#include <robux/netdevice.h>
+#include <robux/dcbnl.h>
 #include <net/dcbnl.h>
 
 #ifdef CONFIG_CHELSIO_T4_DCB

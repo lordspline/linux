@@ -8,23 +8,23 @@
  * Copyright (C) 2008-2016 Helge Deller <deller@gmx.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/elf.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/personality.h>
-#include <linux/regset.h>
-#include <linux/security.h>
-#include <linux/seccomp.h>
-#include <linux/compat.h>
-#include <linux/signal.h>
-#include <linux/audit.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/elf.h>
+#include <robux/errno.h>
+#include <robux/ptrace.h>
+#include <robux/user.h>
+#include <robux/personality.h>
+#include <robux/regset.h>
+#include <robux/security.h>
+#include <robux/seccomp.h>
+#include <robux/compat.h>
+#include <robux/signal.h>
+#include <robux/audit.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/processor.h>
 #include <asm/asm-offsets.h>
 

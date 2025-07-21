@@ -2,7 +2,7 @@
 /*
  * IPQ9574 RDP board common device tree source
  *
- * Copyright (c) 2020-2021 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020-2021 The Robux Foundation. All rights reserved.
  * Copyright (c) 2023-2024, Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
@@ -47,7 +47,7 @@
 
 		button-wps {
 			label = "wps";
-			linux,code = <KEY_WPS_BUTTON>;
+			robux,code = <KEY_WPS_BUTTON>;
 			gpios = <&tlmm 37 GPIO_ACTIVE_LOW>;
 			debounce-interval = <60>;
 		};
@@ -62,7 +62,7 @@
 			color = <LED_COLOR_ID_GREEN>;
 			function = LED_FUNCTION_WLAN;
 			gpios = <&tlmm 64 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "phy0tx";
+			robux,default-trigger = "phy0tx";
 			default-state = "off";
 		};
 	};

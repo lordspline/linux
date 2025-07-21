@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Hangzhou C-SKY Microsystems co.,ltd.
 
-#include <linux/cpu.h>
-#include <linux/sched.h>
-#include <linux/signal.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/user.h>
-#include <linux/string.h>
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/ptrace.h>
-#include <linux/kallsyms.h>
-#include <linux/rtc.h>
-#include <linux/uaccess.h>
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
-#include <linux/sched/debug.h>
+#include <robux/cpu.h>
+#include <robux/sched.h>
+#include <robux/signal.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/user.h>
+#include <robux/string.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
+#include <robux/ptrace.h>
+#include <robux/kallsyms.h>
+#include <robux/rtc.h>
+#include <robux/uaccess.h>
+#include <robux/kprobes.h>
+#include <robux/kdebug.h>
+#include <robux/sched/debug.h>
 
 #include <asm/setup.h>
 #include <asm/traps.h>

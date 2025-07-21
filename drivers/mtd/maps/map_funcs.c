@@ -4,11 +4,11 @@
  * is enabled.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
-#include <linux/mtd/map.h>
-#include <linux/mtd/xip.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/xip.h>
 
 static map_word __xipram simple_map_read(struct map_info *map, unsigned long ofs)
 {

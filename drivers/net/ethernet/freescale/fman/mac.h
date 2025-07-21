@@ -6,11 +6,11 @@
 #ifndef __MAC_H
 #define __MAC_H
 
-#include <linux/device.h>
-#include <linux/if_ether.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/list.h>
+#include <robux/device.h>
+#include <robux/if_ether.h>
+#include <robux/phy.h>
+#include <robux/phylink.h>
+#include <robux/list.h>
 
 #include "fman_port.h"
 #include "fman.h"

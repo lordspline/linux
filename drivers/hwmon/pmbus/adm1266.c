@@ -6,20 +6,20 @@
  * Copyright 2020 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/crc8.h>
-#include <linux/debugfs.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
+#include <robux/bitfield.h>
+#include <robux/crc8.h>
+#include <robux/debugfs.h>
+#include <robux/gpio/driver.h>
+#include <robux/i2c.h>
+#include <robux/i2c-smbus.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/nvmem-provider.h>
 #include "pmbus.h"
-#include <linux/slab.h>
-#include <linux/timekeeping.h>
+#include <robux/slab.h>
+#include <robux/timekeeping.h>
 
 #define ADM1266_BLACKBOX_CONFIG	0xD3
 #define ADM1266_PDIO_CONFIG	0xD4

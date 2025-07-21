@@ -2,7 +2,7 @@
 
 /* Firmware attributes class helper module */
 
-#include <linux/module.h>
+#include <robux/module.h>
 #include "firmware_attributes_class.h"
 
 const struct class firmware_attributes_class = {

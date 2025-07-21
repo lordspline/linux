@@ -5,11 +5,11 @@
 
 #include <drm/drm_device.h>
 #include <drm/drm_managed.h>
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/slab.h>
-#include <linux/xarray.h>
+#include <robux/bitfield.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/slab.h>
+#include <robux/xarray.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/amdxdna.h>

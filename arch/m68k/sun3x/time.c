@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/m68k/sun3x/time.c
+ *  robux/arch/m68k/sun3x/time.c
  *
  *  Sun3x-specific time handling
  */
 
-#include <linux/types.h>
-#include <linux/kd.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/kernel_stat.h>
-#include <linux/interrupt.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
+#include <robux/types.h>
+#include <robux/kd.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/kernel_stat.h>
+#include <robux/interrupt.h>
+#include <robux/rtc.h>
+#include <robux/bcd.h>
 
 #include <asm/irq.h>
 #include <asm/io.h>

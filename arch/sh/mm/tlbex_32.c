@@ -8,10 +8,10 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  */
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/kprobes.h>
+#include <robux/kdebug.h>
 #include <asm/mmu_context.h>
 #include <asm/thread_info.h>
 #include <asm/tlb.h>

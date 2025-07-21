@@ -11,16 +11,16 @@
  * bit, but not a full watchdog driver.
  */
 
-#include <linux/bcd.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/gfp.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/module.h>
+#include <robux/bcd.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/gfp.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/rtc.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/module.h>
 
 #define DS1511_SEC		0x0
 #define DS1511_MIN		0x1

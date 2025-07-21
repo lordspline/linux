@@ -19,7 +19,7 @@
 
 #include <net/ipv6.h>
 #include <net/addrconf.h>
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 
 /**
  * enum iwl_mld_d3_notif - d3 notifications

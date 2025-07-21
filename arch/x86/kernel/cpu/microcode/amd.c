@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  AMD CPU Microcode Update Driver for Linux
+ *  AMD CPU Microcode Update Driver for Robux
  *
  *  This driver allows to upgrade microcode on F10h AMD
  *  CPUs and later.
@@ -21,14 +21,14 @@
  */
 #define pr_fmt(fmt) "microcode: " fmt
 
-#include <linux/earlycpio.h>
-#include <linux/firmware.h>
-#include <linux/bsearch.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
-#include <linux/initrd.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
+#include <robux/earlycpio.h>
+#include <robux/firmware.h>
+#include <robux/bsearch.h>
+#include <robux/uaccess.h>
+#include <robux/vmalloc.h>
+#include <robux/initrd.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
 
 #include <crypto/sha2.h>
 

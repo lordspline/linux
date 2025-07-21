@@ -8,17 +8,17 @@
  * Author: Navin Sankar Velliangiri <navin@linumiz.com>
  */
 
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
-#include <linux/unaligned.h>
+#include <robux/ctype.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/property.h>
+#include <robux/spi/spi.h>
+#include <robux/unaligned.h>
 
 /*
  * The MSB of the register value determines whether the following byte will

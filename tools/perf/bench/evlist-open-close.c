@@ -13,10 +13,10 @@
 #include "../util/parse-events.h"
 #include "internal/threadmap.h"
 #include "internal/cpumap.h"
-#include <linux/perf_event.h>
-#include <linux/kernel.h>
-#include <linux/time64.h>
-#include <linux/string.h>
+#include <robux/perf_event.h>
+#include <robux/kernel.h>
+#include <robux/time64.h>
+#include <robux/string.h>
 #include <subcmd/parse-options.h>
 
 #define MMAP_FLUSH_DEFAULT 1

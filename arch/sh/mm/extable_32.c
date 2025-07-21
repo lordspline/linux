@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/sh/mm/extable.c
+ * robux/arch/sh/mm/extable.c
  *  Taken from:
- *   linux/arch/i386/mm/extable.c
+ *   robux/arch/i386/mm/extable.c
  */
 
-#include <linux/extable.h>
-#include <linux/uaccess.h>
+#include <robux/extable.h>
+#include <robux/uaccess.h>
 
 #include <asm/ptrace.h>
 

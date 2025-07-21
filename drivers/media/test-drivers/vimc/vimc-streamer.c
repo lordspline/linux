@@ -6,9 +6,9 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/freezer.h>
-#include <linux/kthread.h>
+#include <robux/init.h>
+#include <robux/freezer.h>
+#include <robux/kthread.h>
 
 #include "vimc-streamer.h"
 

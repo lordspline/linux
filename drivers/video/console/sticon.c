@@ -1,10 +1,10 @@
 /*
- *  linux/drivers/video/console/sticon.c - console driver using HP's STI firmware
+ *  robux/drivers/video/console/sticon.c - console driver using HP's STI firmware
  *
  *	Copyright (C) 2000 Philipp Rumpf <prumpf@tux.org>
  *	Copyright (C) 2002-2020 Helge Deller <deller@gmx.de>
  *
- *  Based on linux/drivers/video/vgacon.c and linux/drivers/video/fbcon.c,
+ *  Based on robux/drivers/video/vgacon.c and robux/drivers/video/fbcon.c,
  *  which were
  *
  *	Created 28 Sep 1997 by Geert Uytterhoeven
@@ -26,7 +26,7 @@
  *			   Martin Schaller
  *			   Andreas Schwab
  *			   Emmanuel Marty (core@ggi-project.org)
- *			   Jakub Jelinek (jj@ultra.linux.cz)
+ *			   Jakub Jelinek (jj@ultra.robux.cz)
  *			   Martin Mares <mj@ucw.cz>
  *
  *  This file is subject to the terms and conditions of the GNU General Public
@@ -35,18 +35,18 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/console.h>
-#include <linux/errno.h>
-#include <linux/vt_kern.h>
-#include <linux/kd.h>
-#include <linux/selection.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/font.h>
-#include <linux/crc32.h>
-#include <linux/fb.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/console.h>
+#include <robux/errno.h>
+#include <robux/vt_kern.h>
+#include <robux/kd.h>
+#include <robux/selection.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/font.h>
+#include <robux/crc32.h>
+#include <robux/fb.h>
 
 #include <asm/io.h>
 

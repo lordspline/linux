@@ -8,16 +8,16 @@
  *		Initial version.
  */
 
-#include <linux/kernel.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/backing-dev.h>
-#include <linux/fadvise.h>
-#include <linux/writeback.h>
-#include <linux/syscalls.h>
-#include <linux/swap.h>
+#include <robux/kernel.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/pagemap.h>
+#include <robux/backing-dev.h>
+#include <robux/fadvise.h>
+#include <robux/writeback.h>
+#include <robux/syscalls.h>
+#include <robux/swap.h>
 
 #include <asm/unistd.h>
 

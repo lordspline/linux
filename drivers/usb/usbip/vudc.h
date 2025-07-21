@@ -9,14 +9,14 @@
 #ifndef __USBIP_VUDC_H
 #define __USBIP_VUDC_H
 
-#include <linux/platform_device.h>
-#include <linux/usb.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/ch9.h>
-#include <linux/list.h>
-#include <linux/timer.h>
-#include <linux/time.h>
-#include <linux/sysfs.h>
+#include <robux/platform_device.h>
+#include <robux/usb.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/ch9.h>
+#include <robux/list.h>
+#include <robux/timer.h>
+#include <robux/time.h>
+#include <robux/sysfs.h>
 
 #include "usbip_common.h"
 

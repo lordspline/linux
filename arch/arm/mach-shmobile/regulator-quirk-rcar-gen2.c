@@ -19,15 +19,15 @@
  * Copyright (C) 2015 Glider bvba
  */
 
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/mfd/da9063/registers.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/list.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/mfd/da9063/registers.h>
 
 #define IRQC_BASE		0xe61c0000
 #define IRQC_MONITOR		0x104	/* IRQn Signal Level Monitor Register */

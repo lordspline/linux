@@ -2,13 +2,13 @@
 /*
  * vDSO implementation for Hexagon
  *
- * Copyright (c) 2011, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2011, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/err.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/binfmts.h>
+#include <robux/err.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/binfmts.h>
 
 #include <asm/elf.h>
 #include <asm/vdso.h>

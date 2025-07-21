@@ -6,15 +6,15 @@
 
 */
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 #include <asm/page.h>
-#include <linux/vmalloc.h>
-#include <linux/pci.h>
+#include <robux/vmalloc.h>
+#include <robux/pci.h>
 
 #include <asm/irq.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

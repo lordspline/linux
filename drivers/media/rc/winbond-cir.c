@@ -29,18 +29,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/pnp.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/leds.h>
-#include <linux/spinlock.h>
-#include <linux/pci_ids.h>
-#include <linux/io.h>
-#include <linux/bitrev.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
+#include <robux/module.h>
+#include <robux/pnp.h>
+#include <robux/interrupt.h>
+#include <robux/timer.h>
+#include <robux/leds.h>
+#include <robux/spinlock.h>
+#include <robux/pci_ids.h>
+#include <robux/io.h>
+#include <robux/bitrev.h>
+#include <robux/slab.h>
+#include <robux/wait.h>
+#include <robux/sched.h>
 #include <media/rc-core.h>
 
 #define DRVNAME "winbond-cir"

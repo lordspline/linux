@@ -3,13 +3,13 @@
  * Copyright 2015-2016, Aneesh Kumar K.V, IBM Corporation.
  */
 
-#include <linux/sched.h>
-#include <linux/mm_types.h>
-#include <linux/memblock.h>
-#include <linux/memremap.h>
-#include <linux/pkeys.h>
-#include <linux/debugfs.h>
-#include <linux/proc_fs.h>
+#include <robux/sched.h>
+#include <robux/mm_types.h>
+#include <robux/memblock.h>
+#include <robux/memremap.h>
+#include <robux/pkeys.h>
+#include <robux/debugfs.h>
+#include <robux/proc_fs.h>
 
 #include <asm/pgalloc.h>
 #include <asm/tlb.h>

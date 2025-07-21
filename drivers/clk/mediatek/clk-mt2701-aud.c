@@ -4,11 +4,11 @@
  * Author: Ryder Lee <ryder.lee@mediatek.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 
 #include "clk-mtk.h"
 #include "clk-gate.h"

@@ -7,15 +7,15 @@
  *
  * Copyright © CC Computer Consultants GmbH, 2007 - 2008
  */
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/file.h>
-#include <linux/cred.h>
+#include <robux/module.h>
+#include <robux/skbuff.h>
+#include <robux/file.h>
+#include <robux/cred.h>
 
 #include <net/sock.h>
 #include <net/inet_sock.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_owner.h>
+#include <robux/netfilter/x_tables.h>
+#include <robux/netfilter/xt_owner.h>
 
 static int owner_check(const struct xt_mtchk_param *par)
 {

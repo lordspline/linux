@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2016-2018, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2016-2018, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/atomic.h>
-#include <linux/bug.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <robux/atomic.h>
+#include <robux/bug.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/lockdep.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/wait.h>
 
 #include <soc/qcom/rpmh.h>
 

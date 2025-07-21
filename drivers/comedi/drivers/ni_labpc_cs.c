@@ -37,8 +37,8 @@
  *   340988a (daqcard-1200)
  */
 
-#include <linux/module.h>
-#include <linux/comedi/comedi_pcmcia.h>
+#include <robux/module.h>
+#include <robux/comedi/comedi_pcmcia.h>
 
 #include "ni_labpc.h"
 

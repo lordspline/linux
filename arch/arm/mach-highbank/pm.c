@@ -3,14 +3,14 @@
  * Copyright 2011 Calxeda, Inc.
  */
 
-#include <linux/cpu_pm.h>
-#include <linux/init.h>
-#include <linux/psci.h>
-#include <linux/suspend.h>
+#include <robux/cpu_pm.h>
+#include <robux/init.h>
+#include <robux/psci.h>
+#include <robux/suspend.h>
 
 #include <asm/suspend.h>
 
-#include <uapi/linux/psci.h>
+#include <uapi/robux/psci.h>
 
 #include "core.h"
 

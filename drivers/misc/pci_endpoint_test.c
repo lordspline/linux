@@ -6,25 +6,25 @@
  * Author: Kishon Vijay Abraham I <kishon@ti.com>
  */
 
-#include <linux/crc32.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/random.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
+#include <robux/crc32.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/random.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
 
-#include <linux/pci_regs.h>
+#include <robux/pci_regs.h>
 
-#include <uapi/linux/pcitest.h>
+#include <uapi/robux/pcitest.h>
 
 #define DRV_MODULE_NAME				"pci-endpoint-test"
 

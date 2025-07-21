@@ -17,12 +17,12 @@
 #ifndef __FIRMWARE_TRUSTED_FOUNDATIONS_H
 #define __FIRMWARE_TRUSTED_FOUNDATIONS_H
 
-#include <linux/printk.h>
-#include <linux/bug.h>
-#include <linux/of.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
-#include <linux/types.h>
+#include <robux/printk.h>
+#include <robux/bug.h>
+#include <robux/of.h>
+#include <robux/cpu.h>
+#include <robux/smp.h>
+#include <robux/types.h>
 
 #include <asm/hardware/cache-l2x0.h>
 #include <asm/outercache.h>

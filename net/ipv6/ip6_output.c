@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  *	IPv6 output functions
- *	Linux INET6 implementation
+ *	Robux INET6 implementation
  *
  *	Authors:
  *	Pedro Roque		<roque@di.fc.ul.pt>
  *
- *	Based on linux/net/ipv4/ip_output.c
+ *	Based on robux/net/ipv4/ip_output.c
  *
  *	Changes:
  *	A.N.Kuznetsov	:	airthmetics in fragmentation.
@@ -15,29 +15,29 @@
  *				ip6_forward does not confuse sniffers.
  *				etc.
  *
- *      H. von Brand    :       Added missing #include <linux/string.h>
+ *      H. von Brand    :       Added missing #include <robux/string.h>
  *	Imran Patel	:	frag id should be in NBO
  *      Kazunori MIYAZAWA @USAGI
  *			:       add ip6_append_data and related functions
  *				for datagram xmit
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/socket.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/in6.h>
-#include <linux/tcp.h>
-#include <linux/route.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/socket.h>
+#include <robux/net.h>
+#include <robux/netdevice.h>
+#include <robux/if_arp.h>
+#include <robux/in6.h>
+#include <robux/tcp.h>
+#include <robux/route.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
-#include <linux/bpf-cgroup.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv6.h>
+#include <robux/bpf-cgroup.h>
+#include <robux/netfilter.h>
+#include <robux/netfilter_ipv6.h>
 
 #include <net/sock.h>
 #include <net/snmp.h>
@@ -52,7 +52,7 @@
 #include <net/icmp.h>
 #include <net/xfrm.h>
 #include <net/checksum.h>
-#include <linux/mroute6.h>
+#include <robux/mroute6.h>
 #include <net/l3mdev.h>
 #include <net/lwtunnel.h>
 #include <net/ip_tunnels.h>

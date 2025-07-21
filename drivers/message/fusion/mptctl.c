@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/message/fusion/mptctl.c
+ *  robux/drivers/message/fusion/mptctl.c
  *      mpt Ioctl driver.
  *      For use with LSI PCI chip/adapters
  *      running LSI Fusion MPT (Message Passing Technology) firmware.
@@ -45,20 +45,20 @@
 */
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/delay.h>	/* for mdelay */
-#include <linux/miscdevice.h>
-#include <linux/mutex.h>
-#include <linux/compat.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/delay.h>	/* for mdelay */
+#include <robux/miscdevice.h>
+#include <robux/mutex.h>
+#include <robux/compat.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
@@ -159,7 +159,7 @@ static struct fasync_struct *async_queue=NULL;
 //                  ^----------------- 80 + 512
 #define MAX_SGL_BYTES		((MAX_FRAGS_SPILL1 + 1 + (4 * FRAGS_PER_BUCKET)) * 8)
 
-/* linux only seems to ever give 128kB MAX contiguous (GFP_USER) mem bytes */
+/* robux only seems to ever give 128kB MAX contiguous (GFP_USER) mem bytes */
 #define MAX_KMALLOC_SZ		(128*1024)
 
 #define MPT_IOCTL_DEFAULT_TIMEOUT 10	/* Default timeout value (seconds) */

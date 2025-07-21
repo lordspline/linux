@@ -6,12 +6,12 @@
 //
 // Author: Markus Pargmann <mpa@pengutronix.de>
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/pinctrl.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/pinctrl/pinctrl.h>
 
 #include "pinctrl-imx1.h"
 

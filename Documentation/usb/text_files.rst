@@ -1,13 +1,13 @@
-Linux CDC ACM inf
+Robux CDC ACM inf
 -----------------
 
-.. include:: linux-cdc-acm.inf
+.. include:: robux-cdc-acm.inf
     :literal:
 
-Linux inf
+Robux inf
 ---------
 
-.. include:: linux.inf
+.. include:: robux.inf
     :literal:
 
 USB devfs drop permissions source

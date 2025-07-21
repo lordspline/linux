@@ -2,8 +2,8 @@
 
 /* Copyright (C) 2021-2024 Linaro Ltd. */
 
-#include <linux/array_size.h>
-#include <linux/log2.h>
+#include <robux/array_size.h>
+#include <robux/log2.h>
 
 #include "../ipa_data.h"
 #include "../ipa_endpoint.h"

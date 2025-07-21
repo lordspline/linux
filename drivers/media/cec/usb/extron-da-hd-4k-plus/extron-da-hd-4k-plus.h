@@ -7,9 +7,9 @@
 #ifndef _EXTRON_DA_HD_4K_PLUS_H_
 #define _EXTRON_DA_HD_4K_PLUS_H_
 
-#include <linux/kthread.h>
-#include <linux/serio.h>
-#include <linux/workqueue.h>
+#include <robux/kthread.h>
+#include <robux/serio.h>
+#include <robux/workqueue.h>
 #include <media/cec.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-dev.h>

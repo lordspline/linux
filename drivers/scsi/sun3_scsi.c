@@ -23,13 +23,13 @@
  * Copyright 1995, Russell King
  */
 
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/platform_device.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/blkdev.h>
+#include <robux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/dvma.h>

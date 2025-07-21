@@ -4,7 +4,7 @@
 #ifndef _HINIC3_MGMT_H_
 #define _HINIC3_MGMT_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct hinic3_hwdev;
 

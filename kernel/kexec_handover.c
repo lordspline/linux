@@ -8,16 +8,16 @@
 
 #define pr_fmt(fmt) "KHO: " fmt
 
-#include <linux/cma.h>
-#include <linux/count_zeros.h>
-#include <linux/debugfs.h>
-#include <linux/kexec.h>
-#include <linux/kexec_handover.h>
-#include <linux/libfdt.h>
-#include <linux/list.h>
-#include <linux/memblock.h>
-#include <linux/notifier.h>
-#include <linux/page-isolation.h>
+#include <robux/cma.h>
+#include <robux/count_zeros.h>
+#include <robux/debugfs.h>
+#include <robux/kexec.h>
+#include <robux/kexec_handover.h>
+#include <robux/libfdt.h>
+#include <robux/list.h>
+#include <robux/memblock.h>
+#include <robux/notifier.h>
+#include <robux/page-isolation.h>
 
 #include <asm/early_ioremap.h>
 

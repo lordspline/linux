@@ -8,10 +8,10 @@
  * Copyright (c) 2009 Wind River Systems, Inc.  All Rights Reserved.
  */
 
-#include <linux/kdb.h>
-#include <linux/keyboard.h>
-#include <linux/ctype.h>
-#include <linux/io.h>
+#include <robux/kdb.h>
+#include <robux/keyboard.h>
+#include <robux/ctype.h>
+#include <robux/io.h>
 
 #include "kdb_private.h"
 

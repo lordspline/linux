@@ -11,12 +11,12 @@
 #define KMSG_COMPONENT "cio"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
 
 #include <asm/cio.h>
 #include <asm/chpid.h>
@@ -57,7 +57,7 @@ EXPORT_SYMBOL(chsc_notifier_unregister);
  * chsc_error_from_response() - convert a chsc response to an error
  * @response: chsc response code
  *
- * Returns an appropriate Linux error code for @response.
+ * Returns an appropriate Robux error code for @response.
  */
 int chsc_error_from_response(int response)
 {

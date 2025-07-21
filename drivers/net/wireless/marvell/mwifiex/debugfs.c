@@ -5,7 +5,7 @@
  * Copyright 2011-2020 NXP
  */
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 #include "main.h"
 #include "11n.h"

@@ -7,9 +7,9 @@
 #ifndef __INODE_DOT_H__
 #define __INODE_DOT_H__
 
-#include <linux/fs.h>
-#include <linux/buffer_head.h>
-#include <linux/mm.h>
+#include <robux/fs.h>
+#include <robux/buffer_head.h>
+#include <robux/mm.h>
 #include "util.h"
 
 bool gfs2_release_folio(struct folio *folio, gfp_t gfp_mask);

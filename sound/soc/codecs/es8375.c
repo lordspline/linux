@@ -7,20 +7,20 @@
  * Authors:  Michael Zhang (zhangyi@everest-semi.com)
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/tlv.h>
 #include <sound/soc.h>
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 #include "es8375.h"
 
 struct	es8375_priv {

@@ -6,7 +6,7 @@
 #ifndef _LINUX_AUTO_FS_H
 #define _LINUX_AUTO_FS_H
 
-#include <linux/fs.h>
-#include <linux/ioctl.h>
-#include <uapi/linux/auto_fs.h>
+#include <robux/fs.h>
+#include <robux/ioctl.h>
+#include <uapi/robux/auto_fs.h>
 #endif /* _LINUX_AUTO_FS_H */

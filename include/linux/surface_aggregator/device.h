@@ -13,12 +13,12 @@
 #ifndef _LINUX_SURFACE_AGGREGATOR_DEVICE_H
 #define _LINUX_SURFACE_AGGREGATOR_DEVICE_H
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/types.h>
 
-#include <linux/surface_aggregator/controller.h>
+#include <robux/surface_aggregator/controller.h>
 
 
 /* -- Surface System Aggregator Module bus. --------------------------------- */

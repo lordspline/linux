@@ -28,7 +28,7 @@
 #include "xfs_xattr.h"
 #include "xfs_acl.h"
 
-#include <linux/namei.h>
+#include <robux/namei.h>
 
 static inline size_t
 xfs_filehandle_fid_len(void)

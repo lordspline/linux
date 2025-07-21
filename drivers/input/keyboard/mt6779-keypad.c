@@ -3,15 +3,15 @@
  * Copyright (C) 2022 MediaTek Inc.
  * Author Fengping Yu <fengping.yu@mediatek.com>
  */
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/input.h>
+#include <robux/input/matrix_keypad.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define MTK_KPD_NAME		"mt6779-keypad"
 #define MTK_KPD_MEM		0x0004
@@ -84,7 +84,7 @@ static irqreturn_t mt6779_keypad_irq_handler(int irq, void *dev_id)
 		input_sync(keypad->input_dev);
 
 		dev_dbg(&keypad->input_dev->dev,
-			"report Linux keycode = %d\n", keycode[scancode]);
+			"report Robux keycode = %d\n", keycode[scancode]);
 	}
 
 	bitmap_copy(keypad->keymap_state, new_state, MTK_KPD_NUM_BITS);

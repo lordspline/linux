@@ -19,28 +19,28 @@
  */
 
 
-#include <linux/bits.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/platform_device.h>
-#include <linux/async.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/buffer_head.h>
-#include <linux/slab.h>
-#include <linux/firmware.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/acpi.h>
-#include <linux/of.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/uuid.h>
-#include <linux/unaligned.h>
+#include <robux/bits.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/platform_device.h>
+#include <robux/async.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/uaccess.h>
+#include <robux/buffer_head.h>
+#include <robux/slab.h>
+#include <robux/firmware.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/acpi.h>
+#include <robux/of.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regulator/consumer.h>
+#include <robux/uuid.h>
+#include <robux/unaligned.h>
 
 /* Device, Driver information */
 #define DEVICE_NAME	"elants_i2c"

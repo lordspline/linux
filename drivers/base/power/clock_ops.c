@@ -5,18 +5,18 @@
  * Copyright (c) 2011 Rafael J. Wysocki <rjw@sisk.pl>, Renesas Electronics Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/pm.h>
-#include <linux/pm_clock.h>
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/of_clk.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/pm.h>
+#include <robux/pm_clock.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/of_clk.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
 
 #ifdef CONFIG_PM_CLK
 

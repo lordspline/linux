@@ -6,14 +6,14 @@
  * Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

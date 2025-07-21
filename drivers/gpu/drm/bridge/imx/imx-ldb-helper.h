@@ -7,10 +7,10 @@
 #ifndef __IMX_LDB_HELPER__
 #define __IMX_LDB_HELPER__
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_bridge.h>

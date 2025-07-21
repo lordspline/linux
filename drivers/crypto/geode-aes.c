@@ -2,19 +2,19 @@
  /* Copyright (C) 2004-2006, Advanced Micro Devices, Inc.
   */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/crypto.h>
-#include <linux/spinlock.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/crypto.h>
+#include <robux/spinlock.h>
 #include <crypto/algapi.h>
 #include <crypto/aes.h>
 #include <crypto/internal/cipher.h>
 #include <crypto/internal/skcipher.h>
 
-#include <linux/io.h>
-#include <linux/delay.h>
+#include <robux/io.h>
+#include <robux/delay.h>
 
 #include "geode-aes.h"
 

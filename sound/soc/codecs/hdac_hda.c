@@ -7,11 +7,11 @@
  * codec drivers using hdac_ext_bus_ops ops.
  */
 
-#include <linux/firmware.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
+#include <robux/firmware.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/hdaudio_ext.h>

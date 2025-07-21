@@ -3,24 +3,24 @@
  * PCI detection and setup code
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/msi.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pci_hotplug.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/cpumask.h>
-#include <linux/aer.h>
-#include <linux/acpi.h>
-#include <linux/hypervisor.h>
-#include <linux/irqdomain.h>
-#include <linux/pm_runtime.h>
-#include <linux/bitfield.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/msi.h>
+#include <robux/of_pci.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pci_hotplug.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/cpumask.h>
+#include <robux/aer.h>
+#include <robux/acpi.h>
+#include <robux/hypervisor.h>
+#include <robux/irqdomain.h>
+#include <robux/pm_runtime.h>
+#include <robux/bitfield.h>
 #include "pci.h"
 
 #define CARDBUS_LATENCY_TIMER	176	/* secondary latency timer */

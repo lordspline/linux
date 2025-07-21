@@ -6,10 +6,10 @@
  *  soc-sdw-utils.c - common SoundWire machine driver helper functions
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_type.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/soundwire/sdw_type.h>
 #include <sound/sdca_function.h>
 #include <sound/soc_sdw_utils.h>
 

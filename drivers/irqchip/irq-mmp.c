@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-mmp/irq.c
+ *  robux/arch/arm/mach-mmp/irq.c
  *
  *  Generic IRQ handling, GPIO IRQ demultiplexing, etc.
  *  Copyright (C) 2008 - 2012 Marvell Technology Group Ltd.
@@ -9,16 +9,16 @@
  *              Haojian Zhuang <haojian.zhuang@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 #include <asm/exception.h>
 #include <asm/hardirq.h>

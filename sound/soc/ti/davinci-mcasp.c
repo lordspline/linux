@@ -12,19 +12,19 @@
  * Copyright:   (C) 2009  Texas Instruments, India
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/platform_data/davinci_asp.h>
-#include <linux/math64.h>
-#include <linux/bitmap.h>
-#include <linux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/pm_runtime.h>
+#include <robux/of.h>
+#include <robux/platform_data/davinci_asp.h>
+#include <robux/math64.h>
+#include <robux/bitmap.h>
+#include <robux/gpio/driver.h>
 
 #include <sound/asoundef.h>
 #include <sound/core.h>

@@ -3,11 +3,11 @@
  * Copyright 2018 NXP
  */
 
-#include <linux/clk-provider.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/slab.h>
 
 #include "clk.h"
 

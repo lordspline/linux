@@ -4,15 +4,15 @@
  *
  * Copyright (c) 2021 Tomasz Duszynski <tomasz.duszynski@octakon.com>
  */
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/iio/iio.h>
-#include <linux/minmax.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/serdev.h>
-#include <linux/types.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/iio/iio.h>
+#include <robux/minmax.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/serdev.h>
+#include <robux/types.h>
 
 #include "sps30.h"
 

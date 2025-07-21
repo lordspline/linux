@@ -8,16 +8,16 @@
  * This was inspired by Brendan Higgins' ipmi-bmc-bt-i2c driver.
  */
 
-#include <linux/acpi.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
+#include <robux/acpi.h>
+#include <robux/errno.h>
+#include <robux/i2c.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/poll.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/wait.h>
 
 #define MAX_MSG_LEN		240
 #define IPMB_REQUEST_LEN_MIN	7

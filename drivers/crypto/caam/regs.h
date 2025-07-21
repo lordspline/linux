@@ -9,10 +9,10 @@
 #ifndef REGS_H
 #define REGS_H
 
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
+#include <robux/types.h>
+#include <robux/bitops.h>
+#include <robux/io.h>
+#include <robux/io-64-nonatomic-hi-lo.h>
 
 /*
  * Architecture-specific register access methods

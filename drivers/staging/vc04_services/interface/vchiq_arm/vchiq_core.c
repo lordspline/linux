@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0 OR BSD-3-Clause
 /* Copyright (c) 2010-2012 Broadcom. All rights reserved. */
 
-#include <linux/types.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/highmem.h>
-#include <linux/kthread.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/kref.h>
-#include <linux/rcupdate.h>
-#include <linux/sched/signal.h>
+#include <robux/types.h>
+#include <robux/completion.h>
+#include <robux/mutex.h>
+#include <robux/bitops.h>
+#include <robux/io.h>
+#include <robux/highmem.h>
+#include <robux/kthread.h>
+#include <robux/wait.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/kref.h>
+#include <robux/rcupdate.h>
+#include <robux/sched/signal.h>
 
 #include "vchiq_arm.h"
 #include "vchiq_core.h"

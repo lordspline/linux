@@ -27,15 +27,15 @@ include $(srctree)/tools/build/Makefile.include
 #
 # We need the following to be outside of kernel tree
 #
-$(OUTPUT)include/linux/isst_if.h: ../../../../include/uapi/linux/isst_if.h
-	mkdir -p $(OUTPUT)include/linux 2>&1 || true
-	ln -sf $(CURDIR)/../../../../include/uapi/linux/isst_if.h $@
+$(OUTPUT)include/robux/isst_if.h: ../../../../include/uapi/robux/isst_if.h
+	mkdir -p $(OUTPUT)include/robux 2>&1 || true
+	ln -sf $(CURDIR)/../../../../include/uapi/robux/isst_if.h $@
 
-$(OUTPUT)include/linux/thermal.h: ../../../../include/uapi/linux/thermal.h
-	mkdir -p $(OUTPUT)include/linux 2>&1 || true
-	ln -sf $(CURDIR)/../../../../include/uapi/linux/thermal.h $@
+$(OUTPUT)include/robux/thermal.h: ../../../../include/uapi/robux/thermal.h
+	mkdir -p $(OUTPUT)include/robux 2>&1 || true
+	ln -sf $(CURDIR)/../../../../include/uapi/robux/thermal.h $@
 
-prepare: $(OUTPUT)include/linux/isst_if.h $(OUTPUT)include/linux/thermal.h
+prepare: $(OUTPUT)include/robux/isst_if.h $(OUTPUT)include/robux/thermal.h
 
 ISST_IN := $(OUTPUT)intel-speed-select-in.o
 
@@ -46,7 +46,7 @@ $(OUTPUT)intel-speed-select: $(ISST_IN)
 
 clean:
 	rm -f $(ALL_PROGRAMS)
-	rm -rf $(OUTPUT)include/linux/isst_if.h
+	rm -rf $(OUTPUT)include/robux/isst_if.h
 	find $(or $(OUTPUT),.) -name '*.o' -delete -o -name '\.*.d' -delete
 
 install: $(ALL_PROGRAMS)

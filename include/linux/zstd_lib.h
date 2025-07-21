@@ -14,11 +14,11 @@
 
 
 /* ======   Dependencies   ======*/
-#include <linux/types.h>   /* size_t */
+#include <robux/types.h>   /* size_t */
 
-#include <linux/zstd_errors.h> /* list of errors */
+#include <robux/zstd_errors.h> /* list of errors */
 #if !defined(ZSTD_H_ZSTD_STATIC_LINKING_ONLY)
-#include <linux/limits.h>   /* INT_MAX */
+#include <robux/limits.h>   /* INT_MAX */
 #endif /* ZSTD_STATIC_LINKING_ONLY */
 
 

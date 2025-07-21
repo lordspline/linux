@@ -5,13 +5,13 @@
  * Copyright (c) by Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/irq.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include "pmac.h"

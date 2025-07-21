@@ -14,17 +14,17 @@
 #ifndef ATLX_C
 #define ATLX_C
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/etherdevice.h>
-#include <linux/if.h>
-#include <linux/netdevice.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/etherdevice.h>
+#include <robux/if.h>
+#include <robux/netdevice.h>
+#include <robux/socket.h>
+#include <robux/sockios.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include "atlx.h"
 

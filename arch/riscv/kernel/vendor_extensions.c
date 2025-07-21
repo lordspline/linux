@@ -9,8 +9,8 @@
 #include <asm/vendor_extensions/sifive.h>
 #include <asm/vendor_extensions/thead.h>
 
-#include <linux/array_size.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/types.h>
 
 struct riscv_isa_vendor_ext_data_list *riscv_isa_vendor_ext_list[] = {
 #ifdef CONFIG_RISCV_ISA_VENDOR_EXT_ANDES

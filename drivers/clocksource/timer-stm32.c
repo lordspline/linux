@@ -6,19 +6,19 @@
  * Inspired by time-efm32.c from Uwe Kleine-Koenig
  */
 
-#include <linux/kernel.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/clk.h>
-#include <linux/reset.h>
-#include <linux/sched_clock.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/clocksource.h>
+#include <robux/clockchips.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/clk.h>
+#include <robux/reset.h>
+#include <robux/sched_clock.h>
+#include <robux/slab.h>
 
 #include "timer-of.h"
 

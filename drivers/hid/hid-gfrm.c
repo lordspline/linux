@@ -6,10 +6,10 @@
  *
  * Author: Petri Gynther <pgynther@google.com>
  */
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/input.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/input.h>
+#include <robux/module.h>
 
 #include "hid-ids.h"
 

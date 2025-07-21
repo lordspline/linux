@@ -25,10 +25,10 @@
  *  675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/mm.h>
-#include <linux/dma-map-ops.h> /* for dma_default_coherent */
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/mm.h>
+#include <robux/dma-map-ops.h> /* for dma_default_coherent */
 
 #include <asm/bootinfo.h>
 #include <asm/mipsregs.h>

@@ -5,10 +5,10 @@
  * Copyright 2019 IBM Corp.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/kernel.h>
-#include <linux/reset-controller.h>
-#include <linux/spinlock.h>
+#include <robux/clk-provider.h>
+#include <robux/kernel.h>
+#include <robux/reset-controller.h>
+#include <robux/spinlock.h>
 
 struct clk_div_table;
 struct regmap;

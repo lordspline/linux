@@ -5,24 +5,24 @@
  *  Copyright (C) 2012-2014 Wolfson Microelectronics plc
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio.h>
-#include <linux/input.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio.h>
+#include <robux/input.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
 
 #include <sound/jack.h>
 #include <sound/soc.h>
 
-#include <linux/mfd/arizona/core.h>
-#include <linux/mfd/arizona/pdata.h>
-#include <linux/mfd/arizona/registers.h>
+#include <robux/mfd/arizona/core.h>
+#include <robux/mfd/arizona/pdata.h>
+#include <robux/mfd/arizona/registers.h>
 #include <dt-bindings/mfd/arizona.h>
 
 #include "arizona.h"

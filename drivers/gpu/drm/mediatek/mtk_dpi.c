@@ -4,19 +4,19 @@
  * Author: Jie Qiu <jie.qiu@mediatek.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/debugfs.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/media-bus-format.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/soc/mediatek/mtk-mmsys.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/debugfs.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/media-bus-format.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/soc/mediatek/mtk-mmsys.h>
+#include <robux/types.h>
 
 #include <video/videomode.h>
 

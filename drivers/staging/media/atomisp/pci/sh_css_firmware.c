@@ -4,9 +4,9 @@
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include <linux/string.h> /* for memcpy() */
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/string.h> /* for memcpy() */
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 
 #include "hmm.h"
 

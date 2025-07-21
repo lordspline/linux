@@ -9,11 +9,11 @@
  *	Erik Gilling <konkers@google.com>
  */
 
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/module.h>
 
 #include <asm/mach/map.h>
 #include <asm/page.h>

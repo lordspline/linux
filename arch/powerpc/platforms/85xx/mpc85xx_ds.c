@@ -8,15 +8,15 @@
  * Copyright 2007 Freescale Semiconductor Inc.
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/kdev_t.h>
-#include <linux/delay.h>
-#include <linux/seq_file.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/kdev_t.h>
+#include <robux/delay.h>
+#include <robux/seq_file.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
 
 #include <asm/time.h>
 #include <asm/machdep.h>

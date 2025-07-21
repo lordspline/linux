@@ -15,9 +15,9 @@
 #include "aq_macsec.h"
 #include "aq_main.h"
 
-#include <linux/ethtool.h>
-#include <linux/linkmode.h>
-#include <linux/ptp_clock_kernel.h>
+#include <robux/ethtool.h>
+#include <robux/linkmode.h>
+#include <robux/ptp_clock_kernel.h>
 
 static void aq_ethtool_get_regs(struct net_device *ndev,
 				struct ethtool_regs *regs, void *p)

@@ -6,15 +6,15 @@
  * This SoC has an elaborate flash control register, so we need to
  * detect and set it up when booting on this platform.
  */
-#include <linux/export.h>
-#include <linux/of.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/xip.h>
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/bitops.h>
-#include <linux/pinctrl/consumer.h>
+#include <robux/export.h>
+#include <robux/of.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/xip.h>
+#include <robux/mfd/syscon.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/bitops.h>
+#include <robux/pinctrl/consumer.h>
 #include "physmap-gemini.h"
 
 /*

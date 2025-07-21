@@ -4,15 +4,15 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/bcm7038_wdt.h>
-#include <linux/pm.h>
-#include <linux/watchdog.h>
+#include <robux/clk.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/bcm7038_wdt.h>
+#include <robux/pm.h>
+#include <robux/watchdog.h>
 
 #define WDT_START_1		0xff00
 #define WDT_START_2		0x00ff

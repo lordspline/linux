@@ -9,12 +9,12 @@
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/cpu_pm.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/cpu_pm.h>
 
 #include "soc.h"
 #include "iomap.h"

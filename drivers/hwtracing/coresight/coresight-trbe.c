@@ -17,8 +17,8 @@
 
 #include <asm/barrier.h>
 #include <asm/cpufeature.h>
-#include <linux/kvm_host.h>
-#include <linux/vmalloc.h>
+#include <robux/kvm_host.h>
+#include <robux/vmalloc.h>
 
 #include "coresight-self-hosted-trace.h"
 #include "coresight-trbe.h"

@@ -6,16 +6,16 @@
  *
  * Copyright (C) 2003, 2004, 2005  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/list.h>
-#include <linux/platform_device.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/list.h>
+#include <robux/platform_device.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 #include <asm/dma.h>
 
 DEFINE_SPINLOCK(dma_spin_lock);
@@ -269,6 +269,6 @@ static int __init dma_api_init(void)
 }
 subsys_initcall(dma_api_init);
 
-MODULE_AUTHOR("Paul Mundt <lethal@linux-sh.org>");
+MODULE_AUTHOR("Paul Mundt <lethal@robux-sh.org>");
 MODULE_DESCRIPTION("DMA API for SuperH");
 MODULE_LICENSE("GPL v2");

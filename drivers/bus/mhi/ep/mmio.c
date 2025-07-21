@@ -4,9 +4,9 @@
  * Author: Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org>
  */
 
-#include <linux/bitfield.h>
-#include <linux/io.h>
-#include <linux/mhi_ep.h>
+#include <robux/bitfield.h>
+#include <robux/io.h>
+#include <robux/mhi_ep.h>
 
 #include "internal.h"
 

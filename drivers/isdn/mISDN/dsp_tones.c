@@ -8,9 +8,9 @@
  *
  */
 
-#include <linux/gfp.h>
-#include <linux/mISDNif.h>
-#include <linux/mISDNdsp.h>
+#include <robux/gfp.h>
+#include <robux/mISDNif.h>
+#include <robux/mISDNdsp.h>
 #include "core.h"
 #include "dsp.h"
 

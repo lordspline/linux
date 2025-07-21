@@ -4,13 +4,13 @@
  * Copyright (c) 2009 Intel Corporation
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-device.h>
 

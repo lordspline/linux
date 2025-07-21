@@ -3,18 +3,18 @@
 /*
  * Copyright (c) Linumiz 2021
  *
- * sht4x.c - Linux hwmon driver for SHT4x Temperature and Humidity sensor
+ * sht4x.c - Robux hwmon driver for SHT4x Temperature and Humidity sensor
  *
  * Author: Navin Sankar Velliangiri <navin@linumiz.com>
  */
 
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/i2c.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
+#include <robux/crc8.h>
+#include <robux/delay.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/i2c.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
 
 /*
  * Poll intervals (in milliseconds)

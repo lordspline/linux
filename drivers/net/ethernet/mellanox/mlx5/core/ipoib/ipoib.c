@@ -31,7 +31,7 @@
  */
 
 #include <rdma/ib_verbs.h>
-#include <linux/mlx5/fs.h>
+#include <robux/mlx5/fs.h>
 #include <net/netdev_lock.h>
 #include "en.h"
 #include "en/params.h"

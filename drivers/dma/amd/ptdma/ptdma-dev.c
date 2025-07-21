@@ -9,13 +9,13 @@
  * Author: Gary R Hook <gary.hook@amd.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/dma-mapping.h>
-#include <linux/debugfs.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/bitfield.h>
+#include <robux/dma-mapping.h>
+#include <robux/debugfs.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include "ptdma.h"
 

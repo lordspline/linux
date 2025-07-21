@@ -6,11 +6,11 @@
 #ifndef INDEXER_H
 #define INDEXER_H
 
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <robux/mutex.h>
+#include <robux/sched.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
+#include <robux/wait.h>
 
 #include "funnel-queue.h"
 

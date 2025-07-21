@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2022 Davicom Semiconductor,Inc.
- * Davicom DM9051 SPI Fast Ethernet Linux driver
+ * Davicom DM9051 SPI Fast Ethernet Robux driver
  */
 
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/phy.h>
-#include <linux/regmap.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/irq.h>
+#include <robux/mii.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/phy.h>
+#include <robux/regmap.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/spi/spi.h>
+#include <robux/types.h>
 
 #include "dm9051.h"
 

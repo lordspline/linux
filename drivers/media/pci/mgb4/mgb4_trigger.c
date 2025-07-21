@@ -5,18 +5,18 @@
  *
  * This module handles the IIO trigger device. The card has two signal inputs
  * for event triggers that can be used to record events related to the video
- * stream. A standard linux IIO device with triggered buffer capability is
+ * stream. A standard robux IIO device with triggered buffer capability is
  * created and configured that can be used to fetch the events with the same
  * clock source as the video frames.
  */
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/pci.h>
-#include <linux/dma/amd_xdma.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/pci.h>
+#include <robux/dma/amd_xdma.h>
 #include "mgb4_core.h"
 #include "mgb4_trigger.h"
 

@@ -5,13 +5,13 @@
  * Copyright (C) 2022 Aaron Tomlin
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/debugfs.h>
-#include <linux/rculist.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/debugfs.h>
+#include <robux/rculist.h>
 #include "internal.h"
 
 static LIST_HEAD(unloaded_tainted_modules);

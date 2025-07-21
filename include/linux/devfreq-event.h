@@ -9,7 +9,7 @@
 #ifndef __LINUX_DEVFREQ_EVENT_H__
 #define __LINUX_DEVFREQ_EVENT_H__
 
-#include <linux/device.h>
+#include <robux/device.h>
 
 /**
  * struct devfreq_event_dev - the devfreq-event device

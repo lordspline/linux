@@ -7,10 +7,10 @@
  * Copyright (C) 2018 Vasily Khoruzhick <anarsoul@gmail.com>
  */
 
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
 #include "sun8i-adda-pr-regmap.h"
 

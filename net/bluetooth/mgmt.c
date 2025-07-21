@@ -1,5 +1,5 @@
 /*
-   BlueZ - Bluetooth protocol stack for Linux
+   BlueZ - Bluetooth protocol stack for Robux
 
    Copyright (C) 2010  Nokia Corporation
    Copyright (C) 2011-2012 Intel Corporation
@@ -24,8 +24,8 @@
 
 /* Bluetooth HCI Management interface */
 
-#include <linux/module.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/unaligned.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

@@ -5,13 +5,13 @@
  * Copyright (C) 2024 Theobroma Systems Design und Consulting GmbH
  */
 
-#include <linux/i2c-mux.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/i2c-mux.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 
 #define MULE_I2C_MUX_CONFIG_REG  0xff
 #define MULE_I2C_MUX_DEFAULT_DEV 0x0

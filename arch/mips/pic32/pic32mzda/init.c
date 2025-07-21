@@ -3,12 +3,12 @@
  * Joshua Henderson, joshua.henderson@microchip.com
  * Copyright (C) 2015 Microchip Technology Inc.  All rights reserved.
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/of_fdt.h>
-#include <linux/of_platform.h>
-#include <linux/platform_data/sdhci-pic32.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/of_address.h>
+#include <robux/of_fdt.h>
+#include <robux/of_platform.h>
+#include <robux/platform_data/sdhci-pic32.h>
 
 #include <asm/fw/fw.h>
 #include <asm/mips-boards/generic.h>

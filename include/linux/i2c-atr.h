@@ -11,8 +11,8 @@
 #ifndef _LINUX_I2C_ATR_H
 #define _LINUX_I2C_ATR_H
 
-#include <linux/i2c.h>
-#include <linux/types.h>
+#include <robux/i2c.h>
+#include <robux/types.h>
 
 struct device;
 struct fwnode_handle;

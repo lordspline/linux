@@ -4,13 +4,13 @@
  * Copyright (C) 2001, 2008 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/kthread.h>
-#include <linux/delay.h>
-#include <linux/kmod.h>
-#include <linux/reboot.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/kthread.h>
+#include <robux/delay.h>
+#include <robux/kmod.h>
+#include <robux/reboot.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 #include <asm/oplib.h>
 
 #include "bbc_i2c.h"

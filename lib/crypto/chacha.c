@@ -5,12 +5,12 @@
  * Copyright (C) 2015 Martin Willi
  */
 
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/bitops.h>
-#include <linux/string.h>
-#include <linux/unaligned.h>
+#include <robux/bug.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/bitops.h>
+#include <robux/string.h>
+#include <robux/unaligned.h>
 #include <crypto/chacha.h>
 
 static void chacha_permute(struct chacha_state *state, int nrounds)

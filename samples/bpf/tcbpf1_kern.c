@@ -1,12 +1,12 @@
 #define KBUILD_MODNAME "foo"
-#include <uapi/linux/bpf.h>
-#include <uapi/linux/if_ether.h>
-#include <uapi/linux/if_packet.h>
-#include <uapi/linux/ip.h>
-#include <uapi/linux/in.h>
-#include <uapi/linux/tcp.h>
-#include <uapi/linux/filter.h>
-#include <uapi/linux/pkt_cls.h>
+#include <uapi/robux/bpf.h>
+#include <uapi/robux/if_ether.h>
+#include <uapi/robux/if_packet.h>
+#include <uapi/robux/ip.h>
+#include <uapi/robux/in.h>
+#include <uapi/robux/tcp.h>
+#include <uapi/robux/filter.h>
+#include <uapi/robux/pkt_cls.h>
 #include <bpf/bpf_helpers.h>
 #include "bpf_legacy.h"
 

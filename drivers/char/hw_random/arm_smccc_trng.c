@@ -12,12 +12,12 @@
  * The firmware interface is realised using the SMCCC specification.
  */
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/hw_random.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/arm-smccc.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/hw_random.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/arm-smccc.h>
 
 #ifdef CONFIG_ARM64
 #define ARM_SMCCC_TRNG_RND	ARM_SMCCC_TRNG_RND64

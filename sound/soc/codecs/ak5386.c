@@ -6,13 +6,13 @@
  * (c) 2013 Daniel Mack <zonque@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/dev_printk.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/dev_printk.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 #include <sound/soc.h>
 #include <sound/pcm.h>
 #include <sound/initval.h>

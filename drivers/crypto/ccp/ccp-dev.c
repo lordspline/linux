@@ -8,23 +8,23 @@
  * Author: Gary R Hook <gary.hook@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/hw_random.h>
-#include <linux/cpu.h>
-#include <linux/atomic.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/spinlock_types.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
+#include <robux/hw_random.h>
+#include <robux/cpu.h>
+#include <robux/atomic.h>
 #ifdef CONFIG_X86
 #include <asm/cpu_device_id.h>
 #endif
-#include <linux/ccp.h>
+#include <robux/ccp.h>
 
 #include "ccp-dev.h"
 

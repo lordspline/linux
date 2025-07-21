@@ -4,18 +4,18 @@
 #ifndef _IXGBE_H_
 #define _IXGBE_H_
 
-#include <linux/bitops.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/cpumask.h>
-#include <linux/if_vlan.h>
-#include <linux/jiffies.h>
-#include <linux/phy.h>
+#include <robux/bitops.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/cpumask.h>
+#include <robux/if_vlan.h>
+#include <robux/jiffies.h>
+#include <robux/phy.h>
 
-#include <linux/timecounter.h>
-#include <linux/net_tstamp.h>
-#include <linux/ptp_clock_kernel.h>
+#include <robux/timecounter.h>
+#include <robux/net_tstamp.h>
+#include <robux/ptp_clock_kernel.h>
 
 #include <net/devlink.h>
 
@@ -28,7 +28,7 @@
 #include "ixgbe_fcoe.h"
 #endif /* IS_ENABLED(CONFIG_FCOE) */
 #ifdef CONFIG_IXGBE_DCA
-#include <linux/dca.h>
+#include <robux/dca.h>
 #endif
 #include "ixgbe_ipsec.h"
 

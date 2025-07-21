@@ -17,20 +17,20 @@
  *
  * atp885 support add by ACARD Hao Ping Lian 2005/01/05
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/proc_fs.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/proc_fs.h>
+#include <robux/spinlock.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
 #include <asm/io.h>
 
 #include <scsi/scsi.h>

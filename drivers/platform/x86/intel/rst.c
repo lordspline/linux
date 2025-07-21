@@ -3,9 +3,9 @@
  *  Copyright 2013 Matthew Garrett <mjg59@srcf.ucam.org>
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 MODULE_DESCRIPTION("Intel Rapid Start Technology Driver");
 MODULE_LICENSE("GPL");

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/completion.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
+#include <robux/completion.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
 
 #define SNAFCFR 0x00
 #define   SNAFCFR_DMA_IE BIT(20)

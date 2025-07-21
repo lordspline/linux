@@ -7,16 +7,16 @@
  * Author: Peter Rosin <peda@axentia.se>
  */
 
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/mux/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/iio/consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/mux/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 struct mux_ext_info_cache {
 	char *data;

@@ -25,10 +25,10 @@
  *
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/stat.h>
-#include <linux/sysfs.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/stat.h>
+#include <robux/sysfs.h>
 
 #include "gt/intel_gt_regs.h"
 #include "gt/intel_rc6.h"

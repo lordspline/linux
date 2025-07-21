@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Hangzhou C-SKY Microsystems co.,ltd.
 
-#include <linux/audit.h>
-#include <linux/elf.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/ptrace.h>
-#include <linux/regset.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/signal.h>
-#include <linux/smp.h>
-#include <linux/uaccess.h>
-#include <linux/user.h>
+#include <robux/audit.h>
+#include <robux/elf.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/ptrace.h>
+#include <robux/regset.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/signal.h>
+#include <robux/smp.h>
+#include <robux/uaccess.h>
+#include <robux/user.h>
 
 #include <asm/thread_info.h>
 #include <asm/page.h>

@@ -4,21 +4,21 @@
  * Copyright (C) 2013-2015  Dialog Semiconductor Ltd.
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/regmap.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
 
-#include <linux/mfd/da9062/registers.h>
-#include <linux/mfd/da9063/registers.h>
-#include <linux/mfd/da9063/core.h>
+#include <robux/mfd/da9062/registers.h>
+#include <robux/mfd/da9063/registers.h>
+#include <robux/mfd/da9063/core.h>
 
 #define YEARS_TO_DA9063(year)		((year) - 100)
 #define MONTHS_TO_DA9063(month)		((month) + 1)

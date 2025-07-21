@@ -7,20 +7,20 @@
  * Copyright (C) 2023 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/efi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/ucs2_string.h>
+#include <robux/efi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/ucs2_string.h>
 
-#include <linux/firmware/qcom/qcom_qseecom.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/firmware/qcom/qcom_tzmem.h>
+#include <robux/firmware/qcom/qcom_qseecom.h>
+#include <robux/firmware/qcom/qcom_scm.h>
+#include <robux/firmware/qcom/qcom_tzmem.h>
 
 /* -- Qualcomm "uefisecapp" interface definitions. -------------------------- */
 

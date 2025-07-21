@@ -9,13 +9,13 @@
  * John Brooks <john.brooks@bluecherry.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/mempool.h>
-#include <linux/poll.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/mempool.h>
+#include <robux/poll.h>
+#include <robux/kthread.h>
+#include <robux/freezer.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include <sound/core.h>
 #include <sound/initval.h>

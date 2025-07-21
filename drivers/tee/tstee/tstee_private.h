@@ -6,12 +6,12 @@
 #ifndef TSTEE_PRIVATE_H
 #define TSTEE_PRIVATE_H
 
-#include <linux/arm_ffa.h>
-#include <linux/bitops.h>
-#include <linux/tee_core.h>
-#include <linux/types.h>
-#include <linux/uuid.h>
-#include <linux/xarray.h>
+#include <robux/arm_ffa.h>
+#include <robux/bitops.h>
+#include <robux/tee_core.h>
+#include <robux/types.h>
+#include <robux/uuid.h>
+#include <robux/xarray.h>
 
 /*
  * The description of the ABI implemented in this file is available at

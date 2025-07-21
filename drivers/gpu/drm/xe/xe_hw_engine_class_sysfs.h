@@ -6,7 +6,7 @@
 #ifndef _XE_ENGINE_CLASS_SYSFS_H_
 #define _XE_ENGINE_CLASS_SYSFS_H_
 
-#include <linux/kobject.h>
+#include <robux/kobject.h>
 
 struct xe_gt;
 struct xe_hw_engine_class_intf;

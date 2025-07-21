@@ -8,14 +8,14 @@
  *	- Channing Corn (tests & fixes),
  *	- Andrew D. Balsa (code cleanup).
  */
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/module.h>
-#include <linux/nospec.h>
-#include <linux/prctl.h>
-#include <linux/sched/smt.h>
-#include <linux/pgtable.h>
-#include <linux/bpf.h>
+#include <robux/init.h>
+#include <robux/cpu.h>
+#include <robux/module.h>
+#include <robux/nospec.h>
+#include <robux/prctl.h>
+#include <robux/sched/smt.h>
+#include <robux/pgtable.h>
+#include <robux/bpf.h>
 
 #include <asm/spec-ctrl.h>
 #include <asm/cmdline.h>

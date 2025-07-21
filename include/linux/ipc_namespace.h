@@ -2,16 +2,16 @@
 #ifndef __IPC_NAMESPACE_H__
 #define __IPC_NAMESPACE_H__
 
-#include <linux/err.h>
-#include <linux/idr.h>
-#include <linux/rwsem.h>
-#include <linux/notifier.h>
-#include <linux/nsproxy.h>
-#include <linux/ns_common.h>
-#include <linux/refcount.h>
-#include <linux/rhashtable-types.h>
-#include <linux/sysctl.h>
-#include <linux/percpu_counter.h>
+#include <robux/err.h>
+#include <robux/idr.h>
+#include <robux/rwsem.h>
+#include <robux/notifier.h>
+#include <robux/nsproxy.h>
+#include <robux/ns_common.h>
+#include <robux/refcount.h>
+#include <robux/rhashtable-types.h>
+#include <robux/sysctl.h>
+#include <robux/percpu_counter.h>
 
 struct user_namespace;
 

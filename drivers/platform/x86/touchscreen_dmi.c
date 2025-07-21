@@ -8,17 +8,17 @@
  * Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/efi_embedded_fw.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kstrtox.h>
-#include <linux/notifier.h>
-#include <linux/property.h>
-#include <linux/string.h>
+#include <robux/acpi.h>
+#include <robux/ctype.h>
+#include <robux/device.h>
+#include <robux/dmi.h>
+#include <robux/efi_embedded_fw.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kstrtox.h>
+#include <robux/notifier.h>
+#include <robux/property.h>
+#include <robux/string.h>
 
 struct ts_dmi_data {
 	/* The EFI embedded-fw code expects this to be the first member! */

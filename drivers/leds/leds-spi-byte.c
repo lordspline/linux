@@ -28,13 +28,13 @@
  *   NOTE: This driver currently only supports mode 00.
  */
 
-#include <linux/leds.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
-#include <uapi/linux/uleds.h>
+#include <robux/leds.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/spi/spi.h>
+#include <uapi/robux/uleds.h>
 
 struct spi_byte_chipdef {
 	/* SPI byte that will be send to switch the LED off */

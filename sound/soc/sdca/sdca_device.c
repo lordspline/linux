@@ -6,10 +6,10 @@
  * https://www.mipi.org/mipi-sdca-v1-0-download
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/soundwire/sdw.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/soundwire/sdw.h>
 #include <sound/sdca.h>
 #include <sound/sdca_function.h>
 

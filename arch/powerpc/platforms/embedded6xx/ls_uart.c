@@ -9,13 +9,13 @@
  * version 2.  This program is licensed "as is" without any warranty of
  * any kind, whether express or implied.
  */
-#include <linux/workqueue.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/serial_reg.h>
-#include <linux/serial_8250.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/workqueue.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/serial_reg.h>
+#include <robux/serial_8250.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 #include <asm/io.h>
 #include <asm/termbits.h>
 

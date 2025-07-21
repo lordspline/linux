@@ -3,18 +3,18 @@
  * Device access for Basin Cove PMIC
  *
  * Copyright (c) 2019, Intel Corporation.
- * Author: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Author: Andy Shevchenko <andriy.shevchenko@robux.intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/mfd/intel_soc_pmic_mrfld.h>
-#include <linux/module.h>
-#include <linux/platform_data/x86/intel_scu_ipc.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/acpi.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/intel_soc_pmic.h>
+#include <robux/mfd/intel_soc_pmic_mrfld.h>
+#include <robux/module.h>
+#include <robux/platform_data/x86/intel_scu_ipc.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 /*
  * Level 2 IRQs

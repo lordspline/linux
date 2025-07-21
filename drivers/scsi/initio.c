@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /**************************************************************************
- * Initio 9100 device driver for Linux.
+ * Initio 9100 device driver for Robux.
  *
  * Copyright (c) 1994-1998 Initio Corporation
  * Copyright (c) 1998 Bas Vermeulen <bvermeul@blackstar.xs4all.nl>
@@ -11,7 +11,7 @@
  *
  * DESCRIPTION:
  *
- * This is the Linux low-level SCSI driver for Initio INI-9X00U/UW SCSI host
+ * This is the Robux low-level SCSI driver for Initio INI-9X00U/UW SCSI host
  * adapters
  *
  * 08/06/97 hc	- v1.01h
@@ -65,22 +65,22 @@
  *		- Re-add reset_bus support
  **************************************************************************/
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/blkdev.h>
-#include <linux/spinlock.h>
-#include <linux/stat.h>
-#include <linux/kernel.h>
-#include <linux/proc_fs.h>
-#include <linux/string.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/blkdev.h>
+#include <robux/spinlock.h>
+#include <robux/stat.h>
+#include <robux/kernel.h>
+#include <robux/proc_fs.h>
+#include <robux/string.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/dma-mapping.h>
 #include <asm/io.h>
 
 #include <scsi/scsi.h>

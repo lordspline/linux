@@ -5,8 +5,8 @@
  * Copyright (C) 2021-2023 CHIPS&MEDIA INC
  */
 
-#include <linux/iopoll.h>
-#include <linux/bitfield.h>
+#include <robux/iopoll.h>
+#include <robux/bitfield.h>
 #include "wave5-vpu.h"
 #include "wave5.h"
 #include "wave5-regdefine.h"

@@ -3,18 +3,18 @@
  * Copyright (C) 2006-2010 Red Hat, Inc.  All rights reserved.
  */
 
-#include <linux/miscdevice.h>
-#include <linux/init.h>
-#include <linux/wait.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/signal.h>
-#include <linux/spinlock.h>
-#include <linux/dlm.h>
-#include <linux/dlm_device.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
+#include <robux/miscdevice.h>
+#include <robux/init.h>
+#include <robux/wait.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/poll.h>
+#include <robux/signal.h>
+#include <robux/spinlock.h>
+#include <robux/dlm.h>
+#include <robux/dlm_device.h>
+#include <robux/slab.h>
+#include <robux/sched/signal.h>
 
 #include <trace/events/dlm.h>
 

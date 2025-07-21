@@ -26,26 +26,26 @@
  *          Jerome Glisse
  */
 
-#include <linux/aperture.h>
-#include <linux/power_supply.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/console.h>
-#include <linux/slab.h>
-#include <linux/iommu.h>
-#include <linux/pci.h>
-#include <linux/pci-p2pdma.h>
-#include <linux/apple-gmux.h>
+#include <robux/aperture.h>
+#include <robux/power_supply.h>
+#include <robux/kthread.h>
+#include <robux/module.h>
+#include <robux/console.h>
+#include <robux/slab.h>
+#include <robux/iommu.h>
+#include <robux/pci.h>
+#include <robux/pci-p2pdma.h>
+#include <robux/apple-gmux.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_client_event.h>
 #include <drm/drm_crtc_helper.h>
 #include <drm/drm_probe_helper.h>
 #include <drm/amdgpu_drm.h>
-#include <linux/device.h>
-#include <linux/vgaarb.h>
-#include <linux/vga_switcheroo.h>
-#include <linux/efi.h>
+#include <robux/device.h>
+#include <robux/vgaarb.h>
+#include <robux/vga_switcheroo.h>
+#include <robux/efi.h>
 #include "amdgpu.h"
 #include "amdgpu_trace.h"
 #include "amdgpu_i2c.h"
@@ -63,7 +63,7 @@
 #include "soc15.h"
 #include "nv.h"
 #include "bif/bif_4_1_d.h"
-#include <linux/firmware.h>
+#include <robux/firmware.h>
 #include "amdgpu_vf_error.h"
 
 #include "amdgpu_amdkfd.h"
@@ -77,9 +77,9 @@
 #include "amdgpu_virt.h"
 #include "amdgpu_dev_coredump.h"
 
-#include <linux/suspend.h>
+#include <robux/suspend.h>
 #include <drm/task_barrier.h>
-#include <linux/pm_runtime.h>
+#include <robux/pm_runtime.h>
 
 #include <drm/drm_drv.h>
 

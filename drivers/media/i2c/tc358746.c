@@ -8,19 +8,19 @@
  *  - Currently only 'Parallel-in -> CSI-out' mode is supported!
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/phy/phy-mipi-dphy.h>
-#include <linux/property.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/phy/phy-mipi-dphy.h>
+#include <robux/property.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/units.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-fwnode.h>

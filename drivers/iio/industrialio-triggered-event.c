@@ -3,12 +3,12 @@
  * Copyright (C) 2015 Cogent Embedded, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/triggered_event.h>
-#include <linux/iio/trigger_consumer.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/triggered_event.h>
+#include <robux/iio/trigger_consumer.h>
 
 /**
  * iio_triggered_event_setup() - Setup pollfunc_event for triggered event

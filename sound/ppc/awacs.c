@@ -7,12 +7,12 @@
  */
 
 
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/nvram.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include "pmac.h"
 

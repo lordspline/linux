@@ -26,18 +26,18 @@
  * and IDSEL pin of AR2315 is connected to AD[16] line.
  */
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/dma-direct.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/io.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/dma-direct.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/io.h>
 #include <asm/paccess.h>
 
 /*

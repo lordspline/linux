@@ -13,15 +13,15 @@
 #ifndef __LINUX_MTD_RAWNAND_H
 #define __LINUX_MTD_RAWNAND_H
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/nand.h>
-#include <linux/mtd/flashchip.h>
-#include <linux/mtd/bbm.h>
-#include <linux/mtd/jedec.h>
-#include <linux/mtd/onfi.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/types.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/nand.h>
+#include <robux/mtd/flashchip.h>
+#include <robux/mtd/bbm.h>
+#include <robux/mtd/jedec.h>
+#include <robux/mtd/onfi.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/types.h>
 
 struct nand_chip;
 struct gpio_desc;

@@ -6,9 +6,9 @@
  * Copyright (C) 1997 Michael A. Griffith (grif@acm.org)
  */
 
-#include <linux/kernel.h>
-#include <linux/sort.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/sort.h>
+#include <robux/init.h>
 
 #include <asm/openprom.h>
 #include <asm/oplib.h>

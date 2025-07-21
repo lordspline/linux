@@ -9,8 +9,8 @@
 #ifndef __SDCA_H__
 #define __SDCA_H__
 
-#include <linux/types.h>
-#include <linux/kconfig.h>
+#include <robux/types.h>
+#include <robux/kconfig.h>
 
 struct sdw_slave;
 

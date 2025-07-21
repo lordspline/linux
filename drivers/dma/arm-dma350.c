@@ -2,13 +2,13 @@
 // Copyright (C) 2024-2025 Arm Limited
 // Arm DMA-350 driver
 
-#include <linux/bitfield.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/bitfield.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #include "dmaengine.h"
 #include "virt-dma.h"

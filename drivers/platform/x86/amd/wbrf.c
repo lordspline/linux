@@ -4,8 +4,8 @@
  * Copyright (C) 2023 Advanced Micro Devices
  */
 
-#include <linux/acpi.h>
-#include <linux/acpi_amd_wbrf.h>
+#include <robux/acpi.h>
+#include <robux/acpi_amd_wbrf.h>
 
 /*
  * Functions bit vector for WBRF method

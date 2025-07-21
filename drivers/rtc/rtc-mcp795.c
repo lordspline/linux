@@ -4,21 +4,21 @@
  *
  * Copyright (C) Josef Gajdusek <atx@atx.name>
  *
- * based on other Linux RTC drivers
+ * based on other Robux RTC drivers
  *
  * Device datasheet:
  * https://ww1.microchip.com/downloads/en/DeviceDoc/22280A.pdf
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/printk.h>
-#include <linux/spi/spi.h>
-#include <linux/rtc.h>
-#include <linux/of.h>
-#include <linux/bcd.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/printk.h>
+#include <robux/spi/spi.h>
+#include <robux/rtc.h>
+#include <robux/of.h>
+#include <robux/bcd.h>
+#include <robux/delay.h>
 
 /* MCP795 Instructions, see datasheet table 3-1 */
 #define MCP795_EEREAD	0x03

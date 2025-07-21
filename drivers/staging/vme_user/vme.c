@@ -9,23 +9,23 @@
  * Copyright 2004 Motorola Inc.
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/poll.h>
-#include <linux/highmem.h>
-#include <linux/interrupt.h>
-#include <linux/pagemap.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/syscalls.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/mm.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/poll.h>
+#include <robux/highmem.h>
+#include <robux/interrupt.h>
+#include <robux/pagemap.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/syscalls.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
 
 #include "vme.h"
 #include "vme_bridge.h"

@@ -8,11 +8,11 @@
  *
  */
 
-#include <linux/irq.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
+#include <robux/irq.h>
+#include <robux/random.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
+#include <robux/kernel_stat.h>
 
 #include <asm/irq_regs.h>
 

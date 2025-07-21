@@ -8,13 +8,13 @@
 #ifndef _LINUX_GNSS_H
 #define _LINUX_GNSS_H
 
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/kfifo.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <robux/cdev.h>
+#include <robux/device.h>
+#include <robux/kfifo.h>
+#include <robux/mutex.h>
+#include <robux/rwsem.h>
+#include <robux/types.h>
+#include <robux/wait.h>
 
 struct gnss_device;
 

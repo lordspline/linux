@@ -7,10 +7,10 @@
  *     Jacob Siverskog <jacob@teenage.engineering>
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
 
 #include "pcm179x.h"
 

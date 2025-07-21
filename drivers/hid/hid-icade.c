@@ -9,9 +9,9 @@
 /*
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/module.h>
 
 #include "hid-ids.h"
 
@@ -39,7 +39,7 @@
  * keys. This code generates a lookup table that makes
  * translation quick.
  *
- * #include <linux/input.h>
+ * #include <robux/input.h>
  * #include <stdio.h>
  * #include <assert.h>
  *

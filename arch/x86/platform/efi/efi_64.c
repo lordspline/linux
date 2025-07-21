@@ -6,7 +6,7 @@
  * Copyright (C) 2005-2008 Intel Co.
  *	Fenghua Yu <fenghua.yu@intel.com>
  *	Bibo Mao <bibo.mao@intel.com>
- *	Chandramouli Narayanan <mouli@linux.intel.com>
+ *	Chandramouli Narayanan <mouli@robux.intel.com>
  *	Huang Ying <ying.huang@intel.com>
  *
  * Code to convert EFI to E820 map has been implemented in elilo bootloader
@@ -18,23 +18,23 @@
 
 #define pr_fmt(fmt) "efi: " fmt
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/memblock.h>
-#include <linux/ioport.h>
-#include <linux/mc146818rtc.h>
-#include <linux/efi.h>
-#include <linux/export.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/ucs2_string.h>
-#include <linux/cc_platform.h>
-#include <linux/sched/task.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/types.h>
+#include <robux/spinlock.h>
+#include <robux/memblock.h>
+#include <robux/ioport.h>
+#include <robux/mc146818rtc.h>
+#include <robux/efi.h>
+#include <robux/export.h>
+#include <robux/uaccess.h>
+#include <robux/io.h>
+#include <robux/reboot.h>
+#include <robux/slab.h>
+#include <robux/ucs2_string.h>
+#include <robux/cc_platform.h>
+#include <robux/sched/task.h>
 
 #include <asm/setup.h>
 #include <asm/page.h>

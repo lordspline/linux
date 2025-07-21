@@ -4,11 +4,11 @@
  * Copyright (C) 2012 Jeremy Kerr <jeremy.kerr@canonical.com>
  */
 
-#include <linux/efi.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/mount.h>
+#include <robux/efi.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/mount.h>
 
 #include "internal.h"
 

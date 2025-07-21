@@ -23,11 +23,11 @@
 #ifndef __DRM_CONNECTOR_H__
 #define __DRM_CONNECTOR_H__
 
-#include <linux/list.h>
-#include <linux/llist.h>
-#include <linux/ctype.h>
-#include <linux/hdmi.h>
-#include <linux/notifier.h>
+#include <robux/list.h>
+#include <robux/llist.h>
+#include <robux/ctype.h>
+#include <robux/hdmi.h>
+#include <robux/notifier.h>
 #include <drm/drm_mode_object.h>
 #include <drm/drm_util.h>
 #include <drm/drm_property.h>

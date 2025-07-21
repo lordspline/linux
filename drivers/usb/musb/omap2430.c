@@ -6,24 +6,24 @@
  * Copyright (C) 2006 Nokia Corporation
  * Tony Lindgren <tony@atomide.com>
  *
- * This file is part of the Inventra Controller Driver for Linux.
+ * This file is part of the Inventra Controller Driver for Robux.
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm_runtime.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/usb/musb.h>
-#include <linux/phy/omap_control_phy.h>
-#include <linux/of_platform.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/pm_runtime.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/usb/musb.h>
+#include <robux/phy/omap_control_phy.h>
+#include <robux/of_platform.h>
 
 #include "musb_core.h"
 #include "omap2430.h"

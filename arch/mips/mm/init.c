@@ -8,30 +8,30 @@
  * Kevin D. Kissell, kevink@mips.com and Carsten Langgaard, carstenl@mips.com
  * Copyright (C) 2000 MIPS Technologies, Inc.  All rights reserved.
  */
-#include <linux/bug.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/pagemap.h>
-#include <linux/ptrace.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/highmem.h>
-#include <linux/swap.h>
-#include <linux/proc_fs.h>
-#include <linux/pfn.h>
-#include <linux/hardirq.h>
-#include <linux/gfp.h>
-#include <linux/kcore.h>
-#include <linux/initrd.h>
-#include <linux/execmem.h>
+#include <robux/bug.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/smp.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/pagemap.h>
+#include <robux/ptrace.h>
+#include <robux/mman.h>
+#include <robux/mm.h>
+#include <robux/memblock.h>
+#include <robux/highmem.h>
+#include <robux/swap.h>
+#include <robux/proc_fs.h>
+#include <robux/pfn.h>
+#include <robux/hardirq.h>
+#include <robux/gfp.h>
+#include <robux/kcore.h>
+#include <robux/initrd.h>
+#include <robux/execmem.h>
 
 #include <asm/bootinfo.h>
 #include <asm/cachectl.h>

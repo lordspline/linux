@@ -6,9 +6,9 @@
 #include <drm/drm_device.h>
 #include <drm/drm_managed.h>
 #include <drm/drm_print.h>
-#include <linux/bitops.h>
-#include <linux/bitmap.h>
-#include <linux/slab.h>
+#include <robux/bitops.h>
+#include <robux/bitmap.h>
+#include <robux/slab.h>
 
 #include "aie2_solver.h"
 

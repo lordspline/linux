@@ -74,7 +74,7 @@ unit as preprocessor statement. The above example would then read::
 	#define DEFAULT_SYMBOL_NAMESPACE "USB_COMMON"
 
 within the corresponding compilation unit before the #include for
-<linux/export.h>. Typically it's placed before the first #include statement.
+<robux/export.h>. Typically it's placed before the first #include statement.
 
 Using the EXPORT_SYMBOL_GPL_FOR_MODULES() macro
 -----------------------------------------------

@@ -5,15 +5,15 @@
  *  National Semiconductor SCx200 support.
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
 
-#include <linux/scx200.h>
-#include <linux/scx200_gpio.h>
+#include <robux/scx200.h>
+#include <robux/scx200_gpio.h>
 
 /* Verify that the configuration block really is there */
 #define scx200_cb_probe(base) (inw((base) + SCx200_CBA) == (base))

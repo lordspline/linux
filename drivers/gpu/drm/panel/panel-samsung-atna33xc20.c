@@ -6,13 +6,13 @@
  * by the DRM_PANEL_SIMPLE driver because its power sequencing is non-standard.
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
+#include <robux/backlight.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
 
 #include <drm/display/drm_dp_aux_bus.h>
 #include <drm/display/drm_dp_helper.h>

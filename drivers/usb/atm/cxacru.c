@@ -15,16 +15,16 @@
  *  into usbatm), and the userspace firmware loading utility.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/timer.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/mutex.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/timer.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/mutex.h>
+#include <robux/unaligned.h>
 
 #include "usbatm.h"
 

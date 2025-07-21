@@ -9,16 +9,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/hid.h>
-#include <linux/usb.h>
-#include <linux/input.h>
-#include <linux/sysfs.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/backlight.h>
-#include <linux/timer.h>
-#include <linux/input/sparse-keymap.h>
+#include <robux/hid.h>
+#include <robux/usb.h>
+#include <robux/input.h>
+#include <robux/sysfs.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/backlight.h>
+#include <robux/timer.h>
+#include <robux/input/sparse-keymap.h>
 
 #include "hid-ids.h"
 

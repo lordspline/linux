@@ -27,9 +27,9 @@
 #include <string.h>
 #include <stdbool.h>
 #include <errno.h>
-#include <linux/bitmap.h>
-#include <linux/compiler.h>
-#include <linux/time64.h>
+#include <robux/bitmap.h>
+#include <robux/compiler.h>
+#include <robux/time64.h>
 #ifdef HAVE_LIBTRACEEVENT
 #include <event-parse.h>
 #endif

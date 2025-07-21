@@ -6,15 +6,15 @@
  *  Copyright (C) 2015 Andrew Lutomirski <luto@kernel.org>
  */
 
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/string_choices.h>
-#include <linux/suspend.h>
+#include <robux/acpi.h>
+#include <robux/dmi.h>
+#include <robux/input.h>
+#include <robux/input/sparse-keymap.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/string_choices.h>
+#include <robux/suspend.h>
 #include "../dual_accel_detect.h"
 
 enum intel_hid_tablet_sw_mode {

@@ -6,11 +6,11 @@
  * Author: Andreas Werner <andreas.werner@men.de>
  */
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/dmi.h>
-#include <linux/mcb.h>
-#include <linux/io.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/dmi.h>
+#include <robux/mcb.h>
+#include <robux/io.h>
 #include "mcb-internal.h"
 
 struct priv {

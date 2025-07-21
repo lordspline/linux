@@ -5,11 +5,11 @@
  * This file contains power management functions related to interrupts.
  */
 
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/suspend.h>
-#include <linux/syscore_ops.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/suspend.h>
+#include <robux/syscore_ops.h>
 
 #include "internals.h"
 

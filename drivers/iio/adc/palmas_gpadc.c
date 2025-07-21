@@ -7,21 +7,21 @@
  * Author: Pradeep Goudagunta <pgoudagunta@nvidia.com>
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/mfd/palmas.h>
-#include <linux/completion.h>
-#include <linux/of.h>
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/machine.h>
-#include <linux/iio/driver.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/mfd/palmas.h>
+#include <robux/completion.h>
+#include <robux/of.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/machine.h>
+#include <robux/iio/driver.h>
 
 #define MOD_NAME "palmas-gpadc"
 #define PALMAS_ADC_CONVERSION_TIMEOUT	(msecs_to_jiffies(5000))

@@ -14,24 +14,24 @@
  * Zerocpy NFS support (C) 2002 Hirokazu Takahashi <taka@valinux.co.jp>
  */
 
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/splice.h>
-#include <linux/falloc.h>
-#include <linux/fcntl.h>
-#include <linux/namei.h>
-#include <linux/delay.h>
-#include <linux/fsnotify.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/xattr.h>
-#include <linux/jhash.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/exportfs.h>
-#include <linux/writeback.h>
-#include <linux/security.h>
-#include <linux/sunrpc/xdr.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/splice.h>
+#include <robux/falloc.h>
+#include <robux/fcntl.h>
+#include <robux/namei.h>
+#include <robux/delay.h>
+#include <robux/fsnotify.h>
+#include <robux/posix_acl_xattr.h>
+#include <robux/xattr.h>
+#include <robux/jhash.h>
+#include <robux/pagemap.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/exportfs.h>
+#include <robux/writeback.h>
+#include <robux/security.h>
+#include <robux/sunrpc/xdr.h>
 
 #include "xdr3.h"
 
@@ -51,7 +51,7 @@
 bool nfsd_disable_splice_read __read_mostly;
 
 /**
- * nfserrno - Map Linux errnos to NFS errnos
+ * nfserrno - Map Robux errnos to NFS errnos
  * @errno: POSIX(-ish) error code to be mapped
  *
  * Returns the appropriate (net-endian) nfserr_* (or nfs_ok if errno is 0). If
@@ -382,7 +382,7 @@ commit_metadata(struct svc_fh *fhp)
 
 /*
  * Go over the attributes and take care of the small differences between
- * NFS semantics and what Linux expects.
+ * NFS semantics and what Robux expects.
  */
 static void
 nfsd_sanitize_attrs(struct inode *inode, struct iattr *iap)

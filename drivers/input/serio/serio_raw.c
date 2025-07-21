@@ -6,17 +6,17 @@
  * Copyright (c) 2004 Dmitry Torokhov
  */
 
-#include <linux/kref.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/module.h>
-#include <linux/serio.h>
-#include <linux/major.h>
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/wait.h>
-#include <linux/mutex.h>
+#include <robux/kref.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/poll.h>
+#include <robux/module.h>
+#include <robux/serio.h>
+#include <robux/major.h>
+#include <robux/device.h>
+#include <robux/miscdevice.h>
+#include <robux/wait.h>
+#include <robux/mutex.h>
 
 #define DRIVER_DESC	"Raw serio driver"
 

@@ -6,38 +6,38 @@
 // Copyright 2011 Simtec Electronics
 //	Ben Dooks <ben@simtec.co.uk>
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/serial_core.h>
-#include <linux/serial_s3c.h>
-#include <linux/platform_device.h>
-#include <linux/fb.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/input-event-codes.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/leds.h>
-#include <linux/delay.h>
-#include <linux/mmc/host.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/fixed.h>
-#include <linux/pwm.h>
-#include <linux/pwm_backlight.h>
-#include <linux/dm9000.h>
-#include <linux/gpio_keys.h>
-#include <linux/gpio/driver.h>
-#include <linux/spi/spi.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/serial_core.h>
+#include <robux/serial_s3c.h>
+#include <robux/platform_device.h>
+#include <robux/fb.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/input-event-codes.h>
+#include <robux/gpio.h>
+#include <robux/gpio/machine.h>
+#include <robux/leds.h>
+#include <robux/delay.h>
+#include <robux/mmc/host.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/fixed.h>
+#include <robux/pwm.h>
+#include <robux/pwm_backlight.h>
+#include <robux/dm9000.h>
+#include <robux/gpio_keys.h>
+#include <robux/gpio/driver.h>
+#include <robux/spi/spi.h>
 
-#include <linux/platform_data/pca953x.h>
-#include <linux/platform_data/s3c-hsotg.h>
+#include <robux/platform_data/pca953x.h>
+#include <robux/platform_data/s3c-hsotg.h>
 
 #include <video/platform_lcd.h>
 
-#include <linux/mfd/wm831x/core.h>
-#include <linux/mfd/wm831x/pdata.h>
-#include <linux/mfd/wm831x/irq.h>
-#include <linux/mfd/wm831x/gpio.h>
+#include <robux/mfd/wm831x/core.h>
+#include <robux/mfd/wm831x/pdata.h>
+#include <robux/mfd/wm831x/irq.h>
+#include <robux/mfd/wm831x/gpio.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach-types.h>
@@ -51,12 +51,12 @@
 #include "fb.h"
 #include "sdhci.h"
 #include "gpio-cfg.h"
-#include <linux/platform_data/spi-s3c64xx.h>
+#include <robux/platform_data/spi-s3c64xx.h>
 
 #include "keypad.h"
 #include "devs.h"
 #include "cpu.h"
-#include <linux/platform_data/i2c-s3c2410.h>
+#include <robux/platform_data/i2c-s3c2410.h>
 #include "pm.h"
 
 #include "s3c64xx.h"

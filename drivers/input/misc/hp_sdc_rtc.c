@@ -33,19 +33,19 @@
  *
  */
 
-#include <linux/hp_sdc.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/time.h>
-#include <linux/miscdevice.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/poll.h>
-#include <linux/rtc.h>
-#include <linux/mutex.h>
-#include <linux/semaphore.h>
+#include <robux/hp_sdc.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/time.h>
+#include <robux/miscdevice.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/poll.h>
+#include <robux/rtc.h>
+#include <robux/mutex.h>
+#include <robux/semaphore.h>
 
 MODULE_AUTHOR("Brian S. Julin <bri@calyx.com>");
 MODULE_DESCRIPTION("HP i8042 SDC + MSM-58321 RTC Driver");

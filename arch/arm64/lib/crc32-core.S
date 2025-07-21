@@ -8,7 +8,7 @@
  * Author: Ard Biesheuvel <ardb@kernel.org>
  */
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 #include <asm/assembler.h>
 
 	.cpu		generic+crc+crypto

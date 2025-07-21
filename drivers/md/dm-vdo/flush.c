@@ -5,8 +5,8 @@
 
 #include "flush.h"
 
-#include <linux/mempool.h>
-#include <linux/spinlock.h>
+#include <robux/mempool.h>
+#include <robux/spinlock.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

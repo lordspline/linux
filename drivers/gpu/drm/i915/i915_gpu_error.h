@@ -7,10 +7,10 @@
 #ifndef _I915_GPU_ERROR_H_
 #define _I915_GPU_ERROR_H_
 
-#include <linux/atomic.h>
-#include <linux/kref.h>
-#include <linux/ktime.h>
-#include <linux/sched.h>
+#include <robux/atomic.h>
+#include <robux/kref.h>
+#include <robux/ktime.h>
+#include <robux/sched.h>
 
 #include <drm/drm_mm.h>
 

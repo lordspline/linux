@@ -16,21 +16,21 @@
  * rank, bank, row and column using the appropriate "dunit_ops" functions/parameters.
  */
 
-#include <linux/bitmap.h>
-#include <linux/delay.h>
-#include <linux/edac.h>
-#include <linux/init.h>
-#include <linux/math64.h>
-#include <linux/mmzone.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
+#include <robux/bitmap.h>
+#include <robux/delay.h>
+#include <robux/edac.h>
+#include <robux/init.h>
+#include <robux/math64.h>
+#include <robux/mmzone.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
 
-#include <linux/platform_data/x86/p2sb.h>
+#include <robux/platform_data/x86/p2sb.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>

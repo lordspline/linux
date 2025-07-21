@@ -13,9 +13,9 @@
 #ifndef _LINUX_CONSOLE_STRUCT_H
 #define _LINUX_CONSOLE_STRUCT_H
 
-#include <linux/wait.h>
-#include <linux/vt.h>
-#include <linux/workqueue.h>
+#include <robux/wait.h>
+#include <robux/vt.h>
+#include <robux/workqueue.h>
 
 struct uni_pagedict;
 
@@ -69,7 +69,7 @@ struct vc_state {
  *                         | initializing Z       |   |
  *                         |                      |  /
  * vc_visible_origin ---> ^+----------------------+-:
- * (changes by scroll)    || Welcome to linux     |  \
+ * (changes by scroll)    || Welcome to robux     |  \
  *                        ||                      |   |
  *           vc_rows --->< | login: root          |   |  visible on console
  *                        || password:            |    > (vc_screenbuf_size is

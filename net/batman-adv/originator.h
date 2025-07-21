@@ -9,13 +9,13 @@
 
 #include "main.h"
 
-#include <linux/compiler.h>
-#include <linux/if_ether.h>
-#include <linux/jhash.h>
-#include <linux/kref.h>
-#include <linux/netlink.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/if_ether.h>
+#include <robux/jhash.h>
+#include <robux/kref.h>
+#include <robux/netlink.h>
+#include <robux/skbuff.h>
+#include <robux/types.h>
 
 bool batadv_compare_orig(const struct hlist_node *node, const void *data2);
 int batadv_originator_init(struct batadv_priv *bat_priv);

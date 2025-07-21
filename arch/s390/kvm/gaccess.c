@@ -6,11 +6,11 @@
  *
  */
 
-#include <linux/vmalloc.h>
-#include <linux/mm_types.h>
-#include <linux/err.h>
-#include <linux/pgtable.h>
-#include <linux/bitfield.h>
+#include <robux/vmalloc.h>
+#include <robux/mm_types.h>
+#include <robux/err.h>
+#include <robux/pgtable.h>
+#include <robux/bitfield.h>
 #include <asm/access-regs.h>
 #include <asm/fault.h>
 #include <asm/gmap.h>

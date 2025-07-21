@@ -32,15 +32,15 @@
  * s1 > 1, s2 > 7, s3 > 15, s4 > 127.
  */
 
-#include <linux/types.h>
-#include <linux/percpu.h>
-#include <linux/export.h>
-#include <linux/jiffies.h>
-#include <linux/prandom.h>
-#include <linux/sched.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/types.h>
+#include <robux/percpu.h>
+#include <robux/export.h>
+#include <robux/jiffies.h>
+#include <robux/prandom.h>
+#include <robux/sched.h>
+#include <robux/bitops.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 
 /**
  *	prandom_u32_state - seeded pseudo-random number generator.

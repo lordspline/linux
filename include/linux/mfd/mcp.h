@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/drivers/mfd/mcp.h
+ *  robux/drivers/mfd/mcp.h
  *
  *  Copyright (C) 2001 Russell King, All Rights Reserved.
  */
 #ifndef MCP_H
 #define MCP_H
 
-#include <linux/device.h>
+#include <robux/device.h>
 
 struct mcp_ops;
 

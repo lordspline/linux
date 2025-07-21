@@ -8,18 +8,18 @@
 #ifndef __LINUX_MFD_WM8350_CORE_H_
 #define __LINUX_MFD_WM8350_CORE_H_
 
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/interrupt.h>
-#include <linux/completion.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/mutex.h>
+#include <robux/interrupt.h>
+#include <robux/completion.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/wm8350/audio.h>
-#include <linux/mfd/wm8350/gpio.h>
-#include <linux/mfd/wm8350/pmic.h>
-#include <linux/mfd/wm8350/rtc.h>
-#include <linux/mfd/wm8350/supply.h>
-#include <linux/mfd/wm8350/wdt.h>
+#include <robux/mfd/wm8350/audio.h>
+#include <robux/mfd/wm8350/gpio.h>
+#include <robux/mfd/wm8350/pmic.h>
+#include <robux/mfd/wm8350/rtc.h>
+#include <robux/mfd/wm8350/supply.h>
+#include <robux/mfd/wm8350/wdt.h>
 
 /*
  * Register values.

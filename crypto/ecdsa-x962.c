@@ -6,9 +6,9 @@
  * Copyright (c) 2024 Intel Corporation
  */
 
-#include <linux/asn1_decoder.h>
-#include <linux/err.h>
-#include <linux/module.h>
+#include <robux/asn1_decoder.h>
+#include <robux/err.h>
+#include <robux/module.h>
 #include <crypto/algapi.h>
 #include <crypto/sig.h>
 #include <crypto/internal/ecc.h>

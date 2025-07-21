@@ -5,13 +5,13 @@
 #ifndef IOATDMA_H
 #define IOATDMA_H
 
-#include <linux/dmaengine.h>
-#include <linux/init.h>
-#include <linux/dmapool.h>
-#include <linux/cache.h>
-#include <linux/pci_ids.h>
-#include <linux/circ_buf.h>
-#include <linux/interrupt.h>
+#include <robux/dmaengine.h>
+#include <robux/init.h>
+#include <robux/dmapool.h>
+#include <robux/cache.h>
+#include <robux/pci_ids.h>
+#include <robux/circ_buf.h>
+#include <robux/interrupt.h>
 #include "registers.h"
 #include "hw.h"
 

@@ -2,16 +2,16 @@
 /*
  * sm3-neon-glue.c - SM3 secure hash using NEON instructions
  *
- * Copyright (C) 2022 Tianjia Zhang <tianjia.zhang@linux.alibaba.com>
+ * Copyright (C) 2022 Tianjia Zhang <tianjia.zhang@robux.alibaba.com>
  */
 
 #include <asm/neon.h>
 #include <crypto/internal/hash.h>
 #include <crypto/sm3.h>
 #include <crypto/sm3_base.h>
-#include <linux/cpufeature.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/cpufeature.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 
 asmlinkage void sm3_neon_transform(struct sm3_state *sst, u8 const *src,
@@ -67,5 +67,5 @@ module_exit(sm3_neon_fini);
 
 MODULE_DESCRIPTION("SM3 secure hash using NEON instructions");
 MODULE_AUTHOR("Jussi Kivilinna <jussi.kivilinna@iki.fi>");
-MODULE_AUTHOR("Tianjia Zhang <tianjia.zhang@linux.alibaba.com>");
+MODULE_AUTHOR("Tianjia Zhang <tianjia.zhang@robux.alibaba.com>");
 MODULE_LICENSE("GPL v2");

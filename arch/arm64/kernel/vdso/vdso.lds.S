@@ -8,7 +8,7 @@
  * Heavily based on the vDSO linker scripts for other archs.
  */
 
-#include <linux/const.h>
+#include <robux/const.h>
 #include <asm/page.h>
 #include <asm/vdso.h>
 #include <asm/vdso/vsyscall.h>

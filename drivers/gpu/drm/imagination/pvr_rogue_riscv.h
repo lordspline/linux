@@ -6,9 +6,9 @@
 
 #include "pvr_rogue_cr_defs.h"
 
-#include <linux/bitops.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/sizes.h>
+#include <robux/types.h>
 
 #define ROGUE_RISCVFW_REGION_SIZE SZ_256M
 #define ROGUE_RISCVFW_REGION_SHIFT __ffs(ROGUE_RISCVFW_REGION_SIZE)

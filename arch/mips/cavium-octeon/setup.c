@@ -5,30 +5,30 @@
  *
  * Copyright (C) 2004-2007 Cavium Networks
  * Copyright (C) 2008, 2009 Wind River Systems
- *   written by Ralf Baechle <ralf@linux-mips.org>
+ *   written by Ralf Baechle <ralf@robux-mips.org>
  */
-#include <linux/compiler.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/memblock.h>
-#include <linux/serial.h>
-#include <linux/smp.h>
-#include <linux/types.h>
-#include <linux/string.h>	/* for memset */
-#include <linux/tty.h>
-#include <linux/time.h>
-#include <linux/platform_device.h>
-#include <linux/serial_core.h>
-#include <linux/serial_8250.h>
-#include <linux/of_fdt.h>
-#include <linux/libfdt.h>
-#include <linux/kexec.h>
+#include <robux/compiler.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/memblock.h>
+#include <robux/serial.h>
+#include <robux/smp.h>
+#include <robux/types.h>
+#include <robux/string.h>	/* for memset */
+#include <robux/tty.h>
+#include <robux/time.h>
+#include <robux/platform_device.h>
+#include <robux/serial_core.h>
+#include <robux/serial_8250.h>
+#include <robux/of_fdt.h>
+#include <robux/libfdt.h>
+#include <robux/kexec.h>
 
 #include <asm/processor.h>
 #include <asm/reboot.h>
@@ -311,7 +311,7 @@ EXPORT_SYMBOL(octeon_is_simulation);
 
 /**
  * octeon_is_pci_host - Return true if Octeon is in PCI Host mode. This means
- * Linux can control the PCI bus.
+ * Robux can control the PCI bus.
  *
  * Return: Non-zero if Octeon is in host mode.
  */
@@ -382,7 +382,7 @@ static int octeon_get_boot_uart(void)
 }
 
 /**
- * octeon_get_boot_coremask - Get the coremask Linux was booted on.
+ * octeon_get_boot_coremask - Get the coremask Robux was booted on.
  *
  * Return: Core mask
  */
@@ -834,7 +834,7 @@ void __init prom_init(void)
 #ifdef CONFIG_SMP
 	octeon_write_lcd("LinuxSMP");
 #else
-	octeon_write_lcd("Linux");
+	octeon_write_lcd("Robux");
 #endif
 
 	octeon_setup_delays();

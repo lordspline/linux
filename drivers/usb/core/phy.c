@@ -7,10 +7,10 @@
  * Copyright (C) 2018 Martin Blumenstingl <martin.blumenstingl@googlemail.com>
  */
 
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/phy/phy.h>
-#include <linux/of.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/phy/phy.h>
+#include <robux/of.h>
 
 #include "phy.h"
 

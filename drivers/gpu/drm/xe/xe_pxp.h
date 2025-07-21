@@ -6,7 +6,7 @@
 #ifndef __XE_PXP_H__
 #define __XE_PXP_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct drm_gem_object;
 struct xe_bo;

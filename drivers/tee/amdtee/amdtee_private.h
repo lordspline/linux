@@ -7,15 +7,15 @@
 #ifndef AMDTEE_PRIVATE_H
 #define AMDTEE_PRIVATE_H
 
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/tee_core.h>
-#include <linux/kref.h>
-#include <linux/types.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/tee_core.h>
+#include <robux/kref.h>
+#include <robux/types.h>
 #include "amdtee_if.h"
 
 #define DRIVER_NAME	"amdtee"
-#define DRIVER_AUTHOR   "AMD-TEE Linux driver team"
+#define DRIVER_AUTHOR   "AMD-TEE Robux driver team"
 
 /* Some GlobalPlatform error codes used in this driver */
 #define TEEC_SUCCESS			0x00000000

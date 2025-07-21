@@ -13,13 +13,13 @@
  * This file is licenced under the GPL.
  */
 
-#include <linux/err.h>
-#include <linux/signal.h>
+#include <robux/err.h>
+#include <robux/signal.h>
 
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
 
 
 static const struct hc_driver ehci_ppc_of_hc_driver = {

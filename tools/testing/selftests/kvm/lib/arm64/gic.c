@@ -4,8 +4,8 @@
  */
 
 #include <errno.h>
-#include <linux/bits.h>
-#include <linux/sizes.h>
+#include <robux/bits.h>
+#include <robux/sizes.h>
 
 #include "kvm_util.h"
 

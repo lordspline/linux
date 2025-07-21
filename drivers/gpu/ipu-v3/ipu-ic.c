@@ -4,14 +4,14 @@
  * Copyright 2005-2012 Freescale Semiconductor, Inc. All Rights Reserved.
  */
 
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/spinlock.h>
-#include <linux/bitrev.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/sizes.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/spinlock.h>
+#include <robux/bitrev.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/sizes.h>
 #include "ipu-prv.h"
 
 /* IC Register Offsets */

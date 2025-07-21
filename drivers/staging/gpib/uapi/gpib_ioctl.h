@@ -8,7 +8,7 @@
 #define _GPIB_IOCTL_H
 
 #include <asm/ioctl.h>
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define GPIB_CODE 160
 

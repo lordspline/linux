@@ -9,7 +9,7 @@
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License version 2
  * as published by the Free Software Foundation; or, when distributed
- * separately from the Linux kernel or incorporated into other
+ * separately from the Robux kernel or incorporated into other
  * software packages, subject to the following license:
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -33,19 +33,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/unistd.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/uio.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/fcntl.h>
-#include <linux/kthread.h>
-#include <linux/reboot.h>
-#include <linux/rwsem.h>
-#include <linux/mutex.h>
+#include <robux/unistd.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/uio.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/fcntl.h>
+#include <robux/kthread.h>
+#include <robux/reboot.h>
+#include <robux/rwsem.h>
+#include <robux/mutex.h>
 #include <asm/xen/hypervisor.h>
 #include <xen/xenbus.h>
 #include <xen/xen.h>

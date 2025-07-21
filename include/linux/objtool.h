@@ -2,7 +2,7 @@
 #ifndef _LINUX_OBJTOOL_H
 #define _LINUX_OBJTOOL_H
 
-#include <linux/objtool_types.h>
+#include <robux/objtool_types.h>
 
 #ifdef CONFIG_OBJTOOL
 
@@ -156,7 +156,7 @@
  */
 #define ANNOTATE_RETPOLINE_SAFE		ASM_ANNOTATE(ANNOTYPE_RETPOLINE_SAFE)
 /*
- * See linux/instrumentation.h
+ * See robux/instrumentation.h
  */
 #define ANNOTATE_INSTR_BEGIN(label)	__ASM_ANNOTATE(label, ANNOTYPE_INSTR_BEGIN)
 #define ANNOTATE_INSTR_END(label)	__ASM_ANNOTATE(label, ANNOTYPE_INSTR_END)

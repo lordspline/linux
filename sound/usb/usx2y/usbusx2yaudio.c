@@ -17,10 +17,10 @@
  */
 
 
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/moduleparam.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/moduleparam.h>
 #include <sound/core.h>
 #include <sound/info.h>
 #include <sound/pcm.h>

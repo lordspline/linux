@@ -11,12 +11,12 @@
  * Try the fit2 protocol module with them.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/wait.h>
 #include <asm/io.h>
 #include "pata_parport.h"
 

@@ -4,7 +4,7 @@
 #ifndef _IDPF_PTP_H
 #define _IDPF_PTP_H
 
-#include <linux/ptp_clock_kernel.h>
+#include <robux/ptp_clock_kernel.h>
 
 /**
  * struct idpf_ptp_cmd - PTP command masks

@@ -13,15 +13,15 @@
 #include "cx88.h"
 #include "cx88-reg.h"
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/vmalloc.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/vmalloc.h>
+#include <robux/dma-mapping.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

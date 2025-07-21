@@ -10,8 +10,8 @@
  *
  */
 
-#include <linux/of.h>
-#include <linux/mmc/sdio_ids.h>
+#include <robux/of.h>
+#include <robux/mmc/sdio_ids.h>
 
 #include "card.h"
 

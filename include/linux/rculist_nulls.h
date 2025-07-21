@@ -7,8 +7,8 @@
 /*
  * RCU-protected list version
  */
-#include <linux/list_nulls.h>
-#include <linux/rcupdate.h>
+#include <robux/list_nulls.h>
+#include <robux/rcupdate.h>
 
 /**
  * hlist_nulls_del_init_rcu - deletes entry from hash list with re-initialization

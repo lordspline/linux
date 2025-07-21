@@ -2,7 +2,7 @@
 /*
  * IPQ5424 device tree source
  *
- * Copyright (c) 2020-2021 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020-2021 The Robux Foundation. All rights reserved.
  * Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
@@ -720,7 +720,7 @@
 				    "config",
 				    "mhi";
 			device_type = "pci";
-			linux,pci-domain = <3>;
+			robux,pci-domain = <3>;
 			num-lanes = <2>;
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -824,7 +824,7 @@
 				    "config",
 				    "mhi";
 			device_type = "pci";
-			linux,pci-domain = <2>;
+			robux,pci-domain = <2>;
 			num-lanes = <2>;
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -927,7 +927,7 @@
 				    "config",
 				    "mhi";
 			device_type = "pci";
-			linux,pci-domain = <1>;
+			robux,pci-domain = <1>;
 			num-lanes = <1>;
 			#address-cells = <3>;
 			#size-cells = <2>;
@@ -1030,7 +1030,7 @@
 				    "config",
 				    "mhi";
 			device_type = "pci";
-			linux,pci-domain = <0>;
+			robux,pci-domain = <0>;
 			num-lanes = <1>;
 			#address-cells = <3>;
 			#size-cells = <2>;

@@ -5,9 +5,9 @@
  * Arnaldo Carvalho de Melo <acme@conectiva.com.br>
  */
 
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/sysctl.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/sysctl.h>
 #include <net/net_namespace.h>
 #include <net/llc.h>
 

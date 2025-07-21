@@ -6,8 +6,8 @@
 
 #include <unistd.h>
 #include <asm/ptrace.h>
-#include <linux/compiler.h>
-#include <linux/stringify.h>
+#include <robux/compiler.h>
+#include <robux/stringify.h>
 #include <sys/wait.h>
 #include <sys/syscall.h>
 #include <sys/prctl.h>

@@ -4,13 +4,13 @@
  *
  * Copyright (C) 2020 Remi Pommarel <repk@triplefau.lt>
  */
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/phy/phy.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/platform_device.h>
-#include <linux/bitfield.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/phy/phy.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/platform_device.h>
+#include <robux/bitfield.h>
 #include <dt-bindings/phy/phy.h>
 
 #define MESON_PCIE_REG0 0x00

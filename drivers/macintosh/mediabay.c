@@ -6,17 +6,17 @@
  *
  * Various evolutions by Benjamin Herrenschmidt & Henry Worth
  */
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/stddef.h>
-#include <linux/init.h>
-#include <linux/kthread.h>
-#include <linux/mutex.h>
-#include <linux/pgtable.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/sched.h>
+#include <robux/timer.h>
+#include <robux/stddef.h>
+#include <robux/init.h>
+#include <robux/kthread.h>
+#include <robux/mutex.h>
+#include <robux/pgtable.h>
 
 #include <asm/io.h>
 #include <asm/machdep.h>
@@ -26,8 +26,8 @@
 #include <asm/ohare.h>
 #include <asm/heathrow.h>
 #include <asm/keylargo.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
+#include <robux/adb.h>
+#include <robux/pmu.h>
 
 #define MB_FCR32(bay, r)	((bay)->base + ((r) >> 2))
 #define MB_FCR8(bay, r)		(((volatile u8 __iomem *)((bay)->base)) + (r))

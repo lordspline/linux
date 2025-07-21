@@ -10,8 +10,8 @@
 #ifndef PN_DEV_H
 #define PN_DEV_H
 
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
 
 struct net;
 

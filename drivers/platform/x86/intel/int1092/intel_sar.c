@@ -3,10 +3,10 @@
  * Copyright (c) 2021, Intel Corporation.
  */
 
-#include <linux/acpi.h>
-#include <linux/kobject.h>
-#include <linux/platform_device.h>
-#include <linux/sysfs.h>
+#include <robux/acpi.h>
+#include <robux/kobject.h>
+#include <robux/platform_device.h>
+#include <robux/sysfs.h>
 #include "intel_sar.h"
 
 /**

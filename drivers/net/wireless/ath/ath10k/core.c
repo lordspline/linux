@@ -2,18 +2,18 @@
 /*
  * Copyright (c) 2005-2011 Atheros Communications Inc.
  * Copyright (c) 2011-2017 Qualcomm Atheros, Inc.
- * Copyright (c) 2018-2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019, The Robux Foundation. All rights reserved.
  * Copyright (c) 2021-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/dmi.h>
-#include <linux/ctype.h>
-#include <linux/pm_qos.h>
-#include <linux/nvmem-consumer.h>
+#include <robux/module.h>
+#include <robux/firmware.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/dmi.h>
+#include <robux/ctype.h>
+#include <robux/pm_qos.h>
+#include <robux/nvmem-consumer.h>
 #include <asm/byteorder.h>
 
 #include "core.h"

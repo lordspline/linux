@@ -6,12 +6,12 @@
  * Copyright (C) 2017 Analog Devices Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regulator/consumer.h>
+#include <robux/delay.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/driver.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regulator/consumer.h>
 
 #include "ltc2497.h"
 

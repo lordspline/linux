@@ -12,15 +12,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/jhash.h>
-#include <linux/errno.h>
-#include <linux/hashtable.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/jhash.h>
+#include <robux/errno.h>
+#include <robux/hashtable.h>
 #include <net/9p/9p.h>
 
 /**
- * struct errormap - map string errors from Plan 9 to Linux numeric ids
+ * struct errormap - map string errors from Plan 9 to Robux numeric ids
  * @name: string sent over 9P
  * @val: numeric id most closely representing @name
  * @namelen: length of string

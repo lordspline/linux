@@ -35,8 +35,8 @@
 #ifndef MLX4_FW_QOS_H
 #define MLX4_FW_QOS_H
 
-#include <linux/mlx4/cmd.h>
-#include <linux/mlx4/device.h>
+#include <robux/mlx4/cmd.h>
+#include <robux/mlx4/device.h>
 
 #define MLX4_NUM_UP 8
 #define MLX4_NUM_TC 8

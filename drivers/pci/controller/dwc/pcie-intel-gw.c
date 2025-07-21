@@ -5,16 +5,16 @@
  * Copyright (c) 2019 Intel Corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iopoll.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pci_regs.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reset.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/gpio/consumer.h>
+#include <robux/iopoll.h>
+#include <robux/mod_devicetable.h>
+#include <robux/pci_regs.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/reset.h>
 
 #include "../../pci.h"
 #include "pcie-designware.h"

@@ -5,22 +5,22 @@
  * Copyright (c) 2015 Rockchip Electronics Co., Ltd.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/pm_clock.h>
-#include <linux/pm_domain.h>
-#include <linux/property.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_clk.h>
-#include <linux/clk.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mfd/syscon.h>
+#include <robux/arm-smccc.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/pm_clock.h>
+#include <robux/pm_domain.h>
+#include <robux/property.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_clk.h>
+#include <robux/clk.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/mfd/syscon.h>
 #include <soc/rockchip/pm_domains.h>
 #include <soc/rockchip/rockchip_sip.h>
 #include <dt-bindings/power/px30-power.h>

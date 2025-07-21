@@ -24,10 +24,10 @@
 #ifndef __KFD_TOPOLOGY_H__
 #define __KFD_TOPOLOGY_H__
 
-#include <linux/dmi.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/kfd_sysfs.h>
+#include <robux/dmi.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/kfd_sysfs.h>
 #include "kfd_crat.h"
 
 #define KFD_TOPOLOGY_PUBLIC_NAME_SIZE 32

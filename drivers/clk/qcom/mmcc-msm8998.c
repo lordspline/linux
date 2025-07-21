@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2019, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/bitops.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/clk-provider.h>
+#include <robux/regmap.h>
 
 #include <dt-bindings/clock/qcom,mmcc-msm8998.h>
 
@@ -1011,7 +1011,7 @@ static const struct freq_tbl ftbl_axi_clk_src[] = {
 	{ }
 };
 
-/* RO to linux */
+/* RO to robux */
 static struct clk_rcg2 axi_clk_src = {
 	.cmd_rcgr = 0xd000,
 	.hid_width = 5,

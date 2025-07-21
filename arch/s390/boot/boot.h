@@ -2,13 +2,13 @@
 #ifndef BOOT_BOOT_H
 #define BOOT_BOOT_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define IPL_START	0x200
 
 #ifndef __ASSEMBLY__
 
-#include <linux/printk.h>
+#include <robux/printk.h>
 #include <asm/physmem_info.h>
 
 struct vmlinux_info {

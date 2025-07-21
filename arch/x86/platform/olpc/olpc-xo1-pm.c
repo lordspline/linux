@@ -8,12 +8,12 @@
  * Copyright (C) 2006 Advanced Micro Devices, Inc.
  */
 
-#include <linux/cs5535.h>
-#include <linux/platform_device.h>
-#include <linux/export.h>
-#include <linux/pm.h>
-#include <linux/suspend.h>
-#include <linux/olpc-ec.h>
+#include <robux/cs5535.h>
+#include <robux/platform_device.h>
+#include <robux/export.h>
+#include <robux/pm.h>
+#include <robux/suspend.h>
+#include <robux/olpc-ec.h>
 
 #include <asm/io.h>
 #include <asm/olpc.h>

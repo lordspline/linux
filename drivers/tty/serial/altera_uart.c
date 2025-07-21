@@ -9,20 +9,20 @@
  * (C) Copyright 2010, Tobias Klauser <tklauser@distanz.ch>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/console.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/altera_uart.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/console.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/io.h>
+#include <robux/altera_uart.h>
 
 #define SERIAL_ALTERA_MAJOR 204
 #define SERIAL_ALTERA_MINOR 213

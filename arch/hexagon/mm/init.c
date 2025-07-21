@@ -2,14 +2,14 @@
 /*
  * Memory subsystem initialization for Hexagon
  *
- * Copyright (c) 2010-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2013, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/memblock.h>
 #include <asm/atomic.h>
-#include <linux/highmem.h>
+#include <robux/highmem.h>
 #include <asm/tlb.h>
 #include <asm/sections.h>
 #include <asm/setup.h>

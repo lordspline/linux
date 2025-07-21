@@ -5,10 +5,10 @@
  * Copyright (C) 2025 Advanced Micro Devices, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/soc/amd/isp4_misc.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/soc/amd/isp4_misc.h>
 
 #include "i2c-designware-core.h"
 

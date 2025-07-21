@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _IP6T_OPTS_H
 #define _IP6T_OPTS_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define IP6T_OPTS_OPTSNR 16
 

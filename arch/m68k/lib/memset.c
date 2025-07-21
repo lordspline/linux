@@ -4,8 +4,8 @@
  * for more details.
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
+#include <robux/module.h>
+#include <robux/string.h>
 
 void *memset(void *s, int c, size_t count)
 {

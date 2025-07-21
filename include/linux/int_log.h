@@ -8,7 +8,7 @@
 #ifndef __LINUX_INT_LOG_H
 #define __LINUX_INT_LOG_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /**
  * intlog2 - computes log2 of a value; the result is shifted left by 24 bits

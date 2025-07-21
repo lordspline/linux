@@ -5,14 +5,14 @@
  * All rights reserved
  */
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kmod.h>
-#include <linux/mdio.h>
-#include <linux/phy.h>
-#include <linux/of.h>
-#include <linux/bitops.h>
-#include <linux/jiffies.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/kmod.h>
+#include <robux/mdio.h>
+#include <robux/phy.h>
+#include <robux/of.h>
+#include <robux/bitops.h>
+#include <robux/jiffies.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

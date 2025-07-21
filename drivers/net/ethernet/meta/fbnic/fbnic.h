@@ -4,11 +4,11 @@
 #ifndef _FBNIC_H_
 #define _FBNIC_H_
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include "fbnic_csr.h"
 #include "fbnic_fw.h"

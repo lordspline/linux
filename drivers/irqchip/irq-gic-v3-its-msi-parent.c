@@ -4,11 +4,11 @@
 // Copyright (C) 2022 Linutronix GmbH
 // Copyright (C) 2022 Intel
 
-#include <linux/acpi_iort.h>
-#include <linux/pci.h>
+#include <robux/acpi_iort.h>
+#include <robux/pci.h>
 
 #include "irq-gic-common.h"
-#include <linux/irqchip/irq-msi-lib.h>
+#include <robux/irqchip/irq-msi-lib.h>
 
 #define ITS_MSI_FLAGS_REQUIRED  (MSI_FLAG_USE_DEF_DOM_OPS |	\
 				 MSI_FLAG_USE_DEF_CHIP_OPS |	\

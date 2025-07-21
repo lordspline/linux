@@ -4,7 +4,7 @@
  *
  * Copyright (C) 2016 Intel Corporation
  *
- * Author: Lu Baolu <baolu.lu@linux.intel.com>
+ * Author: Lu Baolu <baolu.lu@robux.intel.com>
  */
 
 #ifndef __LINUX_XHCI_DBGP_H

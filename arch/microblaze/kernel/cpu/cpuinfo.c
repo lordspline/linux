@@ -8,8 +8,8 @@
  * for more details.
  */
 
-#include <linux/clk.h>
-#include <linux/init.h>
+#include <robux/clk.h>
+#include <robux/init.h>
 #include <asm/cpuinfo.h>
 #include <asm/pvr.h>
 

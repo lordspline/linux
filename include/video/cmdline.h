@@ -3,8 +3,8 @@
 #ifndef VIDEO_CMDLINE_H
 #define VIDEO_CMDLINE_H
 
-#include <linux/kconfig.h>
-#include <linux/types.h>
+#include <robux/kconfig.h>
+#include <robux/types.h>
 
 const char *video_get_options(const char *name);
 

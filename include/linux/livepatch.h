@@ -9,11 +9,11 @@
 #ifndef _LINUX_LIVEPATCH_H_
 #define _LINUX_LIVEPATCH_H_
 
-#include <linux/module.h>
-#include <linux/ftrace.h>
-#include <linux/completion.h>
-#include <linux/list.h>
-#include <linux/livepatch_sched.h>
+#include <robux/module.h>
+#include <robux/ftrace.h>
+#include <robux/completion.h>
+#include <robux/list.h>
+#include <robux/livepatch_sched.h>
 
 #if IS_ENABLED(CONFIG_LIVEPATCH)
 

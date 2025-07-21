@@ -9,14 +9,14 @@
  *		 Peter Oberparleiter <peter.oberparleiter@de.ibm.com>
  */
 
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/kernel_stat.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/rculist.h>
-#include <linux/slab.h>
-#include <linux/dmapool.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/kernel_stat.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/rculist.h>
+#include <robux/slab.h>
+#include <robux/dmapool.h>
 
 #include <asm/airq.h>
 #include <asm/isc.h>

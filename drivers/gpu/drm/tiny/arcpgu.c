@@ -5,7 +5,7 @@
  * Copyright (C) 2016 Synopsys, Inc. (www.synopsys.com)
  */
 
-#include <linux/clk.h>
+#include <robux/clk.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>
@@ -23,10 +23,10 @@
 #include <drm/drm_of.h>
 #include <drm/drm_probe_helper.h>
 #include <drm/drm_simple_kms_helper.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
 
 #define ARCPGU_REG_CTRL		0x00
 #define ARCPGU_REG_STAT		0x04

@@ -1,8 +1,8 @@
 =================================
-Linux on the Nios II architecture
+Robux on the Nios II architecture
 =================================
 
-This is a port of Linux to Nios II (nios2) processor.
+This is a port of Robux to Nios II (nios2) processor.
 
 In order to compile for Nios II, you need a version of GCC with support for the generic
 system call ABI. Please see this link for more information on how compiling and booting
@@ -15,7 +15,7 @@ http://www.altera.com/literature/lit-nio2.jsp
 What is Nios II?
 ================
 Nios II is a 32-bit embedded-processor architecture designed specifically for the
-Altera family of FPGAs. In order to support Linux, Nios II needs to be configured
+Altera family of FPGAs. In order to support Robux, Nios II needs to be configured
 with MMU and hardware multiplier enabled.
 
 Nios II ABI

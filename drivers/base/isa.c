@@ -3,13 +3,13 @@
  * ISA bus.
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/dma-mapping.h>
-#include <linux/isa.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/dma-mapping.h>
+#include <robux/isa.h>
 
 static struct device isa_bus = {
 	.init_name	= "isa"

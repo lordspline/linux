@@ -3,8 +3,8 @@
  * Copyright (C) 2020-2024 Intel Corporation
  */
 
-#include <linux/debugfs.h>
-#include <linux/fault-inject.h>
+#include <robux/debugfs.h>
+#include <robux/fault-inject.h>
 
 #include <drm/drm_debugfs.h>
 #include <drm/drm_file.h>

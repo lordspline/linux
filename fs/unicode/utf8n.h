@@ -7,11 +7,11 @@
 #ifndef UTF8NORM_H
 #define UTF8NORM_H
 
-#include <linux/types.h>
-#include <linux/export.h>
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/unicode.h>
+#include <robux/types.h>
+#include <robux/export.h>
+#include <robux/string.h>
+#include <robux/module.h>
+#include <robux/unicode.h>
 
 int utf8version_is_supported(const struct unicode_map *um, unsigned int version);
 

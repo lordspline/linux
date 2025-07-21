@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * include/linux/node.h - generic node definition
+ * include/robux/node.h - generic node definition
  *
  * This is mainly for topological representation. We define the
  * basic 'struct node' here, which can be embedded in per-arch
@@ -15,8 +15,8 @@
 #ifndef _LINUX_NODE_H_
 #define _LINUX_NODE_H_
 
-#include <linux/device.h>
-#include <linux/list.h>
+#include <robux/device.h>
+#include <robux/list.h>
 
 /**
  * struct access_coordinate - generic performance coordinates container

@@ -8,10 +8,10 @@
  *   Roger Tseng <rogerable@realtek.com>
  */
 
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/rtsx_pci.h>
+#include <robux/module.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/rtsx_pci.h>
 
 #include "rtsx_pcr.h"
 

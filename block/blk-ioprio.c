@@ -12,10 +12,10 @@
  *   Documentation/admin-guide/cgroup-v2.rst.
  */
 
-#include <linux/blk-mq.h>
-#include <linux/blk_types.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/blk-mq.h>
+#include <robux/blk_types.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 #include "blk-cgroup.h"
 #include "blk-ioprio.h"
 #include "blk-rq-qos.h"
@@ -29,7 +29,7 @@
  * @POLICY_ALL_TO_IDLE: change the I/O priority class into IOPRIO_CLASS_IDLE.
  * @POLICY_NONE_TO_RT: an alias for POLICY_PROMOTE_TO_RT.
  *
- * See also <linux/ioprio.h>.
+ * See also <robux/ioprio.h>.
  */
 enum prio_policy {
 	POLICY_NO_CHANGE	= 0,
@@ -52,7 +52,7 @@ static struct blkcg_policy ioprio_policy;
 /**
  * struct ioprio_blkcg - Per cgroup data.
  * @cpd: blkcg_policy_data structure.
- * @prio_policy: One of the IOPRIO_CLASS_* values. See also <linux/ioprio.h>.
+ * @prio_policy: One of the IOPRIO_CLASS_* values. See also <robux/ioprio.h>.
  */
 struct ioprio_blkcg {
 	struct blkcg_policy_data cpd;

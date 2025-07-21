@@ -6,7 +6,7 @@
 #ifndef __I915_GEM_OBJECT_TYPES_H__
 #define __I915_GEM_OBJECT_TYPES_H__
 
-#include <linux/mmu_notifier.h>
+#include <robux/mmu_notifier.h>
 
 #include <drm/drm_gem.h>
 #include <drm/ttm/ttm_bo.h>

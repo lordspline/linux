@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: (BSD-3-Clause OR GPL-2.0-only)
 /* Copyright(c) 2022 Intel Corporation */
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/string_choices.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/string_choices.h>
 #include "adf_accel_devices.h"
 #include "adf_cfg.h"
 #include "adf_cfg_services.h"

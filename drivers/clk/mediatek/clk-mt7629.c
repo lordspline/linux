@@ -5,10 +5,10 @@
  *	   Ryder Lee <ryder.lee@mediatek.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include "clk-cpumux.h"
 #include "clk-gate.h"

@@ -9,14 +9,14 @@
  * Some ideas are from marvell/cesa.c and s5p-sss.c driver.
  */
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <crypto/internal/hash.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
 #include "rk3288_crypto.h"
 
 /*

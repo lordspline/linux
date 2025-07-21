@@ -41,23 +41,23 @@
  * consecutive packets.
  */
 
-#include <linux/acpi.h>
-#include <linux/crc16.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/efi.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/ktime.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/spi/spi.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <robux/acpi.h>
+#include <robux/crc16.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/efi.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/ktime.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/spi/spi.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
 
 #include <asm/barrier.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define CREATE_TRACE_POINTS
 #include "applespi.h"

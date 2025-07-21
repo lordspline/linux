@@ -6,26 +6,26 @@
  */
 
 #include <asm/cacheflush.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/edac.h>
-#include <linux/firmware/intel/stratix10-smc.h>
-#include <linux/genalloc.h>
-#include <linux/interrupt.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/kernel.h>
-#include <linux/mfd/altera-sysmgr.h>
-#include <linux/mfd/syscon.h>
-#include <linux/notifier.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/panic_notifier.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <robux/ctype.h>
+#include <robux/delay.h>
+#include <robux/edac.h>
+#include <robux/firmware/intel/stratix10-smc.h>
+#include <robux/genalloc.h>
+#include <robux/interrupt.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/kernel.h>
+#include <robux/mfd/altera-sysmgr.h>
+#include <robux/mfd/syscon.h>
+#include <robux/notifier.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/panic_notifier.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
 
 #include "altera_edac.h"
 #include "edac_module.h"
@@ -1072,7 +1072,7 @@ static int __init __maybe_unused altr_init_a10_ecc_device_type(char *compat)
 
 /*
  * A legacy U-Boot bug only enabled memory mapped access to the ECC Enable
- * register if ECC is enabled. Linux checks the ECC Enable register to
+ * register if ECC is enabled. Robux checks the ECC Enable register to
  * determine ECC status.
  * Use an SMC call (which always works) to determine ECC enablement.
  */
@@ -1848,7 +1848,7 @@ static int validate_parent_available(struct device_node *np)
 	struct device_node *parent;
 	int ret = 0;
 
-	/* SDRAM must be present for Linux (implied parent) */
+	/* SDRAM must be present for Robux (implied parent) */
 	if (of_device_is_compatible(np, "altr,sdram-edac-s10"))
 		return 0;
 

@@ -5,11 +5,11 @@
  * Copyright 2009-2011 Analog Devices Inc.
  */
 
-#include <linux/export.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/export.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 
 #include "sigmadsp.h"
 

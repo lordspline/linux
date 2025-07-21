@@ -4,10 +4,10 @@
  * Copyright (C) 2014, Freescale Semiconductor, Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/mtd/spi-nor.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/mtd/spi-nor.h>
 
 #include "core.h"
 

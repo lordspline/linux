@@ -12,11 +12,11 @@
  *	we have to worry about.
  */
 
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/timex.h>
-#include <linux/preempt.h>
-#include <linux/delay.h>
+#include <robux/export.h>
+#include <robux/sched.h>
+#include <robux/timex.h>
+#include <robux/preempt.h>
+#include <robux/delay.h>
 
 #include <asm/processor.h>
 #include <asm/delay.h>

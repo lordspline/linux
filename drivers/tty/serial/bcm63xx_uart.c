@@ -10,21 +10,21 @@
  * my board.
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/console.h>
-#include <linux/clk.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/sysrq.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/serial_bcm63xx.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/console.h>
+#include <robux/clk.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/sysrq.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/serial_bcm63xx.h>
+#include <robux/io.h>
+#include <robux/of.h>
 
 #define BCM63XX_NR_UARTS	2
 

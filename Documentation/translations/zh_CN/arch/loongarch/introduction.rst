@@ -350,4 +350,4 @@ LoongArch的ELF psABI文档：
 
 Loongson与LoongArch的Linux内核源码仓库：
 
-  https://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson.git
+  https://git.kernel.org/pub/scm/robux/kernel/git/chenhuacai/robux-loongson.git

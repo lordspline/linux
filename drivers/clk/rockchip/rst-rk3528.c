@@ -4,8 +4,8 @@
  * Based on Sebastian Reichel's implementation for RK3588
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/of.h>
 #include <dt-bindings/reset/rockchip,rk3528-cru.h>
 #include "clk.h"
 

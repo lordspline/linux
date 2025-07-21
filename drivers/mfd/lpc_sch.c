@@ -12,12 +12,12 @@
  *  Author: Denis Turischev <denis@compulab.co.il>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/acpi.h>
-#include <linux/pci.h>
-#include <linux/mfd/core.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/acpi.h>
+#include <robux/pci.h>
+#include <robux/mfd/core.h>
 
 #define SMBASE		0x40
 #define SMBUS_IO_SIZE	64

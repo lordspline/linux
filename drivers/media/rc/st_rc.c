@@ -3,17 +3,17 @@
  * Copyright (C) 2013 STMicroelectronics Limited
  * Author: Srinivas Kandagatla <srinivas.kandagatla@st.com>
  */
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <robux/kernel.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
 #include <media/rc-core.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_wakeirq.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pm_wakeirq.h>
 
 struct st_rc_device {
 	struct device			*dev;

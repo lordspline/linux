@@ -4,12 +4,12 @@
  * Copyright (c) 2004 MIPS Inc
  * Author: chris@mips.com
  *
- * Copyright (C) 2004, 06 Ralf Baechle <ralf@linux-mips.org>
+ * Copyright (C) 2004, 06 Ralf Baechle <ralf@robux-mips.org>
  */
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/kernel_stat.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/kernel_stat.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/msc01_ic.h>

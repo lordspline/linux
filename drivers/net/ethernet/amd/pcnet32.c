@@ -1,4 +1,4 @@
-/* pcnet32.c: An AMD PCnet32 ethernet driver for linux. */
+/* pcnet32.c: An AMD PCnet32 ethernet driver for robux. */
 /*
  *	Copyright 1996-1999 Thomas Bogendoerfer
  *
@@ -27,35 +27,35 @@
 #define DRV_RELDATE	"21.Apr.2008"
 #define PFX		DRV_NAME ": "
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/crc32.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/if_ether.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/moduleparam.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/crc32.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/if_ether.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/moduleparam.h>
+#include <robux/bitops.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
 
 #include <asm/dma.h>
 #include <asm/irq.h>
 
 /*
- * PCI device identifiers for "new style" Linux PCI Device Drivers
+ * PCI device identifiers for "new style" Robux PCI Device Drivers
  */
 static const struct pci_device_id pcnet32_pci_tbl[] = {
 	{ PCI_DEVICE(PCI_VENDOR_ID_AMD, PCI_DEVICE_ID_AMD_LANCE_HOME), },

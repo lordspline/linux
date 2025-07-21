@@ -3,13 +3,13 @@
 * Copyright (C) 2014 Texas Instruments Ltd
 */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/sched.h>
 
 #include <video/omapfb_dss.h>
 

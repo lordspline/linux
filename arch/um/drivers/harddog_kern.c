@@ -34,18 +34,18 @@
  *	Added WDIOC_GETTIMEOUT and WDIOC_SETTIMOUT.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/miscdevice.h>
-#include <linux/watchdog.h>
-#include <linux/reboot.h>
-#include <linux/mutex.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/miscdevice.h>
+#include <robux/watchdog.h>
+#include <robux/reboot.h>
+#include <robux/mutex.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/uaccess.h>
 #include "mconsole.h"
 #include "harddog.h"
 

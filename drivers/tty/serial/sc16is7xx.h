@@ -4,9 +4,9 @@
 #ifndef _SC16IS7XX_H_
 #define _SC16IS7XX_H_
 
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/mod_devicetable.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 #define SC16IS7XX_NAME		"sc16is7xx"
 #define SC16IS7XX_MAX_PORTS	2 /* Maximum number of UART ports per IC. */

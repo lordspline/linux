@@ -9,17 +9,17 @@
  * Authors: Sanjay Lal <sanjayl@kymasys.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/kdebug.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
-#include <linux/sched/signal.h>
-#include <linux/fs.h>
-#include <linux/memblock.h>
-#include <linux/pgtable.h>
+#include <robux/bitops.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/kdebug.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
+#include <robux/vmalloc.h>
+#include <robux/sched/signal.h>
+#include <robux/fs.h>
+#include <robux/memblock.h>
+#include <robux/pgtable.h>
 
 #include <asm/fpu.h>
 #include <asm/page.h>
@@ -27,7 +27,7 @@
 #include <asm/mmu_context.h>
 #include <asm/pgalloc.h>
 
-#include <linux/kvm_host.h>
+#include <robux/kvm_host.h>
 
 #include "interrupt.h"
 

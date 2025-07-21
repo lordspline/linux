@@ -3,7 +3,7 @@
  * Copyright (C) 2017,2020 Intel Corporation
  *
  * Based partially on Intel IPU4 driver written by
- *  Sakari Ailus <sakari.ailus@linux.intel.com>
+ *  Sakari Ailus <sakari.ailus@robux.intel.com>
  *  Samu Onkalo
  *  Jouni Högander <jouni.hogander@intel.com>
  *  Jouni Ukkonen
@@ -11,17 +11,17 @@
  * et al.
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pfn.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/vmalloc.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pfn.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/vmalloc.h>
 
 #include <media/ipu-bridge.h>
 #include <media/v4l2-ctrls.h>

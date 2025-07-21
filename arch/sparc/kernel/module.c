@@ -5,15 +5,15 @@
  * Copyright (C) 2002 David S. Miller.
  */
 
-#include <linux/moduleloader.h>
-#include <linux/kernel.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/mm.h>
+#include <robux/moduleloader.h>
+#include <robux/kernel.h>
+#include <robux/elf.h>
+#include <robux/vmalloc.h>
+#include <robux/fs.h>
+#include <robux/gfp.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
+#include <robux/mm.h>
 
 #include <asm/processor.h>
 #include <asm/spitfire.h>

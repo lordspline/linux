@@ -6,7 +6,7 @@
 #ifndef _XE_OBSERVATION_H_
 #define _XE_OBSERVATION_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct drm_device;
 struct drm_file;

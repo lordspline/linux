@@ -20,12 +20,12 @@ properties:
   label:
     description: human readable string describing the device, e.g. "tpm"
 
-  linux,sml-base:
+  robux,sml-base:
     description:
       base address of reserved memory allocated for firmware event log
     $ref: /schemas/types.yaml#/definitions/uint64
 
-  linux,sml-size:
+  robux,sml-size:
     description:
       size of reserved memory allocated for firmware event log
     $ref: /schemas/types.yaml#/definitions/uint32
@@ -48,18 +48,18 @@ properties:
     description: Output GPIO pin to reset the TPM
     maxItems: 1
 
-# must always have both linux,sml-base and linux,sml-size
+# must always have both robux,sml-base and robux,sml-size
 dependentRequired:
-  linux,sml-base: ['linux,sml-size']
-  linux,sml-size: ['linux,sml-base']
+  robux,sml-base: ['robux,sml-size']
+  robux,sml-size: ['robux,sml-base']
 
-# must only have either memory-region or linux,sml-base
+# must only have either memory-region or robux,sml-base
 # as well as either resets or reset-gpios
 dependentSchemas:
   memory-region:
     properties:
-      linux,sml-base: false
-  linux,sml-base:
+      robux,sml-base: false
+  robux,sml-base:
     properties:
       memory-region: false
   resets:

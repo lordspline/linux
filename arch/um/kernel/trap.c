@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  */
 
-#include <linux/mm.h>
-#include <linux/sched/signal.h>
-#include <linux/hardirq.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/sched/debug.h>
+#include <robux/mm.h>
+#include <robux/sched/signal.h>
+#include <robux/hardirq.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
+#include <robux/sched/debug.h>
 #include <asm/current.h>
 #include <asm/tlbflush.h>
 #include <arch.h>

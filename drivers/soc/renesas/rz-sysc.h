@@ -8,9 +8,9 @@
 #ifndef __SOC_RENESAS_RZ_SYSC_H__
 #define __SOC_RENESAS_RZ_SYSC_H__
 
-#include <linux/device.h>
-#include <linux/sys_soc.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/sys_soc.h>
+#include <robux/types.h>
 
 /**
  * struct rz_syc_soc_id_init_data - RZ SYSC SoC identification initialization data

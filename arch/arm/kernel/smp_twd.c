@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/smp_twd.c
+ *  robux/arch/arm/kernel/smp_twd.c
  *
  *  Copyright (C) 2002 ARM Ltd.
  *  All Rights Reserved
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/smp.h>
-#include <linux/jiffies.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/clk.h>
+#include <robux/cpu.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/smp.h>
+#include <robux/jiffies.h>
+#include <robux/clockchips.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
 
 #include <asm/smp_twd.h>
 

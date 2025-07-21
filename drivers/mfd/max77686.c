@@ -8,18 +8,18 @@
 //
 //This driver is based on max8997.c
 
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/module.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/max77686.h>
-#include <linux/mfd/max77686-private.h>
-#include <linux/err.h>
-#include <linux/of.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/pm_runtime.h>
+#include <robux/module.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/max77686.h>
+#include <robux/mfd/max77686-private.h>
+#include <robux/err.h>
+#include <robux/of.h>
 
 static const struct mfd_cell max77686_devs[] = {
 	{ .name = "max77686-pmic", },

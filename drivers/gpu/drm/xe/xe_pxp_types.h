@@ -6,12 +6,12 @@
 #ifndef __XE_PXP_TYPES_H__
 #define __XE_PXP_TYPES_H__
 
-#include <linux/completion.h>
-#include <linux/iosys-map.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/completion.h>
+#include <robux/iosys-map.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 struct xe_bo;
 struct xe_exec_queue;

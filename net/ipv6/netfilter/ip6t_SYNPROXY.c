@@ -3,9 +3,9 @@
  * Copyright (c) 2013 Patrick McHardy <kaber@trash.net>
  */
 
-#include <linux/netfilter_ipv6/ip6_tables.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_SYNPROXY.h>
+#include <robux/netfilter_ipv6/ip6_tables.h>
+#include <robux/netfilter/x_tables.h>
+#include <robux/netfilter/xt_SYNPROXY.h>
 
 #include <net/netfilter/nf_synproxy.h>
 

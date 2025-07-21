@@ -9,10 +9,10 @@
 #ifndef S5C73M3_H_
 #define S5C73M3_H_
 
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
+#include <robux/clk.h>
+#include <robux/kernel.h>
+#include <robux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-subdev.h>

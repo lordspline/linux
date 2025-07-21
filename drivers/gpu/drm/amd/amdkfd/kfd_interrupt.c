@@ -41,9 +41,9 @@
  * interrupts because we have no back-pressure to the hardware.
  */
 
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/kfifo.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/kfifo.h>
 #include "kfd_priv.h"
 
 #define KFD_IH_NUM_ENTRIES 16384

@@ -13,19 +13,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/mutex.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/sysfs.h>
+#include <robux/hwmon.h>
+#include <robux/mutex.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/spi/spi.h>
+#include <robux/slab.h>
 
 #define DRVNAME		"lm70"
 
@@ -214,5 +214,5 @@ static struct spi_driver lm70_driver = {
 module_spi_driver(lm70_driver);
 
 MODULE_AUTHOR("Kaiwan N Billimoria");
-MODULE_DESCRIPTION("NS LM70 and compatibles Linux driver");
+MODULE_DESCRIPTION("NS LM70 and compatibles Robux driver");
 MODULE_LICENSE("GPL");

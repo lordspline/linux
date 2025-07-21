@@ -4,14 +4,14 @@
  *
  *  Copyright (C) 2007  Paul Mundt
  */
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/init.h>
-#include <linux/percpu.h>
-#include <linux/topology.h>
-#include <linux/node.h>
-#include <linux/nodemask.h>
-#include <linux/export.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/init.h>
+#include <robux/percpu.h>
+#include <robux/topology.h>
+#include <robux/node.h>
+#include <robux/nodemask.h>
+#include <robux/export.h>
 
 static DEFINE_PER_CPU(struct cpu, cpu_devices);
 

@@ -11,15 +11,15 @@
  * Atheros chip stored on UBI Volume on NAND. Hence, this module can be used to
  * initialize the chip when the user-space is ready to extract the init code.
  */
-#include <linux/module.h>
-#include <linux/completion.h>
-#include <linux/etherdevice.h>
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/completion.h>
+#include <robux/etherdevice.h>
+#include <robux/firmware.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/workqueue.h>
 
 struct owl_ctx {
 	struct pci_dev *pdev;

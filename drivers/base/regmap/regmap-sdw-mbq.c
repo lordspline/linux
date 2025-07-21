@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright(c) 2020 Intel Corporation.
 
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_registers.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/soundwire/sdw_registers.h>
 #include <sound/sdca_function.h>
 #include "internal.h"
 

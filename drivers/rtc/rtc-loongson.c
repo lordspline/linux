@@ -7,13 +7,13 @@
  *                           Binbin Zhou <zhoubinbin@loongson.cn>
  */
 
-#include <linux/bitfield.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/acpi.h>
+#include <robux/bitfield.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/rtc.h>
+#include <robux/acpi.h>
 
 /* Time Of Year(TOY) counters registers */
 #define TOY_TRIM_REG		0x20 /* Must be initialized to 0 */

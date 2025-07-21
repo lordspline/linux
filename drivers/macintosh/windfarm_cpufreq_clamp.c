@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/wait.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/pm_qos.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/wait.h>
+#include <robux/cpu.h>
+#include <robux/cpufreq.h>
 
 #include "windfarm.h"
 

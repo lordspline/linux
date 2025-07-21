@@ -6,19 +6,19 @@
 // Copyright (c) 2018-2019 Linaro Ltd.
 //
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/spinlock.h>
-#include <linux/clk.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/spinlock.h>
+#include <robux/clk.h>
 
 /* HSSPI register address definitions */
 #define SYNQUACER_HSSPI_REG_MCTRL	0x00

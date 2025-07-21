@@ -6,18 +6,18 @@
  * Author: Andreas Herrmann <herrmann.der.user@googlemail.com>
  */
 
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/bitops.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/time.h>
-#include <linux/sched.h>
-#include <linux/topology.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/bitops.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/time.h>
+#include <robux/sched.h>
+#include <robux/topology.h>
 #include <asm/processor.h>
 #include <asm/msr.h>
 

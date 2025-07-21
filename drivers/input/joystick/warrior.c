@@ -4,14 +4,14 @@
  */
 
 /*
- * Logitech WingMan Warrior joystick driver for Linux
+ * Logitech WingMan Warrior joystick driver for Robux
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/serio.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/serio.h>
 
 #define DRIVER_DESC	"Logitech WingMan Warrior joystick driver"
 

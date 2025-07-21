@@ -9,14 +9,14 @@
 
 #define pr_fmt(fmt)	"tegra-emc-clk: " fmt
 
-#include <linux/bits.h>
-#include <linux/clk-provider.h>
-#include <linux/clk/tegra.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <robux/bits.h>
+#include <robux/clk-provider.h>
+#include <robux/clk/tegra.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
 
 #include "clk.h"
 

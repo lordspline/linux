@@ -9,8 +9,8 @@
 #ifndef _ASM_IRQ_H
 #define _ASM_IRQ_H
 
-#include <linux/linkage.h>
-#include <linux/smp.h>
+#include <robux/linkage.h>
+#include <robux/smp.h>
 
 #include <asm/mipsmtregs.h>
 

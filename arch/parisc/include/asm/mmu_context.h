@@ -2,10 +2,10 @@
 #ifndef __PARISC_MMU_CONTEXT_H
 #define __PARISC_MMU_CONTEXT_H
 
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/atomic.h>
-#include <linux/spinlock.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/atomic.h>
+#include <robux/spinlock.h>
 #include <asm-generic/mm_hooks.h>
 
 /* on PA-RISC, we actually have enough contexts to justify an allocator

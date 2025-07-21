@@ -4,8 +4,8 @@
 //
 // Copyright (C) 2018 Kirill Marinushkin <k.marinushkin@gmail.com>
 
-#include <linux/module.h>
-#include <linux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
 #include <sound/soc.h>
 
 #include "pcm3060.h"

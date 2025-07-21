@@ -4,8 +4,8 @@
  * Author: PC Chen <pc.chen@mediatek.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include "../vdec_drv_if.h"
 #include "../mtk_vcodec_dec.h"

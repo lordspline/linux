@@ -6,17 +6,17 @@
  *      Nickey Yang <nickey.yang@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/iopoll.h>
-#include <linux/math64.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/iopoll.h>
+#include <robux/math64.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
+#include <robux/of_platform.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
 
 #include <video/mipi_display.h>
 

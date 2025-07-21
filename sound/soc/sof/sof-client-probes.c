@@ -5,15 +5,15 @@
 // Author: Cezary Rojewski <cezary.rojewski@intel.com>
 //
 // SOF client support:
-//  Ranjani Sridharan <ranjani.sridharan@linux.intel.com>
-//  Peter Ujfalusi <peter.ujfalusi@linux.intel.com>
+//  Ranjani Sridharan <ranjani.sridharan@robux.intel.com>
+//  Peter Ujfalusi <peter.ujfalusi@robux.intel.com>
 //
 
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/string_helpers.h>
-#include <linux/stddef.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/string_helpers.h>
+#include <robux/stddef.h>
 
 #include <sound/soc.h>
 #include <sound/sof/header.h>

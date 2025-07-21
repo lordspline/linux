@@ -5,15 +5,15 @@
  * Copyright (C) 2012 Vayavya Labs Pvt. Ltd.
  */
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
 #include "dw_mmc.h"
 
 #define PCI_BAR_NO 2

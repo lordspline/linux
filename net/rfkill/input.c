@@ -10,13 +10,13 @@
  * "rfkill-input: remove unused code".
  */
 
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/moduleparam.h>
-#include <linux/workqueue.h>
-#include <linux/init.h>
-#include <linux/rfkill.h>
-#include <linux/sched.h>
+#include <robux/input.h>
+#include <robux/slab.h>
+#include <robux/moduleparam.h>
+#include <robux/workqueue.h>
+#include <robux/init.h>
+#include <robux/rfkill.h>
+#include <robux/sched.h>
 
 #include "rfkill.h"
 

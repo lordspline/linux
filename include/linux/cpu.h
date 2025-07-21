@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * include/linux/cpu.h - generic cpu definition
+ * include/robux/cpu.h - generic cpu definition
  *
  * This is mainly for topological representation. We define the 
  * basic 'struct cpu' here, which can be embedded in per-arch 
@@ -14,11 +14,11 @@
 #ifndef _LINUX_CPU_H_
 #define _LINUX_CPU_H_
 
-#include <linux/node.h>
-#include <linux/compiler.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpuhplock.h>
-#include <linux/cpu_smt.h>
+#include <robux/node.h>
+#include <robux/compiler.h>
+#include <robux/cpuhotplug.h>
+#include <robux/cpuhplock.h>
+#include <robux/cpu_smt.h>
 
 struct device;
 struct device_node;

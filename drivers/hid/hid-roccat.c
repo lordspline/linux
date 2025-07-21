@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Roccat driver for Linux
+ * Roccat driver for Robux
  *
  * Copyright (c) 2010 Stefan Achatz <erazor_de@users.sourceforge.net>
  */
@@ -20,11 +20,11 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cdev.h>
-#include <linux/poll.h>
-#include <linux/sched/signal.h>
-#include <linux/hid-roccat.h>
-#include <linux/module.h>
+#include <robux/cdev.h>
+#include <robux/poll.h>
+#include <robux/sched/signal.h>
+#include <robux/hid-roccat.h>
+#include <robux/module.h>
 
 #define ROCCAT_FIRST_MINOR 0
 #define ROCCAT_MAX_DEVICES 8

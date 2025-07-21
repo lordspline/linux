@@ -24,17 +24,17 @@
  * alternative licensing inquiries.
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/input/matrix_keypad.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 /* TCA8418 hardware limits */
 #define TCA8418_MAX_ROWS	8

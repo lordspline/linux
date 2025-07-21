@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/init/version.c
+ *  robux/init/version.c
  *
  *  Copyright (C) 1992  Theodore Ts'o
  *
- *  May be freely distributed as part of Linux.
+ *  May be freely distributed as part of Robux.
  */
 
 #include <generated/compile.h>
-#include <linux/build-salt.h>
-#include <linux/elfnote-lto.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/printk.h>
-#include <linux/uts.h>
-#include <linux/utsname.h>
-#include <linux/proc_ns.h>
+#include <robux/build-salt.h>
+#include <robux/elfnote-lto.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/printk.h>
+#include <robux/uts.h>
+#include <robux/utsname.h>
+#include <robux/proc_ns.h>
 
 static int __init early_hostname(char *arg)
 {

@@ -8,9 +8,9 @@
 #ifndef _LINUX_WMI_H
 #define _LINUX_WMI_H
 
-#include <linux/device.h>
-#include <linux/acpi.h>
-#include <linux/mod_devicetable.h>
+#include <robux/device.h>
+#include <robux/acpi.h>
+#include <robux/mod_devicetable.h>
 
 /**
  * struct wmi_device - WMI device structure

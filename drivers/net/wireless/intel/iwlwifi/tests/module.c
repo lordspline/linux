@@ -4,7 +4,7 @@
  *
  * Copyright (C) 2023 Intel Corporation
  */
-#include <linux/module.h>
+#include <robux/module.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("kunit tests for iwlwifi");

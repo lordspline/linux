@@ -7,16 +7,16 @@
  *  Jan Kotas <jank@cadence.com>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/rtc.h>
-#include <linux/clk.h>
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
-#include <linux/pm_wakeirq.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/io.h>
+#include <robux/rtc.h>
+#include <robux/clk.h>
+#include <robux/bcd.h>
+#include <robux/bitfield.h>
+#include <robux/interrupt.h>
+#include <robux/pm_wakeirq.h>
 
 /* Registers */
 #define CDNS_RTC_CTLR		0x00

@@ -15,17 +15,17 @@
  * Kevin Chea
  *
  */
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/syscall.h>
-#include <linux/linkage.h>
-#include <linux/stringify.h>
-#include <linux/errno.h>
-#include <linux/syscalls.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/mman.h>
-#include <linux/sched/mm.h>
-#include <linux/shm.h>
+#include <robux/linkage.h>
+#include <robux/stringify.h>
+#include <robux/errno.h>
+#include <robux/syscalls.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/mman.h>
+#include <robux/sched/mm.h>
+#include <robux/shm.h>
 
 syscall_t sys_call_table[] /* FIXME __cacheline_aligned */= {
 #define __SYSCALL(nr, entry)	(syscall_t)entry,

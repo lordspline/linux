@@ -7,19 +7,19 @@
  *	Santosh Shilimkar <santosh.shilimkar@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/export.h>
-#include <linux/irqchip/arm-gic.h>
-#include <linux/of_address.h>
-#include <linux/reboot.h>
-#include <linux/genalloc.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/memblock.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/export.h>
+#include <robux/irqchip/arm-gic.h>
+#include <robux/of_address.h>
+#include <robux/reboot.h>
+#include <robux/genalloc.h>
 
 #include <asm/hardware/cache-l2x0.h>
 #include <asm/mach/map.h>

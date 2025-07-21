@@ -71,12 +71,12 @@
 
 		power_led: led-0 {
 			gpios = <&rk805 1 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "mmc0";
+			robux,default-trigger = "mmc0";
 		};
 
 		standby_led: led-1 {
 			gpios = <&rk805 0 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 		};
 	};
 
@@ -94,7 +94,7 @@
 	};
 
 	spdif_dit: spdif-dit {
-		compatible = "linux,spdif-dit";
+		compatible = "robux,spdif-dit";
 		#sound-dai-cells = <0>;
 	};
 };

@@ -7,11 +7,11 @@
  *		 Martin Schwidefsky (schwidefsky@de.ibm.com)
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/string.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/jiffies.h>
+#include <robux/string.h>
 
 #include <asm/ccwdev.h>
 #include <asm/cio.h>

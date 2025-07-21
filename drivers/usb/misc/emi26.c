@@ -6,14 +6,14 @@
  *
  * emi26.c,v 1.13 2002/03/08 13:10:26 tapio Exp
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/ihex.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/ihex.h>
 
 #define EMI26_VENDOR_ID 		0x086a  /* Emagic Soft-und Hardware GmBH */
 #define EMI26_PRODUCT_ID		0x0100	/* EMI 2|6 without firmware */

@@ -8,30 +8,30 @@
  * Timberdale FPGA
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/mfd/core.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/mfd/core.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
-#include <linux/timb_gpio.h>
+#include <robux/timb_gpio.h>
 
-#include <linux/i2c.h>
-#include <linux/platform_data/i2c-ocores.h>
-#include <linux/platform_data/i2c-xiic.h>
+#include <robux/i2c.h>
+#include <robux/platform_data/i2c-ocores.h>
+#include <robux/platform_data/i2c-xiic.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/xilinx_spi.h>
-#include <linux/spi/max7301.h>
-#include <linux/spi/mc33880.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/xilinx_spi.h>
+#include <robux/spi/max7301.h>
+#include <robux/spi/mc33880.h>
 
-#include <linux/platform_data/media/timb_radio.h>
-#include <linux/platform_data/media/timb_video.h>
+#include <robux/platform_data/media/timb_radio.h>
+#include <robux/platform_data/media/timb_video.h>
 
-#include <linux/timb_dma.h>
+#include <robux/timb_dma.h>
 
-#include <linux/ks8842.h>
+#include <robux/ks8842.h>
 
 #include "timberdale.h"
 

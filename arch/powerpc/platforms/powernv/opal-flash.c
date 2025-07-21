@@ -7,16 +7,16 @@
 
 #define DEBUG
 
-#include <linux/kernel.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/kobject.h>
-#include <linux/sysfs.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/pagemap.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/reboot.h>
+#include <robux/init.h>
+#include <robux/kobject.h>
+#include <robux/sysfs.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/pagemap.h>
+#include <robux/delay.h>
 
 #include <asm/opal.h>
 

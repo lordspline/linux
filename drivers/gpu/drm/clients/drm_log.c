@@ -4,12 +4,12 @@
  * Author: Jocelyn Falempe <jfalempe@redhat.com>
  */
 
-#include <linux/console.h>
-#include <linux/font.h>
-#include <linux/init.h>
-#include <linux/iosys-map.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/console.h>
+#include <robux/font.h>
+#include <robux/init.h>
+#include <robux/iosys-map.h>
+#include <robux/module.h>
+#include <robux/types.h>
 
 #include <drm/drm_client.h>
 #include <drm/drm_drv.h>

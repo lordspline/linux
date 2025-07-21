@@ -34,11 +34,11 @@
 #ifndef USNIC_FWD_H_
 #define USNIC_FWD_H_
 
-#include <linux/if.h>
-#include <linux/netdevice.h>
-#include <linux/if_ether.h>
-#include <linux/pci.h>
-#include <linux/in.h>
+#include <robux/if.h>
+#include <robux/netdevice.h>
+#include <robux/if_ether.h>
+#include <robux/pci.h>
+#include <robux/in.h>
 
 #include "usnic_abi.h"
 #include "usnic_common_pkt_hdr.h"

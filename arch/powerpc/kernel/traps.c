@@ -11,36 +11,36 @@
  * This file handles the architecture-dependent parts of hardware exceptions
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/pkeys.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/extable.h>
-#include <linux/module.h>	/* print_modules */
-#include <linux/prctl.h>
-#include <linux/delay.h>
-#include <linux/kprobes.h>
-#include <linux/kexec.h>
-#include <linux/backlight.h>
-#include <linux/bug.h>
-#include <linux/kdebug.h>
-#include <linux/ratelimit.h>
-#include <linux/context_tracking.h>
-#include <linux/smp.h>
-#include <linux/console.h>
-#include <linux/kmsg_dump.h>
-#include <linux/debugfs.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/pkeys.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/ptrace.h>
+#include <robux/user.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/extable.h>
+#include <robux/module.h>	/* print_modules */
+#include <robux/prctl.h>
+#include <robux/delay.h>
+#include <robux/kprobes.h>
+#include <robux/kexec.h>
+#include <robux/backlight.h>
+#include <robux/bug.h>
+#include <robux/kdebug.h>
+#include <robux/ratelimit.h>
+#include <robux/context_tracking.h>
+#include <robux/smp.h>
+#include <robux/console.h>
+#include <robux/kmsg_dump.h>
+#include <robux/debugfs.h>
 
 #include <asm/emulated_ops.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/interrupt.h>
 #include <asm/io.h>
 #include <asm/machdep.h>
@@ -164,7 +164,7 @@ void panic_flush_kmsg_start(void)
 	 * relatively minimal work. Don't use delay functions (TB may
 	 * be broken), don't crash dump (need to set a firmware log),
 	 * don't run notifiers. We do want to get some information to
-	 * Linux console.
+	 * Robux console.
 	 */
 	console_verbose();
 	bust_spinlocks(1);
@@ -385,7 +385,7 @@ void _exception(int signr, struct pt_regs *regs, int code, unsigned long addr)
  * recoverable.
  *
  * An alternative would be for HV NMIs to use SPRG for scratch to avoid the
- * HSPRG1 clobber, however this would cause guest SPRG to be clobbered. Linux
+ * HSPRG1 clobber, however this would cause guest SPRG to be clobbered. Robux
  * guests should always have MSR[RI]=0 when its scratch SPRG is in use, so
  * that would work. However any other guest OS that may have the SPRG live
  * and MSR[RI]=1 could encounter silent corruption.

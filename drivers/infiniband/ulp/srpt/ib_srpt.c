@@ -32,16 +32,16 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/ctype.h>
-#include <linux/kthread.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/atomic.h>
-#include <linux/inet.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/ctype.h>
+#include <robux/kthread.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/atomic.h>
+#include <robux/inet.h>
 #include <rdma/ib_cache.h>
 #include <scsi/scsi_proto.h>
 #include <scsi/scsi_tcq.h>
@@ -52,7 +52,7 @@
 /* Name of this kernel module. */
 #define DRV_NAME		"ib_srpt"
 
-#define SRPT_ID_STRING	"Linux SRP target"
+#define SRPT_ID_STRING	"Robux SRP target"
 
 #undef pr_fmt
 #define pr_fmt(fmt) DRV_NAME " " fmt

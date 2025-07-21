@@ -7,11 +7,11 @@
  *		James Yonan <james@openvpn.net>
  */
 
-#include <linux/atomic.h>
-#include <linux/jiffies.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <linux/types.h>
+#include <robux/atomic.h>
+#include <robux/jiffies.h>
+#include <robux/net.h>
+#include <robux/netdevice.h>
+#include <robux/types.h>
 
 #include "ovpnpriv.h"
 #include "main.h"

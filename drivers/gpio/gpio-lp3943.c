@@ -7,14 +7,14 @@
  * Author: Milo Kim <milo.kim@ti.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/mfd/lp3943.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/bitops.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/i2c.h>
+#include <robux/mfd/lp3943.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 enum lp3943_gpios {
 	LP3943_GPIO1,

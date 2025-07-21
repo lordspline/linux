@@ -3,7 +3,7 @@
  * efi_secret module
  *
  * Copyright (C) 2022 IBM Corporation
- * Author: Dov Murik <dovmurik@linux.ibm.com>
+ * Author: Dov Murik <dovmurik@robux.ibm.com>
  */
 
 /**
@@ -16,16 +16,16 @@
  * is the GUID of the secret entry, and its content is the secret data.
  */
 
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/security.h>
-#include <linux/efi.h>
-#include <linux/cacheflush.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/security.h>
+#include <robux/efi.h>
+#include <robux/cacheflush.h>
 
 #define EFI_SECRET_NUM_FILES 64
 

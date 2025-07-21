@@ -10,11 +10,11 @@
 #include "queueing.h"
 #include "peerlookup.h"
 
-#include <linux/rcupdate.h>
-#include <linux/slab.h>
-#include <linux/bitmap.h>
-#include <linux/scatterlist.h>
-#include <linux/highmem.h>
+#include <robux/rcupdate.h>
+#include <robux/slab.h>
+#include <robux/bitmap.h>
+#include <robux/scatterlist.h>
+#include <robux/highmem.h>
 #include <crypto/utils.h>
 
 /* This implements Noise_IKpsk2:

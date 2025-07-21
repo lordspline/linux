@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 // Copyright (c) 2024 Hisilicon Limited.
 
-#include <linux/io.h>
-#include <linux/delay.h>
+#include <robux/io.h>
+#include <robux/delay.h>
 #include "dp_config.h"
 #include "dp_comm.h"
 #include "dp_reg.h"

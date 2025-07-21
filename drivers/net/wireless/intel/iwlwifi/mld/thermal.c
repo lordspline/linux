@@ -3,8 +3,8 @@
  * Copyright (C) 2024-2025 Intel Corporation
  */
 #ifdef CONFIG_THERMAL
-#include <linux/sort.h>
-#include <linux/thermal.h>
+#include <robux/sort.h>
+#include <robux/thermal.h>
 #endif
 
 #include "fw/api/phy.h"

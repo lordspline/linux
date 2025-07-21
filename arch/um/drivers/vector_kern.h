@@ -1,19 +1,19 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Copyright (C) 2002 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2002 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  */
 
 #ifndef __UM_VECTOR_KERN_H
 #define __UM_VECTOR_KERN_H
 
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/skbuff.h>
-#include <linux/socket.h>
-#include <linux/list.h>
-#include <linux/ctype.h>
-#include <linux/workqueue.h>
-#include <linux/interrupt.h>
+#include <robux/netdevice.h>
+#include <robux/platform_device.h>
+#include <robux/skbuff.h>
+#include <robux/socket.h>
+#include <robux/list.h>
+#include <robux/ctype.h>
+#include <robux/workqueue.h>
+#include <robux/interrupt.h>
 #include <asm/atomic.h>
 
 #include "vector_user.h"

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/oid_registry.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/oid_registry.h>
 #include "cifsglob.h"
 #include "cifs_debug.h"
 #include "cifsproto.h"

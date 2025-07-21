@@ -5,8 +5,8 @@
  * This file is released under the GPL.
  */
 
-#include <linux/sysfs.h>
-#include <linux/dm-ioctl.h>
+#include <robux/sysfs.h>
+#include <robux/dm-ioctl.h>
 #include "dm-core.h"
 #include "dm-rq.h"
 

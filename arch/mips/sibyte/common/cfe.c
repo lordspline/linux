@@ -3,13 +3,13 @@
  * Copyright (C) 2000, 2001, 2002, 2003 Broadcom Corporation
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/linkage.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/pm.h>
-#include <linux/smp.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/linkage.h>
+#include <robux/mm.h>
+#include <robux/memblock.h>
+#include <robux/pm.h>
+#include <robux/smp.h>
 
 #include <asm/bootinfo.h>
 #include <asm/reboot.h>

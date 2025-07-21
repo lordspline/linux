@@ -22,24 +22,24 @@
  * registers are banked per-cpu for these sources.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/smp.h>
-#include <linux/cpu.h>
-#include <linux/cpu_pm.h>
-#include <linux/cpumask.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/arm-gic.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/smp.h>
+#include <robux/cpu.h>
+#include <robux/cpu_pm.h>
+#include <robux/cpumask.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/arm-gic.h>
 
 #include <asm/irq.h>
 #include <asm/exception.h>

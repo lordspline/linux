@@ -6,12 +6,12 @@
  * Copyright (C) 2018, Intel Corporation
  */
 
-#include <linux/crc32.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/dmapool.h>
-#include <linux/workqueue.h>
+#include <robux/crc32.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/dmapool.h>
+#include <robux/workqueue.h>
 
 #include "ctl.h"
 

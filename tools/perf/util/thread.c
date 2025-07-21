@@ -5,8 +5,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <linux/kernel.h>
-#include <linux/zalloc.h>
+#include <robux/kernel.h>
+#include <robux/zalloc.h>
 #include "dso.h"
 #include "session.h"
 #include "thread.h"

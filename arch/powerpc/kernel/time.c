@@ -27,35 +27,35 @@
  *             "A Kernel Model for Precision Timekeeping" by Dave Mills
  */
 
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/clock.h>
-#include <linux/sched/cputime.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/timex.h>
-#include <linux/kernel_stat.h>
-#include <linux/time.h>
-#include <linux/init.h>
-#include <linux/profile.h>
-#include <linux/cpu.h>
-#include <linux/security.h>
-#include <linux/percpu.h>
-#include <linux/rtc.h>
-#include <linux/jiffies.h>
-#include <linux/posix-timers.h>
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/irq_work.h>
-#include <linux/of_clk.h>
-#include <linux/suspend.h>
-#include <linux/processor.h>
-#include <linux/mc146818rtc.h>
-#include <linux/platform_device.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/sched.h>
+#include <robux/sched/clock.h>
+#include <robux/sched/cputime.h>
+#include <robux/kernel.h>
+#include <robux/param.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/timex.h>
+#include <robux/kernel_stat.h>
+#include <robux/time.h>
+#include <robux/init.h>
+#include <robux/profile.h>
+#include <robux/cpu.h>
+#include <robux/security.h>
+#include <robux/percpu.h>
+#include <robux/rtc.h>
+#include <robux/jiffies.h>
+#include <robux/posix-timers.h>
+#include <robux/irq.h>
+#include <robux/delay.h>
+#include <robux/irq_work.h>
+#include <robux/of_clk.h>
+#include <robux/suspend.h>
+#include <robux/processor.h>
+#include <robux/mc146818rtc.h>
+#include <robux/platform_device.h>
 
 #include <asm/trace.h>
 #include <asm/interrupt.h>
@@ -63,7 +63,7 @@
 #include <asm/nvram.h>
 #include <asm/cache.h>
 #include <asm/machdep.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/time.h>
 #include <asm/irq.h>
 #include <asm/div64.h>
@@ -75,7 +75,7 @@
 
 /* powerpc clocksource/clockevent code */
 
-#include <linux/clockchips.h>
+#include <robux/clockchips.h>
 
 static u64 timebase_read(struct clocksource *);
 static struct clocksource clocksource_timebase = {

@@ -32,10 +32,10 @@
  */
 
 
-#include <linux/if_vlan.h>
+#include <robux/if_vlan.h>
 
-#include <linux/mlx4/device.h>
-#include <linux/mlx4/cmd.h>
+#include <robux/mlx4/device.h>
+#include <robux/mlx4/cmd.h>
 
 #include "en_port.h"
 #include "mlx4_en.h"

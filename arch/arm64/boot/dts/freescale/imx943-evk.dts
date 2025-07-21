@@ -38,12 +38,12 @@
 		#address-cells = <2>;
 		#size-cells = <2>;
 
-		linux,cma {
+		robux,cma {
 			compatible = "shared-dma-pool";
 			alloc-ranges = <0 0x80000000 0 0x7f000000>;
 			reusable;
 			size = <0 0x10000000>;
-			linux,cma-default;
+			robux,cma-default;
 		};
 	};
 

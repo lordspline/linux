@@ -14,7 +14,7 @@
  *
  */
 
-#include <linux/device.h>
+#include <robux/device.h>
 #include "xpc.h"
 
 /*

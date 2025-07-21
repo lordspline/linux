@@ -2,20 +2,20 @@
 /*
  * Copyright (c) 2023 MediaTek Inc.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/device.h>
-#include <linux/device/bus.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/string.h>
-#include <linux/sys_soc.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/pm_runtime.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/device.h>
+#include <robux/device/bus.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/string.h>
+#include <robux/sys_soc.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
 
 #define MTK_SOCINFO_ENTRY(_soc_name, _segment_name, _marketing_name, _cell_data1, _cell_data2) {\
 	.soc_name = _soc_name,									\

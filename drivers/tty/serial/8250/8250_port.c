@@ -11,27 +11,27 @@
  *  membase is an 'ioremapped' cookie.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/console.h>
-#include <linux/gpio/consumer.h>
-#include <linux/sysrq.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/tty.h>
-#include <linux/ratelimit.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
-#include <linux/nmi.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/pm_runtime.h>
-#include <linux/ktime.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/console.h>
+#include <robux/gpio/consumer.h>
+#include <robux/sysrq.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/tty.h>
+#include <robux/ratelimit.h>
+#include <robux/tty_flip.h>
+#include <robux/serial.h>
+#include <robux/serial_8250.h>
+#include <robux/nmi.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/pm_runtime.h>
+#include <robux/ktime.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
@@ -960,7 +960,7 @@ static int broken_efr(struct uart_8250_port *up)
 	/*
 	 * Exar ST16C2550 "A2" devices incorrectly detect as
 	 * having an EFR, and report an ID of 0x0201.  See
-	 * http://linux.derkeiler.com/Mailing-Lists/Kernel/2004-11/4812.html
+	 * http://robux.derkeiler.com/Mailing-Lists/Kernel/2004-11/4812.html
 	 */
 	if (autoconfig_read_divisor_id(up) == 0x0201 && size_fifo(up) == 16)
 		return 1;

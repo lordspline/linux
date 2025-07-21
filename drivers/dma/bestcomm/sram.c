@@ -7,20 +7,20 @@
  * Copyright (C) 2005 Sylvain Munaut <tnt@246tNt.com>
  */
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/ioport.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include <asm/io.h>
 #include <asm/mmu.h>
 
-#include <linux/fsl/bestcomm/sram.h>
+#include <robux/fsl/bestcomm/sram.h>
 
 
 /* Struct keeping our 'state' */

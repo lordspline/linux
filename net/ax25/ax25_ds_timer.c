@@ -4,27 +4,27 @@
  * Copyright (C) Jonathan Naylor G4KLX (g4klx@g4klx.demon.co.uk)
  * Copyright (C) Joerg Reuter DL1BKE (jreuter@yaina.de)
  */
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/spinlock.h>
-#include <linux/in.h>
-#include <linux/kernel.h>
-#include <linux/jiffies.h>
-#include <linux/timer.h>
-#include <linux/string.h>
-#include <linux/sockios.h>
-#include <linux/net.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/socket.h>
+#include <robux/spinlock.h>
+#include <robux/in.h>
+#include <robux/kernel.h>
+#include <robux/jiffies.h>
+#include <robux/timer.h>
+#include <robux/string.h>
+#include <robux/sockios.h>
+#include <robux/net.h>
 #include <net/tcp_states.h>
 #include <net/ax25.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
+#include <robux/inet.h>
+#include <robux/netdevice.h>
+#include <robux/skbuff.h>
 #include <net/sock.h>
-#include <linux/uaccess.h>
-#include <linux/fcntl.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
+#include <robux/uaccess.h>
+#include <robux/fcntl.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
 
 static void ax25_ds_timeout(struct timer_list *);
 

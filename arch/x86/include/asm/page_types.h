@@ -2,9 +2,9 @@
 #ifndef _ASM_X86_PAGE_DEFS_H
 #define _ASM_X86_PAGE_DEFS_H
 
-#include <linux/const.h>
-#include <linux/types.h>
-#include <linux/mem_encrypt.h>
+#include <robux/const.h>
+#include <robux/types.h>
+#include <robux/mem_encrypt.h>
 
 #include <vdso/page.h>
 

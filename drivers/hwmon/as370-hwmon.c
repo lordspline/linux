@@ -6,13 +6,13 @@
  * Author: Jisheng Zhang <jszhang@kernel.org>
  */
 
-#include <linux/bitops.h>
-#include <linux/hwmon.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <robux/bitops.h>
+#include <robux/hwmon.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
 
 #define CTRL		0x0
 #define  PD		BIT(0)

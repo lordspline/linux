@@ -13,17 +13,17 @@
  * result, all CPUs are treated as if they're single-core and
  * single-threaded.
  */
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/irq_work.h>
-#include <linux/tick.h>
-#include <linux/nmi.h>
-#include <linux/cpuhotplug.h>
-#include <linux/stackprotector.h>
-#include <linux/pgtable.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
+#include <robux/irq_work.h>
+#include <robux/tick.h>
+#include <robux/nmi.h>
+#include <robux/cpuhotplug.h>
+#include <robux/stackprotector.h>
+#include <robux/pgtable.h>
 
 #include <asm/paravirt.h>
 #include <asm/idtentry.h>

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/export.h>
-#include <linux/fb.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <robux/export.h>
+#include <robux/fb.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
 
 /**
  * framebuffer_alloc - creates a new frame buffer info structure

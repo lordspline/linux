@@ -4,15 +4,15 @@
  *  Copyright (C) 2017 Zihao Yu
  */
 
-#include <linux/elf.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/hashtable.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/moduleloader.h>
-#include <linux/sizes.h>
-#include <linux/pgtable.h>
+#include <robux/elf.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/hashtable.h>
+#include <robux/kernel.h>
+#include <robux/log2.h>
+#include <robux/moduleloader.h>
+#include <robux/sizes.h>
+#include <robux/pgtable.h>
 #include <asm/alternative.h>
 #include <asm/sections.h>
 

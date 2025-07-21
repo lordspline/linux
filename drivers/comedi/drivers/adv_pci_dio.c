@@ -21,11 +21,11 @@
  * Configuration Options: not applicable, uses PCI auto config
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/comedi/comedi_pci.h>
-#include <linux/comedi/comedi_8255.h>
-#include <linux/comedi/comedi_8254.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/comedi/comedi_pci.h>
+#include <robux/comedi/comedi_8255.h>
+#include <robux/comedi/comedi_8254.h>
 
 /*
  * Register offset definitions

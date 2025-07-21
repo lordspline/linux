@@ -12,25 +12,25 @@
  *      Changed the compression method from stem compression to "table lookup"
  *      compression (see scripts/kallsyms.c for a more complete description)
  */
-#include <linux/kallsyms.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/fs.h>
-#include <linux/kdb.h>
-#include <linux/err.h>
-#include <linux/proc_fs.h>
-#include <linux/sched.h>	/* for cond_resched */
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/filter.h>
-#include <linux/ftrace.h>
-#include <linux/kprobes.h>
-#include <linux/build_bug.h>
-#include <linux/compiler.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/bsearch.h>
-#include <linux/btf_ids.h>
+#include <robux/kallsyms.h>
+#include <robux/init.h>
+#include <robux/seq_file.h>
+#include <robux/fs.h>
+#include <robux/kdb.h>
+#include <robux/err.h>
+#include <robux/proc_fs.h>
+#include <robux/sched.h>	/* for cond_resched */
+#include <robux/ctype.h>
+#include <robux/slab.h>
+#include <robux/filter.h>
+#include <robux/ftrace.h>
+#include <robux/kprobes.h>
+#include <robux/build_bug.h>
+#include <robux/compiler.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/bsearch.h>
+#include <robux/btf_ids.h>
 
 #include "kallsyms_internal.h"
 

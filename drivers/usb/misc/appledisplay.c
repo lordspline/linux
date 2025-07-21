@@ -2,21 +2,21 @@
 /*
  * Apple Cinema Display driver
  *
- * Copyright (C) 2006  Michael Hanselmann (linux-kernel@hansmi.ch)
+ * Copyright (C) 2006  Michael Hanselmann (robux-kernel@hansmi.ch)
  *
  * Thanks to Caskey L. Dickson for his work with acdctl.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/backlight.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
-#include <linux/atomic.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/backlight.h>
+#include <robux/timer.h>
+#include <robux/workqueue.h>
+#include <robux/atomic.h>
 
 #define APPLE_VENDOR_ID		0x05AC
 

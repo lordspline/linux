@@ -6,11 +6,11 @@
  * Copyright 2016 Linaro Ltd.
  */
 
-#include <linux/greybus.h>
-#include <linux/cdev.h>
-#include <linux/fs.h>
-#include <linux/ioctl.h>
-#include <linux/uaccess.h>
+#include <robux/greybus.h>
+#include <robux/cdev.h>
+#include <robux/fs.h>
+#include <robux/ioctl.h>
+#include <robux/uaccess.h>
 
 #include "greybus_authentication.h"
 #include "firmware.h"

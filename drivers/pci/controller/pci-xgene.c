@@ -6,20 +6,20 @@
  *
  * Author: Tanmay Inamdar <tinamdar@apm.com>.
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/memblock.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/pci.h>
-#include <linux/pci-acpi.h>
-#include <linux/pci-ecam.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/jiffies.h>
+#include <robux/memblock.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_pci.h>
+#include <robux/pci.h>
+#include <robux/pci-acpi.h>
+#include <robux/pci-ecam.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "../pci.h"
 

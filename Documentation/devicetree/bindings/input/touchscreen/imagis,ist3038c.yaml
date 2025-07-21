@@ -33,7 +33,7 @@ properties:
   vddio-supply:
     description: Power supply regulator for the I2C bus
 
-  linux,keycodes:
+  robux,keycodes:
     description: Keycodes for the touch keys
     maxItems: 5
 
@@ -57,7 +57,7 @@ allOf:
               const: imagis,ist3032c
     then:
       properties:
-        linux,keycodes: false
+        robux,keycodes: false
 
 required:
   - compatible

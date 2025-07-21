@@ -12,7 +12,7 @@
 /*
     2002-04-08: Added nForce support. (Csaba Halasz)
     2002-10-03: Fixed nForce PnP I/O port. (Michael Steil)
-    2002-12-28: Rewritten into something that resembles a Linux driver (hch)
+    2002-12-28: Rewritten into something that resembles a Robux driver (hch)
     2003-11-29: Added back AMD8111 removed by the previous rewrite.
                 (Philip Pokorny)
 */
@@ -22,15 +22,15 @@
    Note: we assume there can only be one device, with one SMBus interface.
 */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/stddef.h>
-#include <linux/ioport.h>
-#include <linux/i2c.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/stddef.h>
+#include <robux/ioport.h>
+#include <robux/i2c.h>
+#include <robux/acpi.h>
+#include <robux/io.h>
 
 /* AMD756 SMBus address offsets */
 #define SMB_ADDR_OFFSET		0xE0

@@ -9,11 +9,11 @@
  *	   Hongzhou.Yang <hongzhou.yang@mediatek.com>
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
+#include <robux/gpio/driver.h>
+#include <robux/module.h>
+#include <robux/seq_file.h>
 
-#include <linux/pinctrl/consumer.h>
+#include <robux/pinctrl/consumer.h>
 
 #include <dt-bindings/pinctrl/mt65xx.h>
 

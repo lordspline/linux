@@ -6,8 +6,8 @@
 #ifndef _IPE_DIGEST_H
 #define _IPE_DIGEST_H
 
-#include <linux/types.h>
-#include <linux/audit.h>
+#include <robux/types.h>
+#include <robux/audit.h>
 
 #include "policy.h"
 

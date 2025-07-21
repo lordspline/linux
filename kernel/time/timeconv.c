@@ -29,9 +29,9 @@
  *   Reimplemented by Cassio Neri <cassio.neri@gmail.com>
  */
 
-#include <linux/time.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <robux/time.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
 
 #define SECS_PER_HOUR	(60 * 60)
 #define SECS_PER_DAY	(SECS_PER_HOUR * 24)

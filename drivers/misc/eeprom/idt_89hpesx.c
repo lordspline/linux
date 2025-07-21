@@ -2,7 +2,7 @@
 /*
  *   Copyright (C) 2016 T-Platforms. All Rights Reserved.
  *
- * IDT PCIe-switch NTB Linux driver
+ * IDT PCIe-switch NTB Robux driver
  *
  * Contact Information:
  * Serge Semin <fancer.lancer@gmail.com>, <Sergey.Semin@t-platforms.ru>
@@ -36,20 +36,20 @@
  * CSR address and value can be any of hexadecimal, decimal or octal format.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/debugfs.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/i2c.h>
-#include <linux/pci_ids.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/sysfs.h>
+#include <robux/debugfs.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/i2c.h>
+#include <robux/pci_ids.h>
+#include <robux/delay.h>
 
 #define IDT_NAME		"89hpesx"
 #define IDT_89HPESX_DESC	"IDT 89HPESx SMBus-slave interface driver"

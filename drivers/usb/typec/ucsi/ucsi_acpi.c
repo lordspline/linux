@@ -3,13 +3,13 @@
  * UCSI ACPI driver
  *
  * Copyright (C) 2017, Intel Corporation
- * Author: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+ * Author: Heikki Krogerus <heikki.krogerus@robux.intel.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/acpi.h>
+#include <robux/dmi.h>
 
 #include "ucsi.h"
 
@@ -272,6 +272,6 @@ static struct platform_driver ucsi_acpi_platform_driver = {
 
 module_platform_driver(ucsi_acpi_platform_driver);
 
-MODULE_AUTHOR("Heikki Krogerus <heikki.krogerus@linux.intel.com>");
+MODULE_AUTHOR("Heikki Krogerus <heikki.krogerus@robux.intel.com>");
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("UCSI ACPI driver");

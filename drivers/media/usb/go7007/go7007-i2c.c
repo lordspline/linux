@@ -3,16 +3,16 @@
  * Copyright (C) 2005-2006 Micronas USA Inc.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/list.h>
-#include <linux/unistd.h>
-#include <linux/time.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/sched.h>
+#include <robux/list.h>
+#include <robux/unistd.h>
+#include <robux/time.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
 
 #include "go7007-priv.h"
 

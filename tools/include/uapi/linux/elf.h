@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _LINUX_ELF_H
 #define _LINUX_ELF_H
 
-#include <linux/types.h>
-#include <linux/elf-em.h>
+#include <robux/types.h>
+#include <robux/elf-em.h>
 
 /* 32-bit ELF base types. */
 typedef __u32	Elf32_Addr;
@@ -380,7 +380,7 @@ typedef struct elf64_shdr {
  * Notes used in ET_CORE. Architectures export some of the arch register sets
  * using the corresponding note types via the PTRACE_GETREGSET and
  * PTRACE_SETREGSET requests.
- * The note name for these types is "LINUX", except NT_PRFPREG that is named
+ * The note name for these types is "ROBUX", except NT_PRFPREG that is named
  * "CORE".
  */
 #define NT_PRSTATUS	1

@@ -5,15 +5,15 @@
  * Copyright 2018 Google LLC.
  */
 
-#include <linux/ktime.h>
-#include <linux/math64.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/string_choices.h>
+#include <robux/ktime.h>
+#include <robux/math64.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
+#include <robux/string_choices.h>
 
 #define DRV_NAME "cros-usbpd-logger"
 

@@ -6,15 +6,15 @@
  */
 
 #include <dt-bindings/bus/moxtet.h>
-#include <linux/bitops.h>
-#include <linux/debugfs.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/moxtet.h>
-#include <linux/mutex.h>
-#include <linux/of_device.h>
-#include <linux/of_irq.h>
-#include <linux/spi/spi.h>
+#include <robux/bitops.h>
+#include <robux/debugfs.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/moxtet.h>
+#include <robux/mutex.h>
+#include <robux/of_device.h>
+#include <robux/of_irq.h>
+#include <robux/spi/spi.h>
 
 /*
  * @name:	module name for sysfs

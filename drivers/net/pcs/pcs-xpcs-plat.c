@@ -5,19 +5,19 @@
  * Copyright (C) 2024 Serge Semin
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mdio.h>
-#include <linux/module.h>
-#include <linux/pcs/pcs-xpcs.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/sizes.h>
+#include <robux/atomic.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/mdio.h>
+#include <robux/module.h>
+#include <robux/pcs/pcs-xpcs.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/sizes.h>
 
 #include "pcs-xpcs.h"
 

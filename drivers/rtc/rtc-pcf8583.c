@@ -9,14 +9,14 @@
  *
  *  Converted to the generic RTC susbsystem by G. Liakhovetski (2006)
  */
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/rtc.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/bcd.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/rtc.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/bcd.h>
 
 struct rtc_mem {
 	unsigned int	loc;

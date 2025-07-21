@@ -4,10 +4,10 @@
 //
 // Copyright (C) 2009-2010 Guennadi Liakhovetski <g.liakhovetski@gmx.de>
 
-#include <linux/clkdev.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
+#include <robux/clkdev.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
 
 #include <asm/clock.h>
 

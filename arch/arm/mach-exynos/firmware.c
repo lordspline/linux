@@ -4,11 +4,11 @@
 // Kyungmin Park <kyungmin.park@samsung.com>
 // Tomasz Figa <t.figa@samsung.com>
 
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cputype.h>

@@ -8,9 +8,9 @@
  * Author: Devarsh Thakkar <devarsht@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/dev_printk.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/dev_printk.h>
 #include "e5010-jpeg-enc-hw.h"
 
 static void write_reg_field(void __iomem *base, unsigned int offset, u32 mask,

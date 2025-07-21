@@ -11,17 +11,17 @@
 
 #include "smscoreapi.h"
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/slab.h>
 
-#include <linux/firmware.h>
-#include <linux/wait.h>
+#include <robux/firmware.h>
+#include <robux/wait.h>
 #include <asm/byteorder.h>
 
 #include "sms-cards.h"

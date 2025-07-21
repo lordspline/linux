@@ -9,12 +9,12 @@
  * Harald Hoyer's description of the device.
  */
 
-#include <linux/input.h>
-#include <linux/serio.h>
-#include <linux/libps2.h>
-#include <linux/dmi.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/input.h>
+#include <robux/serio.h>
+#include <robux/libps2.h>
+#include <robux/dmi.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "psmouse.h"
 #include "lifebook.h"

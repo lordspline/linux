@@ -7,8 +7,8 @@
  */
 
 #include <dt-bindings/clock/mt8192-clk.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 #include "clk-fhctl.h"
 #include "clk-gate.h"
 #include "clk-mtk.h"

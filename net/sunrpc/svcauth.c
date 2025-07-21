@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/net/sunrpc/svcauth.c
+ * robux/net/sunrpc/svcauth.c
  *
  * The generic interface for RPC authentication on the server side.
  *
@@ -10,15 +10,15 @@
  * 19-Apr-2000 Chris Evans      - Security fix
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/sunrpc/types.h>
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/svcsock.h>
-#include <linux/sunrpc/svcauth.h>
-#include <linux/err.h>
-#include <linux/hash.h>
-#include <linux/user_namespace.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/sunrpc/types.h>
+#include <robux/sunrpc/xdr.h>
+#include <robux/sunrpc/svcsock.h>
+#include <robux/sunrpc/svcauth.h>
+#include <robux/err.h>
+#include <robux/hash.h>
+#include <robux/user_namespace.h>
 
 #include <trace/events/sunrpc.h>
 

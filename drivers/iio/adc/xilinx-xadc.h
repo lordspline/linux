@@ -9,9 +9,9 @@
 #ifndef __IIO_XILINX_XADC__
 #define __IIO_XILINX_XADC__
 
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
 
 struct iio_dev;
 struct clk;

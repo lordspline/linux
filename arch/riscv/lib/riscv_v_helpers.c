@@ -3,7 +3,7 @@
  * Copyright (C) 2023 SiFive
  * Author: Andy Chiu <andy.chiu@sifive.com>
  */
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 #include <asm/asm.h>
 
 #include <asm/vector.h>

@@ -9,18 +9,18 @@
  * for more details.
  */
 
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/seq_file.h>
-#include <linux/cpu.h>
-#include <linux/initrd.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/seq_file.h>
+#include <robux/cpu.h>
+#include <robux/initrd.h>
 
-#include <linux/bug.h>
+#include <robux/bug.h>
 #include <asm/cpuinfo.h>
-#include <linux/delay.h>
-#include <linux/io.h>
+#include <robux/delay.h>
+#include <robux/io.h>
 #include <asm/page.h>
-#include <linux/param.h>
+#include <robux/param.h>
 #include <asm/pvr.h>
 #include <asm/sections.h>
 #include <asm/setup.h>

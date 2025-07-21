@@ -8,12 +8,12 @@
 
 #define pr_fmt(fmt) "DT idle-states: " fmt
 
-#include <linux/cpuidle.h>
-#include <linux/cpumask.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/cpuidle.h>
+#include <robux/cpumask.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 #include "dt_idle_states.h"
 

@@ -9,16 +9,16 @@
 
 /* #define VERBOSE_DEBUG */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gfp.h>
-#include <linux/device.h>
-#include <linux/ctype.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/string_helpers.h>
-#include <linux/usb/composite.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/gfp.h>
+#include <robux/device.h>
+#include <robux/ctype.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/if_vlan.h>
+#include <robux/string_helpers.h>
+#include <robux/usb/composite.h>
 
 #include "u_ether.h"
 
@@ -46,7 +46,7 @@
 
 #define UETH__VERSION	"29-May-2008"
 
-/* Experiments show that both Linux and Windows hosts allow up to 16k
+/* Experiments show that both Robux and Windows hosts allow up to 16k
  * frame sizes. Set the max MTU size to 15k+52 to prevent allocating 32k
  * blocks and still have efficient handling. */
 #define GETHER_MAX_MTU_SIZE 15412

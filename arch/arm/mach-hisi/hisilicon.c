@@ -8,8 +8,8 @@
  * Author: Haojian Zhuang <haojian.zhuang@linaro.org>
 */
 
-#include <linux/clocksource.h>
-#include <linux/irqchip.h>
+#include <robux/clocksource.h>
+#include <robux/irqchip.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>

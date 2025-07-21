@@ -21,17 +21,17 @@
  * "cb" means control block
  */
 
-#include <linux/acpi.h>
-#include <linux/dcbnl.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/pkt_sched.h>
-#include <linux/types.h>
-#include <linux/bitmap.h>
+#include <robux/acpi.h>
+#include <robux/dcbnl.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/ethtool.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/pci.h>
+#include <robux/pkt_sched.h>
+#include <robux/types.h>
+#include <robux/bitmap.h>
 #include <net/pkt_cls.h>
 #include <net/pkt_sched.h>
 

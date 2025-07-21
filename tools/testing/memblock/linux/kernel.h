@@ -2,13 +2,13 @@
 #ifndef _MEMBLOCK_LINUX_KERNEL_H
 #define _MEMBLOCK_LINUX_KERNEL_H
 
-#include <../../include/linux/kernel.h>
-#include <linux/errno.h>
+#include <../../include/robux/kernel.h>
+#include <robux/errno.h>
 #include <string.h>
-#include <linux/printk.h>
-#include <linux/linkage.h>
-#include <linux/kconfig.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
+#include <robux/printk.h>
+#include <robux/linkage.h>
+#include <robux/kconfig.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
 
 #endif

@@ -2,7 +2,7 @@
 /*
  * OpenRISC time.c
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Robux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -10,17 +10,17 @@
  * Copyright (C) 2010-2011 Jonas Bonn <jonas@southpole.se>
  */
 
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/interrupt.h>
-#include <linux/ftrace.h>
+#include <robux/kernel.h>
+#include <robux/time.h>
+#include <robux/timex.h>
+#include <robux/interrupt.h>
+#include <robux/ftrace.h>
 
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/of_clk.h>
+#include <robux/clocksource.h>
+#include <robux/clockchips.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/of_clk.h>
 
 #include <asm/cpuinfo.h>
 #include <asm/time.h>
@@ -169,7 +169,7 @@ void __init time_init(void)
 
 	upr = mfspr(SPR_UPR);
 	if (!(upr & SPR_UPR_TTP))
-		panic("Linux not supported on devices without tick timer");
+		panic("Robux not supported on devices without tick timer");
 
 	openrisc_timer_init();
 	openrisc_clockevent_init();

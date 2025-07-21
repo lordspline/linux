@@ -32,12 +32,12 @@
  * SOFTWARE.
  */
 
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/mount.h>
-#include <linux/pagemap.h>
-#include <linux/init.h>
-#include <linux/namei.h>
+#include <robux/fs.h>
+#include <robux/fs_context.h>
+#include <robux/mount.h>
+#include <robux/pagemap.h>
+#include <robux/init.h>
+#include <robux/namei.h>
 
 #include "qib.h"
 

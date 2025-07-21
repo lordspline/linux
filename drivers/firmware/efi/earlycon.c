@@ -3,14 +3,14 @@
  * Copyright (C) 2013 Intel Corporation; author Matt Fleming
  */
 
-#include <linux/console.h>
-#include <linux/efi.h>
-#include <linux/font.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/serial_core.h>
-#include <linux/screen_info.h>
-#include <linux/string.h>
+#include <robux/console.h>
+#include <robux/efi.h>
+#include <robux/font.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/serial_core.h>
+#include <robux/screen_info.h>
+#include <robux/string.h>
 
 #include <asm/early_ioremap.h>
 

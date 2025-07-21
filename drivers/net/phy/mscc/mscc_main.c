@@ -7,15 +7,15 @@
  * Copyright (c) 2016 Microsemi Corporation
  */
 
-#include <linux/firmware.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mdio.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/of.h>
-#include <linux/netdevice.h>
+#include <robux/firmware.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mdio.h>
+#include <robux/mii.h>
+#include <robux/phy.h>
+#include <robux/of.h>
+#include <robux/netdevice.h>
 #include <dt-bindings/net/mscc-phy-vsc8531.h>
 
 #include "../phylib.h"

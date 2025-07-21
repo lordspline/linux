@@ -8,21 +8,21 @@
  *
  */
 
-#include <linux/unaligned.h>
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/util_macros.h>
+#include <robux/unaligned.h>
+#include <robux/bcd.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
+#include <robux/regmap.h>
+#include <robux/rtc.h>
+#include <robux/util_macros.h>
 
 /* MAX31335 Register Map */
 #define MAX31335_STATUS1			0x00

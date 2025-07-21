@@ -4,8 +4,8 @@
 
 #include <asm/cpuid/types.h>
 
-#include <linux/build_bug.h>
-#include <linux/types.h>
+#include <robux/build_bug.h>
+#include <robux/types.h>
 
 #include <asm/string.h>
 

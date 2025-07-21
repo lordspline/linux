@@ -4,7 +4,7 @@
  *
  * Copyright (C) 2009 William Hubbs
  *
- * This code is based on kobject-example.c, which came with linux 2.6.x.
+ * This code is based on kobject-example.c, which came with robux 2.6.x.
  *
  * Copyright (C) 2004-2007 Greg Kroah-Hartman <greg@kroah.com>
  * Copyright (C) 2007 Novell Inc.
@@ -12,13 +12,13 @@
  * Released under the GPL version 2 only.
  *
  */
-#include <linux/slab.h>		/* For kmalloc. */
-#include <linux/kernel.h>
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/string_helpers.h>
-#include <linux/sysfs.h>
-#include <linux/ctype.h>
+#include <robux/slab.h>		/* For kmalloc. */
+#include <robux/kernel.h>
+#include <robux/kobject.h>
+#include <robux/string.h>
+#include <robux/string_helpers.h>
+#include <robux/sysfs.h>
+#include <robux/ctype.h>
 
 #include "speakup.h"
 #include "spk_priv.h"

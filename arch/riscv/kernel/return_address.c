@@ -5,9 +5,9 @@
  * Copyright (C) 2023 SiFive.
  */
 
-#include <linux/export.h>
-#include <linux/kprobes.h>
-#include <linux/stacktrace.h>
+#include <robux/export.h>
+#include <robux/kprobes.h>
+#include <robux/stacktrace.h>
 
 struct return_address_data {
 	unsigned int level;

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/sizes.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/sizes.h>
 #include <asm/page.h>
 #include <asm/addrspace.h>
 

@@ -9,13 +9,13 @@
  * and panic() information from reaching the user.
  */
 
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/spinlock.h>
-#include <linux/tty.h>
-#include <linux/wait.h>
-#include <linux/vt_kern.h>
-#include <linux/console.h>
+#include <robux/kernel.h>
+#include <robux/printk.h>
+#include <robux/spinlock.h>
+#include <robux/tty.h>
+#include <robux/wait.h>
+#include <robux/vt_kern.h>
+#include <robux/console.h>
 
 void bust_spinlocks(int yes)
 {

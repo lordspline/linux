@@ -8,13 +8,13 @@
  *	Sricharan <r.sricharan@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 #include "omap_l3_smx.h"
 

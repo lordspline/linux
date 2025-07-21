@@ -4,11 +4,11 @@
  */
 #undef DEBUG
 
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
 #include <asm/io.h>
 #include <asm/i8259.h>
 

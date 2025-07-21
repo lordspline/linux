@@ -2,8 +2,8 @@
 #ifndef _LINUX_CRC32_H
 #define _LINUX_CRC32_H
 
-#include <linux/types.h>
-#include <linux/bitrev.h>
+#include <robux/types.h>
+#include <robux/bitrev.h>
 
 u32 crc32_le_arch(u32 crc, const u8 *p, size_t len);
 u32 crc32_le_base(u32 crc, const u8 *p, size_t len);

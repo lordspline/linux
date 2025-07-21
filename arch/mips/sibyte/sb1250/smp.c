@@ -3,12 +3,12 @@
  * Copyright (C) 2001, 2002, 2003 Broadcom Corporation
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/smp.h>
-#include <linux/kernel_stat.h>
-#include <linux/sched/task_stack.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/smp.h>
+#include <robux/kernel_stat.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/mmu_context.h>
 #include <asm/io.h>

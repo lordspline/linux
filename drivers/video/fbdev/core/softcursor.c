@@ -1,5 +1,5 @@
 /*
- * linux/drivers/video/console/softcursor.c
+ * robux/drivers/video/console/softcursor.c
  *
  * Generic software cursor for frame buffer devices
  *
@@ -10,10 +10,10 @@
  * archive for more details.
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/fb.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/fb.h>
+#include <robux/slab.h>
 
 #include <asm/io.h>
 

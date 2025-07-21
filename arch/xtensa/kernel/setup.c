@@ -15,23 +15,23 @@
  * Marc Gauthier<marc@tensilica.com> <marc@alumni.uwaterloo.ca>
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/proc_fs.h>
-#include <linux/kernel.h>
-#include <linux/percpu.h>
-#include <linux/reboot.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/proc_fs.h>
+#include <robux/kernel.h>
+#include <robux/percpu.h>
+#include <robux/reboot.h>
+#include <robux/cpu.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
 
 #if defined(CONFIG_VGA_CONSOLE) || defined(CONFIG_DUMMY_CONSOLE)
-# include <linux/console.h>
+# include <robux/console.h>
 #endif
 
 #ifdef CONFIG_PROC_FS
-# include <linux/seq_file.h>
+# include <robux/seq_file.h>
 #endif
 
 #include <asm/bootparam.h>
@@ -394,7 +394,7 @@ void cpu_reset(void)
 	/*
 	 * We have full MMU: all autoload ways, ways 7, 8 and 9 of DTLB must
 	 * be flushed.
-	 * Way 4 is not currently used by linux.
+	 * Way 4 is not currently used by robux.
 	 * Ways 5 and 6 shall not be touched on MMUv2 as they are hardwired.
 	 * Way 5 shall be flushed and way 6 shall be set to identity mapping
 	 * on MMUv3.

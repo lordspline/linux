@@ -12,16 +12,16 @@
  * 2008-10-30 (lv) - Port to 2.6
  */
 
-#include <linux/module.h>
-#include <linux/fd.h>
-#include <linux/slab.h>
-#include <linux/blk-mq.h>
-#include <linux/major.h>
-#include <linux/mutex.h>
-#include <linux/hdreg.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/fd.h>
+#include <robux/slab.h>
+#include <robux/blk-mq.h>
+#include <robux/major.h>
+#include <robux/mutex.h>
+#include <robux/hdreg.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
 
 #include <asm/mac_via.h>
 

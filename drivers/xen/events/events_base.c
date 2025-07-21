@@ -24,20 +24,20 @@
 
 #define pr_fmt(fmt) "xen:" KBUILD_MODNAME ": " fmt
 
-#include <linux/linkage.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/moduleparam.h>
-#include <linux/string.h>
-#include <linux/memblock.h>
-#include <linux/slab.h>
-#include <linux/irqnr.h>
-#include <linux/pci.h>
-#include <linux/rcupdate.h>
-#include <linux/spinlock.h>
-#include <linux/cpuhotplug.h>
-#include <linux/atomic.h>
-#include <linux/ktime.h>
+#include <robux/linkage.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/moduleparam.h>
+#include <robux/string.h>
+#include <robux/memblock.h>
+#include <robux/slab.h>
+#include <robux/irqnr.h>
+#include <robux/pci.h>
+#include <robux/rcupdate.h>
+#include <robux/spinlock.h>
+#include <robux/cpuhotplug.h>
+#include <robux/atomic.h>
+#include <robux/ktime.h>
 
 #ifdef CONFIG_X86
 #include <asm/desc.h>

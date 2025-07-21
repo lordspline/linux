@@ -6,13 +6,13 @@
  * Author: Hemanth V <hemanthv@ti.com>
  */
 
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/input/cma3000.h>
-#include <linux/module.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/input/cma3000.h>
+#include <robux/module.h>
 
 #include "cma3000_d0x.h"
 

@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/bits.h>
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/bits.h>
+#include <robux/i2c.h>
+#include <robux/i2c-mux.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 enum rtl9300_bus_freq {
 	RTL9300_I2C_STD_FREQ,

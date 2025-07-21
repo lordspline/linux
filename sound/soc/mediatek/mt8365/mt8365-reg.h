@@ -10,7 +10,7 @@
 #ifndef _MT8365_REG_H_
 #define _MT8365_REG_H_
 
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 
 #define AUDIO_TOP_CON0			(0x0000)
 #define AUDIO_TOP_CON1			(0x0004)

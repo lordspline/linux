@@ -9,7 +9,7 @@
 #ifndef __INTEL_UNCORE_FREQ_COMMON_H
 #define __INTEL_UNCORE_FREQ_COMMON_H
 
-#include <linux/device.h>
+#include <robux/device.h>
 
 /*
  * Define uncore agents, which are under uncore frequency control.

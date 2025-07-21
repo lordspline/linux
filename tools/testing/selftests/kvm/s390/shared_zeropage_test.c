@@ -6,7 +6,7 @@
  */
 #include <sys/mman.h>
 
-#include <linux/fs.h>
+#include <robux/fs.h>
 
 #include "test_util.h"
 #include "kvm_util.h"

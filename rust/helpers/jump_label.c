@@ -4,7 +4,7 @@
  * Copyright (C) 2024 Google LLC.
  */
 
-#include <linux/jump_label.h>
+#include <robux/jump_label.h>
 
 #ifndef CONFIG_JUMP_LABEL
 int rust_helper_static_key_count(struct static_key *key)

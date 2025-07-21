@@ -7,13 +7,13 @@
  * Denis Ciocca <denis.ciocca@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/kernel.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/triggered_buffer.h>
 
-#include <linux/iio/common/st_sensors.h>
+#include <robux/iio/common/st_sensors.h>
 #include "st_pressure.h"
 
 int st_press_trig_set_state(struct iio_trigger *trig, bool state)

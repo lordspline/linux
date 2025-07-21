@@ -5,8 +5,8 @@
 
 #define pr_fmt(fmt) "htmdump: " fmt
 
-#include <linux/debugfs.h>
-#include <linux/module.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
 #include <asm/io.h>
 #include <asm/machdep.h>
 #include <asm/plpar_wrappers.h>

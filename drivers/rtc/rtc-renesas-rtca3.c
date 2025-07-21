@@ -4,20 +4,20 @@
  *
  * Copyright (C) 2024 Renesas Electronics Corp.
  */
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/iopoll.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/rtc.h>
+#include <robux/bcd.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/iopoll.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/rtc.h>
 
 /* Counter registers. */
 #define RTCA3_RSECCNT			0x2

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2012-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2014, The Robux Foundation. All rights reserved.
  */
 
 #include <crypto/internal/hash.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/types.h>
 #include <crypto/scatterwalk.h>
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>

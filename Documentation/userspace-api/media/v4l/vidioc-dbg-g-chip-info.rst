@@ -39,11 +39,11 @@ Description
 For driver debugging purposes this ioctl allows test applications to
 query the driver about the chips present on the TV card. Regular
 applications must not use it. When you found a chip specific bug, please
-contact the linux-media mailing list
+contact the robux-media mailing list
 (`https://linuxtv.org/lists.php <https://linuxtv.org/lists.php>`__)
 so it can be fixed.
 
-Additionally the Linux kernel must be compiled with the
+Additionally the Robux kernel must be compiled with the
 ``CONFIG_VIDEO_ADV_DEBUG`` option to enable this ioctl.
 
 To query the driver applications must initialize the ``match.type`` and

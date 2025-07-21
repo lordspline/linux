@@ -2,10 +2,10 @@
 /*
  *  PCM DRM helpers
  */
-#include <linux/bitfield.h>
-#include <linux/export.h>
-#include <linux/hdmi.h>
-#include <linux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/export.h>
+#include <robux/hdmi.h>
+#include <robux/unaligned.h>
 #include <drm/drm_edid.h>
 #include <drm/drm_eld.h>
 #include <sound/info.h>

@@ -11,14 +11,14 @@
  * Copyright 2007 Jiri Kosina, SUSE Labs.
  */
 
-#include <linux/personality.h>
-#include <linux/mm.h>
-#include <linux/random.h>
-#include <linux/limits.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
-#include <linux/compat.h>
-#include <linux/elf-randomize.h>
+#include <robux/personality.h>
+#include <robux/mm.h>
+#include <robux/random.h>
+#include <robux/limits.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/mm.h>
+#include <robux/compat.h>
+#include <robux/elf-randomize.h>
 #include <asm/elf.h>
 #include <asm/io.h>
 

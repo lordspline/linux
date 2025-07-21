@@ -4,10 +4,10 @@
  * By Richard Hirst (rhirst@linuxcare.com)
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/types.h>
 #include <asm/hardware.h>
 #include <asm/io.h>
 

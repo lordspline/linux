@@ -35,12 +35,12 @@
  * otherwise both handlers will fire at the same time!
  */
 
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
 
 #include <asm/exception.h>
 

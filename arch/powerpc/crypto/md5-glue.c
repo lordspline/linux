@@ -9,9 +9,9 @@
 
 #include <crypto/internal/hash.h>
 #include <crypto/md5.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
 
 extern void ppc_md5_transform(u32 *state, const u8 *src, u32 blocks);
 

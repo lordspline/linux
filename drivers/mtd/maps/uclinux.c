@@ -10,16 +10,16 @@
 
 /****************************************************************************/
 
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/major.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/partitions.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/major.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/partitions.h>
 #include <asm/io.h>
 #include <asm/sections.h>
 

@@ -9,9 +9,9 @@
 #ifndef __HDA_COMPONENT_H__
 #define __HDA_COMPONENT_H__
 
-#include <linux/acpi.h>
-#include <linux/component.h>
-#include <linux/mutex.h>
+#include <robux/acpi.h>
+#include <robux/component.h>
+#include <robux/mutex.h>
 #include <sound/hda_codec.h>
 
 #define HDA_MAX_COMPONENTS	4

@@ -20,24 +20,24 @@
  * https://wireless.wiki.kernel.org/en/users/Drivers/at76c50x-usb#TODO
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/usb.h>
-#include <linux/netdevice.h>
-#include <linux/if_arp.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/wireless.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/list.h>
+#include <robux/usb.h>
+#include <robux/netdevice.h>
+#include <robux/if_arp.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/wireless.h>
 #include <net/iw_handler.h>
 #include <net/ieee80211_radiotap.h>
-#include <linux/firmware.h>
-#include <linux/leds.h>
+#include <robux/firmware.h>
+#include <robux/leds.h>
 #include <net/mac80211.h>
 
 #include "at76c50x-usb.h"

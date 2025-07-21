@@ -6,12 +6,12 @@
  * Author: Chen, Gong <gong.chen@intel.com>
  */
 
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/cper.h>
-#include <linux/ratelimit.h>
-#include <linux/edac.h>
-#include <linux/ras.h>
+#include <robux/module.h>
+#include <robux/acpi.h>
+#include <robux/cper.h>
+#include <robux/ratelimit.h>
+#include <robux/edac.h>
+#include <robux/ras.h>
 #include <acpi/ghes.h>
 #include <asm/cpu.h>
 #include <asm/mce.h>

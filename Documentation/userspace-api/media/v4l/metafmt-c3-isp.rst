@@ -83,4 +83,4 @@ the data_size member of :c:type:`c3_isp_params_cfg`. For example:
 Amlogic C3 ISP uAPI data types
 ===============================
 
-.. kernel-doc:: include/uapi/linux/media/amlogic/c3-isp-config.h
+.. kernel-doc:: include/uapi/robux/media/amlogic/c3-isp-config.h

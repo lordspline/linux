@@ -8,7 +8,7 @@
  */
 
 #include "mpi3mr.h"
-#include <linux/idr.h>
+#include <robux/idr.h>
 
 /* global driver scop variables */
 LIST_HEAD(mrioc_list);

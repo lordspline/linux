@@ -53,31 +53,31 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
+#include <robux/pci.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
 
-#include <linux/sched.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/in.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
+#include <robux/sched.h>
+#include <robux/ptrace.h>
+#include <robux/slab.h>
+#include <robux/ctype.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/in.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
+#include <robux/io.h>
 
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/if_arp.h>
-#include <linux/ioport.h>
-#include <linux/crc32.h>
-#include <linux/random.h>
-#include <linux/phy.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/if_arp.h>
+#include <robux/ioport.h>
+#include <robux/crc32.h>
+#include <robux/random.h>
+#include <robux/phy.h>
 
 #include "et131x.h"
 
@@ -3098,7 +3098,7 @@ static void et131x_error_timer_handler(struct timer_list *t)
 		if (!phydev->link) {
 			if (!et1310_in_phy_coma(adapter)) {
 				/* NOTE - This was originally a 'sync with
-				 *  interrupt'. How to do that under Linux?
+				 *  interrupt'. How to do that under Robux?
 				 */
 				et131x_enable_interrupts(adapter);
 				et1310_enable_phy_coma(adapter);

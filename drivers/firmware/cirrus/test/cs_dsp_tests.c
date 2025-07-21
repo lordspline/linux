@@ -5,7 +5,7 @@
 // Copyright (C) 2024 Cirrus Logic, Inc. and
 //                    Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 MODULE_DESCRIPTION("KUnit tests for Cirrus Logic DSP driver");
 MODULE_AUTHOR("Richard Fitzgerald <rf@opensource.cirrus.com>");

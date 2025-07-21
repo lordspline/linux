@@ -3,8 +3,8 @@
 #ifndef BTRFS_EXPORT_H
 #define BTRFS_EXPORT_H
 
-#include <linux/exportfs.h>
-#include <linux/types.h>
+#include <robux/exportfs.h>
+#include <robux/types.h>
 
 struct dentry;
 struct super_block;

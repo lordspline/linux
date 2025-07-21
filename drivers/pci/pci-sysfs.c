@@ -12,24 +12,24 @@
  * Modeled after usb's driverfs.c
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/stat.h>
-#include <linux/export.h>
-#include <linux/topology.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/capability.h>
-#include <linux/security.h>
-#include <linux/slab.h>
-#include <linux/vgaarb.h>
-#include <linux/pm_runtime.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/aperture.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/pci.h>
+#include <robux/stat.h>
+#include <robux/export.h>
+#include <robux/topology.h>
+#include <robux/mm.h>
+#include <robux/fs.h>
+#include <robux/capability.h>
+#include <robux/security.h>
+#include <robux/slab.h>
+#include <robux/vgaarb.h>
+#include <robux/pm_runtime.h>
+#include <robux/msi.h>
+#include <robux/of.h>
+#include <robux/aperture.h>
 #include "pci.h"
 
 #ifndef ARCH_PCI_DEV_GROUPS

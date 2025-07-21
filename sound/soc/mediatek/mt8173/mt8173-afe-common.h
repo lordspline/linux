@@ -12,8 +12,8 @@
 #ifndef _MT8173_AFE_COMMON_H_
 #define _MT8173_AFE_COMMON_H_
 
-#include <linux/clk.h>
-#include <linux/regmap.h>
+#include <robux/clk.h>
+#include <robux/regmap.h>
 
 enum {
 	MT8173_AFE_MEMIF_DL1,

@@ -4,14 +4,14 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/isa.h>
-#include <linux/interrupt.h>
-#include <linux/pm.h>
-#include <linux/pnp.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/isa.h>
+#include <robux/interrupt.h>
+#include <robux/pm.h>
+#include <robux/pnp.h>
+#include <robux/module.h>
+#include <robux/io.h>
 #include <sound/core.h>
 #include <sound/wss.h>
 #include <sound/mpu401.h>

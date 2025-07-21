@@ -5,8 +5,8 @@
  */
 
 #include <net/xfrm.h>
-#include <linux/netdevice.h>
-#include <linux/bitfield.h>
+#include <robux/netdevice.h>
+#include <robux/bitfield.h>
 #include <crypto/aead.h>
 #include <crypto/gcm.h>
 

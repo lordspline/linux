@@ -4,10 +4,10 @@
  *
  * Copyright 2019 Analog Devices Inc.
  */
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 
 #include "ltc2947.h"
 

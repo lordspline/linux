@@ -3,12 +3,12 @@
  * Copyright (C) 2020 Invensense, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/iio/iio.h>
 
 #include "inv_icm42600.h"
 #include "inv_icm42600_temp.h"

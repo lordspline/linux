@@ -5,8 +5,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
-#include <linux/types.h>
-#include <linux/genetlink.h>
+#include <robux/types.h>
+#include <robux/genetlink.h>
 #include <sys/socket.h>
 
 #include "ynl.h"

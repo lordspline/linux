@@ -2,8 +2,8 @@
 #ifndef _LINUX_MSG_H
 #define _LINUX_MSG_H
 
-#include <linux/list.h>
-#include <uapi/linux/msg.h>
+#include <robux/list.h>
+#include <uapi/robux/msg.h>
 
 /* one msg_msg structure for each message */
 struct msg_msg {

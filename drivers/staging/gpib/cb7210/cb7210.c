@@ -10,17 +10,17 @@
 #define DRV_NAME KBUILD_MODNAME
 
 #include "cb7210.h"
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/ioport.h>
+#include <robux/sched.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 #include <asm/dma.h>
-#include <linux/bitops.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <robux/bitops.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/delay.h>
 #include "gpib_pci_ids.h"
 #include "quancom_pci.h"
 
@@ -1115,10 +1115,10 @@ static struct pci_driver cb7210_pci_driver = {
 
 #ifdef CONFIG_GPIB_PCMCIA
 
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/timer.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/timer.h>
+#include <robux/io.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>

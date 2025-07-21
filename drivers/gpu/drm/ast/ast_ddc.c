@@ -21,8 +21,8 @@
  * of the Software.
  */
 
-#include <linux/i2c-algo-bit.h>
-#include <linux/i2c.h>
+#include <robux/i2c-algo-bit.h>
+#include <robux/i2c.h>
 
 #include <drm/drm_managed.h>
 #include <drm/drm_print.h>

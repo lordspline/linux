@@ -7,8 +7,8 @@
 #ifndef __MDIO_BOARD_INFO_H
 #define __MDIO_BOARD_INFO_H
 
-#include <linux/phy.h>
-#include <linux/mutex.h>
+#include <robux/phy.h>
+#include <robux/mutex.h>
 
 struct mdio_board_entry {
 	struct list_head	list;

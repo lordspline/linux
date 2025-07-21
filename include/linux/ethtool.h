@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * ethtool.h: Defines for Linux ethtool.
+ * ethtool.h: Defines for Robux ethtool.
  *
  * Copyright (C) 1998 David S. Miller (davem@redhat.com)
  * Copyright 2001 Jeff Garzik <jgarzik@pobox.com>
@@ -13,14 +13,14 @@
 #ifndef _LINUX_ETHTOOL_H
 #define _LINUX_ETHTOOL_H
 
-#include <linux/bitmap.h>
-#include <linux/compat.h>
-#include <linux/if_ether.h>
-#include <linux/netlink.h>
-#include <linux/timer_types.h>
-#include <uapi/linux/ethtool.h>
-#include <uapi/linux/ethtool_netlink_generated.h>
-#include <uapi/linux/net_tstamp.h>
+#include <robux/bitmap.h>
+#include <robux/compat.h>
+#include <robux/if_ether.h>
+#include <robux/netlink.h>
+#include <robux/timer_types.h>
+#include <uapi/robux/ethtool.h>
+#include <uapi/robux/ethtool_netlink_generated.h>
+#include <uapi/robux/net_tstamp.h>
 
 #define ETHTOOL_MM_MAX_VERIFY_TIME_MS		128
 #define ETHTOOL_MM_MAX_VERIFY_RETRIES		3
@@ -44,7 +44,7 @@ struct compat_ethtool_rxnfc {
 	u32				rule_locs[];
 };
 
-#include <linux/rculist.h>
+#include <robux/rculist.h>
 
 /**
  * enum ethtool_phys_id_state - indicator state for physical identification
@@ -147,7 +147,7 @@ struct ethtool_link_ext_state_info {
 };
 
 struct ethtool_link_ext_stats {
-	/* Custom Linux statistic for PHY level link down events.
+	/* Custom Robux statistic for PHY level link down events.
 	 * In a simpler world it should be equal to netdev->carrier_down_count
 	 * unfortunately netdev also counts local reconfigurations which don't
 	 * actually take the physical link down, not to mention NC-SI which,

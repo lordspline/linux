@@ -9,10 +9,10 @@
 #ifndef __LINUX_PCI_EPF_H
 #define __LINUX_PCI_EPF_H
 
-#include <linux/configfs.h>
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pci.h>
+#include <robux/configfs.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/pci.h>
 
 struct pci_epf;
 struct pci_epc_features;

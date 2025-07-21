@@ -16,20 +16,20 @@
  *
  */
 
-#include <linux/debugfs.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/thermal.h>
+#include <robux/debugfs.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/thermal.h>
 
 #include <dt-bindings/thermal/tegra124-soctherm.h>
 
@@ -1177,7 +1177,7 @@ static int soctherm_oc_irq_map(struct irq_domain *h, unsigned int virq,
  *
  * This Device Tree IRQ specifier translation function will translate a
  * specific "interrupt" as defined by 2 DT values where the cell values map
- * the hwirq number + 1 and linux irq flags. Since the output is the hwirq
+ * the hwirq number + 1 and robux irq flags. Since the output is the hwirq
  * number, this function will subtract 1 from the value listed in DT.
  *
  * Return: 0

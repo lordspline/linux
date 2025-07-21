@@ -6,11 +6,11 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/bcd.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/rtc.h>
+#include <robux/platform_device.h>
+#include <robux/bcd.h>
+#include <robux/slab.h>
 
 struct ds1216_regs {
 	u8 tsec;

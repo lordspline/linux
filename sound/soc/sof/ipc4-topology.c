@@ -6,8 +6,8 @@
 // Copyright(c) 2022 Intel Corporation
 //
 //
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
 #include <uapi/sound/sof/tokens.h>
 #include <sound/pcm_params.h>
 #include <sound/sof/ext_manifest4.h>

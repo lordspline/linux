@@ -3,13 +3,13 @@
  * Copyright (C) 2017 Sean Young <sean@mess.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 #include <media/rc-core.h>
 
 #define DRIVER_NAME	"gpio-ir-tx"

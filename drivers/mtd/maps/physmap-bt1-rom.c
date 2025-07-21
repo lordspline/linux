@@ -7,16 +7,16 @@
  *
  * Baikal-T1 Physically Mapped Internal ROM driver
  */
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/xip.h>
-#include <linux/mux/consumer.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/xip.h>
+#include <robux/mux/consumer.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #include "physmap-bt1-rom.h"
 

@@ -26,10 +26,10 @@
 #ifndef DRM_PRINT_H_
 #define DRM_PRINT_H_
 
-#include <linux/compiler.h>
-#include <linux/printk.h>
-#include <linux/device.h>
-#include <linux/dynamic_debug.h>
+#include <robux/compiler.h>
+#include <robux/printk.h>
+#include <robux/device.h>
+#include <robux/dynamic_debug.h>
 
 #include <drm/drm.h>
 #include <drm/drm_device.h>

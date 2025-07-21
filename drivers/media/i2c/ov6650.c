@@ -21,13 +21,13 @@
  * Copyright (C) 2006 Matt Callow
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/v4l2-mediabus.h>
-#include <linux/module.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/v4l2-mediabus.h>
+#include <robux/module.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

@@ -7,10 +7,10 @@
  * Contact: Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
+#include <robux/delay.h>
+#include <robux/list.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-subdev.h>

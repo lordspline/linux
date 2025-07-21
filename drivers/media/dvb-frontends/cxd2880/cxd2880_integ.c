@@ -7,8 +7,8 @@
  * Copyright (C) 2016, 2017, 2018 Sony Semiconductor Solutions Corporation
  */
 
-#include <linux/ktime.h>
-#include <linux/errno.h>
+#include <robux/ktime.h>
+#include <robux/errno.h>
 
 #include "cxd2880_tnrdmd.h"
 #include "cxd2880_tnrdmd_mon.h"

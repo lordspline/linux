@@ -6,13 +6,13 @@
 // Copyright (C) 2019 Chris Brandt.
 //
 
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/dmaengine.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
 #include <sound/soc.h>
 
 /* REGISTER OFFSET */

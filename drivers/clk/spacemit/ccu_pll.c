@@ -4,9 +4,9 @@
  * Copyright (c) 2024-2025 Haylen Chu <heylenay@4d2.org>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/math.h>
-#include <linux/regmap.h>
+#include <robux/clk-provider.h>
+#include <robux/math.h>
+#include <robux/regmap.h>
 
 #include "ccu_common.h"
 #include "ccu_pll.h"

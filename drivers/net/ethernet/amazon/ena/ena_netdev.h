@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB */
 /*
  * Copyright 2015-2020 Amazon.com, Inc. or its affiliates. All rights reserved.
  */
@@ -6,16 +6,16 @@
 #ifndef ENA_H
 #define ENA_H
 
-#include <linux/bitops.h>
-#include <linux/dim.h>
-#include <linux/etherdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/inetdevice.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
+#include <robux/bitops.h>
+#include <robux/dim.h>
+#include <robux/etherdevice.h>
+#include <robux/if_vlan.h>
+#include <robux/inetdevice.h>
+#include <robux/interrupt.h>
+#include <robux/netdevice.h>
+#include <robux/skbuff.h>
 #include <net/xdp.h>
-#include <uapi/linux/bpf.h>
+#include <uapi/robux/bpf.h>
 
 #include "ena_com.h"
 #include "ena_eth_com.h"

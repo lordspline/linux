@@ -25,7 +25,7 @@
 #include "gc/gc_12_0_0_offset.h"
 #include "gc/gc_12_0_0_sh_mask.h"
 #include "soc24.h"
-#include <uapi/linux/kfd_ioctl.h>
+#include <uapi/robux/kfd_ioctl.h>
 
 static void lock_srbm(struct amdgpu_device *adev, uint32_t mec, uint32_t pipe,
 			uint32_t queue, uint32_t vmid)

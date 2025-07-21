@@ -16,20 +16,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dmi.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
 #define MCHP_SING_IDX			0x0000
 #define MCHP_EMI0_APPLICATION_ID	0x090C

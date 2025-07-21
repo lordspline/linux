@@ -12,9 +12,9 @@
  * Copyright (C) 2011  Magnus Damm
  */
 
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/pinctrl/pinconf-generic.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/pinctrl/pinconf-generic.h>
 
 #include "sh_pfc.h"
 

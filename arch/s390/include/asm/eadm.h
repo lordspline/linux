@@ -2,9 +2,9 @@
 #ifndef _ASM_S390_EADM_H
 #define _ASM_S390_EADM_H
 
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/blk_types.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/blk_types.h>
 #include <asm/dma-types.h>
 
 struct arqb {

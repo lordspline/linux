@@ -9,12 +9,12 @@
 #define DRV_NAME KBUILD_MODNAME
 
 #include "cec.h"
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
+#include <robux/pci.h>
+#include <robux/io.h>
+#include <robux/bitops.h>
 #include <asm/dma.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("GPIB driver for CEC PCI and PCMCIA boards");

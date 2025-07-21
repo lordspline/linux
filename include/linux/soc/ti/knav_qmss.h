@@ -11,12 +11,12 @@
 #ifndef __SOC_TI_KNAV_QMSS_H__
 #define __SOC_TI_KNAV_QMSS_H__
 
-#include <linux/err.h>
-#include <linux/time.h>
-#include <linux/atomic.h>
-#include <linux/device.h>
-#include <linux/fcntl.h>
-#include <linux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/time.h>
+#include <robux/atomic.h>
+#include <robux/device.h>
+#include <robux/fcntl.h>
+#include <robux/dma-mapping.h>
 
 /* queue types */
 #define KNAV_QUEUE_QPEND	((unsigned)-2) /* interruptible qpend queue */

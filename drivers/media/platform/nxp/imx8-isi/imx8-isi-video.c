@@ -8,16 +8,16 @@
  * Copyright (c) 2019 NXP Semiconductor
  */
 
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/media-bus-format.h>
-#include <linux/minmax.h>
-#include <linux/pm_runtime.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/media-bus-format.h>
+#include <robux/minmax.h>
+#include <robux/pm_runtime.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/videodev2.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-ctrls.h>

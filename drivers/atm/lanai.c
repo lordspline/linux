@@ -50,18 +50,18 @@
  *   v.0.01 -- 30-NOV-1999 -- Initial release
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/atmdev.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/atmdev.h>
 #include <asm/io.h>
 #include <asm/byteorder.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
 
 /* -------------------- TUNABLE PARAMATERS: */
 
@@ -1432,7 +1432,7 @@ static void vcc_rx_aal0(struct lanai_dev *lanai)
 #if (NUM_VCI * BITS_PER_LONG) <= PAGE_SIZE
 #define VCCTABLE_GETFREEPAGE
 #else
-#include <linux/vmalloc.h>
+#include <robux/vmalloc.h>
 #endif
 
 static int vcc_table_allocate(struct lanai_dev *lanai)
@@ -1772,7 +1772,7 @@ static void lanai_timed_poll(struct timer_list *t)
 		spin_unlock(&lanai->servicelock);
 	}
 	/* ...and see if any backlogged VCs can make progress */
-	/* unfortunately linux has no read_trylock() currently */
+	/* unfortunately robux has no read_trylock() currently */
 	read_lock(&vcc_sklist_lock);
 	vci_bitfield_iterate(lanai, lanai->backlog_vccs, iter_dequeue);
 	read_unlock(&vcc_sklist_lock);

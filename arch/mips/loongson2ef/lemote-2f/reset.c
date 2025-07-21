@@ -7,9 +7,9 @@
  * Author: Wu Zhangjin, wuzhangjin@gmail.com
  */
 
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/types.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/types.h>
 
 #include <asm/bootinfo.h>
 

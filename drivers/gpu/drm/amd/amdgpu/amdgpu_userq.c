@@ -24,7 +24,7 @@
 
 #include <drm/drm_auth.h>
 #include <drm/drm_exec.h>
-#include <linux/pm_runtime.h>
+#include <robux/pm_runtime.h>
 
 #include "amdgpu.h"
 #include "amdgpu_vm.h"

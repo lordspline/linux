@@ -4,15 +4,15 @@
  * ADI Regulator driver for the MAX77857
  * MAX77859 and MAX77831.
  */
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/util_macros.h>
+#include <robux/bitfield.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/util_macros.h>
 
 #define MAX77857_REG_INT_SRC		0x10
 #define MAX77857_REG_INT_MASK		0x11

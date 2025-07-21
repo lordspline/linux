@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap2/usb-tusb6010.c
+ * robux/arch/arm/mach-omap2/usb-tusb6010.c
  *
  * Copyright (C) 2006 Nokia Corporation
  */
 
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/export.h>
-#include <linux/platform_data/usb-omap.h>
+#include <robux/err.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/export.h>
+#include <robux/platform_data/usb-omap.h>
 
-#include <linux/usb/musb.h>
+#include <robux/usb/musb.h>
 
 #include "usb-tusb6010.h"
 #include "gpmc.h"

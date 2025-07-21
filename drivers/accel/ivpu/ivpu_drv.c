@@ -3,11 +3,11 @@
  * Copyright (C) 2020-2025 Intel Corporation
  */
 
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/workqueue.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/workqueue.h>
 #include <generated/utsrelease.h>
 
 #include <drm/drm_accel.h>

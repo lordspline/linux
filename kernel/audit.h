@@ -9,13 +9,13 @@
 #ifndef _KERNEL_AUDIT_H_
 #define _KERNEL_AUDIT_H_
 
-#include <linux/fs.h>
-#include <linux/audit.h>
-#include <linux/security.h>
-#include <linux/skbuff.h>
-#include <uapi/linux/mqueue.h>
-#include <linux/tty.h>
-#include <uapi/linux/openat2.h> // struct open_how
+#include <robux/fs.h>
+#include <robux/audit.h>
+#include <robux/security.h>
+#include <robux/skbuff.h>
+#include <uapi/robux/mqueue.h>
+#include <robux/tty.h>
+#include <uapi/robux/openat2.h> // struct open_how
 
 /* AUDIT_NAMES is the number of slots we reserve in the audit_context
  * for saving names from getname().  If we get more names we will allocate

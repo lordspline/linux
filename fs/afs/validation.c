@@ -5,9 +5,9 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched.h>
 #include "internal.h"
 
 /*

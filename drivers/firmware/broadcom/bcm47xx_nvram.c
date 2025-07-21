@@ -7,13 +7,13 @@
  * Copyright (C) 2010-2012 Hauke Mehrtens <hauke@hauke-m.de>
  */
 
-#include <linux/io.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/mtd/mtd.h>
-#include <linux/bcm47xx_nvram.h>
+#include <robux/io.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/mtd/mtd.h>
+#include <robux/bcm47xx_nvram.h>
 
 #define NVRAM_MAGIC			0x48534C46	/* 'FLSH' */
 #define NVRAM_SPACE			0x10000

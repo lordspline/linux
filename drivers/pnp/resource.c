@@ -8,20 +8,20 @@
  *	Bjorn Helgaas <bjorn.helgaas@hp.com>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
 #include <asm/io.h>
 #include <asm/dma.h>
 #include <asm/irq.h>
-#include <linux/pci.h>
-#include <linux/libata.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
+#include <robux/pci.h>
+#include <robux/libata.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
 
-#include <linux/pnp.h>
+#include <robux/pnp.h>
 #include "base.h"
 
 static int pnp_reserve_irq[16] = {[0 ... 15] = -1 };	/* reserve (don't use) some IRQ */

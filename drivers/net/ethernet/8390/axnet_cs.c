@@ -26,17 +26,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/ptrace.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/crc32.h>
-#include <linux/mii.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/ptrace.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/delay.h>
+#include <robux/spinlock.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/crc32.h>
+#include <robux/mii.h>
 #include "8390.h"
 
 #include <pcmcia/cistpl.h>
@@ -46,7 +46,7 @@
 
 #include <asm/io.h>
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #define AXNET_CMD	0x00
 #define AXNET_DATAPORT	0x10	/* NatSemi-defined port window offset. */
@@ -731,7 +731,7 @@ module_pcmcia_driver(axnet_cs_driver);
 
 /*====================================================================*/
 
-/* 8390.c: A general NS8390 ethernet driver core for linux. */
+/* 8390.c: A general NS8390 ethernet driver core for robux. */
 /*
 	Written 1992-94 by Donald Becker.
   
@@ -778,11 +778,11 @@ module_pcmcia_driver(axnet_cs_driver);
 
   */
 
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 #include <asm/irq.h>
-#include <linux/fcntl.h>
-#include <linux/in.h>
-#include <linux/interrupt.h>
+#include <robux/fcntl.h>
+#include <robux/in.h>
+#include <robux/interrupt.h>
 
 #define BUG_83C690
 

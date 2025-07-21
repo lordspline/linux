@@ -7,14 +7,14 @@
  *	Srikar Dronamraju
  *	Jim Keniston
  */
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/ptrace.h>
-#include <linux/uprobes.h>
-#include <linux/uaccess.h>
-#include <linux/syscalls.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/ptrace.h>
+#include <robux/uprobes.h>
+#include <robux/uaccess.h>
+#include <robux/syscalls.h>
 
-#include <linux/kdebug.h>
+#include <robux/kdebug.h>
 #include <asm/processor.h>
 #include <asm/insn.h>
 #include <asm/mmu_context.h>

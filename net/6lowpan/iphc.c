@@ -46,9 +46,9 @@
  * SUCH DAMAGE.
  */
 
-#include <linux/bitops.h>
-#include <linux/if_arp.h>
-#include <linux/netdevice.h>
+#include <robux/bitops.h>
+#include <robux/if_arp.h>
+#include <robux/netdevice.h>
 
 #include <net/6lowpan.h>
 #include <net/ipv6.h>

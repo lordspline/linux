@@ -3,10 +3,10 @@
  * HD-audio stream operations
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/clocksource.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/clocksource.h>
 #include <sound/compress_driver.h>
 #include <sound/core.h>
 #include <sound/pcm.h>

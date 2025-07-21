@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2010 OMICRON electronics GmbH
  */
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/posix-clock.h>
-#include <linux/pps_kernel.h>
-#include <linux/slab.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
-#include <linux/debugfs.h>
-#include <linux/xarray.h>
-#include <uapi/linux/sched/types.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/posix-clock.h>
+#include <robux/pps_kernel.h>
+#include <robux/slab.h>
+#include <robux/syscalls.h>
+#include <robux/uaccess.h>
+#include <robux/debugfs.h>
+#include <robux/xarray.h>
+#include <uapi/robux/sched/types.h>
 
 #include "ptp_private.h"
 

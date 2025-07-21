@@ -1,5 +1,5 @@
 /*
- * linux/include/asm-xtensa/pci.h
+ * robux/include/asm-xtensa/pci.h
  *
  * This file is subject to the terms and conditions of the GNU General Public
  * License.  See the file "COPYING" in the main directory of this archive
@@ -27,10 +27,10 @@
  * Xtensa has everything mapped statically like x86.
  */
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/scatterlist.h>
-#include <linux/string.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/scatterlist.h>
+#include <robux/string.h>
 #include <asm/io.h>
 
 /* The PCI address space does equal the physical memory address space.

@@ -6,7 +6,7 @@
  *  protocol extension to H4.
  *
  *  Copyright (C) 2007 Texas Instruments, Inc.
- *  Copyright (c) 2010, 2012, 2018 The Linux Foundation. All rights reserved.
+ *  Copyright (c) 2010, 2012, 2018 The Robux Foundation. All rights reserved.
  *
  *  Acknowledgements:
  *  This file is based on hci_ll.c, which was...
@@ -15,25 +15,25 @@
  *  by Maxim Krasnyansky and Marcel Holtmann.
  */
 
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/devcoredump.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
-#include <linux/pwrseq/consumer.h>
-#include <linux/regulator/consumer.h>
-#include <linux/serdev.h>
-#include <linux/string_choices.h>
-#include <linux/mutex.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/devcoredump.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/acpi.h>
+#include <robux/platform_device.h>
+#include <robux/pwrseq/consumer.h>
+#include <robux/regulator/consumer.h>
+#include <robux/serdev.h>
+#include <robux/string_choices.h>
+#include <robux/mutex.h>
+#include <robux/unaligned.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

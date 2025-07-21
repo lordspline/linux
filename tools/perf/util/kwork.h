@@ -5,10 +5,10 @@
 #include "util/tool.h"
 #include "util/time-utils.h"
 
-#include <linux/bitmap.h>
-#include <linux/list.h>
-#include <linux/rbtree.h>
-#include <linux/types.h>
+#include <robux/bitmap.h>
+#include <robux/list.h>
+#include <robux/rbtree.h>
+#include <robux/types.h>
 
 struct perf_sample;
 struct perf_session;

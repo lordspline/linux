@@ -5,11 +5,11 @@
  * Copyright (C) 2007 Steven Rostedt <srostedt@redhat.com>
  *
  */
-#include <linux/module.h>
-#include <linux/kallsyms.h>
-#include <linux/uaccess.h>
-#include <linux/kmemleak.h>
-#include <linux/ftrace.h>
+#include <robux/module.h>
+#include <robux/kallsyms.h>
+#include <robux/uaccess.h>
+#include <robux/kmemleak.h>
+#include <robux/ftrace.h>
 #include <trace/events/sched.h>
 
 #include "trace.h"

@@ -18,9 +18,9 @@
 #include <api/fs/fs.h>
 #include <api/io.h>
 #include <api/io_dir.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/zalloc.h>
 
 /** Strings that correspond to enum hwmon_type. */
 static const char * const hwmon_type_strs[HWMON_TYPE_MAX] = {

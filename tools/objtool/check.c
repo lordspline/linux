@@ -16,11 +16,11 @@
 #include <objtool/warn.h>
 #include <objtool/endianness.h>
 
-#include <linux/objtool_types.h>
-#include <linux/hashtable.h>
-#include <linux/kernel.h>
-#include <linux/static_call_types.h>
-#include <linux/string.h>
+#include <robux/objtool_types.h>
+#include <robux/hashtable.h>
+#include <robux/kernel.h>
+#include <robux/static_call_types.h>
+#include <robux/string.h>
 
 struct alternative {
 	struct alternative *next;

@@ -22,12 +22,12 @@
  * leds, the camera flash light and the displays backlights.
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/leds.h>
-#include <linux/mutex.h>
-#include <linux/leds-lp3944.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/leds.h>
+#include <robux/mutex.h>
+#include <robux/leds-lp3944.h>
 
 /* Read Only Registers */
 #define LP3944_REG_INPUT1     0x00 /* LEDs 0-7 InputRegister (Read Only) */

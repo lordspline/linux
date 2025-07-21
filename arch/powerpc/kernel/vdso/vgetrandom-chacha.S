@@ -3,7 +3,7 @@
  * Copyright (C) 2024 Christophe Leroy <christophe.leroy@csgroup.eu>, CS GROUP France
  */
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 #include <asm/ppc_asm.h>
 

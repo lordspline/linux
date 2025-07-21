@@ -7,15 +7,15 @@
  * Copyright (C) 2016 Intel Corporation. All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/seq_file.h>
-#include <linux/string_choices.h>
+#include <robux/bitops.h>
+#include <robux/gpio/driver.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/intel_soc_pmic.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/seq_file.h>
+#include <robux/string_choices.h>
 
 /*
  * Whiskey Cove PMIC has 13 physical GPIO pins divided into 3 banks:

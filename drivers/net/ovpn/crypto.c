@@ -7,10 +7,10 @@
  *		Antonio Quartulli <antonio@openvpn.net>
  */
 
-#include <linux/types.h>
-#include <linux/net.h>
-#include <linux/netdevice.h>
-#include <uapi/linux/ovpn.h>
+#include <robux/types.h>
+#include <robux/net.h>
+#include <robux/netdevice.h>
+#include <uapi/robux/ovpn.h>
 
 #include "ovpnpriv.h"
 #include "main.h"

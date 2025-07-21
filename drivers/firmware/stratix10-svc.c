@@ -3,22 +3,22 @@
  * Copyright (C) 2017-2018, Intel Corporation
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/genalloc.h>
-#include <linux/io.h>
-#include <linux/kfifo.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/firmware/intel/stratix10-smc.h>
-#include <linux/firmware/intel/stratix10-svc-client.h>
-#include <linux/types.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/genalloc.h>
+#include <robux/io.h>
+#include <robux/kfifo.h>
+#include <robux/kthread.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/firmware/intel/stratix10-smc.h>
+#include <robux/firmware/intel/stratix10-svc-client.h>
+#include <robux/types.h>
 
 /**
  * SVC_NUM_DATA_IN_FIFO - number of struct stratix10_svc_data in the FIFO

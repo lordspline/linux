@@ -38,13 +38,13 @@
  * - xxHash source repository: https://github.com/Cyan4973/xxHash
  */
 
-#include <linux/unaligned.h>
-#include <linux/errno.h>
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/xxhash.h>
+#include <robux/unaligned.h>
+#include <robux/errno.h>
+#include <robux/compiler.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/xxhash.h>
 
 /*-*************************************
  * Macros

@@ -10,15 +10,15 @@
  *		Wingman Kwok <w-kwok2@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/of_address.h>
-#include <linux/if_vlan.h>
-#include <linux/ptp_classify.h>
-#include <linux/net_tstamp.h>
-#include <linux/ethtool.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
+#include <robux/of_address.h>
+#include <robux/if_vlan.h>
+#include <robux/ptp_classify.h>
+#include <robux/net_tstamp.h>
+#include <robux/ethtool.h>
 
 #include "cpsw.h"
 #include "cpsw_ale.h"

@@ -7,15 +7,15 @@
 #ifndef MT7601U_H
 #define MT7601U_H
 
-#include <linux/bitfield.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/usb.h>
-#include <linux/completion.h>
+#include <robux/bitfield.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/usb.h>
+#include <robux/completion.h>
 #include <net/mac80211.h>
-#include <linux/debugfs.h>
-#include <linux/average.h>
+#include <robux/debugfs.h>
+#include <robux/average.h>
 
 #include "regs.h"
 

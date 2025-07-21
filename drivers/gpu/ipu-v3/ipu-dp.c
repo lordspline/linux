@@ -3,12 +3,12 @@
  * Copyright (c) 2010 Sascha Hauer <s.hauer@pengutronix.de>
  * Copyright (C) 2005-2009 Freescale Semiconductor, Inc.
  */
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/err.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/err.h>
 
 #include <drm/drm_color_mgmt.h>
 #include <video/imx-ipu-v3.h>

@@ -4,11 +4,11 @@
 #ifndef FREEZER_H_INCLUDED
 #define FREEZER_H_INCLUDED
 
-#include <linux/debug_locks.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/atomic.h>
-#include <linux/jump_label.h>
+#include <robux/debug_locks.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
+#include <robux/atomic.h>
+#include <robux/jump_label.h>
 
 #ifdef CONFIG_FREEZER
 DECLARE_STATIC_KEY_FALSE(freezer_active);

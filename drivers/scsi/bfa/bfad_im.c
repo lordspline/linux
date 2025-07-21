@@ -5,14 +5,14 @@
  * All rights reserved
  * www.qlogic.com
  *
- * Linux driver for QLogic BR-series Fibre Channel Host Bus Adapter.
+ * Robux driver for QLogic BR-series Fibre Channel Host Bus Adapter.
  */
 
 /*
- *  bfad_im.c Linux driver IM module.
+ *  bfad_im.c Robux driver IM module.
  */
 
-#include <linux/export.h>
+#include <robux/export.h>
 
 #include "bfad_drv.h"
 #include "bfad_im.h"

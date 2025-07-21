@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2025 Intel Corporation */
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/iopoll.h>
-#include <linux/pci.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/bits.h>
+#include <robux/iopoll.h>
+#include <robux/pci.h>
+#include <robux/types.h>
 
 #include <adf_accel_devices.h>
 #include <adf_admin.h>

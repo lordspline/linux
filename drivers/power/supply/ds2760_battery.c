@@ -19,17 +19,17 @@
  *	    September 2004
  */
 
-#include <linux/module.h>
-#include <linux/param.h>
-#include <linux/jiffies.h>
-#include <linux/workqueue.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/suspend.h>
-#include <linux/w1.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/param.h>
+#include <robux/jiffies.h>
+#include <robux/workqueue.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/suspend.h>
+#include <robux/w1.h>
+#include <robux/of.h>
 
 static unsigned int cache_time = 1000;
 module_param(cache_time, uint, 0644);

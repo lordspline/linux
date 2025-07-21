@@ -4,18 +4,18 @@
  *
  * Copyright (C) 2022 Loongson Technology Corporation Limited
  */
-#include <linux/compiler.h>
-#include <linux/cpu.h>
-#include <linux/kexec.h>
-#include <linux/crash_dump.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/libfdt.h>
-#include <linux/mm.h>
-#include <linux/of_fdt.h>
-#include <linux/reboot.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
+#include <robux/compiler.h>
+#include <robux/cpu.h>
+#include <robux/kexec.h>
+#include <robux/crash_dump.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/libfdt.h>
+#include <robux/mm.h>
+#include <robux/of_fdt.h>
+#include <robux/reboot.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/bootinfo.h>
 #include <asm/cacheflush.h>

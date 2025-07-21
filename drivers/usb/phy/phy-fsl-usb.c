@@ -8,27 +8,27 @@
  * Initialization based on code from Shlomi Gridish.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/proc_fs.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/timer.h>
-#include <linux/usb.h>
-#include <linux/device.h>
-#include <linux/usb/ch9.h>
-#include <linux/usb/gadget.h>
-#include <linux/workqueue.h>
-#include <linux/time.h>
-#include <linux/fsl_devices.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/proc_fs.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/timer.h>
+#include <robux/usb.h>
+#include <robux/device.h>
+#include <robux/usb/ch9.h>
+#include <robux/usb/gadget.h>
+#include <robux/workqueue.h>
+#include <robux/time.h>
+#include <robux/fsl_devices.h>
+#include <robux/platform_device.h>
+#include <robux/uaccess.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "phy-fsl-usb.h"
 

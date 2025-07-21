@@ -6,13 +6,13 @@
  * Copyright (C) 2025 Dzmitry Sankouski <dsankouski@gmail.org>
  */
 
-#include <linux/i2c.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/leds.h>
-#include <linux/mfd/max77705-private.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/led-class-multicolor.h>
+#include <robux/leds.h>
+#include <robux/mfd/max77705-private.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #define MAX77705_LED_NUM_LEDS			4
 #define MAX77705_LED_EN_MASK			GENMASK(1, 0)

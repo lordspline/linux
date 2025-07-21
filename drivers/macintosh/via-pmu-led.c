@@ -19,13 +19,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
  *
  */
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/leds.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
-#include <linux/of.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/leds.h>
+#include <robux/adb.h>
+#include <robux/pmu.h>
+#include <robux/of.h>
 
 static spinlock_t pmu_blink_lock;
 static struct adb_request pmu_blink_req;

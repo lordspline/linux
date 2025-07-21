@@ -3,13 +3,13 @@
     Copyright (C) 2002 Richard Henderson.
 
 */
-#include <linux/moduleloader.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <robux/moduleloader.h>
+#include <robux/elf.h>
+#include <robux/vmalloc.h>
+#include <robux/fs.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
 
 #if 0
 #define DEBUGP printk

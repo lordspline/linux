@@ -4,11 +4,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <linux/capability.h>
-#include <linux/kernel.h>
-#include <linux/mman.h>
-#include <linux/string.h>
-#include <linux/time64.h>
+#include <robux/capability.h>
+#include <robux/kernel.h>
+#include <robux/mman.h>
+#include <robux/string.h>
+#include <robux/time64.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/param.h>
@@ -40,9 +40,9 @@
 #include "namespaces.h"
 #include "header.h"
 #include "path.h"
-#include <linux/ctype.h>
-#include <linux/log2.h>
-#include <linux/zalloc.h>
+#include <robux/ctype.h>
+#include <robux/log2.h>
+#include <robux/zalloc.h>
 
 #include <elf.h>
 #include <limits.h>

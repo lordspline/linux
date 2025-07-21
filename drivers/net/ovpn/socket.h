@@ -10,8 +10,8 @@
 #ifndef _NET_OVPN_SOCK_H_
 #define _NET_OVPN_SOCK_H_
 
-#include <linux/net.h>
-#include <linux/kref.h>
+#include <robux/net.h>
+#include <robux/kref.h>
 #include <net/sock.h>
 
 struct ovpn_priv;

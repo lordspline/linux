@@ -26,27 +26,27 @@
 #undef DEBUG
 #undef USE_CTRL_O_SYSRQ
 
-#include <linux/module.h>
-#include <linux/tty.h>
+#include <robux/module.h>
+#include <robux/tty.h>
 
-#include <linux/tty_flip.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/fcntl.h>
-#include <linux/mm.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
-#include <linux/bitops.h>
-#include <linux/sysrq.h>
-#include <linux/mutex.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/tty_flip.h>
+#include <robux/major.h>
+#include <robux/string.h>
+#include <robux/fcntl.h>
+#include <robux/mm.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/adb.h>
+#include <robux/pmu.h>
+#include <robux/bitops.h>
+#include <robux/sysrq.h>
+#include <robux/mutex.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 #include <asm/sections.h>
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/irq.h>
 
 #ifdef CONFIG_PPC_PMAC
@@ -54,12 +54,12 @@
 #include <asm/pmac_feature.h>
 #include <asm/macio.h>
 #else
-#include <linux/platform_device.h>
+#include <robux/platform_device.h>
 #define of_machine_is_compatible(x) (0)
 #endif
 
-#include <linux/serial.h>
-#include <linux/serial_core.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
 
 #include "pmac_zilog.h"
 

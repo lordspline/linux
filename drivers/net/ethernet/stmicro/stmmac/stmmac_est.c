@@ -3,8 +3,8 @@
  * Copyright (C) 2023, Intel Corporation
  * stmmac EST(802.3 Qbv) handling
  */
-#include <linux/iopoll.h>
-#include <linux/types.h>
+#include <robux/iopoll.h>
+#include <robux/types.h>
 #include "stmmac.h"
 #include "stmmac_est.h"
 

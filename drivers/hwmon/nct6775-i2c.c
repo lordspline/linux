@@ -15,14 +15,14 @@
  * interface so it doesn't affect the LPC interface).
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 #include "nct6775.h"
 
 static int nct6775_i2c_read(void *ctx, unsigned int reg, unsigned int *val)

@@ -18,20 +18,20 @@
  * Matt Porter <mporter@kernel.crashing.org>
  */
 
-#include <linux/init.h>
-#include <linux/extable.h>
-#include <linux/types.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/extable.h>
+#include <robux/types.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
 
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
 #include <asm/machdep.h>
 #include <asm/rio.h>
 

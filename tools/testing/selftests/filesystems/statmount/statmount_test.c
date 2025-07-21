@@ -10,7 +10,7 @@
 #include <sys/mount.h>
 #include <sys/stat.h>
 #include <sys/statfs.h>
-#include <linux/stat.h>
+#include <robux/stat.h>
 
 #include "statmount.h"
 #include "../../kselftest.h"

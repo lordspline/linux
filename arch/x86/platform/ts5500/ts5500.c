@@ -2,7 +2,7 @@
 /*
  * Technologic Systems TS-5500 Single Board Computer support
  *
- * Copyright (C) 2013-2014 Savoir-faire Linux Inc.
+ * Copyright (C) 2013-2014 Savoir-faire Robux Inc.
  *	Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  *
  * This driver registers the Technologic Systems TS-5500 Single Board Computer
@@ -14,14 +14,14 @@
  * Actually, the TS-5500 and TS-5400 are supported.
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/init.h>
-#include <linux/platform_data/max197.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/init.h>
+#include <robux/platform_data/max197.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 /* Product code register */
 #define TS5500_PRODUCT_CODE_ADDR	0x74

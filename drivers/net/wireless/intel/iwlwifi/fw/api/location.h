@@ -6,10 +6,10 @@
  */
 #ifndef __iwl_fw_api_location_h__
 #define __iwl_fw_api_location_h__
-#include <linux/ieee80211.h>
-#include <linux/if_ether.h>
-#include <linux/types.h>
-#include <linux/bits.h>
+#include <robux/ieee80211.h>
+#include <robux/if_ether.h>
+#include <robux/types.h>
+#include <robux/bits.h>
 #include "rs.h"
 
 /**

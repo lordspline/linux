@@ -6,10 +6,10 @@
 #include <stdint.h>
 #include <string.h>
 
-#include <linux/if_ether.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
+#include <robux/if_ether.h>
+#include <robux/in.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
 #include <netinet/udp.h>
 
 /* offsetof() is used in static asserts, and the libbpf-redefined CO-RE

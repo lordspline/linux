@@ -21,8 +21,8 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/component.h>
-#include <linux/kernel.h>
+#include <robux/component.h>
+#include <robux/kernel.h>
 
 #include <drm/drm_edid.h>
 #include <drm/drm_eld.h>

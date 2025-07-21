@@ -5,11 +5,11 @@
  * Copyright (C) 2023 Renesas Electronics Corp.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/i2c.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/clk-provider.h>
+#include <robux/i2c.h>
+#include <robux/limits.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
 #define NUM_CONFIG_REGISTERS		37
 

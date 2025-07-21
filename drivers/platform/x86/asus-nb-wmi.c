@@ -7,14 +7,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/backlight.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/dmi.h>
-#include <linux/i8042.h>
+#include <robux/backlight.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/input/sparse-keymap.h>
+#include <robux/dmi.h>
+#include <robux/i8042.h>
 
 #include <acpi/video.h>
 

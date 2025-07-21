@@ -7,12 +7,12 @@
  * It reads bitstream buffers and feeds them to the VIFIFO
  */
 
-#include <linux/init.h>
-#include <linux/ioctl.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/reset.h>
-#include <linux/interrupt.h>
+#include <robux/init.h>
+#include <robux/ioctl.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/reset.h>
+#include <robux/interrupt.h>
 #include <media/videobuf2-dma-contig.h>
 #include <media/v4l2-mem2mem.h>
 

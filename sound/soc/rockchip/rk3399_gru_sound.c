@@ -5,13 +5,13 @@
  * Copyright (c) 2016, ROCKCHIP CORPORATION.  All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/spi/spi.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/spi/spi.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

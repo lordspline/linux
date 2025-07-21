@@ -7,13 +7,13 @@
  *
  * 14/04/2005 Initial version, colin.king@philips.com
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_pci.h>
+#include <robux/of_platform.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
 
 #include "../pci.h"
 

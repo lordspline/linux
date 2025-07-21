@@ -11,14 +11,14 @@
  * Based on sa1100 driver, Copyright (C) 2000 Oleg Drokin <green@crimea.edu>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/watchdog.h>
-#include <linux/bits.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/soc/ixp4xx/cpu.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/watchdog.h>
+#include <robux/bits.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/soc/ixp4xx/cpu.h>
 
 struct ixp4xx_wdt {
 	struct watchdog_device wdd;

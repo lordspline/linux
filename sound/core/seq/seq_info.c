@@ -4,8 +4,8 @@
  *   Copyright (c) 1998 by Frank van de Pol <fvdpol@coil.demon.nl>
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
+#include <robux/init.h>
+#include <robux/export.h>
 #include <sound/core.h>
 
 #include "seq_info.h"

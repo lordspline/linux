@@ -30,9 +30,9 @@
  * SOFTWARE.
  *
  */
-#include <linux/bitmap.h>
-#include <linux/file.h>
-#include <linux/slab.h>
+#include <robux/bitmap.h>
+#include <robux/file.h>
+#include <robux/slab.h>
 #include <net/inet_sock.h>
 
 #include "usnic_transport.h"

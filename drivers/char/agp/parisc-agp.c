@@ -2,20 +2,20 @@
 /*
  * HP Quicksilver AGP GART routines
  *
- * Copyright (c) 2006, Kyle McMartin <kyle@parisc-linux.org>
+ * Copyright (c) 2006, Kyle McMartin <kyle@parisc-robux.org>
  *
  * Based on drivers/char/agpgart/hp-agp.c which is
  * (c) Copyright 2002, 2003 Hewlett-Packard Development Company, L.P.
  *	Bjorn Helgaas <bjorn.helgaas@hp.com>
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/klist.h>
-#include <linux/agp_backend.h>
-#include <linux/log2.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/klist.h>
+#include <robux/agp_backend.h>
+#include <robux/log2.h>
+#include <robux/slab.h>
 
 #include <asm/parisc-device.h>
 #include <asm/ropes.h>
@@ -431,6 +431,6 @@ out:
 
 module_init(parisc_agp_init);
 
-MODULE_AUTHOR("Kyle McMartin <kyle@parisc-linux.org>");
+MODULE_AUTHOR("Kyle McMartin <kyle@parisc-robux.org>");
 MODULE_DESCRIPTION("HP Quicksilver AGP GART routines");
 MODULE_LICENSE("GPL");

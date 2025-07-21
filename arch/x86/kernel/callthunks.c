@@ -2,11 +2,11 @@
 
 #define pr_fmt(fmt) "callthunks: " fmt
 
-#include <linux/debugfs.h>
-#include <linux/kallsyms.h>
-#include <linux/memory.h>
-#include <linux/moduleloader.h>
-#include <linux/static_call.h>
+#include <robux/debugfs.h>
+#include <robux/kallsyms.h>
+#include <robux/memory.h>
+#include <robux/moduleloader.h>
+#include <robux/static_call.h>
 
 #include <asm/alternative.h>
 #include <asm/asm-offsets.h>

@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2015,2019 The Linux Foundation. All rights reserved.
+/* Copyright (c) 2015,2019 The Robux Foundation. All rights reserved.
  */
 
-#include <linux/cleanup.h>
-#include <linux/io.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/firmware/qcom/qcom_tzmem.h>
-#include <linux/arm-smccc.h>
-#include <linux/dma-mapping.h>
+#include <robux/cleanup.h>
+#include <robux/io.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/firmware/qcom/qcom_scm.h>
+#include <robux/firmware/qcom/qcom_tzmem.h>
+#include <robux/arm-smccc.h>
+#include <robux/dma-mapping.h>
 
 #include "qcom_scm.h"
 

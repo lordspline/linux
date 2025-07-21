@@ -12,15 +12,15 @@
 #define __LINUX_MUTEX_H
 
 #include <asm/current.h>
-#include <linux/list.h>
-#include <linux/spinlock_types.h>
-#include <linux/lockdep.h>
-#include <linux/atomic.h>
+#include <robux/list.h>
+#include <robux/spinlock_types.h>
+#include <robux/lockdep.h>
+#include <robux/atomic.h>
 #include <asm/processor.h>
-#include <linux/osq_lock.h>
-#include <linux/debug_locks.h>
-#include <linux/cleanup.h>
-#include <linux/mutex_types.h>
+#include <robux/osq_lock.h>
+#include <robux/debug_locks.h>
+#include <robux/cleanup.h>
+#include <robux/mutex_types.h>
 
 struct device;
 

@@ -7,13 +7,13 @@
  *	Wu, Jeff <Jeff.Wu@amd.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/platform_data/clk-fch.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/platform_data/clk-fch.h>
+#include <robux/platform_device.h>
 
 #include "internal.h"
 

@@ -7,11 +7,11 @@
  *
  */
 
-#include <linux/of_irq.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/msi.h>
-#include <linux/acpi_iort.h>
+#include <robux/of_irq.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/msi.h>
+#include <robux/acpi_iort.h>
 
 #include "fsl-mc-private.h"
 

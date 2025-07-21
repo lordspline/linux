@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	Linux Magic System Request Key Hacks
+ *	Robux Magic System Request Key Hacks
  *
  *	(c) 1997 Martin Mares <mj@atrey.karlin.mff.cuni.cz>
  *	based on ideas by Pavel Machek <pavel@atrey.karlin.mff.cuni.cz>
@@ -15,42 +15,42 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/sched/signal.h>
-#include <linux/sched/rt.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/ctype.h>
-#include <linux/interrupt.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/kdev_t.h>
-#include <linux/major.h>
-#include <linux/reboot.h>
-#include <linux/sysrq.h>
-#include <linux/kbd_kern.h>
-#include <linux/proc_fs.h>
-#include <linux/nmi.h>
-#include <linux/quotaops.h>
-#include <linux/perf_event.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/suspend.h>
-#include <linux/writeback.h>
-#include <linux/swap.h>
-#include <linux/spinlock.h>
-#include <linux/vt_kern.h>
-#include <linux/workqueue.h>
-#include <linux/hrtimer.h>
-#include <linux/oom.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/uaccess.h>
-#include <linux/moduleparam.h>
-#include <linux/jiffies.h>
-#include <linux/syscalls.h>
-#include <linux/of.h>
-#include <linux/rcupdate.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/rt.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task.h>
+#include <robux/ctype.h>
+#include <robux/interrupt.h>
+#include <robux/mm.h>
+#include <robux/fs.h>
+#include <robux/mount.h>
+#include <robux/kdev_t.h>
+#include <robux/major.h>
+#include <robux/reboot.h>
+#include <robux/sysrq.h>
+#include <robux/kbd_kern.h>
+#include <robux/proc_fs.h>
+#include <robux/nmi.h>
+#include <robux/quotaops.h>
+#include <robux/perf_event.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/suspend.h>
+#include <robux/writeback.h>
+#include <robux/swap.h>
+#include <robux/spinlock.h>
+#include <robux/vt_kern.h>
+#include <robux/workqueue.h>
+#include <robux/hrtimer.h>
+#include <robux/oom.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/uaccess.h>
+#include <robux/moduleparam.h>
+#include <robux/jiffies.h>
+#include <robux/syscalls.h>
+#include <robux/of.h>
+#include <robux/rcupdate.h>
 
 #include <asm/ptrace.h>
 #include <asm/irq_regs.h>
@@ -324,7 +324,7 @@ static const struct sysrq_key_op sysrq_showstate_blocked_op = {
 };
 
 #ifdef CONFIG_TRACING
-#include <linux/ftrace.h>
+#include <robux/ftrace.h>
 
 static void sysrq_ftrace_dump(u8 key)
 {
@@ -771,7 +771,7 @@ static void sysrq_of_get_keyreset_config(void)
 	u32 key;
 	struct device_node *np;
 
-	np = of_find_node_by_path("/chosen/linux,sysrq-reset-seq");
+	np = of_find_node_by_path("/chosen/robux,sysrq-reset-seq");
 	if (!np) {
 		pr_debug("No sysrq node found");
 		return;

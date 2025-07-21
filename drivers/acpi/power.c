@@ -23,16 +23,16 @@
 
 #define pr_fmt(fmt) "ACPI: PM: " fmt
 
-#include <linux/dmi.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/pm_runtime.h>
-#include <linux/sysfs.h>
-#include <linux/acpi.h>
+#include <robux/dmi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/pm_runtime.h>
+#include <robux/sysfs.h>
+#include <robux/acpi.h>
 #include "sleep.h"
 #include "internal.h"
 

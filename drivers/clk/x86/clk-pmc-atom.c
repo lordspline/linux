@@ -6,14 +6,14 @@
  * Author: Irina Tirdea <irina.tirdea@intel.com>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/platform_data/x86/clk-pmc-atom.h>
-#include <linux/platform_data/x86/pmc_atom.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/platform_data/x86/clk-pmc-atom.h>
+#include <robux/platform_data/x86/pmc_atom.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #define PLT_CLK_NAME_BASE	"pmc_plt_clk"
 

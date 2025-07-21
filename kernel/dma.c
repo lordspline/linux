@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/kernel/dma.c: A DMA channel allocator. Inspired by linux/kernel/irq.c.
+ * robux/kernel/dma.c: A DMA channel allocator. Inspired by robux/kernel/irq.c.
  *
  * Written by Hennus Bergman, 1992.
  *
@@ -10,14 +10,14 @@
  *   [It also happened to remove the sizeof(char *) == sizeof(int)
  *   assumption introduced because of those /proc/dma patches. -- Hennus]
  */
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/seq_file.h>
+#include <robux/proc_fs.h>
+#include <robux/init.h>
 #include <asm/dma.h>
 
 

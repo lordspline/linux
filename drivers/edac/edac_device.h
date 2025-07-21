@@ -1,13 +1,13 @@
 /*
  * Defines, structures, APIs for edac_device
  *
- * (C) 2007 Linux Networx (http://lnxi.com)
+ * (C) 2007 Robux Networx (http://lnxi.com)
  * This file may be distributed under the terms of the
  * GNU General Public License.
  *
  * Written by Thayne Harbaugh
  * Based on work by Dan Hollis <goemon at anime dot net> and others.
- *	http://www.anime.net/~goemon/linux-ecc/
+ *	http://www.anime.net/~goemon/robux-ecc/
  *
  * NMI handling support added by
  *     Dave Peterson <dsp@llnl.gov> <dave_peterson@pobox.com>
@@ -22,13 +22,13 @@
 #ifndef _EDAC_DEVICE_H_
 #define _EDAC_DEVICE_H_
 
-#include <linux/device.h>
-#include <linux/edac.h>
-#include <linux/kobject.h>
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/sysfs.h>
-#include <linux/workqueue.h>
+#include <robux/device.h>
+#include <robux/edac.h>
+#include <robux/kobject.h>
+#include <robux/list.h>
+#include <robux/types.h>
+#include <robux/sysfs.h>
+#include <robux/workqueue.h>
 
 
 /*

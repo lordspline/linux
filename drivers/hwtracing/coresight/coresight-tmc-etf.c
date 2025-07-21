@@ -4,11 +4,11 @@
  * Author: Mathieu Poirier <mathieu.poirier@linaro.org>
  */
 
-#include <linux/atomic.h>
-#include <linux/circ_buf.h>
-#include <linux/coresight.h>
-#include <linux/perf_event.h>
-#include <linux/slab.h>
+#include <robux/atomic.h>
+#include <robux/circ_buf.h>
+#include <robux/coresight.h>
+#include <robux/perf_event.h>
+#include <robux/slab.h>
 #include "coresight-priv.h"
 #include "coresight-tmc.h"
 #include "coresight-etm-perf.h"

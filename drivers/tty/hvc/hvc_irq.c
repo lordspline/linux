@@ -6,7 +6,7 @@
  *
  */
 
-#include <linux/interrupt.h>
+#include <robux/interrupt.h>
 
 #include "hvc_console.h"
 

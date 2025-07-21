@@ -9,19 +9,19 @@
  * (C) 1999		David A. Hinds
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/timer.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/ioport.h>
+#include <robux/timer.h>
+#include <robux/pci.h>
+#include <robux/device.h>
+#include <robux/io.h>
 
 #include <asm/irq.h>
 
@@ -65,7 +65,7 @@ struct socket_data {
 
 /*======================================================================
 
-    Linux resource management extensions
+    Robux resource management extensions
 
 ======================================================================*/
 

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2023 Advanced Micro Devices, Inc */
 
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/utsname.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/utsname.h>
 
 #include "core.h"
 

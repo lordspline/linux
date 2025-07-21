@@ -4,13 +4,13 @@
  * Author: YT SHEN <yt.shen@mediatek.com>
  */
 
-#include <linux/component.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/dma-mapping.h>
+#include <robux/component.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/dma-mapping.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

@@ -4,16 +4,16 @@
  *
  * Copyright (C) 2012 ARM Ltd.
  */
-#include <linux/kernel.h>
-#include <linux/efi.h>
-#include <linux/export.h>
-#include <linux/filter.h>
-#include <linux/ftrace.h>
-#include <linux/kprobes.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
+#include <robux/kernel.h>
+#include <robux/efi.h>
+#include <robux/export.h>
+#include <robux/filter.h>
+#include <robux/ftrace.h>
+#include <robux/kprobes.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task_stack.h>
+#include <robux/stacktrace.h>
 
 #include <asm/efi.h>
 #include <asm/irq.h>

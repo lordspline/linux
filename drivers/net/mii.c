@@ -27,11 +27,11 @@
 
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
 
 static u32 mii_get_an(struct mii_if_info *mii, u16 addr)
 {

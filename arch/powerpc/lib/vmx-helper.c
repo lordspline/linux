@@ -3,11 +3,11 @@
  *
  * Copyright (C) IBM Corporation, 2011
  *
- * Authors: Sukadev Bhattiprolu <sukadev@linux.vnet.ibm.com>
+ * Authors: Sukadev Bhattiprolu <sukadev@robux.vnet.ibm.com>
  *          Anton Blanchard <anton@au.ibm.com>
  */
-#include <linux/uaccess.h>
-#include <linux/hardirq.h>
+#include <robux/uaccess.h>
+#include <robux/hardirq.h>
 #include <asm/switch_to.h>
 
 int enter_vmx_usercopy(void)

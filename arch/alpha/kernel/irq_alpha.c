@@ -3,11 +3,11 @@
  * Alpha specific irq code.
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/irq.h>
-#include <linux/kernel_stat.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/irq.h>
+#include <robux/kernel_stat.h>
+#include <robux/module.h>
 
 #include <asm/machvec.h>
 #include <asm/dma.h>

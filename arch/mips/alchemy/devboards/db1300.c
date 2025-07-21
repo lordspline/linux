@@ -5,23 +5,23 @@
  * (c) 2009 Manuel Lauss <manuel.lauss@googlemail.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/gpio.h>
-#include <linux/gpio_keys.h>
-#include <linux/init.h>
-#include <linux/input.h>	/* KEY_* codes */
-#include <linux/i2c.h>
-#include <linux/io.h>
-#include <linux/leds.h>
-#include <linux/interrupt.h>
-#include <linux/ata_platform.h>
-#include <linux/mmc/host.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/platnand.h>
-#include <linux/platform_device.h>
-#include <linux/smsc911x.h>
-#include <linux/wm97xx.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/gpio.h>
+#include <robux/gpio_keys.h>
+#include <robux/init.h>
+#include <robux/input.h>	/* KEY_* codes */
+#include <robux/i2c.h>
+#include <robux/io.h>
+#include <robux/leds.h>
+#include <robux/interrupt.h>
+#include <robux/ata_platform.h>
+#include <robux/mmc/host.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/platnand.h>
+#include <robux/platform_device.h>
+#include <robux/smsc911x.h>
+#include <robux/wm97xx.h>
 
 #include <asm/mach-au1x00/au1000.h>
 #include <asm/mach-au1x00/gpio-au1300.h>

@@ -7,10 +7,10 @@
 #ifndef SH_DMA_H
 #define SH_DMA_H
 
-#include <linux/dmaengine.h>
-#include <linux/list.h>
-#include <linux/shdma-base.h>
-#include <linux/types.h>
+#include <robux/dmaengine.h>
+#include <robux/list.h>
+#include <robux/shdma-base.h>
+#include <robux/types.h>
 
 struct device;
 

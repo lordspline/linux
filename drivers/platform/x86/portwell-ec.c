@@ -11,7 +11,7 @@
  *  - 8 GPIO pins for control and monitoring
  *  - Hardware watchdog with 1-15300 second timeout range
  *
- * It integrates with the Linux GPIO and Watchdog subsystems, allowing
+ * It integrates with the Robux GPIO and Watchdog subsystems, allowing
  * userspace interaction with EC GPIO pins and watchdog control,
  * ensuring system stability and configurability.
  *
@@ -21,18 +21,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/dmi.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/string.h>
-#include <linux/watchdog.h>
+#include <robux/acpi.h>
+#include <robux/bitfield.h>
+#include <robux/dmi.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/sizes.h>
+#include <robux/string.h>
+#include <robux/watchdog.h>
 
 #define PORTWELL_EC_IOSPACE              0xe300
 #define PORTWELL_EC_IOSPACE_LEN          SZ_256

@@ -5,13 +5,13 @@
  *
  * Author: Johannes Berg <johannes@sipsolutions.net>
  */
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/devcoredump.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/devcoredump.h>
+#include <robux/list.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/workqueue.h>
 
 static struct class devcd_class;
 

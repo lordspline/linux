@@ -6,20 +6,20 @@
  *
  * Authors:
  *   Ananda Ravuri <ananda.ravuri@intel.com>
- *   Matthew Gerlach <matthew.gerlach@linux.intel.com>
+ *   Matthew Gerlach <matthew.gerlach@robux.intel.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/dfl.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/dfl.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/types.h>
 
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
+#include <robux/serial.h>
+#include <robux/serial_8250.h>
 
 #define DFHv1_PARAM_ID_CLK_FRQ    0x2
 #define DFHv1_PARAM_ID_FIFO_LEN   0x3

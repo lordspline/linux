@@ -8,15 +8,15 @@
  *
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/gpio/driver.h>
+#include <robux/kernel.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
-#include <linux/mfd/wm8350/core.h>
-#include <linux/mfd/wm8350/gpio.h>
+#include <robux/mfd/wm8350/core.h>
+#include <robux/mfd/wm8350/gpio.h>
 
 struct wm8350_gpio_data {
 	struct wm8350 *wm8350;

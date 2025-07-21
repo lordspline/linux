@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-omap2/clock.c
+ *  robux/arch/arm/mach-omap2/clock.c
  *
  *  Copyright (C) 2005-2008 Texas Instruments, Inc.
  *  Copyright (C) 2004-2010 Nokia Corporation
@@ -11,17 +11,17 @@
  */
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/list.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/of_address.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/list.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/bitops.h>
+#include <robux/of_address.h>
 #include <asm/cpu.h>
 
 #include <trace/events/power.h>

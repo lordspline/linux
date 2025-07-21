@@ -209,18 +209,18 @@
 
 #define L1OIP_VERSION	0	/* 0...3 */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/mISDNif.h>
-#include <linux/mISDNhw.h>
-#include <linux/mISDNdsp.h>
-#include <linux/init.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/workqueue.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/mISDNif.h>
+#include <robux/mISDNhw.h>
+#include <robux/mISDNdsp.h>
+#include <robux/init.h>
+#include <robux/in.h>
+#include <robux/inet.h>
+#include <robux/workqueue.h>
+#include <robux/kthread.h>
+#include <robux/slab.h>
+#include <robux/sched/signal.h>
 
 #include <net/sock.h>
 #include "core.h"

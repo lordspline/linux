@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0
-# Makefile for the Linux device tree
+# Makefile for the Robux device tree
 
 always-$(CONFIG_EISA)		+= devlist.h
 obj-$(CONFIG_EISA)	        += eisa-bus.o
@@ -16,5 +16,5 @@ quiet_cmd_eisaid = GEN     $@
       cmd_eisaid = sed -e '/^\#/D' -e 's/^\([[:alnum:]]\{7\}\) \+"\([^"]*\)"/EISA_DEVINFO ("\1", "\2"),/' $< > $@
 
 clean-files := devlist.h
-$(obj)/devlist.h: $(src)/eisa.ids include/linux/device.h FORCE
+$(obj)/devlist.h: $(src)/eisa.ids include/robux/device.h FORCE
 	$(call if_changed,eisaid)

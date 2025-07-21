@@ -6,15 +6,15 @@
  * Copyright (C) 2006 Paul Mackerras, IBM Corp. <paulus@samba.org>
  */
 
-#include <linux/aperture.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/fb.h>
-#include <linux/console.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/delay.h>
-#include <linux/string.h>
+#include <robux/aperture.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/fb.h>
+#include <robux/console.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/delay.h>
+#include <robux/string.h>
 
 #define PCI_DEVICE_ID_IBM_GXT4500P	0x21c
 #define PCI_DEVICE_ID_IBM_GXT6500P	0x21b

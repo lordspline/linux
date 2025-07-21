@@ -2,19 +2,19 @@
 #ifndef B43legacy_H_
 #define B43legacy_H_
 
-#include <linux/hw_random.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/stringify.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/atomic.h>
-#include <linux/io.h>
+#include <robux/hw_random.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/stringify.h>
+#include <robux/netdevice.h>
+#include <robux/pci.h>
+#include <robux/atomic.h>
+#include <robux/io.h>
 
-#include <linux/ssb/ssb.h>
-#include <linux/ssb/ssb_driver_chipcommon.h>
-#include <linux/completion.h>
+#include <robux/ssb/ssb.h>
+#include <robux/ssb/ssb_driver_chipcommon.h>
+#include <robux/completion.h>
 
 #include <net/mac80211.h>
 

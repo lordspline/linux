@@ -3,10 +3,10 @@
  * Copyright (C) 2007, 2008 Karsten Wiese <fzu@wemgehoertderstaat.de>
  */
 
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/audio.h>
-#include <linux/module.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/usb/audio.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/hwdep.h>
 #include <sound/pcm.h>

@@ -8,10 +8,10 @@
  * Based on sound/soc/codecs/wm8731.c by Richard Purdie
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 #include <sound/soc.h>
 
 #include "tlv320aic23.h"

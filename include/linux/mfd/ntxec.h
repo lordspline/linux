@@ -9,7 +9,7 @@
 #ifndef NTXEC_H
 #define NTXEC_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct device;
 struct regmap;

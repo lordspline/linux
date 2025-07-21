@@ -2,12 +2,12 @@
 /*
  * io_uring opcode handling table
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/io_uring.h>
-#include <linux/io_uring/cmd.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/io_uring.h>
+#include <robux/io_uring/cmd.h>
 
 #include "io_uring.h"
 #include "opdef.h"

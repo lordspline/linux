@@ -34,14 +34,14 @@
 
 //#define DEBUG
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/input.h>
-#include <linux/hid.h>
-#include <linux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/usb/input.h>
+#include <robux/hid.h>
+#include <robux/mutex.h>
 
 static bool swap_xy;
 module_param(swap_xy, bool, 0644);

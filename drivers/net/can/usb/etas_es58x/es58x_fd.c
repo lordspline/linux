@@ -11,9 +11,9 @@
  * Copyright (c) 2020-2022 Vincent Mailhol <mailhol.vincent@wanadoo.fr>
  */
 
-#include <linux/unaligned.h>
-#include <linux/kernel.h>
-#include <linux/units.h>
+#include <robux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/units.h>
 
 #include "es58x_core.h"
 #include "es58x_fd.h"

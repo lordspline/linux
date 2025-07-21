@@ -6,11 +6,11 @@
  *              Pavel Shilovsky ((pshilovsky@samba.org) 2012
  *
  */
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/pagemap.h>
+#include <robux/fs.h>
+#include <robux/filelock.h>
+#include <robux/stat.h>
+#include <robux/slab.h>
+#include <robux/pagemap.h>
 #include <asm/div64.h>
 #include "cifsfs.h"
 #include "cifspdu.h"
@@ -101,7 +101,7 @@ int smb2_fix_symlink_target_type(char **target, bool directory, struct cifs_sb_i
 	 * If this is a file (non-directory) symlink and it points to path name
 	 * with trailing slash then this is an invalid symlink because file name
 	 * cannot contain slash character. File name with slash is invalid on
-	 * both Windows and Linux systems. So return an error for such symlink.
+	 * both Windows and Robux systems. So return an error for such symlink.
 	 */
 	if (!directory && (*target)[len-1] == '/')
 		return -EIO;

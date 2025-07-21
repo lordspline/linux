@@ -5,7 +5,7 @@
  * Copyright (C) 2021 Jernej Skrabec <jernej.skrabec@gmail.com>
  */
 
-#include <linux/clk.h>
+#include <robux/clk.h>
 
 #include "hantro.h"
 

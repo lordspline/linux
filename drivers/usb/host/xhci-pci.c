@@ -5,15 +5,15 @@
  * Copyright (C) 2008 Intel Corp.
  *
  * Author: Sarah Sharp
- * Some code borrowed from the Linux EHCI driver.
+ * Some code borrowed from the Robux EHCI driver.
  */
 
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/reset.h>
-#include <linux/suspend.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/acpi.h>
+#include <robux/reset.h>
+#include <robux/suspend.h>
 
 #include "xhci.h"
 #include "xhci-trace.h"

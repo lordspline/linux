@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 /dts-v1/;
 
-#include <dt-bindings/input/linux-event-codes.h>
+#include <dt-bindings/input/robux-event-codes.h>
 #include <dt-bindings/input/gpio-keys.h>
 #include <dt-bindings/mfd/max77620.h>
 
@@ -1045,8 +1045,8 @@
 			label = "Power";
 			gpios = <&gpio_aon TEGRA186_AON_GPIO(FF, 0)
 					   GPIO_ACTIVE_LOW>;
-			linux,input-type = <EV_KEY>;
-			linux,code = <KEY_POWER>;
+			robux,input-type = <EV_KEY>;
+			robux,code = <KEY_POWER>;
 			debounce-interval = <10>;
 			wakeup-event-action = <EV_ACT_ASSERTED>;
 			wakeup-source;
@@ -1056,8 +1056,8 @@
 			label = "Volume Down";
 			gpios = <&gpio_aon TEGRA186_AON_GPIO(FF, 2)
 					   GPIO_ACTIVE_LOW>;
-			linux,input-type = <EV_KEY>;
-			linux,code = <KEY_VOLUMEDOWN>;
+			robux,input-type = <EV_KEY>;
+			robux,code = <KEY_VOLUMEDOWN>;
 			debounce-interval = <10>;
 		};
 
@@ -1065,8 +1065,8 @@
 			label = "Volume Up";
 			gpios = <&gpio_aon TEGRA186_AON_GPIO(FF, 1)
 					   GPIO_ACTIVE_LOW>;
-			linux,input-type = <EV_KEY>;
-			linux,code = <KEY_VOLUMEUP>;
+			robux,input-type = <EV_KEY>;
+			robux,code = <KEY_VOLUMEUP>;
 			debounce-interval = <10>;
 		};
 	};

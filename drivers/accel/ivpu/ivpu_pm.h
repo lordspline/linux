@@ -6,8 +6,8 @@
 #ifndef __IVPU_PM_H__
 #define __IVPU_PM_H__
 
-#include <linux/rwsem.h>
-#include <linux/types.h>
+#include <robux/rwsem.h>
+#include <robux/types.h>
 
 struct ivpu_device;
 

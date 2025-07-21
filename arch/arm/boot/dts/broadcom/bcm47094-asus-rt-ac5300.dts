@@ -34,19 +34,19 @@
 
 		button-reset {
 			label = "Reset";
-			linux,code = <KEY_RESTART>;
+			robux,code = <KEY_RESTART>;
 			gpios = <&chipcommon 11 GPIO_ACTIVE_LOW>;
 		};
 
 		button-wifi {
 			label = "Wi-Fi";
-			linux,code = <KEY_RFKILL>;
+			robux,code = <KEY_RFKILL>;
 			gpios = <&chipcommon 20 GPIO_ACTIVE_LOW>;
 		};
 
 		button-wps {
 			label = "WPS";
-			linux,code = <KEY_WPS_BUTTON>;
+			robux,code = <KEY_WPS_BUTTON>;
 			gpios = <&chipcommon 18 GPIO_ACTIVE_LOW>;
 		};
 	};
@@ -64,7 +64,7 @@
 			color = <LED_COLOR_ID_WHITE>;
 			function = LED_FUNCTION_POWER;
 			gpios = <&chipcommon 3 GPIO_ACTIVE_LOW>;
-			linux,default-trigger = "default-on";
+			robux,default-trigger = "default-on";
 		};
 
 		led-wan-red {

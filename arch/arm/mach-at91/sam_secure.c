@@ -3,8 +3,8 @@
  * Copyright (C) 2022, Microchip
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/of.h>
+#include <robux/arm-smccc.h>
+#include <robux/of.h>
 
 #include "sam_secure.h"
 

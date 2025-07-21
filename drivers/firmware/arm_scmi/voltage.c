@@ -5,8 +5,8 @@
  * Copyright (C) 2020-2022 ARM Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/scmi_protocol.h>
+#include <robux/module.h>
+#include <robux/scmi_protocol.h>
 
 #include "protocols.h"
 

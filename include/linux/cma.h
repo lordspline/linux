@@ -2,9 +2,9 @@
 #ifndef __CMA_H__
 #define __CMA_H__
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/numa.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/numa.h>
 
 #ifdef CONFIG_CMA_AREAS
 #define MAX_CMA_AREAS	CONFIG_CMA_AREAS

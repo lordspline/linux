@@ -3,8 +3,8 @@
  * Copyright 2020 Noralf Trønnes
  */
 
-#include <linux/backlight.h>
-#include <linux/workqueue.h>
+#include <robux/backlight.h>
+#include <robux/workqueue.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_state_helper.h>

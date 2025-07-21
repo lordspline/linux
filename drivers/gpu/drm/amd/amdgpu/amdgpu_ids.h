@@ -23,10 +23,10 @@
 #ifndef __AMDGPU_IDS_H__
 #define __AMDGPU_IDS_H__
 
-#include <linux/types.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/dma-fence.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
+#include <robux/list.h>
+#include <robux/dma-fence.h>
 
 #include "amdgpu_sync.h"
 

@@ -5,8 +5,8 @@
 // Copyright (C) 2017 Spreadtrum, Inc.
 // Author: Chunyan Zhang <chunyan.zhang@spreadtrum.com>
 
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
+#include <robux/clk-provider.h>
+#include <robux/regmap.h>
 
 #include "gate.h"
 

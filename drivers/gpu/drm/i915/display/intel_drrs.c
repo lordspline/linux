@@ -3,7 +3,7 @@
  * Copyright © 2021 Intel Corporation
  */
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 #include "i915_drv.h"
 #include "i915_reg.h"

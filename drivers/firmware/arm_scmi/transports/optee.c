@@ -3,17 +3,17 @@
  * Copyright (C) 2019-2021 Linaro Ltd.
  */
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/tee_drv.h>
-#include <linux/uuid.h>
-#include <uapi/linux/tee.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/tee_drv.h>
+#include <robux/uuid.h>
+#include <uapi/robux/tee.h>
 
 #include "../common.h"
 

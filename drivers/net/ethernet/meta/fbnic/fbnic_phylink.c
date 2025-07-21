@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) Meta Platforms, Inc. and affiliates. */
 
-#include <linux/phy.h>
-#include <linux/phylink.h>
+#include <robux/phy.h>
+#include <robux/phylink.h>
 
 #include "fbnic.h"
 #include "fbnic_mac.h"

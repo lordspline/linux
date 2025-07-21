@@ -5,20 +5,20 @@
  * Copyright (c) 2016 Jan Kandziora <jjj@gmx.de>
  */
 
-#include <linux/crc16.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
+#include <robux/crc16.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
 
 #define CRC16_INIT 0
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 #define W1_FAMILY_DS28E17 0x19
 

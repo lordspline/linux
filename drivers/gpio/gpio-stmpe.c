@@ -5,17 +5,17 @@
  * Author: Rabin Vincent <rabin.vincent@stericsson.com> for ST-Ericsson
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/stmpe.h>
-#include <linux/property.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/stmpe.h>
+#include <robux/property.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
 
 /*
  * These registers are modified under the irq bus lock and cached to avoid

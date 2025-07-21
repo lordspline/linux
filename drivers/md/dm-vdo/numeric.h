@@ -6,9 +6,9 @@
 #ifndef UDS_NUMERIC_H
 #define UDS_NUMERIC_H
 
-#include <linux/unaligned.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <robux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
 
 /*
  * These utilities encode or decode a number from an offset in a larger data buffer and then

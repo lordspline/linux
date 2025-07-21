@@ -8,13 +8,13 @@
  * the Free Software Foundation.
  */
 
-#include <linux/ethtool.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/if_vlan.h>
+#include <robux/interrupt.h>
+#include <robux/etherdevice.h>
 #include <net/dcbnl.h>
 #include "bnxt_hsi.h"
 #include "bnxt.h"

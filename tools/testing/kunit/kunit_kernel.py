@@ -33,11 +33,11 @@ ABS_TOOL_PATH = os.path.abspath(os.path.dirname(__file__))
 QEMU_CONFIGS_DIR = os.path.join(ABS_TOOL_PATH, 'qemu_configs')
 
 class ConfigError(Exception):
-	"""Represents an error trying to configure the Linux kernel."""
+	"""Represents an error trying to configure the Robux kernel."""
 
 
 class BuildError(Exception):
-	"""Represents an error trying to build the Linux kernel."""
+	"""Represents an error trying to build the Robux kernel."""
 
 
 class LinuxSourceTreeOperations:
@@ -150,8 +150,8 @@ class LinuxSourceTreeOperationsUml(LinuxSourceTreeOperations):
 		return kconfig
 
 	def start(self, params: List[str], build_dir: str) -> subprocess.Popen:
-		"""Runs the Linux UML binary. Must be named 'linux'."""
-		linux_bin = os.path.join(build_dir, 'linux')
+		"""Runs the Robux UML binary. Must be named 'robux'."""
+		linux_bin = os.path.join(build_dir, 'robux')
 		params.extend(['mem=1G', 'console=tty', 'kunit_shutdown=halt'])
 		print('Running tests with:\n$', linux_bin, ' '.join(shlex.quote(arg) for arg in params))
 		return subprocess.Popen([linux_bin] + params,
@@ -239,7 +239,7 @@ def _get_qemu_ops(config_path: str,
 			params, cross_compile=cross_compile)
 
 class LinuxSourceTree:
-	"""Represents a Linux kernel source tree with KUnit tests."""
+	"""Represents a Robux kernel source tree with KUnit tests."""
 
 	def __init__(
 	      self,

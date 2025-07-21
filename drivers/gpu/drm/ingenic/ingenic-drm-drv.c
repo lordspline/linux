@@ -6,19 +6,19 @@
 
 #include "ingenic-drm.h"
 
-#include <linux/bitfield.h>
-#include <linux/component.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/component.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

@@ -5,15 +5,15 @@
  * MAXIM TCPCI based TCPC driver
  */
 
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/usb/pd.h>
-#include <linux/usb/tcpci.h>
-#include <linux/usb/tcpm.h>
-#include <linux/usb/typec.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/usb/pd.h>
+#include <robux/usb/tcpci.h>
+#include <robux/usb/tcpm.h>
+#include <robux/usb/typec.h>
 
 #include "tcpci_maxim.h"
 

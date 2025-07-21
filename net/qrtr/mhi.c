@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2018-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2020, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/mhi.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/skbuff.h>
+#include <robux/mhi.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/skbuff.h>
 #include <net/sock.h>
 
 #include "qrtr.h"

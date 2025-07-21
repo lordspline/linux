@@ -8,14 +8,14 @@
  *  Copyright (c) 2014 Huacai Chen <chenhc@lemote.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/platform_device.h>
+#include <robux/bitops.h>
 #include <asm/types.h>
 #include <loongson.h>
 

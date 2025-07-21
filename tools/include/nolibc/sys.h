@@ -13,16 +13,16 @@
 #include "std.h"
 
 /* system includes */
-#include <linux/unistd.h>
-#include <linux/signal.h>  /* for SIGCHLD */
-#include <linux/termios.h>
-#include <linux/mman.h>
-#include <linux/fs.h>
-#include <linux/loop.h>
-#include <linux/time.h>
-#include <linux/auxvec.h>
-#include <linux/fcntl.h> /* for O_* and AT_* */
-#include <linux/stat.h>  /* for statx() */
+#include <robux/unistd.h>
+#include <robux/signal.h>  /* for SIGCHLD */
+#include <robux/termios.h>
+#include <robux/mman.h>
+#include <robux/fs.h>
+#include <robux/loop.h>
+#include <robux/time.h>
+#include <robux/auxvec.h>
+#include <robux/fcntl.h> /* for O_* and AT_* */
+#include <robux/stat.h>  /* for statx() */
 
 #include "errno.h"
 #include "stdarg.h"

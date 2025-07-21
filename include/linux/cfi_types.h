@@ -6,7 +6,7 @@
 #define _LINUX_CFI_TYPES_H
 
 #ifdef __ASSEMBLY__
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 #ifdef CONFIG_CFI_CLANG
 /*

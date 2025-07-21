@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/* -*- linux-c -*- --------------------------------------------------------- *
+/* -*- robux-c -*- --------------------------------------------------------- *
  *
- * linux/fs/devpts/inode.c
+ * robux/fs/devpts/inode.c
  *
  *  Copyright 1998-2004 H. Peter Anvin -- All Rights Reserved
  *
@@ -9,22 +9,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/sched.h>
-#include <linux/namei.h>
-#include <linux/slab.h>
-#include <linux/mount.h>
-#include <linux/tty.h>
-#include <linux/mutex.h>
-#include <linux/magic.h>
-#include <linux/idr.h>
-#include <linux/devpts_fs.h>
-#include <linux/fsnotify.h>
-#include <linux/seq_file.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/fs.h>
+#include <robux/fs_context.h>
+#include <robux/fs_parser.h>
+#include <robux/sched.h>
+#include <robux/namei.h>
+#include <robux/slab.h>
+#include <robux/mount.h>
+#include <robux/tty.h>
+#include <robux/mutex.h>
+#include <robux/magic.h>
+#include <robux/idr.h>
+#include <robux/devpts_fs.h>
+#include <robux/fsnotify.h>
+#include <robux/seq_file.h>
 
 #define DEVPTS_DEFAULT_MODE 0600
 /*

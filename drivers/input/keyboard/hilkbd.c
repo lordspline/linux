@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/hil/hilkbd.c
+ *  robux/drivers/hil/hilkbd.c
  *
  *  Copyright (C) 1998 Philip Blundell <philb@gnu.org>
  *  Copyright (C) 1999 Matthew Wilcox <willy@infradead.org>
@@ -11,17 +11,17 @@
  *  HP700 (parisc) series machines.
  */
 
-#include <linux/pci_ids.h>
-#include <linux/ioport.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/input.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/hil.h>
-#include <linux/io.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
+#include <robux/pci_ids.h>
+#include <robux/ioport.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/input.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/hil.h>
+#include <robux/io.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
 #include <asm/irq.h>
 #ifdef CONFIG_HP300
 #include <asm/hwtest.h>

@@ -7,18 +7,18 @@
  * Copyright (C) 2019 Andreas Kemnade
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mfd/rn5t618.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/bcd.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mfd/rn5t618.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/bcd.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
+#include <robux/irqdomain.h>
 
 struct rc5t619_rtc {
 	int			irq;

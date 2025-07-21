@@ -5,16 +5,16 @@
  * Copyright (c) 2021 Aleksandr Mezin
  */
 
-#include <linux/hid.h>
-#include <linux/hwmon.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
+#include <robux/hid.h>
+#include <robux/hwmon.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/wait.h>
 
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 /*
  * The device has only 3 fan channels/connectors. But all HID reports have

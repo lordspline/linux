@@ -83,21 +83,21 @@
 
 	button-191 {
 		label = "V+";
-		linux,code = <KEY_VOLUMEUP>;
+		robux,code = <KEY_VOLUMEUP>;
 		channel = <0>;
 		voltage = <191011>;
 	};
 
 	button-391 {
 		label = "V-";
-		linux,code = <KEY_VOLUMEDOWN>;
+		robux,code = <KEY_VOLUMEDOWN>;
 		channel = <0>;
 		voltage = <391304>;
 	};
 
 	button-600 {
 		label = "BACK";
-		linux,code = <KEY_BACK>;
+		robux,code = <KEY_BACK>;
 		channel = <0>;
 		voltage = <600000>;
 	};

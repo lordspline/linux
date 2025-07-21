@@ -6,9 +6,9 @@
  * Author: Johannes Thumshirn <johannes.thumshirn@men.de>
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/mcb.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/mcb.h>
 
 #include "mcb-internal.h"
 

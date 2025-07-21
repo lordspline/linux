@@ -3,11 +3,11 @@
  * Copyright (C) 2020 Western Digital Corporation or its affiliates.
  */
 
-#include <linux/efi.h>
+#include <robux/efi.h>
 
 #include <asm/efi.h>
 #include <asm/sections.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "efistub.h"
 

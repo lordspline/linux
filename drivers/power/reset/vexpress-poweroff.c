@@ -4,14 +4,14 @@
  * Copyright (C) 2012 ARM Limited
  */
 
-#include <linux/delay.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reboot.h>
-#include <linux/stat.h>
-#include <linux/vexpress.h>
+#include <robux/delay.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/reboot.h>
+#include <robux/stat.h>
+#include <robux/vexpress.h>
 
 static void vexpress_reset_do(struct device *dev, const char *what)
 {

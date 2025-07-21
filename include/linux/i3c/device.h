@@ -8,12 +8,12 @@
 #ifndef I3C_DEV_H
 #define I3C_DEV_H
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/kconfig.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/kconfig.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
 
 /**
  * enum i3c_error_code - I3C error codes

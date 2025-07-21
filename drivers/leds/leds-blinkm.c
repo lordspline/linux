@@ -5,19 +5,19 @@
  *  (c) Joseph Strauss (jstrauss@mailbox.org)
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/sysfs.h>
-#include <linux/printk.h>
-#include <linux/pm_runtime.h>
-#include <linux/leds.h>
-#include <linux/delay.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/kconfig.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/i2c.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/sysfs.h>
+#include <robux/printk.h>
+#include <robux/pm_runtime.h>
+#include <robux/leds.h>
+#include <robux/delay.h>
+#include <robux/led-class-multicolor.h>
+#include <robux/kconfig.h>
 
 #define NUM_LEDS 3
 

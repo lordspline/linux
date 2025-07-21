@@ -6,11 +6,11 @@
  * Copyright (C) 2019, Intel Corporation
  */
 
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_data/x86/apple.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
+#include <robux/platform_data/x86/apple.h>
 
 #include "tb.h"
 #include "tb_regs.h"

@@ -4,9 +4,9 @@
 #ifndef NFP_CCM_H
 #define NFP_CCM_H 1
 
-#include <linux/bitmap.h>
-#include <linux/skbuff.h>
-#include <linux/wait.h>
+#include <robux/bitmap.h>
+#include <robux/skbuff.h>
+#include <robux/wait.h>
 
 struct nfp_app;
 struct nfp_net;

@@ -6,13 +6,13 @@
  * Copyright (C) 2017 Chris Brandt
  */
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/sched_clock.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/clockchips.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/sched_clock.h>
+#include <robux/slab.h>
 
 #include "timer-of.h"
 

@@ -15,10 +15,10 @@
  */
 
 #include <errno.h>
-#include <linux/audit.h>
-#include <linux/filter.h>
-#include <linux/seccomp.h>
-#include <linux/unistd.h>
+#include <robux/audit.h>
+#include <robux/filter.h>
+#include <robux/seccomp.h>
+#include <robux/unistd.h>
 #include <stdio.h>
 #include <stddef.h>
 #include <stdlib.h>

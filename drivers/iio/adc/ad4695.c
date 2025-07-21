@@ -11,29 +11,29 @@
  * Copyright 2024 BayLibre, SAS
  */
 
-#include <linux/align.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/compiler.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/minmax.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/offload/consumer.h>
-#include <linux/spi/offload/provider.h>
-#include <linux/spi/spi.h>
-#include <linux/units.h>
+#include <robux/align.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/compiler.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/iio/buffer-dmaengine.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/minmax.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/pwm.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spi/offload/consumer.h>
+#include <robux/spi/offload/provider.h>
+#include <robux/spi/spi.h>
+#include <robux/units.h>
 
 #include <dt-bindings/iio/adc/adi,ad4695.h>
 

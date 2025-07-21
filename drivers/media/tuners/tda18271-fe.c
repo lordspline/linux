@@ -9,8 +9,8 @@
 #include "tda18271-priv.h"
 #include "tda8290.h"
 
-#include <linux/delay.h>
-#include <linux/videodev2.h>
+#include <robux/delay.h>
+#include <robux/videodev2.h>
 
 int tda18271_debug;
 module_param_named(debug, tda18271_debug, int, 0644);

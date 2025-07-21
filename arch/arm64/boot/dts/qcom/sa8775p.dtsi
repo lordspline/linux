@@ -7110,7 +7110,7 @@
 
 		dma-coherent;
 
-		linux,pci-domain = <0>;
+		robux,pci-domain = <0>;
 		num-lanes = <2>;
 
 		interrupts = <GIC_SPI 307 IRQ_TYPE_LEVEL_HIGH>,
@@ -7215,7 +7215,7 @@
 		phy-names = "pciephy";
 		max-link-speed = <3>; /* FIXME: Limiting the Gen speed due to stability issues */
 		num-lanes = <2>;
-		linux,pci-domain = <0>;
+		robux,pci-domain = <0>;
 
 		status = "disabled";
 	};
@@ -7268,7 +7268,7 @@
 
 		dma-coherent;
 
-		linux,pci-domain = <1>;
+		robux,pci-domain = <1>;
 		num-lanes = <4>;
 
 		interrupts = <GIC_SPI 519 IRQ_TYPE_LEVEL_HIGH>,
@@ -7373,7 +7373,7 @@
 		phy-names = "pciephy";
 		max-link-speed = <3>; /* FIXME: Limiting the Gen speed due to stability issues */
 		num-lanes = <4>;
-		linux,pci-domain = <1>;
+		robux,pci-domain = <1>;
 
 		status = "disabled";
 	};

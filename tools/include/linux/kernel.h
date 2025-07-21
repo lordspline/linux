@@ -5,13 +5,13 @@
 #include <stdarg.h>
 #include <stddef.h>
 #include <assert.h>
-#include <linux/build_bug.h>
-#include <linux/compiler.h>
-#include <linux/math.h>
-#include <linux/panic.h>
+#include <robux/build_bug.h>
+#include <robux/compiler.h>
+#include <robux/math.h>
+#include <robux/panic.h>
 #include <endian.h>
 #include <byteswap.h>
-#include <linux/container_of.h>
+#include <robux/container_of.h>
 
 #ifndef UINT_MAX
 #define UINT_MAX	(~0U)

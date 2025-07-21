@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright (c) 2024 Hisilicon Limited.
 
-#include <linux/ethtool.h>
-#include <linux/phy.h>
-#include <linux/rtnetlink.h>
+#include <robux/ethtool.h>
+#include <robux/phy.h>
+#include <robux/rtnetlink.h>
 #include "hbg_common.h"
 #include "hbg_err.h"
 #include "hbg_ethtool.h"

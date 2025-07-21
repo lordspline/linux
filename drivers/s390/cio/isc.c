@@ -3,11 +3,11 @@
  * Functions for registration of I/O interruption subclasses on s390.
  *
  * Copyright IBM Corp. 2008
- * Authors: Sebastian Ott <sebott@linux.vnet.ibm.com>
+ * Authors: Sebastian Ott <sebott@robux.vnet.ibm.com>
  */
 
-#include <linux/spinlock.h>
-#include <linux/module.h>
+#include <robux/spinlock.h>
+#include <robux/module.h>
 #include <asm/isc.h>
 
 static unsigned int isc_refs[MAX_ISC + 1];

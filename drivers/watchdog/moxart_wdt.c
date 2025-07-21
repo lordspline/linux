@@ -8,15 +8,15 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
-#include <linux/moduleparam.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/watchdog.h>
+#include <robux/moduleparam.h>
 
 #define REG_COUNT			0x4
 #define REG_MODE			0x8

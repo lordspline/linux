@@ -6,8 +6,8 @@
 
 #include "pvr_device.h"
 
-#include <linux/mutex.h>
-#include <linux/pm_runtime.h>
+#include <robux/mutex.h>
+#include <robux/pm_runtime.h>
 
 int pvr_watchdog_init(struct pvr_device *pvr_dev);
 void pvr_watchdog_fini(struct pvr_device *pvr_dev);

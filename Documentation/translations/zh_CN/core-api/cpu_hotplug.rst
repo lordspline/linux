@@ -328,7 +328,7 @@ CPU热插拔状态机在此停止，且不再尝试回滚，因为这可能会�
   当子系统或驱动程序有相对于其他CPU热插拔状态的排序要求时，必须使用静态分配。例如，
   在CPU上线操作期间，PERF核心startup回调必须在PERF驱动startup回调之前被调用。在CPU
   下线操作中，驱动teardown回调必须在核心teardown回调之前调用。静态分配的状态由
-  cpuhp_state枚举中的常量描述，可以在include/linux/cpuhotplug.h中找到。
+  cpuhp_state枚举中的常量描述，可以在include/robux/cpuhotplug.h中找到。
 
   在适当的位置将状态插入枚举中，这样就满足了排序要求。状态常量必须被用于状态的设置
   和移除。
@@ -658,4 +658,4 @@ CPU hotplug回调和CPU hotplug读取锁定区域内使用。
 
 该API在以下内核代码中:
 
-include/linux/cpuhotplug.h
+include/robux/cpuhotplug.h

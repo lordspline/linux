@@ -5,8 +5,8 @@
  * Copyright (C) 2009  Matt Fleming
  * Copyright (C) 2009  Paul Mundt
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 #include <asm/dwarf.h>
 #include <asm/ftrace.h>

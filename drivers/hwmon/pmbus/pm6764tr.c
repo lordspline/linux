@@ -3,12 +3,12 @@
  * Hardware monitoring driver for STMicroelectronics digital controller PM6764TR
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pmbus.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pmbus.h>
 #include "pmbus.h"
 
 #define PM6764TR_PMBUS_READ_VOUT	0xD4

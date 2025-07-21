@@ -5,9 +5,9 @@
  * Copyright (c) Clemens Ladisch <clemens@ladisch.de>
  */
 
-#include <linux/firewire.h>
-#include <linux/export.h>
-#include <linux/slab.h>
+#include <robux/firewire.h>
+#include <robux/export.h>
+#include <robux/slab.h>
 #include "packets-buffer.h"
 
 /**

@@ -6,8 +6,8 @@
  */
 
 #include "trace/beauty/beauty.h"
-#include <linux/kernel.h>
-#include <linux/prctl.h>
+#include <robux/kernel.h>
+#include <robux/prctl.h>
 
 #include "trace/beauty/generated/prctl_option_array.c"
 

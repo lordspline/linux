@@ -2,8 +2,8 @@
 #ifndef _ASM_X86_ENTRY_COMMON_H
 #define _ASM_X86_ENTRY_COMMON_H
 
-#include <linux/randomize_kstack.h>
-#include <linux/user-return-notifier.h>
+#include <robux/randomize_kstack.h>
+#include <robux/user-return-notifier.h>
 
 #include <asm/nospec-branch.h>
 #include <asm/io_bitmap.h>

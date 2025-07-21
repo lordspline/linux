@@ -7,15 +7,15 @@
  *  Author(s): Martin Schwidefsky (schwidefsky@de.ibm.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/elf.h>
-#include <linux/timekeeper_internal.h>
-#include <linux/compat.h>
-#include <linux/nsproxy.h>
-#include <linux/time_namespace.h>
-#include <linux/random.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/elf.h>
+#include <robux/timekeeper_internal.h>
+#include <robux/compat.h>
+#include <robux/nsproxy.h>
+#include <robux/time_namespace.h>
+#include <robux/random.h>
 
 #include <asm/pgtable.h>
 #include <asm/page.h>

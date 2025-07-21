@@ -10,13 +10,13 @@
  * Copyright (C) Purism SPC 2019
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/media-bus-format.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/media-bus-format.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
 
 #include <video/mipi_display.h>
 

@@ -19,17 +19,17 @@
 #ifndef _DMXDEV_H_
 #define _DMXDEV_H_
 
-#include <linux/types.h>
-#include <linux/spinlock.h>
-#include <linux/time.h>
-#include <linux/timer.h>
-#include <linux/wait.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <robux/types.h>
+#include <robux/spinlock.h>
+#include <robux/time.h>
+#include <robux/timer.h>
+#include <robux/wait.h>
+#include <robux/fs.h>
+#include <robux/string.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
 
-#include <linux/dvb/dmx.h>
+#include <robux/dvb/dmx.h>
 
 #include <media/dvbdev.h>
 #include <media/demux.h>

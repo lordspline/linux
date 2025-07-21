@@ -9,14 +9,14 @@
  * Harald Welte, Andy Green and Werner Almesberger
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/input.h>
+#include <robux/slab.h>
 
-#include <linux/mfd/pcf50633/core.h>
+#include <robux/mfd/pcf50633/core.h>
 
 #define PCF50633_OOCSTAT_ONKEY	0x01
 #define PCF50633_REG_OOCSTAT	0x12

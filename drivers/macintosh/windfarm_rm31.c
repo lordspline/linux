@@ -5,12 +5,12 @@
  *
  * Copyright (C) 2012 Benjamin Herrenschmidt, IBM Corp.
  */
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
 
 #include <asm/smu.h>
 

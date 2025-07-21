@@ -39,8 +39,8 @@
 #include "node.h"
 #include "net.h"
 #include <net/genetlink.h>
-#include <linux/string_helpers.h>
-#include <linux/tipc_config.h>
+#include <robux/string_helpers.h>
+#include <robux/tipc_config.h>
 
 /* The legacy API had an artificial message length limit called
  * ULTRA_STRING_MAX_LEN.

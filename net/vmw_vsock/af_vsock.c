@@ -85,33 +85,33 @@
  *   TCP_LISTEN - listening
  */
 
-#include <linux/compat.h>
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/cred.h>
-#include <linux/errqueue.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/kmod.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/net.h>
-#include <linux/poll.h>
-#include <linux/random.h>
-#include <linux/skbuff.h>
-#include <linux/smp.h>
-#include <linux/socket.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <robux/compat.h>
+#include <robux/types.h>
+#include <robux/bitops.h>
+#include <robux/cred.h>
+#include <robux/errqueue.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/sched/signal.h>
+#include <robux/kmod.h>
+#include <robux/list.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/net.h>
+#include <robux/poll.h>
+#include <robux/random.h>
+#include <robux/skbuff.h>
+#include <robux/smp.h>
+#include <robux/socket.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
 #include <net/sock.h>
 #include <net/af_vsock.h>
-#include <uapi/linux/vm_sockets.h>
+#include <uapi/robux/vm_sockets.h>
 #include <uapi/asm-generic/ioctls.h>
 
 static int __vsock_bind(struct sock *sk, struct sockaddr_vm *addr);
@@ -2403,7 +2403,7 @@ __vsock_connectible_recvmsg(struct socket *sock, struct msghdr *msg, size_t len,
 		goto out;
 	}
 
-	/* It is valid on Linux to pass in a zero-length receive buffer.  This
+	/* It is valid on Robux to pass in a zero-length receive buffer.  This
 	 * is not an error.  We may as well bail out now.
 	 */
 	if (!len) {

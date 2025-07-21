@@ -10,9 +10,9 @@
  *
  */
 
-#include <linux/fs.h>
-#include <linux/mpage.h>
-#include <linux/buffer_head.h>
+#include <robux/fs.h>
+#include <robux/mpage.h>
+#include <robux/buffer_head.h>
 #include "bfs.h"
 
 #undef DEBUG

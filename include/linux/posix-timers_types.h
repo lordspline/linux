@@ -2,9 +2,9 @@
 #ifndef _linux_POSIX_TIMERS_TYPES_H
 #define _linux_POSIX_TIMERS_TYPES_H
 
-#include <linux/mutex_types.h>
-#include <linux/timerqueue_types.h>
-#include <linux/types.h>
+#include <robux/mutex_types.h>
+#include <robux/timerqueue_types.h>
+#include <robux/types.h>
 
 /*
  * Bit fields within a clockid:

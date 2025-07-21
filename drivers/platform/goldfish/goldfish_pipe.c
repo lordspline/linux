@@ -47,21 +47,21 @@
  * exchange is properly mapped during a transfer.
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/miscdevice.h>
-#include <linux/platform_device.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/dma-mapping.h>
-#include <linux/mm.h>
-#include <linux/bug.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/miscdevice.h>
+#include <robux/platform_device.h>
+#include <robux/poll.h>
+#include <robux/sched.h>
+#include <robux/bitops.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/dma-mapping.h>
+#include <robux/mm.h>
+#include <robux/bug.h>
 #include "goldfish_pipe_qemu.h"
 
 /*

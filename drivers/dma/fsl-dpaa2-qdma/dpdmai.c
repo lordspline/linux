@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright 2019 NXP
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/io.h>
-#include <linux/fsl/mc.h>
+#include <robux/bitfield.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/io.h>
+#include <robux/fsl/mc.h>
 #include "dpdmai.h"
 
 #define DEST_TYPE_MASK 0xF

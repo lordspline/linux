@@ -6,14 +6,14 @@
  *
  * Intercept io operations by trapping.
  */
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/bitops.h>
-#include <linux/vmalloc.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/bitops.h>
+#include <robux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/init.h>
 #include <asm/mmu_context.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/io.h>
 #include <asm/io_trapped.h>
 

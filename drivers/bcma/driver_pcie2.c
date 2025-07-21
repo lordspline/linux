@@ -9,8 +9,8 @@
  */
 
 #include "bcma_private.h"
-#include <linux/bcma/bcma.h>
-#include <linux/pci.h>
+#include <robux/bcma/bcma.h>
+#include <robux/pci.h>
 
 /**************************************************
  * R/W ops.

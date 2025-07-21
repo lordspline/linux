@@ -3,12 +3,12 @@
 #ifndef _LINUX_OBJPOOL_H
 #define _LINUX_OBJPOOL_H
 
-#include <linux/types.h>
-#include <linux/refcount.h>
-#include <linux/atomic.h>
-#include <linux/cpumask.h>
-#include <linux/irqflags.h>
-#include <linux/smp.h>
+#include <robux/types.h>
+#include <robux/refcount.h>
+#include <robux/atomic.h>
+#include <robux/cpumask.h>
+#include <robux/irqflags.h>
+#include <robux/smp.h>
 
 /*
  * objpool: ring-array based lockless MPMC queue

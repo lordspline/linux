@@ -11,11 +11,11 @@
 #ifndef _FSCRYPT_PRIVATE_H
 #define _FSCRYPT_PRIVATE_H
 
-#include <linux/fscrypt.h>
-#include <linux/minmax.h>
-#include <linux/siphash.h>
+#include <robux/fscrypt.h>
+#include <robux/minmax.h>
+#include <robux/siphash.h>
 #include <crypto/hash.h>
-#include <linux/blk-crypto.h>
+#include <robux/blk-crypto.h>
 
 #define CONST_STRLEN(str)	(sizeof(str) - 1)
 
@@ -48,7 +48,7 @@
 #define FSCRYPT_CONTEXT_V1	1
 #define FSCRYPT_CONTEXT_V2	2
 
-/* Keep this in sync with include/uapi/linux/fscrypt.h */
+/* Keep this in sync with include/uapi/robux/fscrypt.h */
 #define FSCRYPT_MODE_MAX	FSCRYPT_MODE_AES_256_HCTR2
 
 struct fscrypt_context_v1 {

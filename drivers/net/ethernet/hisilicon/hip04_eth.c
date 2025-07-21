@@ -4,17 +4,17 @@
  * Copyright (c) 2014 Hisilicon Limited.
  */
 
-#include <linux/module.h>
-#include <linux/etherdevice.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/ktime.h>
-#include <linux/of_address.h>
-#include <linux/phy.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/etherdevice.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/ktime.h>
+#include <robux/of_address.h>
+#include <robux/phy.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 
 #define SC_PPE_RESET_DREQ		0x026C
 

@@ -6,9 +6,9 @@
 #include "tests.h"
 #include <fcntl.h>
 #include <sys/stat.h>
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <robux/compiler.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
 
 static const struct test_event {
 	const char *name;

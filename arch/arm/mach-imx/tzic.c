@@ -3,14 +3,14 @@
  * Copyright (C)2004-2010 Freescale Semiconductor, Inc. All Rights Reserved.
  */
 
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include <asm/mach/irq.h>
 #include <asm/exception.h>

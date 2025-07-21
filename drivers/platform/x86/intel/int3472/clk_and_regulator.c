@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Author: Dan Scally <djrscally@gmail.com> */
 
-#include <linux/acpi.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_data/x86/int3472.h>
-#include <linux/regulator/driver.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/platform_data/x86/int3472.h>
+#include <robux/regulator/driver.h>
+#include <robux/slab.h>
 
 /*
  * 82c0d13a-78c5-4244-9bb1-eb8b539a8d11

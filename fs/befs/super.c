@@ -7,7 +7,7 @@
  *
  */
 
-#include <linux/fs.h>
+#include <robux/fs.h>
 #include <asm/page.h> /* for PAGE_SIZE */
 
 #include "befs.h"

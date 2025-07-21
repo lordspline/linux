@@ -22,9 +22,9 @@
 #include <scsi/scsi.h>
 #include <scsi/scsi_eh.h>
 #include <scsi/scsi_dh.h>
-#include <linux/workqueue.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/workqueue.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 
 #define RDAC_NAME "rdac"
 #define RDAC_RETRY_COUNT 5
@@ -34,7 +34,7 @@
  *
  * These struct definitions and the forming of the
  * mode page were taken from the LSI RDAC 2.4 GPL'd
- * driver, and then converted to Linux conventions.
+ * driver, and then converted to Robux conventions.
  */
 #define RDAC_QUIESCENCE_TIME 20
 /*

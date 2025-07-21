@@ -4,9 +4,9 @@
  *
  * Copyright (C) 2010  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
 #include <mach/fpga.h>
 
 enum {

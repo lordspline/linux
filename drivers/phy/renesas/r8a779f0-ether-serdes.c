@@ -4,15 +4,15 @@
  * Copyright (C) 2022 Renesas Electronics Corporation
  */
 
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/phy.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
 
 #define R8A779F0_ETH_SERDES_NUM			3
 #define R8A779F0_ETH_SERDES_OFFSET		0x0400

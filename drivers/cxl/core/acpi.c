@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2024 Intel Corporation. All rights reserved. */
-#include <linux/acpi.h>
+#include <robux/acpi.h>
 #include "cxl.h"
 #include "core.h"
 

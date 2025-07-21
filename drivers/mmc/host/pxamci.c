@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/mmc/host/pxa.c - PXA MMCI driver
+ *  robux/drivers/mmc/host/pxa.c - PXA MMCI driver
  *
  *  Copyright (C) 2003 Russell King, All Rights Reserved.
  *
@@ -13,28 +13,28 @@
  *	1 and 3 byte data transfers not supported
  *	max block length up to 1023
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/io.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gfp.h>
-#include <linux/of.h>
-#include <linux/soc/pxa/cpu.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/slot-gpio.h>
+#include <robux/io.h>
+#include <robux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gfp.h>
+#include <robux/of.h>
+#include <robux/soc/pxa/cpu.h>
 
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 
-#include <linux/platform_data/mmc-pxamci.h>
+#include <robux/platform_data/mmc-pxamci.h>
 
 #include "pxamci.h"
 

@@ -3,13 +3,13 @@
  * Copyright (C) 2016 Cavium, Inc.
  */
 
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
-#include <linux/printk.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/pci.h>
+#include <robux/printk.h>
 
 #include "cptpf.h"
 

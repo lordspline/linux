@@ -5,13 +5,13 @@
  * Copyright (C) 2011 Texas Instruments
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/ip.h>
-#include <linux/firmware.h>
-#include <linux/etherdevice.h>
-#include <linux/irq.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/ip.h>
+#include <robux/firmware.h>
+#include <robux/etherdevice.h>
+#include <robux/irq.h>
 
 #include "../wlcore/wlcore.h"
 #include "../wlcore/debug.h"

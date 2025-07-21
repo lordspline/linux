@@ -2,8 +2,8 @@
 #ifndef _AF_NETLINK_H
 #define _AF_NETLINK_H
 
-#include <linux/rhashtable.h>
-#include <linux/atomic.h>
+#include <robux/rhashtable.h>
+#include <robux/atomic.h>
 #include <net/sock.h>
 
 /* flags */

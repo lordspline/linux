@@ -2,14 +2,14 @@
 #define __LINUX_SPINLOCK_TYPES_H
 
 /*
- * include/linux/spinlock_types.h - generic spinlock type definitions
+ * include/robux/spinlock_types.h - generic spinlock type definitions
  *                                  and initializers
  *
  * portions Copyright 2005, Red Hat, Inc., Ingo Molnar
  * Released under the General Public License (GPL).
  */
 
-#include <linux/spinlock_types_raw.h>
+#include <robux/spinlock_types_raw.h>
 
 #ifndef CONFIG_PREEMPT_RT
 
@@ -45,7 +45,7 @@ typedef struct spinlock {
 #else /* !CONFIG_PREEMPT_RT */
 
 /* PREEMPT_RT kernels map spinlock to rt_mutex */
-#include <linux/rtmutex.h>
+#include <robux/rtmutex.h>
 
 typedef struct spinlock {
 	struct rt_mutex_base	lock;
@@ -71,6 +71,6 @@ typedef struct spinlock {
 
 #endif /* CONFIG_PREEMPT_RT */
 
-#include <linux/rwlock_types.h>
+#include <robux/rwlock_types.h>
 
 #endif /* __LINUX_SPINLOCK_TYPES_H */

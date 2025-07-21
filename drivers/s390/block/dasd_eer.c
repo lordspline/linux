@@ -7,20 +7,20 @@
  *  Author(s): Stefan Weinhuber <wein@de.ibm.com>
  */
 
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/poll.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/device.h>
+#include <robux/poll.h>
+#include <robux/mutex.h>
+#include <robux/err.h>
+#include <robux/slab.h>
 
-#include <linux/uaccess.h>
-#include <linux/atomic.h>
+#include <robux/uaccess.h>
+#include <robux/atomic.h>
 #include <asm/ebcdic.h>
 
 #include "dasd_int.h"

@@ -8,8 +8,8 @@
  * Copyright (C) 2016 Cadence Design Systems Inc.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
 
 #include <asm/traps.h>
 

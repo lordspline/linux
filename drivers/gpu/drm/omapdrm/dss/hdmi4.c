@@ -9,21 +9,21 @@
 
 #define DSS_SUBSYS_NAME "HDMI"
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/clk.h>
-#include <linux/regulator/consumer.h>
-#include <linux/component.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
+#include <robux/string.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/regulator/consumer.h>
+#include <robux/component.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
 #include <sound/omap-hdmi-audio.h>
 #include <media/cec.h>
 

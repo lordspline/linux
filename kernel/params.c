@@ -3,18 +3,18 @@
  * Helpers for initial module or kernel cmdline parsing
  * Copyright (C) 2001 Rusty Russell.
  */
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/overflow.h>
-#include <linux/security.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/ctype.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/kstrtox.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/overflow.h>
+#include <robux/security.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 #ifdef CONFIG_SYSFS
 /* Protects all built-in parameters, modules use their own param_lock */

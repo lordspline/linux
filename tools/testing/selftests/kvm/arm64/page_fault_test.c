@@ -7,13 +7,13 @@
  * hugetlbfs with a hole). It checks that the expected handling method is
  * called (e.g., uffd faults with the right address and write/read flag).
  */
-#include <linux/bitmap.h>
+#include <robux/bitmap.h>
 #include <fcntl.h>
 #include <test_util.h>
 #include <kvm_util.h>
 #include <processor.h>
 #include <asm/sysreg.h>
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 #include "guest_modes.h"
 #include "userfaultfd_util.h"
 

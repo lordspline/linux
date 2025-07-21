@@ -6,17 +6,17 @@
  *                <alexander.stein@systec-electronic.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/spinlock.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/watchdog.h>
+#include <robux/seq_file.h>
+#include <robux/debugfs.h>
+#include <robux/uaccess.h>
+#include <robux/spinlock.h>
 
 #define DRIVER_NAME "ie6xx_wdt"
 

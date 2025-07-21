@@ -13,17 +13,17 @@
 //	Yuning Pu <yuning.pu@intel.com>
 //	Rajmohan Mani <rajmohan.mani@intel.com>
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mfd/tps68470.h>
-#include <linux/module.h>
-#include <linux/platform_data/tps68470.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/mfd/tps68470.h>
+#include <robux/module.h>
+#include <robux/platform_data/tps68470.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
 
 struct tps68470_regulator_data {
 	struct clk *clk;

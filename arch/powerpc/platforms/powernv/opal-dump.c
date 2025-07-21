@@ -5,13 +5,13 @@
  * Copyright 2013,2014 IBM Corp.
  */
 
-#include <linux/kobject.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/pagemap.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
+#include <robux/kobject.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/pagemap.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
 
 #include <asm/opal.h>
 

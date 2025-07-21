@@ -14,21 +14,21 @@
  * Copyright 1999 Gregory P. Smith
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/hrtimer.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/usb/ohci_pdriver.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/of.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/hrtimer.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/usb/ohci_pdriver.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/of.h>
 
 #include "ohci.h"
 

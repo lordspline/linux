@@ -10,14 +10,14 @@
  *  Copyright (C) 2006  Paul Mundt
  *  Copyright (C) 2006  Jamie Lenehan
  */
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/io.h>
-#include <linux/serial_sci.h>
-#include <linux/sh_timer.h>
-#include <linux/sh_intc.h>
-#include <linux/usb/ohci_pdriver.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/serial.h>
+#include <robux/io.h>
+#include <robux/serial_sci.h>
+#include <robux/sh_timer.h>
+#include <robux/sh_intc.h>
+#include <robux/usb/ohci_pdriver.h>
 #include <asm/rtc.h>
 #include <asm/platform_early.h>
 #include <cpu/serial.h>

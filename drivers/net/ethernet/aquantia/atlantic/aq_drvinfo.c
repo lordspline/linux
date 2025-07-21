@@ -7,13 +7,13 @@
 
 /* File aq_drvinfo.c: Definition of common code for firmware info in sys.*/
 
-#include <linux/init.h>
-#include <linux/kobject.h>
-#include <linux/module.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/hwmon.h>
-#include <linux/uaccess.h>
+#include <robux/init.h>
+#include <robux/kobject.h>
+#include <robux/module.h>
+#include <robux/stat.h>
+#include <robux/string.h>
+#include <robux/hwmon.h>
+#include <robux/uaccess.h>
 
 #include "aq_drvinfo.h"
 #include "aq_nic.h"

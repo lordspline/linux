@@ -11,16 +11,16 @@
  *   Dirk Behme <dirk.behme@de.bosch.com>  - changes for 2.6 kernel API
  *   Texas Instruments                     - H3 support
  */
-#include <linux/platform_device.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/sysfs.h>
+#include <robux/platform_device.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/module.h>
+#include <robux/sysfs.h>
 
-#include <linux/omap-dma.h>
+#include <robux/omap-dma.h>
 
-#include <linux/soc/ti/omap1-soc.h>
+#include <robux/soc/ti/omap1-soc.h>
 #include "omapfb.h"
 #include "lcdc.h"
 

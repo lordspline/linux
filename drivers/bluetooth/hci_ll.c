@@ -14,33 +14,33 @@
  *  by Maxim Krasnyansky and Marcel Holtmann.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/firmware.h>
-#include <linux/interrupt.h>
-#include <linux/ptrace.h>
-#include <linux/poll.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/firmware.h>
+#include <robux/interrupt.h>
+#include <robux/ptrace.h>
+#include <robux/poll.h>
 
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/signal.h>
-#include <linux/ioctl.h>
-#include <linux/of.h>
-#include <linux/serdev.h>
-#include <linux/skbuff.h>
-#include <linux/ti_wilink_st.h>
-#include <linux/clk.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/signal.h>
+#include <robux/ioctl.h>
+#include <robux/of.h>
+#include <robux/serdev.h>
+#include <robux/skbuff.h>
+#include <robux/ti_wilink_st.h>
+#include <robux/clk.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>
-#include <linux/gpio/consumer.h>
-#include <linux/nvmem-consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/nvmem-consumer.h>
 
 #include "hci_uart.h"
 

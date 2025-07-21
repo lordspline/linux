@@ -9,7 +9,7 @@
 #include "subvolume.h"
 #include "xattr.h"
 
-#include <linux/posix_acl.h>
+#include <robux/posix_acl.h>
 
 static inline subvol_inum parent_inum(subvol_inum inum, struct bch_inode_unpacked *inode)
 {

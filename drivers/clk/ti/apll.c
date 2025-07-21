@@ -7,18 +7,18 @@
  * J Keerthy <j-keerthy@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/log2.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/clk/ti.h>
-#include <linux/delay.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/string.h>
+#include <robux/log2.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/clk/ti.h>
+#include <robux/delay.h>
 
 #include "clock.h"
 

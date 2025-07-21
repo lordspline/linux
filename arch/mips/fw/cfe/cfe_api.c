@@ -13,9 +13,9 @@
  *
  * Authors:  Mitch Lichtenberg, Chris Demetriou
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/printk.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/printk.h>
 #include <asm/mipsregs.h>
 #include <asm/fw/cfe/cfe_api.h>
 #include "cfe_api_int.h"

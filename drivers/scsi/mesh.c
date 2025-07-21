@@ -19,19 +19,19 @@
  * - retry arbitration if lost (unless higher levels do this for us)
  * - power down the chip when no device is detected
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/blkdev.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/interrupt.h>
-#include <linux/reboot.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/pgtable.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/blkdev.h>
+#include <robux/proc_fs.h>
+#include <robux/stat.h>
+#include <robux/interrupt.h>
+#include <robux/reboot.h>
+#include <robux/spinlock.h>
+#include <robux/pci.h>
+#include <robux/pgtable.h>
 #include <asm/dbdma.h>
 #include <asm/io.h>
 #include <asm/prom.h>

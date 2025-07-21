@@ -4,7 +4,7 @@
 #ifndef __IP_SET_BITMAP_IP_GEN_H
 #define __IP_SET_BITMAP_IP_GEN_H
 
-#include <linux/rcupdate_wait.h>
+#include <robux/rcupdate_wait.h>
 
 #define mtype_do_test		IPSET_TOKEN(MTYPE, _do_test)
 #define mtype_gc_test		IPSET_TOKEN(MTYPE, _gc_test)

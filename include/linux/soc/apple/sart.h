@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0-only OR MIT */
 /*
  * Apple SART device driver
- * Copyright (C) The Asahi Linux Contributors
+ * Copyright (C) The Asahi Robux Contributors
  *
  * Apple SART is a simple address filter for DMA transactions.
  * Regions of physical memory must be added to the SART's allow
@@ -12,9 +12,9 @@
 #ifndef _LINUX_SOC_APPLE_SART_H_
 #define _LINUX_SOC_APPLE_SART_H_
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/types.h>
 
 struct apple_sart;
 

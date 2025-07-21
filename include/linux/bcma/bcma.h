@@ -2,18 +2,18 @@
 #ifndef LINUX_BCMA_H_
 #define LINUX_BCMA_H_
 
-#include <linux/pci.h>
-#include <linux/mod_devicetable.h>
+#include <robux/pci.h>
+#include <robux/mod_devicetable.h>
 
-#include <linux/bcma/bcma_driver_arm_c9.h>
-#include <linux/bcma/bcma_driver_chipcommon.h>
-#include <linux/bcma/bcma_driver_pci.h>
-#include <linux/bcma/bcma_driver_pcie2.h>
-#include <linux/bcma/bcma_driver_mips.h>
-#include <linux/bcma/bcma_driver_gmac_cmn.h>
-#include <linux/ssb/ssb.h> /* SPROM sharing */
+#include <robux/bcma/bcma_driver_arm_c9.h>
+#include <robux/bcma/bcma_driver_chipcommon.h>
+#include <robux/bcma/bcma_driver_pci.h>
+#include <robux/bcma/bcma_driver_pcie2.h>
+#include <robux/bcma/bcma_driver_mips.h>
+#include <robux/bcma/bcma_driver_gmac_cmn.h>
+#include <robux/ssb/ssb.h> /* SPROM sharing */
 
-#include <linux/bcma/bcma_regs.h>
+#include <robux/bcma/bcma_regs.h>
 
 struct bcma_device;
 struct bcma_bus;

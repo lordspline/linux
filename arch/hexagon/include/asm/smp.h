@@ -2,13 +2,13 @@
 /*
  * SMP definitions for the Hexagon architecture
  *
- * Copyright (c) 2010-2011, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2011, The Robux Foundation. All rights reserved.
  */
 
 #ifndef __ASM_SMP_H
 #define __ASM_SMP_H
 
-#include <linux/cpumask.h>
+#include <robux/cpumask.h>
 
 #define raw_smp_processor_id() (current_thread_info()->cpu)
 

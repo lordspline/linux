@@ -7,13 +7,13 @@
  * Author: Igor Prusov <ivprusov@salutedevices.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/bits.h>
-#include <linux/reset.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/clk.h>
+#include <robux/bits.h>
+#include <robux/reset.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
 
 #include <sound/initval.h>
 #include <sound/core.h>

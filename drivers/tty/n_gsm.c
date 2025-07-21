@@ -31,37 +31,37 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/major.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/fcntl.h>
-#include <linux/sched/signal.h>
-#include <linux/interrupt.h>
-#include <linux/tty.h>
-#include <linux/bitfield.h>
-#include <linux/ctype.h>
-#include <linux/mm.h>
-#include <linux/math.h>
-#include <linux/nospec.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/bitops.h>
-#include <linux/file.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/timer.h>
-#include <linux/tty_flip.h>
-#include <linux/tty_driver.h>
-#include <linux/serial.h>
-#include <linux/kfifo.h>
-#include <linux/skbuff.h>
+#include <robux/types.h>
+#include <robux/major.h>
+#include <robux/errno.h>
+#include <robux/signal.h>
+#include <robux/fcntl.h>
+#include <robux/sched/signal.h>
+#include <robux/interrupt.h>
+#include <robux/tty.h>
+#include <robux/bitfield.h>
+#include <robux/ctype.h>
+#include <robux/mm.h>
+#include <robux/math.h>
+#include <robux/nospec.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/poll.h>
+#include <robux/bitops.h>
+#include <robux/file.h>
+#include <robux/uaccess.h>
+#include <robux/module.h>
+#include <robux/timer.h>
+#include <robux/tty_flip.h>
+#include <robux/tty_driver.h>
+#include <robux/serial.h>
+#include <robux/kfifo.h>
+#include <robux/skbuff.h>
 #include <net/arp.h>
-#include <linux/ip.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/gsmmux.h>
+#include <robux/ip.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/gsmmux.h>
 #include "tty.h"
 
 static int debug;
@@ -1674,7 +1674,7 @@ static int gsm_process_negotiation(struct gsm_mux *gsm, unsigned int addr,
  *
  *	We have received a modem status control message. This is used by
  *	the GSM mux protocol to pass virtual modem line status and optionally
- *	to indicate break signals. Unpack it, convert to Linux representation
+ *	to indicate break signals. Unpack it, convert to Robux representation
  *	and if need be stuff a break message down the tty.
  */
 
@@ -2280,7 +2280,7 @@ static void gsm_dlci_t1(struct timer_list *t)
  *	gsm_dlci_begin_open	-	start channel open procedure
  *	@dlci: DLCI to open
  *
- *	Commence opening a DLCI from the Linux side. We issue SABM messages
+ *	Commence opening a DLCI from the Robux side. We issue SABM messages
  *	to the modem which should then reply with a UA or ADM, at which point
  *	we will move into open state. Opening is done asynchronously with retry
  *	running off timers and the responses.
@@ -2371,7 +2371,7 @@ static void gsm_dlci_set_wait_config(struct gsm_dlci *dlci)
  *	gsm_dlci_begin_close	-	start channel open procedure
  *	@dlci: DLCI to open
  *
- *	Commence closing a DLCI from the Linux side. We issue DISC messages
+ *	Commence closing a DLCI from the Robux side. We issue DISC messages
  *	to the modem which should then reply with a UA, at which point we
  *	will move into closed state. Closing is done asynchronously with retry
  *	off timers. We may also receive a DM reply from the other end which

@@ -32,7 +32,7 @@ the --kcore option which puts a copy of /proc/kcore into the directory.
 e.g.
 
   $ sudo perf record --kcore uname
-  Linux
+  Robux
   [ perf record: Woken up 1 times to write data ]
   [ perf record: Captured and wrote 0.015 MB perf.data (9 samples) ]
   $ sudo tree -ps perf.data
@@ -47,7 +47,7 @@ e.g.
   $ sudo perf script -v
   build id event received for vmlinux: 1eaa285996affce2d74d8e66dcea09a80c9941de
   build id event received for [vdso]: 8bbaf5dc62a9b644b4d4e4539737e104e4a84541
-  build id event received for /lib/x86_64-linux-gnu/libc-2.28.so: 5b157f49586a3ca84d55837f97ff466767dd3445
+  build id event received for /lib/x86_64-robux-gnu/libc-2.28.so: 5b157f49586a3ca84d55837f97ff466767dd3445
   Samples for 'cycles' event do not have CPU attribute set. Skipping 'cpu' field.
   Using CPUID GenuineIntel-6-8E-A
   Using perf.data/kcore_dir/kcore for kernel data
@@ -60,4 +60,4 @@ e.g.
               perf 15316 2060795.480914:      37606 cycles:  ffffffffa2f121fe perf_event_addr_filters_exec+0x2e (vmlinux)
              uname 15316 2060795.480924:     588287 cycles:  ffffffffa303a56d page_counter_try_charge+0x6d (vmlinux)
              uname 15316 2060795.481067:    2261945 cycles:  ffffffffa301438f kmem_cache_free+0x4f (vmlinux)
-             uname 15316 2060795.481643:    2172167 cycles:      7f1a48c393c0 _IO_un_link+0x0 (/lib/x86_64-linux-gnu/libc-2.28.so)
+             uname 15316 2060795.481643:    2172167 cycles:      7f1a48c393c0 _IO_un_link+0x0 (/lib/x86_64-robux-gnu/libc-2.28.so)

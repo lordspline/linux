@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: (GPL-2.0 WITH Linux-syscall-note) OR MIT */
+/* SPDX-License-Identifier: (GPL-2.0 WITH Robux-syscall-note) OR MIT */
 /*
  * Header file for the io_uring interface.
  *
@@ -8,16 +8,16 @@
 #ifndef LINUX_IO_URING_H
 #define LINUX_IO_URING_H
 
-#include <linux/fs.h>
-#include <linux/types.h>
+#include <robux/fs.h>
+#include <robux/types.h>
 /*
  * this file is shared with liburing and that has to autodetect
- * if linux/time_types.h is available or not, it can
+ * if robux/time_types.h is available or not, it can
  * define UAPI_LINUX_IO_URING_H_SKIP_LINUX_TIME_TYPES_H
- * if linux/time_types.h is not available
+ * if robux/time_types.h is not available
  */
 #ifndef UAPI_LINUX_IO_URING_H_SKIP_LINUX_TIME_TYPES_H
-#include <linux/time_types.h>
+#include <robux/time_types.h>
 #endif
 
 #ifdef __cplusplus

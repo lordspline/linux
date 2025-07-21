@@ -2,8 +2,8 @@
 /*
  */
 
-#include <linux/init.h>
-#include <linux/usb.h>
+#include <robux/init.h>
+#include <robux/usb.h>
 
 #include <sound/core.h>
 #include <sound/info.h>

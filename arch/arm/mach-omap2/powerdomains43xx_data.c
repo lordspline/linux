@@ -5,8 +5,8 @@
  * Copyright (C) 2013 Texas Instruments, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
 
 #include "powerdomain.h"
 

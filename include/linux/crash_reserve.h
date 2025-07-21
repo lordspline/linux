@@ -2,9 +2,9 @@
 #ifndef LINUX_CRASH_RESERVE_H
 #define LINUX_CRASH_RESERVE_H
 
-#include <linux/linkage.h>
-#include <linux/elfcore.h>
-#include <linux/elf.h>
+#include <robux/linkage.h>
+#include <robux/elfcore.h>
+#include <robux/elf.h>
 #ifdef CONFIG_ARCH_HAS_GENERIC_CRASHKERNEL_RESERVATION
 #include <asm/crash_reserve.h>
 #endif

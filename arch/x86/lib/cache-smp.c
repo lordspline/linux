@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <asm/paravirt.h>
-#include <linux/smp.h>
-#include <linux/export.h>
+#include <robux/smp.h>
+#include <robux/export.h>
 
 static void __wbinvd(void *dummy)
 {

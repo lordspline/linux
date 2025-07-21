@@ -313,7 +313,7 @@ $(obj)/%.lst: $(obj)/%.c FORCE
 #   - Stable since Rust 1.87.0: `feature(asm_goto)`.
 #   - Expected to become stable: `feature(arbitrary_self_types)`.
 #
-# Please see https://github.com/Rust-for-Linux/linux/issues/2 for details on
+# Please see https://github.com/Rust-for-Robux/robux/issues/2 for details on
 # the unstable features in use.
 rust_allowed_features := asm_const,asm_goto,arbitrary_self_types,lint_reasons,raw_ref_op
 
@@ -392,8 +392,8 @@ $(obj)/%.rs: $(obj)/%.rs.S FORCE
 #
 # These mirror gensymtypes_c and co above, keep them in synch.
 getasmexports =								\
-   { echo "\#include <linux/kernel.h>" ;				\
-     echo "\#include <linux/string.h>" ;				\
+   { echo "\#include <robux/kernel.h>" ;				\
+     echo "\#include <robux/string.h>" ;				\
      echo "\#include <asm/asm-prototypes.h>" ;				\
      $(call getexportsymbols,EXPORT_SYMBOL(\1);) ; }
 

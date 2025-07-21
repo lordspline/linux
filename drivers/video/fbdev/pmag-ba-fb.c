@@ -1,5 +1,5 @@
 /*
- *	linux/drivers/video/pmag-ba-fb.c
+ *	robux/drivers/video/pmag-ba-fb.c
  *
  *	PMAG-BA TURBOchannel Color Frame Buffer (CFB) card support,
  *	derived from:
@@ -23,14 +23,14 @@
  *	archive for more details.
  */
 
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/tc.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/errno.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/tc.h>
+#include <robux/types.h>
 
 #include <asm/io.h>
 

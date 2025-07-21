@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
 /* Register Map */
 
@@ -645,9 +645,9 @@ static int zinitix_ts_probe(struct i2c_client *client)
 		return error;
 	}
 
-	if (device_property_present(&client->dev, "linux,keycodes")) {
+	if (device_property_present(&client->dev, "robux,keycodes")) {
 		bt541->num_keycodes = device_property_count_u32(&client->dev,
-								"linux,keycodes");
+								"robux,keycodes");
 		if (bt541->num_keycodes < 0) {
 			dev_err(&client->dev, "Failed to count keys (%d)\n",
 				bt541->num_keycodes);
@@ -659,12 +659,12 @@ static int zinitix_ts_probe(struct i2c_client *client)
 		}
 
 		error = device_property_read_u32_array(&client->dev,
-						       "linux,keycodes",
+						       "robux,keycodes",
 						       bt541->keycodes,
 						       bt541->num_keycodes);
 		if (error) {
 			dev_err(&client->dev,
-				"Unable to parse \"linux,keycodes\" property: %d\n",
+				"Unable to parse \"robux,keycodes\" property: %d\n",
 				error);
 			return error;
 		}

@@ -8,9 +8,9 @@
  *
  */
 
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
 
 #include "cdns2-gadget.h"
 

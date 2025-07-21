@@ -9,7 +9,7 @@
 #ifndef _REGS_MFC_V12_H
 #define _REGS_MFC_V12_H
 
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 #include "regs-mfc-v10.h"
 
 /* MFCv12 Context buffer sizes */

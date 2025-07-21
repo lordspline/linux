@@ -5,15 +5,15 @@
 // Copyright (C) 2020 Renesas Electronics Corp.
 // Copyright (C) 2020 Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
 //
-// based on ${LINUX}/sound/soc/generic/audio-graph-card.c
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
+// based on ${ROBUX}/sound/soc/generic/audio-graph-card.c
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
 #include <sound/graph_card.h>
 
 /************************************
@@ -50,11 +50,11 @@
 	snd_soc_runtime_get_dai_fmt()
 
 	sample driver
-		linux/sound/soc/renesas/rcar/core.c
-		linux/sound/soc/codecs/ak4613.c
-		linux/sound/soc/codecs/pcm3168a.c
-		linux/sound/soc/soc-utils.c
-		linux/sound/soc/generic/test-component.c
+		robux/sound/soc/renesas/rcar/core.c
+		robux/sound/soc/codecs/ak4613.c
+		robux/sound/soc/codecs/pcm3168a.c
+		robux/sound/soc/soc-utils.c
+		robux/sound/soc/generic/test-component.c
 
  ************************************
 	Normal Audio-Graph

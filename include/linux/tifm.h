@@ -8,11 +8,11 @@
 #ifndef _TIFM_H
 #define _TIFM_H
 
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/workqueue.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/workqueue.h>
 
 /* Host registers (relative to pci base address): */
 enum {

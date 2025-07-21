@@ -3,10 +3,10 @@
 #define __ASM_POWERPC_SYSCALLS_H
 #ifdef __KERNEL__
 
-#include <linux/compiler.h>
-#include <linux/linkage.h>
-#include <linux/types.h>
-#include <linux/compat.h>
+#include <robux/compiler.h>
+#include <robux/linkage.h>
+#include <robux/types.h>
+#include <robux/compat.h>
 
 #include <asm/syscall.h>
 #ifdef CONFIG_PPC64

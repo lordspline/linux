@@ -6,18 +6,18 @@
  * Copyright (c) 2006-2009, Intel Corporation
  */
 
-#include <linux/init_task.h>
-#include <linux/spinlock.h>
-#include <linux/export.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/dmar.h>
-#include <linux/cpu.h>
-#include <linux/pfn.h>
-#include <linux/mm.h>
-#include <linux/tboot.h>
-#include <linux/debugfs.h>
+#include <robux/init_task.h>
+#include <robux/spinlock.h>
+#include <robux/export.h>
+#include <robux/delay.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/dmar.h>
+#include <robux/cpu.h>
+#include <robux/pfn.h>
+#include <robux/mm.h>
+#include <robux/tboot.h>
+#include <robux/debugfs.h>
 
 #include <asm/realmode.h>
 #include <asm/processor.h>

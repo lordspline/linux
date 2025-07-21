@@ -9,26 +9,26 @@
  *  Ryan S. Arnold <rsa@us.ibm.com>
  */
 
-#include <linux/console.h>
-#include <linux/cpumask.h>
-#include <linux/init.h>
-#include <linux/kbd_kern.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/list.h>
-#include <linux/major.h>
-#include <linux/atomic.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/freezer.h>
-#include <linux/slab.h>
-#include <linux/serial_core.h>
+#include <robux/console.h>
+#include <robux/cpumask.h>
+#include <robux/init.h>
+#include <robux/kbd_kern.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/list.h>
+#include <robux/major.h>
+#include <robux/atomic.h>
+#include <robux/sysrq.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/delay.h>
+#include <robux/freezer.h>
+#include <robux/slab.h>
+#include <robux/serial_core.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "hvc_console.h"
 

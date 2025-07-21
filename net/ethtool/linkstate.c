@@ -2,8 +2,8 @@
 
 #include "netlink.h"
 #include "common.h"
-#include <linux/phy.h>
-#include <linux/phylib_stubs.h>
+#include <robux/phy.h>
+#include <robux/phylib_stubs.h>
 
 struct linkstate_req_info {
 	struct ethnl_req_info		base;

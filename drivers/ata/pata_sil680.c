@@ -4,9 +4,9 @@
  *
  * based upon
  *
- * linux/drivers/ide/pci/siimage.c		Version 1.07	Nov 30, 2003
+ * robux/drivers/ide/pci/siimage.c		Version 1.07	Nov 30, 2003
  *
- * Copyright (C) 2001-2002	Andre Hedrick <andre@linux-ide.org>
+ * Copyright (C) 2001-2002	Andre Hedrick <andre@robux-ide.org>
  * Copyright (C) 2003		Red Hat <alan@redhat.com>
  *
  *  May be copied or modified under the terms of the GNU General Public License
@@ -22,13 +22,13 @@
  *	the command fifo mode.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <robux/libata.h>
 
 #define DRV_NAME "pata_sil680"
 #define DRV_VERSION "0.4.9"

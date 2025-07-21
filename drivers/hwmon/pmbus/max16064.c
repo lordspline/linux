@@ -5,11 +5,11 @@
  * Copyright (c) 2011 Ericsson AB.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
 #include "pmbus.h"
 
 #define MAX16064_MFR_VOUT_PEAK		0xd4

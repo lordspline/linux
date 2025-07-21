@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/common/amba.c
+ *  robux/arch/arm/common/amba.c
  *
  *  Copyright (C) 2003 Deep Blue Solutions Ltd, All Rights Reserved.
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
-#include <linux/amba/bus.h>
-#include <linux/sizes.h>
-#include <linux/limits.h>
-#include <linux/clk/clk-conf.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reset.h>
-#include <linux/of_irq.h>
-#include <linux/of_device.h>
-#include <linux/acpi.h>
-#include <linux/iommu.h>
-#include <linux/dma-map-ops.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_domain.h>
+#include <robux/amba/bus.h>
+#include <robux/sizes.h>
+#include <robux/limits.h>
+#include <robux/clk/clk-conf.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/reset.h>
+#include <robux/of_irq.h>
+#include <robux/of_device.h>
+#include <robux/acpi.h>
+#include <robux/iommu.h>
+#include <robux/dma-map-ops.h>
 
 #define to_amba_driver(d)	container_of_const(d, struct amba_driver, drv)
 
@@ -504,7 +504,7 @@ late_initcall_sync(amba_stub_drv_init);
  *	@drv: amba device driver structure
  *	@owner: owning module/driver
  *
- *	Register an AMBA device driver with the Linux device model
+ *	Register an AMBA device driver with the Robux device model
  *	core.  If devices pre-exist, the drivers probe function will
  *	be called.
  */
@@ -525,7 +525,7 @@ EXPORT_SYMBOL(__amba_driver_register);
  *	amba_driver_unregister - remove an AMBA device driver
  *	@drv: AMBA device driver structure to remove
  *
- *	Unregister an AMBA device driver from the Linux device
+ *	Unregister an AMBA device driver from the Robux device
  *	model.  The device model will call the drivers remove function
  *	for each device the device driver is currently handling.
  */
@@ -552,7 +552,7 @@ static void amba_device_release(struct device *dev)
  *	@parent: resource parent for this devices resources
  *
  *	Claim the resource, and read the device cell ID if not already
- *	initialized.  Register the AMBA device with the Linux device
+ *	initialized.  Register the AMBA device with the Robux device
  *	manager.
  */
 int amba_device_add(struct amba_device *dev, struct resource *parent)
@@ -633,7 +633,7 @@ EXPORT_SYMBOL_GPL(amba_device_alloc);
  *
  *	Setup the AMBA device, reading the cell ID if present.
  *	Claim the resource, and register the AMBA device with
- *	the Linux device manager.
+ *	the Robux device manager.
  */
 int amba_device_register(struct amba_device *dev, struct resource *parent)
 {
@@ -658,7 +658,7 @@ EXPORT_SYMBOL_GPL(amba_device_put);
  *	amba_device_unregister - unregister an AMBA device
  *	@dev: AMBA device to remove
  *
- *	Remove the specified AMBA device from the Linux device
+ *	Remove the specified AMBA device from the Robux device
  *	manager.  All files associated with this object will be
  *	destroyed, and device drivers notified that the device has
  *	been removed.  The AMBA device's resources including

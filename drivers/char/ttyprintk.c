@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/char/ttyprintk.c
+ *  robux/drivers/char/ttyprintk.c
  *
  *  Copyright (C) 2010  Samo Pogacnik
  */
@@ -11,12 +11,12 @@
  * of the boot process, for example.
  */
 
-#include <linux/console.h>
-#include <linux/device.h>
-#include <linux/serial.h>
-#include <linux/tty.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
+#include <robux/console.h>
+#include <robux/device.h>
+#include <robux/serial.h>
+#include <robux/tty.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
 
 struct ttyprintk_port {
 	struct tty_port port;

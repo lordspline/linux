@@ -11,10 +11,10 @@
 #ifndef __DVB_USB_H__
 #define __DVB_USB_H__
 
-#include <linux/input.h>
-#include <linux/usb.h>
-#include <linux/firmware.h>
-#include <linux/mutex.h>
+#include <robux/input.h>
+#include <robux/usb.h>
+#include <robux/firmware.h>
+#include <robux/mutex.h>
 #include <media/rc-core.h>
 
 #include <media/dvb_frontend.h>

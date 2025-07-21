@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * handle transition of Linux booting another kernel
+ * handle transition of Robux booting another kernel
  * Copyright (C) 2002-2005 Eric Biederman  <ebiederm@xmission.com>
  */
 
-#include <linux/mm.h>
-#include <linux/kexec.h>
-#include <linux/delay.h>
-#include <linux/numa.h>
-#include <linux/ftrace.h>
-#include <linux/suspend.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
+#include <robux/mm.h>
+#include <robux/kexec.h>
+#include <robux/delay.h>
+#include <robux/numa.h>
+#include <robux/ftrace.h>
+#include <robux/suspend.h>
+#include <robux/gfp.h>
+#include <robux/io.h>
 
 #include <asm/pgalloc.h>
 #include <asm/tlbflush.h>

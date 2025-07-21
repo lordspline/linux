@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * AMD am53c974 driver.
- * Copyright (c) 2014 Hannes Reinecke, SUSE Linux GmbH
+ * Copyright (c) 2014 Hannes Reinecke, SUSE Robux GmbH
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
 
 #include <scsi/scsi_host.h>
 

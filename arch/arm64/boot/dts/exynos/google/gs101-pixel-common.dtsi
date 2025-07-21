@@ -40,21 +40,21 @@
 
 		button-vol-down {
 			label = "KEY_VOLUMEDOWN";
-			linux,code = <KEY_VOLUMEDOWN>;
+			robux,code = <KEY_VOLUMEDOWN>;
 			gpios = <&gpa7 3 GPIO_ACTIVE_LOW>;
 			wakeup-source;
 		};
 
 		button-vol-up {
 			label = "KEY_VOLUMEUP";
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 			gpios = <&gpa8 1 GPIO_ACTIVE_LOW>;
 			wakeup-source;
 		};
 
 		button-power {
 			label = "KEY_POWER";
-			linux,code = <KEY_POWER>;
+			robux,code = <KEY_POWER>;
 			gpios = <&gpa10 1 GPIO_ACTIVE_LOW>;
 			wakeup-source;
 		};

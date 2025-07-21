@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
-#include <linux/pe.h>
+#include <robux/pe.h>
 
 #ifdef CONFIG_64BIT
 	.set		.Lextra_characteristics, 0x0

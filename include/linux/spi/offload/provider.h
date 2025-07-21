@@ -7,9 +7,9 @@
 #ifndef __LINUX_SPI_OFFLOAD_PROVIDER_H
 #define __LINUX_SPI_OFFLOAD_PROVIDER_H
 
-#include <linux/module.h>
-#include <linux/spi/offload/types.h>
-#include <linux/types.h>
+#include <robux/module.h>
+#include <robux/spi/offload/types.h>
+#include <robux/types.h>
 
 MODULE_IMPORT_NS("SPI_OFFLOAD");
 

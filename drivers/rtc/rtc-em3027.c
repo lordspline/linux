@@ -8,11 +8,11 @@
  * Based on rtc-ds1672.c by Alessandro Zummo <a.zummo@towertech.it>
  */
 
-#include <linux/i2c.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/i2c.h>
+#include <robux/rtc.h>
+#include <robux/bcd.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 /* Registers */
 #define EM3027_REG_ON_OFF_CTRL	0x00

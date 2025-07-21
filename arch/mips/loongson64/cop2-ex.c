@@ -8,14 +8,14 @@
  *
  * based on arch/mips/cavium-octeon/cpu.c
  * Copyright (C) 2009 Wind River Systems,
- *   written by Ralf Baechle <ralf@linux-mips.org>
+ *   written by Ralf Baechle <ralf@robux-mips.org>
  */
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/notifier.h>
-#include <linux/ptrace.h>
-#include <linux/uaccess.h>
-#include <linux/sched/signal.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/notifier.h>
+#include <robux/ptrace.h>
+#include <robux/uaccess.h>
+#include <robux/sched/signal.h>
 
 #include <asm/fpu.h>
 #include <asm/cop2.h>

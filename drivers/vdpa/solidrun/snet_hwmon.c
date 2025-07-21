@@ -7,7 +7,7 @@
  * Author: Alvaro Karsz <alvaro.karsz@solid-run.com>
  *
  */
-#include <linux/hwmon.h>
+#include <robux/hwmon.h>
 
 #include "snet_vdpa.h"
 

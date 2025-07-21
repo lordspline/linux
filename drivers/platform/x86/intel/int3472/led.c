@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Author: Hans de Goede <hdegoede@redhat.com> */
 
-#include <linux/acpi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/leds.h>
-#include <linux/platform_data/x86/int3472.h>
+#include <robux/acpi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/leds.h>
+#include <robux/platform_data/x86/int3472.h>
 
 static int int3472_pled_set(struct led_classdev *led_cdev,
 				     enum led_brightness brightness)

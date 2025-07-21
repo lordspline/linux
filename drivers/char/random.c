@@ -25,35 +25,35 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/utsname.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/fcntl.h>
-#include <linux/slab.h>
-#include <linux/random.h>
-#include <linux/poll.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/blkdev.h>
-#include <linux/interrupt.h>
-#include <linux/mm.h>
-#include <linux/nodemask.h>
-#include <linux/spinlock.h>
-#include <linux/kthread.h>
-#include <linux/percpu.h>
-#include <linux/ptrace.h>
-#include <linux/workqueue.h>
-#include <linux/irq.h>
-#include <linux/ratelimit.h>
-#include <linux/syscalls.h>
-#include <linux/completion.h>
-#include <linux/uuid.h>
-#include <linux/uaccess.h>
-#include <linux/suspend.h>
-#include <linux/siphash.h>
-#include <linux/sched/isolation.h>
+#include <robux/utsname.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/major.h>
+#include <robux/string.h>
+#include <robux/fcntl.h>
+#include <robux/slab.h>
+#include <robux/random.h>
+#include <robux/poll.h>
+#include <robux/init.h>
+#include <robux/fs.h>
+#include <robux/blkdev.h>
+#include <robux/interrupt.h>
+#include <robux/mm.h>
+#include <robux/nodemask.h>
+#include <robux/spinlock.h>
+#include <robux/kthread.h>
+#include <robux/percpu.h>
+#include <robux/ptrace.h>
+#include <robux/workqueue.h>
+#include <robux/irq.h>
+#include <robux/ratelimit.h>
+#include <robux/syscalls.h>
+#include <robux/completion.h>
+#include <robux/uuid.h>
+#include <robux/uaccess.h>
+#include <robux/suspend.h>
+#include <robux/siphash.h>
+#include <robux/sched/isolation.h>
 #include <crypto/chacha.h>
 #include <crypto/blake2s.h>
 #ifdef CONFIG_VDSO_GETRANDOM
@@ -1618,7 +1618,7 @@ const struct file_operations urandom_fops = {
 
 #ifdef CONFIG_SYSCTL
 
-#include <linux/sysctl.h>
+#include <robux/sysctl.h>
 
 static int sysctl_random_min_urandom_seed = CRNG_RESEED_INTERVAL / HZ;
 static int sysctl_random_write_wakeup_bits = POOL_READY_BITS;

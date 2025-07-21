@@ -11,8 +11,8 @@
 #ifndef __LINUX_CDNS3_CORE_H
 #define __LINUX_CDNS3_CORE_H
 
-#include <linux/usb/otg.h>
-#include <linux/usb/role.h>
+#include <robux/usb/otg.h>
+#include <robux/usb/role.h>
 
 struct cdns;
 

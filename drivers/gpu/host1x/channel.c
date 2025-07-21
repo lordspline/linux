@@ -5,8 +5,8 @@
  * Copyright (c) 2010-2013, NVIDIA Corporation.
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 
 #include "channel.h"
 #include "dev.h"

@@ -4,17 +4,17 @@
  *
  * Copyright (c) 2017 Microsemi Corporation
  */
-#include <linux/dsa/ocelot.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of_net.h>
-#include <linux/netdevice.h>
-#include <linux/phylink.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/skbuff.h>
+#include <robux/dsa/ocelot.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of_net.h>
+#include <robux/netdevice.h>
+#include <robux/phylink.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/syscon.h>
+#include <robux/skbuff.h>
 #include <net/switchdev.h>
 
 #include <soc/mscc/ocelot.h>

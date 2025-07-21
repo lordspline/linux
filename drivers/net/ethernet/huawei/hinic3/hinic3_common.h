@@ -4,7 +4,7 @@
 #ifndef _HINIC3_COMMON_H_
 #define _HINIC3_COMMON_H_
 
-#include <linux/device.h>
+#include <robux/device.h>
 
 #define HINIC3_MIN_PAGE_SIZE  0x1000
 

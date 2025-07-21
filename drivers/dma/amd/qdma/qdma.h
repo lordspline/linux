@@ -8,11 +8,11 @@
 #ifndef __QDMA_H
 #define __QDMA_H
 
-#include <linux/bitfield.h>
-#include <linux/dmaengine.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/dmaengine.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 #include "../../virt-dma.h"
 

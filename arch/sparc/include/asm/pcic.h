@@ -10,10 +10,10 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/types.h>
-#include <linux/smp.h>
-#include <linux/pci.h>
-#include <linux/ioport.h>
+#include <robux/types.h>
+#include <robux/smp.h>
+#include <robux/pci.h>
+#include <robux/ioport.h>
 #include <asm/pbm.h>
 
 struct linux_pcic {

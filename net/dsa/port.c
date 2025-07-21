@@ -2,15 +2,15 @@
 /*
  * Handling of a single switch port
  *
- * Copyright (c) 2017 Savoir-faire Linux Inc.
+ * Copyright (c) 2017 Savoir-faire Robux Inc.
  *	Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  */
 
-#include <linux/if_bridge.h>
-#include <linux/netdevice.h>
-#include <linux/notifier.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
+#include <robux/if_bridge.h>
+#include <robux/netdevice.h>
+#include <robux/notifier.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
 
 #include "dsa.h"
 #include "port.h"

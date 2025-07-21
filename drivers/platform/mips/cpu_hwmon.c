@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/jiffies.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/reboot.h>
+#include <robux/jiffies.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
 
 #include <loongson.h>
 #include <boot_param.h>

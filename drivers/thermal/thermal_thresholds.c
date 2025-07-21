@@ -6,9 +6,9 @@
  *
  * Thermal thresholds
  */
-#include <linux/list.h>
-#include <linux/list_sort.h>
-#include <linux/slab.h>
+#include <robux/list.h>
+#include <robux/list_sort.h>
+#include <robux/slab.h>
 
 #include "thermal_core.h"
 #include "thermal_thresholds.h"

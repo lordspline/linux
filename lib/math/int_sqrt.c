@@ -6,10 +6,10 @@
  *  square root from Guy L. Steele.
  */
 
-#include <linux/export.h>
-#include <linux/bitops.h>
-#include <linux/limits.h>
-#include <linux/math.h>
+#include <robux/export.h>
+#include <robux/bitops.h>
+#include <robux/limits.h>
+#include <robux/math.h>
 
 /**
  * int_sqrt - computes the integer square root

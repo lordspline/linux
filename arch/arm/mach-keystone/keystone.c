@@ -7,14 +7,14 @@
  *	Santosh Shilimkar <santosh.shillimkar@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/dma-map-ops.h>
-#include <linux/init.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_clock.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/dma-map-ops.h>
+#include <robux/init.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_clock.h>
+#include <robux/memblock.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <asm/setup.h>
 #include <asm/mach/map.h>

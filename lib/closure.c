@@ -6,12 +6,12 @@
  * Copyright 2012 Google, Inc.
  */
 
-#include <linux/closure.h>
-#include <linux/debugfs.h>
-#include <linux/export.h>
-#include <linux/rcupdate.h>
-#include <linux/seq_file.h>
-#include <linux/sched/debug.h>
+#include <robux/closure.h>
+#include <robux/debugfs.h>
+#include <robux/export.h>
+#include <robux/rcupdate.h>
+#include <robux/seq_file.h>
+#include <robux/sched/debug.h>
 
 static inline void closure_put_after_sub_checks(int flags)
 {

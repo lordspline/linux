@@ -3,20 +3,20 @@
  * Copyright 2012 Marvell International Ltd.
  */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/dmaengine.h>
-#include <linux/platform_device.h>
-#include <linux/device.h>
-#include <linux/platform_data/mmp_dma.h>
-#include <linux/dmapool.h>
-#include <linux/of_dma.h>
-#include <linux/of.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/dmaengine.h>
+#include <robux/platform_device.h>
+#include <robux/device.h>
+#include <robux/platform_data/mmp_dma.h>
+#include <robux/dmapool.h>
+#include <robux/of_dma.h>
+#include <robux/of.h>
 
 #include "dmaengine.h"
 

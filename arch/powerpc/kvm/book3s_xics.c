@@ -4,14 +4,14 @@
  * Copyright 2012 Benjamin Herrenschmidt, IBM Corporation.
  */
 
-#include <linux/kernel.h>
-#include <linux/kvm_host.h>
-#include <linux/err.h>
-#include <linux/gfp.h>
-#include <linux/anon_inodes.h>
-#include <linux/spinlock.h>
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/kvm_host.h>
+#include <robux/err.h>
+#include <robux/gfp.h>
+#include <robux/anon_inodes.h>
+#include <robux/spinlock.h>
+#include <robux/debugfs.h>
+#include <robux/uaccess.h>
 
 #include <asm/kvm_book3s.h>
 #include <asm/kvm_ppc.h>
@@ -19,7 +19,7 @@
 #include <asm/xics.h>
 #include <asm/time.h>
 
-#include <linux/seq_file.h>
+#include <robux/seq_file.h>
 
 #include "book3s_xics.h"
 

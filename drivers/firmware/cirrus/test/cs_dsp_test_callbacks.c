@@ -10,14 +10,14 @@
 #include <kunit/resource.h>
 #include <kunit/test.h>
 #include <kunit/test-bug.h>
-#include <linux/build_bug.h>
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/firmware/cirrus/cs_dsp_test_utils.h>
-#include <linux/firmware/cirrus/wmfw.h>
-#include <linux/random.h>
-#include <linux/regmap.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
+#include <robux/build_bug.h>
+#include <robux/firmware/cirrus/cs_dsp.h>
+#include <robux/firmware/cirrus/cs_dsp_test_utils.h>
+#include <robux/firmware/cirrus/wmfw.h>
+#include <robux/random.h>
+#include <robux/regmap.h>
+#include <robux/string.h>
+#include <robux/vmalloc.h>
 
 #define ADSP2_LOCK_REGION_CTRL               0x7A
 #define ADSP2_WDT_TIMEOUT_STS_MASK           0x2000

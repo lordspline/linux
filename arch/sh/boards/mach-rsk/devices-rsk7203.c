@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2008 - 2010  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/smsc911x.h>
-#include <linux/input.h>
-#include <linux/gpio.h>
-#include <linux/gpio_keys.h>
-#include <linux/leds.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/smsc911x.h>
+#include <robux/input.h>
+#include <robux/gpio.h>
+#include <robux/gpio_keys.h>
+#include <robux/leds.h>
 #include <asm/machvec.h>
 #include <asm/io.h>
 #include <cpu/sh7203.h>

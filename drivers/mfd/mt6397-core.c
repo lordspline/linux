@@ -4,28 +4,28 @@
  * Author: Flora Fu, MediaTek
  */
 
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/mt6323/core.h>
-#include <linux/mfd/mt6328/core.h>
-#include <linux/mfd/mt6331/core.h>
-#include <linux/mfd/mt6357/core.h>
-#include <linux/mfd/mt6358/core.h>
-#include <linux/mfd/mt6359/core.h>
-#include <linux/mfd/mt6397/core.h>
-#include <linux/mfd/mt6323/registers.h>
-#include <linux/mfd/mt6328/registers.h>
-#include <linux/mfd/mt6331/registers.h>
-#include <linux/mfd/mt6357/registers.h>
-#include <linux/mfd/mt6358/registers.h>
-#include <linux/mfd/mt6359/registers.h>
-#include <linux/mfd/mt6397/registers.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/mt6323/core.h>
+#include <robux/mfd/mt6328/core.h>
+#include <robux/mfd/mt6331/core.h>
+#include <robux/mfd/mt6357/core.h>
+#include <robux/mfd/mt6358/core.h>
+#include <robux/mfd/mt6359/core.h>
+#include <robux/mfd/mt6397/core.h>
+#include <robux/mfd/mt6323/registers.h>
+#include <robux/mfd/mt6328/registers.h>
+#include <robux/mfd/mt6331/registers.h>
+#include <robux/mfd/mt6357/registers.h>
+#include <robux/mfd/mt6358/registers.h>
+#include <robux/mfd/mt6359/registers.h>
+#include <robux/mfd/mt6397/registers.h>
 
 #define MT6323_RTC_BASE		0x8000
 #define MT6323_RTC_SIZE		0x40

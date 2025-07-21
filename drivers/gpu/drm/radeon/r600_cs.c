@@ -25,7 +25,7 @@
  *          Alex Deucher
  *          Jerome Glisse
  */
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 #include "radeon.h"
 #include "radeon_asic.h"

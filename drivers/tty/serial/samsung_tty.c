@@ -21,27 +21,27 @@
  * BJD, 04-Nov-2004
  */
 
-#include <linux/console.h>
-#include <linux/clk.h>
-#include <linux/cpufreq.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/serial_s3c.h>
-#include <linux/slab.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/types.h>
+#include <robux/console.h>
+#include <robux/clk.h>
+#include <robux/cpufreq.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/serial_s3c.h>
+#include <robux/slab.h>
+#include <robux/sysrq.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/types.h>
 
 #include <asm/irq.h>
 

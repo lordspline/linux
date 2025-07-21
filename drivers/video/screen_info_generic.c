@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/export.h>
-#include <linux/ioport.h>
-#include <linux/screen_info.h>
-#include <linux/string.h>
+#include <robux/export.h>
+#include <robux/ioport.h>
+#include <robux/screen_info.h>
+#include <robux/string.h>
 
 static void resource_init_named(struct resource *r,
 				resource_size_t start, resource_size_t size,
@@ -151,7 +151,7 @@ EXPORT_SYMBOL(screen_info_resources);
  *
  *  - DRM format info specifies depth as the number of color
  *    bits; including alpha, but not including filler bits.
- *  - Linux' EFI platform code computes lfb_depth from the
+ *  - Robux' EFI platform code computes lfb_depth from the
  *    individual color channels, including the reserved bits.
  *  - VBE 1.1 defines lfb_depth for XRGB1555 as 16, but later
  *    versions use 15.

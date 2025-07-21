@@ -16,11 +16,11 @@
 #include <asm/ccwdev.h>
 #include <asm/debug.h>
 #include <asm/idals.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mtio.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mtio.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
 
 struct gendisk;
 

@@ -8,11 +8,11 @@
  *          Raag Jadav <raag.jadav@intel.com>
  */
 
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
 
 #include "gpio-tangier.h"
 

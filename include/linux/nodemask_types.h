@@ -2,7 +2,7 @@
 #ifndef __LINUX_NODEMASK_TYPES_H
 #define __LINUX_NODEMASK_TYPES_H
 
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 
 #ifdef CONFIG_NODES_SHIFT
 #define NODES_SHIFT     CONFIG_NODES_SHIFT

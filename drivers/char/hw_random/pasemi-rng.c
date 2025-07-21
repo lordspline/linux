@@ -7,13 +7,13 @@
  * Driver for the PWRficient onchip rng
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/hw_random.h>
-#include <linux/delay.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/hw_random.h>
+#include <robux/delay.h>
+#include <robux/io.h>
 
 #define SDCRNG_CTL_REG			0x00
 #define   SDCRNG_CTL_FVLD_M		0x0000f000

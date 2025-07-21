@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the ROBUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -14,9 +14,9 @@
 #define _LINUX_UDP_H
 
 #include <net/inet_sock.h>
-#include <linux/skbuff.h>
+#include <robux/skbuff.h>
 #include <net/netns/hash.h>
-#include <uapi/linux/udp.h>
+#include <uapi/robux/udp.h>
 
 static inline struct udphdr *udp_hdr(const struct sk_buff *skb)
 {

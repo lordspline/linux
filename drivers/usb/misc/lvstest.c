@@ -8,15 +8,15 @@
  * Pratyush Anand <pratyush.anand@gmail.com>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/ch11.h>
-#include <linux/usb/hcd.h>
-#include <linux/usb/phy.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/usb/ch11.h>
+#include <robux/usb/hcd.h>
+#include <robux/usb/phy.h>
 
 struct lvs_rh {
 	/* root hub interface */

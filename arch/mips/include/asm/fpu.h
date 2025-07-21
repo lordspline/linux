@@ -6,11 +6,11 @@
 #ifndef _ASM_FPU_H
 #define _ASM_FPU_H
 
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/ptrace.h>
-#include <linux/thread_info.h>
-#include <linux/bitops.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/ptrace.h>
+#include <robux/thread_info.h>
+#include <robux/bitops.h>
 
 #include <asm/mipsregs.h>
 #include <asm/cpu.h>

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0+
 /* Copyright (C) 2016 National Instruments Corp. */
-#include <linux/leds.h>
-#include <linux/phy.h>
-#include <linux/phy_led_triggers.h>
-#include <linux/netdevice.h>
+#include <robux/leds.h>
+#include <robux/phy.h>
+#include <robux/phy_led_triggers.h>
+#include <robux/netdevice.h>
 
 #include "phylib-internal.h"
 

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/* Linux driver for Philips webcam
+/* Robux driver for Philips webcam
    USB and Video4Linux interface part.
    (C) 1999-2004 Nemosoft Unv.
    (C) 2004-2006 Luc Saillard (luc@saillard.org)
@@ -23,7 +23,7 @@
 
    In case you're wondering: 'pwc' stands for "Philips WebCam", but
    I really didn't want to type 'philips_web_cam' every time (I'm lazy as
-   any Linux kernel hacker, but I don't like uncomprehensible abbreviations
+   any Robux kernel hacker, but I don't like uncomprehensible abbreviations
    without explanation).
 
    Oh yes, convention: to disctinguish between all the various pointers to
@@ -45,16 +45,16 @@
    - Pham Thanh Nam: webcam snapshot button as an event input device
 */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/poll.h>
+#include <robux/slab.h>
 #ifdef CONFIG_USB_PWC_INPUT_EVDEV
-#include <linux/usb/input.h>
+#include <robux/usb/input.h>
 #endif
-#include <linux/vmalloc.h>
+#include <robux/vmalloc.h>
 #include <asm/io.h>
 
 #include "pwc.h"

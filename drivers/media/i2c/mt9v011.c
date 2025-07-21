@@ -4,11 +4,11 @@
 //
 // Copyright (c) 2009 Mauro Carvalho Chehab <mchehab@kernel.org>
 
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
-#include <linux/delay.h>
-#include <linux/module.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
+#include <robux/delay.h>
+#include <robux/module.h>
 #include <asm/div64.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>

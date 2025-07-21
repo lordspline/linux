@@ -3,11 +3,11 @@
 // Copyright(c) 2021 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@robux.intel.com>
 //
 
-#include <linux/firmware.h>
-#include <linux/uuid.h>
+#include <robux/firmware.h>
+#include <robux/uuid.h>
 #include <sound/soc.h>
 #include <sound/soc-acpi.h>
 #include <sound/soc-topology.h>

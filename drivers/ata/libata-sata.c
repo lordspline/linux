@@ -7,13 +7,13 @@
  *  Copyright 2006 Tejun Heo <htejun@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_eh.h>
-#include <linux/libata.h>
-#include <linux/unaligned.h>
+#include <robux/libata.h>
+#include <robux/unaligned.h>
 
 #include "libata.h"
 #include "libata-transport.h"

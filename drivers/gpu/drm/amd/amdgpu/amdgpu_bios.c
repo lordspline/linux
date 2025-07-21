@@ -29,10 +29,10 @@
 #include "amdgpu.h"
 #include "atom.h"
 
-#include <linux/device.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
+#include <robux/device.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
 /*
  * BIOS.
  */

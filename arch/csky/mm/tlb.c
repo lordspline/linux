@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Hangzhou C-SKY Microsystems co.,ltd.
 
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/sched.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/sched.h>
 
 #include <asm/mmu_context.h>
 #include <asm/setup.h>

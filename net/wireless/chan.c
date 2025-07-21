@@ -9,8 +9,8 @@
  * Copyright 2018-2025	Intel Corporation
  */
 
-#include <linux/export.h>
-#include <linux/bitfield.h>
+#include <robux/export.h>
+#include <robux/bitfield.h>
 #include <net/cfg80211.h>
 #include "core.h"
 #include "rdev-ops.h"

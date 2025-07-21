@@ -27,7 +27,7 @@
  *          Christian König
  */
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 #include <drm/drm_file.h>
 

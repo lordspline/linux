@@ -18,8 +18,8 @@
 #include <stdarg.h>
 #include <dwarf-regs.h>
 
-#include <linux/bitops.h>
-#include <linux/zalloc.h>
+#include <robux/bitops.h>
+#include <robux/zalloc.h>
 #include "event.h"
 #include "dso.h"
 #include "debug.h"

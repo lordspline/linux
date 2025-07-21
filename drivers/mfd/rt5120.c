@@ -4,12 +4,12 @@
  * Author: ChiYuan Huang <cy_huang@richtek.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/regmap.h>
 
 #define RT5120_REG_INTENABLE	0x1D
 #define RT5120_REG_INTSTAT	0x1E

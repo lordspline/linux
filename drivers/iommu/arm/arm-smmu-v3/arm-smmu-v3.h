@@ -8,12 +8,12 @@
 #ifndef _ARM_SMMU_V3_H
 #define _ARM_SMMU_V3_H
 
-#include <linux/bitfield.h>
-#include <linux/iommu.h>
-#include <linux/iommufd.h>
-#include <linux/kernel.h>
-#include <linux/mmzone.h>
-#include <linux/sizes.h>
+#include <robux/bitfield.h>
+#include <robux/iommu.h>
+#include <robux/iommufd.h>
+#include <robux/kernel.h>
+#include <robux/mmzone.h>
+#include <robux/sizes.h>
 
 struct arm_smmu_device;
 

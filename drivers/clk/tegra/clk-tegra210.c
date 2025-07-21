@@ -3,20 +3,20 @@
  * Copyright (c) 2012-2020 NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/syscore_ops.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/mutex.h>
-#include <linux/clk/tegra.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/syscore_ops.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/mutex.h>
+#include <robux/clk/tegra.h>
 #include <dt-bindings/clock/tegra210-car.h>
 #include <dt-bindings/reset/tegra210-car.h>
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 #include <soc/tegra/pmc.h>
 
 #include "clk.h"

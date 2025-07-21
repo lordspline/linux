@@ -17,12 +17,12 @@
  * Released under the GPLv2 only.
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/usb.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/rwsem.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/usb.h>
 
 #include "usb.h"
 

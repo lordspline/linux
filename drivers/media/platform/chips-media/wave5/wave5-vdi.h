@@ -9,9 +9,9 @@
 #define _VDI_H_
 
 #include "wave5-vpuconfig.h"
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/device.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/device.h>
 
 /************************************************************************/
 /* COMMON REGISTERS */

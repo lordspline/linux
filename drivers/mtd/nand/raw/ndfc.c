@@ -16,15 +16,15 @@
  *  Copyright 2008 PIKA Technologies
  *    Sean MacLennan <smaclennan@pikatech.com>
  */
-#include <linux/module.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/ndfc.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
+#include <robux/mtd/ndfc.h>
+#include <robux/slab.h>
+#include <robux/mtd/mtd.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
 #include <asm/io.h>
 
 #define NDFC_MAX_CS    4

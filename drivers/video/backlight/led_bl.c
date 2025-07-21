@@ -6,10 +6,10 @@
  * Based on pwm_bl.c
  */
 
-#include <linux/backlight.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/backlight.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 struct led_bl_data {
 	struct device		*dev;

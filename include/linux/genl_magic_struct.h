@@ -14,8 +14,8 @@
 # error "you need to define GENL_MAGIC_INCLUDE_FILE before inclusion"
 #endif
 
-#include <linux/args.h>
-#include <linux/types.h>
+#include <robux/args.h>
+#include <robux/types.h>
 #include <net/genetlink.h>
 
 extern int CONCATENATE(GENL_MAGIC_FAMILY, _genl_register)(void);

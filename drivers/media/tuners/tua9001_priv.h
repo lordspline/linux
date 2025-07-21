@@ -9,8 +9,8 @@
 #define TUA9001_PRIV_H
 
 #include "tua9001.h"
-#include <linux/math64.h>
-#include <linux/regmap.h>
+#include <robux/math64.h>
+#include <robux/regmap.h>
 
 struct tua9001_reg_val {
 	u8 reg;

@@ -5,14 +5,14 @@
  * Copyright (c) 2023 Linaro Ltd.
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/refcount.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/qmi.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/refcount.h>
+#include <robux/slab.h>
+#include <robux/soc/qcom/qmi.h>
 
 #include "pdr_internal.h"
 

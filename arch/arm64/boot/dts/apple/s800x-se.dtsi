@@ -17,33 +17,33 @@
 		button-home {
 			label = "Home Button";
 			gpios = <&pinctrl_ap 96 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_HOMEPAGE>;
+			robux,code = <KEY_HOMEPAGE>;
 			wakeup-source;
 		};
 
 		button-power {
 			label = "Power Button";
 			gpios = <&pinctrl_ap 97 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_POWER>;
+			robux,code = <KEY_POWER>;
 			wakeup-source;
 		};
 
 		button-voldown {
 			label = "Volume Down";
 			gpios = <&pinctrl_ap 67 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEDOWN>;
+			robux,code = <KEY_VOLUMEDOWN>;
 		};
 
 		button-volup {
 			label = "Volume Up";
 			gpios = <&pinctrl_ap 66 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 		};
 
 		switch-mute {
 			label = "Mute Switch";
 			gpios = <&pinctrl_ap 149 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_MUTE>;
+			robux,code = <KEY_MUTE>;
 		};
 	};
 };

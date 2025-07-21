@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0-only
 #
-# gdb helper commands and functions for Linux kernel debugging
+# gdb helper commands and functions for Robux kernel debugging
 #
 #  routines to introspect page table
 #
@@ -10,7 +10,7 @@
 
 import gdb
 
-from linux import utils
+from robux import utils
 
 PHYSICAL_ADDRESS_MASK = gdb.parse_and_eval('0xfffffffffffff')
 

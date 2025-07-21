@@ -2,19 +2,19 @@
 /*
  * Kernel traps/events for Hexagon processor
  *
- * Copyright (c) 2010-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2014, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/init.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/module.h>
-#include <linux/kallsyms.h>
-#include <linux/kdebug.h>
-#include <linux/syscalls.h>
-#include <linux/signal.h>
-#include <linux/ptrace.h>
+#include <robux/init.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task_stack.h>
+#include <robux/module.h>
+#include <robux/kallsyms.h>
+#include <robux/kdebug.h>
+#include <robux/syscalls.h>
+#include <robux/signal.h>
+#include <robux/ptrace.h>
 #include <asm/traps.h>
 #include <asm/vm_fault.h>
 #include <asm/syscall.h>
@@ -22,7 +22,7 @@
 #include <asm/unistd.h>
 #include <asm/sections.h>
 #ifdef CONFIG_KGDB
-# include <linux/kgdb.h>
+# include <robux/kgdb.h>
 #endif
 
 #define TRAP_SYSCALL	1
@@ -353,7 +353,7 @@ void do_trap0(struct pt_regs *regs)
 
 		/*
 		 * System call number is in r6, arguments in r0..r5.
-		 * Fortunately, no Linux syscall has more than 6 arguments,
+		 * Fortunately, no Robux syscall has more than 6 arguments,
 		 * and Hexagon ABI passes first 6 arguments in registers.
 		 * 64-bit arguments are passed in odd/even register pairs.
 		 * Fortunately, we have no system calls that take more

@@ -12,9 +12,9 @@
  */
 
 #include <rv/automata.h>
-#include <linux/rv.h>
-#include <linux/bug.h>
-#include <linux/sched.h>
+#include <robux/rv.h>
+#include <robux/bug.h>
+#include <robux/sched.h>
 
 #ifdef CONFIG_RV_REACTORS
 

@@ -10,7 +10,7 @@
 #ifndef __DRIVERS_USB_CHIPIDEA_BITS_H
 #define __DRIVERS_USB_CHIPIDEA_BITS_H
 
-#include <linux/usb/ehci_def.h>
+#include <robux/usb/ehci_def.h>
 
 /*
  * ID

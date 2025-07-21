@@ -6,19 +6,19 @@
  */
 
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/acpi.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/acpi.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define SURFACE3_PACKET_SIZE	264
 

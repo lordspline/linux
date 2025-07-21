@@ -7,10 +7,10 @@
  * Author: Johan Hovold <jhovold@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/module.h>
 
-#include <linux/mfd/lm3533.h>
+#include <robux/mfd/lm3533.h>
 
 
 #define LM3533_MAX_CURRENT_MIN		5000

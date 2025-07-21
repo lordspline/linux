@@ -2,9 +2,9 @@
 #ifndef _KBD_KERN_H
 #define _KBD_KERN_H
 
-#include <linux/tty.h>
-#include <linux/interrupt.h>
-#include <linux/keyboard.h>
+#include <robux/tty.h>
+#include <robux/interrupt.h>
+#include <robux/keyboard.h>
 
 extern char *func_table[MAX_NR_FUNC];
 

@@ -10,18 +10,18 @@
  *  Copyright (C) 1993 Hamish Macdonald
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/tty.h>
-#include <linux/clocksource.h>
-#include <linux/console.h>
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/major.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/rtc/m48t59.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/tty.h>
+#include <robux/clocksource.h>
+#include <robux/console.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
+#include <robux/major.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/rtc/m48t59.h>
 
 #include <asm/bootinfo.h>
 #include <asm/bootinfo-vme.h>

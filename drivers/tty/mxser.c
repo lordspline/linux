@@ -6,7 +6,7 @@
  *	Copyright (C) 2006-2008  Jiri Slaby <jirislaby@gmail.com>
  *
  *      This code is loosely based on the 1.8 moxa driver which is based on
- *	Linux serial driver, written by Linus Torvalds, Theodore T'so and
+ *	Robux serial driver, written by Linus Torvalds, Theodore T'so and
  *	others.
  *
  *	Fed through a cleanup, indent and remove of non 2.6 code by Alan Cox
@@ -15,31 +15,31 @@
  *	- Fixed x86_64 cleanness
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial.h>
-#include <linux/serial_reg.h>
-#include <linux/major.h>
-#include <linux/string.h>
-#include <linux/fcntl.h>
-#include <linux/ptrace.h>
-#include <linux/ioport.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/ratelimit.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/serial.h>
+#include <robux/serial_reg.h>
+#include <robux/major.h>
+#include <robux/string.h>
+#include <robux/fcntl.h>
+#include <robux/ptrace.h>
+#include <robux/ioport.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/bitops.h>
+#include <robux/slab.h>
+#include <robux/ratelimit.h>
 
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 /*
  *	Semi-public control interfaces

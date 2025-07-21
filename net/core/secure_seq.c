@@ -3,20 +3,20 @@
  * Copyright (C) 2016 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/cache.h>
-#include <linux/random.h>
-#include <linux/hrtimer.h>
-#include <linux/ktime.h>
-#include <linux/string.h>
-#include <linux/net.h>
-#include <linux/siphash.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/cache.h>
+#include <robux/random.h>
+#include <robux/hrtimer.h>
+#include <robux/ktime.h>
+#include <robux/string.h>
+#include <robux/net.h>
+#include <robux/siphash.h>
 #include <net/secure_seq.h>
 
 #if IS_ENABLED(CONFIG_IPV6) || IS_ENABLED(CONFIG_INET)
-#include <linux/in6.h>
+#include <robux/in6.h>
 #include <net/tcp.h>
 
 static siphash_aligned_key_t net_secret;

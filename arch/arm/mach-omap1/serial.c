@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-omap1/serial.c
+ * robux/arch/arm/mach-omap1/serial.c
  *
  * OMAP1 serial support.
  */
-#include <linux/gpio/machine.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/delay.h>
-#include <linux/serial.h>
-#include <linux/tty.h>
-#include <linux/serial_8250.h>
-#include <linux/serial_reg.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/delay.h>
+#include <robux/serial.h>
+#include <robux/tty.h>
+#include <robux/serial_8250.h>
+#include <robux/serial_reg.h>
+#include <robux/clk.h>
+#include <robux/io.h>
 
 #include <asm/mach-types.h>
 

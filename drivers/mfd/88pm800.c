@@ -20,13 +20,13 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/88pm80x.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/88pm80x.h>
+#include <robux/slab.h>
 
 /* Interrupt Registers */
 #define PM800_INT_STATUS1		(0x05)

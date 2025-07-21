@@ -10,13 +10,13 @@
  *  - a GPIO block
  */
 
-#include <linux/device.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/wm97xx.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/wm97xx.h>
+#include <robux/device.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/wm97xx.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/wm97xx.h>
 #include <sound/ac97/codec.h>
 #include <sound/ac97/compat.h>
 

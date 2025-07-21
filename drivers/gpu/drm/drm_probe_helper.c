@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2006-2008 Intel Corporation
- * Copyright (c) 2007 Dave Airlie <airlied@linux.ie>
+ * Copyright (c) 2007 Dave Airlie <airlied@robux.ie>
  *
  * DRM core CRTC related functions
  *
@@ -25,12 +25,12 @@
  * Authors:
  *      Keith Packard
  *	Eric Anholt <eric@anholt.net>
- *      Dave Airlie <airlied@linux.ie>
+ *      Dave Airlie <airlied@robux.ie>
  *      Jesse Barnes <jesse.barnes@intel.com>
  */
 
-#include <linux/export.h>
-#include <linux/moduleparam.h>
+#include <robux/export.h>
+#include <robux/moduleparam.h>
 
 #include <drm/drm_bridge.h>
 #include <drm/drm_client_event.h>

@@ -5,12 +5,12 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Author: Liam Girdwood <liam.r.girdwood@linux.intel.com>
+// Author: Liam Girdwood <liam.r.girdwood@robux.intel.com>
 //
 // PCM Layer, interface between ALSA and IPC.
 //
 
-#include <linux/pm_runtime.h>
+#include <robux/pm_runtime.h>
 #include <sound/pcm_params.h>
 #include <sound/sof.h>
 #include <trace/events/sof.h>

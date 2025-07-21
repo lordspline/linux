@@ -5,9 +5,9 @@
  *
  * Based on arch/arm/kernel/jump_label.c
  */
-#include <linux/kernel.h>
-#include <linux/jump_label.h>
-#include <linux/smp.h>
+#include <robux/kernel.h>
+#include <robux/jump_label.h>
+#include <robux/smp.h>
 #include <asm/insn.h>
 #include <asm/text-patching.h>
 

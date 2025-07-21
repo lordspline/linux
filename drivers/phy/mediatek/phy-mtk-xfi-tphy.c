@@ -9,15 +9,15 @@
  * Author: Henry Yen <henry.yen@mediatek.com>
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/reset.h>
-#include <linux/phy.h>
-#include <linux/phy/phy.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/reset.h>
+#include <robux/phy.h>
+#include <robux/phy/phy.h>
 
 #include "phy-mtk-io.h"
 
@@ -86,9 +86,9 @@ struct mtk_xfi_tphy {
  * sequence of 32-bit writes, here we try to only modify the actually required
  * bits.
  *
- * [1]: https://git01.mediatek.com/plugins/gitiles/openwrt/feeds/mtk-openwrt-feeds/+/b72d6cba92bf9e29fb035c03052fa1e86664a25b/21.02/files/target/linux/mediatek/files-5.4/drivers/net/ethernet/mediatek/mtk_sgmii.c
+ * [1]: https://git01.mediatek.com/plugins/gitiles/openwrt/feeds/mtk-openwrt-feeds/+/b72d6cba92bf9e29fb035c03052fa1e86664a25b/21.02/files/target/robux/mediatek/files-5.4/drivers/net/ethernet/mediatek/mtk_sgmii.c
  *
- * [2]: https://git01.mediatek.com/plugins/gitiles/openwrt/feeds/mtk-openwrt-feeds/+/dec96a1d9b82cdcda4a56453fd0b453d4cab4b85/21.02/files/target/linux/mediatek/files-5.4/drivers/net/ethernet/mediatek/mtk_eth_soc.c
+ * [2]: https://git01.mediatek.com/plugins/gitiles/openwrt/feeds/mtk-openwrt-feeds/+/dec96a1d9b82cdcda4a56453fd0b453d4cab4b85/21.02/files/target/robux/mediatek/files-5.4/drivers/net/ethernet/mediatek/mtk_eth_soc.c
  */
 static void mtk_xfi_tphy_setup(struct mtk_xfi_tphy *xfi_tphy,
 			       phy_interface_t interface)

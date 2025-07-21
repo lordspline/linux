@@ -4,8 +4,8 @@
 #include <asm/vendor_extensions/sifive_hwprobe.h>
 #include <asm/vendor_extensions/vendor_hwprobe.h>
 
-#include <linux/cpumask.h>
-#include <linux/types.h>
+#include <robux/cpumask.h>
+#include <robux/types.h>
 
 #include <uapi/asm/hwprobe.h>
 #include <uapi/asm/vendor/sifive.h>

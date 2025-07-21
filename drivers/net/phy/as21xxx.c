@@ -5,11 +5,11 @@
  * Author: Christian Marangi <ansuelsmth@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy.h>
+#include <robux/bitfield.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy.h>
 
 #define VEND1_GLB_REG_CPU_RESET_ADDR_LO_BASEADDR 0x3
 #define VEND1_GLB_REG_CPU_RESET_ADDR_HI_BASEADDR 0x4

@@ -3,18 +3,18 @@
  * c67x00-hcd.h: Cypress C67X00 USB HCD
  *
  * Copyright (C) 2006-2008 Barco N.V.
- *    Derived from the Cypress cy7c67200/300 ezusb linux driver and
- *    based on multiple host controller drivers inside the linux kernel.
+ *    Derived from the Cypress cy7c67200/300 ezusb robux driver and
+ *    based on multiple host controller drivers inside the robux kernel.
  */
 
 #ifndef _USB_C67X00_HCD_H
 #define _USB_C67X00_HCD_H
 
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/list.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/list.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
 #include "c67x00.h"
 
 /*

@@ -55,7 +55,7 @@ ninja -C build -j${FDO_CI_CONCURRENT:-4} || ninja -C build -j 1
 ninja -C build install
 
 if [[ "$KERNEL_ARCH" = "arm64" ]]; then
-    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/igt/lib/aarch64-linux-gnu
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/igt/lib/aarch64-robux-gnu
 elif [[ "$KERNEL_ARCH" = "arm" ]]; then
     export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/igt/lib
 else

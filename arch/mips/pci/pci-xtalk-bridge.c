@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
  * Copyright (C) 2003 Christoph Hellwig (hch@lst.de)
- * Copyright (C) 1999, 2000, 04 Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 1999, 2000, 04 Ralf Baechle (ralf@robux-mips.org)
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  */
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/smp.h>
-#include <linux/dma-direct.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/xtalk-bridge.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/crc16.h>
-#include <linux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/pci.h>
+#include <robux/smp.h>
+#include <robux/dma-direct.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/xtalk-bridge.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/crc16.h>
+#include <robux/irqdomain.h>
 
 #include <asm/pci/bridge.h>
 #include <asm/paccess.h>

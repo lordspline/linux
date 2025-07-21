@@ -13,11 +13,11 @@
  * When we get generic panel drivers to the kernel, this file will be removed.
  */
 
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/slab.h>
-#include <linux/list.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/slab.h>
+#include <robux/list.h>
 
 static struct list_head dss_conv_list __initdata;
 

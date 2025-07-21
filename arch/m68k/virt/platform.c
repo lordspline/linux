@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/memblock.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/memblock.h>
 #include <asm/virt.h>
 #include <asm/irq.h>
 

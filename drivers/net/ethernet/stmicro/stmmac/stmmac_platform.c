@@ -8,14 +8,14 @@
   Author: Giuseppe Cavallaro <peppe.cavallaro@st.com>
 *******************************************************************************/
 
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/of_mdio.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/of_mdio.h>
 
 #include "stmmac.h"
 #include "stmmac_platform.h"

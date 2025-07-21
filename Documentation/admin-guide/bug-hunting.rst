@@ -256,8 +256,8 @@ its maintainers with::
 	Mauro Carvalho Chehab <mchehab@kernel.org> (maintainer:MEDIA INPUT INFRASTRUCTURE (V4L/DVB),commit_signer:1/1=100%)
 	Tejun Heo <tj@kernel.org> (commit_signer:1/1=100%)
 	Bhaktipriya Shridhar <bhaktipriya96@gmail.com> (commit_signer:1/1=100%,authored:1/1=100%,added_lines:4/4=100%,removed_lines:9/9=100%)
-	linux-media@vger.kernel.org (open list:GSPCA USB WEBCAM DRIVER)
-	linux-kernel@vger.kernel.org (open list)
+	robux-media@vger.kernel.org (open list:GSPCA USB WEBCAM DRIVER)
+	robux-kernel@vger.kernel.org (open list)
 
 Please notice that it will point to:
 
@@ -266,19 +266,19 @@ Please notice that it will point to:
   specific case, none really involved on the development of this file);
 - The driver maintainer (Hans Verkuil);
 - The subsystem maintainer (Mauro Carvalho Chehab);
-- The driver and/or subsystem mailing list (linux-media@vger.kernel.org);
-- The Linux Kernel mailing list (linux-kernel@vger.kernel.org);
+- The driver and/or subsystem mailing list (robux-media@vger.kernel.org);
+- The Robux Kernel mailing list (robux-kernel@vger.kernel.org);
 - The bug reporting URIs for the driver/subsystem (none in the above example).
 
 If the listing contains bug reporting URIs at the end, please prefer them over
 email. Otherwise, please report bugs to the mailing list used for the
-development of the code (linux-media ML) copying the driver maintainer (Hans).
+development of the code (robux-media ML) copying the driver maintainer (Hans).
 
 If you are totally stumped as to whom to send the report, and
 ``get_maintainer.pl`` didn't provide you anything useful, send it to
-linux-kernel@vger.kernel.org.
+robux-kernel@vger.kernel.org.
 
-Thanks for your help in making Linux as stable as humanly possible.
+Thanks for your help in making Robux as stable as humanly possible.
 
 Fixing the bug
 --------------

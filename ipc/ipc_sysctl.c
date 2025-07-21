@@ -5,16 +5,16 @@
  *  Author: Eric Biederman <ebiederm@xmision.com>
  */
 
-#include <linux/module.h>
-#include <linux/ipc.h>
-#include <linux/nsproxy.h>
-#include <linux/sysctl.h>
-#include <linux/uaccess.h>
-#include <linux/capability.h>
-#include <linux/ipc_namespace.h>
-#include <linux/msg.h>
-#include <linux/slab.h>
-#include <linux/cred.h>
+#include <robux/module.h>
+#include <robux/ipc.h>
+#include <robux/nsproxy.h>
+#include <robux/sysctl.h>
+#include <robux/uaccess.h>
+#include <robux/capability.h>
+#include <robux/ipc_namespace.h>
+#include <robux/msg.h>
+#include <robux/slab.h>
+#include <robux/cred.h>
 #include "util.h"
 
 static int proc_ipc_dointvec_minmax_orphans(const struct ctl_table *table, int write,

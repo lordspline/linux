@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0+
 /* Copyright (c) 2018-2019 Hisilicon Limited. */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/string_choices.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/string_choices.h>
 
 #include "hnae3.h"
 #include "hns3_debugfs.h"

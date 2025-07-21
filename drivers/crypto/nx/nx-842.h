@@ -3,14 +3,14 @@
 #ifndef __NX_842_H__
 #define __NX_842_H__
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/ratelimit.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/mm.h>
+#include <robux/ratelimit.h>
 
 /* Restrictions on Data Descriptor List (DDL) and Entry (DDE) buffers
  *

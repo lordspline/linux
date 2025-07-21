@@ -4,16 +4,16 @@
  *
  * (c) Copyright 2007-2013 Datera, Inc.
  *
- * Author: Nicholas A. Bellinger <nab@linux-iscsi.org>
+ * Author: Nicholas A. Bellinger <nab@robux-iscsi.org>
  *
  ******************************************************************************/
 
 #include <crypto/hash.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/err.h>
-#include <linux/random.h>
-#include <linux/scatterlist.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/err.h>
+#include <robux/random.h>
+#include <robux/scatterlist.h>
 #include <target/iscsi/iscsi_target_core.h>
 #include "iscsi_target_nego.h"
 #include "iscsi_target_auth.h"

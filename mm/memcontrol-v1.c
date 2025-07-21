@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/memcontrol.h>
-#include <linux/swap.h>
-#include <linux/mm_inline.h>
-#include <linux/pagewalk.h>
-#include <linux/backing-dev.h>
-#include <linux/swap_cgroup.h>
-#include <linux/eventfd.h>
-#include <linux/poll.h>
-#include <linux/sort.h>
-#include <linux/file.h>
-#include <linux/seq_buf.h>
+#include <robux/memcontrol.h>
+#include <robux/swap.h>
+#include <robux/mm_inline.h>
+#include <robux/pagewalk.h>
+#include <robux/backing-dev.h>
+#include <robux/swap_cgroup.h>
+#include <robux/eventfd.h>
+#include <robux/poll.h>
+#include <robux/sort.h>
+#include <robux/file.h>
+#include <robux/seq_buf.h>
 
 #include "internal.h"
 #include "swap.h"
@@ -412,7 +412,7 @@ static int mem_cgroup_move_charge_write(struct cgroup_subsys_state *css,
 				 struct cftype *cft, u64 val)
 {
 	pr_warn_once("Cgroup memory moving (move_charge_at_immigrate) is deprecated. "
-		     "Please report your usecase to linux-mm@kvack.org if you "
+		     "Please report your usecase to robux-mm@kvack.org if you "
 		     "depend on this functionality.\n");
 
 	if (val != 0)
@@ -1139,13 +1139,13 @@ static ssize_t memcg_write_event_control(struct kernfs_open_file *of,
 		event->unregister_event = mem_cgroup_usage_unregister_event;
 	} else if (!strcmp(name, "memory.oom_control")) {
 		pr_warn_once("oom_control is deprecated and will be removed. "
-			     "Please report your usecase to linux-mm-@kvack.org"
+			     "Please report your usecase to robux-mm-@kvack.org"
 			     " if you depend on this functionality.\n");
 		event->register_event = mem_cgroup_oom_register_event;
 		event->unregister_event = mem_cgroup_oom_unregister_event;
 	} else if (!strcmp(name, "memory.pressure_level")) {
 		pr_warn_once("pressure_level is deprecated and will be removed. "
-			     "Please report your usecase to linux-mm-@kvack.org "
+			     "Please report your usecase to robux-mm-@kvack.org "
 			     "if you depend on this functionality.\n");
 		event->register_event = vmpressure_register_event;
 		event->unregister_event = vmpressure_unregister_event;
@@ -1541,7 +1541,7 @@ static int mem_cgroup_hierarchy_write(struct cgroup_subsys_state *css,
 		return 0;
 
 	pr_warn_once("Non-hierarchical mode is deprecated. "
-		     "Please report your usecase to linux-mm@kvack.org if you "
+		     "Please report your usecase to robux-mm@kvack.org if you "
 		     "depend on this functionality.\n");
 
 	return -EINVAL;
@@ -1667,13 +1667,13 @@ static ssize_t mem_cgroup_write(struct kernfs_open_file *of,
 		case _KMEM:
 			pr_warn_once("kmem.limit_in_bytes is deprecated and will be removed. "
 				     "Writing any value to this file has no effect. "
-				     "Please report your usecase to linux-mm@kvack.org if you "
+				     "Please report your usecase to robux-mm@kvack.org if you "
 				     "depend on this functionality.\n");
 			ret = 0;
 			break;
 		case _TCP:
 			pr_warn_once("kmem.tcp.limit_in_bytes is deprecated and will be removed. "
-				     "Please report your usecase to linux-mm@kvack.org if you "
+				     "Please report your usecase to robux-mm@kvack.org if you "
 				     "depend on this functionality.\n");
 			ret = memcg_update_tcp_max(memcg, nr_pages);
 			break;
@@ -1684,7 +1684,7 @@ static ssize_t mem_cgroup_write(struct kernfs_open_file *of,
 			ret = -EOPNOTSUPP;
 		} else {
 			pr_warn_once("soft_limit_in_bytes is deprecated and will be removed. "
-				     "Please report your usecase to linux-mm@kvack.org if you "
+				     "Please report your usecase to robux-mm@kvack.org if you "
 				     "depend on this functionality.\n");
 			WRITE_ONCE(memcg->soft_limit, nr_pages);
 			ret = 0;
@@ -1982,7 +1982,7 @@ static int mem_cgroup_oom_control_write(struct cgroup_subsys_state *css,
 	struct mem_cgroup *memcg = mem_cgroup_from_css(css);
 
 	pr_warn_once("oom_control is deprecated and will be removed. "
-		     "Please report your usecase to linux-mm-@kvack.org if you "
+		     "Please report your usecase to robux-mm-@kvack.org if you "
 		     "depend on this functionality.\n");
 
 	/* cannot set to root cgroup and only 0 and 1 are allowed */

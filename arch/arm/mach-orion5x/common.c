@@ -7,25 +7,25 @@
  * Maintainer: Tzachi Perelstein <tzachi@marvell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/serial_8250.h>
-#include <linux/mv643xx_i2c.h>
-#include <linux/ata_platform.h>
-#include <linux/delay.h>
-#include <linux/clk-provider.h>
-#include <linux/cpu.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/serial_8250.h>
+#include <robux/mv643xx_i2c.h>
+#include <robux/ata_platform.h>
+#include <robux/delay.h>
+#include <robux/clk-provider.h>
+#include <robux/cpu.h>
 #include <asm/page.h>
 #include <asm/setup.h>
 #include <asm/system_misc.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>
 #include <asm/mach/time.h>
-#include <linux/platform_data/mtd-orion_nand.h>
-#include <linux/platform_data/usb-ehci-orion.h>
+#include <robux/platform_data/mtd-orion_nand.h>
+#include <robux/platform_data/usb-ehci-orion.h>
 #include <plat/time.h>
 #include <plat/common.h>
 

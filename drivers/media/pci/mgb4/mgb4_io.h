@@ -7,7 +7,7 @@
 #ifndef __MGB4_IO_H__
 #define __MGB4_IO_H__
 
-#include <linux/math64.h>
+#include <robux/math64.h>
 #include <media/v4l2-dev.h>
 #include "mgb4_core.h"
 

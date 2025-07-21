@@ -5,13 +5,13 @@
 // Copyright (C) 2023 Cirrus Logic, Inc. and
 //                    Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/acpi.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "cs35l56.h"
 

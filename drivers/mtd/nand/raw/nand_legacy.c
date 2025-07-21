@@ -13,9 +13,9 @@
  * at some point.
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/nmi.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/nmi.h>
 
 #include "internals.h"
 

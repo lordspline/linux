@@ -11,11 +11,11 @@
 
 #include "ssb_private.h"
 
-#include <linux/ssb/ssb.h>
-#include <linux/ssb/ssb_regs.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/bcm47xx_wdt.h>
+#include <robux/ssb/ssb.h>
+#include <robux/ssb/ssb_regs.h>
+#include <robux/export.h>
+#include <robux/pci.h>
+#include <robux/bcm47xx_wdt.h>
 
 
 /* Clock sources */

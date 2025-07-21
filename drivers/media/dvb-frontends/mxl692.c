@@ -9,10 +9,10 @@
  * which was released under GPL V2
  */
 
-#include <linux/mutex.h>
-#include <linux/i2c-mux.h>
-#include <linux/string.h>
-#include <linux/firmware.h>
+#include <robux/mutex.h>
+#include <robux/i2c-mux.h>
+#include <robux/string.h>
+#include <robux/firmware.h>
 
 #include "mxl692.h"
 #include "mxl692_defs.h"

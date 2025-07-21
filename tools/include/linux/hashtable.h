@@ -7,12 +7,12 @@
 #ifndef _LINUX_HASHTABLE_H
 #define _LINUX_HASHTABLE_H
 
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/hash.h>
-#include <linux/log2.h>
+#include <robux/list.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/bitops.h>
+#include <robux/hash.h>
+#include <robux/log2.h>
 
 #define DEFINE_HASHTABLE(name, bits)						\
 	struct hlist_head name[1 << (bits)] =					\

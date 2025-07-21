@@ -6,15 +6,15 @@
 #ifndef __TEE_CORE_H
 #define __TEE_CORE_H
 
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/tee.h>
-#include <linux/tee_drv.h>
-#include <linux/types.h>
-#include <linux/uuid.h>
+#include <robux/cdev.h>
+#include <robux/device.h>
+#include <robux/idr.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/tee.h>
+#include <robux/tee_drv.h>
+#include <robux/types.h>
+#include <robux/uuid.h>
 
 /*
  * The file describes the API provided by the generic TEE driver to the

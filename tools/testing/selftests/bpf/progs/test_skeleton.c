@@ -2,7 +2,7 @@
 /* Copyright (c) 2019 Facebook */
 
 #include <stdbool.h>
-#include <linux/bpf.h>
+#include <robux/bpf.h>
 #include <bpf/bpf_helpers.h>
 
 #define __read_mostly SEC(".data.read_mostly")

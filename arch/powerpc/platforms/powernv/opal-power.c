@@ -7,10 +7,10 @@
 
 #define pr_fmt(fmt)	"opal-power: "	fmt
 
-#include <linux/kernel.h>
-#include <linux/reboot.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/reboot.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
 
 #include <asm/opal.h>
 #include <asm/machdep.h>

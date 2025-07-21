@@ -8,14 +8,14 @@
 #ifndef _LINUX_ACPI_H
 #define _LINUX_ACPI_H
 
-#include <linux/errno.h>
-#include <linux/ioport.h>	/* for struct resource */
-#include <linux/resource_ext.h>
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/uuid.h>
-#include <linux/node.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>	/* for struct resource */
+#include <robux/resource_ext.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/uuid.h>
+#include <robux/node.h>
 
 struct irq_domain;
 struct irq_domain_ops;
@@ -28,11 +28,11 @@ struct irq_domain_ops;
 
 #ifdef	CONFIG_ACPI
 
-#include <linux/list.h>
-#include <linux/dynamic_debug.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/fw_table.h>
+#include <robux/list.h>
+#include <robux/dynamic_debug.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/fw_table.h>
 
 #include <acpi/acpi_bus.h>
 #include <acpi/acpi_drivers.h>

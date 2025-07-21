@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/linkage.h>
-#include <linux/threads.h>
+#include <robux/linkage.h>
+#include <robux/threads.h>
 #include <asm/asm-offsets.h>
 #include <asm/assembler.h>
 #include <asm/glue-cache.h>

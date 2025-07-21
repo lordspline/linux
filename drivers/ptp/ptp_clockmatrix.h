@@ -8,10 +8,10 @@
 #ifndef PTP_IDTCLOCKMATRIX_H
 #define PTP_IDTCLOCKMATRIX_H
 
-#include <linux/ktime.h>
-#include <linux/mfd/idt8a340_reg.h>
-#include <linux/ptp_clock.h>
-#include <linux/regmap.h>
+#include <robux/ktime.h>
+#include <robux/mfd/idt8a340_reg.h>
+#include <robux/ptp_clock.h>
+#include <robux/regmap.h>
 
 #define FW_FILENAME	"idtcm.bin"
 #define MAX_TOD		(4)

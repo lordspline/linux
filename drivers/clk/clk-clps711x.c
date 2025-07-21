@@ -5,13 +5,13 @@
  *  Copyright (C) 2014 Alexander Shiyan <shc_work@mail.ru>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
-#include <linux/mfd/syscon/clps711x.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
+#include <robux/mfd/syscon/clps711x.h>
 
 #include <dt-bindings/clock/clps711x-clock.h>
 

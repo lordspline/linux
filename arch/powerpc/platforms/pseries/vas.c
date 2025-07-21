@@ -5,14 +5,14 @@
 
 #define pr_fmt(fmt) "vas: " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
 #include <asm/machdep.h>
 #include <asm/hvcall.h>
 #include <asm/plpar_wrappers.h>
@@ -133,7 +133,7 @@ static int h_modify_vas_window(struct pseries_vas_window *win)
 	long rc;
 
 	/*
-	 * AMR value is not supported in Linux VAS implementation.
+	 * AMR value is not supported in Robux VAS implementation.
 	 * The hypervisor ignores it if 0 is passed.
 	 */
 	do {
@@ -1079,7 +1079,7 @@ static int __init pseries_vas_init(void)
 	int rc = 0;
 
 	/*
-	 * Linux supports user space COPY/PASTE only with Radix
+	 * Robux supports user space COPY/PASTE only with Radix
 	 */
 	if (!radix_enabled()) {
 		copypaste_feat = false;

@@ -9,10 +9,10 @@
  *  Copyright (C) 2007 IBM Corporation.
  */
 
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/init.h>
+#include <robux/kobject.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/init.h>
 #include <asm/machdep.h>
 
 #include "pseries.h"

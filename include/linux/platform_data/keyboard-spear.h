@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2010 ST Microelectronics
- * Rajeev Kumar <rajeevkumar.linux@gmail.com>
+ * Rajeev Kumar <rajeevkumar.robux@gmail.com>
  *
  * This file is licensed under the terms of the GNU General Public
  * License version 2. This program is licensed "as is" without any
@@ -10,10 +10,10 @@
 #ifndef __PLAT_KEYBOARD_H
 #define __PLAT_KEYBOARD_H
 
-#include <linux/bitops.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/input.h>
+#include <robux/input/matrix_keypad.h>
+#include <robux/types.h>
 
 #define DECLARE_9x9_KEYMAP(_name) \
 int _name[] = { \

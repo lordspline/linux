@@ -5,13 +5,13 @@
  * Copyright (C) 2016 Google, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
+#include <robux/slab.h>
 
 #include <dt-bindings/mfd/cros_ec.h>
 

@@ -12,7 +12,7 @@
 #define LINUX_OPPROM_MAGIC      0x10010407
 
 #ifndef __ASSEMBLY__
-#include <linux/of.h>
+#include <robux/of.h>
 
 /* V0 prom device operations. */
 struct linux_dev_v0_funcs {

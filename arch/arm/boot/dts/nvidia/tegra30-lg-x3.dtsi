@@ -49,11 +49,11 @@
 		#size-cells = <1>;
 		ranges;
 
-		linux,cma@80000000 {
+		robux,cma@80000000 {
 			compatible = "shared-dma-pool";
 			alloc-ranges = <0x80000000 0x30000000>;
 			size = <0x10000000>;		/* 256MiB */
-			linux,cma-default;
+			robux,cma-default;
 			reusable;
 		};
 
@@ -1509,7 +1509,7 @@
 		key-power {
 			label = "Power";
 			gpios = <&gpio TEGRA_GPIO(C, 7) GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_POWER>;
+			robux,code = <KEY_POWER>;
 			debounce-interval = <10>;
 			wakeup-event-action = <EV_ACT_ASSERTED>;
 			wakeup-source;
@@ -1518,7 +1518,7 @@
 		key-volume-down {
 			label = "Volume Down";
 			gpios = <&gpio TEGRA_GPIO(O, 4) GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEDOWN>;
+			robux,code = <KEY_VOLUMEDOWN>;
 			debounce-interval = <10>;
 			wakeup-event-action = <EV_ACT_ASSERTED>;
 			wakeup-source;

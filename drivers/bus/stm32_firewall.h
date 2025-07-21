@@ -6,11 +6,11 @@
 #ifndef _STM32_FIREWALL_H
 #define _STM32_FIREWALL_H
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
 /**
  * STM32_PERIPHERAL_FIREWALL:		This type of firewall protects peripherals

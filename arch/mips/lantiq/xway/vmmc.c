@@ -4,12 +4,12 @@
  *  Copyright (C) 2012 John Crispin <john@phrozen.org>
  */
 
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/gpio/consumer.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
 
 #include <lantiq_soc.h>
 

@@ -3,7 +3,7 @@
  * trace_hwlat.c - A simple Hardware Latency detector.
  *
  * Use this tracer to detect large system latencies induced by the behavior of
- * certain underlying system hardware or firmware, independent of Linux itself.
+ * certain underlying system hardware or firmware, independent of Robux itself.
  * The code was developed originally to detect the presence of SMIs on Intel
  * and AMD systems, although there is no dependency upon x86 herein.
  *
@@ -37,12 +37,12 @@
  * Includes useful feedback from Clark Williams <williams@redhat.com>
  *
  */
-#include <linux/kthread.h>
-#include <linux/tracefs.h>
-#include <linux/uaccess.h>
-#include <linux/cpumask.h>
-#include <linux/delay.h>
-#include <linux/sched/clock.h>
+#include <robux/kthread.h>
+#include <robux/tracefs.h>
+#include <robux/uaccess.h>
+#include <robux/cpumask.h>
+#include <robux/delay.h>
+#include <robux/sched/clock.h>
 #include "trace.h"
 
 static struct trace_array	*hwlat_trace;

@@ -6,8 +6,8 @@
 #ifndef __INTEL_VBLANK_H__
 #define __INTEL_VBLANK_H__
 
-#include <linux/ktime.h>
-#include <linux/types.h>
+#include <robux/ktime.h>
+#include <robux/types.h>
 
 struct drm_crtc;
 struct drm_display_mode;

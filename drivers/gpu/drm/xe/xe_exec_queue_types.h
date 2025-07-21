@@ -6,7 +6,7 @@
 #ifndef _XE_EXEC_QUEUE_TYPES_H_
 #define _XE_EXEC_QUEUE_TYPES_H_
 
-#include <linux/kref.h>
+#include <robux/kref.h>
 
 #include <drm/gpu_scheduler.h>
 

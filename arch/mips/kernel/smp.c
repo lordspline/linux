@@ -6,27 +6,27 @@
  * Copyright (C) 2000, 2001 Silicon Graphics, Inc.
  * Copyright (C) 2000, 2001, 2003 Broadcom Corporation
  */
-#include <linux/cache.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/profile.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/threads.h>
-#include <linux/export.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/sched/mm.h>
-#include <linux/cpumask.h>
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/ftrace.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <robux/cache.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/profile.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
+#include <robux/threads.h>
+#include <robux/export.h>
+#include <robux/time.h>
+#include <robux/timex.h>
+#include <robux/sched/mm.h>
+#include <robux/cpumask.h>
+#include <robux/cpu.h>
+#include <robux/err.h>
+#include <robux/ftrace.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/cpu.h>
 #include <asm/ginvt.h>
 #include <asm/processor.h>

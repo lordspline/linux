@@ -36,14 +36,14 @@
  *   per device, not per bus
  */
 
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/gfp.h>
-#include <linux/usb.h>
-#include <linux/usbdevice_fs.h>
-#include <linux/usb/hcd.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/gfp.h>
+#include <robux/usb.h>
+#include <robux/usbdevice_fs.h>
+#include <robux/usb/hcd.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
 
 #include "usb.h"
 

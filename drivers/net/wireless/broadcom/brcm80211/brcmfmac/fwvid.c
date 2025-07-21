@@ -2,16 +2,16 @@
 /*
  * Copyright (c) 2022 Broadcom Corporation
  */
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/kmod.h>
-#include <linux/list.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/printk.h>
-#include <linux/jiffies.h>
-#include <linux/workqueue.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/kmod.h>
+#include <robux/list.h>
+#include <robux/completion.h>
+#include <robux/mutex.h>
+#include <robux/printk.h>
+#include <robux/jiffies.h>
+#include <robux/workqueue.h>
 
 #include "core.h"
 #include "bus.h"

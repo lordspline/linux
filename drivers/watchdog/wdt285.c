@@ -13,19 +13,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/miscdevice.h>
-#include <linux/watchdog.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/uaccess.h>
-#include <linux/irq.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/miscdevice.h>
+#include <robux/watchdog.h>
+#include <robux/reboot.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/uaccess.h>
+#include <robux/irq.h>
 #include <mach/hardware.h>
 
 #include <asm/mach-types.h>

@@ -8,7 +8,7 @@
  *
  */
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 #include "core.h"
 
 /* PMC SSRAM PMT Telemetry GUIDS */

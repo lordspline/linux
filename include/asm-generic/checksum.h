@@ -2,7 +2,7 @@
 #ifndef __ASM_GENERIC_CHECKSUM_H
 #define __ASM_GENERIC_CHECKSUM_H
 
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 
 /*
  * computes the checksum of a memory block at buff, length len,

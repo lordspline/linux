@@ -9,12 +9,12 @@
  * (C) 2013 Daniel Borkmann <dborkman@redhat.com>
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/skbuff.h>
-#include <linux/filter.h>
-#include <linux/bpf.h>
-#include <linux/idr.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/skbuff.h>
+#include <robux/filter.h>
+#include <robux/bpf.h>
+#include <robux/idr.h>
 
 #include <net/rtnetlink.h>
 #include <net/pkt_cls.h>

@@ -7,8 +7,8 @@
 #ifndef __FSL_DPAA2_GLOBAL_H
 #define __FSL_DPAA2_GLOBAL_H
 
-#include <linux/types.h>
-#include <linux/cpumask.h>
+#include <robux/types.h>
+#include <robux/cpumask.h>
 #include "dpaa2-fd.h"
 
 struct dpaa2_dq {

@@ -5,12 +5,12 @@
  * Copyright (C) 2014 ololoshka2871
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
 
 #include "fbtft.h"
 

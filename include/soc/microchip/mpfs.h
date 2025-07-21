@@ -12,8 +12,8 @@
 #ifndef __SOC_MPFS_H__
 #define __SOC_MPFS_H__
 
-#include <linux/types.h>
-#include <linux/of_device.h>
+#include <robux/types.h>
+#include <robux/of_device.h>
 
 struct mpfs_sys_controller;
 

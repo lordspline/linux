@@ -3,12 +3,12 @@
  * Copyright (C) 2007 Lemote Inc. & Institute of Computing Technology
  * Author: Fuxin Zhang, zhangfx@lemote.com
  */
-#include <linux/export.h>
-#include <linux/init.h>
+#include <robux/export.h>
+#include <robux/init.h>
 
 #include <asm/bootinfo.h>
-#include <linux/libfdt.h>
-#include <linux/of_fdt.h>
+#include <robux/libfdt.h>
+#include <robux/of_fdt.h>
 
 #include <asm/prom.h>
 

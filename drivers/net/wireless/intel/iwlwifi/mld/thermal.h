@@ -10,7 +10,7 @@
 struct iwl_mld;
 
 #ifdef CONFIG_THERMAL
-#include <linux/thermal.h>
+#include <robux/thermal.h>
 
 /*
  * struct iwl_mld_cooling_device

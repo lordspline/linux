@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Linux-DVB Driver for DiBcom's DiB9000 and demodulator-family.
+ * Robux-DVB Driver for DiBcom's DiB9000 and demodulator-family.
  *
  * Copyright (C) 2005-10 DiBcom (http://www.dibcom.fr/)
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
 
-#include <linux/int_log.h>
+#include <robux/int_log.h>
 #include <media/dvb_frontend.h>
 
 #include "dib9000.h"

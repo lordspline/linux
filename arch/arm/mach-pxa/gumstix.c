@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-pxa/gumstix.c
+ *  robux/arch/arm/mach-pxa/gumstix.c
  *
  *  Support for the Gumstix motherboards.
  *
@@ -12,25 +12,25 @@
  *  Hughes
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/property.h>
-#include <linux/gpio.h>
-#include <linux/err.h>
-#include <linux/clk.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/property.h>
+#include <robux/gpio.h>
+#include <robux/err.h>
+#include <robux/clk.h>
 
 #include <asm/setup.h>
 #include <asm/page.h>
 #include <asm/mach-types.h>
 #include <asm/irq.h>
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>
@@ -38,7 +38,7 @@
 #include <asm/mach/flash.h>
 
 #include "pxa25x.h"
-#include <linux/platform_data/mmc-pxamci.h>
+#include <robux/platform_data/mmc-pxamci.h>
 #include "udc.h"
 #include "gumstix.h"
 #include "devices.h"

@@ -12,27 +12,27 @@
 #define DRVNAME					PMUNAME "_pmu"
 #define pr_fmt(fmt)				DRVNAME ": " fmt
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/capability.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/perf_event.h>
-#include <linux/perf/arm_pmu.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/vmalloc.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/bug.h>
+#include <robux/capability.h>
+#include <robux/cpuhotplug.h>
+#include <robux/cpumask.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/perf_event.h>
+#include <robux/perf/arm_pmu.h>
+#include <robux/platform_device.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
+#include <robux/vmalloc.h>
 
 #include <asm/barrier.h>
 #include <asm/cpufeature.h>

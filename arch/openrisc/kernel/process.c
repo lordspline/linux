@@ -2,7 +2,7 @@
 /*
  * OpenRISC process.c
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Robux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -14,35 +14,35 @@
  */
 
 #define __KERNEL_SYSCALLS__
-#include <linux/cpu.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/sched/task_stack.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/stddef.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/elfcore.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/init_task.h>
-#include <linux/mqueue.h>
-#include <linux/fs.h>
-#include <linux/reboot.h>
+#include <robux/cpu.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task.h>
+#include <robux/sched/task_stack.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/mm.h>
+#include <robux/stddef.h>
+#include <robux/unistd.h>
+#include <robux/ptrace.h>
+#include <robux/slab.h>
+#include <robux/elfcore.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/init_task.h>
+#include <robux/mqueue.h>
+#include <robux/fs.h>
+#include <robux/reboot.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/fpu.h>
 #include <asm/io.h>
 #include <asm/processor.h>
 #include <asm/spr_defs.h>
 #include <asm/switch_to.h>
 
-#include <linux/smp.h>
+#include <robux/smp.h>
 
 /*
  * Pointer to Current thread info structure.

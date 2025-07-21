@@ -3,12 +3,12 @@
  *	Copyright IBM Corp. 1999, 2023
  */
 
-#include <linux/irqflags.h>
-#include <linux/spinlock.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/cache.h>
+#include <robux/irqflags.h>
+#include <robux/spinlock.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/cache.h>
 #include <asm/abs_lowcore.h>
 #include <asm/ctlreg.h>
 

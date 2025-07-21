@@ -7,11 +7,11 @@
  * Rajendra Nayak <rnayak@ti.com>
  */
 
-#include <linux/sched.h>
-#include <linux/cpuidle.h>
-#include <linux/cpu_pm.h>
-#include <linux/export.h>
-#include <linux/tick.h>
+#include <robux/sched.h>
+#include <robux/cpuidle.h>
+#include <robux/cpu_pm.h>
+#include <robux/export.h>
+#include <robux/tick.h>
 
 #include <asm/cpuidle.h>
 

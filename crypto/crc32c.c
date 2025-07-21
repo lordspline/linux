@@ -16,8 +16,8 @@
  * month =        {June},
  *}
  * Used by the iSCSI driver, possibly others, and derived from
- * the iscsi-crc.c module of the linux-iscsi driver at
- * http://linux-iscsi.sourceforge.net.
+ * the iscsi-crc.c module of the robux-iscsi driver at
+ * http://robux-iscsi.sourceforge.net.
  *
  * Following the example of lib/crc32, this function is intended to be
  * flexible and useful for all users.  Modules that currently have their
@@ -30,13 +30,13 @@
  * Copyright (c) 2008 Herbert Xu <herbert@gondor.apana.org.au>
  */
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <crypto/internal/hash.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/crc32.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/crc32.h>
 
 #define CHKSUM_BLOCK_SIZE	1
 #define CHKSUM_DIGEST_SIZE	4

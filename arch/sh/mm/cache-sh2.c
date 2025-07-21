@@ -6,8 +6,8 @@
  * Copyright (C) 2008 Yoshinori Sato
  */
 
-#include <linux/init.h>
-#include <linux/mm.h>
+#include <robux/init.h>
+#include <robux/mm.h>
 
 #include <asm/cache.h>
 #include <asm/addrspace.h>

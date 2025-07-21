@@ -7,8 +7,8 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/compiler.h>
-#include <linux/stringify.h>
+#include <robux/compiler.h>
+#include <robux/stringify.h>
 #include <asm/loongarch.h>
 
 static inline void arch_local_irq_enable(void)

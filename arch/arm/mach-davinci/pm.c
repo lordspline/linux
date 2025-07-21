@@ -5,12 +5,12 @@
  * Copyright (C) 2009 Texas Instruments, Inc. https://www.ti.com/
  */
 
-#include <linux/pm.h>
-#include <linux/suspend.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/spinlock.h>
+#include <robux/pm.h>
+#include <robux/suspend.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/spinlock.h>
 
 #include <asm/cacheflush.h>
 #include <asm/delay.h>

@@ -10,11 +10,11 @@
  *	Tomasz Jeznach <tjeznach@rivosinc.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/msi.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/msi.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 
 #include "iommu-bits.h"
 #include "iommu.h"

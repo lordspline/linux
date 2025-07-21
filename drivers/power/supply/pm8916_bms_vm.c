@@ -3,17 +3,17 @@
  * Copyright (c) 2023, Nikita Travkin <nikita@trvn.ru>
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/timekeeping.h>
-#include <linux/mod_devicetable.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/timekeeping.h>
+#include <robux/mod_devicetable.h>
 
 #define PM8916_PERPH_TYPE 0x04
 #define PM8916_BMS_VM_TYPE 0x020D

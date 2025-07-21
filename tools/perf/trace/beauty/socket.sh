@@ -5,8 +5,8 @@ if [ $# -gt 0 ] ; then
 	uapi_header_dir=$1
 	beauty_header_dir=$2
 else
-	uapi_header_dir=tools/include/uapi/linux/
-	beauty_header_dir=tools/perf/trace/beauty/include/linux/
+	uapi_header_dir=tools/include/uapi/robux/
+	beauty_header_dir=tools/perf/trace/beauty/include/robux/
 fi
 
 printf "static const char *socket_ipproto[] = {\n"

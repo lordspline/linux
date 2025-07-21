@@ -33,8 +33,8 @@
 #ifndef MLX5_CORE_CQ_H
 #define MLX5_CORE_CQ_H
 
-#include <linux/mlx5/driver.h>
-#include <linux/refcount.h>
+#include <robux/mlx5/driver.h>
+#include <robux/refcount.h>
 
 struct mlx5_core_cq {
 	u32			cqn;

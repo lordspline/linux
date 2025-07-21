@@ -9,18 +9,18 @@
 
 #define pr_fmt(fmt)    "%s: " fmt, __func__
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/jiffies.h>
-#include <linux/radix-tree.h>
-#include <linux/hwspinlock.h>
-#include <linux/pm_runtime.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/err.h>
+#include <robux/jiffies.h>
+#include <robux/radix-tree.h>
+#include <robux/hwspinlock.h>
+#include <robux/pm_runtime.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
 
 #include "hwspinlock_internal.h"
 

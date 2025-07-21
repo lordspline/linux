@@ -7,14 +7,14 @@
 
 #define DRIVER_NAME	"omap-elm"
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/sched.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_data/elm.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/sched.h>
+#include <robux/pm_runtime.h>
+#include <robux/platform_data/elm.h>
 
 #define ELM_SYSCONFIG			0x010
 #define ELM_IRQSTATUS			0x018

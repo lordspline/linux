@@ -4,10 +4,10 @@
  *
  * (C) Copyright 2004 Linus Torvalds
  */
-#include <linux/pci.h>
-#include <linux/io.h>
+#include <robux/pci.h>
+#include <robux/io.h>
 
-#include <linux/export.h>
+#include <robux/export.h>
 
 #include "pci.h" /* for pci_bar_index_is_valid() */
 

@@ -7,9 +7,9 @@
  *  All Rights Reserved
  */
 
-#include <linux/bitfield.h>
-#include <linux/cacheinfo.h>
-#include <linux/of.h>
+#include <robux/bitfield.h>
+#include <robux/cacheinfo.h>
+#include <robux/of.h>
 
 #include <asm/cachetype.h>
 #include <asm/cputype.h>

@@ -7,8 +7,8 @@
 #define __CPT_COMMON_H
 
 #include <asm/byteorder.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
 
 #include "cpt_hw_types.h"
 

@@ -6,10 +6,10 @@
 #ifndef _HFI1_FAULT_H
 #define _HFI1_FAULT_H
 
-#include <linux/fault-inject.h>
-#include <linux/dcache.h>
-#include <linux/bitops.h>
-#include <linux/kernel.h>
+#include <robux/fault-inject.h>
+#include <robux/dcache.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
 #include <rdma/rdma_vt.h>
 
 #include "hfi.h"

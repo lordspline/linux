@@ -4,9 +4,9 @@
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
 
-#include <linux/binfmts.h>
-#include <linux/elf.h>
-#include <linux/sched.h>
+#include <robux/binfmts.h>
+#include <robux/elf.h>
+#include <robux/sched.h>
 
 #include <asm/cpu-features.h>
 #include <asm/cpu-info.h>

@@ -49,12 +49,12 @@
  *  o buffer memory
  */
 
-#include <linux/bitops.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/sunrpc/svc_rdma.h>
-#include <linux/log2.h>
+#include <robux/bitops.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/sunrpc/addr.h>
+#include <robux/sunrpc/svc_rdma.h>
+#include <robux/log2.h>
 
 #include <asm/barrier.h>
 

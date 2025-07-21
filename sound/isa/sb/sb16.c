@@ -5,12 +5,12 @@
  */
 
 #include <asm/dma.h>
-#include <linux/init.h>
-#include <linux/pnp.h>
-#include <linux/err.h>
-#include <linux/isa.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/pnp.h>
+#include <robux/err.h>
+#include <robux/isa.h>
+#include <robux/module.h>
+#include <robux/string.h>
 #include <sound/core.h>
 #include <sound/sb.h>
 #include <sound/sb16_csp.h>

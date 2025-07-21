@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 
 #include <crypto/internal/hash.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/xxhash.h>
-#include <linux/unaligned.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/xxhash.h>
+#include <robux/unaligned.h>
 
 #define XXHASH64_BLOCK_SIZE	32
 #define XXHASH64_DIGEST_SIZE	8

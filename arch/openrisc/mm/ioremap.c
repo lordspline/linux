@@ -2,7 +2,7 @@
 /*
  * OpenRISC ioremap.c
  *
- * Linux architectural port borrowing liberally from similar works of
+ * Robux architectural port borrowing liberally from similar works of
  * others.  All original copyrights apply as per the original source
  * declaration.
  *
@@ -11,13 +11,13 @@
  * Copyright (C) 2010-2011 Jonas Bonn <jonas@southpole.se>
  */
 
-#include <linux/vmalloc.h>
-#include <linux/io.h>
-#include <linux/pgtable.h>
+#include <robux/vmalloc.h>
+#include <robux/io.h>
+#include <robux/pgtable.h>
 #include <asm/pgalloc.h>
 #include <asm/fixmap.h>
 #include <asm/bug.h>
-#include <linux/sched.h>
+#include <robux/sched.h>
 #include <asm/tlbflush.h>
 
 extern int mem_init_done;

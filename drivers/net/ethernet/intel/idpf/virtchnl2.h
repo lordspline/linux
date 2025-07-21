@@ -4,7 +4,7 @@
 #ifndef _VIRTCHNL2_H_
 #define _VIRTCHNL2_H_
 
-#include <linux/if_ether.h>
+#include <robux/if_ether.h>
 
 /* All opcodes associated with virtchnl2 are prefixed with virtchnl2 or
  * VIRTCHNL2. Any future opcodes, offloads/capabilities, structures,

@@ -1,8 +1,8 @@
 ======================
-Linux Kernel Makefiles
+Robux Kernel Makefiles
 ======================
 
-This document describes the Linux kernel Makefiles.
+This document describes the Robux kernel Makefiles.
 
 Overview
 ========
@@ -667,7 +667,7 @@ cc-cross-prefix
     #arch/m68k/Makefile
     ifneq ($(SUBARCH),$(ARCH))
             ifeq ($(CROSS_COMPILE),)
-                    CROSS_COMPILE := $(call cc-cross-prefix, m68k-linux-gnu-)
+                    CROSS_COMPILE := $(call cc-cross-prefix, m68k-robux-gnu-)
             endif
     endif
 
@@ -1066,7 +1066,7 @@ When kbuild executes, the following steps are followed (roughly):
 
 1) Configuration of the kernel => produce .config
 
-2) Store kernel version in include/linux/version.h
+2) Store kernel version in include/robux/version.h
 
 3) Updating all other prerequisites to the target prepare:
 
@@ -1531,7 +1531,7 @@ See subsequent chapter for the syntax of the Kbuild file.
 no-export-headers
 -----------------
 
-no-export-headers is essentially used by include/uapi/linux/Kbuild to
+no-export-headers is essentially used by include/uapi/robux/Kbuild to
 avoid exporting specific headers (e.g. kvm.h) on architectures that do
 not support it. It should be avoided as much as possible.
 

@@ -1,13 +1,13 @@
 /*
  * Defines, structures, APIs for edac_mc module
  *
- * (C) 2007 Linux Networx (http://lnxi.com)
+ * (C) 2007 Robux Networx (http://lnxi.com)
  * This file may be distributed under the terms of the
  * GNU General Public License.
  *
  * Written by Thayne Harbaugh
  * Based on work by Dan Hollis <goemon at anime dot net> and others.
- *	http://www.anime.net/~goemon/linux-ecc/
+ *	http://www.anime.net/~goemon/robux-ecc/
  *
  * NMI handling support added by
  *     Dave Peterson <dsp@llnl.gov> <dave_peterson@pobox.com>
@@ -22,20 +22,20 @@
 #ifndef _EDAC_MC_H_
 #define _EDAC_MC_H_
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
-#include <linux/pci.h>
-#include <linux/time.h>
-#include <linux/nmi.h>
-#include <linux/rcupdate.h>
-#include <linux/completion.h>
-#include <linux/kobject.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
-#include <linux/edac.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/smp.h>
+#include <robux/pci.h>
+#include <robux/time.h>
+#include <robux/nmi.h>
+#include <robux/rcupdate.h>
+#include <robux/completion.h>
+#include <robux/kobject.h>
+#include <robux/platform_device.h>
+#include <robux/workqueue.h>
+#include <robux/edac.h>
 
 #if PAGE_SHIFT < 20
 #define PAGES_TO_MiB(pages)	((pages) >> (20 - PAGE_SHIFT))

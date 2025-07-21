@@ -3,7 +3,7 @@
 #define _ASM_SH_SUSPEND_H
 
 #ifndef __ASSEMBLER__
-#include <linux/notifier.h>
+#include <robux/notifier.h>
 
 #include <asm/ptrace.h>
 

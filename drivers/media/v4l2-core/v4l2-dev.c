@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Video capture interface for Linux version 2
+ * Video capture interface for Robux version 2
  *
- *	A generic video device interface for the LINUX operating system
+ *	A generic video device interface for the ROBUX operating system
  *	using a set of device structures/vectors for low level operations.
  *
  * Authors:	Alan Cox, <alan@lxorguk.ukuu.org.uk> (version 1)
@@ -14,17 +14,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/kmod.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-device.h>
@@ -1203,14 +1203,14 @@ EXPORT_SYMBOL_GPL(video_device_pipeline);
 #endif /* CONFIG_MEDIA_CONTROLLER */
 
 /*
- *	Initialise video for linux
+ *	Initialise video for robux
  */
 static int __init videodev_init(void)
 {
 	dev_t dev = MKDEV(VIDEO_MAJOR, 0);
 	int ret;
 
-	pr_info("Linux video capture interface: v2.00\n");
+	pr_info("Robux video capture interface: v2.00\n");
 	ret = register_chrdev_region(dev, VIDEO_NUM_DEVICES, VIDEO_NAME);
 	if (ret < 0) {
 		pr_warn("videodev: unable to get major %d\n",

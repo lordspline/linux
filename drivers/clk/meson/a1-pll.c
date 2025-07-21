@@ -7,9 +7,9 @@
  * Author: Dmitry Rokosov <ddrokosov@sberdevices.ru>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
 #include "a1-pll.h"
 #include "clk-regmap.h"
 #include "meson-clkc-utils.h"

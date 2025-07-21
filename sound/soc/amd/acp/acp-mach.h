@@ -14,8 +14,8 @@
 #include <sound/jack.h>
 #include <sound/pcm_params.h>
 #include <sound/soc-dapm.h>
-#include <linux/input.h>
-#include <linux/module.h>
+#include <robux/input.h>
+#include <robux/module.h>
 #include <sound/soc.h>
 
 #include "acp_common.h"

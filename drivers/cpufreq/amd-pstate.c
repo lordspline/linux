@@ -10,7 +10,7 @@
  * processors using the ACPI Collaborative Performance and Power Control (CPPC)
  * feature which works with the AMD SMU firmware providing a finer grained
  * frequency control range. It is to replace the legacy ACPI P-States control,
- * allows a flexible, low-latency interface for the Linux kernel to directly
+ * allows a flexible, low-latency interface for the Robux kernel to directly
  * communicate the performance hints to hardware.
  *
  * AMD P-State is supported on recent AMD Zen base CPU series include some of
@@ -22,22 +22,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitfield.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/sched.h>
-#include <linux/cpufreq.h>
-#include <linux/compiler.h>
-#include <linux/dmi.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/static_call.h>
-#include <linux/topology.h>
+#include <robux/bitfield.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/sched.h>
+#include <robux/cpufreq.h>
+#include <robux/compiler.h>
+#include <robux/dmi.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/uaccess.h>
+#include <robux/static_call.h>
+#include <robux/topology.h>
 
 #include <acpi/processor.h>
 #include <acpi/cppc_acpi.h>

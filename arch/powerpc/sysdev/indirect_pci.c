@@ -5,11 +5,11 @@
  * Copyright (C) 1998 Gabriel Paubert.
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/string.h>
+#include <robux/init.h>
 
 #include <asm/io.h>
 #include <asm/pci-bridge.h>

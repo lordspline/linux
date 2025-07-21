@@ -7,9 +7,9 @@
  * Author: Richard Purdie <rpurdie@openedhand.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/leds.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/leds.h>
 
 #define BLINK_DELAY 30
 

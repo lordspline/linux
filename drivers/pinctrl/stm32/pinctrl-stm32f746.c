@@ -4,9 +4,9 @@
  * Copyright (C) STMicroelectronics 2017
  * Author:  Maxime Coquelin <mcoquelin.stm32@gmail.com>
  */
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include "pinctrl-stm32.h"
 

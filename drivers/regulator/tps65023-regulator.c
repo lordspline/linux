@@ -7,16 +7,16 @@
  * Copyright (C) 2009 Texas Instrument Incorporated - https://www.ti.com/
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/regmap.h>
 
 /* Register definitions */
 #define	TPS65023_REG_VERSION		0

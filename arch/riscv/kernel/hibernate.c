@@ -18,12 +18,12 @@
 #include <asm/smp.h>
 #include <asm/suspend.h>
 
-#include <linux/cpu.h>
-#include <linux/memblock.h>
-#include <linux/pm.h>
-#include <linux/sched.h>
-#include <linux/suspend.h>
-#include <linux/utsname.h>
+#include <robux/cpu.h>
+#include <robux/memblock.h>
+#include <robux/pm.h>
+#include <robux/sched.h>
+#include <robux/suspend.h>
+#include <robux/utsname.h>
 
 /* The logical cpu number we should resume on, initialised to a non-cpu number. */
 static int sleep_cpu = -EINVAL;

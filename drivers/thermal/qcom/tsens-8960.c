@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
+#include <robux/regmap.h>
+#include <robux/thermal.h>
 #include "tsens.h"
 
 #define CONFIG_ADDR		0x3640

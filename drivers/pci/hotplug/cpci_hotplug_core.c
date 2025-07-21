@@ -11,17 +11,17 @@
  * Send feedback to <scottm@somanetworks.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/atomic.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/pci_hotplug.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/atomic.h>
+#include <robux/delay.h>
+#include <robux/kthread.h>
 #include "cpci_hotplug.h"
 
 #define DRIVER_AUTHOR	"Scott Murray <scottm@somanetworks.com>"

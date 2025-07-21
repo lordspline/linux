@@ -7,11 +7,11 @@
  * Written by Ryusuke Konishi.
  */
 
-#include <linux/buffer_head.h>
-#include <linux/blkdev.h>
-#include <linux/swap.h>
-#include <linux/slab.h>
-#include <linux/crc32.h>
+#include <robux/buffer_head.h>
+#include <robux/blkdev.h>
+#include <robux/swap.h>
+#include <robux/slab.h>
+#include <robux/crc32.h>
 #include "nilfs.h"
 #include "segment.h"
 #include "sufile.h"

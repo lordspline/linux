@@ -10,15 +10,15 @@
   Maintainer: Giuseppe Cavallaro <peppe.cavallaro@st.com>
 *******************************************************************************/
 
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mii.h>
-#include <linux/of_mdio.h>
-#include <linux/pm_runtime.h>
-#include <linux/phy.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/gpio/consumer.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/mii.h>
+#include <robux/of_mdio.h>
+#include <robux/pm_runtime.h>
+#include <robux/phy.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
 #include "dwxgmac2.h"
 #include "stmmac.h"

@@ -6,13 +6,13 @@
  *	    Keyur Chudgar <kchudgar@apm.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/acpi.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/io.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include "xgene_enet_main.h"
 #include "xgene_enet_hw.h"

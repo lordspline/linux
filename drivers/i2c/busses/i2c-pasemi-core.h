@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <linux/atomic.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/i2c-smbus.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/completion.h>
+#include <robux/atomic.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/i2c-smbus.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/completion.h>
 
 #define PASEMI_HW_REV_PCI -1
 

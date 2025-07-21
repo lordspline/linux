@@ -16,14 +16,14 @@
  * This driver uses "csrows" EDAC attribute to represent DIMM slot#
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/slab.h>
-#include <linux/edac.h>
-#include <linux/mmzone.h>
-#include <linux/string_choices.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/slab.h>
+#include <robux/edac.h>
+#include <robux/mmzone.h>
+#include <robux/string_choices.h>
 
 #include "edac_module.h"
 

@@ -8,21 +8,21 @@
 
 #define pr_fmt(fmt) "CPUidle PSCI: " fmt
 
-#include <linux/cpuhotplug.h>
-#include <linux/cpu_cooling.h>
-#include <linux/cpuidle.h>
-#include <linux/cpumask.h>
-#include <linux/cpu_pm.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/device/faux.h>
-#include <linux/psci.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/syscore_ops.h>
+#include <robux/cpuhotplug.h>
+#include <robux/cpu_cooling.h>
+#include <robux/cpuidle.h>
+#include <robux/cpumask.h>
+#include <robux/cpu_pm.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/device/faux.h>
+#include <robux/psci.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/syscore_ops.h>
 
 #include <asm/cpuidle.h>
 #include <trace/events/power.h>

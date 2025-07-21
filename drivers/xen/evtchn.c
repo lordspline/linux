@@ -9,7 +9,7 @@
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License version 2
  * as published by the Free Software Foundation; or, when distributed
- * separately from the Linux kernel or incorporated into other
+ * separately from the Robux kernel or incorporated into other
  * software packages, subject to the following license:
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -33,24 +33,24 @@
 
 #define pr_fmt(fmt) "xen:" KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/major.h>
-#include <linux/proc_fs.h>
-#include <linux/stat.h>
-#include <linux/poll.h>
-#include <linux/irq.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
-#include <linux/cpu.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/miscdevice.h>
+#include <robux/major.h>
+#include <robux/proc_fs.h>
+#include <robux/stat.h>
+#include <robux/poll.h>
+#include <robux/irq.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
+#include <robux/cpu.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
 
 #include <xen/xen.h>
 #include <xen/events.h>

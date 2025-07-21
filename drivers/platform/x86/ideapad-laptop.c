@@ -8,31 +8,31 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/backlight.h>
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/i8042.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/platform_profile.h>
-#include <linux/rfkill.h>
-#include <linux/seq_file.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/wmi.h>
+#include <robux/acpi.h>
+#include <robux/backlight.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/bug.h>
+#include <robux/cleanup.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dmi.h>
+#include <robux/i8042.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/input/sparse-keymap.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/platform_profile.h>
+#include <robux/rfkill.h>
+#include <robux/seq_file.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
+#include <robux/wmi.h>
 #include "ideapad-laptop.h"
 
 #include <acpi/video.h>
@@ -1893,7 +1893,7 @@ static void ideapad_acpi_notify(acpi_handle handle, u32 event, void *data)
 			 * tent/stand/tablet mode. The EC relies on getting
 			 * angle info from 2 accelerometers through a special
 			 * windows service calling a DSM on the DUAL250E ACPI-
-			 * device. Linux does not do this, making the laptop/
+			 * device. Robux does not do this, making the laptop/
 			 * tent/stand/tablet mode info unreliable, so we simply
 			 * ignore these events.
 			 */

@@ -6,18 +6,18 @@
  */
 
 #define pr_fmt(fmt) "riscv-intc: " fmt
-#include <linux/acpi.h>
-#include <linux/atomic.h>
-#include <linux/bits.h>
-#include <linux/cpu.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/smp.h>
-#include <linux/soc/andes/irq.h>
+#include <robux/acpi.h>
+#include <robux/atomic.h>
+#include <robux/bits.h>
+#include <robux/cpu.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/smp.h>
+#include <robux/soc/andes/irq.h>
 
 #include <asm/hwcap.h>
 

@@ -8,9 +8,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/hid.h>
-#include <linux/backlight.h>
-#include <linux/device.h>
+#include <robux/hid.h>
+#include <robux/backlight.h>
+#include <robux/device.h>
 
 #include "hid-ids.h"
 

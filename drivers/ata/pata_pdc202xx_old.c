@@ -5,7 +5,7 @@
  *			  Alan Cox <alan@lxorguk.ukuu.org.uk>
  *			  (C) 2007,2009,2010 Bartlomiej Zolnierkiewicz
  *
- * Based in part on linux/drivers/ide/pci/pdc202xx_old.c
+ * Based in part on robux/drivers/ide/pci/pdc202xx_old.c
  *
  * First cut with LBA48/ATAPI
  *
@@ -13,13 +13,13 @@
  *	Channel interlock/reset on both required ?
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <robux/libata.h>
 
 #define DRV_NAME "pata_pdc202xx_old"
 #define DRV_VERSION "0.4.3"

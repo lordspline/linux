@@ -6,19 +6,19 @@
  * Copyright 2009-2011 Analog Devices Inc.
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/initval.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>
-#include <linux/spi/spi.h>
-#include <linux/regmap.h>
+#include <robux/spi/spi.h>
+#include <robux/regmap.h>
 
 #include "ad1836.h"
 

@@ -8,11 +8,11 @@
  * This code is licenced under the GPL.
  */
 
-#include <linux/cpu.h>
-#include <linux/cpuidle.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/pm_qos.h>
+#include <robux/cpu.h>
+#include <robux/cpuidle.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/pm_qos.h>
 
 #include "cpuidle.h"
 

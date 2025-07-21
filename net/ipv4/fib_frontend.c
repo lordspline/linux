@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the ROBUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -9,28 +9,28 @@
  * Authors:	Alexey Kuznetsov, <kuznet@ms2.inr.ac.ru>
  */
 
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/bitops.h>
-#include <linux/capability.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
-#include <linux/errno.h>
-#include <linux/in.h>
-#include <linux/inet.h>
-#include <linux/inetdevice.h>
-#include <linux/netdevice.h>
-#include <linux/if_addr.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
-#include <linux/cache.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
+#include <robux/bitops.h>
+#include <robux/capability.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/string.h>
+#include <robux/socket.h>
+#include <robux/sockios.h>
+#include <robux/errno.h>
+#include <robux/in.h>
+#include <robux/inet.h>
+#include <robux/inetdevice.h>
+#include <robux/netdevice.h>
+#include <robux/if_addr.h>
+#include <robux/if_arp.h>
+#include <robux/skbuff.h>
+#include <robux/cache.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/slab.h>
 
 #include <net/inet_dscp.h>
 #include <net/ip.h>

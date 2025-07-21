@@ -9,11 +9,11 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/buffer_head.h>
-#include <linux/mm.h>
-#include <linux/backing-dev.h>
-#include <linux/gfp.h>
+#include <robux/types.h>
+#include <robux/buffer_head.h>
+#include <robux/mm.h>
+#include <robux/backing-dev.h>
+#include <robux/gfp.h>
 #include "nilfs.h"
 #include "mdt.h"
 #include "dat.h"

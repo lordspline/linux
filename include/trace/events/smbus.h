@@ -10,8 +10,8 @@
 #if !defined(_TRACE_SMBUS_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_SMBUS_H
 
-#include <linux/i2c.h>
-#include <linux/tracepoint.h>
+#include <robux/i2c.h>
+#include <robux/tracepoint.h>
 
 /*
  * drivers/i2c/i2c-core-smbus.c

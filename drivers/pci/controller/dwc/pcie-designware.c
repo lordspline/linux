@@ -8,19 +8,19 @@
  * Author: Jingoo Han <jg1.han@samsung.com>
  */
 
-#include <linux/align.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma/edma.h>
-#include <linux/gpio/consumer.h>
-#include <linux/ioport.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pcie-dwc.h>
-#include <linux/platform_device.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <robux/align.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dma/edma.h>
+#include <robux/gpio/consumer.h>
+#include <robux/ioport.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/pcie-dwc.h>
+#include <robux/platform_device.h>
+#include <robux/sizes.h>
+#include <robux/types.h>
 
 #include "../../pci.h"
 #include "pcie-designware.h"

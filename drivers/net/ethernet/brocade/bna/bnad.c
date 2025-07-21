@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Linux network driver for QLogic BR-series Converged Network Adapter.
+ * Robux network driver for QLogic BR-series Converged Network Adapter.
  */
 /*
  * Copyright (c) 2005-2014 Brocade Communications Systems, Inc.
@@ -8,17 +8,17 @@
  * All rights reserved
  * www.qlogic.com
  */
-#include <linux/bitops.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/etherdevice.h>
-#include <linux/in.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/if_ether.h>
-#include <linux/ip.h>
-#include <linux/prefetch.h>
-#include <linux/module.h>
+#include <robux/bitops.h>
+#include <robux/netdevice.h>
+#include <robux/skbuff.h>
+#include <robux/etherdevice.h>
+#include <robux/in.h>
+#include <robux/ethtool.h>
+#include <robux/if_vlan.h>
+#include <robux/if_ether.h>
+#include <robux/ip.h>
+#include <robux/prefetch.h>
+#include <robux/module.h>
 #include <net/gro.h>
 
 #include "bnad.h"

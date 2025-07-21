@@ -2,10 +2,10 @@
 #ifndef _BCACHEFS_OPTS_H
 #define _BCACHEFS_OPTS_H
 
-#include <linux/bug.h>
-#include <linux/log2.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
+#include <robux/bug.h>
+#include <robux/log2.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
 #include "bcachefs_format.h"
 
 struct bch_fs;

@@ -7,10 +7,10 @@
  * Written by Koji Sato.
  */
 
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/pagevec.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/pagevec.h>
 #include "nilfs.h"
 #include "page.h"
 #include "btnode.h"

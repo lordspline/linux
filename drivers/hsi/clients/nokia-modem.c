@@ -7,13 +7,13 @@
  * Copyright (C) 2014 Sebastian Reichel <sre@kernel.org>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/hsi/hsi.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/hsi/ssi_protocol.h>
+#include <robux/gpio/consumer.h>
+#include <robux/hsi/hsi.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/hsi/ssi_protocol.h>
 
 static unsigned int pm = 1;
 module_param(pm, int, 0400);

@@ -4,9 +4,9 @@
 #ifndef PVR_FW_INFO_H
 #define PVR_FW_INFO_H
 
-#include <linux/bits.h>
-#include <linux/sizes.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/sizes.h>
+#include <robux/types.h>
 
 /*
  * Firmware binary block unit in bytes.

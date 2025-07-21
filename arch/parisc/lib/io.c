@@ -8,8 +8,8 @@
  * IO accessing functions which shouldn't be inlined because they're too big
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 #include <asm/io.h>
 
 /*

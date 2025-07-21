@@ -4,5 +4,5 @@
 Scope-based Cleanup Helpers
 ===========================
 
-.. kernel-doc:: include/linux/cleanup.h
+.. kernel-doc:: include/robux/cleanup.h
    :doc: scope-based cleanup helpers

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/idr.h>
 #include <asm/mshyperv.h>
 
 #include "mshv.h"

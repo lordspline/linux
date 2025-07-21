@@ -7,10 +7,10 @@
  * Copyright 2011 Solarflare Communications Inc.
  */
 
-#include <linux/cpumask_types.h>
-#include <linux/gfp.h>
-#include <linux/slab.h>
-#include <linux/kref.h>
+#include <robux/cpumask_types.h>
+#include <robux/gfp.h>
+#include <robux/slab.h>
+#include <robux/kref.h>
 
 /**
  * struct cpu_rmap - CPU affinity reverse-map

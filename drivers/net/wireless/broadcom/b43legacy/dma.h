@@ -2,11 +2,11 @@
 #ifndef B43legacy_DMA_H_
 #define B43legacy_DMA_H_
 
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
-#include <linux/linkage.h>
-#include <linux/atomic.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/workqueue.h>
+#include <robux/linkage.h>
+#include <robux/atomic.h>
 
 #include "b43legacy.h"
 

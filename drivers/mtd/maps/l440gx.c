@@ -5,13 +5,13 @@
  * Bugs this currently does not work under linuxBIOS.
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
 #include <asm/io.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/map.h>
 
 #define PIIXE_IOBASE_RESOURCE	11
 

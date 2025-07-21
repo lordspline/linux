@@ -6,16 +6,16 @@
  * Copyright (C) 2013-2014 Marvell
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/mbus.h>
-#include <linux/of_platform.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/mbus.h>
+#include <robux/of_platform.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
 
 /* Register definitions */
 #define ARMADA_DEV_WIDTH_SHIFT		30

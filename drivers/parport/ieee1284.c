@@ -16,14 +16,14 @@
  * Various hacks, Fred Barnes <frmb2@ukc.ac.uk>, 04/2000
  */
 
-#include <linux/module.h>
-#include <linux/threads.h>
-#include <linux/parport.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/sched/signal.h>
+#include <robux/module.h>
+#include <robux/threads.h>
+#include <robux/parport.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/timer.h>
+#include <robux/sched/signal.h>
 
 #undef DEBUG /* undef me for production */
 

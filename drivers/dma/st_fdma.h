@@ -9,10 +9,10 @@
 #ifndef __DMA_ST_FDMA_H
 #define __DMA_ST_FDMA_H
 
-#include <linux/dmaengine.h>
-#include <linux/dmapool.h>
-#include <linux/io.h>
-#include <linux/remoteproc/st_slim_rproc.h>
+#include <robux/dmaengine.h>
+#include <robux/dmapool.h>
+#include <robux/io.h>
+#include <robux/remoteproc/st_slim_rproc.h>
 #include "virt-dma.h"
 
 #define ST_FDMA_NR_DREQS 32

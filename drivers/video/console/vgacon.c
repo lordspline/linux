@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/vgacon.c -- Low level VGA based console driver
+ *  robux/drivers/video/vgacon.c -- Low level VGA based console driver
  *
  *	Created 28 Sep 1997 by Geert Uytterhoeven
  *
@@ -14,7 +14,7 @@
  *	<crosser@average.org>
  *
  *	Improved loadable font/UTF-8 support by H. Peter Anvin
- *	Feb-Sep 1995 <peter.anvin@linux.org>
+ *	Feb-Sep 1995 <peter.anvin@robux.org>
  *
  *	Colour palette handling, by Simon Tatham
  *	17-Jun-95 <sgt20@cam.ac.uk>
@@ -33,21 +33,21 @@
  *  more details.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/console.h>
-#include <linux/string.h>
-#include <linux/kd.h>
-#include <linux/slab.h>
-#include <linux/vt_kern.h>
-#include <linux/sched.h>
-#include <linux/selection.h>
-#include <linux/spinlock.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/screen_info.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/console.h>
+#include <robux/string.h>
+#include <robux/kd.h>
+#include <robux/slab.h>
+#include <robux/vt_kern.h>
+#include <robux/sched.h>
+#include <robux/selection.h>
+#include <robux/spinlock.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/screen_info.h>
 #include <video/vga.h>
 #include <asm/io.h>
 

@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/message/fusion/mptioctl.h
+ *  robux/drivers/message/fusion/mptioctl.h
  *      Fusion MPT misc device (ioctl) driver.
  *      For use with PCI chip/adapter(s):
  *          LSIFC9xx/LSI409xx Fibre Channel

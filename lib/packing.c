@@ -2,13 +2,13 @@
 /* Copyright 2016-2018 NXP
  * Copyright (c) 2018-2019, Vladimir Oltean <olteanv@gmail.com>
  */
-#include <linux/packing.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/bitrev.h>
+#include <robux/packing.h>
+#include <robux/module.h>
+#include <robux/bitops.h>
+#include <robux/bits.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/bitrev.h>
 
 #define __pack_fields(pbuf, pbuflen, ustruct, fields, num_fields, quirks)	\
 	({									\

@@ -7,7 +7,7 @@
 #ifndef _ASMARM_PGTABLE_H
 #define _ASMARM_PGTABLE_H
 
-#include <linux/const.h>
+#include <robux/const.h>
 #include <asm/proc-fns.h>
 
 #ifndef __ASSEMBLY__
@@ -139,7 +139,7 @@ extern pgprot_t phys_mem_access_prot(struct file *file, unsigned long pfn,
 
 /*
  * The table below defines the page protection levels that we insert into our
- * Linux page table version.  These get translated into the best that the
+ * Robux page table version.  These get translated into the best that the
  * architecture can perform.  Note that on most ARM hardware:
  *  1) We cannot do execute protection
  *  2) If we could do execute protection, then read is implied

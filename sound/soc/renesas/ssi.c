@@ -24,9 +24,9 @@
  *	fixed TDM slot size, regardless of sample resolution.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/initval.h>

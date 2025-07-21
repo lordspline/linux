@@ -6,9 +6,9 @@
  *    Author(s): Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/sysctl.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
+#include <robux/sysctl.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
 #include <asm/mmu_context.h>
 #include <asm/page-states.h>
 #include <asm/pgalloc.h>

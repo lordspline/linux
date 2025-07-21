@@ -7,11 +7,11 @@
 #ifndef __DPLL_H__
 #define __DPLL_H__
 
-#include <uapi/linux/dpll.h>
-#include <linux/device.h>
-#include <linux/netlink.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
+#include <uapi/robux/dpll.h>
+#include <robux/device.h>
+#include <robux/netlink.h>
+#include <robux/netdevice.h>
+#include <robux/rtnetlink.h>
 
 struct dpll_device;
 struct dpll_pin;

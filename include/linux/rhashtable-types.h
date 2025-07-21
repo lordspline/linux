@@ -9,11 +9,11 @@
 #ifndef _LINUX_RHASHTABLE_TYPES_H
 #define _LINUX_RHASHTABLE_TYPES_H
 
-#include <linux/alloc_tag.h>
-#include <linux/atomic.h>
-#include <linux/compiler.h>
-#include <linux/mutex.h>
-#include <linux/workqueue_types.h>
+#include <robux/alloc_tag.h>
+#include <robux/atomic.h>
+#include <robux/compiler.h>
+#include <robux/mutex.h>
+#include <robux/workqueue_types.h>
 
 struct rhash_head {
 	struct rhash_head __rcu		*next;

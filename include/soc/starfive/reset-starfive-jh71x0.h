@@ -2,9 +2,9 @@
 #ifndef __SOC_STARFIVE_RESET_JH71X0_H
 #define __SOC_STARFIVE_RESET_JH71X0_H
 
-#include <linux/auxiliary_bus.h>
-#include <linux/compiler_types.h>
-#include <linux/container_of.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/compiler_types.h>
+#include <robux/container_of.h>
 
 struct jh71x0_reset_adev {
 	void __iomem *base;

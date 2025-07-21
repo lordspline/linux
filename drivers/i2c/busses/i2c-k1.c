@@ -3,12 +3,12 @@
  * Copyright (C) 2024-2025 Troy Mitchell <troymitchell988@gmail.com>
  */
 
- #include <linux/clk.h>
- #include <linux/i2c.h>
- #include <linux/iopoll.h>
- #include <linux/module.h>
- #include <linux/of_address.h>
- #include <linux/platform_device.h>
+ #include <robux/clk.h>
+ #include <robux/i2c.h>
+ #include <robux/iopoll.h>
+ #include <robux/module.h>
+ #include <robux/of_address.h>
+ #include <robux/platform_device.h>
 
 /* spacemit i2c registers */
 #define SPACEMIT_ICR		 0x0		/* Control register */

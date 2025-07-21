@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/vmcore_info.h>
-#include <linux/mm.h>
+#include <robux/vmcore_info.h>
+#include <robux/mm.h>
 
 void arch_crash_save_vmcoreinfo(void)
 {

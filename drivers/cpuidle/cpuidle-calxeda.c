@@ -9,17 +9,17 @@
  * Maintainer: Rob Herring <rob.herring@calxeda.com>
  */
 
-#include <linux/cpuidle.h>
-#include <linux/cpu_pm.h>
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/platform_device.h>
-#include <linux/psci.h>
+#include <robux/cpuidle.h>
+#include <robux/cpu_pm.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/platform_device.h>
+#include <robux/psci.h>
 
 #include <asm/cpuidle.h>
 #include <asm/suspend.h>
 
-#include <uapi/linux/psci.h>
+#include <uapi/robux/psci.h>
 
 #define CALXEDA_IDLE_PARAM \
 	((0 << PSCI_0_2_POWER_STATE_ID_SHIFT) | \

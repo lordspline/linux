@@ -5,22 +5,22 @@
  * Copyright (C) 2008 Intel Corp.
  *
  * Author: Sarah Sharp
- * Some code borrowed from the Linux EHCI driver.
+ * Some code borrowed from the Robux EHCI driver.
  */
 
-#include <linux/jiffies.h>
-#include <linux/pci.h>
-#include <linux/iommu.h>
-#include <linux/iopoll.h>
-#include <linux/irq.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/dmi.h>
-#include <linux/dma-mapping.h>
-#include <linux/usb/xhci-sideband.h>
+#include <robux/jiffies.h>
+#include <robux/pci.h>
+#include <robux/iommu.h>
+#include <robux/iopoll.h>
+#include <robux/irq.h>
+#include <robux/log2.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/dmi.h>
+#include <robux/dma-mapping.h>
+#include <robux/usb/xhci-sideband.h>
 
 #include "xhci.h"
 #include "xhci-trace.h"

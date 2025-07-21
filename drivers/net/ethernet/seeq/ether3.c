@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/acorn/net/ether3.c
+ *  robux/drivers/acorn/net/ether3.c
  *
  *  Copyright (C) 1995-2000 Russell King
  *
@@ -29,8 +29,8 @@
  *				RX interrupt.
  * 1.10	RMK	15/07/1997	Fixed autoprobing of NQ8004.
  * 1.11	RMK	16/11/1997	Fixed autoprobing of NQ8005A.
- * 1.12	RMK	31/12/1997	Removed reference to dev_tint for Linux 2.1.
- *      RMK	27/06/1998	Changed asm/delay.h to linux/delay.h.
+ * 1.12	RMK	31/12/1997	Removed reference to dev_tint for Robux 2.1.
+ *      RMK	27/06/1998	Changed asm/delay.h to robux/delay.h.
  * 1.13	RMK	29/06/1998	Fixed problem with transmission of packets.
  *				Chip seems to have a bug in, whereby if the
  *				packet starts two bytes from the end of the
@@ -43,23 +43,23 @@
  * 1.17	RMK	13/05/2000	Updated for 2.3.99-pre8
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/in.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/in.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
 
 #include <asm/ecard.h>
 #include <asm/io.h>

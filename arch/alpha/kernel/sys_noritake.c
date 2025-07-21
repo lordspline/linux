@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/sys_noritake.c
+ *	robux/arch/alpha/kernel/sys_noritake.c
  *
  *	Copyright (C) 1995 David A Rusling
  *	Copyright (C) 1996 Jay A Estabrook
@@ -10,13 +10,13 @@
  * CORELLE (AlphaServer 800), and ALCOR Primo (AlphaStation 600A).
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/bitops.h>
 
 #include <asm/ptrace.h>
 #include <asm/mce.h>

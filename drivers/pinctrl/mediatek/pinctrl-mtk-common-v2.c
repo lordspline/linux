@@ -7,14 +7,14 @@
  */
 
 #include <dt-bindings/pinctrl/mt65xx.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 #include "mtk-eint.h"
 #include "pinctrl-mtk-common-v2.h"

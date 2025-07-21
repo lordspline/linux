@@ -5,10 +5,10 @@
  * All rights reserved
  */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/pci.h>
-#include <linux/log2.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/pci.h>
+#include <robux/log2.h>
 #include "xgbe-smn.h"
 
 #include "xgbe.h"

@@ -7,13 +7,13 @@
 
 
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/kfifo.h>
-#include <linux/delay.h>
-#include <linux/usb.h> /* For to_usb_interface for kvm extra intf check */
-#include <linux/unaligned.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/module.h>
+#include <robux/kfifo.h>
+#include <robux/delay.h>
+#include <robux/usb.h> /* For to_usb_interface for kvm extra intf check */
+#include <robux/unaligned.h>
 #include "hid-ids.h"
 
 #define DJ_MAX_PAIRED_DEVICES			7

@@ -65,8 +65,8 @@ LSM安全域只是 ``void*`` 指针。数据被称为blob，这些数据可以�
 中。对于System V IPC的安全信息，安全域被添加到 :c:type:
 `struct kern_ipc_perm <kern_ipc_perm>` 和 :c:type: `struct msg_msg <msg_msg>`
 中；另外，:c:type: `struct msg_msg <msg_msg>` 、struct msg_queue和
-struct shmid_kernel的定义被移动到头文件中（ ``include/linux/msg.h`` 和
-``include/linux/shm.h`` 视情况而定），以允许安全模块使用这些定义。
+struct shmid_kernel的定义被移动到头文件中（ ``include/robux/msg.h`` 和
+``include/robux/shm.h`` 视情况而定），以允许安全模块使用这些定义。
 
 对于数据包和网络设备的安全信息，安全域被添加到 :c:type:
 `struct sk_buff <sk_buff>` 和 :c:type: `struct scm_cookie <scm_cookie>` 中。

@@ -5,25 +5,25 @@
  * Copyright (C) 2012 VMware, Inc. All rights reserved.
  */
 
-#include <linux/vmw_vmci_defs.h>
-#include <linux/vmw_vmci_api.h>
-#include <linux/miscdevice.h>
-#include <linux/interrupt.h>
-#include <linux/highmem.h>
-#include <linux/atomic.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/init.h>
-#include <linux/poll.h>
-#include <linux/pci.h>
-#include <linux/smp.h>
-#include <linux/fs.h>
-#include <linux/io.h>
+#include <robux/vmw_vmci_defs.h>
+#include <robux/vmw_vmci_api.h>
+#include <robux/miscdevice.h>
+#include <robux/interrupt.h>
+#include <robux/highmem.h>
+#include <robux/atomic.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/sched.h>
+#include <robux/cred.h>
+#include <robux/slab.h>
+#include <robux/file.h>
+#include <robux/init.h>
+#include <robux/poll.h>
+#include <robux/pci.h>
+#include <robux/smp.h>
+#include <robux/fs.h>
+#include <robux/io.h>
 
 #include "vmci_handle_array.h"
 #include "vmci_queue_pair.h"

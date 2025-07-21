@@ -23,8 +23,8 @@
  *
  */
 
-#include <linux/string_helpers.h>
-#include <linux/uaccess.h>
+#include <robux/string_helpers.h>
+#include <robux/uaccess.h>
 #include <media/cec-notifier.h>
 
 #include "dc.h"

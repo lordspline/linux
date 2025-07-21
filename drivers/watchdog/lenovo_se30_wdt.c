@@ -5,15 +5,15 @@
 
 #define dev_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/io.h>
-#include <linux/dmi.h>
-#include <linux/delay.h>
-#include <linux/iommu.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <robux/io.h>
+#include <robux/dmi.h>
+#include <robux/delay.h>
+#include <robux/iommu.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/watchdog.h>
 
 #define IOREGION_OFFSET	4 /* Use EC port 1 */
 #define IOREGION_LENGTH	4

@@ -5,20 +5,20 @@
  * Detect the decompression method based on magic number
  */
 
-#include <linux/decompress/generic.h>
+#include <robux/decompress/generic.h>
 
-#include <linux/decompress/bunzip2.h>
-#include <linux/decompress/unlzma.h>
-#include <linux/decompress/unxz.h>
-#include <linux/decompress/inflate.h>
-#include <linux/decompress/unlzo.h>
-#include <linux/decompress/unlz4.h>
-#include <linux/decompress/unzstd.h>
+#include <robux/decompress/bunzip2.h>
+#include <robux/decompress/unlzma.h>
+#include <robux/decompress/unxz.h>
+#include <robux/decompress/inflate.h>
+#include <robux/decompress/unlzo.h>
+#include <robux/decompress/unlz4.h>
+#include <robux/decompress/unzstd.h>
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/printk.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/printk.h>
 
 #ifndef CONFIG_DECOMPRESS_GZIP
 # define gunzip NULL

@@ -13,12 +13,12 @@
 #define __CS42L42_H__
 
 #include <dt-bindings/sound/cs42l42.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/soundwire/sdw.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/soundwire/sdw.h>
 #include <sound/jack.h>
 #include <sound/cs42l42.h>
 #include <sound/soc-component.h>

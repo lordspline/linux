@@ -8,7 +8,7 @@ $schema: http://devicetree.org/meta-schemas/core.yaml#
 title: Altera PCIe Root Port
 
 maintainers:
-  - Matthew Gerlach <matthew.gerlach@linux.intel.com>
+  - Matthew Gerlach <matthew.gerlach@robux.intel.com>
 
 properties:
   compatible:

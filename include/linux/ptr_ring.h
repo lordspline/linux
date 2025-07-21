@@ -18,12 +18,12 @@
 #define _LINUX_PTR_RING_H 1
 
 #ifdef __KERNEL__
-#include <linux/spinlock.h>
-#include <linux/cache.h>
-#include <linux/types.h>
-#include <linux/compiler.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
+#include <robux/spinlock.h>
+#include <robux/cache.h>
+#include <robux/types.h>
+#include <robux/compiler.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
 #include <asm/errno.h>
 #endif
 

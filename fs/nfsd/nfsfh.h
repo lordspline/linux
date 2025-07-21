@@ -8,11 +8,11 @@
 #ifndef _LINUX_NFSD_NFSFH_H
 #define _LINUX_NFSD_NFSFH_H
 
-#include <linux/crc32.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/iversion.h>
-#include <linux/exportfs.h>
-#include <linux/nfs4.h>
+#include <robux/crc32.h>
+#include <robux/sunrpc/svc.h>
+#include <robux/iversion.h>
+#include <robux/exportfs.h>
+#include <robux/nfs4.h>
 
 /*
  * The file handle starts with a sequence of four-byte words.
@@ -41,7 +41,7 @@
  * The fileid_type identifies how the file within the filesystem is encoded.
  *   The values for this field are filesystem specific, exccept that
  *   filesystems must not use the values '0' or '0xff'. 'See enum fid_type'
- *   in include/linux/exportfs.h for currently registered values.
+ *   in include/robux/exportfs.h for currently registered values.
  */
 
 struct knfsd_fh {

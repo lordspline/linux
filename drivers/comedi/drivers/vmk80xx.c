@@ -5,7 +5,7 @@
  *
  * Copyright (C) 2009 Manuel Gebele <forensixs@gmx.de>, Germany
  *
- * COMEDI - Linux Control and Measurement Device Interface
+ * COMEDI - Robux Control and Measurement Device Interface
  * Copyright (C) 2000 David A. Schleef <ds@schleef.org>
  */
 
@@ -27,15 +27,15 @@
  *  - pwm
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/errno.h>
-#include <linux/input.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/uaccess.h>
-#include <linux/comedi/comedi_usb.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/errno.h>
+#include <robux/input.h>
+#include <robux/slab.h>
+#include <robux/poll.h>
+#include <robux/uaccess.h>
+#include <robux/comedi/comedi_usb.h>
 
 enum {
 	DEVICE_VMK8055,

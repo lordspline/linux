@@ -8,11 +8,11 @@
 /*
  * Frame allocation.
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
-#include <linux/crc32.h>
-#include <linux/gfp.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/skbuff.h>
+#include <robux/crc32.h>
+#include <robux/gfp.h>
 
 #include <scsi/fc_frame.h>
 

@@ -2,14 +2,14 @@
 /* Copyright (c) 2018 Jernej Skrabec <jernej.skrabec@siol.net> */
 
 
-#include <linux/bitfield.h>
-#include <linux/component.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
+#include <robux/bitfield.h>
+#include <robux/component.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
 
 #include <dt-bindings/clock/sun8i-tcon-top.h>
 

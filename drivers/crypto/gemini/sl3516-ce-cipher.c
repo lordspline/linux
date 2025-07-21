@@ -11,14 +11,14 @@
 #include <crypto/engine.h>
 #include <crypto/internal/skcipher.h>
 #include <crypto/scatterwalk.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 #include "sl3516-ce.h"
 
 /* sl3516_ce_need_fallback - check if a request can be handled by the CE */

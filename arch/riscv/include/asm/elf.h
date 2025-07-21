@@ -8,8 +8,8 @@
 #ifndef _ASM_RISCV_ELF_H
 #define _ASM_RISCV_ELF_H
 
-#include <uapi/linux/elf.h>
-#include <linux/compat.h>
+#include <uapi/robux/elf.h>
+#include <robux/compat.h>
 #include <uapi/asm/elf.h>
 #include <asm/auxvec.h>
 #include <asm/byteorder.h>

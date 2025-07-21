@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0-only WITH Robux-syscall-note */
 /*
  * RP1 PiSP common definitions.
  *
@@ -8,7 +8,7 @@
 #ifndef _UAPI_PISP_COMMON_H_
 #define _UAPI_PISP_COMMON_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct pisp_image_format_config {
 	/* size in pixels */

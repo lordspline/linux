@@ -5,10 +5,10 @@
  * Copyright 2014-2019 Analog Devices Inc.
  */
 
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/iio/iio.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
 #include "ad7091r-base.h"
 

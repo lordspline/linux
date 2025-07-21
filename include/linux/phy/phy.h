@@ -10,16 +10,16 @@
 #ifndef __DRIVERS_PHY_H
 #define __DRIVERS_PHY_H
 
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/phy/phy-dp.h>
-#include <linux/phy/phy-hdmi.h>
-#include <linux/phy/phy-lvds.h>
-#include <linux/phy/phy-mipi-dphy.h>
+#include <robux/phy/phy-dp.h>
+#include <robux/phy/phy-hdmi.h>
+#include <robux/phy/phy-lvds.h>
+#include <robux/phy/phy-mipi-dphy.h>
 
 struct phy;
 

@@ -2,8 +2,8 @@
 #ifndef _LINUX_MNT_IDMAPPING_H
 #define _LINUX_MNT_IDMAPPING_H
 
-#include <linux/types.h>
-#include <linux/uidgid.h>
+#include <robux/types.h>
+#include <robux/uidgid.h>
 
 struct mnt_idmap;
 struct user_namespace;

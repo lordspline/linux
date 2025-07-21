@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/inet_diag.h>
-#include <linux/sock_diag.h>
+#include <robux/inet_diag.h>
+#include <robux/sock_diag.h>
 
 #include <net/inet_sock.h>
 #include <net/raw.h>

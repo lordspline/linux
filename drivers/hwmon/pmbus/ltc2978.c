@@ -8,15 +8,15 @@
  * Copyright (c) 2018 Analog Devices Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/regulator/driver.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/regulator/driver.h>
 #include "pmbus.h"
 
 enum chips {

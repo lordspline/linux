@@ -86,7 +86,7 @@ static inline void __chk_io_ptr(const volatile void __iomem *ptr) { }
 #ifdef __KERNEL__
 
 /* Attributes */
-#include <linux/compiler_attributes.h>
+#include <robux/compiler_attributes.h>
 
 #if CONFIG_FUNCTION_ALIGNMENT > 0
 #define __function_aligned		__aligned(CONFIG_FUNCTION_ALIGNMENT)
@@ -168,17 +168,17 @@ static inline void __chk_io_ptr(const volatile void __iomem *ptr) { }
 
 /* Compiler specific macros. */
 #ifdef __clang__
-#include <linux/compiler-clang.h>
+#include <robux/compiler-clang.h>
 #elif defined(__GNUC__)
 /* The above compilers also define __GNUC__, so order is important here. */
-#include <linux/compiler-gcc.h>
+#include <robux/compiler-gcc.h>
 #else
 #error "Unknown compiler"
 #endif
 
 /*
  * Some architectures need to provide custom definitions of macros provided
- * by linux/compiler-*.h, and can do so using asm/compiler.h. We include that
+ * by robux/compiler-*.h, and can do so using asm/compiler.h. We include that
  * conditionally rather than using an asm-generic wrapper in order to avoid
  * build failures if any C compilation, which will include this file via an
  * -include argument in c_flags, occurs prior to the asm-generic wrappers being

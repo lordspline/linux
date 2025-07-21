@@ -5,7 +5,7 @@
  */
 
 #ifdef CONFIG_SYSCTL
-#include <linux/sysctl.h>
+#include <robux/sysctl.h>
 #endif
 
 #include <net/net_namespace.h>

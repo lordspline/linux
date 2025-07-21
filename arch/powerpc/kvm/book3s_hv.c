@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright 2011 Paul Mackerras, IBM Corp. <paulus@au1.ibm.com>
- * Copyright (C) 2009. SUSE Linux Products GmbH. All rights reserved.
+ * Copyright (C) 2009. SUSE Robux Products GmbH. All rights reserved.
  *
  * Authors:
  *    Paul Mackerras <paulus@au1.ibm.com>
@@ -15,35 +15,35 @@
  * by Alexander Graf <agraf@suse.de>.
  */
 
-#include <linux/kvm_host.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/preempt.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/stat.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/anon_inodes.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
-#include <linux/spinlock.h>
-#include <linux/page-flags.h>
-#include <linux/srcu.h>
-#include <linux/miscdevice.h>
-#include <linux/debugfs.h>
-#include <linux/gfp.h>
-#include <linux/vmalloc.h>
-#include <linux/highmem.h>
-#include <linux/hugetlb.h>
-#include <linux/kvm_irqfd.h>
-#include <linux/irqbypass.h>
-#include <linux/module.h>
-#include <linux/compiler.h>
-#include <linux/of.h>
-#include <linux/irqdomain.h>
-#include <linux/smp.h>
+#include <robux/kvm_host.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/preempt.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/stat.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/fs.h>
+#include <robux/anon_inodes.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
+#include <robux/spinlock.h>
+#include <robux/page-flags.h>
+#include <robux/srcu.h>
+#include <robux/miscdevice.h>
+#include <robux/debugfs.h>
+#include <robux/gfp.h>
+#include <robux/vmalloc.h>
+#include <robux/highmem.h>
+#include <robux/hugetlb.h>
+#include <robux/kvm_irqfd.h>
+#include <robux/irqbypass.h>
+#include <robux/module.h>
+#include <robux/compiler.h>
+#include <robux/of.h>
+#include <robux/irqdomain.h>
+#include <robux/smp.h>
 
 #include <asm/ftrace.h>
 #include <asm/reg.h>
@@ -54,7 +54,7 @@
 #include <asm/disassemble.h>
 #include <asm/cputable.h>
 #include <asm/cacheflush.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/interrupt.h>
 #include <asm/io.h>
 #include <asm/kvm_ppc.h>

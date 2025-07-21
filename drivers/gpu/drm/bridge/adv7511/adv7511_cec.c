@@ -5,10 +5,10 @@
  * Copyright 2017 Cisco Systems, Inc. and/or its affiliates. All rights reserved.
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
 
 #include <media/cec.h>
 

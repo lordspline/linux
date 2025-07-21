@@ -3,10 +3,10 @@
 #include <kunit/platform_device.h>
 #include <kunit/resource.h>
 
-#include <linux/device.h>
-#include <linux/device/bus.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/device.h>
+#include <robux/device/bus.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 
 #define DEVICE_NAME "test"
 

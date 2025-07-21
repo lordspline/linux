@@ -6,9 +6,9 @@
 #ifndef __VCAP_API__
 #define __VCAP_API__
 
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/netdevice.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/netdevice.h>
 
 /* Use the generated API model */
 #include "vcap_ag_api.h"

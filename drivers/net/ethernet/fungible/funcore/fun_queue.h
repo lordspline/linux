@@ -3,8 +3,8 @@
 #ifndef _FUN_QEUEUE_H
 #define _FUN_QEUEUE_H
 
-#include <linux/interrupt.h>
-#include <linux/io.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
 
 struct device;
 struct fun_dev;

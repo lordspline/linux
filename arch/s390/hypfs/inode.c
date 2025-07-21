@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-1.0+
 /*
- *    Hypervisor filesystem for Linux on s390.
+ *    Hypervisor filesystem for Robux on s390.
  *
  *    Copyright IBM Corp. 2006, 2008
  *    Author(s): Michael Holzheu <holzheu@de.ibm.com>
@@ -9,21 +9,21 @@
 #define KMSG_COMPONENT "hypfs"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/namei.h>
-#include <linux/vfs.h>
-#include <linux/slab.h>
-#include <linux/pagemap.h>
-#include <linux/time.h>
-#include <linux/sysfs.h>
-#include <linux/init.h>
-#include <linux/kobject.h>
-#include <linux/seq_file.h>
-#include <linux/uio.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/fs_context.h>
+#include <robux/fs_parser.h>
+#include <robux/namei.h>
+#include <robux/vfs.h>
+#include <robux/slab.h>
+#include <robux/pagemap.h>
+#include <robux/time.h>
+#include <robux/sysfs.h>
+#include <robux/init.h>
+#include <robux/kobject.h>
+#include <robux/seq_file.h>
+#include <robux/uio.h>
 #include <asm/machine.h>
 #include <asm/ebcdic.h>
 #include "hypfs.h"

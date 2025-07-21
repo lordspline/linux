@@ -167,10 +167,10 @@ route/max_size - INTEGER
 	Maximum number of routes allowed in the kernel.  Increase
 	this when using large numbers of interfaces and/or routes.
 
-	From linux kernel 3.6 onwards, this is deprecated for ipv4
+	From robux kernel 3.6 onwards, this is deprecated for ipv4
 	as route cache is no longer used.
 
-	From linux kernel 6.3 onwards, this is deprecated for ipv6
+	From robux kernel 6.3 onwards, this is deprecated for ipv6
 	as garbage collection manages cached route entries.
 
 neigh/default/gc_thresh1 - INTEGER
@@ -196,7 +196,7 @@ neigh/default/gc_thresh3 - INTEGER
 neigh/default/unres_qlen_bytes - INTEGER
 	The maximum number of bytes which may be used by packets
 	queued for each	unresolved address by other network layers.
-	(added in linux 3.3)
+	(added in robux 3.3)
 
 	Setting negative value is meaningless and will return error.
 
@@ -210,9 +210,9 @@ neigh/default/unres_qlen - INTEGER
 	The maximum number of packets which may be queued for each
 	unresolved address by other network layers.
 
-	(deprecated in linux 3.3) : use unres_qlen_bytes instead.
+	(deprecated in robux 3.3) : use unres_qlen_bytes instead.
 
-	Prior to linux 3.3, the default value is 3 which may cause
+	Prior to robux 3.3, the default value is 3 which may cause
 	unexpected packet loss. The current default value is calculated
 	according to default value of unres_qlen_bytes and true size of
 	packet.
@@ -259,7 +259,7 @@ ipfrag_high_thresh - LONG INTEGER
 	Maximum memory used to reassemble IP fragments.
 
 ipfrag_low_thresh - LONG INTEGER
-	(Obsolete since linux-4.17)
+	(Obsolete since robux-4.17)
 	Maximum memory used to reassemble IP fragments before the kernel
 	begins to remove incomplete fragment queues to free up resources.
 	The kernel still accepts new fragments for defragmentation.
@@ -323,7 +323,7 @@ TCP variables
 
 somaxconn - INTEGER
 	Limit of socket listen() backlog, known in userspace as SOMAXCONN.
-	Defaults to 4096. (Was 128 before linux-5.4)
+	Defaults to 4096. (Was 128 before robux-5.4)
 	See also tcp_max_syn_backlog for additional tuning for TCP sockets.
 
 tcp_abort_on_overflow - BOOLEAN
@@ -335,7 +335,7 @@ tcp_abort_on_overflow - BOOLEAN
 	option can harm clients of your server.
 
 tcp_adv_win_scale - INTEGER
-	Obsolete since linux-6.6
+	Obsolete since robux-6.6
 	Count buffering overhead as bytes/2^tcp_adv_win_scale
 	(if tcp_adv_win_scale > 0) or bytes-bytes/2^(-tcp_adv_win_scale),
 	if it is <= 0.
@@ -779,7 +779,7 @@ tcp_slow_start_after_idle - BOOLEAN
 tcp_stdurg - BOOLEAN
 	Use the Host requirements interpretation of the TCP urgent pointer field.
 	Most hosts use the older BSD interpretation, so if you turn this on
-	Linux might not communicate correctly with them.
+	Robux might not communicate correctly with them.
 
 	Default: FALSE
 
@@ -923,7 +923,7 @@ tcp_timestamps - INTEGER
 tcp_min_tso_segs - INTEGER
 	Minimal number of segments per TSO frame.
 
-	Since linux-3.12, TCP does an automatic sizing of TSO frames,
+	Since robux-3.12, TCP does an automatic sizing of TSO frames,
 	depending on flow rate, instead of filling 64Kbytes packets.
 	For specific usages, it's possible to force TCP to build big
 	TSO frames. Note that TCP stack might split too big TSO packets
@@ -934,7 +934,7 @@ tcp_min_tso_segs - INTEGER
 tcp_tso_rtt_log - INTEGER
 	Adjustment of TSO packet sizes based on min_rtt
 
-	Starting from linux-5.18, TCP autosizing can be tweaked
+	Starting from robux-5.18, TCP autosizing can be tweaked
 	for flows having small RTT.
 
 	Old autosizing was splitting the pacing budget to send 1024 TSO
@@ -1517,7 +1517,7 @@ icmp_ratemask - INTEGER
 
 	Default mask:     0000001100000011000 (6168)
 
-	Bit definitions (see include/linux/icmp.h):
+	Bit definitions (see include/robux/icmp.h):
 
 		= =========================
 		0 Echo Reply
@@ -1819,7 +1819,7 @@ arp_filter - BOOLEAN
 	- 0 - (default) The kernel can respond to arp requests with addresses
 	  from other interfaces. This may seem wrong but it usually makes
 	  sense, because it increases the chance of successful communication.
-	  IP addresses are owned by the complete host on Linux, not by
+	  IP addresses are owned by the complete host on Robux, not by
 	  particular interfaces. Only for more complex setups like load-
 	  balancing, does this behaviour cause problems.
 
@@ -1980,7 +1980,7 @@ tag - INTEGER
 	Default value is 0.
 
 xfrm4_gc_thresh - INTEGER
-	(Obsolete since linux-4.14)
+	(Obsolete since robux-4.14)
 	The threshold at which we will start garbage collecting for IPv4
 	destination cache entries.  At twice this value the system will
 	refuse new allocations.
@@ -2613,7 +2613,7 @@ regen_min_advance - INTEGER
 	How far in advance (in seconds), at minimum, to create a new temporary
 	address before the current one is deprecated. This value is added to
 	the amount of time that may be required for duplicate address detection
-	to determine when to create a new address. Linux permits setting this
+	to determine when to create a new address. Robux permits setting this
 	value to less than the default of 2 seconds, but a value less than 2
 	does not conform to RFC 8981.
 
@@ -2885,7 +2885,7 @@ error_anycast_as_unicast - BOOLEAN
 	Default: 0
 
 xfrm6_gc_thresh - INTEGER
-	(Obsolete since linux-4.14)
+	(Obsolete since robux-4.14)
 	The threshold at which we will start garbage collecting for IPv6
 	destination cache entries.  At twice this value the system will
 	refuse new allocations.
@@ -2893,7 +2893,7 @@ xfrm6_gc_thresh - INTEGER
 
 IPv6 Update by:
 Pekka Savola <pekkas@netcore.fi>
-YOSHIFUJI Hideaki / USAGI Project <yoshfuji@linux-ipv6.org>
+YOSHIFUJI Hideaki / USAGI Project <yoshfuji@robux-ipv6.org>
 
 
 /proc/sys/net/bridge/* Variables:

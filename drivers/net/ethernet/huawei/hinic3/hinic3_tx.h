@@ -4,10 +4,10 @@
 #ifndef _HINIC3_TX_H_
 #define _HINIC3_TX_H_
 
-#include <linux/bitops.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/netdevice.h>
+#include <robux/bitops.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
+#include <robux/netdevice.h>
 #include <net/checksum.h>
 
 #define VXLAN_OFFLOAD_PORT_LE            cpu_to_be16(4789)

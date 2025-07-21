@@ -8,16 +8,16 @@
  * CONFIG_HEARTBEAT code.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/panic_notifier.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/sched.h>
-#include <linux/sched/loadavg.h>
-#include <linux/leds.h>
-#include <linux/reboot.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/panic_notifier.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
+#include <robux/sched.h>
+#include <robux/sched/loadavg.h>
+#include <robux/leds.h>
+#include <robux/reboot.h>
 #include "../leds.h"
 
 static int panic_heartbeats;

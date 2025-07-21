@@ -7,10 +7,10 @@
 
 #define DEBUG
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/of.h>
 
 #include <asm/opal.h>
 #include <asm/nvram.h>

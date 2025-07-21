@@ -22,9 +22,9 @@
  *
  */
 
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/mm_types.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/mm_types.h>
 
 #include "kfd_priv.h"
 #include "kfd_mqd_manager.h"

@@ -4,20 +4,20 @@
  * Copyright (C) 2010 Steven King <sfking@fdwdc.com>
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/jiffies.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/device.h>
+#include <robux/jiffies.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/of.h>
 
 #define	DRIVER_NAME "tmp102"
 

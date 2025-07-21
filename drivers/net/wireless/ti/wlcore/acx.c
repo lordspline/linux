@@ -9,10 +9,10 @@
 
 #include "acx.h"
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/spi/spi.h>
+#include <robux/slab.h>
 
 #include "wlcore.h"
 #include "debug.h"

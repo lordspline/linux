@@ -11,29 +11,29 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/dmi.h>
-#include <linux/backlight.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
-#include <linux/platform_profile.h>
-#include <linux/acpi.h>
-#include <linux/i8042.h>
-#include <linux/rfkill.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/dmi.h>
+#include <robux/backlight.h>
+#include <robux/leds.h>
+#include <robux/platform_device.h>
+#include <robux/platform_profile.h>
+#include <robux/acpi.h>
+#include <robux/i8042.h>
+#include <robux/rfkill.h>
+#include <robux/workqueue.h>
+#include <robux/debugfs.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/input/sparse-keymap.h>
 #include <acpi/video.h>
-#include <linux/hwmon.h>
-#include <linux/units.h>
-#include <linux/unaligned.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
+#include <robux/hwmon.h>
+#include <robux/units.h>
+#include <robux/unaligned.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
 
 MODULE_AUTHOR("Carlos Corbacho");
 MODULE_DESCRIPTION("Acer Laptop WMI Extras Driver");

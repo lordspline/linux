@@ -8,11 +8,11 @@
  *  Copyright (C) 2006 NTT (Nippon Telegraph and Telephone Corporation)
  */
 
-#include <linux/unaligned.h>
-#include <linux/crypto.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/unaligned.h>
+#include <robux/crypto.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/types.h>
 #include <crypto/algapi.h>
 
 #include "camellia.h"

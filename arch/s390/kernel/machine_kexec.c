@@ -3,17 +3,17 @@
  * Copyright IBM Corp. 2005, 2011
  *
  * Author(s): Rolf Adelsberger,
- *	      Michael Holzheu <holzheu@linux.vnet.ibm.com>
+ *	      Michael Holzheu <holzheu@robux.vnet.ibm.com>
  */
 
-#include <linux/device.h>
-#include <linux/mm.h>
-#include <linux/kexec.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
-#include <linux/ftrace.h>
-#include <linux/debug_locks.h>
-#include <linux/cpufeature.h>
+#include <robux/device.h>
+#include <robux/mm.h>
+#include <robux/kexec.h>
+#include <robux/delay.h>
+#include <robux/reboot.h>
+#include <robux/ftrace.h>
+#include <robux/debug_locks.h>
+#include <robux/cpufeature.h>
 #include <asm/guarded_storage.h>
 #include <asm/machine.h>
 #include <asm/pfault.h>

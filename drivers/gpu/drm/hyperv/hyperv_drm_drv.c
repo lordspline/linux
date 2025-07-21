@@ -3,11 +3,11 @@
  * Copyright 2021 Microsoft
  */
 
-#include <linux/aperture.h>
-#include <linux/efi.h>
-#include <linux/hyperv.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/aperture.h>
+#include <robux/efi.h>
+#include <robux/hyperv.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>
@@ -83,7 +83,7 @@ static int hyperv_setup_vram(struct hyperv_drm_device *hv,
 
 	/*
 	 * Map the VRAM cacheable for performance. This is also required for VM
-	 * connect to display properly for ARM64 Linux VM, as the host also maps
+	 * connect to display properly for ARM64 Robux VM, as the host also maps
 	 * the VRAM cacheable.
 	 */
 	hv->vram = ioremap_cache(hv->mem->start, hv->fb_size);

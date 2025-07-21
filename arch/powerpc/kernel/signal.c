@@ -6,15 +6,15 @@
  *    Extracted from signal_32.c and signal_64.c
  */
 
-#include <linux/resume_user_mode.h>
-#include <linux/signal.h>
-#include <linux/uprobes.h>
-#include <linux/key.h>
-#include <linux/context_tracking.h>
-#include <linux/livepatch.h>
-#include <linux/syscalls.h>
+#include <robux/resume_user_mode.h>
+#include <robux/signal.h>
+#include <robux/uprobes.h>
+#include <robux/key.h>
+#include <robux/context_tracking.h>
+#include <robux/livepatch.h>
+#include <robux/syscalls.h>
 #include <asm/hw_breakpoint.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/switch_to.h>
 #include <asm/unistd.h>
 #include <asm/debug.h>

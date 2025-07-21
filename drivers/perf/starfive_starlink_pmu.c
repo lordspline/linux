@@ -11,16 +11,16 @@
 #define STARLINK_PMU_PDEV_NAME	"starfive_starlink_pmu"
 #define pr_fmt(fmt)	STARLINK_PMU_PDEV_NAME ": " fmt
 
-#include <linux/bitmap.h>
-#include <linux/cpu_pm.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/perf_event.h>
-#include <linux/platform_device.h>
-#include <linux/sysfs.h>
+#include <robux/bitmap.h>
+#include <robux/cpu_pm.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/perf_event.h>
+#include <robux/platform_device.h>
+#include <robux/sysfs.h>
 
 #define STARLINK_PMU_MAX_COUNTERS			64
 #define STARLINK_PMU_NUM_COUNTERS			16

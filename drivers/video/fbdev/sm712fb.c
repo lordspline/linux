@@ -18,17 +18,17 @@
  * Framebuffer driver for Silicon Motion SM710, SM712, SM721 and SM722 chips
  */
 
-#include <linux/aperture.h>
-#include <linux/io.h>
-#include <linux/fb.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/console.h>
+#include <robux/aperture.h>
+#include <robux/io.h>
+#include <robux/fb.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/module.h>
+#include <robux/console.h>
 
-#include <linux/pm.h>
+#include <robux/pm.h>
 
 #include "sm712.h"
 

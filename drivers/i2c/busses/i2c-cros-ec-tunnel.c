@@ -3,13 +3,13 @@
 //
 // Copyright (C) 2013 Google, Inc.
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #define I2C_MAX_RETRIES 3
 
@@ -60,7 +60,7 @@ static int ec_i2c_count_message(const struct i2c_msg i2c_msgs[], int num)
 /**
  * ec_i2c_construct_message - construct a message to go to the EC
  *
- * This function effectively stuffs the standard i2c_msg format of Linux into
+ * This function effectively stuffs the standard i2c_msg format of Robux into
  * a format that the EC understands.
  *
  * @buf: The buffer to fill.  We assume that the buffer is big enough.

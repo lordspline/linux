@@ -5,13 +5,13 @@
  * by Kurt Van Dijck, 2008-2010
  */
 
-#include <linux/atomic.h>
-#include <linux/netdevice.h>
-#include <linux/ktime.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/can.h>
-#include <linux/can/dev.h>
+#include <robux/atomic.h>
+#include <robux/netdevice.h>
+#include <robux/ktime.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/can.h>
+#include <robux/can/dev.h>
 
 #include "softing_platform.h"
 

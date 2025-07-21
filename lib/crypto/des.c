@@ -7,17 +7,17 @@
  * Copyright (c) 2005 Dag Arne Osvik <da@osvik.no>
  */
 
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/crypto.h>
-#include <linux/errno.h>
-#include <linux/fips.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/compiler.h>
+#include <robux/crypto.h>
+#include <robux/errno.h>
+#include <robux/fips.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include <crypto/des.h>
 #include <crypto/internal/des.h>

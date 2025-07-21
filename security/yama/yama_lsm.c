@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Yama Linux Security Module
+ * Yama Robux Security Module
  *
  * Author: Kees Cook <keescook@chromium.org>
  *
@@ -8,17 +8,17 @@
  * Copyright (C) 2011 The Chromium OS Authors.
  */
 
-#include <linux/lsm_hooks.h>
-#include <linux/sysctl.h>
-#include <linux/ptrace.h>
-#include <linux/prctl.h>
-#include <linux/ratelimit.h>
-#include <linux/workqueue.h>
-#include <linux/string_helpers.h>
-#include <linux/task_work.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <uapi/linux/lsm.h>
+#include <robux/lsm_hooks.h>
+#include <robux/sysctl.h>
+#include <robux/ptrace.h>
+#include <robux/prctl.h>
+#include <robux/ratelimit.h>
+#include <robux/workqueue.h>
+#include <robux/string_helpers.h>
+#include <robux/task_work.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <uapi/robux/lsm.h>
 
 #define YAMA_SCOPE_DISABLED	0
 #define YAMA_SCOPE_RELATIONAL	1

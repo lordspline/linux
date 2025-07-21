@@ -8,12 +8,12 @@
 
 #include "fsl_pamu.h"
 
-#include <linux/fsl/guts.h>
-#include <linux/interrupt.h>
-#include <linux/genalloc.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <robux/fsl/guts.h>
+#include <robux/interrupt.h>
+#include <robux/genalloc.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
 
 #include <asm/mpc85xx.h>
 

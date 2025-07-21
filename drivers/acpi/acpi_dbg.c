@@ -9,16 +9,16 @@
 /* #define DEBUG */
 #define pr_fmt(fmt) "ACPI: AML: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/wait.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/kthread.h>
-#include <linux/proc_fs.h>
-#include <linux/debugfs.h>
-#include <linux/circ_buf.h>
-#include <linux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/wait.h>
+#include <robux/poll.h>
+#include <robux/sched.h>
+#include <robux/kthread.h>
+#include <robux/proc_fs.h>
+#include <robux/debugfs.h>
+#include <robux/circ_buf.h>
+#include <robux/acpi.h>
 #include "internal.h"
 
 #define ACPI_AML_BUF_ALIGN	(sizeof (acpi_size))

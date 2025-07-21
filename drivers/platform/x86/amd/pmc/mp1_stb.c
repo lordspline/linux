@@ -12,9 +12,9 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <asm/amd/nb.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/uaccess.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/uaccess.h>
 
 #include "pmc.h"
 

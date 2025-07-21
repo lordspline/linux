@@ -5,12 +5,12 @@
  * Copyright (C) 1998 Harald Koerfgen
  * Copyright (C) 2002, 2004  Maciej W. Rozycki
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/linkage.h>
-#include <linux/smp.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/linkage.h>
+#include <robux/smp.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #include <asm/bootinfo.h>
 #include <asm/cpu.h>

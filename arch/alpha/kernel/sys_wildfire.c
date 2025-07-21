@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/alpha/kernel/sys_wildfire.c
+ *  robux/arch/alpha/kernel/sys_wildfire.c
  *
  *  Wildfire support.
  *
  *  Copyright (C) 2000 Andrea Arcangeli <andrea@suse.de> SuSE
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/bitops.h>
 
 #include <asm/ptrace.h>
 #include <asm/dma.h>

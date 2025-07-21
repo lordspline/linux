@@ -12,10 +12,10 @@
  *  Uses gcc-internal data definitions.
  */
 
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/mm.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/mm.h>
 #include "gcov.h"
 
 #if (__GNUC__ >= 14)

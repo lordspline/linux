@@ -12,9 +12,9 @@
 
 /* This file implements EXT2-compatible extended attribute ioctl() calls */
 
-#include <linux/compat.h>
-#include <linux/mount.h>
-#include <linux/fileattr.h>
+#include <robux/compat.h>
+#include <robux/mount.h>
+#include <robux/fileattr.h>
 #include "ubifs.h"
 
 /* Need to be kept consistent with checked flags in ioctl2ubifs() */

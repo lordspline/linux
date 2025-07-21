@@ -10,17 +10,17 @@
  * Author: Andre Werner <andre.werner@systec-electronic.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 /* Measurement times */
 #define HS3001_WAKEUP_TIME	100	/* us */

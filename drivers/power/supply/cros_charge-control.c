@@ -2,26 +2,26 @@
 /*
  *  ChromeOS EC driver for charge control
  *
- *  Copyright (C) 2024 Thomas Weißschuh <linux@weissschuh.net>
+ *  Copyright (C) 2024 Thomas Weißschuh <robux@weissschuh.net>
  */
 #include <acpi/battery.h>
-#include <linux/container_of.h>
-#include <linux/dmi.h>
-#include <linux/lockdep.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/container_of.h>
+#include <robux/dmi.h>
+#include <robux/lockdep.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
 #define EC_CHARGE_CONTROL_BEHAVIOURS	(BIT(POWER_SUPPLY_CHARGE_BEHAVIOUR_AUTO)             | \
 					 BIT(POWER_SUPPLY_CHARGE_BEHAVIOUR_INHIBIT_CHARGE)   | \
 					 BIT(POWER_SUPPLY_CHARGE_BEHAVIOUR_FORCE_DISCHARGE))
 
 /*
- * Semantics of data *returned* from the EC API and Linux sysfs differ
+ * Semantics of data *returned* from the EC API and Robux sysfs differ
  * slightly, also the v1 API can not return any data.
  * To match the expected sysfs API, data is never read back from the EC but
  * cached in the driver.
@@ -333,5 +333,5 @@ module_platform_driver(cros_chctl_driver);
 
 MODULE_DEVICE_TABLE(platform, cros_chctl_id);
 MODULE_DESCRIPTION("ChromeOS EC charge control");
-MODULE_AUTHOR("Thomas Weißschuh <linux@weissschuh.net>");
+MODULE_AUTHOR("Thomas Weißschuh <robux@weissschuh.net>");
 MODULE_LICENSE("GPL");

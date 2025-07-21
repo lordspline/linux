@@ -11,9 +11,9 @@
 #include <drm/drm_ioctl.h>
 #include <drm/drm_managed.h>
 #include <drm/gpu_scheduler.h>
-#include <linux/iommu.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
+#include <robux/iommu.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
 
 #include "amdxdna_ctx.h"
 #include "amdxdna_gem.h"

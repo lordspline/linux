@@ -10,8 +10,8 @@
  *  -  medium: scalable global clock with some jitter
  *  -  global: globally monotonic, serialized clock
  */
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/types.h>
 
 #include <asm/trace_clock.h>
 

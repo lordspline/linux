@@ -5,15 +5,15 @@
  *  Copyright (C) 2014 Alexander Shiyan <shc_work@mail.ru>
  */
 
-#include <linux/clk.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/sched_clock.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/sched_clock.h>
+#include <robux/slab.h>
 
 enum {
 	CLPS711X_CLKSRC_CLOCKSOURCE,

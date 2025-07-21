@@ -8,11 +8,11 @@
  *  for specific codecs.
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/export.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/export.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

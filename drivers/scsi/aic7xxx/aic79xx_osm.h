@@ -1,5 +1,5 @@
 /*
- * Adaptec AIC79xx device driver for Linux.
+ * Adaptec AIC79xx device driver for Robux.
  *
  * Copyright (c) 2000-2001 Adaptec Inc.
  * All rights reserved.
@@ -36,20 +36,20 @@
  * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGES.
  *
- * $Id: //depot/aic7xxx/linux/drivers/scsi/aic7xxx/aic79xx_osm.h#166 $
+ * $Id: //depot/aic7xxx/robux/drivers/scsi/aic7xxx/aic79xx_osm.h#166 $
  *
  */
 #ifndef _AIC79XX_LINUX_H_
 #define _AIC79XX_LINUX_H_
 
-#include <linux/types.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/types.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 #include <asm/byteorder.h>
 #include <asm/io.h>
 
@@ -197,7 +197,7 @@ int	ahd_dmamap_unload(struct ahd_softc *, bus_dma_tag_t, bus_dmamap_t);
  * XXX
  * ahd_dmamap_sync is only used on buffers allocated with
  * the dma_alloc_coherent() API.  Although I'm not sure how
- * this works on architectures with a write buffer, Linux does
+ * this works on architectures with a write buffer, Robux does
  * not have an API to sync "coherent" memory.  Perhaps we need
  * to do an mb()?
  */
@@ -212,14 +212,14 @@ int	ahd_dmamap_unload(struct ahd_softc *, bus_dma_tag_t, bus_dmamap_t);
 #include "aic79xx.h"
 
 /***************************** SMP support ************************************/
-#include <linux/spinlock.h>
+#include <robux/spinlock.h>
 
 #define AIC79XX_DRIVER_VERSION "3.0"
 
 /*************************** Device Data Structures ***************************/
 /*
  * A per probed device structure used to deal with some error recovery
- * scenarios that the Linux mid-layer code just doesn't know how to
+ * scenarios that the Robux mid-layer code just doesn't know how to
  * handle.  The structure allocated for a device only becomes persistent
  * after a successfully completed inquiry command to the target when
  * that inquiry data indicates a lun is present.
@@ -550,7 +550,7 @@ static inline
 void ahd_set_transaction_tag(struct scb *scb, int enabled, u_int type)
 {
 	/*
-	 * Nothing to do for linux as the incoming transaction
+	 * Nothing to do for robux as the incoming transaction
 	 * has no concept of tag/non tagged, etc.
 	 */
 }
@@ -595,7 +595,7 @@ static inline
 int ahd_perform_autosense(struct scb *scb)
 {
 	/*
-	 * We always perform autosense in Linux.
+	 * We always perform autosense in Robux.
 	 * On other platforms this is set on a
 	 * per-transaction basis.
 	 */
@@ -612,7 +612,7 @@ static inline void
 ahd_notify_xfer_settings_change(struct ahd_softc *ahd,
 				struct ahd_devinfo *devinfo)
 {
-	/* Nothing to do here for linux */
+	/* Nothing to do here for robux */
 }
 
 static inline void

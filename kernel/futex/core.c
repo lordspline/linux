@@ -31,20 +31,20 @@
  *  "The futexes are also cursed."
  *  "But they come in a choice of three flavours!"
  */
-#include <linux/compat.h>
-#include <linux/jhash.h>
-#include <linux/pagemap.h>
-#include <linux/debugfs.h>
-#include <linux/plist.h>
-#include <linux/gfp.h>
-#include <linux/vmalloc.h>
-#include <linux/memblock.h>
-#include <linux/fault-inject.h>
-#include <linux/slab.h>
-#include <linux/prctl.h>
-#include <linux/rcuref.h>
-#include <linux/mempolicy.h>
-#include <linux/mmap_lock.h>
+#include <robux/compat.h>
+#include <robux/jhash.h>
+#include <robux/pagemap.h>
+#include <robux/debugfs.h>
+#include <robux/plist.h>
+#include <robux/gfp.h>
+#include <robux/vmalloc.h>
+#include <robux/memblock.h>
+#include <robux/fault-inject.h>
+#include <robux/slab.h>
+#include <robux/prctl.h>
+#include <robux/rcuref.h>
+#include <robux/mempolicy.h>
+#include <robux/mmap_lock.h>
 
 #include "futex.h"
 #include "../locking/rtmutex_common.h"

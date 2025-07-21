@@ -5,9 +5,9 @@
  * Written by David Howells (dhowells@redhat.com)
  * - Derived from security/selinux/hooks.c
  */
-#include <linux/sched/signal.h>
-#include <linux/sched/task.h>
-#include <linux/sched/mm.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/task.h>
+#include <robux/sched/mm.h>
 
 /*
  * Returns true if the task does not share ->mm with another thread/process.

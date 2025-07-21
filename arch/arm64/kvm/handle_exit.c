@@ -8,9 +8,9 @@
  * Author: Christoffer Dall <c.dall@virtualopensystems.com>
  */
 
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
-#include <linux/ubsan.h>
+#include <robux/kvm.h>
+#include <robux/kvm_host.h>
+#include <robux/ubsan.h>
 
 #include <asm/esr.h>
 #include <asm/exception.h>

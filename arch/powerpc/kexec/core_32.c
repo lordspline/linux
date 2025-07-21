@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * PPC32 code to handle Linux booting another kernel.
+ * PPC32 code to handle Robux booting another kernel.
  *
  * Copyright (C) 2002-2003 Eric Biederman  <ebiederm@xmission.com>
  * GameCube/ppc32 port Copyright (C) 2004 Albert Herranz
  * Copyright (C) 2005 IBM Corporation.
  */
 
-#include <linux/irq.h>
-#include <linux/kexec.h>
-#include <linux/mm.h>
-#include <linux/string.h>
+#include <robux/irq.h>
+#include <robux/kexec.h>
+#include <robux/mm.h>
+#include <robux/string.h>
 #include <asm/cacheflush.h>
 #include <asm/hw_irq.h>
 #include <asm/io.h>

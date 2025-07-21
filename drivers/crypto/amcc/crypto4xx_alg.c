@@ -5,14 +5,14 @@
  * Copyright (c) 2008 Applied Micro Circuits Corporation.
  * All rights reserved. James Hsiao <jhsiao@amcc.com>
  *
- * This file implements the Linux crypto algorithms.
+ * This file implements the Robux crypto algorithms.
  */
 
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock_types.h>
-#include <linux/scatterlist.h>
-#include <linux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock_types.h>
+#include <robux/scatterlist.h>
+#include <robux/dma-mapping.h>
 #include <crypto/algapi.h>
 #include <crypto/aead.h>
 #include <crypto/aes.h>

@@ -11,10 +11,10 @@
 #ifndef __LINUX_PINCTRL_CONSUMER_H
 #define __LINUX_PINCTRL_CONSUMER_H
 
-#include <linux/err.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/types.h>
 
-#include <linux/pinctrl/pinctrl-state.h>
+#include <robux/pinctrl/pinctrl-state.h>
 
 struct device;
 struct gpio_chip;

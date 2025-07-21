@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-pxa/pxa25x.c
+ *  robux/arch/arm/mach-pxa/pxa25x.c
  *
  *  Author:	Nicolas Pitre
  *  Created:	Jun 15, 2001
@@ -13,21 +13,21 @@
  * initialization stuff for PXA machines which can be overridden later if
  * need be.
  */
-#include <linux/dmaengine.h>
-#include <linux/dma/pxa-dma.h>
-#include <linux/gpio.h>
-#include <linux/gpio-pxa.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/suspend.h>
-#include <linux/syscore_ops.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/platform_data/mmp_dma.h>
-#include <linux/soc/pxa/cpu.h>
-#include <linux/soc/pxa/smemc.h>
+#include <robux/dmaengine.h>
+#include <robux/dma/pxa-dma.h>
+#include <robux/gpio.h>
+#include <robux/gpio-pxa.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/suspend.h>
+#include <robux/syscore_ops.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/platform_data/mmp_dma.h>
+#include <robux/soc/pxa/cpu.h>
+#include <robux/soc/pxa/smemc.h>
 
 #include <asm/mach/map.h>
 #include <asm/suspend.h>

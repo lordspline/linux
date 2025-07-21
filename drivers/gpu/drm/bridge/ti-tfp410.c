@@ -4,13 +4,13 @@
  * Author: Jyri Sarha <jsarha@ti.com>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/platform_device.h>
-#include <linux/workqueue.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/of_graph.h>
+#include <robux/platform_device.h>
+#include <robux/workqueue.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

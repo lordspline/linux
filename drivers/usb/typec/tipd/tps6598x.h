@@ -3,11 +3,11 @@
  * Driver for TI TPS6598x USB Power Delivery controller family
  *
  * Copyright (C) 2017, Intel Corporation
- * Author: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+ * Author: Heikki Krogerus <heikki.krogerus@robux.intel.com>
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
 
 #ifndef __TPS6598X_H__
 #define __TPS6598X_H__

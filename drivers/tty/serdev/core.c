@@ -3,24 +3,24 @@
  * Copyright (C) 2016-2017 Linaro Ltd., Rob Herring <robh@kernel.org>
  *
  * Based on drivers/spmi/spmi.c:
- * Copyright (c) 2012-2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2015, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/errno.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/sched.h>
-#include <linux/serdev.h>
-#include <linux/slab.h>
+#include <robux/acpi.h>
+#include <robux/errno.h>
+#include <robux/idr.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/sched.h>
+#include <robux/serdev.h>
+#include <robux/slab.h>
 
-#include <linux/platform_data/x86/apple.h>
+#include <robux/platform_data/x86/apple.h>
 
 static bool is_registered;
 static DEFINE_IDA(ctrl_ida);

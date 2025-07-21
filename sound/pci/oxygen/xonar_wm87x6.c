@@ -48,8 +48,8 @@
  *   input 2 <- aux
  */
 
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
 #include <sound/control.h>
 #include <sound/core.h>
 #include <sound/info.h>

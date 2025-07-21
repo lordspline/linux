@@ -7,13 +7,13 @@
  * Copyright 2009,2012 Gražvydas Ignotas <notasas@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/backlight.h>
-#include <linux/mfd/twl.h>
-#include <linux/err.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/backlight.h>
+#include <robux/mfd/twl.h>
+#include <robux/err.h>
 
 #define TWL_PWM0_ON		0x00
 #define TWL_PWM0_OFF		0x01

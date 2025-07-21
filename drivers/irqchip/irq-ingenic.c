@@ -4,17 +4,17 @@
  *  Ingenic XBurst platform IRQ support
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/irqchip.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/timex.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/irqchip.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/timex.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
 
 #include <asm/io.h>
 

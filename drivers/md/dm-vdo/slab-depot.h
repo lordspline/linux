@@ -6,9 +6,9 @@
 #ifndef VDO_SLAB_DEPOT_H
 #define VDO_SLAB_DEPOT_H
 
-#include <linux/atomic.h>
-#include <linux/dm-kcopyd.h>
-#include <linux/list.h>
+#include <robux/atomic.h>
+#include <robux/dm-kcopyd.h>
+#include <robux/list.h>
 
 #include "numeric.h"
 

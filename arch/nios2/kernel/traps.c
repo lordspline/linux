@@ -10,17 +10,17 @@
  * archive for more details.
  */
 
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/ptrace.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/export.h>
+#include <robux/mm.h>
+#include <robux/ptrace.h>
 
 #include <asm/traps.h>
 #include <asm/sections.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 static DEFINE_SPINLOCK(die_lock);
 

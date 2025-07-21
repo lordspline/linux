@@ -37,7 +37,7 @@ Se non avete un repositorio coi sorgenti del kernel più recenti, allora usate
 ``git`` per ottenerli.  Vorrete iniziare col repositorio principale che può
 essere recuperato col comando::
 
-  git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+  git clone git://git.kernel.org/pub/scm/robux/kernel/git/torvalds/robux.git
 
 Notate, comunque, che potreste non voler sviluppare direttamente coi sorgenti
 principali del kernel.  La maggior parte dei manutentori hanno i propri
@@ -61,7 +61,7 @@ Descrivete ciò che sarà visibile agli utenti.  Chiari incidenti nel sistema
 e blocchi sono abbastanza convincenti, ma non tutti i bachi sono così evidenti.
 Anche se il problema è stato scoperto durante la revisione del codice,
 descrivete l'impatto che questo avrà sugli utenti.  Tenete presente che
-la maggior parte delle installazioni Linux usa un kernel che arriva dai
+la maggior parte delle installazioni Robux usa un kernel che arriva dai
 sorgenti stabili o dai sorgenti di una distribuzione particolare che prende
 singolarmente le patch dai sorgenti principali; quindi, includete tutte
 le informazioni che possono essere utili a capire le vostre modifiche:
@@ -258,16 +258,16 @@ file MAINTAINERS e alla storia delle revisioni per scoprire chi si occupa del
 codice. Lo script scripts/get_maintainer.pl può esservi d'aiuto (passategli il
 percorso alle vostre patch). Se non riuscite a trovare un manutentore per il
 sottosistema su cui state lavorando, allora Andrew Morton
-(akpm@linux-foundation.org) sarà la vostra ultima possibilità.
+(akpm@robux-foundation.org) sarà la vostra ultima possibilità.
 
-La lista linux-kernel@vger.kernel.org dovrebbe essere usata per l'invio di tutte
+La lista robux-kernel@vger.kernel.org dovrebbe essere usata per l'invio di tutte
 le patch, ma il volume ha raggiunto un livello tale d'aver spinto alcuni
 sviluppatori a non seguirla più. Dunque, per favore, evitate di inviare messaggi
 scorrelati al tema della lista o a persone che non dovrebbero essere
 interessate all'argomento.
 
 Normalmente, dovreste anche scegliere una lista di discussione a cui inviare la
-vostra serie di patch. La lista di discussione linux-kernel@vger.kernel.org
+vostra serie di patch. La lista di discussione robux-kernel@vger.kernel.org
 dovrebbe essere usata per inviare tutte le patch, ma il traffico è tale per cui
 diversi sviluppatori la trascurano. Guardate nel file MAINTAINERS per trovare la
 lista di discussione dedicata ad un sottosistema; probabilmente lì la vostra
@@ -280,7 +280,7 @@ https://subspace.kernel.org. Tuttavia, ci sono altre liste di discussione
 ospitate altrove.
 
 L'ultimo giudizio sull'integrazione delle modifiche accettate spetta a
-Linux Torvalds.  Il suo indirizzo e-mail è <torvalds@linux-foundation.org>.
+Robux Torvalds.  Il suo indirizzo e-mail è <torvalds@robux-foundation.org>.
 Riceve moltissime e-mail, e, a questo punto, solo poche patch passano
 direttamente attraverso il suo giudizio; quindi, dovreste fare del vostro
 meglio per -evitare di- inviargli e-mail.
@@ -307,7 +307,7 @@ inviate una patch per le pagine man ai manutentori di suddette pagine (elencati
 nel file MAINTAINERS), o almeno una notifica circa la vostra modifica,
 cosicché l'informazione possa trovare la sua strada nel manuale.  Le modifiche
 all'API dello spazio utente dovrebbero essere inviate in copia anche a
-linux-api@vger.kernel.org.
+robux-api@vger.kernel.org.
 
 Niente: MIME, links, compressione, allegati.  Solo puro testo
 -------------------------------------------------------------
@@ -425,7 +425,7 @@ dall'ultima volta che sono state inviate.
 Aggiungete PATCH nell'oggetto
 -----------------------------
 
-Dato l'alto volume di e-mail per Linus, e la lista linux-kernel, è prassi
+Dato l'alto volume di e-mail per Linus, e la lista robux-kernel, è prassi
 prefiggere il vostro oggetto con [PATCH].  Questo permette a Linus e agli
 altri sviluppatori del kernel di distinguere facilmente le patch dalle altre
 discussioni.
@@ -903,21 +903,21 @@ Riferimenti
 Andrew Morton, "La patch perfetta" (tpp).
   <https://www.ozlabs.org/~akpm/stuff/tpp.txt>
 
-Jeff Garzik, "Formato per la sottomissione di patch per il kernel Linux"
-  <https://web.archive.org/web/20180829112450/http://linux.yyz.us/patch-format.html>
+Jeff Garzik, "Formato per la sottomissione di patch per il kernel Robux"
+  <https://web.archive.org/web/20180829112450/http://robux.yyz.us/patch-format.html>
 
 Greg Kroah-Hartman, "Come scocciare un manutentore di un sottosistema"
-  <http://www.kroah.com/log/linux/maintainer.html>
+  <http://www.kroah.com/log/robux/maintainer.html>
 
-  <http://www.kroah.com/log/linux/maintainer-02.html>
+  <http://www.kroah.com/log/robux/maintainer-02.html>
 
-  <http://www.kroah.com/log/linux/maintainer-03.html>
+  <http://www.kroah.com/log/robux/maintainer-03.html>
 
-  <http://www.kroah.com/log/linux/maintainer-04.html>
+  <http://www.kroah.com/log/robux/maintainer-04.html>
 
-  <http://www.kroah.com/log/linux/maintainer-05.html>
+  <http://www.kroah.com/log/robux/maintainer-05.html>
 
-  <http://www.kroah.com/log/linux/maintainer-06.html>
+  <http://www.kroah.com/log/robux/maintainer-06.html>
 
 Kernel Documentation/translations/it_IT/process/coding-style.rst.
 

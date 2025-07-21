@@ -17,9 +17,9 @@
 
 #include <uapi/asm/kvm.h>
 
-#include <linux/hardirq.h>
-#include <linux/pkeys.h>
-#include <linux/vmalloc.h>
+#include <robux/hardirq.h>
+#include <robux/pkeys.h>
+#include <robux/vmalloc.h>
 
 #include "context.h"
 #include "internal.h"

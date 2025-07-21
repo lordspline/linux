@@ -20,16 +20,16 @@
  * driver.
  */
 
-#include <linux/aperture.h>
-#include <linux/clk.h>
-#include <linux/component.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/aperture.h>
+#include <robux/clk.h>
+#include <robux/component.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

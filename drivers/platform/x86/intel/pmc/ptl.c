@@ -6,7 +6,7 @@
  * Copyright (c) 2025, Intel Corporation.
  */
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 #include "core.h"
 

@@ -30,11 +30,11 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/sched/clock.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/sched/clock.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
 #include <rdma/rdma_cm.h>
 
 #include "rds_single_path.h"

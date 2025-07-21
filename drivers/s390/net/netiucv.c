@@ -26,29 +26,29 @@
 
 #undef DEBUG
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/bitops.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/timer.h>
+#include <robux/bitops.h>
 
-#include <linux/signal.h>
-#include <linux/string.h>
-#include <linux/device.h>
+#include <robux/signal.h>
+#include <robux/string.h>
+#include <robux/device.h>
 
-#include <linux/ip.h>
-#include <linux/if_arp.h>
-#include <linux/tcp.h>
-#include <linux/skbuff.h>
-#include <linux/ctype.h>
+#include <robux/ip.h>
+#include <robux/if_arp.h>
+#include <robux/tcp.h>
+#include <robux/skbuff.h>
+#include <robux/ctype.h>
 #include <net/dst.h>
 
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
 #include <asm/ebcdic.h>
 
 #include <net/iucv/iucv.h>
@@ -56,7 +56,7 @@
 
 MODULE_AUTHOR
     ("(C) 2001 IBM Corporation by Fritz Elfert (felfert@millenux.com)");
-MODULE_DESCRIPTION ("Linux for S/390 IUCV network driver");
+MODULE_DESCRIPTION ("Robux for S/390 IUCV network driver");
 
 /*
  * Debug Facility stuff

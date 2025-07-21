@@ -6,12 +6,12 @@
  * YOSHIFUJI Hideaki @USAGI:	added icmp sysctl table.
  */
 
-#include <linux/mm.h>
-#include <linux/sysctl.h>
-#include <linux/in6.h>
-#include <linux/ipv6.h>
-#include <linux/slab.h>
-#include <linux/export.h>
+#include <robux/mm.h>
+#include <robux/sysctl.h>
+#include <robux/in6.h>
+#include <robux/ipv6.h>
+#include <robux/slab.h>
+#include <robux/export.h>
 #include <net/ndisc.h>
 #include <net/ipv6.h>
 #include <net/addrconf.h>
@@ -21,7 +21,7 @@
 #ifdef CONFIG_NETLABEL
 #include <net/calipso.h>
 #endif
-#include <linux/ioam6.h>
+#include <robux/ioam6.h>
 
 static int flowlabel_reflect_max = 0x7;
 static int auto_flowlabels_max = IP6_AUTO_FLOW_LABEL_MAX;

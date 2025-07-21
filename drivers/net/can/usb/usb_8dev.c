@@ -12,16 +12,16 @@
  * who were very cooperative and answered my questions.
  */
 
-#include <linux/ethtool.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/usb.h>
+#include <robux/ethtool.h>
+#include <robux/signal.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/usb.h>
 
-#include <linux/can.h>
-#include <linux/can/dev.h>
-#include <linux/can/error.h>
+#include <robux/can.h>
+#include <robux/can/dev.h>
+#include <robux/can/error.h>
 
 /* driver constants */
 #define MAX_RX_URBS			20

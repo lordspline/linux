@@ -11,9 +11,9 @@
 #ifndef __LINUX_PINCTRL_PINCONF_GENERIC_H
 #define __LINUX_PINCTRL_PINCONF_GENERIC_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
-#include <linux/pinctrl/machine.h>
+#include <robux/pinctrl/machine.h>
 
 struct device_node;
 

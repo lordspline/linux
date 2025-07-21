@@ -14,10 +14,10 @@
  * run - maps VCN to LCN         - Stored in attributes in packed form.
  * attr - attribute segment      - std/name/data etc records inside MFT.
  * mi  - MFT inode               - One MFT record(usually 1024 bytes or 4K), consists of attributes.
- * ni  - NTFS inode              - Extends linux inode. consists of one or more mft inodes.
+ * ni  - NTFS inode              - Extends robux inode. consists of one or more mft inodes.
  * index - unit inside directory - 2K, 4K, <=page size, does not depend on cluster size.
  *
- * WSL - Windows Subsystem for Linux
+ * WSL - Windows Subsystem for Robux
  * https://docs.microsoft.com/en-us/windows/wsl/file-permissions
  * It stores uid/gid/mode/dev in xattr
  *
@@ -47,19 +47,19 @@
  *
  */
 
-#include <linux/blkdev.h>
-#include <linux/buffer_head.h>
-#include <linux/exportfs.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/log2.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/nls.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/statfs.h>
+#include <robux/blkdev.h>
+#include <robux/buffer_head.h>
+#include <robux/exportfs.h>
+#include <robux/fs.h>
+#include <robux/fs_context.h>
+#include <robux/fs_parser.h>
+#include <robux/log2.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/nls.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/statfs.h>
 
 #include "debug.h"
 #include "ntfs.h"
@@ -1874,7 +1874,7 @@ static int __init init_ntfs_fs(void)
 	int err;
 
 	if (IS_ENABLED(CONFIG_NTFS3_FS_POSIX_ACL))
-		pr_info("ntfs3: Enabled Linux POSIX ACLs support\n");
+		pr_info("ntfs3: Enabled Robux POSIX ACLs support\n");
 	if (IS_ENABLED(CONFIG_NTFS3_64BIT_CLUSTER))
 		pr_notice(
 			"ntfs3: Warning: Activated 64 bits per cluster. Windows does not support this\n");
@@ -1923,7 +1923,7 @@ static void __exit exit_ntfs_fs(void)
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("ntfs3 read/write filesystem");
 #ifdef CONFIG_NTFS3_FS_POSIX_ACL
-MODULE_INFO(behaviour, "Enabled Linux POSIX ACLs support");
+MODULE_INFO(behaviour, "Enabled Robux POSIX ACLs support");
 #endif
 #ifdef CONFIG_NTFS3_64BIT_CLUSTER
 MODULE_INFO(

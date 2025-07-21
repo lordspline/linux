@@ -5,7 +5,7 @@
 #include <string.h>
 #include <sys/ioctl.h>
 
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 
 #include <kvm_util.h>
 #include <processor.h>

@@ -6,13 +6,13 @@
  *
  * Author: David Dajun Chen <dchen@diasemi.com>
  */
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/driver.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/gpio/driver.h>
 
-#include <linux/mfd/da9055/core.h>
-#include <linux/mfd/da9055/reg.h>
-#include <linux/mfd/da9055/pdata.h>
+#include <robux/mfd/da9055/core.h>
+#include <robux/mfd/da9055/reg.h>
+#include <robux/mfd/da9055/pdata.h>
 
 #define DA9055_VDD_IO			0x0
 #define DA9055_PUSH_PULL		0x3

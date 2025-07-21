@@ -4,7 +4,7 @@
  * Copyright © 2018 Intel Corporation
  */
 
-#include <linux/mutex.h>
+#include <robux/mutex.h>
 
 #include "i915_drv.h"
 #include "i915_request.h"

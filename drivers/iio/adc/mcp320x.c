@@ -37,13 +37,13 @@
  * http://ww1.microchip.com/downloads/en/DeviceDoc/21950D.pdf  mcp3550/1/3
  */
 
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/spi/spi.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/iio/iio.h>
-#include <linux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/iio/iio.h>
+#include <robux/regulator/consumer.h>
 
 enum {
 	mcp3001,

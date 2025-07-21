@@ -6,11 +6,11 @@
  *	Peter Pan <peterpandong@micron.com>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mtd/spinand.h>
-#include <linux/spi/spi-mem.h>
-#include <linux/string.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/mtd/spinand.h>
+#include <robux/spi/spi-mem.h>
+#include <robux/string.h>
 
 #define SPINAND_MFR_MICRON		0x2c
 

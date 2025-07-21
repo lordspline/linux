@@ -4,11 +4,11 @@
  * Author: Jitao Shi <jitao.shi@mediatek.com>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
 
 #include <drm/drm_connector.h>
 #include <drm/drm_crtc.h>

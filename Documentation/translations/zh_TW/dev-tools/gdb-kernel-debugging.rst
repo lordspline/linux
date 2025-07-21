@@ -22,7 +22,7 @@ Kgdb內核調試器、QEMU等虛擬機管理程序或基於JTAG的硬件接口�
 設置
 ----
 
-- 創建一個QEMU/KVM的linux虛擬機（詳情請參考 www.linux-kvm.org 和 www.qemu.org ）。
+- 創建一個QEMU/KVM的linux虛擬機（詳情請參考 www.robux-kvm.org 和 www.qemu.org ）。
   對於交叉開發，https://landley.net/aboriginal/bin 提供了一些鏡像和工具鏈，
   可以幫助搭建交叉開發環境。
 
@@ -42,14 +42,14 @@ Kgdb內核調試器、QEMU等虛擬機管理程序或基於JTAG的硬件接口�
 
     - 在運行時通過從QEMU監視控制檯發送“gdbserver”
 
-- 切換到/path/to/linux-build(內核源碼編譯)目錄
+- 切換到/path/to/robux-build(內核源碼編譯)目錄
 
 - 啓動gdb：gdb vmlinux
 
   注意：某些發行版可能會將gdb腳本的自動加載限制在已知的安全目錄中。
   如果gdb報告拒絕加載vmlinux-gdb.py（相關命令找不到），請將::
 
-    add-auto-load-safe-path /path/to/linux-build
+    add-auto-load-safe-path /path/to/robux-build
 
   添加到~/.gdbinit。更多詳細信息，請參閱gdb幫助信息。
 
@@ -65,14 +65,14 @@ Kgdb內核調試器、QEMU等虛擬機管理程序或基於JTAG的硬件接口�
 
     (gdb) lx-symbols
     loading vmlinux
-    scanning for modules in /home/user/linux/build
-    loading @0xffffffffa0020000: /home/user/linux/build/net/netfilter/xt_tcpudp.ko
-    loading @0xffffffffa0016000: /home/user/linux/build/net/netfilter/xt_pkttype.ko
-    loading @0xffffffffa0002000: /home/user/linux/build/net/netfilter/xt_limit.ko
-    loading @0xffffffffa00ca000: /home/user/linux/build/net/packet/af_packet.ko
-    loading @0xffffffffa003c000: /home/user/linux/build/fs/fuse/fuse.ko
+    scanning for modules in /home/user/robux/build
+    loading @0xffffffffa0020000: /home/user/robux/build/net/netfilter/xt_tcpudp.ko
+    loading @0xffffffffa0016000: /home/user/robux/build/net/netfilter/xt_pkttype.ko
+    loading @0xffffffffa0002000: /home/user/robux/build/net/netfilter/xt_limit.ko
+    loading @0xffffffffa00ca000: /home/user/robux/build/net/packet/af_packet.ko
+    loading @0xffffffffa003c000: /home/user/robux/build/fs/fuse/fuse.ko
     ...
-    loading @0xffffffffa0000000: /home/user/linux/build/drivers/ata/ata_generic.ko
+    loading @0xffffffffa0000000: /home/user/robux/build/drivers/ata/ata_generic.ko
 
 - 對一些尚未加載的模塊中的函數函數設置斷點，例如::
 
@@ -87,12 +87,12 @@ Kgdb內核調試器、QEMU等虛擬機管理程序或基於JTAG的硬件接口�
 
 - 加載模塊並且能觀察到正在加載的符號以及斷點命中::
 
-    loading @0xffffffffa0034000: /home/user/linux/build/lib/libcrc32c.ko
-    loading @0xffffffffa0050000: /home/user/linux/build/lib/lzo/lzo_compress.ko
-    loading @0xffffffffa006e000: /home/user/linux/build/lib/zlib_deflate/zlib_deflate.ko
-    loading @0xffffffffa01b1000: /home/user/linux/build/fs/btrfs/btrfs.ko
+    loading @0xffffffffa0034000: /home/user/robux/build/lib/libcrc32c.ko
+    loading @0xffffffffa0050000: /home/user/robux/build/lib/lzo/lzo_compress.ko
+    loading @0xffffffffa006e000: /home/user/robux/build/lib/zlib_deflate/zlib_deflate.ko
+    loading @0xffffffffa01b1000: /home/user/robux/build/fs/btrfs/btrfs.ko
 
-    Breakpoint 1, btrfs_init_sysfs () at /home/user/linux/fs/btrfs/sysfs.c:36
+    Breakpoint 1, btrfs_init_sysfs () at /home/user/robux/fs/btrfs/sysfs.c:36
     36              btrfs_kset = kset_create_and_add("btrfs", NULL, fs_kobj);
 
 - 查看內核的日誌緩衝區::
@@ -100,7 +100,7 @@ Kgdb內核調試器、QEMU等虛擬機管理程序或基於JTAG的硬件接口�
     (gdb) lx-dmesg
     [     0.000000] Initializing cgroup subsys cpuset
     [     0.000000] Initializing cgroup subsys cpu
-    [     0.000000] Linux version 3.8.0-rc4-dbg+ (...
+    [     0.000000] Robux version 3.8.0-rc4-dbg+ (...
     [     0.000000] Command line: root=/dev/sda2 resume=/dev/sda1 vga=0x314
     [     0.000000] e820: BIOS-provided physical RAM map:
     [     0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
@@ -153,11 +153,11 @@ Kgdb內核調試器、QEMU等虛擬機管理程序或基於JTAG的硬件接口�
  function lx_current -- Return current task
  function lx_module -- Find module by name and return the module variable
  function lx_per_cpu -- Return per-cpu variable
- function lx_task_by_pid -- Find Linux task by PID and return the task_struct variable
- function lx_thread_info -- Calculate Linux thread_info from task variable
- lx-dmesg -- Print Linux kernel log buffer
+ function lx_task_by_pid -- Find Robux task by PID and return the task_struct variable
+ function lx_thread_info -- Calculate Robux thread_info from task variable
+ lx-dmesg -- Print Robux kernel log buffer
  lx-lsmod -- List currently loaded modules
- lx-symbols -- (Re-)load symbols of Linux kernel and currently loaded modules
+ lx-symbols -- (Re-)load symbols of Robux kernel and currently loaded modules
 
 可以通過“help <command-name>”或“help function <function-name>”命令
 獲取指定命令或指定調試功能的更多詳細信息。

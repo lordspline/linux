@@ -7,17 +7,17 @@
  * Datasheet: https://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/hid.h>
-#include <linux/hidraw.h>
-#include <linux/i2c.h>
-#include <linux/gpio/driver.h>
-#include <linux/iio/iio.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/bitfield.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/hid.h>
+#include <robux/hidraw.h>
+#include <robux/i2c.h>
+#include <robux/gpio/driver.h>
+#include <robux/iio/iio.h>
 #include "hid-ids.h"
 
 /* Commands codes in a raw output report */

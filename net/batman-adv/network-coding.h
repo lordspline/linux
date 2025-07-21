@@ -9,10 +9,10 @@
 
 #include "main.h"
 
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
-#include <uapi/linux/batadv_packet.h>
+#include <robux/netdevice.h>
+#include <robux/skbuff.h>
+#include <robux/types.h>
+#include <uapi/robux/batadv_packet.h>
 
 #ifdef CONFIG_BATMAN_ADV_NC
 

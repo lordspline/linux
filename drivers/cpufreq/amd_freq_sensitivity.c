@@ -8,13 +8,13 @@
  * Author: Jacob Shin <jacob.shin@amd.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/percpu-defs.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/percpu-defs.h>
+#include <robux/init.h>
+#include <robux/mod_devicetable.h>
 
 #include <asm/msr.h>
 #include <asm/cpufeature.h>

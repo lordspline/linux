@@ -9,7 +9,7 @@
 #ifndef LINUX_PATA_PARPORT_H
 #define LINUX_PATA_PARPORT_H
 
-#include <linux/libata.h>
+#include <robux/libata.h>
 
 struct pi_adapter {
 	struct device dev;

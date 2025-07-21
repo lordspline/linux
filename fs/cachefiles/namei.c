@@ -5,8 +5,8 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/fs.h>
-#include <linux/namei.h>
+#include <robux/fs.h>
+#include <robux/namei.h>
 #include "internal.h"
 
 /*

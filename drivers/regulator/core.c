@@ -7,26 +7,26 @@
 //
 // Author: Liam Girdwood <lrg@slimlogic.co.uk>
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/async.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/suspend.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regulator/coupler.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/async.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/suspend.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/regulator/consumer.h>
+#include <robux/regulator/coupler.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/module.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/regulator.h>

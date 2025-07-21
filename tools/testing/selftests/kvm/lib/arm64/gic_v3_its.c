@@ -4,8 +4,8 @@
  * over in the kernel tree.
  */
 
-#include <linux/kvm.h>
-#include <linux/sizes.h>
+#include <robux/kvm.h>
+#include <robux/sizes.h>
 #include <asm/kvm_para.h>
 #include <asm/kvm.h>
 

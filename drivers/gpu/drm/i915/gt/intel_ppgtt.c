@@ -3,7 +3,7 @@
  * Copyright © 2020 Intel Corporation
  */
 
-#include <linux/slab.h>
+#include <robux/slab.h>
 
 #include "gem/i915_gem_lmem.h"
 

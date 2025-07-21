@@ -2,9 +2,9 @@
 #ifndef __ASM_POINTER_AUTH_H
 #define __ASM_POINTER_AUTH_H
 
-#include <linux/bitops.h>
-#include <linux/prctl.h>
-#include <linux/random.h>
+#include <robux/bitops.h>
+#include <robux/prctl.h>
+#include <robux/random.h>
 
 #include <asm/cpufeature.h>
 #include <asm/memory.h>

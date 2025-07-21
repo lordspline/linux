@@ -1,38 +1,38 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Linux driver for WMI sensor information on Dell notebooks.
+ * Robux driver for WMI sensor information on Dell notebooks.
  *
  * Copyright (C) 2022 Armin Wolf <W_Armin@gmx.de>
  */
 
 #define pr_format(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/device/driver.h>
-#include <linux/dev_printk.h>
-#include <linux/errno.h>
-#include <linux/kconfig.h>
-#include <linux/kernel.h>
-#include <linux/hwmon.h>
-#include <linux/kstrtox.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/limits.h>
-#include <linux/pm.h>
-#include <linux/power_supply.h>
-#include <linux/printk.h>
-#include <linux/seq_file.h>
-#include <linux/sysfs.h>
-#include <linux/types.h>
-#include <linux/wmi.h>
+#include <robux/acpi.h>
+#include <robux/bitfield.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/device/driver.h>
+#include <robux/dev_printk.h>
+#include <robux/errno.h>
+#include <robux/kconfig.h>
+#include <robux/kernel.h>
+#include <robux/hwmon.h>
+#include <robux/kstrtox.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/limits.h>
+#include <robux/pm.h>
+#include <robux/power_supply.h>
+#include <robux/printk.h>
+#include <robux/seq_file.h>
+#include <robux/sysfs.h>
+#include <robux/types.h>
+#include <robux/wmi.h>
 
 #include <acpi/battery.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define DRIVER_NAME	"dell-wmi-ddv"
 

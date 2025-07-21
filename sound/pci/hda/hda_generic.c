@@ -7,16 +7,16 @@
  * Copyright (c) 2004 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/sort.h>
-#include <linux/delay.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/leds.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/sort.h>
+#include <robux/delay.h>
+#include <robux/ctype.h>
+#include <robux/string.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/leds.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/tlv.h>

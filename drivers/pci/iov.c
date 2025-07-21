@@ -7,11 +7,11 @@
  * Copyright (C) 2009 Intel Corporation, Yu Zhao <yu.zhao@intel.com>
  */
 
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/string.h>
-#include <linux/delay.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/string.h>
+#include <robux/delay.h>
 #include "pci.h"
 
 #define VIRTFN_ID_LEN	17	/* "virtfn%u\0" for 2^32 - 1 */

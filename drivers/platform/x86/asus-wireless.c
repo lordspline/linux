@@ -5,14 +5,14 @@
  * Copyright (C) 2015-2016 Endless Mobile, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/acpi.h>
-#include <linux/input.h>
-#include <linux/pci_ids.h>
-#include <linux/leds.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/acpi.h>
+#include <robux/input.h>
+#include <robux/pci_ids.h>
+#include <robux/leds.h>
 
 struct hswc_params {
 	u8 on;

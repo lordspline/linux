@@ -8,8 +8,8 @@
 #ifndef __LINUX_TI_EMIF_H
 #define __LINUX_TI_EMIF_H
 
-#include <linux/kbuild.h>
-#include <linux/types.h>
+#include <robux/kbuild.h>
+#include <robux/types.h>
 #ifndef __ASSEMBLY__
 
 struct emif_regs_amx3 {

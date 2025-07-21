@@ -2,16 +2,16 @@
 /* (C) 1999-2001 Michal Ludvig <michal@logix.cz>
  */
 
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/if_ether.h>
-#include <linux/if_packet.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
+#include <robux/module.h>
+#include <robux/skbuff.h>
+#include <robux/if_ether.h>
+#include <robux/if_packet.h>
+#include <robux/in.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
 
-#include <linux/netfilter/xt_pkttype.h>
-#include <linux/netfilter/x_tables.h>
+#include <robux/netfilter/xt_pkttype.h>
+#include <robux/netfilter/x_tables.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Michal Ludvig <michal@logix.cz>");

@@ -12,14 +12,14 @@
  * Code for /proc/lockdep and /proc/lockdep_stats:
  *
  */
-#include <linux/export.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/kallsyms.h>
-#include <linux/debug_locks.h>
-#include <linux/vmalloc.h>
-#include <linux/sort.h>
-#include <linux/uaccess.h>
+#include <robux/export.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/kallsyms.h>
+#include <robux/debug_locks.h>
+#include <robux/vmalloc.h>
+#include <robux/sort.h>
+#include <robux/uaccess.h>
 #include <asm/div64.h>
 
 #include "lockdep_internals.h"

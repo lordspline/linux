@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  *	Generic watchdog defines. Derived from..
  *
@@ -10,8 +10,8 @@
 #ifndef _UAPI_LINUX_WATCHDOG_H
 #define _UAPI_LINUX_WATCHDOG_H
 
-#include <linux/ioctl.h>
-#include <linux/types.h>
+#include <robux/ioctl.h>
+#include <robux/types.h>
 
 #define	WATCHDOG_IOCTL_BASE	'W'
 

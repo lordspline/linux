@@ -12,11 +12,11 @@
  */
 #include <errno.h>
 #include <inttypes.h>
-#include <linux/compiler.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/stringify.h>
-#include <linux/zalloc.h>
+#include <robux/compiler.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/stringify.h>
+#include <robux/zalloc.h>
 #include <asm/bug.h>
 #include <sys/param.h>
 #include "debug.h"

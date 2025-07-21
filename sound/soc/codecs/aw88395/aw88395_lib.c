@@ -7,9 +7,9 @@
 // Author: Bruce zhao <zhaolei@awinic.com>
 //
 
-#include <linux/cleanup.h>
-#include <linux/crc8.h>
-#include <linux/i2c.h>
+#include <robux/cleanup.h>
+#include <robux/crc8.h>
+#include <robux/i2c.h>
 #include "aw88395_lib.h"
 #include "aw88395_device.h"
 

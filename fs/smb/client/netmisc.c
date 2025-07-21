@@ -8,14 +8,14 @@
  *   Copyright (C) Andrew Tridgell 2001
  */
 
-#include <linux/net.h>
-#include <linux/string.h>
-#include <linux/in.h>
-#include <linux/ctype.h>
-#include <linux/fs.h>
+#include <robux/net.h>
+#include <robux/string.h>
+#include <robux/in.h>
+#include <robux/ctype.h>
+#include <robux/fs.h>
 #include <asm/div64.h>
 #include <asm/byteorder.h>
-#include <linux/inet.h>
+#include <robux/inet.h>
 #include "cifsfs.h"
 #include "cifspdu.h"
 #include "cifsglob.h"

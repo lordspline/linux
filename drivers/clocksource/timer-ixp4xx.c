@@ -8,17 +8,17 @@
  * Copyright 2003-2004 (C) MontaVista, Software, Inc.
  * Copyright (C) Deepak Saxena <dsaxena@plexity.net>
  */
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/sched_clock.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/sched_clock.h>
+#include <robux/slab.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
 
 /*
  * Constants to make it easy to access Timer Control/Status registers

@@ -11,15 +11,15 @@
  *
  */
 
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/seq_file.h>
-#include <linux/vmalloc.h>
-#include <linux/proc_fs.h>
+#include <robux/ctype.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/seq_file.h>
+#include <robux/vmalloc.h>
+#include <robux/proc_fs.h>
 
 #include <asm/debug.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "dasd_int.h"
 

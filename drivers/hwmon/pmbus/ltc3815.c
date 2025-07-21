@@ -6,12 +6,12 @@
  * Copyright (c) 2015 Guenter Roeck
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 #include "pmbus.h"
 
 #define LTC3815_MFR_IOUT_PEAK	0xd7

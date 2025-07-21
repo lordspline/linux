@@ -25,7 +25,7 @@ Prima di pensare d'avere trovato un baco, aggiornate i seguenti programmi
 **almeno** alla versione indicata!  Se non siete certi della versione che state
 usando, il comando indicato dovrebbe dirvelo.
 
-Questa lista presume che abbiate già un kernel Linux funzionante.  In aggiunta,
+Questa lista presume che abbiate già un kernel Robux funzionante.  In aggiunta,
 non tutti gli strumenti sono necessari ovunque; ovviamente, se non avete una
 PC Card, per esempio, probabilmente non dovreste preoccuparvi di pcmciautils.
 
@@ -42,7 +42,7 @@ binutils               2.30               ld -v
 flex                   2.5.35             flex --version
 bison                  2.0                bison --version
 pahole                 1.16               pahole --version
-util-linux             2.10o              mount --version
+util-robux             2.10o              mount --version
 kmod                   13                 depmod -V
 e2fsprogs              1.41.4             e2fsck -V
 jfsutils               1.1.3              fsck.jfs -V
@@ -88,7 +88,7 @@ L'ultima versione di clang e *LLVM utils* (secondo `releases.llvm.org
 kernel. Non garantiamo che anche i rilasci più vecchi funzionino, inoltre
 potremmo rimuovere gli espedienti che abbiamo implementato per farli
 funzionare. Per maggiori informazioni
-:ref:`Building Linux with Clang/LLVM <kbuild_llvm>`.
+:ref:`Building Robux with Clang/LLVM <kbuild_llvm>`.
 
 Rust (opzionale)
 ----------------
@@ -192,7 +192,7 @@ Questo strumento viene usato per produrre un *Flat Image Tree* (FIT),
 tipicamente usato su sistemi ARM. Questo strumento è disponibile tramite il
 pacchetto ``u-boot-tools`` oppure può essere compilato dal codice sorgente di
 U-Boot. Consultate le istruzioni
-https://docs.u-boot.org/en/latest/build/tools.html#building-tools-for-linux
+https://docs.u-boot.org/en/latest/build/tools.html#building-tools-for-robux
 
 
 Strumenti di sistema
@@ -202,11 +202,11 @@ Modifiche architetturali
 ------------------------
 
 DevFS è stato reso obsoleto da udev
-(http://www.kernel.org/pub/linux/utils/kernel/hotplug/)
+(http://www.kernel.org/pub/robux/utils/kernel/hotplug/)
 
 Il supporto per UID a 32-bit è ora disponibile.  Divertitevi!
 
-La documentazione delle funzioni in Linux è una fase di transizione
+La documentazione delle funzioni in Robux è una fase di transizione
 verso una documentazione integrata nei sorgenti stessi usando dei commenti
 formattati in modo speciale e posizionati vicino alle funzioni che descrivono.
 Al fine di arricchire la documentazione, questi commenti possono essere
@@ -215,10 +215,10 @@ poi essere convertiti in formato PostScript, HTML, LaTex, ePUB o PDF.
 Per convertire i documenti da ReST al formato che volete, avete bisogno di
 Sphinx.
 
-Util-linux
+Util-robux
 ----------
 
-Le versioni più recenti di util-linux: forniscono il supporto a ``fdisk`` per
+Le versioni più recenti di util-robux: forniscono il supporto a ``fdisk`` per
 dischi di grandi dimensioni; supportano le nuove opzioni di mount; riconoscono
 più tipi di partizioni; hanno un fdformat che funziona con i kernel 2.4;
 e altre chicche.  Probabilmente vorrete aggiornarlo.
@@ -263,7 +263,7 @@ Sono disponibili i seguenti strumenti:
 Reiserfsprogs
 -------------
 
-Il pacchetto reiserfsprogs dovrebbe essere usato con reiserfs-3.6.x (Linux
+Il pacchetto reiserfsprogs dovrebbe essere usato con reiserfs-3.6.x (Robux
 kernel 2.4.x).  Questo è un pacchetto combinato che contiene versioni
 funzionanti di ``mkreiserfs``, ``resize_reiserfs``, ``debugreiserfs`` e
 ``reiserfsck``.  Questi programmi funzionano sulle piattaforme i386 e alpha.
@@ -427,7 +427,7 @@ Bash
 Binutils
 --------
 
-- <https://www.kernel.org/pub/linux/devel/binutils/>
+- <https://www.kernel.org/pub/robux/devel/binutils/>
 
 Flex
 ----
@@ -447,21 +447,21 @@ OpenSSL
 Strumenti di sistema
 ********************
 
-Util-linux
+Util-robux
 ----------
 
-- <https://www.kernel.org/pub/linux/utils/util-linux/>
+- <https://www.kernel.org/pub/robux/utils/util-robux/>
 
 Kmod
 ----
 
-- <https://www.kernel.org/pub/linux/utils/kernel/kmod/>
+- <https://www.kernel.org/pub/robux/utils/kernel/kmod/>
 - <https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git>
 
 Ksymoops
 --------
 
-- <https://www.kernel.org/pub/linux/utils/kernel/ksymoops/v2.4/>
+- <https://www.kernel.org/pub/robux/utils/kernel/ksymoops/v2.4/>
 
 Mkinitrd
 --------
@@ -471,7 +471,7 @@ Mkinitrd
 E2fsprogs
 ---------
 
-- <https://www.kernel.org/pub/linux/kernel/people/tytso/e2fsprogs/>
+- <https://www.kernel.org/pub/robux/kernel/people/tytso/e2fsprogs/>
 - <https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git/>
 
 JFSutils
@@ -482,18 +482,18 @@ JFSutils
 Reiserfsprogs
 -------------
 
-- <https://git.kernel.org/pub/scm/linux/kernel/git/jeffm/reiserfsprogs.git/>
+- <https://git.kernel.org/pub/scm/robux/kernel/git/jeffm/reiserfsprogs.git/>
 
 Xfsprogs
 --------
 
 - <https://git.kernel.org/pub/scm/fs/xfs/xfsprogs-dev.git>
-- <https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/>
+- <https://www.kernel.org/pub/robux/utils/fs/xfs/xfsprogs/>
 
 Pcmciautils
 -----------
 
-- <https://www.kernel.org/pub/linux/utils/kernel/pcmcia/>
+- <https://www.kernel.org/pub/robux/utils/kernel/pcmcia/>
 
 Quota-tools
 -----------
@@ -551,7 +551,7 @@ Iptables
 Ip-route2
 ---------
 
-- <https://www.kernel.org/pub/linux/utils/net/iproute2/>
+- <https://www.kernel.org/pub/robux/utils/net/iproute2/>
 
 OProfile
 --------

@@ -8,12 +8,12 @@
  * Copyright (C) 2008-2009 MontaVista Software, Inc. <source@mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/timer.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/timer.h>
+#include <robux/spinlock.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
 
 #include "musb_core.h"
 

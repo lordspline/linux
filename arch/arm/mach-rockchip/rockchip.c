@@ -6,12 +6,12 @@
  * Author: Heiko Stuebner <heiko@sntech.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_clk.h>
-#include <linux/clocksource.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_clk.h>
+#include <robux/clocksource.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>
 #include "core.h"

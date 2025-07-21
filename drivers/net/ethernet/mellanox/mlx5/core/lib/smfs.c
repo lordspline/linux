@@ -1,8 +1,8 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 /* Copyright (c) 2021, NVIDIA CORPORATION & AFFILIATES. */
 
-#include <linux/kernel.h>
-#include <linux/mlx5/driver.h>
+#include <robux/kernel.h>
+#include <robux/mlx5/driver.h>
 
 #include "smfs.h"
 

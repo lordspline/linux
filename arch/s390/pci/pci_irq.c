@@ -2,12 +2,12 @@
 #define KMSG_COMPONENT "zpci"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/irq.h>
-#include <linux/kernel_stat.h>
-#include <linux/pci.h>
-#include <linux/msi.h>
-#include <linux/smp.h>
+#include <robux/kernel.h>
+#include <robux/irq.h>
+#include <robux/kernel_stat.h>
+#include <robux/pci.h>
+#include <robux/msi.h>
+#include <robux/smp.h>
 
 #include <asm/isc.h>
 #include <asm/airq.h>

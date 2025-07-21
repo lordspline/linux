@@ -4,9 +4,9 @@
  * Copyright (c) 2004 Matthew Wilcox
  */
 
-#include <linux/ioport.h>
-#include <linux/pci.h>
-#include <linux/export.h>
+#include <robux/ioport.h>
+#include <robux/pci.h>
+#include <robux/export.h>
 #include <asm/io.h>
 
 /*

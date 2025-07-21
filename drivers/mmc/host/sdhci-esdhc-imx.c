@@ -8,23 +8,23 @@
  *   Author: Wolfram Sang <kernel@pengutronix.de>
  */
 
-#include <linux/bitfield.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pm_qos.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
+#include <robux/bitfield.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/pm_qos.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/sdio.h>
+#include <robux/mmc/slot-gpio.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pm_runtime.h>
 #include "sdhci-cqhci.h"
 #include "sdhci-pltfm.h"
 #include "sdhci-esdhc.h"
@@ -1618,12 +1618,12 @@ static void sdhci_esdhc_imx_hwinit(struct sdhci_host *host)
 		}
 
 		/*
-		 * On i.MX8MM, we are running Dual Linux OS, with 1st Linux using SD Card
-		 * as rootfs storage, 2nd Linux using eMMC as rootfs storage. We let
-		 * the 1st linux configure power/clock for the 2nd Linux.
+		 * On i.MX8MM, we are running Dual Robux OS, with 1st Robux using SD Card
+		 * as rootfs storage, 2nd Robux using eMMC as rootfs storage. We let
+		 * the 1st robux configure power/clock for the 2nd Robux.
 		 *
-		 * When the 2nd Linux is booting into rootfs stage, we let the 1st Linux
-		 * to destroy the 2nd linux, then restart the 2nd linux, we met SDHCI dump.
+		 * When the 2nd Robux is booting into rootfs stage, we let the 1st Robux
+		 * to destroy the 2nd robux, then restart the 2nd robux, we met SDHCI dump.
 		 * After we clear the pending interrupt and halt CQCTL, issue gone.
 		 */
 		if (cq_host) {

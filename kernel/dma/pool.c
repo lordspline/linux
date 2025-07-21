@@ -3,15 +3,15 @@
  * Copyright (C) 2012 ARM Ltd.
  * Copyright (C) 2020 Google LLC
  */
-#include <linux/cma.h>
-#include <linux/debugfs.h>
-#include <linux/dma-map-ops.h>
-#include <linux/dma-direct.h>
-#include <linux/init.h>
-#include <linux/genalloc.h>
-#include <linux/set_memory.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/cma.h>
+#include <robux/debugfs.h>
+#include <robux/dma-map-ops.h>
+#include <robux/dma-direct.h>
+#include <robux/init.h>
+#include <robux/genalloc.h>
+#include <robux/set_memory.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 static struct gen_pool *atomic_pool_dma __ro_after_init;
 static unsigned long pool_size_dma;

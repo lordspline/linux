@@ -25,10 +25,10 @@
 #ifndef KFD_DEVICE_QUEUE_MANAGER_H_
 #define KFD_DEVICE_QUEUE_MANAGER_H_
 
-#include <linux/rwsem.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/sched/mm.h>
+#include <robux/rwsem.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/sched/mm.h>
 #include "kfd_priv.h"
 #include "kfd_mqd_manager.h"
 

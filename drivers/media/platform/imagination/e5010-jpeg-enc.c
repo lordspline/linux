@@ -10,14 +10,14 @@
  * Author: Devarsh Thakkar <devarsht@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/ioctl.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
+#include <robux/pm_runtime.h>
 #include <media/jpeg.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ctrls.h>

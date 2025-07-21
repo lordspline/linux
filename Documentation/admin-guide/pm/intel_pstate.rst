@@ -14,7 +14,7 @@ General Information
 ===================
 
 ``intel_pstate`` is a part of the
-:doc:`CPU performance scaling subsystem <cpufreq>` in the Linux kernel
+:doc:`CPU performance scaling subsystem <cpufreq>` in the Robux kernel
 (``CPUFreq``).  It is a scaling driver for the Sandy Bridge and later
 generations of Intel processors.  Note, however, that some of those processors
 may not be supported.  [To understand ``intel_pstate`` it is necessary to know
@@ -863,7 +863,7 @@ P-state is called, the ``ftrace`` filter can be set to
 References
 ==========
 
-.. [1] Kristen Accardi, *Balancing Power and Performance in the Linux Kernel*,
+.. [1] Kristen Accardi, *Balancing Power and Performance in the Robux Kernel*,
        https://events.static.linuxfound.org/sites/events/files/slides/LinuxConEurope_2015.pdf
 
 .. [2] *Intel® 64 and IA-32 Architectures Software Developer’s Manual Volume 3: System Programming Guide*,

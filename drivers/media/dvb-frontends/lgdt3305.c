@@ -8,9 +8,9 @@
  */
 
 #include <asm/div64.h>
-#include <linux/dvb/frontend.h>
-#include <linux/slab.h>
-#include <linux/int_log.h>
+#include <robux/dvb/frontend.h>
+#include <robux/slab.h>
+#include <robux/int_log.h>
 #include "lgdt3305.h"
 
 static int debug;

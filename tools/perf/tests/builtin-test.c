@@ -28,10 +28,10 @@
 #include "symbol.h"
 #include "util/rlimit.h"
 #include "util/strbuf.h"
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
 #include <subcmd/exec-cmd.h>
-#include <linux/zalloc.h>
+#include <robux/zalloc.h>
 
 #include "tests-scripts.h"
 

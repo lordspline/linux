@@ -10,13 +10,13 @@
  *      MIPS R2 user space instruction emulator for MIPS R6
  *
  */
-#include <linux/bug.h>
-#include <linux/compiler.h>
-#include <linux/debugfs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/seq_file.h>
+#include <robux/bug.h>
+#include <robux/compiler.h>
+#include <robux/debugfs.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/seq_file.h>
 
 #include <asm/asm.h>
 #include <asm/branch.h>
@@ -29,7 +29,7 @@
 #include <asm/local.h>
 #include <asm/mipsregs.h>
 #include <asm/ptrace.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #ifdef CONFIG_64BIT
 #define ADDIU	"daddiu "

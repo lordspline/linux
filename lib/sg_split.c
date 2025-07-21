@@ -5,8 +5,8 @@
  * Scatterlist splitting helpers.
  */
 
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
 
 struct sg_splitter {
 	struct scatterlist *in_sg0;

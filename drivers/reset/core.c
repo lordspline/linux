@@ -4,23 +4,23 @@
  *
  * Copyright 2013 Philipp Zabel, Pengutronix
  */
-#include <linux/atomic.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/idr.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
+#include <robux/atomic.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/kref.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/machine.h>
+#include <robux/idr.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/acpi.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/reset-controller.h>
+#include <robux/slab.h>
 
 static DEFINE_MUTEX(reset_list_mutex);
 static LIST_HEAD(reset_controller_list);
@@ -857,9 +857,9 @@ static int __reset_add_reset_gpio_lookup(int id, struct device_node *np,
 	const char *label_tmp;
 
 	/*
-	 * Later we map GPIO flags between OF and Linux, however not all
+	 * Later we map GPIO flags between OF and Robux, however not all
 	 * constants from include/dt-bindings/gpio/gpio.h and
-	 * include/linux/gpio/machine.h match each other.
+	 * include/robux/gpio/machine.h match each other.
 	 */
 	if (of_flags > GPIO_ACTIVE_LOW) {
 		pr_err("reset-gpio code does not support GPIO flags %u for GPIO %u\n",

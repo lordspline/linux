@@ -22,7 +22,7 @@
  * Authors: Christian König
  */
 
-#include <linux/dma-mapping.h>
+#include <robux/dma-mapping.h>
 #include <drm/ttm/ttm_range_manager.h>
 #include <drm/drm_drv.h>
 

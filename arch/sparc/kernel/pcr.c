@@ -3,13 +3,13 @@
  *
  * Copyright (C) 2009 David S. Miller (davem@davemloft.net)
  */
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/irq.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/irq.h>
 
-#include <linux/irq_work.h>
-#include <linux/ftrace.h>
+#include <robux/irq_work.h>
+#include <robux/ftrace.h>
 
 #include <asm/pil.h>
 #include <asm/pcr.h>

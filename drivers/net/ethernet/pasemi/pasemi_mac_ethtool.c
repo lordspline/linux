@@ -6,9 +6,9 @@
  */
 
 
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/pci.h>
 
 #include <asm/pasemi_dma.h>
 #include "pasemi_mac.h"

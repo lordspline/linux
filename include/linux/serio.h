@@ -6,15 +6,15 @@
 #define _SERIO_H
 
 
-#include <linux/cleanup.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <uapi/linux/serio.h>
+#include <robux/cleanup.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
+#include <uapi/robux/serio.h>
 
 extern const struct bus_type serio_bus;
 

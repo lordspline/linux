@@ -10,16 +10,16 @@
  * Specifications at www.trustedcomputinggroup.org
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmapool.h>
+#include <robux/slab.h>
 #include <asm/vio.h>
 #include <asm/irq.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/wait.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/wait.h>
 #include <asm/prom.h>
 
 #include "tpm.h"

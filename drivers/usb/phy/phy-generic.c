@@ -11,18 +11,18 @@
  *	autonomous such as isp1504, isp1707, etc.
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/usb/gadget.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/usb_phy_generic.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/usb/gadget.h>
+#include <robux/usb/otg.h>
+#include <robux/usb/usb_phy_generic.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/regulator/consumer.h>
+#include <robux/of.h>
+#include <robux/gpio/consumer.h>
+#include <robux/delay.h>
 
 #include "phy-generic.h"
 

@@ -6,9 +6,9 @@
  * User space memory access functions
  */
 
-#include <linux/compiler.h>
-#include <linux/string.h>
-#include <linux/mm_types.h>
+#include <robux/compiler.h>
+#include <robux/string.h>
+#include <robux/mm_types.h>
 #include <asm/asi.h>
 #include <asm/spitfire.h>
 #include <asm/pgtable.h>

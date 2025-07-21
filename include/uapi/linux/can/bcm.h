@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) */
+/* SPDX-License-Identifier: ((GPL-2.0-only WITH Robux-syscall-note) OR BSD-3-Clause) */
 /*
- * linux/can/bcm.h
+ * robux/can/bcm.h
  *
  * Definitions for CAN Broadcast Manager (BCM)
  *
@@ -45,8 +45,8 @@
 #ifndef _UAPI_CAN_BCM_H
 #define _UAPI_CAN_BCM_H
 
-#include <linux/types.h>
-#include <linux/can.h>
+#include <robux/types.h>
+#include <robux/can.h>
 
 struct bcm_timeval {
 	long tv_sec;

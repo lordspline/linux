@@ -3,20 +3,20 @@
 //
 // Copyright (C) 2015 Google, Inc.
 
-#include <linux/circ_buf.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/platform_device.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <robux/circ_buf.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/platform_device.h>
+#include <robux/poll.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/wait.h>
 
 #define DRV_NAME "cros-ec-debugfs"
 

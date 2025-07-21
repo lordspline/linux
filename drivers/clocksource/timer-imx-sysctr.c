@@ -2,9 +2,9 @@
 //
 // Copyright 2017-2019 NXP
 
-#include <linux/interrupt.h>
-#include <linux/clockchips.h>
-#include <linux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/clockchips.h>
+#include <robux/slab.h>
 
 #include "timer-of.h"
 

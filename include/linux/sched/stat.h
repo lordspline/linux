@@ -2,8 +2,8 @@
 #ifndef _LINUX_SCHED_STAT_H
 #define _LINUX_SCHED_STAT_H
 
-#include <linux/percpu.h>
-#include <linux/kconfig.h>
+#include <robux/percpu.h>
+#include <robux/kconfig.h>
 
 /*
  * Various counters maintained by the scheduler and fork(),

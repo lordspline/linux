@@ -4,8 +4,8 @@
  *            generic strncmp routine.
  */
 
-#include <linux/export.h>
-#include <linux/linkage.h>
+#include <robux/export.h>
+#include <robux/linkage.h>
 
 	.text
 ENTRY(strncmp)

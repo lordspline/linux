@@ -4,19 +4,19 @@
  * Author: Kevin Tsai <ktsai@capellamicro.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/interrupt.h>
-#include <linux/regulator/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/events.h>
-#include <linux/init.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/interrupt.h>
+#include <robux/regulator/consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/events.h>
+#include <robux/init.h>
 
 /* Registers Address */
 #define CM32181_REG_ADDR_CMD		0x00

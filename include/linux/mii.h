@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/mii.h: definitions for MII-compatible transceivers
+ * robux/mii.h: definitions for MII-compatible transceivers
  * Originally drivers/net/sunhme.h.
  *
  * Copyright (C) 1996, 1999, 2001 David S. Miller (davem@redhat.com)
@@ -9,9 +9,9 @@
 #define __LINUX_MII_H__
 
 
-#include <linux/if.h>
-#include <linux/linkmode.h>
-#include <uapi/linux/mii.h>
+#include <robux/if.h>
+#include <robux/linkmode.h>
+#include <uapi/robux/mii.h>
 
 struct ethtool_cmd;
 

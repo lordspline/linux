@@ -9,24 +9,24 @@
  *
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/math64.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/units.h>
+#include <robux/array_size.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/math64.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/units.h>
 
-#include <linux/gpio/consumer.h>
+#include <robux/gpio/consumer.h>
 
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
 
-#include <linux/regulator/consumer.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "mprls0025pa.h"
 

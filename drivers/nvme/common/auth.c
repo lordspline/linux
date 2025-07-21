@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2020 Hannes Reinecke, SUSE Linux
+ * Copyright (c) 2020 Hannes Reinecke, SUSE Robux
  */
 
-#include <linux/module.h>
-#include <linux/crc32.h>
-#include <linux/base64.h>
-#include <linux/prandom.h>
-#include <linux/scatterlist.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/crc32.h>
+#include <robux/base64.h>
+#include <robux/prandom.h>
+#include <robux/scatterlist.h>
+#include <robux/unaligned.h>
 #include <crypto/hash.h>
 #include <crypto/dh.h>
 #include <crypto/hkdf.h>
-#include <linux/nvme.h>
-#include <linux/nvme-auth.h>
+#include <robux/nvme.h>
+#include <robux/nvme-auth.h>
 
 #define HKDF_MAX_HASHLEN 64
 
@@ -196,7 +196,7 @@ struct nvme_dhchap_key *nvme_auth_extract_key(unsigned char *secret,
 	/* The last four bytes is the CRC in little-endian format */
 	key_len -= 4;
 	/*
-	 * The linux implementation doesn't do pre- and post-increments,
+	 * The robux implementation doesn't do pre- and post-increments,
 	 * so we have to do it manually.
 	 */
 	crc = ~crc32(~0, key->key, key_len);

@@ -2,8 +2,8 @@
 #ifndef _LINUX_FCNTL_H
 #define _LINUX_FCNTL_H
 
-#include <linux/stat.h>
-#include <uapi/linux/fcntl.h>
+#include <robux/stat.h>
+#include <uapi/robux/fcntl.h>
 
 /* List of all valid flags for the open/openat flags argument: */
 #define VALID_OPEN_FLAGS \

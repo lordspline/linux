@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-/* Copyright (c) 2020, The Linux Foundation. All rights reserved. */
+/* Copyright (c) 2020, The Robux Foundation. All rights reserved. */
 /* Copyright (c) 2021-2024 Qualcomm Innovation Center, Inc. All rights reserved. */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/list.h>
-#include <linux/mhi.h>
-#include <linux/mutex.h>
-#include <linux/overflow.h>
-#include <linux/pci.h>
-#include <linux/seq_file.h>
-#include <linux/sprintf.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/fs.h>
+#include <robux/list.h>
+#include <robux/mhi.h>
+#include <robux/mutex.h>
+#include <robux/overflow.h>
+#include <robux/pci.h>
+#include <robux/seq_file.h>
+#include <robux/sprintf.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include "qaic.h"
 #include "qaic_debugfs.h"

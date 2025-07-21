@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2021, The Robux Foundation. All rights reserved.
  * Copyright (c) 2022-2023, Qualcomm Innovation Center, Inc. All rights reserved.
  * Copyright (c) 2024, Linaro Ltd.
  */
 
-#include <linux/device.h>
-#include <linux/interconnect.h>
-#include <linux/interconnect-provider.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_device.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/sort.h>
+#include <robux/device.h>
+#include <robux/interconnect.h>
+#include <robux/interconnect-provider.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_device.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/sort.h>
 #include <dt-bindings/interconnect/qcom,sar2130p-rpmh.h>
 
 #include "bcm-voter.h"

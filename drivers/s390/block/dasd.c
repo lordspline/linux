@@ -8,18 +8,18 @@
  * Copyright IBM Corp. 1999, 2009
  */
 
-#include <linux/kmod.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ctype.h>
-#include <linux/major.h>
-#include <linux/slab.h>
-#include <linux/hdreg.h>
-#include <linux/async.h>
-#include <linux/mutex.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/vmalloc.h>
+#include <robux/kmod.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ctype.h>
+#include <robux/major.h>
+#include <robux/slab.h>
+#include <robux/hdreg.h>
+#include <robux/async.h>
+#include <robux/mutex.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/vmalloc.h>
 
 #include <asm/machine.h>
 #include <asm/ccwdev.h>
@@ -47,7 +47,7 @@ EXPORT_SYMBOL(dasd_diag_discipline_pointer);
 void dasd_int_handler(struct ccw_device *, unsigned long, struct irb *);
 
 MODULE_AUTHOR("Holger Smolinski <Holger.Smolinski@de.ibm.com>");
-MODULE_DESCRIPTION("Linux on S/390 DASD device driver,"
+MODULE_DESCRIPTION("Robux on S/390 DASD device driver,"
 		   " Copyright IBM Corp. 2000");
 MODULE_LICENSE("GPL");
 
@@ -411,7 +411,7 @@ static int dasd_state_unfmt_to_basic(struct dasd_device *device)
 
 /*
  * Make the device online and schedule the bottom half to start
- * the requeueing of requests from the linux request queue to the
+ * the requeueing of requests from the robux request queue to the
  * ccw queue.
  */
 static int

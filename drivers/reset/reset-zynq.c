@@ -7,15 +7,15 @@
  * Author: Moritz Fischer <moritz.fischer@ettus.com>
  */
 
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset-controller.h>
-#include <linux/regmap.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reset-controller.h>
+#include <robux/regmap.h>
+#include <robux/types.h>
 
 struct zynq_reset_data {
 	struct regmap *slcr;

@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2019-2020 ARM Limited or its affiliates. */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/clk.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/interrupt.h>
-#include <linux/irqreturn.h>
-#include <linux/workqueue.h>
-#include <linux/circ_buf.h>
-#include <linux/completion.h>
-#include <linux/of.h>
-#include <linux/bitfield.h>
-#include <linux/fips.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/clk.h>
+#include <robux/hw_random.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/interrupt.h>
+#include <robux/irqreturn.h>
+#include <robux/workqueue.h>
+#include <robux/circ_buf.h>
+#include <robux/completion.h>
+#include <robux/of.h>
+#include <robux/bitfield.h>
+#include <robux/fips.h>
 
 #include "cctrng.h"
 

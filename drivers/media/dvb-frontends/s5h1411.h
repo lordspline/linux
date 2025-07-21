@@ -10,7 +10,7 @@
 #ifndef __S5H1411_H__
 #define __S5H1411_H__
 
-#include <linux/dvb/frontend.h>
+#include <robux/dvb/frontend.h>
 
 #define S5H1411_I2C_TOP_ADDR (0x32 >> 1)
 #define S5H1411_I2C_QAM_ADDR (0x34 >> 1)

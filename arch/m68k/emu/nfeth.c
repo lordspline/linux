@@ -1,5 +1,5 @@
 /*
- * atari_nfeth.c - ARAnyM ethernet card driver for GNU/Linux
+ * atari_nfeth.c - ARAnyM ethernet card driver for GNU/Robux
  *
  * Copyright (c) 2005 Milan Jurik, Petr Stehlik of ARAnyM dev team
  *
@@ -14,10 +14,10 @@
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
 #include <asm/natfeat.h>
 #include <asm/virtconvert.h>
 

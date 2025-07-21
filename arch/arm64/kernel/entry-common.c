@@ -5,15 +5,15 @@
  * Copyright (C) 2019 ARM Ltd.
  */
 
-#include <linux/context_tracking.h>
-#include <linux/kasan.h>
-#include <linux/linkage.h>
-#include <linux/lockdep.h>
-#include <linux/ptrace.h>
-#include <linux/resume_user_mode.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/thread_info.h>
+#include <robux/context_tracking.h>
+#include <robux/kasan.h>
+#include <robux/linkage.h>
+#include <robux/lockdep.h>
+#include <robux/ptrace.h>
+#include <robux/resume_user_mode.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/thread_info.h>
 
 #include <asm/cpufeature.h>
 #include <asm/daifflags.h>

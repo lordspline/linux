@@ -16,13 +16,13 @@
  *			   Advanced Micro Devices Inc.
  */
 
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/pci.h>
-#include <linux/uaccess.h>
+#include <robux/cpu.h>
+#include <robux/debugfs.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/pci.h>
+#include <robux/uaccess.h>
 
 #include <asm/amd/nb.h>
 #include <asm/apic.h>

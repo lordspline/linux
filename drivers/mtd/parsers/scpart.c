@@ -6,11 +6,11 @@
  *    Copyright (C) 2022 Mikhail Zhilkin
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/module.h>
 
 #define	MOD_NAME	"scpart"
 

@@ -116,7 +116,7 @@ allOf:
 examples:
   - |
    #include <dt-bindings/interrupt-controller/irq.h>
-   #include <dt-bindings/input/linux-event-codes.h>
+   #include <dt-bindings/input/robux-event-codes.h>
    #include <dt-bindings/spmi/spmi.h>
 
    spmi@c440000 {
@@ -138,7 +138,7 @@ examples:
             interrupts = <0x0 0x8 0 IRQ_TYPE_EDGE_BOTH>;
             debounce = <15625>;
             bias-pull-up;
-            linux,code = <KEY_POWER>;
+            robux,code = <KEY_POWER>;
          };
 
          resin {
@@ -146,7 +146,7 @@ examples:
             interrupts = <0x0 0x8 1 IRQ_TYPE_EDGE_BOTH>;
             debounce = <15625>;
             bias-pull-up;
-            linux,code = <KEY_VOLUMEDOWN>;
+            robux,code = <KEY_VOLUMEDOWN>;
          };
        };
      };

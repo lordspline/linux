@@ -2,10 +2,10 @@
 #ifndef MEAN_AND_VARIANCE_H_
 #define MEAN_AND_VARIANCE_H_
 
-#include <linux/types.h>
-#include <linux/limits.h>
-#include <linux/math.h>
-#include <linux/math64.h>
+#include <robux/types.h>
+#include <robux/limits.h>
+#include <robux/math.h>
+#include <robux/math64.h>
 
 #define SQRT_U64_MAX 4294967295ULL
 

@@ -14,21 +14,21 @@
  * systems with no controllable regulators.
  */
 
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_opp.h>
-#include <linux/reboot.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/fixed.h>
-#include <linux/gpio/consumer.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/regulator/machine.h>
-#include <linux/clk.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_opp.h>
+#include <robux/reboot.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/fixed.h>
+#include <robux/gpio/consumer.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/regulator/machine.h>
+#include <robux/clk.h>
 
 /* Default time in millisecond to wait for emergency shutdown */
 #define FV_DEF_EMERG_SHUTDWN_TMO	10

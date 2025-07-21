@@ -4,7 +4,7 @@
  * are supported by the hardware.  See Documentation/arch/riscv/hwprobe.rst for
  * more details.
  */
-#include <linux/syscalls.h>
+#include <robux/syscalls.h>
 #include <asm/cacheflush.h>
 #include <asm/cpufeature.h>
 #include <asm/hwprobe.h>

@@ -7,9 +7,9 @@
 
 #define pr_fmt(fmt) "SCMI Notifications SENSOR - " fmt
 
-#include <linux/bitfield.h>
-#include <linux/module.h>
-#include <linux/scmi_protocol.h>
+#include <robux/bitfield.h>
+#include <robux/module.h>
+#include <robux/scmi_protocol.h>
 
 #include "protocols.h"
 #include "notify.h"

@@ -6,10 +6,10 @@
 #ifndef _XE_OA_TYPES_H_
 #define _XE_OA_TYPES_H_
 
-#include <linux/bitops.h>
-#include <linux/idr.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/idr.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
 
 #include <uapi/drm/xe_drm.h>
 #include "regs/xe_reg_defs.h"

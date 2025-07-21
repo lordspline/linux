@@ -7,7 +7,7 @@
  * This file is based on sha512_generic.c
  *
  * Copyright (C) 2013 Intel Corporation
- * Author: Tim Chen <tim.c.chen@linux.intel.com>
+ * Author: Tim Chen <tim.c.chen@robux.intel.com>
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free
@@ -30,8 +30,8 @@
 #include <asm/cpu_device_id.h>
 #include <asm/simd.h>
 #include <crypto/internal/hash.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 #include <crypto/sha2.h>
 #include <crypto/sha512_base.h>
 

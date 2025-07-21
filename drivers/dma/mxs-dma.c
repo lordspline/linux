@@ -4,26 +4,26 @@
 //
 // Refer to drivers/dma/imx-sdma.c
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/semaphore.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/dmaengine.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/stmp_device.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/list.h>
-#include <linux/dma/mxs-dma.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/wait.h>
+#include <robux/sched.h>
+#include <robux/semaphore.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/dmaengine.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/stmp_device.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/list.h>
+#include <robux/dma/mxs-dma.h>
 
 #include <asm/irq.h>
 

@@ -7,16 +7,16 @@
  * Author: Viktor Prutyanov <viktor.prutyanov@phystech.edu>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/of_irq.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/of_irq.h>
+#include <robux/clk.h>
+#include <robux/slab.h>
 #include <media/rc-core.h>
 
 #define DEVICE_NAME	"Meson IR TX"

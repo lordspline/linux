@@ -7,9 +7,9 @@
  * for more details.
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/reboot.h>
 
 void machine_shutdown(void)
 {

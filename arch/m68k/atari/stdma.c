@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/atari/stmda.c
+ *  robux/arch/m68k/atari/stmda.c
  *
  *  Copyright (C) 1994 Roman Hodek
  *
@@ -28,13 +28,13 @@
 /* (can be determined by looking at its status register).              */
 
 
-#include <linux/types.h>
-#include <linux/kdev_t.h>
-#include <linux/sched.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/wait.h>
-#include <linux/module.h>
+#include <robux/types.h>
+#include <robux/kdev_t.h>
+#include <robux/sched.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/wait.h>
+#include <robux/module.h>
 
 #include <asm/atari_stdma.h>
 #include <asm/atariints.h>

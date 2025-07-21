@@ -19,21 +19,21 @@
  * shutdown for not being used.
  */
 
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
-#include <linux/delay.h>
+#include <robux/completion.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/thermal.h>
+#include <robux/delay.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
-#include <linux/iio/machine.h>
-#include <linux/mfd/sun4i-gpadc.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/driver.h>
+#include <robux/iio/machine.h>
+#include <robux/mfd/sun4i-gpadc.h>
 
 static unsigned int sun4i_gpadc_chan_select(unsigned int chan)
 {

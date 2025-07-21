@@ -6,20 +6,20 @@
  *          Huacai Chen, chenhc@lemote.com
  *          Xiaofu Meng, Shuangshuang Zhang
  */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/mmzone.h>
-#include <linux/export.h>
-#include <linux/nodemask.h>
-#include <linux/swap.h>
-#include <linux/memblock.h>
-#include <linux/pfn.h>
-#include <linux/highmem.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/mmzone.h>
+#include <robux/export.h>
+#include <robux/nodemask.h>
+#include <robux/swap.h>
+#include <robux/memblock.h>
+#include <robux/pfn.h>
+#include <robux/highmem.h>
 #include <asm/page.h>
 #include <asm/pgalloc.h>
 #include <asm/sections.h>
-#include <linux/irq.h>
+#include <robux/irq.h>
 #include <asm/bootinfo.h>
 #include <asm/mc146818-time.h>
 #include <asm/time.h>

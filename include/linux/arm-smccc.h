@@ -5,14 +5,14 @@
 #ifndef __LINUX_ARM_SMCCC_H
 #define __LINUX_ARM_SMCCC_H
 
-#include <linux/args.h>
-#include <linux/init.h>
+#include <robux/args.h>
+#include <robux/init.h>
 
 #ifndef __ASSEMBLY__
-#include <linux/uuid.h>
+#include <robux/uuid.h>
 #endif
 
-#include <uapi/linux/const.h>
+#include <uapi/robux/const.h>
 
 /*
  * This file provides common defines for ARM SMC Calling Convention as
@@ -304,8 +304,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/linkage.h>
-#include <linux/types.h>
+#include <robux/linkage.h>
+#include <robux/types.h>
 
 enum arm_smccc_conduit {
 	SMCCC_CONDUIT_NONE,

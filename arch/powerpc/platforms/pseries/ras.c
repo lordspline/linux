@@ -3,13 +3,13 @@
  * Copyright (C) 2001 Dave Engebretsen IBM Corporation
  */
 
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/fs.h>
-#include <linux/reboot.h>
-#include <linux/irq_work.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/fs.h>
+#include <robux/reboot.h>
+#include <robux/irq_work.h>
 
 #include <asm/machdep.h>
 #include <asm/rtas.h>

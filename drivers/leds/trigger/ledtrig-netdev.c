@@ -10,22 +10,22 @@
 //  Copyright 2005-2006 Openedhand Ltd.
 //  Author: Richard Purdie <rpurdie@openedhand.com>
 
-#include <linux/atomic.h>
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/linkmode.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/mutex.h>
-#include <linux/phy.h>
-#include <linux/rtnetlink.h>
-#include <linux/timer.h>
+#include <robux/atomic.h>
+#include <robux/ctype.h>
+#include <robux/device.h>
+#include <robux/ethtool.h>
+#include <robux/init.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/linkmode.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/mutex.h>
+#include <robux/phy.h>
+#include <robux/rtnetlink.h>
+#include <robux/timer.h>
 #include "../leds.h"
 
 #define NETDEV_LED_DEFAULT_INTERVAL	50

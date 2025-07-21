@@ -3,8 +3,8 @@
  * Copyright (C) 2020-2024 Intel Corporation
  */
 
-#include <linux/circ_buf.h>
-#include <linux/highmem.h>
+#include <robux/circ_buf.h>
+#include <robux/highmem.h>
 
 #include "ivpu_drv.h"
 #include "ivpu_hw.h"

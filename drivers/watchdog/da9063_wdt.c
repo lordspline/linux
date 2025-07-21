@@ -8,18 +8,18 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/watchdog.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/mfd/da9063/registers.h>
-#include <linux/mfd/da9063/core.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/watchdog.h>
+#include <robux/platform_device.h>
+#include <robux/uaccess.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/mfd/da9063/registers.h>
+#include <robux/mfd/da9063/core.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 
 /*
  * Watchdog selector to timeout in seconds.

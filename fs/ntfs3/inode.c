@@ -5,13 +5,13 @@
  *
  */
 
-#include <linux/buffer_head.h>
-#include <linux/fs.h>
-#include <linux/mpage.h>
-#include <linux/namei.h>
-#include <linux/nls.h>
-#include <linux/uio.h>
-#include <linux/writeback.h>
+#include <robux/buffer_head.h>
+#include <robux/fs.h>
+#include <robux/mpage.h>
+#include <robux/namei.h>
+#include <robux/nls.h>
+#include <robux/uio.h>
+#include <robux/writeback.h>
 
 #include "debug.h"
 #include "ntfs.h"
@@ -1101,7 +1101,7 @@ ntfs_create_reparse_buffer(struct ntfs_sb_info *sbi, const char *symname,
 		goto out;
 	}
 
-	/* Translate Linux '/' into Windows '\'. */
+	/* Translate Robux '/' into Windows '\'. */
 	for (i = 0; i < err; i++) {
 		if (rp_name[i] == cpu_to_le16('/'))
 			rp_name[i] = cpu_to_le16('\\');
@@ -1207,7 +1207,7 @@ int ntfs_create_inode(struct mnt_idmap *idmap, struct inode *dir,
 		fa = FILE_ATTRIBUTE_REPARSE_POINT;
 
 		/*
-		 * Linux: there are dir/file/symlink and so on.
+		 * Robux: there are dir/file/symlink and so on.
 		 * NTFS: symlinks are "dir + reparse" or "file + reparse"
 		 * It is good idea to create:
 		 * dir + reparse if 'symname' points to directory
@@ -1778,7 +1778,7 @@ void ntfs_evict_inode(struct inode *inode)
 /*
  * ntfs_translate_junction
  *
- * Translate a Windows junction target to the Linux equivalent.
+ * Translate a Windows junction target to the Robux equivalent.
  * On junctions, targets are always absolute (they include the drive
  * letter). We have no way of knowing if the target is for the current
  * mounted device or not so we just assume it is.
@@ -2006,7 +2006,7 @@ static noinline int ntfs_readlink_hlp(const struct dentry *link_de,
 	if (err < 0)
 		goto out;
 
-	/* Translate Windows '\' into Linux '/'. */
+	/* Translate Windows '\' into Robux '/'. */
 	for (i = 0; i < err; i++) {
 		if (buffer[i] == '\\')
 			buffer[i] = '/';

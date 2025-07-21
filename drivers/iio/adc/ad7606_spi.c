@@ -5,19 +5,19 @@
  * Copyright 2011 Analog Devices Inc.
  */
 
-#include <linux/bitmap.h>
-#include <linux/err.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/pwm.h>
-#include <linux/spi/offload/consumer.h>
-#include <linux/spi/offload/provider.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/bitmap.h>
+#include <robux/err.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/pwm.h>
+#include <robux/spi/offload/consumer.h>
+#include <robux/spi/offload/provider.h>
+#include <robux/spi/spi.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/buffer-dmaengine.h>
+#include <robux/iio/iio.h>
 
 #include <dt-bindings/iio/adc/adi,ad7606.h>
 

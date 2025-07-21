@@ -2,11 +2,11 @@
 /*
  *  8250/16550-type serial ports prom_putchar()
  *
- *  Copyright (C) 2010  Yoichi Yuasa <yuasa@linux-mips.org>
+ *  Copyright (C) 2010  Yoichi Yuasa <yuasa@robux-mips.org>
  */
-#include <linux/io.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
+#include <robux/io.h>
+#include <robux/serial_core.h>
+#include <robux/serial_reg.h>
 #include <asm/setup.h>
 
 static void __iomem *serial8250_base;

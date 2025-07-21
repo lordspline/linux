@@ -12,13 +12,13 @@
 #ifndef __LINUX_POWER_SUPPLY_H__
 #define __LINUX_POWER_SUPPLY_H__
 
-#include <linux/device.h>
-#include <linux/workqueue.h>
-#include <linux/leds.h>
-#include <linux/rwsem.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/notifier.h>
+#include <robux/device.h>
+#include <robux/workqueue.h>
+#include <robux/leds.h>
+#include <robux/rwsem.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/notifier.h>
 
 /*
  * All voltages, currents, charges, energies, time and temperatures in uV,
@@ -660,7 +660,7 @@ struct power_supply_maintenance_charge_table {
  * 2. Next a small initial pre-charge current (precharge_current_ua)
  *    is applied if the voltage is below precharge_voltage_max_uv until we
  *    reach precharge_voltage_max_uv. CAUTION: in some texts this is referred
- *    to as "trickle charging" but the use in the Linux kernel is different
+ *    to as "trickle charging" but the use in the Robux kernel is different
  *    see below!
  *
  * 3. Then the main charging current is applied, which is called the constant

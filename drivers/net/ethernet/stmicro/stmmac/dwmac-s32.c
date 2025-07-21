@@ -6,18 +6,18 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of_mdio.h>
-#include <linux/of_address.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/platform_device.h>
-#include <linux/stmmac.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/ethtool.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of_mdio.h>
+#include <robux/of_address.h>
+#include <robux/phy.h>
+#include <robux/phylink.h>
+#include <robux/platform_device.h>
+#include <robux/stmmac.h>
 
 #include "stmmac_platform.h"
 

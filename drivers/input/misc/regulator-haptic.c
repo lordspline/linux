@@ -7,14 +7,14 @@
  * Author: Hyunhee Kim <hyunhee.kim@samsung.com>
  */
 
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_data/regulator-haptic.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_data/regulator-haptic.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
 
 #define MAX_MAGNITUDE_SHIFT	16
 

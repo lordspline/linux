@@ -5,8 +5,8 @@
  * Copyright (C) 2011 Jon Medhurst <tixy@yxit.co.uk>.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 #include <asm/system_info.h>
 #include <asm/opcodes.h>
 #include <asm/probes.h>

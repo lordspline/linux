@@ -6,16 +6,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/capability.h>
-#include <linux/mm.h>
-#include <linux/file.h>
-#include <linux/security.h>
-#include <linux/kexec.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/syscalls.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
+#include <robux/capability.h>
+#include <robux/mm.h>
+#include <robux/file.h>
+#include <robux/security.h>
+#include <robux/kexec.h>
+#include <robux/mutex.h>
+#include <robux/list.h>
+#include <robux/syscalls.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
 
 #include "kexec_internal.h"
 

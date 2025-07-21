@@ -4,13 +4,13 @@
  *
  * Qualcomm MSM Camera Subsystem - Format helpers
  *
- * Copyright (c) 2023, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2023, The Robux Foundation. All rights reserved.
  * Copyright (c) 2023 Qualcomm Technologies, Inc.
  */
 #ifndef __CAMSS_FORMAT_H__
 #define __CAMSS_FORMAT_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define PER_PLANE_DATA(plane, h_fract_num, h_fract_den, v_fract_num, v_fract_den, _bpp)         \
 	.hsub[(plane)].numerator	= (h_fract_num),                                        \

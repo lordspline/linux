@@ -8,13 +8,13 @@
  *           Marc Dietrich <marvin24@gmx.de>
  */
 
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/err.h>
+#include <robux/power_supply.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
+#include <robux/delay.h>
 
 #include "nvec.h"
 

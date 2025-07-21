@@ -3,9 +3,9 @@
 #ifndef DEV_SYNC_PROBE_H
 #define DEV_SYNC_PROBE_H
 
-#include <linux/completion.h>
-#include <linux/notifier.h>
-#include <linux/platform_device.h>
+#include <robux/completion.h>
+#include <robux/notifier.h>
+#include <robux/platform_device.h>
 
 struct dev_sync_probe_data {
 	struct platform_device *pdev;

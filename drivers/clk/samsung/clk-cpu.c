@@ -29,12 +29,12 @@
  * down in order to keep the output clock rate within the previous OPP limits.
  */
 
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
 
 #include "clk.h"
 #include "clk-cpu.h"

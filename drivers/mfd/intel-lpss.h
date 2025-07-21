@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2015, Intel Corporation
  *
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@robux.intel.com>
+ *          Mika Westerberg <mika.westerberg@robux.intel.com>
  */
 
 #ifndef __MFD_INTEL_LPSS_H
 #define __MFD_INTEL_LPSS_H
 
-#include <linux/bits.h>
-#include <linux/pm.h>
+#include <robux/bits.h>
+#include <robux/pm.h>
 
 /*
  * Some DSDTs have an unused GEXP ACPI device conflicting with I2C4 resources.

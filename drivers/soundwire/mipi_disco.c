@@ -17,10 +17,10 @@
  *    here
  */
 
-#include <linux/device.h>
-#include <linux/property.h>
-#include <linux/mod_devicetable.h>
-#include <linux/soundwire/sdw.h>
+#include <robux/device.h>
+#include <robux/property.h>
+#include <robux/mod_devicetable.h>
+#include <robux/soundwire/sdw.h>
 #include "bus.h"
 
 static bool mipi_fwnode_property_read_bool(const struct fwnode_handle *fwnode,

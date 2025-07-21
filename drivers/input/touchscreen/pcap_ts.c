@@ -6,16 +6,16 @@
  *  Copyright (C) 2009 Daniel Ribeiro <drwyrm@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/mfd/ezx-pcap.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/pm.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/input.h>
+#include <robux/mfd/ezx-pcap.h>
 
 struct pcap_ts {
 	struct pcap_chip *pcap;

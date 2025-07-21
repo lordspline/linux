@@ -8,8 +8,8 @@
 #ifndef _CRYPTO_AKCIPHER_H
 #define _CRYPTO_AKCIPHER_H
 
-#include <linux/atomic.h>
-#include <linux/crypto.h>
+#include <robux/atomic.h>
+#include <robux/crypto.h>
 
 /**
  * struct akcipher_request - public key cipher request

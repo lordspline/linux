@@ -6,25 +6,25 @@
  *         ChiaEn Wu <chiaen_wu@richtek.com>
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/kstrtox.h>
-#include <linux/linear_range.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
-#include <linux/regulator/driver.h>
-#include <linux/units.h>
-#include <linux/sysfs.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/kstrtox.h>
+#include <robux/linear_range.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
+#include <robux/regulator/driver.h>
+#include <robux/units.h>
+#include <robux/sysfs.h>
 
 #define RT9467_REG_CORE_CTRL0		0x00
 #define RT9467_REG_CHG_CTRL1		0x01

@@ -6,9 +6,9 @@
 //
 // Split from fsl_ssi.c
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
 
 #include "fsl_ssi.h"
 

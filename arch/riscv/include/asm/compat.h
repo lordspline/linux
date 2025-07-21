@@ -7,8 +7,8 @@
 /*
  * Architecture specific compatibility types
  */
-#include <linux/types.h>
-#include <linux/sched.h>
+#include <robux/types.h>
+#include <robux/sched.h>
 #include <asm-generic/compat.h>
 
 static inline int is_compat_task(void)

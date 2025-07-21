@@ -35,9 +35,9 @@
 #ifndef LINUX_NFSD_IDMAP_H
 #define LINUX_NFSD_IDMAP_H
 
-#include <linux/in.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/nfs_idmap.h>
+#include <robux/in.h>
+#include <robux/sunrpc/svc.h>
+#include <robux/nfs_idmap.h>
 
 #ifdef CONFIG_NFSD_V4
 int nfsd_idmap_init(struct net *);

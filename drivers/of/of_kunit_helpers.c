@@ -3,8 +3,8 @@
  * Test managed DeviceTree APIs
  */
 
-#include <linux/of.h>
-#include <linux/of_fdt.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
 
 #include <kunit/of.h>
 #include <kunit/test.h>

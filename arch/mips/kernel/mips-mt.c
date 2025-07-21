@@ -4,16 +4,16 @@
  * Copyright (C) 2005 Mips Technologies, Inc
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/security.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/export.h>
+#include <robux/interrupt.h>
+#include <robux/security.h>
 
 #include <asm/cpu.h>
 #include <asm/processor.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/hardirq.h>
 #include <asm/mmu_context.h>
 #include <asm/mipsmtregs.h>

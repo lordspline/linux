@@ -5,12 +5,12 @@
  * All rights reserved.
  */
 
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
 #include <asm/io.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
 
 #include "netxen_nic.h"
 #include "netxen_nic_hw.h"

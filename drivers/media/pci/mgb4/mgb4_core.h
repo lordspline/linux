@@ -7,10 +7,10 @@
 #ifndef __MGB4_CORE_H__
 #define __MGB4_CORE_H__
 
-#include <linux/spi/flash.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mutex.h>
-#include <linux/dmaengine.h>
+#include <robux/spi/flash.h>
+#include <robux/mtd/partitions.h>
+#include <robux/mutex.h>
+#include <robux/dmaengine.h>
 #include "mgb4_regs.h"
 
 #define MGB4_HW_FREQ 125000000

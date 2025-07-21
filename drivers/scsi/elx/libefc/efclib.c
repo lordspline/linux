@@ -16,8 +16,8 @@
  * lock. So all the state machine transitions are protected.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
 #include "efc.h"
 
 int efcport_init(struct efc *efc)

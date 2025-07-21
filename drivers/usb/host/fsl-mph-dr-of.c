@@ -5,16 +5,16 @@
  * in flat device tree.
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/fsl_devices.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/fsl_devices.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/dma-mapping.h>
 
 struct fsl_usb2_dev_data {
 	char *dr_mode;		/* controller mode */

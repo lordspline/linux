@@ -3,19 +3,19 @@
  * Copyright (C) 2017 Linaro Ltd.
  */
 
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/iommu.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/of_device.h>
-#include <linux/firmware/qcom/qcom_scm.h>
-#include <linux/sizes.h>
-#include <linux/soc/qcom/mdt_loader.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/kernel.h>
+#include <robux/iommu.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/of_device.h>
+#include <robux/firmware/qcom/qcom_scm.h>
+#include <robux/sizes.h>
+#include <robux/soc/qcom/mdt_loader.h>
 
 #include "core.h"
 #include "firmware.h"

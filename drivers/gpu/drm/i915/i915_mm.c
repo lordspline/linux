@@ -22,8 +22,8 @@
  *
  */
 
-#include <linux/mm.h>
-#include <linux/io-mapping.h>
+#include <robux/mm.h>
+#include <robux/io-mapping.h>
 
 
 #include "i915_drv.h"

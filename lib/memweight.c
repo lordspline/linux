@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/export.h>
-#include <linux/bug.h>
-#include <linux/bitmap.h>
+#include <robux/export.h>
+#include <robux/bug.h>
+#include <robux/bitmap.h>
 
 /**
  * memweight - count the total number of bits set in memory area

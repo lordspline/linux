@@ -6,7 +6,7 @@
  *
  * Copyright (C) 2002, 2004 Oracle.  All rights reserved.
  *
- *  Portions of this code from linux/fs/ext3/dir.c
+ *  Portions of this code from robux/fs/ext3/dir.c
  *
  *  Copyright (C) 1992, 1993, 1994, 1995
  *  Remy Card (card@masi.ibp.fr)
@@ -15,17 +15,17 @@
  *
  *   from
  *
- *   linux/fs/minix/dir.c
+ *   robux/fs/minix/dir.c
  *
- *   Copyright (C) 1991, 1992 Linux Torvalds
+ *   Copyright (C) 1991, 1992 Robux Torvalds
  */
 
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/highmem.h>
-#include <linux/quotaops.h>
-#include <linux/iversion.h>
+#include <robux/fs.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/highmem.h>
+#include <robux/quotaops.h>
+#include <robux/iversion.h>
 
 #include <cluster/masklog.h>
 

@@ -3,15 +3,15 @@
  *       All rights reserved.
  */
 
-#include <linux/platform_device.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/etherdevice.h>
-#include <linux/netdevice.h>
-#include <linux/spinlock.h>
-#include <linux/of_net.h>
-#include <linux/reset.h>
-#include <linux/clk.h>
-#include <linux/of.h>
+#include <robux/platform_device.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/etherdevice.h>
+#include <robux/netdevice.h>
+#include <robux/spinlock.h>
+#include <robux/of_net.h>
+#include <robux/reset.h>
+#include <robux/clk.h>
+#include <robux/of.h>
 
 #include "spl2sw_register.h"
 #include "spl2sw_define.h"

@@ -3,7 +3,7 @@
  * Copyright (C) 2023 Lorenzo Bianconi <lorenzo@kernel.org>
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 #ifndef __CHECKER__
 #define CREATE_TRACE_POINTS

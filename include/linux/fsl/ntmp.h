@@ -3,8 +3,8 @@
 #ifndef __NETC_NTMP_H
 #define __NETC_NTMP_H
 
-#include <linux/bitops.h>
-#include <linux/if_ether.h>
+#include <robux/bitops.h>
+#include <robux/if_ether.h>
 
 struct maft_keye_data {
 	u8 mac_addr[ETH_ALEN];

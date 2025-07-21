@@ -6,13 +6,13 @@
  * Author: Zhe Wang <zhe.wang1@unisoc.com>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/regulator/consumer.h>
+#include <robux/arm-smccc.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/regulator/consumer.h>
 
 #include <ufs/ufshcd.h>
 #include "ufshcd-pltfrm.h"

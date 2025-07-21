@@ -7,20 +7,20 @@
  * Author: Srinivas Kandagatla <srinivas.kandagatla@st.com>
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/bitfield.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/cpu.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
-#include <linux/sched_clock.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/bitfield.h>
+#include <robux/clocksource.h>
+#include <robux/clockchips.h>
+#include <robux/cpu.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
+#include <robux/sched_clock.h>
 
 #include <asm/cputype.h>
 

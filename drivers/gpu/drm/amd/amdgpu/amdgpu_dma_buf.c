@@ -39,9 +39,9 @@
 #include "amdgpu_vm.h"
 #include <drm/amdgpu_drm.h>
 #include <drm/ttm/ttm_tt.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-fence-array.h>
-#include <linux/pci-p2pdma.h>
+#include <robux/dma-buf.h>
+#include <robux/dma-fence-array.h>
+#include <robux/pci-p2pdma.h>
 
 static const struct dma_buf_attach_ops amdgpu_dma_buf_attach_ops;
 

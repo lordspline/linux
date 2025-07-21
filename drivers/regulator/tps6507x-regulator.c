@@ -7,18 +7,18 @@
  * Copyright (C) 2009 Texas Instrument Incorporated - https://www.ti.com/
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/tps6507x.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/mfd/tps6507x.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/tps6507x.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/mfd/tps6507x.h>
+#include <robux/regulator/of_regulator.h>
 
 /* DCDC's */
 #define TPS6507X_DCDC_1				0

@@ -8,17 +8,17 @@
  * for more details.
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_clock.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/sh_clk.h>
-#include <linux/bitmap.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_clock.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/sh_clk.h>
+#include <robux/bitmap.h>
+#include <robux/slab.h>
 
 static struct dev_pm_domain default_pm_domain = {
 	.ops = {

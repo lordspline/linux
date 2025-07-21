@@ -7,10 +7,10 @@
  * Copyright 2009  by Karsten Keil <keil@isdn4linux.de>
  */
 
-#include <linux/irqreturn.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mISDNhw.h>
+#include <robux/irqreturn.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/mISDNhw.h>
 #include "ipac.h"
 
 

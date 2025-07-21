@@ -5,8 +5,8 @@
  *    Copyright (C) 2010 Michael Krufky <mkrufky@linuxtv.org>
  */
 
-#include <linux/jiffies.h>
-#include <linux/dvb/frontend.h>
+#include <robux/jiffies.h>
+#include <robux/dvb/frontend.h>
 #include "lg2160.h"
 
 static int debug;

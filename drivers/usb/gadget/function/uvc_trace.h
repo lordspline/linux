@@ -13,9 +13,9 @@
 #if !defined(__UVCG_TRACE_H) || defined(TRACE_HEADER_MULTI_READ)
 #define __UVCG_TRACE_H
 
-#include <linux/types.h>
-#include <linux/tracepoint.h>
-#include <linux/usb/gadget.h>
+#include <robux/types.h>
+#include <robux/tracepoint.h>
+#include <robux/usb/gadget.h>
 #include <asm/byteorder.h>
 
 DECLARE_EVENT_CLASS(uvcg_video_req,

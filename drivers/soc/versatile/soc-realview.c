@@ -4,15 +4,15 @@
  *
  * Author: Linus Walleij <linus.walleij@linaro.org>
  */
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/of.h>
 
 /* System ID in syscon */
 #define REALVIEW_SYS_ID_OFFSET 0x00

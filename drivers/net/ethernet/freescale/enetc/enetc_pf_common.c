@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: (GPL-2.0+ OR BSD-3-Clause)
 /* Copyright 2024 NXP */
 
-#include <linux/fsl/enetc_mdio.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
+#include <robux/fsl/enetc_mdio.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
 
 #include "enetc_pf_common.h"
 

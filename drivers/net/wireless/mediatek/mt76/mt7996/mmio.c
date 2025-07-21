@@ -3,10 +3,10 @@
  * Copyright (C) 2022 MediaTek Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/rtnetlink.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/rtnetlink.h>
 
 #include "mt7996.h"
 #include "mac.h"

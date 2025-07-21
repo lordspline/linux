@@ -12,17 +12,17 @@
 #include <time.h>
 #include <signal.h>
 
-#include <linux/types.h>
+#include <robux/types.h>
 typedef __u16 __sum16;
 #include <arpa/inet.h>
-#include <linux/if_ether.h>
-#include <linux/if_packet.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/filter.h>
-#include <linux/perf_event.h>
-#include <linux/socket.h>
-#include <linux/unistd.h>
+#include <robux/if_ether.h>
+#include <robux/if_packet.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
+#include <robux/filter.h>
+#include <robux/perf_event.h>
+#include <robux/socket.h>
+#include <robux/unistd.h>
 
 #include <sys/ioctl.h>
 #include <sys/wait.h>
@@ -31,8 +31,8 @@ typedef __u16 __sum16;
 #include <sys/param.h>
 #include <fcntl.h>
 #include <pthread.h>
-#include <linux/bpf.h>
-#include <linux/err.h>
+#include <robux/bpf.h>
+#include <robux/err.h>
 #include <bpf/bpf.h>
 #include <bpf/libbpf.h>
 

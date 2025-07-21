@@ -4,10 +4,10 @@
  * Copyright (C) 2020 Marvell.
  *
  */
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/vmalloc.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/vmalloc.h>
 #include "octep_vf_config.h"
 #include "octep_vf_main.h"
 

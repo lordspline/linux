@@ -104,7 +104,7 @@
 	};
 
 	btsco: bt-sco {
-		compatible = "linux,bt-sco";
+		compatible = "robux,bt-sco";
 		#sound-dai-cells = <0>;
 	};
 
@@ -125,7 +125,7 @@
 		wifi_wakeup_event: event-wowlan {
 			label = "Wake on WiFi";
 			gpios = <&pio 113 GPIO_ACTIVE_HIGH>;
-			linux,code = <KEY_WAKEUP>;
+			robux,code = <KEY_WAKEUP>;
 			wakeup-source;
 		};
 	};

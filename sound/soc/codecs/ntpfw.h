@@ -7,8 +7,8 @@
 
 #ifndef __NTPFW_H__
 #define __NTPFW_H__
-#include <linux/i2c.h>
-#include <linux/firmware.h>
+#include <robux/i2c.h>
+#include <robux/firmware.h>
 
 /**
  * ntpfw_load - load firmware to amplifier over i2c interface.

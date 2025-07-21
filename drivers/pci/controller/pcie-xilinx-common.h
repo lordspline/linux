@@ -3,9 +3,9 @@
  * (C) Copyright 2023, Xilinx, Inc.
  */
 
-#include <linux/pci.h>
-#include <linux/pci-ecam.h>
-#include <linux/platform_device.h>
+#include <robux/pci.h>
+#include <robux/pci-ecam.h>
+#include <robux/platform_device.h>
 
 /* Interrupt registers definitions */
 #define XILINX_PCIE_INTR_LINK_DOWN		0

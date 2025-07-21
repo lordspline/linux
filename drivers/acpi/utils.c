@@ -8,14 +8,14 @@
 
 #define pr_fmt(fmt) "ACPI: utils: " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/hardirq.h>
-#include <linux/acpi.h>
-#include <linux/dynamic_debug.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/hardirq.h>
+#include <robux/acpi.h>
+#include <robux/dynamic_debug.h>
 
 #include "internal.h"
 #include "sleep.h"

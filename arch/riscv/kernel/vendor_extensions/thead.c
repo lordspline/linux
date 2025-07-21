@@ -4,11 +4,11 @@
 #include <asm/vendor_extensions.h>
 #include <asm/vendor_extensions/thead.h>
 
-#include <linux/array_size.h>
-#include <linux/cpumask.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/cpumask.h>
+#include <robux/types.h>
 
-/* All T-Head vendor extensions supported in Linux */
+/* All T-Head vendor extensions supported in Robux */
 static const struct riscv_isa_ext_data riscv_isa_vendor_ext_thead[] = {
 	__RISCV_ISA_EXT_DATA(xtheadvector, RISCV_ISA_VENDOR_EXT_XTHEADVECTOR),
 };

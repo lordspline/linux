@@ -4,15 +4,15 @@
  * Copyright (c) 2019, Intel Corporation.
  * All rights reserved.
  *
- * Author: Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>
+ * Author: Srinivas Pandruvada <srinivas.pandruvada@robux.intel.com>
  */
 
-#include <linux/cpufeature.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/sched/signal.h>
-#include <linux/uaccess.h>
-#include <uapi/linux/isst_if.h>
+#include <robux/cpufeature.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/sched/signal.h>
+#include <robux/uaccess.h>
+#include <uapi/robux/isst_if.h>
 
 #include "isst_if_common.h"
 

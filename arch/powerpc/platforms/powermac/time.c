@@ -10,22 +10,22 @@
  * Copyright (C) 2003-2005 Benjamin Herrenschmidt.
  *
  */
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/adb.h>
-#include <linux/cuda.h>
-#include <linux/pmu.h>
-#include <linux/interrupt.h>
-#include <linux/hardirq.h>
-#include <linux/rtc.h>
-#include <linux/of_address.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/param.h>
+#include <robux/string.h>
+#include <robux/string_choices.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/time.h>
+#include <robux/adb.h>
+#include <robux/cuda.h>
+#include <robux/pmu.h>
+#include <robux/interrupt.h>
+#include <robux/hardirq.h>
+#include <robux/rtc.h>
+#include <robux/of_address.h>
 
 #include <asm/early_ioremap.h>
 #include <asm/sections.h>

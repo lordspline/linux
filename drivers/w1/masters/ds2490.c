@@ -5,13 +5,13 @@
  * Copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/usb.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/usb.h>
+#include <robux/slab.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 /* USB Standard */
 /* USB Control request vendor type */

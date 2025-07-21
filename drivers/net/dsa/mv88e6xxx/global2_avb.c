@@ -4,14 +4,14 @@
  *
  * Copyright (c) 2008 Marvell Semiconductor
  *
- * Copyright (c) 2016-2017 Savoir-faire Linux Inc.
+ * Copyright (c) 2016-2017 Savoir-faire Robux Inc.
  *	Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  *
  * Copyright (c) 2017 National Instruments
  *	Brandon Streiff <brandon.streiff@ni.com>
  */
 
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 
 #include "global2.h"
 

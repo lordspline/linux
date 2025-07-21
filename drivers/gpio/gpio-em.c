@@ -5,20 +5,20 @@
  *  Copyright (C) 2012 Magnus Damm
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/bitops.h>
-#include <linux/err.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/pinctrl/consumer.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/bitops.h>
+#include <robux/err.h>
+#include <robux/gpio/driver.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/pinctrl/consumer.h>
 
 struct em_gio_priv {
 	void __iomem *base0;

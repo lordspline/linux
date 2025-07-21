@@ -6,15 +6,15 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <media/rc-core.h>
-#include <linux/bsearch.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/leds.h>
-#include <linux/slab.h>
-#include <linux/idr.h>
-#include <linux/device.h>
-#include <linux/module.h>
+#include <robux/bsearch.h>
+#include <robux/spinlock.h>
+#include <robux/delay.h>
+#include <robux/input.h>
+#include <robux/leds.h>
+#include <robux/slab.h>
+#include <robux/idr.h>
+#include <robux/device.h>
+#include <robux/module.h>
 #include "rc-core-priv.h"
 
 /* Sizes are in bytes, 256 bytes allows for 32 entries on x64 */

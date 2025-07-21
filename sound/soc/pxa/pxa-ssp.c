@@ -10,15 +10,15 @@
  *  o Test network mode for > 16bit sample size
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/pxa2xx_ssp.h>
-#include <linux/of.h>
-#include <linux/dmaengine.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/pxa2xx_ssp.h>
+#include <robux/of.h>
+#include <robux/dmaengine.h>
 
 #include <asm/irq.h>
 

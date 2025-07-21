@@ -14,11 +14,11 @@
  *  code, and exception/interrupt return code for PowerPC.
  */
 
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/sys.h>
-#include <linux/threads.h>
-#include <linux/linkage.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/sys.h>
+#include <robux/threads.h>
+#include <robux/linkage.h>
 
 #include <asm/reg.h>
 #include <asm/page.h>

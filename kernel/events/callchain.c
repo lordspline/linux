@@ -8,10 +8,10 @@
  *  Copyright  ©  2009 Paul Mackerras, IBM Corp. <paulus@au1.ibm.com>
  */
 
-#include <linux/perf_event.h>
-#include <linux/slab.h>
-#include <linux/sched/task_stack.h>
-#include <linux/uprobes.h>
+#include <robux/perf_event.h>
+#include <robux/slab.h>
+#include <robux/sched/task_stack.h>
+#include <robux/uprobes.h>
 
 #include "internal.h"
 

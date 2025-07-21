@@ -11,24 +11,24 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bcd.h>
-#include <linux/clk-provider.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
-#include <linux/delay.h>
+#include <robux/bcd.h>
+#include <robux/clk-provider.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/string.h>
+#include <robux/delay.h>
 #ifdef CONFIG_RTC_DRV_M41T80_WDT
-#include <linux/fs.h>
-#include <linux/ioctl.h>
-#include <linux/miscdevice.h>
-#include <linux/reboot.h>
-#include <linux/watchdog.h>
+#include <robux/fs.h>
+#include <robux/ioctl.h>
+#include <robux/miscdevice.h>
+#include <robux/reboot.h>
+#include <robux/watchdog.h>
 #endif
 
 #define M41T80_REG_SSEC		0x00

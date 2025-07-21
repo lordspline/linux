@@ -6,14 +6,14 @@
 //
 // Author: Lucas Tanure <tanureal@opensource.cirrus.com>
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
 #include <sound/hda_codec.h>
 #include <sound/soc.h>
-#include <linux/pm_runtime.h>
-#include <linux/spi/spi.h>
-#include <linux/vmalloc.h>
+#include <robux/pm_runtime.h>
+#include <robux/spi/spi.h>
+#include <robux/vmalloc.h>
 #include "hda_local.h"
 #include "hda_auto_parser.h"
 #include "hda_jack.h"

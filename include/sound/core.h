@@ -7,14 +7,14 @@
  *  Copyright (c) 1994-2001 by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/device.h>
-#include <linux/sched.h>		/* wake_up() */
-#include <linux/mutex.h>		/* struct mutex */
-#include <linux/rwsem.h>		/* struct rw_semaphore */
-#include <linux/pm.h>			/* pm_message_t */
-#include <linux/stringify.h>
-#include <linux/printk.h>
-#include <linux/xarray.h>
+#include <robux/device.h>
+#include <robux/sched.h>		/* wake_up() */
+#include <robux/mutex.h>		/* struct mutex */
+#include <robux/rwsem.h>		/* struct rw_semaphore */
+#include <robux/pm.h>			/* pm_message_t */
+#include <robux/stringify.h>
+#include <robux/printk.h>
+#include <robux/xarray.h>
 
 /* number of supported soundcards */
 #ifdef CONFIG_SND_DYNAMIC_MINORS

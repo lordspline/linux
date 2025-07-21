@@ -9,9 +9,9 @@
 #ifndef __HSR_SLAVE_H
 #define __HSR_SLAVE_H
 
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
+#include <robux/skbuff.h>
+#include <robux/netdevice.h>
+#include <robux/rtnetlink.h>
 #include "hsr_main.h"
 
 int hsr_add_port(struct hsr_priv *hsr, struct net_device *dev,

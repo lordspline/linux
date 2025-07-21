@@ -12,9 +12,9 @@
 * Platform specific includes and functionality.
 */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
 
 #define UINT16_MAX USHRT_MAX
 #define UINT32_MAX UINT_MAX

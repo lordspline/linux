@@ -10,10 +10,10 @@
 #include "perf.h"
 
 #include "util/color.h"
-#include <linux/list.h>
+#include <robux/list.h>
 #include "util/cache.h"
-#include <linux/rbtree.h>
-#include <linux/zalloc.h>
+#include <robux/rbtree.h>
+#include <robux/zalloc.h>
 #include "util/symbol.h"
 
 #include "util/debug.h"
@@ -42,8 +42,8 @@
 
 #include <dlfcn.h>
 #include <errno.h>
-#include <linux/bitmap.h>
-#include <linux/err.h>
+#include <robux/bitmap.h>
+#include <robux/err.h>
 #include <inttypes.h>
 
 struct perf_annotate {

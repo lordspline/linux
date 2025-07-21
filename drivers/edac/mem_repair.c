@@ -9,7 +9,7 @@
  * Copyright (c) 2024-2025 HiSilicon Limited.
  */
 
-#include <linux/edac.h>
+#include <robux/edac.h>
 
 enum edac_mem_repair_attributes {
 	MR_TYPE,

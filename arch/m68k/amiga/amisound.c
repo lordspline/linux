@@ -1,18 +1,18 @@
 /*
- * linux/arch/m68k/amiga/amisound.c
+ * robux/arch/m68k/amiga/amisound.c
  *
- * amiga sound driver for Linux/m68k
+ * amiga sound driver for Robux/m68k
  *
  * This file is subject to the terms and conditions of the GNU General Public
  * License.  See the file COPYING in the main directory of this archive
  * for more details.
  */
 
-#include <linux/jiffies.h>
-#include <linux/timer.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/module.h>
+#include <robux/jiffies.h>
+#include <robux/timer.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/module.h>
 
 #include <asm/amigahw.h>
 

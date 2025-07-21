@@ -24,9 +24,9 @@
  *          Alex Deucher
  */
 
-#include <linux/backlight.h>
-#include <linux/dmi.h>
-#include <linux/pci.h>
+#include <robux/backlight.h>
+#include <robux/dmi.h>
+#include <robux/pci.h>
 
 #include <drm/drm_crtc_helper.h>
 #include <drm/drm_edid.h>

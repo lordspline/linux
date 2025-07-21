@@ -4,10 +4,10 @@
 #ifndef _MLXSW_REG_H
 #define _MLXSW_REG_H
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/bitops.h>
-#include <linux/if_vlan.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/bitops.h>
+#include <robux/if_vlan.h>
 
 #include "item.h"
 #include "port.h"

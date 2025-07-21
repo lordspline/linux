@@ -4,18 +4,18 @@
  *
  * Copyright (C) 2019, Intel Corporation
  * Authors: Divya Sasidharan <divya.s.sasidharan@intel.com>
- *	    Mika Westerberg <mika.westerberg@linux.intel.com>
+ *	    Mika Westerberg <mika.westerberg@robux.intel.com>
  *	    Rajmohan Mani <rajmohan.mani@intel.com>
  */
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
-#include <linux/platform_data/x86/intel_scu_ipc.h>
+#include <robux/platform_data/x86/intel_scu_ipc.h>
 
 static int intel_scu_platform_probe(struct platform_device *pdev)
 {
@@ -54,7 +54,7 @@ static struct platform_driver intel_scu_platform_driver = {
 module_platform_driver(intel_scu_platform_driver);
 
 MODULE_AUTHOR("Divya Sasidharan <divya.s.sasidharan@intel.com>");
-MODULE_AUTHOR("Mika Westerberg <mika.westerberg@linux.intel.com");
+MODULE_AUTHOR("Mika Westerberg <mika.westerberg@robux.intel.com");
 MODULE_AUTHOR("Rajmohan Mani <rajmohan.mani@intel.com>");
 MODULE_DESCRIPTION("Intel SCU platform driver");
 MODULE_LICENSE("GPL v2");

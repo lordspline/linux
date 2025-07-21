@@ -4,9 +4,9 @@
  * Author: Mike Leach <mike.leach@linaro.org>
  */
 
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/kernel.h>
+#include <robux/device.h>
+#include <robux/idr.h>
+#include <robux/kernel.h>
 
 #include "coresight-priv.h"
 #include "coresight-trace-id.h"

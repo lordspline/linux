@@ -4,16 +4,16 @@
  *
  * Copyright (C) 2010 OMICRON electronics GmbH
  */
-#include <linux/compat.h>
-#include <linux/module.h>
-#include <linux/posix-clock.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/timekeeping.h>
-#include <linux/debugfs.h>
+#include <robux/compat.h>
+#include <robux/module.h>
+#include <robux/posix-clock.h>
+#include <robux/poll.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/timekeeping.h>
+#include <robux/debugfs.h>
 
-#include <linux/nospec.h>
+#include <robux/nospec.h>
 
 #include "ptp_private.h"
 

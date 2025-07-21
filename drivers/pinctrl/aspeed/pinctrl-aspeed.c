@@ -3,11 +3,11 @@
  * Copyright (C) 2016 IBM Corp.
  */
 
-#include <linux/mfd/syscon.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/mfd/syscon.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 #include "../core.h"
 #include "pinctrl-aspeed.h"
 

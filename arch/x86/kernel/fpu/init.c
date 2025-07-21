@@ -6,9 +6,9 @@
 #include <asm/tlbflush.h>
 #include <asm/setup.h>
 
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/init.h>
+#include <robux/sched.h>
+#include <robux/sched/task.h>
+#include <robux/init.h>
 
 #include "internal.h"
 #include "legacy.h"

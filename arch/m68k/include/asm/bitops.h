@@ -9,10 +9,10 @@
  */
 
 #ifndef _LINUX_BITOPS_H
-#error only <linux/bitops.h> can be included directly
+#error only <robux/bitops.h> can be included directly
 #endif
 
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 #include <asm/barrier.h>
 
 /*

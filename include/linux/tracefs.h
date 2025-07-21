@@ -12,10 +12,10 @@
 #ifndef _TRACEFS_H_
 #define _TRACEFS_H_
 
-#include <linux/fs.h>
-#include <linux/seq_file.h>
+#include <robux/fs.h>
+#include <robux/seq_file.h>
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct file_operations;
 

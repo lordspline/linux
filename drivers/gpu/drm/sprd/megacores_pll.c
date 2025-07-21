@@ -4,11 +4,11 @@
  */
 
 #include <asm/div64.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/regmap.h>
-#include <linux/string.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/regmap.h>
+#include <robux/string.h>
 
 #include "sprd_dsi.h"
 

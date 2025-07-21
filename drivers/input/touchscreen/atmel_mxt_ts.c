@@ -10,23 +10,23 @@
  * Author: Joonyoung Shim <jy0922.shim@samsung.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/input/mt.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/unaligned.h>
+#include <robux/acpi.h>
+#include <robux/dmi.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/i2c.h>
+#include <robux/input/mt.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/unaligned.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>
 #include <media/videobuf2-v4l2.h>
@@ -3129,8 +3129,8 @@ static void mxt_input_close(struct input_dev *dev)
 
 static int mxt_parse_device_properties(struct mxt_data *data)
 {
-	static const char keymap_property[] = "linux,gpio-keymap";
-	static const char buttons_property[] = "linux,keycodes";
+	static const char keymap_property[] = "robux,gpio-keymap";
+	static const char buttons_property[] = "robux,keycodes";
 	struct device *dev = &data->client->dev;
 	u32 *keymap;
 	u32 *buttonmap;

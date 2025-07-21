@@ -13,9 +13,9 @@
 
 #ifndef __FIRMWARE_ZYNQMP_H__
 #define __FIRMWARE_ZYNQMP_H__
-#include <linux/types.h>
+#include <robux/types.h>
 
-#include <linux/err.h>
+#include <robux/err.h>
 
 #define ZYNQMP_PM_VERSION_MAJOR	1
 #define ZYNQMP_PM_VERSION_MINOR	0

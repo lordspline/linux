@@ -9,12 +9,12 @@
 #ifndef RTL2832_PRIV_H
 #define RTL2832_PRIV_H
 
-#include <linux/regmap.h>
-#include <linux/math64.h>
-#include <linux/bitops.h>
+#include <robux/regmap.h>
+#include <robux/math64.h>
+#include <robux/bitops.h>
 
 #include <media/dvb_frontend.h>
-#include <linux/int_log.h>
+#include <robux/int_log.h>
 #include "rtl2832.h"
 
 struct rtl2832_dev {

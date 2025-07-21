@@ -13,13 +13,13 @@
  *	     Resource sorting
  */
 
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/cache.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/pci.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/cache.h>
+#include <robux/slab.h>
 #include "pci.h"
 
 static void pci_std_update_resource(struct pci_dev *dev, int resno)

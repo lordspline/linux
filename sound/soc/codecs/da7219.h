@@ -10,11 +10,11 @@
 #ifndef __DA7219_H
 #define __DA7219_H
 
-#include <linux/clk.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 #include <sound/da7219.h>
 
 /*

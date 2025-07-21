@@ -18,15 +18,15 @@
    value has to be interpreted as a slot ROM pointer etc.).
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/nubus.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/nubus.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
 #include <asm/byteorder.h>
 
 /*

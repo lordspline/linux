@@ -5,14 +5,14 @@
  *  Copyright (C) 2012 Magnus Damm
  */
 
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/serial_8250.h>
-#include <linux/serial_reg.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/serial_8250.h>
+#include <robux/serial_reg.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
 
 #include "8250.h"
 

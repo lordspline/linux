@@ -9,9 +9,9 @@
  * Brian Swetland <swetland@google.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/rpmsg.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/rpmsg.h>
 
 #define MSG		"hello world!"
 

@@ -7,9 +7,9 @@
 #ifndef OTX2_QOS_H
 #define OTX2_QOS_H
 
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/rhashtable.h>
+#include <robux/types.h>
+#include <robux/netdevice.h>
+#include <robux/rhashtable.h>
 
 #define OTX2_QOS_MAX_LVL		4
 #define OTX2_QOS_MAX_PRIO		7

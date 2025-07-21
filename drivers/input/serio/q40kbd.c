@@ -7,19 +7,19 @@
  */
 
 /*
- * Q40 PS/2 keyboard controller driver for Linux/m68k
+ * Q40 PS/2 keyboard controller driver for Robux/m68k
  */
 
-#include <linux/module.h>
-#include <linux/serio.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/bitops.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/serio.h>
+#include <robux/interrupt.h>
+#include <robux/err.h>
+#include <robux/bitops.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/q40_master.h>
 #include <asm/irq.h>
 #include <asm/q40ints.h>

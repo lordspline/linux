@@ -6,7 +6,7 @@
  * it may have to be protected with a spinlock, depending on the context.
  */
 
-#include <linux/spinlock.h>
+#include <robux/spinlock.h>
 
 #include <asm/pc-conf-reg.h>
 

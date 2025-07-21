@@ -3,8 +3,8 @@
  * Copyright © 2021 Intel Corporation
  */
 
-#include <linux/debugfs.h>
-#include <linux/string_helpers.h>
+#include <robux/debugfs.h>
+#include <robux/string_helpers.h>
 
 #include <drm/drm_print.h>
 

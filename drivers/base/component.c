@@ -2,13 +2,13 @@
 /*
  * Componentized device handling.
  */
-#include <linux/component.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/debugfs.h>
+#include <robux/component.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/debugfs.h>
 
 /**
  * DOC: overview

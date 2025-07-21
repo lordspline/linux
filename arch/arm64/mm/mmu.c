@@ -6,26 +6,26 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/cache.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kexec.h>
-#include <linux/libfdt.h>
-#include <linux/mman.h>
-#include <linux/nodemask.h>
-#include <linux/memblock.h>
-#include <linux/memremap.h>
-#include <linux/memory.h>
-#include <linux/fs.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/set_memory.h>
-#include <linux/kfence.h>
-#include <linux/pkeys.h>
+#include <robux/cache.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/kexec.h>
+#include <robux/libfdt.h>
+#include <robux/mman.h>
+#include <robux/nodemask.h>
+#include <robux/memblock.h>
+#include <robux/memremap.h>
+#include <robux/memory.h>
+#include <robux/fs.h>
+#include <robux/io.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/set_memory.h>
+#include <robux/kfence.h>
+#include <robux/pkeys.h>
 
 #include <asm/barrier.h>
 #include <asm/cputype.h>
@@ -34,7 +34,7 @@
 #include <asm/kernel-pgtable.h>
 #include <asm/sections.h>
 #include <asm/setup.h>
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 #include <asm/tlb.h>
 #include <asm/mmu_context.h>
 #include <asm/ptdump.h>

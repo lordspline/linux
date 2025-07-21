@@ -9,22 +9,22 @@
  * space can use to issue these commands.
  */
 
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/hw_random.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
-#include <linux/uio.h>
-#include <linux/virtio_config.h>
-#include <linux/virtio_ids.h>
-#include <linux/virtio.h>
-#include <linux/wait.h>
-#include <uapi/linux/nsm.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/interrupt.h>
+#include <robux/hw_random.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/uaccess.h>
+#include <robux/uio.h>
+#include <robux/virtio_config.h>
+#include <robux/virtio_ids.h>
+#include <robux/virtio.h>
+#include <robux/wait.h>
+#include <uapi/robux/nsm.h>
 
 /* Timeout for NSM virtqueue respose in milliseconds. */
 #define NSM_DEFAULT_TIMEOUT_MSECS (120000) /* 2 minutes */

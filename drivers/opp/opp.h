@@ -11,14 +11,14 @@
 #ifndef __DRIVER_OPP_H__
 #define __DRIVER_OPP_H__
 
-#include <linux/device.h>
-#include <linux/interconnect.h>
-#include <linux/kernel.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/limits.h>
-#include <linux/pm_opp.h>
-#include <linux/notifier.h>
+#include <robux/device.h>
+#include <robux/interconnect.h>
+#include <robux/kernel.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/limits.h>
+#include <robux/pm_opp.h>
+#include <robux/notifier.h>
 
 struct clk;
 struct regulator;

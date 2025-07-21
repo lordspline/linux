@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/lib/zlib_inflate/inflate_syms.c
+ * robux/lib/zlib_inflate/inflate_syms.c
  *
  * Exported symbols for the inflate functionality.
  *
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/init.h>
 
-#include <linux/zlib.h>
+#include <robux/zlib.h>
 
 EXPORT_SYMBOL(zlib_inflate_workspacesize);
 EXPORT_SYMBOL(zlib_inflate);

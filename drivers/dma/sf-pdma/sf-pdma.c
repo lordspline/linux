@@ -13,15 +13,15 @@
  *   SiFive FU540-C000 v1.0
  *   https://static.dev.sifive.com/FU540-C000-v1.0.pdf
  */
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/dma-mapping.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/slab.h>
 
 #include "sf-pdma.h"
 

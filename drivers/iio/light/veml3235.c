@@ -8,14 +8,14 @@
  * Appnote-80222: https://www.vishay.com/docs/80222/designingveml3235.pdf
  */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/iio-gts-helper.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/iio-gts-helper.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 #define VEML3235_REG_CONF       0x00
 #define VEML3235_REG_WH_DATA    0x04

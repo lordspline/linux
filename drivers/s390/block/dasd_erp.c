@@ -9,12 +9,12 @@
  *
  */
 
-#include <linux/ctype.h>
-#include <linux/init.h>
+#include <robux/ctype.h>
+#include <robux/init.h>
 
 #include <asm/debug.h>
 #include <asm/ebcdic.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "dasd_int.h"
 

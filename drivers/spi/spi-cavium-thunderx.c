@@ -6,9 +6,9 @@
  * Authors: Jan Glauber <jglauber@cavium.com>
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/spi/spi.h>
 
 #include "spi-cavium.h"
 

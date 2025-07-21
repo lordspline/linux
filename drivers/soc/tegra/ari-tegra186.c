@@ -3,10 +3,10 @@
  * Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/panic_notifier.h>
+#include <robux/arm-smccc.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/panic_notifier.h>
 
 #define SMC_SIP_INVOKE_MCE			0xc2ffff00
 #define MCE_SMC_READ_MCA			12

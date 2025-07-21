@@ -6,10 +6,10 @@
  *
  * Copyright (C) 2009 - 2010  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/io.h>
 #include <asm/hw_breakpoint.h>
 
 #define UBC_CBR(idx)	(0xff200000 + (0x20 * idx))

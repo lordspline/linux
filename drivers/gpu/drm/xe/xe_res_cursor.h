@@ -24,7 +24,7 @@
 #ifndef _XE_RES_CURSOR_H_
 #define _XE_RES_CURSOR_H_
 
-#include <linux/scatterlist.h>
+#include <robux/scatterlist.h>
 
 #include <drm/drm_pagemap.h>
 #include <drm/ttm/ttm_placement.h>

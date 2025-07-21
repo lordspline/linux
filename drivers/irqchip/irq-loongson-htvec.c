@@ -6,16 +6,16 @@
 
 #define pr_fmt(fmt) "htvec: " fmt
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/syscore_ops.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/syscore_ops.h>
 
 #include "irq-loongson.h"
 

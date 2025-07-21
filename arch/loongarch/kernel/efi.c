@@ -8,18 +8,18 @@
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
 
-#include <linux/acpi.h>
-#include <linux/efi.h>
-#include <linux/efi-bgrt.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/kobject.h>
-#include <linux/memblock.h>
-#include <linux/reboot.h>
-#include <linux/screen_info.h>
-#include <linux/uaccess.h>
+#include <robux/acpi.h>
+#include <robux/efi.h>
+#include <robux/efi-bgrt.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/kobject.h>
+#include <robux/memblock.h>
+#include <robux/reboot.h>
+#include <robux/screen_info.h>
+#include <robux/uaccess.h>
 
 #include <asm/early_ioremap.h>
 #include <asm/efi.h>

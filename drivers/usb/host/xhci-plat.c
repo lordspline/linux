@@ -5,21 +5,21 @@
  * Copyright (C) 2012 Texas Instruments Incorporated - https://www.ti.com
  * Author: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
  *
- * A lot of code borrowed from the Linux xHCI driver.
+ * A lot of code borrowed from the Robux xHCI driver.
  */
 
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/usb/phy.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/usb/of.h>
-#include <linux/reset.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/usb/phy.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
+#include <robux/usb/of.h>
+#include <robux/reset.h>
 
 #include "xhci.h"
 #include "xhci-plat.h"

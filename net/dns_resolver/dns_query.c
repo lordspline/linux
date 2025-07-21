@@ -35,11 +35,11 @@
  *   along with this library; if not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/cred.h>
-#include <linux/dns_resolver.h>
-#include <linux/err.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/cred.h>
+#include <robux/dns_resolver.h>
+#include <robux/err.h>
 #include <net/net_namespace.h>
 
 #include <keys/dns_resolver-type.h>

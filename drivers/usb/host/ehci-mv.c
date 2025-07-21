@@ -5,17 +5,17 @@
  *        Neil Zhang <zhangwm@marvell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/usb/otg.h>
-#include <linux/usb/of.h>
-#include <linux/platform_data/mv_usb.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/usb/otg.h>
+#include <robux/usb/of.h>
+#include <robux/platform_data/mv_usb.h>
+#include <robux/io.h>
 
-#include <linux/usb/hcd.h>
+#include <robux/usb/hcd.h>
 
 #include "ehci.h"
 

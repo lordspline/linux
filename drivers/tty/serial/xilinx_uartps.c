@@ -9,23 +9,23 @@
  * in the code.
  */
 
-#include <linux/platform_device.h>
-#include <linux/serial.h>
-#include <linux/console.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/gpio.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/reset.h>
+#include <robux/platform_device.h>
+#include <robux/serial.h>
+#include <robux/console.h>
+#include <robux/serial_core.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/clk.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/gpio.h>
+#include <robux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/reset.h>
 
 #define CDNS_UART_TTY_NAME	"ttyPS"
 #define CDNS_UART_NAME		"xuartps"

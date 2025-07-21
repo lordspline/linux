@@ -11,11 +11,11 @@
  * mapping representation such as dm-stripe.
  */
 
-#include <linux/device-mapper.h>
+#include <robux/device-mapper.h>
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/vmalloc.h>
 
 #define DM_MSG_PREFIX "switch"
 

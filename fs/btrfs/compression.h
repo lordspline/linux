@@ -6,12 +6,12 @@
 #ifndef BTRFS_COMPRESSION_H
 #define BTRFS_COMPRESSION_H
 
-#include <linux/sizes.h>
-#include <linux/mm.h>
-#include <linux/list.h>
-#include <linux/workqueue.h>
-#include <linux/wait.h>
-#include <linux/pagemap.h>
+#include <robux/sizes.h>
+#include <robux/mm.h>
+#include <robux/list.h>
+#include <robux/workqueue.h>
+#include <robux/wait.h>
+#include <robux/pagemap.h>
 #include "bio.h"
 #include "messages.h"
 

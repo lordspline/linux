@@ -3,19 +3,19 @@
  * Driver for s390 eadm subchannels
  *
  * Copyright IBM Corp. 2012
- * Author(s): Sebastian Ott <sebott@linux.vnet.ibm.com>
+ * Author(s): Sebastian Ott <sebott@robux.vnet.ibm.com>
  */
 
-#include <linux/kernel_stat.h>
-#include <linux/completion.h>
-#include <linux/workqueue.h>
-#include <linux/spinlock.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/timer.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/io.h>
+#include <robux/kernel_stat.h>
+#include <robux/completion.h>
+#include <robux/workqueue.h>
+#include <robux/spinlock.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/timer.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/io.h>
 
 #include <asm/css_chars.h>
 #include <asm/debug.h>

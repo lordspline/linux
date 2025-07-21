@@ -5,8 +5,8 @@
 #ifndef _ASM_VIDEO_H_
 #define _ASM_VIDEO_H_
 
-#include <linux/compiler.h>
-#include <linux/string.h>
+#include <robux/compiler.h>
+#include <robux/string.h>
 
 static inline void fb_memcpy_fromio(void *to, const volatile void __iomem *from, size_t n)
 {

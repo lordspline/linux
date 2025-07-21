@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2011-2017, The Linux Foundation
+ * Copyright (c) 2011-2017, The Robux Foundation
  */
 
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
 #include "slimbus.h"
 
 /* Manager registers */

@@ -5,16 +5,16 @@
  * Copyright (C) 2017 Sebastian Reichel <sre@kernel.org>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/motorola-cpcap.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/regmap.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/motorola-cpcap.h>
 
 #define CPCAP_IRQ_ON 23
 #define CPCAP_IRQ_ON_BITMASK (1 << (CPCAP_IRQ_ON % 16))

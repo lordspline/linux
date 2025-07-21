@@ -5,11 +5,11 @@
  *
  * ----------------------------------------------------------------------- */
 
-#include <linux/bitops.h>
-#include <linux/ctype.h>
-#include <linux/efi.h>
-#include <linux/screen_info.h>
-#include <linux/string.h>
+#include <robux/bitops.h>
+#include <robux/ctype.h>
+#include <robux/efi.h>
+#include <robux/screen_info.h>
+#include <robux/string.h>
 #include <asm/efi.h>
 #include <asm/setup.h>
 

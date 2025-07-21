@@ -32,18 +32,18 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/ip.h>
-#include <linux/ipv6.h>
-#include <linux/if_vlan.h>
-#include <linux/mdio.h>
-#include <linux/bitops.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/ip.h>
+#include <robux/ipv6.h>
+#include <robux/if_vlan.h>
+#include <robux/mdio.h>
+#include <robux/bitops.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
 #include <net/ip6_checksum.h>
-#include <linux/crc32.h>
+#include <robux/crc32.h>
 #include "alx.h"
 #include "hw.h"
 #include "reg.h"

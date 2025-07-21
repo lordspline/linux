@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0-only WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0-only WITH Robux-syscall-note */
 /*
  * Copyright (C) 2024 Amlogic, Inc. All rights reserved
  */
@@ -6,7 +6,7 @@
 #ifndef _UAPI_C3_ISP_CONFIG_H_
 #define _UAPI_C3_ISP_CONFIG_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /*
  * Frames are split into zones of almost equal width and height - a zone is a

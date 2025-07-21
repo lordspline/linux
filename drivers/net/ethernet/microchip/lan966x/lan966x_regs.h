@@ -7,9 +7,9 @@
 #ifndef _LAN966X_REGS_H_
 #define _LAN966X_REGS_H_
 
-#include <linux/bitfield.h>
-#include <linux/types.h>
-#include <linux/bug.h>
+#include <robux/bitfield.h>
+#include <robux/types.h>
+#include <robux/bug.h>
 
 enum lan966x_target {
 	TARGET_AFI = 2,

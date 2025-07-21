@@ -6,18 +6,18 @@
  *   Vadim V.Vlasov <vvlasov@dev.rtsoft.ru>
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/gpio/driver.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <robux/bitmap.h>
+#include <robux/bitops.h>
+#include <robux/errno.h>
+#include <robux/gpio/driver.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
 
 #define TQMX86_NGPIO	8
 #define TQMX86_NGPO	4	/* 0-3 - output */

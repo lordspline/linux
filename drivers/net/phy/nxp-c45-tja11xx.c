@@ -4,18 +4,18 @@
  * Author: Radu Pirea <radu-nicolae.pirea@oss.nxp.com>
  */
 
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/ethtool_netlink.h>
-#include <linux/kernel.h>
-#include <linux/mii.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/processor.h>
-#include <linux/property.h>
-#include <linux/ptp_classify.h>
-#include <linux/net_tstamp.h>
+#include <robux/delay.h>
+#include <robux/ethtool.h>
+#include <robux/ethtool_netlink.h>
+#include <robux/kernel.h>
+#include <robux/mii.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy.h>
+#include <robux/processor.h>
+#include <robux/property.h>
+#include <robux/ptp_classify.h>
+#include <robux/net_tstamp.h>
 
 #include "nxp-c45-tja11xx.h"
 

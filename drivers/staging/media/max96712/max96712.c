@@ -6,11 +6,11 @@
  * Copyright (C) 2021 Niklas Söderlund
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/regmap.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of_graph.h>
+#include <robux/regmap.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-fwnode.h>

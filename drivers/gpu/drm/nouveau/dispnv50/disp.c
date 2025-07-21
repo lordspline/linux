@@ -28,11 +28,11 @@
 #include "wndw.h"
 #include "handles.h"
 
-#include <linux/backlight.h>
-#include <linux/dma-mapping.h>
-#include <linux/hdmi.h>
-#include <linux/component.h>
-#include <linux/iopoll.h>
+#include <robux/backlight.h>
+#include <robux/dma-mapping.h>
+#include <robux/hdmi.h>
+#include <robux/component.h>
+#include <robux/iopoll.h>
 
 #include <drm/display/drm_dp_helper.h>
 #include <drm/display/drm_scdc_helper.h>

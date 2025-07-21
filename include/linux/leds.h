@@ -9,13 +9,13 @@
 #define __LINUX_LEDS_H_INCLUDED
 
 #include <dt-bindings/leds/common.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/rwsem.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 struct attribute_group;
 struct device_node;

@@ -7,10 +7,10 @@
  * This code generates raw asm output which is post-processed to extract
  * and format the required data.
  */
-#include <linux/compiler.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
+#include <robux/compiler.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/dma-mapping.h>
 #include <asm/cacheflush.h>
 #include <asm/kexec-internal.h>
 #include <asm/glue-df.h>
@@ -22,8 +22,8 @@
 #include <asm/procinfo.h>
 #include <asm/suspend.h>
 #include <asm/hardware/cache-l2x0.h>
-#include <linux/kbuild.h>
-#include <linux/arm-smccc.h>
+#include <robux/kbuild.h>
+#include <robux/arm-smccc.h>
 
 #include <vdso/datapage.h>
 

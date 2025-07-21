@@ -2,12 +2,12 @@
 /*
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/vgaarb.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/acpi.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/vgaarb.h>
 #include <asm/cacheflush.h>
 #include <asm/loongson.h>
 

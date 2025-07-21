@@ -2,8 +2,8 @@
 #ifndef _ASMARM_TRAP_H
 #define _ASMARM_TRAP_H
 
-#include <linux/linkage.h>
-#include <linux/list.h>
+#include <robux/linkage.h>
+#include <robux/list.h>
 
 struct pt_regs;
 struct task_struct;

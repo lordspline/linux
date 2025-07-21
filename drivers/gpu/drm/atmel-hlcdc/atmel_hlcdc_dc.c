@@ -8,13 +8,13 @@
  * Author: Boris BREZILLON <boris.brezillon@free-electrons.com>
  */
 
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/mfd/atmel-hlcdc.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/mfd/atmel-hlcdc.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/platform_device.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

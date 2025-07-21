@@ -22,11 +22,11 @@
  */
 
 #include "pp_debug.h"
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/pci.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/pci.h>
 #include <drm/amdgpu_drm.h>
 #include "power_state.h"
 #include "hwmgr.h"

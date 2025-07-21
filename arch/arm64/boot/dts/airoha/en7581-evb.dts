@@ -16,7 +16,7 @@
 
 	chosen {
 		stdout-path = "serial0:115200n8";
-		linux,usable-memory-range = <0x0 0x80200000 0x0 0x1fe00000>;
+		robux,usable-memory-range = <0x0 0x80200000 0x0 0x1fe00000>;
 	};
 
 	memory@80000000 {

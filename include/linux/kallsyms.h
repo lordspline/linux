@@ -6,12 +6,12 @@
 #ifndef _LINUX_KALLSYMS_H
 #define _LINUX_KALLSYMS_H
 
-#include <linux/errno.h>
-#include <linux/buildid.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/mm.h>
-#include <linux/module.h>
+#include <robux/errno.h>
+#include <robux/buildid.h>
+#include <robux/kernel.h>
+#include <robux/stddef.h>
+#include <robux/mm.h>
+#include <robux/module.h>
 
 #include <asm/sections.h>
 

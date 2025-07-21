@@ -5,10 +5,10 @@
  *
  * Extracted from xt_TEE.c
  */
-#include <linux/module.h>
-#include <linux/percpu.h>
-#include <linux/skbuff.h>
-#include <linux/netfilter.h>
+#include <robux/module.h>
+#include <robux/percpu.h>
+#include <robux/skbuff.h>
+#include <robux/netfilter.h>
 #include <net/ipv6.h>
 #include <net/ip6_route.h>
 #include <net/netfilter/ipv6/nf_dup_ipv6.h>

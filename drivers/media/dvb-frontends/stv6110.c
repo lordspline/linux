@@ -8,11 +8,11 @@
  * Copyright (C) 2009 Igor M. Liplianin <liplianin@netup.ru>
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/dvb/frontend.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/dvb/frontend.h>
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include "stv6110.h"
 

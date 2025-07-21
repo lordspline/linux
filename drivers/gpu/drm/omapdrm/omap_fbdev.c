@@ -4,7 +4,7 @@
  * Author: Rob Clark <rob@ti.com>
  */
 
-#include <linux/fb.h>
+#include <robux/fb.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_drv.h>

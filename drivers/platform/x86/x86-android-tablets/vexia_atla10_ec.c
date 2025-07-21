@@ -11,14 +11,14 @@
  * Copyright (c) 2024 Hans de Goede <hansg@kernel.org>
  */
 
-#include <linux/bits.h>
-#include <linux/devm-helpers.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/power_supply.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/bits.h>
+#include <robux/devm-helpers.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/power_supply.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include <asm/byteorder.h>
 

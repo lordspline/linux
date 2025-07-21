@@ -44,43 +44,43 @@
  *						and accepted source address
  *						can be configured by an ioctl()
  *						call.
- *						Fixed to match Linux networking
+ *						Fixed to match Robux networking
  *						changes - 2.1.15.
  *	BPQ   004	Joerg(DL1BKE)		Fixed to not lock up on ifconfig.
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/socket.h>
-#include <linux/in.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/net.h>
-#include <linux/slab.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/socket.h>
+#include <robux/in.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/net.h>
+#include <robux/slab.h>
 #include <net/ax25.h>
-#include <linux/inet.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/if_arp.h>
-#include <linux/skbuff.h>
+#include <robux/inet.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/if_arp.h>
+#include <robux/skbuff.h>
 #include <net/sock.h>
-#include <linux/uaccess.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/notifier.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/stat.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/rtnetlink.h>
+#include <robux/uaccess.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/notifier.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/stat.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/rtnetlink.h>
 
 #include <net/ip.h>
 #include <net/arp.h>
 #include <net/netdev_lock.h>
 #include <net/net_namespace.h>
 
-#include <linux/bpqether.h>
+#include <robux/bpqether.h>
 
 static const char banner[] __initconst = KERN_INFO \
 	"AX.25: bpqether driver version 004\n";

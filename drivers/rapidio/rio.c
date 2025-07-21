@@ -10,19 +10,19 @@
  * Alex Bounine <alexandre.bounine@idt.com>
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/rio.h>
-#include <linux/rio_drv.h>
-#include <linux/rio_ids.h>
-#include <linux/rio_regs.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/rio.h>
+#include <robux/rio_drv.h>
+#include <robux/rio_ids.h>
+#include <robux/rio_regs.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
 
 #include "rio.h"
 

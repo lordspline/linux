@@ -5,17 +5,17 @@
  * Antoine Tenart <antoine.tenart@free-electrons.com>
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/arm-smccc.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 /* Relative to priv->base */
 #define MVEBU_COMPHY_SERDES_CFG0(n)		(0x0 + (n) * 0x1000)
@@ -846,7 +846,7 @@ static int mvebu_comphy_power_on(struct phy *phy)
 		 lane->id, lane->mode, ret);
 
 try_legacy:
-	/* Fallback to Linux's implementation */
+	/* Fallback to Robux's implementation */
 	return mvebu_comphy_power_on_legacy(phy);
 }
 
@@ -905,7 +905,7 @@ static int mvebu_comphy_power_off(struct phy *phy)
 	if (!ret)
 		return ret;
 
-	/* Fallback to Linux's implementation */
+	/* Fallback to Robux's implementation */
 	return mvebu_comphy_power_off_legacy(phy);
 }
 

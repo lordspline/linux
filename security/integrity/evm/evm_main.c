@@ -13,14 +13,14 @@
 
 #define pr_fmt(fmt) "EVM: "fmt
 
-#include <linux/init.h>
-#include <linux/audit.h>
-#include <linux/xattr.h>
-#include <linux/integrity.h>
-#include <linux/evm.h>
-#include <linux/magic.h>
-#include <linux/posix_acl_xattr.h>
-#include <linux/lsm_hooks.h>
+#include <robux/init.h>
+#include <robux/audit.h>
+#include <robux/xattr.h>
+#include <robux/integrity.h>
+#include <robux/evm.h>
+#include <robux/magic.h>
+#include <robux/posix_acl_xattr.h>
+#include <robux/lsm_hooks.h>
 
 #include <crypto/hash.h>
 #include <crypto/hash_info.h>

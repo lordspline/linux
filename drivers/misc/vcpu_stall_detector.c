@@ -3,20 +3,20 @@
 // VCPU stall detector.
 //  Copyright (C) Google, 2022
 
-#include <linux/cpu.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
+#include <robux/cpu.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
 
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/nmi.h>
-#include <linux/of.h>
-#include <linux/param.h>
-#include <linux/percpu.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/nmi.h>
+#include <robux/of.h>
+#include <robux/param.h>
+#include <robux/percpu.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #define VCPU_STALL_REG_STATUS		(0x00)
 #define VCPU_STALL_REG_LOAD_CNT		(0x04)

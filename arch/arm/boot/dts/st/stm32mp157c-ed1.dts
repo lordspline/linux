@@ -76,7 +76,7 @@
 		compatible = "gpio-leds";
 		led-blue {
 			gpios = <&gpiod 9 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 			default-state = "off";
 			function = LED_FUNCTION_HEARTBEAT;
 			color = <LED_COLOR_ID_BLUE>;

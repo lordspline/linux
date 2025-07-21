@@ -5,11 +5,11 @@
  * Copyright (C) 2015 John Crispin <john@phrozen.org>
  */
 
-#include <linux/init.h>
+#include <robux/init.h>
 
-#include <linux/of.h>
-#include <linux/of_clk.h>
-#include <linux/clocksource.h>
+#include <robux/of.h>
+#include <robux/of_clk.h>
+#include <robux/clocksource.h>
 
 #include <asm/time.h>
 

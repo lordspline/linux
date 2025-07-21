@@ -2,12 +2,12 @@
 #ifndef _LINUX_SUSPEND_H
 #define _LINUX_SUSPEND_H
 
-#include <linux/swap.h>
-#include <linux/notifier.h>
-#include <linux/init.h>
-#include <linux/pm.h>
-#include <linux/mm.h>
-#include <linux/freezer.h>
+#include <robux/swap.h>
+#include <robux/notifier.h>
+#include <robux/init.h>
+#include <robux/pm.h>
+#include <robux/mm.h>
+#include <robux/freezer.h>
 #include <asm/errno.h>
 
 #ifdef CONFIG_VT
@@ -545,7 +545,7 @@ static inline int pm_dyn_debug_messages_on(void)
 #define pm_print_times_enabled	(false)
 #define pm_debug_messages_on	(false)
 
-#include <linux/printk.h>
+#include <robux/printk.h>
 
 #define __pm_pr_dbg(fmt, ...) \
 	no_printk(KERN_DEBUG pr_fmt(fmt), ##__VA_ARGS__)

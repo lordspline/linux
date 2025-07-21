@@ -47,7 +47,7 @@
  *	      Alexander Boyko <Alexander_Boyko@xyratex.com>
  */
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 #include <asm/assembler.h>
 
 	.text

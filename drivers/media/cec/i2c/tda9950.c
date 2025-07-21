@@ -10,12 +10,12 @@
  * As the data registers represent a mailbox, they must be accessed
  * as a single I2C transaction.  See the TDA9950 data sheet for details.
  */
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/platform_data/tda9950.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/platform_data/tda9950.h>
+#include <robux/slab.h>
 #include <drm/drm_edid.h>
 #include <media/cec.h>
 #include <media/cec-notifier.h>

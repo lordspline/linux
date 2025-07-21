@@ -7,11 +7,11 @@
  * trace host.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/hrtimer.h>
-#include <linux/slab.h>
-#include <linux/stm.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/hrtimer.h>
+#include <robux/slab.h>
+#include <robux/stm.h>
 
 #define STM_HEARTBEAT_MAX	32
 
@@ -116,4 +116,4 @@ module_exit(stm_heartbeat_exit);
 
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("stm_heartbeat driver");
-MODULE_AUTHOR("Alexander Shishkin <alexander.shishkin@linux.intel.com>");
+MODULE_AUTHOR("Alexander Shishkin <alexander.shishkin@robux.intel.com>");

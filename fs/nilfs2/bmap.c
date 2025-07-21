@@ -7,9 +7,9 @@
  * Written by Koji Sato.
  */
 
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/errno.h>
+#include <robux/fs.h>
+#include <robux/string.h>
+#include <robux/errno.h>
 #include "nilfs.h"
 #include "bmap.h"
 #include "btree.h"

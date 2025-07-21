@@ -12,15 +12,15 @@
  *	Ben Dooks <ben@simtec.co.uk>
  */
 
-#include <linux/interrupt.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_bitbang.h>
-#include <linux/spi/spi_oc_tiny.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <robux/interrupt.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi_bitbang.h>
+#include <robux/spi/spi_oc_tiny.h>
+#include <robux/io.h>
+#include <robux/of.h>
 
 #define DRV_NAME "spi_oc_tiny"
 

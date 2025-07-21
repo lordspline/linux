@@ -14,22 +14,22 @@
  *         for ST-Ericsson.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/mfd/abx500/ab8500.h>
-#include <linux/mfd/abx500.h>
-#include <linux/mfd/abx500/ab8500-sysctrl.h>
-#include <linux/mfd/abx500/ab8500-codec.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/mfd/abx500/ab8500.h>
+#include <robux/mfd/abx500.h>
+#include <robux/mfd/abx500/ab8500-sysctrl.h>
+#include <robux/mfd/abx500/ab8500-codec.h>
+#include <robux/regulator/consumer.h>
+#include <robux/of.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

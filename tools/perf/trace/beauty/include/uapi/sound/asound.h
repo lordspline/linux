@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 /*
- *  Advanced Linux Sound Architecture - ALSA - Driver
+ *  Advanced Robux Sound Architecture - ALSA - Driver
  *  Copyright (c) 1994-2003 by Jaroslav Kysela <perex@perex.cz>,
  *                             Abramo Bagnara <abramo@alsa-project.org>
  */
@@ -9,7 +9,7 @@
 #define _UAPI__SOUND_ASOUND_H
 
 #if defined(__KERNEL__) || defined(__linux__)
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/byteorder.h>
 #else
 #include <endian.h>

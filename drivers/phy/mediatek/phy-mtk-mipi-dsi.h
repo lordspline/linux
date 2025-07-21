@@ -7,14 +7,14 @@
 #ifndef _MTK_MIPI_TX_H
 #define _MTK_MIPI_TX_H
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/platform_device.h>
+#include <robux/phy/phy.h>
+#include <robux/slab.h>
 
 struct mtk_mipitx_data {
 	const u32 mppll_preserve;

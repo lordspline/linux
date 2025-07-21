@@ -7,12 +7,12 @@
  * Author: Tom Lendacky <thomas.lendacky@amd.com>
  */
 
-#include <linux/dma-direct.h>
-#include <linux/dma-mapping.h>
-#include <linux/swiotlb.h>
-#include <linux/cc_platform.h>
-#include <linux/mem_encrypt.h>
-#include <linux/virtio_anchor.h>
+#include <robux/dma-direct.h>
+#include <robux/dma-mapping.h>
+#include <robux/swiotlb.h>
+#include <robux/cc_platform.h>
+#include <robux/mem_encrypt.h>
+#include <robux/virtio_anchor.h>
 
 #include <asm/sev.h>
 

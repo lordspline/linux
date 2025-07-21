@@ -6,11 +6,11 @@
  * Copyright (C) 2016 Cavium, Inc.
  */
 
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
+#include <robux/hw_random.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
 
 #include <asm/arch_timer.h>
 

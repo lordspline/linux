@@ -6,10 +6,10 @@
  * Copyright (C) 2008 David S. Miller <davem@davemloft.net>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/rtc.h>
+#include <robux/platform_device.h>
 
 #include <asm/oplib.h>
 

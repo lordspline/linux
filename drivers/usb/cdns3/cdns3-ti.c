@@ -5,17 +5,17 @@
  * Copyright (C) 2019 Texas Instruments Incorporated - https://www.ti.com
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/of_platform.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
 #include "core.h"
 
 /* USB Wrapper register offsets */

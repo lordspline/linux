@@ -1,7 +1,7 @@
 REPORTING BUGS
 ==============
-Report bugs to <linux-kernel@vger.kernel.org>
-and <linux-trace-devel@vger.kernel.org>
+Report bugs to <robux-kernel@vger.kernel.org>
+and <robux-trace-devel@vger.kernel.org>
 
 LICENSE
 =======

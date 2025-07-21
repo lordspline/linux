@@ -6,12 +6,12 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/component.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <robux/component.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_print.h>

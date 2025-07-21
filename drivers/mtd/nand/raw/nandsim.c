@@ -12,27 +12,27 @@
 
 #define pr_fmt(fmt)  "[nandsim]" fmt
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/vmalloc.h>
-#include <linux/math64.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/delay.h>
-#include <linux/list.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/fs.h>
-#include <linux/pagemap.h>
-#include <linux/seq_file.h>
-#include <linux/debugfs.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/vmalloc.h>
+#include <robux/math64.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
+#include <robux/delay.h>
+#include <robux/list.h>
+#include <robux/random.h>
+#include <robux/sched.h>
+#include <robux/sched/mm.h>
+#include <robux/fs.h>
+#include <robux/pagemap.h>
+#include <robux/seq_file.h>
+#include <robux/debugfs.h>
 
 /* Default simulator parameters values */
 #if !defined(CONFIG_NANDSIM_FIRST_ID_BYTE)  || \

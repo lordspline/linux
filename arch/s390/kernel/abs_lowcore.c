@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/pgtable.h>
+#include <robux/pgtable.h>
 #include <asm/abs_lowcore.h>
 #include <asm/sections.h>
 

@@ -25,15 +25,15 @@
  * start at offset 1 for this to work.
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/pci.h>
-#include <linux/platform_data/simplefb.h>
-#include <linux/platform_device.h>
-#include <linux/screen_info.h>
-#include <linux/sysfb.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/pci.h>
+#include <robux/platform_data/simplefb.h>
+#include <robux/platform_device.h>
+#include <robux/screen_info.h>
+#include <robux/sysfb.h>
 
 static struct platform_device *pd;
 static DEFINE_MUTEX(disable_lock);

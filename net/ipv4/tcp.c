@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the ROBUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -244,29 +244,29 @@
 #define pr_fmt(fmt) "TCP: " fmt
 
 #include <crypto/hash.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/poll.h>
-#include <linux/inet_diag.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/skbuff.h>
-#include <linux/scatterlist.h>
-#include <linux/splice.h>
-#include <linux/net.h>
-#include <linux/socket.h>
-#include <linux/random.h>
-#include <linux/memblock.h>
-#include <linux/highmem.h>
-#include <linux/cache.h>
-#include <linux/err.h>
-#include <linux/time.h>
-#include <linux/slab.h>
-#include <linux/errqueue.h>
-#include <linux/static_key.h>
-#include <linux/btf.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/poll.h>
+#include <robux/inet_diag.h>
+#include <robux/init.h>
+#include <robux/fs.h>
+#include <robux/skbuff.h>
+#include <robux/scatterlist.h>
+#include <robux/splice.h>
+#include <robux/net.h>
+#include <robux/socket.h>
+#include <robux/random.h>
+#include <robux/memblock.h>
+#include <robux/highmem.h>
+#include <robux/cache.h>
+#include <robux/err.h>
+#include <robux/time.h>
+#include <robux/slab.h>
+#include <robux/errqueue.h>
+#include <robux/static_key.h>
+#include <robux/btf.h>
 
 #include <net/icmp.h>
 #include <net/inet_common.h>
@@ -278,7 +278,7 @@
 #include <net/sock.h>
 #include <net/rstreason.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/ioctls.h>
 #include <net/busy_poll.h>
 #include <net/hotdata.h>
@@ -3169,13 +3169,13 @@ void __tcp_close(struct sock *sk, long timeout)
 		 * rather than queued out of window. Purists blame.
 		 *
 		 * F.e. "RFC state" is ESTABLISHED,
-		 * if Linux state is FIN-WAIT-1, but FIN is still not sent.
+		 * if Robux state is FIN-WAIT-1, but FIN is still not sent.
 		 *
 		 * The visible declinations are that sometimes
 		 * we enter time-wait state, when it is not required really
 		 * (harmless), do not send active resets, when they are
 		 * required by specs (TCP_ESTABLISHED, TCP_CLOSE_WAIT, when
-		 * they look as CLOSING or LAST_ACK for Linux)
+		 * they look as CLOSING or LAST_ACK for Robux)
 		 * Probably, I missed some more holelets.
 		 * 						--ANK
 		 * XXX (TFO) - To start off we don't support SYN+ACK+FIN
@@ -3345,7 +3345,7 @@ int tcp_disconnect(struct sock *sk, int flags)
 		WRITE_ONCE(sk->sk_err, ECONNRESET);
 	} else if (tp->snd_nxt != tp->write_seq &&
 		   (1 << old_state) & (TCPF_CLOSING | TCPF_LAST_ACK)) {
-		/* The last check adjusts for discrepancy of Linux wrt. RFC
+		/* The last check adjusts for discrepancy of Robux wrt. RFC
 		 * states
 		 */
 		tcp_send_active_reset(sk, gfp_any(),

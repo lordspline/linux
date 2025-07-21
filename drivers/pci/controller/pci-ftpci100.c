@@ -11,21 +11,21 @@
  * Storlink (C) 2003
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_pci.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/bitops.h>
-#include <linux/irq.h>
-#include <linux/clk.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_pci.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/irqdomain.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/bitops.h>
+#include <robux/irq.h>
+#include <robux/clk.h>
 
 #include "../pci.h"
 

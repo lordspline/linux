@@ -5,14 +5,14 @@
  */
 
 #include <irq.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/sched.h>
-#include <linux/sched/hotplug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/smp.h>
-#include <linux/cpufreq.h>
-#include <linux/kexec.h>
+#include <robux/init.h>
+#include <robux/cpu.h>
+#include <robux/sched.h>
+#include <robux/sched/hotplug.h>
+#include <robux/sched/task_stack.h>
+#include <robux/smp.h>
+#include <robux/cpufreq.h>
+#include <robux/kexec.h>
 #include <asm/processor.h>
 #include <asm/smp.h>
 #include <asm/time.h>

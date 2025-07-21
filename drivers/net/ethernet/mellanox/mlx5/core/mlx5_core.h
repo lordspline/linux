@@ -33,14 +33,14 @@
 #ifndef __MLX5_CORE_H__
 #define __MLX5_CORE_H__
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/if_link.h>
-#include <linux/firmware.h>
-#include <linux/mlx5/cq.h>
-#include <linux/mlx5/fs.h>
-#include <linux/mlx5/driver.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/if_link.h>
+#include <robux/firmware.h>
+#include <robux/mlx5/cq.h>
+#include <robux/mlx5/fs.h>
+#include <robux/mlx5/driver.h>
 #include "lib/devcom.h"
 
 extern uint mlx5_core_debug_mask;

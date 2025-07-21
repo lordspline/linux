@@ -8,17 +8,17 @@
 #ifndef _INTERNAL_H
 #define _INTERNAL_H
 
-#include <linux/sched.h>
-#include <linux/wait_bit.h>
-#include <linux/cred.h>
-#include <linux/key-type.h>
-#include <linux/task_work.h>
-#include <linux/keyctl.h>
-#include <linux/refcount.h>
-#include <linux/watch_queue.h>
-#include <linux/compat.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
+#include <robux/sched.h>
+#include <robux/wait_bit.h>
+#include <robux/cred.h>
+#include <robux/key-type.h>
+#include <robux/task_work.h>
+#include <robux/keyctl.h>
+#include <robux/refcount.h>
+#include <robux/watch_queue.h>
+#include <robux/compat.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
 
 struct iovec;
 

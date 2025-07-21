@@ -4,10 +4,10 @@
  * Copyright (C) 2004 Li Shaohua <shaohua.li@intel.com>
  */
 
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <robux/init.h>
+#include <robux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
 
 #include "internal.h"
 #include "sleep.h"

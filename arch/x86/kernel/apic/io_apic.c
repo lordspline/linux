@@ -31,24 +31,24 @@
  *	workaround has been removed.
  */
 
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/mc146818rtc.h>
-#include <linux/compiler.h>
-#include <linux/acpi.h>
-#include <linux/export.h>
-#include <linux/syscore_ops.h>
-#include <linux/freezer.h>
-#include <linux/kthread.h>
-#include <linux/jiffies.h>	/* time_after() */
-#include <linux/slab.h>
-#include <linux/memblock.h>
-#include <linux/msi.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/sched.h>
+#include <robux/pci.h>
+#include <robux/mc146818rtc.h>
+#include <robux/compiler.h>
+#include <robux/acpi.h>
+#include <robux/export.h>
+#include <robux/syscore_ops.h>
+#include <robux/freezer.h>
+#include <robux/kthread.h>
+#include <robux/jiffies.h>	/* time_after() */
+#include <robux/slab.h>
+#include <robux/memblock.h>
+#include <robux/msi.h>
 
 #include <asm/irqdomain.h>
 #include <asm/io.h>

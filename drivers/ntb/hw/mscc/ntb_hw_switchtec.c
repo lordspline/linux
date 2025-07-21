@@ -4,14 +4,14 @@
  * Copyright (c) 2017, Microsemi Corporation
  */
 
-#include <linux/interrupt.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/ntb.h>
-#include <linux/pci.h>
-#include <linux/switchtec.h>
+#include <robux/interrupt.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/delay.h>
+#include <robux/kthread.h>
+#include <robux/module.h>
+#include <robux/ntb.h>
+#include <robux/pci.h>
+#include <robux/switchtec.h>
 
 MODULE_DESCRIPTION("Microsemi Switchtec(tm) NTB Driver");
 MODULE_VERSION("0.1");

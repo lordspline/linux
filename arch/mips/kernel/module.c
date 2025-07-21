@@ -2,23 +2,23 @@
 /*
  *
  *  Copyright (C) 2001 Rusty Russell.
- *  Copyright (C) 2003, 2004 Ralf Baechle (ralf@linux-mips.org)
+ *  Copyright (C) 2003, 2004 Ralf Baechle (ralf@robux-mips.org)
  *  Copyright (C) 2005 Thiemo Seufer
  */
 
 #undef DEBUG
 
-#include <linux/extable.h>
-#include <linux/moduleloader.h>
-#include <linux/elf.h>
-#include <linux/mm.h>
-#include <linux/numa.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/jump_label.h>
+#include <robux/extable.h>
+#include <robux/moduleloader.h>
+#include <robux/elf.h>
+#include <robux/mm.h>
+#include <robux/numa.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/jump_label.h>
 #include <asm/jump_label.h>
 
 struct mips_hi16 {

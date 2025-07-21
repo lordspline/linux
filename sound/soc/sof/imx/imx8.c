@@ -8,10 +8,10 @@
 
 #include <dt-bindings/firmware/imx/rsrc.h>
 
-#include <linux/arm-smccc.h>
-#include <linux/firmware/imx/svc/misc.h>
-#include <linux/mfd/syscon.h>
-#include <linux/reset.h>
+#include <robux/arm-smccc.h>
+#include <robux/firmware/imx/svc/misc.h>
+#include <robux/mfd/syscon.h>
+#include <robux/reset.h>
 
 #include "imx-common.h"
 

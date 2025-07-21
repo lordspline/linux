@@ -9,9 +9,9 @@
  *          Akshata MukundShetty <akshata.mukundshetty@amd.com>
  */
 
-#include <linux/init.h>
-#include <linux/spi/spi.h>
-#include <linux/pci.h>
+#include <robux/init.h>
+#include <robux/spi/spi.h>
+#include <robux/pci.h>
 
 #include "spi-amd.h"
 

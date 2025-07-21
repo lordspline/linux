@@ -12,10 +12,10 @@
  * archive for more details.
  */
 
-#include <linux/linkage.h>
-#include <linux/sys.h>
+#include <robux/linkage.h>
+#include <robux/sys.h>
 #include <asm/unistd.h>
-#include <linux/errno.h>
+#include <robux/errno.h>
 #include <asm/mmu.h>
 #include <asm/page.h>
 

@@ -4,10 +4,10 @@
  * modify it under the terms of version 2 of the GNU General Public
  * License as published by the Free Software Foundation.
  */
-#include <linux/ptrace.h>
-#include <uapi/linux/bpf.h>
-#include <uapi/linux/bpf_perf_event.h>
-#include <uapi/linux/perf_event.h>
+#include <robux/ptrace.h>
+#include <uapi/robux/bpf.h>
+#include <uapi/robux/bpf_perf_event.h>
+#include <uapi/robux/perf_event.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_tracing.h>
 

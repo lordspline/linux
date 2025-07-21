@@ -6,9 +6,9 @@
 #ifndef __DRM_DP_TUNNEL_H__
 #define __DRM_DP_TUNNEL_H__
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/types.h>
 
 struct drm_dp_aux;
 

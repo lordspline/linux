@@ -6,12 +6,12 @@
  *  Copyright 2006 Sony Corp.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/dma-map-ops.h>
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/dma-map-ops.h>
+#include <robux/err.h>
+#include <robux/slab.h>
 
 #include <asm/udbg.h>
 #include <asm/lv1call.h>

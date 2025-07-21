@@ -24,18 +24,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/miscdevice.h>
-#include <linux/watchdog.h>
-#include <linux/fs.h>
-#include <linux/ioport.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/miscdevice.h>
+#include <robux/watchdog.h>
+#include <robux/fs.h>
+#include <robux/ioport.h>
+#include <robux/notifier.h>
+#include <robux/reboot.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
 
 #define WATCHDOG_NAME "Wafer 5823 WDT"
 #define PFX WATCHDOG_NAME ": "

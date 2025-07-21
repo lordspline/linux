@@ -5,9 +5,9 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/etherdevice.h>
-#include <linux/vmalloc.h>
+#include <robux/pci.h>
+#include <robux/etherdevice.h>
+#include <robux/vmalloc.h>
 
 #include "octep_vf_config.h"
 #include "octep_vf_main.h"

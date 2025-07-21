@@ -10,26 +10,26 @@
  *	Created by Alexey Kuznetsov <kuznet@ms2.inr.ac.ru>
  */
 
-#include <linux/module.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/inet.h>
-#include <linux/mm.h>
-#include <linux/net.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/percpu.h>
-#include <linux/init.h>
-#include <linux/ratelimit.h>
-#include <linux/socket.h>
+#include <robux/module.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/ctype.h>
+#include <robux/inet.h>
+#include <robux/mm.h>
+#include <robux/net.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/percpu.h>
+#include <robux/init.h>
+#include <robux/ratelimit.h>
+#include <robux/socket.h>
 
 #include <net/sock.h>
 #include <net/net_ratelimit.h>
 #include <net/ipv6.h>
 
 #include <asm/byteorder.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 DEFINE_RATELIMIT_STATE(net_ratelimit_state, 5 * HZ, 10);
 /*

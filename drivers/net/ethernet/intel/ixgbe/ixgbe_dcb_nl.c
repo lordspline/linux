@@ -2,7 +2,7 @@
 /* Copyright(c) 1999 - 2024 Intel Corporation. */
 
 #include "ixgbe.h"
-#include <linux/dcbnl.h>
+#include <robux/dcbnl.h>
 #include "ixgbe_dcb_82598.h"
 #include "ixgbe_dcb_82599.h"
 #include "ixgbe_sriov.h"

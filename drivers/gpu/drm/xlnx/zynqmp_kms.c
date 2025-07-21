@@ -32,10 +32,10 @@
 #include <drm/drm_simple_kms_helper.h>
 #include <drm/drm_vblank.h>
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
+#include <robux/spinlock.h>
 
 #include "zynqmp_disp.h"
 #include "zynqmp_dp.h"

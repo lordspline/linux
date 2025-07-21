@@ -4,10 +4,10 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/export.h>
-#include <linux/errno.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/export.h>
+#include <robux/errno.h>
 #include <sound/core.h>
 
 /**

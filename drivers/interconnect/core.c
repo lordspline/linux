@@ -6,17 +6,17 @@
  * Author: Georgi Djakov <georgi.djakov@linaro.org>
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/interconnect.h>
-#include <linux/interconnect-provider.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/overflow.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/idr.h>
+#include <robux/init.h>
+#include <robux/interconnect.h>
+#include <robux/interconnect-provider.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/overflow.h>
 
 #include "internal.h"
 

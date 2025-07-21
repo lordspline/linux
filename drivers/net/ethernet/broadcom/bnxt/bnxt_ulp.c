@@ -7,19 +7,19 @@
  * the Free Software Foundation.
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/bitops.h>
-#include <linux/irq.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/rtnetlink.h>
+#include <robux/bitops.h>
+#include <robux/irq.h>
 #include <asm/byteorder.h>
-#include <linux/bitmap.h>
-#include <linux/auxiliary_bus.h>
+#include <robux/bitmap.h>
+#include <robux/auxiliary_bus.h>
 #include <net/netdev_lock.h>
 
 #include "bnxt_hsi.h"

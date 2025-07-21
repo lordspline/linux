@@ -9,11 +9,11 @@
  * [1] https://www.w3.org/Graphics/JPEG/itu-t81.pdf
  */
 
-#include <linux/unaligned.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/unaligned.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
 #include <media/v4l2-jpeg.h>
 
 MODULE_DESCRIPTION("V4L2 JPEG header parser helpers");

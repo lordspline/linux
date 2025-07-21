@@ -32,14 +32,14 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/pci.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mdio.h>
-#include <linux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/ip.h>
+#include <robux/tcp.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/mdio.h>
+#include <robux/interrupt.h>
 #include <asm/byteorder.h>
 
 #include "alx.h"

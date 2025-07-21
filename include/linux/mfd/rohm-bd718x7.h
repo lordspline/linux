@@ -4,8 +4,8 @@
 #ifndef __LINUX_MFD_BD718XX_H__
 #define __LINUX_MFD_BD718XX_H__
 
-#include <linux/mfd/rohm-generic.h>
-#include <linux/regmap.h>
+#include <robux/mfd/rohm-generic.h>
+#include <robux/regmap.h>
 
 enum {
 	BD718XX_BUCK1 = 0,

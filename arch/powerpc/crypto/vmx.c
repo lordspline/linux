@@ -7,12 +7,12 @@
  * Author: Marcelo Henrique Cerri <mhcerri@br.ibm.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/cpufeature.h>
-#include <linux/crypto.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/err.h>
+#include <robux/cpufeature.h>
+#include <robux/crypto.h>
 #include <asm/cputable.h>
 #include <crypto/internal/hash.h>
 #include <crypto/internal/skcipher.h>

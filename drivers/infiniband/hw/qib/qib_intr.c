@@ -32,8 +32,8 @@
  * SOFTWARE.
  */
 
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
 
 #include "qib.h"
 #include "qib_common.h"

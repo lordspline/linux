@@ -6,14 +6,14 @@
  * test source files.
  */
 #include "lkdtm.h"
-#include <linux/cpu.h>
-#include <linux/list.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/task_stack.h>
-#include <linux/slab.h>
-#include <linux/stop_machine.h>
-#include <linux/uaccess.h>
+#include <robux/cpu.h>
+#include <robux/list.h>
+#include <robux/sched.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/task_stack.h>
+#include <robux/slab.h>
+#include <robux/stop_machine.h>
+#include <robux/uaccess.h>
 
 #if IS_ENABLED(CONFIG_X86_32) && !IS_ENABLED(CONFIG_UML)
 #include <asm/desc.h>

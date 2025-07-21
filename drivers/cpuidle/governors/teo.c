@@ -97,11 +97,11 @@
  *    candidate state needs to be found, so look for it.
  */
 
-#include <linux/cpuidle.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/sched/clock.h>
-#include <linux/tick.h>
+#include <robux/cpuidle.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/sched/clock.h>
+#include <robux/tick.h>
 
 #include "gov.h"
 

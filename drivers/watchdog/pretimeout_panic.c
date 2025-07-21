@@ -3,9 +3,9 @@
  * Copyright (C) 2015-2016 Mentor Graphics
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/watchdog.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/watchdog.h>
 
 #include "watchdog_pretimeout.h"
 

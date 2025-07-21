@@ -7,17 +7,17 @@
  * Author:	Minda Chen <minda.chen@starfivetech.com>
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/of_platform.h>
-#include <linux/reset.h>
-#include <linux/regmap.h>
-#include <linux/usb/otg.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/mfd/syscon.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/of_platform.h>
+#include <robux/reset.h>
+#include <robux/regmap.h>
+#include <robux/usb/otg.h>
 #include "core.h"
 
 #define USB_STRAP_HOST			BIT(17)

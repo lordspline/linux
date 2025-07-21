@@ -8,19 +8,19 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/hyperv.h>
-#include <linux/random.h>
-#include <linux/clockchips.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/hyperv.h>
+#include <robux/random.h>
+#include <robux/clockchips.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
 #include <clocksource/hyperv_timer.h>
 #include <asm/mshyperv.h>
-#include <linux/set_memory.h>
+#include <robux/set_memory.h>
 #include "hyperv_vmbus.h"
 
 /* The one and only */

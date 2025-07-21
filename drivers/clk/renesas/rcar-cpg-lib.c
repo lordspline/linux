@@ -10,15 +10,15 @@
  * Copyright (C) 2015 Renesas Electronics Corp.
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
 
 #include "rcar-cpg-lib.h"
 
@@ -72,14 +72,14 @@ void cpg_simple_notifier_register(struct raw_notifier_head *notifiers,
 static const struct clk_div_table cpg_sdh_div_table[] = {
 	/*
 	 * These values are recommended by the datasheet.  Because they come
-	 * first, Linux will only use these.
+	 * first, Robux will only use these.
 	 */
 	{ 0, 1 }, { 1, 2 }, { STPnHCK | 2, 4 }, { STPnHCK | 3, 8 },
 	{ STPnHCK | 4, 16 },
 	/*
 	 * These values are not recommended because STPnHCK is wrong.  But they
 	 * have been seen because of broken firmware.  So, we support reading
-	 * them but Linux will sanitize them when initializing through
+	 * them but Robux will sanitize them when initializing through
 	 * recalc_rate.
 	 */
 	{ STPnHCK | 0, 1 }, { STPnHCK | 1, 2 },  { 2, 4 }, { 3, 8 }, { 4, 16 },

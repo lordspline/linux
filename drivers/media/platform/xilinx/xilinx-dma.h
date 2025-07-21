@@ -12,10 +12,10 @@
 #ifndef __XILINX_VIP_DMA_H__
 #define __XILINX_VIP_DMA_H__
 
-#include <linux/dmaengine.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/videodev2.h>
+#include <robux/dmaengine.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/videodev2.h>
 
 #include <media/media-entity.h>
 #include <media/v4l2-dev.h>

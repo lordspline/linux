@@ -3,14 +3,14 @@
 // Copyright (c) 2018 Mellanox Technologies. All rights reserved.
 // Copyright (c) 2018 Vadim Pasternak <vadimp@mellanox.com>
 
-#include <linux/bitops.h>
-#include <linux/device.h>
-#include <linux/hwmon.h>
-#include <linux/module.h>
-#include <linux/platform_data/mlxreg.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/thermal.h>
+#include <robux/bitops.h>
+#include <robux/device.h>
+#include <robux/hwmon.h>
+#include <robux/module.h>
+#include <robux/platform_data/mlxreg.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/thermal.h>
 
 #define MLXREG_FAN_MAX_TACHO		24
 #define MLXREG_FAN_MAX_PWM		4

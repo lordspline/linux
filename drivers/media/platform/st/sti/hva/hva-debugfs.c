@@ -5,7 +5,7 @@
  *          Hugues Fruchet <hugues.fruchet@st.com>
  */
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 #include "hva.h"
 #include "hva-hw.h"

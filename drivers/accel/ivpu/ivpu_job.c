@@ -5,11 +5,11 @@
 
 #include <drm/drm_file.h>
 
-#include <linux/bitfield.h>
-#include <linux/highmem.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/module.h>
+#include <robux/bitfield.h>
+#include <robux/highmem.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/module.h>
 #include <uapi/drm/ivpu_accel.h>
 
 #include "ivpu_drv.h"

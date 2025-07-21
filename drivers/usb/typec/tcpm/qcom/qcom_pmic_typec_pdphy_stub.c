@@ -3,18 +3,18 @@
  * Copyright (c) 2024, Linaro Ltd. All rights reserved.
  */
 
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/usb/pd.h>
-#include <linux/usb/tcpm.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/usb/pd.h>
+#include <robux/usb/tcpm.h>
 #include "qcom_pmic_typec.h"
 #include "qcom_pmic_typec_pdphy.h"
 

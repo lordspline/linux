@@ -5,14 +5,14 @@
  * Copyright 2010 Analog Devices Inc.
  */
 
-#include <linux/device.h>
+#include <robux/device.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/imu/adis.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/imu/adis.h>
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
 
 #define ADIS16203_STARTUP_DELAY 220 /* ms */
 

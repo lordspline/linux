@@ -3,8 +3,8 @@
  * Copyright (C) 2016 Linaro Ltd;  <ard.biesheuvel@linaro.org>
  */
 
-#include <linux/efi.h>
-#include <linux/log2.h>
+#include <robux/efi.h>
+#include <robux/log2.h>
 #include <asm/efi.h>
 
 #include "efistub.h"

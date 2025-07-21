@@ -4,9 +4,9 @@
  *
  *  Copyright by Michał Mirosław, 2008-2009
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/cb710.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/cb710.h>
 
 static bool sg_dwiter_next(struct sg_mapping_iter *miter)
 {

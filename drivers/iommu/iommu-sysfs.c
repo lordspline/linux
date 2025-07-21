@@ -6,10 +6,10 @@
  *     Author: Alex Williamson <alex.williamson@redhat.com>
  */
 
-#include <linux/device.h>
-#include <linux/iommu.h>
-#include <linux/init.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/iommu.h>
+#include <robux/init.h>
+#include <robux/slab.h>
 
 /*
  * We provide a common class "devices" group which initially has no attributes.

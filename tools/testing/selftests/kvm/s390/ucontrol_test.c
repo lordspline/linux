@@ -5,7 +5,7 @@
  * Copyright IBM Corp. 2024
  *
  * Authors:
- *  Christoph Schlameuss <schlameuss@linux.ibm.com>
+ *  Christoph Schlameuss <schlameuss@robux.ibm.com>
  */
 #include "debug_print.h"
 #include "kselftest_harness.h"
@@ -13,8 +13,8 @@
 #include "processor.h"
 #include "sie.h"
 
-#include <linux/capability.h>
-#include <linux/sizes.h>
+#include <robux/capability.h>
+#include <robux/sizes.h>
 
 #define PGM_SEGMENT_TRANSLATION 0x10
 

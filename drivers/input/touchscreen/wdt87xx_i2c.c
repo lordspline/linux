@@ -9,18 +9,18 @@
  * may be copied, distributed, and modified under those terms.
  */
 
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/firmware.h>
-#include <linux/input/mt.h>
-#include <linux/acpi.h>
-#include <linux/unaligned.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/firmware.h>
+#include <robux/input/mt.h>
+#include <robux/acpi.h>
+#include <robux/unaligned.h>
 
 #define WDT87XX_NAME		"wdt87xx_i2c"
 #define WDT87XX_FW_NAME		"wdt87xx_fw.bin"

@@ -10,12 +10,12 @@
  * Copyright (c) 2020-2022 Vincent Mailhol <mailhol.vincent@wanadoo.fr>
  */
 
-#include <linux/unaligned.h>
-#include <linux/crc16.h>
-#include <linux/ethtool.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/usb.h>
+#include <robux/unaligned.h>
+#include <robux/crc16.h>
+#include <robux/ethtool.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/usb.h>
 #include <net/devlink.h>
 
 #include "es58x_core.h"

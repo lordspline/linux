@@ -23,7 +23,7 @@
 		led-user {
 			label = "debug";
 			gpios = <&gpio1 24 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 		};
 	};
 
@@ -98,7 +98,7 @@
 	};
 
 	spdif_in: spdif-in {
-		compatible = "linux,spdif-dir";
+		compatible = "robux,spdif-dir";
 		#sound-dai-cells = <0>;
 	};
 

@@ -32,8 +32,8 @@
 
 #include "core_priv.h"
 
-#include <linux/in.h>
-#include <linux/in6.h>
+#include <robux/in.h>
+#include <robux/in6.h>
 
 /* For in6_dev_get/in6_dev_put */
 #include <net/addrconf.h>

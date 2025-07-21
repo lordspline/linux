@@ -8,30 +8,30 @@
  *		This software was originally developed in conformance with
  *		Microsoft's Remote NDIS Specification License Agreement.
  *
- * 03/12/2004 Kai-Uwe Bloem <linux-development@auerswald.de>
+ * 03/12/2004 Kai-Uwe Bloem <robux-development@auerswald.de>
  *		Fixed message length bug in init_response
  *
- * 03/25/2004 Kai-Uwe Bloem <linux-development@auerswald.de>
+ * 03/25/2004 Kai-Uwe Bloem <robux-development@auerswald.de>
  *		Fixed rndis_rm_hdr length bug.
  *
  * Copyright (C) 2004 by David Brownell
- *		updates to merge with Linux 2.6, better match RNDIS spec
+ *		updates to merge with Robux 2.6, better match RNDIS spec
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/idr.h>
-#include <linux/list.h>
-#include <linux/proc_fs.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
-#include <linux/netdevice.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/idr.h>
+#include <robux/list.h>
+#include <robux/proc_fs.h>
+#include <robux/slab.h>
+#include <robux/seq_file.h>
+#include <robux/netdevice.h>
 
 #include <asm/io.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "u_rndis.h"
 
@@ -43,7 +43,7 @@
 /* The driver for your USB chip needs to support ep0 OUT to work with
  * RNDIS, plus all three CDC Ethernet endpoints (interrupt not optional).
  *
- * Windows hosts need an INF file like Documentation/usb/linux.inf
+ * Windows hosts need an INF file like Documentation/usb/robux.inf
  * and will be happier if you provide the host_addr module parameter.
  */
 

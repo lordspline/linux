@@ -6,29 +6,29 @@
  * Author: Sourav Poddar <sourav.poddar@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/omap-dma.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/sizes.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/omap-dma.h>
+#include <robux/platform_device.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/pm_runtime.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/sizes.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
 
 struct ti_qspi_regs {
 	u32 clkctrl;

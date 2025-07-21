@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/compat.h>
-#include <linux/context_tracking.h>
-#include <linux/randomize_kstack.h>
+#include <robux/compat.h>
+#include <robux/context_tracking.h>
+#include <robux/randomize_kstack.h>
 
 #include <asm/interrupt.h>
 #include <asm/kup.h>

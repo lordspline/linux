@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (C) 2021 Felix Fietkau <nbd@nbd.name> */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/bitfield.h>
-#include <linux/dma-mapping.h>
-#include <linux/skbuff.h>
-#include <linux/of_platform.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/mfd/syscon.h>
-#include <linux/debugfs.h>
-#include <linux/soc/mediatek/mtk_wed.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/bitfield.h>
+#include <robux/dma-mapping.h>
+#include <robux/skbuff.h>
+#include <robux/of_platform.h>
+#include <robux/of_address.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/mfd/syscon.h>
+#include <robux/debugfs.h>
+#include <robux/soc/mediatek/mtk_wed.h>
 #include <net/flow_offload.h>
 #include <net/pkt_cls.h>
 #include "mtk_eth_soc.h"

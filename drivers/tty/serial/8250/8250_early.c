@@ -23,13 +23,13 @@
  *	console=uart8250,mmio32,0xff5e0000,115200n8
  */
 
-#include <linux/tty.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/of.h>
-#include <linux/serial_reg.h>
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
+#include <robux/tty.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/of.h>
+#include <robux/serial_reg.h>
+#include <robux/serial.h>
+#include <robux/serial_8250.h>
 #include <asm/io.h>
 #include <asm/serial.h>
 

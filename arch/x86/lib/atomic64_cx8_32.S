@@ -5,7 +5,7 @@
  * Copyright © 2010  Luca Barbieri
  */
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 #include <asm/alternative.h>
 
 .macro read64 reg

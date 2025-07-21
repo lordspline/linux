@@ -4,8 +4,8 @@
  */
 #include "priv.h"
 
-#include <linux/elf.h>
-#include <linux/crc32.h>
+#include <robux/elf.h>
+#include <robux/crc32.h>
 
 #include <subdev/fb.h>
 #include <subdev/fsp.h>

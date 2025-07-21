@@ -5,11 +5,11 @@
  * Copyright (C) 2008 James Bottomley <James.Bottomley@HansenPartnership.com>
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/enclosure.h>
-#include <linux/unaligned.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/enclosure.h>
+#include <robux/unaligned.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

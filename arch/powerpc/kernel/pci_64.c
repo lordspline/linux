@@ -9,17 +9,17 @@
 
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/list.h>
-#include <linux/syscalls.h>
-#include <linux/irq.h>
-#include <linux/vmalloc.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/mm.h>
+#include <robux/list.h>
+#include <robux/syscalls.h>
+#include <robux/irq.h>
+#include <robux/vmalloc.h>
+#include <robux/of.h>
 
 #include <asm/processor.h>
 #include <asm/io.h>

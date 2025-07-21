@@ -4,24 +4,24 @@
  */
 
 #include <dt-bindings/firmware/imx/rsrc.h>
-#include <linux/arm-smccc.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_client.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/remoteproc.h>
-#include <linux/workqueue.h>
+#include <robux/arm-smccc.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/firmware/imx/sci.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mailbox_client.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
+#include <robux/remoteproc.h>
+#include <robux/workqueue.h>
 
 #include "imx_rproc.h"
 #include "remoteproc_internal.h"
@@ -943,7 +943,7 @@ static int imx_rproc_detect_mode(struct imx_rproc *priv)
 
 		/*
 		 * If Mcore resource is not owned by Acore partition, It is kicked by ROM,
-		 * and Linux could only do IPC with Mcore and nothing else.
+		 * and Robux could only do IPC with Mcore and nothing else.
 		 */
 		if (imx_sc_rm_is_resource_owned(priv->ipc_handle, priv->rsrc_id)) {
 			if (of_property_read_u32(dev->of_node, "fsl,entry-address", &priv->entry))
@@ -1029,7 +1029,7 @@ static int imx_rproc_clk_enable(struct imx_rproc *priv)
 	struct device *dev = priv->dev;
 	int ret;
 
-	/* Remote core is not under control of Linux */
+	/* Remote core is not under control of Robux */
 	if (dcfg->method == IMX_RPROC_NONE)
 		return 0;
 

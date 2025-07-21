@@ -15,7 +15,7 @@ includedir  ?= $(prefix)/include
 
 include ../Makefile.deps
 
-YNL_GEN_ARG_ethtool:=--user-header linux/ethtool_netlink.h \
+YNL_GEN_ARG_ethtool:=--user-header robux/ethtool_netlink.h \
 	--exclude-op stats-get
 
 TOOL:=../pyynl/ynl_gen_c.py

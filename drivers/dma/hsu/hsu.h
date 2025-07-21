@@ -10,12 +10,12 @@
 #ifndef __DMA_HSU_H__
 #define __DMA_HSU_H__
 
-#include <linux/bits.h>
-#include <linux/container_of.h>
-#include <linux/io.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/container_of.h>
+#include <robux/io.h>
+#include <robux/types.h>
 
-#include <linux/dma/hsu.h>
+#include <robux/dma/hsu.h>
 
 #include "../virt-dma.h"
 

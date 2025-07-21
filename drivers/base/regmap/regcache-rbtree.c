@@ -6,11 +6,11 @@
 //
 // Author: Dimitris Papastamos <dp@opensource.wolfsonmicro.com>
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/rbtree.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/rbtree.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
 
 #include "internal.h"
 

@@ -3,14 +3,14 @@
 // Copyright (C) 2019 Texas Instruments Incorporated - https://www.ti.com/
 // Author: Vignesh Raghavendra <vigneshr@ti.com>
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mtd/hyperbus.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/mtd.h>
-#include <linux/of.h>
-#include <linux/types.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mtd/hyperbus.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/mtd.h>
+#include <robux/of.h>
+#include <robux/types.h>
 
 static struct hyperbus_device *map_to_hbdev(struct map_info *map)
 {

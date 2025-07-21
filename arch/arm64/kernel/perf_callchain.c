@@ -4,9 +4,9 @@
  *
  * Copyright (C) 2015 ARM Limited
  */
-#include <linux/perf_event.h>
-#include <linux/stacktrace.h>
-#include <linux/uaccess.h>
+#include <robux/perf_event.h>
+#include <robux/stacktrace.h>
+#include <robux/uaccess.h>
 
 #include <asm/pointer_auth.h>
 

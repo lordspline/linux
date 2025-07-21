@@ -7,8 +7,8 @@
  * Copyright (C) 2007 Lemote Inc. & Institute of Computing Technology
  * Author: Fuxin Zhang, zhangfx@lemote.com
  */
-#include <linux/interrupt.h>
-#include <linux/compiler.h>
+#include <robux/interrupt.h>
+#include <robux/compiler.h>
 
 #include <loongson.h>
 

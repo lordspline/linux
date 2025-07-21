@@ -7,8 +7,8 @@
 #include <stdio.h>
 #include <time.h>
 
-#include "../../../../include/linux/bits.h"
-#include "../../../../include/linux/kernel.h"
+#include "../../../../include/robux/bits.h"
+#include "../../../../include/robux/kernel.h"
 #include "aolib.h"
 
 #define BENCH_NR_ITERS	100 /* number of times to run gathering statistics */

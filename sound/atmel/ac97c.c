@@ -4,21 +4,21 @@
  *
  * Copyright (C) 2005-2009 Atmel Corporation
  */
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/bitmap.h>
-#include <linux/device.h>
-#include <linux/atmel_pdc.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/io.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/bitmap.h>
+#include <robux/device.h>
+#include <robux/atmel_pdc.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/io.h>
 
 #include <sound/core.h>
 #include <sound/initval.h>

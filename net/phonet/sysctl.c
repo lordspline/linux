@@ -9,13 +9,13 @@
  * Author: Rémi Denis-Courmont
  */
 
-#include <linux/seqlock.h>
-#include <linux/sysctl.h>
-#include <linux/errno.h>
-#include <linux/init.h>
+#include <robux/seqlock.h>
+#include <robux/sysctl.h>
+#include <robux/errno.h>
+#include <robux/init.h>
 
 #include <net/sock.h>
-#include <linux/phonet.h>
+#include <robux/phonet.h>
 #include <net/phonet/phonet.h>
 
 #define DYNAMIC_PORT_MIN	0x40

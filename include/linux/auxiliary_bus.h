@@ -8,8 +8,8 @@
 #ifndef _AUXILIARY_BUS_H_
 #define _AUXILIARY_BUS_H_
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
 
 /**
  * DOC: DEVICE_LIFESPAN

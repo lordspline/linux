@@ -30,16 +30,16 @@
  * You can find the corresponding selftest in the 'alsa' selftests folder.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/init.h>
 #include <sound/pcm.h>
 #include <sound/core.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/timer.h>
-#include <linux/random.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
+#include <robux/timer.h>
+#include <robux/random.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
 
 #define TIMER_PER_SEC 5
 #define TIMER_INTERVAL (HZ / TIMER_PER_SEC)

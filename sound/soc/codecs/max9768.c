@@ -5,12 +5,12 @@
  * Copyright (C) 2011, 2012 by Wolfram Sang, Pengutronix e.K.
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regmap.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regmap.h>
 
 #include <sound/core.h>
 #include <sound/soc.h>

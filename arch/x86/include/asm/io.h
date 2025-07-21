@@ -35,9 +35,9 @@
   *  - Arnaldo Carvalho de Melo <acme@conectiva.com.br>
   */
 
-#include <linux/string.h>
-#include <linux/compiler.h>
-#include <linux/cc_platform.h>
+#include <robux/string.h>
+#include <robux/compiler.h>
+#include <robux/cc_platform.h>
 #include <asm/page.h>
 #include <asm/early_ioremap.h>
 #include <asm/pgtable_types.h>

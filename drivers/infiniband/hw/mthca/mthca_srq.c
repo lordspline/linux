@@ -30,9 +30,9 @@
  * SOFTWARE.
  */
 
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/sched.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/sched.h>
 
 #include <asm/io.h>
 

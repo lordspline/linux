@@ -34,8 +34,8 @@
 #define PMB_NO_ENTRY		(-1)
 
 #ifndef __ASSEMBLER__
-#include <linux/errno.h>
-#include <linux/threads.h>
+#include <robux/errno.h>
+#include <robux/threads.h>
 #include <asm/page.h>
 
 /* Default "unsigned long" context */

@@ -9,12 +9,12 @@
 #define KMSG_COMPONENT "hugetlb"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/cpufeature.h>
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/mman.h>
-#include <linux/sched/mm.h>
-#include <linux/security.h>
+#include <robux/cpufeature.h>
+#include <robux/mm.h>
+#include <robux/hugetlb.h>
+#include <robux/mman.h>
+#include <robux/sched/mm.h>
+#include <robux/security.h>
 #include <asm/pgalloc.h>
 
 /*

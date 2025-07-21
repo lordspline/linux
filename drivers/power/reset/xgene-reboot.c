@@ -10,15 +10,15 @@
  * For system shutdown, this is board specify. If a board designer
  * implements GPIO shutdown, use the gpio-poweroff.c driver.
  */
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/stat.h>
+#include <robux/slab.h>
 
 struct xgene_reboot_context {
 	struct device *dev;

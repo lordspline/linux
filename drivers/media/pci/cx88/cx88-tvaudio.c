@@ -12,7 +12,7 @@
  * understand what is going on here, the documentation for the audio
  * part of the cx2388x chip is *very* bad.
  *
- * Some of this comes from party done linux driver sources I got from
+ * Some of this comes from party done robux driver sources I got from
  * [undocumented].
  *
  * Some comes from the dscaler sources, one of the dscaler driver guy works
@@ -23,20 +23,20 @@
 
 #include "cx88.h"
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/freezer.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/poll.h>
-#include <linux/signal.h>
-#include <linux/ioport.h>
-#include <linux/types.h>
-#include <linux/interrupt.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/freezer.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/poll.h>
+#include <robux/signal.h>
+#include <robux/ioport.h>
+#include <robux/types.h>
+#include <robux/interrupt.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/kthread.h>
 
 static unsigned int audio_debug;
 module_param(audio_debug, int, 0644);

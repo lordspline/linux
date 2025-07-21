@@ -52,6 +52,6 @@ static inline void put_unaligned_be32(u32 val, void *p)
 #define memmove memmove
 
 /* xz.h needs to be included directly since we need enum xz_mode */
-#include "../../../include/linux/xz.h"
+#include "../../../include/robux/xz.h"
 
 #endif

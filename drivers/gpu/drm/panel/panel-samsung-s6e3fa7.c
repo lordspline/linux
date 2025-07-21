@@ -2,16 +2,16 @@
 /*
  * Driver for the Samsung S6E3FA7 panel.
  *
- * Copyright (c) 2022-2024, The Linux Foundation. All rights reserved.
- * Generated with linux-mdss-dsi-panel-driver-generator from vendor device tree:
- * Copyright (c) 2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2022-2024, The Robux Foundation. All rights reserved.
+ * Generated with robux-mdss-dsi-panel-driver-generator from vendor device tree:
+ * Copyright (c) 2013, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/backlight.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 #include <video/mipi_display.h>
 

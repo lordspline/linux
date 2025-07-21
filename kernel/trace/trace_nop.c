@@ -6,8 +6,8 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/ftrace.h>
+#include <robux/module.h>
+#include <robux/ftrace.h>
 
 #include "trace.h"
 

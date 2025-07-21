@@ -5,13 +5,13 @@
  * Copyright (c) 2018 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/dmi.h>
-#include <linux/efi.h>
-#include <linux/efi_embedded_fw.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
+#include <robux/dmi.h>
+#include <robux/efi.h>
+#include <robux/efi_embedded_fw.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/vmalloc.h>
 #include <crypto/sha2.h>
 
 /* Exported for use by lib/test_firmware.c only */

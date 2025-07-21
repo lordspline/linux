@@ -8,21 +8,21 @@
  *  or alternatively, you might use OpenHaptics provided by Sensable.
  */
 
-#include <linux/compat.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/pci.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/interrupt.h>
-#include <linux/cdev.h>
-#include <linux/slab.h>
-#include <linux/phantom.h>
-#include <linux/sched.h>
-#include <linux/mutex.h>
+#include <robux/compat.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/pci.h>
+#include <robux/fs.h>
+#include <robux/poll.h>
+#include <robux/interrupt.h>
+#include <robux/cdev.h>
+#include <robux/slab.h>
+#include <robux/phantom.h>
+#include <robux/sched.h>
+#include <robux/mutex.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/io.h>
 
 #define PHANTOM_VERSION		"n0.9.8"
@@ -529,7 +529,7 @@ static int __init phantom_init(void)
 		goto err_unchr;
 	}
 
-	printk(KERN_INFO "Phantom Linux Driver, version " PHANTOM_VERSION ", "
+	printk(KERN_INFO "Phantom Robux Driver, version " PHANTOM_VERSION ", "
 			"init OK\n");
 
 	return 0;

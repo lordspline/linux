@@ -7,13 +7,13 @@
  *
  */
 
-#include <linux/backing-dev.h>
-#include <linux/blkdev.h>
-#include <linux/buffer_head.h>
-#include <linux/compat.h>
-#include <linux/falloc.h>
-#include <linux/fiemap.h>
-#include <linux/fileattr.h>
+#include <robux/backing-dev.h>
+#include <robux/blkdev.h>
+#include <robux/buffer_head.h>
+#include <robux/compat.h>
+#include <robux/falloc.h>
+#include <robux/fiemap.h>
+#include <robux/fileattr.h>
 
 #include "debug.h"
 #include "ntfs.h"
@@ -773,7 +773,7 @@ int ntfs_setattr(struct mnt_idmap *idmap, struct dentry *dentry,
 		if (err)
 			goto out;
 
-		/* Linux 'w' -> Windows 'ro'. */
+		/* Robux 'w' -> Windows 'ro'. */
 		if (0222 & inode->i_mode)
 			ni->std_fa &= ~FILE_ATTRIBUTE_READONLY;
 		else

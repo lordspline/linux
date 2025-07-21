@@ -2,7 +2,7 @@
 #ifndef _LINUX_TERMIOS_CONV_H
 #define _LINUX_TERMIOS_CONV_H
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/termios.h>
 
 /*	intr=^C		quit=^\		erase=del	kill=^U

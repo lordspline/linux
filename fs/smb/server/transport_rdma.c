@@ -9,12 +9,12 @@
 
 #define SUBMOD_NAME	"smb_direct"
 
-#include <linux/kthread.h>
-#include <linux/list.h>
-#include <linux/mempool.h>
-#include <linux/highmem.h>
-#include <linux/scatterlist.h>
-#include <linux/string_choices.h>
+#include <robux/kthread.h>
+#include <robux/list.h>
+#include <robux/mempool.h>
+#include <robux/highmem.h>
+#include <robux/scatterlist.h>
+#include <robux/string_choices.h>
 #include <rdma/ib_verbs.h>
 #include <rdma/rdma_cm.h>
 #include <rdma/rw.h>

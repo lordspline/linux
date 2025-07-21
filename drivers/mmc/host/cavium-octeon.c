@@ -7,15 +7,15 @@
  *
  * Copyright (C) 2012-2017 Cavium Inc.
  */
-#include <linux/dma-mapping.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/slot-gpio.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 #include <asm/octeon/octeon.h>
 #include "cavium.h"
 

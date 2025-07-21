@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2014, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/bitops.h>
-#include <linux/regmap.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/bitops.h>
+#include <robux/regmap.h>
+#include <robux/export.h>
 
 #include "clk-regmap-divider.h"
 

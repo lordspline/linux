@@ -14,8 +14,8 @@
 #include "journal_io.h"
 #include "journal_reclaim.h"
 
-#include <linux/prefetch.h>
-#include <linux/sort.h>
+#include <robux/prefetch.h>
+#include <robux/sort.h>
 
 static int bch2_btree_write_buffer_journal_flush(struct journal *,
 				struct journal_entry_pin *, u64);

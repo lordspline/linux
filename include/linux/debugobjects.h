@@ -2,8 +2,8 @@
 #ifndef _LINUX_DEBUGOBJECTS_H
 #define _LINUX_DEBUGOBJECTS_H
 
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
 
 enum debug_obj_state {
 	ODEBUG_STATE_NONE,

@@ -6,10 +6,10 @@
  * Copyright (C) 2009 Alan Stern (stern@rowland.harvard.edu)
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb_usual.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/usb_usual.h>
 
 
 /*

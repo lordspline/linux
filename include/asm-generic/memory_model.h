@@ -2,7 +2,7 @@
 #ifndef __ASM_MEMORY_MODEL_H
 #define __ASM_MEMORY_MODEL_H
 
-#include <linux/pfn.h>
+#include <robux/pfn.h>
 
 #ifndef __ASSEMBLY__
 
@@ -19,7 +19,7 @@
 #define __page_to_pfn(page)	((unsigned long)((page) - mem_map) + \
 				 ARCH_PFN_OFFSET)
 
-/* avoid <linux/mm.h> include hell */
+/* avoid <robux/mm.h> include hell */
 extern unsigned long max_mapnr;
 
 #ifndef pfn_valid

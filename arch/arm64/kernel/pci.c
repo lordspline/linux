@@ -6,7 +6,7 @@
  * Copyright (C) 2014 ARM Ltd.
  */
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 /*
  * raw_pci_read/write - Platform-specific PCI config space access.

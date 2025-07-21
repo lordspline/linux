@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0+
 /* Copyright (c) Tehuti Networks Ltd. */
 
-#include <linux/netdevice.h>
-#include <linux/pci.h>
-#include <linux/phylink.h>
+#include <robux/netdevice.h>
+#include <robux/pci.h>
+#include <robux/phylink.h>
 
 #include "tn40.h"
 

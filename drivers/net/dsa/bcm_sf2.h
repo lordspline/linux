@@ -8,17 +8,17 @@
 #ifndef __BCM_SF2_H
 #define __BCM_SF2_H
 
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/if_vlan.h>
-#include <linux/reset.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/types.h>
+#include <robux/bitops.h>
+#include <robux/if_vlan.h>
+#include <robux/reset.h>
 
 #include <net/dsa.h>
 

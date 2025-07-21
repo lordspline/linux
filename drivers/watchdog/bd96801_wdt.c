@@ -5,17 +5,17 @@
  * ROHM BD96801 watchdog driver
  */
 
-#include <linux/bitfield.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/rohm-bd96801.h>
-#include <linux/mfd/rohm-generic.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regmap.h>
-#include <linux/watchdog.h>
+#include <robux/bitfield.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mfd/rohm-bd96801.h>
+#include <robux/mfd/rohm-generic.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/regmap.h>
+#include <robux/watchdog.h>
 
 static bool nowayout;
 module_param(nowayout, bool, 0);

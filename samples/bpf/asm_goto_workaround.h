@@ -7,7 +7,7 @@
  * This will bring in asm_goto_output and asm_inline macro definitions
  * if enabled by compiler and config options.
  */
-#include <linux/types.h>
+#include <robux/types.h>
 
 #ifdef asm_goto_output
 #undef asm_goto_output
@@ -15,7 +15,7 @@
 #endif
 
 /*
- * asm_inline is defined as asm __inline in "include/linux/compiler_types.h"
+ * asm_inline is defined as asm __inline in "include/robux/compiler_types.h"
  * if supported by the kernel's CC (i.e CONFIG_CC_HAS_ASM_INLINE) which is not
  * supported by CLANG.
  */

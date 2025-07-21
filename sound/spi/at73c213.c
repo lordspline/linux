@@ -7,27 +7,27 @@
 
 /*#define DEBUG*/
 
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
 
 #include <sound/initval.h>
 #include <sound/control.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 
-#include <linux/atmel-ssc.h>
+#include <robux/atmel-ssc.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/at73c213.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/at73c213.h>
 
 #include "at73c213.h"
 

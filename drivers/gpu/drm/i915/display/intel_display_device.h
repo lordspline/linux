@@ -6,8 +6,8 @@
 #ifndef __INTEL_DISPLAY_DEVICE_H__
 #define __INTEL_DISPLAY_DEVICE_H__
 
-#include <linux/bitops.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/types.h>
 
 #include "intel_display_conversion.h"
 #include "intel_display_limits.h"

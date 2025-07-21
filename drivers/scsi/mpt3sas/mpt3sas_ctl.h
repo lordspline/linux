@@ -47,7 +47,7 @@
 #define MPT3SAS_CTL_H_INCLUDED
 
 #ifdef __KERNEL__
-#include <linux/miscdevice.h>
+#include <robux/miscdevice.h>
 #endif
 
 #include "mpt3sas_base.h"

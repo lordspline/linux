@@ -7,12 +7,12 @@
  *
  * Author: Arnd Bergmann <arndb@de.ibm.com>
  */
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/syscalls.h>
-#include <linux/rcupdate.h>
-#include <linux/binfmts.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/syscalls.h>
+#include <robux/rcupdate.h>
+#include <robux/binfmts.h>
 
 #include <asm/spu.h>
 

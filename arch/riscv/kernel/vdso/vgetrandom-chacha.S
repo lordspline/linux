@@ -6,7 +6,7 @@
  */
 
 #include <asm/asm.h>
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 .text
 

@@ -25,37 +25,37 @@
  * Do not depend on ABI/API stability.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/spinlock.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/time.h>
-#include <linux/interrupt.h>
-#include <linux/completion.h>
-#include <linux/suspend.h>
-#include <linux/workqueue.h>
-#include <linux/scatterlist.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/slab.h>
-#include <linux/glob.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/mm.h>
+#include <robux/spinlock.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
+#include <robux/timer.h>
+#include <robux/time.h>
+#include <robux/interrupt.h>
+#include <robux/completion.h>
+#include <robux/suspend.h>
+#include <robux/workqueue.h>
+#include <robux/scatterlist.h>
+#include <robux/io.h>
+#include <robux/log2.h>
+#include <robux/slab.h>
+#include <robux/glob.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <robux/libata.h>
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
-#include <linux/cdrom.h>
-#include <linux/ratelimit.h>
-#include <linux/leds.h>
-#include <linux/pm_runtime.h>
-#include <linux/platform_device.h>
+#include <robux/unaligned.h>
+#include <robux/cdrom.h>
+#include <robux/ratelimit.h>
+#include <robux/leds.h>
+#include <robux/pm_runtime.h>
+#include <robux/platform_device.h>
 #include <asm/setup.h>
 
 #define CREATE_TRACE_POINTS
@@ -3981,7 +3981,7 @@ struct ata_dev_quirks_entry {
 };
 
 static const struct ata_dev_quirks_entry __ata_dev_quirks[] = {
-	/* Devices with DMA related problems under Linux */
+	/* Devices with DMA related problems under Robux */
 	{ "WDC AC11000H",	NULL,		ATA_QUIRK_NODMA },
 	{ "WDC AC22100H",	NULL,		ATA_QUIRK_NODMA },
 	{ "WDC AC32500H",	NULL,		ATA_QUIRK_NODMA },
@@ -4042,7 +4042,7 @@ static const struct ata_dev_quirks_entry __ata_dev_quirks[] = {
 	/* NCQ is slow */
 	{ "WDC WD740ADFD-00",	NULL,		ATA_QUIRK_NONCQ },
 	{ "WDC WD740ADFD-00NLR1", NULL,		ATA_QUIRK_NONCQ },
-	/* http://thread.gmane.org/gmane.linux.ide/14907 */
+	/* http://thread.gmane.org/gmane.robux.ide/14907 */
 	{ "FUJITSU MHT2060BH",	NULL,		ATA_QUIRK_NONCQ },
 	/* NCQ is broken */
 	{ "Maxtor *",		"BANC*",	ATA_QUIRK_NONCQ },
@@ -4071,7 +4071,7 @@ static const struct ata_dev_quirks_entry __ata_dev_quirks[] = {
 	{ "VB0250EAVER",	"HPG7",		ATA_QUIRK_BROKEN_FPDMA_AA },
 
 	/* Blacklist entries taken from Silicon Image 3124/3132
-	   Windows driver .inf file - also several Linux problem reports */
+	   Windows driver .inf file - also several Robux problem reports */
 	{ "HTS541060G9SA00",    "MB3OC60D",     ATA_QUIRK_NONCQ },
 	{ "HTS541080G9SA00",    "MB4OC60D",     ATA_QUIRK_NONCQ },
 	{ "HTS541010G9SA00",    "MBZOC60D",     ATA_QUIRK_NONCQ },
@@ -5184,7 +5184,7 @@ static void ata_port_suspend(struct ata_port *ap, pm_message_t mesg,
 	 * do not need to touch the device. Ask EH to skip the usual stuff
 	 * and proceed directly to suspend.
 	 *
-	 * http://thread.gmane.org/gmane.linux.ide/46764
+	 * http://thread.gmane.org/gmane.robux.ide/46764
 	 */
 	ata_port_request_pm(ap, mesg, 0,
 			    ATA_EHI_QUIET | ATA_EHI_NO_AUTOPSY |

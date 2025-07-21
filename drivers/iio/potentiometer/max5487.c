@@ -4,12 +4,12 @@
  *
  * Copyright (C) 2016 Cristina-Gabriela Moraru <cristina.moraru09@gmail.com>
  */
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/spi/spi.h>
 
-#include <linux/iio/sysfs.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/iio.h>
 
 #define MAX5487_WRITE_WIPER_A	(0x01 << 8)
 #define MAX5487_WRITE_WIPER_B	(0x02 << 8)

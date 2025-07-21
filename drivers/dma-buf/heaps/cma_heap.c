@@ -9,18 +9,18 @@
  * Copyright (C) 2019 Texas Instruments Incorporated - http://www.ti.com/
  *	Andrew F. Davis <afd@ti.com>
  */
-#include <linux/cma.h>
-#include <linux/dma-buf.h>
-#include <linux/dma-heap.h>
-#include <linux/dma-map-ops.h>
-#include <linux/err.h>
-#include <linux/highmem.h>
-#include <linux/io.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/cma.h>
+#include <robux/dma-buf.h>
+#include <robux/dma-heap.h>
+#include <robux/dma-map-ops.h>
+#include <robux/err.h>
+#include <robux/highmem.h>
+#include <robux/io.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 
 
 struct cma_heap {

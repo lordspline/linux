@@ -15,12 +15,12 @@
  * 32-bit and 64-bit versions merged by Paul Mackerras <paulus@samba.org>
  */
 
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/cpu.h>
-#include <linux/sysctl.h>
-#include <linux/tick.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/smp.h>
+#include <robux/cpu.h>
+#include <robux/sysctl.h>
+#include <robux/tick.h>
 
 #include <asm/processor.h>
 #include <asm/cputable.h>

@@ -7,11 +7,11 @@
  * Copyright (C) 2017 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/init.h>
-#include <linux/mfd/intel_soc_pmic.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/init.h>
+#include <robux/mfd/intel_soc_pmic.h>
+#include <robux/platform_device.h>
 #include <asm/byteorder.h>
 #include "intel_pmic.h"
 

@@ -10,11 +10,11 @@
 
 #include <crypto/internal/hash.h>
 #include <crypto/sha2.h>
-#include <linux/compiler.h>
-#include <linux/math.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <robux/compiler.h>
+#include <robux/math.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/unaligned.h>
 
 typedef void (sha512_block_fn)(struct sha512_state *sst, u8 const *src,
 			       int blocks);

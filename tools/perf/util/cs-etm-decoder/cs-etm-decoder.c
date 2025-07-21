@@ -7,10 +7,10 @@
  */
 
 #include <asm/bug.h>
-#include <linux/coresight-pmu.h>
-#include <linux/err.h>
-#include <linux/list.h>
-#include <linux/zalloc.h>
+#include <robux/coresight-pmu.h>
+#include <robux/err.h>
+#include <robux/list.h>
+#include <robux/zalloc.h>
 #include <stdlib.h>
 #include <opencsd/c_api/opencsd_c_api.h>
 

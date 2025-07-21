@@ -13,17 +13,17 @@
  * Copyright (c) 2012  Bjørn Mork <bjorn@mork.no>
  */
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/ip.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/usbnet.h>
-#include <linux/usb/cdc-wdm.h>
-#include <linux/usb/cdc_ncm.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/if_vlan.h>
+#include <robux/ip.h>
+#include <robux/mii.h>
+#include <robux/usb.h>
+#include <robux/usb/cdc.h>
+#include <robux/usb/usbnet.h>
+#include <robux/usb/cdc-wdm.h>
+#include <robux/usb/cdc_ncm.h>
 
 /* Driver data */
 struct huawei_cdc_ncm_state {

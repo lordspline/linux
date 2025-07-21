@@ -8,20 +8,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/thermal.h>
-#include <linux/types.h>
-#include <linux/string.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/thermal.h>
+#include <robux/types.h>
+#include <robux/string.h>
 
 #include "thermal_core.h"
 
 /***   functions parsing device tree nodes   ***/
 
 /*
- * It maps 'enum thermal_trip_type' found in include/linux/thermal.h
+ * It maps 'enum thermal_trip_type' found in include/robux/thermal.h
  * into the device tree binding of 'trip', property type.
  */
 static const char * const trip_types[] = {

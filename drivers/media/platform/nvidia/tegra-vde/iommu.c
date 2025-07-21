@@ -5,10 +5,10 @@
  * Copyright (C) 2016-2019 GRATE-DRIVER project
  */
 
-#include <linux/iommu.h>
-#include <linux/iova.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
+#include <robux/iommu.h>
+#include <robux/iova.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
 
 #if IS_ENABLED(CONFIG_ARM_DMA_USE_IOMMU)
 #include <asm/dma-iommu.h>

@@ -10,25 +10,25 @@
  *	      Dan Morrison, IBM Corporation <dmorriso@cse.buffalo.edu>
  */
 
-#include <linux/types.h>
-#include <linux/kdev_t.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/vt_kern.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/panic_notifier.h>
-#include <linux/reboot.h>
-#include <linux/serial.h> /* ASYNC_* flags */
-#include <linux/slab.h>
+#include <robux/types.h>
+#include <robux/kdev_t.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/vt_kern.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/interrupt.h>
+#include <robux/err.h>
+#include <robux/panic_notifier.h>
+#include <robux/reboot.h>
+#include <robux/serial.h> /* ASYNC_* flags */
+#include <robux/slab.h>
 #include <asm/machine.h>
 #include <asm/ccwdev.h>
 #include <asm/cio.h>
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/ebcdic.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/delay.h>
 #include <asm/cpcmd.h>
 #include <asm/setup.h>

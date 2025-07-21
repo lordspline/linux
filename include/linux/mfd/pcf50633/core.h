@@ -9,12 +9,12 @@
 #ifndef __LINUX_MFD_PCF50633_CORE_H
 #define __LINUX_MFD_PCF50633_CORE_H
 
-#include <linux/i2c.h>
-#include <linux/workqueue.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/pm.h>
-#include <linux/power_supply.h>
+#include <robux/i2c.h>
+#include <robux/workqueue.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/pm.h>
+#include <robux/power_supply.h>
 
 struct pcf50633;
 struct regmap;

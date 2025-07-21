@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * linux/arch/arm/mach-omap1/devices.c
+ * robux/arch/arm/mach-omap1/devices.c
  *
  * OMAP1 platform device setup/initialization
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/spi/spi.h>
 
-#include <linux/platform_data/omap-wd-timer.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <robux/platform_data/omap-wd-timer.h>
+#include <robux/soc/ti/omap1-io.h>
 
 #include <asm/mach/map.h>
 

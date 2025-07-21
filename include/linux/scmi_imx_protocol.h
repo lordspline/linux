@@ -8,11 +8,11 @@
 #ifndef _LINUX_SCMI_NXP_PROTOCOL_H
 #define _LINUX_SCMI_NXP_PROTOCOL_H
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/notifier.h>
-#include <linux/scmi_protocol.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/notifier.h>
+#include <robux/scmi_protocol.h>
+#include <robux/types.h>
 
 #define SCMI_PROTOCOL_IMX_LMM	0x80
 #define	SCMI_PROTOCOL_IMX_BBM	0x81

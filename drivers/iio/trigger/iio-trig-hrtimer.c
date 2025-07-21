@@ -8,13 +8,13 @@
  *	Author: Lars-Peter Clausen <lars@metafoo.de>
  * Copyright (C) 2015, Intel Corporation
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/hrtimer.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/hrtimer.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/sw_trigger.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/sw_trigger.h>
 
 /* Defined locally, not in time64.h yet. */
 #define PSEC_PER_SEC   1000000000000LL

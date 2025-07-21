@@ -5,19 +5,19 @@
  * Copyright (C) 2019-2020 Antmicro <www.antmicro.com>
  */
 
-#include <linux/bits.h>
-#include <linux/console.h>
-#include <linux/interrupt.h>
-#include <linux/litex.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/tty_flip.h>
-#include <linux/xarray.h>
+#include <robux/bits.h>
+#include <robux/console.h>
+#include <robux/interrupt.h>
+#include <robux/litex.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
+#include <robux/tty_flip.h>
+#include <robux/xarray.h>
 
 /*
  * CSRs definitions (base address offsets + width)

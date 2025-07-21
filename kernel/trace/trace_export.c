@@ -4,13 +4,13 @@
  *
  * Copyright (C) 2009 Steven Rostedt <srostedt@redhat.com>
  */
-#include <linux/stringify.h>
-#include <linux/kallsyms.h>
-#include <linux/seq_file.h>
-#include <linux/uaccess.h>
-#include <linux/ftrace.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <robux/stringify.h>
+#include <robux/kallsyms.h>
+#include <robux/seq_file.h>
+#include <robux/uaccess.h>
+#include <robux/ftrace.h>
+#include <robux/module.h>
+#include <robux/init.h>
 
 #include "trace_output.h"
 

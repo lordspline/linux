@@ -4,15 +4,15 @@
     Copyright (C) 2008 Freescale Semiconductor, Inc.
 
 */
-#include <linux/elf.h>
-#include <linux/moduleloader.h>
-#include <linux/err.h>
-#include <linux/mm.h>
-#include <linux/bug.h>
+#include <robux/elf.h>
+#include <robux/moduleloader.h>
+#include <robux/err.h>
+#include <robux/mm.h>
+#include <robux/bug.h>
 #include <asm/module.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/firmware.h>
-#include <linux/sort.h>
+#include <robux/sort.h>
 #include <asm/setup.h>
 #include <asm/sections.h>
 

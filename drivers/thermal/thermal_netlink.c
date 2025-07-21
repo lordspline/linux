@@ -6,12 +6,12 @@
  *
  * Generic netlink for thermal management framework
  */
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/kernel.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/kernel.h>
 #include <net/sock.h>
 #include <net/genetlink.h>
-#include <uapi/linux/thermal.h>
+#include <uapi/robux/thermal.h>
 
 #include "thermal_core.h"
 

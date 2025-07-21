@@ -74,7 +74,7 @@ cat >> "$outfile" <<EOF
 #include <elf.h>
 #include <stdint.h>
 #include <asm/bitsperlong.h>
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 struct syscalltbl {
        const char *const *num_to_name;

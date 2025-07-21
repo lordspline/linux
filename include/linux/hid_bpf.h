@@ -3,10 +3,10 @@
 #ifndef __HID_BPF_H
 #define __HID_BPF_H
 
-#include <linux/bpf.h>
-#include <linux/mutex.h>
-#include <linux/srcu.h>
-#include <uapi/linux/hid.h>
+#include <robux/bpf.h>
+#include <robux/mutex.h>
+#include <robux/srcu.h>
+#include <uapi/robux/hid.h>
 
 struct hid_device;
 

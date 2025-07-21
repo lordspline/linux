@@ -1,5 +1,5 @@
 /*
- *	linux/include/video/pmagb-b-fb.h
+ *	robux/include/video/pmagb-b-fb.h
  *
  *	TURBOchannel PMAGB-B Smart Frame Buffer (SFB) card support,
  *	Copyright (C) 1999, 2000, 2001 by

@@ -8,8 +8,8 @@
 #ifndef MMC_SLOT_GPIO_H
 #define MMC_SLOT_GPIO_H
 
-#include <linux/interrupt.h>
-#include <linux/types.h>
+#include <robux/interrupt.h>
+#include <robux/types.h>
 
 struct mmc_host;
 

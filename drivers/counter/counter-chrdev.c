@@ -3,23 +3,23 @@
  * Generic Counter character device interface
  * Copyright (C) 2020 William Breathitt Gray
  */
-#include <linux/cdev.h>
-#include <linux/counter.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/fs.h>
-#include <linux/kfifo.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/nospec.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/timekeeping.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
+#include <robux/cdev.h>
+#include <robux/counter.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/fs.h>
+#include <robux/kfifo.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/nospec.h>
+#include <robux/poll.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/timekeeping.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
+#include <robux/wait.h>
 
 #include "counter-chrdev.h"
 

@@ -3,13 +3,13 @@
  * BIOS32 and PCI BIOS handling.
  */
 
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
 
 #include <asm/pci_x86.h>
 #include <asm/e820/types.h>

@@ -3,21 +3,21 @@
  * Copyright (c) 2013 - 2015 Linaro Ltd.
  * Copyright (c) 2013 HiSilicon Limited.
  */
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmapool.h>
-#include <linux/dmaengine.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/of_dma.h>
+#include <robux/sched.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmapool.h>
+#include <robux/dmaengine.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/of.h>
+#include <robux/clk.h>
+#include <robux/of_dma.h>
 
 #include "virt-dma.h"
 

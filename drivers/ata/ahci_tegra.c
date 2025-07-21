@@ -8,14 +8,14 @@
  *	Mikko Perttunen <mperttunen@nvidia.com>
  */
 
-#include <linux/ahci_platform.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/reset.h>
+#include <robux/ahci_platform.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/reset.h>
 
 #include <soc/tegra/fuse.h>
 #include <soc/tegra/pmc.h>

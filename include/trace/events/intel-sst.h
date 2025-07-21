@@ -12,9 +12,9 @@
 #if !defined(_TRACE_INTEL_SST_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _TRACE_INTEL_SST_H
 
-#include <linux/types.h>
-#include <linux/ktime.h>
-#include <linux/tracepoint.h>
+#include <robux/types.h>
+#include <robux/ktime.h>
+#include <robux/tracepoint.h>
 
 DECLARE_EVENT_CLASS(sst_ipc_msg,
 

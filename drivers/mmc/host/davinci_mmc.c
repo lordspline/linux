@@ -7,23 +7,23 @@
  * Copyright (C) 2009 David Brownell
  */
 
-#include <linux/clk.h>
-#include <linux/cpufreq.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/irq.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/module.h>
-#include <linux/platform_data/mmc-davinci.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
+#include <robux/clk.h>
+#include <robux/cpufreq.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/irq.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/slot-gpio.h>
+#include <robux/module.h>
+#include <robux/platform_data/mmc-davinci.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
 
 /*
  * Register Definitions

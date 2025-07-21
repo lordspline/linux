@@ -7,13 +7,13 @@
 
 #include <asm/byteorder.h>
 #include <kunit/static_stub.h>
-#include <linux/dev_printk.h>
-#include <linux/efi.h>
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/dev_printk.h>
+#include <robux/efi.h>
+#include <robux/firmware/cirrus/cs_dsp.h>
+#include <robux/module.h>
+#include <robux/overflow.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 #include <sound/cs-amp-lib.h>
 
 #define CS_AMP_CAL_GUID \

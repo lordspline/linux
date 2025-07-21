@@ -6,7 +6,7 @@
 
 #include "pvr_rogue_cr_defs.h"
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 /*
  ******************************************************************************

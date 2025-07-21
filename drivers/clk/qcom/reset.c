@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/export.h>
-#include <linux/regmap.h>
-#include <linux/reset-controller.h>
-#include <linux/delay.h>
+#include <robux/bitops.h>
+#include <robux/export.h>
+#include <robux/regmap.h>
+#include <robux/reset-controller.h>
+#include <robux/delay.h>
 
 #include "reset.h"
 

@@ -4,15 +4,15 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/hw-consumer.h>
-#include <linux/iio/buffer_impl.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/consumer.h>
+#include <robux/iio/hw-consumer.h>
+#include <robux/iio/buffer_impl.h>
 
 /**
  * struct iio_hw_consumer - IIO hw consumer block

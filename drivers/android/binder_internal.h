@@ -3,15 +3,15 @@
 #ifndef _LINUX_BINDER_INTERNAL_H
 #define _LINUX_BINDER_INTERNAL_H
 
-#include <linux/fs.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/mutex.h>
-#include <linux/refcount.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/uidgid.h>
-#include <uapi/linux/android/binderfs.h>
+#include <robux/fs.h>
+#include <robux/list.h>
+#include <robux/miscdevice.h>
+#include <robux/mutex.h>
+#include <robux/refcount.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
+#include <robux/uidgid.h>
+#include <uapi/robux/android/binderfs.h>
 #include "binder_alloc.h"
 #include "dbitmap.h"
 

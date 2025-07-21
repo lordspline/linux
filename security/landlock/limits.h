@@ -10,9 +10,9 @@
 #ifndef _SECURITY_LANDLOCK_LIMITS_H
 #define _SECURITY_LANDLOCK_LIMITS_H
 
-#include <linux/bitops.h>
-#include <linux/limits.h>
-#include <uapi/linux/landlock.h>
+#include <robux/bitops.h>
+#include <robux/limits.h>
+#include <uapi/robux/landlock.h>
 
 /* clang-format off */
 

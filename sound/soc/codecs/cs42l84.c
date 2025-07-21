@@ -2,29 +2,29 @@
 /*
  * cs42l84.c -- CS42L84 ALSA SoC audio driver
  *
- * Copyright (C) The Asahi Linux Contributors
+ * Copyright (C) The Asahi Robux Contributors
  *
  * Based on sound/soc/codecs/cs42l42{.c,.h}
  *   Copyright 2016 Cirrus Logic, Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/gpio.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of_device.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/gpio.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of_device.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

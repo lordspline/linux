@@ -8,14 +8,14 @@
  *  June, 2002
  *
  */
-#include <linux/module.h>
+#include <robux/module.h>
 #include <net/sock.h>
-#include <linux/if_arp.h>
+#include <robux/if_arp.h>
 #include <net/arp.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter_bridge/ebtables.h>
-#include <linux/netfilter_bridge/ebt_nat.h>
+#include <robux/netfilter.h>
+#include <robux/netfilter/x_tables.h>
+#include <robux/netfilter_bridge/ebtables.h>
+#include <robux/netfilter_bridge/ebt_nat.h>
 
 static unsigned int
 ebt_snat_tg(struct sk_buff *skb, const struct xt_action_param *par)

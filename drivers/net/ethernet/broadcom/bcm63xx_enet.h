@@ -2,11 +2,11 @@
 #ifndef BCM63XX_ENET_H_
 #define BCM63XX_ENET_H_
 
-#include <linux/types.h>
-#include <linux/mii.h>
-#include <linux/mutex.h>
-#include <linux/phy.h>
-#include <linux/platform_device.h>
+#include <robux/types.h>
+#include <robux/mii.h>
+#include <robux/mutex.h>
+#include <robux/phy.h>
+#include <robux/platform_device.h>
 
 #include <bcm63xx_regs.h>
 #include <bcm63xx_io.h>

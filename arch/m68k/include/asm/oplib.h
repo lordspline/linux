@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
  * oplib.h:  Describes the interface and available routines in the
- *           Linux Prom library.
+ *           Robux Prom library.
  *
  * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
  */
@@ -9,7 +9,7 @@
 #ifndef __SPARC_OPLIB_H
 #define __SPARC_OPLIB_H
 
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 
 #include <asm/openprom.h>
 

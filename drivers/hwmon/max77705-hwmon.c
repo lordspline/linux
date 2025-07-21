@@ -5,13 +5,13 @@
  *  Copyright (C) 2025 Dzmitry Sankouski <dsankouski@gmail.com>
  */
 
-#include <linux/err.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/kernel.h>
-#include <linux/mfd/max77705-private.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/err.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/hwmon.h>
+#include <robux/kernel.h>
+#include <robux/mfd/max77705-private.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 struct channel_desc {
 	u8 reg;

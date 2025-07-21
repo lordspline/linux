@@ -8,9 +8,9 @@
  * See MAINTAINERS file for support contact information.
  */
 
-#include <linux/netdevice.h>
-#include <linux/types.h>
-#include <linux/phy.h>
+#include <robux/netdevice.h>
+#include <robux/types.h>
+#include <robux/phy.h>
 
 enum mac_version {
 	/* support for ancient RTL_GIGA_MAC_VER_01 has been removed */

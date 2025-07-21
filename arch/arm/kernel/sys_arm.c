@@ -1,29 +1,29 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/kernel/sys_arm.c
+ *  robux/arch/arm/kernel/sys_arm.c
  *
- *  Copyright (C) People who wrote linux/arch/i386/kernel/sys_i386.c
+ *  Copyright (C) People who wrote robux/arch/i386/kernel/sys_i386.c
  *  Copyright (C) 1995, 1996 Russell King.
  *
  *  This file contains various random system calls that
- *  have a non-standard calling sequence on the Linux/arm
+ *  have a non-standard calling sequence on the Robux/arm
  *  platform.
  */
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/stat.h>
-#include <linux/syscalls.h>
-#include <linux/mman.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/ipc.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
+#include <robux/export.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/sem.h>
+#include <robux/msg.h>
+#include <robux/shm.h>
+#include <robux/stat.h>
+#include <robux/syscalls.h>
+#include <robux/mman.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/ipc.h>
+#include <robux/uaccess.h>
+#include <robux/slab.h>
 #include <asm/syscalls.h>
 
 /*

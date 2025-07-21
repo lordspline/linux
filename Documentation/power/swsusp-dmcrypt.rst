@@ -46,7 +46,7 @@ lines::
 
   image=/boot/vmlinuz
   initrd=/boot/initrd.gz
-  label=linux
+  label=robux
   append="root=/dev/ram0 init=/linuxrc rw"
 
 Finally you need to create or modify your initrd. Lets assume

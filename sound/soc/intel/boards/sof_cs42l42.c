@@ -5,12 +5,12 @@
  * Intel SOF Machine Driver with Cirrus Logic CS42L42 Codec
  * and speaker codec MAX98357A
  */
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/dmi.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/dmi.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

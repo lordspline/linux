@@ -2,9 +2,9 @@
 #ifndef _RAID5_H
 #define _RAID5_H
 
-#include <linux/raid/xor.h>
-#include <linux/dmaengine.h>
-#include <linux/local_lock.h>
+#include <robux/raid/xor.h>
+#include <robux/dmaengine.h>
+#include <robux/local_lock.h>
 
 /*
  *

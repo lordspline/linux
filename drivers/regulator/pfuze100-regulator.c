@@ -2,21 +2,21 @@
 //
 // Copyright (C) 2011-2013 Freescale Semiconductor, Inc. All Rights Reserved.
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/regulator/of_regulator.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/pfuze100.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/regulator/of_regulator.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/pfuze100.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/regmap.h>
 
 #define PFUZE_FLAG_DISABLE_SW	BIT(1)
 

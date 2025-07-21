@@ -5,9 +5,9 @@
  */
 
 #include <dt-bindings/clock/hi3660-clock.h>
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 #include "clk.h"
 
 static const struct hisi_fixed_rate_clock hi3660_fixed_rate_clks[] = {

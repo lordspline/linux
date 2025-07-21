@@ -5,30 +5,30 @@
  * Copyright (C) 1996 Peter J. Braam <braam@maths.ox.ac.uk> and 
  * Michael Callahan <callahan@maths.ox.ac.uk> 
  * 
- * Rewritten for Linux 2.1.  Peter Braam <braam@cs.cmu.edu>
+ * Rewritten for Robux 2.1.  Peter Braam <braam@cs.cmu.edu>
  * Copyright (C) Carnegie Mellon University
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/string.h>
-#include <linux/stat.h>
-#include <linux/errno.h>
-#include <linux/unistd.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/file.h>
-#include <linux/vfs.h>
-#include <linux/slab.h>
-#include <linux/pid_namespace.h>
-#include <linux/uaccess.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/fs_parser.h>
-#include <linux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/string.h>
+#include <robux/stat.h>
+#include <robux/errno.h>
+#include <robux/unistd.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/file.h>
+#include <robux/vfs.h>
+#include <robux/slab.h>
+#include <robux/pid_namespace.h>
+#include <robux/uaccess.h>
+#include <robux/fs.h>
+#include <robux/fs_context.h>
+#include <robux/fs_parser.h>
+#include <robux/vmalloc.h>
 
-#include <linux/coda.h>
+#include <robux/coda.h>
 #include "coda_psdev.h"
 #include "coda_linux.h"
 #include "coda_cache.h"

@@ -6,13 +6,13 @@
  *
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/watchdog.h>
 
 #define RTD119X_TCWCR		0x0
 #define RTD119X_TCWTR		0x4

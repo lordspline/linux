@@ -14,10 +14,10 @@
 #include <sys/ioctl.h>
 #include <sys/time.h>
 #include <net/if.h>
-#include <linux/if.h>
+#include <robux/if.h>
 
-#include <linux/can.h>
-#include <linux/can/raw.h>
+#include <robux/can.h>
+#include <robux/can/raw.h>
 
 #include "../../kselftest_harness.h"
 

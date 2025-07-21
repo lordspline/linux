@@ -2,9 +2,9 @@
 // Copyright (C) 2024 Marcos Paulo de Souza <mpdesouza@suse.com>
 // Copyright (C) 2024 Michael Vetter <mvetter@suse.com>
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/kprobes.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/kprobes.h>
 
 static bool has_post_handler = true;
 module_param(has_post_handler, bool, 0444);

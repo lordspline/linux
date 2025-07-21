@@ -7,16 +7,16 @@
  * Battery charger driver for MAXIM 77705 charger/power-supply.
  */
 
-#include <linux/devm-helpers.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/max77693-common.h>
-#include <linux/mfd/max77705-private.h>
-#include <linux/power/max77705_charger.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/regmap.h>
+#include <robux/devm-helpers.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/max77693-common.h>
+#include <robux/mfd/max77705-private.h>
+#include <robux/power/max77705_charger.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/regmap.h>
 
 static const char *max77705_charger_model		= "max77705";
 static const char *max77705_charger_manufacturer	= "Maxim Integrated";

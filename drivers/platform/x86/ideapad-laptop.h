@@ -9,7 +9,7 @@
 #ifndef _IDEAPAD_LAPTOP_H_
 #define _IDEAPAD_LAPTOP_H_
 
-#include <linux/notifier.h>
+#include <robux/notifier.h>
 
 enum ideapad_laptop_notifier_actions {
 	IDEAPAD_LAPTOP_YMC_EVENT,

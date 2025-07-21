@@ -8,16 +8,16 @@
  *  Author: Vitaly Wool <vitalywool@gmail.com>
  */
 
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/bits.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/platnand.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/platnand.h>
 
 #define TS72XX_NAND_CONTROL_ADDR_LINE	BIT(22)	/* 0xN0400000 */
 #define TS72XX_NAND_BUSY_ADDR_LINE	BIT(23)	/* 0xN0800000 */

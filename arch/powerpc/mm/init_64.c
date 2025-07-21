@@ -16,32 +16,32 @@
 
 #undef DEBUG
 
-#include <linux/signal.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/mman.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/stddef.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/highmem.h>
-#include <linux/idr.h>
-#include <linux/nodemask.h>
-#include <linux/module.h>
-#include <linux/poison.h>
-#include <linux/memblock.h>
-#include <linux/hugetlb.h>
-#include <linux/slab.h>
-#include <linux/of_fdt.h>
-#include <linux/libfdt.h>
-#include <linux/memremap.h>
-#include <linux/memory.h>
-#include <linux/bootmem_info.h>
+#include <robux/signal.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/mman.h>
+#include <robux/mm.h>
+#include <robux/swap.h>
+#include <robux/stddef.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/highmem.h>
+#include <robux/idr.h>
+#include <robux/nodemask.h>
+#include <robux/module.h>
+#include <robux/poison.h>
+#include <robux/memblock.h>
+#include <robux/hugetlb.h>
+#include <robux/slab.h>
+#include <robux/of_fdt.h>
+#include <robux/libfdt.h>
+#include <robux/memremap.h>
+#include <robux/memory.h>
+#include <robux/bootmem_info.h>
 
 #include <asm/pgalloc.h>
 #include <asm/page.h>
@@ -50,7 +50,7 @@
 #include <asm/io.h>
 #include <asm/mmu_context.h>
 #include <asm/mmu.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/smp.h>
 #include <asm/machdep.h>
 #include <asm/tlb.h>
@@ -92,7 +92,7 @@ static struct page * __meminit vmemmap_subsection_start(unsigned long vmemmap_ad
  * If any subsection in the 16G range mapped by vmemmap is valid we consider the
  * vmemmap populated (There is a page table entry already present). We can't do
  * a page table lookup here because with the hash translation we don't keep
- * vmemmap details in linux page table.
+ * vmemmap details in robux page table.
  */
 int __meminit vmemmap_populated(unsigned long vmemmap_addr, int vmemmap_map_size)
 {
@@ -568,7 +568,7 @@ static int __init probe_memory_block_size(unsigned long node, const char *uname,
 	if (type == NULL || strcmp(type, "memory") != 0)
 		return 0;
 
-	reg = of_get_flat_dt_prop(node, "linux,usable-memory", &l);
+	reg = of_get_flat_dt_prop(node, "robux,usable-memory", &l);
 	if (!reg)
 		reg = of_get_flat_dt_prop(node, "reg", &l);
 	if (!reg)
@@ -587,9 +587,9 @@ static int __init probe_memory_block_size(unsigned long node, const char *uname,
 			continue;
 		}
 		/*
-		 * ibm,coherent-device-memory with linux,usable-memory = 0
+		 * ibm,coherent-device-memory with robux,usable-memory = 0
 		 * Force 256MiB block size. Work around for GPUs on P9 PowerNV
-		 * linux,usable-memory == 0 implies driver managed memory and
+		 * robux,usable-memory == 0 implies driver managed memory and
 		 * we can't use large memory block size due to hotplug/unplug
 		 * limitations.
 		 */

@@ -6,13 +6,13 @@
  *
  *  Copyright (c) 2024, Alibaba Inc.
  *
- *  Author: Wen Gu <guwen@linux.alibaba.com>
- *          Tony Lu <tonylu@linux.alibaba.com>
+ *  Author: Wen Gu <guwen@robux.alibaba.com>
+ *          Tony Lu <tonylu@robux.alibaba.com>
  *
  */
 
-#include <linux/device.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/types.h>
 #include <net/smc.h>
 
 #include "smc_cdc.h"

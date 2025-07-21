@@ -8,12 +8,12 @@
 #ifndef _NFS_FSCACHE_H
 #define _NFS_FSCACHE_H
 
-#include <linux/swap.h>
-#include <linux/nfs_fs.h>
-#include <linux/nfs_mount.h>
-#include <linux/nfs4_mount.h>
-#include <linux/fscache.h>
-#include <linux/iversion.h>
+#include <robux/swap.h>
+#include <robux/nfs_fs.h>
+#include <robux/nfs_mount.h>
+#include <robux/nfs4_mount.h>
+#include <robux/fscache.h>
+#include <robux/iversion.h>
 
 #ifdef CONFIG_NFS_FSCACHE
 

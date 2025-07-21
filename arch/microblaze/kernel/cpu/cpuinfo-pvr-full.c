@@ -10,8 +10,8 @@
  * for more details.
  */
 
-#include <linux/init.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/string.h>
 #include <asm/pvr.h>
 #include <asm/cpuinfo.h>
 

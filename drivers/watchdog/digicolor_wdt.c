@@ -6,14 +6,14 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/watchdog.h>
-#include <linux/platform_device.h>
-#include <linux/of_address.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/watchdog.h>
+#include <robux/platform_device.h>
+#include <robux/of_address.h>
 
 #define TIMER_A_CONTROL		0
 #define TIMER_A_COUNT		4

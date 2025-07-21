@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * linux/arch/arm/plat-omap/ocpi.c
+ * robux/arch/arm/plat-omap/ocpi.c
  *
  * Minimal OCP bus support for omap16xx
  *
@@ -11,16 +11,16 @@
  * Modified for clock framework by Paul Mundt <paul.mundt@nokia.com>.
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/soc/ti/omap1-io.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/soc/ti/omap1-io.h>
 
 #include "hardware.h"
 #include "common.h"

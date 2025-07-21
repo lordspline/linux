@@ -13,7 +13,7 @@
 #include <string.h>
 #include <errno.h>
 #include <unistd.h>
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <time.h>
@@ -21,7 +21,7 @@
 #include <poll.h>
 #include <signal.h>
 #include <sys/ioctl.h>
-#include <linux/time64.h>
+#include <robux/time64.h>
 
 #include "vsock_test_zerocopy.h"
 #include "timeout.h"
@@ -1326,7 +1326,7 @@ static void test_seqpacket_unsent_bytes_server(const struct test_opts *opts)
 }
 
 #define RCVLOWAT_CREDIT_UPD_BUF_SIZE	(1024 * 128)
-/* This define is the same as in 'include/linux/virtio_vsock.h':
+/* This define is the same as in 'include/robux/virtio_vsock.h':
  * it is used to decide when to send credit update message during
  * reading from rx queue of a socket. Value and its usage in
  * kernel is important for this test.

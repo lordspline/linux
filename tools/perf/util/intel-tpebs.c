@@ -8,9 +8,9 @@
 #include <subcmd/run-command.h>
 #include <thread.h>
 #include "intel-tpebs.h"
-#include <linux/list.h>
-#include <linux/zalloc.h>
-#include <linux/err.h>
+#include <robux/list.h>
+#include <robux/zalloc.h>
+#include <robux/err.h>
 #include "sample.h"
 #include "counts.h"
 #include "debug.h"

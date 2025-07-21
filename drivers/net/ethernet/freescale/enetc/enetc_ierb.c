@@ -17,11 +17,11 @@
  * port, or the TX of a single port.
  */
 
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
 #include "enetc.h"
 #include "enetc_ierb.h"
 

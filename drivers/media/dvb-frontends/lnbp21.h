@@ -36,7 +36,7 @@
 	1=static curr limiting */
 #define LNBP21_PCL	0x80
 
-#include <linux/dvb/frontend.h>
+#include <robux/dvb/frontend.h>
 
 #if IS_REACHABLE(CONFIG_DVB_LNBP21)
 /* override_set and override_clear control which

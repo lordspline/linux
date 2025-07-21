@@ -2,16 +2,16 @@
 #ifndef _KERNEL_H
 #define _KERNEL_H
 
-#include "../../include/linux/kernel.h"
+#include "../../include/robux/kernel.h"
 #include <string.h>
 #include <stdio.h>
 #include <limits.h>
 
-#include <linux/compiler.h>
-#include <linux/err.h>
-#include <linux/bitops.h>
-#include <linux/log2.h>
-#include "../../../include/linux/kconfig.h"
+#include <robux/compiler.h>
+#include <robux/err.h>
+#include <robux/bitops.h>
+#include <robux/log2.h>
+#include "../../../include/robux/kconfig.h"
 
 #define printk printf
 #define pr_err printk

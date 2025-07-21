@@ -4,8 +4,8 @@
 #ifndef _FBNIC_RPC_H_
 #define _FBNIC_RPC_H_
 
-#include <uapi/linux/in6.h>
-#include <linux/bitfield.h>
+#include <uapi/robux/in6.h>
+#include <robux/bitfield.h>
 
 struct in_addr;
 

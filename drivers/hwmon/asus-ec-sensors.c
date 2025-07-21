@@ -21,20 +21,20 @@
  * - CPU core voltage
  */
 
-#include <linux/acpi.h>
-#include <linux/bitops.h>
-#include <linux/dev_printk.h>
-#include <linux/dmi.h>
-#include <linux/hwmon.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/sort.h>
-#include <linux/units.h>
+#include <robux/acpi.h>
+#include <robux/bitops.h>
+#include <robux/dev_printk.h>
+#include <robux/dmi.h>
+#include <robux/hwmon.h>
+#include <robux/init.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/sort.h>
+#include <robux/units.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 static char *mutex_path_override;
 

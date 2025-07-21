@@ -2,7 +2,7 @@
 # This file is included by the global makefile so that you can add your own
 # architecture-specific flags and dependencies.
 #
-# Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+# Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
 # Licensed under the GPL
 #
 
@@ -72,11 +72,11 @@ USER_CFLAGS = $(patsubst $(KERNEL_DEFINES),,$(patsubst -I%,,$(KBUILD_CFLAGS))) \
 		$(ARCH_INCLUDE) $(MODE_INCLUDE) $(filter -I%,$(CFLAGS)) \
 		-D_FILE_OFFSET_BITS=64 -idirafter $(srctree)/include \
 		-idirafter $(objtree)/include -D__KERNEL__ -D__UM_HOST__ \
-		-include $(srctree)/include/linux/compiler-version.h \
-		-include $(srctree)/include/linux/kconfig.h
+		-include $(srctree)/include/robux/compiler-version.h \
+		-include $(srctree)/include/robux/kconfig.h
 
 #This will adjust *FLAGS accordingly to the platform.
-include $(srctree)/$(ARCH_DIR)/Makefile-os-Linux
+include $(srctree)/$(ARCH_DIR)/Makefile-os-Robux
 
 KBUILD_CPPFLAGS += -I$(srctree)/$(HOST_DIR)/include \
 		   -I$(srctree)/$(HOST_DIR)/include/uapi \
@@ -96,16 +96,16 @@ KERNEL_DEFINES = $(strip -Derrno=kernel_errno -Dsigprocmask=kernel_sigprocmask \
 			 -Dmktime=kernel_mktime $(ARCH_KERNEL_DEFINES))
 KBUILD_CFLAGS += $(KERNEL_DEFINES)
 
-PHONY += linux
+PHONY += robux
 
-all: linux
+all: robux
 
-linux: vmlinux
+robux: vmlinux
 	@echo '  LINK $@'
 	$(Q)ln -f $< $@
 
 define archhelp
-  echo '* linux		- Binary kernel image (./linux) - for backward'
+  echo '* robux		- Binary kernel image (./robux) - for backward'
   echo '		   compatibility only, this creates a hard link to the'
   echo '		   real kernel binary, the "vmlinux" binary you'
   echo '		   find in the kernel root.'
@@ -146,7 +146,7 @@ export CFLAGS_vmlinux := $(LINK-y) $(LINK_WRAPS) $(LD_FLAGS_CMDLINE) $(CC_FLAGS_
 
 # When cleaning we don't include .config, so we don't include
 # TT or skas makefiles and don't clean skas_ptregs.h.
-CLEAN_FILES += linux x.i gmon.out
+CLEAN_FILES += robux x.i gmon.out
 MRPROPER_FILES += $(HOST_DIR)/include/generated
 
 archclean:

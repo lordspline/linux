@@ -7,8 +7,8 @@
  *         Lorenzo Bianconi <lorenzo@kernel.org>
  */
 
-#include <linux/etherdevice.h>
-#include <linux/module.h>
+#include <robux/etherdevice.h>
+#include <robux/module.h>
 #include "mt7615.h"
 #include "mcu.h"
 

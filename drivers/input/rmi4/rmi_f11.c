@@ -4,14 +4,14 @@
  * Copyright (c) 2011 Unixphere
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/rmi.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/rmi.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 #include "rmi_driver.h"
 #include "rmi_2d_sensor.h"
 

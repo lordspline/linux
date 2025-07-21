@@ -2,11 +2,11 @@
 #ifndef LINUX_CRASH_DUMP_H
 #define LINUX_CRASH_DUMP_H
 
-#include <linux/kexec.h>
-#include <linux/proc_fs.h>
-#include <linux/elf.h>
-#include <linux/pgtable.h>
-#include <uapi/linux/vmcore.h>
+#include <robux/kexec.h>
+#include <robux/proc_fs.h>
+#include <robux/elf.h>
+#include <robux/pgtable.h>
+#include <uapi/robux/vmcore.h>
 
 /* For IS_ENABLED(CONFIG_CRASH_DUMP) */
 #define ELFCORE_ADDR_MAX	(-1ULL)

@@ -14,23 +14,23 @@
  *	Copyright (C) 2004 Texas Instruments
  *	Copyright (C) 2005 Dirk Behme
  */
-#include <linux/types.h>
-#include <linux/hwmon.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/gpio/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/ads7846.h>
-#include <linux/regulator/consumer.h>
-#include <linux/module.h>
-#include <linux/unaligned.h>
+#include <robux/types.h>
+#include <robux/hwmon.h>
+#include <robux/err.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/input.h>
+#include <robux/input/touchscreen.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/pm.h>
+#include <robux/property.h>
+#include <robux/gpio/consumer.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/ads7846.h>
+#include <robux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/unaligned.h>
 
 /*
  * This code has been heavily tested on a Nokia 770, and lightly
@@ -1200,7 +1200,7 @@ static const struct ads7846_platform_data *ads7846_get_props(struct device *dev)
 			     &pdata->gpio_pendown_debounce);
 
 	pdata->wakeup = device_property_read_bool(dev, "wakeup-source") ||
-			device_property_read_bool(dev, "linux,wakeup");
+			device_property_read_bool(dev, "robux,wakeup");
 
 	return pdata;
 }

@@ -18,39 +18,39 @@
  * Author:  Andrew Christian
  *          28 May 2002
  */
-#include <linux/moduleparam.h>
-#include <linux/module.h>
-#include <linux/init.h>
+#include <robux/moduleparam.h>
+#include <robux/module.h>
+#include <robux/init.h>
 
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/hdreg.h>
-#include <linux/kdev_t.h>
-#include <linux/kref.h>
-#include <linux/blkdev.h>
-#include <linux/cdev.h>
-#include <linux/mutex.h>
-#include <linux/scatterlist.h>
-#include <linux/string.h>
-#include <linux/string_helpers.h>
-#include <linux/delay.h>
-#include <linux/capability.h>
-#include <linux/compat.h>
-#include <linux/pm_runtime.h>
-#include <linux/idr.h>
-#include <linux/debugfs.h>
-#include <linux/rpmb.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/hdreg.h>
+#include <robux/kdev_t.h>
+#include <robux/kref.h>
+#include <robux/blkdev.h>
+#include <robux/cdev.h>
+#include <robux/mutex.h>
+#include <robux/scatterlist.h>
+#include <robux/string.h>
+#include <robux/string_helpers.h>
+#include <robux/delay.h>
+#include <robux/capability.h>
+#include <robux/compat.h>
+#include <robux/pm_runtime.h>
+#include <robux/idr.h>
+#include <robux/debugfs.h>
+#include <robux/rpmb.h>
 
-#include <linux/mmc/ioctl.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
+#include <robux/mmc/ioctl.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/sd.h>
 
-#include <linux/uaccess.h>
-#include <linux/unaligned.h>
+#include <robux/uaccess.h>
+#include <robux/unaligned.h>
 
 #include "queue.h"
 #include "block.h"
@@ -1035,7 +1035,7 @@ static int mmc_sd_num_wr_blocks(struct mmc_card *card, u32 *written_blocks)
 		 * Normally, ACMD22 returns the number of written sectors as
 		 * u32. SDUC, however, returns it as u64.  This is not a
 		 * superfluous requirement, because SDUC writes may exceed 2TB.
-		 * For Linux mmc however, the previously write operation could
+		 * For Robux mmc however, the previously write operation could
 		 * not be more than the block layer limits, thus just make room
 		 * for a u64 and cast the response back to u32.
 		 */

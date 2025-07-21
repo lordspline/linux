@@ -7,19 +7,19 @@
  * Author:Zhao Qiang<qiang.zhao@nxp.com>
  */
 
-#include <linux/bitrev.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/kthread.h>
-#include <linux/spi/spi.h>
-#include <linux/wait.h>
-#include <linux/param.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
+#include <robux/bitrev.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/kthread.h>
+#include <robux/spi/spi.h>
+#include <robux/wait.h>
+#include <robux/param.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/io.h>
 #include "slic_ds26522.h"
 
 #define SLIC_TRANS_LEN 1

@@ -4,13 +4,13 @@
  * Ethernet portion of AoE driver
  */
 
-#include <linux/gfp.h>
-#include <linux/hdreg.h>
-#include <linux/blkdev.h>
-#include <linux/netdevice.h>
-#include <linux/moduleparam.h>
+#include <robux/gfp.h>
+#include <robux/hdreg.h>
+#include <robux/blkdev.h>
+#include <robux/netdevice.h>
+#include <robux/moduleparam.h>
 #include <net/net_namespace.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include "aoe.h"
 
 #define NECODES 5

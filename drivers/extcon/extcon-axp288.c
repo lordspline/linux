@@ -7,20 +7,20 @@
  * Author: Ramakrishna Pallala <ramakrishna.pallala@intel.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/notifier.h>
-#include <linux/extcon-provider.h>
-#include <linux/regmap.h>
-#include <linux/mfd/axp20x.h>
-#include <linux/usb/role.h>
-#include <linux/workqueue.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/notifier.h>
+#include <robux/extcon-provider.h>
+#include <robux/regmap.h>
+#include <robux/mfd/axp20x.h>
+#include <robux/usb/role.h>
+#include <robux/workqueue.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>

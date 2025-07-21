@@ -36,10 +36,10 @@
  * on the QLogic_IB 7220 chip.
  */
 
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/firmware.h>
 
 #include "qib.h"
 #include "qib_7220.h"

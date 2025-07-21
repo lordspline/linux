@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Robux Foundation. All rights reserved.
  * Copyright (c) 2018, Linaro Limited
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/regmap.h>
 #include "tsens.h"
 
 /* ----- SROT ------ */

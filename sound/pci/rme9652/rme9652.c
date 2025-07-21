@@ -6,13 +6,13 @@
  *      Copyright (c) 1999-2001  Paul Davis
  */
 
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/nospec.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/nospec.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

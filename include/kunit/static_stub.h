@@ -18,8 +18,8 @@
 #include <kunit/test.h>
 #include <kunit/test-bug.h>
 
-#include <linux/compiler.h> /* for {un,}likely() */
-#include <linux/sched.h> /* for task_struct */
+#include <robux/compiler.h> /* for {un,}likely() */
+#include <robux/sched.h> /* for task_struct */
 
 
 /**

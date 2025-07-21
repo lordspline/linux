@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/*-*-linux-c-*-*/
+/*-*-robux-c-*-*/
 
 /*
   Copyright (C) 2006 Lennart Poettering <mzxreary (at) 0pointer (dot) de>
@@ -29,7 +29,7 @@
  *   hardware is available. (ro)
  *
  * In addition to these platform device attributes the driver
- * registers itself in the Linux backlight control subsystem and is
+ * registers itself in the Robux backlight control subsystem and is
  * available to userspace under /sys/class/backlight/msi-laptop-bl/.
  *
  * This driver might work on other laptops produced by MSI. If you
@@ -40,17 +40,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/backlight.h>
-#include <linux/platform_device.h>
-#include <linux/rfkill.h>
-#include <linux/i8042.h>
-#include <linux/input.h>
-#include <linux/input/sparse-keymap.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/acpi.h>
+#include <robux/dmi.h>
+#include <robux/backlight.h>
+#include <robux/platform_device.h>
+#include <robux/rfkill.h>
+#include <robux/i8042.h>
+#include <robux/input.h>
+#include <robux/input/sparse-keymap.h>
 #include <acpi/video.h>
 
 #define MSI_LCD_LEVEL_MAX 9
@@ -118,7 +118,7 @@ struct quirk_entry {
 	 * disable the original Wlan/Bluetooth control by BIOS when user press
 	 * fn key, then control Wlan/Bluetooth/3G by SCM (software control by
 	 * OS). Without SCM, user cann't on/off 3G module on those 3G netbook.
-	 * On Linux, msi-laptop driver will do the same thing to disable the
+	 * On Robux, msi-laptop driver will do the same thing to disable the
 	 * original BIOS control, then might need use HAL or other userland
 	 * application to do the software control that simulate with SCM.
 	 * e.g. MSI N034 netbook

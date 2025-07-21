@@ -5,8 +5,8 @@
  * Antoine Tenart <antoine.tenart@free-electrons.com>
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/spinlock.h>
+#include <robux/dma-mapping.h>
+#include <robux/spinlock.h>
 
 #include "safexcel.h"
 

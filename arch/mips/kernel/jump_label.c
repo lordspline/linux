@@ -6,12 +6,12 @@
  * Copyright (c) 2010 Cavium Networks, Inc.
  */
 
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/memory.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/cpu.h>
+#include <robux/jump_label.h>
+#include <robux/kernel.h>
+#include <robux/memory.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
+#include <robux/cpu.h>
 
 #include <asm/cacheflush.h>
 #include <asm/inst.h>

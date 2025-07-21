@@ -5,11 +5,11 @@
  * Copyright (C) 2015 Jakub Kicinski <kubakici@wp.pl>
  */
 
-#include <linux/kernel.h>
-#include <linux/firmware.h>
-#include <linux/delay.h>
-#include <linux/usb.h>
-#include <linux/skbuff.h>
+#include <robux/kernel.h>
+#include <robux/firmware.h>
+#include <robux/delay.h>
+#include <robux/usb.h>
+#include <robux/skbuff.h>
 
 #include "mt7601u.h"
 #include "dma.h"

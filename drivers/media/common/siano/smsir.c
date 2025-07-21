@@ -12,8 +12,8 @@
 
 #include "smscoreapi.h"
 
-#include <linux/types.h>
-#include <linux/input.h>
+#include <robux/types.h>
+#include <robux/input.h>
 
 #include "smsir.h"
 #include "sms-cards.h"

@@ -4,7 +4,7 @@
 #ifndef _FBNIC_CSR_H_
 #define _FBNIC_CSR_H_
 
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 
 #define CSR_BIT(nr)		(1u << (nr))
 #define CSR_GENMASK(h, l)	GENMASK(h, l)

@@ -5,10 +5,10 @@
  * Modified from arch/mips/pnx833x/common/prom.c.
  */
 
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/serial_reg.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
+#include <robux/serial_reg.h>
 #include <asm/fw/fw.h>
 
 #include <loongson1.h>

@@ -6,14 +6,14 @@
  * Author: Saravanan Sekar <saravanan@linumiz.com>
  */
 
-#include <linux/bits.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pmbus.h>
+#include <robux/bits.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pmbus.h>
 #include "pmbus.h"
 
 #define MPQ7932_BUCK_UV_MIN		206250

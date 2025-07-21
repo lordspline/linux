@@ -4,12 +4,12 @@
  * Copyright (c) 2009-2013 QLogic Corporation
  */
 
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/io.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
 
 #include "qlcnic.h"
 

@@ -5,11 +5,11 @@
  *
  * ATPX support for both Intel/ATI
  */
-#include <linux/vga_switcheroo.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
+#include <robux/vga_switcheroo.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
 
 #include "radeon_acpi.h"
 

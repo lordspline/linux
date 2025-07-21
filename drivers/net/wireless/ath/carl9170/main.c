@@ -37,10 +37,10 @@
  *    OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/etherdevice.h>
-#include <linux/random.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/etherdevice.h>
+#include <robux/random.h>
 #include <net/mac80211.h>
 #include <net/cfg80211.h>
 #include "hw.h"

@@ -26,13 +26,13 @@
  *                   '------+------------+
  */
 
-#include <linux/err.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/iio/consumer.h>
+#include <robux/iio/iio.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
 
 struct dpot_dac {
 	struct regulator *vref;

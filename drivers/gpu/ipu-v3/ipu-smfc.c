@@ -2,14 +2,14 @@
 /*
  * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
  */
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/errno.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
+#include <robux/export.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/errno.h>
+#include <robux/spinlock.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
 #include <video/imx-ipu-v3.h>
 
 #include "ipu-prv.h"

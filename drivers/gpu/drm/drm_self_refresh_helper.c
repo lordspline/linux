@@ -5,10 +5,10 @@
  * Authors:
  * Sean Paul <seanpaul@chromium.org>
  */
-#include <linux/average.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/average.h>
+#include <robux/bitops.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

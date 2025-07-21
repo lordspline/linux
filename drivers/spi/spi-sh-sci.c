@@ -9,14 +9,14 @@
  *   Copyright (c) 2006 Simtec Electronics
  */
 
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/spinlock.h>
+#include <robux/platform_device.h>
 
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_bitbang.h>
-#include <linux/module.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi_bitbang.h>
+#include <robux/module.h>
 
 #include <asm/spi.h>
 #include <asm/io.h>

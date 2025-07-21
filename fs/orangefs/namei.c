@@ -6,7 +6,7 @@
  */
 
 /*
- *  Linux VFS namei operations.
+ *  Robux VFS namei operations.
  */
 
 #include "protocol.h"

@@ -4,25 +4,25 @@
 #define LINUX_ATMDEV_H
 
 
-#include <linux/wait.h> /* wait_queue_head_t */
-#include <linux/time.h> /* struct timeval */
-#include <linux/net.h>
-#include <linux/bug.h>
-#include <linux/skbuff.h> /* struct sk_buff */
-#include <linux/uio.h>
+#include <robux/wait.h> /* wait_queue_head_t */
+#include <robux/time.h> /* struct timeval */
+#include <robux/net.h>
+#include <robux/bug.h>
+#include <robux/skbuff.h> /* struct sk_buff */
+#include <robux/uio.h>
 #include <net/sock.h>
-#include <linux/atomic.h>
-#include <linux/refcount.h>
-#include <uapi/linux/atmdev.h>
+#include <robux/atomic.h>
+#include <robux/refcount.h>
+#include <uapi/robux/atmdev.h>
 
 #ifdef CONFIG_PROC_FS
-#include <linux/proc_fs.h>
+#include <robux/proc_fs.h>
 
 extern struct proc_dir_entry *atm_proc_root;
 #endif
 
 #ifdef CONFIG_COMPAT
-#include <linux/compat.h>
+#include <robux/compat.h>
 struct compat_atm_iobuf {
 	int length;
 	compat_uptr_t buffer;

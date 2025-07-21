@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later OR MIT
 /*
- * Copyright (c) 2023-2024 TQ-Systems GmbH <linux@ew.tq-group.com>,
+ * Copyright (c) 2023-2024 TQ-Systems GmbH <robux@ew.tq-group.com>,
  * D-82229 Seefeld, Germany.
  * Author: Martin Schmiedel
  * Author: Alexander Stein
@@ -130,12 +130,12 @@
 		ranges;
 
 		/* global autoconfigured region for contiguous allocations */
-		linux,cma {
+		robux,cma {
 			compatible = "shared-dma-pool";
 			reusable;
 			size = <0 0x38000000>;
 			alloc-ranges = <0 0x40000000 0 0xB0000000>;
-			linux,cma-default;
+			robux,cma-default;
 		};
 	};
 

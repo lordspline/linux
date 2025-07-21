@@ -10,19 +10,19 @@
  * that driver see drivers/spi/mpc52xx_psc_spi.c
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/of_platform.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/of_platform.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/spi/spi.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
 
 #include <asm/time.h>
 #include <asm/mpc52xx.h>

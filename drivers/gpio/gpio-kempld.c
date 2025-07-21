@@ -6,14 +6,14 @@
  * Author: Michael Brunner <michael.brunner@kontron.com>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/platform_device.h>
-#include <linux/gpio/driver.h>
-#include <linux/mfd/kempld.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/bitops.h>
+#include <robux/errno.h>
+#include <robux/platform_device.h>
+#include <robux/gpio/driver.h>
+#include <robux/mfd/kempld.h>
 
 #define KEMPLD_GPIO_MAX_NUM		16
 #define KEMPLD_GPIO_MASK(x)		(BIT((x) % 8))

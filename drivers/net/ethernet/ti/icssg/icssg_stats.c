@@ -7,7 +7,7 @@
 
 #include "icssg_prueth.h"
 #include "icssg_stats.h"
-#include <linux/regmap.h>
+#include <robux/regmap.h>
 
 #define ICSSG_TX_PACKET_OFFSET	0xA0
 #define ICSSG_TX_BYTE_OFFSET	0xEC

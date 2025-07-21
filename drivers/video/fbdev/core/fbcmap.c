@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/fbcmap.c -- Colormap handling for frame buffer devices
+ *  robux/drivers/video/fbcmap.c -- Colormap handling for frame buffer devices
  *
  *	Created 15 Jun 1997 by Geert Uytterhoeven
  *
@@ -11,11 +11,11 @@
  *  more details.
  */
 
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/fb.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/string.h>
+#include <robux/module.h>
+#include <robux/fb.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 
 static u16 red2[] __read_mostly = {
     0x0000, 0xaaaa

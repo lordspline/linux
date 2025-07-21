@@ -5,8 +5,8 @@
  * Tests for KVM paravirtual feature disablement
  */
 #include <asm/kvm_para.h>
-#include <linux/kvm_para.h>
-#include <linux/stringify.h>
+#include <robux/kvm_para.h>
+#include <robux/stringify.h>
 #include <stdint.h>
 
 #include "kvm_test_harness.h"

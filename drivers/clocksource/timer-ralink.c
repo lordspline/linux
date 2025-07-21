@@ -5,15 +5,15 @@
  * Copyright (C) 2013 by John Crispin <john@phrozen.org>
  */
 
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/interrupt.h>
-#include <linux/reset.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_address.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/interrupt.h>
+#include <robux/reset.h>
+#include <robux/init.h>
+#include <robux/time.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_address.h>
 
 #define SYSTICK_FREQ		(50 * 1000)
 

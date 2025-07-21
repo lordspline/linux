@@ -9,10 +9,10 @@
  * Author: Andi Kleen
  */
 
-#include <linux/miscdevice.h>
-#include <linux/slab.h>
-#include <linux/kmod.h>
-#include <linux/poll.h>
+#include <robux/miscdevice.h>
+#include <robux/slab.h>
+#include <robux/kmod.h>
+#include <robux/poll.h>
 
 #include "internal.h"
 

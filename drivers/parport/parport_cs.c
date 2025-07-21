@@ -34,19 +34,19 @@
     
 ======================================================================*/
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/ioport.h>
-#include <linux/major.h>
-#include <linux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/ptrace.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/ioport.h>
+#include <robux/major.h>
+#include <robux/interrupt.h>
 
-#include <linux/parport.h>
-#include <linux/parport_pc.h>
+#include <robux/parport.h>
+#include <robux/parport_pc.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>

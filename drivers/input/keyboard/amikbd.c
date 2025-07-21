@@ -7,16 +7,16 @@
  */
 
 /*
- * Amiga keyboard driver for Linux/m68k
+ * Amiga keyboard driver for Robux/m68k
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/keyboard.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/keyboard.h>
+#include <robux/platform_device.h>
 
 #include <asm/amigaints.h>
 #include <asm/amigahw.h>

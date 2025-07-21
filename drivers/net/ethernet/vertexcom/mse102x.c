@@ -6,21 +6,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/if_vlan.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/cache.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/string_choices.h>
+#include <robux/if_vlan.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/cache.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/string_choices.h>
 
-#include <linux/spi/spi.h>
-#include <linux/of_net.h>
+#include <robux/spi/spi.h>
+#include <robux/of_net.h>
 
 #define MSG_DEFAULT	(NETIF_MSG_DRV | NETIF_MSG_PROBE | NETIF_MSG_LINK | \
 			 NETIF_MSG_TIMER)

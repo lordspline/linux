@@ -7,8 +7,8 @@
  *
  */
 
-#include <linux/phy.h>
-#include <linux/regmap.h>
+#include <robux/phy.h>
+#include <robux/regmap.h>
 
 #include "mtk_eth_soc.h"
 

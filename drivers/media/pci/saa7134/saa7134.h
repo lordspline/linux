@@ -10,15 +10,15 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/pci.h>
-#include <linux/i2c.h>
-#include <linux/videodev2.h>
-#include <linux/kdev_t.h>
-#include <linux/input.h>
-#include <linux/notifier.h>
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/pm_qos.h>
+#include <robux/pci.h>
+#include <robux/i2c.h>
+#include <robux/videodev2.h>
+#include <robux/kdev_t.h>
+#include <robux/input.h>
+#include <robux/notifier.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/pm_qos.h>
 
 #include <asm/io.h>
 

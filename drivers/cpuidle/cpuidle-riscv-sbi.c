@@ -8,19 +8,19 @@
 
 #define pr_fmt(fmt) "cpuidle-riscv-sbi: " fmt
 
-#include <linux/cleanup.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpuidle.h>
-#include <linux/cpumask.h>
-#include <linux/cpu_pm.h>
-#include <linux/cpu_cooling.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
+#include <robux/cleanup.h>
+#include <robux/cpuhotplug.h>
+#include <robux/cpuidle.h>
+#include <robux/cpumask.h>
+#include <robux/cpu_pm.h>
+#include <robux/cpu_cooling.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
 #include <asm/cpuidle.h>
 #include <asm/sbi.h>
 #include <asm/smp.h>

@@ -10,18 +10,18 @@
  * Copyright (c) Broadcom Corp, 2012
  */
 
-#include <linux/bcma/bcma.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/iopoll.h>
-#include <linux/mdio.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/bcma/bcma.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/iopoll.h>
+#include <robux/mdio.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/phy/phy.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
 #define BCM_NS_USB3_PHY_BASE_ADDR_REG	0x1f
 #define BCM_NS_USB3_PHY_PLL30_BLOCK	0x8000

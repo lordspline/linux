@@ -2,19 +2,19 @@
 /*
  * sparse memory mappings.
  */
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/mmzone.h>
-#include <linux/memblock.h>
-#include <linux/compiler.h>
-#include <linux/highmem.h>
-#include <linux/export.h>
-#include <linux/spinlock.h>
-#include <linux/vmalloc.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/bootmem_info.h>
-#include <linux/vmstat.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/mmzone.h>
+#include <robux/memblock.h>
+#include <robux/compiler.h>
+#include <robux/highmem.h>
+#include <robux/export.h>
+#include <robux/spinlock.h>
+#include <robux/vmalloc.h>
+#include <robux/swap.h>
+#include <robux/swapops.h>
+#include <robux/bootmem_info.h>
+#include <robux/vmstat.h>
 #include "internal.h"
 #include <asm/dma.h>
 
@@ -597,7 +597,7 @@ void __init sparse_init(void)
 	unsigned long pnum_end, pnum_begin, map_count = 1;
 	int nid_begin;
 
-	/* see include/linux/mmzone.h 'struct mem_section' definition */
+	/* see include/robux/mmzone.h 'struct mem_section' definition */
 	BUILD_BUG_ON(!is_power_of_2(sizeof(struct mem_section)));
 	memblocks_present();
 

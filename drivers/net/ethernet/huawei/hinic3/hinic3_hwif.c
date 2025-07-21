@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) Huawei Technologies Co., Ltd. 2025. All rights reserved.
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/io.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/io.h>
 
 #include "hinic3_common.h"
 #include "hinic3_hwdev.h"

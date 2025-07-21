@@ -14,19 +14,19 @@
  * more details.
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/pm_runtime.h>
-#include <linux/acpi.h>
-#include <linux/of.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/pm_runtime.h>
+#include <robux/acpi.h>
+#include <robux/of.h>
 #include "cyapa.h"
 
 

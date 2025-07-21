@@ -2,26 +2,26 @@
 /*
  *Copyright (C) 2011 LAPIS Semiconductor Co., Ltd.
  */
-#include <linux/kernel.h>
-#include <linux/serial.h>
-#include <linux/serial_reg.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/console.h>
-#include <linux/serial_core.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/dmi.h>
-#include <linux/nmi.h>
-#include <linux/delay.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/serial.h>
+#include <robux/serial_reg.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/console.h>
+#include <robux/serial_core.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/dmi.h>
+#include <robux/nmi.h>
+#include <robux/delay.h>
+#include <robux/of.h>
 
-#include <linux/debugfs.h>
-#include <linux/dmaengine.h>
-#include <linux/pch_dma.h>
+#include <robux/debugfs.h>
+#include <robux/dmaengine.h>
+#include <robux/pch_dma.h>
 
 enum {
 	PCH_UART_HANDLED_RX_INT_SHIFT,

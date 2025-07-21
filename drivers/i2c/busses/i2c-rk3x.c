@@ -6,23 +6,23 @@
  * based on the patches by Rockchip Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/spinlock.h>
-#include <linux/clk.h>
-#include <linux/wait.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/math64.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/wait.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/math64.h>
 
 
 /* Register Map */

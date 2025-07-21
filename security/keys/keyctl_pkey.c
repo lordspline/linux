@@ -5,12 +5,12 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/key.h>
-#include <linux/keyctl.h>
-#include <linux/parser.h>
-#include <linux/uaccess.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/key.h>
+#include <robux/keyctl.h>
+#include <robux/parser.h>
+#include <robux/uaccess.h>
 #include <keys/user-type.h>
 #include "internal.h"
 

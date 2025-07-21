@@ -4,11 +4,11 @@
  * Copyright (c) 2022 Fujitsu Ltd.
  */
 
-#include <linux/acpi.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/acpi.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #define A64FX_DIAG_IRQ 1
 #define BMC_DIAG_INTERRUPT_ENABLE 0x40

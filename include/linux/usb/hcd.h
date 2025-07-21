@@ -8,9 +8,9 @@
 
 #ifdef __KERNEL__
 
-#include <linux/rwsem.h>
-#include <linux/interrupt.h>
-#include <linux/idr.h>
+#include <robux/rwsem.h>
+#include <robux/interrupt.h>
+#include <robux/idr.h>
 
 #define MAX_TOPO_LEVEL		6
 
@@ -557,7 +557,7 @@ extern void usb_destroy_configuration(struct usb_device *dev);
  * HCD Root Hub support
  */
 
-#include <linux/usb/ch11.h>
+#include <robux/usb/ch11.h>
 
 /*
  * As of USB 2.0, full/low speed devices are segregated into trees.

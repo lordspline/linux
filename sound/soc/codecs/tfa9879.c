@@ -5,10 +5,10 @@
 // Copyright (C) 2014 Axentia Technologies AB
 // Author: Peter Rosin <peda@axentia.se>
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
 #include <sound/soc.h>
 #include <sound/tlv.h>
 #include <sound/pcm_params.h>

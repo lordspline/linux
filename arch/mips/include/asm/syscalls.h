@@ -2,8 +2,8 @@
 #ifndef _ASM_MIPS_SYSCALLS_H
 #define _ASM_MIPS_SYSCALLS_H
 
-#include <linux/linkage.h>
-#include <linux/compat.h>
+#include <robux/linkage.h>
+#include <robux/compat.h>
 
 asmlinkage void sys_sigreturn(void);
 asmlinkage void sys_rt_sigreturn(void);

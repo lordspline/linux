@@ -10,21 +10,21 @@
  *
  * Copyright 2001 - 2006 Tensilica Inc.
  */
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/errno.h>
-#include <linux/reboot.h>
-#include <linux/kdev_t.h>
-#include <linux/types.h>
-#include <linux/major.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/clk-provider.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/errno.h>
+#include <robux/reboot.h>
+#include <robux/kdev_t.h>
+#include <robux/types.h>
+#include <robux/major.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/clk-provider.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
 
 #include <asm/timex.h>
 #include <asm/processor.h>
@@ -150,10 +150,10 @@ arch_initcall(machine_setup);
 
 #else
 
-#include <linux/serial_8250.h>
-#include <linux/if.h>
+#include <robux/serial_8250.h>
+#include <robux/if.h>
 #include <net/ethoc.h>
-#include <linux/usb/c67x00.h>
+#include <robux/usb/c67x00.h>
 
 /*----------------------------------------------------------------------------
  *  Ethernet -- OpenCores Ethernet MAC (ethoc driver)

@@ -7,9 +7,9 @@
 #ifndef __LINUX_PSCI_H
 #define __LINUX_PSCI_H
 
-#include <linux/arm-smccc.h>
-#include <linux/init.h>
-#include <linux/types.h>
+#include <robux/arm-smccc.h>
+#include <robux/init.h>
+#include <robux/types.h>
 
 #define PSCI_POWER_STATE_TYPE_STANDBY		0
 #define PSCI_POWER_STATE_TYPE_POWER_DOWN	1

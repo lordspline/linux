@@ -4,19 +4,19 @@
  * Copyright (c) 2023 Maksim Kiselev <bigunclemax@gmail.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/reset.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/reset.h>
 
-#include <linux/iio/adc-helpers.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/adc-helpers.h>
+#include <robux/iio/iio.h>
 
 #define SUN20I_GPADC_DRIVER_NAME	"sun20i-gpadc"
 

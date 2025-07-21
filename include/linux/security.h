@@ -1,5 +1,5 @@
 /*
- * Linux Security plug
+ * Robux Security plug
  *
  * Copyright (C) 2001 WireX Communications, Inc <chris@wirex.com>
  * Copyright (C) 2001 Greg Kroah-Hartman <greg@kroah.com>
@@ -23,21 +23,21 @@
 #ifndef __LINUX_SECURITY_H
 #define __LINUX_SECURITY_H
 
-#include <linux/kernel_read_file.h>
-#include <linux/key.h>
-#include <linux/capability.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/sockptr.h>
-#include <linux/bpf.h>
-#include <uapi/linux/lsm.h>
-#include <linux/lsm/selinux.h>
-#include <linux/lsm/smack.h>
-#include <linux/lsm/apparmor.h>
-#include <linux/lsm/bpf.h>
+#include <robux/kernel_read_file.h>
+#include <robux/key.h>
+#include <robux/capability.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/sockptr.h>
+#include <robux/bpf.h>
+#include <uapi/robux/lsm.h>
+#include <robux/lsm/selinux.h>
+#include <robux/lsm/smack.h>
+#include <robux/lsm/apparmor.h>
+#include <robux/lsm/bpf.h>
 
 struct linux_binprm;
 struct cred;

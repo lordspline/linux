@@ -5,14 +5,14 @@
  *  Copyright (c) 2011 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/pcm.h>

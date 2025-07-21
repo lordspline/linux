@@ -2,8 +2,8 @@
 #include <inttypes.h>
 #include <pthread.h>
 #include <stdio.h>
-#include "../../../../../include/linux/compiler.h"
-#include "../../../../../include/linux/kernel.h"
+#include "../../../../../include/robux/compiler.h"
+#include "../../../../../include/robux/kernel.h"
 #include "aolib.h"
 
 struct netstat_counter {

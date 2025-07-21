@@ -10,8 +10,8 @@
 #ifndef _ASM_S390_TIMEX_H
 #define _ASM_S390_TIMEX_H
 
-#include <linux/preempt.h>
-#include <linux/time64.h>
+#include <robux/preempt.h>
+#include <robux/time64.h>
 #include <asm/lowcore.h>
 #include <asm/machine.h>
 #include <asm/asm.h>

@@ -3,12 +3,12 @@
 #define _POWERPC_RTAS_H
 #ifdef __KERNEL__
 
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
 #include <asm/page.h>
 #include <asm/rtas-types.h>
-#include <linux/time.h>
-#include <linux/cpumask.h>
+#include <robux/time.h>
+#include <robux/cpumask.h>
 
 /*
  * Definitions for talking to the RTAS on CHRP machines.

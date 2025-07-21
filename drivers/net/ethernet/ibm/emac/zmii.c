@@ -16,12 +16,12 @@
  *      Armin Kuster <akuster@mvista.com>
  * 	Copyright 2001 MontaVista Softare Inc.
  */
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/ethtool.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/ethtool.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
 #include <asm/io.h>
 
 #include "emac.h"

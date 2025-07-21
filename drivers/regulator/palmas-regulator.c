@@ -8,18 +8,18 @@
  * Author: Ian Lartey <ian@slimlogic.co.uk>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
-#include <linux/mfd/palmas.h>
-#include <linux/of.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/slab.h>
+#include <robux/regmap.h>
+#include <robux/mfd/palmas.h>
+#include <robux/of.h>
+#include <robux/regulator/of_regulator.h>
 
 static const struct linear_range smps_low_ranges[] = {
 	REGULATOR_LINEAR_RANGE(0, 0x0, 0x0, 0),

@@ -5,22 +5,22 @@
  * Copyright (c) 2024-2025 Nuvoton Technology corporation.
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/delay.h>
-#include <linux/dev_printk.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/time.h>
-#include <linux/types.h>
-#include <linux/unaligned.h>
+#include <robux/array_size.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/delay.h>
+#include <robux/dev_printk.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/time.h>
+#include <robux/types.h>
+#include <robux/unaligned.h>
 
-#include <linux/iio/events.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/events.h>
+#include <robux/iio/iio.h>
 
 #define NCT7201_REG_INTERRUPT_STATUS			0x0C
 #define NCT7201_REG_VOLT_LOW_BYTE			0x0F

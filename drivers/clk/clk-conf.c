@@ -4,13 +4,13 @@
  * Sylwester Nawrocki <s.nawrocki@samsung.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clk/clk-conf.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/clk/clk-conf.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
 
 static int __set_clk_parents(struct device_node *node, bool clk_supplier)
 {

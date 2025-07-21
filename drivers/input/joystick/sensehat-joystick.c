@@ -7,16 +7,16 @@
  * Copyright (C) 2021 Charles Mirabile, Mwesigwa Guma, Joel Savitz
  *
  * Original Author: Serge Schneider
- * Revised for upstream Linux by: Charles Mirabile, Mwesigwa Guma, Joel Savitz
+ * Revised for upstream Robux by: Charles Mirabile, Mwesigwa Guma, Joel Savitz
  */
 
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/property.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/property.h>
 
 #define JOYSTICK_SMB_REG 0xf2
 

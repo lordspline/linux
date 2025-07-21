@@ -9,9 +9,9 @@
 #ifndef SMCD_ISM_H
 #define SMCD_ISM_H
 
-#include <linux/uio.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
+#include <robux/uio.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
 
 #include "smc.h"
 

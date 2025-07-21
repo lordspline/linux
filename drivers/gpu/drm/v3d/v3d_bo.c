@@ -15,9 +15,9 @@
  * driver) for an example of how to integrate with V3D.
  */
 
-#include <linux/dma-buf.h>
-#include <linux/pfn_t.h>
-#include <linux/vmalloc.h>
+#include <robux/dma-buf.h>
+#include <robux/pfn_t.h>
+#include <robux/vmalloc.h>
 
 #include "v3d_drv.h"
 #include "uapi/drm/v3d_drm.h"

@@ -10,18 +10,18 @@
  * Copyright (C) 2015 Cogent Embedded, Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/fwnode.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/fwnode.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/machine.h>
+#include <robux/i2c.h>
+#include <robux/i2c-mux.h>
+#include <robux/module.h>
+#include <robux/of_graph.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
 #include <media/v4l2-async.h>
 #include <media/v4l2-ctrls.h>

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 //
-// originally in linux/arch/arm/plat-s3c24xx/pm.c
+// originally in robux/arch/arm/plat-s3c24xx/pm.c
 //
 // Copyright (c) 2004-2008 Simtec Electronics
 //	http://armlinux.simtec.co.uk
@@ -8,14 +8,14 @@
 //
 // S3C Power Mangament - suspend/resume memory corruption check.
 
-#include <linux/kernel.h>
-#include <linux/suspend.h>
-#include <linux/init.h>
-#include <linux/crc32.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/suspend.h>
+#include <robux/init.h>
+#include <robux/crc32.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
 
-#include <linux/soc/samsung/s3c-pm.h>
+#include <robux/soc/samsung/s3c-pm.h>
 
 #if CONFIG_SAMSUNG_PM_CHECK_CHUNKSIZE < 1
 #error CONFIG_SAMSUNG_PM_CHECK_CHUNKSIZE must be a positive non-zero value

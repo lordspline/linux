@@ -3,7 +3,7 @@
 #
 # Test the "inc" interpreter.
 #
-# See include/uapi/linux/securebits.h, include/uapi/linux/fcntl.h and
+# See include/uapi/robux/securebits.h, include/uapi/robux/fcntl.h and
 # samples/check-exec/inc.c
 #
 # Copyright © 2024 Microsoft Corporation

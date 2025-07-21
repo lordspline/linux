@@ -8,21 +8,21 @@
  *  IRQ and DMA support written by Timo Teras
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/onenand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/of.h>
-#include <linux/omap-gpmc.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/gpio/consumer.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/onenand.h>
+#include <robux/mtd/partitions.h>
+#include <robux/of.h>
+#include <robux/omap-gpmc.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/gpio/consumer.h>
 
 #include <asm/mach/flash.h>
 

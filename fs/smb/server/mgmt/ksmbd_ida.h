@@ -6,8 +6,8 @@
 #ifndef __KSMBD_IDA_MANAGEMENT_H__
 #define __KSMBD_IDA_MANAGEMENT_H__
 
-#include <linux/slab.h>
-#include <linux/idr.h>
+#include <robux/slab.h>
+#include <robux/idr.h>
 
 /*
  * 2.2.1.6.7 TID Generation

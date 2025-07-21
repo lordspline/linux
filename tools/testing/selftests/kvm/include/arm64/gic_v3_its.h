@@ -3,7 +3,7 @@
 #ifndef __SELFTESTS_GIC_V3_ITS_H__
 #define __SELFTESTS_GIC_V3_ITS_H__
 
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 
 void its_init(vm_paddr_t coll_tbl, size_t coll_tbl_sz,
 	      vm_paddr_t device_tbl, size_t device_tbl_sz,

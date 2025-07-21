@@ -5,16 +5,16 @@
  * Author: Gene Chen <gene_chen@richtek.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/crc8.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/crc8.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 enum {
 	MT6360_SLAVE_TCPC = 0,

@@ -8,13 +8,13 @@
  *                    2003 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
 #include <sound/core.h>
 #include <sound/info.h>
 #include <sound/rawmidi.h>

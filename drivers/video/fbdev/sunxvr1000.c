@@ -5,11 +5,11 @@
  * Copyright (C) 2010 David S. Miller (davem@davemloft.net)
  */
 
-#include <linux/kernel.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 struct gfb_info {
 	struct fb_info		*info;

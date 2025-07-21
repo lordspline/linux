@@ -4,10 +4,10 @@
 #ifndef IPU6_BUTTRESS_H
 #define IPU6_BUTTRESS_H
 
-#include <linux/completion.h>
-#include <linux/irqreturn.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
+#include <robux/completion.h>
+#include <robux/irqreturn.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
 
 struct device;
 struct firmware;

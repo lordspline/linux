@@ -9,9 +9,9 @@
 #ifndef _MVPP2_PRS_H_
 #define _MVPP2_PRS_H_
 
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/platform_device.h>
 
 #include "mvpp2.h"
 

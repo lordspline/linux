@@ -8,7 +8,7 @@
  * Author: Yazen Ghannam <Yazen.Ghannam@amd.com>
  */
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 #include <asm/amd/node.h>
 
 /*

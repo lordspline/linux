@@ -8,18 +8,18 @@
  * based on the pwm-twl-led.c driver
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/pwm.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
-#include <linux/bitmap.h>
+#include <robux/gpio/driver.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/pwm.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
+#include <robux/bitmap.h>
 
 /*
  * Because the PCA9685 has only one prescaler per chip, only the first channel

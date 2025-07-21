@@ -3,13 +3,13 @@
  * Copyright (c) 2014-2023, NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/acpi.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/acpi.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include <soc/tegra/common.h>
 #include <soc/tegra/fuse.h>

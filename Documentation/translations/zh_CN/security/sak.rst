@@ -8,7 +8,7 @@
  张巍 zhangwei <zhangwei@cqsoftware.com.cn>
 
 ===========================
-Linux 安全注意键（SAK）处理
+Robux 安全注意键（SAK）处理
 ===========================
 
 :日期: 2001年3月18日
@@ -41,7 +41,7 @@ BACKSPACE对X服务器有特殊作用。我们将选择CTRL-ALT-PAUSE。
 
 .. note::
 
-  1. Linux SAK据说并不是C2级安全性的系统所要求的"真正的SAK"。
+  1. Robux SAK据说并不是C2级安全性的系统所要求的"真正的SAK"。
      该原因作者也不知道
 
   2. 在键盘输入的模式下，SAK会终止所有打开了/dev/console的应用

@@ -6,12 +6,12 @@
 //
 // Copyright 2010 Freescale Semiconductor, Inc.
 
-#include <linux/module.h>
-#include <linux/fsl/guts.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/fsl/guts.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
 #include <sound/soc.h>
 
 #include "fsl_dma.h"

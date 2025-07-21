@@ -4,10 +4,10 @@
  *
  * Copyright (C) 2020-2025 Linaro Ltd.
  */
-#include <linux/completion.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
+#include <robux/completion.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
 
 #include "camss.h"
 #include "camss-csid.h"

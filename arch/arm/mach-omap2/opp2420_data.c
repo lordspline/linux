@@ -29,7 +29,7 @@
  *     http://repository.maemo.org/pool/diablo/free/k/kernel-source-diablo/
  */
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 #include "opp2xxx.h"
 #include "sdrc.h"

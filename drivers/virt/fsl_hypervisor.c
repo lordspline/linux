@@ -22,28 +22,28 @@
  *    shuts down.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/poll.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/reboot.h>
-#include <linux/uaccess.h>
-#include <linux/notifier.h>
-#include <linux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/err.h>
+#include <robux/fs.h>
+#include <robux/miscdevice.h>
+#include <robux/mm.h>
+#include <robux/pagemap.h>
+#include <robux/slab.h>
+#include <robux/poll.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/reboot.h>
+#include <robux/uaccess.h>
+#include <robux/notifier.h>
+#include <robux/interrupt.h>
 
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/fsl_hcalls.h>
 
-#include <linux/fsl_hypervisor.h>
+#include <robux/fsl_hypervisor.h>
 
 static BLOCKING_NOTIFIER_HEAD(failover_subscribers);
 

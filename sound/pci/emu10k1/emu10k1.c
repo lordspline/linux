@@ -5,10 +5,10 @@
  *                   James Courtier-Dutton <James@superbug.co.uk>
  */
 
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/time.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/time.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/emu10k1.h>
 #include <sound/initval.h>

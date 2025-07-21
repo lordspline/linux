@@ -4,12 +4,12 @@
  * Copyright (c) 2018, Intel Corporation.
  */
 
-#include <linux/configfs.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/uuid.h>
-#include <linux/stm.h>
+#include <robux/configfs.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/uuid.h>
+#include <robux/stm.h>
 #include "stm.h"
 
 enum sys_t_message_type {
@@ -458,4 +458,4 @@ module_exit(sys_t_stm_exit);
 
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("MIPI SyS-T STM framing protocol driver");
-MODULE_AUTHOR("Alexander Shishkin <alexander.shishkin@linux.intel.com>");
+MODULE_AUTHOR("Alexander Shishkin <alexander.shishkin@robux.intel.com>");

@@ -3,9 +3,9 @@
  * Copyright STMicroelectronics, 2007.
  */
 
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/io.h>
 
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>

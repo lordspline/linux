@@ -13,13 +13,13 @@
 #define KMSG_COMPONENT "tape"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/proc_fs.h>
-#include <linux/mtio.h>
-#include <linux/compat.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/proc_fs.h>
+#include <robux/mtio.h>
+#include <robux/compat.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #define TAPE_DBF_AREA	tape_core_dbf
 

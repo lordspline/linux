@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Implementation of the diskquota system for the LINUX operating system. QUOTA
+ * Implementation of the diskquota system for the ROBUX operating system. QUOTA
  * is implemented using the BSD system call interface as the means of
  * communication with the user level. This file contains the generic routines
  * called by the different filesystems on allocation of an inode or block.
  * These routines take care of the administration needed to have a consistent
  * diskquota tracking system. The ideas of both user and group quotas are based
  * on the Melbourne quota system as used on BSD derived systems. The internal
- * implementation is based on one of the several variants of the LINUX
+ * implementation is based on one of the several variants of the ROBUX
  * inode-subsystem with added complexity of the diskquota system.
  *
  * Author:	Marco van Wieringen <mvw@planets.elm.net>
@@ -54,34 +54,34 @@
  * (C) Copyright 1994 - 1997 Marco van Wieringen
  */
 
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/mount.h>
-#include <linux/mm.h>
-#include <linux/time.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/fcntl.h>
-#include <linux/stat.h>
-#include <linux/tty.h>
-#include <linux/file.h>
-#include <linux/slab.h>
-#include <linux/sysctl.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/security.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/kmod.h>
-#include <linux/namei.h>
-#include <linux/capability.h>
-#include <linux/quotaops.h>
-#include <linux/blkdev.h>
-#include <linux/sched/mm.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/mount.h>
+#include <robux/mm.h>
+#include <robux/time.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/fcntl.h>
+#include <robux/stat.h>
+#include <robux/tty.h>
+#include <robux/file.h>
+#include <robux/slab.h>
+#include <robux/sysctl.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/proc_fs.h>
+#include <robux/security.h>
+#include <robux/sched.h>
+#include <robux/cred.h>
+#include <robux/kmod.h>
+#include <robux/namei.h>
+#include <robux/capability.h>
+#include <robux/quotaops.h>
+#include <robux/blkdev.h>
+#include <robux/sched/mm.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 /*
  * There are five quota SMP locks:

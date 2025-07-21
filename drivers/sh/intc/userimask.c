@@ -9,12 +9,12 @@
  */
 #define pr_fmt(fmt) "intc: " fmt
 
-#include <linux/errno.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/stat.h>
-#include <linux/sizes.h>
+#include <robux/errno.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/stat.h>
+#include <robux/sizes.h>
 #include "internals.h"
 
 static void __iomem *uimask;

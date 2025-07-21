@@ -31,7 +31,7 @@
 
 		button-maskrom {
 			label = "Mask Rom";
-			linux,code = <KEY_SETUP>;
+			robux,code = <KEY_SETUP>;
 			press-threshold-microvolt = <2000>;
 		};
 	};
@@ -46,7 +46,7 @@
 
 		button-recovery {
 			label = "Recovery";
-			linux,code = <KEY_VENDOR>;
+			robux,code = <KEY_VENDOR>;
 			press-threshold-microvolt = <2000>;
 		};
 	};
@@ -86,7 +86,7 @@
 		led_blue_pwm: led-1 {
 			color = <LED_COLOR_ID_BLUE>;
 			function = LED_FUNCTION_STATUS;
-			linux,default-trigger = "heartbeat";
+			robux,default-trigger = "heartbeat";
 			max-brightness = <255>;
 			status = "disabled";
 		};

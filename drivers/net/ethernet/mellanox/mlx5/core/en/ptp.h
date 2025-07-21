@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB */
 /* Copyright (c) 2020 Mellanox Technologies. */
 
 #ifndef __MLX5_EN_PTP_H__
@@ -7,10 +7,10 @@
 #include "en.h"
 #include "en_stats.h"
 #include "en/txrx.h"
-#include <linux/ktime.h>
-#include <linux/ptp_classify.h>
-#include <linux/time64.h>
-#include <linux/workqueue.h>
+#include <robux/ktime.h>
+#include <robux/ptp_classify.h>
+#include <robux/time64.h>
+#include <robux/workqueue.h>
 
 #define MLX5E_PTP_CHANNEL_IX 0
 #define MLX5E_PTP_MAX_LOG_SQ_SIZE (8U)

@@ -6,32 +6,32 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/acpi.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/stddef.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/initrd.h>
-#include <linux/console.h>
-#include <linux/cache.h>
-#include <linux/screen_info.h>
-#include <linux/init.h>
-#include <linux/kexec.h>
-#include <linux/root_dev.h>
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/smp.h>
-#include <linux/fs.h>
-#include <linux/panic_notifier.h>
-#include <linux/proc_fs.h>
-#include <linux/memblock.h>
-#include <linux/of_fdt.h>
-#include <linux/efi.h>
-#include <linux/psci.h>
-#include <linux/sched/task.h>
-#include <linux/scs.h>
-#include <linux/mm.h>
+#include <robux/acpi.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/stddef.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/initrd.h>
+#include <robux/console.h>
+#include <robux/cache.h>
+#include <robux/screen_info.h>
+#include <robux/init.h>
+#include <robux/kexec.h>
+#include <robux/root_dev.h>
+#include <robux/cpu.h>
+#include <robux/interrupt.h>
+#include <robux/smp.h>
+#include <robux/fs.h>
+#include <robux/panic_notifier.h>
+#include <robux/proc_fs.h>
+#include <robux/memblock.h>
+#include <robux/of_fdt.h>
+#include <robux/efi.h>
+#include <robux/psci.h>
+#include <robux/sched/task.h>
+#include <robux/scs.h>
+#include <robux/mm.h>
 
 #include <asm/acpi.h>
 #include <asm/fixmap.h>
@@ -92,7 +92,7 @@ void __init smp_setup_processor_id(void)
 	u64 mpidr = read_cpuid_mpidr() & MPIDR_HWID_BITMASK;
 	set_cpu_logical_map(0, mpidr);
 
-	pr_info("Booting Linux on physical CPU 0x%010lx [0x%08x]\n",
+	pr_info("Booting Robux on physical CPU 0x%010lx [0x%08x]\n",
 		(unsigned long)mpidr, read_cpuid_id());
 }
 

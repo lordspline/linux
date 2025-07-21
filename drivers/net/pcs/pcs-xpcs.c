@@ -6,13 +6,13 @@
  * Author: Jose Abreu <Jose.Abreu@synopsys.com>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/pcs/pcs-xpcs.h>
-#include <linux/mdio.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/property.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/pcs/pcs-xpcs.h>
+#include <robux/mdio.h>
+#include <robux/phy.h>
+#include <robux/phylink.h>
+#include <robux/property.h>
 
 #include "pcs-xpcs.h"
 

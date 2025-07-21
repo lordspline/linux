@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB */
+/* SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB */
 /*
  * Copyright (c) 2010 Intel Corporation.  All rights reserved.
  */
@@ -6,11 +6,11 @@
 #ifndef _RDMA_IB_H
 #define _RDMA_IB_H
 
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/uaccess.h>
-#include <linux/fs.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/cred.h>
+#include <robux/uaccess.h>
+#include <robux/fs.h>
 
 struct ib_addr {
 	union {

@@ -16,23 +16,23 @@
  *  more details.
  */
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/vmalloc.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/pci.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #if defined(CONFIG_PPC_PMAC)
-#include <linux/nvram.h>
+#include <robux/nvram.h>
 #include "macmodes.h"
 #endif
 

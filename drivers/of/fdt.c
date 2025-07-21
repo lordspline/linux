@@ -8,24 +8,24 @@
 
 #define pr_fmt(fmt)	"OF: fdt: " fmt
 
-#include <linux/crash_dump.h>
-#include <linux/crc32.h>
-#include <linux/kernel.h>
-#include <linux/initrd.h>
-#include <linux/memblock.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/sizes.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/libfdt.h>
-#include <linux/debugfs.h>
-#include <linux/serial_core.h>
-#include <linux/sysfs.h>
-#include <linux/random.h>
-#include <linux/kexec_handover.h>
+#include <robux/crash_dump.h>
+#include <robux/crc32.h>
+#include <robux/kernel.h>
+#include <robux/initrd.h>
+#include <robux/memblock.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
+#include <robux/sizes.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/libfdt.h>
+#include <robux/debugfs.h>
+#include <robux/serial_core.h>
+#include <robux/sysfs.h>
+#include <robux/random.h>
+#include <robux/kexec_handover.h>
 
 #include <asm/setup.h>  /* for COMMAND_LINE_SIZE */
 #include <asm/page.h>
@@ -131,12 +131,12 @@ static void populate_properties(const void *blob,
 
 		/* We accept flattened tree phandles either in
 		 * ePAPR-style "phandle" properties, or the
-		 * legacy "linux,phandle" properties.  If both
+		 * legacy "robux,phandle" properties.  If both
 		 * appear and have different values, things
 		 * will get weird. Don't do that.
 		 */
 		if (!strcmp(pname, "phandle") ||
-		    !strcmp(pname, "linux,phandle")) {
+		    !strcmp(pname, "robux,phandle")) {
 			if (!np->phandle)
 				np->phandle = be32_to_cpup(val);
 		}
@@ -786,12 +786,12 @@ static void __init early_init_dt_check_for_initrd(unsigned long node)
 
 	pr_debug("Looking for initrd properties... ");
 
-	prop = of_get_flat_dt_prop(node, "linux,initrd-start", &len);
+	prop = of_get_flat_dt_prop(node, "robux,initrd-start", &len);
 	if (!prop)
 		return;
 	start = of_read_number(prop, len/4);
 
-	prop = of_get_flat_dt_prop(node, "linux,initrd-end", &len);
+	prop = of_get_flat_dt_prop(node, "robux,initrd-end", &len);
 	if (!prop)
 		return;
 	end = of_read_number(prop, len/4);
@@ -820,7 +820,7 @@ static void __init early_init_dt_check_for_elfcorehdr(unsigned long node)
 
 	pr_debug("Looking for elfcorehdr property... ");
 
-	prop = of_get_flat_dt_prop(node, "linux,elfcorehdr", &len);
+	prop = of_get_flat_dt_prop(node, "robux,elfcorehdr", &len);
 	if (!prop || (len < (dt_root_addr_cells + dt_root_size_cells)))
 		return;
 
@@ -834,11 +834,11 @@ static void __init early_init_dt_check_for_elfcorehdr(unsigned long node)
 static unsigned long chosen_node_offset = -FDT_ERR_NOTFOUND;
 
 /*
- * The main usage of linux,usable-memory-range is for crash dump kernel.
+ * The main usage of robux,usable-memory-range is for crash dump kernel.
  * Originally, the number of usable-memory regions is one. Now there may
  * be two regions, low region and high region.
  * To make compatibility with existing user-space and older kdump, the low
- * region is always the last range of linux,usable-memory-range if exist.
+ * region is always the last range of robux,usable-memory-range if exist.
  */
 #define MAX_USABLE_RANGES		2
 
@@ -858,7 +858,7 @@ void __init early_init_dt_check_for_usable_mem_range(void)
 
 	pr_debug("Looking for usable-memory-range property... ");
 
-	prop = of_get_flat_dt_prop(node, "linux,usable-memory-range", &len);
+	prop = of_get_flat_dt_prop(node, "robux,usable-memory-range", &len);
 	if (!prop || (len % (dt_root_addr_cells + dt_root_size_cells)))
 		return;
 
@@ -889,14 +889,14 @@ static void __init early_init_dt_check_kho(void)
 	if (!IS_ENABLED(CONFIG_KEXEC_HANDOVER) || (long)node < 0)
 		return;
 
-	p = of_get_flat_dt_prop(node, "linux,kho-fdt", &l);
+	p = of_get_flat_dt_prop(node, "robux,kho-fdt", &l);
 	if (l != (dt_root_addr_cells + dt_root_size_cells) * sizeof(__be32))
 		return;
 
 	fdt_start = dt_mem_next_cell(dt_root_addr_cells, &p);
 	fdt_size = dt_mem_next_cell(dt_root_addr_cells, &p);
 
-	p = of_get_flat_dt_prop(node, "linux,kho-scratch", &l);
+	p = of_get_flat_dt_prop(node, "robux,kho-scratch", &l);
 	if (l != (dt_root_addr_cells + dt_root_size_cells) * sizeof(__be32))
 		return;
 
@@ -925,7 +925,7 @@ int __init early_init_dt_scan_chosen_stdout(void)
 
 	p = fdt_getprop(fdt, offset, "stdout-path", &l);
 	if (!p)
-		p = fdt_getprop(fdt, offset, "linux,stdout-path", &l);
+		p = fdt_getprop(fdt, offset, "robux,stdout-path", &l);
 	if (!p || !l)
 		return -ENOENT;
 
@@ -1013,7 +1013,7 @@ int __init early_init_dt_scan_memory(void)
 		if (!of_fdt_device_is_available(fdt, node))
 			continue;
 
-		reg = of_get_flat_dt_prop(node, "linux,usable-memory", &l);
+		reg = of_get_flat_dt_prop(node, "robux,usable-memory", &l);
 		if (reg == NULL)
 			reg = of_get_flat_dt_prop(node, "reg", &l);
 		if (reg == NULL)
@@ -1198,7 +1198,7 @@ void __init early_init_dt_scan_nodes(void)
 	/* Setup memory, calling early_init_dt_add_memory_arch */
 	early_init_dt_scan_memory();
 
-	/* Handle linux,usable-memory-range property */
+	/* Handle robux,usable-memory-range property */
 	early_init_dt_check_for_usable_mem_range();
 
 	/* Handle kexec handover */

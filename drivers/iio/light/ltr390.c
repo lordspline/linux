@@ -18,20 +18,20 @@
  *   - Interrupt support
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/i2c.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/events.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/events.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define LTR390_MAIN_CTRL		0x00
 #define LTR390_ALS_UVS_MEAS_RATE	0x04

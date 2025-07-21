@@ -5,16 +5,16 @@
  * SDW Intel ACPI scan helpers
  */
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/soundwire/sdw_intel.h>
-#include <linux/string.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/soundwire/sdw_intel.h>
+#include <robux/string.h>
 
 #define SDW_LINK_TYPE		4 /* from Intel ACPI documentation */
 

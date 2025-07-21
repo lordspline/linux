@@ -4,7 +4,7 @@
 
 #include "bpf_experimental.h"
 
-/* list helpers from include/linux/list.h */
+/* list helpers from include/robux/list.h */
 static inline int list_is_head(const struct list_head *list,
 			       const struct list_head *head)
 {

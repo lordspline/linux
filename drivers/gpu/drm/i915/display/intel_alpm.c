@@ -3,7 +3,7 @@
  * Copyright 2024, Intel Corporation.
  */
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 #include <drm/drm_print.h>
 

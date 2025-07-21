@@ -18,13 +18,13 @@
  * (c) 2004-2005, Eugene Surovegin <ebs@ebshome.net>
  *
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/netdevice.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/netdevice.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/delay.h>
 
 #include "emac.h"
 #include "phy.h"

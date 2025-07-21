@@ -8,12 +8,12 @@
 
 #define pr_fmt(fmt)	"AT91: " fmt
 
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
 
 #include "soc.h"
 

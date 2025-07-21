@@ -17,9 +17,9 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include <pcmcia/ss.h>
 #include <pcmcia/cistpl.h>

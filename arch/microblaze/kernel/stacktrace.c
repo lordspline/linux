@@ -9,11 +9,11 @@
  * for more details.
  */
 
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/stacktrace.h>
-#include <linux/thread_info.h>
-#include <linux/ptrace.h>
+#include <robux/export.h>
+#include <robux/sched.h>
+#include <robux/stacktrace.h>
+#include <robux/thread_info.h>
+#include <robux/ptrace.h>
 #include <asm/unwind.h>
 
 void save_stack_trace(struct stack_trace *trace)

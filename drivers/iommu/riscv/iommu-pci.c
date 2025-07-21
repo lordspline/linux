@@ -11,11 +11,11 @@
  *	Nick Kossifidis <mick@ics.forth.gr>
  */
 
-#include <linux/compiler.h>
-#include <linux/init.h>
-#include <linux/iommu.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
+#include <robux/compiler.h>
+#include <robux/init.h>
+#include <robux/iommu.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
 
 #include "iommu-bits.h"
 #include "iommu.h"

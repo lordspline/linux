@@ -5,17 +5,17 @@
 //
 // Copyright(c) 2018 Intel Corporation
 //
-// Authors: Liam Girdwood <liam.r.girdwood@linux.intel.com>
-//	    Ranjani Sridharan <ranjani.sridharan@linux.intel.com>
+// Authors: Liam Girdwood <liam.r.girdwood@robux.intel.com>
+//	    Ranjani Sridharan <ranjani.sridharan@robux.intel.com>
 //	    Rander Wang <rander.wang@intel.com>
-//          Keyon Jie <yang.jie@linux.intel.com>
+//          Keyon Jie <yang.jie@robux.intel.com>
 //
 
 /*
  * Hardware interface for generic Intel audio DSP HDA IP
  */
 
-#include <linux/moduleparam.h>
+#include <robux/moduleparam.h>
 #include <sound/hda_register.h>
 #include <sound/pcm_params.h>
 #include <trace/events/sof_intel.h>

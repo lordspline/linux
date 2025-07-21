@@ -5,10 +5,10 @@
  * Copyright IBM Corp. 2025
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
+#include <robux/vmalloc.h>
 #include <asm/diag.h>
 #include <asm/sclp.h>
 #include <uapi/asm/diag.h>

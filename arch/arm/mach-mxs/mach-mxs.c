@@ -4,19 +4,19 @@
  * Copyright 2012 Linaro Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/clk/mxs.h>
-#include <linux/clkdev.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/gpio.h>
-#include <linux/init.h>
-#include <linux/reboot.h>
-#include <linux/micrel_phy.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/phy.h>
-#include <linux/sys_soc.h>
+#include <robux/clk.h>
+#include <robux/clk/mxs.h>
+#include <robux/clkdev.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/gpio.h>
+#include <robux/init.h>
+#include <robux/reboot.h>
+#include <robux/micrel_phy.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/phy.h>
+#include <robux/sys_soc.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>
 #include <asm/mach/time.h>

@@ -3,18 +3,18 @@
  * Copyright (C) 2011-2014 NVIDIA CORPORATION.  All rights reserved.
  */
 
-#include <linux/bitops.h>
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/iommu.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/dma-mapping.h>
+#include <robux/bitops.h>
+#include <robux/debugfs.h>
+#include <robux/err.h>
+#include <robux/iommu.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/dma-mapping.h>
 
 #include <soc/tegra/ahb.h>
 #include <soc/tegra/mc.h>

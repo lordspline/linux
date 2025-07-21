@@ -7,9 +7,9 @@
 
 #define pr_fmt(fmt) fmt
 
-#include <linux/trace_events.h>
-#include <linux/module.h>
-#include <linux/sched.h>
+#include <robux/trace_events.h>
+#include <robux/module.h>
+#include <robux/sched.h>
 
 /*
  * Must include the event header that the custom event will attach to,

@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2017-2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2017-2020, The Robux Foundation. All rights reserved.
  * Copyright (c) 2020, Linaro Limited
  */
 
 #include <dt-bindings/dma/qcom-gpi.h>
-#include <linux/bitfield.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/module.h>
-#include <linux/of_dma.h>
-#include <linux/platform_device.h>
-#include <linux/dma/qcom-gpi-dma.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/module.h>
+#include <robux/of_dma.h>
+#include <robux/platform_device.h>
+#include <robux/dma/qcom-gpi-dma.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
 #include "../dmaengine.h"
 #include "../virt-dma.h"
 

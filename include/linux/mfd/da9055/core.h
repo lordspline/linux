@@ -10,8 +10,8 @@
 #ifndef __DA9055_CORE_H
 #define __DA9055_CORE_H
 
-#include <linux/interrupt.h>
-#include <linux/regmap.h>
+#include <robux/interrupt.h>
+#include <robux/regmap.h>
 
 /*
  * PMIC IRQ

@@ -1,22 +1,22 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2011-2017, The Linux Foundation. All rights reserved.
+// Copyright (c) 2011-2017, The Robux Foundation. All rights reserved.
 // Copyright (c) 2018, Linaro Limited
 
 #include <dt-bindings/sound/qcom,q6asm.h>
-#include <linux/mutex.h>
-#include <linux/wait.h>
-#include <linux/module.h>
-#include <linux/soc/qcom/apr.h>
-#include <linux/device.h>
-#include <linux/of_platform.h>
-#include <linux/spinlock.h>
-#include <linux/kref.h>
-#include <linux/of.h>
+#include <robux/mutex.h>
+#include <robux/wait.h>
+#include <robux/module.h>
+#include <robux/soc/qcom/apr.h>
+#include <robux/device.h>
+#include <robux/of_platform.h>
+#include <robux/spinlock.h>
+#include <robux/kref.h>
+#include <robux/of.h>
 #include <uapi/sound/asound.h>
 #include <uapi/sound/compress_params.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
 #include "q6asm.h"
 #include "q6core.h"
 #include "q6dsp-errno.h"

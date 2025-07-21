@@ -5,14 +5,14 @@
  * Copyright (C) 2003, 2004  SUGIOKA Toshinobu
  * Copyright (C) 2010  Hitoshi Mitake <mitake@dcl.info.waseda.ac.jp>
  */
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/smsc911x.h>
-#include <linux/platform_device.h>
-#include <linux/ata_platform.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/regulator/fixed.h>
+#include <robux/regulator/machine.h>
+#include <robux/smsc911x.h>
+#include <robux/platform_device.h>
+#include <robux/ata_platform.h>
+#include <robux/io.h>
 #include <asm/machvec.h>
 #include <mach/sh2007.h>
 

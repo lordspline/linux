@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/fs/namespace.c
+ *  robux/fs/namespace.c
  *
  * (C) Copyright Al Viro 2000, 2001
  *
@@ -8,31 +8,31 @@
  * Heavily rewritten.
  */
 
-#include <linux/syscalls.h>
-#include <linux/export.h>
-#include <linux/capability.h>
-#include <linux/mnt_namespace.h>
-#include <linux/user_namespace.h>
-#include <linux/namei.h>
-#include <linux/security.h>
-#include <linux/cred.h>
-#include <linux/idr.h>
-#include <linux/init.h>		/* init_rootfs */
-#include <linux/fs_struct.h>	/* get_fs_root et.al. */
-#include <linux/fsnotify.h>	/* fsnotify_vfsmount_delete */
-#include <linux/file.h>
-#include <linux/uaccess.h>
-#include <linux/proc_ns.h>
-#include <linux/magic.h>
-#include <linux/memblock.h>
-#include <linux/proc_fs.h>
-#include <linux/task_work.h>
-#include <linux/sched/task.h>
-#include <uapi/linux/mount.h>
-#include <linux/fs_context.h>
-#include <linux/shmem_fs.h>
-#include <linux/mnt_idmapping.h>
-#include <linux/pidfs.h>
+#include <robux/syscalls.h>
+#include <robux/export.h>
+#include <robux/capability.h>
+#include <robux/mnt_namespace.h>
+#include <robux/user_namespace.h>
+#include <robux/namei.h>
+#include <robux/security.h>
+#include <robux/cred.h>
+#include <robux/idr.h>
+#include <robux/init.h>		/* init_rootfs */
+#include <robux/fs_struct.h>	/* get_fs_root et.al. */
+#include <robux/fsnotify.h>	/* fsnotify_vfsmount_delete */
+#include <robux/file.h>
+#include <robux/uaccess.h>
+#include <robux/proc_ns.h>
+#include <robux/magic.h>
+#include <robux/memblock.h>
+#include <robux/proc_fs.h>
+#include <robux/task_work.h>
+#include <robux/sched/task.h>
+#include <uapi/robux/mount.h>
+#include <robux/fs_context.h>
+#include <robux/shmem_fs.h>
+#include <robux/mnt_idmapping.h>
+#include <robux/pidfs.h>
 
 #include "pnode.h"
 #include "internal.h"

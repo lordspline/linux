@@ -6,8 +6,8 @@
  * Copyright (c) 2018 Bootlin
  */
 
-#include <linux/delay.h>
-#include <linux/types.h>
+#include <robux/delay.h>
+#include <robux/types.h>
 
 #include <media/videobuf2-dma-contig.h>
 

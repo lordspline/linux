@@ -5,10 +5,10 @@
  * Copyright 2020 NXP
  */
 
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/fsl/mc.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/fsl/mc.h>
 
 #include "dpaa2-ptp.h"
 

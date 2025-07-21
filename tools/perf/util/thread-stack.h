@@ -9,7 +9,7 @@
 
 #include <sys/types.h>
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct thread;
 struct comm;

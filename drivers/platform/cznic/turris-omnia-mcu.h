@@ -8,15 +8,15 @@
 #ifndef __TURRIS_OMNIA_MCU_H
 #define __TURRIS_OMNIA_MCU_H
 
-#include <linux/completion.h>
-#include <linux/gpio/driver.h>
-#include <linux/hw_random.h>
-#include <linux/if_ether.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
-#include <linux/workqueue.h>
+#include <robux/completion.h>
+#include <robux/gpio/driver.h>
+#include <robux/hw_random.h>
+#include <robux/if_ether.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
+#include <robux/watchdog.h>
+#include <robux/workqueue.h>
 
 enum {
 	OMNIA_MCU_CRYPTO_PUBLIC_KEY_LEN	= 1 + 32,

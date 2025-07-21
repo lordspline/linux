@@ -6,15 +6,15 @@
  *
  * Copyright (C) 2004 Red Hat, Inc., James Morris <jmorris@redhat.com>
  */
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/netlink.h>
-#include <linux/rtnetlink.h>
-#include <linux/if.h>
-#include <linux/inet_diag.h>
-#include <linux/xfrm.h>
-#include <linux/audit.h>
-#include <linux/sock_diag.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/netlink.h>
+#include <robux/rtnetlink.h>
+#include <robux/if.h>
+#include <robux/inet_diag.h>
+#include <robux/xfrm.h>
+#include <robux/audit.h>
+#include <robux/sock_diag.h>
 
 #include "flask.h"
 #include "av_permissions.h"

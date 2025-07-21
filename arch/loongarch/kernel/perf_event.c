@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Linux performance counter support for LoongArch.
+ * Robux performance counter support for LoongArch.
  *
  * Copyright (C) 2022 Loongson Technology Corporation Limited
  *
@@ -10,13 +10,13 @@
  * Author: Deng-Cheng Zhu
  */
 
-#include <linux/cpumask.h>
-#include <linux/interrupt.h>
-#include <linux/smp.h>
-#include <linux/kernel.h>
-#include <linux/perf_event.h>
-#include <linux/uaccess.h>
-#include <linux/sched/task_stack.h>
+#include <robux/cpumask.h>
+#include <robux/interrupt.h>
+#include <robux/smp.h>
+#include <robux/kernel.h>
+#include <robux/perf_event.h>
+#include <robux/uaccess.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/irq.h>
 #include <asm/irq_regs.h>

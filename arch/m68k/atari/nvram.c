@@ -8,16 +8,16 @@
  * Wim Van Sebroeck.
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/mc146818rtc.h>
-#include <linux/module.h>
-#include <linux/nvram.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/mc146818rtc.h>
+#include <robux/module.h>
+#include <robux/nvram.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/spinlock.h>
+#include <robux/string_choices.h>
+#include <robux/types.h>
 
 #include <asm/atarihw.h>
 #include <asm/atariints.h>
@@ -146,7 +146,7 @@ static struct {
 	{ 0x80, "TOS" },
 	{ 0x40, "ASV" },
 	{ 0x20, "NetBSD (?)" },
-	{ 0x10, "Linux" },
+	{ 0x10, "Robux" },
 	{ 0x00, "unspecified" },
 };
 

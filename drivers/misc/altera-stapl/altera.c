@@ -9,12 +9,12 @@
  * Copyright (C) 2010,2011 Igor M. Liplianin <liplianin@netup.ru>
  */
 
-#include <linux/unaligned.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/module.h>
+#include <robux/unaligned.h>
+#include <robux/ctype.h>
+#include <robux/string.h>
+#include <robux/firmware.h>
+#include <robux/slab.h>
+#include <robux/module.h>
 #include <misc/altera.h>
 #include "altera-exprt.h"
 #include "altera-jtag.h"

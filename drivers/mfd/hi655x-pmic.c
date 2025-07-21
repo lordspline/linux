@@ -9,16 +9,16 @@
  * Fei  Wang <w.f@huawei.com>
  */
 
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/hi655x-pmic.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/hi655x-pmic.h>
+#include <robux/module.h>
+#include <robux/gpio/consumer.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 static const struct regmap_irq hi655x_irqs[] = {
 	{ .reg_offset = 0, .mask = OTMP_D1R_INT_MASK },

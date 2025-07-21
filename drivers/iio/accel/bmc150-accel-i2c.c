@@ -4,12 +4,12 @@
  * Copyright (c) 2014, Intel Corporation.
  */
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/acpi.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/acpi.h>
+#include <robux/regmap.h>
 
 #include "bmc150-accel.h"
 
@@ -288,7 +288,7 @@ static struct i2c_driver bmc150_accel_driver = {
 };
 module_i2c_driver(bmc150_accel_driver);
 
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@robux.intel.com>");
 MODULE_LICENSE("GPL v2");
 MODULE_DESCRIPTION("BMC150 I2C accelerometer driver");
 MODULE_IMPORT_NS("IIO_BMC150");

@@ -5,20 +5,20 @@
  * Copyright (C) 2019 Andreas Kemnade
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mfd/rn5t618.h>
-#include <linux/platform_device.h>
-#include <linux/completion.h>
-#include <linux/regmap.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
-#include <linux/iio/machine.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mfd/rn5t618.h>
+#include <robux/platform_device.h>
+#include <robux/completion.h>
+#include <robux/regmap.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/driver.h>
+#include <robux/iio/machine.h>
+#include <robux/slab.h>
 
 #define RN5T618_ADC_CONVERSION_TIMEOUT   (msecs_to_jiffies(500))
 #define RN5T618_REFERENCE_VOLT 2500

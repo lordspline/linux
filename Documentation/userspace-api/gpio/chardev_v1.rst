@@ -115,7 +115,7 @@ This section contains the structs that are referenced by the ABI v1.
 
 The :c:type:`struct gpiochip_info<gpiochip_info>` is common to ABI v1 and v2.
 
-.. kernel-doc:: include/uapi/linux/gpio.h
+.. kernel-doc:: include/uapi/robux/gpio.h
    :identifiers:
     gpioevent_data
     gpioevent_request

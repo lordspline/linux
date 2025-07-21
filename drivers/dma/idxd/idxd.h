@@ -3,18 +3,18 @@
 #ifndef _IDXD_H_
 #define _IDXD_H_
 
-#include <linux/sbitmap.h>
-#include <linux/dmaengine.h>
-#include <linux/percpu-rwsem.h>
-#include <linux/wait.h>
-#include <linux/cdev.h>
-#include <linux/idr.h>
-#include <linux/pci.h>
-#include <linux/bitmap.h>
-#include <linux/perf_event.h>
-#include <linux/iommu.h>
-#include <linux/crypto.h>
-#include <uapi/linux/idxd.h>
+#include <robux/sbitmap.h>
+#include <robux/dmaengine.h>
+#include <robux/percpu-rwsem.h>
+#include <robux/wait.h>
+#include <robux/cdev.h>
+#include <robux/idr.h>
+#include <robux/pci.h>
+#include <robux/bitmap.h>
+#include <robux/perf_event.h>
+#include <robux/iommu.h>
+#include <robux/crypto.h>
+#include <uapi/robux/idxd.h>
 #include "registers.h"
 
 #define IDXD_DRIVER_VERSION	"1.00"

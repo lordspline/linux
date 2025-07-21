@@ -5,22 +5,22 @@
  */
 
 #define pr_fmt(fmt) "riscv-imsic: " fmt
-#include <linux/acpi.h>
-#include <linux/bitmap.h>
-#include <linux/cpu.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/smp.h>
+#include <robux/acpi.h>
+#include <robux/bitmap.h>
+#include <robux/cpu.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/msi.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/smp.h>
 
-#include <linux/irqchip/irq-msi-lib.h>
+#include <robux/irqchip/irq-msi-lib.h>
 #include "irq-riscv-imsic-state.h"
 
 static bool imsic_cpu_page_phys(unsigned int cpu, unsigned int guest_index,

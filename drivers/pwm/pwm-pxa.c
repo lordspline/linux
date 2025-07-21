@@ -15,16 +15,16 @@
  *   input clock (PWMCR_SD is set) and the output is driven to inactive.
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/pwm.h>
-#include <linux/of.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/pwm.h>
+#include <robux/of.h>
 
 #include <asm/div64.h>
 

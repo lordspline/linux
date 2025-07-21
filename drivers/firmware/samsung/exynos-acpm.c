@@ -5,28 +5,28 @@
  * Copyright 2024 Linaro Ltd.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/container_of.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/firmware/samsung/exynos-acpm-protocol.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/ktime.h>
-#include <linux/mailbox/exynos-message.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/math.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/container_of.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/firmware/samsung/exynos-acpm-protocol.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/ktime.h>
+#include <robux/mailbox/exynos-message.h>
+#include <robux/mailbox_client.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/math.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "exynos-acpm.h"
 #include "exynos-acpm-pmic.h"

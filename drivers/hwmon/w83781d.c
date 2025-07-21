@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * w83781d.c - Part of lm_sensors, Linux kernel modules for hardware
+ * w83781d.c - Part of lm_sensors, Robux kernel modules for hardware
  *	       monitoring
  * Copyright (c) 1998 - 2001  Frodo Looijaard <frodol@dds.nl>,
  *			      Philip Edelbrock <phil@netroedge.com>,
@@ -22,22 +22,22 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-vid.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-vid.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/sysfs.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
 
 #ifdef CONFIG_ISA
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
+#include <robux/platform_device.h>
+#include <robux/ioport.h>
+#include <robux/io.h>
 #endif
 
 #include "lm75.h"

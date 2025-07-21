@@ -37,16 +37,16 @@
 /*
  * Generic range manager structs
  */
-#include <linux/bug.h>
-#include <linux/rbtree.h>
-#include <linux/limits.h>
-#include <linux/mm_types.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <robux/bug.h>
+#include <robux/rbtree.h>
+#include <robux/limits.h>
+#include <robux/mm_types.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
 #ifdef CONFIG_DRM_DEBUG_MM
-#include <linux/stackdepot.h>
+#include <robux/stackdepot.h>
 #endif
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include <drm/drm_print.h>
 

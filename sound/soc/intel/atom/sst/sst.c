@@ -11,17 +11,17 @@
  *
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/firmware.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_qos.h>
-#include <linux/async.h>
-#include <linux/acpi.h>
-#include <linux/sysfs.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/firmware.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_qos.h>
+#include <robux/async.h>
+#include <robux/acpi.h>
+#include <robux/sysfs.h>
 #include <sound/core.h>
 #include <sound/soc.h>
 #include <asm/platform_sst_audio.h>

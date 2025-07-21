@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/net/sunrpc/svc.c
+ * robux/net/sunrpc/svc.c
  *
  * High-level RPC service routines
  *
@@ -11,23 +11,23 @@
  * by Greg Banks <gnb@melbourne.sgi.com>
  */
 
-#include <linux/linkage.h>
-#include <linux/sched/signal.h>
-#include <linux/errno.h>
-#include <linux/net.h>
-#include <linux/in.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/slab.h>
+#include <robux/linkage.h>
+#include <robux/sched/signal.h>
+#include <robux/errno.h>
+#include <robux/net.h>
+#include <robux/in.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/kthread.h>
+#include <robux/slab.h>
 
-#include <linux/sunrpc/types.h>
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/stats.h>
-#include <linux/sunrpc/svcsock.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/bc_xprt.h>
+#include <robux/sunrpc/types.h>
+#include <robux/sunrpc/xdr.h>
+#include <robux/sunrpc/stats.h>
+#include <robux/sunrpc/svcsock.h>
+#include <robux/sunrpc/clnt.h>
+#include <robux/sunrpc/bc_xprt.h>
 
 #include <trace/events/sunrpc.h>
 
@@ -1747,7 +1747,7 @@ char *svc_fill_symlink_pathname(struct svc_rqst *rqstp, struct kvec *first,
 
 	*dst = '\0';
 
-	/* Sanity check: Linux doesn't allow the pathname argument to
+	/* Sanity check: Robux doesn't allow the pathname argument to
 	 * contain a NUL byte.
 	 */
 	if (strlen(result) != total) {

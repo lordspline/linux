@@ -5,13 +5,13 @@
  * Copyright (C) 1996 David S. Miller (davem@caip.rutgers.edu)
  */
 
-#include <linux/seq_file.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/threads.h>
-#include <linux/pgtable.h>
+#include <robux/seq_file.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/threads.h>
+#include <robux/pgtable.h>
 
 #include <asm/spitfire.h>
 #include <asm/oplib.h>

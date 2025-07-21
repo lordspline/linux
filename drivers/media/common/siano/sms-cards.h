@@ -10,7 +10,7 @@
 
 #include "smscoreapi.h"
 
-#include <linux/usb.h>
+#include <robux/usb.h>
 #include "smsir.h"
 
 #define SMS_BOARD_UNKNOWN 0

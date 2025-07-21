@@ -2,7 +2,7 @@
 #ifndef __TAS2764_QUIRKS__
 #define __TAS2764_QUIRKS__
 
-#include <linux/regmap.h>
+#include <robux/regmap.h>
 
 #include "tas2764.h"
 

@@ -2,16 +2,16 @@
 /*
  * Copyright (C) 2021 Rafał Miłecki <rafal@milecki.pl>
  */
-#include <linux/bits.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <robux/bits.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
 
 #define BCM63138_MAX_LEDS				32
 #define BCM63138_MAX_BRIGHTNESS				9

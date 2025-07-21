@@ -2,19 +2,19 @@
 #ifndef _LINUX_HUGETLB_H
 #define _LINUX_HUGETLB_H
 
-#include <linux/mm.h>
-#include <linux/mm_types.h>
-#include <linux/mmdebug.h>
-#include <linux/fs.h>
-#include <linux/hugetlb_inline.h>
-#include <linux/cgroup.h>
-#include <linux/page_ref.h>
-#include <linux/list.h>
-#include <linux/kref.h>
-#include <linux/pgtable.h>
-#include <linux/gfp.h>
-#include <linux/userfaultfd_k.h>
-#include <linux/nodemask.h>
+#include <robux/mm.h>
+#include <robux/mm_types.h>
+#include <robux/mmdebug.h>
+#include <robux/fs.h>
+#include <robux/hugetlb_inline.h>
+#include <robux/cgroup.h>
+#include <robux/page_ref.h>
+#include <robux/list.h>
+#include <robux/kref.h>
+#include <robux/pgtable.h>
+#include <robux/gfp.h>
+#include <robux/userfaultfd_k.h>
+#include <robux/nodemask.h>
 
 struct ctl_table;
 struct user_struct;
@@ -25,8 +25,8 @@ void free_huge_folio(struct folio *folio);
 
 #ifdef CONFIG_HUGETLB_PAGE
 
-#include <linux/pagemap.h>
-#include <linux/shm.h>
+#include <robux/pagemap.h>
+#include <robux/shm.h>
 #include <asm/tlbflush.h>
 
 /*

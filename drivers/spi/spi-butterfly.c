@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2005 David Brownell
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/parport.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/parport.h>
 
-#include <linux/sched.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi_bitbang.h>
-#include <linux/spi/flash.h>
+#include <robux/sched.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi_bitbang.h>
+#include <robux/spi/flash.h>
 
-#include <linux/mtd/partitions.h>
+#include <robux/mtd/partitions.h>
 
 /*
  * This uses SPI to talk with an "AVR Butterfly", which is a $US20 card

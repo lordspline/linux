@@ -6,22 +6,22 @@
  * (C) Copyright 2014 - 2015, Xilinx, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/msi.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
-#include <linux/pci.h>
-#include <linux/pci-ecam.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/irqchip/chained_irq.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/msi.h>
+#include <robux/of_address.h>
+#include <robux/of_pci.h>
+#include <robux/of_platform.h>
+#include <robux/pci.h>
+#include <robux/pci-ecam.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/irqchip/chained_irq.h>
 
 #include "../pci.h"
 

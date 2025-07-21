@@ -13,14 +13,14 @@
  *
  */
 
-#include <linux/cec.h>
-#include <linux/dmi.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/regmap.h>
+#include <robux/cec.h>
+#include <robux/dmi.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/regmap.h>
 #include <media/cec.h>
 #include <media/cec-notifier.h>
 

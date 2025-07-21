@@ -10,14 +10,14 @@
  *          Rolf Neugebauer <rolf.neugebauer@netronome.com>
  */
 
-#include <linux/etherdevice.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/lockdep.h>
-#include <linux/pci.h>
-#include <linux/pci_regs.h>
-#include <linux/random.h>
-#include <linux/rtnetlink.h>
+#include <robux/etherdevice.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/lockdep.h>
+#include <robux/pci.h>
+#include <robux/pci_regs.h>
+#include <robux/random.h>
+#include <robux/rtnetlink.h>
 
 #include "nfpcore/nfp.h"
 #include "nfpcore/nfp_cpp.h"

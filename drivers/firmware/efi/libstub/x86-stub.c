@@ -6,9 +6,9 @@
  *
  * ----------------------------------------------------------------------- */
 
-#include <linux/efi.h>
-#include <linux/pci.h>
-#include <linux/stddef.h>
+#include <robux/efi.h>
+#include <robux/pci.h>
+#include <robux/stddef.h>
 
 #include <asm/efi.h>
 #include <asm/e820/types.h>

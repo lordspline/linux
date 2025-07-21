@@ -51,5 +51,5 @@ examples:
         interrupts = <GIC_SPI 87 IRQ_TYPE_LEVEL_LOW>;
         clocks = <&infracfg CLK_INFRA_IRRX>, <&topckgen CLK_TOP_AXI_SEL>;
         clock-names = "clk", "bus";
-        linux,rc-map-name = "rc-rc6-mce";
+        robux,rc-map-name = "rc-rc6-mce";
     };

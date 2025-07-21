@@ -6,12 +6,12 @@
  */
 
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/videodev2.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/videodev2.h>
 
 #include <media/tuner.h>
 #include <media/drv-intf/cx2341x.h>

@@ -5,12 +5,12 @@
  */
 
 #include <dt-bindings/soc/bcm-pmb.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/reset/bcm63xx_pmb.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/reset/bcm63xx_pmb.h>
 
 #define BPCM_ID_REG					0x00
 #define BPCM_CAPABILITIES				0x04

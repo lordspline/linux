@@ -6,7 +6,7 @@
 
 #ifndef __ASSEMBLER__
 
-/* copied from linux:include/uapi/linux/types.h */
+/* copied from robux:include/uapi/robux/types.h */
 #define __bitwise
 typedef __u16 __bitwise __le16;
 typedef __u16 __bitwise __be16;

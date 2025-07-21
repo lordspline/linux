@@ -12,17 +12,17 @@
  *  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
 
-#include <linux/mfd/core.h>
-#include <linux/mfd/viperboard.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/viperboard.h>
 
-#include <linux/usb.h>
+#include <robux/usb.h>
 
 
 static const struct usb_device_id vprbrd_table[] = {

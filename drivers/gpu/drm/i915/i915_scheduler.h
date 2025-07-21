@@ -7,9 +7,9 @@
 #ifndef _I915_SCHEDULER_H_
 #define _I915_SCHEDULER_H_
 
-#include <linux/bitops.h>
-#include <linux/list.h>
-#include <linux/kernel.h>
+#include <robux/bitops.h>
+#include <robux/list.h>
+#include <robux/kernel.h>
 
 #include "i915_scheduler_types.h"
 #include "i915_tasklet.h"

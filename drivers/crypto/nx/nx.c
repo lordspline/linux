@@ -13,13 +13,13 @@
 #include <crypto/internal/skcipher.h>
 #include <crypto/sha2.h>
 #include <crypto/scatterwalk.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/scatterlist.h>
-#include <linux/device.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/scatterlist.h>
+#include <robux/device.h>
+#include <robux/of.h>
 #include <asm/hvcall.h>
 #include <asm/vio.h>
 
@@ -135,11 +135,11 @@ struct nx_sg *nx_build_sg_list(struct nx_sg *sg_head,
 }
 
 /**
- * nx_walk_and_build - walk a linux scatterlist and build an nx scatterlist
+ * nx_walk_and_build - walk a robux scatterlist and build an nx scatterlist
  *
  * @nx_dst: pointer to the first nx_sg element to write
  * @sglen: max number of nx_sg entries we're allowed to write
- * @sg_src: pointer to the source linux scatterlist to walk
+ * @sg_src: pointer to the source robux scatterlist to walk
  * @start: number of bytes to fast-forward past at the beginning of @sg_src
  * @src_len: number of bytes to walk in @sg_src
  */

@@ -8,10 +8,10 @@
  * Nadi Sarrar <nadi@beronet.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/mISDNdsp.h>
-#include <linux/mISDNif.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/mISDNdsp.h>
+#include <robux/mISDNif.h>
 #include "core.h"
 #include "dsp.h"
 #include "dsp_hwec.h"

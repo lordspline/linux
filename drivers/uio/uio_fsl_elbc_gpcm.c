@@ -39,14 +39,14 @@
    devices as needed.
 */
 
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/uio_driver.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/uio_driver.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 #include <asm/fsl_lbc.h>
 

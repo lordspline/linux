@@ -6,26 +6,26 @@
  * Copyright 2012-2020 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
-#include <linux/fpga/adi-axi-common.h>
+#include <robux/fpga/adi-axi-common.h>
 
-#include <linux/iio/backend.h>
-#include <linux/iio/buffer-dmaengine.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/backend.h>
+#include <robux/iio/buffer-dmaengine.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/iio.h>
 
 #include "ad7606_bus_iface.h"
 /*

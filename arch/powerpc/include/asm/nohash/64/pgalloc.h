@@ -4,9 +4,9 @@
 /*
  */
 
-#include <linux/slab.h>
-#include <linux/cpumask.h>
-#include <linux/percpu.h>
+#include <robux/slab.h>
+#include <robux/cpumask.h>
+#include <robux/percpu.h>
 
 struct vmemmap_backing {
 	struct vmemmap_backing *list;

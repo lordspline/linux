@@ -21,22 +21,22 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/compat.h>
-#include <uapi/linux/kfd_ioctl.h>
-#include <linux/time.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/ptrace.h>
-#include <linux/dma-buf.h>
-#include <linux/processor.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/err.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/compat.h>
+#include <uapi/robux/kfd_ioctl.h>
+#include <robux/time.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
+#include <robux/ptrace.h>
+#include <robux/dma-buf.h>
+#include <robux/processor.h>
 #include "kfd_priv.h"
 #include "kfd_device_queue_manager.h"
 #include "kfd_svm.h"

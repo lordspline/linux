@@ -3,10 +3,10 @@
  * Copyright 2019 NXP.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 #include <drm/drm_module.h>
 #include <drm/drm_of.h>
 

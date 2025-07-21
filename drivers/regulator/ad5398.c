@@ -7,14 +7,14 @@
  * Enter bugs at http://blackfin.uclinux.org/
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regulator/of_regulator.h>
 
 #define AD5398_SW_POWER_DOWN	BIT(15)
 

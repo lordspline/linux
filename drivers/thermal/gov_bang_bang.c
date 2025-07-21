@@ -30,7 +30,7 @@
  *     (trip_temp - hyst) so that the fan gets turned off again.
  */
 
-#include <linux/thermal.h>
+#include <robux/thermal.h>
 
 #include "thermal_core.h"
 

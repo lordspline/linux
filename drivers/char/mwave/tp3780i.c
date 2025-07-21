@@ -46,10 +46,10 @@
 *	First release to the public
 */
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/ioport.h>
 #include <asm/io.h>
 #include "smapi.h"
 #include "mwavedd.h"

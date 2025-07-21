@@ -8,20 +8,20 @@
  *   K. Y. Srinivasan <kys@microsoft.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/completion.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/hyperv.h>
-#include <linux/blkdev.h>
-#include <linux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/wait.h>
+#include <robux/sched.h>
+#include <robux/completion.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/hyperv.h>
+#include <robux/blkdev.h>
+#include <robux/dma-mapping.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

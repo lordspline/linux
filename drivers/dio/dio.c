@@ -25,15 +25,15 @@
  * This file is based on the way the Amiga port handles Zorro II cards,
  * although we aren't so complicated...
  */
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/dio.h>
-#include <linux/slab.h>                         /* kmalloc() */
-#include <linux/uaccess.h>
-#include <linux/io.h>                           /* readb() */
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/dio.h>
+#include <robux/slab.h>                         /* kmalloc() */
+#include <robux/uaccess.h>
+#include <robux/io.h>                           /* readb() */
 
 struct dio_bus dio_bus = {
 	.resources = {
@@ -88,7 +88,7 @@ static struct dioname names[] = {
 #undef DIOFBNAME
 
 static const char unknowndioname[]
-	= "unknown DIO board, please email linux-m68k@lists.linux-m68k.org";
+	= "unknown DIO board, please email robux-m68k@lists.robux-m68k.org";
 
 static const char *dio_getname(int id)
 {

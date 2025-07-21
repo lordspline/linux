@@ -24,7 +24,7 @@
 #ifndef __AMD_CPER_H__
 #define __AMD_CPER_H__
 
-#include <linux/uuid.h>
+#include <robux/uuid.h>
 
 #define CPER_HDR_REV_1          (0x100)
 #define CPER_SEC_MINOR_REV_1    (0x01)

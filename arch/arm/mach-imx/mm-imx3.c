@@ -7,11 +7,11 @@
  *    - add MX31 specific definitions
  */
 
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
 
 #include <asm/system_misc.h>
 #include <asm/hardware/cache-l2x0.h>

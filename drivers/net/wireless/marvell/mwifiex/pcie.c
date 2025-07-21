@@ -5,8 +5,8 @@
  * Copyright 2011-2020 NXP
  */
 
-#include <linux/iopoll.h>
-#include <linux/firmware.h>
+#include <robux/iopoll.h>
+#include <robux/firmware.h>
 
 #include "decl.h"
 #include "ioctl.h"

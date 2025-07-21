@@ -6,8 +6,8 @@
  */
 
 #include <kunit/test.h>
-#include <linux/cpu.h>
-#include <linux/cpumask.h>
+#include <robux/cpu.h>
+#include <robux/cpumask.h>
 
 #define MASK_MSG(m) \
 	"%s contains %sCPUs %*pbl", #m, (cpumask_weight(m) ? "" : "no "), \

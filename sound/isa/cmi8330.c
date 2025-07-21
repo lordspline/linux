@@ -29,11 +29,11 @@
  *  full control over both mixers.
  */
 
-#include <linux/init.h>
-#include <linux/err.h>
-#include <linux/isa.h>
-#include <linux/pnp.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/err.h>
+#include <robux/isa.h>
+#include <robux/pnp.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/wss.h>
 #include <sound/opl3.h>

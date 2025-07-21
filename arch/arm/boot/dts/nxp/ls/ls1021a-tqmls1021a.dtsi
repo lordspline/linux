@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: (GPL-2.0-or-later OR MIT)
 /*
  * Copyright 2013-2014 Freescale Semiconductor, Inc.
- * Copyright 2018-2023 TQ-Systems GmbH <linux@ew.tq-group.com>,
+ * Copyright 2018-2023 TQ-Systems GmbH <robux@ew.tq-group.com>,
  * D-82229 Seefeld, Germany.
  * Author: Alexander Stein
  */
@@ -94,8 +94,8 @@
 				reg = <0xf0000 0x10000>;
 			};
 
-			linux@100000 {
-				label = "Linux";
+			robux@100000 {
+				label = "Robux";
 				reg = <0x100000 0x700000>;
 			};
 

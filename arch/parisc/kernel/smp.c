@@ -4,7 +4,7 @@
 **
 ** Copyright (C) 1999 Walt Drummond <drummond@valinux.com>
 ** Copyright (C) 1999 David Mosberger-Tang <davidm@hpl.hp.com>
-** Copyright (C) 2001,2004 Grant Grundler <grundler@parisc-linux.org>
+** Copyright (C) 2001,2004 Grant Grundler <grundler@parisc-robux.org>
 ** 
 ** Lots of stuff stolen from arch/alpha/kernel/smp.c
 ** ...and then parisc stole from arch/ia64/kernel/smp.c. Thanks David! :^)
@@ -13,26 +13,26 @@
 ** -grant (1/12/2001)
 **
 */
-#include <linux/types.h>
-#include <linux/spinlock.h>
+#include <robux/types.h>
+#include <robux/spinlock.h>
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched/mm.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/smp.h>
-#include <linux/kernel_stat.h>
-#include <linux/mm.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
-#include <linux/ftrace.h>
-#include <linux/cpu.h>
-#include <linux/kgdb.h>
-#include <linux/sched/hotplug.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched/mm.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/smp.h>
+#include <robux/kernel_stat.h>
+#include <robux/mm.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
+#include <robux/ftrace.h>
+#include <robux/cpu.h>
+#include <robux/kgdb.h>
+#include <robux/sched/hotplug.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/current.h>
 #include <asm/delay.h>
 #include <asm/tlbflush.h>
@@ -278,7 +278,7 @@ smp_cpu_init(int cpunum)
 
 	mb();
 
-	/* Well, support 2.4 linux scheme as well. */
+	/* Well, support 2.4 robux scheme as well. */
 	if (cpu_online(cpunum))	{
 		extern void machine_halt(void); /* arch/parisc.../process.c */
 

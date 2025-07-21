@@ -15,26 +15,26 @@
  * Amit Kucheria <amit.kucheria@canonical.com>
  */
 
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/mfd/twl.h>
-#include <linux/stddef.h>
-#include <linux/mutex.h>
-#include <linux/bitops.h>
-#include <linux/jiffies.h>
-#include <linux/types.h>
-#include <linux/gfp.h>
-#include <linux/err.h>
-#include <linux/regulator/consumer.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/mfd/twl.h>
+#include <robux/stddef.h>
+#include <robux/mutex.h>
+#include <robux/bitops.h>
+#include <robux/jiffies.h>
+#include <robux/types.h>
+#include <robux/gfp.h>
+#include <robux/err.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/iio/iio.h>
+#include <robux/iio/iio.h>
 
 #define TWL4030_MADC_MAX_CHANNELS 16
 

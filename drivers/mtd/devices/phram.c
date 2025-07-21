@@ -18,19 +18,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/mtd/mtd.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/slab.h>
+#include <robux/mtd/mtd.h>
 #include <asm/div64.h>
-#include <linux/platform_device.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/security.h>
+#include <robux/platform_device.h>
+#include <robux/of_address.h>
+#include <robux/of.h>
+#include <robux/security.h>
 
 struct phram_mtd_list {
 	struct mtd_info mtd;

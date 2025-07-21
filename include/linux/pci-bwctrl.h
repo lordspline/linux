@@ -8,7 +8,7 @@
 #ifndef LINUX_PCI_BWCTRL_H
 #define LINUX_PCI_BWCTRL_H
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 struct thermal_cooling_device;
 

@@ -30,17 +30,17 @@
  * SOFTWARE.
  */
 
-#include <linux/clocksource.h>
-#include <linux/highmem.h>
-#include <linux/log2.h>
-#include <linux/ptp_clock_kernel.h>
+#include <robux/clocksource.h>
+#include <robux/highmem.h>
+#include <robux/log2.h>
+#include <robux/ptp_clock_kernel.h>
 #include <rdma/mlx5-abi.h>
 #include "lib/eq.h"
 #include "en.h"
 #include "clock.h"
 #ifdef CONFIG_X86
-#include <linux/timekeeping.h>
-#include <linux/cpufeature.h>
+#include <robux/timekeeping.h>
+#include <robux/cpufeature.h>
 #endif /* CONFIG_X86 */
 
 #define MLX5_RT_CLOCK_IDENTITY_SIZE MLX5_FLD_SZ_BYTES(mrtcq_reg, rt_clock_identity)

@@ -11,21 +11,21 @@
  *   interface.
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/prefetch.h>
-#include <linux/usb.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/usb/usb_phy_generic.h>
+#include <robux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/prefetch.h>
+#include <robux/usb.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/usb/usb_phy_generic.h>
 
 #include "musb_core.h"
 

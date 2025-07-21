@@ -5,14 +5,14 @@
  * Copyright (C) 2014 Paratronic S.A.
  */
 
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/irq.h>
-#include <linux/gpio/consumer.h>
-#include <linux/termios.h>
-#include <linux/serial_core.h>
-#include <linux/module.h>
-#include <linux/property.h>
+#include <robux/err.h>
+#include <robux/device.h>
+#include <robux/irq.h>
+#include <robux/gpio/consumer.h>
+#include <robux/termios.h>
+#include <robux/serial_core.h>
+#include <robux/module.h>
+#include <robux/property.h>
 
 #include "serial_mctrl_gpio.h"
 

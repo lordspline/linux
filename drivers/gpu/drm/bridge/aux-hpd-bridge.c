@@ -4,9 +4,9 @@
  *
  * Author: Dmitry Baryshkov <dmitry.baryshkov@linaro.org>
  */
-#include <linux/auxiliary_bus.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 #include <drm/drm_bridge.h>
 #include <drm/bridge/aux-bridge.h>

@@ -10,23 +10,23 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/mfd/core.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
+#include <robux/mfd/core.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/da9063/core.h>
-#include <linux/mfd/da9063/registers.h>
+#include <robux/mfd/da9063/core.h>
+#include <robux/mfd/da9063/registers.h>
 
-#include <linux/proc_fs.h>
-#include <linux/kthread.h>
-#include <linux/uaccess.h>
+#include <robux/proc_fs.h>
+#include <robux/kthread.h>
+#include <robux/uaccess.h>
 
 
 static const struct resource da9063_regulators_resources[] = {

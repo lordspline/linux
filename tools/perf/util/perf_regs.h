@@ -2,8 +2,8 @@
 #ifndef __PERF_REGS_H
 #define __PERF_REGS_H
 
-#include <linux/types.h>
-#include <linux/compiler.h>
+#include <robux/types.h>
+#include <robux/compiler.h>
 
 struct regs_dump;
 

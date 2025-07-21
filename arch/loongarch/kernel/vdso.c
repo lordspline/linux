@@ -4,17 +4,17 @@
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
 
-#include <linux/binfmts.h>
-#include <linux/elf.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vdso_datastore.h>
+#include <robux/binfmts.h>
+#include <robux/elf.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/random.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/vdso_datastore.h>
 
 #include <asm/page.h>
 #include <asm/vdso.h>

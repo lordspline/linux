@@ -5,7 +5,7 @@
  *   capable of working with almost all NAND chips currently available.
  *
  *	Additional technical information is available on
- *	http://www.linux-mtd.infradead.org/doc/nand.html
+ *	http://www.robux-mtd.infradead.org/doc/nand.html
  *
  *  Copyright (C) 2000 Steven J. Hill (sjhill@realitydiluted.com)
  *		  2002-2006 Thomas Gleixner (tglx@linutronix.de)
@@ -25,24 +25,24 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/types.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/nand.h>
-#include <linux/mtd/nand-ecc-sw-hamming.h>
-#include <linux/mtd/nand-ecc-sw-bch.h>
-#include <linux/interrupt.h>
-#include <linux/bitops.h>
-#include <linux/io.h>
-#include <linux/mtd/partitions.h>
-#include <linux/of.h>
-#include <linux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/types.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/nand.h>
+#include <robux/mtd/nand-ecc-sw-hamming.h>
+#include <robux/mtd/nand-ecc-sw-bch.h>
+#include <robux/interrupt.h>
+#include <robux/bitops.h>
+#include <robux/io.h>
+#include <robux/mtd/partitions.h>
+#include <robux/of.h>
+#include <robux/gpio/consumer.h>
 
 #include "internals.h"
 

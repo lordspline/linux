@@ -6,8 +6,8 @@
 
 #include <uapi/drm/pvr_drm.h>
 
-#include <linux/kref.h>
-#include <linux/types.h>
+#include <robux/kref.h>
+#include <robux/types.h>
 
 #include <drm/drm_gem.h>
 #include <drm/gpu_scheduler.h>

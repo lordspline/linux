@@ -17,22 +17,22 @@
  * Based on "ehci-fsl.c" and "ehci-au1xxx.c" ehci glue layers
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/usb/ulpi.h>
-#include <linux/pm_runtime.h>
-#include <linux/clk.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/of.h>
-#include <linux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/usb/ulpi.h>
+#include <robux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/of.h>
+#include <robux/dma-mapping.h>
 
 #include "ehci.h"
 
-#include <linux/platform_data/usb-omap.h>
+#include <robux/platform_data/usb-omap.h>
 
 /* EHCI Register Set */
 #define EHCI_INSNREG04					(0xA0)

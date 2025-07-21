@@ -5,9 +5,9 @@
 // Copyright (c) 2017 Radioavionica Corporation
 // Author: Alex A. Mihaylov <minimumlaw@rambler.ru>
 
-#include <linux/regmap.h>
-#include <linux/module.h>
-#include <linux/w1.h>
+#include <robux/regmap.h>
+#include <robux/module.h>
+#include <robux/w1.h>
 
 #include "internal.h"
 

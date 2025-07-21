@@ -6,11 +6,11 @@
 #ifndef _XE_GSC_TYPES_H_
 #define _XE_GSC_TYPES_H_
 
-#include <linux/iosys-map.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/iosys-map.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include "xe_uc_fw_types.h"
 #include "xe_device_types.h"

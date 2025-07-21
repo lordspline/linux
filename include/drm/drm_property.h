@@ -23,8 +23,8 @@
 #ifndef __DRM_PROPERTY_H__
 #define __DRM_PROPERTY_H__
 
-#include <linux/list.h>
-#include <linux/ctype.h>
+#include <robux/list.h>
+#include <robux/ctype.h>
 #include <drm/drm_mode_object.h>
 
 #include <uapi/drm/drm_mode.h>

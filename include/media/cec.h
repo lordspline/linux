@@ -8,13 +8,13 @@
 #ifndef _MEDIA_CEC_H
 #define _MEDIA_CEC_H
 
-#include <linux/poll.h>
-#include <linux/fs.h>
-#include <linux/device.h>
-#include <linux/cdev.h>
-#include <linux/kthread.h>
-#include <linux/timer.h>
-#include <linux/cec-funcs.h>
+#include <robux/poll.h>
+#include <robux/fs.h>
+#include <robux/device.h>
+#include <robux/cdev.h>
+#include <robux/kthread.h>
+#include <robux/timer.h>
+#include <robux/cec-funcs.h>
 #include <media/rc-core.h>
 
 #define CEC_CAP_DEFAULTS (CEC_CAP_LOG_ADDRS | CEC_CAP_TRANSMIT | \

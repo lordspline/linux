@@ -3,13 +3,13 @@
  * Copyright (C) Sunplus Technology Co., Ltd.
  *       All rights reserved.
  */
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/io.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/io.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 #define SP_INTC_HWIRQ_MIN	0
 #define SP_INTC_HWIRQ_MAX	223

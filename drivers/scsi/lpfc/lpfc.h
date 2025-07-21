@@ -1,5 +1,5 @@
 /*******************************************************************
- * This file is part of the Emulex Linux Device Driver for         *
+ * This file is part of the Emulex Robux Device Driver for         *
  * Fibre Channel Host Bus Adapters.                                *
  * Copyright (C) 2017-2024 Broadcom. All Rights Reserved. The term *
  * “Broadcom” refers to Broadcom Inc. and/or its subsidiaries.     *
@@ -22,9 +22,9 @@
  *******************************************************************/
 
 #include <scsi/scsi_host.h>
-#include <linux/hashtable.h>
-#include <linux/ktime.h>
-#include <linux/workqueue.h>
+#include <robux/hashtable.h>
+#include <robux/ktime.h>
+#include <robux/workqueue.h>
 
 #if defined(CONFIG_DEBUG_FS) && !defined(CONFIG_SCSI_LPFC_DEBUG_FS)
 #define CONFIG_SCSI_LPFC_DEBUG_FS

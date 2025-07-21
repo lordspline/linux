@@ -6,9 +6,9 @@
  *  Chunfeng.Yun <chunfeng.yun@mediatek.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include "xhci.h"
 #include "xhci-mtk.h"

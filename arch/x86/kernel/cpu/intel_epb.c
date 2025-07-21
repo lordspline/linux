@@ -8,13 +8,13 @@
  *	Rafael J. Wysocki <rafael.j.wysocki@intel.com>
  */
 
-#include <linux/cpuhotplug.h>
-#include <linux/cpu.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/syscore_ops.h>
-#include <linux/pm.h>
+#include <robux/cpuhotplug.h>
+#include <robux/cpu.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/syscore_ops.h>
+#include <robux/pm.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/cpufeature.h>

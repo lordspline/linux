@@ -10,9 +10,9 @@
  * integer types.
  */
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <crypto/curve25519.h>
-#include <linux/string.h>
+#include <robux/string.h>
 
 static __always_inline u64 u64_eq_mask(u64 a, u64 b)
 {

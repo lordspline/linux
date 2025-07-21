@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/arch/arm/mach-tegra/platsmp.c
+ *  robux/arch/arm/mach-tegra/platsmp.c
  *
  *  Copyright (C) 2002 ARM Ltd.
  *  All Rights Reserved
@@ -9,14 +9,14 @@
  *  All Rights Reserved
  */
 
-#include <linux/clk/tegra.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/smp.h>
+#include <robux/clk/tegra.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/jiffies.h>
+#include <robux/smp.h>
 
 #include <soc/tegra/flowctrl.h>
 #include <soc/tegra/fuse.h>

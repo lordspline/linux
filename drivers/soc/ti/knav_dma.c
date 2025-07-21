@@ -6,18 +6,18 @@
  *		Cyril Chemparathy <cyril@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/dma-direction.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/of_dma.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/soc/ti/knav_dma.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/io.h>
+#include <robux/sched.h>
+#include <robux/module.h>
+#include <robux/dma-direction.h>
+#include <robux/interrupt.h>
+#include <robux/pm_runtime.h>
+#include <robux/of_dma.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/soc/ti/knav_dma.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 
 #define REG_MASK		0xffffffff
 

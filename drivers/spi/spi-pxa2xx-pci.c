@@ -5,19 +5,19 @@
  *
  * Copyright (C) 2016, 2021 Intel Corporation
  */
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/sprintf.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/sprintf.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
-#include <linux/dmaengine.h>
-#include <linux/platform_data/dma-dw.h>
+#include <robux/dmaengine.h>
+#include <robux/platform_data/dma-dw.h>
 
 #include "spi-pxa2xx.h"
 

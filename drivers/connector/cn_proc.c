@@ -8,17 +8,17 @@
  * Copyright (C) 2005 BULL SA.
  */
 
-#include <linux/kernel.h>
-#include <linux/ktime.h>
-#include <linux/init.h>
-#include <linux/connector.h>
-#include <linux/gfp.h>
-#include <linux/ptrace.h>
-#include <linux/atomic.h>
-#include <linux/pid_namespace.h>
+#include <robux/kernel.h>
+#include <robux/ktime.h>
+#include <robux/init.h>
+#include <robux/connector.h>
+#include <robux/gfp.h>
+#include <robux/ptrace.h>
+#include <robux/atomic.h>
+#include <robux/pid_namespace.h>
 
-#include <linux/cn_proc.h>
-#include <linux/local_lock.h>
+#include <robux/cn_proc.h>
+#include <robux/local_lock.h>
 
 /*
  * Size of a cn_msg followed by a proc_event structure.  Since the

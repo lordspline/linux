@@ -5,7 +5,7 @@
 
 
   Contact Information:
-  Intel Linux Wireless <ilw@linux.intel.com>
+  Intel Robux Wireless <ilw@robux.intel.com>
   Intel Corporation, 5200 N.E. Elam Young Parkway, Hillsboro, OR 97124-6497
 
   Portions of this file are based on the sample_* files provided by Wireless
@@ -119,35 +119,35 @@ that only one external action is invoked at a time.
 
 */
 
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/if_arp.h>
-#include <linux/in6.h>
-#include <linux/in.h>
-#include <linux/ip.h>
-#include <linux/kernel.h>
-#include <linux/kmod.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/proc_fs.h>
-#include <linux/skbuff.h>
-#include <linux/uaccess.h>
+#include <robux/compiler.h>
+#include <robux/errno.h>
+#include <robux/if_arp.h>
+#include <robux/in6.h>
+#include <robux/in.h>
+#include <robux/ip.h>
+#include <robux/kernel.h>
+#include <robux/kmod.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/proc_fs.h>
+#include <robux/skbuff.h>
+#include <robux/uaccess.h>
 #include <asm/io.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/unistd.h>
-#include <linux/stringify.h>
-#include <linux/tcp.h>
-#include <linux/types.h>
-#include <linux/time.h>
-#include <linux/firmware.h>
-#include <linux/acpi.h>
-#include <linux/ctype.h>
-#include <linux/pm_qos.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/unistd.h>
+#include <robux/stringify.h>
+#include <robux/tcp.h>
+#include <robux/types.h>
+#include <robux/time.h>
+#include <robux/firmware.h>
+#include <robux/acpi.h>
+#include <robux/ctype.h>
+#include <robux/pm_qos.h>
 #include "ipw2100.h"
 #include "ipw.h"
 
@@ -179,7 +179,7 @@ static int disable = 0;
 static struct ipw2100_fw ipw2100_firmware;
 #endif
 
-#include <linux/moduleparam.h>
+#include <robux/moduleparam.h>
 module_param(debug, int, 0444);
 module_param_named(mode, network_mode, int, 0444);
 module_param(channel, int, 0444);
@@ -6737,7 +6737,7 @@ static int ipw2100_wx_get_range(struct net_device *dev,
 	memset(range, 0, sizeof(*range));
 
 	/* Let's try to keep this struct in the same order as in
-	 * linux/include/wireless.h
+	 * robux/include/wireless.h
 	 */
 
 	/* TODO: See what values we can set, and remove the ones we can't

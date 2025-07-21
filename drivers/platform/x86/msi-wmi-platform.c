@@ -1,30 +1,30 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * Linux driver for WMI platform features on MSI notebooks.
+ * Robux driver for WMI platform features on MSI notebooks.
  *
  * Copyright (C) 2024 Armin Wolf <W_Armin@gmx.de>
  */
 
 #define pr_format(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/device/driver.h>
-#include <linux/errno.h>
-#include <linux/hwmon.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/printk.h>
-#include <linux/rwsem.h>
-#include <linux/types.h>
-#include <linux/wmi.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/device/driver.h>
+#include <robux/errno.h>
+#include <robux/hwmon.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/printk.h>
+#include <robux/rwsem.h>
+#include <robux/types.h>
+#include <robux/wmi.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define DRIVER_NAME	"msi-wmi-platform"
 

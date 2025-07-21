@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/if_ether.h>
+#include <robux/if_ether.h>
 
-#include <linux/bpf.h>
+#include <robux/bpf.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_endian.h>
 

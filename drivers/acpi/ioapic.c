@@ -20,9 +20,9 @@
 
 #define pr_fmt(fmt) "ACPI: IOAPIC: " fmt
 
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/pci.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
+#include <robux/pci.h>
 #include <acpi/acpi.h>
 #include "internal.h"
 

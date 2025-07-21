@@ -17,23 +17,23 @@
  * Copyright (C) 2024 Mobileye Vision Technologies Ltd.
  */
 
-#include <linux/array_size.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bits.h>
-#include <linux/bug.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bits.h>
+#include <robux/bug.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinconf.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinconf.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "core.h"
 #include "pinctrl-utils.h"

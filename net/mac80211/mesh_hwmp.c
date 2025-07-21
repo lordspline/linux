@@ -5,9 +5,9 @@
  * Author:     Luis Carlos Cobo <luisca@cozybit.com>
  */
 
-#include <linux/slab.h>
-#include <linux/etherdevice.h>
-#include <linux/unaligned.h>
+#include <robux/slab.h>
+#include <robux/etherdevice.h>
+#include <robux/unaligned.h>
 #include "wme.h"
 #include "mesh.h"
 

@@ -14,25 +14,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kobject.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/efi.h>
-#include <linux/of.h>
-#include <linux/initrd.h>
-#include <linux/io.h>
-#include <linux/kexec.h>
-#include <linux/platform_device.h>
-#include <linux/random.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/ucs2_string.h>
-#include <linux/memblock.h>
-#include <linux/security.h>
-#include <linux/notifier.h>
+#include <robux/kobject.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/efi.h>
+#include <robux/of.h>
+#include <robux/initrd.h>
+#include <robux/io.h>
+#include <robux/kexec.h>
+#include <robux/platform_device.h>
+#include <robux/random.h>
+#include <robux/reboot.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
+#include <robux/ucs2_string.h>
+#include <robux/memblock.h>
+#include <robux/security.h>
+#include <robux/notifier.h>
 
 #include <asm/early_ioremap.h>
 

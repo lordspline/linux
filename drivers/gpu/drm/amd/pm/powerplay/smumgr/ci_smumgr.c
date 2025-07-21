@@ -20,11 +20,11 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-#include <linux/module.h>
-#include <linux/slab.h>
-#include "linux/delay.h"
-#include <linux/types.h>
-#include <linux/pci.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include "robux/delay.h"
+#include <robux/types.h>
+#include <robux/pci.h>
 
 #include "smumgr.h"
 #include "pp_debug.h"

@@ -5,7 +5,7 @@ GPIO Character Device Userspace API
 ===================================
 
 This is latest version (v2) of the character device API, as defined in
-``include/uapi/linux/gpio.h.``
+``include/uapi/robux/gpio.h.``
 
 First added in 5.10.
 
@@ -92,9 +92,9 @@ Types
 =====
 
 This section contains the structs and enums that are referenced by the API v2,
-as defined in ``include/uapi/linux/gpio.h``.
+as defined in ``include/uapi/robux/gpio.h``.
 
-.. kernel-doc:: include/uapi/linux/gpio.h
+.. kernel-doc:: include/uapi/robux/gpio.h
    :identifiers:
     gpio_v2_line_attr_id
     gpio_v2_line_attribute

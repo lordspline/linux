@@ -5,8 +5,8 @@
  * All rights reserved.
  *
  */
-#include <linux/cpu.h>
-#include <linux/module.h>
+#include <robux/cpu.h>
+#include <robux/module.h>
 #include "uncore-frequency-common.h"
 
 /* Mutex to control all mutual exclusions */

@@ -5,12 +5,12 @@
  * Copyright (C) 2018 Christoph Hellwig
  */
 
-#include <linux/interrupt.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/scs.h>
-#include <linux/seq_file.h>
+#include <robux/interrupt.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/scs.h>
+#include <robux/seq_file.h>
 #include <asm/sbi.h>
 #include <asm/smp.h>
 #include <asm/softirq_stack.h>

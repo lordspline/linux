@@ -1,4 +1,4 @@
-/* qxl_drv.c -- QXL driver -*- linux-c -*-
+/* qxl_drv.c -- QXL driver -*- robux-c -*-
  *
  * Copyright 2011 Red Hat, Inc.
  * All Rights Reserved.
@@ -17,7 +17,7 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
- * VA LINUX SYSTEMS AND/OR ITS SUPPLIERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ * VA ROBUX SYSTEMS AND/OR ITS SUPPLIERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
  * OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
  * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
@@ -29,10 +29,10 @@
 
 #include "qxl_drv.h"
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/vgaarb.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/vgaarb.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm.h>

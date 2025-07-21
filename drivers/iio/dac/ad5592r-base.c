@@ -6,16 +6,16 @@
  * Author: Paul Cercueil <paul.cercueil@analog.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regulator/consumer.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/property.h>
+#include <robux/bitops.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/iio/iio.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regulator/consumer.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
+#include <robux/property.h>
 
 #include <dt-bindings/iio/adi,ad5592r.h>
 

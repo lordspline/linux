@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 /* 
- * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  */
 
-#include <linux/sched/signal.h>
-#include <linux/sched/task.h>
-#include <linux/sched/mm.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
-#include <linux/oom.h>
-#include <linux/reboot.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/task.h>
+#include <robux/sched/mm.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
+#include <robux/oom.h>
+#include <robux/reboot.h>
 #include <kern_util.h>
 #include <os.h>
 #include <skas.h>

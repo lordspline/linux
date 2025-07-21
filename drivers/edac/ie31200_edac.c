@@ -44,13 +44,13 @@
  * but lo_hi_readq() ensures that we are safe across all e3-1200 processors.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/edac.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/edac.h>
 
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
 #include <asm/mce.h>
 #include <asm/msr.h>
 #include "edac_module.h"

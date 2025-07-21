@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * lm75.c - Part of lm_sensors, Linux kernel modules for hardware
+ * lm75.c - Part of lm_sensors, Robux kernel modules for hardware
  *	 monitoring
  * Copyright (c) 1998, 1999  Frodo Looijaard <frodol@dds.nl>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/i3c/device.h>
-#include <linux/hwmon.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/util_macros.h>
-#include <linux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/i2c.h>
+#include <robux/i3c/device.h>
+#include <robux/hwmon.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/util_macros.h>
+#include <robux/regulator/consumer.h>
 #include "lm75.h"
 
 /*

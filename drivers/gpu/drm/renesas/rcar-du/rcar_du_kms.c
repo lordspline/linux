@@ -18,13 +18,13 @@
 #include <drm/drm_probe_helper.h>
 #include <drm/drm_vblank.h>
 
-#include <linux/device.h>
-#include <linux/dma-buf.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/wait.h>
+#include <robux/device.h>
+#include <robux/dma-buf.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/wait.h>
 
 #include "rcar_du_crtc.h"
 #include "rcar_du_drv.h"

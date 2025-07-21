@@ -8,8 +8,8 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/iopoll.h>
-#include <linux/pm_runtime.h>
+#include <robux/iopoll.h>
+#include <robux/pm_runtime.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-mc.h>
 #include <media/videobuf2-core.h>

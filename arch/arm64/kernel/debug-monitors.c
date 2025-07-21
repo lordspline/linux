@@ -7,15 +7,15 @@
  * Author: Will Deacon <will.deacon@arm.com>
  */
 
-#include <linux/cpu.h>
-#include <linux/debugfs.h>
-#include <linux/hardirq.h>
-#include <linux/init.h>
-#include <linux/ptrace.h>
-#include <linux/kprobes.h>
-#include <linux/stat.h>
-#include <linux/uaccess.h>
-#include <linux/sched/task_stack.h>
+#include <robux/cpu.h>
+#include <robux/debugfs.h>
+#include <robux/hardirq.h>
+#include <robux/init.h>
+#include <robux/ptrace.h>
+#include <robux/kprobes.h>
+#include <robux/stat.h>
+#include <robux/uaccess.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/cpufeature.h>
 #include <asm/cputype.h>

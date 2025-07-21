@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (C) 2015-2017 Broadcom
 
-#include <linux/bitops.h>
-#include <linux/gpio/driver.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/string_choices.h>
+#include <robux/bitops.h>
+#include <robux/gpio/driver.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/irqdomain.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/string_choices.h>
 
 enum gio_reg_index {
 	GIO_REG_ODEN = 0,

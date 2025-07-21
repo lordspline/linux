@@ -6,9 +6,9 @@
 #ifndef STM32_FIREWALL_DEVICE_H
 #define STM32_FIREWALL_DEVICE_H
 
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
 
 #define STM32_FIREWALL_MAX_EXTRA_ARGS		5
 

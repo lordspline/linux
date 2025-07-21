@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef _TOOLS_LINUX_COMPILER_H_
-#error "Please do not include <linux/compiler-gcc.h> directly, include <linux/compiler.h> instead."
+#error "Please do not include <robux/compiler-gcc.h> directly, include <robux/compiler.h> instead."
 #endif
 
 /*

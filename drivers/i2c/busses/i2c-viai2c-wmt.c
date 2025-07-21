@@ -2,15 +2,15 @@
 /*
  *  Wondermedia I2C Controller Driver
  *
- *  Copyright (C) 2012 Tony Prisk <linux@prisktech.co.nz>
+ *  Copyright (C) 2012 Tony Prisk <robux@prisktech.co.nz>
  *
  *  Derived from GPLv2+ licensed source:
  *  - Copyright (C) 2008 WonderMedia Technologies, Inc.
  */
 
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 #include "i2c-viai2c-common.h"
 
 #define REG_SLAVE_CR	0x10
@@ -173,6 +173,6 @@ static struct platform_driver wmt_i2c_driver = {
 module_platform_driver(wmt_i2c_driver);
 
 MODULE_DESCRIPTION("Wondermedia I2C controller driver");
-MODULE_AUTHOR("Tony Prisk <linux@prisktech.co.nz>");
+MODULE_AUTHOR("Tony Prisk <robux@prisktech.co.nz>");
 MODULE_LICENSE("GPL");
 MODULE_DEVICE_TABLE(of, wmt_i2c_dt_ids);

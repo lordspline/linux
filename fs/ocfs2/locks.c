@@ -7,9 +7,9 @@
  * Copyright (C) 2007 Oracle.  All rights reserved.
  */
 
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/fcntl.h>
+#include <robux/fs.h>
+#include <robux/filelock.h>
+#include <robux/fcntl.h>
 
 #include <cluster/masklog.h>
 

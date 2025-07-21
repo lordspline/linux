@@ -13,8 +13,8 @@
 
 #ifdef __KERNEL__
 
-#include <linux/types.h>
-#include <linux/blk_types.h>
+#include <robux/types.h>
+#include <robux/blk_types.h>
 
 struct dm_io_region {
 	struct block_device *bdev;

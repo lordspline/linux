@@ -23,9 +23,9 @@
 #include <asm/vfp.h>
 #include "../vfp/vfpinstr.h"
 
-#include <linux/of.h>
-#include <linux/perf/arm_pmu.h>
-#include <linux/platform_device.h>
+#include <robux/of.h>
+#include <robux/perf/arm_pmu.h>
+#include <robux/platform_device.h>
 
 /*
  * Common ARMv7 event types

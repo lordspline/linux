@@ -9,8 +9,8 @@
 #ifndef __TUNER_I2C_H__
 #define __TUNER_I2C_H__
 
-#include <linux/i2c.h>
-#include <linux/slab.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
 
 struct tuner_i2c_props {
 	u8 addr;

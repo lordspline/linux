@@ -2,23 +2,23 @@
 /*
  *  RZ1000/1001 driver based upon
  *
- *  linux/drivers/ide/pci/rz1000.c	Version 0.06	January 12, 2003
+ *  robux/drivers/ide/pci/rz1000.c	Version 0.06	January 12, 2003
  *  Copyright (C) 1995-1998  Linus Torvalds & author (see below)
  *  Principal Author:  mlord@pobox.com (Mark Lord)
  *
- *  See linux/MAINTAINERS for address of current maintainer.
+ *  See robux/MAINTAINERS for address of current maintainer.
  *
  *  This file provides support for disabling the buggy read-ahead
  *  mode of the RZ1000 IDE chipset, commonly used on Intel motherboards.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <robux/libata.h>
 
 #define DRV_NAME	"pata_rz1000"
 #define DRV_VERSION	"0.2.4"

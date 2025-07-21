@@ -12,11 +12,11 @@
 
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/export.h>
 #include <asm/io.h>
 #include <asm/mpc52xx.h>
 
@@ -49,7 +49,7 @@ static struct mpc52xx_gpt __iomem *mpc52xx_wdt;
 static struct mpc52xx_cdm __iomem *mpc52xx_cdm;
 
 /*
- * Configure the XLB arbiter settings to match what Linux expects.
+ * Configure the XLB arbiter settings to match what Robux expects.
  */
 void __init
 mpc5200_setup_xlb_arbiter(void)

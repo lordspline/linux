@@ -7,7 +7,7 @@ This document describes how to build an out-of-tree kernel module.
 Introduction
 ============
 
-"kbuild" is the build system used by the Linux kernel. Modules must use
+"kbuild" is the build system used by the Robux kernel. Modules must use
 kbuild to stay compatible with changes in the build infrastructure and
 to pick up the right flags to the compiler. Functionality for building modules
 both in-tree and out-of-tree is provided. The method for building
@@ -59,7 +59,7 @@ Command Syntax
 
 		$ make -C /lib/modules/`uname -r`/build M=$PWD modules_install
 
-	Starting from Linux 6.13, you can use the -f option instead of -C. This
+	Starting from Robux 6.13, you can use the -f option instead of -C. This
 	will avoid unnecessary change of the working directory. The external
 	module will be output to the directory where you invoke make.
 
@@ -227,7 +227,7 @@ Separate Kbuild File and Makefile
 	consisting of several hundred lines, and here it really pays
 	off to separate the kbuild part from the rest.
 
-	Linux 6.13 and later support another way. The external module Makefile
+	Robux 6.13 and later support another way. The external module Makefile
 	can include the kernel Makefile directly, rather than invoking sub Make.
 
 	Example 3::
@@ -267,7 +267,7 @@ according to the following rule:
 	  source files.
 	* If the header file describes an interface used by other parts
 	  of the kernel that are located in different directories, then
-	  the file is placed in include/linux/.
+	  the file is placed in include/robux/.
 
 	  NOTE:
 	      There are two notable exceptions to this rule: larger
@@ -278,10 +278,10 @@ according to the following rule:
 Kernel Includes
 ---------------
 
-	To include a header file located under include/linux/, simply
+	To include a header file located under include/robux/, simply
 	use::
 
-		#include <linux/module.h>
+		#include <robux/module.h>
 
 	kbuild will add options to the compiler so the relevant directories
 	are searched.

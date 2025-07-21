@@ -4,11 +4,11 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/compiler.h>
-#include <linux/linkage.h>
-#include <linux/irqflags.h>
-#include <linux/reboot.h>
-#include <linux/percpu.h>
+#include <robux/compiler.h>
+#include <robux/linkage.h>
+#include <robux/irqflags.h>
+#include <robux/reboot.h>
+#include <robux/percpu.h>
 
 extern void cpu_init(void);
 

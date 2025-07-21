@@ -8,10 +8,10 @@
  * Copyright (C) 2009 Lemote Inc.
  * Author: Wu Zhangjin <wuzhangjin@gmail.com>
  */
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
 
 #include <loongson.h>
 

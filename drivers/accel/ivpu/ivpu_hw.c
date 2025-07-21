@@ -8,9 +8,9 @@
 #include "ivpu_hw_btrs.h"
 #include "ivpu_hw_ip.h"
 
-#include <linux/dmi.h>
-#include <linux/fault-inject.h>
-#include <linux/pm_runtime.h>
+#include <robux/dmi.h>
+#include <robux/fault-inject.h>
+#include <robux/pm_runtime.h>
 
 #ifdef CONFIG_FAULT_INJECTION
 DECLARE_FAULT_ATTR(ivpu_hw_failure);

@@ -10,16 +10,16 @@
 #ifndef CX25821_VIDEO_H_
 #define CX25821_VIDEO_H_
 
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kmod.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/kthread.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kmod.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/kthread.h>
 #include <asm/div64.h>
 
 #include "cx25821.h"

@@ -12,17 +12,17 @@
  * This controller supports square key matrices from 1x1 up to 8x8
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/irq.h>
-#include <linux/pm.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/input/matrix_keypad.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/irq.h>
+#include <robux/pm.h>
+#include <robux/platform_device.h>
+#include <robux/input.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/input/matrix_keypad.h>
 
 #define DRV_NAME				"lpc32xx_keys"
 

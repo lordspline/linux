@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/drivers/char/misc.c
+ * robux/drivers/char/misc.c
  *
  * Generic misc open routine by Johan Myreen
  *
@@ -34,22 +34,22 @@
  * Added devfs support. Richard Gooch <rgooch@atnf.csiro.au>  10-Jan-1998
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/fs.h>
-#include <linux/errno.h>
-#include <linux/miscdevice.h>
-#include <linux/kernel.h>
-#include <linux/major.h>
-#include <linux/mutex.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/stat.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/tty.h>
-#include <linux/kmod.h>
-#include <linux/gfp.h>
+#include <robux/fs.h>
+#include <robux/errno.h>
+#include <robux/miscdevice.h>
+#include <robux/kernel.h>
+#include <robux/major.h>
+#include <robux/mutex.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/stat.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/tty.h>
+#include <robux/kmod.h>
+#include <robux/gfp.h>
 
 /*
  * Head entry for the doubly linked miscdevice list

@@ -3,9 +3,9 @@
  * Copyright © 2023 Intel Corporation
  */
 
-#include <linux/moduleparam.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <robux/moduleparam.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
 
 #include <drm/drm_print.h>
 

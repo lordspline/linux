@@ -6,11 +6,11 @@
  * Copyright (C) 2008 Analog Devices, Inc
  */
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/atomic.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/atomic.h>
 
 #include "u_uac1_legacy.h"
 

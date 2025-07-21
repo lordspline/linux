@@ -4,7 +4,7 @@
 #ifndef __NETC_GLOBAL_H
 #define __NETC_GLOBAL_H
 
-#include <linux/io.h>
+#include <robux/io.h>
 
 static inline u32 netc_read(void __iomem *reg)
 {

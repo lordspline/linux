@@ -8,11 +8,11 @@
  * Author: James Ogletree <james.ogletree@cirrus.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/input.h>
-#include <linux/mfd/cs40l50.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/bitfield.h>
+#include <robux/input.h>
+#include <robux/mfd/cs40l50.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 
 /* Wavetables */
 #define CS40L50_RAM_INDEX_START		0x1000000

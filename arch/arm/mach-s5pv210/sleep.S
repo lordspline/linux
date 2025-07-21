@@ -8,7 +8,7 @@
  *	Ben Dooks, (c) 2008 Simtec Electronics
  */
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 	.text
 	.align

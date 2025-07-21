@@ -4,21 +4,21 @@
 /* Written 1999 by Greg Banks, NEC Australia <gnb@linuxfan.com>. Based on suni.c */
 
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/atmdev.h>
-#include <linux/sonet.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/init.h>
-#include <linux/capability.h>
-#include <linux/atm_idt77105.h>
-#include <linux/spinlock.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/errno.h>
+#include <robux/atmdev.h>
+#include <robux/sonet.h>
+#include <robux/delay.h>
+#include <robux/timer.h>
+#include <robux/init.h>
+#include <robux/capability.h>
+#include <robux/atm_idt77105.h>
+#include <robux/spinlock.h>
+#include <robux/slab.h>
 #include <asm/param.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "idt77105.h"
 

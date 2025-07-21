@@ -11,11 +11,11 @@
  *	Copyright (C) 2004 Jan M. Hochstein
  *	<hochstein@algo.informatik.tu-darmstadt.de>
  */
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/usb/input.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/usb/input.h>
 #include <media/rc-core.h>
 
 #define DRIVER_DESC		"IgorPlug-USB IR Receiver"

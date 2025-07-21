@@ -3,12 +3,12 @@
  * RT288x/Au1xxx driver
  */
 
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/serial.h>
+#include <robux/serial_8250.h>
 
 #include "8250.h"
 

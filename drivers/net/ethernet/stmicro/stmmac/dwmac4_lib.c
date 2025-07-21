@@ -5,9 +5,9 @@
  * Author: Alexandre Torgue <alexandre.torgue@st.com>
  */
 
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/delay.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/delay.h>
 #include "common.h"
 #include "dwmac4_dma.h"
 #include "dwmac4.h"

@@ -73,9 +73,9 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/etherdevice.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/etherdevice.h>
 
 #include "tag.h"
 

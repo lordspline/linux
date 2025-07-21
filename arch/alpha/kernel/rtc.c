@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/alpha/kernel/rtc.c
+ *  robux/arch/alpha/kernel/rtc.c
  *
  *  Copyright (C) 1991, 1992, 1995, 1999, 2000  Linus Torvalds
  *
  * This file contains date handling.
  */
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/string.h>
-#include <linux/mc146818rtc.h>
-#include <linux/bcd.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/param.h>
+#include <robux/string.h>
+#include <robux/mc146818rtc.h>
+#include <robux/bcd.h>
+#include <robux/rtc.h>
+#include <robux/platform_device.h>
 
 #include "proto.h"
 

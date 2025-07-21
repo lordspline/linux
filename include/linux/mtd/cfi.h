@@ -6,14 +6,14 @@
 #ifndef __MTD_CFI_H__
 #define __MTD_CFI_H__
 
-#include <linux/delay.h>
-#include <linux/types.h>
-#include <linux/bug.h>
-#include <linux/interrupt.h>
-#include <linux/mtd/flashchip.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/cfi_endian.h>
-#include <linux/mtd/xip.h>
+#include <robux/delay.h>
+#include <robux/types.h>
+#include <robux/bug.h>
+#include <robux/interrupt.h>
+#include <robux/mtd/flashchip.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/cfi_endian.h>
+#include <robux/mtd/xip.h>
 
 #ifdef CONFIG_MTD_CFI_I1
 #define cfi_interleave(cfi) 1

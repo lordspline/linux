@@ -10,11 +10,11 @@
 #include <crypto/md5.h>
 #include <crypto/sha1.h>
 #include <crypto/sha2.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
-#include <linux/types.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/pm_runtime.h>
+#include <robux/scatterlist.h>
+#include <robux/types.h>
 
 #define _SBF(v, f)			((v) << (f))
 

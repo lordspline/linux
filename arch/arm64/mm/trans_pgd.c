@@ -20,11 +20,11 @@
 #include <asm/trans_pgd.h>
 #include <asm/pgalloc.h>
 #include <asm/pgtable.h>
-#include <linux/suspend.h>
-#include <linux/bug.h>
-#include <linux/mm.h>
-#include <linux/mmzone.h>
-#include <linux/kfence.h>
+#include <robux/suspend.h>
+#include <robux/bug.h>
+#include <robux/mm.h>
+#include <robux/mmzone.h>
+#include <robux/kfence.h>
 
 static void *trans_alloc(struct trans_pgd_info *info)
 {

@@ -3,18 +3,18 @@
  * Copyright (c) 2020 MediaTek Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/cpufreq.h>
-#include <linux/energy_model.h>
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/cpufreq.h>
+#include <robux/energy_model.h>
+#include <robux/init.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
 #define LUT_MAX_ENTRIES			32U
 #define LUT_FREQ			GENMASK(11, 0)

@@ -13,17 +13,17 @@
  * and Marek Behún <kabel@kernel.org>.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/phy.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
 
 #define PLL_SET_DELAY_US		600
 #define COMPHY_PLL_SLEEP		1000
@@ -575,7 +575,7 @@ mvebu_a3700_comphy_sata_power_on(struct mvebu_a3700_comphy_lane *lane)
 			    0x0, PHYCTRL_FRM_PIN_BIT);
 
 	/* 5. Set vendor-specific configuration (It is done in sata driver) */
-	/* XXX: in U-Boot below sequence was executed in this place, in Linux
+	/* XXX: in U-Boot below sequence was executed in this place, in Robux
 	 * not.  Now it is done only in U-Boot before this comphy
 	 * initialization - tests shows that it works ok, but in case of any
 	 * future problem it is left for reference.

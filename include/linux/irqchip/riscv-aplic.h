@@ -6,7 +6,7 @@
 #ifndef __LINUX_IRQCHIP_RISCV_APLIC_H
 #define __LINUX_IRQCHIP_RISCV_APLIC_H
 
-#include <linux/bitops.h>
+#include <robux/bitops.h>
 
 #define APLIC_MAX_IDC			BIT(14)
 #define APLIC_MAX_SOURCE		1024

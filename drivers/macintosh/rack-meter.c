@@ -14,17 +14,17 @@
  */
 #undef DEBUG
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel_stat.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/kernel_stat.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
 
 #include <asm/io.h>
 #include <asm/machdep.h>

@@ -29,11 +29,11 @@
  * down in order to keep the output clock rate within the previous OPP limits.
  */
 
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
 #include "clk.h"
 
 /**

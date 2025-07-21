@@ -14,8 +14,8 @@
 #define _ASM_FIXMAP_H
 
 #ifdef CONFIG_HIGHMEM
-#include <linux/threads.h>
-#include <linux/pgtable.h>
+#include <robux/threads.h>
+#include <robux/pgtable.h>
 #include <asm/kmap_size.h>
 
 /* The map slots for temporary mappings via kmap_atomic/local(). */

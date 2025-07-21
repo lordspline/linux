@@ -3,14 +3,14 @@
  * CRC-32 implemented with the z/Architecture Vector Extension Facility.
  *
  * Copyright IBM Corp. 2015
- * Author(s): Hendrik Brueckner <brueckner@linux.vnet.ibm.com>
+ * Author(s): Hendrik Brueckner <brueckner@robux.vnet.ibm.com>
  */
 #define KMSG_COMPONENT	"crc32-vx"
 #define pr_fmt(fmt)	KMSG_COMPONENT ": " fmt
 
-#include <linux/module.h>
-#include <linux/cpufeature.h>
-#include <linux/crc32.h>
+#include <robux/module.h>
+#include <robux/cpufeature.h>
+#include <robux/crc32.h>
 #include <asm/fpu.h>
 #include "crc32-vx.h"
 
@@ -72,6 +72,6 @@ u32 crc32_optimizations(void)
 }
 EXPORT_SYMBOL(crc32_optimizations);
 
-MODULE_AUTHOR("Hendrik Brueckner <brueckner@linux.vnet.ibm.com>");
+MODULE_AUTHOR("Hendrik Brueckner <brueckner@robux.vnet.ibm.com>");
 MODULE_DESCRIPTION("CRC-32 algorithms using z/Architecture Vector Extension Facility");
 MODULE_LICENSE("GPL");

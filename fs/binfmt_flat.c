@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 /****************************************************************************/
 /*
- *  linux/fs/binfmt_flat.c
+ *  robux/fs/binfmt_flat.c
  *
  *	Copyright (C) 2000-2003 David McCullough <davidm@snapgear.com>
  *	Copyright (C) 2002 Greg Ungerer <gerg@snapgear.com>
@@ -9,37 +9,37 @@
  *	Copyright (C) 2000, 2001 Lineo, by David McCullough <davidm@lineo.com>
  *  based heavily on:
  *
- *  linux/fs/binfmt_aout.c:
+ *  robux/fs/binfmt_aout.c:
  *      Copyright (C) 1991, 1992, 1996  Linus Torvalds
- *  linux/fs/binfmt_flat.c for 2.0 kernel
+ *  robux/fs/binfmt_flat.c for 2.0 kernel
  *	    Copyright (C) 1998  Kenneth Albanowski <kjahds@kjahds.com>
  *	JAN/99 -- coded full program relocation (gerg@snapgear.com)
  */
 
 #define pr_fmt(fmt)	KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/errno.h>
-#include <linux/signal.h>
-#include <linux/string.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/slab.h>
-#include <linux/binfmts.h>
-#include <linux/personality.h>
-#include <linux/init.h>
-#include <linux/flat.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
+#include <robux/errno.h>
+#include <robux/signal.h>
+#include <robux/string.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/ptrace.h>
+#include <robux/user.h>
+#include <robux/slab.h>
+#include <robux/binfmts.h>
+#include <robux/personality.h>
+#include <robux/init.h>
+#include <robux/flat.h>
+#include <robux/uaccess.h>
+#include <robux/vmalloc.h>
 
 #include <asm/byteorder.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <asm/cacheflush.h>
 #include <asm/page.h>
 #include <asm/flat.h>
@@ -166,7 +166,7 @@ static int create_flat_tables(struct linux_binprm *bprm, unsigned long arg_start
 
 #ifdef CONFIG_BINFMT_ZFLAT
 
-#include <linux/zlib.h>
+#include <robux/zlib.h>
 
 #define LBUFSIZE	4000
 

@@ -21,14 +21,14 @@
  *
  */
 
-#include <linux/dmi.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/clocksource.h>
-#include <linux/cpu.h>
-#include <linux/efi.h>
-#include <linux/reboot.h>
-#include <linux/static_call.h>
+#include <robux/dmi.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/clocksource.h>
+#include <robux/cpu.h>
+#include <robux/efi.h>
+#include <robux/reboot.h>
+#include <robux/static_call.h>
 #include <asm/div64.h>
 #include <asm/x86_init.h>
 #include <asm/hypervisor.h>

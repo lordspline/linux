@@ -6,16 +6,16 @@
  *  Based on EP93xx wdt driver
  */
 
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/watchdog.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/uaccess.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/bitops.h>
+#include <robux/watchdog.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/uaccess.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
 
 #include <lantiq_soc.h>
 

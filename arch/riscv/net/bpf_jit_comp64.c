@@ -5,11 +5,11 @@
  *
  */
 
-#include <linux/bitfield.h>
-#include <linux/bpf.h>
-#include <linux/filter.h>
-#include <linux/memory.h>
-#include <linux/stop_machine.h>
+#include <robux/bitfield.h>
+#include <robux/bpf.h>
+#include <robux/filter.h>
+#include <robux/memory.h>
+#include <robux/stop_machine.h>
 #include <asm/text-patching.h>
 #include <asm/cfi.h>
 #include <asm/percpu.h>

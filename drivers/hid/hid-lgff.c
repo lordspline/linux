@@ -17,8 +17,8 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/input.h>
-#include <linux/hid.h>
+#include <robux/input.h>
+#include <robux/hid.h>
 
 #include "hid-lg.h"
 

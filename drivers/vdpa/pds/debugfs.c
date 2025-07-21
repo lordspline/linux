@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright(c) 2023 Advanced Micro Devices, Inc */
 
-#include <linux/pci.h>
-#include <linux/vdpa.h>
+#include <robux/pci.h>
+#include <robux/vdpa.h>
 
-#include <linux/pds/pds_common.h>
-#include <linux/pds/pds_core_if.h>
-#include <linux/pds/pds_adminq.h>
-#include <linux/pds/pds_auxbus.h>
+#include <robux/pds/pds_common.h>
+#include <robux/pds/pds_core_if.h>
+#include <robux/pds/pds_adminq.h>
+#include <robux/pds/pds_auxbus.h>
 
 #include "aux_drv.h"
 #include "vdpa_dev.h"

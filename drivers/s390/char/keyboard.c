@@ -7,15 +7,15 @@
  *    Author(s): Martin Schwidefsky (schwidefsky@de.ibm.com),
  */
 
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/sysrq.h>
+#include <robux/module.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/sysrq.h>
 
-#include <linux/consolemap.h>
-#include <linux/kbd_kern.h>
-#include <linux/kbd_diacr.h>
-#include <linux/uaccess.h>
+#include <robux/consolemap.h>
+#include <robux/kbd_kern.h>
+#include <robux/kbd_diacr.h>
+#include <robux/uaccess.h>
 
 #include "keyboard.h"
 

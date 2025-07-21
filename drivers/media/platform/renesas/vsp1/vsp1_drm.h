@@ -9,9 +9,9 @@
 #ifndef __VSP1_DRM_H__
 #define __VSP1_DRM_H__
 
-#include <linux/mutex.h>
-#include <linux/videodev2.h>
-#include <linux/wait.h>
+#include <robux/mutex.h>
+#include <robux/videodev2.h>
+#include <robux/wait.h>
 
 #include <media/vsp1.h>
 

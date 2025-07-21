@@ -4,11 +4,11 @@
  * Copyright (C) 2020 Marvell.
  *
  */
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/etherdevice.h>
-#include <linux/pci.h>
-#include <linux/wait.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/etherdevice.h>
+#include <robux/pci.h>
+#include <robux/wait.h>
 
 #include "octep_config.h"
 #include "octep_main.h"

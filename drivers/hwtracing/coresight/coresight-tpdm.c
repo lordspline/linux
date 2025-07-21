@@ -3,18 +3,18 @@
  * Copyright (c) 2023-2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/amba/bus.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/coresight.h>
-#include <linux/coresight-pmu.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/amba/bus.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/coresight.h>
+#include <robux/coresight-pmu.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/fs.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
 
 #include "coresight-priv.h"
 #include "coresight-tpdm.h"

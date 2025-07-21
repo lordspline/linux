@@ -4,12 +4,12 @@
  * Copyright by Pf@nne & NOTRO
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
 
-#include <linux/gpio/consumer.h>
+#include <robux/gpio/consumer.h>
 #include "fbtft.h"
 
 #define DRVNAME "fb_ra8875"

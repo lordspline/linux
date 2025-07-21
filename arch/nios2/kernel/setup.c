@@ -10,15 +10,15 @@
  * for more details.
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/sched/task.h>
-#include <linux/console.h>
-#include <linux/memblock.h>
-#include <linux/initrd.h>
-#include <linux/of_fdt.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/sched/task.h>
+#include <robux/console.h>
+#include <robux/memblock.h>
+#include <robux/initrd.h>
+#include <robux/of_fdt.h>
 
 #include <asm/mmu_context.h>
 #include <asm/sections.h>

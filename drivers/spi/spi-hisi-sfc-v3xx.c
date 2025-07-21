@@ -5,17 +5,17 @@
 // Copyright (c) 2019 HiSilicon Technologies Co., Ltd.
 // Author: John Garry <john.garry@huawei.com>
 
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/dmi.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
+#include <robux/bitops.h>
+#include <robux/completion.h>
+#include <robux/dmi.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
 
 #define HISI_SFC_V3XX_VERSION (0x1f8)
 

@@ -5,14 +5,14 @@
  * Copyright (C) 2009, Marvell International Ltd.
  **/
 
-#include <linux/firmware.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
+#include <robux/firmware.h>
+#include <robux/slab.h>
+#include <robux/suspend.h>
 
-#include <linux/mmc/sdio_ids.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/module.h>
-#include <linux/devcoredump.h>
+#include <robux/mmc/sdio_ids.h>
+#include <robux/mmc/sdio_func.h>
+#include <robux/module.h>
+#include <robux/devcoredump.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

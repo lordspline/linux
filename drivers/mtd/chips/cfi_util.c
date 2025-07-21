@@ -7,20 +7,20 @@
  * Copyright (C) 2003 STMicroelectronics Limited
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
 #include <asm/io.h>
 #include <asm/byteorder.h>
 
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/mtd/xip.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/cfi.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/mtd/xip.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/cfi.h>
 
 void cfi_udelay(int us)
 {

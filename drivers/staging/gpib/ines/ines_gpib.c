@@ -11,15 +11,15 @@
 
 #include "ines.h"
 
-#include <linux/pci.h>
-#include <linux/pci_ids.h>
-#include <linux/bitops.h>
+#include <robux/pci.h>
+#include <robux/pci_ids.h>
+#include <robux/bitops.h>
 #include <asm/dma.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 #include "gpib_pci_ids.h"
 
 MODULE_LICENSE("GPL");
@@ -981,10 +981,10 @@ static struct pci_driver ines_pci_driver = {
 
 #ifdef CONFIG_GPIB_PCMCIA
 
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/string.h>
-#include <linux/timer.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/string.h>
+#include <robux/timer.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>

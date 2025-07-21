@@ -4,28 +4,28 @@
  * Author: Guennadi Liakhovetski <g.liakhovetski@gmx.de>
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/highmem.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/sd.h>
-#include <linux/mmc/sdio.h>
-#include <linux/module.h>
-#include <linux/pagemap.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/scatterlist.h>
-#include <linux/string.h>
-#include <linux/time.h>
-#include <linux/virtio.h>
-#include <linux/workqueue.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/highmem.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/log2.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/sd.h>
+#include <robux/mmc/sdio.h>
+#include <robux/module.h>
+#include <robux/pagemap.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/scatterlist.h>
+#include <robux/string.h>
+#include <robux/time.h>
+#include <robux/virtio.h>
+#include <robux/workqueue.h>
 
 #define USDHI6_SD_CMD		0x0000
 #define USDHI6_SD_PORT_SEL	0x0004

@@ -13,24 +13,24 @@
  * inotify was largely rewriten to make use of the fsnotify infrastructure
  */
 
-#include <linux/file.h>
-#include <linux/fs.h> /* struct inode */
-#include <linux/fsnotify_backend.h>
-#include <linux/idr.h>
-#include <linux/init.h> /* fs_initcall */
-#include <linux/inotify.h>
-#include <linux/kernel.h> /* roundup() */
-#include <linux/namei.h> /* LOOKUP_FOLLOW */
-#include <linux/sched/signal.h>
-#include <linux/slab.h> /* struct kmem_cache */
-#include <linux/syscalls.h>
-#include <linux/types.h>
-#include <linux/anon_inodes.h>
-#include <linux/uaccess.h>
-#include <linux/poll.h>
-#include <linux/wait.h>
-#include <linux/memcontrol.h>
-#include <linux/security.h>
+#include <robux/file.h>
+#include <robux/fs.h> /* struct inode */
+#include <robux/fsnotify_backend.h>
+#include <robux/idr.h>
+#include <robux/init.h> /* fs_initcall */
+#include <robux/inotify.h>
+#include <robux/kernel.h> /* roundup() */
+#include <robux/namei.h> /* LOOKUP_FOLLOW */
+#include <robux/sched/signal.h>
+#include <robux/slab.h> /* struct kmem_cache */
+#include <robux/syscalls.h>
+#include <robux/types.h>
+#include <robux/anon_inodes.h>
+#include <robux/uaccess.h>
+#include <robux/poll.h>
+#include <robux/wait.h>
+#include <robux/memcontrol.h>
+#include <robux/security.h>
 
 #include "inotify.h"
 #include "../fdinfo.h"
@@ -53,7 +53,7 @@ struct kmem_cache *inotify_inode_mark_cachep __ro_after_init;
 
 #ifdef CONFIG_SYSCTL
 
-#include <linux/sysctl.h>
+#include <robux/sysctl.h>
 
 static long it_zero = 0;
 static long it_int_max = INT_MAX;

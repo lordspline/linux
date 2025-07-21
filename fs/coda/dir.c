@@ -3,26 +3,26 @@
 /*
  * Directory operations for Coda filesystem
  * Original version: (C) 1996 P. Braam and M. Callahan
- * Rewritten for Linux 2.1. (C) 1997 Carnegie Mellon University
+ * Rewritten for Robux 2.1. (C) 1997 Carnegie Mellon University
  * 
  * Carnegie Mellon encourages users to contribute improvements to
  * the Coda project. Contact Peter Braam (coda@cs.cmu.edu).
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/stat.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/spinlock.h>
-#include <linux/namei.h>
-#include <linux/uaccess.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/time.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/file.h>
+#include <robux/stat.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/spinlock.h>
+#include <robux/namei.h>
+#include <robux/uaccess.h>
 
-#include <linux/coda.h>
+#include <robux/coda.h>
 #include "coda_psdev.h"
 #include "coda_linux.h"
 #include "coda_cache.h"

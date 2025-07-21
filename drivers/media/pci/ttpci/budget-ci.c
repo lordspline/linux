@@ -13,12 +13,12 @@
  * the project's page is at https://linuxtv.org
  */
 
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/workqueue.h>
 #include <media/rc-core.h>
 
 #include "budget.h"

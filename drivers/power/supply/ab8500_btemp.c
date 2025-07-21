@@ -10,25 +10,25 @@
  *	Arun R Murthy <arun.murthy@stericsson.com>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/component.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/completion.h>
-#include <linux/workqueue.h>
-#include <linux/jiffies.h>
-#include <linux/of.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/abx500.h>
-#include <linux/mfd/abx500/ab8500.h>
-#include <linux/thermal.h>
-#include <linux/iio/consumer.h>
-#include <linux/fixp-arith.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/component.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/completion.h>
+#include <robux/workqueue.h>
+#include <robux/jiffies.h>
+#include <robux/of.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/abx500.h>
+#include <robux/mfd/abx500/ab8500.h>
+#include <robux/thermal.h>
+#include <robux/iio/consumer.h>
+#include <robux/fixp-arith.h>
 
 #include "ab8500-bm.h"
 

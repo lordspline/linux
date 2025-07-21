@@ -9,21 +9,21 @@
  * TODO: illuminance channel
  */
 
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/cleanup.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/cleanup.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/delay.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/iio/sysfs.h>
-#include <linux/pm_runtime.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/iio/sysfs.h>
+#include <robux/pm_runtime.h>
 
 #define RPR0521_REG_SYSTEM_CTRL		0x40
 #define RPR0521_REG_MODE_CTRL		0x41

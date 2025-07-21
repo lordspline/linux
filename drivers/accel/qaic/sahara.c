@@ -2,16 +2,16 @@
 
 /* Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved. */
 
-#include <linux/devcoredump.h>
-#include <linux/firmware.h>
-#include <linux/limits.h>
-#include <linux/mhi.h>
-#include <linux/minmax.h>
-#include <linux/mod_devicetable.h>
-#include <linux/overflow.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
-#include <linux/workqueue.h>
+#include <robux/devcoredump.h>
+#include <robux/firmware.h>
+#include <robux/limits.h>
+#include <robux/mhi.h>
+#include <robux/minmax.h>
+#include <robux/mod_devicetable.h>
+#include <robux/overflow.h>
+#include <robux/types.h>
+#include <robux/vmalloc.h>
+#include <robux/workqueue.h>
 
 #include "sahara.h"
 

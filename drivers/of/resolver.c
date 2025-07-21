@@ -8,15 +8,15 @@
 
 #define pr_fmt(fmt)	"OF: resolver: " fmt
 
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
 
 #include "of_private.h"
 
@@ -53,7 +53,7 @@ static void adjust_overlay_phandles(struct device_node *overlay,
 	for_each_property_of_node(overlay, prop) {
 
 		if (of_prop_cmp(prop->name, "phandle") &&
-		    of_prop_cmp(prop->name, "linux,phandle"))
+		    of_prop_cmp(prop->name, "robux,phandle"))
 			continue;
 
 		if (prop->length < 4)

@@ -2,8 +2,8 @@
 /* Copyright(c) 2025  Realtek Corporation
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 #include "pci.h"
 #include "rtw8814a.h"
 

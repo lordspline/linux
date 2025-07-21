@@ -6,28 +6,28 @@
  *  Copyright (C) 1997-1999 Jakub Jelinek (jj@sunsite.mff.cuni.cz)
  */
  
-#include <linux/extable.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/initrd.h>
-#include <linux/swap.h>
-#include <linux/pagemap.h>
-#include <linux/poison.h>
-#include <linux/fs.h>
-#include <linux/seq_file.h>
-#include <linux/kprobes.h>
-#include <linux/cache.h>
-#include <linux/sort.h>
-#include <linux/ioport.h>
-#include <linux/percpu.h>
-#include <linux/mmzone.h>
-#include <linux/gfp.h>
-#include <linux/bootmem_info.h>
+#include <robux/extable.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
+#include <robux/mm.h>
+#include <robux/hugetlb.h>
+#include <robux/initrd.h>
+#include <robux/swap.h>
+#include <robux/pagemap.h>
+#include <robux/poison.h>
+#include <robux/fs.h>
+#include <robux/seq_file.h>
+#include <robux/kprobes.h>
+#include <robux/cache.h>
+#include <robux/sort.h>
+#include <robux/ioport.h>
+#include <robux/percpu.h>
+#include <robux/mmzone.h>
+#include <robux/gfp.h>
+#include <robux/bootmem_info.h>
 
 #include <asm/head.h>
 #include <asm/page.h>
@@ -35,7 +35,7 @@
 #include <asm/oplib.h>
 #include <asm/iommu.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/mmu_context.h>
 #include <asm/tlbflush.h>
 #include <asm/dma.h>
@@ -2464,7 +2464,7 @@ void __init paging_init(void)
 		free_area_init(max_zone_pfns);
 	}
 
-	printk("Booting Linux...\n");
+	printk("Booting Robux...\n");
 }
 
 int page_in_phys_avail(unsigned long paddr)

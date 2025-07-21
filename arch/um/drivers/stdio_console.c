@@ -3,20 +3,20 @@
  * Copyright (C) 2000, 2001 Jeff Dike (jdike@karaya.com)
  */
 
-#include <linux/posix_types.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/types.h>
-#include <linux/major.h>
-#include <linux/kdev_t.h>
-#include <linux/console.h>
-#include <linux/string.h>
-#include <linux/sched.h>
-#include <linux/list.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/hardirq.h>
+#include <robux/posix_types.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/types.h>
+#include <robux/major.h>
+#include <robux/kdev_t.h>
+#include <robux/console.h>
+#include <robux/string.h>
+#include <robux/sched.h>
+#include <robux/list.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/hardirq.h>
 #include <asm/current.h>
 #include <asm/irq.h>
 #include "stdio_console.h"

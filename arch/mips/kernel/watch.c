@@ -6,7 +6,7 @@
  * Copyright (C) 2008 David Daney
  */
 
-#include <linux/sched.h>
+#include <robux/sched.h>
 
 #include <asm/processor.h>
 #include <asm/watch.h>

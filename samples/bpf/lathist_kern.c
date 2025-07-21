@@ -5,9 +5,9 @@
  * modify it under the terms of version 2 of the GNU General Public
  * License as published by the Free Software Foundation.
  */
-#include <linux/version.h>
-#include <linux/ptrace.h>
-#include <uapi/linux/bpf.h>
+#include <robux/version.h>
+#include <robux/ptrace.h>
+#include <uapi/robux/bpf.h>
 #include <bpf/bpf_helpers.h>
 
 #define MAX_ENTRIES	20

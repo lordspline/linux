@@ -6,15 +6,15 @@
  *
  * This work was supported by the One Laptop Per Child project
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/videodev2.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/pci.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-ctrls.h>
@@ -22,11 +22,11 @@
 #include <media/v4l2-image-sizes.h>
 #include <media/i2c/ov7670.h>
 #include <media/videobuf2-dma-sg.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/pm_qos.h>
-#include <linux/via-core.h>
-#include <linux/via_i2c.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/pm_qos.h>
+#include <robux/via-core.h>
+#include <robux/via_i2c.h>
 
 #ifdef CONFIG_X86
 #include <asm/olpc.h>

@@ -10,15 +10,15 @@
 
 #include "ssb_private.h"
 
-#include <linux/ssb/ssb.h>
+#include <robux/ssb/ssb.h>
 
-#include <linux/mtd/physmap.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/time.h>
+#include <robux/mtd/physmap.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/serial_reg.h>
+#include <robux/time.h>
 #ifdef CONFIG_BCM47XX
-#include <linux/bcm47xx_nvram.h>
+#include <robux/bcm47xx_nvram.h>
 #endif
 
 static const char * const part_probes[] = { "bcm47xxpart", NULL };

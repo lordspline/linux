@@ -3,7 +3,7 @@
  * Scheduler topology setup/handling methods
  */
 
-#include <linux/bsearch.h>
+#include <robux/bsearch.h>
 
 DEFINE_MUTEX(sched_domains_mutex);
 void sched_domains_mutex_lock(void)
@@ -34,7 +34,7 @@ static inline bool sched_debug(void)
 
 #define SD_FLAG(_name, mflags) [__##_name] = { .meta_flags = mflags, .name = #_name },
 const struct sd_flag_debug sd_flag_debug[] = {
-#include <linux/sched/sd_flags.h>
+#include <robux/sched/sd_flags.h>
 };
 #undef SD_FLAG
 
@@ -161,7 +161,7 @@ static void sched_domain_debug(struct sched_domain *sd, int cpu)
 /* Generate a mask of SD flags with the SDF_NEEDS_GROUPS metaflag */
 #define SD_FLAG(name, mflags) (name * !!((mflags) & SDF_NEEDS_GROUPS)) |
 static const unsigned int SD_DEGENERATE_GROUPS_MASK =
-#include <linux/sched/sd_flags.h>
+#include <robux/sched/sd_flags.h>
 0;
 #undef SD_FLAG
 
@@ -1605,7 +1605,7 @@ static struct cpumask		***sched_domains_numa_masks;
  *
  * These flags are purely descriptive of the topology and do not prescribe
  * behaviour. Behaviour is artificial and mapped in the below sd_init()
- * function. For details, see include/linux/sched/sd_flags.h.
+ * function. For details, see include/robux/sched/sd_flags.h.
  *
  *   SD_SHARE_CPUCAPACITY
  *   SD_SHARE_LLC

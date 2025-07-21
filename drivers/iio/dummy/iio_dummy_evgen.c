@@ -10,18 +10,18 @@
  * particular use case.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/sysfs.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/sysfs.h>
 
 #include "iio_dummy_evgen.h"
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/irq_sim.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/irq_sim.h>
 
 /* Fiddly bit of faking and irq without hardware */
 #define IIO_EVENTGEN_NO 10

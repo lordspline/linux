@@ -4,8 +4,8 @@
  *
  * Copyright (c) 2021, Intel Corporation.
  *
- * Authors: Aubrey Li <aubrey.li@linux.intel.com>
- *          Ricardo Neri <ricardo.neri-calderon@linux.intel.com>
+ * Authors: Aubrey Li <aubrey.li@robux.intel.com>
+ *          Ricardo Neri <ricardo.neri-calderon@robux.intel.com>
  *
  *
  * The Hardware Feedback Interface provides a performance and energy efficiency
@@ -21,25 +21,25 @@
 
 #define pr_fmt(fmt)  "intel-hfi: " fmt
 
-#include <linux/bitops.h>
-#include <linux/cpufeature.h>
-#include <linux/cpumask.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/math.h>
-#include <linux/mutex.h>
-#include <linux/percpu-defs.h>
-#include <linux/printk.h>
-#include <linux/processor.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/suspend.h>
-#include <linux/string.h>
-#include <linux/syscore_ops.h>
-#include <linux/topology.h>
-#include <linux/workqueue.h>
+#include <robux/bitops.h>
+#include <robux/cpufeature.h>
+#include <robux/cpumask.h>
+#include <robux/delay.h>
+#include <robux/gfp.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/math.h>
+#include <robux/mutex.h>
+#include <robux/percpu-defs.h>
+#include <robux/printk.h>
+#include <robux/processor.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/suspend.h>
+#include <robux/string.h>
+#include <robux/syscore_ops.h>
+#include <robux/topology.h>
+#include <robux/workqueue.h>
 
 #include <asm/msr.h>
 
@@ -676,7 +676,7 @@ void __init intel_hfi_init(void)
 
 	/*
 	 * Note: HFI resources are managed at the physical package scope.
-	 * There could be platforms that enumerate packages as Linux dies.
+	 * There could be platforms that enumerate packages as Robux dies.
 	 * Special handling would be needed if this happens on an HFI-capable
 	 * platform.
 	 */

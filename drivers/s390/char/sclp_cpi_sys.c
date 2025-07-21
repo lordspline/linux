@@ -10,18 +10,18 @@
 #define KMSG_COMPONENT "sclp_cpi"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/stat.h>
-#include <linux/device.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/kmod.h>
-#include <linux/timer.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/completion.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/stat.h>
+#include <robux/device.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
+#include <robux/kmod.h>
+#include <robux/timer.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/completion.h>
+#include <robux/export.h>
 #include <asm/ebcdic.h>
 #include <asm/sclp.h>
 

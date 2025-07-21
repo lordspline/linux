@@ -7,18 +7,18 @@
 // Author: Shenghao Ding <shenghao-ding@ti.com>
 // Current maintainer: Baojun Xu <baojun.xu@ti.com>
 
-#include <linux/unaligned.h>
-#include <linux/acpi.h>
-#include <linux/crc8.h>
-#include <linux/crc32.h>
-#include <linux/efi.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pci_ids.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
+#include <robux/unaligned.h>
+#include <robux/acpi.h>
+#include <robux/crc8.h>
+#include <robux/crc32.h>
+#include <robux/efi.h>
+#include <robux/firmware.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pci_ids.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
 #include <sound/hda_codec.h>
 #include <sound/soc.h>
 #include <sound/tas2781.h>

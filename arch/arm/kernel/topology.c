@@ -11,20 +11,20 @@
  * for more details.
  */
 
-#include <linux/arch_topology.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/cpumask.h>
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/percpu.h>
-#include <linux/node.h>
-#include <linux/nodemask.h>
-#include <linux/of.h>
-#include <linux/sched.h>
-#include <linux/sched/topology.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/arch_topology.h>
+#include <robux/cpu.h>
+#include <robux/cpufreq.h>
+#include <robux/cpumask.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/percpu.h>
+#include <robux/node.h>
+#include <robux/nodemask.h>
+#include <robux/of.h>
+#include <robux/sched.h>
+#include <robux/sched/topology.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 #include <asm/cpu.h>
 #include <asm/cputype.h>

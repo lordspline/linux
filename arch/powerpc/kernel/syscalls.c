@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *  Implementation of various system calls for Linux/PowerPC
+ *  Implementation of various system calls for Robux/PowerPC
  *
  *    Copyright (C) 1995-1996 Gary Thomas (gdt@linuxppc.org)
  *
@@ -10,28 +10,28 @@
  * and Paul Mackerras (paulus@cs.anu.edu.au).
  *
  * This file contains various random system calls that
- * have a non-standard calling sequence on the Linux/PPC
+ * have a non-standard calling sequence on the Robux/PPC
  * platform.
  */
 
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/syscalls.h>
-#include <linux/mm.h>
-#include <linux/fs.h>
-#include <linux/smp.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/stat.h>
-#include <linux/mman.h>
-#include <linux/sys.h>
-#include <linux/ipc.h>
-#include <linux/utsname.h>
-#include <linux/file.h>
-#include <linux/personality.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/syscalls.h>
+#include <robux/mm.h>
+#include <robux/fs.h>
+#include <robux/smp.h>
+#include <robux/sem.h>
+#include <robux/msg.h>
+#include <robux/shm.h>
+#include <robux/stat.h>
+#include <robux/mman.h>
+#include <robux/sys.h>
+#include <robux/ipc.h>
+#include <robux/utsname.h>
+#include <robux/file.h>
+#include <robux/personality.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/syscalls.h>
 #include <asm/time.h>
 #include <asm/unistd.h>

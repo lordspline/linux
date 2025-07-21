@@ -7,9 +7,9 @@
 #ifndef I915_SW_FENCE_WORK_H
 #define I915_SW_FENCE_WORK_H
 
-#include <linux/dma-fence.h>
-#include <linux/spinlock.h>
-#include <linux/workqueue.h>
+#include <robux/dma-fence.h>
+#include <robux/spinlock.h>
+#include <robux/workqueue.h>
 
 #include "i915_sw_fence.h"
 

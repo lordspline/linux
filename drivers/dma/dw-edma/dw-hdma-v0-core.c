@@ -4,9 +4,9 @@
  * Synopsys DesignWare HDMA v0 core
  */
 
-#include <linux/bitfield.h>
-#include <linux/irqreturn.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <robux/bitfield.h>
+#include <robux/irqreturn.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
 
 #include "dw-edma-core.h"
 #include "dw-hdma-v0-core.h"

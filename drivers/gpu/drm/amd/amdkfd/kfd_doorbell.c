@@ -21,11 +21,11 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 #include "kfd_priv.h"
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/idr.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/idr.h>
 
 /*
  * This extension supports a kernel level doorbells management for the

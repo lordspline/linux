@@ -16,8 +16,8 @@
  *      RFC1071 Computing the Internet Checksum
  */
 
-#include <linux/in6.h>
-#include <linux/uaccess.h>
+#include <robux/in6.h>
+#include <robux/uaccess.h>
 
 /* computes the checksum of a memory block at buff, length len,
  * and adds in "sum" (32-bit)

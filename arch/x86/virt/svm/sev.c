@@ -8,17 +8,17 @@
  *
  */
 
-#include <linux/cc_platform.h>
-#include <linux/printk.h>
-#include <linux/mm_types.h>
-#include <linux/set_memory.h>
-#include <linux/memblock.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/cpumask.h>
-#include <linux/iommu.h>
-#include <linux/amd-iommu.h>
-#include <linux/nospec.h>
+#include <robux/cc_platform.h>
+#include <robux/printk.h>
+#include <robux/mm_types.h>
+#include <robux/set_memory.h>
+#include <robux/memblock.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/cpumask.h>
+#include <robux/iommu.h>
+#include <robux/amd-iommu.h>
+#include <robux/nospec.h>
 
 #include <asm/sev.h>
 #include <asm/processor.h>

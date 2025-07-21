@@ -6,21 +6,21 @@
  * Used by Master driver
  */
 
-#include <linux/cleanup.h>
-#include <linux/crc8.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/debugfs.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/pm_runtime.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/soundwire/sdw.h>
+#include <robux/cleanup.h>
+#include <robux/crc8.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/debugfs.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/pm_runtime.h>
+#include <robux/soundwire/sdw_registers.h>
+#include <robux/soundwire/sdw.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
-#include <linux/workqueue.h>
+#include <robux/workqueue.h>
 #include "bus.h"
 #include "cadence_master.h"
 

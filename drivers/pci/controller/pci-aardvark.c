@@ -8,22 +8,22 @@
  * Author: Hezi Shahmoon <hezi.shahmoon@marvell.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci-ecam.h>
-#include <linux/init.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/msi.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pci-ecam.h>
+#include <robux/init.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/msi.h>
+#include <robux/of_address.h>
+#include <robux/of_pci.h>
 
 #include "../pci.h"
 #include "../pci-bridge-emul.h"

@@ -2,10 +2,10 @@
 #ifndef _SPARC64_PGALLOC_H
 #define _SPARC64_PGALLOC_H
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
 
 #include <asm/spitfire.h>
 #include <asm/cpudata.h>

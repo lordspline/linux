@@ -10,11 +10,11 @@
 #undef pr_fmt
 #define pr_fmt(fmt) KBUILD_MODNAME " L" __stringify(__LINE__) ": " fmt
 
-#include <linux/module.h>
-#include <linux/blkdev.h>
-#include <linux/hdreg.h>
-#include <linux/scatterlist.h>
-#include <linux/idr.h>
+#include <robux/module.h>
+#include <robux/blkdev.h>
+#include <robux/hdreg.h>
+#include <robux/scatterlist.h>
+#include <robux/idr.h>
 
 #include "rnbd-clt.h"
 

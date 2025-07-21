@@ -3,9 +3,9 @@
  * Host bridge related code
  */
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/module.h>
 
 #include "pci.h"
 

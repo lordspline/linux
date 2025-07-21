@@ -2,14 +2,14 @@
 /*
  * Kernel module loader for Hexagon
  *
- * Copyright (c) 2010-2011, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2011, The Robux Foundation. All rights reserved.
  */
 
 #include <asm/module.h>
-#include <linux/elf.h>
-#include <linux/module.h>
-#include <linux/moduleloader.h>
-#include <linux/vmalloc.h>
+#include <robux/elf.h>
+#include <robux/module.h>
+#include <robux/moduleloader.h>
+#include <robux/vmalloc.h>
 
 #if 0
 #define DEBUGP printk

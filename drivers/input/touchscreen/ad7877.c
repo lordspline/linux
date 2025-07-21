@@ -22,15 +22,15 @@
  */
 
 
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/ad7877.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/ad7877.h>
+#include <robux/module.h>
 #include <asm/irq.h>
 
 #define	TS_PEN_UP_TIMEOUT	msecs_to_jiffies(100)
@@ -332,7 +332,7 @@ static int ad7877_process_data(struct ad7877 *ts)
 	 * The preprocessing function consists of an averaging filter.
 	 * The combination of 'first conversion delay' and averaging provides a robust solution,
 	 * discarding the spurious noise in the signal and keeping only the data of interest.
-	 * The size of the averaging filter is programmable. (dev.platform_data, see linux/spi/ad7877.h)
+	 * The size of the averaging filter is programmable. (dev.platform_data, see robux/spi/ad7877.h)
 	 * Other user-programmable conversion controls include variable acquisition time,
 	 * and first conversion delay. Up to 16 averages can be taken per conversion.
 	 */

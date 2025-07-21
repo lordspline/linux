@@ -6,7 +6,7 @@
 #ifndef __INTEL_SNPS_HDMI_PLL_H__
 #define __INTEL_SNPS_HDMI_PLL_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct intel_c10pll_state;
 struct intel_mpllb_state;

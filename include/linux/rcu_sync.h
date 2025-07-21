@@ -10,8 +10,8 @@
 #ifndef _LINUX_RCU_SYNC_H_
 #define _LINUX_RCU_SYNC_H_
 
-#include <linux/wait.h>
-#include <linux/rcupdate.h>
+#include <robux/wait.h>
+#include <robux/rcupdate.h>
 
 /* Structure to mediate between updaters and fastpath-using readers.  */
 struct rcu_sync {

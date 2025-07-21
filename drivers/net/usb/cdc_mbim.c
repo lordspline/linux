@@ -7,17 +7,17 @@
  * Copyright (C) ST-Ericsson 2010-2012
  */
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/ip.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/usb/cdc.h>
-#include <linux/usb/usbnet.h>
-#include <linux/usb/cdc-wdm.h>
-#include <linux/usb/cdc_ncm.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/if_vlan.h>
+#include <robux/ip.h>
+#include <robux/mii.h>
+#include <robux/usb.h>
+#include <robux/usb/cdc.h>
+#include <robux/usb/usbnet.h>
+#include <robux/usb/cdc-wdm.h>
+#include <robux/usb/cdc_ncm.h>
 #include <net/ipv6.h>
 #include <net/addrconf.h>
 #include <net/ipv6_stubs.h>

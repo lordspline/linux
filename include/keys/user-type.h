@@ -8,8 +8,8 @@
 #ifndef _KEYS_USER_TYPE_H
 #define _KEYS_USER_TYPE_H
 
-#include <linux/key.h>
-#include <linux/rcupdate.h>
+#include <robux/key.h>
+#include <robux/rcupdate.h>
 
 #ifdef CONFIG_KEYS
 

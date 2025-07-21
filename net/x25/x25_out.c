@@ -17,11 +17,11 @@
  *					needed cleaned seq-number fields.
  */
 
-#include <linux/slab.h>
-#include <linux/socket.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/skbuff.h>
+#include <robux/slab.h>
+#include <robux/socket.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/skbuff.h>
 #include <net/sock.h>
 #include <net/x25.h>
 

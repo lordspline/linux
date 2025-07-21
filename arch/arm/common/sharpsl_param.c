@@ -7,9 +7,9 @@
  * Based on Sharp's 2.4 kernel patches
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
 #include <asm/mach/sharpsl_param.h>
 #include <asm/page.h>
 

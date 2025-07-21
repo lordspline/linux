@@ -8,7 +8,7 @@
 #ifndef __CCS_REGS_H__
 #define __CCS_REGS_H__
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 #include <media/v4l2-cci.h>
 

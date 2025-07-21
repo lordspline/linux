@@ -4,7 +4,7 @@
 #ifndef __LIBETH_TYPES_H
 #define __LIBETH_TYPES_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /**
  * struct libeth_sq_napi_stats - "hot" counters to update in Tx completion loop

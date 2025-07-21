@@ -5,7 +5,7 @@
 
 #include "open-chapter.h"
 
-#include <linux/log2.h>
+#include <robux/log2.h>
 
 #include "logger.h"
 #include "memory-alloc.h"

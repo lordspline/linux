@@ -8,11 +8,11 @@
 #ifndef _LINUX_NETPOLL_H
 #define _LINUX_NETPOLL_H
 
-#include <linux/netdevice.h>
-#include <linux/interrupt.h>
-#include <linux/rcupdate.h>
-#include <linux/list.h>
-#include <linux/refcount.h>
+#include <robux/netdevice.h>
+#include <robux/interrupt.h>
+#include <robux/rcupdate.h>
+#include <robux/list.h>
+#include <robux/refcount.h>
 
 union inet_addr {
 	__u32		all[4];

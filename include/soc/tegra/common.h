@@ -6,8 +6,8 @@
 #ifndef __SOC_TEGRA_COMMON_H__
 #define __SOC_TEGRA_COMMON_H__
 
-#include <linux/errno.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/types.h>
 
 struct device;
 

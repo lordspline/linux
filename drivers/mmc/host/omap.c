@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/drivers/mmc/host/omap.c
+ *  robux/drivers/mmc/host/omap.c
  *
  *  Copyright (C) 2004 Nokia Corporation
  *  Written by Tuukka Tikkanen and Juha Yrjölä<juha.yrjola@nokia.com>
@@ -8,27 +8,27 @@
  *  Other hacks (DMA, SD, etc) by David Brownell
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/of.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/mmc.h>
-#include <linux/clk.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_data/mmc-omap.h>
-#include <linux/workqueue.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
+#include <robux/of.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/mmc.h>
+#include <robux/clk.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/gpio/consumer.h>
+#include <robux/platform_data/mmc-omap.h>
+#include <robux/workqueue.h>
 
 
 #define	OMAP_MMC_REG_CMD	0x00

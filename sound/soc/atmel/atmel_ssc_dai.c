@@ -14,15 +14,15 @@
  * Liam Girdwood <lrg@slimlogic.co.uk>
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/atmel_pdc.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/atmel_pdc.h>
 
-#include <linux/atmel-ssc.h>
+#include <robux/atmel-ssc.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

@@ -4,9 +4,9 @@
 #ifndef _IXGBE_TYPE_H_
 #define _IXGBE_TYPE_H_
 
-#include <linux/types.h>
-#include <linux/mdio.h>
-#include <linux/netdevice.h>
+#include <robux/types.h>
+#include <robux/mdio.h>
+#include <robux/netdevice.h>
 #include "ixgbe_type_e610.h"
 
 /* Device IDs */

@@ -3,8 +3,8 @@
 #ifndef __ASM_CSKY_IO_H
 #define __ASM_CSKY_IO_H
 
-#include <linux/pgtable.h>
-#include <linux/types.h>
+#include <robux/pgtable.h>
+#include <robux/types.h>
 
 /*
  * I/O memory access primitives. Reads are ordered relative to any

@@ -5,13 +5,13 @@
 
  */
 
-#include <linux/compiler.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/via-core.h>
-#include <linux/via_i2c.h>
+#include <robux/compiler.h>
+#include <robux/module.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/stat.h>
+#include <robux/via-core.h>
+#include <robux/via_i2c.h>
 
 #define _MASTER_FILE
 #include "global.h"

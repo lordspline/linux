@@ -10,18 +10,18 @@
  * Updated by Felipe Balbi <felipe.balbi@nokia.com>
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/leds.h>
-#include <linux/platform_data/lm8323.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
+#include <robux/input.h>
+#include <robux/leds.h>
+#include <robux/platform_data/lm8323.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
 
 /* Commands to send to the chip. */
 #define LM8323_CMD_READ_ID		0x80 /* Read chip ID. */

@@ -9,7 +9,7 @@
 #ifndef _SUNHME_H
 #define _SUNHME_H
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 /* Happy Meal global registers. */
 #define GREG_SWRESET	0x000UL	/* Software Reset  */
@@ -276,7 +276,7 @@
  * Debugging eeprom burnt code is more fun than programming this chip!
  */
 
-/* Generic MII registers defined in linux/mii.h, these below
+/* Generic MII registers defined in robux/mii.h, these below
  * are DP83840 specific.
  */
 #define DP83840_CSCONFIG        0x17        /* CS configuration            */

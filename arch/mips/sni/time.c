@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/types.h>
-#include <linux/i8253.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/smp.h>
-#include <linux/time.h>
-#include <linux/clockchips.h>
+#include <robux/types.h>
+#include <robux/i8253.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/smp.h>
+#include <robux/time.h>
+#include <robux/clockchips.h>
 
 #include <asm/sni.h>
 #include <asm/time.h>

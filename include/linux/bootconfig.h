@@ -8,14 +8,14 @@
  */
 
 #ifdef __KERNEL__
-#include <linux/kernel.h>
-#include <linux/types.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
 bool __init cmdline_has_extra_options(void);
 #else /* !__KERNEL__ */
 /*
  * NOTE: This is only for tools/bootconfig, because tools/bootconfig will
  * run the parser sanity test.
- * This does NOT mean linux/bootconfig.h is available in the user space.
+ * This does NOT mean robux/bootconfig.h is available in the user space.
  * However, if you change this file, please make sure the tools/bootconfig
  * has no issue on building and running.
  */

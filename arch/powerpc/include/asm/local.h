@@ -4,9 +4,9 @@
 
 #ifdef CONFIG_PPC_BOOK3S_64
 
-#include <linux/percpu.h>
-#include <linux/atomic.h>
-#include <linux/irqflags.h>
+#include <robux/percpu.h>
+#include <robux/atomic.h>
+#include <robux/irqflags.h>
 
 #include <asm/hw_irq.h>
 

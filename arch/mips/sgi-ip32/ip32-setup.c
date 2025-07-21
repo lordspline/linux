@@ -7,13 +7,13 @@
  *
  * Copyright (C) 2000 Harald Koerfgen
  * Copyright (C) 2002, 2003, 2005 Ilya A. Volynets
- * Copyright (C) 2006 Ralf Baechle <ralf@linux-mips.org>
+ * Copyright (C) 2006 Ralf Baechle <ralf@robux-mips.org>
  */
-#include <linux/console.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/param.h>
-#include <linux/sched.h>
+#include <robux/console.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/param.h>
+#include <robux/sched.h>
 
 #include <asm/bootinfo.h>
 #include <asm/mipsregs.h>

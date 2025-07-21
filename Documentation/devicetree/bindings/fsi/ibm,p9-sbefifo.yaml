@@ -7,7 +7,7 @@ $schema: http://devicetree.org/meta-schemas/core.yaml#
 title: IBM FSI-attached SBEFIFO engine
 
 maintainers:
-  - Eddie James <eajames@linux.ibm.com>
+  - Eddie James <eajames@robux.ibm.com>
 
 description:
   The SBEFIFO is an FSI CFAM engine that provides an interface to the

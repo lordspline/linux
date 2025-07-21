@@ -3,23 +3,23 @@
  * Copyright (c) 2004 Evgeniy Polyakov <zbr@ioremap.net>
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/hwmon.h>
-#include <linux/of.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/kthread.h>
+#include <robux/freezer.h>
+#include <robux/hwmon.h>
+#include <robux/of.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 
 #include "w1_internal.h"
 #include "w1_netlink.h"

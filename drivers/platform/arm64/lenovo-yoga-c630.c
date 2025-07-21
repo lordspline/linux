@@ -5,18 +5,18 @@
  *    Bjorn Andersson
  *    Dmitry Baryshkov
  */
-#include <linux/auxiliary_bus.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/irqreturn.h>
-#include <linux/lockdep.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/slab.h>
-#include <linux/platform_data/lenovo-yoga-c630.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/irqreturn.h>
+#include <robux/lockdep.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
+#include <robux/slab.h>
+#include <robux/platform_data/lenovo-yoga-c630.h>
 
 #define LENOVO_EC_RESPONSE_REG		0x01
 #define LENOVO_EC_REQUEST_REG		0x02

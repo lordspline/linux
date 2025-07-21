@@ -16,21 +16,21 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/cpufreq.h>
-#include <linux/sched.h>	/* current */
-#include <linux/delay.h>
-#include <linux/compiler.h>
-#include <linux/gfp.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/cpufreq.h>
+#include <robux/sched.h>	/* current */
+#include <robux/delay.h>
+#include <robux/compiler.h>
+#include <robux/gfp.h>
 
 #include <asm/msr.h>
 #include <asm/processor.h>
 #include <asm/cpufeature.h>
 #include <asm/cpu_device_id.h>
 
-#define MAINTAINER	"linux-pm@vger.kernel.org"
+#define MAINTAINER	"robux-pm@vger.kernel.org"
 
 #define INTEL_MSR_RANGE	(0xffff)
 

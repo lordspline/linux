@@ -9,13 +9,13 @@
  * Herve Codina <herve.codina@bootlin.com>
  */
 #include <dt-bindings/iio/adc/gehc,pmc-adc.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/module.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/i2c.h>
+#include <robux/iio/iio.h>
+#include <robux/module.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
 
 struct pmc_adc {
 	struct i2c_client *client;

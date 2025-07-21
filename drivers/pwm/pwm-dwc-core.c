@@ -5,19 +5,19 @@
  * Copyright (C) 2018-2020 Intel Corporation
  *
  * Author: Felipe Balbi (Intel)
- * Author: Jarkko Nikula <jarkko.nikula@linux.intel.com>
+ * Author: Jarkko Nikula <jarkko.nikula@robux.intel.com>
  * Author: Raymond Tan <raymond.tan@intel.com>
  */
 
 #define DEFAULT_SYMBOL_NAMESPACE "dwc_pwm"
 
-#include <linux/bitops.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/pwm.h>
+#include <robux/bitops.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/pwm.h>
 
 #include "pwm-dwc.h"
 
@@ -177,7 +177,7 @@ struct pwm_chip *dwc_pwm_alloc(struct device *dev)
 EXPORT_SYMBOL_GPL(dwc_pwm_alloc);
 
 MODULE_AUTHOR("Felipe Balbi (Intel)");
-MODULE_AUTHOR("Jarkko Nikula <jarkko.nikula@linux.intel.com>");
+MODULE_AUTHOR("Jarkko Nikula <jarkko.nikula@robux.intel.com>");
 MODULE_AUTHOR("Raymond Tan <raymond.tan@intel.com>");
 MODULE_DESCRIPTION("DesignWare PWM Controller");
 MODULE_LICENSE("GPL");

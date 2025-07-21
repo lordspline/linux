@@ -2,10 +2,10 @@
 
 #ifndef __WCD934X_H__
 #define __WCD934X_H__
-#include <linux/clk.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regmap.h>
-#include <linux/slimbus.h>
+#include <robux/clk.h>
+#include <robux/regulator/consumer.h>
+#include <robux/regmap.h>
+#include <robux/slimbus.h>
 
 #define WCD934X_MAX_SUPPLY	5
 

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) 2018 Synopsys, Inc. and/or its affiliates.
 
-#include <linux/regmap.h>
-#include <linux/i3c/device.h>
-#include <linux/i3c/master.h>
-#include <linux/module.h>
+#include <robux/regmap.h>
+#include <robux/i3c/device.h>
+#include <robux/i3c/master.h>
+#include <robux/module.h>
 
 static int regmap_i3c_write(void *context, const void *data, size_t count)
 {

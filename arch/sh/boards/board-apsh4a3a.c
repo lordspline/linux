@@ -6,17 +6,17 @@
  * Copyright (C) 2008  Yoshihiro Shimoda
  * Copyright (C) 2009  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/mtd/physmap.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/smsc911x.h>
-#include <linux/irq.h>
-#include <linux/clk.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/mtd/physmap.h>
+#include <robux/regulator/fixed.h>
+#include <robux/regulator/machine.h>
+#include <robux/smsc911x.h>
+#include <robux/irq.h>
+#include <robux/clk.h>
 #include <asm/machvec.h>
-#include <linux/sizes.h>
+#include <robux/sizes.h>
 #include <asm/clock.h>
 
 static struct mtd_partition nor_flash_partitions[] = {

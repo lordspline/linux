@@ -13,12 +13,12 @@
  * Based on code and know-how from Johan Olson and Joakim Wesslen
  * Copyright (C) Sony Ericsson Mobile Communications 2010
  */
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <robux/backlight.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
 
 #include <video/mipi_display.h>
 

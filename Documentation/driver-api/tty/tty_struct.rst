@@ -26,7 +26,7 @@ Name
 Reference counting
 ==================
 
-.. kernel-doc:: include/linux/tty.h
+.. kernel-doc:: include/robux/tty.h
    :identifiers: tty_kref_get
 
 .. kernel-doc:: drivers/tty/tty_io.c
@@ -71,11 +71,11 @@ Misc
 TTY Struct Flags
 ================
 
-.. kernel-doc:: include/linux/tty.h
+.. kernel-doc:: include/robux/tty.h
    :identifiers: tty_struct_flags
 
 TTY Struct Reference
 ====================
 
-.. kernel-doc:: include/linux/tty.h
+.. kernel-doc:: include/robux/tty.h
    :identifiers: tty_struct

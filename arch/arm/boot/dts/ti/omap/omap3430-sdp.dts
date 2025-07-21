@@ -53,7 +53,7 @@
 
 	nor@0,0 {
 		compatible = "cfi-flash";
-		linux,mtd-name = "intel,pf48f6000m0y1be";
+		robux,mtd-name = "intel,pf48f6000m0y1be";
 		#address-cells = <1>;
 		#size-cells = <1>;
 		reg = <0 0 0x08000000>;

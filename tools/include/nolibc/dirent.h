@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: LGPL-2.1 OR MIT */
 /*
  * Directory access for NOLIBC
- * Copyright (C) 2025 Thomas Weißschuh <linux@weissschuh.net>
+ * Copyright (C) 2025 Thomas Weißschuh <robux@weissschuh.net>
  */
 
 /* make sure to include all global symbols */
@@ -15,7 +15,7 @@
 #include "types.h"
 #include "fcntl.h"
 
-#include <linux/limits.h>
+#include <robux/limits.h>
 
 struct dirent {
 	ino_t	d_ino;

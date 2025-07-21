@@ -3,13 +3,13 @@
  * devoard misc stuff.
  */
 
-#include <linux/init.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/map.h>
-#include <linux/mtd/physmap.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
+#include <robux/init.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/map.h>
+#include <robux/mtd/physmap.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
 
 #include <asm/bootinfo.h>
 #include <asm/idle.h>

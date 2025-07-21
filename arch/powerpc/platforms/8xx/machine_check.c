@@ -2,9 +2,9 @@
 /*
  */
 
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/ptrace.h>
+#include <robux/kernel.h>
+#include <robux/printk.h>
+#include <robux/ptrace.h>
 
 #include <asm/reg.h>
 

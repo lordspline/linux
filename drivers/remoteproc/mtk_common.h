@@ -6,11 +6,11 @@
 #ifndef __RPROC_MTK_COMMON_H
 #define __RPROC_MTK_COMMON_H
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/remoteproc.h>
-#include <linux/remoteproc/mtk_scp.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/remoteproc.h>
+#include <robux/remoteproc/mtk_scp.h>
 
 #define MT8183_SW_RSTN			0x0
 #define MT8183_SW_RSTN_BIT		BIT(0)

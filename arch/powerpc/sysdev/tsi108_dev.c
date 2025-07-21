@@ -5,23 +5,23 @@
  * Maintained by Roy Zang < tie-fei.zang@freescale.com >
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/major.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/export.h>
-#include <linux/device.h>
-#include <linux/etherdevice.h>
-#include <linux/platform_device.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_net.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/major.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/export.h>
+#include <robux/device.h>
+#include <robux/etherdevice.h>
+#include <robux/platform_device.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_net.h>
 #include <asm/tsi108.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <mm/mmu_decl.h>

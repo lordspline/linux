@@ -7,20 +7,20 @@
  * Author: Hema HK <hemahk@ti.com>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/usb/musb.h>
-#include <linux/usb/phy_companion.h>
-#include <linux/phy/omap_usb.h>
-#include <linux/mfd/twl.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/usb/musb.h>
+#include <robux/usb/phy_companion.h>
+#include <robux/phy/omap_usb.h>
+#include <robux/mfd/twl.h>
+#include <robux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/of.h>
 
 /* usb register definitions */
 #define USB_VENDOR_ID_LSB		0x00

@@ -9,10 +9,10 @@
  * kind, whether express or implied.
  */
 
-#include <linux/init.h>
-#include <linux/of_address.h>
-#include <linux/of_fdt.h>
-#include <linux/of_platform.h>
+#include <robux/init.h>
+#include <robux/of_address.h>
+#include <robux/of_fdt.h>
+#include <robux/of_platform.h>
 
 #include <asm/machdep.h>
 #include <asm/io.h>

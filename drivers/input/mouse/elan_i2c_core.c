@@ -15,29 +15,29 @@
  * Trademarks are the property of their respective owners.
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/input/mt.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/string_choices.h>
-#include <linux/input.h>
-#include <linux/uaccess.h>
-#include <linux/jiffies.h>
-#include <linux/completion.h>
-#include <linux/of.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/unaligned.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/input/mt.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/string_choices.h>
+#include <robux/input.h>
+#include <robux/uaccess.h>
+#include <robux/jiffies.h>
+#include <robux/completion.h>
+#include <robux/of.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/unaligned.h>
 
 #include "elan_i2c.h"
 
@@ -1405,7 +1405,7 @@ static const struct i2c_device_id elan_id[] = {
 MODULE_DEVICE_TABLE(i2c, elan_id);
 
 #ifdef CONFIG_ACPI
-#include <linux/input/elan-i2c-ids.h>
+#include <robux/input/elan-i2c-ids.h>
 MODULE_DEVICE_TABLE(acpi, elan_acpi_id);
 #endif
 

@@ -6,12 +6,12 @@
 
 #define pr_fmt(fmt) "vfio-uml: " fmt
 
-#include <linux/module.h>
-#include <linux/logic_iomem.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/string.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/logic_iomem.h>
+#include <robux/mutex.h>
+#include <robux/list.h>
+#include <robux/string.h>
+#include <robux/unaligned.h>
 #include <irq_kern.h>
 #include <init.h>
 #include <os.h>

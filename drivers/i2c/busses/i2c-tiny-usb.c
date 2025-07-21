@@ -6,18 +6,18 @@
  * Copyright (C) 2006-2007 Till Harbaum (Till@Harbaum.org)
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/types.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/types.h>
 
 /* include interfaces to usb layer */
-#include <linux/usb.h>
+#include <robux/usb.h>
 
 /* include interface to i2c layer */
-#include <linux/i2c.h>
+#include <robux/i2c.h>
 
 /* commands via USB, must match command ids in the firmware */
 #define CMD_ECHO		0

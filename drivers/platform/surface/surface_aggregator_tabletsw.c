@@ -5,15 +5,15 @@
  * Copyright (C) 2022 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/input.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/unaligned.h>
+#include <robux/input.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
-#include <linux/surface_aggregator/controller.h>
-#include <linux/surface_aggregator/device.h>
+#include <robux/surface_aggregator/controller.h>
+#include <robux/surface_aggregator/device.h>
 
 
 /* -- SSAM generic tablet switch driver framework. -------------------------- */

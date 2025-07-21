@@ -12,9 +12,9 @@
  */
 
 
-#include <linux/input.h>
-#include <linux/usb.h>
-#include <linux/hid.h>
+#include <robux/input.h>
+#include <robux/usb.h>
+#include <robux/hid.h>
 
 #include "usbhid/usbhid.h"
 #include "hid-lg.h"

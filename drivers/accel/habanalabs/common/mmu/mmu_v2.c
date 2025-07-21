@@ -9,7 +9,7 @@
 #include "../../include/hw_ip/mmu/mmu_general.h"
 #include "../../include/hw_ip/mmu/mmu_v2_0.h"
 
-#include <linux/slab.h>
+#include <robux/slab.h>
 
 /**
  * hl_mmu_v2_ctx_init() - initialize a context for using the MMU module.

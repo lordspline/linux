@@ -6,12 +6,12 @@
  * Author: Li Yang
  */
 
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/io.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/io.h>
 
 #include <sysdev/fsl_soc.h>
 

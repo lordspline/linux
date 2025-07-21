@@ -5,10 +5,10 @@
  * Copyright (C) 2015-2017 Helen Koike <helen.fornazier@gmail.com>
  */
 
-#include <linux/moduleparam.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
-#include <linux/v4l2-mediabus.h>
+#include <robux/moduleparam.h>
+#include <robux/string.h>
+#include <robux/vmalloc.h>
+#include <robux/v4l2-mediabus.h>
 #include <media/v4l2-rect.h>
 #include <media/v4l2-subdev.h>
 

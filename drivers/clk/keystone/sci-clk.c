@@ -5,16 +5,16 @@
  * Copyright (C) 2015-2016 Texas Instruments Incorporated - https://www.ti.com/
  *	Tero Kristo <t-kristo@ti.com>
  */
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/soc/ti/ti_sci_protocol.h>
-#include <linux/bsearch.h>
-#include <linux/list_sort.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/soc/ti/ti_sci_protocol.h>
+#include <robux/bsearch.h>
+#include <robux/list_sort.h>
 
 #define SCI_CLK_SSC_ENABLE		BIT(0)
 #define SCI_CLK_ALLOW_FREQ_CHANGE	BIT(1)
@@ -568,7 +568,7 @@ static int ti_sci_scan_clocks_from_dt(struct sci_clk_provider *provider)
 					num_parents = 0;
 
 				/*
-				 * Linux kernel has inherent limitation
+				 * Robux kernel has inherent limitation
 				 * of 255 clock parents at the moment.
 				 * Right now, it is not expected that
 				 * any mux clock from sci-clk driver

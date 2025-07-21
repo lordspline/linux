@@ -30,9 +30,9 @@
 #include <netdb.h>
 #include <netinet/in.h>
 
-#include <linux/tcp.h>
-#include <linux/time_types.h>
-#include <linux/sockios.h>
+#include <robux/tcp.h>
+#include <robux/time_types.h>
+#include <robux/sockios.h>
 
 extern int optind;
 

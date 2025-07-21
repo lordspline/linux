@@ -7,15 +7,15 @@
  * DOC: Nitro Enclaves (NE) PCI device driver.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nitro_enclaves.h>
-#include <linux/pci.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/nitro_enclaves.h>
+#include <robux/pci.h>
+#include <robux/types.h>
+#include <robux/wait.h>
 
 #include "ne_misc_dev.h"
 #include "ne_pci_dev.h"

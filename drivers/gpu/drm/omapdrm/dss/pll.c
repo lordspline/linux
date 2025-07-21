@@ -5,12 +5,12 @@
 
 #define DSS_SUBSYS_NAME "PLL"
 
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sched.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/regulator/consumer.h>
+#include <robux/sched.h>
 
 #include "omapdss.h"
 #include "dss.h"

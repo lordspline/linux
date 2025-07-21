@@ -20,11 +20,11 @@
 
 #define pr_fmt(fmt) "X25: " fmt
 
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/skbuff.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/skbuff.h>
 #include <net/sock.h>
 #include <net/tcp_states.h>
 #include <net/x25.h>

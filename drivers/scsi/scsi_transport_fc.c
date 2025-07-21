@@ -8,12 +8,12 @@
  *    statistics, and service functions...
  *    Add vports, etc
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/bsg-lib.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/bsg-lib.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_transport.h>

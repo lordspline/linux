@@ -32,12 +32,12 @@
  * SOFTWARE.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/interrupt.h>
-#include <linux/gfp.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
+#include <robux/gfp.h>
 
 #include "mthca_dev.h"
 #include "mthca_config_reg.h"

@@ -6,10 +6,10 @@
  *      Suman Anna <s-anna@ti.com>
  */
 
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/clk.h>
-#include <linux/list.h>
+#include <robux/platform_device.h>
+#include <robux/err.h>
+#include <robux/clk.h>
+#include <robux/list.h>
 
 #include "clockdomain.h"
 #include "powerdomain.h"

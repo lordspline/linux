@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2020-2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020-2021, The Robux Foundation. All rights reserved.
  * Copyright (c) 2025 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/args.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/interconnect-provider.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/args.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/interconnect-provider.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <dt-bindings/interconnect/qcom,osm-l3.h>
 

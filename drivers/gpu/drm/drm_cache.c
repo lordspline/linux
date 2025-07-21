@@ -27,11 +27,11 @@
 /*
  * Authors: Thomas Hellström <thomas-at-tungstengraphics-dot-com>
  */
-#include <linux/cc_platform.h>
-#include <linux/export.h>
-#include <linux/highmem.h>
-#include <linux/ioport.h>
-#include <linux/iosys-map.h>
+#include <robux/cc_platform.h>
+#include <robux/export.h>
+#include <robux/highmem.h>
+#include <robux/ioport.h>
+#include <robux/iosys-map.h>
 #include <xen/xen.h>
 
 #include <drm/drm_cache.h>

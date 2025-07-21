@@ -20,18 +20,18 @@
 #define DRV_VER_MIN	10
 #define DRV_VER_UPD	3
 
-#include <linux/ethtool.h>
-#include <linux/interrupt.h>
-#include <linux/rhashtable.h>
-#include <linux/crash_dump.h>
-#include <linux/auxiliary_bus.h>
+#include <robux/ethtool.h>
+#include <robux/interrupt.h>
+#include <robux/rhashtable.h>
+#include <robux/crash_dump.h>
+#include <robux/auxiliary_bus.h>
 #include <net/devlink.h>
 #include <net/dst_metadata.h>
 #include <net/xdp.h>
-#include <linux/dim.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
+#include <robux/dim.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
 #ifdef CONFIG_TEE_BNXT_FW
-#include <linux/firmware/broadcom/tee_bnxt_fw.h>
+#include <robux/firmware/broadcom/tee_bnxt_fw.h>
 #endif
 
 #define BNXT_DEFAULT_RX_COPYBREAK 256

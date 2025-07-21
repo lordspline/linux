@@ -6,23 +6,23 @@
  *          Anurag Kumar Vulisha <anurag.kumar.vulisha@xilinx.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/reset.h>
-#include <linux/of_address.h>
-#include <linux/delay.h>
-#include <linux/firmware/xlnx-zynqmp.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of_platform.h>
+#include <robux/pm_runtime.h>
+#include <robux/reset.h>
+#include <robux/of_address.h>
+#include <robux/delay.h>
+#include <robux/firmware/xlnx-zynqmp.h>
+#include <robux/io.h>
 
-#include <linux/phy/phy.h>
+#include <robux/phy/phy.h>
 
 /* USB phy reset mask register */
 #define XLNX_USB_PHY_RST_EN			0x001C

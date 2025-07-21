@@ -7,7 +7,7 @@
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
 #include <sound/jack.h>
-#include <linux/module.h>
+#include <robux/module.h>
 
 #include "../codecs/wm8994.h"
 

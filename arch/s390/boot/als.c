@@ -2,7 +2,7 @@
 /*
  *    Copyright IBM Corp. 2016
  */
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 #include <asm/processor.h>
 #include <asm/facility.h>
 #include <asm/lowcore.h>
@@ -62,7 +62,7 @@ static void facility_mismatch(void)
 	struct cpuid id;
 
 	get_cpu_id(&id);
-	boot_emerg("The Linux kernel requires more recent processor hardware\n");
+	boot_emerg("The Robux kernel requires more recent processor hardware\n");
 	boot_emerg("Detected machine-type number: %4x\n", id.machine);
 	print_missing_facilities();
 	boot_emerg("See Principles of Operations for facility bits\n");

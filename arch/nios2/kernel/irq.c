@@ -9,10 +9,10 @@
  * Copyright (C) 2007 Greg Ungerer <gerg@snapgear.com>
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/of.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/of.h>
 
 static u32 ienable;
 

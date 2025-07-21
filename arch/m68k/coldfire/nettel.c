@@ -9,11 +9,11 @@
 
 /***************************************************************************/
 
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/param.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>
 #include <asm/nettel.h>

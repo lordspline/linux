@@ -5,27 +5,27 @@
  * Copyright (c) Harald Geyer <harald@ccbib.org>
  */
 
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/printk.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/sysfs.h>
-#include <linux/io.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/wait.h>
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/timekeeping.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/printk.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/sysfs.h>
+#include <robux/io.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/wait.h>
+#include <robux/bitops.h>
+#include <robux/completion.h>
+#include <robux/mutex.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/timekeeping.h>
 
-#include <linux/iio/iio.h>
+#include <robux/iio/iio.h>
 
 #define DRIVER_NAME	"dht11"
 

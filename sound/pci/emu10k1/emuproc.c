@@ -9,9 +9,9 @@
  *  Routines for control of EMU10K1 chips / proc interface routines
  */
 
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/string_choices.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/string_choices.h>
 #include <sound/core.h>
 #include <sound/emu10k1.h>
 #include "p16v.h"

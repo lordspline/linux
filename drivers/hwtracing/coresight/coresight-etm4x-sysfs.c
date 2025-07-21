@@ -4,10 +4,10 @@
  * Author: Mathieu Poirier <mathieu.poirier@linaro.org>
  */
 
-#include <linux/coresight.h>
-#include <linux/pid_namespace.h>
-#include <linux/pm_runtime.h>
-#include <linux/sysfs.h>
+#include <robux/coresight.h>
+#include <robux/pid_namespace.h>
+#include <robux/pm_runtime.h>
+#include <robux/sysfs.h>
 #include "coresight-etm4x.h"
 #include "coresight-priv.h"
 #include "coresight-syscfg.h"

@@ -9,15 +9,15 @@
  * Author: Steve Falco <sfalco@harris.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/gpio/legacy-of-mm-gpiochip.h>
-#include <linux/gpio/driver.h>
-#include <linux/types.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/gpio/legacy-of-mm-gpiochip.h>
+#include <robux/gpio/driver.h>
+#include <robux/types.h>
+#include <robux/slab.h>
 
 #define GPIO_MASK(gpio)		(0x80000000 >> (gpio))
 #define GPIO_MASK2(gpio)	(0xc0000000 >> ((gpio) * 2))

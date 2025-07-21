@@ -22,25 +22,25 @@
 #define DRIVER_NAME "ARM FF-A"
 #define pr_fmt(fmt) DRIVER_NAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/arm_ffa.h>
-#include <linux/bitfield.h>
-#include <linux/cpuhotplug.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/hashtable.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/of_irq.h>
-#include <linux/scatterlist.h>
-#include <linux/slab.h>
-#include <linux/smp.h>
-#include <linux/uuid.h>
-#include <linux/xarray.h>
+#include <robux/acpi.h>
+#include <robux/arm_ffa.h>
+#include <robux/bitfield.h>
+#include <robux/cpuhotplug.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/hashtable.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mm.h>
+#include <robux/mutex.h>
+#include <robux/of_irq.h>
+#include <robux/scatterlist.h>
+#include <robux/slab.h>
+#include <robux/smp.h>
+#include <robux/uuid.h>
+#include <robux/xarray.h>
 
 #include "common.h"
 

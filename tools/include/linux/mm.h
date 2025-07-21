@@ -2,8 +2,8 @@
 #ifndef _TOOLS_LINUX_MM_H
 #define _TOOLS_LINUX_MM_H
 
-#include <linux/align.h>
-#include <linux/mmzone.h>
+#include <robux/align.h>
+#include <robux/mmzone.h>
 
 #define PAGE_SHIFT		12
 #define PAGE_SIZE		(_AC(1, UL) << PAGE_SHIFT)

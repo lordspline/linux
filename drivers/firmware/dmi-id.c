@@ -5,12 +5,12 @@
  * Copyright 2007, Lennart Poettering
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/dmi.h>
-#include <linux/device.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/dmi.h>
+#include <robux/device.h>
+#include <robux/slab.h>
 
 struct dmi_device_attribute{
 	struct device_attribute dev_attr;

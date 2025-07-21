@@ -52,18 +52,18 @@
  */
 
 #include <dt-bindings/firmware/imx/rsrc.h>
-#include <linux/console.h>
-#include <linux/firmware/imx/sci.h>
-#include <linux/firmware/imx/svc/rm.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_domain.h>
-#include <linux/slab.h>
+#include <robux/console.h>
+#include <robux/firmware/imx/sci.h>
+#include <robux/firmware/imx/svc/rm.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/pm_domain.h>
+#include <robux/slab.h>
 
 /* SCU Power Mode Protocol definition */
 struct imx_sc_msg_req_set_resource_power_mode {

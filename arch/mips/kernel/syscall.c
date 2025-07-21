@@ -7,26 +7,26 @@
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  * Copyright (C) 2001 MIPS Technologies, Inc.
  */
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/linkage.h>
-#include <linux/fs.h>
-#include <linux/smp.h>
-#include <linux/ptrace.h>
-#include <linux/string.h>
-#include <linux/syscalls.h>
-#include <linux/file.h>
-#include <linux/utsname.h>
-#include <linux/unistd.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/compiler.h>
-#include <linux/ipc.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
-#include <linux/elf.h>
-#include <linux/sched/task_stack.h>
+#include <robux/capability.h>
+#include <robux/errno.h>
+#include <robux/linkage.h>
+#include <robux/fs.h>
+#include <robux/smp.h>
+#include <robux/ptrace.h>
+#include <robux/string.h>
+#include <robux/syscalls.h>
+#include <robux/file.h>
+#include <robux/utsname.h>
+#include <robux/unistd.h>
+#include <robux/sem.h>
+#include <robux/msg.h>
+#include <robux/shm.h>
+#include <robux/compiler.h>
+#include <robux/ipc.h>
+#include <robux/uaccess.h>
+#include <robux/slab.h>
+#include <robux/elf.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/asm.h>
 #include <asm/asm-eva.h>
@@ -46,7 +46,7 @@
  * For historic reasons the pipe(2) syscall on MIPS has an unusual calling
  * convention.	It returns results in registers $v0 / $v1 which means there
  * is no need for it to do verify the validity of a userspace pointer
- * argument.  Historically that used to be expensive in Linux.	These days
+ * argument.  Historically that used to be expensive in Robux.	These days
  * the performance advantage is negligible.
  */
 asmlinkage int sysm_pipe(void)

@@ -10,12 +10,12 @@
 #ifndef __DRIVERS_FRAMER_H
 #define __DRIVERS_FRAMER_H
 
-#include <linux/err.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/device.h>
-#include <linux/workqueue.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
+#include <robux/device.h>
+#include <robux/workqueue.h>
 
 /**
  * enum framer_iface - Framer interface

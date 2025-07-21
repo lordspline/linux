@@ -4,11 +4,11 @@
  * Copyright © 2019 Intel Corporation
  */
 
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
+#include <robux/compiler.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
 
 #include "selftest.h"
 

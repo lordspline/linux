@@ -84,7 +84,7 @@
 	};
 
 	ir-receiver {
-		linux,rc-map-name = "rc-khadas";
+		robux,rc-map-name = "rc-khadas";
 	};
 
 	leds {

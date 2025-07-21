@@ -10,14 +10,14 @@
  * Copyright 2012 Stefan Roese <sr@denx.de>
  */
 
-#include <linux/amba/pl08x.h>
-#include <linux/clk.h>
-#include <linux/clk/spear.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/amba/pl080.h>
+#include <robux/amba/pl08x.h>
+#include <robux/clk.h>
+#include <robux/clk/spear.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/amba/pl080.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/time.h>
 #include <asm/mach/map.h>

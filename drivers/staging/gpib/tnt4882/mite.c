@@ -29,16 +29,16 @@
  *	   321838a.pdf  about at-mio-16de-10 rev N
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/delay.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/io.h>
+#include <robux/slab.h>
 
 #include "mite.h"
 

@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/fs/lockd/clntproc.c
+ * robux/fs/lockd/clntproc.c
  *
  * RPC procedures for the client side NLM implementation
  *
  * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/filelock.h>
-#include <linux/nfs_fs.h>
-#include <linux/utsname.h>
-#include <linux/freezer.h>
-#include <linux/sunrpc/clnt.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/lockd/lockd.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/filelock.h>
+#include <robux/nfs_fs.h>
+#include <robux/utsname.h>
+#include <robux/freezer.h>
+#include <robux/sunrpc/clnt.h>
+#include <robux/sunrpc/svc.h>
+#include <robux/lockd/lockd.h>
 
 #include "trace.h"
 
@@ -668,7 +668,7 @@ nlmclnt_reclaim(struct nlm_host *host, struct file_lock *fl,
 	 * FIXME: This is a serious failure. We can
 	 *
 	 *  a.	Ignore the problem
-	 *  b.	Send the owning process some signal (Linux doesn't have
+	 *  b.	Send the owning process some signal (Robux doesn't have
 	 *	SIGLOST, though...)
 	 *  c.	Retry the operation
 	 *

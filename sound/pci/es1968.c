@@ -80,17 +80,17 @@
  *	places.
  */
 
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/slab.h>
-#include <linux/gameport.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/input.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/gameport.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/input.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

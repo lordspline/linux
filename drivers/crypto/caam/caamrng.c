@@ -9,12 +9,12 @@
  *
  */
 
-#include <linux/hw_random.h>
-#include <linux/completion.h>
-#include <linux/atomic.h>
-#include <linux/dma-mapping.h>
-#include <linux/kernel.h>
-#include <linux/kfifo.h>
+#include <robux/hw_random.h>
+#include <robux/completion.h>
+#include <robux/atomic.h>
+#include <robux/dma-mapping.h>
+#include <robux/kernel.h>
+#include <robux/kfifo.h>
 
 #include "compat.h"
 

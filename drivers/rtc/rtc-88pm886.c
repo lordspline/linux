@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/limits.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
+#include <robux/limits.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
 
-#include <linux/mfd/88pm886.h>
+#include <robux/mfd/88pm886.h>
 
 /*
  * Time is calculated as the sum of a 32-bit read-only advancing counter and a

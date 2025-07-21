@@ -31,11 +31,11 @@
  * SOFTWARE.
  */
 
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/vmalloc.h>
-#include <linux/module.h>
+#include <robux/pci.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/vmalloc.h>
+#include <robux/module.h>
 
 #include "qib.h"
 
@@ -74,7 +74,7 @@ int qib_pcie_init(struct pci_dev *pdev, const struct pci_device_id *ent)
 		 *
 		 * Both reset cases set the BAR back to initial state.  For
 		 * the latter case, the AER sticky error bit at offset 0x718
-		 * should be set, but the Linux kernel doesn't yet know
+		 * should be set, but the Robux kernel doesn't yet know
 		 * about that, it appears.  If the original BAR was retained
 		 * in the kernel data structures, this may be OK.
 		 */

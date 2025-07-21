@@ -2,11 +2,11 @@
 #ifndef _LINUX_SCHED_USER_H
 #define _LINUX_SCHED_USER_H
 
-#include <linux/uidgid.h>
-#include <linux/atomic.h>
-#include <linux/percpu_counter.h>
-#include <linux/refcount.h>
-#include <linux/ratelimit.h>
+#include <robux/uidgid.h>
+#include <robux/atomic.h>
+#include <robux/percpu_counter.h>
+#include <robux/refcount.h>
+#include <robux/ratelimit.h>
 
 /*
  * Some day this will be a full-fledged user tracking system..

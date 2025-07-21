@@ -9,7 +9,7 @@
 #ifndef _INDUSTRIAL_IO_ADC_HELPERS_H_
 #define _INDUSTRIAL_IO_ADC_HELPERS_H_
 
-#include <linux/property.h>
+#include <robux/property.h>
 
 struct device;
 struct iio_chan_spec;

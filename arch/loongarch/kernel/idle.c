@@ -4,8 +4,8 @@
  *
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/cpu.h>
-#include <linux/irqflags.h>
+#include <robux/cpu.h>
+#include <robux/irqflags.h>
 #include <asm/cpu.h>
 #include <asm/idle.h>
 

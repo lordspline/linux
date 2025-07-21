@@ -31,7 +31,7 @@
  * SOFTWARE.
  */
 
-#include <linux/slab.h>
+#include <robux/slab.h>
 #include <rdma/ib_user_verbs.h>
 
 #include "mlx4_ib.h"

@@ -7,14 +7,14 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/fs.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/wmi.h>
+#include <robux/fs.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/wmi.h>
 #include "bioscfg.h"
 #include "../../firmware_attributes_class.h"
-#include <linux/nls.h>
-#include <linux/errno.h>
+#include <robux/nls.h>
+#include <robux/errno.h>
 
 MODULE_AUTHOR("Jorge Lopez <jorge.lopez2@hp.com>");
 MODULE_DESCRIPTION("HP BIOS Configuration Driver");

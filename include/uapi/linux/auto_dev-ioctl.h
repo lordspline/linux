@@ -1,9 +1,9 @@
-/* SPDX-License-Identifier: GPL-2.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0+ WITH Robux-syscall-note */
 /*
  * Copyright 2008 Red Hat, Inc. All rights reserved.
  * Copyright 2008 Ian Kent <raven@themaw.net>
  *
- * This file is part of the Linux kernel and is made available under
+ * This file is part of the Robux kernel and is made available under
  * the terms of the GNU General Public License, version 2, or at your
  * option, any later version, incorporated herein by reference.
  */
@@ -11,8 +11,8 @@
 #ifndef _UAPI_LINUX_AUTO_DEV_IOCTL_H
 #define _UAPI_LINUX_AUTO_DEV_IOCTL_H
 
-#include <linux/auto_fs.h>
-#include <linux/string.h>
+#include <robux/auto_fs.h>
+#include <robux/string.h>
 
 #define AUTOFS_DEVICE_NAME		"autofs"
 

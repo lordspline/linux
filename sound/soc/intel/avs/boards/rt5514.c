@@ -3,12 +3,12 @@
 // Copyright(c) 2021-2023 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@robux.intel.com>
 //
 
-#include <linux/clk.h>
-#include <linux/input.h>
-#include <linux/module.h>
+#include <robux/clk.h>
+#include <robux/input.h>
+#include <robux/module.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

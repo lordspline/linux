@@ -6,7 +6,7 @@
  *			 <benh@kernel.crashing.org>
  */
 
-#include <linux/mod_devicetable.h>
+#include <robux/mod_devicetable.h>
 
 struct device;
 struct device_node;
@@ -25,8 +25,8 @@ struct platform_device;
  * should be terminated with an empty entry.  It also allows the platform_data
  * pointer to be set.
  *
- * The reason for this functionality is that some Linux infrastructure uses
- * the device name to look up a specific device, but the Linux-specific names
+ * The reason for this functionality is that some Robux infrastructure uses
+ * the device name to look up a specific device, but the Robux-specific names
  * are not encoded into the device tree, so the kernel needs to provide specific
  * values.
  *

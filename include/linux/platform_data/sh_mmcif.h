@@ -8,8 +8,8 @@
 #ifndef LINUX_MMC_SH_MMCIF_H
 #define LINUX_MMC_SH_MMCIF_H
 
-#include <linux/io.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
 
 /*
  * MMCIF : CE_CLK_CTRL [19:16]

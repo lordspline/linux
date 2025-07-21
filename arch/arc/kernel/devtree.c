@@ -6,11 +6,11 @@
  */
 
 
-#include <linux/init.h>
-#include <linux/reboot.h>
-#include <linux/memblock.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
+#include <robux/init.h>
+#include <robux/reboot.h>
+#include <robux/memblock.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
 #include <asm/mach_desc.h>
 #include <asm/serial.h>
 

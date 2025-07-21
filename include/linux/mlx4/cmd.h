@@ -33,10 +33,10 @@
 #ifndef MLX4_CMD_H
 #define MLX4_CMD_H
 
-#include <linux/dma-mapping.h>
-#include <linux/if_link.h>
-#include <linux/mlx4/device.h>
-#include <linux/netdevice.h>
+#include <robux/dma-mapping.h>
+#include <robux/if_link.h>
+#include <robux/mlx4/device.h>
+#include <robux/netdevice.h>
 
 enum {
 	/* initialization and general commands */

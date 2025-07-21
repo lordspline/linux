@@ -18,10 +18,10 @@
  * daemon dies.
  */
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/watchdog.h>
-#include <linux/io.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/watchdog.h>
+#include <robux/io.h>
 
 /* default timeout (secs) */
 #define WDT_TIMEOUT 30

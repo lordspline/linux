@@ -6,9 +6,9 @@
  * Copyright (C) 2013 Imagination Technologies Ltd.
  */
 
-#include <linux/kernel.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/kernel.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 #include <asm/cpu.h>
 #include <asm/debug.h>
 #include <asm/mipsregs.h>

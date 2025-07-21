@@ -6,8 +6,8 @@
  * Copyright (C) 1996, 1999 by Ralf Baechle
  * Copyright (C) 2011 MIPS Technologies, Inc.
  */
-#include <linux/errno.h>
-#include <linux/export.h>
+#include <robux/errno.h>
+#include <robux/export.h>
 #include <asm/asm.h>
 #include <asm/asm-offsets.h>
 #include <asm/regdef.h>

@@ -1,15 +1,15 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
-/* Copyright (c) 2012-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2012-2018, The Robux Foundation. All rights reserved.
  * Copyright (C) 2019-2024 Linaro Ltd.
  */
 #ifndef _GSI_TRANS_H_
 #define _GSI_TRANS_H_
 
-#include <linux/completion.h>
-#include <linux/dma-direction.h>
-#include <linux/refcount.h>
-#include <linux/types.h>
+#include <robux/completion.h>
+#include <robux/dma-direction.h>
+#include <robux/refcount.h>
+#include <robux/types.h>
 
 #include "ipa_cmd.h"
 

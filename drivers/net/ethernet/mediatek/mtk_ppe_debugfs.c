@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /* Copyright (C) 2020 Felix Fietkau <nbd@nbd.name> */
 
-#include <linux/kernel.h>
-#include <linux/debugfs.h>
+#include <robux/kernel.h>
+#include <robux/debugfs.h>
 
 #include <net/ipv6.h>
 

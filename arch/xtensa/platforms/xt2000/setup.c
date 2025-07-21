@@ -9,21 +9,21 @@
  *
  * Copyright 2001 - 2004 Tensilica Inc.
  */
-#include <linux/stddef.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/reboot.h>
-#include <linux/kdev_t.h>
-#include <linux/types.h>
-#include <linux/major.h>
-#include <linux/console.h>
-#include <linux/delay.h>
-#include <linux/stringify.h>
-#include <linux/platform_device.h>
-#include <linux/serial.h>
-#include <linux/serial_8250.h>
-#include <linux/timer.h>
+#include <robux/stddef.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/reboot.h>
+#include <robux/kdev_t.h>
+#include <robux/types.h>
+#include <robux/major.h>
+#include <robux/console.h>
+#include <robux/delay.h>
+#include <robux/stringify.h>
+#include <robux/platform_device.h>
+#include <robux/serial.h>
+#include <robux/serial_8250.h>
+#include <robux/timer.h>
 
 #include <asm/processor.h>
 #include <asm/platform.h>
@@ -66,7 +66,7 @@ static struct notifier_block xt2000_restart_block = {
 
 void __init platform_setup(char** cmdline)
 {
-	led_print (0, "LINUX   ");
+	led_print (0, "ROBUX   ");
 }
 
 /* Heartbeat. Let the LED blink. */

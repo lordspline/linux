@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2007 ARM Limited
  */
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/smp.h>
-#include <linux/spinlock.h>
-#include <linux/log2.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
+#include <robux/cpu.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/smp.h>
+#include <robux/spinlock.h>
+#include <robux/log2.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cp15.h>
@@ -1349,7 +1349,7 @@ static const struct l2c_init_data of_l2c310_coherent_data __initconst = {
 };
 
 /*
- * Note that the end addresses passed to Linux primitives are
+ * Note that the end addresses passed to Robux primitives are
  * noninclusive, while the hardware cache range operations use
  * inclusive start and end addresses.
  */

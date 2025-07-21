@@ -12,8 +12,8 @@
 #ifndef __COREBOOT_TABLE_H
 #define __COREBOOT_TABLE_H
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
 
 /* Coreboot table header structure */
 struct coreboot_table_header {

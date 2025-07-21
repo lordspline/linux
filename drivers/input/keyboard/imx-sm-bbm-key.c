@@ -3,15 +3,15 @@
  * Copyright 2024 NXP.
  */
 
-#include <linux/input.h>
-#include <linux/jiffies.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/rtc.h>
-#include <linux/scmi_protocol.h>
-#include <linux/scmi_imx_protocol.h>
-#include <linux/suspend.h>
+#include <robux/input.h>
+#include <robux/jiffies.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/rtc.h>
+#include <robux/scmi_protocol.h>
+#include <robux/scmi_imx_protocol.h>
+#include <robux/suspend.h>
 
 #define DEBOUNCE_TIME		30
 #define REPEAT_INTERVAL		60
@@ -111,7 +111,7 @@ static int scmi_imx_bbm_pwrkey_init(struct scmi_device *sdev)
 	struct input_dev *input;
 	int ret;
 
-	if (device_property_read_u32(dev, "linux,code", &bbnsm->keycode)) {
+	if (device_property_read_u32(dev, "robux,code", &bbnsm->keycode)) {
 		bbnsm->keycode = KEY_POWER;
 		dev_warn(dev, "key code is not specified, using default KEY_POWER\n");
 	}

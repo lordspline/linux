@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/of_mdio.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/of_mdio.h>
 
 #include "realtek.h"
 #include "rtl83xx.h"

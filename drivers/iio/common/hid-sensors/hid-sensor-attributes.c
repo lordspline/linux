@@ -3,13 +3,13 @@
  * HID Sensors Driver
  * Copyright (c) 2012, Intel Corporation.
  */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/units.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/time.h>
+#include <robux/units.h>
 
-#include <linux/hid-sensor-hub.h>
-#include <linux/iio/iio.h>
+#include <robux/hid-sensor-hub.h>
+#include <robux/iio/iio.h>
 
 static struct {
 	u32 usage_id;

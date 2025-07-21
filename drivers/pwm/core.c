@@ -8,18 +8,18 @@
 
 #define DEFAULT_SYMBOL_NAMESPACE "PWM"
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/idr.h>
-#include <linux/of.h>
-#include <linux/pwm.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/idr.h>
+#include <robux/of.h>
+#include <robux/pwm.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 
 #include <dt-bindings/pwm/pwm.h>
 
@@ -835,7 +835,7 @@ EXPORT_SYMBOL_GPL(pwm_get_state_hw);
  *
  * This function will adjust the PWM config to the PWM arguments provided
  * by the DT or PWM lookup table. This is particularly useful to adapt
- * the bootloader config to the Linux one.
+ * the bootloader config to the Robux one.
  *
  * Returns: 0 on success or a negative error code on failure.
  * Context: May sleep.

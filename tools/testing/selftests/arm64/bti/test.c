@@ -8,9 +8,9 @@
 
 #include <stdbool.h>
 #include <stddef.h>
-#include <linux/errno.h>
-#include <linux/auxvec.h>
-#include <linux/signal.h>
+#include <robux/errno.h>
+#include <robux/auxvec.h>
+#include <robux/signal.h>
 #include <asm/sigcontext.h>
 #include <asm/ucontext.h>
 

@@ -7,7 +7,7 @@
 */
 
 #include <media/rc-core.h>
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

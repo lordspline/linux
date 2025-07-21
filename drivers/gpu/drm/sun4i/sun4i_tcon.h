@@ -12,10 +12,10 @@
 
 #include <drm/drm_crtc.h>
 
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/reset.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/mod_devicetable.h>
+#include <robux/reset.h>
 
 #define SUN4I_TCON_GCTL_REG			0x0
 #define SUN4I_TCON_GCTL_TCON_ENABLE			BIT(31)

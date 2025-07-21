@@ -2,7 +2,7 @@
 /*
  *  Driver for GRLIB serial ports (APBUART)
  *
- *  Based on linux/drivers/serial/amba.c
+ *  Based on robux/drivers/serial/amba.c
  *
  *  Copyright (C) 2000 Deep Blue Solutions Ltd.
  *  Copyright (C) 2003 Konrad Eisele <eiselekd@web.de>
@@ -11,20 +11,20 @@
  *  Copyright (C) 2009 Kristoffer Glembo <kristoffer@gaisler.com>, Aeroflex Gaisler AB
  */
 
-#include <linux/module.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/ioport.h>
-#include <linux/init.h>
-#include <linux/serial.h>
-#include <linux/console.h>
-#include <linux/sysrq.h>
-#include <linux/kthread.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/serial_core.h>
+#include <robux/module.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/ioport.h>
+#include <robux/init.h>
+#include <robux/serial.h>
+#include <robux/console.h>
+#include <robux/sysrq.h>
+#include <robux/kthread.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/serial_core.h>
 #include <asm/irq.h>
 
 #include "apbuart.h"

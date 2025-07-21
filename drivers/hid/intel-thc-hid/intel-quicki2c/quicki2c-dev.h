@@ -4,8 +4,8 @@
 #ifndef _QUICKI2C_DEV_H_
 #define _QUICKI2C_DEV_H_
 
-#include <linux/hid-over-i2c.h>
-#include <linux/workqueue.h>
+#include <robux/hid-over-i2c.h>
+#include <robux/workqueue.h>
 
 #define THC_LNL_DEVICE_ID_I2C_PORT1	0xA848
 #define THC_LNL_DEVICE_ID_I2C_PORT2	0xA84A

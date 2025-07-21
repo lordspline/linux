@@ -8,8 +8,8 @@
  *
  */
 
-#include <linux/smp.h>
-#include <linux/suspend.h>
+#include <robux/smp.h>
+#include <robux/suspend.h>
 #include <asm/msr.h>
 #include "core.h"
 

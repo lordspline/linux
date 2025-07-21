@@ -10,15 +10,15 @@
  *
  */
 
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/mm.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/mm.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <mem_user.h>
 
 /* These are set in mmapper_init, which is called at boot time */

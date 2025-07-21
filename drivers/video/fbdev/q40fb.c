@@ -1,28 +1,28 @@
 /*
- * linux/drivers/video/q40fb.c -- Q40 frame buffer device
+ * robux/drivers/video/q40fb.c -- Q40 frame buffer device
  *
  * Copyright (C) 2001
  *
- *      Richard Zidlicky <rz@linux-m68k.org>
+ *      Richard Zidlicky <rz@robux-m68k.org>
  *
  *  This file is subject to the terms and conditions of the GNU General Public
  *  License. See the file COPYING in the main directory of this archive for
  *  more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/setup.h>
 #include <asm/q40_master.h>
-#include <linux/fb.h>
-#include <linux/module.h>
+#include <robux/fb.h>
+#include <robux/module.h>
 
 #define Q40_PHYS_SCREEN_ADDR 0xFE800000
 

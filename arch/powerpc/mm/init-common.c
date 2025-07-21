@@ -16,8 +16,8 @@
 
 #undef DEBUG
 
-#include <linux/string.h>
-#include <linux/pgtable.h>
+#include <robux/string.h>
+#include <robux/pgtable.h>
 #include <asm/pgalloc.h>
 #include <asm/kup.h>
 #include <asm/smp.h>

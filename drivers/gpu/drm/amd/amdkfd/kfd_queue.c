@@ -22,7 +22,7 @@
  *
  */
 
-#include <linux/slab.h>
+#include <robux/slab.h>
 #include "kfd_priv.h"
 #include "kfd_topology.h"
 #include "kfd_svm.h"

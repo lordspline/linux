@@ -9,16 +9,16 @@
  *          Rolf Neugebauer <rolf.neugebauer@netronome.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
+#include <robux/unaligned.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/wait.h>
 
 #include "nfp_arm.h"
 #include "nfp_cpp.h"
@@ -1274,7 +1274,7 @@ void *nfp_cpp_priv(struct nfp_cpp *cpp)
 }
 
 /**
- * nfp_cpp_device() - Get the Linux device handle of a CPP handle
+ * nfp_cpp_device() - Get the Robux device handle of a CPP handle
  * @cpp:	CPP handle
  *
  * Return: Device for the NFP CPP bus

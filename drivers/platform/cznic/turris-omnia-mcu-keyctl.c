@@ -6,19 +6,19 @@
  */
 
 #include <crypto/sha2.h>
-#include <linux/cleanup.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/key.h>
-#include <linux/mutex.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/cleanup.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/key.h>
+#include <robux/mutex.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
-#include <linux/turris-omnia-mcu-interface.h>
-#include <linux/turris-signing-key.h>
+#include <robux/turris-omnia-mcu-interface.h>
+#include <robux/turris-signing-key.h>
 #include "turris-omnia-mcu.h"
 
 static irqreturn_t omnia_msg_signed_irq_handler(int irq, void *dev_id)

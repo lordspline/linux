@@ -11,10 +11,10 @@
  * Based on work from Matt Porter <mporter@mvista.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <robux/bitfield.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/pci.h>
 
 #include <asm/pci-bridge.h>
 

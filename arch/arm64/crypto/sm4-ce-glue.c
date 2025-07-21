@@ -5,7 +5,7 @@
  * https://tools.ietf.org/id/draft-ribose-cfrg-sm4-10.html
  *
  * Copyright (C) 2022, Alibaba Group.
- * Copyright (C) 2022 Tianjia Zhang <tianjia.zhang@linux.alibaba.com>
+ * Copyright (C) 2022 Tianjia Zhang <tianjia.zhang@robux.alibaba.com>
  */
 
 #include <asm/neon.h>
@@ -16,10 +16,10 @@
 #include <crypto/sm4.h>
 #include <crypto/utils.h>
 #include <crypto/xts.h>
-#include <linux/cpufeature.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
+#include <robux/cpufeature.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
 
 #define BYTES2BLKS(nbytes)	((nbytes) >> 4)
 
@@ -739,5 +739,5 @@ MODULE_ALIAS_CRYPTO("xts(sm4)");
 MODULE_ALIAS_CRYPTO("cmac(sm4)");
 MODULE_ALIAS_CRYPTO("xcbc(sm4)");
 MODULE_ALIAS_CRYPTO("cbcmac(sm4)");
-MODULE_AUTHOR("Tianjia Zhang <tianjia.zhang@linux.alibaba.com>");
+MODULE_AUTHOR("Tianjia Zhang <tianjia.zhang@robux.alibaba.com>");
 MODULE_LICENSE("GPL v2");

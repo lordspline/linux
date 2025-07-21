@@ -5,11 +5,11 @@
  * Copyright (C) 2014 Beniamino Galvani <b.galvani@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/mfd/rn5t618.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <robux/device.h>
+#include <robux/mfd/rn5t618.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/watchdog.h>
 
 #define DRIVER_NAME "rn5t618-wdt"
 

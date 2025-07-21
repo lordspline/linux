@@ -12,9 +12,9 @@
 #ifndef _CS5536_PCI_H
 #define _CS5536_PCI_H
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/pci_regs.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/pci_regs.h>
 
 extern void cs5536_pci_conf_write4(int function, int reg, u32 value);
 extern u32 cs5536_pci_conf_read4(int function, int reg);

@@ -5,20 +5,20 @@
  *
  * Copyright (C) 2015 Russell King
  */
-#include <linux/acpi.h>
-#include <linux/ethtool.h>
-#include <linux/export.h>
-#include <linux/gpio/consumer.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/phylink.h>
-#include <linux/rtnetlink.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/workqueue.h>
+#include <robux/acpi.h>
+#include <robux/ethtool.h>
+#include <robux/export.h>
+#include <robux/gpio/consumer.h>
+#include <robux/netdevice.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/phy.h>
+#include <robux/phy_fixed.h>
+#include <robux/phylink.h>
+#include <robux/rtnetlink.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
+#include <robux/workqueue.h>
 
 #include "phy-caps.h"
 #include "sfp.h"

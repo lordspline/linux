@@ -11,14 +11,14 @@
 //         with code, comments and ideas from :-
 //         Richard Purdie <richard@openedhand.com>
 
-#include <linux/cleanup.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/pm.h>
-#include <linux/bitops.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/pm.h>
+#include <robux/bitops.h>
+#include <robux/ctype.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

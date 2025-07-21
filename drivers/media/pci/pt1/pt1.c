@@ -8,20 +8,20 @@
  *	by Tomoaki Ishikawa <tomy@users.sourceforge.jp>
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/hrtimer.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/pci.h>
-#include <linux/kthread.h>
-#include <linux/freezer.h>
-#include <linux/ratelimit.h>
-#include <linux/string.h>
-#include <linux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/signal.h>
+#include <robux/hrtimer.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/pci.h>
+#include <robux/kthread.h>
+#include <robux/freezer.h>
+#include <robux/ratelimit.h>
+#include <robux/string.h>
+#include <robux/i2c.h>
 
 #include <media/dvbdev.h>
 #include <media/dvb_demux.h>

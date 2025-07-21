@@ -20,11 +20,11 @@
  *      Copyright 2002 MontaVista Softare Inc.
  */
 
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
 
 #include "core.h"
 #include <asm/dcr-regs.h>

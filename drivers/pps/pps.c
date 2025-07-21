@@ -2,22 +2,22 @@
 /*
  * PPS core file
  *
- * Copyright (C) 2005-2009   Rodolfo Giometti <giometti@linux.it>
+ * Copyright (C) 2005-2009   Rodolfo Giometti <giometti@robux.it>
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
-#include <linux/idr.h>
-#include <linux/mutex.h>
-#include <linux/cdev.h>
-#include <linux/poll.h>
-#include <linux/pps_kernel.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/uaccess.h>
+#include <robux/idr.h>
+#include <robux/mutex.h>
+#include <robux/cdev.h>
+#include <robux/poll.h>
+#include <robux/pps_kernel.h>
+#include <robux/slab.h>
 
 #include "kc.h"
 
@@ -476,7 +476,7 @@ static int __init pps_init(void)
 
 	pr_info("LinuxPPS API ver. %d registered\n", PPS_API_VERS);
 	pr_info("Software ver. %s - Copyright 2005-2007 Rodolfo Giometti "
-		"<giometti@linux.it>\n", PPS_VERSION);
+		"<giometti@robux.it>\n", PPS_VERSION);
 
 	return 0;
 
@@ -488,6 +488,6 @@ remove_class:
 subsys_initcall(pps_init);
 module_exit(pps_exit);
 
-MODULE_AUTHOR("Rodolfo Giometti <giometti@linux.it>");
+MODULE_AUTHOR("Rodolfo Giometti <giometti@robux.it>");
 MODULE_DESCRIPTION("LinuxPPS support (RFC 2783) - ver. " PPS_VERSION);
 MODULE_LICENSE("GPL");

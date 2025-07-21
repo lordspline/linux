@@ -7,8 +7,8 @@
 #ifndef _UCC_HDLC_H_
 #define _UCC_HDLC_H_
 
-#include <linux/kernel.h>
-#include <linux/list.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
 
 #include <soc/fsl/qe/immap_qe.h>
 #include <soc/fsl/qe/qe.h>

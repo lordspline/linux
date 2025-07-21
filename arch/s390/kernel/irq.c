@@ -8,21 +8,21 @@
  * This file contains interrupt related functions.
  */
 
-#include <linux/kernel_stat.h>
-#include <linux/cpufeature.h>
-#include <linux/interrupt.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
-#include <linux/profile.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/ftrace.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/cpu.h>
-#include <linux/irq.h>
-#include <linux/entry-common.h>
+#include <robux/kernel_stat.h>
+#include <robux/cpufeature.h>
+#include <robux/interrupt.h>
+#include <robux/seq_file.h>
+#include <robux/proc_fs.h>
+#include <robux/profile.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/ftrace.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/cpu.h>
+#include <robux/irq.h>
+#include <robux/entry-common.h>
 #include <asm/irq_regs.h>
 #include <asm/cputime.h>
 #include <asm/lowcore.h>

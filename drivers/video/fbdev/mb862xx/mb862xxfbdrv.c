@@ -10,18 +10,18 @@
 
 #undef DEBUG
 
-#include <linux/aperture.h>
-#include <linux/fb.h>
-#include <linux/delay.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
+#include <robux/aperture.h>
+#include <robux/fb.h>
+#include <robux/delay.h>
+#include <robux/uaccess.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
 
 #include "mb862xxfb.h"
 #include "mb862xx_reg.h"

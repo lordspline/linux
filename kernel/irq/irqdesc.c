@@ -7,15 +7,15 @@
  * information is available in Documentation/core-api/genericirq.rst
  *
  */
-#include <linux/irq.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/kernel_stat.h>
-#include <linux/maple_tree.h>
-#include <linux/irqdomain.h>
-#include <linux/sysfs.h>
-#include <linux/string_choices.h>
+#include <robux/irq.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/interrupt.h>
+#include <robux/kernel_stat.h>
+#include <robux/maple_tree.h>
+#include <robux/irqdomain.h>
+#include <robux/sysfs.h>
+#include <robux/string_choices.h>
 
 #include "internals.h"
 

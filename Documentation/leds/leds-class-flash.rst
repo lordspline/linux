@@ -1,5 +1,5 @@
 ==============================
-Flash LED handling under Linux
+Flash LED handling under Robux
 ==============================
 
 Some LED devices provide two modes - torch and flash. In the LED subsystem
@@ -63,7 +63,7 @@ V4L2 subsystem. The function takes six arguments:
 	* flash_faults
 		bitmask of flash faults that the LED flash class
 		device can report; corresponding LED_FAULT* bit definitions are
-		available in <linux/led-class-flash.h>,
+		available in <robux/led-class-flash.h>,
 	* torch_intensity
 		constraints for the LED in TORCH mode
 		in microamperes,

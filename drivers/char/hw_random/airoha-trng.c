@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2024 Christian Marangi */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/hw_random.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/hw_random.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/platform_device.h>
 
 #define TRNG_IP_RDY			0x800
 #define   CNT_TRANS			GENMASK(15, 8)

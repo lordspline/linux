@@ -13,9 +13,9 @@
 #ifndef __OMAP_SERIAL_H__
 #define __OMAP_SERIAL_H__
 
-#include <linux/serial_core.h>
-#include <linux/device.h>
-#include <linux/pm_qos.h>
+#include <robux/serial_core.h>
+#include <robux/device.h>
+#include <robux/pm_qos.h>
 
 #define OMAP_SERIAL_DRIVER_NAME	"omap_uart"
 

@@ -5,22 +5,22 @@
 // Copyright (C) 2020 Intel Corporation, Inc.
 //
 // Authors:
-//   Matthew Gerlach <matthew.gerlach@linux.intel.com>
+//   Matthew Gerlach <matthew.gerlach@robux.intel.com>
 //
 
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/stddef.h>
-#include <linux/errno.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/bitfield.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/altera.h>
-#include <linux/dfl.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/stddef.h>
+#include <robux/errno.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/bitfield.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/altera.h>
+#include <robux/dfl.h>
 
 #define FME_FEATURE_ID_MAX10_SPI	0xe
 #define FME_FEATURE_REV_MAX10_SPI_N5010	0x1

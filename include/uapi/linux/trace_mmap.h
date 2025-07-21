@@ -1,8 +1,8 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _TRACE_MMAP_H_
 #define _TRACE_MMAP_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /**
  * struct trace_buffer_meta - Ring-buffer Meta-page description

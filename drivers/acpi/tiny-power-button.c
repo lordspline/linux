@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-#include <linux/module.h>
-#include <linux/sched/signal.h>
-#include <linux/acpi.h>
+#include <robux/module.h>
+#include <robux/sched/signal.h>
+#include <robux/acpi.h>
 #include <acpi/button.h>
 
 MODULE_AUTHOR("Josh Triplett");

@@ -7,7 +7,7 @@
  *
  * aeb, 950210
  *
- * Support for multiple unimaps by Jakub Jelinek <jj@ultra.linux.cz>, July 1998
+ * Support for multiple unimaps by Jakub Jelinek <jj@ultra.robux.cz>, July 1998
  *
  * Fix bug in inverse translation. Stanislav Voronyi <stas@cnti.uanet.kharkov.ua>, Dec 1998
  *
@@ -23,20 +23,20 @@
  * stack overflow.
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/module.h>
-#include <linux/kd.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/tty.h>
-#include <linux/uaccess.h>
-#include <linux/console.h>
-#include <linux/consolemap.h>
-#include <linux/vt_kern.h>
-#include <linux/string.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/module.h>
+#include <robux/kd.h>
+#include <robux/errno.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/tty.h>
+#include <robux/uaccess.h>
+#include <robux/console.h>
+#include <robux/consolemap.h>
+#include <robux/vt_kern.h>
+#include <robux/string.h>
 
 static unsigned short translations[][E_TABSZ] = {
   /* 8-bit Latin-1 mapped to Unicode -- trivial mapping */

@@ -5,11 +5,11 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/fs.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
 #include <asm/errno.h>
 #include "internal.h"
 

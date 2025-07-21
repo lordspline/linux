@@ -8,23 +8,23 @@
  * Original author: Peter Ujfalusi <peter.ujfalusi@nokia.com>
  */
 
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/sched/signal.h>
-#include <linux/ioctl.h>
-#include <linux/uaccess.h>
-#include <linux/pm_qos.h>
-#include <linux/hsi/hsi.h>
-#include <linux/hsi/ssi_protocol.h>
-#include <linux/hsi/cs-protocol.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/miscdevice.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/poll.h>
+#include <robux/sched/signal.h>
+#include <robux/ioctl.h>
+#include <robux/uaccess.h>
+#include <robux/pm_qos.h>
+#include <robux/hsi/hsi.h>
+#include <robux/hsi/ssi_protocol.h>
+#include <robux/hsi/cs-protocol.h>
 
 #define CS_MMAP_SIZE	PAGE_SIZE
 

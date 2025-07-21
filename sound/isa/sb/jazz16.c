@@ -11,13 +11,13 @@
  *
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/string.h>
 #include <asm/dma.h>
-#include <linux/isa.h>
+#include <robux/isa.h>
 #include <sound/core.h>
 #include <sound/mpu401.h>
 #include <sound/opl3.h>

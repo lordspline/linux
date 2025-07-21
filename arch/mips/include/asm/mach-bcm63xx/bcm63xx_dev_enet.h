@@ -2,8 +2,8 @@
 #ifndef BCM63XX_DEV_ENET_H_
 #define BCM63XX_DEV_ENET_H_
 
-#include <linux/if_ether.h>
-#include <linux/init.h>
+#include <robux/if_ether.h>
+#include <robux/init.h>
 
 #include <bcm63xx_regs.h>
 

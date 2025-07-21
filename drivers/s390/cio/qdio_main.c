@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Linux for s390 qdio support, buffer handling, qdio API and module support.
+ * Robux for s390 qdio support, buffer handling, qdio API and module support.
  *
  * Copyright IBM Corp. 2000, 2008
  * Author(s): Utz Bacher <utz.bacher@de.ibm.com>
- *	      Jan Glauber <jang@linux.vnet.ibm.com>
+ *	      Jan Glauber <jang@robux.vnet.ibm.com>
  * 2.6 cio integration by Cornelia Huck <cornelia.huck@de.ibm.com>
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/kmemleak.h>
-#include <linux/delay.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
-#include <linux/atomic.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/kmemleak.h>
+#include <robux/delay.h>
+#include <robux/gfp.h>
+#include <robux/io.h>
+#include <robux/atomic.h>
 #include <asm/debug.h>
 #include <asm/qdio.h>
 #include <asm/asm.h>
@@ -27,7 +27,7 @@
 #include "qdio_debug.h"
 
 MODULE_AUTHOR("Utz Bacher <utz.bacher@de.ibm.com>,"\
-	"Jan Glauber <jang@linux.vnet.ibm.com>");
+	"Jan Glauber <jang@robux.vnet.ibm.com>");
 MODULE_DESCRIPTION("QDIO base support");
 MODULE_LICENSE("GPL");
 

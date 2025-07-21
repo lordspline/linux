@@ -3,8 +3,8 @@
  * (c) Copyright 2021 Hewlett Packard Enterprise Development LP.
  */
 
-#include <linux/hrtimer.h>
-#include <linux/watchdog.h>
+#include <robux/hrtimer.h>
+#include <robux/watchdog.h>
 
 #include "watchdog_core.h"
 #include "watchdog_pretimeout.h"

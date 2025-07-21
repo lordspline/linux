@@ -2,8 +2,8 @@
 #ifndef __IXP4XX_NPE_H
 #define __IXP4XX_NPE_H
 
-#include <linux/kernel.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/regmap.h>
 
 extern const char *npe_names[];
 

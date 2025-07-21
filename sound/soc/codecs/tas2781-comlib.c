@@ -6,17 +6,17 @@
 //
 // Author: Shenghao Ding <shenghao-ding@ti.com>
 
-#include <linux/crc8.h>
-#include <linux/dev_printk.h>
-#include <linux/firmware.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/crc8.h>
+#include <robux/dev_printk.h>
+#include <robux/firmware.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 #include <sound/tas2781.h>
 
 int tasdevice_dev_read(struct tasdevice_priv *tas_priv,

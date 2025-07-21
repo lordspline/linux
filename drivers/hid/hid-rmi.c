@@ -6,18 +6,18 @@
  *  Copyright (c) 2014 Red Hat, Inc
  */
 
-#include <linux/kernel.h>
-#include <linux/hid.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/slab.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/rmi.h>
+#include <robux/kernel.h>
+#include <robux/hid.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/slab.h>
+#include <robux/wait.h>
+#include <robux/sched.h>
+#include <robux/rmi.h>
 #include "hid-ids.h"
 
 #define RMI_MOUSE_REPORT_ID		0x01 /* Mouse emulation Report */

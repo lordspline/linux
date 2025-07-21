@@ -3,16 +3,16 @@
  * Copyright (C) 2017 Spreadtrum Communications Inc.
  */
 
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/sc27xx-pmic.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
-#include <uapi/linux/usb/charger.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/sc27xx-pmic.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
+#include <uapi/robux/usb/charger.h>
 
 #define SPRD_PMIC_INT_MASK_STATUS	0x0
 #define SPRD_PMIC_INT_RAW_STATUS	0x4

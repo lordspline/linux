@@ -2,21 +2,21 @@
 /*
  * drivers/mmc/host/sdhci-msm.c - Qualcomm SDHCI Platform driver
  *
- * Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013-2014, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/mmc/mmc.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_opp.h>
-#include <linux/slab.h>
-#include <linux/iopoll.h>
-#include <linux/regulator/consumer.h>
-#include <linux/interconnect.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/reset.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/mmc/mmc.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_opp.h>
+#include <robux/slab.h>
+#include <robux/iopoll.h>
+#include <robux/regulator/consumer.h>
+#include <robux/interconnect.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/reset.h>
 
 #include <soc/qcom/ice.h>
 

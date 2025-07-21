@@ -13,12 +13,12 @@
 #include <crypto/internal/hash.h>
 #include <crypto/internal/kpp.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/err.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <uapi/linux/sched/types.h>
+#include <robux/err.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <uapi/robux/sched/types.h>
 #include "internal.h"
 
 #define CRYPTO_ENGINE_MAX_QLEN 10

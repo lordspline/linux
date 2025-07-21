@@ -12,8 +12,8 @@
 
 #include <asm/core.h>
 
-#include <linux/compiler.h>
-#include <linux/stringify.h>
+#include <robux/compiler.h>
+#include <robux/stringify.h>
 
 #include <asm/bootparam.h>
 #include <asm/ptrace.h>

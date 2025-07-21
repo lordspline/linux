@@ -5,14 +5,14 @@
  * Copyright 2010 Analog Devices Inc.
  */
 
-#include <linux/mutex.h>
-#include <linux/kernel.h>
-#include <linux/spi/spi.h>
-#include <linux/module.h>
+#include <robux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/spi/spi.h>
+#include <robux/module.h>
 
-#include <linux/iio/iio.h>
+#include <robux/iio/iio.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define ADIS16130_CON         0x0
 #define ADIS16130_CON_RD      (1 << 6)

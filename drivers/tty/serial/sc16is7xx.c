@@ -10,27 +10,27 @@
 #undef DEFAULT_SYMBOL_NAMESPACE
 #define DEFAULT_SYMBOL_NAMESPACE "SERIAL_NXP_SC16IS7XX"
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/driver.h>
-#include <linux/idr.h>
-#include <linux/kthread.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/sched.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/string.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/uaccess.h>
-#include <linux/units.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/driver.h>
+#include <robux/idr.h>
+#include <robux/kthread.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/sched.h>
+#include <robux/serial_core.h>
+#include <robux/serial.h>
+#include <robux/string.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/uaccess.h>
+#include <robux/units.h>
 
 #include "sc16is7xx.h"
 

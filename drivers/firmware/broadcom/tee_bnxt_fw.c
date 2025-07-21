@@ -3,14 +3,14 @@
  * Copyright 2019 Broadcom.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/tee_drv.h>
-#include <linux/uuid.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/tee_drv.h>
+#include <robux/uuid.h>
 
-#include <linux/firmware/broadcom/tee_bnxt_fw.h>
+#include <robux/firmware/broadcom/tee_bnxt_fw.h>
 
 #define MAX_SHM_MEM_SZ	SZ_4M
 

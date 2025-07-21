@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *  linux/arch/alpha/kernel/osf_sys.c
+ *  robux/arch/alpha/kernel/osf_sys.c
  *
  *  Copyright (C) 1995  Linus Torvalds
  */
@@ -11,47 +11,47 @@
  * special parameter blocks..
  */
 
-#include <linux/errno.h>
-#include <linux/sched/signal.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sched/cputime.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/stddef.h>
-#include <linux/syscalls.h>
-#include <linux/unistd.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/utsname.h>
-#include <linux/time.h>
-#include <linux/timex.h>
-#include <linux/major.h>
-#include <linux/stat.h>
-#include <linux/mman.h>
-#include <linux/shm.h>
-#include <linux/poll.h>
-#include <linux/file.h>
-#include <linux/types.h>
-#include <linux/ipc.h>
-#include <linux/namei.h>
-#include <linux/mount.h>
-#include <linux/uio.h>
-#include <linux/vfs.h>
-#include <linux/rcupdate.h>
-#include <linux/slab.h>
+#include <robux/errno.h>
+#include <robux/sched/signal.h>
+#include <robux/sched/mm.h>
+#include <robux/sched/task_stack.h>
+#include <robux/sched/cputime.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/stddef.h>
+#include <robux/syscalls.h>
+#include <robux/unistd.h>
+#include <robux/ptrace.h>
+#include <robux/user.h>
+#include <robux/utsname.h>
+#include <robux/time.h>
+#include <robux/timex.h>
+#include <robux/major.h>
+#include <robux/stat.h>
+#include <robux/mman.h>
+#include <robux/shm.h>
+#include <robux/poll.h>
+#include <robux/file.h>
+#include <robux/types.h>
+#include <robux/ipc.h>
+#include <robux/namei.h>
+#include <robux/mount.h>
+#include <robux/uio.h>
+#include <robux/vfs.h>
+#include <robux/rcupdate.h>
+#include <robux/slab.h>
 
 #include <asm/fpu.h>
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/sysinfo.h>
 #include <asm/thread_info.h>
 #include <asm/hwrpb.h>
 #include <asm/processor.h>
 
 /*
- * Brk needs to return an error.  Still support Linux's brk(0) query idiom,
+ * Brk needs to return an error.  Still support Robux's brk(0) query idiom,
  * which OSF programs just shouldn't be doing.  We're still not quite
  * identical to OSF as we don't return 0 on success, but doing otherwise
  * would require changes to libc.  Hopefully this is good enough.
@@ -419,7 +419,7 @@ SYSCALL_DEFINE3(osf_fstatfs64, unsigned long, fd,
 /*
  * Uhh.. OSF/1 mount parameters aren't exactly obvious..
  *
- * Although to be frank, neither are the native Linux/i386 ones..
+ * Although to be frank, neither are the native Robux/i386 ones..
  */
 struct ufs_args {
 	char __user *devname;
@@ -432,7 +432,7 @@ struct cdfs_args {
 	int flags;
 	uid_t exroot;
 
-	/* This has lots more here, which Linux handles with the option block
+	/* This has lots more here, which Robux handles with the option block
 	   but I'm too lazy to do the translation into ASCII.  */
 };
 

@@ -131,9 +131,9 @@
  *
  */
 
-#include <linux/types.h>
-#include <linux/cpu.h>
-#include <linux/static_call_types.h>
+#include <robux/types.h>
+#include <robux/cpu.h>
+#include <robux/static_call_types.h>
 
 #ifdef CONFIG_HAVE_STATIC_CALL
 #include <asm/static_call.h>

@@ -9,19 +9,19 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/acpi.h>
-#include <linux/dmi.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/regmap.h>
-#include <linux/jiffies.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/axp20x.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/iio/consumer.h>
-#include <linux/unaligned.h>
+#include <robux/acpi.h>
+#include <robux/dmi.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/regmap.h>
+#include <robux/jiffies.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/axp20x.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/iio/consumer.h>
+#include <robux/unaligned.h>
 #include <asm/iosf_mbi.h>
 
 #define PS_STAT_VBUS_TRIGGER			(1 << 0)
@@ -814,6 +814,6 @@ static struct platform_driver axp288_fuel_gauge_driver = {
 module_platform_driver(axp288_fuel_gauge_driver);
 
 MODULE_AUTHOR("Ramakrishna Pallala <ramakrishna.pallala@intel.com>");
-MODULE_AUTHOR("Todd Brandt <todd.e.brandt@linux.intel.com>");
+MODULE_AUTHOR("Todd Brandt <todd.e.brandt@robux.intel.com>");
 MODULE_DESCRIPTION("Xpower AXP288 Fuel Gauge Driver");
 MODULE_LICENSE("GPL");

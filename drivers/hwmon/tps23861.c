@@ -7,15 +7,15 @@
  * Author: Robert Marko <robert.marko@sartura.hr>
  */
 
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
 #define TEMPERATURE			0x2c
 #define INPUT_VOLTAGE_LSB		0x2e

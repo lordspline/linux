@@ -12,13 +12,13 @@
  *      Eric Miao <eric.miao@marvell.com>
  */
 
-#include <linux/cleanup.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/leds.h>
-#include <linux/of.h>
-#include <linux/mfd/mc13xxx.h>
+#include <robux/cleanup.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/leds.h>
+#include <robux/of.h>
+#include <robux/mfd/mc13xxx.h>
 
 struct mc13xxx_led_devtype {
 	int	led_min;
@@ -150,7 +150,7 @@ static struct mc13xxx_leds_platform_data __init *mc13xxx_led_probe_dt(
 
 		if (!of_property_read_string(child, "label", &str))
 			pdata->led[i].name = str;
-		if (!of_property_read_string(child, "linux,default-trigger",
+		if (!of_property_read_string(child, "robux,default-trigger",
 					     &str))
 			pdata->led[i].default_trigger = str;
 

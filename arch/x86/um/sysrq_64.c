@@ -4,12 +4,12 @@
  * Licensed under the GPL
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pid.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/utsname.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pid.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/utsname.h>
 #include <asm/current.h>
 #include <asm/ptrace.h>
 

@@ -6,17 +6,17 @@
  *
  * Copyright (C) 2009 - 2010  Paul Mundt
  */
-#include <linux/init.h>
-#include <linux/perf_event.h>
-#include <linux/sched/signal.h>
-#include <linux/hw_breakpoint.h>
-#include <linux/percpu.h>
-#include <linux/kallsyms.h>
-#include <linux/notifier.h>
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
-#include <linux/io.h>
-#include <linux/clk.h>
+#include <robux/init.h>
+#include <robux/perf_event.h>
+#include <robux/sched/signal.h>
+#include <robux/hw_breakpoint.h>
+#include <robux/percpu.h>
+#include <robux/kallsyms.h>
+#include <robux/notifier.h>
+#include <robux/kprobes.h>
+#include <robux/kdebug.h>
+#include <robux/io.h>
+#include <robux/clk.h>
 #include <asm/hw_breakpoint.h>
 #include <asm/mmu_context.h>
 #include <asm/ptrace.h>

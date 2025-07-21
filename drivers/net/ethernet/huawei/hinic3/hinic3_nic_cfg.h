@@ -4,7 +4,7 @@
 #ifndef _HINIC3_NIC_CFG_H_
 #define _HINIC3_NIC_CFG_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include "hinic3_hw_intf.h"
 #include "hinic3_mgmt_interface.h"

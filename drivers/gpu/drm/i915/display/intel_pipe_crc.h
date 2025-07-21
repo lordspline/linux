@@ -6,7 +6,7 @@
 #ifndef __INTEL_PIPE_CRC_H__
 #define __INTEL_PIPE_CRC_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct drm_crtc;
 struct intel_crtc;

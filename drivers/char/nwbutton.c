@@ -5,19 +5,19 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched/signal.h>
-#include <linux/interrupt.h>
-#include <linux/time.h>
-#include <linux/timer.h>
-#include <linux/fs.h>
-#include <linux/miscdevice.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched/signal.h>
+#include <robux/interrupt.h>
+#include <robux/time.h>
+#include <robux/timer.h>
+#include <robux/fs.h>
+#include <robux/miscdevice.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/init.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/irq.h>
 #include <asm/mach-types.h>
 

@@ -11,13 +11,13 @@
  * Copyright (C) 2003, 2004 Oracle.  All rights reserved.
  */
 
-#include <linux/signal.h>
-#include <linux/sched/signal.h>
+#include <robux/signal.h>
+#include <robux/sched/signal.h>
 
-#include <linux/module.h>
-#include <linux/fs.h>
-#include <linux/types.h>
-#include <linux/crc32.h>
+#include <robux/module.h>
+#include <robux/fs.h>
+#include <robux/types.h>
+#include <robux/crc32.h>
 
 #include "../ocfs2_lockingver.h"
 #include "../stackglue.h"

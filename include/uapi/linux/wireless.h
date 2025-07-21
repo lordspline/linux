@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * This file define a set of standard wireless extensions
  *
@@ -38,8 +38,8 @@
  * We have a structure for data passed from the driver to /proc/net/wireless
  * Too add this, I've modified :
  *	# net/core/dev.c (two other places)
- *	# include/linux/netdevice.h (one place)
- *	# include/linux/proc_fs.h (one place)
+ *	# include/robux/netdevice.h (one place)
+ *	# include/robux/proc_fs.h (one place)
  *
  * New driver API (2002 -> onward) :
  * -------------------------------
@@ -70,12 +70,12 @@
 
 /***************************** INCLUDES *****************************/
 
-#include <linux/types.h>		/* for __u* and __s* typedefs */
-#include <linux/socket.h>		/* for "struct sockaddr" et al	*/
-#include <linux/if.h>			/* for IFNAMSIZ and co... */
+#include <robux/types.h>		/* for __u* and __s* typedefs */
+#include <robux/socket.h>		/* for "struct sockaddr" et al	*/
+#include <robux/if.h>			/* for IFNAMSIZ and co... */
 
 #ifdef __KERNEL__
-#	include <linux/stddef.h>	/* for offsetof */
+#	include <robux/stddef.h>	/* for offsetof */
 #else
 #	include <stddef.h>		/* for offsetof */
 #endif

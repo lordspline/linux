@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2018, Linaro Ltd */
 
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/poll.h>
-#include <linux/skbuff.h>
-#include <linux/uaccess.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/poll.h>
+#include <robux/skbuff.h>
+#include <robux/uaccess.h>
 
 #include "qrtr.h"
 

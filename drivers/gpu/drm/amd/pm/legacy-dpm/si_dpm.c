@@ -21,8 +21,8 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #include "amdgpu.h"
 #include "amdgpu_pm.h"
@@ -36,9 +36,9 @@
 #include "sid.h"
 #include "si_dpm.h"
 #include "../include/pptable.h"
-#include <linux/math64.h>
-#include <linux/seq_file.h>
-#include <linux/firmware.h>
+#include <robux/math64.h>
+#include <robux/seq_file.h>
+#include <robux/firmware.h>
 #include <legacy_dpm.h>
 
 #include "bif/bif_3_0_d.h"

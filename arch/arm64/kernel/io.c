@@ -5,9 +5,9 @@
  * Copyright (C) 2012 ARM Ltd.
  */
 
-#include <linux/export.h>
-#include <linux/types.h>
-#include <linux/io.h>
+#include <robux/export.h>
+#include <robux/types.h>
+#include <robux/io.h>
 
 /*
  * This generates a memcpy that works on a from/to address which is aligned to

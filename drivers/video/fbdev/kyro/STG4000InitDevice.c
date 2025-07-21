@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/kyro/STG4000InitDevice.c
+ *  robux/drivers/video/kyro/STG4000InitDevice.c
  *
  *  Copyright (C) 2000 Imagination Technologies Ltd
  *  Copyright (C) 2002 STMicroelectronics
@@ -9,10 +9,10 @@
  * for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/pci.h>
 
 #include "STG4000Reg.h"
 #include "STG4000Interface.h"

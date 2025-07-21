@@ -6,10 +6,10 @@
 #include "xe_pci.h"
 
 #include <kunit/static_stub.h>
-#include <linux/device/driver.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
+#include <robux/device/driver.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
 
 #include <drm/drm_color_mgmt.h>
 #include <drm/drm_drv.h>

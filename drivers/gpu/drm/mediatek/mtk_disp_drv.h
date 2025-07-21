@@ -6,9 +6,9 @@
 #ifndef _MTK_DISP_DRV_H_
 #define _MTK_DISP_DRV_H_
 
-#include <linux/soc/mediatek/mtk-cmdq.h>
-#include <linux/soc/mediatek/mtk-mmsys.h>
-#include <linux/soc/mediatek/mtk-mutex.h>
+#include <robux/soc/mediatek/mtk-cmdq.h>
+#include <robux/soc/mediatek/mtk-mmsys.h>
+#include <robux/soc/mediatek/mtk-mutex.h>
 #include "mtk_mdp_rdma.h"
 #include "mtk_plane.h"
 

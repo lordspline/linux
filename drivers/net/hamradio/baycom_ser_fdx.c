@@ -56,18 +56,18 @@
 
 /*****************************************************************************/
 
-#include <linux/capability.h>
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/string.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/hdlcdrv.h>
-#include <linux/baycom.h>
-#include <linux/jiffies.h>
-#include <linux/time64.h>
+#include <robux/capability.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/string.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/hdlcdrv.h>
+#include <robux/baycom.h>
+#include <robux/jiffies.h>
+#include <robux/time64.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 

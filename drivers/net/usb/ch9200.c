@@ -7,19 +7,19 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/stddef.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/crc32.h>
-#include <linux/usb/usbnet.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/stddef.h>
+#include <robux/init.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/usb.h>
+#include <robux/crc32.h>
+#include <robux/usb/usbnet.h>
+#include <robux/slab.h>
 
 #define CH9200_VID		0x1A86
 #define CH9200_PID_E092		0xE092

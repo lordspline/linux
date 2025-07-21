@@ -8,13 +8,13 @@
  *  https://www.sciosense.com/wp-content/uploads/2023/12/ENS160-Datasheet.pdf
  */
 
-#include <linux/bitfield.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
-#include <linux/iio/trigger_consumer.h>
-#include <linux/iio/triggered_buffer.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/trigger.h>
+#include <robux/iio/trigger_consumer.h>
+#include <robux/iio/triggered_buffer.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
 #include "ens160.h"
 

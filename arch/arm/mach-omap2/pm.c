@@ -6,15 +6,15 @@
  * Copyright (C) 2010 Nokia Corporation
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/err.h>
-#include <linux/pm_opp.h>
-#include <linux/export.h>
-#include <linux/suspend.h>
-#include <linux/clk.h>
-#include <linux/cpu.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/err.h>
+#include <robux/pm_opp.h>
+#include <robux/export.h>
+#include <robux/suspend.h>
+#include <robux/clk.h>
+#include <robux/cpu.h>
 
 #include <asm/system_misc.h>
 

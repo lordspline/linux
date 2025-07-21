@@ -10,8 +10,8 @@
 #define __ASM_PARISC_PROCESSOR_H
 
 #ifndef __ASSEMBLER__
-#include <linux/threads.h>
-#include <linux/irqreturn.h>
+#include <robux/threads.h>
+#include <robux/irqreturn.h>
 
 #include <asm/assembly.h>
 #include <asm/prefetch.h>

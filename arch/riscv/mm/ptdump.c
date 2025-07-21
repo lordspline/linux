@@ -3,14 +3,14 @@
  * Copyright (C) 2019 SiFive
  */
 
-#include <linux/efi.h>
-#include <linux/init.h>
-#include <linux/debugfs.h>
-#include <linux/memory_hotplug.h>
-#include <linux/seq_file.h>
-#include <linux/ptdump.h>
+#include <robux/efi.h>
+#include <robux/init.h>
+#include <robux/debugfs.h>
+#include <robux/memory_hotplug.h>
+#include <robux/seq_file.h>
+#include <robux/ptdump.h>
 
-#include <linux/pgtable.h>
+#include <robux/pgtable.h>
 #include <asm/kasan.h>
 
 #define pt_dump_seq_printf(m, fmt, args...)	\

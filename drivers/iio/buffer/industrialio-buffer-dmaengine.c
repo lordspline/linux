@@ -4,20 +4,20 @@
  *  Author: Lars-Peter Clausen <lars@metafoo.de>
  */
 
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/spinlock.h>
-#include <linux/err.h>
-#include <linux/module.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/spinlock.h>
+#include <robux/err.h>
+#include <robux/module.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/buffer.h>
-#include <linux/iio/buffer_impl.h>
-#include <linux/iio/buffer-dma.h>
-#include <linux/iio/buffer-dmaengine.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/buffer.h>
+#include <robux/iio/buffer_impl.h>
+#include <robux/iio/buffer-dma.h>
+#include <robux/iio/buffer-dmaengine.h>
 
 /*
  * The IIO DMAengine buffer combines the generic IIO DMA buffer infrastructure

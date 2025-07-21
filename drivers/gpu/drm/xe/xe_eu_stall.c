@@ -3,10 +3,10 @@
  * Copyright © 2025 Intel Corporation
  */
 
-#include <linux/anon_inodes.h>
-#include <linux/fs.h>
-#include <linux/poll.h>
-#include <linux/types.h>
+#include <robux/anon_inodes.h>
+#include <robux/fs.h>
+#include <robux/poll.h>
+#include <robux/types.h>
 
 #include <drm/drm_drv.h>
 #include <generated/xe_wa_oob.h>

@@ -5,8 +5,8 @@
  * Copyright (c) 2010-2021, NVIDIA Corporation.
  */
 
-#include <linux/clk.h>
-#include <linux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
 #include "dev.h"
 #include "fence.h"
 #include "intr.h"

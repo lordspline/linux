@@ -5,13 +5,13 @@
  * Copyright (C) 2012  Renesas Electronics Europe Ltd
  * Copyright (C) 2012  Phil Edworthy
  */
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/input.h>
-#include <linux/smsc911x.h>
-#include <linux/gpio.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/input.h>
+#include <robux/smsc911x.h>
+#include <robux/gpio.h>
 #include <asm/machvec.h>
 #include <asm/io.h>
 

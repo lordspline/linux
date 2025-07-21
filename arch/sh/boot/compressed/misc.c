@@ -3,7 +3,7 @@
  * arch/sh/boot/compressed/misc.c
  *
  * This is a collection of several routines from gzip-1.0.3
- * adapted for Linux.
+ * adapted for Robux.
  *
  * malloc by Hannu Savolainen 1993 and Matthias Urlichs 1994
  *
@@ -12,7 +12,7 @@
  * Modified to use standard LinuxSH BIOS by Greg Banks 7Jul2000
  */
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/addrspace.h>
 #include <asm/page.h>
 
@@ -135,7 +135,7 @@ void decompress_kernel(void)
 	free_mem_ptr = (unsigned long)&_end;
 	free_mem_end_ptr = free_mem_ptr + HEAP_SIZE;
 
-	puts("Uncompressing Linux... ");
+	puts("Uncompressing Robux... ");
 	__decompress(input_data, input_len, NULL, NULL, output, 0, NULL, error);
 	puts("Ok, booting the kernel.\n");
 }

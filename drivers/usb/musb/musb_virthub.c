@@ -7,14 +7,14 @@
  * Copyright (C) 2006-2007 Nokia Corporation
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/errno.h>
-#include <linux/time.h>
-#include <linux/timer.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/errno.h>
+#include <robux/time.h>
+#include <robux/timer.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "musb_core.h"
 

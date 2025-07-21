@@ -7,15 +7,15 @@
  * Author: Milo(Woogyom) Kim <milo.kim@ti.com>
  */
 
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/driver.h>
-#include <linux/iio/machine.h>
-#include <linux/mfd/lp8788.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/driver.h>
+#include <robux/iio/machine.h>
+#include <robux/mfd/lp8788.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 /* register address */
 #define LP8788_ADC_CONF			0x60

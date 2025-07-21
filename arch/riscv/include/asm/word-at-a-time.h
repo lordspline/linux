@@ -10,8 +10,8 @@
 
 
 #include <asm/asm-extable.h>
-#include <linux/bitops.h>
-#include <linux/wordpart.h>
+#include <robux/bitops.h>
+#include <robux/wordpart.h>
 
 struct word_at_a_time {
 	const unsigned long one_bits, high_bits;

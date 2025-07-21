@@ -5,19 +5,19 @@
  * Copyright (c) 2024, Intel Corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpumask.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/hashtable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/overflow.h>
-#include <linux/slab.h>
-#include <linux/topology.h>
-#include <linux/types.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/cpuhotplug.h>
+#include <robux/cpumask.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/hashtable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/overflow.h>
+#include <robux/slab.h>
+#include <robux/topology.h>
+#include <robux/types.h>
 
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>
@@ -47,13 +47,13 @@
 /**
  * struct tpmi_cpu_info - Mapping information for a CPU
  * @hnode: Used to add mapping information to hash list
- * @linux_cpu:	Linux CPU number
+ * @linux_cpu:	Robux CPU number
  * @pkg_id: Package ID of this CPU
  * @punit_thread_id: Punit thread id of this CPU
  * @punit_core_id: Punit core id
  * @punit_domain_id: Power domain id from Punit
  *
- * Structure to store mapping information for a Linux CPU
+ * Structure to store mapping information for a Robux CPU
  * to a Punit core, thread and power domain.
  */
 struct tpmi_cpu_info {

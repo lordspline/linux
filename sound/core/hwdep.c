@@ -4,13 +4,13 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/major.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/sched/signal.h>
+#include <robux/major.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/sched/signal.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/minors.h>

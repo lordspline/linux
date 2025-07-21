@@ -6,19 +6,19 @@
  * Originally from swsusp.
  */
 
-#include <linux/interrupt.h>
-#include <linux/oom.h>
-#include <linux/suspend.h>
-#include <linux/module.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task.h>
-#include <linux/syscalls.h>
-#include <linux/freezer.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/kmod.h>
+#include <robux/interrupt.h>
+#include <robux/oom.h>
+#include <robux/suspend.h>
+#include <robux/module.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task.h>
+#include <robux/syscalls.h>
+#include <robux/freezer.h>
+#include <robux/delay.h>
+#include <robux/workqueue.h>
+#include <robux/kmod.h>
 #include <trace/events/power.h>
-#include <linux/cpuset.h>
+#include <robux/cpuset.h>
 
 /*
  * Timeout for stopping processes

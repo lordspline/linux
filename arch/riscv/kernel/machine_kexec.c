@@ -4,19 +4,19 @@
  *  Nick Kossifidis <mick@ics.forth.gr>
  */
 
-#include <linux/kexec.h>
+#include <robux/kexec.h>
 #include <asm/kexec.h>		/* For riscv_kexec_* symbol defines */
-#include <linux/smp.h>		/* For smp_send_stop () */
+#include <robux/smp.h>		/* For smp_send_stop () */
 #include <asm/cacheflush.h>	/* For local_flush_icache_all() */
 #include <asm/barrier.h>	/* For smp_wmb() */
 #include <asm/page.h>		/* For PAGE_MASK */
-#include <linux/libfdt.h>	/* For fdt_check_header() */
+#include <robux/libfdt.h>	/* For fdt_check_header() */
 #include <asm/set_memory.h>	/* For set_memory_x() */
-#include <linux/compiler.h>	/* For unreachable() */
-#include <linux/cpu.h>		/* For cpu_down() */
-#include <linux/reboot.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
+#include <robux/compiler.h>	/* For unreachable() */
+#include <robux/cpu.h>		/* For cpu_down() */
+#include <robux/reboot.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
 
 /*
  * machine_kexec_prepare - Initialize kexec

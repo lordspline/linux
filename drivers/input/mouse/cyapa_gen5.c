@@ -10,16 +10,16 @@
  * more details.
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/mutex.h>
-#include <linux/completion.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
-#include <linux/crc-itu-t.h>
-#include <linux/pm_runtime.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/mutex.h>
+#include <robux/completion.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
+#include <robux/crc-itu-t.h>
+#include <robux/pm_runtime.h>
 #include "cyapa.h"
 
 

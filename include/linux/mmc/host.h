@@ -1,23 +1,23 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- *  linux/include/linux/mmc/host.h
+ *  robux/include/robux/mmc/host.h
  *
  *  Host driver specific definitions.
  */
 #ifndef LINUX_MMC_HOST_H
 #define LINUX_MMC_HOST_H
 
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/fault-inject.h>
-#include <linux/debugfs.h>
+#include <robux/sched.h>
+#include <robux/device.h>
+#include <robux/fault-inject.h>
+#include <robux/debugfs.h>
 
-#include <linux/mmc/core.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/pm.h>
-#include <linux/dma-direction.h>
-#include <linux/blk-crypto-profile.h>
-#include <linux/mmc/sd_uhs2.h>
+#include <robux/mmc/core.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/pm.h>
+#include <robux/dma-direction.h>
+#include <robux/blk-crypto-profile.h>
+#include <robux/mmc/sd_uhs2.h>
 
 struct mmc_ios {
 	unsigned int	clock;			/* clock rate */

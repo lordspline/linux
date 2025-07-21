@@ -7,15 +7,15 @@
  * Author: Adam Thomson <Adam.Thomson.Opensource@diasemi.com>
  */
 
-#include <linux/clk.h>
-#include <linux/i2c.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/pm.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/regulator/consumer.h>
+#include <robux/clk.h>
+#include <robux/i2c.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/pm.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/regulator/consumer.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>

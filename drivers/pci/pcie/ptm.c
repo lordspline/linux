@@ -4,11 +4,11 @@
  * Copyright (c) 2016, Intel Corporation.
  */
 
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <robux/bitfield.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/pci.h>
 #include "../pci.h"
 
 /*

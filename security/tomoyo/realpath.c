@@ -6,8 +6,8 @@
  */
 
 #include "common.h"
-#include <linux/magic.h>
-#include <linux/proc_fs.h>
+#include <robux/magic.h>
+#include <robux/proc_fs.h>
 
 /**
  * tomoyo_encode2 - Encode binary string to ascii string.

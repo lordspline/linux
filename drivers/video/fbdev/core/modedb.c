@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/video/modedb.c -- Standard video mode database management
+ *  robux/drivers/video/modedb.c -- Standard video mode database management
  *
  *	Copyright (C) 1999 Geert Uytterhoeven
  *
@@ -11,10 +11,10 @@
  *  more details.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/fb.h>
-#include <linux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/fb.h>
+#include <robux/kernel.h>
 
 #undef DEBUG
 

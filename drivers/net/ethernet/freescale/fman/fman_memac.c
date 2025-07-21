@@ -9,13 +9,13 @@
 #include "fman.h"
 #include "mac.h"
 
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/pcs-lynx.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/phy/phy.h>
-#include <linux/of_mdio.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/pcs-lynx.h>
+#include <robux/phy.h>
+#include <robux/phy_fixed.h>
+#include <robux/phy/phy.h>
+#include <robux/of_mdio.h>
 
 /* Num of additional exact match MAC adr regs */
 #define MEMAC_NUM_OF_PADDRS 7

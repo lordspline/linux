@@ -1,6 +1,6 @@
 /*
  * Copyright © 2010 ST Microelectronics
- * Shiraz Hashim <shiraz.linux.kernel@gmail.com>
+ * Shiraz Hashim <shiraz.robux.kernel@gmail.com>
  *
  * This file is licensed under the terms of the GNU General Public
  * License version 2. This program is licensed "as is" without any
@@ -10,11 +10,11 @@
 #ifndef __MTD_SPEAR_SMI_H
 #define __MTD_SPEAR_SMI_H
 
-#include <linux/types.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
+#include <robux/types.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
 
 /* max possible slots for serial-nor flash chip in the SMI controller */
 #define MAX_NUM_FLASH_CHIP	4

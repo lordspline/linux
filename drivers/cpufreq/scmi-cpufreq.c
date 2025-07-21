@@ -8,19 +8,19 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/clk-provider.h>
-#include <linux/cpu.h>
-#include <linux/cpufreq.h>
-#include <linux/cpumask.h>
-#include <linux/energy_model.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_qos.h>
-#include <linux/slab.h>
-#include <linux/scmi_protocol.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/clk-provider.h>
+#include <robux/cpu.h>
+#include <robux/cpufreq.h>
+#include <robux/cpumask.h>
+#include <robux/energy_model.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/pm_opp.h>
+#include <robux/pm_qos.h>
+#include <robux/slab.h>
+#include <robux/scmi_protocol.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
 struct scmi_data {
 	int domain_id;

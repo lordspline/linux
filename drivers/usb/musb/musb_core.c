@@ -8,11 +8,11 @@
  */
 
 /*
- * Inventra (Multipoint) Dual-Role Controller Driver for Linux.
+ * Inventra (Multipoint) Dual-Role Controller Driver for Robux.
  *
  * This consists of a Host Controller Driver (HCD) and a peripheral
  * controller driver implementing the "Gadget" API; OTG support is
- * in the works.  These are normal Linux-USB controller drivers which
+ * in the works.  These are normal Robux-USB controller drivers which
  * use IRQs and have no dedicated thread.
  *
  * This version of the driver has only been used with products from
@@ -23,7 +23,7 @@
  *
  * NOTE:  the original Mentor code here was pretty much a collection
  * of mechanisms that don't seem to have been fully integrated/working
- * for *any* Linux kernel version.  This version aims at Linux 2.6.now,
+ * for *any* Robux kernel version.  This version aims at Robux 2.6.now,
  * Key open issues include:
  *
  *  - Lack of host-side transaction scheduling, for all transfer types.
@@ -64,20 +64,20 @@
  * Most of the conditional compilation will (someday) vanish.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/kobject.h>
-#include <linux/prefetch.h>
-#include <linux/platform_device.h>
-#include <linux/string_choices.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/dma-mapping.h>
-#include <linux/usb.h>
-#include <linux/usb/of.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/kobject.h>
+#include <robux/prefetch.h>
+#include <robux/platform_device.h>
+#include <robux/string_choices.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/dma-mapping.h>
+#include <robux/usb.h>
+#include <robux/usb/of.h>
 
 #include "musb_core.h"
 #include "musb_trace.h"

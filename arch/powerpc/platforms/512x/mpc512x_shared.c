@@ -8,14 +8,14 @@
  * MPC512x Shared code
  */
 
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/of_address.h>
-#include <linux/of_platform.h>
-#include <linux/fsl-diu-fb.h>
-#include <linux/memblock.h>
+#include <robux/clk.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/of_address.h>
+#include <robux/of_platform.h>
+#include <robux/fsl-diu-fb.h>
+#include <robux/memblock.h>
 #include <sysdev/fsl_soc.h>
 
 #include <asm/cacheflush.h>

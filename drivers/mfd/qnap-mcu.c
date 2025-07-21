@@ -6,15 +6,15 @@
  * Copyright (C) 2024 Heiko Stuebner <heiko@sntech.de>
  */
 
-#include <linux/cleanup.h>
-#include <linux/export.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/qnap-mcu.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/reboot.h>
-#include <linux/serdev.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/export.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/qnap-mcu.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/reboot.h>
+#include <robux/serdev.h>
+#include <robux/slab.h>
 
 /* The longest command found so far is 5 bytes long */
 #define QNAP_MCU_MAX_CMD_SIZE		5

@@ -10,13 +10,13 @@
  * Copyright 2009-2011 Freescale Semiconductor, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/spi/mxs-spi.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/spi/mxs-spi.h>
 
 void mxs_ssp_set_clk_rate(struct mxs_ssp *ssp, unsigned int rate)
 {

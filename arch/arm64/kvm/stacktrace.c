@@ -16,8 +16,8 @@
  * Copyright (C) 2022 Google LLC
  */
 
-#include <linux/kvm.h>
-#include <linux/kvm_host.h>
+#include <robux/kvm.h>
+#include <robux/kvm_host.h>
 
 #include <asm/kvm_mmu.h>
 #include <asm/stacktrace/nvhe.h>

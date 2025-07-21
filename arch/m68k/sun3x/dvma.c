@@ -11,12 +11,12 @@
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/vmalloc.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/bitops.h>
+#include <robux/mm.h>
+#include <robux/memblock.h>
+#include <robux/vmalloc.h>
 
 #include <asm/sun3x.h>
 #include <asm/dvma.h>

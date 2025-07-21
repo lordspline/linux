@@ -3,7 +3,7 @@
  * Copyright © 2016-2019 Intel Corporation
  */
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #include "gt/intel_gt.h"
 #include "gt/intel_rps.h"
@@ -14,8 +14,8 @@
 #include "i915_reg.h"
 #include "pxp/intel_pxp_cmd_interface_43.h"
 
-#include <linux/device/bus.h>
-#include <linux/mei_aux.h>
+#include <robux/device/bus.h>
+#include <robux/mei_aux.h>
 
 /**
  * DOC: HuC

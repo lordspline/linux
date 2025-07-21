@@ -3,8 +3,8 @@
  * Copyright (c) 2019 Microsemi Corporation
  */
 
-#include <linux/iopoll.h>
-#include <linux/proc_fs.h>
+#include <robux/iopoll.h>
+#include <robux/proc_fs.h>
 
 #include <soc/mscc/ocelot_vcap.h>
 #include "ocelot_police.h"

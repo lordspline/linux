@@ -2,8 +2,8 @@
 #ifndef _LINUX_PANIC_NOTIFIERS_H
 #define _LINUX_PANIC_NOTIFIERS_H
 
-#include <linux/notifier.h>
-#include <linux/types.h>
+#include <robux/notifier.h>
+#include <robux/types.h>
 
 extern struct atomic_notifier_head panic_notifier_list;
 

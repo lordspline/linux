@@ -7,9 +7,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/cpu.h>
-#include <linux/stacktrace.h>
-#include <linux/static_call.h>
+#include <robux/cpu.h>
+#include <robux/stacktrace.h>
+#include <robux/static_call.h>
 #include "core.h"
 #include "patch.h"
 #include "transition.h"

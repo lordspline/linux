@@ -5,13 +5,13 @@
  * Copyright (C) 2015 John Crispin <john@phrozen.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/sys_soc.h>
-#include <linux/memblock.h>
-#include <linux/pci.h>
-#include <linux/bug.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/sys_soc.h>
+#include <robux/memblock.h>
+#include <robux/pci.h>
+#include <robux/bug.h>
 
 #include <asm/bootinfo.h>
 #include <asm/mipsregs.h>

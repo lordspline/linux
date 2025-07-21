@@ -5,22 +5,22 @@
  * Copyright 2025 Analog Devices Inc.
  */
 
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/spi/spi.h>
+#include <robux/types.h>
+#include <robux/units.h>
 
-#include <linux/iio/adc/ad_sigma_delta.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/adc/ad_sigma_delta.h>
+#include <robux/iio/iio.h>
 
 #define ad_sigma_delta_to_ad7191(sigmad)	\
 	container_of((sigmad), struct ad7191_state, sd)

@@ -12,17 +12,17 @@
 #ifndef SI476X_CORE_H
 #define SI476X_CORE_H
 
-#include <linux/kfifo.h>
-#include <linux/atomic.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/mutex.h>
-#include <linux/mfd/core.h>
-#include <linux/videodev2.h>
-#include <linux/regulator/consumer.h>
+#include <robux/kfifo.h>
+#include <robux/atomic.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/mutex.h>
+#include <robux/mfd/core.h>
+#include <robux/videodev2.h>
+#include <robux/regulator/consumer.h>
 
-#include <linux/mfd/si476x-platform.h>
-#include <linux/mfd/si476x-reports.h>
+#include <robux/mfd/si476x-platform.h>
+#include <robux/mfd/si476x-reports.h>
 
 /* Command Timeouts */
 #define SI476X_DEFAULT_TIMEOUT	100000

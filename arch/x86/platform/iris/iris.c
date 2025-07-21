@@ -8,13 +8,13 @@
  *  Copyright (C) Shérab <Sebastien.Hinderer@ens-lyon.org>
  */
 
-#include <linux/moduleparam.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/pm.h>
+#include <robux/moduleparam.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/pm.h>
 #include <asm/io.h>
 
 #define IRIS_GIO_BASE		0x340

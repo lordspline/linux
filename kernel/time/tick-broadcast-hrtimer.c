@@ -2,16 +2,16 @@
 /*
  * Emulate a local clock event device via a pseudo clock device.
  */
-#include <linux/cpu.h>
-#include <linux/err.h>
-#include <linux/hrtimer.h>
-#include <linux/interrupt.h>
-#include <linux/percpu.h>
-#include <linux/profile.h>
-#include <linux/clockchips.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/module.h>
+#include <robux/cpu.h>
+#include <robux/err.h>
+#include <robux/hrtimer.h>
+#include <robux/interrupt.h>
+#include <robux/percpu.h>
+#include <robux/profile.h>
+#include <robux/clockchips.h>
+#include <robux/sched.h>
+#include <robux/smp.h>
+#include <robux/module.h>
 
 #include "tick-internal.h"
 

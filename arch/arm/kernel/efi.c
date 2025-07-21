@@ -3,9 +3,9 @@
  * Copyright (C) 2015 Linaro Ltd <ard.biesheuvel@linaro.org>
  */
 
-#include <linux/efi.h>
-#include <linux/memblock.h>
-#include <linux/screen_info.h>
+#include <robux/efi.h>
+#include <robux/memblock.h>
+#include <robux/screen_info.h>
 
 #include <asm/efi.h>
 #include <asm/mach/map.h>

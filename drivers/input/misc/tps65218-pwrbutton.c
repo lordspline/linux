@@ -7,17 +7,17 @@
  * Author: Marcin Niestroj <m.niestroj@grinn-global.com>
  */
 
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mfd/tps65217.h>
-#include <linux/mfd/tps65218.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mfd/tps65217.h>
+#include <robux/mfd/tps65218.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 struct tps6521x_data {
 	unsigned int reg_status;

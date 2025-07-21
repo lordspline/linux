@@ -5,17 +5,17 @@
  * Copyright (C) 2008 Nokia Corporation
  */
 
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/swab.h>
-#include <linux/crc7.h>
-#include <linux/spi/spi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/swab.h>
+#include <robux/crc7.h>
+#include <robux/spi/spi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
 
 #include "wl1251.h"
 #include "reg.h"

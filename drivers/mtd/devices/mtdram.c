@@ -9,14 +9,14 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/ioport.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/mtdram.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/ioport.h>
+#include <robux/vmalloc.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/mtdram.h>
 
 static unsigned long total_size = CONFIG_MTDRAM_TOTAL_SIZE;
 static unsigned long erase_size = CONFIG_MTDRAM_ERASE_SIZE;

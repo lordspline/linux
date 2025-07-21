@@ -4,8 +4,8 @@
 #ifndef QTNFMAC_BUS_H
 #define QTNFMAC_BUS_H
 
-#include <linux/netdevice.h>
-#include <linux/workqueue.h>
+#include <robux/netdevice.h>
+#include <robux/workqueue.h>
 
 #include "trans.h"
 #include "core.h"

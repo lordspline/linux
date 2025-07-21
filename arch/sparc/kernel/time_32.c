@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-/* linux/arch/sparc/kernel/time.c
+/* robux/arch/sparc/kernel/time.c
  *
  * Copyright (C) 1995 David S. Miller (davem@davemloft.net)
  * Copyright (C) 1996 Thomas K. Dyas (tdyas@eden.rutgers.edu)
@@ -15,25 +15,25 @@
  * 1997-09-10	Updated NTP code according to technical memorandum Jan '96
  *		"A Kernel Model for Precision Timekeeping" by Dave Mills
  */
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/time.h>
-#include <linux/rtc/m48t59.h>
-#include <linux/timex.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/init.h>
-#include <linux/pci.h>
-#include <linux/ioport.h>
-#include <linux/profile.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/param.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/time.h>
+#include <robux/rtc/m48t59.h>
+#include <robux/timex.h>
+#include <robux/clocksource.h>
+#include <robux/clockchips.h>
+#include <robux/init.h>
+#include <robux/pci.h>
+#include <robux/ioport.h>
+#include <robux/profile.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <asm/mc146818rtc.h>
 #include <asm/oplib.h>

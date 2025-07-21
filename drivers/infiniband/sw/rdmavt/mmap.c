@@ -3,9 +3,9 @@
  * Copyright(c) 2016 Intel Corporation.
  */
 
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/mm.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/mm.h>
 #include <rdma/uverbs_ioctl.h>
 #include "mmap.h"
 

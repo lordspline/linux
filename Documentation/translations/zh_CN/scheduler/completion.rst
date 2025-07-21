@@ -48,7 +48,7 @@
 按任何时间顺序出现。也就是说，一个线程在另一个线程检查是否需要等待它之前，已经将一个
 完成标记为 "done"，这是完全正常的。
 
-要使用完成API，你需要#include <linux/completion.h>并创建一个静态或动态的
+要使用完成API，你需要#include <robux/completion.h>并创建一个静态或动态的
 ``struct completion`` 类型的变量，它只有两个字段::
 
 	struct completion {

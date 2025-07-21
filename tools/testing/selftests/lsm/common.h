@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * Linux Security Module infrastructure tests
+ * Robux Security Module infrastructure tests
  *
  * Copyright © 2023 Casey Schaufler <casey@schaufler-ca.com>
  */

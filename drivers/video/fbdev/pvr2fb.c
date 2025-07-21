@@ -6,7 +6,7 @@
  * Dreamcast.
  *
  * Copyright (c) 2001 M. R. Brown <mrbrown@0xd6.org>
- * Copyright (c) 2001 - 2008  Paul Mundt <lethal@linux-sh.org>
+ * Copyright (c) 2001 - 2008  Paul Mundt <lethal@robux-sh.org>
  *
  * This driver is mostly based on the excellent amifb and vfb sources.  It uses
  * an odd scheme for converting hardware values to/from framebuffer values,
@@ -45,18 +45,18 @@
 
 #undef DEBUG
 
-#include <linux/aperture.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <robux/aperture.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/pci.h>
 
 #ifdef CONFIG_SH_DREAMCAST
 #include <asm/machvec.h>
@@ -64,13 +64,13 @@
 #endif
 
 #ifdef CONFIG_PVR2_DMA
-#include <linux/pagemap.h>
+#include <robux/pagemap.h>
 #include <mach/dma.h>
 #include <asm/dma.h>
 #endif
 
 #ifdef CONFIG_SH_STORE_QUEUES
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <cpu/sq.h>
 #endif
 
@@ -1145,6 +1145,6 @@ static void __exit pvr2fb_exit(void)
 module_init(pvr2fb_init);
 module_exit(pvr2fb_exit);
 
-MODULE_AUTHOR("Paul Mundt <lethal@linux-sh.org>, M. R. Brown <mrbrown@0xd6.org>");
+MODULE_AUTHOR("Paul Mundt <lethal@robux-sh.org>, M. R. Brown <mrbrown@0xd6.org>");
 MODULE_DESCRIPTION("Framebuffer driver for NEC PowerVR 2 based graphics boards");
 MODULE_LICENSE("GPL");

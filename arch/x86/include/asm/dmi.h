@@ -2,9 +2,9 @@
 #ifndef _ASM_X86_DMI_H
 #define _ASM_X86_DMI_H
 
-#include <linux/compiler.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <robux/compiler.h>
+#include <robux/init.h>
+#include <robux/io.h>
 
 #include <asm/setup.h>
 

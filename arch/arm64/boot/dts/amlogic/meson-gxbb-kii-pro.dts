@@ -17,7 +17,7 @@
 
 	spdif_dit: audio-codec-0 {
 		#sound-dai-cells = <0>;
-		compatible = "linux,spdif-dit";
+		compatible = "robux,spdif-dit";
 		sound-name-prefix = "DIT";
 	};
 
@@ -37,7 +37,7 @@
 
 		button-reset {
 			label = "reset";
-			linux,code = <KEY_POWER>;
+			robux,code = <KEY_POWER>;
 			gpios = <&gpio_ao GPIOAO_3 GPIO_ACTIVE_HIGH>;
 		};
 	};
@@ -123,7 +123,7 @@
 };
 
 &ir {
-	linux,rc-map-name = "rc-videostrong-kii-pro";
+	robux,rc-map-name = "rc-videostrong-kii-pro";
 };
 
 &uart_A {

@@ -22,9 +22,9 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/compiler_types.h>
-#include <linux/kasan-checks.h>
-#include <linux/kcsan-checks.h>
+#include <robux/compiler_types.h>
+#include <robux/kasan-checks.h>
+#include <robux/kcsan-checks.h>
 
 /*
  * Yes, this permits 64-bit accesses on 32-bit architectures. These will

@@ -7,18 +7,18 @@
 #ifndef _ROCKCHIP_CANFD_H
 #define _ROCKCHIP_CANFD_H
 
-#include <linux/bitfield.h>
-#include <linux/can/dev.h>
-#include <linux/can/rx-offload.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/netdevice.h>
-#include <linux/reset.h>
-#include <linux/skbuff.h>
-#include <linux/timecounter.h>
-#include <linux/types.h>
-#include <linux/u64_stats_sync.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/can/dev.h>
+#include <robux/can/rx-offload.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/netdevice.h>
+#include <robux/reset.h>
+#include <robux/skbuff.h>
+#include <robux/timecounter.h>
+#include <robux/types.h>
+#include <robux/u64_stats_sync.h>
+#include <robux/units.h>
 
 #define RKCANFD_REG_MODE 0x000
 #define RKCANFD_REG_MODE_CAN_FD_MODE_ENABLE BIT(15)

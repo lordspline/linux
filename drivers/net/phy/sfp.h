@@ -1,8 +1,8 @@
 #ifndef SFP_H
 #define SFP_H
 
-#include <linux/ethtool.h>
-#include <linux/sfp.h>
+#include <robux/ethtool.h>
+#include <robux/sfp.h>
 
 struct sfp;
 

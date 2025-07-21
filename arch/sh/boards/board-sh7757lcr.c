@@ -5,21 +5,21 @@
  * Copyright (C) 2009 - 2010  Renesas Solutions Corp.
  */
 
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/gpio.h>
-#include <linux/irq.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/flash.h>
-#include <linux/io.h>
-#include <linux/mmc/host.h>
-#include <linux/platform_data/sh_mmcif.h>
-#include <linux/platform_data/tmio.h>
-#include <linux/sh_eth.h>
-#include <linux/sh_intc.h>
-#include <linux/usb/renesas_usbhs.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/gpio.h>
+#include <robux/irq.h>
+#include <robux/regulator/fixed.h>
+#include <robux/regulator/machine.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/flash.h>
+#include <robux/io.h>
+#include <robux/mmc/host.h>
+#include <robux/platform_data/sh_mmcif.h>
+#include <robux/platform_data/tmio.h>
+#include <robux/sh_eth.h>
+#include <robux/sh_intc.h>
+#include <robux/usb/renesas_usbhs.h>
 #include <cpu/sh7757.h>
 #include <asm/heartbeat.h>
 

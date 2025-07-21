@@ -176,8 +176,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/mmdebug.h>
-#include <linux/sizes.h>
+#include <robux/mmdebug.h>
+#include <robux/sizes.h>
 
 void mmu_pin_tlb(unsigned long top, bool readonly);
 

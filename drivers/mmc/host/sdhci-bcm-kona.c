@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 // Copyright (C) 2013 Broadcom Corporation
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/highmem.h>
-#include <linux/platform_device.h>
-#include <linux/mmc/host.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
-#include <linux/mmc/slot-gpio.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/highmem.h>
+#include <robux/platform_device.h>
+#include <robux/mmc/host.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/regulator/consumer.h>
+#include <robux/of.h>
+#include <robux/mmc/slot-gpio.h>
 
 #include "sdhci-pltfm.h"
 #include "sdhci.h"

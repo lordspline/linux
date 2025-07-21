@@ -7,12 +7,12 @@
  *		Alan Cox. <alan@redhat.com>
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/cpumask.h>
-#include <linux/init.h>
-#include <linux/smp_types.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/cpumask.h>
+#include <robux/init.h>
+#include <robux/smp_types.h>
 
 typedef void (*smp_call_func_t)(void *info);
 typedef bool (*smp_cond_func_t)(int cpu, void *info);
@@ -113,9 +113,9 @@ void __init smp_prepare_boot_cpu(void);
 
 #ifdef CONFIG_SMP
 
-#include <linux/preempt.h>
-#include <linux/compiler.h>
-#include <linux/thread_info.h>
+#include <robux/preempt.h>
+#include <robux/compiler.h>
+#include <robux/thread_info.h>
 #include <asm/smp.h>
 
 /*

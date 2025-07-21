@@ -10,21 +10,21 @@
  * Based on drivers/mailbox/imx-mailbox.c
  */
 
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/msi.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_domain.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/msi.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_domain.h>
+#include <robux/spinlock.h>
 
-#include <linux/irqchip/irq-msi-lib.h>
+#include <robux/irqchip/irq-msi-lib.h>
 
 #define IMX_MU_CHANS            4
 

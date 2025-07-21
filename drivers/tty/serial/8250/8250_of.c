@@ -5,20 +5,20 @@
  *    Copyright (C) 2006 Arnd Bergmann <arnd@arndb.de>, IBM Corp.
  */
 
-#include <linux/bits.h>
-#include <linux/console.h>
-#include <linux/math.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/pm_runtime.h>
-#include <linux/clk.h>
-#include <linux/reset.h>
-#include <linux/notifier.h>
+#include <robux/bits.h>
+#include <robux/console.h>
+#include <robux/math.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/serial_core.h>
+#include <robux/serial_reg.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/reset.h>
+#include <robux/notifier.h>
 
 #include "8250.h"
 

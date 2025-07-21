@@ -6,7 +6,7 @@
 #include <stdarg.h>
 #include <stdbool.h>
 #include <stdio.h>
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 
 extern int verbose;
 extern int debug_kmaps;

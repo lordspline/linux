@@ -4,12 +4,12 @@
  *   Portions Copyright (C) Christoph Hellwig, 2001-2002
  */
 
-#include <linux/fs.h>
-#include <linux/ctype.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/uaccess.h>
+#include <robux/fs.h>
+#include <robux/ctype.h>
+#include <robux/module.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/uaccess.h>
 #include "jfs_incore.h"
 #include "jfs_filsys.h"
 #include "jfs_debug.h"

@@ -4,12 +4,12 @@
  * Copyright (c) 2015 HiSilicon Limited.
  */
 
-#include <linux/mfd/syscon.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/phy/phy.h>
+#include <robux/regmap.h>
 
 #define SC_PERIPH_CTRL4			0x00c
 

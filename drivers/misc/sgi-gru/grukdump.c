@@ -7,15 +7,15 @@
  *  Copyright (c) 2008 Silicon Graphics, Inc.  All Rights Reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/spinlock.h>
+#include <robux/uaccess.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
 #include <asm/uv/uv_hub.h>
 
-#include <linux/nospec.h>
+#include <robux/nospec.h>
 
 #include "gru.h"
 #include "grutables.h"

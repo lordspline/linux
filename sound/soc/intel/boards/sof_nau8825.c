@@ -6,11 +6,11 @@
  * Intel SOF Machine Driver with Nuvoton headphone codec NAU8825
  * and speaker codec RT1019P MAX98360a or MAX98373
  */
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/dmi.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/dmi.h>
 #include <sound/core.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>

@@ -6,13 +6,13 @@
  * Copyright (C) 2009 Lemote, Inc.
  * Author: Zhangjin Wu, wuzhangjin@gmail.com
  */
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/kexec.h>
-#include <linux/pm.h>
-#include <linux/reboot.h>
-#include <linux/slab.h>
+#include <robux/cpu.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/kexec.h>
+#include <robux/pm.h>
+#include <robux/reboot.h>
+#include <robux/slab.h>
 
 #include <asm/bootinfo.h>
 #include <asm/idle.h>

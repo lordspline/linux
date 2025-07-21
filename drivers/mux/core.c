@@ -9,17 +9,17 @@
 
 #define pr_fmt(fmt) "mux-core: " fmt
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/export.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mux/consumer.h>
-#include <linux/mux/driver.h>
-#include <linux/of.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/export.h>
+#include <robux/idr.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mux/consumer.h>
+#include <robux/mux/driver.h>
+#include <robux/of.h>
+#include <robux/slab.h>
 
 /*
  * The idle-as-is "state" is not an actual state that may be selected, it

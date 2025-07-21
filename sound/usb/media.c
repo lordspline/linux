@@ -16,11 +16,11 @@
  * a specific device.
  */
 
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
 
 #include <sound/pcm.h>
 #include <sound/core.h>

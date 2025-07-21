@@ -4,9 +4,9 @@
 #ifndef __HBG_COMMON_H
 #define __HBG_COMMON_H
 
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/pci.h>
+#include <robux/ethtool.h>
+#include <robux/netdevice.h>
+#include <robux/pci.h>
 #include "hbg_reg.h"
 
 #define HBG_STATUS_DISABLE		0x0

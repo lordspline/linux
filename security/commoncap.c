@@ -2,30 +2,30 @@
 /* Common capabilities, needed by capability.o.
  */
 
-#include <linux/capability.h>
-#include <linux/audit.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/lsm_hooks.h>
-#include <linux/file.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/pagemap.h>
-#include <linux/swap.h>
-#include <linux/skbuff.h>
-#include <linux/netlink.h>
-#include <linux/ptrace.h>
-#include <linux/xattr.h>
-#include <linux/hugetlb.h>
-#include <linux/mount.h>
-#include <linux/sched.h>
-#include <linux/prctl.h>
-#include <linux/securebits.h>
-#include <linux/user_namespace.h>
-#include <linux/binfmts.h>
-#include <linux/personality.h>
-#include <linux/mnt_idmapping.h>
-#include <uapi/linux/lsm.h>
+#include <robux/capability.h>
+#include <robux/audit.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/lsm_hooks.h>
+#include <robux/file.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
+#include <robux/pagemap.h>
+#include <robux/swap.h>
+#include <robux/skbuff.h>
+#include <robux/netlink.h>
+#include <robux/ptrace.h>
+#include <robux/xattr.h>
+#include <robux/hugetlb.h>
+#include <robux/mount.h>
+#include <robux/sched.h>
+#include <robux/prctl.h>
+#include <robux/securebits.h>
+#include <robux/user_namespace.h>
+#include <robux/binfmts.h>
+#include <robux/personality.h>
+#include <robux/mnt_idmapping.h>
+#include <uapi/robux/lsm.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/capability.h>
@@ -110,7 +110,7 @@ static inline int cap_capable_helper(const struct cred *cred,
  * @cred: The credentials to use
  * @target_ns:  The user namespace of the resource being accessed
  * @cap: The capability to check for
- * @opts: Bitmask of options defined in include/linux/security.h (unused)
+ * @opts: Bitmask of options defined in include/robux/security.h (unused)
  *
  * Determine whether the nominated task has the specified capability amongst
  * its effective set, returning 0 if it does, -ve if it does not.

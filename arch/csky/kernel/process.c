@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2018 Hangzhou C-SKY Microsystems co.,ltd.
 
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sched/debug.h>
-#include <linux/delay.h>
-#include <linux/kallsyms.h>
-#include <linux/uaccess.h>
-#include <linux/ptrace.h>
-#include <linux/elfcore.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/sched/debug.h>
+#include <robux/delay.h>
+#include <robux/kallsyms.h>
+#include <robux/uaccess.h>
+#include <robux/ptrace.h>
+#include <robux/elfcore.h>
 
 #include <asm/elf.h>
 #include <abi/reg_ops.h>
@@ -17,7 +17,7 @@
 struct cpuinfo_csky cpu_data[NR_CPUS];
 
 #ifdef CONFIG_STACKPROTECTOR
-#include <linux/stackprotector.h>
+#include <robux/stackprotector.h>
 unsigned long __stack_chk_guard __read_mostly;
 EXPORT_SYMBOL(__stack_chk_guard);
 #endif

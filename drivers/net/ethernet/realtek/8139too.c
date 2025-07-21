@@ -1,6 +1,6 @@
 /*
 
-	8139too.c: A RealTek RTL-8139 Fast Ethernet driver for Linux.
+	8139too.c: A RealTek RTL-8139 Fast Ethernet driver for Robux.
 
 	Maintained by Jeff Garzik <jgarzik@pobox.com>
 	Copyright 2000-2002 Jeff Garzik
@@ -95,24 +95,24 @@
 #define DRV_VERSION	"0.9.28"
 
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/compiler.h>
-#include <linux/pci.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/rtnetlink.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/mii.h>
-#include <linux/completion.h>
-#include <linux/crc32.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
-#include <linux/gfp.h>
-#include <linux/if_vlan.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/compiler.h>
+#include <robux/pci.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/rtnetlink.h>
+#include <robux/delay.h>
+#include <robux/ethtool.h>
+#include <robux/mii.h>
+#include <robux/completion.h>
+#include <robux/crc32.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
+#include <robux/gfp.h>
+#include <robux/if_vlan.h>
 #include <asm/irq.h>
 
 #define RTL8139_DRIVER_NAME   DRV_NAME " Fast Ethernet driver " DRV_VERSION

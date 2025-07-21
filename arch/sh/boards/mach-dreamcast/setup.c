@@ -5,7 +5,7 @@
  * Hardware support for the Sega Dreamcast.
  *
  * Copyright (c) 2001, 2002 M. R. Brown <mrbrown@linuxdc.org>
- * Copyright (c) 2002, 2003, 2004 Paul Mundt <lethal@linux-sh.org>
+ * Copyright (c) 2002, 2003, 2004 Paul Mundt <lethal@robux-sh.org>
  *
  * This file is part of the LinuxDC project (www.linuxdc.org)
  *
@@ -14,13 +14,13 @@
  *	SEGA Dreamcast support
  */
 
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/device.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/param.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/device.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 #include <asm/rtc.h>

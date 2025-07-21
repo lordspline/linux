@@ -24,23 +24,23 @@
  * archive for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/ptrace.h>
-#include <linux/signal.h>
-#include <linux/elf.h>
-#include <linux/audit.h>
-#include <linux/seccomp.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/ptrace.h>
+#include <robux/signal.h>
+#include <robux/elf.h>
+#include <robux/audit.h>
+#include <robux/seccomp.h>
 
-#include <linux/errno.h>
+#include <robux/errno.h>
 #include <asm/processor.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/asm-offsets.h>
 #include <asm/cacheflush.h>
 #include <asm/syscall.h>
-#include <linux/io.h>
+#include <robux/io.h>
 
 /* Returns the address where the register at REG_OFFS in P is stashed away. */
 static microblaze_reg_t *reg_save_addr(unsigned reg_offs,

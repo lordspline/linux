@@ -8,11 +8,11 @@
  *
  */
 
-#include <linux/clocksource.h>
-#include <linux/init.h>
-#include <linux/of_clk.h>
-#include <linux/platform_device.h>
-#include <linux/reset/sunxi.h>
+#include <robux/clocksource.h>
+#include <robux/init.h>
+#include <robux/of_clk.h>
+#include <robux/platform_device.h>
+#include <robux/reset/sunxi.h>
 
 #include <asm/mach/arch.h>
 #include <asm/secure_cntvoff.h>

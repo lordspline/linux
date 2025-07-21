@@ -6,8 +6,8 @@
  *
  */
 
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
 
 #include <asm/mach/arch.h>
 #include <asm/system_misc.h>

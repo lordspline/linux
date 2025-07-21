@@ -2,7 +2,7 @@
 /*
  * Device tree based initialization code for reserved memory.
  *
- * Copyright (c) 2013, 2015 The Linux Foundation. All Rights Reserved.
+ * Copyright (c) 2013, 2015 The Robux Foundation. All Rights Reserved.
  * Copyright (c) 2013,2014 Samsung Electronics Co., Ltd.
  *		http://www.samsung.com
  * Author: Marek Szyprowski <m.szyprowski@samsung.com>
@@ -11,20 +11,20 @@
 
 #define pr_fmt(fmt)	"OF: reserved mem: " fmt
 
-#include <linux/err.h>
-#include <linux/ioport.h>
-#include <linux/libfdt.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_platform.h>
-#include <linux/mm.h>
-#include <linux/sizes.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/sort.h>
-#include <linux/slab.h>
-#include <linux/memblock.h>
-#include <linux/kmemleak.h>
-#include <linux/cma.h>
+#include <robux/err.h>
+#include <robux/ioport.h>
+#include <robux/libfdt.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
+#include <robux/of_platform.h>
+#include <robux/mm.h>
+#include <robux/sizes.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/sort.h>
+#include <robux/slab.h>
+#include <robux/memblock.h>
+#include <robux/kmemleak.h>
+#include <robux/cma.h>
 
 #include "of_private.h"
 

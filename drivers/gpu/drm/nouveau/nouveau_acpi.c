@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
-#include <linux/pci.h>
-#include <linux/acpi.h>
-#include <linux/slab.h>
-#include <linux/mxm-wmi.h>
-#include <linux/vga_switcheroo.h>
+#include <robux/pci.h>
+#include <robux/acpi.h>
+#include <robux/slab.h>
+#include <robux/mxm-wmi.h>
+#include <robux/vga_switcheroo.h>
 #include <drm/drm_edid.h>
 #include <acpi/video.h>
 

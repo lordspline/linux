@@ -6,14 +6,14 @@
  * Copyright (C) Huawei Futurewei Technologies.
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/kexec.h>
-#include <linux/page-flags.h>
-#include <linux/reboot.h>
-#include <linux/set_memory.h>
-#include <linux/smp.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/kexec.h>
+#include <robux/page-flags.h>
+#include <robux/reboot.h>
+#include <robux/set_memory.h>
+#include <robux/smp.h>
 
 #include <asm/cacheflush.h>
 #include <asm/cpu_ops.h>

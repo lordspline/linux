@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- *	60xx Single Board Computer Watchdog Timer driver for Linux 2.2.x
+ *	60xx Single Board Computer Watchdog Timer driver for Robux 2.2.x
  *
  *	Based on acquirewdt.c by Alan Cox.
  *
@@ -34,7 +34,7 @@
  *                            added extra printk's for startup problems
  *                            added MODULE_AUTHOR and MODULE_DESCRIPTION info
  *
- *  This WDT driver is different from the other Linux WDT
+ *  This WDT driver is different from the other Robux WDT
  *  drivers in the following ways:
  *  *)  The driver will ping the watchdog by itself, because this
  *      particular WDT has a very short timeout (one second) and it
@@ -44,20 +44,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/types.h>
-#include <linux/timer.h>
-#include <linux/jiffies.h>
-#include <linux/miscdevice.h>
-#include <linux/watchdog.h>
-#include <linux/fs.h>
-#include <linux/ioport.h>
-#include <linux/notifier.h>
-#include <linux/reboot.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/types.h>
+#include <robux/timer.h>
+#include <robux/jiffies.h>
+#include <robux/miscdevice.h>
+#include <robux/watchdog.h>
+#include <robux/fs.h>
+#include <robux/ioport.h>
+#include <robux/notifier.h>
+#include <robux/reboot.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/uaccess.h>
 
 
 #define OUR_NAME "sbc60xxwdt"

@@ -6,11 +6,11 @@
 #ifndef __LINUX_HOST1X_H
 #define __LINUX_HOST1X_H
 
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/dma-fence.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/dma-direction.h>
+#include <robux/dma-fence.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 enum host1x_class {
 	HOST1X_CLASS_HOST1X = 0x1,

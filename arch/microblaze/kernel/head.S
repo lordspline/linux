@@ -28,11 +28,11 @@
  * for more details.
  */
 
-#include <linux/init.h>
-#include <linux/linkage.h>
+#include <robux/init.h>
+#include <robux/linkage.h>
 #include <asm/thread_info.h>
 #include <asm/page.h>
-#include <linux/of_fdt.h>		/* for OF_DT_HEADER */
+#include <robux/of_fdt.h>		/* for OF_DT_HEADER */
 
 #include <asm/setup.h> /* COMMAND_LINE_SIZE */
 #include <asm/mmu.h>

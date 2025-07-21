@@ -12,28 +12,28 @@
 #define __UBIFS_H__
 
 #include <asm/div64.h>
-#include <linux/statfs.h>
-#include <linux/fs.h>
-#include <linux/err.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/rwsem.h>
-#include <linux/mtd/ubi.h>
-#include <linux/pagemap.h>
-#include <linux/backing-dev.h>
-#include <linux/security.h>
-#include <linux/xattr.h>
-#include <linux/random.h>
-#include <linux/sysfs.h>
-#include <linux/completion.h>
+#include <robux/statfs.h>
+#include <robux/fs.h>
+#include <robux/err.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/rwsem.h>
+#include <robux/mtd/ubi.h>
+#include <robux/pagemap.h>
+#include <robux/backing-dev.h>
+#include <robux/security.h>
+#include <robux/xattr.h>
+#include <robux/random.h>
+#include <robux/sysfs.h>
+#include <robux/completion.h>
 #include <crypto/hash_info.h>
 #include <crypto/hash.h>
 #include <crypto/utils.h>
 
-#include <linux/fscrypt.h>
+#include <robux/fscrypt.h>
 
 #include "ubifs-media.h"
 

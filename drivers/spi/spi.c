@@ -4,37 +4,37 @@
 // Copyright (C) 2005 David Brownell
 // Copyright (C) 2008 Secret Lab Technologies Ltd.
 
-#include <linux/acpi.h>
-#include <linux/cache.h>
-#include <linux/clk/clk-conf.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/export.h>
-#include <linux/gpio/consumer.h>
-#include <linux/highmem.h>
-#include <linux/idr.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/of_device.h>
-#include <linux/of_irq.h>
-#include <linux/percpu.h>
-#include <linux/platform_data/x86/apple.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/sched/rt.h>
-#include <linux/slab.h>
-#include <linux/spi/offload/types.h>
-#include <linux/spi/spi.h>
-#include <linux/spi/spi-mem.h>
-#include <uapi/linux/sched/types.h>
+#include <robux/acpi.h>
+#include <robux/cache.h>
+#include <robux/clk/clk-conf.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/export.h>
+#include <robux/gpio/consumer.h>
+#include <robux/highmem.h>
+#include <robux/idr.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/of_device.h>
+#include <robux/of_irq.h>
+#include <robux/percpu.h>
+#include <robux/platform_data/x86/apple.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/sched/rt.h>
+#include <robux/slab.h>
+#include <robux/spi/offload/types.h>
+#include <robux/spi/spi.h>
+#include <robux/spi/spi-mem.h>
+#include <uapi/robux/sched/types.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/spi.h>
@@ -910,7 +910,7 @@ static void spi_match_controller_to_boardinfo(struct spi_controller *ctlr,
  * with segments of the SPI device table.  Any device nodes are created later,
  * after the relevant parent SPI controller (bus_num) is defined.  We keep
  * this table of devices forever, so that reloading a controller driver will
- * not make Linux forget about these hard-wired devices.
+ * not make Robux forget about these hard-wired devices.
  *
  * Other code can also call this, e.g. a particular add-on board might provide
  * SPI devices through its expansion connector, so code initializing that board
@@ -2734,7 +2734,7 @@ static int acpi_spi_add_resource(struct acpi_resource *ares, void *data)
 			/*
 			 * ACPI DeviceSelection numbering is handled by the
 			 * host controller driver in Windows and can vary
-			 * from driver to driver. In Linux we always expect
+			 * from driver to driver. In Robux we always expect
 			 * 0 .. max - 1 so we need to ask the driver to
 			 * translate between the two schemes.
 			 */
@@ -3221,7 +3221,7 @@ static int spi_controller_check_ops(struct spi_controller *ctlr)
 	return 0;
 }
 
-/* Allocate dynamic bus number using Linux idr */
+/* Allocate dynamic bus number using Robux idr */
 static int spi_controller_id_alloc(struct spi_controller *ctlr, int start, int end)
 {
 	int id;

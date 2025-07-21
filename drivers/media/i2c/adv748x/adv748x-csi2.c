@@ -5,7 +5,7 @@
  * Copyright (C) 2017 Renesas Electronics Corp.
  */
 
-#include <linux/module.h>
+#include <robux/module.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

@@ -6,10 +6,10 @@
 #ifndef __TEGRA_USB_PHY_H
 #define __TEGRA_USB_PHY_H
 
-#include <linux/clk.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/usb/otg.h>
+#include <robux/clk.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/usb/otg.h>
 
 struct gpio_desc;
 

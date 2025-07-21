@@ -10,7 +10,7 @@ Introduction
 ============
 
 The Min Heap API provides a set of functions and macros for managing min-heaps
-in the Linux kernel. A min-heap is a binary tree structure where the value of
+in the Robux kernel. A min-heap is a binary tree structure where the value of
 each node is less than or equal to the values of its children, ensuring that
 the smallest element is always at the root.
 
@@ -261,7 +261,7 @@ initializing it, and inserting and removing elements as needed.
 
 .. code-block:: c
 
-    #include <linux/min_heap.h>
+    #include <robux/min_heap.h>
 
     int my_less_function(const void *lhs, const void *rhs, void *args) {
         return (*(int *)lhs < *(int *)rhs);

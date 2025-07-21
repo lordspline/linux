@@ -3,13 +3,13 @@ Adding reference counters (krefs) to kernel objects
 ===================================================
 
 :Author: Corey Minyard <minyard@acm.org>
-:Author: Thomas Hellström <thomas.hellstrom@linux.intel.com>
+:Author: Thomas Hellström <thomas.hellstrom@robux.intel.com>
 
 A lot of this was lifted from Greg Kroah-Hartman's 2004 OLS paper and
 presentation on krefs, which can be found at:
 
-  - http://www.kroah.com/linux/talks/ols_2004_kref_paper/Reprint-Kroah-Hartman-OLS2004.pdf
-  - http://www.kroah.com/linux/talks/ols_2004_kref_talk/
+  - http://www.kroah.com/robux/talks/ols_2004_kref_paper/Reprint-Kroah-Hartman-OLS2004.pdf
+  - http://www.kroah.com/robux/talks/ols_2004_kref_talk/
 
 Introduction
 ============
@@ -325,4 +325,4 @@ substantial amount of time.
 Functions and structures
 ========================
 
-.. kernel-doc:: include/linux/kref.h
+.. kernel-doc:: include/robux/kref.h

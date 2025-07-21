@@ -17,20 +17,20 @@
  * Copyright (c) Copyright 2014 Cisco Systems, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/completion.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/printk.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/usb/input.h>
-#include <linux/videodev2.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/completion.h>
+#include <robux/uaccess.h>
+#include <robux/usb.h>
+#include <robux/printk.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/usb/input.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-dev.h>
 #include <media/v4l2-ioctl.h>

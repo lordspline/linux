@@ -24,7 +24,7 @@
 #include <sys/wait.h>
 #include <sys/mman.h>
 
-#include <linux/ptrace.h>
+#include <robux/ptrace.h>
 #include "../kselftest.h"
 
 /* Common system call numbers */

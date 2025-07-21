@@ -59,28 +59,28 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/unistd.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/if_vlan.h>
-#include <linux/spinlock.h>
-#include <linux/mm.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_mdio.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
-#include <linux/udp.h>
-#include <linux/in.h>
-#include <linux/net_tstamp.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/unistd.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/if_vlan.h>
+#include <robux/spinlock.h>
+#include <robux/mm.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_mdio.h>
+#include <robux/ip.h>
+#include <robux/tcp.h>
+#include <robux/udp.h>
+#include <robux/in.h>
+#include <robux/net_tstamp.h>
 
 #include <asm/io.h>
 #ifdef CONFIG_PPC
@@ -88,15 +88,15 @@
 #include <asm/mpc85xx.h>
 #endif
 #include <asm/irq.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/dma-mapping.h>
-#include <linux/crc32.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
-#include <linux/phy_fixed.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
+#include <robux/uaccess.h>
+#include <robux/module.h>
+#include <robux/dma-mapping.h>
+#include <robux/crc32.h>
+#include <robux/mii.h>
+#include <robux/phy.h>
+#include <robux/phy_fixed.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
 
 #include "gianfar.h"
 

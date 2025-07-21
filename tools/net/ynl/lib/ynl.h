@@ -4,8 +4,8 @@
 
 #include <stdbool.h>
 #include <stddef.h>
-#include <linux/genetlink.h>
-#include <linux/types.h>
+#include <robux/genetlink.h>
+#include <robux/types.h>
 
 #include "ynl-priv.h"
 

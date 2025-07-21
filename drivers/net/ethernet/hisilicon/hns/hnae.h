@@ -23,14 +23,14 @@
  * "cb" means control block
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/notifier.h>
-#include <linux/phy.h>
-#include <linux/types.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/notifier.h>
+#include <robux/phy.h>
+#include <robux/types.h>
 
 #define HNAE_DRIVER_VERSION "2.0"
 #define HNAE_DRIVER_NAME "hns"

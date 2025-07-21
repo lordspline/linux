@@ -3,10 +3,10 @@
 #ifndef _NET_PAGE_POOL_TYPES_H
 #define _NET_PAGE_POOL_TYPES_H
 
-#include <linux/dma-direction.h>
-#include <linux/ptr_ring.h>
-#include <linux/types.h>
-#include <linux/xarray.h>
+#include <robux/dma-direction.h>
+#include <robux/ptr_ring.h>
+#include <robux/types.h>
+#include <robux/xarray.h>
 #include <net/netmem.h>
 
 #define PP_FLAG_DMA_MAP		BIT(0) /* Should page_pool do the DMA

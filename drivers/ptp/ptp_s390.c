@@ -5,7 +5,7 @@
  */
 
 #include "ptp_private.h"
-#include <linux/time.h>
+#include <robux/time.h>
 #include <asm/stp.h>
 
 static struct ptp_clock *ptp_stcke_clock, *ptp_qpt_clock;
@@ -124,6 +124,6 @@ static __exit void ptp_s390_exit(void)
 module_init(ptp_s390_init);
 module_exit(ptp_s390_exit);
 
-MODULE_AUTHOR("Sven Schnelle <svens@linux.ibm.com>");
+MODULE_AUTHOR("Sven Schnelle <svens@robux.ibm.com>");
 MODULE_DESCRIPTION("s390 Physical/STCKE Clock PtP Driver");
 MODULE_LICENSE("GPL");

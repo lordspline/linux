@@ -6,16 +6,16 @@
  * Copyright (C) 2009 Sascha Hauer, Pengutronix
  */
 
-#include <linux/mfd/mc13xxx.h>
-#include <linux/platform_device.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/hwmon.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/err.h>
+#include <robux/mfd/mc13xxx.h>
+#include <robux/platform_device.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/hwmon.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/err.h>
 
 #define DRIVER_NAME	"mc13783-adc"
 

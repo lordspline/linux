@@ -2,7 +2,7 @@
 #define TLAN_H
 /********************************************************************
  *
- *  Linux ThunderLAN Driver
+ *  Robux ThunderLAN Driver
  *
  *  tlan.h
  *  by James Banks
@@ -20,9 +20,9 @@
  ********************************************************************/
 
 
-#include <linux/io.h>
-#include <linux/types.h>
-#include <linux/netdevice.h>
+#include <robux/io.h>
+#include <robux/types.h>
+#include <robux/netdevice.h>
 
 
 

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0+
 /* Copyright (C) 2015-2018 Broadcom */
 
-#include <linux/delay.h>
-#include <linux/mutex.h>
-#include <linux/spinlock_types.h>
-#include <linux/workqueue.h>
+#include <robux/delay.h>
+#include <robux/mutex.h>
+#include <robux/spinlock_types.h>
+#include <robux/workqueue.h>
 
 #include <drm/drm_encoder.h>
 #include <drm/drm_gem.h>

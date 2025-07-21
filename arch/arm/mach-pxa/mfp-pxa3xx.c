@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/arch/arm/mach-pxa/mfp.c
+ * robux/arch/arm/mach-pxa/mfp.c
  *
  * PXA3xx Multi-Function Pin Support
  *
@@ -10,11 +10,11 @@
  *             initial version
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/syscore_ops.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/syscore_ops.h>
 
 #include "mfp-pxa3xx.h"
 #include "pxa3xx-regs.h"

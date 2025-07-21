@@ -7,15 +7,15 @@
 
 #define pr_fmt(fmt) "eiointc: " fmt
 
-#include <linux/cpuhotplug.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/irqchip/chained_irq.h>
-#include <linux/kernel.h>
-#include <linux/kvm_para.h>
-#include <linux/syscore_ops.h>
+#include <robux/cpuhotplug.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/irqchip/chained_irq.h>
+#include <robux/kernel.h>
+#include <robux/kvm_para.h>
+#include <robux/syscore_ops.h>
 #include <asm/numa.h>
 
 #include "irq-loongson.h"

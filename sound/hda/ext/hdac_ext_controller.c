@@ -9,9 +9,9 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
 #include <sound/hda_register.h>
 #include <sound/hdaudio_ext.h>
 

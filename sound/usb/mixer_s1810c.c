@@ -13,9 +13,9 @@
  * the device.
  */
 
-#include <linux/usb.h>
-#include <linux/usb/audio-v2.h>
-#include <linux/slab.h>
+#include <robux/usb.h>
+#include <robux/usb/audio-v2.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include <sound/control.h>
 

@@ -7,15 +7,15 @@
 
 #undef DEBUG
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/semaphore.h>
-#include <linux/spinlock.h>
-#include <linux/wait.h>
-#include <linux/gfp.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/semaphore.h>
+#include <robux/spinlock.h>
+#include <robux/wait.h>
+#include <robux/gfp.h>
+#include <robux/of.h>
 #include <asm/machdep.h>
 #include <asm/opal.h>
 

@@ -1,17 +1,17 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Copyright (c) 2012-2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2015, The Robux Foundation. All rights reserved.
  */
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/idr.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/spmi.h>
-#include <linux/pm_runtime.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/idr.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/spmi.h>
+#include <robux/pm_runtime.h>
 
 #include <dt-bindings/spmi/spmi.h>
 #define CREATE_TRACE_POINTS

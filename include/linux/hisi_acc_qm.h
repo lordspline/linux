@@ -3,11 +3,11 @@
 #ifndef HISI_ACC_QM_H
 #define HISI_ACC_QM_H
 
-#include <linux/bitfield.h>
-#include <linux/debugfs.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/pci.h>
+#include <robux/bitfield.h>
+#include <robux/debugfs.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/pci.h>
 
 #define QM_QNUM_V1			4096
 #define QM_QNUM_V2			1024

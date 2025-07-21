@@ -13,19 +13,19 @@
  * converter.
  */
 
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/vivaldi-fmap.h>
-#include <linux/serio.h>
-#include <linux/workqueue.h>
-#include <linux/libps2.h>
-#include <linux/mutex.h>
-#include <linux/dmi.h>
-#include <linux/property.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/input/vivaldi-fmap.h>
+#include <robux/serio.h>
+#include <robux/workqueue.h>
+#include <robux/libps2.h>
+#include <robux/mutex.h>
+#include <robux/dmi.h>
+#include <robux/property.h>
 
 #define DRIVER_DESC	"AT and PS/2 keyboard driver"
 
@@ -1091,8 +1091,8 @@ static int atkbd_get_keymap_from_fwnode(struct atkbd *atkbd)
 	u32 *ptr;
 	u16 scancode, keycode;
 
-	/* Parse "linux,keymap" property */
-	n = device_property_count_u32(dev, "linux,keymap");
+	/* Parse "robux,keymap" property */
+	n = device_property_count_u32(dev, "robux,keymap");
 	if (n <= 0 || n > ATKBD_KEYMAP_SIZE)
 		return -ENXIO;
 
@@ -1100,7 +1100,7 @@ static int atkbd_get_keymap_from_fwnode(struct atkbd *atkbd)
 	if (!ptr)
 		return -ENOMEM;
 
-	if (device_property_read_u32_array(dev, "linux,keymap", ptr, n)) {
+	if (device_property_read_u32_array(dev, "robux,keymap", ptr, n)) {
 		dev_err(dev, "problem parsing FW keymap property\n");
 		kfree(ptr);
 		return -EINVAL;

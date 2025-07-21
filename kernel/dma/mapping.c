@@ -2,19 +2,19 @@
 /*
  * arch-independent dma-mapping routines
  *
- * Copyright (c) 2006  SUSE Linux Products GmbH
+ * Copyright (c) 2006  SUSE Robux Products GmbH
  * Copyright (c) 2006  Tejun Heo <teheo@suse.de>
  */
-#include <linux/memblock.h> /* for max_pfn */
-#include <linux/acpi.h>
-#include <linux/dma-map-ops.h>
-#include <linux/export.h>
-#include <linux/gfp.h>
-#include <linux/iommu-dma.h>
-#include <linux/kmsan.h>
-#include <linux/of_device.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
+#include <robux/memblock.h> /* for max_pfn */
+#include <robux/acpi.h>
+#include <robux/dma-map-ops.h>
+#include <robux/export.h>
+#include <robux/gfp.h>
+#include <robux/iommu-dma.h>
+#include <robux/kmsan.h>
+#include <robux/of_device.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
 #include "debug.h"
 #include "direct.h"
 

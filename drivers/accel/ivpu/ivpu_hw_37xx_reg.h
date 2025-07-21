@@ -6,7 +6,7 @@
 #ifndef __IVPU_HW_37XX_REG_H__
 #define __IVPU_HW_37XX_REG_H__
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 #define VPU_37XX_HOST_SS_CPR_CLK_SET					0x00000084u
 #define VPU_37XX_HOST_SS_CPR_CLK_SET_TOP_NOC_MASK			BIT_MASK(1)

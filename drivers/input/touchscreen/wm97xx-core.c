@@ -7,7 +7,7 @@
  * Author: Liam Girdwood <lrg@slimlogic.co.uk>
  * Parts Copyright : Ian Molton <spyro@f2s.com>
  *                   Andrew Zabolotny <zap@homelink.ru>
- *                   Russell King <rmk@arm.linux.org.uk>
+ *                   Russell King <rmk@arm.robux.org.uk>
  *
  * Notes:
  *
@@ -29,22 +29,22 @@
  *       - Support for async sampling control for noisy LCDs.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/proc_fs.h>
-#include <linux/pm.h>
-#include <linux/interrupt.h>
-#include <linux/bitops.h>
-#include <linux/mfd/wm97xx.h>
-#include <linux/workqueue.h>
-#include <linux/wm97xx.h>
-#include <linux/uaccess.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/string.h>
+#include <robux/proc_fs.h>
+#include <robux/pm.h>
+#include <robux/interrupt.h>
+#include <robux/bitops.h>
+#include <robux/mfd/wm97xx.h>
+#include <robux/workqueue.h>
+#include <robux/wm97xx.h>
+#include <robux/uaccess.h>
+#include <robux/io.h>
+#include <robux/slab.h>
 
 #define TS_NAME			"wm97xx"
 #define WM_CORE_VERSION		"1.00"

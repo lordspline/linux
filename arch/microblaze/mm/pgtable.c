@@ -1,5 +1,5 @@
 /*
- *  This file contains the routines setting up the linux page tables.
+ *  This file contains the routines setting up the robux page tables.
  *
  * Copyright (C) 2008 Michal Simek
  * Copyright (C) 2008 PetaLogix
@@ -26,18 +26,18 @@
  *
  */
 
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/mm_types.h>
-#include <linux/pgtable.h>
-#include <linux/memblock.h>
-#include <linux/kallsyms.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/mm_types.h>
+#include <robux/pgtable.h>
+#include <robux/memblock.h>
+#include <robux/kallsyms.h>
 
 #include <asm/pgalloc.h>
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/mmu.h>
 #include <asm/sections.h>
 #include <asm/fixmap.h>
@@ -187,7 +187,7 @@ void __init mapin_ram(void)
 /* is x a power of 2? */
 #define is_power_of_2(x)	((x) != 0 && (((x) & ((x) - 1)) == 0))
 
-/* Scan the real Linux page tables and return a PTE pointer for
+/* Scan the real Robux page tables and return a PTE pointer for
  * a virtual address in a context.
  * Returns true (1) if PTE was found, zero otherwise.  The pointer to
  * the PTE pointer is unmodified if PTE is not found.

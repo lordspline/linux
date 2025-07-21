@@ -4,11 +4,11 @@
  */
 #include "delta-index.h"
 
-#include <linux/bitops.h>
-#include <linux/bits.h>
-#include <linux/compiler.h>
-#include <linux/limits.h>
-#include <linux/log2.h>
+#include <robux/bitops.h>
+#include <robux/bits.h>
+#include <robux/compiler.h>
+#include <robux/limits.h>
+#include <robux/log2.h>
 
 #include "cpu.h"
 #include "errors.h"

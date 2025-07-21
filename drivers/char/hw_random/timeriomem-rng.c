@@ -17,18 +17,18 @@
  * TODO: add support for reading sizes other than 32bits and masking
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/hrtimer.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/ktime.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/timeriomem-rng.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/hrtimer.h>
+#include <robux/hw_random.h>
+#include <robux/io.h>
+#include <robux/ktime.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/time.h>
+#include <robux/timeriomem-rng.h>
 
 struct timeriomem_rng_private {
 	void __iomem		*io_base;

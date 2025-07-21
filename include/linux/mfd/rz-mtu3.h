@@ -5,9 +5,9 @@
 #ifndef __MFD_RZ_MTU3_H__
 #define __MFD_RZ_MTU3_H__
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
 
 /* 8-bit shared register offsets macros */
 #define RZ_MTU3_TSTRA	0x080 /* Timer start register A */

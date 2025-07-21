@@ -3,8 +3,8 @@
 #ifndef _LINUX_NET_TIMESTAMPING_H_
 #define _LINUX_NET_TIMESTAMPING_H_
 
-#include <uapi/linux/net_tstamp.h>
-#include <uapi/linux/ethtool_netlink_generated.h>
+#include <uapi/robux/net_tstamp.h>
+#include <uapi/robux/ethtool_netlink_generated.h>
 
 #define SOF_TIMESTAMPING_SOFTWARE_MASK	(SOF_TIMESTAMPING_RX_SOFTWARE | \
 					 SOF_TIMESTAMPING_TX_SOFTWARE | \

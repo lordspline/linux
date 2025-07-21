@@ -13,20 +13,20 @@
  *		for PPC64
  */
 
-#include <linux/kprobes.h>
-#include <linux/ptrace.h>
-#include <linux/preempt.h>
-#include <linux/extable.h>
-#include <linux/kdebug.h>
-#include <linux/slab.h>
-#include <linux/set_memory.h>
-#include <linux/execmem.h>
+#include <robux/kprobes.h>
+#include <robux/ptrace.h>
+#include <robux/preempt.h>
+#include <robux/extable.h>
+#include <robux/kdebug.h>
+#include <robux/slab.h>
+#include <robux/set_memory.h>
+#include <robux/execmem.h>
 #include <asm/text-patching.h>
 #include <asm/cacheflush.h>
 #include <asm/sstep.h>
 #include <asm/sections.h>
 #include <asm/inst.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 DEFINE_PER_CPU(struct kprobe *, current_kprobe) = NULL;
 DEFINE_PER_CPU(struct kprobe_ctlblk, kprobe_ctlblk);

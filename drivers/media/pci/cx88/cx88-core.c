@@ -13,18 +13,18 @@
 
 #include "cx88.h"
 
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/kmod.h>
-#include <linux/sound.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/videodev2.h>
-#include <linux/mutex.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/kmod.h>
+#include <robux/sound.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/videodev2.h>
+#include <robux/mutex.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>

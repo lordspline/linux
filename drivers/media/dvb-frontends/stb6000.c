@@ -7,9 +7,9 @@
 
   */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/dvb/frontend.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/dvb/frontend.h>
 #include <asm/types.h>
 
 #include "stb6000.h"

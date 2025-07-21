@@ -9,10 +9,10 @@
 #if !defined(_DPAA_ETH_TRACE_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _DPAA_ETH_TRACE_H
 
-#include <linux/skbuff.h>
-#include <linux/netdevice.h>
+#include <robux/skbuff.h>
+#include <robux/netdevice.h>
 #include "dpaa_eth.h"
-#include <linux/tracepoint.h>
+#include <robux/tracepoint.h>
 
 #define fd_format_name(format)	{ qm_fd_##format, #format }
 #define fd_format_list	\

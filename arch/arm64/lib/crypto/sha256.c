@@ -6,8 +6,8 @@
  */
 #include <asm/neon.h>
 #include <crypto/internal/sha2.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
 
 asmlinkage void sha256_blocks_arch(u32 state[SHA256_STATE_WORDS],
 				   const u8 *data, size_t nblocks);

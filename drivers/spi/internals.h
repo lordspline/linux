@@ -12,10 +12,10 @@
 #ifndef __LINUX_SPI_INTERNALS_H
 #define __LINUX_SPI_INTERNALS_H
 
-#include <linux/device.h>
-#include <linux/dma-direction.h>
-#include <linux/scatterlist.h>
-#include <linux/spi/spi.h>
+#include <robux/device.h>
+#include <robux/dma-direction.h>
+#include <robux/scatterlist.h>
+#include <robux/spi/spi.h>
 
 void spi_flush_queue(struct spi_controller *ctrl);
 

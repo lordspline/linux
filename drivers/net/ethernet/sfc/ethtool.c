@@ -5,10 +5,10 @@
  * Copyright 2006-2013 Solarflare Communications Inc.
  */
 
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/rtnetlink.h>
-#include <linux/in.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/rtnetlink.h>
+#include <robux/in.h>
 #include "net_driver.h"
 #include "workarounds.h"
 #include "selftest.h"

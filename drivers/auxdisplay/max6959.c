@@ -5,23 +5,23 @@
  * https://www.analog.com/media/en/technical-documentation/data-sheets/MAX6958-MAX6959.pdf
  *
  * Copyright (c) 2024, Intel Corporation.
- * Author: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+ * Author: Andy Shevchenko <andriy.shevchenko@robux.intel.com>
  */
-#include <linux/array_size.h>
-#include <linux/bitrev.h>
-#include <linux/bits.h>
-#include <linux/container_of.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/array_size.h>
+#include <robux/bitrev.h>
+#include <robux/bits.h>
+#include <robux/container_of.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
-#include <linux/map_to_7segment.h>
+#include <robux/map_to_7segment.h>
 
 #include "line-display.h"
 
@@ -189,6 +189,6 @@ static struct i2c_driver max6959_i2c_driver = {
 module_i2c_driver(max6959_i2c_driver);
 
 MODULE_DESCRIPTION("MAX6958/6959 7-segment LED controller");
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@robux.intel.com>");
 MODULE_LICENSE("GPL");
 MODULE_IMPORT_NS("LINEDISP");

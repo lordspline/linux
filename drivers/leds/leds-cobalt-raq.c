@@ -2,16 +2,16 @@
 /*
  *  LEDs driver for the Cobalt Raq series.
  *
- *  Copyright (C) 2007  Yoichi Yuasa <yuasa@linux-mips.org>
+ *  Copyright (C) 2007  Yoichi Yuasa <yuasa@robux-mips.org>
  */
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/export.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/leds.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/export.h>
 
 #define LED_WEB		0x04
 #define LED_POWER_OFF	0x08

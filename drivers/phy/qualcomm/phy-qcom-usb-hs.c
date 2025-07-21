@@ -2,16 +2,16 @@
 /*
  * Copyright (C) 2016 Linaro Ltd
  */
-#include <linux/module.h>
-#include <linux/ulpi/driver.h>
-#include <linux/ulpi/regs.h>
-#include <linux/clk.h>
-#include <linux/regulator/consumer.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/reset.h>
-#include <linux/extcon.h>
-#include <linux/notifier.h>
+#include <robux/module.h>
+#include <robux/ulpi/driver.h>
+#include <robux/ulpi/regs.h>
+#include <robux/clk.h>
+#include <robux/regulator/consumer.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/reset.h>
+#include <robux/extcon.h>
+#include <robux/notifier.h>
 
 #define ULPI_PWR_CLK_MNG_REG		0x88
 # define ULPI_PWR_OTG_COMP_DISABLE	BIT(0)

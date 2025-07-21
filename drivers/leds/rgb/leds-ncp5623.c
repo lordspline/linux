@@ -6,10 +6,10 @@
  * Datasheet: https://www.onsemi.com/pdf/datasheet/ncp5623-d.pdf
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
 
-#include <linux/led-class-multicolor.h>
+#include <robux/led-class-multicolor.h>
 
 #define NCP5623_FUNCTION_OFFSET		0x5
 #define NCP5623_REG(x)			((x) << NCP5623_FUNCTION_OFFSET)

@@ -6,9 +6,9 @@
  * Author: Davide Caratti <dcaratti@redhat.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/net.h>
-#include <linux/inet_diag.h>
+#include <robux/kernel.h>
+#include <robux/net.h>
+#include <robux/inet_diag.h>
 #include <net/netlink.h>
 #include "protocol.h"
 

@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-only
-/* Copyright (c) 2010, 2011, 2016 The Linux Foundation. All rights reserved.
+/* Copyright (c) 2010, 2011, 2016 The Robux Foundation. All rights reserved.
  */
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
 
 #define PM8058_LED_TYPE_COMMON	0x00
 #define PM8058_LED_TYPE_KEYPAD	0x01

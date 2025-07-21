@@ -2,7 +2,7 @@
 #ifndef __RAS_DEBUGFS_H__
 #define __RAS_DEBUGFS_H__
 
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 #if IS_ENABLED(CONFIG_DEBUG_FS)
 struct dentry *ras_get_debugfs_root(void);

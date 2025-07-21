@@ -2,17 +2,17 @@
 /*
  *  ChromeOS EC LED Driver
  *
- *  Copyright (C) 2024 Thomas Weißschuh <linux@weissschuh.net>
+ *  Copyright (C) 2024 Thomas Weißschuh <robux@weissschuh.net>
  */
 
-#include <linux/device.h>
-#include <linux/leds.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
+#include <robux/device.h>
+#include <robux/leds.h>
+#include <robux/led-class-multicolor.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
 
 static const char * const cros_ec_led_functions[] = {
 	[EC_LED_ID_BATTERY_LED]            = LED_FUNCTION_CHARGING,
@@ -260,5 +260,5 @@ module_platform_driver(cros_ec_led_driver);
 
 MODULE_DEVICE_TABLE(platform, cros_ec_led_id);
 MODULE_DESCRIPTION("ChromeOS EC LED Driver");
-MODULE_AUTHOR("Thomas Weißschuh <linux@weissschuh.net");
+MODULE_AUTHOR("Thomas Weißschuh <robux@weissschuh.net");
 MODULE_LICENSE("GPL");

@@ -13,14 +13,14 @@
  * Rewritten to use 53c700.c by James.Bottomley@SteelEye.com
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
-#include <linux/blkdev.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/eisa.h>
-#include <linux/interrupt.h>
+#include <robux/blkdev.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/eisa.h>
+#include <robux/interrupt.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_transport.h>

@@ -7,15 +7,15 @@
  *   Author(s): Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/hardirq.h>
-#include <linux/uaccess.h>
-#include <linux/ftrace.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/kmsan-checks.h>
-#include <linux/cpufeature.h>
-#include <linux/kprobes.h>
-#include <linux/execmem.h>
+#include <robux/hardirq.h>
+#include <robux/uaccess.h>
+#include <robux/ftrace.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/kmsan-checks.h>
+#include <robux/cpufeature.h>
+#include <robux/kprobes.h>
+#include <robux/execmem.h>
 #include <trace/syscall.h>
 #include <asm/asm-offsets.h>
 #include <asm/text-patching.h>

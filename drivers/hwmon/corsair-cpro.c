@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * corsair-cpro.c - Linux driver for Corsair Commander Pro
+ * corsair-cpro.c - Robux driver for Corsair Commander Pro
  * Copyright (C) 2020 Marius Zachmann <mail@mariuszachmann.de>
  *
  * This driver uses hid reports to communicate with the device to allow hidraw userspace drivers
@@ -8,18 +8,18 @@
  * simultaniously, reports could be switched.
  */
 
-#include <linux/bitops.h>
-#include <linux/completion.h>
-#include <linux/debugfs.h>
-#include <linux/hid.h>
-#include <linux/hwmon.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/completion.h>
+#include <robux/debugfs.h>
+#include <robux/hid.h>
+#include <robux/hwmon.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 #define USB_VENDOR_ID_CORSAIR			0x1b1c
 #define USB_PRODUCT_ID_CORSAIR_COMMANDERPRO	0x0c10

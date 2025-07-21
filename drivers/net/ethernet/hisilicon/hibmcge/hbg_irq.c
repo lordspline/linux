@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0+
 // Copyright (c) 2024 Hisilicon Limited.
 
-#include <linux/interrupt.h>
+#include <robux/interrupt.h>
 #include "hbg_irq.h"
 #include "hbg_hw.h"
 

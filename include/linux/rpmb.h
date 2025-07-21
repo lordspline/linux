@@ -6,8 +6,8 @@
 #ifndef __RPMB_H__
 #define __RPMB_H__
 
-#include <linux/device.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/types.h>
 
 /**
  * enum rpmb_type - type of underlying storage technology

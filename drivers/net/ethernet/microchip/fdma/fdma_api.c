@@ -2,9 +2,9 @@
 
 #include "fdma_api.h"
 
-#include <linux/bits.h>
-#include <linux/etherdevice.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/etherdevice.h>
+#include <robux/types.h>
 
 /* Add a DB to a DCB, providing a callback for getting the DB dataptr. */
 static int __fdma_db_add(struct fdma *fdma, int dcb_idx, int db_idx, u64 status,

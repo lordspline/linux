@@ -4,8 +4,8 @@
 #ifndef _HINIC3_HWIF_H_
 #define _HINIC3_HWIF_H_
 
-#include <linux/build_bug.h>
-#include <linux/spinlock_types.h>
+#include <robux/build_bug.h>
+#include <robux/spinlock_types.h>
 
 struct hinic3_hwdev;
 

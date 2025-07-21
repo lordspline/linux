@@ -3,8 +3,8 @@
  * Copyright © 2023-2024 Intel Corporation
  */
 
-#include <linux/bitfield.h>
-#include <linux/bsearch.h>
+#include <robux/bitfield.h>
+#include <robux/bsearch.h>
 
 #include <drm/drm_managed.h>
 #include <drm/drm_print.h>

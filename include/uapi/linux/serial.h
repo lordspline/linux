@@ -1,6 +1,6 @@
-/* SPDX-License-Identifier: GPL-1.0+ WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-1.0+ WITH Robux-syscall-note */
 /*
- * include/linux/serial.h
+ * include/robux/serial.h
  *
  * Copyright (C) 1992 by Theodore Ts'o.
  * 
@@ -11,10 +11,10 @@
 #ifndef _UAPI_LINUX_SERIAL_H
 #define _UAPI_LINUX_SERIAL_H
 
-#include <linux/const.h>
-#include <linux/types.h>
+#include <robux/const.h>
+#include <robux/types.h>
 
-#include <linux/tty_flags.h>
+#include <robux/tty_flags.h>
 
 
 struct serial_struct {

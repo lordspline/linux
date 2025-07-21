@@ -109,14 +109,14 @@
  *	   3= 20V unipolar inputs
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/gfp.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/comedi/comedidev.h>
-#include <linux/comedi/comedi_8254.h>
-#include <linux/comedi/comedi_isadma.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/gfp.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/comedi/comedidev.h>
+#include <robux/comedi/comedi_8254.h>
+#include <robux/comedi/comedi_isadma.h>
 
 /*
  * Register I/O map

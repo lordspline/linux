@@ -11,16 +11,16 @@
  * Hardware interface for Renoir ACP block
  */
 
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/io.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/io.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/soc-dai.h>
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
+#include <robux/dma-mapping.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
 
 #include <asm/amd/node.h>
 

@@ -6,7 +6,7 @@
 #ifndef __IRIS_PLATFORM_COMMON_H__
 #define __IRIS_PLATFORM_COMMON_H__
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 struct iris_core;
 struct iris_inst;

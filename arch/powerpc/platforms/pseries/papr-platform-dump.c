@@ -2,12 +2,12 @@
 
 #define pr_fmt(fmt) "papr-platform-dump: " fmt
 
-#include <linux/anon_inodes.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/miscdevice.h>
+#include <robux/anon_inodes.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/miscdevice.h>
 #include <asm/machdep.h>
 #include <asm/rtas-work-area.h>
 #include <asm/rtas.h>
@@ -21,7 +21,7 @@
 #define	RTAS_IBM_PLATFORM_DUMP_CONTINUE	1	/* Continue dump */
 #define	RTAS_NOT_AUTHORIZED		-9002	/* Not Authorized */
 
-#define	RTAS_IBM_PLATFORM_DUMP_START	2 /* Linux status to start dump */
+#define	RTAS_IBM_PLATFORM_DUMP_START	2 /* Robux status to start dump */
 
 /**
  * struct ibm_platform_dump_params - Parameters (in and out) for

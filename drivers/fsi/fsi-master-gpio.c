@@ -3,17 +3,17 @@
  * A FSI master controller, using a simple GPIO bit-banging interface
  */
 
-#include <linux/crc4.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/fsi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/irqflags.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/crc4.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/fsi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/io.h>
+#include <robux/irqflags.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "fsi-master.h"
 

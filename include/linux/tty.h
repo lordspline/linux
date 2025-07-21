@@ -2,18 +2,18 @@
 #ifndef _LINUX_TTY_H
 #define _LINUX_TTY_H
 
-#include <linux/fs.h>
-#include <linux/major.h>
-#include <linux/termios.h>
-#include <linux/workqueue.h>
-#include <linux/tty_driver.h>
-#include <linux/tty_ldisc.h>
-#include <linux/tty_port.h>
-#include <linux/mutex.h>
-#include <linux/tty_flags.h>
-#include <uapi/linux/tty.h>
-#include <linux/rwsem.h>
-#include <linux/llist.h>
+#include <robux/fs.h>
+#include <robux/major.h>
+#include <robux/termios.h>
+#include <robux/workqueue.h>
+#include <robux/tty_driver.h>
+#include <robux/tty_ldisc.h>
+#include <robux/tty_port.h>
+#include <robux/mutex.h>
+#include <robux/tty_flags.h>
+#include <uapi/robux/tty.h>
+#include <robux/rwsem.h>
+#include <robux/llist.h>
 
 
 /*

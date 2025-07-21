@@ -6,16 +6,16 @@
  * Copyright (C) 2016 Nextfour Group
  */
 
-#include <linux/crc-itu-t.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/interrupt.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/crc-itu-t.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/interrupt.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 
 #define SIS_I2C_NAME		"sis_i2c_ts"
 

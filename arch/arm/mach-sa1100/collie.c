@@ -1,8 +1,8 @@
 /*
- * linux/arch/arm/mach-sa1100/collie.c
+ * robux/arch/arm/mach-sa1100/collie.c
  *
  * May be copied or modified under the terms of the GNU General Public
- * License.  See linux/COPYING for more information.
+ * License.  See robux/COPYING for more information.
  *
  * This file contains all Collie-specific tweaks.
  *
@@ -17,21 +17,21 @@
  *  04-16-2001 Lineo Japan,Inc. ...
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/tty.h>
-#include <linux/delay.h>
-#include <linux/platform_data/sa11x0-serial.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/ucb1x00.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/timer.h>
-#include <linux/gpio_keys.h>
-#include <linux/input.h>
-#include <linux/gpio.h>
-#include <linux/gpio/machine.h>
-#include <linux/power/gpio-charger.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/tty.h>
+#include <robux/delay.h>
+#include <robux/platform_data/sa11x0-serial.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/ucb1x00.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/timer.h>
+#include <robux/gpio_keys.h>
+#include <robux/input.h>
+#include <robux/gpio.h>
+#include <robux/gpio/machine.h>
+#include <robux/power/gpio-charger.h>
 
 #include <video/sa1100fb.h>
 
@@ -48,7 +48,7 @@
 #include <asm/hardware/scoop.h>
 #include <asm/mach/sharpsl_param.h>
 #include <asm/hardware/locomo.h>
-#include <linux/platform_data/mfd-mcp-sa11x0.h>
+#include <robux/platform_data/mfd-mcp-sa11x0.h>
 #include <mach/irqs.h>
 
 #include "generic.h"

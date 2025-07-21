@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/include/linux/sunrpc/gss_api.h
+ * robux/include/robux/sunrpc/gss_api.h
  *
  * Somewhat simplified version of the gss api.
  *
@@ -13,9 +13,9 @@
 #ifndef _LINUX_SUNRPC_GSS_API_H
 #define _LINUX_SUNRPC_GSS_API_H
 
-#include <linux/sunrpc/xdr.h>
-#include <linux/sunrpc/msg_prot.h>
-#include <linux/uio.h>
+#include <robux/sunrpc/xdr.h>
+#include <robux/sunrpc/msg_prot.h>
+#include <robux/uio.h>
 
 /* The mechanism-independent gss-api context: */
 struct gss_ctx {

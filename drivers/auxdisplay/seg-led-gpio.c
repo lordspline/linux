@@ -8,16 +8,16 @@
  * Copyright (C) Allied Telesis Labs
  */
 
-#include <linux/bitmap.h>
-#include <linux/container_of.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/map_to_7segment.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/bitmap.h>
+#include <robux/container_of.h>
+#include <robux/errno.h>
+#include <robux/gpio/consumer.h>
+#include <robux/map_to_7segment.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #include "line-display.h"
 

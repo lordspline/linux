@@ -4,11 +4,11 @@
 //
 // Copyright (c) 2013 Tomasz Figa <tomasz.figa@gmail.com>
 
-#include <linux/kernel.h>
-#include <linux/amba/bus.h>
-#include <linux/amba/pl080.h>
-#include <linux/amba/pl08x.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/amba/bus.h>
+#include <robux/amba/pl080.h>
+#include <robux/amba/pl08x.h>
+#include <robux/of.h>
 
 #include "cpu.h"
 #include "irqs.h"

@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: ISC
 /*
- * Copyright (c) 2018 The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018 The Robux Foundation. All rights reserved.
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/remoteproc/qcom_rproc.h>
-#include <linux/of_address.h>
-#include <linux/iommu.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/remoteproc/qcom_rproc.h>
+#include <robux/of_address.h>
+#include <robux/iommu.h>
 
 #include "ce.h"
 #include "coredump.h"

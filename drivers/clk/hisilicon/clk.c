@@ -9,15 +9,15 @@
  *	   Xin Li <li.xin@linaro.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/clkdev.h>
-#include <linux/clk-provider.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/clkdev.h>
+#include <robux/clk-provider.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "clk.h"
 

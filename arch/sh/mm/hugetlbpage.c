@@ -9,12 +9,12 @@
  * Copyright (C) 2002, 2003 David S. Miller (davem@redhat.com)
  */
 
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/hugetlb.h>
-#include <linux/pagemap.h>
-#include <linux/sysctl.h>
+#include <robux/init.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/hugetlb.h>
+#include <robux/pagemap.h>
+#include <robux/sysctl.h>
 
 #include <asm/mman.h>
 #include <asm/tlb.h>

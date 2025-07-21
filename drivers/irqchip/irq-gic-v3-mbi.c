@@ -6,19 +6,19 @@
 
 #define pr_fmt(fmt) "GICv3: " fmt
 
-#include <linux/iommu.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/kernel.h>
-#include <linux/msi.h>
-#include <linux/of_address.h>
-#include <linux/of_pci.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/iommu.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/kernel.h>
+#include <robux/msi.h>
+#include <robux/of_address.h>
+#include <robux/of_pci.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
-#include <linux/irqchip/arm-gic-v3.h>
+#include <robux/irqchip/arm-gic-v3.h>
 
-#include <linux/irqchip/irq-msi-lib.h>
+#include <robux/irqchip/irq-msi-lib.h>
 
 struct mbi_range {
 	u32			spi_start;

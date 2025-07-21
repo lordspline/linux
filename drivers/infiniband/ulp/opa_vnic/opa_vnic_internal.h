@@ -51,10 +51,10 @@
  * This file contains OPA VNIC driver internal declarations
  */
 
-#include <linux/bitops.h>
-#include <linux/etherdevice.h>
-#include <linux/hashtable.h>
-#include <linux/sizes.h>
+#include <robux/bitops.h>
+#include <robux/etherdevice.h>
+#include <robux/hashtable.h>
+#include <robux/sizes.h>
 #include <rdma/opa_vnic.h>
 
 #include "opa_vnic_encap.h"

@@ -193,8 +193,8 @@ EXAMPLES
 ::
 
   #include <stdbool.h>
-  #include <linux/ptrace.h>
-  #include <linux/bpf.h>
+  #include <robux/ptrace.h>
+  #include <robux/bpf.h>
   #include <bpf/bpf_helpers.h>
 
   const volatile int param1 = 42;
@@ -216,8 +216,8 @@ EXAMPLES
 
 ::
 
-  #include <linux/ptrace.h>
-  #include <linux/bpf.h>
+  #include <robux/ptrace.h>
+  #include <robux/bpf.h>
   #include <bpf/bpf_helpers.h>
 
   struct {
@@ -239,8 +239,8 @@ EXAMPLES
 
 ::
 
-  #include <linux/ptrace.h>
-  #include <linux/bpf.h>
+  #include <robux/ptrace.h>
+  #include <robux/bpf.h>
   #include <bpf/bpf_helpers.h>
   /* This header file is provided by the bpf_testmod module. */
   #include "bpf_testmod.h"

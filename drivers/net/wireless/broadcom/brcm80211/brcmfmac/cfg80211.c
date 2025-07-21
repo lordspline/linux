@@ -5,13 +5,13 @@
 
 /* Toplevel file. Relies on dhd_linux.c to send commands to the dongle. */
 
-#include <linux/kernel.h>
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
+#include <robux/kernel.h>
+#include <robux/etherdevice.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
 #include <net/cfg80211.h>
 #include <net/netlink.h>
-#include <uapi/linux/if_arp.h>
+#include <uapi/robux/if_arp.h>
 
 #include <brcmu_utils.h>
 #include <defs.h>

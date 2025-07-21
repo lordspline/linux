@@ -5,11 +5,11 @@
 
 #define pr_fmt(fmt) "nci_spi: %s: " fmt, __func__
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/export.h>
-#include <linux/spi/spi.h>
-#include <linux/crc-ccitt.h>
+#include <robux/export.h>
+#include <robux/spi/spi.h>
+#include <robux/crc-ccitt.h>
 #include <net/nfc/nci_core.h>
 
 #define NCI_SPI_ACK_SHIFT		6

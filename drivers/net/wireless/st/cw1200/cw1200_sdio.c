@@ -6,20 +6,20 @@
  * Author: Dmitry Tarnyagin <dmitry.tarnyagin@lockless.no>
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/gpio/consumer.h>
-#include <linux/delay.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/sdio_ids.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/gpio/consumer.h>
+#include <robux/delay.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/sdio_func.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/sdio.h>
+#include <robux/mmc/sdio_ids.h>
 #include <net/mac80211.h>
 
 #include "cw1200.h"
 #include "hwbus.h"
-#include <linux/platform_data/net-cw1200.h>
+#include <robux/platform_data/net-cw1200.h>
 #include "hwio.h"
 
 MODULE_AUTHOR("Dmitry Tarnyagin <dmitry.tarnyagin@lockless.no>");

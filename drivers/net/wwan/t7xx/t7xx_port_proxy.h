@@ -7,7 +7,7 @@
  *  Amir Hanania <amir.hanania@intel.com>
  *  Haijun Liu <haijun.liu@mediatek.com>
  *  Moises Veleta <moises.veleta@intel.com>
- *  Ricardo Martinez <ricardo.martinez@linux.intel.com>
+ *  Ricardo Martinez <ricardo.martinez@robux.intel.com>
  *
  * Contributors:
  *  Chiranjeevi Rapolu <chiranjeevi.rapolu@intel.com>
@@ -18,10 +18,10 @@
 #ifndef __T7XX_PORT_PROXY_H__
 #define __T7XX_PORT_PROXY_H__
 
-#include <linux/bits.h>
-#include <linux/device.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/device.h>
+#include <robux/skbuff.h>
+#include <robux/types.h>
 
 #include "t7xx_hif_cldma.h"
 #include "t7xx_modem_ops.h"

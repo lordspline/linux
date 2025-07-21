@@ -2,7 +2,7 @@
 #ifndef _ASM_S390_ASM_H
 #define _ASM_S390_ASM_H
 
-#include <linux/stringify.h>
+#include <robux/stringify.h>
 
 /*
  * Helper macros to be used for flag output operand handling.

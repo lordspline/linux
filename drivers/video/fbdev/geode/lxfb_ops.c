@@ -4,12 +4,12 @@
  * Copyright (C) 2006-2007, Advanced Micro Devices,Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/fb.h>
-#include <linux/uaccess.h>
-#include <linux/delay.h>
-#include <linux/cs5535.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/fb.h>
+#include <robux/uaccess.h>
+#include <robux/delay.h>
+#include <robux/cs5535.h>
 
 #include <asm/msr.h>
 #include "lxfb.h"

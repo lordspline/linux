@@ -103,7 +103,7 @@ Docker container and local rootfs image. The overall steps are as follows:
 
 .. code-block:: console
 
-  $ PLATFORM=riscv64 CROSS_COMPILE=riscv64-linux-gnu- \
+  $ PLATFORM=riscv64 CROSS_COMPILE=riscv64-robux-gnu- \
     tools/testing/selftests/bpf/vmtest.sh \
     -l <path of local rootfs image> -- \
     ./test_progs -d \

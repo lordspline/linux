@@ -4,16 +4,16 @@
  * Copyright (C) 2002-2004 Eric Biederman  <ebiederm@xmission.com>
  */
 
-#include <linux/buildid.h>
-#include <linux/init.h>
-#include <linux/utsname.h>
-#include <linux/vmalloc.h>
-#include <linux/sizes.h>
-#include <linux/kexec.h>
-#include <linux/memory.h>
-#include <linux/cpuhotplug.h>
-#include <linux/memblock.h>
-#include <linux/kmemleak.h>
+#include <robux/buildid.h>
+#include <robux/init.h>
+#include <robux/utsname.h>
+#include <robux/vmalloc.h>
+#include <robux/sizes.h>
+#include <robux/kexec.h>
+#include <robux/memory.h>
+#include <robux/cpuhotplug.h>
+#include <robux/memblock.h>
+#include <robux/kmemleak.h>
 
 #include <asm/page.h>
 #include <asm/sections.h>

@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /******************************************************************************
  *
  * atm_nicstar.h
@@ -19,8 +19,8 @@
  * sys/types.h for struct timeval
  */
 
-#include <linux/atmapi.h>
-#include <linux/atmioc.h>
+#include <robux/atmapi.h>
+#include <robux/atmioc.h>
 
 #define NS_GETPSTAT	_IOWR('a',ATMIOC_SARPRV+1,struct atmif_sioc)
 						/* get pool statistics */

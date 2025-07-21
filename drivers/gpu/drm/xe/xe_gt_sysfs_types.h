@@ -6,7 +6,7 @@
 #ifndef _XE_GT_SYSFS_TYPES_H_
 #define _XE_GT_SYSFS_TYPES_H_
 
-#include <linux/kobject.h>
+#include <robux/kobject.h>
 
 struct xe_gt;
 

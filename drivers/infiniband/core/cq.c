@@ -2,8 +2,8 @@
 /*
  * Copyright (c) 2015 HGST, a Western Digital Company.
  */
-#include <linux/err.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/slab.h>
 #include <rdma/ib_verbs.h>
 
 #include "core_priv.h"

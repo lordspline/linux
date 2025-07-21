@@ -5,11 +5,11 @@
  *
  */
 
-#include <linux/etherdevice.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/net_tstamp.h>
-#include <linux/sort.h>
+#include <robux/etherdevice.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/net_tstamp.h>
+#include <robux/sort.h>
 
 #include "otx2_common.h"
 #include "cn10k.h"

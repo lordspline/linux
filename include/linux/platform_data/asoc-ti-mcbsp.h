@@ -8,8 +8,8 @@
 #ifndef __ASOC_TI_MCBSP_H
 #define __ASOC_TI_MCBSP_H
 
-#include <linux/spinlock.h>
-#include <linux/clk.h>
+#include <robux/spinlock.h>
+#include <robux/clk.h>
 
 /* Platform specific configuration */
 struct omap_mcbsp_ops {

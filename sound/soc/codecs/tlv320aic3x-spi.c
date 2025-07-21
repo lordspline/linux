@@ -9,10 +9,10 @@
  *
  */
 
-#include <linux/spi/spi.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 #include <sound/soc.h>
 
 #include "tlv320aic3x.h"

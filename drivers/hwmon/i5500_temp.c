@@ -5,16 +5,16 @@
  * Copyright (C) 2012, 2014 Jean Delvare <jdelvare@suse.de>
  */
 
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/device.h>
-#include <linux/pci.h>
-#include <linux/hwmon.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/device.h>
+#include <robux/pci.h>
+#include <robux/hwmon.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
 
 /* Register definitions from datasheet */
 #define REG_TSTHRCATA	0xE2

@@ -6,10 +6,10 @@
  */
 
 #include <crypto/pkcs7.h>
-#include <linux/cred.h>
-#include <linux/kernel.h>
-#include <linux/key.h>
-#include <linux/module.h>
+#include <robux/cred.h>
+#include <robux/kernel.h>
+#include <robux/key.h>
+#include <robux/module.h>
 #include "selftest.h"
 #include "x509_parser.h"
 

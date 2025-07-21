@@ -9,9 +9,9 @@
 #include <drm/drm_gem_shmem_helper.h>
 #include <drm/drm_print.h>
 #include <drm/drm_syncobj.h>
-#include <linux/hmm.h>
-#include <linux/types.h>
-#include <linux/xarray.h>
+#include <robux/hmm.h>
+#include <robux/types.h>
+#include <robux/xarray.h>
 #include <trace/events/amdxdna.h>
 
 #include "aie2_msg_priv.h"

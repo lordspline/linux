@@ -6,10 +6,10 @@
  *   Author(s): Namjae Jeon <linkinjeon@kernel.org>
  */
 
-#include <linux/fs.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/mnt_idmapping.h>
+#include <robux/fs.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/mnt_idmapping.h>
 
 #include "smbacl.h"
 #include "smb_common.h"

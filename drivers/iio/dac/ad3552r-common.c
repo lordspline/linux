@@ -3,11 +3,11 @@
 // Copyright (c) 2010-2024 Analog Devices Inc.
 // Copyright (c) 2024 Baylibre, SAS
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
 
 #include "ad3552r.h"
 

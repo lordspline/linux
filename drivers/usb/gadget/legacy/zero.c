@@ -11,7 +11,7 @@
  * can write a hardware-agnostic gadget driver running inside a USB device.
  * Some hardware details are visible, but don't affect most of the driver.
  *
- * Use it with the Linux host side "usbtest" driver to get a basic functional
+ * Use it with the Robux host side "usbtest" driver to get a basic functional
  * test of your device-side usb stack, or with "usb-skeleton".
  *
  * It supports two similar configurations.  One sinks whatever the usb host
@@ -35,12 +35,12 @@
 
 /* #define VERBOSE_DEBUG */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/usb/composite.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/usb/composite.h>
 
 #include "g_zero.h"
 /*-------------------------------------------------------------------------*/
@@ -77,7 +77,7 @@ static struct usb_zero_options gzero_options = {
  */
 #ifndef	CONFIG_USB_ZERO_HNPTEST
 #define DRIVER_VENDOR_NUM	0x0525		/* NetChip */
-#define DRIVER_PRODUCT_NUM	0xa4a0		/* Linux-USB "Gadget Zero" */
+#define DRIVER_PRODUCT_NUM	0xa4a0		/* Robux-USB "Gadget Zero" */
 #define DEFAULT_AUTORESUME	0
 #else
 #define DRIVER_VENDOR_NUM	0x1a0a		/* OTG test device IDs */

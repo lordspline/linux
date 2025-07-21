@@ -4,16 +4,16 @@
  * Author: Addy Ke <addy.ke@rock-chips.com>
  */
 
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
-#include <linux/pm_runtime.h>
-#include <linux/scatterlist.h>
+#include <robux/clk.h>
+#include <robux/dmaengine.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/platform_device.h>
+#include <robux/spi/spi.h>
+#include <robux/pm_runtime.h>
+#include <robux/scatterlist.h>
 
 #define DRIVER_NAME "rockchip-spi"
 

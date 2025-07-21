@@ -3,12 +3,12 @@
  * printk_safe.c - Safe printk for printk-deadlock-prone contexts
  */
 
-#include <linux/preempt.h>
-#include <linux/kdb.h>
-#include <linux/smp.h>
-#include <linux/cpumask.h>
-#include <linux/printk.h>
-#include <linux/kprobes.h>
+#include <robux/preempt.h>
+#include <robux/kdb.h>
+#include <robux/smp.h>
+#include <robux/cpumask.h>
+#include <robux/printk.h>
+#include <robux/kprobes.h>
 
 #include "internal.h"
 

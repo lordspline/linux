@@ -511,7 +511,7 @@ sub output_function_man(%) {
     my $func_macro = $args{'func_macro'};
     my $paramcount = $#{$args{'parameterlist'}}; # -1 is empty
 
-    print ".TH \"$args{'function'}\" 9 \"$args{'function'}\" \"$man_date\" \"Kernel Hacker's Manual\" LINUX\n";
+    print ".TH \"$args{'function'}\" 9 \"$args{'function'}\" \"$man_date\" \"Kernel Hacker's Manual\" ROBUX\n";
 
     print ".SH NAME\n";
     print $args{'function'} . " \\- " . $args{'purpose'} . "\n";
@@ -565,7 +565,7 @@ sub output_enum_man(%) {
     my ($parameter, $section);
     my $count;
 
-    print ".TH \"$args{'module'}\" 9 \"enum $args{'enum'}\" \"$man_date\" \"API Manual\" LINUX\n";
+    print ".TH \"$args{'module'}\" 9 \"enum $args{'enum'}\" \"$man_date\" \"API Manual\" ROBUX\n";
 
     print ".SH NAME\n";
     print "enum " . $args{'enum'} . " \\- " . $args{'purpose'} . "\n";
@@ -604,7 +604,7 @@ sub output_struct_man(%) {
     my %args = %{$_[0]};
     my ($parameter, $section);
 
-    print ".TH \"$args{'module'}\" 9 \"" . $args{'type'} . " " . $args{'struct'} . "\" \"$man_date\" \"API Manual\" LINUX\n";
+    print ".TH \"$args{'module'}\" 9 \"" . $args{'type'} . " " . $args{'struct'} . "\" \"$man_date\" \"API Manual\" ROBUX\n";
 
     print ".SH NAME\n";
     print $args{'type'} . " " . $args{'struct'} . " \\- " . $args{'purpose'} . "\n";
@@ -639,7 +639,7 @@ sub output_typedef_man(%) {
     my %args = %{$_[0]};
     my ($parameter, $section);
 
-    print ".TH \"$args{'module'}\" 9 \"$args{'typedef'}\" \"$man_date\" \"API Manual\" LINUX\n";
+    print ".TH \"$args{'module'}\" 9 \"$args{'typedef'}\" \"$man_date\" \"API Manual\" ROBUX\n";
 
     print ".SH NAME\n";
     print "typedef " . $args{'typedef'} . " \\- " . $args{'purpose'} . "\n";
@@ -655,7 +655,7 @@ sub output_blockhead_man(%) {
     my ($parameter, $section);
     my $count;
 
-    print ".TH \"$args{'module'}\" 9 \"$args{'module'}\" \"$man_date\" \"API Manual\" LINUX\n";
+    print ".TH \"$args{'module'}\" 9 \"$args{'module'}\" \"$man_date\" \"API Manual\" ROBUX\n";
 
     foreach $section (@{$args{'sectionlist'}}) {
         print ".SH \"$section\"\n";

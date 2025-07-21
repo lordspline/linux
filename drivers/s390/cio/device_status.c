@@ -7,9 +7,9 @@
  * Status accumulation and basic sense functions.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/io.h>
 
 #include <asm/ccwdev.h>
 #include <asm/cio.h>

@@ -1,9 +1,9 @@
 #ifndef _NF_OSF_H
 #define _NF_OSF_H
 
-#include <linux/types.h>
-#include <linux/ip.h>
-#include <linux/tcp.h>
+#include <robux/types.h>
+#include <robux/ip.h>
+#include <robux/tcp.h>
 
 #define MAXGENRELEN	32
 

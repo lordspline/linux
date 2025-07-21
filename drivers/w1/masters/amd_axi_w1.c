@@ -5,20 +5,20 @@
  * Copyright (C) 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
  */
 
-#include <linux/atomic.h>
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/types.h>
-#include <linux/wait.h>
+#include <robux/atomic.h>
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/types.h>
+#include <robux/wait.h>
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
 /* 1-wire AMD IP definition */
 #define AXIW1_IPID	0x10ee4453

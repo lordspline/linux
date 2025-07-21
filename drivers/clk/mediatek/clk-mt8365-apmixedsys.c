@@ -5,9 +5,9 @@
  */
 
 #include <dt-bindings/clock/mediatek,mt8365-clk.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include "clk-pll.h"
 #include "clk-mtk.h"

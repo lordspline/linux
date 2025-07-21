@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/arm/mach-footbridge/ebsa285-pci.c
+ * robux/arch/arm/mach-footbridge/ebsa285-pci.c
  *
  * PCI bios-type initialisation for PCI machines
  *
  * Bits taken from various places.
  */
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/init.h>
 
 #include <asm/irq.h>
 #include <asm/mach/pci.h>

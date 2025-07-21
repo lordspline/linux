@@ -5,15 +5,15 @@
  * Copyright (C) 2017 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/devm-helpers.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/thermal.h>
-#include <linux/workqueue.h>
+#include <robux/acpi.h>
+#include <robux/devm-helpers.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/thermal.h>
+#include <robux/workqueue.h>
 
 #define MAX_SPEED 3
 

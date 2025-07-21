@@ -8,12 +8,12 @@
 
 #define dev_fmt(fmt) "DPC: " fmt
 
-#include <linux/aer.h>
-#include <linux/bitfield.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <robux/aer.h>
+#include <robux/bitfield.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/pci.h>
 
 #include "portdrv.h"
 #include "../pci.h"

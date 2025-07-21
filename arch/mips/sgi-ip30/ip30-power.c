@@ -7,15 +7,15 @@
  *               2009 Johannes Dickgreber <tanzy@gmx.de>
  */
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/notifier.h>
-#include <linux/delay.h>
-#include <linux/rtc/ds1685.h>
-#include <linux/interrupt.h>
-#include <linux/pm.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/notifier.h>
+#include <robux/delay.h>
+#include <robux/rtc/ds1685.h>
+#include <robux/interrupt.h>
+#include <robux/pm.h>
 
 #include <asm/reboot.h>
 #include <asm/sgi/heart.h>

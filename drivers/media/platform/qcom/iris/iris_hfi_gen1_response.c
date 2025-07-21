@@ -3,7 +3,7 @@
  * Copyright (c) 2022-2024 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 #include <media/v4l2-mem2mem.h>
 
 #include "iris_hfi_gen1.h"

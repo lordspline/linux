@@ -9,8 +9,8 @@
  * Datasheet: http://www.nxp.com/files/sensors/doc/data_sheet/MPL115A2.pdf
  */
 
-#include <linux/module.h>
-#include <linux/i2c.h>
+#include <robux/module.h>
+#include <robux/i2c.h>
 
 #include "mpl115.h"
 

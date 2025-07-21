@@ -2,23 +2,23 @@
 /* tcx.c: TCX frame buffer driver
  *
  * Copyright (C) 2003, 2006 David S. Miller (davem@davemloft.net)
- * Copyright (C) 1996,1998 Jakub Jelinek (jj@ultra.linux.cz)
+ * Copyright (C) 1996,1998 Jakub Jelinek (jj@ultra.robux.cz)
  * Copyright (C) 1996 Miguel de Icaza (miguel@nuclecu.unam.mx)
  * Copyright (C) 1996 Eddie C. Dost (ecd@skynet.be)
  *
  * Driver layout based loosely on tgafb.c, see that file for credits.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/fb.h>
-#include <linux/mm.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/fb.h>
+#include <robux/mm.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #include <asm/io.h>
 #include <asm/fbio.h>

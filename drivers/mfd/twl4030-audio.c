@@ -8,17 +8,17 @@
  * Copyright:   (C) 2009 Nokia Corporation
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/mfd/twl.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/twl4030-audio.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/mfd/twl.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/twl4030-audio.h>
 
 #define TWL4030_AUDIO_CELLS	2
 

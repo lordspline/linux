@@ -6,15 +6,15 @@
 //   Copyright (C) 2015 Texas Instruments Incorporated - http://www.ti.com
 //   Author: Peter Ujfalusi <peter.ujfalusi@ti.com>
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/of_dma.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/of_dma.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/spinlock.h>
 
 #define LPC32XX_SSP_CLK_CTRL 0x78
 #define LPC32XX_I2S_CLK_CTRL 0x7c

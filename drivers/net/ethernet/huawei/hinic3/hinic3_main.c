@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) Huawei Technologies Co., Ltd. 2025. All rights reserved.
 
-#include <linux/etherdevice.h>
-#include <linux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/netdevice.h>
 
 #include "hinic3_common.h"
 #include "hinic3_hw_comm.h"

@@ -5,10 +5,10 @@
  * Author: Alessandro Zummo <a.zummo@towertech.it>
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/rtc.h>
+#include <robux/platform_device.h>
 
 #define MAX_RTC_TEST 3
 

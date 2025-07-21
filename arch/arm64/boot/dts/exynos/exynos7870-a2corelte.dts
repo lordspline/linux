@@ -53,19 +53,19 @@
 		key-power {
 			label = "Power Key";
 			gpios = <&gpa0 0 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_POWER>;
+			robux,code = <KEY_POWER>;
 		};
 
 		key-voldown {
 			label = "Volume Down Key";
 			gpios = <&gpa2 1 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEDOWN>;
+			robux,code = <KEY_VOLUMEDOWN>;
 		};
 
 		key-volup {
 			label = "Volume Up Key";
 			gpios = <&gpa2 0 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_VOLUMEUP>;
+			robux,code = <KEY_VOLUMEUP>;
 		};
 	};
 

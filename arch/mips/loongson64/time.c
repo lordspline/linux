@@ -11,8 +11,8 @@
 #include <asm/hpet.h>
 
 #include <loongson.h>
-#include <linux/clk.h>
-#include <linux/of_clk.h>
+#include <robux/clk.h>
+#include <robux/of_clk.h>
 
 void __init plat_time_init(void)
 {

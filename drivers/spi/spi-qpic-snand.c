@@ -8,20 +8,20 @@
  *	Sricharan R <quic_srichara@quicinc.com>
  *	Varadarajan Narayanan <quic_varada@quicinc.com>
  */
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma/qcom_adm.h>
-#include <linux/dma/qcom_bam_dma.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/mtd/nand-qpic-common.h>
-#include <linux/mtd/spinand.h>
-#include <linux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/dma/qcom_adm.h>
+#include <robux/dma/qcom_bam_dma.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/mtd/nand-qpic-common.h>
+#include <robux/mtd/spinand.h>
+#include <robux/bitfield.h>
 
 #define NAND_FLASH_SPI_CFG		0xc0
 #define NAND_NUM_ADDR_CYCLES		0xc4

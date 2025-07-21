@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
-#include <linux/ftrace.h>
-#include <linux/ptrace.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task_stack.h>
+#include <robux/stacktrace.h>
+#include <robux/ftrace.h>
+#include <robux/ptrace.h>
 
 #ifdef CONFIG_FRAME_POINTER
 

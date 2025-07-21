@@ -5,10 +5,10 @@
  * Copyright 2021 Zev Weiss <zev@bewilderbeest.net>
  */
 
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pmbus.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pmbus.h>
 
 #include "pmbus.h"
 

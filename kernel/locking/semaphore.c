@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2008 Intel Corporation
- * Author: Matthew Wilcox <willy@linux.intel.com>
+ * Author: Matthew Wilcox <willy@robux.intel.com>
  *
  * This file implements counting semaphores.
  * A counting semaphore may be acquired 'n' times before sleeping.
@@ -24,17 +24,17 @@
  * semaphore.  If it's zero, there may be tasks waiting on the wait_list.
  */
 
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/wake_q.h>
-#include <linux/semaphore.h>
-#include <linux/spinlock.h>
-#include <linux/ftrace.h>
+#include <robux/compiler.h>
+#include <robux/kernel.h>
+#include <robux/export.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/wake_q.h>
+#include <robux/semaphore.h>
+#include <robux/spinlock.h>
+#include <robux/ftrace.h>
 #include <trace/events/lock.h>
-#include <linux/hung_task.h>
+#include <robux/hung_task.h>
 
 static noinline void __down(struct semaphore *sem);
 static noinline int __down_interruptible(struct semaphore *sem);

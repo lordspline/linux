@@ -5,11 +5,11 @@
 #ifndef _VC4_DRV_H_
 #define _VC4_DRV_H_
 
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/refcount.h>
-#include <linux/uaccess.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/refcount.h>
+#include <robux/uaccess.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_debugfs.h>

@@ -16,8 +16,8 @@
  *
  */
 
-#include <linux/pci_hotplug.h>
-#include <linux/pci_regs.h>
+#include <robux/pci_hotplug.h>
+#include <robux/pci_regs.h>
 
 extern int ibmphp_debug;
 

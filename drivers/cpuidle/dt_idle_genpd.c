@@ -11,13 +11,13 @@
 
 #define pr_fmt(fmt) "dt-idle-genpd: " fmt
 
-#include <linux/cpu.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/pm_domain.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/cpu.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/pm_domain.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 #include "dt_idle_genpd.h"
 

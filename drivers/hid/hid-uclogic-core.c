@@ -13,10 +13,10 @@
  * any later version.
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
-#include <linux/timer.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/module.h>
+#include <robux/timer.h>
 #include "usbhid/usbhid.h"
 #include "hid-uclogic-params.h"
 

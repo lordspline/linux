@@ -7,19 +7,19 @@
  */
 
 #include <asm/barrier.h>
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/usb/uvc.h>
-#include <linux/videodev2.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
-#include <linux/atomic.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/usb.h>
+#include <robux/usb/uvc.h>
+#include <robux/videodev2.h>
+#include <robux/vmalloc.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
+#include <robux/atomic.h>
 #include <media/v4l2-ctrls.h>
 
 #include "uvcvideo.h"

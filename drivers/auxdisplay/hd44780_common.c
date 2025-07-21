@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 
 #include "charlcd.h"
 #include "hd44780_common.h"

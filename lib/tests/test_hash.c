@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Test cases for <linux/hash.h> and <linux/stringhash.h>
+ * Test cases for <robux/hash.h> and <robux/stringhash.h>
  * This just verifies that various ways of computing a hash
  * produce the same thing and, for cases where a k-bit hash
  * value is requested, is of the requested size.
@@ -14,11 +14,11 @@
  * and hash_64().
  */
 
-#include <linux/compiler.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/hash.h>
-#include <linux/stringhash.h>
+#include <robux/compiler.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/hash.h>
+#include <robux/stringhash.h>
 #include <kunit/test.h>
 
 /* 32-bit XORSHIFT generator.  Seed must not be zero. */
@@ -235,5 +235,5 @@ static struct kunit_suite hash_test_suite = {
 
 kunit_test_suite(hash_test_suite);
 
-MODULE_DESCRIPTION("Test cases for <linux/hash.h> and <linux/stringhash.h>");
+MODULE_DESCRIPTION("Test cases for <robux/hash.h> and <robux/stringhash.h>");
 MODULE_LICENSE("GPL");

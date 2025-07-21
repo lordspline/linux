@@ -10,9 +10,9 @@
 #ifndef AQ_COMMON_H
 #define AQ_COMMON_H
 
-#include <linux/etherdevice.h>
-#include <linux/pci.h>
-#include <linux/if_vlan.h>
+#include <robux/etherdevice.h>
+#include <robux/pci.h>
+#include <robux/if_vlan.h>
 #include "aq_cfg.h"
 #include "aq_utils.h"
 

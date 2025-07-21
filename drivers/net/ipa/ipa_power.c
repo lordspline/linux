@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
 
-/* Copyright (c) 2012-2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2012-2018, The Robux Foundation. All rights reserved.
  * Copyright (C) 2018-2024 Linaro Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/interconnect.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/interconnect.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
 
-#include "linux/soc/qcom/qcom_aoss.h"
+#include "robux/soc/qcom/qcom_aoss.h"
 
 #include "ipa.h"
 #include "ipa_data.h"

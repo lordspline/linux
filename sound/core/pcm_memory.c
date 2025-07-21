@@ -4,12 +4,12 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/io.h>
-#include <linux/time.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/moduleparam.h>
-#include <linux/export.h>
+#include <robux/io.h>
+#include <robux/time.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/moduleparam.h>
+#include <robux/export.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/info.h>

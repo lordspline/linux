@@ -8,18 +8,18 @@
  *         Simon Xue <xxm@rock-chips.com>
  */
 
-#include <linux/configfs.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/iopoll.h>
-#include <linux/kernel.h>
-#include <linux/irq.h>
-#include <linux/of.h>
-#include <linux/pci-epc.h>
-#include <linux/platform_device.h>
-#include <linux/pci-epf.h>
-#include <linux/sizes.h>
-#include <linux/workqueue.h>
+#include <robux/configfs.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/iopoll.h>
+#include <robux/kernel.h>
+#include <robux/irq.h>
+#include <robux/of.h>
+#include <robux/pci-epc.h>
+#include <robux/platform_device.h>
+#include <robux/pci-epf.h>
+#include <robux/sizes.h>
+#include <robux/workqueue.h>
 
 #include "pcie-rockchip.h"
 

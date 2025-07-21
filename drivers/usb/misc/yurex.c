@@ -5,15 +5,15 @@
  * Copyright (C) 2010 Tomoki Sekiyama (tomoki.sekiyama@gmail.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/kref.h>
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
-#include <linux/usb.h>
-#include <linux/hid.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/kref.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
+#include <robux/usb.h>
+#include <robux/hid.h>
 
 #define DRIVER_AUTHOR "Tomoki Sekiyama"
 #define DRIVER_DESC "Driver for Meywa-Denki & KAYAC YUREX"

@@ -20,16 +20,16 @@
  * GNU General Public License for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/i2c.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/videodev2.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/ctype.h>
+#include <robux/slab.h>
+#include <robux/i2c.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/videodev2.h>
+#include <robux/uaccess.h>
 
 #include <media/i2c/adv7393.h>
 #include <media/v4l2-device.h>

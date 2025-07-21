@@ -21,13 +21,13 @@
 #endif
 
 #include <errno.h>
-#include <linux/filter.h>
+#include <robux/filter.h>
 #include <sys/prctl.h>
 #include <sys/ptrace.h>
 #include <sys/user.h>
-#include <linux/prctl.h>
-#include <linux/ptrace.h>
-#include <linux/seccomp.h>
+#include <robux/prctl.h>
+#include <robux/ptrace.h>
+#include <robux/seccomp.h>
 #include <pthread.h>
 #include <semaphore.h>
 #include <signal.h>
@@ -36,7 +36,7 @@
 #include <string.h>
 #include <time.h>
 #include <limits.h>
-#include <linux/elf.h>
+#include <robux/elf.h>
 #include <sys/uio.h>
 #include <sys/utsname.h>
 #include <sys/fcntl.h>
@@ -44,10 +44,10 @@
 #include <sys/times.h>
 #include <sys/socket.h>
 #include <sys/ioctl.h>
-#include <linux/kcmp.h>
+#include <robux/kcmp.h>
 #include <sys/resource.h>
 #include <sys/capability.h>
-#include <linux/perf_event.h>
+#include <robux/perf_event.h>
 
 #include <unistd.h>
 #include <sys/syscall.h>
@@ -1919,7 +1919,7 @@ const bool ptrace_entry_set_syscall_ret =
 
 /*
  * Use PTRACE_GETREGS and PTRACE_SETREGS when available. This is useful for
- * architectures without HAVE_ARCH_TRACEHOOK (e.g. User-mode Linux).
+ * architectures without HAVE_ARCH_TRACEHOOK (e.g. User-mode Robux).
  */
 #if defined(__x86_64__) || defined(__i386__) || defined(__mips__) || defined(__mc68000__)
 # define ARCH_GETREGS(_regs)	ptrace(PTRACE_GETREGS, tracee, 0, &(_regs))

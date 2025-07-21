@@ -3,18 +3,18 @@
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *  Copyright (C) 2000, 2001, 2002 Andi Kleen, SuSE Labs
  */
-#include <linux/sched/debug.h>
-#include <linux/kallsyms.h>
-#include <linux/kprobes.h>
-#include <linux/uaccess.h>
-#include <linux/hardirq.h>
-#include <linux/kdebug.h>
-#include <linux/export.h>
-#include <linux/ptrace.h>
-#include <linux/kexec.h>
-#include <linux/sysfs.h>
-#include <linux/bug.h>
-#include <linux/nmi.h>
+#include <robux/sched/debug.h>
+#include <robux/kallsyms.h>
+#include <robux/kprobes.h>
+#include <robux/uaccess.h>
+#include <robux/hardirq.h>
+#include <robux/kdebug.h>
+#include <robux/export.h>
+#include <robux/ptrace.h>
+#include <robux/kexec.h>
+#include <robux/sysfs.h>
+#include <robux/bug.h>
+#include <robux/nmi.h>
 
 #include <asm/cpu_entry_area.h>
 #include <asm/stacktrace.h>

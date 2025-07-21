@@ -8,8 +8,8 @@
 #ifndef _PISP_BE_FORMATS_
 #define _PISP_BE_FORMATS_
 
-#include <linux/bits.h>
-#include <linux/videodev2.h>
+#include <robux/bits.h>
+#include <robux/videodev2.h>
 
 #define PISPBE_MAX_PLANES	3
 #define P3(x)			((x) * 8)

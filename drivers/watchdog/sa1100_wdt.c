@@ -16,20 +16,20 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/clk.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/fs.h>
-#include <linux/platform_device.h>
-#include <linux/miscdevice.h>
-#include <linux/watchdog.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
-#include <linux/timex.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/clk.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/fs.h>
+#include <robux/platform_device.h>
+#include <robux/miscdevice.h>
+#include <robux/watchdog.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/bitops.h>
+#include <robux/uaccess.h>
+#include <robux/timex.h>
 
 #define REG_OSMR0  	0x0000  /* OS timer Match Reg. 0 */
 #define REG_OSMR1  	0x0004  /* OS timer Match Reg. 1 */

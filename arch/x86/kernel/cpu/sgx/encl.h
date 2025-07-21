@@ -7,16 +7,16 @@
 #ifndef _X86_ENCL_H
 #define _X86_ENCL_H
 
-#include <linux/cpumask.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/mm_types.h>
-#include <linux/mmu_notifier.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/srcu.h>
-#include <linux/workqueue.h>
-#include <linux/xarray.h>
+#include <robux/cpumask.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/mm_types.h>
+#include <robux/mmu_notifier.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
+#include <robux/srcu.h>
+#include <robux/workqueue.h>
+#include <robux/xarray.h>
 #include "sgx.h"
 
 /* 'desc' bits holding the offset in the VA (version array) page. */

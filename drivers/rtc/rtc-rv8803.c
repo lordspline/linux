@@ -7,17 +7,17 @@
  *
  */
 
-#include <linux/bcd.h>
-#include <linux/bitops.h>
-#include <linux/bitfield.h>
-#include <linux/log2.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/rtc.h>
-#include <linux/pm_wakeirq.h>
+#include <robux/bcd.h>
+#include <robux/bitops.h>
+#include <robux/bitfield.h>
+#include <robux/log2.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/rtc.h>
+#include <robux/pm_wakeirq.h>
 
 #define RV8803_I2C_TRY_COUNT		4
 

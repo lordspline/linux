@@ -5,13 +5,13 @@
  * Author: Keerthy <j-keerthy@ti.com>
  */
 
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/core.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/lp873x.h>
+#include <robux/mfd/lp873x.h>
 
 static const struct regmap_config lp873x_regmap_config = {
 	.reg_bits = 8,

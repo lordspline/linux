@@ -21,8 +21,8 @@
  *
  */
 
-#include <linux/perf_event.h>
-#include <linux/init.h>
+#include <robux/perf_event.h>
+#include <robux/init.h>
 #include "amdgpu.h"
 #include "amdgpu_pmu.h"
 

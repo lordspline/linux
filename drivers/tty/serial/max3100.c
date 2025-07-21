@@ -16,24 +16,24 @@
 /* 4 MAX3100s should be enough for everyone */
 #define MAX_MAX3100 4
 
-#include <linux/bitops.h>
-#include <linux/container_of.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/freezer.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm.h>
-#include <linux/property.h>
-#include <linux/serial_core.h>
-#include <linux/serial.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/tty_flip.h>
-#include <linux/tty.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/container_of.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/freezer.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pm.h>
+#include <robux/property.h>
+#include <robux/serial_core.h>
+#include <robux/serial.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/tty_flip.h>
+#include <robux/tty.h>
+#include <robux/types.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #define MAX3100_C    (1<<14)
 #define MAX3100_D    (0<<14)

@@ -11,12 +11,12 @@
  * Tero Kristo <t-kristo@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/clk/ti.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/clk/ti.h>
+#include <robux/delay.h>
 
 #include "clock.h"
 

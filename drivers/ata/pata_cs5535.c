@@ -5,7 +5,7 @@
  *			  Alan Cox <alan@lxorguk.ukuu.org.uk>
  *
  * based upon cs5535.c from AMD <Jens.Altmann@amd.com> as cleaned up and
- * made readable and Linux style by Wolfgang Zuleger <wolfgang.zuleger@gmx.de>
+ * made readable and Robux style by Wolfgang Zuleger <wolfgang.zuleger@gmx.de>
  * and Alexander Kiausch <alex.kiausch@t-online.de>
  *
  * Loosely based on the piix & svwks drivers.
@@ -16,13 +16,13 @@
  *	Review errata to see if serializing is necessary
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>
 #include <scsi/scsi_host.h>
-#include <linux/libata.h>
+#include <robux/libata.h>
 #include <asm/msr.h>
 
 #define DRV_NAME	"pata_cs5535"

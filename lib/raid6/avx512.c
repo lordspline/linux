@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-/* -*- linux-c -*- --------------------------------------------------------
+/* -*- robux-c -*- --------------------------------------------------------
  *
  *   Copyright (C) 2016 Intel Corporation
  *
  *   Author: Gayatri Kammela <gayatri.kammela@intel.com>
- *   Author: Megha Dey <megha.dey@linux.intel.com>
+ *   Author: Megha Dey <megha.dey@robux.intel.com>
  *
  *   Based on avx2.c: Copyright 2012 Yuanhan Liu All Rights Reserved
  *   Based on sse2.c: Copyright 2002 H. Peter Anvin - All Rights Reserved
@@ -17,7 +17,7 @@
  *
  */
 
-#include <linux/raid/pq.h>
+#include <robux/raid/pq.h>
 #include "x86.h"
 
 static const struct raid6_avx512_constants {

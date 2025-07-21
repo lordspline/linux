@@ -8,11 +8,11 @@
 /*
  * User space memory access functions
  */
-#include <linux/kernel.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
 #include <asm/page.h>
 #include <asm/domain.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <asm/unified.h>
 #include <asm/pgtable.h>
 #include <asm/proc-fns.h>

@@ -9,10 +9,10 @@
 
 #include "debugfs.h"
 
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
+#include <robux/skbuff.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
 
 #include "wlcore.h"
 #include "debug.h"

@@ -13,8 +13,8 @@
 #include <time.h>
 #include <sys/stat.h>
 #include <sys/syscall.h>
-#include <linux/mman.h>
-#include "linux/kernel.h"
+#include <robux/mman.h>
+#include "robux/kernel.h"
 
 #include "test_util.h"
 

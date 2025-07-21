@@ -6,8 +6,8 @@
  * public domain.
  */
 
-#include <linux/kernel.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/unaligned.h>
 #include <crypto/internal/poly1305.h>
 
 void poly1305_core_setkey(struct poly1305_core_key *key,

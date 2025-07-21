@@ -11,18 +11,18 @@
  * Author: Thomas Richard <thomas.richard@bootlin.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/upboard-fpga.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/upboard-fpga.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/sysfs.h>
 
 #define UPBOARD_AAEON_MANUFACTURER_ID	0x01
 #define UPBOARD_MANUFACTURER_ID_MASK	GENMASK(7, 0)

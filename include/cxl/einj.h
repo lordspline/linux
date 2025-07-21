@@ -10,8 +10,8 @@
 #ifndef EINJ_CXL_H
 #define EINJ_CXL_H
 
-#include <linux/errno.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/types.h>
 
 struct pci_dev;
 struct seq_file;

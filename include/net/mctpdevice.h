@@ -10,9 +10,9 @@
 #ifndef __NET_MCTPDEVICE_H
 #define __NET_MCTPDEVICE_H
 
-#include <linux/list.h>
-#include <linux/types.h>
-#include <linux/refcount.h>
+#include <robux/list.h>
+#include <robux/types.h>
+#include <robux/refcount.h>
 
 struct mctp_sk_key;
 

@@ -7,15 +7,15 @@
  *          Olivier Moysan <olivier.moysan@st.com>
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/pm_runtime.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/consumer.h>
-#include <linux/iio/adc/stm32-dfsdm-adc.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/pm_runtime.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/consumer.h>
+#include <robux/iio/adc/stm32-dfsdm-adc.h>
 
 #include <sound/pcm.h>
 #include <sound/soc.h>

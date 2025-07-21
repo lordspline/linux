@@ -2,25 +2,25 @@
  *  SGI GBE frame buffer driver
  *
  *  Copyright (C) 1999 Silicon Graphics, Inc. - Jeffrey Newquist
- *  Copyright (C) 2002 Vivien Chappelier <vivien.chappelier@linux-mips.org>
+ *  Copyright (C) 2002 Vivien Chappelier <vivien.chappelier@robux-mips.org>
  *
  *  This file is subject to the terms and conditions of the GNU General Public
  *  License. See the file COPYING in the main directory of this archive for
  *  more details.
  */
 
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/gfp.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/io.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/dma-mapping.h>
+#include <robux/errno.h>
+#include <robux/gfp.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/io.h>
 
 #ifdef CONFIG_MIPS
 #include <asm/addrspace.h>

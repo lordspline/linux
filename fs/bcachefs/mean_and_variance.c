@@ -34,13 +34,13 @@
  * DO NOT change the weight after calling update.
  */
 
-#include <linux/bug.h>
-#include <linux/compiler.h>
-#include <linux/export.h>
-#include <linux/limits.h>
-#include <linux/math.h>
-#include <linux/math64.h>
-#include <linux/module.h>
+#include <robux/bug.h>
+#include <robux/compiler.h>
+#include <robux/export.h>
+#include <robux/limits.h>
+#include <robux/math.h>
+#include <robux/math64.h>
+#include <robux/module.h>
 
 #include "mean_and_variance.h"
 

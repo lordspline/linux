@@ -8,7 +8,7 @@
 #ifndef	__ATOMISP_DRVFS_H__
 #define	__ATOMISP_DRVFS_H__
 
-#include <linux/sysfs.h>
+#include <robux/sysfs.h>
 
 extern const struct attribute_group *dbg_attr_groups[];
 

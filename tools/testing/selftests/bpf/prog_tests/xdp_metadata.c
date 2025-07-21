@@ -7,9 +7,9 @@
 #include "xsk.h"
 
 #include <bpf/btf.h>
-#include <linux/errqueue.h>
-#include <linux/if_link.h>
-#include <linux/net_tstamp.h>
+#include <robux/errqueue.h>
+#include <robux/if_link.h>
+#include <robux/net_tstamp.h>
 #include <netinet/udp.h>
 #include <sys/mman.h>
 #include <net/if.h>

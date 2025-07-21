@@ -18,9 +18,9 @@
 
 #include "dhry.h"
 
-#include <linux/ktime.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/ktime.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 /* Global Variables: */
 

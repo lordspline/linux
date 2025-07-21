@@ -16,21 +16,21 @@
  * done signal, then proceed next write command. It is no need to do a read
  * before write.
  */
-#include <linux/clk.h>
-#include <linux/console.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <robux/clk.h>
+#include <robux/console.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
+#include <robux/serial_core.h>
+#include <robux/serial_reg.h>
+#include <robux/sysrq.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
 #include <asm/irq.h>
 
 /* Register offsets */

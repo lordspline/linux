@@ -6,15 +6,15 @@
  * Author: Alex Smith <alex.smith@imgtec.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of_platform.h>
-#include <linux/platform_device.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of_platform.h>
+#include <robux/platform_device.h>
 
 #include "ingenic_ecc.h"
 

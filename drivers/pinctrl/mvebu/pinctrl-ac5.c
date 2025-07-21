@@ -7,12 +7,12 @@
  * Noam Liron <lnoam@marvell.com>
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinctrl.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/pinctrl/pinctrl.h>
 
 #include "pinctrl-mvebu.h"
 

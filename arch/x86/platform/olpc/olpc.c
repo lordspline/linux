@@ -6,17 +6,17 @@
  * Copyright © 2007-2008  Andres Salomon <dilinger@debian.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/string.h>
-#include <linux/platform_device.h>
-#include <linux/of.h>
-#include <linux/syscore_ops.h>
-#include <linux/mutex.h>
-#include <linux/olpc-ec.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/string.h>
+#include <robux/platform_device.h>
+#include <robux/of.h>
+#include <robux/syscore_ops.h>
+#include <robux/mutex.h>
+#include <robux/olpc-ec.h>
 
 #include <asm/geode.h>
 #include <asm/setup.h>

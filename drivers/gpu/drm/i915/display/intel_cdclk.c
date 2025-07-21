@@ -21,8 +21,8 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/debugfs.h>
-#include <linux/time.h>
+#include <robux/debugfs.h>
+#include <robux/time.h>
 
 #include <drm/drm_fixed.h>
 

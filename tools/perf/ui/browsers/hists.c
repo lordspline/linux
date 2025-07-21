@@ -5,11 +5,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <linux/rbtree.h>
-#include <linux/string.h>
+#include <robux/rbtree.h>
+#include <robux/string.h>
 #include <sys/ttydefaults.h>
-#include <linux/time64.h>
-#include <linux/zalloc.h>
+#include <robux/time64.h>
+#include <robux/zalloc.h>
 
 #include "../../util/debug.h"
 #include "../../util/dso.h"
@@ -44,7 +44,7 @@
 #include "units.h"
 #include "time-utils.h"
 
-#include <linux/ctype.h>
+#include <robux/ctype.h>
 
 extern void hist_browser__init_hpp(void);
 

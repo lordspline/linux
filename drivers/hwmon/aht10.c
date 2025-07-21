@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
 /*
- * aht10.c - Linux hwmon driver for AHT10/AHT20 Temperature and Humidity sensors
+ * aht10.c - Robux hwmon driver for AHT10/AHT20 Temperature and Humidity sensors
  * Copyright (C) 2020 Johannes Cornelis Draaijer
  */
 
-#include <linux/delay.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/ktime.h>
-#include <linux/module.h>
-#include <linux/crc8.h>
+#include <robux/delay.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/ktime.h>
+#include <robux/module.h>
+#include <robux/crc8.h>
 
 #define AHT10_MEAS_SIZE		6
 

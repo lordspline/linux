@@ -10,7 +10,7 @@
 #ifndef _NOLIBC_ERRNO_H
 #define _NOLIBC_ERRNO_H
 
-#include <linux/errno.h>
+#include <robux/errno.h>
 
 #ifndef NOLIBC_IGNORE_ERRNO
 #define SET_ERRNO(v) do { errno = (v); } while (0)

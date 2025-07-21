@@ -5,23 +5,23 @@
  * Copyright (C) 2011 Robert Jarzmik
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/bitmap.h>
-#include <linux/bitrev.h>
-#include <linux/bch.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/bitmap.h>
+#include <robux/bitrev.h>
+#include <robux/bch.h>
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
 
 #define CREATE_TRACE_POINTS
 #include "docg3.h"

@@ -6,8 +6,8 @@
 #ifndef __ASM_RSI_H_
 #define __ASM_RSI_H_
 
-#include <linux/errno.h>
-#include <linux/jump_label.h>
+#include <robux/errno.h>
+#include <robux/jump_label.h>
 #include <asm/rsi_cmds.h>
 
 #define RSI_PDEV_NAME "arm-cca-dev"

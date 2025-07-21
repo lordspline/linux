@@ -6,15 +6,15 @@
  *     Anup Patel <anup.patel@wdc.com>
  */
 
-#include <linux/bitops.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/hugetlb.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
-#include <linux/kvm_host.h>
-#include <linux/sched/signal.h>
+#include <robux/bitops.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/hugetlb.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
+#include <robux/vmalloc.h>
+#include <robux/kvm_host.h>
+#include <robux/sched/signal.h>
 #include <asm/kvm_nacl.h>
 #include <asm/page.h>
 #include <asm/pgtable.h>

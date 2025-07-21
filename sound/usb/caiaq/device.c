@@ -6,13 +6,13 @@
  *                      Karsten Wiese <fzu@wemgehoertderstaat.de>
 */
 
-#include <linux/moduleparam.h>
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/gfp.h>
-#include <linux/usb.h>
+#include <robux/moduleparam.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/gfp.h>
+#include <robux/usb.h>
 #include <sound/initval.h>
 #include <sound/core.h>
 #include <sound/pcm.h>

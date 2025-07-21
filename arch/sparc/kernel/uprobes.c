@@ -9,12 +9,12 @@
  *	Eric Saint Etienne <eric.saint.etienne@oracle.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/highmem.h>
-#include <linux/uprobes.h>
-#include <linux/uaccess.h>
-#include <linux/sched.h> /* For struct task_struct */
-#include <linux/kdebug.h>
+#include <robux/kernel.h>
+#include <robux/highmem.h>
+#include <robux/uprobes.h>
+#include <robux/uaccess.h>
+#include <robux/sched.h> /* For struct task_struct */
+#include <robux/kdebug.h>
 
 #include <asm/cacheflush.h>
 

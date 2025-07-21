@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
-#include <linux/aperture.h>
-#include <linux/clk.h>
-#include <linux/of_clk.h>
-#include <linux/minmax.h>
-#include <linux/of_address.h>
-#include <linux/platform_data/simplefb.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/regulator/consumer.h>
+#include <robux/aperture.h>
+#include <robux/clk.h>
+#include <robux/of_clk.h>
+#include <robux/minmax.h>
+#include <robux/of_address.h>
+#include <robux/platform_data/simplefb.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/regulator/consumer.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

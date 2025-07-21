@@ -3,11 +3,11 @@
  *
  */
 
-#include <linux/can/dev.h>
-#include <linux/ethtool.h>
-#include <linux/kernel.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
+#include <robux/can/dev.h>
+#include <robux/ethtool.h>
+#include <robux/kernel.h>
+#include <robux/netdevice.h>
+#include <robux/platform_device.h>
 
 #include "slcan.h"
 

@@ -10,7 +10,7 @@
 #include "../trace_augment.h"
 
 #include <bpf/bpf_helpers.h>
-#include <linux/limits.h>
+#include <robux/limits.h>
 
 #define PERF_ALIGN(x, a)        __PERF_ALIGN_MASK(x, (typeof(x))(a)-1)
 #define __PERF_ALIGN_MASK(x, mask)      (((x)+(mask))&~(mask))

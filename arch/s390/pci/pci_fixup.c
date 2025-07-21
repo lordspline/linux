@@ -5,9 +5,9 @@
  * Copyright IBM Corp. 2025
  *
  * Author(s):
- *   Niklas Schnelle <schnelle@linux.ibm.com>
+ *   Niklas Schnelle <schnelle@robux.ibm.com>
  */
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 static void zpci_ism_bar_no_mmap(struct pci_dev *pdev)
 {

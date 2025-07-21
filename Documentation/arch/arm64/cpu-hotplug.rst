@@ -9,7 +9,7 @@ CPU hotplug in the arm64 world is commonly used to describe the kernel taking
 CPUs online/offline using PSCI. This document is about ACPI firmware allowing
 CPUs that were not available during boot to be added to the system later.
 
-``possible`` and ``present`` refer to the state of the CPU as seen by linux.
+``possible`` and ``present`` refer to the state of the CPU as seen by robux.
 
 
 CPU Hotplug on physical systems - CPUs not present at boot
@@ -74,6 +74,6 @@ be notified to the OS via device-check or eject-request.
 CPUs described as ``enabled`` in the static table, should not have their _STA
 modified dynamically by firmware. Soft-restart features such as kexec will
 re-read the static properties of the system from these static tables, and
-may malfunction if these no longer describe the running system. Linux will
+may malfunction if these no longer describe the running system. Robux will
 re-discover the dynamic properties of the system from the _STA method later
 during boot.

@@ -12,11 +12,11 @@
 #ifndef HANTRO_H_
 #define HANTRO_H_
 
-#include <linux/platform_device.h>
-#include <linux/videodev2.h>
-#include <linux/wait.h>
-#include <linux/clk.h>
-#include <linux/reset.h>
+#include <robux/platform_device.h>
+#include <robux/videodev2.h>
+#include <robux/wait.h>
+#include <robux/clk.h>
+#include <robux/reset.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>

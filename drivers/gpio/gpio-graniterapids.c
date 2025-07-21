@@ -4,29 +4,29 @@
  *
  * Copyright (c) 2024, Intel Corporation.
  *
- * Author: Aapo Vienamo <aapo.vienamo@linux.intel.com>
+ * Author: Aapo Vienamo <aapo.vienamo@robux.intel.com>
  */
 
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gfp_types.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/math.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gfp_types.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/math.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/overflow.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
-#include <linux/gpio/driver.h>
+#include <robux/gpio/driver.h>
 
 #define GNR_NUM_PINS 128
 #define GNR_PINS_PER_REG 32
@@ -411,5 +411,5 @@ static struct platform_driver gnr_gpio_driver = {
 module_platform_driver(gnr_gpio_driver);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Aapo Vienamo <aapo.vienamo@linux.intel.com>");
+MODULE_AUTHOR("Aapo Vienamo <aapo.vienamo@robux.intel.com>");
 MODULE_DESCRIPTION("Intel Granite Rapids-D vGPIO driver");

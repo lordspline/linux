@@ -6,13 +6,13 @@
  *	Tristram Ha <Tristram.Ha@microchip.com>
  */
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 
 #include "ksz_common.h"
 

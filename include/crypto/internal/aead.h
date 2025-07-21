@@ -10,8 +10,8 @@
 
 #include <crypto/aead.h>
 #include <crypto/algapi.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
 
 struct rtattr;
 

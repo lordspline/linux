@@ -5,8 +5,8 @@
 
 #include "xe_module.h"
 
-#include <linux/init.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/module.h>
 
 #include <drm/drm_module.h>
 

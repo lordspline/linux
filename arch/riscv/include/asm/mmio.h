@@ -11,7 +11,7 @@
 #ifndef _ASM_RISCV_MMIO_H
 #define _ASM_RISCV_MMIO_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/fence.h>
 #include <asm/mmiowb.h>
 

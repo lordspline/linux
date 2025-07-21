@@ -6,22 +6,22 @@
  * Copyright (C) 2020 Purism SPC
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/irq.h>
-#include <linux/math64.h>
-#include <linux/mfd/syscon.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/mux/consumer.h>
-#include <linux/of.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/sys_soc.h>
-#include <linux/time64.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/irq.h>
+#include <robux/math64.h>
+#include <robux/mfd/syscon.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/mux/consumer.h>
+#include <robux/of.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/sys_soc.h>
+#include <robux/time64.h>
 
 #include <drm/drm_atomic_state_helper.h>
 #include <drm/drm_bridge.h>

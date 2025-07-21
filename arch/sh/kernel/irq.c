@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/sh/kernel/irq.c
+ * robux/arch/sh/kernel/irq.c
  *
  *	Copyright (C) 1992, 1998 Linus Torvalds, Ingo Molnar
  *
  *
  * SuperH version:  Copyright (C) 1999  Niibe Yutaka
  */
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/kernel_stat.h>
-#include <linux/seq_file.h>
-#include <linux/ftrace.h>
-#include <linux/delay.h>
-#include <linux/ratelimit.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/kernel_stat.h>
+#include <robux/seq_file.h>
+#include <robux/ftrace.h>
+#include <robux/delay.h>
+#include <robux/ratelimit.h>
 #include <asm/processor.h>
 #include <asm/machvec.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/thread_info.h>
 #include <cpu/mmu_context.h>
 #include <asm/softirq_stack.h>

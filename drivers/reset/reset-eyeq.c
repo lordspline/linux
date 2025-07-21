@@ -69,26 +69,26 @@
  * Copyright (C) 2024 Mobileye Vision Technologies Ltd.
  */
 
-#include <linux/array_size.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/bug.h>
-#include <linux/cleanup.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/lockdep.h>
-#include <linux/mod_devicetable.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/bug.h>
+#include <robux/cleanup.h>
+#include <robux/container_of.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/lockdep.h>
+#include <robux/mod_devicetable.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/reset-controller.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 /*
  * A reset ID, as returned by eqr_of_xlate_*(), is a (domain, offset) pair.

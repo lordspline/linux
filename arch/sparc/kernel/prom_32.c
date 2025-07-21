@@ -11,11 +11,11 @@
  *  Adapted for sparc32 by David S. Miller davem@davemloft.net
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/memblock.h>
 
 #include <asm/prom.h>
 #include <asm/oplib.h>

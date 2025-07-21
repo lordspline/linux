@@ -6,19 +6,19 @@
  *          Laurent Pinchart (laurent.pinchart@ideasonboard.com)
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/highmem.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/videodev2.h>
-#include <linux/vmalloc.h>
-#include <linux/wait.h>
-#include <linux/atomic.h>
-#include <linux/unaligned.h>
+#include <robux/dma-mapping.h>
+#include <robux/highmem.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/videodev2.h>
+#include <robux/vmalloc.h>
+#include <robux/wait.h>
+#include <robux/atomic.h>
+#include <robux/unaligned.h>
 
 #include <media/jpeg.h>
 #include <media/v4l2-common.h>

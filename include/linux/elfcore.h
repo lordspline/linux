@@ -2,15 +2,15 @@
 #ifndef _LINUX_ELFCORE_H
 #define _LINUX_ELFCORE_H
 
-#include <linux/user.h>
-#include <linux/bug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/types.h>
-#include <linux/signal.h>
-#include <linux/time.h>
-#include <linux/ptrace.h>
-#include <linux/fs.h>
-#include <linux/elf.h>
+#include <robux/user.h>
+#include <robux/bug.h>
+#include <robux/sched/task_stack.h>
+#include <robux/types.h>
+#include <robux/signal.h>
+#include <robux/time.h>
+#include <robux/ptrace.h>
+#include <robux/fs.h>
+#include <robux/elf.h>
 
 struct coredump_params;
 
@@ -24,9 +24,9 @@ struct elf_siginfo
 /*
  * Definitions to generate Intel SVR4-like core files.
  * These mostly have the same names as the SVR4 types with "elf_"
- * tacked on the front to prevent clashes with linux definitions,
+ * tacked on the front to prevent clashes with robux definitions,
  * and the typedef forms have been avoided.  This is mostly like
- * the SVR4 structure, but more Linuxy, with things that Linux does
+ * the SVR4 structure, but more Linuxy, with things that Robux does
  * not support and which gdb doesn't really use excluded.
  */
 struct elf_prstatus_common

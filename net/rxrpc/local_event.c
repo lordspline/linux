@@ -7,16 +7,16 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/net.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/net.h>
+#include <robux/skbuff.h>
+#include <robux/slab.h>
 #include <net/sock.h>
 #include <net/af_rxrpc.h>
 #include <generated/utsrelease.h>
 #include "ar-internal.h"
 
-static char rxrpc_version_string[65]; // "linux-" UTS_RELEASE " AF_RXRPC";
+static char rxrpc_version_string[65]; // "robux-" UTS_RELEASE " AF_RXRPC";
 
 /*
  * Generate the VERSION packet string.
@@ -24,7 +24,7 @@ static char rxrpc_version_string[65]; // "linux-" UTS_RELEASE " AF_RXRPC";
 void rxrpc_gen_version_string(void)
 {
 	snprintf(rxrpc_version_string, sizeof(rxrpc_version_string),
-		 "linux-%.49s AF_RXRPC", UTS_RELEASE);
+		 "robux-%.49s AF_RXRPC", UTS_RELEASE);
 }
 
 /*

@@ -70,17 +70,17 @@
  *
  */
 
-#include <linux/ctype.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/hashtable.h>
-#include <linux/kstrtox.h>
-#include <linux/of.h>
-#include <linux/slab.h>
-#include <linux/static_key.h>
-#include <linux/string.h>
-#include <linux/stringhash.h>
-#include <linux/types.h>
+#include <robux/ctype.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/hashtable.h>
+#include <robux/kstrtox.h>
+#include <robux/of.h>
+#include <robux/slab.h>
+#include <robux/static_key.h>
+#include <robux/string.h>
+#include <robux/stringhash.h>
+#include <robux/types.h>
 
 #include "quirks.h"
 

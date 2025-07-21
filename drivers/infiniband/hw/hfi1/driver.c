@@ -4,16 +4,16 @@
  * Copyright(c) 2021 Cornelis Networks.
  */
 
-#include <linux/spinlock.h>
-#include <linux/pci.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/netdevice.h>
-#include <linux/vmalloc.h>
-#include <linux/module.h>
-#include <linux/prefetch.h>
+#include <robux/spinlock.h>
+#include <robux/pci.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/netdevice.h>
+#include <robux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/prefetch.h>
 #include <rdma/ib_verbs.h>
-#include <linux/etherdevice.h>
+#include <robux/etherdevice.h>
 
 #include "hfi.h"
 #include "trace.h"

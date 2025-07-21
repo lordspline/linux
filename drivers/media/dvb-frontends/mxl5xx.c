@@ -11,17 +11,17 @@
  * which was released under GPL V2
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/mutex.h>
-#include <linux/vmalloc.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/i2c.h>
+#include <robux/mutex.h>
+#include <robux/vmalloc.h>
 #include <asm/div64.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include <media/dvb_frontend.h>
 #include "mxl5xx.h"

@@ -8,8 +8,8 @@
  * Paul Walmsley, Jouni Högander
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
 
 #include "soc.h"
 #include "powerdomain.h"

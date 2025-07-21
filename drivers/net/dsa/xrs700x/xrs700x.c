@@ -5,11 +5,11 @@
  */
 
 #include <net/dsa.h>
-#include <linux/etherdevice.h>
-#include <linux/if_bridge.h>
-#include <linux/of.h>
-#include <linux/netdev_features.h>
-#include <linux/if_hsr.h>
+#include <robux/etherdevice.h>
+#include <robux/if_bridge.h>
+#include <robux/of.h>
+#include <robux/netdev_features.h>
+#include <robux/if_hsr.h>
 #include "xrs700x.h"
 #include "xrs700x_reg.h"
 

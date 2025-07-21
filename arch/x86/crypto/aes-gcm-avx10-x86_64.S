@@ -81,7 +81,7 @@
 // 32, masking support, and new instructions such as vpternlogd (which can do a
 // three-argument XOR).  These features are very useful for AES-GCM.
 
-#include <linux/linkage.h>
+#include <robux/linkage.h>
 
 .section .rodata
 .p2align 6

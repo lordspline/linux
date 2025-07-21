@@ -37,10 +37,10 @@
  *    OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/seq_file.h>
+#include <robux/vmalloc.h>
 #include "carl9170.h"
 #include "cmd.h"
 

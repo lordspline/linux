@@ -4,12 +4,12 @@
 #ifndef PVR_FREE_LIST_H
 #define PVR_FREE_LIST_H
 
-#include <linux/compiler_attributes.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
-#include <linux/xarray.h>
+#include <robux/compiler_attributes.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
+#include <robux/xarray.h>
 #include <uapi/drm/pvr_drm.h>
 
 #include "pvr_device.h"

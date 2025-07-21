@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/stacktrace.h>
-#include <linux/thread_info.h>
-#include <linux/ftrace.h>
-#include <linux/export.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/stacktrace.h>
+#include <robux/thread_info.h>
+#include <robux/ftrace.h>
+#include <robux/export.h>
 #include <asm/ptrace.h>
 #include <asm/stacktrace.h>
 

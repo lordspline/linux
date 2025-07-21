@@ -14,17 +14,17 @@
 
 		button-power {
 			label = "Power button";
-			linux,code = <KEY_POWER>;
+			robux,code = <KEY_POWER>;
 			gpios = <&gpio1 2 GPIO_ACTIVE_LOW>;
 		};
 		button-eject {
 			label = "USB unmount button";
-			linux,code = <KEY_EJECTCD>;
+			robux,code = <KEY_EJECTCD>;
 			gpios = <&gpio1 15 GPIO_ACTIVE_LOW>;
 		};
 		button-reset {
 			label = "Reset button";
-			linux,code = <KEY_RESTART>;
+			robux,code = <KEY_RESTART>;
 			gpios = <&gpio1 16 GPIO_ACTIVE_LOW>;
 		};
 	};

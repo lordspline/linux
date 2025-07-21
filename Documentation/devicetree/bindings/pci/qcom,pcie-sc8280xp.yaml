@@ -116,7 +116,7 @@ examples:
 
             bus-range = <0x00 0xff>;
             device_type = "pci";
-            linux,pci-domain = <2>;
+            robux,pci-domain = <2>;
             num-lanes = <4>;
 
             #address-cells = <3>;

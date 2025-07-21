@@ -7,12 +7,12 @@
  *              www.linaro.org
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <uapi/linux/mdio.h>
-#include <linux/delay.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <uapi/robux/mdio.h>
+#include <robux/delay.h>
 
 #include "../vfio_platform_private.h"
 

@@ -7,18 +7,18 @@
  * Author: Martin Kurbanov <mmkurbanov@sberdevices.ru>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/container_of.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/leds.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regmap.h>
-#include <linux/time.h>
-#include <linux/units.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/container_of.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/leds.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regmap.h>
+#include <robux/time.h>
+#include <robux/units.h>
 
 #define AW200XX_DIM_MAX                  (BIT(6) - 1)
 #define AW200XX_FADE_MAX                 (BIT(8) - 1)

@@ -16,7 +16,7 @@
 	Support information and updates available at
 	http://www.scyld.com/network/pci-skeleton.html
 
-	Linux kernel updates:
+	Robux kernel updates:
 
 	Version 2.51, Nov 17, 2001 (jgarzik):
 	- Add ethtool support
@@ -66,27 +66,27 @@ static int full_duplex[MAX_UNITS] = { -1, -1, -1, -1, -1, -1, -1, -1 };
 
 
 /* Include files, designed to support most kernel versions 2.0.0 and later. */
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/crc32.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/init.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/crc32.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
 
 #include <asm/processor.h>	/* Processor type for cache alignment. */
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/byteorder.h>
 
 /* This driver was written to use PCI memory space, however some x86 systems

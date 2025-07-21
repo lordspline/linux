@@ -2,7 +2,7 @@
 /*
  * sht15.c - support for the SHT15 Temperature and Humidity Sensor
  *
- * Portions Copyright (c) 2010-2012 Savoir-faire Linux Inc.
+ * Portions Copyright (c) 2010-2012 Savoir-faire Robux Inc.
  *          Jerome Oufella <jerome.oufella@savoirfairelinux.com>
  *          Vivien Didelot <vivien.didelot@savoirfairelinux.com>
  *
@@ -13,24 +13,24 @@
  * For further information, see the Documentation/hwmon/sht15.rst file.
  */
 
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
-#include <linux/err.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/atomic.h>
-#include <linux/bitrev.h>
-#include <linux/gpio/consumer.h>
-#include <linux/of.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
+#include <robux/err.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/atomic.h>
+#include <robux/bitrev.h>
+#include <robux/gpio/consumer.h>
+#include <robux/of.h>
 
 /* Commands */
 #define SHT15_MEASURE_TEMP		0x03

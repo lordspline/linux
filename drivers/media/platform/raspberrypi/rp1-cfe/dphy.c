@@ -6,8 +6,8 @@
  * Copyright (c) 2023-2024 Ideas on Board Oy
  */
 
-#include <linux/delay.h>
-#include <linux/pm_runtime.h>
+#include <robux/delay.h>
+#include <robux/pm_runtime.h>
 
 #include "dphy.h"
 

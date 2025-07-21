@@ -10,8 +10,8 @@
 #ifndef AF_PHONET_H
 #define AF_PHONET_H
 
-#include <linux/phonet.h>
-#include <linux/skbuff.h>
+#include <robux/phonet.h>
+#include <robux/skbuff.h>
 #include <net/sock.h>
 
 /*

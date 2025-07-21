@@ -6,15 +6,15 @@
 #ifndef __KSMBD_CONNECTION_H__
 #define __KSMBD_CONNECTION_H__
 
-#include <linux/list.h>
-#include <linux/ip.h>
+#include <robux/list.h>
+#include <robux/ip.h>
 #include <net/sock.h>
 #include <net/tcp.h>
 #include <net/inet_connection_sock.h>
 #include <net/request_sock.h>
-#include <linux/kthread.h>
-#include <linux/nls.h>
-#include <linux/unicode.h>
+#include <robux/kthread.h>
+#include <robux/nls.h>
+#include <robux/unicode.h>
 
 #include "smb_common.h"
 #include "ksmbd_work.h"

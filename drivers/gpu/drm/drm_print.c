@@ -23,13 +23,13 @@
  * Rob Clark <robdclark@gmail.com>
  */
 
-#include <linux/debugfs.h>
-#include <linux/dynamic_debug.h>
-#include <linux/io.h>
-#include <linux/moduleparam.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/stdarg.h>
+#include <robux/debugfs.h>
+#include <robux/dynamic_debug.h>
+#include <robux/io.h>
+#include <robux/moduleparam.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/stdarg.h>
 
 #include <drm/drm.h>
 #include <drm/drm_drv.h>

@@ -18,16 +18,16 @@
  *	Eric Miao <eric.miao@marvell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
 
-#include <linux/mfd/adp5520.h>
+#include <robux/mfd/adp5520.h>
 
 struct adp5520_chip {
 	struct i2c_client *client;

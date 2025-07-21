@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2015 - 2023 Beijing WangXun Technology Co., Ltd. */
 
-#include <linux/pcs/pcs-xpcs.h>
-#include <linux/mdio.h>
+#include <robux/pcs/pcs-xpcs.h>
+#include <robux/mdio.h>
 #include "pcs-xpcs.h"
 
 /* VR_XS_PMA_MMD */

@@ -9,10 +9,10 @@
  *      2001	Kai Germaschewski	<kai.germaschewski@gmx.de>
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/crc-ccitt.h>
-#include <linux/bitrev.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/crc-ccitt.h>
+#include <robux/bitrev.h>
 #include "isdnhdlc.h"
 
 /*-------------------------------------------------------------------*/

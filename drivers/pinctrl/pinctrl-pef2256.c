@@ -7,16 +7,16 @@
  * Author: Herve Codina <herve.codina@bootlin.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/framer/pef2256.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinconf-generic.h>
-#include <linux/pinctrl/pinmux.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/bitfield.h>
+#include <robux/framer/pef2256.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinconf-generic.h>
+#include <robux/pinctrl/pinmux.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 /* Port Configuration 1..4 */
 #define PEF2256_PC1		  0x80

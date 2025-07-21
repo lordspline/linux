@@ -9,23 +9,23 @@
  * This program is not provided / owned by Maxim Integrated Products.
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/regmap.h>
-#include <linux/input.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
-#include <linux/slab.h>
-#include <linux/string_choices.h>
-#include <linux/workqueue.h>
-#include <linux/regulator/consumer.h>
-#include <linux/mfd/max77693.h>
-#include <linux/mfd/max77693-common.h>
-#include <linux/mfd/max77693-private.h>
-#include <linux/mfd/max77705-private.h>
-#include <linux/mfd/max77843-private.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/regmap.h>
+#include <robux/input.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
+#include <robux/slab.h>
+#include <robux/string_choices.h>
+#include <robux/workqueue.h>
+#include <robux/regulator/consumer.h>
+#include <robux/mfd/max77693.h>
+#include <robux/mfd/max77693-common.h>
+#include <robux/mfd/max77693-private.h>
+#include <robux/mfd/max77705-private.h>
+#include <robux/mfd/max77843-private.h>
 
 #define MAX_MAGNITUDE_SHIFT	16
 

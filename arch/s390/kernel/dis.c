@@ -6,25 +6,25 @@
  * Author(s): Martin Schwidefsky (schwidefsky@de.ibm.com),
  */
 
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/timer.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/kallsyms.h>
-#include <linux/reboot.h>
-#include <linux/kprobes.h>
-#include <linux/kdebug.h>
-#include <linux/uaccess.h>
-#include <linux/atomic.h>
-#include <linux/io.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/errno.h>
+#include <robux/ptrace.h>
+#include <robux/timer.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/kallsyms.h>
+#include <robux/reboot.h>
+#include <robux/kprobes.h>
+#include <robux/kdebug.h>
+#include <robux/uaccess.h>
+#include <robux/atomic.h>
+#include <robux/io.h>
 #include <asm/dis.h>
 #include <asm/cpcmd.h>
 #include <asm/lowcore.h>

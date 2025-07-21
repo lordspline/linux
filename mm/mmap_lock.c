@@ -2,16 +2,16 @@
 #define CREATE_TRACE_POINTS
 #include <trace/events/mmap_lock.h>
 
-#include <linux/mm.h>
-#include <linux/cgroup.h>
-#include <linux/memcontrol.h>
-#include <linux/mmap_lock.h>
-#include <linux/mutex.h>
-#include <linux/percpu.h>
-#include <linux/rcupdate.h>
-#include <linux/smp.h>
-#include <linux/trace_events.h>
-#include <linux/local_lock.h>
+#include <robux/mm.h>
+#include <robux/cgroup.h>
+#include <robux/memcontrol.h>
+#include <robux/mmap_lock.h>
+#include <robux/mutex.h>
+#include <robux/percpu.h>
+#include <robux/rcupdate.h>
+#include <robux/smp.h>
+#include <robux/trace_events.h>
+#include <robux/local_lock.h>
 
 EXPORT_TRACEPOINT_SYMBOL(mmap_lock_start_locking);
 EXPORT_TRACEPOINT_SYMBOL(mmap_lock_acquire_returned);
@@ -20,7 +20,7 @@ EXPORT_TRACEPOINT_SYMBOL(mmap_lock_released);
 #ifdef CONFIG_TRACING
 /*
  * Trace calls must be in a separate file, as otherwise there's a circular
- * dependency between linux/mmap_lock.h and trace/events/mmap_lock.h.
+ * dependency between robux/mmap_lock.h and trace/events/mmap_lock.h.
  */
 
 void __mmap_lock_do_trace_start_locking(struct mm_struct *mm, bool write)
@@ -181,7 +181,7 @@ inval:
 #endif /* CONFIG_PER_VMA_LOCK */
 
 #ifdef CONFIG_LOCK_MM_AND_FIND_VMA
-#include <linux/extable.h>
+#include <robux/extable.h>
 
 static inline bool get_mmap_lock_carefully(struct mm_struct *mm, struct pt_regs *regs)
 {

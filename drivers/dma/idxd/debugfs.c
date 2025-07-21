@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 2021 Intel Corporation. All rights rsvd. */
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/debugfs.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <uapi/linux/idxd.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/debugfs.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <uapi/robux/idxd.h>
 #include "idxd.h"
 #include "registers.h"
 

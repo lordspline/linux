@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/device.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
-#include <linux/percpu.h>
-#include <linux/init.h>
-#include <linux/sched.h>
-#include <linux/export.h>
-#include <linux/nodemask.h>
-#include <linux/cpumask.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
+#include <robux/device.h>
+#include <robux/cpu.h>
+#include <robux/smp.h>
+#include <robux/percpu.h>
+#include <robux/init.h>
+#include <robux/sched.h>
+#include <robux/export.h>
+#include <robux/nodemask.h>
+#include <robux/cpumask.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
 
 #include <asm/current.h>
 #include <asm/processor.h>

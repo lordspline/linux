@@ -8,13 +8,13 @@
  *          Mickael Reulier <mickael.reulier@st.com>
  */
 
-#include <linux/aperture.h>
-#include <linux/component.h>
-#include <linux/dma-mapping.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/aperture.h>
+#include <robux/component.h>
+#include <robux/dma-mapping.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic.h>

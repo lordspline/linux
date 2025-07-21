@@ -18,36 +18,36 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/crc32.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sched.h>
-#include <linux/timer.h>
-#include <linux/bug.h>
-#include <linux/bitops.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/swab.h>
-#include <linux/phy.h>
-#include <linux/smsc911x.h>
-#include <linux/device.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/acpi.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/gpio/consumer.h>
+#include <robux/crc32.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/consumer.h>
+#include <robux/sched.h>
+#include <robux/timer.h>
+#include <robux/bug.h>
+#include <robux/bitops.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/swab.h>
+#include <robux/phy.h>
+#include <robux/smsc911x.h>
+#include <robux/device.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/acpi.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/gpio/consumer.h>
 
 #include "smsc911x.h"
 

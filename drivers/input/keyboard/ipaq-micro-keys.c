@@ -6,19 +6,19 @@
  * Author : Alessandro Gardich <gremlin@gremlin.it>
  * Author : Linus Walleij <linus.walleij@linaro.org>
  */
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/pm.h>
-#include <linux/sysctl.h>
-#include <linux/proc_fs.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/input.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/ipaq-micro.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/fs.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <robux/pm.h>
+#include <robux/sysctl.h>
+#include <robux/proc_fs.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/input.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/ipaq-micro.h>
 
 struct ipaq_micro_keys {
 	struct ipaq_micro *micro;

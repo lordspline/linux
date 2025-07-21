@@ -6,14 +6,14 @@
  * Author: Thomas Richard <thomas.richard@bootlin.com>
  */
 
-#include <linux/build_bug.h>
-#include <linux/device.h>
-#include <linux/limits.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <robux/build_bug.h>
+#include <robux/device.h>
+#include <robux/limits.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/watchdog.h>
 
-#include <linux/mfd/cgbc.h>
+#include <robux/mfd/cgbc.h>
 
 #define CGBC_WDT_CMD_TRIGGER	0x27
 #define CGBC_WDT_CMD_INIT	0x28

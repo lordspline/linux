@@ -7,12 +7,12 @@
  *
  */
 
-#include <linux/kgdb.h>
-#include <linux/string.h>
-#include <linux/sched.h>
-#include <linux/notifier.h>
-#include <linux/kdebug.h>
-#include <linux/uaccess.h>
+#include <robux/kgdb.h>
+#include <robux/string.h>
+#include <robux/sched.h>
+#include <robux/notifier.h>
+#include <robux/kdebug.h>
+#include <robux/uaccess.h>
 #include <asm/ptrace.h>
 #include <asm/traps.h>
 #include <asm/processor.h>

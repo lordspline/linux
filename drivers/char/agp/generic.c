@@ -27,17 +27,17 @@
  * TODO:
  * - Allocate more than order 0 pages to avoid too much linear map splitting.
  */
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pagemap.h>
-#include <linux/miscdevice.h>
-#include <linux/pm.h>
-#include <linux/agp_backend.h>
-#include <linux/vmalloc.h>
-#include <linux/dma-mapping.h>
-#include <linux/mm.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pagemap.h>
+#include <robux/miscdevice.h>
+#include <robux/pm.h>
+#include <robux/agp_backend.h>
+#include <robux/vmalloc.h>
+#include <robux/dma-mapping.h>
+#include <robux/mm.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 #include <asm/io.h>
 #ifdef CONFIG_X86
 #include <asm/set_memory.h>

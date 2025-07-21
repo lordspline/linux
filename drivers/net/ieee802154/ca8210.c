@@ -47,25 +47,25 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/cdev.h>
-#include <linux/clk-provider.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/ieee802154.h>
-#include <linux/io.h>
-#include <linux/kfifo.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/workqueue.h>
-#include <linux/interrupt.h>
+#include <robux/cdev.h>
+#include <robux/clk-provider.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/ieee802154.h>
+#include <robux/io.h>
+#include <robux/kfifo.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/poll.h>
+#include <robux/skbuff.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/spinlock.h>
+#include <robux/string.h>
+#include <robux/workqueue.h>
+#include <robux/interrupt.h>
 
 #include <net/ieee802154_netdev.h>
 #include <net/mac802154.h>
@@ -495,15 +495,15 @@ static int (*cascoda_api_upstream)(
 
 /**
  * link_to_linux_err() - Translates an 802.15.4 return code into the closest
- *                       linux error
+ *                       robux error
  * @link_status:  802.15.4 status code
  *
- * Return: 0 or Linux error code
+ * Return: 0 or Robux error code
  */
 static int link_to_linux_err(int link_status)
 {
 	if (link_status < 0) {
-		/* status is already a Linux code */
+		/* status is already a Robux code */
 		return link_status;
 	}
 	switch (link_status) {
@@ -572,7 +572,7 @@ static int link_to_linux_err(int link_status)
  * @len:  length of message to write
  * @spi:  SPI device of message originator
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_test_int_driver_write(
 	const u8       *buf,
@@ -862,7 +862,7 @@ static void ca8210_spi_transfer_complete(void *context)
  * @buf: Octet array to send
  * @len: length of the buffer being sent
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_spi_transfer(
 	struct spi_device  *spi,
@@ -939,7 +939,7 @@ static int ca8210_spi_transfer(
  * synchronous commands waits for the corresponding response to be read from
  * the spi before returning. The response is written to the response parameter.
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_spi_exchange(
 	const u8 *buf,
@@ -1698,7 +1698,7 @@ static u8 hwme_get_request_sync(
  * @msduhandle:  Identifier of transmission that has completed
  * @status:      Returned 802.15.4 status code of the transmission
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_async_xmit_complete(
 	struct ieee802154_hw  *hw,
@@ -1747,7 +1747,7 @@ static int ca8210_async_xmit_complete(
  * will ascertain whether the command is of interest to the network driver and
  * take necessary action.
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_skb_rx(
 	struct ieee802154_hw  *hw,
@@ -1847,7 +1847,7 @@ copy_payload:
  * will ascertain whether the command is of interest to the network driver and
  * take necessary action.
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_net_rx(struct ieee802154_hw *hw, u8 *command, size_t len)
 {
@@ -1892,7 +1892,7 @@ static int ca8210_net_rx(struct ieee802154_hw *hw, u8 *command, size_t len)
  * @msduhandle:  Data identifier to pass to the 802.15.4 MAC
  * @priv:        Pointer to private data section of target ca8210
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_skb_tx(
 	struct sk_buff      *skb,
@@ -1941,7 +1941,7 @@ static int ca8210_skb_tx(
  * ca8210_start() - Starts the network driver
  * @hw:  ieee802154_hw of ca8210 being started
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_start(struct ieee802154_hw *hw)
 {
@@ -1990,7 +1990,7 @@ static int ca8210_start(struct ieee802154_hw *hw)
  * ca8210_stop() - Stops the network driver
  * @hw:  ieee802154_hw of ca8210 being stopped
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static void ca8210_stop(struct ieee802154_hw *hw)
 {
@@ -2002,7 +2002,7 @@ static void ca8210_stop(struct ieee802154_hw *hw)
  * @hw:   ieee802154_hw of ca8210 to transmit from
  * @skb:  Socket buffer to transmit
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_xmit_async(struct ieee802154_hw *hw, struct sk_buff *skb)
 {
@@ -2023,7 +2023,7 @@ static int ca8210_xmit_async(struct ieee802154_hw *hw, struct sk_buff *skb)
  * @hw:     ieee802154_hw of target ca8210
  * @level:  Measured Energy Detect level
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_get_ed(struct ieee802154_hw *hw, u8 *level)
 {
@@ -2042,7 +2042,7 @@ static int ca8210_get_ed(struct ieee802154_hw *hw, u8 *level)
  * @page:     Channel page to set
  * @channel:  Channel number to set
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_set_channel(
 	struct ieee802154_hw  *hw,
@@ -2081,7 +2081,7 @@ static int ca8210_set_channel(
  * as all filtering is performed by the ca8210 as detailed in the IEEE 802.15.4
  * 2006 specification.
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_set_hw_addr_filt(
 	struct ieee802154_hw            *hw,
@@ -2150,7 +2150,7 @@ static int ca8210_set_hw_addr_filt(
  * @hw:   ieee802154_hw of target ca8210
  * @mbm:  Transmit power in mBm (dBm*100)
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_set_tx_power(struct ieee802154_hw *hw, s32 mbm)
 {
@@ -2167,7 +2167,7 @@ static int ca8210_set_tx_power(struct ieee802154_hw *hw, s32 mbm)
  * @hw:   ieee802154_hw of target ca8210
  * @cca:  CCA mode to set
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_set_cca_mode(
 	struct ieee802154_hw       *hw,
@@ -2208,7 +2208,7 @@ static int ca8210_set_cca_mode(
  * Sets the minimum threshold of measured energy above which the ca8210 will
  * back off and retry a transmission.
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_set_cca_ed_level(struct ieee802154_hw *hw, s32 level)
 {
@@ -2239,7 +2239,7 @@ static int ca8210_set_cca_ed_level(struct ieee802154_hw *hw, s32 level)
  * @max_be:   Maximum backoff exponent when backing off a transmission
  * @retries:  Number of times to retry after backing off
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_set_csma_params(
 	struct ieee802154_hw  *hw,
@@ -2294,7 +2294,7 @@ static int ca8210_set_csma_params(
  * Sets the number of times to retry a transmission if no acknowledgment was
  * received from the other end when one was requested.
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_set_frame_retries(struct ieee802154_hw *hw, s8 retries)
 {
@@ -2364,7 +2364,7 @@ static const struct ieee802154_ops ca8210_phy_ops = {
  * @inodp:  inode representation of file interface
  * @filp:   file interface
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_test_int_open(struct inode *inodp, struct file *filp)
 {
@@ -2380,7 +2380,7 @@ static int ca8210_test_int_open(struct inode *inodp, struct file *filp)
  * @buf:        Buffer containing command to check
  * @device_ref: Nondescript pointer to target device
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_test_check_upstream(u8 *buf, void *device_ref)
 {
@@ -2438,7 +2438,7 @@ static int ca8210_test_check_upstream(u8 *buf, void *device_ref)
  * @len:     length of message
  * @off:     file offset
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static ssize_t ca8210_test_int_user_write(
 	struct file        *filp,
@@ -2639,7 +2639,7 @@ static const struct file_operations test_int_fops = {
  * @spi_device:  Pointer to ca8210 spi device object to get data for
  * @pdata:       Pointer to ca8210_platform_data object to populate
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_get_platform_data(
 	struct spi_device *spi_device,
@@ -2684,7 +2684,7 @@ static int ca8210_get_platform_data(
  * The external clock is configured with a frequency and output pin taken from
  * the platform data.
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_config_extern_clk(
 	struct ca8210_platform_data *pdata,
@@ -2731,7 +2731,7 @@ static int ca8210_config_extern_clk(
  * ca8210_register_ext_clock() - Register ca8210's external clock with kernel
  * @spi:  Pointer to target ca8210 spi device
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_register_ext_clock(struct spi_device *spi)
 {
@@ -2780,7 +2780,7 @@ static void ca8210_unregister_ext_clock(struct spi_device *spi)
  * ca8210_reset_init() - Initialise the reset input to the ca8210
  * @spi:  Pointer to target ca8210 spi device
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_reset_init(struct spi_device *spi)
 {
@@ -2800,7 +2800,7 @@ static int ca8210_reset_init(struct spi_device *spi)
  * ca8210_interrupt_init() - Initialise the irq output from the ca8210
  * @spi:  Pointer to target ca8210 spi device
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_interrupt_init(struct spi_device *spi)
 {
@@ -2837,7 +2837,7 @@ static int ca8210_interrupt_init(struct spi_device *spi)
  * ca8210_dev_com_init() - Initialise the spi communication component
  * @priv:  Pointer to private data structure
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_dev_com_init(struct ca8210_priv *priv)
 {
@@ -2918,12 +2918,12 @@ static void ca8210_hw_setup(struct ieee802154_hw *ca8210_hw)
  * ca8210_test_interface_init() - Initialise the test file interface
  * @priv:  Pointer to private data structure
  *
- * Provided as an alternative to the standard linux network interface, the test
+ * Provided as an alternative to the standard robux network interface, the test
  * interface exposes a file in the filesystem (ca8210_test) that allows
  * 802.15.4 SAP Commands and Cascoda EVBME commands to be sent directly to
  * the stack.
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_test_interface_init(struct ca8210_priv *priv)
 {
@@ -2972,7 +2972,7 @@ static void ca8210_test_interface_clear(struct ca8210_priv *priv)
  * ca8210_remove() - Shut down a ca8210 upon being disconnected
  * @spi_device:  Pointer to spi device data structure
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static void ca8210_remove(struct spi_device *spi_device)
 {
@@ -3020,7 +3020,7 @@ static void ca8210_remove(struct spi_device *spi_device)
  * ca8210_probe() - Set up a connected ca8210 upon being detected by the system
  * @spi_device:  Pointer to spi device data structure
  *
- * Return: 0 or linux error code
+ * Return: 0 or robux error code
  */
 static int ca8210_probe(struct spi_device *spi_device)
 {

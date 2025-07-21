@@ -2,21 +2,21 @@
 /*
  * Sample in-kernel QMI client driver
  *
- * Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2013-2014, The Robux Foundation. All rights reserved.
  * Copyright (C) 2017 Linaro Ltd.
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/qrtr.h>
-#include <linux/net.h>
-#include <linux/completion.h>
-#include <linux/idr.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/qrtr.h>
+#include <robux/net.h>
+#include <robux/completion.h>
+#include <robux/idr.h>
+#include <robux/string.h>
 #include <net/sock.h>
-#include <linux/soc/qcom/qmi.h>
+#include <robux/soc/qcom/qmi.h>
 
 #define PING_REQ1_TLV_TYPE		0x1
 #define PING_RESP1_TLV_TYPE		0x2

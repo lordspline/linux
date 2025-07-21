@@ -4,8 +4,8 @@
 #ifndef _HINIC3_MBOX_H_
 #define _HINIC3_MBOX_H_
 
-#include <linux/bitfield.h>
-#include <linux/mutex.h>
+#include <robux/bitfield.h>
+#include <robux/mutex.h>
 
 struct hinic3_hwdev;
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/arch/sh/boards/se/7724/setup.c
+ * robux/arch/sh/boards/se/7724/setup.c
  *
  * Copyright (C) 2009 Renesas Solutions Corp.
  *
@@ -13,26 +13,26 @@
 
 #include <cpu/sh7724.h>
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio.h>
-#include <linux/init.h>
-#include <linux/input.h>
-#include <linux/input/sh_keysc.h>
-#include <linux/interrupt.h>
-#include <linux/memblock.h>
-#include <linux/mmc/host.h>
-#include <linux/mtd/physmap.h>
-#include <linux/platform_data/tmio.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/fixed.h>
-#include <linux/regulator/machine.h>
-#include <linux/sh_eth.h>
-#include <linux/sh_intc.h>
-#include <linux/smc91x.h>
-#include <linux/usb/r8a66597.h>
-#include <linux/videodev2.h>
-#include <linux/dma-map-ops.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/gpio.h>
+#include <robux/init.h>
+#include <robux/input.h>
+#include <robux/input/sh_keysc.h>
+#include <robux/interrupt.h>
+#include <robux/memblock.h>
+#include <robux/mmc/host.h>
+#include <robux/mtd/physmap.h>
+#include <robux/platform_data/tmio.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/fixed.h>
+#include <robux/regulator/machine.h>
+#include <robux/sh_eth.h>
+#include <robux/sh_intc.h>
+#include <robux/smc91x.h>
+#include <robux/usb/r8a66597.h>
+#include <robux/videodev2.h>
+#include <robux/dma-map-ops.h>
 
 #include <mach-se/mach/se7724.h>
 #include <media/drv-intf/renesas-ceu.h>

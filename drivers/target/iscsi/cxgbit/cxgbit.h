@@ -6,20 +6,20 @@
 #ifndef __CXGBIT_H__
 #define __CXGBIT_H__
 
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/idr.h>
-#include <linux/completion.h>
-#include <linux/netdevice.h>
-#include <linux/sched.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/inet.h>
-#include <linux/wait.h>
-#include <linux/kref.h>
-#include <linux/timer.h>
-#include <linux/io.h>
+#include <robux/mutex.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/idr.h>
+#include <robux/completion.h>
+#include <robux/netdevice.h>
+#include <robux/sched.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/inet.h>
+#include <robux/wait.h>
+#include <robux/kref.h>
+#include <robux/timer.h>
+#include <robux/io.h>
 
 #include <asm/byteorder.h>
 

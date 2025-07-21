@@ -5,17 +5,17 @@
  * whether to proceed with probing the host or the peripheral
  * driver.
  */
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/string_choices.h>
-#include <linux/usb.h>
-#include <linux/usb/otg.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/string_choices.h>
+#include <robux/usb.h>
+#include <robux/usb/otg.h>
 
 #include "fotg210.h"
 

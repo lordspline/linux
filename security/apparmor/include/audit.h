@@ -11,11 +11,11 @@
 #ifndef __AA_AUDIT_H
 #define __AA_AUDIT_H
 
-#include <linux/audit.h>
-#include <linux/fs.h>
-#include <linux/lsm_audit.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
+#include <robux/audit.h>
+#include <robux/fs.h>
+#include <robux/lsm_audit.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
 
 #include "file.h"
 #include "label.h"

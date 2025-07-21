@@ -6,20 +6,20 @@
  * Copyright (c) 2009-2011, NVIDIA Corporation.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/input.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/reset.h>
-#include <linux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/input.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/clk.h>
+#include <robux/slab.h>
+#include <robux/input/matrix_keypad.h>
+#include <robux/reset.h>
+#include <robux/err.h>
 
 #define KBC_MAX_KPENT	8
 
@@ -501,8 +501,8 @@ static int tegra_kbc_parse_dt(struct tegra_kbc *kbc)
 	    of_property_read_bool(np, "nvidia,wakeup-source")) /* legacy */
 		kbc->wakeup = true;
 
-	if (!of_property_present(np, "linux,keymap")) {
-		dev_err(kbc->dev, "property linux,keymap not found\n");
+	if (!of_property_present(np, "robux,keymap")) {
+		dev_err(kbc->dev, "property robux,keymap not found\n");
 		return -ENOENT;
 	}
 

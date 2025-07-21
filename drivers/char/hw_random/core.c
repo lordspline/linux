@@ -10,21 +10,21 @@
  * of the GNU General Public License, incorporated herein by reference.
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/hw_random.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/miscdevice.h>
-#include <linux/module.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/sched/signal.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/uaccess.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/fs.h>
+#include <robux/hw_random.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/miscdevice.h>
+#include <robux/module.h>
+#include <robux/random.h>
+#include <robux/sched.h>
+#include <robux/sched/signal.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/uaccess.h>
 
 #define RNG_MODULE_NAME		"hw_random"
 

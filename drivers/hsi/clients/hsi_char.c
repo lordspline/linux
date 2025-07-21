@@ -8,27 +8,27 @@
  * Contact: Andras Domokos <andras.domokos@nokia.com>
  */
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/atomic.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/kmemleak.h>
-#include <linux/ioctl.h>
-#include <linux/wait.h>
-#include <linux/fs.h>
-#include <linux/sched.h>
-#include <linux/device.h>
-#include <linux/cdev.h>
-#include <linux/uaccess.h>
-#include <linux/scatterlist.h>
-#include <linux/stat.h>
-#include <linux/hsi/hsi.h>
-#include <linux/hsi/hsi_char.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/atomic.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/list.h>
+#include <robux/slab.h>
+#include <robux/kmemleak.h>
+#include <robux/ioctl.h>
+#include <robux/wait.h>
+#include <robux/fs.h>
+#include <robux/sched.h>
+#include <robux/device.h>
+#include <robux/cdev.h>
+#include <robux/uaccess.h>
+#include <robux/scatterlist.h>
+#include <robux/stat.h>
+#include <robux/hsi/hsi.h>
+#include <robux/hsi/hsi_char.h>
 
 #define HSC_DEVS		16 /* Num of channels */
 #define HSC_MSGS		4

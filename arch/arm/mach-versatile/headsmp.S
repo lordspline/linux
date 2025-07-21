@@ -3,8 +3,8 @@
  *  Copyright (c) 2003 ARM Limited
  *  All Rights Reserved
  */
-#include <linux/linkage.h>
-#include <linux/init.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
 #include <asm/assembler.h>
 
 /*

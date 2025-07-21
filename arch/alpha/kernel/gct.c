@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	linux/arch/alpha/kernel/gct.c
+ *	robux/arch/alpha/kernel/gct.c
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/errno.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/errno.h>
 
 #include <asm/hwrpb.h>
 #include <asm/gct.h>

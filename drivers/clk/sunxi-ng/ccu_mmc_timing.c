@@ -3,9 +3,9 @@
  * Copyright (c) 2017 Chen-Yu Tsai. All rights reserved.
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clk/sunxi-ng.h>
-#include <linux/io.h>
+#include <robux/clk-provider.h>
+#include <robux/clk/sunxi-ng.h>
+#include <robux/io.h>
 
 #include "ccu_common.h"
 

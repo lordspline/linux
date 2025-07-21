@@ -7,10 +7,10 @@
  *	Anup Patel <apatel@ventanamicro.com>
  */
 
-#include <linux/bits.h>
-#include <linux/irqchip/riscv-imsic.h>
-#include <linux/kvm_host.h>
-#include <linux/uaccess.h>
+#include <robux/bits.h>
+#include <robux/irqchip/riscv-imsic.h>
+#include <robux/kvm_host.h>
+#include <robux/uaccess.h>
 
 static int aia_create(struct kvm_device *dev, u32 type)
 {

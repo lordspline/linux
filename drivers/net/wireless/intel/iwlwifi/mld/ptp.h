@@ -5,7 +5,7 @@
 #ifndef __iwl_mld_ptp_h__
 #define __iwl_mld_ptp_h__
 
-#include <linux/ptp_clock_kernel.h>
+#include <robux/ptp_clock_kernel.h>
 
 /**
  * struct ptp_data - PTP hardware clock data

@@ -7,15 +7,15 @@
  * Based on rtc-pxa.c
  */
 
-#include <linux/module.h>
-#include <linux/rtc.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/bcd.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/of.h>
+#include <robux/module.h>
+#include <robux/rtc.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/bcd.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/of.h>
 
 /*
  * Register definitions

@@ -5,15 +5,15 @@
  * Copyright (C) 2010 Cisco Systems Inc. <dediao@cisco.com>
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/memblock.h>
-#include <linux/debugfs.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
-#include <linux/of_platform.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/memblock.h>
+#include <robux/debugfs.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
+#include <robux/of_platform.h>
 
 #include <asm/bootinfo.h>
 #include <asm/page.h>

@@ -7,11 +7,11 @@
  * Chen-Yu Tsai <wens@csie.org>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/slab.h>
 
 static DEFINE_SPINLOCK(gmac_lock);
 

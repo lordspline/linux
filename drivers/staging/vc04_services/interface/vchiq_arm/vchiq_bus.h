@@ -6,8 +6,8 @@
 #ifndef _VCHIQ_DEVICE_H
 #define _VCHIQ_DEVICE_H
 
-#include <linux/device.h>
-#include <linux/mod_devicetable.h>
+#include <robux/device.h>
+#include <robux/mod_devicetable.h>
 
 struct vchiq_drv_mgmt;
 

@@ -3,13 +3,13 @@
  * Copyright (C) 2024 Linaro Ltd.
  */
 
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci-pwrctrl.h>
-#include <linux/property.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/pci-pwrctrl.h>
+#include <robux/property.h>
+#include <robux/slab.h>
 
 static int pci_pwrctrl_notify(struct notifier_block *nb, unsigned long action,
 			      void *data)

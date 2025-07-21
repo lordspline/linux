@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0
 /* Copyright (c) 2016-2018 Mellanox Technologies. All rights reserved */
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_data/mlxreg.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/init.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_data/mlxreg.h>
+#include <robux/slab.h>
 
 #include "cmd.h"
 #include "core.h"

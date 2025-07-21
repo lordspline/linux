@@ -3,8 +3,8 @@
 #include <errno.h>
 #include <string.h>
 #include <internal/rc_check.h>
-#include <linux/refcount.h>
-#include <linux/zalloc.h>
+#include <robux/refcount.h>
+#include <robux/zalloc.h>
 #include <tools/libc_compat.h> // reallocarray
 
 #include "rwsem.h"

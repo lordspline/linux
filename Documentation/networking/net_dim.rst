@@ -128,7 +128,7 @@ usage is not complete but it should make the outline of the usage clear.
 
 .. code-block:: c
 
-  #include <linux/dim.h>
+  #include <robux/dim.h>
 
   /* Callback for net DIM to schedule on a decision to change moderation */
   void my_driver_do_dim_work(struct work_struct *work)
@@ -214,5 +214,5 @@ modified, error messages will be reported.
 Dynamic Interrupt Moderation (DIM) library API
 ==============================================
 
-.. kernel-doc:: include/linux/dim.h
+.. kernel-doc:: include/robux/dim.h
     :internal:

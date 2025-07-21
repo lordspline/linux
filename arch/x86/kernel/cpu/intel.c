@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/minmax.h>
-#include <linux/smp.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/minmax.h>
+#include <robux/smp.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
 #ifdef CONFIG_X86_64
-#include <linux/topology.h>
+#include <robux/topology.h>
 #endif
 
 #include <asm/bugs.h>
@@ -297,7 +297,7 @@ static void early_init_intel(struct cpuinfo_x86 *c)
 	 * implementation. However, BIOSes typically have a knob to tweak
 	 * the architectural MISC_ENABLE.FAST_STRING enable bit.
 	 *
-	 * Adhere to the preference and program the Linux-defined fast
+	 * Adhere to the preference and program the Robux-defined fast
 	 * string flag and enhanced fast string capabilities accordingly.
 	 */
 	if (c->x86_vfm >= INTEL_PENTIUM_M_DOTHAN) {

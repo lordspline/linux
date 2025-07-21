@@ -3,10 +3,10 @@
 //
 // tegra_audio_graph_card.c - Audio Graph based Tegra Machine Driver
 
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 #include <sound/graph_card.h>
 #include <sound/pcm_params.h>
 #include <sound/soc-dai.h>

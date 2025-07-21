@@ -5,16 +5,16 @@
  * Emilio López <emilio@elopez.com.ar>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/reset-controller.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/log2.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/reset-controller.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/log2.h>
 
 #include "clk-factors.h"
 

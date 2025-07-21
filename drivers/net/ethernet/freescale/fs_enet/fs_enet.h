@@ -2,13 +2,13 @@
 #ifndef FS_ENET_H
 #define FS_ENET_H
 
-#include <linux/clk.h>
-#include <linux/netdevice.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/phy.h>
-#include <linux/phylink.h>
-#include <linux/dma-mapping.h>
+#include <robux/clk.h>
+#include <robux/netdevice.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/phy.h>
+#include <robux/phylink.h>
+#include <robux/dma-mapping.h>
 
 #ifdef CONFIG_CPM1
 #include <asm/cpm1.h>

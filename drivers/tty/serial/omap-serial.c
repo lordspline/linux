@@ -16,26 +16,26 @@
  * this driver as required for the omap-platform.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/serial.h>
-#include <linux/serial_reg.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/serial_core.h>
-#include <linux/irq.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/gpio/consumer.h>
-#include <linux/platform_data/serial-omap.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/serial.h>
+#include <robux/serial_reg.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/serial_core.h>
+#include <robux/irq.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/gpio/consumer.h>
+#include <robux/platform_data/serial-omap.h>
 
 #define OMAP_MAX_HSUART_PORTS	10
 

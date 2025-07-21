@@ -9,18 +9,18 @@
 #define dev_fmt pr_fmt
 
 #include "ibsys.h"
-#include <linux/module.h>
-#include <linux/wait.h>
-#include <linux/list.h>
-#include <linux/fs.h>
-#include <linux/pci.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/vmalloc.h>
-#include <linux/fcntl.h>
-#include <linux/kmod.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/wait.h>
+#include <robux/list.h>
+#include <robux/fs.h>
+#include <robux/pci.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/vmalloc.h>
+#include <robux/fcntl.h>
+#include <robux/kmod.h>
+#include <robux/uaccess.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("GPIB base support");

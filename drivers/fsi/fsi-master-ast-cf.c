@@ -4,23 +4,23 @@
  * A FSI master based on Aspeed ColdFire coprocessor
  */
 
-#include <linux/crc4.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/fsi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/irqflags.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/regmap.h>
-#include <linux/firmware.h>
-#include <linux/gpio/aspeed.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of_address.h>
-#include <linux/genalloc.h>
+#include <robux/crc4.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/fsi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/io.h>
+#include <robux/irqflags.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/regmap.h>
+#include <robux/firmware.h>
+#include <robux/gpio/aspeed.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of_address.h>
+#include <robux/genalloc.h>
 
 #include "fsi-master.h"
 #include "cf-fsi-fw.h"

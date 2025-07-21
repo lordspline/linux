@@ -13,15 +13,15 @@
  * Contact Cypress Semiconductor at www.cypress.com <kev@cypress.com>
  */
 
-#include <linux/delay.h>
-#include <linux/input.h>
-#include <linux/input/mt.h>
-#include <linux/input/touchscreen.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/property.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regulator/consumer.h>
+#include <robux/delay.h>
+#include <robux/input.h>
+#include <robux/input/mt.h>
+#include <robux/input/touchscreen.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/property.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regulator/consumer.h>
 
 #include "cyttsp_core.h"
 

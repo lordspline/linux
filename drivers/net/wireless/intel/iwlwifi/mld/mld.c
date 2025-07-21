@@ -2,7 +2,7 @@
 /*
  * Copyright (C) 2024-2025 Intel Corporation
  */
-#include <linux/rtnetlink.h>
+#include <robux/rtnetlink.h>
 #include <net/mac80211.h>
 
 #include "fw/api/rx.h"
@@ -28,7 +28,7 @@
 
 #include "iwl-nvm-parse.h"
 
-#define DRV_DESCRIPTION "Intel(R) MLD wireless driver for Linux"
+#define DRV_DESCRIPTION "Intel(R) MLD wireless driver for Robux"
 MODULE_DESCRIPTION(DRV_DESCRIPTION);
 MODULE_LICENSE("GPL");
 MODULE_IMPORT_NS("IWLWIFI");

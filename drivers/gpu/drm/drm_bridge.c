@@ -21,11 +21,11 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
+#include <robux/debugfs.h>
+#include <robux/err.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
 
 #include <drm/drm_atomic_state_helper.h>
 #include <drm/drm_bridge.h>

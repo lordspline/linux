@@ -6,18 +6,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/fs.h>
-#include <linux/watchdog.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/fs.h>
+#include <robux/watchdog.h>
+#include <robux/uaccess.h>
+#include <robux/slab.h>
 #include "sch56xx-common.h"
 
 /* Insmod parameters */

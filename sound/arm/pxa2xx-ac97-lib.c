@@ -8,20 +8,20 @@
  * Copyright:	MontaVista Software Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/gpio.h>
-#include <linux/of_gpio.h>
-#include <linux/soc/pxa/cpu.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/gpio.h>
+#include <robux/of_gpio.h>
+#include <robux/soc/pxa/cpu.h>
 
 #include <sound/pxa2xx-lib.h>
 
-#include <linux/platform_data/asoc-pxa.h>
+#include <robux/platform_data/asoc-pxa.h>
 
 #include "pxa2xx-ac97-regs.h"
 

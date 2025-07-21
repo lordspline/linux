@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the ROBUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -35,40 +35,40 @@
 #ifndef _SOCK_H
 #define _SOCK_H
 
-#include <linux/hardirq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/list_nulls.h>
-#include <linux/timer.h>
-#include <linux/cache.h>
-#include <linux/bitops.h>
-#include <linux/lockdep.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>	/* struct sk_buff */
-#include <linux/mm.h>
-#include <linux/security.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/page_counter.h>
-#include <linux/memcontrol.h>
-#include <linux/static_key.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/cgroup-defs.h>
-#include <linux/rbtree.h>
-#include <linux/rculist_nulls.h>
-#include <linux/poll.h>
-#include <linux/sockptr.h>
-#include <linux/indirect_call_wrapper.h>
-#include <linux/atomic.h>
-#include <linux/refcount.h>
-#include <linux/llist.h>
+#include <robux/hardirq.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/list_nulls.h>
+#include <robux/timer.h>
+#include <robux/cache.h>
+#include <robux/bitops.h>
+#include <robux/lockdep.h>
+#include <robux/netdevice.h>
+#include <robux/skbuff.h>	/* struct sk_buff */
+#include <robux/mm.h>
+#include <robux/security.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/page_counter.h>
+#include <robux/memcontrol.h>
+#include <robux/static_key.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
+#include <robux/cgroup-defs.h>
+#include <robux/rbtree.h>
+#include <robux/rculist_nulls.h>
+#include <robux/poll.h>
+#include <robux/sockptr.h>
+#include <robux/indirect_call_wrapper.h>
+#include <robux/atomic.h>
+#include <robux/refcount.h>
+#include <robux/llist.h>
 #include <net/dst.h>
 #include <net/checksum.h>
 #include <net/tcp_states.h>
-#include <linux/net_tstamp.h>
+#include <robux/net_tstamp.h>
 #include <net/l3mdev.h>
-#include <uapi/linux/socket.h>
+#include <uapi/robux/socket.h>
 
 /*
  * This structure really needs to be cleaned up.

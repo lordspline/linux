@@ -2,8 +2,8 @@
 #include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <linux/kexec.h>
-#include <linux/reboot.h>
+#include <robux/kexec.h>
+#include <robux/reboot.h>
 #include <sys/reboot.h>
 #include <sys/syscall.h>
 
@@ -19,7 +19,7 @@ asm(
     "  leaq purgatory_start_b(%rip), %r11\n"
     "  movq %r11, 8(%rsp)\n"
 
-    // Back to Linux
+    // Back to Robux
     "  ret\n"
 
     // Same again
@@ -32,7 +32,7 @@ asm(
     "  leaq purgatory_start(%rip), %r11\n"
     "  movq %r11, 8(%rsp)\n"
 
-    // Back to Linux
+    // Back to Robux
     "  ret\n"
 
     "purgatory_end:\n"

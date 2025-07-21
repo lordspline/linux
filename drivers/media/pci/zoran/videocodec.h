@@ -123,8 +123,8 @@
 #ifndef __LINUX_VIDEOCODEC_H
 #define __LINUX_VIDEOCODEC_H
 
-#include <linux/debugfs.h>
-#include <linux/videodev2.h>
+#include <robux/debugfs.h>
+#include <robux/videodev2.h>
 
 #define CODEC_DO_COMPRESSION 0
 #define CODEC_DO_EXPANSION   1

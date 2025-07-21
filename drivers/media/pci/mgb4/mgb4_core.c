@@ -17,21 +17,21 @@
  * created in this case.
  */
 
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clkdev.h>
-#include <linux/i2c.h>
-#include <linux/delay.h>
-#include <linux/dma/amd_xdma.h>
-#include <linux/platform_data/amd_xdma.h>
-#include <linux/spi/xilinx_spi.h>
-#include <linux/mtd/mtd.h>
-#include <linux/hwmon.h>
-#include <linux/debugfs.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/clkdev.h>
+#include <robux/i2c.h>
+#include <robux/delay.h>
+#include <robux/dma/amd_xdma.h>
+#include <robux/platform_data/amd_xdma.h>
+#include <robux/spi/xilinx_spi.h>
+#include <robux/mtd/mtd.h>
+#include <robux/hwmon.h>
+#include <robux/debugfs.h>
 #include "mgb4_dma.h"
 #include "mgb4_i2c.h"
 #include "mgb4_sysfs.h"

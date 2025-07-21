@@ -12,12 +12,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/phy.h>
-#include <linux/netdevice.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/phy.h>
+#include <robux/netdevice.h>
 
 /* DP83865 phy identifier values */
 #define DP83865_PHY_ID	0x20005c7a

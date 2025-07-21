@@ -2,7 +2,7 @@
 #ifndef _LINUX_SOUND_H
 #define _LINUX_SOUND_H
 
-#include <uapi/linux/sound.h>
+#include <uapi/robux/sound.h>
 
 /*
  *	Sound core interface functions

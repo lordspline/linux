@@ -7,15 +7,15 @@
  *
  * Author: Anshuman Khandual <anshuman.khandual@arm.com>
  */
-#include <linux/acpi.h>
-#include <linux/coresight.h>
-#include <linux/device.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/perf/arm_pmu.h>
-#include <linux/platform_device.h>
-#include <linux/smp.h>
+#include <robux/acpi.h>
+#include <robux/coresight.h>
+#include <robux/device.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/perf/arm_pmu.h>
+#include <robux/platform_device.h>
+#include <robux/smp.h>
 
 #include "coresight-etm-perf.h"
 

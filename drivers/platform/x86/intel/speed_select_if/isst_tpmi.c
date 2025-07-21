@@ -7,9 +7,9 @@
  *
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/module.h>
-#include <linux/intel_tpmi.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/module.h>
+#include <robux/intel_tpmi.h>
 
 #include "isst_tpmi_core.h"
 

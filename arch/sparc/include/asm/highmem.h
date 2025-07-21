@@ -21,8 +21,8 @@
 
 #ifdef __KERNEL__
 
-#include <linux/interrupt.h>
-#include <linux/pgtable.h>
+#include <robux/interrupt.h>
+#include <robux/pgtable.h>
 #include <asm/vaddrs.h>
 #include <asm/pgtsrmmu.h>
 

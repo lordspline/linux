@@ -8,14 +8,14 @@
  *                         Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/hid.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/unaligned.h>
+#include <robux/hid.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/types.h>
 
-#include <linux/surface_aggregator/controller.h>
-#include <linux/surface_aggregator/device.h>
+#include <robux/surface_aggregator/controller.h>
+#include <robux/surface_aggregator/device.h>
 
 #include "surface_hid_core.h"
 

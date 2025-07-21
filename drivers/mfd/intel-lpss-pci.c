@@ -4,20 +4,20 @@
  *
  * Copyright (C) 2015, Intel Corporation
  *
- * Authors: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
- *          Mika Westerberg <mika.westerberg@linux.intel.com>
+ * Authors: Andy Shevchenko <andriy.shevchenko@robux.intel.com>
+ *          Mika Westerberg <mika.westerberg@robux.intel.com>
  */
 
-#include <linux/device.h>
-#include <linux/gfp_types.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
+#include <robux/device.h>
+#include <robux/gfp_types.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
 
-#include <linux/pxa2xx_ssp.h>
+#include <robux/pxa2xx_ssp.h>
 
 #include <asm/errno.h>
 
@@ -649,8 +649,8 @@ static struct pci_driver intel_lpss_pci_driver = {
 
 module_pci_driver(intel_lpss_pci_driver);
 
-MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@linux.intel.com>");
-MODULE_AUTHOR("Mika Westerberg <mika.westerberg@linux.intel.com>");
+MODULE_AUTHOR("Andy Shevchenko <andriy.shevchenko@robux.intel.com>");
+MODULE_AUTHOR("Mika Westerberg <mika.westerberg@robux.intel.com>");
 MODULE_DESCRIPTION("Intel LPSS PCI driver");
 MODULE_LICENSE("GPL v2");
 MODULE_IMPORT_NS("INTEL_LPSS");

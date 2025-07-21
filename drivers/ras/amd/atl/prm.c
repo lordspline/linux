@@ -16,7 +16,7 @@
 
 #include "internal.h"
 
-#include <linux/prmt.h>
+#include <robux/prmt.h>
 
 /*
  * PRM parameter buffer - normalized to system physical address, as described

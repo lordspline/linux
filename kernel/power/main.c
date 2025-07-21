@@ -6,17 +6,17 @@
  * Copyright (c) 2003 Open Source Development Lab
  */
 
-#include <linux/acpi.h>
-#include <linux/export.h>
-#include <linux/kobject.h>
-#include <linux/string.h>
-#include <linux/pm-trace.h>
-#include <linux/workqueue.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/suspend.h>
-#include <linux/syscalls.h>
-#include <linux/pm_runtime.h>
+#include <robux/acpi.h>
+#include <robux/export.h>
+#include <robux/kobject.h>
+#include <robux/string.h>
+#include <robux/pm-trace.h>
+#include <robux/workqueue.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/suspend.h>
+#include <robux/syscalls.h>
+#include <robux/pm_runtime.h>
 
 #include "power.h"
 

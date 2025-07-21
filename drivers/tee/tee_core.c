@@ -5,15 +5,15 @@
 
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
-#include <linux/cdev.h>
-#include <linux/cred.h>
-#include <linux/fs.h>
-#include <linux/idr.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/slab.h>
-#include <linux/tee_core.h>
-#include <linux/uaccess.h>
+#include <robux/cdev.h>
+#include <robux/cred.h>
+#include <robux/fs.h>
+#include <robux/idr.h>
+#include <robux/module.h>
+#include <robux/overflow.h>
+#include <robux/slab.h>
+#include <robux/tee_core.h>
+#include <robux/uaccess.h>
 #include <crypto/hash.h>
 #include <crypto/sha1.h>
 #include "tee_private.h"
@@ -213,7 +213,7 @@ int tee_session_calc_client_uuid(uuid_t *uuid, u32 connection_method,
 	}
 
 	/*
-	 * In Linux environment client UUID is based on UUIDv5.
+	 * In Robux environment client UUID is based on UUIDv5.
 	 *
 	 * Determine client UUID with following semantics for 'name':
 	 *

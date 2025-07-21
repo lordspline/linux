@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * linux/sound/soc/pxa/mmp-sspa.c
+ * robux/sound/soc/pxa/mmp-sspa.c
  * Base on pxa2xx-ssp.c
  *
  * Copyright (C) 2011 Marvell International Ltd.
  */
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/slab.h>
-#include <linux/io.h>
-#include <linux/dmaengine.h>
-#include <linux/pm_runtime.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/slab.h>
+#include <robux/io.h>
+#include <robux/dmaengine.h>
+#include <robux/pm_runtime.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

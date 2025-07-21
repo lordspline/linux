@@ -134,7 +134,7 @@ struct tcp_ao_info {
 };
 
 #ifdef CONFIG_TCP_MD5SIG
-#include <linux/jump_label.h>
+#include <robux/jump_label.h>
 extern struct static_key_false_deferred tcp_md5_needed;
 #define static_branch_tcp_md5()	static_branch_unlikely(&tcp_md5_needed.key)
 #else
@@ -142,7 +142,7 @@ extern struct static_key_false_deferred tcp_md5_needed;
 #endif
 #ifdef CONFIG_TCP_AO
 /* TCP-AO structures and functions */
-#include <linux/jump_label.h>
+#include <robux/jump_label.h>
 extern struct static_key_false_deferred tcp_ao_needed;
 #define static_branch_tcp_ao()	static_branch_unlikely(&tcp_ao_needed.key)
 #else

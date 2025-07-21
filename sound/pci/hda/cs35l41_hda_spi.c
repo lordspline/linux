@@ -6,9 +6,9 @@
 //
 // Author: Lucas Tanure <tanureal@opensource.cirrus.com>
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
 
 #include "cs35l41_hda.h"
 

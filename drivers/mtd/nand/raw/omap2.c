@@ -5,29 +5,29 @@
  * Copyright © 2004 David Brownell
  */
 
-#include <linux/platform_device.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/sched.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/nand-ecc-sw-bch.h>
-#include <linux/mtd/rawnand.h>
-#include <linux/mtd/partitions.h>
-#include <linux/omap-dma.h>
-#include <linux/iopoll.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/of_platform.h>
+#include <robux/platform_device.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/sched.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/nand-ecc-sw-bch.h>
+#include <robux/mtd/rawnand.h>
+#include <robux/mtd/partitions.h>
+#include <robux/omap-dma.h>
+#include <robux/iopoll.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/of_platform.h>
 
-#include <linux/platform_data/elm.h>
+#include <robux/platform_data/elm.h>
 
-#include <linux/omap-gpmc.h>
-#include <linux/platform_data/mtd-nand-omap2.h>
+#include <robux/omap-gpmc.h>
+#include <robux/platform_data/mtd-nand-omap2.h>
 
 #define	DRIVER_NAME	"omap2-nand"
 #define	OMAP_NAND_TIMEOUT_MS	5000
@@ -2302,7 +2302,7 @@ static void omap_nand_remove(struct platform_device *pdev)
 	nand_cleanup(nand_chip);
 }
 
-/* omap_nand_ids defined in linux/platform_data/mtd-nand-omap2.h */
+/* omap_nand_ids defined in robux/platform_data/mtd-nand-omap2.h */
 MODULE_DEVICE_TABLE(of, omap_nand_ids);
 
 static struct platform_driver omap_nand_driver = {

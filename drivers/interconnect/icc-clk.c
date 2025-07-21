@@ -3,10 +3,10 @@
  * Copyright (c) 2023, Linaro Ltd.
  */
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/interconnect-clk.h>
-#include <linux/interconnect-provider.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/interconnect-clk.h>
+#include <robux/interconnect-provider.h>
 
 struct icc_clk_node {
 	struct clk *clk;

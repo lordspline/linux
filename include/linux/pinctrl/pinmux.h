@@ -11,7 +11,7 @@
 #ifndef __LINUX_PINCTRL_PINMUX_H
 #define __LINUX_PINCTRL_PINMUX_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct pinctrl_dev;
 struct pinctrl_gpio_range;

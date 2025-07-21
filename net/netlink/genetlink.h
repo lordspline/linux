@@ -2,7 +2,7 @@
 #ifndef __NET_GENETLINK_H
 #define __NET_GENETLINK_H
 
-#include <linux/wait.h>
+#include <robux/wait.h>
 
 /* for synchronisation between af_netlink and genetlink */
 extern atomic_t genl_sk_destructing_cnt;

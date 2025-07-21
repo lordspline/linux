@@ -30,10 +30,10 @@
  * SOFTWARE.
  *
  */
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/rbtree.h>
-#include <linux/dma-mapping.h> /* for DMA_*_DEVICE */
+#include <robux/pagemap.h>
+#include <robux/slab.h>
+#include <robux/rbtree.h>
+#include <robux/dma-mapping.h> /* for DMA_*_DEVICE */
 
 #include "rds.h"
 

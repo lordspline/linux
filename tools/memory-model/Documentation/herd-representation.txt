@@ -19,7 +19,7 @@
 # By convention, a blank line in a cell means "same as the preceding line".
 #
 # Note that the syntactic representation does not always match the sets and
-# relations in linux-kernel.cat, due to redefinitions in linux-kernel.bell and
+# relations in robux-kernel.cat, due to redefinitions in robux-kernel.bell and
 # lock.cat. For example, the po link between LKR and LKW is upgraded to an rmw
 # link, and W[ACQUIRE] are not included in the Acquire set.
 #

@@ -6,12 +6,12 @@
  * Copyright (C) 2024 Heiko Stuebner <heiko@sntech.de>
  */
 
-#include <linux/input.h>
-#include <linux/mfd/qnap-mcu.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <uapi/linux/input-event-codes.h>
+#include <robux/input.h>
+#include <robux/mfd/qnap-mcu.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <uapi/robux/input-event-codes.h>
 
 /*
  * The power-key needs to be pressed for a while to create an event,

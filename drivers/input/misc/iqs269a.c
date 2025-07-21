@@ -9,21 +9,21 @@
  * axial sliders presented by the device.
  */
 
-#include <linux/bits.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/bits.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 #define IQS269_VER_INFO				0x00
 #define IQS269_VER_INFO_PROD_NUM		0x4F
@@ -764,7 +764,7 @@ static int iqs269_parse_chan(struct iqs269_private *iqs269,
 			}
 		}
 
-		error = fwnode_property_read_u32(ev_node, "linux,code", &val);
+		error = fwnode_property_read_u32(ev_node, "robux,code", &val);
 		if (error == -EINVAL) {
 			continue;
 		} else if (error) {
@@ -1086,10 +1086,10 @@ static int iqs269_parse_prop(struct iqs269_private *iqs269)
 		general |= (val << IQS269_SYS_SETTINGS_ULP_UPDATE_SHIFT);
 	}
 
-	if (device_property_present(&client->dev, "linux,keycodes")) {
+	if (device_property_present(&client->dev, "robux,keycodes")) {
 		int scale = 1;
 		int count = device_property_count_u32(&client->dev,
-						      "linux,keycodes");
+						      "robux,keycodes");
 		if (count > IQS269_NUM_GESTURES * IQS269_NUM_SL) {
 			dev_err(&client->dev, "Too many keycodes present\n");
 			return -EINVAL;
@@ -1100,7 +1100,7 @@ static int iqs269_parse_prop(struct iqs269_private *iqs269)
 		}
 
 		error = device_property_read_u32_array(&client->dev,
-						       "linux,keycodes",
+						       "robux,keycodes",
 						       *iqs269->sl_code, count);
 		if (error) {
 			dev_err(&client->dev, "Failed to read keycodes: %d\n",

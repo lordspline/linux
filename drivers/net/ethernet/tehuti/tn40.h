@@ -4,7 +4,7 @@
 #ifndef _TN40_H_
 #define _TN40_H_
 
-#include <linux/property.h>
+#include <robux/property.h>
 #include "tn40_regs.h"
 
 #define TN40_DRV_NAME "tn40xx"

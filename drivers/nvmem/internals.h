@@ -3,9 +3,9 @@
 #ifndef _LINUX_NVMEM_INTERNALS_H
 #define _LINUX_NVMEM_INTERNALS_H
 
-#include <linux/device.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/nvmem-provider.h>
+#include <robux/device.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/nvmem-provider.h>
 
 struct nvmem_device {
 	struct module		*owner;

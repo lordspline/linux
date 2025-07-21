@@ -3,9 +3,9 @@
  * Copyright (C) 2010 FUJITSU LIMITED
  * Copyright (C) 2010 Tomohiro Kusumi <kusumi.tomohiro@jp.fujitsu.com>
  */
-#include <linux/kernel.h>
-#include <linux/trace_seq.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/trace_seq.h>
+#include <robux/unaligned.h>
 #include <trace/events/scsi.h>
 
 #define SERVICE_ACTION16(cdb) (cdb[1] & 0x1f)

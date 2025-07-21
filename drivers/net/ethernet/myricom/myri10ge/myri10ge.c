@@ -40,31 +40,31 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/tcp.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/string.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/if_ether.h>
-#include <linux/if_vlan.h>
-#include <linux/dca.h>
-#include <linux/ip.h>
-#include <linux/inet.h>
-#include <linux/in.h>
-#include <linux/ethtool.h>
-#include <linux/firmware.h>
-#include <linux/delay.h>
-#include <linux/timer.h>
-#include <linux/vmalloc.h>
-#include <linux/crc32.h>
-#include <linux/moduleparam.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/slab.h>
-#include <linux/prefetch.h>
+#include <robux/tcp.h>
+#include <robux/netdevice.h>
+#include <robux/skbuff.h>
+#include <robux/string.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/etherdevice.h>
+#include <robux/if_ether.h>
+#include <robux/if_vlan.h>
+#include <robux/dca.h>
+#include <robux/ip.h>
+#include <robux/inet.h>
+#include <robux/in.h>
+#include <robux/ethtool.h>
+#include <robux/firmware.h>
+#include <robux/delay.h>
+#include <robux/timer.h>
+#include <robux/vmalloc.h>
+#include <robux/crc32.h>
+#include <robux/moduleparam.h>
+#include <robux/io.h>
+#include <robux/log2.h>
+#include <robux/slab.h>
+#include <robux/prefetch.h>
 #include <net/checksum.h>
 #include <net/gso.h>
 #include <net/ip.h>
@@ -2427,8 +2427,8 @@ static int myri10ge_open(struct net_device *dev)
 	}
 
 	/*
-	 * Set Linux style TSO mode; this is needed only on newer
-	 *  firmware versions.  Older versions default to Linux
+	 * Set Robux style TSO mode; this is needed only on newer
+	 *  firmware versions.  Older versions default to Robux
 	 *  style TSO
 	 */
 	cmd.data0 = 0;

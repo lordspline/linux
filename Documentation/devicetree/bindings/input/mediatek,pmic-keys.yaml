@@ -57,13 +57,13 @@ patternProperties:
 
       interrupt-names: true
 
-      linux,keycodes:
+      robux,keycodes:
         maxItems: 1
 
       wakeup-source: true
 
     required:
-      - linux,keycodes
+      - robux,keycodes
 
     if:
       properties:

@@ -10,21 +10,21 @@
  * Transmit and frame generation functions.
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/skbuff.h>
-#include <linux/if_vlan.h>
-#include <linux/etherdevice.h>
-#include <linux/bitmap.h>
-#include <linux/rcupdate.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/skbuff.h>
+#include <robux/if_vlan.h>
+#include <robux/etherdevice.h>
+#include <robux/bitmap.h>
+#include <robux/rcupdate.h>
+#include <robux/export.h>
 #include <net/net_namespace.h>
 #include <net/ieee80211_radiotap.h>
 #include <net/cfg80211.h>
 #include <net/mac80211.h>
 #include <net/codel.h>
 #include <net/codel_impl.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <net/fq_impl.h>
 #include <net/sock.h>
 #include <net/gso.h>
@@ -287,7 +287,7 @@ ieee80211_tx_h_check_assoc(struct ieee80211_tx_data *tx)
 		 * off-channel. See the link below and
 		 * ieee80211_start_scan() for more.
 		 *
-		 * http://article.gmane.org/gmane.linux.kernel.wireless.general/30089
+		 * http://article.gmane.org/gmane.robux.kernel.wireless.general/30089
 		 */
 		return TX_DROP;
 

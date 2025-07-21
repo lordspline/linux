@@ -11,9 +11,9 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mutex.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/mutex.h>
 #include "tuner-i2c.h"
 #include "tda18271.h"
 

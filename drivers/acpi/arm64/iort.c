@@ -10,15 +10,15 @@
 
 #define pr_fmt(fmt)	"ACPI: IORT: " fmt
 
-#include <linux/acpi_iort.h>
-#include <linux/bitfield.h>
-#include <linux/iommu.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/dma-map-ops.h>
+#include <robux/acpi_iort.h>
+#include <robux/bitfield.h>
+#include <robux/iommu.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/dma-map-ops.h>
 #include "init.h"
 
 #define IORT_TYPE_MASK(type)	(1 << (type))

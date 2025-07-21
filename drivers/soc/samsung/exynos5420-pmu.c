@@ -5,10 +5,10 @@
 //
 // Exynos5420 - CPU PMU (Power Management Unit) support
 
-#include <linux/array_size.h>
-#include <linux/pm.h>
-#include <linux/soc/samsung/exynos-regs-pmu.h>
-#include <linux/soc/samsung/exynos-pmu.h>
+#include <robux/array_size.h>
+#include <robux/pm.h>
+#include <robux/soc/samsung/exynos-regs-pmu.h>
+#include <robux/soc/samsung/exynos-pmu.h>
 
 #include <asm/cputype.h>
 

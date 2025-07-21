@@ -2,7 +2,7 @@
 
 #include <dt-bindings/clock/tegra234-clock.h>
 #include <dt-bindings/gpio/tegra234-gpio.h>
-#include <dt-bindings/input/linux-event-codes.h>
+#include <dt-bindings/input/robux-event-codes.h>
 #include <dt-bindings/input/gpio-keys.h>
 #include <dt-bindings/sound/rt5640.h>
 
@@ -390,15 +390,15 @@
 		key-force-recovery {
 			label = "Force Recovery";
 			gpios = <&gpio TEGRA234_MAIN_GPIO(G, 0) GPIO_ACTIVE_LOW>;
-			linux,input-type = <EV_KEY>;
-			linux,code = <BTN_1>;
+			robux,input-type = <EV_KEY>;
+			robux,code = <BTN_1>;
 		};
 
 		key-power {
 			label = "Power";
 			gpios = <&gpio_aon TEGRA234_AON_GPIO(EE, 4) GPIO_ACTIVE_LOW>;
-			linux,input-type = <EV_KEY>;
-			linux,code = <KEY_POWER>;
+			robux,input-type = <EV_KEY>;
+			robux,code = <KEY_POWER>;
 			wakeup-event-action = <EV_ACT_ASSERTED>;
 			wakeup-source;
 		};
@@ -406,8 +406,8 @@
 		key-suspend {
 			label = "Suspend";
 			gpios = <&gpio TEGRA234_MAIN_GPIO(G, 2) GPIO_ACTIVE_LOW>;
-			linux,input-type = <EV_KEY>;
-			linux,code = <KEY_SLEEP>;
+			robux,input-type = <EV_KEY>;
+			robux,code = <KEY_SLEEP>;
 		};
 	};
 

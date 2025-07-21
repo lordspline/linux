@@ -3,10 +3,10 @@
  * Copyright (c) 2024, NVIDIA CORPORATION & AFFILIATES. All rights reserved
  */
 
-#include <linux/sizes.h>
-#include <linux/vfio_pci_core.h>
-#include <linux/delay.h>
-#include <linux/jiffies.h>
+#include <robux/sizes.h>
+#include <robux/vfio_pci_core.h>
+#include <robux/delay.h>
+#include <robux/jiffies.h>
 
 /*
  * The device memory usable to the workloads running in the VM is cached

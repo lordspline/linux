@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * handle transition of Linux booting another kernel
+ * handle transition of Robux booting another kernel
  * Copyright (C) 2002-2005 Eric Biederman  <ebiederm@xmission.com>
  */
 
 #define pr_fmt(fmt)	"kexec: " fmt
 
-#include <linux/mm.h>
-#include <linux/kexec.h>
-#include <linux/string.h>
-#include <linux/gfp.h>
-#include <linux/reboot.h>
-#include <linux/numa.h>
-#include <linux/ftrace.h>
-#include <linux/io.h>
-#include <linux/suspend.h>
-#include <linux/vmalloc.h>
-#include <linux/efi.h>
-#include <linux/cc_platform.h>
+#include <robux/mm.h>
+#include <robux/kexec.h>
+#include <robux/string.h>
+#include <robux/gfp.h>
+#include <robux/reboot.h>
+#include <robux/numa.h>
+#include <robux/ftrace.h>
+#include <robux/io.h>
+#include <robux/suspend.h>
+#include <robux/vmalloc.h>
+#include <robux/efi.h>
+#include <robux/cc_platform.h>
 
 #include <asm/init.h>
 #include <asm/tlbflush.h>

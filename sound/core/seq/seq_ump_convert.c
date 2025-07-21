@@ -3,9 +3,9 @@
  * ALSA sequencer event conversion between UMP and legacy clients
  */
 
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/string.h>
 #include <sound/core.h>
 #include <sound/ump.h>
 #include <sound/ump_msg.h>

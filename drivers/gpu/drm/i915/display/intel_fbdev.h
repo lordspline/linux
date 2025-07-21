@@ -6,7 +6,7 @@
 #ifndef __INTEL_FBDEV_H__
 #define __INTEL_FBDEV_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct drm_fb_helper;
 struct drm_fb_helper_surface_size;

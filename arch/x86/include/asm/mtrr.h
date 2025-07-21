@@ -23,7 +23,7 @@
 #ifndef _ASM_X86_MTRR_H
 #define _ASM_X86_MTRR_H
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 #include <uapi/asm/mtrr.h>
 
 /* Defines for hardware MTRR registers. */
@@ -122,7 +122,7 @@ static inline int mtrr_trim_uncached_memory(unsigned long end_pfn)
 #  endif
 
 #ifdef CONFIG_COMPAT
-#include <linux/compat.h>
+#include <robux/compat.h>
 
 struct mtrr_sentry32 {
     compat_ulong_t base;    /*  Base address     */

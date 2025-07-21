@@ -3,14 +3,14 @@
  * Copyright (C) 2016 HiSilicon Co., Ltd.
  */
 
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/hw_random.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/random.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/hw_random.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/random.h>
 
 #define RNG_SEED	0x0
 #define RNG_CTRL	0x4

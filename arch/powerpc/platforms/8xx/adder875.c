@@ -6,8 +6,8 @@
  * Copyright (c) 2007 Freescale Semiconductor, Inc.
  */
 
-#include <linux/init.h>
-#include <linux/of_platform.h>
+#include <robux/init.h>
+#include <robux/of_platform.h>
 
 #include <asm/time.h>
 #include <asm/machdep.h>

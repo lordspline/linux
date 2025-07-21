@@ -11,19 +11,19 @@
 #ifndef _PCIE_DESIGNWARE_H
 #define _PCIE_DESIGNWARE_H
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma/edma.h>
-#include <linux/gpio/consumer.h>
-#include <linux/irq.h>
-#include <linux/msi.h>
-#include <linux/pci.h>
-#include <linux/reset.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/dma/edma.h>
+#include <robux/gpio/consumer.h>
+#include <robux/irq.h>
+#include <robux/msi.h>
+#include <robux/pci.h>
+#include <robux/reset.h>
 
-#include <linux/pci-epc.h>
-#include <linux/pci-epf.h>
+#include <robux/pci-epc.h>
+#include <robux/pci-epf.h>
 
 #include "../../pci.h"
 

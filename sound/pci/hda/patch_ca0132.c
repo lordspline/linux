@@ -8,16 +8,16 @@
  * Copyright (c) 2008 Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/module.h>
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/io.h>
-#include <linux/pci.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/module.h>
+#include <robux/firmware.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/io.h>
+#include <robux/pci.h>
 #include <asm/io.h>
 #include <sound/core.h>
 #include <sound/hda_codec.h>
@@ -627,7 +627,7 @@ enum speaker_tuning_reqs {
 	 * send over (presumably) an equalizer profile for the specific
 	 * headphone setup. It is sent using the same method the DSP
 	 * firmware is uploaded with, which I believe is why the 'ctspeq.bin'
-	 * file exists in linux firmware tree but goes unused. It would also
+	 * file exists in robux firmware tree but goes unused. It would also
 	 * explain why the QUERY_SPEAKER_EQ_ADDRESS req is defined but unused.
 	 * Once this profile is sent over, SPEAKER_TUNING_USE_SPEAKER_EQ is
 	 * set to 1.0f.
@@ -8796,7 +8796,7 @@ static void ca0132_init_chip(struct hda_codec *codec)
 	/*
 	 * The Windows driver always does this upon startup, which seems to
 	 * clear out any previous configuration. This should help issues where
-	 * a boot into Windows prior to a boot into Linux breaks things. Also,
+	 * a boot into Windows prior to a boot into Robux breaks things. Also,
 	 * Windows always sends the reset twice.
 	 */
 	if (ca0132_use_alt_functions(spec)) {

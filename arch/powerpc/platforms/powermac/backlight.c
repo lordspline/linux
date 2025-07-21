@@ -4,16 +4,16 @@
  * Contains support for the backlight.
  *
  *   Copyright (C) 2000 Benjamin Herrenschmidt
- *   Copyright (C) 2006 Michael Hanselmann <linux-kernel@hansmi.ch>
+ *   Copyright (C) 2006 Michael Hanselmann <robux-kernel@hansmi.ch>
  *
  */
 
-#include <linux/kernel.h>
-#include <linux/backlight.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
-#include <linux/atomic.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/backlight.h>
+#include <robux/adb.h>
+#include <robux/pmu.h>
+#include <robux/atomic.h>
+#include <robux/export.h>
 #include <asm/backlight.h>
 
 #define OLD_BACKLIGHT_MAX 15

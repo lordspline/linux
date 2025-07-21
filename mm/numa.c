@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/memblock.h>
-#include <linux/printk.h>
-#include <linux/numa.h>
-#include <linux/numa_memblks.h>
+#include <robux/memblock.h>
+#include <robux/printk.h>
+#include <robux/numa.h>
+#include <robux/numa_memblks.h>
 
 struct pglist_data *node_data[MAX_NUMNODES];
 EXPORT_SYMBOL(node_data);

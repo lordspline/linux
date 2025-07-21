@@ -4,23 +4,23 @@
  * for more details.
  *
  * Copyright (C) 1994 - 1999, 2000 by Ralf Baechle and others.
- * Copyright (C) 2005, 2006 by Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 2005, 2006 by Ralf Baechle (ralf@robux-mips.org)
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  * Copyright (C) 2004 Thiemo Seufer
  * Copyright (C) 2013  Imagination Technologies Ltd.
  */
-#include <linux/cpu.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/kallsyms.h>
-#include <linux/kernel.h>
-#include <linux/nmi.h>
-#include <linux/personality.h>
-#include <linux/prctl.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
+#include <robux/cpu.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/kallsyms.h>
+#include <robux/kernel.h>
+#include <robux/nmi.h>
+#include <robux/personality.h>
+#include <robux/prctl.h>
+#include <robux/random.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/abi.h>
 #include <asm/asm.h>
@@ -175,7 +175,7 @@ int copy_thread(struct task_struct *p, const struct kernel_clone_args *args)
 }
 
 #ifdef CONFIG_STACKPROTECTOR
-#include <linux/stackprotector.h>
+#include <robux/stackprotector.h>
 unsigned long __stack_chk_guard __read_mostly;
 EXPORT_SYMBOL(__stack_chk_guard);
 #endif

@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
-// Copyright (c) 2017-2018, The Linux foundation. All rights reserved.
+// Copyright (c) 2017-2018, The Robux foundation. All rights reserved.
 
-#include <linux/clk.h>
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma/qcom-gpi-dma.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/log2.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/pm_runtime.h>
-#include <linux/property.h>
-#include <linux/soc/qcom/geni-se.h>
-#include <linux/spi/spi.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/dma/qcom-gpi-dma.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/log2.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/pm_runtime.h>
+#include <robux/property.h>
+#include <robux/soc/qcom/geni-se.h>
+#include <robux/spi/spi.h>
+#include <robux/spinlock.h>
 
 /* SPI SE specific registers and respective register fields */
 #define SE_SPI_CPHA		0x224

@@ -10,10 +10,10 @@
 
 */
 
-#include <linux/cordic.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/cordic.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "b43.h"
 #include "phy_n.h"

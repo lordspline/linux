@@ -22,20 +22,20 @@
  * Contributors: Andreas Larsson <andreas@gaisler.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/io.h>
-#include <linux/can/dev.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/netdevice.h>
+#include <robux/delay.h>
+#include <robux/ethtool.h>
+#include <robux/io.h>
+#include <robux/can/dev.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
 
-#include <linux/dma-mapping.h>
+#include <robux/dma-mapping.h>
 
 #define DRV_NAME	"grcan"
 

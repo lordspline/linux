@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
-#include <linux/export.h>
-#include <linux/linkage.h>
-#include <linux/cfi_types.h>
-#include <linux/objtool.h>
+#include <robux/export.h>
+#include <robux/linkage.h>
+#include <robux/cfi_types.h>
+#include <robux/objtool.h>
 #include <asm/asm.h>
 
 /*

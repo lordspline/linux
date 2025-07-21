@@ -1,25 +1,25 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/fs/lockd/svcsubs.c
+ * robux/fs/lockd/svcsubs.c
  *
  * Various support routines for the NLM server.
  *
  * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/time.h>
-#include <linux/in.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/sunrpc/svc.h>
-#include <linux/sunrpc/addr.h>
-#include <linux/lockd/lockd.h>
-#include <linux/lockd/share.h>
-#include <linux/module.h>
-#include <linux/mount.h>
-#include <uapi/linux/nfs2.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/time.h>
+#include <robux/in.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/sunrpc/svc.h>
+#include <robux/sunrpc/addr.h>
+#include <robux/lockd/lockd.h>
+#include <robux/lockd/share.h>
+#include <robux/module.h>
+#include <robux/mount.h>
+#include <uapi/robux/nfs2.h>
 
 #define NLMDBG_FACILITY		NLMDBG_SVCSUBS
 

@@ -7,23 +7,23 @@
  * Aneesh V <aneesh@ti.com>
  * Santosh Shilimkar <santosh.shilimkar@ti.com>
  */
-#include <linux/cleanup.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/reboot.h>
-#include <linux/platform_data/emif_plat.h>
-#include <linux/io.h>
-#include <linux/device.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
-#include <linux/pm.h>
+#include <robux/cleanup.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/reboot.h>
+#include <robux/platform_data/emif_plat.h>
+#include <robux/io.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/spinlock.h>
+#include <robux/pm.h>
 
 #include "emif.h"
 #include "jedec_ddr.h"

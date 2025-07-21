@@ -4,21 +4,21 @@
  *
  * Copyright 1993, 1994 Drew Eckhardt
  *      Visionary Computing 
- *      (Unix and Linux consulting and custom programming)
+ *      (Unix and Robux consulting and custom programming)
  *      drew@Colorado.EDU
  *      +1 (303) 786-7975
  *
  * For more information, please consult the SCSI-CAM draft.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/kernel.h>
-#include <linux/blkdev.h>
-#include <linux/pagemap.h>
-#include <linux/msdos_partition.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/kernel.h>
+#include <robux/blkdev.h>
+#include <robux/pagemap.h>
+#include <robux/msdos_partition.h>
+#include <robux/unaligned.h>
 
 #include <scsi/scsicam.h>
 

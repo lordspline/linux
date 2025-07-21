@@ -3,9 +3,9 @@
 #ifndef BTRFS_BLOCK_RSV_H
 #define BTRFS_BLOCK_RSV_H
 
-#include <linux/types.h>
-#include <linux/compiler.h>
-#include <linux/spinlock.h>
+#include <robux/types.h>
+#include <robux/compiler.h>
+#include <robux/spinlock.h>
 
 struct btrfs_trans_handle;
 struct btrfs_root;

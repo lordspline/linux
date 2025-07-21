@@ -8,11 +8,11 @@
  * Supported chipsets: 93c46 & 93c66.
  */
 
-#include <linux/bits.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/eeprom_93cx6.h>
+#include <robux/bits.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/eeprom_93cx6.h>
 
 MODULE_AUTHOR("http://rt2x00.serialmonkey.com");
 MODULE_VERSION("1.0");

@@ -11,16 +11,16 @@
 #ifndef _VISCONTI_CLKC_H_
 #define _VISCONTI_CLKC_H_
 
-#include <linux/mfd/syscon.h>
-#include <linux/clk-provider.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/delay.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
+#include <robux/mfd/syscon.h>
+#include <robux/clk-provider.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/delay.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
 
 #include "reset.h"
 

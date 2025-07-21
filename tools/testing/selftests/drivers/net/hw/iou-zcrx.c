@@ -12,11 +12,11 @@
 #include <unistd.h>
 
 #include <arpa/inet.h>
-#include <linux/errqueue.h>
-#include <linux/if_packet.h>
-#include <linux/ipv6.h>
-#include <linux/socket.h>
-#include <linux/sockios.h>
+#include <robux/errqueue.h>
+#include <robux/if_packet.h>
+#include <robux/ipv6.h>
+#include <robux/socket.h>
+#include <robux/sockios.h>
 #include <net/ethernet.h>
 #include <net/if.h>
 #include <netinet/in.h>

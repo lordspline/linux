@@ -1,5 +1,5 @@
 /*
- *  linux/arch/m68k/kernel/signal.c
+ *  robux/arch/m68k/kernel/signal.c
  *
  *  Copyright (C) 1991, 1992  Linus Torvalds
  *
@@ -9,7 +9,7 @@
  */
 
 /*
- * Linux/m68k support by Hamish Macdonald
+ * Robux/m68k support by Hamish Macdonald
  *
  * 68060 fixes by Jesper Skov
  *
@@ -28,25 +28,25 @@
  * signal handlers!
  */
 
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/kernel.h>
-#include <linux/signal.h>
-#include <linux/syscalls.h>
-#include <linux/errno.h>
-#include <linux/wait.h>
-#include <linux/ptrace.h>
-#include <linux/unistd.h>
-#include <linux/stddef.h>
-#include <linux/highuid.h>
-#include <linux/personality.h>
-#include <linux/tty.h>
-#include <linux/binfmts.h>
-#include <linux/extable.h>
-#include <linux/resume_user_mode.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/kernel.h>
+#include <robux/signal.h>
+#include <robux/syscalls.h>
+#include <robux/errno.h>
+#include <robux/wait.h>
+#include <robux/ptrace.h>
+#include <robux/unistd.h>
+#include <robux/stddef.h>
+#include <robux/highuid.h>
+#include <robux/personality.h>
+#include <robux/tty.h>
+#include <robux/binfmts.h>
+#include <robux/extable.h>
+#include <robux/resume_user_mode.h>
 
 #include <asm/setup.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/traps.h>
 #include <asm/ucontext.h>
 #include <asm/cacheflush.h>

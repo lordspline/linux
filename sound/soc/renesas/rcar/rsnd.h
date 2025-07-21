@@ -8,15 +8,15 @@
 #ifndef RSND_H
 #define RSND_H
 
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/sh_dma.h>
-#include <linux/workqueue.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/io.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/sh_dma.h>
+#include <robux/workqueue.h>
 #include <sound/soc.h>
 #include <sound/pcm_params.h>
 

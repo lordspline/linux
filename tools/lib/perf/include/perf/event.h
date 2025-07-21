@@ -2,10 +2,10 @@
 #ifndef __LIBPERF_EVENT_H
 #define __LIBPERF_EVENT_H
 
-#include <linux/perf_event.h>
-#include <linux/types.h>
-#include <linux/limits.h>
-#include <linux/bpf.h>
+#include <robux/perf_event.h>
+#include <robux/types.h>
+#include <robux/limits.h>
+#include <robux/bpf.h>
 #include <sys/types.h> /* pid_t */
 
 #define event_contains(obj, mem) ((obj).header.size > offsetof(typeof(obj), mem))

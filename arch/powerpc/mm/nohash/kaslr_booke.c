@@ -2,20 +2,20 @@
 //
 // Copyright (C) 2019 Jason Yan <yanaijie@huawei.com>
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/stddef.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/memblock.h>
-#include <linux/libfdt.h>
-#include <linux/crash_reserve.h>
-#include <linux/of.h>
-#include <linux/of_fdt.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/swap.h>
+#include <robux/stddef.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/memblock.h>
+#include <robux/libfdt.h>
+#include <robux/crash_reserve.h>
+#include <robux/of.h>
+#include <robux/of_fdt.h>
 #include <asm/cacheflush.h>
 #include <asm/kdump.h>
 #include <mm/mmu_decl.h>
@@ -201,12 +201,12 @@ static void __init get_initrd_range(void *fdt)
 	if (node < 0)
 		return;
 
-	prop = fdt_getprop(fdt, node, "linux,initrd-start", &len);
+	prop = fdt_getprop(fdt, node, "robux,initrd-start", &len);
 	if (!prop)
 		return;
 	start = of_read_number(prop, len / 4);
 
-	prop = fdt_getprop(fdt, node, "linux,initrd-end", &len);
+	prop = fdt_getprop(fdt, node, "robux,initrd-end", &len);
 	if (!prop)
 		return;
 	end = of_read_number(prop, len / 4);

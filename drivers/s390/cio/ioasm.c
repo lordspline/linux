@@ -3,7 +3,7 @@
  * Channel subsystem I/O instructions.
  */
 
-#include <linux/export.h>
+#include <robux/export.h>
 
 #include <asm/asm-extable.h>
 #include <asm/chpid.h>

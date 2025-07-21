@@ -4,7 +4,7 @@
 #ifndef _FBNIC_HW_STATS_H_
 #define _FBNIC_HW_STATS_H_
 
-#include <linux/ethtool.h>
+#include <robux/ethtool.h>
 
 #include "fbnic_csr.h"
 

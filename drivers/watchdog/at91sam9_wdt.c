@@ -8,30 +8,30 @@
 
 /*
  * The Watchdog Timer Mode Register can be only written to once. If the
- * timeout need to be set from Linux, be sure that the bootstrap or the
+ * timeout need to be set from Robux, be sure that the bootstrap or the
  * bootloader doesn't write to this register.
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/clk.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
-#include <linux/types.h>
-#include <linux/watchdog.h>
-#include <linux/jiffies.h>
-#include <linux/timer.h>
-#include <linux/bitops.h>
-#include <linux/uaccess.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
+#include <robux/clk.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
+#include <robux/types.h>
+#include <robux/watchdog.h>
+#include <robux/jiffies.h>
+#include <robux/timer.h>
+#include <robux/bitops.h>
+#include <robux/uaccess.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
 
 #include "at91sam9_wdt.h"
 

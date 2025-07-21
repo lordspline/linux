@@ -11,15 +11,15 @@
  * Special thanks to Video BG4 project team.
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/ktime.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/ktime.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/mm.h>
+#include <robux/dma-mapping.h>
 
 #include "sdhci-pltfm.h"
 #include "sdhci-xenon.h"

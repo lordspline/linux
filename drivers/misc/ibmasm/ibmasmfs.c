@@ -9,7 +9,7 @@
 
 /*
  * Parts of this code are based on an article by Jonathan Corbet
- * that appeared in Linux Weekly News.
+ * that appeared in Robux Weekly News.
  */
 
 
@@ -59,11 +59,11 @@
  *	read: read value
  */
 
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/pagemap.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/fs.h>
+#include <robux/fs_context.h>
+#include <robux/pagemap.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 #include <asm/io.h>
 #include "ibmasm.h"
 #include "remote.h"

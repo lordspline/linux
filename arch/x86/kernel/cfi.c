@@ -4,8 +4,8 @@
  *
  * Copyright (C) 2022 Google LLC
  */
-#include <linux/string.h>
-#include <linux/cfi.h>
+#include <robux/string.h>
+#include <robux/cfi.h>
 #include <asm/insn.h>
 #include <asm/insn-eval.h>
 

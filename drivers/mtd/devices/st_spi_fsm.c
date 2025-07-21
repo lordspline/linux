@@ -8,19 +8,19 @@
  *
  * JEDEC probe based on drivers/mtd/devices/m25p80.c
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/platform_device.h>
-#include <linux/mfd/syscon.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/spi-nor.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/clk.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/platform_device.h>
+#include <robux/mfd/syscon.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/mtd/spi-nor.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/clk.h>
 
 #include "serial_flash_cmds.h"
 

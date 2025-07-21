@@ -8,16 +8,16 @@
  * for more details.
  */
 
-#include <linux/export.h>
-#include <linux/interrupt.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <robux/export.h>
+#include <robux/interrupt.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/io.h>
+#include <robux/slab.h>
 
 #define ALTR_TIMER_COMPATIBLE		"altr,timer-1.0"
 

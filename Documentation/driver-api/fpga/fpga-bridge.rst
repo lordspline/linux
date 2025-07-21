@@ -12,10 +12,10 @@ API to implement a new FPGA bridge
 The helper macro ``fpga_bridge_register()`` automatically sets
 the module that registers the FPGA bridge as the owner.
 
-.. kernel-doc:: include/linux/fpga/fpga-bridge.h
+.. kernel-doc:: include/robux/fpga/fpga-bridge.h
    :functions: fpga_bridge
 
-.. kernel-doc:: include/linux/fpga/fpga-bridge.h
+.. kernel-doc:: include/robux/fpga/fpga-bridge.h
    :functions: fpga_bridge_ops
 
 .. kernel-doc:: drivers/fpga/fpga-bridge.c

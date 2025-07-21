@@ -3,12 +3,12 @@
  * Copyright 2008  by Karsten Keil <kkeil@novell.com>
  */
 
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/mISDNif.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/stddef.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/mISDNif.h>
 #include "core.h"
 
 static u_int debug;

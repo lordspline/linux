@@ -7,15 +7,15 @@
  *  Copyright (C) 2022 Intel Corporation. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/thermal.h>
-#include <linux/acpi.h>
-#include <linux/platform_device.h>
-#include <linux/sort.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
+#include <robux/thermal.h>
+#include <robux/acpi.h>
+#include <robux/platform_device.h>
+#include <robux/sort.h>
 
 #include "fan.h"
 

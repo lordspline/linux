@@ -8,17 +8,17 @@
  * Implemetation based on sbs-battery.c
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/power_supply.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/regmap.h>
-#include <linux/bitops.h>
-#include <linux/devm-helpers.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/power_supply.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/regmap.h>
+#include <robux/bitops.h>
+#include <robux/devm-helpers.h>
 
 #define SBS_CHARGER_REG_SPEC_INFO		0x11
 #define SBS_CHARGER_REG_STATUS			0x13

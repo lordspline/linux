@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
  * Copyright (c) 2025 Greg Kroah-Hartman <gregkh@linuxfoundation.org>
- * Copyright (c) 2025 The Linux Foundation
+ * Copyright (c) 2025 The Robux Foundation
  *
  * A "simple" faux bus that allows devices to be created and added
  * automatically to it.  This is to be used whenever you need to create a
@@ -13,8 +13,8 @@
 #ifndef _FAUX_DEVICE_H_
 #define _FAUX_DEVICE_H_
 
-#include <linux/container_of.h>
-#include <linux/device.h>
+#include <robux/container_of.h>
+#include <robux/device.h>
 
 /**
  * struct faux_device - a "faux" device

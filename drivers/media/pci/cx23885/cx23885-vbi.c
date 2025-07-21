@@ -7,10 +7,10 @@
 
 #include "cx23885.h"
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
 
 static unsigned int vbibufs = 4;
 module_param(vbibufs, int, 0644);

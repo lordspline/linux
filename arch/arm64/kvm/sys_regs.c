@@ -9,15 +9,15 @@
  *          Christoffer Dall <c.dall@virtualopensystems.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bsearch.h>
-#include <linux/cacheinfo.h>
-#include <linux/debugfs.h>
-#include <linux/kvm_host.h>
-#include <linux/mm.h>
-#include <linux/printk.h>
-#include <linux/uaccess.h>
-#include <linux/irqchip/arm-gic-v3.h>
+#include <robux/bitfield.h>
+#include <robux/bsearch.h>
+#include <robux/cacheinfo.h>
+#include <robux/debugfs.h>
+#include <robux/kvm_host.h>
+#include <robux/mm.h>
+#include <robux/printk.h>
+#include <robux/uaccess.h>
+#include <robux/irqchip/arm-gic-v3.h>
 
 #include <asm/arm_pmuv3.h>
 #include <asm/cacheflush.h>

@@ -6,11 +6,11 @@
  * Copyright (C) 2018 Google LLC
  */
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <crypto/algapi.h>
 #include <crypto/chacha.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/module.h>
+#include <robux/module.h>
 
 struct chacha_ctx {
 	u32 key[8];

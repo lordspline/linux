@@ -8,16 +8,16 @@
  * by Alessandro Zummo <a.zummo@towertech.it>.
  */
 
-#include <linux/bcd.h>
-#include <linux/bitfield.h>
-#include <linux/clk-provider.h>
-#include <linux/err.h>
-#include <linux/hwmon.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
+#include <robux/bcd.h>
+#include <robux/bitfield.h>
+#include <robux/clk-provider.h>
+#include <robux/err.h>
+#include <robux/hwmon.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
 
 #include <asm/byteorder.h>
 

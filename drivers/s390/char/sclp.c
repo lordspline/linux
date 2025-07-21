@@ -8,17 +8,17 @@
  *	      Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
 
-#include <linux/kernel_stat.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/panic_notifier.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/timer.h>
-#include <linux/reboot.h>
-#include <linux/jiffies.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
+#include <robux/kernel_stat.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/panic_notifier.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/timer.h>
+#include <robux/reboot.h>
+#include <robux/jiffies.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
 #include <asm/types.h>
 #include <asm/irq.h>
 #include <asm/debug.h>

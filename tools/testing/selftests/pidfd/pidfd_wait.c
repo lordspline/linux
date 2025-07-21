@@ -2,8 +2,8 @@
 
 #define _GNU_SOURCE
 #include <errno.h>
-#include <linux/sched.h>
-#include <linux/types.h>
+#include <robux/sched.h>
+#include <robux/types.h>
 #include <signal.h>
 #include <stdint.h>
 #include <stdio.h>

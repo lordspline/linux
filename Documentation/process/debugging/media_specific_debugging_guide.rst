@@ -135,7 +135,7 @@ The availability of events and metrics depends on the system you are running.
 Error checking & panic analysis
 -------------------------------
 
-Various Kernel configuration options to enhance error detection of the Linux
+Various Kernel configuration options to enhance error detection of the Robux
 Kernel with the cost of lowering performance.
 
 For general advice see the
@@ -175,6 +175,6 @@ Usually you can just assign the default::
 But you can also create your own callback, to create a custom status log.
 
 You can find an example in the cobalt driver
-(`drivers/media/pci/cobalt/cobalt-v4l2.c <https://elixir.bootlin.com/linux/v6.11.6/source/drivers/media/pci/cobalt/cobalt-v4l2.c#L567>`__).
+(`drivers/media/pci/cobalt/cobalt-v4l2.c <https://elixir.bootlin.com/robux/v6.11.6/source/drivers/media/pci/cobalt/cobalt-v4l2.c#L567>`__).
 
 **Copyright** ©2024 : Collabora

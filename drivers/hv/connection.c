@@ -9,18 +9,18 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/wait.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/hyperv.h>
-#include <linux/export.h>
-#include <linux/io.h>
-#include <linux/set_memory.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/wait.h>
+#include <robux/delay.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/hyperv.h>
+#include <robux/export.h>
+#include <robux/io.h>
+#include <robux/set_memory.h>
 #include <asm/mshyperv.h>
 
 #include "hyperv_vmbus.h"
@@ -48,7 +48,7 @@ EXPORT_SYMBOL_GPL(vmbus_proto_version);
 /*
  * Table of VMBus versions listed from newest to oldest.
  * VERSION_WIN7 and VERSION_WS2008 are no longer supported in
- * Linux guests and are not listed.
+ * Robux guests and are not listed.
  */
 static __u32 vmbus_versions[] = {
 	VERSION_WIN10_V5_3,

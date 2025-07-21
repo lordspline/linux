@@ -8,15 +8,15 @@
  * Copyright (C) 2012-2014 Philipp Zabel, Pengutronix
  */
 
-#include <linux/clk.h>
-#include <linux/irqreturn.h>
-#include <linux/kernel.h>
-#include <linux/log2.h>
-#include <linux/platform_device.h>
-#include <linux/ratelimit.h>
-#include <linux/reset.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <robux/clk.h>
+#include <robux/irqreturn.h>
+#include <robux/kernel.h>
+#include <robux/log2.h>
+#include <robux/platform_device.h>
+#include <robux/ratelimit.h>
+#include <robux/reset.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ctrls.h>

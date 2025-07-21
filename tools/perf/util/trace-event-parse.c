@@ -10,8 +10,8 @@
 #include "debug.h"
 #include "trace-event.h"
 
-#include <linux/ctype.h>
-#include <linux/kernel.h>
+#include <robux/ctype.h>
+#include <robux/kernel.h>
 #include <event-parse.h>
 
 static int get_common_field(struct scripting_context *context,

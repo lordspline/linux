@@ -5,7 +5,7 @@
 #include <asm/rmwcc.h>
 #include <asm/percpu.h>
 
-#include <linux/static_call_types.h>
+#include <robux/static_call_types.h>
 
 DECLARE_PER_CPU_CACHE_HOT(int, __preempt_count);
 

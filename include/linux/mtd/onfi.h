@@ -10,8 +10,8 @@
 #ifndef __LINUX_MTD_ONFI_H
 #define __LINUX_MTD_ONFI_H
 
-#include <linux/types.h>
-#include <linux/bitfield.h>
+#include <robux/types.h>
+#include <robux/bitfield.h>
 
 /* ONFI version bits */
 #define ONFI_VERSION_1_0		BIT(1)

@@ -4,9 +4,9 @@
  * Copyright (C) Sunplus Tech / Tibbo Tech.
  */
 
-#include <linux/gpio/driver.h>
-#include <linux/kernel.h>
-#include <linux/pinctrl/pinctrl.h>
+#include <robux/gpio/driver.h>
+#include <robux/kernel.h>
+#include <robux/pinctrl/pinctrl.h>
 
 #include "sppctl.h"
 

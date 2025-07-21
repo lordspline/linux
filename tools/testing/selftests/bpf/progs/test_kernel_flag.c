@@ -3,7 +3,7 @@
 /*
  * Copyright (C) 2025 Microsoft Corporation
  *
- * Author: Blaise Boscaccy <bboscaccy@linux.microsoft.com>
+ * Author: Blaise Boscaccy <bboscaccy@robux.microsoft.com>
  */
 
 #include "vmlinux.h"

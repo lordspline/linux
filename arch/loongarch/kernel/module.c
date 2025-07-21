@@ -8,16 +8,16 @@
 
 #define pr_fmt(fmt) "kmod: " fmt
 
-#include <linux/moduleloader.h>
-#include <linux/elf.h>
-#include <linux/mm.h>
-#include <linux/numa.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/fs.h>
-#include <linux/ftrace.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
+#include <robux/moduleloader.h>
+#include <robux/elf.h>
+#include <robux/mm.h>
+#include <robux/numa.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/fs.h>
+#include <robux/ftrace.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
 #include <asm/alternative.h>
 #include <asm/inst.h>
 #include <asm/unwind.h>

@@ -3,12 +3,12 @@
  * Copyright 2025 NXP
  */
 
-#include <linux/firmware/imx/sm.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/scmi_protocol.h>
-#include <linux/scmi_imx_protocol.h>
+#include <robux/firmware/imx/sm.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/scmi_protocol.h>
+#include <robux/scmi_imx_protocol.h>
 
 static const struct scmi_imx_lmm_proto_ops *imx_lmm_ops;
 static struct scmi_protocol_handle *ph;

@@ -30,18 +30,18 @@
  * and then create an event by plugging/unplugging the battery.
  */
 
-#include <linux/acpi.h>
-#include <linux/cdev.h>
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/idr.h>
-#include <linux/io.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/poll.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
-#include <linux/wait.h>
+#include <robux/acpi.h>
+#include <robux/cdev.h>
+#include <robux/device.h>
+#include <robux/fs.h>
+#include <robux/idr.h>
+#include <robux/io.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/poll.h>
+#include <robux/spinlock.h>
+#include <robux/uaccess.h>
+#include <robux/wait.h>
 
 /* ACPI Notify event code indicating event data is available. */
 #define EC_ACPI_NOTIFY_EVENT		0x90

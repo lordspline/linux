@@ -7,26 +7,26 @@
  *
  * (C) Copyright IBM Corp. 2013
  *
- * Author: Frank Haverkamp <haver@linux.vnet.ibm.com>
+ * Author: Frank Haverkamp <haver@robux.vnet.ibm.com>
  * Author: Joerg-Stephan Vogt <jsvogt@de.ibm.com>
  * Author: Michael Jung <mijung@gmx.net>
  * Author: Michael Ruettger <michael@ibmra.de>
  */
 
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/cdev.h>
-#include <linux/list.h>
-#include <linux/kthread.h>
-#include <linux/scatterlist.h>
-#include <linux/iommu.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/printk.h>
+#include <robux/types.h>
+#include <robux/stddef.h>
+#include <robux/cdev.h>
+#include <robux/list.h>
+#include <robux/kthread.h>
+#include <robux/scatterlist.h>
+#include <robux/iommu.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/printk.h>
 
 #include <asm/byteorder.h>
-#include <linux/genwqe/genwqe_card.h>
+#include <robux/genwqe/genwqe_card.h>
 
 #define DRV_VERSION		"2.0.25"
 

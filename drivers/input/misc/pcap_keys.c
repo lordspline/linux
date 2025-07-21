@@ -7,12 +7,12 @@
  *  Copyright (c) 2008,2009 Ilya Petrov <ilya.muromec@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/input.h>
-#include <linux/mfd/ezx-pcap.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/input.h>
+#include <robux/mfd/ezx-pcap.h>
+#include <robux/slab.h>
 
 struct pcap_keys {
 	struct pcap_chip *pcap;

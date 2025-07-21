@@ -1,20 +1,20 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/char/ds1620.c: Dallas Semiconductors DS1620
+ * robux/drivers/char/ds1620.c: Dallas Semiconductors DS1620
  *   thermometer driver (as used in the Rebel.com NetWinder)
  */
-#include <linux/module.h>
-#include <linux/miscdevice.h>
-#include <linux/delay.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/capability.h>
-#include <linux/init.h>
-#include <linux/mutex.h>
+#include <robux/module.h>
+#include <robux/miscdevice.h>
+#include <robux/delay.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/capability.h>
+#include <robux/init.h>
+#include <robux/mutex.h>
 
 #include <mach/hardware.h>
 #include <asm/mach-types.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/therm.h>
 
 #ifdef CONFIG_PROC_FS

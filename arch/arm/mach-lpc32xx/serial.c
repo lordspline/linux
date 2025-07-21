@@ -7,15 +7,15 @@
  * Copyright (C) 2010 NXP Semiconductors
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/serial.h>
-#include <linux/serial_core.h>
-#include <linux/serial_reg.h>
-#include <linux/serial_8250.h>
-#include <linux/clk.h>
-#include <linux/io.h>
-#include <linux/soc/nxp/lpc32xx-misc.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/serial.h>
+#include <robux/serial_core.h>
+#include <robux/serial_reg.h>
+#include <robux/serial_8250.h>
+#include <robux/clk.h>
+#include <robux/io.h>
+#include <robux/soc/nxp/lpc32xx-misc.h>
 
 #include "lpc32xx.h"
 #include "common.h"

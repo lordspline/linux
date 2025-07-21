@@ -11,7 +11,7 @@
 #ifndef _LINUX_PREFETCH_H
 #define _LINUX_PREFETCH_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include <asm/processor.h>
 #include <asm/cache.h>
 

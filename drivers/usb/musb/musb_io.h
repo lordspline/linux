@@ -10,7 +10,7 @@
 #ifndef __MUSB_LINUX_PLATFORM_ARCH_H__
 #define __MUSB_LINUX_PLATFORM_ARCH_H__
 
-#include <linux/io.h>
+#include <robux/io.h>
 
 #define musb_ep_select(_mbase, _epnum)	musb->io.ep_select((_mbase), (_epnum))
 

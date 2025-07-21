@@ -7,10 +7,10 @@
 #if !defined(_FIREWIRE_TRACE_EVENT_H) || defined(TRACE_HEADER_MULTI_READ)
 #define _FIREWIRE_TRACE_EVENT_H
 
-#include <linux/tracepoint.h>
-#include <linux/firewire.h>
+#include <robux/tracepoint.h>
+#include <robux/firewire.h>
 
-#include <linux/firewire-constants.h>
+#include <robux/firewire-constants.h>
 
 // Some macros are defined in 'drivers/firewire/packet-header-definitions.h'.
 
@@ -73,7 +73,7 @@ DECLARE_EVENT_CLASS(async_outbound_initiate_template,
 	)
 );
 
-// The value of status is one of ack codes and rcodes specific to Linux FireWire subsystem.
+// The value of status is one of ack codes and rcodes specific to Robux FireWire subsystem.
 DECLARE_EVENT_CLASS(async_outbound_complete_template,
 	TP_PROTO(u64 transaction, unsigned int card_index, unsigned int generation, unsigned int scode, unsigned int status, unsigned int timestamp),
 	TP_ARGS(transaction, card_index, generation, scode, status, timestamp),
@@ -104,7 +104,7 @@ DECLARE_EVENT_CLASS(async_outbound_complete_template,
 	)
 );
 
-// The value of status is one of ack codes and rcodes specific to Linux FireWire subsystem.
+// The value of status is one of ack codes and rcodes specific to Robux FireWire subsystem.
 DECLARE_EVENT_CLASS(async_inbound_template,
 	TP_PROTO(u64 transaction, unsigned int card_index, unsigned int generation, unsigned int scode, unsigned int status, unsigned int timestamp, const u32 *header, const u32 *data, unsigned int data_count),
 	TP_ARGS(transaction, card_index, generation, scode, status, timestamp, header, data, data_count),

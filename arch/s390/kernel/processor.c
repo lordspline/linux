@@ -7,18 +7,18 @@
 #define KMSG_COMPONENT "cpu"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/stop_machine.h>
-#include <linux/cpufeature.h>
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/random.h>
-#include <linux/sched/mm.h>
-#include <linux/init.h>
-#include <linux/seq_file.h>
-#include <linux/mm_types.h>
-#include <linux/delay.h>
-#include <linux/cpu.h>
-#include <linux/smp.h>
+#include <robux/stop_machine.h>
+#include <robux/cpufeature.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/random.h>
+#include <robux/sched/mm.h>
+#include <robux/init.h>
+#include <robux/seq_file.h>
+#include <robux/mm_types.h>
+#include <robux/delay.h>
+#include <robux/cpu.h>
+#include <robux/smp.h>
 #include <asm/text-patching.h>
 #include <asm/machine.h>
 #include <asm/diag.h>

@@ -6,15 +6,15 @@
  *
  *  Copyright IBM Corp. 2016
  *
- *  Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ *  Author(s):  Ursula Braun <ubraun@robux.vnet.ibm.com>
  */
 
 #ifndef _SMC_CORE_H
 #define _SMC_CORE_H
 
-#include <linux/atomic.h>
-#include <linux/smc.h>
-#include <linux/pci.h>
+#include <robux/atomic.h>
+#include <robux/smc.h>
+#include <robux/pci.h>
 #include <rdma/ib_verbs.h>
 #include <net/genetlink.h>
 #include <net/smc.h>

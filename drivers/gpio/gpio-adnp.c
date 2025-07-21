@@ -3,16 +3,16 @@
  * Copyright (C) 2011-2012 Avionic Design GmbH
  */
 
-#include <linux/cleanup.h>
-#include <linux/gpio/driver.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
+#include <robux/cleanup.h>
+#include <robux/gpio/driver.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
 
 #define GPIO_DDR(gpio) (0x00 << (gpio)->reg_shift)
 #define GPIO_PLR(gpio) (0x01 << (gpio)->reg_shift)

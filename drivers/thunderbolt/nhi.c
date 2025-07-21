@@ -9,17 +9,17 @@
  * Copyright (C) 2018, Intel Corporation
  */
 
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/interrupt.h>
-#include <linux/iommu.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/property.h>
-#include <linux/string_helpers.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/interrupt.h>
+#include <robux/iommu.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/property.h>
+#include <robux/string_helpers.h>
 
 #include "nhi.h"
 #include "nhi_regs.h"

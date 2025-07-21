@@ -6,17 +6,17 @@
  * Copyright (C) 2006-2016 Oracle Corporation
  */
 
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
-#include <linux/vbox_err.h>
-#include <linux/vbox_utils.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/module.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/vmalloc.h>
+#include <robux/vbox_err.h>
+#include <robux/vbox_utils.h>
 #include "vboxguest_core.h"
 
 /* Get the pointer to the first parameter of a HGCM call request. */

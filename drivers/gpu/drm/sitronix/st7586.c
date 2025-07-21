@@ -5,11 +5,11 @@
  * Copyright 2017 David Lechner <david@lechnology.com>
  */
 
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/spi/spi.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/spi/spi.h>
 #include <video/mipi_display.h>
 
 #include <drm/clients/drm_client_setup.h>

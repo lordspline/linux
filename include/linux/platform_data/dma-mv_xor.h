@@ -6,8 +6,8 @@
 #ifndef __DMA_MV_XOR_H
 #define __DMA_MV_XOR_H
 
-#include <linux/dmaengine.h>
-#include <linux/mbus.h>
+#include <robux/dmaengine.h>
+#include <robux/mbus.h>
 
 #define MV_XOR_NAME	"mv_xor"
 

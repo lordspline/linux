@@ -3,17 +3,17 @@
  * Copyright 2011 Paul Mackerras, IBM Corp. <paulus@au1.ibm.com>
  */
 
-#include <linux/cpu.h>
-#include <linux/kvm_host.h>
-#include <linux/preempt.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/spinlock.h>
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/sizes.h>
-#include <linux/cma.h>
-#include <linux/bitops.h>
+#include <robux/cpu.h>
+#include <robux/kvm_host.h>
+#include <robux/preempt.h>
+#include <robux/export.h>
+#include <robux/sched.h>
+#include <robux/spinlock.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
+#include <robux/sizes.h>
+#include <robux/cma.h>
+#include <robux/bitops.h>
 
 #include <asm/cputable.h>
 #include <asm/interrupt.h>

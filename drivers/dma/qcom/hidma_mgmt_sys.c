@@ -2,11 +2,11 @@
 /*
  * Qualcomm Technologies HIDMA Management SYS interface
  *
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/sysfs.h>
-#include <linux/platform_device.h>
+#include <robux/sysfs.h>
+#include <robux/platform_device.h>
 
 #include "hidma_mgmt.h"
 

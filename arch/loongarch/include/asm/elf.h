@@ -5,9 +5,9 @@
 #ifndef _ASM_ELF_H
 #define _ASM_ELF_H
 
-#include <linux/auxvec.h>
-#include <linux/fs.h>
-#include <uapi/linux/elf.h>
+#include <robux/auxvec.h>
+#include <robux/fs.h>
+#include <uapi/robux/elf.h>
 
 #include <asm/current.h>
 #include <asm/vdso.h>

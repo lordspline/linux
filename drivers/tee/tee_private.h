@@ -5,12 +5,12 @@
 #ifndef TEE_PRIVATE_H
 #define TEE_PRIVATE_H
 
-#include <linux/cdev.h>
-#include <linux/completion.h>
-#include <linux/device.h>
-#include <linux/kref.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <robux/cdev.h>
+#include <robux/completion.h>
+#include <robux/device.h>
+#include <robux/kref.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
 
 int tee_shm_get_fd(struct tee_shm *shm);
 

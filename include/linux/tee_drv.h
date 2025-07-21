@@ -6,12 +6,12 @@
 #ifndef __TEE_DRV_H
 #define __TEE_DRV_H
 
-#include <linux/device.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/tee.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/mod_devicetable.h>
+#include <robux/tee.h>
+#include <robux/types.h>
 
 /*
  * The file describes the API provided by the TEE subsystem to the

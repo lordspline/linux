@@ -7,12 +7,12 @@
 #ifndef __ASM_SIMD_H
 #define __ASM_SIMD_H
 
-#include <linux/compiler.h>
-#include <linux/irqflags.h>
-#include <linux/percpu.h>
-#include <linux/preempt.h>
-#include <linux/types.h>
-#include <linux/thread_info.h>
+#include <robux/compiler.h>
+#include <robux/irqflags.h>
+#include <robux/percpu.h>
+#include <robux/preempt.h>
+#include <robux/types.h>
+#include <robux/thread_info.h>
 
 #include <asm/vector.h>
 

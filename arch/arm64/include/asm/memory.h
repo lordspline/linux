@@ -10,8 +10,8 @@
 #ifndef __ASM_MEMORY_H
 #define __ASM_MEMORY_H
 
-#include <linux/const.h>
-#include <linux/sizes.h>
+#include <robux/const.h>
+#include <robux/sizes.h>
 #include <asm/page-def.h>
 
 /*
@@ -213,10 +213,10 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/bitops.h>
-#include <linux/compiler.h>
-#include <linux/mmdebug.h>
-#include <linux/types.h>
+#include <robux/bitops.h>
+#include <robux/compiler.h>
+#include <robux/mmdebug.h>
+#include <robux/types.h>
 #include <asm/boot.h>
 #include <asm/bug.h>
 #include <asm/sections.h>

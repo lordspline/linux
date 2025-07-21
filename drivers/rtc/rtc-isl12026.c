@@ -4,15 +4,15 @@
  *
  * Copyright (c) 2018 Cavium, Inc.
  */
-#include <linux/bcd.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
+#include <robux/bcd.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
 
 /* register offsets */
 #define ISL12026_REG_PWR	0x14

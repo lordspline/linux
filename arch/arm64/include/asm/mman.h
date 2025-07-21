@@ -5,11 +5,11 @@
 #include <uapi/asm/mman.h>
 
 #ifndef BUILD_VDSO
-#include <linux/compiler.h>
-#include <linux/fs.h>
-#include <linux/hugetlb.h>
-#include <linux/shmem_fs.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/fs.h>
+#include <robux/hugetlb.h>
+#include <robux/shmem_fs.h>
+#include <robux/types.h>
 
 static inline unsigned long arch_calc_vm_prot_bits(unsigned long prot,
 	unsigned long pkey)

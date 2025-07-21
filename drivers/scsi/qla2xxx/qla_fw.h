@@ -6,8 +6,8 @@
 #ifndef __QLA_FW_H
 #define __QLA_FW_H
 
-#include <linux/nvme.h>
-#include <linux/nvme-fc.h>
+#include <robux/nvme.h>
+#include <robux/nvme-fc.h>
 
 #include "qla_dsd.h"
 

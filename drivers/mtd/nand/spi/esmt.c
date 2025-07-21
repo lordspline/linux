@@ -5,10 +5,10 @@
  *	Martin Kurbanov <mmkurbanov@sberdevices.ru> - OOB layout
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mtd/spinand.h>
-#include <linux/spi/spi-mem.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/mtd/spinand.h>
+#include <robux/spi/spi-mem.h>
 
 /* ESMT uses GigaDevice 0xc8 JECDEC ID on some SPI NANDs */
 #define SPINAND_MFR_ESMT_C8			0xc8

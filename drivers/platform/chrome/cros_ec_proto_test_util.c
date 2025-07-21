@@ -5,10 +5,10 @@
 
 #include <kunit/test.h>
 
-#include <linux/list.h>
-#include <linux/minmax.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
+#include <robux/list.h>
+#include <robux/minmax.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
 
 #include "cros_ec.h"
 #include "cros_ec_proto_test_util.h"

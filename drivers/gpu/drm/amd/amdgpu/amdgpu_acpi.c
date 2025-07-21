@@ -22,14 +22,14 @@
  *
  */
 
-#include <linux/pci.h>
-#include <linux/acpi.h>
-#include <linux/backlight.h>
-#include <linux/slab.h>
-#include <linux/xarray.h>
-#include <linux/power_supply.h>
-#include <linux/pm_runtime.h>
-#include <linux/suspend.h>
+#include <robux/pci.h>
+#include <robux/acpi.h>
+#include <robux/backlight.h>
+#include <robux/slab.h>
+#include <robux/xarray.h>
+#include <robux/power_supply.h>
+#include <robux/pm_runtime.h>
+#include <robux/suspend.h>
 #include <acpi/video.h>
 #include <acpi/actbl.h>
 

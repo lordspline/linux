@@ -7,15 +7,15 @@
  * Author: Jianqun <jay.xu@rock-chips.com>
  */
 
-#include <linux/module.h>
-#include <linux/mfd/syscon.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/clk.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/spinlock.h>
+#include <robux/module.h>
+#include <robux/mfd/syscon.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/clk.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/spinlock.h>
 #include <sound/pcm_params.h>
 #include <sound/dmaengine_pcm.h>
 

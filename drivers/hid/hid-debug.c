@@ -16,17 +16,17 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/kfifo.h>
-#include <linux/sched/signal.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/poll.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/kfifo.h>
+#include <robux/sched/signal.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/poll.h>
 
-#include <linux/hid.h>
-#include <linux/hid-debug.h>
+#include <robux/hid.h>
+#include <robux/hid-debug.h>
 
 static struct dentry *hid_debug_root;
 

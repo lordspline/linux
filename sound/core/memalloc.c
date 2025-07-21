@@ -6,13 +6,13 @@
  *  Generic memory allocators
  */
 
-#include <linux/slab.h>
-#include <linux/mm.h>
-#include <linux/dma-mapping.h>
-#include <linux/dma-map-ops.h>
-#include <linux/genalloc.h>
-#include <linux/highmem.h>
-#include <linux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/mm.h>
+#include <robux/dma-mapping.h>
+#include <robux/dma-map-ops.h>
+#include <robux/genalloc.h>
+#include <robux/highmem.h>
+#include <robux/vmalloc.h>
 #ifdef CONFIG_X86
 #include <asm/set_memory.h>
 #endif

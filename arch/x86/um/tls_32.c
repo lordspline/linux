@@ -3,10 +3,10 @@
  * Licensed under the GPL
  */
 
-#include <linux/percpu.h>
-#include <linux/sched.h>
-#include <linux/syscalls.h>
-#include <linux/uaccess.h>
+#include <robux/percpu.h>
+#include <robux/sched.h>
+#include <robux/syscalls.h>
+#include <robux/uaccess.h>
 #include <asm/ptrace-abi.h>
 #include <os.h>
 #include <skas.h>

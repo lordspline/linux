@@ -8,12 +8,12 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/usb/composite.h>
-#include <linux/usb/g_hid.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/usb/composite.h>
+#include <robux/usb/g_hid.h>
 
 #define DRIVER_DESC		"HID Gadget"
 #define DRIVER_VERSION		"2010/03/16"
@@ -23,7 +23,7 @@
 /*-------------------------------------------------------------------------*/
 
 #define HIDG_VENDOR_NUM		0x0525	/* XXX NetChip */
-#define HIDG_PRODUCT_NUM	0xa4ac	/* Linux-USB HID gadget */
+#define HIDG_PRODUCT_NUM	0xa4ac	/* Robux-USB HID gadget */
 
 /*-------------------------------------------------------------------------*/
 

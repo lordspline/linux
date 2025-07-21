@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (C) 2023 Intel Corporation. All rights reserved.
- * Intel Visual Sensing Controller CSI Linux driver
+ * Intel Visual Sensing Controller CSI Robux driver
  */
 
 /*
@@ -12,19 +12,19 @@
  * up the caller. There can be only one outstanding command at a time.
  */
 
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/math64.h>
-#include <linux/mei_cl_bus.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/units.h>
-#include <linux/uuid.h>
-#include <linux/workqueue.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/math64.h>
+#include <robux/mei_cl_bus.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/units.h>
+#include <robux/uuid.h>
+#include <robux/workqueue.h>
 
 #include <media/ipu-bridge.h>
 #include <media/ipu6-pci-table.h>

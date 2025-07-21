@@ -5,13 +5,13 @@
  * (C) Copyright 2009, Steven King <sfking@fdwdc.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/gpio/driver.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/gpio/driver.h>
 
-#include <linux/io.h>
+#include <robux/io.h>
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>
 #include <asm/mcfgpio.h>

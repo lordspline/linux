@@ -4,14 +4,14 @@
  * Copyright (C) 2003 David S. Miller (davem@redhat.com)
  */
 
-#include <linux/compat.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/fb.h>
-#include <linux/mm.h>
-#include <linux/uaccess.h>
-#include <linux/of.h>
+#include <robux/compat.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/fb.h>
+#include <robux/mm.h>
+#include <robux/uaccess.h>
+#include <robux/of.h>
 
 #include <asm/fbio.h>
 

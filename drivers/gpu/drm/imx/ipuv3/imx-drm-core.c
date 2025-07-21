@@ -5,11 +5,11 @@
  * Copyright (C) 2011 Sascha Hauer, Pengutronix
  */
 
-#include <linux/component.h>
-#include <linux/device.h>
-#include <linux/dma-buf.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
+#include <robux/component.h>
+#include <robux/device.h>
+#include <robux/dma-buf.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
 
 #include <video/imx-ipu-v3.h>
 

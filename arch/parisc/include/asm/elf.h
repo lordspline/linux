@@ -6,7 +6,7 @@
  * ELF register definitions..
  */
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define EM_PARISC 15
 

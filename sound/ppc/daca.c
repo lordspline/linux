@@ -6,10 +6,10 @@
  */
 
 
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/kmod.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/kmod.h>
+#include <robux/slab.h>
 #include <sound/core.h>
 #include "pmac.h"
 

@@ -7,10 +7,10 @@
 #ifndef FWEH_H_
 #define FWEH_H_
 
-#include <linux/unaligned.h>
-#include <linux/skbuff.h>
-#include <linux/if_ether.h>
-#include <linux/if.h>
+#include <robux/unaligned.h>
+#include <robux/skbuff.h>
+#include <robux/if_ether.h>
+#include <robux/if.h>
 
 /* formward declarations */
 struct brcmf_pub;

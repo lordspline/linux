@@ -3,10 +3,10 @@
 // Copyright(c) 2021-2024 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@robux.intel.com>
 //
 
-#include <linux/sysfs.h>
+#include <robux/sysfs.h>
 #include "avs.h"
 
 static ssize_t fw_version_show(struct device *dev, struct device_attribute *attr, char *buf)

@@ -9,13 +9,13 @@
 
 #define pr_fmt(fmt) "punit_atom: " fmt
 
-#include <linux/acpi.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/io.h>
+#include <robux/acpi.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/io.h>
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>
 #include <asm/iosf_mbi.h>
@@ -202,6 +202,6 @@ module_init(punit_atom_debug_init);
 module_exit(punit_atom_debug_exit);
 
 MODULE_AUTHOR("Kumar P, Mahesh <mahesh.kumar.p@intel.com>");
-MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>");
+MODULE_AUTHOR("Srinivas Pandruvada <srinivas.pandruvada@robux.intel.com>");
 MODULE_DESCRIPTION("Driver for Punit devices states debugging");
 MODULE_LICENSE("GPL v2");

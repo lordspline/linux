@@ -10,13 +10,13 @@
 	Abstract: rt2x00 debugfs specific routines.
  */
 
-#include <linux/debugfs.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/poll.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/debugfs.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/poll.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 
 #include "rt2x00.h"
 #include "rt2x00lib.h"

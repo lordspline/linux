@@ -34,18 +34,18 @@
  *        always after h/w and remote ports.
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/platform_device.h>
-#include <linux/ioport.h>
-#include <linux/io.h>
-#include <linux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/platform_device.h>
+#include <robux/ioport.h>
+#include <robux/io.h>
+#include <robux/moduleparam.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/rawmidi.h>
-#include <linux/delay.h>
+#include <robux/delay.h>
 
 /*
  *      globals

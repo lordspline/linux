@@ -13,16 +13,16 @@
 #include <sound/pcm.h>
 #include "awacs.h"
 
-#include <linux/adb.h>
+#include <robux/adb.h>
 #ifdef CONFIG_ADB_CUDA
-#include <linux/cuda.h>
+#include <robux/cuda.h>
 #endif
 #ifdef CONFIG_ADB_PMU
-#include <linux/pmu.h>
+#include <robux/pmu.h>
 #endif
-#include <linux/nvram.h>
-#include <linux/tty.h>
-#include <linux/vt_kern.h>
+#include <robux/nvram.h>
+#include <robux/tty.h>
+#include <robux/vt_kern.h>
 #include <asm/dbdma.h>
 #include <asm/prom.h>
 #include <asm/machdep.h>

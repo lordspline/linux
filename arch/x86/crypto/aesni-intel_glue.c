@@ -17,10 +17,10 @@
  * Copyright 2024 Google LLC
  */
 
-#include <linux/hardirq.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/err.h>
+#include <robux/hardirq.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/err.h>
 #include <crypto/algapi.h>
 #include <crypto/aes.h>
 #include <crypto/b128ops.h>
@@ -32,10 +32,10 @@
 #include <crypto/internal/aead.h>
 #include <crypto/internal/simd.h>
 #include <crypto/internal/skcipher.h>
-#include <linux/jump_label.h>
-#include <linux/workqueue.h>
-#include <linux/spinlock.h>
-#include <linux/static_call.h>
+#include <robux/jump_label.h>
+#include <robux/workqueue.h>
+#include <robux/spinlock.h>
+#include <robux/static_call.h>
 
 
 #define AESNI_ALIGN	16

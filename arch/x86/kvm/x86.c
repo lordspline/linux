@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Kernel-based Virtual Machine driver for Linux
+ * Kernel-based Virtual Machine driver for Robux
  *
  * derived from drivers/kvm/kvm_main.c
  *
@@ -17,7 +17,7 @@
  */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kvm_host.h>
+#include <robux/kvm_host.h>
 #include "irq.h"
 #include "ioapic.h"
 #include "mmu.h"
@@ -34,34 +34,34 @@
 #include "xen.h"
 #include "smm.h"
 
-#include <linux/clocksource.h>
-#include <linux/interrupt.h>
-#include <linux/kvm.h>
-#include <linux/fs.h>
-#include <linux/vmalloc.h>
-#include <linux/export.h>
-#include <linux/moduleparam.h>
-#include <linux/mman.h>
-#include <linux/highmem.h>
-#include <linux/iommu.h>
-#include <linux/cpufreq.h>
-#include <linux/user-return-notifier.h>
-#include <linux/srcu.h>
-#include <linux/slab.h>
-#include <linux/perf_event.h>
-#include <linux/uaccess.h>
-#include <linux/hash.h>
-#include <linux/pci.h>
-#include <linux/timekeeper_internal.h>
-#include <linux/pvclock_gtod.h>
-#include <linux/kvm_irqfd.h>
-#include <linux/irqbypass.h>
-#include <linux/sched/stat.h>
-#include <linux/sched/isolation.h>
-#include <linux/mem_encrypt.h>
-#include <linux/entry-kvm.h>
-#include <linux/suspend.h>
-#include <linux/smp.h>
+#include <robux/clocksource.h>
+#include <robux/interrupt.h>
+#include <robux/kvm.h>
+#include <robux/fs.h>
+#include <robux/vmalloc.h>
+#include <robux/export.h>
+#include <robux/moduleparam.h>
+#include <robux/mman.h>
+#include <robux/highmem.h>
+#include <robux/iommu.h>
+#include <robux/cpufreq.h>
+#include <robux/user-return-notifier.h>
+#include <robux/srcu.h>
+#include <robux/slab.h>
+#include <robux/perf_event.h>
+#include <robux/uaccess.h>
+#include <robux/hash.h>
+#include <robux/pci.h>
+#include <robux/timekeeper_internal.h>
+#include <robux/pvclock_gtod.h>
+#include <robux/kvm_irqfd.h>
+#include <robux/irqbypass.h>
+#include <robux/sched/stat.h>
+#include <robux/sched/isolation.h>
+#include <robux/mem_encrypt.h>
+#include <robux/entry-kvm.h>
+#include <robux/suspend.h>
+#include <robux/smp.h>
 
 #include <trace/events/ipi.h>
 #include <trace/events/kvm.h>
@@ -71,7 +71,7 @@
 #include <asm/desc.h>
 #include <asm/mce.h>
 #include <asm/pkru.h>
-#include <linux/kernel_stat.h>
+#include <robux/kernel_stat.h>
 #include <asm/fpu/api.h>
 #include <asm/fpu/xcr.h>
 #include <asm/fpu/xstate.h>
@@ -3513,7 +3513,7 @@ static int set_msr_mce(struct kvm_vcpu *vcpu, struct msr_data *msr_info)
 
 		/*
 		 * Only 0 or all 1s can be written to IA32_MCi_CTL, all other
-		 * values are architecturally undefined.  But, some Linux
+		 * values are architecturally undefined.  But, some Robux
 		 * kernels clear bit 10 in bank 4 to workaround a BIOS/GART TLB
 		 * issue on AMD K8s, allow bit 10 to be clear when setting all
 		 * other bits in order to avoid an uncaught #GP in the guest.
@@ -3870,7 +3870,7 @@ int kvm_set_msr_common(struct kvm_vcpu *vcpu, struct msr_data *msr_info)
 		data &= ~(u64)0x8;	/* ignore TLB cache disable */
 
 		/*
-		 * Allow McStatusWrEn and TscFreqSel. (Linux guests from v3.2
+		 * Allow McStatusWrEn and TscFreqSel. (Robux guests from v3.2
 		 * through at least v6.6 whine if TscFreqSel is clear,
 		 * depending on F/M/S.
 		 */

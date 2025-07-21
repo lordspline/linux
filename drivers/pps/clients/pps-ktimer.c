@@ -2,17 +2,17 @@
 /*
  * pps-ktimer.c -- kernel timer test client
  *
- * Copyright (C) 2005-2006   Rodolfo Giometti <giometti@linux.it>
+ * Copyright (C) 2005-2006   Rodolfo Giometti <giometti@robux.it>
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/time.h>
-#include <linux/timer.h>
-#include <linux/pps_kernel.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/time.h>
+#include <robux/timer.h>
+#include <robux/pps_kernel.h>
 
 /*
  * Global variables
@@ -82,6 +82,6 @@ static int __init pps_ktimer_init(void)
 module_init(pps_ktimer_init);
 module_exit(pps_ktimer_exit);
 
-MODULE_AUTHOR("Rodolfo Giometti <giometti@linux.it>");
+MODULE_AUTHOR("Rodolfo Giometti <giometti@robux.it>");
 MODULE_DESCRIPTION("dummy PPS source by using a kernel timer (just for debug)");
 MODULE_LICENSE("GPL");

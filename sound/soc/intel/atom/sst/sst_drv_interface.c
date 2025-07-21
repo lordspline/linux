@@ -10,13 +10,13 @@
  *
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-#include <linux/delay.h>
-#include <linux/pci.h>
-#include <linux/fs.h>
-#include <linux/firmware.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_qos.h>
-#include <linux/math64.h>
+#include <robux/delay.h>
+#include <robux/pci.h>
+#include <robux/fs.h>
+#include <robux/firmware.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_qos.h>
+#include <robux/math64.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>

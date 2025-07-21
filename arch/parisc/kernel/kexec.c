@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/kernel.h>
-#include <linux/console.h>
-#include <linux/kexec.h>
-#include <linux/delay.h>
-#include <linux/reboot.h>
+#include <robux/kernel.h>
+#include <robux/console.h>
+#include <robux/kexec.h>
+#include <robux/delay.h>
+#include <robux/reboot.h>
 
 #include <asm/cacheflush.h>
 #include <asm/sections.h>

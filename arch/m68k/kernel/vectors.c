@@ -17,12 +17,12 @@
 /*
  * Sets up all exception vectors
  */
-#include <linux/cpu.h>
-#include <linux/sched.h>
-#include <linux/kernel.h>
-#include <linux/linkage.h>
-#include <linux/init.h>
-#include <linux/kallsyms.h>
+#include <robux/cpu.h>
+#include <robux/sched.h>
+#include <robux/kernel.h>
+#include <robux/linkage.h>
+#include <robux/init.h>
+#include <robux/kallsyms.h>
 
 #include <asm/setup.h>
 #include <asm/fpu.h>

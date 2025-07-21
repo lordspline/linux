@@ -14,13 +14,13 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/bitmap.h>
-#include <linux/build_bug.h>
-#include <linux/bug.h>
-#include <linux/cache.h>
-#include <linux/init.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <robux/bitmap.h>
+#include <robux/build_bug.h>
+#include <robux/bug.h>
+#include <robux/cache.h>
+#include <robux/init.h>
+#include <robux/stddef.h>
+#include <robux/types.h>
 
 /* Masks for extracting the FPSR and FPCR from the FPSCR */
 #define VFP_FPSCR_STAT_MASK	0xf800009f

@@ -3,19 +3,19 @@
 // pv88080-regulator.c - Regulator device driver for PV88080
 // Copyright (C) 2016  Powerventure Semiconductor Ltd.
 
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regmap.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/regulator/of_regulator.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regmap.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/regulator/of_regulator.h>
 #include "pv88080-regulator.h"
 
 #define PV88080_MAX_REGULATORS	4

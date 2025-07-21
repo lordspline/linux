@@ -5,25 +5,25 @@
  * Copyright 2012-2013 Analog Devices Inc.
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/spi/spi.h>
-#include <linux/regulator/consumer.h>
-#include <linux/err.h>
-#include <linux/gcd.h>
-#include <linux/gpio/consumer.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/spi/spi.h>
+#include <robux/regulator/consumer.h>
+#include <robux/err.h>
+#include <robux/gcd.h>
+#include <robux/gpio/consumer.h>
 #include <asm/div64.h>
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/sysfs.h>
-#include <linux/iio/frequency/adf4350.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/sysfs.h>
+#include <robux/iio/frequency/adf4350.h>
 
 enum {
 	ADF4350_FREQ,

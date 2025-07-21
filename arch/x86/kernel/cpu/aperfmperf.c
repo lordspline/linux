@@ -6,16 +6,16 @@
  * Copyright (C) 2017 Intel Corp.
  * Author: Len Brown <len.brown@intel.com>
  */
-#include <linux/cpufreq.h>
-#include <linux/delay.h>
-#include <linux/ktime.h>
-#include <linux/math64.h>
-#include <linux/percpu.h>
-#include <linux/rcupdate.h>
-#include <linux/sched/isolation.h>
-#include <linux/sched/topology.h>
-#include <linux/smp.h>
-#include <linux/syscore_ops.h>
+#include <robux/cpufreq.h>
+#include <robux/delay.h>
+#include <robux/ktime.h>
+#include <robux/math64.h>
+#include <robux/percpu.h>
+#include <robux/rcupdate.h>
+#include <robux/sched/isolation.h>
+#include <robux/sched/topology.h>
+#include <robux/smp.h>
+#include <robux/syscore_ops.h>
 
 #include <asm/cpu.h>
 #include <asm/cpu_device_id.h>

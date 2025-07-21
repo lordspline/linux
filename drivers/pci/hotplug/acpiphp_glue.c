@@ -27,16 +27,16 @@
 
 #define pr_fmt(fmt) "acpiphp_glue: " fmt
 
-#include <linux/module.h>
+#include <robux/module.h>
 
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/pci_hotplug.h>
-#include <linux/pci-acpi.h>
-#include <linux/pm_runtime.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/pci_hotplug.h>
+#include <robux/pci-acpi.h>
+#include <robux/pm_runtime.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
 
 #include "../pci.h"
 #include "acpiphp.h"

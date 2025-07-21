@@ -3,25 +3,25 @@
  * License.  See the file "COPYING" in the main directory of this archive
  * for more details.
  *
- * Copyright (C) 2008 Ralf Baechle (ralf@linux-mips.org)
+ * Copyright (C) 2008 Ralf Baechle (ralf@robux-mips.org)
  * Copyright (C) 2012 MIPS Technologies, Inc.  All rights reserved.
  */
 
 #define pr_fmt(fmt) "irq-mips-gic: " fmt
 
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/clocksource.h>
-#include <linux/cpuhotplug.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqdomain.h>
-#include <linux/of_address.h>
-#include <linux/percpu.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/clocksource.h>
+#include <robux/cpuhotplug.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqdomain.h>
+#include <robux/of_address.h>
+#include <robux/percpu.h>
+#include <robux/sched.h>
+#include <robux/smp.h>
 
 #include <asm/mips-cps.h>
 #include <asm/setup.h>
@@ -374,7 +374,7 @@ static int gic_set_affinity(struct irq_data *d, const struct cpumask *cpumask,
 
 	/*
 	 * The GIC specifies that we can only route an interrupt to one VP(E),
-	 * ie. CPU in Linux parlance, at a time. Therefore we always route to
+	 * ie. CPU in Robux parlance, at a time. Therefore we always route to
 	 * the first online CPU in the mask.
 	 */
 	cpu = cpumask_first_and(cpumask, cpu_online_mask);

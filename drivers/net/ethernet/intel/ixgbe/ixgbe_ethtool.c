@@ -3,16 +3,16 @@
 
 /* ethtool support for ixgbe */
 
-#include <linux/interrupt.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/vmalloc.h>
-#include <linux/highmem.h>
-#include <linux/uaccess.h>
+#include <robux/interrupt.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/vmalloc.h>
+#include <robux/highmem.h>
+#include <robux/uaccess.h>
 
 #include "ixgbe.h"
 #include "ixgbe_phy.h"

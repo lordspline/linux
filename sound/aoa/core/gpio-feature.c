@@ -9,8 +9,8 @@
  * registers.
  */
 
-#include <linux/of_irq.h>
-#include <linux/interrupt.h>
+#include <robux/of_irq.h>
+#include <robux/interrupt.h>
 #include <asm/pmac_feature.h>
 #include "../aoa.h"
 

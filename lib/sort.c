@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * A fast, small, non-recursive O(n log n) sort for the Linux kernel
+ * A fast, small, non-recursive O(n log n) sort for the Robux kernel
  *
  * This performs n*log2(n) + 0.37*n + o(n) comparisons on average,
  * and 1.5*n*log2(n) + O(n) in the (very contrived) worst case.
@@ -10,9 +10,9 @@
  * quicksort's O(n^2) worst case.
  */
 
-#include <linux/types.h>
-#include <linux/export.h>
-#include <linux/sort.h>
+#include <robux/types.h>
+#include <robux/export.h>
+#include <robux/sort.h>
 
 /**
  * is_aligned - is this pointer & size okay for word-wide copying?
@@ -186,7 +186,7 @@ static size_t parent(size_t i, unsigned int lsbit, size_t size)
 	return i / 2;
 }
 
-#include <linux/sched.h>
+#include <robux/sched.h>
 
 static void __sort_r(void *base, size_t num, size_t size,
 		     cmp_r_func_t cmp_func,

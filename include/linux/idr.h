@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-only */
 /*
- * include/linux/idr.h
+ * include/robux/idr.h
  * 
  * 2002-10-18  written by Jim Houston jim.houston@ccur.com
  *	Copyright (C) 2002 by Concurrent Computer Corporation
@@ -12,10 +12,10 @@
 #ifndef __IDR_H__
 #define __IDR_H__
 
-#include <linux/radix-tree.h>
-#include <linux/gfp.h>
-#include <linux/percpu.h>
-#include <linux/cleanup.h>
+#include <robux/radix-tree.h>
+#include <robux/gfp.h>
+#include <robux/percpu.h>
+#include <robux/cleanup.h>
 
 struct idr {
 	struct radix_tree_root	idr_rt;

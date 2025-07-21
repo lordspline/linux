@@ -2,9 +2,9 @@
 #ifndef _LINUX_AVERAGE_H
 #define _LINUX_AVERAGE_H
 
-#include <linux/bug.h>
-#include <linux/compiler.h>
-#include <linux/log2.h>
+#include <robux/bug.h>
+#include <robux/compiler.h>
+#include <robux/log2.h>
 
 /*
  * Exponentially weighted moving average (EWMA)

@@ -21,7 +21,7 @@
  *
  */
 
-#include <linux/pci.h>
+#include <robux/pci.h>
 
 #include "pp_debug.h"
 #include "smumgr.h"

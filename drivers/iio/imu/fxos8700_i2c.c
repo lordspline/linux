@@ -10,10 +10,10 @@
  *      1    |  0    |  0x1C
  *      1    |  1    |  0x1F
  */
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/regmap.h>
 
 #include "fxos8700.h"
 

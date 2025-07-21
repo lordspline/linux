@@ -12,8 +12,8 @@
 #include <kunit/device.h>
 #include <kunit/resource.h>
 
-#include <linux/device.h>
-#include <linux/platform_device.h>
+#include <robux/device.h>
+#include <robux/platform_device.h>
 
 #define KUNIT_DEVICE_NAME	"drm-kunit-mock-device"
 

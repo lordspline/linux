@@ -3,12 +3,12 @@
 // Copyright(c) 2021-2022 Intel Corporation
 //
 // Authors: Cezary Rojewski <cezary.rojewski@intel.com>
-//          Amadeusz Slawinski <amadeuszx.slawinski@linux.intel.com>
+//          Amadeusz Slawinski <amadeuszx.slawinski@robux.intel.com>
 //
 
-#include <linux/firmware.h>
-#include <linux/kfifo.h>
-#include <linux/slab.h>
+#include <robux/firmware.h>
+#include <robux/kfifo.h>
+#include <robux/slab.h>
 #include "avs.h"
 #include "messages.h"
 

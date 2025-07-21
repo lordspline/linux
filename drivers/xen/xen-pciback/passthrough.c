@@ -6,9 +6,9 @@
  *   Author: Ryan Wilson <hap9@epoch.ncsc.mil>
  */
 
-#include <linux/list.h>
-#include <linux/pci.h>
-#include <linux/mutex.h>
+#include <robux/list.h>
+#include <robux/pci.h>
+#include <robux/mutex.h>
 #include "pciback.h"
 
 struct passthrough_dev_data {

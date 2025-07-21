@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * linux/fs/lockd/svcproc.c
+ * robux/fs/lockd/svcproc.c
  *
  * Lockd server procedures. We don't implement the NLM_*_RES 
  * procedures because we don't use the async procedures.
@@ -8,11 +8,11 @@
  * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
  */
 
-#include <linux/types.h>
-#include <linux/time.h>
-#include <linux/lockd/lockd.h>
-#include <linux/lockd/share.h>
-#include <linux/sunrpc/svc_xprt.h>
+#include <robux/types.h>
+#include <robux/time.h>
+#include <robux/lockd/lockd.h>
+#include <robux/lockd/share.h>
+#include <robux/sunrpc/svc_xprt.h>
 
 #define NLMDBG_FACILITY		NLMDBG_CLIENT
 

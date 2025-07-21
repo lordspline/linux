@@ -6,8 +6,8 @@
 #ifndef __INTEL_EXECLISTS_SUBMISSION_H__
 #define __INTEL_EXECLISTS_SUBMISSION_H__
 
-#include <linux/llist.h>
-#include <linux/types.h>
+#include <robux/llist.h>
+#include <robux/types.h>
 
 struct drm_printer;
 

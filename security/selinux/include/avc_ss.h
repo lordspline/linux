@@ -8,7 +8,7 @@
 #ifndef _SELINUX_AVC_SS_H_
 #define _SELINUX_AVC_SS_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 int avc_ss_reset(u32 seqno);
 

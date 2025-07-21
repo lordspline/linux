@@ -1,5 +1,5 @@
 /*
- *  linux/drivers/message/fusion/mptspi.c
+ *  robux/drivers/message/fusion/mptspi.c
  *      For use with LSI PCI chip/adapter(s)
  *      running LSI Fusion MPT (Message Passing Technology) firmware.
  *
@@ -44,18 +44,18 @@
 */
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/init.h>
-#include <linux/errno.h>
-#include <linux/kdev_t.h>
-#include <linux/blkdev.h>
-#include <linux/delay.h>	/* for mdelay */
-#include <linux/interrupt.h>
-#include <linux/reboot.h>	/* notifier code */
-#include <linux/workqueue.h>
-#include <linux/raid_class.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/init.h>
+#include <robux/errno.h>
+#include <robux/kdev_t.h>
+#include <robux/blkdev.h>
+#include <robux/delay.h>	/* for mdelay */
+#include <robux/interrupt.h>
+#include <robux/reboot.h>	/* notifier code */
+#include <robux/workqueue.h>
+#include <robux/raid_class.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
@@ -1434,7 +1434,7 @@ mptspi_probe(struct pci_dev *pdev, const struct pci_device_id *id)
 	sh->max_cmd_len = 16;
 
 	/* Yikes!  This is important!
-	 * Otherwise, by default, linux
+	 * Otherwise, by default, robux
 	 * only scans target IDs 0-7!
 	 * pfactsN->MaxDevices unreliable
 	 * (not supported in early

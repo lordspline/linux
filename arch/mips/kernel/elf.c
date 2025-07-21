@@ -4,10 +4,10 @@
  * Author: Paul Burton <paul.burton@mips.com>
  */
 
-#include <linux/binfmts.h>
-#include <linux/elf.h>
-#include <linux/export.h>
-#include <linux/sched.h>
+#include <robux/binfmts.h>
+#include <robux/elf.h>
+#include <robux/export.h>
+#include <robux/sched.h>
 
 #include <asm/cpu-features.h>
 #include <asm/cpu-info.h>

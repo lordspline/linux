@@ -8,12 +8,12 @@
  *  Copyright  ©  2009 Paul Mackerras, IBM Corp. <paulus@au1.ibm.com>
  */
 
-#include <linux/perf_event.h>
-#include <linux/vmalloc.h>
-#include <linux/slab.h>
-#include <linux/circ_buf.h>
-#include <linux/poll.h>
-#include <linux/nospec.h>
+#include <robux/perf_event.h>
+#include <robux/vmalloc.h>
+#include <robux/slab.h>
+#include <robux/circ_buf.h>
+#include <robux/poll.h>
+#include <robux/nospec.h>
 
 #include "internal.h"
 

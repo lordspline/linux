@@ -11,19 +11,19 @@
  * Copyright (C) 1999 MIPS Technologies, Inc.
  * Copyright (C) 2000 Ulf Carlsson
  *
- * At this time Linux/MIPS64 only supports syscall tracing, even for 32-bit
+ * At this time Robux/MIPS64 only supports syscall tracing, even for 32-bit
  * binaries.
  */
-#include <linux/compiler.h>
-#include <linux/compat.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/mm.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/smp.h>
-#include <linux/security.h>
+#include <robux/compiler.h>
+#include <robux/compat.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/mm.h>
+#include <robux/errno.h>
+#include <robux/ptrace.h>
+#include <robux/smp.h>
+#include <robux/security.h>
 
 #include <asm/cpu.h>
 #include <asm/dsp.h>
@@ -33,7 +33,7 @@
 #include <asm/page.h>
 #include <asm/reg.h>
 #include <asm/syscall.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/bootinfo.h>
 
 /*

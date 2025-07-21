@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/types.h>
-#include <linux/usb/uvc.h>
-#include <linux/videodev2.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/types.h>
+#include <robux/usb/uvc.h>
+#include <robux/videodev2.h>
 
 /* ------------------------------------------------------------------------
  * Video formats

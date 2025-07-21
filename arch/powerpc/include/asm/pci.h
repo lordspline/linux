@@ -6,11 +6,11 @@
 /*
  */
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/dma-map-ops.h>
-#include <linux/scatterlist.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/dma-map-ops.h>
+#include <robux/scatterlist.h>
 
 #include <asm/machdep.h>
 #include <asm/io.h>

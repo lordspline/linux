@@ -9,9 +9,9 @@
 #ifndef __SPEAR_CLK_H
 #define __SPEAR_CLK_H
 
-#include <linux/clk-provider.h>
-#include <linux/spinlock_types.h>
-#include <linux/types.h>
+#include <robux/clk-provider.h>
+#include <robux/spinlock_types.h>
+#include <robux/types.h>
 
 /* Auxiliary Synth clk */
 /* Default masks */

@@ -18,11 +18,11 @@
 
 #ifndef __ASSEMBLER__
 
-#include <linux/percpu.h>
-#include <linux/profile.h>
-#include <linux/smp.h>
+#include <robux/percpu.h>
+#include <robux/profile.h>
+#include <robux/smp.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/irq.h>
 #include <asm/sections.h>
 

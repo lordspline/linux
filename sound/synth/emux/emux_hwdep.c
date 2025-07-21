@@ -7,8 +7,8 @@
 
 #include <sound/core.h>
 #include <sound/hwdep.h>
-#include <linux/uaccess.h>
-#include <linux/nospec.h>
+#include <robux/uaccess.h>
+#include <robux/nospec.h>
 #include "emux_voice.h"
 
 #define TMP_CLIENT_ID	0x1001

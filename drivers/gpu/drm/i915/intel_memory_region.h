@@ -6,9 +6,9 @@
 #ifndef __INTEL_MEMORY_REGION_H__
 #define __INTEL_MEMORY_REGION_H__
 
-#include <linux/ioport.h>
-#include <linux/mutex.h>
-#include <linux/io-mapping.h>
+#include <robux/ioport.h>
+#include <robux/mutex.h>
+#include <robux/io-mapping.h>
 #include <drm/drm_mm.h>
 #include <uapi/drm/i915_drm.h>
 

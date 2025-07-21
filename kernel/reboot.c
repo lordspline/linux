@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- *  linux/kernel/reboot.c
+ *  robux/kernel/reboot.c
  *
  *  Copyright (C) 2013  Linus Torvalds
  */
 
 #define pr_fmt(fmt)	"reboot: " fmt
 
-#include <linux/atomic.h>
-#include <linux/ctype.h>
-#include <linux/export.h>
-#include <linux/kexec.h>
-#include <linux/kmod.h>
-#include <linux/kmsg_dump.h>
-#include <linux/reboot.h>
-#include <linux/suspend.h>
-#include <linux/syscalls.h>
-#include <linux/syscore_ops.h>
-#include <linux/uaccess.h>
+#include <robux/atomic.h>
+#include <robux/ctype.h>
+#include <robux/export.h>
+#include <robux/kexec.h>
+#include <robux/kmod.h>
+#include <robux/kmsg_dump.h>
+#include <robux/reboot.h>
+#include <robux/suspend.h>
+#include <robux/syscalls.h>
+#include <robux/syscore_ops.h>
+#include <robux/uaccess.h>
 
 /*
  * this indicates whether you can reboot with ctrl-alt-del: the default is yes

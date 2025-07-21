@@ -6,12 +6,12 @@
 
 #define pr_fmt(fmt) "clk-boston: " fmt
 
-#include <linux/clk-provider.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/mfd/syscon.h>
+#include <robux/clk-provider.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/mfd/syscon.h>
 
 #include <dt-bindings/clock/boston-clock.h>
 

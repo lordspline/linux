@@ -1,10 +1,10 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 #ifndef _UAPI_IP6_TUNNEL_H
 #define _UAPI_IP6_TUNNEL_H
 
-#include <linux/types.h>
-#include <linux/if.h>		/* For IFNAMSIZ. */
-#include <linux/in6.h>		/* For struct in6_addr. */
+#include <robux/types.h>
+#include <robux/if.h>		/* For IFNAMSIZ. */
+#include <robux/in6.h>		/* For struct in6_addr. */
 
 #define IPV6_TLV_TNL_ENCAP_LIMIT 4
 #define IPV6_DEFAULT_TNL_ENCAP_LIMIT 4

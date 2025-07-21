@@ -38,17 +38,17 @@
  *     registers V0 to V15 and floating-point controls.
  *
  * Copyright IBM Corp. 2015
- * Author(s): Hendrik Brueckner <brueckner@linux.vnet.ibm.com>
+ * Author(s): Hendrik Brueckner <brueckner@robux.vnet.ibm.com>
  */
 
 #ifndef _ASM_S390_FPU_H
 #define _ASM_S390_FPU_H
 
-#include <linux/cpufeature.h>
-#include <linux/processor.h>
-#include <linux/preempt.h>
-#include <linux/string.h>
-#include <linux/sched.h>
+#include <robux/cpufeature.h>
+#include <robux/processor.h>
+#include <robux/preempt.h>
+#include <robux/string.h>
+#include <robux/sched.h>
 #include <asm/sigcontext.h>
 #include <asm/fpu-types.h>
 #include <asm/fpu-insn.h>

@@ -10,8 +10,8 @@
 #ifndef _SCSI_PROTO_H_
 #define _SCSI_PROTO_H_
 
-#include <linux/build_bug.h>
-#include <linux/types.h>
+#include <robux/build_bug.h>
+#include <robux/types.h>
 
 /*
  *      SCSI opcodes

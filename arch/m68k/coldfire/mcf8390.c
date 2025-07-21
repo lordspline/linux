@@ -8,11 +8,11 @@
  * for more details.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/resource.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/resource.h>
+#include <robux/platform_device.h>
 #include <asm/mcf8390.h>
 
 static struct resource mcf8390_resources[] = {

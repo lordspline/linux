@@ -10,26 +10,26 @@
  * Some SPI controllers support offloading of SPI transfers. Essentially, this
  * is the ability for a SPI controller to perform SPI transfers with minimal
  * or even no CPU intervention, e.g. via a specialized SPI controller with a
- * hardware trigger or via a conventional SPI controller using a non-Linux MCU
+ * hardware trigger or via a conventional SPI controller using a non-Robux MCU
  * processor core to offload the work.
  */
 
 #define DEFAULT_SYMBOL_NAMESPACE "SPI_OFFLOAD"
 
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/dmaengine.h>
-#include <linux/export.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/property.h>
-#include <linux/spi/offload/consumer.h>
-#include <linux/spi/offload/provider.h>
-#include <linux/spi/offload/types.h>
-#include <linux/spi/spi.h>
-#include <linux/types.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/dmaengine.h>
+#include <robux/export.h>
+#include <robux/kref.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/property.h>
+#include <robux/spi/offload/consumer.h>
+#include <robux/spi/offload/provider.h>
+#include <robux/spi/offload/types.h>
+#include <robux/spi/spi.h>
+#include <robux/types.h>
 
 struct spi_controller_and_offload {
 	struct spi_controller *controller;

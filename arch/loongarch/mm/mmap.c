@@ -2,13 +2,13 @@
 /*
  * Copyright (C) 2020-2022 Loongson Technology Corporation Limited
  */
-#include <linux/export.h>
-#include <linux/hugetlb.h>
-#include <linux/io.h>
-#include <linux/kfence.h>
-#include <linux/memblock.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
+#include <robux/export.h>
+#include <robux/hugetlb.h>
+#include <robux/io.h>
+#include <robux/kfence.h>
+#include <robux/memblock.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
 
 #define SHM_ALIGN_MASK	(SHMLBA - 1)
 

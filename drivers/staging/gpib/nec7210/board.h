@@ -8,10 +8,10 @@
 #define _GPIB_PCIIA_BOARD_H
 
 #include "gpibP.h"
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/sched.h>
-#include <linux/delay.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/sched.h>
+#include <robux/delay.h>
 
 #include "nec7210.h"
 

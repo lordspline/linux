@@ -34,11 +34,11 @@
 
 #include "core_priv.h"
 
-#include <linux/slab.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
+#include <robux/slab.h>
+#include <robux/stat.h>
+#include <robux/string.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
 
 #include <rdma/ib_mad.h>
 #include <rdma/ib_pma.h>

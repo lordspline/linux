@@ -6,8 +6,8 @@
 
 #define pr_fmt(fmt)	"microwatt-rng: " fmt
 
-#include <linux/kernel.h>
-#include <linux/smp.h>
+#include <robux/kernel.h>
+#include <robux/smp.h>
 #include <asm/archrandom.h>
 #include <asm/cputable.h>
 #include <asm/machdep.h>

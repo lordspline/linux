@@ -7,18 +7,18 @@
  *
  * Some code borrowed from drivers/usb/typec/ucsi/ucsi_acpi.c
  */
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/firmware.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/pm_runtime.h>
-#include <linux/usb/typec_dp.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/firmware.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/pm_runtime.h>
+#include <robux/usb/typec_dp.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include "ucsi.h"
 
 enum enum_fw_mode {

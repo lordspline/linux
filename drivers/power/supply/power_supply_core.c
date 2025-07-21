@@ -9,20 +9,20 @@
  *  Modified: 2004, Oct     Szabolcs Gyurko
  */
 
-#include <linux/cleanup.h>
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/notifier.h>
-#include <linux/err.h>
-#include <linux/of.h>
-#include <linux/power_supply.h>
-#include <linux/property.h>
-#include <linux/thermal.h>
-#include <linux/fixp-arith.h>
+#include <robux/cleanup.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/notifier.h>
+#include <robux/err.h>
+#include <robux/of.h>
+#include <robux/power_supply.h>
+#include <robux/property.h>
+#include <robux/thermal.h>
+#include <robux/fixp-arith.h>
 #include "power_supply.h"
 #include "samsung-sdi-battery.h"
 

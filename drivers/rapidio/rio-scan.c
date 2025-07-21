@@ -14,22 +14,22 @@
  * - Added Input- Output- enable functionality, to allow full communication
  */
 
-#include <linux/types.h>
-#include <linux/kernel.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/init.h>
-#include <linux/rio.h>
-#include <linux/rio_drv.h>
-#include <linux/rio_ids.h>
-#include <linux/rio_regs.h>
-#include <linux/module.h>
-#include <linux/spinlock.h>
-#include <linux/timer.h>
-#include <linux/sched.h>
-#include <linux/jiffies.h>
-#include <linux/slab.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/init.h>
+#include <robux/rio.h>
+#include <robux/rio_drv.h>
+#include <robux/rio_ids.h>
+#include <robux/rio_regs.h>
+#include <robux/module.h>
+#include <robux/spinlock.h>
+#include <robux/timer.h>
+#include <robux/sched.h>
+#include <robux/jiffies.h>
+#include <robux/slab.h>
 
 #include "rio.h"
 

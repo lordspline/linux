@@ -26,11 +26,11 @@
  *   [2] See finite automaton theory
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/textsearch.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
+#include <robux/textsearch.h>
 
 struct ts_kmp
 {

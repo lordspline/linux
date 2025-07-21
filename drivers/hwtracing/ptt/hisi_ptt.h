@@ -9,18 +9,18 @@
 #ifndef _HISI_PTT_H
 #define _HISI_PTT_H
 
-#include <linux/bits.h>
-#include <linux/cpumask.h>
-#include <linux/device.h>
-#include <linux/kfifo.h>
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/pci.h>
-#include <linux/perf_event.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/bits.h>
+#include <robux/cpumask.h>
+#include <robux/device.h>
+#include <robux/kfifo.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
+#include <robux/pci.h>
+#include <robux/perf_event.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 
 #define DRV_NAME "hisi_ptt"
 

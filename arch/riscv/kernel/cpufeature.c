@@ -6,15 +6,15 @@
  * Copyright (C) 2017 SiFive
  */
 
-#include <linux/acpi.h>
-#include <linux/bitmap.h>
-#include <linux/cpu.h>
-#include <linux/cpuhotplug.h>
-#include <linux/ctype.h>
-#include <linux/log2.h>
-#include <linux/memory.h>
-#include <linux/module.h>
-#include <linux/of.h>
+#include <robux/acpi.h>
+#include <robux/bitmap.h>
+#include <robux/cpu.h>
+#include <robux/cpuhotplug.h>
+#include <robux/ctype.h>
+#include <robux/log2.h>
+#include <robux/memory.h>
+#include <robux/module.h>
+#include <robux/of.h>
 #include <asm/acpi.h>
 #include <asm/alternative.h>
 #include <asm/bugs.h>

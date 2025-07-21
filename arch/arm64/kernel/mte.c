@@ -3,20 +3,20 @@
  * Copyright (C) 2020 ARM Ltd.
  */
 
-#include <linux/bitops.h>
-#include <linux/cpu.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/prctl.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/string.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/thread_info.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/uio.h>
+#include <robux/bitops.h>
+#include <robux/cpu.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/prctl.h>
+#include <robux/sched.h>
+#include <robux/sched/mm.h>
+#include <robux/string.h>
+#include <robux/swap.h>
+#include <robux/swapops.h>
+#include <robux/thread_info.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
+#include <robux/uio.h>
 
 #include <asm/barrier.h>
 #include <asm/cpufeature.h>

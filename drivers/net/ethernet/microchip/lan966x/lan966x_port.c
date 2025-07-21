@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/netdevice.h>
-#include <linux/phy/phy.h>
+#include <robux/netdevice.h>
+#include <robux/phy/phy.h>
 
 #include "lan966x_main.h"
 

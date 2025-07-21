@@ -8,12 +8,12 @@
  * for more details.
  */
 
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/irq.h>
-#include <linux/irqchip.h>
-#include <linux/irqchip/xtensa-mx.h>
-#include <linux/of.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/irq.h>
+#include <robux/irqchip.h>
+#include <robux/irqchip/xtensa-mx.h>
+#include <robux/of.h>
 
 #include <asm/mxregs.h>
 

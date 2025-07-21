@@ -22,10 +22,10 @@
 /*
  */
 
-#include <linux/device.h>
-#include <linux/usb.h>
-#include <linux/hid.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/usb.h>
+#include <robux/hid.h>
+#include <robux/module.h>
 
 #include "hid-ids.h"
 

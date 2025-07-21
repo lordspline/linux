@@ -5,8 +5,8 @@
  * Copyright (C) 2013 Texas Instruments, Inc.
  */
 
-#include <linux/kernel.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/io.h>
 
 #include "clockdomain.h"
 #include "prcm44xx.h"

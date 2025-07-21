@@ -5,11 +5,11 @@
  * (C) Copyright 2011, Greg Ungerer <gerg@uclinux.org>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/init.h>
-#include <linux/pci.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/init.h>
+#include <robux/pci.h>
 
 /*
  * From arch/i386/kernel/pci-i386.c:

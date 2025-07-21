@@ -18,11 +18,11 @@
  * kernel; copyright (C) 2001-2003 Greg Kroah-Hartman (greg@kroah.com)
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/usb.h>
-#include <linux/usb/input.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/usb.h>
+#include <robux/usb/input.h>
 #include <media/rc-core.h>
 
 #define DRIVER_NAME	"streamzap"

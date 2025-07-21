@@ -7,36 +7,36 @@
  *	   Feng-Hsin Chiang <john453@faraday-tech.com>
  *	   Po-Yu Chuang <ratbert.chuang@gmail.com>
  *
- * Most of code borrowed from the Linux-3.7 EHCI driver
+ * Most of code borrowed from the Robux-3.7 EHCI driver
  */
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/device.h>
-#include <linux/dmapool.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/sched.h>
-#include <linux/vmalloc.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/hrtimer.h>
-#include <linux/list.h>
-#include <linux/interrupt.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/moduleparam.h>
-#include <linux/dma-mapping.h>
-#include <linux/debugfs.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/device.h>
+#include <robux/dmapool.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/sched.h>
+#include <robux/vmalloc.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/hrtimer.h>
+#include <robux/list.h>
+#include <robux/interrupt.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/moduleparam.h>
+#include <robux/dma-mapping.h>
+#include <robux/debugfs.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
 
 #include <asm/byteorder.h>
 #include <asm/irq.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "fotg210.h"
 
@@ -2841,7 +2841,7 @@ static struct fotg210_qh *qh_make(struct fotg210_hcd *fotg210, struct urb *urb,
 			 * always use 512 byte maxpacket.  But some device
 			 * vendors decided to ignore that, and MSFT is happy
 			 * to help them do so.  So now people expect to use
-			 * such nonconformant devices with Linux too; sigh.
+			 * such nonconformant devices with Robux too; sigh.
 			 */
 			info1 |= maxp << 16;
 			info2 |= (FOTG210_TUNE_MULT_HS << 30);

@@ -4,10 +4,10 @@
  * Author: Rob Clark <robdclark@gmail.com>
  */
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/of_graph.h>
-#include <linux/pm_runtime.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/of_graph.h>
+#include <robux/pm_runtime.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

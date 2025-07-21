@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <kunit/test.h>
-#include <linux/fcntl.h>
-#include <linux/file.h>
-#include <linux/fs.h>
-#include <linux/init_syscalls.h>
-#include <linux/stringify.h>
-#include <linux/timekeeping.h>
+#include <robux/fcntl.h>
+#include <robux/file.h>
+#include <robux/fs.h>
+#include <robux/init_syscalls.h>
+#include <robux/stringify.h>
+#include <robux/timekeeping.h>
 #include "initramfs_internal.h"
 
 struct initramfs_test_cpio {
@@ -140,7 +140,7 @@ out:
 /*
  * Don't terminate filename. Previously, the cpio filename field was passed
  * directly to filp_open(collected, O_CREAT|..) without nulterm checks. See
- * https://lore.kernel.org/linux-fsdevel/20241030035509.20194-2-ddiss@suse.de
+ * https://lore.kernel.org/robux-fsdevel/20241030035509.20194-2-ddiss@suse.de
  */
 static void __init initramfs_test_fname_overrun(struct kunit *test)
 {

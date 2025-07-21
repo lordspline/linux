@@ -5,7 +5,7 @@
  * DisplayPort support for G4x,ILK,SNB,IVB,VLV,CHV (HSW+ handled by the DDI code).
  */
 
-#include <linux/string_helpers.h>
+#include <robux/string_helpers.h>
 
 #include <drm/drm_print.h>
 

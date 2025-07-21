@@ -4,7 +4,7 @@
  *
  * Copyright (C) 2024 Intel Corporation
  */
-#include <linux/module.h>
+#include <robux/module.h>
 
 MODULE_IMPORT_NS("IWLWIFI");
 MODULE_LICENSE("GPL");

@@ -8,19 +8,19 @@
  * Author: Minghuan Lian <Minghuan.Lian@freescale.com>
  */
 
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/iopoll.h>
-#include <linux/of_pci.h>
-#include <linux/of_platform.h>
-#include <linux/of_address.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/resource.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/iopoll.h>
+#include <robux/of_pci.h>
+#include <robux/of_platform.h>
+#include <robux/of_address.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/resource.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
 
 #include "../../pci.h"
 #include "pcie-designware.h"

@@ -22,9 +22,9 @@
  *
  */
 
-#include <linux/prime_numbers.h>
-#include <linux/pm_qos.h>
-#include <linux/sort.h>
+#include <robux/prime_numbers.h>
+#include <robux/pm_qos.h>
+#include <robux/sort.h>
 
 #include "gem/i915_gem_internal.h"
 #include "gem/i915_gem_pm.h"

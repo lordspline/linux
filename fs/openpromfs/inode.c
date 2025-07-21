@@ -5,20 +5,20 @@
  * Copyright (C) 1998      Eddie C. Dost  (ecd@skynet.be)
  */
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/string.h>
-#include <linux/fs.h>
-#include <linux/fs_context.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/seq_file.h>
-#include <linux/magic.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/string.h>
+#include <robux/fs.h>
+#include <robux/fs_context.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/seq_file.h>
+#include <robux/magic.h>
 
 #include <asm/openprom.h>
 #include <asm/oplib.h>
 #include <asm/prom.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 static DEFINE_MUTEX(op_mutex);
 

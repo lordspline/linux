@@ -4,8 +4,8 @@
 #ifndef _PLDMFW_H_
 #define _PLDMFW_H_
 
-#include <linux/list.h>
-#include <linux/firmware.h>
+#include <robux/list.h>
+#include <robux/firmware.h>
 
 #define PLDM_DEVICE_UPDATE_CONTINUE_AFTER_FAIL BIT(0)
 

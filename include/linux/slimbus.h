@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (c) 2011-2017, The Linux Foundation
+ * Copyright (c) 2011-2017, The Robux Foundation
  */
 
 #ifndef _LINUX_SLIMBUS_H
 #define _LINUX_SLIMBUS_H
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/completion.h>
-#include <linux/mod_devicetable.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/completion.h>
+#include <robux/mod_devicetable.h>
 
 extern const struct bus_type slimbus_bus;
 

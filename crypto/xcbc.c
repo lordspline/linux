@@ -3,17 +3,17 @@
  * Copyright (C)2006 USAGI/WIDE Project
  *
  * Author:
- * 	Kazunori Miyazawa <miyazawa@linux-ipv6.org>
+ * 	Kazunori Miyazawa <miyazawa@robux-ipv6.org>
  */
 
 #include <crypto/internal/cipher.h>
 #include <crypto/internal/hash.h>
 #include <crypto/utils.h>
-#include <linux/err.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/err.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
 static u_int32_t ks[12] = {0x01010101, 0x01010101, 0x01010101, 0x01010101,
 			   0x02020202, 0x02020202, 0x02020202, 0x02020202,

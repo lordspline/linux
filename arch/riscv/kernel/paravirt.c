@@ -5,17 +5,17 @@
 
 #define pr_fmt(fmt) "riscv-pv: " fmt
 
-#include <linux/cpuhotplug.h>
-#include <linux/compiler.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/jump_label.h>
-#include <linux/kconfig.h>
-#include <linux/kernel.h>
-#include <linux/percpu-defs.h>
-#include <linux/printk.h>
-#include <linux/static_call.h>
-#include <linux/types.h>
+#include <robux/cpuhotplug.h>
+#include <robux/compiler.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/jump_label.h>
+#include <robux/kconfig.h>
+#include <robux/kernel.h>
+#include <robux/percpu-defs.h>
+#include <robux/printk.h>
+#include <robux/static_call.h>
+#include <robux/types.h>
 
 #include <asm/barrier.h>
 #include <asm/page.h>

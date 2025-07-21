@@ -6,15 +6,15 @@
  * Copyright (c) 2021 Cristian Ciocaltea <cristian.ciocaltea@gmail.com>
  */
 
-#include <linux/circ_buf.h>
-#include <linux/clk.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/pm.h>
-#include <linux/reset.h>
+#include <robux/circ_buf.h>
+#include <robux/clk.h>
+#include <robux/dma-mapping.h>
+#include <robux/etherdevice.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
+#include <robux/platform_device.h>
+#include <robux/pm.h>
+#include <robux/reset.h>
 
 #include "owl-emac.h"
 

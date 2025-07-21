@@ -6,13 +6,13 @@
  * Author: Ulf Hansson <ulf.hansson@linaro.org>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/mfd/abx500/ab8500-sysctrl.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/err.h>
+#include <robux/clk-provider.h>
+#include <robux/mfd/abx500/ab8500-sysctrl.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/err.h>
 #include "clk.h"
 
 #define SYSCTRL_MAX_NUM_PARENTS 4

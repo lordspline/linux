@@ -5,12 +5,12 @@
  * Intel SOF Machine driver for Dialog headphone codec
  */
 
-#include <linux/input.h>
-#include <linux/module.h>
+#include <robux/input.h>
+#include <robux/module.h>
 #include <sound/jack.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
-#include <linux/platform_device.h>
+#include <robux/platform_device.h>
 #include <sound/soc.h>
 #include <sound/soc-acpi.h>
 #include <sound/sof.h>

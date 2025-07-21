@@ -10,15 +10,15 @@
  * Moxa Technology Co., Ltd. <www.moxa.com>
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/rtc.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/gpio/consumer.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/rtc.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/gpio/consumer.h>
 
 #define GPIO_RTC_RESERVED			0x0C
 #define GPIO_RTC_DATA_SET			0x10

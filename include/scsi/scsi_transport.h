@@ -7,9 +7,9 @@
 #ifndef SCSI_TRANSPORT_H
 #define SCSI_TRANSPORT_H
 
-#include <linux/transport_class.h>
-#include <linux/blkdev.h>
-#include <linux/bug.h>
+#include <robux/transport_class.h>
+#include <robux/blkdev.h>
+#include <robux/bug.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_device.h>
 

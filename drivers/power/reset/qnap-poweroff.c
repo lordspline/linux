@@ -10,13 +10,13 @@
  * Copyright (C) 2008  Byron Bradley <byron.bbradley@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/serial_reg.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/clk.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/serial_reg.h>
+#include <robux/of.h>
+#include <robux/io.h>
+#include <robux/clk.h>
 
 #define UART1_REG(x)	(base + ((UART_##x) << 2))
 

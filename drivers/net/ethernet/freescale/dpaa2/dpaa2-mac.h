@@ -3,10 +3,10 @@
 #ifndef DPAA2_MAC_H
 #define DPAA2_MAC_H
 
-#include <linux/of.h>
-#include <linux/of_mdio.h>
-#include <linux/of_net.h>
-#include <linux/phylink.h>
+#include <robux/of.h>
+#include <robux/of_mdio.h>
+#include <robux/of_net.h>
+#include <robux/phylink.h>
 
 #include "dpmac.h"
 #include "dpmac-cmd.h"

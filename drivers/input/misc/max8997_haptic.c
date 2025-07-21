@@ -8,15 +8,15 @@
  * This program is not provided / owned by Maxim Integrated Products.
  */
 
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
-#include <linux/err.h>
-#include <linux/pwm.h>
-#include <linux/input.h>
-#include <linux/mfd/max8997-private.h>
-#include <linux/mfd/max8997.h>
-#include <linux/regulator/consumer.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
+#include <robux/err.h>
+#include <robux/pwm.h>
+#include <robux/input.h>
+#include <robux/mfd/max8997-private.h>
+#include <robux/mfd/max8997.h>
+#include <robux/regulator/consumer.h>
 
 /* Haptic configuration 2 register */
 #define MAX8997_MOTOR_TYPE_SHIFT	7

@@ -9,10 +9,10 @@
  */
 
 #include "cx231xx.h"
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/i2c.h>
-#include <linux/i2c-mux.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/i2c.h>
+#include <robux/i2c-mux.h>
 #include <media/v4l2-common.h>
 #include <media/tuner.h>
 

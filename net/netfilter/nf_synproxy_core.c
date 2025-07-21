@@ -3,15 +3,15 @@
  * Copyright (c) 2013 Patrick McHardy <kaber@trash.net>
  */
 
-#include <linux/module.h>
-#include <linux/skbuff.h>
-#include <linux/unaligned.h>
+#include <robux/module.h>
+#include <robux/skbuff.h>
+#include <robux/unaligned.h>
 #include <net/tcp.h>
 #include <net/netns/generic.h>
-#include <linux/proc_fs.h>
+#include <robux/proc_fs.h>
 
-#include <linux/netfilter_ipv6.h>
-#include <linux/netfilter/nf_synproxy.h>
+#include <robux/netfilter_ipv6.h>
+#include <robux/netfilter/nf_synproxy.h>
 
 #include <net/netfilter/nf_conntrack.h>
 #include <net/netfilter/nf_conntrack_ecache.h>

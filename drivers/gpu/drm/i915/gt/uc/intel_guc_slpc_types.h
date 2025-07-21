@@ -6,10 +6,10 @@
 #ifndef _INTEL_GUC_SLPC_TYPES_H_
 #define _INTEL_GUC_SLPC_TYPES_H_
 
-#include <linux/atomic.h>
-#include <linux/workqueue.h>
-#include <linux/mutex.h>
-#include <linux/types.h>
+#include <robux/atomic.h>
+#include <robux/workqueue.h>
+#include <robux/mutex.h>
+#include <robux/types.h>
 
 #define SLPC_RESET_TIMEOUT_MS 5
 

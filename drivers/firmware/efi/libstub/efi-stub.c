@@ -9,8 +9,8 @@
  *     Mark Salter <msalter@redhat.com>
  */
 
-#include <linux/efi.h>
-#include <linux/screen_info.h>
+#include <robux/efi.h>
+#include <robux/screen_info.h>
 #include <asm/efi.h>
 
 #include "efistub.h"

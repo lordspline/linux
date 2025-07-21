@@ -2,21 +2,21 @@
 /*
  * Copyright (C)2003,2004 USAGI/WIDE Project
  *
- * Authors	Mitsuru KANDA  <mk@linux-ipv6.org>
- *		YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
+ * Authors	Mitsuru KANDA  <mk@robux-ipv6.org>
+ *		YOSHIFUJI Hideaki <yoshfuji@robux-ipv6.org>
  *
  * Based on net/ipv4/xfrm4_tunnel.c
  */
-#include <linux/module.h>
-#include <linux/xfrm.h>
-#include <linux/slab.h>
-#include <linux/rculist.h>
+#include <robux/module.h>
+#include <robux/xfrm.h>
+#include <robux/slab.h>
+#include <robux/rculist.h>
 #include <net/ip.h>
 #include <net/xfrm.h>
 #include <net/ipv6.h>
-#include <linux/ipv6.h>
-#include <linux/icmpv6.h>
-#include <linux/mutex.h>
+#include <robux/ipv6.h>
+#include <robux/icmpv6.h>
+#include <robux/mutex.h>
 #include <net/netns/generic.h>
 
 #define XFRM6_TUNNEL_SPI_BYADDR_HSIZE 256

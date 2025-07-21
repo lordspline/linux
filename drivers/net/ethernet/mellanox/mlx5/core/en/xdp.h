@@ -32,7 +32,7 @@
 #ifndef __MLX5_EN_XDP_H__
 #define __MLX5_EN_XDP_H__
 
-#include <linux/indirect_call_wrapper.h>
+#include <robux/indirect_call_wrapper.h>
 #include <net/xdp_sock.h>
 
 #include "en.h"

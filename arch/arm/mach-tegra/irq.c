@@ -8,15 +8,15 @@
  * Copyright (C) 2010,2013, NVIDIA Corporation
  */
 
-#include <linux/cpu_pm.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irqchip/arm-gic.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/of.h>
-#include <linux/syscore_ops.h>
+#include <robux/cpu_pm.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irqchip/arm-gic.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/of_address.h>
+#include <robux/of.h>
+#include <robux/syscore_ops.h>
 
 #include <soc/tegra/irq.h>
 

@@ -2,10 +2,10 @@
 #ifndef _SBP_BASE_H
 #define _SBP_BASE_H
 
-#include <linux/firewire.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/workqueue.h>
+#include <robux/firewire.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
+#include <robux/workqueue.h>
 #include <target/target_core_base.h>
 
 #define SBP_VERSION  "v0.1"

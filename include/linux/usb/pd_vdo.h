@@ -7,7 +7,7 @@
 #define __LINUX_USB_PD_VDO_H
 
 #include "pd.h"
-#include <linux/bitfield.h>
+#include <robux/bitfield.h>
 
 /*
  * VDO : Vendor Defined Message Object

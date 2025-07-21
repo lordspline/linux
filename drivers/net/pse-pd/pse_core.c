@@ -5,12 +5,12 @@
 // Copyright (c) 2022 Pengutronix, Oleksij Rempel <kernel@pengutronix.de>
 //
 
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/of.h>
-#include <linux/pse-pd/pse.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
+#include <robux/device.h>
+#include <robux/ethtool.h>
+#include <robux/of.h>
+#include <robux/pse-pd/pse.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
 
 static DEFINE_MUTEX(pse_list_mutex);
 static LIST_HEAD(pse_controller_list);

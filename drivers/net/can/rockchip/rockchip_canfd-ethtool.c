@@ -4,7 +4,7 @@
 //               Marc Kleine-Budde <kernel@pengutronix.de>
 //
 
-#include <linux/ethtool.h>
+#include <robux/ethtool.h>
 
 #include "rockchip_canfd.h"
 

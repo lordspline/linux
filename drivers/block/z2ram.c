@@ -27,20 +27,20 @@
 
 #define DEVICE_NAME "Z2RAM"
 
-#include <linux/major.h>
-#include <linux/vmalloc.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/blk-mq.h>
-#include <linux/bitops.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/pgtable.h>
+#include <robux/major.h>
+#include <robux/vmalloc.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/blk-mq.h>
+#include <robux/bitops.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/pgtable.h>
 
 #include <asm/setup.h>
 #include <asm/amigahw.h>
 
-#include <linux/zorro.h>
+#include <robux/zorro.h>
 
 #define Z2MINOR_COMBINED      (0)
 #define Z2MINOR_Z2ONLY        (1)

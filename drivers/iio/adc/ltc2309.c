@@ -7,13 +7,13 @@
  *
  * Copyright (c) 2023, Liam Beguin <liambeguin@gmail.com>
  */
-#include <linux/bitfield.h>
-#include <linux/i2c.h>
-#include <linux/iio/iio.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/regulator/consumer.h>
+#include <robux/bitfield.h>
+#include <robux/i2c.h>
+#include <robux/iio/iio.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/regulator/consumer.h>
 
 #define LTC2309_ADC_RESOLUTION	12
 #define LTC2309_INTERNAL_REF_MV 4096

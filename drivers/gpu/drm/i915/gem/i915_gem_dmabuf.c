@@ -3,10 +3,10 @@
  * Copyright 2012 Red Hat Inc
  */
 
-#include <linux/dma-buf.h>
-#include <linux/highmem.h>
-#include <linux/dma-resv.h>
-#include <linux/module.h>
+#include <robux/dma-buf.h>
+#include <robux/highmem.h>
+#include <robux/dma-resv.h>
+#include <robux/module.h>
 
 #include <asm/smp.h>
 

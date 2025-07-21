@@ -9,9 +9,9 @@
 #ifndef _NET_OVPN_TCP_H_
 #define _NET_OVPN_TCP_H_
 
-#include <linux/net.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
+#include <robux/net.h>
+#include <robux/skbuff.h>
+#include <robux/types.h>
 
 #include "peer.h"
 #include "skb.h"

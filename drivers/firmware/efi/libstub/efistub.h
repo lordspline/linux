@@ -3,12 +3,12 @@
 #ifndef _DRIVERS_FIRMWARE_EFI_EFISTUB_H
 #define _DRIVERS_FIRMWARE_EFI_EFISTUB_H
 
-#include <linux/compiler.h>
-#include <linux/cleanup.h>
-#include <linux/efi.h>
-#include <linux/kernel.h>
-#include <linux/kern_levels.h>
-#include <linux/types.h>
+#include <robux/compiler.h>
+#include <robux/cleanup.h>
+#include <robux/efi.h>
+#include <robux/kernel.h>
+#include <robux/kern_levels.h>
+#include <robux/types.h>
 #include <asm/efi.h>
 
 /*

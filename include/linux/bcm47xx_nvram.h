@@ -5,10 +5,10 @@
 #ifndef __BCM47XX_NVRAM_H
 #define __BCM47XX_NVRAM_H
 
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/vmalloc.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/vmalloc.h>
 
 #ifdef CONFIG_BCM47XX_NVRAM
 int bcm47xx_nvram_init_from_iomem(void __iomem *nvram_start, size_t res_size);

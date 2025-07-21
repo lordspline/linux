@@ -20,19 +20,19 @@
  * Geert Uytterhoeven.
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/platform_device.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/io.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/platform_device.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/dma-mapping.h>
+#include <robux/of.h>
+#include <robux/io.h>
+#include <robux/slab.h>
 
 #ifdef CONFIG_PPC_DCR
 #include <asm/dcr.h>

@@ -15,10 +15,10 @@
 #ifndef __LINUX_IPMI_SMI_H
 #define __LINUX_IPMI_SMI_H
 
-#include <linux/ipmi_msgdefs.h>
-#include <linux/proc_fs.h>
-#include <linux/platform_device.h>
-#include <linux/ipmi.h>
+#include <robux/ipmi_msgdefs.h>
+#include <robux/proc_fs.h>
+#include <robux/platform_device.h>
+#include <robux/ipmi.h>
 
 struct device;
 

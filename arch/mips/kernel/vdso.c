@@ -4,18 +4,18 @@
  * Author: Alex Smith <alex.smith@imgtec.com>
  */
 
-#include <linux/binfmts.h>
-#include <linux/elf.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/ioport.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/mman.h>
-#include <linux/random.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vdso_datastore.h>
+#include <robux/binfmts.h>
+#include <robux/elf.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/ioport.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/mman.h>
+#include <robux/random.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/vdso_datastore.h>
 
 #include <asm/abi.h>
 #include <asm/mips-cps.h>

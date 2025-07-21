@@ -8,13 +8,13 @@
  * Author: Haojian Zhuang <haojian.zhuang@linaro.org>
  */
 
-#include <linux/delay.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/reboot.h>
+#include <robux/delay.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/reboot.h>
 
 #include <asm/proc-fns.h>
 

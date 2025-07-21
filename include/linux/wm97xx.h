@@ -11,10 +11,10 @@
 #include <sound/pcm.h>
 #include <sound/ac97_codec.h>
 #include <sound/initval.h>
-#include <linux/types.h>
-#include <linux/list.h>
-#include <linux/input.h>	/* Input device layer */
-#include <linux/platform_device.h>
+#include <robux/types.h>
+#include <robux/list.h>
+#include <robux/input.h>	/* Input device layer */
+#include <robux/platform_device.h>
 
 /*
  * WM97xx variants

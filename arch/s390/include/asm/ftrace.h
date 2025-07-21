@@ -53,7 +53,7 @@ static inline unsigned long ftrace_call_adjust(unsigned long addr)
 }
 #define ftrace_get_symaddr(fentry_ip) ((unsigned long)(fentry_ip))
 
-#include <linux/ftrace_regs.h>
+#include <robux/ftrace_regs.h>
 
 static __always_inline struct pt_regs *arch_ftrace_get_regs(struct ftrace_regs *fregs)
 {

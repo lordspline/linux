@@ -6,9 +6,9 @@
 // Copyright(c) 2018-2023 Intel Corporation
 //
 
-#include <linux/debugfs.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
+#include <robux/debugfs.h>
+#include <robux/io.h>
+#include <robux/pm_runtime.h>
 #include <sound/sof/debug.h>
 #include <sound/sof/ipc4/header.h>
 #include "sof-priv.h"

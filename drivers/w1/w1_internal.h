@@ -6,10 +6,10 @@
 #ifndef __W1_H
 #define __W1_H
 
-#include <linux/w1.h>
+#include <robux/w1.h>
 
-#include <linux/completion.h>
-#include <linux/mutex.h>
+#include <robux/completion.h>
+#include <robux/mutex.h>
 
 #define W1_SLAVE_ACTIVE		0
 #define W1_SLAVE_DETACH		1

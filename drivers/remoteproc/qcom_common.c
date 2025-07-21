@@ -4,21 +4,21 @@
  *
  * Copyright (C) 2016 Linaro Ltd
  * Copyright (C) 2015 Sony Mobile Communications Inc
- * Copyright (c) 2012-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2012-2013, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/firmware.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/notifier.h>
-#include <linux/remoteproc.h>
-#include <linux/remoteproc/qcom_rproc.h>
-#include <linux/auxiliary_bus.h>
-#include <linux/rpmsg/qcom_glink.h>
-#include <linux/rpmsg/qcom_smd.h>
-#include <linux/slab.h>
-#include <linux/soc/qcom/mdt_loader.h>
-#include <linux/soc/qcom/smem.h>
+#include <robux/firmware.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/notifier.h>
+#include <robux/remoteproc.h>
+#include <robux/remoteproc/qcom_rproc.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/rpmsg/qcom_glink.h>
+#include <robux/rpmsg/qcom_smd.h>
+#include <robux/slab.h>
+#include <robux/soc/qcom/mdt_loader.h>
+#include <robux/soc/qcom/smem.h>
 
 #include "remoteproc_internal.h"
 #include "qcom_common.h"

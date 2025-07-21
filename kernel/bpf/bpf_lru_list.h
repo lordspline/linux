@@ -4,9 +4,9 @@
 #ifndef __BPF_LRU_LIST_H_
 #define __BPF_LRU_LIST_H_
 
-#include <linux/cache.h>
-#include <linux/list.h>
-#include <linux/spinlock_types.h>
+#include <robux/cache.h>
+#include <robux/list.h>
+#include <robux/spinlock_types.h>
 
 #define NR_BPF_LRU_LIST_T	(3)
 #define NR_BPF_LRU_LIST_COUNT	(2)

@@ -5,13 +5,13 @@
 // Copyright (C) 2008 NXP Semiconductors
 // Copyright 2023 Timesys Corporation <piotr.wojtaszczyk@timesys.com>
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/io.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

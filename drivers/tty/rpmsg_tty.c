@@ -12,11 +12,11 @@
 
 #define pr_fmt(fmt)		KBUILD_MODNAME ": " fmt
 
-#include <linux/module.h>
-#include <linux/rpmsg.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <robux/module.h>
+#include <robux/rpmsg.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
 
 #define RPMSG_TTY_NAME	"ttyRPMSG"
 #define MAX_TTY_RPMSG	32

@@ -10,19 +10,19 @@
 
 #define pr_fmt(fmt) "riscv-timer: " fmt
 
-#include <linux/acpi.h>
-#include <linux/clocksource.h>
-#include <linux/clockchips.h>
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/module.h>
-#include <linux/sched_clock.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/interrupt.h>
-#include <linux/of_irq.h>
-#include <linux/limits.h>
+#include <robux/acpi.h>
+#include <robux/clocksource.h>
+#include <robux/clockchips.h>
+#include <robux/cpu.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/module.h>
+#include <robux/sched_clock.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/interrupt.h>
+#include <robux/of_irq.h>
+#include <robux/limits.h>
 #include <clocksource/timer-riscv.h>
 #include <asm/smp.h>
 #include <asm/cpufeature.h>

@@ -21,18 +21,18 @@
  * unavailable bits are 0 :)
  */
 
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/sysfs.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/mutex.h>
-#include <linux/mod_devicetable.h>
-#include <linux/spi/spi.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/sysfs.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/mutex.h>
+#include <robux/mod_devicetable.h>
+#include <robux/spi/spi.h>
 
 #define DRVNAME		"adcxx"
 
@@ -228,5 +228,5 @@ static struct spi_driver adcxx_driver = {
 module_spi_driver(adcxx_driver);
 
 MODULE_AUTHOR("Marc Pignat");
-MODULE_DESCRIPTION("National Semiconductor adcxx8sxxx Linux driver");
+MODULE_DESCRIPTION("National Semiconductor adcxx8sxxx Robux driver");
 MODULE_LICENSE("GPL");

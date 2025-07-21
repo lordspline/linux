@@ -1,27 +1,27 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- *	Real Time Clock interface for Linux on the BVME6000
+ *	Real Time Clock interface for Robux on the BVME6000
  *
  * Based on the PC driver by Paul Gortmaker.
  */
 
 #define RTC_VERSION		"1.00"
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/miscdevice.h>
-#include <linux/ioport.h>
-#include <linux/capability.h>
-#include <linux/fcntl.h>
-#include <linux/init.h>
-#include <linux/poll.h>
-#include <linux/module.h>
-#include <linux/rtc.h>	/* For struct rtc_time and ioctls, etc */
-#include <linux/bcd.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/miscdevice.h>
+#include <robux/ioport.h>
+#include <robux/capability.h>
+#include <robux/fcntl.h>
+#include <robux/init.h>
+#include <robux/poll.h>
+#include <robux/module.h>
+#include <robux/rtc.h>	/* For struct rtc_time and ioctls, etc */
+#include <robux/bcd.h>
 #include <asm/bvme6000hw.h>
 
 #include <asm/io.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/setup.h>
 
 /*

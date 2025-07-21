@@ -6,13 +6,13 @@
  * to control the PIN resources on SCU domain.
  */
 
-#include <linux/cleanup.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/gpio/driver.h>
-#include <linux/platform_device.h>
-#include <linux/firmware/imx/svc/rm.h>
+#include <robux/cleanup.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/gpio/driver.h>
+#include <robux/platform_device.h>
+#include <robux/firmware/imx/svc/rm.h>
 #include <dt-bindings/firmware/imx/rsrc.h>
 
 struct scu_gpio_priv {

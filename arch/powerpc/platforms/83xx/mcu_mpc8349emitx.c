@@ -7,17 +7,17 @@
  * Author: Anton Vorontsov <avorontsov@ru.mvista.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/device.h>
-#include <linux/mutex.h>
-#include <linux/i2c.h>
-#include <linux/gpio/driver.h>
-#include <linux/slab.h>
-#include <linux/kthread.h>
-#include <linux/property.h>
-#include <linux/reboot.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/device.h>
+#include <robux/mutex.h>
+#include <robux/i2c.h>
+#include <robux/gpio/driver.h>
+#include <robux/slab.h>
+#include <robux/kthread.h>
+#include <robux/property.h>
+#include <robux/reboot.h>
 #include <asm/machdep.h>
 
 /*

@@ -8,27 +8,27 @@
  *  Copyright (C) 2014 Codethink Limited
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/etherdevice.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/mdio-bitbang.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/phy.h>
-#include <linux/cache.h>
-#include <linux/io.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/ethtool.h>
-#include <linux/if_vlan.h>
-#include <linux/sh_eth.h>
-#include <linux/of_mdio.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/etherdevice.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/mdio-bitbang.h>
+#include <robux/netdevice.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/phy.h>
+#include <robux/cache.h>
+#include <robux/io.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/ethtool.h>
+#include <robux/if_vlan.h>
+#include <robux/sh_eth.h>
+#include <robux/of_mdio.h>
 
 #include "sh_eth.h"
 

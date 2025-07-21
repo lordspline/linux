@@ -7,7 +7,7 @@
  *   Author(s): Steve French (sfrench@us.ibm.com)
  *
  */
-#include <linux/errno.h>
+#include <robux/errno.h>
 #include "cifsglob.h"
 #include "cifs_debug.h"
 #include "smb2pdu.h"

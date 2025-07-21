@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * INET		An implementation of the TCP/IP protocol suite for the LINUX
+ * INET		An implementation of the TCP/IP protocol suite for the ROBUX
  *		operating system.  INET is implemented using the  BSD Socket
  *		interface as the means of communication with the user level.
  *
@@ -23,11 +23,11 @@
  *		 - sort probes in a sane way, make sure all (safe) probes
  *		   get run once & failed autoprobes don't autoprobe again.
  */
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/netlink.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/netlink.h>
 #include <net/Space.h>
 
 /*

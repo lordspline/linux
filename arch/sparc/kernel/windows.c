@@ -5,14 +5,14 @@
  * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/string.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/string.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
 
 #include <asm/cacheflush.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "kernel.h"
 

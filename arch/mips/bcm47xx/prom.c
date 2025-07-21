@@ -24,14 +24,14 @@
  *  675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <linux/init.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/memblock.h>
-#include <linux/spinlock.h>
-#include <linux/ssb/ssb_driver_chipcommon.h>
-#include <linux/ssb/ssb_regs.h>
-#include <linux/smp.h>
+#include <robux/init.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/memblock.h>
+#include <robux/spinlock.h>
+#include <robux/ssb/ssb_driver_chipcommon.h>
+#include <robux/ssb/ssb_regs.h>
+#include <robux/smp.h>
 #include <asm/bmips.h>
 #include <asm/bootinfo.h>
 #include <bcm47xx.h>

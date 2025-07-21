@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*******************************************************************************
     AudioScience HPI driver
-    Common Linux HPI ioctl and module probe/remove functions
+    Common Robux HPI ioctl and module probe/remove functions
 
     Copyright (C) 1997-2014  AudioScience Inc. <support@audioscience.com>
 
@@ -17,16 +17,16 @@
 #include "hpioctl.h"
 #include "hpicmn.h"
 
-#include <linux/fs.h>
-#include <linux/interrupt.h>
-#include <linux/slab.h>
-#include <linux/moduleparam.h>
-#include <linux/uaccess.h>
-#include <linux/pci.h>
-#include <linux/stringify.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/nospec.h>
+#include <robux/fs.h>
+#include <robux/interrupt.h>
+#include <robux/slab.h>
+#include <robux/moduleparam.h>
+#include <robux/uaccess.h>
+#include <robux/pci.h>
+#include <robux/stringify.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
+#include <robux/nospec.h>
 
 #ifdef MODULE_FIRMWARE
 MODULE_FIRMWARE("asihpi/dsp5000.bin");

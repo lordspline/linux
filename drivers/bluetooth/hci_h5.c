@@ -6,15 +6,15 @@
  *  Copyright (C) 2012  Intel Corporation
  */
 
-#include <linux/acpi.h>
-#include <linux/errno.h>
-#include <linux/gpio/consumer.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/serdev.h>
-#include <linux/skbuff.h>
+#include <robux/acpi.h>
+#include <robux/errno.h>
+#include <robux/gpio/consumer.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/serdev.h>
+#include <robux/skbuff.h>
 
 #include <net/bluetooth/bluetooth.h>
 #include <net/bluetooth/hci_core.h>

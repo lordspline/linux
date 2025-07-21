@@ -9,22 +9,22 @@
 #ifndef _LINUX_NTFS3_NTFS_FS_H
 #define _LINUX_NTFS3_NTFS_FS_H
 
-#include <linux/blkdev.h>
-#include <linux/buffer_head.h>
-#include <linux/fs.h>
-#include <linux/highmem.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/page-flags.h>
-#include <linux/pagemap.h>
-#include <linux/rbtree.h>
-#include <linux/rwsem.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/time64.h>
-#include <linux/types.h>
-#include <linux/uidgid.h>
+#include <robux/blkdev.h>
+#include <robux/buffer_head.h>
+#include <robux/fs.h>
+#include <robux/highmem.h>
+#include <robux/kernel.h>
+#include <robux/mm.h>
+#include <robux/mutex.h>
+#include <robux/page-flags.h>
+#include <robux/pagemap.h>
+#include <robux/rbtree.h>
+#include <robux/rwsem.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/time64.h>
+#include <robux/types.h>
+#include <robux/uidgid.h>
 #include <asm/div64.h>
 #include <asm/page.h>
 
@@ -346,7 +346,7 @@ enum ntfs_inode_mutex_lock_class {
 /*
  * struct ntfs_inode
  *
- * Ntfs inode - extends linux inode. consists of one or more MFT inodes.
+ * Ntfs inode - extends robux inode. consists of one or more MFT inodes.
  */
 struct ntfs_inode {
 	struct mft_inode mi; // base record

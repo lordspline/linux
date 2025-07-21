@@ -3,14 +3,14 @@
  * Licensed under the GPL
  */
 
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/kallsyms.h>
+#include <robux/kernel.h>
+#include <robux/smp.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/kallsyms.h>
 #include <asm/ptrace.h>
 
-/* This is declared by <linux/sched.h> */
+/* This is declared by <robux/sched.h> */
 void show_regs(struct pt_regs *regs)
 {
         printk("\n");

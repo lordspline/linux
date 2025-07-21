@@ -5,13 +5,13 @@
  * Copyright (c) 2023, Intel Corporation.
  */
 
-#include <linux/auxiliary_bus.h>
-#include <linux/bitfield.h>
-#include <linux/bits.h>
-#include <linux/dev_printk.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
-#include <linux/usb/ljca.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/bitfield.h>
+#include <robux/bits.h>
+#include <robux/dev_printk.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
+#include <robux/usb/ljca.h>
 
 #define LJCA_SPI_BUS_MAX_HZ		48000000
 

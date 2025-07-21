@@ -9,21 +9,21 @@
  * Copyright (C) 2008-2009 Deep Root Systems, LLC
  */
 
-#include <linux/clk-provider.h>
-#include <linux/clk.h>
-#include <linux/clk/davinci.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mfd/syscon.h>
-#include <linux/notifier.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/clk-provider.h>
+#include <robux/clk.h>
+#include <robux/clk/davinci.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mfd/syscon.h>
+#include <robux/notifier.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 #include "pll.h"
 
@@ -901,7 +901,7 @@ static int __init davinci_pll_driver_init(void)
 postcore_initcall(davinci_pll_driver_init);
 
 #ifdef CONFIG_DEBUG_FS
-#include <linux/debugfs.h>
+#include <robux/debugfs.h>
 
 #define DEBUG_REG(n)	\
 {			\

@@ -6,13 +6,13 @@
 #ifndef __LINUX_IOMMUFD_H
 #define __LINUX_IOMMUFD_H
 
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/iommu.h>
-#include <linux/refcount.h>
-#include <linux/types.h>
-#include <linux/xarray.h>
-#include <uapi/linux/iommufd.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/iommu.h>
+#include <robux/refcount.h>
+#include <robux/types.h>
+#include <robux/xarray.h>
+#include <uapi/robux/iommufd.h>
 
 struct device;
 struct file;
@@ -110,7 +110,7 @@ struct iommufd_viommu {
  *           of the vIOMMU will be free-ed by iommufd core after calling this op
  * @alloc_domain_nested: Allocate a IOMMU_DOMAIN_NESTED on a vIOMMU that holds a
  *                       nesting parent domain (IOMMU_DOMAIN_PAGING). @user_data
- *                       must be defined in include/uapi/linux/iommufd.h.
+ *                       must be defined in include/uapi/robux/iommufd.h.
  *                       It must fully initialize the new iommu_domain before
  *                       returning. Upon failure, ERR_PTR must be returned.
  * @cache_invalidate: Flush hardware cache used by a vIOMMU. It can be used for
@@ -119,7 +119,7 @@ struct iommufd_viommu {
  *                    form of a driver data structure. A driver must update the
  *                    array->entry_num to report the number of handled requests.
  *                    The data structure of the array entry must be defined in
- *                    include/uapi/linux/iommufd.h
+ *                    include/uapi/robux/iommufd.h
  */
 struct iommufd_viommu_ops {
 	void (*destroy)(struct iommufd_viommu *viommu);

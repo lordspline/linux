@@ -7,14 +7,14 @@
  * Use "bpftool cgroup attach $cg sock_ops $prog" to load this BPF program.
  */
 
-#include <uapi/linux/bpf.h>
-#include <uapi/linux/tcp.h>
-#include <uapi/linux/if_ether.h>
-#include <uapi/linux/if_packet.h>
-#include <uapi/linux/ip.h>
-#include <uapi/linux/ipv6.h>
-#include <uapi/linux/in.h>
-#include <linux/socket.h>
+#include <uapi/robux/bpf.h>
+#include <uapi/robux/tcp.h>
+#include <uapi/robux/if_ether.h>
+#include <uapi/robux/if_packet.h>
+#include <uapi/robux/ip.h>
+#include <uapi/robux/ipv6.h>
+#include <uapi/robux/in.h>
+#include <robux/socket.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_endian.h>
 

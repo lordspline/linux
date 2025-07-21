@@ -28,14 +28,14 @@
  * a timer to limit the rate at which DMA is reset on DMA channels error.
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci_ids.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci_ids.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
 
 #include "tw686x.h"
 #include "tw686x-regs.h"

@@ -10,8 +10,8 @@
 #ifndef __ASM_ARM_CHECKSUM_H
 #define __ASM_ARM_CHECKSUM_H
 
-#include <linux/in6.h>
-#include <linux/uaccess.h>
+#include <robux/in6.h>
+#include <robux/uaccess.h>
 
 /*
  * computes the checksum of a memory block at buff, length len,

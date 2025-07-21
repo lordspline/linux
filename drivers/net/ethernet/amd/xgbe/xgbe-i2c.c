@@ -5,12 +5,12 @@
  * All rights reserved
  */
 
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/kmod.h>
-#include <linux/delay.h>
-#include <linux/completion.h>
-#include <linux/mutex.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/kmod.h>
+#include <robux/delay.h>
+#include <robux/completion.h>
+#include <robux/mutex.h>
 
 #include "xgbe.h"
 #include "xgbe-common.h"

@@ -10,9 +10,9 @@
  * https://www.gnu.org/copyleft/gpl.html
  */
 
-#include <linux/module.h>
-#include <linux/of_platform.h>
-#include <linux/clk.h>
+#include <robux/module.h>
+#include <robux/of_platform.h>
+#include <robux/clk.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
 #include "fsl_sai.h"

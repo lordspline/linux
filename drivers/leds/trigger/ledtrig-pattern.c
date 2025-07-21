@@ -7,13 +7,13 @@
  * the first version, Baolin Wang simplified and improved the approach.
  */
 
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/timer.h>
-#include <linux/hrtimer.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/timer.h>
+#include <robux/hrtimer.h>
 
 #define MAX_PATTERNS		1024
 /*

@@ -6,12 +6,12 @@
  *  Copyright (c) 1997-1999 by Paul Barton-Davis <pbd@op.net>
  */
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/err.h>
-#include <linux/isa.h>
-#include <linux/pnp.h>
-#include <linux/module.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/err.h>
+#include <robux/isa.h>
+#include <robux/pnp.h>
+#include <robux/module.h>
 #include <sound/core.h>
 #include <sound/initval.h>
 #include <sound/opl3.h>

@@ -12,10 +12,10 @@
 #ifndef _HYPERV_NET_H
 #define _HYPERV_NET_H
 
-#include <linux/list.h>
-#include <linux/hyperv.h>
-#include <linux/rndis.h>
-#include <linux/jhash.h>
+#include <robux/list.h>
+#include <robux/hyperv.h>
+#include <robux/rndis.h>
+#include <robux/jhash.h>
 #include <net/xdp.h>
 
 /* RSS related */

@@ -7,27 +7,27 @@
  *               Martin Schwidefsky (schwidefsky@de.ibm.com)
  */
 
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
-#include <linux/cpufeature.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/errno.h>
-#include <linux/ptrace.h>
-#include <linux/user.h>
-#include <linux/security.h>
-#include <linux/audit.h>
-#include <linux/signal.h>
-#include <linux/elf.h>
-#include <linux/regset.h>
-#include <linux/seccomp.h>
-#include <linux/compat.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
+#include <robux/cpufeature.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/errno.h>
+#include <robux/ptrace.h>
+#include <robux/user.h>
+#include <robux/security.h>
+#include <robux/audit.h>
+#include <robux/signal.h>
+#include <robux/elf.h>
+#include <robux/regset.h>
+#include <robux/seccomp.h>
+#include <robux/compat.h>
 #include <trace/syscall.h>
 #include <asm/guarded_storage.h>
 #include <asm/access-regs.h>
 #include <asm/page.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/unistd.h>
 #include <asm/runtime_instr.h>
 #include <asm/facility.h>

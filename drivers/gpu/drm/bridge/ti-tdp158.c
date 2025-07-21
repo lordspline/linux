@@ -3,8 +3,8 @@
  * Copyright 2024 Freebox SAS
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

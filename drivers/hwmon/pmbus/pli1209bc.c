@@ -5,11 +5,11 @@
  * Copyright (c) 2022 9elements GmbH
  */
 
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/pmbus.h>
-#include <linux/regulator/driver.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/pmbus.h>
+#include <robux/regulator/driver.h>
 #include "pmbus.h"
 
 /*

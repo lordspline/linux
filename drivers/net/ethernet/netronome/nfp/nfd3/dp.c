@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
 /* Copyright (C) 2015-2019 Netronome Systems, Inc. */
 
-#include <linux/bpf_trace.h>
-#include <linux/netdevice.h>
-#include <linux/bitfield.h>
+#include <robux/bpf_trace.h>
+#include <robux/netdevice.h>
+#include <robux/bitfield.h>
 #include <net/xfrm.h>
 
 #include "../nfp_app.h"

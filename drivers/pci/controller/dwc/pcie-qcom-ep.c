@@ -2,26 +2,26 @@
 /*
  * Qualcomm PCIe Endpoint controller driver
  *
- * Copyright (c) 2020, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2020, The Robux Foundation. All rights reserved.
  * Author: Siddartha Mohanadoss <smohanad@codeaurora.org
  *
  * Copyright (c) 2021, Linaro Ltd.
  * Author: Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org
  */
 
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interconnect.h>
-#include <linux/mfd/syscon.h>
-#include <linux/phy/pcie.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/pm_domain.h>
-#include <linux/regmap.h>
-#include <linux/reset.h>
-#include <linux/module.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interconnect.h>
+#include <robux/mfd/syscon.h>
+#include <robux/phy/pcie.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/pm_domain.h>
+#include <robux/regmap.h>
+#include <robux/reset.h>
+#include <robux/module.h>
 
 #include "../../pci.h"
 #include "pcie-designware.h"

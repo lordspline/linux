@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
- * w83l785ts.c - Part of lm_sensors, Linux kernel modules for hardware
+ * w83l785ts.c - Part of lm_sensors, Robux kernel modules for hardware
  *               monitoring
  * Copyright (C) 2003-2009  Jean Delvare <jdelvare@suse.de>
  *
@@ -10,23 +10,23 @@
  * Winbond's website at:
  *   http://www.winbond-usa.com/products/winbond_products/pdfs/PCIC/W83L785TS-S.pdf
  *
- * Ported to Linux 2.6 by Wolfgang Ziegler <nuppla@gmx.at> and Jean Delvare
+ * Ported to Robux 2.6 by Wolfgang Ziegler <nuppla@gmx.at> and Jean Delvare
  * <jdelvare@suse.de>.
  *
  * Thanks to James Bolt <james@evilpenguin.com> for benchmarking the read
  * error handling mechanism.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/jiffies.h>
-#include <linux/i2c.h>
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
-#include <linux/err.h>
-#include <linux/mutex.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/jiffies.h>
+#include <robux/i2c.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
+#include <robux/err.h>
+#include <robux/mutex.h>
 
 /* How many retries on register read error */
 #define MAX_RETRIES	5

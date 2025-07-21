@@ -6,16 +6,16 @@
  *  MyungJoo Ham <myungjoo.ham@samsung.com>
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/math64.h>
-#include <linux/mod_devicetable.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/err.h>
-#include <linux/fixp-arith.h>
-#include <linux/iio/consumer.h>
-#include <linux/hwmon.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/math64.h>
+#include <robux/mod_devicetable.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/err.h>
+#include <robux/fixp-arith.h>
+#include <robux/iio/consumer.h>
+#include <robux/hwmon.h>
 
 enum ntc_thermistor_type {
 	TYPE_B57330V2103,

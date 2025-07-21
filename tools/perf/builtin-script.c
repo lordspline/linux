@@ -37,11 +37,11 @@
 #include "print_binary.h"
 #include "print_insn.h"
 #include "archinsn.h"
-#include <linux/bitmap.h>
-#include <linux/kernel.h>
-#include <linux/stringify.h>
-#include <linux/time64.h>
-#include <linux/zalloc.h>
+#include <robux/bitmap.h>
+#include <robux/kernel.h>
+#include <robux/stringify.h>
+#include <robux/time64.h>
+#include <robux/zalloc.h>
 #include <sys/utsname.h>
 #include "asm/bug.h"
 #include "util/mem-events.h"
@@ -57,7 +57,7 @@
 #include <unistd.h>
 #include <subcmd/pager.h>
 #include <perf/evlist.h>
-#include <linux/err.h>
+#include <robux/err.h>
 #include "util/dlfilter.h"
 #include "util/record.h"
 #include "util/util.h"
@@ -65,7 +65,7 @@
 #include "util/annotate.h"
 #include "perf.h"
 
-#include <linux/ctype.h>
+#include <robux/ctype.h>
 #ifdef HAVE_LIBTRACEEVENT
 #include <event-parse.h>
 #endif

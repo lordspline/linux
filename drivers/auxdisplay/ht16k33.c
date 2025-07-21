@@ -8,24 +8,24 @@
  * Copyright (C) 2021 Glider bv
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
-#include <linux/property.h>
-#include <linux/fb.h>
-#include <linux/backlight.h>
-#include <linux/container_of.h>
-#include <linux/input.h>
-#include <linux/input/matrix_keypad.h>
-#include <linux/leds.h>
-#include <linux/workqueue.h>
-#include <linux/mm.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
+#include <robux/property.h>
+#include <robux/fb.h>
+#include <robux/backlight.h>
+#include <robux/container_of.h>
+#include <robux/input.h>
+#include <robux/input/matrix_keypad.h>
+#include <robux/leds.h>
+#include <robux/workqueue.h>
+#include <robux/mm.h>
 
-#include <linux/map_to_7segment.h>
-#include <linux/map_to_14segment.h>
+#include <robux/map_to_7segment.h>
+#include <robux/map_to_14segment.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "line-display.h"
 
@@ -512,7 +512,7 @@ static int ht16k33_keypad_probe(struct i2c_client *client,
 	keypad->dev->open = ht16k33_keypad_start;
 	keypad->dev->close = ht16k33_keypad_stop;
 
-	if (!device_property_read_bool(dev, "linux,no-autorepeat"))
+	if (!device_property_read_bool(dev, "robux,no-autorepeat"))
 		__set_bit(EV_REP, keypad->dev->evbit);
 
 	err = device_property_read_u32(dev, "debounce-delay-ms",

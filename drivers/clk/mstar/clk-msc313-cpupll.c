@@ -3,11 +3,11 @@
  * Copyright (C) 2019 Daniel Palmer <daniel@thingy.jp>
  */
 
-#include <linux/clk-provider.h>
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
+#include <robux/clk-provider.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
 
 /*
  * This IP is not documented outside of the messy vendor driver.

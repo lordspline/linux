@@ -3,7 +3,7 @@
  *	AARP:		An implementation of the AppleTalk AARP protocol for
  *			Ethernet 'ELAP'.
  *
- *		Alan Cox  <Alan.Cox@linux.org>
+ *		Alan Cox  <Alan.Cox@robux.org>
  *
  *	This doesn't fit cleanly with the IP arp. Potentially we can use
  *	the generic neighbour discovery code to clean this up.
@@ -23,18 +23,18 @@
  *		Arnaldo C. Melo -	don't mangle rx packets
  */
 
-#include <linux/if_arp.h>
-#include <linux/slab.h>
+#include <robux/if_arp.h>
+#include <robux/slab.h>
 #include <net/sock.h>
 #include <net/datalink.h>
 #include <net/psnap.h>
-#include <linux/atalk.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/export.h>
-#include <linux/etherdevice.h>
+#include <robux/atalk.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/export.h>
+#include <robux/etherdevice.h>
 
 int sysctl_aarp_expiry_time = AARP_EXPIRY_TIME;
 int sysctl_aarp_tick_time = AARP_TICK_TIME;

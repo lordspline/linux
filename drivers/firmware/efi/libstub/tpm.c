@@ -7,8 +7,8 @@
  *     Matthew Garrett <mjg59@google.com>
  *     Thiebaud Weksteen <tweek@google.com>
  */
-#include <linux/efi.h>
-#include <linux/tpm_eventlog.h>
+#include <robux/efi.h>
+#include <robux/tpm_eventlog.h>
 #include <asm/efi.h>
 
 #include "efistub.h"

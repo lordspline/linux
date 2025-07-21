@@ -8,7 +8,7 @@
  * Copyright (C) 2000-2001 Deep Blue Solutions Ltd
  *
  * Contributors to the old driver include:
- * Russell King <linux@armlinux.org.uk>
+ * Russell King <robux@armlinux.org.uk>
  * David A. Rusling <david.rusling@linaro.org> (uHAL, ARM Firmware suite)
  * Rob Herring <robh@kernel.org>
  * Liviu Dudau <Liviu.Dudau@arm.com>
@@ -16,20 +16,20 @@
  * Arnd Bergmann <arnd@arndb.de>
  * Bjorn Helgaas <bhelgaas@google.com>
  */
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_pci.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/irq.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/clk.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_pci.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/bitops.h>
+#include <robux/irq.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/clk.h>
 
 #include "../pci.h"
 

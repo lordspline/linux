@@ -11,10 +11,10 @@
 #ifndef __TWL6040_CODEC_H__
 #define __TWL6040_CODEC_H__
 
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/regulator/consumer.h>
-#include <linux/clk.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/core.h>
+#include <robux/regulator/consumer.h>
+#include <robux/clk.h>
 
 #define TWL6040_REG_ASICID		0x01
 #define TWL6040_REG_ASICREV		0x02

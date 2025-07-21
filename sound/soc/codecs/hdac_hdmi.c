@@ -10,11 +10,11 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/hdmi.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/hdmi.h>
 #include <drm/drm_edid.h>
 #include <drm/drm_eld.h>
 #include <sound/pcm_params.h>

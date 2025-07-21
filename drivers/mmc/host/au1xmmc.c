@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/drivers/mmc/host/au1xmmc.c - AU1XX0 MMC driver
+ * robux/drivers/mmc/host/au1xmmc.c - AU1XX0 MMC driver
  *
  *  Copyright (c) 2005, Advanced Micro Devices, Inc.
  *
@@ -30,19 +30,19 @@
  * (the low to high transition will not occur).
  */
 
-#include <linux/clk.h>
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/mm.h>
-#include <linux/interrupt.h>
-#include <linux/dma-mapping.h>
-#include <linux/scatterlist.h>
-#include <linux/highmem.h>
-#include <linux/leds.h>
-#include <linux/mmc/host.h>
-#include <linux/slab.h>
-#include <linux/workqueue.h>
+#include <robux/clk.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/mm.h>
+#include <robux/interrupt.h>
+#include <robux/dma-mapping.h>
+#include <robux/scatterlist.h>
+#include <robux/highmem.h>
+#include <robux/leds.h>
+#include <robux/mmc/host.h>
+#include <robux/slab.h>
+#include <robux/workqueue.h>
 
 #include <asm/io.h>
 #include <asm/mach-au1x00/au1000.h>

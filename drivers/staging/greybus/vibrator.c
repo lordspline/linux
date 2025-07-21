@@ -6,14 +6,14 @@
  * Copyright 2014 Linaro Ltd.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/kdev_t.h>
-#include <linux/idr.h>
-#include <linux/pm_runtime.h>
-#include <linux/greybus.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/kdev_t.h>
+#include <robux/idr.h>
+#include <robux/pm_runtime.h>
+#include <robux/greybus.h>
 
 struct gb_vibrator_device {
 	struct gb_connection	*connection;

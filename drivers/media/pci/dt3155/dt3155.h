@@ -10,8 +10,8 @@
 #ifndef _DT3155_H_
 #define _DT3155_H_
 
-#include <linux/pci.h>
-#include <linux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/interrupt.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-dev.h>
 #include <media/videobuf2-v4l2.h>

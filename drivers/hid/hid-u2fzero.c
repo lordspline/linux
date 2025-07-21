@@ -11,13 +11,13 @@
  * published by the Free Software Foundation, version 2.
  */
 
-#include <linux/hid.h>
-#include <linux/hidraw.h>
-#include <linux/hw_random.h>
-#include <linux/leds.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/usb.h>
+#include <robux/hid.h>
+#include <robux/hidraw.h>
+#include <robux/hw_random.h>
+#include <robux/leds.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/usb.h>
 
 #include "usbhid/usbhid.h"
 #include "hid-ids.h"

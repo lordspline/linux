@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * Simple NUMA memory policy for the Linux kernel.
+ * Simple NUMA memory policy for the Robux kernel.
  *
  * Copyright 2003,2004 Andi Kleen, SuSE Labs.
  * (C) Copyright 2005 Christoph Lameter, Silicon Graphics, Inc.
@@ -42,7 +42,7 @@
  *                similar to preferred without the special case.
  *
  * default        Allocate on the local node first, or when on a VMA
- *                use the process policy. This is what Linux always did
+ *                use the process policy. This is what Robux always did
  *		  in a NUMA aware kernel and still does by, ahem, default.
  *
  * The process policy is applied for most non interrupt memory allocations
@@ -77,44 +77,44 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/mempolicy.h>
-#include <linux/pagewalk.h>
-#include <linux/highmem.h>
-#include <linux/hugetlb.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/sched/mm.h>
-#include <linux/sched/numa_balancing.h>
-#include <linux/sched/task.h>
-#include <linux/nodemask.h>
-#include <linux/cpuset.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/export.h>
-#include <linux/nsproxy.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/compat.h>
-#include <linux/ptrace.h>
-#include <linux/swap.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
-#include <linux/migrate.h>
-#include <linux/ksm.h>
-#include <linux/rmap.h>
-#include <linux/security.h>
-#include <linux/syscalls.h>
-#include <linux/ctype.h>
-#include <linux/mm_inline.h>
-#include <linux/mmu_notifier.h>
-#include <linux/printk.h>
-#include <linux/swapops.h>
-#include <linux/gcd.h>
+#include <robux/mempolicy.h>
+#include <robux/pagewalk.h>
+#include <robux/highmem.h>
+#include <robux/hugetlb.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/sched/mm.h>
+#include <robux/sched/numa_balancing.h>
+#include <robux/sched/task.h>
+#include <robux/nodemask.h>
+#include <robux/cpuset.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/export.h>
+#include <robux/nsproxy.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/compat.h>
+#include <robux/ptrace.h>
+#include <robux/swap.h>
+#include <robux/seq_file.h>
+#include <robux/proc_fs.h>
+#include <robux/migrate.h>
+#include <robux/ksm.h>
+#include <robux/rmap.h>
+#include <robux/security.h>
+#include <robux/syscalls.h>
+#include <robux/ctype.h>
+#include <robux/mm_inline.h>
+#include <robux/mmu_notifier.h>
+#include <robux/printk.h>
+#include <robux/swapops.h>
+#include <robux/gcd.h>
 
 #include <asm/tlbflush.h>
 #include <asm/tlb.h>
-#include <linux/uaccess.h>
-#include <linux/memory.h>
+#include <robux/uaccess.h>
+#include <robux/memory.h>
 
 #include "internal.h"
 

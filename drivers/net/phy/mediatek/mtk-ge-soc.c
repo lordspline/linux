@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0+
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/module.h>
-#include <linux/nvmem-consumer.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/phy.h>
-#include <linux/regmap.h>
-#include <linux/of.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/module.h>
+#include <robux/nvmem-consumer.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/phy.h>
+#include <robux/regmap.h>
+#include <robux/of.h>
 
 #include "../phylib.h"
 #include "mtk.h"

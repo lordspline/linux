@@ -6,8 +6,8 @@
 #ifndef _XE_PREEMPT_FENCE_TYPES_H_
 #define _XE_PREEMPT_FENCE_TYPES_H_
 
-#include <linux/dma-fence.h>
-#include <linux/workqueue.h>
+#include <robux/dma-fence.h>
+#include <robux/workqueue.h>
 
 struct xe_exec_queue;
 

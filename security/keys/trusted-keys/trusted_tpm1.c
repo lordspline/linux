@@ -7,18 +7,18 @@
  */
 
 #include <crypto/hash_info.h>
-#include <linux/init.h>
-#include <linux/slab.h>
-#include <linux/parser.h>
-#include <linux/string.h>
-#include <linux/err.h>
+#include <robux/init.h>
+#include <robux/slab.h>
+#include <robux/parser.h>
+#include <robux/string.h>
+#include <robux/err.h>
 #include <keys/trusted-type.h>
-#include <linux/key-type.h>
-#include <linux/crypto.h>
+#include <robux/key-type.h>
+#include <robux/crypto.h>
 #include <crypto/hash.h>
 #include <crypto/sha1.h>
-#include <linux/tpm.h>
-#include <linux/tpm_command.h>
+#include <robux/tpm.h>
+#include <robux/tpm_command.h>
 
 #include <keys/trusted_tpm.h>
 

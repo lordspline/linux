@@ -16,18 +16,18 @@
  * Copyright (c) 2007-2009 Novell Inc.
  */
 
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/delay.h>
-#include <linux/dma-map-ops.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/kthread.h>
-#include <linux/wait.h>
-#include <linux/async.h>
-#include <linux/pm_runtime.h>
-#include <linux/pinctrl/devinfo.h>
-#include <linux/slab.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/delay.h>
+#include <robux/dma-map-ops.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/kthread.h>
+#include <robux/wait.h>
+#include <robux/async.h>
+#include <robux/pm_runtime.h>
+#include <robux/pinctrl/devinfo.h>
+#include <robux/slab.h>
 
 #include "base.h"
 #include "power/power.h"

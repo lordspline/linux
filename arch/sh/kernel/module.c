@@ -11,14 +11,14 @@
 	Based on the sh version, and on code from the sh64-specific parts of
 	modutils, originally written by Richard Curnow and Ben Gaster.
 */
-#include <linux/moduleloader.h>
-#include <linux/elf.h>
-#include <linux/vmalloc.h>
-#include <linux/bug.h>
-#include <linux/fs.h>
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/unaligned.h>
+#include <robux/moduleloader.h>
+#include <robux/elf.h>
+#include <robux/vmalloc.h>
+#include <robux/bug.h>
+#include <robux/fs.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/unaligned.h>
 #include <asm/dwarf.h>
 
 int apply_relocate_add(Elf32_Shdr *sechdrs,

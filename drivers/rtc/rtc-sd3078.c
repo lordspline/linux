@@ -4,12 +4,12 @@
  * Copyright (C) 2018 Zoro Li
  */
 
-#include <linux/bcd.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/rtc.h>
-#include <linux/slab.h>
+#include <robux/bcd.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/rtc.h>
+#include <robux/slab.h>
 
 #define SD3078_REG_SC			0x00
 #define SD3078_REG_MN			0x01

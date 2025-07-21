@@ -9,17 +9,17 @@
  * 2007 (c) MontaVista Software, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/mod_devicetable.h>
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/watchdog.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/device.h>
-#include <linux/clk.h>
-#include <linux/err.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/mod_devicetable.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/watchdog.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/device.h>
+#include <robux/clk.h>
+#include <robux/err.h>
 
 #define MODULE_NAME "DAVINCI-WDT: "
 

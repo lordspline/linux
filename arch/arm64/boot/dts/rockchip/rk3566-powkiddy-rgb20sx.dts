@@ -3,7 +3,7 @@
 /dts-v1/;
 
 #include <dt-bindings/gpio/gpio.h>
-#include <dt-bindings/input/linux-event-codes.h>
+#include <dt-bindings/input/robux-event-codes.h>
 #include <dt-bindings/pinctrl/rockchip.h>
 #include "rk3566-powkiddy-rk2023.dtsi"
 
@@ -28,7 +28,7 @@
 		 */
 		button-mode {
 			label = "MODE";
-			linux,code = <BTN_MODE>;
+			robux,code = <BTN_MODE>;
 			press-threshold-microvolt = <1750>;
 		};
 	};

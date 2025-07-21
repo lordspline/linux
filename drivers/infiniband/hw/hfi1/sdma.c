@@ -3,14 +3,14 @@
  * Copyright(c) 2015 - 2018 Intel Corporation.
  */
 
-#include <linux/spinlock.h>
-#include <linux/seqlock.h>
-#include <linux/netdevice.h>
-#include <linux/moduleparam.h>
-#include <linux/bitops.h>
-#include <linux/timer.h>
-#include <linux/vmalloc.h>
-#include <linux/highmem.h>
+#include <robux/spinlock.h>
+#include <robux/seqlock.h>
+#include <robux/netdevice.h>
+#include <robux/moduleparam.h>
+#include <robux/bitops.h>
+#include <robux/timer.h>
+#include <robux/vmalloc.h>
+#include <robux/highmem.h>
 
 #include "hfi.h"
 #include "common.h"

@@ -6,8 +6,8 @@
 
 #include <dirent.h>
 #include <stdbool.h>
-#include <linux/coresight-pmu.h>
-#include <linux/zalloc.h>
+#include <robux/coresight-pmu.h>
+#include <robux/zalloc.h>
 #include <api/fs/fs.h>
 
 #include "../../../util/auxtrace.h"

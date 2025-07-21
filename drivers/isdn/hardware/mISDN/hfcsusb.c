@@ -16,11 +16,11 @@
  * Revision: 0.3.3 (socket), 2008-11-05
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/usb.h>
-#include <linux/mISDNhw.h>
-#include <linux/slab.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/usb.h>
+#include <robux/mISDNhw.h>
+#include <robux/slab.h>
 #include "hfcsusb.h"
 
 static unsigned int debug;

@@ -34,9 +34,9 @@
  * SOFTWARE.
  */
 
-#include <linux/gfp.h>
-#include <linux/hardirq.h>
-#include <linux/sched.h>
+#include <robux/gfp.h>
+#include <robux/hardirq.h>
+#include <robux/sched.h>
 
 #include <asm/io.h>
 

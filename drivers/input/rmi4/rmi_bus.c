@@ -4,16 +4,16 @@
  * Copyright (c) 2011 Unixphere
  */
 
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/irq.h>
-#include <linux/irqdomain.h>
-#include <linux/list.h>
-#include <linux/pm.h>
-#include <linux/rmi.h>
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/irq.h>
+#include <robux/irqdomain.h>
+#include <robux/list.h>
+#include <robux/pm.h>
+#include <robux/rmi.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/of.h>
 #include "rmi_bus.h"
 #include "rmi_driver.h"
 

@@ -4,19 +4,19 @@
  *
  * Copyright (C) 2015 Intel Corporation
  *
- * Author: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+ * Author: Heikki Krogerus <heikki.krogerus@robux.intel.com>
  */
 
-#include <linux/ulpi/interface.h>
-#include <linux/ulpi/driver.h>
-#include <linux/ulpi/regs.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/debugfs.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/clk/clk-conf.h>
+#include <robux/ulpi/interface.h>
+#include <robux/ulpi/driver.h>
+#include <robux/ulpi/regs.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
+#include <robux/debugfs.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/clk/clk-conf.h>
 
 /* -------------------------------------------------------------------------- */
 

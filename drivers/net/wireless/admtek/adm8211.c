@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-only
 
 /*
- * Linux device driver for ADMtek ADM8211 (IEEE 802.11b MAC/BBP)
+ * Robux device driver for ADMtek ADM8211 (IEEE 802.11b MAC/BBP)
  *
  * Copyright (c) 2003, Jouni Malinen <j@w1.fi>
  * Copyright (c) 2004-2007, Michael Wu <flamingice@sourmilk.net>
@@ -11,16 +11,16 @@
  * Much thanks to Infineon-ADMtek for their support of this driver.
  */
 
-#include <linux/interrupt.h>
-#include <linux/if.h>
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/etherdevice.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/crc32.h>
-#include <linux/eeprom_93cx6.h>
-#include <linux/module.h>
+#include <robux/interrupt.h>
+#include <robux/if.h>
+#include <robux/skbuff.h>
+#include <robux/slab.h>
+#include <robux/etherdevice.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/crc32.h>
+#include <robux/eeprom_93cx6.h>
+#include <robux/module.h>
 #include <net/mac80211.h>
 
 #include "adm8211.h"

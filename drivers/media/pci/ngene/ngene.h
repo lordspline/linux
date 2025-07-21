@@ -8,15 +8,15 @@
 #ifndef _NGENE_H_
 #define _NGENE_H_
 
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/interrupt.h>
-#include <linux/i2c.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/interrupt.h>
+#include <robux/i2c.h>
 #include <asm/dma.h>
-#include <linux/scatterlist.h>
+#include <robux/scatterlist.h>
 
-#include <linux/dvb/frontend.h>
-#include <linux/workqueue.h>
+#include <robux/dvb/frontend.h>
+#include <robux/workqueue.h>
 
 #include <media/dmxdev.h>
 #include <media/dvbdev.h>

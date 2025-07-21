@@ -8,10 +8,10 @@
  * Author: Oleksandr Andrushchenko <oleksandr_andrushchenko@epam.com>
  */
 
-#include <linux/dma-buf.h>
-#include <linux/scatterlist.h>
-#include <linux/shmem_fs.h>
-#include <linux/vmalloc.h>
+#include <robux/dma-buf.h>
+#include <robux/scatterlist.h>
+#include <robux/shmem_fs.h>
+#include <robux/vmalloc.h>
 
 #include <drm/drm_gem.h>
 #include <drm/drm_prime.h>

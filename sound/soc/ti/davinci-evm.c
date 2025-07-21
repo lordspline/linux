@@ -6,14 +6,14 @@
  * Copyright:   (C) 2007 MontaVista Software, Inc., <source@mvista.com>
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/i2c.h>
-#include <linux/of_platform.h>
-#include <linux/clk.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/i2c.h>
+#include <robux/of_platform.h>
+#include <robux/clk.h>
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>

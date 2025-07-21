@@ -12,12 +12,12 @@
  * size and improve performance, 2015.
  */
 
-#include <linux/bitops.h>
-#include <linux/bitmap.h>
-#include <linux/export.h>
-#include <linux/math.h>
-#include <linux/minmax.h>
-#include <linux/swab.h>
+#include <robux/bitops.h>
+#include <robux/bitmap.h>
+#include <robux/export.h>
+#include <robux/math.h>
+#include <robux/minmax.h>
+#include <robux/swab.h>
 
 /*
  * Common helper for find_bit() function family

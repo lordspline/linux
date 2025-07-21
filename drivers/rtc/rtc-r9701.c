@@ -10,16 +10,16 @@
  * Copyright (C) 2004 Compulab Ltd.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/device.h>
-#include <linux/init.h>
-#include <linux/rtc.h>
-#include <linux/spi/spi.h>
-#include <linux/bcd.h>
-#include <linux/delay.h>
-#include <linux/bitops.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/device.h>
+#include <robux/init.h>
+#include <robux/rtc.h>
+#include <robux/spi/spi.h>
+#include <robux/bcd.h>
+#include <robux/delay.h>
+#include <robux/bitops.h>
 
 #define RSECCNT	0x00	/* Second Counter */
 #define RMINCNT	0x01	/* Minute Counter */

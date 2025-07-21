@@ -6,22 +6,22 @@
  * Author: Charles-Antoine Couret <charles-antoine.couret@nexvision.fr>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/spi/spi.h>
-#include <linux/platform_device.h>
-#include <linux/ctype.h>
-#include <linux/err.h>
-#include <linux/device.h>
-#include <linux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/spi/spi.h>
+#include <robux/platform_device.h>
+#include <robux/ctype.h>
+#include <robux/err.h>
+#include <robux/device.h>
+#include <robux/module.h>
 
-#include <linux/videodev2.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-subdev.h>
 #include <media/v4l2-dv-timings.h>
-#include <linux/v4l2-dv-timings.h>
+#include <robux/v4l2-dv-timings.h>
 
 #define REG_STATUS			0x04
 #define REG_FORCE_FMT			0x06

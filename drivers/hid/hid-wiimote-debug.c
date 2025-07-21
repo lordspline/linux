@@ -7,11 +7,11 @@
 /*
  */
 
-#include <linux/debugfs.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
+#include <robux/debugfs.h>
+#include <robux/module.h>
+#include <robux/seq_file.h>
+#include <robux/spinlock.h>
+#include <robux/uaccess.h>
 #include "hid-wiimote.h"
 
 struct wiimote_debug {

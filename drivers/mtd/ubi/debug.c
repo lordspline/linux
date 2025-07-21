@@ -6,11 +6,11 @@
  */
 
 #include "ubi.h"
-#include <linux/debugfs.h>
-#include <linux/uaccess.h>
-#include <linux/module.h>
-#include <linux/seq_file.h>
-#include <linux/fault-inject.h>
+#include <robux/debugfs.h>
+#include <robux/uaccess.h>
+#include <robux/module.h>
+#include <robux/seq_file.h>
+#include <robux/fault-inject.h>
 
 #ifdef CONFIG_MTD_UBI_FAULT_INJECTION
 static DECLARE_FAULT_ATTR(fault_eccerr_attr);

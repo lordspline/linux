@@ -5,7 +5,7 @@
 
 #include "xe_wopcm.h"
 
-#include <linux/fault-inject.h>
+#include <robux/fault-inject.h>
 
 #include "regs/xe_guc_regs.h"
 #include "xe_device.h"

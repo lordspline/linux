@@ -4,12 +4,12 @@
  * Copyright (C) 2004 David S. Miller <davem@redhat.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/percpu.h>
-#include <linux/mm.h>
-#include <linux/swap.h>
-#include <linux/preempt.h>
-#include <linux/pagemap.h>
+#include <robux/kernel.h>
+#include <robux/percpu.h>
+#include <robux/mm.h>
+#include <robux/swap.h>
+#include <robux/preempt.h>
+#include <robux/pagemap.h>
 
 #include <asm/tlbflush.h>
 #include <asm/cacheflush.h>

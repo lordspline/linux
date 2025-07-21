@@ -3,8 +3,8 @@
  * Copyright (C) 2007, 2008 Karsten Wiese <fzu@wemgehoertderstaat.de>
  */
 
-#include <linux/usb.h>
-#include <linux/gfp.h>
+#include <robux/usb.h>
+#include <robux/gfp.h>
 
 #include "usb_stream.h"
 

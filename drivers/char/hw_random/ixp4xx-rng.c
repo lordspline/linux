@@ -11,16 +11,16 @@
  * Fixes by Michael Buesch
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/init.h>
-#include <linux/bitops.h>
-#include <linux/hw_random.h>
-#include <linux/of.h>
-#include <linux/soc/ixp4xx/cpu.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/init.h>
+#include <robux/bitops.h>
+#include <robux/hw_random.h>
+#include <robux/of.h>
+#include <robux/soc/ixp4xx/cpu.h>
 
 #include <asm/io.h>
 

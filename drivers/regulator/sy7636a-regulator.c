@@ -7,14 +7,14 @@
 // Authors: Lars Ivar Miljeteig <lars.ivar.miljeteig@remarkable.com>
 //          Alistair Francis <alistair@alistair23.me>
 
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/mfd/sy7636a.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/driver.h>
-#include <linux/regulator/machine.h>
-#include <linux/regmap.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/mfd/sy7636a.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/driver.h>
+#include <robux/regulator/machine.h>
+#include <robux/regmap.h>
 
 struct sy7636a_data {
 	struct regmap *regmap;

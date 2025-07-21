@@ -13,25 +13,25 @@
  * warranty of any kind, whether express or implied.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/blkdev.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/sd.h>
-#include <linux/sched.h>
-#include <linux/io.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/clk.h>
-#include <linux/bitops.h>
-#include <linux/of_dma.h>
-#include <linux/spinlock.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/blkdev.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/sd.h>
+#include <robux/sched.h>
+#include <robux/io.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/clk.h>
+#include <robux/bitops.h>
+#include <robux/of_dma.h>
+#include <robux/spinlock.h>
 
 #define REG_COMMAND		0
 #define REG_ARGUMENT		4

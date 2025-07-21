@@ -8,15 +8,15 @@
  * Bongsu Jeon <bongsu.jeon@samsung.com>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/nfc.h>
-#include <linux/netdevice.h>
-#include <linux/of.h>
-#include <linux/serdev.h>
-#include <linux/gpio.h>
-#include <linux/of_gpio.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/nfc.h>
+#include <robux/netdevice.h>
+#include <robux/of.h>
+#include <robux/serdev.h>
+#include <robux/gpio.h>
+#include <robux/of_gpio.h>
 
 #include "phy_common.h"
 

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 /*
- * linux/sound/arm/ep93xx-pcm.c - EP93xx ALSA PCM interface
+ * robux/sound/arm/ep93xx-pcm.c - EP93xx ALSA PCM interface
  *
  * Copyright (C) 2006 Lennert Buytenhek <buytenh@wantstofly.org>
  * Copyright (C) 2006 Applied Data Systems
@@ -9,10 +9,10 @@
  *   Copyright (c) 2008 Ryan Mallon
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/dmaengine.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/dmaengine.h>
 
 #include <sound/pcm.h>
 #include <sound/soc.h>

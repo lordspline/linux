@@ -3,8 +3,8 @@
  * Copyright (C) 2001 Dave Engebretsen IBM Corporation
  */
 
-#include <linux/interrupt.h>
-#include <linux/of_irq.h>
+#include <robux/interrupt.h>
+#include <robux/of_irq.h>
 
 #include "pseries.h"
 

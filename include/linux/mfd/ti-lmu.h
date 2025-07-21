@@ -10,10 +10,10 @@
 #ifndef __MFD_TI_LMU_H__
 #define __MFD_TI_LMU_H__
 
-#include <linux/gpio.h>
-#include <linux/notifier.h>
-#include <linux/regmap.h>
-#include <linux/gpio/consumer.h>
+#include <robux/gpio.h>
+#include <robux/notifier.h>
+#include <robux/regmap.h>
+#include <robux/gpio/consumer.h>
 
 /* Notifier event */
 #define LMU_EVENT_MONITOR_DONE		0x01

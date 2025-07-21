@@ -6,7 +6,7 @@
 #ifndef _XE_HMM_H_
 #define _XE_HMM_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct xe_userptr_vma;
 

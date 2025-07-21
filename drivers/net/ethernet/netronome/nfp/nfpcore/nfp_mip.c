@@ -7,8 +7,8 @@
  *          Jason McMullan <jason.mcmullan@netronome.com>
  *          Espen Skoglund <espen.skoglund@netronome.com>
  */
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
 
 #include "nfp.h"
 #include "nfp_cpp.h"

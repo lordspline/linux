@@ -8,12 +8,12 @@
  * Author: Vijaya Kumar K <vijaya.kumar@caviumnetworks.com>
  */
 
-#include <linux/bug.h>
-#include <linux/irq.h>
-#include <linux/kdebug.h>
-#include <linux/kgdb.h>
-#include <linux/kprobes.h>
-#include <linux/sched/task_stack.h>
+#include <robux/bug.h>
+#include <robux/irq.h>
+#include <robux/kdebug.h>
+#include <robux/kgdb.h>
+#include <robux/kprobes.h>
+#include <robux/sched/task_stack.h>
 
 #include <asm/debug-monitors.h>
 #include <asm/insn.h>

@@ -13,22 +13,22 @@
  * 	Tony Li <tony.li@freescale.com>
  * 	Anton Vorontsov <avorontsov@ru.mvista.com>
  */
-#include <linux/kernel.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/string.h>
-#include <linux/fsl/edac.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/memblock.h>
-#include <linux/log2.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/suspend.h>
-#include <linux/syscore_ops.h>
-#include <linux/uaccess.h>
+#include <robux/kernel.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/string.h>
+#include <robux/fsl/edac.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/memblock.h>
+#include <robux/log2.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/suspend.h>
+#include <robux/syscore_ops.h>
+#include <robux/uaccess.h>
 
 #include <asm/io.h>
 #include <asm/pci-bridge.h>
@@ -189,7 +189,7 @@ static bool is_kdump(void)
 		return false;
 	}
 
-	ret = of_property_read_bool(node, "linux,usable-memory");
+	ret = of_property_read_bool(node, "robux,usable-memory");
 	of_node_put(node);
 
 	return ret;

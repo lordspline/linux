@@ -7,14 +7,14 @@
  *	1000Base-X or 10GBase-R on the line side.
  *	SGMII over 1000Base-X.
  */
-#include <linux/module.h>
-#include <linux/phy.h>
-#include <linux/delay.h>
-#include <linux/mdio.h>
-#include <linux/marvell_phy.h>
-#include <linux/of.h>
-#include <linux/sfp.h>
-#include <linux/netdevice.h>
+#include <robux/module.h>
+#include <robux/phy.h>
+#include <robux/delay.h>
+#include <robux/mdio.h>
+#include <robux/marvell_phy.h>
+#include <robux/of.h>
+#include <robux/sfp.h>
+#include <robux/netdevice.h>
 
 /* Port PCS Configuration */
 #define	MV_PCS_CONFIG		0xF002

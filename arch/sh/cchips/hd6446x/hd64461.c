@@ -4,14 +4,14 @@
  *	Hitachi HD64461 companion chip support
  */
 
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/irq.h>
-#include <linux/io.h>
+#include <robux/sched.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/param.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/irq.h>
+#include <robux/io.h>
 #include <asm/irq.h>
 #include <asm/hd64461.h>
 

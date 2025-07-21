@@ -8,11 +8,11 @@
  * Author: Gary R Hook <gary.hook@amd.com>
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/interrupt.h>
-#include <linux/ccp.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/interrupt.h>
+#include <robux/ccp.h>
 
 #include "ccp-dev.h"
 

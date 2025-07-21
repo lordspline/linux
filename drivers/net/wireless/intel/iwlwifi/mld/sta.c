@@ -3,7 +3,7 @@
  * Copyright (C) 2024-2025 Intel Corporation
  */
 
-#include <linux/ieee80211.h>
+#include <robux/ieee80211.h>
 #include <kunit/static_stub.h>
 
 #include "sta.h"

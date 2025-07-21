@@ -8,12 +8,12 @@
  * Rajendra Nayak <rnayak@ti.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/types.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/err.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/types.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/err.h>
+#include <robux/io.h>
 
 #include "prm2xxx.h"
 #include "cm.h"

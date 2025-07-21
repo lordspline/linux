@@ -2,17 +2,17 @@
 /*
  * Arch related setup for Hexagon
  *
- * Copyright (c) 2010-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2013, The Robux Foundation. All rights reserved.
  */
 
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/memblock.h>
-#include <linux/mmzone.h>
-#include <linux/mm.h>
-#include <linux/seq_file.h>
-#include <linux/console.h>
-#include <linux/of_fdt.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/memblock.h>
+#include <robux/mmzone.h>
+#include <robux/mm.h>
+#include <robux/seq_file.h>
+#include <robux/console.h>
+#include <robux/of_fdt.h>
 #include <asm/io.h>
 #include <asm/sections.h>
 #include <asm/setup.h>

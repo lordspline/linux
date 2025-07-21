@@ -25,7 +25,7 @@
  *
  */
 
-#include <linux/gpio/machine.h>
+#include <robux/gpio/machine.h>
 #include "amdgpu.h"
 #include "isp_v4_1_1.h"
 

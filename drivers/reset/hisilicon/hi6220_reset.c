@@ -8,16 +8,16 @@
  * Author: Feng Chen <puck.chen@hisilicon.com>
  */
 
-#include <linux/io.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/bitops.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
-#include <linux/mfd/syscon.h>
-#include <linux/reset-controller.h>
-#include <linux/reset.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/bitops.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
+#include <robux/mfd/syscon.h>
+#include <robux/reset-controller.h>
+#include <robux/reset.h>
+#include <robux/platform_device.h>
 
 #define PERIPH_ASSERT_OFFSET      0x300
 #define PERIPH_DEASSERT_OFFSET    0x304

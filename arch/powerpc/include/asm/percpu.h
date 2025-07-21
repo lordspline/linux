@@ -16,7 +16,7 @@
 #endif /* __powerpc64__ */
 
 #if defined(CONFIG_NEED_PER_CPU_PAGE_FIRST_CHUNK) && defined(CONFIG_SMP)
-#include <linux/jump_label.h>
+#include <robux/jump_label.h>
 DECLARE_STATIC_KEY_FALSE(__percpu_first_chunk_is_paged);
 
 #define percpu_first_chunk_is_paged	\

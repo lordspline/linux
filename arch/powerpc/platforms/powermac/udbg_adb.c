@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/bitops.h>
-#include <linux/ptrace.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
-#include <linux/cuda.h>
-#include <linux/of.h>
+#include <robux/string.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/bitops.h>
+#include <robux/ptrace.h>
+#include <robux/adb.h>
+#include <robux/pmu.h>
+#include <robux/cuda.h>
+#include <robux/of.h>
 #include <asm/machdep.h>
 #include <asm/io.h>
 #include <asm/page.h>

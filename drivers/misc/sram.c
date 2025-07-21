@@ -5,17 +5,17 @@
  * Copyright (C) 2012 Philipp Zabel, Pengutronix
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/genalloc.h>
-#include <linux/io.h>
-#include <linux/list_sort.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/mfd/syscon.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/genalloc.h>
+#include <robux/io.h>
+#include <robux/list_sort.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/mfd/syscon.h>
 #include <soc/at91/atmel-secumod.h>
 
 #include "sram.h"

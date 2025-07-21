@@ -28,7 +28,7 @@ functions, constants), source code, etc. They may be read at:
 
 	https://rust.docs.kernel.org
 
-For linux-next, please see:
+For robux-next, please see:
 
 	https://rust.docs.kernel.org/next/
 

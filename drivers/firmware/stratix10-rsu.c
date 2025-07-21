@@ -3,17 +3,17 @@
  * Copyright (C) 2018-2019, Intel Corporation
  */
 
-#include <linux/arm-smccc.h>
-#include <linux/bitfield.h>
-#include <linux/completion.h>
-#include <linux/kobject.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/firmware/intel/stratix10-svc-client.h>
-#include <linux/string.h>
-#include <linux/sysfs.h>
+#include <robux/arm-smccc.h>
+#include <robux/bitfield.h>
+#include <robux/completion.h>
+#include <robux/kobject.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/firmware/intel/stratix10-svc-client.h>
+#include <robux/string.h>
+#include <robux/sysfs.h>
 
 #define RSU_STATE_MASK			GENMASK_ULL(31, 0)
 #define RSU_VERSION_MASK		GENMASK_ULL(63, 32)

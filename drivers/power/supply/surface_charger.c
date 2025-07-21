@@ -6,14 +6,14 @@
  * Copyright (C) 2019-2021 Maximilian Luz <luzmaximilian@gmail.com>
  */
 
-#include <linux/unaligned.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/power_supply.h>
-#include <linux/types.h>
+#include <robux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/power_supply.h>
+#include <robux/types.h>
 
-#include <linux/surface_aggregator/device.h>
+#include <robux/surface_aggregator/device.h>
 
 
 /* -- SAM interface. -------------------------------------------------------- */

@@ -7,16 +7,16 @@
  * Author: Mark Brown <broonie@opensource.wolfsonmicro.com>
  */
 
-#include <linux/init.h>
-#include <linux/bug.h>
-#include <linux/err.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/wm8400-private.h>
-#include <linux/mfd/wm8400-audio.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/bug.h>
+#include <robux/err.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/wm8400-private.h>
+#include <robux/mfd/wm8400-audio.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
 
 static bool wm8400_volatile(struct device *dev, unsigned int reg)
 {

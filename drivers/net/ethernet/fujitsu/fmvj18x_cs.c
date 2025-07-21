@@ -33,28 +33,28 @@
 #define DRV_NAME	"fmvj18x_cs"
 #define DRV_VERSION	"2.9"
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/ptrace.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/interrupt.h>
-#include <linux/in.h>
-#include <linux/delay.h>
-#include <linux/ethtool.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/if_arp.h>
-#include <linux/ioport.h>
-#include <linux/crc32.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/ptrace.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/interrupt.h>
+#include <robux/in.h>
+#include <robux/delay.h>
+#include <robux/ethtool.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/if_arp.h>
+#include <robux/ioport.h>
+#include <robux/crc32.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ciscode.h>
 #include <pcmcia/ds.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/io.h>
 
 /*====================================================================*/

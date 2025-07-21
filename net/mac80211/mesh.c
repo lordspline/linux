@@ -6,8 +6,8 @@
  * 	       Javier Cardona <javier@cozybit.com>
  */
 
-#include <linux/slab.h>
-#include <linux/unaligned.h>
+#include <robux/slab.h>
+#include <robux/unaligned.h>
 #include <net/sock.h>
 #include "ieee80211_i.h"
 #include "mesh.h"

@@ -5,14 +5,14 @@
  * Copyright 2021 Advanced Micro Devices, Inc.
  */
 
-#include <linux/pci.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
 #include <sound/pcm_params.h>
-#include <linux/pm_runtime.h>
+#include <robux/pm_runtime.h>
 
 #include "acp6x.h"
 

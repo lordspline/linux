@@ -7,15 +7,15 @@
  *  Based on corgi_bl.c by Richard Purdie and kb3886 driver by Robert Woerle
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/mutex.h>
-#include <linux/backlight.h>
-#include <linux/delay.h>
-#include <linux/dmi.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/mutex.h>
+#include <robux/backlight.h>
+#include <robux/delay.h>
+#include <robux/dmi.h>
 
 #define KB3886_PARENT 0x64
 #define KB3886_IO 0x60

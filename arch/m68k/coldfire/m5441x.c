@@ -5,12 +5,12 @@
  *	(C) Copyright Steven King <sfking@fdwdc.com>
  */
 
-#include <linux/clkdev.h>
-#include <linux/kernel.h>
-#include <linux/param.h>
-#include <linux/init.h>
-#include <linux/io.h>
-#include <linux/clk.h>
+#include <robux/clkdev.h>
+#include <robux/kernel.h>
+#include <robux/param.h>
+#include <robux/init.h>
+#include <robux/io.h>
+#include <robux/clk.h>
 #include <asm/machdep.h>
 #include <asm/coldfire.h>
 #include <asm/mcfsim.h>

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/input.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/input.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
-#include <linux/mfd/88pm886.h>
+#include <robux/mfd/88pm886.h>
 
 struct pm886_onkey {
 	struct input_dev *idev;

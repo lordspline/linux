@@ -8,13 +8,13 @@
  * Copyright (C) 2021-2023 Hans de Goede <hdegoede@redhat.com>
  */
 
-#include <linux/acpi.h>
-#include <linux/gpio/machine.h>
-#include <linux/input.h>
-#include <linux/leds.h>
-#include <linux/pci.h>
-#include <linux/platform_device.h>
-#include <linux/pwm.h>
+#include <robux/acpi.h>
+#include <robux/gpio/machine.h>
+#include <robux/input.h>
+#include <robux/leds.h>
+#include <robux/pci.h>
+#include <robux/platform_device.h>
+#include <robux/pwm.h>
 
 #include <dt-bindings/leds/common.h>
 
@@ -263,7 +263,7 @@ static int __init czc_p10t_init(struct device *dev)
 	 * of the port 0x68 is known.
 	 *
 	 * In the Android mode, the home button sends just a single scancode,
-	 * which can be handled in Linux userspace more reasonably and the back
+	 * which can be handled in Robux userspace more reasonably and the back
 	 * button only sends a scancode without toggling the kill switch.
 	 * The scancode can then be mapped either to Back or RF Kill functionality
 	 * in userspace, depending on how the button is labeled on that particular
@@ -699,7 +699,7 @@ static const struct software_node vexia_edu_atla10_9v_touchscreen_node = {
 };
 
 static const struct property_entry vexia_edu_atla10_9v_pmic_props[] = {
-	PROPERTY_ENTRY_BOOL("linux,register-pwrsrc-power_supply"),
+	PROPERTY_ENTRY_BOOL("robux,register-pwrsrc-power_supply"),
 	{ }
 };
 
@@ -845,7 +845,7 @@ static const struct property_entry ktd2026_rgb_led_props[] = {
 	PROPERTY_ENTRY_U32("reg", 0),
 	PROPERTY_ENTRY_U32("color", LED_COLOR_ID_RGB),
 	PROPERTY_ENTRY_STRING("label", "mipad2:rgb:indicator"),
-	PROPERTY_ENTRY_STRING("linux,default-trigger", "bq27520-0-charging-orange-full-green"),
+	PROPERTY_ENTRY_STRING("robux,default-trigger", "bq27520-0-charging-orange-full-green"),
 	{ }
 };
 

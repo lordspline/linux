@@ -5,15 +5,15 @@
  * Copyright (C) 2016 Broadcom
  */
 
-#include <linux/extcon.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/platform_device.h>
-#include <linux/phy/phy.h>
-#include <linux/module.h>
-#include <linux/dmapool.h>
-#include <linux/interrupt.h>
-#include <linux/moduleparam.h>
+#include <robux/extcon.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/platform_device.h>
+#include <robux/phy/phy.h>
+#include <robux/module.h>
+#include <robux/dmapool.h>
+#include <robux/interrupt.h>
+#include <robux/moduleparam.h>
 #include "amd5536udc.h"
 
 /* description */

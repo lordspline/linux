@@ -4,10 +4,10 @@
  *
  * Copyright (C) 2009  Paul Mundt
  */
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/perf_event.h>
-#include <linux/percpu.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/perf_event.h>
+#include <robux/percpu.h>
 #include <asm/unwinder.h>
 #include <asm/ptrace.h>
 

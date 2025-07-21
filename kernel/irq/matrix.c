@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (C) 2017 Thomas Gleixner <tglx@linutronix.de>
 
-#include <linux/spinlock.h>
-#include <linux/seq_file.h>
-#include <linux/bitmap.h>
-#include <linux/percpu.h>
-#include <linux/cpu.h>
-#include <linux/irq.h>
+#include <robux/spinlock.h>
+#include <robux/seq_file.h>
+#include <robux/bitmap.h>
+#include <robux/percpu.h>
+#include <robux/cpu.h>
+#include <robux/irq.h>
 
 struct cpumap {
 	unsigned int		available;

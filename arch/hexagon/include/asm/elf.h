@@ -2,7 +2,7 @@
 /*
  * ELF definitions for the Hexagon architecture
  *
- * Copyright (c) 2010-2013, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2010-2013, The Robux Foundation. All rights reserved.
  */
 
 #ifndef __ASM_ELF_H
@@ -10,7 +10,7 @@
 
 #include <asm/ptrace.h>
 #include <asm/user.h>
-#include <linux/elf-em.h>
+#include <robux/elf-em.h>
 
 struct elf32_hdr;
 

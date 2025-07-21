@@ -4,11 +4,11 @@
  *
  * Copyright IBM Corp. 2018
  *
- * Author(s): Philipp Rudo <prudo@linux.vnet.ibm.com>
+ * Author(s): Philipp Rudo <prudo@robux.vnet.ibm.com>
  */
 
-#include <linux/kexec.h>
-#include <linux/string.h>
+#include <robux/kexec.h>
+#include <robux/string.h>
 #include <crypto/sha2.h>
 #include <asm/purgatory.h>
 

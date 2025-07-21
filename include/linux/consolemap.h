@@ -17,7 +17,7 @@ enum translation_map {
 	LAST_MAP = USER_MAP,
 };
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct vc_data;
 

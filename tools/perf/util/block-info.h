@@ -2,7 +2,7 @@
 #ifndef __PERF_BLOCK_H
 #define __PERF_BLOCK_H
 
-#include <linux/types.h>
+#include <robux/types.h>
 #include "hist.h"
 #include "symbol.h"
 #include "sort.h"

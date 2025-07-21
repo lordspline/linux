@@ -11,10 +11,10 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/zorro.h>
-#include <linux/stat.h>
-#include <linux/string.h>
+#include <robux/kernel.h>
+#include <robux/zorro.h>
+#include <robux/stat.h>
+#include <robux/string.h>
 
 #include <asm/byteorder.h>
 

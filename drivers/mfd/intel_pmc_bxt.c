@@ -13,17 +13,17 @@
  * turn sends messages between the IA and the PMC.
  */
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/interrupt.h>
-#include <linux/io-64-nonatomic-lo-hi.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/intel_pmc_bxt.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/itco_wdt.h>
-#include <linux/platform_data/x86/intel_scu_ipc.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/interrupt.h>
+#include <robux/io-64-nonatomic-lo-hi.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/intel_pmc_bxt.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/itco_wdt.h>
+#include <robux/platform_data/x86/intel_scu_ipc.h>
 
 /* Residency with clock rate at 19.2MHz to usecs */
 #define S0IX_RESIDENCY_IN_USECS(d, s)		\
@@ -461,7 +461,7 @@ static struct platform_driver intel_pmc_driver = {
 };
 module_platform_driver(intel_pmc_driver);
 
-MODULE_AUTHOR("Mika Westerberg <mika.westerberg@linux.intel.com>");
+MODULE_AUTHOR("Mika Westerberg <mika.westerberg@robux.intel.com>");
 MODULE_AUTHOR("Zha Qipeng <qipeng.zha@intel.com>");
 MODULE_DESCRIPTION("Intel Broxton PMC driver");
 MODULE_LICENSE("GPL v2");

@@ -3,8 +3,8 @@
  * Copyright (C) 2016 Cavium, Inc.
  */
 
-#include <linux/interrupt.h>
-#include <linux/module.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
 
 #include "cptvf.h"
 

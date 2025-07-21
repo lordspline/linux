@@ -7,9 +7,9 @@
  * the Free Software Foundation.
  */
 
-#include <linux/types.h>
-#include <linux/errno.h>
-#include <linux/pci.h>
+#include <robux/types.h>
+#include <robux/errno.h>
+#include <robux/pci.h>
 #include "bnxt_hsi.h"
 #include "bnxt.h"
 #include "bnxt_hwrm.h"

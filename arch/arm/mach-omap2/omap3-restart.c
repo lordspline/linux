@@ -7,9 +7,9 @@
  * Tony Lindgren <tony@atomide.com>
  * Santosh Shilimkar <santosh.shilimkar@ti.com>
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/reboot.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/reboot.h>
 
 #include "common.h"
 #include "control.h"

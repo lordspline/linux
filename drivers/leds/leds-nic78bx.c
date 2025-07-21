@@ -3,19 +3,19 @@
  * Copyright (C) 2016 National Instruments Corp.
  */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/container_of.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/leds.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/bits.h>
+#include <robux/container_of.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/leds.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 #define NIC78BX_USER1_LED_MASK		0x3
 #define NIC78BX_USER1_GREEN_LED		BIT(0)

@@ -6,17 +6,17 @@
  *	Haojian Zhuang <haojian.zhuang@marvell.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/platform_device.h>
-#include <linux/regulator/machine.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/max8925.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/platform_device.h>
+#include <robux/regulator/machine.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/max8925.h>
+#include <robux/of.h>
 
 static const struct resource bk_resources[] = {
 	{ 0x84, 0x84, "mode control", IORESOURCE_REG, },

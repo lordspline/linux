@@ -6,14 +6,14 @@
 //
 // Author: David Rhodes	<david.rhodes@cirrus.com>
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/spi/spi.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/spi/spi.h>
 
 #include "cs35l41.h"
 

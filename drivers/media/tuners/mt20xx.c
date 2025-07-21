@@ -5,10 +5,10 @@
  *
  * This "mt20xx" module was split apart from the original "tuner" module.
  */
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/slab.h>
-#include <linux/videodev2.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/slab.h>
+#include <robux/videodev2.h>
 #include "tuner-i2c.h"
 #include "mt20xx.h"
 

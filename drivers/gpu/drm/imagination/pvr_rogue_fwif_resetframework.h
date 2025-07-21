@@ -4,8 +4,8 @@
 #ifndef PVR_ROGUE_FWIF_RESETFRAMEWORK_H
 #define PVR_ROGUE_FWIF_RESETFRAMEWORK_H
 
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <robux/bits.h>
+#include <robux/types.h>
 
 #include "pvr_rogue_fwif_shared.h"
 

@@ -4,18 +4,18 @@
  *
  * Copyright (C) 2010 OMICRON electronics GmbH
  */
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/ptp_clock_kernel.h>
-#include <linux/platform_device.h>
-#include <linux/soc/ixp4xx/cpu.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/platform_device.h>
+#include <robux/soc/ixp4xx/cpu.h>
 
 #include "ixp46x_ts.h"
 

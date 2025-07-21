@@ -7,11 +7,11 @@
 
 #define DSS_SUBSYS_NAME "HDMIWP"
 
-#include <linux/kernel.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/seq_file.h>
+#include <robux/kernel.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/seq_file.h>
 
 #include "omapdss.h"
 #include "dss.h"

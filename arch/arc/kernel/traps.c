@@ -10,15 +10,15 @@
  * Rahul Trivedi: Codito Technologies 2004
  */
 
-#include <linux/sched/signal.h>
-#include <linux/kdebug.h>
-#include <linux/uaccess.h>
-#include <linux/ptrace.h>
-#include <linux/kprobes.h>
-#include <linux/kgdb.h>
+#include <robux/sched/signal.h>
+#include <robux/kdebug.h>
+#include <robux/uaccess.h>
+#include <robux/ptrace.h>
+#include <robux/kprobes.h>
+#include <robux/kgdb.h>
 #include <asm/entry.h>
 #include <asm/setup.h>
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <asm/kprobes.h>
 #include "unaligned.h"
 

@@ -2,8 +2,8 @@
 #ifndef __SPARC_KERNEL_H
 #define __SPARC_KERNEL_H
 
-#include <linux/interrupt.h>
-#include <linux/ftrace.h>
+#include <robux/interrupt.h>
+#include <robux/ftrace.h>
 
 #include <asm/traps.h>
 #include <asm/head.h>

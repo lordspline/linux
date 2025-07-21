@@ -9,11 +9,11 @@
 
 #include <asm/amd/hsmp.h>
 
-#include <linux/acpi.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/semaphore.h>
-#include <linux/sysfs.h>
+#include <robux/acpi.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/semaphore.h>
+#include <robux/sysfs.h>
 
 #include "hsmp.h"
 

@@ -10,13 +10,13 @@
  * interrupts...)
  */
 
-#include <linux/kernel.h>
-#include <linux/irqflags.h>
-#include <linux/cpumask.h>
+#include <robux/kernel.h>
+#include <robux/irqflags.h>
+#include <robux/cpumask.h>
 
 #include <asm/time.h>
 #include <asm/timex.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/barrier.h>
 
 #include <asm/spr.h>

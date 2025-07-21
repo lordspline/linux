@@ -5,20 +5,20 @@
  *  Copyright (C) 2002 by Ron Minnich <rminnich@lanl.gov>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/fs.h>
-#include <linux/file.h>
-#include <linux/stat.h>
-#include <linux/string.h>
-#include <linux/pagemap.h>
-#include <linux/mount.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/statfs.h>
-#include <linux/magic.h>
-#include <linux/fscache.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/fs.h>
+#include <robux/file.h>
+#include <robux/stat.h>
+#include <robux/string.h>
+#include <robux/pagemap.h>
+#include <robux/mount.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/statfs.h>
+#include <robux/magic.h>
+#include <robux/fscache.h>
 #include <net/9p/9p.h>
 #include <net/9p/client.h>
 

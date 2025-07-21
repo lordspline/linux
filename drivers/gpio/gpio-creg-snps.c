@@ -5,10 +5,10 @@
 // Copyright (C) 2018 Synopsys
 // Author: Eugeniy Paltsev <Eugeniy.Paltsev@synopsys.com>
 
-#include <linux/gpio/driver.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
+#include <robux/gpio/driver.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
 
 #define MAX_GPIO	32
 

@@ -27,8 +27,8 @@
 
 #include <drm/drm_gpuvm.h>
 
-#include <linux/interval_tree_generic.h>
-#include <linux/mm.h>
+#include <robux/interval_tree_generic.h>
+#include <robux/mm.h>
 
 /**
  * DOC: Overview

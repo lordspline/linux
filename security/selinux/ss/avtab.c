@@ -14,10 +14,10 @@
  *          Tuned number of hash slots for avtab to reduce memory usage
  */
 
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
 #include "avtab.h"
 #include "policydb.h"
 

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/seq_file.h>
-#include <linux/kallsyms.h>
-#include <linux/module.h>
-#include <linux/ftrace.h>
-#include <linux/fs.h>
+#include <robux/seq_file.h>
+#include <robux/kallsyms.h>
+#include <robux/module.h>
+#include <robux/ftrace.h>
+#include <robux/fs.h>
 
 #include "trace_output.h"
 

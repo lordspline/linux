@@ -7,18 +7,18 @@
  * Author: Adam Thomson <Adam.Thomson.Opensource@diasemi.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/interrupt.h>
-#include <linux/mutex.h>
-#include <linux/completion.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/machine.h>
-#include <linux/iio/driver.h>
-#include <linux/mfd/da9150/core.h>
-#include <linux/mfd/da9150/registers.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/interrupt.h>
+#include <robux/mutex.h>
+#include <robux/completion.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/machine.h>
+#include <robux/iio/driver.h>
+#include <robux/mfd/da9150/core.h>
+#include <robux/mfd/da9150/registers.h>
 
 /* Channels */
 enum da9150_gpadc_hw_channel {

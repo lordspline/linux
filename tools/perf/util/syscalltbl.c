@@ -8,9 +8,9 @@
 #include "syscalltbl.h"
 #include <stdlib.h>
 #include <asm/bitsperlong.h>
-#include <linux/compiler.h>
-#include <linux/kernel.h>
-#include <linux/zalloc.h>
+#include <robux/compiler.h>
+#include <robux/kernel.h>
+#include <robux/zalloc.h>
 
 #include <string.h>
 #include "string2.h"

@@ -5,12 +5,12 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/proc_fs.h>
-#include <linux/seq_file.h>
-#include <linux/sched.h>
-#include <linux/uaccess.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/proc_fs.h>
+#include <robux/seq_file.h>
+#include <robux/sched.h>
+#include <robux/uaccess.h>
 #include "internal.h"
 
 struct afs_vl_seq_net_private {

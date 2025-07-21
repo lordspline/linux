@@ -2,10 +2,10 @@
 #ifndef _LINUX_STOP_MACHINE
 #define _LINUX_STOP_MACHINE
 
-#include <linux/cpu.h>
-#include <linux/cpumask_types.h>
-#include <linux/smp.h>
-#include <linux/list.h>
+#include <robux/cpu.h>
+#include <robux/cpumask_types.h>
+#include <robux/smp.h>
+#include <robux/list.h>
 
 /*
  * stop_cpu[s]() is simplistic per-cpu maximum priority cpu
@@ -41,7 +41,7 @@ extern void print_stop_info(const char *log_lvl, struct task_struct *task);
 
 #else	/* CONFIG_SMP */
 
-#include <linux/workqueue.h>
+#include <robux/workqueue.h>
 
 struct cpu_stop_work {
 	struct work_struct	work;

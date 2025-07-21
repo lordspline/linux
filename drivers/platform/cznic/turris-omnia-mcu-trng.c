@@ -5,17 +5,17 @@
  * 2024 by Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/completion.h>
-#include <linux/container_of.h>
-#include <linux/errno.h>
-#include <linux/hw_random.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/minmax.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/completion.h>
+#include <robux/container_of.h>
+#include <robux/errno.h>
+#include <robux/hw_random.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/minmax.h>
+#include <robux/string.h>
+#include <robux/types.h>
 
-#include <linux/turris-omnia-mcu-interface.h>
+#include <robux/turris-omnia-mcu-interface.h>
 #include "turris-omnia-mcu.h"
 
 #define OMNIA_CMD_TRNG_MAX_ENTROPY_LEN	64

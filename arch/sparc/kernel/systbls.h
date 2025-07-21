@@ -2,10 +2,10 @@
 #ifndef _SYSTBLS_H
 #define _SYSTBLS_H
 
-#include <linux/signal.h>
-#include <linux/kernel.h>
-#include <linux/compat.h>
-#include <linux/types.h>
+#include <robux/signal.h>
+#include <robux/kernel.h>
+#include <robux/compat.h>
+#include <robux/types.h>
 
 #include <asm/utrap.h>
 

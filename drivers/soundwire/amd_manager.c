@@ -5,18 +5,18 @@
  * Copyright 2023-24 Advanced Micro Devices, Inc.
  */
 
-#include <linux/completion.h>
-#include <linux/cleanup.h>
-#include <linux/device.h>
-#include <linux/io.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/soundwire/sdw.h>
-#include <linux/soundwire/sdw_registers.h>
-#include <linux/pm_runtime.h>
-#include <linux/wait.h>
+#include <robux/completion.h>
+#include <robux/cleanup.h>
+#include <robux/device.h>
+#include <robux/io.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/soundwire/sdw.h>
+#include <robux/soundwire/sdw_registers.h>
+#include <robux/pm_runtime.h>
+#include <robux/wait.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include "bus.h"

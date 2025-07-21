@@ -5,13 +5,13 @@
  * Copyright (c) 2008 Sascha Hauer <s.hauer@pengutronix.de>, Pengutronix
  */
 
-#include <linux/of.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/gpio/legacy-of-mm-gpiochip.h>
-#include <linux/io.h>
-#include <linux/platform_device.h>
-#include <linux/module.h>
+#include <robux/of.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/gpio/legacy-of-mm-gpiochip.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
+#include <robux/module.h>
 
 #include <asm/mpc52xx.h>
 #include <sysdev/fsl_soc.h>

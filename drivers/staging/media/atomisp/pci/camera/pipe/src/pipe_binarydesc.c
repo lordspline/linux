@@ -4,8 +4,8 @@
  * Copyright (c) 2015, Intel Corporation.
  */
 
-#include <linux/kernel.h>
-#include <linux/math.h>
+#include <robux/kernel.h>
+#include <robux/math.h>
 
 #include "ia_css_pipe_binarydesc.h"
 #include "ia_css_frame_format.h"

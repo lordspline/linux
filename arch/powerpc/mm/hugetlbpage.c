@@ -8,17 +8,17 @@
  * Copyright (C) 2002, Rohit Seth <rohit.seth@intel.com>
  */
 
-#include <linux/mm.h>
-#include <linux/io.h>
-#include <linux/slab.h>
-#include <linux/hugetlb.h>
-#include <linux/export.h>
-#include <linux/of_fdt.h>
-#include <linux/memblock.h>
-#include <linux/moduleparam.h>
-#include <linux/swap.h>
-#include <linux/swapops.h>
-#include <linux/kmemleak.h>
+#include <robux/mm.h>
+#include <robux/io.h>
+#include <robux/slab.h>
+#include <robux/hugetlb.h>
+#include <robux/export.h>
+#include <robux/of_fdt.h>
+#include <robux/memblock.h>
+#include <robux/moduleparam.h>
+#include <robux/swap.h>
+#include <robux/swapops.h>
+#include <robux/kmemleak.h>
 #include <asm/pgalloc.h>
 #include <asm/tlb.h>
 #include <asm/setup.h>

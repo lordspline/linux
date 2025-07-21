@@ -2,12 +2,12 @@
 /*
  * Copyright (C) 2015 Altera Corporation. All rights reserved
  */
-#include <linux/slab.h>
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/mfd/syscon.h>
-#include <linux/of.h>
-#include <linux/regmap.h>
+#include <robux/slab.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/mfd/syscon.h>
+#include <robux/of.h>
+#include <robux/regmap.h>
 
 #include "clk.h"
 

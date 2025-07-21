@@ -29,9 +29,9 @@
 #include <dlfcn.h>
 #include <stddef.h>
 #include <sys/auxv.h>
-#include <linux/auxvec.h>
+#include <robux/auxvec.h>
 
-#include <linux/compiler.h>
+#include <robux/compiler.h>
 
 #include "../kselftest.h"
 #include "rseq.h"

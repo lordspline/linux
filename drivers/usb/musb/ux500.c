@@ -6,14 +6,14 @@
  * Based on omap2430.c
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/clk.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/usb/musb-ux500.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/clk.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/usb/musb-ux500.h>
 
 #include "musb_core.h"
 

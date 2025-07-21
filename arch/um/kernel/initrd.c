@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0
 /*
- * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
+ * Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,robux.intel}.com)
  */
 
-#include <linux/init.h>
-#include <linux/memblock.h>
-#include <linux/initrd.h>
+#include <robux/init.h>
+#include <robux/memblock.h>
+#include <robux/initrd.h>
 #include <asm/types.h>
 #include <init.h>
 #include <os.h>

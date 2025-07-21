@@ -6,8 +6,8 @@
  */
 #include "vmlinux.h"
 #include "syscall_nrs.h"
-#include <linux/version.h>
-#include <uapi/linux/unistd.h>
+#include <robux/version.h>
+#include <uapi/robux/unistd.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_tracing.h>
 #include <bpf/bpf_core_read.h>

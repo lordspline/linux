@@ -6,7 +6,7 @@
 #if !defined(__IVPU_TRACE_H__) || defined(TRACE_HEADER_MULTI_READ)
 #define __IVPU_TRACE_H__
 
-#include <linux/tracepoint.h>
+#include <robux/tracepoint.h>
 #include "ivpu_drv.h"
 #include "ivpu_job.h"
 #include "vpu_jsm_api.h"

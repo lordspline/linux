@@ -3,9 +3,9 @@
 #ifndef __QCOM_Q6V5_H__
 #define __QCOM_Q6V5_H__
 
-#include <linux/kernel.h>
-#include <linux/completion.h>
-#include <linux/soc/qcom/qcom_aoss.h>
+#include <robux/kernel.h>
+#include <robux/completion.h>
+#include <robux/soc/qcom/qcom_aoss.h>
 
 struct icc_path;
 struct rproc;

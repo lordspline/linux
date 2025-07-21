@@ -6,10 +6,10 @@
  *  Author: liujl <liujl@lemote.com>, 2008-04-20
  */
 
-#include <linux/io.h>
-#include <linux/export.h>
-#include <linux/spinlock.h>
-#include <linux/delay.h>
+#include <robux/io.h>
+#include <robux/export.h>
+#include <robux/spinlock.h>
+#include <robux/delay.h>
 
 #include "ec_kb3310b.h"
 

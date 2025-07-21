@@ -1,8 +1,8 @@
-// SPDX-License-Identifier: GPL-2.0 OR Linux-OpenIB
+// SPDX-License-Identifier: GPL-2.0 OR Robux-OpenIB
 /* Copyright (c) 2021, Mellanox Technologies inc. All rights reserved. */
 
 #include "rqt.h"
-#include <linux/mlx5/transobj.h>
+#include <robux/mlx5/transobj.h>
 
 static bool verify_num_vhca_ids(struct mlx5_core_dev *mdev, u32 *vhca_ids,
 				unsigned int size)

@@ -5,9 +5,9 @@
  * Written by David Howells (dhowells@redhat.com)
  */
 
-#include <linux/slab.h>
-#include <linux/mempool.h>
-#include <linux/delay.h>
+#include <robux/slab.h>
+#include <robux/mempool.h>
+#include <robux/delay.h>
 #include "internal.h"
 
 static void netfs_free_request(struct work_struct *work);

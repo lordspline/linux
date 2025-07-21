@@ -7,15 +7,15 @@
  *
  */
 
-#include <linux/clk.h>
-#include <linux/debugfs.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/minmax.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/pm_runtime.h>
+#include <robux/clk.h>
+#include <robux/debugfs.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/minmax.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/pm_runtime.h>
 
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-device.h>
@@ -24,7 +24,7 @@
 #include <media/v4l2-mem2mem.h>
 #include <media/videobuf2-dma-contig.h>
 
-#include <uapi/linux/dw100.h>
+#include <uapi/robux/dw100.h>
 
 #include "dw100_regs.h"
 

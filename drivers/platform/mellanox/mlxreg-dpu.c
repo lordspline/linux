@@ -5,14 +5,14 @@
  * Copyright (C) 2025 Nvidia Technologies Ltd.
  */
 
-#include <linux/device.h>
-#include <linux/dev_printk.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/platform_data/mlxcpld.h>
-#include <linux/platform_data/mlxreg.h>
-#include <linux/platform_device.h>
-#include <linux/regmap.h>
+#include <robux/device.h>
+#include <robux/dev_printk.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/platform_data/mlxcpld.h>
+#include <robux/platform_data/mlxreg.h>
+#include <robux/platform_device.h>
+#include <robux/regmap.h>
 
 /* I2C bus IO offsets */
 #define MLXREG_DPU_REG_FPGA1_VER_OFFSET			0x2400

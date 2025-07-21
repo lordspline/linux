@@ -25,18 +25,18 @@
  * USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
 
 #include <drm/display/drm_dsc.h>
 #include <drm/drm_mipi_dsi.h>
 #include <drm/drm_print.h>
 
-#include <linux/media-bus-format.h>
+#include <robux/media-bus-format.h>
 
 #include <video/mipi_display.h>
 

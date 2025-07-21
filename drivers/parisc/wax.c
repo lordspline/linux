@@ -7,13 +7,13 @@
  *	(c) 2000-2023 by Helge Deller <deller@gmx.de>
  */
 
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/types.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/types.h>
 
 #include <asm/io.h>
 #include <asm/hardware.h>

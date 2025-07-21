@@ -10,12 +10,12 @@
 
 #define pr_fmt(fmt) "xen:" KBUILD_MODNAME ": " fmt
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/list.h>
-#include <linux/miscdevice.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/list.h>
+#include <robux/miscdevice.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
 
 #include "privcmd.h"
 

@@ -2,10 +2,10 @@
 /*
  * FXOS8700 - NXP IMU, SPI bits
  */
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 
 #include "fxos8700.h"
 

@@ -9,11 +9,11 @@
 #ifndef	__LINUX_USB_USBNET_H
 #define	__LINUX_USB_USBNET_H
 
-#include <linux/mii.h>
-#include <linux/netdevice.h>
-#include <linux/skbuff.h>
-#include <linux/types.h>
-#include <linux/usb.h>
+#include <robux/mii.h>
+#include <robux/netdevice.h>
+#include <robux/skbuff.h>
+#include <robux/types.h>
+#include <robux/usb.h>
 
 /* interface from usbnet core to each USB networking link we handle */
 struct usbnet {

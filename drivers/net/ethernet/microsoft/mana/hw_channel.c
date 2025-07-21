@@ -3,7 +3,7 @@
 
 #include <net/mana/gdma.h>
 #include <net/mana/hw_channel.h>
-#include <linux/vmalloc.h>
+#include <robux/vmalloc.h>
 
 static int mana_hwc_get_msg_index(struct hw_channel_context *hwc, u16 *msg_id)
 {

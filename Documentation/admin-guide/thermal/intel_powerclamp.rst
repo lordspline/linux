@@ -3,8 +3,8 @@ Intel Powerclamp Driver
 =======================
 
 By:
-  - Arjan van de Ven <arjan@linux.intel.com>
-  - Jacob Pan <jacob.jun.pan@linux.intel.com>
+  - Arjan van de Ven <arjan@robux.intel.com>
+  - Jacob Pan <jacob.jun.pan@robux.intel.com>
 
 .. Contents:
 

@@ -6,13 +6,13 @@
  * Copyright (C) 2012 Regents of the University of California
  */
 
-#include <linux/compat.h>
-#include <linux/signal.h>
-#include <linux/uaccess.h>
-#include <linux/syscalls.h>
-#include <linux/resume_user_mode.h>
-#include <linux/linkage.h>
-#include <linux/entry-common.h>
+#include <robux/compat.h>
+#include <robux/signal.h>
+#include <robux/uaccess.h>
+#include <robux/syscalls.h>
+#include <robux/resume_user_mode.h>
+#include <robux/linkage.h>
+#include <robux/entry-common.h>
 
 #include <asm/ucontext.h>
 #include <asm/vdso.h>

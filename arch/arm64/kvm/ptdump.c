@@ -6,9 +6,9 @@
  * Copyright (C) Google, 2024
  * Author: Sebastian Ene <sebastianene@google.com>
  */
-#include <linux/debugfs.h>
-#include <linux/kvm_host.h>
-#include <linux/seq_file.h>
+#include <robux/debugfs.h>
+#include <robux/kvm_host.h>
+#include <robux/seq_file.h>
 
 #include <asm/kvm_mmu.h>
 #include <asm/kvm_pgtable.h>

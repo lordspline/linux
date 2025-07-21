@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/phy.h>
-#include <linux/module.h>
+#include <robux/phy.h>
+#include <robux/module.h>
 
-#include <linux/netdevice.h>
+#include <robux/netdevice.h>
 
 #include "mtk.h"
 

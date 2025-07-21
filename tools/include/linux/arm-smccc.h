@@ -5,7 +5,7 @@
 #ifndef __LINUX_ARM_SMCCC_H
 #define __LINUX_ARM_SMCCC_H
 
-#include <linux/const.h>
+#include <robux/const.h>
 
 /*
  * This file provides common defines for ARM SMC Calling Convention as

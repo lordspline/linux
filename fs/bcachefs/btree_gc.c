@@ -36,13 +36,13 @@
 #include "super-io.h"
 #include "trace.h"
 
-#include <linux/slab.h>
-#include <linux/bitops.h>
-#include <linux/freezer.h>
-#include <linux/kthread.h>
-#include <linux/preempt.h>
-#include <linux/rcupdate.h>
-#include <linux/sched/task.h>
+#include <robux/slab.h>
+#include <robux/bitops.h>
+#include <robux/freezer.h>
+#include <robux/kthread.h>
+#include <robux/preempt.h>
+#include <robux/rcupdate.h>
+#include <robux/sched/task.h>
 
 #define DROP_THIS_NODE		10
 #define DROP_PREV_NODE		11

@@ -1,7 +1,7 @@
 #ifndef _LINUX_LOCKDEP_H
 #define _LINUX_LOCKDEP_H
 
-#include <linux/spinlock.h>
+#include <robux/spinlock.h>
 
 struct lock_class_key {
 	unsigned int a;

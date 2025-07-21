@@ -15,9 +15,9 @@
  * Copyright (c) 2018 William Whistler <wtbw@wtbw.co.uk>
  */
 
-#include <linux/device.h>
-#include <linux/hid.h>
-#include <linux/module.h>
+#include <robux/device.h>
+#include <robux/hid.h>
+#include <robux/module.h>
 
 #include "hid-ids.h"
 

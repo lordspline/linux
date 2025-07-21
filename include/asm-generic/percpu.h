@@ -2,9 +2,9 @@
 #ifndef _ASM_GENERIC_PERCPU_H_
 #define _ASM_GENERIC_PERCPU_H_
 
-#include <linux/compiler.h>
-#include <linux/threads.h>
-#include <linux/percpu-defs.h>
+#include <robux/compiler.h>
+#include <robux/threads.h>
+#include <robux/percpu-defs.h>
 
 /*
  * __percpu_qual is the qualifier for the percpu named address space.

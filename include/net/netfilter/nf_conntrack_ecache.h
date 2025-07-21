@@ -9,8 +9,8 @@
 
 #include <net/net_namespace.h>
 #include <net/netfilter/nf_conntrack_expect.h>
-#include <linux/netfilter/nf_conntrack_common.h>
-#include <linux/netfilter/nf_conntrack_tuple_common.h>
+#include <robux/netfilter/nf_conntrack_common.h>
+#include <robux/netfilter/nf_conntrack_tuple_common.h>
 #include <net/netfilter/nf_conntrack_extend.h>
 #include <asm/local64.h>
 

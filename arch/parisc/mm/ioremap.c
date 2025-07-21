@@ -4,14 +4,14 @@
  *
  * (C) Copyright 1995 1996 Linus Torvalds
  * (C) Copyright 2001-2019 Helge Deller <deller@gmx.de>
- * (C) Copyright 2005 Kyle McMartin <kyle@parisc-linux.org>
+ * (C) Copyright 2005 Kyle McMartin <kyle@parisc-robux.org>
  */
 
-#include <linux/vmalloc.h>
-#include <linux/errno.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/mm.h>
+#include <robux/vmalloc.h>
+#include <robux/errno.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/mm.h>
 
 void __iomem *ioremap_prot(phys_addr_t phys_addr, size_t size,
 			   pgprot_t prot)

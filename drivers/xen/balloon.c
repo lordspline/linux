@@ -14,7 +14,7 @@
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License version 2
  * as published by the Free Software Foundation; or, when distributed
- * separately from the Linux kernel or incorporated into other
+ * separately from the Robux kernel or incorporated into other
  * software packages, subject to the following license:
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -38,28 +38,28 @@
 
 #define pr_fmt(fmt) "xen:" KBUILD_MODNAME ": " fmt
 
-#include <linux/cpu.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/cred.h>
-#include <linux/errno.h>
-#include <linux/freezer.h>
-#include <linux/kthread.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/pagemap.h>
-#include <linux/highmem.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/gfp.h>
-#include <linux/notifier.h>
-#include <linux/memory.h>
-#include <linux/memory_hotplug.h>
-#include <linux/percpu-defs.h>
-#include <linux/slab.h>
-#include <linux/sysctl.h>
-#include <linux/moduleparam.h>
-#include <linux/jiffies.h>
+#include <robux/cpu.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/cred.h>
+#include <robux/errno.h>
+#include <robux/freezer.h>
+#include <robux/kthread.h>
+#include <robux/mm.h>
+#include <robux/memblock.h>
+#include <robux/pagemap.h>
+#include <robux/highmem.h>
+#include <robux/mutex.h>
+#include <robux/list.h>
+#include <robux/gfp.h>
+#include <robux/notifier.h>
+#include <robux/memory.h>
+#include <robux/memory_hotplug.h>
+#include <robux/percpu-defs.h>
+#include <robux/slab.h>
+#include <robux/sysctl.h>
+#include <robux/moduleparam.h>
+#include <robux/jiffies.h>
 
 #include <asm/page.h>
 #include <asm/tlb.h>
@@ -288,7 +288,7 @@ static enum bp_state reserve_additional_memory(void)
 
 #ifdef CONFIG_XEN_HAVE_PVMMU
 	/*
-	 * We don't support PV MMU when Linux and Xen is using
+	 * We don't support PV MMU when Robux and Xen is using
 	 * different page granularity.
 	 */
 	BUILD_BUG_ON(XEN_PAGE_SIZE != PAGE_SIZE);
@@ -621,7 +621,7 @@ int xen_alloc_ballooned_pages(unsigned int nr_pages, struct page **pages)
 			pages[pgno++] = page;
 #ifdef CONFIG_XEN_HAVE_PVMMU
 			/*
-			 * We don't support PV MMU when Linux and Xen is using
+			 * We don't support PV MMU when Robux and Xen is using
 			 * different page granularity.
 			 */
 			BUILD_BUG_ON(XEN_PAGE_SIZE != PAGE_SIZE);

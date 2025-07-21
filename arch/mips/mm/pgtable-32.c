@@ -5,10 +5,10 @@
  *
  * Copyright (C) 2003 by Ralf Baechle
  */
-#include <linux/init.h>
-#include <linux/mm.h>
-#include <linux/memblock.h>
-#include <linux/highmem.h>
+#include <robux/init.h>
+#include <robux/mm.h>
+#include <robux/memblock.h>
+#include <robux/highmem.h>
 #include <asm/fixmap.h>
 #include <asm/pgalloc.h>
 #include <asm/tlbflush.h>

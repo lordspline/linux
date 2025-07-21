@@ -5,15 +5,15 @@
  * Copyright (c) 2009 Marek Vasut <marek.vasut@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/kernel.h>
-#include <linux/delay.h>
-#include <linux/slab.h>
-#include <linux/gpio/consumer.h>
-#include <linux/lcd.h>
+#include <robux/device.h>
+#include <robux/kernel.h>
+#include <robux/delay.h>
+#include <robux/slab.h>
+#include <robux/gpio/consumer.h>
+#include <robux/lcd.h>
 
-#include <linux/spi/spi.h>
-#include <linux/module.h>
+#include <robux/spi/spi.h>
+#include <robux/module.h>
 
 struct lms283gf05_state {
 	struct spi_device	*spi;

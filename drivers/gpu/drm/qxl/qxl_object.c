@@ -23,8 +23,8 @@
  *          Alon Levy
  */
 
-#include <linux/iosys-map.h>
-#include <linux/io-mapping.h>
+#include <robux/iosys-map.h>
+#include <robux/io-mapping.h>
 
 #include "qxl_drv.h"
 #include "qxl_object.h"

@@ -13,7 +13,7 @@
 #include "crypto.h"
 
 #include <asm/types.h>
-#include <linux/skbuff.h>
+#include <robux/skbuff.h>
 
 int ovpn_aead_encrypt(struct ovpn_peer *peer, struct ovpn_crypto_key_slot *ks,
 		      struct sk_buff *skb);

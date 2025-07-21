@@ -5,19 +5,19 @@
  *
  * Copyright (C) 2011-2013 Xilinx
  *
- * based on linux/arch/arm/mach-realview/platsmp.c
+ * based on robux/arch/arm/mach-realview/platsmp.c
  *
  * Copyright (C) 2002 ARM Ltd.
  */
 
-#include <linux/export.h>
-#include <linux/jiffies.h>
-#include <linux/init.h>
-#include <linux/io.h>
+#include <robux/export.h>
+#include <robux/jiffies.h>
+#include <robux/init.h>
+#include <robux/io.h>
 #include <asm/cacheflush.h>
 #include <asm/smp_plat.h>
 #include <asm/smp_scu.h>
-#include <linux/irqchip/arm-gic.h>
+#include <robux/irqchip/arm-gic.h>
 #include "common.h"
 
 /*

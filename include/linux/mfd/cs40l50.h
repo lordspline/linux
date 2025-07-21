@@ -11,10 +11,10 @@
 #ifndef __MFD_CS40L50_H__
 #define __MFD_CS40L50_H__
 
-#include <linux/firmware/cirrus/cs_dsp.h>
-#include <linux/gpio/consumer.h>
-#include <linux/pm.h>
-#include <linux/regmap.h>
+#include <robux/firmware/cirrus/cs_dsp.h>
+#include <robux/gpio/consumer.h>
+#include <robux/pm.h>
+#include <robux/regmap.h>
 
 /* Power Supply Configuration */
 #define CS40L50_BLOCK_ENABLES2		0x201C

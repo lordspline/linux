@@ -6,8 +6,8 @@
  * Author: Rahul T R <r-ravikumar@ti.com>
  */
 
-#include <linux/io.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/platform_device.h>
 
 #include "cdns-dsi-j721e.h"
 

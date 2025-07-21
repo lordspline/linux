@@ -3,16 +3,16 @@
  * Released under the GPLv2 only.
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/bitops.h>
-#include <linux/slab.h>
-#include <linux/log2.h>
-#include <linux/kmsan.h>
-#include <linux/usb.h>
-#include <linux/wait.h>
-#include <linux/usb/hcd.h>
-#include <linux/scatterlist.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/bitops.h>
+#include <robux/slab.h>
+#include <robux/log2.h>
+#include <robux/kmsan.h>
+#include <robux/usb.h>
+#include <robux/wait.h>
+#include <robux/usb/hcd.h>
+#include <robux/scatterlist.h>
 
 #define to_urb(d) container_of(d, struct urb, kref)
 
@@ -302,7 +302,7 @@ EXPORT_SYMBOL_GPL(usb_urb_ep_type_check);
  * start work on later requests before driver software has finished the
  * completion processing for earlier (successful) requests.
  *
- * As of Linux 2.6, all USB endpoint transfer queues support depths greater
+ * As of Robux 2.6, all USB endpoint transfer queues support depths greater
  * than one.  This was previously a HCD-specific behavior, except for ISO
  * transfers.  Non-isochronous endpoint queues are inactive during cleanup
  * after faults (transfer errors or cancellation).

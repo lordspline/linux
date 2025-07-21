@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (c) 2015 - 2025 Beijing WangXun Technology Co., Ltd. */
 
-#include <linux/phylink.h>
-#include <linux/iopoll.h>
-#include <linux/pci.h>
-#include <linux/phy.h>
+#include <robux/phylink.h>
+#include <robux/iopoll.h>
+#include <robux/pci.h>
+#include <robux/phy.h>
 
 #include "../libwx/wx_type.h"
 #include "../libwx/wx_lib.h"

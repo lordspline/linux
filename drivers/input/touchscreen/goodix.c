@@ -11,18 +11,18 @@
  */
 
 
-#include <linux/kernel.h>
-#include <linux/dmi.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/interrupt.h>
-#include <linux/platform_data/x86/soc.h>
-#include <linux/slab.h>
-#include <linux/acpi.h>
-#include <linux/of.h>
-#include <linux/unaligned.h>
+#include <robux/kernel.h>
+#include <robux/dmi.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/interrupt.h>
+#include <robux/platform_data/x86/soc.h>
+#include <robux/slab.h>
+#include <robux/acpi.h>
+#include <robux/of.h>
+#include <robux/unaligned.h>
 #include "goodix.h"
 
 #define GOODIX_GPIO_INT_NAME		"irq"

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 
-#include <linux/array_size.h>
-#include <linux/dmi.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
+#include <robux/array_size.h>
+#include <robux/dmi.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
 #include <drm/drm_edid.h>
 #include <drm/drm_utils.h>
 

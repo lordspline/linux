@@ -6,7 +6,7 @@
  *  USB/RS232 I-Force joysticks and wheels.
  */
 
-#include <linux/serio.h>
+#include <robux/serio.h>
 #include "iforce.h"
 
 struct iforce_serio {

@@ -7,21 +7,21 @@
  *   Alice Chen <alice_chen@richtek.com>
  */
 
-#include <linux/bitfield.h>
-#include <linux/bitops.h>
-#include <linux/kernel.h>
-#include <linux/leds.h>
-#include <linux/led-class-multicolor.h>
-#include <linux/linear_range.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
-#include <linux/util_macros.h>
+#include <robux/bitfield.h>
+#include <robux/bitops.h>
+#include <robux/kernel.h>
+#include <robux/leds.h>
+#include <robux/led-class-multicolor.h>
+#include <robux/linear_range.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
+#include <robux/util_macros.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 enum {
 	MT6370_LED_ISNK1 = 0,

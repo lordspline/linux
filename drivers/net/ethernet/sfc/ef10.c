@@ -19,10 +19,10 @@
 #include "workarounds.h"
 #include "selftest.h"
 #include "ef10_sriov.h"
-#include <linux/in.h>
-#include <linux/jhash.h>
-#include <linux/wait.h>
-#include <linux/workqueue.h>
+#include <robux/in.h>
+#include <robux/jhash.h>
+#include <robux/wait.h>
+#include <robux/workqueue.h>
 #include <net/udp_tunnel.h>
 
 /* Hardware control for EF10 architecture including 'Huntington'. */

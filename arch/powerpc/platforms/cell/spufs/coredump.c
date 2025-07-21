@@ -7,17 +7,17 @@
  * Author: Dwayne Grant McConnell <decimal@us.ibm.com>
  */
 
-#include <linux/elf.h>
-#include <linux/file.h>
-#include <linux/fdtable.h>
-#include <linux/fs.h>
-#include <linux/gfp.h>
-#include <linux/list.h>
-#include <linux/syscalls.h>
-#include <linux/coredump.h>
-#include <linux/binfmts.h>
+#include <robux/elf.h>
+#include <robux/file.h>
+#include <robux/fdtable.h>
+#include <robux/fs.h>
+#include <robux/gfp.h>
+#include <robux/list.h>
+#include <robux/syscalls.h>
+#include <robux/coredump.h>
+#include <robux/binfmts.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "spufs.h"
 

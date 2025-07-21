@@ -13,13 +13,13 @@
 */
 
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 #include <crypto/algapi.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/types.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/types.h>
 #include <crypto/cast5.h>
 
 static const u32 s5[256] = {

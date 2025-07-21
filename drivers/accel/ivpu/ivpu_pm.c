@@ -3,11 +3,11 @@
  * Copyright (C) 2020-2024 Intel Corporation
  */
 
-#include <linux/highmem.h>
-#include <linux/moduleparam.h>
-#include <linux/pci.h>
-#include <linux/pm_runtime.h>
-#include <linux/reboot.h>
+#include <robux/highmem.h>
+#include <robux/moduleparam.h>
+#include <robux/pci.h>
+#include <robux/pm_runtime.h>
+#include <robux/reboot.h>
 
 #include "ivpu_coredump.h"
 #include "ivpu_drv.h"

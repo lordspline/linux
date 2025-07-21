@@ -6,7 +6,7 @@
 #ifndef _NVME_KEYRING_H
 #define _NVME_KEYRING_H
 
-#include <linux/key.h>
+#include <robux/key.h>
 
 #if IS_ENABLED(CONFIG_NVME_KEYRING)
 

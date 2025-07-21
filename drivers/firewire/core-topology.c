@@ -5,18 +5,18 @@
  * Copyright (C) 2004-2006 Kristian Hoegsberg <krh@bitplanet.net>
  */
 
-#include <linux/bug.h>
-#include <linux/errno.h>
-#include <linux/firewire.h>
-#include <linux/firewire-constants.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/bug.h>
+#include <robux/errno.h>
+#include <robux/firewire.h>
+#include <robux/firewire-constants.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/byteorder.h>
 
 #include "core.h"

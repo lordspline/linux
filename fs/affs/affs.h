@@ -5,12 +5,12 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/buffer_head.h>
+#include <robux/types.h>
+#include <robux/fs.h>
+#include <robux/buffer_head.h>
 #include "amigaffs.h"
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
+#include <robux/mutex.h>
+#include <robux/workqueue.h>
 
 /* Ugly macros make the code more pretty. */
 

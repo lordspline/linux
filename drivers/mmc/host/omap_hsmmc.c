@@ -15,33 +15,33 @@
  * kind, whether express or implied.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/debugfs.h>
-#include <linux/dmaengine.h>
-#include <linux/seq_file.h>
-#include <linux/sizes.h>
-#include <linux/interrupt.h>
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
-#include <linux/platform_device.h>
-#include <linux/timer.h>
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_device.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/core.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/regulator/consumer.h>
-#include <linux/pinctrl/consumer.h>
-#include <linux/pm_runtime.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/platform_data/hsmmc-omap.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/debugfs.h>
+#include <robux/dmaengine.h>
+#include <robux/seq_file.h>
+#include <robux/sizes.h>
+#include <robux/interrupt.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
+#include <robux/platform_device.h>
+#include <robux/timer.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_device.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/core.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/slot-gpio.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/regulator/consumer.h>
+#include <robux/pinctrl/consumer.h>
+#include <robux/pm_runtime.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/platform_data/hsmmc-omap.h>
 
 /* OMAP HSMMC Host Controller Registers */
 #define OMAP_HSMMC_SYSSTATUS	0x0014

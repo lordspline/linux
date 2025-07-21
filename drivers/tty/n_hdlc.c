@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-1.0+
-/* generic HDLC line discipline for Linux
+/* generic HDLC line discipline for Robux
  *
  * Written by Paul Fulghum paulkf@microgate.com
  * for Microgate Corporation
@@ -76,27 +76,27 @@
  * OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <linux/module.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/sched.h>
-#include <linux/types.h>
-#include <linux/fcntl.h>
-#include <linux/interrupt.h>
-#include <linux/ptrace.h>
+#include <robux/module.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/sched.h>
+#include <robux/types.h>
+#include <robux/fcntl.h>
+#include <robux/interrupt.h>
+#include <robux/ptrace.h>
 
-#include <linux/poll.h>
-#include <linux/in.h>
-#include <linux/ioctl.h>
-#include <linux/slab.h>
-#include <linux/tty.h>
-#include <linux/errno.h>
-#include <linux/string.h>	/* used in new tty drivers */
-#include <linux/signal.h>	/* used in new tty drivers */
-#include <linux/if.h>
-#include <linux/bitops.h>
+#include <robux/poll.h>
+#include <robux/in.h>
+#include <robux/ioctl.h>
+#include <robux/slab.h>
+#include <robux/tty.h>
+#include <robux/errno.h>
+#include <robux/string.h>	/* used in new tty drivers */
+#include <robux/signal.h>	/* used in new tty drivers */
+#include <robux/if.h>
+#include <robux/bitops.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include "tty.h"
 
 /*

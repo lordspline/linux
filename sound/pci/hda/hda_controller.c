@@ -9,13 +9,13 @@
  *                     PeiSen Hou <pshou@realtek.com.tw>
  */
 
-#include <linux/clocksource.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
+#include <robux/clocksource.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
 
 #ifdef CONFIG_X86
 /* for art-tsc conversion */

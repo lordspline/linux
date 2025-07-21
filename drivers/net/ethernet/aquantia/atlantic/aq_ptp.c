@@ -6,13 +6,13 @@
  */
 
 /* File aq_ptp.c:
- * Definition of functions for Linux PTP support.
+ * Definition of functions for Robux PTP support.
  */
 
-#include <linux/ptp_clock_kernel.h>
-#include <linux/ptp_classify.h>
-#include <linux/interrupt.h>
-#include <linux/clocksource.h>
+#include <robux/ptp_clock_kernel.h>
+#include <robux/ptp_classify.h>
+#include <robux/interrupt.h>
+#include <robux/clocksource.h>
 
 #include "aq_nic.h"
 #include "aq_ptp.h"

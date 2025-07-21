@@ -9,17 +9,17 @@
  *  Bits copied from original nmi.c file
  *
  */
-#include <linux/thread_info.h>
+#include <robux/thread_info.h>
 #include <asm/apic.h>
 #include <asm/nmi.h>
 
-#include <linux/cpumask.h>
-#include <linux/kdebug.h>
-#include <linux/notifier.h>
-#include <linux/kprobes.h>
-#include <linux/nmi.h>
-#include <linux/init.h>
-#include <linux/delay.h>
+#include <robux/cpumask.h>
+#include <robux/kdebug.h>
+#include <robux/notifier.h>
+#include <robux/kprobes.h>
+#include <robux/nmi.h>
+#include <robux/init.h>
+#include <robux/delay.h>
 
 #include "local.h"
 

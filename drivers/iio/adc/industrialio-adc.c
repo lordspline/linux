@@ -5,15 +5,15 @@
  * Copyright (c) 2025 Matti Vaittinen <mazziesaccount@gmail.com>
  */
 
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/types.h>
 
-#include <linux/iio/adc-helpers.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/adc-helpers.h>
+#include <robux/iio/iio.h>
 
 /**
  * devm_iio_adc_device_alloc_chaninfo_se - allocate and fill iio_chan_spec for ADC

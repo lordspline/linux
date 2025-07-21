@@ -12,20 +12,20 @@
  * The rest of the code was rewritten from scratch.
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/crc32.h>
-#include <linux/usb.h>
-#include <linux/firmware.h>
-#include <linux/ctype.h>
-#include <linux/sched.h>
-#include <linux/kthread.h>
-#include <linux/mutex.h>
-#include <linux/freezer.h>
-#include <linux/slab.h>
-#include <linux/kernel.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/crc32.h>
+#include <robux/usb.h>
+#include <robux/firmware.h>
+#include <robux/ctype.h>
+#include <robux/sched.h>
+#include <robux/kthread.h>
+#include <robux/mutex.h>
+#include <robux/freezer.h>
+#include <robux/slab.h>
+#include <robux/kernel.h>
 
-#include <linux/unaligned.h>
+#include <robux/unaligned.h>
 
 #include "usbatm.h"
 

@@ -21,9 +21,9 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include <linux/types.h>
-#include <linux/sched/task.h>
-#include <linux/dynamic_debug.h>
+#include <robux/types.h>
+#include <robux/sched/task.h>
+#include <robux/dynamic_debug.h>
 #include <drm/ttm/ttm_tt.h>
 #include <drm/drm_exec.h>
 

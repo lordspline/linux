@@ -12,25 +12,25 @@
  * for more details.
  */
 
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/mm.h>
-#include <linux/smp.h>
-#include <linux/syscalls.h>
-#include <linux/sem.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/stat.h>
-#include <linux/mman.h>
-#include <linux/sys.h>
-#include <linux/ipc.h>
-#include <linux/file.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/semaphore.h>
-#include <linux/uaccess.h>
-#include <linux/unistd.h>
-#include <linux/slab.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/mm.h>
+#include <robux/smp.h>
+#include <robux/syscalls.h>
+#include <robux/sem.h>
+#include <robux/msg.h>
+#include <robux/shm.h>
+#include <robux/stat.h>
+#include <robux/mman.h>
+#include <robux/sys.h>
+#include <robux/ipc.h>
+#include <robux/file.h>
+#include <robux/err.h>
+#include <robux/fs.h>
+#include <robux/semaphore.h>
+#include <robux/uaccess.h>
+#include <robux/unistd.h>
+#include <robux/slab.h>
 #include <asm/syscalls.h>
 
 SYSCALL_DEFINE6(mmap, unsigned long, addr, unsigned long, len,

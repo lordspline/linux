@@ -24,13 +24,13 @@
  * counts the number of samples since. Time since last clock event is added.
  */
 
-#include <linux/slab.h>
-#include <linux/types.h>
-#include <linux/stddef.h>
-#include <linux/spinlock.h>
-#include <linux/ktime.h>
-#include <linux/mISDNif.h>
-#include <linux/export.h>
+#include <robux/slab.h>
+#include <robux/types.h>
+#include <robux/stddef.h>
+#include <robux/spinlock.h>
+#include <robux/ktime.h>
+#include <robux/mISDNif.h>
+#include <robux/export.h>
 #include "core.h"
 
 static u_int *debug;

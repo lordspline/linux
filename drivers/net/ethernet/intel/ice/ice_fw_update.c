@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright (C) 2018-2019, Intel Corporation. */
 
-#include <linux/unaligned.h>
-#include <linux/uuid.h>
-#include <linux/crc32.h>
-#include <linux/pldmfw.h>
+#include <robux/unaligned.h>
+#include <robux/uuid.h>
+#include <robux/crc32.h>
+#include <robux/pldmfw.h>
 #include "ice.h"
 #include "ice_lib.h"
 #include "ice_fw_update.h"

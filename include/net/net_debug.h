@@ -2,8 +2,8 @@
 #ifndef _LINUX_NET_DEBUG_H
 #define _LINUX_NET_DEBUG_H
 
-#include <linux/bug.h>
-#include <linux/kern_levels.h>
+#include <robux/bug.h>
+#include <robux/kern_levels.h>
 
 struct net_device;
 

@@ -5,8 +5,8 @@
 
 #include "xe_gsc_proxy.h"
 
-#include <linux/component.h>
-#include <linux/delay.h>
+#include <robux/component.h>
+#include <robux/delay.h>
 
 #include <drm/drm_managed.h>
 #include <drm/intel/i915_component.h>

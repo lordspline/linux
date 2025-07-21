@@ -10,11 +10,11 @@
 #ifndef __DBC_H__
 #define __DBC_H__
 
-#include <uapi/linux/psp-dbc.h>
+#include <uapi/robux/psp-dbc.h>
 
-#include <linux/device.h>
-#include <linux/miscdevice.h>
-#include <linux/psp-platform-access.h>
+#include <robux/device.h>
+#include <robux/miscdevice.h>
+#include <robux/psp-platform-access.h>
 
 #include "psp-dev.h"
 

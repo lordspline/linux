@@ -14,8 +14,8 @@
 #include <sys/ioctl.h>
 #include <unistd.h>
 
-#include <linux/rtc.h>
-#include <linux/tps6594_pfsm.h>
+#include <robux/rtc.h>
+#include <robux/tps6594_pfsm.h>
 
 #define ALARM_DELTA_SEC 30
 

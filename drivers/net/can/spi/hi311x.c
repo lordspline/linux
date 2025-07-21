@@ -3,7 +3,7 @@
  *
  * Copyright(C) Timesys Corporation 2016
  *
- * Based on Microchip 251x CAN Controller (mcp251x) Linux kernel driver
+ * Based on Microchip 251x CAN Controller (mcp251x) Robux kernel driver
  * Copyright 2009 Christian Pellegrin EVOL S.r.l.
  * Copyright 2007 Raymarine UK, Ltd. All Rights Reserved.
  * Copyright 2006 Arcom Control Systems Ltd.
@@ -14,26 +14,26 @@
  * Copyright 2007
  */
 
-#include <linux/can/core.h>
-#include <linux/can/dev.h>
-#include <linux/clk.h>
-#include <linux/completion.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/ethtool.h>
-#include <linux/freezer.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/platform_device.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/slab.h>
-#include <linux/spi/spi.h>
-#include <linux/uaccess.h>
+#include <robux/can/core.h>
+#include <robux/can/dev.h>
+#include <robux/clk.h>
+#include <robux/completion.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/ethtool.h>
+#include <robux/freezer.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/platform_device.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/slab.h>
+#include <robux/spi/spi.h>
+#include <robux/uaccess.h>
 
 #define HI3110_MASTER_RESET 0x56
 #define HI3110_READ_CTRL0 0xD2

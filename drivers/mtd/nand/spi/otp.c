@@ -5,8 +5,8 @@
  * Author: Martin Kurbanov <mmkurbanov@salutedevices.com>
  */
 
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/spinand.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/spinand.h>
 
 /**
  * spinand_otp_page_size() - Get SPI-NAND OTP page size

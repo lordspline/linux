@@ -15,11 +15,11 @@
  *	with a little help from the ALi 1563 spec.
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/i2c.h>
-#include <linux/pci.h>
-#include <linux/acpi.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/i2c.h>
+#include <robux/pci.h>
+#include <robux/acpi.h>
 
 #define ALI1563_MAX_TIMEOUT	500
 #define	ALI1563_SMBBA		0x80

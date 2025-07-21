@@ -20,19 +20,19 @@
  */
 
 
-#include <linux/bitops.h>
-#include <linux/init.h>
-#include <linux/list.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/ctype.h>
-#include <linux/usb.h>
-#include <linux/moduleparam.h>
-#include <linux/mutex.h>
-#include <linux/usb/audio.h>
-#include <linux/usb/audio-v2.h>
-#include <linux/usb/audio-v3.h>
-#include <linux/module.h>
+#include <robux/bitops.h>
+#include <robux/init.h>
+#include <robux/list.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/ctype.h>
+#include <robux/usb.h>
+#include <robux/moduleparam.h>
+#include <robux/mutex.h>
+#include <robux/usb/audio.h>
+#include <robux/usb/audio-v2.h>
+#include <robux/usb/audio-v3.h>
+#include <robux/module.h>
 
 #include <sound/control.h>
 #include <sound/core.h>
@@ -1270,7 +1270,7 @@ static const struct usb_device_id usb_audio_ids [] = {
 MODULE_DEVICE_TABLE(usb, usb_audio_ids);
 
 /*
- * entry point for linux usb interface
+ * entry point for robux usb interface
  */
 
 static struct usb_driver usb_audio_driver = {

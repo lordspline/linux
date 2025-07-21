@@ -7,11 +7,11 @@
 #ifndef __DRV_CLK_MTK_H
 #define __DRV_CLK_MTK_H
 
-#include <linux/clk-provider.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <robux/clk-provider.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/spinlock.h>
+#include <robux/types.h>
 
 #include "reset.h"
 

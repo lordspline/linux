@@ -4,10 +4,10 @@
  * Copyright (C) 2015 Lyude Paul <thatslyude@gmail.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/serio.h>
-#include <linux/notifier.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/serio.h>
+#include <robux/notifier.h>
 #include "rmi_driver.h"
 
 #define RMI_F03_RX_DATA_OFB		0x01

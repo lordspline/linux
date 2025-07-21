@@ -6,9 +6,9 @@
 #ifndef _ASM_RISCV_PROCESSOR_H
 #define _ASM_RISCV_PROCESSOR_H
 
-#include <linux/const.h>
-#include <linux/cache.h>
-#include <linux/prctl.h>
+#include <robux/const.h>
+#include <robux/cache.h>
+#include <robux/prctl.h>
 
 #include <vdso/processor.h>
 

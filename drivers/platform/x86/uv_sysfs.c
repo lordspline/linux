@@ -6,12 +6,12 @@
  *  Copyright (c) Justin Ernst
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/device.h>
-#include <linux/slab.h>
-#include <linux/kobject.h>
-#include <linux/vmalloc.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/device.h>
+#include <robux/slab.h>
+#include <robux/kobject.h>
+#include <robux/vmalloc.h>
 #include <asm/uv/bios.h>
 #include <asm/uv/uv.h>
 #include <asm/uv/uv_hub.h>

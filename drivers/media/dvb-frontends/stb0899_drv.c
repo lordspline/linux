@@ -7,14 +7,14 @@
 
 */
 
-#include <linux/init.h>
-#include <linux/jiffies.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/string.h>
+#include <robux/init.h>
+#include <robux/jiffies.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/string.h>
 
-#include <linux/dvb/frontend.h>
+#include <robux/dvb/frontend.h>
 #include <media/dvb_frontend.h>
 
 #include "stb0899_drv.h"

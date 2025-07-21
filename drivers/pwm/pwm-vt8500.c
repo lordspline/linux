@@ -2,20 +2,20 @@
 /*
  * drivers/pwm/pwm-vt8500.c
  *
- * Copyright (C) 2012 Tony Prisk <linux@prisktech.co.nz>
+ * Copyright (C) 2012 Tony Prisk <robux@prisktech.co.nz>
  * Copyright (C) 2010 Alexey Charkov <alchark@gmail.com>
  */
 
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/pwm.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/pwm.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
 
 #include <asm/div64.h>
 
@@ -274,5 +274,5 @@ static struct platform_driver vt8500_pwm_driver = {
 module_platform_driver(vt8500_pwm_driver);
 
 MODULE_DESCRIPTION("VT8500 PWM Driver");
-MODULE_AUTHOR("Tony Prisk <linux@prisktech.co.nz>");
+MODULE_AUTHOR("Tony Prisk <robux@prisktech.co.nz>");
 MODULE_LICENSE("GPL v2");

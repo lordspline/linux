@@ -5,12 +5,12 @@
  * Copyright 2015 IBM Corp.
  */
 
-#include <linux/types.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/device.h>
-#include <linux/cpu.h>
+#include <robux/types.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/device.h>
+#include <robux/cpu.h>
 
 #include <asm/firmware.h>
 #include <asm/interrupt.h>

@@ -18,22 +18,22 @@
 
 #undef DEBUG
 
-#include <linux/console.h>
-#include <linux/ctype.h>
-#include <linux/delay.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/module.h>
-#include <linux/major.h>
-#include <linux/kernel.h>
-#include <linux/of_irq.h>
-#include <linux/spinlock.h>
-#include <linux/sysrq.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
+#include <robux/console.h>
+#include <robux/ctype.h>
+#include <robux/delay.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/module.h>
+#include <robux/major.h>
+#include <robux/kernel.h>
+#include <robux/of_irq.h>
+#include <robux/spinlock.h>
+#include <robux/sysrq.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
 #include <asm/hvcall.h>
 #include <asm/hvconsole.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/vio.h>
 #include <asm/param.h>
 #include <asm/hvsi.h>

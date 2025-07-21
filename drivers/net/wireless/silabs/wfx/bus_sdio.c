@@ -5,16 +5,16 @@
  * Copyright (c) 2017-2020, Silicon Laboratories, Inc.
  * Copyright (c) 2010, ST-Ericsson
  */
-#include <linux/module.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/card.h>
-#include <linux/interrupt.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/irq.h>
-#include <linux/align.h>
-#include <linux/pm.h>
+#include <robux/module.h>
+#include <robux/mmc/sdio.h>
+#include <robux/mmc/sdio_func.h>
+#include <robux/mmc/card.h>
+#include <robux/interrupt.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/irq.h>
+#include <robux/align.h>
+#include <robux/pm.h>
 
 #include "bus.h"
 #include "wfx.h"

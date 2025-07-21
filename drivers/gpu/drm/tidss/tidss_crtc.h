@@ -7,8 +7,8 @@
 #ifndef __TIDSS_CRTC_H__
 #define __TIDSS_CRTC_H__
 
-#include <linux/completion.h>
-#include <linux/wait.h>
+#include <robux/completion.h>
+#include <robux/wait.h>
 
 #include <drm/drm_crtc.h>
 

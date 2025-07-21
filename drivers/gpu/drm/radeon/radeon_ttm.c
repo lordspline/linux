@@ -30,13 +30,13 @@
  *    Dave Airlie
  */
 
-#include <linux/debugfs.h>
-#include <linux/dma-mapping.h>
-#include <linux/pagemap.h>
-#include <linux/pci.h>
-#include <linux/seq_file.h>
-#include <linux/slab.h>
-#include <linux/swap.h>
+#include <robux/debugfs.h>
+#include <robux/dma-mapping.h>
+#include <robux/pagemap.h>
+#include <robux/pci.h>
+#include <robux/seq_file.h>
+#include <robux/slab.h>
+#include <robux/swap.h>
 
 #include <drm/drm_device.h>
 #include <drm/drm_file.h>

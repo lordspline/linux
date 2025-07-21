@@ -5,14 +5,14 @@
  * Copyright (C) 2011, Guennadi Liakhovetski <g.liakhovetski@gmx.de>
  */
 
-#include <linux/err.h>
-#include <linux/gpio/consumer.h>
-#include <linux/interrupt.h>
-#include <linux/jiffies.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/slot-gpio.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/gpio/consumer.h>
+#include <robux/interrupt.h>
+#include <robux/jiffies.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/slot-gpio.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 
 #include "slot-gpio.h"
 

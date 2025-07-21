@@ -13,7 +13,7 @@
  */
 #define NR_IRQS    64
 
-#include <linux/interrupt.h>
+#include <robux/interrupt.h>
 
 #define irq_canonicalize(irq)	(irq)
 

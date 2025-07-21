@@ -7,11 +7,11 @@
  */
 
 /*
- *  Linux VFS inode operations.
+ *  Robux VFS inode operations.
  */
 
-#include <linux/blkdev.h>
-#include <linux/fileattr.h>
+#include <robux/blkdev.h>
+#include <robux/fileattr.h>
 #include "protocol.h"
 #include "orangefs-kernel.h"
 #include "orangefs-bufmap.h"

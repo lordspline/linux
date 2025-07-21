@@ -5,9 +5,9 @@
 // Copyright (C) 2021, 2023 Cirrus Logic, Inc. and
 //               Cirrus Logic International Semiconductor Ltd.
 
-#include <linux/dev_printk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
+#include <robux/dev_printk.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
 
 #include "cirrus_scodec.h"
 

@@ -11,14 +11,14 @@
  * NOTE: Code in this file is not used when booting with Device Tree support.
  */
 
-#include <linux/kernel.h>
-#include <linux/syscore_ops.h>
-#include <linux/interrupt.h>
-#include <linux/serial_core.h>
-#include <linux/serial_s3c.h>
-#include <linux/irq.h>
-#include <linux/io.h>
-#include <linux/of.h>
+#include <robux/kernel.h>
+#include <robux/syscore_ops.h>
+#include <robux/interrupt.h>
+#include <robux/serial_core.h>
+#include <robux/serial_s3c.h>
+#include <robux/irq.h>
+#include <robux/io.h>
+#include <robux/of.h>
 
 #include "map.h"
 

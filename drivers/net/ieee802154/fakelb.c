@@ -10,12 +10,12 @@
  * Alexander Smirnov <alex.bluesman.smirnov@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/timer.h>
-#include <linux/platform_device.h>
-#include <linux/netdevice.h>
-#include <linux/device.h>
-#include <linux/spinlock.h>
+#include <robux/module.h>
+#include <robux/timer.h>
+#include <robux/platform_device.h>
+#include <robux/netdevice.h>
+#include <robux/device.h>
+#include <robux/spinlock.h>
 #include <net/mac802154.h>
 #include <net/cfg802154.h>
 

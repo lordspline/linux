@@ -1,4 +1,4 @@
-/* natsemi.c: A Linux PCI Ethernet driver for the NatSemi DP8381x series. */
+/* natsemi.c: A Robux PCI Ethernet driver for the NatSemi DP8381x series. */
 /*
 	Written/copyright 1999-2001 by Donald Becker.
 	Portions copyright (c) 2001,2002 Sun Microsystems (thockin@sun.com)
@@ -27,31 +27,31 @@
 	* big endian support with CFG:BEM instead of cpu_to_le32
 */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/timer.h>
-#include <linux/errno.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/init.h>
-#include <linux/spinlock.h>
-#include <linux/ethtool.h>
-#include <linux/delay.h>
-#include <linux/rtnetlink.h>
-#include <linux/mii.h>
-#include <linux/crc32.h>
-#include <linux/bitops.h>
-#include <linux/prefetch.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/timer.h>
+#include <robux/errno.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/init.h>
+#include <robux/spinlock.h>
+#include <robux/ethtool.h>
+#include <robux/delay.h>
+#include <robux/rtnetlink.h>
+#include <robux/mii.h>
+#include <robux/crc32.h>
+#include <robux/bitops.h>
+#include <robux/prefetch.h>
 #include <asm/processor.h>	/* Processor type for cache alignment. */
 #include <asm/io.h>
 #include <asm/irq.h>
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #define DRV_NAME	"natsemi"
 #define DRV_VERSION	"2.1"

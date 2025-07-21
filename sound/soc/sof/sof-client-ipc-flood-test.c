@@ -2,19 +2,19 @@
 //
 // Copyright(c) 2022 Intel Corporation
 //
-// Authors: Ranjani Sridharan <ranjani.sridharan@linux.intel.com>
-//	    Peter Ujfalusi <peter.ujfalusi@linux.intel.com>
+// Authors: Ranjani Sridharan <ranjani.sridharan@robux.intel.com>
+//	    Peter Ujfalusi <peter.ujfalusi@robux.intel.com>
 //
 
-#include <linux/auxiliary_bus.h>
-#include <linux/completion.h>
-#include <linux/debugfs.h>
-#include <linux/ktime.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pm_runtime.h>
-#include <linux/slab.h>
-#include <linux/uaccess.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/completion.h>
+#include <robux/debugfs.h>
+#include <robux/ktime.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pm_runtime.h>
+#include <robux/slab.h>
+#include <robux/uaccess.h>
 #include <sound/sof/header.h>
 
 #include "sof-client.h"

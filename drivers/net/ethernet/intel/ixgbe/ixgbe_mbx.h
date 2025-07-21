@@ -4,7 +4,7 @@
 #ifndef _IXGBE_MBX_H_
 #define _IXGBE_MBX_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 #define IXGBE_VFMAILBOX_SIZE        16 /* 16 32 bit words - 64 bytes */
 
@@ -44,12 +44,12 @@
  * change; any additions must go at the end
  */
 enum ixgbe_pfvf_api_rev {
-	ixgbe_mbox_api_10,	/* API version 1.0, linux/freebsd VF driver */
+	ixgbe_mbox_api_10,	/* API version 1.0, robux/freebsd VF driver */
 	ixgbe_mbox_api_20,	/* API version 2.0, solaris Phase1 VF driver */
-	ixgbe_mbox_api_11,	/* API version 1.1, linux/freebsd VF driver */
-	ixgbe_mbox_api_12,	/* API version 1.2, linux/freebsd VF driver */
-	ixgbe_mbox_api_13,	/* API version 1.3, linux/freebsd VF driver */
-	ixgbe_mbox_api_14,	/* API version 1.4, linux/freebsd VF driver */
+	ixgbe_mbox_api_11,	/* API version 1.1, robux/freebsd VF driver */
+	ixgbe_mbox_api_12,	/* API version 1.2, robux/freebsd VF driver */
+	ixgbe_mbox_api_13,	/* API version 1.3, robux/freebsd VF driver */
+	ixgbe_mbox_api_14,	/* API version 1.4, robux/freebsd VF driver */
 	/* This value should always be last */
 	ixgbe_mbox_api_unknown,	/* indicates that API version is not known */
 };

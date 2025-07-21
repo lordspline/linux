@@ -5,11 +5,11 @@
  * Copyright (C) 2008 Alexey Dobriyan
  */
 
-#include <linux/module.h>
-#include <linux/kallsyms.h>
-#include <linux/mutex.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
+#include <robux/module.h>
+#include <robux/kallsyms.h>
+#include <robux/mutex.h>
+#include <robux/seq_file.h>
+#include <robux/proc_fs.h>
 #include "internal.h"
 
 #ifdef CONFIG_MODULE_UNLOAD

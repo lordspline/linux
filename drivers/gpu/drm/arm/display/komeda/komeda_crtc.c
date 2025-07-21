@@ -4,10 +4,10 @@
  * Author: James.Qian.Wang <james.qian.wang@arm.com>
  *
  */
-#include <linux/clk.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/spinlock.h>
+#include <robux/clk.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/spinlock.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/cleanup.h>
-#include <linux/cpu.h>
+#include <robux/cleanup.h>
+#include <robux/cpu.h>
 #include <asm/cpufeature.h>
 #include <asm/fpu/xcr.h>
-#include <linux/misc_cgroup.h>
-#include <linux/mmu_context.h>
+#include <robux/misc_cgroup.h>
+#include <robux/mmu_context.h>
 #include <asm/tdx.h>
 #include "capabilities.h"
 #include "mmu.h"

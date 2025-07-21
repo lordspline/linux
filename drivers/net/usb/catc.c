@@ -20,22 +20,22 @@
  * Vojtech Pavlik, Simunkova 1594, Prague 8, 182 00 Czech Republic
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/string.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/skbuff.h>
-#include <linux/spinlock.h>
-#include <linux/ethtool.h>
-#include <linux/crc32.h>
-#include <linux/bitops.h>
-#include <linux/gfp.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/string.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/skbuff.h>
+#include <robux/spinlock.h>
+#include <robux/ethtool.h>
+#include <robux/crc32.h>
+#include <robux/bitops.h>
+#include <robux/gfp.h>
+#include <robux/uaccess.h>
 
 #undef DEBUG
 
-#include <linux/usb.h>
+#include <robux/usb.h>
 
 /*
  * Version information.

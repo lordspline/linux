@@ -3,15 +3,15 @@
  *  Copyright (c) 2002 Petko Manolov (petkan@users.sourceforge.net)
  */
 
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
-#include <linux/usb.h>
-#include <linux/uaccess.h>
+#include <robux/signal.h>
+#include <robux/slab.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/mii.h>
+#include <robux/ethtool.h>
+#include <robux/usb.h>
+#include <robux/uaccess.h>
 
 /* Version Information */
 #define DRIVER_VERSION "v0.6.2 (2004/08/27)"

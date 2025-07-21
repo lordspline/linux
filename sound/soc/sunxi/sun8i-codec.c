@@ -9,17 +9,17 @@
  * Mylène Josserand <mylene.josserand@free-electrons.com>
  */
 
-#include <linux/module.h>
-#include <linux/delay.h>
-#include <linux/clk.h>
-#include <linux/input.h>
-#include <linux/io.h>
-#include <linux/irq.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/pm_runtime.h>
-#include <linux/regmap.h>
-#include <linux/log2.h>
+#include <robux/module.h>
+#include <robux/delay.h>
+#include <robux/clk.h>
+#include <robux/input.h>
+#include <robux/io.h>
+#include <robux/irq.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/pm_runtime.h>
+#include <robux/regmap.h>
+#include <robux/log2.h>
 
 #include <sound/jack.h>
 #include <sound/pcm_params.h>

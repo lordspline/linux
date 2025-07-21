@@ -4,19 +4,19 @@
  *
  * Copyright 2019 Analog Devices Inc.
  */
-#include "linux/dev_printk.h"
-#include <linux/bitfield.h>
-#include <linux/clk.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/gcd.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/sysfs.h>
-#include <linux/spi/spi.h>
+#include "robux/dev_printk.h"
+#include <robux/bitfield.h>
+#include <robux/clk.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/gcd.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/sysfs.h>
+#include <robux/spi/spi.h>
 
-#include <linux/iio/iio.h>
+#include <robux/iio/iio.h>
 
 /* Registers address macro */
 #define ADF4371_REG(x)			(x)

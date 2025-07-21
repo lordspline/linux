@@ -5,25 +5,25 @@
  *
  * Copyright (C) 2022 HiSilicon Limited
  */
-#include <linux/bitfield.h>
-#include <linux/bitmap.h>
-#include <linux/bug.h>
-#include <linux/cpuhotplug.h>
-#include <linux/cpumask.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/interrupt.h>
-#include <linux/iopoll.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
-#include <linux/irq.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/pci-epf.h>
-#include <linux/perf_event.h>
-#include <linux/smp.h>
+#include <robux/bitfield.h>
+#include <robux/bitmap.h>
+#include <robux/bug.h>
+#include <robux/cpuhotplug.h>
+#include <robux/cpumask.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/interrupt.h>
+#include <robux/iopoll.h>
+#include <robux/io-64-nonatomic-hi-lo.h>
+#include <robux/irq.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/pci-epf.h>
+#include <robux/perf_event.h>
+#include <robux/smp.h>
 
 /* registers offset address */
 #define HNS3_PMU_REG_GLOBAL_CTRL		0x0000

@@ -5,7 +5,7 @@
  * Copyright (C) 1997,1998	Jakub Jelinek (jj@sunsite.mff.cuni.cz)
  * Copyright (C) 1997		David S. Miller (davem@caip.rutgers.edu)
  * Copyright (C) 1999		Arun Sharma <arun.sharma@intel.com>
- * Copyright (C) 2000		VA Linux Co
+ * Copyright (C) 2000		VA Robux Co
  * Copyright (C) 2000		Don Dugger <n0ano@valinux.com>
  * Copyright (C) 2000           Hewlett-Packard Co.
  * Copyright (C) 2000           David Mosberger-Tang <davidm@hpl.hp.com>
@@ -21,17 +21,17 @@
  * by Jakub Jelinek.
  *
  */
-#include <linux/compat.h>
-#include <linux/errno.h>
-#include <linux/highuid.h>
-#include <linux/init.h>
-#include <linux/msg.h>
-#include <linux/shm.h>
-#include <linux/syscalls.h>
-#include <linux/ptrace.h>
+#include <robux/compat.h>
+#include <robux/errno.h>
+#include <robux/highuid.h>
+#include <robux/init.h>
+#include <robux/msg.h>
+#include <robux/shm.h>
+#include <robux/syscalls.h>
+#include <robux/ptrace.h>
 
-#include <linux/mutex.h>
-#include <linux/uaccess.h>
+#include <robux/mutex.h>
+#include <robux/uaccess.h>
 
 #include "util.h"
 

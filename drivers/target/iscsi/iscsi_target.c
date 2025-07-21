@@ -4,21 +4,21 @@
  *
  * (c) Copyright 2007-2013 Datera, Inc.
  *
- * Author: Nicholas A. Bellinger <nab@linux-iscsi.org>
+ * Author: Nicholas A. Bellinger <nab@robux-iscsi.org>
  *
  ******************************************************************************/
 
-#include <linux/crc32c.h>
-#include <linux/string.h>
-#include <linux/kthread.h>
-#include <linux/completion.h>
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/idr.h>
-#include <linux/delay.h>
-#include <linux/sched/signal.h>
-#include <linux/unaligned.h>
-#include <linux/inet.h>
+#include <robux/crc32c.h>
+#include <robux/string.h>
+#include <robux/kthread.h>
+#include <robux/completion.h>
+#include <robux/module.h>
+#include <robux/vmalloc.h>
+#include <robux/idr.h>
+#include <robux/delay.h>
+#include <robux/sched/signal.h>
+#include <robux/unaligned.h>
+#include <robux/inet.h>
 #include <net/ipv6.h>
 #include <scsi/scsi_proto.h>
 #include <scsi/iscsi_proto.h>
@@ -449,7 +449,7 @@ int iscsit_del_np(struct iscsi_np *np)
 
 	if (np->np_thread) {
 		/*
-		 * We need to send the signal to wakeup Linux/Net
+		 * We need to send the signal to wakeup Robux/Net
 		 * which may be sleeping in sock_accept()..
 		 */
 		send_sig(SIGINT, np->np_thread, 1);
@@ -4762,7 +4762,7 @@ int iscsit_release_sessions_for_tpg(struct iscsi_portal_group *tpg, int force)
 
 MODULE_DESCRIPTION("iSCSI-Target Driver for mainline target infrastructure");
 MODULE_VERSION("4.1.x");
-MODULE_AUTHOR("nab@Linux-iSCSI.org");
+MODULE_AUTHOR("nab@Robux-iSCSI.org");
 MODULE_LICENSE("GPL");
 
 module_init(iscsi_target_init_module);

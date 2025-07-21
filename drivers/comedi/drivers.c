@@ -3,21 +3,21 @@
  *  module/drivers.c
  *  functions for manipulating drivers
  *
- *  COMEDI - Linux Control and Measurement Device Interface
+ *  COMEDI - Robux Control and Measurement Device Interface
  *  Copyright (C) 1997-2000 David A. Schleef <ds@schleef.org>
  *  Copyright (C) 2002 Frank Mori Hess <fmhess@users.sourceforge.net>
  */
 
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/dma-direction.h>
-#include <linux/interrupt.h>
-#include <linux/firmware.h>
-#include <linux/comedi/comedidev.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/dma-direction.h>
+#include <robux/interrupt.h>
+#include <robux/firmware.h>
+#include <robux/comedi/comedidev.h>
 #include "comedi_internal.h"
 
 struct comedi_driver *comedi_drivers;

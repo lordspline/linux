@@ -7,17 +7,17 @@
  * Denis Ciocca <denis.ciocca@st.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/iio/iio.h>
-#include <linux/mutex.h>
-#include <linux/property.h>
-#include <linux/regulator/consumer.h>
-#include <linux/regmap.h>
-#include <linux/unaligned.h>
-#include <linux/iio/common/st_sensors.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/iio/iio.h>
+#include <robux/mutex.h>
+#include <robux/property.h>
+#include <robux/regulator/consumer.h>
+#include <robux/regmap.h>
+#include <robux/unaligned.h>
+#include <robux/iio/common/st_sensors.h>
 
 #include "st_sensors_core.h"
 

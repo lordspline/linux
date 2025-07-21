@@ -5,11 +5,11 @@
  * Copyright (C) 2017 Andes Technology Corporation
  */
 
-#include <linux/ftrace.h>
-#include <linux/uaccess.h>
-#include <linux/memory.h>
-#include <linux/irqflags.h>
-#include <linux/stop_machine.h>
+#include <robux/ftrace.h>
+#include <robux/uaccess.h>
+#include <robux/memory.h>
+#include <robux/irqflags.h>
+#include <robux/stop_machine.h>
 #include <asm/cacheflush.h>
 #include <asm/text-patching.h>
 

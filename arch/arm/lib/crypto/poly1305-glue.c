@@ -8,11 +8,11 @@
 #include <asm/hwcap.h>
 #include <asm/neon.h>
 #include <crypto/internal/poly1305.h>
-#include <linux/cpufeature.h>
-#include <linux/jump_label.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/unaligned.h>
+#include <robux/cpufeature.h>
+#include <robux/jump_label.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/unaligned.h>
 
 asmlinkage void poly1305_block_init_arch(
 	struct poly1305_block_state *state,

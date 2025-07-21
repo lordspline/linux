@@ -12,9 +12,9 @@
  * Based on a driver by: Steve Sakoman <steve@sakoman.com>
  */
 
-#include <linux/gpio/consumer.h>
-#include <linux/module.h>
-#include <linux/spi/spi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/module.h>
+#include <robux/spi/spi.h>
 
 #include <drm/drm_connector.h>
 #include <drm/drm_modes.h>

@@ -9,28 +9,28 @@
 
 #define pr_fmt(fmt) "PM: " fmt
 
-#include <linux/string.h>
-#include <linux/delay.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/cpu.h>
-#include <linux/cpuidle.h>
-#include <linux/gfp.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/export.h>
-#include <linux/suspend.h>
-#include <linux/syscore_ops.h>
-#include <linux/swait.h>
-#include <linux/ftrace.h>
+#include <robux/string.h>
+#include <robux/delay.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/cpu.h>
+#include <robux/cpuidle.h>
+#include <robux/gfp.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/list.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/export.h>
+#include <robux/suspend.h>
+#include <robux/syscore_ops.h>
+#include <robux/swait.h>
+#include <robux/ftrace.h>
 #include <trace/events/power.h>
-#include <linux/compiler.h>
-#include <linux/moduleparam.h>
-#include <linux/fs.h>
+#include <robux/compiler.h>
+#include <robux/moduleparam.h>
+#include <robux/fs.h>
 
 #include "power.h"
 

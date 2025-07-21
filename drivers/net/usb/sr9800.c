@@ -9,19 +9,19 @@
  * kind, whether express or implied.*
  */
 
-#include <linux/module.h>
-#include <linux/kmod.h>
-#include <linux/init.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/workqueue.h>
-#include <linux/mii.h>
-#include <linux/usb.h>
-#include <linux/crc32.h>
-#include <linux/usb/usbnet.h>
-#include <linux/slab.h>
-#include <linux/if_vlan.h>
+#include <robux/module.h>
+#include <robux/kmod.h>
+#include <robux/init.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/workqueue.h>
+#include <robux/mii.h>
+#include <robux/usb.h>
+#include <robux/crc32.h>
+#include <robux/usb/usbnet.h>
+#include <robux/slab.h>
+#include <robux/if_vlan.h>
 
 #include "sr9800.h"
 

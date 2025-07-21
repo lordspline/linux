@@ -11,7 +11,7 @@
 #ifndef _XTENSA_ASMMACRO_H
 #define _XTENSA_ASMMACRO_H
 
-#include <linux/export.h>
+#include <robux/export.h>
 #include <asm/core.h>
 
 /*

@@ -22,7 +22,7 @@
 #include "util/tool_pmu.h"
 #include <subcmd/pager.h>
 #include <subcmd/parse-options.h>
-#include <linux/zalloc.h>
+#include <robux/zalloc.h>
 #include <ctype.h>
 #include <stdarg.h>
 #include <stdio.h>

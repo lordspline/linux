@@ -3,11 +3,11 @@
  * Copyright (C) 2023 Inochi Amaoto <inochiama@outlook.com>
  */
 
-#include <linux/module.h>
-#include <linux/clk-provider.h>
-#include <linux/platform_device.h>
-#include <linux/io.h>
-#include <linux/spinlock.h>
+#include <robux/module.h>
+#include <robux/clk-provider.h>
+#include <robux/platform_device.h>
+#include <robux/io.h>
+#include <robux/spinlock.h>
 
 #include "clk-cv1800.h"
 

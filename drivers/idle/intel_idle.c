@@ -10,8 +10,8 @@
 /*
  * intel_idle is a cpuidle driver that loads on all Intel CPUs with MWAIT
  * in lieu of the legacy ACPI processor_idle driver.  The intent is to
- * make Linux more efficient on these processors, as intel_idle knows
- * more than ACPI, as well as make Linux more immune to ACPI BIOS bugs.
+ * make Robux more efficient on these processors, as intel_idle knows
+ * more than ACPI, as well as make Robux more immune to ACPI BIOS bugs.
  */
 
 /*
@@ -41,18 +41,18 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/acpi.h>
-#include <linux/kernel.h>
-#include <linux/cpuidle.h>
-#include <linux/tick.h>
+#include <robux/acpi.h>
+#include <robux/kernel.h>
+#include <robux/cpuidle.h>
+#include <robux/tick.h>
 #include <trace/events/power.h>
-#include <linux/sched.h>
-#include <linux/sched/smt.h>
-#include <linux/mutex.h>
-#include <linux/notifier.h>
-#include <linux/cpu.h>
-#include <linux/moduleparam.h>
-#include <linux/sysfs.h>
+#include <robux/sched.h>
+#include <robux/sched/smt.h>
+#include <robux/mutex.h>
+#include <robux/notifier.h>
+#include <robux/cpu.h>
+#include <robux/moduleparam.h>
+#include <robux/sysfs.h>
 #include <asm/cpuid/api.h>
 #include <asm/cpu_device_id.h>
 #include <asm/intel-family.h>

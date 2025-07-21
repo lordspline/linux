@@ -9,8 +9,8 @@
 #ifndef _LINUX_PMU_H
 #define _LINUX_PMU_H
 
-#include <linux/rtc.h>
-#include <uapi/linux/pmu.h>
+#include <robux/rtc.h>
+#include <uapi/robux/pmu.h>
 
 
 extern int __init find_via_pmu(void);

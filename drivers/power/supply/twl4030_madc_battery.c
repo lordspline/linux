@@ -10,16 +10,16 @@
  * Balaji Rao <balajirrao@openmoko.org>
  */
 
-#include <linux/module.h>
-#include <linux/param.h>
-#include <linux/delay.h>
-#include <linux/workqueue.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/slab.h>
-#include <linux/sort.h>
-#include <linux/power/twl4030_madc_battery.h>
-#include <linux/iio/consumer.h>
+#include <robux/module.h>
+#include <robux/param.h>
+#include <robux/delay.h>
+#include <robux/workqueue.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/slab.h>
+#include <robux/sort.h>
+#include <robux/power/twl4030_madc_battery.h>
+#include <robux/iio/consumer.h>
 
 struct twl4030_madc_battery {
 	struct power_supply *psy;

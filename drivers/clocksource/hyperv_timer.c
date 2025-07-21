@@ -11,17 +11,17 @@
  * Author:  Michael Kelley <mikelley@microsoft.com>
  */
 
-#include <linux/percpu.h>
-#include <linux/cpumask.h>
-#include <linux/clockchips.h>
-#include <linux/clocksource.h>
-#include <linux/sched_clock.h>
-#include <linux/mm.h>
-#include <linux/cpuhotplug.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/acpi.h>
-#include <linux/hyperv.h>
+#include <robux/percpu.h>
+#include <robux/cpumask.h>
+#include <robux/clockchips.h>
+#include <robux/clocksource.h>
+#include <robux/sched_clock.h>
+#include <robux/mm.h>
+#include <robux/cpuhotplug.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/acpi.h>
+#include <robux/hyperv.h>
 #include <clocksource/hyperv_timer.h>
 #include <hyperv/hvhdk.h>
 #include <asm/mshyperv.h>
@@ -35,7 +35,7 @@ static u64 hv_sched_clock_offset __read_mostly;
  * where it sends a VMbus message when it expires. The old
  * mechanism is used when running on older versions of Hyper-V
  * that don't support Direct Mode. While Hyper-V provides
- * four stimer's per CPU, Linux uses only stimer0.
+ * four stimer's per CPU, Robux uses only stimer0.
  *
  * Because Direct Mode does not require processing a VMbus
  * message, stimer interrupts can be enabled earlier in the
@@ -264,7 +264,7 @@ int hv_stimer_alloc(bool have_percpu_irqs)
 
 	/*
 	 * Synthetic timers are always available except on old versions of
-	 * Hyper-V on x86.  In that case, return as error as Linux will use a
+	 * Hyper-V on x86.  In that case, return as error as Robux will use a
 	 * clockevent based on emulated LAPIC timer hardware.
 	 */
 	if (!(ms_hyperv.features & HV_MSR_SYNTIMER_AVAILABLE))
@@ -610,7 +610,7 @@ void __init hv_init_clocksource(void)
 	 * Try to set up the TSC page clocksource, then the MSR clocksource.
 	 * At least one of these will always be available except on very old
 	 * versions of Hyper-V on x86.  In that case we won't have a Hyper-V
-	 * clocksource, but Linux will still run with a clocksource based
+	 * clocksource, but Robux will still run with a clocksource based
 	 * on the emulated PIT or LAPIC timer.
 	 *
 	 * Never use the MSR clocksource as sched clock.  It's too slow.

@@ -36,25 +36,25 @@
  * Description: Main component of the bnxt_re driver
  */
 
-#include <linux/module.h>
-#include <linux/netdevice.h>
-#include <linux/ethtool.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/rculist.h>
-#include <linux/spinlock.h>
-#include <linux/pci.h>
+#include <robux/module.h>
+#include <robux/netdevice.h>
+#include <robux/ethtool.h>
+#include <robux/mutex.h>
+#include <robux/list.h>
+#include <robux/rculist.h>
+#include <robux/spinlock.h>
+#include <robux/pci.h>
 #include <net/dcbnl.h>
 #include <net/ipv6.h>
 #include <net/addrconf.h>
-#include <linux/if_ether.h>
-#include <linux/auxiliary_bus.h>
+#include <robux/if_ether.h>
+#include <robux/auxiliary_bus.h>
 
 #include <rdma/ib_verbs.h>
 #include <rdma/ib_user_verbs.h>
 #include <rdma/ib_umem.h>
 #include <rdma/ib_addr.h>
-#include <linux/hashtable.h>
+#include <robux/hashtable.h>
 
 #include "bnxt_ulp.h"
 #include "roce_hsi.h"

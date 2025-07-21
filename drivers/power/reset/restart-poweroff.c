@@ -7,12 +7,12 @@
  *
  * Copyright (C) 2012 Andrew Lunn
  */
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/platform_device.h>
-#include <linux/of_platform.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/platform_device.h>
+#include <robux/of_platform.h>
+#include <robux/module.h>
+#include <robux/reboot.h>
 
 static int restart_poweroff_do_poweroff(struct sys_off_data *data)
 {

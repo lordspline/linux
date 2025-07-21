@@ -5,8 +5,8 @@
 
 #ifndef _NOLIBC_ARCH_S390_H
 #define _NOLIBC_ARCH_S390_H
-#include <linux/signal.h>
-#include <linux/unistd.h>
+#include <robux/signal.h>
+#include <robux/unistd.h>
 
 #include "compiler.h"
 #include "crt.h"

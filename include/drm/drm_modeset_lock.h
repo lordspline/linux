@@ -24,9 +24,9 @@
 #ifndef DRM_MODESET_LOCK_H_
 #define DRM_MODESET_LOCK_H_
 
-#include <linux/types.h> /* stackdepot.h is not self-contained */
-#include <linux/stackdepot.h>
-#include <linux/ww_mutex.h>
+#include <robux/types.h> /* stackdepot.h is not self-contained */
+#include <robux/stackdepot.h>
+#include <robux/ww_mutex.h>
 
 struct drm_modeset_lock;
 

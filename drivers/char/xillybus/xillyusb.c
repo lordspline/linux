@@ -11,23 +11,23 @@
  * creates the device files accordingly.
  */
 
-#include <linux/types.h>
-#include <linux/slab.h>
-#include <linux/list.h>
-#include <linux/device.h>
-#include <linux/module.h>
+#include <robux/types.h>
+#include <robux/slab.h>
+#include <robux/list.h>
+#include <robux/device.h>
+#include <robux/module.h>
 #include <asm/byteorder.h>
-#include <linux/io.h>
-#include <linux/interrupt.h>
-#include <linux/sched.h>
-#include <linux/fs.h>
-#include <linux/spinlock.h>
-#include <linux/mutex.h>
-#include <linux/workqueue.h>
-#include <linux/crc32.h>
-#include <linux/poll.h>
-#include <linux/delay.h>
-#include <linux/usb.h>
+#include <robux/io.h>
+#include <robux/interrupt.h>
+#include <robux/sched.h>
+#include <robux/fs.h>
+#include <robux/spinlock.h>
+#include <robux/mutex.h>
+#include <robux/workqueue.h>
+#include <robux/crc32.h>
+#include <robux/poll.h>
+#include <robux/delay.h>
+#include <robux/usb.h>
 
 #include "xillybus_class.h"
 

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0+
 
 #include <kunit/test.h>
-#include <linux/module.h>
+#include <robux/module.h>
 
 #include "test_modules.h"
 

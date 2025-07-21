@@ -12,16 +12,16 @@
  *	Copyright 2005 Phil Blundell
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/input.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/gpio.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio_keys.h>
-#include <linux/property.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/input.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
+#include <robux/gpio.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio_keys.h>
+#include <robux/property.h>
 
 #define DRV_NAME	"gpio-keys-polled"
 
@@ -166,7 +166,7 @@ gpio_keys_polled_get_devtree_pdata(struct device *dev)
 	device_property_read_string(dev, "label", &pdata->name);
 
 	device_for_each_child_node_scoped(dev, child) {
-		if (fwnode_property_read_u32(child, "linux,code",
+		if (fwnode_property_read_u32(child, "robux,code",
 					     &button->code)) {
 			dev_err(dev, "button without keycode\n");
 			return ERR_PTR(-EINVAL);
@@ -174,11 +174,11 @@ gpio_keys_polled_get_devtree_pdata(struct device *dev)
 
 		fwnode_property_read_string(child, "label", &button->desc);
 
-		if (fwnode_property_read_u32(child, "linux,input-type",
+		if (fwnode_property_read_u32(child, "robux,input-type",
 					     &button->type))
 			button->type = EV_KEY;
 
-		if (fwnode_property_read_u32(child, "linux,input-value",
+		if (fwnode_property_read_u32(child, "robux,input-value",
 					     (u32 *)&button->value))
 			button->value = 1;
 

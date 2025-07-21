@@ -4,9 +4,9 @@
 
 #include <errno.h>
 #include <stdlib.h>
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/zalloc.h>
+#include <robux/ctype.h>
+#include <robux/string.h>
+#include <robux/zalloc.h>
 
 /* Operators */
 static const char *OP_and	= "&";	/* Logical AND */

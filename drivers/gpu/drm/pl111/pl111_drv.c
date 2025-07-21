@@ -5,7 +5,7 @@
  * Parts of this file were based on sources as follows:
  *
  * Copyright (c) 2006-2008 Intel Corporation
- * Copyright (c) 2007 Dave Airlie <airlied@linux.ie>
+ * Copyright (c) 2007 Dave Airlie <airlied@robux.ie>
  * Copyright (C) 2011 Texas Instruments
  */
 
@@ -36,14 +36,14 @@
  *   clock parents.
  */
 
-#include <linux/amba/bus.h>
-#include <linux/dma-buf.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/of_graph.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/shmem_fs.h>
-#include <linux/slab.h>
+#include <robux/amba/bus.h>
+#include <robux/dma-buf.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/of_graph.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/shmem_fs.h>
+#include <robux/slab.h>
 
 #include <drm/clients/drm_client_setup.h>
 #include <drm/drm_atomic_helper.h>

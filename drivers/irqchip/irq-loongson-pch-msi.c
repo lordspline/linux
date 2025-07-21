@@ -6,16 +6,16 @@
 
 #define pr_fmt(fmt) "pch-msi: " fmt
 
-#include <linux/irqchip.h>
-#include <linux/msi.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/of_irq.h>
-#include <linux/of_pci.h>
-#include <linux/pci.h>
-#include <linux/slab.h>
+#include <robux/irqchip.h>
+#include <robux/msi.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/of_irq.h>
+#include <robux/of_pci.h>
+#include <robux/pci.h>
+#include <robux/slab.h>
 
-#include <linux/irqchip/irq-msi-lib.h>
+#include <robux/irqchip/irq-msi-lib.h>
 #include "irq-loongson.h"
 
 static int nr_pics;

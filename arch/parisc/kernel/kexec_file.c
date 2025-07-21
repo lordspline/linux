@@ -5,13 +5,13 @@
  * Copyright (c) 2019 Sven Schnelle <svens@stackframe.org>
  *
  */
-#include <linux/elf.h>
-#include <linux/kexec.h>
-#include <linux/libfdt.h>
-#include <linux/module.h>
-#include <linux/of_fdt.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/elf.h>
+#include <robux/kexec.h>
+#include <robux/libfdt.h>
+#include <robux/module.h>
+#include <robux/of_fdt.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
 static void *elf_load(struct kimage *image, char *kernel_buf,
 			unsigned long kernel_len, char *initrd,

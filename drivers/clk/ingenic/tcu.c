@@ -4,14 +4,14 @@
  * Copyright (C) 2019 Paul Cercueil <paul@crapouillou.net>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/clockchips.h>
-#include <linux/mfd/ingenic-tcu.h>
-#include <linux/mfd/syscon.h>
-#include <linux/regmap.h>
-#include <linux/slab.h>
-#include <linux/syscore_ops.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/clockchips.h>
+#include <robux/mfd/ingenic-tcu.h>
+#include <robux/mfd/syscon.h>
+#include <robux/regmap.h>
+#include <robux/slab.h>
+#include <robux/syscore_ops.h>
 
 #include <dt-bindings/clock/ingenic,tcu.h>
 

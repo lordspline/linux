@@ -6,15 +6,15 @@
  *	Haojian Zhuang <haojian.zhuang@marvell.com>
  */
 
-#include <linux/module.h>
-#include <linux/err.h>
-#include <linux/slab.h>
-#include <linux/of.h>
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/platform_device.h>
-#include <linux/power_supply.h>
-#include <linux/mfd/max8925.h>
+#include <robux/module.h>
+#include <robux/err.h>
+#include <robux/slab.h>
+#include <robux/of.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/platform_device.h>
+#include <robux/power_supply.h>
+#include <robux/mfd/max8925.h>
 
 /* registers in GPM */
 #define MAX8925_OUT5VEN			0x54

@@ -1,17 +1,17 @@
 /* SPDX-License-Identifier: (GPL-2.0+ OR BSD-3-Clause) */
 /* Copyright 2017-2019 NXP */
 
-#include <linux/timer.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/dma-mapping.h>
-#include <linux/skbuff.h>
-#include <linux/ethtool.h>
-#include <linux/fsl/ntmp.h>
-#include <linux/if_vlan.h>
-#include <linux/phylink.h>
-#include <linux/dim.h>
+#include <robux/timer.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/dma-mapping.h>
+#include <robux/skbuff.h>
+#include <robux/ethtool.h>
+#include <robux/fsl/ntmp.h>
+#include <robux/if_vlan.h>
+#include <robux/phylink.h>
+#include <robux/dim.h>
 #include <net/xdp.h>
 
 #include "enetc_hw.h"

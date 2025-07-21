@@ -2,17 +2,17 @@
 // Copyright (C) STMicroelectronics 2018
 // Author: Pascal Paillet <p.paillet@st.com>
 
-#include <linux/i2c.h>
-#include <linux/interrupt.h>
-#include <linux/mfd/core.h>
-#include <linux/mfd/stpmic1.h>
-#include <linux/module.h>
-#include <linux/reboot.h>
-#include <linux/of.h>
-#include <linux/of_irq.h>
-#include <linux/of_platform.h>
-#include <linux/pm_wakeirq.h>
-#include <linux/regmap.h>
+#include <robux/i2c.h>
+#include <robux/interrupt.h>
+#include <robux/mfd/core.h>
+#include <robux/mfd/stpmic1.h>
+#include <robux/module.h>
+#include <robux/reboot.h>
+#include <robux/of.h>
+#include <robux/of_irq.h>
+#include <robux/of_platform.h>
+#include <robux/pm_wakeirq.h>
+#include <robux/regmap.h>
 
 #include <dt-bindings/mfd/st,stpmic1.h>
 

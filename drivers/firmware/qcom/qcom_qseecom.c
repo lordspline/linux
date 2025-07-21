@@ -5,14 +5,14 @@
  *
  * Copyright (C) 2023 Maximilian Luz <luzmaximilian@gmail.com>
  */
-#include <linux/auxiliary_bus.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/auxiliary_bus.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
-#include <linux/firmware/qcom/qcom_qseecom.h>
-#include <linux/firmware/qcom/qcom_scm.h>
+#include <robux/firmware/qcom/qcom_qseecom.h>
+#include <robux/firmware/qcom/qcom_scm.h>
 
 struct qseecom_app_desc {
 	const char *app_name;

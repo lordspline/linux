@@ -8,9 +8,9 @@
 #ifndef _ASM_MICROBLAZE_PGALLOC_H
 #define _ASM_MICROBLAZE_PGALLOC_H
 
-#include <linux/kernel.h>	/* For min/max macros */
-#include <linux/highmem.h>
-#include <linux/pgtable.h>
+#include <robux/kernel.h>	/* For min/max macros */
+#include <robux/highmem.h>
+#include <robux/pgtable.h>
 #include <asm/setup.h>
 #include <asm/io.h>
 #include <asm/page.h>

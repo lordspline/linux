@@ -2,9 +2,9 @@
 /*
  * Core PHY library, taken from phy.c
  */
-#include <linux/export.h>
-#include <linux/phy.h>
-#include <linux/of.h>
+#include <robux/export.h>
+#include <robux/phy.h>
+#include <robux/of.h>
 
 #include "phylib.h"
 #include "phylib-internal.h"

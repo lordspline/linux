@@ -25,7 +25,7 @@
 #ifndef __RADEON_AUDIO_H__
 #define __RADEON_AUDIO_H__
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 struct cea_sad;
 

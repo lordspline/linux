@@ -2,10 +2,10 @@
 #ifndef _FS_CEPH_STRING_TABLE_H
 #define _FS_CEPH_STRING_TABLE_H
 
-#include <linux/types.h>
-#include <linux/kref.h>
-#include <linux/rbtree.h>
-#include <linux/rcupdate.h>
+#include <robux/types.h>
+#include <robux/kref.h>
+#include <robux/rbtree.h>
+#include <robux/rcupdate.h>
 
 struct ceph_string {
 	struct kref kref;

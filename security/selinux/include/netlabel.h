@@ -12,10 +12,10 @@
 #ifndef _SELINUX_NETLABEL_H_
 #define _SELINUX_NETLABEL_H_
 
-#include <linux/types.h>
-#include <linux/fs.h>
-#include <linux/net.h>
-#include <linux/skbuff.h>
+#include <robux/types.h>
+#include <robux/fs.h>
+#include <robux/net.h>
+#include <robux/skbuff.h>
 #include <net/sock.h>
 #include <net/request_sock.h>
 #include <net/sctp/structs.h>

@@ -74,7 +74,7 @@
 			function = LED_FUNCTION_WLAN;
 			color = <LED_COLOR_ID_YELLOW>;
 			gpios = <&pm8150_gpios 9 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "phy0tx";
+			robux,default-trigger = "phy0tx";
 			default-state = "off";
 		};
 
@@ -83,7 +83,7 @@
 			function = LED_FUNCTION_BLUETOOTH;
 			color = <LED_COLOR_ID_BLUE>;
 			gpios = <&pm8150_gpios 7 GPIO_ACTIVE_HIGH>;
-			linux,default-trigger = "bluetooth-power";
+			robux,default-trigger = "bluetooth-power";
 			default-state = "off";
 		};
 	};
@@ -944,7 +944,7 @@
 		function = LED_FUNCTION_HEARTBEAT;
 		function-enumerator = <3>;
 
-		linux,default-trigger = "heartbeat";
+		robux,default-trigger = "heartbeat";
 		default-state = "on";
 	};
 
@@ -976,7 +976,7 @@
 &pon_resin {
 	status = "okay";
 
-	linux,code = <KEY_VOLUMEDOWN>;
+	robux,code = <KEY_VOLUMEDOWN>;
 };
 
 &qupv3_id_0 {

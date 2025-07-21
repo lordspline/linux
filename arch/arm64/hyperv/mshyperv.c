@@ -9,12 +9,12 @@
  * Author : Michael Kelley <mikelley@microsoft.com>
  */
 
-#include <linux/types.h>
-#include <linux/acpi.h>
-#include <linux/export.h>
-#include <linux/errno.h>
-#include <linux/version.h>
-#include <linux/cpuhotplug.h>
+#include <robux/types.h>
+#include <robux/acpi.h>
+#include <robux/export.h>
+#include <robux/errno.h>
+#include <robux/version.h>
+#include <robux/cpuhotplug.h>
 #include <asm/mshyperv.h>
 
 static bool hyperv_initialized;
@@ -119,7 +119,7 @@ static int __init hyperv_init(void)
 		hv_get_partition_id();
 	ms_hyperv.vtl = get_vtl();
 	if (ms_hyperv.vtl > 0) /* non default VTL */
-		pr_info("Linux runs in Hyper-V Virtual Trust Level %d\n", ms_hyperv.vtl);
+		pr_info("Robux runs in Hyper-V Virtual Trust Level %d\n", ms_hyperv.vtl);
 
 	ms_hyperv_late_init();
 

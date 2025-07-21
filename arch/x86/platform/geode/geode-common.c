@@ -4,13 +4,13 @@
  * on AMD Geode boards.
  */
 
-#include <linux/err.h>
-#include <linux/gpio/machine.h>
-#include <linux/gpio/property.h>
-#include <linux/input.h>
-#include <linux/leds.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/err.h>
+#include <robux/gpio/machine.h>
+#include <robux/gpio/property.h>
+#include <robux/input.h>
+#include <robux/leds.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #include "geode-common.h"
 
@@ -30,7 +30,7 @@ static const struct software_node geode_gpio_keys_node = {
 
 static struct property_entry geode_restart_key_props[] = {
 	{ /* Placeholder for GPIO property */ },
-	PROPERTY_ENTRY_U32("linux,code", KEY_RESTART),
+	PROPERTY_ENTRY_U32("robux,code", KEY_RESTART),
 	PROPERTY_ENTRY_STRING("label", "Reset button"),
 	PROPERTY_ENTRY_U32("debounce-interval", 100),
 	{ }
@@ -119,7 +119,7 @@ int __init geode_create_leds(const char *label, const struct geode_led *leds,
 
 	/*
 	 * Each LED is represented by 3 properties: "gpios",
-	 * "linux,default-trigger", and am empty terminator.
+	 * "robux,default-trigger", and am empty terminator.
 	 */
 	props = kcalloc(n_leds * 3, sizeof(*props), GFP_KERNEL);
 	if (!props) {
@@ -139,7 +139,7 @@ int __init geode_create_leds(const char *label, const struct geode_led *leds,
 			PROPERTY_ENTRY_GPIO("gpios", &geode_gpiochip_node,
 					    leds[i].pin, GPIO_ACTIVE_LOW);
 		props[i * 3 + 1] =
-			PROPERTY_ENTRY_STRING("linux,default-trigger",
+			PROPERTY_ENTRY_STRING("robux,default-trigger",
 					      leds[i].default_on ?
 					      "default-on" : "default-off");
 		/* props[i * 3 + 2] is an empty terminator */

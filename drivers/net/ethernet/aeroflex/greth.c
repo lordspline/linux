@@ -18,21 +18,21 @@
  *               Marko Isomaki
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/uaccess.h>
-#include <linux/interrupt.h>
-#include <linux/netdevice.h>
-#include <linux/etherdevice.h>
-#include <linux/ethtool.h>
-#include <linux/skbuff.h>
-#include <linux/io.h>
-#include <linux/crc32.h>
-#include <linux/mii.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/uaccess.h>
+#include <robux/interrupt.h>
+#include <robux/netdevice.h>
+#include <robux/etherdevice.h>
+#include <robux/ethtool.h>
+#include <robux/skbuff.h>
+#include <robux/io.h>
+#include <robux/crc32.h>
+#include <robux/mii.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 #include <asm/cacheflush.h>
 #include <asm/byteorder.h>
 

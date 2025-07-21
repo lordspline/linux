@@ -2,11 +2,11 @@
 /*
  * Copyright (C) 2000, 2001, 2002, 2003 Broadcom Corporation
  */
-#include <linux/export.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/reboot.h>
-#include <linux/string.h>
+#include <robux/export.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/reboot.h>
+#include <robux/string.h>
 
 #include <asm/bootinfo.h>
 #include <asm/cpu.h>

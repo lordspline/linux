@@ -23,27 +23,27 @@
  *
  */
 
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/ioport.h>
-#include <linux/slab.h>
-#include <linux/errno.h>
-#include <linux/unistd.h>
-#include <linux/interrupt.h>
-#include <linux/spinlock.h>
-#include <linux/debugfs.h>
-#include <linux/pm.h>
-#include <linux/dmapool.h>
-#include <linux/dma-mapping.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
-#include <linux/bitops.h>
-#include <linux/dmi.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/ioport.h>
+#include <robux/slab.h>
+#include <robux/errno.h>
+#include <robux/unistd.h>
+#include <robux/interrupt.h>
+#include <robux/spinlock.h>
+#include <robux/debugfs.h>
+#include <robux/pm.h>
+#include <robux/dmapool.h>
+#include <robux/dma-mapping.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
+#include <robux/bitops.h>
+#include <robux/dmi.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 #include <asm/io.h>
 #include <asm/irq.h>
 

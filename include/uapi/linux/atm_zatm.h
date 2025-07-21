@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /* atm_zatm.h - Driver-specific declarations of the ZATM driver (for use by
 		driver-specific utilities) */
 
@@ -13,8 +13,8 @@
  * sys/types.h for struct timeval
  */
 
-#include <linux/atmapi.h>
-#include <linux/atmioc.h>
+#include <robux/atmapi.h>
+#include <robux/atmioc.h>
 
 #define ZATM_GETPOOL	_IOW('a',ATMIOC_SARPRV+1,struct atmif_sioc)
 						/* get pool statistics */

@@ -5,12 +5,12 @@
  * Copyright 2009 Jonathan Corbet <corbet@lwn.net>
  */
 
-#include <linux/spinlock.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/machine.h>
-#include <linux/platform_device.h>
-#include <linux/via-core.h>
-#include <linux/export.h>
+#include <robux/spinlock.h>
+#include <robux/gpio/driver.h>
+#include <robux/gpio/machine.h>
+#include <robux/platform_device.h>
+#include <robux/via-core.h>
+#include <robux/export.h>
 #include "via-gpio.h"
 
 /*

@@ -16,8 +16,8 @@
 
 #include "hw.h"
 #include "hw-ops.h"
-#include <linux/sort.h>
-#include <linux/export.h>
+#include <robux/sort.h>
+#include <robux/export.h>
 
 /* Common calibration code */
 

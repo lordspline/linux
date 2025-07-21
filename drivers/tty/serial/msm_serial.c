@@ -7,28 +7,28 @@
  * Copyright (c) 2011, Code Aurora Forum. All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/atomic.h>
-#include <linux/dma/qcom_adm.h>
-#include <linux/dma-mapping.h>
-#include <linux/dmaengine.h>
-#include <linux/module.h>
-#include <linux/io.h>
-#include <linux/ioport.h>
-#include <linux/interrupt.h>
-#include <linux/init.h>
-#include <linux/console.h>
-#include <linux/tty.h>
-#include <linux/tty_flip.h>
-#include <linux/serial_core.h>
-#include <linux/slab.h>
-#include <linux/clk.h>
-#include <linux/platform_device.h>
-#include <linux/pm_opp.h>
-#include <linux/delay.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/wait.h>
+#include <robux/kernel.h>
+#include <robux/atomic.h>
+#include <robux/dma/qcom_adm.h>
+#include <robux/dma-mapping.h>
+#include <robux/dmaengine.h>
+#include <robux/module.h>
+#include <robux/io.h>
+#include <robux/ioport.h>
+#include <robux/interrupt.h>
+#include <robux/init.h>
+#include <robux/console.h>
+#include <robux/tty.h>
+#include <robux/tty_flip.h>
+#include <robux/serial_core.h>
+#include <robux/slab.h>
+#include <robux/clk.h>
+#include <robux/platform_device.h>
+#include <robux/pm_opp.h>
+#include <robux/delay.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/wait.h>
 
 #define MSM_UART_MR1			0x0000
 

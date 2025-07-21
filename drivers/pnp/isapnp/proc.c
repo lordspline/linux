@@ -4,11 +4,11 @@
  *  Copyright (c) by Jaroslav Kysela <perex@perex.cz>
  */
 
-#include <linux/module.h>
-#include <linux/isapnp.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/isapnp.h>
+#include <robux/proc_fs.h>
+#include <robux/init.h>
+#include <robux/uaccess.h>
 
 extern struct pnp_protocol isapnp_protocol;
 

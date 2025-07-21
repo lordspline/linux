@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0+
 
-#include <linux/module.h>
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
-#include <linux/iopoll.h>
-#include <linux/ip.h>
-#include <linux/of.h>
-#include <linux/of_net.h>
-#include <linux/phy/phy.h>
-#include <linux/platform_device.h>
-#include <linux/reset.h>
+#include <robux/module.h>
+#include <robux/if_bridge.h>
+#include <robux/if_vlan.h>
+#include <robux/iopoll.h>
+#include <robux/ip.h>
+#include <robux/of.h>
+#include <robux/of_net.h>
+#include <robux/phy/phy.h>
+#include <robux/platform_device.h>
+#include <robux/reset.h>
 #include <net/addrconf.h>
 
 #include "lan966x_main.h"

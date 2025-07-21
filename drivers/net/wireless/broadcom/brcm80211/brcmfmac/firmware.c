@@ -3,13 +3,13 @@
  * Copyright (c) 2013 Broadcom Corporation
  */
 
-#include <linux/efi.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/device.h>
-#include <linux/firmware.h>
-#include <linux/module.h>
-#include <linux/bcm47xx_nvram.h>
+#include <robux/efi.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/device.h>
+#include <robux/firmware.h>
+#include <robux/module.h>
+#include <robux/bcm47xx_nvram.h>
 
 #include "debug.h"
 #include "firmware.h"

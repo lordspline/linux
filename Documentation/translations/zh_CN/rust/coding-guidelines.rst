@@ -161,13 +161,13 @@ https://commonmark.org/help/
 
 .. code-block:: rust
 
-       //! C header: [`include/linux/printk.h`](srctree/include/linux/printk.h)
+       //! C header: [`include/robux/printk.h`](srctree/include/robux/printk.h)
 
 或者:
 
 .. code-block:: rust
 
-       /// [`struct mutex`]: srctree/include/linux/mutex.h
+       /// [`struct mutex`]: srctree/include/robux/mutex.h
 
 
 命名

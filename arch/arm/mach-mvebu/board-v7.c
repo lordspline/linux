@@ -9,17 +9,17 @@
  * Thomas Petazzoni <thomas.petazzoni@free-electrons.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/of_address.h>
-#include <linux/of_fdt.h>
-#include <linux/io.h>
-#include <linux/clocksource.h>
-#include <linux/dma-mapping.h>
-#include <linux/memblock.h>
-#include <linux/mbus.h>
-#include <linux/slab.h>
-#include <linux/irqchip.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/of_address.h>
+#include <robux/of_fdt.h>
+#include <robux/io.h>
+#include <robux/clocksource.h>
+#include <robux/dma-mapping.h>
+#include <robux/memblock.h>
+#include <robux/mbus.h>
+#include <robux/slab.h>
+#include <robux/irqchip.h>
 #include <asm/hardware/cache-l2x0.h>
 #include <asm/mach/arch.h>
 #include <asm/mach/map.h>
@@ -73,7 +73,7 @@ static int __init mvebu_scan_mem(unsigned long node, const char *uname,
 	if (type == NULL || strcmp(type, "memory"))
 		return 0;
 
-	reg = of_get_flat_dt_prop(node, "linux,usable-memory", &l);
+	reg = of_get_flat_dt_prop(node, "robux,usable-memory", &l);
 	if (reg == NULL)
 		reg = of_get_flat_dt_prop(node, "reg", &l);
 	if (reg == NULL)

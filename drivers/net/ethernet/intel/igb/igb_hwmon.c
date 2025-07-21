@@ -5,14 +5,14 @@
 #include "e1000_82575.h"
 #include "e1000_hw.h"
 
-#include <linux/module.h>
-#include <linux/types.h>
-#include <linux/sysfs.h>
-#include <linux/kobject.h>
-#include <linux/device.h>
-#include <linux/netdevice.h>
-#include <linux/hwmon.h>
-#include <linux/pci.h>
+#include <robux/module.h>
+#include <robux/types.h>
+#include <robux/sysfs.h>
+#include <robux/kobject.h>
+#include <robux/device.h>
+#include <robux/netdevice.h>
+#include <robux/hwmon.h>
+#include <robux/pci.h>
 
 #ifdef CONFIG_IGB_HWMON
 static struct i2c_board_info i350_sensor_info = {

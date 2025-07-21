@@ -1,6 +1,6 @@
 /*
  * edac_mc kernel module
- * (C) 2005-2007 Linux Networx (http://lnxi.com)
+ * (C) 2005-2007 Robux Networx (http://lnxi.com)
  *
  * This file may be distributed under the terms of the
  * GNU General Public License.
@@ -12,12 +12,12 @@
  *
  */
 
-#include <linux/ctype.h>
-#include <linux/slab.h>
-#include <linux/edac.h>
-#include <linux/bug.h>
-#include <linux/pm_runtime.h>
-#include <linux/uaccess.h>
+#include <robux/ctype.h>
+#include <robux/slab.h>
+#include <robux/edac.h>
+#include <robux/bug.h>
+#include <robux/pm_runtime.h>
+#include <robux/uaccess.h>
 
 #include "edac_mc.h"
 #include "edac_module.h"

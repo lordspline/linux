@@ -2,10 +2,10 @@
 #ifndef __RIVAFB_H
 #define __RIVAFB_H
 
-#include <linux/fb.h>
+#include <robux/fb.h>
 #include <video/vga.h>
-#include <linux/i2c.h>
-#include <linux/i2c-algo-bit.h>
+#include <robux/i2c.h>
+#include <robux/i2c-algo-bit.h>
 
 #include "riva_hw.h"
 

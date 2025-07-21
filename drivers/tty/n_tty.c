@@ -8,7 +8,7 @@
  * anyway...)
  *
  * Note that the open routine for N_TTY is guaranteed never to return
- * an error.  This is because Linux will fall back to setting a line
+ * an error.  This is because Robux will fall back to setting a line
  * to N_TTY if it can not switch to any other line discipline.
  *
  * Written by Theodore Ts'o, Copyright 1994.
@@ -28,25 +28,25 @@
  *		EAGAIN
  */
 
-#include <linux/bitmap.h>
-#include <linux/bitops.h>
-#include <linux/ctype.h>
-#include <linux/errno.h>
-#include <linux/export.h>
-#include <linux/fcntl.h>
-#include <linux/file.h>
-#include <linux/jiffies.h>
-#include <linux/math.h>
-#include <linux/poll.h>
-#include <linux/ratelimit.h>
-#include <linux/sched.h>
-#include <linux/signal.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/tty.h>
-#include <linux/types.h>
-#include <linux/uaccess.h>
-#include <linux/vmalloc.h>
+#include <robux/bitmap.h>
+#include <robux/bitops.h>
+#include <robux/ctype.h>
+#include <robux/errno.h>
+#include <robux/export.h>
+#include <robux/fcntl.h>
+#include <robux/file.h>
+#include <robux/jiffies.h>
+#include <robux/math.h>
+#include <robux/poll.h>
+#include <robux/ratelimit.h>
+#include <robux/sched.h>
+#include <robux/signal.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/tty.h>
+#include <robux/types.h>
+#include <robux/uaccess.h>
+#include <robux/vmalloc.h>
 
 #include "tty.h"
 
@@ -394,7 +394,7 @@ static inline int is_continuation(u8 c, const struct tty_struct *tty)
  * special characters like TAB, CR, LF, etc.), doing OPOST processing and
  * putting the results in the tty driver's write buffer.
  *
- * Note that Linux currently ignores TABDLY, CRDLY, VTDLY, FFDLY and NLDLY.
+ * Note that Robux currently ignores TABDLY, CRDLY, VTDLY, FFDLY and NLDLY.
  * They simply aren't relevant in the world today. If you ever need them, add
  * them here.
  *

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 // Copyright (c) Huawei Technologies Co., Ltd. 2025. All rights reserved.
 
-#include <linux/delay.h>
-#include <linux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/dma-mapping.h>
 
 #include "hinic3_common.h"
 

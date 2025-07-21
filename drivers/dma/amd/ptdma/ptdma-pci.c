@@ -10,16 +10,16 @@
  * Author: Gary R Hook <gary.hook@amd.com>
  */
 
-#include <linux/device.h>
-#include <linux/dma-mapping.h>
-#include <linux/delay.h>
-#include <linux/interrupt.h>
-#include <linux/kernel.h>
-#include <linux/kthread.h>
-#include <linux/module.h>
-#include <linux/pci_ids.h>
-#include <linux/pci.h>
-#include <linux/spinlock.h>
+#include <robux/device.h>
+#include <robux/dma-mapping.h>
+#include <robux/delay.h>
+#include <robux/interrupt.h>
+#include <robux/kernel.h>
+#include <robux/kthread.h>
+#include <robux/module.h>
+#include <robux/pci_ids.h>
+#include <robux/pci.h>
+#include <robux/spinlock.h>
 
 #include "ptdma.h"
 

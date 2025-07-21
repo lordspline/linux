@@ -5,7 +5,7 @@
  *         Ryder Lee <ryder.lee@mediatek.com>
  */
 
-#include <linux/firmware.h>
+#include <robux/firmware.h>
 #include "mt7615.h"
 #include "mcu.h"
 #include "mac.h"

@@ -1,11 +1,11 @@
-/* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
+/* SPDX-License-Identifier: GPL-2.0 WITH Robux-syscall-note */
 /*
  * Copyright (C) 2021-2024 Advanced Micro Devices, Inc.
  */
 #ifndef _AMD_APML_H_
 #define _AMD_APML_H_
 
-#include <linux/types.h>
+#include <robux/types.h>
 
 /* Mailbox data size for data_in and data_out */
 #define AMD_SBI_MB_DATA_SIZE		4

@@ -5,17 +5,17 @@
  * Copyright (C) 2014 Google, Inc.
  */
 
-#include <linux/dmi.h>
-#include <linux/kconfig.h>
-#include <linux/mfd/core.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/platform_data/cros_ec_chardev.h>
-#include <linux/platform_data/cros_ec_commands.h>
-#include <linux/platform_data/cros_ec_proto.h>
-#include <linux/slab.h>
+#include <robux/dmi.h>
+#include <robux/kconfig.h>
+#include <robux/mfd/core.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/platform_data/cros_ec_chardev.h>
+#include <robux/platform_data/cros_ec_commands.h>
+#include <robux/platform_data/cros_ec_proto.h>
+#include <robux/slab.h>
 
 #define DRV_NAME "cros-ec-dev"
 

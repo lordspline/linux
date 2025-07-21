@@ -5,11 +5,11 @@
  *  Copyright (C) 2018	      Ai Chao <aichao@kylinos.cn>
  */
 
-#include <linux/acpi.h>
-#include <linux/device.h>
-#include <linux/module.h>
-#include <linux/platform_profile.h>
-#include <linux/wmi.h>
+#include <robux/acpi.h>
+#include <robux/device.h>
+#include <robux/module.h>
+#include <robux/platform_profile.h>
+#include <robux/wmi.h>
 
 #define WMI_INSPUR_POWERMODE_BIOS_GUID "596C31E3-332D-43C9-AEE9-585493284F5D"
 

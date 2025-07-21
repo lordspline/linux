@@ -9,14 +9,14 @@
 
 #define pr_fmt(fmt) "intel_mid: " fmt
 
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/regulator/machine.h>
-#include <linux/scatterlist.h>
-#include <linux/irq.h>
-#include <linux/export.h>
-#include <linux/notifier.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/regulator/machine.h>
+#include <robux/scatterlist.h>
+#include <robux/irq.h>
+#include <robux/export.h>
+#include <robux/notifier.h>
 
 #include <asm/setup.h>
 #include <asm/mpspec_def.h>
@@ -29,7 +29,7 @@
 #include <asm/i8259.h>
 #include <asm/reboot.h>
 
-#include <linux/platform_data/x86/intel_scu_ipc.h>
+#include <robux/platform_data/x86/intel_scu_ipc.h>
 
 #define IPCMSG_COLD_OFF		0x80	/* Only for Tangier */
 #define IPCMSG_COLD_RESET	0xF1

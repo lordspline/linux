@@ -5,21 +5,21 @@
  *	Copyright (C) 2007, 2008 Wolfson Microelectronics PLC.
  *
  *  Author: Liam Girdwood
- *          linux@wolfsonmicro.com
+ *          robux@wolfsonmicro.com
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/time.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/interrupt.h>
-#include <linux/ioctl.h>
-#include <linux/completion.h>
-#include <linux/mfd/wm8350/rtc.h>
-#include <linux/mfd/wm8350/core.h>
-#include <linux/delay.h>
-#include <linux/platform_device.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/time.h>
+#include <robux/rtc.h>
+#include <robux/bcd.h>
+#include <robux/interrupt.h>
+#include <robux/ioctl.h>
+#include <robux/completion.h>
+#include <robux/mfd/wm8350/rtc.h>
+#include <robux/mfd/wm8350/core.h>
+#include <robux/delay.h>
+#include <robux/platform_device.h>
 
 #define WM8350_SET_ALM_RETRIES	5
 #define WM8350_SET_TIME_RETRIES	5

@@ -4,13 +4,13 @@
  *
  * Copyright 2022 onsemi
  */
-#include <linux/kernel.h>
-#include <linux/bitfield.h>
-#include <linux/errno.h>
-#include <linux/init.h>
-#include <linux/module.h>
-#include <linux/mii.h>
-#include <linux/phy.h>
+#include <robux/kernel.h>
+#include <robux/bitfield.h>
+#include <robux/errno.h>
+#include <robux/init.h>
+#include <robux/module.h>
+#include <robux/mii.h>
+#include <robux/phy.h>
 
 #include "mdio-open-alliance.h"
 

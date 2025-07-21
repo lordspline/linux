@@ -2,7 +2,7 @@
 #ifndef _ASM_S390_RUNTIME_CONST_H
 #define _ASM_S390_RUNTIME_CONST_H
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #define runtime_const_ptr(sym)					\
 ({								\

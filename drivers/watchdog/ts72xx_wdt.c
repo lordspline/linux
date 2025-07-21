@@ -11,11 +11,11 @@
  *
  */
 
-#include <linux/platform_device.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/watchdog.h>
-#include <linux/io.h>
+#include <robux/platform_device.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/watchdog.h>
+#include <robux/io.h>
 
 #define TS72XX_WDT_DEFAULT_TIMEOUT	30
 

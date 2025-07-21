@@ -12,17 +12,17 @@
  */
 #define pr_fmt(fmt) "hw perfevents: " fmt
 
-#include <linux/bitmap.h>
-#include <linux/cpumask.h>
-#include <linux/cpu_pm.h>
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/perf/arm_pmu.h>
-#include <linux/slab.h>
-#include <linux/sched/clock.h>
-#include <linux/spinlock.h>
-#include <linux/irq.h>
-#include <linux/irqdesc.h>
+#include <robux/bitmap.h>
+#include <robux/cpumask.h>
+#include <robux/cpu_pm.h>
+#include <robux/export.h>
+#include <robux/kernel.h>
+#include <robux/perf/arm_pmu.h>
+#include <robux/slab.h>
+#include <robux/sched/clock.h>
+#include <robux/spinlock.h>
+#include <robux/irq.h>
+#include <robux/irqdesc.h>
 
 #include <asm/irq_regs.h>
 

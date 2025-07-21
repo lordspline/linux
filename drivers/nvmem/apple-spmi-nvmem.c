@@ -2,15 +2,15 @@
 /*
  * Apple SPMI NVMEM driver
  *
- * Copyright The Asahi Linux Contributors
+ * Copyright The Asahi Robux Contributors
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/nvmem-provider.h>
-#include <linux/of.h>
-#include <linux/spmi.h>
-#include <linux/regmap.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/nvmem-provider.h>
+#include <robux/of.h>
+#include <robux/spmi.h>
+#include <robux/regmap.h>
 
 static const struct regmap_config apple_spmi_regmap_config = {
 	.reg_bits	= 16,

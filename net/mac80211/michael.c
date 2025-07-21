@@ -3,10 +3,10 @@
  * Michael MIC implementation - optimized for TKIP MIC operations
  * Copyright 2002-2003, Instant802 Networks, Inc.
  */
-#include <linux/types.h>
-#include <linux/bitops.h>
-#include <linux/ieee80211.h>
-#include <linux/unaligned.h>
+#include <robux/types.h>
+#include <robux/bitops.h>
+#include <robux/ieee80211.h>
+#include <robux/unaligned.h>
 
 #include "michael.h"
 

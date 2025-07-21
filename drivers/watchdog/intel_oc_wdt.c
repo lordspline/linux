@@ -8,13 +8,13 @@
 
 #define DRV_NAME	"intel_oc_wdt"
 
-#include <linux/acpi.h>
-#include <linux/bits.h>
-#include <linux/io.h>
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/platform_device.h>
-#include <linux/watchdog.h>
+#include <robux/acpi.h>
+#include <robux/bits.h>
+#include <robux/io.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/platform_device.h>
+#include <robux/watchdog.h>
 
 #define INTEL_OC_WDT_TOV		GENMASK(9, 0)
 #define INTEL_OC_WDT_MIN_TOV		1

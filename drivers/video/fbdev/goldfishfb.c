@@ -4,20 +4,20 @@
  * Copyright (C) 2012 Intel, Inc.
  */
 
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/dma-mapping.h>
-#include <linux/errno.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/delay.h>
-#include <linux/mm.h>
-#include <linux/fb.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/ioport.h>
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
+#include <robux/module.h>
+#include <robux/kernel.h>
+#include <robux/dma-mapping.h>
+#include <robux/errno.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/delay.h>
+#include <robux/mm.h>
+#include <robux/fb.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/ioport.h>
+#include <robux/platform_device.h>
+#include <robux/acpi.h>
 
 enum {
 	FB_GET_WIDTH        = 0x00,

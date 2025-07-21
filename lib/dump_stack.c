@@ -4,16 +4,16 @@
  * which don't implement their own.
  */
 
-#include <linux/kernel.h>
-#include <linux/buildid.h>
-#include <linux/export.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/smp.h>
-#include <linux/atomic.h>
-#include <linux/kexec.h>
-#include <linux/utsname.h>
-#include <linux/stop_machine.h>
+#include <robux/kernel.h>
+#include <robux/buildid.h>
+#include <robux/export.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/smp.h>
+#include <robux/atomic.h>
+#include <robux/kexec.h>
+#include <robux/utsname.h>
+#include <robux/stop_machine.h>
 
 static char dump_stack_arch_desc_str[128];
 

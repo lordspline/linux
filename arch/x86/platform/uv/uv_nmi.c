@@ -7,18 +7,18 @@
  * Copyright (c) Mike Travis
  */
 
-#include <linux/cpu.h>
-#include <linux/delay.h>
-#include <linux/kdb.h>
-#include <linux/kexec.h>
-#include <linux/kgdb.h>
-#include <linux/moduleparam.h>
-#include <linux/nmi.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/slab.h>
-#include <linux/string.h>
-#include <linux/clocksource.h>
+#include <robux/cpu.h>
+#include <robux/delay.h>
+#include <robux/kdb.h>
+#include <robux/kexec.h>
+#include <robux/kgdb.h>
+#include <robux/moduleparam.h>
+#include <robux/nmi.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/slab.h>
+#include <robux/string.h>
+#include <robux/clocksource.h>
 
 #include <asm/apic.h>
 #include <asm/current.h>

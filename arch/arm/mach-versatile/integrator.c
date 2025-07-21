@@ -2,24 +2,24 @@
 /*
  *  Copyright (C) 2000-2003 Deep Blue Solutions Ltd
  */
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/spinlock.h>
-#include <linux/interrupt.h>
-#include <linux/irq.h>
-#include <linux/memblock.h>
-#include <linux/sched.h>
-#include <linux/smp.h>
-#include <linux/amba/bus.h>
-#include <linux/amba/serial.h>
-#include <linux/io.h>
-#include <linux/stat.h>
-#include <linux/of.h>
-#include <linux/of_address.h>
-#include <linux/pgtable.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/spinlock.h>
+#include <robux/interrupt.h>
+#include <robux/irq.h>
+#include <robux/memblock.h>
+#include <robux/sched.h>
+#include <robux/smp.h>
+#include <robux/amba/bus.h>
+#include <robux/amba/serial.h>
+#include <robux/io.h>
+#include <robux/stat.h>
+#include <robux/of.h>
+#include <robux/of_address.h>
+#include <robux/pgtable.h>
 
 #include <asm/mach-types.h>
 #include <asm/mach/time.h>

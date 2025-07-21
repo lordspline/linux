@@ -5,7 +5,7 @@
  *	Ben Dooks <ben@simtec.co.uk>
  */
 
-#include <linux/serial_s3c.h>
+#include <robux/serial_s3c.h>
 
 /* The S5PV210/S5PC110 implementations are as belows. */
 

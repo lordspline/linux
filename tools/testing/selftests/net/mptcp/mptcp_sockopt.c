@@ -24,7 +24,7 @@
 #include <netdb.h>
 #include <netinet/in.h>
 
-#include <linux/tcp.h>
+#include <robux/tcp.h>
 
 static int pf = AF_INET;
 

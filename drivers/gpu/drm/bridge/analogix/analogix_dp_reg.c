@@ -6,12 +6,12 @@
  * Author: Jingoo Han <jg1.han@samsung.com>
  */
 
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/gpio/consumer.h>
-#include <linux/io.h>
-#include <linux/iopoll.h>
-#include <linux/phy/phy.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/gpio/consumer.h>
+#include <robux/io.h>
+#include <robux/iopoll.h>
+#include <robux/phy/phy.h>
 
 #include <drm/bridge/analogix_dp.h>
 

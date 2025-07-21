@@ -16,25 +16,25 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
-#include <linux/bitmap.h>
-#include <linux/debugfs.h>
-#include <linux/device.h>
-#include <linux/export.h>
-#include <linux/idr.h>
-#include <linux/io.h>
-#include <linux/io-64-nonatomic-hi-lo.h>
-#include <linux/kernel.h>
-#include <linux/kmod.h>
-#include <linux/ktime.h>
-#include <linux/hashtable.h>
-#include <linux/list.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/processor.h>
-#include <linux/refcount.h>
-#include <linux/slab.h>
-#include <linux/xarray.h>
+#include <robux/bitmap.h>
+#include <robux/debugfs.h>
+#include <robux/device.h>
+#include <robux/export.h>
+#include <robux/idr.h>
+#include <robux/io.h>
+#include <robux/io-64-nonatomic-hi-lo.h>
+#include <robux/kernel.h>
+#include <robux/kmod.h>
+#include <robux/ktime.h>
+#include <robux/hashtable.h>
+#include <robux/list.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/processor.h>
+#include <robux/refcount.h>
+#include <robux/slab.h>
+#include <robux/xarray.h>
 
 #include "common.h"
 #include "notify.h"

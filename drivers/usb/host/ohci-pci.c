@@ -15,12 +15,12 @@
  * This file is licenced under the GPL.
  */
 
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/pci.h>
-#include <linux/usb.h>
-#include <linux/usb/hcd.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/pci.h>
+#include <robux/usb.h>
+#include <robux/usb/hcd.h>
 
 #include "ohci.h"
 #include "pci-quirks.h"

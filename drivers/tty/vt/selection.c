@@ -12,25 +12,25 @@
  * Now that /dev/vcs exists, most of this can disappear again.
  */
 
-#include <linux/module.h>
-#include <linux/tty.h>
-#include <linux/sched.h>
-#include <linux/mm.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
-#include <linux/types.h>
+#include <robux/module.h>
+#include <robux/tty.h>
+#include <robux/sched.h>
+#include <robux/mm.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
+#include <robux/types.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
-#include <linux/kbd_kern.h>
-#include <linux/vt_kern.h>
-#include <linux/consolemap.h>
-#include <linux/selection.h>
-#include <linux/tiocl.h>
-#include <linux/console.h>
-#include <linux/tty_flip.h>
+#include <robux/kbd_kern.h>
+#include <robux/vt_kern.h>
+#include <robux/consolemap.h>
+#include <robux/selection.h>
+#include <robux/tiocl.h>
+#include <robux/console.h>
+#include <robux/tty_flip.h>
 
-#include <linux/sched/signal.h>
+#include <robux/sched/signal.h>
 
 /* Don't take this from <ctype.h>: 011-015 on the screen aren't spaces */
 #define is_space_on_vt(c)	((c) == ' ')

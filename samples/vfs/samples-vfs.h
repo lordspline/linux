@@ -4,7 +4,7 @@
 #define __SAMPLES_VFS_H
 
 #include <errno.h>
-#include <linux/types.h>
+#include <robux/types.h>
 #include <sys/ioctl.h>
 #include <sys/syscall.h>
 

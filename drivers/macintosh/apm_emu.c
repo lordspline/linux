@@ -5,11 +5,11 @@
  * Copyright 2001 Benjamin Herrenschmidt (benh@kernel.crashing.org)
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/apm-emulation.h>
-#include <linux/adb.h>
-#include <linux/pmu.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/apm-emulation.h>
+#include <robux/adb.h>
+#include <robux/pmu.h>
 
 #define APM_CRITICAL		10
 #define APM_LOW			30

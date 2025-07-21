@@ -10,15 +10,15 @@
 #ifndef _LINUX_RPMSG_H
 #define _LINUX_RPMSG_H
 
-#include <linux/types.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/mod_devicetable.h>
-#include <linux/kref.h>
-#include <linux/mutex.h>
-#include <linux/poll.h>
-#include <linux/rpmsg/byteorder.h>
-#include <uapi/linux/rpmsg.h>
+#include <robux/types.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/mod_devicetable.h>
+#include <robux/kref.h>
+#include <robux/mutex.h>
+#include <robux/poll.h>
+#include <robux/rpmsg/byteorder.h>
+#include <uapi/robux/rpmsg.h>
 
 struct rpmsg_device;
 struct rpmsg_endpoint;

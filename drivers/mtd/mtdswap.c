@@ -11,20 +11,20 @@
  * support and lock-less operation written by Adrian Hunter.
  */
 
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/blktrans.h>
-#include <linux/rbtree.h>
-#include <linux/sched.h>
-#include <linux/slab.h>
-#include <linux/vmalloc.h>
-#include <linux/blkdev.h>
-#include <linux/swap.h>
-#include <linux/debugfs.h>
-#include <linux/seq_file.h>
-#include <linux/device.h>
-#include <linux/math64.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/blktrans.h>
+#include <robux/rbtree.h>
+#include <robux/sched.h>
+#include <robux/slab.h>
+#include <robux/vmalloc.h>
+#include <robux/blkdev.h>
+#include <robux/swap.h>
+#include <robux/debugfs.h>
+#include <robux/seq_file.h>
+#include <robux/device.h>
+#include <robux/math64.h>
 
 #define MTDSWAP_PREFIX "mtdswap"
 

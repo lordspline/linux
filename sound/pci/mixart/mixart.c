@@ -8,13 +8,13 @@
  */
 
 
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/slab.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/slab.h>
 
 #include <sound/core.h>
 #include <sound/initval.h>

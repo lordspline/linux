@@ -2,14 +2,14 @@
 /*
  * Copyright 2011 IBM Corporation.
  */
-#include <linux/types.h>
-#include <linux/kernel.h>
-#include <linux/irq.h>
-#include <linux/smp.h>
-#include <linux/interrupt.h>
-#include <linux/irqdomain.h>
-#include <linux/cpu.h>
-#include <linux/of.h>
+#include <robux/types.h>
+#include <robux/kernel.h>
+#include <robux/irq.h>
+#include <robux/smp.h>
+#include <robux/interrupt.h>
+#include <robux/irqdomain.h>
+#include <robux/cpu.h>
+#include <robux/of.h>
 
 #include <asm/smp.h>
 #include <asm/irq.h>
@@ -116,7 +116,7 @@ static unsigned int icp_hv_get_irq(void)
 		return irq;
 	}
 
-	/* We don't have a linux mapping, so have rtas mask it. */
+	/* We don't have a robux mapping, so have rtas mask it. */
 	xics_mask_unknown_vec(vec);
 
 	/* We might learn about it later, so EOI it */

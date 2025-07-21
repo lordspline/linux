@@ -5,7 +5,7 @@
  * All rights reserved
  * www.qlogic.com
  *
- * Linux driver for QLogic BR-series Fibre Channel Host Bus Adapter.
+ * Robux driver for QLogic BR-series Fibre Channel Host Bus Adapter.
  */
 
 /*
@@ -13,23 +13,23 @@
  */
 
 /*
- *  bfa_drv.h Linux driver data structures.
+ *  bfa_drv.h Robux driver data structures.
  */
 
 #ifndef __BFAD_DRV_H__
 #define __BFAD_DRV_H__
 
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/dma-mapping.h>
-#include <linux/idr.h>
-#include <linux/interrupt.h>
-#include <linux/cdev.h>
-#include <linux/fs.h>
-#include <linux/delay.h>
-#include <linux/vmalloc.h>
-#include <linux/workqueue.h>
-#include <linux/bitops.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/dma-mapping.h>
+#include <robux/idr.h>
+#include <robux/interrupt.h>
+#include <robux/cdev.h>
+#include <robux/fs.h>
+#include <robux/delay.h>
+#include <robux/vmalloc.h>
+#include <robux/workqueue.h>
+#include <robux/bitops.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_tcq.h>

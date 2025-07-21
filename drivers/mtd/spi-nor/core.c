@@ -7,22 +7,22 @@
  * Copyright (C) 2014, Freescale Semiconductor, Inc.
  */
 
-#include <linux/cleanup.h>
-#include <linux/delay.h>
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/math64.h>
-#include <linux/module.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/spi-nor.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/regulator/consumer.h>
-#include <linux/sched/task_stack.h>
-#include <linux/sizes.h>
-#include <linux/slab.h>
-#include <linux/spi/flash.h>
+#include <robux/cleanup.h>
+#include <robux/delay.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/math64.h>
+#include <robux/module.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/spi-nor.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/regulator/consumer.h>
+#include <robux/sched/task_stack.h>
+#include <robux/sizes.h>
+#include <robux/slab.h>
+#include <robux/spi/flash.h>
 
 #include "core.h"
 

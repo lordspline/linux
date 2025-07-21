@@ -5,15 +5,15 @@
  * Author: Marek Behún <kabel@kernel.org>
  */
 
-#include <linux/device.h>
-#include <linux/interrupt.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_controller.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/armada-37xx-rwtm-mailbox.h>
+#include <robux/device.h>
+#include <robux/interrupt.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mailbox_controller.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/armada-37xx-rwtm-mailbox.h>
 
 #define DRIVER_NAME	"armada-37xx-rwtm-mailbox"
 

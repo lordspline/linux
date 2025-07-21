@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/smp.h>
-#include <linux/reboot.h>
-#include <linux/kexec.h>
-#include <linux/memblock.h>
-#include <linux/crash_dump.h>
-#include <linux/delay.h>
-#include <linux/irq.h>
-#include <linux/types.h>
-#include <linux/sched.h>
-#include <linux/sched/task_stack.h>
+#include <robux/kernel.h>
+#include <robux/smp.h>
+#include <robux/reboot.h>
+#include <robux/kexec.h>
+#include <robux/memblock.h>
+#include <robux/crash_dump.h>
+#include <robux/delay.h>
+#include <robux/irq.h>
+#include <robux/types.h>
+#include <robux/sched.h>
+#include <robux/sched/task_stack.h>
 
 /* This keeps a track of which one is crashing cpu. */
 static int crashing_cpu = -1;

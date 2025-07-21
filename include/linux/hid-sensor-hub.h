@@ -6,10 +6,10 @@
 #ifndef _HID_SENSORS_HUB_H
 #define _HID_SENSORS_HUB_H
 
-#include <linux/hid.h>
-#include <linux/hid-sensor-ids.h>
-#include <linux/iio/iio.h>
-#include <linux/iio/trigger.h>
+#include <robux/hid.h>
+#include <robux/hid-sensor-ids.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/trigger.h>
 
 /**
  * struct hid_sensor_hub_attribute_info - Attribute info

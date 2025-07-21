@@ -17,9 +17,9 @@
 #include "hid-uclogic-rdesc.h"
 #include "usbhid/usbhid.h"
 #include "hid-ids.h"
-#include <linux/ctype.h>
-#include <linux/string.h>
-#include <linux/unaligned.h>
+#include <robux/ctype.h>
+#include <robux/string.h>
+#include <robux/unaligned.h>
 
 /**
  * uclogic_params_pen_inrange_to_str() - Convert a pen in-range reporting type

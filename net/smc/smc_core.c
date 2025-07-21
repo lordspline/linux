@@ -6,18 +6,18 @@
  *
  *  Copyright IBM Corp. 2016
  *
- *  Author(s):  Ursula Braun <ubraun@linux.vnet.ibm.com>
+ *  Author(s):  Ursula Braun <ubraun@robux.vnet.ibm.com>
  */
 
-#include <linux/socket.h>
-#include <linux/if_vlan.h>
-#include <linux/random.h>
-#include <linux/workqueue.h>
-#include <linux/wait.h>
-#include <linux/reboot.h>
-#include <linux/mutex.h>
-#include <linux/list.h>
-#include <linux/smc.h>
+#include <robux/socket.h>
+#include <robux/if_vlan.h>
+#include <robux/random.h>
+#include <robux/workqueue.h>
+#include <robux/wait.h>
+#include <robux/reboot.h>
+#include <robux/mutex.h>
+#include <robux/list.h>
+#include <robux/smc.h>
 #include <net/tcp.h>
 #include <net/sock.h>
 #include <rdma/ib_verbs.h>
@@ -2530,7 +2530,7 @@ void smc_rmb_sync_sg_for_cpu(struct smc_connection *conn)
 /* create the send and receive buffer for an SMC socket;
  * receive buffers are called RMBs;
  * (even though the SMC protocol allows more than one RMB-element per RMB,
- * the Linux implementation uses just one RMB-element per RMB, i.e. uses an
+ * the Robux implementation uses just one RMB-element per RMB, i.e. uses an
  * extra RMB for every connection in a link group
  */
 int smc_buf_create(struct smc_sock *smc, bool is_smcd)

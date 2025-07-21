@@ -4,24 +4,24 @@
  * Stack trace utility functions etc.
  *
  * Copyright 2008 Christoph Hellwig, IBM Corp.
- * Copyright 2018 SUSE Linux GmbH
+ * Copyright 2018 SUSE Robux GmbH
  * Copyright 2018 Nick Piggin, Michael Ellerman, IBM Corp.
  */
 
-#include <linux/delay.h>
-#include <linux/export.h>
-#include <linux/kallsyms.h>
-#include <linux/module.h>
-#include <linux/nmi.h>
-#include <linux/sched.h>
-#include <linux/sched/debug.h>
-#include <linux/sched/task_stack.h>
-#include <linux/stacktrace.h>
+#include <robux/delay.h>
+#include <robux/export.h>
+#include <robux/kallsyms.h>
+#include <robux/module.h>
+#include <robux/nmi.h>
+#include <robux/sched.h>
+#include <robux/sched/debug.h>
+#include <robux/sched/task_stack.h>
+#include <robux/stacktrace.h>
 #include <asm/ptrace.h>
 #include <asm/processor.h>
-#include <linux/ftrace.h>
+#include <robux/ftrace.h>
 #include <asm/kprobes.h>
-#include <linux/rethook.h>
+#include <robux/rethook.h>
 
 #include <asm/paca.h>
 

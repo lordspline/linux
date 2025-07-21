@@ -5,18 +5,18 @@
  * Copyright (c) 2009-2012, NVIDIA Corporation. All rights reserved.
  */
 
-#include <linux/clk/tegra.h>
-#include <linux/cpumask.h>
-#include <linux/cpu_pm.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/suspend.h>
+#include <robux/clk/tegra.h>
+#include <robux/cpumask.h>
+#include <robux/cpu_pm.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/suspend.h>
 
-#include <linux/firmware/trusted_foundations.h>
+#include <robux/firmware/trusted_foundations.h>
 
 #include <soc/tegra/flowctrl.h>
 #include <soc/tegra/fuse.h>

@@ -4,11 +4,11 @@
  * Copyright 2007 Nuova Systems, Inc.  All rights reserved.
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/netdevice.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/netdevice.h>
 
 #include "wq_enet_desc.h"
 #include "rq_enet_desc.h"

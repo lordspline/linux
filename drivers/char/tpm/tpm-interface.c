@@ -19,13 +19,13 @@
  * calls to msleep.
  */
 
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/suspend.h>
-#include <linux/freezer.h>
-#include <linux/tpm_eventlog.h>
+#include <robux/poll.h>
+#include <robux/slab.h>
+#include <robux/mutex.h>
+#include <robux/spinlock.h>
+#include <robux/suspend.h>
+#include <robux/freezer.h>
+#include <robux/tpm_eventlog.h>
 
 #include "tpm.h"
 

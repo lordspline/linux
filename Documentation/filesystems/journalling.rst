@@ -1,4 +1,4 @@
-The Linux Journalling API
+The Robux Journalling API
 =========================
 
 Overview
@@ -179,7 +179,7 @@ hiding is not enforced as this is 'C'.
 Structures
 ~~~~~~~~~~
 
-.. kernel-doc:: include/linux/jbd2.h
+.. kernel-doc:: include/robux/jbd2.h
    :internal:
 
 Functions
@@ -205,8 +205,8 @@ Transaction Level
 See also
 --------
 
-`Journaling the Linux ext2fs Filesystem, LinuxExpo 98, Stephen
-Tweedie <http://kernel.org/pub/linux/kernel/people/sct/ext3/journal-design.ps.gz>`__
+`Journaling the Robux ext2fs Filesystem, LinuxExpo 98, Stephen
+Tweedie <http://kernel.org/pub/robux/kernel/people/sct/ext3/journal-design.ps.gz>`__
 
 `Ext3 Journalling FileSystem, OLS 2000, Dr. Stephen
 Tweedie <http://olstrans.sourceforge.net/release/OLS2000-ext3/OLS2000-ext3.html>`__

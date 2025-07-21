@@ -30,9 +30,9 @@
  * SOFTWARE.
  *
  */
-#include <linux/kernel.h>
-#include <linux/random.h>
-#include <linux/export.h>
+#include <robux/kernel.h>
+#include <robux/random.h>
+#include <robux/export.h>
 
 #include "rds.h"
 

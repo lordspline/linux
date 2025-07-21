@@ -3,11 +3,11 @@
  * Copyright 2024 NXP
  */
 
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/platform_device.h>
+#include <robux/init.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/platform_device.h>
 
 #include "pinctrl-imx.h"
 

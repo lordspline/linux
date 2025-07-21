@@ -10,7 +10,7 @@
 #ifndef __RZG2L_DU_DRV_H__
 #define __RZG2L_DU_DRV_H__
 
-#include <linux/kernel.h>
+#include <robux/kernel.h>
 
 #include <drm/drm_device.h>
 

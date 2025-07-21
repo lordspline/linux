@@ -20,12 +20,12 @@
 #include "debugfs.h"
 #include "xmit.h"
 
-#include <linux/dma-mapping.h>
-#include <linux/pci.h>
-#include <linux/delay.h>
-#include <linux/skbuff.h>
-#include <linux/etherdevice.h>
-#include <linux/slab.h>
+#include <robux/dma-mapping.h>
+#include <robux/pci.h>
+#include <robux/delay.h>
+#include <robux/skbuff.h>
+#include <robux/etherdevice.h>
+#include <robux/slab.h>
 #include <asm/div64.h>
 
 

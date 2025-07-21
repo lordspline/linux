@@ -4,12 +4,12 @@
   * Copyright 2016 HUAWEI TECHNOLOGIES CO., LTD.
   */
 
-#include <linux/err.h>
-#include <linux/module.h>
-#include <linux/virtio_config.h>
-#include <linux/cpu.h>
+#include <robux/err.h>
+#include <robux/module.h>
+#include <robux/virtio_config.h>
+#include <robux/cpu.h>
 
-#include <uapi/linux/virtio_crypto.h>
+#include <uapi/robux/virtio_crypto.h>
 #include "virtio_crypto_common.h"
 
 

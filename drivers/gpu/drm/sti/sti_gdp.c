@@ -6,9 +6,9 @@
  *          for STMicroelectronics.
  */
 
-#include <linux/dma-mapping.h>
-#include <linux/of.h>
-#include <linux/seq_file.h>
+#include <robux/dma-mapping.h>
+#include <robux/of.h>
+#include <robux/seq_file.h>
 
 #include <drm/drm_atomic.h>
 #include <drm/drm_device.h>

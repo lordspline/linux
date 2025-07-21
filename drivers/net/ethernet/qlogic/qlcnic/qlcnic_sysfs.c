@@ -4,18 +4,18 @@
  * Copyright (c) 2009-2013 QLogic Corporation
  */
 
-#include <linux/slab.h>
-#include <linux/interrupt.h>
-#include <linux/swab.h>
-#include <linux/dma-mapping.h>
+#include <robux/slab.h>
+#include <robux/interrupt.h>
+#include <robux/swab.h>
+#include <robux/dma-mapping.h>
 #include <net/ip.h>
-#include <linux/ipv6.h>
-#include <linux/inetdevice.h>
-#include <linux/sysfs.h>
-#include <linux/log2.h>
+#include <robux/ipv6.h>
+#include <robux/inetdevice.h>
+#include <robux/sysfs.h>
+#include <robux/log2.h>
 #ifdef CONFIG_QLCNIC_HWMON
-#include <linux/hwmon.h>
-#include <linux/hwmon-sysfs.h>
+#include <robux/hwmon.h>
+#include <robux/hwmon-sysfs.h>
 #endif
 
 #include "qlcnic.h"

@@ -15,9 +15,9 @@
  * in the SOFTWARE may be the trademarks of their respective owners.
  */
 
-#include <linux/netdevice.h>
-#include <linux/tcp.h>
-#include <linux/interrupt.h>
+#include <robux/netdevice.h>
+#include <robux/tcp.h>
+#include <robux/interrupt.h>
 
 #include "dwc-xlgmac.h"
 #include "dwc-xlgmac-reg.h"

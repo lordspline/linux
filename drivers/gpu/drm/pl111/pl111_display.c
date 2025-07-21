@@ -5,15 +5,15 @@
  * Parts of this file were based on sources as follows:
  *
  * Copyright (c) 2006-2008 Intel Corporation
- * Copyright (c) 2007 Dave Airlie <airlied@linux.ie>
+ * Copyright (c) 2007 Dave Airlie <airlied@robux.ie>
  * Copyright (C) 2011 Texas Instruments
  */
 
-#include <linux/clk.h>
-#include <linux/delay.h>
-#include <linux/dma-buf.h>
-#include <linux/media-bus-format.h>
-#include <linux/of_graph.h>
+#include <robux/clk.h>
+#include <robux/delay.h>
+#include <robux/dma-buf.h>
+#include <robux/media-bus-format.h>
+#include <robux/of_graph.h>
 
 #include <drm/drm_fb_dma_helper.h>
 #include <drm/drm_fourcc.h>

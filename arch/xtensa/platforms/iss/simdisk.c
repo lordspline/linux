@@ -9,16 +9,16 @@
  *   Authors	Victor Prupis
  */
 
-#include <linux/module.h>
-#include <linux/moduleparam.h>
-#include <linux/kernel.h>
-#include <linux/init.h>
-#include <linux/string.h>
-#include <linux/string_choices.h>
-#include <linux/blkdev.h>
-#include <linux/bio.h>
-#include <linux/proc_fs.h>
-#include <linux/uaccess.h>
+#include <robux/module.h>
+#include <robux/moduleparam.h>
+#include <robux/kernel.h>
+#include <robux/init.h>
+#include <robux/string.h>
+#include <robux/string_choices.h>
+#include <robux/blkdev.h>
+#include <robux/bio.h>
+#include <robux/proc_fs.h>
+#include <robux/uaccess.h>
 #include <platform/simcall.h>
 
 #define SIMDISK_MAJOR 240

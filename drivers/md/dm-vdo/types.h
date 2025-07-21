@@ -6,12 +6,12 @@
 #ifndef VDO_TYPES_H
 #define VDO_TYPES_H
 
-#include <linux/bio.h>
-#include <linux/blkdev.h>
-#include <linux/device-mapper.h>
-#include <linux/list.h>
-#include <linux/compiler_attributes.h>
-#include <linux/types.h>
+#include <robux/bio.h>
+#include <robux/blkdev.h>
+#include <robux/device-mapper.h>
+#include <robux/list.h>
+#include <robux/compiler_attributes.h>
+#include <robux/types.h>
 
 #include "funnel-queue.h"
 

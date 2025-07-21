@@ -4,16 +4,16 @@
  */
 
 /*
- * EMU10k1 - SB Live / Audigy - gameport driver for Linux
+ * EMU10k1 - SB Live / Audigy - gameport driver for Robux
  */
 
 #include <asm/io.h>
 
-#include <linux/module.h>
-#include <linux/ioport.h>
-#include <linux/gameport.h>
-#include <linux/slab.h>
-#include <linux/pci.h>
+#include <robux/module.h>
+#include <robux/ioport.h>
+#include <robux/gameport.h>
+#include <robux/slab.h>
+#include <robux/pci.h>
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@ucw.cz>");
 MODULE_DESCRIPTION("EMU10k1 gameport driver");

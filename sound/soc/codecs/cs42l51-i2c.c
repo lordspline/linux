@@ -7,8 +7,8 @@
  * Author: Brian Austin <brian.austin@cirrus.com>
  */
 
-#include <linux/i2c.h>
-#include <linux/module.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
 #include <sound/soc.h>
 
 #include "cs42l51.h"

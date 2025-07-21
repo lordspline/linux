@@ -2,9 +2,9 @@
 
 /* Copyright (C) 2023-2024 Linaro Ltd. */
 
-#include <linux/array_size.h>
-#include <linux/bits.h>
-#include <linux/types.h>
+#include <robux/array_size.h>
+#include <robux/bits.h>
+#include <robux/types.h>
 
 #include "../ipa_reg.h"
 #include "../ipa_version.h"

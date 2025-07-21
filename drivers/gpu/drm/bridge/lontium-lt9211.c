@@ -10,15 +10,15 @@
  * Copyright (C) 2022 Marek Vasut <marex@denx.de>
  */
 
-#include <linux/bits.h>
-#include <linux/clk.h>
-#include <linux/gpio/consumer.h>
-#include <linux/i2c.h>
-#include <linux/media-bus-format.h>
-#include <linux/module.h>
-#include <linux/of_graph.h>
-#include <linux/regmap.h>
-#include <linux/regulator/consumer.h>
+#include <robux/bits.h>
+#include <robux/clk.h>
+#include <robux/gpio/consumer.h>
+#include <robux/i2c.h>
+#include <robux/media-bus-format.h>
+#include <robux/module.h>
+#include <robux/of_graph.h>
+#include <robux/regmap.h>
+#include <robux/regulator/consumer.h>
 
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_bridge.h>

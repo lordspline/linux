@@ -2,18 +2,18 @@
 /*
  * Copyright (C) 2017 Pengutronix, Juergen Borleis <kernel@pengutronix.de>
  */
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/gpio/consumer.h>
-#include <linux/regmap.h>
-#include <linux/iopoll.h>
-#include <linux/mutex.h>
-#include <linux/mii.h>
-#include <linux/of.h>
-#include <linux/phy.h>
-#include <linux/if_bridge.h>
-#include <linux/if_vlan.h>
-#include <linux/etherdevice.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/gpio/consumer.h>
+#include <robux/regmap.h>
+#include <robux/iopoll.h>
+#include <robux/mutex.h>
+#include <robux/mii.h>
+#include <robux/of.h>
+#include <robux/phy.h>
+#include <robux/if_bridge.h>
+#include <robux/if_vlan.h>
+#include <robux/etherdevice.h>
 
 #include "lan9303.h"
 

@@ -6,10 +6,10 @@
  * Paul Walmsley
  */
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/clk.h>
-#include <linux/io.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/clk.h>
+#include <robux/io.h>
 
 #include "clock.h"
 #include "cm2xxx.h"

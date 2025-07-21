@@ -7,17 +7,17 @@
  * TODO: ALERT interrupt, Overcurrent delay, Shutdown delay
  */
 
-#include <linux/bitfield.h>
-#include <linux/cleanup.h>
-#include <linux/init.h>
-#include <linux/i2c.h>
-#include <linux/module.h>
-#include <linux/mod_devicetable.h>
-#include <linux/property.h>
-#include <linux/regmap.h>
+#include <robux/bitfield.h>
+#include <robux/cleanup.h>
+#include <robux/init.h>
+#include <robux/i2c.h>
+#include <robux/module.h>
+#include <robux/mod_devicetable.h>
+#include <robux/property.h>
+#include <robux/regmap.h>
 
-#include <linux/iio/iio.h>
-#include <linux/iio/types.h>
+#include <robux/iio/iio.h>
+#include <robux/iio/types.h>
 
 #define MAX34408_STATUS_REG		0x0
 #define MAX34408_CONTROL_REG		0x1

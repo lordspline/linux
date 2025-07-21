@@ -10,9 +10,9 @@
 #ifndef STF_VIDEO_H
 #define STF_VIDEO_H
 
-#include <linux/list.h>
-#include <linux/mutex.h>
-#include <linux/videodev2.h>
+#include <robux/list.h>
+#include <robux/mutex.h>
+#include <robux/videodev2.h>
 #include <media/v4l2-dev.h>
 #include <media/v4l2-fh.h>
 #include <media/v4l2-ioctl.h>

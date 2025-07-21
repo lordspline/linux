@@ -10,10 +10,10 @@
  * enabled by a specific bit in the first register range. When all groups for
  * a given pin are disabled the pin acts as a GPIO.
  */
-#include <linux/device.h>
-#include <linux/regmap.h>
-#include <linux/pinctrl/pinctrl.h>
-#include <linux/pinctrl/pinmux.h>
+#include <robux/device.h>
+#include <robux/regmap.h>
+#include <robux/pinctrl/pinctrl.h>
+#include <robux/pinctrl/pinmux.h>
 
 #include "pinctrl-meson.h"
 #include "pinctrl-meson8-pmx.h"

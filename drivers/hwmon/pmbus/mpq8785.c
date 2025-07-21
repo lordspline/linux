@@ -3,11 +3,11 @@
  * Driver for MPS MPQ8785 Step-Down Converter
  */
 
-#include <linux/i2c.h>
-#include <linux/bitops.h>
-#include <linux/module.h>
-#include <linux/property.h>
-#include <linux/of_device.h>
+#include <robux/i2c.h>
+#include <robux/bitops.h>
+#include <robux/module.h>
+#include <robux/property.h>
+#include <robux/of_device.h>
 #include "pmbus.h"
 
 #define MPM82504_READ_TEMPERATURE_1_SIGN_POS	9

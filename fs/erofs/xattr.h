@@ -7,8 +7,8 @@
 #define __EROFS_XATTR_H
 
 #include "internal.h"
-#include <linux/posix_acl_xattr.h>
-#include <linux/xattr.h>
+#include <robux/posix_acl_xattr.h>
+#include <robux/xattr.h>
 
 /* Attribute not found */
 #define ENOATTR         ENODATA

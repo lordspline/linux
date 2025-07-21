@@ -1,11 +1,11 @@
-# SPDX-License-Identifier: ((GPL-2.0 WITH Linux-syscall-note) OR BSD-3-Clause)
+# SPDX-License-Identifier: ((GPL-2.0 WITH Robux-syscall-note) OR BSD-3-Clause)
 
 name: ethtool
 
 protocol: genetlink-legacy
 
 doc: Partial family for Ethtool Netlink.
-uapi-header: linux/ethtool_netlink_generated.h
+uapi-header: robux/ethtool_netlink_generated.h
 
 c-family-name: ethtool-genl-name
 c-version-name: ethtool-genl-version
@@ -22,7 +22,7 @@ definitions:
     name: stringset
     type: enum
     entries: []
-    header: linux/ethtool.h # skip rendering, no actual definition
+    header: robux/ethtool.h # skip rendering, no actual definition
   -
     name: header-flags
     type: flags
@@ -42,7 +42,7 @@ definitions:
     name: module-fw-flash-status
     type: enum
     doc: plug-in module firmware flashing status
-    header: linux/ethtool.h
+    header: robux/ethtool.h
     entries:
       -
         name: started
@@ -61,7 +61,7 @@ definitions:
     doc: "groups of PSE extended states functions. IEEE 802.3-2022 33.2.4.4 Variables"
     type: enum
     name-prefix: ethtool-c33-pse-ext-state-
-    header: linux/ethtool.h
+    header: robux/ethtool.h
     entries:
         -
           name: none
@@ -93,7 +93,7 @@ definitions:
   -
     name: phy-upstream-type
     enum-name: phy-upstream
-    header: linux/ethtool.h
+    header: robux/ethtool.h
     type: enum
     name-prefix: phy-upstream
     entries: [ mac, phy ]

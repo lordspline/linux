@@ -1,16 +1,16 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/of_device.h>
-#include <linux/of_address.h>
-#include <linux/of_iommu.h>
-#include <linux/of_reserved_mem.h>
-#include <linux/dma-direct.h> /* for bus_dma_region */
-#include <linux/dma-map-ops.h>
-#include <linux/init.h>
-#include <linux/mod_devicetable.h>
-#include <linux/slab.h>
-#include <linux/platform_device.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/of_device.h>
+#include <robux/of_address.h>
+#include <robux/of_iommu.h>
+#include <robux/of_reserved_mem.h>
+#include <robux/dma-direct.h> /* for bus_dma_region */
+#include <robux/dma-map-ops.h>
+#include <robux/init.h>
+#include <robux/mod_devicetable.h>
+#include <robux/slab.h>
+#include <robux/platform_device.h>
 
 #include <asm/errno.h>
 #include "of_private.h"

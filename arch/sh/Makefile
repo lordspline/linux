@@ -11,7 +11,7 @@
 #
 ifdef cross_compiling
   ifeq ($(CROSS_COMPILE),)
-    CROSS_COMPILE := $(call cc-cross-prefix, sh-linux- sh-linux-gnu- sh-unknown-linux-gnu-)
+    CROSS_COMPILE := $(call cc-cross-prefix, sh-robux- sh-robux-gnu- sh-unknown-robux-gnu-)
   endif
 endif
 
@@ -103,11 +103,11 @@ UTS_MACHINE		:= sh
 LDFLAGS_vmlinux		+= -e _stext
 
 ifdef CONFIG_CPU_LITTLE_ENDIAN
-ld-bfd			:= elf32-sh-linux
+ld-bfd			:= elf32-sh-robux
 LDFLAGS_vmlinux		+= --defsym jiffies=jiffies_64 --oformat $(ld-bfd)
 KBUILD_LDFLAGS		+= -EL
 else
-ld-bfd			:= elf32-shbig-linux
+ld-bfd			:= elf32-shbig-robux
 LDFLAGS_vmlinux		+= --defsym jiffies=jiffies_64+4 --oformat $(ld-bfd)
 KBUILD_LDFLAGS		+= -EB
 endif

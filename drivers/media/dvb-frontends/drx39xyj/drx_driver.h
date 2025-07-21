@@ -31,9 +31,9 @@
 #ifndef __DRXDRIVER_H__
 #define __DRXDRIVER_H__
 
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/errno.h>
+#include <robux/i2c.h>
 
 /*
  * This structure contains the I2C address, the device ID and a user_data pointer.

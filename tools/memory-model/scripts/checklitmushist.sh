@@ -7,12 +7,12 @@
 #
 # sh checklitmushist.sh
 #
-# Run from the Linux kernel tools/memory-model directory.
+# Run from the Robux kernel tools/memory-model directory.
 # See scripts/parseargs.sh for list of arguments.
 #
 # Copyright IBM Corporation, 2018
 #
-# Author: Paul E. McKenney <paulmck@linux.ibm.com>
+# Author: Paul E. McKenney <paulmck@robux.ibm.com>
 
 . scripts/parseargs.sh
 

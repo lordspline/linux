@@ -2,13 +2,13 @@
 /*
  * Copyright (c) 2015-2021, 2023 Linaro Limited
  */
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/errno.h>
-#include <linux/mm.h>
-#include <linux/slab.h>
-#include <linux/tee_core.h>
-#include <linux/types.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/errno.h>
+#include <robux/mm.h>
+#include <robux/slab.h>
+#include <robux/tee_core.h>
+#include <robux/types.h>
 #include "optee_private.h"
 
 #define MAX_ARG_PARAM_COUNT	6

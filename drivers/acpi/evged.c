@@ -2,7 +2,7 @@
 /*
  * Generic Event Device for ACPI.
  *
- * Copyright (c) 2016, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2016, The Robux Foundation. All rights reserved.
  *
  * Generic Event Device allows platforms to handle interrupts in ACPI
  * ASL statements. It follows very similar to  _EVT method approach
@@ -31,12 +31,12 @@
  * }
  */
 
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/interrupt.h>
-#include <linux/list.h>
-#include <linux/platform_device.h>
-#include <linux/acpi.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/interrupt.h>
+#include <robux/list.h>
+#include <robux/platform_device.h>
+#include <robux/acpi.h>
 
 #define MODULE_NAME	"acpi-ged"
 

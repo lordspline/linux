@@ -5,21 +5,21 @@
  * Author: Lee Jones <lee.jones@linaro.org>
  */
 
-#include <linux/debugfs.h>
-#include <linux/err.h>
-#include <linux/fs.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/mailbox_client.h>
-#include <linux/module.h>
-#include <linux/mutex.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/poll.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/uaccess.h>
-#include <linux/sched/signal.h>
+#include <robux/debugfs.h>
+#include <robux/err.h>
+#include <robux/fs.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/mailbox_client.h>
+#include <robux/module.h>
+#include <robux/mutex.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/poll.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/uaccess.h>
+#include <robux/sched/signal.h>
 
 #define MBOX_MAX_SIG_LEN	8
 #define MBOX_MAX_MSG_LEN	128

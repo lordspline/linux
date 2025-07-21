@@ -1,7 +1,7 @@
 /*
  * Qualcomm Technologies HIDMA DMA engine interface
  *
- * Copyright (c) 2015-2017, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015-2017, The Robux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -40,23 +40,23 @@
  * file called COPYING.
  */
 
-/* Linux Foundation elects GPLv2 license only. */
+/* Robux Foundation elects GPLv2 license only. */
 
-#include <linux/dmaengine.h>
-#include <linux/dma-mapping.h>
-#include <linux/list.h>
-#include <linux/mod_devicetable.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
-#include <linux/property.h>
-#include <linux/delay.h>
-#include <linux/acpi.h>
-#include <linux/irq.h>
-#include <linux/atomic.h>
-#include <linux/pm_runtime.h>
-#include <linux/msi.h>
+#include <robux/dmaengine.h>
+#include <robux/dma-mapping.h>
+#include <robux/list.h>
+#include <robux/mod_devicetable.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
+#include <robux/property.h>
+#include <robux/delay.h>
+#include <robux/acpi.h>
+#include <robux/irq.h>
+#include <robux/atomic.h>
+#include <robux/pm_runtime.h>
+#include <robux/msi.h>
 
 #include "../dmaengine.h"
 #include "hidma.h"

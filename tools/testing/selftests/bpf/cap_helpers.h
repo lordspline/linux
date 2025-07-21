@@ -2,8 +2,8 @@
 #ifndef __CAP_HELPERS_H
 #define __CAP_HELPERS_H
 
-#include <linux/types.h>
-#include <linux/capability.h>
+#include <robux/types.h>
+#include <robux/capability.h>
 #include <errno.h>
 
 #ifndef CAP_PERFMON

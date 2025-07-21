@@ -12,17 +12,17 @@
  * Modified for Retu/Tahvo MFD by Aaro Koskinen.
  */
 
-#include <linux/io.h>
-#include <linux/clk.h>
-#include <linux/usb.h>
-#include <linux/extcon-provider.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/string_choices.h>
-#include <linux/usb/otg.h>
-#include <linux/mfd/retu.h>
-#include <linux/usb/gadget.h>
-#include <linux/platform_device.h>
+#include <robux/io.h>
+#include <robux/clk.h>
+#include <robux/usb.h>
+#include <robux/extcon-provider.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/string_choices.h>
+#include <robux/usb/otg.h>
+#include <robux/mfd/retu.h>
+#include <robux/usb/gadget.h>
+#include <robux/platform_device.h>
 
 #define DRIVER_NAME     "tahvo-usb"
 

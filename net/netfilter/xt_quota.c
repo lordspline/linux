@@ -4,13 +4,13 @@
  *
  * Sam Johnston <samj@samj.net>
  */
-#include <linux/skbuff.h>
-#include <linux/slab.h>
-#include <linux/spinlock.h>
+#include <robux/skbuff.h>
+#include <robux/slab.h>
+#include <robux/spinlock.h>
 
-#include <linux/netfilter/x_tables.h>
-#include <linux/netfilter/xt_quota.h>
-#include <linux/module.h>
+#include <robux/netfilter/x_tables.h>
+#include <robux/netfilter/xt_quota.h>
+#include <robux/module.h>
 
 struct xt_quota_priv {
 	spinlock_t	lock;

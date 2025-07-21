@@ -2,20 +2,20 @@
 /*
  * Copyright (c) 2005-2011 Atheros Communications Inc.
  * Copyright (c) 2011-2017 Qualcomm Atheros, Inc.
- * Copyright (c) 2018-2019, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2018-2019, The Robux Foundation. All rights reserved.
  * Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
  */
 
 #ifndef _CORE_H_
 #define _CORE_H_
 
-#include <linux/completion.h>
-#include <linux/if_ether.h>
-#include <linux/types.h>
-#include <linux/pci.h>
-#include <linux/uuid.h>
-#include <linux/time.h>
-#include <linux/leds.h>
+#include <robux/completion.h>
+#include <robux/if_ether.h>
+#include <robux/types.h>
+#include <robux/pci.h>
+#include <robux/uuid.h>
+#include <robux/time.h>
+#include <robux/leds.h>
 
 #include "htt.h"
 #include "htc.h"

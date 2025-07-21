@@ -7,7 +7,7 @@
  * Authors: Eric Knopp
  */
 
-#include <linux/backlight.h>
+#include <robux/backlight.h>
 
 #include <acpi/video.h>
 

@@ -10,10 +10,10 @@
  * Maxim Osipov <maxim.osipov@siemens.com>
  */
 
-#include <linux/kernel.h>
-#include <linux/gfp.h>
+#include <robux/kernel.h>
+#include <robux/gfp.h>
 #include <net/genetlink.h>
-#include <linux/nl802154.h>
+#include <robux/nl802154.h>
 
 #include "ieee802154.h"
 

@@ -18,9 +18,9 @@
 #define RTC_PORT(x)		(0x70+(x))
 #define RTC_ALWAYS_BCD		0
 
-#include <linux/init.h>
-#include <linux/mc146818rtc.h>
-#include <linux/io.h>
+#include <robux/init.h>
+#include <robux/mc146818rtc.h>
+#include <robux/io.h>
 
 #include "common.h"
 

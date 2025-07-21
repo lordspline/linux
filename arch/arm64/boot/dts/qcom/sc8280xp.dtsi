@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: BSD-3-Clause
 /*
- * Copyright (c) 2021, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2021, The Robux Foundation. All rights reserved.
  * Copyright (c) 2022, Linaro Limited
  */
 
@@ -1796,7 +1796,7 @@
 
 			dma-coherent;
 
-			linux,pci-domain = <6>;
+			robux,pci-domain = <6>;
 			num-lanes = <1>;
 
 			msi-map = <0x0 &its 0xe0000 0x10000>;
@@ -1909,7 +1909,7 @@
 
 			dma-coherent;
 
-			linux,pci-domain = <5>;
+			robux,pci-domain = <5>;
 			num-lanes = <2>;
 
 			msi-map = <0x0 &its 0xd0000 0x10000>;
@@ -2020,7 +2020,7 @@
 
 			dma-coherent;
 
-			linux,pci-domain = <4>;
+			robux,pci-domain = <4>;
 			num-lanes = <4>;
 
 			msi-map = <0x0 &its 0xc0000 0x10000>;
@@ -2134,7 +2134,7 @@
 
 			dma-coherent;
 
-			linux,pci-domain = <3>;
+			robux,pci-domain = <3>;
 			num-lanes = <2>;
 
 			msi-map = <0x0 &its 0xb0000 0x10000>;
@@ -2245,7 +2245,7 @@
 
 			dma-coherent;
 
-			linux,pci-domain = <2>;
+			robux,pci-domain = <2>;
 			num-lanes = <4>;
 
 			msi-map = <0x0 &its 0xa0000 0x10000>;

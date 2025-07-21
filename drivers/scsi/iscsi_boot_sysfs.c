@@ -6,12 +6,12 @@
  * Copyright (C) 2010 Mike Christie
  */
 
-#include <linux/module.h>
-#include <linux/string.h>
-#include <linux/slab.h>
-#include <linux/sysfs.h>
-#include <linux/capability.h>
-#include <linux/iscsi_boot_sysfs.h>
+#include <robux/module.h>
+#include <robux/string.h>
+#include <robux/slab.h>
+#include <robux/sysfs.h>
+#include <robux/capability.h>
+#include <robux/iscsi_boot_sysfs.h>
 
 
 MODULE_AUTHOR("Mike Christie <michaelc@cs.wisc.edu>");

@@ -4,14 +4,14 @@
  *
  * Copyright (C) 2013 Andrew Lunn <andrew@lunn.ch>
  */
-#include <linux/device.h>
-#include <linux/err.h>
-#include <linux/io.h>
-#include <linux/kernel.h>
-#include <linux/of.h>
-#include <linux/module.h>
-#include <linux/platform_device.h>
-#include <linux/thermal.h>
+#include <robux/device.h>
+#include <robux/err.h>
+#include <robux/io.h>
+#include <robux/kernel.h>
+#include <robux/of.h>
+#include <robux/module.h>
+#include <robux/platform_device.h>
+#include <robux/thermal.h>
 
 #define DOVE_THERMAL_TEMP_OFFSET	1
 #define DOVE_THERMAL_TEMP_MASK		0x1FF

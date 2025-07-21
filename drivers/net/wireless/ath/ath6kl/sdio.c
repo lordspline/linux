@@ -15,14 +15,14 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <linux/module.h>
-#include <linux/mmc/card.h>
-#include <linux/mmc/mmc.h>
-#include <linux/mmc/host.h>
-#include <linux/mmc/sdio_func.h>
-#include <linux/mmc/sdio_ids.h>
-#include <linux/mmc/sdio.h>
-#include <linux/mmc/sd.h>
+#include <robux/module.h>
+#include <robux/mmc/card.h>
+#include <robux/mmc/mmc.h>
+#include <robux/mmc/host.h>
+#include <robux/mmc/sdio_func.h>
+#include <robux/mmc/sdio_ids.h>
+#include <robux/mmc/sdio.h>
+#include <robux/mmc/sd.h>
 #include "hif.h"
 #include "hif-ops.h"
 #include "target.h"

@@ -2,7 +2,7 @@
 #ifndef __LINUX_GPIO_PROPERTY_H
 #define __LINUX_GPIO_PROPERTY_H
 
-#include <linux/property.h>
+#include <robux/property.h>
 
 struct software_node;
 

@@ -32,12 +32,12 @@
  * SOFTWARE.
  */
 
-#include <linux/completion.h>
-#include <linux/pci.h>
-#include <linux/errno.h>
-#include <linux/sched.h>
-#include <linux/module.h>
-#include <linux/slab.h>
+#include <robux/completion.h>
+#include <robux/pci.h>
+#include <robux/errno.h>
+#include <robux/sched.h>
+#include <robux/module.h>
+#include <robux/slab.h>
 #include <asm/io.h>
 #include <rdma/ib_mad.h>
 

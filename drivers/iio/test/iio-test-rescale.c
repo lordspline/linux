@@ -5,11 +5,11 @@
  * Copyright (c) 2021 Liam Beguin <liambeguin@gmail.com>
  */
 
-#include <linux/gcd.h>
-#include <linux/overflow.h>
+#include <robux/gcd.h>
+#include <robux/overflow.h>
 
-#include <linux/iio/afe/rescale.h>
-#include <linux/iio/iio.h>
+#include <robux/iio/afe/rescale.h>
+#include <robux/iio/iio.h>
 
 #include <kunit/test.h>
 

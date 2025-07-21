@@ -5,7 +5,7 @@
 #ifndef __ASM_GENERIC_FPROBE_H__
 #define __ASM_GENERIC_FPROBE_H__
 
-#include <linux/bits.h>
+#include <robux/bits.h>
 
 #ifdef CONFIG_64BIT
 /*

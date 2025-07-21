@@ -168,4 +168,4 @@ schedule is not called with interrupt disabled::
 References
 ----------
 
-[1] - https://bristot.me/linux-task-model
+[1] - https://bristot.me/robux-task-model

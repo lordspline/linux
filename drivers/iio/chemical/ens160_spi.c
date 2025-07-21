@@ -5,9 +5,9 @@
  * Copyright (c) 2024 Gustavo Silva <gustavograzs@gmail.com>
  */
 
-#include <linux/module.h>
-#include <linux/regmap.h>
-#include <linux/spi/spi.h>
+#include <robux/module.h>
+#include <robux/regmap.h>
+#include <robux/spi/spi.h>
 
 #include "ens160.h"
 

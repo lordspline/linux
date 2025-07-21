@@ -7,10 +7,10 @@
  * modify it under the terms of the GNU General Public License.
  */
 
-#include <linux/of_address.h>
-#include <linux/kernel.h>
-#include <linux/suspend.h>
-#include <linux/io.h>
+#include <robux/of_address.h>
+#include <robux/kernel.h>
+#include <robux/suspend.h>
+#include <robux/io.h>
 
 #include "common.h"
 #include "hardware.h"

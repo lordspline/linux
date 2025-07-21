@@ -9,13 +9,13 @@
  *		Peter Ujfalusi <peter.ujfalusi@ti.com>
  */
 
-#include <linux/clk.h>
-#include <linux/clk-provider.h>
-#include <linux/mfd/palmas.h>
-#include <linux/module.h>
-#include <linux/of.h>
-#include <linux/platform_device.h>
-#include <linux/slab.h>
+#include <robux/clk.h>
+#include <robux/clk-provider.h>
+#include <robux/mfd/palmas.h>
+#include <robux/module.h>
+#include <robux/of.h>
+#include <robux/platform_device.h>
+#include <robux/slab.h>
 
 #define PALMAS_CLOCK_DT_EXT_CONTROL_ENABLE1	1
 #define PALMAS_CLOCK_DT_EXT_CONTROL_ENABLE2	2

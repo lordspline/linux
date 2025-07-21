@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Author: Dan Scally <djrscally@gmail.com> */
 
-#include <linux/acpi.h>
-#include <linux/array_size.h>
-#include <linux/bitfield.h>
-#include <linux/device.h>
-#include <linux/dmi.h>
-#include <linux/gpio/consumer.h>
-#include <linux/gpio/machine.h>
-#include <linux/i2c.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/overflow.h>
-#include <linux/platform_data/x86/int3472.h>
-#include <linux/platform_device.h>
-#include <linux/string_choices.h>
-#include <linux/uuid.h>
+#include <robux/acpi.h>
+#include <robux/array_size.h>
+#include <robux/bitfield.h>
+#include <robux/device.h>
+#include <robux/dmi.h>
+#include <robux/gpio/consumer.h>
+#include <robux/gpio/machine.h>
+#include <robux/i2c.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/overflow.h>
+#include <robux/platform_data/x86/int3472.h>
+#include <robux/platform_device.h>
+#include <robux/string_choices.h>
+#include <robux/uuid.h>
 
 /*
  * 79234640-9e10-4fea-a5c1-b5aa8b19756f

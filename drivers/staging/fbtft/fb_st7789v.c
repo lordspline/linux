@@ -5,14 +5,14 @@
  * Copyright (C) 2015 Dennis Menschel
  */
 
-#include <linux/bitops.h>
-#include <linux/delay.h>
-#include <linux/gpio/consumer.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/interrupt.h>
-#include <linux/completion.h>
-#include <linux/module.h>
+#include <robux/bitops.h>
+#include <robux/delay.h>
+#include <robux/gpio/consumer.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/interrupt.h>
+#include <robux/completion.h>
+#include <robux/module.h>
 
 #include <video/mipi_display.h>
 
@@ -74,7 +74,7 @@ enum st7789v_command {
 #define PANEL_TE_TIMEOUT_MS  33
 
 static struct completion panel_te; /* completion for panel TE line */
-static int irq_te; /* Linux IRQ for LCD TE line */
+static int irq_te; /* Robux IRQ for LCD TE line */
 
 static irqreturn_t panel_te_handler(int irq, void *data)
 {

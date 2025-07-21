@@ -6,11 +6,11 @@
  *                2000 by Takashi Iwai <tiwai@suse.de>
  */
 
-#include <linux/init.h>
-#include <linux/export.h>
-#include <linux/slab.h>
-#include <linux/sched/signal.h>
-#include <linux/mm.h>
+#include <robux/init.h>
+#include <robux/export.h>
+#include <robux/slab.h>
+#include <robux/sched/signal.h>
+#include <robux/mm.h>
 #include <sound/core.h>
 
 #include <sound/seq_kernel.h>

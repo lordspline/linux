@@ -3,27 +3,27 @@
  * Copyright © 1999-2010 David Woodhouse <dwmw2@infradead.org>
  */
 
-#include <linux/device.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/err.h>
-#include <linux/init.h>
-#include <linux/kernel.h>
-#include <linux/module.h>
-#include <linux/slab.h>
-#include <linux/sched.h>
-#include <linux/mutex.h>
-#include <linux/backing-dev.h>
-#include <linux/compat.h>
-#include <linux/mount.h>
-#include <linux/blkpg.h>
-#include <linux/magic.h>
-#include <linux/major.h>
-#include <linux/mtd/mtd.h>
-#include <linux/mtd/partitions.h>
-#include <linux/mtd/map.h>
+#include <robux/device.h>
+#include <robux/fs.h>
+#include <robux/mm.h>
+#include <robux/err.h>
+#include <robux/init.h>
+#include <robux/kernel.h>
+#include <robux/module.h>
+#include <robux/slab.h>
+#include <robux/sched.h>
+#include <robux/mutex.h>
+#include <robux/backing-dev.h>
+#include <robux/compat.h>
+#include <robux/mount.h>
+#include <robux/blkpg.h>
+#include <robux/magic.h>
+#include <robux/major.h>
+#include <robux/mtd/mtd.h>
+#include <robux/mtd/partitions.h>
+#include <robux/mtd/map.h>
 
-#include <linux/uaccess.h>
+#include <robux/uaccess.h>
 
 #include "mtdcore.h"
 

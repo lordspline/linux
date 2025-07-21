@@ -11,8 +11,8 @@
 #ifndef CX24120_H
 #define CX24120_H
 
-#include <linux/dvb/frontend.h>
-#include <linux/firmware.h>
+#include <robux/dvb/frontend.h>
+#include <robux/firmware.h>
 
 struct cx24120_initial_mpeg_config {
 	u8 x1;

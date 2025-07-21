@@ -4,14 +4,14 @@
  *
  * Copyright 2012 Red Hat <mjg@redhat.com>
  */
-#include <linux/module.h>
-#include <linux/usb.h>
-#include <linux/device.h>
-#include <linux/errno.h>
-#include <linux/kernel.h>
-#include <linux/acpi.h>
-#include <linux/pci.h>
-#include <linux/usb/hcd.h>
+#include <robux/module.h>
+#include <robux/usb.h>
+#include <robux/device.h>
+#include <robux/errno.h>
+#include <robux/kernel.h>
+#include <robux/acpi.h>
+#include <robux/pci.h>
+#include <robux/usb/hcd.h>
 
 #include "hub.h"
 

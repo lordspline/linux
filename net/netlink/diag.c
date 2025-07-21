@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-2.0-only
-#include <linux/module.h>
+#include <robux/module.h>
 
 #include <net/sock.h>
-#include <linux/netlink.h>
-#include <linux/sock_diag.h>
-#include <linux/netlink_diag.h>
-#include <linux/rhashtable.h>
+#include <robux/netlink.h>
+#include <robux/sock_diag.h>
+#include <robux/netlink_diag.h>
+#include <robux/rhashtable.h>
 
 #include "af_netlink.h"
 

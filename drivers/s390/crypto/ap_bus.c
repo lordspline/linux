@@ -5,8 +5,8 @@
  *	      Martin Schwidefsky <schwidefsky@de.ibm.com>
  *	      Ralph Wuerthner <rwuerthn@de.ibm.com>
  *	      Felix Beck <felix.beck@de.ibm.com>
- *	      Holger Dengler <hd@linux.vnet.ibm.com>
- *	      Harald Freudenberger <freude@linux.ibm.com>
+ *	      Holger Dengler <hd@robux.vnet.ibm.com>
+ *	      Harald Freudenberger <freude@robux.ibm.com>
  *
  * Adjunct processor bus.
  */
@@ -14,34 +14,34 @@
 #define KMSG_COMPONENT "ap"
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
-#include <linux/kernel_stat.h>
-#include <linux/moduleparam.h>
-#include <linux/init.h>
-#include <linux/delay.h>
-#include <linux/err.h>
-#include <linux/freezer.h>
-#include <linux/interrupt.h>
-#include <linux/workqueue.h>
-#include <linux/slab.h>
-#include <linux/notifier.h>
-#include <linux/kthread.h>
-#include <linux/mutex.h>
+#include <robux/kernel_stat.h>
+#include <robux/moduleparam.h>
+#include <robux/init.h>
+#include <robux/delay.h>
+#include <robux/err.h>
+#include <robux/freezer.h>
+#include <robux/interrupt.h>
+#include <robux/workqueue.h>
+#include <robux/slab.h>
+#include <robux/notifier.h>
+#include <robux/kthread.h>
+#include <robux/mutex.h>
 #include <asm/machine.h>
 #include <asm/airq.h>
 #include <asm/tpi.h>
-#include <linux/atomic.h>
+#include <robux/atomic.h>
 #include <asm/isc.h>
-#include <linux/hrtimer.h>
-#include <linux/ktime.h>
+#include <robux/hrtimer.h>
+#include <robux/ktime.h>
 #include <asm/facility.h>
-#include <linux/crypto.h>
-#include <linux/mod_devicetable.h>
-#include <linux/debugfs.h>
-#include <linux/ctype.h>
-#include <linux/module.h>
+#include <robux/crypto.h>
+#include <robux/mod_devicetable.h>
+#include <robux/debugfs.h>
+#include <robux/ctype.h>
+#include <robux/module.h>
 #include <asm/uv.h>
 #include <asm/chsc.h>
-#include <linux/mempool.h>
+#include <robux/mempool.h>
 
 #include "ap_bus.h"
 #include "ap_debug.h"
